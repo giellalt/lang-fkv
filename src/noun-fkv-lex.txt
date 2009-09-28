@@ -1,105 +1,77 @@
 LEXICON NounRoot
 
-! alternativ a:
-auto:aut1o 1 ;
-!mato 1 ;
-
-! alternativ b:
-!auto AUTO ;
-!mato 1 ;
 
 
+! 10	yksi-tavvuiset Vi
+maa		  10 ;
+tie		  10 ;
+yö		  10 ;
+tuorestai 10 ;
+helluntai 10 ;
 
-talo 1 ;
-valo 1 ;
-matto 1 ;
-mato 1 ;
-häly 1 ;
-tiuku 1 ;
-kumpu 1 ;
-loppu 1 ;
-papu 1 ;
-puku 1 ;
-maku 1 ;
+! 21	kaksitavvuiset yksirankaset
+aika   21 ;
+mettä  21 ;
+joki   21 ;
+pappi  21 ;
+joukko 21 ;
 
-palvelu 2 ;
+! 31	kaksitavvuiset kakirankaset
+pieni 31 ;
+lumi  31 ;
+käsi  31 ;
+viisi 31 ;
+hirsi 31 ;
+lapsi 31 ;
+mies  31 ;
 
-valtio 3 ;
+! 22	usseempitavvuiset vokaalirankaiset
+meininki   22 ;
+tuntur	   22 ;
+paivukko   22 ;
+tihheempi  22 ;
+soppiva	   22 ;
+kulkkiija  22 ;
+opettaaja  22 ;
+sivakka	   22 ;
 
-laatikko 4 ;
+! 32	usseempitavvuiset konsonanttiirankaiset
+tytär	 32 ;
+kannel	 32 ;
+sisar	 32 ;
+elläin	 32 ;
+tyven	 32 ;
+syđän	 32 ;
+lämmin	 32 ;
+rakkhaus:rakkhaute 32 ;
+korkkeus 32 ;
+neljes	 32 ;
+tuhat	 32 ;
 
-peli 5 ;
-vanki 5 ;
-risti 5 ;
+! 23	kokkoontumarankaiset vokaalirankaiset
+valkkee 23 ;
+kauhee  23 ;
+kurkkii 23 ;
+assii   23 ;
 
-paperi 6 ;
-banaani 6 ;
+! 33	kokkoontumarankaiset konsonanttirankaiset
+opas	 33 ;
+rakas	 33 ;
+ruvis	 33 ;
+tyyris	 33 ;
+voimakas 33 ;
+vuođet	 33 ;
+huonet	 33 ;
+tervet	 33 ;
+siikatet 33 ;
+askelet	 33 ;
 
-ovi:ove 7 ;
-kurki:kurke 7 ;
+! 40	ekstrakonsonanttirankaiset
+veres	    40 ;
+varis	    40 ;
+kokkous	    40 ;
+vihrinen    40 ;
+ihminen	    40 ;
+kainulainen 40 ;
 
-nalle 8 ;
-Elaine 8 ;
 
-kala 9 ;
-ranta 9 ;
-sika 9 ;
-
-koira 10 ;
-kukka 10 ;
-ruoka 10 ;
-sota 10 ;
-
-omena 11 ;
-
-kulkija 12 ;
-
-katiska 13 ;
-
-maa 18 ;
-
-suo 19 ;
-tie 19 ;
-
-filee 20 ;
-
-rosé 21 ;
-
-parfait 22 ;
-
-uni:une 24 ;
-lumi:lume 24 ;
-
-toimi:toime 25 ;
-
-käsi:käte 27 ;
-susi:sute 27 ;
-mesi:mete 27 ;
-
-kynsi:kynte 28 ;
-
-lapsi:lapse 29 ;
-
-veitsi:veitse 30 ;
-
-sisar:sisare 32 ;
-
-kytkin:kytkime 33 ;
-
-nainen:naise 38 ;
-suomalainen:suomalaise 38 ;
-venäläinen:venäläise 38 ;
-
-vastaus:vastau 39 ;
-
-!kalleus:kalleute 40 ;
-
-!vieras:vieraa 41 ;
-
-!mies:miehe 42 ;
-
-!Kevät 44 ;
-
-!hame 48 ;
-
-!askel:askele 49 ;
