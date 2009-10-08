@@ -14,6 +14,8 @@ Alphabet
 
  p1:p t1:t k1:k
 
+ %^WG %^A0 
+
  X1:0 X2:0 X3:0 X4:0 X5:0 X6:0 X7:0 X8:0 X9:0   ! diacritics
  Y1:0 Y2:0 Y3:0 Y4:0 Y5:0 Y6:0 Y7:0 Y8:0 Y9:0 
  Z1:0 Z2:0 Z3:0 Z4:0 Z5:0 Z6:0 Z7:0 Z8:0 Z9:0 
@@ -28,16 +30,17 @@ Sets
  Neutral = i e i2 i3 i4 i5 ;
  ArchiVow = %^A %^O %^U %^V ;
  FrontNeutral = i e ä ö y i2 i3 i4 i5 ;
- Dummy = %> !%#%# 
- X1 X2 X3 X4 X5 X6 X7 X8 X9
+ Dummy = %> 
+ %^WG %^A0 %^TES
+  X1 X2 X3 X4 X5 X6 X7 X8 X9  
  Y1 Y2 Y3 Y4 Y5 Y6 Y7 Y8 Y9 
- Z1 Z2 Z3 Z4 Z5 Z6 Z7 Z8 Z9 %^TES ; 
+ Z1 Z2 Z3 Z4 Z5 Z6 Z7 Z8 Z9  ; 
  NonFront = Cns  Back Neutral Dummy ArchiVow ;
  NonBack =  Cns Front Neutral Dummy ArchiVow ;
- WeG = X1 X2 X4 Y1 ;
+ WeG = %^WG  ;
  HighLabial = u y ;
  Liquid = l r ;
- VclessStop = k p t k1 p1 t1 ;
+ VclessStop = k p t ;
  Labial = p b m ;
  Velar = g k ;
  Nasal = m n ;
@@ -140,12 +143,10 @@ Rules
       where Cx in Liquid ;
 
 "Weak grade of poika, aika"
-! i:j <=> #: [ p o | a ] _ k: a: WeG: ;
- i:j <=> .#. [ p o | a ] _ k: a: WeG: ;
+ i:j <=> #:0 [ p o | a ] _ k: a: WeG: ;
 
 "Weak grade of ruoka"
-! o:u => #: r u _ k: a: WeG: ; 
- o:u => .#. r u _ k: a: WeG: ; 
+ o:u => #:0 r u _ k: a: WeG: ; 
 
 
 ! Consonant alternations
