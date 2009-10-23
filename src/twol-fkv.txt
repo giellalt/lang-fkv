@@ -2,7 +2,7 @@ Alphabet
 a b c d đ e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø
 
 A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø
-%+:0 %^A:ä %^O:ö %^U:y %^V %^wg:0 %>:0 ;
+%+:0 %^A:ä %^O:ö %^U:y %^V %^wg:0 %^E2I:0 %>:0 ;
 
 ! %^A:ä %^O:ö %^U:y
 
@@ -15,7 +15,7 @@ Vowel = FrontVowel BackVowel SomeVowel ;
 Conson = b c d đ f g h j k l m n p q r s t v w x y z ; 
 NeutralVowel = e i ;
 Segment = Vowel Conson ;
-Dummy = %> %+ %^wg ;
+Dummy = %> %+ %^wg %^E2I ;
 NonFront = BackVowel Conson Neutral Dummy ;
 
 !Definitions
@@ -24,6 +24,9 @@ NonFront = BackVowel Conson Neutral Dummy ;
 ! Front Vowel = ä o y 
 
 Rules 
+
+
+! Consonant gradation
 
 "Gemination"
 %+:Cx <=> Cy _ Vowel: %>:0 Vowel: ;
@@ -67,14 +70,22 @@ k:j <=> i _ Vowel: %^wg:0 ;
 !€ lahti^wg
 !€ lahđi0
 
+
+
+"Gradation of k:0"
+ k:0  <=> Vowel _ (%+) Vowel: %^wg:0 ;
+
+"Gradation of k between u/y"
+     k:v <=> Conson u _ u %^wg:0 ; 
+             Conson y _ y %^wg:0 ; 
+             
+
     
-"Gradation of k between u/y" ! k weakens to v between u and y"
-k:v <=> Conson u _ u %^wg ; 
-        Conson y _ y %^wg ; 
-        
-!"Gradation of k:0"
-!k:0 <=> Vowel _ (%+) Vowel: %^wg ;
-        
+! this will not give uku - uvun, but puku - puvun.
+
+
+
+! Vowel harmony 
 
 "Back harmony"
   [  %^A:a | %^O:o | %^U:u ] <=> BackVowel: NonFront:*
@@ -92,4 +103,46 @@ k:v <=> Conson u _ u %^wg ;
  %^V:Vx <=> Vx: %>:0 s %^V: _ ;
 	where Vx in ( a e i o u y ä ö ) ; 
 	
-	
+! Other vowel rules
+
+
+"e:i in nom.sg. of e-stems" ! ove : ovi
+ e:i <=> _ %^E2I:0 #:0 ;
+
+! All XYZ to be removed and replaced with human-readable tags
+
+!! "e:0 in plural of e-stems" ! ovien
+!!  e:0 <=> _  (Dummy:)  %>:0 [ i2:i | i2:j ] ;
+!! ! Y1 removed
+!! 
+!! "e:0 in consonant stems"
+!!  e:0 <=> Cns: _ [ Y5: | Y7: ] %>:0 t ;
+!! 
+!! "i:0 in par and gen pl of i-stems" ! ristien
+!!  i:0 <=> Cns: _ Z2: %>:0 i2:i %>:0 [ e n | %^A: ] ;
+!! 
+!! "i:e in i-stems"
+!!  i:e <=> Cns: _ ( X4:) %>:0 [ i2:i | i2:j ] %>:0 ;
+!! 
+!! "i as j intervocalically in affixes"
+!!  i2:j <=> [ Vow - :i ] (Dummy: | %^¤: ) %>:0 _ %>:0 Vow:Vow ; 
+!! ! valoien : valojen
+!! 
+!! "a to 0 in front of i"
+!!  a:0 <=> _ [ X2: | Y2: ] %>:0 i2: ;
+!! !a:0 <=> [ u | o ] (Neutral) Cns: Cns:* _  (Dummy:) [ X2: | Y2: ] %>: i2: ;
+!!  ! koiraien : koirien
+!! 
+!! "a to o in front of i"
+!!  a:o <=> _ [ X4: | Y1: | Y3: ] %>:0 i2: ;
+!! !a:o <=> a Cns: Cns:*  _  (Dummy:) Y3: %>: i: ;
+!!  ! kalaien : kalojen
+!! 
+!! ! Long vowel and diphtong shortening
+!! ! ----------------------------------
+!! 
+!! "Shortening of ie, yö, uo and long vowels"
+!!  Vx:0 <=> _ Vy: (Dummy:) %>:0 [ i2: | i3 | i4: | i5 ] ;
+!!       where Vx in ( i y u a e i o u y ä ö )
+!! 	    Vy in ( e ö o a e i o u y ä ö )
+!! 	    matched ;	
