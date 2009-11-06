@@ -41,12 +41,12 @@ LEXICON 40	! ekstrakonsonanttirankaiset
 !!! ! Basic vowel stems
 !!! ! -----------------
 !!! 
-!!! LEXICON strong-v-stem
-!!!  nom-strong ;
-!!!  gae-strong ;
-!!!  +Sg:%>i2 com ;
-!!!  +Pl:%>i2 com ;
-!!! 
+LEXICON strong-v-stem
+ nom-strong ;
+ gae-strong ;
+ +Sg:%>i2 com ;
+ +Pl:%>i2 com ;
+
 LEXICON weak-v-stem
  +Sg+Gen:%>n K ;
  +Sg+Acc:%>n K ;
@@ -87,14 +87,14 @@ LEXICON sgpl-cases
 LEXICON com
  +Com:%>ne Pxx ; ! Not to K, since Px must be present
                  ! Note that adjectives have -ine without Px
-!!! 
-!!! 
-!!! ! Lexica for the non-uniform cases
-!!! ! --------------------------------
-!!! 
-!!! LEXICON short-par
-!!!  +Sg+Par:%>%^A PxxK ;
-!!! ! does not handle valoaan vs. *salaaan
+
+
+! Lexica for the non-uniform cases
+! --------------------------------
+
+LEXICON short-par
+ +Sg+Par:%>%^A PxxK ;
+! does not handle valoaan vs. *salaaan
 !!! 
 LEXICON long-par
  +Sg+Par:%>t%^A PxxK ;
@@ -132,10 +132,10 @@ LEXICON shortparpl
 
 !!! LEXICON longparpl
 !!!  +Par:%>%t^A PxxK ;
-!!! 
-!!! LEXICON shortillpl
-!!!  +Ill:%>hi n-PxK ;
-!!! 
+
+LEXICON shortillpl
+ +Ill:%>hi n-PxK ;
+
 LEXICON shorterillpl
  +Ill:%>i2 n-PxK ;		
 
