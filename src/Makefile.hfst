@@ -29,32 +29,32 @@ all: ../bin/fkv.hfst
 lexc-fkv.bin: ../bin/lexc-fkv.bin
 ../bin/lexc-fkv.bin: $(LEX)
 	@echo
-	@echo "*** Building lexc-fkv.bin ***" ;
+	@echo "*** Building $(notdir $@) ***" ;
 	@echo
-	hfst-lexc $^ -o ../bin/lexc-fkv.bin
+	hfst-lexc $^ -o $@
 
 twol-fkv.bin: ../bin/twol-fkv.bin
 ../bin/twol-fkv.bin: twol-fkv.txt
 	@echo
-	@echo "*** Building twol-fkv.bin ***" ;
+	@echo "*** Building $(notdir $@) ***" ;
 	@echo
 	hfst-twolc $< -o $@ 
 
 fkv-gen.hfst: ../bin/fkv-gen.hfst 
 ../bin/fkv-gen.hfst: ../bin/lexc-fkv.bin ../bin/twol-fkv.bin
 	@echo
-	@echo "*** Building fkv-gen.hfst ***" ;
+	@echo "*** Building $(notdir $@) ***" ;
 	@echo
 	hfst-compose-intersect -l $+ -o $@
 
 fkv.hfst: ../bin/fkv.hfst
 ../bin/fkv.hfst: ../bin/fkv-gen.hfst
 	@echo
-	@echo "*** Building fkv.hfst ***" ;
+	@echo "*** Building $(notdir $@) ***" ;
 	@echo
 	hfst-invert $< -o $@
 	@echo
-	@echo "*** Building lookup-optimized fkv.hfst.ol ***" ;
+	@echo "*** Building lookup-optimized $(notdir $@).ol ***" ;
 	@echo
 	hfst-lookup-optimize $@ -o $@.ol
 
