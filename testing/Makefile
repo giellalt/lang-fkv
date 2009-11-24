@@ -25,7 +25,7 @@ TEMP = /tmp
 # This variable is holding the filename of the save file:
 # (makes the Makefile truly language independent for
 # the Sami languages)
-SAVEFILE = $(wildcard $(FSTDIR)/fin.save)
+SAVEFILE = $(wildcard $(FSTDIR)/fkv.save)
 
 # Copied from old LS makefile:
 # Bond, James Bond
