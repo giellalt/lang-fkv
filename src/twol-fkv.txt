@@ -23,8 +23,8 @@ NonFront = BackVowel Conson NeutralVowel Dummy ;
 ! Backvowel = a o u 
 ! Front Vowel = ä o y 
 
-Rules 
 
+Rules 
 
 ! Consonant gradation
 
@@ -34,8 +34,8 @@ Rules
               Cx in ( h j k l m n p r s t v ) 
     matched; 
 
-!!!  !  bare når det er foran dem en kort stavelse med trykk
-!!!         
+!   bare når det er foran dem en kort stavelse med trykk
+!   f.eks. aikkaa: aika       
 
 "II-I"
 Cy:0 <=> Cx _ Cy Vowel: %^wg:0 ;
@@ -45,6 +45,7 @@ Cy:0 <=> Cx _ Cy Vowel: %^wg:0 ;
     
  !Cy Dobbelkonsonant
  !Cx Enkelkonsonant
+! f.eks. lkk-lk: pölkkää-pölkäs 
  
  
  "I-0 for ptk"
@@ -53,6 +54,7 @@ Cx:0 <=> Vowel: _ [Cx|%+:0] (Dummy:) Vowel: %^wg:0 ;
 
 
 ! Single k,p,t are realized as zero in the beginning of a syllable? 
+
 
 "I-0 for k:j" 
 k:j <=> i _ Vowel: %^wg:0 ;
@@ -109,6 +111,23 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* _ ;
 
 "e:i in nom.sg. of e-stems" ! ove : ovi
  e:i <=> _ %^E2I:0 #:0 ;
+
+! uuet
+!"e+i>i"
+!Vokaalivaihettelu pl i:m ja preteritin i:n eđelä
+
+! e:i <=> Cns: _ ( %+: Cns:) %>:0 [ i2:i | i2:j ] %>:0
+!       where Cns in ( h j k l m n p r s t v ) ;
+
+!e:i <=> Cns: _ ( %+:0 ) i ; 
+!e:i <=> i: _ (%+) Vowel: %^wg:0 ;
+       
+
+! "i:e in i-stems"
+!  i:e <=> Cns: _ ( X4:) %>:0 [ i2:i | i2:j ] %>:0 ;
+
+
+
 
 ! All XYZ to be removed and replaced with human-readable tags
 
