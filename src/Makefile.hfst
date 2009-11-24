@@ -1,5 +1,6 @@
 # *************************************************************** #
-# This is a makefile that builds the Faroese morphological parser #
+# This is a makefile that builds the Kven morphological parser    #
+# using the HFST tools.                                           #
 # *************************************************************** #
 
 LEX = fkv-lex.txt \
