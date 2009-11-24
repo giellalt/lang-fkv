@@ -1,5 +1,5 @@
 Alphabet
-a b c d đ e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø
+a b c d đ e f g h i j k l m n o p q r s t u ü v w x y z å ä ö æ ø
 
 A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø
 %+:0 %^A:ä %^O:ö %^U:y %^V %^wg:0 %^E2I:0 %>:0 ;
@@ -16,7 +16,7 @@ Conson = b c d đ f g h j k l m n p q r s t v w x y z ;
 NeutralVowel = e i ;
 Segment = Vowel Conson ;
 Dummy = %> %+ %^wg %^E2I ;
-NonFront = BackVowel Conson Neutral Dummy ;
+NonFront = BackVowel Conson NeutralVowel Dummy ;
 
 !Definitions
 ! Vokaalisointua 
@@ -78,9 +78,8 @@ k:j <=> i _ Vowel: %^wg:0 ;
 "Gradation of k between u/y"
      k:v <=> Conson u _ u %^wg:0 ; 
              Conson y _ y %^wg:0 ; 
-             
 
-    
+
 ! this will not give uku - uvun, but puku - puvun.
 
 
@@ -88,8 +87,10 @@ k:j <=> i _ Vowel: %^wg:0 ;
 ! Vowel harmony 
 
 "Back harmony"
-  [  %^A:a | %^O:o | %^U:u ] <=> BackVowel: NonFront:*
-				%>: NonFront:* _ ;
+Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* _ ;
+          where Vx in ( %^A %^O %^U )
+                Vy in (   a   o   u )
+          matched ;
 
 "Vowel copying"
  %^V:Vx <=> :Vx Dummy:* %>:0 _ ;
@@ -145,4 +146,4 @@ k:j <=> i _ Vowel: %^wg:0 ;
 !!  Vx:0 <=> _ Vy: (Dummy:) %>:0 [ i2: | i3 | i4: | i5 ] ;
 !!       where Vx in ( i y u a e i o u y ä ö )
 !! 	    Vy in ( e ö o a e i o u y ä ö )
-!! 	    matched ;	
+!! 	    matched ;
