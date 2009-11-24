@@ -31,21 +31,21 @@ lexc-fkv.bin: ../bin/lexc-fkv.bin
 	@echo
 	@echo "*** Building lexc-fkv.bin ***" ;
 	@echo
-	hfst-lexc $(LEX) -o ../bin/lexc-fkv.bin
+	hfst-lexc $^ -o ../bin/lexc-fkv.bin
 
 twol-fkv.bin: ../bin/twol-fkv.bin
 ../bin/twol-fkv.bin: twol-fkv.txt
 	@echo
 	@echo "*** Building twol-fkv.bin ***" ;
 	@echo
-	hfst-twolc twol-fkv.txt -o $@ 
+	hfst-twolc $< -o $@ 
 
 fkv-gen.hfst: ../bin/fkv-gen.hfst 
-../bin/fkv-gen.hfst: ../bin/twol-fkv.bin ../bin/lexc-fkv.bin
+../bin/fkv-gen.hfst: ../bin/lexc-fkv.bin ../bin/twol-fkv.bin
 	@echo
 	@echo "*** Building fkv-gen.hfst ***" ;
 	@echo
-	hfst-compose-intersect -l ../bin/lexc-fkv.bin ../bin/twol-fkv.bin -o $@
+	hfst-compose-intersect -l $+ -o $@
 
 fkv.hfst: ../bin/fkv.hfst
 ../bin/fkv.hfst: ../bin/fkv-gen.hfst
