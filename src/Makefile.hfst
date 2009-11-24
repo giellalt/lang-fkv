@@ -1,0 +1,67 @@
+# *************************************************************** #
+# This is a makefile that builds the Faroese morphological parser #
+# *************************************************************** #
+
+LEX = fkv-lex.txt \
+	  noun-fkv-lex.txt \
+	  noun-fkv-morph.txt \
+	  adj-fkv-lex.txt \
+#	  adj-fkv-morph.txt \
+	  verb-fkv-lex.txt \
+	  verb-fkv-morph.txt \
+	  adv-fkv-lex.txt \
+	  abbr-fkv-lex.txt \
+#	  acro-fkv-lex.txt \
+#	  pron-fkv-lex.txt \
+	  punct-fkv-lex.txt \
+#	  numeral-fkv-lex.txt \
+	  pp-fkv-lex.txt 
+#	  cc-fkv-lex.txt \
+#	  cs-fkv-lex.txt \
+#	  interj-fkv-lex.txt \
+#	  det-fkv-lex.txt
+
+#	  propernoun-fkv-lex.txt 
+#	  propernoun-fkv-morph.txt 
+all: ../bin/fkv-gen.hfst ../bin/fkv-morph.hfst
+
+../tmp/lexc-all.txt: $(LEX)
+	cat $(LEX) > $@
+
+lexc-fkv.bin: ../bin/lexc-fkv.bin
+../bin/lexc-fkv.bin: ../tmp/lexc-all.txt
+	@echo
+	@echo "*** Building lexc-fkv.bin ***" ;
+	@echo
+	hfst-lexc < ../tmp/lexc-all.txt > ../bin/lexc-fkv.bin
+# The old hfst version required this:
+# 	printf "compile-source ../tmp/lexc-all.txt\n\
+# 	save-source ../bin/lexc-fkv.bin\n\
+# 	quit\n" > ../../tmp/fkv-lex-save-script
+# 	hfst-lexc  < ../../tmp/fkv-lex-save-script
+# 	rm -f ../../tmp/fkv-lex-save-script
+
+twol-fkv.bin: ../bin/twol-fkv.bin
+../bin/twol-fkv.bin: twol-fkv.txt
+	@echo
+	@echo "*** Building twol-fkv.bin ***" ;
+	@echo
+	hfst-twolc twol-fkv.txt > $@ 
+
+
+fkv-gen.hfst: ../bin/fkv-gen.hfst 
+../bin/fkv-gen.hfst: ../bin/twol-fkv.bin ../bin/lexc-fkv.bin
+	@echo
+	@echo "*** Building fkv-gen.hfst ***" ;
+	@echo
+	hfst-compose-intersect -l ../bin/lexc-fkv.bin ../bin/twol-fkv.bin -o $@
+
+fkv-morph.hfst: ../bin/fkv-morph.hfst
+../bin/fkv-morph.hfst: ../bin/fkv-gen.hfst
+	@echo
+	@echo "*** Building fkv-morph.hfst ***" ;
+	@echo
+	hfst-invert ../bin/fkv-gen.hfst -o $@
+
+clean:
+	rm -f ../bin/* ../tmp/*
