@@ -105,15 +105,17 @@ mm : m
 nn : n 
 rr : r            
 ss : s           
-vv : v  
+vv : v  ###
 
 kk : k : 0, j, v
 kk : k
      k : v
 pp : p : v 
-pp : p      
+pp : p 
+     p : v     
 tt : t : ð/0 
-tt : t      
+tt : t  
+     t : ð/0   
 
        
 lkk : lk : lj   || _ i:e  
