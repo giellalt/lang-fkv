@@ -1,0 +1,80 @@
+! Kven transducer
+! ===============
+
+! Beware of remnants from the Finnish file
+! Take nothing at face value!
+
+Multichar_Symbols
+ +N +A +Adv +V
+ +Pron +CS +CC +Interj +Pcle
+ +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+ +Sg +Pl +Nom +Acc +Gen +Ine +Ill +Ela +Abe +All +Abl
+ +Ess +Tra +Ins +Com +Par
+ +Comp +Superl +Clt
+ +Pass +Ind +Prs +Prt +Imprt +Cond +Pot
+ +Inf  +PrsPrc +PrfPrc +Inf3
+ +CLB +PUNCT +HYPH
+ p1 t1 k1
+ i2 i3 14 i5
+ %^V %^A %^O %^U
+
+ %^wg %^A0 %^E2I
+
+ %^TES
+ %^¤
+
+! Documenting the diacritics
+! Note! This is for Finnish, and should be replaced.
+! A better system would be the faroese one.
+! %^WG Weak Grade (more WG tags to come
+! %^A0 a:0 sodissa
+! X4 WeG matto - maton
+! %^AO a:o rannoissa
+! Y2 a:0 koira - koiria
+! Y3 a:o kala - kaloja
+! Y4 ':0 parfait'n : parfait
+! Y5 m:n and i:0 lumi - lunta
+! Y6 s:t and i:e käsi - käteen
+! Y7 e:0 in cns stems käsi - kättä
+! Z1 e:i in nom.sg
+! Z2 i:0 i-stems in par,gen pl
+
+! i2 plural i of nouns
+! i3 past tense i of verbs
+! i4 superlative i of adjectives
+! i5 i in conditional isi of verbs
+! ^¤ potecting against e:i word-finally (nalle, liike)
+
+! =================================================
+! Basic lexica, pointing to the other lexicon files
+! =================================================
+  
+LEXICON Root
+ NounRoot ;
+ ProperNoun ;
+ AdjectiveRoot ;
+ VerbRoot ;
+ Adverb ;
+ Subjunction ;
+ Conjunction ;
+ Preposition ;
+ Interjection ;
+! Pronoun ;
+! Numeral ;
+! Punctuation ;
+
+
+
+
+
+
+LEXICON K
+ # ;
+ +Clt:%>k%^O # ;
+ +Clt:%>h%^An # ;
+ +Clt:%>p%^A # ;
+ +Clt:%>p%^As # ;
+ +Clt:%>kin # ;
+ +Clt:%>k%^A%^An # ;
+
+

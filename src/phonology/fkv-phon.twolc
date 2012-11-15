@@ -1,0 +1,169 @@
+Alphabet
+a b c d đ e f g h i j k l m n o p q r s t u ü v w x y z å ä ö æ ø
+
+A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø
+%+:0 %^A:ä %^O:ö %^U:y %^V %^wg:0 %^E2I:0 %>:0 ;
+
+! %^A:ä %^O:ö %^U:y
+
+
+Sets 
+FrontVowel = e i y ä ö ü æ ø;
+BackVowel = a o u å ;
+SomeVowel = %^V ;
+Vowel = FrontVowel BackVowel SomeVowel ; 
+Conson = b c d đ f g h j k l m n p q r s t v w x y z ; 
+NeutralVowel = e i ;
+Segment = Vowel Conson ;
+Dummy = %> %+ %^wg %^E2I ;
+NonFront = BackVowel Conson NeutralVowel Dummy ;
+
+!Definitions
+! Vokaalisointua 
+! Backvowel = a o u 
+! Front Vowel = ä o y 
+
+
+Rules 
+
+! Consonant gradation
+
+"Gemination"
+%+:Cx <=> Cy _ Vowel: %>:0 Vowel: ;
+        where Cy in ( h j k l m n p r s t v )
+              Cx in ( h j k l m n p r s t v ) 
+    matched; 
+
+!   bare når det er foran dem en kort stavelse med trykk
+!   f.eks. aikkaa: aika       
+
+"II-I"
+Cy:0 <=> Cx _ Cy Vowel: %^wg:0 ;
+        where Cx in ( l l l m n n r r r)
+              Cy in ( k p t p k t k p t)
+    matched ;
+    
+ !Cy Dobbelkonsonant
+ !Cx Enkelkonsonant
+! f.eks. lkk-lk: pölkkää-pölkäs 
+ 
+ 
+ "I-0 for ptk"
+Cx:0 <=> Vowel: _ [Cx|%+:0] (Dummy:) Vowel: %^wg:0 ; 
+            where Cx in ( k p t ) ;
+
+
+! Single k,p,t are realized as zero in the beginning of a syllable? 
+
+
+"I-0 for k:j" 
+k:j <=> i _ Vowel: %^wg:0 ;
+
+!€ poika^wg>n
+!€ poija00n
+
+
+"I-0 for t"
+	t:đ <=> h _ Vowel: %^wg:0 ;
+ 
+ ! ht: hđ/ h
+ ! lähteet : lähđen/lähen
+
+!€ lahti^wg
+!€ lahđi0
+
+
+
+"Gradation of k:0"
+k:0 <=> Vowel - [ i | u | y ] _ ( %+ ) Vowel: %^wg:0 ;
+! Remove i from the left vowel context because of the rule "I-0 for k:j"
+! Remove u & y from the left vowel context because of the following rule
+
+"Gradation of k between u/y"
+k:v <=> Conson u _ u %^wg:0 ; 
+        Conson y _ y %^wg:0 ; 
+
+! this will not give uku - uvun, but puku - puvun.
+
+
+
+! Vowel harmony 
+
+"Back harmony"
+Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* _ ;
+          where Vx in ( %^A %^O %^U )
+                Vy in (   a   o   u )
+          matched ;
+
+"Vowel copying"
+ %^V:Vx <=> :Vx Dummy:* %>:0 _ ;
+	where Vx in ( a e i o u y ä ö ) ;
+
+"Vowel copying in h-illative"
+ %^V:Vx <=> Vx: %>:0 [ h | s ] _ ;
+	where Vx in ( a e i o u y ä ö ) ; 
+
+"Vowel copying in s-illative"
+ %^V:Vx <=> Vx: %>:0 s %^V: _ ;
+	where Vx in ( a e i o u y ä ö ) ; 
+	
+! Other vowel rules
+
+
+"e:i in nom.sg. of e-stems" ! ove : ovi
+ e:i <=> _ %^E2I:0 #:0 ;
+
+! uuet
+!"e+i>i"
+!Vokaalivaihettelu pl i:m ja preteritin i:n eđelä
+
+! e:i <=> Cns: _ ( %+: Cns:) %>:0 [ i2:i | i2:j ] %>:0
+!       where Cns in ( h j k l m n p r s t v ) ;
+
+!e:i <=> Cns: _ ( %+:0 ) i ; 
+!e:i <=> i: _ (%+) Vowel: %^wg:0 ;
+       
+
+! "i:e in i-stems"
+!  i:e <=> Cns: _ ( X4:) %>:0 [ i2:i | i2:j ] %>:0 ;
+
+
+
+
+! All XYZ to be removed and replaced with human-readable tags
+
+!! "e:0 in plural of e-stems" ! ovien
+!!  e:0 <=> _  (Dummy:)  %>:0 [ i2:i | i2:j ] ;
+!! ! Y1 removed
+!! 
+!! "e:0 in consonant stems"
+!!  e:0 <=> Cns: _ [ Y5: | Y7: ] %>:0 t ;
+!! 
+!! "i:0 in par and gen pl of i-stems" ! ristien
+!!  i:0 <=> Cns: _ Z2: %>:0 i2:i %>:0 [ e n | %^A: ] ;
+!! 
+!! "i:e in i-stems"
+!!  i:e <=> Cns: _ ( X4:) %>:0 [ i2:i | i2:j ] %>:0 ;
+!! 
+!! "i as j intervocalically in affixes"
+!!  i2:j <=> [ Vow - :i ] (Dummy: | %^¤: ) %>:0 _ %>:0 Vow:Vow ; 
+!! ! valoien : valojen
+!! 
+!! "a to 0 in front of i"
+!!  a:0 <=> _ [ X2: | Y2: ] %>:0 i2: ;
+!! !a:0 <=> [ u | o ] (Neutral) Cns: Cns:* _  (Dummy:) [ X2: | Y2: ] %>: i2: ;
+!!  ! koiraien : koirien
+!! 
+!! "a to o in front of i"
+!!  a:o <=> _ [ X4: | Y1: | Y3: ] %>:0 i2: ;
+!! !a:o <=> a Cns: Cns:*  _  (Dummy:) Y3: %>: i: ;
+!!  ! kalaien : kalojen
+!! 
+!! ! Long vowel and diphtong shortening
+!! ! ----------------------------------
+!! 
+!! "Shortening of ie, yö, uo and long vowels"
+!!  Vx:0 <=> _ Vy: (Dummy:) %>:0 [ i2: | i3 | i4: | i5 ] ;
+!!       where Vx in ( i y u a e i o u y ä ö )
+!! 	    Vy in ( e ö o a e i o u y ä ö )
+!! 	    matched ;
