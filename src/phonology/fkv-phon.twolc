@@ -10,8 +10,9 @@ A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø
 Sets 
 FrontVowel = e i y ä ö ü æ ø;
 BackVowel = a o u å ;
+ArchiVowel =  %^A %^O %^U ;
 SomeVowel = %^V ;
-Vowel = FrontVowel BackVowel SomeVowel ; 
+Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ; 
 Conson = b c d đ f g h j k l m n p q r s t v w x y z ; 
 NeutralVowel = e i ;
 Segment = Vowel Conson ;
