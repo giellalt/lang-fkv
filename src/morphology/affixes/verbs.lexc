@@ -37,7 +37,8 @@ LEXICON OLLA
 ! Kveenin kielen
 
 LEXICON v1
-+V+Inf:%>đ%^A K ;
++V+Inf:%>đ%^A K ; ! đ
++V+Inf+Use/Sub:%>d%^A K ; ! d
 +V+Ind+Prs: vPrs1 ;
 
 LEXICON vPrs1
@@ -46,7 +47,13 @@ LEXICON vPrs1
  +Sg3:%>pi K ;
  +Pl1:%>X1m%^A K ;
  +Pl2:%>X1tt%^A K ;
- +Pl3:%>đh%^A%^An K ;
+ +Pl3:%>đh%^A%^An K ; ! đ
+ +Pl3:%>dh%^A%^An K ; ! d
 
+LEXICON v2a
+# ;
+
+LEXICON v2e 
+# ;
 
 
