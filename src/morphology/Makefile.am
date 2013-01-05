@@ -30,7 +30,9 @@ GT_LEXC_SRCS=\
 			   stems/prepositions.lexc  \
 			   stems/propernouns.lexc   \
 			   stems/punctuation.lexc   \
-			   stems/verbs.lexc
+                           stems/verbs.lexc         \
+                           clitics.lexc
+
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=
