@@ -20,16 +20,18 @@ Multichar_Symbols
 
  %^wg %^A0 %^E2I
 
+ +Use/Sub
  %^TES
  %^¤
 
 ! Documenting the diacritics
-! Note! This is for Finnish, and should be replaced.
-! A better system would be the faroese one.
 ! %^WG Weak Grade (more WG tags to come
 ! %^A0 a:0 sodissa
-! X4 WeG matto - maton
+! ^wg matto - maton
 ! %^AO a:o rannoissa
+! ^¤ potecting against e:i word-finally (nalle, liike)
+
+! For Finnish, not in use. Keep in mind:
 ! Y2 a:0 koira - koiria
 ! Y3 a:o kala - kaloja
 ! Y4 ':0 parfait'n : parfait
@@ -38,12 +40,10 @@ Multichar_Symbols
 ! Y7 e:0 in cns stems käsi - kättä
 ! Z1 e:i in nom.sg
 ! Z2 i:0 i-stems in par,gen pl
-
 ! i2 plural i of nouns
 ! i3 past tense i of verbs
 ! i4 superlative i of adjectives
 ! i5 i in conditional isi of verbs
-! ^¤ potecting against e:i word-finally (nalle, liike)
 
 ! =================================================
 ! Basic lexica, pointing to the other lexicon files
@@ -63,18 +63,5 @@ LEXICON Root
 ! Numeral ;
 ! Punctuation ;
 
-
-
-
-
-
-LEXICON K
- # ;
- +Clt:%>k%^O # ;
- +Clt:%>h%^An # ;
- +Clt:%>p%^A # ;
- +Clt:%>p%^As # ;
- +Clt:%>kin # ;
- +Clt:%>k%^A%^An # ;
 
 
