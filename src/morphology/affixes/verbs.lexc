@@ -39,21 +39,25 @@ LEXICON OLLA
 LEXICON v1
 +V+Inf:%>đ%^A K ; ! đ
 +V+Inf+Use/Sub:%>d%^A K ; ! d
-+V+Ind+Prs: vPrs1 ;
++V+Ind+Prs: v12pers ;
++V+Ind+Prs+Sg3:%>pi K ;
++V+Ind+Prs+Pl3:%>đh%^A%^An K ; ! đ
++V+Ind+Prs+Pl3:%>dh%^A%^An K ; ! d
 
-LEXICON vPrs1
+LEXICON v12pers
  +Sg1:%>n K ;
  +Sg2:%>t K ;
- +Sg3:%>pi K ;
- +Pl1:%>X1m%^A K ;
- +Pl2:%>X1tt%^A K ;
- +Pl3:%>đh%^A%^An K ; ! đ
- +Pl3:%>dh%^A%^An K ; ! d
+ +Pl1:%>%^WGm%^A K ;
+ +Pl2:%>%^WGtt%^A K ;
 
-LEXICON v2a
-# ;
+LEXICON v2
++V+Inf:%>%^Vt K ; 
++V+Ind+Prs: v12pers ;
++V+Ind+Prt:%>i v12pers ;
++V+Ind+Prs+Sg3:%>%^V K ;
++V+Ind+Prs+Pl3:%>th%^A%^An K ; ! 
++V+Ind+Prt+Sg3:%>i K ;
++V+Ind+Prt+Pl3:%>ithiin K ; ! 
 
-LEXICON v2e 
-# ;
 
 
