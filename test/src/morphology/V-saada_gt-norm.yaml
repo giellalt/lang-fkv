@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - saađa: # Verb 'to bring' - full paradigm
+     saađa+V+Ind+Prs+Sg1: saan
+     saađa+V+Ind+Prs+Sg2: saat
+     saađa+V+Ind+Prs+Sg3: saapi
+     saađa+V+Ind+Prs+Pl1: saama
+     saađa+V+Ind+Prs+Pl2: saatta
+     saađa+V+Ind+Prs+Pl3: saadhaan
+     saađa+V+Ind+Prt+Sg1: sain
+     saađa+V+Ind+Prt+Sg2: sait
+     saađa+V+Ind+Prt+Sg3: sai
+     saađa+V+Ind+Prt+Pl1: saima
+     saađa+V+Ind+Prt+Pl2: saitta
+     saađa+V+Ind+Prt+Pl3: saathiin
+     
