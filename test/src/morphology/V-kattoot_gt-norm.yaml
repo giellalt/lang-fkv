@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kattoot: # Verb 'to bring' - full paradigm
+     kattoot+V+Inf: kattoot
+     kattoot+V+Ind+Prs+Sg1: katton
+     kattoot+V+Ind+Prs+Sg2: kattot
+     kattoot+V+Ind+Prs+Sg3: kattoo
+     kattoot+V+Ind+Prs+Pl1: kattoma
+     kattoot+V+Ind+Prs+Pl2: kattotta
+     kattoot+V+Ind+Prs+Pl3: kattothaan
+     kattoot+V+Ind+Prt+Sg1: kattoin
+     kattoot+V+Ind+Prt+Sg2: kattoit
+     kattoot+V+Ind+Prt+Sg3: kattoi
+     kattoot+V+Ind+Prt+Pl1: kattoima
+     kattoot+V+Ind+Prt+Pl2: kattoitta
+     kattoot+V+Ind+Prt+Pl3: kattoithiin
+     kattoot+V+PrfPrc+Sg+Nom: kattonu
