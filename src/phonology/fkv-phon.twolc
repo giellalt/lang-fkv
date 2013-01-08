@@ -2,7 +2,9 @@ Alphabet
 a b c d đ e f g h i j k l m n o p q r s t u ü v w x y z å ä ö æ ø
 
 A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø
-%+:0 %^A:ä %^O:ö %^U:y %^V %^wg:0 %^E2I:0 %>:0 ;
+%+:0 %^A:ä %^O:ö %^U:y %^V %^WG:0 %^E2I:0 %>:0 
+
+t2:t ;
 
 ! %^A:ä %^O:ö %^U:y
 
@@ -13,10 +15,10 @@ BackVowel = a o u å ;
 ArchiVowel =  %^A %^O %^U ;
 SomeVowel = %^V ;
 Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ; 
-Conson = b c d đ f g h j k l m n p q r s t v w x y z ; 
+Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 ; 
 NeutralVowel = e i ;
 Segment = Vowel Conson ;
-Dummy = %> %+ %^wg %^E2I ;
+Dummy = %> %+ %^WG %^E2I ;
 NonFront = BackVowel Conson NeutralVowel Dummy ;
 
 !Definitions
@@ -39,7 +41,7 @@ Rules
 !   f.eks. aikkaa: aika       
 
 "II-I"
-Cy:0 <=> Cx _ Cy Vowel: %^wg:0 ;
+Cy:0 <=> Cx _ Cy Vowel: %^WG:0 ;
         where Cx in ( l l l m n n r r r)
               Cy in ( k p t p k t k p t)
     matched ;
@@ -50,7 +52,7 @@ Cy:0 <=> Cx _ Cy Vowel: %^wg:0 ;
  
  
  "I-0 for ptk"
-Cx:0 <=> Vowel: _ [Cx|%+:0] (Dummy:) Vowel: %^wg:0 ; 
+Cx:0 <=> Vowel: _ [Cx|%+:0] (Dummy:) Vowel: %^WG:0 ; 
             where Cx in ( k p t ) ;
 
 
@@ -58,14 +60,14 @@ Cx:0 <=> Vowel: _ [Cx|%+:0] (Dummy:) Vowel: %^wg:0 ;
 
 
 "I-0 for k:j" 
-k:j <=> i _ Vowel: %^wg:0 ;
+k:j <=> i _ Vowel: %^WG:0 ;
 
 !€ poika^wg>n
 !€ poija00n
 
 
 "I-0 for t"
-	t:đ <=> h _ Vowel: %^wg:0 ;
+	t:đ <=> h _ Vowel: %^WG:0 ;
  
  ! ht: hđ/ h
  ! lähteet : lähđen/lähen
@@ -76,13 +78,13 @@ k:j <=> i _ Vowel: %^wg:0 ;
 
 
 "Gradation of k:0"
-k:0 <=> Vowel - [ i | u | y ] _ ( %+ ) Vowel: %^wg:0 ;
+k:0 <=> Vowel - [ i | u | y ] _ ( %+ ) Vowel: %^WG:0 ;
 ! Remove i from the left vowel context because of the rule "I-0 for k:j"
 ! Remove u & y from the left vowel context because of the following rule
 
 "Gradation of k between u/y"
-k:v <=> Conson u _ u %^wg:0 ; 
-        Conson y _ y %^wg:0 ; 
+k:v <=> Conson u _ u %^WG:0 ; 
+        Conson y _ y %^WG:0 ; 
 
 ! this will not give uku - uvun, but puku - puvun.
 
@@ -122,7 +124,7 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* _ ;
 !       where Cns in ( h j k l m n p r s t v ) ;
 
 !e:i <=> Cns: _ ( %+:0 ) i ; 
-!e:i <=> i: _ (%+) Vowel: %^wg:0 ;
+!e:i <=> i: _ (%+) Vowel: %^WG:0 ;
        
 
 ! "i:e in i-stems"
