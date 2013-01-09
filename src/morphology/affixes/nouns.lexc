@@ -8,7 +8,7 @@ LEXICON 10	! yksi-tavvuiset Vi
 
 LEXICON 21	! kaksitavvuiset yksirankaset
 +N: strong-v-stem ;
-+N:X4 weak-v-stem ;
++N:%^WG weak-v-stem ;
 +N: short-par ;
 +N: short-ill ;
 +N+Pl:%>i2 shortgenpl ;
@@ -201,7 +201,7 @@ LEXICON Px-Vn
 
 !!! LEXICON 1 ! valo
 !!!  +N: strong-v-stem ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N: short-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:%>i2 shortgenpl ;
@@ -210,7 +210,7 @@ LEXICON Px-Vn
 !!! 
 !!! LEXICON 2 ! palvelu
 !!!  +N: strong-v-stem ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N: short-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:%>i2 shortgenpl ;
@@ -221,7 +221,7 @@ LEXICON Px-Vn
 !!! 
 !!! LEXICON 3 ! valtio
 !!!  +N: strong-v-stem ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N: long-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:%>i2 longgenpl ;
@@ -230,19 +230,19 @@ LEXICON Px-Vn
 !!! 
 !!! LEXICON 4 ! laatikko 
 !!!  +N: strong-v-stem ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N: short-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:%>i2 shortgenpl ;
-!!!  +N+Pl:X4%>i2 longgenpl ;
+!!!  +N+Pl:%^WG%>i2 longgenpl ;
 !!!  +N+Pl:%>i2 shortparpl ;
 !!!  +N+Pl:%>i2 longparpl ;	
-!!!  +N+Pl:X4%>i2 shortillpl ; ! laatikoihin   !does not work
+!!!  +N+Pl:%^WG%>i2 shortillpl ; ! laatikoihin   !does not work
 !!!  +N+Pl:%>i2 shortillpl ;  ! laatikkoihin
 !!! 
 !!! LEXICON 5 ! risti
 !!!  +N: strong-v-stem ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N: short-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:Z2%>i2 shortgenpl ;
@@ -251,7 +251,7 @@ LEXICON Px-Vn
 !!! 
 !!! LEXICON 6 ! paperi, banaani
 !!!  +N: strong-v-stem ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N: short-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:Z2%>i2 shortgenpl ; ! *paperejen paperien
@@ -277,7 +277,7 @@ LEXICON Px-Vn
 !!! 
 !!! LEXICON 8 ! nalle
 !!!  +N:%^¤ strong-v-stem ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N: short-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:%>i2 shortgenpl ;
@@ -322,7 +322,7 @@ LEXICON Px-Vn
 !!! 
 !!! LEXICON 11 ! omena
 !!!  +N: strong-v-stem ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N: short-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:Y2%>i2 shortgenpl ;
@@ -334,7 +334,7 @@ LEXICON Px-Vn
 !!! 
 !!! LEXICON 12 ! kulkija
 !!!  +N: strong-v-stem ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N: short-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:Y3%>i2 longgenpl ;
@@ -344,7 +344,7 @@ LEXICON Px-Vn
 !!! 
 !!! LEXICON 13 ! katiska
 !!!  +N: strong-v-stem ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N: short-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:Y3%>i2 shortgenpl ;
@@ -433,7 +433,7 @@ LEXICON Px-Vn
 !!!  +N: gae-strong ; ! kätenä
 !!!  +N+Sg:%>i2 com ; ! käsineen
 !!!  +N+Pl:%>i2 com ;
-!!!  +N:X4 weak-v-stem ; ! käden
+!!!  +N:%^WG weak-v-stem ; ! käden
 !!!  +N:Y7 long-par ; ! kättä
 !!!  +N: short-ill ; ! käteen
 !!!  +N+Pl:%>i2 shortgenpl ; ! käsien
@@ -447,7 +447,7 @@ LEXICON Px-Vn
 !!!  +N: gae-strong ;
 !!!  +N+Sg:%>i2 com ;
 !!!  +N+Pl:%>i2 com ;
-!!!  +N:X4 weak-v-stem ;
+!!!  +N:%^WG weak-v-stem ;
 !!!  +N:Y7 long-par ;
 !!!  +N: short-ill ;
 !!!  +N+Pl:%>i2 shortgenpl ;
