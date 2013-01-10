@@ -4,7 +4,7 @@
 
 
 LEXICON 10	! yksi-tavvuiset Vi
-+N: #;
++N+Sg+Nom: #;
 
 LEXICON 21	! kaksitavvuiset yksirankaset
 +N: strong-v-stem ;
@@ -16,22 +16,22 @@ LEXICON 21	! kaksitavvuiset yksirankaset
 +N+Pl:%>i2 shortillpl ;
 
 LEXICON 31	! kaksitavvuiset kakirankaset
-+N: #;
++N+Sg+Nom: #;
 
 LEXICON 22	! usseempitavvuiset vokaalirankaiset
-+N: #;
++N+Sg+Nom: #;
 
 LEXICON 32	! usseempitavvuiset konsonanttiirankaiset
-+N: #;
++N+Sg+Nom: #;
 
 LEXICON 23	! kokkoontumarankaiset vokaalirankaiset
-+N: #;
++N+Sg+Nom: #;
 
 LEXICON 33	! kokkoontumarankaiset konsonanttirankaiset
-+N: #;
++N+Sg+Nom: #;
 
 LEXICON 40	! ekstrakonsonanttirankaiset
-+N: #;
++N+Sg+Nom: #;
 
 
 !!! 
