@@ -1,4 +1,4 @@
-! ===========================
+! ================================
 ! LEXICA FOR KVEN VERB INFLECTION
 ! ================================
 
@@ -44,6 +44,9 @@ LEXICON v1
 +V+Ind+Prs+Pl3:%>đh%^A%^An K ; ! đ
 +V+Ind+Prs+Pl3:%>dh%^A%^An K ; ! d
 
+LEXICON v12pers
++Sg2:%t K ;
+
 ! anttaat:antta ! +V+Inf:%^Vt K ; ! ok
 LEXICON v2
 +V+Inf:%>%^Vt K ; 
@@ -61,7 +64,7 @@ LEXICON v22pers  ! ok
  +Pl2:%>%^WGtt%^A K ;
 
 ! kävelä:kävel 
-LEXICON v3 ! 
+LEXICON v3 
 +V+Inf:%>%^Vn K ; 
 +V+Ind+Prs: v32pers ;
 +V+Ind+Prt:%>i v32pers ;
@@ -69,6 +72,9 @@ LEXICON v3 !
 +V+Ind+Prs+Pl3:%>th%^A%^Am K ; ! 
 +V+Ind+Prt+Sg3:%>i K ;
 +V+Ind+Prt+Pl3:%>thiin K ; ! 
+
+LEXICON v32pers
+
 
 ! kyytitä:kyyti
 LEXICON v4
@@ -78,8 +84,9 @@ LEXICON v4
 +V+Ind+Prs+Sg3:ittee K ; !
 +V+Ind+Prs+Pl3:%>th%^A%^Am K ; ! 
 +V+Ind+Prt+Sg3:%>i K ;
-+V+Ind+Prt+Pl3:%>%^A%^An K ; ! 
++V+Ind+Prt+Pl3:%>%^A%^An K ; !
 
+LEXICON v42pers 
 
 ! kontraktiverbit
 LEXICON v43
