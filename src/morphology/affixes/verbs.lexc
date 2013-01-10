@@ -44,53 +44,62 @@ LEXICON v1
 +V+Ind+Prs+Pl3:%>đh%^A%^An K ; ! đ
 +V+Ind+Prs+Pl3:%>dh%^A%^An K ; ! d
 
-LEXICON v12pers
-+Sg2:%t K ;
-
 ! anttaat:antta ! +V+Inf:%^Vt K ; ! ok
 LEXICON v2
 +V+Inf:%>%^Vt K ; 
-+V+Ind+Prs: v22pers ;
++V+Ind+Prs: v12pers ;
 +V+Ind+Prt:%>i v12pers ;
 +V+Ind+Prs+Sg3:%>%^V K ;
-+V+Ind+Prs+Pl3:%>th%^A%^Am K ; ! 
++V+Ind+Prs+Pl3:%>th%^A%^An K ; ! 
 +V+Ind+Prt+Sg3:%>i K ;
 +V+Ind+Prt+Pl3:%>ithiin K ; ! 
 
-LEXICON v22pers  ! ok
- +Sg1:%>n K ;
- +Sg2:%>t K ;
- +Pl1:%>%^WGm%^A K ;
- +Pl2:%>%^WGtt%^A K ;
 
 ! kävelä:kävel 
-LEXICON v3 
-+V+Inf:%>%^Vn K ; 
-+V+Ind+Prs: v32pers ;
-+V+Ind+Prt:%>i v32pers ;
-+V+Ind+Prs+Sg3:%>%^V K ; 
-+V+Ind+Prs+Pl3:%>th%^A%^Am K ; ! 
+LEXICON v3_ele 
++V+Inf:%>%^A K ; 
++V+Ind+Prs+Sg3:%>ee K ; 
++V+Ind+Prs+Pl3:%>h%^A%^An K ; ! 
 +V+Ind+Prt+Sg3:%>i K ;
 +V+Ind+Prt+Pl3:%>thiin K ; ! 
++V+Ind+Prs:%>e v12pers ;
++V+Ind+Prt:%>i v12pers ;
++V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 
-LEXICON v32pers
+! kävelä:kävel 
+LEXICON v3_ise 
++V+Inf:%>t%^A K ; 
++V+Ind+Prs+Sg3:%>see K ; 
++V+Ind+Prs+Pl3:%>th%^A%^An K ; ! 
++V+Ind+Prt+Sg3:%>i K ;
++V+Ind+Prt+Pl3:%>thiin K ; ! 
++V+Ind+Prs:%>e v12pers ;
++V+Ind+Prt:%>i v12pers ;
++V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 
 
 ! kyytitä:kyyti
 LEXICON v4
 +V+Inf:%>%^Vt K ; 
-+V+Ind+Prs: v42pers ;
-+V+Ind+Prt:%>i v42pers ;
 +V+Ind+Prs+Sg3:ittee K ; !
-+V+Ind+Prs+Pl3:%>th%^A%^Am K ; ! 
++V+Ind+Prs+Pl3:%>th%^A%^An K ; ! 
 +V+Ind+Prt+Sg3:%>i K ;
 +V+Ind+Prt+Pl3:%>%^A%^An K ; !
 
-LEXICON v42pers 
+
 
 ! kontraktiverbit
 LEXICON v43
 +V+Inf:ˆWGt%^A K ; !
+
+
+! Persoonapäätteet
+
+LEXICON v12pers  ! ok
+ +Sg1:%>n K ;
+ +Sg2:%>t K ;
+ +Pl1:%>%^WGm%^A K ;
+ +Pl2:%>%^WGtt%^A K ;
 
 
 
