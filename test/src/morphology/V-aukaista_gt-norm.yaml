@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - aukaista: # Verb 'to bring' - full paradigm
+     aukaista+V+Inf: aukaista
+     aukaista+V+Ind+Prs+Sg1: aukaisen
+     aukaista+V+Ind+Prs+Sg2: aukaiset
+     aukaista+V+Ind+Prs+Sg3: aukaissee
+     aukaista+V+Ind+Prs+Pl1: aukaisema
+     aukaista+V+Ind+Prs+Pl2: aukaisetta
+     aukaista+V+Ind+Prs+Pl3: aukaisthaan
+     aukaista+V+Ind+Prt+Sg1: aukaisin
+     aukaista+V+Ind+Prt+Sg2: aukaisit
+     aukaista+V+Ind+Prt+Sg3: aukaisi
+     aukaista+V+Ind+Prt+Pl1: aukaisima
+     aukaista+V+Ind+Prt+Pl2: aukaisitta
+     aukaista+V+Ind+Prt+Pl3: aukaisthiin
+     aukaista+V+PrfPrc+Sg+Nom: aukaissu
