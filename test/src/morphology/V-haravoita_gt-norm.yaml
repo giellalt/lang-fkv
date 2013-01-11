@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - haravoita: # Verb 'to bring' - full paradigm
+     haravoita+V+Inf: haravoita
+     haravoita+V+Ind+Prs+Sg1a: haravoitten
+     haravoita+V+Ind+Prs+Sg2a: haravoittet
+     haravoita+V+Ind+Prs+Sg3a: haravoittee
+     haravoita+V+Ind+Prs+Pl1a: haravoittema
+     haravoita+V+Ind+Prs+Pl2a: haravoittetta
+     haravoita+V+Ind+Prs+Pl3a: haravoithaan
+     haravoita+V+Ind+Prt+Sg1a: haravoittin
+     haravoita+V+Ind+Prt+Sg2a: haravoittit
+     haravoita+V+Ind+Prt+Sg3a: haravoittii
+     haravoita+V+Ind+Prt+Pl1a: haravoittima
+     haravoita+V+Ind+Prt+Pl2a: haravoittitta
+     haravoita+V+Ind+Prt+Pl3a: haravoithiin
+     haravoita+V+PrfPrc+Sg+Nam: haravoittu

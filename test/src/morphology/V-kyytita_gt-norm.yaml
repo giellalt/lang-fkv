@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kyytitä: # Verb 'to bring' - full paradigm
+     kyytitä+V+Inf: kyytitä
+     kyytitä+V+Ind+Prs+Sg1: kyytitten
+     kyytitä+V+Ind+Prs+Sg2: kyytittet
+     kyytitä+V+Ind+Prs+Sg3: kyytittee
+     kyytitä+V+Ind+Prs+Pl1: kyytittemä
+     kyytitä+V+Ind+Prs+Pl2: kyytittettä
+     kyytitä+V+Ind+Prs+Pl3: kyytithään
+     kyytitä+V+Ind+Prt+Sg1: kyytittin
+     kyytitä+V+Ind+Prt+Sg2: kyytittit
+     kyytitä+V+Ind+Prt+Sg3: kyytitti
+     kyytitä+V+Ind+Prt+Pl1: kyytittimä
+     kyytitä+V+Ind+Prt+Pl2: kyytittittä
+     kyytitä+V+Ind+Prt+Pl3: kyytittithiin
+     kyytitä+V+PrfPrc+Sg+Nom: kyytitty
