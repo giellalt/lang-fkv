@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kävelä: # Verb 'to bring' - full paradigm
+     kävelä+V+Inf: kävelä
+     kävelä+V+Ind+Prs+Sg1: kävelen
+     kävelä+V+Ind+Prs+Sg2: kävelet
+     kävelä+V+Ind+Prs+Sg3: kävelee
+     kävelä+V+Ind+Prs+Pl1: kävelemä
+     kävelä+V+Ind+Prs+Pl2: kävelettä
+     kävelä+V+Ind+Prs+Pl3: kävelhään
+     kävelä+V+Ind+Prt+Sg1: kävelin
+     kävelä+V+Ind+Prt+Sg2: kävelit
+     kävelä+V+Ind+Prt+Sg3: käveli
+     kävelä+V+Ind+Prt+Pl1: kävelimä
+     kävelä+V+Ind+Prt+Pl2: kävelittä
+     kävelä+V+Ind+Prt+Pl3: kävelthiin
+     kävelä+V+PrfPrc+Sg+Nom: kävelly
