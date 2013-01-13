@@ -3,8 +3,10 @@
 ! ======================
 
 
-LEXICON 10	! yksi-tavvuiset Vi
-+N+Sg+Nom: #;
+LEXICON n11	! poika Kort vokal, en stamme
++N: strong-v-stem ;
++N: weak-v-stem ;
+
 
 LEXICON 21	! kaksitavvuiset yksirankaset
 +N: strong-v-stem ;
@@ -14,6 +16,16 @@ LEXICON 21	! kaksitavvuiset yksirankaset
 +N+Pl:%>i2 shortgenpl ;
 +N+Pl:%>i2 shortparpl ;
 +N+Pl:%>i2 shortillpl ;
+
+LEXICON n22 ! maa
++N: strong-v-stem ;
++N: weak-v-stem ;
++N: long-par ; ! maata
++N: long-ill ;
++N+Pl:%>i2 shortgenpl ;
++N+Pl:%>i2 shortparpl ;
++N+Pl:%>i2 shortillpl ;
+
 
 LEXICON 31	! kaksitavvuiset kakirankaset
 +N+Sg+Nom: #;
@@ -34,13 +46,13 @@ LEXICON 40	! ekstrakonsonanttirankaiset
 +N+Sg+Nom: #;
 
 
-!!! 
-!!! ! Basic paradigms
-!!! ! ===============
-!!! 
-!!! ! Basic vowel stems
-!!! ! -----------------
-!!! 
+
+! Basic paradigms
+! ===============
+
+! Basic vowel stems
+! -----------------
+
 LEXICON strong-v-stem
  nom-strong ;
  gae-strong ;
@@ -102,8 +114,9 @@ LEXICON long-par
 LEXICON short-ill
  +Sg+Ill:%>%^V n-PxK ;
 
-!!! LEXICON long-ill
-!!!  +Sg+Ill:%>h%^V n-PxK ;
+LEXICON long-ill
+ +Sg+Ill:%>%^HMETAh%^V%^Vn n-PxK ;
+
 !!! 
 !!! LEXICON longer-ill
 !!!  +Sg+Ill:%>s%^V%^V n-PxK ;
@@ -178,25 +191,21 @@ LEXICON Px-Vn
 
 
 
+LEXICON nen ! nainen
+ +N: nom-nen ;
+ +N:se gae-strong ;
+ +N+Sg:se%>i2 com ;
+ +N+Pl:se%>i2 com ;
+ +N:se weak-v-stem ;
+ +N:s long-par ;
+ +N: short-ill ;
+ +N+Pl:%>i2 shortgenpl ;
+ +N+Pl:Y5 consgenpl ;
+ +N+Pl:%>i2 shortparpl ;
+ +N+Pl:%>i2 shorterillpl ;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+LEXICON nom-nen
++Sg+Nom:nen K ;
 
 
 !!! LEXICON 1 ! valo
@@ -501,65 +510,4 @@ LEXICON Px-Vn
 !!!  +N+Pl:Y5 consgenpl ;
 !!!  +N+Pl:%>i2 shortparpl ;
 !!!  +N+Pl:%>i2 shorterillpl ;
-!!! 
-LEXICON nen ! nainen
- +N: nom-strong ;
- +N: gae-strong ;
- +N+Sg:%>i2 com ;
- +N+Pl:%>i2 com ;
- +N: weak-v-stem ;
- +N:Y5 long-par ;
- +N: short-ill ;
- +N+Pl:%>i2 shortgenpl ;
- +N+Pl:Y5 consgenpl ;
- +N+Pl:%>i2 shortparpl ;
- +N+Pl:%>i2 shorterillpl ;
-!!! 
-!!! LEXICON 39 ! vastaus
-!!!  +N: nom-strong ;
-!!!  +N: gae-strong ;
-!!!  +N+Sg:%>i2 com ;
-!!!  +N+Pl:%>i2 com ;
-!!!  +N: weak-v-stem ;
-!!!  +N:Y5 long-par ;
-!!!  +N: short-ill ;
-!!!  +N+Pl:%>i2 shortgenpl ;
-!!!  +N+Pl:Y5 consgenpl ;
-!!!  +N+Pl:%>i2 shortparpl ;
-!!!  +N+Pl:%>i2 shorterillpl ;
-!!! 
-!!! !LEXICON 40 ! kalleus
-!!! !#;
-!!! 
-!!! !LEXICON 41 ! vieras
-!!! 
-!!! !LEXICON 42 ! mies
-!!! 
-!!! !LEXICON 43 ! ohut
-!!! 
-!!! !LEXICON 44 ! kevät
-!!! 
-!!! !LEXICON 45 ! ! kahdeksas
-!!! 
-!!! !LEXICON 46 ! tuhat
-!!! 
-!!! !LEXICON 47 ! kuollut
-!!! 
-!!! !LEXICON 48 ! hame
-!!! 
-!!! !LEXICON 49 ! askel
-!!! 
-!!! !LEXICON 50 ! isoäiti
-!!! ! 5 ; ! "iso" is not inflected.
-!!! 
-!!! !LEXICON 51 ! nuoripari
-!!! ! nuorenparin
-!!! ! nuortaparia
-!!! ! nuoreenpariin
-!!! ! This is problematic, we need flags.
-!!! 
-!!! 
-!!! 
-!!! 
-!!! 
-!!! 
+
