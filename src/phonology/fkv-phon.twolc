@@ -1,26 +1,24 @@
 Alphabet
 a b c d đ e f g h i j k l m n o p q r s t u ü v w x y z å ä ö æ ø
-
 A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø
-%+:0 %^A:ä %^O:ö %^U:y %^V %^N:n
-%^WG:0 %^E2I:0 %>:0 
-
-i2:i t2:t ;
-
-! %^A:ä %^O:ö %^U:y
-
+%+:0 
+%^A:ä %^O:ö %^U:y %^V %^N:n 
+%>:0 
+i2:i t2:t 
+%^HMETA:0 %^WG:0 %^E2I:0 
+;
 
 Sets 
 FrontVowel = e i y ä ö ü æ ø;
 BackVowel = a o u å ;
 ArchiVowel =  %^A %^O %^U ;
-ArchiConson = %^N
+ArchiConson = %^N ;
 SomeVowel = %^V ;
 Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ; 
 Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ; 
 NeutralVowel = e i ;
 Segment = Vowel Conson ;
-Dummy = %> %+ %^WG %^E2I ;
+Dummy = %> %+ %^WG %^E2I %^HMETA ;
 NonFront = BackVowel Conson NeutralVowel ArchiVowel Dummy ;
 
 !Definitions
@@ -101,16 +99,33 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* _ ;
           matched ;
 
 "Vowel copying"
- %^V:Vx <=> :Vx Dummy:* %>:0 _ ;
+ %^V:Vx <=> :Vx Dummy:* %>:0 _ \Vowel ;
 	where Vx in ( a e i o u y ä ö ) ;
 
-"Vowel copying in h-illative"
- %^V:Vx <=> Vx: %>:0 [ h | s ] _ ;
+"Vowel copying in short h-illative"
+ %^V:Vx <=> Vowel Vx: %>:0 h _ [ n: | m: ] ;
 	where Vx in ( a e i o u y ä ö ) ; 
 
-"Vowel copying in s-illative"
- %^V:Vx <=> Vx: %>:0 s %^V: _ ;
+! maahan
+
+"Vowel copying in long h forms"
+ %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h _ %^V: ;
 	where Vx in ( a e i o u y ä ö ) ; 
+
+"Vowel copying in long h forms 2"
+ %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h %^V: _ ;
+	where Vx in ( a e i o u y ä ö ) ; 
+
+! sykshyyn
+
+"Stem deletion in h-illative"
+ Vx:0 <=> Conson _ %>:0 %^HMETA: ;
+	where Vx in ( a e i o u y ä ö ) ; 
+
+!"Vowel copying in s-illative"
+! %^V:Vx <=> Vx: %>:0 s %^V: _ ;
+!	where Vx in ( a e i o u y ä ö ) ; 
+! tämä pitää kai olla -seen, -siin
 	
 ! Other vowel rules
 
