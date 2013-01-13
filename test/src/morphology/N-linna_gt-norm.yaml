@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - linna: # Noun 'borg' - full paradigm
+     linna+N+Sg+Nom: linna
+     linna+N+Sg+Gen: linnan
+     linna+N+Sg+Acc: linnan
+     linna+N+Sg+Par: linna
+     linna+N+Sg+Tra: linnaksi
+     linna+N+Sg+Abe: linnatta
+     linna+N+Sg+Com: linnain
+     linna+N+Sg+Ine: linnassa
+     linna+N+Sg+Ela: linnasta
+     linna+N+Sg+Ill: linnhaan
+     linna+N+Sg+Ade: linnala
+     linna+N+Sg+Abl: linnalta
+     linna+N+Sg+All: linnale
+     linna+N+Sg+Ess: linnana
+     linna+N+Pl+Nom: linnat
+     linna+N+Pl+Gen: linnojen
+     linna+N+Pl+Acc: linnat
+     linna+N+Pl+Par: linnaita
+     linna+N+Pl+Tra: linnoiksi
+     linna+N+Pl+Abe: linnoitta
+     linna+N+Pl+Com: linnoin
+     linna+N+Pl+Ine: linnoissa
+     linna+N+Pl+Ela: linnoista
+     linna+N+Pl+Ill: linnhoin
+     linna+N+Pl+Ade: linnoila
+     linna+N+Pl+Abl: linnoilta
+     linna+N+Pl+All: linnoile
+     linna+N+Pl+Ess: linnoina
