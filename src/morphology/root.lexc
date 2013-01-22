@@ -1,10 +1,13 @@
-! Kven transducer
-! ===============
+! ========================================================================== !
+! !!               !!!Kven morphological transducer                          !
+! ========================================================================== !
+ 
 
 ! Beware of remnants from the Finnish file
 ! Take nothing at face value!
 
-Multichar_Symbols
+Multichar_Symbols  !!≈ !!!@CODE@ definitions
+
  +N +A +Adv +V
  +Pron +CS +CC +Interj +Pcle
  +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
