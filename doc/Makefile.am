@@ -37,6 +37,8 @@ JSP_PAGES=root-morphology.jspwiki \
 # propernouns-affixes.jspwiki      \
 ALLINONE_JSP_PAGE=$(GTLANG).jspwiki
 
+LINKS=Links.jspwiki
+
 endif # CAN_DOCC
 
 include $(top_srcdir)/am-shared/doc-include.am
