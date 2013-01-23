@@ -1,10 +1,10 @@
 ! ================================
-! LEXICA FOR KVEN VERB INFLECTION
+!! LEXICA FOR KVEN VERB INFLECTION
 ! ================================
 
 
 ! -----------
-! Auxiliaries
+!! !!! Auxiliaries
 ! -----------
 
 LEXICON neg
@@ -33,89 +33,83 @@ LEXICON OLLA
 +Act+Ind+Prs+Pl3:oon K ;
 
 
-! Kveenin kielen
+!! !! Verbiluokat v1...
 
-! saađa:saa ! ok
-LEXICON v1
-+V+Inf:%>đ%^A K ; ! đ
-+V+Inf+Use/Sub:%>d%^A K ; ! d
+LEXICON v1 !!= @CODE@ saađa:saa !!= @CODE@ ok
+
++V+Inf:%>đ%^A K ; đ
++V+Inf+Use/Sub:%>d%^A K ; d
 +V+Ind+Prs: v12pers ;
 +V+Ind+Prs+Sg3:%>pi K ;
-+V+Ind+Prs+Pl3:%>đh%^A%^An K ; ! đ
-+V+Ind+Prs+Pl3:%>dh%^A%^An K ; ! d
++V+Ind+Prs+Pl3:%>đh%^A%^An K ; đ
++V+Ind+Prs+Pl3:%>dh%^A%^An K ; d
 
-! anttaat:antta ! +V+Inf:%^Vt K ; ! ok
-LEXICON v2
+LEXICON v2 !!= @CODE@ anttaat:antta !!= @CODE@ +V+Inf:%^Vt K ; ok
 +V+Inf:%>%^Vt K ; 
 +V+Ind+Prs: v12pers ;
 +V+Ind+Prt:%>i v12pers ;
 +V+Ind+Prs+Sg3:%>%^V K ;
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; ! 
++V+Ind+Prs+Pl3:%>th%^A%^An K ; 
 +V+Ind+Prt+Sg3:%>i K ;
-+V+Ind+Prt+Pl3:%>ithiin K ; ! 
++V+Ind+Prt+Pl3:%>ithiin K ; 
 
 
-! kävelä:kävel 
-LEXICON v3_ele 
+LEXICON v3_ele !!= @CODE@ kävelä:kävel 
 +V+Inf:%>%^A K ; 
 +V+Ind+Prs+Sg3:%>ee K ; 
-+V+Ind+Prs+Pl3:%>h^A^An K ; ! 
++V+Ind+Prs+Pl3:%>h^A^An K ; 
 +V+Ind+Prt+Sg3:%>i K ;
-+V+Ind+Prt+Pl3:%>thiin K ; ! 
++V+Ind+Prt+Pl3:%>thiin K ; 
 +V+Ind+Prs:%>e v12pers ;
 +V+Ind+Prt:%>i v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 
-! aukaista:aukaise 
-LEXICON v3_ise 
+LEXICON v3_ise !!= @CODE@ aukaista:aukaise 
 +V+Inf:%>t%^A K ; 
 +V+Ind+Prs+Sg3:%>see K ; 
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; ! 
++V+Ind+Prs+Pl3:%>th%^A%^An K ; 
 +V+Ind+Prt+Sg3:%>i K ;
-+V+Ind+Prt+Pl3:%>thiin K ; ! 
++V+Ind+Prt+Pl3:%>thiin K ; 
 +V+Ind+Prs:%>e v12pers ;
 +V+Ind+Prt:%>i v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 
 
-! vanheta:vanhe 
-LEXICON v4
+LEXICON v4 !!= @CODE@ vanheta:vanhe 
 +V+Inf:%>t%^A K ; 
 +V+Ind+Prs+Sg3:nee K ; !
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; ! 
++V+Ind+Prs+Pl3:%>th%^A%^An K ; 
 +V+Ind+Prt+Sg3:%>ni K ;
-+V+Ind+Prt+Pl3:%>thiin K ; !
++V+Ind+Prt+Pl3:%>thiin K ; 
 +V+Ind+Prs:%>ne v12pers ;
 +V+Ind+Prt:%>ni v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 
-! kyytitä:kyyti
-LEXICON v4_itte
+LEXICON !!= @CODE@ v4_itte 
 +V+Inf:%>t%^A K ; 
-+V+Ind+Prs+Sg3:ttee K ; !
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; ! 
++V+Ind+Prs+Sg3:ttee K ; 
++V+Ind+Prs+Pl3:%>th%^A%^An K ; 
 +V+Ind+Prt+Sg3:%>tti K ;
-+V+Ind+Prt+Pl3:%>ttithiin K ; !
++V+Ind+Prt+Pl3:%>ttithiin K ; 
 +V+Ind+Prs:%>tte v12pers ;
 +V+Ind+Prt:%>tti v12pers ;
 +V+PrfPrc+Sg+Nom:t%>%^N%^U K ;
 
 
-! kontraktiverbit ! jatkata:jatka
-LEXICON v43 
+LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Inf:%>%^WGt%^A K ; !
 +V+Ind+Prs+Sg3:%>%^A K ; !
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; ! 
++V+Ind+Prs+Pl3:%>th%^A%^An K ; 
 +V+Ind+Prt+Sg3:%>si K ;
-+V+Ind+Prt+Pl3:%>thiin K ; !
++V+Ind+Prt+Pl3:%>thiin K ; 
 +V+Ind+Prs:%>a v12pers ;
 +V+Ind+Prt:%>si v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 
 
-! Persoonapäätteet
+!! !! Persoonapäätteet
 
-LEXICON v12pers  ! ok
+LEXICON v12pers  !!= @CODE@ Only sg12, pl12 so far
  +Sg1:%>n K ;
  +Sg2:%>t K ;
  +Pl1:%>%^WGm%^A K ;
