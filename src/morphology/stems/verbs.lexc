@@ -1,14 +1,24 @@
-LEXICON VerbRoot
+!! !!!Verbivartalot
+
+!! Tämä on edelleen vaan koeleksikko, verbit on
+!! järjestetty tyypin mukaan. Kun morfologia on valmis
+!! laitetaan ne aakkosjärjestykseen.
+
+LEXICON VerbRoot !!≠ 
+
+!! !!ei, olla
 ei+V+Neg: neg ;
 olla+V: OLLA ;
 
-!YKSITAVUISET v1
+!! !!YKSITAVUISET v1
+!! saađa, vieđä...
 saađa:saa  v1 ; 
 vieđä:vie v1 ;
 uiđa:ui v1 ;
 tuođa:tuo v1 ;
 
-!YKSIVARTALOISET v2
+!! !!YKSIVARTALOISET v2
+!! lähteet, lukkeet...
 lähteet:lähte v2 ;
 lukkeet:lukke v2 ; 
 soppiit:soppu v2 ;
@@ -16,11 +26,11 @@ tohtit:tohti v2 ;
 aikkoot:aikko v2 ;
 näkkyyt:näkky v2 ;
 anttaat:antta v2 ; 
-kirjoittaat:kir2laoitta v2 ; !?
+kirjoittaat:kir2laoitta v2 ; 
 
 kattoot:katt2o v2 ;
 
-!KONSONANTTIVARTALOISET v3
+!! KONSONANTTIVARTALOISET v3
 kävelä:kävel v3_ele ;
 kattela:kattel v3_ele ;
 
@@ -30,14 +40,14 @@ täristä:täris v3_ise ;
 !juosta:juo 
 !aukaista:aukaise
 
-!VOKAALIVARTALOISET v4
+!! VOKAALIVARTALOISET v4
 kyytitä:kyyti v4_itte ;
 haravoita:haravoi v4_itte ;
 tarvita:tarvi v4 ;
 vanheta:vanhe v4 ;
 pajeta:paje v4 ;
 
-!kontraktiverbit
+!! kontraktiverbit
 jatkata:jatka v43 ;
 pölätä:pölä v43 ;
 keritä:keri v43 ;
