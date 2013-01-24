@@ -20,10 +20,10 @@
  ; +CLB +PUNCT +HYPH							 : Punctuation
 
  !!Phonological symbols 
- ; p1 t1 k1				 : For cons grad
- ; i2 i3 14 i5			 : For vowel change
- ; t2 ! 					 : katt2oma always tt
- ; %^A %^O %^U			 : Vowel harmony
+ ; p1 t1 k1				 : For cons grad -- in use at all?
+ ; i2 i3 14 i5			 : For vowel change -- check
+ ; t2 ! 					 : katt2oma always tt, underlying -ts-
+ ; %^A %^O %^U			 : Vowel harmony a/ä, o/ö, u/y
  ; %^V 					 : Vowel copying
  ; %^N 					 : tulˆNut, kävel^N^Ut
  ; %^E2I 				 : for e to i change
