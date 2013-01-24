@@ -2,13 +2,21 @@
 !! !!! Sublexica for NounRoot
 ! ======================
 
+!! Aloitin sovittaa analyysin Eiran kieliopin mukaan (Porsanki).
+!! Leksikot ovat nyt (tai pitää olla) n11, n12, jne., eli siis
+!! Eiran nominit tyyppi 1.1., 1.2., jne.
 
-LEXICON n11	! poika Kort vokal, en stamme
+!! Eiran luokittelu ei ole tarpeeksi tarkka meille,  pitäisi
+!! olla n11_nen jne. Edelleen on epäjohdomukaisuutta nimien suhteen.
+
+!! !! Noun types
+
+LEXICON n11	!!= @CODE@  poika lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
 +N: weak-v-stem ;
 
 
-LEXICON 21	! kaksitavvuiset yksirankaset
+LEXICON 21	!!= @CODE@ kaksitavvuiset yksirankaset
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
 +N: short-par ;
@@ -17,7 +25,7 @@ LEXICON 21	! kaksitavvuiset yksirankaset
 +N+Pl:%>i2 shortparpl ;
 +N+Pl:%>i2 shortillpl ;
 
-LEXICON n22  maa
+LEXICON n22 !!= @CODE@ maa
 +N: strong-v-stem ;
 +N: weak-v-stem ;
 +N: long-par ;  maata
@@ -27,52 +35,52 @@ LEXICON n22  maa
 +N+Pl:%>i2 shortillpl ;
 
 
-LEXICON 31	! kaksitavvuiset kakirankaset
+LEXICON 31	!!= @CODE@ kaksitavvuiset kakirankaset
 +N+Sg+Nom: #;
 
-LEXICON 22	! usseempitavvuiset vokaalirankaiset
+LEXICON 22	!!= @CODE@ usseempitavvuiset vokaalirankaiset
 +N+Sg+Nom: #;
 
-LEXICON 32	! usseempitavvuiset konsonanttiirankaiset
+LEXICON 32	!!= @CODE@ usseempitavvuiset konsonanttiirankaiset
 +N+Sg+Nom: #;
 
-LEXICON 23	! kokkoontumarankaiset vokaalirankaiset
+LEXICON 23	!!= @CODE@ kokkoontumarankaiset vokaalirankaiset
 +N+Sg+Nom: #;
 
-LEXICON 33	! kokkoontumarankaiset konsonanttirankaiset
+LEXICON 33	!!= @CODE@ kokkoontumarankaiset konsonanttirankaiset
 +N+Sg+Nom: #;
 
-LEXICON 40	! ekstrakonsonanttirankaiset
+LEXICON 40	!!= @CODE@ ekstrakonsonanttirankaiset
 +N+Sg+Nom: #;
 
 
 
-! Basic paradigms
-! ===============
+!! !!! Basic paradigms
+!  ===================
 
-! Basic vowel stems
-! -----------------
+!! !! Basic vowel stems
+!  --------------------
 
-LEXICON strong-v-stem
+LEXICON strong-v-stem  !!= @CODE@ 
  nom-strong ;
  gae-strong ;
  +Sg:%>i2 com ;
  +Pl:%>i2 com ;
 
-LEXICON weak-v-stem
+LEXICON weak-v-stem  !!= @CODE@ 
  +Sg+Gen:%>n K ;
  +Sg+Acc:%>n K ;
  +Pl+Nom:%>t K ;
  +Pl+Acc:%>t K ;
- +Sg: sgpl-cases ;      these two lexica for cases with
- +Pl:%>i2 sgpl-cases ;  the same affix in sg and pl
- +Pl+Ins:%>i2%>n K ;    Marginal case, in use only for some words.
-                        Todo: identify these, and remove Ins from the
-                        general weak-v-stem lexicon.
+ +Sg: sgpl-cases ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl-cases ;  !! the same affix in sg and pl
+ +Pl+Ins:%>i2%>n K ;    !! Marginal case, in use only for some words.
+                        !! Todo: identify these, and remove Ins from the
+                        !! general weak-v-stem lexicon.
 
 
-! Sublexica for the vowel stems
-! - - - - - - - - - - - - - - - 
+!! ! Sublexica for the vowel stems
+!  - - - - - - - - - - - - - - - 
 
  LEXICON nom-strong
   +Sg+Nom: K ;
@@ -101,7 +109,7 @@ LEXICON com
                   Note that adjectives have -ine without Px
 
 
-! Lexica for the non-uniform cases
+!! ! Lexica for the non-uniform cases
 ! --------------------------------
 
 LEXICON short-par
@@ -156,7 +164,7 @@ LEXICON shorterillpl
 !  +Pl+Ill:%>s%^V%^V n-PxK ;
 ! 
 
-! Sublexica for possessive suffixes
+!! ! Sublexica for possessive suffixes
 ! ---------------------------------
 
 LEXICON n-PxK

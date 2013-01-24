@@ -1,5 +1,58 @@
 Sublexica for NounRoot
 
+Aloitin sovittaa analyysin Eiran kieliopin mukaan (Porsanki).
+Leksikot ovat nyt (tai pitää olla) n11, n12, jne., eli siis
+Eiran nominit tyyppi 1.1., 1.2., jne.
+
+Eiran luokittelu ei ole tarpeeksi tarkka meille,  pitäisi
+olla n11_nen jne. Edelleen on epäjohdomukaisuutta nimien suhteen.
+
+Noun types
+
+ LEXICON n11	  poika lyhyt vokali, yks vartalo
+
+
+ LEXICON 21	 kaksitavvuiset yksirankaset
+
+ LEXICON n22  maa
+
+
+ LEXICON 31	 kaksitavvuiset kakirankaset
+
+ LEXICON 22	 usseempitavvuiset vokaalirankaiset
+
+ LEXICON 32	 usseempitavvuiset konsonanttiirankaiset
+
+ LEXICON 23	 kokkoontumarankaiset vokaalirankaiset
+
+ LEXICON 33	 kokkoontumarankaiset konsonanttirankaiset
+
+ LEXICON 40	 ekstrakonsonanttirankaiset
+
+
+
+Basic paradigms
+
+Basic vowel stems
+
+ LEXICON strong-v-stem   
+
+ LEXICON weak-v-stem   
+these two lexica for cases with
+the same affix in sg and pl
+Marginal case, in use only for some words.
+Todo: identify these, and remove Ins from the
+general weak-v-stem lexicon.
+
+
+! Sublexica for the vowel stems
+
+
+
+
+
+
+! Lexica for the non-uniform cases
 
 
 
@@ -12,31 +65,7 @@ Sublexica for NounRoot
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+! Sublexica for possessive suffixes
 
 
 

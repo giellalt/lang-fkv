@@ -1,11 +1,38 @@
-              !!!Kven morphological transducer                          !
+              !!!Kven morphological transducer                          
 
 
 
  !!!Multichar_Symbols definitions
 
+ !!Tags for POS
+ ; +N +A +Adv +V : Open POS's
+ ; +Pron +CS +CC +Interj +Pcle				 : Closed POS
 
+ !!Tags for grammar 
+ ; +Pers +Dem +Interr +Refl +Recipr +Rel +Indef : Pronoun types
+ ; +Sg +Pl 									 : Number
+ ; +Nom +Acc +Gen +Ine +Ill +Ela +Abe +All +Abl : 
+ ; +Ess +Tra +Ins +Com +Par					 : Case
+ ; +Comp +Superl 							 : Comparatives
+ ; +Clt		 								 : Clitic
+ ; +Pass +Ind +Prs +Prt +Imprt +Cond +Pot		 : Finite verbs
+ ; +Inf +PrsPrc +PrfPrc +Inf3				 : Infinite verbs
+ ; +CLB +PUNCT +HYPH							 : Punctuation
 
+ !!Phonological symbols 
+ ; p1 t1 k1				 : For cons grad
+ ; i2 i3 14 i5			 : For vowel change
+ ; t2 ! 					 : katt2oma always tt
+ ; %^A %^O %^U			 : Vowel harmony
+ ; %^V 					 : Vowel copying
+ ; %^N 					 : tulˆNut, kävel^N^Ut
+ ; %^E2I 				 : for e to i change
+ ; %^HMETA 				 : for h metathesis syksy - sykshyyn
+ ; %^A0 				 : a:o rannoissa
+ ; %^WG 				 : Weak grade matto - maton
+ ; +Use/Sub				 : Substandard forms
+ ; %^TES					 :  in use?
+ ;  %^¤					 : potecting against e:i word-finally (nalle, liike)
 
 
 

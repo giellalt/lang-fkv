@@ -1,19 +1,31 @@
 LEXICA FOR KVEN VERB INFLECTION
 
 
-Auxiliaries
+
+!!!Auxiliaries
 
 
+ LEXICON neg  jakaantuu kahteen
+
+ LEXICON indneg  negaation indikatiivipäätteet
+
+ LEXICON impneg  negaation imperatiivipäätteet
+
+ LEXICON OLLA  on oma leksikko, vielä vain preesens
 
 
+!!!Verbiluokat v1...
 
+Luokkien v1, v2... Eiran kieliopin mukaan.
+Tarvitaan luultavasti alaluokkia.
 
-Verbiluokat v1...
+Jokaisessa leksikossa on infinitiivi, kolmannen
+persoonan pääteet, ja viittaus preesensin ja preteritin
+kautta leksikkoon __v12pers__, missä ''-n, -t, -mA, -ttA''
 
- LEXICON v1  ok
+ LEXICON v1  saađa:saa 
 
-
- LEXICON v2  +V+Inf:%^Vt K ; ok
+ LEXICON v2  anttaat:antta. 
 
 
  LEXICON v3_ele  kävelä:kävel 
@@ -29,7 +41,12 @@ Verbiluokat v1...
  LEXICON v43  jatkata:jatka
 
 
-Persoonapäätteet
+!!Verbien persoonapäätteet
+
+Tämä osa antaa personapäätteet.
+1. ja 2. persoona erikseen, koska ne ovat samoja
+preesensissä ja preterissä. 
+3. persoona annettiin jo vartaloleksikoissa.
 
  LEXICON v12pers   Only sg12, pl12 so far
 

@@ -1,6 +1,6 @@
-! ========================================================================== !
-! !!               !!!Kven morphological transducer                          !
-! ========================================================================== !
+! ======================================================================== 
+!!               !!!Kven morphological transducer                          
+! ======================================================================== 
  
 
 ! Beware of remnants from the Finnish file
@@ -8,33 +8,36 @@
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
- +N +A +Adv +V
- +Pron +CS +CC +Interj +Pcle
- +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
- +Sg +Pl +Nom +Acc +Gen +Ine +Ill +Ela +Abe +All +Abl
- +Ess +Tra +Ins +Com +Par
- +Comp +Superl +Clt
- +Pass +Ind +Prs +Prt +Imprt +Cond +Pot
- +Inf  +PrsPrc +PrfPrc +Inf3
- +CLB +PUNCT +HYPH
- p1 t1 k1
- i2 i3 14 i5
- t2 ! katt2oma always tt
- %^V %^A %^O %^U
- %^N ! tulˆNut, kävel^N^Ut
+!!  !!Tags for POS
+ +N +A +Adv +V                                 !!≈ ; @CODE@ : Open POS's
+ +Pron +CS +CC +Interj +Pcle				   !!≈ ; @CODE@ : Closed POS
+ 
+!!  !!Tags for grammar 
+ +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  !!≈ ; @CODE@ : Pronoun types
+ +Sg +Pl 									   !!≈ ; @CODE@ : Number
+ +Nom +Acc +Gen +Ine +Ill +Ela +Abe +All +Abl  !!≈ ; @CODE@ : 
+ +Ess +Tra +Ins +Com +Par					   !!≈ ; @CODE@ : Case
+ +Comp +Superl     							   !!≈ ; @CODE@ : Comparatives
+ +Clt		  								   !!≈ ; @CODE@ : Clitic
+ +Pass +Ind +Prs +Prt +Imprt +Cond +Pot		   !!≈ ; @CODE@ : Finite verbs
+ +Inf  +PrsPrc +PrfPrc +Inf3				   !!≈ ; @CODE@ : Infinite verbs
+ +CLB +PUNCT +HYPH							   !!≈ ; @CODE@ : Punctuation
+ 
+!!  !!Phonological symbols 
+ p1 t1 k1				 !!≈ ; @CODE@ : For cons grad -- in use at all?
+ i2 i3 14 i5			 !!≈ ; @CODE@ : For vowel change -- check
+ t2 ! 					 !!≈ ; @CODE@ : katt2oma always tt, underlying -ts-
+ %^A %^O %^U			 !!≈ ; @CODE@ : Vowel harmony a/ä, o/ö, u/y
+ %^V 					 !!≈ ; @CODE@ : Vowel copying
+ %^N 					 !!≈ ; @CODE@ : tulˆNut, kävel^N^Ut
+ %^E2I    				 !!≈ ; @CODE@ : for e to i change
+ %^HMETA  				 !!≈ ; @CODE@ : for h metathesis syksy - sykshyyn
+ %^A0     				 !!≈ ; @CODE@ : a:o rannoissa
+ %^WG     				 !!≈ ; @CODE@ : Weak grade matto - maton
+ +Use/Sub				 !!≈ ; @CODE@ : Substandard forms
+ %^TES					 !!≈ ; @CODE@ :  in use?
+ %^¤					      !!≈ ;  @CODE@ : potecting against e:i word-finally (nalle, liike)
 
- %^WG %^A0 %^E2I %^HMETA
-
- +Use/Sub
- %^TES
- %^¤
-
-! Documenting the diacritics
-! %^WG Weak Grade (more WG tags to come
-! %^A0 a:0 sodissa
-! ^wg matto - maton
-! %^AO a:o rannoissa
-! ^¤ potecting against e:i word-finally (nalle, liike)
 
 ! For Finnish, not in use. Keep in mind:
 ! Y2 a:0 koira - koiria
@@ -51,7 +54,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ! i5 i in conditional isi of verbs
 
 ! =================================================
-! Basic lexica, pointing to the other lexicon files
+! !!Basic lexica, pointing to the other lexicon files
 ! =================================================
   
 LEXICON Root

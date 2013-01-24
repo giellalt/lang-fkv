@@ -3,15 +3,15 @@
 ! ================================
 
 
-! -----------
-!! !!! Auxiliaries
-! -----------
 
-LEXICON neg
+!! !!!Auxiliaries
+
+
+LEXICON neg !!= @CODE@ jakaantuu kahteen
  +Ind: indneg ;
  +Imp: impneg ;
 
-LEXICON indneg
+LEXICON indneg !!= @CODE@ negaation indikatiivipäätteet
  +Sg1:en K ;
  +Sg2:et K ;
  +Sg3:ei K ;
@@ -19,11 +19,11 @@ LEXICON indneg
  +Pl2:että K ;
  +Pl3:ei K ;
 
-LEXICON impneg
+LEXICON impneg !!= @CODE@ negaation imperatiivipäätteet
  +Sg2:älä # ;
  +Pl2:älkkää # ;
 
-LEXICON OLLA
+LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +Inf:olla K ;
 +Act+Ind+Prs+Sg1:olen K ;
 +Act+Ind+Prs+Sg2:olet K ;
@@ -33,10 +33,16 @@ LEXICON OLLA
 +Act+Ind+Prs+Pl3:oon K ;
 
 
-!! !! Verbiluokat v1...
+!! !!!Verbiluokat v1...
 
-LEXICON v1 !!= @CODE@ saađa:saa !!= @CODE@ ok
+!! Luokkien v1, v2... Eiran kieliopin mukaan.
+!! Tarvitaan luultavasti alaluokkia.
 
+!! Jokaisessa leksikossa on infinitiivi, kolmannen
+!! persoonan pääteet, ja viittaus preesensin ja preteritin
+!! kautta leksikkoon __v12pers__, missä ''-n, -t, -mA, -ttA''
+
+LEXICON v1 !!= @CODE@ saađa:saa 
 +V+Inf:%>đ%^A K ; đ
 +V+Inf+Use/Sub:%>d%^A K ; d
 +V+Ind+Prs: v12pers ;
@@ -44,7 +50,7 @@ LEXICON v1 !!= @CODE@ saađa:saa !!= @CODE@ ok
 +V+Ind+Prs+Pl3:%>đh%^A%^An K ; đ
 +V+Ind+Prs+Pl3:%>dh%^A%^An K ; d
 
-LEXICON v2 !!= @CODE@ anttaat:antta !!= @CODE@ +V+Inf:%^Vt K ; ok
+LEXICON v2 !!= @CODE@ anttaat:antta. 
 +V+Inf:%>%^Vt K ; 
 +V+Ind+Prs: v12pers ;
 +V+Ind+Prt:%>i v12pers ;
@@ -107,7 +113,12 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 
 
-!! !! Persoonapäätteet
+!! !!Verbien persoonapäätteet
+
+!! Tämä osa antaa personapäätteet.
+!! 1. ja 2. persoona erikseen, koska ne ovat samoja
+!! preesensissä ja preterissä. 
+!! 3. persoona annettiin jo vartaloleksikoissa.
 
 LEXICON v12pers  !!= @CODE@ Only sg12, pl12 so far
  +Sg1:%>n K ;
