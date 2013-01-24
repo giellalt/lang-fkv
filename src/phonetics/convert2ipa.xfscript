@@ -313,10 +313,11 @@ invert net
 !! (post)alveolar						!\ 
 !! palatoalveolar						=\ 
 !! alveolar lateral						|\|\
-!! Ejectives, implosives
-!! 
-!! ejective								_>	e.g. ejective p		p_>
-!! implosive							_<	e.g. implosive b	b_<
+!!
+! Commenting out these two from docu, there is an < error report here.
+! Ejectives, implosives
+!  ejective								_>	e.g. ejective p		p_>
+!  implosive							_<	e.g. implosive b	b_<
 !! Vowels
 !! 
 !! close back unrounded					M
