@@ -11,8 +11,9 @@ if CAN_DOCC
 
 JSP_PAGES=root-morphology.jspwiki \
 		  nouns-affixes.jspwiki \
-		  verbs-affixes.jspwiki
-#		  verbs-stems.jspwiki
+		  verbs-affixes.jspwiki \
+		  nouns-stems.jspwiki \
+		  verbs-stems.jspwiki
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
