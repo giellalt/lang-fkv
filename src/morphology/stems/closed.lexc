@@ -1,10 +1,17 @@
+!! !!!Closed parts of speech
+
+!! Tässä tiedostossa on suljetut sanaluokat.
+
 LEXICON Subjunction
+!! @LEXNAME@ -leksikossa on vain yksi sana.
+
 koska subj ;
 
 LEXICON subj
  +CS: # ;
 
 LEXICON Conjunction
+!! @LEXNAME@ -leksikossa on vain pari sanaa.
 eli conjunctiontag ;
 ja conjunctiontag ;
 tai conjunctiontag ;
@@ -15,6 +22,7 @@ LEXICON conjunctiontag
  +CC: # ;
 
 LEXICON Interjection
+!! @LEXNAME@ -leksikossa on vain yksi sana.
 hyi ij ;
 
 LEXICON ij
