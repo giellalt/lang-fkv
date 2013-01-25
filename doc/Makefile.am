@@ -13,24 +13,18 @@ JSP_PAGES=root-morphology.jspwiki \
 		  nouns-affixes.jspwiki \
 		  verbs-affixes.jspwiki \
 		  nouns-stems.jspwiki \
+		  abbreviations-stems.jspwiki      \
+		  adjectives-stems.jspwiki         \
+		  prepositions-stems.jspwiki        \
+		  adverbs-stems.jspwiki            \
+		  closed-stems.jspwiki       \
+		  nouns-stems.jspwiki              \
+		  propernouns-stems.jspwiki        \
+		  punctuation-stems.jspwiki        \
 		  verbs-stems.jspwiki
+#		  acronyms-stems.jspwiki           \
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
-# abbreviations-stems.jspwiki      \
-# acronyms-stems.jspwiki           \
-# adjectives-oahpa-stems.jspwiki   \
-# adjectives-stems.jspwiki         \
-# adpositions-stems.jspwiki        \
-# adverbs-stems.jspwiki            \
-# conjunctions-stems.jspwiki       \
-# interjections-stems.jspwiki      \
-# nouns-oahpa-stems.jspwiki        \
-# nouns-stems.jspwiki              \
-# numerals-stems.jspwiki           \
-# particles-stems.jspwiki          \
-# pronouns-stems.jspwiki           \
-# propernouns-stems.jspwiki        \
-# punctuation-stems.jspwiki        \
 # smi-propernouns-stems.jspwiki    \
 # subjunctions-stems.jspwiki       \
 # adjectives-oahpa-affixes.jspwiki \
