@@ -28,7 +28,7 @@ LEXICON 21	!!= @CODE@ kaksitavvuiset yksirankaset
 LEXICON n22 !!= @CODE@ maa
 +N: strong-v-stem ;
 +N: weak-v-stem ;
-+N: long-par ;  maata
++N: long-par ;  ! maata
 +N: long-ill ;
 +N+Pl:%>i2 shortgenpl ;
 +N+Pl:%>i2 shortparpl ;
@@ -86,11 +86,11 @@ LEXICON weak-v-stem  !!= @CODE@
   +Sg+Nom: K ;
  
 LEXICON gae-strong
- +Sg+Nom: Px ;   mattoni
- +Sg+Gen: Px ;   mattoni
- +Sg+Acc: Px ;   mattoni
- +Pl+Nom: Px ;   mattoni
- +Pl+Acc: Px ;   mattoni
+ +Sg+Nom: Px ;   ! mattoni
+ +Sg+Gen: Px ;   ! mattoni
+ +Sg+Acc: Px ;   ! mattoni
+ +Pl+Nom: Px ;   ! mattoni
+ +Pl+Acc: Px ;   ! mattoni
  +Sg+Ess:%>n%^A PxxK ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
@@ -105,8 +105,8 @@ LEXICON sgpl-cases
  +Abe:%>tt%^A PxxK ;
 
 LEXICON com
- +Com:%>ne Pxx ;  Not to K, since Px must be present
-                  Note that adjectives have -ine without Px
+ +Com:%>ne Pxx ; ! Not to K, since Px must be present
+                 ! Note that adjectives have -ine without Px
 
 
 !! ! Lexica for the non-uniform cases
@@ -115,7 +115,7 @@ LEXICON com
 LEXICON short-par
  +Sg+Par:%>%^A PxxK ;
 ! does not handle valoaan vs. *salaaan
-!!! 
+ 
 LEXICON long-par
  +Sg+Par:%>t%^A PxxK ;
 
@@ -171,11 +171,11 @@ LEXICON n-PxK
  :n K ;
  Px ;
 
-LEXICON PxK  only -nsA  Currently not in use. Check
+LEXICON PxK ! only -nsA  Currently not in use. Check
  K ;
  Px ;
 
-LEXICON PxxK  also -Vn
+LEXICON PxxK ! also -Vn
  K ;
  Px ;
  Px-Vn ;
@@ -199,7 +199,7 @@ LEXICON Px-Vn
 
 
 
-LEXICON nen  nainen
+LEXICON nen  !!= @CODE@ on nainen-sanoille
  +N: nom-nen ;
  +N:se gae-strong ;
  +N+Sg:se%>i2 com ;

@@ -43,12 +43,12 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 !! kautta leksikkoon __v12pers__, missä ''-n, -t, -mA, -ttA''
 
 LEXICON v1 !!= @CODE@ saađa:saa 
-+V+Inf:%>đ%^A K ; đ
-+V+Inf+Use/Sub:%>d%^A K ; d
++V+Inf:%>đ%^A K ; ! đ
++V+Inf+Use/Sub:%>d%^A K ; ! d
 +V+Ind+Prs: v12pers ;
 +V+Ind+Prs+Sg3:%>pi K ;
-+V+Ind+Prs+Pl3:%>đh%^A%^An K ; đ
-+V+Ind+Prs+Pl3:%>dh%^A%^An K ; d
++V+Ind+Prs+Pl3:%>đh%^A%^An K ; ! đ
++V+Ind+Prs+Pl3:%>dh%^A%^An K ; ! d
 
 LEXICON v2 !!= @CODE@ anttaat:antta. 
 +V+Inf:%>%^Vt K ; 
