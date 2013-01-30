@@ -152,40 +152,68 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* _ ;
     where Cx in ( l r s ) ; 
 
 
+!! * Lyhyt tai pitkä pääte tavurakenteen mukaan:
+!! * Lyhyt: pitkän tavun jälkeen
+!! * Lyhyt: painottoman, lyhyen tavun jälkeen
+!! * Pitkä: painottoman, pitkän tavun jälkeen
+
+!! * kuula
+!! * tulla
+!! * linnala
+!! * muistela
+!! * emänällä
+!! * sijola
+!! * kantelheela
+!! * sisarelle
+!! * itteksemmä
+!! * hunteeraama
+!! * saima
+
+"Shortening of long vowel in front of i"
+
+ Vx:0 <=> Vx _ %>: i ;
+ 	where Vx in (a ä u y ) ;
+ 	
+!€ saa>i
+!€ sa00i 	
+
+
+
+
 ! All XYZ to be removed and replaced with human-readable tags
 
-!! "e:0 in plural of e-stems" ! ovien
-!!  e:0 <=> _  (Dummy:)  %>:0 [ i2:i | i2:j ] ;
-!! ! Y1 removed
-!! 
-!! "e:0 in consonant stems"
-!!  e:0 <=> Cns: _ [ Y5: | Y7: ] %>:0 t ;
-!! 
-!! "i:0 in par and gen pl of i-stems" ! ristien
-!!  i:0 <=> Cns: _ Z2: %>:0 i2:i %>:0 [ e n | %^A: ] ;
-!! 
-!! "i:e in i-stems"
-!!  i:e <=> Cns: _ ( X4:) %>:0 [ i2:i | i2:j ] %>:0 ;
-!! 
-!! "i as j intervocalically in affixes"
-!!  i2:j <=> [ Vow - :i ] (Dummy: | %^¤: ) %>:0 _ %>:0 Vow:Vow ; 
-!! ! valoien : valojen
-!! 
-!! "a to 0 in front of i"
-!!  a:0 <=> _ [ X2: | Y2: ] %>:0 i2: ;
-!! !a:0 <=> [ u | o ] (Neutral) Cns: Cns:* _  (Dummy:) [ X2: | Y2: ] %>: i2: ;
-!!  ! koiraien : koirien
-!! 
-!! "a to o in front of i"
-!!  a:o <=> _ [ X4: | Y1: | Y3: ] %>:0 i2: ;
-!! !a:o <=> a Cns: Cns:*  _  (Dummy:) Y3: %>: i: ;
-!!  ! kalaien : kalojen
-!! 
-!! ! Long vowel and diphtong shortening
-!! ! ----------------------------------
-!! 
-!! "Shortening of ie, yö, uo and long vowels"
-!!  Vx:0 <=> _ Vy: (Dummy:) %>:0 [ i2: | i3 | i4: | i5 ] ;
-!!       where Vx in ( i y u a e i o u y ä ö )
-!! 	    Vy in ( e ö o a e i o u y ä ö )
-!! 	    matched ;
+! "e:0 in plural of e-stems" ! ovien
+!  e:0 <=> _  (Dummy:)  %>:0 [ i2:i | i2:j ] ;
+! ! Y1 removed
+! 
+! "e:0 in consonant stems"
+!  e:0 <=> Cns: _ [ Y5: | Y7: ] %>:0 t ;
+! 
+! "i:0 in par and gen pl of i-stems" ! ristien
+!  i:0 <=> Cns: _ Z2: %>:0 i2:i %>:0 [ e n | %^A: ] ;
+! 
+! "i:e in i-stems"
+!  i:e <=> Cns: _ ( X4:) %>:0 [ i2:i | i2:j ] %>:0 ;
+! 
+! "i as j intervocalically in affixes"
+!  i2:j <=> [ Vow - :i ] (Dummy: | %^¤: ) %>:0 _ %>:0 Vow:Vow ; 
+! ! valoien : valojen
+! 
+! "a to 0 in front of i"
+!  a:0 <=> _ [ X2: | Y2: ] %>:0 i2: ;
+! !a:0 <=> [ u | o ] (Neutral) Cns: Cns:* _  (Dummy:) [ X2: | Y2: ] %>: i2: ;
+!  ! koiraien : koirien
+! 
+! "a to o in front of i"
+!  a:o <=> _ [ X4: | Y1: | Y3: ] %>:0 i2: ;
+! !a:o <=> a Cns: Cns:*  _  (Dummy:) Y3: %>: i: ;
+!  ! kalaien : kalojen
+! 
+! ! Long vowel and diphtong shortening
+! ! ----------------------------------
+! 
+! "Shortening of ie, yö, uo and long vowels"
+!  Vx:0 <=> _ Vy: (Dummy:) %>:0 [ i2: | i3 | i4: | i5 ] ;
+!       where Vx in ( i y u a e i o u y ä ö )
+! 	    Vy in ( e ö o a e i o u y ä ö )
+! 	    matched ;
