@@ -54,6 +54,8 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Ind+Prs+Pl3:%>dh%^A%^An K ; ! d
 +V+Ind+Prt+Sg3:%>i K ;
 +V+Ind+Prt+Pl3:%>thiin K ; 
++V+PrfPrc+Sg+Nom:%>%^N%^U K ;
++V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
 LEXICON v2 !!= @CODE@ anttaat:antta. 
 +V+Inf:%>%^Vt K ; 
@@ -62,7 +64,9 @@ LEXICON v2 !!= @CODE@ anttaat:antta.
 +V+Ind+Prs+Sg3:%>%^V K ;
 +V+Ind+Prs+Pl3:%>th%^A%^An K ; 
 +V+Ind+Prt+Sg3:%>i K ;
-+V+Ind+Prt+Pl3:%>ithiin K ; 
++V+Ind+Prt+Pl3:%>thiin K ; 
++V+PrfPrc+Sg+Nom:%>%^N%^U K ;
++V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
 
 LEXICON v3_ele !!= @CODE@ kävelä:kävel 
@@ -74,6 +78,7 @@ LEXICON v3_ele !!= @CODE@ kävelä:kävel
 +V+Ind+Prs:%>e v12pers ;
 +V+Ind+Prt:%>i v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
++V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
 LEXICON v3_ise !!= @CODE@ aukaista:aukaise 
 +V+Inf:%>t%^A K ; 
@@ -84,6 +89,7 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +V+Ind+Prs:%>e v12pers ;
 +V+Ind+Prt:%>i v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
++V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
 
 LEXICON v4 !!= @CODE@ vanheta:vanhe 
@@ -95,6 +101,7 @@ LEXICON v4 !!= @CODE@ vanheta:vanhe
 +V+Ind+Prs:%>ne v12pers ;
 +V+Ind+Prt:%>ni v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
++V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
 LEXICON v4_itte !!= @CODE@ ja vartalo on kyyti-
 +V+Inf:%>t%^A K ; 
@@ -106,6 +113,8 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on kyyti-
 +V+Ind+Prt:%>tti v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ; !! * Lyhyt partisiippi
 +V+PrfPrc+Sg+Nom:tte%>nn%^U K ; !! * Pitkä partisiippi
++V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
++V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
 
 LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
@@ -117,6 +126,7 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Ind+Prs:%>a v12pers ;
 +V+Ind+Prt:%>si v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
++V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
 
 !! !!Verbien persoonapäätteet
@@ -133,6 +143,11 @@ LEXICON v12pers  !!= @CODE@ Only sg12, pl12 so far
  +Pl2:%>%^WGtt%^A K ;
 
 
+LEXICON PRFPRC_OBL !!= @CODE@ is without nom sg
+ gae-strong ;
+ +Sg:%>i2 com ;
+ +Pl:%>i2 com ;
+weak-v-stem ; 
 
 
 
