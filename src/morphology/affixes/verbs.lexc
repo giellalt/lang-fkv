@@ -12,12 +12,14 @@ LEXICON neg !!= @CODE@ jakaantuu kahteen
  +Imp: impneg ;
 
 LEXICON indneg !!= @CODE@ negaation indikatiivipäätteet
- +Sg1:en K ;
- +Sg2:et K ;
- +Sg3:ei K ;
- +Pl1:emmä K ;
- +Pl2:että K ;
- +Pl3:ei K ;
+!! Note that lexicon @LEXNAME@ directs to K_NEG and not to K,
+!! this is since we have enkä but not enkin
+ +Sg1:en K_NEG ;
+ +Sg2:et K_NEG ;
+ +Sg3:ei K_NEG ;
+ +Pl1:emmä K_NEG ;
+ +Pl2:että K_NEG ;
+ +Pl3:ei K_NEG ;
 
 LEXICON impneg !!= @CODE@ negaation imperatiivipäätteet
  +Sg2:älä # ;
