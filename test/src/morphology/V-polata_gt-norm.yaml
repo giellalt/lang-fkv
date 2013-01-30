@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - pölätä: # Verb 'to bring' - full paradigm
+     pölätä+V+Inf: pölätä
+     pölätä+V+Ind+Prs+Sg1: pölkkään
+     pölätä+V+Ind+Prs+Sg2: pölkkäät
+     pölätä+V+Ind+Prs+Sg3: pölkkää
+     pölätä+V+Ind+Prs+Pl1: pölkkäämä
+     pölätä+V+Ind+Prs+Pl2: pölkkäättä
+     pölätä+V+Ind+Prs+Pl3: pöläthäan
+     pölätä+V+Ind+Prt+Sg1: pölkäsin
+     pölätä+V+Ind+Prt+Sg2: pölkäsit
+     pölätä+V+Ind+Prt+Sg3: pölkäs
+     pölätä+V+Ind+Prt+Pl1: pölkäsimmä
+     pölätä+V+Ind+Prt+Pl2: pölkäsittä
+     pölätä+V+Ind+Prt+Pl3: pöläthiin
+     pölätä+V+PrfPrc+Sg+Nom: pöläny
