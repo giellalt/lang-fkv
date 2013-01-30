@@ -19,7 +19,7 @@ Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;
 NeutralVowel = e i ;
 Segment = Vowel Conson ;
 Dummy = %> %+ %^WG %^E2I %^HMETA ;
-NonFront = BackVowel Conson NeutralVowel ArchiVowel Dummy ;
+NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;
 
 !Definitions
 ! Vokaalisointua 
@@ -62,7 +62,7 @@ Cx:0 <=> Vowel: _ [Cx|%+:0] (Dummy:) Vowel: %^WG:0 ;
 "I-0 for k:j" 
 k:j <=> i _ Vowel: %^WG:0 ;
 
-!€ poika^wg>n
+!€ poika^WG>n
 !€ poija00n
 
 
@@ -72,7 +72,7 @@ k:j <=> i _ Vowel: %^WG:0 ;
  ! ht: hđ/ h
  ! lähteet : lähđen/lähen
 
-!€ lahti^wg
+!€ lahti^WG
 !€ lahđi0
 
 
@@ -93,7 +93,7 @@ k:v <=> Conson u _ u %^WG:0 ;
 ! Vowel harmony 
 
 "Back harmony"
-Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* _ ;
+Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* [ NonFront: | :NonFront ] NonFront:* _ ;
           where Vx in ( %^A %^O %^U )
                 Vy in (   a   o   u )
           matched ;
@@ -148,7 +148,7 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* _ ;
 !  i:e <=> Cns: _ ( X4:) %>:0 [ i2:i | i2:j ] %>:0 ;
 
 "Alveolar assimilation for consonant stems"
- %^N:Cx <=> Cx %>: _ ;
+ %^N:Cx <=> Cx: %>: _ ;
     where Cx in ( l r s ) ; 
 
 
@@ -171,12 +171,33 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* _ ;
 
 "Shortening of long vowel in front of i"
 
- Vx:0 <=> Vx _ %>: i ;
+ Vx:0 <=> _ Vx %>: i ;
  	where Vx in (a ä u y ) ;
  	
 !€ saa>i
 !€ sa00i 	
 
+
+"Suffix lengthening after short vowels in odd syllbles of vowel stems"
+ 0:Cx <=> Vowel Conson+ Vowel+ (%>:) Conson+  (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ;
+ 	where Cx in ( l r m n ) ;
+
+"Suffix shortening after short vowels in odd syllbles of consonant stems"
+ Cx:0 <=> Conson+ Vowel ( Dummy: ) _ %>: Cy: Vowel ;
+ 	where Cx in ( l r m n l   r   m   n   ) 
+ 		  Cy in ( l r m n %^N %^N %^N %^N )
+ 		  matched ;
+
+!€ kävel>NU
+!€ käve00ly
+
+! "Suffix shortening after long vowels"
+!  Cx:0 <=> Vowel (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ;
+!  	where Cx in ( l r m n ) ;
+! 
+! "Suffix shortening after short vowels in even syllbles"
+!  Cx:0 <=>  (Conson+) Vowel+ Conson+ Vowel %>: ( Dummy: ) _ Cx: Vowel ;
+!  	where Cx in ( l r m n ) ;
 
 
 
