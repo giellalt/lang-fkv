@@ -93,7 +93,7 @@ k:v <=> Conson u _ u %^WG:0 ;
 ! Vowel harmony 
 
 "Back harmony"
-Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* [ NonFront: | :NonFront ] NonFront:* _ ;
+Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;
           where Vx in ( %^A %^O %^U )
                 Vy in (   a   o   u )
           matched ;
@@ -170,9 +170,10 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* [ NonFront: | :NonFront ] NonFron
 !! * saima
 
 "Shortening of long vowel in front of i"
-
- Vx:0 <=> _ Vx %>: i ;
- 	where Vx in (a ä u y ) ;
+ Vx:0 <=> _ Vy %>: i ;
+ 	where Vx in (a ä u y u y i ) 
+ 	      Vy in (a ä u y o ö e )
+ 	      matched ;
  	
 !€ saa>i
 !€ sa00i 	
