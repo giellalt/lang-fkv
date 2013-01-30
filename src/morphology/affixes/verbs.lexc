@@ -45,10 +45,13 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 LEXICON v1 !!= @CODE@ saađa:saa 
 +V+Inf:%>đ%^A K ; ! đ
 +V+Inf+Use/Sub:%>d%^A K ; ! d
-+V+Ind+Prs: v12pers ;
++V+Ind+Prs:    v12pers ;
++V+Ind+Prt:%>i v12pers ;
 +V+Ind+Prs+Sg3:%>pi K ;
 +V+Ind+Prs+Pl3:%>đh%^A%^An K ; ! đ
 +V+Ind+Prs+Pl3:%>dh%^A%^An K ; ! d
++V+Ind+Prt+Sg3:%>i K ;
++V+Ind+Prt+Pl3:%>thiin K ; 
 
 LEXICON v2 !!= @CODE@ anttaat:antta. 
 +V+Inf:%>%^Vt K ; 
@@ -91,15 +94,16 @@ LEXICON v4 !!= @CODE@ vanheta:vanhe
 +V+Ind+Prt:%>ni v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 
-LEXICON v4_itte !!= @CODE@ 
+LEXICON v4_itte !!= @CODE@ ja vartalo on kyyti-
 +V+Inf:%>t%^A K ; 
 +V+Ind+Prs+Sg3:ttee K ; 
 +V+Ind+Prs+Pl3:%>th%^A%^An K ; 
 +V+Ind+Prt+Sg3:%>tti K ;
-+V+Ind+Prt+Pl3:%>ttithiin K ; 
++V+Ind+Prt+Pl3:%>thiin K ; 
 +V+Ind+Prs:%>tte v12pers ;
 +V+Ind+Prt:%>tti v12pers ;
-+V+PrfPrc+Sg+Nom:t%>%^N%^U K ;
++V+PrfPrc+Sg+Nom:%>%^N%^U K ; !! * Lyhyt partisiippi
++V+PrfPrc+Sg+Nom:tte%>nn%^U K ; !! * Pitkä partisiippi
 
 
 LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
