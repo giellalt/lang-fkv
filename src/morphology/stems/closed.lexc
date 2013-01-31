@@ -6,6 +6,9 @@ LEXICON Subjunction
 !! @LEXNAME@ -leksikossa on vain yksi sana.
 
 koska subj ;
+että subj ;
+ette subj ;
+
 
 LEXICON subj
  +CS: # ;
@@ -16,7 +19,13 @@ eli conjunctiontag ;
 ja conjunctiontag ;
 tai conjunctiontag ;
 vai conjunctiontag ;
+mutta conjunctiontag ;
+ko conjunctiontag ;
 
+vaikka conjunctiontag ; 
+tahi conjunctiontag ; 
+joko conjunctiontag ; 
+jos conjunctiontag ;
 
 LEXICON conjunctiontag
  +CC: # ;
