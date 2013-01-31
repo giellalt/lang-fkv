@@ -1,0 +1,47 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - suomi: # Noun 'borg' - full paradigm
+     suomi+N+Sg+Nom: suomi
+     suomi+N+Sg+Gen: suomen
+     suomi+N+Sg+Acc: suomen
+     suomi+N+Sg+Par: suomee
+     suomi+N+Sg+Tra: suomeksi
+     suomi+N+Sg+Abe: suomitta
+     suomi+N+Sg+Com: suomheen
+     suomi+N+Sg+Ine: suomessa
+     suomi+N+Sg+Ela: suomesta
+     suomi+N+Sg+Ill: suomheen
+     suomi+N+Sg+Ade: suomela
+     suomi+N+Sg+Abl: suomelta
+     suomi+N+Sg+All: suomele
+     suomi+N+Sg+Ess: suomena
+     suomi+N+Pl+Nom: suomet
+     suomi+N+Pl+Ine: suomissa
+     suomi+N+Pl+Ela: suomista
+     suomi+N+Pl+Ill: suomiitta
+     suomi+N+Pl+Ade: suomila
+     suomi+N+Pl+Abl: suomilta
+     suomi+N+Pl+All: suomile
+     suomi+N+Pl+Ess: suomina
+
+
+#     suomi+N+Pl+Gen: suomitten %%epäselvä
+#     suomi+N+Pl+Acc: suomii %%epäselvä
+#     suomi+N+Pl+Par: suomita %%epäselvä
+#     suomi+N+Pl+Tra: suomiksi%%epäselvä
+#     suomi+N+Pl+Abe: suomitta %%epäselvä
+#     suomi+N+Pl+Com: suomein %%epäselvä
