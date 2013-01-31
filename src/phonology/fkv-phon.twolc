@@ -170,9 +170,9 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFr
 !! * saima
 
 "Shortening of long vowel in front of i"
- Vx:0 <=> _ Vy %>: i ;
- 	where Vx in (a ä u y u y i ) 
- 	      Vy in (a ä u y o ö e )
+ Vx:0 <=> _ Vy %>: [ i | i2: ] ;
+ 	where Vx in ( a ä u y u y i ) 
+ 	      Vy in ( a ä u y o ö e )
  	      matched ;
  	
 !€ saa>i
