@@ -92,6 +92,18 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
 
+LEXICON v3_lnr !!= @CODE@ ja vartalo on kyyti-
++V+Inf:%>%^N%^A K ; !! * pitää tehdä %^D
++V+Ind+Prs+Sg3:e K ; 
++V+Ind+Prs+Pl3:%>th%^A%^An K ; 
++V+Ind+Prt+Sg3:%>i K ;
++V+Ind+Prt+Pl3:%>thiin K ; 
++V+Ind+Prs:%>e v12pers ;
++V+Ind+Prt:%>i v12pers ;
++V+PrfPrc+Sg+Nom:%>%^N%^U K ; !! * Lyhyt partisiippi
++V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
+
+
 LEXICON v4 !!= @CODE@ vanheta:vanhe 
 +V+Inf:%>t%^A K ; 
 +V+Ind+Prs+Sg3:nee K ; !
@@ -115,6 +127,8 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on kyyti-
 +V+PrfPrc+Sg+Nom:tte%>nn%^U K ; !! * Pitkä partisiippi
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
+
+
 
 
 LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
