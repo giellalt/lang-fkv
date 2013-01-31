@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - maa: # Noun 'borg' - full paradigm
+     maa+N+Sg+Nom: maa
+     maa+N+Sg+Gen: maan
+     maa+N+Sg+Acc: maan
+     maa+N+Sg+Par: maata
+     maa+N+Sg+Tra: maaksi
+     maa+N+Sg+Abe: maatta
+     maa+N+Sg+Com: maain
+     maa+N+Sg+Ine: maassa
+     maa+N+Sg+Ela: maasta
+     maa+N+Sg+Ill: maahan
+     maa+N+Sg+Ade: maala
+     maa+N+Sg+Abl: maalta
+     maa+N+Sg+All: maale
+     maa+N+Sg+Ess: maana
+     maa+N+Pl+Nom: maat
+     maa+N+Pl+Gen: maitten
+     maa+N+Pl+Acc: maita
+     maa+N+Pl+Par: maita
+     maa+N+Pl+Tra: maiksi
+     maa+N+Pl+Abe: maitta
+     maa+N+Pl+Com: main
+     maa+N+Pl+Ine: maissa
+     maa+N+Pl+Ela: maista
+     maa+N+Pl+Ill: maihin
+     maa+N+Pl+Ade: maila
+     maa+N+Pl+Abl: mailta
+     maa+N+Pl+All: maile
+     maa+N+Pl+Ess: maina
