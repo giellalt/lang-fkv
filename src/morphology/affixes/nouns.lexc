@@ -71,7 +71,7 @@ LEXICON strong-v-stem  !!= @CODE@
  +Sg:%>i2 com ;
  +Pl:%>i2 com ;
 
-LEXICON weak-v-stem  !!= @CODE@ 
+LEXICON weak-v-stem !!= @CODE@ 
  +Sg+Gen:%>n K ;
  +Sg+Acc:%>n K ;
  +Pl+Nom:%>t K ;
@@ -210,11 +210,11 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
  +N+Pl:se%>i2 com ;
  +N:se weak-v-stem ;
  +N:s long-par ;
- +N: short-ill ;
- +N+Pl:%>i2 shortgenpl ;
- +N+Pl:Y5 consgenpl ;
- +N+Pl:%>i2 shortparpl ;
- +N+Pl:%>i2 shorterillpl ;
+ +N:s short-ill ;
+ +N+Pl:s%>i2 shortgenpl ; ! naisien
+ +N+Pl:s consgenpl ;
+ +N+Pl:s%>i2 shortparpl ;
+ +N+Pl:s%>i2 shorterillpl ;
 
 LEXICON nom-nen
 +Sg+Nom:nen K ;
