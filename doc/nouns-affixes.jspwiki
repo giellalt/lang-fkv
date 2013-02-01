@@ -9,21 +9,21 @@ olla n11_nen jne. Edelleen on epäjohdomukaisuutta nimien suhteen.
 
 Noun types
 
- LEXICON n11	  poika lyhyt vokali, yks vartalo
+ LEXICON n11	  "poika", lyhyt vokali, yks vartalo
 
  LEXICON n12	  tytär, NB!! ei vielä hoidettu millään tavalla
 ei vielä hoidettu millään tavalla
 * Konsonanttivartalo: poista -e ja heikko aste
 
 
- LEXICON 21	 kaksitavvuiset yksirankaset
+ LEXICON n21	 kaksitavvuiset yksirankaset
 
  LEXICON n22  maa
 
 
- LEXICON 31	 kaksitavvuiset kakirankaset
+ LEXICON 31	 kaksitavvuiset kakirankaset, meininki
 
- LEXICON 22	 usseempitavvuiset vokaalirankaiset
+ LEXICON 22	 usseempitavvuiset vokaalirankaiset, meininki
 
  LEXICON 32	 usseempitavvuiset konsonanttiirankaiset
 
@@ -39,7 +39,7 @@ Basic paradigms
 
 Basic vowel stems
 
- LEXICON strong-v-stem   
+ LEXICON strong-v-stem   ''Kaikki vahvan asteen sijamuodot tähän''
 
  LEXICON weak-v-stem  
 these two lexica for cases with
@@ -56,6 +56,7 @@ general weak-v-stem lexicon.
 * Lyhyt perusmuoto
 * Lyhyt perusmuoto
 
+Komitatiivilla on vain -ine ja menee Pxx:iin
 
 
 ! Lexica for the non-uniform cases
@@ -73,8 +74,11 @@ general weak-v-stem lexicon.
 
 ! Sublexica for possessive suffixes
 
+ LEXICON n-PxK   has either -n or goes to Px
 
+ LEXICON PxK  has only -nsA, and is currently not in use. Check
 
+ LEXICON PxxK   has also -Vn, thus both .. llensa and ..lleen.
 
 
 
