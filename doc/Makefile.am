@@ -21,7 +21,8 @@ JSP_PAGES=root-morphology.jspwiki \
 		  nouns-stems.jspwiki              \
 		  propernouns-stems.jspwiki        \
 		  punctuation-stems.jspwiki        \
-		  verbs-stems.jspwiki
+		  verbs-stems.jspwiki \
+		  fkv-phon-phonology.jspwiki
 #		  acronyms-stems.jspwiki           \
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
