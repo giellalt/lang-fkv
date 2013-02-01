@@ -1,3 +1,75 @@
+!!!Phonological rules for Kven
+
+!!Alphabet
+
+!!Sets
+ * Sets 																			   
+ * FrontVowel = e i y ä ö ü æ ø;													   
+ * BackVowel = a o u å ;															   
+ * ArchiVowel =  %^A %^O %^U ;														   
+ * ArchiConson = %^N ;																   
+ * SomeVowel = %^V ;																   
+ * Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ; 							   
+ * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ; 					   
+ * NeutralVowel = e i ;															   
+ * Segment = Vowel Conson ;														   
+ * Dummy = %> %+ %^WG %^E2I %^HMETA ;												   
+ * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;  
+
+
+
+!!!Rules
+
+!!!Consonant gradation
+
+ "Gemination"   <=========== 
+
+
+ "II-I"   <=========== 
+
+
+
+  "I-0 for ptk"   <=========== 
+
+
+Single k,p,t are realized as zero in the beginning of a syllable? 
+
+
+ "I-0 for k:j"   <=========== 
+
+
+
+ "I-0 for t"   <=========== 
+
+
+
+
+
+ "Gradation of k:0"   <=========== 
+
+ "Gradation of k between u/y"   <=========== 
+
+
+
+
+!!!Vowel harmony 
+
+ "Back harmony"   <=========== 
+
+ "Vowel copying"   <=========== 
+
+ "Vowel copying in short h-illative"   <=========== 
+
+
+ "Vowel copying in long h forms"   <=========== 
+
+ "Vowel copying in long h forms 2"   <=========== 
+
+
+ "Stem deletion in h-illative"   <=========== 
+
+
+!!!Other vowel rules
 
 
 
@@ -6,44 +78,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ "Alveolar assimilation for consonant stems"   <=========== 
 
 
 * Lyhyt tai pitkä pääte tavurakenteen mukaan:
@@ -63,10 +98,13 @@
 * hunteeraama
 * saima
 
+ "Shortening of long vowel in front of i"   <=========== 
 
 
 
+ "Suffix lengthening after short vowels in odd syllbles of vowel stems"   <=========== 
 
+ "Suffix shortening after short vowels in odd syllbles of consonant stems"   <=========== 
 
 
 
