@@ -1,3 +1,6 @@
+!! !!!Phonological rules for Kven
+
+!! !!Alphabet
 Alphabet
 a b c d đ e f g h i j k l m n o p q r s t u ü v w x y z å ä ö æ ø
 A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø
@@ -8,30 +11,28 @@ i2:i t2:t
 %^HMETA:0 %^WG:0 %^E2I:0 
 ;
 
-Sets 
-FrontVowel = e i y ä ö ü æ ø;
-BackVowel = a o u å ;
-ArchiVowel =  %^A %^O %^U ;
-ArchiConson = %^N ;
-SomeVowel = %^V ;
-Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ; 
-Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ; 
-NeutralVowel = e i ;
-Segment = Vowel Conson ;
-Dummy = %> %+ %^WG %^E2I %^HMETA ;
-NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;
-
-!Definitions
-! Vokaalisointua 
-! Backvowel = a o u 
-! Front Vowel = ä o y 
+!! !!Sets
+Sets 																			  !!= * @CODE@ 
+FrontVowel = e i y ä ö ü æ ø;													  !!= * @CODE@ 
+BackVowel = a o u å ;															  !!= * @CODE@ 
+ArchiVowel =  %^A %^O %^U ;														  !!= * @CODE@ 
+ArchiConson = %^N ;																  !!= * @CODE@ 
+SomeVowel = %^V ;																  !!= * @CODE@ 
+Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ; 							  !!= * @CODE@ 
+Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ; 					  !!= * @CODE@ 
+NeutralVowel = e i ;															  !!= * @CODE@ 
+Segment = Vowel Conson ;														  !!= * @CODE@ 
+Dummy = %> %+ %^WG %^E2I %^HMETA ;												  !!= * @CODE@ 
+NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ; !!= * @CODE@ 
 
 
+
+!! !!!Rules
 Rules 
 
-! Consonant gradation
+!! !!!Consonant gradation
 
-"Gemination"
+"Gemination" !!= @CODE@  <=========== 
 %+:Cx <=> Cy _ Vowel: %>:0 Vowel: ;
         where Cy in ( h j k l m n p r s t v )
               Cx in ( h j k l m n p r s t v ) 
@@ -40,7 +41,7 @@ Rules
 !   bare når det er foran dem en kort stavelse med trykk
 !   f.eks. aikkaa: aika       
 
-"II-I"
+"II-I" !!= @CODE@  <=========== 
 Cy:0 <=> Cx _ Cy Vowel: %^WG:0 ;
         where Cx in ( l l l m n n r r r)
               Cy in ( k p t p k t k p t)
@@ -51,22 +52,22 @@ Cy:0 <=> Cx _ Cy Vowel: %^WG:0 ;
 ! f.eks. lkk-lk: pölkkää-pölkäs 
  
  
- "I-0 for ptk"
+ "I-0 for ptk" !!= @CODE@  <=========== 
 Cx:0 <=> Vowel: _ [Cx|%+:0] (Dummy:) Vowel: %^WG:0 ; 
             where Cx in ( k p t ) ;
 
 
-! Single k,p,t are realized as zero in the beginning of a syllable? 
+!! Single k,p,t are realized as zero in the beginning of a syllable? 
 
 
-"I-0 for k:j" 
+"I-0 for k:j" !!= @CODE@  <=========== 
 k:j <=> i _ Vowel: %^WG:0 ;
 
 !€ poika^WG>n
 !€ poija00n
 
 
-"I-0 for t"
+"I-0 for t" !!= @CODE@  <=========== 
 	t:đ <=> h _ Vowel: %^WG:0 ;
  
  ! ht: hđ/ h
@@ -77,12 +78,12 @@ k:j <=> i _ Vowel: %^WG:0 ;
 
 
 
-"Gradation of k:0"
+"Gradation of k:0" !!= @CODE@  <=========== 
 k:0 <=> Vowel - [ i | u | y ] _ ( %+ ) Vowel: %^WG:0 ;
 ! Remove i from the left vowel context because of the rule "I-0 for k:j"
 ! Remove u & y from the left vowel context because of the following rule
 
-"Gradation of k between u/y"
+"Gradation of k between u/y" !!= @CODE@  <=========== 
 k:v <=> Conson u _ u %^WG:0 ; 
         Conson y _ y %^WG:0 ; 
 
@@ -90,51 +91,51 @@ k:v <=> Conson u _ u %^WG:0 ;
 
 
 
-! Vowel harmony 
+!! !!!Vowel harmony 
 
-"Back harmony"
+"Back harmony" !!= @CODE@  <=========== 
 Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;
           where Vx in ( %^A %^O %^U )
                 Vy in (   a   o   u )
           matched ;
 
-"Vowel copying"
+"Vowel copying" !!= @CODE@  <=========== 
  %^V:Vx <=> :Vx Dummy:* %>:0 _ \Vowel ;
 	where Vx in ( a e i o u y ä ö ) ;
 
-"Vowel copying in short h-illative"
+"Vowel copying in short h-illative" !!= @CODE@  <=========== 
  %^V:Vx <=> Vowel Vx: %>:0 h _ [ n: | m: ] ;
 	where Vx in ( a e i o u y ä ö ) ; 
 
 ! maahan
 
-"Vowel copying in long h forms"
+"Vowel copying in long h forms" !!= @CODE@  <=========== 
  %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h _ %^V: ;
 	where Vx in ( a e i o u y ä ö ) ; 
 
-"Vowel copying in long h forms 2"
+"Vowel copying in long h forms 2" !!= @CODE@  <=========== 
  %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h %^V: _ ;
 	where Vx in ( a e i o u y ä ö ) ; 
 
 ! sykshyyn
 
-"Stem deletion in h-illative"
+"Stem deletion in h-illative" !!= @CODE@  <=========== 
  Vx:0 <=> Conson _ %>:0 %^HMETA: ;
 	where Vx in ( a e i o u y ä ö ) ; 
 
-!"Vowel copying in s-illative"
+!"Vowel copying in s-illative" 
 ! %^V:Vx <=> Vx: %>:0 s %^V: _ ;
 !	where Vx in ( a e i o u y ä ö ) ; 
 ! tämä pitää kai olla -seen, -siin
 	
-! Other vowel rules
+!! !!!Other vowel rules
 
 
 "e:i in nom.sg. of e-stems" ! ove : ovi
  e:i <=> _ %^E2I:0 #:0 ;
 
 ! uuet
-!"e+i>i"
+!"e+i>i" 
 !Vokaalivaihettelu pl i:m ja preteritin i:n eđelä
 
 ! e:i <=> Cns: _ ( %+: Cns:) %>:0 [ i2:i | i2:j ] %>:0
@@ -144,10 +145,10 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFr
 !e:i <=> i: _ (%+) Vowel: %^WG:0 ;
        
 
-! "i:e in i-stems"
+! "i:e in i-stems" 
 !  i:e <=> Cns: _ ( X4:) %>:0 [ i2:i | i2:j ] %>:0 ;
 
-"Alveolar assimilation for consonant stems"
+"Alveolar assimilation for consonant stems" !!= @CODE@  <=========== 
  %^N:Cx <=> Cx: %>: _ ;
     where Cx in ( l r s ) ; 
 
@@ -169,7 +170,7 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFr
 !! * hunteeraama
 !! * saima
 
-"Shortening of long vowel in front of i"
+"Shortening of long vowel in front of i" !!= @CODE@  <=========== 
  Vx:0 <=> _ Vy %>: [ i | i2: ] ;
  	where Vx in ( a ä u y u y i ) 
  	      Vy in ( a ä u y o ö e )
@@ -179,11 +180,11 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFr
 !€ sa00i 	
 
 
-"Suffix lengthening after short vowels in odd syllbles of vowel stems"
+"Suffix lengthening after short vowels in odd syllbles of vowel stems" !!= @CODE@  <=========== 
  0:Cx <=> Vowel Conson+ Vowel+ (%>:) Conson+  (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ;
  	where Cx in ( l r m n ) ;
 
-"Suffix shortening after short vowels in odd syllbles of consonant stems"
+"Suffix shortening after short vowels in odd syllbles of consonant stems" !!= @CODE@  <=========== 
  Cx:0 <=> Conson+ Vowel ( Dummy: ) _ %>: Cy: Vowel ;
  	where Cx in ( l r m n l   r   m   n   ) 
  		  Cy in ( l r m n %^N %^N %^N %^N )
