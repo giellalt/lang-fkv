@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - venet: # Noun 'borg' - full paradigm
+     venet+N+Sg+Nom: venet
+     venet+N+Sg+Gen: venheen
+     venet+N+Sg+Acc: venettä
+     venet+N+Sg+Par: venettä
+     venet+N+Sg+Tra: venheeksi
+     venet+N+Sg+Abe: venheessä
+     venet+N+Sg+Com: venehein
+     venet+N+Sg+Ine: venheessä
+     venet+N+Sg+Ela: venheestä
+     venet+N+Sg+Ill: venheesseen
+     venet+N+Sg+Ade: venheelä
+     venet+N+Sg+Abl: venheeltä
+     venet+N+Sg+All: venheele
+     venet+N+Sg+Ess: venheenä
+     venet+N+Pl+Nom: venheet
+     venet+N+Pl+Gen: venheitten
+     venet+N+Pl+Acc: venheitä
+     venet+N+Pl+Par: venettä
+     venet+N+Pl+Tra: venheiksi
+     venet+N+Pl+Abe: venheittä
+     venet+N+Pl+Com: venhein
+     venet+N+Pl+Ine: venheissä
+     venet+N+Pl+Ela: venheistä
+     venet+N+Pl+Ill: venheissiin
+     venet+N+Pl+Ade: venheilä
+     venet+N+Pl+Abl: venheiltä
+     venet+N+Pl+All: venheile
+     venet+N+Pl+Ess: venheinä
