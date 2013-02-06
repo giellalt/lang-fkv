@@ -25,10 +25,38 @@ aamu n11 ;
 valo n11 ;
 
 
+
+
+!! !!"sseempitavvuiset vokaalirankaiset
+
+meininki n11 ; !!= * @CODE@
+tunturi n11 ;
+paivukko n11 ;
+tihheempi n11 ;
+soppiiva n11 ;
+kulkkiija n11 ;
+opettaaja n11 ;
+sivakka n11 ;
+anoppi n11 ; 
+aviisi n11 ; 
+bensiini n11 ;
+
+
+
+!! !!nen-sanat
+!! sininen, nainan. Vartalo on sini, nai
+
 sininen:sini nen ; !!= * @CODE@
 nainen:nai nen ;
-tytär:tÿttäre n12 ; !!= * @CODE@
-!varis:varikse n1 ;
+
+
+
+
+!! !!n21 kokkoontumarankaiset vokaalirankaiset
+valkkee n21 ; !!= * @CODE@
+kauhee n21 ;
+kurkkii n21 ;
+assii n21 ;
 
 !! !!n22 yksi-tavvuiset Vi-nominit
 yö n22 ; !!= * @CODE@
@@ -46,6 +74,10 @@ lattii n22 ;
 ! sunnuntai n22;
 
 
+tytär:tÿttäre n12 ; !!= * @CODE@
+!varis:varikse n11 ;
+
+
 !! !!31 kaksitavvuiset kaksirankaset
 
 lumi 31 ; !!= * @CODE@
@@ -55,19 +87,6 @@ hirsi 31 ;
 lapsi 31 ;
 kaksi 31 ;
 
-
-!! !!22 usseempitavvuiset vokaalirankaiset
-meininki 22 ; !!= * @CODE@
-tunturi 22 ;
-paivukko 22 ;
-tihheempi 22 ;
-soppiiva 22 ;
-kulkkiija 22 ;
-opettaaja 22 ;
-sivakka 22 ;
-anoppi 22 ; 
-aviisi 22 ; 
-bensiini 22 ;
 
 
 !! !!32 usseempitavvuiset konsonanttiirankaiset
@@ -84,12 +103,6 @@ neljes 32 ;
 tuhat 32 ;
 mies 32 ;
 
-
-!! !!23 kokkoontumarankaiset vokaalirankaiset
-valkkee 23 ; !!= * @CODE@
-kauhee 23 ;
-kurkkii 23 ;
-assii 23 ;
 
 !! !!33 kokkoontumarankaiset konsonanttirankaiset
 opas 33 ; !!= * @CODE@
@@ -111,6 +124,13 @@ vihrinen 40 ;
 ihminen 40 ;
 kainulainen 40 ;
 
+
+
+!! !! Käänteinen lista sanakirjan sanoista
+
+!! Sanat ovat kahdesta tyypistä:
+!! # nen-sanat (poikanen, nainen)
+!! # n21 (lyhyt V-vartalo: 
 
 joukhanen:joukha nen ; 
 makkaratianen:makkaratia nen ; 
