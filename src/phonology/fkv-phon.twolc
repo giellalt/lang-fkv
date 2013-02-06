@@ -29,6 +29,7 @@ NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy 
 Rules 
 
 !! !!!Consonant gradation
+! =======================
 
 "Gemination" !!= @CODE@  
 %+:Cx <=> Cy _ Vowel: %>:0 Vowel: ;   !!=
@@ -36,49 +37,55 @@ Rules
               Cx in ( h j k l m n p r s t v ) 
     matched; 
 !!!   bare når det er foran dem en kort stavelse med trykk
-!   f.eks. aikkaa: aika       
+!   f.eks. aikkaa: aika
 
 
-"II-I" 
+"II-I omppu" 
 Cy:0 <=> Cx _ Cy Vowel: %^WG:0 ; 
         where Cx in ( l l l m n n r r r)
               Cy in ( k p t p k t k p t)
     matched ;
 
+!€ omppu^WG
+!€ om0pu0
 
-
-!Cy Dobbelkonsonant
-!Cx Enkelkonsonant
+! Cy Dobbelkonsonant
+! Cx Enkelkonsonant
 ! f.eks. lkk-lk: pölkkää-pölkäs 
 
-"I-0 for ptk" !!= @CODE@   \\ 
-Cx:0 <=> Vowel: _ [Cx|%+:0] (Dummy:) Vowel: %^WG:0 ;  !!=  {{@CODE@}}   
+"I-0 for ptk" 
+Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: %^WG:0 ;  
             where Cx in ( k p t ) ;
-!!    
-!! Single k,p,t are realized as zero in the beginning of a syllable? 
-!!    
+
+!€ katto^WG>n
+!€ ka0to00n
+
+
+
+
 
 "I-0 for k:j" 
 k:j <=> i _ Vowel: %^WG:0 ;  
 
-!!!€ poika^WG>n
+!€ poika^WG>n
 !€ poija00n
-!!    
 
 
 
-"I-0 for t"
+"I-0 for t after h"
 	t:đ <=> h _ Vowel: %^WG:0 ; 
 
 !!    
  ! ht: hđ/ h
  ! lähteet : lähđen/lähen
-!!!€ lahti^WG
+!€ lahti^WG
 !€ lahđi0
 
 "Gradation of k:0" 
 k:0 <=> Vowel - [ i | u | y ] _ ( %+ ) Vowel: %^WG:0 ;  
 
+! haka
+! ha0an
 ! Remove i from the left vowel context because of the rule "I-0 for k:j"
 ! Remove u & y from the left vowel context because of the following rule
 
@@ -90,7 +97,12 @@ k:v <=> Conson u _ u %^WG:0 ;
 
 
 !! * this will not give uku - uvun, but puku - puvun.
+
+! =============
 !!Vowel harmony 
+! =============
+
+
 "Back harmony" !!= @CODE@   \\ 
 Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;  
          where Vx in ( %^A %^O %^U )
@@ -114,9 +126,16 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFr
 	where Vx in ( a e i o u y ä ö ) ; 
 !!! sykshyyn
 
+
+
+
 "Stem deletion in h-illative" !!= @CODE@   \\ 
  Vx:0 <=> Conson _ %>:0 %^HMETA: ;  !!=  {{@CODE@}}  
 	where Vx in ( a e i o u y ä ö ) ; 
+	
+!€ syksy>h^V^Vn
+!€ syks000     h
+
 !"Vowel copying in s-illative" 
 ! %^V:Vx <=> Vx: %>:0 s %^V: _ ;  !!=  {{@CODE@}}  
 !	where Vx in ( a e i o u y ä ö ) ; 
@@ -169,7 +188,8 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFr
 "Suffix lengthening after short vowels in odd syllbles of vowel stems" !!= @CODE@   \\ 
  0:Cx <=> Vowel Conson+ Vowel+ (%>:) Conson+  (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ;  !!=  {{@CODE@}}  
  	where Cx in ( l r m n ) ;
-"Suffix shortening after short vowels in odd syllbles of consonant stems" !!= @CODE@   \\ 
+ 	
+"Suffix shortening after short vowels in odd syllbles of consonant stems" !!= @CODE@   
  Cx:0 <=> Conson+ Vowel ( Dummy: ) _ %>: Cy: Vowel ;  !!=  {{@CODE@}}  
  	where Cx in ( l r m n l   r   m   n   ) 
  		  Cy in ( l r m n %^N %^N %^N %^N )
