@@ -9,6 +9,7 @@ A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø	      !!= * 
 %>:0 															      !!= * @CODE@
 i2:i t2:t 														      !!= * @CODE@
 %^HMETA:0 %^WG:0 %^E2I:0 										      !!= * @CODE@
+%^VDEL:0 
 ;
 
 !! !!Sets
@@ -22,7 +23,7 @@ Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ; 							  !!= * @CODE@
 Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ; 					  !!= * @CODE@ 
 NeutralVowel = e i ;															  !!= * @CODE@ 
 Segment = Vowel Conson ;														  !!= * @CODE@ 
-Dummy = %> %+ %^WG %^E2I %^HMETA ;												  !!= * @CODE@ 
+Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL ;										  !!= * @CODE@ 
 NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ; !!= * @CODE@ 
 
 !! !!!Rules
@@ -32,16 +33,23 @@ Rules
 ! =======================
 
 "Gemination" !!= @CODE@  
-%+:Cx <=> Cy _ Vowel: %>:0 Vowel: ;   !!=
+ 0:Cx <=> Cy _ Vowel: %>:0 Vowel: ;   !!=
         where Cy in ( h j k l m n p r s t v ) 
               Cx in ( h j k l m n p r s t v ) 
     matched; 
 !!!   bare når det er foran dem en kort stavelse med trykk
 !   f.eks. aikkaa: aika
 
+! geminaatio toimii, jos vartalo sen sallii k+
+! tek+e>e <--- vartalo tek+e
+! tekke0e
+
+! geminatio toimii vaan
+! tek0e>e <--- vartalo teke mutta vartalo Keke Rosberg ?!
+! tekke0e
 
 "II-I omppu" 
-Cy:0 <=> Cx _ Cy Vowel: %^WG:0 ; 
+Cy:0 <=> Cx _ Cy Vowel: (Dummy:) %^WG:0 ; 
         where Cx in ( l l l m n n r r r)
               Cy in ( k p t p k t k p t)
     matched ;
@@ -54,7 +62,7 @@ Cy:0 <=> Cx _ Cy Vowel: %^WG:0 ;
 ! f.eks. lkk-lk: pölkkää-pölkäs 
 
 "I-0 for ptk" 
-Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: %^WG:0 ;  
+Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
             where Cx in ( k p t ) ;
 
 !€ katto^WG>n
@@ -65,7 +73,7 @@ Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: %^WG:0 ;
 
 
 "I-0 for k:j" 
-k:j <=> i _ Vowel: %^WG:0 ;  
+k:j <=> i _ Vowel: (Dummy:) %^WG:0 ;  
 
 !€ poika^WG>n
 !€ poija00n
@@ -73,7 +81,7 @@ k:j <=> i _ Vowel: %^WG:0 ;
 
 
 "I-0 for t after h"
-	t:đ <=> h _ Vowel: %^WG:0 ; 
+	t:đ <=> h _ Vowel: (Dummy:) %^WG:0 ; 
 
 !!    
  ! ht: hđ/ h
@@ -82,7 +90,7 @@ k:j <=> i _ Vowel: %^WG:0 ;
 !€ lahđi0
 
 "Gradation of k:0" 
-k:0 <=> Vowel - [ i | u | y ] _ ( %+ ) Vowel: %^WG:0 ;  
+k:0 <=> Vowel - [ i | u | y ] _ ( %+ ) Vowel: (Dummy:) %^WG:0 ;  
 
 ! haka
 ! ha0an
@@ -90,8 +98,8 @@ k:0 <=> Vowel - [ i | u | y ] _ ( %+ ) Vowel: %^WG:0 ;
 ! Remove u & y from the left vowel context because of the following rule
 
 "Gradation of k between u/y" 
-k:v <=> Conson u _ u %^WG:0 ;
-        Conson y _ y %^WG:0 ;
+k:v <=> Conson u _ u (Dummy:) %^WG:0 ;
+        Conson y _ y (Dummy:) %^WG:0 ;
 
 
 
@@ -104,7 +112,7 @@ k:v <=> Conson u _ u %^WG:0 ;
 
 
 "Back harmony" !!= @CODE@   \\ 
-Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;  
+ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;  
          where Vx in ( %^A %^O %^U )
                Vy in (   a   o   u )
          matched ;
@@ -127,7 +135,15 @@ Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFr
 !!! sykshyyn
 
 
+!! Stem alternation rules
+!  ======================
 
+"Stem shortening for consonant initial suffixes"
+ Vx:0 <=> Vx _ %^VDEL:0  (Dummy:) %>:0 [s|t] ;
+ 	where Vx in ( a e i ä ) ;
+
+!€ rakkaa^VDEL^WG>s
+!€ rak0a000>s
 
 "Stem deletion in h-illative" !!= @CODE@   \\ 
  Vx:0 <=> Conson _ %>:0 %^HMETA: ;  !!=  {{@CODE@}}  
