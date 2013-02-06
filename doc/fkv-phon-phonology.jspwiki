@@ -1,6 +1,13 @@
 !!!Phonological rules for Kven
-
 !!Alphabet
+
+ * a b c d đ e f g h i j k l m n o p q r s t u ü v w x y z å ä ö æ ø     
+ * A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø	      
+ * %+:0 															      
+ * %^A:ä %^O:ö %^U:y %^V %^N:n 									      
+ * %>:0 															      
+ * i2:i t2:t 														      
+ * %^HMETA:0 %^WG:0 %^E2I:0 										      
 
 !!Sets
  * Sets 																			   
@@ -16,98 +23,11 @@
  * Dummy = %> %+ %^WG %^E2I %^HMETA ;												   
  * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;  
 
-
-
 !!!Rules
 
 !!!Consonant gradation
 
- "Gemination"   <=========== 
-
-
- "II-I"   <=========== 
-
-
-
-  "I-0 for ptk"   <=========== 
-
-
-Single k,p,t are realized as zero in the beginning of a syllable? 
-
-
- "I-0 for k:j"   <=========== 
-
-
-
- "I-0 for t"   <=========== 
-
-
-
-
-
- "Gradation of k:0"   <=========== 
-
- "Gradation of k between u/y"   <=========== 
-
-
-
-
-!!!Vowel harmony 
-
- "Back harmony"   <=========== 
-
- "Vowel copying"   <=========== 
-
- "Vowel copying in short h-illative"   <=========== 
-
-
- "Vowel copying in long h forms"   <=========== 
-
- "Vowel copying in long h forms 2"   <=========== 
-
-
- "Stem deletion in h-illative"   <=========== 
-
-
-!!!Other vowel rules
-
-
-
-
-
-
-
-
- "Alveolar assimilation for consonant stems"   <=========== 
-
-
-* Lyhyt tai pitkä pääte tavurakenteen mukaan:
-* Lyhyt: pitkän tavun jälkeen
-* Lyhyt: painottoman, lyhyen tavun jälkeen
-* Pitkä: painottoman, pitkän tavun jälkeen
-
-* kuula
-* tulla
-* linnala
-* muistela
-* emänällä
-* sijola
-* kantelheela
-* sisarelle
-* itteksemmä
-* hunteeraama
-* saima
-
- "Shortening of long vowel in front of i"   <=========== 
-
-
-
- "Suffix lengthening after short vowels in odd syllbles of vowel stems"   <=========== 
-
- "Suffix shortening after short vowels in odd syllbles of consonant stems"   <=========== 
-
-
-
-
-
-
+ "Gemination"   
+{ {{
+}} }
+  bare når det er foran dem en kort stavelse med trykk
