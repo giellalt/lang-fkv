@@ -1,5 +1,5 @@
 ! ======================
-!! !!! Sublexica for NounRoot
+!! !!!Sublexica for NounRoot
 ! ======================
 
 !! Aloitin sovittaa analyysin Eiran kieliopin mukaan (Porsanki).
@@ -50,8 +50,8 @@ LEXICON loput
 +N+Pl:%>i2 shortillpl ;
 
 LEXICON sConsCase
-+Sg+Nom:%^WG%>s K ;
-+Sg+Nom:%^WG%>st%^A K ;
++Sg+Nom:%^VDEL%^WG%>s K ;
++Sg+Par:%^VDEL%^WG%>st%^A K ; ! Par
 
 LEXICON tConsCase
 +Sg+Nom:%^WG%>t K ;
