@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - ruvis: # Noun 'borg' - full paradigm
+     ruvis+N+Sg+Nom: ruvis
+     ruvis+N+Sg+Gen: rukhiin
+     ruvis+N+Sg+Par: ruvista
+     ruvis+N+Sg+Tra: rukhiiksi
+     ruvis+N+Sg+Abe: rukhiitta
+     ruvis+N+Sg+Ine: rukhiissa
+     ruvis+N+Sg+Ela: rukhiista
+     ruvis+N+Sg+Ill: rukhiisseen
+     ruvis+N+Sg+Ade: rukhiila
+     ruvis+N+Sg+Abl: rukhiilta
+     ruvis+N+Sg+All: rukhiile
+     ruvis+N+Sg+Ess: rukhiina
+     ruvis+N+Pl+Nom: rukhiit
+     ruvis+N+Pl+Gen: rukhiitten
+     ruvis+N+Pl+Par: rukhiita
+     ruvis+N+Pl+Tra: rukhiiksi
+     ruvis+N+Pl+Abe: rukhiitta
+     ruvis+N+Pl+Ine: rukhiissa
+     ruvis+N+Pl+Ela: rukhiista
+     ruvis+N+Pl+Ill: rukhiissiin
+     ruvis+N+Pl+Ade: rukhiila
+     ruvis+N+Pl+Abl: rukhiilta
+     ruvis+N+Pl+All: rukhiile
+     ruvis+N+Pl+Ess: rukhiina
