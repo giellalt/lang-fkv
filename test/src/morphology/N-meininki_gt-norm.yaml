@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - meininki: # Noun 'borg' - full paradigm
+     meininki+N+Sg+Nom: meininki
+     meininki+N+Sg+Gen: meiningin
+     meininki+N+Sg+Par: meininkkii
+     meininki+N+Sg+Tra: meiningiksi
+     meininki+N+Sg+Abe: meiningittä
+     meininki+N+Sg+Ine: meiningissä
+     meininki+N+Sg+Ela: meiningistä
+     meininki+N+Sg+Ill: meininkhiin
+     meininki+N+Sg+Ade: meiningillä
+     meininki+N+Sg+Abl: meiningiltä
+     meininki+N+Sg+All: meiningille
+     meininki+N+Sg+Ess: meininkinä
+     meininki+N+Pl+Nom: meiningit
+     meininki+N+Pl+Gen: meiningiitten
+     meininki+N+Pl+Par: meininkkiitä
+     meininki+N+Pl+Tra: meiningiiksi
+     meininki+N+Pl+Abe: meiningiittä
+     meininki+N+Pl+Ine: meiningiissä
+     meininki+N+Pl+Ela: meiningiistä
+     meininki+N+Pl+Ill: meininkhiin
+     meininki+N+Pl+Ade: meiningiilä
+     meininki+N+Pl+Abl: meiningiiltä
+     meininki+N+Pl+All: meiningiille
+     meininki+N+Pl+Ess: meininkiinä
