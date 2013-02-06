@@ -20,7 +20,7 @@
  * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ; 					   
  * NeutralVowel = e i ;															   
  * Segment = Vowel Conson ;														   
- * Dummy = %> %+ %^WG %^E2I %^HMETA ;												   
+ * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL ;										   
  * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;  
 
 !!!Rules
@@ -35,14 +35,13 @@
 
 
 
- "I-0 for ptk"    \\ 
-  {{Cx:0 <=> Vowel: _ [Cx|%+:0] (Dummy:) Vowel: %^WG:0 ;  }}   
-   
-Single k,p,t are realized as zero in the beginning of a syllable? 
-   
 
 
-   
+
+
+
+
+
 
 
 
@@ -56,6 +55,9 @@ Single k,p,t are realized as zero in the beginning of a syllable?
 
 
 * this will not give uku - uvun, but puku - puvun.
+
+
+
  "Back harmony"    \\ 
  "Vowel copying"    \\ 
   {{ %^V:Vx <=> :Vx Dummy:* %>:0 _ Vowel ;  }}  
@@ -71,8 +73,15 @@ maahan
   {{ %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h %^V: _ ;  }}  
 sykshyyn
 
+
+Stem alternation rules
+
+
+
  "Stem deletion in h-illative"    \\ 
   {{ Vx:0 <=> Conson _ %>:0 %^HMETA: ;  }}  
+
+
   {{! %^V:Vx <=> Vx: %>:0 s %^V: _ ;  }}  
 !!!Other vowel rules
 
@@ -104,7 +113,8 @@ sykshyyn
   {{ Vx:0 <=> _ Vy %>: [ i | i2: ] ;  }}  
  "Suffix lengthening after short vowels in odd syllbles of vowel stems"    \\ 
   {{ 0:Cx <=> Vowel Conson+ Vowel+ (%>:) Conson+  (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ;  }}  
- "Suffix shortening after short vowels in odd syllbles of consonant stems"    \\ 
+
+ "Suffix shortening after short vowels in odd syllbles of consonant stems"    
   {{ Cx:0 <=> Conson+ Vowel ( Dummy: ) _ %>: Cy: Vowel ;  }}  
 "Suffix shortening after long vowels"
 All XYZ to be removed and replaced with human-readable tags
