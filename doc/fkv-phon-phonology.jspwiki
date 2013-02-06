@@ -28,6 +28,86 @@
 !!!Consonant gradation
 
  "Gemination"   
-{ {{
-}} }
   bare når det er foran dem en kort stavelse med trykk
+
+
+
+
+
+
+ "I-0 for ptk"    \\ 
+  {{Cx:0 <=> Vowel: _ [Cx|%+:0] (Dummy:) Vowel: %^WG:0 ;  }}   
+   
+Single k,p,t are realized as zero in the beginning of a syllable? 
+   
+
+
+   
+
+
+
+
+   
+
+
+
+
+
+
+
+* this will not give uku - uvun, but puku - puvun.
+ "Back harmony"    \\ 
+ "Vowel copying"    \\ 
+  {{ %^V:Vx <=> :Vx Dummy:* %>:0 _ Vowel ;  }}  
+
+ "Vowel copying in short h-illative"    \\ 
+  {{ %^V:Vx <=> Vowel Vx: %>:0 h _ [ n: | m: ] ;  }}  
+maahan
+
+ "Vowel copying in long h forms"    \\ 
+  {{ %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h _ %^V: ;  }}  
+
+ "Vowel copying in long h forms 2"    \\ 
+  {{ %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h %^V: _ ;  }}  
+sykshyyn
+
+ "Stem deletion in h-illative"    \\ 
+  {{ Vx:0 <=> Conson _ %>:0 %^HMETA: ;  }}  
+  {{! %^V:Vx <=> Vx: %>:0 s %^V: _ ;  }}  
+!!!Other vowel rules
+
+
+* ove : ovi
+     
+"i:e in i-stems" 
+
+ "Alveolar assimilation for consonant stems"    \\ 
+  {{ %^N:Cx <=> Cx: %>: _ ;  }}  
+
+* Lyhyt tai pitkä pääte tavurakenteen mukaan:
+* Lyhyt: pitkän tavun jälkeen
+* Lyhyt: painottoman, lyhyen tavun jälkeen
+* Pitkä: painottoman, pitkän tavun jälkeen
+* kuula
+* tulla
+* linnala
+* muistela
+* emänällä
+* sijola
+* kantelheela
+* sisarelle
+* itteksemmä
+* hunteeraama
+* saima
+
+ "Shortening of long vowel in front of i"    \\ 
+  {{ Vx:0 <=> _ Vy %>: [ i | i2: ] ;  }}  
+ "Suffix lengthening after short vowels in odd syllbles of vowel stems"    \\ 
+  {{ 0:Cx <=> Vowel Conson+ Vowel+ (%>:) Conson+  (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ;  }}  
+ "Suffix shortening after short vowels in odd syllbles of consonant stems"    \\ 
+  {{ Cx:0 <=> Conson+ Vowel ( Dummy: ) _ %>: Cy: Vowel ;  }}  
+"Suffix shortening after long vowels"
+All XYZ to be removed and replaced with human-readable tags
+"e:0 in plural of e-stems" ! ovien
+
+
