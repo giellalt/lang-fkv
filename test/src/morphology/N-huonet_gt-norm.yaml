@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - huonet: # Noun 'borg' - full paradigm
+     huonet+N+Sg+Nom: huonet
+     huonet+N+Sg+Gen: huonheen
+     huonet+N+Sg+Par: huonetta
+     huonet+N+Sg+Tra: huonheeksi
+     huonet+N+Sg+Abe: huonheetta
+     huonet+N+Sg+Ine: huonheessa
+     huonet+N+Sg+Ela: huonheesta
+     huonet+N+Sg+Ill: huonheeseen
+     huonet+N+Sg+Ade: huonheela
+     huonet+N+Sg+Abl: huonheelta
+     huonet+N+Sg+All: huonheele
+     huonet+N+Sg+Ess: huonheena
+     huonet+N+Pl+Nom: huonheet
+     huonet+N+Pl+Gen: huonetjen
+     huonet+N+Pl+Acc: huonheitten
+     huonet+N+Pl+Par: huonheita
+     huonet+N+Pl+Tra: huonheiksi
+     huonet+N+Pl+Abe: huonheitta
+     huonet+N+Pl+Com: huonetin
+     huonet+N+Pl+Ine: huonheissa
+     huonet+N+Pl+Ela: huonheista
+     huonet+N+Pl+Ill: huonheissiin
+     huonet+N+Pl+Ade: huonheila
+     huonet+N+Pl+Abl: huonheilta
+     huonet+N+Pl+All: huonheile
+     huonet+N+Pl+Ess: huonheina
