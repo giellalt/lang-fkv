@@ -1,61 +1,64 @@
 
-LEXICON pronouns
+
+!! !!!Pronominien vartalot
+
+LEXICON Pronoun
 
 
 !! Persoonapronominit
 
-mie:min     ;
-sie:sin     ;
-hän:hän     ;
-se:se       ; !! e+i>i
-met:mei     ;
-tet:tei     ;
-het:hei     ;
-net:ne      ; !! e+i>i
+mie+Pron+Pers+Sg:min  12pronsg   ;
+sie+Pron+Pers+Sg:sin  12pronsg   ;
+hän+Pron+Pers+Sg:hän  han_pron   ;
+se+Pron+Pers+Sg:se     se_pron  ; !! e>i
+met+Pron+Pers+Pl:mei  123pronpl   ;
+tet+Pron+Pers+Pl:tei  123pronpl   ;
+het+Pron+Pers+Pl:hei  123pronpl   ;
+net+Pron+Pers+Pl:ne   netpronpl   ; !! e>i
 
 
 !! Demonstratiivipronominit
 
-tämä:tä    ;
-tuo:tuo    ;
-se:si      ; !! e+i>i
-nämät:näi  ;
-nuot:nuoi  ;
-net:nii    ; !! e+i>i
+tämä:tä   tama ;
+tuo:tuo   tama ;
+se+Pron+Dem+Sg:se     se_pron ; !! e>i
+nämät:näi namaobl ;
+nuot:nuoi namaobl ;
+net:nii   netobl ; !! e>i
 
 !! Kysymäpronominit
 
-kuka:ke     ;
-mikä:mi     ;
+kuka+Pron+Interr:ke   relkys  ;
+mikä+Pron+Interr:mi   relkys  ;
 
 !! Relatiivipronominit
 
-joka:jo     ;
-mikä:mi     ;
+joka+Pron+Rel:jo    relkys ;
+mikä+Pron+Rel:mi    relkys ;
 
 
 
-Tässä izh
-
-miä:mi PersSg1  "" ;
-mokoma:mokom Pron-mokoma  "" ;
-itse:its Refl-itse  "" ;
-miltain:miltai Pron-miltain  "" ;
-kumpain:kumpai Pron-miltain  "" ;
-siä:si PersSg2  "" ;
-hää:hä PersSg3  "" ;
-möö:m PersPl1  "" ;
-töö:t PersPl2  "" ;
-höö:h PersPl3  "" ;
-se:s Dem-se  "" ;
-mittää:mittää Pron-Neg  "" ;
-neet:n Dem-neet  "" ;
-sikäläin:sikäläi Dem-sikäläin  "" ;
-täkäläin:täkäläi Dem-sikäläin  "" ;
-meikäläin:meikäläi Dem-sikäläin  "" ;
-nämä:nä Dem-nämä  "" ;
-tämä:tä Dem-tämä  "" ;
-kumpa:kumpa Pron-kumpa  "" ;
-mikä:mi PronInterr-mikä  "" ;
-ken:ke PronInterr-ken  "" ;
-kus:ku PronInterr-kus  "" ;
+! Tässä izh
+! 
+! miä:mi PersSg1  "" ;
+! mokoma:mokom Pron-mokoma  "" ;
+! itse:its Refl-itse  "" ;
+! miltain:miltai Pron-miltain  "" ;
+! kumpain:kumpai Pron-miltain  "" ;
+! siä:si PersSg2  "" ;
+! hää:hä PersSg3  "" ;
+! möö:m PersPl1  "" ;
+! töö:t PersPl2  "" ;
+! höö:h PersPl3  "" ;
+! se:s Dem-se  "" ;
+! mittää:mittää Pron-Neg  "" ;
+! neet:n Dem-neet  "" ;
+! sikäläin:sikäläi Dem-sikäläin  "" ;
+! täkäläin:täkäläi Dem-sikäläin  "" ;
+! meikäläin:meikäläi Dem-sikäläin  "" ;
+! nämä:nä Dem-nämä  "" ;
+! tämä:tä Dem-tämä  "" ;
+! kumpa:kumpa Pron-kumpa  "" ;
+! mikä:mi PronInterr-mikä  "" ;
+! ken:ke PronInterr-ken  "" ;
+! kus:ku PronInterr-kus  "" ;
