@@ -22,16 +22,18 @@ GT_LEXC_ROOT=root.lexc
 GT_LEXC_SRCS=\
 			   affixes/nouns.lexc       \
 			   affixes/verbs.lexc       \
+			   affixes/pronouns.lexc    \
 			   stems/abbreviations.lexc \
 			   stems/adjectives.lexc    \
 			   stems/adverbs.lexc       \
 			   stems/closed.lexc        \
 			   stems/nouns.lexc         \
 			   stems/prepositions.lexc  \
+			   stems/pronouns.lexc      \
 			   stems/propernouns.lexc   \
 			   stems/punctuation.lexc   \
-                           stems/verbs.lexc         \
-                           clitics.lexc
+			   stems/verbs.lexc         \
+			   clitics.lexc
 
 
 # Set this to the names of all generated lexc files, if any
