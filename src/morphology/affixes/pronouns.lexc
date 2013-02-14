@@ -1,0 +1,50 @@
+
+
+!! !!!Pronominien morfologia
+
+!! Edelleen vaan kokeiluvaiheessa.
+
+LEXICON 12pronsg !!= * @CODE@ on 1., 2. p. yskikkö
++Nom:ä K ;
++Acc:ut K ;
++Gen:un K ;
++Ill:le K ;
+
+
+LEXICON han_pron
++Nom: K ;
++Acc:et K ;
++Gen:en K ;
++Ill:ele K ;
+
+LEXICON se_pron
++Nom: K ;
++Gen:n K ;
+! e>i ehkä näin:
+! +Ill:%>^eDELille K ;
+! ... ja sitten twol: e:0 <=> _ %>: ^eDEL: i ;
+
+LEXICON 123pronpl  !!= * @CODE@ 
+!! NB @LEXNAME@sta puuttuu oma leksikko nominatiiville
+
++Acc:dät K ;
+
+LEXICON netpronpl
++Nom: K ;
+
+LEXICON tama
++Nom: K ;
+
+LEXICON namaobl
++Ill:le K ;
+
+LEXICON netobl
++Ill:le K ; ! lyö yhteen edellisen kanssa?
+
+
+LEXICON relkys
++Nom:k^A K ; ! huom: keka !
++Ill:lle K ;
+
+
+
