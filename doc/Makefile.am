@@ -11,6 +11,7 @@ if CAN_DOCC
 
 JSP_PAGES=root-morphology.jspwiki \
 		  nouns-affixes.jspwiki \
+		  pronouns-affixes.jspwiki \
 		  verbs-affixes.jspwiki \
 		  nouns-stems.jspwiki \
 		  abbreviations-stems.jspwiki      \
@@ -21,6 +22,7 @@ JSP_PAGES=root-morphology.jspwiki \
 		  nouns-stems.jspwiki              \
 		  propernouns-stems.jspwiki        \
 		  punctuation-stems.jspwiki        \
+		  pronouns-stems.jspwiki \
 		  verbs-stems.jspwiki \
 		  fkv-phon-phonology.jspwiki
 #		  acronyms-stems.jspwiki           \
