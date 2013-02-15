@@ -9,7 +9,7 @@
 !! Eiran luokittelu ei ole tarpeeksi tarkka meille,  pitäisi
 !! olla n11_nen jne. Edelleen on epäjohdomukaisuutta nimien suhteen.
 
-!! !! Noun types
+!! !!Noun types
 
 LEXICON n11	!!= @CODE@  "poika", lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
@@ -104,7 +104,7 @@ LEXICON n42
 !! !!! Basic paradigms
 !  ===================
 
-!! !! Basic vowel stems
+!! !!Basic vowel stems
 !  --------------------
 
 LEXICON strong-v-stem  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
@@ -128,7 +128,7 @@ LEXICON weak-v-stem !!= @CODE@
                         !! general weak-v-stem lexicon.
 
 
-!! ! Sublexica for the vowel stems
+!! !Sublexica for the vowel stems
 !  - - - - - - - - - - - - - - - 
 
  LEXICON nom-strong
@@ -159,7 +159,7 @@ LEXICON com
                  ! Note that adjectives have -ine without Px
 
 
-!! ! Lexica for the non-uniform cases
+!! !Lexica for the non-uniform cases
 ! --------------------------------
 
 LEXICON short-par
@@ -223,7 +223,7 @@ LEXICON shorterillpl
 !  +Pl+Ill:%>s%^V%^V n-PxK ;
 ! 
 
-!! ! Sublexica for possessive suffixes
+!! !Sublexica for possessive suffixes
 ! ---------------------------------
 
 LEXICON n-PxK  !!= @CODE@ has either -n or goes to Px
