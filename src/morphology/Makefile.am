@@ -29,6 +29,7 @@ GT_LEXC_SRCS=\
 			   stems/closed.lexc        \
 			   stems/nouns.lexc         \
 			   stems/prepositions.lexc  \
+			   stems/postpositions.lexc  \
 			   stems/pronouns.lexc      \
 			   stems/propernouns.lexc   \
 			   stems/punctuation.lexc   \
