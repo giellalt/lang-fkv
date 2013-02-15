@@ -83,7 +83,7 @@ k:j <=> i _ Vowel: (Dummy:) %^WG:0 ;
 "I-0 for t after h"
 	t:đ <=> h _ Vowel: (Dummy:) %^WG:0 ; 
 
-!!    
+
  ! ht: hđ/ h
  ! lähteet : lähđen/lähen
 !€ lahti^WG
@@ -101,83 +101,87 @@ k:0 <=> Vowel - [ i | u | y ] _ ( %+ ) Vowel: (Dummy:) %^WG:0 ;
 k:v <=> Conson u _ u (Dummy:) %^WG:0 ;
         Conson y _ y (Dummy:) %^WG:0 ;
 
-
-
-
-!! * this will not give uku - uvun, but puku - puvun.
+!! ** this will not give uku - uvun, but puku - puvun.
 
 ! =============
-!!Vowel harmony 
+!! !!!Vowel harmony 
 ! =============
 
 
-"Back harmony" !!= @CODE@   \\ 
+"Back harmony" !!= * @CODE@  
  Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;  
          where Vx in ( %^A %^O %^U )
                Vy in (   a   o   u )
          matched ;
-"Vowel copying" !!= @CODE@   \\ 
- %^V:Vx <=> :Vx Dummy:* %>:0 _ \Vowel ;  !!=  {{@CODE@}}  
+         
+"Vowel copying" !!= * @CODE@   
+ %^V:Vx <=> :Vx Dummy:* %>:0 _ \Vowel ;
 	where Vx in ( a e i o u y ä ö ) ;
 	
-"Vowel copying in short h-illative" !!= @CODE@   \\ 
- %^V:Vx <=> Vowel Vx: %>:0 h _ [ n: | m: ] ;  !!=  {{@CODE@}}  
+"Vowel copying in short h-illative" !!= * @CODE@ 
+ %^V:Vx <=> Vowel Vx: %>:0 h _ [ n: | m: ] ;  
 	where Vx in ( a e i o u y ä ö ) ; 
 !!! maahan
 
-"Vowel copying in long h forms" !!= @CODE@   \\ 
- %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h _ %^V: ;  !!=  {{@CODE@}}  
+"Vowel copying in long h forms" !!= * @CODE@  
+ %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h _ %^V: ; 
 	where Vx in ( a e i o u y ä ö ) ; 
 
-"Vowel copying in long h forms 2" !!= @CODE@   \\ 
- %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h %^V: _ ;  !!=  {{@CODE@}}  
+"Vowel copying in long h forms 2" !!= * @CODE@  
+ %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h %^V: _ ; 
 	where Vx in ( a e i o u y ä ö ) ; 
-!!! sykshyyn
+	
+!! ** sykshyyn
 
 
-!! Stem alternation rules
+!! !!!Stem alternation rules
 !  ======================
 
-"Stem shortening for consonant initial suffixes"
+"Stem shortening for consonant initial suffixes" !!= * @CODE@
  Vx:0 <=> Vx _ %^VDEL:0  (Dummy:) %>:0 [s|t] ;
  	where Vx in ( a e i ä ) ;
 
 !€ rakkaa^VDEL^WG>s
 !€ rak0a000>s
 
-"Stem deletion in h-illative" !!= @CODE@   \\ 
- Vx:0 <=> Conson _ %>:0 %^HMETA: ;  !!=  {{@CODE@}}  
+"Stem deletion in h-illative" !!= * @CODE@  
+ Vx:0 <=> Conson _ %>:0 %^HMETA: ; 
 	where Vx in ( a e i o u y ä ö ) ; 
 	
 !€ syksy>h^V^Vn
 !€ syks000     h
 
 !"Vowel copying in s-illative" 
-! %^V:Vx <=> Vx: %>:0 s %^V: _ ;  !!=  {{@CODE@}}  
+! %^V:Vx <=> Vx: %>:0 s %^V: _ ; 
 !	where Vx in ( a e i o u y ä ö ) ; 
 ! tämä pitää kai olla -seen, -siin
-!!!! !!!Other vowel rules
 
-"e:i in nom.sg. of e-stems" 
+
+!! !!!Other vowel rules
+!  ======================
+
+"e:i in nom.sg. of e-stems" !!= * @CODE@ 
  e:i <=> _ %^E2I:0 #:0 ;  
  
 !! * ove : ovi
 ! uuet
-!"e+i>i" 
-!!!Vokaalivaihettelu pl i:m ja preteritin i:n eđelä
+! "e+i>i" 
+! !!Vokaalivaihettelu pl i:m ja preteritin i:n eđelä
 ! e:i <=> Cns: _ ( %+: Cns:) %>:0 [ i2:i | i2:j ] %>:0
 !       where Cns in ( h j k l m n p r s t v ) ;
-!!!e:i <=> Cns: _ ( %+:0 ) i ; 
-!e:i <=> i: _ (%+) Vowel: %^WG:0 ;
-!!      
-!!! "i:e in i-stems" 
+! !e:i <=> Cns: _ ( %+:0 ) i ; 
+! e:i <=> i: _ (%+) Vowel: %^WG:0 ;
+!      
+!  "i:e in i-stems" 
 !  i:e <=> Cns: _ ( X4:) %>:0 [ i2:i | i2:j ] %>:0 ;
 
-"Alveolar assimilation for consonant stems" !!= @CODE@   \\ 
+
+"Alveolar assimilation for consonant stems" !!= * @CODE@  
  %^N:Cx <=> Cx: %>: _ ;  !!=  {{@CODE@}}  
     where Cx in ( l r s ) ; 
+
     
-!!!! * Lyhyt tai pitkä pääte tavurakenteen mukaan:
+!!  Lyhyt tai pitkä pääte tavurakenteen mukaan:
 !! * Lyhyt: pitkän tavun jälkeen
 !! * Lyhyt: painottoman, lyhyen tavun jälkeen
 !! * Pitkä: painottoman, pitkän tavun jälkeen
@@ -193,34 +197,35 @@ k:v <=> Conson u _ u (Dummy:) %^WG:0 ;
 !! * hunteeraama
 !! * saima
 
-"Shortening of long vowel in front of i" !!= @CODE@   \\ 
- Vx:0 <=> _ Vy %>: [ i | i2: ] ;  !!=  {{@CODE@}}  
+"Shortening of long vowel in front of i" !!= * @CODE@  
+ Vx:0 <=> _ Vy %>: [ i | i2: ] ; 
  	where Vx in ( a ä u y u y i ) 
  	      Vy in ( a ä u y o ö e )
  	      matched ;
 !!
 !€ saa>i
 !€ sa00i 	
-"Suffix lengthening after short vowels in odd syllbles of vowel stems" !!= @CODE@   \\ 
- 0:Cx <=> Vowel Conson+ Vowel+ (%>:) Conson+  (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ;  !!=  {{@CODE@}}  
+"Suffix lengthening after short vowels in odd syllbles of vowel stems" !!= * @CODE@  
+ 0:Cx <=> Vowel Conson+ Vowel+ (%>:) Conson+  (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ; 
  	where Cx in ( l r m n ) ;
  	
-"Suffix shortening after short vowels in odd syllbles of consonant stems" !!= @CODE@   
- Cx:0 <=> Conson+ Vowel ( Dummy: ) _ %>: Cy: Vowel ;  !!=  {{@CODE@}}  
+"Suffix shortening after short vowels in odd syllbles of consonant stems" !!= * @CODE@   
+ Cx:0 <=> Conson+ Vowel ( Dummy: ) _ %>: Cy: Vowel ; 
  	where Cx in ( l r m n l   r   m   n   ) 
  		  Cy in ( l r m n %^N %^N %^N %^N )
  		  matched ;
-!!!€ kävel>NU
-!€ käve00ly
-!!! "Suffix shortening after long vowels"
+ 		  
+! !€ kävel>NU
+! !€ käve00ly
+! ! "Suffix shortening after long vowels"
 !  Cx:0 <=> Vowel (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ;
 !  	where Cx in ( l r m n ) ;
 ! 
 ! "Suffix shortening after short vowels in even syllbles"
 !  Cx:0 <=>  (Conson+) Vowel+ Conson+ Vowel %>: ( Dummy: ) _ Cx: Vowel ;
 !  	where Cx in ( l r m n ) ;
-!!! All XYZ to be removed and replaced with human-readable tags
-!!! "e:0 in plural of e-stems" ! ovien
+! !All XYZ to be removed and replaced with human-readable tags
+! ! "e:0 in plural of e-stems" ! ovien
 !  e:0 <=> _  (Dummy:)  %>:0 [ i2:i | i2:j ] ;
 ! ! Y1 removed
 ! 
@@ -240,7 +245,7 @@ k:v <=> Conson u _ u (Dummy:) %^WG:0 ;
 ! "a to 0 in front of i"
 !  a:0 <=> _ [ X2: | Y2: ] %>:0 i2: ;
 ! !a:0 <=> [ u | o ] (Neutral) Cns: Cns:* _  (Dummy:) [ X2: | Y2: ] %>: i2: ;
-!  ! koiraien : koirien
+! ! koiraien : koirien
 ! 
 ! "a to o in front of i"
 !  a:o <=> _ [ X4: | Y1: | Y3: ] %>:0 i2: ;
