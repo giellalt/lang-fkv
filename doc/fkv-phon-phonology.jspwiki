@@ -46,54 +46,52 @@
 
 
 
-   
 
 
 
 
 
+** this will not give uku - uvun, but puku - puvun.
+
+!!!Vowel harmony 
 
 
-* this will not give uku - uvun, but puku - puvun.
+ * "Back harmony"   
 
+ * "Vowel copying"    
 
-
- "Back harmony"    \\ 
- "Vowel copying"    \\ 
-  {{ %^V:Vx <=> :Vx Dummy:* %>:0 _ Vowel ;  }}  
-
- "Vowel copying in short h-illative"    \\ 
-  {{ %^V:Vx <=> Vowel Vx: %>:0 h _ [ n: | m: ] ;  }}  
+ * "Vowel copying in short h-illative"  
 maahan
 
- "Vowel copying in long h forms"    \\ 
-  {{ %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h _ %^V: ;  }}  
+ * "Vowel copying in long h forms"   
 
- "Vowel copying in long h forms 2"    \\ 
-  {{ %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h %^V: _ ;  }}  
-sykshyyn
+ * "Vowel copying in long h forms 2"   
 
-
-Stem alternation rules
+** sykshyyn
 
 
+!!!Stem alternation rules
 
- "Stem deletion in h-illative"    \\ 
-  {{ Vx:0 <=> Conson _ %>:0 %^HMETA: ;  }}  
+ * "Stem shortening for consonant initial suffixes" 
 
 
-  {{! %^V:Vx <=> Vx: %>:0 s %^V: _ ;  }}  
+ * "Stem deletion in h-illative"   
+
+
+
+
 !!!Other vowel rules
 
+ * "e:i in nom.sg. of e-stems"  
 
 * ove : ovi
-     
-"i:e in i-stems" 
 
- "Alveolar assimilation for consonant stems"    \\ 
+
+ * "Alveolar assimilation for consonant stems"   
   {{ %^N:Cx <=> Cx: %>: _ ;  }}  
 
-* Lyhyt tai pitkä pääte tavurakenteen mukaan:
+
+ Lyhyt tai pitkä pääte tavurakenteen mukaan:
 * Lyhyt: pitkän tavun jälkeen
 * Lyhyt: painottoman, lyhyen tavun jälkeen
 * Pitkä: painottoman, pitkän tavun jälkeen
@@ -109,15 +107,10 @@ Stem alternation rules
 * hunteeraama
 * saima
 
- "Shortening of long vowel in front of i"    \\ 
-  {{ Vx:0 <=> _ Vy %>: [ i | i2: ] ;  }}  
- "Suffix lengthening after short vowels in odd syllbles of vowel stems"    \\ 
-  {{ 0:Cx <=> Vowel Conson+ Vowel+ (%>:) Conson+  (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ;  }}  
+ * "Shortening of long vowel in front of i"   
+ * "Suffix lengthening after short vowels in odd syllbles of vowel stems"   
 
- "Suffix shortening after short vowels in odd syllbles of consonant stems"    
-  {{ Cx:0 <=> Conson+ Vowel ( Dummy: ) _ %>: Cy: Vowel ;  }}  
-"Suffix shortening after long vowels"
-All XYZ to be removed and replaced with human-readable tags
-"e:0 in plural of e-stems" ! ovien
+ * "Suffix shortening after short vowels in odd syllbles of consonant stems"    
+
 
 
