@@ -21,6 +21,8 @@ JSP_PAGES=root-morphology.jspwiki \
 		  closed-stems.jspwiki       \
 		  nouns-stems.jspwiki              \
 		  propernouns-stems.jspwiki        \
+		  prepositions-stems.jspwiki        \
+		  postpositions-stems.jspwiki        \
 		  punctuation-stems.jspwiki        \
 		  pronouns-stems.jspwiki \
 		  verbs-stems.jspwiki \
