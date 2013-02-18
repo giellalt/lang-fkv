@@ -2,34 +2,36 @@
 
 !! !!!Pronominien vartalot
 
+!! Itse taivutus jatkuu 
+
 LEXICON Pronoun
 
 
 !! Persoonapronominit
 
-mie+Pron+Pers+Sg:min  12pronsg   ;
-sie+Pron+Pers+Sg:sin  12pronsg   ;
+mie+Pron+Pers+Sg:min  12pronsg   ; !!= * @CODE@ 
+sie+Pron+Pers+Sg:sin  12pronsg   ; !!  * ...
 hän+Pron+Pers+Sg:hän  han_pron   ;
-se+Pron+Pers+Sg:se     se_pron  ; !! e>i
+se+Pron+Pers+Sg:se     se_pron  ; !!= @ @CODE@  ''e>i'' ei ole hoidettu
 met+Pron+Pers+Pl:mei  123pronpl   ;
 tet+Pron+Pers+Pl:tei  123pronpl   ;
 het+Pron+Pers+Pl:hei  123pronpl   ;
-net+Pron+Pers+Pl:ne   netpronpl   ; !! e>i
+net+Pron+Pers+Pl:ne   netpronpl   ; ! e>i
 
 
 !! Demonstratiivipronominit
 
-tämä:tä   tama ;
-tuo:tuo   tama ;
-se+Pron+Dem+Sg:se     se_pron ; !! e>i
+tämä:tä   tama ;  !!= * @CODE@
+tuo       tama ; 
+se+Pron+Dem+Sg:se se_pron ; !!= * @CODE@ ''e>i'' ei hoidettŧ
 nämät:näi namaobl ;
 nuot:nuoi namaobl ;
-net:nii   netobl ; !! e>i
+net:nii   netobl ; ! e>i
 
 !! Kysymäpronominit
 
-kuka+Pron+Interr:ke   relkys  ;
-mikä+Pron+Interr:mi   relkys  ;
+kuka+Pron+Interr:ke   relkys  ;  !!= * @CODE@ 
+mikä+Pron+Interr:mi   relkys  ;  !!= * @CODE@ 
 
 !! Relatiivipronominit
 
