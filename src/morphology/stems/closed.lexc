@@ -15,19 +15,19 @@ LEXICON subj
 
 LEXICON Conjunction
 !! @LEXNAME@ -leksikossa on vain pari sanaa.
-eli conjunctiontag ;
-ja conjunctiontag ;
-tai conjunctiontag ;
-vai conjunctiontag ;
-mutta conjunctiontag ;
-ko conjunctiontag ;
+eli cctag ;
+ja cctag ;
+tai cctag ;
+vai cctag ;
+mutta cctag ;
+ko cctag ;
 
-vaikka conjunctiontag ; 
-tahi conjunctiontag ; 
-joko conjunctiontag ; 
-jos conjunctiontag ;
+vaikka cctag ; 
+tahi cctag ; 
+joko cctag ; 
+jos cctag ;
 
-LEXICON conjunctiontag
+LEXICON cctag
  +CC: # ;
 
 LEXICON Interjection
@@ -37,11 +37,3 @@ hyi ij ;
 LEXICON ij
  +Interj: # ;
 
-!LEXICON Pronoun
-! # ;
-
-!LEXICON Numeral 
-! # ;
-
-!LEXICON Punctuation
-! # ;
