@@ -3,7 +3,16 @@
 LEXICON adv
  +Adv: # ;
 
-!! Sannoi ja haamui listan mukkaan !!adverbiaaleja myötä?
+!! Sannoi ja haamui listan mukkaan 
+
+!! Adverbiaaleja myötä?
+
+!! TT: Ei. Tässä pitää olla adverbeja vaan.
+!! Adverbiaali on syntaktinen kategoria ja saa
+!! analyysinsa eri ohjelmassa (src/syntax/disambiguation.cg3)
+
+
+
 LEXICON Adverb
 !! @LEXNAME@ Tässä on vain pari sanaa.
 
@@ -86,24 +95,24 @@ hirmusen        adv ;
 hirmusesti      adv ;
 hithaamin       adv ;
 
-
-
-
 usein       adv ;
 niin        adv ;
 
 
 
 !! Terjen sanat on laitettu tänne.  
+
 !! Tässä ei vaan adverbeja, vaan myös
 !! adverbiaaöeja.
 
+!! Substantiivit, joilla on täydet sijamuotoparadigmat
+!! siirretään tästä tiedostosta noun.lexc-tiedostoon.
 
 
 kaukkaa adv ; 
 alemppaa adv ; 
 alhaala adv ; 
-paikala adv ; 
+paikala adv ;  !!= * @CODE@ ... on esim. substantiivi
 kerrala adv ; 
 keskitalvela adv ; 
 millälailla adv ; 
