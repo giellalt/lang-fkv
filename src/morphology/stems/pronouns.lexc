@@ -31,12 +31,16 @@ net:nii   netobl ; ! e>i
 !! Kysymäpronominit
 
 kuka+Pron+Interr:ke   relkys  ;  !!= * @CODE@ 
-mikä+Pron+Interr:mi   relkys  ;  !!= * @CODE@ 
+mikä+Pron+Interr:mi   relkys  ;  !!= * @CODE@
+kukka+Pron+Interr:ke  relkys  ;  !!= * @CODE@ 
+mikkä+Pron+Interr:mi  relkys  ;  !!= * @CODE@
 
 !! Relatiivipronominit
 
 joka+Pron+Rel:jo    relkys ;
 mikä+Pron+Rel:mi    relkys ;
+jokka+Pron+Rel:joi   joi_relkyspl ;
+mikkä+Pron+Rel:mi   relkyspl ;
 
 
 
