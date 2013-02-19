@@ -61,7 +61,7 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Ind+Prt+Sg3:%>i K ;
 +V+Ind+Prt+Pl3:%>thiin K ; 
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
-+V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
++V+PrfPrc:hn%>hee PRFPRC_OBL ;
 +V+Ind+Prs+ConNeg: K ;
 
 LEXICON v1nahda !!= @CODE@ nähđä:nä 
@@ -74,10 +74,10 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+Ind+Prt+Sg3:k%>i K ;
 +V+Ind+Prt+Pl3:je%>thiin K ; 
 +V+PrfPrc+Sg+Nom:h%>%^N%^U K ;
-+V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
++V+PrfPrc:hn%>ee PRFPRC_OBL ;
 +V+Ind+Prs+ConNeg: K ;
 
-LEXICON v1nahda !!= @CODE@ tehđä:te 
+LEXICON v1tehda !!= @CODE@ tehđä:te 
 +V+Inf:h%>đ%^A K ; ! đ
 +V+Inf+Use/Sub:h%>d%^A K ; ! d
 +V+Ind+Prs:he    v12pers ;
