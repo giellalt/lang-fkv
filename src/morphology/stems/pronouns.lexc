@@ -24,9 +24,9 @@ net+Pron+Pers+Pl:ne   netpronpl   ; ! e>i
 tämä+Pron+Dem:tä   tama ;  !!= * @CODE@t
 tuo+Pron+Dem:tuo       tuo ; 
 se+Pron+Dem+Sg:se se_pron ; !!= * @CODE@ ''e>i'' ei hoidettŧ
-nämät:näi namaobl ;
-nuot:nuoi namaobl ;
-net:nii   netobl ; ! e>i
+nämät+Pron+Dem+Pl:näi namaobl ;
+nuot+Pron+Dem+Pl:nuoi namaobl ;
+net+Pron+Dem+Pl:nii   netobl ; ! e>i
 
 !! Kysymäpronominit
 
@@ -42,29 +42,3 @@ mikä+Pron+Rel:mi    relkys ;
 jokka+Pron+Rel:joi   joi_relkyspl ;
 mikkä+Pron+Rel:mi   relkyspl ;
 
-
-
-! Tässä izh
-! 
-! miä:mi PersSg1  "" ;
-! mokoma:mokom Pron-mokoma  "" ;
-! itse:its Refl-itse  "" ;
-! miltain:miltai Pron-miltain  "" ;
-! kumpain:kumpai Pron-miltain  "" ;
-! siä:si PersSg2  "" ;
-! hää:hä PersSg3  "" ;
-! möö:m PersPl1  "" ;
-! töö:t PersPl2  "" ;
-! höö:h PersPl3  "" ;
-! se:s Dem-se  "" ;
-! mittää:mittää Pron-Neg  "" ;
-! neet:n Dem-neet  "" ;
-! sikäläin:sikäläi Dem-sikäläin  "" ;
-! täkäläin:täkäläi Dem-sikäläin  "" ;
-! meikäläin:meikäläi Dem-sikäläin  "" ;
-! nämä:nä Dem-nämä  "" ;
-! tämä:tä Dem-tämä  "" ;
-! kumpa:kumpa Pron-kumpa  "" ;
-! mikä:mi PronInterr-mikä  "" ;
-! ken:ke PronInterr-ken  "" ;
-! kus:ku PronInterr-kus  "" ;
