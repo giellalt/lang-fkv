@@ -64,36 +64,93 @@ LEXICON 123pronpl  !!= * @CODE@
 
 LEXICON netpronpl
 +Nom: K ;
-+Acc:đät K ; !đ
-+Gen: K ; !
++Acc:t K ; !đ
++Gen:tten K ; !nii
 +Ill:hin K ;
-+Par:tä K ;
+
 +Ess:nä    K ;
-+Tra:ksi   K ;
-+Ine:ssä   K ;
+
+
 +Ela:stä   K ;
-+All:le   K ;
-+Ade:lä    K ;
+
+
 +Abl:ltä   K ;
+pronobl ;
 
 LEXICON tama
 +Nom:mä K ;
-pronobl ;
++Gen:män K ;
++Ill:hään K ;
+
++Ess:nä    K ;
+
+
++Ela:stä   K ;
+
+
++Abl:ltä   K ;
+pronobl2 ;
 
 LEXICON tuo
 +Nom: K ;
 +Gen:n K ;
++Ill:hoon K ;
+
++Ess:na    K ;
+
+
++Ela:sta   K ;
+
+
++Abl:lta   K ;
+pronobl ;
+
+LEXICON se_pron
++Nom: K ;
++Gen:n K ;
++Ill:iheen K ;
+
++Ess:nä    K ;
+
+
++Ela:itä   K ;
+
+
++Abl:ltä   K ;
+pronobl2 ;
+
+LEXICON namaobl
++Nom: K ;
++Gen:tten K ;
+
++Ill:hiin K ;
++Par:tä K ;
++Ess:nä    K ;
+
+
++Ela:itä   K ;
+
+
++Abl:ltä   K ;
 pronobl ;
 
 LEXICON pronobl
++Par:t%^A K ;
++Tra:ksi   K ;
 +Ine:%>ss%^A K ;
-+Ill:%>lle K ;
++All:%>le K ;
++Ade:l%^A    K ;
 
-LEXICON namaobl
-+Ill:le K ;
+LEXICON pronobl2
++Par:t%^A K ;
++Tra:ksi   K ;
++Ine:%>ss%^A K ;
++All:%>lle K ;
++Ade:ll%^A    K ;
+
 
 LEXICON netobl
-+Ill:le K ; ! lyö yhteen edellisen kanssa?
++All:le K ; ! lyö yhteen edellisen kanssa?
 
 
 LEXICON relkys
