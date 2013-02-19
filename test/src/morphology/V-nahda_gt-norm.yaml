@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - nähđa: # Verb 'to do' - full paradigm
+     nähđa+V+Inf: nähđ@
+     nähđa+V+Ind+Prs+Sg1: näjen
+     nähđa+V+Ind+Prs+Sg2: näjet
+     nähđa+V+Ind+Prs+Sg3: näkkee
+     nähđa+V+Ind+Prs+Pl1: näjemä
+     nähđa+V+Ind+Prs+Pl2: näjettä
+     nähđa+V+Ind+Prs+Pl3: nähdhään
+     nähđa+V+Ind+Prt+Sg1: näin
+     nähđa+V+Ind+Prt+Sg2: näit
+     nähđa+V+Ind+Prt+Sg3: näki
+     nähđa+V+Ind+Prt+Pl1: näimä
+     nähđa+V+Ind+Prt+Pl2: näittä
+     nähđa+V+Ind+Prt+Pl3: nähthiin
+     
