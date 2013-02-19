@@ -6,7 +6,6 @@
 
 LEXICON 12pronsg !!= * @CODE@ on 1., 2. p. yksikkö
 +Nom:ä K ;
-+Acc:ut K ;
 +Gen:un K ;
 +Ill:huun K ;
 +Par:nuu K ;
@@ -21,9 +20,16 @@ LEXICON 12pronsg !!= * @CODE@ on 1., 2. p. yksikkö
 
 LEXICON han_pron
 +Nom: K ;
-+Acc:et K ;
 +Gen:en K ;
-+Ill:ele K ;
++Ill:heen K ;
++Par:ntä K ;
++Ess:ena    K ;
++Tra:eksi   K ;
++Ine:essa   K ;
++Ela:estä   K ;
++All:ele   K ;
++Ade:elä    K ;
++Abl:eltä   K ;
 
 LEXICON se_pron
 +Nom: K ;
@@ -31,14 +37,44 @@ LEXICON se_pron
 ! e>i ehkä näin:
 ! +Ill:%>^eDELille K ;
 ! ... ja sitten twol: e:0 <=> _ %>: ^eDEL: i ;
++Ill:iheen K ;
++Par:tä K ;
++Ess:nä    K ;
++Tra:ksi   K ;
++Ine:inä   K ;
++Ela:itä   K ;
++All:lle   K ;
++Ade:llä    K ;
++Abl:ltä   K ;
 
 LEXICON 123pronpl  !!= * @CODE@ 
 !! NB @LEXNAME@sta puuttuu oma leksikko nominatiiville
-
-+Acc:dät K ;
++Nom: K ;
++Acc:đän K ; !đ
++Gen:đät K ; !đ
++Ill:hiin K ;
++Par:tä K ;
++Ess:nä    K ;
++Tra:ksi   K ;
++Ine:issä   K ;
++Ela:istä   K ;
++All:ile   K ;
++Ade:ilä    K ;
++Abl:iltä   K ;
 
 LEXICON netpronpl
 +Nom: K ;
++Acc:đät K ; !đ
++Gen: K ; !
++Ill:hin K ;
++Par:tä K ;
++Ess:nä    K ;
++Tra:ksi   K ;
++Ine:ssä   K ;
++Ela:stä   K ;
++All:le   K ;
++Ade:lä    K ;
++Abl:ltä   K ;
 
 LEXICON tama
 +Nom:mä K ;
