@@ -4,11 +4,19 @@
 
 !! Edelleen vaan kokeiluvaiheessa.
 
-LEXICON 12pronsg !!= * @CODE@ on 1., 2. p. yskikkö
+LEXICON 12pronsg !!= * @CODE@ on 1., 2. p. yksikkö
 +Nom:ä K ;
 +Acc:ut K ;
 +Gen:un K ;
-+Ill:le K ;
++Ill:huun K ;
++Par:nuu K ;
++Ess:una    K ;
++Tra:uksi   K ;
++Ine:ussa   K ;
++Ela:usta   K ;
++All:ule   K ;
++Ade:ula    K ;
++Abl:ulta   K ;
 
 
 LEXICON han_pron
@@ -38,6 +46,7 @@ pronobl ;
 
 LEXICON tuo
 +Nom: K ;
++Gen:n K ;
 pronobl ;
 
 LEXICON pronobl
@@ -55,5 +64,11 @@ LEXICON relkys
 +Nom:k^A K ; ! huom: keka !
 +Ill:lle K ;
 
+LEXICON relkyspl
++Nom: K ;
+
+LEXICON joi_relkyspl
++Nom: K ;
++Gen:tten K ;
 
 
