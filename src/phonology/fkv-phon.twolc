@@ -33,7 +33,7 @@ Rules
 ! =======================
 
 "Gemination" !!= @CODE@  
- 0:Cx <=> Cy _ Vowel: %>:0 Vowel: ;   !!=
+ 0:Cx <=> [Vowel|l|r] Cy _ Vowel: %>:0 Vowel: ;   !!=
         where Cy in ( h j k l m n p r s t v ) 
               Cx in ( h j k l m n p r s t v ) 
     matched; 
@@ -90,13 +90,14 @@ k:j <=> i _ Vowel: (Dummy:) %^WG:0 ;
 !€ lahđi0
 
 "Gradation of k:0" 
-k:0 <=> Vowel - [ i | u | y ] _ ( %+ ) Vowel: (Dummy:) %^WG:0 ;  
+k:0 <=> [ [ Vowel - [ i | u | y ]] | l | r ] _ ( %+ ) Vowel: (Dummy:) %^WG:0 ;  
 
 ! haka
 ! ha0an
 ! Remove i from the left vowel context because of the rule "I-0 for k:j"
 ! Remove u & y from the left vowel context because of the following rule
 
+! pölkä>^WGt^A : pölätä 
 "Gradation of k between u/y" 
 k:v <=> Conson u _ u (Dummy:) %^WG:0 ;
         Conson y _ y (Dummy:) %^WG:0 ;
