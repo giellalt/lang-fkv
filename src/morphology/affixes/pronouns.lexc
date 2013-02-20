@@ -23,9 +23,9 @@ LEXICON han_pron
 +Gen:en K ;
 +Ill:heen K ;
 +Par:ntä K ;
-+Ess:ena    K ;
++Ess:enä    K ;
 +Tra:eksi   K ;
-+Ine:essa   K ;
++Ine:essä   K ;
 +Ela:estä   K ;
 +All:ele   K ;
 +Ade:elä    K ;
@@ -56,24 +56,18 @@ LEXICON 123pronpl  !!= * @CODE@
 +Par:tä K ;
 +Ess:nä    K ;
 +Tra:ksi   K ;
-+Ine:issä   K ;
-+Ela:istä   K ;
-+All:ile   K ;
-+Ade:ilä    K ;
-+Abl:iltä   K ;
++Ine:ssä   K ;
++Ela:stä   K ;
++All:le   K ;
++Ade:lä    K ;
++Abl:ltä   K ;
 
 LEXICON netpronpl
 +Nom: K ;
 +Acc:t K ; !đ
 +Gen:tten K ; !nii
 +Ill:hin K ;
-
-+Ess:nä    K ;
-
-
 +Ela:stä   K ;
-
-
 +Abl:ltä   K ;
 pronobl ;
 
@@ -81,27 +75,16 @@ LEXICON tama
 +Nom:mä K ;
 +Gen:män K ;
 +Ill:hään K ;
-
 +Ess:nä    K ;
-
-
 +Ela:stä   K ;
-
-
 +Abl:ltä   K ;
-pronobl2 ;
+pronobl_2 ;
 
 LEXICON tuo
 +Nom: K ;
 +Gen:n K ;
 +Ill:hoon K ;
-
-+Ess:na    K ;
-
-
 +Ela:sta   K ;
-
-
 +Abl:lta   K ;
 pronobl ;
 
@@ -109,56 +92,76 @@ LEXICON se_pron
 +Nom: K ;
 +Gen:n K ;
 +Ill:iheen K ;
-
-+Ess:nä    K ;
-
-
 +Ela:itä   K ;
-
-
 +Abl:ltä   K ;
-pronobl2 ;
+pronobl_2 ;
 
 LEXICON namaobl
 +Nom: K ;
 +Gen:tten K ;
-
 +Ill:hiin K ;
 +Par:tä K ;
-+Ess:nä    K ;
-
-
 +Ela:itä   K ;
-
-
 +Abl:ltä   K ;
 pronobl ;
 
 LEXICON pronobl
 +Par:t%^A K ;
 +Tra:ksi   K ;
++Ess:n%^A    K ;
 +Ine:%>ss%^A K ;
 +All:%>le K ;
 +Ade:l%^A    K ;
 
-LEXICON pronobl2
+LEXICON pronobl_2
 +Par:t%^A K ;
 +Tra:ksi   K ;
++Ess:n%^A   K ; 
 +Ine:%>ss%^A K ;
 +All:%>lle K ;
 +Ade:ll%^A    K ;
 
 
-LEXICON netobl
-+All:le K ; ! lyö yhteen edellisen kanssa?
+!!LEXICON netobl
+!!+All:le K ; ! lyö yhteen edellisen kanssa? -Joo, tehty.
 
 
 LEXICON relkys
+!!+All:le K ;
 +Nom:k^A K ; ! huom: keka !
-+Ill:lle K ;
++Gen:nen K ;
++Ill:nheen K ;
++Par:tä K ;
++Ess:nenä    K ;
++Tra:neksi   K ;
++Ine:nessä   K ;
++Ela:nestä   K ;
++All:nele   K ;
++Ade:nelä    K ;
++Abl:neltä   K ;
+
+LEXICON mi_relkys
+!!+All:le K ;
++Nom:k^A K ; ! huom: keka !
++Gen:nkä K ;
++Ill:hiin K ;
++Par:tä K ;
++Ess:nä    K ;
++Tra:ksi   K ;
++Ine:ssä   K ;
++Ela:stä   K ;
++All:lle   K ;
++Ade:llä    K ;
++Abl:ltä   K ;
+
 
 LEXICON relkyspl
-+Nom: K ;
++Nom: K ; !!kukka
++Par:itä K ; 
+
+LEXICON mi_relkyspl
++Nom:k K ; !!mikkä
+
 
 LEXICON joi_relkyspl
 +Nom: K ;
