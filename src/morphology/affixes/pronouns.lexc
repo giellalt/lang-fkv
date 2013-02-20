@@ -100,9 +100,9 @@ LEXICON namaobl
 +Nom: K ;
 +Gen:tten K ;
 +Ill:hiin K ;
-+Par:tä K ;
-+Ela:itä   K ;
-+Abl:ltä   K ;
++Par:t%^A K ;
++Ela:it%^A   K ;
++Abl:lt%^A   K ;
 pronobl ;
 
 LEXICON pronobl
@@ -122,10 +122,6 @@ LEXICON pronobl_2
 +Ade:ll%^A    K ;
 
 
-!!LEXICON netobl
-!!+All:le K ; ! lyö yhteen edellisen kanssa? -Joo, tehty.
-
-
 LEXICON relkys
 !!+All:le K ;
 +Nom:k^A K ; ! huom: keka !
@@ -142,7 +138,7 @@ LEXICON relkys
 
 LEXICON mi_relkys
 !!+All:le K ;
-+Nom:k^A K ; ! huom: keka !
++Nom:k^A K ;
 +Gen:nkä K ;
 +Ill:hiin K ;
 +Par:tä K ;
@@ -154,17 +150,25 @@ LEXICON mi_relkys
 +Ade:llä    K ;
 +Abl:ltä   K ;
 
-
 LEXICON relkyspl
 +Nom: K ; !!kukka
-+Par:itä K ; 
++Par:itä K ;
 
 LEXICON mi_relkyspl
 +Nom:k K ; !!mikkä
 
-
 LEXICON joi_relkyspl
-+Nom: K ;
++Nom: K ; !jokka
 +Gen:tten K ;
++Ill:hin K ;
++Par:ita K ;
++Ess:na    K ;
++Tra:ksi   K ;
++Ine:ssa   K ;
++Ela:sta   K ;
++All:le   K ;
++Ade:la    K ;
++Abl:lta   K ;
+
 
 
