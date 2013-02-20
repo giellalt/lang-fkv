@@ -26,14 +26,14 @@ tuo+Pron+Dem:tuo       tuo ;
 se+Pron+Dem+Sg:se se_pron ; !!= * @CODE@ ''e>i'' ei hoidettŧ
 nämät+Pron+Dem+Pl:näi namaobl ;
 nuot+Pron+Dem+Pl:nuoi namaobl ;
-net+Pron+Dem+Pl:nii   netobl ; ! e>i
+net+Pron+Dem+Pl:nii   namaobl ; ! e>i
 
 !! Kysymäpronominit
 
 kuka+Pron+Interr:ke   relkys  ;  !!= * @CODE@ 
-mikä+Pron+Interr:mi   relkys  ;  !!= * @CODE@
-kukka+Pron+Interr:ke  relkys  ;  !!= * @CODE@ 
-mikkä+Pron+Interr:mi  relkys  ;  !!= * @CODE@
+mikä+Pron+Interr:mi   mi_relkys  ;  !!= * @CODE@
+kukka+Pron+Interr+Pl:ke  relkyspl  ;  !!= * @CODE@ 
+mikkä+Pron+Interr+Pl:mi  mi_relkyspl  ;  !!= * @CODE@
 
 !! Relatiivipronominit
 
