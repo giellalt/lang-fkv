@@ -177,13 +177,25 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on kyyti-
 LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Inf:%>%^WGt%^A K ; !
 +V+Ind+Prs+Sg3:%>%^A K ; !
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; 
++V+Ind+Prs+Pl3:%>%^WGth%^A%^An K ; 
++V+Ind+Prt+Sg3:%>s K ;
 +V+Ind+Prt+Sg3:%>si K ;
-+V+Ind+Prt+Pl3:%>thiin K ; 
-+V+Ind+Prs:%>a v12pers ;
++V+Ind+Prt+Pl3:%>%^WGthiin K ; 
++V+Ind+Prs:%>%^A v12pers ;
 +V+Ind+Prt:%>si v12pers ;
-+V+PrfPrc+Sg+Nom:%>%^N%^U K ;
++V+PrfPrc+Sg+Nom:%>%^WG%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
+
+! LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ pölätä:pöl
+! +V+Inf:ä%>%^WGt%^A K ; !
+! +V+Ind+Prs+Sg3:kä%>%^A K ; !
+! +V+Ind+Prs+Pl3:%>äth%^A%^An K ; 
+! +V+Ind+Prt+Sg3:%>käs K ;
+! +V+Ind+Prt+Pl3:%>äthiin K ; 
+! +V+Ind+Prs:%>kkää v12pers ;
+! +V+Ind+Prt:%>käsi v12pers ;
+! +V+PrfPrc+Sg+Nom:ä%>%^N%^U K ;
+! +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
 
 !! !!Verbien persoonapäätteet
