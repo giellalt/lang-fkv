@@ -167,10 +167,20 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on kyyti-
 +V+Ind+Prs:%>tte v12pers ;
 +V+Ind+Prt:%>tti v12pers ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ; !! * Lyhyt partisiippi
-+V+PrfPrc+Sg+Nom:tte%>nn%^U K ; !! * Pitkä partisiippi
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
-+V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
+!! +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
+LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
++V+Inf:%>đ%^A K ; 
++V+Ind+Prs+Sg3:ttee K ; 
++V+Ind+Prs+Pl3:%>th%^A%^An K ; 
++V+Ind+Prt+Sg3:%>tti K ;
++V+Ind+Prt+Pl3:%>thiin K ; 
++V+Ind+Prs:%>tte v12pers ;
++V+Ind+Prt:%>tti v12pers ;
++V+PrfPrc+Sg+Nom:%>%^N%^U K ; !! * Lyhyt partisiippi
++V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
+!! +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
 
 
