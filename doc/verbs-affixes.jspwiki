@@ -8,6 +8,7 @@
  LEXICON neg  jakaantuu kahteen
 
  LEXICON indneg  negaation indikatiivipäätteet
+
 Note that lexicon indneg directs to K_NEG and not to K,
 this is since we have enkä but not enkin
 
@@ -57,7 +58,6 @@ kautta leksikkoon __v12pers__, missä ''-n, -t, -mA, -ttA''
 
  LEXICON v43  jatkata:jatka
 
- ! LEXICON v43  pölätä:pöl
 
 
 !!Verbien persoonapäätteet
