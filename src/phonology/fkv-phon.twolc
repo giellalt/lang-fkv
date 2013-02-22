@@ -72,7 +72,7 @@ Rules
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination ä"
- 0:Cx <=> [Vowel|l|r] Cx _ :ä %>:0 :ö ;   
+ 0:Cx <=> [Vowel|l|r] Cx _ :ä %>:0 :ä ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 
@@ -95,13 +95,18 @@ Rules
     
 !!  Lyhyt tai pitkä pääte tavurakenteen mukaan:
 
-!! * __Lyhyt__: pitkän tavun jälkeen
-!! ** ''kuula''
-!! * __Pitkä__: painottoman, pitkän tavun jälkeen
+!! * __Pitkä__: painollisen lyhyen tavun jälkeen 
+!! ** ''sillä''
 !! ** ''tulla''
+
+!! * __Lyhyt__: painollisen pitkän tavun jälkeen
+!! ** ''kuula''
+
+!! * __Pitkä__: painottoman, pitkän tavun jälkeen
 !! ** ''emänällä''
 !! ** ''sisarelle''
 !! ** ''itteksemmä''
+
 !! * __Lyhyt__: painottoman, lyhyen tavun jälkeen
 !! ** ''linnala''
 !! ** ''muistela''
@@ -112,16 +117,16 @@ Rules
 
 
      
-"Suffix shortening after short vowels in odd syllbles of consonant stems" !!= * @CODE@   
- Cx:0 <=> Conson+ Vowel ( Dummy: ) _ %>: Cy: Vowel ; 
-     where Cx in ( l r m n l   r   m   n   ) 
-           Cy in ( l r m n %^N %^N %^N %^N )
-           matched ;
+!"Suffix shortening after short vowels in odd syllbles of consonant stems" != * @CODE@   
+! Cx:0 <=> Conson+ Vowel ( Dummy: ) _ %>: Cy: Vowel ; 
+!     where Cx in ( l r m n l   r   m   n   ) 
+!           Cy in ( l r m n %^N %^N %^N %^N )
+!           matched ;
 
 
-"Suffix lengthening after short vowels in odd syllbles of vowel stems" !!= * @CODE@  
- 0:Cx <=> Vowel Conson+ Vowel+ (%>:) Conson+  (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ; 
-     where Cx in ( l r m n ) ;
+!"Suffix lengthening after short vowels in odd syllbles of vowel stems" != * @CODE@  
+! 0:Cx <=> Vowel Conson+ Vowel+ (%>:) Conson+  (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ; 
+!     where Cx in ( l r m n ) ;
 
 ! %>%^WGm%^A
 
