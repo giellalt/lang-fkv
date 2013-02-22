@@ -133,6 +133,7 @@ LEXICON weak-v-stem !!= @CODE@
 
  LEXICON nom-strong
   +Sg+Nom: K ;
+  short-par ;
  
 LEXICON gae-strong
  +Sg+Nom: Px ;   ! mattoni
@@ -163,7 +164,7 @@ LEXICON com
 ! --------------------------------
 
 LEXICON short-par
- +Sg+Par:%>%^A PxxK ;
+ +Sg+Par:%>%^V PxxK ;
 ! does not handle valoaan vs. *salaaan
  
 
