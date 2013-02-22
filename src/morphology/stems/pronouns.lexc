@@ -42,23 +42,36 @@ mikä+Pron+Rel:mi    relkys ;
 jokka+Pron+Rel+Pl:joi   joi_relkyspl ;
 mikkä+Pron+Rel+Pl:mi   relkyspl ;
 
-!! Refleksiivi- ja resiprookipronomini +Refl +Recipr +Rel +Indef
+!! Refleksiivi- ja resiprookipronomini
 
 itteni+Pron+Refl+Sg:itt    s1refpron ;
 ittesti+Pron+Refl+Sg:itt    s2refpron ;
 ittemä+Pron+Refl+Pl:itt    p1refpron ;
 ittenä+Pron+Refl+Pl:itt    p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
-toinen+Pron+Recipr-Pl:tois     recpron ;
+toinen+Pron+Recipr+Pl:tois     recpron ;
 
-!! Kvattoripronomini?
+!! Indefiniittipronominit/Kvattoripronominit
 
-joku:jo          kvat  ;
-muutampi:muutam  kvat  ;
-jompikumpi:jom   kvat  ;
-itte:itte        kvat  ;
-kuki:ku          kvat  ;
-kum:kum          kvat  ;
+joku+Pron+Indef+Sg:jo           indef ;
+jokku+Pron+Indef+Pl:jo           indef ;
+muutampi+Pron+Indef+Sg:muutam   indef ;
+muutamat+Pron+Indef+Pl:muutam   indef ;
+jompikumpi+Pron+Indef+Sg:jom    indef ;
+jommatkummat+Pron+Indef+Pl:jom  indef ;
+muutampi+Pron+Indef+Sg:muutam   indef ;
+muutamat+Pron+Indef+Pl:muutam   indef ;
+
+!! Universaalit
+
+kaikki
+koko
+joka
+jokhainen, joka ainua
+itte kukin/kukanen
+kumpiki:kum
+molemat: 
+
 
 !!Kieltopronominit?
 
