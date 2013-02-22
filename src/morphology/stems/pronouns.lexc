@@ -42,3 +42,27 @@ mikä+Pron+Rel:mi    relkys ;
 jokka+Pron+Rel+Pl:joi   joi_relkyspl ;
 mikkä+Pron+Rel+Pl:mi   relkyspl ;
 
+!! Refleksiivi- ja resiprookipronomini +Refl +Recipr +Rel +Indef
+
+itteni+Pron+Refl+Sg:itt    s1refpron ;
+ittesti+Pron+Refl+Sg:itt    s2refpron ;
+ittemä+Pron+Refl+Pl:itt    p1refpron ;
+ittenä+Pron+Refl+Pl:itt    p2refpron ;
+ittensä+Pron+Refl+Pl:itt    p3refpron ;
+toinen+Pron+Recipr-Pl:tois     recpron ;
+
+!! Kvattoripronomini?
+
+joku:jo          kvat  ;
+muutampi:muutam  kvat  ;
+jompikumpi:jom   kvat  ;
+itte:itte        kvat  ;
+kuki:ku          kvat  ;
+kum:kum          kvat  ;
+
+!!Kieltopronominit?
+
+kukhaan:ke      kielto  ;
+mikhään:mi      mi_kielto  ;
+
+
