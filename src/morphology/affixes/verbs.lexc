@@ -12,6 +12,7 @@ LEXICON neg !!= @CODE@ jakaantuu kahteen
  +Imp: impneg ;
 
 LEXICON indneg !!= @CODE@ negaation indikatiivipäätteet
+
 !! Note that lexicon @LEXNAME@ directs to K_NEG and not to K,
 !! this is since we have enkä but not enkin
  +Sg1:en K_NEG ;
@@ -196,16 +197,6 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+PrfPrc+Sg+Nom:%>%^WG%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-! LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ pölätä:pöl
-! +V+Inf:ä%>%^WGt%^A K ; !
-! +V+Ind+Prs+Sg3:kä%>%^A K ; !
-! +V+Ind+Prs+Pl3:%>äth%^A%^An K ; 
-! +V+Ind+Prt+Sg3:%>käs K ;
-! +V+Ind+Prt+Pl3:%>äthiin K ; 
-! +V+Ind+Prs:%>kkää v12pers ;
-! +V+Ind+Prt:%>käsi v12pers ;
-! +V+PrfPrc+Sg+Nom:ä%>%^N%^U K ;
-! +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
 
 !! !!Verbien persoonapäätteet
