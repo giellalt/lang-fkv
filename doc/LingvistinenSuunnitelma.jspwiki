@@ -16,16 +16,66 @@
 
 
 !!Tehtäviä
-* Luokitella substantiivit vartaloluokkiin
-* Suljetut sanaluokat 
-** pronominit: puuttuu paljon
-** konjunktiot
-** prepositiot
-** postpositiot
+
+!Verbit
+
+Kaikki yaml-tiedostot toimivat, paitsi V-tarista.
+
+Nyt pitää lisätä lisää taivutusmuotoja (moduksia, infiniittisiä muotoja) 
+sekä yaml-tiedostoihin ja lexc-koodiin. Pitää myös tarkistaa, 
+toimivatko leksikon kaikki muut verbit.
+
+!Substantiivit
+
+Nyt pitää luokitella substantiivit vartaloluokkiin
+
+!Suljetut sanaluokat 
+* Pronominit: 
+** paljon on tehty, puuttuu viimeistely (?)
+* konjunktiot, prepositiot, postpositiot, interjektiot
+** tarvitaan lisää sanoja Eiran sanakirjasta
 * Luokitella verbit, 
-* Myöhemmin adjektiivit
+
+!adjektiivit
+... odottavat substantiiveja. Ei ole vielä haettu Terjen sanakirjasta.
 
 !!!Testaaminen 
 
-Paradigman kaikille vartalotyypille
+!!yaml
+
+Tässä testitiedostot:
+
+Katso, puuttuuko tyyppeja.
+
+* N-huonet_gt-norm.yaml
+* N-kainulainen_gt-norm.yaml
+* N-linna_gt-norm.yaml
+* N-maa_gt-norm.yaml
+* N-meininki_gt-norm.yaml
+* N-rakas_gt-norm.yaml
+* N-ruvis_gt-norm.yaml
+* N-suomi_gt-norm.yaml
+* N-venet_gt-norm.yaml
+* N-veres_gt-norm.yaml
+* V-aukaista_gt-norm.yaml
+* V-haravoita_gt-norm.yaml
+* V-jatkata_gt-norm.yaml
+* V-kattela_gt-norm.yaml
+* V-kattoot_gt-norm.yaml
+* V-kavela_gt-norm.yaml
+* V-kyytita_gt-norm.yaml
+* V-nahda_gt-norm.yaml
+* V-polata_gt-norm.yaml
+* V-saada_gt-norm.yaml
+* V-tarista_gt-norm.yaml
+* V-tehda_gt-norm.yaml
+* V-tuoda_gt-norm.yaml
+* V-vanheta_gt-norm.yaml
+
+Voidaan lisätä adjektiiveja.
+
+!!Testikorpus
+
+Ehkä vähän aikaisin vielä, mutta tullaan tarvitsemaan testikorpusta.
+
 
