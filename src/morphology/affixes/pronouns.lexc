@@ -96,7 +96,7 @@ LEXICON se_pron
 +Abl:ltä   K ;
 pronobl_2 ;
 
-LEXICON namaobl !!nuoi
+LEXICON namaobl !!tuotä, nuoitä
 +Nom: K ;
 +Gen:tten K ;
 +Ill:hiin K ;
@@ -154,9 +154,6 @@ LEXICON relkyspl
 +Nom: K ;   !!kukka
 +Par:itä K ;
 
-LEXICON mi_relkyspl
-+Nom:k K ;  !!mikkä
-
 LEXICON joi_relkyspl
 +Nom: K ;   !!jokka
 +Gen:tten K ;
@@ -169,6 +166,9 @@ LEXICON joi_relkyspl
 +All:le   K ;
 +Ade:la    K ;
 +Abl:lta   K ;
+
+LEXICON mi_relkyspl
++Nom:k K ;  !!mikkä
 
 LEXICON s1refpron
 +Nom: K ;
