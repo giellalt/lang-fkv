@@ -44,35 +44,35 @@ Rules
 !    matched; 
  
 "Gemination a"
- 0:Cx <=> [Vowel|l|r] Cx _ :a %>:0 :a ;   
+ 0:Cx <=> [Vowel|l|r|n|m] Cx _ :a %>:0 :a ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination e"
- 0:Cx <=> [Vowel|l|r] Cx _ :e %>:0 :e ;   
+ 0:Cx <=> [Vowel|l|r|n|m] Cx _ :e %>:0 :e ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination i"
- 0:Cx <=> [Vowel|l|r] Cx _ :i %>:0 :i ;   
+ 0:Cx <=> [Vowel|l|r|n|m] Cx _ :i %>:0 :i ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination o"
- 0:Cx <=> [Vowel|l|r] Cx _ :o %>:0 :o ;   
+ 0:Cx <=> [Vowel|l|r|n|m] Cx _ :o %>:0 :o ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination u"
- 0:Cx <=> [Vowel|l|r] Cx _ :u %>:0 :u ;   
+ 0:Cx <=> [Vowel|l|r|n|m] Cx _ :u %>:0 :u ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination y"
- 0:Cx <=> [Vowel|l|r] Cx _ :y %>:0 :y ;   
+ 0:Cx <=> [Vowel|l|r|n|m] Cx _ :y %>:0 :y ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination ö"
- 0:Cx <=> [Vowel|l|r] Cx _ :ö %>:0 :ö ;   
+ 0:Cx <=> [Vowel|l|r|n|m] Cx _ :ö %>:0 :ö ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination ä"
- 0:Cx <=> [Vowel|l|r] Cx _ :ä %>:0 :ä ;   
+ 0:Cx <=> [Vowel|l|r|n|m] Cx _ :ä %>:0 :ä ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 
@@ -160,13 +160,15 @@ Cy:0 <=> Cx _ Cy Vowel: (Dummy:) %^WG:0 ;
 
 
 
-"I-0 for ptk" 
-Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
+"II-I for ppttkk - ptk" 
+!Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
+Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
             where Cx in ( k p t ) ;
 
 !€ katto^WG>n
 !€ ka0to00n
 
+! mieti (h)
 
 
 
@@ -202,6 +204,14 @@ k:v <=> Conson u _ u (Dummy:) %^WG:0 ;
         Conson y _ y (Dummy:) %^WG:0 ;
 
 !! ** this will not give uku - uvun, but puku - puvun.
+
+
+"Gradation of t" 
+t:đ <=> [ Vowel | l | r ] _  Vowel: (Dummy:) %^WG:0 ;  
+
+"Gradation of Nt" 
+t:Nx <=> Nx  _  Vowel: (Dummy:) %^WG:0 ;  
+    where Nx in ( l n r ) ; 
 
 ! =============
 !! !!!Vowel rules
