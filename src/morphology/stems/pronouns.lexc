@@ -46,38 +46,38 @@ mikkä+Pron+Rel+Pl:mi   relkyspl ;
 
 itteni+Pron+Refl+Sg:itt    s1refpron ;
 ittesti+Pron+Refl+Sg:itt    s2refpron ;
-ittemä+Pron+Refl+Pl:itt    p1refpron ;
+ittemä+Pron+Refl+Pl:itt    p1refpron ; !!tästä alas
 ittenä+Pron+Refl+Pl:itt    p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
 toinen+Pron+Recipr+Pl:tois     recpron ;
 
-!! Indefiniittipronominit/Kvattoripronominit
+!! Indefiniittipronominit/Kvanttoripronominit
 
-joku+Pron+Indef+Sg:jo           indef ;
-jokku+Pron+Indef+Pl:jo           indef ;
-muutampi+Pron+Indef+Sg:muutam   indef ;
-muutamat+Pron+Indef+Pl:muutam   indef ;
-jompikumpi+Pron+Indef+Sg:jom    indef ;
-jommatkummat+Pron+Indef+Pl:jom  indef ;
-muutampi+Pron+Indef+Sg:muutam   indef ;
-muutamat+Pron+Indef+Pl:muutam   indef ;
+joku+Pron+Indef+Sg:jo                   indef ;
+jokku+Pron+Indef+Pl:jo                  indef ;
+muutampi+Pron+Indef+Sg:muutam           indef ;
+muutamat+Pron+Indef+Pl:muutam           indef ;
+jompikumpi+Pron+Indef+Sg:jom            indef ;
+jommatkummat+Pron+Indef+Pl:jom          indef ;
+muutampi+Pron+Indef+Sg:muutam           indef ;
+muutamat+Pron+Indef+Pl:muutam           indef ;
+kaikki+Pron+Indef:kaik                  indef ;
+koko+Pron+Indef:koko                    indef ;
+joka+Pron+Indef:joka                    indef ;
+jokhainen+Pron+Indef:jokhai             indef ;
+joka% ainua+Pron+Indef:joka% ainu%      indef ; ! yhdyspronomini
+itte% kukin+Pron+Indef:itte% ku%        indef ; ! yhdyspronomini
+itte% kukanen+Pron+Indef:itte% kuka%    indef ; ! yhdyspronomini
+kumpiki+Pron+Indef+Sg:kum               indef ;
+kummatki+Pron+Indef+Pl:kum              indef ;
+molemat+Pron+Indef:molem                indef ;
 
-!! Universaalit
-
-! Nämä odottavat kohtaloaan:
-
-! kaikki
-! koko
-! joka
-! jokhainen, joka ainua
-! itte kukin/kukanen
-! kumpiki:kum
-! molemat: 
 
 
 !!Kieltopronominit?
 
-kukhaan:ke      kielto  ;
-mikhään:mi      mi_kielto  ;
-
-
+kukhaan+Pron+Indef:ke      kielto  ; !! yksikkö
+mikhään+Pron+Indef:mi      mi_kielto  ; !! yksikkö
+yksikhään+Pron+Intef:yht   yks_kielto ; !! yksikhään, yhtheenkään, yhtäkhään
+kumpikhaan+Pron+Indef:kump  kump_kielto; !!kumpikhaan, kumphaankaan, 
+                                             !!taipuu kuten kumpi, yksi
