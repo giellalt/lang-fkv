@@ -93,7 +93,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 +V+Ind+Prs+ConNeg: K ;
 
-LEXICON v2 !!= @CODE@ anttaat:antta. 
+LEXICON v2 !!= @CODE@ anttaat:anta 
 +V+Inf:%>%^Vt K ; 
 +V+Ind+Prs: v12pers_short ;
 +V+Ind+Prt:%>i v12pers_short ;
@@ -177,7 +177,7 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 !! +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
 LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
-+V+Inf:%>t%^A K ; 
++V+Inf:%>đ%^A K ; 
 +V+Ind+Prs+Sg3:ttee K ; 
 +V+Ind+Prs+Pl3:%>th%^A%^An K ; 
 +V+Ind+Prt+Sg3:%>tti K ;
@@ -218,12 +218,12 @@ LEXICON v12pers_long
 
 LEXICON v12pers_short
  +Pl1:%>%^WGm%^A K ;
- v12pers ;
+ :%^WG v12pers ;
 
 LEXICON v12pers  !!= @CODE@ Only sg12, pl12 so far
  +Sg1:%>n K ;
  +Sg2:%>t K ;
- +Pl2:%>%^WGtt%^A K ;
+ +Pl2:%>tt%^A K ;
 
 
 LEXICON PRFPRC_OBL !!= @CODE@ is without nom sg
