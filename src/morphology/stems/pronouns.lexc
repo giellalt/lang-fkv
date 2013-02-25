@@ -40,7 +40,7 @@ mikkä+Pron+Interr+Pl:mi  mi_relkyspl  ;  !!= * @CODE@
 joka+Pron+Rel:jo    relkys ;
 mikä+Pron+Rel:mi    relkys ;
 jokka+Pron+Rel+Pl:joi   joi_relkyspl ;
-mikkä+Pron+Rel+Pl:mi   relkyspl ;
+mikkä+Pron+Rel+Pl:mi   mi_relkyspl ;
 
 !! Refleksiivi- ja resiprookipronomini
 
@@ -49,7 +49,7 @@ ittesti+Pron+Refl+Sg:itt    s2refpron ;
 ittemä+Pron+Refl+Pl:itt    p1refpron ; !!tästä alas
 ittenä+Pron+Refl+Pl:itt    p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
-toinen+Pron+Recipr+Pl:tois     recpron ;
+toinen+Pron+Recipr:tois     recpron ;
 
 !! Indefiniittipronominit/Kvanttoripronominit
 
@@ -78,6 +78,6 @@ molemat+Pron+Indef:molem                indef ;
 
 kukhaan+Pron+Indef:ke      kielto  ; !! yksikkö
 mikhään+Pron+Indef:mi      mi_kielto  ; !! yksikkö
-!yksikhään+Pron+Intef:yht   yks_kielto ; !! yksikhään, yhtheenkään, yhtäkhään
-!kumpikhaan+Pron+Indef:kump  kump_kielto ; !!kumpikhaan, kumphaankaan, 
+yksikhään+Pron+Intef:yht   yks_kielto ; !! yksikhään, yhtheenkään, yhtäkhään
+kumpikhaan+Pron+Indef:kump  kump_kielto; !!kumpikhaan, kumphaankaan, 
                                              !!taipuu kuten kumpi, yksi
