@@ -197,13 +197,59 @@ LEXICON s2refpron
 +Abl:ltästi   K ;
 
 LEXICON p1refpron
-#; ! ei valmis
++Nom: K ;
++Gen:mä K ;
++Ill:heemä K ;
++Par:eemä K ; !! m. ittiämä/itteämä
++Ess:enämmä    K ;
++Tra:eksemmä   K ;
++Ine:essämmä   K ;
++Ela:estämmä   K ;
++All:elemmä   K ;
++Ade:elämmä    K ;
++Abl:ltämmä   K ;
+
 LEXICON p2refpron 
-#; ! ei valmis
++Nom: K ;
++Gen:nä K ;
++Ill:heenä K ;
++Par:eenä K ; !! m. ittiännä/itteännä
++Ess:enännä    K ;
++Tra:eksennä   K ;
++Ine:essännä   K ;
++Ela:estännä   K ;
++All:elennä   K ;
++Ade:elännä    K ;
++Abl:ltännä   K ;
+
 LEXICON p3refpron 
-#; ! ei valmis
-LEXICON recpron 
-#; ! ei valmis
++Nom: K ;
++Gen:nä K ;
++Ill:heensä K ;
++Par:eensä K ; !! m. ittiänsä/itteänsä
++Ess:enänsä    K ;
++Tra:eksensä   K ;
++Ine:essänsä   K ;
++Ela:estänsä   K ;
++All:elensä   K ;
++Ade:elänsä    K ;
++Abl:ltänsä   K ;
+
+LEXICON toinen_recpron !! h:n esiintyminen on ?
++Sg+Nom:toinen%  K ;
++Sg+Gen:toinen% en K ;
++Sg+Ill:toinen% heen K ;
++Sg+Par:toinen% ensa K ; 
++Sg+Ess:toinen% ena    K ;
++Sg+Tra:toinen% eksi   K ;
++Sg+Ine:toinen% essa   K ;
++Sg+Ela:toinen% esta   K ;
++Sg+All:toinen% ele   K ;
++Sg+Ade:toinen% ela    K ;
++Sg+Abl:toinen% lta   K ;
+
+LEXICON toinen_recpron toinen nomsg toinen sgkaasukset 
++Nom: K ;
 
 LEXICON kielto
 +Nom: K ;
