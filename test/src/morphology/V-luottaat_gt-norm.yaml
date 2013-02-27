@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - luottaat: # Verb 'to bring' - full paradigm
+     luottaat+V+Inf: luottaat
+     luottaat+V+Ind+Prs+Sg1: luotan
+     luottaat+V+Ind+Prs+Sg2: luotat
+     luottaat+V+Ind+Prs+Sg3: luottaa
+     luottaat+V+Ind+Prs+Pl1: luotama
+     luottaat+V+Ind+Prs+Pl2: luotatta
+     luottaat+V+Ind+Prs+Pl3: luotethaan
+     luottaat+V+Ind+Prt+Sg1: luotin
+     luottaat+V+Ind+Prt+Sg2: luotit
+     luottaat+V+Ind+Prt+Sg3: luotti
+     luottaat+V+Ind+Prt+Pl1: luotima
+     luottaat+V+Ind+Prt+Pl2: luotitta
+     luottaat+V+Ind+Prt+Pl3: luotethiin
+     luottaat+V+PrfPrc+Sg+Nom: luottanu
