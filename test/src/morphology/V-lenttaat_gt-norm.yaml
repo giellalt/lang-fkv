@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - lenttäät: # Verb 'to bring' - full paradigm
+     lenttäät+V+Inf: lenttäät
+     lenttäät+V+Ind+Prs+Sg1: lennän
+     lenttäät+V+Ind+Prs+Sg2: lennät
+     lenttäät+V+Ind+Prs+Sg3: lenttää
+     lenttäät+V+Ind+Prs+Pl1: lennämä
+     lenttäät+V+Ind+Prs+Pl2: lennättä
+     lenttäät+V+Ind+Prs+Pl3: lennethään
+     lenttäät+V+Ind+Prt+Sg1: lensin
+     lenttäät+V+Ind+Prt+Sg2: lensit
+     lenttäät+V+Ind+Prt+Sg3: lensi
+     lenttäät+V+Ind+Prt+Pl1: lensimä
+     lenttäät+V+Ind+Prt+Pl2: lensittä
+     lenttäät+V+Ind+Prt+Pl3: lennethiin
+     lenttäät+V+PrfPrc+Sg+Nom: lentäny
