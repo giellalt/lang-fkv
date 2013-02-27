@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - piikaroiđa: # Verb 'to bring' - full paradigm
+     piikaroiđa+V+Inf: piikaroiđa
+     piikaroiđa+V+Ind+Prs+Sg1: piikaroitten
+     piikaroiđa+V+Ind+Prs+Sg2: piikaroittet
+     piikaroiđa+V+Ind+Prs+Sg3: piikaroittee
+     piikaroiđa+V+Ind+Prs+Pl1: piikaroittema
+     piikaroiđa+V+Ind+Prs+Pl2: piikaroittetta
+     piikaroiđa+V+Ind+Prs+Pl3: piikaroithaan
+     piikaroiđa+V+Ind+Prt+Sg1: piikaroittin
+     piikaroiđa+V+Ind+Prt+Sg2: piikaroittit
+     piikaroiđa+V+Ind+Prt+Sg3: piikaroitti
+     piikaroiđa+V+Ind+Prt+Pl1: piikaroittima
+     piikaroiđa+V+Ind+Prt+Pl2: piikaroittitta
+     piikaroiđa+V+Ind+Prt+Pl3: piikaroithiin
+     piikaroiđa+V+PrfPrc+Sg+Nom: piikaroinu
