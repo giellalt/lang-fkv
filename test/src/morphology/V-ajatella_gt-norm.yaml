@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - ajatella: # Verb 'to bring' - full paradigm
+     ajatella+V+Inf: ajatella
+     ajatella+V+Ind+Prs+Sg1: ajattelen
+     ajatella+V+Ind+Prs+Sg2: ajattelet
+     ajatella+V+Ind+Prs+Sg3: ajattellee
+     ajatella+V+Ind+Prs+Pl1: ajattelema
+     ajatella+V+Ind+Prs+Pl2: ajatteletta
+     ajatella+V+Ind+Prs+Pl3: ajatelthaan
+     ajatella+V+Ind+Prt+Sg1: ajattelin
+     ajatella+V+Ind+Prt+Sg2: ajattelit
+     ajatella+V+Ind+Prt+Sg3: ajatteli
+     ajatella+V+Ind+Prt+Pl1: ajattelima
+     ajatella+V+Ind+Prt+Pl2: ajattelitta
+     ajatella+V+Ind+Prt+Pl3: ajatelthiin
+     ajatella+V+PrfPrc+Sg+Nom: ajatellu
