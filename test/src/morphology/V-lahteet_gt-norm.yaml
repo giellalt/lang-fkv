@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - lähteet: # Verb 'to bring' - full paradigm
+     lähteet+V+Inf: lähteet
+     lähteet+V+Ind+Prs+Sg1: lähđen
+     lähteet+V+Ind+Prs+Sg2: lähđet
+     lähteet+V+Ind+Prs+Sg3: lähtee
+     lähteet+V+Ind+Prs+Pl1: lähđemä
+     lähteet+V+Ind+Prs+Pl2: lähđettä
+     lähteet+V+Ind+Prs+Pl3: lähđethään
+     lähteet+V+Ind+Prt+Sg1: lähđin
+     lähteet+V+Ind+Prt+Sg2: lähđit
+     lähteet+V+Ind+Prt+Sg3: lähti
+     lähteet+V+Ind+Prt+Pl1: lähđimä
+     lähteet+V+Ind+Prt+Pl2: lähđittä
+     lähteet+V+Ind+Prt+Pl3: lähđethiin
+     lähteet+V+PrfPrc+Sg+Nom: lähteny
