@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kulkkeet: # Verb 'to bring' - full paradigm
+     kulkkeet+V+Inf: kulkkeet
+     kulkkeet+V+Ind+Prs+Sg1: kuljen
+     kulkkeet+V+Ind+Prs+Sg2: kuljet
+     kulkkeet+V+Ind+Prs+Sg3: kulkkee
+     kulkkeet+V+Ind+Prs+Pl1: kuljema
+     kulkkeet+V+Ind+Prs+Pl2: kuljetta
+     kulkkeet+V+Ind+Prs+Pl3: kuljethaan
+     kulkkeet+V+Ind+Prt+Sg1: kuljin
+     kulkkeet+V+Ind+Prt+Sg2: kuljit
+     kulkkeet+V+Ind+Prt+Sg3: kulki
+     kulkkeet+V+Ind+Prt+Pl1: kuljima
+     kulkkeet+V+Ind+Prt+Pl2: kuljitta
+     kulkkeet+V+Ind+Prt+Pl3: kuljethiin
+     kulkkeet+V+PrfPrc+Sg+Nom: kulkenu
