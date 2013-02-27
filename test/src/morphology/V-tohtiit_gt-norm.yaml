@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - tohtiit: # Verb 'to bring' - full paradigm
+     tohtiit+V+Inf: tohtiit
+     tohtiit+V+Ind+Prs+Sg1: tohđin
+     tohtiit+V+Ind+Prs+Sg2: tohđit
+     tohtiit+V+Ind+Prs+Sg3: tohtii
+     tohtiit+V+Ind+Prs+Pl1: tohđima
+     tohtiit+V+Ind+Prs+Pl2: tohđitta
+     tohtiit+V+Ind+Prs+Pl3: tohđithaan
+     tohtiit+V+Ind+Prt+Sg1: tohđin
+     tohtiit+V+Ind+Prt+Sg2: tohđit
+     tohtiit+V+Ind+Prt+Sg3: tohti
+     tohtiit+V+Ind+Prt+Pl1: tohđima
+     tohtiit+V+Ind+Prt+Pl2: tohđitta
+     tohtiit+V+Ind+Prt+Pl3: tohđithiin
+     tohtiit+V+PrfPrc+Sg+Nom: tohtinu
