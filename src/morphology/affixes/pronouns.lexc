@@ -235,21 +235,64 @@ LEXICON p3refpron
 +Ade:elänsä    K ;
 +Abl:ltänsä   K ;
 
-LEXICON toinen_recpron !! h:n esiintyminen on ?
-+Sg+Nom:toinen%  K ;
-+Sg+Gen:toinen% en K ;
-+Sg+Ill:toinen% heen K ;
-+Sg+Par:toinen% ensa K ; 
-+Sg+Ess:toinen% ena    K ;
-+Sg+Tra:toinen% eksi   K ;
-+Sg+Ine:toinen% essa   K ;
-+Sg+Ela:toinen% esta   K ;
-+Sg+All:toinen% ele   K ;
-+Sg+Ade:toinen% ela    K ;
-+Sg+Abl:toinen% lta   K ;
 
-LEXICON toinen_recpron !! toinen nomsg toinen sgkaasukset 
-+Nom: K ;
+LEXICON sgjoku_indef
++Nom:ku K ;
++Gen:nku K ;
++Ill:honki K ;
+jokuinf ;
+
+LEXICON pljoku_indef
++Nom: K ;!jokku
++Gen:ttenki K ;
++Ill:hinki K ;
+jokuinf ;
+
+LEXICON jokuinf
++Par:taki K ; 
++Ess:naki    K ;
++Tra:ksiki   K ;
++Ine:ssaki   K ;
++Ela:staki   K ;
++All:lleki   K ;
++Ade:llaki    K ;
++Abl:lleki   K ; 
+
+LEXICON sgmuut_indef
++Nom:pi K ;
++Gen:an K ;
++Ill:phaan K ;
++Par:ppaa K ; !m. -maa
++Ess:panna    K ; !m. -inna
++Tra:aksi   K ;
++Ine:assa    K ;
++Ela:asta    K ;
++All:alle    K ;
++Ade:alla    K ;
++Abl:alta    K ;
+
+LEXICON plmuut_indef
++Nom:mat K ;
++Gen:itten K ;
++Ill:phiin K ;
++Par:ppiita K ; !m. -mia
++Ess:pinna    K ; !m. -inna
++Tra:iksi  K ;
++Ine:issa  K ;
++Ela:ista  K ;
++All:ille  K ;
++Ade:illa  K ;
++Abl:ilta  K ;  
+  
+!! LEXICON NomStemIndef 
+!! +Tra:ksi K ;         
+!! +Ine:ssa K ;         
+!! +Ela:sta K ;         
+!! +All:lle K ;         
+!! +Ade:lla K ;         
+!! +Abl:lta K ; 
+  
+
 
 LEXICON kielto
 +Nom: K ;
