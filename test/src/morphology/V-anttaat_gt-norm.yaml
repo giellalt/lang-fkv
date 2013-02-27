@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - anttaat: # Verb 'to bring' - full paradigm
+     anttaat+V+Inf: anttaat
+     anttaat+V+Ind+Prs+Sg1: annan
+     anttaat+V+Ind+Prs+Sg2: annat
+     anttaat+V+Ind+Prs+Sg3: anttaa
+     anttaat+V+Ind+Prs+Pl1: annama
+     anttaat+V+Ind+Prs+Pl2: annatta
+     anttaat+V+Ind+Prs+Pl3: annethaan
+     anttaat+V+Ind+Prt+Sg1: annoin
+     anttaat+V+Ind+Prt+Sg2: annoit
+     anttaat+V+Ind+Prt+Sg3: antoi
+     anttaat+V+Ind+Prt+Pl1: annoima
+     anttaat+V+Ind+Prt+Pl2: annoitta
+     anttaat+V+Ind+Prt+Pl3: annethiin
+     anttaat+V+PrfPrc+Sg+Nom: antanu
