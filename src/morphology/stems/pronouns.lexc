@@ -49,14 +49,14 @@ ittesti+Pron+Refl+Sg:itt    s2refpron ;
 ittemä+Pron+Refl+Pl:itt    p1refpron ; !!tästä alas
 ittenä+Pron+Refl+Pl:itt    p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
-toinen% toinen+Pron+Recipr:toinen% tois   toinen_recpron ;
+toinen% toinen+Pron+Recipr:toinen% tois   toinen_recpron ; ! eiei
 
 !! Indefiniittipronominit/Kvanttoripronominit
 
-joku+Pron+Indef+Sg:jo                   indef ;
-jokku+Pron+Indef+Pl:jo                  indef ;
-muutampi+Pron+Indef+Sg:muutam           indef ;
-muutamat+Pron+Indef+Pl:muutam           indef ;
+joku+Pron+Indef+Sg:jo                   sgjoku_indef ;
+jokku+Pron+Indef+Pl:joi                 pljoku_indef ;
+muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
+muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
 jompikumpi+Pron+Indef+Sg:jom            indef ;
 jommatkummat+Pron+Indef+Pl:jom          indef ;
 muutampi+Pron+Indef+Sg:muutam           indef ;
