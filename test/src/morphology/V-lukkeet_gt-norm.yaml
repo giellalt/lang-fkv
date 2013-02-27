@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - lukkeet: # Verb 'to bring' - full paradigm
+     lukkeet+V+Inf: lukkeet
+     lukkeet+V+Ind+Prs+Sg1: lujen
+     lukkeet+V+Ind+Prs+Sg2: lujet
+     lukkeet+V+Ind+Prs+Sg3: lukkee
+     lukkeet+V+Ind+Prs+Pl1: lujema
+     lukkeet+V+Ind+Prs+Pl2: lujetta
+     lukkeet+V+Ind+Prs+Pl3: lujethaan
+     lukkeet+V+Ind+Prt+Sg1: lujin
+     lukkeet+V+Ind+Prt+Sg2: lujit
+     lukkeet+V+Ind+Prt+Sg3: luki
+     lukkeet+V+Ind+Prt+Pl1: lujima
+     lukkeet+V+Ind+Prt+Pl2: lujitta
+     lukkeet+V+Ind+Prt+Pl3: lujethiin
+     lukkeet+V+PrfPrc+Sg+Nom: lukenu
