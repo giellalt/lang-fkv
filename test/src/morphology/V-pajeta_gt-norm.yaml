@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - pajeta: # Verb 'to bring' - full paradigm
+     pajeta+V+Inf: pajeta
+     pajeta+V+Ind+Prs+Sg1: pakenen
+     pajeta+V+Ind+Prs+Sg2: pakenet
+     pajeta+V+Ind+Prs+Sg3: pakenee
+     pajeta+V+Ind+Prs+Pl1: pakenemma
+     pajeta+V+Ind+Prs+Pl2: pakenetta
+     pajeta+V+Ind+Prs+Pl3: pajethaan
+     pajeta+V+Ind+Prt+Sg1: pakenin
+     pajeta+V+Ind+Prt+Sg2: pakenit
+     pajeta+V+Ind+Prt+Sg3: pakeni
+     pajeta+V+Ind+Prt+Pl1: pakenimma
+     pajeta+V+Ind+Prt+Pl2: pakenitta
+     pajeta+V+Ind+Prt+Pl3: pajethiin
+     pajeta+V+PrfPrc+Sg+Nom: pajennu
