@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - juosta: # Verb 'to bring' - full paradigm
+     juosta+V+Inf: juosta
+     juosta+V+Ind+Prs+Sg1: juoksen
+     juosta+V+Ind+Prs+Sg2: juokset
+     juosta+V+Ind+Prs+Sg3: juoksee
+     juosta+V+Ind+Prs+Pl1: juoksema
+     juosta+V+Ind+Prs+Pl2: juoksetta
+     juosta+V+Ind+Prs+Pl3: juosthaan
+     juosta+V+Ind+Prt+Sg1: juoksin
+     juosta+V+Ind+Prt+Sg2: juoksit
+     juosta+V+Ind+Prt+Sg3: juoksi
+     juosta+V+Ind+Prt+Pl1: juoksima
+     juosta+V+Ind+Prt+Pl2: juoksitta
+     juosta+V+Ind+Prt+Pl3: juosthiin
+     juosta+V+PrfPrc+Sg+Nom: juossu
