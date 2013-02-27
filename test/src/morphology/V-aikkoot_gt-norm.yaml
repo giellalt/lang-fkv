@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - aikkoot: # Verb 'to bring' - full paradigm
+     aikkoot+V+Inf: aikkoot
+     aikkoot+V+Ind+Prs+Sg1: aijon
+     aikkoot+V+Ind+Prs+Sg2: aijot
+     aikkoot+V+Ind+Prs+Sg3: aikkoo
+     aikkoot+V+Ind+Prs+Pl1: aijoma
+     aikkoot+V+Ind+Prs+Pl2: aijotta
+     aikkoot+V+Ind+Prs+Pl3: aijothaan
+     aikkoot+V+Ind+Prt+Sg1: aijoin
+     aikkoot+V+Ind+Prt+Sg2: aijoit
+     aikkoot+V+Ind+Prt+Sg3: aikkoi
+     aikkoot+V+Ind+Prt+Pl1: aijoima
+     aikkoot+V+Ind+Prt+Pl2: aijoitta
+     aikkoot+V+Ind+Prt+Pl3: aijothiin
+     aikkoot+V+PrfPrc+Sg+Nom: aikonu
