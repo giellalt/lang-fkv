@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - hävittäät: # Verb 'to bring' - full paradigm
+     hävittäät+V+Inf: hävittäät
+     hävittäät+V+Ind+Prs+Sg1: hävitän
+     hävittäät+V+Ind+Prs+Sg2: hävität
+     hävittäät+V+Ind+Prs+Sg3: hävittää
+     hävittäät+V+Ind+Prs+Pl1: hävitämmä
+     hävittäät+V+Ind+Prs+Pl2: hävitättä
+     hävittäät+V+Ind+Prs+Pl3: hävitethään
+     hävittäät+V+Ind+Prt+Sg1: hävitin
+     hävittäät+V+Ind+Prt+Sg2: hävitit
+     hävittäät+V+Ind+Prt+Sg3: hävitti
+     hävittäät+V+Ind+Prt+Pl1: hävitimmä
+     hävittäät+V+Ind+Prt+Pl2: hävitittä
+     hävittäät+V+Ind+Prt+Pl3: hävitethiin
+     hävittäät+V+PrfPrc+Sg+Nom: hävittänny
