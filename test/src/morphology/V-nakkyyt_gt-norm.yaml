@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - näkkeet: # Verb 'to bring' - full paradigm
+     näkkeet+V+Inf: näkkeet
+     näkkeet+V+Ind+Prs+Sg1: nävyn
+     näkkeet+V+Ind+Prs+Sg2: nävyt
+     näkkeet+V+Ind+Prs+Sg3: näkkyy
+     näkkeet+V+Ind+Prs+Pl1: nävymä
+     näkkeet+V+Ind+Prs+Pl2: nävyttä
+     näkkeet+V+Ind+Prs+Pl3: nävythään
+     näkkeet+V+Ind+Prt+Sg1: nävyin
+     näkkeet+V+Ind+Prt+Sg2: nävyit
+     näkkeet+V+Ind+Prt+Sg3: näkkyi
+     näkkeet+V+Ind+Prt+Pl1: nävyimä
+     näkkeet+V+Ind+Prt+Pl2: nävyittä
+     näkkeet+V+Ind+Prt+Pl3: nävythiin
+     näkkeet+V+PrfPrc+Sg+Nom: näkyny
