@@ -244,7 +244,7 @@ LEXICON p3refpron
 !! +Ess:toinen% toisena     K ;
 !! +Tra:toinen% toiseksi     K ;
 !! +Ine:toinen% toisessa     K ;
-!! +Ela:toinen% toista     K ; !m. toisiansa, toissiinsa
+!! +Ela:toinen% toista     K ; !m. toisiansa, -insa
 !! +All:toinen% toisele     K ; !m. toisilensa
 !! +Ade:toinen% toisela     K ;
 !! +Abl:toinen% toiselta     K ;
@@ -296,11 +296,11 @@ LEXICON plmuut_indef
 +Ela:ista  K ;
 +All:ille  K ;
 +Ade:illa  K ;
-+Abl:ilta  K ;  
++Abl:ilta  K ;
 
 LEXICON yh_indef
 +Nom:       K ;
-+Gen:đen     K ; đ
++Gen:đen     K ; !đ
 +Ill:theen   K ;
 +Par:stä    K ;
 +Ess:tenä    K ;
@@ -381,16 +381,6 @@ LEXICON molem_indef
 +All:ale    K ;
 +Ade:ila    K ;
 +Abl:alta    K ;
-  
-!! LEXICON NomStemIndef 
-!! +Tra:ksi K ;         
-!! +Ine:ssa K ;         
-!! +Ela:sta K ;         
-!! +All:lle K ;         
-!! +Ade:lla K ;         
-!! +Abl:lta K ; 
-  
-
 
 LEXICON kielto
 +Nom: K ;
