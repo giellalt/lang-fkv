@@ -297,6 +297,90 @@ LEXICON plmuut_indef
 +All:ille  K ;
 +Ade:illa  K ;
 +Abl:ilta  K ;  
+
+LEXICON yh_indef
++Nom:       K ;
++Gen:đen     K ; đ
++Ill:theen   K ;
++Par:stä    K ;
++Ess:tenä    K ;
++Tra:đeksi   K ;
++Ine:đessä   K ;
++Ela:đestä   K ;
++All:đele    K ;
++Ade:đelä    K ;
++Abl:đeltä   K ;
+
+LEXICON kaik_indef
++Nom:       K ;
++Gen:en     K ;
++Ill:keen   K ;
++Par:esta    K ;
++Ess:kena    K ;
++Tra:iksi   K ;
++Ine:kessa   K ;
++Ela:kesta   K ;
++All:kele    K ;
++Ade:kela    K ;
++Abl:kelta   K ;
+
+LEXICON koko_indef
++Nom:       K ;
+
+LEXICON joka_indef
++Nom:       K ;
+
+LEXICON jokhai_indef !m. jokainen
++Nom:       K ;
++Gen:nen    K ;
++Ill:heen  K ;
++Par:esta   K ;
++Ess:ena    K ;
++Tra:eksi   K ;
++Ine:essa   K ;
++Ela:esta   K ;
++All:ele    K ;
++Ade:ela    K ;
++Abl:elta   K ;
+
+LEXICON sgkum_indef
++Nom:piki K ;
++Gen:manki K ;
++Ill:phaanki K ;
++Par:ppaaki K ; !m.kumpaaki
++Ess:panaki    K ;
++Tra:maksiki   K ;
++Ine:massaki    K ;
++Ela:mastaki    K ;
++All:malleki    K ;
++Ade:mallaki    K ;
++Abl:maltaki    K ;
+
+LEXICON plkum_indef
++Nom:matki K ;
++Gen:ppinki K ; !m.kummittenki
++Ill:phiinki K ;
++Par:ppiiki K ; !m.kumpiaki
++Ess:pinaki    K ;
++Tra:miksiki   K ;
++Ine:missaki    K ;
++Ela:mistaki    K ;
++All:mileki   K ;
++Ade:milaki   K ;
++Abl:miltaki   K ;
+
+LEXICON molem_indef
++Nom:at K ;
++Gen:man K ;
++Ill:phaan K ;
++Par:ppaa K ;
++Ess:panna    K ; 
++Tra:aksi   K ;
++Ine:assa    K ;
++Ela:asta    K ;
++All:ale    K ;
++Ade:ila    K ;
++Abl:alta    K ;
   
 !! LEXICON NomStemIndef 
 !! +Tra:ksi K ;         
