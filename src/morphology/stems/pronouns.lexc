@@ -46,7 +46,7 @@ mikkä+Pron+Rel+Pl:mi   mi_relkyspl ;
 
 itteni+Pron+Refl+Sg:itt    s1refpron ;
 ittesti+Pron+Refl+Sg:itt    s2refpron ;
-ittemä+Pron+Refl+Pl:itt    p1refpron ; !!tästä alas
+ittemä+Pron+Refl+Pl:itt    p1refpron ; 
 ittenä+Pron+Refl+Pl:itt    p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
 !! toinen% toinen+Pron+Recipr:toinen% tois   toinen_recpron ; ! +pos?
@@ -59,18 +59,17 @@ muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
 muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
 jompikumpi+Pron+Indef+Sg:jom            indef ;
 jommatkummat+Pron+Indef+Pl:jom          indef ;
-muutampi+Pron+Indef+Sg:muutam           indef ;
-muutamat+Pron+Indef+Pl:muutam           indef ;
-kaikki+Pron+Indef:kaik                  indef ;
-koko+Pron+Indef:koko                    indef ;
-joka+Pron+Indef:joka                    indef ;
-jokhainen+Pron+Indef:jokhai             indef ;
+yksi+Pron+Indef:yh                      yh_indef ; !kuten -e
+kaikki+Pron+Indef:kaik                  kaik_indef ; !kuten -e
+koko+Pron+Indef:koko                    koko_indef ; !ei taivu
+joka+Pron+Indef:joka                    joka_indef ; !ei taivu
+jokhainen+Pron+Indef:jokhai             jokhai_indef ;!kuten -nen
 joka% ainua+Pron+Indef:joka% ainu%      indef ; ! yhdyspronomini
 itte% kukin+Pron+Indef:itte% ku%        indef ; ! yhdyspronomini
 itte% kukanen+Pron+Indef:itte% kuka%    indef ; ! yhdyspronomini
-kumpiki+Pron+Indef+Sg:kum               indef ;
-kummatki+Pron+Indef+Pl:kum              indef ;
-molemat+Pron+Indef:molem                indef ;
+kumpiki+Pron+Indef+Sg:kum               sgkum_indef ;
+kummatki+Pron+Indef+Pl:kum              plkum_indef ;
+molemat+Pron+Indef:molem                molem_indef ; !vain pl!taivutus
 
 
 
