@@ -31,16 +31,16 @@ net+Pron+Dem+Pl:nii   namaobl ; ! e>i
 !! Kysymäpronominit
 
 kuka+Pron+Interr:ke   relkys  ;  !!= * @CODE@ 
-mikä+Pron+Interr:mi   mi_relkys  ;  !!= * @CODE@
+mikä+Pron+Interr:mi   mi_kys  ;  !!= * @CODE@
 kukka+Pron+Interr+Pl:ke  relkyspl  ;  !!= * @CODE@ 
-mikkä+Pron+Interr+Pl:mi  mi_relkyspl  ;  !!= * @CODE@
+mikkä+Pron+Interr+Pl:mi  mi_kyspl  ;  !!= * @CODE@
 
 !! Relatiivipronominit
 
 joka+Pron+Rel:jo    relkys ;
-mikä+Pron+Rel:mi    relkys ;
+mikä+Pron+Rel:mi    mi_rel ;
 jokka+Pron+Rel+Pl:joi   joi_relkyspl ;
-mikkä+Pron+Rel+Pl:mi   mi_relkyspl ;
+mikkä+Pron+Rel+Pl:mi   mi_relpl ;
 
 !! Refleksiivi- ja resiprookipronomini
 
@@ -77,6 +77,5 @@ molemat+Pron+Indef:molem                molem_indef ; !vain pl!taivutus
 
 kukhaan+Pron+Indef:ke      kielto  ; !! yksikkö
 mikhään+Pron+Indef:mi      mi_kielto  ; !! yksikkö
-yksikhään+Pron+Intef:yht   yks_kielto ; !! yksikhään, yhtheenkään, yhtäkhään
-kumpikhaan+Pron+Indef:kump  kump_kielto; !!kumpikhaan, kumphaankaan, 
-                                             !!taipuu kuten kumpi, yksi
+yksikhään+Pron+Intef:yht   yks_kielto ;!!yksikhään, yhtheenkään,yhtäkhään
+kumpikhaan+Pron+Indef:kump  kump_kielto; !!kumpikhaan, kumphaankaan
