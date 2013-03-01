@@ -22,7 +22,7 @@ LEXICON han_pron
 +Nom: K ;
 +Gen:en K ;
 +Ill:heen K ;
-+Par:ntä K ;
++Par:tä K ;
 +Ess:enä    K ;
 +Tra:eksi   K ;
 +Ine:essä   K ;
@@ -77,7 +77,7 @@ LEXICON tama
 +Ill:hään K ;
 +Ess:nä    K ;
 +Ela:stä   K ;
-+Abl:ltä   K ;
++Ine:ssä    K ;
 pronobl_2 ;
 
 LEXICON tuo
@@ -93,33 +93,32 @@ LEXICON se_pron
 +Gen:n K ;
 +Ill:iheen K ;
 +Ela:itä   K ;
-+Abl:ltä   K ;
++Ine:%^Ain%^A K ;
 pronobl_2 ;
 
-LEXICON namaobl !!tuotä, nuoitä
+LEXICON namaobl !!nuoitä
 +Nom: K ;
-+Gen:tten K ;
-+Ill:hiin K ;
-+Par:t%^A K ;
-+Ela:it%^A   K ;
-+Abl:lt%^A   K ;
++Gen:%>tten K ;
++Ill:%>hiin K ;
++Ela:%>it%^A   K ;
++Abl:%>lt%^A   K ;
 pronobl ;
 
 LEXICON pronobl
 +Par:t%^A K ;
-+Tra:ksi   K ;
-+Ess:n%^A    K ;
++Tra:%>ksi   K ;
++Ess:%>n%^A    K ;
 +Ine:%>ss%^A K ;
 +All:%>le K ;
-+Ade:l%^A    K ;
++Ade:%>l%^A    K ;
 
 LEXICON pronobl_2
 +Par:t%^A K ;
 +Tra:ksi   K ;
 +Ess:n%^A   K ; 
-+Ine:%>ss%^A K ;
 +All:%>lle K ;
 +Ade:ll%^A    K ;
++Abl:lt%^A     K ;
 
 
 LEXICON relkys
@@ -136,9 +135,18 @@ LEXICON relkys
 +Ade:nelä    K ;
 +Abl:neltä   K ;
 
-LEXICON mi_relkys
+LEXICON mi_kys
 !!+All:le K ;
 +Nom:k^A K ;
+miobl ;
+
+LEXICON mi_rel
+!!+All:le K ;
++Nom:k^A K ;
+miobl ;
+
+LEXICON miobl
+!!+All:le K ;
 +Gen:nkä K ;
 +Ill:hiin K ;
 +Par:tä K ;
@@ -167,8 +175,13 @@ LEXICON joi_relkyspl
 +Ade:la    K ;
 +Abl:lta   K ;
 
-LEXICON mi_relkyspl
-+Nom:k K ;  !!mikkä
+LEXICON mi_relpl
++Nom:kkä K ;
+miobl ;
+
+LEXICON mi_kyspl
++Nom:kkä K ;
+miobl ;
 
 LEXICON s1refpron
 +Nom: K ;
@@ -181,7 +194,7 @@ LEXICON s1refpron
 +Ela:estäni   K ;
 +All:eleni   K ;
 +Ade:eläni    K ;
-+Abl:leni   K ;
++Abl:eltäni   K ;
 
 LEXICON s2refpron
 +Nom: K ;
@@ -194,7 +207,7 @@ LEXICON s2refpron
 +Ela:estästi   K ;
 +All:elesti   K ;
 +Ade:elästi    K ;
-+Abl:ltästi   K ;
++Abl:eltästi   K ;
 
 LEXICON p1refpron
 +Nom: K ;
@@ -207,7 +220,7 @@ LEXICON p1refpron
 +Ela:estämmä   K ;
 +All:elemmä   K ;
 +Ade:elämmä    K ;
-+Abl:ltämmä   K ;
++Abl:eltämmä   K ;
 
 LEXICON p2refpron 
 +Nom: K ;
@@ -220,7 +233,7 @@ LEXICON p2refpron
 +Ela:estännä   K ;
 +All:elennä   K ;
 +Ade:elännä    K ;
-+Abl:ltännä   K ;
++Abl:etännä   K ;
 
 LEXICON p3refpron 
 +Nom: K ;
