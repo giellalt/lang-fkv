@@ -93,7 +93,7 @@ LEXICON se_pron
 +Gen:n K ;
 +Ill:iheen K ;
 +Ela:itä   K ;
-+Ine:%^Ain%^A K ;
++Ine:inä K ;
 pronobl_2 ;
 
 LEXICON namaobl !!nuoitä
@@ -311,6 +311,11 @@ LEXICON plmuut_indef
 +Ade:illa  K ;
 +Abl:ilta  K ;
 
+!!LEXICON sgjom_indef
+
+!!LEXICON pljom_indef
+
+
 LEXICON yh_indef
 +Nom:       K ;
 +Gen:đen     K ; !đ
@@ -355,6 +360,10 @@ LEXICON jokhai_indef !m. jokainen
 +All:ele    K ;
 +Ade:ela    K ;
 +Abl:elta   K ;
+
+!! LEXICON joka_ainu_indef
+!! LEXICON itte_ku_indef
+!! LEXICON itte_kuka_indef
 
 LEXICON sgkum_indef
 +Nom:piki K ;
@@ -421,4 +430,12 @@ LEXICON mi_kielto
 +Ade:lhään    K ; !!m. kethään
 +Abl:thään   K ; !!m. kelthään
 
+LEXICON yht_kielto
++Nom:   K   ;
++Ill:heenkään   K   ;
++Par:äkhään   K ;
+
+LEXICON kump_kielto
++Nom:   K   ;
++Ill:haankaan   K ;
 
