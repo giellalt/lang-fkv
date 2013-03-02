@@ -42,14 +42,14 @@ mikä+Pron+Rel:mi    mi_rel ;
 jokka+Pron+Rel+Pl:joi   joi_relkyspl ;
 mikkä+Pron+Rel+Pl:mi   mi_relpl ;
 
-!! Refleksiivi- ja resiprookipronomini
+!! Refleksiivi- ja resiprookipronominit
 
 itteni+Pron+Refl+Sg:itt    s1refpron ;
 ittesti+Pron+Refl+Sg:itt    s2refpron ;
 ittemä+Pron+Refl+Pl:itt    p1refpron ; 
 ittenä+Pron+Refl+Pl:itt    p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
-!! toinen% toinen+Pron+Recipr:toinen% tois   toinen_recpron ; ! +pos?
+!! toinen% toinen+Pron+Recipr:toinen% tois toinen_recpron ; ! +pos?
 
 !! Indefiniittipronominit/Kvanttoripronominit
 
@@ -57,25 +57,24 @@ joku+Pron+Indef+Sg:jo                   sgjoku_indef ;
 jokku+Pron+Indef+Pl:joi                 pljoku_indef ;
 muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
 muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
-jompikumpi+Pron+Indef+Sg:jom            indef ;
-jommatkummat+Pron+Indef+Pl:jom          indef ;
-yksi+Pron+Indef:yh                      yh_indef ; !kuten -e
-kaikki+Pron+Indef:kaik                  kaik_indef ; !kuten -e
-koko+Pron+Indef:koko                    koko_indef ; !ei taivu
-joka+Pron+Indef:joka                    joka_indef ; !ei taivu
-jokhainen+Pron+Indef:jokhai             jokhai_indef ;!kuten -nen
-joka% ainua+Pron+Indef:joka% ainu%      indef ; ! yhdyspronomini
-itte% kukin+Pron+Indef:itte% ku%        indef ; ! yhdyspronomini
-itte% kukanen+Pron+Indef:itte% kuka%    indef ; ! yhdyspronomini
+jompikumpi+Pron+Indef+Sg:jom            sgjom_indef ;
+jommatkummat+Pron+Indef+Pl:jom          pljom_indef ;
+yksi+Pron+Indef:yh                      yh_indef ;
+kaikki+Pron+Indef:kaik                  kaik_indef ;
+koko+Pron+Indef:koko                    koko_indef ;
+joka+Pron+Indef:joka                    joka_indef ;
+jokhainen+Pron+Indef:jokhai             jokhai_indef ;
+joka% ainua+Pron+Indef:joka% ainu%      joka_ainu_indef ; 
+itte% kukin+Pron+Indef:itte% ku%        itte_ku_indef ; 
+itte% kukanen+Pron+Indef:itte% kuka%    itte_kuka_indef ;
 kumpiki+Pron+Indef+Sg:kum               sgkum_indef ;
 kummatki+Pron+Indef+Pl:kum              plkum_indef ;
-molemat+Pron+Indef:molem                molem_indef ; !vain pl!taivutus
-
+molemat+Pron+Indef:molem                molem_indef ;
 
 
 !!Kieltopronominit?
 
 kukhaan+Pron+Indef:ke      kielto  ; !! yksikkö
 mikhään+Pron+Indef:mi      mi_kielto  ; !! yksikkö
-yksikhään+Pron+Intef:yht   yks_kielto ;!!yksikhään, yhtheenkään,yhtäkhään
+yksikhään+Pron+Intef:yht   yht_kielto ;!!yksikhään, yhtheenkään,yhtäkhään
 kumpikhaan+Pron+Indef:kump  kump_kielto; !!kumpikhaan, kumphaankaan
