@@ -2,14 +2,16 @@
 !! !!Alphabet
 
 Alphabet
-a b c d đ e f g h i j k l m n o p q r s t u ü v w x y z å ä ö æ ø     !!= * @CODE@
-A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø         !!= * @CODE@
-%+:0                                                                  !!= * @CODE@
-%^A:ä %^O:ö %^U:y %^V %^N:n                                           !!= * @CODE@
-%>:0                                                                  !!= * @CODE@
-i2:i t2:t                                                             !!= * @CODE@
-%^HMETA:0 %^WG:0 %^E2I:0                                              !!= * @CODE@
-%^VDEL:0 
+a b c d đ e f g h i j k l m n o p q         !!= * @CODE@
+r s t u ü v w x y z å ä ö æ ø               !!= * @CODE@
+A B C D Đ E F G H I J K L M N O P           !!= * @CODE@
+R S T U V W X Y Z Å Ä Ö Æ Ø                 !!= * @CODE@
+%+:0                                        !!= * @CODE@
+%^A:ä %^O:ö %^U:y %^V %^N:n                 !!= * @CODE@
+%>:0                                        !!= * @CODE@
+i2:i i3:i t2:t                              !!= * @CODE@
+%^HMETA:0 %^WG:0 %^E2I:0                    !!= * @CODE@
+%^VDEL:0 %^AE:0                             !!= * @CODE@
 ;
 
 !! !!Sets
@@ -23,7 +25,7 @@ Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ;                 !!= * @CODE@
 Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;       !!= * @CODE@ 
 NeutralVowel = e i ;                                                !!= * @CODE@ 
 Segment = Vowel Conson ;                                            !!= * @CODE@ 
-Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL ;                           !!= * @CODE@ 
+Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^AE ;                      !!= * @CODE@ 
 NonFront = BackVowel ArchiVowel ArchiConson SomeVowel  Conson NeutralVowel Dummy ;              !!= * @CODE@ 
 
 
@@ -142,7 +144,7 @@ Rules
 
 
 "II-I omppu" 
-Cy:0 <=> Cx _ Cy Vowel: (Dummy:) %^WG:0 ; 
+Cy:0 <=> Cx _ Cy Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
         where Cx in ( l l l m n n r r r)
               Cy in ( k p t p k t k p t)
     matched ;
@@ -156,13 +158,13 @@ Cy:0 <=> Cx _ Cy Vowel: (Dummy:) %^WG:0 ;
 
 
 !! !!Consonant gradation
-! =======================
+!    ===================
 
 
 
 "II-I for ppttkk - ptk" 
 !Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
-Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
+Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;  
             where Cx in ( k p t ) ;
 
 !€ katto^WG>n
@@ -174,7 +176,7 @@ Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;
 
 
 "I-0 for k:j" 
-k:j <=> i _ Vowel: (Dummy:) %^WG:0 ;  
+k:j <=> i _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
 
 !€ poika^WG>n
 !€ poija00n
@@ -182,7 +184,7 @@ k:j <=> i _ Vowel: (Dummy:) %^WG:0 ;
 
 
 "I-0 for t after h"
-    t:đ <=> h _ Vowel: (Dummy:) %^WG:0 ; 
+    t:đ <=> h _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
 
 
  ! ht: hđ/ h
@@ -191,7 +193,7 @@ k:j <=> i _ Vowel: (Dummy:) %^WG:0 ;
 !€ lahđi0
 
 "Gradation of k:0" 
-k:0 <=> [ [ Vowel - [ i | u | y ]] | l | r ] _ ( %+ ) Vowel: (Dummy:) %^WG:0 ;  
+k:0 <=> [ [ Vowel - [ i | u | y ]] | l | r ] _ ( %+ ) Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
 
 ! haka>^WGn
 ! ha0a00n
@@ -200,22 +202,29 @@ k:0 <=> [ [ Vowel - [ i | u | y ]] | l | r ] _ ( %+ ) Vowel: (Dummy:) %^WG:0 ;
 
 ! pölkä>^WGt^A : pölätä 
 "Gradation of k between u/y" 
-k:v <=> Conson u _ u (Dummy:) %^WG:0 ;
-        Conson y _ y (Dummy:) %^WG:0 ;
+k:v <=> Conson u _ u (Dummy:) (:i) (Dummy:) %^WG:0 ;
+        Conson y _ y (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 !! ** this will not give uku - uvun, but puku - puvun.
 
 
 "Gradation of t" 
-t:đ <=> [ Vowel | l | r ] _  Vowel: (Dummy:) %^WG:0 ;  
+!t:đ <=> [ Vowel | l | r ] _  Vowel: (Dummy:) %^WG:0 ;  
+t:đ <=> Vowel  _  Vowel: (Dummy:) %^WG:0 ;  
 
 "Gradation of Nt" 
-t:Nx <=> Nx  _  Vowel: (Dummy:) %^WG:0 ;  
+t:Nx <=> Nx  _  Vowel: (Dummy:) (i) (Dummy:) %^WG:0 ;  
     where Nx in ( l n r ) ; 
 
-! =============
+"ti : si" 
+t:s <=> Vowel n _  Vowel: (Dummy:) i3: ;  
+
+! 
+
+
+! ===============
 !! !!!Vowel rules
-! =============
+! ===============
 
 !! !!Vowel harmony 
 
@@ -247,7 +256,7 @@ t:Nx <=> Nx  _  Vowel: (Dummy:) %^WG:0 ;
 
 
 !! !!Stem alternation rules
-!  ======================
+!  ========================
 
 "Stem shortening for consonant initial suffixes" !!= * @CODE@
  Vx:0 <=> Vx _ %^VDEL:0  (Dummy:) %>:0 [s|t] ;
@@ -275,15 +284,25 @@ t:Nx <=> Nx  _  Vowel: (Dummy:) %^WG:0 ;
 
 !! The -i- rules require different i-s for different POS.
 "a:0 before i when rounded root vowel"
- a:0 <=> [u|o] (i) Cns*: _ (Dummy:) %>: (Dummy:) i ;
+ a:0 <=> [u|o] (i) Conson: (Conson:) (Conson:) _ %>:0 i ;
  
 ! otan - otin  
+
+
+"ä:0 before i when rounded root vowel"
+ ä:0 <=> Conson: _ %>:0 i ;
+ 
 
 "Shortening of long vowel in front of i" !!= * @CODE@  
  Vx:0 <=> _ Vy %>: (Dummy:) [ i | i2: ] ; 
      where Vx in ( a ä u y u y i ) 
            Vy in ( a ä u y o ö e )
            matched ;
+
+
+"a:e in participles"
+ Vx:e <=> _ %^AE:0 ;
+ 	where Vx in ( a ä ) ;
 
 
 !€ saa>i
