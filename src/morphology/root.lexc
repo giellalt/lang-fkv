@@ -25,7 +25,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  
 !!  !!Phonological symbols 
  p1 t1 k1				 !!≈ ; @CODE@ : For cons grad -- in use at all?
- i2 i3 14 i5			 !!≈ ; @CODE@ : For vowel change -- check
+ i2 i3 14 i5			 !!≈ ; @CODE@ : For vowel change -- i2 = noun pl, i3 = past tense
  t2 ! 					 !!≈ ; @CODE@ : katt2oma always tt, underlying -ts-
  %^A %^O %^U			 !!≈ ; @CODE@ : Vowel harmony a/ä, o/ö, u/y
  %^V 					 !!≈ ; @CODE@ : Vowel copying
@@ -37,7 +37,8 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Use/Sub				 !!≈ ; @CODE@ : Substandard forms
  %^TES					 !!≈ ; @CODE@ :  in use?
  %^VDEL                  !!≈ ; @CODE@ : Deleting long vowel in rakkaa- > rakas
- %^¤					      !!≈ ;  @CODE@ : potecting against e:i word-finally (nalle, liike)
+ %^AE                    !!≈ ; @CODE@ : for a to e change
+ %^¤					     !!≈ ; @CODE@ : potecting against e:i word-finally (nalle, liike)
 
 
 ! For Finnish, not in use. Keep in mind:
