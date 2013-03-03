@@ -1,13 +1,16 @@
 !!!Phonological rules for Kven
 !!Alphabet
 
- * a b c d đ e f g h i j k l m n o p q r s t u ü v w x y z å ä ö æ ø     
- * A B C D Đ E F G H I J K L M N O P R S T U V W X Y Z Å Ä Ö Æ Ø         
- * %+:0                                                                  
- * %^A:ä %^O:ö %^U:y %^V %^N:n                                           
- * %>:0                                                                  
- * i2:i t2:t                                                             
- * %^HMETA:0 %^WG:0 %^E2I:0                                              
+ * a b c d đ e f g h i j k l m n o p q         
+ * r s t u ü v w x y z å ä ö æ ø               
+ * A B C D Đ E F G H I J K L M N O P           
+ * R S T U V W X Y Z Å Ä Ö Æ Ø                 
+ * %+:0                                        
+ * %^A:ä %^O:ö %^U:y %^V %^N:n                 
+ * %>:0                                        
+ * i2:i i3:i t2:t                              
+ * %^HMETA:0 %^WG:0 %^E2I:0                    
+ * %^VDEL:0 %^AE:0                             
 
 !!Sets
  * Sets                                                                 
@@ -20,7 +23,7 @@
  * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;        
  * NeutralVowel = e i ;                                                 
  * Segment = Vowel Conson ;                                             
- * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL ;                            
+ * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^AE ;                       
  * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel  Conson NeutralVowel Dummy ;               
 
 
@@ -118,6 +121,9 @@
 
 
 
+
+
+
 !!!Vowel rules
 
 !!Vowel harmony 
@@ -153,7 +159,12 @@ maahan
 The -i- rules require different i-s for different POS.
 
 
+
+
+
  * "Shortening of long vowel in front of i"   
+
+
 
 
 
