@@ -16,7 +16,7 @@ LEXICON n11	!!= @CODE@  "poika", lyhyt vokali, yks vartalo
 +N: weak-v-stem ;
 
 LEXICON n12	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
-+N: # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
++N+Sg+Nom: # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N:e weak-v-stem ;
 
 
@@ -31,7 +31,7 @@ LEXICON n21	!!= @CODE@ kaksitavvuiset yksirankaset
 
 
 LEXICON n22 
-# ; ! Dummy
++N+Sg+Nom: # ; ! Dummy
 
 LEXICON n22s !!= @CODE@ rakas
 +N: sConsCase ; ! nom, par
@@ -95,10 +95,10 @@ LEXICON n33t
 33;
 
 LEXICON n41
-#;
+33; ! toistaiseksi
 
 LEXICON n42
-#;
+nen ; ! onko n42 = nen?
 
 
 !! !!! Basic paradigms
