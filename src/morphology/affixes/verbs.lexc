@@ -41,12 +41,12 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +Act+Ind+Prt+Pl2:olitta K ;
 +Act+Ind+Prt+Pl3:olit K ;
 
-+V+Cond+Sg1:sin      K_V   ; ! olisin
-+V+Cond+Sg2:sit      K_V   ; ! olisit	
-+V+Cond+Sg3:s      K_V   ;	! olisi
-+V+Cond+Pl1:simmAÄ1    K_V   ; ! olisima
-+V+Cond+Pl2:sittAÄ1    K_V   ; ! olisitta
-+V+Cond+Pl3:sivAÄ1t     K_V   ; ! olisivat
++V+Cond+Sg1:olisin      K   ; ! olisin
++V+Cond+Sg2:olisit      K   ; ! olisit	
++V+Cond+Sg3:olis      K   ;	! olisi
++V+Cond+Pl1:olisima    K   ; ! olisima
++V+Cond+Pl2:olisitta    K   ; ! olisitta
++V+Cond+Pl3:olisivat     K   ; ! olisivat
 
 !! !!!Verbiluokat v1...
 
@@ -71,12 +71,12 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+PrfPrc:hn%>hee PRFPRC_OBL ;
 +V+Ind+Prs+ConNeg: K ;
 
-+V+Cond+Sg1:sin      K_V   ; ! saisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:s      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:%>isin      K   ; ! saisin
++V+Cond+Sg2:%>isit      K   ;
++V+Cond+Sg3:%>is      K   ;
++V+Cond+Pl1:%>isimm%^A    K   ;
++V+Cond+Pl2:%>isitt%^A    K   ;
++V+Cond+Pl3:%>isiv%^At     K   ;
 
 LEXICON v1nahda !!= @CODE@ nähđä:nä 
 +V+Inf:h%>đ%^A K ; ! đ
@@ -93,12 +93,12 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+PrfPrc:hn%>ee PRFPRC_OBL ;
 +V+Ind+Prs+ConNeg: K ;
 
-+V+Cond+Sg1:sin      K_V   ; ! näkisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:si      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:%>isin      K   ; ! näkisin
++V+Cond+Sg2:%>isit      K   ;
++V+Cond+Sg3:%>isi      K   ;
++V+Cond+Pl1:%>isimm%^A    K   ;
++V+Cond+Pl2:%>isitt%^A    K   ;
++V+Cond+Pl3:%>isiv%^At     K   ;
 
 LEXICON v1tehda !!= @CODE@ tehđä:te 
 +V+Inf:h%>đ%^A K ; ! đ
@@ -113,12 +113,12 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 +V+Ind+Prs+ConNeg: K ;
 
-+V+Cond+Sg1:sin      K_V   ; ! tekisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:si      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:%>isin      K   ; ! tekisin
++V+Cond+Sg2:%>isit      K   ;
++V+Cond+Sg3:%>isi      K   ;
++V+Cond+Pl1:%>isimm%^A    K   ;
++V+Cond+Pl2:%>isitt%^A    K   ;
++V+Cond+Pl3:%>isiv%^At     K   ;
 
 LEXICON v2 !!= @CODE@ anttaat:anta 
 +V+Inf:%>%^Vt K ; 
@@ -131,12 +131,12 @@ LEXICON v2 !!= @CODE@ anttaat:anta
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:sin      K_V   ; ! antaisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:si      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:sin      K   ; ! antaisin
++V+Cond+Sg2:sit      K   ;
++V+Cond+Sg3:si      K   ;
++V+Cond+Pl1:simm%^A    K   ;
++V+Cond+Pl2:sitt%^A    K   ;
++V+Cond+Pl3:siv%^At     K   ;
 
 LEXICON v2_odd !!= @CODE@ kirjoittaat
 +V+Inf:%>%^Vt K ; 
@@ -150,12 +150,12 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat
 +V+PrfPrc+Sg+Nom:%>nn%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:sin      K_V   ; ! kirjoittaisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:si      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:sin      K   ; ! kirjoittaisin
++V+Cond+Sg2:sit      K   ;
++V+Cond+Sg3:si      K   ;
++V+Cond+Pl1:simm%^A    K   ;
++V+Cond+Pl2:sitt%^A    K   ;
++V+Cond+Pl3:siv%^At     K   ;
 
 LEXICON v3_ele !!= @CODE@ kävelä:kävel 
 +V+Inf:%>%^A K ; 
@@ -172,12 +172,12 @@ LEXICON v3_ele !!= @CODE@ kävelä:kävel
 !! * aukaista > aukaisemma
 !! * täristä > tärisemä
 
-+V+Cond+Sg1:sin      K_V   ; ! kävelisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:si      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:sin      K   ; ! kävelisin
++V+Cond+Sg2:sit      K   ;
++V+Cond+Sg3:si      K   ;
++V+Cond+Pl1:simm%^A    K   ;
++V+Cond+Pl2:sitt%^A    K   ;
++V+Cond+Pl3:siv%^At     K   ;
 
 LEXICON v3_ise !!= @CODE@ aukaista:aukaise 
 +V+Inf:%>t%^A K ; 
@@ -190,12 +190,12 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:sin      K_V   ; ! aukaisisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:si      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:sin      K   ; ! aukaisisin
++V+Cond+Sg2:sit      K   ;
++V+Cond+Sg3:si      K   ;
++V+Cond+Pl1:simm%^A    K   ;
++V+Cond+Pl2:sitt%^A    K   ;
++V+Cond+Pl3:siv%^At     K   ;
 
 LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Inf:%>%^N%^A K ; !! * pitää tehdä %^D
@@ -219,12 +219,12 @@ LEXICON v3juosta !!= @CODE@ juosta:juo
 +V+PrfPrc+Sg+Nom:s%>%^N%^U K ;
 +V+PrfPrc:s%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:sin      K_V   ; ! juoksisin
-+V+Cond+Sg2:sit      K_V   ;
-++V+Cond+Sg3:si      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:sin      K   ; ! juoksisin
++V+Cond+Sg2:sit      K   ;
+++V+Cond+Sg3:si      K   ;
++V+Cond+Pl1:simm%^A    K   ;
++V+Cond+Pl2:sitt%^A    K   ;
++V+Cond+Pl3:siv%^At     K   ;
 
 LEXICON v4 !!= @CODE@ vanheta:vanhe 
 +V+Inf:%>t%^A K ; 
@@ -237,12 +237,12 @@ LEXICON v4 !!= @CODE@ vanheta:vanhe
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:sin      K_V   ; ! vanhenisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:s      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:sin      K   ; ! vanhenisin
++V+Cond+Sg2:sit      K   ;
++V+Cond+Sg3:s      K   ;
++V+Cond+Pl1:simm%^A    K   ;
++V+Cond+Pl2:sitt%^A    K   ;
++V+Cond+Pl3:siv%^At     K   ;
 
 LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Inf:%>t%^A K ; 
@@ -257,12 +257,12 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 !! +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:sin      K_V   ; ! kyytittisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:si      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:sin      K   ; ! kyytittisin
++V+Cond+Sg2:sit      K   ;
++V+Cond+Sg3:si      K   ;
++V+Cond+Pl1:simm%^A    K   ;
++V+Cond+Pl2:sitt%^A    K   ;
++V+Cond+Pl3:siv%^At     K   ;
 
 LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+Inf:%>đ%^A K ; 
@@ -276,12 +276,12 @@ LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 !! +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:sin      K_V   ; ! haravoisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:si      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:sin      K   ; ! haravoisin
++V+Cond+Sg2:sit      K   ;
++V+Cond+Sg3:si      K   ;
++V+Cond+Pl1:simm%^A    K   ;
++V+Cond+Pl2:sitt%^A    K   ;
++V+Cond+Pl3:siv%^At     K   ;
 
 
 LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
@@ -296,12 +296,12 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+PrfPrc+Sg+Nom:%>%^WG%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:sin      K_V   ; ! jatkaisin
-+V+Cond+Sg2:sit      K_V   ;
-+V+Cond+Sg3:si      K_V   ;
-+V+Cond+Pl1:simmAÄ1    K_V   ;
-+V+Cond+Pl2:sittAÄ1    K_V   ;
-+V+Cond+Pl3:sivAÄ1t     K_V   ;
++V+Cond+Sg1:sin      K   ; ! jatkaisin
++V+Cond+Sg2:sit      K   ;
++V+Cond+Sg3:si      K   ;
++V+Cond+Pl1:simm%^A    K   ;
++V+Cond+Pl2:sitt%^A    K   ;
++V+Cond+Pl3:siv%^At     K   ;
 
 
 
