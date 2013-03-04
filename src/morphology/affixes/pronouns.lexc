@@ -311,9 +311,11 @@ LEXICON plmuut_indef
 +Ade:illa  K ;
 +Abl:ilta  K ;
 
-!!LEXICON sgjom_indef
+LEXICON sgjom_indef
++Pron: # ;
 
-!!LEXICON pljom_indef
+LEXICON pljom_indef
++Pron: # ;
 
 
 LEXICON yh_indef
@@ -361,9 +363,14 @@ LEXICON jokhai_indef !m. jokainen
 +Ade:ela    K ;
 +Abl:elta   K ;
 
-!! LEXICON joka_ainu_indef
-!! LEXICON itte_ku_indef
-!! LEXICON itte_kuka_indef
+LEXICON joka_ainu_indef
++Pron: # ;
+
+LEXICON itte_ku_indef
++Pron: # ;
+
+LEXICON itte_kuka_indef
++Pron: # ;
 
 LEXICON sgkum_indef
 +Nom:piki K ;
