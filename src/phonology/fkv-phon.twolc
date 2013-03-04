@@ -294,7 +294,7 @@ t:s <=> Vowel n _  Vowel: (Dummy:) i3: ;
  
 
 "Shortening of long vowel in front of i" !!= * @CODE@  
- Vx:0 <=> _ Vy %>: (Dummy:) [ i | i2: ] ; 
+ Vx:0 <=> _ Vy %>: (Dummy:) [ i | i2: | i3: ] ; 
      where Vx in ( a ä u y u y i ) 
            Vy in ( a ä u y o ö e )
            matched ;
