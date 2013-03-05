@@ -283,8 +283,8 @@ t:s <=> Vowel n _  Vowel: (Dummy:) i3: ;
 
 
 !! The -i- rules require different i-s for different POS.
-"a:0 before i when rounded root vowel"
- a:0 <=> [u|o] (i) Conson: (Conson:) (Conson:) _ %>:0 i ;
+"a:0 before Pret and Pl i when rounded root vowel"
+ a:0 <=> [u|o] (i) Conson: (Conson:) (Conson:) _ %>:0 [i2:|i3:] ;
  
 ! otan - otin  
 
