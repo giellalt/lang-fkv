@@ -81,27 +81,27 @@ LEXICON se_pron
 +Ine:inä K ;
 pronobl_2 ;
 
-LEXICON namaobl !!nuoitä
+LEXICON namaobl !! nuoitä
 +Nom: K ;
-+Gen:%>tten K ;
-+Ill:%>hiin K ;
-+Ela:%>it%^A   K ;
-+Abl:%>lt%^A   K ;
++Gen:tten K ;
++Ill:hiin K ;
++Ela:ist%^A   K ;
++Abl:lt%^A   K ;
 pronobl ;
 
 LEXICON pronobl
-+Par:t%^A K ;
-+Tra:%>ksi   K ;
-+Ess:%>n%^A    K ;
-+Ine:%>ss%^A K ;
-+All:%>le K ;
-+Ade:%>l%^A    K ;
++Par:t%^A K ; !! tuotä
++Tra:ksi   K ;
++Ess:n%^A    K ;
++Ine:ss%^A K ;
++All:le K ;
++Ade:l%^A    K ;
 
 LEXICON pronobl_2
 +Par:t%^A K ;
 +Tra:ksi   K ;
 +Ess:n%^A   K ; 
-+All:%>lle K ;
++All:lle K ;
 +Ade:ll%^A    K ;
 +Abl:lt%^A     K ;
 
@@ -148,7 +148,7 @@ LEXICON relkyspl
 +Par:itä K ;
 
 LEXICON joi_relkyspl
-+Nom: K ;   !!jokka
++Nom: K ;   !!po. jokka
 +Gen:tten K ;
 +Ill:hin K ;
 +Par:ita K ;
@@ -172,7 +172,9 @@ LEXICON s1refpron
 +Nom: K ;
 +Gen:eni K ;
 +Ill:heeni K ;
-+Par:eeni K ; !! m. ittiäni/itteäni
++Par:eeni K ; 
++Par:iäni K ;
++Par:eäni K ;!! m. ittiäni/itteäni
 +Ess:enäni    K ;
 +Tra:ekseni   K ;
 +Ine:essäni   K ;
@@ -185,7 +187,9 @@ LEXICON s2refpron
 +Nom: K ;
 +Gen:sti K ;
 +Ill:heesti K ;
-+Par:eesti K ; !! m. ittiästi/itteästi
++Par:eesti K ; 
++Par:iästi K ; 
++Par:eästi K ; !! m. ittiästi/itteästi
 +Ess:enästi    K ;
 +Tra:eksesti   K ;
 +Ine:essästi   K ;
@@ -198,7 +202,9 @@ LEXICON p1refpron
 +Nom: K ;
 +Gen:mä K ;
 +Ill:heemä K ;
-+Par:eemä K ; !! m. ittiämä/itteämä
++Par:eemä K ;
++Par:iämä K ;
++Par:eämä K ; !! m. ittiämä/itteämä
 +Ess:enämmä    K ;
 +Tra:eksemmä   K ;
 +Ine:essämmä   K ;
@@ -211,7 +217,9 @@ LEXICON p2refpron
 +Nom: K ;
 +Gen:nä K ;
 +Ill:heenä K ;
-+Par:eenä K ; !! m. ittiännä/itteännä
++Par:eenä K ; 
++Par:iännä K ; 
++Par:eännä K ; !! m. ittiännä/itteännä
 +Ess:enännä    K ;
 +Tra:eksennä   K ;
 +Ine:essännä   K ;
@@ -224,7 +232,9 @@ LEXICON p3refpron
 +Nom: K ;
 +Gen:nä K ;
 +Ill:heensä K ;
-+Par:eensä K ; !! m. ittiänsä/itteänsä
++Par:eensä K ;
++Par:iänsä K ;
++Par:eänsä K ; !! m. ittiänsä/itteänsä
 +Ess:enänsä    K ;
 +Tra:eksensä   K ;
 +Ine:essänsä   K ;
@@ -274,8 +284,10 @@ LEXICON sgmuut_indef
 +Nom:pi K ;
 +Gen:an K ;
 +Ill:phaan K ;
-+Par:ppaa K ; !m. -maa
-+Ess:panna    K ; !m. -inna
++Par:ppaa K ;
++Par:maa K ; !m. -maa
++Ess:panna    K ;
++Ess:inna    K ;  !m. -inna
 +Tra:aksi   K ;
 +Ine:assa    K ;
 +Ela:asta    K ;
@@ -287,8 +299,10 @@ LEXICON plmuut_indef
 +Nom:mat K ;
 +Gen:itten K ;
 +Ill:phiin K ;
-+Par:ppiita K ; !m. -mia
-+Ess:pinna    K ; !m. -inna
++Par:ppiita K ;
++Par:mia K ; !m. -mia
++Ess:pinna    K ;
++Ess:inna    K ; !m. -inna
 +Tra:iksi  K ;
 +Ine:issa  K ;
 +Ela:ista  K ;
@@ -372,9 +386,11 @@ LEXICON sgkum_indef
 
 LEXICON plkum_indef
 +Nom:matki K ;
-+Gen:ppinki K ; !m.kummittenki
++Gen:ppinki K ; 
++Gen:mittenki K ; !m.kummittenki
 +Ill:phiinki K ;
-+Par:ppiiki K ; !m.kumpiaki
++Par:ppiiki K ;
++Par:piaki K ; !m.kumpiaki
 +Ess:pinaki    K ;
 +Tra:miksiki   K ;
 +Ine:missaki    K ;
@@ -405,9 +421,12 @@ LEXICON kielto
 +Tra:neksikhään   K ;
 +Ine:nessäkhään   K ;
 +Ela:nestäkhään   K ;
-+All:nelekhään   K ; !!m. kelheen
-+Ade:keläkhään    K ; !!m. kethään
-+Abl:neltäkhään   K ; !!m. kelthään
++All:nelekhään   K ;
++All:lheen   K ; !!m. kelheen
++Ade:keläkhään    K ;
++Ade:thään    K ; !!m. kethään
++Abl:neltäkhään   K ;
++Abl:lthään   K ; !!m. kelthään
 
 LEXICON mi_kielto
 +Nom: K ;
@@ -421,6 +440,9 @@ LEXICON mi_kielto
 +All:llekhään   K ; !!m. kelheen
 +Ade:lhään    K ; !!m. kethään
 +Abl:thään   K ; !!m. kelthään
++All:kelheen   K ; !!mi- pois
++Ade:kethään    K ; !!mi- pois
++Abl:kelthään   K ; !!mi- pois
 
 LEXICON yht_kielto
 +Nom:   K   ;
