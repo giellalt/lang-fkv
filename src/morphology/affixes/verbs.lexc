@@ -113,12 +113,12 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 +V+Ind+Prs+ConNeg: K ;
 
-+V+Cond+Sg1:%>kisin      K   ; ! tekisin
-+V+Cond+Sg2:%>kisit      K   ;
-+V+Cond+Sg3:%>kisi      K   ;
-+V+Cond+Pl1:%>kisimm%^A    K   ;
-+V+Cond+Pl2:%>kisitt%^A    K   ;
-+V+Cond+Pl3:%>kisiv%^At     K   ;
++V+Cond+Sg1:k%>isin      K   ; ! tekisin
++V+Cond+Sg2:k%>isit      K   ;
++V+Cond+Sg3:k%>isi      K   ;
++V+Cond+Pl1:k%>isimm%^A    K   ;
++V+Cond+Pl2:k%>isitt%^A    K   ;
++V+Cond+Pl3:k%>isiv%^At     K   ;
 
 LEXICON v2 !!= @CODE@ anttaat:anta 
 +V+Inf:%>%^Vt K ; 
