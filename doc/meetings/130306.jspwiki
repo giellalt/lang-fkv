@@ -8,47 +8,212 @@
 * Viikkokokous
 * Ongelmat
 * Opettajamme
+* Terjen uudet sanat
 * Työsuunnittelu
+* Muut asiat
+* Seuraava kokous
  
 !!!Viikkokokous iChatissä
-* Onko tarpeellinen?
-* Mikä sopiva päivä?
+* Onko tarpeellinen? On
+* Mikä sopiva päivä? Perjantai klo 13.00.
  
 !!!Ongelmat
 
 Konfliktit tiedostojen kanssa ja niiden ratkaiseminen
- 
+
+# Yksi mahdollisuus:
+## Uusi terminaaliikkuna ja 
+### {{cp verbs.lexc apua}} (''apua'' on mielivaltainen nimi)
+## Konflikti-ikkunassa: {{tf}} (siis theirs-full, eli sun jutut poistuvat)
+## {{diff verbs.lexc apua}} (katsot eroja)
+## Kopioi järkevät jutut apua-tiedostosta verbs.lexc-tiedostoon SubEthaEditissä
+## tsekkaa sisään 
+# Toinen mahdollisuus: Katso, onko joku auttava enkeli iChatissa.
+# Tarkoitus: kirjoittaa {{e}} konflikti-ikkunaan (edit)
+
+Konfliktien välttäminen:
+
+* Tallenna, ennen kuin teet svn up
+* Tsekkaa sisään usein
+* Sovi työkavereitten kanssa kuka työskentelee minkänkin tiedoston kanssa
+* Muista pitää iChat auki, ja tsekkaa sisään kun suljet iChat
+
 !!!Opettajan käytettävyys
 
 !!Milloin käytettävissä?
 
+* Häiritä saa
+* Yritä nyt ensin
+
 !!Onko tulossa workshop?
+
+Ainakin ensi johtokunnan kokouksen yhteydessä. (1-2 ennen kesää)
+Muulloin: Mietitään.
 
 !!Uusien mäkkien ohjelmien asennus
 
-!!Nettisanakirja http://sanat.oahpa.no/fkv/nob/
+Kaisalla on, muille mäkki tulossa (Pirjo: on tullut, Leena: UiT, Mervi: pari viikkoa?) seurauksineen.
+
+* [Katso ohjetta|http://giellatekno.uit.no/doc/infra/GettingStarted.html]
+* Trond auttaa.
+
+!!Nettisanakirja 
+
+!Netissä
+
+Tänään tuli:
+
+* [sanat.oahpa.no|http://sanat.oahpa.no/fkv/nob/]
+
+!Lisämateriaalia
+
+* Eiran sanakirja (huom! Tove Reibo on tehnyt sen kanssa työtä)
+* Olemassa olevat tekstit (analysaattorin kautta)
+** RK, KI:n käännösmateriaalit, kaunokirjallisuus, 
+* nobfkv (norja-kveeni)
+** on jo olemassa, on tulossa sanat.oahpa.no-käyttöliittymään
+** toivottavasti muut (™) tekevät jotan sen asian kanssa
+
+Me satsataan nyt kuitenkin analysaattoriin.
+
+
+!!!Terjen uudet sanat
+
+* Nykyisen sanakirjan virheet ({{main/words/dicts/fkvnob/src}} ja vastaavasti {{nobfkv/src}})
+* Terjen Word-tiedostot
+** Materiaali pitää olla johdonmukainen (sana<tab>oversetting<tab>esimerkki...)
+* Mahdolliset lisätyöt
  
 !!!Työsuunnittelu
  
 !!Työlista:
-* Verbit modusten lisääminen (yaml, lexc), Terjen verbit?
+
+!Verbit
+
+* Verbit modusten lisääminen (yaml, lexc), 
+** konditionaali tehty, yksittäisiä virheitä. 
+** v2-vaikeuksia edelleen
+* Preteriti
+** Katso i, i2, i3, ... (__Kaisa, Leena, ..., Trond__)
+* Terjen verbit?
+** Siis verbs.lexc. (__Kaisa, Leena__)
+
+!Substantiivit
+
 * Substantiivien luokkien lisääminen, lajittelu, Terjen substantiivit?
+** Nyt: maa, linna
+** [Loput luokat|../nominien_jaottelusta.html]
+** Jokaisesta luokasta 1-2 edustajaa
+** yaml-tiedosto + lexc-koodaus
+** Kysy ja keskustele tarvittaessa
+
+!Suljetut luokat
+
 * Konjunktioita tulossa Eiralta, closed-tiedoston jakaminen kolmeen eri tiedostoon eri konjuktioille 
+** Tiedoston jakaaminen (__Trond__)
+** Sanojen lisääminen (__Mervi__)
 * Postpositiot, tiedosto doc-kansiossa grepattavissa
-* Pronominit suuri osa valmista, yhdyspronominit ratkaisematta, e>i vaihtuminen, rinnakkaisten muotojen lisääminen, kieliopissa enemmän tyyppejä kuin käytössäolevat tagit
-* Prepositiot tarkistus, lisääminen
-* Adjektiivit, substantiivien jälkeen
-* Morfofonologiaan lista prosesseista, twol-säännöt
-* Pirjon kotouttaminen systeemiin
+** Trond, sen jälkeen siivous (__Pirjo?__)
+* Pronominit suuri osa valmista, 
+** yhdyspronominit ratkaisematta, 
+** e>i vaihtuminen se : siihen (listata tyhmästi)
+*** se+Pron+Dem+Nom:se K ;
+*** se+Pron+Dem+Ill:sille K ;
+*** se+Pron+Dem:si OBLSIJAT ;
+** rinnakkaisten muotojen lisääminen, 
+*** minä+Pron+Pers+Nom+Sg1:minä K ;
+*** minä+Pron+Pers+Nom+Sg1:mie K ;
+** kieliopissa enemmän tyyppejä kuin käytössäolevat tagit
+*** ... ehkä lisätä tageja: fkv/src/morphology/root.lexc
+*** ... ehkä +Qnt kvanttoreille. Saamella on +Num.
+
+{{{
+máŋga
+máŋga	máŋga+Num+Sg+Nom
+máŋga	máŋga+Num+Sg+Acc
+
+guokte
+guokte	guokte+Num+Sg+Nom
+guokte	guokte+Num+Sg+Acc
+}}}
+
+Uudet tagit pitää julistaa tiedostoon
+{{fkv/src/morphology/root.lexc}}
+näiten otsikkojen väliin:
+
+{{{
+Multichar_Symbols
+...  <-- tähän jonnekin
+LEXICON Root
+}}}
+
+Katsokaa ensin [A list of morphological tags|../common/MorphologicalTags.html].
+
+!Prepositiot
+
+tarkistus, lisääminen (__Trond, Pyssyjoki__)
+
+
+!Adjektiivit
+
+Adjektiivit, substantiivien jälkeen
+
+!Morfofonologia
+
+* Morfofonologiaan lista prosesseista, twol-säännöt, 
+ks [morfofonologia|Morfofonologia.html]
+
+
+{{{
+A:B <=> C _ D ;
+tarkoittaa CAD -> CBD
+
+k:0 <=> vokaali k _ vokaali %>: %^WG:0 ;
+akka : akan
+}}}
+
+Oikea esimerkki:
+
+{{{
+"I-0 for k:j" 
+k:j <=> i _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+
+!€ poika^WG>n
+!€ poija00n
+}}}
+
+!Muu
+
+Pirjon kotouttaminen systeemiin - Pyssyjoessa tapahtuu.
+
+
  
 !!Ryhmätyöskentelyn käytäntöjä:
-               iChat
-!Auki aina käynnistettäessä tai auki vain työskennellessä
-               iCal
-!Kalenterin jakaminen Julkaise/Tilaa
-!Voidaan merkitä milloin aikoo työskennellä ja mitä aikoo tehdä
- 
+
+* __iChat__ - Auki aina käynnistettäessä tai auki vain työskennellessä
+** Neuvo: laita tiedotonnimi varoitukseksi
+* __iCal__ - Kalenterin jakaminen Julkaise/Tilaa
+** Sopii...
+* Voidaan merkitä milloin aikoo työskennellä ja mitä aikoo tehdä
+** mm
+
 !!Kuka tekee mitä:
-* ...
+* Verbit: Tromssa
+* Nominit: Pyssyjoki
+* Suljetut: Pyssyjoki
+* Twolc: Kaikki + Trond
+* Neuvotellaan ja autetaan: Kaikki
+
+
+!!!Muut asiat
+
+Oslon sanakirjakokous.
+
+Instituutilta lähtee. Tromssastakin?
+
+
+!!!Seuraava kokous 
+
+__15.3. klo 13.00__
 
  
