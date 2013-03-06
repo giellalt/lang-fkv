@@ -213,11 +213,11 @@ k:v <=> Conson u _ u (Dummy:) (:i) (Dummy:) %^WG:0 ;
 t:đ <=> Vowel  _  Vowel: (Dummy:) %^WG:0 ;  
 
 "Gradation of Nt" 
-t:Nx <=> Nx  _  Vowel: (Dummy:) (i) (Dummy:) %^WG:0 ;  
+t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:|i3:]) (Dummy:) %^WG:0 ;  
     where Nx in ( l n r ) ; 
 
 "ti : si" 
-t:s <=> Vowel n _  Vowel: (Dummy:) i3: ;  
+t:s <=> Vowel n _  Vowel:0 (Dummy:) i3: ;  
 
 ! 
 
@@ -303,6 +303,11 @@ t:s <=> Vowel n _  Vowel: (Dummy:) i3: ;
 "a:e in participles"
  Vx:e <=> _ %^AE:0 ;
  	where Vx in ( a ä ) ;
+
+"a to o in front of i"
+ a:o <=> [i|e|a] Conson:* _ %>:0 [i2:|i3:] ;
+!a:o <=> a Cns: Cns:*  _  (Dummy:) Y3: %>: i: ;
+ ! kalaien : kalojen
 
 
 !€ saa>i
