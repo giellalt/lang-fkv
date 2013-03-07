@@ -13,9 +13,9 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Pron +CS +CC +Interj +Pcle				   !!≈ ; @CODE@ : Closed POS
  
 !!  !!Tags for grammar 
- +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  !!≈ ; @CODE@ : Pronoun types
- +Sg +Pl 									   !!≈ ; @CODE@ : Number
- +Nom +Acc +Gen +Ine +Ill +Ela +Abe +All +Abl  !!≈ ; @CODE@ : 
+ +Pers +Dem +Interr +Refl +Recipr +Rel +Indef +Qu  !!≈ ; @CODE@ : Pronoun types
+ +Sg +Pl 									       !!≈ ; @CODE@ : Number
+ +Nom +Acc +Gen +Ine +Ill +Ela +Abe +All +Abl      !!≈ ; @CODE@ : 
  +Ess +Tra +Ins +Com +Par					   !!≈ ; @CODE@ : Case
  +Comp +Superl     							   !!≈ ; @CODE@ : Comparatives
  +Clt		  								   !!≈ ; @CODE@ : Clitic
