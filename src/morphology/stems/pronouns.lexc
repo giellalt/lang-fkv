@@ -60,21 +60,21 @@ muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
 jompikumpi+Pron+Indef+Sg:jom            sgjom_indef ;
 jommatkummat+Pron+Indef+Pl:jom          pljom_indef ;
 yksi+Pron+Indef:yh                      yh_indef ;
-kaikki+Pron+Indef:kaik                  kaik_indef ;
-koko+Pron+Indef:koko                    koko_indef ;
-joka+Pron+Indef:joka                    joka_indef ;
-jokhainen+Pron+Indef:jokhai             jokhai_indef ;
-joka% ainua+Pron+Indef:joka% ainu      joka_ainu_indef ; 
-itte% kukin+Pron+Indef:itte% ku       itte_ku_indef ; 
-itte% kukanen+Pron+Indef:itte% kuka    itte_kuka_indef ;
-kumpiki+Pron+Indef+Sg:kum               sgkum_indef ;
-kummatki+Pron+Indef+Pl:kum              plkum_indef ;
-molemat+Pron+Indef:molem                molem_indef ;
+kaikki+Pron+Qu:kaik                     kaik_kvant ;
+koko+Pron+Qu:koko                       koko_kvant ;
+joka+Pron+Qu:joka                       joka_kvant ;
+jokhainen+Pron+Qu:jokhai                jokhai_kvant ;
+joka% ainua+Pron+Qu:joka% ainu          joka_ainu_kvant ; 
+itte% kukin+Pron+Qu:itte% ku            itte_ku_kvant ; 
+itte% kukanen+Pron+Qu:itte% kuka        itte_kuka_kvant ;
+kumpiki+Pron+Qu+Sg:kum                  sgkum_kvant ;
+kummatki+Pron+Qu+Pl:kum                 plkum_kvant ;
+molemat+Pron+Qu:molem                   molem_kvant ;
 
 
-!!Kieltopronominit?
+!!Kieltopronominit
 
-kukhaan+Pron+Indef:ke      kielto  ; !! yksikkö
-mikhään+Pron+Indef:mi      mi_kielto  ; !! yksikkö
-yksikhään+Pron+Intef:yht   yht_kielto ;!!yksikhään, yhtheenkään,yhtäkhään
-kumpikhaan+Pron+Indef:kump  kump_kielto; !!kumpikhaan, kumphaankaan
+kukhaan+Pron+Qu:ke      kielto  ; !! yksikkö
+mikhään+Pron+Qu:mi      mi_kielto  ; !! yksikkö
+yksikhään+Pron+Qu:yht   yht_kielto ;!!yksikhään,yhtheenkään,yhtäkhään
+kumpikhaan+Pron+Qu:kump  kump_kielto; !!kumpikhaan, kumphaankaan
