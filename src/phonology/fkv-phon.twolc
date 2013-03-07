@@ -22,6 +22,8 @@ ArchiVowel =  %^A %^O %^U ;                                         !!= * @CODE@
 ArchiConson = %^N ;                                                 !!= * @CODE@ 
 SomeVowel = %^V ;                                                   !!= * @CODE@ 
 Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ;                 !!= * @CODE@ 
+NotE = i y ä ö ü æ ø a o u å ;
+NotOU = e i y ä ö ü æ ø a ;
 Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;       !!= * @CODE@ 
 NeutralVowel = e i ;                                                !!= * @CODE@ 
 Segment = Vowel Conson ;                                            !!= * @CODE@ 
@@ -143,14 +145,14 @@ Rules
 
 
 
-"II-I omppu" 
-Cy:0 <=> Cx _ Cy Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
-        where Cx in ( l l l m n n r r r)
-              Cy in ( k p t p k t k p t)
-    matched ;
+!"II-I omppu" 
+!Cy:0 <=> Cx Cy _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
+!        where Cx in ( l l l m n n r r r)
+!              Cy in ( k p t p k t k p t)
+!    matched ;
 
 !€ omppu^WG
-!€ om0pu0
+!€ omp0u0
 
 ! Cy Dobbelkonsonant
 ! Cx Enkelkonsonant
@@ -164,7 +166,8 @@ Cy:0 <=> Cx _ Cy Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "II-I for ppttkk - ptk" 
 !Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
-Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;  
+!Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;   !toimii
+Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;   !entinen omppu
             where Cx in ( k p t ) ;
 
 !€ katto^WG>n
@@ -175,13 +178,16 @@ Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;
 
 
 
-"I-0 for k:j" 
-k:j <=> i _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+!"I-0 for k:j" 
+!k:j <=> i _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
 
-!€ poika^WG>n
-!€ poija00n
+! astevaihtelu sanassa poika on k:O. poika : pojan koska i katoaa!
+
+"I-0 after l,r, before e"
+ k:j <=> [l|r]_ [e|e:0] %^WG:0 ;  
 
 
+! jälki: jäljen ; järki; järjen; kulkkeet: kuljen; särkkeet : särjen
 
 "I-0 for t after h"
     t:đ <=> h _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
@@ -193,7 +199,14 @@ k:j <=> i _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !€ lahđi0
 
 "Gradation of k:0" 
-k:0 <=> [ [ Vowel - [ i | u | y ]] | l | r ] _ ( %+ ) Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+k:0 <=> [ NotOU: | l | r ] _  NotE: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+
+"i:j between vowels"
+ i:j <=> Vowel _ k: Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
+
+
+!€ poika^WG>n
+!€ poj0a00n
 
 ! haka>^WGn
 ! ha0a00n
