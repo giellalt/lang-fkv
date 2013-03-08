@@ -12,18 +12,20 @@ LEXICON Pronoun
 mie+Pron+Pers+Sg:mi  12pronsg   ; !!= * @CODE@ 
 sie+Pron+Pers+Sg:si  12pronsg   ; !!  * ...
 hän+Pron+Pers+Sg:hän  han_pron   ;
-se+Pron+Pers+Sg:se     se_pron  ; !!= @ @CODE@  ''e>i'' ei ole hoidettu
+se+Pron+Pers+Sg:se     se_pron  ; !!= * @CODE@ ''e>i'' ei hoidettu
+se+Pron+Pers+Sg:si     si_pron  ;
 met+Pron+Pers+Pl:mei  123pronpl   ;
 tet+Pron+Pers+Pl:tei  123pronpl   ;
 het+Pron+Pers+Pl:hei  123pronpl   ;
-net+Pron+Pers+Pl:ne   netpronpl   ; ! e>i
+net+Pron+Pers+Pl:ni   netpronpl   ; ! e>i
+
 
 
 !! Demonstratiivipronominit
 
 tämä+Pron+Dem:tä   tama ;  !!= * @CODE@t
 tuo+Pron+Dem:tuo       tuo ; 
-se+Pron+Dem+Sg:se se_pron ; !!= * @CODE@ ''e>i'' ei hoidettŧ
+se+Pron+Dem+Sg:se se_pron ; !!= * @CODE@ ''e>i'' ei hoidettu
 nämät+Pron+Dem+Pl:näi namaobl ;
 nuot+Pron+Dem+Pl:nuoi namaobl ;
 net+Pron+Dem+Pl:nii   namaobl ; ! e>i
@@ -74,7 +76,7 @@ molemat+Pron+Qu:molem                   molem_kvant ;
 
 !!Kieltopronominit
 
-kukhaan+Pron+Qu:ke      kielto  ; !! yksikkö
-mikhään+Pron+Qu:mi      mi_kielto  ; !! yksikkö
-yksikhään+Pron+Qu:yht   yht_kielto ;!!yksikhään,yhtheenkään,yhtäkhään
-kumpikhaan+Pron+Qu:kump  kump_kielto; !!kumpikhaan, kumphaankaan
+kukhaan+Pron+Qu:ke      kielto  ;
+mikhään+Pron+Qu:mi      mi_kielto  ; 
+yksikhään+Pron+Qu:yht   yht_kielto ;!!m. yksikhään
+kumpikhaan+Pron+Qu:kump  kump_kielto;
