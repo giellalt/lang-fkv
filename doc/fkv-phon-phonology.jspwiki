@@ -8,13 +8,13 @@
  * %+:0                                        
  * %^A:ä %^O:ö %^U:y %^V %^N:n                 
  * %>:0                                        
- * i2:i i3:i t2:t                              
+ * i2:i i3:i i6:i t2:t                         
  * %^HMETA:0 %^WG:0 %^E2I:0                    
  * %^VDEL:0 %^AE:0                             
 
 !!Sets
  * Sets                                                                 
- * FrontVowel = e i y ä ö ü æ ø;                                        
+ * FrontVowel = e i i2 i3 i6 y ä ö ü æ ø;                                        
  * BackVowel = a o u å ;                                                
  * ArchiVowel =  %^A %^O %^U ;                                          
  * ArchiConson = %^N ;                                                  
@@ -97,7 +97,6 @@
 
 
 !!Consonant gradation
-
 
 
 
