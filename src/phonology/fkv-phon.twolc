@@ -24,7 +24,7 @@ SomeVowel = %^V ;                                                   !!= * @CODE@
 Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ;                 !!= * @CODE@ 
 NotE = i i2 i3 i6 y ä ö ü æ ø a o u å ;
 NotOU = e i i2 i3 i6 y ä ö ü æ ø a ;
-NotOUI = e i6 y ä ö ü æ ø a ;
+NotOUI = e y ä ö ü æ ø a ;
 Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;       !!= * @CODE@ 
 NeutralVowel = e i ;                                                !!= * @CODE@ 
 Segment = Vowel Conson ;                                            !!= * @CODE@ 
@@ -179,13 +179,16 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG
 
 
 "I-0 for k:j" 
-k:j <=> i _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+k:j <=> [ i|i6: ] _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
 
 "i-0, in word poika: pojan" 
 i6:0 <=> _ k: a %^WG:0;
 
-"I-0 after l,r, before e"
- k:j <=> [l|r]_ [e|e:0] %^WG:0 ;  
+"k:j after l,r, before e"
+ k:j <=> [l|r] _ [e|e:0] %^WG:0 ;  
+
+!€ poi6ka^WG>n
+!€ po0ja00n
 
 
 ! jälki: jäljen ; järki; järjen; kulkkeet: kuljen; särkkeet : särjen
@@ -205,9 +208,6 @@ k:0 <=> [ NotOUI: | l | r ] _  NotE: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 "i:j between vowels"
 i:j <=> Vowel _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
-
-!€ poika^WG>n
-!€ poj0a00n
 
 ! haka>^WGn
 ! ha0a00n
