@@ -9,21 +9,22 @@ R S T U V W X Y Z Å Ä Ö Æ Ø                 !!= * @CODE@
 %+:0                                        !!= * @CODE@
 %^A:ä %^O:ö %^U:y %^V %^N:n                 !!= * @CODE@
 %>:0                                        !!= * @CODE@
-i2:i i3:i t2:t                              !!= * @CODE@
+i2:i i3:i i6:i t2:t                         !!= * @CODE@
 %^HMETA:0 %^WG:0 %^E2I:0                    !!= * @CODE@
 %^VDEL:0 %^AE:0                             !!= * @CODE@
 ;
 
 !! !!Sets
 Sets                                                                !!= * @CODE@ 
-FrontVowel = e i y ä ö ü æ ø;                                       !!= * @CODE@ 
+FrontVowel = e i i2 i3 i6 y ä ö ü æ ø;                                       !!= * @CODE@ 
 BackVowel = a o u å ;                                               !!= * @CODE@ 
 ArchiVowel =  %^A %^O %^U ;                                         !!= * @CODE@ 
 ArchiConson = %^N ;                                                 !!= * @CODE@ 
 SomeVowel = %^V ;                                                   !!= * @CODE@ 
 Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ;                 !!= * @CODE@ 
-NotE = i y ä ö ü æ ø a o u å ;
-NotOU = e i y ä ö ü æ ø a ;
+NotE = i i2 i3 i6 y ä ö ü æ ø a o u å ;
+NotOU = e i i2 i3 i6 y ä ö ü æ ø a ;
+NotOUI = e i6 y ä ö ü æ ø a ;
 Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;       !!= * @CODE@ 
 NeutralVowel = e i ;                                                !!= * @CODE@ 
 Segment = Vowel Conson ;                                            !!= * @CODE@ 
@@ -178,10 +179,11 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG
 
 
 
-!"I-0 for k:j" 
-!k:j <=> i _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+"I-0 for k:j" 
+k:j <=> i _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
 
-! astevaihtelu sanassa poika on k:O. poika : pojan koska i katoaa!
+"i-0, in word poika: pojan" 
+i6:0 <=> _ k:j %^WG:0;
 
 "I-0 after l,r, before e"
  k:j <=> [l|r]_ [e|e:0] %^WG:0 ;  
@@ -199,10 +201,10 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG
 !€ lahđi0
 
 "Gradation of k:0" 
-k:0 <=> [ NotOU: | l | r ] _  NotE: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+k:0 <=> [ NotOUI: | l | r ] _  NotE: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
 
 "i:j between vowels"
- i:j <=> Vowel _ k: Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
+i:j <=> Vowel _ k: Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 
 !€ poika^WG>n
