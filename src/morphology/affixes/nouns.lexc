@@ -15,6 +15,14 @@ LEXICON n11	!!= @CODE@  "poika", lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
 
+
+LEXICON n11ie	!!= @CODE@ on ove, ovi, nom
++N+Sg+Nom:%^E2I K ; ! %^EI e to i
++N: short-par ;
++N: obl-strong ;   
++N:%^WG weak-v-stem ;
+
+
 LEXICON n12	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 +N+Sg+Nom: # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N:e weak-v-stem ;
@@ -132,7 +140,7 @@ LEXICON weak-v-stem !!= @CODE@
 !  - - - - - - - - - - - - - - - 
 
  LEXICON nom-strong
-  +Sg+Nom: K ;
+  +Sg+Nom: K ; 
   short-par ;
  
 LEXICON gae-strong
