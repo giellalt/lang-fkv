@@ -52,17 +52,17 @@ LEXICON 123pronpl  !!= * @CODE@
 +Abl:ltä   K ;
 
 LEXICON se_pron
-+Nom:e K ;
-+Gen:en K ;
-+Ill:iiheen K ;
-+Ela:iitä   K ;
-+Ine:iinä K ;
-+Par:itä K ;
-+Tra:iksi   K ;
-+Ess:inä   K ; 
-+All:ille K ;
-+Ade:illä    K ;
-+Abl:iltä     K ;
++Nom:se K ;
++Gen:sen K ;
++Ill:siiheen K ;
++Ela:siitä   K ;
++Ine:siinä K ;
++Par:sitä K ;
++Tra:siksi   K ;
++Ess:sinä   K ; 
++All:sille K ;
++Ade:sillä    K ;
++Abl:siltä     K ;
 
 LEXICON netpronpl
 +Nom: K ;
@@ -328,20 +328,20 @@ LEXICON pljom_indef
 
 
 LEXICON yh_indef
-+Nom:       K ;
-+Gen:đen     K ; !đ
-+Ill:theen   K ;
-+Par:tä    K ;
-+Ess:tenä    K ;
-+Tra:đeksi   K ;
-+Ine:đessä   K ;
-+Ela:đestä   K ;
-+All:đele    K ;
-+Ade:đelä    K ;
-+Abl:đeltä   K ;
++Nom:yksi       K ;
++Gen:yhđen     K ; !đ
++Ill:yhtheen   K ;
++Par:yhtä    K ;
++Ess:yhtenä    K ;
++Tra:yhđeksi   K ;
++Ine:yhđessä   K ;
++Ela:yhđestä   K ;
++All:yhđele    K ;
++Ade:yhđelä    K ;
++Abl:yhđeltä   K ;
 
 LEXICON kaik_kvant
-+Nom:       K ;
++Nom:ki       K ;
 +Gen:en     K ;
 +Ill:keen   K ;
 +Par:esta    K ;
