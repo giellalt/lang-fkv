@@ -126,9 +126,7 @@ LEXICON obl-strong
 
 LEXICON weak-v-stem !!= @CODE@ 
  +Sg+Gen:%>n K ;
- +Sg+Acc:%>n K ;
  +Pl+Nom:%>t K ;
- +Pl+Acc:%>t K ;
  +Sg: sgpl-cases ;      !! these two lexica for cases with
  +Pl:%>i2 sgpl-cases ;  !! the same affix in sg and pl
  +Pl+Ins:%>i2%>n K ;    !! Marginal case, in use only for some words.
@@ -146,9 +144,7 @@ LEXICON weak-v-stem !!= @CODE@
 LEXICON gae-strong
  +Sg+Nom: Px ;   ! mattoni
  +Sg+Gen: Px ;   ! mattoni
- +Sg+Acc: Px ;   ! mattoni
  +Pl+Nom: Px ;   ! mattoni
- +Pl+Acc: Px ;   ! mattoni
  +Sg+Ess:%>n%^A PxxK ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
@@ -378,7 +374,6 @@ LEXICON nom-nen
 !  +N: nom-strong ;
 !  +Sg+Nom: Px ;
 !  +Sg+Gen: Px ;
-!  +Sg+Acc: Px ;
 !  +Sg+Ess:%>n%^A PxxK ;
 !  +Pl+Ess:Y3%>i2%>n%^A PxxK ;
 !  +N+Sg:Y3%>i2 com ;
@@ -396,7 +391,6 @@ LEXICON nom-nen
 !  +N: nom-strong ;
 !  +Sg+Nom: Px ;
 !  +Sg+Gen: Px ;
-!  +Sg+Acc: Px ;
 !  +Sg+Ess:%>n%^A PxxK ;
 !  +Pl+Ess:Y2%>i2%>n%^A PxxK ;
 !  +N+Sg:Y2%>i2 com ;

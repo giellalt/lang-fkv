@@ -34,22 +34,19 @@ LEXICON han_pron
 
 LEXICON 123pronpl  !!= * @CODE@ 
 !! NB @LEXNAME@sta puuttuu oma leksikko nominatiiville
-+Nom: K ;
-+Acc:đän K ; !!đ 
-+Acc:än K ; 
-+Acc:dän K ; 
-+Gen:đät K ; !!đ
-+Gen:ät K ; 
-+Gen:dät K ; 
-+Ill:hiin K ;
-+Par:tä K ;
-+Ess:nä    K ;
-+Tra:ksi   K ;
-+Ine:ssä   K ;
-+Ela:stä   K ;
-+All:le   K ;
-+Ade:lä    K ;
-+Abl:ltä   K ;
++Nom:t K ;
++Gen:iđän K ; !!đ 
++Gen:iän K ; 
++Gen:idän K ; 
++Ill:ihiin K ;
++Par:itä K ;
++Ess:inä    K ;
++Tra:iksi   K ;
++Ine:issä   K ;
++Ela:istä   K ;
++All:ile   K ;
++Ade:ilä    K ;
++Abl:iltä   K ;
 
 LEXICON se_pron
 +Nom:se K ;
@@ -65,8 +62,6 @@ LEXICON se_pron
 +Abl:siltä     K ;
 
 LEXICON netpronpl
-+Nom: K ;
-+Acc:t K ;
 +Gen:itten K ; !!nii
 +Ill:hin K ;
 +Ela:istä   K ;
