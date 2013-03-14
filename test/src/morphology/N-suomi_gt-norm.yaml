@@ -17,7 +17,6 @@ Tests:
   Noun - suomi: # Noun 'borg' - full paradigm
      suomi+N+Sg+Nom: suomi
      suomi+N+Sg+Gen: suomen
-     suomi+N+Sg+Acc: suomen
      suomi+N+Sg+Par: suomee
      suomi+N+Sg+Tra: suomeksi
      suomi+N+Sg+Abe: suomitta
@@ -40,7 +39,6 @@ Tests:
 
 
 #     suomi+N+Pl+Gen: suomitten %%epäselvä
-#     suomi+N+Pl+Acc: suomii %%epäselvä
 #     suomi+N+Pl+Par: suomita %%epäselvä
 #     suomi+N+Pl+Tra: suomiksi%%epäselvä
 #     suomi+N+Pl+Abe: suomitta %%epäselvä
