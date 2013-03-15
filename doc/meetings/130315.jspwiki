@@ -1,7 +1,9 @@
-Viikkokokous 15.3. klo 13
+
+Viikkokokous 15.3. 2013 klo 13
  
 * Paikka: internet
 * Välineet: iChat ja SubEthaEdit
+* Paikalla: Kaisa, Leena, Mervi, Pirjo, Trond.
  
 !!!Agenda
 * Teknisiä ongelmia
@@ -9,27 +11,261 @@ Viikkokokous 15.3. klo 13
 * Työsuunnittelu
  
 !!!Teknisiä ongelmia (ohjelmat)
-Jollakin analysaattorit rikki, eikä SEE toimi ryhmätyössä.
+
+!!see
+* Kaikkien pitää maksaa, 29€.
+* eikä SEE toimi ryhmätyössä (__Trond, Mervi__ katsovat)
+
+!!installointi
+* Pirjolla on uus kone.
+* Leenalla ja Mervillä ei.
+
+!!Kompilointi
+* Pirjolle svn jne. viikonlopun jälkeen.
+* Mervin analysaattorit rikki, katsotaan uudestaan.
+* Kaisa: Analysaattori ok mutta testaus ei.
+* Leenalla ollut opetusta, katsotaan.
  
 !!!Uudet koneet
-Teknisiä ongelmia?
+Teknisiä ongelmia? Taivas tietää.
  
-Tarkkaile Retinan tyyppivikoja.
+Tarkkaile Retinan tyyppivikoja. Niitä on kuulemma ollut. Seurataan.
  
+!!!Sanakirja
+
+Teknisiä ongelmia? Tunnettuja: Windows ja Internet Explorer 8.
+Kaikki muut ongelmat tervetulleita (raportin muodossa).
+
+Esimerkkejä kirjoitustavasta
+
+{{{
+sanna => sannaa (jos a = a, aa)
+callit => čállit (jos c = c, č, a = a, á)
+tuli = "ild", "kom", "vind" (jos u = u, uu)
+}}}
+
 !!!Työsuunnittelu
 
 !!Morfofonologia
 ! -i-
 Päivän tilanne ja eteenpäin
 
+Meidän i-valikoima:
+* i2 mon
+* i3 pret
+* i4 kond
+* i5 superlatiivi
+* i6 poika
+
+{{{
+[FAIL] meininki+N+Pl+Tra => Missing results: meiningiiksi
+[FAIL] meininki+N+Pl+Tra => Unexpected results: meininkeiksi, meininkejksi
+}}}
+
+i-vartalojen i + i = ''meiningiiksi'' mutta ''posteiksi''. 
+
+__Leena ja Kaisa__ katsovat i-asioita tiistaina.
+__Pirjo__ tarkistaa tiettyjä tapauksia.
+
 ! Astevaihtelu
 Päivän tilanne ja eteenpäin
+* Puuttuvia tapauksia (nk : ng)
+* Erikoistapauksia: k:0 mutta k:j ja k:v, ... jne.
+
+__Leena ja Kaisa__ katsovat puuttuvia.
+
+! Geminaatio
+(Toimii, ehkä?)
 
 !!Verbit:
+* Hyvin menee:
+** anttaat, aukaista, aukaista, haravoita, haravoita, jatkata, jatkata, juosta, juosta, kattela, kattela, kattoot, kavela, kavela, kyytita, kyytita, luottaat, piikaroita, piikaroita, saada, saada, tarista, tarista, tehda, tehda, tuoda, tuoda, vanheta, vanheta,
+* Huonosti menee:
+** aikkoot, ajatella, anttaat, havittaat, kadota, kattoot, kirjoittaat, kulkkeet, lahteet, lenttaat, lukkeet, luottaat, nahda, nakkyyt, pajeta, polata, soppiit, tohtiit 
+
+Huonosti:
+* Astevaihtelu
+** sopin < sovin
+** paketa < pajeta
+* i-asioita (?)
+** ä:n poisto ennen i (hävitäin < hävitin)
+** e ennen i:tä lähđein < lähđin
+* Konditionaali puuttuu monessa paikassa
+* 2/3 tavu: hävitämä < hävitämmä, koko ajatella-paradigma (ajatela)
+* Vokaalipidennys: Sg3: hävittä^V < hävittää, katto < kattoo
  
 !!Pronominit: Ilmeisesti kaikki pronominit eivät ole tässä. Kvanttori lisätty.
+
+"Det enkleste er ofte det beste":
+
+{{{
+LEXICON se_pron
++Nom:se K ;
++Gen:sen K ;
++Ill:siiheen K ;
++Ela:siitä   K ;
++Ine:siinä K ;
++Par:sitä K ;
++Tra:siksi   K ;
++Ess:sinä   K ; 
++All:sille K ;
++Ade:sillä    K ;
++Abl:siltä     K ;
+}}}
+
+
+Ratkaisematta:
+
+!Yhdyspronominit
+
+itte kukin, itte kullekin. Mutta eipäs!!
+Se onkin ''ittelle kullekin'', ja siis erikseen.
+
+{{{
+Trond+N+Prop+Attr
+Trosterudille+N+Prop+Sg+All
+}}}
+
+# Pitää ne erikseen kahtena sanana
+# Laatia itte% kukin:itte% ku preprocess-tiedostoon
+
+Nyt:
+
+{{{
+joka% ainua+Pron+Qu:joka% ainu          joka_ainu_kvant ; 
+itte% kukin+Pron+Qu:itte% ku            itte_ku_kvant ; 
+itte% kukanen+Pron+Qu:itte% kuka        itte_kuka_kvant ;
+}}}
+
+Parempi siis (leksikkonimet tässä vaan koristeena):
+
+{{{
+joka:jo JOKALEX ;
+itte ITTELEX ;
+ainua:ainu LEX1 ;
+kukin:ku LEX2 ;
+}}}
+
+
+!Uudenmaan pronominit 
+(kaksi sijapäätettä per vartalo)
+
+Vastaus on Flag Diacritics.
+
+* jommaCASE1kummaCASE2
+* Jos CASE1 ≠ CASE2, niin poista muoto (*jommallekummalta)
+* Jos CASE1 = CASE2, niin hyväksy muoto (*jommallekummalle)
+
+Mervi laatii datat ja __Mervi ja Trond__ katsovat ratkaisua.
  
 !!Substantiivit:
 
+Huonosti kaikki:
+* huonet, huonet, kainulainen, kainulainen, linna, linna, maa, maa, meininki, meininki, rakas, rakas, ruvis, ruvis, suomi, suomi, venet, venet, veres, veres,
+
+{{{
+[PASS] meininki+N+Sg+Nom => meininki
+[FAIL] meininki+N+Sg+Gen => Missing results: meiningin
+[FAIL] meininki+N+Sg+Gen => Unexpected results: meininkin
+[PASS] meininki+N+Sg+Par => meininkkii
+[FAIL] meininki+N+Sg+Tra => Missing results: meiningiksi
+
+[FAIL] meininki+N+Pl+Gen => Missing results: meiningiitten
+[FAIL] meininki+N+Pl+Gen => Unexpected results: meininkeien, meininkejen, meininkkiien
+}}}
+
+!Vartalotyypit
+
+Vasen ryhmä dokumentista [Nominien jaottelusta|../nominien_jaottelusta.html].
+
+__Mervi ja Pirjo__ muuttavat morphology/stems/nouns.lexc ja morphology/affixes/nouns.lexc
+sen mukaan.
+
+Status quo:
+
+* linna n11 ; 
+* lumi n12 ;
+* meininki n21 ;
+* tytär n22 ;
+* yö n31 ;
+* valkkee n32 ;
+* opas n33s ;
+* veres n41 ;
+* sininen: sini nen ;
+
+Ehkä jotain näin: ''n11 > va21, n21 > va22, va21 > n21, va22 > n32''
+
+Tärkeä: Sama numerointi stems ja affixes-tiedostoissa.
+
+Strategia: Numerointi vuodesta 2007 ("Kainun kielen krammatiikki"), muut datat myös 2013:stä.
+
+!i-vartalot:
+
+* joki:joke       n11ie ;
+* pappi:pappi     n11 ;
+
+
+{{{
+LEXICON n11 !!= @CODE@  "poika", lyhyt vokali, yks vartalo
++N: strong-v-stem ;
++N:%^WG weak-v-stem ;
+
+LEXICON n11ie   !!= @CODE@ on ove, ovi, nom
+
++N+Sg+Nom:%^E2I K ; ! %^E2I e to i
++N: short-par ;
++N: obl-strong ;   
+
++N:%^WG weak-v-stem ;
+}}}
+
+Huom: Puuttuu LNR-sääntö kieli : kielten.
+
+{{{
+kielen
+kielen  kieli+N+Sg+Gen
+
+kieltä
+kieltä  kieltä  +?
+
+hum-tf4-ans154:fkv ttr000$ dfkv
+kieli+N+Sg+Par
+kieli+N+Sg+Par  kiele^V
+}}}
+
+
+!Puuttuvat päätteet
+
+* Komitatiivi puuttu. => Ota pois yaml-tiedostista.
+* Mutta onko näin, että monikon genetiivi puuttuu yamlista ??? 
+** (ks. suomi)
+
+__Mervi ja Pirjo__ puhdistavat substantiivi-yamlit.
+
+{{{
+[FAIL] suomi+N+Sg+Ill => Missing results: suomheen
+[FAIL] suomi+N+Sg+Ill => Unexpected results: suomi+N+Sg+Ill+?
+}}}
+
+Näyttää siltä, että yksikön illatiivi puuttuu kokonaan.
+
+{{{
+[FAIL] linna+N+Pl+Gen => Missing results: linnojen
+[FAIL] linna+N+Pl+Gen => Unexpected results: linna+N+Pl+Gen+? <== pääte!
+[FAIL] linna+N+Pl+Par => Missing results: linnaita
+[FAIL] linna+N+Pl+Par => Unexpected results: linna+N+Pl+Par+? <== pääte!
+}}}
+
+* __Mervi, Pirjo__: ''Puuttuvat päätteet morphology/affixes/nouns.lexc-tiedostoon!''
+
+
+
 !!Ajankohta styyrin kokoukselle? – workshop
+
+Alustavasti 8-9.4. Tromssassa. Katsotaan sitten.
+
+
+
+
+
  
