@@ -6,56 +6,142 @@
 !! Leksikot ovat nyt (tai pitää olla) n11, n12, jne., eli siis
 !! Eiran nominit tyyppi 1.1., 1.2., jne.
 
-!! Eiran luokittelu ei ole tarpeeksi tarkka meille,  pitäisi
-!! olla n11_nen jne. Edelleen on epäjohdomukaisuutta nimien suhteen.
+!!  2007 s.87
+!! * 1. Yksitavuiset / Vi ( maa, tuorestai)		 = n_1
+!! * 2. Vokaalirankaiset						 = 
+!! ** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
+!! ** 2.2 Usseempitav. ( meininki, sivakka)		 = n_22
+!! ** 2.3 Kokkoontumanom. ( valkkee, assii)		 = n_23
+!! * 3. Konsonanttirankaiset					 = 
+!! ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_22
+!! ** 3.2 Usseempitavuiset ( tytär, rakkhaus)	 = n_32
+!! ** 3.3 Kokkoontumanom. ( opas, huonet)		 = n_33s
+!! * 4. Ekstrakonsonanttirankaiset				 = 
+!! ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
+!! ** 4.2 –inen-nominit ( kainulainen, vihrinen) = n_42 = nen
 
 !! !!Noun types
 
-LEXICON n11	!!= @CODE@  "poika", lyhyt vokali, yks vartalo
+LEXICON n_1 !!= * @CODE@ = maa
+ +N+Sg+Nom: K ; 
+ +N: long-par ;
+ +N: weak-v-stem ;
+ +N: 1TAVU_VV-ill ;
+ +N+Pl:%>i2 longgenpl ;
+ +N+Pl:%>i2 longparpl ;
+ +N+Pl:%>i2 shortillpl ;
+ +Sg+Nom: Px ;   ! mattoni
+ +Sg+Gen: Px ;   ! mattoni
+ +Pl+Nom: Px ;   ! mattoni
+ +Sg+Ess:%>n%^A PxxK ;
+ +Pl+Ess:%>i2%>n%^A PxxK ;
+
+
+LEXICON n_21	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
++N: 2TAVU_V-ill ;
++N+Pl:%>i2 shortgenpl ;
++N+Pl:%>i2 shortparpl  ; ! 
++N+Pl:%>i2 shortillpl ;
 
 
-LEXICON n11ie	!!= @CODE@ on ove, ovi, nom
+LEXICON n_21pl	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
+ +N+Pl+Nom:%>t K ; 
+ +N: weak-v-stem ; ! Pitææ hoitaa, nyt väärin
+ +Pl+Nom: Px ;   ! mattoni
+ +Pl+Ess:%>i2%>n%^A PxxK ;
+
+
+
+
+LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom
 +N+Sg+Nom:%^E2I K ; ! %^EI e to i
 +N: short-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
 
 
-LEXICON n12	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
-+N+Sg+Nom: # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
-+N:e weak-v-stem ;
-
-
-LEXICON n21	!!= @CODE@ kaksitavvuiset yksirankaset
+LEXICON n_22	!!= * @CODE@  meininki
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
-+N: short-par ;
 +N: 2TAVU_V-ill ;
-+N+Pl:%>i2 shortgenpl ;
-+N+Pl:%>i2 shortparpl ;
-+N+Pl:%>i2 shortillpl ;
++N+Pl: tt-longgenpl ;
++N+Pl: longparpl ;
++N+Pl: shortillpl ;
+
+LEXICON n_23	!!= * @CODE@  assii
++N: strong-v-stem ;
++N: weak-v-stem ;
 
 
-LEXICON n22 
-+N+Sg+Nom: # ; ! Dummy
+LEXICON n_31	!!= @CODE@ käsi, lumi
++N+Sg+Nom:%^E2I K ; ! %^EI e to i
++N:%^EDEL long-par ;
++N: obl-strong ;   
++N:%^WG weak-v-stem ;
 
-LEXICON n22s !!= @CODE@ rakas
+LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
++N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
++N:e weak-v-stem ;
+
+LEXICON n_32s
+n_32 ; ! ei tehty
+
+LEXICON n_33 ! ei tehty
+n_33s ;
+
+LEXICON n_33s !!= @CODE@ rakas
 +N: sConsCase ; ! nom, par
 +N: loput ;
 
-LEXICON n22t !!= @CODE@ venet
+LEXICON n_33t !!= @CODE@ venet
 +N: tConsCase ; ! nom, par
 +N: loput ;
 
+LEXICON n_41 !!= * @CODE@ = veres
++N: sConsCase ; !!= * @CODE@  toistaiseksi :-/
++N: loput ;
+
+LEXICON n_42
+nen ; ! onko n42 = nen?
+
+LEXICON n_42pl ! ei tehty, tee oma pl-nen
++N+PL+Nom:set K ;
+ +Pl+Ess:%>i2%>n%^A PxxK ;
+ +Pl:%>i2 sgpl-cases ;  !! the same affix in sg and pl
+ +N:s longerillpl ; ! itse asiassa 
+ +N+Pl:s%>i2 shortgenpl ; ! naisien
+ +N+Pl:s consgenpl ;
+ +N+Pl:s%>i2 shortparpl ;
+ +N+Pl:s%>i2 shorterillpl ;
+
+LEXICON nen  !!= @CODE@ on nainen-sanoille
+ +N: nom-nen ;
+ +N:se gae-strong ;
+ +N+Sg:se%>i2 com ;
+ +N+Pl:se%>i2 com ;
+ +N:se weak-v-stem ;
+ +N:s longerillpl ; ! itse asiassa 
+ +N:s 2TAVU_V-ill ;
+ +N+Pl:s%>i2 shortgenpl ; ! naisien
+ +N+Pl:s consgenpl ;
+ +N+Pl:s%>i2 shortparpl ;
+ +N+Pl:s%>i2 shorterillpl ;
+
+LEXICON nom-nen
++Sg+Nom:nen K ;
+
+
+
+
 LEXICON loput
-+N: obl-strong ; ! muut vahvat
-+N: weak-v-stem ;
-+N: 1TAVU_VV-ill ;
-+N+Pl:%>i2 shortgenpl ;
-+N+Pl:%>i2 shortparpl ;
-+N+Pl:%>i2 shortillpl ;
+ obl-strong ; ! muut vahvat
+ weak-v-stem ;
+ 1TAVU_VV-ill ;
++Pl:%>i2 shortgenpl ;
++Pl:%>i2 shortparpl ;
++Pl:%>i2 shortillpl ;
 
 LEXICON sConsCase
 +Sg+Nom:%^VDEL%^WG%>s K ;
@@ -66,47 +152,8 @@ LEXICON tConsCase
 +Sg+Par:%^WG%>tt%^A K ;
 
 
-LEXICON 31	!!= @CODE@ kaksitavvuiset kakirankaset, meininki
-+N+Sg+Nom: #;
-
-LEXICON 22	!!= @CODE@ usseempitavvuiset vokaalirankaiset, meininki
-+N+Sg+Nom: #;
-
-LEXICON 32	!!= @CODE@ usseempitavvuiset konsonanttiirankaiset
-+N+Sg+Nom: #;
-
-LEXICON 23	!!= @CODE@ kokkoontumarankaiset vokaalirankaiset
-+N+Sg+Nom: #;
-
-LEXICON 33	!!= @CODE@ kokkoontumarankaiset konsonanttirankaiset
-+N+Sg+Nom: #;
-
-LEXICON 40	!!= @CODE@ ekstrakonsonanttirankaiset
-+N+Sg+Nom: #;
-
-
-LEXICON 21
-n21;
-
-LEXICON n
-n11;
-
-LEXICON n31
-31;
-LEXICON n32
-32;
-
-LEXICON n33s
-33;
-
-LEXICON n33t
-33;
-
-LEXICON n41
-33; ! toistaiseksi
-
-LEXICON n42
-nen ; ! onko n42 = nen?
+LEXICON x
++N+Sg+Nom: K ; ! ei tehty
 
 
 !! !!! Basic paradigms
@@ -129,7 +176,7 @@ LEXICON weak-v-stem !!= @CODE@
  +Pl+Nom:%>t K ;
  +Sg: sgpl-cases ;      !! these two lexica for cases with
  +Pl:%>i2 sgpl-cases ;  !! the same affix in sg and pl
- +Pl+Ins:%>i2%>n K ;    !! Marginal case, in use only for some words.
+! +Pl+Ins:%>i2%>n K ;   !! Marginal case, in use only for some words.
                         !! Todo: identify these, and remove Ins from the
                         !! general weak-v-stem lexicon.
 
@@ -137,7 +184,7 @@ LEXICON weak-v-stem !!= @CODE@
 !! !Sublexica for the vowel stems
 !  - - - - - - - - - - - - - - - 
 
- LEXICON nom-strong
+LEXICON nom-strong
   +Sg+Nom: K ; 
   short-par ;
  
@@ -174,48 +221,40 @@ LEXICON short-par
 LEXICON long-par
  +Sg+Par:%>t%^A PxxK ;
 
-
-
 LEXICON 1TAVU_VV-ill  !short maahan
  +Sg+Ill:%>h%^V n-PxK ;
 
-
 LEXICON 2TAVU_V-ill !long
- +Sg+Ill:%>%^HMETAh%^V%^Vn n-PxK ;
-! sykshyyn
-! linnhaan
-
+ +Sg+Ill:%>%^HMETAh%^V%^V n-PxK ;
+! sykshyyn, linnhaan
 
 LEXICON mTAVU_VV-ill !longer kuninkhaa/sseen
 +Sg+Ill:%>ss%^V%^V n-PxK ;
 
+LEXICON oldgenpl
+ +Gen:%> n-PxK ;
 
-
-
-! LEXICON oldgenpl
-!  +Gen:%> n-PxK ;
-! 
 LEXICON shortgenpl
- +Gen:%>e n-PxK ;
+ +Gen:%>%^V n-PxK ;
 
-! LEXICON longgenpl
-!  d-longgenpl ;
-!  tt-longgenpl ; 
-! 
-! LEXICON d-longgenpl
-!  +Gen:%>de n-PxK ;
-! 
-! LEXICON tt-longgenpl
-!  +Gen:%>tte n-PxK ;
-! 
+LEXICON longgenpl
+ d-longgenpl ; ! oletaan, että -tten vaan
+ tt-longgenpl ; 
+
+LEXICON d-longgenpl
+ +Gen:%>de n-PxK ;
+
+LEXICON tt-longgenpl
+ +Gen:%>tte n-PxK ;
+
 LEXICON consgenpl
  +Gen:%>te n-PxK ;
 
 LEXICON shortparpl
- +Par:%>%^A PxxK ;
+ +Par:%>%^V PxxK ;
 
-! LEXICON longparpl
-!  +Par:%>%t^A PxxK ;
+LEXICON longparpl
+ +Par:%>%t^A PxxK ;
 
 LEXICON shortillpl
  +Ill:%>hi n-PxK ;
@@ -223,9 +262,9 @@ LEXICON shortillpl
 LEXICON shorterillpl
  +Ill:%>i2 n-PxK ;		
 
-! LEXICON longerillpl
-!  +Pl+Ill:%>s%^V%^V n-PxK ;
-! 
+LEXICON longerillpl
+  +Pl+Ill:%>s%^V%^V n-PxK ;
+ 
 
 !! !Sublexica for possessive suffixes
 ! ---------------------------------
@@ -260,23 +299,6 @@ LEXICON Px-Vn
  +PxSg3:%>%^Vn K ;
  +PxPl3:%>%^Vn K ;
 
-
-
-LEXICON nen  !!= @CODE@ on nainen-sanoille
- +N: nom-nen ;
- +N:se gae-strong ;
- +N+Sg:se%>i2 com ;
- +N+Pl:se%>i2 com ;
- +N:se weak-v-stem ;
- +N:s long-par ;
- +N:s 2TAVU_V-ill ;
- +N+Pl:s%>i2 shortgenpl ; ! naisien
- +N+Pl:s consgenpl ;
- +N+Pl:s%>i2 shortparpl ;
- +N+Pl:s%>i2 shorterillpl ;
-
-LEXICON nom-nen
-+Sg+Nom:nen K ;
 
 
 
