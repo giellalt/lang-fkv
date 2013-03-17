@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - tooli: # Noun 'borg' - full paradigm
+     tooli+N+Sg+Nom: tooli
+     tooli+N+Sg+Gen: toolin
+     tooli+N+Sg+Par: toollii
+     tooli+N+Sg+Tra: tooliksi
+     tooli+N+Sg+Abe: toolitta
+     tooli+N+Sg+Ine: toolissa
+     tooli+N+Sg+Ela: toolista
+     tooli+N+Sg+Ill: toolhiin
+     tooli+N+Sg+Ade: toolila
+     tooli+N+Sg+Abl: toolilta
+     tooli+N+Sg+All: toolile
+     tooli+N+Sg+Ess: toolina
+     tooli+N+Pl+Nom: toolit
+     tooli+N+Pl+Gen: toolliin
+     tooli+N+Pl+Par: toollii
+     tooli+N+Pl+Tra: tooliiksi
+     tooli+N+Pl+Abe: tooliitta
+     tooli+N+Pl+Ine: tooliissa
+     tooli+N+Pl+Ela: tooliista
+     tooli+N+Pl+Ill: toolhiin
+     tooli+N+Pl+Ade: tooliila
+     tooli+N+Pl+Abl: tooliilta
+     tooli+N+Pl+All: tooliile
+     tooli+N+Pl+Ess: tooliina

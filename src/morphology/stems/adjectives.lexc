@@ -1,4 +1,9 @@
 LEXICON AdjectiveRoot
 !! @LEXNAME@ ei ole aloitettu.
 
-hieno 21 ; !!= @CODE@ needs own adj lex tag
+hieno a_21 ; !!= @CODE@ needs own adj lex tag
+
+
+LEXICON a_21
++A: strong-v-stem ;
++A:%^WG weak-v-stem ;

@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - vuosi: # Noun 'borg' - full paradigm
+     vuosi+N+Sg+Nom: vuosi
+     vuosi+N+Sg+Gen: vuođen
+     vuosi+N+Sg+Par: vuotta
+     vuosi+N+Sg+Tra: vuođeksi
+     vuosi+N+Sg+Abe: vuođetta
+     vuosi+N+Sg+Ine: vuođessa
+     vuosi+N+Sg+Ela: vuođesta
+     vuosi+N+Sg+Ill: vuotheen
+     vuosi+N+Sg+Ade: vuođela
+     vuosi+N+Sg+Abl: vuođelta
+     vuosi+N+Sg+All: vuođele
+     vuosi+N+Sg+Ess: vuotena
+     vuosi+N+Pl+Nom: vuođet
+     vuosi+N+Pl+Gen: vuosiin
+     vuosi+N+Pl+Par: vuosii
+     vuosi+N+Pl+Tra: vuođeiksi
+     vuosi+N+Pl+Abe: vuođeitta
+     vuosi+N+Pl+Ine: vuođeissa
+     vuosi+N+Pl+Ela: vuođeista
+     vuosi+N+Pl+Ill: vuothiin
+     vuosi+N+Pl+Ade: vuođeila
+     vuosi+N+Pl+Abl: vuođeilta
+     vuosi+N+Pl+All: vuođeile
+     vuosi+N+Pl+Ess: vuoteina
