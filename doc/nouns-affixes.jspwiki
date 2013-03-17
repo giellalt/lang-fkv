@@ -4,45 +4,61 @@ Aloitin sovittaa analyysin Eiran kieliopin mukaan (Porsanki).
 Leksikot ovat nyt (tai pitää olla) n11, n12, jne., eli siis
 Eiran nominit tyyppi 1.1., 1.2., jne.
 
-Eiran luokittelu ei ole tarpeeksi tarkka meille,  pitäisi
-olla n11_nen jne. Edelleen on epäjohdomukaisuutta nimien suhteen.
+ 2007 s.87
+* 1. Yksitavuiset / Vi ( maa, tuorestai)		 = n_1
+* 2. Vokaalirankaiset						 = 
+** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
+** 2.2 Usseempitav. ( meininki, sivakka)		 = n_22
+** 2.3 Kokkoontumanom. ( valkkee, assii)		 = n_23
+* 3. Konsonanttirankaiset					 = 
+** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_22
+** 3.2 Usseempitavuiset ( tytär, rakkhaus)	 = n_32
+** 3.3 Kokkoontumanom. ( opas, huonet)		 = n_33s
+* 4. Ekstrakonsonanttirankaiset				 = 
+** 4.1 veres-nominit ( veres, kokkous)		 = n_41
+** 4.2 –inen-nominit ( kainulainen, vihrinen) = n_42 = nen
 
 !!Noun types
 
- LEXICON n11	  "poika", lyhyt vokali, yks vartalo
+ * LEXICON n_1  = maa
 
 
- LEXICON n11ie	 on ove, ovi, nom
+ * LEXICON n_21	  "poika", lyhyt vokali, yks vartalo
 
 
- LEXICON n12	  tytär, NB!! ei vielä hoidettu millään tavalla
+ * LEXICON n_21pl	  "poika", lyhyt vokali, yks vartalo
+
+
+
+
+ LEXICON n_21ie	 on ove, ovi, nom
+
+
+ * LEXICON n_22	  meininki
+
+ * LEXICON n_23	  assii
+
+
+ LEXICON n_31	 käsi, lumi
+
+ LEXICON n_32	  tytär, NB!! ei vielä hoidettu millään tavalla
 ei vielä hoidettu millään tavalla
 * Konsonanttivartalo: poista -e ja heikko aste
 
 
- LEXICON n21	 kaksitavvuiset yksirankaset
+
+ LEXICON n_33s  rakas
+
+ LEXICON n_33t  venet
+
+ * LEXICON n_41  = veres
+ * +N: sConsCase ;   toistaiseksi :-/
 
 
+the same affix in sg and pl
 
- LEXICON n22s  rakas
+ LEXICON nen   on nainen-sanoille
 
- LEXICON n22t  venet
-
-
-
-
-
- LEXICON 31	 kaksitavvuiset kakirankaset, meininki
-
- LEXICON 22	 usseempitavvuiset vokaalirankaiset, meininki
-
- LEXICON 32	 usseempitavvuiset konsonanttiirankaiset
-
- LEXICON 23	 kokkoontumarankaiset vokaalirankaiset
-
- LEXICON 33	 kokkoontumarankaiset konsonanttirankaiset
-
- LEXICON 40	 ekstrakonsonanttirankaiset
 
 
 
@@ -98,8 +114,6 @@ Komitatiivilla on vain -ine ja menee Pxx:iin
 
 
 
-
-
 !Sublexica for possessive suffixes
 
  LEXICON n-PxK   has either -n or goes to Px
@@ -111,10 +125,6 @@ Komitatiivilla on vain -ine ja menee Pxx:iin
 
 
 
-
-
-
- LEXICON nen   on nainen-sanoille
 
 
 

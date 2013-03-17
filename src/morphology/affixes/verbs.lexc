@@ -28,6 +28,7 @@ LEXICON impneg !!= @CODE@ negaation imperatiivipäätteet
 
 LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +Inf:olla K ;
++ConNeg:ole K_NEG ;
 +Act+Ind+Prs+Sg1:olen K ;
 +Act+Ind+Prs+Sg2:olet K ;
 +Act+Ind+Prs+Sg3:oon K ;
