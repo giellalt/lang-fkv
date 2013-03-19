@@ -239,17 +239,19 @@ Rules
 
 
 "II-I for ppttkk - ptk" 
-!Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
-!Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;   !toimii
 Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;   !entinen omppu
             where Cx in ( k p t ) ;
+
+!Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
+!Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;   !toimii
 
 !€ katto^WG>n
 !€ ka0to00n
 
 ! mieti (h)
 
-
+"Gradation of p:v"
+ p:v <=> Vowel: _ Vowel: Dummy:* (:i) Dummy:* %^WG:0 ;
 
 "I-0 for k:j" 
 k:j <=> [ i|i6: ] _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
@@ -415,6 +417,9 @@ t:s <=> Vowel n _  Vowel:0 (Dummy:) i3: ;
 
 "i:0 in par and gen pl of i-stems" ! ristien
  i:0 <=> Conson: _ %>:0 i2:i %>:0 [ %^V n | %^V: ] ;
+
+"i:0 in past tense of i-stems" ! leikin
+ i:0 <=> Conson: _ %>:0 i3:i ;
 
 
 
