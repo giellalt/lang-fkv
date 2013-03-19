@@ -287,8 +287,9 @@ k:0 <=> [ NotOUIY: | l | r ] _  NotE: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 k:0 <=> y _  NotEY: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
 
 
-"i:j between vowels"
-i:j <=> Vowel _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
+! Leena: odota!
+!"i:j between vowels"
+!i:j <=> Vowel _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 
 ! haka>^WGn
@@ -312,6 +313,7 @@ t:đ <=> Vowel  _  Vowel: (Dummy:) %^WG:0 ;
 t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 ;  
     where Nx in ( l n r ) ; 
 ! REmoved i3 from previuous rule, due to next, have a look
+! nt:nn before i3, if the vowel before i3 is not dropped out. 
 
 "ti : si" 
 t:s <=> Vowel n _  Vowel:0 (Dummy:) i3: ;  
@@ -392,6 +394,10 @@ t:s <=> Vowel n _  Vowel:0 (Dummy:) i3: ;
  
 ! otan - otin  
 
+"a:0 before Pret i when rounded root vowel in 3-syll stems"
+ a:0 <=> [u|o] (i) Conson: (Conson:) (Conson:) _ %>:0 [i2:|i3:] ;
+!€ kirjoitta>i3
+!€ kirjoitt00i
 
 "ä:0 before i except in conditional"
  ä:0 <=> Conson: _ Dummy:* %>:0 [ i | i2: | i3: | i5: ] ;
@@ -403,10 +409,15 @@ t:s <=> Vowel n _  Vowel:0 (Dummy:) i3: ;
            Vy in ( a ä u y o ö e )
            matched ;
 
-"a to o in front of i"
+"a to o in front of Pret and Pl i"
  a:o <=> [i|e|a] Conson:* _ Dummy:* %>:0 [i2:|i3:] ;
 !a:o <=> a Conson: Conson:*  _  (Dummy:) Y3: %>: i: ;
  ! kalaien : kalojen
+
+"a to o in front of Pl i in 3-syll stems"
+ a:o <=> Vowel Conson Conson:* Vowel:+ Conson:* _ Dummy:* %>:0 [i2:|i3:] ;
+!€ kulkkiija>i2
+!€ kulkkiijo0i
 
 !€ saa>i
 !€ sa00i     
