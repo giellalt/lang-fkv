@@ -16,23 +16,23 @@ Tests:
 
   Verb - juosta: # Verb 'to bring' - full paradigm
      juosta+V+Inf: juosta
-     juosta+V+Ind+Prs+Sg1: juoksen
-     juosta+V+Ind+Prs+Sg2: juokset
-     juosta+V+Ind+Prs+Sg3: juoksee
-     juosta+V+Ind+Prs+Pl1: juoksema
-     juosta+V+Ind+Prs+Pl2: juoksetta
-     juosta+V+Ind+Prs+Pl3: juosthaan
-     juosta+V+Ind+Prt+Sg1: juoksin
-     juosta+V+Ind+Prt+Sg2: juoksit
-     juosta+V+Ind+Prt+Sg3: juoksi
-     juosta+V+Ind+Prt+Pl1: juoksima
-     juosta+V+Ind+Prt+Pl2: juoksitta
-     juosta+V+Ind+Prt+Pl3: juosthiin
+     juosta+V+Act+Ind+Prs+Sg1: juoksen
+     juosta+V+Act+Ind+Prs+Sg2: juokset
+     juosta+V+Act+Ind+Prs+Sg3: juoksee
+     juosta+V+Act+Ind+Prs+Pl1: juoksema
+     juosta+V+Act+Ind+Prs+Pl2: juoksetta
+     juosta+V+Act+Ind+Prs+Pl3: juosthaan
+     juosta+V+Act+Ind+Prt+Sg1: juoksin
+     juosta+V+Act+Ind+Prt+Sg2: juoksit
+     juosta+V+Act+Ind+Prt+Sg3: juoksi
+     juosta+V+Act+Ind+Prt+Pl1: juoksima
+     juosta+V+Act+Ind+Prt+Pl2: juoksitta
+     juosta+V+Act+Ind+Prt+Pl3: juosthiin
      juosta+V+PrfPrc+Sg+Nom: juossu
      
-     juosta+V+Cond+Sg1: juoksisin
-     juosta+V+Cond+Sg2: juoksisit
-     juosta+V+Cond+Sg3: juoksisi
-     juosta+V+Cond+Pl1: juoksisimma
-     juosta+V+Cond+Pl2: juoksisitta
-     juosta+V+Cond+Pl3: juoksisivat
+     juosta+V+Act+Cond+Sg1: juoksisin
+     juosta+V+Act+Cond+Sg2: juoksisit
+     juosta+V+Act+Cond+Sg3: juoksisi
+     juosta+V+Act+Cond+Pl1: juoksisimma
+     juosta+V+Act+Cond+Pl2: juoksisitta
+     juosta+V+Act+Cond+Pl3: juoksisivat
