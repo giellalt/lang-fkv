@@ -7,9 +7,10 @@
 !! !!!Auxiliaries
 
 
-LEXICON neg !!= @CODE@ jakaantuu kahteen
- +Ind: indneg ;
- +Imp: impneg ;
+LEXICON neg !!= @CODE@ jakaantuu kolmeen
+ +Act+Ind: indneg ;
+ +Act+Imp: impneg ;
+
 
 LEXICON indneg !!= @CODE@ negaation indikatiivipäätteet
 
@@ -42,12 +43,12 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +Act+Ind+Prt+Pl2:olitta K ;
 +Act+Ind+Prt+Pl3:olit K ;
 
-+V+Cond+Sg1:olisin      K   ; ! olisin
-+V+Cond+Sg2:olisit      K   ; ! olisit	
-+V+Cond+Sg3:olis      K   ;	! olisi
-+V+Cond+Pl1:olisima    K   ; ! olisima
-+V+Cond+Pl2:olisitta    K   ; ! olisitta
-+V+Cond+Pl3:olisivat     K   ; ! olisivat
++Act+Cond+Sg1:olisin      K   ; ! olisin
++Act+Cond+Sg2:olisit      K   ; ! olisit	
++Act+Cond+Sg3:olis      K   ;	! olisi
++Act+Cond+Pl1:olisima    K   ; ! olisima
++Act+Cond+Pl2:olisitta    K   ; ! olisitta
++Act+Cond+Pl3:olisivat     K   ; ! olisivat
 
 !! !!!Verbiluokat v1...
 
@@ -61,111 +62,111 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 LEXICON v1 !!= @CODE@ saađa:saa 
 +V+Inf:%>đ%^A K ; ! đ
 +V+Inf+Use/Sub:%>d%^A K ; ! d
-+V+Ind+Prs:    v12pers_short ;
-+V+Ind+Prt:%>i3 v12pers_short ;
-+V+Ind+Prs+Sg3:%>pi K ;
-+V+Ind+Prs+Pl3:%>đh%^A%^An K ; ! đ
-+V+Ind+Prs+Pl3:%>dh%^A%^An K ; ! d
-+V+Ind+Prt+Sg3:%>i3 K ;
-+V+Ind+Prt+Pl3:%>thiin K ; 
++V+Act+Ind+Prs:    v12pers_short ;
++V+Act+Ind+Prt:%>i3 v12pers_short ;
++V+Act+Ind+Prs+Sg3:%>pi K ;
++V+Act+Ind+Prs+Pl3:%>đh%^A%^An K ; ! đ
++V+Act+Ind+Prs+Pl3:%>dh%^A%^An K ; ! d
++V+Act+Ind+Prt+Sg3:%>i3 K ;
++V+Act+Ind+Prt+Pl3:%>thiin K ; 
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc:hn%>hee PRFPRC_OBL ;
-+V+Ind+Prs+ConNeg: K ;
++V+Act+Ind+Prs+ConNeg: K ;
 
-+V+Cond+Sg1:%>isin      K   ; ! saisin
-+V+Cond+Sg2:%>isit      K   ;
-+V+Cond+Sg3:%>is      K   ;
-+V+Cond+Pl1:%>isimm%^A    K   ;
-+V+Cond+Pl2:%>isitt%^A    K   ;
-+V+Cond+Pl3:%>isiv%^At     K   ;
++V+Act+Cond+Sg1:%>isin      K   ; ! saisin
++V+Act+Cond+Sg2:%>isit      K   ;
++V+Act+Cond+Sg3:%>is      K   ;
++V+Act+Cond+Pl1:%>isimm%^A    K   ;
++V+Act+Cond+Pl2:%>isitt%^A    K   ;
++V+Act+Cond+Pl3:%>isiv%^At     K   ;
 
 LEXICON v1nahda !!= @CODE@ nähđä:nä 
 +V+Inf:h%>đ%^A K ; ! đ
 +V+Inf+Use/Sub:h%>d%^A K ; ! d
-+V+Ind+Prs:je    v12pers_short ;
-+V+Ind+Prt:%>ji v12pers_short ;
-+V+Ind+Prs+Sg3:ke%>e K ;
-+V+Ind+Prs+Pl3:h%>đh%^A%^An K ; ! đ
-+V+Ind+Prs+Pl3:jet%>h%^A%^An K ; ! đ
-+V+Ind+Prt+Sg3:k%>i K ;
-+V+Ind+Prt+Pl3:h%>thiin K ; 
-+V+Ind+Prt+Pl3:je%>thiin K ; 
++V+Act+Ind+Prs:je    v12pers_short ;
++V+Act+Ind+Prt:%>ji v12pers_short ;
++V+Act+Ind+Prs+Sg3:ke%>e K ;
++V+Act+Ind+Prs+Pl3:h%>đh%^A%^An K ; ! đ
++V+Act+Ind+Prs+Pl3:jet%>h%^A%^An K ; ! đ
++V+Act+Ind+Prt+Sg3:k%>i K ;
++V+Act+Ind+Prt+Pl3:h%>thiin K ; 
++V+Act+Ind+Prt+Pl3:je%>thiin K ; 
 +V+PrfPrc+Sg+Nom:h%>%^N%^U K ;
 +V+PrfPrc:hn%>ee PRFPRC_OBL ;
-+V+Ind+Prs+ConNeg: K ;
++V+Act+Ind+Prs+ConNeg: K ;
 
-+V+Cond+Sg1:%>kisin      K   ; ! näkisin
-+V+Cond+Sg2:%>kisit      K   ;
-+V+Cond+Sg3:%>kisi      K   ;
-+V+Cond+Pl1:%>kisimm%^A    K   ;
-+V+Cond+Pl2:%>kkisitt%^A    K   ;
-+V+Cond+Pl3:%kisiv%^At     K   ;
++V+Act+Cond+Sg1:%>kisin      K   ; ! näkisin
++V+Act+Cond+Sg2:%>kisit      K   ;
++V+Act+Cond+Sg3:%>kisi      K   ;
++V+Act+Cond+Pl1:%>kisimm%^A    K   ;
++V+Act+Cond+Pl2:%>kkisitt%^A    K   ;
++V+Act+Cond+Pl3:%kisiv%^At     K   ;
 
 LEXICON v1tehda !!= @CODE@ tehđä:te 
 +V+Inf:h%>đ%^A K ; ! đ
 +V+Inf+Use/Sub:h%>d%^A K ; ! d
-+V+Ind+Prs:he    v12pers_short ;
-+V+Ind+Prt:%>hi v12pers_short ;
-+V+Ind+Prs+Sg3:ke%>e K ;
-+V+Ind+Prs+Pl3:h%>đh%^A%^An K ; ! đ
-+V+Ind+Prt+Sg3:k%>i K ;
-+V+Ind+Prt+Pl3:h%>thiin K ; 
++V+Act+Ind+Prs:he    v12pers_short ;
++V+Act+Ind+Prt:%>hi v12pers_short ;
++V+Act+Ind+Prs+Sg3:ke%>e K ;
++V+Act+Ind+Prs+Pl3:h%>đh%^A%^An K ; ! đ
++V+Act+Ind+Prt+Sg3:k%>i K ;
++V+Act+Ind+Prt+Pl3:h%>thiin K ; 
 +V+PrfPrc+Sg+Nom:h%>%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
-+V+Ind+Prs+ConNeg: K ;
++V+Act+Ind+Prs+ConNeg: K ;
 
-+V+Cond+Sg1:k%>isin      K   ; ! tekisin
-+V+Cond+Sg2:k%>isit      K   ;
-+V+Cond+Sg3:k%>isi      K   ;
-+V+Cond+Pl1:k%>isimm%^A    K   ;
-+V+Cond+Pl2:k%>isitt%^A    K   ;
-+V+Cond+Pl3:k%>isiv%^At     K   ;
++V+Act+Cond+Sg1:k%>isin      K   ; ! tekisin
++V+Act+Cond+Sg2:k%>isit      K   ;
++V+Act+Cond+Sg3:k%>isi      K   ;
++V+Act+Cond+Pl1:k%>isimm%^A    K   ;
++V+Act+Cond+Pl2:k%>isitt%^A    K   ;
++V+Act+Cond+Pl3:k%>isiv%^At     K   ;
 
 LEXICON v2 !!= @CODE@ anttaat:anta 
 +V+Inf:%>%^Vt K ; 
-+V+Ind+Prs: v12pers_short ;
-+V+Ind+Prt:%>i3 v12pers_short ;
-+V+Ind+Prs+Sg3:%>%^V K ;
-+V+Ind+Prs+Pl3:%^AE%^WG%>th%^A%^An K ; 
-+V+Ind+Prt+Sg3:%>i3 K ;
-+V+Ind+Prt+Pl3:%^AE%^WG%>thiin K ; 
++V+Act+Ind+Prs: v12pers_short ;
++V+Act+Ind+Prt:%>i3 v12pers_short ;
++V+Act+Ind+Prs+Sg3:%>%^V K ;
++V+Act+Ind+Prs+Pl3:%^AE%^WG%>th%^A%^An K ; 
++V+Act+Ind+Prt+Sg3:%>i3 K ;
++V+Act+Ind+Prt+Pl3:%^AE%^WG%>thiin K ; 
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:%>isin      K   ; ! antaisin
-+V+Cond+Sg2:%>isit      K   ;
-+V+Cond+Sg3:%>isi      K   ;
-+V+Cond+Pl1:%>isimm%^A    K   ;
-+V+Cond+Pl2:%>isitt%^A    K   ;
-+V+Cond+Pl3:%>isiv%^At     K   ;
++V+Act+Cond+Sg1:%>isin      K   ; ! antaisin
++V+Act+Cond+Sg2:%>isit      K   ;
++V+Act+Cond+Sg3:%>isi      K   ;
++V+Act+Cond+Pl1:%>isimm%^A    K   ;
++V+Act+Cond+Pl2:%>isitt%^A    K   ;
++V+Act+Cond+Pl3:%>isiv%^At     K   ;
 
 LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Inf:%>%^Vt K ; 
-+V+Ind+Prs: v12pers_long ;
-+V+Ind+Prt:%>i3 v12pers_long ;
-+V+Ind+Prs+Sg3:%>%^V K ;
-+V+Ind+Prs+Pl3:%^AE%^WG%>th%^A%^An K ; 
-+V+Ind+Prt+Sg3:%>i3 K ;
-+V+Ind+Prt+Pl3:%^AE%^WG%>thiin K ; 
++V+Act+Ind+Prs: v12pers_long ;
++V+Act+Ind+Prt:%>i3 v12pers_long ;
++V+Act+Ind+Prs+Sg3:%>%^V K ;
++V+Act+Ind+Prs+Pl3:%^AE%^WG%>th%^A%^An K ; 
++V+Act+Ind+Prt+Sg3:%>i3 K ;
++V+Act+Ind+Prt+Pl3:%^AE%^WG%>thiin K ; 
 !+V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc+Sg+Nom:%>nn%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:%>isin      K   ; ! kirjoittaisin
-+V+Cond+Sg2:%>isit      K   ;
-+V+Cond+Sg3:%>isi      K   ;
-+V+Cond+Pl1:%>isimm%^A    K   ;
-+V+Cond+Pl2:%>isitt%^A    K   ;
-+V+Cond+Pl3:%>isiv%^At     K   ;
++V+Act+Cond+Sg1:%>isin      K   ; ! kirjoittaisin
++V+Act+Cond+Sg2:%>isit      K   ;
++V+Act+Cond+Sg3:%>isi      K   ;
++V+Act+Cond+Pl1:%>isimm%^A    K   ;
++V+Act+Cond+Pl2:%>isitt%^A    K   ;
++V+Act+Cond+Pl3:%>isiv%^At     K   ;
 
 LEXICON v3_ele !!= @CODE@ kävelä:kävel 
 +V+Inf:%>%^A K ; 
-+V+Ind+Prs+Sg3:%>ee K ; 
-+V+Ind+Prs+Pl3:%>h^A^An K ; 
-+V+Ind+Prt+Sg3:%>i3 K ;
-+V+Ind+Prt+Pl3:%>thiin K ; 
-+V+Ind+Prs:%>e v12pers_long ;
-+V+Ind+Prt:%>i3 v12pers_long ;
++V+Act+Ind+Prs+Sg3:%>ee K ; 
++V+Act+Ind+Prs+Pl3:%>h^A^An K ; 
++V+Act+Ind+Prt+Sg3:%>i3 K ;
++V+Act+Ind+Prt+Pl3:%>thiin K ; 
++V+Act+Ind+Prs:%>e v12pers_long ;
++V+Act+Ind+Prt:%>i3 v12pers_long ;
 !+V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc+Sg+Nom:%>%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
@@ -173,136 +174,136 @@ LEXICON v3_ele !!= @CODE@ kävelä:kävel
 !! * aukaista > aukaisemma
 !! * täristä > tärisemä
 
-+V+Cond+Sg1:%>isin      K   ; ! kävelisin
-+V+Cond+Sg2:%>isit      K   ;
-+V+Cond+Sg3:%>isi      K   ;
-+V+Cond+Pl1:%>isimm%^A    K   ;
-+V+Cond+Pl2:%>isitt%^A    K   ;
-+V+Cond+Pl3:%>isiv%^At     K   ;
++V+Act+Cond+Sg1:%>isin      K   ; ! kävelisin
++V+Act+Cond+Sg2:%>isit      K   ;
++V+Act+Cond+Sg3:%>isi      K   ;
++V+Act+Cond+Pl1:%>isimm%^A    K   ;
++V+Act+Cond+Pl2:%>isitt%^A    K   ;
++V+Act+Cond+Pl3:%>isiv%^At     K   ;
 
 LEXICON v3_ise !!= @CODE@ aukaista:aukaise 
 +V+Inf:%>t%^A K ; 
-+V+Ind+Prs+Sg3:%>see K ; 
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; 
-+V+Ind+Prt+Sg3:%>i3 K ;
-+V+Ind+Prt+Pl3:%>thiin K ; 
-+V+Ind+Prs:%>e v12pers_long ; ! aukaisemma
-+V+Ind+Prt:%>i3 v12pers_long ; ! aukaisimma
++V+Act+Ind+Prs+Sg3:%>see K ; 
++V+Act+Ind+Prs+Pl3:%>th%^A%^An K ; 
++V+Act+Ind+Prt+Sg3:%>i3 K ;
++V+Act+Ind+Prt+Pl3:%>thiin K ; 
++V+Act+Ind+Prs:%>e v12pers_long ; ! aukaisemma
++V+Act+Ind+Prt:%>i3 v12pers_long ; ! aukaisimma
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:%>isin      K   ; ! aukaisisin
-+V+Cond+Sg2:%>isit      K   ;
-+V+Cond+Sg3:%>isi      K   ;
-+V+Cond+Pl1:%>isimm%^A    K   ;
-+V+Cond+Pl2:%>isitt%^A    K   ;
-+V+Cond+Pl3:%>isiv%^At     K   ;
++V+Act+Cond+Sg1:%>isin      K   ; ! aukaisisin
++V+Act+Cond+Sg2:%>isit      K   ;
++V+Act+Cond+Sg3:%>isi      K   ;
++V+Act+Cond+Pl1:%>isimm%^A    K   ;
++V+Act+Cond+Pl2:%>isitt%^A    K   ;
++V+Act+Cond+Pl3:%>isiv%^At     K   ;
 
 LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Inf:%>%^N%^A K ; !! * pitää tehdä %^D
-+V+Ind+Prs+Sg3:e K ; 
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; 
-+V+Ind+Prt+Sg3:%>i3 K ;
-+V+Ind+Prt+Pl3:%>thiin K ; 
-+V+Ind+Prs:%>e v12pers_short ;
-+V+Ind+Prt:%>i3 v12pers_short ;
++V+Act+Ind+Prs+Sg3:e K ; 
++V+Act+Ind+Prs+Pl3:%>th%^A%^An K ; 
++V+Act+Ind+Prt+Sg3:%>i3 K ;
++V+Act+Ind+Prt+Pl3:%>thiin K ; 
++V+Act+Ind+Prs:%>e v12pers_short ;
++V+Act+Ind+Prt:%>i3 v12pers_short ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ; !! * Lyhyt partisiippi
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
 LEXICON v3juosta !!= @CODE@ juosta:juo 
 +V+Inf:s%>t%^A K ; 
-+V+Ind+Prs+Sg3:%>ksee K ; 
-+V+Ind+Prs+Pl3:%>sth%^A%^An K ; 
-+V+Ind+Prt+Sg3:%>ksi K ;
-+V+Ind+Prt+Pl3:%>sthiin K ; 
-+V+Ind+Prs:%>kse v12pers_short ;
-+V+Ind+Prt:%>ksi v12pers_short ;
++V+Act+Ind+Prs+Sg3:%>ksee K ; 
++V+Act+Ind+Prs+Pl3:%>sth%^A%^An K ; 
++V+Act+Ind+Prt+Sg3:%>ksi K ;
++V+Act+Ind+Prt+Pl3:%>sthiin K ; 
++V+Act+Ind+Prs:%>kse v12pers_short ;
++V+Act+Ind+Prt:%>ksi v12pers_short ;
 +V+PrfPrc+Sg+Nom:s%>%^N%^U K ;
 +V+PrfPrc:s%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:%>ksisin      K   ; ! juoksisin
-+V+Cond+Sg2:%>ksisit      K   ;
-+V+Cond+Sg3:%>ksisi      K   ;
-+V+Cond+Pl1:%>ksisimm%^A    K   ;
-+V+Cond+Pl2:%>ksisitt%^A    K   ;
-+V+Cond+Pl3:%>ksisiv%^At     K   ;
++V+Act+Cond+Sg1:%>ksisin      K   ; ! juoksisin
++V+Act+Cond+Sg2:%>ksisit      K   ;
++V+Act+Cond+Sg3:%>ksisi      K   ;
++V+Act+Cond+Pl1:%>ksisimm%^A    K   ;
++V+Act+Cond+Pl2:%>ksisitt%^A    K   ;
++V+Act+Cond+Pl3:%>ksisiv%^At     K   ;
 
 LEXICON v4 !!= @CODE@ vanheta:vanhe 
 +V+Inf:%>t%^A K ; 
-+V+Ind+Prs+Sg3:nee K ; !
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; 
-+V+Ind+Prt+Sg3:ni K ;
-+V+Ind+Prt+Pl3:%>thiin K ; 
-+V+Ind+Prs:%>ne v12pers_long ;
-+V+Ind+Prt:%>ni v12pers_long ;
++V+Act+Ind+Prs+Sg3:nee K ; !
++V+Act+Ind+Prs+Pl3:%>th%^A%^An K ; 
++V+Act+Ind+Prt+Sg3:ni K ;
++V+Act+Ind+Prt+Pl3:%>thiin K ; 
++V+Act+Ind+Prs:%>ne v12pers_long ;
++V+Act+Ind+Prt:%>ni v12pers_long ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:%>nisin      K   ; ! vanhenisin
-+V+Cond+Sg2:%>nisit      K   ;
-+V+Cond+Sg3:%>nis      K   ;
-+V+Cond+Pl1:%>nisimm%^A    K   ;
-+V+Cond+Pl2:%>nisitt%^A    K   ;
-+V+Cond+Pl3:%>nisiv%^At     K   ;
++V+Act+Cond+Sg1:%>nisin      K   ; ! vanhenisin
++V+Act+Cond+Sg2:%>nisit      K   ;
++V+Act+Cond+Sg3:%>nis      K   ;
++V+Act+Cond+Pl1:%>nisimm%^A    K   ;
++V+Act+Cond+Pl2:%>nisitt%^A    K   ;
++V+Act+Cond+Pl3:%>nisiv%^At     K   ;
 
 LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Inf:%>t%^A K ; 
-+V+Ind+Prs+Sg3:ttee K ; 
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; 
-+V+Ind+Prt+Sg3:%>tti K ;
-+V+Ind+Prt+Pl3:%>thiin K ; 
-+V+Ind+Prs:%>tte v12pers_long ;
-+V+Ind+Prt:%>tti v12pers_long ;
++V+Act+Ind+Prs+Sg3:ttee K ; 
++V+Act+Ind+Prs+Pl3:%>th%^A%^An K ; 
++V+Act+Ind+Prt+Sg3:%>tti K ;
++V+Act+Ind+Prt+Pl3:%>thiin K ; 
++V+Act+Ind+Prs:%>tte v12pers_long ;
++V+Act+Ind+Prt:%>tti v12pers_long ;
 +V+PrfPrc+Sg+Nom:%>ttenn%^U K ; !! * Pitkä partisiippi
 +V+PrfPrc+Sg+Nom:%>n%^U K ; !! * Lyhyt partisiippi
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 !! +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:%>ttisin      K   ; ! kyytittisin
-+V+Cond+Sg2:%>ttisit      K   ;
-+V+Cond+Sg3:%>ttisi      K   ;
-+V+Cond+Pl1:%>ttisimm%^A    K   ;
-+V+Cond+Pl2:%>ttisitt%^A    K   ;
-+V+Cond+Pl3:%>ttisiv%^At     K   ;
++V+Act+Cond+Sg1:%>ttisin      K   ; ! kyytittisin
++V+Act+Cond+Sg2:%>ttisit      K   ;
++V+Act+Cond+Sg3:%>ttisi      K   ;
++V+Act+Cond+Pl1:%>ttisimm%^A    K   ;
++V+Act+Cond+Pl2:%>ttisitt%^A    K   ;
++V+Act+Cond+Pl3:%>ttisiv%^At     K   ;
 
 LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+Inf:%>đ%^A K ; 
-+V+Ind+Prs+Sg3:ttee K ; 
-+V+Ind+Prs+Pl3:%>th%^A%^An K ; 
-+V+Ind+Prt+Sg3:%>tti K ;
-+V+Ind+Prt+Pl3:%>thiin K ; 
-+V+Ind+Prs:%>tte v12pers_short ;
-+V+Ind+Prt:%>tti v12pers_short ;
++V+Act+Ind+Prs+Sg3:ttee K ; 
++V+Act+Ind+Prs+Pl3:%>th%^A%^An K ; 
++V+Act+Ind+Prt+Sg3:%>tti K ;
++V+Act+Ind+Prt+Pl3:%>thiin K ; 
++V+Act+Ind+Prs:%>tte v12pers_short ;
++V+Act+Ind+Prt:%>tti v12pers_short ;
 +V+PrfPrc+Sg+Nom:%>n%^U K ; !! * Lyhyt partisiippi
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 !! +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:%>sin      K   ; ! haravoisin
-+V+Cond+Sg2:%>sit      K   ;
-+V+Cond+Sg3:%>si      K   ;
-+V+Cond+Pl1:%>simm%^A    K   ;
-+V+Cond+Pl2:%>sitt%^A    K   ;
-+V+Cond+Pl3:%>siv%^At     K   ;
++V+Act+Cond+Sg1:%>sin      K   ; ! haravoisin
++V+Act+Cond+Sg2:%>sit      K   ;
++V+Act+Cond+Sg3:%>si      K   ;
++V+Act+Cond+Pl1:%>simm%^A    K   ;
++V+Act+Cond+Pl2:%>sitt%^A    K   ;
++V+Act+Cond+Pl3:%>siv%^At     K   ;
 
 
 LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Inf:%>%^WGt%^A K ; !
-+V+Ind+Prs+Sg3:%>%^A K ; !
-+V+Ind+Prs+Pl3:%>%^WGth%^A%^An K ; 
-+V+Ind+Prt+Sg3:%>s K ;
-+V+Ind+Prt+Sg3:%>si K ;
-+V+Ind+Prt+Pl3:%>%^WGthiin K ; 
-+V+Ind+Prs:%>%^A v12pers_short ;
-+V+Ind+Prt:%>si v12pers_long ;
++V+Act+Ind+Prs+Sg3:%>%^A K ; !
++V+Act+Ind+Prs+Pl3:%>%^WGth%^A%^An K ; 
++V+Act+Ind+Prt+Sg3:%>s K ;
++V+Act+Ind+Prt+Sg3:%>si K ;
++V+Act+Ind+Prt+Pl3:%>%^WGthiin K ; 
++V+Act+Ind+Prs:%>%^A v12pers_short ;
++V+Act+Ind+Prt:%>si v12pers_long ;
 +V+PrfPrc+Sg+Nom:%>%^WG%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 
-+V+Cond+Sg1:%>isin      K   ; ! jatkaisin
-+V+Cond+Sg2:%>isit      K   ;
-+V+Cond+Sg3:%>isi      K   ;
-+V+Cond+Pl1:%>isimm%^A    K   ;
-+V+Cond+Pl2:%>isitt%^A    K   ;
-+V+Cond+Pl3:%>isiv%^At     K   ;
++V+Act+Cond+Sg1:%>isin      K   ; ! jatkaisin
++V+Act+Cond+Sg2:%>isit      K   ;
++V+Act+Cond+Sg3:%>isi      K   ;
++V+Act+Cond+Pl1:%>isimm%^A    K   ;
++V+Act+Cond+Pl2:%>isitt%^A    K   ;
++V+Act+Cond+Pl3:%>isiv%^At     K   ;
 
 
 
