@@ -9,7 +9,8 @@ R S T U V W X Y Z Å Ä Ö Æ Ø                 !!= * @CODE@
 %+:0                                        !!= * @CODE@
 %^A:ä %^O:ö %^U:y %^V %^N:n                 !!= * @CODE@
 %>:0                                        !!= * @CODE@
-i2:i i3:i i6:i t2:t                         !!= * @CODE@
+i2:i i3:i i4:i i5:i i6:i                    !!= * @CODE@
+t2:t                                        !!= * @CODE@
 %^HMETA:0 %^WG:0 %^E2I:0                    !!= * @CODE@
 %^VDEL:0 %^EDEL:0                           !!= * @CODE@
 %^AE:0                                      !!= * @CODE@
@@ -23,9 +24,9 @@ ArchiVowel =  %^A %^O %^U ;                                         !!= * @CODE@
 ArchiConson = %^N ;                                                 !!= * @CODE@ 
 SomeVowel = %^V ;                                                   !!= * @CODE@ 
 Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ;                 !!= * @CODE@ 
-NotE = i i2 i3 i6 y ä ö ü æ ø a o u å ;
-NotEY = i i2 i3 i6 ä ö ü æ ø a o u å ;
-NotOU = e i i2 i3 i6 y ä ö ü æ ø a ;
+NotE = i i2 i3 i4 i5 i6 y ä ö ü æ ø a o u å ;
+NotEY = i i2 i3 i4 i5 i6 ä ö ü æ ø a o u å ;
+NotOU = e i i2 i3 i4 i5 i6 y ä ö ü æ ø a ;
 NotOUI = e y ä ö ü æ ø a ;
 NotOUIY = e ä ö ü æ ø a ;
 Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;       !!= * @CODE@ 
@@ -365,7 +366,7 @@ t:s <=> Vowel n _  Vowel:0 (Dummy:) i3: ;
 !€ rak0a000>s
 
 "Stem deletion in h-illative" !!= * @CODE@  
- Vx:0 <=> Conson _ %>:0 %^HMETA: ; 
+ Vx:0 <=> Conson _ %>:0 %^HMETA:0 %^V:0 ; 
     where Vx in ( a e i o u y ä ö ) ; 
     
 !€ syksy>h^V^Vn
@@ -392,8 +393,8 @@ t:s <=> Vowel n _  Vowel:0 (Dummy:) i3: ;
 ! otan - otin  
 
 
-"ä:0 before i except in superlative"
- ä:0 <=> Conson: _ Dummy:* %>:0 [ i | i2: | i3 ] ;
+"ä:0 before i except in conditional"
+ ä:0 <=> Conson: _ Dummy:* %>:0 [ i | i2: | i3: | i5: ] ;
  
 
 "Shortening of long vowel in front of i" !!= * @CODE@  
