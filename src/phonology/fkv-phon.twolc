@@ -383,7 +383,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 (Dummy:) ] ;
            matched ;
 
 "a to o in front of Pret and Pl i"
- a:o <=> [i|e|a] Conson:* _ Dummy:* %>:0 [i2:|i3:] ;
+ a:o <=> .#. Conson:* Vowel:* [i|e|a] Conson:* _ Dummy:* %>:0 [i2:|i3:] ;
 !a:o <=> a Conson: Conson:*  _  (Dummy:) Y3: %>: i: ;
  ! kalaien : kalojen
 
