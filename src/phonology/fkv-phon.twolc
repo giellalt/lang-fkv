@@ -245,7 +245,8 @@ k:0 <=> y _  NotEY: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 ! pölkä>^WGt^A : pölätä 
 "Gradation of k between u/y" 
-k:v <=> Conson Vowel _ u (Dummy:) (:i) (Dummy:) %^WG:0 ;
+k:v <=> Conson Vowel _ u     (Dummy:) (:i) (Dummy:) %^WG:0 ;
+        Conson u     _ Vowel (Dummy:) (:i) (Dummy:) %^WG:0 ;
         Conson Vowel _ y (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !k:v <=> Conson u _ u (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !        Conson y _ y (Dummy:) (:i) (Dummy:) %^WG:0 ;

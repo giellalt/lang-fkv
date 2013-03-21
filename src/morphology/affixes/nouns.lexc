@@ -93,7 +93,7 @@ n_33s ;
 
 LEXICON n_33s !!= @CODE@ rakas
 +N: sConsCase ; ! nom, par
-+N: loput ;
++N:%>%^HMETAh%^V%^V loput ;
 
 LEXICON n_33t !!= @CODE@ venet
 +N: tConsCase ; ! nom, par
@@ -144,8 +144,8 @@ LEXICON loput
 +Pl:%>i2 shortillpl ;
 
 LEXICON sConsCase
-+Sg+Nom:%^VDEL%^WG%>s K ;
-+Sg+Par:%^VDEL%^WG%>st%^A K ; ! Par
++Sg+Nom:%^WG%>s K ;
++Sg+Par:%^WG%>st%^A K ; ! Par
 
 LEXICON tConsCase
 +Sg+Nom:%^WG%>t K ;
