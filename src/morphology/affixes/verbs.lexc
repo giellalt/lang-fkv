@@ -97,7 +97,7 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 
 +V+Act+Cond+Sg1:%>kisin K ; ! näkisin
 +V+Act+Cond+Sg2:%>kisit K ;
-+V+Act+Cond+Sg3:%>kisi K ;
++V+Act+Cond+Sg3:%>kis K ;
 +V+Act+Cond+Pl1:%>kisimm%^A K ;
 +V+Act+Cond+Pl2:%>kisitt%^A K ;
 +V+Act+Cond+Pl3:%>htäis K ;
@@ -117,7 +117,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 
 +V+Act+Cond+Sg1:k%>i4sin K ; ! tekisin
 +V+Act+Cond+Sg2:k%>i4sit K ;
-+V+Act+Cond+Sg3:k%>i4si K ;
++V+Act+Cond+Sg3:k%>i4s K ;
 +V+Act+Cond+Pl1:k%>i4simm%^A K ;
 +V+Act+Cond+Pl2:k%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:htä%>i4s K ;
@@ -154,7 +154,7 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
 +V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4si K ;
++V+Act+Cond+Sg3:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:%>i4s K ;
@@ -176,7 +176,7 @@ LEXICON v3_ele !!= @CODE@ kävelä:kävel
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! kävelisin
 +V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4si K ;
++V+Act+Cond+Sg3:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:t%^A%>i4s K ;
@@ -194,7 +194,7 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! aukaisisin
 +V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4si K ;
++V+Act+Cond+Sg3:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:t%^A%>i4s K ;
@@ -223,7 +223,7 @@ LEXICON v3juosta !!= @CODE@ juosta:juo
 
 +V+Act+Cond+Sg1:%>ksisin K ; ! juoksisin
 +V+Act+Cond+Sg2:%>ksisit K ;
-+V+Act+Cond+Sg3:%>ksisi K ;
++V+Act+Cond+Sg3:%>ksis K ;
 +V+Act+Cond+Pl1:%>ksisimm%^A K ;
 +V+Act+Cond+Pl2:%>ksisitt%^A K ;
 +V+Act+Cond+Pl3:%>stais K ;
@@ -261,7 +261,7 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 
 +V+Act+Cond+Sg1:%>ttisin K ; ! kyytittisin
 +V+Act+Cond+Sg2:%>ttisit K ;
-+V+Act+Cond+Sg3:%>ttisi K ;
++V+Act+Cond+Sg3:%>ttis K ;
 +V+Act+Cond+Pl1:%>ttisimm%^A K ;
 +V+Act+Cond+Pl2:%>ttisitt%^A K ;
 +V+Act+Cond+Pl3:%>tt%^Ais K ;
@@ -280,7 +280,7 @@ LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 
 +V+Act+Cond+Sg1:%>sin K ; ! haravoisin
 +V+Act+Cond+Sg2:%>sit K ;
-+V+Act+Cond+Sg3:%>si K ;
++V+Act+Cond+Sg3:%>s K ;
 +V+Act+Cond+Pl1:%>simm%^A K ;
 +V+Act+Cond+Pl2:%>sitt%^A K ;
 +V+Act+Cond+Pl3:%>tt%>^Ais K ;
@@ -300,7 +300,7 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! jatkaisin
 +V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4si K ;
++V+Act+Cond+Sg3:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:%>tt%^A%>i4s K ;
