@@ -248,19 +248,35 @@ LEXICON p3refpron
 +Ade:elänsä    K ;
 +Abl:ltänsä   K ;
 
+!! LEXICON toinen
+!! +Pron: # ;
 
-!! LEXICON toinen_recpron
+!! LEXICON toisen
 !! +Nom:toinen% toinen     K ;
 !! +Gen:toinen% toiseen     K ;
 !! +Ill:toinen% toisheen     K ;
-!! +Par:toinen% toista     K ; !!m. toisiansa 
+!! +Par:toinen% toista     K ; !!m.toisiansa 
 !! +Ess:toinen% toisena     K ;
 !! +Tra:toinen% toiseksi     K ;
 !! +Ine:toinen% toisessa     K ;
-!! +Ela:toinen% toista     K ; !m. toisiansa, -insa
-!! +All:toinen% toisele     K ; !m. toisilensa
+!! +Ela:toinen% toista     K ; !m.toisiansa,-insa
+!! +All:toinen% toisele     K ; !m.toisilensa
 !! +Ade:toinen% toisela     K ;
 !! +Abl:toinen% toiselta     K ;
+
+
+!! LEXICON toinen_toisen
+!! +Nom:toinen% toinen    presip K ;
+!! +Gen:toinen% toiseen   presip  K ;
+!! +Ill:toinen% toisheen   presip  K ;
+!! +Par:toinen% toista    presip K ; !!m.toisiansa 
+!! +Ess:toinen% toisena    presip K ;
+!! +Tra:toinen% toiseksi    presip K ;
+!! +Ine:toinen% toisessa   presip  K ;
+!! +Ela:toinen% toista    presip K ; !m. toisiansa,-insa
+!! +All:toinen% toisele    presip K ; !m. toisilensa
+!! +Ade:toinen% toisela    presip K ;
+!! +Abl:toinen% toiselta   presip  K ;
 
 
 LEXICON sgjoku_indef
@@ -354,7 +370,7 @@ LEXICON koko_kvant
 LEXICON joka_kvant
 +Nom:       K ;
 
-LEXICON jokhai_kvant !m. jokainen
+LEXICON jokhai_kvant
 +Nom:       K ;
 +Gen:nen    K ;
 +Ill:heen  K ;
@@ -367,14 +383,76 @@ LEXICON jokhai_kvant !m. jokainen
 +Ade:ela    K ;
 +Abl:elta   K ;
 
-LEXICON joka_ainu_kvant
+LEXICON jokai_kvant
++Nom:       K ;
++Gen:nen    K ;
++Ill:heen  K ;
++Par:esta   K ;
++Ess:ena    K ;
++Tra:eksi   K ;
++Ine:essa   K ;
++Ela:esta   K ;
++All:ele    K ;
++Ade:ela    K ;
++Abl:elta   K ;
+
+LEXICON jokainu_kvant
 +Pron: # ;
 
-LEXICON itte_ku_kvant
-+Pron: # ;
+LEXICON ainut_kvant
++Nom:a       K ;
++Gen:an    K ;
++Ill:aan  K ;
++Par:asta   K ;
++Ess:ana    K ;
++Tra:aksi   K ;
++Ine:assa   K ;
++Ela:asta   K ;
++All:ale    K ;
++Ade:ala    K ;
++Abl:alta   K ;
 
-LEXICON itte_kuka_kvant
-+Pron: # ;
+LEXICON itte_kvant
++Nom:e       K ;
++Gen:en    K ;
++Ill:heen  K ;
++Par:ee   K ;
++Par:eä   K ;
++Par:iä   K ;
++Ess:enä    K ;
++Tra:eksi   K ;
++Ine:essä   K ;
++Ela:estä   K ;
++All:ele    K ;
++Ade:elä    K ;
++Abl:eltä   K ;
+
+LEXICON kukin_kvant
++Nom:ki       K ;
++Nom:kin       K ;
++Gen:nki    K ;
++Ill:hnki  K ;
++Par:taki   K ;
++Ess:naki    K ;
++Tra:ksiki   K ;
++Ine:ssaki   K ;
++Ela:staki   K ;
++All:lleki    K ;
++Ade:llaki    K ;
++Abl:ltaki   K ;
+
+LEXICON kekin_kvant !!ed. rinnakkaismuotoja
++Gen:nenki    K ;
++Ill:henki  K ;
++Par:taki   K ;
++Ess:näki    K ;
++Tra:ksiki   K ;
++Ine:ssäki   K ;
++Ela:stäki   K ;
++All:lleki    K ;
++Ade:lläki    K ;
++Abl:ltäki   K ;
+
 
 LEXICON sgkum_kvant
 +Nom:piki K ;
