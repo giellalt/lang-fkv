@@ -39,19 +39,22 @@ mikkä+Pron+Interr+Pl:mi  mi_kyspl  ;  !!= * @CODE@
 
 !! Relatiivipronominit
 
-joka+Pron+Rel:jo    relkys ;
-mikä+Pron+Rel:mi    mi_rel ;
+joka+Pron+Rel:jo        relkys ;
+mikä+Pron+Rel:mi        mi_rel ;
 jokka+Pron+Rel+Pl:joi   joi_relkyspl ;
 mikkä+Pron+Rel+Pl:mi   mi_relpl ;
 
 !! Refleksiivi- ja resiprookipronominit
 
-itteni+Pron+Refl+Sg:itt    s1refpron ;
+itteni+Pron+Refl+Sg:itt     s1refpron ;
 ittesti+Pron+Refl+Sg:itt    s2refpron ;
-ittemä+Pron+Refl+Pl:itt    p1refpron ; 
-ittenä+Pron+Refl+Pl:itt    p2refpron ;
+ittemä+Pron+Refl+Pl:itt     p1refpron ; 
+ittenä+Pron+Refl+Pl:itt     p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
-!! toinen% toinen+Pron+Recipr:toinen% tois toinen_recpron ; ! +pos?
+
+!! toinen+Pron+Recipr:  toinen ;
+!! toisen+Pron+Recipr: toisen   ;
+!! toinen% toinen+Pron+Recipr: toinen_toisen ; ! +pos?
 
 !! Indefiniittipronominit/Kvanttoripronominit
 
@@ -61,14 +64,19 @@ muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
 muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
 jompikumpi+Pron+Indef+Sg:jom            sgjom_indef ;
 jommatkummat+Pron+Indef+Pl:jom          pljom_indef ;
-yksi+Pron+Indef:                      yh_indef ;
+yksi+Pron+Indef:                        yh_indef ;
 kaikki+Pron+Qu:kaik                     kaik_kvant ;
 koko+Pron+Qu:koko                       koko_kvant ;
 joka+Pron+Qu:joka                       joka_kvant ;
 jokhainen+Pron+Qu:jokhai                jokhai_kvant ;
-joka% ainua+Pron+Qu:joka% ainu          joka_ainu_kvant ; 
-itte% kukin+Pron+Qu:itte% ku            itte_ku_kvant ; 
-itte% kukanen+Pron+Qu:itte% kuka        itte_kuka_kvant ;
+jokhainen+Pron+Qu:jokhai                jokai_kvant ;
+
+joka+Pron+Qu:joka                       jokainu_kvant ;
+ainua+Pron+Qu:ainu                      ainut_kvant ;
+itte+Pron+Qu:itt                        itte_kvant ;
+kukin+Pron+Qu:ku                        kukin_kvant ;
+kukin+Pron+Qu:ke                        kekin_kvant ;
+
 kumpiki+Pron+Qu+Sg:kum                  sgkum_kvant ;
 kummatki+Pron+Qu+Pl:kum                 plkum_kvant ;
 molemat+Pron+Qu:molem                   molem_kvant ;
