@@ -271,7 +271,8 @@ t:đ <=> Vowel  _  Vowel: (Dummy:) %^WG:0 ;
 !€ lahđi0
 
 "Gradation of Nt" 
-t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 (%>:0) \i3: ;  
+t:Nx <=> Nx  _  Vowel: (Dummy:*) ([i|i2:]) (Dummy:) %^WG:0 (%>:0) \i3: ;  
+!t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 (%>:0) \i3: ;  
     where Nx in ( l n r ) ; 
 ! NB nt:nn before i3, if the vowel before i3 is not dropped out. 
 
