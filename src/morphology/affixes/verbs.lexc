@@ -125,7 +125,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 LEXICON v2 !!= @CODE@ anttaat:anta 
 +V+Inf:%>%^Vt K ; 
 +V+Act+Ind+Prs:%^WG v12pers_short ;
-+V+Act+Ind+Prt:%>i3%^WG v12pers_short ;
++V+Act+Ind+Prt:%^WG%>i3 v12pers_short ;
 +V+Act+Ind+Prs+Sg3:%>%^V K ;
 +V+Act+Ind+Prs+Pl3:%^AE%^WG%>th%^A%^An K ; 
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
