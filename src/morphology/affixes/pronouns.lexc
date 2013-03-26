@@ -4,7 +4,7 @@
 
 !! Edelleen vaan kokeiluvaiheessa.
 
-LEXICON 12pronsg !!= * @CODE@ on 1., 2. p. yksikkö
+LEXICON 12pronsg !!= @CODE@ on 1., 2. p. yksikkö
 +Nom:e K ;
 +Gen:nun K ;
 +Ill:nhuun K ;
@@ -32,8 +32,7 @@ LEXICON han_pron
 +Abl:eltä   K ;
 
 
-LEXICON 123pronpl  !!= * @CODE@ 
-!! NB @LEXNAME@sta puuttuu oma leksikko nominatiiville
+LEXICON 123pronpl  !!= @CODE@ 
 +Nom:t K ;
 +Gen:iđän K ; !!đ 
 +Gen:iän K ; 
@@ -112,7 +111,6 @@ LEXICON pronobl_2
 
 
 LEXICON relkys
-!!+All:le K ;
 +Nom:k^A K ; ! huom: keka !
 +Gen:nen K ;
 +Ill:nheen K ;
@@ -122,21 +120,19 @@ LEXICON relkys
 +Ine:nessä   K ;
 +Ela:nestä   K ;
 +All:nele   K ;
+!+All:le K ;
 +Ade:nelä    K ;
 +Abl:neltä   K ;
 
 LEXICON mi_kys
-!!+All:le K ;
 +Nom:k^A K ;
 miobl ;
 
 LEXICON mi_rel
-!!+All:le K ;
 +Nom:k^A K ;
 miobl ;
 
 LEXICON miobl
-!!+All:le K ;
 +Gen:nkä K ;
 +Ill:hiin K ;
 +Par:tä K ;
@@ -149,11 +145,11 @@ LEXICON miobl
 +Abl:ltä   K ;
 
 LEXICON relkyspl
-+Nom: K ;   !!po. kukka
++Nom: K ;   !po. kukka
 +Par:itä K ;
 
 LEXICON joi_relkyspl
-+Nom: K ;   !!po. jokka
++Nom: K ;   !po. jokka
 +Gen:tten K ;
 +Ill:hin K ;
 +Par:ita K ;
@@ -248,35 +244,35 @@ LEXICON p3refpron
 +Ade:elänsä    K ;
 +Abl:ltänsä   K ;
 
-!! LEXICON toinen
-!! +Pron: # ;
+! LEXICON toinen
+! +Pron: # ;
 
-!! LEXICON toisen
-!! +Nom:toinen% toinen     K ;
-!! +Gen:toinen% toiseen     K ;
-!! +Ill:toinen% toisheen     K ;
-!! +Par:toinen% toista     K ; !!m.toisiansa 
-!! +Ess:toinen% toisena     K ;
-!! +Tra:toinen% toiseksi     K ;
-!! +Ine:toinen% toisessa     K ;
-!! +Ela:toinen% toista     K ; !m.toisiansa,-insa
-!! +All:toinen% toisele     K ; !m.toisilensa
-!! +Ade:toinen% toisela     K ;
-!! +Abl:toinen% toiselta     K ;
+! LEXICON toisen
+! +Nom:toinen% toinen     K ;
+! +Gen:toinen% toiseen     K ;
+! +Ill:toinen% toisheen     K ;
+! +Par:toinen% toista     K ; !!m.toisiansa 
+! +Ess:toinen% toisena     K ;
+! +Tra:toinen% toiseksi     K ;
+! +Ine:toinen% toisessa     K ;
+! +Ela:toinen% toista     K ; !m.toisiansa,-insa
+! +All:toinen% toisele     K ; !m.toisilensa
+! +Ade:toinen% toisela     K ;
+! +Abl:toinen% toiselta     K ;
 
 
-!! LEXICON toinen_toisen
-!! +Nom:toinen% toinen    presip K ;
-!! +Gen:toinen% toiseen   presip  K ;
-!! +Ill:toinen% toisheen   presip  K ;
-!! +Par:toinen% toista    presip K ; !!m.toisiansa 
-!! +Ess:toinen% toisena    presip K ;
-!! +Tra:toinen% toiseksi    presip K ;
-!! +Ine:toinen% toisessa   presip  K ;
-!! +Ela:toinen% toista    presip K ; !m. toisiansa,-insa
-!! +All:toinen% toisele    presip K ; !m. toisilensa
-!! +Ade:toinen% toisela    presip K ;
-!! +Abl:toinen% toiselta   presip  K ;
+! LEXICON toinen_toisen
+! +Nom:toinen% toinen    presip K ;
+! +Gen:toinen% toiseen   presip  K ;
+! +Ill:toinen% toisheen   presip  K ;
+! +Par:toinen% toista    presip K ; !!m.toisiansa 
+! +Ess:toinen% toisena    presip K ;
+! +Tra:toinen% toiseksi    presip K ;
+! +Ine:toinen% toisessa   presip  K ;
+! +Ela:toinen% toista    presip K ; !m. toisiansa,-insa
+! +All:toinen% toisele    presip K ; !m. toisilensa
+! +Ade:toinen% toisela    presip K ;
+! +Abl:toinen% toiselta   presip  K ;
 
 
 LEXICON sgjoku_indef
