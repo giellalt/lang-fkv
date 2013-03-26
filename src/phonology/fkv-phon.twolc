@@ -40,11 +40,13 @@ NonFront = BackVowel ArchiVowel ArchiConson SomeVowel  Conson NeutralVowel Dummy
 Rules 
 
 
-!! !!!Consonant rules
+!! !!Consonant rules
 !     ===============
 
 
-!! !!Gemination
+!! !Gemination
+
+!! One rule for each vowel environment.
 
 !"Gemination"
 ! 0:Cx <=> [Vowel|l|r] Cy _ Vowel: %>:0 Vowel: ;   
@@ -73,7 +75,7 @@ Rules
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vy"
- 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :y %>:0 [:y|:i] ;   
+ 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :y %>:0 :y ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vö"
@@ -81,7 +83,7 @@ Rules
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vä"
- 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :ä %>:0 [:ä|:i] ;   
+ 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :ä %>:0 :ä ;   
         where Cx in ( h j k l m n p r s t v ) ;
 
     
@@ -107,7 +109,7 @@ Rules
         where Cx in ( j k p s t v ) ;
     
 "Gemination LIQy"
- 0:Cx <=> [l|r|n|m] Cx _ :y %>:0 [:y|:i] ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :y %>:0 :y ;   
         where Cx in ( j k p s t v ) ;
     
 "Gemination LIQö"
@@ -115,7 +117,7 @@ Rules
         where Cx in ( j k p s t v ) ;
     
 "Gemination LIQä"
- 0:Cx <=> [l|r|n|m] Cx _ :ä %>:0 [:ä|:i] ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :ä %>:0 :ä ;   
         where Cx in ( j k p s t v ) ;
 
 
@@ -152,7 +154,7 @@ Rules
 !        where Cx in ( h j k l m n p r s t v ) ;
     
 
-!! !!Foot-governed affixation
+!! Foot-governed affixation
     
 !!  Lyhyt tai pitkä pääte tavurakenteen mukaan:
 
@@ -214,12 +216,12 @@ k:j <=> [ i|i6: ] _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 "i-0, in word poika: pojan" 
 i6:0 <=> _ k: a %^WG:0;
 
-"k:j after l,r, before e"
- k:j <=> [a|l|r] _ [e|e:0] %^WG:0 ;  
-! k:j <=> [l|r] _ [e|e:0] %^WG:0 ;  
-
 !€ poi6ka^WG>n
 !€ po0ja00n
+
+"k:j after l,r, before e"
+ k:j <=> [u|a|l|r] _ [e|e:0] (Dummy:) %^WG:0 ;  
+! k:j <=> [l|r] _ [e|e:0] %^WG:0 ;  
 
 "nk:ng"
 k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
@@ -246,7 +248,7 @@ k:0 <=> y _  NotEY: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 ! pölkä>^WGt^A : pölätä 
 "Gradation of k between u/y" 
 k:v <=> Conson Vowel _ u     (Dummy:) (:i) (Dummy:) %^WG:0 ;
-        Conson u     _ Vowel (Dummy:) (:i) (Dummy:) %^WG:0 ;
+        Conson u     _ [Vowel - e ] (Dummy:) (:i) (Dummy:) %^WG:0 ;
         Conson Vowel _ y (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !k:v <=> Conson u _ u (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !        Conson y _ y (Dummy:) (:i) (Dummy:) %^WG:0 ;
@@ -269,7 +271,7 @@ t:đ <=> Vowel  _  Vowel: (Dummy:) %^WG:0 ;
 !€ lahđi0
 
 "Gradation of Nt" 
-t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 ;  
+t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 (%>:0) \i3: ;  
     where Nx in ( l n r ) ; 
 ! NB nt:nn before i3, if the vowel before i3 is not dropped out. 
 
@@ -283,7 +285,7 @@ t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 ;
 
 
 "ti:si"
-t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 (Dummy:) ] ;
+t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 (Dummy:) %>:0 i3: ] ;
 
 !"nti : nsi" 
 !t:s <=> Vowel n _  Vowel:0 (Dummy:) i3: ;  
@@ -357,7 +359,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 (Dummy:) ] ;
 !€ rak0a000>s
 
 "e:0 in consonant stems"
- e:0 <=> Conson: _ [ (Dummy:*) %>:0 i3: | %^EDEL:0 %>:0 t ] ;
+ e:0 <=> Conson: _ [ (Dummy:*) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
 
 
 !! !!i rules
@@ -365,11 +367,11 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 (Dummy:) ] ;
 
 !! The -i- rules require different i-s for different POS.
 "a:0 before Pret and Pl i when rounded root vowel"
- a:0 <=> [u|o] (i) Conson: (Conson:) (Conson:) _ %>:0 [i2:|i3:] ;
+ a:0 <=> [u|o] (i) Conson: (Conson:) (Conson:) _ (Dummy:) %>:0 [i2:|i3:] ;
  ! otan - otin  
 
 "a:0 before Pret i when rounded root vowel in 3-syll stems"
- a:0 <=> [u|o] (i) Conson: (Conson:) (Conson:) _ %>:0 [i2:|i3:] ;
+ a:0 <=> [u|o] (i) Conson: (Conson:) (Conson:) _ (Dummy:) %>:0 [i2:|i3:] ;
 !€ kirjoitta>i3
 !€ kirjoitt00i
 
@@ -404,7 +406,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 (Dummy:) ] ;
  i:0 <=> Conson: _ %>:0 i2:i %>:0 [ %^V n | %^V: ] ;
 
 "i:0 in past tense of i-stems" ! leikin
- i:0 <=> Conson: _ %>:0 i3:i ;
+ i:0 <=> Conson: _ (Dummy:) %>:0 i3:i ;
 
 
 
