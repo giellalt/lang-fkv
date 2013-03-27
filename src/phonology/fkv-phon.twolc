@@ -55,69 +55,68 @@ Rules
 !    matched; 
  
 "Gemination Va"
- 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :a %>:0 :a ;   
+ 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :a %>:0 [ :a | i4: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
 
 "Gemination Ve"
- 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :e %>:0 :e ;   
+ 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :e %>:0 [ :e | i4: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vi"
- 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :i %>:0 :i ;   
+ 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :i %>:0 [ :i | i4: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vo"
- 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :o %>:0 :o ;   
+ 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :o %>:0 [ :o | i4: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vu"
- 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :u %>:0 :u ;   
+ 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :u %>:0 [ :u | i4: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vy"
- 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :y %>:0 :y ;   
+ 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :y %>:0 [ :y | i4: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vö"
- 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :ö %>:0 :ö ;   
+ 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :ö %>:0 [ :ö | i4: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vä"
- 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :ä %>:0 :ä ;   
+ 0:Cx <=> [ .#. | Conson ] Vowel Cx _ :ä %>:0 [ :ä | i4: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
 
     
 "Gemination LIQa"
- 0:Cx <=> [l|r|n|m] Cx _ :a %>:0 :a ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :a %>:0 [ :a | i4: ] ;   
         where Cx in ( j k p s t v ) ;
 
-    
 "Gemination LIQe"
- 0:Cx <=> [l|r|n|m] Cx _ :e %>:0 :e ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :e %>:0 [ :e | i4: ] ;   
         where Cx in ( j k p s t v ) ;
     
 "Gemination LIQi"
- 0:Cx <=> [l|r|n|m] Cx _ :i %>:0 :i ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :i %>:0 [ :i | i4: ] ;   
         where Cx in ( j k p s t v ) ;
     
 "Gemination LIQo"
- 0:Cx <=> [l|r|n|m] Cx _ :o %>:0 :o ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :o %>:0 [ :o | i4: ] ;   
         where Cx in ( j k p s t v ) ;
     
 "Gemination LIQu"
- 0:Cx <=> [l|r|n|m] Cx _ :u %>:0 :u ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :u %>:0 [ :u | i4: ] ;   
         where Cx in ( j k p s t v ) ;
     
 "Gemination LIQy"
- 0:Cx <=> [l|r|n|m] Cx _ :y %>:0 :y ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :y %>:0 [ :y | i4: ] ;   
         where Cx in ( j k p s t v ) ;
     
 "Gemination LIQö"
- 0:Cx <=> [l|r|n|m] Cx _ :ö %>:0 :ö ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :ö %>:0 [ :ö | i4: ] ;   
         where Cx in ( j k p s t v ) ;
     
 "Gemination LIQä"
- 0:Cx <=> [l|r|n|m] Cx _ :ä %>:0 :ä ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :ä %>:0 [ :ä | i4: ] ;   
         where Cx in ( j k p s t v ) ;
 
 
@@ -271,7 +270,7 @@ t:đ <=> Vowel  _  Vowel: (Dummy:) %^WG:0 ;
 !€ lahđi0
 
 "Gradation of Nt" 
-t:Nx <=> Nx  _  Vowel: (Dummy:*) ([i|i2:]) (Dummy:) %^WG:0 (%>:0) \i3: ;  
+t:Nx <=> Nx  _  Vowel: (Dummy:*) ([i|i2:]) (Dummy:) %^WG:0 %>:0 \i3: ;  
 !t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 (%>:0) \i3: ;  
     where Nx in ( l n r ) ; 
 ! NB nt:nn before i3, if the vowel before i3 is not dropped out. 
@@ -385,13 +384,17 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 (Dummy:) %>:0 i3: ] ;
            Vy in ( a ä u y o ö e )
            matched ;
 
+"Shortening of long vowel in vowel lengthening"
+ %^V:0 <=> Vowel %>: _ %>:0 i4: ; 
+
 "a to o in front of Pret and Pl i"
  a:o <=> .#. Conson:* Vowel:* [i|e|a] Conson:* _ Dummy:* %>:0 [i2:|i3:] ;
 !a:o <=> a Conson: Conson:*  _  (Dummy:) Y3: %>: i: ;
  ! kalaien : kalojen
 
 "a to o in front of Pl i in 3-syll stems"
- a:o <=> Vowel Conson Conson:* Vowel:+ Conson:* _ Dummy:* %>:0 [i2:|i3:] ;
+ a:o <=> Vowel Conson Conson:* Vowel:+ Conson:* _ Dummy:* %>:0 i2: ;
+! a:o <=> Vowel Conson Conson:* Vowel:+ Conson:* _ Dummy:* %>:0 [i2:|i3:] ;
 !€ kulkkiija>i2
 !€ kulkkiijo0i
 
