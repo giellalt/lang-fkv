@@ -326,7 +326,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 (Dummy:) %>:0 i3: ] ;
 ! %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h _ %^V: ; 
 ! %^V:Vx <=>  Vx: %>:0 %^HMETA: h _ %^V: ; 
 
-!"e copying in long h forms" !!= * @CODE@  
+!"e copying in long h forms" 
 ! %^V:Vx <=>  Vx: %>:0 %^HMETA: h _ %^V: ; 
 !    where Vx in ( a e i o u y ä ö ) ; 
 
@@ -407,7 +407,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 (Dummy:) %>:0 i3: ] ;
  i:0 <=> Conson: _ %>:0 i2:i %>:0 [ %^V n | %^V: ] ;
 
 "i:0 in past tense of i-stems" ! leikin
- i:0 <=> Conson: _ (Dummy:) %>:0 i3:i ;
+ i:0 <=> Conson: _ Dummy:* %>:0 i3:i ;
 
 
 
