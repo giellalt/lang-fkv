@@ -21,7 +21,7 @@
  * ArchiVowel =  %^A %^O %^U ;                                          
  * ArchiConson = %^N ;                                                  
  * SomeVowel = %^V ;                                                    
- * Vowel = FrontVowel BackVowel ArchiVowel SomeVowel ;                  
+ * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;                  
  * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;        
  * NeutralVowel = e i ;                                                 
  * Segment = Vowel Conson ;                                             
@@ -40,22 +40,38 @@
 One rule for each vowel environment.
 
 
+ * "Gemination Va"   
+
+ * "Gemination Ve"   
+
+ * "Gemination Vi"   
+
+ * "Gemination Vo"   
+
+ * "Gemination Vu"   
+
+ * "Gemination Vy"   
+
+ * "Gemination Vö"   
+
+ * "Gemination Vä"   
 
 
+ * "Gemination LIQa"   
 
+ * "Gemination LIQe"   
 
+ * "Gemination LIQi"   
 
+ * "Gemination LIQo"   
 
+ * "Gemination LIQu"   
 
+ * "Gemination LIQy"   
 
+ * "Gemination LIQö"   
 
-
-
-
-
-
-
-
+ * "Gemination LIQä"   
 
 
 
@@ -91,41 +107,55 @@ Foot-governed affixation
 
 !Gradation ppttkk : ptk
 
+ * "Gradation ppttkk : ptk"   
 
 
 
 !Gradation -p-
 
+ * "Gradation p:v"   
+
 
 !Gradation of -k-
+ * "Gradation k:j after i"   
+
+ * "Gradation i:0, in word poika: pojan"   
 
 
+ * "Gradation k:j after l,r, before e"   
+
+ * "Gradation k:0"   
 
 
-
-
-
-
-
-
-
-
-
+ * "Gradation k:v between u/y"   
 
 ** this will not give uku - uvun, but puku - puvun.
 
+ * "Gradation nk:ng"   
+
+
+
+
+ * !"i:j between vowels"   
+
+
+
 !Gradation of -t-
 
+ * "Gradation t:đ"   
+
+ * "Gradation t:đ after h"   
 
 
-
-
+ * "Gradation Nt:NN"   
 
 
 !!Other consonant rules
 
+ * "Alveolar assimilation for consonant stems"   
 
 
+ * "ti:si"   
 
 
 
@@ -161,18 +191,25 @@ maahan
  * "Stem shortening for consonant initial suffixes" 
 
 
+ * "e:0 in consonant stems"   
 
 
 !!i rules
 
 The -i- rules require different i-s for different POS.
+ * "a:0 before Pret and Pl i when rounded root vowel"   
 
+ * "a:0 before Pret i when rounded root vowel in 3-syll stems"   
 
+ * "ä:0 before i except in conditional"   
 
  * "Shortening of long vowel in front of i"   
 
+ * "Shortening of long vowel when vowel lengthening"   
 
+ * "a:o before Pret and Pl i"   
 
+ * "a:o before Pl i in 3-syll stems"   
 
 
  * "e:i in nom.sg. of e-stems"  
@@ -185,6 +222,7 @@ The -i- rules require different i-s for different POS.
 
 !!Other vowel rules
 
+ * "a:e in participles"   
 
 
 
