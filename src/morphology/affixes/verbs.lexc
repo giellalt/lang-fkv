@@ -216,7 +216,7 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +V+Act+Ind+Prt:%>i3 v12pers_long ; ! aukaisimma
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
-+V+Act+Ind+Prs+ConNeg: K ;
++V+Act+Ind+Prs+ConNeg:%>e K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! aukaisisin
 +V+Act+Cond+Sg2:%>i4sit K ;
@@ -238,6 +238,7 @@ LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Act+Ind+Prt:%>i3%^WG v12pers_short ;
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ; !! * Lyhyt partisiippi
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
++V+Act+Ind+Prs+ConNeg:%>e K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; 
 +V+Act+Cond+Sg2:%>i4sit K ;
