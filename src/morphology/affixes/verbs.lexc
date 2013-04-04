@@ -189,9 +189,19 @@ LEXICON v3_ele !!= @CODE@ ajatella:ajattel
 +V+Act+Ind+Prs:%>e v12pers_short ;
 +V+Act+Ind+Prt:%>i3 v12pers_short ;
 !+V+PrfPrc+Sg+Nom:%>%^N%^U K ;
-+V+PrfPrc+Sg+Nom:%>%^WG%^U K ;
++V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc:%>%^WG%^Nhee PRFPRC_OBL ;
-+V+Act+Ind+Prs+ConNeg:e K ;
++V+Act+Ind+Prs+ConNeg:%>e K ;
+
++V+Act+Cond+Sg1:%>i4sin K ; ! ajattelisin
++V+Act+Cond+Sg2:%>i4sit K ;
++V+Act+Cond+Sg3:%>i4s K ;
++V+Act+Cond+Pl1:%>i4simm%^A K ;
++V+Act+Cond+Pl2:%>i4sitt%^A K ;
++V+Act+Cond+Pl3:t%^A%>i4s K ;
+
++V+Act+Imprt+Sg2:%>e K   ;
++V+Act+Imprt+Pl2:%>kk%^A%^A K ;
 
 LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel 
 +V+Inf:%>%^WG%^A K ; 
@@ -204,7 +214,7 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 !+V+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+PrfPrc+Sg+Nom:%>%^WG%^U K ;
 +V+PrfPrc:%>%^WG%^Nhee PRFPRC_OBL ;
-+V+Act+Ind+Prs+ConNeg:e K ;
++V+Act+Ind+Prs+ConNeg:%>e K ;
 
 !! * aukaista > aukaisemma
 !! * täristä > tärisemä
