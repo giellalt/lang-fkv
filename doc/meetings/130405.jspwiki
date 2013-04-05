@@ -1,0 +1,180 @@
+!!!Viikkokokous
+ 
+* Aika: 5.4. klo 13
+* Paikka: internet
+* Välineet: iChat ja SEE tai Skype ja Collabedit
+
+Paikalla
+ 
+!!!Agenda
+* Tilannepäivitykset
+* Työtehtävät
+* Workshop
+* Muut asiat
+
+ 
+!!!Tilannepäivitykset
+
+!!Kaisa, Leena: 
+* Imperatiivi lisätty ja toimii
+* v3_ele aliryhmittely (4) ... ja toimii
+** ''ajatella, mennä, tulla''
+** Neljäs alaryhmä ei laitettu
+* a:0-vaihtelu ei toimi (anttaat : annoin)
+** lisätty %^AO, mutta seteissä syntaksivirhe (katsotaan)
+
+!!Mervi, Pirjo
+
+* Mervin kone: kunnossa.
+* Pirjon kone: kunnossa.
+
+ 
+!!!Työtehtäviä
+
+!!Morfofonologia
+! a:0
+
+Lisätty %^AO, mutta seteissä syntaksivirhe
+* Syntax error at 'Sets'
+
+__TEHTÄVÄ__
+* Löytää virheen
+* ... ja ratkaista
+
+
+! k:0 Eiralta
+
+!anttaat-verbin AV imperatiivissa
+
+{{{
+hum-tf4-ans154:fkv ttr000$ dfkv
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 100%
+anttaat+V+Act+Imprt+Sg2
+anttaat+V+Act+Imprt+Sg2	anta
+}}}
+
+
+{{{
+"Gradation Nt:NN" !!= * @CODE@  
+t:Nx <=> Nx  _  Vowel: (Dummy:*) ([i|i2:]) (Dummy:) %^WG:0 %>:0 \i3: ;  
+    where Nx in ( l n r ) ; 
+}}}
+
+Virhe tässä: %>:0 
+
+Mutta tarvitaan \i3:0 lenttäät : lensin takia.
+
+__TEHTÄVÄ__
+* mietitään (__Trond, Kaisa, Leena__)
+
+! Liian laajat geminaatiot
+
+* pöläatä : pölkkäisin
+* anttaat 
+** Eiran kielioppi 62: väärin: *anttaisin (oikein: antaisin)
+** Pirjo: *antaisin (pro oikein antaisin)
+
+Eira 62, 63.
+
+Nyt ohjelma geminoi molempia
+
+__TEHTÄVÄ__
+* Ottaa selvää (__Pirjo__)
+* Muuttaa säännöt tarvittaessa (__Leena, Kaisa__)
+
+
+!!Morfologia
+
+! mA-infinitiivit
+
+Pitää tehdä 
+
+__TEHTÄVÄ__
+* Tehdä suffiksit
+* Miettiä, onvatko possessiivit mukana pelissä
+
+
+! Passiivi
+
+Kopioida Pl1 ja kutsua passiiviksi.
+
+!Pronominit
+Mervi katsoo.
+Hankalat tapaukset: ''Jompikumpi''.
+Ne vaativat flag diacritics
+
+__TEHTÄVÄ__
+* Mervi katsoo, mahd. keskustelee Trondin kanssa.
+
+!Substantiivit
+Mervi Pirjon kanssa.
+
+* $ ll test/src/morphology/N-*|wc -l      12
+* $ ll test/src/morphology/V-*|wc -l      31
+
+{{{
+3.2 Usseaempitavuiset
+tytär:tyttär               n_32 ; 
+sisar               n_32 ;
+elläin:elläim              n_32 ;
+tyven               n_32 ;
+syđän               n_32 ;
+rakkhaus:rakkhaut   n_32 ;
+korkkeus:korkkeut            n_32 ;
+}}}
+
+* elläin oma, ''sammal'' on sanakirjassa, mutt ei kannel.
+* sydän:sydäme
+* affen:affene
+
+Nykyiset ryhmät:
+* n_1, n_21, n_22, n_23, n_31, n_32, n_33, n_33s, n_33t, n_41, n_42, nen
+
+Tässä apu kielitingan listassa.
+
+__TEHTÄVÄ__
+* Leena lähettää listan muille
+* Päätteet
+** Ovatko kaikki sijamuodot paikallaan?
+* Vartalotyyppit (stems/nouns.lexc-korjauksia)
+** Korjata nykyiset 12:
+*** Helpot ensin? n_21 (kala), n_1 (yö, maa), 
+** Miettiä lisäryhmiä
+
+
+!! yaml-testit
+
+Näyttää siltä, että anttaat-verbin konditionaalissa on virhe :-/
+
+
+* Nyt  Verb - vanheta: # Verb 'to bring' - full paradigm
+* Entäs:
+** ennen korjausta: Verb - vanheta: # Verb 'to bring' - ei tsekattu
+** korjauksen jälkeen:   Verb - vanheta: # Verb 'to bring' - ok
+** uuden sotkemisen jälkeen:   Verb - vanheta: # Verb 'to bring' - ei tsekattu
+** uuden korjauksen jälkeen:   Verb - vanheta: # Verb 'to bring' - 
+
+__TEHTÄVÄ__
+* Kirjoittaa ''ei tsekattu'' kaikialle: (__Trond, tehty__)
+* Tarkistaa ja laittaa "ok" (__Pirjo__)
+* Sen jälkeen alkaa arkipäivä
+
+
+!!!Workshop
+
+!!Ajankohta
+
+Ti-ke 16.-17.4. Pyssyjovessa.
+
+Trond katsoo matkasuunnitelmaa, ja ilmoittaa.
+
+!!Aiheita
+
+Ainakin: twolc-testit: Miten käyttää twolc.
+
+
+!!!Muut asiat
+ 
+Seuraava viikkokokous pidetään Pyssyjovessa, 16.-17.4.
+
+
