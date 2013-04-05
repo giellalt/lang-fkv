@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - juosta: # Verb 'to bring' - full paradigm
+  Verb - juosta: # Verb 'to bring' - ei tsekattu
      juosta+V+Inf: juosta
      juosta+V+Act+Ind+Prs+Sg1: juoksen
      juosta+V+Act+Ind+Prs+Sg2: juokset
