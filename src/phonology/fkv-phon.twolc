@@ -14,7 +14,7 @@ t2:t                                        !!= * @CODE@
 %^HMETA:0 %^WG:0 %^E2I:0                    !!= * @CODE@
 %^VDEL:0 %^EDEL:0                           !!= * @CODE@
 %^AE:0                                      !!= * @CODE@
-;
+%^AO:0                                      !!= * @CODE@
 
 !! !!Sets
 Sets                                                                !!= * @CODE@ 
@@ -423,7 +423,6 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 (Dummy:) %>:0 i3: ] ;
 "a:e in participles" !!= * @CODE@  
  Vx:e <=> _ %^AE:0 ;
  	where Vx in ( a ä ) ;
-
 
 
 
