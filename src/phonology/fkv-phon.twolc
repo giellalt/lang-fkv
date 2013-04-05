@@ -15,10 +15,11 @@ t2:t                                        !!= * @CODE@
 %^VDEL:0 %^EDEL:0                           !!= * @CODE@
 %^AE:0                                      !!= * @CODE@
 %^AO:0                                      !!= * @CODE@
+;
 
 !! !!Sets
 Sets                                                                !!= * @CODE@ 
-FrontVowel = e i i2 i3 i6 y ä ö ü æ ø;                                       !!= * @CODE@ 
+FrontVowel = e i i2 i3 i6 y ä ö ü æ ø ;                                       !!= * @CODE@ 
 BackVowel = a o u å ;                                               !!= * @CODE@ 
 ArchiVowel =  %^A %^O %^U ;                                         !!= * @CODE@ 
 ArchiConson = %^N ;                                                 !!= * @CODE@ 
