@@ -13,10 +13,11 @@
  * %^HMETA:0 %^WG:0 %^E2I:0                    
  * %^VDEL:0 %^EDEL:0                           
  * %^AE:0                                      
+ * %^AO:0                                      
 
 !!Sets
  * Sets                                                                 
- * FrontVowel = e i i2 i3 i6 y ä ö ü æ ø;                                        
+ * FrontVowel = e i i2 i3 i6 y ä ö ü æ ø ;                                        
  * BackVowel = a o u å ;                                                
  * ArchiVowel =  %^A %^O %^U ;                                          
  * ArchiConson = %^N ;                                                  
@@ -25,7 +26,7 @@
  * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;        
  * NeutralVowel = e i ;                                                 
  * Segment = Vowel Conson ;                                             
- * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE ;                
+ * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;                
  * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel  Conson NeutralVowel Dummy ;               
 
 
@@ -136,7 +137,6 @@ Foot-governed affixation
 
 
 
- * !"i:j between vowels"   
 
 
 
@@ -223,7 +223,6 @@ The -i- rules require different i-s for different POS.
 !!Other vowel rules
 
  * "a:e in participles"   
-
 
 
 

@@ -13,9 +13,10 @@
 Note that lexicon indneg directs to K_NEG and not to K,
 this is since we have enkä but not enkin
 
- LEXICON impneg  negaation imperatiivipäätteet
+ LEXICON imprtneg  negaation imperatiivipäätteet
 
  LEXICON OLLA  on oma leksikko, vielä vain preesens
+
 
 
 !!!Verbiluokat v1...
@@ -30,41 +31,58 @@ kautta leksikkoon __v12pers__, missä ''-n, -t, -mA, -ttA''
  LEXICON v1  saađa:saa 
 
 
+
+
  LEXICON v1nahda  nähđä:nä 
+
 
 
  LEXICON v1tehda  tehđä:te 
 
 
+
  LEXICON v2  anttaat:anta 
+
 
 
  LEXICON v2_odd  kirjoittaat:kirjoitta
 
 
- LEXICON v3_ele  kävelä:kävel 
+
+ LEXICON v3_ele  ajatella:ajattel 
+
+
+
+ LEXICON v3_ele_odd  kävelä:kävel 
 
 * aukaista > aukaisemma
 * täristä > tärisemä
 
 
+
  LEXICON v3_ise  aukaista:aukaise 
+
 
 
  LEXICON v3_lnr  ja vartalo on pan-
 * pitää tehdä %^D
 * Lyhyt partisiippi
 
+
+
  LEXICON v3juosta  juosta:juo 
 
 
+
  LEXICON v4  vanheta:vanhe 
+
 
 
  LEXICON v4_itte  ja vartalo on - kyyti
 * Pitkä partisiippi
 * Lyhyt partisiippi
 +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
+
 
 
  LEXICON v4_oitte  ja vartalo on haravoi-
@@ -74,7 +92,6 @@ kautta leksikkoon __v12pers__, missä ''-n, -t, -mA, -ttA''
 
 
  LEXICON v43  jatkata:jatka
-
 
 
 
