@@ -253,7 +253,7 @@ k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 
 ! Leena: odota!
-!"i:j between vowels" !!= * @CODE@  
+!"i:j between vowels" 
 !i:j <=> Vowel _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 ! Remove i from the left vowel context because of the rule "I-0 for k:j"
