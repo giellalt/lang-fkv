@@ -41,13 +41,13 @@ kattoot:katt2o v2 ;
 !! KONSONANTTIVARTALOISET v3
 kävelä:kävel v3_ele_odd ;
 kattela:kattel v3_ele_odd ;
-tulla:tul v3_ele ;
 ajatella:ajettel v3_ele ;
 nuola:nuol v3_ele_short ;
 
 aukaista:aukais v3_ise ;
 täristä:täris v3_ise ;
 
+tulla:tul v3_lnr ;
 panna:pan v3_lnr ;
 purra:pur v3_lnr ;
 mennä:men v3_lnr ;
@@ -144,7 +144,7 @@ pirruila:pirruil v3_ele_odd ;
 kuola:kuol v3_ele_short ; 
 nuola:nuol v3_ele_short ; 
 vuola:vuol v3_ele_short ; 
-tulla:tul v3_ele ; 
+tulla:tul v3_lnr ; 
 kuula:kuul v3_ele_short ; 
 tuula:tuul v3_ele_short ; 
 maata:maka v43 ; 
