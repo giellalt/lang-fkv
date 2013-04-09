@@ -56,6 +56,7 @@ ittensä+Pron+Refl+Pl:itt    p3refpron ;
 !! toisen+Pron+Recipr: toisen   ;
 !! toinen% toinen+Pron+Recipr: toinen_toisen ; ! +pos?
 
+
 !! Indefiniittipronominit/Kvanttoripronominit
 
 joku+Pron+Indef+Sg:jo                   sgjoku_indef ;
@@ -84,7 +85,19 @@ molemat+Pron+Qu:molem                   molem_kvant ;
 
 !!Kieltopronominit
 
-kukhaan+Pron+Qu:ke      kielto  ;
-mikhään+Pron+Qu:mi      mi_kielto  ; 
-yksikhään+Pron+Qu:yht   yht_kielto ;!!m. yksikhään
-kumpikhaan+Pron+Qu:kump  kump_kielto;
+kukhaan+Pron+Qu:ke              kielto  ;
+mikhään+Pron+Qu:mi              mi_kielto  ; 
+yksikhään+Pron+Qu:yht           yht_kielto ;!!m. yksikhään
+kumpikhaan+Pron+Qu:kump         kump_kielto;
+
+
+!!Lukumäärän pronomenit
+
+ussee+Pron+Qu+Sg:us                   sgus_kvant ;
+ussee+Pron+Qu+Pl:ushe                 plushe_kvant ;
+ussee+Pron+Qu+Pl:us                   plus_kvant ;
+paljo+Pron+Qu+Pl:paljo                plpaljo_kvant ;
+monta+Pron+Qu:mon                     plmon_kvant ;
+
+
+
