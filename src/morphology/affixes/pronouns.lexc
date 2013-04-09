@@ -35,7 +35,7 @@ LEXICON han_pron
 LEXICON 123pronpl  !!= @CODE@ 
 +Nom:t K ;
 +Gen:iđän K ; !!đ 
-+Gen:iän K ; 
++Gen:än K ; 
 +Gen:idän K ; 
 +Ill:ihiin K ;
 +Par:itä K ;
@@ -46,6 +46,7 @@ LEXICON 123pronpl  !!= @CODE@
 +All:ile   K ;
 +Ade:ilä    K ;
 +Abl:iltä   K ;
+
 
 LEXICON se_pron
 +Nom:se K ;
@@ -60,12 +61,15 @@ LEXICON se_pron
 +Ade:sillä    K ;
 +Abl:siltä     K ;
 
+
 LEXICON netpronpl
++Nom: K ;
 +Gen:itten K ; !!nii
 +Ill:hin K ;
 +Ela:istä   K ;
 +Abl:iltä   K ;
 pronobl ;
+
 
 LEXICON tama
 +Nom:mä K ;
@@ -75,6 +79,7 @@ LEXICON tama
 +Ela:stä   K ;
 +Ine:ssä    K ;
 pronobl_2 ;
+
 
 LEXICON tuo
 +Nom: K ;
@@ -93,6 +98,7 @@ LEXICON namaobl !! nuoitä
 +Abl:lt%^A   K ;
 pronobl ;
 
+
 LEXICON pronobl
 +Par:t%^A K ; !! tuotä
 +Tra:ksi   K ;
@@ -100,6 +106,7 @@ LEXICON pronobl
 +Ine:ss%^A K ;
 +All:le K ;
 +Ade:l%^A    K ;
+
 
 LEXICON pronobl_2
 +Par:t%^A K ;
@@ -124,13 +131,16 @@ LEXICON relkys
 +Ade:nelä    K ;
 +Abl:neltä   K ;
 
+
 LEXICON mi_kys
 +Nom:k^A K ;
 miobl ;
 
+
 LEXICON mi_rel
 +Nom:k^A K ;
 miobl ;
+
 
 LEXICON miobl
 +Gen:nkä K ;
@@ -144,9 +154,11 @@ LEXICON miobl
 +Ade:llä    K ;
 +Abl:ltä   K ;
 
+
 LEXICON relkyspl
 +Nom: K ;   !po. kukka
 +Par:itä K ;
+
 
 LEXICON joi_relkyspl
 +Nom: K ;   !po. jokka
@@ -161,13 +173,16 @@ LEXICON joi_relkyspl
 +Ade:la    K ;
 +Abl:lta   K ;
 
+
 LEXICON mi_relpl
 +Nom:kkä K ;
 miobl ;
 
+
 LEXICON mi_kyspl
 +Nom:kkä K ;
 miobl ;
+
 
 LEXICON s1refpron
 +Nom: K ;
@@ -184,6 +199,7 @@ LEXICON s1refpron
 +Ade:eläni    K ;
 +Abl:eltäni   K ;
 
+
 LEXICON s2refpron
 +Nom: K ;
 +Gen:sti K ;
@@ -198,6 +214,7 @@ LEXICON s2refpron
 +All:elesti   K ;
 +Ade:elästi    K ;
 +Abl:eltästi   K ;
+
 
 LEXICON p1refpron
 +Nom: K ;
@@ -229,6 +246,7 @@ LEXICON p2refpron
 +Ade:elännä    K ;
 +Abl:etännä   K ;
 
+
 LEXICON p3refpron 
 +Nom: K ;
 +Gen:nä K ;
@@ -243,6 +261,7 @@ LEXICON p3refpron
 +All:elensä   K ;
 +Ade:elänsä    K ;
 +Abl:ltänsä   K ;
+
 
 ! LEXICON toinen
 ! +Pron: # ;
@@ -281,11 +300,13 @@ LEXICON sgjoku_indef
 +Ill:honki K ;
 jokuinf ;
 
+
 LEXICON pljoku_indef
 +Nom: K ;!jokku
 +Gen:ttenki K ;
 +Ill:hinki K ;
 jokuinf ;
+
 
 LEXICON jokuinf
 +Par:taki K ; 
@@ -296,6 +317,7 @@ LEXICON jokuinf
 +All:lleki   K ;
 +Ade:llaki    K ;
 +Abl:lleki   K ; 
+
 
 LEXICON sgmuut_indef
 +Nom:pi K ;
@@ -312,6 +334,7 @@ LEXICON sgmuut_indef
 +Ade:alla    K ;
 +Abl:alta    K ;
 
+
 LEXICON plmuut_indef
 +Nom:mat K ;
 +Gen:itten K ;
@@ -327,8 +350,10 @@ LEXICON plmuut_indef
 +Ade:illa  K ;
 +Abl:ilta  K ;
 
+
 LEXICON sgjom_indef
 +Pron: # ;
+
 
 LEXICON pljom_indef
 +Pron: # ;
@@ -347,6 +372,7 @@ LEXICON yh_indef
 +Ade:yhđelä    K ;
 +Abl:yhđeltä   K ;
 
+
 LEXICON kaik_kvant
 +Nom:ki       K ;
 +Gen:en     K ;
@@ -360,11 +386,14 @@ LEXICON kaik_kvant
 +Ade:kela    K ;
 +Abl:kelta   K ;
 
+
 LEXICON koko_kvant
 +Nom:       K ;
 
+
 LEXICON joka_kvant
 +Nom:       K ;
+
 
 LEXICON jokhai_kvant
 +Nom:       K ;
@@ -379,6 +408,7 @@ LEXICON jokhai_kvant
 +Ade:ela    K ;
 +Abl:elta   K ;
 
+
 LEXICON jokai_kvant
 +Nom:       K ;
 +Gen:nen    K ;
@@ -392,8 +422,10 @@ LEXICON jokai_kvant
 +Ade:ela    K ;
 +Abl:elta   K ;
 
+
 LEXICON jokainu_kvant
 +Pron: # ;
+
 
 LEXICON ainut_kvant
 +Nom:a       K ;
@@ -407,6 +439,7 @@ LEXICON ainut_kvant
 +All:ale    K ;
 +Ade:ala    K ;
 +Abl:alta   K ;
+
 
 LEXICON itte_kvant
 +Nom:e       K ;
@@ -437,6 +470,7 @@ LEXICON kukin_kvant
 +Ade:llaki    K ;
 +Abl:ltaki   K ;
 
+
 LEXICON kekin_kvant !!ed. rinnakkaismuotoja
 +Gen:nenki    K ;
 +Ill:henki  K ;
@@ -463,6 +497,7 @@ LEXICON sgkum_kvant
 +Ade:mallaki    K ;
 +Abl:maltaki    K ;
 
+
 LEXICON plkum_kvant
 +Nom:matki K ;
 +Gen:ppinki K ; 
@@ -478,6 +513,7 @@ LEXICON plkum_kvant
 +Ade:milaki   K ;
 +Abl:miltaki   K ;
 
+
 LEXICON molem_kvant
 +Nom:at K ;
 +Gen:man K ;
@@ -490,6 +526,7 @@ LEXICON molem_kvant
 +All:ale    K ;
 +Ade:ila    K ;
 +Abl:alta    K ;
+
 
 LEXICON kielto
 +Nom: K ;
@@ -506,6 +543,7 @@ LEXICON kielto
 +Ade:thään    K ; !!m. kethään
 +Abl:neltäkhään   K ;
 +Abl:lthään   K ; !!m. kelthään
+
 
 LEXICON mi_kielto
 +Nom: K ;
@@ -525,6 +563,7 @@ LEXICON yht_kielto
 +Nom:   K   ;
 +Ill:heenkään   K   ;
 +Par:äkhään   K ;
+
 
 LEXICON kump_kielto
 +Nom:   K   ;
