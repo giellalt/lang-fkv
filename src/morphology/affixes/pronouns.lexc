@@ -36,7 +36,6 @@ LEXICON 123pronpl  !!= @CODE@
 +Nom:t K ;
 +Gen:iđän K ; !!đ 
 +Gen:än K ; 
-+Gen:idän K ; 
 +Ill:ihiin K ;
 +Par:itä K ;
 +Ess:inä    K ;
@@ -560,12 +559,74 @@ LEXICON mi_kielto
 
 
 LEXICON yht_kielto
-+Nom:   K   ;
-+Ill:heenkään   K   ;
++Nom:   K  ;
++Ill:heenkään   K ;
 +Par:äkhään   K ;
 
 
 LEXICON kump_kielto
 +Nom:   K   ;
 +Ill:haankaan   K ;
+
+
+LEXICON sgus_kvant
++Nom:see       K ;
++Nom:sea       K ;
++Nom:sie       K ;
++Gen:heen    K ;
++Gen:ean    K ;
++Gen:ian    K ;
++Ill:heesseen  K ;
++Ill:ehan  K ;
++Ill:ihan  K ;
++Par:heeta   K ;
++Par:eaa   K ;
++Par:iaa   K ;
++Ess:heena    K ;
++Ess:eana    K ;
++Ess:iana    K ;
++Tra:heeksi   K ;
++Tra:eaksi   K ;
++Tra:iaksi   K ;
++Ine:heessa   K ;
++Ela:heesta   K ;
++Ela:easta   K ;
++Ela:iasta   K ;
++All:heele    K ;
++All:ealle    K ;
++All:ialle    K ;
++Ade:heela    K ;
++Ade:ealla    K ;
++Ade:ialla    K ;
++Abl:heelta   K ;
++Abl:ealta   K ;
++Abl:ialta   K ;
+
+
+LEXICON plushe_kvant
++Nom:eet       K ;
++Gen:itten    K ;
++Ill:issiin  K ;
++Par:ita   K ;
++Ess:ina    K ;
++Tra:iksi   K ;
++Ine:issa   K ;
++Ela:ista   K ;
++All:ile    K ;
++Ade:ila    K ;
++Abl:ilta   K ;
+
+
+LEXICON plus_kvant
++Nom:eat    K ;
++Nom:iat    K ;
+
+
+LEXICON plpaljo_kvant
++Ela:sta  K ;
++All:ile  K ;
+
+LEXICON plmon_kvant
++All:ile    K ;
+
 
