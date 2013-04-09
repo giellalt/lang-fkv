@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - kirjoittaat: # Verb 'to bring' - ei tsekattu
+  Verb - kirjoittaat: # Verb 'to bring' - ok
      kirjoittaat+V+Inf: kirjoittaat
      kirjoittaat+V+Act+Ind+Prs+Sg1: kirjoitan
      kirjoittaat+V+Act+Ind+Prs+Sg2: kirjoitat
@@ -33,9 +33,9 @@ Tests:
      kirjoittaat+V+Act+Cond+Sg1: kirjoittaisin
      kirjoittaat+V+Act+Cond+Sg2: kirjoittaisit
      kirjoittaat+V+Act+Cond+Sg3: kirjoittais
-     kirjoittaat+V+Act+Cond+Pl1: kirjoittaisimma
+     kirjoittaat+V+Act+Cond+Pl1: kirjoittaisima
      kirjoittaat+V+Act+Cond+Pl2: kirjoittaisitta
-     kirjoittaat+V+Act+Cond+Pl3: kirjoittais
+     kirjoittaat+V+Act+Cond+Pl3: kirjoitettais
   
      kirjoittaat+V+Act+Imprt+Sg2: kirjoita
      kirjoittaat+V+Act+Imprt+Pl2: kirjoittakkaa
