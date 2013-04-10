@@ -49,6 +49,7 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +Act+Cond+Pl1:olisima K ; ! olisima
 +Act+Cond+Pl2:olisitta K ; ! olisitta
 +Act+Cond+Pl3:oltais K ; ! oltais
++Pass+Cond:oltais	K ; ! oltais
 
 +Act+Imprt+Sg2:ole K ; 
 +Act+Imprt+Pl2:olkkaa K ; 
@@ -82,6 +83,7 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:%>ta%>i4s K ;
++V+Pass+Cond:%>ta%>i4s K ;
 
 +V+Act+Imprt+Sg2: K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
@@ -108,6 +110,7 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+Act+Cond+Pl1:%>kisimm%^A K ;
 +V+Act+Cond+Pl2:%>kisitt%^A K ;
 +V+Act+Cond+Pl3:%>htäis K ;
++V+Pass+Cond:%>htäis K ;
 
 +V+Act+Imprt+Sg2:e K   ;
 +V+Act+Imprt+Pl2:h%>kk%^A%^A K ;
@@ -131,6 +134,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+Act+Cond+Pl1:k%>i4simm%^A K ;
 +V+Act+Cond+Pl2:k%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:htä%>i4s K ;
++V+Pass+Cond:htä%>i4s K ;
 
 +V+Act+Imprt+Sg2:e K   ;
 +V+Act+Imprt+Pl2:h%>kk%^A%^A K ;
@@ -153,6 +157,7 @@ LEXICON v2 !!= @CODE@ anttaat:anta
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:%^AE%^WG%>tt%^A%>i4s K ;
++V+Pass+Cond:%^AE%^WG%>tt%^A%>i4s K ;
 
 +V+Act+Imprt+Sg2:%^WG K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
@@ -176,6 +181,7 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:%>i4s K ;
++V+Pass+Cond:%>i4s K ;
 
 +V+Act+Imprt+Sg2:%^WG K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
@@ -199,6 +205,7 @@ LEXICON v3_ele !!= @CODE@ ajatella:ajattel
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:t%^A%>i4s K ;
++V+Pass+Cond:t%^A%>i4s K ;
 
 +V+Act+Imprt+Sg2:%>e K   ;
 +V+Act+Imprt+Pl2:%^WG%>kk%^A%^A K ;
@@ -225,6 +232,7 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:t%^A%>i4s K ;
++V+Pass+Cond:t%^A%>i4s K ;
 
 +V+Act+Imprt+Sg2:%>e K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
@@ -247,6 +255,7 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:t%^A%>i4s K ;
++V+Pass+Cond:t%^A%>i4s K ;
 
 +V+Act+Imprt+Sg2:%>e K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
@@ -269,6 +278,7 @@ LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:t%^A%>i4s K ;
++V+Pass+Cond:t%^A%>i4s K ;
 
 +V+Act+Imprt+Sg2:%>e K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
@@ -291,6 +301,7 @@ LEXICON v3juosta !!= @CODE@ juosta:juo
 +V+Act+Cond+Pl1:%>ksisimm%^A K ;
 +V+Act+Cond+Pl2:%>ksisitt%^A K ;
 +V+Act+Cond+Pl3:%>stais K ;
++V+Pas+Cond:%>stais K ;
 
 +V+Act+Imprt+Sg2:%>kse K   ;
 +V+Act+Imprt+Pl2:%>skk%^A%^A K ;
@@ -313,6 +324,7 @@ LEXICON v4 !!= @CODE@ vanheta:vanhe
 +V+Act+Cond+Pl1:%>nisimm%^A K ;
 +V+Act+Cond+Pl2:%>nisitt%^A K ;
 +V+Act+Cond+Pl3:%>tt%^Ais K ;
++V+Pass+Cond:%>tt%^Ais K ;
 
 +V+Act+Imprt+Sg2:%>ne K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
@@ -337,6 +349,7 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Act+Cond+Pl1:%>ttisimm%^A K ;
 +V+Act+Cond+Pl2:%>ttisitt%^A K ;
 +V+Act+Cond+Pl3:%>tt%^Ais K ;
++V+Pas+Cond:%>tt%^Ais K ;
 
 +V+Act+Imprt+Sg2:%>tte K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
@@ -360,6 +373,7 @@ LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+Act+Cond+Pl1:%>simm%^A K ;
 +V+Act+Cond+Pl2:%>sitt%^A K ;
 +V+Act+Cond+Pl3:%>tt%>^Ais K ;
++V+Pass+Cond:%>tt%>^Ais K ;
 
 +V+Act+Imprt+Sg2:%>tte K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
@@ -383,6 +397,7 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:%^WG%>tt%^A%>i4s K ;
++V+Pass+Cond:%^WG%>tt%^A%>i4s K ;
 
 +V+Act+Imprt+Sg2:%>%^V K   ;
 +V+Act+Imprt+Pl2:%^WG%>kk%^A%^A K ;
