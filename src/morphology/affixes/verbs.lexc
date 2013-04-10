@@ -178,10 +178,10 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4simm%^A K ;
++V+Act+Cond+Pl1:%>i4sim%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
-+V+Act+Cond+Pl3:%>i4s K ;
-+V+Pass+Cond:%>i4s K ;
++V+Act+Cond+Pl3:%^AE%^WG%>tta%>i4s K ;
++V+Pass+Cond:%^AE%^WG%>tta%>i4s K ;
 
 +V+Act+Imprt+Sg2:%^WG K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
