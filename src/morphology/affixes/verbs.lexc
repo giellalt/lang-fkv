@@ -249,7 +249,7 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +V+Act+Ind+Prs:%>e v12pers_long ; ! aukaisemma
 +V+Act+Ind+Prt:%>i3 v12pers_long ; ! aukaisimma
 +V+PrfPrc+Sg+Nom:%>%^N%^U K ;
-+V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
++V+PrfPrc:%>%^WG%^hee PRFPRC_OBL ;
 +V+Act+Ind+Prs+ConNeg:%>e K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! aukaisisin
