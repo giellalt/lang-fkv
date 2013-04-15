@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - panna: # Verb 'to bring' - ei tsekattu
+     panna+V+Inf: panna
+     panna+V+Act+Ind+Prs+Sg1: panen
+     panna+V+Act+Ind+Prs+Sg2: panet
+     panna+V+Act+Ind+Prs+Sg3: pannee
+     panna+V+Act+Ind+Prs+Pl1: panema
+     panna+V+Act+Ind+Prs+Pl2: panetta
+     panna+V+Act+Ind+Prs+Pl3: panhaan
+     panna+V+Act+Ind+Prt+Sg1: panin
+     panna+V+Act+Ind+Prt+Sg2: panit
+     panna+V+Act+Ind+Prt+Sg3: pani
+     panna+V+Act+Ind+Prt+Pl1: panima
+     panna+V+Act+Ind+Prt+Pl2: panitta
+     panna+V+Act+Ind+Prt+Pl3: panthiin
+     panna+V+PrfPrc+Sg+Nom: pannu
+     panna+V+PrfPrc+Pl+Nom: panheet
+
+     panna+V+Act+Cond+Sg1: panisin
+     panna+V+Act+Cond+Sg2: panisit
+     panna+V+Act+Cond+Sg3: panis
+     panna+V+Act+Cond+Pl1: panisimma
+     panna+V+Act+Cond+Pl2: panisitta
+     panna+V+Act+Cond+Pl3: pantais
+     panna+V+Pass+Cond: pantais
+
+     panna+V+Act+Imprt+Sg2: pane
+     panna+V+Act+Imprt+Pl2: pankkaa
