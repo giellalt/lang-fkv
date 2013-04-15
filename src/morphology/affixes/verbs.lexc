@@ -257,8 +257,8 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +V+Act+Cond+Sg3:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
-+V+Act+Cond+Pl3:t%^A%>i4s K ;
-+V+Pass+Cond:t%^A%>i4s K ;
++V+Act+Cond+Pl3:%>t%^A%>i4s K ;
++V+Pass+Cond:%>t%^A%>i4s K ;
 
 +V+Act+Imprt+Sg2:%>e K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
@@ -304,7 +304,7 @@ LEXICON v3juosta !!= @CODE@ juosta:juo
 +V+Act+Cond+Pl1:%>ksisimm%^A K ;
 +V+Act+Cond+Pl2:%>ksisitt%^A K ;
 +V+Act+Cond+Pl3:%>stais K ;
-+V+Pas+Cond:%>stais K ;
++V+Pass+Cond:%>stais K ;
 
 +V+Act+Imprt+Sg2:%>kse K   ;
 +V+Act+Imprt+Pl2:%>skk%^A%^A K ;
