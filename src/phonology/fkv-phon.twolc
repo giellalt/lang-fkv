@@ -6,36 +6,39 @@ a b c d đ e f g h i j k l m n o p q         !!= * @CODE@
 r s t u ü v w x y z å ä ö æ ø               !!= * @CODE@
 A B C D Đ E F G H I J K L M N O P           !!= * @CODE@
 R S T U V W X Y Z Å Ä Ö Æ Ø                 !!= * @CODE@
-%+:0                                        !!= * @CODE@
+%+:0                                        !!= * @CODE@ gemination
 %^A:ä %^O:ö %^U:y %^V %^N:n                 !!= * @CODE@
-%>:0                                        !!= * @CODE@
-i2:i i3:i i4:i i5:i i6:i                    !!= * @CODE@
-t2:t                                        !!= * @CODE@
+%>:0                                        !!= * @CODE@ can we live without it?
+i2:i i3:i i4:i i5:i i6:i                    !!= * @CODE@ 
+!! **  i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan
+t2:t                                        !!= * @CODE@ 
+!! ** t2 = always t
 %^HMETA:0 %^WG:0 %^E2I:0                    !!= * @CODE@
-%^VDEL:0 %^EDEL:0                           !!= * @CODE@
-%^AE:0                                      !!= * @CODE@
-%^AO:0                                      !!= * @CODE@
+%^VDEL:0 %^EDEL:0                           !!= * @CODE@ -- DEL = deletion
+%^AE:0                                      !!= * @CODE@ -- a to e lauletaan
+%^AO:0                                      !!= * @CODE@ -- a to o sanoin
 ;
 
+
 !! !!Sets
-Sets                                                                !!= * @CODE@ 
-FrontVowel = e i i2 i3 i6 y ä ö ü æ ø ;                                       !!= * @CODE@ 
-BackVowel = a o u å ;                                               !!= * @CODE@ 
-ArchiVowel =  %^A %^O %^U ;                                         !!= * @CODE@ 
-ArchiConson = %^N ;                                                 !!= * @CODE@ 
-SomeVowel = %^V ;                                                   !!= * @CODE@ 
-Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;                 !!= * @CODE@ 
-NotE    =   i i2 i3 i4 i5 i6 y ä ö ü æ ø a o u å ;
-NotEY   =   i i2 i3 i4 i5 i6   ä ö   æ ø a o u å ;
-NotEYU  =   i i2 i3 i4 i5 i6   ä ö   æ ø a o   å ;
-NotOU   = e i i2 i3 i4 i5 i6 y ä ö ü æ ø a ;
-NotOUI  = e                  y ä ö ü æ ø a ;
-NotOUIY = e                    ä ö   æ ø a ;
-Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;       !!= * @CODE@ 
-NeutralVowel = e i ;                                                !!= * @CODE@ 
-Segment = Vowel Conson ;                                            !!= * @CODE@ 
-Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;               !!= * @CODE@ 
-NonFront = BackVowel ArchiVowel ArchiConson SomeVowel  Conson NeutralVowel Dummy ;              !!= * @CODE@ 
+Sets                                                            
+FrontVowel = e i i2 i3 i4 i5 i6 y ä ö ü æ ø ;                   !!= * @CODE@ 
+BackVowel = a o u å ;                                           !!= * @CODE@ 
+ArchiVowel =  %^A %^O %^U ;                                     !!= * @CODE@ 
+ArchiConson = %^N ;                                             !!= * @CODE@ 
+SomeVowel = %^V ;                                               !!= * @CODE@ 
+Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;           !!= * @CODE@ 
+NotE    =   i i2 i3 i4 i5 i6 y ä ö ü æ ø a o u å ;              !!= * @CODE@ 
+NotEY   =   i i2 i3 i4 i5 i6   ä ö   æ ø a o u å ;              !!= * @CODE@ 
+NotEYU  =   i i2 i3 i4 i5 i6   ä ö   æ ø a o   å ;              !!= * @CODE@ 
+NotOU   = e i i2 i3 i4 i5 i6 y ä ö ü æ ø a ;                    !!= * @CODE@ 
+NotOUI  = e                  y ä ö ü æ ø a ;                    !!= * @CODE@ 
+NotOUIY = e                    ä ö   æ ø a ;                    !!= * @CODE@ 
+Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;   !!= * @CODE@ 
+NeutralVowel = e i ;                                            !!= * @CODE@ 
+Segment = Vowel Conson ;                                        !!= * @CODE@ 
+Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;      !!= * @CODE@ 
+NonFront = BackVowel ArchiVowel ArchiConson SomeVowel  Conson NeutralVowel Dummy ;  !!= * @CODE@ 
 
 
 !! !!!Rules
