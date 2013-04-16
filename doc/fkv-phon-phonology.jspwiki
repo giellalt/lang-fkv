@@ -5,29 +5,37 @@
  * r s t u ü v w x y z å ä ö æ ø               
  * A B C D Đ E F G H I J K L M N O P           
  * R S T U V W X Y Z Å Ä Ö Æ Ø                 
- * %+:0                                        
+ * %+:0                                         gemination
  * %^A:ä %^O:ö %^U:y %^V %^N:n                 
- * %>:0                                        
- * i2:i i3:i i4:i i5:i i6:i                    
- * t2:t                                        
+ * %>:0                                         can we live without it?
+ * i2:i i3:i i4:i i5:i i6:i                     
+**  i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan
+ * t2:t                                         
+** t2 = always t
  * %^HMETA:0 %^WG:0 %^E2I:0                    
- * %^VDEL:0 %^EDEL:0                           
- * %^AE:0                                      
- * %^AO:0                                      
+ * %^VDEL:0 %^EDEL:0                            -- DEL = deletion
+ * %^AE:0                                       -- a to e lauletaan
+ * %^AO:0                                       -- a to o sanoin
+
 
 !!Sets
- * Sets                                                                 
- * FrontVowel = e i i2 i3 i6 y ä ö ü æ ø ;                                        
- * BackVowel = a o u å ;                                                
- * ArchiVowel =  %^A %^O %^U ;                                          
- * ArchiConson = %^N ;                                                  
- * SomeVowel = %^V ;                                                    
- * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;                  
- * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;        
- * NeutralVowel = e i ;                                                 
- * Segment = Vowel Conson ;                                             
- * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;                
- * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel  Conson NeutralVowel Dummy ;               
+ * FrontVowel = e i i2 i3 i4 i5 i6 y ä ö ü æ ø ;                    
+ * BackVowel = a o u å ;                                            
+ * ArchiVowel =  %^A %^O %^U ;                                      
+ * ArchiConson = %^N ;                                              
+ * SomeVowel = %^V ;                                                
+ * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;            
+ * NotE    =   i i2 i3 i4 i5 i6 y ä ö ü æ ø a o u å ;               
+ * NotEY   =   i i2 i3 i4 i5 i6   ä ö   æ ø a o u å ;               
+ * NotEYU  =   i i2 i3 i4 i5 i6   ä ö   æ ø a o   å ;               
+ * NotOU   = e i i2 i3 i4 i5 i6 y ä ö ü æ ø a ;                     
+ * NotOUI  = e                  y ä ö ü æ ø a ;                     
+ * NotOUIY = e                    ä ö   æ ø a ;                     
+ * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;    
+ * NeutralVowel = e i ;                                             
+ * Segment = Vowel Conson ;                                         
+ * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;       
+ * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel  Conson NeutralVowel Dummy ;   
 
 
 !!!Rules
