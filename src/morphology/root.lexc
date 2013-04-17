@@ -25,7 +25,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  
 !!  !!Phonological symbols 
  p1 t1 k1				 !!≈ ; @CODE@ : For cons grad -- in use at all?
- i2 i3 i4 i5 i6			 !!≈ ; @CODE@ : For vowel change -- i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan
+ i2 i3 i4 i5 i6	i7		 !!≈ ; @CODE@ : For vowel change -- i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = contr verb cond
  t2 ! 					 !!≈ ; @CODE@ : katt2oma always tt, underlying -ts-
  %^A %^O %^U			 !!≈ ; @CODE@ : Vowel harmony a/ä, o/ö, u/y
  %^V 					 !!≈ ; @CODE@ : Vowel copying
@@ -41,6 +41,13 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  %^AE                    !!≈ ; @CODE@ : for a to e change
  %^¤					     !!≈ ; @CODE@ : potecting against e:i word-finally (nalle, liike)
 
+!! !-i- overview
+!! * i2 plural i of nouns
+!! * i3 past tense i of verbs
+!! * i4 i in conditional isi of most verbs (without gemination)
+!! * i5 superlative i of adjectives
+!! * i6 i:j in poika:pojan
+!! * i7 i in conditional of contract verbs (with gemination)
 
 ! For Finnish, not in use. Keep in mind:
 ! Y2 a:0 koira - koiria
@@ -51,10 +58,6 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ! Y7 e:0 in cns stems käsi - kättä
 ! Z1 e:i in nom.sg
 ! Z2 i:0 i-stems in par,gen pl
-! i2 plural i of nouns
-! i3 past tense i of verbs
-! i4 superlative i of adjectives
-! i5 i in conditional isi of verbs
 
 ! =================================================
 ! !!Basic lexica, pointing to the other lexicon files
