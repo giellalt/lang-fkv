@@ -24,6 +24,7 @@
 
 LEXICON n_1 !!= * @CODE@ = maa
  +N+Sg+Nom: K ; 
+ +N+Sg+Nom: R ; 
  +N: long-par ;
  +N: weak-v-stem ;
  +N: 1TAVU_VV-ill ;
@@ -57,6 +58,7 @@ LEXICON n_21pl	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
 
 LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom
 +N+Sg+Nom:%^E2I K ; ! %^EI e to i
++N+Sg+Nom:%^E2I R ; ! %^EI e to i
 +N: short-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
@@ -77,12 +79,14 @@ LEXICON n_23	!!= * @CODE@  assii
 
 LEXICON n_31	!!= @CODE@ käsi, lumi
 +N+Sg+Nom:%^E2I K ; ! %^EI e to i
++N+Sg+Nom:%^E2I R ; ! %^EI e to i
 +N:%^EDEL long-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
 
 LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 +N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
++N+Sg+Nom:%^WG R ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N:e weak-v-stem ;
 
 LEXICON n_32s
@@ -118,6 +122,7 @@ LEXICON n_42pl ! ei tehty, tee oma pl-nen
 
 LEXICON nen  !!= @CODE@ on nainen-sanoille
  +N: nom-nen ;
+ +N:s R ;
  +N:se gae-strong ;
  +N+Sg:se%>i2 com ;
  +N+Pl:se%>i2 com ;
@@ -184,11 +189,13 @@ LEXICON weak-v-stem !!= @CODE@
 
 LEXICON nom-strong
   +Sg+Nom: K ; 
+  +Sg+Nom: R ; 
   short-par ;
  
 LEXICON gae-strong
  +Sg+Nom: Px ;   ! mattoni
  +Sg+Gen: Px ;   ! mattoni
+ +Sg+Gen: R ;   ! mattoni
  +Pl+Nom: Px ;   ! mattoni
  +Sg+Ess:%>n%^A PxxK ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
