@@ -34,6 +34,7 @@ GT_LEXC_SRCS=\
 			   stems/propernouns.lexc   \
 			   stems/punctuation.lexc   \
 			   stems/verbs.lexc         \
+			   compounding.lexc         \
 			   clitics.lexc
 
 
