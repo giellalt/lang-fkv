@@ -6,16 +6,19 @@
  * A B C D Đ E F G H I J K L M N O P           
  * R S T U V W X Y Z Å Ä Ö Æ Ø                 
  * %+:0                                         gemination
- * %^A:ä %^O:ö %^U:y %^V %^N:n                 
- * %>:0                                         can we live without it?
- * i2:i i3:i i4:i i5:i i6:i                     
-**  i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan
- * t2:t                                         
+ * %^A:ä %^O:ö %^U:y                 archi vowels for harmony
+ * %^V %^N:n                         vowel copy sanoo, LNR copy purra
+ * %>:0                              suff border can we live without it?
+ * i2:i i3:i i4:i i5:i i6:i i7:i     
+**  i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = cond of contr.v.
+ * t2:t                       
 ** t2 = always t
- * %^HMETA:0 %^WG:0 %^E2I:0                    
- * %^VDEL:0 %^EDEL:0                            -- DEL = deletion
- * %^AE:0                                       -- a to e lauletaan
- * %^AO:0                                       -- a to o sanoin
+ * %^HMETA:0                  h metateesi sykshyyn
+ * %^WG:0                     weak grade hatun
+ * %^E2I:0                    e to i in nom ove : ovi
+ * %^VDEL:0 %^EDEL:0          -- DEL = deletion
+ * %^AE:0                     -- a to e lauletaan
+ * %^AO:0                     -- a to o sanoissa
 
 
 !!Sets
@@ -136,8 +139,6 @@ Foot-governed affixation
 
 
 
-
-
  * "Gradation nk:ng"   
 
 
@@ -163,7 +164,6 @@ Foot-governed affixation
 
 
  * "Gradation Nt:NN"   
-
 
 !!Other consonant rules
 
@@ -212,19 +212,26 @@ maahan
 !!i rules
 
 The -i- rules require different i-s for different POS.
+
+!a before i
+
  * "a:0 before Pret and Pl i when rounded root vowel"   
 
- * "a:0 before Pret i when rounded root vowel in 3-syll stems"   
+ * "a:o before Pret i"   
+
+ * "a:o before Pl i"   
+
+
+ * "a:o before Pl i in 3-syll stems"   
+
+
+ * !"a:0 before Pret i when rounded root vowel in 3-syll stems"   
 
  * "ä:0 before i except in conditional"   
 
  * "Shortening of long vowel in front of i"   
 
  * "Shortening of long vowel when vowel lengthening"   
-
- * "a:o before Pret and Pl i"   
-
- * "a:o before Pl i in 3-syll stems"   
 
 
  * "e:i in nom.sg. of e-stems"  
