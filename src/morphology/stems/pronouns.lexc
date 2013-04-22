@@ -54,7 +54,7 @@ ittensä+Pron+Refl+Pl:itt    p3refpron ;
 
 !! toinen+Pron+Recipr:  toinen ;
 !! toisen+Pron+Recipr: toisen   ;
-!! toinen% toinen+Pron+Recipr: toinen_toisen ; ! +pos?
+!! toinen% toinen+Pron+Recipr: toinen_toisen ; ! +POS?
 
 
 !! Indefiniittipronominit/Kvanttoripronominit
@@ -72,11 +72,18 @@ joka+Pron+Qu:joka                       joka_kvant ;
 jokhainen+Pron+Qu:jokhai                jokhai_kvant ;
 jokhainen+Pron+Qu:jokhai                jokai_kvant ;
 
-joka+Pron+Qu:joka                       jokainu_kvant ;
-ainua+Pron+Qu:ainu                      ainut_kvant ;
-itte+Pron+Qu:itt                        itte_kvant ;
-kukin+Pron+Qu:ku                        kukin_kvant ;
-kukin+Pron+Qu:ke                        kekin_kvant ;
+!! joka+Pron+Qu:joka                       jokainu_kvant ;
+!! ainua+Pron+Qu:ainu                      ainut_kvant ;
+!! itte% kukin+Pron+Qu:itte% ku            itte_kvant ;
+!! itte+Pron+Qu:itt                        itte_kvant ;
+!! kukin+Pron+Qu:ku                        kukin_kvant ;
+!! kukin+Pron+Qu:ke                        kekin_kvant ;
+
+joka+Pron+Qu:joka       jokainu_kvant ;    !! joka ainua(taipuu)
+ainua+Pron+Qu:ainu      ainut_kvant ;      !! joka ainua(taipuu)
+itte+Pron+Qu:itt        itte_kvant ;       !! itte(taipuu) kukin(taipuu)
+kukin+Pron+Qu:ku        kukin_kvant ;      !! itte(taipuu) kukin(taipuu)
+kukin+Pron+Qu:ke        kekin_kvant ;      !! itte(taipuu) kekin(taipuu)
 
 kumpiki+Pron+Qu+Sg:kum                  sgkum_kvant ;
 kummatki+Pron+Qu+Pl:kum                 plkum_kvant ;
@@ -87,7 +94,7 @@ molemat+Pron+Qu:molem                   molem_kvant ;
 
 kukhaan+Pron+Qu:ke              kielto  ;
 mikhään+Pron+Qu:mi              mi_kielto  ; 
-yksikhään+Pron+Qu:yht           yht_kielto ;!!m. yksikhään
+yksikhään+Pron+Qu:yht           yht_kielto ;
 kumpikhaan+Pron+Qu:kump         kump_kielto;
 
 
