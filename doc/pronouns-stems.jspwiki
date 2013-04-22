@@ -32,12 +32,24 @@ Refleksiivi- ja resiprookipronominit
 
 toinen+Pron+Recipr:  toinen ;
 toisen+Pron+Recipr: toisen   ;
-toinen% toinen+Pron+Recipr: toinen_toisen ; ! +pos?
+toinen% toinen+Pron+Recipr: toinen_toisen ; ! +POS?
 
 
 Indefiniittipronominit/Kvanttoripronominit
 
 
+joka+Pron+Qu:joka                       jokainu_kvant ;
+ainua+Pron+Qu:ainu                      ainut_kvant ;
+itte% kukin+Pron+Qu:itte% ku            itte_kvant ;
+itte+Pron+Qu:itt                        itte_kvant ;
+kukin+Pron+Qu:ku                        kukin_kvant ;
+kukin+Pron+Qu:ke                        kekin_kvant ;
+
+joka ainua(taipuu)
+joka ainua(taipuu)
+itte(taipuu) kukin(taipuu)
+itte(taipuu) kukin(taipuu)
+itte(taipuu) kekin(taipuu)
 
 
 
