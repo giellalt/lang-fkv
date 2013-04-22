@@ -253,17 +253,17 @@ k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 ! Old rules
 
-! "Gradation k:j after i" !!= * @CODE@  
+! "Gradation k:j after i"  @CODE@  
 ! k:j <=> [ i|i6: ] _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
 
 
-! "Gradation k:j after l,r, before e" !!= * @CODE@  
+! "Gradation k:j after l,r, before e" 
 !  k:j <=> [u|a|l|r] _ [e|e:0] (Dummy:) %^WG:0 ;  
 ! ! k:j <=> [l|r] _ [e|e:0] %^WG:0 ;  
 ! 
 ! ! pölkä>^WGt^A : pölätä 
 
-! "Gradation k:0" !!= * @CODE@  
+! "Gradation k:0"  @CODE@  
 !  k:0 <=> [ NotOUI: | l | r ] _  NotEYU: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
 ! !k:0 <=> [ NotOUIY: | l | r ] _  NotEY: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
 ! 
@@ -273,7 +273,7 @@ k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 ! 
 
 
-! old "Gradation k:v between u/y" !!= * @CODE@  
+! old "Gradation k:v between u/y"  
 ! old k:v <=> Conson [Vowel - :i] _ u            (Dummy:) (:i) (Dummy:) %^WG:0 ;
 ! old         Conson u            _ [Vowel - e ] (Dummy:) (:i) (Dummy:) %^WG:0 ;
 ! old         Conson [Vowel - :i] _ y            (Dummy:) (:i) (Dummy:) %^WG:0 ;
@@ -417,7 +417,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: ] ;
 !€ kulkkiijo0i
 
 
-!"a:0 before Pret i when rounded root vowel in 3-syll stems" !!= * @CODE@  
+!"a:0 before Pret i when rounded root vowel in 3-syll stems"  
 ! a:0 <=> [u|o] (i) Conson: (Conson:) (Conson:) _ (Dummy: - %^AE:0) %>:0 [i2:|i3:] ;
 !€ kirjoitta>i3
 !€ kirjoitt00i
