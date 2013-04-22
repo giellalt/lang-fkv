@@ -64,7 +64,7 @@ LEXICON se_pron
 LEXICON netpronpl
 +Nom: K ;
 +Gen:itten K ; !!nii
-+Ill:hin K ;
++Ill:ihin K ;
 +Ela:istä   K ;
 +Abl:iltä   K ;
 pronobl ;
@@ -117,7 +117,7 @@ LEXICON pronobl_2
 
 
 LEXICON relkys
-+Nom:k^A K ; ! huom: keka !
++Nom: K ;
 +Gen:nen K ;
 +Ill:nheen K ;
 +Par:tä K ;
@@ -132,12 +132,12 @@ LEXICON relkys
 
 
 LEXICON mi_kys
-+Nom:k^A K ;
++Nom:k%^A K ;
 miobl ;
 
 
 LEXICON mi_rel
-+Nom:k^A K ;
++Nom: K ;
 miobl ;
 
 
@@ -263,18 +263,22 @@ LEXICON p3refpron
 
 
 ! LEXICON toinen
-! +Pron: # ;
+! +Nom: ;
 
 ! LEXICON toisen
 ! +Nom:toinen% toinen     K ;
 ! +Gen:toinen% toiseen     K ;
 ! +Ill:toinen% toisheen     K ;
-! +Par:toinen% toista     K ; !!m.toisiansa 
+! +Par:toinen% toista     K ;
+! +Par:toinen% toisiansa     K ; 
 ! +Ess:toinen% toisena     K ;
 ! +Tra:toinen% toiseksi     K ;
 ! +Ine:toinen% toisessa     K ;
-! +Ela:toinen% toista     K ; !m.toisiansa,-insa
-! +All:toinen% toisele     K ; !m.toisilensa
+! +Ela:toinen% toista     K ;
+! +Ela:toinen% toisiansa     K ; 
+! +Ela:toinen% toistainsa     K ; 
+! +All:toinen% toisele     K ;
+! +All:toinen% toiselensa     K ; 
 ! +Ade:toinen% toisela     K ;
 ! +Abl:toinen% toiselta     K ;
 
@@ -283,12 +287,16 @@ LEXICON p3refpron
 ! +Nom:toinen% toinen    presip K ;
 ! +Gen:toinen% toiseen   presip  K ;
 ! +Ill:toinen% toisheen   presip  K ;
-! +Par:toinen% toista    presip K ; !!m.toisiansa 
+! +Par:toinen% toista    presip K ;
+! +Par:toinen% toistansa    presip K ;
 ! +Ess:toinen% toisena    presip K ;
 ! +Tra:toinen% toiseksi    presip K ;
 ! +Ine:toinen% toisessa   presip  K ;
-! +Ela:toinen% toista    presip K ; !m. toisiansa,-insa
-! +All:toinen% toisele    presip K ; !m. toisilensa
+! +Ela:toinen% toista    presip K ; 
+! +Ela:toinen% toisiansa    presip K ; 
+! +Ela:toinen% toistainsa    presip K ; 
+! +All:toinen% toisele    presip K ; 
+! +All:toinen% toiselensa    presip K ;
 ! +Ade:toinen% toisela    presip K ;
 ! +Abl:toinen% toiselta   presip  K ;
 
@@ -351,16 +359,40 @@ LEXICON plmuut_indef
 
 
 LEXICON sgjom_indef
-+Pron: # ;
++Nom:pikumpi K ;
++Gen:mankumman K ;
++Ill:phaankumphaan K ;
++Par:ppaakumppaa K ;
++Par:paakumpaa K ;
++Ess:panakumpana   K ; 
++Tra:maksikummaksi  K ;
++Ine:massakummassa  K ;
++Ela:mastakummasta  K ;
++All:malekummale  K ;
++Ade:malakummala  K ;
++Abl:maltakummalta  K ;
 
 
 LEXICON pljom_indef
-+Pron: # ;
++Nom:matkummat K ;
++Gen:ppiinkumppiin K ;
++Gen:mittenkummitten K ;
++Ill:phiinkumphiin K ;
++Par:ppiikumppii K ;
++Par:piikumpii K ;
++Ess:pinakumpina   K ; 
++Tra:miksikummiksi  K ;
++Ine:missakummissa  K ;
++Ela:mistakummista  K ;
++All:milekummile  K ;
++Ade:milakummila  K ;
++Abl:miltakummilta  K ;
 
 
 LEXICON yh_indef
 +Nom:yksi       K ;
-+Gen:yhđen     K ; !đ
++Gen:yhđen     K ;
++Gen:yhen     K ; !đ
 +Ill:yhtheen   K ;
 +Par:yhtä    K ;
 +Ess:yhtenä    K ;
@@ -423,11 +455,10 @@ LEXICON jokai_kvant
 
 
 LEXICON jokainu_kvant
-+Pron: # ;
-
++Nom:       K ;
 
 LEXICON ainut_kvant
-+Nom:a       K ;
++Nom:      K ;
 +Gen:an    K ;
 +Ill:aan  K ;
 +Par:asta   K ;
@@ -470,7 +501,7 @@ LEXICON kukin_kvant
 +Abl:ltaki   K ;
 
 
-LEXICON kekin_kvant !!ed. rinnakkaismuotoja
+LEXICON kekin_kvant !! ed. rinnakkaismuotoja
 +Gen:nenki    K ;
 +Ill:henki  K ;
 +Par:taki   K ;
@@ -487,7 +518,8 @@ LEXICON sgkum_kvant
 +Nom:piki K ;
 +Gen:manki K ;
 +Ill:phaanki K ;
-+Par:ppaaki K ; !m.kumpaaki
++Par:ppaaki K ; 
++Par:paaki K ;
 +Ess:panaki    K ;
 +Tra:maksiki   K ;
 +Ine:massaki    K ;
@@ -500,10 +532,10 @@ LEXICON sgkum_kvant
 LEXICON plkum_kvant
 +Nom:matki K ;
 +Gen:ppinki K ; 
-+Gen:mittenki K ; !m.kummittenki
++Gen:mittenki K ;
 +Ill:phiinki K ;
 +Par:ppiiki K ;
-+Par:piaki K ; !m.kumpiaki
++Par:piaki K ;
 +Ess:pinaki    K ;
 +Tra:miksiki   K ;
 +Ine:missaki    K ;
@@ -537,11 +569,11 @@ LEXICON kielto
 +Ine:nessäkhään   K ;
 +Ela:nestäkhään   K ;
 +All:nelekhään   K ;
-+All:lheen   K ; !!m. kelheen
++All:lheen   K ; 
 +Ade:keläkhään    K ;
-+Ade:thään    K ; !!m. kethään
++Ade:thään    K ;
 +Abl:neltäkhään   K ;
-+Abl:lthään   K ; !!m. kelthään
++Abl:lthään   K ; 
 
 
 LEXICON mi_kielto
@@ -553,7 +585,7 @@ LEXICON mi_kielto
 +Tra:ksikhään   K ;
 +Ine:shään   K ;
 +Ela:sthään   K ;
-+All:llekhään   K ; !!m. kelheen
++All:llekhään   K ; !!m. kelheen, lisätty ed. leksikoon
 +Ade:lhään    K ; !!m. kethään
 +Abl:thään   K ; !!m. kelthään
 
