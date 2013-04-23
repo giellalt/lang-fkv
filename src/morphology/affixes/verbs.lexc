@@ -57,6 +57,12 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +Act+Imprt+Sg2:ole K ; 
 +Act+Imprt+Pl2:olkkaa K ; 
 
++Act+Inf3+Ine:olemassa K ;
++Act+Inf3+Ela:olemasta K ;
++Act+Inf3+Ill:olemhaan K ;
++Act+Inf3+Ade:olemalla K ;
++Act+Inf3+Abe:olematta K ;
+
 !! !!!Verbiluokat v1...
 
 !! Luokkien v1, v2... Eiran kieliopin mukaan.
@@ -116,7 +122,7 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+Pass+Cond:%>htäis K ;
 
 +V+Act+Imprt+Sg2:e K   ;
-+V+Act+Imprt+Pl2:h%>kk%^A%^A K ;
++V+Act+Imprt+Pl2:h%>k%^A%^A K ;
 
 LEXICON v1tehda !!= @CODE@ tehđä:te 
 +V+Inf:h%>đ%^A K ; ! đ
@@ -127,7 +133,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+Act+Ind+Prs+Pl3:h%>đh%^A%^An K ; ! đ
 +V+Act+Ind+Prt+Sg3:k%>i K ;
 +V+Act+Ind+Prt+Pl3:h%>thiin K ; 
-+V+PrfPrc+Sg+Nom:h%>%^nn%^U K ;
++V+PrfPrc+Sg+Nom:h%>%^n%^U K ;
 +V+PrfPrc:h%>%^Nhee PRFPRC_OBL ;
 +V+Act+Ind+Prs+ConNeg:e K ;
 
@@ -140,7 +146,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+Pass+Cond:htä%>i4s K ;
 
 +V+Act+Imprt+Sg2:e K   ;
-+V+Act+Imprt+Pl2:h%>kk%^A%^A K ;
++V+Act+Imprt+Pl2:h%>k%^A%^A K ;
 
 LEXICON v2 !!= @CODE@ anttaat:anta 
 +V+Inf:%>%^Vt K ; 
@@ -268,7 +274,7 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +V+Pass+Cond:%>t%^A%>i4s K ;
 
 +V+Act+Imprt+Sg2:%>e K   ;
-+V+Act+Imprt+Pl2:%>kk%^A%^A K ;
++V+Act+Imprt+Pl2:%>k%^A%^A K ;
 
 LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Inf:%>%^N%^A K ; !! * pitää tehdä %^D
