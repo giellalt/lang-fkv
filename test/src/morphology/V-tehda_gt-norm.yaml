@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - tehđa: # Verb 'to do' - ok
+  Verb - tehđa: # Verb 'to do' - ei tsekattu
      tehđä+V+Inf: tehđä
      tehđä+V+Act+Ind+Prs+Sg1: tehen
      tehđä+V+Act+Ind+Prs+Sg2: tehet
@@ -41,3 +41,9 @@ Tests:
      
      tehđä+V+Act+Imprt+Sg2: tehe
      tehđä+V+Act+Imprt+Pl2: tehkää
+     
+     tehđä+V+Act+Inf3+Ine: tekemässä
+     tehđä+V+Act+Inf3+Ela: tekemästä
+     tehđä+V+Act+Inf3+Ill: tekemhään
+     tehđä+V+Act+Inf3+Ade: tekemällä
+     tehđä+V+Act+Inf3+Abe: tekemättä
