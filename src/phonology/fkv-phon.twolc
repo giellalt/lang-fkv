@@ -314,7 +314,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0  ;
 
 
 "ti:si" !!= * @CODE@  
-t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: ] ;
+t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | e: %>:0 i2: ] ;
 
 !"nti : nsi" 
 !t:s <=> Vowel n _  Vowel:0 (Dummy:) i3: ;  
@@ -349,8 +349,11 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: ] ;
 !! maahan
 
 "Vowel copying in long h forms" !!= * @CODE@  
- %^V:Vx <=>  Vx: %>:0 %^HMETA: h _ %^V: ; 
-    where Vx in ( a e i o u y ä ö ) ; 
+ %^V:Vy <=>  Vx: %>:0 %^HMETA: h _ %^V: ; 
+    where Vx in ( a e i i2 o u y ä ö ) 
+          Vy in ( a e i i  o u y ä ö ) 
+             matched ;
+ 
 ! %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h _ %^V: ; 
 ! %^V:Vx <=>  Vx: %>:0 %^HMETA: h _ %^V: ; 
 
@@ -359,11 +362,18 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: ] ;
 !    where Vx in ( a e i o u y ä ö ) ; 
 
 "Vowel copying in long h forms 2" !!= * @CODE@  
- %^V:Vx <=>  Vx: %>:0 %^HMETA: h %^V: _ ; 
-    where Vx in ( a e i o u y ä ö ) ; 
+ %^V:Vy <=>  Vx: %>:0 %^HMETA: h %^V: _ ; 
+    where Vx in ( a e i i2 o u y ä ö )  
+          Vy in ( a e i i  o u y ä ö ) 
+             matched ;
+
 ! %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h %^V: _ ; 
     
 "Stem deletion in h-illative" !!= * @CODE@  
+ Vx:0 <=> Conson _ %>:0 %^HMETA:0 h %^V: ; 
+    where Vx in ( a e i o u y ä ö ) ; 
+    
+"Stem deletion in h-illative b" !!= * @CODE@  
  Vx:0 <=> Conson _ %>:0 %^HMETA:0 h %^V: ; 
     where Vx in ( a e i o u y ä ö ) ; 
     
@@ -375,7 +385,12 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: ] ;
 !    where Vx in ( a e i o u y ä ö ) ; 
 ! tämä pitää kai olla -seen, -siin
 
-
+"e deletion in illative plural"
+ e:0 <=> _ %^EDEL:0 %>:0 h ;
+ ! vuothiin
+ 
+"e deletion on partitive and genitive plural"
+ e:0 <=> _ %>:0 i2: ;
 
 !! !!Stem alternation rules
 !  ========================

@@ -83,6 +83,10 @@ LEXICON n_31	!!= @CODE@ käsi, lumi
 +N:%^EDEL long-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
++N: 2TAVU_V-ill ;
++N+Pl: h_shortillpl ;
++N+Pl:%>i2 shortparpl	 ;
++N+Pl:%>i2 shortgenpl	 ;
 
 LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 +N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
@@ -90,6 +94,9 @@ LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 +N:e weak-v-stem ;
 
 LEXICON n_32s
+n_32 ; ! ei tehty
+
+LEXICON n_32t
 n_32 ; ! ei tehty
 
 LEXICON n_33 ! ei tehty
@@ -263,6 +270,10 @@ LEXICON longparpl
 
 LEXICON shortillpl
  +Ill:%>hi n-PxK ;
+
+LEXICON h_shortillpl
+ +Ill:%^EDEL%>hii n-PxK ;
+
 
 LEXICON shorterillpl
  +Ill:%>i2 n-PxK ;		
