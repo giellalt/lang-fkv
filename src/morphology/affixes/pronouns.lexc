@@ -357,36 +357,72 @@ LEXICON plmuut_indef
 +Ade:illa  K ;
 +Abl:ilta  K ;
 
+! LEXICON sgjom_indef
+! +Nom:jompikumpi K ;
+! +Gen:jommankumman K ;
+! +Ill:jomphaankumphaan K ;
+! +Par:jomppaakumppaa K ;
+! +Par:jompaakumpaa K ;
+! +Ess:jompanakumpana   K ; 
+! +Tra:jommaksikummaksi  K ;
+! +Ine:jommassakummassa  K ;
+! +Ela:jommastakummasta  K ;
+! +All:jommalekummale  K ;
+! +Ade:jommalakummala  K ;
+! +Abl:jommaltakummalta  K ;
 
 LEXICON sgjom_indef
-+Nom:pikumpi K ;
-+Gen:mankumman K ;
-+Ill:phaankumphaan K ;
-+Par:ppaakumppaa K ;
-+Par:paakumpaa K ;
-+Ess:panakumpana   K ; 
-+Tra:maksikummaksi  K ;
-+Ine:massakummassa  K ;
-+Ela:mastakummasta  K ;
-+All:malekummale  K ;
-+Ade:malakummala  K ;
-+Abl:maltakummalta  K ;
+sgkum_indef ;
+
+LEXICON sgkum_indef
++Nom:pi K ;
++Gen:man K ;
++Ill:phaan K ;
++Par:ppaa K ;
++Par:paa K ;
++Ess:pana   K ; 
++Tra:maksi  K ;
++Ine:massa  K ;
++Ela:masta  K ;
++All:male  K ;
++Ade:mala  K ;
++Abl:malta  K ;
+
+
+! LEXICON pljom_indef
+! +Nom:jommatkummat K ;
+! +Gen:jomppiinkumppiin K ;
+! +Gen:jommittenkummitten K ;
+! +Ill:jomphiinkumphiin K ;
+! +Par:jomppiikumppii K ;
+! +Par:jompiikumpii K ;
+! +Ess:jompinakumpina   K ; 
+! +Tra:jommiksikummiksi  K ;
+! +Ine:jommissakummissa  K ;
+! +Ela:jommistakummista  K ;
+! +All:jommilekummile  K ;
+! +Ade:jommilakummila  K ;
+! +Abl:jommiltakummilta  K ;
 
 
 LEXICON pljom_indef
-+Nom:matkummat K ;
-+Gen:ppiinkumppiin K ;
-+Gen:mittenkummitten K ;
-+Ill:phiinkumphiin K ;
-+Par:ppiikumppii K ;
-+Par:piikumpii K ;
-+Ess:pinakumpina   K ; 
-+Tra:miksikummiksi  K ;
-+Ine:missakummissa  K ;
-+Ela:mistakummista  K ;
-+All:milekummile  K ;
-+Ade:milakummila  K ;
-+Abl:miltakummilta  K ;
+plkum_indef ;
+
+LEXICON plkum_indef
++Nom:t K ;
++Gen:ppiin K ;
++Gen:mitten K ;
++Ill:phiin K ;
++Par:ppii K ;
++Par:pii K ;
++Ess:pina   K ; 
++Tra:miksi  K ;
++Ine:missa  K ;
++Ela:mista  K ;
++All:ile  K ;
++Ade:ila  K ;
++Abl:milta  K ;
+
 
 
 LEXICON yh_indef
@@ -501,7 +537,7 @@ LEXICON kukin_kvant
 +Abl:ltaki   K ;
 
 
-LEXICON kekin_kvant !! ed. rinnakkaismuotoja
+LEXICON kekin_kvant ! ed. rinnakkaismuotoja
 +Gen:nenki    K ;
 +Ill:henki  K ;
 +Par:taki   K ;
@@ -585,9 +621,9 @@ LEXICON mi_kielto
 +Tra:ksikhään   K ;
 +Ine:shään   K ;
 +Ela:sthään   K ;
-+All:llekhään   K ; !!m. kelheen, lisätty ed. leksikoon
-+Ade:lhään    K ; !!m. kethään
-+Abl:thään   K ; !!m. kelthään
++All:llekhään   K ; !m. kelheen, lisätty ed. leksikoon
++Ade:lhään    K ; !m. kethään
++Abl:thään   K ; !m. kelthään
 
 
 LEXICON yht_kielto
@@ -660,5 +696,51 @@ LEXICON plpaljo_kvant
 
 LEXICON plmon_kvant
 +All:ile    K ;
+
+
+
+LEXICON doublecasepronouns
+
+< j o m p:0 i:0 k:0 u:0 m:0 p:0 i:0 "+Pron":0 "+Indef":0 > sgcases ;
+!kohta, 
+!jommat+Pron+Indef+Pl:jom                pljom_indef ;
+!kummat+Pron+Indef+Pl:kum                plkum_indef ;
+
+
+LEXICON  sgcases
+< "@U.pron.nom@" 0:p 0:i > Continuing ;
+< "@U.pron.gen@" 0:m 0:a 0:n > Continuing ;
+< "@U.pron.ill@" 0:p 0:h 0:a 0:a 0:n > Continuing ;
+< "@U.pron.par@" 0:p 0:p 0:a 0:a > Continuing ;
+< "@U.pron.par2@" 0:p 0:a 0:a > Continuing ;
+< "@U.pron.ess@" 0:p 0:a 0:n 0:a > Continuing ;
+< "@U.pron.tra@" 0:m 0:a 0:k 0:s 0:i > Continuing ;
+< "@U.pron.ine@" 0:m 0:a 0:s 0:a 0:a > Continuing ;
+< "@U.pron.ela@" 0:m 0:a 0:s 0:t 0:a > Continuing ;
+< "@U.pron.all@" 0:m 0:a 0:l 0:e > Continuing ;
+< "@U.pron.ade@" 0:m 0:a 0:l 0:a > Continuing ;
+< "@U.pron.abl@" 0:m 0:a 0:l 0:t 0:a > Continuing ;
+
+
+LEXICON Continuing
+:kum  Endsgcases;
+
+LEXICON  Endsgcases
+
+< "@U.pron.nom@" "+Nom":0 0:p 0:i > K ; 
+< "@U.pron.gen@" "+Gen":0 0:m 0:a 0:n > K ;
+< "@U.pron.ill@" "+Ill":0 0:p 0:h 0:a 0:a 0:n > K ;
+< "@U.pron.par@" "+Par":0 0:p 0:p 0:a 0:a > K ;
+< "@U.pron.par2@" "+Par":0 0:p 0:a 0:a > K ; 
+< "@U.pron.ess@" "+Ess":0 0:p 0:a 0:n 0:a > K ;
+< "@U.pron.tra@" "+Tra":0 0:m 0:a 0:k 0:s 0:i > K ;
+< "@U.pron.ine@" "+Ine":0 0:m 0:a 0:s 0:s 0:a > K ;
+< "@U.pron.ela@" "+Ela":0 0:m 0:a 0:s 0:t 0:a > K ;
+< "@U.pron.all@" "+All":0 0:m 0:a 0:l 0:e > K ; 
+< "@U.pron.ade@" "+Ade":0 0:m 0:a 0:l 0:a > K ; 
+< "@U.pron.abl@" "+Abl":0 0:m 0:a 0:l 0:t 0:a > K ;
+
+!! jompikumpi+Pron+Indef+Sg:            sgjom_indef ;
+!! jommatkummat+Pron+Indef+Pl:          pljom_indef ;
 
 
