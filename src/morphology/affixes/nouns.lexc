@@ -111,8 +111,12 @@ LEXICON n_33t !!= @CODE@ venet
 +N:%>%^HMETAh loput ;
 
 LEXICON n_41 !!= * @CODE@ = veres
++N: s_kse ;
 +N: sConsCase ; !!= * @CODE@  toistaiseksi :-/
 +N: loput ;
+
+LEXICON s_kse
++N:%^WG # ;
 
 LEXICON n_42
 nen ; ! onko n42 = nen?
