@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - kauhee: # Noun 'borg' - eo tsekattu
+     kauhia+N+Sg+Nom: kauhee
+     kauhia+N+Sg+Gen: kauheen
+     kauhia+N+Sg+Par: kauheea
+     kauhia+N+Sg+Tra: kauheeksi
+     kauhia+N+Sg+Abe: kauheetta
+     kauhia+N+Sg+Ine: kauheessa
+     kauhia+N+Sg+Ela: kauheesta
+     kauhia+N+Sg+Ill: kauheesseen
+     kauhia+N+Sg+Ade: kauheela
+     kauhia+N+Sg+Abl: kauheelta
+     kauhia+N+Sg+All: kauheele
+     kauhia+N+Sg+Ess: kauheena
+     kauhia+N+Pl+Nom: kauheet
+     kauhia+N+Pl+Gen: kauheitten
+     kauhia+N+Pl+Par: kauheita
+     kauhia+N+Pl+Tra: kauheiksi
+     kauhia+N+Pl+Abe: kauheita
+     kauhia+N+Pl+Ine: kauheissa
+     kauhia+N+Pl+Ela: kauheista
+     kauhia+N+Pl+Ill: kauheissiin
+     kauhia+N+Pl+Ade: kauheila
+     kauhia+N+Pl+Abl: kauheilta
+     kauhia+N+Pl+All: kauheile
+     kauhia+N+Pl+Ess: kauheina
