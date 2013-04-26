@@ -5,7 +5,7 @@
 !! Itse taivutus jatkuu 
 
 LEXICON Pronoun
-
+doublecasepronouns ;
 
 !! Persoonapronominit
 
@@ -52,19 +52,21 @@ ittemä+Pron+Refl+Pl:itt     p1refpron ;
 ittenä+Pron+Refl+Pl:itt     p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
 
-!! toinen+Pron+Recipr:  toinen ;
-!! toisen+Pron+Recipr: toisen   ;
-!! toinen% toinen+Pron+Recipr: toinen_toisen ; ! +POS?
+! toinen+Pron+Recipr:  toinen ;
+! toisen+Pron+Recipr: toisen   ;
+! toinen% toinen+Pron+Recipr: toinen_toisen ; ! +POS?
 
 
 !! Indefiniittipronominit/Kvanttoripronominit
+
 
 joku+Pron+Indef+Sg:jo                   sgjoku_indef ;
 jokku+Pron+Indef+Pl:joi                 pljoku_indef ;
 muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
 muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
-jompikumpi+Pron+Indef+Sg:jom            sgjom_indef ;
-jommatkummat+Pron+Indef+Pl:jom          pljom_indef ;
+
+
+
 yksi+Pron+Indef:                        yh_indef ;
 kaikki+Pron+Qu:kaik                     kaik_kvant ;
 koko+Pron+Qu:koko                       koko_kvant ;
@@ -72,18 +74,18 @@ joka+Pron+Qu:joka                       joka_kvant ;
 jokhainen+Pron+Qu:jokhai                jokhai_kvant ;
 jokhainen+Pron+Qu:jokhai                jokai_kvant ;
 
-!! joka+Pron+Qu:joka                       jokainu_kvant ;
-!! ainua+Pron+Qu:ainu                      ainut_kvant ;
-!! itte% kukin+Pron+Qu:itte% ku            itte_kvant ;
-!! itte+Pron+Qu:itt                        itte_kvant ;
-!! kukin+Pron+Qu:ku                        kukin_kvant ;
-!! kukin+Pron+Qu:ke                        kekin_kvant ;
+! joka+Pron+Qu:joka                       jokainu_kvant ;
+! ainua+Pron+Qu:ainu                      ainut_kvant ;
+! itte% kukin+Pron+Qu:itte% ku            itte_kvant ;
+! itte+Pron+Qu:itt                        itte_kvant ;
+! kukin+Pron+Qu:ku                        kukin_kvant ;
+! kukin+Pron+Qu:ke                        kekin_kvant ;
 
-joka+Pron+Qu:joka       jokainu_kvant ;    !! joka ainua(taipuu)
-ainua+Pron+Qu:ainu      ainut_kvant ;      !! joka ainua(taipuu)
-itte+Pron+Qu:itt        itte_kvant ;       !! itte(taipuu) kukin(taipuu)
-kukin+Pron+Qu:ku        kukin_kvant ;      !! itte(taipuu) kukin(taipuu)
-kukin+Pron+Qu:ke        kekin_kvant ;      !! itte(taipuu) kekin(taipuu)
+joka+Pron+Qu:joka       jokainu_kvant ;    ! joka ainua(taipuu)
+ainua+Pron+Qu:ainu      ainut_kvant ;      ! joka ainua(taipuu)
+itte+Pron+Qu:itt        itte_kvant ;       ! itte(taipuu) kukin(taipuu)
+kukin+Pron+Qu:ku        kukin_kvant ;      ! itte(taipuu) kukin(taipuu)
+kukin+Pron+Qu:ke        kekin_kvant ;      ! itte(taipuu) kekin(taipuu)
 
 kumpiki+Pron+Qu+Sg:kum                  sgkum_kvant ;
 kummatki+Pron+Qu+Pl:kum                 plkum_kvant ;
