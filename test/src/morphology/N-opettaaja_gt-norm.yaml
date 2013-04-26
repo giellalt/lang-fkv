@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - opettaaja: # Noun 'borg' - ei tsekattu
+     opettaaja+N+Sg+Nom: opettaaja
+     opettaaja+N+Sg+Gen: opettaajan
+     opettaaja+N+Sg+Par: opettaajaa
+     opettaaja+N+Sg+Tra: opettaajaksi
+     opettaaja+N+Sg+Abe: opettaajatta
+     opettaaja+N+Sg+Ine: opettaajassa
+     opettaaja+N+Sg+Ela: opettaajasta
+     opettaaja+N+Sg+Ill: opettaajhaan
+     opettaaja+N+Sg+Ade: opettaajala
+     opettaaja+N+Sg+Abl: opettaajalta
+     opettaaja+N+Sg+All: opettaajale
+     opettaaja+N+Sg+Ess: opettaajana
+     opettaaja+N+Pl+Nom: opettaajat
+     opettaaja+N+Pl+Gen: opettaajiitten
+     opettaaja+N+Pl+Par: opettaajiita
+     opettaaja+N+Pl+Tra: opettaajiksi
+     opettaaja+N+Pl+Abe: opettaajitta
+     opettaaja+N+Pl+Ine: opettaajissa
+     opettaaja+N+Pl+Ela: opettaajista
+     opettaaja+N+Pl+Ill: opettaajhiin
+     opettaaja+N+Pl+Ade: opettaajila
+     opettaaja+N+Pl+Abl: opettaajilta
+     opettaaja+N+Pl+All: opettaajile
+     opettaaja+N+Pl+Ess: opettaajina
