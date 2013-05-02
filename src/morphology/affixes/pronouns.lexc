@@ -743,4 +743,46 @@ LEXICON  Endsgcases
 !! jompikumpi+Pron+Indef+Sg:            sgjom_indef ;
 !! jommatkummat+Pron+Indef+Pl:          pljom_indef ;
 
+LEXICON doublecasepronounspl
+
+< j o m m:0 a:0 t:0 k:0 u:0 m:0 m:0 a:0 t:0 "+Pron":0 "+Indef":0 > plcases ;
+!kohta, 
+!jommat+Pron+Indef+Pl:jom                pljom_indef ;
+!kummat+Pron+Indef+Pl:kum                plkum_indef ;
+
+
+LEXICON  plcases
+< "@U.pron.nom@" 0:m 0:a 0:t > Continuing ;
+< "@U.pron.gen@" 0:m 0:p 0:a 0:a 0:n > Continuing ;
+< "@U.pron.gen2@" 0:m 0:i 0:t 0:t 0:e 0:n > Continuing ;
+< "@U.pron.ill@" 0:p 0:h 0:i 0:i 0:n > Continuing ;
+< "@U.pron.par@" 0:p 0:p 0:i 0:i > Continuing ;
+< "@U.pron.par2@" 0:p 0:i 0:i > Continuing ;
+< "@U.pron.ess@" 0:p 0:i 0:n 0:a > Continuing ;
+< "@U.pron.tra@" 0:m 0:i 0:k 0:s 0:i > Continuing ;
+< "@U.pron.ine@" 0:m 0:i 0:s 0:a 0:a > Continuing ;
+< "@U.pron.ela@" 0:m 0:i 0:s 0:t 0:a > Continuing ;
+< "@U.pron.all@" 0:m 0:i 0:l 0:e > Continuing ;
+< "@U.pron.ade@" 0:m 0:i 0:l 0:a > Continuing ;
+< "@U.pron.abl@" 0:m 0:i 0:l 0:t 0:a > Continuing ;
+
+
+LEXICON Continuing
+:kum  Endplcases;
+
+LEXICON  Endplcases
+
+< "@U.pron.nom@" "+Nom":0 0:m 0:a 0:t > K ; 
+< "@U.pron.gen@" "+Gen":0 0:p 0:p 0:i 0:i 0:n > K ;
+< "@U.pron.gen@" "+Gen":0 0:m 0:i 0:t 0:t 0:e 0:n > K ;
+< "@U.pron.ill@" "+Ill":0 0:p 0:h 0:i 0:i 0:n > K ;
+< "@U.pron.par@" "+Par":0 0:p 0:p 0:i 0:i > K ;
+< "@U.pron.par2@" "+Par":0 0:p 0:i 0:i > K ; 
+< "@U.pron.ess@" "+Ess":0 0:p 0:i 0:n 0:a > K ;
+< "@U.pron.tra@" "+Tra":0 0:m 0:i 0:k 0:s 0:i > K ;
+< "@U.pron.ine@" "+Ine":0 0:m 0:i 0:s 0:s 0:a > K ;
+< "@U.pron.ela@" "+Ela":0 0:m 0:i 0:s 0:t 0:a > K ;
+< "@U.pron.all@" "+All":0 0:m 0:i 0:l 0:e > K ; 
+< "@U.pron.ade@" "+Ade":0 0:m 0:i 0:l 0:a > K ; 
+< "@U.pron.abl@" "+Abl":0 0:m 0:i 0:l 0:t 0:a > K ;
 
