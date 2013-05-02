@@ -27,6 +27,9 @@ LEXICON n_1 !!= * @CODE@ = maa
  +N+Sg+Nom: R ; 
  +N: long-par ;
  +N: weak-v-stem ;
++N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+
  +N: 1TAVU_VV-ill ;
  +N+Pl:%>i2 longgenpl ;
  +N+Pl:%>i2 longparpl ;
@@ -45,6 +48,8 @@ LEXICON n_1 !!= * @CODE@ = maa
 LEXICON n_21	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
++N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: 2TAVU_V-ill ;
 +N+Pl:%>i2 shortgenpl ;
 +N+Pl:%>i2 shortparpl  ; ! 
@@ -54,6 +59,8 @@ LEXICON n_21	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
 LEXICON n_21pl	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
  +N+Pl+Nom:%>t K ; 
  +N: weak-v-stem ; ! Pitææ hoitaa, nyt väärin
+ +N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
+ +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
  +Pl+Nom: Px ;   ! mattoni
  +Pl+Ess:%>i2%>n%^A PxxK ;
 
@@ -66,11 +73,15 @@ LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom
 +N: short-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
++N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 
 
 LEXICON n_22	!!= * @CODE@  meininki
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
+ +N+Sg: sgpl-cases-long ;      !! these two lexica for cases with
+ +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 +N: 2TAVU_V-ill ;
 +N+Pl: tt-longgenpl ;
 +N+Pl: longparpl ;
@@ -80,9 +91,11 @@ LEXICON n_22	!!= * @CODE@  meininki
 +N+Sg: longall ;
 +N+Sg: longade ;
 
-LEXICON n_23	!!= * @CODE@  assii
+LEXICON n_23	!!= * @CODE@  assii, valkkee
 +N: strong-v-stem ;
 +N: weak-v-stem ;
+ +N+Sg: sgpl-cases-long ;      !! these two lexica for cases with
+ +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 
 
 LEXICON n_31	!!= @CODE@ käsi, lumi
@@ -91,6 +104,8 @@ LEXICON n_31	!!= @CODE@ käsi, lumi
 +N:%^EDEL long-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
+ +N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
+ +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: 2TAVU_V-ill ;
 +N+Pl: h_shortillpl ;
 +N+Pl:%>i2 shortparpl	 ;
@@ -100,6 +115,8 @@ LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 +N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N+Sg+Nom:%^WG R ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N:e weak-v-stem ;
+ +N+Sg: sgpl-cases-long ;      !! these two lexica for cases with
+ +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 
 LEXICON n_32s
 n_32 ; ! ei tehty
@@ -132,7 +149,9 @@ nen ; ! onko n42 = nen?
 LEXICON n_42pl ! ei tehty, tee oma pl-nen
 +N+PL+Nom:set K ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
- +Pl:%>i2 sgpl-cases ;  !! the same affix in sg and pl
+ +Pl:%>i2 sgpl-cases-short +Sg: sgpl-cases-short ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+ ;  !! the same affix in sg and pl
  +N:s longerillpl ; ! itse asiassa 
  +N+Pl:s%>i2 shortgenpl ; ! naisien
  +N+Pl:s consgenpl ;
@@ -146,6 +165,8 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
  +N+Sg:se%>i2 com ;
  +N+Pl:se%>i2 com ;
  +N:se weak-v-stem ;
+ +Sg: sgpl-cases-short ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
  +N:s longerillpl ; ! itse asiassa 
  +N:s 2TAVU_V-ill ;
  +N+Pl:s%>i2 shortgenpl ; ! naisien
@@ -160,6 +181,8 @@ LEXICON nom-nen
 LEXICON loput
  obl-strong ; ! muut vahvat
  weak-v-stem ;
+ +Sg: sgpl-cases-long ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl -- tsekkaa long
  1TAVU_VV-ill ;
 +Pl:%>i2 shortgenpl ;
 +Pl:%>i2 shortparpl ;
@@ -196,6 +219,8 @@ LEXICON obl-strong
 LEXICON weak-v-stem !!= @CODE@ 
  +Sg+Gen:%>n K ;
  +Pl+Nom:%>t K ;
+<<<<<<< .mine
+=======
  +shortade:%>l%^A  K ;
  +longade:%>ll%^A K ;
  +shortall:%>le K ;
@@ -203,6 +228,7 @@ LEXICON weak-v-stem !!= @CODE@
   
  +Sg: sgpl-cases ;      !! these two lexica for cases with
  +Pl:%>i2 sgpl-cases ;  !! the same affix in sg and pl
+>>>>>>> .r75658
 ! +Pl+Ins:%>i2%>n K ;   !! Marginal case, in use only for some words.
                         !! Todo: identify these, and remove Ins from the
                         !! general weak-v-stem lexicon.
@@ -225,12 +251,20 @@ LEXICON gae-strong
  +Sg+Ess:%>n%^A PxxK ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
-LEXICON sgpl-cases
- +Ine:%>ss%^A PxxK ;
- +Ela:%>st%^A PxxK ;
+LEXICON sgpl-cases-short ! kaikille paitsi neljän koplalle
  !+Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto
  !+All:%>le PxxK ; !! * Lyhyt perusmuoto
+ sgpl-cases-common ;
+
+LEXICON sgpl-cases-long ! neljän koplalle
+ +Ade:%>ll%^A PxxK ; !! * Pitkä perusmuoto
+ +All:%>lle PxxK ; !! * Pitkä perusmuoto
+ sgpl-cases-common ;
+
+LEXICON sgpl-cases-common
  +Abl:%>lt%^A PxxK ;
+ +Ine:%>ss%^A PxxK ;
+ +Ela:%>st%^A PxxK ;
  +Tra:%>ksi K ;
  +Tra:%>kse Pxx ;
  +Abe:%>tt%^A PxxK ;
