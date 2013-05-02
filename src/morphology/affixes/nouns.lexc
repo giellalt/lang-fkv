@@ -34,10 +34,6 @@ LEXICON n_1 !!= * @CODE@ = maa
  +N+Pl:%>i2 longgenpl ;
  +N+Pl:%>i2 longparpl ;
  +N+Pl:%>i2 shortillpl ;
- +N+Sg: shortall ;
- +N+Sg: shortade ;
- +N+Pl:%>i2 shortall ;
- +N+Pl:%>i2 shortade ;
  +Sg+Nom: Px ;   ! mattoni
  +Sg+Gen: Px ;   ! mattoni
  +Pl+Nom: Px ;   ! mattoni
@@ -86,10 +82,6 @@ LEXICON n_22	!!= * @CODE@  meininki
 +N+Pl: tt-longgenpl ;
 +N+Pl: longparpl ;
 +N+Pl: shortillpl ;
-+N+Pl: shortall ;
-+N+Pl: shortade ;
-+N+Sg: longall ;
-+N+Sg: longade ;
 
 LEXICON n_23	!!= * @CODE@  assii, valkkee
 +N: strong-v-stem ;
@@ -219,20 +211,9 @@ LEXICON obl-strong
 LEXICON weak-v-stem !!= @CODE@ 
  +Sg+Gen:%>n K ;
  +Pl+Nom:%>t K ;
-<<<<<<< .mine
-=======
- +shortade:%>l%^A  K ;
- +longade:%>ll%^A K ;
- +shortall:%>le K ;
- +longall:%>lle K ;
-  
- +Sg: sgpl-cases ;      !! these two lexica for cases with
- +Pl:%>i2 sgpl-cases ;  !! the same affix in sg and pl
->>>>>>> .r75658
 ! +Pl+Ins:%>i2%>n K ;   !! Marginal case, in use only for some words.
                         !! Todo: identify these, and remove Ins from the
                         !! general weak-v-stem lexicon.
-                        
 
 
 !! !Sublexica for the vowel stems
@@ -252,8 +233,8 @@ LEXICON gae-strong
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
 LEXICON sgpl-cases-short ! kaikille paitsi neljän koplalle
- !+Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto
- !+All:%>le PxxK ; !! * Lyhyt perusmuoto
+ +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto
+ +All:%>le PxxK ; !! * Lyhyt perusmuoto
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-long ! neljän koplalle
@@ -332,19 +313,8 @@ LEXICON shorterillpl
 
 LEXICON longerillpl
   +Pl+Ill:%>s%^V%^V n-PxK ;
+ 
 
-LEXICON longall
-+All:%>lle PxK ; !! *pitkä muoto
-   
-LEXICON longade
-+Ade: %>ll%^A PxxK ; !! *pitkä muoto
-
-LEXICON shortade
-+Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto
-
-LEXICON shortall
-+All:%>le PxxK ; !! * Lyhyt perusmuoto
-  
 !! !Sublexica for possessive suffixes
 ! ---------------------------------
 
