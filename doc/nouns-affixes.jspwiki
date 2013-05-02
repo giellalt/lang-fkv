@@ -11,8 +11,9 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 ** 2.2 Usseempitav. ( meininki, sivakka)		 = n_22
 ** 2.3 Kokkoontumanom. ( valkkee, assii)		 = n_23
 * 3. Konsonanttirankaiset					  
-** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_22
+** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
 ** 3.2 Usseempitavuiset ( tytär, rakkhaus)	 = n_32
+** 3.2.1 (rakkhaus)							 = n_32s
 ** 3.3 Kokkoontumanom. ( opas, huonet)		 = n_33s
 * 4. Ekstrakonsonanttirankaiset				  
 ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
@@ -21,30 +22,47 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 !!Noun types
 
  * LEXICON n_1  = maa
+these two lexica for cases with
+the same affix in sg and pl
+
 
 
  * LEXICON n_21	  "poika", lyhyt vokali, yks vartalo
+these two lexica for cases with
+the same affix in sg and pl
 
 
  * LEXICON n_21pl	  "poika", lyhyt vokali, yks vartalo
+these two lexica for cases with
+the same affix in sg and pl
 
 
 
 
  LEXICON n_21ie	 on ove, ovi, nom
+these two lexica for cases with
+the same affix in sg and pl
 
 
  * LEXICON n_22	  meininki
+these two lexica for cases with
+the same affix in sg and pl
 
- * LEXICON n_23	  assii
+ * LEXICON n_23	  assii, valkkee
+these two lexica for cases with
+the same affix in sg and pl
 
 
  LEXICON n_31	 käsi, lumi
+these two lexica for cases with
+the same affix in sg and pl
 
  LEXICON n_32	  tytär, NB!! ei vielä hoidettu millään tavalla
 ei vielä hoidettu millään tavalla
 * Konsonanttivartalo: poista -e ja heikko aste
 * Konsonanttivartalo: poista -e ja heikko aste
+these two lexica for cases with
+the same affix in sg and pl
 
 
 
@@ -61,9 +79,13 @@ ei vielä hoidettu millään tavalla
 the same affix in sg and pl
 
  LEXICON nen   on nainen-sanoille
+these two lexica for cases with
+the same affix in sg and pl
 
 
 
+these two lexica for cases with
+the same affix in sg and pl -- tsekkaa long
 
 
 
@@ -78,8 +100,6 @@ Basic paradigms
 
 
  LEXICON weak-v-stem  
-these two lexica for cases with
-the same affix in sg and pl
 Marginal case, in use only for some words.
 Todo: identify these, and remove Ins from the
 general weak-v-stem lexicon.
@@ -91,6 +111,10 @@ general weak-v-stem lexicon.
 
 * Lyhyt perusmuoto
 * Lyhyt perusmuoto
+
+* Pitkä perusmuoto
+* Pitkä perusmuoto
+
 
 Komitatiivilla on vain -ine ja menee Pxx:iin
 
