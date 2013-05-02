@@ -141,9 +141,7 @@ nen ; ! onko n42 = nen?
 LEXICON n_42pl ! ei tehty, tee oma pl-nen
 +N+PL+Nom:set K ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
- +Pl:%>i2 sgpl-cases-short +Sg: sgpl-cases-short ;      !! these two lexica for cases with
  +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
- ;  !! the same affix in sg and pl
  +N:s longerillpl ; ! itse asiassa 
  +N+Pl:s%>i2 shortgenpl ; ! naisien
  +N+Pl:s consgenpl ;
