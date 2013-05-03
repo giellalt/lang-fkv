@@ -14,28 +14,28 @@ Tests:
 # Then: linnrun analyser, then correct. 
 
 
-  Noun - linna: # Noun 'borg' - ok
-     linna+N+Sg+Nom: linna
-     linna+N+Sg+Gen: linnan
-     linna+N+Sg+Par: linnaa
-     linna+N+Sg+Tra: linnaksi
-     linna+N+Sg+Abe: linnatta
-     linna+N+Sg+Ine: linnassa
-     linna+N+Sg+Ela: linnasta
-     linna+N+Sg+Ill: linnhaan
-     linna+N+Sg+Ade: linnala
-     linna+N+Sg+Abl: linnalta
-     linna+N+Sg+All: linnale
-     linna+N+Sg+Ess: linnana
-     linna+N+Pl+Nom: linnat
-     linna+N+Pl+Gen: linnoin
-     linna+N+Pl+Par: linnoi
-     linna+N+Pl+Tra: linnoiksi
-     linna+N+Pl+Abe: linnoitta
-     linna+N+Pl+Ine: linnoissa
-     linna+N+Pl+Ela: linnoista
-     linna+N+Pl+Ill: linnhoin
-     linna+N+Pl+Ade: linnoila
-     linna+N+Pl+Abl: linnoilta
-     linna+N+Pl+All: linnoile
-     linna+N+Pl+Ess: linnoina
+  Noun - rakas: # Noun 'borg' - ei tsekattu
+     rakas+N+Sg+Nom: rakas
+     rakas+N+Sg+Gen: rakkhaan
+     rakas+N+Sg+Par: rakasta
+     rakas+N+Sg+Tra: rakkhaaksi
+     rakas+N+Sg+Abe: rakkhasta
+     rakas+N+Sg+Ine: rakkhaasssa
+     rakas+N+Sg+Ela: rakkhaasta
+     rakas+N+Sg+Ill: rakkhaaseen
+     rakas+N+Sg+Ade: rakkhaala
+     rakas+N+Sg+Abl: rakkhaalta
+     rakas+N+Sg+All: rakkhaale
+     rakas+N+Sg+Ess: rakkhaana
+     rakas+N+Pl+Nom: rakkhaat
+     rakas+N+Pl+Gen: rakkhaitten
+     rakas+N+Pl+Par: rakkhaita
+     rakas+N+Pl+Tra: rakkhaiksi
+     rakas+N+Pl+Abe: rakkhaitta
+     rakas+N+Pl+Ine: rakkhaissa
+     rakas+N+Pl+Ela: rakkhaista
+     rakas+N+Pl+Ill: rakkhaissiin
+     rakas+N+Pl+Ade: rakkhaila
+     rakas+N+Pl+Abl: rakkhailta
+     rakas+N+Pl+All: rakkhaile
+     rakas+N+Pl+Ess: rakkhaina
