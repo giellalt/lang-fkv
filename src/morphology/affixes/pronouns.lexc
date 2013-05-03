@@ -701,7 +701,8 @@ LEXICON plmon_kvant
 
 LEXICON doublecasepronouns
 
-< j o m p:0 i:0 k:0 u:0 m:0 p:0 i:0 "+Pron":0 "+Indef":0 > sgcases ;
+< j o m p:0 i:0 k:0 u:0 m:0 p:0 i:0 "+Pron":0 "+Indef":0 "+Sg":0> sgcases ;
+
 !kohta, 
 !jommat+Pron+Indef+Pl:jom                pljom_indef ;
 !kummat+Pron+Indef+Pl:kum                plkum_indef ;
@@ -743,31 +744,33 @@ LEXICON  Endsgcases
 !! jompikumpi+Pron+Indef+Sg:            sgjom_indef ;
 !! jommatkummat+Pron+Indef+Pl:          pljom_indef ;
 
+
 LEXICON doublecasepronounspl
 
-< j o m m:0 a:0 t:0 k:0 u:0 m:0 m:0 a:0 t:0 "+Pron":0 "+Indef":0 > plcases ;
+< j o m m:0 a:0 t:0 k:0 u:0 m:0 m:0 a:0 t:0 "+Pron":0 "+Indef":0 "+Pl":0 > plcases ;
+
 !kohta, 
 !jommat+Pron+Indef+Pl:jom                pljom_indef ;
 !kummat+Pron+Indef+Pl:kum                plkum_indef ;
 
 
 LEXICON  plcases
-< "@U.pron.nom@" 0:m 0:a 0:t > Continuing ;
-< "@U.pron.gen@" 0:m 0:p 0:a 0:a 0:n > Continuing ;
-< "@U.pron.gen2@" 0:m 0:i 0:t 0:t 0:e 0:n > Continuing ;
-< "@U.pron.ill@" 0:p 0:h 0:i 0:i 0:n > Continuing ;
-< "@U.pron.par@" 0:p 0:p 0:i 0:i > Continuing ;
-< "@U.pron.par2@" 0:p 0:i 0:i > Continuing ;
-< "@U.pron.ess@" 0:p 0:i 0:n 0:a > Continuing ;
-< "@U.pron.tra@" 0:m 0:i 0:k 0:s 0:i > Continuing ;
-< "@U.pron.ine@" 0:m 0:i 0:s 0:a 0:a > Continuing ;
-< "@U.pron.ela@" 0:m 0:i 0:s 0:t 0:a > Continuing ;
-< "@U.pron.all@" 0:m 0:i 0:l 0:e > Continuing ;
-< "@U.pron.ade@" 0:m 0:i 0:l 0:a > Continuing ;
-< "@U.pron.abl@" 0:m 0:i 0:l 0:t 0:a > Continuing ;
+< "@U.pron.nom@" 0:m 0:a 0:t >              Continues ;
+< "@U.pron.gen@" 0:m 0:p 0:i 0:i 0:n >      Continues ;
+< "@U.pron.gen2@" 0:m 0:i 0:t 0:t 0:e 0:n > Continues ;
+< "@U.pron.ill@" 0:p 0:h 0:i 0:i 0:n >      Continues ;
+< "@U.pron.par@" 0:p 0:p 0:i 0:i >          Continues ;
+< "@U.pron.par2@" 0:p 0:i 0:i >             Continues ;
+< "@U.pron.ess@" 0:p 0:i 0:n 0:a >          Continues ;
+< "@U.pron.tra@" 0:m 0:i 0:k 0:s 0:i >      Continues ;
+< "@U.pron.ine@" 0:m 0:i 0:s 0:a 0:a >      Continues ;
+< "@U.pron.ela@" 0:m 0:i 0:s 0:t 0:a >      Continues ;
+< "@U.pron.all@" 0:m 0:i 0:l 0:e >          Continues ;
+< "@U.pron.ade@" 0:m 0:i 0:l 0:a >          Continues ;
+< "@U.pron.abl@" 0:m 0:i 0:l 0:t 0:a >      Continues ;
 
 
-LEXICON Continuing
+LEXICON Continues
 :kum  Endplcases;
 
 LEXICON  Endplcases
