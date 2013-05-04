@@ -45,8 +45,8 @@ LEXICON n_1 !!= * @CODE@ = maa
 LEXICON n_21	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
-+N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: 2TAVU_V-ill ;
 +N+Pl:%>i2 shortgenpl ;
 +N+Pl:%>i2 shortparpl  ; ! 
@@ -77,8 +77,8 @@ LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom
 LEXICON n_22	!!= * @CODE@  meininki
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
- +N+Sg: sgpl-cases-long ;      !! these two lexica for cases with
- +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
+ +N+Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
+ +N+Pl:%^WG%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 +N: 2TAVU_V-ill ;
 +N+Pl: tt-longgenpl ;
 +N+Pl: longparpl ;
@@ -87,8 +87,8 @@ LEXICON n_22	!!= * @CODE@  meininki
 LEXICON n_23	!!= * @CODE@  assii, valkkee
 +N: strong-v-stem ;
 +N: weak-v-stem ;
- +N+Sg: sgpl-cases-long ;      !! these two lexica for cases with
- +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
+ +N+Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
+ +N+Pl:%^WG%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 
 
 LEXICON n_31	!!= @CODE@ käsi, lumi
@@ -97,8 +97,8 @@ LEXICON n_31	!!= @CODE@ käsi, lumi
 +N:%^EDEL long-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
- +N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
- +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+ +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
+ +N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: 2TAVU_V-ill ;
 +N+Pl: h_shortillpl ;
 +N+Pl:%>i2 shortparpl	 ;
@@ -108,7 +108,7 @@ LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 +N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N+Sg+Nom:%^WG R ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N:e weak-v-stem ;
- +N+Sg: sgpl-cases-long ;      !! these two lexica for cases with
+ +N+Sg:e sgpl-cases-long ;      !! these two lexica for cases with
  +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 
 LEXICON n_32s
@@ -156,8 +156,8 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
  +N+Sg:se%>i2 com ;
  +N+Pl:se%>i2 com ;
  +N:se weak-v-stem ;
- +Sg: sgpl-cases-short ;      !! these two lexica for cases with
- +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+ +Sg:se sgpl-cases-short ;      !! these two lexica for cases with
+ +Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
  +N:s longerillpl ; ! itse asiassa 
  +N:s 2TAVU_V-ill ;
  +N+Pl:s%>i2 shortgenpl ; ! naisien
