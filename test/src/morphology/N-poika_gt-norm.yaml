@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: poik../bin/olo-gen.hfstol
+    Morph: poik../bin/olo.hfstol
+  xerox:
+    Gen: poik../bin/iolo.fst
+    Morph: poik../bin/olo.fst
+    App: poiklookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: poikrun analyser, then correct. 
+
+
+  Noun - poika: # Noun 'boy' - full paradigm
+     poika+N+Sg+Nom: poika
+     poika+N+Sg+Gen: pojan
+     poika+N+Sg+Par: poikkaa
+     poika+N+Sg+Tra: pojaksi
+     poika+N+Sg+Abe: pojatta
+     poika+N+Sg+Ine: pojassa
+     poika+N+Sg+Ela: pojasta
+     poika+N+Sg+Ill: poikhaan
+     poika+N+Sg+Ade: pojala
+     poika+N+Sg+Abl: pojalta
+     poika+N+Sg+All: pojale
+     poika+N+Sg+Ess: poikana
+     poika+N+Pl+Nom: pojat
+     poika+N+Pl+Gen: poikain
+     poika+N+Pl+Par: poikkii
+     poika+N+Pl+Tra: pojiksi
+     poika+N+Pl+Abe: pojitta
+     poika+N+Pl+Ine: pojissa
+     poika+N+Pl+Ela: pojista
+     poika+N+Pl+Ill: poikhoin
+     poika+N+Pl+Ade: pojila
+     poika+N+Pl+Abl: pojilta
+     poika+N+Pl+All: pojile
+     poika+N+Pl+Ess: poikina
