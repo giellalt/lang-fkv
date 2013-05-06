@@ -111,8 +111,15 @@ LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
  +N+Sg:e sgpl-cases-long ;      !! these two lexica for cases with
  +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 
-LEXICON n_32s
-n_32 ; ! ei tehty
+LEXICON n_32s !!= @CODE@  sairhaus 
++N:t long-par ;
++N:te obl-strong ;
++N:te%^WG weak-v-stem ;
++N+Sg:%^WG sgpl-cases-long ;      
++N+Pl:%^WG%>i2 sgpl-cases-long ;
++N+Pl:ks %>i2 shortparpl ;
++N+Pl:ks %>i2 shortgenpl ;
++N+Pl:ks %>i2 shorterillpl ;
 
 LEXICON n_32t
 n_32 ; ! ei tehty
