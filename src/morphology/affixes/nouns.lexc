@@ -112,14 +112,25 @@ LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
  +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 
 LEXICON n_32s !!= @CODE@  sairhaus 
++N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N:t long-par ;
 +N:te obl-strong ;
-+N:te%^WG weak-v-stem ;
-+N+Sg:%^WG sgpl-cases-long ;      
-+N+Pl:%^WG%>i2 sgpl-cases-long ;
++N:te weak-v-stem ;
++N+Sg:de sgpl-cases-long ;      
++N+Pl:ks%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
 +N+Pl:ks%>i2 shortparpl ;
 +N+Pl:ks%>i2 shortgenpl ;
 +N+Pl:ks%>i2 shorterillpl ;
+
+! LEXICON n_32s != @CODE@  sairhaus vanha versio
+! +N:t long-par ;
+! +N:te obl-strong ;
+! +N:te%^WG weak-v-stem ;
+! +N+Sg:%^WG sgpl-cases-long ;      
+! +N+Pl:%^WG%>i2 sgpl-cases-long ;
+! +N+Pl:ks%>i2 shortparpl ;
+! +N+Pl:ks%>i2 shortgenpl ;
+! +N+Pl:ks%>i2 shorterillpl ;
 
 LEXICON n_32t
 n_32 ; ! ei tehty
