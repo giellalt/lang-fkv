@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - maa: # Noun 'sykdom' - ei tsekattu
+     sairhaus+N+Sg+Nom: sairhaus
+     sairhaus+N+Sg+Gen: sairhauđen
+     sairhaus+N+Sg+Par: sairhautta
+     sairhaus+N+Sg+Tra: sairhauđeksi
+     sairhaus+N+Sg+Abe: sairhauđetta
+     sairhaus+N+Sg+Ine: sairhauđessa
+     sairhaus+N+Sg+Ela: sairhauđesta
+     sairhaus+N+Sg+Ill: sairhautheen
+     sairhaus+N+Sg+Ade: sairhauđella
+     sairhaus+N+Sg+Abl: sairhauđelta
+     sairhaus+N+Sg+All: sairhauđelle
+     sairhaus+N+Sg+Ess: sairhautena
+     sairhaus+N+Pl+Nom: sairhauđet
+     sairhaus+N+Pl+Gen: sairhauksiitten
+     sairhaus+N+Pl+Par: sairhauksiita
+     sairhaus+N+Pl+Tra: sairhauksiksi
+     sairhaus+N+Pl+Abe: sairhauksitta
+     sairhaus+N+Pl+Ine: sairhauksissa
+     sairhaus+N+Pl+Ela: sairhauksista
+     sairhaus+N+Pl+Ill: sairhaukshiin
+     sairhaus+N+Pl+Ade: sairhauksilla
+     sairhaus+N+Pl+Abl: sairhauksilta
+     sairhaus+N+Pl+All: sairhauksille
+     sairhaus+N+Pl+Ess: sairhauksina
