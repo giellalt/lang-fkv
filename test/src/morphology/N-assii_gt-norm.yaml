@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - linna: # Noun 'borg' - ei tsekattu
+     assii+N+Sg+Nom: assii
+     assii+N+Sg+Gen: assiin
+     assii+N+Sg+Par: assiita
+     assii+N+Sg+Tra: assiiksi
+     assii+N+Sg+Abe: assiitta
+     assii+N+Sg+Ine: assiissa
+     assii+N+Sg+Ela: assiista
+     assii+N+Sg+Ill: assiisheen
+     assii+N+Sg+Ade: assiila
+     assii+N+Sg+Abl: assiilta
+     assii+N+Sg+All: assiile
+     assii+N+Sg+Ess: assiina
+     assii+N+Pl+Nom: assiit
+     assii+N+Pl+Gen: assiitten
+     assii+N+Pl+Par: assiita
+     assii+N+Pl+Tra: assiiksi
+     assii+N+Pl+Abe: assiitta
+     assii+N+Pl+Ine: assiissa
+     assii+N+Pl+Ela: assiista
+     assii+N+Pl+Ill: assiishiin
+     assii+N+Pl+Ade: assiila
+     assii+N+Pl+Abl: assiilta
+     assii+N+Pl+All: assiile
+     assii+N+Pl+Ess: assiina
