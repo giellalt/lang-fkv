@@ -37,8 +37,8 @@ helluntai       n_1 ;
 
 !! !!2.1 Kaksitavvuiset lyhykäisvokaaliset rangat
 
-linna           n_21 ; !!= * @CODE@
-sivakka         n_21 ;
+linna:linn           n_21 ; !!= * @CODE@
+sivakka:sivak         n_21 ;
 syksy           n_21 ;
 kana            n_21 ;
 kala            n_21 ;
@@ -70,7 +70,7 @@ bensiini        n_22 ;
 
 
 !! !!2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
-assii n_23 ;  !!= * @CODE@
+assii:assii  n_23 ;  !!= * @CODE@
 lattii          n_23 ;
 valkkee:valkke         n_23 ; !!= * @CODE@ adjektiivi
 kauhee:kauhe          n_23 ;
