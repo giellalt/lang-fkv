@@ -45,12 +45,12 @@ LEXICON n_1 !!= * @CODE@ = maa
 LEXICON n_21	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
-+N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Sg:%^WG sgpl-cases-short ;      !! * to sgpl-cases-short for cases with
++N+Pl:%^WG%>i2 sgpl-cases-short ;  !!   the same affix in sg and pl
 +N: 2TAVU_V-ill ;
-+N+Pl:%>i2 shortgenpl ;
-+N+Pl:%>i2 shortparpl  ; ! 
-+N+Pl:%>i2 shortillpl ;
++N+Pl:%>i2 shortestgenpl ;  !! * to shortestgenpl since we already
++N+Pl:%>i2 shortestparpl  ; !!   have the i
++N+Pl:%>%^HMETAh%^Vi2 shortestillpl ;
 
 
 LEXICON n_21pl	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
@@ -122,7 +122,7 @@ LEXICON n_32s !!= @CODE@  sairhaus
 +N+Pl:ksi%>i2 longparpl ;
 +N+Pl:ksi%>i2 longgenpl ;
 +N+Pl:ksi%>i2 h_shorterillpl ;
-+N+Pl+Ess:ksi%>i2 ;
++N+Pl+Ess:ksi%>i2 K ;
 
 ! LEXICON n_32s != @CODE@  sairhaus vanha versio
 ! +N:t long-par ;
@@ -298,6 +298,9 @@ LEXICON mTAVU_VV-ill !longer kuninkhaa/sseen
 LEXICON oldgenpl
  +Gen:%> n-PxK ;
 
+LEXICON shortestgenpl !! * @CODE@ zero, because ii > i
+ +Gen: n-PxK ;
+
 LEXICON shortgenpl
  +Gen:%>%^V n-PxK ;
 
@@ -314,11 +317,17 @@ LEXICON tt-longgenpl
 LEXICON consgenpl
  +Gen:%>te n-PxK ;
 
+LEXICON shortestparpl !! * @CODE@ zero, because ii > i
+ +Par: PxxK ;
+
 LEXICON shortparpl
  +Par:%>%^V PxxK ;
 
 LEXICON longparpl
  +Par:%>%t^A PxxK ;
+
+LEXICON shortestillpl
+ +Ill:%> n-PxK ;
 
 LEXICON shortillpl
  +Ill:%>hi n-PxK ;
