@@ -121,7 +121,8 @@ LEXICON n_32s !!= @CODE@  sairhaus
 +N+Pl:ks%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
 +N+Pl:ksi%>i2 longparpl ;
 +N+Pl:ksi%>i2 longgenpl ;
-+N+Pl:ksi%>i2 h_shorterillpl ;
+!+N+Pl+Ill:ksi%>i2 2TAVU_V-ill ;
++N+Pl:ks%^HMETAh%>i2i shortestillpl;
 +N+Pl+Ess:ksi%>i2 K ;
 
 ! LEXICON n_32s != @CODE@  sairhaus vanha versio
@@ -254,11 +255,13 @@ LEXICON gae-strong
 LEXICON sgpl-cases-short ! kaikille paitsi neljän koplalle
  +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto
  +All:%>le PxxK ; !! * Lyhyt perusmuoto
+ +Ess:%>n%^A PxxK ;
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-long ! neljän koplalle
  +Ade:%>ll%^A PxxK ; !! * Pitkä perusmuoto
  +All:%>lle PxxK ; !! * Pitkä perusmuoto
+ +Ess:%>nn%^A PxxK ;
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-common
@@ -289,7 +292,8 @@ LEXICON 1TAVU_VV-ill  !short maahan
  +Sg+Ill:%>h%^V n-PxK ;
 
 LEXICON 2TAVU_V-ill !long
- +Sg+Ill:%>%^HMETAh%^V%^V n-PxK ;
++Sg+Ill:%>%^HMETAh%^V%^V n-PxK ;
++Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
 ! sykshyyn, linnhaan
 
 LEXICON mTAVU_VV-ill !longer kuninkhaa/sseen
