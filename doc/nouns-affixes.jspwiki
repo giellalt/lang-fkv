@@ -28,8 +28,10 @@ the same affix in sg and pl
 
 
  * LEXICON n_21	  "poika", lyhyt vokali, yks vartalo
-these two lexica for cases with
-the same affix in sg and pl
+* to sgpl-cases-short for cases with
+  the same affix in sg and pl
+* to shortestgenpl since we already
+  have the i
 
 
  * LEXICON n_21pl	  "poika", lyhyt vokali, yks vartalo
@@ -131,9 +133,14 @@ Komitatiivilla on vain -ine ja menee Pxx:iin
 
 
 
+* LEXICON weak-v-stem  zero, because ii > i
 
 
 
+
+
+
+* LEXICON weak-v-stem  zero, because ii > i
 
 
 
