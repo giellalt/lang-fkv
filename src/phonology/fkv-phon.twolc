@@ -367,6 +367,9 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | e: %>:0 i
           Vy in ( a e i i  o u y ä ö ) 
              matched ;
 
+"Vowel copying in long h forms of a-stems" !!= * @CODE@  
+ %^V:o <=> .#. Conson:* (Vowel:) [i|e|a] Conson:* a: %>:0 %^HMETA: h _ i2: ; 
+
 ! %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h %^V: _ ; 
     
 "Stem deletion in h-illative" !!= * @CODE@  
@@ -422,12 +425,11 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | e: %>:0 i
  a:o <=> .#. Conson:* a ([a|u]) Conson:* _ Dummy:* %>:0 i3: ;
 
 "a:o before Pl i" !!= * @CODE@  
- a:o <=> .#. Conson:* (Vowel:) [i|e|a] Conson:* _ Dummy:* %>:0 i2: ;
- ! kalaien : kalojen
+ a:o <=> .#. Conson:* (Vowel:) [i|e|a] Conson:* _ Dummy:* %>:0 i2: ; ! 2-syll
+         Vowel Conson Conson:* Vowel:+ Conson:+ _ Dummy:* %>:0 i2: ; ! 3-syll
 
-
-"a:o before Pl i in 3-syll stems" !!= * @CODE@  
- a:o <=> Vowel Conson Conson:* Vowel:+ Conson:* _ Dummy:* %>:0 i2: ;
+!€ kala>i2en
+!€ kalo0jen
 !€ kulkkiija>i2
 !€ kulkkiijo0i
 
