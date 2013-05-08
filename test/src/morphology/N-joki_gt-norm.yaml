@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - linna: # Noun 'borg' - ei tsekattu
+     joki+N+Sg+Nom: joki
+     joki+N+Sg+Gen: joven
+     joki+N+Sg+Par: jokkee
+     joki+N+Sg+Tra: jokiksi
+     joki+N+Sg+Abe: jovetta
+     joki+N+Sg+Ine: jovissa
+     joki+N+Sg+Ela: jovesta
+     joki+N+Sg+Ill: jokheen
+     joki+N+Sg+Ade: jovela
+     joki+N+Sg+Abl: jovelta
+     joki+N+Sg+All: jovele
+     joki+N+Sg+Ess: jokena
+     joki+N+Pl+Nom: jovet
+     joki+N+Pl+Gen: jokkiin
+     joki+N+Pl+Par: jokkii
+     joki+N+Pl+Tra: joviksi
+     joki+N+Pl+Abe: jovitta
+     joki+N+Pl+Ine: jovissa
+     joki+N+Pl+Ela: jovista
+     joki+N+Pl+Ill: jokkhiin
+     joki+N+Pl+Ade: jovila
+     joki+N+Pl+Abl: jovilta
+     joki+N+Pl+All: jovile
+     joki+N+Pl+Ess: jokina
