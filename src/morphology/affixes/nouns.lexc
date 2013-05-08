@@ -115,12 +115,13 @@ LEXICON n_32s !!= @CODE@  sairhaus
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N:t long-par ;
 +N:te obl-strong ;
-+N:te weak-v-stem ;
-+N+Sg:de sgpl-cases-long ;      
++N:đe weak-v-stem ;
++N:%>%^HMETAh%^V%^V ;
++N+Sg:đe sgpl-cases-long ;      
 +N+Pl:ks%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
-+N+Pl:ks%>i2 shortparpl ;
-+N+Pl:ks%>i2 shortgenpl ;
-+N+Pl:ks%>i2 shorterillpl ;
++N+Pl:ksi%>i2 shortparpl ;
++N+Pl:ksi%>i2 shortgenpl ;
++N+Pl:ks%>i2 h_shorterillpl ;
 
 ! LEXICON n_32s != @CODE@  sairhaus vanha versio
 ! +N:t long-par ;
