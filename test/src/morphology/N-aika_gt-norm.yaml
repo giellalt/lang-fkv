@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - linna: # Noun 'borg' - ei tsekattu
+     aika+N+Sg+Nom: aika
+     aika+N+Sg+Gen: aijan
+     aika+N+Sg+Par: aikkaa
+     aika+N+Sg+Tra: aijaksi
+     aika+N+Sg+Abe: aijatta
+     aika+N+Sg+Ine: aijassa
+     aika+N+Sg+Ela: aijasta
+     aika+N+Sg+Ill: aikhaan
+     aika+N+Sg+Ade: aijala
+     aika+N+Sg+Abl: aijalta
+     aika+N+Sg+All: aijale
+     aika+N+Sg+Ess: aikana
+     aika+N+Pl+Nom: aijat
+     aika+N+Pl+Gen: aikkoin
+     aika+N+Pl+Par: aikkoi
+     aika+N+Pl+Tra: aijoiksi
+     aika+N+Pl+Abe: aijoitta
+     aika+N+Pl+Ine: aijoissa
+     aika+N+Pl+Ela: aijoista
+     aika+N+Pl+Ill: aikhoin
+     aika+N+Pl+Ade: aijala
+     aika+N+Pl+Abl: aijalta
+     aika+N+Pl+All: aijale
+     aika+N+Pl+Ess: aikoina
