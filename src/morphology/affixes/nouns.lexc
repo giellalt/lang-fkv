@@ -117,13 +117,13 @@ LEXICON n_32s !!= @CODE@  sairhaus
 +N:te obl-strong ;
 +N:đe weak-v-stem ;
 +N:te 2TAVU_V-ill ;
-+N+Sg:đe sgpl-cases-long ;      
++N+Sg:đe sgpl-cases-long ;
++N+Sg:te sgpl-cases-long ;      
 +N+Pl:ks%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
 +N+Pl:ksi%>i2 longparpl ;
 +N+Pl:ksi%>i2 longgenpl ;
-!+N+Pl+Ill:ksi%>i2 2TAVU_V-ill ;
 +N+Pl:ks%^HMETAh%>i2i shortestillpl;
-+N+Pl+Ess:ksi%>i2 K ;
+
 
 ! LEXICON n_32s != @CODE@  sairhaus vanha versio
 ! +N:t long-par ;
