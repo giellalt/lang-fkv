@@ -147,8 +147,7 @@ LEXICON n_33s !!= @CODE@ rakas
 
 LEXICON n_33t !!= @CODE@ venet
 +N: tConsCase ; ! nom, par
-+N:%>%^HMETAh%^V%^V loput ;
-+N:%> sgpl-cases-short ;
++N:%>%^HMETAh%^V%^V loputjutut ;
 +Sg+Ill:%>s%^V%^V n-PxK ;
 +N:%>i2 longerillpl ;
 
@@ -202,6 +201,17 @@ LEXICON loput
 +Pl:%>i2 shortgenpl ;
 +Pl:%>i2 shortparpl ;
 +Pl:%>i2 shortillpl ;
+
+LEXICON loputjutut
+ obl-strong ; ! muut vahvat
+ weak-v-stem ;
+ +Sg: sgpl-cases-short ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl -- tsekkaa long
+ mTAVU_VV-ill ;
++Pl:%>i2 longgenpl ;
++Pl:%>i2 longparpl ;
++Pl:%>i2 longillpl ;
+
 
 LEXICON sConsCase
 +Sg+Nom:%^WG%>s K ;
@@ -300,7 +310,8 @@ LEXICON 2TAVU_V-ill !long
 ! sykshyyn, linnhaan
 
 LEXICON mTAVU_VV-ill !longer kuninkhaa/sseen
-+Sg+Ill:%>ss%^V%^V n-PxK ;
+!+Sg+Ill:%>ss%^V%^V n-PxK ;
++Sg+Ill:%>ssee n-PxK ; !koska tämä pääte aina sseen
 
 LEXICON oldgenpl
  +Gen:%> n-PxK ;
