@@ -148,9 +148,9 @@ LEXICON n_33s !!= @CODE@ rakas
 LEXICON n_33t !!= @CODE@ venet
 +N: tConsCase ; ! nom, par
 +N:%>%^HMETAh%^V%^V loput ;
-+N:%>sgpl-cases-short ;
++N:%> sgpl-cases-short ;
 +Sg+Ill:%>s%^V%^V n-PxK ;
-+N:%>i2 longerillpl n-PxK ;
++N:%>i2 longerillpl ;
 
 LEXICON n_41 !!= * @CODE@ = veres
 +N: s_kse ;
