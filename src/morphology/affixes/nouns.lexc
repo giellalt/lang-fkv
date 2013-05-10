@@ -143,7 +143,9 @@ n_33s ;
 
 LEXICON n_33s !!= @CODE@ rakas
 +N: sConsCase ; ! nom, par
-+N:%>%^HMETAh%^V%^V loput ;
++N:%>%^HMETAh%^V%^V loputjutut ;
++Sg+Ill:%>s%^V%^V n-PxK ;
++N:%>i2 longerillpl ;
 
 LEXICON n_33t !!= @CODE@ venet
 +N: tConsCase ; ! nom, par
