@@ -20,6 +20,7 @@ K ;
 LEXICON K !!= is for all clitica except the ones following negative ei
  ENDLEX ;
  +Clt:%>kin ENDLEX ;
+ +Clt:%>ki ENDLEX ;
  K_NEUTRAL ;
 
 
@@ -30,6 +31,7 @@ LEXICON K_NEG !!= @CODE@ is for eikä
 
 LEXICON K_NEUTRAL !!= is the clitic lexicon common to ei and the rest
  +Clt+Qst:%>k%^O ENDLEX ;
+ +Clt+Qst:%>k%^Os ENDLEX ;
  +Clt:%>h%^An ENDLEX ;
  +Clt:%>p%^A ENDLEX ;
  +Clt:%>p%^As ENDLEX ;
