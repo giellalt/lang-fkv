@@ -5,7 +5,7 @@ LEXICON NounRoot !!= @CODE@
 !! Leksikkonimet Eiran mukaan
 !! * n1 Eira 1
 !! * n12 Eira 1.1 etc
-!! Luokat n_21 n12 n_22 n_32 n_1 n_23 n_33s n_33t n_41 n_42 Eiran v. 2009 mukaan
+!! Luokat n_21 n12 n_22 n_32 n_32s n_32m n_1 n_23 n_33s n_33t n_41 n_42 Eiran v. 2009 mukaan
 
 
 !!  2007 s.87
@@ -18,6 +18,7 @@ LEXICON NounRoot !!= @CODE@
 !! ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
 !! ** 3.2 Usseempitavuiset ( tytär)				 = n_32
 !! ** 3.2.1 (rakkhaus)							 = n_32s
+!! ** 3.2.2. (elläin: elläimen                   = n_32m
 !! ** 3.3 Kokkoontumanom. ( opas, huonet)		 = n_33s
 !! * 4. Ekstrakonsonanttirankaiset				 = 
 !! ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
@@ -91,9 +92,9 @@ mies:miehe            n_31 ;
 !! !!3.2 Usseaempitavuiset
 tytär:tyttär               n_32 ; !!= * @CODE@
 sisar               n_32 ;
-elläin:elläim              n_32 ;
+elläin:elläim       n_32m ;
 tyven               n_32 ;
-syđän               n_32 ;
+syđän:sydäm         n_32m ;
 rakkhaus:rakkhau   n_32s ;
 korkkeus:korkkeu    n_32s ;
 
@@ -2485,40 +2486,40 @@ tyvi:tyve n_21ie ;
 !! Næmæ pitææ lajittaa
 
 
-sammal:samma n_32 ;
-taival:taiva n_32 ;
-höyhen:höyhe n_32 ;
-ien:ie n_32 ;
-siemen:sieme n_32 ;
-paimen:paime n_32 ;
-vuosikymmen:vuosikymme n_32 ;
-kämmen:kämme n_32 ;
-jäsen:jäse n_32 ;
-meriahven:meriahve n_32 ;
-järviahven:järviahve n_32 ;
-kuolain:kuolai n_32 ;
-sierain:sierai n_32 ;
-auvain:auvai n_32 ;
-kuuđain:kuuđai n_32 ;
-vanhin:vanhi n_32 ;
-esivanhin:esivanhi n_32 ;
-morssiin:morssii n_32 ;
-uistin:uisti n_32 ;
-luistin:luisti n_32 ;
-elläin:elläi n_32 ;
-kotielläin:kotielläi n_32 ;
-hođin:hođi n_32 ;
-yđin:yđi n_32 ;
-laiđun:laiđu n_32 ;
-isosisar:isosisa n_32 ;
-pikkusisar:pikkusisa n_32 ;
-tytär:tytä n_32 ;
-jalkatytär:jalkatytä n_32 ;
-krannitytär:krannitytä n_32 ;
-oppitytär:oppitytä n_32 ;
-ruokkotytär:ruokkotytä n_32 ;
-koulutytär:koulutytä n_32 ;
-tyđär:tyđä n_32 ;
+sammal:sammal n_32 ;
+taival:taipal n_32 ;
+höyhen:höyhen n_32 ;
+ien:iken n_32 ;
+siemen:siemen n_32 ;
+paimen:paimen n_32 ;
+vuosikymmen:vuosikymmen n_32 ;
+kämmen:kämmen n_32 ;
+jäsen:jäsen n_32 ;
+meriahven:meriahven n_32 ;
+järviahven:järviahven n_32 ;
+kuolain:kuolaim n_32m ;
+sierain:sieraim n_32m ;
+auvain:auvaim n_32m ;
+kuuđain:kuuđaim n_32m ;
+!vanhin:vanhim n_32m ;
+!esivanhin:esivanhim n_32m ;
+morssiin:morssiim n_32m ;
+uistin:uistim n_32m ;
+luistin:luistim n_32m ;
+elläin:elläim n_32m ;
+kotielläin:kotielläim n_32m ;
+hođin:hođim n_32m ;
+yđin:ytim n_32m ;
+laiđun:laitum n_32m ;
+isosisar:isosisar n_32 ;
+pikkusisar:pikkusisar n_32 ;
+tytär:tyttär n_32 ;
+jalkatytär:jalkatyttär n_32 ;
+krannitytär:krannityttär n_32 ;
+oppitytär:oppityttär n_32 ;
+ruokkotytär:ruokkotyttär n_32 ;
+koulutytär:koulutyttär n_32 ;
+tyđär:tytär n_32 ;
 
 kangas:kanka n_33s ;
 rengas:renka n_33s ;
@@ -2802,11 +2803,11 @@ kyynelet:kyynele n_33t ;
 vellet:vele n_33t ;
 hamet:hame n_33t ;
 alushamet:alushame n_33t ;
-kuolain:kuolaime n_32 ;
+kuolain:kuolaime n_32m ;
 !vanhimet:vanhime n_33 ;
-vanhin:vanhime n_32 ;
+vanhin:vanhime n_32m ;
 !hohtimet:hohtime n_33 ;
-hohđin:hohtime n_32 ;
+hohđin:hohtime n_32m ;
 homet:home n_33t ;
 kärmet:kärme n_33t ;
 räämet:rääme n_33t ;
