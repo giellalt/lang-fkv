@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - tytär: # Noun 'daughter' - ei tsekattu
+     tytär+N+Sg+Nom: tytär
+     tytär+N+Sg+Gen: tyttären
+     tytär+N+Sg+Par: tytärtä
+     tytär+N+Sg+Tra: tyttäreksi
+     tytär+N+Sg+Abe: tyttärettä
+     tytär+N+Sg+Ine: tyttäressä
+     tytär+N+Sg+Ela: tyttärestä
+     tytär+N+Sg+Ill: tyttärheen
+     tytär+N+Sg+Ade: tyttärellä
+     tytär+N+Sg+Abl: tyttäreltä
+     tytär+N+Sg+All: tyttärelle
+     tytär+N+Sg+Ess: tyttärennä
+     tytär+N+Pl+Nom: tyttäret
+     tytär+N+Pl+Gen: tyttäriitten
+     tytär+N+Pl+Par: tyttäriitä
+     tytär+N+Pl+Tra: tyttäriksi
+     tytär+N+Pl+Abe: tyttärittä
+     tytär+N+Pl+Com: tyttärine
+     tytär+N+Pl+Ine: tyttärissä
+     tytär+N+Pl+Ela: tyttäristä
+     tytär+N+Pl+Ill: tyttärhiin
+     tytär+N+Pl+Ade: tyttärillä
+     tytär+N+Pl+Abl: tyttäriltä
+     tytär+N+Pl+All: tyttärille
+     tytär+N+Pl+Ess: tyttärinnä
