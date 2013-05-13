@@ -110,9 +110,17 @@ LEXICON n_31	!!= @CODE@ käsi, lumi
 LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 +N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N+Sg+Nom:%^WG R ;  !! * Konsonanttivartalo: poista -e ja heikko aste
-+N:e weak-v-stem ;
- +N+Sg:e sgpl-cases-long ;      !! these two lexica for cases with
- +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
++N+Sg+Par:%^WG long-par ;
++N+Pl+Nom:e%>t ;
+!+N:e obl-strong ;
++N+Sg+Gen:e%>n  ; 
++N+Sg:e sgpl-cases-long ;      !! these two lexica for cases with
++N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
++N+Sg+Ill:he 1TAVU_VV-ill ;
++N+Pl+Ill:h%>i2 shortillpl ;
++N+Pl+Par:i%>i2 longparpl ;
++N+Pl+Gen:i%>i2 tt-longgenpl ;
+
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
@@ -217,7 +225,6 @@ LEXICON loputjutut
 +Pl:%>i2 longparpl ;
 +Pl:%>i2 longillpl ;
 
-
 LEXICON sConsCase
 +Sg+Nom:%^WG%>s K ;
 +Sg+Par:%^WG%>st%^A K ; ! Par
@@ -225,7 +232,6 @@ LEXICON sConsCase
 LEXICON tConsCase
 +Sg+Nom:%^WG%>t K ;
 +Sg+Par:%^WG%>tt%^A K ;
-
 
 LEXICON x
 +N+Sg+Nom: K ; ! ei tehty
@@ -252,7 +258,6 @@ LEXICON weak-v-stem !!= @CODE@
 ! +Pl+Ins:%>i2%>n K ;   !! Marginal case, in use only for some words.
                         !! Todo: identify these, and remove Ins from the
                         !! general weak-v-stem lexicon.
-
 
 !! !Sublexica for the vowel stems
 !  - - - - - - - - - - - - - - - 
