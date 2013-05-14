@@ -12,9 +12,13 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 ** 2.3 Kokkoontumanom. ( valkkee, assii)		 = n_23
 * 3. Konsonanttirankaiset					  
 ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
-** 3.2 Usseempitavuiset ( tytär, rakkhaus)	 = n_32
-** 3.2.1 (rakkhaus)							 = n_32s
-** 3.3 Kokkoontumanom. ( opas, huonet)		 = n_33s
+** 3.2 Usseempitavuiset 
+** 3.2.1 (tytär)                              = n_32
+** 3.2.2. (elläin)                            = n_32m
+** 3.2.3 (rakkhaus)							 = n_32s
+** 3.3 Kokkoontumanom. ( opas, huonet)		 
+** 3.3.1 (opas)                               = n_33s
+** 3.3.2. (huonet)                            = n_33t
 * 4. Ekstrakonsonanttirankaiset				  
 ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
 ** 4.2 –inen-nominit ( kainulainen, vihrinen) = n_42 = nen
@@ -66,6 +70,8 @@ ei vielä hoidettu millään tavalla
 these two lexica for cases with
 the same affix in sg and pl
 
+ LEXICON n_32m  elläin elläi
+
  LEXICON n_32s   sairhaus 
 * Konsonanttivartalo: poista -e ja heikko aste
 
@@ -100,8 +106,6 @@ the same affix in sg and pl -- tsekkaa long
 
 
 
-
-
 Basic paradigms
 
 !!Basic vowel stems
@@ -113,7 +117,6 @@ Basic paradigms
 Marginal case, in use only for some words.
 Todo: identify these, and remove Ins from the
 general weak-v-stem lexicon.
-
 
 !Sublexica for the vowel stems
 
