@@ -112,11 +112,11 @@ LEXICON n_31	!!= @CODE@ käsi, lumi
 +N+Pl:%>i2 shortgenpl	 ;
 
 LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
-!+N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
-!+N+Sg+Nom:%^WG R ;  !! * Konsonanttivartalo: poista -e ja heikko aste
-!+N+Sg+Par:%^WG long-par ;
++N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
++N+Sg+Nom:%^WG R ;  !! * Konsonanttivartalo: poista -e ja heikko aste
++N+Sg+Par:%^WG long-par ;
 +N+Pl+Nom:e%>t ;
-!+N:e obl-strong ;
++N:e obl-strong ;
 +N+Sg+Gen:e%>n  ; 
 +N+Sg:e sgpl-cases-long ;      !! these two lexica for cases with
 +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
@@ -129,7 +129,7 @@ LEXICON n_32m !!= @CODE@ elläin elläi
 +N+Sg+Nom:%^WGn # ;
 +N:t long-par ;
 +N:me obl-strong ;
-+N+Sg+Gen:me
++N+Sg+Gen:me ;
 +N:me 2TAVU_V-ill ;
 +N:me loput ;
 
