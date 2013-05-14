@@ -16,10 +16,13 @@ LEXICON NounRoot !!= @CODE@
 !! ** 2.3 Kokkoontumanom. ( valkkee, assii)		 = n_23
 !! * 3. Konsonanttirankaiset					 = 
 !! ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
-!! ** 3.2 Usseempitavuiset ( tytär)				 = n_32
-!! ** 3.2.1 (rakkhaus)							 = n_32s
+!! ** 3.2 Usseempitavuiset ( tytär)				
+!! ** 3.2.1 (tytär)                              = n_32
 !! ** 3.2.2. (elläin: elläimen                   = n_32m
-!! ** 3.3 Kokkoontumanom. ( opas, huonet)		 = n_33s
+!! ** 3.2.3. (rakkhaus)							 = n_32s
+!! ** 3.3 Kokkoontumanom. ( opas, huonet)		
+!! ** 3.3.1. (opas)                              = n_33s
+!! ** 3.3.2. (huonet)                            = n_33t
 !! * 4. Ekstrakonsonanttirankaiset				 = 
 !! ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
 !! ** 4.2 –inen-nominit ( kainulainen, vihrinen) = n_42 = n_42
@@ -92,9 +95,9 @@ mies:miehe            n_31 ;
 !! !!3.2 Usseaempitavuiset
 tytär:tyttär               n_32 ; !!= * @CODE@
 sisar               n_32 ;
-elläin:elläim       n_32m ;
+elläin:elläi       n_32m ;
 tyven               n_32 ;
-syđän:sydäm         n_32m ;
+syđän:sydä         n_32m ;
 rakkhaus:rakkhau   n_32s ;
 korkkeus:korkkeu    n_32s ;
 
@@ -2497,20 +2500,20 @@ kämmen:kämmen n_32 ;
 jäsen:jäsen n_32 ;
 meriahven:meriahven n_32 ;
 järviahven:järviahven n_32 ;
-kuolain:kuolaim n_32m ;
-sierain:sieraim n_32m ;
-auvain:auvaim n_32m ;
-kuuđain:kuuđaim n_32m ;
+kuolain:kuolai n_32m ;
+sierain:sierai n_32m ;
+auvain:auvai n_32m ;
+kuuđain:kuuđai n_32m ;
 !vanhin:vanhim n_32m ;
 !esivanhin:esivanhim n_32m ;
-morssiin:morssiim n_32m ;
-uistin:uistim n_32m ;
-luistin:luistim n_32m ;
-elläin:elläim n_32m ;
-kotielläin:kotielläim n_32m ;
-hođin:hođim n_32m ;
-yđin:ytim n_32m ;
-laiđun:laitum n_32m ;
+morssiin:morssii n_32m ;
+uistin:uisti n_32m ;
+luistin:luisti n_32m ;
+elläin:elläi n_32m ;
+kotielläin:kotielläi n_32m ;
+hođin:hoti n_32m ;
+yđin:yti n_32m ;
+laiđun:laitu n_32m ;
 isosisar:isosisar n_32 ;
 pikkusisar:pikkusisar n_32 ;
 tytär:tyttär n_32 ;
@@ -2807,7 +2810,7 @@ kuolain:kuolaime n_32m ;
 !vanhimet:vanhime n_33 ;
 vanhin:vanhime n_32m ;
 !hohtimet:hohtime n_33 ;
-hohđin:hohtime n_32m ;
+hohđin:hohti n_32m ;
 homet:home n_33t ;
 kärmet:kärme n_33t ;
 räämet:rääme n_33t ;
