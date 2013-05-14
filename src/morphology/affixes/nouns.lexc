@@ -14,9 +14,13 @@
 !! ** 2.3 Kokkoontumanom. ( valkkee, assii)		 = n_23
 !! * 3. Konsonanttirankaiset					  
 !! ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
-!! ** 3.2 Usseempitavuiset ( tytär, rakkhaus)	 = n_32
-!! ** 3.2.1 (rakkhaus)							 = n_32s
-!! ** 3.3 Kokkoontumanom. ( opas, huonet)		 = n_33s
+!! ** 3.2 Usseempitavuiset 
+!! ** 3.2.1 (tytär)                              = n_32
+!! ** 3.2.2. (elläin)                            = n_32m
+!! ** 3.2.3 (rakkhaus)							 = n_32s
+!! ** 3.3 Kokkoontumanom. ( opas, huonet)		 
+!! ** 3.3.1 (opas)                               = n_33s
+!! ** 3.3.2. (huonet)                            = n_33t
 !! * 4. Ekstrakonsonanttirankaiset				  
 !! ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
 !! ** 4.2 –inen-nominit ( kainulainen, vihrinen) = n_42 = nen
@@ -108,9 +112,9 @@ LEXICON n_31	!!= @CODE@ käsi, lumi
 +N+Pl:%>i2 shortgenpl	 ;
 
 LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
-+N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
-+N+Sg+Nom:%^WG R ;  !! * Konsonanttivartalo: poista -e ja heikko aste
-+N+Sg+Par:%^WG long-par ;
+!+N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
+!+N+Sg+Nom:%^WG R ;  !! * Konsonanttivartalo: poista -e ja heikko aste
+!+N+Sg+Par:%^WG long-par ;
 +N+Pl+Nom:e%>t ;
 !+N:e obl-strong ;
 +N+Sg+Gen:e%>n  ; 
@@ -121,6 +125,13 @@ LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 +N+Pl+Par:i%>i2 longparpl ;
 +N+Pl+Gen:i%>i2 tt-longgenpl ;
 
+LEXICON n_32m !!= @CODE@ elläin elläi
++N+Sg+Nom:%^WGn # ;
++N:t long-par ;
++N:me obl-strong ;
++N+Sg+Gen:me
++N:me 2TAVU_V-ill ;
++N:me loput ;
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
@@ -146,11 +157,11 @@ LEXICON n_32s !!= @CODE@  sairhaus
 ! +N+Pl:ks%>i2 shortgenpl ;
 ! +N+Pl:ks%>i2 shorterillpl ;
 
-LEXICON n_32t
-n_32 ; ! ei tehty
+!LEXICON n_32t
+!n_32 ; ! ei tehty
 
-LEXICON n_33 ! ei tehty
-n_33s ;
+!LEXICON n_33 ! ei tehty
+!n_33s ;
 
 LEXICON n_33s !!= @CODE@ rakas
 +N: sConsCase ; ! nom, par
