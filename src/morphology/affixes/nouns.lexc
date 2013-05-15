@@ -127,11 +127,19 @@ LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 
 LEXICON n_32m !!= @CODE@ elläin elläi
 +N+Sg+Nom:%^WGn # ;
-+N:t long-par ;
++N:me weak-v-stem ;
++N:n long-par ;
 +N:me obl-strong ;
-+N+Sg+Gen:me ;
++N+Sg+Gen:me %>n ;
 +N:me 2TAVU_V-ill ;
-+N:me loput ;
++N:me obl-strong ;
++N:me 2TAVU_V-ill ;
++N+Sg:me sgpl-cases-long ;      
++N+Pl:m%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
++N+Pl:mi%>i2 longparpl ;
++N+Pl:mi%>i2 longgenpl ;
++N+Pl:m%^HMETAh%>i2i shortestillpl;
++N+Pl:m%>i2 com ;
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
