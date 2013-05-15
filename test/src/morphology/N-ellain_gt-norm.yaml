@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - elläin: # Noun 'animal' - ei tsekattu
+     elläin+N+Sg+Nom: elläin
+     elläin+N+Sg+Gen: elläimen
+     elläin+N+Sg+Par: elläintä
+     elläin+N+Sg+Tra: elläimeksi
+     elläin+N+Sg+Abe: elläimettä
+     elläin+N+Sg+Ine: elläimessä
+     elläin+N+Sg+Ela: elläimestä
+     elläin+N+Sg+Ill: elläimheen
+     elläin+N+Sg+Ade: elläimellä
+     elläin+N+Sg+Abl: elläimeltä
+     elläin+N+Sg+All: elläimelle
+     elläin+N+Sg+Ess: elläimennä
+     elläin+N+Pl+Nom: elläimet
+     elläin+N+Pl+Gen: elläimiitten
+     elläin+N+Pl+Par: elläimiitä
+     elläin+N+Pl+Tra: elläimiksi
+     elläin+N+Pl+Abe: elläimittä
+     elläin+N+Pl+Com: elläimine
+     elläin+N+Pl+Ine: elläimissä
+     elläin+N+Pl+Ela: elläimistä
+     elläin+N+Pl+Ill: elläimhiin
+     elläin+N+Pl+Ade: elläimillä
+     elläin+N+Pl+Abl: elläimiltä
+     elläin+N+Pl+All: elläimille
+     elläin+N+Pl+Ess: elläiminnä
