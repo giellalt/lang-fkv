@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - juosta: # Verb 'to bring' - ei tsekattu
+  Verb - juosta: # Verb 'to bring' - ok
      juosta+V+Inf: juosta
      juosta+V+Act+Ind+Prs+Sg1: juoksen
      juosta+V+Act+Ind+Prs+Sg2: juokset
@@ -40,7 +40,7 @@ Tests:
      juosta+V+Pass+Cond: juostais
 
      juosta+V+Act+Imprt+Sg2: juokse
-     juosta+V+Act+Imprt+Pl2: juoskkaa
+     juosta+V+Act+Imprt+Pl2: juoskaa
      
      juosta+V+Act+Inf3+Ine: juoksemassa
      juosta+V+Act+Inf3+Ela: juoksemasta
