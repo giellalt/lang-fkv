@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - hävittäät: # Verb 'to bring' - ei tsekattu
+  Verb - hävittäät: # Verb 'to bring' - ok
      hävittäät+V+Inf: hävittäät
      hävittäät+V+Act+Ind+Prs+Sg1: hävitän
      hävittäät+V+Act+Ind+Prs+Sg2: hävität
