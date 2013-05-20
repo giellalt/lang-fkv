@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - aukaista: # Verb 'to bring' - ei tsekattu
+  Verb - aukaista: # Verb 'to bring' - ok
      aukaista+V+Inf: aukaista
      aukaista+V+Act+Ind+Prs+Sg1: aukaisen
      aukaista+V+Act+Ind+Prs+Sg2: aukaiset
@@ -34,7 +34,7 @@ Tests:
      aukaista+V+Act+Cond+Sg1: aukaisisin
      aukaista+V+Act+Cond+Sg2: aukaisisit
      aukaista+V+Act+Cond+Sg3: aukaisis
-     aukaista+V+Act+Cond+Pl1: aukaisisimma
+     aukaista+V+Act+Cond+Pl1: aukaisisima
      aukaista+V+Act+Cond+Pl2: aukaisisitta
      aukaista+V+Act+Cond+Pl3: aukaistais
      aukaista+V+Pass+Cond: aukaistais
@@ -45,5 +45,5 @@ Tests:
      aukaista+V+Act+Inf3+Ine: aukaisemassa
      aukaista+V+Act+Inf3+Ela: aukaisemasta
      aukaista+V+Act+Inf3+Ill: aukaisemhaan
-     aukaista+V+Act+Inf3+Ade: aukaisemalla
+     aukaista+V+Act+Inf3+Ade: aukaisemala
      aukaista+V+Act+Inf3+Abe: aukaisematta
