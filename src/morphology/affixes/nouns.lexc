@@ -67,8 +67,14 @@ LEXICON n_21pl	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
  +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
  +Pl+Nom: Px ;   ! mattoni
  +Pl+Ess:%>i2%>n%^A PxxK ;
+ +Pl+Gen:   kk-longgenpl;
+ +Pl+Par:   kk-longgparpl;
+ 
+ LEXICON kk-longgenpl
+ +Gen:%>kk%>i2  ;
 
-
+LEXICON kk-longgparpl
+ +Par:%>kk%>i2  ;
 
 
 LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom
@@ -337,6 +343,7 @@ LEXICON 2TAVU_V-ill !long
 +Sg+Ill:%>%^HMETAh%^V%^V n-PxK ;
 +Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
 ! sykshyyn, linnhaan
+!! linna pl.ill. kaksi muotoa po. linnhoin
 
 LEXICON mTAVU_VV-ill !longer kuninkhaa/sseen
 !+Sg+Ill:%>ss%^V%^V n-PxK ;
@@ -388,6 +395,9 @@ LEXICON shorterillpl
 
 LEXICON longerillpl
   +Pl+Ill:%>s%^V%^V n-PxK ;
+
+
+
  
 
 !! !Sublexica for possessive suffixes
