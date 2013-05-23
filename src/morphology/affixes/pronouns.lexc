@@ -357,72 +357,6 @@ LEXICON plmuut_indef
 +Ade:illa  K ;
 +Abl:ilta  K ;
 
-! LEXICON sgjom_indef
-! +Nom:jompikumpi K ;
-! +Gen:jommankumman K ;
-! +Ill:jomphaankumphaan K ;
-! +Par:jomppaakumppaa K ;
-! +Par:jompaakumpaa K ;
-! +Ess:jompanakumpana   K ; 
-! +Tra:jommaksikummaksi  K ;
-! +Ine:jommassakummassa  K ;
-! +Ela:jommastakummasta  K ;
-! +All:jommalekummale  K ;
-! +Ade:jommalakummala  K ;
-! +Abl:jommaltakummalta  K ;
-
-LEXICON sgjom_indef
-sgkum_indef ;
-
-LEXICON sgkum_indef
-+Nom:pi K ;
-+Gen:man K ;
-+Ill:phaan K ;
-+Par:ppaa K ;
-+Par:paa K ;
-+Ess:pana   K ; 
-+Tra:maksi  K ;
-+Ine:massa  K ;
-+Ela:masta  K ;
-+All:male  K ;
-+Ade:mala  K ;
-+Abl:malta  K ;
-
-
-! LEXICON pljom_indef
-! +Nom:jommatkummat K ;
-! +Gen:jomppiinkumppiin K ;
-! +Gen:jommittenkummitten K ;
-! +Ill:jomphiinkumphiin K ;
-! +Par:jomppiikumppii K ;
-! +Par:jompiikumpii K ;
-! +Ess:jompinakumpina   K ; 
-! +Tra:jommiksikummiksi  K ;
-! +Ine:jommissakummissa  K ;
-! +Ela:jommistakummista  K ;
-! +All:jommilekummile  K ;
-! +Ade:jommilakummila  K ;
-! +Abl:jommiltakummilta  K ;
-
-
-LEXICON pljom_indef
-plkum_indef ;
-
-LEXICON plkum_indef
-+Nom:t K ;
-+Gen:ppiin K ;
-+Gen:mitten K ;
-+Ill:phiin K ;
-+Par:ppii K ;
-+Par:pii K ;
-+Ess:pina   K ; 
-+Tra:miksi  K ;
-+Ine:missa  K ;
-+Ela:mista  K ;
-+All:ile  K ;
-+Ade:ila  K ;
-+Abl:milta  K ;
-
 
 
 LEXICON yh_indef
@@ -490,21 +424,21 @@ LEXICON jokai_kvant
 +Abl:elta   K ;
 
 
-LEXICON jokainu_kvant
-+Nom:       K ;
-
-LEXICON ainut_kvant
-+Nom:      K ;
-+Gen:an    K ;
-+Ill:aan  K ;
-+Par:asta   K ;
-+Ess:ana    K ;
-+Tra:aksi   K ;
-+Ine:assa   K ;
-+Ela:asta   K ;
-+All:ale    K ;
-+Ade:ala    K ;
-+Abl:alta   K ;
+! LEXICON jokainu_kvant
+! +Nom:       K ;
+! 
+! LEXICON ainut_kvant
+! +Nom:      K ;
+! +Gen:an    K ;
+! +Ill:aan  K ;
+! +Par:asta   K ;
+! +Ess:ana    K ;
+! +Tra:aksi   K ;
+! +Ine:assa   K ;
+! +Ela:asta   K ;
+! +All:ale    K ;
+! +Ade:ala    K ;
+! +Abl:alta   K ;
 
 
 LEXICON itte_kvant
@@ -696,6 +630,28 @@ LEXICON plpaljo_kvant
 
 LEXICON plmon_kvant
 +All:ile    K ;
+
+LEXICON onecasepronouns
+
+< j o k a @U.pron.nom@ a i n u:0 a:0 "+Pron":0 "+Qu":0 "+Sg":0> sgcases  ;
+
+LEXICON  sgcases
+< "@U.pron.nom@" > endcases_onecase ;
+
+LEXICON endcases_onecase 
+
+< "@U.pron.gen@" "+Gen":0 0:n >          K ;
+< "@U.pron.ill@" "+Ill":0 0:a 0:n >      K ;
+< "@U.pron.par@" "+Par":0 0:s 0:t 0:a >  K ;
+< "@U.pron.ess@" "+Ess":0 0:n 0:a >      K ;
+< "@U.pron.tra@" "+Tra":0 0:k 0:s 0:i >  K ;
+< "@U.pron.ine@" "+Ine":0 0:s 0:a 0:a >  K ;
+< "@U.pron.ela@" "+Ela":0 0:s 0:t 0:a >  K ;
+< "@U.pron.all@" "+All":0 0:l 0:e >      K ;
+< "@U.pron.ade@" "+Ade":0 0:l 0:a >      K ;
+< "@U.pron.abl@" "+Abl":0 0:l 0:t 0:a >  K ;
+
+
 
 
 
