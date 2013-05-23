@@ -631,14 +631,14 @@ LEXICON plpaljo_kvant
 LEXICON plmon_kvant
 +All:ile    K ;
 
-LEXICON onecasepronouns
+LEXICON onecasepronouns
 
-< j o k a @U.pron.nom@ a i n u:0 a:0 "+Pron":0 "+Qu":0 "+Sg":0> sgcases  ;
+< j o k a "@U.pron.nom@" a i n u:0 a:0 "+Pron":0 "+Qu":0 "+Sg":0 > sgcases  ;
 
 LEXICON  sgcases
 < "@U.pron.nom@" > endcases_onecase ;
 
-LEXICON endcases_onecase 
+LEXICON endcases_onecase 
 
 < "@U.pron.gen@" "+Gen":0 0:n >          K ;
 < "@U.pron.ill@" "+Ill":0 0:a 0:n >      K ;
