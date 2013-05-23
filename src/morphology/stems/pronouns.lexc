@@ -6,8 +6,8 @@
 
 LEXICON Pronoun
 doublecasepronouns ;
-
 doublecasepronounspl  ;
+onecasepronouns ;
 
 !! Persoonapronominit
 
@@ -83,11 +83,11 @@ jokhainen+Pron+Qu:jokhai                jokai_kvant ;
 ! kukin+Pron+Qu:ku                        kukin_kvant ;
 ! kukin+Pron+Qu:ke                        kekin_kvant ;
 
-joka+Pron+Qu:joka       jokainu_kvant ;    ! joka ainua(taipuu)
-ainua+Pron+Qu:ainu      ainut_kvant ;      ! joka ainua(taipuu)
-itte+Pron+Qu:itt        itte_kvant ;       ! itte(taipuu) kukin(taipuu)
-kukin+Pron+Qu:ku        kukin_kvant ;      ! itte(taipuu) kukin(taipuu)
-kukin+Pron+Qu:ke        kekin_kvant ;      ! itte(taipuu) kekin(taipuu)
+! joka+Pron+Qu:joka       jokainu_kvant ;    ! joka ainua(taipuu)
+! ainua+Pron+Qu:ainu      ainut_kvant ;      ! joka ainua(taipuu)
+! itte+Pron+Qu:itt        itte_kvant ;       ! itte(taipuu) kukin(taipuu)
+! kukin+Pron+Qu:ku        kukin_kvant ;      ! itte(taipuu) kukin(taipuu)
+! kukin+Pron+Qu:ke        kekin_kvant ;      ! itte(taipuu) kekin(taipuu)
 
 kumpiki+Pron+Qu+Sg:kum                  sgkum_kvant ;
 kummatki+Pron+Qu+Pl:kum                 plkum_kvant ;
