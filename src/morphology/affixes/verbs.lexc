@@ -402,7 +402,7 @@ LEXICON v4 !!= @CODE@ vanheta:vanhe
 +V+Act+Ind+Prs:%>ne v12pers_long ;
 +V+Act+Ind+Prt:%>ni v12pers_long ;
 +V+PrfPrc+Sg+Nom:%^WGn%>%^U K ;
-+V+Pass+PrfPrc+Nom:%>tt%>%^U K ;
++V+Pass+PrfPrc+Nom:%^WG%>tt%>%^U K ;
 +V+PrfPrc:%^WG%>%^Nhee PRFPRC_OBL ;
 +V+Act+Ind+Prs+ConNeg:%>ne K ;
 
@@ -497,7 +497,7 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Act+Ind+Prs:%>%^V v12pers_short ;
 +V+Act+Ind+Prt:%>si v12pers_long ;
 +V+PrfPrc+Sg+Nom:%>%^WG%^N%^U K ;
-+V+Pass+PrfPrc+Nom:%>%^WGtt%^U K ;
++V+Pass+PrfPrc+Nom:%>%^WG%>tt%^U K ;
 +V+PrfPrc:%^WG%>%^Nhee PRFPRC_OBL ;
 +V+Act+Ind+Prs+ConNeg:%>%^V K ;
 
