@@ -36,14 +36,18 @@ net+Pron+Dem+Pl:nii   namaobl ; ! e>i
 
 kuka+Pron+Interr:ke   relkys  ;  !!= * @CODE@ 
 mikä+Pron+Interr:mi   mi_kys  ;  !!= * @CODE@
+kukka+Pron+Interr+Pl+Nom:kukka  K  ;  !!= * @CODE@ 
 kukka+Pron+Interr+Pl:ke  relkyspl  ;  !!= * @CODE@ 
+mikkä+Pron+Interr+Pl+Nom:mikkä  K  ;  !!= * @CODE@
 mikkä+Pron+Interr+Pl:mi  mi_kyspl  ;  !!= * @CODE@
 
 !! Relatiivipronominit
 
 joka+Pron+Rel:jo        relkys ;
 mikä+Pron+Rel:mi        mi_rel ;
+jokka+Pron+Rel+Pl+Nom:jokka   K ;
 jokka+Pron+Rel+Pl:joi   joi_relkyspl ;
+mikkä+Pron+Rel+Pl:mikkä   K ;
 mikkä+Pron+Rel+Pl:mi   mi_relpl ;
 
 !! Refleksiivi- ja resiprookipronominit
