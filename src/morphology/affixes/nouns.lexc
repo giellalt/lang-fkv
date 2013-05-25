@@ -71,10 +71,10 @@ LEXICON n_21pl	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
  +Pl+Par:   kk-longgparpl;
  
  LEXICON kk-longgenpl
- +Gen:%>kk%>i2  ;
+ +Gen:%>kk%>i2 # ; ! kk ?? Tsekkaa..
 
 LEXICON kk-longgparpl
- +Par:%>kk%>i2  ;
+ +Par:%>kk%>i2 # ;! kk ?? Tsekkaa..
 
 
 LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom
@@ -136,7 +136,7 @@ LEXICON n_32m !!= @CODE@ elläin elläi
 +N:me weak-v-stem ;
 +N:n long-par ;
 +N:me obl-strong ;
-+N+Sg+Gen:me %>n ;
++N+Sg+Gen:me%>n K ;
 +N:me 2TAVU_V-ill ;
 +N:me obl-strong ;
 +N:me 2TAVU_V-ill ;
@@ -182,6 +182,9 @@ LEXICON n_33s !!= @CODE@ rakas
 +N:%>%^HMETAh%^V%^V loputjutut ;
 +Sg+Ill:%>s%^V%^V n-PxK ;
 +N:%>i2 longerillpl ;
+
+LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
+n_33t ;
 
 LEXICON n_33t !!= @CODE@ venet
 +N: tConsCase ; ! nom, par
@@ -392,6 +395,9 @@ LEXICON h_shortillpl
 
 LEXICON shorterillpl
  +Ill:%>i2 n-PxK ;		
+
+LEXICON longillpl
++Ill: n-PxK ;  ! En tiedä, toimiiko tämä
 
 LEXICON longerillpl
   +Pl+Ill:%>s%^V%^V n-PxK ;
