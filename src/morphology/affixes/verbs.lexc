@@ -291,8 +291,8 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Act+Cond+Sg3:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4simm%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
-+V+Act+Cond+Pl3:t%^WG%^A%>i4s K ;
-+V+Pass+Cond:t%^WG%^A%>i4s K ;
++V+Act+Cond+Pl3:%>t%^WG%^A%>i4s K ;
++V+Pass+Cond:%>t%^WG%^A%>i4s K ;
 
 +V+Act+Imprt+Sg2:%>e K   ;
 +V+Act+Imprt+Pl2:%>kk%^A%^A K ;
