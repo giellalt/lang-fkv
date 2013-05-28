@@ -183,11 +183,11 @@ LEXICON v2 !!= @CODE@ anttaat:anta
 +V+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 +V+Act+Ind+Prs+ConNeg:%^WG K ;
 
-+V+Act+Cond+Sg1:%>i4sin K ; ! antaisin
-+V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4simm%^A K ;
-+V+Act+Cond+Pl2:%>i4sitt%^A K ;
++V+Act+Cond+Sg1:%^VDEL%>i4sin K ; ! antaisin
++V+Act+Cond+Sg2:%^VDEL%>i4sit K ;
++V+Act+Cond+Sg3:%^VDEL%>i4s K ;
++V+Act+Cond+Pl1:%^VDEL%>i4simm%^A K ;
++V+Act+Cond+Pl2:%^VDEL%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:%^AE%^WG%>tt%^A%>i4s K ;
 +V+Pass+Cond:%^AE%^WG%>tt%^A%>i4s K ;
 
