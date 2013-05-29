@@ -45,7 +45,9 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +Act+Ind+Prt+Pl3:olit K ; ! oikein ??
 +Act+PrfPrc+Sg+Nom:ollu K ;
 +Pass+PrfPrc+Nom:oltu K ;
-+ActPrfPrc:olheet K ;
++Act+PrfPrc:olheet K ;
++Act+PrsPrc:olleeva K ;
++Pass+PrsPrc:oltava K ;
 +Act+Ind+Prs+ConNeg:ole K ;
 
 +Act+Cond+Sg1:olisin K ; ! olisin
@@ -86,7 +88,9 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Act+Ind+Prt+Pl3:%>thiin K ; 
 +V+Act+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+Pass+PrfPrc+Nom:%>t%^U K ;
-+V+Act+PrfPrc:n%>hee PRFPRC_OBL  ;
++V+Act+PrfPrc+Pl+Nom:n%>hee PRFPRC_OBL  ;
++V+Act+PrsPrc+Nom:%>v%^A K ;
++V+Pass+PrsPrc+Nom:%t%^A>v%^A K ;
 +V+Act+Ind+Prs+ConNeg: K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! saisin
