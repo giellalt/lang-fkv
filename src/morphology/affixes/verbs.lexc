@@ -224,7 +224,6 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 +V+Act+PrsPrc+Nom:%>%^V%>v%^A K ;
 +V+Pass+PrsPrc+Nom:%^AE%^WG%>tt%^A%>v%^A K ;
-
 +V+Act+Ind+Prs+ConNeg:%^WG K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
@@ -263,6 +262,8 @@ LEXICON v3_ele_notinf
 +V+Act+PrfPrc+Sg+Nom:%^WG%>l%^U K ;
 +V+Pass+PrfPrc+Nom:%^WG%>t%^U K ;
 +V+Act+PrfPrc:%^WG%^hee PRFPRC_OBL ;
++V+Act+PrsPrc+Nom:%>le%>%^V%>v%^A K ;
++V+Pass+PrsPrc+Nom:%^WG%>t%^A%>v%^A K ;
 +V+Act+Ind+Prs+ConNeg:%>e K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! ajattelisin
