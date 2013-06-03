@@ -189,6 +189,8 @@ LEXICON v2 !!= @CODE@ anttaat:anta
 +V+Act+PrfPrc+Sg+Nom:%>%^N%^U K ;
 +V+Pass+PrfPrc+Nom:%^AE%^WG%>tt%^U K ;
 +V+Act+PrfPrc:%>%^Nhee PRFPRC_OBL ;
++V+Act+PrsPrc+Nom:%>%^V%>v%^A K ;
++V+Pass+PrsPrc+Nom:%^AE%^WG%>tt%^A%>v%^A K ;
 +V+Act+Ind+Prs+ConNeg:%^WG K ;
 
 +V+Act+Cond+Sg1:%^VDEL%>i4sin K ; ! antaisin
