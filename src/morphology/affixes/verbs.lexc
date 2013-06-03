@@ -295,6 +295,8 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Act+PrfPrc+Sg+Nom:%>%^WG%^U K ;
 +V+Pass+PrfPrc+Nom:%>t%^U K ;
 +V+Act+PrfPrc:%>%^WG%^hee PRFPRC_OBL ;
++V+Act+PrsPrc+Nom:%>e%>%^V%>v%^A K ;
++V+Pass+PrsPrc+Nom:%>t%^A%>v%^A K ;
 +V+Act+Ind+Prs+ConNeg:%>e K ;
 
 !! * aukaista > aukaisemma
@@ -303,7 +305,7 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Act+Cond+Sg1:%>i4sin K ; ! kävelisin
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4simm%^A K ;
++V+Act+Cond+Pl1:%>i4sim%^A K ;
 +V+Act+Cond+Pl2:%>i4sitt%^A K ;
 +V+Act+Cond+Pl3:%>t%^WG%^A%>i4s K ;
 +V+Pass+Cond:%>t%^WG%^A%>i4s K ;
@@ -314,7 +316,7 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Act+Inf3+Ine:e%>m%^Ass%^A K ;
 +V+Act+Inf3+Ela:e%>m%^Ast%^A K ;
 +V+Act+Inf3+Ill:e%>mh%^A%^An K ;
-+V+Act+Inf3+Ade:e%>m%^All%^A K ;
++V+Act+Inf3+Ade:e%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:e%>m%^Att%^A K ;
 
 LEXICON v3_ise !!= @CODE@ aukaista:aukaise 
