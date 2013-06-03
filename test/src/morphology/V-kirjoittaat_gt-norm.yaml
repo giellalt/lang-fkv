@@ -14,13 +14,13 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - kirjoittaat: # Verb 'to bring' - ok
+  Verb - kirjoittaat: # Verb 'to bring' - ei tsekattu
      kirjoittaat+V+Inf: kirjoittaat
      kirjoittaat+V+Act+Ind+Prs+Sg1: kirjoitan
      kirjoittaat+V+Act+Ind+Prs+Sg2: kirjoitat
      kirjoittaat+V+Act+Ind+Prs+Sg3: kirjoittaa
      kirjoittaat+V+Act+Ind+Prs+Pl1: kirjoitamma
-     kirjoittaat+V+Act+Ind+Prs+Pl2: kirjoitatta
+     kirjoittaat+V+Act+Ind+Prs+Pl2: kirjoitattas
      kirjoittaat+V+Act+Ind+Prs+Pl3: kirjoitethaan
      kirjoittaat+V+Act+Ind+Prt+Sg1: kirjoitin
      kirjoittaat+V+Act+Ind+Prt+Sg2: kirjoitit
