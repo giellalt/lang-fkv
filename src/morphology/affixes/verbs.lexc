@@ -222,6 +222,9 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+PrfPrc+Sg+Nom:%>nn%^U K ;
 +V+Pass+PrfPrc+Nom:%^AE%^WG%>tt%^U K ;
 +V+Act+PrfPrc:%>%^Nhee PRFPRC_OBL ;
++V+Act+PrsPrc+Nom:%>%^V%>v%^A K ;
++V+Pass+PrsPrc+Nom:%^AE%^WG%>tt%^A%>v%^A K ;
+
 +V+Act+Ind+Prs+ConNeg:%^WG K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
@@ -238,7 +241,7 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+Inf3+Ine:%>m%^Ass%^A K ;
 +V+Act+Inf3+Ela:%>m%^Ast%^A K ;
 +V+Act+Inf3+Ill:%>mh%^A%^An K ;
-+V+Act+Inf3+Ade:%>m%^All%^A K ;
++V+Act+Inf3+Ade:%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:%>m%^Att%^A K ;
 
 LEXICON v3_ele_short ! nielä:niel
