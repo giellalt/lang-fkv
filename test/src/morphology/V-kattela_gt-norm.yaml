@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - kattela: # Verb 'to bring' - ei tsekattu
+  Verb - kattela: # Verb 'to bring' - ok
      kattela+V+Inf: kattela
      kattela+V+Act+Ind+Prs+Sg1: kattelen
      kattela+V+Act+Ind+Prs+Sg2: kattelet
@@ -35,7 +35,7 @@ Tests:
      kattela+V+Act+Cond+Sg1: kattelisin
      kattela+V+Act+Cond+Sg2: kattelisit
      kattela+V+Act+Cond+Sg3: kattelis
-     kattela+V+Act+Cond+Pl1: kattelisimma
+     kattela+V+Act+Cond+Pl1: kattelisima
      kattela+V+Act+Cond+Pl2: kattelisitta
      kattela+V+Act+Cond+Pl3: katteltais
      kattela+V+Pass+Cond: katteltais
@@ -46,5 +46,5 @@ Tests:
      kattela+V+Act+Inf3+Ine: kattelemassa
      kattela+V+Act+Inf3+Ela: kattelemasta
      kattela+V+Act+Inf3+Ill: kattelemhaan
-     kattela+V+Act+Inf3+Ade: kattelemalla
+     kattela+V+Act+Inf3+Ade: kattelemala
      kattela+V+Act+Inf3+Abe: kattelematta
