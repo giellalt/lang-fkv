@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - jatkata: # Verb 'to bring' - ei tsekattu
+  Verb - jatkata: # Verb 'to bring' - ok
      jatkata+V+Inf: jatkata
      jatkata+V+Act+Ind+Prs+Sg1: jatkaan
      jatkata+V+Act+Ind+Prs+Sg2: jatkaat
@@ -24,7 +24,7 @@ Tests:
      jatkata+V+Act+Ind+Prs+Pl3: jatkathaan
      jatkata+V+Act+Ind+Prt+Sg1: jatkasin
      jatkata+V+Act+Ind+Prt+Sg2: jatkasit
-     jatkata+V+Act+Ind+Prt+Sg3: [jatkasi, jatkas]
+     jatkata+V+Act+Ind+Prt+Sg3: jatkas
      jatkata+V+Act+Ind+Prt+Pl1: jatkasimma
      jatkata+V+Act+Ind+Prt+Pl2: jatkasitta
      jatkata+V+Act+Ind+Prt+Pl3: jatkathiin
@@ -41,7 +41,7 @@ Tests:
      jatkata+V+Pass+Cond: jatkattais
     
      jatkata+V+Act+Imprt+Sg2: jatkaa
-     jatkata+V+Act+Imprt+Pl2: jatkakkaa
+     jatkata+V+Act+Imprt+Pl2: jatkaakkaa
      
      jatkata+V+Act+Inf3+Ine: jatkaamassa
      jatkata+V+Act+Inf3+Ela: jatkaamasta
