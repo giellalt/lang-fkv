@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - anttaat: # Verb 'to bring' - ok
+  Verb - anttaat: # Verb 'to bring' - ei tsekattu
      anttaat+V+Inf: anttaat
      anttaat+V+Act+Ind+Prs+Sg1: annan
      anttaat+V+Act+Ind+Prs+Sg2: annat
@@ -31,6 +31,8 @@ Tests:
      anttaat+V+Act+PrfPrc+Sg+Nom: antanu
      anttaat+V+Pass+PrfPrc+Nom: annettu
      anttaat+V+Act+PrfPrc+Pl+Nom: antanheet
+     anttaat+V+Act+PrsPrc+Nom: anttaava
+     anttaat+V+Pass+PrsPrc+Nom: annettava
 
      anttaat+V+Act+Cond+Sg1: antaisin
      anttaat+V+Act+Cond+Sg2: antaisit
