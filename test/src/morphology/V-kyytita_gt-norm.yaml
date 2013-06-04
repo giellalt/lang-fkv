@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - kyytitä: # Verb 'to bring' - ei tsekattu
+  Verb - kyytitä: # Verb 'to bring' - ok
      kyytitä+V+Inf: kyytitä
      kyytitä+V+Act+Ind+Prs+Sg1: kyytitten
      kyytitä+V+Act+Ind+Prs+Sg2: kyytittet
@@ -35,16 +35,16 @@ Tests:
      kyytitä+V+Act+Cond+Sg1: kyytittisin
      kyytitä+V+Act+Cond+Sg2: kyytittisit
      kyytitä+V+Act+Cond+Sg3: kyytittis
-     kyytitä+V+Act+Cond+Pl1: kyytittisimmä
+     kyytitä+V+Act+Cond+Pl1: kyytittisimä
      kyytitä+V+Act+Cond+Pl2: kyytittisittä
      kyytitä+V+Act+Cond+Pl3: kyytittäis
      kyytitä+V+Pass+Cond: kyytittäis
 
      kyytitä+V+Act+Imprt+Sg2: kyytitte
-     kyytitä+V+Act+Imprt+Pl2: kyytikkää
+     kyytitä+V+Act+Imprt+Pl2: kyytittekkää
      
      kyytitä+V+Act+Inf3+Ine: kyytittemässä
      kyytitä+V+Act+Inf3+Ela: kyytittemästä
      kyytitä+V+Act+Inf3+Ill: kyytittemhään
-     kyytitä+V+Act+Inf3+Ade: kyytittemällä
+     kyytitä+V+Act+Inf3+Ade: kyytittemälä
      kyytitä+V+Act+Inf3+Abe: kyytittemättä
