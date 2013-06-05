@@ -453,6 +453,8 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Pass+PrfPrc+Nom:%>tt%^U K ; !! * Lyhyt partisiippi
 +V+Act+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 !! +V+Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
++V+Act+PrsPrc+Nom:%>tte%>%^V%>v%^A K ;
++V+Pass+PrsPrc+Nom:%>tt%^A%>v%^A K ;
 +V+Act+Ind+Prs+ConNeg:%>tte K ;
 
 +V+Act+Cond+Sg1:%>ttisin K ; ! kyytittisin
