@@ -458,18 +458,18 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Act+Cond+Sg1:%>ttisin K ; ! kyytittisin
 +V+Act+Cond+Sg2:%>ttisit K ;
 +V+Act+Cond+Sg3:%>ttis K ;
-+V+Act+Cond+Pl1:%>ttisimm%^A K ;
++V+Act+Cond+Pl1:%>ttisim%^A K ;
 +V+Act+Cond+Pl2:%>ttisitt%^A K ;
 +V+Act+Cond+Pl3:%>tt%^Ais K ;
 +V+Pass+Cond:%>tt%^Ais K ;
 
 +V+Act+Imprt+Sg2:%>tte K   ;
-+V+Act+Imprt+Pl2:%>kk%^A%^A K ;
++V+Act+Imprt+Pl2:%^tte%>kk%^A%^A K ;
 
 +V+Act+Inf3+Ine:%>tte%>m%^Ass%^A K ;
 +V+Act+Inf3+Ela:%>tte%>m%^Ast%^A K ;
 +V+Act+Inf3+Ill:%>tte%>mh%^A%^An K ;
-+V+Act+Inf3+Ade:%>tte%>m%^All%^A K ;
++V+Act+Inf3+Ade:%>tte%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:%>tte%>m%^Att%^A K ;
 
 LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
