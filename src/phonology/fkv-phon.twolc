@@ -37,6 +37,12 @@ NotEYU  =   i i2 i3 i4 i5 i6   ä ö   æ ø a o   å ;              !!= * @CODE
 NotOU   = e i i2 i3 i4 i5 i6 y ä ö ü æ ø a ;                    !!= * @CODE@ 
 NotOUI  = e                  y ä ö ü æ ø a ;                    !!= * @CODE@ 
 NotOUIY = e                    ä ö   æ ø a ;                    !!= * @CODE@ 
+
+NotOUIF = e                  y ä ö ü æ ø   ;                    !!= * @CODE@ 
+NotOUIB = e                              a ;                    !!= * @CODE@ 
+NotEYUF =   i i2 i3 i4 i5 i6   ä ö   æ ø         ;              !!= * @CODE@ 
+NotEYUB =   i i2 i3 i4 i5 i6             a o   å ;              !!= * @CODE@ 
+
 Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;   !!= * @CODE@ 
 NeutralVowel = e i ;                                            !!= * @CODE@ 
 Segment = Vowel Conson ;                                        !!= * @CODE@ 
@@ -230,17 +236,21 @@ i6:0 <=> _ k: a %^WG:0;
 ! jälki: jäljen ; järki; järjen; kulkkeet: kuljen; särkkeet : särjen
 
 "Gradation k:j" 
-k:j <=> [ä|æ|a|e|i|i6:] _ [o|e:|i]     (Dummy:) (:i) (Dummy:) %^WG:0 ;
+k:j <=>     [a|e|i|i6:] _ [o|e:|i]     (Dummy:) (:i) (Dummy:) %^WG:0 ;
+          [ä|æ|e|i|i6:] _ [e:|i]       (Dummy:) (:i) (Dummy:) %^WG:0 ;
               [e|i|i6:] _ [e:|i|ä|æ|a] (Dummy:) (:i) (Dummy:) %^WG:0 ;
                   [r|l] _ e:           (Dummy:) (:i) (Dummy:) %^WG:0 ;
                Conson u _ e:           (Dummy:) (:i) (Dummy:) %^WG:0 ;
         
 "Gradation k:0" 
 k:0 <=>               h _ Vowel       (Dummy:) (:i) (Dummy:) %^WG:0 ;
-      Vowel [Vowel - i] _ Vowel (Dummy:) (:i) (Dummy:) %^WG:0 ;
+  Vowel [Vowel - [e|i]] _ Vowel (Dummy:) (:i) (Dummy:) %^WG:0 ;
                       a _ a           (Dummy:) (:i) (Dummy:) %^WG:0 ;
                       y _ e           (Dummy:) (:i) (Dummy:) %^WG:0 ;
-    [ NotOUI: | l | r ] _  NotEYU: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+   [ NotOUIF: | l | r ] _  NotEYUF: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+   [ NotOUIB: | l | r ] _  NotEYUB: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+
+
 
 "k:v"
 k:v <=>     [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
