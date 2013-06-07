@@ -1,0 +1,101 @@
+
+!!!Viikkokokous 7.6.2013
+
+Läsnä: Kaisa, Pirjo, Trond
+
+
+Asialista
+
+* Tilannekatsaus
+* Poster
+* lexc-kurssi
+* Lingvistiikka
+*  Pronominit
+*  Nominit
+*  Verbit
+* Sanakirjojen yhteen lyöminen
+
+!!! Tilannekatsaus
+
+!!make check
+{{{
+YAML test 1: ./N-aika_gt-norm.yaml 
+YAML test 2: ./N-assii_gt-norm.yaml 
+YAML test 3: ./N-ellain_gt-norm.yaml 
+YAML test 4: ./N-huonet_gt-norm.yaml 
+YAML test 5: ./N-joki_gt-norm.yaml 
+YAML test 6: ./N-kainulainen_gt-norm.yaml 
+YAML test 7: ./N-kauhee_gt-norm.yaml 
+YAML test 10: ./N-meininki_gt-norm.yaml 
+YAML test 11: ./N-opettaaja_gt-norm.yaml 
+YAML test 12: ./N-poika_gt-norm.yaml 
+YAML test 13: ./N-rakas_gt-norm.yaml 
+YAML test 14: ./N-ruvis_gt-norm.yaml 
+YAML test 16: ./N-suomi_gt-norm.yaml 
+YAML test 18: ./N-tytar_gt-norm.yaml 
+YAML test 19: ./N-venet_gt-norm.yaml 
+YAML test 20: ./N-veres_gt-norm.yaml 
+YAML test 35: ./V-kulkkeet_gt-norm.yaml 
+YAML test 39: ./V-lukkeet_gt-norm.yaml 
+YAML test 48: ./V-soppiit_gt-norm.yaml 
+YAML test 51: ./V-tohtiit_gt-norm.yaml 
+}}}
+
+Päivän luku on siis 20.
+
+* Kaisa lisännyt puuttuvia verbi-muotoja yamliin
+* kaisa lisännyt PrsPrc-muotoja yamliin ja affikseihin
+* Ongelmia: soppiit- ja tohtiit-verbien konditionaali (sopiisin, tohtiisin), lisätty VDEL-muodot affikseihin anttaat-verbiin, jotta yksi i häviäisi, mutta testi ei niitä hyväksy
+* Ongelmia: kulkeet- ja lukkeet-verbin PrsPrc+Act-muoto haluaa kulkkeevä, lukkeevä. Vokaalisointu-ongelma anttaat-verbissä
+
+!!Tapahtumat
+
+Trond lähtee Paaskiviikkoon kertomaan meidän työstä
+
+!!! Poster
+
+Poster siis [leksikografian konferenssiin|http://nordisksprogkoordination.org/nfl/konferencer-og-symposier/12.-konferanse-om-leksikografi-i-norden].
+
+Abstrakti on lähetetty. Mervillä tärkeä rooli.
+Mervi, Pirjo Tromssassa 19-21., ensin lexc, sitten poster.
+
+!!! lexc-kurssi
+
+Trond tulee ruotsista 18.6., lounaan jälkeen.
+Kaisa on poissa 19-20.6.
+
+Lexc-kurssi Mervi Pirjo,  Trond keskiviikkona
+ja osittain myös perjantaina. Sitten loppuviikko osittain
+lisää lexc/twolc/make ja osittain posterin teko
+
+!!! Lingvistiikka
+
+!!  Verbit
+
+* Konditionaali
+** soppiit- ja tohtiit-verbien konditionaali (sopiisin, tohtiisin), lisätty VDEL-muodot affikseihin anttaat-verbiin, jotta yksi i häviäisi, mutta testi ei niitä hyväksy
+* Vokaalisointu
+** kulkeet- ja lukkeet-verbin PrsPrc+Act-muoto haluaa kulkkeevä, lukkeevä. Ongelma anttaat-verbissä
+
+Molempien ongelma on twolc.
+
+Ratkaisu: 
+
+# Kirjoittaa lexc-tuloksen merkkijono: kulkkee>v^A
+# Tarkistaa twolc-sääntö, 
+## hyväksyykö se jonon
+## Jos ei, niin korjaa
+## Jos hyväksyy, niin tarkista {{lex-test}} ja {{pair-test}} -menetelmien avulla.
+
+
+!!! Sanakirjojen yhteen lyöminen
+
+[Tässä Eiran sanat|https://victorio.uit.no/langtech/trunk/words/dicts/fkvnob/inc/pos_aikamtka/]
+
+Emme vielä lyö niitä yhteen, vaan katsotaan Tromssassa.
+
+!!!Seuraava kokous
+
+Ensi viikolla, ehkä keksiviikkona klo 1200.
+
+
