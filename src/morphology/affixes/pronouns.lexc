@@ -631,9 +631,9 @@ LEXICON plmon_kvant
 
 LEXICON onecasepronouns
 
-< j o k a "@U.pron.nom@" a i n u:0 a:0 "+Pron":0 "+Qu":0 "+Sg":0 > sgcases  ;
+< j o k a "@U.pron.nom@" a i n u:0 a:0 "+Pron":0 "+Qu":0 "+Sg":0 > onesgcases  ;
 
-LEXICON  sgcases
+LEXICON  onesgcases
 < "@U.pron.nom@" > endcases_onecase ;
 
 LEXICON endcases_onecase 
