@@ -34,6 +34,12 @@
  * NotOU   = e i i2 i3 i4 i5 i6 y ä ö ü æ ø a ;                     
  * NotOUI  = e                  y ä ö ü æ ø a ;                     
  * NotOUIY = e                    ä ö   æ ø a ;                     
+
+ * NotOUIF = e                  y ä ö ü æ ø   ;                     
+ * NotOUIB = e                              a ;                     
+ * NotEYUF =   i i2 i3 i4 i5 i6   ä ö   æ ø         ;               
+ * NotEYUB =   i i2 i3 i4 i5 i6             a o   å ;               
+
  * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;    
  * NeutralVowel = e i ;                                             
  * Segment = Vowel Conson ;                                         
@@ -131,6 +137,8 @@ Foot-governed affixation
 !Gradation of -k-
 
  * "Gradation i:0, in word poika: pojan"   
+
+
 
 
 
