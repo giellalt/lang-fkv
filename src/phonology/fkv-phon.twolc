@@ -47,7 +47,7 @@ Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;   !!= * @CODE@
 NeutralVowel = e i ;                                            !!= * @CODE@ 
 Segment = Vowel Conson ;                                        !!= * @CODE@ 
 Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;      !!= * @CODE@ 
-NonFront = BackVowel ArchiVowel ArchiConson SomeVowel  Conson NeutralVowel Dummy ;  !!= * @CODE@ 
+NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;  !!= * @CODE@ 
 
 
 !! !!!Rules
@@ -341,11 +341,11 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | e: %>:0 i
 !! !!Vowel harmony 
 
 "Back harmony" !!= * @CODE@  
- Vx:Vy <=> BackVowel: NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;  
+ Vx:Vy <=> BackVowel: NonFront:* (:NonFront) NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;  
          where Vx in ( %^A %^O %^U )
                Vy in (   a   o   u )
          matched ;
-
+! kulke>^Vv ^A
 
 !! !!Vowel copying and metathesis
          
