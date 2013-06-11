@@ -261,39 +261,6 @@ k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 
 
-! Old rules
-
-! "Gradation k:j after i"  @CODE@  
-! k:j <=> [ i|i6: ] _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
-
-
-! "Gradation k:j after l,r, before e" 
-!  k:j <=> [u|a|l|r] _ [e|e:0] (Dummy:) %^WG:0 ;  
-! ! k:j <=> [l|r] _ [e|e:0] %^WG:0 ;  
-! 
-! ! pölkä>^WGt^A : pölätä 
-
-! "Gradation k:0"  @CODE@  
-!  k:0 <=> [ NotOUI: | l | r ] _  NotEYU: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
-! !k:0 <=> [ NotOUIY: | l | r ] _  NotEY: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
-! 
-! !"Gradation of k:0 after y" 
-! !k:0 <=> y _  NotEY: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
-! ! haka>^WGn : ha0a00n
-! 
-
-
-! old "Gradation k:v between u/y"  
-! old k:v <=> Conson [Vowel - :i] _ u            (Dummy:) (:i) (Dummy:) %^WG:0 ;
-! old         Conson u            _ [Vowel - e ] (Dummy:) (:i) (Dummy:) %^WG:0 ;
-! old         Conson [Vowel - :i] _ y            (Dummy:) (:i) (Dummy:) %^WG:0 ;
-! old !k:v <=> Conson u _ u (Dummy:) (:i) (Dummy:) %^WG:0 ;
-! old !        Conson y _ y (Dummy:) (:i) (Dummy:) %^WG:0 ;
-! old 
-! old !¢ näky^WGn
-! old !€ nävy0n
-! old !! ** this will not give uku - uvun, but puku - puvun.
-
 
 !! !Gradation of -t-
 
@@ -405,6 +372,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | e: %>:0 i
 "e deletion on partitive and genitive plural"
  e:0 <=> _ %>:0 i2: ;
 
+
 !! !!Stem alternation rules
 !  ========================
 
@@ -470,8 +438,8 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | e: %>:0 i
 "i:0 in par and gen pl of i-stems" ! ristien
  i:0 <=> Conson: _ %>:0 i2:i %>:0 [ %^V n | %^V: ] ;
 
-"i:0 in past tense of i-stems" ! leikin
- i:0 <=> Conson: _ Dummy:* %>:0 i3:i ;
+"i:0 in past tense and conditional of i-stems" ! leikin, tohtisin
+ i:0 <=> Conson: _ Dummy:* %>:0 [ i3:i | i4:i ] ;
 
 
 
@@ -557,4 +525,41 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | e: %>:0 i
 ! Cy Dobbelkonsonant
 ! Cx Enkelkonsonant
 ! f.eks. lkk-lk: pölkkää-pölkäs 
+
+
+
+
+! Old rules
+
+! "Gradation k:j after i"  @CODE@  
+! k:j <=> [ i|i6: ] _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+
+
+! "Gradation k:j after l,r, before e" 
+!  k:j <=> [u|a|l|r] _ [e|e:0] (Dummy:) %^WG:0 ;  
+! ! k:j <=> [l|r] _ [e|e:0] %^WG:0 ;  
+! 
+! ! pölkä>^WGt^A : pölätä 
+
+! "Gradation k:0"  @CODE@  
+!  k:0 <=> [ NotOUI: | l | r ] _  NotEYU: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+! !k:0 <=> [ NotOUIY: | l | r ] _  NotEY: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+! 
+! !"Gradation of k:0 after y" 
+! !k:0 <=> y _  NotEY: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+! ! haka>^WGn : ha0a00n
+! 
+
+
+! old "Gradation k:v between u/y"  
+! old k:v <=> Conson [Vowel - :i] _ u            (Dummy:) (:i) (Dummy:) %^WG:0 ;
+! old         Conson u            _ [Vowel - e ] (Dummy:) (:i) (Dummy:) %^WG:0 ;
+! old         Conson [Vowel - :i] _ y            (Dummy:) (:i) (Dummy:) %^WG:0 ;
+! old !k:v <=> Conson u _ u (Dummy:) (:i) (Dummy:) %^WG:0 ;
+! old !        Conson y _ y (Dummy:) (:i) (Dummy:) %^WG:0 ;
+! old 
+! old !¢ näky^WGn
+! old !€ nävy0n
+! old !! ** this will not give uku - uvun, but puku - puvun.
+
 
