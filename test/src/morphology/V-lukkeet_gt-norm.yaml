@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - lukkeet: # Verb 'to bring' - ei tsekattu
+  Verb - lukkeet: # Verb 'to bring' - ok
      lukkeet+V+Inf: lukkeet
      lukkeet+V+Act+Ind+Prs+Sg1: lujen
      lukkeet+V+Act+Ind+Prs+Sg2: lujet
