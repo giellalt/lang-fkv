@@ -14,14 +14,14 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - nähđa: # Verb 'to do' - ei tsekattu
+  Verb - nähđa: # Verb 'to do' - ok
      nähđä+V+Inf: nähđä
      nähđä+V+Act+Ind+Prs+Sg1: näjen
      nähđä+V+Act+Ind+Prs+Sg2: näjet
      nähđä+V+Act+Ind+Prs+Sg3: näkkee
      nähđä+V+Act+Ind+Prs+Pl1: näjemä
      nähđä+V+Act+Ind+Prs+Pl2: näjettä
-     nähđä+V+Act+Ind+Prs+Pl3: [nähđhään, näjethään]
+     nähđä+V+Act+Ind+Prs+Pl3: nähđhään
      nähđä+V+Act+Ind+Prt+Sg1: näjin
      nähđä+V+Act+Ind+Prt+Sg2: näjit
      nähđä+V+Act+Ind+Prt+Sg3: näki
@@ -43,7 +43,7 @@ Tests:
      nähđä+V+Act+Cond+Pl3: nähtäis
      nähđä+V+Pass+Cond: nähtäis
        
-     nähđä+V+Act+Imprt+Sg2: näe
+     nähđä+V+Act+Imprt+Sg2: näje
      nähđä+V+Act+Imprt+Pl2: nähkää
      
      nähđä+V+Act+Inf3+Ine: näkemässä
