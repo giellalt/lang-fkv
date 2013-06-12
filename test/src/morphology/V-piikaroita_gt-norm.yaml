@@ -14,37 +14,37 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - piikaroiđa: # Verb 'to bring' - ei tsekattu
-     piikaroiđa+V+Inf: piikaroiđa
-     piikaroiđa+V+Act+Ind+Prs+Sg1: piikaroitten
-     piikaroiđa+V+Act+Ind+Prs+Sg2: piikaroittet
-     piikaroiđa+V+Act+Ind+Prs+Sg3: piikaroittee
-     piikaroiđa+V+Act+Ind+Prs+Pl1: piikaroittema
-     piikaroiđa+V+Act+Ind+Prs+Pl2: piikaroittetta
-     piikaroiđa+V+Act+Ind+Prs+Pl3: piikaroithaan
-     piikaroiđa+V+Act+Ind+Prt+Sg1: piikaroittin
-     piikaroiđa+V+Act+Ind+Prt+Sg2: piikaroittit
-     piikaroiđa+V+Act+Ind+Prt+Sg3: piikaroitti
-     piikaroiđa+V+Act+Ind+Prt+Pl1: piikaroittima
-     piikaroiđa+V+Act+Ind+Prt+Pl2: piikaroittitta
-     piikaroiđa+V+Act+Ind+Prt+Pl3: piikaroithiin
-     piikaroiđa+V+Act+PrfPrc+Sg+Nom: piikaroinu
-     piikaroiđa+V+Pass+PrfPrc+Nom: piikaroitu
-     piikaroiđa+V+Act+PrfPrc+Pl+Nom: piikaroinheet
+  Verb - piikaroita: # Verb 'to bring' - ei tsekattu
+     piikaroita+V+Inf: piikaroita
+     piikaroita+V+Act+Ind+Prs+Sg1: piikaroitten
+     piikaroita+V+Act+Ind+Prs+Sg2: piikaroittet
+     piikaroita+V+Act+Ind+Prs+Sg3: piikaroittee
+     piikaroita+V+Act+Ind+Prs+Pl1: piikaroittema
+     piikaroita+V+Act+Ind+Prs+Pl2: piikaroittetta
+     piikaroita+V+Act+Ind+Prs+Pl3: piikaroithaan
+     piikaroita+V+Act+Ind+Prt+Sg1: piikaroittin
+     piikaroita+V+Act+Ind+Prt+Sg2: piikaroittit
+     piikaroita+V+Act+Ind+Prt+Sg3: piikaroitti
+     piikaroita+V+Act+Ind+Prt+Pl1: piikaroittima
+     piikaroita+V+Act+Ind+Prt+Pl2: piikaroittitta
+     piikaroita+V+Act+Ind+Prt+Pl3: piikaroithiin
+     piikaroita+V+Act+PrfPrc+Sg+Nom: piikaroinu
+     piikaroita+V+Pass+PrfPrc+Nom: piikaroitu
+     piikaroita+V+Act+PrfPrc+Pl+Nom: piikaroinheet
 
-     piikaroiđa+V+Act+Cond+Sg1: piikaroisin
-     piikaroiđa+V+Act+Cond+Sg2: piikaroisit
-     piikaroiđa+V+Act+Cond+Sg3: piikarois
-     piikaroiđa+V+Act+Cond+Pl1: piikaroisimma
-     piikaroiđa+V+Act+Cond+Pl2: piikaroisitta
-     piikaroiđa+V+Act+Cond+Pl3: piikaroittais
-     piikaroiđa+V+Pass+Cond: piikaroittais
+     piikaroita+V+Act+Cond+Sg1: piikaroisin
+     piikaroita+V+Act+Cond+Sg2: piikaroisit
+     piikaroita+V+Act+Cond+Sg3: piikarois
+     piikaroita+V+Act+Cond+Pl1: piikaroisimma
+     piikaroita+V+Act+Cond+Pl2: piikaroisitta
+     piikaroita+V+Act+Cond+Pl3: piikaroittais
+     piikaroita+V+Pass+Cond: piikaroittais
 
-     piikaroiđa+V+Act+Imprt+Sg2: piikaroitte
-     piikaroiđa+V+Act+Imprt+Pl2: piikaroikkaa
+     piikaroita+V+Act+Imprt+Sg2: piikaroitte
+     piikaroita+V+Act+Imprt+Pl2: piikaroikkaa
      
-     piikaroiđa+V+Act+Inf3+Ine: piikaroittemassa
-     piikaroiđa+V+Act+Inf3+Ela: piikaroittemasta
-     piikaroiđa+V+Act+Inf3+Ill: piikaroittemhaan
-     piikaroiđa+V+Act+Inf3+Ade: piikaroittemalla
-     piikaroiđa+V+Act+Inf3+Abe: piikaroittematta
+     piikaroita+V+Act+Inf3+Ine: piikaroittemassa
+     piikaroita+V+Act+Inf3+Ela: piikaroittemasta
+     piikaroita+V+Act+Inf3+Ill: piikaroittemhaan
+     piikaroita+V+Act+Inf3+Ade: piikaroittemalla
+     piikaroita+V+Act+Inf3+Abe: piikaroittematta
