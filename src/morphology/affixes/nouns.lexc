@@ -142,10 +142,11 @@ LEXICON n_32m !!= @CODE@ elläin elläi
 +N:me 2TAVU_V-ill ;
 +N+Sg:me sgpl-cases-long ;      
 +N+Pl:m%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
-+N+Pl:mi%>i2 longparpl ;
-+N+Pl:mi%>i2 longgenpl ;
++N+Pl:%^WGmi%>i2 longparpl ;
++N+Pl:%^WGmi%>i2 longgenpl ;
 +N+Pl:m%^HMETAh%>i2i shortestillpl;
-+N+Pl:m%>i2 com ;
++N+Sg:mi%>i2 com ;
++N+Pl:mi%>i2 com ;
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
