@@ -20,6 +20,7 @@ t2:t                      !!= * @CODE@
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
 %^AE:0                    !!= * @CODE@ -- a to e lauletaan
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
+%^HDEL:0                  !!= * @CODE@ -- s ja t loppuisissa noimineissa 
 ;
 
 
@@ -383,8 +384,14 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | e: %>:0 i
 !€ rakkaa^VDEL^WG>s
 !€ rak0a000>s
 
+!"Stem shortening in case nominativ in nouns ending in t or s"
+!h:0 <=> Conson _ %^HDEL:0 Vowel ;
+     
+
+
+
 "e:0 in consonant stems" !!= * @CODE@  
- e:0 <=> Conson: _ [ (Dummy:* - %^E2I:0) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
+e:0 <=> Conson: _ [ (Dummy:* - %^E2I:0) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
 
 
 !! !!i rules
