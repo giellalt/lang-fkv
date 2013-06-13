@@ -25,23 +25,23 @@ t2:t                      !!= * @CODE@
 
 !! !!Sets
 Sets                                                            
-FrontVowel = e i i2 i3 i4 i5 i6 y ä ö ü æ ø ;                   !!= * @CODE@ 
+FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;                   !!= * @CODE@ 
 BackVowel = a o u å ;                                           !!= * @CODE@ 
 ArchiVowel =  %^A %^O %^U ;                                     !!= * @CODE@ 
 ArchiConson = %^N ;                                             !!= * @CODE@ 
 SomeVowel = %^V ;                                               !!= * @CODE@ 
 Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;           !!= * @CODE@ 
-NotE    =   i i2 i3 i4 i5 i6 y ä ö ü æ ø a o u å ;              !!= * @CODE@ 
-NotEY   =   i i2 i3 i4 i5 i6   ä ö   æ ø a o u å ;              !!= * @CODE@ 
-NotEYU  =   i i2 i3 i4 i5 i6   ä ö   æ ø a o   å ;              !!= * @CODE@ 
-NotOU   = e i i2 i3 i4 i5 i6 y ä ö ü æ ø a ;                    !!= * @CODE@ 
-NotOUI  = e                  y ä ö ü æ ø a ;                    !!= * @CODE@ 
-NotOUIY = e                    ä ö   æ ø a ;                    !!= * @CODE@ 
-
-NotOUIF = e                  y ä ö ü æ ø   ;                    !!= * @CODE@ 
-NotOUIB = e                              a ;                    !!= * @CODE@ 
-NotEYUF =   i i2 i3 i4 i5 i6   ä ö   æ ø         ;              !!= * @CODE@ 
-NotEYUB =   i i2 i3 i4 i5 i6             a o   å ;              !!= * @CODE@ 
+NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;              !!= * @CODE@ 
+NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;              !!= * @CODE@ 
+NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o   å ;              !!= * @CODE@ 
+NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;                    !!= * @CODE@ 
+NotOUI  = e                     y ä ö ü æ ø a ;                    !!= * @CODE@ 
+NotOUIY = e                       ä ö   æ ø a ;                    !!= * @CODE@ 
+                                
+NotOUIF = e                     y ä ö ü æ ø   ;                    !!= * @CODE@ 
+NotOUIB = e                                 a ;                    !!= * @CODE@ 
+NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;              !!= * @CODE@ 
+NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;              !!= * @CODE@ 
 
 Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;   !!= * @CODE@ 
 NeutralVowel = e i ;                                            !!= * @CODE@ 
@@ -77,7 +77,7 @@ Rules
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vi" !!= * @CODE@  
- 0:Cx <=> Vowel Cx _ :i %>:0 [ :i | i7: ] ;   
+ 0:Cx <=> Vowel Cx _ :i %>:0 [ :i | i7: | i2: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vo" !!= * @CODE@  
