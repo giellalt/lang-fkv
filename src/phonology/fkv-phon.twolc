@@ -69,35 +69,35 @@ Rules
 !    matched; 
  
 "Gemination Va" !!= * @CODE@  
- 0:Cx <=> Vowel Cx _ :a %>:0 [ :a | i7: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :a %>:0 [ :a | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
 
 "Gemination Ve" !!= * @CODE@  
- 0:Cx <=> Vowel Cx _ :e %>:0 [ :e | i7: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :e %>:0 [ :e | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vi" !!= * @CODE@  
- 0:Cx <=> Vowel Cx _ :i %>:0 [ :i | i7: | i2: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :i %>:0 [ :i | i7: | i2: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vo" !!= * @CODE@  
- 0:Cx <=> Vowel Cx _ :o %>:0 [ :o | i7: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :o %>:0 [ :o | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vu" !!= * @CODE@  
- 0:Cx <=> Vowel Cx _ :u %>:0 [ :u | i7: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :u %>:0 [ :u | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vy" !!= * @CODE@  
- 0:Cx <=> Vowel Cx _ :y %>:0 [ :y | i7: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :y %>:0 [ :y | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vö" !!= * @CODE@  
- 0:Cx <=> Vowel Cx _ :ö %>:0 [ :ö | i7: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :ö %>:0 [ :ö | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vä" !!= * @CODE@  
- 0:Cx <=> Vowel Cx _ :ä %>:0 [ :ä | i7: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :ä %>:0 [ :ä | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
 
     
