@@ -142,8 +142,8 @@ LEXICON n_32m !!= @CODE@ elläin elläi
 +N:me 2TAVU_V-ill ;
 +N+Sg:me sgpl-cases-long ;      
 +N+Pl:m%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
-+N+Pl:%^WGmi%>i2 longparpl ;
-+N+Pl:%^WGmi%>i2 longgenpl ;
++N+Pl:mi%>i2 longparpl ;
++N+Pl:mi%>i2 longgenpl ;
 +N+Pl:m%^HMETAh%>i2i shortestillpl;
 +N+Sg:mi%>i2 com ;
 +N+Pl:mi%>i2 com ;
@@ -224,7 +224,7 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
  +Sg:se sgpl-cases-short ;      !! these two lexica for cases with
  +Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
  :s long-par ;
- : mTAVU_VV-ill ;
+  mTAVU_VV-ill ;
  +Pl:s%>i2 shortgenpl ; ! naisien
  +Pl:s consgenpl ;
  +Pl:ss%>i2 shortparpl ;
