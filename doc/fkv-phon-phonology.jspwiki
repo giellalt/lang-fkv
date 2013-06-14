@@ -19,32 +19,33 @@
  * %^VDEL:0 %^EDEL:0          -- DEL = deletion
  * %^AE:0                     -- a to e lauletaan
  * %^AO:0                     -- a to o sanoissa
+ * %^HDEL:0                   -- s ja t loppuisissa noimineissa 
 
 
 !!Sets
- * FrontVowel = e i i2 i3 i4 i5 i6 y ä ö ü æ ø ;                    
+ * FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;                    
  * BackVowel = a o u å ;                                            
  * ArchiVowel =  %^A %^O %^U ;                                      
  * ArchiConson = %^N ;                                              
  * SomeVowel = %^V ;                                                
  * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;            
- * NotE    =   i i2 i3 i4 i5 i6 y ä ö ü æ ø a o u å ;               
- * NotEY   =   i i2 i3 i4 i5 i6   ä ö   æ ø a o u å ;               
- * NotEYU  =   i i2 i3 i4 i5 i6   ä ö   æ ø a o   å ;               
- * NotOU   = e i i2 i3 i4 i5 i6 y ä ö ü æ ø a ;                     
- * NotOUI  = e                  y ä ö ü æ ø a ;                     
- * NotOUIY = e                    ä ö   æ ø a ;                     
+ * NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;               
+ * NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;               
+ * NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o   å ;               
+ * NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;                     
+ * NotOUI  = e                     y ä ö ü æ ø a ;                     
+ * NotOUIY = e                       ä ö   æ ø a ;                     
 
- * NotOUIF = e                  y ä ö ü æ ø   ;                     
- * NotOUIB = e                              a ;                     
- * NotEYUF =   i i2 i3 i4 i5 i6   ä ö   æ ø         ;               
- * NotEYUB =   i i2 i3 i4 i5 i6             a o   å ;               
+ * NotOUIF = e                     y ä ö ü æ ø   ;                     
+ * NotOUIB = e                                 a ;                     
+ * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;               
+ * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;               
 
  * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;    
  * NeutralVowel = e i ;                                             
  * Segment = Vowel Conson ;                                         
  * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;       
- * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel  Conson NeutralVowel Dummy ;   
+ * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;   
 
 
 !!!Rules
@@ -152,14 +153,6 @@ Foot-governed affixation
 
 
 
-
-
-
-
-
-** this will not give uku - uvun, but puku - puvun.
-
-
 !Gradation of -t-
 
  * "Gradation t:đ"   
@@ -186,7 +179,6 @@ Foot-governed affixation
 
  * "Back harmony"   
 
-
 !!Vowel copying and metathesis
 
  * "Vowel copying"    
@@ -211,9 +203,14 @@ maahan
 
 
 
+
 !!Stem alternation rules
 
  * "Stem shortening for consonant initial suffixes" 
+
+
+
+
 
 
  * "e:0 in consonant stems"   
@@ -273,5 +270,17 @@ The -i- rules require different i-s for different POS.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+** this will not give uku - uvun, but puku - puvun.
 
 
