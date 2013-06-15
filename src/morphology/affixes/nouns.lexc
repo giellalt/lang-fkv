@@ -196,6 +196,8 @@ LEXICON n_33t !!= @CODE@ venet
 LEXICON n_41 !!= * @CODE@ = veres
 +N: sConsCase ; !!= * @CODE@  toistaiseksi :-/
 +N:kse loput ;
++N+Sg+Ill:ksseen K ;
++N+Pl+Ill:kssiin K ;
 
 LEXICON s_kse
 +N:%^WG # ;
@@ -238,10 +240,8 @@ LEXICON loput
  weak-v-stem ;
  +Sg: sgpl-cases-long ;      !! these two lexica for cases with
  +Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl -- tsekkaa long
- 1TAVU_VV-ill ;
 +Pl:%>i2 shortgenpl ;
 +Pl:%>i2 shortparpl ;
-+Pl:%>i2 shortillpl ;
 
 LEXICON loputjutut
  obl-strong ; ! muut vahvat
