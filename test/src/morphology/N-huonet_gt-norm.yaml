@@ -14,7 +14,7 @@ Tests:
 # Then: linnrun analyser, then correct. 
 
 
-  Noun - huonet: # Noun 'rom' - ei tsekattu
+  Noun - huonet: # Noun 'rom' - ok
      huonet+N+Sg+Nom: huonet
      huonet+N+Sg+Gen: huonheen
      huonet+N+Sg+Par: huonetta
@@ -32,7 +32,6 @@ Tests:
      huonet+N+Pl+Par: huonheita
      huonet+N+Pl+Tra: huonheiksi
      huonet+N+Pl+Abe: huonheitta
-     huonet+N+Pl+Com: huonhein
      huonet+N+Pl+Ine: huonheissa
      huonet+N+Pl+Ela: huonheista
      huonet+N+Pl+Ill: huonheissiin
