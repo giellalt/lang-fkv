@@ -14,7 +14,7 @@ Tests:
 # Then: linnrun analyser, then correct. 
 
 
-  Noun - linna: # Noun 'borg' - ei tsekattu
+  Noun - linna: # Noun 'borg' - ok
      assii+N+Sg+Nom: assii
      assii+N+Sg+Gen: assiin
      assii+N+Sg+Par: assiita
@@ -22,7 +22,7 @@ Tests:
      assii+N+Sg+Abe: assiitta
      assii+N+Sg+Ine: assiissa
      assii+N+Sg+Ela: assiista
-     assii+N+Sg+Ill: assiisheen
+     assii+N+Sg+Ill: assiisseen
      assii+N+Sg+Ade: assiila
      assii+N+Sg+Abl: assiilta
      assii+N+Sg+All: assiile
@@ -34,7 +34,7 @@ Tests:
      assii+N+Pl+Abe: assiitta
      assii+N+Pl+Ine: assiissa
      assii+N+Pl+Ela: assiista
-     assii+N+Pl+Ill: assiishiin
+     assii+N+Pl+Ill: assiissiin
      assii+N+Pl+Ade: assiila
      assii+N+Pl+Abl: assiilta
      assii+N+Pl+All: assiile
