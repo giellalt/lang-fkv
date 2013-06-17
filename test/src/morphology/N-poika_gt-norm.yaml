@@ -14,7 +14,7 @@ Tests:
 # Then: poikrun analyser, then correct. 
 
 
-  Noun - poika: # Noun 'boy' - full paradigm
+  Noun - poika: # Noun 'boy' - ok
      poika+N+Sg+Nom: poika
      poika+N+Sg+Gen: pojan
      poika+N+Sg+Par: poikkaa
@@ -28,13 +28,13 @@ Tests:
      poika+N+Sg+All: pojale
      poika+N+Sg+Ess: poikana
      poika+N+Pl+Nom: pojat
-     poika+N+Pl+Gen: poikain
+     poika+N+Pl+Gen: poikkiin
      poika+N+Pl+Par: poikkii
      poika+N+Pl+Tra: pojiksi
      poika+N+Pl+Abe: pojitta
      poika+N+Pl+Ine: pojissa
      poika+N+Pl+Ela: pojista
-     poika+N+Pl+Ill: poikhoin
+     poika+N+Pl+Ill: poikhiin
      poika+N+Pl+Ade: pojila
      poika+N+Pl+Abl: pojilta
      poika+N+Pl+All: pojile
