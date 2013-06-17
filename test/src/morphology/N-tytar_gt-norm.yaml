@@ -14,7 +14,7 @@ Tests:
 # Then: linnrun analyser, then correct. 
 
 
-  Noun - tytär: # Noun 'daughter' - ei tsekattu
+  Noun - tytär: # Noun 'daughter' - ok
      tytär+N+Sg+Nom: tytär
      tytär+N+Sg+Gen: tyttären
      tytär+N+Sg+Par: tytärtä
@@ -32,7 +32,6 @@ Tests:
      tytär+N+Pl+Par: tyttäriitä
      tytär+N+Pl+Tra: tyttäriksi
      tytär+N+Pl+Abe: tyttärittä
-     tytär+N+Pl+Com: tyttärine
      tytär+N+Pl+Ine: tyttärissä
      tytär+N+Pl+Ela: tyttäristä
      tytär+N+Pl+Ill: tyttärhiin
