@@ -187,11 +187,17 @@ LEXICON n_33s !!= @CODE@ rakas
 LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 n_33t ;
 
+!LEXICON n_33t !!= @CODE@ venet
+!+N: tConsCase ; ! nom, par
+!+N:%>%^HMETAh%^V%^V loputjutut ;
+!+Sg+Ill:%>s%^V%^V n-PxK ;
+!+N:%>i2 longerillpl ;
+
 LEXICON n_33t !!= @CODE@ venet
-+N: tConsCase ; ! nom, par
-+N:%>%^HMETAh%^V%^V loputjutut ;
-+Sg+Ill:%>s%^V%^V n-PxK ;
-+N:%>i2 longerillpl ;
++N:e tConsCase ; ! nom, par
++N:hee loputjutut ;
++Sg+Ill:%>hee mTAVU_VV-ill ;
++N+Pl+Ill:hee%>i2ssiin K ;
 
 LEXICON n_41 !!= * @CODE@ = veres
 +N: sConsCase ; !!= * @CODE@  toistaiseksi :-/
@@ -201,6 +207,9 @@ LEXICON n_41 !!= * @CODE@ = veres
 
 LEXICON s_kse
 +N:%^WG # ;
+
+!LEXICON et_he
+!+N:%^WG # ;
 
 LEXICON n_42
 +N: nen ; ! onko n42 = nen?
