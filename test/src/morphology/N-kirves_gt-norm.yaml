@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - kirves: # Noun 'øks' - ei tsekattu
+     kirves+N+Sg+Nom: kirves
+     kirves+N+Sg+Gen: kirvheen
+     kirves+N+Sg+Par: kirvestä
+     kirves+N+Sg+Tra: kirvheeksi
+     kirves+N+Sg+Abe: kirvheettä
+     kirves+N+Sg+Ine: kirvheessä
+     kirves+N+Sg+Ela: kirvheestä
+     kirves+N+Sg+Ill: kirvheesseen
+     kirves+N+Sg+Ade: kirvheelä
+     kirves+N+Sg+Abl: kirvheeltä
+     kirves+N+Sg+All: kirvheele
+     kirves+N+Sg+Ess: kirvheenä
+     kirves+N+Pl+Nom: kirvheet
+     kirves+N+Pl+Gen: kirvheitten
+     kirves+N+Pl+Par: kirvheitä
+     kirves+N+Pl+Tra: kirvheiksi
+     kirves+N+Pl+Abe: kirvheittä
+     kirves+N+Pl+Ine: kirvheissä
+     kirves+N+Pl+Ela: kirvheistä
+     kirves+N+Pl+Ill: kirvheissiin
+     kirves+N+Pl+Ade: kirvheilä
+     kirves+N+Pl+Abl: kirvheiltä
+     kirves+N+Pl+All: kirvheile
+     kirves+N+Pl+Ess: kirvheinä
