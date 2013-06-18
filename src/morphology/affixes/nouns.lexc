@@ -229,8 +229,16 @@ LEXICON s_kse
 !LEXICON et_he
 !+N:%^WG # ;
 
-LEXICON n_42
-+N: nen ; ! onko n42 = nen?
+LEXICON n_42 ! itse asiassa n_42even
++N+Sg:se sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N: nen ;
+
+LEXICON n_42odd !!= @CODE@ ihminen
++N+Sg:se sgpl-cases-long ;      !! these two lexica for cases with
++N+Pl:s%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
++N: nen ;
+
 
 LEXICON n_42pl ! ei tehty, tee oma pl-nen
  +N+PL+Nom:set K ;
@@ -249,25 +257,6 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
  +Sg:se%>i2 com ;
  +Pl:se%>i2 com ;
  :se weak-v-stem ;
- +Sg:se sgpl-cases-short ;      !! these two lexica for cases with
- +Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
- :s long-par ;
- :se 2TAVU_V-ill ;
- +Pl+Ill:sh%>i2in K ;
- +Pl:s%>i2 shortgenpl ; ! naisien
- +Pl:s consgenpl ;
- +Pl:ss%>i2 shortparpl ;
- +Pl:ss%>i2 shorterillpl ;
-
-LEXICON n_42odd !!= @CODE@ ihminen
-  nom-nen ;
- :s R ;
- :se gae-strong ;
- +Sg:se%>i2 com ;
- +Pl:se%>i2 com ;
- :se weak-v-stem ;
- +Sg:se sgpl-cases-long ;      !! these two lexica for cases with
- +Pl:s%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
  :s long-par ;
  :se 2TAVU_V-ill ;
  +Pl+Ill:sh%>i2in K ;
