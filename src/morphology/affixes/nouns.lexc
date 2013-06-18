@@ -191,9 +191,8 @@ LEXICON n_33s !!= @CODE@ rakas
 
 LEXICON n_33si !!= @CODE@ ruvis
 +N:i sConsCase ; ! nom, par
-!+N+Pl+Nom: 
++N:hii loput ; 
 +N+Sg:hii sgpl-cases-short ;
-!+N+Sg+Gen:
 +N+Pl:hii sgpl-cases-short ;
 +N+Pl:hi%>i2 longparpl ;
 +N+Pl:hi%>i2 longgenpl ;
