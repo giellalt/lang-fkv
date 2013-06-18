@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - linna: # Noun 'menneske' - ok
+     ihminen+N+Sg+Nom: ihminen
+     ihminen+N+Sg+Gen: ihmisen
+     ihminen+N+Sg+Par: ihmistä
+     ihminen+N+Sg+Tra: ihmiseksi
+     ihminen+N+Sg+Abe: ihmisettä
+     ihminen+N+Sg+Ine: ihmisessä
+     ihminen+N+Sg+Ela: ihmisestä
+     ihminen+N+Sg+Ill: ihmisheen
+     ihminen+N+Sg+Ade: ihmisellä
+     ihminen+N+Sg+Abl: ihmiseltä
+     ihminen+N+Sg+All: ihmiselle
+     ihminen+N+Sg+Ess: ihmisennä
+     ihminen+N+Pl+Nom: ihmiset
+     ihminen+N+Pl+Gen: ihmisten
+     ihminen+N+Pl+Par: ihmissii
+     ihminen+N+Pl+Tra: ihmisiksi
+     ihminen+N+Pl+Abe: ihmisittä
+     ihminen+N+Pl+Ine: ihmisissä
+     ihminen+N+Pl+Ela: ihmisistä
+     ihminen+N+Pl+Ill: ihmishiin
+     ihminen+N+Pl+Ade: ihmisillä
+     ihminen+N+Pl+Abl: ihmisiltä
+     ihminen+N+Pl+All: ihmisille
+     ihminen+N+Pl+Ess: ihmisinnä
