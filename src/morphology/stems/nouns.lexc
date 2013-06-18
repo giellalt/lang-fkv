@@ -5,7 +5,7 @@ LEXICON NounRoot !!= @CODE@
 !! Leksikkonimet Eiran mukaan
 !! * n1 Eira 1
 !! * n12 Eira 1.1 etc
-!! Luokat n_21 n12 n_22 n_32 n_32s n_32m n_1 n_23 n_33s n-33si n_33t n_41 n_42 Eiran v. 2009 mukaan
+!! Luokat n_21 n12 n_22 n_32 n_32s n_32m n_1 n_23 n_33s n-33si n_33t n_41 n_42 n_42odd Eiran v. 2009 mukaan
 
 
 !!  2007 s.87
@@ -28,7 +28,7 @@ LEXICON NounRoot !!= @CODE@
 !! * 4. Ekstrakonsonanttirankaiset				 = 
 !! ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
 !! ** 4.2 –inen-nominit ( kainulainen)			 = n_42 = nen
-!! *** 4.2.1 -inen-nominit odd (vihrinen)		 = n_42_odd = nen
+!! *** 4.2.1 -inen-nominit odd (vihrinen)		 = n_42odd = nen
 
 
 !! !!1. Yksitavuiset
@@ -135,14 +135,14 @@ varis:vari        n_41 ;
 kokkous:kokkou      n_41 ;
               
 !! !! 4.2 -inen-nominit
-vihrinen:vihri     n_42_odd ;
-ihminen:ihmi      n_42_odd ;
+vihrinen:vihri     n_42odd ;
+ihminen:ihmi      n_42odd ;
 kainulainen:kainulai  n_42 ;
 
 !! !!nen-sanat
 !! sininen, nainan. Vartalo on sini, nai
 
-sininen:sini n_42_odd ; !!= * @CODE@
+sininen:sini n_42odd ; !!= * @CODE@
 nainen:nai n_42 ;
 
 
@@ -154,39 +154,39 @@ nainen:nai n_42 ;
 !!# n_42-sanat (poikanen, nainen)
 !!# n_22 (lyhyt V-vartalo: 
 
-joukhanen:joukha n_42_odd ; 
-makkaratianen:makkaratia n_42_odd ; 
-talitianen:talitia n_42_odd ; 
-hakanen:haka n_42_odd ; 
-poikanen:poika n_42_odd ; 
-akkanen:akka n_42_odd ; 
-pakkanen:pakka n_42_odd ; 
-alanen:ala n_42_odd ; 
-päänalanen:päänala n_42_odd ; 
-palanen:pala n_42_odd ; 
-lautanen:lauta n_42_odd ; 
-kurikkakymmenen:kurikkakymme n_42_odd ; 
-puimhainen:puimhai n_42_odd ; 
-munhainen:munhai n_42_odd ; 
-muurhainen:muurhai n_42_odd ; 
+joukhanen:joukha n_42odd ; 
+makkaratianen:makkaratia n_42odd ; 
+talitianen:talitia n_42odd ; 
+hakanen:haka n_42odd ; 
+poikanen:poika n_42odd ; 
+akkanen:akka n_42odd ; 
+pakkanen:pakka n_42odd ; 
+alanen:ala n_42odd ; 
+päänalanen:päänala n_42odd ; 
+palanen:pala n_42odd ; 
+lautanen:lauta n_42odd ; 
+kurikkakymmenen:kurikkakymme n_42odd ; 
+puimhainen:puimhai n_42odd ; 
+munhainen:munhai n_42odd ; 
+muurhainen:muurhai n_42odd ; 
 nahkiainen:nahkiai n_42 ; 
 ampiainen:ampiai n_42 ; 
 polttiainen:polttiai n_42 ; 
 pulmukainen:pulmukai n_42 ; 
 saarukainen:saarukai n_42 ; 
 nuorukainen:nuorukai n_42 ; 
-aasialainen:aasialai n_42_odd ; 
+aasialainen:aasialai n_42odd ; 
 karjalainen:karjalai n_42 ; 
 norjalainen:norjalai n_42 ; 
 amerikkalainen:amerikkalai n_42 ; 
-aafrikkalainen:aafrikkalai n_42_odd ; 
+aafrikkalainen:aafrikkalai n_42odd ; 
 tanskalainen:tanskalai n_42 ; 
-ulkomalainen:ulkomalai n_42_odd ; 
+ulkomalainen:ulkomalai n_42odd ; 
 suomalainen:suomalai n_42 ; 
 manalainen:manalai n_42 ; 
-perunalainen:perunalai n_42_odd ; 
+perunalainen:perunalai n_42odd ; 
 lappalainen:lappalai n_42 ; 
-eurooppalainen:eurooppalai n_42_odd ; 
+eurooppalainen:eurooppalai n_42odd ; 
 saksalainen:saksalai n_42 ; 
 kansalainen:kansalai n_42 ; 
 lantalainen:lantalai n_42 ; 
@@ -196,19 +196,19 @@ juutalainen:juutalai n_42 ;
 kainulainen:kainulai n_42 ;
 ruiđalainen:ruiđalai n_42 ; 
 saamelainen:saamelai n_42 ; 
-unkaarnilainen:unkaarnilai n_42_odd ; 
-unkarilainen:unkarilai n_42_odd ; 
-lestaatilainen:lestaatilai n_42_odd ; 
-englantilainen:englantilai n_42_odd ; 
+unkaarnilainen:unkaarnilai n_42odd ; 
+unkarilainen:unkarilai n_42odd ; 
+lestaatilainen:lestaatilai n_42odd ; 
+englantilainen:englantilai n_42odd ; 
 paholainen:paholai n_42 ; 
 jonkulainen:jonkulai n_42 ; 
 apulainen:apulai n_42 ; 
 kainuulainen:kainuulai n_42 ; 
 nainen:nai n_42 ; 
-loppiinen:loppii n_42_odd ; 
-päässiinen:päässii n_42_odd ; 
-mettiinen:mettii n_42_odd ; 
-vaaskinen:vaaski n_42_odd ; 
+loppiinen:loppii n_42odd ; 
+päässiinen:päässii n_42odd ; 
+mettiinen:mettii n_42odd ; 
+vaaskinen:vaaski n_42odd ; 
 eđelinen:eđeli n_42 ; 
 viholinen:viholi n_42 ; 
 pauhaaminen:pauhaami n_42 ; 
@@ -216,56 +216,56 @@ pakkaaminen:pakkaami n_42 ;
 oornaaminen:oornaami n_42 ; 
 verentoppaaminen:verentoppaami n_42 ; 
 kuppaaminen:kuppaami n_42 ; 
-kuitteeraaminen:kuitteeraami n_42_odd ; 
+kuitteeraaminen:kuitteeraami n_42odd ; 
 multtaaminen:multtaami n_42 ; 
 konttaaminen:konttaami n_42 ; 
 tappaminen:tappami n_42 ; 
-tuohertaminen:tuohertami n_42_odd ; 
-rattastaminen:rattastami n_42_odd ; 
+tuohertaminen:tuohertami n_42odd ; 
+rattastaminen:rattastami n_42odd ; 
 norjalaistaminen:norjalaistami n_42 ; 
 ruiđalaistaminen:ruiđalaistami n_42 ; 
-ođottaminen:ođottami n_42_odd ; 
+ođottaminen:ođottami n_42odd ; 
 lukeminen:lukemi n_42 ; 
-ihminen:ihmi n_42_odd ; 
-vaimoihminen:vaimoihmi n_42_odd ; 
-miesihminen:miesihmi n_42_odd ; 
+ihminen:ihmi n_42odd ; 
+vaimoihminen:vaimoihmi n_42odd ; 
+miesihminen:miesihmi n_42odd ; 
 onkiminen:onkimi n_42 ; 
 rykiminen:rykimi n_42 ; 
 leipominen:leipomi n_42 ; 
 kutominen:kutomi n_42 ; 
-huominen:huomi n_42_odd ; 
+huominen:huomi n_42odd ; 
 ampuminen:ampumi n_42 ; 
 ruiđalaistuminen:ruiđalaistumi n_42 ; 
 muuttuminen:muuttumi n_42 ; 
 kassuuminen:kassuumi n_42 ; 
 siirtyminen:siirtymi n_42 ; 
-vähentäminen:vähentämi n_42_odd ; 
+vähentäminen:vähentämi n_42odd ; 
 pyytäminen:pyytämi n_42 ; 
 räknääminen:räknäämi n_42 ; 
-veđonlyöminen:veđonlyömi n_42_odd ; 
+veđonlyöminen:veđonlyömi n_42odd ; 
 esikoinen:esikoi n_42 ; 
-aapinen:aapi n_42_odd ; 
-urppinen:urppi n_42_odd; 
-syntinen:synti n_42_odd ; 
-uutinen:uuti n_42_odd ; 
+aapinen:aapi n_42odd ; 
+urppinen:urppi n_42odd; 
+syntinen:synti n_42odd ; 
+uutinen:uuti n_42odd ; 
 aktiivinen:aktiivi n_42 ; 
 venäläinen:venäläi n_42 ; 
 ryssäläinen:ryssäläi n_42 ; 
-kakkonen:kakko n_42_odd ; 
-ukkonen:ukko n_42_odd ; 
+kakkonen:kakko n_42odd ; 
+ukkonen:ukko n_42odd ; 
 aurinkonen:aurinko n_42 ; 
-nelonen:nelo n_42_odd ; 
-kepponen:keppo n_42_odd ; 
-peipponen:peippo n_42_odd ; 
-kaksonen:kakso n_42_odd ; 
-viitonen:viito n_42_odd ; 
-hevonen:hevo n_42_odd ; 
-kulkunen:kulku n_42_odd ; 
-pitunen:pitu n_42_odd ; 
-kyhkynen:kyhky n_42_odd ; 
-pääskynen:pääsky n_42_odd ; 
-päälynen:pääly n_42_odd ; 
-kärpänen:kärpä n_42_odd ; 
+nelonen:nelo n_42odd ; 
+kepponen:keppo n_42odd ; 
+peipponen:peippo n_42odd ; 
+kaksonen:kakso n_42odd ; 
+viitonen:viito n_42odd ; 
+hevonen:hevo n_42odd ; 
+kulkunen:kulku n_42odd ; 
+pitunen:pitu n_42odd ; 
+kyhkynen:kyhky n_42odd ; 
+pääskynen:pääsky n_42odd ; 
+päälynen:pääly n_42odd ; 
+kärpänen:kärpä n_42odd ; 
 vanhaa n_22 ;  
 maa n_22 ; 
 kaljamaa n_22 ; 
