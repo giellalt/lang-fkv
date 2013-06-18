@@ -234,7 +234,8 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
  +Sg:se sgpl-cases-short ;      !! these two lexica for cases with
  +Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
  :s long-par ;
-  mTAVU_VV-ill ;
+ :se 2TAVU_V-ill ;
+ +Pl+Ill:sh%>i2in K ;
  +Pl:s%>i2 shortgenpl ; ! naisien
  +Pl:s consgenpl ;
  +Pl:ss%>i2 shortparpl ;
