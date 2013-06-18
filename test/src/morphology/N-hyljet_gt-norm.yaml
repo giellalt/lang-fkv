@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - hyljet: # Noun 'borg' - ei tarkistettu
+     hyljet+N+Sg+Nom: hyljet
+     hyljet+N+Sg+Gen: hylkheen
+     hyljet+N+Sg+Par: hyljettä
+     hyljet+N+Sg+Tra: hylkheeksi
+     hyljet+N+Sg+Abe: hylkheettä
+     hyljet+N+Sg+Ine: hylkheessä
+     hyljet+N+Sg+Ela: hylkheestä
+     hyljet+N+Sg+Ill: hylkheesseen
+     hyljet+N+Sg+Ade: hylkheelä
+     hyljet+N+Sg+Abl: hylkheeltä
+     hyljet+N+Sg+All: hylkheele
+     hyljet+N+Sg+Ess: hylkheenä
+     hyljet+N+Pl+Nom: hylkheet
+     hyljet+N+Pl+Gen: hylkheitten
+     hyljet+N+Pl+Par: hylkheitä
+     hyljet+N+Pl+Tra: hylkheiksi
+     hyljet+N+Pl+Abe: hylkheittä
+     hyljet+N+Pl+Ine: hylkheissä
+     hyljet+N+Pl+Ela: hylkheistä
+     hyljet+N+Pl+Ill: hylkheissiin
+     hyljet+N+Pl+Ade: hylkheilä
+     hyljet+N+Pl+Abl: hylkheiltä
+     hyljet+N+Pl+All: hylkheile
+     hyljet+N+Pl+Ess: hylkheinä
