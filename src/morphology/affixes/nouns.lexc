@@ -26,7 +26,7 @@
 !! * 4. Ekstrakonsonanttirankaiset				  
 !! ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
 !! ** 4.2 –inen-nominit ( kainulainen)			 = n_42 = nen
-!! *** 4.2.1 -inen-nominit odd (vihrinen)		 = n_42_odd = nen
+!! *** 4.2.1 -inen-nominit odd (vihrinen)		 = n_42odd = nen
 
 !! !!Noun types
 
@@ -259,6 +259,24 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
  +Pl:ss%>i2 shortparpl ;
  +Pl:ss%>i2 shorterillpl ;
 
+LEXICON n_42odd !!= @CODE@ ihminen
+  nom-nen ;
+ :s R ;
+ :se gae-strong ;
+ +Sg:se%>i2 com ;
+ +Pl:se%>i2 com ;
+ :se weak-v-stem ;
+ +Sg:se sgpl-cases-long ;      !! these two lexica for cases with
+ +Pl:s%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
+ :s long-par ;
+ :se 2TAVU_V-ill ;
+ +Pl+Ill:sh%>i2in K ;
+ +Pl:s%>i2 shortgenpl ; ! naisien
+ +Pl:s consgenpl ;
+ +Pl:ss%>i2 shortparpl ;
+ +Pl:ss%>i2 shorterillpl ;
+
+
 LEXICON nom-nen
 +Sg+Nom:nen K ;
 
@@ -268,8 +286,8 @@ LEXICON loput
  weak-v-stem ;
  +Sg: sgpl-cases-long ;      !! these two lexica for cases with
  +Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl -- tsekkaa long
-+Pl:%>i2 shortgenpl ;
-+Pl:%>i2 shortparpl ;
+ +Pl:%>i2 shortgenpl ;
+ +Pl:%>i2 shortparpl ;
 
 LEXICON loputjutut
  obl-strong ; ! muut vahvat
@@ -277,21 +295,21 @@ LEXICON loputjutut
  +Sg: sgpl-cases-short ;      !! these two lexica for cases with
  +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl -- tsekkaa long
  mTAVU_VV-ill ;
-+Pl:%>i2 longgenpl ;
-+Pl:%>i2 longparpl ;
-+Pl:%>i2 longillpl ;
+ +Pl:%>i2 longgenpl ;
+ +Pl:%>i2 longparpl ;
+ +Pl:%>i2 longillpl ;
 
 LEXICON sConsCase
-+Sg+Nom:%^WG%>s K ;
-+Sg+Par:%^WG%>st%^A K ; ! Par
-+Pl+Gen:%^WG%>sten K ; ! Gen
+ +Sg+Nom:%^WG%>s K ;
+ +Sg+Par:%^WG%>st%^A K ; ! Par
+ +Pl+Gen:%^WG%>sten K ; ! Gen
 
 LEXICON tConsCase
-+Sg+Nom:%^WG%>t K ;
-+Sg+Par:%^WG%>tt%^A K ;
+ +Sg+Nom:%^WG%>t K ;
+ +Sg+Par:%^WG%>tt%^A K ;
 
 LEXICON x
-+N+Sg+Nom: K ; ! ei tehty
+ +N+Sg+Nom: K ; ! ei tehty
 
 
 !! !!! Basic paradigms
