@@ -14,7 +14,7 @@ Tests:
 # Then: linnrun analyser, then correct. 
 
 
-  Noun - vuosi: # Noun 'borg' - ei tsekattu
+  Noun - vuosi: # Noun 'år' - ei tsekattu
      vuosi+N+Sg+Nom: vuosi
      vuosi+N+Sg+Gen: vuođen
      vuosi+N+Sg+Par: vuotta
@@ -28,14 +28,15 @@ Tests:
      vuosi+N+Sg+All: vuođele
      vuosi+N+Sg+Ess: vuotena
      vuosi+N+Pl+Nom: vuođet
-     vuosi+N+Pl+Gen: vuosiin
-     vuosi+N+Pl+Par: vuosii
-     vuosi+N+Pl+Tra: vuođeiksi
-     vuosi+N+Pl+Abe: vuođeitta
-     vuosi+N+Pl+Ine: vuođeissa
-     vuosi+N+Pl+Ela: vuođeista
-     vuosi+N+Pl+Ill: vuothiin
-     vuosi+N+Pl+Ade: vuođeila
-     vuosi+N+Pl+Abl: vuođeilta
-     vuosi+N+Pl+All: vuođeile
+     vuosi+N+Pl+Gen: vuossiin
+     vuosi+N+Pl+Gen: vuotten
+     vuosi+N+Pl+Par: vuossii
+     vuosi+N+Pl+Tra: vuosiksi
+     vuosi+N+Pl+Abe: vuositta
+     vuosi+N+Pl+Ine: vuosissa
+     vuosi+N+Pl+Ela: vuosista
+     vuosi+N+Pl+Ill: vuoshiin
+     vuosi+N+Pl+Ade: vuosila
+     vuosi+N+Pl+Abl: vuosilta
+     vuosi+N+Pl+All: vuosile
      vuosi+N+Pl+Ess: vuosina
