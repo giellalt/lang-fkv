@@ -189,6 +189,17 @@ LEXICON n_33s !!= @CODE@ rakas
 +Sg+Ill:%>haa mTAVU_VV-ill ;
 +N+Pl+Ill:haa%>i2ssiin K ;
 
+LEXICON n_33si !!= @CODE@ ruvis
++N:i sConsCase ; ! nom, par
+!+N+Pl+Nom: 
++N+Sg:hii sgpl-cases-short ;
+!+N+Sg+Gen:
++N+Pl:hii sgpl-cases-short ;
++N+Pl:hi%>i2 longparpl ;
++N+Pl:hi%>i2 longgenpl ;
++N+Sg+Ill:%>hiisseen K ;
++N+Pl+Ill:hi%>i2ssiin K ;
+
 LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 n_33t ;
 
