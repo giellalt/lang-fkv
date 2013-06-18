@@ -128,8 +128,8 @@ LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 +N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 +N+Sg+Ill:heen  K ;
 +N+Pl+Ill:hiin K ;
-+N+Pl:i%>i2 longparpl ;
-+N+Pl:i%>i2 tt-longgenpl ;
++N+Pl:ii longparpl ;
++N+Pl:ii tt-longgenpl ;
 
 LEXICON n_32m !!= @CODE@ elläin elläi
 +N+Sg+Nom:%^WGn # ;
