@@ -633,7 +633,7 @@ LEXICON onecasepronouns
 
 < j o k a "@U.pron.nom@" a i n u:0 a:0 "+Pron":0 "+Qu":0 "+Sg":0 > onesgcases  ;
 
-LEXICON  onesgcases
+LEXICON onesgcases
 < "@U.pron.nom@" > endcases_onecase ;
 
 LEXICON endcases_onecase 
@@ -656,10 +656,6 @@ LEXICON endcases_onecase
 LEXICON doublecasepronouns
 
 < j o m p:0 i:0 k:0 u:0 m:0 p:0 i:0 "+Pron":0 "+Indef":0 "+Sg":0> sgcases ;
-
-!kohta, 
-!jommat+Pron+Indef+Pl:jom                pljom_indef ;
-!kummat+Pron+Indef+Pl:kum                plkum_indef ;
 
 
 LEXICON  sgcases
@@ -694,9 +690,6 @@ LEXICON  Endsgcases
 < "@U.pron.all@" "+All":0 0:m 0:a 0:l 0:e > K ; 
 < "@U.pron.ade@" "+Ade":0 0:m 0:a 0:l 0:a > K ; 
 < "@U.pron.abl@" "+Abl":0 0:m 0:a 0:l 0:t 0:a > K ;
-
-!! jompikumpi+Pron+Indef+Sg:            sgjom_indef ;
-!! jommatkummat+Pron+Indef+Pl:          pljom_indef ;
 
 
 LEXICON doublecasepronounspl
