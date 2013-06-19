@@ -1,0 +1,125 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - mie - ei tsekattu : # Pronoun 'eg'
+     mie+Pron+Pers+Sg+Nom: mie
+     mie+Pron+Pers+Sg+Gen: minun
+     mie+Pron+Pers+Sg+Par: minnuu
+     mie+Pron+Pers+Sg+Ess: minuna
+     mie+Pron+Pers+Sg+Tra: minuksi
+     mie+Pron+Pers+Sg+Ine: minussa
+     mie+Pron+Pers+Sg+Ela: minusta
+     mie+Pron+Pers+Sg+Ill: minhuun
+     mie+Pron+Pers+Sg+Ade: minula
+     mie+Pron+Pers+Sg+Abl: minulta
+     mie+Pron+Pers+Sg+All: minule
+     mie+Pron+Pers+Sg+Abe: minutta
+     
+     sie+Pron+Pers+Sg+Nom: sie
+     sie+Pron+Pers+Sg+Gen: sinun
+     sie+Pron+Pers+Sg+Par: sinnuu
+     sie+Pron+Pers+Sg+Ess: sinuna
+     sie+Pron+Pers+Sg+Tra: sinuksi
+     sie+Pron+Pers+Sg+Ine: sinussa
+     sie+Pron+Pers+Sg+Ela: sinusta
+     sie+Pron+Pers+Sg+Ill: sinhuun
+     sie+Pron+Pers+Sg+Ade: sinula
+     sie+Pron+Pers+Sg+Abl: sinulta
+     sie+Pron+Pers+Sg+All: sinule
+     sie+Pron+Pers+Sg+Abe: sinutta
+     
+     hän+Pron+Pers+Sg+Nom: hän
+     hän+Pron+Pers+Sg+Gen: hänen
+     hän+Pron+Pers+Sg+Par: häntä
+     hän+Pron+Pers+Sg+Ess: hänenä
+     hän+Pron+Pers+Sg+Tra: häneksi
+     hän+Pron+Pers+Sg+Ine: hänessä
+     hän+Pron+Pers+Sg+Ela: hänestä
+     hän+Pron+Pers+Sg+Ill: hänheen
+     hän+Pron+Pers+Sg+Ade: hänelä
+     hän+Pron+Pers+Sg+Abl: häneltä
+     hän+Pron+Pers+Sg+All: hänele
+     hän+Pron+Pers+Sg+Abe: hänettä
+     
+     se+Pron+Pers+Sg+Nom: se
+     se+Pron+Pers+Sg+Gen: sen
+     se+Pron+Pers+Sg+Par: sitä
+     se+Pron+Pers+Sg+Ess: sinä
+     se+Pron+Pers+Sg+Tra: siksi
+     se+Pron+Pers+Sg+Ine: siinä
+     se+Pron+Pers+Sg+Ela: siitä
+     se+Pron+Pers+Sg+Ill: siiheen
+     se+Pron+Pers+Sg+Ade: sillä
+     se+Pron+Pers+Sg+Abl: siltä
+     se+Pron+Pers+Sg+All: sille
+     
+     met+Pron+Pers+Pl+Nom: met
+     met+Pron+Pers+Pl+Gen: meiđän
+     met+Pron+Pers+Pl+Nom: meiđät
+     met+Pron+Pers+Pl+Par: meitä
+     met+Pron+Pers+Pl+Ess: meinä
+     met+Pron+Pers+Pl+Tra: meiksi
+     met+Pron+Pers+Pl+Ine: meissä
+     met+Pron+Pers+Pl+Ela: meistä
+     met+Pron+Pers+Pl+Ill: meihiin
+     met+Pron+Pers+Pl+Ade: meilä
+     met+Pron+Pers+Pl+Abl: meiltä
+     met+Pron+Pers+Pl+All: meile
+     met+Pron+Pers+Pl+Abe: meittä
+     
+     tet+Pron+Pers+Pl+Nom: tet
+     tet+Pron+Pers+Pl+Gen: teiđän
+     tet+Pron+Pers+Pl+Nom: teiđät
+     tet+Pron+Pers+Pl+Par: teitä
+     tet+Pron+Pers+Pl+Ess: teinä
+     tet+Pron+Pers+Pl+Tra: teiksi
+     tet+Pron+Pers+Pl+Ine: teissä
+     tet+Pron+Pers+Pl+Ela: teistä
+     tet+Pron+Pers+Pl+Ill: teihiin
+     tet+Pron+Pers+Pl+Ade: teilä
+     tet+Pron+Pers+Pl+Abl: teiltä
+     tet+Pron+Pers+Pl+All: teile
+     tet+Pron+Pers+Pl+Abe: teittä
+     
+     het+Pron+Pers+Pl+Nom: het
+     het+Pron+Pers+Pl+Gen: heiđän
+     het+Pron+Pers+Pl+Nom: heiđät
+     het+Pron+Pers+Pl+Par: heitä
+     het+Pron+Pers+Pl+Ess: heinä
+     het+Pron+Pers+Pl+Tra: heiksi
+     het+Pron+Pers+Pl+Ine: heissä
+     het+Pron+Pers+Pl+Ela: heistä
+     het+Pron+Pers+Pl+Ill: heihin
+     het+Pron+Pers+Pl+Ade: heilä
+     het+Pron+Pers+Pl+Abl: heiltä
+     het+Pron+Pers+Pl+All: heile
+     het+Pron+Pers+Pl+Abe: heittä
+     
+     net+Pron+Pers+Pl+Nom: net
+     net+Pron+Pers+Pl+Gen: niitten
+     net+Pron+Pers+Pl+Nom: net
+     net+Pron+Pers+Pl+Par: niitä
+     net+Pron+Pers+Pl+Ess: niinä
+     net+Pron+Pers+Pl+Tra: niiksi
+     net+Pron+Pers+Pl+Ine: niissä
+     net+Pron+Pers+Pl+Ela: niistä
+     net+Pron+Pers+Pl+Ill: niihin
+     net+Pron+Pers+Pl+Ade: niilä
+     net+Pron+Pers+Pl+Abl: niiltä
+     net+Pron+Pers+Pl+All: niile
+     net+Pron+Pers+Pl+Abe: heittä
+
+
