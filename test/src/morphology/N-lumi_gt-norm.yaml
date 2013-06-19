@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - lumi: # Noun 'snø' - ei tsekattu
+     lumi+N+Sg+Nom: lumi
+     lumi+N+Sg+Gen: lumen
+     lumi+N+Sg+Par: lunta
+     lumi+N+Sg+Tra: lumeksi
+     lumi+N+Sg+Abe: lumetta
+     lumi+N+Sg+Ine: lumessa
+     lumi+N+Sg+Ela: lumesta
+     lumi+N+Sg+Ill: lumheen
+     lumi+N+Sg+Ade: lumela
+     lumi+N+Sg+Abl: lumelta
+     lumi+N+Sg+All: lumele
+     lumi+N+Sg+Ess: lumena
+     lumi+N+Pl+Nom: lumet
+     lumi+N+Pl+Ine: lumissa
+     lumi+N+Pl+Ela: lumista
+     lumi+N+Pl+Ill: lumhiin
+     lumi+N+Pl+Ade: lumila
+     lumi+N+Pl+Abl: lumilta
+     lumi+N+Pl+All: lumile
+     lumi+N+Pl+Ess: lumina
+     lumi+N+Pl+Gen: lumiin   
+     lumi+N+Pl+Par: lumii
+     lumi+N+Pl+Tra: lumiksi
+     lumi+N+Pl+Abe: lumitta
+     lumi+N+Pl+Com: lumine
