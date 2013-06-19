@@ -1,17 +1,17 @@
 Config:
   hfst:
-    Gen: linn../bin/olo-gen.hfstol
-    Morph: linn../bin/olo.hfstol
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
   xerox:
-    Gen: linn../bin/iolo.fst
-    Morph: linn../bin/olo.fst
-    App: linnlookup
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
 
 Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+# Then: run analyser, then correct. 
 
 
   Noun - maa: # Noun 'sykdom' - ei tsekattu
