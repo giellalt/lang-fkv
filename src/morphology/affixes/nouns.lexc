@@ -107,9 +107,9 @@ LEXICON n_23	!!= * @CODE@  assii, valkkee
  +N+Pl:%^WG%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 
 
-LEXICON n_31	!!= @CODE@ käsi, lumi
-+N+Sg+Nom:%^E2I K ; ! %^EI e to i
-+N+Sg+Nom:%^E2I R ; ! %^EI e to i
+LEXICON n_31	!!= @CODE@ vuosi, käsi, lumi
++N+Sg+Nom:%^E2I K ; ! %^E2I e to i
++N+Sg+Nom:%^E2I R ; ! %^E2I e to i
 +N:%^EDEL long-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
@@ -340,15 +340,14 @@ LEXICON gae-strong
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
 LEXICON sgpl-cases-short ! kaikille paitsi neljän koplalle
- +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto
+ +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto vuođela
  +All:%>le PxxK ; !! * Lyhyt perusmuoto
- +Ess:%>n%^A PxxK ;
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-long ! neljän koplalle
  +Ade:%>ll%^A PxxK ; !! * Pitkä perusmuoto
  +All:%>lle PxxK ; !! * Pitkä perusmuoto
- +Ess:%>nn%^A PxxK ;
+ +Ess:%>nn%^A PxxK ; !! * Huom... essiivi ja heikko aste
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-common
