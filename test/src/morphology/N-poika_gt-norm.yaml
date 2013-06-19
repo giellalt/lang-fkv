@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - poika: # Noun 'boy' - ok
+  Noun - poika - ok : # Noun 'boy' - ok
      poika+N+Sg+Nom: poika
      poika+N+Sg+Gen: pojan
      poika+N+Sg+Par: poikkaa

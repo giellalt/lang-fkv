@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - linna: # Noun 'menneske' - ok
+  Noun - ihminen - ok : # Noun 'menneske' - ok
      ihminen+N+Sg+Nom: ihminen
      ihminen+N+Sg+Gen: ihmisen
      ihminen+N+Sg+Par: ihmistä

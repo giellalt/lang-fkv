@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - tulla: # Verb 'to bring' - ei tsekattu
+  Verb - tulla - ei tsekattu # Verb 'to bring' - ei tsekattu
      tulla+V+Inf: tulla
      tulla+V+Act+Ind+Prs+Sg1: tulen
      tulla+V+Act+Ind+Prs+Sg2: tulet

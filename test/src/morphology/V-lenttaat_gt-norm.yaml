@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - lenttäät: # Verb 'to bring' - ok
+  Verb - lenttäät - ok : # Verb 'to bring' - ok
      lenttäät+V+Inf: lenttäät
      lenttäät+V+Act+Ind+Prs+Sg1: lennän
      lenttäät+V+Act+Ind+Prs+Sg2: lennät

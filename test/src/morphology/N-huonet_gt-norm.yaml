@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - huonet: # Noun 'rom' - ok
+  Noun - huonet - ok : # Noun 'rom' - ok
      huonet+N+Sg+Nom: huonet
      huonet+N+Sg+Gen: huonheen
      huonet+N+Sg+Par: huonetta
