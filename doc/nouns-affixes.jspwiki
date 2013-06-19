@@ -18,10 +18,13 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 ** 3.2.3 (rakkhaus)							 = n_32s
 ** 3.3 Kokkoontumanom. ( opas, huonet)		 
 ** 3.3.1 (opas)                               = n_33s
+*** 3.3.1.1 (ruvis)                           = n_33si
 ** 3.3.2. (huonet)                            = n_33t
+***3.3.2.1 (kirves)							 = n_33ts
 * 4. Ekstrakonsonanttirankaiset				  
 ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
-** 4.2 –inen-nominit ( kainulainen, vihrinen) = n_42 = nen
+** 4.2 –inen-nominit ( kainulainen)			 = n_42 = nen
+*** 4.2.1 -inen-nominit odd (vihrinen)		 = n_42odd = nen
 
 !!Noun types
 
@@ -59,7 +62,7 @@ these two lexica for cases with
 the same affix in sg and pl
 
 
- LEXICON n_31	 käsi, lumi
+ LEXICON n_31	 vuosi, käsi, lumi
 these two lexica for cases with
 the same affix in sg and pl
 
@@ -81,20 +84,32 @@ the same affix in sg and pl
 
  LEXICON n_33s  rakas
 
+
+ LEXICON n_33si  ruvis
+
  LEXICON n_33   odottaessa viitataan n_33t-hen
 
  LEXICON n_33t  venet
+
+ LEXICON n_33ts  kirves
 
  * LEXICON n_41  = veres
  * +N: sConsCase ;   toistaiseksi :-/
 
 
 
+these two lexica for cases with
+the same affix in sg and pl
+
+ LEXICON n_42odd  ihminen
+these two lexica for cases with
+the same affix in sg and pl
+
+
 the same affix in sg and pl
 
  LEXICON nen   on nainen-sanoille
-these two lexica for cases with
-the same affix in sg and pl
+
 
 
 
@@ -124,11 +139,12 @@ general weak-v-stem lexicon.
 
 
 
-* Lyhyt perusmuoto
+* Lyhyt perusmuoto vuođela
 * Lyhyt perusmuoto
 
 * Pitkä perusmuoto
 * Pitkä perusmuoto
+* Huom... essiivi ja heikko aste
 
 
 Komitatiivilla on vain -ine ja menee Pxx:iin
