@@ -19,15 +19,14 @@
  * %^VDEL:0 %^EDEL:0          -- DEL = deletion
  * %^AE:0                     -- a to e lauletaan
  * %^AO:0                     -- a to o sanoissa
- * %^HDEL:0                   -- s ja t loppuisissa noimineissa 
 
 
 !!Sets
  * FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;                    
  * BackVowel = a o u å ;                                            
  * ArchiVowel =  %^A %^O %^U ;                                      
- * ArchiConson = %^N ;                                              
  * SomeVowel = %^V ;                                                
+ * NeutralVowel = e i ;                                             
  * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;            
  * NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;               
  * NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;               
@@ -41,8 +40,8 @@
  * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;               
  * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;               
 
+ * ArchiConson = %^N ;                                              
  * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;    
- * NeutralVowel = e i ;                                             
  * Segment = Vowel Conson ;                                         
  * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;       
  * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;   
@@ -91,7 +90,6 @@ One rule for each vowel environment.
  * "Gemination LIQö"   
 
  * "Gemination LIQä"   
-
 
 
 
@@ -168,8 +166,6 @@ Foot-governed affixation
 
 
  * "ti:si"   
-
-
 
 
 
