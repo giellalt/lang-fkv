@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - tuo - ei tsekattu : # Pronoun 'dette'
+     tämä+Pron+Dem+Sg+Nom: tämä
+     tämä+Pron+Dem+Sg+Gen: tämän
+     tämä+Pron+Dem+Sg+Par: tätä
+     tämä+Pron+Dem+Sg+Ess: tänä
+     tämä+Pron+Dem+Sg+Tra: täksi
+     tämä+Pron+Dem+Sg+Ine: tässä
+     tämä+Pron+Dem+Sg+Ela: tästä
+     tämä+Pron+Dem+Sg+Ill: tähään
+     tämä+Pron+Dem+Sg+Ade: tällä
+     tämä+Pron+Dem+Sg+Abl: tältä
+     tämä+Pron+Dem+Sg+All: tälle
+
+     tuo+Pron+Dem+Sg+Nom: tuo
+     tuo+Pron+Dem+Sg+Gen: tuon
+     tuo+Pron+Dem+Sg+Par: tuota
+     tuo+Pron+Dem+Sg+Ess: tuona
+     tuo+Pron+Dem+Sg+Tra: tuoksi
+     tuo+Pron+Dem+Sg+Ine: tuossa
+     tuo+Pron+Dem+Sg+Ela: tuosta
+     tuo+Pron+Dem+Sg+Ill: tuohoon
+     tuo+Pron+Dem+Sg+Ade: tuolla
+     tuo+Pron+Dem+Sg+Abl: tuolta
+     tuo+Pron+Dem+Sg+All: tuolle
+     
+
+
+
