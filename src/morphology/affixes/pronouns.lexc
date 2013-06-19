@@ -71,31 +71,31 @@ pronobl ;
 
 
 LEXICON tama
-+Nom:mä K ;
-+Gen:män K ;
-+Ill:hään K ;
-+Ess:nä    K ;
-+Ela:stä   K ;
-+Ine:ssä    K ;
-pronobl_2 ;
++Sg+Nom:mä K ;
++Sg+Gen:män K ;
++Sg+Ill:hään K ;
++Sg+Ess:nä    K ;
++Sg+Ela:stä   K ;
++Sg+Ine:ssä    K ;
++Sg: pronobl_2 ;
 
 
 LEXICON tuo
-+Nom: K ;
-+Gen:n K ;
-+Ill:hoon K ;
-+Ela:sta   K ;
-+Abl:lta   K ;
-pronobl ;
++Sg+Nom: K ;
++Sg+Gen:n K ;
++Sg+Ill:hoon K ;
++Sg+Ela:sta   K ;
++Sg+Abl:lta   K ;
++Sg: pronobl ;
 
 
 LEXICON namaobl !! nuoitä
-+Nom: K ;
-+Gen:tten K ;
-+Ill:hiin K ;
-+Ela:ist%^A   K ;
-+Abl:lt%^A   K ;
-pronobl ;
++Pl+Nom: K ;
++Pl+Gen:tten K ;
++Pl+Ill:hiin K ;
++Pl+Ela:ist%^A   K ;
++Pl+Abl:lt%^A   K ;
++Pl: pronobl ;
 
 
 LEXICON pronobl
