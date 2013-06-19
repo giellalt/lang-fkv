@@ -1,17 +1,17 @@
 Config:
   hfst:
-    Gen: poik../bin/olo-gen.hfstol
-    Morph: poik../bin/olo.hfstol
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
   xerox:
-    Gen: poik../bin/iolo.fst
-    Morph: poik../bin/olo.fst
-    App: poiklookup
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
 
 Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: poikrun analyser, then correct. 
+# Then: run analyser, then correct. 
 
 
   Noun - poika: # Noun 'boy' - ok
