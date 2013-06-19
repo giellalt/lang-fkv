@@ -77,9 +77,12 @@ Rules
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vi" !!= * @CODE@  
- 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :i %>:0 [ :i | i7: | i2: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel :Cx _ :i %>:0 [ :i | i7: | i2: ] ;   
+          .#. Conson:* Vowel:* Vowel :Cx _ e:0 %>:0 :i %>:0 :i ;   
         where Cx in ( h j k l m n p r s t v ) ;
-    
+! vuot0e>i2>i
+! vuoss00i0i
+
 "Gemination Vo" !!= * @CODE@  
  0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :o %>:0 [ :o | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
@@ -259,14 +262,11 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0  ;
 
 
 "ti:si" !!= * @CODE@  
-t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | e: %>:0 i2: ] ;
+t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | (:s) e: %>:0 i2: ] ;
 
-!"nti : nsi" 
-!t:s <=> Vowel n _  Vowel:0 (Dummy:) i3: ;  
-
-!"ti : si"
-!t:s <=> Vowel _ e: %>:0 %^E2I: i3: ;
-
+! vuot0e>i2>i
+! vuoss00i0i
+! vuottii
 
 
 ! ===============
