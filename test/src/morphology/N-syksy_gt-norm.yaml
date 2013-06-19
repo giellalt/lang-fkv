@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: rerun analyser, then correct. 
+
+
+  Noun - syksy: # Noun 'høst' - ei tsekattu
+     syksy+N+Sg+Nom: syksy
+     syksy+N+Sg+Gen: syksyn
+     syksy+N+Sg+Par: syksyy
+     syksy+N+Sg+Tra: syksyksi
+     syksy+N+Sg+Abe: syksyttä
+     syksy+N+Sg+Ine: syksyssä
+     syksy+N+Sg+Ela: syksystä
+     syksy+N+Sg+Ill: sykshyyn
+     syksy+N+Sg+Ade: syksylä
+     syksy+N+Sg+Abl: syksyltä
+     syksy+N+Sg+All: syksyle
+     syksy+N+Sg+Ess: syksynä
+     syksy+N+Pl+Nom: syksyt
+     syksy+N+Pl+Gen: syksyin
+     syksy+N+Pl+Par: syksyi
+     syksy+N+Pl+Tra: syksyiksi
+     syksy+N+Pl+Abe: syksyittä
+     syksy+N+Pl+Ine: syksyissä
+     syksy+N+Pl+Ela: syksyistä
+     syksy+N+Pl+Ill: sykshyin
+     syksy+N+Pl+Ade: syksyilä
+     syksy+N+Pl+Abl: syksyiltä
+     syksy+N+Pl+All: syksyile
+     syksy+N+Pl+Ess: syksyinä
