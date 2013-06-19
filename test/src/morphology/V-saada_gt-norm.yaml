@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - saađa: # Verb 'to bring' - ok
+  Verb - saađa - ok : # Verb 'to bring' - ok
      saađa+V+Inf: saađa
      saađa+V+Act+Ind+Prs+Sg1: saan
      saađa+V+Act+Ind+Prs+Sg2: saat

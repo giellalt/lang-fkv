@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - aika: # Noun 'tid' - ok
+  Noun - aika - ok : # Noun 'tid' - ok
      aika+N+Sg+Nom: aika
      aika+N+Sg+Gen: aijan
      aika+N+Sg+Par: aikkaa

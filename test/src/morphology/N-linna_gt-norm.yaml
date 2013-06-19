@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - linna: # Noun 'borg' - ok
+  Noun - linna - ok : # Noun 'borg' - ok
      linna+N+Sg+Nom: linna
      linna+N+Sg+Gen: linnan
      linna+N+Sg+Par: linnaa

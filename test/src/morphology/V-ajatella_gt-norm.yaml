@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - ajatella: # Verb 'to bring' - ok
+  Verb - ajatella - ok : # Verb 'to bring' - ok
      ajatella+V+Inf: ajatella
      ajatella+V+Act+Ind+Prs+Sg1: ajattelen
      ajatella+V+Act+Ind+Prs+Sg2: ajattelet

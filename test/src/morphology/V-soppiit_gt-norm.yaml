@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - soppiit: # Verb 'to bring' - ok
+  Verb - soppiit: ok # Verb 'to bring' - ok
      soppiit+V+Inf: soppiit
      soppiit+V+Act+Ind+Prs+Sg1: sovin
      soppiit+V+Act+Ind+Prs+Sg2: sovit

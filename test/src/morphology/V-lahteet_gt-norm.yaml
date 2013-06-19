@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - lähteet: # Verb 'to bring' - ok
+  Verb - lähteet - ok : # Verb 'to bring' - ok
      lähteet+V+Inf: lähteet
      lähteet+V+Act+Ind+Prs+Sg1: lähđen
      lähteet+V+Act+Ind+Prs+Sg2: lähđet

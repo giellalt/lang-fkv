@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - opettaaja: # Noun 'borg' - ei tsekattu
+  Noun - opettaaja - ei tsekattu : # Noun 'borg' - ei tsekattu
      opettaaja+N+Sg+Nom: opettaaja
      opettaaja+N+Sg+Gen: opettaajan
      opettaaja+N+Sg+Par: opettaajaa
