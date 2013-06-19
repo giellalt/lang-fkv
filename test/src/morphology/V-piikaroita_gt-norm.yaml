@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - piikaroita: # Verb 'to bring' - ei tsekattu
+  Verb - piikaroita - ei tsekattu : # Verb 'to bring' - ei tsekattu
      piikaroita+V+Inf: piikaroita
      piikaroita+V+Act+Ind+Prs+Sg1: piikaroitten
      piikaroita+V+Act+Ind+Prs+Sg2: piikaroittet

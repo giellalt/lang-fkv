@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - kattela: # Verb 'to bring' - ok
+  Verb - kattela - ok : # Verb 'to bring' - ok
      kattela+V+Inf: kattela
      kattela+V+Act+Ind+Prs+Sg1: kattelen
      kattela+V+Act+Ind+Prs+Sg2: kattelet

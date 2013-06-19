@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - haravoita: # Verb 'to bring' - ei tsekattu
+  Verb - haravoita - ei tsekattu : # Verb 'to bring' - ei tsekattu
      haravoita+V+Inf: haravoita
      haravoita+V+Act+Ind+Prs+Sg1: haravoitten
      haravoita+V+Act+Ind+Prs+Sg2: haravoittet

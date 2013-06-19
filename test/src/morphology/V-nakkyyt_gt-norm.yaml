@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - näkkyyt: # Verb 'to bring' - ok
+  Verb - näkkyyt  - ok : # Verb 'to bring' - ok
      näkkyyt+V+Inf: näkkyyt
      näkkyyt+V+Act+Ind+Prs+Sg1: nävyn
      näkkyyt+V+Act+Ind+Prs+Sg2: nävyt

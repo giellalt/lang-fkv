@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - elläin: # Noun 'animal' - ok
+  Noun - elläin - ok : # Noun 'animal' - ok
      elläin+N+Sg+Nom: elläin
      elläin+N+Sg+Gen: elläimen
      elläin+N+Sg+Par: elläintä

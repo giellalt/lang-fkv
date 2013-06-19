@@ -14,7 +14,7 @@ Tests:
 # Then: linnrun analyser, then correct. 
 
 
-  Noun - venet: # Noun 'borg' - ok
+  Noun - venet - ok : # Noun 'borg' - ok
      venet+N+Sg+Nom: venet
      venet+N+Sg+Gen: venheen
      venet+N+Sg+Par: venettä

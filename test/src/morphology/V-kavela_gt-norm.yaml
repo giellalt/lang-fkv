@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - kävelä: # Verb 'to bring' - ok
+  Verb - kävelä - ok : # Verb 'to bring' - ok
      kävelä+V+Inf: kävelä
      kävelä+V+Act+Ind+Prs+Sg1: kävelen
      kävelä+V+Act+Ind+Prs+Sg2: kävelet

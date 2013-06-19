@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - pölätä: # Verb 'to bring' - ok
+  Verb - pölätä - ok : # Verb 'to bring' - ok
      pölätä+V+Inf: pölätä
      pölätä+V+Act+Ind+Prs+Sg1: pölkkään
      pölätä+V+Act+Ind+Prs+Sg2: pölkkäät

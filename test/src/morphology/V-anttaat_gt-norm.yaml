@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - anttaat: # Verb 'to bring' - ok
+  Verb - anttaat - ok : # Verb 'to bring' - ok
      anttaat+V+Inf: anttaat
      anttaat+V+Act+Ind+Prs+Sg1: annan
      anttaat+V+Act+Ind+Prs+Sg2: annat

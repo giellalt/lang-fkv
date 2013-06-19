@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - linna: # Noun 'borg' - ok
+  Noun - joki - ok : # Noun 'borg' - ok
      joki+N+Sg+Nom: joki
      joki+N+Sg+Gen: joven
      joki+N+Sg+Par: jokkee

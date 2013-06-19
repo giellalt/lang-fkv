@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - aukaista: # Verb 'to bring' - ok
+  Verb - aukaista - ok : # Verb 'to bring' - ok
      aukaista+V+Inf: aukaista
      aukaista+V+Act+Ind+Prs+Sg1: aukaisen
      aukaista+V+Act+Ind+Prs+Sg2: aukaiset
