@@ -52,7 +52,7 @@ LEXICON n_21C
 +N+Sg+Nom:  K    ; ! Hans
          :i n_21 ; ! Hansi
 
-LEXICON n_21	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
+LEXICON n_21	!!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;      !! * to sgpl-cases-short for cases with
@@ -80,7 +80,7 @@ LEXICON kk-longgparpl
  +Par:%>kk%>i2 # ;! kk ?? Tsekkaa..
 
 
-LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom
+LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom !!suomi:suome
 +N+Sg+Nom:%^E2I K ; ! %^EI e to i
 +N+Sg+Nom:%^E2I R ; ! %^EI e to i
 +N: short-par ;
@@ -88,8 +88,8 @@ LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom
 +N:%^WG weak-v-stem ;
 +N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
-+N+Pl:	shortestgenpl ;
-+N:	2TAVU_V-ill ;
++N+Pl:%^E2I%>i2	shortestgenpl ;
++N:	2TAVU_edel-ill ;
 +N+Pl: shortparpl ;
 
 
@@ -386,6 +386,11 @@ LEXICON 2TAVU_V-ill !long
 +Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
 ! sykshyyn, linnhaan
 !! linna pl.ill. kaksi muotoa po. linnhoin
+
+LEXICON 2TAVU_edel-ill !suomhiin
++Sg+Ill:%>%^HMETAh%^V%^V n-PxK ;
++Pl+Ill: %^EDEL%>%^HMETAhii n-PxK ;
+
 
 LEXICON mTAVU_VV-ill !longer kuninkhaa/sseen
 !+Sg+Ill:%>ss%^V%^V n-PxK ;
