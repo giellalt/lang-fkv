@@ -90,7 +90,7 @@ LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom !!suomi:suome
 +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N+Pl:%^E2I%>i2	shortestgenpl ;
 +N:	2TAVU_edel-ill ;
-+N+Pl: shortparpl ;
++N+Pl:%^E2I%> shortparpl ;
 
 
 
@@ -389,7 +389,7 @@ LEXICON 2TAVU_V-ill !long
 
 LEXICON 2TAVU_edel-ill !suomhiin
 +Sg+Ill:%>%^HMETAh%^V%^V n-PxK ;
-+Pl+Ill: %^EDEL%>%^HMETAhii n-PxK ;
++Pl+Ill:%^EDEL%>hii n-PxK ;
 
 
 LEXICON mTAVU_VV-ill !longer kuninkhaa/sseen
