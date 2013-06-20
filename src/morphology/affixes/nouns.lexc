@@ -122,11 +122,12 @@ LEXICON n_31	!!= @CODE@ vuosi, käsi, lumi
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: 2TAVU_V-ill ;
-+N+Pl: h_shortillpl ;
++N+Pl+Ill:%^E2I %^HMETAh%>in ;
 +N+Pl:%>i2 shortparpl	 ;
 +N+Pl:%>i2 shortgenpl	 ;
++N+Pl:%^EDEL consgenpl ;
 
 LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
 +N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
@@ -380,7 +381,7 @@ LEXICON long-par
 
 LEXICON 1TAVU_VV-ill  !short maahan
  +Sg+Ill:%>h%^V n-PxK ;
-
+ 
 LEXICON 2TAVU_V-ill !long
 +Sg+Ill:%>%^HMETAh%^V%^V n-PxK ;
 +Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
