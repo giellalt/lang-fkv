@@ -14,12 +14,12 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - suomi - ei tsekattu : # Noun 'borg' - ei tsekattu
+  Noun - suomi - ok : # Noun 'borg' - ei tsekattu
      suomi+N+Sg+Nom: suomi
      suomi+N+Sg+Gen: suomen
      suomi+N+Sg+Par: suomee
      suomi+N+Sg+Tra: suomeksi
-     suomi+N+Sg+Abe: suomitta
+     suomi+N+Sg+Abe: suometta
      suomi+N+Sg+Ine: suomessa
      suomi+N+Sg+Ela: suomesta
      suomi+N+Sg+Ill: suomheen
@@ -28,17 +28,15 @@ Tests:
      suomi+N+Sg+All: suomele
      suomi+N+Sg+Ess: suomena
      suomi+N+Pl+Nom: suomet
+     suomi+N+Pl+Gen: suomiin
+     suomi+N+Pl+Par: suomii
+     suomi+N+Pl+Tra: suomiksi
      suomi+N+Pl+Ine: suomissa
      suomi+N+Pl+Ela: suomista
      suomi+N+Pl+Ill: suomiitta
+     suomi+N+Pl+Abe: suomitta
      suomi+N+Pl+Ade: suomila
      suomi+N+Pl+Abl: suomilta
      suomi+N+Pl+All: suomile
      suomi+N+Pl+Ess: suomina
-
-
-#     suomi+N+Pl+Gen: suomitten %%epäselvä
-#     suomi+N+Pl+Par: suomita %%epäselvä
-#     suomi+N+Pl+Tra: suomiksi%%epäselvä
-#     suomi+N+Pl+Abe: suomitta %%epäselvä
-#     suomi+N+Pl+Com: suomein %%epäselvä
+     suomi+N+Pl+Com: suomine
