@@ -90,49 +90,48 @@ LEXICON tuo
 
 
 LEXICON namaobl !! nuoitä
-+Pl+Nom: K ;
-+Pl+Gen:tten K ;
-+Pl+Ill:hiin K ;
-+Pl+Ela:ist%^A   K ;
-+Pl+Abl:lt%^A   K ;
++Pl+Gen:%>tten K ;
++Pl+Ill:%>hiin K ;
++Pl+Ela:%>st%^A   K ;
++Pl+Abl:%>lt%^A   K ;
 +Pl: pronobl ;
 
 
 LEXICON pronobl
-+Par:t%^A K ; !! tuotä
-+Tra:ksi   K ;
-+Ess:n%^A    K ;
-+Ine:ss%^A K ;
-+All:le K ;
-+Ade:l%^A    K ;
++Par:%>t%^A K ; !! tuotä
++Tra:%>ksi   K ;
++Ess:%>n%^A    K ;
++Ine:%>ss%^A K ;
++All:%>le K ;
++Ade:%>l%^A    K ;
 
 
 LEXICON pronobl_2
-+Par:t%^A K ;
-+Tra:ksi   K ;
-+Ess:n%^A   K ; 
-+All:lle K ;
-+Ade:ll%^A    K ;
-+Abl:lt%^A     K ;
++Par:%>t%^A K ;
++Tra:%>ksi   K ;
++Ess:%>n%^A   K ; 
++All:%>lle K ;
++Ade:%>ll%^A    K ;
++Abl:%>lt%^A     K ;
 
 
 LEXICON relkys
 +Nom: K ;
-+Gen:nen K ;
-+Ill:nheen K ;
-+Par:tä K ;
-+Ess:nenä    K ;
-+Tra:neksi   K ;
-+Ine:nessä   K ;
-+Ela:nestä   K ;
-+All:nele   K ;
-!+All:le K ;
-+Ade:nelä    K ;
-+Abl:neltä   K ;
++Gen:%>nen K ;
++Ill:%>nheen K ;
++Par:%>tä K ;
++Ess:%>nenä    K ;
++Tra:%>neksi   K ;
++Ine:%>nessä   K ;
++Ela:%>nestä   K ;
++All:%>nele   K ;
+!+All:%>le K ;
++Ade:%>nelä    K ;
++Abl:%>neltä   K ;
 
 
 LEXICON mi_kys
-+Nom:k%^A K ;
++Nom:%>k%^A K ;
 miobl ;
 
 
@@ -142,16 +141,16 @@ miobl ;
 
 
 LEXICON miobl
-+Gen:nkä K ;
-+Ill:hiin K ;
-+Par:tä K ;
-+Ess:nä    K ;
-+Tra:ksi   K ;
-+Ine:ssä   K ;
-+Ela:stä   K ;
-+All:lle   K ;
-+Ade:llä    K ;
-+Abl:ltä   K ;
++Gen:%>nkä K ;
++Ill:%>hiin K ;
++Par:%>tä K ;
++Ess:%>nä    K ;
++Tra:%>ksi   K ;
++Ine:%>ssä   K ;
++Ela:%>stä   K ;
++All:%>lle   K ;
++Ade:%>llä    K ;
++Abl:%>ltä   K ;
 
 
 LEXICON relkyspl
@@ -159,105 +158,105 @@ LEXICON relkyspl
 
 
 LEXICON joi_relkyspl
-+Gen:tten K ;
-+Ill:hin K ;
-+Par:ita K ;
-+Ess:na    K ;
-+Tra:ksi   K ;
-+Ine:ssa   K ;
-+Ela:sta   K ;
-+All:le   K ;
-+Ade:la    K ;
-+Abl:lta   K ;
++Gen:%>tten K ;
++Ill:%>hin K ;
++Par:%>ita K ;
++Ess:%>na    K ;
++Tra:%>ksi   K ;
++Ine:%>ssa   K ;
++Ela:%>sta   K ;
++All:%>le   K ;
++Ade:%>la    K ;
++Abl:%>lta   K ;
 
 
 LEXICON mi_relpl
-+Nom:kkä K ;
++Nom:%>kkä K ;
 miobl ;
 
 
 LEXICON mi_kyspl
-+Nom:kkä K ;
++Nom:%>kkä K ;
 miobl ;
 
 
 LEXICON s1refpron
-+Nom: K ;
-+Gen:eni K ;
-+Ill:heeni K ;
-+Par:eeni K ; 
-+Par:iäni K ;
-+Par:eäni K ;
-+Ess:enäni    K ;
-+Tra:ekseni   K ;
-+Ine:essäni   K ;
-+Ela:estäni   K ;
-+All:eleni   K ;
-+Ade:eläni    K ;
-+Abl:eltäni   K ;
++Nom:%> K ;
++Gen:%>eni K ;
++Ill:%>heeni K ;
++Par:%>eeni K ; 
++Par:%>iäni K ;
++Par:%>eäni K ;
++Ess:%>enäni    K ;
++Tra:%>ekseni   K ;
++Ine:%>essäni   K ;
++Ela:%>estäni   K ;
++All:%>eleni   K ;
++Ade:%>eläni    K ;
++Abl:%>eltäni   K ;
 
 
 LEXICON s2refpron
-+Nom: K ;
-+Gen:sti K ;
-+Ill:heesti K ;
-+Par:eesti K ; 
-+Par:iästi K ; 
-+Par:eästi K ;
-+Ess:enästi    K ;
-+Tra:eksesti   K ;
-+Ine:essästi   K ;
-+Ela:estästi   K ;
-+All:elesti   K ;
-+Ade:elästi    K ;
-+Abl:eltästi   K ;
++Nom:%> K ;
++Gen:%>sti K ;
++Ill:%>heesti K ;
++Par:%>eesti K ; 
++Par:%>iästi K ; 
++Par:%>eästi K ;
++Ess:%>enästi    K ;
++Tra:%>eksesti   K ;
++Ine:%>essästi   K ;
++Ela:%>estästi   K ;
++All:%>elesti   K ;
++Ade:%>elästi    K ;
++Abl:%>eltästi   K ;
 
 
 LEXICON p1refpron
-+Nom: K ;
-+Gen:mä K ;
-+Ill:heemä K ;
-+Par:eemä K ;
-+Par:iämä K ;
-+Par:eämä K ;
-+Ess:enämmä    K ;
-+Tra:eksemmä   K ;
-+Ine:essämmä   K ;
-+Ela:estämmä   K ;
-+All:elemmä   K ;
-+Ade:elämmä    K ;
-+Abl:eltämmä   K ;
++Nom:%> K ;
++Gen:%>mä K ;
++Ill:%>heemä K ;
++Par:%>eemä K ;
++Par:%>iämä K ;
++Par:%>eämä K ;
++Ess:%>enämmä    K ;
++Tra:%>eksemmä   K ;
++Ine:%>essämmä   K ;
++Ela:%>estämmä   K ;
++All:%>elemmä   K ;
++Ade:%>elämmä    K ;
++Abl:%>eltämmä   K ;
 
 LEXICON p2refpron 
-+Nom: K ;
-+Gen:nä K ;
-+Ill:heenä K ;
-+Par:eenä K ; 
-+Par:iännä K ; 
-+Par:eännä K ;
-+Ess:enännä    K ;
-+Tra:eksennä   K ;
-+Ine:essännä   K ;
-+Ela:estännä   K ;
-+All:elennä   K ;
-+Ade:elännä    K ;
-+Abl:etännä   K ;
++Nom:%> K ;
++Gen:%>nä K ;
++Ill:%>heenä K ;
++Par:%>eenä K ; 
++Par:%>iännä K ; 
++Par:%>eännä K ;
++Ess:%>enännä    K ;
++Tra:%>eksennä   K ;
++Ine:%>essännä   K ;
++Ela:%>estännä   K ;
++All:%>elennä   K ;
++Ade:%>elännä    K ;
++Abl:%>etännä   K ;
 
 
 LEXICON p3refpron 
-+Nom: K ;
-+Gen:nä K ;
-+Ill:heensä K ;
-+Par:eensä K ;
-+Par:iänsä K ;
-+Par:eänsä K ; 
-+Ess:enänsä    K ;
-+Tra:eksensä   K ;
-+Ine:essänsä   K ;
-+Ela:estänsä   K ;
-+All:elensä   K ;
-+Ade:elänsä    K ;
-+Abl:ltänsä   K ;
++Nom:%> K ;
++Gen:%>nä K ;
++Ill:%>heensä K ;
++Par:%>eensä K ;
++Par:%>iänsä K ;
++Par:%>eänsä K ; 
++Ess:%>enänsä    K ;
++Tra:%>eksensä   K ;
++Ine:%>essänsä   K ;
++Ela:%>estänsä   K ;
++All:%>elensä   K ;
++Ade:%>elänsä    K ;
++Abl:%>ltänsä   K ;
 
 
 ! LEXICON toinen
