@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - tohtiit - ei tsekattu # Verb 'to bring' - ok
+  Verb - tohtiit - ok: # Verb 'to bring' - 
      tohtiit+V+Inf: tohtiit
      tohtiit+V+Act+Ind+Prs+Sg1: tohđin
      tohtiit+V+Act+Ind+Prs+Sg2: tohđit
