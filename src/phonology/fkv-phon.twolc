@@ -72,9 +72,13 @@ Rules
  0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :a %>:0 [ :a | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
 
-"Gemination Ve" !!= * @CODE@  
- 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :e %>:0 [ :e | i7: ] ;   
+"Gemination CVe" !!= * @CODE@  
+ 0:Cx <=> .#. Conson:* Vowel Cx _ :e %>:0 [ :e | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
+    
+"Gemination VVe" !!= * @CODE@  
+ 0:Cx <=> .#. Conson:* Vowel Vowel Cx _ :e %>:0 [ :e | i7: ] ;   
+        where Cx in ( h k p s t ) ;
     
 "Gemination Vi" !!= * @CODE@  
  0:Cx <=> .#. Conson:* Vowel:* Vowel :Cx _ :i %>:0 [ :i | i7: | i2: ] ;   
@@ -226,6 +230,7 @@ k:0 <=>               h _ Vowel       (Dummy:) (:i) (Dummy:) %^WG:0 ;
 "k:v"
 k:v <=>     [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
               [o|ö|u|y] _ [Vowel - e ] (Dummy:) (:i) (Dummy:) %^WG:0 ;
+                  [o|ö] _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "Gradation nk:ng" !!= * @CODE@  
 k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
