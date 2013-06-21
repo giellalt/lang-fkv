@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - hyljet - ei tsekattu : # Noun 'borg' - ei tarkistettu
+  Noun - hyljet - ok : # Noun 'borg' - ok
      hyljet+N+Sg+Nom: hyljet
      hyljet+N+Sg+Gen: hylkheen
      hyljet+N+Sg+Par: hyljettä
