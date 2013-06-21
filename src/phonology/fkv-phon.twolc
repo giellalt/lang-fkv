@@ -73,11 +73,11 @@ Rules
         where Cx in ( h j k l m n p r s t v ) ;
 
 "Gemination CVe" !!= * @CODE@  
- 0:Cx <=> .#. Conson:* Vowel Cx _ :e %>:0 [ :e | i7: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel Cx _ :e (Dummy:*) %>:0 [ :e | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination VVe" !!= * @CODE@  
- 0:Cx <=> .#. Conson:* Vowel Vowel Cx _ :e %>:0 [ :e | i7: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel Vowel Cx _ :e (Dummy:*) %>:0 [ :e | i7: ] ;   
         where Cx in ( h k p s t ) ;
     
 "Gemination Vi" !!= * @CODE@  
@@ -342,8 +342,8 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | (:s) e: %
  e:0 <=> _ %^EDEL:0 %>:0 h ;
  ! vuothiin
  
-"e deletion on partitive and genitive plural"
- e:0 <=> _ %>:0 i2: ;
+"e deletion in oblique plural of e-stem nouns"
+ e:0 <=> _ (%^WG:0) %>:0 i2: ;
 
 
 !! !!Stem alternation rules
