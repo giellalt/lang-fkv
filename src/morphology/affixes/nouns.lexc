@@ -111,9 +111,11 @@ LEXICON n_21ie_s	!!= @CODE@ on ove, ovi, nom !!joki:joke
 LEXICON n_22	!!= * @CODE@  meininki
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
- +N+Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
- +N+Pl:%^WG%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
++N+Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
++N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: 2TAVU_V-ill ;
++N+Sg+Ess:%>nn%^A PxxK ;
++N+Pl+Ess:nn%^A gae-strong ;
 +N+Pl:%^WG%>i2 tt-longgenpl ;
 +N+Pl:%>i longparpl ;
 +N+Pl: shortillpl ;
