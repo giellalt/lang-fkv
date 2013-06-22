@@ -17,6 +17,7 @@ LEXICON NounRoot !!= @CODE@
 !! ** 2.3 Kokkoontumanom. ( valkkee, assii)		 = n_23
 !! * 3. Konsonanttirankaiset					 = 
 !! ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
+!! ** 3.1.1. lumi:lumen:lunta                    = n_31m
 !! ** 3.2 Usseempitavuiset ( tytär)				
 !! *** 3.2.1 (tytär)                              = n_32
 !! *** 3.2.2. (elläin: elläimen                   = n_32m
@@ -92,7 +93,7 @@ kurkkii         n_23 ;
 
 !! !!3.1. Kaksitavuiset
 käsi:käte            n_31 ; !!= * @CODE@
-lumi:lume            n_31 ; !!= * @CODE@
+lumi:lume            n_31m ; !!= * @CODE@
 hirsi:hirte           n_31 ;
 lapsi:lapse           n_31 ;
 mies:miehe            n_31 ;
@@ -2389,9 +2390,9 @@ pikkusormi:pikkusorme n_21ie ;
 etusormi:etusorme n_21ie ; 
 nurmi:nurme n_21ie ; 
 lumi:lume n_31 ; 
-kernilumi:kernilume n_31 ; 
-pakkaslumi:pakkaslume n_31 ; 
-nätälumi:nätälume n_31 ; 
+kernilumi:kernilume n_31m ; 
+pakkaslumi:pakkaslume n_31m ; 
+nätälumi:nätälume n_31m ; 
 sieni:siene n_31 ; 
 suoni:suone n_31 ; 
 verisuoni:verisuone n_31 ; 
