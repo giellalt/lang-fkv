@@ -273,6 +273,8 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | (:s) e: %
 ! vuoss00i0i
 ! vuottii
 
+!"m:n" !!= * @CODE@  
+!m:n <=> .#. (Conson) (Vowel) Vowel _ e:0 %^E2I:0 :t %^A: ;
 
 ! ===============
 !! !!!Vowel rules
@@ -328,8 +330,8 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | (:s) e: %
     
 "Stem deletion in h-illative b" !!= * @CODE@  
  Vx:0 <=> Conson _ %>:0 %^HMETA:0 h %^V: ; 
-    where Vx in ( a e i o u y ä ö ) ; 
-    
+    where Vx in ( a e i o u y ä ö ) ;  
+       
 !€ syksy>h^V^Vn
 !€ syks000     h
 
@@ -341,6 +343,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | (:s) e: %
 "e deletion in illative plural"
  e:0 <=> _ %^EDEL:0 %>:0 h ;
  ! vuothiin
+  
  
 "e deletion in oblique plural of e-stem nouns"
  e:0 <=> _ (%^WG:0) %>:0 i2: ;
@@ -400,9 +403,9 @@ e:0 <=> Conson: _ [ (Dummy:* - %^E2I:0) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
 "Shortening of long vowel in front of i" !!= * @CODE@  
  Vx:0 <=> _ Vy %>: (Dummy:) [ i | i2: | i3: | i4:] ; 
      where Vx in ( a ä u y u y i ) 
-           Vy in ( a ä u y o ö e )
-           matched ;
-
+          Vy in ( a ä u y o ö e )
+          matched ;
+          
 "Shortening of long vowel when vowel lengthening" !!= * @CODE@  
  %^V:0 <=> Vowel %>: _ %>:0 i4: ; 
 
