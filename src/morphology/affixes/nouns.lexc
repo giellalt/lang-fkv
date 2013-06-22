@@ -119,7 +119,7 @@ LEXICON n_23	!!= * @CODE@  assii, valkkee
  +N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 
 
-LEXICON n_31	!!= @CODE@ vuosi, käsi, lumi
+LEXICON n_31	!!= @CODE@ vuosi, käsi
 +N+Sg+Nom:%^E2I K ; ! %^E2I e to i
 +N+Sg+Nom:%^E2I R ; ! %^E2I e to i
 +N:%^EDEL long-par ;
@@ -128,24 +128,24 @@ LEXICON n_31	!!= @CODE@ vuosi, käsi, lumi
 +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: 2TAVU_V-ill ;
-+N+Pl+Ill:%^E2I %^HMETAh%>in K ;
++N+Pl+Ill:%^E2I %^HMETAh%>in ;
 +N+Pl:%>i2 shortparpl	 ;
 +N+Pl:%>i2 shortgenpl	 ;
 +N+Pl:%^EDEL consgenpl ;
 
-LEXICON n_32	!!= @CODE@  tytär, NB!! ei vielä hoidettu millään tavalla
-+N+Sg+Nom:%^WG # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
-+N+Sg+Nom:%^WG R ;  !! * Konsonanttivartalo: poista -e ja heikko aste
-+N+Sg+Par:%^WG%>t%^A K ;
-+N+Pl+Nom:et K ;
-!+N:e obl-strong ;
-+N+Sg+Gen:en K ; 
-+N+Sg:e sgpl-cases-long ;      !! these two lexica for cases with
-+N+Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
-+N+Sg+Ill:heen  K ;
-+N+Pl+Ill:hiin K ;
-+N+Pl:ii longparpl ;
-+N+Pl:ii tt-longgenpl ;
+LEXICON n_31m	!!= @CODE@ lumi
++N+Sg+Nom:%^E2I K ; ! %^EI e to i
++N+Sg+Nom:%^E2I R ; ! %^EI e to i
++N+Sg+Par: long-par ;
++N: obl-strong ;   
++N:%^WG weak-v-stem ;
++N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Pl:%^E2I%>i2	shortestgenpl ;
++N:	2TAVU_edel-ill ;
++N+Pl:%^E2I%> shortparpl ;
++N+Sg:%>i2 com ;
++N+Pl:%>i2 com ;
 
 LEXICON n_32m !!= @CODE@ elläin elläi
 +N+Sg+Nom:%^WGn # ;
@@ -209,6 +209,7 @@ LEXICON n_33si !!= @CODE@ ruvis
 +N+Pl:hi%>i2 longgenpl ;
 +N+Sg+Ill:%>hiisseen K ;
 +N+Pl+Ill:hi%>i2ssiin K ;
+
 
 LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 n_33t ;
