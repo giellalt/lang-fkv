@@ -278,7 +278,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | (:s) e: %
 !m:n <=> .#. (Conson) (Vowel) Vowel _ e:0 %^E2I:0 :t %^A: ;
 
 "m:n in par.sg. of lumi" !!= * @CODE@ 
- m:n <=> .#. (Conson) (Vowel) Vowel _ %^M2N: e:0 %^E2I:0 :t %^A: ; 
+ m:n <=> .#. Conson (Vowel) Vowel _ %^M2N: %^EDEL:0 e:0 :t :%^A ; 
 
 ! ===============
 !! !!!Vowel rules
