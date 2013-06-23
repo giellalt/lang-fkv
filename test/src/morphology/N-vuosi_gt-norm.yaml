@@ -14,7 +14,7 @@ Tests:
 # Then: linnrun analyser, then correct. 
 
 
-  Noun - vuosi - ei tsekattu : # Noun 'år' - ei tsekattu
+  Noun - vuosi - ok : # Noun 'år' - ok
      vuosi+N+Sg+Nom: vuosi
      vuosi+N+Sg+Gen: vuođen
      vuosi+N+Sg+Par: vuotta
@@ -28,7 +28,7 @@ Tests:
      vuosi+N+Sg+All: vuođele
      vuosi+N+Sg+Ess: vuotena
      vuosi+N+Pl+Nom: vuođet
-     vuosi+N+Pl+Gen: [vuossiin, vuositten]
+     vuosi+N+Pl+Gen: vuossiin
      vuosi+N+Pl+Par: vuossii
      vuosi+N+Pl+Tra: vuosiksi
      vuosi+N+Pl+Abe: vuositta
