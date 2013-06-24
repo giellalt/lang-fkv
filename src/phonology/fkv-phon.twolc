@@ -20,7 +20,6 @@ t2:t                      !!= * @CODE@
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
 %^AE:0                    !!= * @CODE@ -- a to e lauletaan
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
-%^M2N                     !!= * @CODE@ -- lumi lunta 
 ;
 
 
@@ -47,7 +46,7 @@ NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;              !!= * @CODE@
 ArchiConson = %^N ;                                             !!= * @CODE@ 
 Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;   !!= * @CODE@ 
 Segment = Vowel Conson ;                                        !!= * @CODE@ 
-Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^M2N ;   !!= * @CODE@ 
+Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;   !!= * @CODE@ 
 NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;  !!= * @CODE@ 
 
 
@@ -276,7 +275,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: | Vowel:0 Dummy:* %>:0 i3: | (:s) e: %
 
 
 "m:n in par.sg. of lumi" !!= * @CODE@ 
- m:n <=> .#. Conson (Vowel) Vowel _ %^EDEL:0 e:0 %>:0 t %^A: ; 
+ m:n <=> .#. Conson (Vowel) Vowel _ e:0 %>:0 t %^A: [:a | :ä ] ; 
 
 ! ===============
 !! !!!Vowel rules
