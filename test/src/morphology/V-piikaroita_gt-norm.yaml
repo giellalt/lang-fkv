@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - piikaroita - ei tsekattu : # Verb 'to bring' - ei tsekattu
+  Verb - piikaroita - ok : # Verb 'to bring' - ok
      piikaroita+V+Inf: piikaroita
      piikaroita+V+Act+Ind+Prs+Sg1: piikaroitten
      piikaroita+V+Act+Ind+Prs+Sg2: piikaroittet
@@ -29,14 +29,14 @@ Tests:
      piikaroita+V+Act+Ind+Prt+Pl2: piikaroittitta
      piikaroita+V+Act+Ind+Prt+Pl3: piikaroithiin
      piikaroita+V+Act+PrfPrc+Sg+Nom: piikaroinu
-     piikaroita+V+Pass+PrfPrc+Nom: piikaroitu
+     piikaroita+V+Pass+PrfPrc+Nom: piikaroittu
      piikaroita+V+Act+PrfPrc+Pl+Nom: piikaroinheet
 
-     piikaroita+V+Act+Cond+Sg1: piikaroisin
-     piikaroita+V+Act+Cond+Sg2: piikaroisit
-     piikaroita+V+Act+Cond+Sg3: piikarois
-     piikaroita+V+Act+Cond+Pl1: piikaroisimma
-     piikaroita+V+Act+Cond+Pl2: piikaroisitta
+     piikaroita+V+Act+Cond+Sg1: piikaroittisin
+     piikaroita+V+Act+Cond+Sg2: piikaroittisit
+     piikaroita+V+Act+Cond+Sg3: piikaroittis
+     piikaroita+V+Act+Cond+Pl1: piikaroittisimma
+     piikaroita+V+Act+Cond+Pl2: piikaroittisitta
      piikaroita+V+Act+Cond+Pl3: piikaroittais
      piikaroita+V+Pass+Cond: piikaroittais
 
