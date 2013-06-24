@@ -136,7 +136,7 @@ LEXICON n_31	!!= @CODE@ vuosi, käsi
 LEXICON n_31m	!!= @CODE@ lumi
 +N+Sg+Nom:%^E2I K ; ! %^EI e to i
 +N+Sg+Nom:%^E2I R ; ! %^EI e to i
-+N:%^M2N %^EDEL ;
++N: %^EDEL long-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
