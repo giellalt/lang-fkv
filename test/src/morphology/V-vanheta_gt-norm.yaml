@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - vanheta - ei tsekattu: # Verb 'to bring'
+  Verb - vanheta - ok: # Verb 'to bring'
      vanheta+V+Inf: vanheta
      vanheta+V+Act+Ind+Prs+Sg1: vanhenen
      vanheta+V+Act+Ind+Prs+Sg2: vanhenet
@@ -46,5 +46,5 @@ Tests:
      vanheta+V+Act+Inf3+Ine: vanhenemassa
      vanheta+V+Act+Inf3+Ela: vanhenemasta
      vanheta+V+Act+Inf3+Ill: vanhenemhaan
-     vanheta+V+Act+Inf3+Ade: vanhenemalla
+     vanheta+V+Act+Inf3+Ade: vanhenemala
      vanheta+V+Act+Inf3+Abe: vanhenematta
