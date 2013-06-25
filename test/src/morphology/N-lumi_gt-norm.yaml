@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - lumi - ei tsekattu : # Noun 'snø' - ei tsekattu
+  Noun - lumi - ok : # Noun 'snø' - ok
      lumi+N+Sg+Nom: lumi
      lumi+N+Sg+Gen: lumen
      lumi+N+Sg+Par: lunta
@@ -35,8 +35,8 @@ Tests:
      lumi+N+Pl+Abl: lumilta
      lumi+N+Pl+All: lumile
      lumi+N+Pl+Ess: lumina
-     lumi+N+Pl+Gen: lumiin   
-     lumi+N+Pl+Par: lumii
+     lumi+N+Pl+Gen: lummiin   
+     lumi+N+Pl+Par: lummii
      lumi+N+Pl+Tra: lumiksi
      lumi+N+Pl+Abe: lumitta
      lumi+N+Pl+Com: lumine
