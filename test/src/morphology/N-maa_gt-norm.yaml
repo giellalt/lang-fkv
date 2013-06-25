@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - maa - ei tsekattu : # Noun 'borg' - ei tsekattu
+  Noun - maa - ok : # Noun 'borg' - ok
      maa+N+Sg+Nom: maa
      maa+N+Sg+Gen: maan
      maa+N+Sg+Par: maata
