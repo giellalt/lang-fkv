@@ -120,15 +120,30 @@ Bilde 4: Dynamisk sammensetning i analysatoren
 
 Brukerlogg (stryk?)
 ==========
-Det er viktig at ordboka ikke minst i begynnelsesfasen (??) kan gi informasjon som vi vet/antar  vil være (???) nyttig for brukeren. Ved hjelp av informasjonen fra logg som brukere etterlater seg når de har brukt ordboka er det mulig å analysere hvilke ord som er populære søkeord. Loggen gir også informasjon om søk på ord som både finnes og ikke finnes i ordboka.    
+Brukerlogg (N=691) gir informasjon om søkeord, søkeretning og treff.
 
-Tabell 3:
-Brukerlogger:
-> De vanligste oppslagsorda som fins i ordboka: (liste)
-> De vanligste oppslagsorda som ikke fins i ordboka: (liste)
+
+                 Ja   Nei    Total       Suksess
+Kvensk-norsk    545    112        658   82,8
+Norsk-kvensk    19      14         33   57,5
+Tabell 3: Oppslag i ordboka, og suksessrate
+
+
+Ord i ordboka:
+ varpu,tulla,tamppu,saađa,jänkkä,astii,vikaatet,veitti,vantut,traasu,tervet,apu,väki,varsi,valas,uskonu,tyyris,turvet,savi,saita
+ikke,jeg,tro,kvænsk,jente,jakt,hus,hagl,går,gikk,fjell,fangst,dåp,bøker,båt,bjørn,
+Ord ikke i ordboka:
+vikatet,valokuvvii,stre,sisältää,rautio,myö,kampela,asemasta,äïti,äidinkielenopetusta,yllättynny,yksinäinen,vuoli,vikateinen,vikate,verto,veittinen,vasen,vanhoita,vaijeri
+rae,raato,simppa,rauttii,olla,litteratur,kvensk,kluva,kakt,dåpe,dope,båten,
+Tabell 4: De 20 vanligste kvenske og norske oppslagsorda i og utenfor ordboka
 
 Diskusjon:
-Diskuter disse to listene.
+Ord i ordboka: Kvensk og norsk: Grunnordforrådet og ord for tradisjonell kultur. 
+Ord ikke i ordboka: 
+Kvensk: Skrivefeil, sammensatte ord, lakuner
+Norsk: Kvenske ord, lakuner, skrivefeil, tekniske feil i ordboka (båten)
+
+
 
 
 
@@ -210,4 +225,3 @@ Kvensk Institutt og Universitetet i Tromsø (representert ved Giellatekno og Ins
 Vi har foreløpig arbeidet med å utvikle en morfologisk analysator for kvensk som kan knyttes til ei ordbok laga av Terje Aronsen (ca. 3600 lemma). En ordbok som også gir en analyse for ordformer er en viktig hjelpemidler når en skal lære et morfologisk rikt språk slik som kvensk. Basert på disse hjelpemidlene er det senere mulig å lage et retteprogram for kvensk samt utvikle digitale læremidler. Ordboksprosjektet kan benytte den eksisterende språkteknologiske infrastrukturen som allerede er utviklet ved Giellatekno, UiT spesielt for samisk, og dra nytte av den erfaringen som Giellatekno har etablert i sitt arbeid med samisk og andre minoritetsspråk. Analyseprogrammet er i en tidlig fase, det inneholder basismorfologien for 2800 substantiv og 1000 verb, men det er likevel i stand til å heve ordbokas dekningsgrad for et kvensk aviskorpus fra 32% til 58%. Dette viser i hvilken grad selv et rudimentært analyseprogram er i stand til å forbedre dekningsgraden for ei e-ordbok.
 
 Kvensk fikk status som et nasjonalt minoritetsspråk i Norge i 2005. Kvensk institutt har nasjonalt ansvar for utviklingen av kvensk språk i Norge. Utviklingen av kvensk til et skriftspråk begynte i 2007, da kvensk språkting og språkråd ble etablert. Målet for språkarbeidet er å lage en skriftnorm basert på ulike kvenske dialekter. En kvensk grammatikk av Eira Söderholm som baserer seg på språktingets arbeid er en nødvendig grunnlag for vårt arbeid med en morfologisk analysator. Dette viser også hvordan språkteknologisk analyse og uttømmende referansegrammatikker er avhengig av hverandre. I den siste tiden har språktingets arbeid vært rettet mot kvensk ordforråd. Et mål for det språkteknologiske arbeidet er å få etablert et korpus for kvensk for å kunne utvikle kvensk terminologi på ulike områder.
-
