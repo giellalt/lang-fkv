@@ -1,49 +1,213 @@
-Kvensk ordbok på nett – hvem har nytte av den? 
+Disposisjon (oversikt):
 
+Hva er kvensk språk?
+Korpusplanlegging - utvikling av kvensk skriftspråk
+Utvikling av digitale verktøy for kvensk
+Hvordan kan en digital ordbok gjøres effektiv?
+Brukerlogg
+Ordboka bidrar til utvidet bruk av kvensk 
+Litteratur
+
+
+Arbeidsliste framover:
+---------------------
+* Onsdag
+** Trond leter etter logger
+** Trond sjekkar inn dette dokumentet
+** Alle les dette dokumentet og endrar
+** Trond / Leena sjekkar inn på nytt
+* Torsdag 12.00 og framover
+** Mervi lagar utkast
+* Sommar: 
+** Vi les og tenkjer + reviderer dette dokumentet
+
+
+
+-------- tekst starter her -----
+
+Kvensk ordbok på nett – hvem har nytte av den? 
 
 Mervi Haavisto*, Kaisa Maliniemi*, Leena Niiranen°, Pirjo Paavalniemi*, Tove Reibo‡, Trond Trosterud°
 * = Kvensk institutt, ° = Universitet i Tromsø, ‡ = Halti kvenkultursenter
 
 
 
-Disposisjon:
+Hva er kvensk språk?
+====================
+Kvensk språk fikk status som et nasjonalt minoritetsspråk i 2005.
+Kvensk språk er nært beslektet med nordfinske dialekter og med meänkieli i Sverige.
+Det kvenske språket er et agglutinerende, morfologiskt rikt språk.
+I dag regner man at det finnes ca. 4000 – 8000 brukere av kvensk talespråk.  
 
-Ordbok slik og slik
-+ morfologi ...
-+ spellrelax (ordboka forstår d for đ...)
-
-Poeng:
-Ei lita ordbok er alltid den beste når den er den eneste
-Den kan alltid bli langt bedre med morfologi
-
-Dynamisk sammensetning er viktig, [eksempel der ordboka klarer det]
+Bilde: Kart over kvenske dialekter, med informasjon om tre områder som utgjør grunnlaget for tre ulike varianter som man tar hensyn til i standardiseringen. 
+Diskusjon: Arbeidet vårt baserer seg på vestlig kvensk (Børselv - Nordreisa). Vi utvider analysatoren til å forstå andre dialekter senere
 
 
+Korpusplanlegging - utvikling av kvensk skriftspråk
+===================================================
+Kvensk språkting oppnevnt av Kvensk institutt arbeider med standardiseringen av kvensk, eller med korpusplanleggingen som er viktig i revitaliseringen fordi språk som bare brukes muntlig har problemer med overleve i moderne samfunn. Språktinget aksepterer en del av variasjon som eksisterer blant språkbrukere avhengig av deres dialektbakgrunn. En kvensk grammatikk (Söderholm 2013) basert på språktingets anbefalinger utgjør et viktig grunnlag for utvikligen av digitale verktøy i kvensk. 
 
-----
+La det heller/primært være tabell:
+Tabell 1: 
+> Dekningsgrad for ulike tekstsjangre:                  
+> tradisjonell tekst (eventyr)  ord    ord-i-ordbok 
+> moderne tekst (ruijan kaiku)  ord    ord-i-ordbok
+
+Diskusjon:
+Ordboka er laga for det tradisjonelle ordforrådet, og lånord og neologismer er ikke med.
+- nyord vs. tradisjonelle ord:
+- sjangerspørsmål:
+-- Hvis målet er å skildre kvenkulturen, så nei
+-- Hvis målet er revitalisering og det å stable et språk på beina, så ja.
 
 
-Per i dag inneholder basismorfologien 2 800 substantiv og 1 000 verb. Nettordsbokarbeidet startet i januari 2013.
+
+Utvikling av digitale verktøy for kvensk
+=========================================
+
+Vi har ei ordbok (Aronsen)
+Men kvenske ord blir bøyd i 90% av tilfella
+Dermed trenger vi et analyseprogram
+De to setter vi inn i grensesnittet Neahttadigisánit (Johnson et al 2013)
 
 Kvensk morfologisk analysator:
+-> Per i dag inneholder analysatoren 2 800 substantiv og 1 000 verb. 
+-> Pronomen er i ferd med å bli lagt inn, deretter følger adjektiver. 
 -> Digital ordbok (med analyse for ordformer)
+
+Bilde 1: Bilde som for Inuit Languages: Hvordan analysatoren fungerer???
+
+Bilde 2: Løpende tekst med ordklikk og popup-vindu fra ordboka 
+
+
+Framtidige muligheter for analysatoren:
 -> Interaktiv språklæring (læremidler på nett)
 -> Retteprogram (rettskrivnings- og retteprogram)
 -> Terminologiutvikling (korpus for kvensk)
 -> Språkforskning (mulig at gjennomgå store tekstmengder)
- 
- 
-Hva er kvensk språk?
-Kvensk språk fikk status som et nasjonal minoritetsspråk i 2005.
-Kvensk språk er et finsk-ugrisk språk. Nært beslektet med meänkieli i Sverige og nordfinske dialekter.
-Det kvenske språket er et agglutinerende, morfologiskt rikt språk.
- 
-Bakgrunn
-Elektronsk ordbok av Terje Aronsen med 3 600 lemma siden 2007.
- 
-Grunnlag fra den nye grammatikken
-Den kvenske grammatikken kommer ut i 2013.
-Grammatikken baserer seg på arbeidet av Kvensk språkting.
-En nødvendig grunnlag for arbeid med morfologisk arbeid.
- 
- 
+
+
+Hvordan kan en digital ordbok gjøres effektiv?
+===============================================
+
+Selv om analyseprogrammet dekker bøyningen av få ord, kan den allerede hjelpe en leser til å forstå ord i løpende avistekst. 
+Ordboka håndterer også dynamiske sammensetninger, dvs. sammensetninger ordboka ikke har sett før.
+En morfologisk analysator gjør det mulig å behandle også ortografisk variasjon (Spellrelax):
+Den kvenske analysatoren aksepterer d for đ (saada/saađa) og æ for ä (mæki/mäki).
+
+
+Tabell 2: [Kanskje tekst er betre enn tabell???]
+> Bare grunnformer:                          32% 
+> Med fst, uten dynamisk sammensetning 58% (50?)
+> Med fst, med dynamisk sammensetning 58%  (58?)
+> Spellrelax          (blabla%)
+
+Bilde 3: Dynamisk sammensetning i praksis 
+         (skjermdump)
+
+
+----------
+LEXICON n_21
+ +Sg+Nom: R ;   
+ +Sg+Gen:n R ;   
+
+LEXICON R
++Cmp#: NounRoot ;
+----------
+Bilde 4: Dynamisk sammensetning i analysatoren
+
+
+
+Brukerlogg (stryk?)
+==========
+Det er viktig at ordboka ikke minst i begynnelsesfasen (??) kan gi informasjon som vi vet/antar  vil være (???) nyttig for brukeren. Ved hjelp av informasjonen fra logg som brukere etterlater seg når de har brukt ordboka er det mulig å analysere hvilke ord som er populære søkeord. Loggen gir også informasjon om søk på ord som både finnes og ikke finnes i ordboka.    
+
+Tabell 3:
+Brukerlogger:
+> De vanligste oppslagsorda som fins i ordboka: (liste)
+> De vanligste oppslagsorda som ikke fins i ordboka: (liste)
+
+Diskusjon:
+Diskuter disse to listene.
+
+
+
+Ordboka bidrar til utvidet bruk av kvensk 
+=========================================
+Brukergrupper som har nytte av en digital kvensk ordbok er først og fremst studenter som vil lære seg kvensk og ta språket i bruk, 
+men også språkbrukere som har muntlig kompetanse i kvensk, men som ikke er vant til å bruke sitt språk skriftlig.
+Alle på kurset i Nordreisa er fullstendig avhengige allerede (ingen ord, ingen kake)
+
+
+
+Konklusjon
+==========
+En digital ordbok er ikke bare en del av korpusplanlegginga, men også en del av statusplanleggingen av kvensk 
+Ordboka er med på å utvide bruken av kvensk i samfunnet. 
+En grammatisk analysator, selv med dårlig dekningsgrad, bidrar til ei god elektronisk resepsjonsordbok
+
+
+Litteratur
+==========
+Johnson et al 2013
+Söderholm 2013
+
+
+
+
+
+(Nå utdatert) oversikt:
+
++-------------------------------------------------------------------------+
+| Kvensk ordbok på nett – hvem har nytte av den? 
+| 
+| Mervi Haavisto*, Kaisa Maliniemi*, Leena Niiranen°, Pirjo Paavalniemi*, 
+| Tove Reibo‡, Trond Trosterud°
+| * = Kvensk institutt, ° = Universitet i Tromsø, ‡ = Halti kvenkultursenter
+| 
++-------------------------------------------------------------------------+
+|               Kvensk morfologisk e-ordbok                               |
+|                                                                         |
+|                      |                                                  |
+| infoboks          lita ordbok                    info:                  |
+| og kart:             |                           kvensk                 |
+| kvensk         litt morfologi                    språkting              |
+|                      |                           og råd                 |
+|                 problematisere sånn-og-sånn                             |
+|                      |                                                  |
+|                 resultatet slik-og-slik                                 |
+|                      |                                                  |
+| tabell:              |               tabell: dekning for                |
+| lemma vs             |               - tradisjonell tekst (eventyr)     |
+| ordform              v               - moderne tekst (ruijan kaiku)     |
+|                                                                         |
++-------------------------------------------------------------------------+
+
+
+
+
+
+
+
+
+--------------------------------------------------------
+
+
+
+
+
+
+Muistin virkistamiseksi: Abstrakti:
+
+
+Kvensk ordbok på nett – hvem har nytte av den? 
+
+Mervi Haavisto*, Kaisa Maliniemi*, Leena Niiranen°, Pirjo Paavalniemi*, Trond Trosterud°
+* = Kvensk institutt, ° = Universitet i Tromsø
+
+Kvensk Institutt og Universitetet i Tromsø (representert ved Giellatekno og Institutt for språkvitenskap) startet et nettordboksprosjekt for kvensk i januar 2013. Prosjektets mål er å skape en digital ordbok for kvensk der brukere også kan finne fram ordenes bøyningsformer. Vårt mål er å hjelpe språkbrukere som ofte har lært kvensk bare muntlig, og trenger hjelp til å uttrykke seg skriftlig. I tillegg er en digital ordbok nyttig for dem som ønsker å lære seg kvensk, for eksempel i skolen, på kurs som Kvensk institutt arrangerer, eller på kvenskstudiene ved UiT. Også kvenske språkarbeidere som i dag arbeider for eksempel med oversettelser fra eller til kvensk kan benytte dette programmet. Utviklingen av språkteknologi for kvensk vil kunne resultere i en utvidet bruk av kvensk, og også på den måten vil den være en viktig bidrag i revitaliseringen av kvensk. 
+
+Vi har foreløpig arbeidet med å utvikle en morfologisk analysator for kvensk som kan knyttes til ei ordbok laga av Terje Aronsen (ca. 3600 lemma). En ordbok som også gir en analyse for ordformer er en viktig hjelpemidler når en skal lære et morfologisk rikt språk slik som kvensk. Basert på disse hjelpemidlene er det senere mulig å lage et retteprogram for kvensk samt utvikle digitale læremidler. Ordboksprosjektet kan benytte den eksisterende språkteknologiske infrastrukturen som allerede er utviklet ved Giellatekno, UiT spesielt for samisk, og dra nytte av den erfaringen som Giellatekno har etablert i sitt arbeid med samisk og andre minoritetsspråk. Analyseprogrammet er i en tidlig fase, det inneholder basismorfologien for 2800 substantiv og 1000 verb, men det er likevel i stand til å heve ordbokas dekningsgrad for et kvensk aviskorpus fra 32% til 58%. Dette viser i hvilken grad selv et rudimentært analyseprogram er i stand til å forbedre dekningsgraden for ei e-ordbok.
+
+Kvensk fikk status som et nasjonalt minoritetsspråk i Norge i 2005. Kvensk institutt har nasjonalt ansvar for utviklingen av kvensk språk i Norge. Utviklingen av kvensk til et skriftspråk begynte i 2007, da kvensk språkting og språkråd ble etablert. Målet for språkarbeidet er å lage en skriftnorm basert på ulike kvenske dialekter. En kvensk grammatikk av Eira Söderholm som baserer seg på språktingets arbeid er en nødvendig grunnlag for vårt arbeid med en morfologisk analysator. Dette viser også hvordan språkteknologisk analyse og uttømmende referansegrammatikker er avhengig av hverandre. I den siste tiden har språktingets arbeid vært rettet mot kvensk ordforråd. Et mål for det språkteknologiske arbeidet er å få etablert et korpus for kvensk for å kunne utvikle kvensk terminologi på ulike områder.
+
