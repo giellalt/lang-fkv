@@ -14,10 +14,10 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - kauhee - ei tsekattu : # Noun 'borg' - eo tsekattu
+  Noun - kauhee - ok : # Noun 'borg' - ok
      kauhee+N+Sg+Nom: kauhee
      kauhee+N+Sg+Gen: kauheen
-     kauhee+N+Sg+Par: kauheea
+     kauhee+N+Sg+Par: kauheeta
      kauhee+N+Sg+Tra: kauheeksi
      kauhee+N+Sg+Abe: kauheetta
      kauhee+N+Sg+Ine: kauheessa
@@ -31,7 +31,7 @@ Tests:
      kauhee+N+Pl+Gen: kauheitten
      kauhee+N+Pl+Par: kauheita
      kauhee+N+Pl+Tra: kauheiksi
-     kauhee+N+Pl+Abe: kauheita
+     kauhee+N+Pl+Abe: kauheitta
      kauhee+N+Pl+Ine: kauheissa
      kauhee+N+Pl+Ela: kauheista
      kauhee+N+Pl+Ill: kauheissiin
