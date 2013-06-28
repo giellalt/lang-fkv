@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - tuo - ei tsekattu : # Pronoun 'dette'
+  Noun - tuo - ok : # Pronoun 'dette'
      tämä+Pron+Dem+Sg+Nom: tämä
      tämä+Pron+Dem+Sg+Gen: tämän
      tämä+Pron+Dem+Sg+Par: tätä
@@ -22,7 +22,7 @@ Tests:
      tämä+Pron+Dem+Sg+Tra: täksi
      tämä+Pron+Dem+Sg+Ine: tässä
      tämä+Pron+Dem+Sg+Ela: tästä
-     tämä+Pron+Dem+Sg+Ill: tähään
+     tämä+Pron+Dem+Sg+Ill: tähän
      tämä+Pron+Dem+Sg+Ade: tällä
      tämä+Pron+Dem+Sg+Abl: tältä
      tämä+Pron+Dem+Sg+All: tälle
@@ -34,7 +34,7 @@ Tests:
      tuo+Pron+Dem+Sg+Tra: tuoksi
      tuo+Pron+Dem+Sg+Ine: tuossa
      tuo+Pron+Dem+Sg+Ela: tuosta
-     tuo+Pron+Dem+Sg+Ill: tuohoon
+     tuo+Pron+Dem+Sg+Ill: tuohon
      tuo+Pron+Dem+Sg+Ade: tuola
      tuo+Pron+Dem+Sg+Abl: tuolta
      tuo+Pron+Dem+Sg+All: tuole
