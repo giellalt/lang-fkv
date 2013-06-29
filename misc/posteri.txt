@@ -24,34 +24,34 @@ Arbeidsliste framover:
 
 
 -------- tekst starter her -----
-
+[Tekst i klammeparantes skal ikke med på posteren]
 
 Kvensk ordbok på nett – hvem har nytte av den? 
 
-Mervi Haavisto*, Kaisa Maliniemi*, Leena Niiranen¬∞, Pirjo Paavalniemi*, Tove Reibo‚Ä°, Trond Trosterud¬∞
-* = Kvensk institutt, ¬∞ = Universitet i Tromsø, ‚Ä° = Halti kvenkultursenter
+Mervi Haavisto*, Kaisa Maliniemi*, Leena Niiranen∞, Pirjo Paavalniemi*, Tove Reibo°, Trond Trosterud∞
+* = Kvensk institutt, ∞ = Universitet i Tromsø, ° = Halti kvenkultursenter
 
 
 
 Hva er kvensk språk?
 ====================
 Kvensk språk fikk status som et nasjonalt minoritetsspråk i 2005.
-Kvensk er et agglutinerende, morfologiskt rikt språk som er nært beslektet med nordfinske dialekter og med meänkieli i Sverige.
-I dag regner man at det finnes ca 4 000–8 000 brukere av kvensk talespråk.  
+Kvensk er et agglutinerende, morfologiskt rikt språk, nært beslektet med nordfinske dialekter og meänkieli i Sverige.
+Det er ca 4 000–8 000 brukere av kvensk talespråk.  
 
-Bilde: Kart over kvenske dialekter, med informasjon om tre områder som utgjør grunnlaget for tre ulike varianter som man tar hensyn til i standardiseringen. 
-Diskusjon: Arbeidet vårt baserer seg på vestlig kvensk (Børselv - Nordreisa). Vi utvider analysatoren til å forstå andre dialekter senere.
+Bilde: Kvenske dialekter. Dagens ordbok og analysator bygger på de vestlige dialektene, vi vil ta hensyn til østlige varianter senere
 
 
 Korpusplanlegging - utvikling av kvensk skriftspråk
 ===================================================
-Kvensk språkting oppnevnt av Kvensk institutt arbeider med standardiseringen av kvensk. De har valgt å akseptere en del av dialektvariasjonene som eksisterer blant språkbrukerne. En kvensk grammatikk (Söderholm 2013) basert på Språktingets anbefalinger utgjør et viktig grunnlag for utviklingen av digitale verktøy i kvensk. Dette er viktig i revitalisering fordi språk som bare brukes muntlig har problemer med overleve i moderne samfunn.
+Kvensk standardiseres av Kvensk språkting. 
+En kvensk grammatikk (Söderholm 2012) basert på Språktingets anbefalinger utgjør et viktig grunnlag for utviklingen av digitale verktøy i kvensk. 
 
-La det heller/primært være tabell:
-Tabell 1: 
-> Dekningsgrad for ulike tekstsjangre:                  
-> tradisjonell tekst (eventyr)  ord    ord-i-ordbok 
-> moderne tekst (ruijan kaiku)  ord    ord-i-ordbok
+			i ordbok	i ordbok
+Dekningsgrad for ulike tekstsjangre:	Totalt	i analysator	m/ analysator	u/analysator
+tradisjonell tekst (eventyr)	680	80,9 %	67,2 %	36,6 %
+moderne tekst (Ruijan Kaiku)	5601	70,8 %	54,3 %	31,6 %
+Tabell 1				
 
 Diskusjon:
 Ordboka er laga for det tradisjonelle ordforrådet, og lånord og neologismer er ikke med.
@@ -65,12 +65,11 @@ Ordboka er laga for det tradisjonelle ordforrådet, og lånord og neologismer er
 Utvikling av digitale verktøy for kvensk
 =========================================
 
-Vi har en kvensk ordbok (Aronsen), men som de fleste ordbøker inneholder den bare hovedformen av ordene. Når kvenske ord blir bøyd i 90% av tilfellene blir det nødvendig å sette den sammen med et analyseprogram. Vi setter ordboka og analyseprogrammet sammen i grensesnittet Neahttadigisánit (Johnson et al 2013). Digitaliseringen er også et bidrag til kvensk korpusplanlegging fordi finjustering av språkregler er ofte nødvendig.   
+Kvensk ordbok (Aronsen), men som de fleste ordbøker inneholder den bare hovedformen av ordene. Når kvenske ord blir bøyd i 90% av tilfellene blir det nødvendig å sette den sammen med et analyseprogram. Vi setter ordboka og analyseprogrammet sammen i grensesnittet Neahttadigisánit (Johnson et al 2013). Digitaliseringen er også et bidrag til kvensk korpusplanlegging fordi finjustering av språkregler ofte er nødvendig.   
 
 Kvensk morfologisk analysator:
--> Per i dag inneholder analysatoren 2 800 substantiv og 1 000 verb. 
--> Pronomen er i ferd med å bli lagt inn, deretter følger adjektiver. 
--> Digital ordbok (med analyse for ordformer)
+- Per i dag inneholder analysatoren 2 800 substantiv og 1 000 verb. 
+- Pronomen er i ferd med å bli lagt inn, deretter følger adjektiver. 
 
 Bilde 1: Bilde som for Inuit Languages: Hvordan analysatoren fungerer???
 
@@ -78,19 +77,19 @@ Bilde 2: Løpende tekst med ordklikk og popup-vindu fra ordboka
 
 
 Framtidige muligheter for analysatoren:
--> Interaktiv språklæring (læremidler på nett)
--> Retteprogram (rettskrivnings- og retteprogram)
--> Terminologiutvikling (korpus for kvensk)
--> Språkforskning (mulig at gjennomgå store tekstmengder)
+- Interaktiv språklæring (læremidler på nett)
+- Retteprogram
+- Terminologiutvikling (analysert korpus for kvensk)
+- Språkforskning (mulig å gjennomgå store tekstmengder)
 
 
 Hvordan kan en digital ordbok gjøres effektiv?
 ===============================================
 
-Selv om analyseprogrammet dekker bøyningen av få ord, kan den allerede hjelpe en leser til å forstå ord i løpende tekst. 
+Selv om analyseprogrammet dekker bøyningen av få ord, kan den allerede hjelpe en leser til å forstå ord i løpende tekst.
 Ordboka håndterer også dynamiske sammensetninger, dvs. sammensetninger ordboka ikke har sett før.
-En morfologisk analysator gjør det mulig å behandle også ortografisk variasjon (Spellrelax):
-Den kvenske analysatoren aksepterer d for đ (saada/saađa) og æ for ä (mæki/mäki).
+En morfologisk analysator gjør det mulig å behandle også ortografisk variasjon:
+Den kvenske analysatoren aksepterer d for đ (saada/saađa ‘å få’) og æ/ø for ä/ö (mæki/mäki ‘bakke’).
 
 
 Tabell 2: [Kanskje tekst er betre enn tabell???]
@@ -115,15 +114,14 @@ Bilde 4: Dynamisk sammensetning i analysatoren
 
 
 
-Brukerlogg (stryk?)
+Brukerlogg
 ==========
-Brukerlogg (N=691) gir informasjon om søkeord, søkeretning og treff.
+Brukerlogg (N=691) gir informasjon om søkeord, søkeretning og treffprosent.
 
-
-                 Ja   Nei    Total       Suksess
-Kvensk-norsk    545    112        658   82,8
-Norsk-kvensk    19      14         33   57,5
-Tabell 3: Oppslag i ordboka, og suksessrate
+	Total	Ja	Nei	Treffprosent
+Kvensk-norsk	658	545	112	82,8 %
+Norsk-kvensk	33	19	14	57,6 %
+Tabell 3: Oppslag i ordboka, og treffprosent
 
 
 Ord i ordboka:
@@ -158,39 +156,10 @@ En digital ordbok er ikke bare en del av korpusplanlegginga, men også en del av
 
 Litteratur
 ==========
-Johnson et al 2013
-Söderholm 2013
+Johnson, Ryan, Lene Antonsen, Trond Trosterud 2013: Using finite state transducers for making efficient reading comprehension dictionaries. Proceedings of the 19th Nordic Conference of Computational Linguistics (NODALIDA 2013), May 22–24, 2013, Oslo University, Norway. NEALT Proceedings Series 16: 59–71.
+Söderholm 2012: En liten kvensk grammatikk. Vesta – Porsanger-Nordreisa-varianten. Ms, UiT.
 
 
-
-
-
-(Nå utdatert) oversikt:
-
-+-------------------------------------------------------------------------+
-| Kvensk ordbok på nett – hvem har nytte av den? 
-| 
-| Mervi Haavisto*, Kaisa Maliniemi*, Leena Niiranen°, Pirjo Paavalniemi*, 
-| Tove Reibo‡, Trond Trosterud°
-| * = Kvensk institutt, ° = Universitet i Tromsø, ‡ = Halti kvenkultursenter
-| 
-+-------------------------------------------------------------------------+
-|               Kvensk morfologisk e-ordbok                               |
-|                                                                         |
-|                      |                                                  |
-| infoboks          lita ordbok                    info:                  |
-| og kart:             |                           kvensk                 |
-| kvensk         litt morfologi                    språkting              |
-|                      |                           og råd                 |
-|                 problematisere sånn-og-sånn                             |
-|                      |                                                  |
-|                 resultatet slik-og-slik                                 |
-|                      |                                                  |
-| tabell:              |               tabell: dekning for                |
-| lemma vs             |               - tradisjonell tekst (eventyr)     |
-| ordform              v               - moderne tekst (ruijan kaiku)     |
-|                                                                         |
-+-------------------------------------------------------------------------+
 
 
 
