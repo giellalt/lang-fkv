@@ -10,22 +10,22 @@
 if CAN_DOCC
 
 JSP_PAGES=root-morphology.jspwiki \
-		  adjectives-affixes.jspwiki \
-		  nouns-affixes.jspwiki \
-		  pronouns-affixes.jspwiki \
-		  verbs-affixes.jspwiki \
-		  nouns-stems.jspwiki \
 		  abbreviations-stems.jspwiki      \
+		  adjectives-affixes.jspwiki \
 		  adjectives-stems.jspwiki         \
-		  prepositions-stems.jspwiki        \
 		  adverbs-stems.jspwiki            \
 		  closed-stems.jspwiki       \
+		  nouns-affixes.jspwiki \
 		  nouns-stems.jspwiki              \
-		  propernouns-stems.jspwiki        \
-		  prepositions-stems.jspwiki        \
+		  nouns-stems.jspwiki \
 		  postpositions-stems.jspwiki        \
-		  punctuation-stems.jspwiki        \
+		  prepositions-stems.jspwiki        \
+		  prepositions-stems.jspwiki        \
+		  pronouns-affixes.jspwiki \
 		  pronouns-stems.jspwiki \
+		  propernouns-stems.jspwiki        \
+		  punctuation-stems.jspwiki        \
+		  verbs-affixes.jspwiki \
 		  verbs-stems.jspwiki \
 		  fkv-phon-phonology.jspwiki
 #		  acronyms-stems.jspwiki           \
