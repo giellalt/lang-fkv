@@ -124,10 +124,11 @@ LEXICON n_23	!!= * @CODE@  valkkee
 +N+Sg+Nom: K ; 
 +N+Sg+Nom: R ;
 +N+Sg+Ill:sseen  K ;
-+N+Pl+Ill:ssiin K ;
-+N: long-par ;
++N+Pl+Ill:%>i2ssiin K ;
++N+Sg+Par: long-par ;
++N+Pl+Par:%>i2 long-par ;
 +N: obl-strong ;
-+N+Pl: tt-longgenpl ;
++N+Pl:%>i2 tt-longgenpl ;
 +N: weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
