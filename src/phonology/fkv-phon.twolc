@@ -93,7 +93,7 @@ Rules
 
 "Gemination Vo"
 !! __@RULENAME@__ 
- 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :o %>:0 [ :o | i7: ] ;   
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :o %>:0 [ :o | i2: | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vu"
@@ -233,7 +233,7 @@ i6:0 <=> _ k: a %^WG:0;
 "Gradation k:j" 
 k:j <=>     [a|e|i|i6:] _ [o|e:|i]     (Dummy:) (:i) (Dummy:) %^WG:0 ;
           [ä|æ|e|i|i6:] _ [e:|i]       (Dummy:) (:i) (Dummy:) %^WG:0 ;
-              [e|i|i6:] _ [e:|i|ä|æ|a] (Dummy:) (:i) (Dummy:) %^WG:0 ;
+              [e|i|i6:] _ [e:|i|ä|æ|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ;
                   [r|l] _ e:           (Dummy:) (:i) (Dummy:) %^WG:0 ;
                Conson u _ e:           (Dummy:) (:i) (Dummy:) %^WG:0 ;
         
