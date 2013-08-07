@@ -11,7 +11,8 @@
 !! * 2. Vokaalirankaiset						 
 !! ** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
 !! ** 2.2 Usseempitav. ( meininki, sivakka)		 = n_22
-!! ** 2.3 Kokkoontumanom. ( valkkee, assii)		 = n_23
+!! ** 2.3 Kokkoontumanom. ( valkkee)    		 = n_23
+!! ** 2.3.1 Kokkoontumanom. (assiis)             = n_23ii
 !! * 3. Konsonanttirankaiset					  
 !! ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
 !! ** 3.2 Usseempitavuiset 
@@ -106,7 +107,7 @@ LEXICON n_22	!!= * @CODE@  meininki
 +N+Pl:%>i longparpl ;
 +N+Pl: shortillpl ;
 
-LEXICON n_23	!!= * @CODE@  assii, valkkee
+LEXICON n_23ii	!!= * @CODE@  assii
 +N+Sg+Nom: K ; 
 +N+Sg+Nom: R ;
 +N+Sg+Ill:sseen  K ;
@@ -118,6 +119,20 @@ LEXICON n_23	!!= * @CODE@  assii, valkkee
 +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:%^WG sgpl-cases-short ;  !! the same affix in sg and pl
 +N+Pl+Ess:%>n%^A PxxK ;
+
+LEXICON n_23	!!= * @CODE@  valkkee
++N+Sg+Nom: K ; 
++N+Sg+Nom: R ;
++N+Sg+Ill:sseen  K ;
++N+Pl+Ill:ssiin K ;
++N: long-par ;
++N: obl-strong ;
++N+Pl: tt-longgenpl ;
++N: weak-v-stem ;
++N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+
+
 
 LEXICON n_31	!!= @CODE@ vuosi, käsi
 +N+Sg+Nom:%^E2I K ; ! %^E2I e to i
