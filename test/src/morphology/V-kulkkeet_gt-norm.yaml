@@ -14,7 +14,8 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - kulkkeet - ei tsekattu : # Verb 'to bring' - ei tsekattu
+
+  Verb - kulkkeet ok: # Verb 'to bring' - ok
      kulkkeet+V+Inf: kulkkeet
      kulkkeet+V+Act+Ind+Prs+Sg1: kuljen
      kulkkeet+V+Act+Ind+Prs+Sg2: kuljet

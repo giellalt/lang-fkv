@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - tunturi: # Noun 'borg' - ei tsekattu
+     tunturi+N+Sg+Nom: tunturi
+     tunturi+N+Sg+Gen: tunturin
+     tunturi+N+Sg+Par: tunturii
+     tunturi+N+Sg+Tra: tunturiksi
+     tunturi+N+Sg+Abe: tunturitta
+     tunturi+N+Sg+Ine: tunturissa
+     tunturi+N+Sg+Ela: tunturista
+     tunturi+N+Sg+Ill: tunturhiin
+     tunturi+N+Sg+Ade: tunturilla
+     tunturi+N+Sg+Abl: tunturilta
+     tunturi+N+Sg+All: tunturille
+     tunturi+N+Sg+Ess: tunturina
+     tunturi+N+Pl+Nom: tunturit
+     tunturi+N+Pl+Gen: tunturiin
+     tunturi+N+Pl+Par: tunturiita
+     tunturi+N+Pl+Tra: tunturiiksi
+     tunturi+N+Pl+Abe: tunturiitta
+     tunturi+N+Pl+Ine: tunturiissa
+     tunturi+N+Pl+Ela: tunturiista
+     tunturi+N+Pl+Ill: tunturiihin
+     tunturi+N+Pl+Ade: tunturiila
+     tunturi+N+Pl+Abl: tunturiilta
+     tunturi+N+Pl+All: tunturiile
+     tunturi+N+Pl+Ess: tunturiina
