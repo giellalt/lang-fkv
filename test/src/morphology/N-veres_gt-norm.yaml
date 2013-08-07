@@ -14,7 +14,7 @@ Tests:
 # Then: linnrun analyser, then correct. 
 
 
-  Noun - veres - ei tsekattu : # Noun 'borg' - ei tsekattu
+  Noun - veres - ok : # Noun 'borg' - ok
      veres+N+Sg+Nom: veres
      veres+N+Sg+Gen: vereksen
      veres+N+Sg+Par: verestä
