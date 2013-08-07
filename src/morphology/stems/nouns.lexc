@@ -14,14 +14,15 @@ LEXICON NounRoot !!= @CODE@
 !! ** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
 !! *** 2.1.1 (joki:joke)						 = n_21ie
 !! ** 2.2 Usseempitav. ( meininki, sivakka)		 = n_22
-!! ** 2.3 Kokkoontumanom. ( valkkee, assii)		 = n_23
+!! ** 2.3 Kokkoontumanom. ( valkkee,)	      	 = n_23
+!! ** 2.3.1 Kokkoontumanom. ( assii)    		 = n_23ii
 !! * 3. Konsonanttirankaiset					 = 
 !! ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
 !! ** 3.1.1. lumi:lumen:lunta                    = n_31m
 !! ** 3.2 Usseempitavuiset ( tytär)				
 !! *** 3.2.1 (tytär)                              = n_32
 !! *** 3.2.2. (elläin: elläimen                   = n_32m
-!! *** 3.2.3. (rakkhaus)							 = n_32s
+!! *** 3.2.3. (rakkhaus)						  = n_32s
 !! ** 3.3 Kokkoontumanom. ( opas, huonet)		
 !! *** 3.3.1. (opas)                              = n_33s
 !! *** 3.3.1.1 (ruvis)                           = n_33si
@@ -82,11 +83,11 @@ bensiini        n_22 ;
 
 
 !! !!2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
-assii:assii        n_23 ;  !!= * @CODE@
-lattii          n_23 ;
+assii:assii        n_23ii ;  !!= * @CODE@
+lattii          n_23ii ;
 valkkee:valkkee         n_23 ; !!= * @CODE@ adjektiivi
 kauhee:kauhee          n_23 ;
-kurkkii         n_23 ;
+kurkkii         n_23ii ;
 
 
 !! !!3. Konsonanttirankaiset
@@ -936,27 +937,27 @@ tee n_23 ;
 teevee n_23 ; 
 kaffi n_21 ; 
 piffi n_21 ; 
-hanhii n_23 ; 
-karhii n_23 ; 
-jouttikarhii n_23 ; 
-ahkii n_23 ; 
-kurkkii n_23 ; 
-rannii n_23 ; 
-minnii n_23 ; 
-pii n_23 ; 
-haravanpii n_23 ; 
-lappii n_23 ; 
-hietalappii n_23 ; 
-teorii n_23 ; 
-pääassii n_23 ; 
-astii n_23 ; 
-keittoastii n_23 ; 
-laattii n_23 ; 
-kalttii n_23 ; 
-valttii n_23 ; 
-harttii n_23 ; 
-rauttii n_23 ; 
-kultarauttii n_23 ; 
+hanhii n_23ii ; 
+karhii n_23ii ; 
+jouttikarhii n_23ii ; 
+ahkii n_23ii ; 
+kurkkii n_23ii ; 
+rannii n_23ii ; 
+minnii n_23ii ; 
+pii n_23ii ; 
+haravanpii n_23ii ; 
+lappii n_23ii ; 
+hietalappii n_23ii ; 
+teorii n_23ii ; 
+pääassii n_23ii ; 
+astii n_23ii ; 
+keittoastii n_23ii ; 
+laattii n_23ii ; 
+kalttii n_23ii ; 
+valttii n_23ii ; 
+harttii n_23ii ; 
+rauttii n_23ii ; 
+kultarauttii n_23ii ; 
 laji n_21 ; 
 timoteiji n_21 ; 
 äiji n_21 ; 
@@ -2916,7 +2917,7 @@ puhheenjohtaaja n_22 ;
 flaku n_21 ;
 flaaku+Use/Sub:flaaku n_21 ;
 yhtheiskunta n_22 ;
-työväjenparttii n_23 ;
+työväjenparttii n_23ii ;
 työväki:työväke n_21ie ;
 parttii n_23 ;
 netti n_21 ;
