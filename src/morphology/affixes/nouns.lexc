@@ -113,11 +113,11 @@ LEXICON n_23	!!= * @CODE@  assii, valkkee
 +N+Pl+Ill:ssiin K ;
 +N: long-par ;
 +N: obl-strong ;
-
++N+Pl: tt-longgenpl ;
 +N: weak-v-stem ;
- +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
- +N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
-
++N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:%^WG sgpl-cases-short ;  !! the same affix in sg and pl
++N+Pl+Ess:%>n%^A PxxK ;
 
 LEXICON n_31	!!= @CODE@ vuosi, käsi
 +N+Sg+Nom:%^E2I K ; ! %^E2I e to i
@@ -384,6 +384,7 @@ LEXICON short-par
 
 LEXICON long-par
  +Sg+Par:%>t%^A PxxK ;
+ +Pl+Par:%>t%^A PxxK ;
 
 LEXICON 1TAVU_VV-ill  !short maahan
  +Sg+Ill:%>h%^V n-PxK ;
