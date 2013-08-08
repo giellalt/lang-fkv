@@ -58,7 +58,7 @@ LEXICON n_21	!!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;      !! * to sgpl-cases-short for cases with
 +N+Pl:%^WG%>i2 sgpl-cases-short ;  !!   the same affix in sg and pl
-+N: 2TAVU_V-ill ;
++N: 2TAVU_V_ill_sg ;
 +N+Pl:%>i2 shortestgenpl ;  !! * to shortestgenpl since we already
 +N+Pl:%>i2 shortestparpl  ; !!   have the i
 +N+Pl:%>%^HMETAh%^Vi2 shortestillpl ;
@@ -100,7 +100,7 @@ LEXICON n_22	!!= * @CODE@  meininki
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
 +N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
-+N: 2TAVU_V-ill ;
++N: 2TAVU_V_ill_sg ;
 +N+Sg+Ess:%>nn%^A PxxK ;
 +N+Pl+Ess:nn%^A gae-strong ;
 +N+Pl:%^WG%>i2 tt-longgenpl ;
@@ -143,8 +143,8 @@ LEXICON n_31	!!= @CODE@ vuosi, käsi
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
-+N: 2TAVU_V-ill ;
-+N+Pl+Ill:%^E2I %^HMETAh%>in ;
++N: 2TAVU_V_ill_sg ;
++N+Pl+Ill:%^E2I%^HMETAh%>i shortestillpl ;
 +N+Pl:%>i2 shortparpl	 ;
 +N+Pl:%>i2 shortgenpl	 ;
 +N+Pl:%^EDEL consgenpl ;
@@ -169,9 +169,9 @@ LEXICON n_32 !!= @CODE@ elläin elläi
 +N:n long-par ;
 +N:e obl-strong ;
 +N+Sg+Gen:e%>n K ;
-+N:e 2TAVU_V-ill ;
++N:e 2TAVU_V_ill_sg ;
 +N:e obl-strong ;
-+N:e 2TAVU_V-ill ;
++N:e 2TAVU_V_ill_sg ;
 +N+Sg:e sgpl-cases-long ;      
 +N+Pl:%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
 +N+Pl:i%>i2 longparpl ;
@@ -187,9 +187,9 @@ LEXICON n_32m !!= @CODE@ elläin elläi
 +N:n long-par ;
 +N:me obl-strong ;
 +N+Sg+Gen:me%>n K ;
-+N:me 2TAVU_V-ill ;
++N:me 2TAVU_V_ill_sg ;
 +N:me obl-strong ;
-+N:me 2TAVU_V-ill ;
++N:me 2TAVU_V_ill_sg ;
 +N+Sg:me sgpl-cases-long ;      
 +N+Pl:m%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
 +N+Pl:mi%>i2 longparpl ;
@@ -203,7 +203,7 @@ LEXICON n_32s !!= @CODE@  sairhaus
 +N:t long-par ;
 +N:te obl-strong ;
 +N:đe weak-v-stem ;
-+N:te 2TAVU_V-ill ;
++N:te 2TAVU_V_ill_sg ;
 +N+Sg:đe sgpl-cases-long ;
 +N+Sg:te sgpl-cases-long ;      
 +N+Pl:ks%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
@@ -301,7 +301,7 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
  +Pl:se%>i2 com ;
  :se weak-v-stem ;
  :s long-par ;
- :se 2TAVU_V-ill ;
+ :se 2TAVU_V_ill_sg ;
  +Pl+Ill:sh%>i2in K ;
  +Pl:s%>i2 shortgenpl ; ! naisien
  +Pl:s consgenpl ;
@@ -423,9 +423,9 @@ LEXICON long-par
 LEXICON 1TAVU_VV-ill  !short maahan
  +Sg+Ill:%>h%^V n-PxK ;
  
-LEXICON 2TAVU_V-ill !long
+LEXICON 2TAVU_V_ill_sg !long
 +Sg+Ill:%>%^HMETAh%^V%^V n-PxK ;
-+Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
+
 ! sykshyyn, linnhaan
 !! linna pl.ill. kaksi muotoa po. linnhoin
 
@@ -536,7 +536,7 @@ LEXICON Px-Vn
 !  +N: strong-v-stem ;
 !  +N:%^WG weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
 !  +N+Pl:%>i2 shortillpl ;
@@ -545,7 +545,7 @@ LEXICON Px-Vn
 !  +N: strong-v-stem ;
 !  +N:%^WG weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:%>i2 longgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
@@ -556,7 +556,7 @@ LEXICON Px-Vn
 !  +N: strong-v-stem ;
 !  +N:%^WG weak-v-stem ;
 !  +N: long-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 longgenpl ;
 !  +N+Pl:%>i2 longparpl ;
 !  +N+Pl:%>i2 shortillpl ;
@@ -565,7 +565,7 @@ LEXICON Px-Vn
 !  +N: strong-v-stem ;
 !  +N:%^WG weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:%^WG%>i2 longgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
@@ -577,7 +577,7 @@ LEXICON Px-Vn
 !  +N: strong-v-stem ;
 !  +N:%^WG weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Z2%>i2 shortgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
 !  +N+Pl:%>i2 shortillpl ;
@@ -586,7 +586,7 @@ LEXICON Px-Vn
 !  +N: strong-v-stem ;
 !  +N:%^WG weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Z2%>i2 shortgenpl ;  *paperejen paperien
 !  +N+Pl:%>i2 longgenpl ;
 !  +N+Pl:%>i2 shortparpl ;  *papereja but banaaneja
@@ -603,7 +603,7 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 com ;
 !  +N:%^WG weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
 !  +N+Pl:%>i2 shorterillpl ;
@@ -612,7 +612,7 @@ LEXICON Px-Vn
 !  +N:%^¤ strong-v-stem ;
 !  +N:%^WG weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:%>i2 oldgenpl ; !nallin
 !  +N+Pl:%^¤%>i2 shortparpl ;
@@ -628,7 +628,7 @@ LEXICON Px-Vn
 !  +N+Pl:Y3%>i2 com ;
 !  +N:Y1 weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Y3%>i2 shortgenpl ;
 !  +N+Pl:Y3%>i2 oldgenpl ;
 !  +N+Pl:Y3%>i2 shortparpl ;
@@ -645,7 +645,7 @@ LEXICON Px-Vn
 !  +N+Pl:Y2%>i2 com ;
 !  +N:X2 weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Y2%>i2 shortgenpl ;
 !  +N+Pl:Y2%>i2 oldgenpl ;
 !  +N+Pl:Y2%>i2 shortparpl ;
@@ -655,7 +655,7 @@ LEXICON Px-Vn
 !  +N: strong-v-stem ;
 !  +N:%^WG weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Y2%>i2 shortgenpl ;
 !  +N+Pl:Y3%>i2 longgenpl ;
 !  +N+Pl:%>i2 oldgenpl ;
@@ -667,7 +667,7 @@ LEXICON Px-Vn
 !  +N: strong-v-stem ;
 !  +N:%^WG weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Y3%>i2 longgenpl ;
 !  +N+Pl:%>i2 oldgenpl ;
 !  +N+Pl:Y3%>i2 longparpl ;
@@ -677,7 +677,7 @@ LEXICON Px-Vn
 !  +N: strong-v-stem ;
 !  +N:%^WG weak-v-stem ;
 !  +N: short-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Y3%>i2 shortgenpl ;
 !  +N+Pl:Y3%>i2 longgenpl ;
 !  +N+Pl:%>i2 oldgenpl ;
@@ -739,7 +739,7 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 com ;
 !  +N:%^WG weak-v-stem ;
 !  +N:Y5 long-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
@@ -753,7 +753,7 @@ LEXICON Px-Vn
 !  +N:%^WG weak-v-stem ;
 !  +N:Y5 long-par ;  tointa
 !  +N: short-par ;  toimea
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
@@ -766,7 +766,7 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 com ;
 !  +N:%^WG weak-v-stem ;  käden
 !  +N:Y7 long-par ;  kättä
-!  +N: 2TAVU_V-ill ;  käteen
+!  +N: 2TAVU_V_ill_sg ;  käteen
 !  +N+Pl:%>i2 shortgenpl ;  käsien
 !  +N+Pl:Y7 consgenpl ;  kätten
 !  +N+Pl:%>i2 shortparpl ; !käsiä
@@ -780,7 +780,7 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 com ;
 !  +N:%^WG weak-v-stem ;
 !  +N:Y7 long-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
@@ -794,7 +794,7 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 com ;
 !  +N: weak-v-stem ;
 !  +N:Y5 long-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
@@ -814,7 +814,7 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 com ;
 !  +N: weak-v-stem ;
 !  +N:Y5 long-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
@@ -827,7 +827,7 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 com ;
 !  +N: weak-v-stem ;
 !  +N:Y5 long-par ;
-!  +N: 2TAVU_V-ill ;
+!  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
