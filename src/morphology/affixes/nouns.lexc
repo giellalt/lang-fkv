@@ -163,6 +163,24 @@ LEXICON n_31m	!!= @CODE@ lumi
 +N+Sg:%>i2 com ;
 +N+Pl:%>i2 com ;
 
+LEXICON n_32 !!= @CODE@ elläin elläi
++N+Sg+Nom:%^WGn # ;
++N:e weak-v-stem ;
++N:n long-par ;
++N:e obl-strong ;
++N+Sg+Gen:e%>n K ;
++N:e 2TAVU_V-ill ;
++N:e obl-strong ;
++N:e 2TAVU_V-ill ;
++N+Sg:e sgpl-cases-long ;      
++N+Pl:%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
++N+Pl:i%>i2 longparpl ;
++N+Pl:i%>i2 longgenpl ;
++N+Pl:%^HMETAh%>i2i shortestillpl;
++N+Sg:i%>i2 com ;
++N+Pl:i%>i2 com ;
+
+
 LEXICON n_32m !!= @CODE@ elläin elläi
 +N+Sg+Nom:%^WGn # ;
 +N:me weak-v-stem ;
