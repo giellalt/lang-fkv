@@ -112,7 +112,8 @@ LEXICON n_23ii	!!= * @CODE@  assii
 +N+Sg+Nom: R ;
 +N+Sg+Ill:sseen  K ;
 +N+Pl+Ill:ssiin K ;
-+N: long-par ;
++N: long-par-sg ;
++N+Pl: longparpl ;
 +N: obl-strong ;
 +N+Pl: tt-longgenpl ;
 +N: weak-v-stem ;
@@ -418,8 +419,14 @@ LEXICON short-par
  
 
 LEXICON long-par
+ long-par-sg ;
+ long-par-pl ;
+
+LEXICON long-par-sg
  +Sg+Par:%>t%^A PxxK ;
- +Pl+Par:%>i2%>t%^A PxxK ;
+
+LEXICON long-par-pl
+  +Pl+Par:%>i2%>t%^A PxxK ;
 
 LEXICON 1TAVU_VV-ill  !short maahan
  +Sg+Ill:%>h%^V n-PxK ;
