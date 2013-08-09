@@ -125,8 +125,7 @@ LEXICON n_23	!!= * @CODE@  valkkee
 +N+Sg+Nom: R ;
 +N+Sg+Ill:sseen  K ;
 +N+Pl+Ill:%>i2ssiin K ;
-+N+Sg+Par: long-par ;
-+N+Pl+Par:%>i2 long-par ;
++N: long-par ;
 +N: obl-strong ;
 +N+Pl:%>i2 tt-longgenpl ;
 +N: weak-v-stem ;
@@ -420,7 +419,7 @@ LEXICON short-par
 
 LEXICON long-par
  +Sg+Par:%>t%^A PxxK ;
- +Pl+Par:%>t%^A PxxK ;
+ +Pl+Par:%>i2%>t%^A PxxK ;
 
 LEXICON 1TAVU_VV-ill  !short maahan
  +Sg+Ill:%>h%^V n-PxK ;
