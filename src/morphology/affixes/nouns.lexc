@@ -150,21 +150,22 @@ LEXICON n_31	!!= @CODE@ vuosi, käsi
 +N+Pl:%^EDEL consgenpl ;
 
 LEXICON n_31m	!!= @CODE@ lumi lu
-+N+Sg+Nom:%^E2I K ; ! %^EI e to i
-+N+Sg+Nom:%^E2I R ; ! %^EI e to i
-+N:n%^EDEL long-par ;
-+N: obl-strong ;   
-+N:%^WG weak-v-stem ;
-+N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
-+N+Pl:%^E2I%>i2	shortestgenpl ;
-+N:m    2TAVU_edel-ill ;
-+N+Pl:%^E2I%> shortparpl ;
-+N+Sg:%>i2 com ;
-+N+Pl:%>i2 com ;
++N+Sg+Nom:mi K ; ! %^EI e to i
++N+Sg+Nom:mi R ; ! %^EI e to i
++N:n long-par ;
++N:me obl-strong ;   
++N:me%^WG weak-v-stem ;
++N+Sg:me%^WG sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:m%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Pl:m%>i2	shortestgenpl ;
++N:m%>i2    2TAVU_edel-ill ;
++N+Pl:m%>i2 shortparpl ;
++N+Sg:m%>i2 com ;
++N+Pl:m%>i2 com ;
 
 LEXICON n_32 !!= @CODE@ tytär tyttär
-+N+Sg+Nom:%^WG # ;
++N+Sg+Nom:%^WG K ;
++N+Sg+Nom:%^WG R ;
 +N:e weak-v-stem ;
 +N:%^WG long-par ;
 +N:e obl-strong ;
@@ -182,7 +183,8 @@ LEXICON n_32 !!= @CODE@ tytär tyttär
 
 
 LEXICON n_32m !!= @CODE@ elläin elläi
-+N+Sg+Nom:%^WGn # ;
++N+Sg+Nom:%^WGn K ;
++N+Sg+Nom:%^WGn R ;
 +N:me weak-v-stem ;
 +N:n long-par ;
 +N:me obl-strong ;
