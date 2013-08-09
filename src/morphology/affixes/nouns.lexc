@@ -163,10 +163,10 @@ LEXICON n_31m	!!= @CODE@ lumi
 +N+Sg:%>i2 com ;
 +N+Pl:%>i2 com ;
 
-LEXICON n_32 !!= @CODE@ elläin elläi
-+N+Sg+Nom:%^WGn # ;
+LEXICON n_32 !!= @CODE@ tytär tyttär
++N+Sg+Nom:%^WG # ;
 +N:e weak-v-stem ;
-+N:n long-par ;
++N:%^WG long-par ;
 +N:e obl-strong ;
 +N+Sg+Gen:e%>n K ;
 +N:e 2TAVU_V_ill_sg ;
