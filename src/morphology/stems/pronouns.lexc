@@ -61,8 +61,8 @@ ittemä+Pron+Refl+Pl:itt     p1refpron ;
 ittenä+Pron+Refl+Pl:itt     p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
 
-toinen+Pron+Recipr+attr:toinen  # ; ! disambiguation case? +POS
-toisen+Pron+Recipr:toi   ;
+toinen+Pron+Recipr+Attr:toinen  # ; ! disambiguation case? +POS
+toisen+Pron+Recipr:toi          toisen ;
 ! toinen% toinen+Pron+Recipr: toinen_toisen ; ! +POS?
 
 
