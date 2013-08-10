@@ -23,7 +23,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Pass +Ind +Prs +Prt +Imprt +Cond +Pot		   !!≈ ; @CODE@ : Finite verbs
  +Inf  +PrsPrc +PrfPrc +Inf3				   !!≈ ; @CODE@ : Infinite verbs
  +CLB +PUNCT +HYPH							   !!≈ ; @CODE@ : Punctuation
- 
+ +Attr
 !!  !!Phonological symbols 
  p1 t1 k1				 !!≈ ; @CODE@ : For cons grad -- in use at all?
  i2 i3 i4 i5 i6	i7		 !!≈ ; @CODE@ : For vowel change -- i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = contr verb cond
@@ -49,6 +49,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 @U.pron.ill@
 @U.pron.par@
 @U.pron.par2@
+@U.pron.par3@
 @U.pron.ess@
 @U.pron.tra@
 @U.pron.ine@
