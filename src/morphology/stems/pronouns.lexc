@@ -7,7 +7,9 @@
 LEXICON Pronoun
 doublecasepronouns ;
 doublecasepronounspl  ;
-onecasepronouns ;
+! doublecasekukinpronouns   ;
+! doublecasekukinpronouns ;
+! onecasepronouns ;
 
 !! Persoonapronominit
 
@@ -59,8 +61,8 @@ ittemä+Pron+Refl+Pl:itt     p1refpron ;
 ittenä+Pron+Refl+Pl:itt     p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
 
-! toinen+Pron+Recipr:  toinen ;
-! toisen+Pron+Recipr: toisen   ;
+toinen+Pron+Recipr+attr:toinen  # ; ! disambiguation case? +POS
+toisen+Pron+Recipr:toi   ;
 ! toinen% toinen+Pron+Recipr: toinen_toisen ; ! +POS?
 
 
@@ -81,8 +83,10 @@ joka+Pron+Qu:joka                       joka_kvant ;
 jokhainen+Pron+Qu:jokhai                jokhai_kvant ;
 jokhainen+Pron+Qu:jokhai                jokai_kvant ;
 
-! joka+Pron+Qu:joka                       jokainu_kvant ;
-! ainua+Pron+Qu:ainu                      ainut_kvant ;
+joka+Pron+Qu+Attr:joka                  # ;
+! joka+Pron+Qu:joka                  jokainu_kvant ;
+ainua+Pron+Qu:ainu                      ainut_kvant ;
+
 ! itte% kukin+Pron+Qu:itte% ku            itte_kvant ;
 ! itte+Pron+Qu:itt                        itte_kvant ;
 ! kukin+Pron+Qu:ku                        kukin_kvant ;
@@ -90,7 +94,8 @@ jokhainen+Pron+Qu:jokhai                jokai_kvant ;
 
 ! joka+Pron+Qu:joka       jokainu_kvant ;    ! joka ainua(taipuu)
 ! ainua+Pron+Qu:ainu      ainut_kvant ;      ! joka ainua(taipuu)
-! itte+Pron+Qu:itt        itte_kvant ;       ! itte(taipuu) kukin(taipuu)
+
+! itte+Pron+Qu+Attr:itt        itte_kvant ;  ! itte(taipuu) kukin(taipuu) ! flag diacritics case?
 ! kukin+Pron+Qu:ku        kukin_kvant ;      ! itte(taipuu) kukin(taipuu)
 ! kukin+Pron+Qu:ke        kekin_kvant ;      ! itte(taipuu) kekin(taipuu)
 
