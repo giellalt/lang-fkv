@@ -13,45 +13,45 @@ doublecasepronounspl  ;
 
 !! Persoonapronominit
 
-mie+Pron+Pers+Sg:mi  12pronsg   ; !!= * @CODE@ 
-sie+Pron+Pers+Sg:si  12pronsg   ; !!  * ...
-hän+Pron+Pers+Sg:hän  han_pron   ;
-se+Pron+Pers+Sg:    se_pron  ;
-met+Pron+Pers+Pl:me  123pronpl   ;
-tet+Pron+Pers+Pl:te  123pronpl   ;
-het+Pron+Pers+Pl:he  123pronpl   ;
-net+Pron+Pers+Pl+Nom:net   netpronpl   ; ! e>i
-net+Pron+Pers+Pl:ni   netpronpl   ; ! e>i
+mie+Pron+Pers+Sg:mi         12pronsg   ; !!= * @CODE@ 
+sie+Pron+Pers+Sg:si         12pronsg   ; !!  * ...
+hän+Pron+Pers+Sg:hän        han_pron   ;
+se+Pron+Pers+Sg:            se_pron  ;
+met+Pron+Pers+Pl:me         123pronpl   ;
+tet+Pron+Pers+Pl:te         123pronpl   ;
+het+Pron+Pers+Pl:he         123pronpl   ;
+net+Pron+Pers+Pl+Nom:net    netpronpl   ; ! e>i
+net+Pron+Pers+Pl:ni         netpronpl   ; ! e>i
 
 
 
 !! Demonstratiivipronominit
 
-tämä+Pron+Dem:tä   tama ;  !!= * @CODE@t
-tuo+Pron+Dem:tuo       tuo ; 
-se+Pron+Dem+Sg:    se_pron ;
+tämä+Pron+Dem:tä            tama ;  !!= * @CODE@t
+tuo+Pron+Dem:tuo            tuo ; 
+se+Pron+Dem+Sg:             se_pron ;
 nämät+Pron+Dem+Pl+Nom:nämät K ;
-nämät+Pron+Dem+Pl:näi namaobl ;
-nuot+Pron+Dem+Pl:nuoi namaobl ;
-net+Pron+Dem+Pl:nii   namaobl ; ! e>i
+nämät+Pron+Dem+Pl:näi       namaobl ;
+nuot+Pron+Dem+Pl:nuoi       namaobl ;
+net+Pron+Dem+Pl:nii         namaobl ; ! e>i
 
 !! Kysymäpronominit
 
-kuka+Pron+Interr:ke   relkys  ;  !!= * @CODE@ 
-mikä+Pron+Interr:mi   mi_kys  ;  !!= * @CODE@
+kuka+Pron+Interr:ke             relkys  ;  !!= * @CODE@ 
+mikä+Pron+Interr:mi             mi_kys  ;  !!= * @CODE@
 kukka+Pron+Interr+Pl+Nom:kukka  K  ;  !!= * @CODE@ 
-kukka+Pron+Interr+Pl:ke  relkyspl  ;  !!= * @CODE@ 
+kukka+Pron+Interr+Pl:ke         relkyspl  ;  !!= * @CODE@ 
 mikkä+Pron+Interr+Pl+Nom:mikkä  K  ;  !!= * @CODE@
-mikkä+Pron+Interr+Pl:mi  mi_kyspl  ;  !!= * @CODE@
+mikkä+Pron+Interr+Pl:mi         mi_kyspl  ;  !!= * @CODE@
 
 !! Relatiivipronominit
 
-joka+Pron+Rel:jo        relkys ;
-mikä+Pron+Rel:mi        mi_rel ;
-jokka+Pron+Rel+Pl+Nom:jokka   K ;
-jokka+Pron+Rel+Pl:joi   joi_relkyspl ;
-mikkä+Pron+Rel+Pl:mikkä   K ;
-mikkä+Pron+Rel+Pl:mi   mi_relpl ;
+joka+Pron+Rel:jo             relkys ;
+mikä+Pron+Rel:mi             mi_rel ;
+jokka+Pron+Rel+Pl+Nom:jokka  K ;
+jokka+Pron+Rel+Pl:joi        joi_relkyspl ;
+mikkä+Pron+Rel+Pl:mikkä      K ;
+mikkä+Pron+Rel+Pl:mi         mi_relpl ;
 
 !! Refleksiivi- ja resiprookipronominit
 
@@ -61,8 +61,8 @@ ittemä+Pron+Refl+Pl:itt     p1refpron ;
 ittenä+Pron+Refl+Pl:itt     p2refpron ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
 
-toinen+Pron+Recipr+Attr:toinen  # ; ! disambiguation case? +POS
-toisen+Pron+Recipr:toi          toisen ;
+toinen+Pron+Recipr+Attr:toinen  # ;     ! disambiguation case? +POS
+toisen+Pron+Recipr:toi                  toisen ;
 ! toinen% toinen+Pron+Recipr: toinen_toisen ; ! +POS?
 
 
@@ -84,7 +84,6 @@ jokhainen+Pron+Qu:jokhai                jokhai_kvant ;
 jokhainen+Pron+Qu:jokhai                jokai_kvant ;
 
 joka+Pron+Qu+Attr:joka                  # ;
-! joka+Pron+Qu:joka                  jokainu_kvant ;
 ainua+Pron+Qu:ainu                      ainut_kvant ;
 
 ! itte% kukin+Pron+Qu:itte% ku            itte_kvant ;
@@ -92,10 +91,7 @@ ainua+Pron+Qu:ainu                      ainut_kvant ;
 ! kukin+Pron+Qu:ku                        kukin_kvant ;
 ! kukin+Pron+Qu:ke                        kekin_kvant ;
 
-! joka+Pron+Qu:joka       jokainu_kvant ;    ! joka ainua(taipuu)
-! ainua+Pron+Qu:ainu      ainut_kvant ;      ! joka ainua(taipuu)
-
-! itte+Pron+Qu+Attr:itt        itte_kvant ;  ! itte(taipuu) kukin(taipuu) ! flag diacritics case?
+! itte+Pron+Qu+Attr:itt   itte_kvant ;  ! itte(taipuu) kukin(taipuu) ! flag diacritics case?
 ! kukin+Pron+Qu:ku        kukin_kvant ;      ! itte(taipuu) kukin(taipuu)
 ! kukin+Pron+Qu:ke        kekin_kvant ;      ! itte(taipuu) kekin(taipuu)
 
