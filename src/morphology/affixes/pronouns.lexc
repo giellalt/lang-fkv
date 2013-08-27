@@ -62,7 +62,6 @@ LEXICON se_pron
 
 
 LEXICON netpronpl
-+Nom: K ;
 +Gen:itten K ; !!nii
 +Ill:ihin K ;
 +Ela:istä   K ;
@@ -91,7 +90,7 @@ LEXICON tuo
 
 LEXICON namaobl !! nuoitä
 +Pl+Gen:%>tten K ;
-+Pl+Ill:%>hiin K ;
++Pl+Ill:%>hin K ;
 +Pl+Ela:%>st%^A   K ;
 +Pl+Abl:%>lt%^A   K ;
 +Pl: pronobl ;
@@ -194,7 +193,19 @@ LEXICON kuka_relkys_sgpl
 +Abl:neltä    K ;
 +Abl:ltä    K ;
 
-
+LEXICON kumpi
++Nom:pi K ;
++Gen:man K ;
++Ill:phaan K ;
++Par:ppaa K ; 
++Par:paa K ;
++Ess:pana    K ;
++Tra:maksi   K ;
++Ine:massa    K ;
++Ela:masta    K ;
++All:malle    K ;
++Ade:malla    K ;
++Abl:malta    K ;
 
 
 LEXICON s1refpron
