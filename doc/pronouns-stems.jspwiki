@@ -7,25 +7,25 @@ Itse taivutus jatkuu
 
 Persoonapronominit
 
- * mie+Pron+Pers+Sg:mi  12pronsg   ;  
+ * mie+Pron+Pers+Sg:mi         12pronsg   ;  
  * ...
 
 
 
 Demonstratiivipronominit
 
- * tämä+Pron+Dem:tä   tama ;  t
+ * tämä+Pron+Dem:tä            tama ;  t
 
 Kysymäpronominit
+ * kuka+Pron+Interr+Sg+Nom:kuka K ;  nom
+ * kuka+Pron+Interr+Pl+Nom:kukka  K  ;   
 
- * kuka+Pron+Interr:ke   relkys  ;   
- * mikä+Pron+Interr:mi   mi_kys  ;  
- * kukka+Pron+Interr+Pl+Nom:kukka  K  ;   
- * kukka+Pron+Interr+Pl:ke  relkyspl  ;   
- * mikkä+Pron+Interr+Pl+Nom:mikkä  K  ;  
- * mikkä+Pron+Interr+Pl:mi  mi_kyspl  ;  
+ * kuka+Pron+Interr:ke             kuka_relkys_obl  ;   
+
+ * mikä+Pron+Interr:mi             mi_rel  ;  
 
 Relatiivipronominit
+
 
 
 Refleksiivi- ja resiprookipronominit
