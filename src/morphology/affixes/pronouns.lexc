@@ -116,45 +116,49 @@ LEXICON pronobl_2
 
 
 LEXICON relkys
-+Nom: K ;
-+Gen:%>nen K ;
-+Ill:%>nheen K ;
-+Par:%>tä K ;
-+Ess:%>nenä    K ;
-+Tra:%>neksi   K ;
-+Ine:%>nessä   K ;
-+Ela:%>nestä   K ;
-+All:%>nele   K ;
-!+All:%>le K ;
-+Ade:%>nelä    K ;
-+Abl:%>neltä   K ;
-
-
-LEXICON mi_kys
-+Nom:%>k%^A K ;
-miobl ;
++Nom:ka K ;
++Gen:nka K ;
++Ill:%>h^Vn K ;
++Ill:%>h^Vnka K ;
++Par:ta K ;
++Ess:na    K ;
++Tra:ksi   K ;
++Ine:ssa   K ;
++Ela:sta   K ;
++All:lle   K ;
++Ade:lla    K ;
++Abl:lta   K ;
 
 
 LEXICON mi_rel
-+Nom: K ;
-miobl ;
++Sg+Nom:kä K ;
++Sg+Gen:nkä K ;
++Sg+Ill:hin K ;
++Sg+Ill:hinkä K ;
++Sg+Par:tä K ;
++Sg+Ess:nä    K ;
++Sg+Tra:ksi   K ;
++Sg+Ine:ssä   K ;
++Sg+Ela:stä   K ;
++Sg+All:lle   K ;
++Sg+Ade:llä    K ;
++Sg+Abl:ltä   K ;
+
++Pl+Nom:kkä K ;
++Pl+Nom:tkä K ;
++Pl+Gen:nkä K ;
++Pl+Par:tä K ;
++Pl+Ill:hin K ;
++Pl+Ill:hinkä K ;
++Pl+Ess:nä    K ;
++Pl+Tra:ksi   K ;
++Pl+Ine:ssä   K ;
++Pl+Ela:stä   K ;
++Pl+All:lle   K ;
++Pl+Ade:llä    K ;
++Pl+Abl:ltä   K ;
 
 
-LEXICON miobl
-+Gen:%>nkä K ;
-+Ill:%>hiin K ;
-+Par:%>tä K ;
-+Ess:%>nä    K ;
-+Tra:%>ksi   K ;
-+Ine:%>ssä   K ;
-+Ela:%>stä   K ;
-+All:%>lle   K ;
-+Ade:%>llä    K ;
-+Abl:%>ltä   K ;
-
-
-LEXICON relkyspl
-+Par:itä K ;
 
 
 LEXICON joi_relkyspl
@@ -169,15 +173,28 @@ LEXICON joi_relkyspl
 +Ade:%>la    K ;
 +Abl:%>lta   K ;
 
+LEXICON kuka_relkys_obl
++Pl+Par:itä K ;
++Sg: kuka_relkys_sgpl ;
++Pl: kuka_relkys_sgpl ;
 
-LEXICON mi_relpl
-+Nom:%>kkä K ;
-miobl ;
+LEXICON kuka_relkys_sgpl
++Gen:nen   K ;
++Gen:nenkä   K ;
++Ill:nheen  K ;
++Par:tä  K ;
++Ess:nenä    K ;
++Tra:neksi    K ;
++Ine:nessä    K ;
++Ela:nestä    K ;
++All:nele   K ;
++All:lle   K ;
++Ade:nelä    K ;
++Ade:llä    K ;
++Abl:neltä    K ;
++Abl:ltä    K ;
 
 
-LEXICON mi_kyspl
-+Nom:%>kkä K ;
-miobl ;
 
 
 LEXICON s1refpron
@@ -263,39 +280,31 @@ LEXICON p3refpron
 ! +Nom: ;
 
 LEXICON toisen
-+Nom:nen     K ;
-+Gen:seen     K ;
-+Ill:sheen     K ;
-+Par:sta     K ;
-+Par:siansa     K ; 
-+Ess:sena     K ;
-+Tra:seksi     K ;
-+Ine:sessa     K ;
-+Ela:sta     K ;
-+Ela:siansa     K ; 
-+Ela:stainsa     K ; 
-+All:sele     K ;
-+All:selensa     K ; 
-+Ade:sela     K ;
-+Abl:selta     K ;
++Sg+Nom:nen     K ;
++Sg+Gen:se    n-PxK ;
++Sg+Ill:shee  n-PxK ;
++Sg+Par:sta   PxK ;
++Sg+Ess:sena   PxK ;
++Sg+Tra:seks   i-PxK ;
++Sg+Ine:sessa   PxK ;
++Sg+Ela:sesta   PxK ;
++Sg+All:sele   PxxK ;
++Sg+Ade:sela   PxK ;
++Sg+Abl:selta   PxK ;
+
++Pl+Nom:set     K ;
++Pl+Gen:ste    n-PxK ;
++Pl+Ill:shii  n-PxK ;
++Pl+Par:sia   PxK ;
++Pl+Ess:sina   PxK ;
++Pl+Tra:siks   i-PxK ;
++Pl+Ine:sissa   PxK ;
++Pl+Ela:sista   PxK ;
++Pl+All:sile   PxxK ;
++Pl+Ade:sila   PxK ;
++Pl+Abl:silta   PxK ;
 
 
-! LEXICON toinen_toisen
-! +Nom:toinen% toinen    presip K ;
-! +Gen:toinen% toiseen   presip  K ;
-! +Ill:toinen% toisheen   presip  K ;
-! +Par:toinen% toista    presip K ;
-! +Par:toinen% toistansa    presip K ;
-! +Ess:toinen% toisena    presip K ;
-! +Tra:toinen% toiseksi    presip K ;
-! +Ine:toinen% toisessa   presip  K ;
-! +Ela:toinen% toista    presip K ; 
-! +Ela:toinen% toisiansa    presip K ; 
-! +Ela:toinen% toistainsa    presip K ; 
-! +All:toinen% toisele    presip K ; 
-! +All:toinen% toiselensa    presip K ;
-! +Ade:toinen% toisela    presip K ;
-! +Abl:toinen% toiselta   presip  K ;
 
 
 LEXICON sgjoku_indef
@@ -439,6 +448,7 @@ LEXICON ainut_kvant
 
 
 LEXICON itte_kvant
++Attr:e     K ;
 +Nom:e      K ;
 +Gen:en     K ;
 +Ill:heen   K ;
