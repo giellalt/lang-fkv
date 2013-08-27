@@ -1581,8 +1581,6 @@ REMOVE (Pron Rel) IF (0 ("jotta")) (0 CS) (0 CLB?) (NEGATE -1 WORD) ;
 
 SELECT:ToinenToinen Attr IF (0 ("toinen"))(1 ("toinen"));
 
-SELECT:ToinenPl Pl IF (-1 ("toinen"))(0 ("toinen"));
-
 # Proper nouns
 # ------------
 
