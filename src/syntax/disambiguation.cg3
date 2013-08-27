@@ -77,6 +77,9 @@ LIST Recipr = Recipr ;
 LIST Indef = Indef ;
 LIST Qu = Qu ; # Check whether this is Interr
 
+LIST Attr = Attr ;
+
+
 # Morphosyntactic properties
 # --------------------------
 
@@ -1573,6 +1576,13 @@ REMOVE (Pron Rel) IF (0 ("jotta")) (0 CS) (0 CLB?) (NEGATE -1 WORD) ;
 #      ^ täällä tarvitaan CS, eikä Pron Rel.
 
 
+
+# Reciprocal pronouns
+
+SELECT:ToinenToinen Attr IF (0 ("toinen"))(1 ("toinen"));
+
+SELECT:ToinenPl Pl IF (-1 ("toinen"))(0 ("toinen"));
+
 # Proper nouns
 # ------------
 
@@ -2711,6 +2721,10 @@ SET NPNH     = WORD - PRE-NP-HEAD OR Abbr ;
 
 MAP (@CVP) TARGET ("kun") ;
 MAP (@CNP) TARGET ("ja" CC) ;
+
+# Reciprocals
+
+MAP (@→Pron) TARGET Recipr IF (1 Recipr) ;
 
 # NP-internal things @→N, @N←
 # ------------------
