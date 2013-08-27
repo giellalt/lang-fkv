@@ -507,6 +507,10 @@ LEXICON n-PxK  !!= @CODE@ has either -n or goes to Px
  :n K ;
  Px ;
 
+LEXICON i-PxK  !!= @CODE@ Tra: -i or -e and goes to Px
+ :i K ;
+ :e Px ;
+
 LEXICON PxK !!= @CODE@ has only -nsA, and is currently not in use. Check
  K ;
  Px ;
