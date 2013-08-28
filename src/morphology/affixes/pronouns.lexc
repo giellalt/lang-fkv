@@ -209,82 +209,77 @@ LEXICON kumpi
 
 
 LEXICON s1refpron
-+Nom:%> K ;
-+Gen:%>eni K ;
-+Ill:%>heeni K ;
-+Par:%>eeni K ; 
-+Par:%>iäni K ;
-+Par:%>eäni K ;
-+Ess:%>enäni    K ;
-+Tra:%>ekseni   K ;
-+Ine:%>essäni   K ;
-+Ela:%>estäni   K ;
-+All:%>eleni   K ;
-+Ade:%>eläni    K ;
-+Abl:%>eltäni   K ;
++Gen:eni K ;
++Ill:heeni K ;
++Par:eeni K ; 
++Par:iäni K ;
++Par:eäni K ;
++Ess:enäni    K ;
++Tra:ekseni   K ;
++Ine:essäni   K ;
++Ela:estäni   K ;
++All:eleni   K ;
++Ade:eläni    K ;
++Abl:eltäni   K ;
 
 
 LEXICON s2refpron
-+Nom:%> K ;
-+Gen:%>sti K ;
-+Ill:%>heesti K ;
-+Par:%>eesti K ; 
-+Par:%>iästi K ; 
-+Par:%>eästi K ;
-+Ess:%>enästi    K ;
-+Tra:%>eksesti   K ;
-+Ine:%>essästi   K ;
-+Ela:%>estästi   K ;
-+All:%>elesti   K ;
-+Ade:%>elästi    K ;
-+Abl:%>eltästi   K ;
++Gen:sti K ;
++Ill:heesti K ;
++Par:eesti K ; 
++Par:iästi K ; 
++Par:eästi K ;
++Ess:enästi    K ;
++Tra:eksesti   K ;
++Ine:essästi   K ;
++Ela:estästi   K ;
++All:elesti   K ;
++Ade:elästi    K ;
++Abl:eltästi   K ;
 
 
 LEXICON p1refpron
-+Nom:%> K ;
-+Gen:%>mä K ;
-+Ill:%>heemä K ;
-+Par:%>eemä K ;
-+Par:%>iämä K ;
-+Par:%>eämä K ;
-+Ess:%>enämmä    K ;
-+Tra:%>eksemmä   K ;
-+Ine:%>essämmä   K ;
-+Ela:%>estämmä   K ;
-+All:%>elemmä   K ;
-+Ade:%>elämmä    K ;
-+Abl:%>eltämmä   K ;
++Gen:mä K ;
++Ill:heemä K ;
++Par:eemä K ;
++Par:iämä K ;
++Par:eämä K ;
++Ess:enämmä    K ;
++Tra:eksemmä   K ;
++Ine:essämmä   K ;
++Ela:estämmä   K ;
++All:elemmä   K ;
++Ade:elämmä    K ;
++Abl:eltämmä   K ;
 
 LEXICON p2refpron 
-+Nom:%> K ;
-+Gen:%>nä K ;
-+Ill:%>heenä K ;
-+Par:%>eenä K ; 
-+Par:%>iännä K ; 
-+Par:%>eännä K ;
-+Ess:%>enännä    K ;
-+Tra:%>eksennä   K ;
-+Ine:%>essännä   K ;
-+Ela:%>estännä   K ;
-+All:%>elennä   K ;
-+Ade:%>elännä    K ;
-+Abl:%>etännä   K ;
++Gen:nä K ;
++Ill:heenä K ;
++Par:eenä K ; 
++Par:iännä K ; 
++Par:eännä K ;
++Ess:enännä    K ;
++Tra:eksennä   K ;
++Ine:essännä   K ;
++Ela:estännä   K ;
++All:elennä   K ;
++Ade:elännä    K ;
++Abl:etännä   K ;
 
 
 LEXICON p3refpron 
-+Nom:%> K ;
-+Gen:%>nä K ;
-+Ill:%>heensä K ;
-+Par:%>eensä K ;
-+Par:%>iänsä K ;
-+Par:%>eänsä K ; 
-+Ess:%>enänsä    K ;
-+Tra:%>eksensä   K ;
-+Ine:%>essänsä   K ;
-+Ela:%>estänsä   K ;
-+All:%>elensä   K ;
-+Ade:%>elänsä    K ;
-+Abl:%>ltänsä   K ;
++Gen:nä K ;
++Ill:heensä K ;
++Par:eensä K ;
++Par:iänsä K ;
++Par:eänsä K ; 
++Ess:enänsä    K ;
++Tra:eksensä   K ;
++Ine:essänsä   K ;
++Ela:estänsä   K ;
++All:elensä   K ;
++Ade:elänsä    K ;
++Abl:ltänsä   K ;
 
 
 ! LEXICON toinen
@@ -326,7 +321,6 @@ jokuinf ;
 
 
 LEXICON pljoku_indef
-+Nom: K ;!jokku
 +Gen:ttenki K ;
 +Ill:hinki K ;
 jokuinf ;
@@ -360,7 +354,6 @@ LEXICON sgmuut_indef
 
 
 LEXICON plmuut_indef
-+Nom:mat K ;
 +Gen:itten K ;
 +Ill:phiin K ;
 +Par:ppiita K ;
@@ -548,7 +541,6 @@ LEXICON molem_kvant
 
 
 LEXICON kielto
-+Nom: K ;
 +Gen:nenkhään K ;
 +Ill:nheenkhään K ;
 +Par:thään K ;
@@ -585,7 +577,6 @@ LEXICON yht_kielto
 
 
 LEXICON kump_kielto
-+Nom:   K   ;
 +Ill:haankaan   K ;
 
 
