@@ -57,10 +57,15 @@ mikä+Pron+Rel:mi             mi_rel ;
 
 !! Refleksiivi- ja resiprookipronominit
 
+itteni+Pron+Refl+Sg:itteni  K   ;
 itteni+Pron+Refl+Sg:itt     s1refpron ;
+ittesti+Pron+Refl+Sg:ittesti    K;
 ittesti+Pron+Refl+Sg:itt    s2refpron ;
+ittemä+Pron+Refl+Pl:ittemä  K   ; 
 ittemä+Pron+Refl+Pl:itt     p1refpron ; 
+ittenä+Pron+Refl+Pl:ittenä  K   ;
 ittenä+Pron+Refl+Pl:itt     p2refpron ;
+ittensä+Pron+Refl+Pl:ittensä    K   ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
 
 toinen+Pron+Recipr+Attr:toinen  # ;     ! disambiguation case? +POS
@@ -72,8 +77,10 @@ toinen+Pron+Recipr:toi                  toisen ;
 
 
 joku+Pron+Indef+Sg:jo                   sgjoku_indef ;
+jokku+Pron+Indef+Pl:jokku               K ;
 jokku+Pron+Indef+Pl:joi                 pljoku_indef ;
 muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
+muutamat+Pron+Indef+Pl:muutamat         K   ;
 muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
 
 
@@ -105,9 +112,11 @@ molemat+Pron+Qu:molem                   molem_kvant ;
 
 !!Kieltopronominit
 
+kukhaan+Pron+Qu:kukhaan         K   ;
 kukhaan+Pron+Qu:ke              kielto  ;
 mikhään+Pron+Qu:mi              mi_kielto  ; 
 yksikhään+Pron+Qu:yht           yht_kielto ;
+kumpikhaan+Pron+Qu:kumpikhaan   K   ;
 kumpikhaan+Pron+Qu:kump         kump_kielto;
 
 
