@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - tytär - ei tsekattu : # Noun 'daughter' - ok
+  Noun - tytär - ok : # Noun 'daughter' - ok
      tytär+N+Sg+Nom: tytär
      tytär+N+Sg+Gen: tyttären
      tytär+N+Sg+Par: tytärtä
