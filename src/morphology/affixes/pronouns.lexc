@@ -640,29 +640,6 @@ LEXICON plpaljo_kvant
 LEXICON plmon_kvant
 +All:ile    K ;
 
-! LEXICON onecasepronouns ! huom. joka ainut toteutettu toisella tavalla
-! 
-! < j o k a "@U.pron.nom@" a i n u:0 a:0 "+Pron":0 "+Qu":0 "+Sg":0 > onesgcases  ;
-! 
-! LEXICON onesgcases
-! < "@U.pron.nom@" > endcases_onecase ;
-! 
-! LEXICON endcases_onecase 
-! 
-! < "@U.pron.gen@" "+Gen":0 0:n >          K ;
-! < "@U.pron.ill@" "+Ill":0 0:a 0:n >      K ;
-! < "@U.pron.par@" "+Par":0 0:s 0:t 0:a >  K ;
-! < "@U.pron.ess@" "+Ess":0 0:n 0:a >      K ;
-! < "@U.pron.tra@" "+Tra":0 0:k 0:s 0:i >  K ;
-! < "@U.pron.ine@" "+Ine":0 0:s 0:a 0:a >  K ;
-! < "@U.pron.ela@" "+Ela":0 0:s 0:t 0:a >  K ;
-! < "@U.pron.all@" "+All":0 0:l 0:e >      K ;
-! < "@U.pron.ade@" "+Ade":0 0:l 0:a >      K ;
-! < "@U.pron.abl@" "+Abl":0 0:l 0:t 0:a >  K ;
-
-
-
-
 
 
 LEXICON doublecasepronouns
@@ -747,84 +724,4 @@ LEXICON  Endplcases
 < "@U.pron.all@" "+All":0 0:m 0:i 0:l 0:e > K ; 
 < "@U.pron.ade@" "+Ade":0 0:m 0:i 0:l 0:a > K ; 
 < "@U.pron.abl@" "+Abl":0 0:m 0:i 0:l 0:t 0:a > K ;
-
-! LEXICON doublecasekukinpronouns
-!
-! < i t t e:0  k u k:0 i:0 n:0 "+Pron":0 "+Qu":0 "+Sg":0> sgkucases ;
-! 
-! 
-! LEXICON  sgkucases
-! < "@U.pron.nom@"  0:e >                   Continuingku ;
-! < "@U.pron.gen@"  0:e 0:n >               Continuingku ;
-! < "@U.pron.ill@"  0:p 0:h 0:a 0:a 0:n >   Continuingku ;
-! < "@U.pron.par@"  0:e 0:e >               Continuingku ;
-! < "@U.pron.par2@" 0:e 0:ä >               Continuingku ;
-! < "@U.pron.par3@" 0:i 0:ä >               Continuingku ;
-! < "@U.pron.ess@"  0:e 0:n 0:ä >           Continuingku ;
-! < "@U.pron.tra@"  0:e 0:k 0:s 0:i >       Continuingku ;
-! < "@U.pron.ine@"  0:e 0:s 0:a 0:ä >       Continuingku ;
-! < "@U.pron.ela@"  0:e 0:s 0:t 0:ä >       Continuingku ;
-! < "@U.pron.all@"  0:e 0:l 0:e >           Continuingku ;
-! < "@U.pron.ade@"  0:e 0:l 0:ä >           Continuingku ;
-! < "@U.pron.abl@"  0:e 0:l 0:t 0:ä >       Continuingku ;
-!                                                     
-! 
-! LEXICON Continuingku
-! :kum  Endsgkucases;
-! 
-! LEXICON  Endsgkucases
-! 
-! < "@U.pron.nom@" "+Nom":0 0:k 0:i > K ; 
-! < "@U.pron.gen@" "+Gen":0 0:n 0:k 0:i > K ;
-! < "@U.pron.ill@" "+Ill":0 0:h 0:u 0:n 0:k 0:i > K ;
-! < "@U.pron.par@" "+Par":0 0:t 0:a 0:k 0:i > K ; 
-! < "@U.pron.ess@" "+Ess":0 0:n 0:a 0:k 0:i > K ;
-! < "@U.pron.tra@" "+Tra":0 0:k 0:s 0:i 0:k 0:i > K ;
-! < "@U.pron.ine@" "+Ine":0 0 0:m 0:a 0:s 0:s 0:a > K ;
-! < "@U.pron.ela@" "+Ela":0 0:s 0:t 0:a 0:k 0:i > K ;
-! < "@U.pron.all@" "+All":0 0:l 0:l 0:e 0:k 0:i > K ; 
-! < "@U.pron.ade@" "+Ade":0 0:l 0:l 0:a 0:k 0:i > K ; 
-! < "@U.pron.abl@" "+Abl":0 0:l 0:t 0:a 0:k 0:i > K ;
-! 
-! 
-
-! LEXICON doublecasekekinpronouns
-!
-! < i t t e:0  k e k:0 i:0 n:0 "+Pron":0 "+Qu":0 "+Sg":0> sgkecases ;
-! 
-! 
-! LEXICON  sgkecases
-! < "@U.pron.nom@"  0:e >                   Continuingke ;
-! < "@U.pron.gen@"  0:e 0:n >               Continuingke ;
-! < "@U.pron.ill@"  0:p 0:h 0:a 0:a 0:n >   Continuingke ;
-! < "@U.pron.par@"  0:e 0:e >               Continuingke ;
-! < "@U.pron.par2@" 0:e 0:ä >               Continuingke ;
-! < "@U.pron.par3@" 0:i 0:ä >               Continuingke ;
-! < "@U.pron.ess@"  0:e 0:n 0:ä >           Continuingke ;
-! < "@U.pron.tra@"  0:e 0:k 0:s 0:i >       Continuingke ;
-! < "@U.pron.ine@"  0:e 0:s 0:a 0:ä >       Continuingke ;
-! < "@U.pron.ela@"  0:e 0:s 0:t 0:ä >       Continuingke ;
-! < "@U.pron.all@"  0:e 0:l 0:e >           Continuingke ;
-! < "@U.pron.ade@"  0:e 0:l 0:ä >           Continuingke ;
-! < "@U.pron.abl@"  0:e 0:l 0:t 0:ä >       Continuingke ;
-!                                                     
-! 
-! LEXICON Continuingke
-! :kum  Endskecases;
-! 
-! LEXICON  Endskecases
-! 
-! < "@U.pron.nom@" "+Nom":0 0:k 0:i > K ; 
-! < "@U.pron.gen@" "+Gen":0 0:n 0:k 0:i > K ;
-! < "@U.pron.ill@" "+Ill":0 0:h 0:u 0:n 0:k 0:i > K ;
-! < "@U.pron.par@" "+Par":0 0:t 0:a 0:k 0:i > K ; 
-! < "@U.pron.ess@" "+Ess":0 0:n 0:a 0:k 0:i > K ;
-! < "@U.pron.tra@" "+Tra":0 0:k 0:s 0:i 0:k 0:i > K ;
-! < "@U.pron.ine@" "+Ine":0 0 0:m 0:a 0:s 0:s 0:a > K ;
-! < "@U.pron.ela@" "+Ela":0 0:s 0:t 0:a 0:k 0:i > K ;
-! < "@U.pron.all@" "+All":0 0:l 0:l 0:e 0:k 0:i > K ; 
-! < "@U.pron.ade@" "+Ade":0 0:l 0:l 0:a 0:k 0:i > K ; 
-! < "@U.pron.abl@" "+Abl":0 0:l 0:t 0:a 0:k 0:i > K ;
-! 
-! 
 
