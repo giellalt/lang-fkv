@@ -7,9 +7,7 @@
 LEXICON Pronoun
 doublecasepronouns ;
 doublecasepronounspl  ;
-! doublecasekukinpronouns   ;
-! doublecasekukinpronouns ;
-! onecasepronouns ;
+
 
 !! Persoonapronominit
 
@@ -68,9 +66,8 @@ ittenä+Pron+Refl+Pl:itt     p2refpron ;
 ittensä+Pron+Refl+Pl:ittensä    K   ;
 ittensä+Pron+Refl+Pl:itt    p3refpron ;
 
-toinen+Pron+Recipr+Attr:toinen  # ;     ! disambiguation case? +POS
+toinen+Pron+Recipr+Attr:toinen  # ;     ! +POS
 toinen+Pron+Recipr:toi                  toisen ;
-! toinen% toinen+Pron+Recipr: toinen_toisen ; ! +POS?
 
 
 !! Indefiniittipronominit/Kvanttoripronominit
@@ -82,7 +79,6 @@ jokku+Pron+Indef+Pl:joi                 pljoku_indef ;
 muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
 muutamat+Pron+Indef+Pl:muutamat         K   ;
 muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
-
 
 
 yksi+Pron+Indef:                        yh_indef ;
@@ -98,12 +94,7 @@ ainua+Pron+Qu:ainu                      ainut_kvant ;
 itte+Pron+Qu:itt                        itte_kvant ;
 kukin+Pron+Qu:ku                        kukin_kvant ;
 kekin+Pron+Qu:ke                        kekin_kvant ;
-
-kukanen+Pron+Qu:kuka toisen ;
-
-! itte+Pron+Qu+Attr:itt   itte_kvant ;  ! itte(taipuu) kukin(taipuu) ! flag diacritics case?
-! kukin+Pron+Qu:ku        kukin_kvant ;      ! itte(taipuu) kukin(taipuu)
-! kukin+Pron+Qu:ke        kekin_kvant ;      ! itte(taipuu) kekin(taipuu)
+kukanen+Pron+Qu:kuka                    toisen ;
 
 kumpiki+Pron+Qu+Sg:kum                  sgkum_kvant ;
 kummatki+Pron+Qu+Pl:kum                 plkum_kvant ;
