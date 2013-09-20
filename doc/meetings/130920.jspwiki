@@ -1,0 +1,169 @@
+!!!Viikkokokous
+ 
+* Aika: 20.9. klo 13
+* Paikka: internet
+* Välineet: iChat ja SEE tai Skype ja Collabedit
+
+!!!Paikalla
+Trond, Leena, Pirjo ja Mervi
+ 
+
+!!!Agenda
+* Tilannepäivitykset
+* Työtehtävät
+* Tulevat tapahtumat
+* Muut asiat
+
+!!!Tilannepäivitykset
+
+!!Kaisa ja Leena
+
+Kaisa lomalla, 
+
+Leena lukenut Eiran kielioppia, antanut palautetta.
+Oslon ehdotus meni hyvin, voi 
+
+Pitää jättää ennen 1.11. jos haluaa julkaistaa. 10-15 sivua.
+Julkaisusta saa pisteitä.
+
+
+!!Mervi ja Pirjo
+
+Pirjo on katsonnut Terjen sanakirjan adjektiivejä ja adverbejä,
+laatinut ne standardin mukaan.
+
+!!Trond
+
+Ei ole tehnyt paljon -- paitsi ollut Paatsjoella.
+
+!!!Työtehtävät
+
+!!Verbit
+Leena on katsellut verbejä. Pari pikkuongelmaa vielä, kaipaavat
+sääntöjen muokkausta.
+
+
+!!Loput nominit
+
+!Yksikön komitatiivi
+
+Miksi ihmeessä?
+
+!Yamlit
+
+Suurin osa yaml-testeistä on vielä virheellisiä. Osittain
+tämä johtuu tiettyjen sijamuotojen virheistä (monikon illatiivi,esim).
+
+{{{
+FAIL tooli+N+Pl+Ill => Missing results: toolhiin
+FAIL tooli+N+Pl+Ill => Unexpected results: toolh
+FAIL aika+N+Pl+Ess => Missing results: aikoina
+FAIL aika+N+Pl+Ess => Unexpected results: aikkoina
+FAIL elläin+N+Pl+Com => Missing results: elläimine
+FAIL elläin+N+Pl+Com => Unexpected results: elläin+N+Pl+Com+?
+FAIL joki+N+Pl+Gen => Missing results: jokkiin
+FAIL joki+N+Pl+Gen => Unexpected results: jokiin
+FAIL joki+N+Pl+Par => Missing results: jokkii
+FAIL joki+N+Pl+Par => Unexpected results: jokii
+FAIL ruvis+N+Pl+Ess => Missing results: rukhiina
+FAIL ruvis+N+Pl+Ess => Unexpected results: rukhiiinna, rukhiiina
+}}}
+
+Pahoja ongelmia silti on.
+
+* PASS
+**  2: assii - PASS
+**  4: huonet - PASS
+**  5: hyljet - PASS
+**  6: ihminen - PASS
+**  8: kainulainen - PASS
+**  9: kauhee - PASS
+**  10: kirves - PASS
+**  11: linna - PASS
+**  13: maa - PASS
+**  17: rakas - PASS
+**  19: sairhaus - PASS
+**  25: venet - PASS
+* FAIL
+**  1: aika - FAIL
+**  3: ellain - FAIL
+**  7: joki - FAIL
+**  12: lumi - FAIL
+**  14: meininki - FAIL
+**  15: opettaaja - FAIL
+**  16: poika - FAIL
+**  18: ruvis - FAIL
+**  20: suomi - FAIL
+**  21: syksy - FAIL
+**  22: tooli - FAIL
+**  23: tunturi - FAIL
+**  24: tytar - FAIL
+**  26: veres - FAIL
+**  27: vuosi - FAIL
+
+
+__TEHTÄVÄT__
+* Lokakuussa katsotaan tätä listaa. Tavoitteena saada se lyhyemmäksi.
+
+
+!!Loput pronominit
+
+Täältä erin valmis (?). Kielioppissa voi vielä olla aukkoja.
+
+Mutta nyt muut sanaluokat.
+
+!!Muut sanaluokat
+
+* Adjektiivit nominien jälkeen.
+* Muut suljetut ehkä sanakirjatyön jälkeen
+
+!!Sanakirja
+
+Pirjo valmis noin viikon kuluttua. Ciprian lyö sanakirjat
+yhteen Inarin matkan jälkeen, noin 1.10.
+
+Sen jälkeen Toven ja muiden leksikograafien vuoro.
+
+!!!Tulevat tapahtumat
+
+!!Vesisaari 30.09.–01.10.
+
+Kaisa puhuu kveenin kieliteknologiasta.
+
+!!Julkaisu Oslon konferenssiin?
+
+Mietitään kun Kaisa tulee, päätös viikon sisällä.
+Kaikki sanovat mielipiteensä Leenalle.
+
+!!TromSlang
+
+Ehkä kieliteknologian työpajassa.
+
+!!Kokous 29. tai 30. lokakuu
+
+Suomen kielen opettajat Tromssassa koulutuspäivät FM Vesisaaressa ja täällä.
+
+
+!!!Muut asiat
+
+!!Workshopeja
+
+* Tänä vuonna ei enää järjestetä workshoppeja rahanpuutteen vuoksi. Lähiopetusta vain tromssalaisille, muuten yhteydet iChatin kautta.
+* Lomalla olevat ja ne jotka eivät kykene osallistumaan lukevat ohjeita kokouspöytäkirjasta. 
+
+!!Sähköpostilista
+
+Listaan kuuluu kieliteknologiatyöryhmä ja Eira.
+Kaikki kysyvät ja vastaavat, Eira vastaa.
+
+
+
+!!!Seuraava kokous
+
+Seuraava kokous pidetään lokakuun alkupuolella.
+
+main/fkv/doc/meetings/130920.jspwiki
+main/fkv/doc/KvenDocumentation.jspwiki
+
+
+
