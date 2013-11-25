@@ -1,0 +1,28 @@
+
+
+!!!Geminaatio
+
+!!Ennen dift
+
+[FAIL] aika+N+Pl+Par => Missing results: aikkoi
+[FAIL] aika+N+Pl+Par => Unexpected results: aikoi
+
+[FAIL] aika+N+Pl+Ess => Missing results: aikoina
+[FAIL] aika+N+Pl+Ess => Unexpected results: aikkoina
+
+
+
+[FAIL] joki+N+Pl+Gen => Missing results: jokkiin
+[FAIL] joki+N+Pl+Gen => Unexpected results: jokiin
+[FAIL] joki+N+Pl+Par => Missing results: jokkii
+[FAIL] joki+N+Pl+Par => Unexpected results: jokii
+
+
+!!!Puuttuvat
+
+[FAIL] joki+N+Sg+Par => Missing results: jokkee
+[FAIL] joki+N+Sg+Par => Unexpected results: joki+N+Sg+Par+?
+
+
+[FAIL] elläimine => Missing results: elläin+N+Pl+Com
+[FAIL] elläimine => Unexpected results: elläimine+?
