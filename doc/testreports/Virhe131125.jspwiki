@@ -1,28 +1,75 @@
 
+Tässä yritetään katsoa tilannetta.
 
-!!!Geminaatio
+!!!Morfofonologia
 
-!!Ennen dift
+!!Geminaatio
 
-[FAIL] aika+N+Pl+Par => Missing results: aikkoi
-[FAIL] aika+N+Pl+Par => Unexpected results: aikoi
+Geminaatio puuttuu monessa tapauksessa.
 
-[FAIL] aika+N+Pl+Ess => Missing results: aikoina
-[FAIL] aika+N+Pl+Ess => Unexpected results: aikkoina
+!Ennen diftongia
+
+* __FAIL__ aika+N+Pl+Par => Missing results: aikkoi
+* __FAIL__ aika+N+Pl+Par => Unexpected results: aikoi
+
+* __FAIL__ aika+N+Pl+Ess => Missing results: aikoina
+* __FAIL__ aika+N+Pl+Ess => Unexpected results: aikkoina
+
+!Ennen pitkää vokaalia
+
+* __FAIL__ joki+N+Pl+Gen => Missing results: jokkiin
+* __FAIL__ joki+N+Pl+Gen => Unexpected results: jokiin
+
+Tämä koskee ainakin ii, ee, oo, 
+
+Huom: aa toimii:
+
+{{{
+aikkaa
+aikkaa	aika+N+Sg+Par
+aikkoi
+aikkoi	aikkoi	+?
+aikoi
+aikoi	aika+N+Pl+Par
+aikkoina
+aikkoina	aika+N+Pl+Ess
+}}}
+
+Tämä toimi:
+{{{
+"Gemination Va"
+ 0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :a %>:0 [ :a | i7: ] ;   
+        where Cx in ( h j k l m n p r s t v ) ;
+}}}
+
+Tässä ollaan poistettu >nA kontekstista.
+
+{{{
+"Gemination Vo"
+0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :o %>:0 [ :o | i2: | i7: ] \[ %>:0 n %^A: ] ;
+        where Cx in ( h j k l m n p r s t v ) ;
+}}}    
+
+!! Aspiraatio
 
 
+!!!Morfologia
 
-[FAIL] joki+N+Pl+Gen => Missing results: jokkiin
-[FAIL] joki+N+Pl+Gen => Unexpected results: jokiin
-[FAIL] joki+N+Pl+Par => Missing results: jokkii
-[FAIL] joki+N+Pl+Par => Unexpected results: jokii
+Tässä näyttää siltä, että tietyt muodot puuttuvat.
+
+!!Puuttuvat muodot
+
+* Partitiivi
+** __FAIL__ joki+N+Sg+Par => Missing results: jokkee
+** __FAIL__ joki+N+Sg+Par => Unexpected results: joki+N+Sg+Par+?
+* Komitatiivi
+** __FAIL__ elläimine => Missing results: elläin+N+Pl+Com
+** __FAIL__ elläimine => Unexpected results: elläimine+?
 
 
-!!!Puuttuvat
-
-[FAIL] joki+N+Sg+Par => Missing results: jokkee
-[FAIL] joki+N+Sg+Par => Unexpected results: joki+N+Sg+Par+?
+!!Virheelliset muodot
 
 
-[FAIL] elläimine => Missing results: elläin+N+Pl+Com
-[FAIL] elläimine => Unexpected results: elläimine+?
+* Monikon illatiivi
+* alkfj
+
