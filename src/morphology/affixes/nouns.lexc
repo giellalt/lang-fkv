@@ -10,6 +10,7 @@
 !! * 1. Yksitavuiset / Vi ( maa, tuorestai)		 = n_1
 !! * 2. Vokaalirankaiset						 
 !! ** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
+!! *** 2.1.1. Kaksitavuiset (joki: joke)         = n_21ie
 !! ** 2.2 Usseempitav. ( meininki, sivakka)		 = n_22
 !! ** 2.3 Kokkoontumanom. ( valkkee)    		 = n_23
 !! ** 2.3.1 Kokkoontumanom. (assiis)             = n_23ii
@@ -102,6 +103,7 @@ LEXICON n_22	!!= * @CODE@  meininki
 +N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: 2TAVU_V_ill_sg ;
 +N+Sg+Ess:%>nn%^A PxxK ;
++N+Pl+Tra:%>i2ksi K ;
 +N+Pl+Ess:nn%^A gae-strong ;
 +N+Pl:%^WG%>i2 tt-longgenpl ;
 +N+Pl:%>i longparpl ;
