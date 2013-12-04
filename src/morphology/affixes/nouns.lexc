@@ -147,7 +147,7 @@ LEXICON n_31	!!= @CODE@ vuosi, käsi
 +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: 2TAVU_V_ill_sg ;
-+N+Pl+Ill:%^E2I%^HMETAh%>i shortestillpl ;
++N+Pl:%^E2I%^HMETAhii shortestillpl ;
 +N+Pl:%>i2 shortparpl	 ;
 +N+Pl:%>i2 shortgenpl	 ;
 +N+Pl:%^EDEL consgenpl ;
