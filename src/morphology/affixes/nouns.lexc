@@ -271,8 +271,9 @@ LEXICON n_33ts !!= @CODE@ kirves
 LEXICON n_41 !!= * @CODE@ = veres
 +N: sConsCase ; !!= * @CODE@  toistaiseksi :-/
 +N:kse loput ;
-+N+Sg+Ill:ksseen K ;
-+N+Pl+Ill:kssiin K ;
++N+Pl+Par:ksii K ;
++N+Sg+Ill:ksheen K ;
++N+Pl+Ill:kshiin K ;
 
 LEXICON s_kse
 +N:%^WG # ;
