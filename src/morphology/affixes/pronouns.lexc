@@ -16,6 +16,7 @@ LEXICON 12pronsg !!= @CODE@ on 1., 2. p. yksikkö
 +All:nule   K ;
 +Ade:nula    K ;
 +Abl:nulta   K ;
++Abe:nutta	K ;
 
 
 LEXICON han_pron
@@ -30,10 +31,12 @@ LEXICON han_pron
 +All:ele   K ;
 +Ade:elä    K ;
 +Abl:eltä   K ;
++Abe:että	K ;
 
 
 LEXICON 123pronpl  !!= @CODE@ 
 +Nom:t K ;
++Akk:iđät 	K ;
 +Gen:iđän K ; !!đ 
 +Gen:än K ; 
 +Ill:ihiin K ;
@@ -45,6 +48,7 @@ LEXICON 123pronpl  !!= @CODE@
 +All:ile   K ;
 +Ade:ilä    K ;
 +Abl:iltä   K ;
++Abe:ittä	K ;
 
 
 LEXICON se_pron
@@ -62,10 +66,18 @@ LEXICON se_pron
 
 
 LEXICON netpronpl
++Nom:t	K ;
 +Gen:itten K ; !!nii
-+Ill:ihin K ;
++Ill:ihiin K ;
 +Ela:istä   K ;
++Ine:issä	K ;
++Par:itä	K ;
++Tra:iksi	K ;
++Ess:inä	K ;
++All:ile	K ;
++Ade:ilä	K ;
 +Abl:iltä   K ;
++Abe:ittä	K;
 pronobl ;
 
 
