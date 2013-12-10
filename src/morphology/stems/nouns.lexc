@@ -5,7 +5,7 @@ LEXICON NounRoot !!= @CODE@
 !! Leksikkonimet Eiran mukaan
 !! * n1 Eira 1
 !! * n12 Eira 1.1 etc
-!! Luokat n_21 n12 n_22 n_32 n_32s n_32m n_1 n_23 n_33s n-33si n_33t n_41 n_42 n_42odd Eiran v. 2009 mukaan
+!! Luokat n_21 n12 n_22 n_22odd n_32 n_32s n_32m n_1 n_23 n_33s n-33si n_33t n_41 n_42 n_42odd Eiran v. 2009 mukaan
 
 
 !!  2007 s.87
@@ -13,8 +13,8 @@ LEXICON NounRoot !!= @CODE@
 !! * 2. Vokaalirankaiset						 = 
 !! ** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
 !! *** 2.1.1 (joki:joke)						 = n_21ie
-!! ** 2.2.Usseempitav. (opettaaja)		     	 = n_22
-!! ** 2.2.1 Usseempitav. odd ( meininki, sivakka) = n_22odd
+!! ** 2.2. Usseempitav. (opettaaja)		     	 = n_22
+!! *** 2.2.1. Usseempitav. odd ( meininki, sivakka)	= n_22odd
 !! ** 2.3 Kokkoontumanom. ( valkkee,)	      	 = n_23
 !! ** 2.3.1 Kokkoontumanom. ( assii)    		 = n_23ii
 !! * 3. Konsonanttirankaiset					 = 
@@ -1362,7 +1362,7 @@ tervheyssuojelusentteri n_22odd ;
 mutteri n_22odd ; 
 skuutteri n_22odd ; 
 kaveri n_22odd ; 
-matkakaveri n_2odd2 ; 
+matkakaveri n_22odd ; 
 pulveri n_22odd ; 
 näveri n_22odd ; 
 leiri n_21 ; 
@@ -2925,7 +2925,7 @@ kansalinen:kansali n_42 ;
 seuraava:seuraa n_22 ;
 saame:saame	n_21 ;
 oikeus:oikeu n_32s ;
-meedia:meedia n_22odds ;
+meedia:meedia n_22odd ;
 
 
 
