@@ -11,8 +11,8 @@
 !! * 2. Vokaalirankaiset						 
 !! ** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
 !! *** 2.1.1. Kaksitavuiset (joki: joke)         = n_21ie
-!! ** 2.2.Usseempitav. (opettaaja)		      	 = n_22
-!!! ** 2.2.1 Usseempitav. odd (meininki, sivakka) = n_22odd
+!! ** 2.2. Usseempitav. (opettaaja)		      	 = n_22
+!! *** 2.2.1. Usseempitav. odd (meininki, sivakka)	= n_22odd
 !! ** 2.3 Kokkoontumanom. ( valkkee)    		 = n_23
 !! ** 2.3.1 Kokkoontumanom. (assiis)             = n_23ii
 !! * 3. Konsonanttirankaiset					  
@@ -97,6 +97,18 @@ LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom !!joki:joke
 
 
 LEXICON n_22	!!= * @CODE@  opettaaja
++N: strong-v-stem ;
++N:%^WG weak-v-stem ;
++N+Sg:%^WG sgpl-cases-short ;
++N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N: 2TAVU_V_ill_sg ;
++N+Sg+Ess:%>nn%^A PxxK ;
++N+Pl+Tra:%>i2ksi K ;
++N+Pl+Tra:i%>ksi PxxK ;
++N+Pl+Ess:i2%>n%^A PxxK ;
++N+Pl:%^WG%>i2 tt-longgenpl ;
++N+Pl:%>i longparpl ;
++N+Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
 
 LEXICON n_22odd	!!= * @CODE@  meininki
 +N: strong-v-stem ;
