@@ -28,6 +28,7 @@ GT_FILTER_TARGETS+=\
 				   remove-derivation-position-tags.hfst   \
 				   remove-dialect-tags.hfst               \
 				   remove-homonymy-tags.hfst              \
+				   remove-semantic-tags-except-prop.hfst  \
 				   remove-norm-comp-tags.hfst             \
 				   remove-number-string-tags.hfst         \
 				   remove-orig_lang-tags.hfst             \
@@ -62,6 +63,7 @@ GT_FILTER_TARGETS+=\
 				   remove-derivation-position-tags.xfst   \
 				   remove-dialect-tags.xfst               \
 				   remove-homonymy-tags.xfst              \
+				   remove-semantic-tags-except-prop.xfst  \
 				   remove-norm-comp-tags.xfst             \
 				   remove-number-string-tags.xfst         \
 				   remove-orig_lang-tags.xfst             \
