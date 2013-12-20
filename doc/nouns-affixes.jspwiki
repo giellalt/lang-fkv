@@ -8,11 +8,14 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 * 1. Yksitavuiset / Vi ( maa, tuorestai)		 = n_1
 * 2. Vokaalirankaiset						 
 ** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
-** 2.2 Usseempitav. ( meininki, sivakka)		 = n_22
+*** 2.1.1. Kaksitavuiset (joki: joke)         = n_21ie
+** 2.2. Usseempitav. (opettaaja)		      	 = n_22
+*** 2.2.1. Usseempitav. odd (meininki, sivakka)	= n_22odd
 ** 2.3 Kokkoontumanom. ( valkkee)    		 = n_23
 ** 2.3.1 Kokkoontumanom. (assiis)             = n_23ii
 * 3. Konsonanttirankaiset					  
 ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
+** 3.1.1. Kaksitavuiset lumi)                 = n_31m
 ** 3.2 Usseempitavuiset 
 ** 3.2.1 (tytär)                              = n_32
 ** 3.2.2. (elläin)                            = n_32m
@@ -53,9 +56,10 @@ these two lexica for cases with
 the same affix in sg and pl
 
 
+ * LEXICON n_22	  opettaaja
+the same affix in sg and pl
 
-
- * LEXICON n_22	  meininki
+ * LEXICON n_22odd	  meininki
 these two lexica for cases with
 the same affix in sg and pl
 
