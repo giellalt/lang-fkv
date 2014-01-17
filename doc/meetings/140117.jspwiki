@@ -1,0 +1,240 @@
+!!!Viikkokokous
+ 
+* Aika: 17.1. klo 13
+* Paikka: internet
+* Välineet: Google Hangouts ja Docs
+
+!!!Paikalla Trond, Leena, Kaisa, Pirjo ja Mervi
+ 
+ 
+!!!Tapahtunut
+!!Fleksibel utanning: Oahpa etc.
+Fleksibel utdanning on saanut rahaa ⇒ fkv-oahpa
+http://giellatekno.uit.no/ped/fleksi/FleksibelUtdanning.html
+
+!!Fleksibel utanning: Kveenin alkeiskurssin tekemiseen
+Sanasto, jne. Linkitetään oahpaan ja nds:ään.
+
+!!Suunnitelmia korpuksen tekemiseen
+Tarvitaan: KI (Terje, Pirjo, …), RK, Kaisan tekstit, …
+
+
+!!!Kuka tekee mitä, milloin ja miksi?
+!!Konehuoltoa ja -huolia
+… on parasta ratkaista
+
+!!Twolc: 
+Komitatiivi
+Geminaatio: 
+^V oli yamltestin outputissa, eli jossakin puuttuu “:”
+
+!!Nominit
+* Lisää nominia yaml-testeihin.
+* Silloin-tällöin näyttää siltä, että puuttuu muotoja.
+
+!!status quo:
+
+
+!!yaml-testit
+
+Monet toimivat (mukamas :-(
+{{{
+YAML test 17: ./N-rakas_gt-norm.yaml + analyser-gt-norm.hfst - PASS
+YAML test 18: ./N-ruvis_gt-norm.yaml + analyser-gt-norm.hfst - PASS
+YAML test 19: ./N-sairhaus_gt-norm.yaml + analyser-gt-norm.hfst - PASS
+}}}
+
+Mutta niiden yaml-tiedostoista puuttuvat monet muodot.
+
+
+! Monikon komitatiivi
+
+{{{
+[FAIL] elläin+N+Pl+Com => Missing results: elläimine
+[FAIL] elläin+N+Pl+Com => Unexpected results: elläin+N+Pl+Com+?
+[FAIL] lumi+N+Pl+Com => Missing results: lumine
+[FAIL] lumi+N+Pl+Com => Unexpected results: lumi+N+Pl+Com+?
+[FAIL] suomi+N+Pl+Com => Missing results: suomine
+[FAIL] suomi+N+Pl+Com => Unexpected results: suomi+N+Pl+Com+?
+}}}
+
+!Monikon genitiivi JA monikon partitiivi
+
+{{{
+[FAIL] joki+N+Pl+Gen => Missing results: jokkiin
+[FAIL] joki+N+Pl+Gen => Unexpected results: jokiin
+[FAIL] joki+N+Pl+Par => Missing results: jokkii
+[FAIL] joki+N+Pl+Par => Unexpected results: jokii
+}}}
+
+!Monikon genetiivi JA monikon Illatiivi
+{{{
+[FAIL] tunturi+N+Pl+Gen => Missing results: tunturiin
+[FAIL] tunturi+N+Pl+Gen => Unexpected results: tunturiitten
+[FAIL] tunturi+N+Pl+Ill => Missing results: tunturiihin
+[FAIL] tunturi+N+Pl+Ill => Unexpected results: tunturhiin
+}}}
+
+! Kaikki monikkomuodot
+
+{{{
+[FAIL] poika+N+Pl+Gen => Missing results: poikkiin
+[FAIL] poika+N+Pl+Gen => Unexpected results: poikain
+[FAIL] poika+N+Pl+Par => Missing results: poikkii
+[FAIL] poika+N+Pl+Par => Unexpected results: poikai
+[FAIL] poika+N+Pl+Tra => Missing results: pojiksi
+[FAIL] poika+N+Pl+Tra => Unexpected results: pojaiksi
+[FAIL] poika+N+Pl+Abe => Missing results: pojitta
+[FAIL] poika+N+Pl+Abe => Unexpected results: pojaitta
+[FAIL] poika+N+Pl+Ine => Missing results: pojissa
+[FAIL] poika+N+Pl+Ine => Unexpected results: pojaissa
+[FAIL] poika+N+Pl+Ela => Missing results: pojista
+[FAIL] poika+N+Pl+Ela => Unexpected results: pojaista
+[FAIL] poika+N+Pl+Ill => Missing results: poikhiin
+[FAIL] poika+N+Pl+Ill => Unexpected results: poikh
+[FAIL] poika+N+Pl+Ade => Missing results: pojila
+[FAIL] poika+N+Pl+Ade => Unexpected results: pojaila
+[FAIL] poika+N+Pl+Abl => Missing results: pojilta
+[FAIL] poika+N+Pl+Abl => Unexpected results: pojailta
+[FAIL] poika+N+Pl+All => Missing results: pojile
+[FAIL] poika+N+Pl+All => Unexpected results: pojaile
+[FAIL] poika+N+Pl+Ess => Missing results: poikina
+[FAIL] poika+N+Pl+Ess => Unexpected results: poikaina
+
+Samoin opettaja
+[FAIL] opettaaja+N+Pl+Gen => Missing results: opettaajiitten
+[FAIL] opettaaja+N+Pl+Gen => Unexpected results: opettaajoitten
+…
+}}}
+
+
+
+! Essiivi
+{{{
+[FAIL] aika+N+Pl+Ess => Missing results: aikoina
+[FAIL] aika+N+Pl+Ess => Unexpected results: aikkoina
+[FAIL] maa+N+Sg+Ess => Missing results: maana
+[FAIL] maa+N+Sg+Ess => Unexpected results: maa+N+Sg+Ess+?
+[FAIL] maa+N+Pl+Ess => Missing results: maina
+[FAIL] maa+N+Pl+Ess => Unexpected results: maa+N+Pl+Ess+?
+}}}
+
+__TEHTÄVÄ__
+
+* Lisätä nominien puuttuvat yaml-muodot.
+* Korjata helpot jutut
+
+
+!!Verbit
+Puuttuvat:
+aikkoot, anttaat, 
+
+[FAIL] anttaat+V+Act+Ind+Prt+Sg1 => Missing results: annoin
+[FAIL] anttaat+V+Act+Ind+Prt+Sg1 => Unexpected results: annain
+[FAIL] anttaat+V+Act+Ind+Prt+Sg2 => Missing results: annoit
+[FAIL] anttaat+V+Act+Ind+Prt+Sg2 => Unexpected results: annait
+[FAIL] anttaat+V+Act+Ind+Prt+Sg3 => Missing results: antoi
+[FAIL] anttaat+V+Act+Ind+Prt+Sg3 => Unexpected results: antai
+[FAIL] anttaat+V+Act+Ind+Prt+Pl1 => Missing results: annoima
+[FAIL] anttaat+V+Act+Ind+Prt+Pl1 => Unexpected results: annaima
+[FAIL] anttaat+V+Act+Ind+Prt+Pl2 => Missing results: annoitta
+[FAIL] anttaat+V+Act+Ind+Prt+Pl2 => Unexpected results: annaitta
+
+
+
+
+!Yksityistapauksia: 
+lukkiija : lukkiijoita
+meininki : meininkiitä
+
+!!Pronominit
+
+Mervi.
+
+!!Mitä sanakirjalle kuuluu?
+Syyskuun pöytäkirja:
+Pirjo valmis noin viikon kuluttua. Ciprian lyö sanakirjat yhteen Inarin matkan jälkeen, noin 1.10. Sen jälkeen Toven ja muiden leksikograafien vuoro.
+Terjen sanakirja (fkvnob/src) on nyt virallisen ortografian mukainen.
+Seuraava on siis Ciprianin vuoro.
+
+* Terje: src/
+* Aikamatka: inc/pos_aikamtka
+
+{{{
+   <e src="ai">
+      <lg>
+         <l pos="A">ahđas</l>
+      </lg>
+      <mg>
+         <tg>
+            <t>trang</t>
+         </tg>
+      </mg>
+   </e>
+
+   <e>
+      <lg>
+         <l pos="A">ahđas</l>
+         <stem>ahthaa</stem>
+      </lg>
+      <mg>
+         <tg>
+            <t decl="a1" pos="A">trang</t>
+         </tg>
+      </mg>
+   </e>
+}}}
+
+
+   <e>
+      <lg>
+         <l pos="N">kulttuuri</l>
+      </lg>
+      <mg>
+         <tg>
+            <t pos="N" decl="m">kultur</t>
+         </tg>
+      </mg>
+   </e>
+
+   <e src="ai">
+      <lg>
+         <l pos="N">kulttuuri</l>
+      </lg>
+      <mg>
+         <tg>
+            <t>kultur</t>
+         </tg>
+      </mg>
+   </e>
+
+
+Nämä pitää nyt lyödä yhteen:
+
+   <e src=”ai,ta”>
+      <lg>
+         <l pos="A">ahđas</l>
+         <stem>ahthaa</stem>
+      </lg>
+      <mg>
+         <tg>
+            <t decl="a1" pos="A">trang</t>
+         </tg>
+      </mg>
+   </e>
+}}}
+
+
+!!Revitalisaatio-kieliteknologia -tapaaminen Inarissa Inkeri-seura n kanssa?
+Milloin ja mitä: Helena Miettinen?
+Ollaan positiivisia. Idea on hyvä.
+
+!!!Sähköpostilista
+: Sähköpostilista Listaan kuuluu kieliteknologiatyöryhmä ja Eira. Kaikki kysyvät ja vastaavat, Eira vastaa.
+Mervi on tehnyt, hienoa.
+
+!!!Seuraava kokous
+Viikolla 6 tai 7
+
+main/fkv/doc/meetings/161013.jspwiki main/fkv/doc/KvenDocumentation.jspwiki
+
