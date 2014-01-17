@@ -129,6 +129,7 @@ __TEHTÄVÄ__
 Puuttuvat:
 aikkoot, anttaat, 
 
+{{{
 [FAIL] anttaat+V+Act+Ind+Prt+Sg1 => Missing results: annoin
 [FAIL] anttaat+V+Act+Ind+Prt+Sg1 => Unexpected results: annain
 [FAIL] anttaat+V+Act+Ind+Prt+Sg2 => Missing results: annoit
@@ -139,7 +140,7 @@ aikkoot, anttaat,
 [FAIL] anttaat+V+Act+Ind+Prt+Pl1 => Unexpected results: annaima
 [FAIL] anttaat+V+Act+Ind+Prt+Pl2 => Missing results: annoitta
 [FAIL] anttaat+V+Act+Ind+Prt+Pl2 => Unexpected results: annaitta
-
+}}}
 
 
 
@@ -185,7 +186,7 @@ Seuraava on siis Ciprianin vuoro.
    </e>
 }}}
 
-
+{{{
    <e>
       <lg>
          <l pos="N">kulttuuri</l>
@@ -207,10 +208,11 @@ Seuraava on siis Ciprianin vuoro.
          </tg>
       </mg>
    </e>
-
+}}}
 
 Nämä pitää nyt lyödä yhteen:
 
+{{{
    <e src=”ai,ta”>
       <lg>
          <l pos="A">ahđas</l>
