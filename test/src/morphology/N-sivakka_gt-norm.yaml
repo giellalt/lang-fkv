@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - sivakka: # Noun 'borg' - ei tsekattu
+     sivakka+N+Sg+Nom: sivakka
+     sivakka+N+Sg+Gen: sivakan
+     sivakka+N+Sg+Par: sivakkaa
+     sivakka+N+Sg+Tra: sivakaksi
+     sivakka+N+Sg+Abe: sivakatta
+     sivakka+N+Sg+Ine: sivakassa
+     sivakka+N+Sg+Ela: sivakasta
+     sivakka+N+Sg+Ill: sivakkhaan
+     sivakka+N+Sg+Ade: sivakalla
+     sivakka+N+Sg+Abl: sivakalta
+     sivakka+N+Sg+All: sivakalle
+     sivakka+N+Sg+Ess: sivakkanna
+     sivakka+N+Pl+Nom: sivakat
+     sivakka+N+Pl+Gen: sivakoitten
+     sivakka+N+Pl+Par: sivakoita
+     sivakka+N+Pl+Tra: sivakoiksi
+     sivakka+N+Pl+Abe: sivakoiitta
+     sivakka+N+Pl+Ine: sivakoissa
+     sivakka+N+Pl+Ela: sivakoista
+     sivakka+N+Pl+Ill: sivakkhoin
+     sivakka+N+Pl+Ade: sivakoilla
+     sivakka+N+Pl+Abl: sivakoilta
+     sivakka+N+Pl+All: sivakoille
+     sivakka+N+Pl+Ess: sivakoina
+     Sivakka+N+Pl+Com: sivakoine
