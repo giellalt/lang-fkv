@@ -201,8 +201,8 @@ LEXICON n_32 !!= @CODE@ tytär tyttär
 +N:e 2TAVU_V_ill_sg ;
 +N+Sg:e sgpl-cases-long ;      
 +N+Pl:%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
++N+Pl:i%>i2 tt-longgenpl ;
 +N+Pl:i%>i2 longparpl ;
-+N+Pl:i%>i2 longgenpl ;
 +N+Pl:%^HMETAh%>i2i shortestillpl;
 +N+Pl+Com:%>ine K ;
 
