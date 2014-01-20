@@ -195,8 +195,7 @@ LEXICON n_32 !!= @CODE@ tytär tyttär
 +N+Pl:i%>i2 longparpl ;
 +N+Pl:i%>i2 longgenpl ;
 +N+Pl:%^HMETAh%>i2i shortestillpl;
-+N+Sg:i%>i2 com ;
-+N+Pl:i%>i2 com ;
++N+Pl+Com:ine K ;
 
 
 LEXICON n_32m !!= @CODE@ elläin elläi
@@ -214,8 +213,7 @@ LEXICON n_32m !!= @CODE@ elläin elläi
 +N+Pl:mi%>i2 longparpl ;
 +N+Pl:mi%>i2 longgenpl ;
 +N+Pl:m%^HMETAh%>i2i shortestillpl;
-+N+Sg:mi%>i2 com ;
-+N+Pl:mi%>i2 com ;
++N+Pl+Com:mine K ;
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
@@ -320,8 +318,7 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
   nom-nen ;
  :s R ;
  :se gae-strong ;
- +Sg:se%>i2 com ;
- +Pl:se%>i2 com ;
+ +Pl+kom:sine K ;
  :se weak-v-stem ;
  :s long-par ;
  :se 2TAVU_V_ill_sg ;
