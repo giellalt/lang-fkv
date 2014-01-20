@@ -94,6 +94,8 @@ LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom !!joki:joke
 +N+Pl:%^E2I%>i2	shortestgenpl ;
 +N:	2TAVU_edel-ill ;
 +N+Pl:%^E2I%> shortparpl ;
++N+Pl+Com:%>i2ne K ;
+
 
 
 LEXICON n_22	!!= * @CODE@  opettaaja
@@ -109,7 +111,7 @@ LEXICON n_22	!!= * @CODE@  opettaaja
 +N+Pl:%^WG%>i2 tt-longgenpl ;
 +N+Pl:%>i longparpl ;
 +N+Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
-+N+Pl+Com:i2ne K ;
++N+Pl+Com:%>i2ne K ;
 
 LEXICON n_22odd	!!= * @CODE@  meininki
 +N: strong-v-stem ;
@@ -179,7 +181,7 @@ LEXICON n_31m	!!= @CODE@ lumi lu
 +N+Sg+Ill:m%>%^HMETAhee n-PxK ;
 +N+Pl+Ill:m%^EDEL%>hii n-PxK ;
 +N+Pl:mmi%>i2 shortparpl ;
-+N+Pl+Com:mine K ;
++N+Pl+Com:m%>ine K ;
 
 LEXICON n_32 !!= @CODE@ tytär tyttär
 +N+Sg+Nom:%^WG K ;
@@ -196,7 +198,7 @@ LEXICON n_32 !!= @CODE@ tytär tyttär
 +N+Pl:i%>i2 longparpl ;
 +N+Pl:i%>i2 longgenpl ;
 +N+Pl:%^HMETAh%>i2i shortestillpl;
-+N+Pl+Com:ine K ;
++N+Pl+Com:%>ine K ;
 
 
 LEXICON n_32m !!= @CODE@ elläin elläi
@@ -214,7 +216,7 @@ LEXICON n_32m !!= @CODE@ elläin elläi
 +N+Pl:mi%>i2 longparpl ;
 +N+Pl:mi%>i2 longgenpl ;
 +N+Pl:m%^HMETAh%>i2i shortestillpl;
-+N+Pl+Com:mine K ;
++N+Pl+Com:m%>ine K ;
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
