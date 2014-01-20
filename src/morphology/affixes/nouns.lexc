@@ -288,6 +288,7 @@ LEXICON n_41 !!= * @CODE@ = veres
 +N+Pl+Par:ksiitä K ;
 +N+Sg+Ill:ksheen K ;
 +N+Pl+Ill:kshiin K ;
++N+Pl+Com:ksine K ;
 
 LEXICON s_kse
 +N:%^WG # ;
@@ -395,7 +396,7 @@ LEXICON nom-strong
 
 LEXICON obl-strong 
  gae-strong ;
- +Sg:%>i2 com ;
+! +Sg:%>i2 com ;
  +Pl:%>i2 com ;
 
  
