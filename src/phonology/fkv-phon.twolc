@@ -93,7 +93,7 @@ Rules
 
 "Gemination Vo"
 !! __@RULENAME@__ 
-0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :o %>:0 [ :o | i2: | i7: ] \[ %>:0 n %^A: ] ;
+0:Cx <=> .#. Conson:* Vowel:* Vowel Cx _ :o %>:0 [ :o | i2: | i7: ] \[ :i %>:0 n %^A: ] ;
         where Cx in ( h j k l m n p r s t v ) ;
     
 "Gemination Vu"
@@ -424,6 +424,7 @@ e:0 <=> Conson: _ [ (Dummy:* - %^E2I:0) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
 "a:o before Pl i"
 !! __@RULENAME@__ 
  a:o <=> .#. Conson:* (Vowel:) [i|e|a] Conson:* (:Conson) _ Dummy:* %>:0 i2: ; ! 2-syll
+         .#. Conson:* (Vowel:) [i|e|a] Conson:* (:Conson) _ %^AO:0 ;
          Vowel Conson Conson:* Vowel:+ Conson:+ (:Conson) _ Dummy:* %>:0 i2: ; ! 3-syll
 !               .#. Conson:* a ([a|u]) Conson:* (:Conson) _ Dummy:* %>:0 i3: ;
 
