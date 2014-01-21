@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - valkkee ok: # Noun 'sak'
+     valkkee+N+Sg+Nom: valkkee
+     valkkee+N+Sg+Gen: valkkeen
+     valkkee+N+Sg+Par: valkkeeta
+     valkkee+N+Sg+Tra: valkkeeksi
+     valkkee+N+Sg+Abe: valkkeetta
+     valkkee+N+Sg+Ine: valkkeessa
+     valkkee+N+Sg+Ela: valkkeesta
+     valkkee+N+Sg+Ill: valkkeesseen
+     valkkee+N+Sg+Ade: valkkeela
+     valkkee+N+Sg+Abl: valkkeelta
+     valkkee+N+Sg+All: valkkeele
+     valkkee+N+Sg+Ess: valkkeena
+     valkkee+N+Pl+Nom: valkkeet
+     valkkee+N+Pl+Gen: valkkeitten
+     valkkee+N+Pl+Par: valkkeita
+     valkkee+N+Pl+Tra: valkkeiksi
+     valkkee+N+Pl+Abe: valkkeitta
+     valkkee+N+Pl+Ine: valkkeissa
+     valkkee+N+Pl+Ela: valkkeista
+     valkkee+N+Pl+Ill: valkkeissiin
+     valkkee+N+Pl+Ade: valkkeila
+     valkkee+N+Pl+Abl: valkkeilta
+     valkkee+N+Pl+All: valkkeile
+     valkkee+N+Pl+Ess: valkkeina
+     valkkee+N+Pl+Com: valkkeine
