@@ -145,19 +145,18 @@ LEXICON n_23ii	!!= * @CODE@  assii
 +N+Pl+Com:%>i2ne K ;
 
 LEXICON n_23	!!= * @CODE@  valkkee
-+N+Sg+Nom: K ; 
-+N+Sg+Nom: R ;
-+N+Sg+Ill:sseen  K ;
-+N+Pl+Ill:ssiin K ;
-+N: long-par-sg ;
-+N+Pl: longparpl ;
-+N: obl-strong ;
-+N+Pl: tt-longgenpl ;
-+N: weak-v-stem ;
-+N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:%^WG sgpl-cases-short ;  !! the same affix in sg and pl
-+N+Pl+Ess:%>n%^A PxxK ;
-+N+Pl+Com:%>i2ne K ;
++N+Sg+Nom:e K ; 
++N+Sg:e sgpl-cases-short ;
++N+Sg+Gen:en K ; 
++N+Pl+Nom:et K ;
++N+Sg+Ill:esseen  K ;
++N+Pl+Ill:e%>i2ssiin K ;
++N:e long-par-sg ;
++N+Pl:e%>i2 longparpl ;
++N+Pl:e%>i2 tt-longgenpl ;
++N+Pl:e%>i2 sgpl-cases-short ; 
++N+Pl+Ess:e%>i2n%^A PxxK ;
++N+Pl+Com:e%>i2ne K ;
 
 
 
