@@ -68,10 +68,8 @@ LEXICON n_21	!!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo
 +N+Pl+Com:%^WG%>i2ne K ;
  
 
-LEXICON n_21pl	!!= * @CODE@  "poika", lyhyt vokali, yks vartalo
+LEXICON n_21pl	!!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
  +N+Pl+Nom:%>t K ; 
- +N: weak-v-stem ; ! Pitææ hoitaa, nyt väärin
- +N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
  +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
  +Pl+Nom: Px ;   ! mattoni
  +Pl+Ess:%>i2%>n%^A PxxK ;
