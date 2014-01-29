@@ -235,15 +235,15 @@ k:j <=>    [a|e|i|i6:] _ [o|e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! pako 
          [ä|æ|e|i|i6:] _   [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! m̈äki  - mäjen
              [e|i|i6:] _   [e:|i|ä|æ|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
                  [r|l] _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki - jäljen
-              Conson u _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuki  - tujen
+              Conson u _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
         
 "Gradation k:0" 
-k:0 <=>              h _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ;
- Vowel [Vowel - [e|i]] _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ;
-                     a _ a               (Dummy:) (:i) (Dummy:) %^WG:0 ;
-                     y _ e               (Dummy:) (:i) (Dummy:) %^WG:0 ;
-  [ NotOUIF: | l | r ] _ NotEYUF:        (Dummy:) (:i) (Dummy:) %^WG:0 ;  
-  [ NotOUIB: | l | r ] _ NotEYUB:        (Dummy:) (:i) (Dummy:) %^WG:0 ;  
+k:0 <=>              h _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
+! Vowel [Vowel - [e|i]] _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kaiku - kaiun?
+                     a _ a               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata
+                     y _ e               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä
+  [ NotOUIF: | l | r ] _ NotEYUF:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
+  [ NotOUIB: | l | r ] _ NotEYUB:        (Dummy:) (:i) (Dummy:) %^WG:0 ; !märkä - märät
 
 
 
@@ -277,7 +277,7 @@ k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "Gradation Nt:NN"
 !! __@RULENAME@__ 
-t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0  ;  
+t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;  
 !t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 (%>:0) \i3: ;  
     where Nx in ( l n r ) ; 
 ! NB nt:nn before i3, if the vowel before i3 is not dropped out. 
@@ -421,11 +421,16 @@ a:0 <=> \a [(u) u|([u|o]) o] (i) Conson: (Conson:) (Conson:) _  Dummy:* %>:0 [i2
 !! __@RULENAME@__ 
  a:o <=> .#. Conson:* (Vowel:) [i|e|a] Conson:* (:Conson) _ Dummy:* %>:0 i2: ; ! 2-syll
          .#. Conson:* (Vowel:) [i|e|a] Conson:* (:Conson) _ %^AO:0 ;
-         Vowel Conson Conson:* Vowel:+ Conson:+ (:Conson) _ Dummy:* %>:0 i2: ; ! 3-syll
+!                                     .#. (
+         Vowel Conson Conson:* ([Vowel - a]) Vowel Conson:+ (:Conson) _ Dummy:* %>:0 i2: ; ! 3-syll
 !               .#. Conson:* a ([a|u]) Conson:* (:Conson) _ Dummy:* %>:0 i3: ;
 
+
+"a:i in 3-syll stems with long a and i"
+a:i <=> Vowel Conson Conson:* a a Conson:+ (:Conson) _ Dummy:* %>:0 i2: ; ! 3-syll
+
 !€ kala>i2en
-!€ kalo0jen
+!€ kalloin
 !€ kulkkiija>i2
 !€ kulkkiijo0i
 
