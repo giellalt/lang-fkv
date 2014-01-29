@@ -90,9 +90,9 @@ LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom !!joki:joke
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
-+N+Pl:%^E2I%>i2	shortestgenpl ;
++N+Pl:%>i2i shortestgenpl ;
 +N:	2TAVU_edel-ill ;
-+N+Pl:%^E2I%> shortparpl ;
++N+Pl:%>i2 shortparpl ;
 +N+Pl+Com:%>i2ne K ;
 
 
