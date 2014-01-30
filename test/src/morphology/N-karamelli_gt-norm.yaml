@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - karamelli - ei tsekattu : # Noun 'borg' - ei tsekattu
+     karamelli+N+Sg+Nom: karamelli
+     karamelli+N+Sg+Gen: karamellin
+     karamelli+N+Sg+Par: karamellii
+     karamelli+N+Sg+Tra: karamelliksi
+     karamelli+N+Sg+Abe: karamellitta
+     karamelli+N+Sg+Ine: karamellissa
+     karamelli+N+Sg+Ela: karamellista
+     karamelli+N+Sg+Ill: karamellhiin
+     karamelli+N+Sg+Ade: karamellila
+     karamelli+N+Sg+Abl: karamellilta
+     karamelli+N+Sg+All: karamellile
+     karamelli+N+Sg+Ess: karamellina
+     karamelli+N+Pl+Nom: karamellit
+     karamelli+N+Pl+Gen: karamelliitten
+     karamelli+N+Pl+Par: karamelliita
+     karamelli+N+Pl+Tra: karamelliiksi
+     karamelli+N+Pl+Abe: karamelliitta
+     karamelli+N+Pl+Ine: karamelliissa
+     karamelli+N+Pl+Ela: karamelliista
+     karamelli+N+Pl+Ill: karamellhiin
+     karamelli+N+Pl+Ade: karamelliila
+     karamelli+N+Pl+Abl: karamelliilta
+     karamelli+N+Pl+All: karamelliile
+     karamelli+N+Pl+Ess: karamelliina
+     karamelli+N+Pl+Com: karamelliine
