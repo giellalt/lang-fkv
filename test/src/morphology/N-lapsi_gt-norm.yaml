@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - lapsi - ok : # Noun 'år' - ok
+     lapsi+N+Sg+Nom: lapsi
+     lapsi+N+Sg+Gen: lapsen
+     lapsi+N+Sg+Par: lasta
+     lapsi+N+Sg+Tra: lapseksi
+     lapsi+N+Sg+Abe: lapsetta
+     lapsi+N+Sg+Ine: lapsessa
+     lapsi+N+Sg+Ela: lapsesta
+     lapsi+N+Sg+Ill: lapsheen
+     lapsi+N+Sg+Ade: lapsela
+     lapsi+N+Sg+Abl: lapselta
+     lapsi+N+Sg+All: lapsele
+     lapsi+N+Sg+Ess: lapsena
+     lapsi+N+Pl+Nom: lapset
+     lapsi+N+Pl+Gen: lapssiin
+     lapsi+N+Pl+Par: lapssii
+     lapsi+N+Pl+Tra: lapsiksi
+     lapsi+N+Pl+Abe: lapsitta
+     lapsi+N+Pl+Ine: lapsissa
+     lapsi+N+Pl+Ela: lapsista
+     lapsi+N+Pl+Ill: lapshiin
+     lapsi+N+Pl+Ade: lapsila
+     lapsi+N+Pl+Abl: lapsilta
+     lapsi+N+Pl+All: lapsile
+     lapsi+N+Pl+Ess: lapsina
+     lapsi+N+Pl+Com: lapsine
