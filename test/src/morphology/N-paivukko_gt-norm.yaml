@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - paivukko - ei tsekattu : # Noun 'borg' - ei tsekattu
+     paivukko+N+Sg+Nom: paivukko
+     paivukko+N+Sg+Gen: paivukon
+     paivukko+N+Sg+Par: paivukkoo
+     paivukko+N+Sg+Tra: paivukoksi
+     paivukko+N+Sg+Abe: paivukotta
+     paivukko+N+Sg+Ine: paivukossa
+     paivukko+N+Sg+Ela: paivukosta
+     paivukko+N+Sg+Ill: paivukkhoon
+     paivukko+N+Sg+Ade: paivukolla
+     paivukko+N+Sg+Abl: paivukolta
+     paivukko+N+Sg+All: paivukolle
+     paivukko+N+Sg+Ess: paivukkonna
+     paivukko+N+Pl+Nom: paivukot
+     paivukko+N+Pl+Gen: paivukoitten
+     paivukko+N+Pl+Par: paivukoita
+     paivukko+N+Pl+Tra: paivukoiksi
+     paivukko+N+Pl+Abe: paivukoitta
+     paivukko+N+Pl+Ine: paivukoissa
+     paivukko+N+Pl+Ela: paivukoista
+     paivukko+N+Pl+Ill: paivukkhoin
+     paivukko+N+Pl+Ade: paivukoilla
+     paivukko+N+Pl+Abl: paivukoilta
+     paivukko+N+Pl+All: paivukoille
+     paivukko+N+Pl+Ess: paivukkoina
+     paivukko+N+Pl+Com: paivukkoine
