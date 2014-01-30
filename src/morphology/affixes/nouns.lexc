@@ -71,10 +71,11 @@ LEXICON n_21	!!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo
 LEXICON n_21pl	!!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
  +N+Pl+Nom:%>t K ; 
  +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
- +Pl+Nom: Px ;   ! mattoni
- +Pl+Ess:%>i2%>n%^A PxxK ;
- +Pl+Gen:   kk-longgenpl;
- +Pl+Par:   kk-longgparpl;
+ +N+Pl+Ess:%>i2%>n%^A PxxK ;
+ +N+Pl:%>i2 tt-longgenpl ;
+ +N+Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
+ +N+Pl:%>i2 shortestparpl  ;
+ +N+Pl+Com:%>i2ne K ;
  
  LEXICON kk-longgenpl
  +Gen:%>kk%>i2 # ; ! kk ?? Tsekkaa..
