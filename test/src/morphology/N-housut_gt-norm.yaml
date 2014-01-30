@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - housut - ok : # Noun 'tid' - eu tsekattu
+     housut+N+Pl+Nom: housut
+     housut+N+Pl+Gen: housuitten
+     housut+N+Pl+Par: housui
+     housut+N+Pl+Tra: housuiksi
+     housut+N+Pl+Abe: housuitta
+     housut+N+Pl+Ine: housuissa
+     housut+N+Pl+Ela: housuista
+     housut+N+Pl+Ill: houshuun
+     housut+N+Pl+Ade: housuila
+     housut+N+Pl+Abl: housuilta
+     housut+N+Pl+All: housuile
+     housut+N+Pl+Ess: housuina
+     housut+N+Pl+Com: housuine
