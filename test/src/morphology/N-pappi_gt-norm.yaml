@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - pappi - ok : # Noun 'tid' - eu tsekattu
+     pappi+N+Sg+Nom: pappi
+     pappi+N+Sg+Gen: papin
+     pappi+N+Sg+Par: pappii
+     pappi+N+Sg+Tra: papiksi
+     pappi+N+Sg+Abe: papitta
+     pappi+N+Sg+Ine: papissa
+     pappi+N+Sg+Ela: papista
+     pappi+N+Sg+Ill: papphiin
+     pappi+N+Sg+Ade: papila
+     pappi+N+Sg+Abl: papilta
+     pappi+N+Sg+All: papile
+     pappi+N+Sg+Ess: pappina
+     pappi+N+Pl+Nom: papit
+     pappi+N+Pl+Gen: pappiin
+     pappi+N+Pl+Par: pappii
+     pappi+N+Pl+Tra: papiiksi
+     pappi+N+Pl+Abe: papiitta
+     pappi+N+Pl+Ine: papiissa
+     pappi+N+Pl+Ela: papiista
+     pappi+N+Pl+Ill: papphiin
+     pappi+N+Pl+Ade: papiila
+     pappi+N+Pl+Abl: papiilta
+     pappi+N+Pl+All: papiile
+     pappi+N+Pl+Ess: pappiina
+     pappi+N+Pl+Com: pappiine
