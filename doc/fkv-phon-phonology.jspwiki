@@ -35,13 +35,13 @@
  * NotOUI  = e                     y ä ö ü æ ø a ;                     
  * NotOUIY = e                       ä ö   æ ø a ;                     
 
- * NotOUIF = e                     y ä ö ü æ ø   ;                     
- * NotOUIB = e                                 a ;                     
+ * NotOUIF =                      y ä ö ü æ ø   ;                     and e? (removed 29.1.)
+ * NotOUIB =                                  a ;                     and e? (removed 29.1.)
  * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;               
  * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;               
 
  * ArchiConson = %^N ;                                              
- * Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;    
+ * Conson = b c d đ f g h j k l m n p q r s t v w x z t2 %^N ;    
  * Segment = Vowel Conson ;                                         
  * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;    
  * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;   
@@ -81,8 +81,6 @@ __Gemination LIQa__
 
 __Gemination LIQe__ 
 
-__Gemination LIQi__ 
-
 __Gemination LIQo__ 
 
 __Gemination LIQu__ 
@@ -92,6 +90,10 @@ __Gemination LIQy__
 __Gemination LIQö__ 
 
 __Gemination LIQä__ 
+
+__Gemination LIQä__ 
+
+__Gemination LIQi7__ 
 
 
 
@@ -148,6 +150,7 @@ __Gradation i:0, in word poika: pojan__
 
 
 
+
 __Gradation nk:ng__ 
 
 
@@ -157,18 +160,14 @@ __Gradation nk:ng__
 
 __Gradation t:đ__ 
 
-__Gradation t:đ after h__ 
-
-
-__Gradation Nt:NN__ 
-
-!!Other consonant rules
-
-__Alveolar assimilation for consonant stems__ 
 
 
 __ti:si__ 
 
+
+__Gradation Nt:NN__ 
+
+__Alveolar assimilation for consonant stems__ 
 
 
 __m:n in par.sg. of lumi__
@@ -183,21 +182,21 @@ __Back harmony__
 
 __Vowel copying__  
 
+__Vowel copying in long h forms of a-stems__ 
+
+
 __Vowel copying in short h-illative__
 maahan
 
 __Vowel copying in long h forms__ 
 
 
-
 __Vowel copying in long h forms 2__ 
-
-__Vowel copying in long h forms of a-stems__ 
 
 
 __Stem deletion in h-illative__ 
 
-__Stem deletion in h-illative b__ 
+__Stem deletion in h-illative__ 
 
 
 
@@ -225,16 +224,19 @@ The -i- rules require different i-s for different POS.
 
 __a:0 before Pret and Pl i when rounded root vowel__ 
 
-__a:0 before Pret and Pl i when rounded root vowel__ 
-
 __a:o before Pl i__ 
 
 
 
 
+
+__a:e in participles__ 
+
 __ä:0 before i except in conditional__ 
 
 __Shortening of long vowel in front of i__ 
+
+
 
 __Shortening of long vowel when vowel lengthening__ 
 
@@ -247,9 +249,6 @@ __e:i in nom.sg. of e-stems__
 
 
 
-!!Other vowel rules
-
-__a:e in participles__ 
 
 
 
@@ -258,30 +257,5 @@ __a:e in participles__
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-** this will not give uku - uvun, but puku - puvun.
 
 
