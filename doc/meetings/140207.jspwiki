@@ -1,0 +1,67 @@
+!!!Viikkokokous
+ 
+* Aika: 7.2.2014 klo 14
+* Paikka: internet
+* Välineet: iChat ja SEE
+
+!!!Paikalla Leena, Mervi ja Trond
+ 
+!!!Agenda
+* Trondin tilannepäivitys KI:n kokouksesta
+* Työtehtävät
+* Muut asiat
+
+ 
+!!!Trondin tilannepäivitys KI:n kokouksesta
+
+Raha on tullut, ja kieliteknologialle lähinnä workshoppien järjestämiseen. Sanapuohityö liittyy myös kieliteknologiaprojektiin ja pyrimme edistämään Kielitingan työtä.
+
+Kieliteknologia 100 000 kr
+Sanapuohityö 400 000 kr
+
+
+!!!Työtehtävät
+
+!!Puhua ehdokkaiden kanssa
+
+* KI hoitaa rekrytoinnin.
+* Sen jälkeen mietitään työtehtäviä.
+
+!!Sisältö
+
+Leksikotyö
+
+
+!!!Muut asiat
+
+!!Kielitingan pöytäkirjat
+
+Viime vuosien pöytäkirjat olisi vihdoin julkaistava netissä.
+
+
+!!nobfkv:n laajentaminen
+
+Status quo: Trond kysyy Cipiltä.
+
+{{{
+inc>g '<trans ' nobfkv.xml |c
+    4272
+inc>g '<trans ' nobfkv.xml |g -v '<trans pos' |c
+     277
+inc>g '<lemma ' nobfkv.xml |c
+    3663
+inc>g '<stem>' nobfkv.xml |c
+    4003
+}}}
+
+!!Teknisiä ongelmia fkv:ssä
+
+Make ei toimi.
+
+{{{
+svn log fkv-phon.twolc | see
+
+svn up -r12345 fkv-phon.twolc
+}}}
+
+main/fkv/doc/meetings/070214.jspwiki main/fkv/doc/KvenDocumentation.jspwiki
