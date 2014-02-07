@@ -269,7 +269,7 @@ k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !t:đ <=> [ Vowel | l | r ] _  Vowel: (Dummy:) %^WG:0 ;  
 !t:đ <=> Vowel  _  Vowel: (Dummy:) %^WG:0 ;  
  t:đ <=> Vowel  _  Vowel: (Dummy:) %^WG:0 \i3: ;  
-     <=> h _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
+      h _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
 
 !!!% "Gradation t:đ after h"
 !!!% !! __@RULENAME@__ 
@@ -328,7 +328,7 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0 ] %>:0
 "Vowel copying in long h forms of a-stems"
 !! __@RULENAME@__ 
  %^V:o <=> .#. Conson:* (Vowel:) [i|e|a] Conson:* a: %>:0 %^HMETA: h _ %^AO: i2: ; 
-       <=>     :Vx [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
+            :Vx [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
 
 
 "Vowel copying in short h-illative"
