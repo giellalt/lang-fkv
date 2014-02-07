@@ -44,7 +44,7 @@ NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;              !!= * @CO
 NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;              !!= * @CODE@ 
 
 ArchiConson = %^N ;                                             !!= * @CODE@ 
-Conson = b c d đ f g h j k l m n p q r s t v w x y z t2 %^N ;   !!= * @CODE@ 
+Conson = b c d đ f g h j k l m n p q r s t v w x z t2 %^N ;   !!= * @CODE@ 
 Segment = Vowel Conson ;                                        !!= * @CODE@ 
 Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;   !!= * @CODE@ 
 NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;  !!= * @CODE@ 
@@ -236,23 +236,33 @@ i6:0 <=> _ k: a %^WG:0;
 ! jälki: jäljen ; järki; järjen; kulkkeet: kuljen; särkkeet : särjen
 
 "Gradation k:j" 
-k:j <=>    [a|e|i|i6:] _ [o|e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! pako  - pajon???
+!k:j <=>    [a|e|i|i6:] _ [o|e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! pako  - pajon? conflict k:v
+k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! 
          [ä|æ|e|i|i6:] _   [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! m̈äki  - mäjen
              [e|i|i6:] _   [e:|i|ä|æ|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
                  [r|l] _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki - jäljen
               Conson u _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
         
 "Gradation k:0" 
-k:0 <=>              h _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
-! Vowel [Vowel - [e|i]] _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kaiku - kaiun?
-                     a _ a               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata
-                     y _ e               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä
-  [ NotOUIF: | l | r ] _ NotEYUF:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
-  [ NotOUIB: | l | r ] _ NotEYUB:        (Dummy:) (:i) (Dummy:) %^WG:0 ; !märkä - märät
+k:0 <=>                h _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
+                       a _ a               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata
+                       y _ e               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä
+      NotOUIF: [ l | r ] _ NotEYUF:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
+      NotOUIB: [ l | r ] _ NotEYUB:        (Dummy:) (:i) (Dummy:) %^WG:0 ; !märkä - märät
+!  Vowel [Vowel - [e|i]] _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kaiku - kaiun?
+!   [ NotOUIF: | l | r ] _ NotEYUF:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
+!   [ NotOUIB: | l | r ] _ NotEYUB:        (Dummy:) (:i) (Dummy:) %^WG:0 ; !märkä - märät
+
+
+!   a | e | i | i6: _ [o | e: | i] (Dummy:) (:i) (Dummy:) ^WG:0 ;
+!   NotOUIB: | l | r _ NotEYUB: (Dummy:) (:i) (Dummy:) ^WG:0 ;
+! Left context example:     a
+! Right context example:    i +:0 ^WG:0
+
 
 "k:v"
 k:v <=>     [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
-           \i [o|ö|u|y] _ [Vowel - e ] (Dummy:) (:i) (Dummy:) %^WG:0 ;
+           \i [o|ö|u|y] _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ;
                   [o|ö] _  e:          (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "Gradation nk:ng"
@@ -268,16 +278,23 @@ k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !! __@RULENAME@__ 
 !t:đ <=> [ Vowel | l | r ] _  Vowel: (Dummy:) %^WG:0 ;  
 !t:đ <=> Vowel  _  Vowel: (Dummy:) %^WG:0 ;  
- t:đ <=> Vowel  _  Vowel: (Dummy:) %^WG:0 \i3: ;  
-      h _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
 
-!!!% "Gradation t:đ after h"
-!!!% !! __@RULENAME@__ 
-!!!%     t:đ <=> h _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
+ t:đ <=> Vowel  _  [Vowel: - [\i3:|\i6:|\i2:]] (Dummy:) %^WG:0 [\i3:|\i6:|\i2:] ;  
+         h _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
 
  ! lähteet : lähđen/lähen
 !€ lahti^WG
 !€ lahđi0
+
+
+"ti:si"
+!! __@RULENAME@__ 
+t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>:0 i3: | (:s) e: %>:0 i2: [.#.|Cns]] ;
+        Vowel   _ [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>:0 i3: | (:s) e: %>:0 i2: [.#.|Cns]] ;
+
+! vuote^E2I
+! vuoss00i0i
+! vuottii
 
 "Gradation Nt:NN"
 !! __@RULENAME@__ 
@@ -290,14 +307,6 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 !! __@RULENAME@__ 
  %^N:Cx <=> Cx: %>: _ ;
     where Cx in ( l r s ) ; 
-
-"ti:si"
-!! __@RULENAME@__ 
-t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0 ] %>:0 i3: | (:s) e: %>:0 i2: [.#.|Cns]] ;
-
-! vuot0e>i2>i
-! vuoss00i0i
-! vuottii
 
 
 "m:n in par.sg. of lumi"
@@ -322,13 +331,17 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0 ] %>:0
          
 "Vowel copying"
 !! __@RULENAME@__  
- %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
+ %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>:0 _ ;!(%>:0) [ (%>:0) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
     where Vx in ( a e i u y ä ö ) ; ! o in next rule
     
 "Vowel copying in long h forms of a-stems"
 !! __@RULENAME@__ 
  %^V:o <=> .#. Conson:* (Vowel:) [i|e|a] Conson:* a: %>:0 %^HMETA: h _ %^AO: i2: ; 
+<<<<<<< .mine
+                                        :o [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
+=======
             :Vx [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
+>>>>>>> .r88381
 
 
 "Vowel copying in short h-illative"
@@ -344,12 +357,6 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0 ] %>:0
           Vy in ( a e i i  o u y ä ö ) 
              matched ;
  
-! %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h _ %^V: ; 
-! %^V:Vx <=>  Vx: %>:0 %^HMETA: h _ %^V: ; 
-
-!"e copying in long h forms" 
-! %^V:Vx <=>  Vx: %>:0 %^HMETA: h _ %^V: ; 
-!    where Vx in ( a e i o u y ä ö ) ; 
 
 "Vowel copying in long h forms 2"
 !! __@RULENAME@__ 
@@ -365,18 +372,14 @@ t:s <=> Vowel (n) _ [ (e:) ( %>:0) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0 ] %>:0
  Vx:0 <=> Conson _ %>:0 %^HMETA:0 h [ %^V: | %^AO: ] ; 
     where Vx in ( a e i o u y ä ö ) ; 
     
-"Stem deletion in h-illative b"
-!! __@RULENAME@__ 
- Vx:0 <=> Conson _ %>:0 %^HMETA:0 h %^V: ; 
-    where Vx in ( a e i o u y ä ö ) ;  
+! "Stem deletion in h-illative b"
+! !! __@RULENAME@__ 
+!  Vx:0 <=> Conson _ %>:0 %^HMETA:0 h %^V: ; 
+!     where Vx in ( a e i o u y ä ö ) ;  
        
 !€ syksy>h^V^Vn
 !€ syks000     h
 
-!"Vowel copying in s-illative" 
-! %^V:Vx <=> Vx: %>:0 s %^V: _ ; 
-!    where Vx in ( a e i o u y ä ö ) ; 
-! tämä pitää kai olla -seen, -siin
 
 "e deletion in illative plural"
  e:0 <=> _ %^EDEL:0 %>:0 h ;
@@ -416,49 +419,47 @@ e:0 <=> Conson: _ [ (Dummy:* - %^E2I:0) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__ 
-a:0 <=> \a [(u) u|([u|o]) o] (i) Conson: (Conson:) (Conson:) _  Dummy:* %>:0 Dummy:* [i2:|i3:] ;
+a:0 <=> \a [(u) u|([u|o]) o] (i) Conson: (Conson:) (Conson:) _  [Dummy: - %^AE:] %>:0 Dummy:* [i2:|i3:] ;
 ! a:0 <=>          [u|o]     (i) Conson: (Conson:) (Conson:) _ (Dummy:) %>:0 [i2:|i3:] ;
 ! otan - otin  
 
 "a:o before Pl i"
 !! __@RULENAME@__ 
- a:o <=>     .#. Conson:* (Vowel:) [i|e|a] Conson:* (:Conson) _ Dummy:* %>:0 i2: ; ! 2-syll
-             .#. Conson:* (Vowel:) [i|e|a] Conson:* (:Conson) _ %^AO:0 ;
- Vowel Conson Conson:* ([Vowel - a]) Vowel Conson:+ (:Conson) _ Dummy:* %>:0 i2: ; ! 3-syll
-!                   .#. Conson:* a ([a|u]) Conson:* (:Conson) _ Dummy:* %>:0 i3: ;
+ a:o <=>  .#. Conson:* ([Vowel: - [a|o|u]]) [i|e|a] Conson:* (:Conson) _ [Dummy: - %^AE:] %>:0 i2: ; ! 2-syll
+          .#. Conson:* ([Vowel: - [a|o|u]]) [i|e|a] Conson:* (:Conson) _ %^AO:0 ;
+  Vowel Conson Conson:* ([Vowel - [a|o|u]]) [i|e|a] Conson:+ (:Conson) _ [Dummy: - %^AE:] %>:0 i2: ; ! 3-syll
+! Vowel Conson Conson:* ([Vowel - [a|o|u]]) Vowel   Conson:+ (:Conson) _ [Dummy: - %^AE:] %>:0 i2: ; ! 3-syll
+!          .#. Conson:*   a                 ([a|u]) Conson:* (:Conson) _ [Dummy: - %^AE:] %>:0 i3: ;
 
 "a:o for HMETA"
- %^V:o <=> .#. Conson:* a ([a|u]) Conson:* (:Conson) Dummy:* %>:0 %^HMETA:0 h _ %^AO:0 ;
+ %^V:o <=> .#. Conson:* a ([a|u]) Conson:* (:Conson) [Dummy: - %^AE:] %>:0 %^HMETA:0 h _ %^AO:0 ;
 
 
 "a:i in 3-syll stems with long a and i"
-a:i <=> Vowel Conson Conson:* a a Conson:+ (:Conson) _ Dummy:* %>:0 i2: ; ! 3-syll
+a:i <=> Vowel Conson Conson:* a a Conson:+ (:Conson) _ (%^WG:) %>:0 i2: ; ! 3-syll
 
 !€ kala>i2en
 !€ kalloin
 !€ kulkkiija>i2
 !€ kulkkiijo0i
 
-! "a:o before Pret i"
-! ! __@RULENAME@__ 
-!  a:o <=> .#. Conson:* a ([a|u]) Conson:* _ Dummy:* %>:0 i3: ;
-
-
-!"a:0 before Pret i when rounded root vowel in 3-syll stems"  
-! a:0 <=> [u|o] (i) Conson: (Conson:) (Conson:) _ (Dummy: - %^AE:0) %>:0 [i2:|i3:] ;
-!€ kirjoitta>i3
-!€ kirjoitt00i
+"a:e in participles"
+!! __@RULENAME@__ 
+ Vx:e <=> _ %^AE:0 ;
+ 	where Vx in ( a ä ) ;
 
 "ä:0 before i except in conditional"
 !! __@RULENAME@__ 
- ä:0 <=> Conson: _ Dummy:* %>:0 [ i | i2: | i3: | i5: ] ;
+ ä:0 <=> Conson: _ [Dummy: - %^AE:] %>:0 [ i | i2: | i3: | i5: ] ;
 
 "Shortening of long vowel in front of i"
 !! __@RULENAME@__ 
- Vx:0 <=> _ Vy %>: (Dummy:) [ i | i2: | i3: | i4:] ; 
+ Vx:0 <=> _ Vy %>: ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; 
      where Vx in ( a ä u y u y i ) 
           Vy in ( a ä u y o ö e )
           matched ;
+
+
           
 "Shortening of long vowel when vowel lengthening"
 !! __@RULENAME@__ 
@@ -479,70 +480,6 @@ a:i <=> Vowel Conson Conson:* a a Conson:+ (:Conson) _ Dummy:* %>:0 i2: ; ! 3-sy
 
 
 
-!! !!Other vowel rules
-!  ======================
-
-"a:e in participles"
-!! __@RULENAME@__ 
- Vx:e <=> _ %^AE:0 ;
- 	where Vx in ( a ä ) ;
-
-
-
-
-! ===================================================
-! ===================================================
-! ===================================================
-
-! Here come old rules, note that there might be
-! good ideas buried here or there.
-
-
-! e:i <=> Conson: _ ( %+: Conson:) %>:0 [ i2:i | i2:j ] %>:0
-!       where Conson in ( h j k l m n p r s t v ) ;
-! !e:i <=> Conson: _ ( %+:0 ) i ; 
-! e:i <=> i: _ (%+) Vowel: %^WG:0 ;
-
-
-! Perhäps in Finnish only, cf. papila : papiila
-!"i:e in i-stems" 
-! i:e <=> Conson: _ ( Dummy:) %>:0 [ i2:i | i2:j ] %>:0 \Vowel ;
-
-
-
-! !€ kävel>NU
-! !€ käve00ly
-! ! "Suffix shortening after long vowels"
-!  Cx:0 <=> Vowel (%>:) Vowel %>: ( Dummy: ) _ Cx: Vowel ;
-!      where Cx in ( l r m n ) ;
-! 
-! "Suffix shortening after short vowels in even syllbles"
-!  Cx:0 <=>  (Conson+) Vowel+ Conson+ Vowel %>: ( Dummy: ) _ Cx: Vowel ;
-!      where Cx in ( l r m n ) ;
-! !All XYZ to be removed and replaced with human-readable tags
-! ! "e:0 in plural of e-stems" ! ovien
-!  e:0 <=> _  (Dummy:)  %>:0 [ i2:i | i2:j ] ;
-! ! Y1 removed
-! 
-! 
-! "i:e in i-stems"
-!  i:e <=> Conson: _ ( X4:) %>:0 [ i2:i | i2:j ] %>:0 ;
-! 
-! Outcommented because this is standard Finnish, not Kven
-! "i as j intervocalically in affixes"
-!  i2:j <=> [ Vow - :i ] (Dummy: | %^¤: ) %>:0 _ %>:0 Vow:Vow ; 
-! ! valoien : valojen
-! 
-! "a to 0 in front of i"
-!  a:0 <=> _ [ X2: | Y2: ] %>:0 i2: ;
-! !a:0 <=> [ u | o ] (Neutral) Conson: Conson:* _  (Dummy:) [ X2: | Y2: ] %>: i2: ;
-! ! koiraien : koirien
-! 
-! "a to o in front of i"
-!  a:o <=> _ [ X4: | Y1: | Y3: ] %>:0 i2: ;
-! !a:o <=> a Conson: Conson:*  _  (Dummy:) Y3: %>: i: ;
-!  ! kalaien : kalojen
-! 
 
 
 
@@ -551,53 +488,5 @@ a:i <=> Vowel Conson Conson:* a a Conson:+ (:Conson) _ Dummy:* %>:0 i2: ; ! 3-sy
 
 
 
-!"II-I omppu" 
-!Cy:0 <=> Cx Cy _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
-!        where Cx in ( l l l m n n r r r)
-!              Cy in ( k p t p k t k p t)
-!    matched ;
-
-!€ omppu^WG
-!€ omp0u0
-
-! Cy Dobbelkonsonant
-! Cx Enkelkonsonant
-! f.eks. lkk-lk: pölkkää-pölkäs 
-
-
-
-
-! Old rules
-
-! "Gradation k:j after i"  @CODE@  
-! k:j <=> [ i|i6: ] _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
-
-
-! "Gradation k:j after l,r, before e" 
-!  k:j <=> [u|a|l|r] _ [e|e:0] (Dummy:) %^WG:0 ;  
-! ! k:j <=> [l|r] _ [e|e:0] %^WG:0 ;  
-! 
-! ! pölkä>^WGt^A : pölätä 
-
-! "Gradation k:0"  @CODE@  
-!  k:0 <=> [ NotOUI: | l | r ] _  NotEYU: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
-! !k:0 <=> [ NotOUIY: | l | r ] _  NotEY: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
-! 
-! !"Gradation of k:0 after y" 
-! !k:0 <=> y _  NotEY: (Dummy:) (:i) (Dummy:) %^WG:0 ;  
-! ! haka>^WGn : ha0a00n
-! 
-
-
-! old "Gradation k:v between u/y"  
-! old k:v <=> Conson [Vowel - :i] _ u            (Dummy:) (:i) (Dummy:) %^WG:0 ;
-! old         Conson u            _ [Vowel - e ] (Dummy:) (:i) (Dummy:) %^WG:0 ;
-! old         Conson [Vowel - :i] _ y            (Dummy:) (:i) (Dummy:) %^WG:0 ;
-! old !k:v <=> Conson u _ u (Dummy:) (:i) (Dummy:) %^WG:0 ;
-! old !        Conson y _ y (Dummy:) (:i) (Dummy:) %^WG:0 ;
-! old 
-! old !¢ näky^WGn
-! old !€ nävy0n
-! old !! ** this will not give uku - uvun, but puku - puvun.
 
 
