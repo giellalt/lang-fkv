@@ -337,11 +337,9 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 "Vowel copying in long h forms of a-stems"
 !! __@RULENAME@__ 
  %^V:o <=> .#. Conson:* (Vowel:) [i|e|a] Conson:* a: %>:0 %^HMETA: h _ %^AO: i2: ; 
-<<<<<<< .mine
-                                        :o [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
-=======
-            :Vx [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
->>>>>>> .r88381
+           :o [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
+!>>> .r88381         :Vx [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
+
 
 
 "Vowel copying in short h-illative"
