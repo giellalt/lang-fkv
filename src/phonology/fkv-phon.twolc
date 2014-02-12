@@ -448,7 +448,7 @@ a:i <=> Vowel Conson Conson:* a a Conson:+ (:Conson) _ (%^WG:) %>:0 i2: ; ! 3-sy
 
 "ä:0 before i except in conditional"
 !! __@RULENAME@__ 
- ä:0 <=> Conson: _ [Dummy: - %^AE:] %>:0 [ i | i2: | i3: | i5: ] ;
+ ä:0 <=> Conson: _ ([Dummy: - %^AE:]) %>:0 [ i | i2: | i3: | i5: ] ;
 
 "Shortening of long vowel in front of i"
 !! __@RULENAME@__ 
