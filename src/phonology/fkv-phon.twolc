@@ -329,10 +329,10 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 
 !! !!Vowel copying and metathesis
          
-"Vowel copying"
+"Vowel copying" ! 
 !! __@RULENAME@__  
  %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>:0 _ ;!(%>:0) [ (%>:0) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
-    where Vx in ( a e i u y ä ö ) ; ! o in next rule
+    where Vx in ( a e i u y ä ö ) ; ! o in next rule 
     
 "Vowel copying in long h forms of a-stems"
 !! __@RULENAME@__ 
@@ -367,7 +367,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
     
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
- Vx:0 <=> Conson _ %>:0 %^HMETA:0 h [ %^V: | %^AO: ] ; 
+ Vx:0 <=> Conson _ %>:0 %^HMETA:0 h [ %^V: | %^AO: ]  ; 
     where Vx in ( a e i o u y ä ö ) ; 
     
 ! "Stem deletion in h-illative b"
@@ -417,7 +417,7 @@ e:0 <=> Conson: _ [ (Dummy:* - %^E2I:0) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__ 
-a:0 <=> \a [(u) u|([u|o]) o] (i) Conson: (Conson:) (Conson:) _  [Dummy: - %^AE:] %>:0 Dummy:* [i2:|i3:] ;
+a:0 <=> \a [(u) u|([u|o]) o] (i) Conson: (Conson:) (Conson:) _  ([Dummy: - %^AE:]) %>:0 Dummy:* [i2:|i3:] ;
 ! a:0 <=>          [u|o]     (i) Conson: (Conson:) (Conson:) _ (Dummy:) %>:0 [i2:|i3:] ;
 ! otan - otin  
 
@@ -461,7 +461,7 @@ a:i <=> Vowel Conson Conson:* a a Conson:+ (:Conson) _ (%^WG:) %>:0 i2: ; ! 3-sy
           
 "Shortening of long vowel when vowel lengthening"
 !! __@RULENAME@__ 
- %^V:0 <=> Vowel %>: _ %>:0 i4: ; 
+ %^V:0 <=> Vowel %>: _ %>:0 [ i3:i | i4:i ] ; 
 
 
 "e:i in nom.sg. of e-stems"
