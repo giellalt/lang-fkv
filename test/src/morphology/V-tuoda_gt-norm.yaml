@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - tuođa - ok: # Verb 'to bring' 
+  Verb - tuođa - ei tsekattu: # Verb 'to bring' 
      tuođa+V+Inf: tuođa
      tuođa+V+Act+Ind+Prs+Sg1: tuon
      tuođa+V+Act+Ind+Prs+Sg2: tuot
@@ -31,6 +31,8 @@ Tests:
      tuođa+V+Act+PrfPrc+Sg+Nom: tuonu
      tuođa+V+Pass+PrfPrc+Nom: tuotu
      tuođa+V+Act+PrfPrc+Pl+Nom: tuonheet
+     tuođa+V+Act+PrsPrc+Nom: tuova
+     tuođa+V+Pass+PrsPrc+Nom: tuotava
      
      tuođa+V+Act+Cond+Sg1: toisin
      tuođa+V+Act+Cond+Sg2: toisit
