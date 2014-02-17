@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - pajeta  - ok : # Verb 'to bring' - ok
+  Verb - pajeta  - ok : # Verb 'to bring' - ei tsekattu
      pajeta+V+Inf: pajeta
      pajeta+V+Act+Ind+Prs+Sg1: pakenen
      pajeta+V+Act+Ind+Prs+Sg2: pakenet
@@ -31,6 +31,9 @@ Tests:
      pajeta+V+Act+PrfPrc+Sg+Nom: pajenu
      pajeta+V+Pass+PrfPrc+Nom: pajettu
      pajeta+V+Act+PrfPrc+Pl+Nom: pajenheet
+     pajeta+V+Act+PrsPrc+Nom: pakeneeeva
+     pajeta+V+Pass+PrsPrc+Nom: pajettava
+     
      
      pajeta+V+Act+Cond+Sg1: pakenisin
      pajeta+V+Act+Cond+Sg2: pakenisit

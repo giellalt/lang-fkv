@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - piikaroita - ok : # Verb 'to bring' - ok
+  Verb - piikaroita - ok : # Verb 'to bring' - ei tsekattu
      piikaroita+V+Inf: piikaroita
      piikaroita+V+Act+Ind+Prs+Sg1: piikaroitten
      piikaroita+V+Act+Ind+Prs+Sg2: piikaroittet
@@ -31,6 +31,8 @@ Tests:
      piikaroita+V+Act+PrfPrc+Sg+Nom: piikaroinu
      piikaroita+V+Pass+PrfPrc+Nom: piikaroittu
      piikaroita+V+Act+PrfPrc+Pl+Nom: piikaroinheet
+     piikaroita+V+Act+PrsPrc+Nom: piikaroiva
+     piikaroita+V+Pass+PrsPrc+Nom: piikaroittava
 
      piikaroita+V+Act+Cond+Sg1: piikaroittisin
      piikaroita+V+Act+Cond+Sg2: piikaroittisit

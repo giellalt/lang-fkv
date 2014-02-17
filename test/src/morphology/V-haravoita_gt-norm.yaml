@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - haravoita - ok : # Verb 'to bring' - ok
+  Verb - haravoita - ok : # Verb 'to bring' - ei tsekattu
      haravoita+V+Inf: haravoita
      haravoita+V+Act+Ind+Prs+Sg1: haravoitten
      haravoita+V+Act+Ind+Prs+Sg2: haravoittet
@@ -31,6 +31,8 @@ Tests:
      haravoita+V+Act+PrfPrc+Sg+Nom: haravoinu
      haravoita+V+Pass+PrfPrc+Nom: haravoittu
      haravoita+V+Act+PrfPrc+Pl+Nom: haravoinheet
+     haravoita+V+Act+PrsPrc+Sg+Nom: haravoiva
+     haravoitava+V+Pass+PrsPrc+Nom: haravoittava
 
      haravoita+V+Act+Cond+Sg1: haravoittisin
      haravoita+V+Act+Cond+Sg2: haravoittisit
