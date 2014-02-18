@@ -367,8 +367,10 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
     
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
- Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ %^V: | %^AO: ]  ; 
-    where Vx in ( a e i o u y ä ö ) ; 
+ Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ %^V: | %^AO: | i: ]  ; 
+    where Vx in ( a e i o u y ä ö ) ;
+
+! oppettaajhiin 
     
 ! "Stem deletion in h-illative b"
 ! !! __@RULENAME@__ 
@@ -429,6 +431,11 @@ a:0 <=> \a [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  ([Dummy: - %^AE:]) %>:0 D
 ! Vowel Cns Cns:* ([Vowel - [a|o|u]]) Vowel   Cns:+ (:Cns) _ [Dummy: - %^AE:] %>:0 i2: ; ! 3-syll
 !          .#. Cns:*   a                 ([a|u]) Cns:* (:Cns) _ [Dummy: - %^AE:] %>:0 i3: ;
 
+!€ kala>i2en
+!€ kalloin
+!€ kulkkiija>i2
+!€ kulkkiijo0i
+
 "a:o for HMETA"
  %^V:o <=> .#. Cns:* a ([a|u]) Cns:* (:Cns) [Dummy: - %^AE:] %>:0 %^HMETA:0 h _ %^AO:0 ;
 
@@ -436,10 +443,7 @@ a:0 <=> \a [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  ([Dummy: - %^AE:]) %>:0 D
 "a:i in 3-syll stems with long a and i"
 a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>:0 i2: ; ! 3-syll
 
-!€ kala>i2en
-!€ kalloin
-!€ kulkkiija>i2
-!€ kulkkiijo0i
+! opettaajiissa
 
 "a:e in participles"
 !! __@RULENAME@__ 
