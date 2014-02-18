@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - housut - ok : # Noun 'tid' - eu tsekattu
+  Noun - housut - ok : # Noun 'tid' - ei tsekattu
      housut+N+Pl+Nom: housut
      housut+N+Pl+Gen: housuitten
      housut+N+Pl+Par: housui
@@ -22,7 +22,7 @@ Tests:
      housut+N+Pl+Abe: housuitta
      housut+N+Pl+Ine: housuissa
      housut+N+Pl+Ela: housuista
-     housut+N+Pl+Ill: houshuun
+     housut+N+Pl+Ill: houshuin
      housut+N+Pl+Ade: housuila
      housut+N+Pl+Abl: housuilta
      housut+N+Pl+All: housuile
