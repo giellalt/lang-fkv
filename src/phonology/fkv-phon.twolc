@@ -334,12 +334,20 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
  %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>:0 _ ;!(%>:0) [ (%>:0) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
     where Vx in ( a e i u y ä ö ) ; ! o in next rule 
     
+! poika : poikaa
+! kive : kivee
+    
 "Vowel copying in long h forms of a-stems"
 !! __@RULENAME@__ 
  %^V:o <=> .#. Cns:* (Vowel:) [i|e|a] Cns:* a: %>:0 %^HMETA: h _ %^AO: i2: ; 
            :o [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
 !>>> .r88381         :Vx [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
 
+! Mikä säätö?
+! traaka : traakkhoin
+! sivakka : sivakkhoin 
+! katto : kattoo alempi sääntö?
+! paivukko : paivukkoo
 
 
 "Vowel copying in short h-illative"
