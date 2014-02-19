@@ -60,11 +60,11 @@ LEXICON n_21	!!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;      !! * to sgpl-cases-short for cases with
-+N+Pl:%>%^AO%^WG%>i2 sgpl-cases-short ;  !!   the same affix in sg and pl
++N+Pl:%>%^WG%>i2 sgpl-cases-short ;  !!   the same affix in sg and pl
 +N: 2TAVU_V_ill_sg ;
 +N+Pl:%>%^AO%>i2 shortestgenpl ;  !! * to shortestgenpl since we already
 +N+Pl:%>%^AO%>i2 shortestparpl  ; !!   have the i
-+N+Pl+Ill:%>%^AO%>%^HMETAhi%>i2 n-PxK ;
++N+Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
 +N+Pl+Com:%>%^AO%>i2ne K ;
  
 
