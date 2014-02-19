@@ -309,7 +309,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
     where Cx in ( l r s ) ; 
 
 
-"m:n in par.sg. of lumi"
+!"m:n in par.sg. of lumi"
 !! __@RULENAME@__
 ! m:n <=> .#. Cns (Vowel) Vowel _ e:0 %>:0 t %^A: [:a | :ä ] ; 
 
@@ -473,7 +473,7 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>:0 i2: ; ! 3-syll
 ! ottaa : otan : ottaisin i4 ei passaa kaikkialle!
 
           
-"Shortening of long vowel when vowel lengthening"
+!"Shortening of long vowel when vowel lengthening"
 !! __@RULENAME@__ 
 ! %^V:0 <=> Vowel %>: _ %>:0 [ i3:i | i4:i ] ; 
  
