@@ -311,7 +311,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 
 "m:n in par.sg. of lumi"
 !! __@RULENAME@__
- m:n <=> .#. Cns (Vowel) Vowel _ e:0 %>:0 t %^A: [:a | :ä ] ; 
+! m:n <=> .#. Cns (Vowel) Vowel _ e:0 %>:0 t %^A: [:a | :ä ] ; 
 
 ! ===============
 !! !!!Vowel rules
@@ -367,7 +367,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
     
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
- Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ %^V: | %^AO: | i: ]  ; 
+ Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ %^V: | %^AO: | i: ] ; 
     where Vx in ( a e i o u y ä ö ) ;
 
 ! oppettaajhiin 
@@ -460,12 +460,22 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>:0 i2: ; ! 3-syll
      where Vx in ( a ä u y u y i ) 
           Vy in ( a ä u y o ö e )
           matched ;
-
+! pää : päissä
+! saa∂a : sain : saisin
+! ottaa : otan : ottaisin i4 ei passaa kaikkialle!
 
           
 "Shortening of long vowel when vowel lengthening"
 !! __@RULENAME@__ 
- %^V:0 <=> Vowel %>: _ %>:0 [ i3:i | i4:i ] ; 
+! %^V:0 <=> Vowel %>: _ %>:0 [ i3:i | i4:i ] ; 
+ 
+! Tämä sääntö aiheuttaa paljon ratkaisemattomia konflikteja säännön "Vowel copying" kanssa.
+! Mikä tämä sääntö on ja miten se eroaa edelisestä "Shortening of long vowel in front of i"?
+! soppiit: sopi: sopisi
+! juttaat: juti : jutaisi?
+! saa∂a: sai : saisin
+! jää∂ä : jäin : jäisin
+! Poistettu toistaiseksi
 
 
 "e:i in nom.sg. of e-stems"
