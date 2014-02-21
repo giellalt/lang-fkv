@@ -340,7 +340,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 "Vowel copying in long h forms of a-stems"
 !! __@RULENAME@__ 
  %^V:o <=> .#. Cns:* (Vowel:) [i|e|a] Cns:* a: %>:0 %^HMETA: h _ %^AO: i2: ; 
-           :o [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
+           :o [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) (Cns|.#.)] ;
 !>>> .r88381         :Vx [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
 
 ! Mikä säätö?
