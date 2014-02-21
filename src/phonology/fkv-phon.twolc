@@ -377,7 +377,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
     
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
- Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ %^V: | %^AO: | i: ] ; 
+ Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ %^V: | %^AO: | i: | o:] ; 
     where Vx in ( a e i o u y ä ö ) ;
 
 ! oppettaajhiin 
