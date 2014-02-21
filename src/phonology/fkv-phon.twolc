@@ -73,11 +73,17 @@ Rules
  0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :a %>:0 [ :a | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
 
+!€# kal0a>^V
+!€0 kalla0a
+
 "Gemination CVe"
 !! __@RULENAME@__ 
  0:Cx <=> .#. Cns:* Vowel Cx _ :e (Dummy:*) %>:0 [ :e | i7: ] ;   
         where Cx in ( j l m n r v ) ;
-    
+
+! kal0e>e
+! 
+
 "Gemination VVe"
 !! __@RULENAME@__ 
  0:Cx <=> .#. Cns:* (Vowel) Vowel Cx _ :e (Dummy:*) %>:0 [ :e | i7: ] ;   
@@ -212,8 +218,11 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 !Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
 !Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;   !toimii
 
-!€ katto^WG>n
-!€ ka0to00n
+!€# katto^WG>n
+!€0 ka0to00n
+
+!€# katt2o^WG>n
+!€0 katto00n
 
 !! !Gradation -p-
 
@@ -221,6 +230,7 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 !! __@RULENAME@__ 
  p:v <=> Vowel: _ Vowel: Dummy:* (:i) Dummy:* %^WG:0 ;
 
+!
 
 !! !Gradation of -k-
 
@@ -228,8 +238,8 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 !! __@RULENAME@__ 
 i6:0 <=> _ k: a %^WG:0;
 
-!€ poi6ka^WG>n
-!€ po0ja00n
+!€# poi6ka^WG>n
+!€0 po0ja00n
 
 
 
@@ -283,8 +293,8 @@ k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
          h _ Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ; 
 
  ! lähteet : lähđen/lähen
-!€ lahti^WG
-!€ lahđi0
+!€0 lahti^WG
+!€0 lahđi0
 
 
 "ti:si"
@@ -346,10 +356,10 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 ! Mikä säätö?
 ! traaka : traakkhoin
 ! sivakka : sivakkhoin 
-!€ katto>^V alempi sääntö?
-!€ katto0o
-!€ paivukko>^V
-!€ paivukko0o
+!€0 katto>^V alempi sääntö?
+!€0 katto0o
+!€0 paivukko>^V
+!€0 paivukko0o
 
 
 "Vowel copying in short h-illative"
@@ -377,7 +387,10 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
     
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
- Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ %^V: | %^AO: | i: | o:] ; 
+! Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ %^V: | %^AO: | i: | o:] ; 
+!    where Vx in ( a e i o u y ä ö ) ;
+
+ Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ :Vx | %^AO: ] ; 
     where Vx in ( a e i o u y ä ö ) ;
 
 ! oppettaajhiin 
@@ -387,8 +400,8 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 !  Vx:0 <=> Cns _ %>:0 %^HMETA:0 h %^V: ; 
 !     where Vx in ( a e i o u y ä ö ) ;  
        
-!€ syksy>h^V^Vn
-!€ syks000     h
+!€0 syksy>h^V^Vn
+!€0 syks000     h
 
 
 "e deletion in illative plural"
@@ -408,8 +421,8 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
  Vx:0 <=> Vx _ %^VDEL:0  (Dummy:) %>:0 [s|t] ;
      where Vx in ( a e i ä ) ;
 
-!€ rakkaa^VDEL^WG>s
-!€ rak0a000>s
+!€# rakkaa^VDEL^WG>s
+!€0 rak0a000>s
 
      
 
@@ -441,10 +454,10 @@ a:0 <=> \a [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  ([Dummy: - %^AE:]) %>:0 D
 ! Vowel Cns Cns:* ([Vowel - [a|o|u]]) Vowel   Cns:+ (:Cns) _ [Dummy: - %^AE:] %>:0 i2: ; ! 3-syll
 !          .#. Cns:*   a                 ([a|u]) Cns:* (:Cns) _ [Dummy: - %^AE:] %>:0 i3: ;
 
-!€ kala>i2en
-!€ kalloin
-!€ kulkkiija>i2
-!€ kulkkiijo0i
+!€# kala>i2en
+!€0 kalloin
+!€0 kulkkiija>i2
+!€0 kulkkiijo0i
 
 "a:o for HMETA"
  %^V:o <=> .#. Cns:* a ([a|u]) Cns:* (:Cns) [Dummy: - %^AE:] %>:0 %^HMETA:0 h _ %^AO:0 ;
