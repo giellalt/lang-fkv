@@ -446,11 +446,16 @@ a:0 <=> \a [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  ([Dummy: - %^AE:]) %>:0 D
 ! a:0 <=>          [u|o]     (i) Cns: (Cns:) (Cns:) _ (Dummy:) %>:0 [i2:|i3:] ;
 ! otan - otin  
 
-"a:o before Pl i"
+"a:o before Pl i and Pret i"
 !! __@RULENAME@__ 
- a:o <=>  .#. Cns:* ([Vowel: - [a|o|u]]) [i|e|a] Cns:* (:Cns) _ [Dummy: - %^AE:] %>:0 i2: ; ! 2-syll
-          .#. Cns:* ([Vowel: - [a|o|u]]) [i|e|a] Cns:* (:Cns) _ %^AO:0 ;
-  Vowel Cns Cns:* ([Vowel - [a|o|u]]) [i|e|a] Cns:+ (:Cns) _ [Dummy: - %^AE:] %>:0 i2: ; ! 3-syll
+a:o <= .#. (Cns:*) [i|e|a] \o \u Cns:* (:Cns) %>:0 %^AO:0 a _ %>:0 [i2: | i3: ] ; ! 2-syll
+!a:o <=>  .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) Vowel:a _ %^AO:0 %>:0 Vowel:o [i2: | i3: ] ; ! 2-syll
+       ! .#. Cns:* [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) [Dummy: - %^AE:] _ %^AO:0 [ i2:| i3: ] ;
+! Vowel Cns Cns:* [Vowel: - [o|u]] [i|e|a] Cns:+ (:Cns)[Dummy: - %^AE:] _ [Dummy: - %^AE:] %>:0 [i2: | i3:] ; ! 3-syll
+ 
+! a:o <=>  .#. Cns:* ([Vowel: - [a|o|u]]) [i|e|a] Cns:* (:Cns) _ [Dummy: - %^AE:] %>:0 !i2: ; ! 2-syll
+!          .#. Cns:* ([Vowel: - [a|o|u]]) [i|e|a] Cns:* (:Cns) _ %^AO:0 ;
+!  Vowel Cns Cns:* ([Vowel - [a|o|u]]) [i|e|a] Cns:+ (:Cns) _ [Dummy: - %^AE:] %>:0 i2: ; ! 3-syll
 ! Vowel Cns Cns:* ([Vowel - [a|o|u]]) Vowel   Cns:+ (:Cns) _ [Dummy: - %^AE:] %>:0 i2: ; ! 3-syll
 !          .#. Cns:*   a                 ([a|u]) Cns:* (:Cns) _ [Dummy: - %^AE:] %>:0 i3: ;
 
@@ -459,8 +464,8 @@ a:0 <=> \a [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  ([Dummy: - %^AE:]) %>:0 D
 !€0 kulkkiija>i2
 !€0 kulkkiijo0i
 
-"a:o for HMETA"
- %^V:o <=> .#. Cns:* a ([a|u]) Cns:* (:Cns) [Dummy: - %^AE:] %>:0 %^HMETA:0 h _ %^AO:0 ;
+!"a:o for HMETA"
+! %^V:o <=> .#. Cns:* a ([a|u]) Cns:* (:Cns) [Dummy: - %^AE:] %>:0 %^HMETA:0 h _ %^AO:0 ;
 
 
 "a:i in 3-syll stems with long a and i"
