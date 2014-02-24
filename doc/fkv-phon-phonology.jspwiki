@@ -40,11 +40,11 @@
  * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;               
  * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;               
 
- * ArchiConson = %^N ;                                              
- * Conson = b c d đ f g h j k l m n p q r s t v w x z t2 %^N ;    
- * Segment = Vowel Conson ;                                         
+ * ArchiCns = %^N ;                                              
+ * Cns = b c d đ f g h j k l m n p q r s t v w x z t2 %^N ;    
+ * Segment = Vowel Cns ;                                         
  * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;    
- * NonFront = BackVowel ArchiVowel ArchiConson SomeVowel Conson NeutralVowel Dummy ;   
+ * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
 
 
 !!!Rules
@@ -60,7 +60,9 @@ One rule for each vowel environment.
 
 __Gemination Va__ 
 
+
 __Gemination CVe__ 
+
 
 __Gemination VVe__ 
 
@@ -132,6 +134,7 @@ __Gradation ppttkk : ptk__
 
 
 
+
 !Gradation -p-
 
 __Gradation p:v__ 
@@ -163,6 +166,7 @@ __Gradation t:đ__
 
 
 
+
 __ti:si__ 
 
 
@@ -171,7 +175,6 @@ __Gradation Nt:NN__
 __Alveolar assimilation for consonant stems__ 
 
 
-__m:n in par.sg. of lumi__
 
 !!!Vowel rules
 
@@ -181,14 +184,16 @@ __Back harmony__
 
 !!Vowel copying and metathesis
 
-__Vowel copying__  
+__Vowel copying __  
+
 
 __Vowel copying in long h forms of a-stems__ 
 
 
 
+
 __Vowel copying in short h-illative__
-maahan
+
 
 __Vowel copying in long h forms__ 
 
@@ -197,6 +202,8 @@ __Vowel copying in long h forms 2__
 
 
 __Stem deletion in h-illative__ 
+
+
 
 __Stem deletion in h-illative__ 
 
@@ -218,6 +225,7 @@ __Stem deletion in h-illative__
 __e:0 in consonant stems__ 
 
 
+
 !!i rules
 
 The -i- rules require different i-s for different POS.
@@ -226,7 +234,11 @@ The -i- rules require different i-s for different POS.
 
 __a:0 before Pret and Pl i when rounded root vowel__ 
 
-__a:o before Pl i__ 
+
+__a:0 before Pret and Pl i when rounded root vowel__ 
+
+
+
 
 
 
@@ -234,18 +246,28 @@ __a:o before Pl i__
 
 __a:e in participles__ 
 
+
 __ä:0 before i except in conditional__ 
+
+
 
 __Shortening of long vowel in front of i__ 
 
 
 
-__Shortening of long vowel when vowel lengthening__ 
+
+__Shortening of long vowel in front of i__ 
+
 
 
 __e:i in nom.sg. of e-stems__
 
+
 * ove : ovi
+
+
+
+
 
 
 
