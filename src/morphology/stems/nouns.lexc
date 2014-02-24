@@ -33,7 +33,8 @@ LEXICON NounRoot !!= @CODE@
 !! * 4. Ekstrakonsonanttirankaiset				 = 
 !! ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
 !! ** 4.2 –inen-nominit ( kainulainen)			 = n_42 = nen
-!! *** 4.2.1 -inen-nominit odd (vihrinen)		 = n_42odd = nen
+!! *** 4.2.1 -inen-nominit Pl (tervheiset)		 = n_42pl = nen
+!! *** 4.2.2 -inen-nominit odd (vihrinen)		 = n_42odd = nen
 
 
 !! !!1. Yksitavuiset
@@ -2842,8 +2843,8 @@ muret:murt n_33t ;
 aset:as n_33t ;
 paiset:pais n_33t ;
 
-seulavaiset:seulavaise n_42pl ;
-tervheiset:tervheise n_42pl ;
+seulavaiset:seulavai n_42pl ;
+tervheiset:tervhei n_42pl ;
 sakset:sakse n_42pl ;
 makkaukset:makkaukse x ;
 sisarukset:sisarukse x ;
