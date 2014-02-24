@@ -148,7 +148,7 @@ LEXICON n_23ii	!!= * @CODE@  assii
 +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:%^WG sgpl-cases-short ;  !! the same affix in sg and pl
 +N+Pl+Ess:%>n%^A PxxK ;
-+N+Pl+Com:%>i2ne K ;
++N+Pl+Com:%>ne K ;
 
 LEXICON n_23	!!= * @CODE@  valkkee
 +N+Sg+Nom:e K ; 
@@ -242,6 +242,7 @@ LEXICON n_32s !!= @CODE@  sairhaus
 +N+Pl:ksi%>i2 longparpl ;
 +N+Pl:ksi%>i2 longgenpl ;
 +N+Pl:ks%^HMETAh%>i2i shortestillpl;
++N+Pl+Com:ks%>i2ne K ;
 
 
 ! LEXICON n_32s != @CODE@  sairhaus vanha versio
