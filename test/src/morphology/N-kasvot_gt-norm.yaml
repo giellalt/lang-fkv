@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - kasvot - ok : # Noun 'tid' - ei tsekattu
+     kasvot+N+Pl+Nom: kasvot
+     kasvot+N+Pl+Gen: kasvoitten
+     kasvot+N+Pl+Par: kasvoi
+     kasvot+N+Pl+Tra: kasvoiksi
+     kasvot+N+Pl+Abe: kasvoitta
+     kasvot+N+Pl+Ine: kasvoissa
+     kasvot+N+Pl+Ela: kasvoista
+     kasvot+N+Pl+Ill: kasvhoin
+     kasvot+N+Pl+Ade: kasvoila
+     kasvot+N+Pl+Abl: kasvoilta
+     kasvot+N+Pl+All: kasvoile
+     kasvot+N+Pl+Ess: kasvoina
+     kasvot+N+Pl+Com: kasvoine
