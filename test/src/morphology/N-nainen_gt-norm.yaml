@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - nainen - ok : # Noun 'menneske' - ok
+     nainen+N+Sg+Nom: nainen
+     nainen+N+Sg+Gen: naisen
+     nainen+N+Sg+Par: naista
+     nainen+N+Sg+Tra: naiseksi
+     nainen+N+Sg+Abe: naisetta
+     nainen+N+Sg+Ine: naisessa
+     nainen+N+Sg+Ela: naisesta
+     nainen+N+Sg+Ill: naisheen
+     nainen+N+Sg+Ade: naisela
+     nainen+N+Sg+Abl: naiselta
+     nainen+N+Sg+All: naisele
+     nainen+N+Sg+Ess: naisena
+     nainen+N+Pl+Nom: naiset
+     nainen+N+Pl+Gen: naisten
+     nainen+N+Pl+Par: naissii
+     nainen+N+Pl+Tra: naisiksi
+     nainen+N+Pl+Abe: naisitta
+     nainen+N+Pl+Ine: naisissa
+     nainen+N+Pl+Ela: naisista
+     nainen+N+Pl+Ill: naishiin
+     nainen+N+Pl+Ade: naisila
+     nainen+N+Pl+Abl: naisilta
+     nainen+N+Pl+All: naisile
+     nainen+N+Pl+Ess: naisina
+     nainen+N+Pl+Com: naisine
