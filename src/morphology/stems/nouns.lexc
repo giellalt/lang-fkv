@@ -12,7 +12,8 @@ LEXICON NounRoot !!= @CODE@
 !! * 1. Yksitavuiset / Vi ( maa, tuorestai)		 = n_1
 !! * 2. Vokaalirankaiset						 = 
 !! ** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
-!! *** 2.1.1 (joki:joke)						 = n_21ie
+!! *** 2.1.1. Kaksitavuiset monikko (housut)     = n_21pl
+!! *** 2.1.2. Kaksitavuiset (joki: joke)         = n_21ie
 !! ** 2.2. Usseempitav. (opettaaja)		     	 = n_22
 !! *** 2.2.1. Usseempitav. odd ( meininki, sivakka)	= n_22odd
 !! ** 2.3 Kokkoontumanom. ( valkkee,)	      	 = n_23
@@ -2890,20 +2891,20 @@ sykkelit:sykkeli x ;
 väävitoolit:väävitooli x ;
 mattafillerit:mattafilleri x ;
 rauhankirkonmenot:rauhankirkonmeno x ;
-aivot:aivo x ;
-kasvot:kasvo x ;
-piđot:piđo x ;
-prakut:praku x ;
+aivot:aivo n_21pl ;
+kasvot:kasvo n_21pl ;
+piđot:piđo n_21pl ;
+prakut:praku n_21pl ;
 housut:housu n_21pl ;
 villahousut:villahousu n_21pl ;
-uimahousut:uimahousu x ;
-palonkihousut:palonkihousu x ;
-alushousut:alushousu x ;
+uimahousut:uimahousu n_21pl ;
+palonkihousut:palonkihousu n_21pl ;
+alushousut:alushousu n_21pl ;
 vantut:vanthuu x ;
 villavanthuut:villavanthuu x ;
 kangaspuut:kangaspuu x ;
-kevät:kevä x ;
-häät:hää x ;
+kevät:kevä n_21pl ;
+häät:hää n_21pl ;
 käsikärröt:käsikärrö x ;
 seksiskandaali n_22odd ;
 hetki:hetke n_21ie ;
