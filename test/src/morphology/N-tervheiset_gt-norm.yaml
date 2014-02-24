@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - tervheiset - ok : # Noun 'tid' - ei tsekattu
+     tervheiset+N+Pl+Nom: tervheiset
+     tervheiset+N+Pl+Gen: tervheisten
+     tervheiset+N+Pl+Par: tervheisii
+     tervheiset+N+Pl+Tra: tervheisiksi
+     tervheiset+N+Pl+Abe: tervheisittä
+     tervheiset+N+Pl+Ine: tervheisissä
+     tervheiset+N+Pl+Ela: tervheisistä
+     tervheiset+N+Pl+Ill: tervheishiin
+     tervheiset+N+Pl+Ade: tervheisillä
+     tervheiset+N+Pl+Abl: tervheisiltä
+     tervheiset+N+Pl+All: tervheisille
+     tervheiset+N+Pl+Ess: tervheisinnä
+     tervheiset+N+Pl+Com: tervheisine
