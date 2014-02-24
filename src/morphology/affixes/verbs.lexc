@@ -47,7 +47,9 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +Pass+PrfPrc+Nom:oltu K ;
 +Act+PrfPrc:olheet K ;
 +Act+PrsPrc+Sg+Nom:olleeva K ;
++Act+PrsPrc+PL+Nom:olleevat K ;
 +Pass+PrsPrc+Sg+Nom:oltava K ;
++Pass+PrsPrc+Pl+Nom:oltavat K ;
 +Act+Ind+Prs+ConNeg:ole K ;
 
 +Act+Cond+Sg1:olisin K ; ! olisin
@@ -90,7 +92,9 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Pass+PrfPrc+Nom:%>t%^U K ;
 +V+Act+PrfPrc:n%>hee PRFPRC_OBL  ;
 +V+Act+PrsPrc+Sg+Nom:%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%>t%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%>t%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg: K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! saisin
@@ -125,7 +129,9 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+Pass+PrfPrc+Nom:h%>t%^U K ;
 +V+Act+PrfPrc:h%>%^Nhee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:kkee%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:kkee%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%>ht%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%>ht%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:e K ;
 
 +V+Act+Cond+Sg1:%>kisin K ; ! näkisin
@@ -158,7 +164,9 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+Pass+PrfPrc+Nom:h%>t%^U K ;
 +V+Act+PrfPrc:h%>%^Nhee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:kkee%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:kkee%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%>ht%^A%>v%^A K ;
++V+Pass+PrsPrc+Sg+Nom:%>ht%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:e K ;
 
 +V+Act+Cond+Sg1:k%>i4sin K ; ! tekisin
@@ -190,7 +198,9 @@ LEXICON v2 !!= @CODE@ anttaat:anta
 +V+Pass+PrfPrc+Nom:%^AE%^WG%>tt%^U K ;
 +V+Act+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>%^V%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>%^V%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%^AE%^WG%>tt%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%^AE%^WG%>tt%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%^WG K ;
 
 +V+Act+Cond+Sg1:%^VDEL%>i4sin K ; ! antaisin
@@ -223,7 +233,9 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Pass+PrfPrc+Nom:%^AE%^WG%>tt%^U K ;
 +V+Act+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>%^V%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>%^V%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%^AE%^WG%>tt%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%^AE%^WG%>tt%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%^WG K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
@@ -263,7 +275,9 @@ LEXICON v3_ele_notinf
 +V+Pass+PrfPrc+Nom:%^WG%>t%^U K ;
 +V+Act+PrfPrc:%^WG%^hee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>le%>%^V%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>le%>%^V%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%^WG%>t%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%^WG%>t%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%>e K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! ajattelisin
@@ -296,7 +310,9 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Pass+PrfPrc+Nom:%>t%^U K ;
 +V+Act+PrfPrc:%>%^WG%^hee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>e%>%^V%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>e%>%^V%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%>t%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%>t%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%>e K ;
 
 !! * aukaista > aukaisemma
@@ -331,7 +347,9 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +V+Pass+PrfPrc+Nom:%>t%^U K ;
 +V+Act+PrfPrc:%>%^WG%^hee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>se%>%^V%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>se%>%^V%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%>t%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%>t%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%>e K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; ! aukaisisin
@@ -363,7 +381,9 @@ LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Pass+PrfPrc+Nom:%>t%^U K ; !! * Lyhyt partisiippi
 +V+Act+PrfPrc:%>hee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>%^N%>ee%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>%^N%>ee%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%>t%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%>t%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%>e K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; 
@@ -393,9 +413,11 @@ LEXICON v3juosta !!= @CODE@ juosta:juo
 +V+Act+Ind+Prt:%>ksi v12pers_short ;
 +V+Act+PrfPrc+Sg+Nom:s%>%^N%^U K ;
 +V+Pass+PrfPrc+Nom:st%^U K ;
-+V+Act+PrsPrc+Sg+Nom:ksee%>v%^A K ;
-+V+Pass+PrsPrc+Sg+Nom:%>st%^A%>v%^A K ;
 +V+Act+PrfPrc:s%>hee PRFPRC_OBL ;
++V+Act+PrsPrc+Sg+Nom:ksee%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:ksee%>v%^At K ;
++V+Pass+PrsPrc+Sg+Nom:%>st%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%>st%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%>kse K ;
 
 +V+Act+Cond+Sg1:%>ksisin K ; ! juoksisin
@@ -427,7 +449,9 @@ LEXICON v4 !!= @CODE@ vanheta:vanhe
 +V+Pass+PrfPrc+Nom:%^WG%>tt%>%^U K ;
 +V+Act+PrfPrc:%^WG%>%^Nhee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>ne%>%^V%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>ne%>%^V%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%^WG%>tt%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%^WG%>tt%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%>ne K ;
 
 +V+Act+Cond+Sg1:%>nisin K ; ! vanhenisin
@@ -462,7 +486,9 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Act+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 !! +V+Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>tte%>%^V%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>tte%>%^V%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%>tt%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%>tt%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%>tte K ;
 
 +V+Act+Cond+Sg1:%>ttisin K ; ! kyytittisin
@@ -495,7 +521,9 @@ LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+Act+PrfPrc:%>%^Nhee PRFPRC_OBL ;
 !! +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%>tt%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%>tt%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%>tte K ;
 
 +V+Act+Cond+Sg1:%>ttisin K ; ! haravoittisin
@@ -528,7 +556,9 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Pass+PrfPrc+Nom:%>%^WG%>tt%^U K ;
 +V+Act+PrfPrc:%^WG%>%^Nhee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>%^V%>v%^A K ;
++V+Act+PrsPrc+Pl+Nom:%>%^V%>v%^At K ;
 +V+Pass+PrsPrc+Sg+Nom:%^WG%>tt%^A%>v%^A K ;
++V+Pass+PrsPrc+Pl+Nom:%^WG%>tt%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%>%^V K ;
 
 +V+Act+Cond+Sg1:%>i7sin K ; ! jatkaisin, pölkkäisin
