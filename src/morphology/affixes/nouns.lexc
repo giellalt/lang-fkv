@@ -43,6 +43,7 @@ LEXICON n_1 !!= * @CODE@ = maa
  +N: weak-v-stem ;
 +N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Pl+Com:%>i2ne K ;
 
  +N: 1TAVU_VV-ill ;
  +N+Pl:%>i2 longgenpl ;
@@ -53,6 +54,7 @@ LEXICON n_1 !!= * @CODE@ = maa
  +Pl+Nom: Px ;   ! mattoni
  +Sg+Ess:%>n%^A PxxK ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
+ 
 
 LEXICON n_21C
 +N+Sg+Nom:  K    ; ! Hans
@@ -177,6 +179,7 @@ LEXICON n_31	!!= @CODE@ vuosi, käsi
 +N+Pl:%>i2 shortparpl	 ;
 +N+Pl:%>i2 shortgenpl	 ;
 +N+Pl:%^EDEL consgenpl ;
++N+Pl+Com:%>i2ne K ;
 
 LEXICON n_31m	!!= @CODE@ lumi lu
 +N+Sg+Nom:mi K ; ! %^EI e to i
@@ -190,7 +193,7 @@ LEXICON n_31m	!!= @CODE@ lumi lu
 +N+Sg+Ill:m%>%^HMETAhee n-PxK ;
 +N+Pl+Ill:m%^EDEL%>hii n-PxK ;
 +N+Pl:mmi%>i2 shortparpl ;
-+N+Pl+Com:m%>ine K ;
++N+Pl+Com:m%>i2ne K ;
 
 LEXICON n_32 !!= @CODE@ tytär tyttär
 +N+Sg+Nom:%^WG K ;
@@ -207,7 +210,7 @@ LEXICON n_32 !!= @CODE@ tytär tyttär
 +N+Pl:i%>i2 tt-longgenpl ;
 +N+Pl:i%>i2 longparpl ;
 +N+Pl:%^HMETAh%>i2i shortestillpl;
-+N+Pl+Com:%>ine K ;
++N+Pl+Com:%>i2ne K ;
 
 
 LEXICON n_32m !!= @CODE@ elläin elläi
@@ -225,7 +228,7 @@ LEXICON n_32m !!= @CODE@ elläin elläi
 +N+Pl:mi%>i2 longparpl ;
 +N+Pl:mi%>i2 longgenpl ;
 +N+Pl:m%^HMETAh%>i2i shortestillpl;
-+N+Pl+Com:m%>ine K ;
++N+Pl+Com:m%>i2ne K ;
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
@@ -262,6 +265,7 @@ LEXICON n_33s !!= @CODE@ rakas
 +N:haa loputjutut ;
 +Sg+Ill:haa mTAVU_VV-ill ;
 +N+Pl+Ill:haissiin K ;
++N+Pl+Com:ha%>i2ne K ;
 
 LEXICON n_33si !!= @CODE@ ruvis
 +N:i sConsCase ; ! nom, par
@@ -273,7 +277,7 @@ LEXICON n_33si !!= @CODE@ ruvis
 +N+Pl+Ess:hi%>i2%>n%^A PxxK ;
 +N+Sg+Ill:%>hiisseen K ;
 +N+Pl+Ill:hi%>i2ssiin K ;
-
++N+Pl+Com:hi%>i2ne K ;
 
 LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 n_33t ;
@@ -283,6 +287,7 @@ LEXICON n_33t !!= @CODE@ venet
 +N:hee loputjutut ;
 +Sg+Ill:hee mTAVU_VV-ill ;
 +N+Pl+Ill:heissiin K ;
++N+Pl+Com:hee%>i2ne K ;
 
 LEXICON n_33ts !!= @CODE@ kirves
 +N:e sConsCase ; ! nom, par
@@ -309,12 +314,13 @@ LEXICON n_42 ! itse asiassa n_42even
 +N+Sg:se sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: nen ;
++N+Pl+Com:s%>i2ne K ;
 
 LEXICON n_42odd !!= @CODE@ ihminen
 +N+Sg:se sgpl-cases-long ;      !! these two lexica for cases with
 +N+Pl:s%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 +N: nen ;
-+N+Pl+Com:s%>ine K ;
++N+Pl+Com:s%>i2ne K ;
 
 
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
@@ -324,7 +330,7 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
  +N+Pl:s consgenpl ;
  +N+Pl:s%>i2 shortparpl ;
  +N+Pl+Ill:sh%>i2in K ;
- +N+Pl+Com:s%>ine K ;
+ +N+Pl+Com:s%>i2ne K ;
 
 LEXICON nen  !!= @CODE@ on nainen-sanoille
   nom-nen ;
@@ -339,6 +345,7 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
  +Pl:s consgenpl ;
  +Pl:ss%>i2 shortparpl ;
  +Pl:ss%>i2 shorterillpl ;
+ +Pl+Com:s%>i2ne K ;
 
 
 LEXICON nom-nen
