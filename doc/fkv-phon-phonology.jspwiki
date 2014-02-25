@@ -22,28 +22,28 @@
 
 
 !!Sets
- * FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;                    
- * BackVowel = a o u å ;                                            
- * ArchiVowel =  %^A %^O %^U ;                                      
- * SomeVowel = %^V ;                                                
- * NeutralVowel = e i ;                                             
- * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;            
- * NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;               
- * NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;               
- * NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o   å ;               
- * NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;                     
- * NotOUI  = e                     y ä ö ü æ ø a ;                     
- * NotOUIY = e                       ä ö   æ ø a ;                     
+ * FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;             
+ * BackVowel = a o u å ;                                        
+ * ArchiVowel =  %^A %^O %^U ;                                  
+ * SomeVowel = %^V ;                                            
+ * NeutralVowel = e i ;                                         
+ * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;        
+ * NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;        
+ * NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;        
+ * NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o   å ;        
+ * NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;              
+ * NotOUI  = e                     y ä ö ü æ ø a ;              
+ * NotOUIY = e                       ä ö   æ ø a ;              
 
- * NotOUIF =                      y ä ö ü æ ø   ;                     and e? (removed 29.1.)
- * NotOUIB =                                  a ;                     and e? (removed 29.1.)
- * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;               
- * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;               
+ * NotOUIF =                      y ä ö ü æ ø   ;               and e? (removed 29.1.)
+ * NotOUIB =                                  a ;               and e? (removed 29.1.)
+ * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;        
+ * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;        
 
- * ArchiCns = %^N ;                                              
- * Cns = b c d đ f g h j k l m n p q r s t v w x z t2 %^N ;    
- * Segment = Vowel Cns ;                                         
- * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;    
+ * ArchiCns = %^N ;                                             
+ * Cns = b c d đ f g h j k l m n p q r s t v w x z t2 %^N ;     
+ * Segment = Vowel Cns ;                                        
+ * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;   
  * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
 
 
@@ -59,23 +59,20 @@ One rule for each vowel environment.
 
 
 
+__@OUTSIDE RULES@__ 
+
+__@OUTSIDE RULES@__ 
+
 
 __@OUTSIDE RULES@__ 
 
 
 
-__Gemination CVe__ 
-
-
-__Gemination VVe__ 
-
-
-
-__Gemination Vi__ 
 
 
 
 __Gemination Vo__ 
+
 
 __Gemination Vu__ 
 
@@ -85,22 +82,31 @@ __Gemination Vy__
 
 __Gemination Vö__ 
 
+
+
 __Gemination Vä__ 
+
 
 
 __Gemination LIQa__ 
 
+
 __Gemination LIQe__ 
+
 
 __Gemination LIQo__ 
 
+
 __Gemination LIQu__ 
+
 
 __Gemination LIQy__ 
 
 __Gemination LIQö__ 
 
 __Gemination LIQä__ 
+
+
 
 __Gemination LIQä__ 
 
@@ -163,8 +169,17 @@ __Gradation i:0, in word poika: pojan__
 
 
 
-__Gradation nk:ng__ 
 
+
+
+
+
+
+
+
+
+
+__Gradation nk:ng__ 
 
 
 
@@ -181,8 +196,8 @@ __ti:si__
 
 __Gradation Nt:NN__ 
 
-__Alveolar assimilation for consonant stems__ 
 
+__Alveolar assimilation for consonant stems__ 
 
 
 !!!Vowel rules
