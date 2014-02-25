@@ -132,6 +132,10 @@ Rules
         where Cx in ( h j k l m n p r s t v ) ;
 !0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :o %>:0 [ :o | i2: | i7: ] \[ :i %>:0 n %^A: ] ;
 !        where Cx in ( h j k l m n p r s t v ) ;
+ 
+!€
+!€# kat0o>^V>t
+!€0 katto0o>t
     
 "Gemination Vu"
 !! __@RULENAME@__ 
@@ -162,6 +166,11 @@ Rules
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ö %>:0 [ :ö | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
     
+!€
+!€# näk0ö>^V
+!€0 näkkö0ö
+
+   
 "Gemination Vä"
 !! __@RULENAME@__ 
  0:Cx <=> [ .#. | Cns ] Vowel Cx _ :ä %>:0 :ä ;
@@ -174,6 +183,10 @@ Rules
 !! __@RULENAME@__ 
  0:Cx <=> [l|r|n|m] Cx _ :a %>:0 :a ;   
         where Cx in ( j k p s t v ) ;
+        
+!€
+!€# jalk0a>^V
+!€0 jalkka0a
 
 "Gemination LIQe"
 !! __@RULENAME@__ 
@@ -184,12 +197,20 @@ Rules
 !! __@RULENAME@__ 
  0:Cx <=> [l|r|n|m] Cx _ :o %>:0 :o ;   
         where Cx in ( j k p s t v ) ;
+ 
+ !€
+!€# murt0o>^V
+!€0 murtto0o
     
 "Gemination LIQu"
 !! __@RULENAME@__ 
  0:Cx <=> [l|r|n|m] Cx _ :u %>:0 :u ;   
         where Cx in ( j k p s t v ) ;
-    
+ 
+!€
+!€# polk0u>^V
+!€0 polkku0u
+   
 "Gemination LIQy"
 !! __@RULENAME@__ 
  0:Cx <=> [l|r|n|m] Cx _ :y %>:0 :y ;   
