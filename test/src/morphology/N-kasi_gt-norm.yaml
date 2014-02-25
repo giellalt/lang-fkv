@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - käsi - ok : # Noun 'år' - ei tsekattu
+     käsi+N+Sg+Nom: käsi
+     käsi+N+Sg+Gen: käđen
+     käsi+N+Sg+Par: kättä
+     käsi+N+Sg+Tra: käđeksi
+     käsi+N+Sg+Abe: käđettä
+     käsi+N+Sg+Ine: käđessä
+     käsi+N+Sg+Ela: käđestä
+     käsi+N+Sg+Ill: kätheen
+     käsi+N+Sg+Ade: käđelä
+     käsi+N+Sg+Abl: käđeltä
+     käsi+N+Sg+All: käđele
+     käsi+N+Sg+Ess: kätenä
+     käsi+N+Pl+Nom: käđet
+     käsi+N+Pl+Gen: kässiin
+     käsi+N+Pl+Par: kässii
+     käsi+N+Pl+Tra: käsiksi
+     käsi+N+Pl+Abe: käsittä
+     käsi+N+Pl+Ine: käsissä
+     käsi+N+Pl+Ela: käsistä
+     käsi+N+Pl+Ill: käshiin
+     käsi+N+Pl+Ade: käsilä
+     käsi+N+Pl+Abl: käsiltä
+     käsi+N+Pl+All: käsile
+     käsi+N+Pl+Ess: käsinä
+     käsi+N+Pl+Com: käsine
