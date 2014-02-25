@@ -199,11 +199,16 @@ Rules
 !! __@RULENAME@__ 
  0:Cx <=> [l|r|n|m] Cx _ :ö %>:0 :ö ;   
         where Cx in ( j k p s t v ) ;
-    
+
+   
 "Gemination LIQä"
 !! __@RULENAME@__ 
  0:Cx <=> [l|r|n|m] Cx _ :ä %>:0 :ä  ;   
         where Cx in ( j k p s t v ) ;
+
+!€
+!€# pölk0ä>^V
+!€0 pölkkä0ä
 
 !"Gemination LIQi"
 !!! __@RULENAME@__ 
