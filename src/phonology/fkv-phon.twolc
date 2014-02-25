@@ -390,7 +390,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 ! Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ %^V: | %^AO: | i: | o:] ; 
 !    where Vx in ( a e i o u y ä ö ) ;
 
- Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ :Vx | %^AO: ] ; 
+ Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ :Vx | (%^AO:) ] ; 
     where Vx in ( a e i o u y ä ö ) ;
 
 ! oppettaajhiin 
