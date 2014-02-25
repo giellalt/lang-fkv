@@ -178,6 +178,10 @@ Rules
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ä %>:0 [ :ä | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
+!€
+!€# el0ä>^V
+!€0 ellä0ä
+
     
 "Gemination LIQa"
 !! __@RULENAME@__ 
@@ -192,6 +196,10 @@ Rules
 !! __@RULENAME@__ 
  0:Cx <=> [l|r|n|m] Cx _ :e %>:0 :e ;   
         where Cx in ( j k p s t v ) ;
+        
+!€
+!€# järk0e>^V
+!€0 järkke0e
     
 "Gemination LIQo"
 !! __@RULENAME@__ 
@@ -232,6 +240,10 @@ Rules
 !€
 !€# pölk0ä>^V
 !€0 pölkkä0ä
+
+!€
+!€# härk0ä>^V
+!€0 härkkä0ä
 
 !"Gemination LIQi"
 !!! __@RULENAME@__ 
