@@ -70,8 +70,8 @@ Rules
  
 "Gemination Va"
 !! __@RULENAME@__ 
-! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :a %>:0 [ %^V: | %^A: ] ;   
- 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :a %>:0 [ :a | i7: ] ;   
+ 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ a %>:0  a ; ![ %^V: | %^A: ] ;   
+! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :a %>:0 [ :a | i7: ] ;   
         where Cx in ( h j k l m n p r s t v ) ;
 
 !€
@@ -347,9 +347,12 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
          
 "Vowel copying" ! 
 !! __@RULENAME@__  
- %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>:0 _ ;!(%>:0) [ (%>:0) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
+! %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>:0 _ ;!(%>:0) [ (%>:0) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
+!    where Vx in ( a e i u y ä ö ) ; ! o in next rule
+     
+%^V:Vx <=> :Vx Dummy:* %>:0 _ ;
     where Vx in ( a e i u y ä ö ) ; ! o in next rule 
-    
+   
 ! poika : poikaa
 ! kive : kivee
     
@@ -412,8 +415,8 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 !     where Vx in ( a e i o u y ä ö ) ;  
        
 !€
-!€# syksy>h^V^Vn
-!€0 syks00hyyn
+!€# syksy>^HMETAh^V^Vn
+!€0 syks000hyyn
 
 
 "e deletion in illative plural"
@@ -435,7 +438,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 
 !€
 !€# rakkaa^VDEL^WG>s
-!€0 rak0a000>s
+!€0 rak0a000s
 
      
 
@@ -468,8 +471,8 @@ a:0 <=> \a [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  ([Dummy: - %^AE:]) %>:0 D
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__ 
-a:o <=> .#. (Cns:*) [i|e|a] \o \u Cns:* (:Cns) %>:0 %^AO:0 a _ %>:0 [i2:i | i3:i ] ; ! 2-syll
-!a:o <=>  .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) Vowel:a _ %^AO:0 %>:0 Vowel:o [i2: | i3: ] ; ! 2-syll
+!a:o <=> .#. (Cns:*) [i|e|a] \o \u Cns:* (:Cns) %>:0 %^AO:0 a _ %>:0 [i2:i | i3:i ] ; ! 2-syll
+a:o <= .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) Vowel:a _ %^AO:0 %>:0 Vowel:o [i2: | i3: ] ; ! 2-syll
        ! .#. Cns:* [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) [Dummy: - %^AE:] _ %^AO:0 [ i2:| i3: ] ;
 ! Vowel Cns Cns:* [Vowel: - [o|u]] [i|e|a] Cns:+ (:Cns)[Dummy: - %^AE:] _ [Dummy: - %^AE:] %>:0 [i2: | i3:] ; ! 3-syll
  
