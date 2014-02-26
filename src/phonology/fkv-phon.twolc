@@ -80,6 +80,20 @@ Rules
   !! __@RULENAME@__ 
 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) Cx _ Vowel %>:0 :i (i2:i) ;
        where Cx in ( k p t s ) ;
+
+!   "Gemination VVXi"     
+!0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) Cx _ [ Vowel | a:o ] %>:0 [:i | i2:i];
+!                                         _ [ a:0 | e:0 ]  %>:0 :i i2:i ;
+!      where Cx in ( k p t s ) ;       
+ 
+
+!€
+!€# sop0i>^V
+!€0 soppi0i
+
+!€
+!€# aik0a>i2
+!€0 aikko0i
        
 !€
 !€# jok0e>i2>i
@@ -88,7 +102,12 @@ Rules
        
 ! vuot0e>i2>i
 ! vuoss00i0i
-!   "Gemination VVXi"
+
+
+!€
+!€# poik0a>i2>i
+!€0 poikk0i0i
+
 
 
 !   ! __@RULENAME@__ 
