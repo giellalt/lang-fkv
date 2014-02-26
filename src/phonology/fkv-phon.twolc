@@ -198,14 +198,15 @@ Rules
 "Gemination Vä"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel Cx _ ä %>:0 :ä ;
-        where Cx in (  k p t s) ;
+        where Cx in ( k p t s ) ;
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ä %>:0 [ :ä | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
-  "Gemination VVä"
-  !! __@RULENAME@__ 
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ ä %>:0 :ä ;
-       where Cx in ( h j l m n r v ) ;
+"Gemination VVä"
+!! __@RULENAME@__ 
+0:Cx <=> [ .#. | Cns | #: ] Vowel Cx _ ä %>:0 :ä ; !!≈ @CODE@
+         where Cx                                  !!≈ @CODE@
+         in    ( h j l m n r v ) ;                 !!≈ @CODE@
 
 !€
 !€# el0ä>^V
