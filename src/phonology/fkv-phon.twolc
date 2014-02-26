@@ -79,12 +79,22 @@ Rules
   "Gemination VXi"
   !! __@RULENAME@__ 
 0:Cx <=> Cns:*  Vowel:* Vowel Cx _ Vowel %>:0 :i ;
-       where Cx in ( h j k l m n p r s t v ) ;
+       where Cx in ( k p t s ) ;
+
+!   "Gemination VVXi"
+!   ! __@RULENAME@__ 
+! 0:Cx <=> [ .#. | Cns ] Vowel Cx _ Vowel %>:0 i2:i ;
+!        where Cx in ( h j l m n r v ) ;
  
   "Gemination Va"
   !! __@RULENAME@__ 
 0:Cx <=> Cns:* Vowel:* Vowel Cx _ a %>:0 :a ;
-       where Cx in ( h j k l m n p r s t v ) ;
+       where Cx in (  k p t s ) ;
+
+  "Gemination VVa"
+  !! __@RULENAME@__ 
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ a %>:0 :a ;
+       where Cx in ( h j l m n r v ) ;
   
 !€
 !€# kal0a>^V
@@ -93,7 +103,12 @@ Rules
   "Gemination Ve"
   !! __@RULENAME@__ 
 0:Cx <=> Cns:*  Vowel:* Vowel Cx _ e %>:0 :e ;
-       where Cx in ( h j k l m n p r s t v ) ;
+       where Cx in ( k p t s ) ;
+
+  "Gemination VVe"
+  !! __@RULENAME@__ 
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ e %>:0 :e ;
+       where Cx in ( h j l m n r v ) ;
 
 !€
 !€# tek0e>^V
@@ -102,6 +117,11 @@ Rules
 !€
 !€# lauk0e>^V
 !€0 laukke0e
+
+
+!€
+!€# suome>^V
+!€0 suome0e
 
 !€
 !€# lauk0e>i7s
@@ -114,7 +134,13 @@ Rules
 "Gemination Vo"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel Cx _ o %>:0 :o ;
-        where Cx in ( h j k l m n p r s t v ) ;
+        where Cx in (  k p t s) ;
+ 
+  "Gemination VVo"
+  !! __@RULENAME@__ 
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ o %>:0 :o ;
+       where Cx in ( h j l m n r v ) ;
+
  
 !€
 !€# kat0o>^V>t
@@ -123,9 +149,14 @@ Rules
 "Gemination Vu"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel Cx _ u %>:0 :u ;
-        where Cx in ( h j k l m n p r s t v ) ;
+        where Cx in (  k p t s ) ;
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :u %>:0 [ :u | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
+
+  "Gemination VVu"
+  !! __@RULENAME@__ 
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ u %>:0 :u ;
+       where Cx in ( h j l m n r v ) ;
 
 !€
 !€# jout0u>^V
@@ -134,9 +165,14 @@ Rules
 "Gemination Vy"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel Cx _ y %>:0 :y ;
-        where Cx in ( h j k l m n p r s t v ) ;
+        where Cx in (  k p t s ) ;
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :y %>:0 [ :y | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
+
+  "Gemination VVy"
+  !! __@RULENAME@__ 
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ y %>:0 :y ;
+       where Cx in ( h j l m n r v ) ;
 
 !€
 !€# näk0y>^V
@@ -145,9 +181,14 @@ Rules
 "Gemination Vö"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel Cx _ ö %>:0 :ö ;
-        where Cx in ( h j k l m n p r s t v ) ;
+        where Cx in (  k p t s) ;
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ö %>:0 [ :ö | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
+
+  "Gemination VVö"
+  !! __@RULENAME@__ 
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ ö %>:0 :ö ;
+       where Cx in ( h j l m n r v ) ;
     
 !€
 !€# näk0ö>^V
@@ -157,9 +198,14 @@ Rules
 "Gemination Vä"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel Cx _ ä %>:0 :ä ;
-        where Cx in ( h j k l m n p r s t v ) ;
+        where Cx in (  k p t s) ;
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ä %>:0 [ :ä | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
+
+  "Gemination VVä"
+  !! __@RULENAME@__ 
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ ä %>:0 :ä ;
+       where Cx in ( h j l m n r v ) ;
 
 !€
 !€# el0ä>^V
@@ -189,7 +235,7 @@ Rules
  0:Cx <=> [l|r|n|m] Cx _ :o %>:0 :o ;   
         where Cx in ( j k p s t v ) ;
  
- !€
+!€
 !€# murt0o>^V
 !€0 murtto0o
     
@@ -589,8 +635,8 @@ a:0 <=> \a [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  ([Dummy: - %^AE:]) %>:0 D
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__ 
-!a:o <=> .#. (Cns:*) [i|e|a] \o \u Cns:* (:Cns) %>:0 %^AO:0 a _ %>:0 [i2:i | i3:i ] ; ! 2-syll
- a:o <=  .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) Vowel:a _ %^AO:0 %>:0 Vowel:o [i2: | i3: ] ; !2-syll
+  a:o <=> .#. (Cns:*) [i|e|a] \o \u Cns:* (:Cns) %>:0 %^AO:0 a _ %>:0 [i2:i | i3:i ] ; ! 2-syll
+! a:o <=  .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) Vowel:a _ %^AO:0 %>:0 Vowel:o [i2: | i3: ] ; !2-syll
        ! .#. Cns:* [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) [Dummy: - %^AE:] _ %^AO:0 [ i2:| i3: ] ;
 ! Vowel Cns Cns:* [Vowel: - [o|u]] [i|e|a] Cns:+ (:Cns)[Dummy: - %^AE:] _ [Dummy: - %^AE:] %>:0 [i2: | i3:] ; !3-syll
  
