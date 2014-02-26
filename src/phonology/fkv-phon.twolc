@@ -95,10 +95,17 @@ Rules
 ! 0:Cx <=> [ .#. | Cns ] Vowel Cx _ Vowel %>:0 i2:i ;
 !        where Cx in ( h j l m n r v ) ;
  
+!€
+!€# kiv0e>i2>i
+!€0 kivv00i0i
+
   "Gemination Va"
   !! __@RULENAME@__ 
 0:Cx <=> Cns:* Vowel:* Vowel Cx _ a %>:0 :a ;
        where Cx in (  k p t s ) ;
+!€
+!€# aik0a>^V
+!€0 aikka0a
 
   "Gemination VVa"
   !! __@RULENAME@__ 
@@ -144,15 +151,19 @@ Rules
  0:Cx <=> Cns:* Vowel:* Vowel Cx _ o %>:0 :o ;
         where Cx in (  k p t s) ;
  
+!€
+!€# kat0o>^V>t
+!€0 katto0o0t
+
   "Gemination VVo"
   !! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ o %>:0 :o ;
        where Cx in ( h j l m n r v ) ;
 
- 
 !€
-!€# kat0o>^V>t
-!€0 katto0o0t
+!€# kir0o>^V>t
+!€0 kirro0o0t
+
     
 "Gemination Vu"
 !! __@RULENAME@__ 
@@ -161,19 +172,29 @@ Rules
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :u %>:0 [ :u | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
+!€
+!€# jout0u>^V
+!€0 jouttu0u
+
   "Gemination VVu"
   !! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ u %>:0 :u ;
        where Cx in ( h j l m n r v ) ;
 
 !€
-!€# jout0u>^V
-!€0 jouttu0u
+!€# puh0u>^V
+!€0 puhhu0u
+
     
 "Gemination Vy"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel Cx _ y %>:0 :y ;
         where Cx in (  k p t s ) ;
+        
+!€
+!€# näk0y>^V
+!€0 näkky0y       
+        
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :y %>:0 [ :y | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
@@ -183,13 +204,18 @@ Rules
        where Cx in ( h j l m n r v ) ;
 
 !€
-!€# näk0y>^V
-!€0 näkky0y
+!€# lev0y>^V
+!€0 levvy0y
     
 "Gemination Vö"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel Cx _ ö %>:0 :ö ;
         where Cx in (  k p t s) ;
+        
+!€
+!€# näk0ö>^V
+!€0 näkkö0ö
+
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ö %>:0 [ :ö | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
@@ -199,14 +225,19 @@ Rules
        where Cx in ( h j l m n r v ) ;
     
 !€
-!€# näk0ö>^V
-!€0 näkkö0ö
+!€# pör0ö>^V
+!€0 pörrö0ö
 
    
 "Gemination Vä"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel Cx _ ä %>:0 :ä ;
         where Cx in ( k p t s ) ;
+ 
+!€
+!€# tiet0ä>^Vt
+!€0 tiettä0ät
+       
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ä %>:0 [ :ä | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
