@@ -78,7 +78,7 @@ Rules
  
   "Gemination VXi"
   !! __@RULENAME@__ 
-0:Cx <=> Cns:*  Vowel:* Vowel Cx _ Vowel %>:0 i2:i ;
+0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) Cx _ Vowel %>:0 :i (i2:i) ;
        where Cx in ( k p t s ) ;
        
 !€
