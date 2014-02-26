@@ -78,10 +78,19 @@ Rules
  
   "Gemination VXi"
   !! __@RULENAME@__ 
-0:Cx <=> Cns:*  Vowel:* Vowel Cx _ Vowel %>:0 :i ;
+0:Cx <=> Cns:*  Vowel:* Vowel Cx _ Vowel %>:0 i2:i ;
        where Cx in ( k p t s ) ;
 
+
+
+
+
+       
+! vuot0e>i2>i
+! vuoss00i0i
 !   "Gemination VVXi"
+
+
 !   ! __@RULENAME@__ 
 ! 0:Cx <=> [ .#. | Cns ] Vowel Cx _ Vowel %>:0 i2:i ;
 !        where Cx in ( h j l m n r v ) ;
@@ -104,12 +113,6 @@ Rules
   !! __@RULENAME@__ 
 0:Cx <=> Cns:*  Vowel:* Vowel Cx _ e %>:0 :e ;
        where Cx in ( k p t s ) ;
-
-  "Gemination VVe"
-  !! __@RULENAME@__ 
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ e %>:0 :e ;
-       where Cx in ( h j l m n r v ) ;
-
 !€
 !€# tek0e>^V
 !€0 tekke0e
@@ -119,17 +122,22 @@ Rules
 !€0 laukke0e
 
 
+  "Gemination VVe"
+  !! __@RULENAME@__ 
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ e %>:0 :e ;
+       where Cx in ( h j l m n r v ) ;
+
+
+
+
 !€
 !€# suome>^V
 !€0 suome0e
 
-!€
-!€# lauk0e>i7s
-!€0 laukke0is
+
     
 
-! vuot0e>i2>i
-! vuoss00i0i
+
 
 "Gemination Vo"
 !! __@RULENAME@__ 
@@ -287,6 +295,9 @@ Rules
 !! __@RULENAME@__ 
  0:Cx <=> [l|r|n|m] Cx _ :Vowel %>:0  i7: ;   
         where Cx in ( j k p s t v ) ;
+!€
+!€# lauk0e>i7s
+!€0 laukke0is
 
 !€
 !€# särk0y>i7s
