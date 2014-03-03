@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - laueta  - ok : # Verb 'to bring' - ei tsekattu
+  Verb - laueta : - ei tsekattu # Verb 'to bring' 
      laueta+V+Inf: laueta
      laueta+V+Act+Ind+Prs+Sg1: laukkeen
      laueta+V+Act+Ind+Prs+Sg2: laukkeet
@@ -44,11 +44,11 @@ Tests:
      laueta+V+Act+Cond+Pl3: lauettais
      laueta+V+Pass+Cond: lauettais
     
-     laueta+V+Act+Imprt+Sg2: laukene
+     laueta+V+Act+Imprt+Sg2: laukkee
      laueta+V+Act+Imprt+Pl2: lauekkaa
      
      laueta+V+Act+Inf3+Ine: laukkeemassa
      laueta+V+Act+Inf3+Ela: laukkeemasta
      laueta+V+Act+Inf3+Ill: laukkeemhaan
-     laueta+V+Act+Inf3+Ade: laukleemalla
+     laueta+V+Act+Inf3+Ade: laukkeemalla
      laueta+V+Act+Inf3+Abe: laukkeematta
