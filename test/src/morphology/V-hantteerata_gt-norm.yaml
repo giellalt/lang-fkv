@@ -1,0 +1,54 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - hantteerata - ok : # Verb 'to bring' - ei tsekattu
+     hantteerata+V+Inf: hantteerata
+     hantteerata+V+Act+Ind+Prs+Sg1: hantteeraan
+     hantteerata+V+Act+Ind+Prs+Sg2: hantteeraat
+     hantteerata+V+Act+Ind+Prs+Sg3: hantteeraa
+     hantteerata+V+Act+Ind+Prs+Pl1: hantteeraamma
+     hantteerata+V+Act+Ind+Prs+Pl2: hantteeraatta
+     hantteerata+V+Act+Ind+Prs+Pl3: hantteerathaan
+     hantteerata+V+Act+Ind+Prt+Sg1: hantteerasin
+     hantteerata+V+Act+Ind+Prt+Sg2: hantteerasit
+     hantteerata+V+Act+Ind+Prt+Sg3: hantteeras
+     hantteerata+V+Act+Ind+Prt+Pl1: hantteerasima
+     hantteerata+V+Act+Ind+Prt+Pl2: hantteerasitta
+     hantteerata+V+Act+Ind+Prt+Pl3: hantteerathiin
+     hantteerata+V+Act+PrfPrc+Sg+Nom: hantteeranu
+     hantteerata+V+Pass+PrfPrc+Nom: hantteerattu
+     hantteerata+V+Act+PrfPrc+Pl+Nom: hantteeranheet
+     hantteerata+V+Act+PrsPrc+Sg+Nom: hantteeraava
+     hantteerata+V+Act+PrsPrc+Pl+Nom: hantteeraavat
+     hantteerata+V+Pass+PrsPrc+Sg+Nom: hantteerattava
+     hantteerata+V+Pass+PrsPrc+Pl+Nom: hantteerattavat
+
+     hantteerata+V+Act+Cond+Sg1: hantteeraisin
+     hantteerata+V+Act+Cond+Sg2: hantteeraisit
+     hantteerata+V+Act+Cond+Sg3: hantteerais
+     hantteerata+V+Act+Cond+Pl1: hantteeraisima
+     hantteerata+V+Act+Cond+Pl2: hantteeraisitta
+     hantteerata+V+Act+Cond+Pl3: hantteerattais
+     hantteerata+V+Pass+Cond: hantteerattais
+    
+     hantteerata+V+Act+Imprt+Sg2: hantteeraa
+     hantteerata+V+Act+Imprt+Pl2: hantteeraakkaa
+     
+     hantteerata+V+Act+Inf3+Ine: hantteeraamassa
+     hantteerata+V+Act+Inf3+Ela: hantteeraamasta
+     hantteerata+V+Act+Inf3+Ill: hantteeraamhaan
+     hantteerata+V+Act+Inf3+Ade: hantteeraamala
+     hantteerata+V+Act+Inf3+Abe: hantteeraamatta
