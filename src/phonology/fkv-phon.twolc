@@ -28,7 +28,7 @@ Sets
 FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            !!= * @CODE@ 
 BackVowel = a o u å ;                                       !!= * @CODE@ 
 ArchiVowel =  %^A %^O %^U ;                                 !!= * @CODE@ 
-SomeVowel = e:0 %^V ;                                           !!= * @CODE@ 
+SomeVowel = %^V ;                                           !!= * @CODE@ 
 NeutralVowel = e i ;                                        !!= * @CODE@ 
 Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;       !!= * @CODE@ 
 NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;       !!= * @CODE@ 
