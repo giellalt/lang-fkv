@@ -439,7 +439,8 @@ i6:0 <=> _ k: a %^WG:0;
 
 "Gradation k:j" 
 !k:j <=>    [a|e|i|i6:] _ [o|e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! pako  - pajon? conflict k:v
-k:j <=>    [a|e|i|i6:] _ [e:|i|o:]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! 
+k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! 
+			i _ [ö:|o:]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !		
          [ä|æ|e|i|i6:] _   [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! m̈äki  - mäjen
              [e|i|i6:] _   [e:|i|ä|æ|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
                  [r|l] _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki - jäljen
@@ -752,10 +753,9 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>:0 i2: ; ! 3-syll
  Vx:e <=> _ %^AE:0 ;
  	where Vx in ( a ä ) ;
 
-
 "ä:0 before i except in conditional"
 !! __@RULENAME@__ 
- ä:0 <=> Cns: _ [(Dummy:* - %^AE:) %>:0 [ i | i2: | i3: | i5: ] | [ä:0]];
+ ä:0 <=> Cns: _ [(Dummy:* - %^AE:0) %>:0 [ i | i2: | i3: | i5: ] | [ä:0]];
 
 !€
 !€# kehä>i2>ss^A
