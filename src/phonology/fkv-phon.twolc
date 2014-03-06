@@ -2,9 +2,9 @@
 !! !!Alphabet
 
 Alphabet
-a b c d đ e f g h i j k l m n o p q         !!= * @CODE@
+a a:o b c d đ e f g h i j k l m n o p q         !!= * @CODE@
 r s t u ü v w x y z å ä ö æ ø               !!= * @CODE@
-A B C D Đ E F G H I J K L M N O P           !!= * @CODE@
+A A:O B C D Đ E F G H I J K L M N O P           !!= * @CODE@
 R S T U V W X Y Z Å Ä Ö Æ Ø                 !!= * @CODE@
 %+:0                                        !!= * @CODE@ gemination
 %^A:ä %^O:ö %^U:y                !!= * @CODE@ archi vowels for harmony
@@ -33,7 +33,7 @@ NeutralVowel = e i ;                                        !!= * @CODE@
 Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;       !!= * @CODE@ 
 NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;       !!= * @CODE@ 
 NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;       !!= * @CODE@ 
-NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o   å ;       !!= * @CODE@ 
+NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o  å ;       !!= * @CODE@ 
 NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;             !!= * @CODE@ 
 NotOUI  = e                     y ä ö ü æ ø a ;             !!= * @CODE@ 
 NotOUIY = e                       ä ö   æ ø a ;             !!= * @CODE@ 
@@ -709,8 +709,17 @@ a:0 <=> (\a) [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__ 
-  a:o <=> .#. (Cns:*) [i|e|a] \o \u Cns:* (:Cns) %>:0 %^AO:0 a _ %>:0 [i2:i | i3:i ] ; ! 2-syll
-! a:o <=  .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) Vowel:a _ %^AO:0 %>:0 Vowel:o [i2: | i3: ] ; !2-syll
+!a:o <=> .#. (Cns:*) [i|e|a] \o \u Cns:* (:Cns) %>:0 %^AO:o a:o _ %>:0 [i2:i | i3:i ] ; ! 2-syll
+a:o <=> .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) (%^AO:0) a:o _  %>:0 [i2: | i3: ] ; !2-syll 
+
+!a:o / <= .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) %^AO:0 _ %>:0 i [a:a] ; !2-syll
+
+"a never o in front of i:i"
+!! __@RULENAME@__ 
+!a:o /<= (.#.) (Cns:*) a:a (\%>:0) _  i:i ;
+
+a:o /<= a _ (\%>:0) i ;
+
        ! .#. Cns:* [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) [Dummy: - %^AE:] _ %^AO:0 [ i2:| i3: ] ;
 ! Vowel Cns Cns:* [Vowel: - [o|u]] [i|e|a] Cns:+ (:Cns)[Dummy: - %^AE:] _ [Dummy: - %^AE:] %>:0 [i2: | i3:] ; !3-syll
  
@@ -733,6 +742,7 @@ a:0 <=> (\a) [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0
 
 
 "a:i in 3-syll stems with long a and i"
+!! __@RULENAME@__ 
 a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>:0 i2: ; ! 3-syll
 
 ! opettaajiissa
