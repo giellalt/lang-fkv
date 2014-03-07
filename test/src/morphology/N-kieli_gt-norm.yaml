@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - kieli - ei tsekattu : # Noun 'år' - ei tsekattu
+     kieli+N+Sg+Nom: kieli
+     kieli+N+Sg+Gen: kielen
+     kieli+N+Sg+Par: kieltä
+     kieli+N+Sg+Tra: kieleksi
+     kieli+N+Sg+Abe: kielettä
+     kieli+N+Sg+Ine: kielessä
+     kieli+N+Sg+Ela: kielestä
+     kieli+N+Sg+Ill: kielheen
+     kieli+N+Sg+Ade: kielelä
+     kieli+N+Sg+Abl: kieleltä
+     kieli+N+Sg+All: kielele
+     kieli+N+Sg+Ess: kielenä
+     kieli+N+Pl+Nom: kielet
+     kieli+N+Pl+Gen: kieliin
+     kieli+N+Pl+Par: kielii
+     kieli+N+Pl+Tra: kieliksi
+     kieli+N+Pl+Abe: kielittä
+     kieli+N+Pl+Ine: kielissä
+     kieli+N+Pl+Ela: kielistä
+     kieli+N+Pl+Ill: kielhiin
+     kieli+N+Pl+Ade: kielilä
+     kieli+N+Pl+Abl: kieliltä
+     kieli+N+Pl+All: kielile
+     kieli+N+Pl+Ess: kielinä
+     kieli+N+Pl+Com: kieline
