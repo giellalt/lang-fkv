@@ -19,8 +19,9 @@ LEXICON NounRoot !!= @CODE@
 !! ** 2.3 Kokkoontumanom. ( valkkee,)	      	 = n_23
 !! ** 2.3.1 Kokkoontumanom. ( assii)    		 = n_23ii
 !! * 3. Konsonanttirankaiset					 = 
-!! ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
+!! ** 3.1 Kaksitavuiset ( pieni, kieli)			 = n_31
 !! ** 3.1.1. lumi:lumen:lunta                    = n_31m
+!! ** 3.1.2. (käsi, vuosi)						 = n_31si
 !! ** 3.2 Usseempitavuiset ( tytär)				
 !! *** 3.2.1 (tytär)                              = n_32
 !! *** 3.2.2. (elläin: elläimen                   = n_32m
@@ -96,10 +97,10 @@ kurkkii         n_23ii ;
 !! !!3. Konsonanttirankaiset
 
 !! !!3.1. Kaksitavuiset
-käsi:käte            n_31 ; !!= * @CODE@
+käsi:käte            n_31si ; !!= * @CODE@
 lumi:lu            n_31m ; !!= * @CODE@
-hirsi:hirte           n_31 ;
-lapsi:lapse           n_31 ;
+hirsi:hirte           n_31si ;
+lapsi:lapse           n_31si ;
 mies:miehe            n_31 ;
 
 
@@ -2413,49 +2414,49 @@ kuori:kuore n_21ie ;
 putaatinkuori:putaatinkuore n_21ie ; 
 juuri:juure n_31 ; 
 sääri:sääre n_21ie ; 
-vesi:vete n_31 ; 
-matalavesi:matalavete n_31 ; 
-jokivesi:jokivete n_31 ; 
+vesi:vete n_31si ; 
+matalavesi:matalavete n_31si ; 
+jokivesi:jokivete n_31si ; 
 merivesi:merivete n_31 ; 
-sumppuvesi:sumppuvete n_31 ; 
-nousuvesi:nousuvete n_31 ; 
-kansi:kante n_31 ; 
-kynsi:kynte n_31 ; 
-länsi:länte n_31 ; 
-vuosi:vuote n_31 ; 
-uusivuosi:uusivuote n_31 ; 
-karkkausvuosi:karkkausvuote n_31 ; 
-lapsi:lapse n_31 ; 
-jalkalapsi:jalkalapse n_31 ; 
-rippilapsi:rippilapse n_31 ; 
-ristilapsi:ristilapse n_31 ; 
-lapsenlapsi:lapsenlapse n_31 ; 
-ruokkolapsi:ruokkolapse n_31 ; 
-orpolapsi:orpolapse n_31 ; 
-opetuslapsi:opetuslapse n_31 ; 
-pikkulapsi:pikkulapse n_31 ; 
-koululapsi:koululapse n_31 ; 
-räkälapsi:räkälapse n_31 ; 
-varsi:varte n_31 ; 
-jokivarsi:jokivarte n_31 ; 
-käsivarsi:käsivarte n_31 ; 
-saaphaanvarsi:saaphaanvarte n_31 ; 
-vikaatheenvarsi:vikaatheenvarte n_31 ; 
-kirvheenvarsi:kirvheenvarte n_31 ; 
-hirsi:hirte n_31 ; 
+sumppuvesi:sumppuvete n_31si ; 
+nousuvesi:nousuvete n_31si ; 
+kansi:kante n_31si ; 
+kynsi:kynte n_31si ; 
+länsi:länte n_31si ; 
+vuosi:vuote n_31si ; 
+uusivuosi:uusivuote n_31si ; 
+karkkausvuosi:karkkausvuote n_31si ; 
+lapsi:lapse n_31si ; 
+jalkalapsi:jalkalapse n_31si ; 
+rippilapsi:rippilapse n_31si ; 
+ristilapsi:ristilapse n_31si ; 
+lapsenlapsi:lapsenlapse n_31si ; 
+ruokkolapsi:ruokkolapse n_31si ; 
+orpolapsi:orpolapse n_31si ; 
+opetuslapsi:opetuslapse n_31si ; 
+pikkulapsi:pikkulapse n_31si ; 
+koululapsi:koululapse n_31si ; 
+räkälapsi:räkälapse n_31si ; 
+varsi:varte n_31si ; 
+jokivarsi:jokivarte n_31si ; 
+käsivarsi:käsivarte n_31si ; 
+saaphaanvarsi:saaphaanvarte n_31si ; 
+vikaatheenvarsi:vikaatheenvarte n_31si ; 
+kirvheenvarsi:kirvheenvarte n_31si ; 
+hirsi:hirte n_31si ; 
 kirsi n_21 ; 
-virsi:virte n_31 ; 
-jouluvirsi:jouluvirte n_31 ; 
+virsi:virte n_31si ; 
+jouluvirsi:jouluvirte n_31si ; 
 orsi:orre n_21ie ; 
-kausi:kaute n_31 ; 
-vuorokausi:vuorokaute n_31 ; 
-kuukausi:kuukaute n_31 ; 
+kausi:kaute n_31si ; 
+vuorokausi:vuorokaute n_31si ; 
+kuukausi:kuukaute n_31si ; 
 kusi:kute n_21ie ; 
-susi:sute n_31 ; 
-kuusi:kuute n_31 ; 
-köysi:köyte n_31 ; 
-käsi:käte n_31 ; 
-kumokäsi:kumokäte n_31 ; 
+susi:sute n_31si ; 
+kuusi:kuute n_31si ; 
+köysi:köyte n_31si ; 
+käsi:käte n_31si ; 
+kumokäsi:kumokäte n_31si ; 
 lahti:lahte n_21ie ; 
 lehti:lehte n_21ie ; 
 tähti:tähte n_21ie ; 
