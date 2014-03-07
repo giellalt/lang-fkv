@@ -17,8 +17,9 @@
 !! ** 2.3 Kokkoontumanom. ( valkkee)    		 = n_23
 !! ** 2.3.1 Kokkoontumanom. (assii)             = n_23ii
 !! * 3. Konsonanttirankaiset					  
-!! ** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
+!! ** 3.1 Kaksitavuiset ( pieni, kieli)			 = n_31
 !! ** 3.1.1. Kaksitavuiset lumi)                 = n_31m
+!! ** 3.1.2. (käsi, vuosi)						 = n_31si
 !! ** 3.2 Usseempitavuiset 
 !! ** 3.2.1 (tytär)                              = n_32
 !! ** 3.2.2. (elläin)                            = n_32m
@@ -166,10 +167,9 @@ LEXICON n_23	!!= * @CODE@  valkkee
 +N+Pl+Com:e%>i2ne K ;
 
 
-
-LEXICON n_31	!!= @CODE@ vuosi, käsi
+LEXICON n_31	!!= @CODE@  kieli
 +N+Sg+Nom:%^E2I K ; ! %^E2I e to i
-+N+Sg+Nom:%^E2I R ; ! %^E2I e to i
++N+Sg+Nom:%%^E2I R ; ! %^E2I e to i
 +N:%^EDEL long-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
@@ -195,6 +195,21 @@ LEXICON n_31m	!!= @CODE@ lumi lu
 +N+Pl+Ill:m%^EDEL%>hii n-PxK ;
 +N+Pl:mmi%>i2 shortparpl ;
 +N+Pl+Com:m%>i2ne K ;
+
+LEXICON n_31si	!!= @CODE@ vuosi, käsi
++N+Sg+Nom:%^E2I K ; ! %^E2I e to i
++N+Sg+Nom:%^E2I R ; ! %^E2I e to i
++N:%^EDEL long-par ;
++N: obl-strong ;   
++N:%^WG weak-v-stem ;
++N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N: 2TAVU_V_ill_sg ;
++N+Pl:%^E2I%^HMETAhii shortestillpl ;
++N+Pl:%>i2 shortparpl	 ;
++N+Pl:%>i2 shortgenpl	 ;
++N+Pl:%^EDEL consgenpl ;
++N+Pl+Com:%>i2ne K ;
 
 LEXICON n_32 !!= @CODE@ tytär tyttär
 +N+Sg+Nom:%^WG K ;
