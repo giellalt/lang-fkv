@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - sieni - ei tsekattu : # Noun 'år' - ei tsekattu
+     sieni+N+Sg+Nom: sieni
+     sieni+N+Sg+Gen: sienen
+     sieni+N+Sg+Par: sientä
+     sieni+N+Sg+Tra: sieneksi
+     sieni+N+Sg+Abe: sienettä
+     sieni+N+Sg+Ine: sienessä
+     sieni+N+Sg+Ela: sienestä
+     sieni+N+Sg+Ill: sienheen
+     sieni+N+Sg+Ade: sienelä
+     sieni+N+Sg+Abl: sieneltä
+     sieni+N+Sg+All: sienele
+     sieni+N+Sg+Ess: sienenä
+     sieni+N+Pl+Nom: sienet
+     sieni+N+Pl+Gen: sieniin
+     sieni+N+Pl+Par: sienii
+     sieni+N+Pl+Tra: sieniksi
+     sieni+N+Pl+Abe: sienittä
+     sieni+N+Pl+Ine: sienissä
+     sieni+N+Pl+Ela: sienistä
+     sieni+N+Pl+Ill: sienhiin
+     sieni+N+Pl+Ade: sienilä
+     sieni+N+Pl+Abl: sieniltä
+     sieni+N+Pl+All: sienile
+     sieni+N+Pl+Ess: sieninä
+     sieni+N+Pl+Com: sienine
