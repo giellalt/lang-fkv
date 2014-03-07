@@ -711,15 +711,15 @@ a:0 <=> (\a) [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__ 
 !a:o <=> .#. (Cns:*) [i|e|a] \o \u Cns:* (:Cns) %>:0 %^AO:o a:o _ %>:0 [i2:i | i3:i ] ; ! 2-syll
-a:o <=> .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) (%^AO:0) a:o _  %>:0 [i2: | i3: ] ; !2-syll 
+a:o <=> .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) (%^AO:0) _  %>:0 [i2: | i3: ] ; !2-syll 
 
 !a:o / <= .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) %^AO:0 _ %>:0 i [a:a] ; !2-syll
 
-"a never o in front of i:i"
+!"a never o in front of i:i"
 !! __@RULENAME@__ 
 !a:o /<= (.#.) (Cns:*) a:a (\%>:0) _  i:i ;
 
-a:o /<= a _ (\%>:0) i ;
+!a:o /<= a _ (\%>:0) i ;
 
        ! .#. Cns:* [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) [Dummy: - %^AE:] _ %^AO:0 [ i2:| i3: ] ;
 ! Vowel Cns Cns:* [Vowel: - [o|u]] [i|e|a] Cns:+ (:Cns)[Dummy: - %^AE:] _ [Dummy: - %^AE:] %>:0 [i2: | i3:] ; !3-syll
@@ -750,7 +750,7 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>:0 i2: ; ! 3-syll
 
 "a:e in participles"
 !! __@RULENAME@__ 
- Vx:e <=> _ %^AE:0 t (t) ;
+ Vx:e <=> _ %^AE:0 (t) (t) ;
  	where Vx in ( a ä ) ;
 
 "ä:0 before i except in conditional"
