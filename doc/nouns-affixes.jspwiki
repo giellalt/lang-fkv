@@ -15,8 +15,9 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 ** 2.3 Kokkoontumanom. ( valkkee)    		 = n_23
 ** 2.3.1 Kokkoontumanom. (assii)             = n_23ii
 * 3. Konsonanttirankaiset					  
-** 3.1 Kaksitavuiset ( pieni, käsi)			 = n_31
+** 3.1 Kaksitavuiset ( pieni, kieli)			 = n_31
 ** 3.1.1. Kaksitavuiset lumi)                 = n_31m
+** 3.1.2. (käsi, vuosi)						 = n_31si
 ** 3.2 Usseempitavuiset 
 ** 3.2.1 (tytär)                              = n_32
 ** 3.2.2. (elläin)                            = n_32m
@@ -73,12 +74,15 @@ the same affix in sg and pl
  * LEXICON n_23	  valkkee
 
 
-
- LEXICON n_31	 vuosi, käsi
+ LEXICON n_31	  kieli
 these two lexica for cases with
 the same affix in sg and pl
 
  LEXICON n_31m	 lumi lu
+these two lexica for cases with
+the same affix in sg and pl
+
+ LEXICON n_31si	 vuosi, käsi
 these two lexica for cases with
 the same affix in sg and pl
 

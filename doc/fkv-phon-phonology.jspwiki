@@ -1,9 +1,9 @@
 !!!Phonological rules for Kven
 !!Alphabet
 
- * a b c d đ e f g h i j k l m n o p q         
+ * a a:o b c d đ e f g h i j k l m n o p q         
  * r s t u ü v w x y z å ä ö æ ø               
- * A B C D Đ E F G H I J K L M N O P           
+ * A A:O B C D Đ E F G H I J K L M N O P           
  * R S T U V W X Y Z Å Ä Ö Æ Ø                 
  * %+:0                                         gemination
  * %^A:ä %^O:ö %^U:y                 archi vowels for harmony
@@ -30,7 +30,7 @@
  * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;        
  * NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;        
  * NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;        
- * NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o   å ;        
+ * NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o  å ;        
  * NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;              
  * NotOUI  = e                     y ä ö ü æ ø a ;              
  * NotOUIY = e                       ä ö   æ ø a ;              
@@ -234,6 +234,9 @@ __Gradation t:đ__
 
 
 
+
+
+
 __ti:si__ 
 
 
@@ -256,6 +259,8 @@ __Vowel copying __
 
 
 __Vowel copying in long h forms of a-stems__ 
+
+
 
 
 
@@ -303,6 +308,12 @@ The -i- rules require different i-s for different POS.
 __a:0 before Pret and Pl i when rounded root vowel__ 
 
 
+
+
+
+__a:o before Pl i and Pret i__ 
+
+
 __a:o before Pl i and Pret i__ 
 
 
@@ -312,8 +323,10 @@ __a:o before Pl i and Pret i__
 
 
 
-__a:e in participles__ 
+__a:i in 3-syll stems with long a and i__ 
 
+
+__a:e in participles__ 
 
 __ä:0 before i except in conditional__ 
 
