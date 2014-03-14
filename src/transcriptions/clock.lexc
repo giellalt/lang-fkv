@@ -1,0 +1,176 @@
+Multichar_Symbols
+
+
+!@P.1.ON@ @D.1.ON@ @C.1@ 
+!@P.2.ON@ @D.2.ON@ @C.2@ 
+!@P.3.ON@ @D.3.ON@ @C.3@ 
+!@P.4.ON@ @D.4.ON@ @C.4@ 
+!@P.5.ON@ @D.5.ON@ @C.5@ 
+!@P.6.ON@ @D.6.ON@ @C.6@ 
+!@P.7.ON@ @D.7.ON@ @C.7@ 
+!@P.8.ON@ @D.8.ON@ @C.8@ 
+!@P.9.ON@ @D.9.ON@ @C.9@ 
+!@P.10.ON@ @D.10.ON@ @C.10@ 
+!@P.11.ON@ @D.11.ON@ @C.11@ 
+!@P.12.ON@ @D.12.ON@ @C.12@ 
+
+
+@U.TIME.1@ 
+@U.TIME.2@ 
+@U.TIME.3@ 
+@U.TIME.4@ 
+@U.TIME.5@ 
+@U.TIME.6@ 
+@U.TIME.7@ 
+@U.TIME.8@ 
+@U.TIME.9@ 
+@U.TIME.10@ 
+@U.TIME.11@ 
+@U.TIME.12@ 
+
+LEXICON Root
+
+@U.TIME.1@:%01@U.TIME.1@ AFT ; !01:00 - 01:19
+@U.TIME.2@:%01@U.TIME.2@ BEF ; !01:20 - 01:59
+@U.TIME.2@:%02@U.TIME.2@ AFT ; !02:00 - 02:19
+@U.TIME.3@:%02@U.TIME.3@ BEF ; !02:20 - 02:59
+@U.TIME.3@:%03@U.TIME.3@ AFT ; !03:00 - 03:19
+@U.TIME.4@:%03@U.TIME.4@ BEF ; !03:20 - 03:59
+@U.TIME.4@:%04@U.TIME.4@ AFT ; !04:00 - 04:19
+@U.TIME.5@:%04@U.TIME.5@ BEF ; !04:20 - 04:59
+@U.TIME.5@:%05@U.TIME.5@ AFT ; !05:00 - 05:19
+@U.TIME.6@:%05@U.TIME.6@ BEF ; !05:20 - 05:59
+@U.TIME.6@:%06@U.TIME.6@ AFT ; !06:00 - 06:19
+@U.TIME.7@:%06@U.TIME.7@ BEF ; !06:20 - 06:59
+@U.TIME.7@:%07@U.TIME.7@ AFT ; !07:00 - 07:19
+@U.TIME.8@:%07@U.TIME.8@ BEF ; !07:20 - 07:59
+@U.TIME.8@:%08@U.TIME.8@ AFT ; !08:00 - 08:19
+@U.TIME.9@:%08@U.TIME.9@ BEF ; !08:20 - 08:59
+@U.TIME.9@:%09@U.TIME.9@ AFT ; !09:00 - 09:19
+@U.TIME.10@:%09@U.TIME.10@ BEF ; !09:20 - 09:59
+@U.TIME.10@:1%0@U.TIME.10@ AFT ; !10:00 - 10:19
+@U.TIME.11@:1%0@U.TIME.11@ BEF ; !10:20 - 10:59
+@U.TIME.11@:11@U.TIME.11@ AFT ; !11:00 - 11:59
+@U.TIME.12@:11@U.TIME.12@ BEF ; !11:19 - 11:59
+@U.TIME.12@:12@U.TIME.12@ AFT ; !12:00 - 12:19
+@U.TIME.1@:12@U.TIME.1@ BEF ; !12:19 - 12:59
+@U.TIME.1@:13@U.TIME.1@ AFT ; !13:00 - 13:19
+@U.TIME.2@:13@U.TIME.2@ BEF ; !13:19 - 13:59
+@U.TIME.2@:14@U.TIME.2@ AFT ; !14:00 - 114:19
+@U.TIME.3@:14@U.TIME.3@ BEF ; !14:19 - 14:59
+@U.TIME.3@:15@U.TIME.3@ AFT ; !15:00 - 15:19
+@U.TIME.4@:15@U.TIME.4@ BEF ; !15:19 - 15:59
+@U.TIME.4@:16@U.TIME.4@ AFT ; !16:00 - 16:19
+@U.TIME.5@:16@U.TIME.5@ BEF ; !16:19 - 16:59
+@U.TIME.5@:17@U.TIME.5@ AFT ; !17:00 - 17:19
+@U.TIME.6@:17@U.TIME.6@ BEF ; !17:19 - 17:59
+@U.TIME.6@:18@U.TIME.6@ AFT ; !18:00 - 18:19
+@U.TIME.7@:18@U.TIME.7@ BEF ; !18:19 - 18:59
+@U.TIME.7@:19@U.TIME.7@ AFT ; !19:00 - 19:19
+@U.TIME.8@:19@U.TIME.8@ BEF ; !19:20 - 19:59
+@U.TIME.8@:2%0@U.TIME.8@ AFT ; !20:00 - 20:19
+@U.TIME.9@:2%0@U.TIME.9@ BEF ; !20:20 - 20:59
+@U.TIME.9@:21@U.TIME.9@ AFT ; !21:00 - 21:19
+@U.TIME.10@:21@U.TIME.10@ BEF ; !21:20 - 21:59
+@U.TIME.10@:22@U.TIME.10@ AFT ; !22:00 - 22:19
+@U.TIME.11@:22@U.TIME.11@ BEF ; !22:19 - 22:59
+@U.TIME.11@:23@U.TIME.11@ AFT ; !23:00 - 23:19
+@U.TIME.12@:23@U.TIME.12@ BEF ; !23:19 - 23:59
+kaksitoista:24%:%0%0 # ; !24:00
+@U.TIME.12@:%0%0@U.TIME.12@ AFT ; !00:00 - 00:19
+@U.TIME.12@:%0%0@U.TIME.12@ BEF ; !00:19 - 00:59
+ 
+ 
+LEXICON BEF
+2%0:%  TOHALF ;
+21:%  TOHALF ;
+22:%  TOHALF ;
+23:%  TOHALF ;
+24:%  TOHALF ;
+25:%  TOHALF ; 
+26:%  TOHALF ; 
+27:%  TOHALF ;
+28:%  TOHALF ; 
+29:%  TOHALF ;
+3%0:%  HOUR ;
+31:%  OVERHALF ;
+32:%  OVERHALF ;
+33:%  OVERHALF ;
+neljä%_:%34 OVERHALF ;
+35:%  OVERHALF ;
+36:%  OVERHALF ;
+37:%  OVERHALF ;
+38:%  OVERHALF ; 
+39:%  OVERHALF ;
+4%0:%  OVERHALF ;
+41:%  TO ;
+42:%  TO ;
+43:%  TO ;
+44:%  TO ;
+45:%  TO ;
+46:%  TO ;
+47:%  TO ;
+48:%  TO ;
+49:%  TO ;
+5%0:%  TO ;
+51:%  TO ;
+52:%  TO ;
+53:%  TO ;
+54:%  TO ;
+55:%  TO ; 
+56:%  TO ; 
+57:%  TO ;
+58:%  TO ; 
+59:%  TO ;
+ 
+LEXICON AFT
+%0%0:%  HOUR ;
+%01:%  OVER ;
+%02:%  OVER ;
+%03:%  OVER ;
+%04:%  OVER ;
+%05:%  OVER ;
+%06:%  OVER ;
+%07:%  OVER ;
+%08:%  OVER ;
+%09:%  OVER ;
+1%0:%  OVER ;
+11:%  OVER ;
+12:%  OVER ;
+13:%  OVER ;
+14:%  OVER ;
+15:%  OVER ;
+16:%  OVER ;
+17:%  OVER ;
+18:%  OVER ;
+19:%  OVER ;
+ 
+LEXICON TOHALF
+vaille%_puoli%_: HOUR ;
+ 
+LEXICON OVERHALF
+yli%_puoli%_: HOUR ;
+ 
+LEXICON TO
+vaille%_: HOUR ;
+ 
+LEXICON OVER
+yli%_: HOUR ;
+ 
+LEXICON HOUR
+yksi@U.TIME.1@:@U.TIME.1@ ENDLEX ;
+kaksi@U.TIME.2@:@U.TIME.2@ ENDLEX ;
+kolme@U.TIME.3@:@U.TIME.3@ ENDLEX ;
+neljä@U.TIME.4@:@U.TIME.4@ ENDLEX ;
+viisi@U.TIME.5@:@U.TIME.5@ ENDLEX ;
+kuusi@U.TIME.6@:@U.TIME.6@ ENDLEX ;
+seitsemän@U.TIME.7@:@U.TIME.7@ ENDLEX ;
+kahdeksan@U.TIME.8@:@U.TIME.8@ ENDLEX ;
+yhdeksän@U.TIME.9@:@U.TIME.9@ ENDLEX ;
+kymmenen@U.TIME.10@:@U.TIME.10@ ENDLEX ;
+yksitoista@U.TIME.11@:@U.TIME.11@ ENDLEX ;
+kaksitoista@U.TIME.12@:@U.TIME.12@ ENDLEX ;
+ 
+LEXICON ENDLEX
+# ;
+ 
