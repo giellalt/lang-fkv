@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - hirsi - ok : # Noun 'år' - ei tsekattu
+     hirsi+N+Sg+Nom: hirsi
+     hirsi+N+Sg+Gen: hirren
+     hirsi+N+Sg+Par: hirttä
+     hirsi+N+Sg+Tra: hirreksi
+     hirsi+N+Sg+Abe: hirrettä
+     hirsi+N+Sg+Ine: hirressä
+     hirsi+N+Sg+Ela: hirrestä
+     hirsi+N+Sg+Ill: hirtheen
+     hirsi+N+Sg+Ade: hirrelä
+     hirsi+N+Sg+Abl: hirreltä
+     hirsi+N+Sg+All: hirrele
+     hirsi+N+Sg+Ess: hirtenä
+     hirsi+N+Pl+Nom: hirret
+     hirsi+N+Pl+Gen: hirssiin
+     hirsi+N+Pl+Par: hirssii
+     hirsi+N+Pl+Tra: hirsiksi
+     hirsi+N+Pl+Abe: hirsittä
+     hirsi+N+Pl+Ine: hirsissä
+     hirsi+N+Pl+Ela: hirsistä
+     hirsi+N+Pl+Ill: hirshiin
+     hirsi+N+Pl+Ade: hirsilä
+     hirsi+N+Pl+Abl: hirsiltä
+     hirsi+N+Pl+All: hirsile
+     hirsi+N+Pl+Ess: hirsinä
+     hirsi+N+Pl+Com: hirsine
