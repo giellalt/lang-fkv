@@ -20,6 +20,7 @@ t2:t                      !!= * @CODE@
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
 %^AE:0                    !!= * @CODE@ -- a to e lauletaan
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
+#
 ;
 
 
@@ -521,6 +522,7 @@ k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !! __@RULENAME@__ 
 t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>:0 i3: | (:s) e: %>:0 i2: [.#.|Cns]] ;
         Vowel   _ [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>:0 i3: | (:s) e: %>:0 i2: [.#.|Cns]] ;
+  Vowel [n|l|r] _ [                   Vowel:0            %^WG:0  %>:0 i3: ] ;
 
 !# vuote^E2I... not ready
 !0 vuoss00i0i
@@ -681,7 +683,9 @@ e:0 <=> Cns: _ [ (Dummy:* - %^E2I:0) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__ 
-a:0 <=> (\a) [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0  [i2:|i3:] | [a:0]] ;
+!a:0 <=> (\a) [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0  [i2:|i3:] | [a:0]] ;
+
+a:0 <=> (\a) [(u) u|([u|o]) o] Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0  [i2:|i3:] | [a:0]] ;
 
 !€
 !€# otta^WG>i2n 
@@ -689,8 +693,8 @@ a:0 <=> (\a) [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__ 
-!a:o <=> .#. (Cns:*) ([Vowel: - [o|u]]) [i|e|a] Cns:* (:Cns) (%^AO:0) _  %>:0 [i2: | i3: ] ; !2-syll 
-a:o <=>  (Cns:*) ([i|e|a]) [i|e|a]  Cns:* :Cns _ (Dummy:) %>:0  [i2: | i3: ] ;
+!a:o <=>      .#.   (Cns:*) ([Vowel: - [o|u]]) [i|e|a] Cns:* (:Cns) (%^AO:0) _                   %>:0 [i2: | i3: ] ; !2-syll 
+a:o <=>  [ #: | .#. ] Cns:* ([i|e|a]         ) [i|e|a] Cns:*  :Cns           _ (Dummy: - %^AE:0) %>:0 [i2: | i3: ] ;
 !€
 !€# kal0a>i2en
 !€0 kallo0ien
@@ -708,7 +712,10 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>:0 i2: ; ! 3-syll
 
 "a:e in passives"
 !! __@RULENAME@__ 
- Vx:e <=> _ %^AE:0 (t) (t) ;
+! Vx:e <=> _ %^AE:0 (t) (t) ;
+! 	where Vx in ( a ä ) ;
+
+Vx:e <=> _ %^AE:0 (%^WG:0) %>:0 t (t) ;
  	where Vx in ( a ä ) ;
 
 "ä:0 before i except in conditional"
