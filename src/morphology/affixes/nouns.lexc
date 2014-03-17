@@ -65,13 +65,13 @@ LEXICON n_21	!!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;      !! * to sgpl-cases-short for cases with
-+N+Pl:%>%^WG%>i2 sgpl-cases-short ;  !!   the same affix in sg and pl
++N+Pl:%^WG%>i2 sgpl-cases-short ;  !!   the same affix in sg and pl
 +N: 2TAVU_V_ill_sg ;
-+N+Pl:%>%^AO%>i2 shortestgenpl ;  !! * to shortestgenpl since we already
-+N+Pl:%>%^AO%>i2 shortestparpl  ; !!   have the i
++N+Pl:%>i2 shortestgenpl ;  !! * to shortestgenpl since we already
++N+Pl:%>i2 shortestparpl  ; !!   have the i
 +N+Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
 +N+Pl+Ill:%>%^HMETAh%^V%>i2 n-PxK ;
-+N+Pl+Com:%>%^AO%>i2ne K ;
++N+Pl+Com:%>i2ne K ;
  
 
 LEXICON n_21pl	!!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
@@ -124,7 +124,7 @@ LEXICON n_22odd	!!= * @CODE@  meininki
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
-+N+Pl:%^WG%^AO%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
++N+Pl:%^WG%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 +N: 2TAVU_V_ill_sg ;
 +N+Sg+Ess:%>nn%^A PxxK ;
 +N+Pl+Tra:%>i2ksi K ;
@@ -132,7 +132,7 @@ LEXICON n_22odd	!!= * @CODE@  meininki
 +N+Pl+Ess:i2%>n%^A PxxK ;
 +N+Pl:%^WG%>i2 tt-longgenpl ;
 +N+Pl:%>i longparpl ;
-+N+Pl:%^WG%^AO%>i2 longparpl ;
++N+Pl:%^WG%>i2 longparpl ;
 +N+Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
 +N+Pl+Ill:%>%^HMETAho%>i2 n-PxK ;
 +N+Pl+Com:%>i2ne K;
