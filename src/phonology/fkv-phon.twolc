@@ -683,9 +683,7 @@ e:0 <=> Cns: _ [ (Dummy:* - %^E2I:0) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__ 
-!a:0 <=> (\a) [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0  [i2:|i3:] | [a:0]] ;
-
-a:0 <=> (\a) [(u) u|([u|o]) o] Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0  [i2:|i3:] | [a:0]] ;
+a:0 <=> (\a) [(u) u|([u|o]) o] (:i|i6:) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0  [i2:|i3:] | [a:0]] ;
 
 !€
 !€# otta^WG>i2n 
