@@ -1,0 +1,180 @@
+!!!Kokous 18032014
+
+*Aika: klo 13
+*Paikka: internet
+*Välineet: iChat ja Collabedit
+*Osallistujat: Anna-Kaisa, Kaisa, Leena, Pirjo, Trond ja Mervi
+
+!!!Agenda
+*Sanakirja
+*fst
+*Tuleva Oahpa
+*Muut asiat
+
+
+!!!Sanakirja
+
+ai + ta yhdistetty + julkaistu nds:nä ja webdict:nä
+http://gtweb.uit.no/webdict/index_fkv-nob.html
+http://sanat.oahpa.no
+
+nobfkv ei ole uudistettu
+
+http://giellatekno.uit.no/doc/dicts/dicts.html
+http://giellatekno.uit.no/doc/dicts/checklist.html
+
+
+fkvnob: l, t. 
+nobfkv: t -> l
+
+cd main/words/dicts/fkvnob/src
+cat N_fkvnob.xml | grep '<t '| tr '<' '>'|cut -d">" -f3|see
+
+Onko käännnös (<t>) itse asiassa esimerkki (<xt>)?
+Olisiko pitänyt tehdä esimerkki käännökseen? (<x>)
+
+StarDict ja MacDict:
+
+{{{
+tuli
+
+subst.
+Stamme: tule-; tul-; <====
+ild, glød
+}}}
+
+Sisäinen lähdekoodi:
+
+
+
+Vartalo:
+
+* <stem> = paperisanakirjan käsite
+* fst:n vartalo = koska tarve on anonut (hätä, ve, ...)
+* fst:n vartaloluokka (n_21, POIKA, VESI, ...)
+* Oahpan vartalo = vartaloluokka: vok v (hätä), kons v (kieli, nainen), käänteinen v (peret)
+* Oahpan selitysluokat = ehkä sama kuin fst:n vartaloluokka ("muista nen ~ se")
+
+
+
+!!Työtehtäviä
+
+* fkvnobin siivoaminen
+** ... (html)
+* sanojen lisääminen
+** Dagens ord
+** Ruijan Kaiku
+* kääntää nobfkv
+** itse kääntäminen
+** editointi sen jälkeen
+* uusia nob-sanoja
+** nob-taajuuslista...
+
+Tekijöitä: ''Anna-Kaisa, Mervi, Pirjo, Tove, Trond''.
+
+
+!!!fst
+
+Äärellinen tilaautomaatti.
+
+!!twolc
+
+Parantaa sääntöjä: Kaisa, Leena, Trond
+
+!!adjektiivit
+
+Lisätä
+
+Esim. n_42 nainen.
+
+affixes/adjectives.lexc
+
+LEXICON a_42
+komparaatio
++A: --> n:ään
+
+affixes/nouns.lexc: erottaa (1) +N  ja sitten (2) +Sg jne.
+niin, että adjektiivit menevät suoraan (2):een
+
+!!Partisiipit
+* vartalo on stems/verbs.lexc -> affixes/verbs.lexc
+* partisiippi: linkki -> affixes/adjectives.lexc -> nouns.lexc
+
+Voidaan katsoa: fao/src/morphology/affixes/verbs.lexc
+
+!!yaml-testit
+
+* Oikoluku (Pirjo)
+* Uusien testien tekeminen (Leena, Kaisa)
+
+!!Missing
+
+* Teksteistä puuttuvat sanat 
+** (RK, KI, Ruija-korpus, yr.no)
+
+
+!!Muut reiät
+
+Suljetut sanaluokat (Mervi, Trond)
+
+
+!!!Tuleva Oahpa
+
+!! Itse oahpa
+Oahpa on online ensi viikon tiistaina, ehkä tässä
+
+[http://oahpa.no/fkvoahpa/]
+
+Dokumentaatio on tässä:
+
+[http://giellatekno.uit.no/ped/fkv-oahpa.html]
+
+!! Lukusanat
+
+[https://victorio.uit.no/langtech/trunk/langs/fkv/src/transcriptions/]
+
+* Etsi-korvaa: Leena.
+* Tekniset seikat: Sjur, Trond.
+
+
+!!!Muut asiat
+
+!!Oahpa-kurssi
+
+Katsotaan.
+
+!!Tekstit
+
+!Ruijan Kaiku
+
+[http://giellatekno.uit.no/doc/lang/fkv/corpus/RuijanKaikuYliot.html]
+
+Yksi tiedosto per yliö per kieli, näin:
+
+* leder-2013-09.fkv.html
+* leder-2013-09.nob.html
+
+Tekstit annetaan Børrelle / lisätään gt-korpukseen.
+
+Saadan esim:
+[http://sanit.oahpa.no] -- Search text - funktio
+
+Muut RK-tekstit.
+
+!KI-tekstit
+
+* Sekä t- että p-tekstejä.
+* Sekä isoja että mahdollisesti pieniäkin
+
+Pirjo + Anna-Kaisa katsovat.
+
+
+!!Inari
+
+Ei mitään uutta.
+
+!!!Seuraava kokous
+
+* Seuraava kokous 1.4. klo 13 (jos sopii).
+
+
