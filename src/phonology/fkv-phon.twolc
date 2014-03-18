@@ -582,7 +582,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 
  %^V:o <=> .#. Cns:* (Vowel:) [i|e|a] Cns:* a: %>:0 %^HMETA: h _ %^AO: i2: ; 
                                   :o [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
-
+                                            :Cns :Cns :o %>:0 _ ;
 ! Mikä säätö?
 ! traaka : traakkhoin
 ! sivakka : sivakkhoin 
