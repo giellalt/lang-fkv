@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - nainen - ei tsekattu : # Noun 'menneske' - ei tsekattu
+     varovainen+A+Sg+Nom: varovainen
+     varovainen+A+Sg+Gen: varovaisen
+     varovainen+A+Sg+Par: varovaista
+     varovainen+A+Sg+Tra: varovaiseksi
+     varovainen+A+Sg+Abe: varovaisetta
+     varovainen+A+Sg+Ine: varovaisessa
+     varovainen+A+Sg+Ela: varovaisesta
+     varovainen+A+Sg+Ill: nvarovaisheen
+     varovainen+A+Sg+Ade: varovaisela
+     varovainen+A+Sg+Abl: varovaiselta
+     varovainen+A+Sg+All: varovaisele
+     varovainen+A+Sg+Ess: varovaisena
+     varovainen+A+Pl+Nom: varovaiset
+     varovainen+A+Pl+Gen: varovaisten
+     varovainen+A+Pl+Par: varovaissii
+     varovainen+A+Pl+Tra: varovaisiksi
+     varovainen+A+Pl+Abe: varovaisitta
+     varovainen+A+Pl+Ine: varovaisissa
+     varovainen+A+Pl+Ela: varovaisista
+     varovainen+A+Pl+Ill: varovaishiin
+     varovainen+A+Pl+Ade: varovaisila
+     varovainen+A+Pl+Abl: varovaisilta
+     varovainen+A+Pl+All: varovaisile
+     varovainen+A+Pl+Ess: varovaisina
+     varovainen+A+Pl+Com: varovaisine
