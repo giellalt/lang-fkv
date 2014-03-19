@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - taival - ok : # Noun 'walk' -
+     taival+N+Sg+Nom: taival
+     taival+N+Sg+Gen: taipalen
+     taival+N+Sg+Par: taivalta
+     taival+N+Sg+Tra: taipaleksi
+     taival+N+Sg+Abe: taipaletta
+     taival+N+Sg+Ine: taipalessa
+     taival+N+Sg+Ela: taipalesta
+     taival+N+Sg+Ill: taipalheen
+     taival+N+Sg+Ade: taipalella
+     taival+N+Sg+Abl: taipalelta
+     taival+N+Sg+All: taipalelle
+     taival+N+Sg+Ess: taipalenna
+     taival+N+Pl+Nom: taipalet
+     taival+N+Pl+Gen: taipaliitten
+     taival+N+Pl+Par: taipaliita
+     taival+N+Pl+Tra: taipaliksi
+     taival+N+Pl+Abe: taipalitta
+     taival+N+Pl+Ine: taipalissa
+     taival+N+Pl+Ela: taipalista
+     taival+N+Pl+Ill: taipalhiin
+     taival+N+Pl+Ade: taipalilla
+     taival+N+Pl+Abl: taipalilta
+     taival+N+Pl+All: taipalille
+     taival+N+Pl+Com: taipaline
+     taival+N+Pl+Ess: taipalinna
