@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - venet - ei tsekattu : # Noun 'borg' - ei tsekattu
+     tuoret+A+Sg+Nom: tuoret
+     tuoret+A+Sg+Gen: tuorheen
+     tuoret+A+Sg+Par: tuoretta
+     tuoret+N+Sg+Tra: tuorheeksi
+     tuoret+A+Sg+Abe: tuorheetta
+     tuoret+A+Sg+Ine: tuorheessa
+     tuoret+A+Sg+Ela: venheesta
+     tuoret+A+Sg+Ill: venheesseen
+     tuoret+A+Sg+Ade: tuorheela
+     tuoret+A+Sg+Abl: tuorheelta
+     tuoret+A+Sg+All: tuorheele
+     tuoret+A+Sg+Ess: tuorheena
+     tuoret+A+Pl+Nom: tuorheet
+     tuoret+A+Pl+Gen: tuorheitten
+     tuoret+A+Pl+Par: tuorheita
+     tuoret+A+Pl+Tra: tuorheiksi
+     tuoret+A+Pl+Abe: tuorheitta
+     tuoret+A+Pl+Ine: tuorheissa
+     tuoret+A+Pl+Ela: tuorheista
+     tuoret+A+Pl+Ill: tuorheissiin
+     tuoret+A+Pl+Ade: tuorheila
+     tuoret+A+Pl+Abl: tuorheilta
+     tuoret+A+Pl+All: tuorheile
+     tuoret+A+Pl+Ess: tuorheina
+     tuoret+A+Pl+Com: tuorheine
