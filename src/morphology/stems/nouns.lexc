@@ -22,6 +22,7 @@ LEXICON NounRoot !!= @CODE@
 !! ** 3.1 Kaksitavuiset ( pieni, kieli)			 = n_31
 !! ** 3.1.1. lumi:lumen:lunta                    = n_31m
 !! ** 3.1.2. (käsi, vuosi)						 = n_31si
+!! ** 3.1.3. (lapsi)						     = n_31lapsi
 !! ** 3.2 Usseempitavuiset ( tytär)				
 !! *** 3.2.1 (tytär)                              = n_32
 !! *** 3.2.2. (elläin: elläimen                   = n_32m
@@ -100,7 +101,7 @@ kurkkii         n_23ii ;
 käsi:käte            n_31si ; !!= * @CODE@
 lumi:lu            n_31m ; !!= * @CODE@
 hirsi:hirte           n_31si ;
-lapsi:lapse           n_31si ;
+lapsi:la           n_31lapsi ;
 mies:miehe            n_31 ;
 
 
@@ -2430,17 +2431,17 @@ länsi:länte n_31si ;
 vuosi:vuote n_31si ; 
 uusivuosi:uusivuote n_31si ; 
 karkkausvuosi:karkkausvuote n_31si ; 
-lapsi:lapse n_31si ; 
-jalkalapsi:jalkalapse n_31si ; 
-rippilapsi:rippilapse n_31si ; 
-ristilapsi:ristilapse n_31si ; 
-lapsenlapsi:lapsenlapse n_31si ; 
-ruokkolapsi:ruokkolapse n_31si ; 
-orpolapsi:orpolapse n_31si ; 
-opetuslapsi:opetuslapse n_31si ; 
-pikkulapsi:pikkulapse n_31si ; 
-koululapsi:koululapse n_31si ; 
-räkälapsi:räkälapse n_31si ; 
+lapsi:la n_31si ; 
+jalkalapsi:jalkala n_31si ; 
+rippilapsi:rippila n_31si ; 
+ristilapsi:ristila n_31si ; 
+lapsenlapsi:lapsenla n_31si ; 
+ruokkolapsi:ruokkola n_31si ; 
+orpolapsi:orpola n_31si ; 
+opetuslapsi:opetusla n_31si ; 
+pikkulapsi:pikkula n_31si ; 
+koululapsi:koulula n_31si ; 
+räkälapsi:räkäla n_31si ; 
 varsi:varte n_31si ; 
 jokivarsi:jokivarte n_31si ; 
 käsivarsi:käsivarte n_31si ; 
