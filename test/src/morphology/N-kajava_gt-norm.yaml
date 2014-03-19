@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - kajava: # Noun 'seagull' - ei tsekattu
+     kajava+N+Sg+Nom: kajava
+     kajava+N+Sg+Gen: kajavan
+     kajava+N+Sg+Par: kajavaa
+     kajava+N+Sg+Tra: kajavaksi
+     kajava+N+Sg+Abe: kajavatta
+     kajava+N+Sg+Ine: kajavassa
+     kajava+N+Sg+Ela: kajavasta
+     kajava+N+Sg+Ill: kajavhaan
+     kajava+N+Sg+Ade: kajavalla
+     kajava+N+Sg+Abl: kajavalta
+     kajava+N+Sg+All: kajavalle
+     kajava+N+Sg+Ess: kajavanna
+     kajava+N+Pl+Nom: kajavat
+     kajava+N+Pl+Gen: kajaviitten
+     kajava+N+Pl+Gen: kajavitten
+     kajava+N+Pl+Par: kajaviita
+     kajava+N+Pl+Tra: kajaviksi
+     kajava+N+Pl+Abe: kajavitta
+     kajava+N+Pl+Ine: kajavissa
+     kajava+N+Pl+Ela: kajavista
+     kajava+N+Pl+Ill: kajavhiin
+     kajava+N+Pl+Ade: kajavilla
+     kajava+N+Pl+Abl: kajavilta
+     kajava+N+Pl+All: kajaville
+     kajava+N+Pl+Ess: kajavina
+     kajava+N+Pl+Com: kajavaine
