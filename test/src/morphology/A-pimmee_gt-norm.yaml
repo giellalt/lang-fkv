@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - valkkee ei tsekattu: # Noun 'sak'
+     pimmee+A+Sg+Nom: pimmee
+     pimmee+A+Sg+Gen: pimmeen
+     pimmee+A+Sg+Par: pimmeetä
+     pimmee+A+Sg+Tra: pimmeeksi
+     pimmee+A+Sg+Abe: pimmeettä
+     pimmee+A+Sg+Ine: pimmeessä
+     pimmee+A+Sg+Ela: pimmeestä
+     pimmee+A+Sg+Ill: pimmeesseen
+     pimmee+A+Sg+Ade: pimmeelä
+     pimmee+A+Sg+Abl: pimmeeltä
+     pimmee+A+Sg+All: pimmeele
+     pimmee+A+Sg+Ess: pimmeenä
+     pimmee+A+Pl+Nom: pimmeet
+     pimmee+A+Pl+Gen: pimmeitten
+     pimmee+A+Pl+Par: pimmeitä
+     pimmee+A+Pl+Tra: pimmeiksi
+     pimmee+A+Pl+Abe: pimmeittä
+     pimmee+A+Pl+Ine: pimmeissä
+     pimmee+A+Pl+Ela: pimmeistä
+     pimmee+A+Pl+Ill: pimmeissiin
+     pimmee+A+Pl+Ade: pimmeilä
+     pimmee+A+Pl+Abl: pimmeiltä
+     pimmee+A+Pl+All: pimmeile
+     pimmee+A+Pl+Ess: pimmeinä
+     pimmee+A+Pl+Com: pimmeine
