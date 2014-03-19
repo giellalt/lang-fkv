@@ -21,6 +21,7 @@
 !! ** 3.1.1. Kaksitavuiset lumi)                 = n_31m
 !! ** 3.1.2. (käsi, vuosi)						 = n_31si
 !! ** 3.1.3. (lapsi)						      = n_31lapsi
+!! ** 3.1.4. (mies)						         = n_31mies
 !! ** 3.2 Usseempitavuiset 
 !! ** 3.2.1 (tytär)                              = n_32
 !! ** 3.2.2. (elläin)                            = n_32m
@@ -212,7 +213,7 @@ LEXICON n_31si	!!= @CODE@ vuosi, käsi
 +N+Pl:%^EDEL consgenpl ;
 +N+Pl+Com:%>i2ne K ;
 
-LEXICON n_31lapsi	!!= @CODE@ lapsi: la
+LEXICON n_31lapsi	!!= @CODE@ lapsi la
 +N+Sg+Nom:psi K ; ! %^EI e to i
 +N+Sg+Nom:psi R ; ! %^EI e to i
 +N:s long-par ;
@@ -225,6 +226,21 @@ LEXICON n_31lapsi	!!= @CODE@ lapsi: la
 +N+Pl+Ill:ps%^EDEL%>hii n-PxK ;
 +N+Pl:psi%>i2 shortparpl ;
 +N+Pl+Com:ps%>i2ne K ;
+
+LEXICON n_31mies	!!= @CODE@ mies mie
++N+Sg+Nom:s K ; ! %^EI e to i
++N+Sg+Nom:s R ; ! %^EI e to i
++N:s long-par ;
++N:he obl-strong ;   
++N:he%^WG weak-v-stem ;
++N+Sg:he%^WG sgpl-cases-short ;      !! these two lexica for cases with
++N+Pl:he%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Pl:hi%>i2	shortestgenpl ;
++N+Sg+Ill:%>%^HMETAhee n-PxK ;
++N+Pl+Ill:%^EDEL%>hii n-PxK ;
++N+Pl:hi%>i2 shortparpl ;
++N+Pl+Com:h%>i2ne K ;
+
 
 LEXICON n_32 !!= @CODE@ tytär tyttär
 +N+Sg+Nom:%^WG K ;
