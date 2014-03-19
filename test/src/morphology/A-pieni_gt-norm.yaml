@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - pieni - ei tsekattu : # Noun 'år' - ei tsekattu
+     pieni+A+Sg+Nom: pieni
+     pieni+A+Sg+Gen: pienen
+     pieni+A+Sg+Par: pientä
+     pieni+A+Sg+Tra: pieneksi
+     pieni+A+Sg+Abe: pienettä
+     pieni+A+Sg+Ine: pienessä
+     pieni+A+Sg+Ela: pienestä
+     pieni+A+Sg+Ill: pienheen
+     pieni+A+Sg+Ade: pienelä
+     pieni+A+Sg+Abl: pieneltä
+     pieni+A+Sg+All: pienele
+     pieni+A+Sg+Ess: pienenä
+     pieni+A+Pl+Nom: pienet
+     pieni+A+Pl+Gen: pieniin
+     pieni+A+Pl+Par: piennii
+     pieni+A+Pl+Tra: pieniksi
+     pieni+A+Pl+Abe: pienittä
+     pieni+A+Pl+Ine: pienissä
+     pieni+A+Pl+Ela: pienistä
+     pieni+A+Pl+Ill: pienhiin
+     pieni+A+Pl+Ade: pienilä
+     pieni+A+Pl+Abl: pieniltä
+     pieni+A+Pl+All: pienile
+     pieni+A+Pl+Ess: pieninä
+     pieni+A+Pl+Com: pienine
