@@ -17,7 +17,7 @@ Tests:
   Noun - tooli - ei tsekattu : # Noun 'borg' - ei tsekattu
      tooli+N+Sg+Nom: tooli
      tooli+N+Sg+Gen: toolin
-     tooli+N+Sg+Par: toollii
+     tooli+N+Sg+Par: toolii
      tooli+N+Sg+Tra: tooliksi
      tooli+N+Sg+Abe: toolitta
      tooli+N+Sg+Ine: toolissa
@@ -28,8 +28,9 @@ Tests:
      tooli+N+Sg+All: toolile
      tooli+N+Sg+Ess: toolina
      tooli+N+Pl+Nom: toolit
-     tooli+N+Pl+Gen: toolliin
-     tooli+N+Pl+Par: toollii
+     tooli+N+Pl+Gen: tooliin
+     tooli+N+Pl+Gen: toolitten
+     tooli+N+Pl+Par: toolii
      tooli+N+Pl+Tra: tooliiksi
      tooli+N+Pl+Abe: tooliitta
      tooli+N+Pl+Ine: tooliissa
