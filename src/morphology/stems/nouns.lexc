@@ -23,6 +23,7 @@ LEXICON NounRoot !!= @CODE@
 !! ** 3.1.1. lumi:lumen:lunta                    = n_31m
 !! ** 3.1.2. (käsi, vuosi)						 = n_31si
 !! ** 3.1.3. (lapsi)						     = n_31lapsi
+!! ** 3.1.4. (mies)						         = n_31mies
 !! ** 3.2 Usseempitavuiset ( tytär)				
 !! *** 3.2.1 (tytär)                              = n_32
 !! *** 3.2.2. (elläin: elläimen                   = n_32m
@@ -102,7 +103,7 @@ käsi:käte            n_31si ; !!= * @CODE@
 lumi:lu            n_31m ; !!= * @CODE@
 hirsi:hirte           n_31si ;
 lapsi:la           n_31lapsi ;
-mies:miehe            n_31 ;
+mies:mie            n_31mies ;
 
 
 !! !!3.2 Usseaempitavuiset
@@ -2576,22 +2577,22 @@ taivas:taiv n_33s ;
 varvas:varp n_33s ;
 puđas:put n_33s ;
 
-mies:miehe n_31;
-poikamies:poikamiehe n_31 ;
+mies:mie n_31;
+poikamies:poikamie n_31 ;
 matkamies:matkamie n_31 ;
 saarnamies:saarnamie n_31 ;
 kauppamies:kauppamie n_31 ;
-partamies:partamiehe n_31 ;
-leskimies:leskimiehe n_31 ;
-merimies:merimiehe n_31 ;
-postimies:postimiehe n_31 ;
-poromies:poromiehe n_31 ;
-hihtomies:hihtomiehe n_31 ;
-herrasmies:herrasmiehe n_31 ;
-kirvesmies:kirvesmiehe n_31 ;
-hevosmies:hevosmiehe n_31 ;
-koulumies:koulumiehe n_31 ;
-työmies:työmiehe n_31 ;
+partamies:partamie n_31 ;
+leskimies:leskimie n_31 ;
+merimies:merimie n_31 ;
+postimies:postimie n_31 ;
+poromies:poromie n_31 ;
+hihtomies:hihtomie n_31 ;
+herrasmies:herrasmie n_31 ;
+kirvesmies:kirvesmie n_31 ;
+hevosmies:hevosmie n_31 ;
+koulumies:koulumie n_31 ;
+työmies:työmie n_31 ;
 kirves:kirv n_33ts ;
 ruumis:ruum n_33si ;
 jänis:jäni n_41 ;
