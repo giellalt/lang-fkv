@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - ihminen - ei tsekattu : # Noun 'menneske' - ei tsekattu
+     muuttumaton+A+Sg+Nom: muuttumaton
+     muuttumaton+A+Sg+Gen: muuttumattoman
+     muuttumaton+A+Sg+Par: muuttumatonta
+     muuttumaton+A+Sg+Tra: muuttumattomaksi
+     muuttumaton+A+Sg+Abe: muuttumattomatta
+     muuttumaton+A+Sg+Ine: muuttumattomassa
+     muuttumaton+A+Sg+Ela: muuttumattomasta
+     muuttumaton+A+Sg+Ill: muuttumattomhaan
+     muuttumaton+A+Sg+Ade: muuttumattomalla
+     muuttumaton+A+Sg+Abl: muuttumattomalta
+     muuttumaton+A+Sg+All: muuttumattomalle
+     muuttumaton+A+Sg+Ess: muuttumattomanna
+     muuttumaton+A+Pl+Nom: muuttumattomat
+     muuttumaton+A+Pl+Gen: muuttumattomiin
+     muuttumaton+A+Pl+Par: muuttumattomiita
+     muuttumaton+A+Pl+Tra: muuttumattomiksi
+     muuttumaton+A+Pl+Abe: muuttumattomitta
+     muuttumaton+A+Pl+Ine: muuttumattomissa
+     muuttumaton+A+Pl+Ela: muuttumattomista
+     muuttumaton+A+Pl+Ill: muuttumattommhiin
+     muuttumaton+A+Pl+Ade: muuttumattomilla
+     muuttumaton+A+Pl+Abl: muuttumattomilta
+     muuttumaton+A+Pl+All: muuttumattomille
+     muuttumaton+A+Pl+Ess: muuttumattominna
+     muuttumaton+A+Pl+Com: muuttumattomine
