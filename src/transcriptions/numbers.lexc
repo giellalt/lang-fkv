@@ -19,12 +19,12 @@ ONES ;			! 1-9
 LEXICON HUNDREDSM
 kaksi:2  CUODIM ;
 kolme:3 CUODIM ;
-neljä:4 CUODIM ;
+nelje:4 CUODIM ;
 viisi:5 CUODIM ;
 kuusi:6 CUODIM ;
-seitsemän:7 CUODIM ;
-kahdeksan:8 CUODIM ;
-yhdeksän:9 CUODIM ;
+seittemen:7 CUODIM ;
+kahđeksen:8 CUODIM ;
+yhđeksen:9 CUODIM ;
 
 LEXICON CUODIM
 sataa: HUNDREDM ;
@@ -42,12 +42,12 @@ LEXICON TEENM
 yksi:1 LOHKAIM ;
 kaksi:2 LOHKAIM ;
 kolme:3 LOHKAIM ;
-neljä:4 LOHKAIM ;
+nelje:4 LOHKAIM ;
 viisi:5 LOHKAIM ;
 kuusi:6 LOHKAIM ;
-seitsemän:7 LOHKAIM ;
-kahdeksan:8 LOHKAIM ;
-yhdeksän:9 LOHKAIM ;
+seittemen:7 LOHKAIM ;
+kahđeksen:8 LOHKAIM ;
+yhđeksen:9 LOHKAIM ;
 
 LEXICON LOHKAIM
 toista: MILJON ;
@@ -55,12 +55,12 @@ toista: MILJON ;
 LEXICON TENSM
 kaksi:2 LÅGEVM ;
 kolme:3 LÅGEVM ;
-neljä:4 LÅGEVM ;
+nelje:4 LÅGEVM ;
 viisi:5 LÅGEVM ;
 kuusi:6 LÅGEVM ;
-seitsemän:7 LÅGEVM ;
-kahdeksan:8 LÅGEVM ;
-yhdeksän:9 LÅGEVM ;
+seittemen:7 LÅGEVM ;
+kahđeksen:8 LÅGEVM ;
+yhđeksen:9 LÅGEVM ;
 
 LEXICON TENM
 kymmenen:1%0 MILJON ;
@@ -73,12 +73,12 @@ LEXICON ONESM
 yksi% miljon% :1 OVERTHOUSANDS ;
 kaksi:2 MILJON ;
 kolme:3 MILJON ;
-neljä:4 MILJON ;
+nelje:4 MILJON ;
 viisi:5 MILJON ;
 kuusi:6 MILJON ;
-seitsemän:7 MILJON ;
-kahdeksan:8 MILJON ;
-yhdeksän:9 MILJON ; 
+seittemen:7 MILJON ;
+kahđeksen:8 MILJON ;
+yhđeksen:9 MILJON ; 
 
 LEXICON MILJON
 % millioona% : OVERTHOUSANDS ;
@@ -103,12 +103,12 @@ tuhat:%0%01 THOUSAND ;	!   1.000.000
 LEXICON HUNDREDST
 kaksi:2  CUODIT ;	! 200000-299999
 kolme:3 CUODIT ;	! 300000-399999
-neljä:4 CUODIT ;	! 400000-499999
+nelje:4 CUODIT ;	! 400000-499999
 viisi:5 CUODIT ;	! 500000-599999
 kuusi:6 CUODIT ;	! 600000-699999
-seitsemän:7 CUODIT ;	! 700000-799999
-kahdeksan:8 CUODIT ;	! 800000-899999
-yhdeksän:9 CUODIT ;	! 900000-999999
+seittemen:7 CUODIT ;	! 700000-799999
+kahđeksen:8 CUODIT ;	! 800000-899999
+yhđeksen:9 CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
 sataa: HUNDREDT ;	! 100000-199999
@@ -128,12 +128,12 @@ kymmentä:%0 THOUSANDS ;
 yksi:1 LOHKAIT ;
 kaksi:2 LOHKAIT ;
 kolme:3 LOHKAIT ;
-neljä:4 LOHKAIT ;
+nelje:4 LOHKAIT ;
 viisi:5 LOHKAIT ;
 kuusi:6 LOHKAIT ;
-seitsemän:7 LOHKAIT ;
-kahdeksan:8 LOHKAIT ;
-yhdeksän:9 LOHKAIT ;
+seittemen:7 LOHKAIT ;
+kahđeksen:8 LOHKAIT ;
+yhđeksen:9 LOHKAIT ;
 
 LEXICON LOHKAIT
 toista: THOUSANDS ;
@@ -141,12 +141,12 @@ toista: THOUSANDS ;
 LEXICON TENST
 kaksi:2 LÅGEVT ;
 kolme:3 LÅGEVT ;
-neljä:4 LÅGEVT ;
+nelje:4 LÅGEVT ;
 viisi:5 LÅGEVT ;
 kuusi:6 LÅGEVT ;
-seitsemän:7 LÅGEVT ;
-kahdeksan:8 LÅGEVT ;
-yhdeksän:9 LÅGEVT ;
+seittemen:7 LÅGEVT ;
+kahđeksen:8 LÅGEVT ;
+yhđeksen:9 LÅGEVT ;
 
 LEXICON LÅGEVT
 kymmentä:%0 THOUSANDS ;
@@ -156,12 +156,12 @@ kymmentä: ONEST ;
 LEXICON ONEST
 kaksi:2 THOUSANDS ;
 kolme:3 THOUSANDS ;
-neljä:4 THOUSANDS ;
+nelje:4 THOUSANDS ;
 viisi:5 THOUSANDS ;
 kuusi:6 THOUSANDS ;
-seitsemän:7 THOUSANDS ;
-kahdeksan:8 THOUSANDS ;
-yhdeksän:9 THOUSANDS ;
+seittemen:7 THOUSANDS ;
+kahđeksen:8 THOUSANDS ;
+yhđeksen:9 THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
 tuhatta: THOUSAND ;
@@ -184,12 +184,12 @@ sata:1 HUNDRED ;
 LEXICON HUNDREDS
 kaksi:2  CUODI ;
 kolme:3 CUODI ;
-neljä:4 CUODI ;
+nelje:4 CUODI ;
 viisi:5 CUODI ;
 kuusi:6 CUODI ;
-seitsemän:7 CUODI ;
-kahdeksan:8 CUODI ;
-yhdeksän:9 CUODI ;
+seittemen:7 CUODI ;
+kahđeksen:8 CUODI ;
+yhđeksen:9 CUODI ;
 
 LEXICON CUODI
 sataa: HUNDRED ;
@@ -207,12 +207,12 @@ LEXICON TEEN
 yksi:1 LOHKAI ;
 kaksi:2 LOHKAI ;
 kolme:3 LOHKAI ;
-neljä:4 LOHKAI ;
+nelje:4 LOHKAI ;
 viisi:5 LOHKAI ;
 kuusi:6 LOHKAI ;
-seitsemän:7 LOHKAI ;
-kahdeksan:8 LOHKAI ;
-yhdeksän:9 LOHKAI ;
+seittemen:7 LOHKAI ;
+kahđeksen:8 LOHKAI ;
+yhđeksen:9 LOHKAI ;
 
 LEXICON LOHKAI
 toista: # ;
@@ -221,12 +221,12 @@ LEXICON TENS
 kymmentä:1%0 # ;
 kaksi:2 LÅGEV ;
 kolme:3 LÅGEV ;
-neljä:4 LÅGEV ;
+nelje:4 LÅGEV ;
 viisi:5 LÅGEV ;
 kuusi:6 LÅGEV ;
-seitsemän:7 LÅGEV ;
-kahdeksan:8 LÅGEV ;
-yhdeksän:9 LÅGEV ;
+seittemen:7 LÅGEV ;
+kahđeksen:8 LÅGEV ;
+yhđeksen:9 LÅGEV ;
 
 LEXICON LÅGEV
 kymmentä:%0 # ;
@@ -236,10 +236,10 @@ LEXICON ONES
 yksi:1 # ;
 kaksi:2 # ;
 kolme:3 # ;
-neljä:4 # ;
+nelje:4 # ;
 viisi:5 # ;
 kuusi:6 # ;
-seitsemän:7 # ;
-kahdeksan:8 # ;
-yhdeksän:9 # ;
+seittemen:7 # ;
+kahđeksen:8 # ;
+yhđeksen:9 # ;
 
