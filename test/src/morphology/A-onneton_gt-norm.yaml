@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - ihminen - ei tsekattu : # Noun 'menneske' - ei tsekattu
+     onneton+A+Sg+Nom: onneton
+     onneton+A+Sg+Gen: onnettoman
+     onneton+A+Sg+Par: onnetonta
+     onneton+A+Sg+Tra: onnettomaksi
+     onneton+A+Sg+Abe: onnettomatta
+     onneton+A+Sg+Ine: onnettomassa
+     onneton+A+Sg+Ela: onnettomasta
+     onneton+A+Sg+Ill: onnettomhaan
+     onneton+A+Sg+Ade: onnettomala
+     onneton+A+Sg+Abl: onnettomalta
+     onneton+A+Sg+All: onnettomale
+     onneton+A+Sg+Ess: onnettomana
+     onneton+A+Pl+Nom: onnettomat
+     onneton+A+Pl+Gen: onnettommiin
+     onneton+A+Pl+Par: onnettommiita
+     onneton+A+Pl+Tra: onnettomiksi
+     onneton+A+Pl+Abe: onnettomitta
+     onneton+A+Pl+Ine: onnettomissa
+     onneton+A+Pl+Ela: onnettomista
+     onneton+A+Pl+Ill: onnettommhiin
+     onneton+A+Pl+Ade: onnettomila
+     onneton+A+Pl+Abl: onnettomilta
+     onneton+A+Pl+All: onnettomile
+     onneton+A+Pl+Ess: onnettomina
+     onneton+A+Pl+Com: onnettomine
