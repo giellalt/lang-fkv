@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - ihminen - ei tsekattu : # Noun 'menneske' - ei tsekattu
+     sininen+A+Sg+Nom: sininen
+     sininen+A+Sg+Gen: sinisen
+     sininen+A+Sg+Par: sinistä
+     sininen+A+Sg+Tra: sinseksi
+     sininen+A+Sg+Abe: sinisettä
+     sininen+A+Sg+Ine: sinisessä
+     sininen+A+Sg+Ela: sinisestä
+     sininen+A+Sg+Ill: sinisheen
+     sininen+A+Sg+Ade: sinisellä
+     sininen+A+Sg+Abl: siniseltä
+     sininen+A+Sg+All: siniselle
+     sininen+A+Sg+Ess: sinisennä
+     sininen+A+Pl+Nom: siniset
+     sininen+A+Pl+Gen: sinisten
+     sininen+A+Pl+Par: sinissii
+     sininen+A+Pl+Tra: sinisiksi
+     sininen+A+Pl+Abe: sinisittä
+     sininen+A+Pl+Ine: sinisissä
+     sininen+A+Pl+Ela: sinisistä
+     sininen+A+Pl+Ill: sinishiin
+     sininen+A+Pl+Ade: sinisillä
+     sininen+A+Pl+Abl: sinisiltä
+     sininen+A+Pl+All: sinisille
+     sininen+A+Pl+Ess: sinisinnä
+     sininen+A+Pl+Com: sinisine
