@@ -2,6 +2,124 @@
 
  LEXICON ax   contains unclassified adjectives.
 
- LEXICON a_21   corresponds to n_21 etc.
+ LEXICON a_21   corresponds to a_21 etc.
+
+ * LEXICON a_23	  pimmee
+
+ LEXICON a_31	  pieni
+these two lexica for cases with
+the same affix in sg and pl
+
+ LEXICON a_31si	 uusi
+these two lexica for cases with
+the same affix in sg and pl
+
+
+ LEXICON a_33s  rakas
+
+ LEXICON a_33t  tuoret
+
+ * LEXICON a_41  = veres
+ * +A: a_sConsCase ;   toistaiseksi :-/
+
+
+
+
+ LEXICON a_42nen  varovainen
+
+
+
+
+ LEXICON a_42inen  sininen
+these two lexica for cases with
+the same affix in sg and pl
+
+
+ LEXICON a_43  muuttumaton
+
+ LEXICON a_43odd  onneton
+
+
+
+
+
+
+Basic paradigms
+
+!!Basic vowel stems
+
+ LEXICON a_strong-v-stem   ''Kaikki vahvan asteen sijamuodot tähän''
+
+ LEXICON a_weak-v-stem  
+Marginal case, in use only for some words.
+Todo: identify these, and remove Ins from the
+general weak-v-stem lexicon.
+
+!Sublexica for the vowel stems
+
+
+
+
+
+* Lyhyt perusmuoto vuođela
+* Lyhyt perusmuoto
+* Huom... essiivi ja heikko aste
+
+* Pitkä perusmuoto
+* Pitkä perusmuoto
+* Huom... essiivi ja heikko aste
+
+
+Komitatiivilla on vain -ine ja menee Pxx:iin
+
+
+!Lexica for the non-uniform cases
+
+
+
+
+
+
+
+
+linna pl.ill. kaksi muotoa po. linnhoin
+
+
+
+
+
+* LEXICON a_weak-v-stem  zero, because ii > i
+
+
+
+
+
+
+* LEXICON a_weak-v-stem  zero, because ii > i
+
+
+
+
+
+
+
+
+
+
+
+these two lexica for cases with
+the same affix in sg and pl -- tsekkaa long
+
+
+
+these two lexica for cases with
+the same affix in sg and pl -- tsekkaa long
+
+
+
+
+
+
+
 
 
