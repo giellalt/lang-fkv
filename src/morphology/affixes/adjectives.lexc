@@ -82,6 +82,7 @@ LEXICON a_41_s_kse
 
 LEXICON a_42nen !!= @CODE@ varovainen
   nom-nen ;
+ : nen ;
  :s R ;
  :se a_gae-strong ;
  +Pl+kom:sine K ;
@@ -103,6 +104,7 @@ LEXICON adj-nen
 LEXICON a_42inen !!= @CODE@ sininen
 +A+Sg:se a_sgpl-cases-long ;      !! these two lexica for cases with
 +A+Pl:s%>i2 a_sgpl-cases-long ;  !! the same affix in sg and pl
++A+Pl:ssh%>i2 a_shorterillpl ;
 +A: nen ;
 +A+Pl+Com:s%>i2ne K ;
 
@@ -115,7 +117,7 @@ LEXICON a_43 !!= @CODE@ muuttumaton
  :se a_weak-v-stem ;
  :s a_long-par ;
  :se a_2TAVU_V_ill_sg ;
- +Pl+Ill:sh%>i2in K ;
+ +Pl+Ill:ssh%>i2in K ;
  +Pl:s%>i2 a_shortgenpl ; ! naisien
  +Pl:s a_consgenpl ;
  +Pl:ss%>i2 a_shortparpl ;
