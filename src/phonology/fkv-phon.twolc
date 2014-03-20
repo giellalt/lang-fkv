@@ -9,7 +9,7 @@ R S T U V W X Y Z Å Ä Ö Æ Ø                 !!= * @CODE@
 %+:0                                        !!= * @CODE@ gemination
 %^A:ä %^O:ö %^U:y                !!= * @CODE@ archi vowels for harmony
 %^V %^N:n                        !!= * @CODE@ vowel copy sanoo, LNR copy purra
-%>:0                             !!= * @CODE@ suff border can we live without it?
+%>                               !!= * @CODE@ border before inflection suffix
 i2:i i3:i i4:i i5:i i6:i i7:i    !!= * @CODE@ 
 !! **  i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = cond of contr.v.
 t2:t                      !!= * @CODE@ 
@@ -66,83 +66,83 @@ Rules
  
   "Gemination VXi"
   !! __@RULENAME@__ 
-0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _ :Vowel %>:0 [:i - i3:] (i2:i) ;
+0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _ :Vowel %>: [:i - i3:] (i2:i) ;
        where Cx in ( k p t s l) ;
 
 
 
 
-!€# sop0i>^V
-!€0 soppi0i
+!€ sop0i>^V
+!€ soppi>i
 
 
-!€# aik0a>i2
-!€0 aikko0i
+!€ aik0a>i2
+!€ aikko>i
        
 
-! €# jok0e>i2>i
-! €0 jokk00i0i
+!€ jok0e>i2>i
+!€ jokk0>i>i
 
        
-! vuot0e>i2>i
-! vuoss00i0i
+!€ vuot0e>i2>i
+!€ vuoss0>i>i
 
 
 
-! €# poik0a>i2>i
-! €0 poikk00i0i
+!€ poik0a>i2>i
+!€ poikk0>i>i
 
 
 
 !   ! __@RULENAME@__ 
-! 0:Cx <=> [ .#. | Cns ] Vowel Cx _ Vowel %>:0 i2:i ;
+! 0:Cx <=> [ .#. | Cns ] Vowel Cx _ Vowel %>: i2:i ;
 !        where Cx in ( h j l m n r v ) ;
  
 
-! €# kiv0e>i2>i
-! €0 kivv00i0i
+!€ kiv0e>i2>i
+!€ kivv0>i>i
 
   "Gemination Va"
   !! __@RULENAME@__ 
-0:Cx <=> Cns:* Vowel:* Vowel Cx _ a %>:0 :a ;
+0:Cx <=> Cns:* Vowel:* Vowel Cx _ a %>: :a ;
        where Cx in (  k p t s ) ;
 
-!€# aik0a>^V
-!€0 aikka0a
+!€ aik0a>^V
+!€ aikka>a
 
   "Gemination VVa"
   !! __@RULENAME@__ 
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ a %>:0 :a ;
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ a %>: :a ;
        where Cx in ( h j l m n r v ) ;
   
 
-!€# kal0a>^V
-!€0 kalla0a
+!€ kal0a>^V
+!€ kalla>a
 
   "Gemination Ve"
   !! __@RULENAME@__ 
-0:Cx <=> Cns:*  Vowel:* Vowel Cx _ e %>:0 :e ;
+0:Cx <=> Cns:*  Vowel:* Vowel Cx _ e %>: :e ;
        where Cx in ( k p t s ) ;
 
-!€# tek0e>^V
-!€0 tekke0e
+!€ tek0e>^V
+!€ tekke>e
 
 
-!€# lauk0e>^V
-!€0 laukke0e
+!€ lauk0e>^V
+!€ laukke>e
 
 
   "Gemination VVe"
   !! __@RULENAME@__ 
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ e %>:0 :e ;
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ e %>: :e ;
        where Cx in ( h j l m n r v ) ;
 
 
 
 
 
-!€# suome>^V
-!€0 suome0e
+!€ suome>^V
+!€ suome>e
 
 
     
@@ -151,195 +151,195 @@ Rules
 
 "Gemination Vo"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:* Vowel:* Vowel Cx _ o %>:0 :o ;
+ 0:Cx <=> Cns:* Vowel:* Vowel Cx _ o %>: :o ;
         where Cx in (  k p t s) ;
  
 
-!€# kat0o>^V>t
-!€0 katto0o0t
+!€ kat0o>^V>t
+!€ katto>o>t
 
   "Gemination VVo"
   !! __@RULENAME@__ 
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ o %>:0 :o ;
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ o %>: :o ;
        where Cx in ( h j l m n r v ) ;
 
 
-!€# kir0o>^V>t
-!€0 kirro0o0t
+!€ kir0o>^V>t
+!€ kirro>o>t
 
     
 "Gemination Vu"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:* Vowel:* Vowel Cx _ u %>:0 :u ;
+ 0:Cx <=> Cns:* Vowel:* Vowel Cx _ u %>: :u ;
         where Cx in (  k p t s ) ;
-! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :u %>:0 [ :u | i7: ] ;   
+! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :u %>: [ :u | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
 
-!€# jout0u>^V
-!€0 jouttu0u
+!€ jout0u>^V
+!€ jouttu>u
 
   "Gemination VVu"
   !! __@RULENAME@__ 
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ u %>:0 :u ;
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ u %>: :u ;
        where Cx in ( h j l m n r v ) ;
 
 
-!€# puh0u>^V
-!€0 puhhu0u
+!€ puh0u>^V
+!€ puhhu>u
 
     
 "Gemination Vy"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:* Vowel:* Vowel Cx _ y %>:0 :y ;
+ 0:Cx <=> Cns:* Vowel:* Vowel Cx _ y %>: :y ;
         where Cx in (  k p t s ) ;
         
 
-!€# näk0y>^V
-!€0 näkky0y       
+!€ näk0y>^V
+!€ näkky>y       
         
-! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :y %>:0 [ :y | i7: ] ;   
+! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :y %>: [ :y | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
   "Gemination VVy"
   !! __@RULENAME@__ 
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ y %>:0 :y ;
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ y %>: :y ;
        where Cx in ( h j l m n r v ) ;
 
 
-!€# lev0y>^V
-!€0 levvy0y
+!€ lev0y>^V
+!€ levvy>y
     
 "Gemination Vö"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:* Vowel:* Vowel Cx _ ö %>:0 :ö ;
+ 0:Cx <=> Cns:* Vowel:* Vowel Cx _ ö %>: :ö ;
         where Cx in (  k p t s) ;
         
 
-!€# näk0ö>^V
-!€0 näkkö0ö
+!€ näk0ö>^V
+!€ näkkö>ö
 
-! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ö %>:0 [ :ö | i7: ] ;   
+! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ö %>: [ :ö | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
   "Gemination VVö"
   !! __@RULENAME@__ 
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ ö %>:0 :ö ;
+0:Cx <=> [ .#. | Cns ] Vowel Cx _ ö %>: :ö ;
        where Cx in ( h j l m n r v ) ;
     
 
-!€# pör0ö>^V
-!€0 pörrö0ö
+!€ pör0ö>^V
+!€ pörrö>ö
 
    
 "Gemination Vä"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:* Vowel:* Vowel Cx _ ä %>:0 :ä ;
+ 0:Cx <=> Cns:* Vowel:* Vowel Cx _ ä %>: :ä ;
         where Cx in ( k p t s ) ;
  
 
-!€# tiet0ä>^Vt
-!€0 tiettä0ät
+!€ tiet0ä>^Vt
+!€ tiettä>ät
        
-! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ä %>:0 [ :ä | i7: ] ;   
+! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ä %>: [ :ä | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
 "Gemination VVä"
 !! __@RULENAME@__ 
-0:Cx <=> [ .#. | Cns | #: ] Vowel Cx _ ä %>:0 :ä ; 
+0:Cx <=> [ .#. | Cns | #: ] Vowel Cx _ ä %>: :ä ; 
          where Cx                                  
          in    ( h j l m n r v ) ;                 
 
 
-!€# el0ä>^V
-!€0 ellä0ä
+!€ el0ä>^V
+!€ ellä>ä
 
     
 "Gemination LIQa"
 !! __@RULENAME@__ 
- 0:Cx <=> [l|r|n|m] Cx _ :a %>:0 :a ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :a %>: :a ;   
         where Cx in ( j k p s t v ) ;
         
 
-!€# jalk0a>^V
-!€0 jalkka0a
+!€ jalk0a>^V
+!€ jalkka>a
 
 "Gemination LIQe"
 !! __@RULENAME@__ 
- 0:Cx <=> [l|r|n|m] Cx _ :e %>:0 :e ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :e %>: :e ;   
         where Cx in ( j k p s t v ) ;
         
 
-!€# järk0e>^V
-!€0 järkke0e
+!€ järk0e>^V
+!€ järkke>e
     
 "Gemination LIQo"
 !! __@RULENAME@__ 
- 0:Cx <=> [l|r|n|m] Cx _ :o %>:0 :o ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :o %>: :o ;   
         where Cx in ( j k p s t v ) ;
  
 
-!€# murt0o>^V
-!€0 murtto0o
+!€ murt0o>^V
+!€ murtto>o
     
 "Gemination LIQu"
 !! __@RULENAME@__ 
- 0:Cx <=> [l|r|n|m] Cx _ :u %>:0 :u ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :u %>: :u ;   
         where Cx in ( j k p s t v ) ;
  
 
-!€# polk0u>^V
-!€0 polkku0u
+!€ polk0u>^V
+!€ polkku>u
    
 "Gemination LIQy"
 !! __@RULENAME@__ 
- 0:Cx <=> [l|r|n|m] Cx _ :y %>:0 :y ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :y %>: :y ;   
         where Cx in ( j k p s t v ) ;
 
-!€# särk0y>^V
-!€0 särkky0y        
+!€ särk0y>^V
+!€ särkky>y        
     
 "Gemination LIQö"
 !! __@RULENAME@__ 
- 0:Cx <=> [l|r|n|m] Cx _ :ö %>:0 :ö ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :ö %>: :ö ;   
         where Cx in ( j k p s t v ) ;
 
-!€# lämp0ö>^V
-!€0 lämppö0ö
+!€ lämp0ö>^V
+!€ lämppö>ö
    
 "Gemination LIQä"
 !! __@RULENAME@__ 
- 0:Cx <=> [l|r|n|m] Cx _ :ä %>:0 :ä  ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :ä %>: :ä  ;   
         where Cx in ( j k p s t v ) ;
 
 
-!€# pölk0ä>^V
-!€0 pölkkä0ä
+!€ pölk0ä>^V
+!€ pölkkä>ä
 
 
-!€# härk0ä>^V
-!€0 härkkä0ä
+!€ härk0ä>^V
+!€ härkkä>ä
 
 "Gemination LIQi"
 !! __@RULENAME@__ 
- 0:Cx <=> [l|r|n|m] Cx _ :i %>:0 [:i - i7: ] ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :i %>: [:i - i7: ] ;   
        where Cx in ( j k p s t v ) ;
     
 
-!€# kerk0i>^Vn
-!€0 kerkki0in
+!€ kerk0i>^Vn
+!€ kerkki>in
 
 "Gemination LIQi7"
 !! __@RULENAME@__ 
- 0:Cx <=> [l|r|n|m] Cx _ :Vowel %>:0  i7: ;   
+ 0:Cx <=> [l|r|n|m] Cx _ :Vowel %>:  i7: ;   
         where Cx in ( j k p s t v ) ;
 
-!€# lauk0e>i7s
-!€0 laukke0is
+!€ lauk0e>i7s
+!€ laukke>is
 
 
-!€# särk0y>i7s
-!€0 särkky0is
+!€ särk0y>i7s
+!€ särkky>is
 
 !! !Foot-governed affixation
     
@@ -390,12 +390,12 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 !Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;   !toimii
 
 
-!€# katto^WG>n
-!€0 ka0to00n
+!€ katto^WG>n
+!€ ka0to0>n
 
 
-!€# katt2o^WG>n
-!€0 katto00n
+!€ katt2o^WG>n
+!€ katto0>n
 
 !! !Gradation -p-
 
@@ -404,8 +404,8 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
  p:v <=> Vowel: _ Vowel: Dummy:* (:i) Dummy:* %^WG:0 ;
 
 
-!€# napa^WG>n
-!€0 nava00n
+!€ napa^WG>n
+!€ nava0>n
 
 !! !Gradation of -k-
 
@@ -414,8 +414,8 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 i6:0 <=> _ k: a %^WG:0;
 
 
-!€# poi6ka^WG>n
-!€0 po0ja00n
+!€ poi6ka^WG>n
+!€ po0ja0>n
 
 
 
@@ -431,17 +431,17 @@ k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !
               Cns u _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
 
 
-!€# mäke^WG>n
-!€0 mäje00n
+!€ mäke^WG>n
+!€ mäje0>n
 
-!€# aika^WG>n
-!€0 aija00n
+!€ aika^WG>n
+!€ aija0>n
 
-!€# jälke^WG>n
-!€0 jälje00n
+!€ jälke^WG>n
+!€ jälje0>n
 
-!€# luke^WG>n
-!€0 luje00n
+!€ luke^WG>n
+!€ luje0>n
 
 
 
@@ -457,17 +457,17 @@ k:0 <=>                h _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuh
 !   [ NotOUIF: | l | r ] _ NotEYUF:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
 !   [ NotOUIB: | l | r ] _ NotEYUB:        (Dummy:) (:i) (Dummy:) %^WG:0 ; !märkä - märät
 
-!€# tuhka^WG>t
-!€0 tuh0a00t
+!€ tuhka^WG>t
+!€ tuh0a0>t
 !€ 
-!€# maka^WG>t^A
-!€0 ma0a00ta
+!€ maka^WG>t^A
+!€ ma0a0>ta
 !€ 
-!€# kyke^WG>t^A
-!€0 ky0e00tä
+!€ kyke^WG>t^A
+!€ ky0e0>tä
 !€ 
-!€# sarka^WG>n
-!€0 sar0a00n
+!€ sarka^WG>n
+!€ sar0a0>n
 
 
 !   a | e | i | i6: _ [o | e: | i] (Dummy:) (:i) (Dummy:) ^WG:0 ;
@@ -484,8 +484,8 @@ k:v <=>     [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
                   [o|ö] _  e:          (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 
-!€# puku^WG>n
-!€0 puvu00n
+!€ puku^WG>n
+!€ puvu0>n
 
 
 "Gradation nk:ng"
@@ -493,8 +493,8 @@ k:v <=>     [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
 k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 
-!€# ranka^WG>n
-!€0 ranga00n
+!€ ranka^WG>n
+!€ ranga0>n
 
 
 !! !Gradation of -t-
@@ -514,29 +514,30 @@ k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
  ! lähteet : lähđen/lähen
 
 
-!€# lahti^WG
-!€0 lahđi0
+!€ lahti^WG
+!€ lahđi0
 
 
 "ti:si"
 !! __@RULENAME@__ 
-t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>:0 i3: | (:s) e: %>:0 i2: [.#.|Cns]] ;
-        Vowel   _ [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>:0 i3: | (:s) e: %>:0 i2: [.#.|Cns]] ;
-  Vowel [n|l|r] _ [                   Vowel:0            %^WG:0  %>:0 i3: ] ;
+t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
+        Vowel   _ [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
+  Vowel [n|l|r] _ [                   Vowel:0            %^WG:0  %>: i3: ] ;
 
-!# vuote^E2I... not ready
-!0 vuoss00i0i
+! ... not ready
+!# vuot0e^E2I>i3
+!0 vuoss00i>i
 
 "Gradation Nt:NN"
 !! __@RULENAME@__ 
 t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;  
-!t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 (%>:0) \i3: ;  
+!t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 (%>:) \i3: ;  
     where Nx in ( l n r ) ; 
 ! NB nt:nn before i3, if the vowel before i3 is not dropped out. annoin, mutta lensin, lennoin
 
 
-!€# lentä^WG>n
-!€0 lennä00n
+!€ lentä^WG>n
+!€ lennä0>n
 
 "Alveolar assimilation for consonant stems"
 !! __@RULENAME@__ 
@@ -544,8 +545,8 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
     where Cx in ( l r s ) ; 
 
 
-!€# tul>^N^U
-!€0 tul0lu
+!€ tul>^N^U
+!€ tul>lu
 
 ! ===============
 !! !!!Vowel rules
@@ -560,17 +561,17 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
                Vy in (   a   o   u )
          matched ;
 
-!€# kulke>^A
-!€0 kulke0a
+!€ kulke>^A
+!€ kulke>a
 
 !! !!Vowel copying and metathesis
          
 "Vowel copying" ! 
 !! __@RULENAME@__  
-! %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>:0 _ ;!(%>:0) [ (%>:0) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
+! %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>: _ ;!(%>:) [ (%>:) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
 !    where Vx in ( a e i u y ä ö ) ; ! o in next rule
      
-%^V:Vx <=> :Vx Dummy:* %>:0 _ ;
+%^V:Vx <=> :Vx Dummy:* %>: _ ;
     where Vx in ( a e i u y ä ö ) ; ! o in next rule 
    
 ! poika : poikaa
@@ -580,9 +581,9 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 !! __@RULENAME@__ 
 
 
- %^V:o <=> .#. Cns:* (Vowel:) [i|e|a] Cns:* a: %>:0 %^HMETA: h _ %^AO: i2: ; 
-                                  :o [Dummy:* - %^HMETA:] %>:0 _ [ (%>:0) Cns|.#.] ;
-                                            :Cns :Cns :o %>:0 _ ;
+ %^V:o <=> .#. Cns:* (Vowel:) [i|e|a] Cns:* a: %>: %^HMETA: h _ %^AO: i2: ; 
+                                  :o [Dummy:* - %^HMETA:] %>: _ [ (%>:) Cns|.#.] ;
+                                            :Cns :Cns :o %>: _ ;
 ! Mikä säätö?
 ! traaka : traakkhoin
 ! sivakka : sivakkhoin 
@@ -590,22 +591,22 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 !0 katto0o
 
 
-!€# paivukko>^V
-!€0 paivukko0o
+!€ paivukko>^V
+!€ paivukko>o
 
 
 "Vowel copying in short h-illative"
 !! __@RULENAME@__
- %^V:Vx <=> Vowel Vx: %>:0 h _ [ n: | m: ] ;  
+ %^V:Vx <=> Vowel Vx: %>: h _ [ n: | m: ] ;  
     where Vx in ( a e i o u y ä ö ) ; 
 
 
-!€# maa>h^Vn
-!€0 maa0han
+!€ maa>h^Vn
+!€ maa>han
 
 "Vowel copying in long h forms"
 !! __@RULENAME@__ 
- %^V:Vy <=>  Vx: %>:0 %^HMETA: h _ [ %^V: | i2: ] ; 
+ %^V:Vy <=>  Vx: %>: %^HMETA: h _ [ %^V: | i2: ] ; 
     where Vx in ( a e i i2 o u y ä ö ) 
           Vy in ( a e i i  o u y ä ö ) 
              matched ;
@@ -613,53 +614,53 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 
 "Vowel copying in long h forms 2"
 !! __@RULENAME@__ 
- %^V:Vy <=>  Vx: %>:0 %^HMETA: h %^V: _ ; 
+ %^V:Vy <=>  Vx: %>: %^HMETA: h %^V: _ ; 
     where Vx in ( a e i i2 o u y ä ö )  
           Vy in ( a e i i  o u y ä ö ) 
              matched ;
 
-! %^V:Vx <=> Vowel Vx: %>:0 %^HMETA: h %^V: _ ; 
+! %^V:Vx <=> Vowel Vx: %>: %^HMETA: h %^V: _ ; 
     
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
-! Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ %^V: | %^AO: | i: | o:] ; 
+! Vx:0 <=> Cns _ %>: %^HMETA:0 h [ %^V: | %^AO: | i: | o:] ; 
 !    where Vx in ( a e i o u y ä ö ) ;
 
- Vx:0 <=> Cns _ %>:0 %^HMETA:0 h [ :Vx | (%^AO:) ] ; 
+ Vx:0 <=> Cns _ %>: %^HMETA:0 h [ :Vx | (%^AO:) ] ; 
     where Vx in ( a e i o u y ä ö ) ;
 
 ! oppettaajhiin 
     
 ! "Stem deletion in h-illative b"
 ! !! __@RULENAME@__ 
-!  Vx:0 <=> Cns _ %>:0 %^HMETA:0 h %^V: ; 
+!  Vx:0 <=> Cns _ %>: %^HMETA:0 h %^V: ; 
 !     where Vx in ( a e i o u y ä ö ) ;  
        
 
-!€# syksy>^HMETAh^V^Vn
-!€0 syks000hyyn
+!€ syksy>^HMETAh^V^Vn
+!€ syks0>0hyyn
 
 
 "e deletion in illative plural"
- e:0 <=> _ %^EDEL:0 %>:0 h ;
+ e:0 <=> _ %^EDEL:0 %>: h ;
          _ %^E2I:0 %^HMETA:0 h i i ;
  ! vuothiin
   
  
 "e deletion in oblique plural of e-stem nouns"
- e:0 <=> _ (%^WG:0) %>:0 i2: ;
+ e:0 <=> _ (%^WG:0) %>: i2: ;
 
 
 !! !!Stem alternation rules
 !  ========================
 
 "Stem shortening for consonant initial suffixes" !!= * @CODE@
- Vx:0 <=> Vx _ %^VDEL:0  (Dummy:) %>:0 [s|t] ;
+ Vx:0 <=> Vx _ %^VDEL:0  (Dummy:) %>: [s|t] ;
      where Vx in ( a e i ä ) ;
 
 
-!€# rakkaa^VDEL^WG>s
-!€0 ra0ka0000s
+!€ rakkaa^VDEL^WG>s
+!€ ra0ka000>s
 
      
 
@@ -667,11 +668,11 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 
 "e:0 in consonant stems"
 !! __@RULENAME@__ 
-e:0 <=> Cns: _ [ (Dummy:* - %^E2I:0) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
+e:0 <=> Cns: _ [ (Dummy:* - %^E2I:0) %>: [i3:|i4:] | %^EDEL:0 %>: t ] ;
 
 
-!€# aukaise>i3
-!€0 aukais00i
+!€ aukaise>i3
+!€ aukais0>i
 
 
 !! !!i rules
@@ -683,28 +684,28 @@ e:0 <=> Cns: _ [ (Dummy:* - %^E2I:0) %>:0 [i3:|i4:] | %^EDEL:0 %>:0 t ] ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__ 
-a:0 <=> (\a) [(u) u|([u|o]) o] (:i|i6:) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0  [i2:|i3:] | [a:0]] ;
+a:0 <=> (\a) [(u) u|([u|o]) o] (:i|i6:) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:  [i2:|i3:] | [a:0]] ;
 
 
-!€# otta^WG>i2n 
-!€0 o0t000in  
+!€ otta^WG>i2n
+!€ o0t00>in 
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__ 
-!a:o <=>      .#.   (Cns:*) ([Vowel: - [o|u]]) [i|e|a] Cns:* (:Cns) (%^AO:0) _                   %>:0 [i2: | i3: ] ; !2-syll 
-a:o <=>  [ #: | .#. ] Cns:* ([i|e|a]         ) [i|e|a] Cns:*  :Cns           _ (Dummy: - %^AE:0) %>:0 [i2: | i3: ] ;
+!a:o <=>      .#.   (Cns:*) ([Vowel: - [o|u]]) [i|e|a] Cns:* (:Cns) (%^AO:0) _                   %>: [i2: | i3: ] ; !2-syll 
+a:o <=>  [ #: | .#. ] Cns:* ([i|e|a]         ) [i|e|a] Cns:*  :Cns           _ (Dummy: - %^AE:0) %>: [i2: | i3: ] ;
 
-!€# kal0a>i2en
-!€0 kallo0ien
+!€ kal0a>i2en
+!€ kallo>ien
 
 
-! €# kulkkiija>i2
-! €0 kulkkiijo0i
+!€ kulkkiija>i2
+!€ kulkkiijo>i
 
 
 "a:i in 3-syll stems with long a and i"
 !! __@RULENAME@__ 
-a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>:0 i2: ; ! 3-syll
+a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>: i2: ; ! 3-syll
 
 ! opettaajiissa
 
@@ -713,16 +714,16 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>:0 i2: ; ! 3-syll
 ! Vx:e <=> _ %^AE:0 (t) (t) ;
 ! 	where Vx in ( a ä ) ;
 
-Vx:e <=> _ %^AE:0 (%^WG:0) %>:0 t (t) ;
+Vx:e <=> _ %^AE:0 (%^WG:0) %>: t (t) ;
  	where Vx in ( a ä ) ;
 
 "ä:0 before i except in conditional"
 !! __@RULENAME@__ 
- ä:0 <=> Cns: _ [(Dummy:* - %^AE:0) %>:0 [ i | i2: | i3: | i5: ] | [ä:0]];
+ ä:0 <=> Cns: _ [(Dummy:* - %^AE:0) %>: [ i | i2: | i3: | i5: ] | [ä:0]];
 
 
-!€# kehä>i2>ss^A
-!€0 keh00i0ssä 
+!€ kehä>i2>ss^A
+!€ keh0>i>ssä 
  
 
 "Shortening of long vowel in front of i"
@@ -733,8 +734,8 @@ Vx:e <=> _ %^AE:0 (%^WG:0) %>:0 t (t) ;
           matched ;
 
 
-!€# pää>i2>ss^A
-!€0 p0ä0i0ssä
+!€ pää>i2>ss^A
+!€ p0ä>i>ssä
 
 ! saa∂a : sain : saisin
 ! ottaa : otan : ottaisin i4 ei passaa kaikkialle!
@@ -742,7 +743,7 @@ Vx:e <=> _ %^AE:0 (%^WG:0) %>:0 t (t) ;
           
 !"Shortening of long vowel when vowel lengthening"
 !! __@RULENAME@__ 
-! %^V:0 <=> Vowel %>: _ %>:0 [ i3:i | i4:i ] ; 
+! %^V:0 <=> Vowel %>: _ %>: [ i3:i | i4:i ] ; 
  
 ! Tämä sääntö aiheuttaa paljon ratkaisemattomia konflikteja säännön "Vowel copying" kanssa.
 ! Mikä tämä sääntö on ja miten se eroaa edelisestä "Shortening of long vowel in front of i"?
@@ -758,26 +759,26 @@ Vx:e <=> _ %^AE:0 (%^WG:0) %>:0 t (t) ;
  e:i <=> _ %^E2I:0 [ #: | .#. ] ;  
 
 
-!€# ove^E2I
-!€0 ovi0
+!€ ove^E2I
+!€ ovi0
  
 !! * ove : ovi
 
 "i:0 in par and gen pl of i-stems" ! ristien
- i:0 <=> Cns: _ %>:0 i2:i %>:0 [ %^V n | %^V: ] ;
+ i:0 <=> Cns: _ %>: i2:i %>: [ %^V n | %^V: ] ;
 
 ! # risti>i2>^Vn
-! 0 rist00i0en
+! 0 rist0>i>en
 
 
 
 "i:0 in past tense and conditional of i-stems" ! leikin, tohtisin
- i:0 <=> Cns: _ Dummy:* %>:0 [ i3:i | i4:i ] ;
+ i:0 <=> Cns: _ Dummy:* %>: [ i3:i | i4:i ] ;
 
 
 
-!€# leikki^WG>i3n
-!€0 lei0k000in
+!€ leikki^WG>i3n
+!€ lei0k00>in
 
 
 
@@ -792,69 +793,69 @@ Vx:e <=> _ %^AE:0 (%^WG:0) %>:0 t (t) ;
 !old a rules "a:0 before Pret and Pl i when rounded root vowel"
 !old a rules !! __@RULENAME@__ 
 !old a rules 
-!old a rules a:0 <=> (\a) [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:0  [i2:|i3:] | [a:0]] ;
+!old a rules a:0 <=> (\a) [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:  [i2:|i3:] | [a:0]] ;
 !old a rules 
-!old a rules !a:0 <=> \a [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  ([Dummy: - %^AE:]) %>:0 !Dummy:* [i2:|i3:] ;
-!old a rules ! a:0 <=>          [u|o]     (i) Cns: (Cns:) (Cns:) _ (Dummy:) %>:0 [i2:|i3:] ;
+!old a rules !a:0 <=> \a [(u) u|([u|o]) o] (i) Cns: (Cns:) (Cns:) _  ([Dummy: - %^AE:]) %>: !Dummy:* [i2:|i3:] ;
+!old a rules ! a:0 <=>          [u|o]     (i) Cns: (Cns:) (Cns:) _ (Dummy:) %>: [i2:|i3:] ;
 !old a rules 
 !old a rules 
-!old a rules !€# otta^WG>i2n 
-!old a rules !€0 o0t000in  
+!old a rules !€ otta^WG>i2n 
+!old a rules !€ o0t000in  
 !old a rules 
 !old a rules 
 !old a rules "a:o before Pl i and Pret i"
 !old a rules !! __@RULENAME@__ 
-!old a rules !a:o <=> .#. (Cns:*) [i|e|a] \o \u Cns:* (:Cns) %>:0 %^AO:o a:o _ %>:0 [i2:i | i3:i ] ; ! 2-syll
-!old a rules a:o <=> .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) (%^AO:0) _  %>:0 [i2: | i3: ] ; !2-syll 
+!old a rules !a:o <=> .#. (Cns:*) [i|e|a] \o \u Cns:* (:Cns) %>: %^AO:o a:o _ %>: [i2:i | i3:i ] ; ! 2-syll
+!old a rules a:o <=> .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) (%^AO:0) _  %>: [i2: | i3: ] ; !2-syll 
 !old a rules 
-!old a rules !a:o / <= .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) %^AO:0 _ %>:0 i [a:a] ; !2-syll
+!old a rules !a:o / <= .#. (Cns:*) [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) %^AO:0 _ %>: i [a:a] ; !2-syll
 !old a rules 
 !old a rules !"a never o in front of i:i"
 !old a rules !! __@RULENAME@__ 
-!old a rules !a:o /<= (.#.) (Cns:*) a:a (\%>:0) _  i:i ;
+!old a rules !a:o /<= (.#.) (Cns:*) a:a (\%>:) _  i:i ;
 !old a rules 
-!old a rules !a:o /<= a _ (\%>:0) i ;
+!old a rules !a:o /<= a _ (\%>:) i ;
 !old a rules 
 !old a rules        ! .#. Cns:* [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) [Dummy: - %^AE:] _ %^AO:0 [ i2:| i3: ] ;
-!old a rules ! Vowel Cns Cns:* [Vowel: - [o|u]] [i|e|a] Cns:+ (:Cns)[Dummy: - %^AE:] _ [Dummy: - %^AE:] %>:0 [i2: | i3:] ; !3-syll
+!old a rules ! Vowel Cns Cns:* [Vowel: - [o|u]] [i|e|a] Cns:+ (:Cns)[Dummy: - %^AE:] _ [Dummy: - %^AE:] %>: [i2: | i3:] ; !3-syll
 !old a rules  
-!old a rules ! a:o <=>  .#. Cns:* ([Vowel: - [a|o|u]]) [i|e|a] Cns:* (:Cns) _ [Dummy: - %^AE:] %>:0 !i2: ; ! 2-syll
+!old a rules ! a:o <=>  .#. Cns:* ([Vowel: - [a|o|u]]) [i|e|a] Cns:* (:Cns) _ [Dummy: - %^AE:] %>: !i2: ; ! 2-syll
 !old a rules !          .#. Cns:* ([Vowel: - [a|o|u]]) [i|e|a] Cns:* (:Cns) _  %^AO:0 ;
-!old a rules !    Vowel Cns Cns:* ([Vowel  - [a|o|u]]) [i|e|a] Cns:+ (:Cns) _ [Dummy: - %^AE:] %>:0 i2: ; ! 3-syll
-!old a rules !    Vowel Cns Cns:* ([Vowel  - [a|o|u]]) Vowel   Cns:+ (:Cns) _ [Dummy: - %^AE:] %>:0 i2: ; ! 3-syll
-!old a rules !          .#. Cns:*   a                  ([a|u]) Cns:* (:Cns) _ [Dummy: - %^AE:] %>:0 i3: ;
+!old a rules !    Vowel Cns Cns:* ([Vowel  - [a|o|u]]) [i|e|a] Cns:+ (:Cns) _ [Dummy: - %^AE:] %>: i2: ; ! 3-syll
+!old a rules !    Vowel Cns Cns:* ([Vowel  - [a|o|u]]) Vowel   Cns:+ (:Cns) _ [Dummy: - %^AE:] %>: i2: ; ! 3-syll
+!old a rules !          .#. Cns:*   a                  ([a|u]) Cns:* (:Cns) _ [Dummy: - %^AE:] %>: i3: ;
 !old a rules 
 !old a rules 
-!old a rules !€# kal0a>i2en
-!old a rules !€0 kallo0ien
+!old a rules !€ kal0a>i2en
+!old a rules !€ kallo0ien
 !old a rules 
 !old a rules 
-!old a rules !€# kulkkiija>i2
-!old a rules !€0 kulkkiijo0i
+!old a rules !€ kulkkiija>i2
+!old a rules !€ kulkkiijo0i
 !old a rules 
 !old a rules !"a:o for HMETA"
-!old a rules ! %^V:o <=> .#. Cns:* a ([a|u]) Cns:* (:Cns) [Dummy: - %^AE:] %>:0 %^HMETA:0 h _ %^AO:0 ;
+!old a rules ! %^V:o <=> .#. Cns:* a ([a|u]) Cns:* (:Cns) [Dummy: - %^AE:] %>: %^HMETA:0 h _ %^AO:0 ;
 
 
 
 !"Gemination"
-! 0:Cx <=> [Vowel|l|r] Cy _ Vowel: %>:0 Vowel: ;   
+! 0:Cx <=> [Vowel|l|r] Cy _ Vowel: %>: Vowel: ;   
 !        where Cy in ( h j k l m n p r s t v ) 
 !              Cx in ( h j k l m n p r s t v ) 
 !    matched; 
 
 !"Gemination of h"
-!0:h <=> [ .#. | Cns ] Vowel h _ :Vx %>:0 :Vx ;
+!0:h <=> [ .#. | Cns ] Vowel h _ :Vx %>: :Vx ;
 !         where Vx in ( a e i o u ä ö ) ;
 !
 !"Gemination of l"
-!0:l <=> [ .#. | Cns ] Vowel h _ :Vx %>:0 :Vx ;
+!0:l <=> [ .#. | Cns ] Vowel h _ :Vx %>: :Vx ;
 !         where Vx in ( a e i o u ä ö ) ;
 
 
 !   "Gemination VVXi"     
-!0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) Cx _ [ Vowel | a:o ] %>:0 [:i | i2:i];
-!                                         _ [ a:0 | e:0 ]  %>:0 :i i2:i ;
+!0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) Cx _ [ Vowel | a:o ] %>: [:i | i2:i];
+!                                         _ [ a:0 | e:0 ]  %>: :i i2:i ;
 !      where Cx in ( k p t s ) ;       
  
 
