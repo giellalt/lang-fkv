@@ -80,26 +80,19 @@ LEXICON a_41_s_kse
 +A:%^WG # ;
 
 
-LEXICON a_42nen !!= @CODE@ varovainen
-  nom-nen ;
- : nen ;
- :s R ;
- :se a_gae-strong ;
- +Pl+kom:sine K ;
- :se a_weak-v-stem ;
- :s a_long-par ;
- :se a_2TAVU_V_ill_sg ;
- +Pl+Ill:sh%>i2in K ;
- +Pl:s%>i2 a_shortgenpl ; ! naisien
- +Pl:s a_consgenpl ;
- +Pl:ss%>i2 a_shortparpl ;
- +Pl:ss%>i2 a_shorterillpl ;
- +Pl+Com:s%>i2ne K ;
-
-
 LEXICON adj-nen
 
 +A: nen ;
+
+LEXICON a_42nen !!= @CODE@ varovainen
+adj-nen ;
++A: nen ;
++A:s R ;
++A:s a_long-par ;
++A+Sg:se a_sgpl-cases-short ;      !! these two lexica for cases with
++A+Pl:s%>i2 a_sgpl-cases-short ;  !! the same affix in sg and pl
++A+Pl:ssh%>i2 a_shorterillpl ;
++A+Pl+Com:s%>i2ne K ;
 
 LEXICON a_42inen !!= @CODE@ sininen
 +A+Sg:se a_sgpl-cases-long ;      !! these two lexica for cases with
@@ -110,7 +103,7 @@ LEXICON a_42inen !!= @CODE@ sininen
 
 
 LEXICON a_43 !!= @CODE@ muuttumaton
-  nom-nen ;
+ 
  :s R ;
  :se a_gae-strong ;
  +Pl+kom:sine K ;
@@ -126,7 +119,7 @@ LEXICON a_43 !!= @CODE@ muuttumaton
 !Täytyy muokata
 
 LEXICON a_43odd !!= @CODE@ onneton
-  nom-nen ;
+ 
  :s R ;
  :se a_gae-strong ;
  +Pl+kom:sine K ;
@@ -140,6 +133,7 @@ LEXICON a_43odd !!= @CODE@ onneton
  +Pl:ss%>i2 a_shorterillpl ;
  +Pl+Com:s%>i2ne K ;
 !Täytyy muokata
+
 
 
 
