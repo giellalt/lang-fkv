@@ -71,6 +71,7 @@ LEXICON n_21	!!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo
 +N: 2TAVU_V_ill_sg ;
 +N+Pl:%>i2 shortestgenpl ;  !! * to shortestgenpl since we already
 +N+Pl:%>i2 shortestparpl  ; !!   have the i
++N+Pl:%> tt-longgenpl ;
 +N+Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
 +N+Pl+Ill:%>%^HMETAh%^V%>i2 n-PxK ;
 +N+Pl+Com:%>i2ne K ;
