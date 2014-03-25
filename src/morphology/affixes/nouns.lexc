@@ -59,7 +59,7 @@ LEXICON n_1 !!= * @CODE@ = maa
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
 
-LEXICON n_21C
+LEXICON n_21C !!= * @CODE@  
 +N+Sg+Nom:  K    ; ! Hans
          :i n_21 ; ! Hansi
 
@@ -149,8 +149,8 @@ LEXICON n_23ii	!!= * @CODE@  assii
 +N: obl-strong ;
 +N+Pl: tt-longgenpl ;
 +N: weak-v-stem ;
-+N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:%^WG sgpl-cases-short ;  !! the same affix in sg and pl
++N+Sg:%^WG sgpl-cases-short ;   !! * @CODE@  for same affix in sg and pl
++N+Pl:%^WG sgpl-cases-short ;  !! * @CODE@  for same affix in sg and pl
 +N+Pl+Ess:%>n%^A PxxK ;
 +N+Pl+Com:%>ne K ;
 
@@ -175,8 +175,8 @@ LEXICON n_31	!!= @CODE@  kieli
 +N:%^EDEL long-par ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
-+N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Sg:%^WG sgpl-cases-short ;    !! * @CODE@  for same affix in sg and pl
++N+Pl:%>i2 sgpl-cases-short ;  !! * @CODE@  for same affix in sg and pl
 +N: 2TAVU_V_ill_sg ;
 +N+Pl:%^E2I%^HMETAhii shortestillpl ;
 +N+Pl:%>i2 shortparpl	 ;
@@ -264,7 +264,7 @@ LEXICON n_32m !!= @CODE@ elläin elläi
 +N+Sg+Nom:%^WGn K ;
 +N+Sg+Nom:%^WGn R ;
 +N:me weak-v-stem ;
-+N:n long-par ;
++N:%^WGn long-par ;
 +N:me obl-strong ;
 +N+Sg+Gen:me%>n K ;
 +N:me 2TAVU_V_ill_sg ;
