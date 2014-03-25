@@ -201,15 +201,15 @@ LEXICON n_31m	!!= @CODE@ lumi lu
 LEXICON n_31si	!!= @CODE@ vuosi, käsi
 +N+Sg+Nom:%^E2I K ; ! %^E2I e to i
 +N+Sg+Nom:%^E2I R ; ! %^E2I e to i
-+N:%^EDEL long-par ;
++N:%^EDEL long-par-sg ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Pl:%^E2I%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N: 2TAVU_V_ill_sg ;
 +N+Pl:%^E2I%^HMETAhii shortestillpl ;
-+N+Pl:%>i2 shortparpl	 ;
-+N+Pl:%>i2 shortgenpl	 ;
++N+Pl:%^E2I%>i2 shortparpl ;
++N+Pl:%^E2I%>i2 shortgenpl ;
 +N+Pl:%^EDEL consgenpl ;
 +N+Pl+Com:%>i2ne K ;
 
