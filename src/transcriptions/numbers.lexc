@@ -1,4 +1,7 @@
 LEXICON Root
+
+
+
 HUNDREDSM ;		! 200M
 sata:1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
@@ -219,6 +222,7 @@ toista: # ;
 
 LEXICON TENS
 kymmentä:1%0 # ;
+kymmenes:1%0%. # ; ! ordinal
 kaksi:2 LÅGEV ;
 kolme:3 LÅGEV ;
 nelje:4 LÅGEV ;
@@ -230,9 +234,14 @@ yhđeksen:9 LÅGEV ;
 
 LEXICON LÅGEV
 kymmentä:%0 # ;
+kymmenes:%0%. # ;
 kymmentä: ONES ;
 
 LEXICON ONES
+CARDINAL ;
+ORDINAL ;
+
+LEXICON CARDINAL
 yksi:1 # ;
 kaksi:2 # ;
 kolme:3 # ;
@@ -242,4 +251,16 @@ kuusi:6 # ;
 seittemen:7 # ;
 kahđeksen:8 # ;
 yhđeksen:9 # ;
+
+
+LEXICON ORDINAL
+   ensimäinen:1%. # ;
+    toinen:2%. # ;
+  kolmas:3%. # ;
+ neljes:4%. # ;
+  viiđes:5%. # ;
+  kuuđes:6%. # ;
+seittemes:7%. # ;
+ kahđeksas:8%. # ;
+   yhđekses:9%. # ;
 
