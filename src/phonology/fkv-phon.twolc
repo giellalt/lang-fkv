@@ -66,10 +66,12 @@ Rules
  
   "Gemination VXi"
   !! __@RULENAME@__ 
-0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _ :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
-       where Cx in ( k p t s l) ;
+0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
+         where Cx in ( k p t s ) ;
 
-
+!0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
+!        Cns:*  Vowel:* Vowel (Vowel):Cx e:0 _ %>:0 i2:i :i ;
+!         where Cx in ( k p t s ) ;
 
 
 !€ sop0i>^V
@@ -92,10 +94,14 @@ Rules
 !€ poik0a>i2>i
 !€ poikk0>i>i
 
-
+!"Gemination talo: talloi"
+! !! __@RULENAME@__ 
+!0:Cx <=> .#. :Cns :Vowel :Cx _ (:Vowel) %>:0 [:i - i3:] (i2:i) ;
+!         where Cx in ( h j l m n r v ) ;
+          
 
 !   ! __@RULENAME@__ 
-! 0:Cx <=> [ .#. | Cns ] Vowel Cx _ Vowel %>: i2:i ;
+! 0:Cx <=>  Vowel Cx _ Vowel %>: i2:i ;
 !        where Cx in ( h j l m n r v ) ;
  
 
