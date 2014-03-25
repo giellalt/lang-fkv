@@ -40,57 +40,57 @@ Multichar_Symbols
  
 LEXICON Root
  
-tammikuun% @U.MONTH.1@:@U.MONTH.1@ 31DAYS ;
-helmikuun% @U.MONTH.2@:@U.MONTH.2@ 29DAYS ;
-maaliskuun% @U.MONTH.3@:@U.MONTH.3@ 31DAYS ;
-huhtikuun% @U.MONTH.4@:@U.MONTH.4@ 30DAYS ;
-toukokuun% @U.MONTH.5@:@U.MONTH.5@ 31DAYS ;
-kesäkuun% @U.MONTH.6@:@U.MONTH.6@ 30DAYS ;
-heinäkuun% @U.MONTH.7@:@U.MONTH.7@ 31DAYS ;
-elokuun% @U.MONTH.8@:@U.MONTH.8@ 31DAYS ;
-syyskuun% @U.MONTH.9@:@U.MONTH.9@ 30DAYS ;
-lokakuun% @U.MONTH.10@:@U.MONTH.10@ 31DAYS ;
-marraskuun% @U.MONTH.11@:@U.MONTH.11@ 30DAYS ;
-joulukuun% @U.MONTH.12@:@U.MONTH.12@ 31DAYS ;
+jannuaarikuun% @U.MONTH.1@:@U.MONTH.1@ 31DAYS ;
+feepruaarikuun% @U.MONTH.2@:@U.MONTH.2@ 29DAYS ;
+marsikuun% @U.MONTH.3@:@U.MONTH.3@ 31DAYS ;
+aaprillikuun% @U.MONTH.4@:@U.MONTH.4@ 30DAYS ;
+maaikuun% @U.MONTH.5@:@U.MONTH.5@ 31DAYS ;
+jyynikuun% @U.MONTH.6@:@U.MONTH.6@ 30DAYS ;
+jyylikuun% @U.MONTH.7@:@U.MONTH.7@ 31DAYS ;
+aukustikuun% @U.MONTH.8@:@U.MONTH.8@ 31DAYS ;
+septemperikuun% @U.MONTH.9@:@U.MONTH.9@ 30DAYS ;
+oktooperikuun% @U.MONTH.10@:@U.MONTH.10@ 31DAYS ;
+novemperikuun% @U.MONTH.11@:@U.MONTH.11@ 30DAYS ;
+tesemperikuun% @U.MONTH.12@:@U.MONTH.12@ 31DAYS ;
  
  
 LEXICON 29DAYS
-ensimmäinen:1 B ;
+ensimäinen:1 B ;
 toinen:2 B ;
 kolmas:3 B ;
-neljäs:4 B ;
-viides:5 B ;
-kuudes:6 B ;
-seitsemäs:7 B ;
-kahdeksas:8 B ;
-yhdeksäs:9 B ;
+neljes:4 B ;
+viiđes:5 B ;
+kuuđes:6 B ;
+seittemes:7 B ;
+kahđeksas:8 B ;
+yhđekses:9 B ;
 kymmenes:1%0 B ;
-yhdestoista:11 B ;
-kahdestoista:12 B ;
+yhđestoista:11 B ;
+kahđestoista:12 B ;
 kolmastoista:13 B ;
-neljästoista:14 B ;
-viidestoista:15 B ;
-kuudestoista:16 B ;
-seitsemästoista:17 B ;
-kahdeksastoista:18 B ;
-yhdeksästoista:19 B ;
-kahdeskymmenes:2%0 B ;
-kahdeskymmenesensimmäinen:21 B ;
-kahdeskymmenestoinen:22 B ;
-kahdeskymmeneskolmas:23 B ;
-kahdeskymmenesneljäs:24 B ;
-kahdeskymmenesviides:25 B ;
-kahdeskymmeneskuudes:26 B ;
-kahdeskymmenesseitsemäs:27 B ;
-kahdeskymmeneskahdeksas:28 B ;
-kahdeskymmenesyhdeksäs:29 B ;
+neljestoista:14 B ;
+viiđestoista:15 B ;
+kuueestoista:16 B ;
+seittemestoista:17 B ;
+kahđeksastoista:18 B ;
+yhđeksestoista:19 B ;
+kahđeskymmenes:2%0 B ;
+kahđeskymmenesensimäinen:21 B ;
+kahđeskymmenestoinen:22 B ;
+kahđeskymmeneskolmas:23 B ;
+kahđeskymmenesneljes:24 B ;
+kahđeskymmenesviiđes:25 B ;
+kahđeskymmeneskuuđes:26 B ;
+kahđeskymmenesseittemes:27 B ;
+kahđeskymmeneskahđeksas:28 B ;
+kahđeskymmenesyhđekses:29 B ;
  
 LEXICON 30DAYS
 kolmaskymmenes:3%0 B ;
 29DAYS ;
  
 LEXICON 31DAYS
-kolmaskymmenesensimmäinen:31 B ;
+kolmaskymmenesensimäinen:31 B ;
 30DAYS ;
  
 LEXICON B
