@@ -110,7 +110,7 @@ Rules
 
   "Gemination Va"
   !! __@RULENAME@__ 
-0:Cx <=> Cns:* Vowel:* Vowel Cx _ a %>: :a ;
+0:Cx <=> [ .#. | #: ] Cns:*   Vowel:* Vowel Cx _ a %>: :a ;
        where Cx in (  k p t s ) ;
 
 !€ aik0a>^V
@@ -118,7 +118,7 @@ Rules
 
   "Gemination VVa"
   !! __@RULENAME@__ 
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ a %>: :a ;
+0:Cx <=> [ .#. | #: ] Cns:* Vowel Cx _ a %>: :a ;
        where Cx in ( h j l m n r v ) ;
   
 
@@ -127,7 +127,7 @@ Rules
 
   "Gemination Ve"
   !! __@RULENAME@__ 
-0:Cx <=> Cns:*  Vowel:* Vowel Cx _ e %>: :e ;
+0:Cx <=> [ .#. | Cns ]   Vowel:* Vowel Cx _ e %>: :e ;
        where Cx in ( k p t s ) ;
 
 !€ tek0e>^V
@@ -157,7 +157,7 @@ Rules
 
 "Gemination Vo"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:* Vowel:* Vowel Cx _ o %>: :o ;
+ 0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ o %>: :o ;
         where Cx in (  k p t s) ;
  
 
@@ -176,7 +176,7 @@ Rules
     
 "Gemination Vu"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:* Vowel:* Vowel Cx _ u %>: :u ;
+ 0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ u %>: :u ;
         where Cx in (  k p t s ) ;
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :u %>: [ :u | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
@@ -197,7 +197,7 @@ Rules
     
 "Gemination Vy"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:* Vowel:* Vowel Cx _ y %>: :y ;
+ 0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ y %>: :y ;
         where Cx in (  k p t s ) ;
         
 
@@ -218,7 +218,7 @@ Rules
     
 "Gemination Vö"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:* Vowel:* Vowel Cx _ ö %>: :ö ;
+ 0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ ö %>: :ö ;
         where Cx in (  k p t s) ;
         
 
@@ -240,7 +240,7 @@ Rules
    
 "Gemination Vä"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:* Vowel:* Vowel Cx _ ä %>: :ä ;
+ 0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ ä %>: :ä ;
         where Cx in ( k p t s ) ;
  
 
