@@ -84,7 +84,7 @@ kahđeksen:8 MILJON ;
 yhđeksen:9 MILJON ; 
 
 LEXICON MILJON
-% millioona% : OVERTHOUSANDS ;
+% miljoona% : OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -110,7 +110,7 @@ nelje:4 CUODIT ;	! 400000-499999
 viisi:5 CUODIT ;	! 500000-599999
 kuusi:6 CUODIT ;	! 600000-699999
 seittemen:7 CUODIT ;	! 700000-799999
-kahđeksen:8 CUODIT ;	! 800000-899999
+kahđeksen:8 CUODIT ;	! 800000-899999 
 yhđeksen:9 CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
@@ -261,6 +261,6 @@ LEXICON ORDINAL
   viiđes:5%. # ;
   kuuđes:6%. # ;
 seittemes:7%. # ;
- kahđeksas:8%. # ;
+ kahđekses:8%. # ;
    yhđekses:9%. # ;
 
