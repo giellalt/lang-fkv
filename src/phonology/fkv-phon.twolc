@@ -695,7 +695,7 @@ e:0 <=> Cns: _ [ (Dummy:* - %^E2I:0) %>: [i3:|i4:] | %^EDEL:0 %>: t ] ;
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__ 
 a:0 <=> (\a) [(u) u|([u|o]) o] (:i|i6:) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:  [i2:|i3:] | [a:0]] ;
-
+          [ #: | .#. ] (Cns:*) Vowel Cns [a|e] [v|n] _ %>: i2: (:i) ;
 
 !€ otta^WG>i2n
 !€ o0t00>in 
@@ -716,6 +716,7 @@ a:o <=>  [ #: | .#. ] Cns:* ([i|e|a]         ) [i|e|a] Cns:*  :Cns           _ (
 "a:i in 3-syll stems with long a and i"
 !! __@RULENAME@__ 
 a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>: i2: ; ! 3-syll
+      
 
 ! opettaajiissa
 
