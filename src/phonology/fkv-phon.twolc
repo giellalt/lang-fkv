@@ -143,15 +143,8 @@ Rules
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ e %>: :e ;
        where Cx in ( h j l m n r v ) ;
 
-
-
-
-
 !€ suome>^V
 !€ suome>e
-
-
-    
 
 
 
@@ -581,7 +574,7 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
 !    where Vx in ( a e i u y ä ö ) ; ! o in next rule
      
 %^V:Vx <=> :Vx Dummy:* %>: _ ;
-    where Vx in ( a e i u y ä ö ) ; ! o in next rule 
+    where Vx in ( a e i u y ä ö ) ; ! o in next rule
    
 ! poika : poikaa
 ! kive : kivee
