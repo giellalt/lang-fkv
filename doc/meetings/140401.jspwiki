@@ -1,0 +1,165 @@
+!!!Kokous
+
+* Aika: 1.4. klo 13
+* Paikka: internet
+* Välineet: Skype ja Collabedit
+
+!!!Paikalla
+*  Anna-Kaisa, Eira, Leena, Pirjo, Trond, Mervi ja Kaisa.
+ 
+!!!Agenda
+* Tilannepäivitykset
+**Oahpa
+**Sanakirjat
+**Fst
+* Työtehtävät
+**Oahpa
+**Sanakirjat
+**Fst
+* Muut asiat
+
+
+!!!Tilannepäivitykset
+!!Oahpa
+
+Neljä ohjelmaa netissä:
+
+* url: [http://testing.oahpa.no/fkv_oahpa/]
+* Lähdetiedostot: ''main/ped/fkv/''
+* Dokumentaatio: [http://giellatekno.uit.no/ped/fkv-oahpa.html]
+
+!!Sanakirjat
+
+__Anna-Kaisa__ on katsonut sanakirjaperiaatteita, Excel:
+Lista puuttuvista sanoista (Dagens kvenske ord), nämä
+sanat ovat nyt Excelissä.
+
+Hilde: Kielitingalla on kokous 5. tai 6. toukokuuta Pyssyjovessa. Ehdotus: A-K 
+keskustelee heidän kanssaan sanakirjasta.
+
+
+Priorisointi
+
+# Dagens kvenske ord
+# ...
+
+Sanakirjat:
+
+* fkvnob: Sanakirjat on yhdistetty
+* nobfkv: Odottaa fkvnob-siivousta
+
+Eira: ai on aika epämääräinen seurakunta.
+Sanakirjassa on epätasaisuuksia.
+Sanakirjaan pitää suhtautua kriittisesti.
+
+
+!!Fst
+Finite-state-transducer = äärellinen tila-automaatti
+
+!yaml
+
+yaml-testit, 93 testiä. (oikea luku = puolet tästä):
+
+* hfst FAIL = 17
+* hfst PASS = 77
+
+Verbit: Kaikki menevät läpi, paitsi liuota, laueta.
+
+!Sanakirja fst:ssa
+
+71% sanakirjan lemmoista löytyy fst:stä: Ei: 2139, Joo: 7572
+
+!Adjektiivit
+
+{{{
+LEXICON a_23    !!= * @CODE@  pimmee                                                                                              
++A+Sg+Nom:e K ;
++A+Sg:e a_sgpl-cases-short ;
++A+Sg+Gen:en K ;
++A+Pl+Nom:et K ;
++A+Sg+Ill:esseen  K ;
++A+Pl+Ill:e%>i2ssiin K ;
++A:e a_long-par-sg ;
++A+Pl:e%>i2 a_longparpl ;
++A+Pl:e%>i2 a_tt-longgenpl ;
++A+Pl:e%>i2 a_sgpl-cases-short ;
++A+Pl+Ess:e%>i2n%^A PxxK ;
++A+Pl+Com:e%>i2ne K ;
+
+LEXICON n_23    !!= * @CODE@  valkkee                                                                                             
++N+Sg+Nom:e K ;
++N+Sg:e sgpl-cases-short ;
++N+Sg+Gen:en K ;
++N+Pl+Nom:et K ;
++N+Sg+Ill:esseen  K ;
++N+Pl+Ill:e%>i2ssiin K ;
++N:e long-par-sg ;
++N+Pl:e%>i2 longparpl ;
++N+Pl:e%>i2 tt-longgenpl ;
++N+Pl:e%>i2 sgpl-cases-short ;
++N+Pl+Ess:e%>i2n%^A PxxK ;
++N+Pl+Com:e%>i2ne K ;
+}}}
+
+Mielummin näin:
+
+{{{
+adjectives.lexc
+---------------
+LEXICON a_23   
++A: x_23 ;
++A: komparaatio_jne ;
+
+nouns.lexc
+----------
+LEXICON n_23
++N: x_23 ;
+
+LEXICON x_23    !!= * @CODE@  valkkee                                                                                             
++Sg+Nom:e K ;
++Sg:e sgpl-cases-short ;
++Sg+Gen:en K ;
++Pl+Nom:et K ;
++Sg+Ill:esseen  K ;
++Pl+Ill:e%>i2ssiin K ;
+:e long-par-sg ;
++Pl:e%>i2 longparpl ;
++Pl:e%>i2 tt-longgenpl ;
++Pl:e%>i2 sgpl-cases-short ;
++Pl+Ess:e%>i2n%^A PxxK ;
++Pl+Com:e%>i2ne K ;
+}}}
+
+!Possessiivisuffiksit
+
+Eira: Ota pois possessiivisuffiksit. Tehdään se.
+
+
+!!!Työtehtävät
+
+!!Oahpa
+UiT.
+
+!!Sanakirjat
+
+# Korjaus
+## 
+# kääntäminen fkvnob -> nobfkv
+# nobfkv
+
+sanakirjaa jatketaan 
+Anna-Kaisa jatkaa pääsiäisviikolla, valmiina pääsiäisen jälkeen.
+
+!!Fst
+Pääsiäisen jälkeen jatketaan, katsotaan ongelmakimppuja.
+
+
+
+!!!Muut asiat
+
+Ei ollut.
+
+!!!Ensi kokous
+
+Seuraava kokous pidetään __24.4. klo 13.00__
+
