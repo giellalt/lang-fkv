@@ -21,29 +21,32 @@ LEXICON NounRoot !!= @CODE@
 !! * 3. Konsonanttirankaiset					 = 
 !! ** 3.1 Kaksitavuiset ( pieni, kieli)			 = n_31
 !! ** 3.1.1. lumi:lumen:lunta                    = n_31m
-!! ** 3.1.2. (käsi, vuosi)						 = n_31si
-!! ** 3.1.3. (lapsi)						     = n_31lapsi
-!! ** 3.1.4. (mies)						         = n_31mies
+!! ** 3.1.2. (käsi, vuosi)			 = n_31si
+!! ** 3.1.3. (lapsi)		 	         = n_31lapsi
+!! ** 3.1.4. (mies)			         = n_31mies
 !! ** 3.2 Usseempitavuiset ( tytär)				
 !! *** 3.2.1 (tytär)                              = n_32
 !! *** 3.2.2. (elläin: elläimen                   = n_32m
-!! *** 3.2.3. (rakkhaus)						  = n_32s
+!! *** 3.2.3. (rakkhaus)			  = n_32s
 !! ** 3.3 Kokkoontumanom. ( opas, huonet)		
 !! *** 3.3.1. (opas)                              = n_33s
 !! *** 3.3.1.1 (ruvis)                           = n_33si
 !! *** 3.3.2. (huonet)                            = n_33t
-!! *** 3.3.2.1 (kirves)							 = n_33ts
+!! *** 3.3.2.1 (kirves)				 = n_33ts
 !! * 4. Ekstrakonsonanttirankaiset				 = 
-!! ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
-!! ** 4.2 –inen-nominit ( kainulainen)			 = n_42 = nen
-!! *** 4.2.1 -inen-nominit Pl (tervheiset)		 = n_42pl = nen
-!! *** 4.2.2 -inen-nominit odd (vihrinen)		 = n_42odd = nen
+!! ** 4.1 veres-nominit ( veres, kokkous)	  = n_41
+!! ** 4.2 –inen-nominit ( kainulainen)		  = n_42 = nen
+!! *** 4.2.1 -inen-nominit Pl (tervheiset)	  = n_42pl = nen
+!! *** 4.2.2 -inen-nominit odd (vihrinen)	   = n_42odd = nen
 
 
 !! !!1. Yksitavuiset
 
 yö n_1 ; !!= * @CODE@
 maa n_1 ;
+puu n_1 ;
+pää n_1 ;
+sukupuu n_1 ;
 tuorestai n_1 ;
 helluntai n_1 ;
 sää n_1 ;
@@ -114,7 +117,7 @@ tyven               n_32 ;
 syđän:sydä         n_32m ;
 rakkhaus:rakkhau   n_32s ;
 korkkeus:korkkeu    n_32s ;
-
+seuraus:seurau      n_32s ;
 
 !! !!3.3 Kokoontumanom
 opas:opp           n_33s ; !!= * @CODE@
@@ -149,6 +152,7 @@ kokkous:kokkou      n_41 ;
 vihrinen:vihri     n_42odd ;
 ihminen:ihmi      n_42odd ;
 kainulainen:kainulai  n_42 ;
+ruijalainen:ruijalai  n_42 ;
 
 !! !!nen-sanat
 !! sininen, nainan. Vartalo on sini, nai
@@ -165,6 +169,10 @@ nainen:nai n_42 ;
 !!# n_42-sanat (poikanen, nainen)
 !!# n_22 (lyhyt V-vartalo: 
 
+areena n_21 ;
+norjalaistamistrolli n_21 ;
+kontaktifoorumi n_21 ;
+mummo n_21 ;
 joukhanen:joukha n_42odd ; 
 makkaratianen:makkaratia n_42odd ; 
 talitianen:talitia n_42odd ; 
@@ -238,6 +246,7 @@ rattastaminen:rattastami n_42odd ;
 norjalaistaminen:norjalaistami n_42 ; 
 ruiđalaistaminen:ruiđalaistami n_42 ; 
 ođottaminen:ođottami n_42odd ; 
+vahvistaminen:vahvistami n_42odd ;
 lukeminen:lukemi n_42 ; 
 ihminen:ihmi n_42odd ; 
 vaimoihminen:vaimoihmi n_42odd ; 
@@ -293,6 +302,11 @@ pohjasmaa n_1 ;
 syntymämaa n_1 ;
 tee n_1 ;
 voi n_1 ; 
+tipsi n_21 ;
+triski n_21 ;
+teema n_21 ;
+poengi n_21 ;
+
 suuffa n_21 ; 
 maha n_21 ; 
 paha n_21 ; 
@@ -422,6 +436,7 @@ sođanaika n_21 ;
 pimmeenaika n_21 ; 
 talvenaika n_21 ; 
 vuođenaika n_21 ; 
+vuona n_21 ;
 evakyeeramisaika n_21 ; 
 ođottamisaika n_21 ; 
 taika n_21 ; 
@@ -840,6 +855,7 @@ saita n_21 ;
 riita n_21 ; 
 valta n_21 ; 
 ilta n_21 ; 
+TV-ilta n_21 ; 
 silta n_21 ; 
 kesäilta n_21 ; 
 kulta n_21 ; 
@@ -1241,6 +1257,7 @@ leipomauuni n_21 ;
 kramafuuni n_22 ; 
 telefuuni n_22 ; 
 tietotelefuuni n_22 ; 
+organisasuuni n_22 ;
 rekiuuni n_21 ; 
 aamuuni n_22odd ; 
 komuuni n_22odd ; 
@@ -1334,6 +1351,7 @@ suutari n_22odd ;
 kestikievari n_22odd ; 
 porvari n_22odd ; 
 meijeri n_22odd ; 
+taatteri n_22odd ; 
 kujeri n_22odd ; 
 laakeri n_22odd ; 
 kyylälaakeri n_22odd ; 
@@ -1368,6 +1386,7 @@ tesilitteri n_22odd ;
 kasvatussentteri n_22odd ; 
 kassuutussentteri n_22odd ; 
 tervheyssuojelusentteri n_22odd ; 
+kväänisentteri n_22odd ; 
 mutteri n_22odd ; 
 skuutteri n_22odd ; 
 kaveri n_22odd ; 
@@ -1411,6 +1430,7 @@ kivimuuri n_21 ;
 tuuri n_21 ; 
 sepperatuuri n_22odd ; 
 traktuuri n_22odd ; 
+kulttuuri n_22odd ; 
 muttuuri n_22odd ; 
 pöykkyri n_22odd ; 
 tynnyri n_22odd ; 
@@ -1431,6 +1451,7 @@ marraskesi n_21 ;
 riisi n_21 ; 
 paratiisi n_22 ; 
 aviisi n_21 ; 
+viikkoaviisi n_21 ; 
 telefaksi n_21 ; 
 hyksi n_21 ; 
 kransi n_21 ; 
@@ -1466,6 +1487,7 @@ tryysi n_21 ;
 marmelaati n_22 ; 
 sjukulaati n_22 ; 
 paraati n_22odd ; 
+raati n_21 ; 
 kraati n_21 ; 
 praati n_21 ; 
 fati n_21 ; 
@@ -2237,6 +2259,7 @@ pesä n_21 ;
 variksenpesä n_21 ; 
 linnunpesä n_21 ; 
 karhhuunpesä n_21 ; 
+kielipesä n_21 ;
 isä n_21 ; 
 lisä n_21 ; 
 lapsilisä n_21 ; 
@@ -2351,6 +2374,9 @@ kieli:kiele n_31 ;
 kvääninkieli:kvääninkiele n_31 ; 
 kainhuunkieli:kainhuunkiele n_31 ; 
 syntymäkieli:syntymäkiele n_31 ; 
+meänkieli:meänkiele n_31 ;
+äitinkieli:äitinkiele n_31 ;
+vähemistökieli:vähemistökiele n_31 ;
 mieli:miele n_31 ; 
 pieli:piele n_31 ; 
 leukapieli:leukapiele n_31 ; 
@@ -2431,6 +2457,7 @@ kynsi:kynte n_31si ;
 länsi:länte n_31si ; 
 vuosi:vuote n_31si ; 
 uusivuosi:uusivuote n_31si ; 
+kielivuosi:kielivuote n_31si ; 
 karkkausvuosi:karkkausvuote n_31si ; 
 lapsi:la n_31si ; 
 jalkalapsi:jalkala n_31si ; 
@@ -2675,54 +2702,54 @@ kokkous:kokkou n_41 ;
 kokous:kokou n_41 ;
 rukous:rukou n_41 ;
 ajatus:ajatu n_41 ;
-rukatus:rukatu n_41 ;
-elatus:elatukse  n_41 ;
-kasvatus:kasvatu n_41 ;
-vaihetus:vaihetu n_41 ;
-kuljetus:kuljetu n_41 ;
-kosketus:kosketu n_41 ;
-opetus:opetu n_41 ;
-hallitus:hallitu n_41 ;
-pommitus:pommitu n_41 ;
-pummitus:pummitu n_41 ;
-rasitus:rasitu n_41 ;
-huvitus:huvitu n_41 ;
-rajotus:rajotu n_41 ;
-harjotus:harjotu n_41 ;
-kirjotus:kirjotu n_41 ;
-allekirjotus:allekirjotu n_41 ;
-sekotus:sekotu n_41 ;
-tarkotus:tarkotu n_41 ;
-ilmotus:ilmotu n_41 ;
-helpotus:helpotu n_41 ;
-varotus:varotu n_41 ;
-erotus:erotu n_41 ;
-terotus:terotu n_41 ;
-verotus:verotu n_41 ;
-ehđotus:ehđotu n_41 ;
-ođotus:ođotu n_41 ;
-rangastus:rangastu n_41 ;
-kalastus:kalastu n_41 ;
-rantakalastus:rantakalastu n_41 ;
-merikalastus:merikalastu n_41 ;
-pelastus:pelastu n_41 ;
-opastus:opastu n_41 ;
-aivastus:aivastu n_41 ;
-omistus:omistu n_41 ;
-koristus:koristu n_41 ;
-aavistus:aavistu n_41 ;
-puhđistus:puhđistu n_41 ;
-tođistus:tođistu n_41 ;
-ulostus:ulostu n_41 ;
-painostus:painostu n_41 ;
-tunnustus:tunnustu n_41 ;
-liikutus:liikutu n_41 ;
-kulutus:kulutu n_41 ;
-koulutus:koulutu n_41 ;
-asutus:asutu n_41 ;
-muistutus:muistutu n_41 ;
-kassuutus:kassuutu n_41 ;
-lohđutus:lohđutu n_41 ;
+rukatus:rukat2u n_41 ;
+elatus:elat2u  n_41 ;
+kasvatus:kasvat2u n_41 ;
+vaihetus:vaihet2u n_41 ;
+kuljetus:kuljet2u n_41 ;
+kosketus:kosket2u n_41 ;
+opetus:opet2u n_41 ;
+hallitus:hallit2u n_41 ;
+pommitus:pommit2u n_41 ;
+pummitus:pummit2u n_41 ;
+rasitus:rasit2u n_41 ;
+huvitus:huvit2u n_41 ;
+rajotus:rajot2u n_41 ;
+harjotus:harjot2u n_41 ;
+kirjotus:kirjot2u n_41 ;
+allekirjotus:allekirjot2u n_41 ;
+sekotus:sekot2u n_41 ;
+tarkotus:tarkot2u n_41 ;
+ilmotus:ilmot2u n_41 ;
+helpotus:helpot2u n_41 ;
+varotus:varot2u n_41 ;
+erotus:erot2u n_41 ;
+terotus:terot2u n_41 ;
+verotus:verot2u n_41 ;
+ehđotus:ehđot2u n_41 ;
+ođotus:ođot2u n_41 ;
+rangastus:rangast2u n_41 ;
+kalastus:kalast2u n_41 ;
+rantakalastus:rantakalast2u n_41 ;
+merikalastus:merikalast2u n_41 ;
+pelastus:pelast2u n_41 ;
+opastus:opast2u n_41 ;
+aivastus:aivast2u n_41 ;
+omistus:omist2u n_41 ;
+koristus:korist2u n_41 ;
+aavistus:aavist2u n_41 ;
+puhđistus:puhđist2u n_41 ;
+tođistus:tođist2u n_41 ;
+ulostus:ulost2u n_41 ;
+painostus:painost2u n_41 ;
+tunnustus:tunnust2u n_41 ;
+liikutus:liikut2u n_41 ;
+kulutus:kulut2u n_41 ;
+koulutus:koulut2u n_41 ;
+asutus:asut2u n_41 ;
+muistutus:muistut2u n_41 ;
+kassuutus:kassuut2u n_41 ;
+lohđutus:lohđut2u n_41 ;
 pahuus:pahuu n_32s ;
 vanhuus:vanhuu n_32s ;
 laiskuus:laiskuu n_32s ;
@@ -2930,12 +2957,13 @@ työväki:työväke n_21ie ;
 parttii n_23ii ;
 netti n_21 ;
 kehittäminen:kehittämi n_42odd ;
+perustaminen:perustami n_42odd ;
 kansalinen:kansali n_42 ;
 seuraava:seuraa n_22odd ;
 saame:saame	n_21 ;
 oikeus:oikeu n_32s ;
 meedia:meedia n_22odd ;
 stipendi n_21 ;
-
-
+departtementti n_22 ;
+viranomainen:viranomai n_41 ;
 
