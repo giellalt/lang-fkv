@@ -94,17 +94,20 @@ LEXICON kk-longgparpl
  +Par:%>kk%>i2 # ;! kk ?? Tsekkaa..
 
 LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom !!joki:joke
-+N+Sg+Nom:%^E2I K ; ! %^EI e to i
-+N+Sg+Nom:%^E2I R ; ! %^EI e to i
-+N: short-par ;
-+N: obl-strong ;   
-+N:%^WG weak-v-stem ;
-+N+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
-+N+Pl:%>i2i shortestgenpl ;
-+N:	2TAVU_edel-ill ;
-+N+Pl:%>i2 shortparpl ;
-+N+Pl+Com:%>i2ne K ;
++N: x_21ie ;
+
+LEXICON x_21ie 
++Sg+Nom:%^E2I K ; ! %^EI e to i
++Sg+Nom:%^E2I R ; ! %^EI e to i
+ short-par ;
+ obl-strong ;   
+:%^WG weak-v-stem ;
++Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
++Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++Pl:%>i2i shortestgenpl ;
+	2TAVU_edel-ill ;
++Pl:%>i2 shortparpl ;
++Pl+Com:%>i2ne K ;
 
 
 
