@@ -57,18 +57,13 @@ LEXICON a_31si	!!= @CODE@ uusi
 
 
 LEXICON a_33s !!= @CODE@ rakas
-+A:a a_sConsCase ; ! nom, par
-+A:haa  a_loputjutut ;
-+Sg+Ill:haa a_mTAVU_VV-ill ;
-+A+Pl+Ill:haissiin K ;
-+A+Pl+Com:ha%>ine K ;
++A: x_33s ;
+! comp, superl, puuttuvat
+
  
 LEXICON a_33t !!= @CODE@ tuoret
-+A:e a_tConsCase ; ! nom, par
-+A:hee  a_loputjutut ;
-+Sg+Ill:hee a_mTAVU_VV-ill ;
-+A+Pl+Ill:heissiin K ;
-+A+Pl+Com:hee%>i2ne K ;
++A: x_33t ;
+! comp, superl, puuttuvat
 
 LEXICON a_41 !!= * @CODE@ = veres
 +A: a_sConsCase ; !!= * @CODE@  toistaiseksi :-/
@@ -306,15 +301,15 @@ LEXICON a_loput
 
 
 
-LEXICON a_loputjutut
- obl-strong ; ! muut vahvat
- weak-v-stem ;
- +Sg: sgpl-cases-short ;      !! these two lexica for cases with
- +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl -- tsekkaa long
- mTAVU_VV-ill ;
- +Pl:%>i2 longgenpl ;
- +Pl:%>i2 longparpl ;
- +Pl:%>i2 longillpl ;
+! LEXICON a_loputjutut
+!  obl-strong ; ! muut vahvat
+!  weak-v-stem ;
+!  +Sg: sgpl-cases-short ;      !! these two lexica for cases with
+!  +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl -- tsekkaa long
+!  mTAVU_VV-ill ;
+!  +Pl:%>i2 longgenpl ;
+!  +Pl:%>i2 longparpl ;
+!  +Pl:%>i2 longillpl ;
 
 LEXICON a_sConsCase
  +Sg+Nom:%^WG%>s K ;
