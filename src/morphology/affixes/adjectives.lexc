@@ -88,7 +88,7 @@ LEXICON adj-nen
 
 +A: nen ;
 
-LEXICON a_42nen !!= @CODE@ varovainen
+LEXICON a_42inen !!= @CODE@ varovainen
 adj-nen ;
 +A: nen ;
 +A:s R ;
@@ -98,15 +98,13 @@ adj-nen ;
 +A+Pl:ssh%>i2 a_shorterillpl ;
 +A+Pl+Com:s%>i2ne K ;
 
-LEXICON a_42inen !!= @CODE@ omituinen
+LEXICON a_42inenodd !!= @CODE@ omituinen
 +A+Sg:se a_sgpl-cases-long ;      !! these two lexica for cases with
 +A+Pl:s%>i2 a_sgpl-cases-long ;  !! the same affix in sg and pl
 +A+Pl:ssh%>i2 a_shorterillpl ;
 +A: nen ;
 +A+Pl+Com:s%>i2ne K ;
 
-LEXICON a_42inenodd !!= @CODE@ sininen
-a_42nen ;
 
 LEXICON a_43 !!= @CODE@ muuttumaton
  
