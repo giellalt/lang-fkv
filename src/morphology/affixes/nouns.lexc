@@ -317,11 +317,14 @@ LEXICON n_32s !!= @CODE@  sairhaus
 !n_33s ;
 
 LEXICON n_33s !!= @CODE@ rakas
-+N:a sConsCase ; ! nom, par
-+N:haa loputjutut ;
++N: x_33s ;
+
+LEXICON x_33s
+:a sConsCase ; ! nom, par
+:haa loputjutut ;
 +Sg+Ill:haa mTAVU_VV-ill ;
-+N+Pl+Ill:haissiin K ;
-+N+Pl+Com:ha%>ine K ;
++Pl+Ill:haissiin K ;
++Pl+Com:ha%>ine K ;
 
 LEXICON n_33si !!= @CODE@ ruvis
 +N:i sConsCase ; ! nom, par
@@ -339,11 +342,14 @@ LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 n_33t ;
 
 LEXICON n_33t !!= @CODE@ venet
-+N:e tConsCase ; ! nom, par
-+N:hee loputjutut ;
++N: x_33t ;
+
+LEXICON x_33t
+:e tConsCase ; ! nom, par
+:hee loputjutut ;
 +Sg+Ill:hee mTAVU_VV-ill ;
-+N+Pl+Ill:heissiin K ;
-+N+Pl+Com:hee%>i2ne K ;
++Pl+Ill:heissiin K ;
++Pl+Com:hee%>i2ne K ;
 
 LEXICON n_33ts !!= @CODE@ kirves
 +N:e sConsCase ; ! nom, par
