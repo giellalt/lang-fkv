@@ -1,0 +1,118 @@
+!!!Viikkokokous
+ 
+* Aika: 24.4.2014 klo 14
+* Paikka: internet
+* Välineet: Skype ja Collabedit
+
+!!!Paikalla Anna-Kaisa, Kaisa, Leena, Mervi, Pirjo ja Trond.
+
+ 
+!!!Agenda
+* Tilannepäivitys
+* Työtehtävät
+* Muut asiat
+
+ 
+!!!Tilannepäivitys
+
+!!Analysaattorin ongelmakimput
+
+* Verbeistä 3 yamleista ei mene läpi
+* Nomineissa on tiettyjä ongelmia, ongelmat koskevat
+** vain tiettyjä muotoja (esim Pl Ill, Par, Gen; geminaatio)
+** ja ongelmat liityvät yhteen
+** Vartalossa -e josta tulee (siis ei tule) i (joki, vesi, ..)
+
+Fail: 32
+Pass: 155
+Virheprosentti= 17,1
+
+{{{
+[FAIL] hirsi+N+Sg+Nom => Missing results: hirsi
+[FAIL] hirsi+N+Sg+Nom => Unexpected results: hirti
+[PASS] hirsi+N+Sg+Gen => hirren
+...
+[PASS] hirsi+N+Pl+Nom => hirret
+[FAIL] hirsi+N+Pl+Gen => Missing results: hirssiin
+[FAIL] hirsi+N+Pl+Gen => Unexpected results: hirteiin, hirtten
+[FAIL] hirsi+N+Pl+Par => Missing results: hirssii
+[FAIL] hirsi+N+Pl+Par => Unexpected results: hirteii <=== !!
+[FAIL] hirsi+N+Pl+Tra => Missing results: hirsiksi
+..
+[FAIL] hirsi+N+Pl+Ine => Unexpected results: hirteissä  <=== mahd
+[FAIL] hirsi+N+Pl+Ela => Missing results: hirsistä
+[FAIL] hirsi+N+Pl+Ill => Unexpected results: hirthiin <=== mahd
+[FAIL] hirsi+N+Pl+Ade => Missing results: hirsilä
+}}}
+
+
+!!Sanakirja
+
+!fkvnob
+
+Tove on tehnyt työtä fkvnobin kanssa. 
+Korrigert til linje 6945/51992 N_fkvnob.xml
+
+Aikataulu?
+
+Sanakirja analysaattorissa:
+
+Puuttuvat: 1850/7572 = 24%
+
+{{{
+$ cat *l|grep '<l '|tr '<' '>'|cut -d">" -f3|ufkv|grep '?'|wc -l
+    1850
+$ cat *l|grep '<l '|wc -l
+    7572
+}}}
+
+
+!nobfkv
+
+Odottaa nobfkv:ta
+
+!!Korpus
+
+Korp on online koekorpuksena: [http://gtweb.uit.no/f_korp/].
+
+Sen lisäksi on tulossa lisää tekstejä:  
+Pirjon tekstit, vrt. Anna-Kaisa). 
+Niiden lisäksi on myös olemassa lisää tekstejä (Pirjo lähettää).
+
+
+
+!!!Työtehtävät
+
+!!Nominit
+
+twolc ensi viikolla.
+
+!!Adjektiivit
+
+Aloittaa x_21-systeemiä (yhdistää N, A)
+
+!!Sanakirja 
+
+Webdict uusittu plus ladattavana.
+
+!fkvnob
+
+fkv-osuus: oikoluku + esimerkkilauseita. 
+
+!!!Muut asiat
+
+!!Voronovin, Sulkalan ja muiden litteroimat äänitallenteet. 
+
+Tiedostot ja äänet on Mervillä Dropboxissa 
+
+!!Kielitingan kokous Pyssyjovessa maikuussa
+
+Korpusasia ja ylipäätään kieliteknologia pitää esitellä Kielitingassa.
+
+!!Seuraava kokous
+
+15.5. klo 13
+
+main/fkv/doc/meetings/240414.jspwiki main/fkv/doc/KvenDocumentation.jspwiki
+
+
