@@ -1,16 +1,50 @@
 
 Tässä lista mahdollisista tehtävistä:
 
-* tooli+N+Pl+Ess => Missing: tooliina
-* tooli+N+Pl+Ess => Unexpected: toolliina
-** geminaatio toimii, vaikka ei pitäisi.
+# Lisätä nämä sanat sanakirjaan: main/words/dicts/fkvnob/inc/dagensord_missing.txt 
+# lisätä sanat fkv/test/data/inc_aikamatka2.txt fst:hen
+# Lisätä sanat fkv/test/data/inc_missing_interj
+# Käydä tekstejä läpi ja lisätä puuttuvia sanoja
+# Miettiä, oliko fkv/morphology/stems/numerals.lexc hyvä idea
+ 
+Lisätä fst-hen:
 
+{{{
+cat teksti | preprocess | ufkv | grep '?' | cut -f1
+}}}
+
+Sen jälkeen katsella, ja lisätä miihin sopi 
+* main/langs/fkv/src/morphology/stems
+
+Lisätä sanakirjaan:
+
+Tee sanakirja-automaatti:
+
+{{{
+cd 
+cd main/words/dicts/fkvnob
+sh fkvnob.sh
+}}}
+
+Sitten katsot, onko sanasi jo sanakirjassa:
+
+{{{
+cat sanakirjaehdokaslista | lookup bin/fkvnob.fst | grep '?' | cut -f1
+}}}
+
+Sen jälkeen katsella, ja lisätä miihin sopi 
+* main/words/dicts/fkvnob/src/
+
+
+
+
+!!!Lista
+
+Tätä listaa pitää käydä läpi, katsoa, pitääkö edelleen paikkaansa.
 
 * syksy+N+Pl+Ill => Missing: sykshyin
-* syksy+N+Pl+Ill => Unexpected: syksh, sykshyyn
+* syksy+N+Pl+Ill => Unexpected: sykshiin, syksh^Vin
 ** ainakin lexc-virhe, ehkä myös twolc
-
-
 
 * suomi+N+Sg+Par => Missing: suomee
 * suomi+N+Sg+Par => Unexpected: suommee
