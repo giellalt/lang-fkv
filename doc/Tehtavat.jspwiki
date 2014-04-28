@@ -2,6 +2,11 @@
 Tässä lista mahdollisista tehtävistä:
 
 # Lisätä nämä sanat sanakirjaan: main/words/dicts/fkvnob/inc/dagensord_missing.txt 
+# lisätä sanakirjasanat fst:hen:
+## käydä läpi fkv/src/morphology/stems/ ja siinä
+   adverbs.lexc, adjectives.lexc, nouns.lexc, verbs.lexc
+   Tiedostojen lopussa on adv_x, a_x, n_x, v_x.
+   Ne pitää luokitella oikein.
 # lisätä sanat fkv/test/data/inc_aikamatka2.txt fst:hen
 # Lisätä sanat fkv/test/data/inc_missing_interj
 # Käydä tekstejä läpi ja lisätä puuttuvia sanoja
