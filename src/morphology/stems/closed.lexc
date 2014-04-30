@@ -9,41 +9,57 @@ tahansa pcle ;
 eri pcle ;
 vain pcle ;
 eđes pcle ;
+jopa pcle ;
+myös pcle ;
 
 LEXICON pcle
  +Pcle: # ;
 
 LEXICON Subjunction
-!! @LEXNAME@ -leksikossa on vain yksi sana.
+!! @LEXNAME@ -leksikossa on vain yksi sana. !!m. jos vaikka
 
 koska subj ;
 että subj ;
 ette subj ;
+jos subj ;
+joskin subj ;
+vaikka subj ;
+jotta subj ;
+kuin subj ;
+kunnes subj ;
 
 
 LEXICON subj
  +CS: # ;
 
 LEXICON Conjunction
-!! @LEXNAME@ -leksikossa on vain pari sanaa.
+!! @LEXNAME@ -leksikossa on vain pari sanaa. !!joko - tai
 eli cctag ;
 ja cctag ;
 tai cctag ;
+tahi cctag ; 
 vai cctag ;
 mutta cctag ;
 ko cctag ;
 sekä cctag ;
 
-vaikka cctag ; 
-tahi cctag ; 
 joko cctag ; 
-jos cctag ;
+vaan cctag ;
+vai cctag ;
+ynnä cctag ;
+saati cctag ;
+kunnes cctag ;
+siksi cctag ;
+sillä cctag ;
+näet cctag ;
+nimittäin cctag ;
+
 
 LEXICON cctag
  +CC: # ;
 
 LEXICON Interjection
-!! @LEXNAME@ -leksikossa on vain yksi sana.
+!! @LEXNAME@ -leksikossa on vain yksi sana. !!huh, hui, yäk, kääk, oho, nono
 hyi ij ;
 
 LEXICON ij
