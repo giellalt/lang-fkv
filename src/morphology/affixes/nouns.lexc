@@ -117,9 +117,10 @@ LEXICON x_21ie
 +Pl:%>i2 shortparpl ;
 +Pl+Com:%>i2ne K ;
 
-
-
 LEXICON n_22	!!= * @CODE@  opettaaja
++N: x_22 ;
+
+LEXICON x_22	
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;
@@ -135,6 +136,9 @@ LEXICON n_22	!!= * @CODE@  opettaaja
 +N+Pl+Com:%>i2ne K ;
 
 LEXICON n_22odd	!!= * @CODE@  meininki
++N: x_22odd ;
+
+LEXICON x_22odd	!!= * @CODE@  meininki
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
