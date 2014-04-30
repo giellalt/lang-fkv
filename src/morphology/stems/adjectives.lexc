@@ -38,6 +38,7 @@ täysi:täyte          a_31si ;
 
 !! !!3.2 Usseaempitavuiset
 
+tyven               a_32 ; !!= * @CODE@
 
 !! !!3.3 Kokoontuma
  
@@ -370,10 +371,10 @@ näkönen:näkö a_42inenodd ;
 pirunnäkönen:pirunnäkö a_42inenodd ;
 vähäsen ax ;
 jouten ax ;
-tyven ax ;
+tyven a_32 ;
 varhain ax ;
 likhiin ax ;
-lämmin ax ;
+lämmin a_32 ;
 paljon ax ;
 viaton:via a_43odd ;
 rajaton:raja a_43odd ;
