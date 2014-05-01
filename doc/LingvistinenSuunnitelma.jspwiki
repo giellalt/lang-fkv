@@ -2,13 +2,13 @@
 
 !!! Morfofonologia 
 * Tehdä [lista prosesseista|Morfofonologia.html]
-* Tehdä twol-säännöt
+* Valmistaa twol-säännöt
 
 !!!Morfologia
 
-!!Terjen sanakirja
+!!Sanakirja
 
-* Adjektiiveille ei ole tehty mitään
+* Adjektiivit pitää lisätä
 * Olemme siirtäneet ubstantiivit ja verbit stems-hakemistoon, lajittelu puuttu
 * Pronominit on vielä tekemättä
 * Muut sanaluokat on kaikki siirretty sanakirjasta stems-hakemistoon
@@ -17,27 +17,6 @@
 
 !!Tehtäviä
 
-!Verbit
-
-Kaikki yaml-tiedostot toimivat, paitsi V-tarista.
-
-Nyt pitää lisätä lisää taivutusmuotoja (moduksia, infiniittisiä muotoja) 
-sekä yaml-tiedostoihin ja lexc-koodiin. Pitää myös tarkistaa, 
-toimivatko leksikon kaikki muut verbit.
-
-!Substantiivit
-
-Nyt pitää luokitella substantiivit vartaloluokkiin
-
-!Suljetut sanaluokat 
-* Pronominit: 
-** paljon on tehty, puuttuu viimeistely (?)
-* konjunktiot, prepositiot, postpositiot, interjektiot
-** tarvitaan lisää sanoja Eiran sanakirjasta
-* Luokitella verbit, 
-
-!adjektiivit
-... odottavat substantiiveja. Ei ole vielä haettu Terjen sanakirjasta.
 
 !!!Testaaminen 
 
@@ -47,42 +26,113 @@ Tässä testitiedostot:
 
 Katso, puuttuuko tyyppeja.
 
+
+* A-muuttumaton_gt-norm.yaml
+* A-onneton_gt-norm.yaml
+* A-pieni_gt-norm.yaml
+* A-pimmee_gt-norm.yaml
+* A-sininen_gt-norm.yaml
+* A-tuoret_gt-norm.yaml
+* A-varovainen_gt-norm.yaml
+* N-aika_gt-norm.yaml
+* N-assii_gt-norm.yaml
+* N-ellain_gt-norm.yaml
+* N-hirsi_gt-norm.yaml
+* N-hoppee_gt-norm.yaml
+* N-housut_gt-norm.yaml
 * N-huonet_gt-norm.yaml
+* N-hyljet_gt-norm.yaml
+* N-ihminen_gt-norm.yaml
+* N-joki_gt-norm.yaml
 * N-kainulainen_gt-norm.yaml
+* N-kajava_gt-norm.yaml
+* N-karamelli_gt-norm.yaml
+* N-kasi_gt-norm.yaml
+* N-kasvot_gt-norm.yaml
+* N-kauhee_gt-norm.yaml
+* N-kieli_gt-norm.yaml
+* N-kirves_gt-norm.yaml
+* N-kulkkiija_gt-norm.yaml
+* N-lapsi_gt-norm.yaml
 * N-linna_gt-norm.yaml
+* N-lumi_gt-norm.yaml
 * N-maa_gt-norm.yaml
 * N-meininki_gt-norm.yaml
+* N-nainen_gt-norm.yaml
+* N-opettaaja_gt-norm.yaml
+* N-paivukko_gt-norm.yaml
+* N-pappi_gt-norm.yaml
+* N-poika_gt-norm.yaml
 * N-rakas_gt-norm.yaml
 * N-ruvis_gt-norm.yaml
+* N-sairhaus_gt-norm.yaml
+* N-sieni_gt-norm.yaml
+* N-sivakka_gt-norm.yaml
 * N-suomi_gt-norm.yaml
+* N-syksy_gt-norm.yaml
+* N-taival_gt-norm.yaml
+* N-tervheiset_gt-norm.yaml
+* N-tooli_gt-norm.yaml
+* N-tunturi_gt-norm.yaml
+* N-tytar_gt-norm.yaml
+* N-valkkee_gt-norm.yaml
 * N-venet_gt-norm.yaml
 * N-veres_gt-norm.yaml
+* N-vuosi_gt-norm.yaml
+* N-yđin_gt-norm.yaml
+* P-mie_gt-norm.yaml
+* P-tama_gt-norm.yaml
+* V-aikkoot_gt-norm.yaml
+* V-ajatella_gt-norm.yaml
+* V-anttaat_gt-norm.yaml
 * V-aukaista_gt-norm.yaml
+* V-hantteerata_gt-norm.yaml
 * V-haravoita_gt-norm.yaml
+* V-havittaat_gt-norm.yaml
 * V-jatkata_gt-norm.yaml
+* V-juosta_gt-norm.yaml
+* V-kadota_gt-norm.yaml
 * V-kattela_gt-norm.yaml
 * V-kattoot_gt-norm.yaml
 * V-kavela_gt-norm.yaml
+* V-kerita_gt-norm.yaml
+* V-kirjoittaat_gt-norm.yaml
+* V-kulkkeet_gt-norm.yaml
+* V-kyeta_gt-norm.yaml
 * V-kyytita_gt-norm.yaml
+* V-lahteet_gt-norm.yaml
+* V-laueta_gt-norm.yaml
+* V-lenttaat_gt-norm.yaml
+* V-liuota_gt-norm.yaml
+* V-lukkeet_gt-norm.yaml
+* V-luottaat_gt-norm.yaml
 * V-nahda_gt-norm.yaml
+* V-nakkyyt_gt-norm.yaml
+* V-pajeta_gt-norm.yaml
+* V-panna_gt-norm.yaml
+* V-piikaroita_gt-norm.yaml
 * V-polata_gt-norm.yaml
 * V-saada_gt-norm.yaml
+* V-soppiit_gt-norm.yaml
 * V-tarista_gt-norm.yaml
 * V-tehda_gt-norm.yaml
+* V-tohtiit_gt-norm.yaml
+* V-tulla_gt-norm.yaml
 * V-tuoda_gt-norm.yaml
 * V-vanheta_gt-norm.yaml
 
-Voidaan lisätä adjektiiveja.
 
 !!Testikorpus
 
-Ehkä vähän aikaisin vielä, mutta tullaan tarvitsemaan testikorpusta.
+* Pieni korpus: biggies/langs/fkv/corp
+* Isompi korpus: freecorpus/orig/fkv/ (tulossa)
+* Ruijan Kaiku, rinnakkaiskorpus: freecorpus/manual_compilation/rk_fkvnob/
 
-!!pohdintoja
+{{{
+cat manual_compilation/rk_fkvnob/ruijan_kaiku_article_201*|grep '<f>'|tr '<' '>' | cut -d">" -f3|wc -w
+}}}
 
-Pitää lisätä seuraavat säännöt verbeihin: a muuttuu e:ksi ennen passiivin päätettä anttaat  annethaan 
 
-Pitää lisätä vokaalinmuutokset ennen preteritin i:tä annan : annoin
 
 
 
