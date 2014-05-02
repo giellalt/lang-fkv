@@ -1,6 +1,10 @@
 
+Dokumentti [Arbeidsplan.html] antaa yleiskuvan.
 
-Lista mahdollisista tehtävistä:
+Tässä mennään yksityiskohtiin
+
+
+!!!Lista mahdollisista tehtävistä:
 
 # Lisätä nämä sanat sanakirjaan: main/words/dicts/fkvnob/inc/dagensord_missing.txt 
 # lisätä sanakirjasanat fst:hen:
@@ -30,23 +34,44 @@ Tee sanakirja-automaatti:
 cd 
 cd main/words/dicts/fkvnob
 sh fkvnob.sh
+
+lookup bin/fkvnob.fst
 }}}
 
 Sitten katsot, onko sanasi jo sanakirjassa:
 
 {{{
-cat sanakirjaehdokaslista | lookup bin/fkvnob.fst | grep '?' | cut -f1
+cat sanakirjaehdokaslista.txt | lookup bin/fkvnob.fst | grep '?' | cut -f1
 }}}
 
 Sen jälkeen katsella, ja lisätä miihin sopi 
 * main/words/dicts/fkvnob/src/
 
+!!!Ihmiset, työt
+
+# twolc, lexc-morfologia: __Leena, Kaisa__ 
+# lexc-leksikko (n_x, jne.): __Mervi__
+# fkvnob-sanakirja, esimerkit: __Pirjo__
+# fkvnob-sanakirja, fkv-oikoluku: __Pirjo__ (tehty?)
+# fkvnob-sanakirja, nob-oikoluku: __Tove__
+# sanakirjan kääntäminen: __Ciprian__
+# nobfkv-työ: __Tove, muut__
+## nob-artikkelien siivoaminen: __Tove, muut__
+## puuttuvien nob-sanojen 
+### lisääminen: __Trond, Tove, pedagogit__
+### kääntäminen: __Pirjo, muut__
+# Tekstit
+## T-tekstien kerääminen: __KI__
+## P-tekstien lisääminen korpukseen: __Mervi, Børre, ...__
+## Aikamatka-tekstien lisääminen korpukseen: __Mervi, Børre, ...__
+# Uusien teksteistä tulevien sanojen lisääminen sanakirjaan ja fst:hen: 
 
 
 
-!!!Lista
 
-Tätä listaa pitää käydä läpi, katsoa, pitääkö edelleen paikkaansa.
+!!!Lista morfofonologisista pulmista
+
+Tätä listaa pitää käydä läpi, katsoa, pitääkö edelleen paikkaansa (tuskin pitää).
 
 * syksy+N+Pl+Ill => Missing: sykshyin
 * syksy+N+Pl+Ill => Unexpected: sykshiin, syksh^Vin
