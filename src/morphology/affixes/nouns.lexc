@@ -121,19 +121,19 @@ LEXICON n_22	!!= * @CODE@  opettaaja
 +N: x_22 ;
 
 LEXICON x_22	
-+N: strong-v-stem ;
-+N:%^WG weak-v-stem ;
-+N+Sg:%^WG sgpl-cases-short ;
-+N+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
-+N: 2TAVU_V_ill_sg ;
-+N+Sg+Ess:%>nn%^A PxxK ;
-+N+Pl+Tra:%>i2ksi K ;
-+N+Pl+Tra:%>i2kse PxxK ;
-+N+Pl+Ess:%>i2n%^A PxxK ;
-+N+Pl:%^WG%>i2 tt-longgenpl ;
-+N+Pl:%>i2 longparpl ;
-+N+Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
-+N+Pl+Com:%>i2ne K ;
+ strong-v-stem ;
+:%^WG weak-v-stem ;
++Sg:%^WG sgpl-cases-short ;
++Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+ 2TAVU_V_ill_sg ;
++Sg+Ess:%>nn%^A PxxK ;
++Pl+Tra:%>i2ksi K ;
++Pl+Tra:%>i2kse PxxK ;
++Pl+Ess:%>i2n%^A PxxK ;
++Pl:%^WG%>i2 tt-longgenpl ;
++Pl:%>i2 longparpl ;
++Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
++Pl+Com:%>i2ne K ;
 
 LEXICON n_22odd	!!= * @CODE@  meininki
 +N: x_22odd ;
@@ -457,8 +457,6 @@ LEXICON tConsCase
  +Sg+Nom:%^WG%>t K ;
  +Sg+Par:%^WG%>tt%^A K ;
 
-LEXICON x
- +N+Sg+Nom: K ; ! ei tehty
 
 
 !! !!! Basic paradigms
