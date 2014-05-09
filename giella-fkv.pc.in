@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/giella/fkv
+srcdir=@datarootdir@/giella/fkv
+
+Name: giella-fkv
+Description: Finite-state transducers and other language processing tools for Kven Finnish, developed by the Giellatekno and Divvun groups at UiT The Arctic University of Norway, in cooperation with the language communities.
+URL: 
+Version: @VERSION@
