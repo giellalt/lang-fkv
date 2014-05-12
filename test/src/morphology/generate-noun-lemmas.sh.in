@@ -64,15 +64,18 @@ for f in $fsttype; do
 	if [ -f "$generatorfile.$f" ]; then
 		let "transducer_found += 1"
 		sed 's/$/+N+Sg+Nom/' $lemmas | \
-				$lookuptool $generatorfile.$f > $generatedlemmas.$f.txt
-		fgrep '?' $generatedlemmas.$f.txt > $failedlemmas.$f.txt
+				$lookuptool $generatorfile.$f > $generatedlemmas.$f.tmp.txt
+		fgrep    '?' $generatedlemmas.$f.tmp.txt > $failedlemmas.$f.tmp.txt
+		fgrep -v '?' $generatedlemmas.$f.tmp.txt > $generatedlemmas.$f.txt
 		# Plural nouns:
 		cut -d'+' -f1 < $failedlemmas.$f.txt | sed 's/$/+N+Pl+Nom/' \
-				| $lookuptool $generatorfile.$f > $generatedlemmas.$f.txt
-		fgrep '?' $generatedlemmas.$f.txt > $failedlemmas.$f.txt
+				| $lookuptool $generatorfile.$f > $generatedlemmas.$f.tmp.txt
+		fgrep    '?' $generatedlemmas.$f.tmp.txt > $failedlemmas.$f.tmp.txt
+		fgrep -v '?' $generatedlemmas.$f.tmp.txt >> $generatedlemmas.$f.txt
 		# postprocessing:
-		if [ $(wc -l $failedlemmas.$f.txt | tr -s ' ' | sed 's/^ //' \
-				| cut -d' ' -f1) -gt 0 ]; then
+		tr -s ' ' < $failedlemmas.$f.tmp.txt | sed 's/^ //' \
+				| cut -d' ' -f1 > $failedlemmas.$f.txt
+		if [ -s $failedlemmas.$f.txt ]; then
 			# Only open the failed lemmas in see if @SEE@ is defined:
 			if [ "$EXTEDITOR" ]; then
 				$EXTEDITOR $failedlemmas.$f.txt
@@ -95,5 +98,5 @@ fi
 
 if [ $transducer_found -eq 0 ]; then
     echo ERROR: No transducer found
-    exit 1
+    exit 77
 fi
