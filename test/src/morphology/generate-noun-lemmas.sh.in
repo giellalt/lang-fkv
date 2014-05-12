@@ -66,6 +66,11 @@ for f in $fsttype; do
 		sed 's/$/+N+Sg+Nom/' $lemmas | \
 				$lookuptool $generatorfile.$f > $generatedlemmas.$f.txt
 		fgrep '?' $generatedlemmas.$f.txt > $failedlemmas.$f.txt
+		# Plural nouns:
+		cut -d'+' -f1 < $failedlemmas.$f.txt | sed 's/$/+N+Pl+Nom/' \
+				| $lookuptool $generatorfile.$f > $generatedlemmas.$f.txt
+		fgrep '?' $generatedlemmas.$f.txt > $failedlemmas.$f.txt
+		# postprocessing:
 		if [ $(wc -l $failedlemmas.$f.txt | tr -s ' ' | sed 's/^ //' \
 				| cut -d' ' -f1) -gt 0 ]; then
 			# Only open the failed lemmas in see if @SEE@ is defined:
