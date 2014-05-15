@@ -65,8 +65,11 @@ LEXICON a_31si	!!= @CODE@ uusi
 +A+Pl:%^EDEL a_consgenpl ;
 +A+Pl+Com:%>i2ne K ;
 
-LEXICON a_32
+LEXICON a_32 !!= @CODE@ tyven
 +A: x_32 ;
+
+LEXICON a_32m !!= @CODE@ vasen
++A: x_32m ;
 
 LEXICON a_33s !!= @CODE@ rakas
 +A: x_33s ;
