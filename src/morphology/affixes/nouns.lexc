@@ -283,8 +283,11 @@ LEXICON x_32
 +Pl:%^HMETAh%>i2i shortestillpl;
 +Pl+Com:%>i2ne K ;
 
-
 LEXICON n_32m !!= @CODE@ elläin elläi
++N: x_32m ;
+
+
+LEXICON x_32m !!= @CODE@ 
 +N+Sg+Nom:%^WGn K ;
 +N+Sg+Nom:%^WGn R ;
 +N:me weak-v-stem ;
