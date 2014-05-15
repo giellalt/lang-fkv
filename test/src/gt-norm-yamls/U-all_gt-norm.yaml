@@ -1,0 +1,1710 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - aikkoot - ok : # Verb 'to bring' - ok
+     aikkoot+V+Inf: aikkoot
+     aikkoot+V+Act+Ind+Prs+Sg1: aijon
+     aikkoot+V+Act+Ind+Prs+Sg2: aijot
+     aikkoot+V+Act+Ind+Prs+Sg3: aikkoo
+     aikkoot+V+Act+Ind+Prs+Pl1: aijoma
+     aikkoot+V+Act+Ind+Prs+Pl2: aijotta
+     aikkoot+V+Act+Ind+Prs+Pl3: aijothaan
+     aikkoot+V+Act+Ind+Prt+Sg1: aijoin
+     aikkoot+V+Act+Ind+Prt+Sg2: aijoit
+     aikkoot+V+Act+Ind+Prt+Sg3: aikoi
+     aikkoot+V+Act+Ind+Prt+Pl1: aijoima
+     aikkoot+V+Act+Ind+Prt+Pl2: aijoitta
+     aikkoot+V+Act+Ind+Prt+Pl3: aijothiin
+     aikkoot+V+Act+PrfPrc+Sg+Nom: aikonu
+     aikkoot+V+Pass+PrfPrc+Nom: aijottu
+     aikkoot+V+Act+PrfPrc+Pl+Nom: aikonheet
+     aikkoot+V+Act+PrsPrc+Sg+Nom: aikkoova
+     aikkoot+V+Act+PrsPrc+Pl+Nom: aikkoovat
+     aikkoot+V+Pass+PrsPrc+Sg+Nom: aijottava
+     aikkoot+V+Pass+PrsPrc+Pl+Nom: aijottavat
+  
+     aikkoot+V+Act+Cond+Sg1: aikoisin
+     aikkoot+V+Act+Cond+Sg2: aikoisit
+     aikkoot+V+Act+Cond+Sg3: aikois
+     aikkoot+V+Act+Cond+Pl1: aikoisimma
+     aikkoot+V+Act+Cond+Pl2: aikoisitta
+     aikkoot+V+Act+Cond+Pl3: aijottais
+     aikkoot+V+Pass+Cond: aijottais
+  
+     aikkoot+V+Act+Imprt+Sg2: aijo
+     aikkoot+V+Act+Imprt+Pl2: aikokkaa
+     
+     aikkoot+V+Act+Inf3+Ine: aikomassa
+     aikkoot+V+Act+Inf3+Ela: aikomasta
+     aikkoot+V+Act+Inf3+Ill: aikomhaan
+     aikkoot+V+Act+Inf3+Ade: aikomalla
+     aikkoot+V+Act+Inf3+Abe: aikomatta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - ajatella - ok : # Verb 'to bring' - ok
+     ajatella+V+Inf: ajatella
+     ajatella+V+Act+Ind+Prs+Sg1: ajattelen
+     ajatella+V+Act+Ind+Prs+Sg2: ajattelet
+     ajatella+V+Act+Ind+Prs+Sg3: ajattellee
+     ajatella+V+Act+Ind+Prs+Pl1: ajattelema
+     ajatella+V+Act+Ind+Prs+Pl2: ajatteletta
+     ajatella+V+Act+Ind+Prs+Pl3: ajatelhaan
+     ajatella+V+Act+Ind+Prt+Sg1: ajattelin
+     ajatella+V+Act+Ind+Prt+Sg2: ajattelit
+     ajatella+V+Act+Ind+Prt+Sg3: ajatteli
+     ajatella+V+Act+Ind+Prt+Pl1: ajattelima
+     ajatella+V+Act+Ind+Prt+Pl2: ajattelitta
+     ajatella+V+Act+Ind+Prt+Pl3: ajatelthiin
+     ajatella+V+Act+PrfPrc+Sg+Nom: ajatellu
+     ajatella+V+Pass+PrfPrc+Nom: ajateltu
+     ajatella+V+Act+PrfPrc+Pl+Nom: ajatelheet
+     ajatella+V+Act+PrsPrc+Sg+Nom: ajattelleeva
+     ajatella+V+Act+PrsPrc+Pl+Nom: ajattelleevat
+     ajatella+V+Pass+PrsPrc+Sg+Nom: ajateltava
+     ajatella+V+Pass+PrsPrc+Pl+Nom: ajateltavat
+
+     ajatella+V+Act+Cond+Sg1: ajattelisin
+     ajatella+V+Act+Cond+Sg2: ajattelisit
+     ajatella+V+Act+Cond+Sg3: ajattelis
+     ajatella+V+Act+Cond+Pl1: ajattelisimma
+     ajatella+V+Act+Cond+Pl2: ajattelisitta
+     ajatella+V+Act+Cond+Pl3: ajateltais
+     ajatella+V+Pass+Cond: ajateltais
+
+     ajatella+V+Act+Imprt+Sg2: ajattele
+     ajatella+V+Act+Imprt+Pl2: ajatelkkaa
+     
+     ajatella+V+Act+Inf3+Ine: ajattelemassa
+     ajatella+V+Act+Inf3+Ela: ajattelemasta
+     ajatella+V+Act+Inf3+Ill: ajattelemhaan
+     ajatella+V+Act+Inf3+Ade: ajattelemalla
+     ajatella+V+Act+Inf3+Abe: ajattelematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - anttaat - ok : # Verb 'to bring' - ok
+     anttaat+V+Inf: anttaat
+     anttaat+V+Act+Ind+Prs+Sg1: annan
+     anttaat+V+Act+Ind+Prs+Sg2: annat
+     anttaat+V+Act+Ind+Prs+Sg3: anttaa
+     anttaat+V+Act+Ind+Prs+Pl1: annama
+     anttaat+V+Act+Ind+Prs+Pl2: annatta
+     anttaat+V+Act+Ind+Prs+Pl3: annethaan
+     anttaat+V+Act+Ind+Prt+Sg1: annoin
+     anttaat+V+Act+Ind+Prt+Sg2: annoit
+     anttaat+V+Act+Ind+Prt+Sg3: antoi
+     anttaat+V+Act+Ind+Prt+Pl1: annoima
+     anttaat+V+Act+Ind+Prt+Pl2: annoitta
+     anttaat+V+Act+Ind+Prt+Pl3: annethiin
+     anttaat+V+Act+PrfPrc+Sg+Nom: antanu
+     anttaat+V+Pass+PrfPrc+Nom: annettu
+     anttaat+V+Act+PrfPrc+Pl+Nom: antanheet
+     anttaat+V+Act+PrsPrc+Sg+Nom: anttaava
+     anttaat+V+Act+PrsPrc+Pl+Nom: anttaavat
+     anttaat+V+Pass+PrsPrc+Sg+Nom: annettava
+     anttaat+V+Pass+PrsPrc+Pl+Nom: annettavat
+
+     anttaat+V+Act+Cond+Sg1: antaisin
+     anttaat+V+Act+Cond+Sg2: antaisit
+     anttaat+V+Act+Cond+Sg3: antais
+     anttaat+V+Act+Cond+Pl1: antaisimma
+     anttaat+V+Act+Cond+Pl2: antaisitta
+     anttaat+V+Act+Cond+Pl3: annettais
+     anttaat+V+Pass+Cond: annettais
+
+     anttaat+V+Act+Imprt+Sg2: anna
+     anttaat+V+Act+Imprt+Pl2: antakkaa
+     
+     anttaat+V+Act+Inf3+Ine: antamassa
+     anttaat+V+Act+Inf3+Ela: antamasta
+     anttaat+V+Act+Inf3+Ill: antamhaan
+     anttaat+V+Act+Inf3+Ade: antamalla
+     anttaat+V+Act+Inf3+Abe: antamatta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - aukaista - ok : # Verb 'to bring' - ok
+     aukaista+V+Inf: aukaista
+     aukaista+V+Act+Ind+Prs+Sg1: aukaisen
+     aukaista+V+Act+Ind+Prs+Sg2: aukaiset
+     aukaista+V+Act+Ind+Prs+Sg3: aukaissee
+     aukaista+V+Act+Ind+Prs+Pl1: aukaisemma
+     aukaista+V+Act+Ind+Prs+Pl2: aukaisetta
+     aukaista+V+Act+Ind+Prs+Pl3: aukaisthaan
+     aukaista+V+Act+Ind+Prt+Sg1: aukaisin
+     aukaista+V+Act+Ind+Prt+Sg2: aukaisit
+     aukaista+V+Act+Ind+Prt+Sg3: aukaisi
+     aukaista+V+Act+Ind+Prt+Pl1: aukaisimma
+     aukaista+V+Act+Ind+Prt+Pl2: aukaisitta
+     aukaista+V+Act+Ind+Prt+Pl3: aukaisthiin
+     aukaista+V+Act+PrfPrc+Sg+Nom: aukaissu
+     aukaista+V+Pass+PrfPrc+Nom: aukaistu
+     aukaista+V+Act+PrfPrc+Pl+Nom: aukaisheet
+     aukaista+V+Act+PrsPrc+Sg+Nom: aukaisseeva
+     aukaista+V+Act+PrsPrc+Pl+Nom: aukaisseevat
+     aukaista+V+Pass+PrsPrc+Sg+Nom: aukaistava
+     aukaista+V+Pass+PrsPrc+Pl+Nom: aukaistavat
+     
+     aukaista+V+Act+Cond+Sg1: aukaisisin
+     aukaista+V+Act+Cond+Sg2: aukaisisit
+     aukaista+V+Act+Cond+Sg3: aukaisis
+     aukaista+V+Act+Cond+Pl1: aukaisisima
+     aukaista+V+Act+Cond+Pl2: aukaisisitta
+     aukaista+V+Act+Cond+Pl3: aukaistais
+     aukaista+V+Pass+Cond: aukaistais
+     
+     aukaista+V+Act+Imprt+Sg2: aukaise
+     aukaista+V+Act+Imprt+Pl2: aukaiskaa
+     
+     aukaista+V+Act+Inf3+Ine: aukaisemassa
+     aukaista+V+Act+Inf3+Ela: aukaisemasta
+     aukaista+V+Act+Inf3+Ill: aukaisemhaan
+     aukaista+V+Act+Inf3+Ade: aukaisemala
+     aukaista+V+Act+Inf3+Abe: aukaisematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - hantteerata - ok : # Verb 'to bring' - ei tsekattu
+     hantteerata+V+Inf: hantteerata
+     hantteerata+V+Act+Ind+Prs+Sg1: hantteeraan
+     hantteerata+V+Act+Ind+Prs+Sg2: hantteeraat
+     hantteerata+V+Act+Ind+Prs+Sg3: hantteeraa
+     hantteerata+V+Act+Ind+Prs+Pl1: hantteeraamma
+     hantteerata+V+Act+Ind+Prs+Pl2: hantteeraatta
+     hantteerata+V+Act+Ind+Prs+Pl3: hantteerathaan
+     hantteerata+V+Act+Ind+Prt+Sg1: hantteerasin
+     hantteerata+V+Act+Ind+Prt+Sg2: hantteerasit
+     hantteerata+V+Act+Ind+Prt+Sg3: hantteeras
+     hantteerata+V+Act+Ind+Prt+Pl1: hantteerasima
+     hantteerata+V+Act+Ind+Prt+Pl2: hantteerasitta
+     hantteerata+V+Act+Ind+Prt+Pl3: hantteerathiin
+     hantteerata+V+Act+PrfPrc+Sg+Nom: hantteerannu
+     hantteerata+V+Pass+PrfPrc+Nom: hantteerattu
+     hantteerata+V+Act+PrfPrc+Pl+Nom: hantteeranheet
+     hantteerata+V+Act+PrsPrc+Sg+Nom: hantteeraava
+     hantteerata+V+Act+PrsPrc+Pl+Nom: hantteeraavat
+     hantteerata+V+Pass+PrsPrc+Sg+Nom: hantteerattava
+     hantteerata+V+Pass+PrsPrc+Pl+Nom: hantteerattavat
+
+     hantteerata+V+Act+Cond+Sg1: hantteeraisin
+     hantteerata+V+Act+Cond+Sg2: hantteeraisit
+     hantteerata+V+Act+Cond+Sg3: hantteerais
+     hantteerata+V+Act+Cond+Pl1: hantteeraisima
+     hantteerata+V+Act+Cond+Pl2: hantteeraisitta
+     hantteerata+V+Act+Cond+Pl3: hantteerattais
+     hantteerata+V+Pass+Cond: hantteerattais
+    
+     hantteerata+V+Act+Imprt+Sg2: hantteeraa
+     hantteerata+V+Act+Imprt+Pl2: hantteeraakkaa
+     
+     hantteerata+V+Act+Inf3+Ine: hantteeraamassa
+     hantteerata+V+Act+Inf3+Ela: hantteeraamasta
+     hantteerata+V+Act+Inf3+Ill: hantteeraamhaan
+     hantteerata+V+Act+Inf3+Ade: hantteeraamala
+     hantteerata+V+Act+Inf3+Abe: hantteeraamatta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - haravoita - ok : # Verb 'to bring' - ei tsekattu
+     haravoita+V+Inf: haravoita
+     haravoita+V+Act+Ind+Prs+Sg1: haravoitten
+     haravoita+V+Act+Ind+Prs+Sg2: haravoittet
+     haravoita+V+Act+Ind+Prs+Sg3: haravoittee
+     haravoita+V+Act+Ind+Prs+Pl1: haravoittema
+     haravoita+V+Act+Ind+Prs+Pl2: haravoittetta
+     haravoita+V+Act+Ind+Prs+Pl3: haravoithaan
+     haravoita+V+Act+Ind+Prt+Sg1: haravoittin
+     haravoita+V+Act+Ind+Prt+Sg2: haravoittit
+     haravoita+V+Act+Ind+Prt+Sg3: haravoitti
+     haravoita+V+Act+Ind+Prt+Pl1: haravoittima
+     haravoita+V+Act+Ind+Prt+Pl2: haravoittitta
+     haravoita+V+Act+Ind+Prt+Pl3: haravoithiin
+     haravoita+V+Act+PrfPrc+Sg+Nom: haravoinu
+     haravoita+V+Pass+PrfPrc+Nom: haravoittu
+     haravoita+V+Act+PrfPrc+Pl+Nom: haravoinheet
+     haravoita+V+Act+PrsPrc+Sg+Nom: haravoiva
+     haravoita+V+Act+PrsPrc+Pl+Nom: haravoivat
+     haravoita+V+Pass+PrsPrc+Sg+Nom: haravoittava
+     haravoita+V+Pass+PrsPrc+Pl+Nom: haravoittavat
+
+     haravoita+V+Act+Cond+Sg1: haravoittisin
+     haravoita+V+Act+Cond+Sg2: haravoittisit
+     haravoita+V+Act+Cond+Sg3: haravoittis
+     haravoita+V+Act+Cond+Pl1: haravoittisimma
+     haravoita+V+Act+Cond+Pl2: haravoittisitta
+     haravoita+V+Act+Cond+Pl3: haravoittais
+     haravoita+V+Pass+Cond: haravoittais
+
+     haravoita+V+Act+Imprt+Sg2: haravoitte
+     haravoita+V+Act+Imprt+Pl2: haravoikkaa
+     
+     haravoita+V+Act+Inf3+Ine: haravoittemassa
+     haravoita+V+Act+Inf3+Ela: haravoittemasta
+     haravoita+V+Act+Inf3+Ill: haravoittemhaan
+     haravoita+V+Act+Inf3+Ade: haravoittemalla
+     haravoita+V+Act+Inf3+Abe: haravoittematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - hävittäät - ok : # Verb 'to bring' - ok
+     hävittäät+V+Inf: hävittäät
+     hävittäät+V+Act+Ind+Prs+Sg1: hävitän
+     hävittäät+V+Act+Ind+Prs+Sg2: hävität
+     hävittäät+V+Act+Ind+Prs+Sg3: hävittää
+     hävittäät+V+Act+Ind+Prs+Pl1: hävitämmä
+     hävittäät+V+Act+Ind+Prs+Pl2: hävitättä
+     hävittäät+V+Act+Ind+Prs+Pl3: hävitethään
+     hävittäät+V+Act+Ind+Prt+Sg1: hävitin
+     hävittäät+V+Act+Ind+Prt+Sg2: hävitit
+     hävittäät+V+Act+Ind+Prt+Sg3: hävitti
+     hävittäät+V+Act+Ind+Prt+Pl1: hävitimmä
+     hävittäät+V+Act+Ind+Prt+Pl2: hävitittä
+     hävittäät+V+Act+Ind+Prt+Pl3: hävitethiin
+     hävittäät+V+Act+PrfPrc+Sg+Nom: hävittänny
+     hävittäät+V+Pass+PrfPrc+Nom: hävitetty
+     hävittäät+V+Act+PrfPrc+Pl+Nom: hävittänheet
+     hävittäät+V+Act+PrsPrc+Sg+Nom: hävittäävä
+     hävittäät+V+Act+PrsPrc+Pl+Nom: hävittäävät
+     hävittäät+V+Pass+PrsPrc+Sg+Nom: hävitettävä
+     hävittäät+V+Pass+PrsPrc+Pl+Nom: hävitettävät
+     
+     hävittäät+V+Act+Cond+Sg1: hävittäisin
+     hävittäät+V+Act+Cond+Sg2: hävittäisit
+     hävittäät+V+Act+Cond+Sg3: hävittäis
+     hävittäät+V+Act+Cond+Pl1: hävittäisimä
+     hävittäät+V+Act+Cond+Pl2: hävittäisittä
+     hävittäät+V+Act+Cond+Pl3: hävitettäis
+     hävittäät+V+Pass+Cond: hävitettäis
+
+     hävittäät+V+Act+Imprt+Sg2: hävitä
+     hävittäät+V+Act+Imprt+Pl2: hävittäkkää
+     
+     hävittäät+V+Act+Inf3+Ine: hävittämässä
+     hävittäät+V+Act+Inf3+Ela: hävittämästä
+     hävittäät+V+Act+Inf3+Ill: hävittämhään
+     hävittäät+V+Act+Inf3+Ade: hävittämälä
+     hävittäät+V+Act+Inf3+Abe: hävittämättä
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - jatkata - ok : # Verb 'to bring' - ok
+     jatkata+V+Inf: jatkata
+     jatkata+V+Act+Ind+Prs+Sg1: jatkaan
+     jatkata+V+Act+Ind+Prs+Sg2: jatkaat
+     jatkata+V+Act+Ind+Prs+Sg3: jatkaa
+     jatkata+V+Act+Ind+Prs+Pl1: jatkaama
+     jatkata+V+Act+Ind+Prs+Pl2: jatkaatta
+     jatkata+V+Act+Ind+Prs+Pl3: jatkathaan
+     jatkata+V+Act+Ind+Prt+Sg1: jatkasin
+     jatkata+V+Act+Ind+Prt+Sg2: jatkasit
+     jatkata+V+Act+Ind+Prt+Sg3: jatkas
+     jatkata+V+Act+Ind+Prt+Pl1: jatkasimma
+     jatkata+V+Act+Ind+Prt+Pl2: jatkasitta
+     jatkata+V+Act+Ind+Prt+Pl3: jatkathiin
+     jatkata+V+Act+PrfPrc+Sg+Nom: jatkanu
+     jatkata+V+Pass+PrfPrc+Nom: jatkattu
+     jatkata+V+Act+PrfPrc+Pl+Nom: jatkanheet
+     jatkata+V+Act+PrsPrc+Sg+Nom: jatkaava
+     jatkata+V+Act+PrsPrc+Pl+Nom: jatkaavat
+     jatkata+V+Pass+PrsPrc+Sg+Nom: jatkattava
+     jatkata+V+Pass+PrsPrc+Pl+Nom: jatkattavat
+
+     jatkata+V+Act+Cond+Sg1: jatkaisin
+     jatkata+V+Act+Cond+Sg2: jatkaisit
+     jatkata+V+Act+Cond+Sg3: jatkais
+     jatkata+V+Act+Cond+Pl1: jatkaisimma
+     jatkata+V+Act+Cond+Pl2: jatkaisitta
+     jatkata+V+Act+Cond+Pl3: jatkattais
+     jatkata+V+Pass+Cond: jatkattais
+    
+     jatkata+V+Act+Imprt+Sg2: jatkaa
+     jatkata+V+Act+Imprt+Pl2: jatkaakkaa
+     
+     jatkata+V+Act+Inf3+Ine: jatkaamassa
+     jatkata+V+Act+Inf3+Ela: jatkaamasta
+     jatkata+V+Act+Inf3+Ill: jatkaamhaan
+     jatkata+V+Act+Inf3+Ade: jatkaamalla
+     jatkata+V+Act+Inf3+Abe: jatkaamatta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - juosta - ok : # Verb 'to bring' - ok
+     juosta+V+Inf: juosta
+     juosta+V+Act+Ind+Prs+Sg1: juoksen
+     juosta+V+Act+Ind+Prs+Sg2: juokset
+     juosta+V+Act+Ind+Prs+Sg3: juoksee
+     juosta+V+Act+Ind+Prs+Pl1: juoksema
+     juosta+V+Act+Ind+Prs+Pl2: juoksetta
+     juosta+V+Act+Ind+Prs+Pl3: juosthaan
+     juosta+V+Act+Ind+Prt+Sg1: juoksin
+     juosta+V+Act+Ind+Prt+Sg2: juoksit
+     juosta+V+Act+Ind+Prt+Sg3: juoksi
+     juosta+V+Act+Ind+Prt+Pl1: juoksima
+     juosta+V+Act+Ind+Prt+Pl2: juoksitta
+     juosta+V+Act+Ind+Prt+Pl3: juosthiin
+     juosta+V+Act+PrfPrc+Sg+Nom: juossu
+     juosta+V+Pass+PrfPrc+Nom: juostu
+     juosta+V+Act+PrfPrc+Pl+Nom: juosheet
+     juosta+V+Act+PrsPrc+Sg+Nom: juokseeva
+     juosta+V+Act+PrsPrc+Pl+Nom: juokseevat
+     juosta+V+Pass+PrsPrc+Sg+Nom: juostava
+     juosta+V+Pass+PrsPrc+Pl+Nom: juostavat
+     
+     juosta+V+Act+Cond+Sg1: juoksisin
+     juosta+V+Act+Cond+Sg2: juoksisit
+     juosta+V+Act+Cond+Sg3: juoksis
+     juosta+V+Act+Cond+Pl1: juoksisimma
+     juosta+V+Act+Cond+Pl2: juoksisitta
+     juosta+V+Act+Cond+Pl3: juostais
+     juosta+V+Pass+Cond: juostais
+
+     juosta+V+Act+Imprt+Sg2: juokse
+     juosta+V+Act+Imprt+Pl2: juoskaa
+     
+     juosta+V+Act+Inf3+Ine: juoksemassa
+     juosta+V+Act+Inf3+Ela: juoksemasta
+     juosta+V+Act+Inf3+Ill: juoksemhaan
+     juosta+V+Act+Inf3+Ade: juoksemalla
+     juosta+V+Act+Inf3+Abe: juoksematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kađota - ok : # Verb 'to bring' - ok
+     kađota+V+Inf: kađota
+     kađota+V+Act+Ind+Prs+Sg1: kattoon
+     kađota+V+Act+Ind+Prs+Sg2: kattoot
+     kađota+V+Act+Ind+Prs+Sg3: kattoo
+     kađota+V+Act+Ind+Prs+Pl1: kattooma
+     kađota+V+Act+Ind+Prs+Pl2: kattootta
+     kađota+V+Act+Ind+Prs+Pl3: kađothaan
+     kađota+V+Act+Ind+Prt+Sg1: katosin
+     kađota+V+Act+Ind+Prt+Sg2: katosit
+     kađota+V+Act+Ind+Prt+Sg3: katos
+     kađota+V+Act+Ind+Prt+Pl1: katosimma
+     kađota+V+Act+Ind+Prt+Pl2: katositta
+     kađota+V+Act+Ind+Prt+Pl3: kađothiin
+     kađota+V+Act+PrfPrc+Sg+Nom: kađonu
+     kađota+V+Pass+PrfPrc+Nom: kađottu
+     kađota+V+Act+PrfPrc+Pl+Nom: kađonheet
+     kađota+V+Act+PrsPrc+Sg+Nom: kattoova
+     kađota+V+Act+PrsPrc+Pl+Nom: kattoovat
+     kađota+V+Pass+PrsPrc+Sg+Nom: kađottava
+     kađota+V+Pass+PrsPrc+Pl+Nom: kađottavat
+     
+     kađota+V+Act+Cond+Sg1: kattoisin
+     kađota+V+Act+Cond+Sg2: kattoisit
+     kađota+V+Act+Cond+Sg3: kattois
+     kađota+V+Act+Cond+Pl1: kattoisimma
+     kađota+V+Act+Cond+Pl2: kattoisitta
+     kađota+V+Act+Cond+Pl3: kađottais
+     kađota+V+Pass+Cond: kađottais
+     
+     kađota+V+Act+Imprt+Sg2: kattoo
+     kađota+V+Act+Imprt+Pl2: kattookkaa
+     
+     kađota+V+Act+Inf3+Ine: kattoomassa
+     kađota+V+Act+Inf3+Ela: kattoomasta
+     kađota+V+Act+Inf3+Ill: kattoomhaan
+     kađota+V+Act+Inf3+Ade: kattoomalla
+     kađota+V+Act+Inf3+Abe: kattoomatta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kattela - ok : # Verb 'to bring' - ok
+     kattela+V+Inf: kattela
+     kattela+V+Act+Ind+Prs+Sg1: kattelen
+     kattela+V+Act+Ind+Prs+Sg2: kattelet
+     kattela+V+Act+Ind+Prs+Sg3: kattelee
+     kattela+V+Act+Ind+Prs+Pl1: kattelemma
+     kattela+V+Act+Ind+Prs+Pl2: katteletta
+     kattela+V+Act+Ind+Prs+Pl3: kattelhaan
+     kattela+V+Act+Ind+Prt+Sg1: kattelin
+     kattela+V+Act+Ind+Prt+Sg2: kattelit
+     kattela+V+Act+Ind+Prt+Sg3: katteli
+     kattela+V+Act+Ind+Prt+Pl1: kattelimma
+     kattela+V+Act+Ind+Prt+Pl2: kattelitta
+     kattela+V+Act+Ind+Prt+Pl3: kattelthiin
+     kattela+V+Act+PrfPrc+Sg+Nom: kattelu
+     kattela+V+Pass+PrfPrc+Nom: katteltu
+     kattela+V+Act+PrfPrc+Pl+Nom: kattelheet
+     kattela+V+Act+PrsPrc+Sg+Nom: katteleeva
+     kattela+V+Act+PrsPrc+Pl+Nom: katteleevat
+     kattela+V+Pass+PrsPrc+Sg+Nom: katteltava
+     kattela+V+Pass+PrsPrc+Pl+Nom: katteltavat
+
+     kattela+V+Act+Cond+Sg1: kattelisin
+     kattela+V+Act+Cond+Sg2: kattelisit
+     kattela+V+Act+Cond+Sg3: kattelis
+     kattela+V+Act+Cond+Pl1: kattelisima
+     kattela+V+Act+Cond+Pl2: kattelisitta
+     kattela+V+Act+Cond+Pl3: katteltais
+     kattela+V+Pass+Cond: katteltais
+
+     kattela+V+Act+Imprt+Sg2: kattele
+     kattela+V+Act+Imprt+Pl2: kattelkkaa
+     
+     kattela+V+Act+Inf3+Ine: kattelemassa
+     kattela+V+Act+Inf3+Ela: kattelemasta
+     kattela+V+Act+Inf3+Ill: kattelemhaan
+     kattela+V+Act+Inf3+Ade: kattelemala
+     kattela+V+Act+Inf3+Abe: kattelematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kattoot - ok : # Verb 'to bring' - ok
+     kattoot+V+Inf: kattoot
+     kattoot+V+Act+Ind+Prs+Sg1: katton
+     kattoot+V+Act+Ind+Prs+Sg2: kattot
+     kattoot+V+Act+Ind+Prs+Sg3: kattoo
+     kattoot+V+Act+Ind+Prs+Pl1: kattoma
+     kattoot+V+Act+Ind+Prs+Pl2: kattotta
+     kattoot+V+Act+Ind+Prs+Pl3: kattothaan
+     kattoot+V+Act+Ind+Prt+Sg1: kattoin
+     kattoot+V+Act+Ind+Prt+Sg2: kattoit
+     kattoot+V+Act+Ind+Prt+Sg3: kattoi
+     kattoot+V+Act+Ind+Prt+Pl1: kattoima
+     kattoot+V+Act+Ind+Prt+Pl2: kattoitta
+     kattoot+V+Act+Ind+Prt+Pl3: kattothiin
+     kattoot+V+Act+PrfPrc+Sg+Nom: kattonu
+     kattoot+V+Pass+PrfPrc+Nom: kattottu
+     kattoot+V+Act+PrfPrc+Pl+Nom: kattonheet
+     kattoot+V+Act+PrsPrc+Sg+Nom: kattoova
+     kattoot+V+Act+PrsPrc+Pl+Nom: kattoovat
+     kattoot+V+Pass+PrsPrc+Sg+Nom: kattottava
+     kattoot+V+Pass+PrsPrc+Pl+Nom: kattottavat
+
+     kattoot+V+Act+Cond+Sg1: kattoisin
+     kattoot+V+Act+Cond+Sg2: kattoisit
+     kattoot+V+Act+Cond+Sg3: kattois
+     kattoot+V+Act+Cond+Pl1: kattoisimma
+     kattoot+V+Act+Cond+Pl2: kattoisitta
+     kattoot+V+Act+Cond+Pl3: kattottais
+     kattoot+V+Pass+Cond: kattottais
+
+     kattoot+V+Act+Imprt+Sg2: katto
+     kattoot+V+Act+Imprt+Pl2: kattokkaa
+     
+     kattoot+V+Act+Inf3+Ine: kattomassa
+     kattoot+V+Act+Inf3+Ela: kattomasta
+     kattoot+V+Act+Inf3+Ill: kattomhaan
+     kattoot+V+Act+Inf3+Ade: kattomalla
+     kattoot+V+Act+Inf3+Abe: kattomatta
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kävelä - ok : # Verb 'to bring' - ok
+     kävelä+V+Inf: kävelä
+     kävelä+V+Act+Ind+Prs+Sg1: kävelen
+     kävelä+V+Act+Ind+Prs+Sg2: kävelet
+     kävelä+V+Act+Ind+Prs+Sg3: kävelee
+     kävelä+V+Act+Ind+Prs+Pl1: kävelemmä
+     kävelä+V+Act+Ind+Prs+Pl2: kävelettä
+     kävelä+V+Act+Ind+Prs+Pl3: kävelhään
+     kävelä+V+Act+Ind+Prt+Sg1: kävelin
+     kävelä+V+Act+Ind+Prt+Sg2: kävelit
+     kävelä+V+Act+Ind+Prt+Sg3: käveli
+     kävelä+V+Act+Ind+Prt+Pl1: kävelimmä
+     kävelä+V+Act+Ind+Prt+Pl2: kävelittä
+     kävelä+V+Act+Ind+Prt+Pl3: kävelthiin
+     kävelä+V+Act+PrfPrc+Sg+Nom: kävely
+     kävelä+V+Pass+PrfPrc+Nom: kävelty
+     kävelä+V+Act+PrfPrc+Pl+Nom: kävelheet
+     kävelä+V+Act+PrsPrc+Sg+Nom: käveleevä
+     kävelä+V+Act+PrsPrc+Pl+Nom: käveleevät
+     kävelä+V+Pass+PrsPrc+Sg+Nom: käveltävä
+     kävelä+V+Pass+PrsPrc+Pl+Nom: käveltävät
+     
+     kävelä+V+Act+Cond+Sg1: kävelisin
+     kävelä+V+Act+Cond+Sg2: kävelisit
+     kävelä+V+Act+Cond+Sg3: kävelis
+     kävelä+V+Act+Cond+Pl1: kävelisimä
+     kävelä+V+Act+Cond+Pl2: kävelisittä
+     kävelä+V+Act+Cond+Pl3: käveltäis
+     kävelä+V+Pass+Cond: käveltäis
+
+     kävelä+V+Act+Imprt+Sg2: kävele
+     kävelä+V+Act+Imprt+Pl2: kävelkkää
+     
+     kävelä+V+Act+Inf3+Ine: kävelemässä
+     kävelä+V+Act+Inf3+Ela: kävelemästä
+     kävelä+V+Act+Inf3+Ill: kävelemhään
+     kävelä+V+Act+Inf3+Ade: kävelemälä
+     kävelä+V+Act+Inf3+Abe: kävelemättä
+
+
+# todo:
+# Proofreäd the gold ständärd (below)
+# Then: run änälyser, then correct. 
+
+
+  Verb - keritä - ok : # Verb 'to bring' - ei tsekattu
+     keritä+V+Inf: keritä
+     keritä+V+Act+Ind+Prs+Sg1: kerkkiin
+     keritä+V+Act+Ind+Prs+Sg2: kerkkiit
+     keritä+V+Act+Ind+Prs+Sg3: kerkkii
+     keritä+V+Act+Ind+Prs+Pl1: kerkkiimä
+     keritä+V+Act+Ind+Prs+Pl2: kerkkiittä
+     keritä+V+Act+Ind+Prs+Pl3: kerithään
+     keritä+V+Act+Ind+Prt+Sg1: kerkisin
+     keritä+V+Act+Ind+Prt+Sg2: kerkisit
+     keritä+V+Act+Ind+Prt+Sg3: kerkis
+     keritä+V+Act+Ind+Prt+Pl1: kerkisimmä
+     keritä+V+Act+Ind+Prt+Pl2: kerkisittä
+     keritä+V+Act+Ind+Prt+Pl3: kerithiin
+     keritä+V+Act+PrfPrc+Sg+Nom: keriny
+     keritä+V+Pass+PrfPrc+Nom: keritty
+     keritä+V+Act+PrfPrc+Pl+Nom: kerinheet
+     keritä+V+Act+PrsPrc+Sg+Nom: kerkkiivä
+     keritä+V+Act+PrsPrc+Pl+Nom: kerkkiivät
+     keritä+V+Pass+PrsPrc+Sg+Nom: kerittävä
+     keritä+V+Pass+PrsPrc+Pl+Nom: kerittävät
+
+     keritä+V+Act+Cond+Sg1: kerkkiisin
+     keritä+V+Act+Cond+Sg2: kerkkiisit
+     keritä+V+Act+Cond+Sg3: kerkkiis
+     keritä+V+Act+Cond+Pl1: kerkkiisimmä
+     keritä+V+Act+Cond+Pl2: kerkkiisittä
+     keritä+V+Act+Cond+Pl3: kerittäis
+     keritä+V+Pass+Cond: kerittäis
+    
+     keritä+V+Act+Imprt+Sg2: kerkkii
+     keritä+V+Act+Imprt+Pl2: kerkkiikkää
+     
+     keritä+V+Act+Inf3+Ine: kerkkiimässä
+     keritä+V+Act+Inf3+Ela: kerkkiimästä
+     keritä+V+Act+Inf3+Ill: kerkkiimhään
+     keritä+V+Act+Inf3+Ade: kerkkiimällä
+     keritä+V+Act+Inf3+Abe: kerkkiimättä
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kirjoittaat - ok : # Verb 'to bring' - ok
+     kirjoittaat+V+Inf: kirjoittaat
+     kirjoittaat+V+Act+Ind+Prs+Sg1: kirjoitan
+     kirjoittaat+V+Act+Ind+Prs+Sg2: kirjoitat
+     kirjoittaat+V+Act+Ind+Prs+Sg3: kirjoittaa
+     kirjoittaat+V+Act+Ind+Prs+Pl1: kirjoitamma
+     kirjoittaat+V+Act+Ind+Prs+Pl2: kirjoitatta
+     kirjoittaat+V+Act+Ind+Prs+Pl3: kirjoitethaan
+     kirjoittaat+V+Act+Ind+Prt+Sg1: kirjoitin
+     kirjoittaat+V+Act+Ind+Prt+Sg2: kirjoitit
+     kirjoittaat+V+Act+Ind+Prt+Sg3: kirjoitti
+     kirjoittaat+V+Act+Ind+Prt+Pl1: kirjoitimma
+     kirjoittaat+V+Act+Ind+Prt+Pl2: kirjoititta
+     kirjoittaat+V+Act+Ind+Prt+Pl3: kirjoitethiin
+     kirjoittaat+V+Act+PrfPrc+Sg+Nom: kirjoittannu
+     kirjoittaat+V+Pass+PrfPrc+Nom: kirjoitettu
+     kirjoittaat+V+Act+PrfPrc+Pl+Nom: kirjoittanheet
+     kirjoittaat+V+Act+PrsPrc+Sg+Nom: kirjoittaava
+     kirjoittaat+V+Act+PrsPrc+Pl+Nom: kirjoittaavat
+     kirjoittaat+V+Pass+PrsPrc+Sg+Nom: kirjoitettava
+     kirjoittaat+V+Pass+PrsPrc+Pl+Nom: kirjoitettavat
+     
+     kirjoittaat+V+Act+Cond+Sg1: kirjoittaisin
+     kirjoittaat+V+Act+Cond+Sg2: kirjoittaisit
+     kirjoittaat+V+Act+Cond+Sg3: kirjoittais
+     kirjoittaat+V+Act+Cond+Pl1: kirjoittaisima
+     kirjoittaat+V+Act+Cond+Pl2: kirjoittaisitta
+     kirjoittaat+V+Act+Cond+Pl3: kirjoitettais
+     kirjoittaat+V+Pass+Cond: kirjoitettais
+  
+     kirjoittaat+V+Act+Imprt+Sg2: kirjoita
+     kirjoittaat+V+Act+Imprt+Pl2: kirjoittakkaa
+     
+     kirjoittaat+V+Act+Inf3+Ine: kirjoittamassa
+     kirjoittaat+V+Act+Inf3+Ela: kirjoittamasta
+     kirjoittaat+V+Act+Inf3+Ill: kirjoittamhaan
+     kirjoittaat+V+Act+Inf3+Ade: kirjoittamala
+     kirjoittaat+V+Act+Inf3+Abe: kirjoittamatta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Verb - kulkkeet ok: # Verb 'to bring' - ok
+     kulkkeet+V+Inf: kulkkeet
+     kulkkeet+V+Act+Ind+Prs+Sg1: kuljen
+     kulkkeet+V+Act+Ind+Prs+Sg2: kuljet
+     kulkkeet+V+Act+Ind+Prs+Sg3: kulkkee
+     kulkkeet+V+Act+Ind+Prs+Pl1: kuljema
+     kulkkeet+V+Act+Ind+Prs+Pl2: kuljetta
+     kulkkeet+V+Act+Ind+Prs+Pl3: kuljethaan
+     kulkkeet+V+Act+Ind+Prt+Sg1: kuljin
+     kulkkeet+V+Act+Ind+Prt+Sg2: kuljit
+     kulkkeet+V+Act+Ind+Prt+Sg3: kulki
+     kulkkeet+V+Act+Ind+Prt+Pl1: kuljima
+     kulkkeet+V+Act+Ind+Prt+Pl2: kuljitta
+     kulkkeet+V+Act+Ind+Prt+Pl3: kuljethiin
+     kulkkeet+V+Act+PrfPrc+Sg+Nom: kulkenu
+     kulkkeet+V+Pass+PrfPrc+Nom: kuljettu
+     kulkkeet+V+Act+PrfPrc+Pl+Nom: kulkenheet
+     kulkkeet+V+Act+PrsPrc+Sg+Nom: kulkkeeva
+     kulkkeet+V+Act+PrsPrc+Pl+Nom: kulkkeevat
+     kulkkeet+V+Pass+PrsPrc+Sg+Nom: kuljettava
+     kulkkeet+V+Pass+PrsPrc+Pl+Nom: kuljettavat
+
+     kulkkeet+V+Act+Cond+Sg1: kulkisin
+     kulkkeet+V+Act+Cond+Sg2: kulkisit
+     kulkkeet+V+Act+Cond+Sg3: kulkis
+     kulkkeet+V+Act+Cond+Pl1: kulkisimma
+     kulkkeet+V+Act+Cond+Pl2: kulkisitta
+     kulkkeet+V+Act+Cond+Pl3: kuljettais
+     kulkkeet+V+Pass+Cond: kuljettais
+
+     kulkkeet+V+Act+Imprt+Sg2: kulje
+     kulkkeet+V+Act+Imprt+Pl2: kulkekkaa
+     
+     kulkkeet+V+Act+Inf3+Ine: kulkemassa
+     kulkkeet+V+Act+Inf3+Ela: kulkemasta
+     kulkkeet+V+Act+Inf3+Ill: kulkemhaan
+     kulkkeet+V+Act+Inf3+Ade: kulkemalla
+     kulkkeet+V+Act+Inf3+Abe: kulkematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+  Verb - kyetä - ei tsekattu : # Verb 'to bring' - ei tsekattu
+     kyetä+V+Inf: kyetä
+     kyetä+V+Act+Ind+Prs+Sg1: kykenen
+     kyetä+V+Act+Ind+Prs+Sg2: kykenet
+     kyetä+V+Act+Ind+Prs+Sg3: kykenee
+     kyetä+V+Act+Ind+Prs+Pl1: kykenemmä
+     kyetä+V+Act+Ind+Prs+Pl2: kykenettä
+     kyetä+V+Act+Ind+Prs+Pl3: kyethään
+     kyetä+V+Act+Ind+Prt+Sg1: kykenin
+     kyetä+V+Act+Ind+Prt+Sg2: kykenit
+     kyetä+V+Act+Ind+Prt+Sg3: kykeni
+     kyetä+V+Act+Ind+Prt+Pl1: kykenimmä
+     kyetä+V+Act+Ind+Prt+Pl2: kykenittä
+     kyetä+V+Act+Ind+Prt+Pl3: kyethiin
+     kyetä+V+Act+PrfPrc+Sg+Nom: kyeny
+     kyetä+V+Pass+PrfPrc+Nom: kyetty
+     kyetä+V+Act+PrfPrc+Pl+Nom: kyenheet
+     kyetä+V+Act+PrsPrc+Sg+Nom: kykeneevä
+     kyetä+V+Act+PrsPrc+Pl+Nom: kykeneevät
+     kyetä+V+Pass+PrsPrc+Sg+Nom: kyettävä
+     kyetä+V+Pass+PrsPrc+Pl+Nom: kyettävät
+     
+     kyetä+V+Act+Cond+Sg1: kykenisin
+     kyetä+V+Act+Cond+Sg2: kykenisit
+     kyetä+V+Act+Cond+Sg3: kykenis
+     kyetä+V+Act+Cond+Pl1: kykenisimä
+     kyetä+V+Act+Cond+Pl2: kykenisittä
+     kyetä+V+Act+Cond+Pl3: kyettäis
+     kyetä+V+Pass+Cond: kyettäis
+    
+     kyetä+V+Act+Imprt+Sg2: kykene
+     kyetä+V+Act+Imprt+Pl2: kyekkää
+     
+     kyetä+V+Act+Inf3+Ine: kykenemässä
+     kyetä+V+Act+Inf3+Ela: kykenemästä
+     kyetä+V+Act+Inf3+Ill: kykenemhään
+     kyetä+V+Act+Inf3+Ade: kykenemälä
+     kyetä+V+Act+Inf3+Abe: kykenemättä
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - kyytitä - ok : # Verb 'to bring' - ok
+     kyytitä+V+Inf: kyytitä
+     kyytitä+V+Act+Ind+Prs+Sg1: kyytitten
+     kyytitä+V+Act+Ind+Prs+Sg2: kyytittet
+     kyytitä+V+Act+Ind+Prs+Sg3: kyytittee
+     kyytitä+V+Act+Ind+Prs+Pl1: kyytittemmä
+     kyytitä+V+Act+Ind+Prs+Pl2: kyytittettä
+     kyytitä+V+Act+Ind+Prs+Pl3: kyytithään
+     kyytitä+V+Act+Ind+Prt+Sg1: kyytittin
+     kyytitä+V+Act+Ind+Prt+Sg2: kyytittit
+     kyytitä+V+Act+Ind+Prt+Sg3: kyytitti
+     kyytitä+V+Act+Ind+Prt+Pl1: kyytittimmä
+     kyytitä+V+Act+Ind+Prt+Pl2: kyytittittä
+     kyytitä+V+Act+Ind+Prt+Pl3: kyytithiin
+     kyytitä+V+Act+PrfPrc+Sg+Nom: kyytiny
+     kyytitä+V+Pass+PrfPrc+Nom: kyytitty
+     kyytitä+V+Act+PrfPrc+Pl+Nom: kyytinheet
+     kyytitä+V+Act+PrsPrc+Sg+Nom: kyytitteevä
+     kyytitä+V+Act+PrsPrc+Pl+Nom: kyytitteevät
+     kyytitä+V+Pass+PrsPrc+Sg+Nom: kyytittävä
+     kyytitä+V+Pass+PrsPrc+Pl+Nom: kyytittävät
+
+     kyytitä+V+Act+Cond+Sg1: kyytittisin
+     kyytitä+V+Act+Cond+Sg2: kyytittisit
+     kyytitä+V+Act+Cond+Sg3: kyytittis
+     kyytitä+V+Act+Cond+Pl1: kyytittisimä
+     kyytitä+V+Act+Cond+Pl2: kyytittisittä
+     kyytitä+V+Act+Cond+Pl3: kyytittäis
+     kyytitä+V+Pass+Cond: kyytittäis
+
+     kyytitä+V+Act+Imprt+Sg2: kyytitte
+     kyytitä+V+Act+Imprt+Pl2: kyytikkää
+     
+     kyytitä+V+Act+Inf3+Ine: kyytittemässä
+     kyytitä+V+Act+Inf3+Ela: kyytittemästä
+     kyytitä+V+Act+Inf3+Ill: kyytittemhään
+     kyytitä+V+Act+Inf3+Ade: kyytittemälä
+     kyytitä+V+Act+Inf3+Abe: kyytittemättä
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - lähteet - ok : # Verb 'to bring' - ok
+     lähteet+V+Inf: lähteet
+     lähteet+V+Act+Ind+Prs+Sg1: lähđen
+     lähteet+V+Act+Ind+Prs+Sg2: lähđet
+     lähteet+V+Act+Ind+Prs+Sg3: lähtee
+     lähteet+V+Act+Ind+Prs+Pl1: lähđemä
+     lähteet+V+Act+Ind+Prs+Pl2: lähđettä
+     lähteet+V+Act+Ind+Prs+Pl3: lähđethään
+     lähteet+V+Act+Ind+Prt+Sg1: lähđin
+     lähteet+V+Act+Ind+Prt+Sg2: lähđit
+     lähteet+V+Act+Ind+Prt+Sg3: lähti
+     lähteet+V+Act+Ind+Prt+Pl1: lähđimä
+     lähteet+V+Act+Ind+Prt+Pl2: lähđittä
+     lähteet+V+Act+Ind+Prt+Pl3: lähđethiin
+     lähteet+V+Act+PrfPrc+Sg+Nom: lähteny
+     lähteet+V+Pass+PrfPrc+Nom: lähđetty
+     lähteet+V+Act+PrfPrc+Pl+Nom: lähtenheet
+     lähteet+V+Act+PrsPrc+Sg+Nom: lähteevä
+     lähteet+V+Act+PrsPrc+Pl+Nom: lähteevät
+     lähteet+V+Pass+PrsPrc+Sg+Nom: lähđettävä
+     lähteet+V+Pass+PrsPrc+Pl+Nom: lähđettävät
+
+     lähteet+V+Act+Cond+Sg1: lähtisin
+     lähteet+V+Act+Cond+Sg2: lähtisit
+     lähteet+V+Act+Cond+Sg3: lähtis
+     lähteet+V+Act+Cond+Pl1: lähtisimmä
+     lähteet+V+Act+Cond+Pl2: lähtisittä
+     lähteet+V+Act+Cond+Pl3: lähđettäis
+     lähteet+V+Pass+Cond: lähđettäis
+
+     lähteet+V+Act+Imprt+Sg2: lähđe
+     lähteet+V+Act+Imprt+Pl2: lähtekkää
+     
+     lähteet+V+Act+Inf3+Ine: lähtemässä
+     lähteet+V+Act+Inf3+Ela: lähtemästä
+     lähteet+V+Act+Inf3+Ill: lähtemhään
+     lähteet+V+Act+Inf3+Ade: lähtemällä
+     lähteet+V+Act+Inf3+Abe: lähtemättä
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+  Verb - laueta - ei tsekattu : # Verb 'to bring' - ei tsekattu
+     laueta+V+Inf: laueta
+     laueta+V+Act+Ind+Prs+Sg1: laukkeen
+     laueta+V+Act+Ind+Prs+Sg2: laukkeet
+     laueta+V+Act+Ind+Prs+Sg3: laukkee
+     laueta+V+Act+Ind+Prs+Pl1: laukkeema
+     laueta+V+Act+Ind+Prs+Pl2: laukkeetta
+     laueta+V+Act+Ind+Prs+Pl3: lauethaan
+     laueta+V+Act+Ind+Prt+Sg1: laukesin
+     laueta+V+Act+Ind+Prt+Sg2: laukesit
+     laueta+V+Act+Ind+Prt+Sg3: laukes
+     laueta+V+Act+Ind+Prt+Pl1: laukesimma
+     laueta+V+Act+Ind+Prt+Pl2: laukesitta
+     laueta+V+Act+Ind+Prt+Pl3: lauethiin
+     laueta+V+Act+PrfPrc+Sg+Nom: lauenu
+     laueta+V+Pass+PrfPrc+Nom: lauettu
+     laueta+V+Act+PrfPrc+Pl+Nom: lauenheet
+     laueta+V+Act+PrsPrc+Sg+Nom: laukkeeva
+     laueta+V+Act+PrsPrc+Pl+Nom: laukkeevat
+     laueta+V+Pass+PrsPrc+Sg+Nom: lauettava
+     laueta+V+Pass+PrsPrc+Pl+Nom: lauettavat
+     
+     laueta+V+Act+Cond+Sg1: laukkeisin
+     laueta+V+Act+Cond+Sg2: laukkeisit
+     laueta+V+Act+Cond+Sg3: laukkeis
+     laueta+V+Act+Cond+Pl1: laukkeisimma
+     laueta+V+Act+Cond+Pl2: laukkeisitta
+     laueta+V+Act+Cond+Pl3: lauettais
+     laueta+V+Pass+Cond: lauettais
+    
+     laueta+V+Act+Imprt+Sg2: laukkee
+     laueta+V+Act+Imprt+Pl2: lauekkaa
+     
+     laueta+V+Act+Inf3+Ine: laukkeemassa
+     laueta+V+Act+Inf3+Ela: laukkeemasta
+     laueta+V+Act+Inf3+Ill: laukkeemhaan
+     laueta+V+Act+Inf3+Ade: laukkeemalla
+     laueta+V+Act+Inf3+Abe: laukkeematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - lenttäät - ok : # Verb 'to bring' - ok
+     lenttäät+V+Inf: lenttäät
+     lenttäät+V+Act+Ind+Prs+Sg1: lennän
+     lenttäät+V+Act+Ind+Prs+Sg2: lennät
+     lenttäät+V+Act+Ind+Prs+Sg3: lenttää
+     lenttäät+V+Act+Ind+Prs+Pl1: lennämä
+     lenttäät+V+Act+Ind+Prs+Pl2: lennättä
+     lenttäät+V+Act+Ind+Prs+Pl3: lennethään
+     lenttäät+V+Act+Ind+Prt+Sg1: lensin
+     lenttäät+V+Act+Ind+Prt+Sg2: lensit
+     lenttäät+V+Act+Ind+Prt+Sg3: lensi
+     lenttäät+V+Act+Ind+Prt+Pl1: lensimä
+     lenttäät+V+Act+Ind+Prt+Pl2: lensittä
+     lenttäät+V+Act+Ind+Prt+Pl3: lennethiin
+     lenttäät+V+Act+PrfPrc+Sg+Nom: lentäny
+     lenttäät+V+Pass+PrfPrc+Nom: lennetty
+     lenttäät+V+Act+PrfPrc+Pl+Nom: lentänheet
+     lenttäät+V+Act+PrsPrc+Sg+Nom: lenttäävä
+     lenttäät+V+Act+PrsPrc+Pl+Nom: lenttäävät
+     lenttäät+V+Pass+PrsPrc+Sg+Nom: lennettävä
+     lenttäät+V+Pass+PrsPrc+Pl+Nom: lennettävät
+
+     lenttäät+V+Act+Cond+Sg1: lentäisin
+     lenttäät+V+Act+Cond+Sg2: lentäisit
+     lenttäät+V+Act+Cond+Sg3: lentäis
+     lenttäät+V+Act+Cond+Pl1: lentäisimmä
+     lenttäät+V+Act+Cond+Pl2: lentäisittä
+     lenttäät+V+Act+Cond+Pl3: lennettäis
+     lenttäät+V+Pass+Cond: lennettäis
+
+     lenttäät+V+Act+Imprt+Sg2: lennä
+     lenttäät+V+Act+Imprt+Pl2: lentäkkää
+     
+     lenttäät+V+Act+Inf3+Ine: lentämässä
+     lenttäät+V+Act+Inf3+Ela: lentämästä
+     lenttäät+V+Act+Inf3+Ill: lentämhään
+     lenttäät+V+Act+Inf3+Ade: lentämällä
+     lenttäät+V+Act+Inf3+Abe: lentämättä
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+  Verb - laueta - ei tsekattu : # Verb 'to bring' - ei tsekattu
+     liuota+V+Inf: laueta
+     liuota+V+Act+Ind+Prs+Sg1: liukkeen
+     liuota+V+Act+Ind+Prs+Sg2: liukkeet
+     liuota+V+Act+Ind+Prs+Sg3: liukkee
+     liuota+V+Act+Ind+Prs+Pl1: liukkeema
+     liuota+V+Act+Ind+Prs+Pl2: liukkeetta
+     liuota+V+Act+Ind+Prs+Pl3: liuethaan
+     liuota+V+Act+Ind+Prt+Sg1: liukesin
+     liuota+V+Act+Ind+Prt+Sg2: liukesit
+     liuota+V+Act+Ind+Prt+Sg3: liukes
+     liuota+V+Act+Ind+Prt+Pl1: liukesimma
+     liuota+V+Act+Ind+Prt+Pl2: liukesitta
+     liuota+V+Act+Ind+Prt+Pl3: liuethiin
+     liuota+V+Act+PrfPrc+Sg+Nom: liuenu
+     liuota+V+Pass+PrfPrc+Nom: liuettu
+     liuota+V+Act+PrfPrc+Pl+Nom: liuenheet
+     liuota+V+Act+PrsPrc+Sg+Nom: liukkeeva
+     liuota+V+Act+PrsPrc+Pl+Nom: liukkeevat
+     liuota+V+Pass+PrsPrc+Sg+Nom: liuettava
+     liuota+V+Pass+PrsPrc+Pl+Nom: liuettavat
+     
+     liuota+V+Act+Cond+Sg1: liukkeisin
+     liuota+V+Act+Cond+Sg2: liukkeisit
+     liuota+V+Act+Cond+Sg3: liukkeis
+     liuota+V+Act+Cond+Pl1: liukkeisimma
+     liuota+V+Act+Cond+Pl2: liukkeisitta
+     liuota+V+Act+Cond+Pl3: liuettais
+     liuota+V+Pass+Cond: liuettais
+    
+     liuota+V+Act+Imprt+Sg2: liukkee
+     liuota+V+Act+Imprt+Pl2: liuekkaa
+     
+     liuota+V+Act+Inf3+Ine: liukkeemassa
+     liuota+V+Act+Inf3+Ela: liukkeemasta
+     liuota+V+Act+Inf3+Ill: liukkeemhaan
+     liuota+V+Act+Inf3+Ade: liukkeemalla
+     liuota+V+Act+Inf3+Abe: liukkeematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - lukkeet - ok : # Verb 'to bring' - ok
+     lukkeet+V+Inf: lukkeet
+     lukkeet+V+Act+Ind+Prs+Sg1: lujen
+     lukkeet+V+Act+Ind+Prs+Sg2: lujet
+     lukkeet+V+Act+Ind+Prs+Sg3: lukkee
+     lukkeet+V+Act+Ind+Prs+Pl1: lujema
+     lukkeet+V+Act+Ind+Prs+Pl2: lujetta
+     lukkeet+V+Act+Ind+Prs+Pl3: lujethaan
+     lukkeet+V+Act+Ind+Prt+Sg1: lujin
+     lukkeet+V+Act+Ind+Prt+Sg2: lujit
+     lukkeet+V+Act+Ind+Prt+Sg3: luki
+     lukkeet+V+Act+Ind+Prt+Pl1: lujima
+     lukkeet+V+Act+Ind+Prt+Pl2: lujitta
+     lukkeet+V+Act+Ind+Prt+Pl3: lujethiin
+     lukkeet+V+Act+PrfPrc+Sg+Nom: lukenu
+     lukkeet+V+Pass+PrfPrc+Nom: lujettu
+     lukkeet+V+Act+PrfPrc+Pl+Nom: lukenheet
+     lukkeet+V+Act+PrsPrc+Sg+Nom: lukkeeva
+     lukkeet+V+Act+PrsPrc+Pl+Nom: lukkeevat
+     lukkeet+V+Pass+PrsPrc+Sg+Nom: lujettava
+     lukkeet+V+Pass+PrsPrc+Pl+Nom: lujettavat
+
+     lukkeet+V+Act+Cond+Sg1: lukisin
+     lukkeet+V+Act+Cond+Sg2: lukisit
+     lukkeet+V+Act+Cond+Sg3: lukis
+     lukkeet+V+Act+Cond+Pl1: lukisimma
+     lukkeet+V+Act+Cond+Pl2: lukisitta
+     lukkeet+V+Act+Cond+Pl3: lujettais
+     lukkeet+V+Pass+Cond: lujettais
+
+     lukkeet+V+Act+Imprt+Sg2: luje
+     lukkeet+V+Act+Imprt+Pl2: lukekkaa
+     
+     lukkeet+V+Act+Inf3+Ine: lukemassa
+     lukkeet+V+Act+Inf3+Ela: lukemasta
+     lukkeet+V+Act+Inf3+Ill: lukemhaan
+     lukkeet+V+Act+Inf3+Ade: lukemalla
+     lukkeet+V+Act+Inf3+Abe: lukematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - luottaat  - ok : # Verb 'to bring' - ok
+     luottaat+V+Inf: luottaat
+     luottaat+V+Act+Ind+Prs+Sg1: luotan
+     luottaat+V+Act+Ind+Prs+Sg2: luotat
+     luottaat+V+Act+Ind+Prs+Sg3: luottaa
+     luottaat+V+Act+Ind+Prs+Pl1: luotama
+     luottaat+V+Act+Ind+Prs+Pl2: luotatta
+     luottaat+V+Act+Ind+Prs+Pl3: luotethaan
+     luottaat+V+Act+Ind+Prt+Sg1: luotin
+     luottaat+V+Act+Ind+Prt+Sg2: luotit
+     luottaat+V+Act+Ind+Prt+Sg3: luotti
+     luottaat+V+Act+Ind+Prt+Pl1: luotima
+     luottaat+V+Act+Ind+Prt+Pl2: luotitta
+     luottaat+V+Act+Ind+Prt+Pl3: luotethiin
+     luottaat+V+Act+PrfPrc+Sg+Nom: luottanu
+     luottaat+V+Pass+PrfPrc+Nom: luotettu
+     luottaat+V+Act+PrfPrc+Pl+Nom: luottanheet
+     luottaat+V+Act+PrsPrc+Sg+Nom: luottaava
+     luottaat+V+Act+PrsPrc+Pl+Nom: luottaavat
+     luottaat+V+Pass+PrsPrc+Sg+Nom: luotettava
+     luottaat+V+Pass+PrsPrc+Pl+Nom: luotettavat
+     
+     luottaat+V+Act+Cond+Sg1: luottaisin
+     luottaat+V+Act+Cond+Sg2: luottaisit
+     luottaat+V+Act+Cond+Sg3: luottais
+     luottaat+V+Act+Cond+Pl1: luottaisimma
+     luottaat+V+Act+Cond+Pl2: luottaisitta
+     luottaat+V+Act+Cond+Pl3: luotettais
+     luottaat+V+Pass+Cond: luotettais
+     
+     luottaat+V+Act+Imprt+Sg2: luota
+     luottaat+V+Act+Imprt+Pl2: luottakkaa
+     
+     luottaat+V+Act+Inf3+Ine: luottamassa
+     luottaat+V+Act+Inf3+Ela: luottamasta
+     luottaat+V+Act+Inf3+Ill: luottamhaan
+     luottaat+V+Act+Inf3+Ade: luottamalla
+     luottaat+V+Act+Inf3+Abe: luottamatta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - nähđa  - ok : # Verb 'to do' - ok
+     nähđä+V+Inf: nähđä
+     nähđä+V+Act+Ind+Prs+Sg1: näjen
+     nähđä+V+Act+Ind+Prs+Sg2: näjet
+     nähđä+V+Act+Ind+Prs+Sg3: näkkee
+     nähđä+V+Act+Ind+Prs+Pl1: näjemä
+     nähđä+V+Act+Ind+Prs+Pl2: näjettä
+     nähđä+V+Act+Ind+Prs+Pl3: nähđhään
+     nähđä+V+Act+Ind+Prt+Sg1: näjin
+     nähđä+V+Act+Ind+Prt+Sg2: näjit
+     nähđä+V+Act+Ind+Prt+Sg3: näki
+     nähđä+V+Act+Ind+Prt+Pl1: näjimä
+     nähđä+V+Act+Ind+Prt+Pl2: näjittä
+     nähđä+V+Act+Ind+Prt+Pl3: nähthiin
+     nähđä+V+Act+PrfPrc+Sg+Nom: nähny
+     nähđä+V+Pass+PrfPrc+Nom: nähty
+     nähđä+V+Act+PrfPrc+Pl+Nom: nähnheet
+     nähđä+V+Act+PrsPrc+Sg+Nom: näkkeevä
+     nähđä+V+Act+PrsPrc+Pl+Nom: näkkeevät
+     nähđä+V+Pass+PrsPrc+Sg+Nom: nähtävä
+     nähđä+V+Pass+PrsPrc+Pl+Nom: nähtävät
+     
+     nähđä+V+Act+Cond+Sg1: näkisin
+     nähđä+V+Act+Cond+Sg2: näkisit
+     nähđä+V+Act+Cond+Sg3: näkis
+     nähđä+V+Act+Cond+Pl1: näkisimmä
+     nähđä+V+Act+Cond+Pl2: näkisittä
+     nähđä+V+Act+Cond+Pl3: nähtäis
+     nähđä+V+Pass+Cond: nähtäis
+       
+     nähđä+V+Act+Imprt+Sg2: näje
+     nähđä+V+Act+Imprt+Pl2: nähkää
+     
+     nähđä+V+Act+Inf3+Ine: näkemässä
+     nähđä+V+Act+Inf3+Ela: näkemästä
+     nähđä+V+Act+Inf3+Ill: näkemhään
+     nähđä+V+Act+Inf3+Ade: näkemällä
+     nähđä+V+Act+Inf3+Abe: näkemättä
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - näkkyyt  - ok : # Verb 'to bring' - ok
+     näkkyyt+V+Inf: näkkyyt
+     näkkyyt+V+Act+Ind+Prs+Sg1: nävyn
+     näkkyyt+V+Act+Ind+Prs+Sg2: nävyt
+     näkkyyt+V+Act+Ind+Prs+Sg3: näkkyy
+     näkkyyt+V+Act+Ind+Prs+Pl1: nävymä
+     näkkyyt+V+Act+Ind+Prs+Pl2: nävyttä
+     näkkyyt+V+Act+Ind+Prs+Pl3: nävythään
+     näkkyyt+V+Act+Ind+Prt+Sg1: nävyin
+     näkkyyt+V+Act+Ind+Prt+Sg2: nävyit
+     näkkyyt+V+Act+Ind+Prt+Sg3: näkyi
+     näkkyyt+V+Act+Ind+Prt+Pl1: nävyimä
+     näkkyyt+V+Act+Ind+Prt+Pl2: nävyittä
+     näkkyyt+V+Act+Ind+Prt+Pl3: nävythiin
+     näkkyyt+V+Act+PrfPrc+Sg+Nom: näkyny
+     näkkyyt+V+Pass+PrfPrc+Nom: nävytty
+     näkkyyt+V+Act+PrfPrc+Pl+Nom: näkynheet
+     näkkyyt+V+Act+PrsPrc+Sg+Nom: näkkyyvä
+     näkkyyt+V+Act+PrsPrc+Pl+Nom: näkkyyvät
+     näkkyyt+V+Pass+PrsPrc+Sg+Nom: nävyttävä
+     näkkyyt+V+Pass+PrsPrc+Pl+Nom: nävyttävät
+     
+     näkkyyt+V+Act+Cond+Sg1: näkyisin
+     näkkyyt+V+Act+Cond+Sg2: näkyisit
+     näkkyyt+V+Act+Cond+Sg3: näkyis
+     näkkyyt+V+Act+Cond+Pl1: näkyisimmä
+     näkkyyt+V+Act+Cond+Pl2: näkyisittä
+     näkkyyt+V+Act+Cond+Pl3: nävyttäis
+     näkkyyt+V+Pass+Cond: nävyttäis
+     
+     näkkyyt+V+Act+Imprt+Sg2: nävy
+     näkkyyt+V+Act+Imprt+Pl2: näkykkää
+     
+     näkkyyt+V+Act+Inf3+Ine: näkymässä
+     näkkyyt+V+Act+Inf3+Ela: näkymästä
+     näkkyyt+V+Act+Inf3+Ill: näkymhään
+     näkkyyt+V+Act+Inf3+Ade: näkymällä
+     näkkyyt+V+Act+Inf3+Abe: näkymättä
+     
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - pajeta  - ok : # Verb 'to bring' - ei tsekattu
+     pajeta+V+Inf: pajeta
+     pajeta+V+Act+Ind+Prs+Sg1: pakenen
+     pajeta+V+Act+Ind+Prs+Sg2: pakenet
+     pajeta+V+Act+Ind+Prs+Sg3: pakenee
+     pajeta+V+Act+Ind+Prs+Pl1: pakenemma
+     pajeta+V+Act+Ind+Prs+Pl2: pakenetta
+     pajeta+V+Act+Ind+Prs+Pl3: pajethaan
+     pajeta+V+Act+Ind+Prt+Sg1: pakenin
+     pajeta+V+Act+Ind+Prt+Sg2: pakenit
+     pajeta+V+Act+Ind+Prt+Sg3: pakeni
+     pajeta+V+Act+Ind+Prt+Pl1: pakenimma
+     pajeta+V+Act+Ind+Prt+Pl2: pakenitta
+     pajeta+V+Act+Ind+Prt+Pl3: pajethiin
+     pajeta+V+Act+PrfPrc+Sg+Nom: pajenu
+     pajeta+V+Pass+PrfPrc+Nom: pajettu
+     pajeta+V+Act+PrfPrc+Pl+Nom: pajenheet
+     pajeta+V+Act+PrsPrc+Sg+Nom: pakeneeva
+     pajeta+V+Act+PrsPrc+Pl+Nom: pakeneevat
+     pajeta+V+Pass+PrsPrc+Sg+Nom: pajettava
+     pajeta+V+Pass+PrsPrc+Pl+Nom: pajettavat
+     
+     pajeta+V+Act+Cond+Sg1: pakenisin
+     pajeta+V+Act+Cond+Sg2: pakenisit
+     pajeta+V+Act+Cond+Sg3: pakenis
+     pajeta+V+Act+Cond+Pl1: pakenisima
+     pajeta+V+Act+Cond+Pl2: pakenisitta
+     pajeta+V+Act+Cond+Pl3: pajettais
+     pajeta+V+Pass+Cond: pajettais
+    
+     pajeta+V+Act+Imprt+Sg2: pakene
+     pajeta+V+Act+Imprt+Pl2: pajekkaa
+     
+     pajeta+V+Act+Inf3+Ine: pakenemassa
+     pajeta+V+Act+Inf3+Ela: pakenemasta
+     pajeta+V+Act+Inf3+Ill: pakenemhaan
+     pajeta+V+Act+Inf3+Ade: pakenemala
+     pajeta+V+Act+Inf3+Abe: pakenematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - panna - ok : # Verb 'to bring' - ok
+     panna+V+Inf: panna
+     panna+V+Act+Ind+Prs+Sg1: panen
+     panna+V+Act+Ind+Prs+Sg2: panet
+     panna+V+Act+Ind+Prs+Sg3: pannee
+     panna+V+Act+Ind+Prs+Pl1: panema
+     panna+V+Act+Ind+Prs+Pl2: panetta
+     panna+V+Act+Ind+Prs+Pl3: panhaan
+     panna+V+Act+Ind+Prt+Sg1: panin
+     panna+V+Act+Ind+Prt+Sg2: panit
+     panna+V+Act+Ind+Prt+Sg3: pani
+     panna+V+Act+Ind+Prt+Pl1: panima
+     panna+V+Act+Ind+Prt+Pl2: panitta
+     panna+V+Act+Ind+Prt+Pl3: panthiin
+     panna+V+Act+PrfPrc+Sg+Nom: pannu
+     panna+V+Pass+PrfPrc+Nom: pantu
+     panna+V+Act+PrfPrc+Pl+Nom: panheet
+     panna+V+Act+PrsPrc+Sg+Nom: panneeva
+     panna+V+Act+PrsPrc+Pl+Nom: panneevat
+     panna+V+Pass+PrsPrc+Sg+Nom: pantava
+     panna+V+Pass+PrsPrc+Pl+Nom: pantavat
+
+     panna+V+Act+Cond+Sg1: panisin
+     panna+V+Act+Cond+Sg2: panisit
+     panna+V+Act+Cond+Sg3: panis
+     panna+V+Act+Cond+Pl1: panisimma
+     panna+V+Act+Cond+Pl2: panisitta
+     panna+V+Act+Cond+Pl3: pantais
+     panna+V+Pass+Cond: pantais
+
+     panna+V+Act+Imprt+Sg2: pane
+     panna+V+Act+Imprt+Pl2: pankkaa
+     
+     panna+V+Act+Inf3+Ine: panemassa
+     panna+V+Act+Inf3+Ela: panemasta
+     panna+V+Act+Inf3+Ill: panemhaan
+     panna+V+Act+Inf3+Ade: panemalla
+     panna+V+Act+Inf3+Abe: panematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - piikaroita - ok : # Verb 'to bring' - ei tsekattu
+     piikaroita+V+Inf: piikaroita
+     piikaroita+V+Act+Ind+Prs+Sg1: piikaroitten
+     piikaroita+V+Act+Ind+Prs+Sg2: piikaroittet
+     piikaroita+V+Act+Ind+Prs+Sg3: piikaroittee
+     piikaroita+V+Act+Ind+Prs+Pl1: piikaroittema
+     piikaroita+V+Act+Ind+Prs+Pl2: piikaroittetta
+     piikaroita+V+Act+Ind+Prs+Pl3: piikaroithaan
+     piikaroita+V+Act+Ind+Prt+Sg1: piikaroittin
+     piikaroita+V+Act+Ind+Prt+Sg2: piikaroittit
+     piikaroita+V+Act+Ind+Prt+Sg3: piikaroitti
+     piikaroita+V+Act+Ind+Prt+Pl1: piikaroittima
+     piikaroita+V+Act+Ind+Prt+Pl2: piikaroittitta
+     piikaroita+V+Act+Ind+Prt+Pl3: piikaroithiin
+     piikaroita+V+Act+PrfPrc+Sg+Nom: piikaroinu
+     piikaroita+V+Pass+PrfPrc+Nom: piikaroittu
+     piikaroita+V+Act+PrfPrc+Pl+Nom: piikaroinheet
+     piikaroita+V+Act+PrsPrc+Sg+Nom: piikaroiva
+     piikaroita+V+Act+PrsPrc+Pl+Nom: piikaroivat
+     piikaroita+V+Pass+PrsPrc+Sg+Nom: piikaroittava
+     piikaroita+V+Pass+PrsPrc+Pl+Nom: piikaroittavat
+
+     piikaroita+V+Act+Cond+Sg1: piikaroittisin
+     piikaroita+V+Act+Cond+Sg2: piikaroittisit
+     piikaroita+V+Act+Cond+Sg3: piikaroittis
+     piikaroita+V+Act+Cond+Pl1: piikaroittisimma
+     piikaroita+V+Act+Cond+Pl2: piikaroittisitta
+     piikaroita+V+Act+Cond+Pl3: piikaroittais
+     piikaroita+V+Pass+Cond: piikaroittais
+
+     piikaroita+V+Act+Imprt+Sg2: piikaroitte
+     piikaroita+V+Act+Imprt+Pl2: piikaroikkaa
+     
+     piikaroita+V+Act+Inf3+Ine: piikaroittemassa
+     piikaroita+V+Act+Inf3+Ela: piikaroittemasta
+     piikaroita+V+Act+Inf3+Ill: piikaroittemhaan
+     piikaroita+V+Act+Inf3+Ade: piikaroittemalla
+     piikaroita+V+Act+Inf3+Abe: piikaroittematta
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - pölätä - ok : # Verb 'to bring' - ok
+     pölätä+V+Inf: pölätä
+     pölätä+V+Act+Ind+Prs+Sg1: pölkkään
+     pölätä+V+Act+Ind+Prs+Sg2: pölkkäät
+     pölätä+V+Act+Ind+Prs+Sg3: pölkkää
+     pölätä+V+Act+Ind+Prs+Pl1: pölkkäämä
+     pölätä+V+Act+Ind+Prs+Pl2: pölkkäättä
+     pölätä+V+Act+Ind+Prs+Pl3: pöläthään
+     pölätä+V+Act+Ind+Prt+Sg1: pölkäsin
+     pölätä+V+Act+Ind+Prt+Sg2: pölkäsit
+     pölätä+V+Act+Ind+Prt+Sg3: pölkäs
+     pölätä+V+Act+Ind+Prt+Pl1: pölkäsimmä
+     pölätä+V+Act+Ind+Prt+Pl2: pölkäsittä
+     pölätä+V+Act+Ind+Prt+Pl3: pöläthiin
+     pölätä+V+Act+PrfPrc+Sg+Nom: pöläny
+     pölätä+V+Pass+PrfPrc+Nom: pölätty
+     pölätä+V+Act+PrfPrc+Pl+Nom: pölänheet
+     pölätä+V+Act+PrsPrc+Sg+Nom: pölkkäävä
+     pölätä+V+Act+PrsPrc+Pl+Nom: pölkkäävät
+     pölätä+V+Pass+PrsPrc+Sg+Nom: pölättävä
+     pölätä+V+Pass+PrsPrc+Pl+Nom: pölättävät
+
+     pölätä+V+Act+Cond+Sg1: pölkkäisin
+     pölätä+V+Act+Cond+Sg2: pölkkäisit
+     pölätä+V+Act+Cond+Sg3: pölkkäis
+     pölätä+V+Act+Cond+Pl1: pölkkäisimmä
+     pölätä+V+Act+Cond+Pl2: pölkkäisittä
+     pölätä+V+Act+Cond+Pl3: pölättäis
+     pölätä+V+Pass+Cond: pölättäis
+
+     pölätä+V+Act+Imprt+Sg2: pölkkää
+     pölätä+V+Act+Imprt+Pl2: pölkkääkkää
+     
+     pölätä+V+Act+Inf3+Ine: pölkkäämässä
+     pölätä+V+Act+Inf3+Ela: pölkkäämästä
+     pölätä+V+Act+Inf3+Ill: pölkkäämhään
+     pölätä+V+Act+Inf3+Ade: pölkkäämällä
+     pölätä+V+Act+Inf3+Abe: pölkkäämättä
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - saađa - ok : # Verb 'to bring' - ok
+     saađa+V+Inf: saađa
+     saađa+V+Act+Ind+Prs+Sg1: saan
+     saađa+V+Act+Ind+Prs+Sg2: saat
+     saađa+V+Act+Ind+Prs+Sg3: saapi
+     saađa+V+Act+Ind+Prs+Pl1: saama
+     saađa+V+Act+Ind+Prs+Pl2: saatta
+     saađa+V+Act+Ind+Prs+Pl3: saađhaan
+     saađa+V+Act+Ind+Prt+Sg1: sain
+     saađa+V+Act+Ind+Prt+Sg2: sait
+     saađa+V+Act+Ind+Prt+Sg3: sai
+     saađa+V+Act+Ind+Prt+Pl1: saima
+     saađa+V+Act+Ind+Prt+Pl2: saitta
+     saađa+V+Act+Ind+Prt+Pl3: saathiin
+     saađa+V+Act+PrfPrc+Sg+Nom: saanu
+     saađa+V+Pass+PrfPrc+Nom: saatu
+     saađa+V+Act+PrfPrc+Pl+Nom: saanheet
+     saađa+V+Act+PrsPrc+Sg+Nom: saava
+     saađa+V+Act+PrsPrc+Pl+Nom: saavat
+     saađa+V+Pass+PrsPrc+Sg+Nom: saatava
+     saađa+V+Pass+PrsPrc+Pl+Nom: saatavat
+   
+     saađa+V+Act+Cond+Sg1: saisin
+     saađa+V+Act+Cond+Sg2: saisit
+     saađa+V+Act+Cond+Sg3: sais
+     saađa+V+Act+Cond+Pl1: saisima
+     saađa+V+Act+Cond+Pl2: saisitta
+     saađa+V+Act+Cond+Pl3: saatais
+     saađa+V+Pass+Cond: saatais
+     
+     saađa+V+Act+Imprt+Sg2: saa
+     saađa+V+Act+Imprt+Pl2: saakkaa
+     
+     saađa+V+Act+Inf3+Ine: saamassa
+     saađa+V+Act+Inf3+Ela: saamasta
+     saađa+V+Act+Inf3+Ill: saamhaan
+     saađa+V+Act+Inf3+Ade: saamala
+     saađa+V+Act+Inf3+Abe: saamatta
+   
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - soppiit - ok: # Verb 'to bring'
+     soppiit+V+Inf: soppiit
+     soppiit+V+Act+Ind+Prs+Sg1: sovin
+     soppiit+V+Act+Ind+Prs+Sg2: sovit
+     soppiit+V+Act+Ind+Prs+Sg3: soppii
+     soppiit+V+Act+Ind+Prs+Pl1: sovima
+     soppiit+V+Act+Ind+Prs+Pl2: sovitta
+     soppiit+V+Act+Ind+Prs+Pl3: sovithaan
+     soppiit+V+Act+Ind+Prt+Sg1: sovin
+     soppiit+V+Act+Ind+Prt+Sg2: sovit
+     soppiit+V+Act+Ind+Prt+Sg3: sopi
+     soppiit+V+Act+Ind+Prt+Pl1: sovima
+     soppiit+V+Act+Ind+Prt+Pl2: sovitta
+     soppiit+V+Act+Ind+Prt+Pl3: sovithiin
+     soppiit+V+Act+PrfPrc+Sg+Nom: sopinu
+     soppiit+V+Pass+PrfPrc+Nom: sovittu
+     soppiit+V+Act+PrfPrc+Pl+Nom: sopinheet
+     soppiit+V+Act+PrsPrc+Sg+Nom: soppiiva
+     soppiit+V+Act+PrsPrc+Pl+Nom: soppiivat
+     soppiit+V+Pass+PrsPrc+Sg+Nom: sovittava
+     soppiit+V+Pass+PrsPrc+Pl+Nom: sovittavat
+
+     soppiit+V+Act+Cond+Sg1: sopisin
+     soppiit+V+Act+Cond+Sg2: sopisit
+     soppiit+V+Act+Cond+Sg3: sopis
+     soppiit+V+Act+Cond+Pl1: sopisimma
+     soppiit+V+Act+Cond+Pl2: sopisitta
+     soppiit+V+Act+Cond+Pl3: sovittais
+     soppiit+V+Pass+Cond: sovittais
+
+     soppiit+V+Act+Imprt+Sg2: sovi
+     soppiit+V+Act+Imprt+Pl2: sopikkaa
+     
+     soppiit+V+Act+Inf3+Ine: sopimassa
+     soppiit+V+Act+Inf3+Ela: sopimasta
+     soppiit+V+Act+Inf3+Ill: sopimhaan
+     soppiit+V+Act+Inf3+Ade: sopimalla
+     soppiit+V+Act+Inf3+Abe: sopimatta
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - täristä - ok: # Verb 'to bring' - ok
+     täristä+V+Inf: täristä
+     täristä+V+Act+Ind+Prs+Sg1: tärisen
+     täristä+V+Act+Ind+Prs+Sg2: täriset
+     täristä+V+Act+Ind+Prs+Sg3: tärissee
+     täristä+V+Act+Ind+Prs+Pl1: tärisemmä
+     täristä+V+Act+Ind+Prs+Pl2: tärisettä
+     täristä+V+Act+Ind+Prs+Pl3: täristhään
+     täristä+V+Act+Ind+Prt+Sg1: tärisin
+     täristä+V+Act+Ind+Prt+Sg2: tärisit
+     täristä+V+Act+Ind+Prt+Sg3: tärisi
+     täristä+V+Act+Ind+Prt+Pl1: tärisimmä
+     täristä+V+Act+Ind+Prt+Pl2: tärisittä
+     täristä+V+Act+Ind+Prt+Pl3: täristhiin
+     täristä+V+Act+PrfPrc+Sg+Nom: tärissy
+     täristä+V+Pass+PrfPrc+Nom: täristy
+     täristä+V+Act+PrfPrc+Pl+Nom: tärisheet
+     täristä+V+Act+PrsPrc+Sg+Nom: tärisseevä
+     täristä+V+Act+PrsPrc+Pl+Nom: tärisseevät
+     täristä+V+Pass+PrsPrc+Sg+Nom: täristävä
+     täristä+V+Pass+PrsPrc+Pl+Nom: täristävät
+
+     täristä+V+Act+Cond+Sg1: tärisisin
+     täristä+V+Act+Cond+Sg2: tärisisit
+     täristä+V+Act+Cond+Sg3: tärisis
+     täristä+V+Act+Cond+Pl1: tärisisimä
+     täristä+V+Act+Cond+Pl2: tärisisittä
+     täristä+V+Act+Cond+Pl3: täristäis
+     täristä+V+Pass+Cond: täristäis
+
+     täristä+V+Act+Imprt+Sg2: tärise
+     täristä+V+Act+Imprt+Pl2: täriskää
+     
+     täristä+V+Act+Inf3+Ine: tärisemässä
+     täristä+V+Act+Inf3+Ela: tärisemästä
+     täristä+V+Act+Inf3+Ill: tärisemhään
+     täristä+V+Act+Inf3+Ade: tärisemälä
+     täristä+V+Act+Inf3+Abe: tärisemättä
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - tehđa - ok: # Verb 'to do' - ok
+     tehđä+V+Inf: tehđä
+     tehđä+V+Act+Ind+Prs+Sg1: tehen
+     tehđä+V+Act+Ind+Prs+Sg2: tehet
+     tehđä+V+Act+Ind+Prs+Sg3: tekkee
+     tehđä+V+Act+Ind+Prs+Pl1: tehemä
+     tehđä+V+Act+Ind+Prs+Pl2: tehettä
+     tehđä+V+Act+Ind+Prs+Pl3: tehđhään
+     tehđä+V+Act+Ind+Prt+Sg1: tehin
+     tehđä+V+Act+Ind+Prt+Sg2: tehit
+     tehđä+V+Act+Ind+Prt+Sg3: teki
+     tehđä+V+Act+Ind+Prt+Pl1: tehimä
+     tehđä+V+Act+Ind+Prt+Pl2: tehittä
+     tehđä+V+Act+Ind+Prt+Pl3: tehthiin
+     tehđä+V+Act+PrfPrc+Sg+Nom: tehny
+     tehđä+V+Pass+PrfPrc+Nom: tehty
+     tehđä+V+Act+PrfPrc+Pl+Nom: tehnheet
+     tehđä+V+Act+PrsPrc+Sg+Nom: tekkeevä
+     tehđä+V+Act+PrsPrc+Pl+Nom: tekkeevät
+     tehđä+V+Pass+PrsPrc+Sg+Nom: tehtävä
+     tehđä+V+Pass+PrsPrc+Pl+Nom: tehtävät
+ 
+     tehđä+V+Act+Cond+Sg1: tekisin
+     tehđä+V+Act+Cond+Sg2: tekisit
+     tehđä+V+Act+Cond+Sg3: tekis
+     tehđä+V+Act+Cond+Pl1: tekisimmä
+     tehđä+V+Act+Cond+Pl2: tekisittä
+     tehđä+V+Act+Cond+Pl3: tehtäis
+     tehđä+V+Pass+Cond: tehtäis
+     
+     tehđä+V+Act+Imprt+Sg2: tehe
+     tehđä+V+Act+Imprt+Pl2: tehkää
+     
+     tehđä+V+Act+Inf3+Ine: tekemässä
+     tehđä+V+Act+Inf3+Ela: tekemästä
+     tehđä+V+Act+Inf3+Ill: tekemhään
+     tehđä+V+Act+Inf3+Ade: tekemällä
+     tehđä+V+Act+Inf3+Abe: tekemättä
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - tohtiit - ok: # Verb 'to bring' - 
+     tohtiit+V+Inf: tohtiit
+     tohtiit+V+Act+Ind+Prs+Sg1: tohđin
+     tohtiit+V+Act+Ind+Prs+Sg2: tohđit
+     tohtiit+V+Act+Ind+Prs+Sg3: tohtii
+     tohtiit+V+Act+Ind+Prs+Pl1: tohđima
+     tohtiit+V+Act+Ind+Prs+Pl2: tohđitta
+     tohtiit+V+Act+Ind+Prs+Pl3: tohđithaan
+     tohtiit+V+Act+Ind+Prt+Sg1: tohđin
+     tohtiit+V+Act+Ind+Prt+Sg2: tohđit
+     tohtiit+V+Act+Ind+Prt+Sg3: tohti
+     tohtiit+V+Act+Ind+Prt+Pl1: tohđima
+     tohtiit+V+Act+Ind+Prt+Pl2: tohđitta
+     tohtiit+V+Act+Ind+Prt+Pl3: tohđithiin
+     tohtiit+V+Act+PrfPrc+Sg+Nom: tohtinu
+     tohtiit+V+Pass+PrfPrc+Nom: tohđittu
+     tohtiit+V+Act+PrfPrc+Pl+Nom: tohtinheet
+     tohtiit+V+Act+PrsPrc+Sg+Nom: tohtiiva
+     tohtiit+V+Act+PrsPrc+Pl+Nom: tohtiivat
+     tohtiit+V+Pass+PrsPrc+Sg+Nom: tohđittava
+     tohtiit+V+Pass+PrsPrc+Pl+Nom: tohđittavat
+
+     tohtiit+V+Act+Cond+Sg1: tohtisin
+     tohtiit+V+Act+Cond+Sg2: tohtisit
+     tohtiit+V+Act+Cond+Sg3: tohtis
+     tohtiit+V+Act+Cond+Pl1: tohtisimma
+     tohtiit+V+Act+Cond+Pl2: tohtisitta
+     tohtiit+V+Act+Cond+Pl3: tohđittais
+     tohtiit+V+Pass+Cond: tohđittais
+
+     tohtiit+V+Act+Imprt+Sg2: tohđi
+     tohtiit+V+Act+Imprt+Pl2: tohtikkaa
+     
+     tohtiit+V+Act+Inf3+Ine: tohtimassa
+     tohtiit+V+Act+Inf3+Ela: tohtimasta
+     tohtiit+V+Act+Inf3+Ill: tohtimhaan
+     tohtiit+V+Act+Inf3+Ade: tohtimalla
+     tohtiit+V+Act+Inf3+Abe: tohtimatta
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - tulla - ok: # Verb 'to bring'
+     tulla+V+Inf: tulla
+     tulla+V+Act+Ind+Prs+Sg1: tulen
+     tulla+V+Act+Ind+Prs+Sg2: tulet
+     tulla+V+Act+Ind+Prs+Sg3: tullee
+     tulla+V+Act+Ind+Prs+Pl1: tulema
+     tulla+V+Act+Ind+Prs+Pl2: tuletta
+     tulla+V+Act+Ind+Prs+Pl3: tulhaan
+     tulla+V+Act+Ind+Prt+Sg1: tulin
+     tulla+V+Act+Ind+Prt+Sg2: tulit
+     tulla+V+Act+Ind+Prt+Sg3: tuli
+     tulla+V+Act+Ind+Prt+Pl1: tulima
+     tulla+V+Act+Ind+Prt+Pl2: tulitta
+     tulla+V+Act+Ind+Prt+Pl3: tulthiin
+     tulla+V+Act+PrfPrc+Sg+Nom: tullu
+     tulla+V+Pass+PrfPrc+Nom: tultu
+     tulla+V+Act+PrfPrc+Pl+Nom: tulheet
+     tulla+V+Act+PrsPrc+Sg+Nom: tulleeva
+     tulla+V+Act+PrsPrc+Pl+Nom: tulleevat
+     tulla+V+Pass+PrsPrc+Sg+Nom: tultava
+     tulla+V+Pass+PrsPrc+Pl+Nom: tultavat
+     
+     tulla+V+Act+Cond+Sg1: tulisin
+     tulla+V+Act+Cond+Sg2: tulisit
+     tulla+V+Act+Cond+Sg3: tulis
+     tulla+V+Act+Cond+Pl1: tulisimma
+     tulla+V+Act+Cond+Pl2: tulisitta
+     tulla+V+Act+Cond+Pl3: tultais
+     tulla+V+Pass+Cond: tultais
+
+     tulla+V+Act+Imprt+Sg2: tule
+     tulla+V+Act+Imprt+Pl2: tulkkaa
+     
+     tulla+V+Act+Inf3+Ine: tulemassa
+     tulla+V+Act+Inf3+Ela: tulemasta
+     tulla+V+Act+Inf3+Ill: tulemhaan
+     tulla+V+Act+Inf3+Ade: tulemalla
+     tulla+V+Act+Inf3+Abe: tulematta
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - tuođa - ei tsekattu: # Verb 'to bring' 
+     tuođa+V+Inf: tuođa
+     tuođa+V+Act+Ind+Prs+Sg1: tuon
+     tuođa+V+Act+Ind+Prs+Sg2: tuot
+     tuođa+V+Act+Ind+Prs+Sg3: tuopi
+     tuođa+V+Act+Ind+Prs+Pl1: tuoma
+     tuođa+V+Act+Ind+Prs+Pl2: tuotta
+     tuođa+V+Act+Ind+Prs+Pl3: tuođhaan
+     tuođa+V+Act+Ind+Prt+Sg1: toin
+     tuođa+V+Act+Ind+Prt+Sg2: toit
+     tuođa+V+Act+Ind+Prt+Sg3: toi
+     tuođa+V+Act+Ind+Prt+Pl1: toima
+     tuođa+V+Act+Ind+Prt+Pl2: toitta
+     tuođa+V+Act+Ind+Prt+Pl3: tuothiin
+     tuođa+V+Act+PrfPrc+Sg+Nom: tuonu
+     tuođa+V+Pass+PrfPrc+Nom: tuotu
+     tuođa+V+Act+PrfPrc+Pl+Nom: tuonheet
+     tuođa+V+Act+PrsPrc+Sg+Nom: tuova
+     tuođa+V+Act+PrsPrc+Pl+Nom: tuovat
+     tuođa+V+Pass+PrsPrc+Sg+Nom: tuotava
+     tuođa+V+Pass+PrsPrc+Pl+Nom: tuotavat
+     
+     tuođa+V+Act+Cond+Sg1: toisin
+     tuođa+V+Act+Cond+Sg2: toisit
+     tuođa+V+Act+Cond+Sg3: tois
+     tuođa+V+Act+Cond+Pl1: toisima
+     tuođa+V+Act+Cond+Pl2: toisitta
+     tuođa+V+Act+Cond+Pl3: tuotais
+     tuođa+V+Pass+Cond: tuotais 
+     
+     tuođa+V+Act+Imprt+Sg2: tuo
+     tuođa+V+Act+Imprt+Pl2: tuokkaa
+     
+     tuođa+V+Act+Inf3+Ine: tuomassa
+     tuođa+V+Act+Inf3+Ela: tuomasta
+     tuođa+V+Act+Inf3+Ill: tuomhaan
+     tuođa+V+Act+Inf3+Ade: tuomala
+     tuođa+V+Act+Inf3+Abe: tuomatta
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - vanheta - ok: # Verb 'to bring'
+     vanheta+V+Inf: vanheta
+     vanheta+V+Act+Ind+Prs+Sg1: vanhenen
+     vanheta+V+Act+Ind+Prs+Sg2: vanhenet
+     vanheta+V+Act+Ind+Prs+Sg3: vanhenee
+     vanheta+V+Act+Ind+Prs+Pl1: vanhenemma
+     vanheta+V+Act+Ind+Prs+Pl2: vanhenetta
+     vanheta+V+Act+Ind+Prs+Pl3: vanhethaan
+     vanheta+V+Act+Ind+Prt+Sg1: vanhenin
+     vanheta+V+Act+Ind+Prt+Sg2: vanhenit
+     vanheta+V+Act+Ind+Prt+Sg3: vanheni
+     vanheta+V+Act+Ind+Prt+Pl1: vanhenimma
+     vanheta+V+Act+Ind+Prt+Pl2: vanhenitta
+     vanheta+V+Act+Ind+Prt+Pl3: vanhethiin
+     vanheta+V+Act+PrfPrc+Sg+Nom: vanhenu
+     vanheta+V+Pass+PrfPrc+Nom: vanhettu
+     vanheta+V+Act+PrfPrc+Pl+Nom: vanhenheet
+     vanheta+V+Act+PrsPrc+Sg+Nom: vanheneeva
+     vanheta+V+Act+PrsPrc+Pl+Nom: vanheneevat
+     vanheta+V+Pass+PrsPrc+Sg+Nom: vanhettava
+     vanheta+V+Pass+PrsPrc+Pl+Nom: vanhettavat
+     
+     vanheta+V+Act+Cond+Sg1: vanhenisin
+     vanheta+V+Act+Cond+Sg2: vanhenisit
+     vanheta+V+Act+Cond+Sg3: vanhenis
+     vanheta+V+Act+Cond+Pl1: vanhenisima
+     vanheta+V+Act+Cond+Pl2: vanhenisitta
+     vanheta+V+Act+Cond+Pl3: vanhettais
+     vanheta+V+Pass+Cond: vanhettais
+     
+     vanheta+V+Act+Imprt+Sg2: vanhene
+     vanheta+V+Act+Imprt+Pl2: vanhekkaa
+     
+     vanheta+V+Act+Inf3+Ine: vanhenemassa
+     vanheta+V+Act+Inf3+Ela: vanhenemasta
+     vanheta+V+Act+Inf3+Ill: vanhenemhaan
+     vanheta+V+Act+Inf3+Ade: vanhenemala
+     vanheta+V+Act+Inf3+Abe: vanhenematta
