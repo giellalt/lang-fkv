@@ -1,0 +1,263 @@
+!!!Viikkokokous
+ 
+* Aika: 15.5.2014 klo 13
+* Paikka: internet
+* Välineet: Skype ja Collabedit
+* Paikalla: Kaisa, Mervi, Pirjo ja Trond
+ 
+!!!Agenda
+* Tilannepäivitykset
+* Työtehtävät
+* Muut asiat
+
+ 
+!!!Tilannepäivitykset
+
+!!Analysaattori
+
+!Kaksi n-ää
+
+*N+N+
+
+eli ei näin:
+ 
+{{{
+LEXICON n_22odd !!= * @CODE@  meininki
++N: x_22odd ;
+
+LEXICON x_22odd !!= * @CODE@  meininki
++N: strong-v-stem ;
++N:%^WG weak-v-stem ;
+}}}
+
+Ne ovat luultavasti nyt poissa. Pidetään mielessä.
+
+Projekti X (N ja A X-ään) on edelleen työn alla.
+
+
+!!Fkvnob 
+*Mikä on lemma-gen-diff.xfst.txt?
+*Villahousut lyhenivät
+*Mikä dokumentaatiokieli sanakirjassa?
+
+fkvnob fst:ssä? Siinä on ollut edistys:
+
+{{{
+ cat  ~/main/words/dicts/fkvnob/src/*l|grep '<l '|tr '<' '>'  | cut -d">" -f3|ufkv|grep '?'|wc -l
+     248
+}}}
+
+!!Nobfkv
+
+!!Testaus
+
+yaml-tiedostot ovat saaneet uuden kodin: {{test/src/gt-norm-yamls/}}
+Villahousut ovat poissa:
+
+Generoivatko substantiivit itsensä?
+* mies+N+Sg+Nom -> mies
+* villahousut+N+Pl+Nom -> villahousut
+
+status: 54 "ei":
+
+asentohuonet,asumahuonet,auvain,elläin,filee,hirsihuonet,hohtimet,hohđin,hođin,häppee,höyhen,idee,ilmivalkkee,jääkarfuu,jääkarhuu,karfuu,karhuu,karkkee,ketunrauđat,kiuas,kokkoontumishuonet,kokkoushuonet,kotielläin,kuninkas,kuolain,kuuđain,laiđun,lattuu,luistin,mattafillerit,morssiin,noviisihuonet,oopperahuonet,porstuu,rassuu,rauhankirkonmenot,ruis,rukkoushuonet,ruumishuonet,rämmee,sairashuonet,seuraava,sierain,syyspimmee,tervet,uistin,vierashuonet,vikaatheenvarsi,viljat,viranomainen,väävitoolit,yöpymähuonet,yđin,äärrytys,
+
+Esimerkki virheistä:
+
+{{{
+noviisihuonet+N+Sg+Nom  noviisihuoneđet
+oopperahuonet+N+Sg+Nom  oopperahuoneđet
+porstuu+N+Sg+Nom    porstuue
+rassuu+N+Sg+Nom rassuue
+noviisihuonet+N+Pl+Nom  noviisihuonetheet
+oopperahuonet+N+Pl+Nom  oopperahuonetheet
+hohtimet+N+Pl+Nom   hohtimet+N+Pl+Nom   +?
+}}}
+
+
+Verbeistä tämmöinen raportti:
+
+{{{
+kuumeta+V+Inf   kuumeta+V+Inf   +?
+nakata+V+Inf    nakata+V+Inf    +?
+nuoreta+V+Inf   nuoreta+V+Inf   +?
+}}}
+
+Ymmärrämme miksi:
+
+{{{
+kuumeta
+kuumeta kuumeta+V
+
+nakata
+nakata  nakata+V
+
+nuoreta
+nuoreta nuoreta+V
+}}}
+
+
+Yamlit:
+
+* Substantiivit M-all_gt-norm.yaml: 
+** Total passes: 1956, Total fails: 478, Total: 2434
+* Verbit U-all_gt-norm.yaml: 
+** Total passes: 2448, Total fails: 169, Total: 2617
+
+
+M-all (substantiivit) ja U-all (verbit) tehtiin näin:
+
+{{{
+cat test/src/gt-norm-yamls/N-*|head -11 > test/src/gt-norm-yamls/M-all_gt-norm.yaml
+tail +11 test/src/gt-norm-yamls/N-*|grep -v '=='  >> test/src/gt-norm-yamls/M-all_gt-norm.yaml
+
+cat test/src/gt-norm-yamls/V-*|head -11 > test/src/gt-norm-yamls/U-all_gt-norm.yaml
+tail +11 test/src/gt-norm-yamls/V-*|grep -v '=='  >> test/src/gt-norm-yamls/U-all_gt-norm.yaml
+}}}
+
+!!Tekniset jutut
+
+!Meili
+
+Meilit Kaisalle (svn + Sjur). Trond katsoo.
+
+!SVN-konfliktit
+
+svn st
+
+C tiedo.sto
+
+Jos viis veisaat sisällöstä:
+
+* rm tiedo.sto
+* svn revert tiedo.sto
+* svn revert --depth-infinity hakemi.sto
+
+Yleisneuvot:
+
+* Tarkistaa: toimiiko make? Entäs gtcore?
+
+ 
+!!!Työtehtävät
+
+Dokumentaatio:
+
+* Työtehtävien uusjako på norsk: http://giellatekno.uit.no/doc/lang/fkv/Arbeidsplan.html
+* Yksityiskohtaiset työtehtävät: http://giellatekno.uit.no/doc/lang/fkv/Tehtavat.html
+
+!!Analysaattori:
+
+
+! Lista
+* twolc, lexc-morfologia: Leena, Kaisa
+* lexc-leksikko (n_x-iä on 552): Mervi, Pirjo
+* 248 (sanakirjan sanat): lisätä n_x-iin?
+* Uudet villahousut: 54 substantiivia ja 3 verbiä pitää korjata
+* Projekti X
+* Uudet missing-sanat korpuksesta
+
+!Partisiipit
+
+ovat verbejä:
+
+affixes/verbs.lexc viittaa +PrtPtc:n kautta adjektiiveihin (komp)
+ja substantiiveihin (sijamuodot) x_21-menetelmän avulla
+
+a_21, n_21 -> x_21
+
+Leksikalisoidut partisiipit (esim ''mahtava'') ovat (sanakirjan takia) adjektiiveja.
+
+Katsotaan partisiippeja (kesäkuussa)
+
+!!Sanakirja
+
+Onko sana sanakirjassa? siis katso dokumentaatiosta:
+* [http://giellatekno.uit.no/doc/lang/fkv/Tehtavat.html]
+
+!Työn kulku
+
+*fkvnob-sanakirja, esimerkit: Pirjo
+*fkvnob-sanakirja, fkv-oikoluku: Pirjo (tehty?)
+*fkvnob-sanakirja, nob-oikoluku: Tove
+*sanakirjan kääntäminen: Ciprian
+*nobfkv-työ: Tove, muut
+*nob-artikkelien siivoaminen: Tove, muut
+*puuttuvien nob-sanojen lisääminen: Trond, Tove, pedagogit
+*kääntäminen: Pirjo, muut
+
+!!Tekstit
+*T-tekstien kerääminen: KI
+*P-tekstien lisääminen korpukseen: Mervi, Børre, ...
+*Aikamatka-tekstien lisääminen korpukseen: Mervi, Børre, ...
+*Uusien teksteistä tulevien sanojen lisääminen sanakirjaan ja fst: hen:
+
+
+!!Korpus
+
+Hae freecorpus:
+
+svn checkout https://victorio.uit.no/freecorpus
+
+Kaikki tekstit ovat tässä:
+
+freecorpus/orig/fkv/inc/pirjo
+
+Ne pitää luokkitella
+
+Luokitus:
+
+freecorpus/orig/sme/
+
+perusjako on 5 ryhmää: admin  bible   facta   ficti   laws    news
+
+Alaryhmät:
+admin:
+facta: 
+ficti: 
+news: rk
+
+sme:
+facta:
+
+{{{
+L97S            klemetti.blogspot.com   other_files     skuvlahistorja2     skuvlahistorja4     skuvlahistorja6
+finnmarksloven      nav.no          skuvlahistorja1     skuvlahistorja3     skuvlahistorja5
+}}}
+
+
+!Tehtävä:
+
+Siirtää inc-tiedostot kuusikkoon (admin, facta, news, ...)
+
+mkdir admin/ki
+
+svn add admin/ki
+
+svn ci -m "instituutin admin-tekstit" admin/ki
+
+svn mv inc/pirjo/kainun_institutti/ferdige_oversettelser/kainun_institutti_aaninayttely_kvensk_og_samisk.doc admin/ki
+
+svn ci -m "moved file" inc/pirjo/kainun_institutti/ferdige_oversettelser/kainun_institutti_aaninayttely_kvensk_og_samisk.doc admin/ki
+
+mkdir ../nob/admin/ki
+
+svn mv inc/pirjo/kainun_institutti/kainun_institutti_aaninayttely_kvensk_og_samisk.doc ../nob/admin/ki
+
+svn ci -m "moved orig nob file" inc/pirjo/kainun_institutti/kainun_institutti_aaninayttely_kvensk_og_samisk.doc ../nob/admin/ki
+
+Jokaiseen doc-tiedostoon file.doc pitää olla rinnakkais-tiedosto file.doc.xsl. Siinä pitää lukea kaikki meta-tiedot.
+
+Prosessi on selitetty [korpusmanuaalissa|http://giellatekno.uit.no/doc/ling/corpus_conversion.html].
+
+
+!Käyttöliittymä:
+
+[http://gtweb.uit.no/f_korp/]
+ 
+
+
+!!!Muut asiat
+
+*Seuraava kokous elokuussa
+*Tarvittaessa adhoc-kokous
+
