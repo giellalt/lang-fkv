@@ -40,6 +40,8 @@ täysi:täyte          a_31si ;
 
 tyven               a_32 ; !!= * @CODE@
 
+vasen:vase 			a_32m ;
+
 !! !!3.3 Kokoontuma
  
 rakas:rakk          a_33s ;
@@ -755,19 +757,19 @@ ihana a_22odd ;
 tieđonankara a_22odd ;
 ahkera a_22odd ;
 uuttera a_22odd ;
-pystösuora a_x ;
+pystösuora a_21 ;
 fasta a_21 ;
 yhtheenhenkkaava a_22odd ;
-seuraava a_x ;
-mahtaava a_x ;
-loistaava a_x ;
-valttaava a_x ;
-vakava a_x ;
-herrattava a_x ;
-pulleeva a_x ;
+seuraava a_22odd ;
+mahtaava a_22odd ;
+loistaava a_22odd ;
+valttaava a_22odd ;
+vakava a_22odd ;
+herrattava a_22odd ;
+pulleeva a_22odd ;
 kiva a_21 ;
-puolikassuuva a_x ;
-leppääkassuuva a_x ;
+puolikassuuva a_22odd ;
+leppääkassuuva a_22odd ;
 laakkee:laakke a_23 ;
 vitivalkkee:vitivalkke a_23 ;
 huokkee:huokke a_23 ;
@@ -813,10 +815,10 @@ hirmuinen:hirmui a_42inenodd ;
 aktiivinen:aktiivi a_42inen ;
 venäläinen:venäläi a_42inen ;
 ryssäläinen:ryssäläi a_42inen ;
-vasen a_x ;
-vähäisen a_x ;
-tyven a_x ;
-tinatyven a_x ;
+vasen:vase a_32m ;
+vähäisen a_32m ;
+tyven a_32 ;
+tinatyven a_32 ;
 parhain a_x ;
 irtain a_x ;
 tärkkein a_x ;
@@ -955,8 +957,8 @@ läpimärkä a_21 ;
 ytelä a_22odd ;
 tyhmä a_21 ;
 jääkylmä a_21 ;
-höperä a_x ;
-näppärä a_x ;
+höperä a_22odd ;
+näppärä a_22odd ;
 käpsä a_21 ;
 näpsä a_21 ;
 yhđentekkeevä a_x ;
