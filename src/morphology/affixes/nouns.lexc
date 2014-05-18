@@ -101,7 +101,7 @@ LEXICON n_21pl	!!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
 LEXICON kk-longgparpl
  +Par:%>kk%>i2 # ;! kk ?? Tsekkaa..
 
-LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom !!joki:joke
+LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom joki:joke
 +N: x_21ie ;
 
 LEXICON x_21ie 
@@ -498,7 +498,7 @@ LEXICON obl-strong
 LEXICON gae-strong
  +Sg+Nom: Px ;   ! mattoni
  +Sg+Gen: Px ;   ! mattoni
- +Sg+Gen: R ;   ! mattoni
+! +Sg+Gen: R ;   ! mattoni
  +Pl+Nom: Px ;   ! mattoni
  +Sg+Ess:%>n%^A PxxK ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
