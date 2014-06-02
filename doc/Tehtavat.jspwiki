@@ -6,16 +6,18 @@ Tässä mennään yksityiskohtiin
 
 !!!Lista mahdollisista tehtävistä:
 
-# Lisätä nämä sanat sanakirjaan: main/words/dicts/fkvnob/inc/dagensord_missing.txt 
+# lisätä nämä sanat sanakirjaan: main/words/dicts/fkvnob/inc/dagensord_missing.txt 
 # lisätä sanakirjasanat fst:hen:
 ## käydä läpi fkv/src/morphology/stems/ ja siinä
    adverbs.lexc, adjectives.lexc, nouns.lexc, verbs.lexc
    Tiedostojen lopussa on adv_x, a_x, n_x, v_x.
    Ne pitää luokitella oikein.
+# testata lemmat ''make check'' avulla ja korjaa
+# poista kaksoiskappaleet (117 N, 96 V, 85 A)
 # lisätä sanat fkv/test/data/inc_aikamatka2.txt fst:hen
-# Lisätä sanat fkv/test/data/inc_missing_interj
-# Käydä tekstejä läpi ja lisätä puuttuvia sanoja
-# Miettiä, oliko fkv/morphology/stems/numerals.lexc hyvä idea
+# lisätä sanat fkv/test/data/inc_missing_interj
+# käydä tekstejä läpi ja lisätä puuttuvia sanoja
+# miettiä, oliko fkv/morphology/stems/numerals.lexc hyvä idea
  
 Lisätä fst-hen:
 
