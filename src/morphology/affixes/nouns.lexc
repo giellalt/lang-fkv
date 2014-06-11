@@ -288,21 +288,21 @@ LEXICON n_32m !!= @CODE@ elläin elläi
 
 
 LEXICON x_32m !!= @CODE@ 
-+N+Sg+Nom:%^WGn K ;
-+N+Sg+Nom:%^WGn R ;
-+N:me weak-v-stem ;
-+N:%^WGn long-par ;
-+N:me obl-strong ;
-+N+Sg+Gen:me%>n K ;
-+N:me 2TAVU_V_ill_sg ;
-+N:me obl-strong ;
-+N:me 2TAVU_V_ill_sg ;
-+N+Sg:me sgpl-cases-long ;      
-+N+Pl:m%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
-+N+Pl:mi%>i2 longparpl ;
-+N+Pl:mi%>i2 longgenpl ;
-+N+Pl:m%^HMETAh%>i2i shortestillpl;
-+N+Pl+Com:m%>i2ne K ;
++Sg+Nom:%^WGn K ;
++Sg+Nom:%^WGn R ;
+:me weak-v-stem ;
+:%^WGn long-par ;
+:me obl-strong ;
++Sg+Gen:me%>n K ;
+:me 2TAVU_V_ill_sg ;
+:me obl-strong ;
+:me 2TAVU_V_ill_sg ;
++Sg:me sgpl-cases-long ;      
++Pl:m%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
++Pl:mi%>i2 longparpl ;
++Pl:mi%>i2 longgenpl ;
++Pl:m%^HMETAh%>i2i shortestillpl;
++Pl+Com:m%>i2ne K ;
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
