@@ -407,7 +407,7 @@ LEXICON n_42odd !!= @CODE@ ihminen
 
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
  +N+Pl+Nom:%>set K ;
- +N+Pl+Ess:%>i2%>nn%^A PxxK ;
+ +N+Pl+Ess:s%>i2%>nn%^A PxxK ;
  +N+Pl:s%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
  +N+Pl:s consgenpl ;
  +N+Pl:s%>i2 shortparpl ;
