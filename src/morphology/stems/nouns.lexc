@@ -74,6 +74,7 @@ valo            n_21 ;
 maito           n_21 ;
 suomi:suome     n_21ie ;
 poika:poi6ka    n_21 ; 
+housut:housu    n_21pl ;
 
                                                     
 !! !!2.2. Usseempitavvuiset lyhykäisvokaaliset rangat 
@@ -3697,7 +3698,6 @@ aivot:aivo n_21pl ;
 kasvot:kasvo n_21pl ;
 piđot:piđo n_21pl ;
 prakut:praku n_21pl ;
-housut:housu n_21pl ;
 villahousut:villahousu n_21pl ;
 uimahousut:uimahousu n_21pl ;
 palonkihousut:palonkihousu n_21pl ;
@@ -4085,7 +4085,7 @@ metrostašuuni n_22odd ;
 vesipumppustašuuni n_22odd ;
 koulutusinstitušuuni n_22odd ;
 hietadyyni n_21 ;
-kalalampi n_x ;
+kalalampi:kalalam n_31m ;
 mangruuvisaari n_31 ;
 reservuaari n_22odd ;
 polderi n_22odd ;
@@ -4121,9 +4121,9 @@ dikti n_22odd ;
 punkti n_22odd ;
 akvedukti n_22odd ;
 perisynti n_21 ;
-käynti n_x ;
-oikkeuđenkäynti n_x ;
-koulunkäynti n_x ;
+käynti n_22odd ;
+oikkeuđenkäynti n_22odd ;
+koulunkäynti n_22odd ;
 vanhoittenkoti n_21 ;
 resepti n_22odd ;
 manuskripti n_22odd ;
