@@ -1,8 +1,8 @@
 
-! ======================================================================== 
-!!               !!!Kven morphological transducer                          
-! ======================================================================== 
- 
+! ========================================================================
+!!               !!!Kven morphological transducer
+! ========================================================================
+
 
 ! Beware of remnants from the Finnish file
 ! Take nothing at face value!
@@ -12,11 +12,11 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !!  !!Tags for POS
  +N +A +Adv +V                                 !!≈ ; @CODE@ : Open POS's
  +Pron +CS +CC +Interj +Pcle				   !!≈ ; @CODE@ : Closed POS
- 
-!!  !!Tags for grammar 
+
+!!  !!Tags for grammar
  +Pers +Dem +Interr +Refl +Recipr +Rel +Indef +Qu  !!≈ ; @CODE@ : Pronoun types
  +Sg +Pl 									       !!≈ ; @CODE@ : Number
- +Nom +Gen +Ine +Ill +Ela +Ade +Abe +All +Abl      !!≈ ; @CODE@ : 
+ +Nom +Gen +Ine +Ill +Ela +Ade +Abe +All +Abl      !!≈ ; @CODE@ :
  +Ess +Tra +Ins +Com +Par					   !!≈ ; @CODE@ : Case
  +Comp +Superl     							   !!≈ ; @CODE@ : Comparatives
  +Clt		  								   !!≈ ; @CODE@ : Clitic
@@ -24,7 +24,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Inf  +PrsPrc +PrfPrc +Inf3				   !!≈ ; @CODE@ : Infinite verbs
  +CLB +PUNCT +HYPH							   !!≈ ; @CODE@ : Punctuation
  +Attr
-!!  !!Phonological symbols 
+!!  !!Phonological symbols
  p1 t1 k1				 !!≈ ; @CODE@ : For cons grad -- in use at all?
  i2 i3 i4 i5 i6	i7		 !!≈ ; @CODE@ : For vowel change -- i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = contr verb cond
  t2 ! 					 !!≈ ; @CODE@ : katt2oma always tt, underlying -ts-
@@ -80,7 +80,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ! =================================================
 ! !!Basic lexica, pointing to the other lexicon files
 ! =================================================
-  
+
 LEXICON Root
  NounRoot ;
  ProperNoun ;
@@ -97,8 +97,8 @@ LEXICON Root
  Pronoun ;
  Punctuation ;
  Particle  ;
- 
- 
+
+
 ! Numeral ;
 ! Punctuation ;
 
