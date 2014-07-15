@@ -8,6 +8,7 @@
 
 !!  2007 s.87
 !! * 1. Yksitavuiset / Vi ( maa, tuorestai)		 = n_1
+!! * 1.1. Yksitavuiset monikko/ Vi ( häät)		 = n_1pl
 !! * 2. Vokaalirankaiset						 
 !! ** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
 !! *** 2.1.1. Kaksitavuiset monikko (housut)     = n_21pl
@@ -66,6 +67,18 @@ LEXICON n_1 !!= * @CODE@ = maa
  +Sg+Ess:%>n%^A PxxK ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
+LEXICON n_1pl !!= * @CODE@ = häät
+
+ +N: long-par ;
+ +N: weak-v-stem ;
++N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Pl+Com:%>i2ne K ;
+
+ +N: 1TAVU_VV-ill ;
+ +N+Pl:%>i2 longgenpl ;
+ +N+Pl:%>i2 longparpl ;
+ +N+Pl:%>i2 shortillpl ;
+ +Pl+Ess:%>i2%>n%^A PxxK ;
 
 LEXICON n_21C !!= * @CODE@  
 +N+Sg+Nom:  K    ; ! Hans
