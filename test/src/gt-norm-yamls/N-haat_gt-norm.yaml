@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - häät - ei tsekattu : # Noun 'borg' - eu tsekattu
+     häät+N+Pl+Nom: häät
+     häät+N+Pl+Gen: häitten
+     häät+N+Pl+Par: häitä
+     häät+N+Pl+Tra: häiksi
+     häät+N+Pl+Abe: häittä
+     häät+N+Pl+Ine: häissä
+     häät+N+Pl+Ela: häistä
+     häät+N+Pl+Ill: häihin
+     häät+N+Pl+Ade: häilä
+     häät+N+Pl+Abl: häiltä
+     häät+N+Pl+All: häile
+     häät+N+Pl+Ess: häinä
+     häät+N+Pl+Com: häine
