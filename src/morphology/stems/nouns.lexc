@@ -10,6 +10,7 @@ LEXICON NounRoot !!= @CODE@
 
 !!  2007 s.87
 !! * 1. Yksitavuiset / Vi ( maa, tuorestai)		 = n_1
+!! * 1.1. Yksitavuiset monikko/ Vi ( häät)		 = n_1pl
 !! * 2. Vokaalirankaiset						 = 
 !! ** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
 !! *** 2.1.1. Kaksitavuiset monikko (housut)     = n_21pl
@@ -51,6 +52,7 @@ tuorestai n_1 ;
 helluntai n_1 ;
 sää n_1 ;
 syy n_1 ;
+häät:hää n_1pl ;
 
 
 
@@ -3703,7 +3705,7 @@ uimahousut:uimahousu n_21pl ;
 palonkihousut:palonkihousu n_21pl ;
 alushousut:alushousu n_21pl ;
 kevät:kevä n_21pl ;
-häät:hää n_x ;
+häät:hää n_1pl ;
 sakset:sakse n_42pl ;
 seulavaiset:seulavai n_42pl ;
 tervheiset:tervhei n_42pl ;
@@ -4644,7 +4646,7 @@ väävitoolit:väävitooli n_21pl ;
 mattafillerit:mattafilleri n_x ;
 rauhankirkonmenot:rauhankirkonmeno n_21pl ;
 
-kangaspuut:kangaspuu n_x ;
+kangaspuut:kangaspuu n_1pl ;
 käsikärröt:käsikärrö n_x ;
 joukhainen:joukhai n_42 ;
 kuukhainen:kuukhai n_42 ;
