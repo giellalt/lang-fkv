@@ -34,6 +34,7 @@
 !! ***3.3.2.1 (kirves)							 = n_33ts
 !! * 4. Ekstrakonsonanttirankaiset				  
 !! ** 4.1 veres-nominit ( veres, kokkous)		 = n_41
+!! ** 4.1.1. veres-nominit monikko ( veljekset)		= n_41pl
 !! ** 4.2 –inen-nominit ( kainulainen)			 = n_42 = nen
 !! *** 4.2.1 -inen-nominit Pl (tervheiset)		 = n_42pl = nen
 !! *** 4.2.2 -inen-nominit odd (vihrinen)		 = n_42odd = nen
@@ -401,6 +402,17 @@ LEXICON n_41 !!= * @CODE@ = veres
 
 LEXICON s_kse
 +N:%^WG # ;
+
+LEXICON n_41pl !!= * @CODE@ = veljekset
++N+Pl+Nom:%>kset K ;
++N:kse loput ;
++N+Pl+Gen:%>sten K ;
++N+Pl+Par:%>ksii K ;
++N+Pl+Ess:ks%>i2%>nn%^A PxxK ;
++N+Pl+Ill:ksh%>i2in K ;
++N+Pl+Com:ks%>i2ne K ;
+
+
 
 !LEXICON et_he
 !+N:%^WG # ;
