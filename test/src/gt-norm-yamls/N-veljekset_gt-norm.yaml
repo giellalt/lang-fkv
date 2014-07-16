@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - veljekset - ei tsekattu : # Noun 'brødre' - ei tsekattu
+     veljekset+N+Pl+Nom: veljekset
+     veljekset+N+Pl+Gen: veljesten
+     veljekset+N+Pl+Par: veljeksii
+     veljekset+N+Pl+Tra: veljeksiksi
+     veljekset+N+Pl+Abe: veljeksittä
+     veljekset+N+Pl+Ine: veljeksissä
+     veljekset+N+Pl+Ela: veljeksistä
+     veljekset+N+Pl+Ill: veljekshiin
+     veljekset+N+Pl+Ade: veljeksillä
+     veljekset+N+Pl+Abl: veljeksiltä
+     veljekset+N+Pl+All: veljeksille
+     veljekset+N+Pl+Ess: veljeksinnä
+     veljekset+N+Pl+Com: veljeksine
