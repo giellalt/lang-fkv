@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - tie - ei tsekattu : # Noun 'vei' - ei tsekattu
+     tie+N+Sg+Nom: tie
+     tie+N+Sg+Gen: tien
+     tie+N+Sg+Par: tietä
+     tie+N+Sg+Tra: tieksi
+     tie+N+Sg+Abe: tiettä
+     tie+N+Sg+Ine: tiessä
+     tie+N+Sg+Ela: tiestä
+     tie+N+Sg+Ill: tiehen
+     tie+N+Sg+Ade: tielä
+     tie+N+Sg+Abl: tieltä
+     tie+N+Sg+All: tiele
+     tie+N+Sg+Ess: tienä
+     tie+N+Pl+Nom: tiet
+     tie+N+Pl+Gen: teitten
+     tie+N+Pl+Par: teitä
+     tie+N+Pl+Tra: teiksi
+     tie+N+Pl+Abe: teittä
+     tie+N+Pl+Ine: teissä
+     tie+N+Pl+Ela: teistä
+     tie+N+Pl+Ill: teihiin
+     tie+N+Pl+Ade: teilä
+     tie+N+Pl+Abl: teiltä
+     tie+N+Pl+All: teile
+     tie+N+Pl+Ess: teinä
+     tie+N+Pl+Com: teine
