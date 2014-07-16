@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - tuorestai - ei tsekattu : # Noun 'torsdag' - ei tsekattu
+     tuorestai+N+Sg+Nom: tuorestai
+     tuorestai+N+Sg+Gen: tuorestain
+     tuorestai+N+Sg+Par: tuorestaita
+     tuorestai+N+Sg+Tra: tuorestaiksi
+     tuorestai+N+Sg+Abe: tuorestaitta
+     tuorestai+N+Sg+Ine: tuorestaissa
+     tuorestai+N+Sg+Ela: tuorestaista
+     tuorestai+N+Sg+Ill: tuorestaihin
+     tuorestai+N+Sg+Ade: tuorestaila
+     tuorestai+N+Sg+Abl: tuorestailta
+     tuorestai+N+Sg+All: tuorestaile
+     tuorestai+N+Sg+Ess: tuorestaina
+     tuorestai+N+Pl+Nom: tuorestait
+     tuorestai+N+Pl+Gen: tuorestaitten
+     tuorestai+N+Pl+Par: tuorestaita
+     tuorestai+N+Pl+Tra: tuorestaiksi
+     tuorestai+N+Pl+Abe: tuorestaitta
+     tuorestai+N+Pl+Ine: tuorestaissa
+     tuorestai+N+Pl+Ela: tuorestaista
+     tuorestai+N+Pl+Ill: tuorestaihiin
+     tuorestai+N+Pl+Ade: tuorestaila
+     tuorestai+N+Pl+Abl: tuorestailta
+     tuorestai+N+Pl+All: tuorestaile
+     tuorestai+N+Pl+Ess: tuorestaina
+     tuorestai+N+Pl+Com: tuorestaine
