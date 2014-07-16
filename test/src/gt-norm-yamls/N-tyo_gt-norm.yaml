@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - työ - ei tsekattu : # Noun 'arbeid' - ei tsekattu
+     työ+N+Sg+Nom: työ
+     työ+N+Sg+Gen: työn
+     työ+N+Sg+Par: työtä
+     työ+N+Sg+Tra: työksi
+     työ+N+Sg+Abe: työttä
+     työ+N+Sg+Ine: työssä
+     työ+N+Sg+Ela: työstä
+     työ+N+Sg+Ill: työhön
+     työ+N+Sg+Ade: työlä
+     työ+N+Sg+Abl: työltä
+     työ+N+Sg+All: työle
+     työ+N+Sg+Ess: työnä
+     työ+N+Pl+Nom: työt
+     työ+N+Pl+Gen: töitten
+     työ+N+Pl+Par: töitä
+     työ+N+Pl+Tra: töiksi
+     työ+N+Pl+Abe: töittä
+     työ+N+Pl+Ine: töissä
+     työ+N+Pl+Ela: töistä
+     työ+N+Pl+Ill: töihin
+     työ+N+Pl+Ade: töilä
+     työ+N+Pl+Abl: töiltä
+     työ+N+Pl+All: töile
+     työ+N+Pl+Ess: töinä
+     työ+N+Pl+Com: töine
