@@ -83,11 +83,13 @@ LEXICON a_33t !!= @CODE@ tuoret
 LEXICON a_41 !!= * @CODE@ = veres
 +A: a_sConsCase ; !!= * @CODE@  toistaiseksi :-/
 +A:kse a_loput ;
-+A+Pl+Par:ksii K ;
-+A+Pl+Par:ksiitä K ;
++A+Pl+Gen:%>sten K ;
++A+Pl+Par:%>ksii K ;
 +A+Sg+Ill:ksheen K ;
-+A+Pl+Ill:kshiin K ;
-+A+Pl+Com:ksine K ;
++A+Pl+Ess:ks%>i2%>n%^A PxxK ;
++A+Pl+Ill:ksh%>i2in K ;
++A+Pl+Com:ks%>i2ne K ;
+
 
 
 LEXICON a_41_s_kse
