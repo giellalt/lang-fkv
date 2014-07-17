@@ -313,8 +313,8 @@ LEXICON x_32m !!= @CODE@
 :me 2TAVU_V_ill_sg ;
 +Sg:me sgpl-cases-long ;      
 +Pl:m%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
-+Pl:mi%>i2 longparpl ;
-+Pl:mi%>i2 longgenpl ;
++Pl:%>mi%>i2 longparpl ;
++Pl:mi%>i2 tt-longgenpl ;
 +Pl:m%^HMETAh%>i2i shortestillpl;
 +Pl+Com:m%>i2ne K ;
 
