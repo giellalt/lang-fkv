@@ -159,7 +159,7 @@ LEXICON x_22odd	!!= * @CODE@  meininki
 +Pl:%^WG%>i2 sgpl-cases-long ; !! the same affix in sg and pl
 +Pl:%>i2 sgpl-cases-long ; 
 : 2TAVU_V_ill_sg ;
-+Sg+Ess:%>nn%^A PxxK ;
++Sg+Ess:%>n%^A PxxK ;
 +Pl+Tra:%>i2ksi K ;
 +Pl+Tra:i%>ksi PxxK ;
 +Pl+Ess:i2%>n%^A PxxK ;
@@ -397,7 +397,7 @@ LEXICON n_41 !!= * @CODE@ = veres
 +N+Pl+Gen:%>sten K ;
 +N+Pl+Par:%>ksii K ;
 +N+Sg+Ill:ksheen K ;
-+N+Pl+Ess:ks%>i2%>nn%^A PxxK ;
++N+Pl+Ess:ks%>i2%>n%^A PxxK ;
 +N+Pl+Ill:ksh%>i2in K ;
 +N+Pl+Com:ks%>i2ne K ;
 
@@ -409,7 +409,7 @@ LEXICON n_41pl !!= * @CODE@ = veljekset
 +N:kse loput ;
 +N+Pl+Gen:%>sten K ;
 +N+Pl+Par:%>ksii K ;
-+N+Pl+Ess:ks%>i2%>nn%^A PxxK ;
++N+Pl+Ess:ks%>i2%>n%^A PxxK ;
 +N+Pl+Ill:ksh%>i2in K ;
 +N+Pl+Com:ks%>i2ne K ;
 
@@ -428,12 +428,13 @@ LEXICON n_42odd !!= @CODE@ ihminen
 +N+Sg:se sgpl-cases-long ;      !! these two lexica for cases with
 +N+Pl:s%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
 +N: nen ;
++N+Pl+Ill:sh%>i2in K ;
 +N+Pl+Com:s%>i2ne K ;
 
 
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
  +N+Pl+Nom:%>set K ;
- +N+Pl+Ess:s%>i2%>nn%^A PxxK ;
+ +N+Pl+Ess:s%>i2%>n%^A PxxK ;
  +N+Pl:s%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
  +N+Pl:s consgenpl ;
  +N+Pl:s%>i2 shortparpl ;
@@ -538,7 +539,7 @@ LEXICON sgpl-cases-short ! kaikille paitsi neljän koplalle
 LEXICON sgpl-cases-long ! neljän koplalle
  +Ade:%>ll%^A PxxK ; !! * Pitkä perusmuoto
  +All:%>lle PxxK ; !! * Pitkä perusmuoto
- +Ess:%>nn%^A PxxK ; !! * Huom... essiivi ja heikko aste
+ +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-common
