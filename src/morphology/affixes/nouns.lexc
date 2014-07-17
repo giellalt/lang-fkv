@@ -325,10 +325,11 @@ LEXICON n_32s !!= @CODE@  sairhaus
 +N:đe weak-v-stem ;
 +N:te 2TAVU_V_ill_sg ;
 +N+Sg:đe sgpl-cases-long ;
-+N+Sg:te sgpl-cases-long ;      
++N+Sg+Ess:te%>n%^A PxxK ;
++N+Pl+Ess:ks%>i2n%^A PxxK ;      
 +N+Pl:ks%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
 +N+Pl:ksi%>i2 longparpl ;
-+N+Pl:ksi%>i2 longgenpl ;
++N+Pl:ksi%>i2 tt-longgenpl ;
 +N+Pl:ks%^HMETAh%>i2i shortestillpl;
 +N+Pl+Com:ks%>i2ne K ;
 
