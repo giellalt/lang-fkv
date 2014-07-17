@@ -394,11 +394,12 @@ LEXICON n_33ts !!= @CODE@ kirves
 LEXICON n_41 !!= * @CODE@ = veres
 +N: sConsCase ; !!= * @CODE@  toistaiseksi :-/
 +N:kse loput ;
-+N+Pl+Par:ksii K ;
-+N+Pl+Par:ksiitä K ;
++N+Pl+Gen:%>sten K ;
++N+Pl+Par:%>ksii K ;
 +N+Sg+Ill:ksheen K ;
-+N+Pl+Ill:kshiin K ;
-+N+Pl+Com:ksine K ;
++N+Pl+Ess:ks%>i2%>nn%^A PxxK ;
++N+Pl+Ill:ksh%>i2in K ;
++N+Pl+Com:ks%>i2ne K ;
 
 LEXICON s_kse
 +N:%^WG # ;
