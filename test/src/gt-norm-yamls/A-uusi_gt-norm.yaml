@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - uusi - ei tsekattu : # Noun 'ny' - ei tsekattu
+     uusi+A+Sg+Nom: uusi
+     uusi+A+Sg+Gen: uuđen
+     uusi+A+Sg+Par: uutta
+     uusi+A+Sg+Tra: uuđeksi
+     uusi+A+Sg+Abe: uuđetta
+     uusi+A+Sg+Ine: uuđessa
+     uusi+A+Sg+Ela: uuđesta
+     uusi+A+Sg+Ill: uutheen
+     uusi+A+Sg+Ade: uuđela
+     uusi+A+Sg+Abl: uuđelta
+     uusi+A+Sg+All: uuđele
+     uusi+A+Sg+Ess: uutena
+     uusi+A+Pl+Nom: uuđet
+     uusi+A+Pl+Gen: uussiin
+     uusi+A+Pl+Par: uussii
+     uusi+A+Pl+Tra: uusiksi
+     uusi+A+Pl+Abe: uusitta
+     uusi+A+Pl+Ine: uusissa
+     uusi+A+Pl+Ela: uusista
+     uusi+A+Pl+Ill: uushiin
+     uusi+A+Pl+Ade: uusila
+     uusi+A+Pl+Abl: uusilta
+     uusi+A+Pl+All: uusile
+     uusi+A+Pl+Ess: uusina
+     uusi+A+Pl+Com: uusine
