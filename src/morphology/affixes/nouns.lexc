@@ -476,9 +476,9 @@ LEXICON loputjutut
  +Sg: sgpl-cases-short ;      !! these two lexica for cases with
  +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl -- tsekkaa long
  mTAVU_VV-ill ;
- +Pl:%>i2 longgenpl ;
+ +Pl:%>i2 tt-longgenpl ;
  +Pl:%>i2 longparpl ;
- +Pl:%>i2 longillpl ;
+ +Pl:%>i2ssii longillpl ;
 
 LEXICON sConsCase
  +Sg+Nom:%^WG%>s K ;
