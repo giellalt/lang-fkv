@@ -14,7 +14,8 @@
 !! *** 2.1.1. Kaksitavuiset monikko (housut)     = n_21pl
 !! *** 2.1.2. Kaksitavuiset (joki: joke)         = n_21ie
 !! ** 2.2. Usseempitav. (opettaaja)		      	 = n_22
-!! *** 2.2.1. Usseempitav. odd (meininki, sivakka)	= n_22odd
+!! *** 2.2.1. Usseempitav. odd (meininki, tunturi)	= n_22odd
+!! *** 2.2.2. Usseempitav. monikko oi (kulkkiija)	= n_22oi
 !! ** 2.3 Kokkoontumanom. ( valkkee)    		 = n_23
 !! ** 2.3.1 Kokkoontumanom. (assii)             = n_23ii
 !! * 3. Konsonanttirankaiset					  
@@ -165,12 +166,34 @@ LEXICON x_22odd	!!= * @CODE@  meininki
 +Pl+Ess:i2%>n%^A PxxK ;
 +Pl:%^WG%>i2 tt-longgenpl ;
 +Pl:%>i2 tt-longgenpl ;
-+Pl:%>i2i longparpl ;
++Pl:%>i2 longparpl ;
 +Pl:%>i longparpl ;
 +Pl:%^WG%>i2 longparpl ;
 +Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
-+Pl+Ill:%>%^HMETAho%>i2 n-PxK ;
 +Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
++Pl+Com:%>i2ne K;
+
+LEXICON n_22oi	!!= * @CODE@  
++N: x_22oi ;
+
+LEXICON x_22oi	!!= * @CODE@  Kulkkiija
+: strong-v-stem ;
+:%^WG weak-v-stem ;
++Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
++Pl:%^WG%>i2 sgpl-cases-long ; !! the same affix in sg and pl
++Pl:%>i2 sgpl-cases-long ; 
+: 2TAVU_V_ill_sg ;
++Sg+Ess:%>n%^A PxxK ;
++Pl+Tra:%^WG%>i2ksi K ;
+!+Pl+Tra:%^WGi%>ksi PxxK ;
++Pl+Ess:%^WGi2%>n%^A PxxK ;
++Pl:%^WG%>i2 tt-longgenpl ;
++Pl:%>i2 tt-longgenpl ;
+!+Pl:%>i2 longparpl ;
+!!+Pl:%>i longparpl ;
++Pl:%^WG%>i2 longparpl ;
+!!+Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
++Pl+Ill:%>%^HMETAho%>i2 n-PxK ;
 +Pl+Com:%>i2ne K;
 
 
