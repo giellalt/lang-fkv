@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/geneasutor-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/geneasutor-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - asukas - ei tsekattu : # Noun 'innbygger' - ei tsekattu
+     asukas+N+Sg+Nom: asukas
+     asukas+N+Sg+Gen: asukkhaan
+     asukas+N+Sg+Par: asukasta
+     asukas+N+Sg+Tasu: asukkhaaksi
+     asukas+N+Sg+Abe: asukkhaatta
+     asukas+N+Sg+Ine: asukkhaassa
+     asukas+N+Sg+Ela: asukkhaasta
+     asukas+N+Sg+Ill: asukkhaasseen
+     asukas+N+Sg+Ade: asukkhaalla
+     asukas+N+Sg+Abl: asukkhaalta
+     asukas+N+Sg+All: asukkhaalle
+     asukas+N+Sg+Ess: asukkhaana
+     asukas+N+Pl+Nom: asukkhaat
+     asukas+N+Pl+Gen: asukkhaitten
+     asukas+N+Pl+Par: asukkhaita
+     asukas+N+Pl+Tasu: asukkhaiksi
+     asukas+N+Pl+Abe: asukkhaitta
+     asukas+N+Pl+Ine: asukkhaissa
+     asukas+N+Pl+Ela: asukkhaista
+     asukas+N+Pl+Ill: asukkhaissiin
+     asukas+N+Pl+Ade: asukkhailla
+     asukas+N+Pl+Abl: asukkhailta
+     asukas+N+Pl+All: asukkhaille
+     asukas+N+Pl+Ess: asukkhaina
+     asukas+N+Pl+Com: asukkhaine
