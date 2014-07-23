@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - perintö - ei tsekattu : # Noun 'arv' - ei tsekattu
+     perintö+N+Sg+Nom: perintö
+     perintö+N+Sg+Gen: perinnön
+     perintö+N+Sg+Par: perinttöö
+     perintö+N+Sg+Tra: perinnöksi
+     perintö+N+Sg+Abe: perinnöttä
+     perintö+N+Sg+Ine: perinnössä
+     perintö+N+Sg+Ela: perinnöstä
+     perintö+N+Sg+Ill: perinthöön
+     perintö+N+Sg+Ade: perinnöllä
+     perintö+N+Sg+Abl: perinnöltä
+     perintö+N+Sg+All: perinnölle
+     perintö+N+Sg+Ess: perintönä
+     perintö+N+Pl+Nom: perinnöt
+     perintö+N+Pl+Gen: perinnöitten
+     perintö+N+Pl+Par: perinnöittä
+     perintö+N+Pl+Tra: perinnöiksi
+     perintö+N+Pl+Abe: perinnöitä
+     perintö+N+Pl+Ine: perinnöissä
+     perintö+N+Pl+Ela: perinnöistä
+     perintö+N+Pl+Ill: perinthöihiin
+     perintö+N+Pl+Ade: perinnöillä
+     perintö+N+Pl+Abl: perinnöiltä
+     perintö+N+Pl+All: perinnöille
+     perintö+N+Pl+Ess: perintöinä
+     perintö+N+Pl+Com: perintöine
