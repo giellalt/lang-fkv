@@ -38,7 +38,7 @@ LEXICON a_23	!!= * @CODE@  pimmee
 LEXICON a_31	!!= @CODE@  pieni
 +A+Sg+Nom:%^E2I K ; ! %^E2I e to i
 +A+Sg+Nom:%%^E2I R ; ! %^E2I e to i
-+A:%^EDEL a_long-par ;
++A:%^EDEL long-par-sg ;
 +A: a_obl-strong ;   
 +A:%^WG a_weak-v-stem ;
 +A+Sg:%^WG a_sgpl-cases-short ;      !! these two lexica for cases with
@@ -47,7 +47,6 @@ LEXICON a_31	!!= @CODE@  pieni
 +A+Pl:%^E2I%^HMETAhii a_shortestillpl ;
 +A+Pl:%>i2 a_shortparpl	 ;
 +A+Pl:%>i2 a_shortgenpl	 ;
-+A+Pl:%^EDEL a_consgenpl ;
 +A+Pl+Com:%>i2ne K ;
 
 LEXICON a_31si	!!= @CODE@ uusi
