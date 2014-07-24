@@ -204,12 +204,12 @@ LEXICON n_23ii	!!= * @CODE@  assii
 +N+Pl+Ill:ssiin K ;
 +N: long-par-sg ;
 +N+Pl: longparpl ;
-+N: obl-strong ;
+!+N: obl-strong ; Denne gir feil ess
 +N+Pl: tt-longgenpl ;
 +N: weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;   !! * @CODE@  for same affix in sg and pl
 +N+Pl:%^WG sgpl-cases-short ;  !! * @CODE@  for same affix in sg and pl
-+N+Pl+Ess:%>n%^A PxxK ;
+!!+N+Pl+Ess:%>n%^A PxxK ;
 +N+Pl+Com:%>ne K ;
 
 LEXICON n_23	!!= * @CODE@  valkkee
