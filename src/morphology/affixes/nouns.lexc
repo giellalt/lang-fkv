@@ -467,13 +467,13 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
  :se gae-strong ;
  +Pl+kom:sine K ;
  :se weak-v-stem ;
- :s long-par ;
+ :s long-par-sg ;
  :se 2TAVU_V_ill_sg ;
  +Pl+Ill:sh%>i2in K ;
- +Pl:s%>i2 shortgenpl ; ! naisien
+ !+Pl:s%>i2 shortgenpl ; ! naisien
  +Pl:s consgenpl ;
- +Pl:ss%>i2 shortparpl ;
- +Pl:ss%>i2 shorterillpl ;
+ +Pl:ss%>i2i shortestparpl ;
+ +Pl:sh%>i2 shorterillpl ;
  +Pl+Com:s%>i2ne K ;
 
 
