@@ -385,11 +385,11 @@ LEXICON x_33s
 
 LEXICON n_33si !!= @CODE@ ruvis
 +N:i sConsCase ; ! nom, par
-+N:hii loput ; 
++N:hii loputjutut ; 
 +N+Sg:hii sgpl-cases-short ;
 +N+Pl:hii sgpl-cases-short ;
 +N+Pl:hi%>i2 longparpl ;
-+N+Pl:hi%>i2 longgenpl ;
++N+Pl:hi%>i2 tt-longgenpl ;
 +N+Pl+Ess:hi%>i2%>n%^A PxxK ;
 +N+Sg+Ill:%>hiisseen K ;
 +N+Pl+Ill:hi%>i2ssiin K ;
