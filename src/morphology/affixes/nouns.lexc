@@ -158,17 +158,17 @@ LEXICON x_22odd	!!= * @CODE@  meininki
 :%^WG weak-v-stem ;
 +Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
 +Pl:%^WG%>i2 sgpl-cases-long ; !! the same affix in sg and pl
-+Pl:%>i2 sgpl-cases-long ; 
++Pl:%^WG%>i2 sgpl-cases-long ; 
 : 2TAVU_V_ill_sg ;
 +Sg+Ess:%>n%^A PxxK ;
-+Pl+Tra:%>i2ksi K ;
+!+Pl+Tra:%>i2ksi K ;
 +Pl+Tra:i%>ksi PxxK ;
 +Pl+Ess:i2%>n%^A PxxK ;
 +Pl:%^WG%>i2 tt-longgenpl ;
-+Pl:%>i2 tt-longgenpl ;
+!+Pl:%>i2 tt-longgenpl ;
 +Pl:%>i2 longparpl ;
-+Pl:%>i longparpl ;
-+Pl:%^WG%>i2 longparpl ;
+!+Pl:%>i longparpl ;
+!+Pl:%^WG%>i2 longparpl ;
 +Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
 +Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
 +Pl+Com:%>i2ne K;
