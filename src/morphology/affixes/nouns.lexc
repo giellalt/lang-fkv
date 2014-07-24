@@ -241,7 +241,7 @@ LEXICON n_31	!!= @CODE@  kieli
 LEXICON n_31m	!!= @CODE@ lumi lu
 +N+Sg+Nom:mi K ; ! %^EI e to i
 +N+Sg+Nom:mi R ; ! %^EI e to i
-+N:n long-par ;
++N:n long-par-sg ;
 +N:me obl-strong ;   
 +N:me%^WG weak-v-stem ;
 +N+Sg:me%^WG sgpl-cases-short ;      !! these two lexica for cases with
@@ -249,7 +249,7 @@ LEXICON n_31m	!!= @CODE@ lumi lu
 +N+Pl:mmi%>i2	shortestgenpl ;
 +N+Sg+Ill:m%>%^HMETAhee n-PxK ;
 +N+Pl+Ill:m%^EDEL%>hii n-PxK ;
-+N+Pl:mmi%>i2 shortparpl ;
++N+Pl:mmi%>i2 shortestparpl ;
 +N+Pl+Com:m%>i2ne K ;
 
 LEXICON n_31si	!!= @CODE@ vuosi, käsi
