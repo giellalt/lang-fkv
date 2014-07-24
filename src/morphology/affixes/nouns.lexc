@@ -60,7 +60,7 @@ LEXICON n_1 !!= * @CODE@ = maa
 +N+Pl+Com:%>i2ne K ;
 
  +N: 1TAVU_VV-ill ;
- +N+Pl:%>i2 longgenpl ;
+ +N+Pl:%>i2 tt-longgenpl ;
  +N+Pl:%>i2 longparpl ;
  +N+Pl:%>i2 shortillpl ;
  +Sg+Nom: Px ;   ! mattoni
@@ -77,7 +77,7 @@ LEXICON n_1pl !!= * @CODE@ = häät
 +N+Pl+Com:%>i2ne K ;
 
  +N: 1TAVU_VV-ill ;
- +N+Pl:%>i2 longgenpl ;
+ +N+Pl:%>i2 tt-longgenpl ;
  +N+Pl:%>i2 longparpl ;
  +N+Pl:%>i2 shortillpl ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
@@ -640,7 +640,7 @@ LEXICON shortparpl
  +Par:%>%^V PxxK ;
 
 LEXICON longparpl
- +Par:%>t%^A PxxK ;
+ +Par:%>t%^A PxxK ;n
 
 LEXICON shortestillpl
  +Ill:%> n-PxK ;
