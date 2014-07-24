@@ -230,7 +230,7 @@ LEXICON n_23	!!= * @CODE@  valkkee
 LEXICON n_31	!!= @CODE@  kieli
 +N+Sg+Nom:%^E2I K ; ! %^E2I e to i
 +N+Sg+Nom:%%^E2I R ; ! %^E2I e to i
-+N:%^EDEL long-par ;
++N:%^EDEL long-par-sg ;
 +N: obl-strong ;   
 +N:%^WG weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;    !! * @CODE@  for same affix in sg and pl
