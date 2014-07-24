@@ -343,8 +343,8 @@ LEXICON x_32m !!= @CODE@
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
-+N:t long-par ;
-+N:te obl-strong ;
++N+Sg+Par:tt%^A PxxK ;
+!+N:te obl-strong ;
 +N:đe weak-v-stem ;
 +N:te 2TAVU_V_ill_sg ;
 +N+Sg:đe sgpl-cases-long ;
