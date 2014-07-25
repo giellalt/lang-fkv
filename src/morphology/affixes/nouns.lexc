@@ -288,14 +288,17 @@ LEXICON n_31lapsi	!!= @CODE@ lapsi la
 LEXICON n_31mies	!!= @CODE@ mies mie
 +N+Sg+Nom:s K ; ! %^EI e to i
 +N+Sg+Nom:s R ; ! %^EI e to i
-+N:s long-par ;
++N+Sg+Gen:hen K ;
++N:s long-par-sg ;
 +N:he obl-strong ;   
-+N:he%^WG weak-v-stem ;
++N+Sg:he%^WG weak-v-stem ;
++N+Pl+Nom:het K ;
 +N+Sg:he%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:he%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Pl:h%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N+Pl:hi%>i2	shortestgenpl ;
-+N+Sg+Ill:%>%^HMETAhee n-PxK ;
-+N+Pl+Ill:%^EDEL%>hii n-PxK ;
++Pl:h%>i2i shortestparpl ;
++N+Sg+Ill:h%>%^HMETAhee n-PxK ;
++N+Pl+Ill:hhii n-PxK ;
 +N+Pl:hi%>i2 shortparpl ;
 +N+Pl+Com:h%>i2ne K ;
 
