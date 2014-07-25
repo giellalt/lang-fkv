@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - mies - ok : # Noun 'mann' - ei tsekattu
+     mies+N+Sg+Nom: mies
+     mies+N+Sg+Gen: miehen
+     mies+N+Sg+Par: miestä
+     mies+N+Sg+Tra: mieheksi
+     mies+N+Sg+Abe: miehettä
+     mies+N+Sg+Ine: miehessä
+     mies+N+Sg+Ela: miehestä
+     mies+N+Sg+Ill: miehheen
+     mies+N+Sg+Ade: miehelä
+     mies+N+Sg+Abl: mieheltä
+     mies+N+Sg+All: miehele
+     mies+N+Sg+Ess: miehenä
+     mies+N+Pl+Nom: miehet
+     mies+N+Pl+Gen: miehiin
+     mies+N+Pl+Par: miehii
+     mies+N+Pl+Tra: miehiksi
+     mies+N+Pl+Abe: miehittä
+     mies+N+Pl+Ine: miehissä
+     mies+N+Pl+Ela: miehistä
+     mies+N+Pl+Ill: miehhiin
+     mies+N+Pl+Ade: miehilä
+     mies+N+Pl+Abl: miehiltä
+     mies+N+Pl+All: miehile
+     mies+N+Pl+Ess: miehinä
+     mies+N+Pl+Com: miehine
