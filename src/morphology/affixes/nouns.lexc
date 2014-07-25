@@ -206,7 +206,8 @@ LEXICON n_23ii	!!= * @CODE@  assii
 +N: weak-v-stem ;
 +N+Sg:%^WG sgpl-cases-short ;   !! * @CODE@  for same affix in sg and pl
 +N+Pl:%^WG sgpl-cases-short ;  !! * @CODE@  for same affix in sg and pl
-!!+N+Pl+Ess:%>n%^A PxxK ;
++N+Sg+Ess:%>n%^A PxxK ;
++N+Pl+Ess:%>n%^A PxxK ;
 +N+Pl+Com:%>ne K ;
 
 LEXICON n_23	!!= * @CODE@  valkkee
@@ -219,7 +220,8 @@ LEXICON n_23	!!= * @CODE@  valkkee
 +N:e long-par-sg ;
 +N+Pl:e%>i2 longparpl ;
 +N+Pl:e%>i2 tt-longgenpl ;
-+N+Pl:e%>i2 sgpl-cases-short ; 
++N+Pl:e%>i2 sgpl-cases-short ;
++N+Sg+Ess:ena PxxK ; 
 +N+Pl+Ess:e%>i2n%^A PxxK ;
 +N+Pl+Com:e%>i2ne K ;
 
@@ -568,13 +570,13 @@ LEXICON gae-strong
 LEXICON sgpl-cases-short ! kaikille paitsi neljän koplalle
  +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto vuođela
  +All:%>le PxxK ; !! * Lyhyt perusmuoto
- +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
+! +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-long ! neljän koplalle
  +Ade:%>ll%^A PxxK ; !! * Pitkä perusmuoto
  +All:%>lle PxxK ; !! * Pitkä perusmuoto
- +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
+! +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-common
@@ -584,6 +586,9 @@ LEXICON sgpl-cases-common
  +Tra:%>ksi K ;
  +Tra:%>kse Pxx ;
  +Abe:%>tt%^A PxxK ;
+ 
+LEXICON ess
+ +Ess:%>n%^A PxxK ; ! Essiivillä aina Eiran gramatiikin mukaan lyhytmuoto
 
 LEXICON com 
 !! Komitatiivilla on vain -ine ja menee Pxx:iin
