@@ -273,12 +273,13 @@ LEXICON n_31si	!!= @CODE@ vuosi, käsi
 LEXICON n_31lapsi	!!= @CODE@ lapsi la
 +N+Sg+Nom:psi K ; ! %^EI e to i
 +N+Sg+Nom:psi R ; ! %^EI e to i
-+N:s long-par ;
++N:s long-par-sg ;
 +N:pse obl-strong ;   
 +N:pse%^WG weak-v-stem ;
 +N+Sg:pse%^WG sgpl-cases-short ;      !! these two lexica for cases with
 +N+Pl:ps%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 +N+Pl:psi%>i2	shortestgenpl ;
++Pl:ps%>i2i shortestparpl ;
 +N+Sg+Ill:ps%>%^HMETAhee n-PxK ;
 +N+Pl+Ill:ps%^EDEL%>hii n-PxK ;
 +N+Pl:psi%>i2 shortparpl ;
