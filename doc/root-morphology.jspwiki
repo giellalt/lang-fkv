@@ -1,5 +1,5 @@
 
-              !!!Kven morphological transducer                          
+              !!!Kven morphological transducer
 
 
 
@@ -9,17 +9,17 @@
  ; +N +A +Adv +V : Open POS's
  ; +Pron +CS +CC +Interj +Pcle				 : Closed POS
 
- !!Tags for grammar 
+ !!Tags for grammar
  ; +Pers +Dem +Interr +Refl +Recipr +Rel +Indef +Qu : Pronoun types
  ; +Sg +Pl 									 : Number
- ; +Nom +Gen +Ine +Ill +Ela +Ade +Abe +All +Abl : 
+ ; +Nom +Gen +Ine +Ill +Ela +Ade +Abe +All +Abl :
  ; +Ess +Tra +Ins +Com +Par					 : Case
  ; +Comp +Superl 							 : Comparatives
  ; +Clt		 								 : Clitic
  ; +Pass +Ind +Prs +Prt +Imprt +Cond +Pot		 : Finite verbs
  ; +Inf +PrsPrc +PrfPrc +Inf3				 : Infinite verbs
  ; +CLB +PUNCT +HYPH							 : Punctuation
- !!Phonological symbols 
+ !!Phonological symbols
  ; p1 t1 k1				 : For cons grad -- in use at all?
  ; i2 i3 i4 i5 i6	i7		 : For vowel change -- i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = contr verb cond
  ; t2 ! 					 : katt2oma always tt, underlying -ts-
