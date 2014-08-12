@@ -1,0 +1,13 @@
+
+
+!!!Kaisa Maliniemi
+
+Her er min tilstandsrapport i forhold til språkarbeid (på finsk):
+
+# uudistettu analyysiprogrammi yligeneroi lähes kaikki yamlin sanat. Olen korjannut suurimman osan niistä.
+# Eiran gramatiikin mukaan essivissä aina lyhyt muoto . Olen korjaillut essiivit yamliin ja lex-tiedostoihin, mutta lex-testeissä voi vielä olla pieniä ongelmia, jos essiivi on yhdistettynä  usean sanaluokan kattavaan sääntöön. Tämän ehkäisemiseksi olen tehnyt essiiville oman lex-säännön.
+# olen lisännyt uusia luokkia  lexeihin ja sanoja ymliiin
+# loput- ja loput jutut-sääntöjä muokattu
+#meininki-sanallla ei geminaatiota essiivissä ja komitatiivissa, mutta testit vaativat sen. Vika luultavasti twolc:ssa
+# testit antavat pitkien vokaalien yhteydeessä -ta, -pa, ka ja -sa nominien monikossa ja verbien konditionaalissa, kts saađa tai häät. Vika todennäköisesti twolcissa.
+# veljekset ja veres sanojen monikon genetiivi on veljesten ja veresten, ei veljeksitten tai vereksitten. Usen sanaluokan kattava sääntö ei toimi tässa, koska näiden sanojen monikon pääte on poikkeuksellinen. Eli vika affiksi-säännöissä.
