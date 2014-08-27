@@ -450,7 +450,7 @@ LEXICON jokai_kvant
 ! +Nom:       # ;
  
 LEXICON ainut_kvant
- +Nom:       K ;
+ +Nom:a       K ;
  +Gen:an     K ;
  +Ill:aan    K ;
  +Par:asta   K ;
@@ -462,6 +462,18 @@ LEXICON ainut_kvant
  +Ade:ala    K ;
  +Abl:alta   K ;
 
+LEXICON plainut_kvant
+ +Nom:at       K ;
+ +Gen:oin     K ;
+ +Ill:ossiin    K ;
+ +Par:oista   K ;
+ +Ess:aina    K ;
+ +Tra:aiksi   K ;
+ +Ine:oissa   K ;
+ +Ela:oista   K ;
+ +All:oile    K ;
+ +Ade:oila    K ;
+ +Abl:oilta   K ;
 
 LEXICON itte_kvant
 +Attr:e     K ;
