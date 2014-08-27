@@ -90,6 +90,7 @@ jokhainen+Pron+Qu:jokhai                jokai_kvant ;
 
 joka+Pron+Qu+Attr:joka                  # ;
 ainua+Pron+Qu:ainu                      ainut_kvant ;
+ainua+Pron+Qu:ainu                      plainut_kvant ;
 
 itte+Pron+Qu:itt                        itte_kvant ;
 kukin+Pron+Qu:ku                        kukin_kvant ;
@@ -118,28 +119,29 @@ ussee+Pron+Qu+Pl:ushe                 plushe_kvant ;
 ussee+Pron+Qu+Pl:us                   plus_kvant ;
 paljo+Pron+Qu+Pl:paljo                plpaljo_kvant ;
 monta+Pron+Qu:mon                     plmon_kvant ;
+harva+Pron+Qu:harv                    ainut_kvant ;
+harva+Pron+Qu:harv                    plainut_kvant ;
 
 
-
-!
-!harva
-!muu
-!muuan
-!eräs
-!kenkään
-!mikin kvant
-!jokin kvant
-!eri
-!itte
-!kaikenlainen
-!kekkä
-!koko
-!meikäläinen
-!minkälainen
-!molemat
-!muuđan kvant
-!sama
-!tuomoinen
-!yksikhään
+!!Sannoi_ja_haamui_pronominit
+!!harva lukumäärä
+!!muu pron. muistuttava sana
+!!muuan
+!!eräs
+!!kenkään
+!!mikin kvant
+!!jokin kvant
+!!eri pron. muistuttava sana
+!!itte pron. muistuttava sana
+!!kaikenlainen
+!!kekkä
+!!koko
+!!meikäläinen
+!!minkälainen
+!!molemat
+!!muuđan kvant
+!!sama pron. muistuttava sana
+!!tuomoinen
+!!yksikhään
 
 
