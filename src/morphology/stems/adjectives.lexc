@@ -13,7 +13,6 @@ LEXICON AdjectiveRoot
 laiha           a_21 ; !!= * @CODE@
 turha           a_21 ;
 hieno 			a_21 ; !!= * @CODE@ needs own adj lex tag
-nuori:nuore           a_21ie ;                                                    
 
 !! !!2.2. Usseempitavvuiset lyhykäisvokaaliset rangat 
 
@@ -31,6 +30,7 @@ kauhee:kauhe     a_23 ;
 !! !!3. Konsonanttirankaiset
 
 !! !!3.1. Kaksitavuiset
+nuori:nuore           a_31 ;                                                    
 
 uusi:uute            a_31si ; !!= * @CODE@
 täysi:täyte          a_31si ;
@@ -903,27 +903,25 @@ veđenpillaama a_22 ;
 ehyt:eh a_33t ;
 ohut:oh a_33t ;
 lyhyt:lyh a_33t ;
-sikkari a_x ;
+sikkari a_22odd ;
 hapan a_32m ;
 parhain a_32m ;
 irtain a_32m ;
-suipero a_x ;
+suipero a_22odd ;
 kolmas a_x ;
 paras a_x ;
 kahđekses a_x ;
 viiđes a_x ;
 tuhat a_x ;
-kokenu a_x ;
-nainu a_x ;
-oppinu a_x ;
-oppinu a_x ;
-ravistunnu a_x ;
-hermostunnu a_x ;
-vaipunu a_x ;
-ravistunu a_x ;
-hermostunu a_x ;
-suuttunu a_x ;
-suuttunu a_x ;
+kokenu a_33t ;
+nainu a_33t ;
+oppinu a_33t ;
+ravistunnu a_33t ;
+hermostunnu a_33t ;
+vaipunu a_33t ;
+ravistunu a_33t ;
+hermostunu a_33t ;
+suuttunu a_33t ;
 maalattu a_x ;
 ulkokullattu a_x ;
 kevveestisuolattu a_x ;
@@ -932,11 +930,11 @@ opetettu a_x ;
 vasittu a_x ;
 kotonakuottu a_x ;
 ! muu a_x ;
-hengestynny a_x ;
-mäđänny a_x ;
-väsyny a_x ;
-vastasyntyny a_x ;
-mäđäny a_x ;
+hengestynny a_33t ;
+mäđänny a_33t ;
+väsyny a_33t ;
+vastasyntyny a_33t ;
+mäđäny a_33t ;
 niinkäsketty a_x ;
 kylmetty a_x ;
 käytetty a_x ;
