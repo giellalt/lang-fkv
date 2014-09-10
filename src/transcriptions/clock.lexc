@@ -82,80 +82,80 @@ kaksitoista:24%:%0%0 # ; !24:00
  
  
 LEXICON BEF
-2%0:%  TOHALF ;
-21:%  TOHALF ;
-22:%  TOHALF ;
-23:%  TOHALF ;
-24:%  TOHALF ;
-25:%  TOHALF ; 
-26:%  TOHALF ; 
-27:%  TOHALF ;
-28:%  TOHALF ; 
-29:%  TOHALF ;
-3%0:%  HOUR ;
-31:%  OVERHALF ;
-32:%  OVERHALF ;
-33:%  OVERHALF ;
-neljä%_:%34 OVERHALF ;
-35:%  OVERHALF ;
-36:%  OVERHALF ;
-37:%  OVERHALF ;
-38:%  OVERHALF ; 
-39:%  OVERHALF ;
-4%0:%  OVERHALF ;
-41:%  TO ;
-42:%  TO ;
-43:%  TO ;
-44:%  TO ;
-45:%  TO ;
-46:%  TO ;
-47:%  TO ;
-48:%  TO ;
-49:%  TO ;
-5%0:%  TO ;
-51:%  TO ;
-52:%  TO ;
-53:%  TO ;
-54:%  TO ;
-55:%  TO ; 
-56:%  TO ; 
-57:%  TO ;
-58:%  TO ; 
-59:%  TO ;
+kymmenen% :%:2%0 TOHALF ;
+yhđeksen% :%:21 TOHALF ;
+kahđeksen% :%:22 TOHALF ;
+seittemen% :%:23 TOHALF ;
+kuusi% :%:24 TOHALF ;
+viisi% :%:25 TOHALF ; 
+nelje% :%:26 TOHALF ; 
+kolme% :%:27 TOHALF ;
+kaksi% :%:28 TOHALF ; 
+yksi% :%:29 TOHALF ;
+puoli% :%:3%0 HOUR ;
+yksi% :%:31  OVERHALF ;
+kaksi% :%:32 OVERHALF ;
+kolme% :%:33 OVERHALF ;
+neljä% :%:34 OVERHALF ;
+viisi% :%:35 OVERHALF ;
+kuusi% :%:36 OVERHALF ;
+seittemen% :%:37 OVERHALF ;
+kahđeksen% :%:38 OVERHALF ; 
+yhđeksen% :%:39 OVERHALF ;
+kymmenen% :%:4%0  OVERHALF ;
+yhđeksentoista% :%:41 TO ;
+kahđeksentoista% :%:42 TO ;
+seittementoista% :%:43 TO ;
+kuusitoista% :%:44 TO ;
+viisitoista% :%:45 TO ;
+neljetoista% :%:46 TO ;
+kolmetoista% :%:47 TO ;
+kaksitoista% :%:48 TO ;
+yksitoista% :%:49 TO ;
+kymmenen% :%:5%0 TO ;
+yhđeksen% :%:51 TO ;
+kahđeksen% :%:52 TO ;
+seittemen% :%:53 TO ;
+kuusi% :%:54 TO ;
+viisi% :%:55 TO ; 
+nelje% :%:56 TO ; 
+kolme% :%:57 TO ;
+kaksi% :%:58 TO ; 
+yksi% :%:59 TO ;
  
 LEXICON AFT
-%0%0:%  HOUR ;
-%01:%  OVER ;
-%02:%  OVER ;
-%03:%  OVER ;
-%04:%  OVER ;
-%05:%  OVER ;
-%06:%  OVER ;
-%07:%  OVER ;
-%08:%  OVER ;
-%09:%  OVER ;
-1%0:%  OVER ;
-11:%  OVER ;
-12:%  OVER ;
-13:%  OVER ;
-14:%  OVER ;
-15:%  OVER ;
-16:%  OVER ;
-17:%  OVER ;
-18:%  OVER ;
-19:%  OVER ;
+ :%:%0%0 HOUR ;
+yksi% :%:%01 OVER ;
+kaksi% :%:%02 OVER ;
+kolme% :%:%03 OVER ;
+nelje% :%:%04 OVER ;
+viisi% :%:%05 OVER ;
+kuusi% :%:%06 OVER ;
+seittemen% :%:%07 OVER ;
+kahđeksen% :%:%08 OVER ;
+yhđeksen% :%:%09 OVER ;
+kymmenen% :%:1%0 OVER ;
+yksitoista% :%:11 OVER ;
+kaksitoista% :%:12 OVER ;
+kolmetoista% :%:13 OVER ;
+neljetoista% :%:14 OVER ;
+viisitoista% :%:15 OVER ;
+kuusitoista% :%:16 OVER ;
+seittementoista% :%:17 OVER ;
+kahđeksentoista% :%:18 OVER ;
+yhđeksentoista% :%:19 OVER ;
  
 LEXICON TOHALF
-vaille%_puoli%_: HOUR ;
+vaille% puoli% : HOUR ;
  
 LEXICON OVERHALF
-yli%_puoli%_: HOUR ;
+yli% puoli% : HOUR ;
  
 LEXICON TO
-vaille%_: HOUR ;
+vaille% : HOUR ;
  
 LEXICON OVER
-yli%_: HOUR ;
+yli% : HOUR ;
  
 LEXICON HOUR
 yksi@U.TIME.1@:@U.TIME.1@ ENDLEX ;
