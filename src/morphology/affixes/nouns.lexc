@@ -436,7 +436,7 @@ LEXICON n_33ts !!= @CODE@ kirves
 
 LEXICON n_41 !!= * @CODE@ = veres
 +N: sConsCase ; !!= * @CODE@  toistaiseksi :-/
-+N:kse loput ;
++N:kse loput2 ;
 +N+Pl+Gen:%>sten K ;
 +N+Pl+Par:%>ksii K ;
 +N+Sg+Ill:ksheen K ;
@@ -449,7 +449,7 @@ LEXICON s_kse
 
 LEXICON n_41pl !!= * @CODE@ = veljekset
 +N+Pl+Nom:%>kset K ;
-+N:kse loput ;
++N:kse loput2 ;
 +N+Pl+Gen:%>sten K ;
 +N+Pl+Par:%>ksii K ;
 +N+Pl+Ess:ks%>i2%>n%^A PxxK ;
@@ -510,8 +510,16 @@ LEXICON loput
  +Sg: sgpl-cases-long ;      !! these two lexica for cases with
  +Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 consgenpl ;
+ +Pl:%>i2 tt-longgenpl ;
  +Pl:%>i2 shortparpl ;
 
+LEXICON loput2
+ obl-strong ; ! muut vahvat
+ weak-v-stem ;
+ +Sg: sgpl-cases-long ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl -- tsekkaa long
+ +Pl:%>i2 shortparpl ;
+ 
 LEXICON loputjutut
  obl-strong ; ! muut vahvat
  weak-v-stem ;
