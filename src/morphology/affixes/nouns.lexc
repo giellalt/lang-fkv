@@ -380,7 +380,7 @@ LEXICON n_33s !!= @CODE@ rakas
 +N: x_33s ;
 
 LEXICON x_33s
-:a sConsCase ; ! nom, par
+:a%^WG sConsCase ; ! nom, par hammas (WG)
 :haa loputjutut ;
 +Sg+Ill:haa mTAVU_VV-ill ;
 +Pl+Ill:haissiin K ;
@@ -540,9 +540,9 @@ LEXICON loputjutut
  +Pl:%>i2ssii longillpl ;
 
 LEXICON sConsCase
- +Sg+Nom:%^WG%>s K ;
- +Sg+Par:%^WG%>st%^A K ; ! Par
- +Pl+Gen:%^WG%>sten K ; ! Gen
+ +Sg+Nom:%>s K ;
+ +Sg+Par:%>st%^A K ; ! Par
+ +Pl+Gen:%>sten K ; ! Gen
 
 LEXICON tConsCase
  +Sg+Nom:%^WG%>t K ;
