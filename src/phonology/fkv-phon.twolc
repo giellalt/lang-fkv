@@ -12,7 +12,7 @@ R S T U V W X Y Z Å Ä Ö Æ Ø                 !!= * @CODE@
 %>                               !!= * @CODE@ border before inflection suffix
 i2:i i3:i i4:i i5:i i6:i i7:i    !!= * @CODE@ 
 !! **  i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = cond of contr.v.
-t2:t                      !!= * @CODE@ 
+p2:p t2:t k2:k                     !!= * @CODE@ 
 !! ** t2 = always t
 %^HMETA:0                 !!= * @CODE@ h metateesi sykshyyn
 %^WG:0                    !!= * @CODE@ weak grade hatun
@@ -494,6 +494,10 @@ k:v <=>     [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !! __@RULENAME@__ 
 k:g <=> Vowel: n _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
+"Gradation mp:mm"
+!! __@RULENAME@__ 
+p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
+
 
 !€ ranka^WG>n
 !€ ranga0>n
@@ -536,7 +540,7 @@ t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) 
 t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;  
 !t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 (%>:) \i3: ;  
     where Nx in ( l n r ) ; 
-! NB nt:nn before i3, if the vowel before i3 is not dropped out. annoin, mutta lensin, lennoin
+! NB nt:nn before i3, if the vowel before i3 is not dropped out. annoin, mutta lensin, blennoin
 
 
 !€ lentä^WG>n
