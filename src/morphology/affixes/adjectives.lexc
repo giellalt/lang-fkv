@@ -9,8 +9,9 @@ LEXICON ax  !!= @CODE@ contains unclassified adjectives.
 +A: K ; 
 
 LEXICON a_21  !!= @CODE@ corresponds to a_21 etc.
-+A: a_strong-v-stem ;
-+A:%^WG a_weak-v-stem ;
++A: x_21 ;
+!+A: a_strong-v-stem ;
+!+A:%^WG a_weak-v-stem ;
 
 LEXICON a_21ie  !!= @CODE@ corresponds to a_21ie etc.
 +A: x_21ie ;
@@ -22,47 +23,13 @@ LEXICON a_22odd	!!= * @CODE@  simppeli
 +A: x_22odd ;
 
 LEXICON a_23	!!= * @CODE@  pimmee
-+A+Sg+Nom:e K ; 
-+A+Sg:e a_sgpl-cases-short ;
-+A+Sg+Gen:en K ; 
-+A+Pl+Nom:et K ;
-+A+Sg+Ill:esseen  K ;
-+A+Pl+Ill:e%>i2ssiin K ;
-+A:e a_long-par-sg ;
-+A+Pl:e%>i2 a_longparpl ;
-+A+Pl:e%>i2 a_tt-longgenpl ;
-+A+Pl:e%>i2 a_sgpl-cases-short ; 
-+A+Pl+Ess:e%>i2n%^A PxxK ;
-+A+Pl+Com:e%>i2ne K ;
++A: x_23 ;
 
 LEXICON a_31	!!= @CODE@  pieni
-+A+Sg+Nom:%^E2I K ; ! %^E2I e to i
-+A+Sg+Nom:%%^E2I R ; ! %^E2I e to i
-+A:%^EDEL long-par-sg ;
-+A: a_obl-strong ;   
-+A:%^WG a_weak-v-stem ;
-+A+Sg:%^WG a_sgpl-cases-short ;      !! these two lexica for cases with
-+A+Pl:%>i2 a_sgpl-cases-short ;  !! the same affix in sg and pl
-+A: a_2TAVU_V_ill_sg ;
-+A+Pl:%^E2I%^HMETAhii a_shortestillpl ;
-+A+Pl:%>i2 a_shortparpl	 ;
-+A+Pl:%>i2 a_shortgenpl	 ;
-+A+Pl+Com:%>i2ne K ;
++A: x_31 ;
 
 LEXICON a_31si	!!= @CODE@ uusi
-+A+Sg+Nom:%^E2I K ; ! %^E2I e to i
-+A+Sg+Nom:%^E2I R ; ! %^E2I e to i
-+A:%^EDEL a_long-par ;
-+A: a_obl-strong ;   
-+A:%^WG a_weak-v-stem ;
-+A+Sg:%^WG a_sgpl-cases-short ;      !! these two lexica for cases with
-+A+Pl:%>i2 a_sgpl-cases-short ;  !! the same affix in sg and pl
-+A: a_2TAVU_V_ill_sg ;
-+A+Pl:%^E2I%^HMETAhii a_shortestillpl ;
-+A+Pl:%>i2 a_shortparpl	 ;
-+A+Pl:%>i2 a_shortgenpl	 ;
-+A+Pl:%^EDEL a_consgenpl ;
-+A+Pl+Com:%>i2ne K ;
++A: x_31si ;
 
 LEXICON a_32 !!= @CODE@ tyven
 +A: x_32 ;
@@ -80,14 +47,7 @@ LEXICON a_33t !!= @CODE@ tuoret
 ! comp, superl, puuttuvat
 
 LEXICON a_41 !!= * @CODE@ = veres
-+A: a_sConsCase ; !!= * @CODE@  toistaiseksi :-/
-+A:kse a_loput ;
-+A+Pl+Gen:%>sten K ;
-+A+Pl+Par:%>ksii K ;
-+A+Sg+Ill:ksheen K ;
-+A+Pl+Ess:ks%>i2%>n%^A PxxK ;
-+A+Pl+Ill:ksh%>i2in K ;
-+A+Pl+Com:ks%>i2ne K ;
++A: x_41 ;
 
 
 
@@ -96,7 +56,6 @@ LEXICON a_41_s_kse
 
 
 LEXICON adj-nen
-
 +A: nen ;
 
 LEXICON a_42inen !!= @CODE@ varovainen
@@ -111,11 +70,6 @@ adj-nen ;
 
 LEXICON a_42odd !!= @CODE@ sininen
 +A: x_42odd ;
-!+A+Sg:se a_sgpl-cases-long ;      !! these two lexica for cases with
-!+A+Pl:s%>i2 a_sgpl-cases-long ;  !! the same affix in sg and pl
-!+A+Pl:ssh%>i2 a_shorterillpl ;
-!+A: nen ;
-!+A+Pl+Com:s%>i2ne K ;
 
 
 LEXICON a_43 !!= @CODE@ muuttumaton
