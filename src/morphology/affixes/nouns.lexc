@@ -584,11 +584,11 @@ LEXICON weak-v-stem !!= @CODE@
  weak-v-stem-sg ;
  weak-v-stem-pl ;
 
-LEXICON  weak-v-stem-sg ;
+LEXICON weak-v-stem-sg
  +Sg+Gen:%>n K ;
  +Sg+Gen:%>n R ;
 
-LEXICON  weak-v-stem-pl ;
+LEXICON weak-v-stem-pl
  +Pl+Nom:%>t K ;
 ! +Pl+Ins:%>i2%>n K ;   !! Marginal case, in use only for some words.
                         !! Todo: identify these, and remove Ins from the
