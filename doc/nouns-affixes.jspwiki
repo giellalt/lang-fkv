@@ -60,6 +60,7 @@ the same affix in sg and pl
  * LEXICON n_21C   
 
  * LEXICON n_21	  "poika:poi6ka", lyhyt vokali, yks vartalo
+
 * to sgpl-cases-short for cases with
   the same affix in sg and pl
 * to shortestgenpl since we already
@@ -100,7 +101,9 @@ the same affix in sg and pl
  * LEXICON n_23	  valkkee
 
 
+
  LEXICON n_31	  kieli
+
 * LEXICON n_31	  for same affix in sg and pl
 * LEXICON n_31	  for same affix in sg and pl
 
@@ -109,6 +112,7 @@ these two lexica for cases with
 the same affix in sg and pl
 
  LEXICON n_31si	 vuosi, käsi
+
 these two lexica for cases with
 the same affix in sg and pl
 
@@ -153,7 +157,8 @@ the same affix in sg and pl
  LEXICON n_33ts  kirves
 
  * LEXICON n_41  = veres
- * +N: sConsCase ;   toistaiseksi :-/
+
+ *  sConsCase ;   toistaiseksi :-/
 
 
  * LEXICON n_41pl  = veljekset
@@ -173,6 +178,8 @@ the same affix in sg and pl
 the same affix in sg and pl
 
  LEXICON nen   on nainen-sanoille
+
+
 
 
 
@@ -197,6 +204,8 @@ Basic paradigms
  LEXICON strong-v-stem   ''Kaikki vahvan asteen sijamuodot tähän''
 
  LEXICON weak-v-stem  
+
+
 Marginal case, in use only for some words.
 Todo: identify these, and remove Ins from the
 general weak-v-stem lexicon.
