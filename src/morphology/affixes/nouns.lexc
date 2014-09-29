@@ -475,11 +475,27 @@ LEXICON n_41pl !!= * @CODE@ = veljekset
 !LEXICON et_he
 !+N:%^WG # ;
 
-LEXICON n_42 ! itse asiassa n_42even
-+N+Sg:se sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
-+N: nen ;
-+N+Pl+Com:s%>i2ne K ;
+!LEXICON n_42 ! itse asiassa n_42even
+!+N+Sg:se sgpl-cases-short ;      !! these two lexica for cases with
+!+N+Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+!+N: nen ;
+!+N+Pl+Com:s%>i2ne K ;
+
+LEXICON n_42
++N: x_42 ;
+
+LEXICON x_42 
++Sg+Nom: nen K ; 
+:se weak-v-stem ;
+:s long-par-sg ;
+:se 2TAVU_V_ill_sg ;
++Sg:se sgpl-cases-short ;      !! these two lexica for cases with
++Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++Pl:s consgenpl ;
++Pl:ss%>i2i shortestparpl ;
++Pl:sh%>i2 shorterillpl ;
++Pl+Com:s%>i2ne K;
+
 
 LEXICON n_42odd !!= @CODE@ ihminen
 +N: x_42odd ;
@@ -619,7 +635,7 @@ LEXICON gae-strong
 LEXICON sgpl-cases-short ! kaikille paitsi neljän koplalle
  +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto vuođela
  +All:%>le PxxK ; !! * Lyhyt perusmuoto
-! +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
++Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-long ! neljän koplalle
