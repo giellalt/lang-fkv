@@ -55,18 +55,21 @@ LEXICON a_41_s_kse
 +A:%^WG # ;
 
 
-LEXICON adj-nen
-+A: nen ;
+!LEXICON adj-nen
+!+A: nen ;
 
-LEXICON a_42inen !!= @CODE@ varovainen
-adj-nen ;
-+A: nen ;
-+A:s R ;
-+A:s a_long-par ;
-+A+Sg:se a_sgpl-cases-short ;      !! these two lexica for cases with
-+A+Pl:s%>i2 a_sgpl-cases-short ;  !! the same affix in sg and pl
-+A+Pl:ssh%>i2 a_shorterillpl ;
-+A+Pl+Com:s%>i2ne K ;
+!LEXICON a_42inen !!= @CODE@ varovainen
+!adj-nen ;
+!+A: nen ;
+!+A:s R ;
+!+A:s a_long-par ;
+!+A+Sg:se a_sgpl-cases-short ;      !! these two lexica for cases with
+!+A+Pl:s%>i2 a_sgpl-cases-short ;  !! the same affix in sg and pl
+!+A+Pl:ssh%>i2 a_shorterillpl ;
+!+A+Pl+Com:s%>i2ne K ;
+
+LEXICON a_42 !!= @CODE@ varovainen
++A: x_42 ;
 
 LEXICON a_42odd !!= @CODE@ sininen
 +A: x_42odd ;
