@@ -91,38 +91,44 @@ LEXICON a_43 !!= @CODE@ muuttumaton
 ! +Pl+Com:s%>i2ne K ;
 !Täytyy muokata
 
-+A+Sg+Nom:ton R ;
-!+A:ttoma a_gae-strong ;
-!+A:ttoma a_weak-v-stem ;
-+A:ton a_long-par ;
++A:ton R ;
++A:ton a_long-par-sg ;
 +A:ttoma a_2TAVU_V_ill_sg ;
 +A:ttoma a_sgpl-cases-common ;
-+A+Pl+Ill:ttom%>i2in K ;
-!+A:ttoma a_sgpl-cases-short ;
-+A:ttoma%>i2 a_shortgenpl ; ! naisien
-+A:ton a_consgenpl ;
-!+A:ttom%>i2 a_shortparpl ;
++A+Pl+Ill:ttomh%>i2in K ;
+!+A:ttoma%>i2 a_shortgenpl ; ! naisien
++A:ttomi%> a_long-par-pl;
 +A:ttomh%>i2 a_shorterillpl ;
 +A+Pl+Com:ttoma%>i2ne K ;
-+A:ttoma a_loput ;
++A:ttoma a_loputon ;
 
 LEXICON a_43odd !!= @CODE@ onneton
  
- :s R ;
- :se a_gae-strong ;
- +Pl+kom:sine K ;
- :se a_weak-v-stem ;
- :s a_long-par ;
- :se a_2TAVU_V_ill_sg ;
- +Pl+Ill:sh%>i2in K ;
- +Pl:s%>i2 a_shortgenpl ; ! naisien
- +Pl:s a_consgenpl ;
- +Pl:ss%>i2 a_shortparpl ;
- +Pl:ss%>i2 a_shorterillpl ;
- +Pl+Com:s%>i2ne K ;
+! :s R ;
+! :se a_gae-strong ;
+! +Pl+kom:sine K ;
+!:se a_weak-v-stem ;
+! :s a_long-par ;
+! :se a_2TAVU_V_ill_sg ;
+! +Pl+Ill:sh%>i2in K ;
+! +Pl:s%>i2 a_shortgenpl ; ! naisien
+! +Pl:s a_consgenpl ;
+! +Pl:ss%>i2 a_shortparpl ;
+! +Pl:ss%>i2 a_shorterillpl ;
+! +Pl+Com:s%>i2ne K ;
 !Täytyy muokata
 
-
++A:ton R ;
++A:ton K ;
++A:ton a_long-par-sg ;
++A:ttoma a_2TAVU_V_ill_sg ;
++A:ttoma a_sgpl-cases-common ;
++A+Pl+Ill:ttomh%>i2in K ;
+!+A:ttomm%>i2 a_shortestgenpl ; ! naisien
++A:ttommi%> a_long-par-pl;
++A:ttomh%>i2 a_shorterillpl ;
++A+Pl+Com:ttoma%>i2ne K ;
++A:ttoma a_loputonodd ;
 
 
 
@@ -288,17 +294,21 @@ LEXICON a_loput
  +Pl:%>i2 shortgenpl ;
  +Pl:%>i2 shortparpl ;
 
+LEXICON a_loputon
+ obl-strong ; ! muut vahvat
+ weak-v-stem ;
+ +Sg: sgpl-cases-long ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl -- tsekkaa long
+ +Pl:%>i2 shortgenpl ;
 
 
-!LEXICON a_loputjutut
-!obl-strong ; ! muut vahvat
-! weak-v-stem ;
-! +Sg: sgpl-cases-short ;      !! these two lexica for cases with
-! +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl -- tsekkaa long
-!  mTAVU_VV-ill ;
-!  +Pl:%>i2 longgenpl ;
-!  +Pl:%>i2 longparpl ;
-!  +Pl:%>i2 longillpl ;
+LEXICON a_loputonodd
+ obl-strong ; ! muut vahvat
+ weak-v-stem ;
++Sg: sgpl-cases-short ;      !! these two lexica for cases with
++Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl -- tsekkaa long
++Pl:%>i2 shortgenpl ;
+
 
 LEXICON a_sConsCase
  +Sg+Nom:%^WG%>s K ;
