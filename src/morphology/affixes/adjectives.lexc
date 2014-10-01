@@ -91,47 +91,31 @@ LEXICON a_43 !!= @CODE@ muuttumaton
 ! +Pl+Com:s%>i2ne K ;
 !Täytyy muokata
 
-!+A:ton R ;
-!+A:ton a_long-par-sg ;
+!+A
+
 +A: a_ton ;
-+A:ttoma a_2TAVU_V_ill_sg ;
-+A:ttoma a_sgpl-cases-common ;
-+A+Pl+Ill:ttomh%>i2in K ;
-!+A:ttoma%>i2 a_shortgenpl ; ! naisien
-+A:ttomi%> a_long-par-pl;
-+A:ttomh%>i2 a_shorterillpl ;
-+A+Pl+Com:ttoma%>i2ne K ;
-+A:ttoma a_loputon ;
++A:%>tt%^Omh%^A shortest-illativ-sg ;
++A:%>tt%^Om%^A a_sgpl-cases-common ;
++A+Pl+Ill:%>tt%^Omh%>i2in K ;
++A:%>tt%^Omm%^A%>i2 a_shortestgenpl ; ! naisien
++A:%>tt%^Omi%> a_long-par-pl;
++A:%>tt%^Omh%>i2 a_shorterillpl ;
++A:%>tt%^Om%^A a_loputon ; 
++A:%>tt%^Om a_loputonpl ;
++A+Pl+Com:%>tt%^Om%>i2ne K ;
 
 LEXICON a_43odd !!= @CODE@ onneton
  
-! :s R ;
-! :se a_gae-strong ;
-! +Pl+kom:sine K ;
-!:se a_weak-v-stem ;
-! :s a_long-par ;
-! :se a_2TAVU_V_ill_sg ;
-! +Pl+Ill:sh%>i2in K ;
-! +Pl:s%>i2 a_shortgenpl ; ! naisien
-! +Pl:s a_consgenpl ;
-! +Pl:ss%>i2 a_shortparpl ;
-! +Pl:ss%>i2 a_shorterillpl ;
-! +Pl+Com:s%>i2ne K ;
-!Täytyy muokata
-
-!+A:ton R ;
-!+A:ton K ;
-!+A:ton a_long-par-sg ;
 +A: a_ton ;
-+A:tt%^Om%^A a_2TAVU_V_ill_sg ;
-+A:tt%^Om%^A a_sgpl-cases-common ;
-+A+Pl+Ill:tt%^Omh%>i2in K ;
-!+A:ttOmm%>i2 a_shortestgenpl ; ! naisien
-+A:tt%Ommi%> a_long-par-pl;
-+A:tt%^Omh%>i2 a_shorterillpl ;
-+A+Pl+Com:tt%^Om%^A%>i2ne K ;
-+A:tt%^Om%^A a_loputonodd ;
-
++A:%>tt%^Omh%^A shortest-illativ-sg ;
++A:%>tt%^Om%^A a_sgpl-cases-common ;
++A+Pl+Ill:%>tt%^Omh%>i2in K ;
++A:%>tt%^Omm%^A%>i2 a_shortestgenpl ; ! naisien
++A:%>tt%^Ommi%> a_long-par-pl;
++A:%>tt%^Omh%>i2 a_shorterillpl ;
++A+Pl+Com:%>tt%^Om%>i2ne K ;
++A:%>tt%^Om%^A a_loputonodd ;
++A:%>tt%^Om a_loputonoddpl ;
 
 
 
@@ -218,7 +202,10 @@ LEXICON a_long-par-sg
 
 LEXICON a_long-par-pl
   +Pl+Par:%>i2%>t%^A PxxK ;
-
+  
+LEXICON shortest-illativ-sg  !jos h ei siirry
+ +Sg+Ill:%>%^V n-PxK ;
+ 
 LEXICON a_1TAVU_VV-ill  !short maahan
  +Sg+Ill:%>h%^V n-PxK ;
  
@@ -300,16 +287,19 @@ LEXICON a_loputon
  obl-strong ; ! muut vahvat
  weak-v-stem ;
  +Sg: sgpl-cases-long ;      !! these two lexica for cases with
+
+LEXICON a_loputonpl 
  +Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 shortgenpl ;
-
 
 LEXICON a_loputonodd
  obl-strong ; ! muut vahvat
  weak-v-stem ;
-+Sg: sgpl-cases-short ;      !! these two lexica for cases with
-+Pl: %>i2 sgpl-cases-short ;  !! the same affix in sg and pl -- tsekkaa long
-+Pl: %>i2 shortgenpl ;
++Sg:sgpl-cases-short ;      !! these two lexica for cases with
+
+LEXICON a_loputonoddpl
++Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl -- tsekkaa long
++Pl:%>i2 shortgenpl ;
 
 
 LEXICON a_sConsCase
@@ -324,8 +314,8 @@ LEXICON a_tConsCase
 LEXICON a_ton
  +Sg+Nom:%>t%^On K ;
  +Sg+Par:%>t%^Ont%^A K ;
-
-
+! +Sg+Ill:tt%^Omh%^A%^An K ;
+! +Pl+Gen:tt%^Omm%>i2in K ;
 
 
  
