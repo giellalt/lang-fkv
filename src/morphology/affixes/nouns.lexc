@@ -275,10 +275,10 @@ LEXICON x_31si
 +Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
 +Pl:%^E2I%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
 : 2TAVU_V_ill_sg ;
-+Pl:%^E2I%^HMETAhii shortestillpl ;
-+Pl:%^E2I%>i2 shortparpl ;
-+Pl:%^E2I%>i2 shortgenpl ;
-+Pl:%^EDEL consgenpl ;
+:%^E2I%^HMETAhii shortestillpl ;
+:%^E2I%>i2 shortparpl ;
+:%^E2I%>i2 shortgenpl ;
+!:%^EDEL consgenpl ;
 +Pl+Com:%>i2ne K ;
 
 LEXICON n_31lapsi	!!= @CODE@ lapsi la
@@ -413,9 +413,11 @@ strong-v-stem ;
 
 LEXICON n_33si !!= @CODE@ ruvis
 +N:i sConsCase ; ! nom, par
-+N:hii loputjutut ; 
+!+N:hii loputjutut ; 
++N:hii weak-v-stem-sg ;
++N:hii weak-v-stem-pl;
 +N+Sg:hii sgpl-cases-short ;
-+N+Pl:hii sgpl-cases-short ;
++N+Pl:hi%>i2 sgpl-cases-short ;
 +N+Pl:hi%>i2 longparpl ;
 +N+Pl:hi%>i2 tt-longgenpl ;
 +N+Pl+Ess:hi%>i2%>n%^A PxxK ;
@@ -576,9 +578,9 @@ LEXICON loputjutut
  +Pl:%>i2ssii longillpl ;
 
 LEXICON sConsCase
- +Sg+Nom:%>s K ;
- +Sg+Par:%>st%^A K ; ! Par
- +Pl+Gen:%>sten K ; ! Gen
+ +Sg+Nom:%^WG%>s K ;
+ +Sg+Par:%^WG%>st%^A K ; ! Par
+ +Pl+Gen:%^WG%>sten K ; ! Gen
 
 LEXICON tConsCase
  +Sg+Nom:%^WG%>t K ;
@@ -664,6 +666,7 @@ LEXICON com
 !! !Lexica for the non-uniform cases
 ! --------------------------------
 
+
 LEXICON short-par
 +Sg+Par:%>%^V PxxK ;
  
@@ -695,6 +698,7 @@ LEXICON 2TAVU_edel-ill !suomhiin
 LEXICON mTAVU_VV-ill !longer kuninkhaa/sseen
 !+Sg+Ill:%>ss%^V%^V n-PxK ;
 +Sg+Ill:%>ssee n-PxK ; !koska tämä pääte aina sseen
+
 
 LEXICON oldgenpl
  +Gen:%> n-PxK ;
