@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - ihminen - ei tsekattu : # Noun 'menneske' - ei tsekattu
+  Noun - ihminen - ei tsekattu : # Noun 'unhappy' - ei tsekattu
      onneton+A+Sg+Nom: onneton
      onneton+A+Sg+Gen: onnettoman
      onneton+A+Sg+Par: onnetonta
@@ -34,7 +34,7 @@ Tests:
      onneton+A+Pl+Abe: onnettomitta
      onneton+A+Pl+Ine: onnettomissa
      onneton+A+Pl+Ela: onnettomista
-     onneton+A+Pl+Ill: onnettommhiin
+     onneton+A+Pl+Ill: onnettomhiin
      onneton+A+Pl+Ade: onnettomila
      onneton+A+Pl+Abl: onnettomilta
      onneton+A+Pl+All: onnettomile
