@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - hyksi - ok : # Noun 'hair' - ok
+     hyksi+N+Sg+Nom: hyksi
+     hyksi+N+Sg+Gen: hyksen
+     hyksi+N+Sg+Par: hyksee
+     hyksi+N+Sg+Tra: hykseksi
+     hyksi+N+Sg+Abe: hyksettä
+     hyksi+N+Sg+Ine: hyksessä
+     hyksi+N+Sg+Ela: hyksestä
+     hyksi+N+Sg+Ill: hyksheen
+     hyksi+N+Sg+Ade: hykselä
+     hyksi+N+Sg+Abl: hykseltä
+     hyksi+N+Sg+All: hyksele
+     hyksi+N+Sg+Ess: hyksenä
+     hyksi+N+Pl+Nom: hykset
+     hyksi+N+Pl+Gen: hyksiin
+     hyksi+N+Pl+Par: hyksii
+     hyksi+N+Pl+Tra: hyksiksi
+     hyksi+N+Pl+Abe: hyksittä
+     hyksi+N+Pl+Ine: hyksissä
+     hyksi+N+Pl+Ela: hyksistä
+     hyksi+N+Pl+Ill: hykshiin
+     hyksi+N+Pl+Ade: hyksilä
+     hyksi+N+Pl+Abl: hyksiltä
+     hyksi+N+Pl+All: hyksile
+     hyksi+N+Pl+Ess: hyksinä
+     hyksi+N+Pl+Com: hyksine
