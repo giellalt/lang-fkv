@@ -1,0 +1,54 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - assuut - ok : # Verb 'to live' - ei tsekattu!
+     assuut+V+Inf: assut
+     assuut+V+Act+Ind+Prs+Sg1: asun
+     assuut+V+Act+Ind+Prs+Sg2: asut
+     assuut+V+Act+Ind+Prs+Sg3: assuu
+     assuut+V+Act+Ind+Prs+Pl1: asuma
+     assuut+V+Act+Ind+Prs+Pl2: asutta
+     assuut+V+Act+Ind+Prs+Pl3: asuthaan
+     assuut+V+Act+Ind+Prt+Sg1: asuin
+     assuut+V+Act+Ind+Prt+Sg2: asuit
+     assuut+V+Act+Ind+Prt+Sg3: asui
+     assuut+V+Act+Ind+Prt+Pl1: asuima
+     assuut+V+Act+Ind+Prt+Pl2: asuitta
+     assuut+V+Act+Ind+Prt+Pl3: asuthiin
+     assuut+V+Act+PrfPrc+Sg+Nom: asunu
+     assuut+V+Pass+PrfPrc+Nom: asuttu
+     assuut+V+Act+PrfPrc+Pl+Nom: asunheet
+     assuut+V+Act+PrsPrc+Sg+Nom: assuuva
+     assuut+V+Act+PrsPrc+Pl+Nom: assuuvat
+     assuut+V+Pass+PrsPrc+Sg+Nom: asuttava
+     assuut+V+Pass+PrsPrc+Pl+Nom: asuttavat
+  
+     assuut+V+Act+Cond+Sg1: asuisin
+     assuut+V+Act+Cond+Sg2: asuisit
+     assuut+V+Act+Cond+Sg3: asuis
+     assuut+V+Act+Cond+Pl1: asuisimma
+     assuut+V+Act+Cond+Pl2: asuisitta
+     assuut+V+Act+Cond+Pl3: asuttais
+     assuut+V+Pass+Cond: asuttais
+  
+     assuut+V+Act+Imprt+Sg2: asu
+     assuut+V+Act+Imprt+Pl2: asukkaa
+     
+     assuut+V+Act+Inf3+Ine: asumassa
+     assuut+V+Act+Inf3+Ela: asumasta
+     assuut+V+Act+Inf3+Ill: asumhaan
+     assuut+V+Act+Inf3+Ade: asumalla
+     assuut+V+Act+Inf3+Abe: asumatta
