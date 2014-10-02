@@ -67,7 +67,8 @@ Rules
   "Gemination VXi"
   !! __@RULENAME@__ 
 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
-         where Cx in ( k p t s ) ;
+         where Cx in ( k p t) ;
+
 
 !0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
 !        Cns:*  Vowel:* Vowel (Vowel):Cx e:0 _ %>:0 i2:i :i ;
@@ -111,7 +112,7 @@ Rules
   "Gemination Va"
   !! __@RULENAME@__ 
 0:Cx <=> [ .#. | #: ] Cns:*   Vowel:* Vowel Cx _ a %>: :a ;
-       where Cx in (  k p t s ) ;
+       where Cx in (  k p t ) ;
 
 !€ aik0a>^V
 !€ aikka>a
@@ -128,7 +129,7 @@ Rules
   "Gemination Ve"
   !! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ]   Vowel:* Vowel Cx _ e %>: :e ;
-       where Cx in ( k p t s ) ;
+       where Cx in ( k p t ) ;
 
 !€ tek0e>^V
 !€ tekke>e
@@ -151,7 +152,7 @@ Rules
 "Gemination Vo"
 !! __@RULENAME@__ 
  0:Cx <=> [ .#. | #: ] Cns:*  Vowel:* Vowel Cx _ o %>: :o ;
-        where Cx in (  k p t s) ;
+        where Cx in (  k p t) ;
  
 
 !€ kat0o>^V>t
@@ -170,7 +171,7 @@ Rules
 "Gemination Vu"
 !! __@RULENAME@__ 
  0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ u %>: :u ;
-        where Cx in (  k p t s ) ;
+        where Cx in (  k p t ) ;
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :u %>: [ :u | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
@@ -191,7 +192,7 @@ Rules
 "Gemination Vy"
 !! __@RULENAME@__ 
  0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ y %>: :y ;
-        where Cx in (  k p t s ) ;
+        where Cx in (  k p t ) ;
         
 
 !€ näk0y>^V
@@ -212,7 +213,7 @@ Rules
 "Gemination Vö"
 !! __@RULENAME@__ 
  0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ ö %>: :ö ;
-        where Cx in (  k p t s) ;
+        where Cx in (  k p t) ;
         
 
 !€ näk0ö>^V
@@ -234,11 +235,22 @@ Rules
 "Gemination Vä"
 !! __@RULENAME@__ 
  0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ ä %>: :ä ;
-        where Cx in ( k p t s ) ;
- 
+        where Cx in ( k p t ) ;
+
 
 !€ tiet0ä>^Vt
 !€ tiettä>ät
+
+ 
+"Gemination of s"
+!! __@RULENAME@__  
+ 0:s <=> (Vowel) Vowel s _ Vowel %>: Vowel (- i3:) ;
+          (Vowel) Vowel s _ %>: (%^E2I:0) i2:i ;
+
+!€ as0u>^Vt
+!€ assu>ut
+
+
        
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ä %>: [ :ä | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
