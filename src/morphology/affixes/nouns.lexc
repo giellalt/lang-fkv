@@ -95,11 +95,11 @@ LEXICON x_21
 :%^WG weak-v-stem ;
 +Sg:%^WG sgpl-cases-short ;      !! * to sgpl-cases-short for cases with
 +Pl:%^WG%>i2 sgpl-cases-short ;  !!   the same affix in sg and pl
-: 2TAVU_V_ill_sg ;
-+Pl:%>i2 shortestgenpl ;  !! * to shortestgenpl since we already
-+Pl:%>i2 shortestparpl  ; !!   have the i
-+Pl:%> tt-longgenpl ;
-+Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
+ 2TAVU_V_ill_sg ;
++Pl:%>i2 shortestgenpl ;  !! * shortestgenpl since we have the i
+!+Pl:%> tt-longgenpl ;
++Pl:%>i2 shortestparpl  ;  
+!+Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
 +Pl+Ill:%>%^HMETAh%^V%>i2 n-PxK ;
 +Pl+Com:%>i2ne K ;
  
@@ -181,7 +181,9 @@ LEXICON n_22oi	!!= * @CODE@
 +N: x_22oi ;
 
 LEXICON x_22oi	!!= * @CODE@  Kulkkiija
-: strong-v-stem ;
+ nom-strong ;
+ long-par ;
+ obl-strong ;
 :%^WG weak-v-stem ;
 +Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
 +Pl:%^WG%>i2 sgpl-cases-long ; !! the same affix in sg and pl
@@ -390,39 +392,61 @@ LEXICON n_32s !!= @CODE@  sairhaus
 !LEXICON n_33 ! ei tehty
 !n_33s ;
 
-LEXICON n_33s !!= @CODE@ rakas
-+N: x_33s ;
+LEXICON n_33as !!= @CODE@ rakas
++N: x_33as ;
 
-LEXICON x_33s
-:%>%^A%^WG sConsCaselyhyempi ; ! nom, par hammas (WG)
-:h%>%^A%^A mTAVU_VV-ill ;
-+Pl+Ill:h%>%^Aissiin K ;
-+Pl+Com:h%>%^A%>ine K ;
-:h%>%^A%^A weak-v-stem-sg ;
-:h%>%^A%^A weak-v-stem-pl;
-+Sg:h%>%^A%^A sgpl-cases-short ;
-+Pl:h%>%^A%>i2 sgpl-cases-short ;
-+Pl:h%>%^A%>i2 longparpl ;
-+Pl:h%>%^A%>i2 tt-longgenpl ;
-+N+Pl+Ess:h%>%^A%>i2%>n%^A PxxK ;
+LEXICON x_33as
+:a%^WG sConsCaselyhyempi ; ! nom, par hammas (WG)
+:haa mTAVU_VV-ill ;
++Pl+Ill:h%>aissiin K ;
++Pl+Com:h%>a%>ine K ;
+:h%>aa weak-v-stem-sg ;
+:h%>aa weak-v-stem-pl;
++Sg:h%>aa sgpl-cases-short ;
++Pl:h%>a%>i2 sgpl-cases-short ;
++Pl:h%>a%>i2 longparpl ;
++Pl:h%>a%>i2 tt-longgenpl ;
++N+Pl+Ess:h%>a%>i2%>na PxxK ;
+
+!LEXICON n_33aes 
+!+N: x_33aes ;
+
+LEXICON x_33aes
+:ä%^WG sConsCaselyhyempi ; ! nom, par hammas (WG)
+:hää mTAVU_VV-ill ;
++Pl+Ill:h%>äissiin K ;
++Pl+Com:h%>ä%>ine K ;
+:h%>ää weak-v-stem-sg ;
+:h%>ää weak-v-stem-pl;
++Sg:h%>ää sgpl-cases-short ;
++Pl:h%>ä%>i2 sgpl-cases-short ;
++Pl:h%>ä%>i2 longparpl ;
++Pl:h%>ä%>i2 tt-longgenpl ;
++N+Pl+Ess:h%>ä%>i2%>nä PxxK ;
 
 
 
-!LEXICON n_33 !!= @CODE@ asukas
-!+N: x_33s ;
+LEXICON n_33ys !!= @CODE@ rakas
++N: x_33ys ;
 
-!LEXICON x_33sodd
-!strong-v-stem ;
-!+N:a sgpl-cases-long ; ! nom, par
-!+N:haa sgpl-cases-long ;
-!+Sg+Ill:haa mTAVU_VV-ill ;
-!+Pl:ha%>i2 tt-longgenpl ;
-!+N+Pl:ha%>i2 longparpl ;
-!+Pl+Ill:haissiin K ;
-!+Pl+Com:ha%>ine K ;
+LEXICON x_33ys
+:%>y%^WG sConsCaselyhyempi ; ! nom, par hammas (WG)
+:h%>yy mTAVU_VV-ill ;
++Pl+Ill:h%>yissiin K ;
++Pl+Com:h%>y%>ine K ;
+:h%>yy weak-v-stem-sg ;
+:h%>yy weak-v-stem-pl;
++Sg:h%>yy sgpl-cases-short ;
++Pl:h%>y%>i2 sgpl-cases-short ;
++Pl:h%>y%>i2 longparpl ;
++Pl:h%>y%>i2 tt-longgenpl ;
++N+Pl+Ess:h%>y%>i2%>ny PxxK ;
 
 
-LEXICON n_33si !!= @CODE@ ruvis
+LEXICON n_33is !!= @CODE@ rakas
++N: x_33is ;
+
+LEXICON x_33is !!= @CODE@ ruvis
 +N:i sConsCaselyhyempi ; ! nom, par 
 +N:hii weak-v-stem-sg ;
 +N:hii weak-v-stem-pl;
@@ -611,6 +635,7 @@ LEXICON tConsCase
 
 LEXICON strong-v-stem  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
  nom-strong ;
+ short-par ;
  obl-strong ;
 
 LEXICON weak-v-stem !!= @CODE@ 
@@ -633,11 +658,9 @@ LEXICON weak-v-stem-pl
 LEXICON nom-strong
   +Sg+Nom: K ; 
   +Sg+Nom: R ; 
-  short-par ;
 
 LEXICON obl-strong 
  gae-strong ;
-! +Sg:%>i2 com ;
  +Pl:%>i2 com ;
 
  
