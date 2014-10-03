@@ -1,14 +1,19 @@
 
+Affix file for Kven adjectives
 
- LEXICON a_x   contains unclassified adjectives.
+!!!The basic lexica
+
+Each a_ lexicon gets the +A tag and is then
+redirected to a common x_ lexicon in the noun file.
+
+ * LEXICON a_x   contains unclassified adjectives.
 
 
+ * LEXICON ax   contains unclassified adjectives.
 
- LEXICON ax   contains unclassified adjectives.
+ * LEXICON a_21   corresponds to a_21 etc.
 
- LEXICON a_21   corresponds to a_21 etc.
-
- LEXICON a_21ie   corresponds to a_21ie etc.
+ * LEXICON a_21ie   corresponds to a_21ie etc.
 
  * LEXICON a_22	  liberaali
 
@@ -16,18 +21,25 @@
 
  * LEXICON a_23	  pimmee
 
- LEXICON a_31	  pieni
+ * LEXICON a_31	  pieni
 
- LEXICON a_31si	 uusi
+ * LEXICON a_31si	 uusi
 
- LEXICON a_32  tyven
+ * LEXICON a_32  tyven
 
- LEXICON a_32m  vasen sg taipuu kuitenki -ma
+ * LEXICON a_32m  vasen sg taipuu kuitenki -ma
 
- LEXICON a_33s  rakas
+ * LEXICON a_33as  rakas
+
+ * LEXICON a_33aes  rakas
 
 
- LEXICON a_33t  tuoret
+ * LEXICON a_33is  rakas
+
+ * LEXICON a_33ys  rakas
+
+
+ * LEXICON a_33t  tuoret
 
  * LEXICON a_41  = veres
 
@@ -36,21 +48,18 @@
 
 
 
- !LEXICON a_42inen  varovainen
-these two lexica for cases with
-the same affix in sg and pl
 
- LEXICON a_42  varovainen
+ * LEXICON a_42  varovainen
 
- LEXICON a_42odd  sininen
+ * LEXICON a_42odd  sininen
 
 
- LEXICON a_43  muuttumaton
+ * LEXICON a_43  muuttumaton
 
 
 
 
- LEXICON a_43odd  onneton
+ * LEXICON a_43odd  onneton
 
 
 
@@ -60,12 +69,9 @@ Basic paradigms
 
 !!Basic vowel stems
 
- LEXICON a_strong-v-stem   ''Kaikki vahvan asteen sijamuodot tähän''
+ * LEXICON a_strong-v-stem   ''Kaikki vahvan asteen sijamuodot tähän''
 
- LEXICON a_weak-v-stem  
-Marginal case, in use only for some words.
-Todo: identify these, and remove Ins from the
-general weak-v-stem lexicon.
+ * LEXICON a_weak-v-stem  
 
 !Sublexica for the vowel stems
 
