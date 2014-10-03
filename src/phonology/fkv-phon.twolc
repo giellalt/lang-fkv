@@ -666,8 +666,8 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
   
  
 "e deletion in oblique plural of e-stem nouns"
- e:0 <=> _ (%^WG:0) %>: i2: ;
-        t:s _ %^E2I:0 %>: i2: ;
+ e:0 <=>     _ (%^WG:0) %>: i2: ;
+         t:s _  %^E2I:0 %>: i2: ;
 
 
 !! !!Stem alternation rules
@@ -783,7 +783,8 @@ Vx:e <=> _ %^AE:0 (%^WG:0) %>: t (t) ;
 
 "e:i in nom.sg. of e-stems"
 !! __@RULENAME@__
- e:i <=> Cns: _ %^E2I:0 [ #: | .#. | %>: ] ;  
+! e:i <=> Cns: _ %^E2I:0 [ #: | .#. | %>: ] ;  
+ e:i <=> Cns: _ %^E2I:0 [ #: | .#. ] ;  
 
 
 
