@@ -114,26 +114,24 @@ Rules
 0:Cx <=> [ .#. | #: ] Cns:*   Vowel:* Vowel Cx _ a %>: :a ;
        where Cx in (  k p t ) ;
 
-!€ aik0a>^V
-!€ aikka>a
+!€ kal0a>^V
+!€ kalla>a
 
   "Gemination VVa"
   !! __@RULENAME@__ 
 0:Cx <=> [ .#. | #: ] Cns:* Vowel Cx _ a %>: :a ;
        where Cx in ( h j l m n r v ) ;
+
+!€ aik0a>^V
+!€ aikka>a
   
-
-!€ kal0a>^V
-!€ kalla>a
-
   "Gemination Ve"
   !! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ]   Vowel:* Vowel Cx _ e %>: :e ;
        where Cx in ( k p t ) ;
 
-!€ tek0e>^V
-!€ tekke>e
-
+!€ suome>^V
+!€ suome>e
 
 !€ lauk0e>^V
 !€ laukke>e
@@ -144,9 +142,8 @@ Rules
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ e %>: :e ;
        where Cx in ( h j l m n r v ) ;
 
-!€ suome>^V
-!€ suome>e
-
+!€ tek0e>^V
+!€ tekke>e
 
 
 "Gemination Vo"
@@ -242,10 +239,10 @@ Rules
 !€ tiettä>ät
 
  
-"Gemination of s"
-!! __@RULENAME@__  
- 0:s <=> (Vowel) Vowel s _ Vowel %>: Vowel (- i3:) ;
-          (Vowel) Vowel s _ %>: (%^E2I:0) i2:i ;
+! "Gemination of s"
+! !! __@RULENAME@__  
+!  0:s <=> (Vowel) Vowel s _ Vowel %>: Vowel (- i3:) ; ! Leena: (- i3:)
+!           (Vowel) Vowel s _ %>: (%^E2I:0) i2:i ;
 
 !€ as0u>^Vt
 !€ assu>ut
@@ -400,10 +397,11 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 !Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
 !Cx:0 <=> Vowel: _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) %^WG:0 ;   !toimii
 
-
 !€ katto^WG>n
 !€ ka0to0>n
 
+!€ sivakka^WG>i2>tten                                                                 
+!€ siva0ko00i0tten                                                                 
 
 !€ katt2o^WG>n
 !€ katto0>n
@@ -464,9 +462,10 @@ k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !
 "Gradation k:0" 
 k:0 <=>                h _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
                        a _ a               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata
-                       y _ e               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä
+                   [u|y] _ e               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukee - laueta
+!                    a u _ e                                      %^WG:0 ; ! laukee - laueta
       NotOUIF: [ l | r ] _ NotEYUF:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
-      NotOUIB: [ l | r ] _ NotEYUB:        (Dummy:) (:i) (Dummy:) %^WG:0 ; !märkä - märät
+      NotOUIB: [ l | r ] _ NotEYUB:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! märkä - märät
 !  Vowel [Vowel - [e|i]] _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kaiku - kaiun?
 !   [ NotOUIF: | l | r ] _ NotEYUF:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
 !   [ NotOUIB: | l | r ] _ NotEYUB:        (Dummy:) (:i) (Dummy:) %^WG:0 ; !märkä - märät
@@ -715,16 +714,16 @@ a:0 <=> (\a) [(u) u|([u|o]) o] (:i|i6:) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:)
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__ 
-!a:o <=>      .#.   (Cns:*) ([Vowel: - [o|u]]) [i|e|a] Cns:* (:Cns) (%^AO:0) _                   %>: [i2: | i3: ] ; !2-syll 
-a:o <=>  [ #: | .#. ] Cns:* ([i|e|a]         ) [i|e|a] Cns:*  :Cns           _ (Dummy: - %^AE:0) %>: [i2: | i3: ] ;
-                                                    (:Cns) [ :k | :l] (:i) :i :j _ (Dummy:*) i2: ;
+!a:o <=>        .#.   (Cns:*) ([Vowel: - [o|u]]) [i|e|a] Cns:* (:Cns) (%^AO:0) _                   %>: [i2: | i3: ] ; !2-syll 
+! a:o <=>  [ #: | .#. ] Cns:* ([i|e|a]         ) [i|e|a] Cns:*  :Cns           _ (Dummy: - %^AE:0) %>: [i2: | i3: ] ;
+  a:o <=>               Cns:* ([i|e|a]         ) [i|e|a] Cns:*  :Cns           _ (Dummy: - %^AE:0) %>: [i2: | i3: ] ;
+                                                  (:Cns) [ :k | :l] (:i) :i :j _ (Dummy:*) i2: ;
                                                                         
-                                                                 
+!€ sivakka^WG>i2>tten                                                                 
+!€ siva0ko00i0tten                                                                 
                                                 
-
 !€ kal0a>i2en
 !€ kallo>ien
-
 
 !€ kulkkiija>i2
 !€ kulkkiijo>i
