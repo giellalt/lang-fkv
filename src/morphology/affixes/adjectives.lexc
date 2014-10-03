@@ -1,19 +1,24 @@
 
+!! Affix file for Kven adjectives
 
-LEXICON a_x  !!= @CODE@ contains unclassified adjectives.
+!! !!!The basic lexica
+
+!! Each a_ lexicon gets the +A tag and is then
+!! redirected to a common x_ lexicon in the noun file.
+
+LEXICON a_x  !!= * @CODE@ contains unclassified adjectives.
 +A+Sg+Nom: K ; 
 
 
-
-LEXICON ax  !!= @CODE@ contains unclassified adjectives.
+LEXICON ax  !!= * @CODE@ contains unclassified adjectives.
 +A: K ; 
 
-LEXICON a_21  !!= @CODE@ corresponds to a_21 etc.
+LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc.
 +A: x_21 ;
 !+A: a_strong-v-stem ;
 !+A:%^WG a_weak-v-stem ;
 
-LEXICON a_21ie  !!= @CODE@ corresponds to a_21ie etc.
+LEXICON a_21ie  !!= * @CODE@ corresponds to a_21ie etc.
 +A: x_21ie ;
 
 LEXICON a_22	!!= * @CODE@  liberaali
@@ -25,24 +30,37 @@ LEXICON a_22odd	!!= * @CODE@  simppeli
 LEXICON a_23	!!= * @CODE@  pimmee
 +A: x_23 ;
 
-LEXICON a_31	!!= @CODE@  pieni
+LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31 ;
 
-LEXICON a_31si	!!= @CODE@ uusi
+LEXICON a_31si	!!= * @CODE@ uusi
 +A: x_31si ;
 
-LEXICON a_32 !!= @CODE@ tyven
+LEXICON a_32 !!= * @CODE@ tyven
 +A: x_32 ;
 
-LEXICON a_32m !!= @CODE@ vasen sg taipuu kuitenki -ma
+LEXICON a_32m !!= * @CODE@ vasen sg taipuu kuitenki -ma
 +A: x_32m ;
 
-LEXICON a_33s !!= @CODE@ rakas
-+A: x_33s ;
+LEXICON a_33as !!= * @CODE@ rakas
++A: x_33as ;
+! comp, superl, puuttuvat
+
+LEXICON a_33aes !!= * @CODE@ rakas
++A: x_33aes ;
+! comp, superl, puuttuvat
+
+
+LEXICON a_33is !!= * @CODE@ rakas
++A: x_33is ;
+! comp, superl, puuttuvat
+
+LEXICON a_33ys !!= * @CODE@ rakas
++A: x_33ys ;
 ! comp, superl, puuttuvat
 
  
-LEXICON a_33t !!= @CODE@ tuoret
+LEXICON a_33t !!= * @CODE@ tuoret
 +A: x_33t ;
 ! comp, superl, puuttuvat
 
@@ -58,24 +76,24 @@ LEXICON a_41_s_kse
 !LEXICON adj-nen
 !+A: nen ;
 
-!LEXICON a_42inen !!= @CODE@ varovainen
+!LEXICON a_42inen 
 !adj-nen ;
 !+A: nen ;
 !+A:s R ;
 !+A:s a_long-par ;
-!+A+Sg:se a_sgpl-cases-short ;      !! these two lexica for cases with
-!+A+Pl:s%>i2 a_sgpl-cases-short ;  !! the same affix in sg and pl
+!+A+Sg:se a_sgpl-cases-short ;      ! these two lexica for cases with
+!+A+Pl:s%>i2 a_sgpl-cases-short ;  ! the same affix in sg and pl
 !+A+Pl:ssh%>i2 a_shorterillpl ;
 !+A+Pl+Com:s%>i2ne K ;
 
-LEXICON a_42 !!= @CODE@ varovainen
+LEXICON a_42 !!= * @CODE@ varovainen
 +A: x_42 ;
 
-LEXICON a_42odd !!= @CODE@ sininen
+LEXICON a_42odd !!= * @CODE@ sininen
 +A: x_42odd ;
 
 
-LEXICON a_43 !!= @CODE@ muuttumaton
+LEXICON a_43 !!= * @CODE@ muuttumaton
  
 ! :s R ;
 ! :se a_gae-strong ;
@@ -104,7 +122,7 @@ LEXICON a_43 !!= @CODE@ muuttumaton
 +A:%>tt%^Om a_loputonpl ;
 +A+Pl+Com:%>tt%^Om%>i2ne K ;
 
-LEXICON a_43odd !!= @CODE@ onneton
+LEXICON a_43odd !!= * @CODE@ onneton
  
 +A: a_ton ;
 +A:%>tt%^Omh%^A shortest-illativ-sg ;
@@ -126,17 +144,17 @@ LEXICON a_43odd !!= @CODE@ onneton
 !! !!Basic vowel stems
 !  --------------------
 
-LEXICON a_strong-v-stem  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
+LEXICON a_strong-v-stem  !!= * @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
  nom-strong ;
  obl-strong ;
 
-LEXICON a_weak-v-stem !!= @CODE@ 
+LEXICON a_weak-v-stem !!= * @CODE@ 
  +Sg+Gen:%>n K ;
  +Sg+Gen:%>n R ;
  +Pl+Nom:%>t K ;
-! +Pl+Ins:%>i2%>n K ;   !! Marginal case, in use only for some words.
-                        !! Todo: identify these, and remove Ins from the
-                        !! general weak-v-stem lexicon.
+! +Pl+Ins:%>i2%>n K ;   ! Marginal case, in use only for some words.
+                        ! Todo: identify these, and remove Ins from the
+                        ! general weak-v-stem lexicon.
 
 !! !Sublexica for the vowel stems
 !  - - - - - - - - - - - - - - - 
