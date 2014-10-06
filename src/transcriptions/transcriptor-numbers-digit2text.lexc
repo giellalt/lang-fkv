@@ -3,88 +3,88 @@ LEXICON Root
 
 
 HUNDREDSM ;		! 200M
-sata:1 HUNDREDM ;	! 100M
+1:sata HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
 TEENSM ;		! 11-19M
 TENM ;			! 10M->11M
 ONESM ;			! 1-9M
 HUNDREDST ;		! 200000-999999
-sata:1 HUNDREDT ;	! 100000-100999
+1:sata HUNDREDT ;	! 100000-100999
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-tuhat:1 THOUSAND ;	! 1000-1999
+1:tuhat THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
 ONES ;			! 1-9
 
 LEXICON HUNDREDSM
-kaksi:2  CUODIM ;
-kolme:3 CUODIM ;
-nelje:4 CUODIM ;
-viisi:5 CUODIM ;
-kuusi:6 CUODIM ;
-seittemen:7 CUODIM ;
-kahđeksen:8 CUODIM ;
-yhđeksen:9 CUODIM ;
+2:kaksi  CUODIM ;
+3:kolme CUODIM ;
+4:nelje CUODIM ;
+5:viisi CUODIM ;
+6:kuusi CUODIM ;
+7:seittemen CUODIM ;
+8:kahđeksen CUODIM ;
+9:yhđeksen CUODIM ;
 
 LEXICON CUODIM
-sattaa: HUNDREDM ;
+:sattaa HUNDREDM ;
 
 LEXICON HUNDREDM
 TENSM ;
 TEENSM ;
-:%0 ONESM ;
-:%0%0 MILJON ;
+%0: ONESM ;
+%0%0: MILJON ;
 
 LEXICON TEENSM
-:1 TEENM ;
+1: TEENM ;
 
 LEXICON TEENM
-yksi:1 LOHKAIM ;
-kaksi:2 LOHKAIM ;
-kolme:3 LOHKAIM ;
-nelje:4 LOHKAIM ;
-viisi:5 LOHKAIM ;
-kuusi:6 LOHKAIM ;
-seittemen:7 LOHKAIM ;
-kahđeksen:8 LOHKAIM ;
-yhđeksen:9 LOHKAIM ;
+1:yksi LOHKAIM ;
+2:kaksi LOHKAIM ;
+3:kolme LOHKAIM ;
+4:nelje LOHKAIM ;
+5:viisi LOHKAIM ;
+6:kuusi LOHKAIM ;
+7:seittemen LOHKAIM ;
+8:kahđeksen LOHKAIM ;
+9:yhđeksen LOHKAIM ;
 
 LEXICON LOHKAIM
-toista: MILJON ;
+:toista MILJON ;
 
 LEXICON TENSM
-kaksi:2 LÅGEVM ;
-kolme:3 LÅGEVM ;
-nelje:4 LÅGEVM ;
-viisi:5 LÅGEVM ;
-kuusi:6 LÅGEVM ;
-seittemen:7 LÅGEVM ;
-kahđeksen:8 LÅGEVM ;
-yhđeksen:9 LÅGEVM ;
+2:kaksi LÅGEVM ;
+3:kolme LÅGEVM ;
+4:nelje LÅGEVM ;
+5:viisi LÅGEVM ;
+6:kuusi LÅGEVM ;
+7:seittemen LÅGEVM ;
+8:kahđeksen LÅGEVM ;
+9:yhđeksen LÅGEVM ;
 
 LEXICON TENM
-kymmenen:1%0 MILJON ;
+1%0:kymmenen MILJON ;
 
 LEXICON LÅGEVM
-kymmentä:%0 MILJON ;
-kymmentä: ONESM ;
+%0:kymmentä MILJON ;
+  :kymmentä ONESM ;
 
 LEXICON ONESM
-yksi% miljon% :1 OVERTHOUSANDS ;
-kaksi:2 MILJON ;
-kolme:3 MILJON ;
-nelje:4 MILJON ;
-viisi:5 MILJON ;
-kuusi:6 MILJON ;
-seittemen:7 MILJON ;
-kahđeksen:8 MILJON ;
-yhđeksen:9 MILJON ; 
+1:yksi% miljon%  OVERTHOUSANDS ;
+2:kaksi MILJON ;
+3:kolme MILJON ;
+4:nelje MILJON ;
+5:viisi MILJON ;
+6:kuusi MILJON ;
+7:seittemen MILJON ;
+8:kahđeksen MILJON ;
+9:yhđeksen MILJON ; 
 
 LEXICON MILJON
-% miljoona% : OVERTHOUSANDS ;
+:% miljoona%  OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -92,89 +92,89 @@ LEXICON MILJON
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
-sata:1 HUNDREDT ;	! 100.000.000
-:%0 TENST ;		!  20.000.000
-:%0 TEENST ;		!  10.000.000
-:%0%0 ONEST ;		!   2.000.000
-tuhat:%0%01 THOUSAND ;	!   1.000.000
-:%0%0%0 UNDERTHOUSAND ;	
-:%0%0%0%0 TENS ;
-:%0%0%0%0 TEENS ;
-:%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0 # ;	!  x000000
+1:sata HUNDREDT ;	! 100.000.000
+%0: TENST ;		!  20.000.000
+%0: TEENST ;		!  10.000.000
+%0%0: ONEST ;		!   2.000.000
+%0%01:tuhat THOUSAND ;	!   1.000.000
+%0%0%0: UNDERTHOUSAND ;	
+%0%0%0%0: TENS ;
+%0%0%0%0: TEENS ;
+%0%0%0%0%0: ONES ;
+%0%0%0%0%0%0: # ;	!  x000000
 
 LEXICON HUNDREDST
-kaksi:2  CUODIT ;	! 200000-299999
-kolme:3 CUODIT ;	! 300000-399999
-nelje:4 CUODIT ;	! 400000-499999
-viisi:5 CUODIT ;	! 500000-599999
-kuusi:6 CUODIT ;	! 600000-699999
-seittemen:7 CUODIT ;	! 700000-799999
-kahđeksen:8 CUODIT ;	! 800000-899999 
-yhđeksen:9 CUODIT ;	! 900000-999999
+2:kaksi  CUODIT ;	! 200000-299999
+3:kolme CUODIT ;	! 300000-399999
+4:nelje CUODIT ;	! 400000-499999
+5:viisi CUODIT ;	! 500000-599999
+6:kuusi CUODIT ;	! 600000-699999
+7:seittemen CUODIT ;	! 700000-799999
+8:kahđeksen CUODIT ;	! 800000-899999 
+9:yhđeksen CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-sattaa: HUNDREDT ;	! 100000-199999
+:sattaa HUNDREDT ;	! 100000-199999
 
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
 TENST ;			! X2XYYY, X10YYY
 TEENST ;		! X1XYYY
-yksi:%01 THOUSANDS ;
-:%0 ONEST ;		! XX0YYY
-:%0%0 THOUSANDS ;	! X00YYY
+%01:yksi THOUSANDS ;
+%0: ONEST ;		! XX0YYY
+%0%0: THOUSANDS ;	! X00YYY
 
 LEXICON TEENST
-:1 TEENT ;
+1: TEENT ;
 
 LEXICON TEENT
-kymmentä:%0 THOUSANDS ;
-yksi:1 LOHKAIT ;
-kaksi:2 LOHKAIT ;
-kolme:3 LOHKAIT ;
-nelje:4 LOHKAIT ;
-viisi:5 LOHKAIT ;
-kuusi:6 LOHKAIT ;
-seittemen:7 LOHKAIT ;
-kahđeksen:8 LOHKAIT ;
-yhđeksen:9 LOHKAIT ;
+%0:kymmentä THOUSANDS ;
+1:yksi LOHKAIT ;
+2:kaksi LOHKAIT ;
+3:kolme LOHKAIT ;
+4:nelje LOHKAIT ;
+5:viisi LOHKAIT ;
+6:kuusi LOHKAIT ;
+7:seittemen LOHKAIT ;
+8:kahđeksen LOHKAIT ;
+9:yhđeksen LOHKAIT ;
 
 LEXICON LOHKAIT
-toista: THOUSANDS ;
+:toista THOUSANDS ;
 
 LEXICON TENST
-kaksi:2 LÅGEVT ;
-kolme:3 LÅGEVT ;
-nelje:4 LÅGEVT ;
-viisi:5 LÅGEVT ;
-kuusi:6 LÅGEVT ;
-seittemen:7 LÅGEVT ;
-kahđeksen:8 LÅGEVT ;
-yhđeksen:9 LÅGEVT ;
+2:kaksi LÅGEVT ;
+3:kolme LÅGEVT ;
+4:nelje LÅGEVT ;
+5:viisi LÅGEVT ;
+6:kuusi LÅGEVT ;
+7:seittemen LÅGEVT ;
+8:kahđeksen LÅGEVT ;
+9:yhđeksen LÅGEVT ;
 
 LEXICON LÅGEVT
-kymmentä:%0 THOUSANDS ;
-kymmentäyksituhatta:1 THOUSAND ;
-kymmentä: ONEST ;
+%0:kymmentä THOUSANDS ;
+1:kymmentäyksituhatta THOUSAND ;
+:kymmentä ONEST ;
 
 LEXICON ONEST
-kaksi:2 THOUSANDS ;
-kolme:3 THOUSANDS ;
-nelje:4 THOUSANDS ;
-viisi:5 THOUSANDS ;
-kuusi:6 THOUSANDS ;
-seittemen:7 THOUSANDS ;
-kahđeksen:8 THOUSANDS ;
-yhđeksen:9 THOUSANDS ;
+2:kaksi THOUSANDS ;
+3:kolme THOUSANDS ;
+4:nelje THOUSANDS ;
+5:viisi THOUSANDS ;
+6:kuusi THOUSANDS ;
+7:seittemen THOUSANDS ;
+8:kahđeksen THOUSANDS ;
+9:yhđeksen THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-tuhatta: THOUSAND ;
+:tuhatta THOUSAND ;
 
 LEXICON THOUSAND
 UNDERTHOUSAND ;	   ! 1100-1999
-:%0 TENS ;	   ! 1020-1099
-:%0 TEENS ;	   ! 1010-1019
-:%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 # ;	   ! 1000
+%0: TENS ;	   ! 1020-1099
+%0: TEENS ;	   ! 1010-1019
+%0%0: ONES ;	   ! 1001-1009
+%0%0%0: # ;	   ! 1000
 
 !===========================
 !Here starts the 999 numbers
@@ -182,17 +182,20 @@ UNDERTHOUSAND ;	   ! 1100-1999
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-sata:1 HUNDRED ;
+1:sata HUNDRED ;
+HUNDREDS_O ;
+1:sađas HUNDRED_O ;
+
 
 LEXICON HUNDREDS
-kaksi:2  CUODI ;
-kolme:3 CUODI ;
-nelje:4 CUODI ;
-viisi:5 CUODI ;
-kuusi:6 CUODI ;
-seittemen:7 CUODI ;
-kahđeksen:8 CUODI ;
-yhđeksen:9 CUODI ;
+2:kaksi CUODI ;
+3:kolme CUODI ;
+4:nelje CUODI ;
+5:viisi CUODI ;
+6:kuusi CUODI ;
+7:seittemen CUODI ;
+8:kahđeksen CUODI ;
+9:yhđeksen CUODI ;
 
 LEXICON CUODI
 sattaa: HUNDRED ;
@@ -200,67 +203,135 @@ sattaa: HUNDRED ;
 LEXICON HUNDRED
 TENS ;
 TEENS ;
-:%0 ONES ;
-:%0%0 # ;
+%0: ONES ;
+%0%0: # ;
 
 LEXICON TEENS
-:1 TEEN ;
+1: TEEN ;
 
 LEXICON TEEN
-yksi:1 LOHKAI ;
-kaksi:2 LOHKAI ;
-kolme:3 LOHKAI ;
-nelje:4 LOHKAI ;
-viisi:5 LOHKAI ;
-kuusi:6 LOHKAI ;
-seittemen:7 LOHKAI ;
-kahđeksen:8 LOHKAI ;
-yhđeksen:9 LOHKAI ;
+1:yksi LOHKAI ;
+2:kaksi LOHKAI ;
+3:kolme LOHKAI ;
+4:nelje LOHKAI ;
+5:viisi LOHKAI ;
+6:kuusi LOHKAI ;
+7:seittemen LOHKAI ;
+8:kahđeksen LOHKAI ;
+9:yhđeksen LOHKAI ;
 
 LEXICON LOHKAI
-toista: # ;
+:toista # ;
 
 LEXICON TENS
-kymmenen:1%0 # ;
-kymmenes:1%0%. # ; ! ordinal
-kaksi:2 LÅGEV ;
-kolme:3 LÅGEV ;
-nelje:4 LÅGEV ;
-viisi:5 LÅGEV ;
-kuusi:6 LÅGEV ;
-seittemen:7 LÅGEV ;
-kahđeksen:8 LÅGEV ;
-yhđeksen:9 LÅGEV ;
+1%0:kymmenen # ;
+2:kaksi LÅGEV ;
+3:kolme LÅGEV ;
+4:nelje LÅGEV ;
+5:viisi LÅGEV ;
+6:kuusi LÅGEV ;
+7:seittemen LÅGEV ;
+8:kahđeksen LÅGEV ;
+9:yhđeksen LÅGEV ;
 
 LEXICON LÅGEV
-kymmentä:%0 # ;
-kymmenes:%0%. # ;
-kymmentä: ONES ;
+%0:kymmentä # ;
+%0%.:kymmenes # ;
+:kymmentä ONES ;
 
 LEXICON ONES
 CARDINAL ;
-ORDINAL ;
+ORDINAL_O ;
 
 LEXICON CARDINAL
-yksi:1 # ;
-kaksi:2 # ;
-kolme:3 # ;
-nelje:4 # ;
-viisi:5 # ;
-kuusi:6 # ;
-seittemen:7 # ;
-kahđeksen:8 # ;
-yhđeksen:9 # ;
+1:yksi # ;
+2:kaksi # ;
+3:kolme # ;
+4:nelje # ;
+5:viisi # ;
+6:kuusi # ;
+7:seittemen # ;
+8:kahđeksen # ;
+9:yhđeksen # ;
 
 
-LEXICON ORDINAL
-   ensimäinen:1%. # ;
-    toinen:2%. # ;
-  kolmas:3%. # ;
- neljes:4%. # ;
-  viiđes:5%. # ;
-  kuuđes:6%. # ;
-seittemes:7%. # ;
- kahđekses:8%. # ;
-   yhđekses:9%. # ;
 
+
+! Ordinals
+
+HUNDREDS_O ;
+1:sađas HUNDRED_O ;
+
+
+
+LEXICON HUNDREDS_O
+2:kahđes CUODI_O ;
+3:kolmas CUODI_O ;
+4:neljes CUODI_O ;
+5:viiđes CUODI_O ;
+6:kuđes CUODI_O ;
+7:seittemes CUODI_O ;
+8:kahđekses CUODI_O ;
+9:yhđekses CUODI_O ;
+
+LEXICON CUODI_O
+sattaa: HUNDRED_O ;
+
+LEXICON HUNDRED_O
+TENS_O ;
+TEENS_O ;
+%0: ONES_O ;
+%0%0: O ;
+
+LEXICON TEENS_O
+1: TEEN_O ;
+
+LEXICON TEEN_O
+1:yhđes LOHKAI_O ;
+2:kahđes LOHKAI_O ;
+3:kolmas LOHKAI_O ;
+4:neljes LOHKAI_O ;
+5:viiđes LOHKAI_O ;
+6:kuđes LOHKAI_O ;
+7:seittemes LOHKAI_O ;
+8:kahđekses LOHKAI_O ;
+9:yhđekses LOHKAI_O ;
+
+
+LEXICON LOHKAI_O
+:toista O ;
+
+LEXICON TENS_O
+1%0:kymmenes O ; ! ordinal
+2:kahđes LÅGEV_O ;
+3:kolmas LÅGEV_O ;
+4:neljes LÅGEV_O ;
+5:viiđes LÅGEV_O ;
+6:kuđes LÅGEV_O ;
+7:seittemes LÅGEV_O ;
+8:kahđekses LÅGEV_O ;
+9:yhđekses LÅGEV_O ;
+
+LEXICON LÅGEV_O
+%0:kymmentä O ;
+%0:kymmenes O ;
+:kymmentä ONES_O ;
+
+LEXICON ONES_O
+ORDINAL_O ;
+
+
+LEXICON ORDINAL_O
+   1:ensimäinen O ;
+    2:toinen O ;
+  3:kolmas O ;
+ 4:neljes O ;
+  5:viiđes O ;
+  6:kuuđes O ;
+7:seittemes O ;
+ 8:kahđekses O ;
+   9:yhđekses O ;
+
+
+LEXICON O
+%.: # ;
