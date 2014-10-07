@@ -18,6 +18,8 @@ UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
 ONES ;			! 1-9
+ORDINAL_NUMBERS ;
+
 
 LEXICON HUNDREDSM
 2:kaksi  CUODIM ;
@@ -236,12 +238,10 @@ LEXICON TENS
 
 LEXICON LÅGEV
 %0:kymmentä # ;
-%0%.:kymmenes # ;
 :kymmentä ONES ;
 
 LEXICON ONES
 CARDINAL ;
-ORDINAL_O ;
 
 LEXICON CARDINAL
 1:yksi # ;
@@ -258,10 +258,40 @@ LEXICON CARDINAL
 
 
 ! Ordinals
+! --------
 
+LEXICON ORDINAL_NUMBERS
+
+! Only under 1000 so far
+! HUNDREDSM_O ;		! 200M
+! 1:sata HUNDREDM_O ;	! 100M
+! TENSM_O ;			! 20-99M
+! TEENSM_O ;		! 11-19M
+! TENM_O ;			! 10M->11M
+! ONESM_O ;			! 1-9M
+! HUNDREDST_O ;		! 200000-999999
+! 1:sata HUNDREDT_O ;	! 100000-100999
+! TENST_O ;			! 20000-99999,10000-10999
+! TEENST_O ;		! 11000-19999
+! ONEST_O ;			! 2000-9999
+
+1:tuhanes THOUSAND_O ;	! 1000-1999
+UNDERTHOUSAND_O ;		! 100-999
+TENS_O ;			! 20-99
+TEENS_O ;			! 10-19
+ONES_O ;			! 1-9
+
+LEXICON THOUSAND_O
+UNDERTHOUSAND_O ;	   ! 1100-1999
+%0: TENS_O ;	   ! 1020-1099
+%0: TEENS_O ;	   ! 1010-1019
+%0%0: ONES_O ;	   ! 1001-1009
+%0%0%0: O ;	   ! 1000
+
+
+LEXICON UNDERTHOUSAND_O
 HUNDREDS_O ;
 1:sađas HUNDRED_O ;
-
 
 
 LEXICON HUNDREDS_O
@@ -275,7 +305,7 @@ LEXICON HUNDREDS_O
 9:yhđekses CUODI_O ;
 
 LEXICON CUODI_O
-sattaa: HUNDRED_O ;
+:sađas HUNDRED_O ;
 
 LEXICON HUNDRED_O
 TENS_O ;
@@ -313,15 +343,10 @@ LEXICON TENS_O
 9:yhđekses LÅGEV_O ;
 
 LEXICON LÅGEV_O
-%0:kymmentä O ;
 %0:kymmenes O ;
-:kymmentä ONES_O ;
+:kymmenes ONES_O ;
 
 LEXICON ONES_O
-ORDINAL_O ;
-
-
-LEXICON ORDINAL_O
    1:ensimäinen O ;
     2:toinen O ;
   3:kolmas O ;
