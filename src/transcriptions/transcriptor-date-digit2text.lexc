@@ -40,76 +40,76 @@ Multichar_Symbols
  
 LEXICON Root
  
-januaarikuun% @U.MONTH.1@:@U.MONTH.1@ 31DAYS ;
-fepruaarikuun% @U.MONTH.2@:@U.MONTH.2@ 29DAYS ;
-marsikuun% @U.MONTH.3@:@U.MONTH.3@ 31DAYS ;
-aprillikuun% @U.MONTH.4@:@U.MONTH.4@ 30DAYS ;
-maikuun% @U.MONTH.5@:@U.MONTH.5@ 31DAYS ;
-juunikuun% @U.MONTH.6@:@U.MONTH.6@ 30DAYS ;
-juulikuun% @U.MONTH.7@:@U.MONTH.7@ 31DAYS ;
-aukustikuun% @U.MONTH.8@:@U.MONTH.8@ 31DAYS ;
-septemperikuun% @U.MONTH.9@:@U.MONTH.9@ 30DAYS ;
-oktooperikuun% @U.MONTH.10@:@U.MONTH.10@ 31DAYS ;
-novemperikuun% @U.MONTH.11@:@U.MONTH.11@ 30DAYS ;
-desemperikuun% @U.MONTH.12@:@U.MONTH.12@ 31DAYS ;
- 
+@U.MONTH.1@:januaarikuun% @U.MONTH.1@ 31DAYS ;
+@U.MONTH.2@:fepruaarikuun% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.3@:marsikuun% @U.MONTH.3@ 31DAYS ;
+@U.MONTH.4@:aprillikuun% @U.MONTH.4@ 30DAYS ;
+@U.MONTH.5@:maikuun% @U.MONTH.5@ 31DAYS ;
+@U.MONTH.6@:juunikuun% @U.MONTH.6@ 30DAYS ;
+@U.MONTH.7@:juulikuun% @U.MONTH.7@ 31DAYS ;
+@U.MONTH.8@:aukustikuun% @U.MONTH.8@ 31DAYS ;
+@U.MONTH.9@:septemperikuun% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.10@:oktooperikuun% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.11@:novemperikuun% @U.MONTH.11@ 30DAYS ;
+@U.MONTH.12@:desemperikuun% @U.MONTH.12@ 31DAYS ;
+
  
 LEXICON 29DAYS
-ensimäinen:1 B ;
-toinen:2 B ;
-kolmas:3 B ;
-neljes:4 B ;
-viiđes:5 B ;
-kuuđes:6 B ;
-seittemes:7 B ;
-kahđekses:8 B ;
-yhđekses:9 B ;
-kymmenes:1%0 B ;
-yhđestoista:11 B ;
-kahđestoista:12 B ;
-kolmastoista:13 B ;
-neljestoista:14 B ;
-viiđestoista:15 B ;
-kuuđestoista:16 B ;
-seittemestoista:17 B ;
-kahđeksestoista:18 B ;
-yhđeksestoista:19 B ;
-kahđeskymmenes:2%0 B ;
-kahđeskymmenesensimäinen:21 B ;
-kahđeskymmenestoinen:22 B ;
-kahđeskymmeneskolmas:23 B ;
-kahđeskymmenesneljes:24 B ;
-kahđeskymmenesviiđes:25 B ;
-kahđeskymmeneskuuđes:26 B ;
-kahđeskymmenesseittemes:27 B ;
-kahđeskymmeneskahđekses:28 B ;
-kahđeskymmenesyhđekses:29 B ;
+1:ensimäinen B ;
+2:toinen B ;
+3:kolmas B ;
+4:neljes B ;
+5:viiđes B ;
+6:kuuđes B ;
+7:seittemes B ;
+8:kahđekses B ;
+9:yhđekses B ;
+1%0:kymmenes B ;
+11:yhđestoista B ;
+12:kahđestoista B ;
+13:kolmastoista B ;
+14:neljestoista B ;
+15:viiđestoista B ;
+16:kuuđestoista B ;
+17:seittemestoista B ;
+18:kahđeksestoista B ;
+19:yhđeksestoista B ;
+2%0:kahđeskymmenes B ;
+21:kahđeskymmenesensimäinen B ;
+22:kahđeskymmenestoinen B ;
+23:kahđeskymmeneskolmas B ;
+24:kahđeskymmenesneljes B ;
+25:kahđeskymmenesviiđes B ;
+26:kahđeskymmeneskuuđes B ;
+27:kahđeskymmenesseittemes B ;
+28:kahđeskymmeneskahđekses B ;
+29:kahđeskymmenesyhđekses B ;
  
 LEXICON 30DAYS
-kolmaskymmenes:3%0 B ;
+3%0:kolmaskymmenes B ;
 29DAYS ;
  
 LEXICON 31DAYS
-kolmaskymmenesensimäinen:31 B ;
+31:kolmaskymmenesensimäinen B ;
 30DAYS ;
  
 LEXICON B
-% päivä:%. MONTH ;
+%.:% päivä MONTH ;
  
 LEXICON MONTH
-@U.MONTH.1@:1@U.MONTH.1@ X ;
-@U.MONTH.2@:2@U.MONTH.2@ X ;
-@U.MONTH.3@:3@U.MONTH.3@ X ;
-@U.MONTH.4@:4@U.MONTH.4@ X ;
-@U.MONTH.5@:5@U.MONTH.5@ X ;
-@U.MONTH.6@:6@U.MONTH.6@ X ;
-@U.MONTH.7@:7@U.MONTH.7@ X ;
-@U.MONTH.8@:8@U.MONTH.8@ X ;
-@U.MONTH.9@:9@U.MONTH.9@ X ;
-@U.MONTH.10@:1%0@U.MONTH.10@ X ;
-@U.MONTH.11@:11@U.MONTH.11@ X ;
-@U.MONTH.12@:12@U.MONTH.12@ X ;
+1@U.MONTH.1@:@U.MONTH.1@ X ;
+2@U.MONTH.2@:@U.MONTH.2@ X ;
+3@U.MONTH.3@:@U.MONTH.3@ X ;
+4@U.MONTH.4@:@U.MONTH.4@ X ;
+5@U.MONTH.5@:@U.MONTH.5@ X ;
+6@U.MONTH.6@:@U.MONTH.6@ X ;
+7@U.MONTH.7@:@U.MONTH.7@ X ;
+8@U.MONTH.8@:@U.MONTH.8@ X ;
+9@U.MONTH.9@:@U.MONTH.9@ X ;
+1%0@U.MONTH.10@:@U.MONTH.10@ X ;
+11@U.MONTH.11@:@U.MONTH.11@ X ;
+12@U.MONTH.12@:@U.MONTH.12@ X ;
  
 LEXICON X
-:%. # ;
+%.: # ;
 ! # ; ! sloppy punctuation
