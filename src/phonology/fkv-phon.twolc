@@ -391,7 +391,7 @@ Rules
 
 "Gradation ppttkk : ptk"
 !! __@RULENAME@__ 
-Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r) %^WG:0 ;   !entinen omppu
+Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
             where Cx in ( k p t ) ;
 
 !Cx:0 <=> Vowel: _ [Cx|%+:0] (h) (Dummy:) Vowel: (Vowel:0) (Dummy:) %^WG:0 ;  
