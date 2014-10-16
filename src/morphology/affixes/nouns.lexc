@@ -186,17 +186,17 @@ LEXICON x_22oi	!!= * @CODE@  Kulkkiija
  obl-strong ;
 :%^WG weak-v-stem ;
 +Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
-+Pl:%^WG%>i2 sgpl-cases-long ; !! the same affix in sg and pl
++Pl:%^AO%^WG%>i2 sgpl-cases-long ; !! the same affix in sg and pl
 !+Pl:%>i2 sgpl-cases-long ; 
 : 2TAVU_V_ill_sg ;
 +Sg+Ess:%>n%^A PxxK ;
-+Pl+Tra:%^WG%>i2ksi K ;
-+Pl+Ess:i2%>n%^A PxxK ;
-+Pl:%^WG%>i2 tt-longgenpl ;
++Pl+Tra:%^AO%^WG%>i2ksi K ;
++Pl+Ess:%^AOi2%>n%^A PxxK ;
++Pl:%^AO%^WG%>i2 tt-longgenpl ;
 !+Pl:%>i2 tt-longgenpl ;
-+Pl:%^WG%>i2 longparpl ;
++Pl:%^AO%^WG%>i2 longparpl ;
 +Pl+Ill:%>%^HMETAh%^O%>i2 n-PxK ;
-+Pl+Com:%>i2ne K;
++Pl+Com:%^AO%>i2ne K;
 
 
 LEXICON n_23ii	!!= * @CODE@  assii
