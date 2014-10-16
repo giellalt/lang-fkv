@@ -94,14 +94,14 @@ LEXICON x_21
  strong-v-stem ;
 :%^WG weak-v-stem ;
 +Sg:%^WG sgpl-cases-short ;      !! * to sgpl-cases-short for cases with
-+Pl:%^WG%>i2 sgpl-cases-short ;  !!   the same affix in sg and pl
++Pl:%^WG%>%^AO%>i2 sgpl-cases-short ;  !!   the same affix in sg and pl
  2TAVU_V_ill_sg ;
-+Pl:%>i2 shortestgenpl ;  !! * shortestgenpl since we have the i
++Pl:%^AO%>i2 shortestgenpl ;  !! * shortestgenpl since we have the i
 !+Pl:%> tt-longgenpl ;
-+Pl:%>i2 shortestparpl  ;  
++Pl:%^AO%>i2 shortestparpl  ;  
 !+Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
-+Pl+Ill:%>%^HMETAh%^V%>i2 n-PxK ;
-+Pl+Com:%>i2ne K ;
++Pl+Ill:%^AO%>%^HMETAh%^V%>i2 n-PxK ;
++Pl+Com:%^AO%>i2ne K ;
  
 
 LEXICON n_21pl	!!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
