@@ -145,8 +145,8 @@ LEXICON x_22
 +Sg:%^WG sgpl-cases-short ;
 +Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
  2TAVU_V_ill_sg ;
-+Sg+Ess:%>n%^A PxxK ;
-+Pl+Tra:%>i2ksi K ;
+!+Sg+Ess:%>n%^A PxxK ; Lene removed this one
+!+Pl+Tra:%>i2ksi K ; Lene removed this one
 !!+Pl+Tra:%>i2kse PxxK ;
 +Pl+Ess:%>i2n%^A PxxK ;
 +Pl:%^WG%>i2 tt-longgenpl ;
@@ -166,7 +166,7 @@ LEXICON x_22odd	!!= * @CODE@  meininki
 : 2TAVU_V_ill_sg ;
 +Sg+Ess:%>n%^A PxxK ;
 !+Pl+Tra:%>i2ksi K ;
-+Pl+Tra:i%>ksi PxxK ;
+!+Pl+Tra:i%>ksi PxxK ; !Lene removed this
 +Pl+Ess:i2%>n%^A PxxK ;
 +Pl:%^WG%>i2 tt-longgenpl ;
 !+Pl:%>i2 tt-longgenpl ;
@@ -189,9 +189,9 @@ LEXICON x_22oi	!!= * @CODE@  Kulkkiija
 +Pl:%^AO%^WG%>i2 sgpl-cases-long ; !! the same affix in sg and pl
 !+Pl:%>i2 sgpl-cases-long ; 
 : 2TAVU_V_ill_sg ;
-+Sg+Ess:%>n%^A PxxK ;
-+Pl+Tra:%^AO%^WG%>i2ksi K ;
-+Pl+Ess:%^AOi2%>n%^A PxxK ;
+!+Sg+Ess:%>n%^A PxxK ; !Lene removed this
+!+Pl+Tra:%^AO%^WG%>i2ksi K ; !Lene removed this
+!+Pl+Ess:%^AOi2%>n%^A PxxK ; !Lene removed this
 +Pl:%^AO%^WG%>i2 tt-longgenpl ;
 !+Pl:%>i2 tt-longgenpl ;
 +Pl:%^AO%^WG%>i2 longparpl ;
@@ -675,13 +675,13 @@ LEXICON gae-strong
 LEXICON sgpl-cases-short ! kaikille paitsi neljän koplalle
  +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto vuođela
  +All:%>le PxxK ; !! * Lyhyt perusmuoto
-+Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
+! +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste Lene removed this one
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-long ! neljän koplalle
  +Ade:%>ll%^A PxxK ; !! * Pitkä perusmuoto
  +All:%>lle PxxK ; !! * Pitkä perusmuoto
- +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
+! +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste !Lene removed this
  sgpl-cases-common ;
 
 LEXICON sgpl-cases-common
