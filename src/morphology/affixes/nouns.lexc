@@ -46,39 +46,43 @@
 !! !!!INCOMING
 
 LEXICON n_x 
-+N+Sg+Nom: # ; ! Just to make it compile
++N: x_x ;
 
+LEXICON x_x
++Sg+Nom: K ; ! Just to make it compile
 
 
 
 LEXICON n_1 !!= * @CODE@ = maa
- +N+Sg+Nom: K ; 
- +N+Sg+Nom: R ; 
- +N: long-par ;
- +N: weak-v-stem ;
-+N+Sg: sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
-+N+Pl+Com:%>i2ne K ;
++N: x_1 ;
 
- +N: 1TAVU_VV-ill ;
- +N+Pl:%>i2 tt-longgenpl ;
- +N+Pl:%>i2 longparpl ;
- +N+Pl:%>i2 shortillpl ;
- +Sg+Nom: Px ;   ! mattoni
- +Sg+Gen: Px ;   ! mattoni
- +Pl+Nom: Px ;   ! mattoni
- +N+Sg+Ess:%>n%^A PxxK ;
- +N+Pl+Ess:%>i2%>n%^A PxxK ;
+LEXICON x_1
+ +Sg+Nom: K ; 
+ +Sg+Nom: R ; 
+ long_par ;
+ weak_v_stem ;
++Sg: sgpl_cases_short ;      !! these two lexica for cases with
++Pl:%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
++Pl+Com:%>i2ne K ;
+  1TAVU_VV-ill ;
++Pl:%>i2 tt_longgenpl ;
++Pl:%>i2 longparpl ;
++Pl:%>i2 shortillpl ;
++Sg+Nom: Px ;   ! mattoni
++Sg+Gen: Px ;   ! mattoni
++Pl+Nom: Px ;   ! mattoni
++Sg+Ess:%>n%^A PxxK ;
++Pl+Ess:%>i2%>n%^A PxxK ;
  
 LEXICON n_1pl !!= * @CODE@ = häät
 
- +N: long-par ;
- +N: weak-v-stem ;
-+N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+ +N: long_par ;
+ +N: weak_v_stem ;
++N+Pl:%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
 +N+Pl+Com:%>i2ne K ;
 
  +N: 1TAVU_VV-ill ;
- +N+Pl:%>i2 tt-longgenpl ;
+ +N+Pl:%>i2 tt_longgenpl ;
  +N+Pl:%>i2 longparpl ;
  +N+Pl:%>i2 shortillpl ;
  +N+Pl+Ess:%>i2%>n%^A PxxK ;
@@ -91,25 +95,29 @@ LEXICON n_21	!!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo
 +N: x_21 ;
 
 LEXICON x_21
+nom_strong ;
+x_21_oblique ;
+
+LEXICON x_21_oblique
  strong-v-stem ;
-:%^WG weak-v-stem ;
-+Sg:%^WG sgpl-cases-short ;      !! * to sgpl-cases-short for cases with
-+Pl:%^WG%>%^AO%>i2 sgpl-cases-short ;  !!   the same affix in sg and pl
+:%^WG weak_v_stem ;
++Sg:%^WG sgpl_cases_short ;      !! * to sgpl_cases_short for cases with
++Pl:%^WG%>%^AO%>i2 sgpl_cases_short ;  !!   the same affix in sg and pl
  2TAVU_V_ill_sg ;
 +Pl:%^AO%>i2 shortestgenpl ;  !! * shortestgenpl since we have the i
-!+Pl:%> tt-longgenpl ;
+!+Pl:%> tt_longgenpl ;
 +Pl:%^AO%>i2 shortestparpl  ;  
-!+Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
-+Pl+Ill:%^AO%>%^HMETAh%^V%>i2 n-PxK ;
+!+Pl+Ill:%>%^HMETAhi%>i2 n_PxK ;
++Pl+Ill:%^AO%>%^HMETAh%^V%>i2 n_PxK ;
 +Pl+Com:%^AO%>i2ne K ;
  
 
 LEXICON n_21pl	!!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
  +N+Pl+Nom:%>t K ; 
- +N+Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+ +N+Pl:%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
  +N+Pl+Ess:%>i2%>n%^A PxxK ;
- +N+Pl:%>i2 tt-longgenpl ;
- +N+Pl+Ill:%>%^HMETAh%^V%>i2 n-PxK ;
+ +N+Pl:%>i2 tt_longgenpl ;
+ +N+Pl+Ill:%>%^HMETAh%^V%>i2 n_PxK ;
  !+N+Pl:%>%^HMETAh shorterillpl;
  +N+Pl:%>i2 shortestparpl ;
  +N+Pl+Com:%>i2ne K ;
@@ -126,11 +134,11 @@ LEXICON n_21ie	!!= @CODE@ on ove, ovi, nom joki:joke
 LEXICON x_21ie 
 +Sg+Nom:%^E2I K ; ! %^EI e to i
 +Sg+Nom:%^E2I R ; ! %^EI e to i
- short-par ;
- obl-strong ;   
-:%^WG weak-v-stem ;
-+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+ short_par ;
+ obl_strong ;   
+:%^WG weak_v_stem ;
++Sg:%^WG sgpl_cases_short ;      !! these two lexica for cases with
++Pl:%^WG%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
 +Pl:%>i2i shortestgenpl ;
 	2TAVU_edel-ill ;
 +Pl:%>i2 shortparpl ;
@@ -140,62 +148,64 @@ LEXICON n_22	!!= * @CODE@  opettaaja
 +N: x_22 ;
 
 LEXICON x_22	
+ nom_strong ;
  strong-v-stem ;
-:%^WG weak-v-stem ;
-+Sg:%^WG sgpl-cases-short ;
-+Pl:%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+:%^WG weak_v_stem ;
++Sg:%^WG sgpl_cases_short ;
++Pl:%^WG%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
  2TAVU_V_ill_sg ;
 !+Sg+Ess:%>n%^A PxxK ; Lene removed this one
 !+Pl+Tra:%>i2ksi K ; Lene removed this one
 !!+Pl+Tra:%>i2kse PxxK ;
 +Pl+Ess:%>i2n%^A PxxK ;
-+Pl:%^WG%>i2 tt-longgenpl ;
++Pl:%^WG%>i2 tt_longgenpl ;
 +Pl:%>i2 longparpl ;
-+Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
++Pl+Ill:%>%^HMETAhi%>i2 n_PxK ;
 +Pl+Com:%>i2ne K ;
 
 LEXICON n_22odd	!!= * @CODE@  meininki
 +N: x_22odd ;
 
 LEXICON x_22odd	!!= * @CODE@  meininki
-: strong-v-stem ;
-:%^WG weak-v-stem ;
-+Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
-+Pl:%^WG%>i2 sgpl-cases-long ; !! the same affix in sg and pl
-+Pl:%^WG%>i2 sgpl-cases-long ; 
+ nom_strong ;
+ strong-v-stem ;
+:%^WG weak_v_stem ;
++Sg:%^WG sgpl_cases_long ;      !! these two lexica for cases with
++Pl:%^WG%>i2 sgpl_cases_long ; !! the same affix in sg and pl
++Pl:%^WG%>i2 sgpl_cases_long ; 
 : 2TAVU_V_ill_sg ;
 +Sg+Ess:%>n%^A PxxK ;
 !+Pl+Tra:%>i2ksi K ;
 !+Pl+Tra:i%>ksi PxxK ; !Lene removed this
 +Pl+Ess:i2%>n%^A PxxK ;
-+Pl:%^WG%>i2 tt-longgenpl ;
-!+Pl:%>i2 tt-longgenpl ;
++Pl:%^WG%>i2 tt_longgenpl ;
+!+Pl:%>i2 tt_longgenpl ;
 +Pl:%>i2 longparpl ;
 !+Pl:%>i longparpl ;
 !+Pl:%^WG%>i2 longparpl ;
-+Pl+Ill:%>%^HMETAh%^V%^V n-PxK ;
-+Pl+Ill:%>%^HMETAhi%>i2 n-PxK ;
++Pl+Ill:%>%^HMETAh%^V%^V n_PxK ;
++Pl+Ill:%>%^HMETAhi%>i2 n_PxK ;
 +Pl+Com:%>i2ne K;
 
 LEXICON n_22oi	!!= * @CODE@  
 +N: x_22oi ;
 
 LEXICON x_22oi	!!= * @CODE@  Kulkkiija
- nom-strong ;
- long-par ;
- obl-strong ;
-:%^WG weak-v-stem ;
-+Sg:%^WG sgpl-cases-long ;      !! these two lexica for cases with
-+Pl:%^AO%^WG%>i2 sgpl-cases-long ; !! the same affix in sg and pl
-!+Pl:%>i2 sgpl-cases-long ; 
+ nom_strong ;
+ long_par ;
+ obl_strong ;
+:%^WG weak_v_stem ;
++Sg:%^WG sgpl_cases_long ;      !! these two lexica for cases with
++Pl:%^AO%^WG%>i2 sgpl_cases_long ; !! the same affix in sg and pl
+!+Pl:%>i2 sgpl_cases_long ; 
 : 2TAVU_V_ill_sg ;
 !+Sg+Ess:%>n%^A PxxK ; !Lene removed this
 !+Pl+Tra:%^AO%^WG%>i2ksi K ; !Lene removed this
 !+Pl+Ess:%^AOi2%>n%^A PxxK ; !Lene removed this
-+Pl:%^AO%^WG%>i2 tt-longgenpl ;
-!+Pl:%>i2 tt-longgenpl ;
++Pl:%^AO%^WG%>i2 tt_longgenpl ;
+!+Pl:%>i2 tt_longgenpl ;
 +Pl:%^AO%^WG%>i2 longparpl ;
-+Pl+Ill:%>%^HMETAh%^O%>i2 n-PxK ;
++Pl+Ill:%>%^HMETAh%^O%>i2 n_PxK ;
 +Pl+Com:%^AO%>i2ne K;
 
 
@@ -204,12 +214,12 @@ LEXICON n_23ii	!!= * @CODE@  assii
 +N+Sg+Nom: R ;
 +N+Sg+Ill:sseen  K ;
 +N+Pl+Ill:ssiin K ;
-+N: long-par-sg ;
++N: long_par_sg ;
 +N+Pl: longparpl ;
-+N+Pl: tt-longgenpl ;
-+N: weak-v-stem ;
-+N+Sg:%^WG sgpl-cases-short ;   !! * @CODE@  for same affix in sg and pl
-+N+Pl:%^WG sgpl-cases-short ;  !! * @CODE@  for same affix in sg and pl
++N+Pl: tt_longgenpl ;
++N: weak_v_stem ;
++N+Sg:%^WG sgpl_cases_short ;   !! * @CODE@  for same affix in sg and pl
++N+Pl:%^WG sgpl_cases_short ;  !! * @CODE@  for same affix in sg and pl
 +N+Sg+Ess:%>n%^A PxxK ;
 +N+Pl+Ess:%>n%^A PxxK ;
 +N+Pl+Com:%>ne K ;
@@ -219,15 +229,15 @@ LEXICON n_23	!!= * @CODE@  valkkee
 
 LEXICON x_23
 +Sg+Nom:e K ; 
-+Sg:e sgpl-cases-short ;
++Sg:e sgpl_cases_short ;
 +Sg+Gen:en K ; 
 +Pl+Nom:et K ;
 +Sg+Ill:esseen  K ;
 +Pl+Ill:e%>i2ssiin K ;
-:e long-par-sg ;
+:e long_par_sg ;
 +Pl:e%>i2 longparpl ;
-+Pl:e%>i2 tt-longgenpl ;
-+Pl:e%>i2 sgpl-cases-short ;
++Pl:e%>i2 tt_longgenpl ;
++Pl:e%>i2 sgpl_cases_short ;
 !+Sg+Ess:en%^A PxxK ; 
 +Pl+Ess:e%>i2n%^A PxxK ;
 +Pl+Com:e%>i2ne K ;
@@ -239,11 +249,11 @@ LEXICON n_31	!!= @CODE@  kieli
 LEXICON x_31
 +Sg+Nom:%^E2I K ; ! %^E2I e to i
 +Sg+Nom:%%^E2I R ; ! %^E2I e to i
-:%^EDEL long-par-sg ;
- obl-strong ;   
-:%^WG weak-v-stem ;
-+Sg:%^WG sgpl-cases-short ;    !! * @CODE@  for same affix in sg and pl
-+Pl:%>i2 sgpl-cases-short ;  !! * @CODE@  for same affix in sg and pl
+:%^EDEL long_par_sg ;
+ obl_strong ;   
+:%^WG weak_v_stem ;
++Sg:%^WG sgpl_cases_short ;    !! * @CODE@  for same affix in sg and pl
++Pl:%>i2 sgpl_cases_short ;  !! * @CODE@  for same affix in sg and pl
  2TAVU_V_ill_sg ;
 +Pl:%^E2I%^HMETAhii shortestillpl ;
 +Pl:%>i2 shortparpl	 ;
@@ -254,14 +264,14 @@ LEXICON x_31
 LEXICON n_31m	!!= @CODE@ lumi lu
 +N+Sg+Nom:mi K ; ! %^EI e to i
 +N+Sg+Nom:mi R ; ! %^EI e to i
-+N:n long-par-sg ;
-+N:me obl-strong ;   
-+N:me%^WG weak-v-stem ;
-+N+Sg:me%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:m%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N:n long_par_sg ;
++N:me obl_strong ;   
++N:me%^WG weak_v_stem ;
++N+Sg:me%^WG sgpl_cases_short ;      !! these two lexica for cases with
++N+Pl:m%^WG%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
 +N+Pl:mmi%>i2	shortestgenpl ;
-+N+Sg+Ill:m%>%^HMETAhee n-PxK ;
-+N+Pl+Ill:m%^EDEL%>hii n-PxK ;
++N+Sg+Ill:m%>%^HMETAhee n_PxK ;
++N+Pl+Ill:m%^EDEL%>hii n_PxK ;
 +N+Pl:mmi%>i2 shortestparpl ;
 +N+Pl+Com:m%>i2ne K ;
 
@@ -271,11 +281,11 @@ LEXICON n_31si	!!= @CODE@ vuosi, käsi
 LEXICON x_31si
 +Sg+Nom:%^E2I K ; ! %^E2I e to i
 +Sg+Nom:%^E2I R ; ! %^E2I e to i
-:%^EDEL long-par-sg ;
-: obl-strong ;   
-:%^WG weak-v-stem ;
-+Sg:%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+Pl:%^E2I%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+:%^EDEL long_par_sg ;
+: obl_strong ;   
+:%^WG weak_v_stem ;
++Sg:%^WG sgpl_cases_short ;      !! these two lexica for cases with
++Pl:%^E2I%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
 : 2TAVU_V_ill_sg ;
 :%^E2I%^HMETAhii shortestillpl ;
 :%^E2I%>i2 shortparpl ;
@@ -286,15 +296,15 @@ LEXICON x_31si
 LEXICON n_31lapsi	!!= @CODE@ lapsi la
 +N+Sg+Nom:psi K ; ! %^EI e to i
 +N+Sg+Nom:psi R ; ! %^EI e to i
-+N:s long-par-sg ;
-+N:pse obl-strong ;   
-+N:pse%^WG weak-v-stem ;
-+N+Sg:pse%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:ps%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N:s long_par_sg ;
++N:pse obl_strong ;   
++N:pse%^WG weak_v_stem ;
++N+Sg:pse%^WG sgpl_cases_short ;      !! these two lexica for cases with
++N+Pl:ps%^WG%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
 +N+Pl:psi%>i2	shortestgenpl ;
 +Pl:ps%>i2i shortestparpl ;
-+N+Sg+Ill:ps%>%^HMETAhee n-PxK ;
-+N+Pl+Ill:ps%^EDEL%>hii n-PxK ;
++N+Sg+Ill:ps%>%^HMETAhee n_PxK ;
++N+Pl+Ill:ps%^EDEL%>hii n_PxK ;
 +N+Pl:psi%>i2 shortparpl ;
 +N+Pl+Com:ps%>i2ne K ;
 
@@ -302,16 +312,16 @@ LEXICON n_31mies	!!= @CODE@ mies mie
 +N+Sg+Nom:s K ; ! %^EI e to i
 +N+Sg+Nom:s R ; ! %^EI e to i
 +N+Sg+Gen:hen K ;
-+N:s long-par-sg ;
-+N:he obl-strong ;   
-+N+Sg:he%^WG weak-v-stem ;
++N:s long_par_sg ;
++N:he obl_strong ;   
++N+Sg:he%^WG weak_v_stem ;
 +N+Pl+Nom:het K ;
-+N+Sg:he%^WG sgpl-cases-short ;      !! these two lexica for cases with
-+N+Pl:h%^WG%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++N+Sg:he%^WG sgpl_cases_short ;      !! these two lexica for cases with
++N+Pl:h%^WG%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
 +N+Pl:hi%>i2	shortestgenpl ;
 +Pl:h%>i2i shortestparpl ;
-+N+Sg+Ill:h%>%^HMETAhee n-PxK ;
-+N+Pl+Ill:hhii n-PxK ;
++N+Sg+Ill:h%>%^HMETAhee n_PxK ;
++N+Pl+Ill:hhii n_PxK ;
 +N+Pl:hi%>i2 shortparpl ;
 +N+Pl+Com:h%>i2ne K ;
 
@@ -322,16 +332,16 @@ LEXICON n_32 !!= @CODE@ tytär tyttär
 LEXICON x_32
 +Sg+Nom:%^WG K ;
 +Sg+Nom:%^WG R ;
-:e weak-v-stem ;
+:e weak_v_stem ;
 +Sg+Par:%^WG%>t%^A PxxK ;
-:e obl-strong ;
+:e obl_strong ;
 +Sg+Gen:e%>n K ;
 :e 2TAVU_V_ill_sg ;
-:e obl-strong ;
+:e obl_strong ;
 :e 2TAVU_V_ill_sg ;
-+Sg:e sgpl-cases-long ;      
-+Pl:%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
-+Pl:i%>i2 tt-longgenpl ;
++Sg:e sgpl_cases_long ;      
++Pl:%>i2 sgpl_cases_long ; ! hmm, tämä menee pieleen, sg ≠ pl
++Pl:i%>i2 tt_longgenpl ;
 +Pl:i%>i2 longparpl ;
 +Pl:%^HMETAh%>i2i shortestillpl;
 +Pl+Com:%>i2ne K ;
@@ -339,49 +349,61 @@ LEXICON x_32
 LEXICON n_32m !!= @CODE@ elläin elläi
 +N: x_32m ;
 
+LEXICON n_32m_pl !!= @CODE@ elläin elläi
++N: x_32m_pl ;
+
+
 
 LEXICON x_32m !!= @CODE@ 
+x_32m_sg ;
+x_32m_pl ;
+
+LEXICON x_32m_sg 
 +Sg+Nom:%^WGn K ;
 +Sg+Nom:%^WGn R ;
-:me weak-v-stem ;
+:me weak_v_stem_sg ;
 +Sg+Par:%^WG%>nt%^A PxxK ;
-:me obl-strong ;
+:me obl_strong ;
 +Sg+Gen:me%>n K ;
 :me 2TAVU_V_ill_sg ;
-:me obl-strong ;
+:me obl_strong ;
 :me 2TAVU_V_ill_sg ;
-+Sg:me sgpl-cases-long ;      
-+Pl:m%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
++Sg:me sgpl_cases_long ;   
+   
+LEXICON x_32m_pl 
++Pl:me weak_v_stem_pl ;
++Pl:me weak_v_stem ;
++Pl:m%>i2 sgpl_cases_long ; ! hmm, tämä menee pieleen, sg ≠ pl
 +Pl:%>mi%>i2 longparpl ;
-+Pl:mi%>i2 tt-longgenpl ;
++Pl:mi%>i2 tt_longgenpl ;
 +Pl:m%^HMETAh%>i2i shortestillpl;
 +Pl+Com:m%>i2ne K ;
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:%^WGs # ;  !! * Konsonanttivartalo: poista -e ja heikko aste
 +N+Sg+Par:%>tt%^A PxxK ;
-!+N:te obl-strong ;
-+N:đe weak-v-stem ;
+!+N:te obl_strong ;
++N:đe weak_v_stem ;
 +N:te 2TAVU_V_ill_sg ;
-!+N+Sg:đe sgpl-cases-long ;
-+N+Sg:đe sgpl-cases-common ;
+!+N+Sg:đe sgpl_cases_long ;
++N+Sg:đe sgpl_cases_common ;
 +N+Sg+Ade:đe%>ll%^A PxxK ; !! * Pitkä perusmuoto
 +N+Sg+All:đe%>lle PxxK ; !! * Pitkä perusmuoto
 +N+Sg+Ess:te%>n%^A PxxK ;
 +N+Pl+Ess:ks%>i2n%^A PxxK ;      
-+N+Pl:ks%>i2 sgpl-cases-long ; ! hmm, tämä menee pieleen, sg ≠ pl
++N+Pl:ks%>i2 sgpl_cases_long ; ! hmm, tämä menee pieleen, sg ≠ pl
 +N+Pl:ksi%>i2 longparpl ;
-+N+Pl:ksi%>i2 tt-longgenpl ;
++N+Pl:ksi%>i2 tt_longgenpl ;
 +N+Pl:ks%^HMETAh%>i2i shortestillpl;
 +N+Pl+Com:ks%>i2ne K ;
 
 
 ! LEXICON n_32s != @CODE@  sairhaus vanha versio
-! +N:t long-par ;
-! +N:te obl-strong ;
-! +N:te%^WG weak-v-stem ;
-! +N+Sg:%^WG sgpl-cases-long ;      
-! +N+Pl:%^WG%>i2 sgpl-cases-long ;
+! +N:t long_par ;
+! +N:te obl_strong ;
+! +N:te%^WG weak_v_stem ;
+! +N+Sg:%^WG sgpl_cases_long ;      
+! +N+Pl:%^WG%>i2 sgpl_cases_long ;
 ! +N+Pl:ks%>i2 shortparpl ;
 ! +N+Pl:ks%>i2 shortgenpl ;
 ! +N+Pl:ks%>i2 shorterillpl ;
@@ -400,12 +422,12 @@ LEXICON x_33as
 :haa mTAVU_VV-ill ;
 +Pl+Ill:h%>aissiin K ;
 +Pl+Com:h%>a%>ine K ;
-:h%>aa weak-v-stem-sg ;
-:h%>aa weak-v-stem-pl;
-+Sg:h%>aa sgpl-cases-short ;
-+Pl:h%>a%>i2 sgpl-cases-short ;
+:h%>aa weak_v_stem_sg ;
+:h%>aa weak_v_stem_pl;
++Sg:h%>aa sgpl_cases_short ;
++Pl:h%>a%>i2 sgpl_cases_short ;
 +Pl:h%>a%>i2 longparpl ;
-+Pl:h%>a%>i2 tt-longgenpl ;
++Pl:h%>a%>i2 tt_longgenpl ;
 +N+Pl+Ess:h%>a%>i2%>na PxxK ;
 
 !LEXICON n_33aes 
@@ -416,12 +438,12 @@ LEXICON x_33aes
 :hää mTAVU_VV-ill ;
 +Pl+Ill:h%>äissiin K ;
 +Pl+Com:h%>ä%>ine K ;
-:h%>ää weak-v-stem-sg ;
-:h%>ää weak-v-stem-pl;
-+Sg:h%>ää sgpl-cases-short ;
-+Pl:h%>ä%>i2 sgpl-cases-short ;
+:h%>ää weak_v_stem_sg ;
+:h%>ää weak_v_stem_pl;
++Sg:h%>ää sgpl_cases_short ;
++Pl:h%>ä%>i2 sgpl_cases_short ;
 +Pl:h%>ä%>i2 longparpl ;
-+Pl:h%>ä%>i2 tt-longgenpl ;
++Pl:h%>ä%>i2 tt_longgenpl ;
 +N+Pl+Ess:h%>ä%>i2%>nä PxxK ;
 
 
@@ -434,12 +456,12 @@ LEXICON x_33ys
 :h%>yy mTAVU_VV-ill ;
 +Pl+Ill:h%>yissiin K ;
 +Pl+Com:h%>y%>ine K ;
-:h%>yy weak-v-stem-sg ;
-:h%>yy weak-v-stem-pl;
-+Sg:h%>yy sgpl-cases-short ;
-+Pl:h%>y%>i2 sgpl-cases-short ;
+:h%>yy weak_v_stem_sg ;
+:h%>yy weak_v_stem_pl;
++Sg:h%>yy sgpl_cases_short ;
++Pl:h%>y%>i2 sgpl_cases_short ;
 +Pl:h%>y%>i2 longparpl ;
-+Pl:h%>y%>i2 tt-longgenpl ;
++Pl:h%>y%>i2 tt_longgenpl ;
 +N+Pl+Ess:h%>y%>i2%>ny PxxK ;
 
 
@@ -447,13 +469,13 @@ LEXICON n_33is !!= @CODE@ rakas
 +N: x_33is ;
 
 LEXICON x_33is !!= @CODE@ ruvis
-+N:i sConsCaselyhyempi ; ! nom, par 
-+N:hii weak-v-stem-sg ;
-+N:hii weak-v-stem-pl;
-+N+Sg:hii sgpl-cases-short ;
-+N+Pl:hi%>i2 sgpl-cases-short ;
++N:i%^WG sConsCaselyhyempi ; ! nom, par 
++N:hii weak_v_stem_sg ;
++N:hii weak_v_stem_pl;
++N+Sg:hii sgpl_cases_short ;
++N+Pl:hi%>i2 sgpl_cases_short ;
 +N+Pl:hi%>i2 longparpl ;
-+N+Pl:hi%>i2 tt-longgenpl ;
++N+Pl:hi%>i2 tt_longgenpl ;
 +N+Pl+Ess:hi%>i2%>n%^A PxxK ;
 +N+Sg+Ill:%>hiisseen K ;
 +N+Pl+Ill:hi%>i2ssiin K ;
@@ -474,11 +496,11 @@ LEXICON x_33t
 
 LEXICON n_33ts !!= @CODE@ kirves
 +N+Sg+Nom:es K ;
-+N:es long-par-sg ; 
++N:es long_par_sg ; 
 +N:hee loputjutut ;
 +Sg+Ill:hee mTAVU_VV-ill ;
 +N+Pl+Ill:heissiin K ;
-+N+Pl+Gen:hee%>i2 tt-longgenpl ;
++N+Pl+Gen:hee%>i2 tt_longgenpl ;
 +N+Pl+Com:hee%>i2ne K ;
 
 LEXICON n_41 !!= * @CODE@ = veres
@@ -512,8 +534,8 @@ LEXICON n_41pl !!= * @CODE@ = veljekset
 !+N:%^WG # ;
 
 !LEXICON n_42 ! itse asiassa n_42even
-!+N+Sg:se sgpl-cases-short ;      !! these two lexica for cases with
-!+N+Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
+!+N+Sg:se sgpl_cases_short ;      !! these two lexica for cases with
+!+N+Pl:s%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
 !+N: nen ;
 !+N+Pl+Com:s%>i2ne K ;
 
@@ -522,11 +544,11 @@ LEXICON n_42
 
 LEXICON x_42 
 +Sg+Nom: nen K ; 
-:se weak-v-stem ;
-:s long-par-sg ;
+:se weak_v_stem ;
+:s long_par_sg ;
 :se 2TAVU_V_ill_sg ;
-+Sg:se sgpl-cases-short ;      !! these two lexica for cases with
-+Pl:s%>i2 sgpl-cases-short ;  !! the same affix in sg and pl
++Sg:se sgpl_cases_short ;      !! these two lexica for cases with
++Pl:s%>i2 sgpl_cases_short ;  !! the same affix in sg and pl
 +Pl:s consgenpl ;
 +Pl:ss%>i2i shortestparpl ;
 +Pl:sh%>i2 shorterillpl ;
@@ -539,12 +561,12 @@ LEXICON n_42odd !!= @CODE@ ihminen
 LEXICON x_42odd 
 +Sg+Nom: nen K;
 !:s R ;
-!:se gae-strong ;
-:se weak-v-stem ;
-:s long-par-sg ;
+!:se gae_strong ;
+:se weak_v_stem ;
+:s long_par_sg ;
 :se 2TAVU_V_ill_sg ;
-+Sg:se sgpl-cases-long ;      !! these two lexica for cases with
-+Pl:s%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
++Sg:se sgpl_cases_long ;      !! these two lexica for cases with
++Pl:s%>i2 sgpl_cases_long ;  !! the same affix in sg and pl
 +Pl:s consgenpl ;
 +Pl:ss%>i2i shortestparpl ;
 +Pl:sh%>i2 shorterillpl ;
@@ -553,27 +575,27 @@ LEXICON x_42odd
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
  +N+Pl+Nom:%>set K ;
  +N+Pl+Ess:s%>i2%>n%^A PxxK ;
- +N+Pl:s%>i2 sgpl-cases-long ;  !! the same affix in sg and pl
+ +N+Pl:s%>i2 sgpl_cases_long ;  !! the same affix in sg and pl
  +N+Pl:s consgenpl ;
  +N+Pl:s%>i2 shortparpl ;
  +N+Pl+Ill:sh%>i2in K ;
  +N+Pl+Com:s%>i2ne K ;
 
 LEXICON nen  !!= @CODE@ on nainen-sanoille
- nen-sg ;
- nen-pl ;
+ nen_sg ;
+ nen_pl ;
 
-LEXICON nen-sg 
+LEXICON nen_sg 
   nom-nen ;
  :s R ;
- :se gae-strong ;
+ :se gae_strong ;
  !make+Pl+kom:sine K ;
- :se weak-v-stem-sg ;
- :s long-par-sg ;
+ :se weak_v_stem_sg ;
+ :s long_par_sg ;
  :se 2TAVU_V_ill_sg ;
 
-LEXICON nen-pl
- :se weak-v-stem-pl ;
+LEXICON nen_pl
+ :se weak_v_stem_pl ;
  +Pl+Ill:sh%>i2in K ;
  +Pl:s consgenpl ;
  +Pl:ss%>i2i shortestparpl ;
@@ -586,39 +608,39 @@ LEXICON nom-nen
 
 
 LEXICON loput
- obl-strong ; ! muut vahvat
- weak-v-stem ;
- +Sg: sgpl-cases-long ;      !! these two lexica for cases with
- +Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl -- tsekkaa long
+ obl_strong ; ! muut vahvat
+ weak_v_stem ;
+ +Sg: sgpl_cases_long ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl_cases_long ;  !! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 consgenpl ;
- +Pl:%>i2 tt-longgenpl ;
+ +Pl:%>i2 tt_longgenpl ;
  +Pl:%>i2 shortparpl ;
 
 LEXICON loput2
- obl-strong ; ! muut vahvat
- weak-v-stem ;
- +Sg: sgpl-cases-long ;      !! these two lexica for cases with
- +Pl:%>i2 sgpl-cases-long ;  !! the same affix in sg and pl -- tsekkaa long
+ obl_strong ; ! muut vahvat
+ weak_v_stem ;
+ +Sg: sgpl_cases_long ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl_cases_long ;  !! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 shortparpl ;
  
 LEXICON loputjutut
- obl-strong ; ! muut vahvat
- weak-v-stem ;
- +Sg: sgpl-cases-short ;      !! these two lexica for cases with
- +Pl:%>i2 sgpl-cases-short ;  !! the same affix in sg and pl -- tsekkaa long
+ obl_strong ; ! muut vahvat
+ weak_v_stem ;
+ +Sg: sgpl_cases_short ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl_cases_short ;  !! the same affix in sg and pl -- tsekkaa long
  mTAVU_VV-ill ;
- +Pl:%>i2 tt-longgenpl ;
+ +Pl:%>i2 tt_longgenpl ;
  +Pl:%>i2 longparpl ;
  +Pl:%>i2ssii longillpl ;
 
 LEXICON sConsCase
- +Sg+Nom:%^WG%>s K ;
- +Sg+Par:%^WG%>st%^A K ; ! Par
- +Pl+Gen:%^WG%>sten K ; ! Gen
+ +Sg+Nom:%>s K ;
+ +Sg+Par:%>st%^A K ; ! Par
+ +Pl+Gen:%>sten K ; ! Gen
 
 LEXICON sConsCaselyhyempi
- +Sg+Nom:%^WG%>s K ;
- +Sg+Par:%^WG%>st%^A K ; ! Par
+ +Sg+Nom:%>s K ;
+ +Sg+Par:%>st%^A K ; ! Par
  
 
 LEXICON tConsCase
@@ -633,38 +655,37 @@ LEXICON tConsCase
 !! !!Basic vowel stems
 !  --------------------
 
+LEXICON nom_strong
+  +Sg+Nom: K ; 
+  +Sg+Nom: R ; 
+
 LEXICON strong-v-stem  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
- nom-strong ;
- short-par ;
- obl-strong ;
+ short_par ;
+ obl_strong ;
 
-LEXICON weak-v-stem !!= @CODE@ 
- weak-v-stem-sg ;
- weak-v-stem-pl ;
+LEXICON weak_v_stem !!= @CODE@ 
+ weak_v_stem_sg ;
+ weak_v_stem_pl ;
 
-LEXICON weak-v-stem-sg
+LEXICON weak_v_stem_sg
  +Sg+Gen:%>n K ;
  +Sg+Gen:%>n R ;
 
-LEXICON weak-v-stem-pl
+LEXICON weak_v_stem_pl
  +Pl+Nom:%>t K ;
 ! +Pl+Ins:%>i2%>n K ;   !! Marginal case, in use only for some words.
                         !! Todo: identify these, and remove Ins from the
-                        !! general weak-v-stem lexicon.
+                        !! general weak_v_stem lexicon.
 
 !! !Sublexica for the vowel stems
 !  - - - - - - - - - - - - - - - 
 
-LEXICON nom-strong
-  +Sg+Nom: K ; 
-  +Sg+Nom: R ; 
-
-LEXICON obl-strong 
- gae-strong ;
+LEXICON obl_strong 
+ gae_strong ;
  +Pl:%>i2 com ;
 
  
-LEXICON gae-strong
+LEXICON gae_strong
  +Sg+Nom: Px ;   ! mattoni
  +Sg+Gen: Px ;   ! mattoni
 ! +Sg+Gen: R ;   ! mattoni
@@ -672,19 +693,19 @@ LEXICON gae-strong
  +Sg+Ess:%>n%^A PxxK ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
-LEXICON sgpl-cases-short ! kaikille paitsi neljän koplalle
+LEXICON sgpl_cases_short ! kaikille paitsi neljän koplalle
  +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto vuođela
  +All:%>le PxxK ; !! * Lyhyt perusmuoto
 ! +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste Lene removed this one
- sgpl-cases-common ;
+ sgpl_cases_common ;
 
-LEXICON sgpl-cases-long ! neljän koplalle
+LEXICON sgpl_cases_long ! neljän koplalle
  +Ade:%>ll%^A PxxK ; !! * Pitkä perusmuoto
  +All:%>lle PxxK ; !! * Pitkä perusmuoto
 ! +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste !Lene removed this
- sgpl-cases-common ;
+ sgpl_cases_common ;
 
-LEXICON sgpl-cases-common
+LEXICON sgpl_cases_common
  +Abl:%>lt%^A PxxK ;
  +Ine:%>ss%^A PxxK ;
  +Ela:%>st%^A PxxK ;
@@ -705,60 +726,60 @@ LEXICON com
 ! --------------------------------
 
 
-LEXICON short-par
+LEXICON short_par
 +Sg+Par:%>%^V PxxK ;
  
 
-LEXICON long-par
- long-par-sg ;
- long-par-pl ;
+LEXICON long_par
+ long_par_sg ;
+ long_par_pl ;
 
-LEXICON long-par-sg
+LEXICON long_par_sg
  +Sg+Par:%>t%^A PxxK ;
 
-LEXICON long-par-pl
+LEXICON long_par_pl
   +Pl+Par:%>i2%>t%^A PxxK ;
 
 LEXICON 1TAVU_VV-ill  !short maahan
- +Sg+Ill:%>h%^V n-PxK ;
+ +Sg+Ill:%>h%^V n_PxK ;
  
 LEXICON 2TAVU_V_ill_sg !long
-+Sg+Ill:%>%^HMETAh%^V%^V n-PxK ;
++Sg+Ill:%>%^HMETAh%^V%^V n_PxK ;
 
 ! sykshyyn, linnhaan
 !! linna pl.ill. kaksi muotoa po. linnhoin
 
 LEXICON 2TAVU_edel-ill !suomhiin
-+Sg+Ill:%>%^HMETAh%^V%^V n-PxK ;
-+Pl+Ill:%^EDEL%>hii n-PxK ;
++Sg+Ill:%>%^HMETAh%^V%^V n_PxK ;
++Pl+Ill:%^EDEL%>hii n_PxK ;
 
 
 LEXICON mTAVU_VV-ill !longer kuninkhaa/sseen
-!+Sg+Ill:%>ss%^V%^V n-PxK ;
-+Sg+Ill:%>ssee n-PxK ; !koska tämä pääte aina sseen
+!+Sg+Ill:%>ss%^V%^V n_PxK ;
++Sg+Ill:%>ssee n_PxK ; !koska tämä pääte aina sseen
 
 
 LEXICON oldgenpl
- +Gen:%> n-PxK ;
+ +Gen:%> n_PxK ;
 
 LEXICON shortestgenpl !! * @CODE@ zero, because ii > i
- +Gen: n-PxK ;
+ +Gen: n_PxK ;
 
 LEXICON shortgenpl
- +Gen:%>%^V n-PxK ;
+ +Gen:%>%^V n_PxK ;
 
 LEXICON longgenpl
- d-longgenpl ; ! oletaan, että -tten vaan
- tt-longgenpl ; 
+ d_longgenpl ; ! oletaan, että -tten vaan
+ tt_longgenpl ; 
 
-LEXICON d-longgenpl
- +Gen:%>de n-PxK ;
+LEXICON d_longgenpl
+ +Gen:%>de n_PxK ;
 
-LEXICON tt-longgenpl
- +Gen:%>tte n-PxK ;
+LEXICON tt_longgenpl
+ +Gen:%>tte n_PxK ;
 
 LEXICON consgenpl
- +Gen:%>te n-PxK ;
+ +Gen:%>te n_PxK ;
 
 LEXICON shortestparpl !! * @CODE@ zero, because ii > i
  +Par: PxxK ;
@@ -770,23 +791,23 @@ LEXICON longparpl
  +Par:%>t%^A PxxK ;
 
 LEXICON shortestillpl
- +Ill:%> n-PxK ;
+ +Ill:%> n_PxK ;
 
 LEXICON shortillpl
- +Ill:%>hi n-PxK ;
+ +Ill:%>hi n_PxK ;
 
 LEXICON h_shortillpl
- +Ill:%^EDEL%>hii n-PxK ;
+ +Ill:%^EDEL%>hii n_PxK ;
 
 
 LEXICON shorterillpl
- +Ill:%>i2 n-PxK ;		
+ +Ill:%>i2 n_PxK ;		
 
 LEXICON longillpl
-+Ill: n-PxK ;  ! En tiedä, toimiiko tämä
++Ill: n_PxK ;  ! En tiedä, toimiiko tämä
 
 LEXICON longerillpl
-  +Pl+Ill:%>s%^V%^V n-PxK ;
+  +Pl+Ill:%>s%^V%^V n_PxK ;
 
 
 
@@ -795,11 +816,11 @@ LEXICON longerillpl
 !! !Sublexica for possessive suffixes
 ! ---------------------------------
 
-LEXICON n-PxK  !!= @CODE@ has either -n or goes to Px
+LEXICON n_PxK  !!= @CODE@ has either -n or goes to Px
  :n K ;
  Px ;
 
-LEXICON i-PxK  !!= @CODE@ Tra: -i or -e and goes to Px
+LEXICON i_PxK  !!= @CODE@ Tra: -i or -e and goes to Px
  :i K ;
  :e Px ;
 
@@ -838,8 +859,8 @@ LEXICON Px-Vn
 
 ! LEXICON 1  valo
 !  +N: strong-v-stem ;
-!  +N:%^WG weak-v-stem ;
-!  +N: short-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
@@ -847,8 +868,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 2  palvelu
 !  +N: strong-v-stem ;
-!  +N:%^WG weak-v-stem ;
-!  +N: short-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:%>i2 longgenpl ;
@@ -858,8 +879,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 3  valtio
 !  +N: strong-v-stem ;
-!  +N:%^WG weak-v-stem ;
-!  +N: long-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: long_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 longgenpl ;
 !  +N+Pl:%>i2 longparpl ;
@@ -867,8 +888,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 4  laatikko 
 !  +N: strong-v-stem ;
-!  +N:%^WG weak-v-stem ;
-!  +N: short-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:%^WG%>i2 longgenpl ;
@@ -879,8 +900,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 5  risti
 !  +N: strong-v-stem ;
-!  +N:%^WG weak-v-stem ;
-!  +N: short-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Z2%>i2 shortgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
@@ -888,8 +909,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 6  paperi, banaani
 !  +N: strong-v-stem ;
-!  +N:%^WG weak-v-stem ;
-!  +N: short-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Z2%>i2 shortgenpl ;  *paperejen paperien
 !  +N+Pl:%>i2 longgenpl ;
@@ -901,12 +922,12 @@ LEXICON Px-Vn
 ! 
 ! 
 ! LEXICON 7  ovi
-!  +N:Z1 nom-strong ;  
-!  +N: gae-strong ;
+!  +N:Z1 nom_strong ;  
+!  +N: gae_strong ;
 !  +N+Sg:%>i2 com ;
 !  +N+Pl:%>i2 com ;
-!  +N:%^WG weak-v-stem ;
-!  +N: short-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:%>i2 shortparpl ;
@@ -914,8 +935,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 8  nalle
 !  +N:%^¤ strong-v-stem ;
-!  +N:%^WG weak-v-stem ;
-!  +N: short-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:%>i2 oldgenpl ; !nallin
@@ -923,15 +944,15 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 shortillpl ;
 ! 
 ! LEXICON 9  kala
-!  +N: nom-strong ;
+!  +N: nom_strong ;
 !  +Sg+Nom: Px ;
 !  +Sg+Gen: Px ;
 !  +Sg+Ess:%>n%^A PxxK ;
 !  +Pl+Ess:Y3%>i2%>n%^A PxxK ;
 !  +N+Sg:Y3%>i2 com ;
 !  +N+Pl:Y3%>i2 com ;
-!  +N:Y1 weak-v-stem ;
-!  +N: short-par ;
+!  +N:Y1 weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Y3%>i2 shortgenpl ;
 !  +N+Pl:Y3%>i2 oldgenpl ;
@@ -940,15 +961,15 @@ LEXICON Px-Vn
 ! 
 ! 
 ! LEXICON 10  koira = 9, the diff is in twol-fin
-!  +N: nom-strong ;
+!  +N: nom_strong ;
 !  +Sg+Nom: Px ;
 !  +Sg+Gen: Px ;
 !  +Sg+Ess:%>n%^A PxxK ;
 !  +Pl+Ess:Y2%>i2%>n%^A PxxK ;
 !  +N+Sg:Y2%>i2 com ;
 !  +N+Pl:Y2%>i2 com ;
-!  +N:X2 weak-v-stem ;
-!  +N: short-par ;
+!  +N:X2 weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Y2%>i2 shortgenpl ;
 !  +N+Pl:Y2%>i2 oldgenpl ;
@@ -957,8 +978,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 11  omena
 !  +N: strong-v-stem ;
-!  +N:%^WG weak-v-stem ;
-!  +N: short-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Y2%>i2 shortgenpl ;
 !  +N+Pl:Y3%>i2 longgenpl ;
@@ -969,8 +990,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 12  kulkija
 !  +N: strong-v-stem ;
-!  +N:%^WG weak-v-stem ;
-!  +N: short-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Y3%>i2 longgenpl ;
 !  +N+Pl:%>i2 oldgenpl ;
@@ -979,8 +1000,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 13  katiska
 !  +N: strong-v-stem ;
-!  +N:%^WG weak-v-stem ;
-!  +N: short-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N: short_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:Y3%>i2 shortgenpl ;
 !  +N+Pl:Y3%>i2 longgenpl ;
@@ -991,8 +1012,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 18  maa (not complete)
 !  +N: strong-v-stem ;
-!  +N: weak-v-stem ;
-!  +N: long-par ;
+!  +N: weak_v_stem ;
+!  +N: long_par ;
 !  +N: 1TAVU_VV-ill ;
 !  +N+Pl:%>i2 longgenpl ;
 !  +N+Pl:%>i2 longparpl ;
@@ -1000,8 +1021,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 19  suo
 !  +N: strong-v-stem ;
-!  +N: weak-v-stem ;
-!  +N: long-par ;
+!  +N: weak_v_stem ;
+!  +N: long_par ;
 !  +N: 1TAVU_VV-ill ;
 !  +N+Pl:%>i2 longgenpl ;
 !  +N+Pl:%>i2 longparpl ;
@@ -1009,8 +1030,8 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 20  filee
 !  +N: strong-v-stem ;
-!  +N: weak-v-stem ;
-!  +N: long-par ;
+!  +N: weak_v_stem ;
+!  +N: long_par ;
 !  +N: 2TAVU_VV-ill ;
 !  +N: longer-ill ;
 !  +N+Pl:%>i2 longgenpl ;
@@ -1020,29 +1041,29 @@ LEXICON Px-Vn
 ! 
 ! LEXICON 21  rosé
 !  +N: strong-v-stem ;
-!  +N: weak-v-stem ;
-!  +N: long-par ;
+!  +N: weak_v_stem ;
+!  +N: long_par ;
 !  +N: 2TAVU_VV-ill ;
-!  +N+Pl:%>i2 d-longgenpl ;
+!  +N+Pl:%>i2 d_longgenpl ;
 !  +N+Pl:%>i2 longparpl ;
 !  +N+Pl:%>i2 shortillpl ;
 ! 
 ! LEXICON 22  parfait
 !  +N:'Y4 strong-v-stem ;
-!  +N:' weak-v-stem ;
-!  +N:' long-par ;
+!  +N:' weak_v_stem ;
+!  +N:' long_par ;
 !  +N:' long-ill ;
-!  +N+Pl:'%>i2 d-longgenpl ;
+!  +N+Pl:'%>i2 d_longgenpl ;
 !  +N+Pl:'%>i2 longparpl ;
 !  +N+Pl:'%>i2 shortillpl ;
 ! 
 ! LEXICON 24  uni
-!  +N:Z1 nom-strong ;
-!  +N: gae-strong ;
+!  +N:Z1 nom_strong ;
+!  +N: gae_strong ;
 !  +N+Sg:%>i2 com ;
 !  +N+Pl:%>i2 com ;
-!  +N:%^WG weak-v-stem ;
-!  +N:Y5 long-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N:Y5 long_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
@@ -1050,13 +1071,13 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 shorterillpl ;
 ! 
 ! LEXICON 25  toimi
-!  +N:Z1 nom-strong ;
-!  +N: gae-strong ;
+!  +N:Z1 nom_strong ;
+!  +N: gae_strong ;
 !  +N+Sg:%>i2 com ;
 !  +N+Pl:%>i2 com ;
-!  +N:%^WG weak-v-stem ;
-!  +N:Y5 long-par ;  tointa
-!  +N: short-par ;  toimea
+!  +N:%^WG weak_v_stem ;
+!  +N:Y5 long_par ;  tointa
+!  +N: short_par ;  toimea
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
@@ -1064,12 +1085,12 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 shorterillpl ;
 ! 
 ! LEXICON 27  käsi
-!  +N:Z1 nom-strong ;  käsi
-!  +N: gae-strong ;  kätenä
+!  +N:Z1 nom_strong ;  käsi
+!  +N: gae_strong ;  kätenä
 !  +N+Sg:%>i2 com ;  käsineen
 !  +N+Pl:%>i2 com ;
-!  +N:%^WG weak-v-stem ;  käden
-!  +N:Y7 long-par ;  kättä
+!  +N:%^WG weak_v_stem ;  käden
+!  +N:Y7 long_par ;  kättä
 !  +N: 2TAVU_V_ill_sg ;  käteen
 !  +N+Pl:%>i2 shortgenpl ;  käsien
 !  +N+Pl:Y7 consgenpl ;  kätten
@@ -1078,12 +1099,12 @@ LEXICON Px-Vn
 ! 
 ! 
 ! LEXICON 28  kynsi
-!  +N: nom-strong ;
-!  +N: gae-strong ;
+!  +N: nom_strong ;
+!  +N: gae_strong ;
 !  +N+Sg:%>i2 com ;
 !  +N+Pl:%>i2 com ;
-!  +N:%^WG weak-v-stem ;
-!  +N:Y7 long-par ;
+!  +N:%^WG weak_v_stem ;
+!  +N:Y7 long_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
@@ -1092,12 +1113,12 @@ LEXICON Px-Vn
 ! 
 ! 
 ! LEXICON 29  lapsi
-!  +N: nom-strong ;
-!  +N: gae-strong ;
+!  +N: nom_strong ;
+!  +N: gae_strong ;
 !  +N+Sg:%>i2 com ;
 !  +N+Pl:%>i2 com ;
-!  +N: weak-v-stem ;
-!  +N:Y5 long-par ;
+!  +N: weak_v_stem ;
+!  +N:Y5 long_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
@@ -1112,12 +1133,12 @@ LEXICON Px-Vn
 !   forms, but a different order (!)
 ! 
 ! LEXICON 32  sisar 
-!  +N: nom-strong ;
-!  +N: gae-strong ;
+!  +N: nom_strong ;
+!  +N: gae_strong ;
 !  +N+Sg:%>i2 com ;
 !  +N+Pl:%>i2 com ;
-!  +N: weak-v-stem ;
-!  +N:Y5 long-par ;
+!  +N: weak_v_stem ;
+!  +N:Y5 long_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
@@ -1125,12 +1146,12 @@ LEXICON Px-Vn
 !  +N+Pl:%>i2 shorterillpl ;
 ! 
 ! LEXICON 33  kytkin
-!  +N: nom-strong ;
-!  +N: gae-strong ;
+!  +N: nom_strong ;
+!  +N: gae_strong ;
 !  +N+Sg:%>i2 com ;
 !  +N+Pl:%>i2 com ;
-!  +N: weak-v-stem ;
-!  +N:Y5 long-par ;
+!  +N: weak_v_stem ;
+!  +N:Y5 long_par ;
 !  +N: 2TAVU_V_ill_sg ;
 !  +N+Pl:%>i2 shortgenpl ;
 !  +N+Pl:Y5 consgenpl ;
