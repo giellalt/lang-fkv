@@ -48,9 +48,9 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 
 
  * LEXICON n_1  = maa
+
 these two lexica for cases with
 the same affix in sg and pl
-
 
  * LEXICON n_1pl  = häät
 
@@ -61,7 +61,8 @@ the same affix in sg and pl
 
  * LEXICON n_21	  "poika:poi6ka", lyhyt vokali, yks vartalo
 
-* to sgpl-cases-short for cases with
+
+* to sgpl_cases_short for cases with
   the same affix in sg and pl
 * shortestgenpl since we have the i
 
@@ -129,8 +130,13 @@ the same affix in sg and pl
 
  LEXICON n_32m  elläin elläi
 
+ LEXICON n_32m_pl  elläin elläi
+
+
 
  LEXICON x_32m  
+
+
 
  LEXICON n_32s   sairhaus 
 * Konsonanttivartalo: poista -e ja heikko aste
@@ -215,28 +221,28 @@ Basic paradigms
 
 !!Basic vowel stems
 
+
  LEXICON strong-v-stem   ''Kaikki vahvan asteen sijamuodot tähän''
 
- LEXICON weak-v-stem  
+ LEXICON weak_v_stem  
 
 
 Marginal case, in use only for some words.
 Todo: identify these, and remove Ins from the
-general weak-v-stem lexicon.
+general weak_v_stem lexicon.
 
 !Sublexica for the vowel stems
 
 
 
 
-
 * Lyhyt perusmuoto vuođela
 * Lyhyt perusmuoto
-* Huom... essiivi ja heikko aste
+* Huom... essiivi ja heikko aste Lene removed this one
 
 * Pitkä perusmuoto
 * Pitkä perusmuoto
-* Huom... essiivi ja heikko aste
+* Huom... essiivi ja heikko aste !Lene removed this
 
 
 
@@ -260,14 +266,14 @@ linna pl.ill. kaksi muotoa po. linnhoin
 
 
 
-* LEXICON weak-v-stem  zero, because ii > i
+* LEXICON weak_v_stem  zero, because ii > i
 
 
 
 
 
 
-* LEXICON weak-v-stem  zero, because ii > i
+* LEXICON weak_v_stem  zero, because ii > i
 
 
 
@@ -284,9 +290,9 @@ linna pl.ill. kaksi muotoa po. linnhoin
 
 !Sublexica for possessive suffixes
 
- LEXICON n-PxK   has either -n or goes to Px
+ LEXICON n_PxK   has either -n or goes to Px
 
- LEXICON i-PxK   Tra: -i or -e and goes to Px
+ LEXICON i_PxK   Tra: -i or -e and goes to Px
 
  LEXICON PxK  has only -nsA, and is currently not in use. Check
 
