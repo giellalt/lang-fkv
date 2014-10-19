@@ -431,17 +431,15 @@ i6:0 <=> _ k: a %^WG:0;
 
 
 
-! jälki: jäljen ; järki; järjen; kulkkeet: kuljen; särkkeet : särjen
-
 "Gradation k:j" 
-!k:j <=>    [a|e|i|i6:] _ [o|e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! pako  - pajon? conflict k:v
+!k:j <=>   [a|e|i|i6:] _ [o|e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! pako  - pajon? conflict k:v
 k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! 
-			i _ [ö:|o:]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !		
+		        	 i _ [ö:|o:]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !		
          [ä|æ|e|i|i6:] _   [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! m̈äki  - mäjen
              [e|i|i6:] _   [e:|i|ä|æ|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
                  [r|l] _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki - jäljen
-              Cns u _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
-
+                 Cns u _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
+                     h _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet
 
 !€ mäke^WG>n
 !€ mäje0>n
@@ -455,16 +453,19 @@ k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !
 !€ luke^WG>n
 !€ luje0>n
 
+! jälki: jäljen ; järki; järjen; kulkkeet: kuljen; särkkeet : särjen
 
 
 
         
 "Gradation k:0" 
-k:0 <=>                h _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
+!k:0 <=>                h _ Vowel          (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
+k:0 <=>                h _ [Vowel - e:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
                        a _ a               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata
              Vowel [u|y] _ e               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukee - laueta
 !                    a u _ e                                      %^WG:0 ; ! laukee - laueta
       NotOUIF: [ l | r ] _ NotEYUF:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
+                   Vowel _ e        n                             %^WG:0 ; ! ikene- - ien
       NotOUIB: [ l | r ] _ NotEYUB:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! märkä - märät
 !  Vowel [Vowel - [e|i]] _ Vowel           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kaiku - kaiun?
 !   [ NotOUIF: | l | r ] _ NotEYUF:        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
@@ -540,7 +541,7 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
         Vowel   _ [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
   Vowel [n|l|r] _ [                   Vowel:0            %^WG:0  %>: i3: ] ;
-  Vowel      r  _    e: %^E2I:                                             ;
+  Vowel   [n|r] _    e: %^E2I:                                             ;
 
 ! ... not ready
 !# vuot0e^E2I>i3
@@ -562,9 +563,12 @@ t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;
  %^N:Cx <=> Cx: %>: _ ;
     where Cx in ( l r s ) ; 
 
-
 !€ tul>^N^U
 !€ tul>lu
+
+"j:0 in front of i"
+j:0 <=> l _ e: %^E2I:0 ;
+
 
 ! ===============
 !! !!!Vowel rules
