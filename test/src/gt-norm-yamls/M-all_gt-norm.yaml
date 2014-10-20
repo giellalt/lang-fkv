@@ -9,515 +9,10 @@ Config:
 
 Tests:
 
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: linn../bin/olo-gen.hfstol
-    Morph: linn../bin/olo.hfstol
-  xerox:
-    Gen: linn../bin/iolo.fst
-    Morph: linn../bin/olo.fst
-    App: linnlookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: linn../bin/olo-gen.hfstol
-    Morph: linn../bin/olo.hfstol
-  xerox:
-    Gen: linn../bin/iolo.fst
-    Morph: linn../bin/olo.fst
-    App: linnlookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: linn../bin/olo-gen.hfstol
-    Morph: linn../bin/olo.hfstol
-  xerox:
-    Gen: linn../bin/iolo.fst
-    Morph: linn../bin/olo.fst
-    App: linnlookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
-Config:
-  hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
-  xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
-    App: lookup
-
-Tests:
-
 # todo:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct. 
+
 
 
   Noun - aika - ok : # Noun 'tid' - ok
@@ -548,10 +43,6 @@ Tests:
      aika+N+Pl+Com: aikoine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - assii ok: # Noun 'sak'
      assii+N+Sg+Nom: assii
@@ -581,9 +72,34 @@ Tests:
      assii+N+Pl+Com: assiine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+
+  Noun - asukas - ei tsekattu : # Noun 'innbygger' - ei tsekattu
+     asukas+N+Sg+Nom: asukas
+     asukas+N+Sg+Gen: asukkhaan
+     asukas+N+Sg+Par: asukasta
+     asukas+N+Sg+Tra: asukkhaaksi
+     asukas+N+Sg+Abe: asukkhaatta
+     asukas+N+Sg+Ine: asukkhaassa
+     asukas+N+Sg+Ela: asukkhaasta
+     asukas+N+Sg+Ill: asukkhaasseen
+     asukas+N+Sg+Ade: asukkhaala
+     asukas+N+Sg+Abl: asukkhaalta
+     asukas+N+Sg+All: asukkhaale
+     asukas+N+Sg+Ess: asukkhaana
+     asukas+N+Pl+Nom: asukkhaat
+     asukas+N+Pl+Gen: asukkhaitten
+     asukas+N+Pl+Par: asukkhaita
+     asukas+N+Pl+Tra: asukkhaiksi
+     asukas+N+Pl+Abe: asukkhaitta
+     asukas+N+Pl+Ine: asukkhaissa
+     asukas+N+Pl+Ela: asukkhaista
+     asukas+N+Pl+Ill: asukkhaissiin
+     asukas+N+Pl+Ade: asukkhaila
+     asukas+N+Pl+Abl: asukkhailta
+     asukas+N+Pl+All: asukkhaile
+     asukas+N+Pl+Ess: asukkhaina
+     asukas+N+Pl+Com: asukkhaine
+
 
 
   Noun - elläin - ok : # Noun 'animal' - ok
@@ -598,7 +114,7 @@ Tests:
      elläin+N+Sg+Ade: elläimellä
      elläin+N+Sg+Abl: elläimeltä
      elläin+N+Sg+All: elläimelle
-     elläin+N+Sg+Ess: elläimennä
+     elläin+N+Sg+Ess: elläimenä
      elläin+N+Pl+Nom: elläimet
      elläin+N+Pl+Gen: elläimiitten
      elläin+N+Pl+Par: elläimiitä
@@ -611,12 +127,25 @@ Tests:
      elläin+N+Pl+Abl: elläimiltä
      elläin+N+Pl+All: elläimille
      elläin+N+Pl+Com: elläimine
-     elläin+N+Pl+Ess: elläiminnä
+     elläin+N+Pl+Ess: elläiminä
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+
+  Noun - häät - ei tsekattu : # Noun 'bryllup' - ei tsekattu
+     häät+N+Pl+Nom: häät
+     häät+N+Pl+Gen: häitten
+     häät+N+Pl+Par: häitä
+     häät+N+Pl+Tra: häiksi
+     häät+N+Pl+Abe: häittä
+     häät+N+Pl+Ine: häissä
+     häät+N+Pl+Ela: häistä
+     häät+N+Pl+Ill: häihin
+     häät+N+Pl+Ade: häilä
+     häät+N+Pl+Abl: häiltä
+     häät+N+Pl+All: häile
+     häät+N+Pl+Ess: häinä
+     häät+N+Pl+Com: häine
+
 
 
   Noun - hirsi - ok : # Noun 'år' - ei tsekattu
@@ -647,10 +176,6 @@ Tests:
      hirsi+N+Pl+Com: hirsine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - hoppee - ok : # Noun 'borg' - 
      hoppee+N+Sg+Nom: hoppee
@@ -680,30 +205,22 @@ Tests:
      hoppee+N+Pl+Com: hoppeine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
-
-  Noun - housut - ok : # Noun 'tid' - ei tsekattu
+  Noun - housut - ok : # Noun 'bukser' - ei tsekattu
      housut+N+Pl+Nom: housut
-     housut+N+Pl+Gen: housuitten
-     housut+N+Pl+Par: housui
-     housut+N+Pl+Tra: housuiksi
-     housut+N+Pl+Abe: housuitta
-     housut+N+Pl+Ine: housuissa
-     housut+N+Pl+Ela: housuista
+     housut+N+Pl+Gen: houssuitten
+     housut+N+Pl+Par: houssui
+     housut+N+Pl+Tra: houssuiksi
+     housut+N+Pl+Abe: houssuitta
+     housut+N+Pl+Ine: houssuissa
+     housut+N+Pl+Ela: houssuista
      housut+N+Pl+Ill: houshuin
-     housut+N+Pl+Ade: housuila
-     housut+N+Pl+Abl: housuilta
-     housut+N+Pl+All: housuile
-     housut+N+Pl+Ess: housuina
-     housut+N+Pl+Com: housuine
+     housut+N+Pl+Ade: houssuila
+     housut+N+Pl+Abl: houssuilta
+     housut+N+Pl+All: houssuile
+     housut+N+Pl+Ess: houssuina
+     housut+N+Pl+Com: houssuine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - huonet - ok : # Noun 'rom' - ok
@@ -734,9 +251,34 @@ Tests:
      huonet+N+Pl+Com: huonheine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+
+  Noun - hyksi - ok : # Noun 'hair' - ok
+     hyksi+N+Sg+Nom: hyksi
+     hyksi+N+Sg+Gen: hyksen
+     hyksi+N+Sg+Par: hyksee
+     hyksi+N+Sg+Tra: hykseksi
+     hyksi+N+Sg+Abe: hyksettä
+     hyksi+N+Sg+Ine: hyksessä
+     hyksi+N+Sg+Ela: hyksestä
+     hyksi+N+Sg+Ill: hyksheen
+     hyksi+N+Sg+Ade: hykselä
+     hyksi+N+Sg+Abl: hykseltä
+     hyksi+N+Sg+All: hyksele
+     hyksi+N+Sg+Ess: hyksenä
+     hyksi+N+Pl+Nom: hykset
+     hyksi+N+Pl+Gen: hyksiin
+     hyksi+N+Pl+Par: hyksii
+     hyksi+N+Pl+Tra: hyksiksi
+     hyksi+N+Pl+Abe: hyksittä
+     hyksi+N+Pl+Ine: hyksissä
+     hyksi+N+Pl+Ela: hyksistä
+     hyksi+N+Pl+Ill: hykshiin
+     hyksi+N+Pl+Ade: hyksilä
+     hyksi+N+Pl+Abl: hyksiltä
+     hyksi+N+Pl+All: hyksile
+     hyksi+N+Pl+Ess: hyksinä
+     hyksi+N+Pl+Com: hyksine
+
 
 
   Noun - hyljet - ok : # Noun 'borg' - ok
@@ -767,10 +309,6 @@ Tests:
      hyljet+N+Pl+Com: hylkheine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - ihminen - ok : # Noun 'menneske' - ok
      ihminen+N+Sg+Nom: ihminen
@@ -784,7 +322,7 @@ Tests:
      ihminen+N+Sg+Ade: ihmisellä
      ihminen+N+Sg+Abl: ihmiseltä
      ihminen+N+Sg+All: ihmiselle
-     ihminen+N+Sg+Ess: ihmisennä
+     ihminen+N+Sg+Ess: ihmisenä
      ihminen+N+Pl+Nom: ihmiset
      ihminen+N+Pl+Gen: ihmisten
      ihminen+N+Pl+Par: ihmissii
@@ -796,16 +334,12 @@ Tests:
      ihminen+N+Pl+Ade: ihmisillä
      ihminen+N+Pl+Abl: ihmisiltä
      ihminen+N+Pl+All: ihmisille
-     ihminen+N+Pl+Ess: ihmisinnä
+     ihminen+N+Pl+Ess: ihmisinä
      ihminen+N+Pl+Com: ihmisine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
-
-  Noun - joki - ok : # Noun 'borg' - ok
+  Noun - joki - ok : # Noun 'river' - ok
      joki+N+Sg+Nom: joki
      joki+N+Sg+Gen: joven
      joki+N+Sg+Par: jokkee
@@ -832,10 +366,6 @@ Tests:
      joki+N+Pl+Ess: jokina
      joki+N+Pl+Com: jokine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - linna - ok : # Noun 'borg' - ok
@@ -866,10 +396,6 @@ Tests:
      kainulainen+N+Pl+Com: kainulaisine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
-
 
   Noun - kajava: # Noun 'seagull' - ei tsekattu
      kajava+N+Sg+Nom: kajava
@@ -883,7 +409,7 @@ Tests:
      kajava+N+Sg+Ade: kajavalla
      kajava+N+Sg+Abl: kajavalta
      kajava+N+Sg+All: kajavalle
-     kajava+N+Sg+Ess: kajavanna
+     kajava+N+Sg+Ess: kajavana
      kajava+N+Pl+Nom: kajavat
      kajava+N+Pl+Gen: kajaviitten
      kajava+N+Pl+Gen: kajavitten
@@ -899,10 +425,6 @@ Tests:
      kajava+N+Pl+Ess: kajavina
      kajava+N+Pl+Com: kajavine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - karamelli - ei tsekattu : # Noun 'borg' - ei tsekattu
@@ -933,10 +455,6 @@ Tests:
      karamelli+N+Pl+Com: karamelliine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
-
 
   Noun - käsi - ok : # Noun 'år' - ei tsekattu
      käsi+N+Sg+Nom: käsi
@@ -966,10 +484,6 @@ Tests:
      käsi+N+Pl+Com: käsine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - kasvot - ok : # Noun 'tid' - ei tsekattu
      kasvot+N+Pl+Nom: kasvot
@@ -986,10 +500,6 @@ Tests:
      kasvot+N+Pl+Ess: kasvoina
      kasvot+N+Pl+Com: kasvoine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - kauhee - ok : # Noun 'borg' - ok
@@ -1020,10 +530,6 @@ Tests:
      kauhee+N+Pl+Com: kauheine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
-
 
   Noun - kieli - ei tsekattu : # Noun 'år' - ei tsekattu
      kieli+N+Sg+Nom: kieli
@@ -1052,10 +558,6 @@ Tests:
      kieli+N+Pl+Ess: kielinä
      kieli+N+Pl+Com: kieline
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - kirves - ok : # Noun 'øks' - ok
@@ -1086,10 +588,6 @@ Tests:
      kirves+N+Pl+Com: kirvheine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - kulkkiija - ei tsekattu : # Noun 'borg' - ei tsekattu
      kulkkiija+N+Sg+Nom: kulkkiija
@@ -1103,7 +601,7 @@ Tests:
      kulkkiija+N+Sg+Ade: kulkkiijalla
      kulkkiija+N+Sg+Abl: kulkkiijalta
      kulkkiija+N+Sg+All: kulkkiijalle
-     kulkkiija+N+Sg+Ess: kulkkiijanna
+     kulkkiija+N+Sg+Ess: kulkkiijana
      kulkkiija+N+Pl+Nom: kulkkiijat
      kulkkiija+N+Pl+Gen: kulkkiijoitten
      kulkkiija+N+Pl+Par: kulkkiijoita
@@ -1119,9 +617,34 @@ Tests:
      kulkkiija+N+Pl+Com: kulkkiijoine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+
+  Noun - kurkkio: # Noun 'borg' - ei tsekattu
+     kurkkio+N+Sg+Nom: kurkkio
+     kurkkio+N+Sg+Gen: kurkkion
+     kurkkio+N+Sg+Par: kurkkiota
+     kurkkio+N+Sg+Tra: kurkkioksi
+     kurkkio+N+Sg+Abe: kurkkiotta
+     kurkkio+N+Sg+Ine: kurkkiossa
+     kurkkio+N+Sg+Ela: kurkkiosta
+     kurkkio+N+Sg+Ill: kurkkihoon
+     kurkkio+N+Sg+Ade: kurkkiolla
+     kurkkio+N+Sg+Abl: kurkkiolta
+     kurkkio+N+Sg+All: kurkkiolle
+     kurkkio+N+Sg+Ess: kurkkiona
+     kurkkio+N+Pl+Nom: kurkkiot
+     kurkkio+N+Pl+Gen: kurkkioitten
+     kurkkio+N+Pl+Par: kurkkioita
+     kurkkio+N+Pl+Tra: kurkkioiksi
+     kurkkio+N+Pl+Abe: kurkkioitta
+     kurkkio+N+Pl+Ine: kurkkioissa
+     kurkkio+N+Pl+Ela: kurkkioista
+     kurkkio+N+Pl+Ill: kurkkihoin
+     kurkkio+N+Pl+Ade: kurkkioilla
+     kurkkio+N+Pl+Abl: kurkkioilta
+     kurkkio+N+Pl+All: kurkkioille
+     kurkkio+N+Pl+Ess: kurkkioina
+     kurkkio+N+Pl+Com: kurkkioine
+
 
 
   Noun - lapsi - ok : # Noun 'år' - ok
@@ -1151,10 +674,6 @@ Tests:
      lapsi+N+Pl+Ess: lapsina
      lapsi+N+Pl+Com: lapsine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - linna - ok : # Noun 'borg' - ok
@@ -1186,10 +705,6 @@ Tests:
      
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - lumi - ok : # Noun 'snø' - ok
      lumi+N+Sg+Nom: lumi
@@ -1218,10 +733,6 @@ Tests:
      lumi+N+Pl+Abe: lumitta
      lumi+N+Pl+Com: lumine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - maa - ok : # Noun 'borg' - ok
@@ -1252,10 +763,6 @@ Tests:
      maa+N+Pl+Com: maine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - meininki - ei tsekattu : # Noun 'borg' - ei tsekattu
      meininki+N+Sg+Nom: meininki
@@ -1269,7 +776,7 @@ Tests:
      meininki+N+Sg+Ade: meiningillä
      meininki+N+Sg+Abl: meiningiltä
      meininki+N+Sg+All: meiningille
-     meininki+N+Sg+Ess: meininkinnä
+     meininki+N+Sg+Ess: meininkinä
      meininki+N+Pl+Nom: meiningit
      meininki+N+Pl+Gen: meiningiitten
      meininki+N+Pl+Par: meininkkiitä
@@ -1281,13 +788,38 @@ Tests:
      meininki+N+Pl+Ade: meiningiillä
      meininki+N+Pl+Abl: meiningiiltä
      meininki+N+Pl+All: meiningiille
-     meininki+N+Pl+Ess: meininkkiinä
-     meininki+N+Pl+Com: meininkkiine
+     meininki+N+Pl+Ess: meininkiinä
+     meininki+N+Pl+Com: meininkiine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+
+  Noun - mies - ok : # Noun 'mann' - ei tsekattu
+     mies+N+Sg+Nom: mies
+     mies+N+Sg+Gen: miehen
+     mies+N+Sg+Par: miestä
+     mies+N+Sg+Tra: mieheksi
+     mies+N+Sg+Abe: miehettä
+     mies+N+Sg+Ine: miehessä
+     mies+N+Sg+Ela: miehestä
+     mies+N+Sg+Ill: miehheen
+     mies+N+Sg+Ade: miehelä
+     mies+N+Sg+Abl: mieheltä
+     mies+N+Sg+All: miehele
+     mies+N+Sg+Ess: miehenä
+     mies+N+Pl+Nom: miehet
+     mies+N+Pl+Gen: miehiin
+     mies+N+Pl+Par: miehii
+     mies+N+Pl+Tra: miehiksi
+     mies+N+Pl+Abe: miehittä
+     mies+N+Pl+Ine: miehissä
+     mies+N+Pl+Ela: miehistä
+     mies+N+Pl+Ill: miehhiin
+     mies+N+Pl+Ade: miehilä
+     mies+N+Pl+Abl: miehiltä
+     mies+N+Pl+All: miehile
+     mies+N+Pl+Ess: miehinä
+     mies+N+Pl+Com: miehine
+
 
 
   Noun - nainen - ok : # Noun 'menneske' - ok
@@ -1318,10 +850,6 @@ Tests:
      nainen+N+Pl+Com: naisine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - opettaaja - ei tsekattu : # Noun 'borg' - ei tsekattu
      opettaaja+N+Sg+Nom: opettaaja
@@ -1351,10 +879,6 @@ Tests:
      opettaaja+N+Pl+Com: opettaajiine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - paivukko - ei tsekattu : # Noun 'borg' - ei tsekattu
      paivukko+N+Sg+Nom: paivukko
@@ -1368,7 +892,7 @@ Tests:
      paivukko+N+Sg+Ade: paivukolla
      paivukko+N+Sg+Abl: paivukolta
      paivukko+N+Sg+All: paivukolle
-     paivukko+N+Sg+Ess: paivukkonna
+     paivukko+N+Sg+Ess: paivukkona
      paivukko+N+Pl+Nom: paivukot
      paivukko+N+Pl+Gen: paivukoitten
      paivukko+N+Pl+Par: paivukoita
@@ -1383,10 +907,6 @@ Tests:
      paivukko+N+Pl+Ess: paivukkoina
      paivukko+N+Pl+Com: paivukkoine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - pappi - ok : # Noun 'tid' - eu tsekattu
@@ -1417,9 +937,34 @@ Tests:
      pappi+N+Pl+Com: pappiine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+
+  Noun - perintö - ei tsekattu : # Noun 'arv' - ei tsekattu
+     perintö+N+Sg+Nom: perintö
+     perintö+N+Sg+Gen: perinnön
+     perintö+N+Sg+Par: perinttöö
+     perintö+N+Sg+Tra: perinnöksi
+     perintö+N+Sg+Abe: perinnöttä
+     perintö+N+Sg+Ine: perinnössä
+     perintö+N+Sg+Ela: perinnöstä
+     perintö+N+Sg+Ill: perinthöön
+     perintö+N+Sg+Ade: perinnöllä
+     perintö+N+Sg+Abl: perinnöltä
+     perintö+N+Sg+All: perinnölle
+     perintö+N+Sg+Ess: perintönä
+     perintö+N+Pl+Nom: perinnöt
+     perintö+N+Pl+Gen: perinnöitten
+     perintö+N+Pl+Par: perinnöitä
+     perintö+N+Pl+Tra: perinnöiksi
+     perintö+N+Pl+Abe: perinnöittä
+     perintö+N+Pl+Ine: perinnöissä
+     perintö+N+Pl+Ela: perinnöistä
+     perintö+N+Pl+Ill: perinthöin
+     perintö+N+Pl+Ade: perinnöillä
+     perintö+N+Pl+Abl: perinnöiltä
+     perintö+N+Pl+All: perinnöille
+     perintö+N+Pl+Ess: perintöinä
+     perintö+N+Pl+Com: perintöine
+
 
 
   Noun - poika - ok : # Noun 'boy' - ok
@@ -1451,10 +996,6 @@ Tests:
      
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - rakas - ei tsekattu : # Noun 'kjære' - ei tsekattu
      rakas+N+Sg+Nom: rakas
@@ -1483,10 +1024,6 @@ Tests:
      rakas+N+Pl+Ess: rakkhaina
      rakas+N+Pl+Com: rakkhaine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - ruvis - ei tsekattu : # Noun 'borg' - ei tsekattu
@@ -1517,10 +1054,6 @@ Tests:
      ruvis+N+Pl+Com: rukhiine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - maa - ei tsekattu : # Noun 'sykdom' - ei tsekattu
      sairhaus+N+Sg+Nom: sairhaus
@@ -1534,7 +1067,7 @@ Tests:
      sairhaus+N+Sg+Ade: sairhauđella
      sairhaus+N+Sg+Abl: sairhauđelta
      sairhaus+N+Sg+All: sairhauđelle
-     sairhaus+N+Sg+Ess: sairhautenna
+     sairhaus+N+Sg+Ess: sairhautena
      sairhaus+N+Pl+Nom: sairhauđet
      sairhaus+N+Pl+Gen: sairhauksiitten
      sairhaus+N+Pl+Par: sairhauksiita
@@ -1546,13 +1079,9 @@ Tests:
      sairhaus+N+Pl+Ade: sairhauksilla
      sairhaus+N+Pl+Abl: sairhauksilta
      sairhaus+N+Pl+All: sairhauksille
-     sairhaus+N+Pl+Ess: sairhauksinna
+     sairhaus+N+Pl+Ess: sairhauksina
      sairhaus+N+Pl+Com: sairhauksine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
 
 
   Noun - sieni - ei tsekattu : # Noun 'år' - ei tsekattu
@@ -1583,10 +1112,6 @@ Tests:
      sieni+N+Pl+Com: sienine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
-
 
   Noun - sivakka: # Noun 'borg' - ei tsekattu
      sivakka+N+Sg+Nom: sivakka
@@ -1600,7 +1125,7 @@ Tests:
      sivakka+N+Sg+Ade: sivakalla
      sivakka+N+Sg+Abl: sivakalta
      sivakka+N+Sg+All: sivakalle
-     sivakka+N+Sg+Ess: sivakkanna
+     sivakka+N+Sg+Ess: sivakkana
      sivakka+N+Pl+Nom: sivakat
      sivakka+N+Pl+Gen: sivakoitten
      sivakka+N+Pl+Par: sivakoita
@@ -1615,10 +1140,6 @@ Tests:
      sivakka+N+Pl+Ess: sivakkoina
      sivakka+N+Pl+Com: sivakkoine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - suomi - ok : # Noun 'borg' - ei tsekattu
@@ -1648,10 +1169,6 @@ Tests:
      suomi+N+Pl+Ess: suomina
      suomi+N+Pl+Com: suomine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: rerun analyser, then correct. 
 
 
   Noun - syksy - ei tsekattu : # Noun 'høst' - ei tsekattu
@@ -1683,10 +1200,6 @@ Tests:
      
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - taival - ok : # Noun 'walk' -
      taival+N+Sg+Nom: taival
@@ -1700,7 +1213,7 @@ Tests:
      taival+N+Sg+Ade: taipalella
      taival+N+Sg+Abl: taipalelta
      taival+N+Sg+All: taipalelle
-     taival+N+Sg+Ess: taipalenna
+     taival+N+Sg+Ess: taipalena
      taival+N+Pl+Nom: taipalet
      taival+N+Pl+Gen: taipaliitten
      taival+N+Pl+Par: taipaliita
@@ -1713,12 +1226,8 @@ Tests:
      taival+N+Pl+Abl: taipalilta
      taival+N+Pl+All: taipalille
      taival+N+Pl+Com: taipaline
-     taival+N+Pl+Ess: taipalinna
+     taival+N+Pl+Ess: taipalina
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
 
   Noun - tervheiset - ok : # Noun 'tid' - ei tsekattu
@@ -1733,13 +1242,38 @@ Tests:
      tervheiset+N+Pl+Ade: tervheisillä
      tervheiset+N+Pl+Abl: tervheisiltä
      tervheiset+N+Pl+All: tervheisille
-     tervheiset+N+Pl+Ess: tervheisinnä
+     tervheiset+N+Pl+Ess: tervheisinä
      tervheiset+N+Pl+Com: tervheisine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+
+  Noun - tie - ei tsekattu : # Noun 'vei' - ei tsekattu
+     tie+N+Sg+Nom: tie
+     tie+N+Sg+Gen: tien
+     tie+N+Sg+Par: tietä
+     tie+N+Sg+Tra: tieksi
+     tie+N+Sg+Abe: tiettä
+     tie+N+Sg+Ine: tiessä
+     tie+N+Sg+Ela: tiestä
+     tie+N+Sg+Ill: tiehen
+     tie+N+Sg+Ade: tielä
+     tie+N+Sg+Abl: tieltä
+     tie+N+Sg+All: tiele
+     tie+N+Sg+Ess: tienä
+     tie+N+Pl+Nom: tiet
+     tie+N+Pl+Gen: teitten
+     tie+N+Pl+Par: teitä
+     tie+N+Pl+Tra: teiksi
+     tie+N+Pl+Abe: teittä
+     tie+N+Pl+Ine: teissä
+     tie+N+Pl+Ela: teistä
+     tie+N+Pl+Ill: teihiin
+     tie+N+Pl+Ade: teilä
+     tie+N+Pl+Abl: teiltä
+     tie+N+Pl+All: teile
+     tie+N+Pl+Ess: teinä
+     tie+N+Pl+Com: teine
+
 
 
   Noun - tooli - ei tsekattu : # Noun 'borg' - ei tsekattu
@@ -1771,10 +1305,6 @@ Tests:
      tooli+N+Pl+Com: tooliine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
-
 
   Noun - tunturi: # Noun 'borg' - ei tsekattu
      tunturi+N+Sg+Nom: tunturi
@@ -1788,7 +1318,7 @@ Tests:
      tunturi+N+Sg+Ade: tunturilla
      tunturi+N+Sg+Abl: tunturilta
      tunturi+N+Sg+All: tunturille
-     tunturi+N+Sg+Ess: tunturinna
+     tunturi+N+Sg+Ess: tunturina
      tunturi+N+Pl+Nom: tunturit
      tunturi+N+Pl+Gen: tunturiitten
      tunturi+N+Pl+Par: tunturiita
@@ -1804,9 +1334,63 @@ Tests:
      tunturi+N+Pl+Com: tunturiine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+
+  Noun - tuorestai - ei tsekattu : # Noun 'torsdag' - ei tsekattu
+     tuorestai+N+Sg+Nom: tuorestai
+     tuorestai+N+Sg+Gen: tuorestain
+     tuorestai+N+Sg+Par: tuorestaita
+     tuorestai+N+Sg+Tra: tuorestaiksi
+     tuorestai+N+Sg+Abe: tuorestaitta
+     tuorestai+N+Sg+Ine: tuorestaissa
+     tuorestai+N+Sg+Ela: tuorestaista
+     tuorestai+N+Sg+Ill: tuorestaihin
+     tuorestai+N+Sg+Ade: tuorestaila
+     tuorestai+N+Sg+Abl: tuorestailta
+     tuorestai+N+Sg+All: tuorestaile
+     tuorestai+N+Sg+Ess: tuorestaina
+     tuorestai+N+Pl+Nom: tuorestait
+     tuorestai+N+Pl+Gen: tuorestaitten
+     tuorestai+N+Pl+Par: tuorestaita
+     tuorestai+N+Pl+Tra: tuorestaiksi
+     tuorestai+N+Pl+Abe: tuorestaitta
+     tuorestai+N+Pl+Ine: tuorestaissa
+     tuorestai+N+Pl+Ela: tuorestaista
+     tuorestai+N+Pl+Ill: tuorestaihiin
+     tuorestai+N+Pl+Ade: tuorestaila
+     tuorestai+N+Pl+Abl: tuorestailta
+     tuorestai+N+Pl+All: tuorestaile
+     tuorestai+N+Pl+Ess: tuorestaina
+     tuorestai+N+Pl+Com: tuorestaine
+
+
+
+  Noun - työ - ei tsekattu : # Noun 'arbeid' - ei tsekattu
+     työ+N+Sg+Nom: työ
+     työ+N+Sg+Gen: työn
+     työ+N+Sg+Par: työtä
+     työ+N+Sg+Tra: työksi
+     työ+N+Sg+Abe: työttä
+     työ+N+Sg+Ine: työssä
+     työ+N+Sg+Ela: työstä
+     työ+N+Sg+Ill: työhöön
+     työ+N+Sg+Ade: työlä
+     työ+N+Sg+Abl: työltä
+     työ+N+Sg+All: työle
+     työ+N+Sg+Ess: työnä
+     työ+N+Pl+Nom: työt
+     työ+N+Pl+Gen: työitten
+     työ+N+Pl+Par: työitä
+     työ+N+Pl+Tra: työiksi
+     työ+N+Pl+Abe: työittä
+     työ+N+Pl+Ine: työissä
+     työ+N+Pl+Ela: työistä
+     työ+N+Pl+Ill: työihiin
+     työ+N+Pl+Ade: työilä
+     työ+N+Pl+Abl: työiltä
+     työ+N+Pl+All: työile
+     työ+N+Pl+Ess: työinä
+     työ+N+Pl+Com: työine
+
 
 
   Noun - tytär - ok : # Noun 'daughter' - ok
@@ -1821,7 +1405,7 @@ Tests:
      tytär+N+Sg+Ade: tyttärellä
      tytär+N+Sg+Abl: tyttäreltä
      tytär+N+Sg+All: tyttärelle
-     tytär+N+Sg+Ess: tyttärennä
+     tytär+N+Sg+Ess: tyttärenä
      tytär+N+Pl+Nom: tyttäret
      tytär+N+Pl+Gen: tyttäriitten
      tytär+N+Pl+Par: tyttäriitä
@@ -1834,15 +1418,11 @@ Tests:
      tytär+N+Pl+Abl: tyttäriltä
      tytär+N+Pl+All: tyttärille
      tytär+N+Pl+Com: tyttärine
-     tytär+N+Pl+Ess: tyttärinnä
+     tytär+N+Pl+Ess: tyttärinä
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
 
-
-  Noun - valkkee ok: # Noun 'sak'
+  Noun - valkkee ok: # Noun 'bål'
      valkkee+N+Sg+Nom: valkkee
      valkkee+N+Sg+Gen: valkkeen
      valkkee+N+Sg+Par: valkkeeta
@@ -1870,9 +1450,22 @@ Tests:
      valkkee+N+Pl+Com: valkkeine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+
+  Noun - veljekset - ei tsekattu : # Noun 'brødre' - ei tsekattu
+     veljekset+N+Pl+Nom: veljekset
+     veljekset+N+Pl+Gen: veljesten
+     veljekset+N+Pl+Par: veljeksii
+     veljekset+N+Pl+Tra: veljeksiksi
+     veljekset+N+Pl+Abe: veljeksittä
+     veljekset+N+Pl+Ine: veljeksissä
+     veljekset+N+Pl+Ela: veljeksistä
+     veljekset+N+Pl+Ill: veljekshiin
+     veljekset+N+Pl+Ade: veljeksillä
+     veljekset+N+Pl+Abl: veljeksiltä
+     veljekset+N+Pl+All: veljeksille
+     veljekset+N+Pl+Ess: veljeksinä
+     veljekset+N+Pl+Com: veljeksine
+
 
 
   Noun - venet - ok : # Noun 'borg' - ok
@@ -1903,12 +1496,8 @@ Tests:
      venet+N+Pl+Com: venheine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
 
-
-  Noun - veres - ok : # Noun 'borg' - ok
+  Noun - veres - ok : # Noun 'fresh"
      veres+N+Sg+Nom: veres
      veres+N+Sg+Gen: vereksen
      veres+N+Sg+Par: verestä
@@ -1920,11 +1509,10 @@ Tests:
      veres+N+Sg+Ade: vereksellä
      veres+N+Sg+Abl: verekseltä
      veres+N+Sg+All: verekselle
-     veres+N+Sg+Ess: vereksennä
+     veres+N+Sg+Ess: vereksenä
      veres+N+Pl+Nom: verekset
      veres+N+Pl+Gen: veresten
      veres+N+Pl+Par: vereksii
-     veres+N+Pl+Par: vereksiitä
      veres+N+Pl+Tra: vereksiksi
      veres+N+Pl+Abe: vereksittä
      veres+N+Pl+Ine: vereksissä
@@ -1933,13 +1521,9 @@ Tests:
      veres+N+Pl+Ade: vereksillä
      veres+N+Pl+Abl: vereksiltä
      veres+N+Pl+All: vereksille
-     veres+N+Pl+Ess: vereksinnä
+     veres+N+Pl+Ess: vereksinä
      veres+N+Pl+Com: vereksine
 
-
-# todo:
-# Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
 
 
   Noun - vuosi - ok : # Noun 'år' - ok
@@ -1970,10 +1554,6 @@ Tests:
      vuosi+N+Pl+Com: vuosine
 
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
 
   Noun - yđin - ok : # Noun 'kernel' - ei tsekattu
      yđin+N+Sg+Nom: yđin
@@ -1987,7 +1567,7 @@ Tests:
      yđin+N+Sg+Ade: ytimellä
      yđin+N+Sg+Abl: ytimeltä
      yđin+N+Sg+All: ytimelle
-     yđin+N+Sg+Ess: ytimennä
+     yđin+N+Sg+Ess: ytimenä
      yđin+N+Pl+Nom: ytimet
      yđin+N+Pl+Gen: ytimiitten
      yđin+N+Pl+Par: ytimiitä
@@ -2000,4 +1580,4 @@ Tests:
      yđin+N+Pl+Abl: ytimiltä
      yđin+N+Pl+All: ytimille
      yđin+N+Pl+Com: ytimine
-     yđin+N+Pl+Ess: ytiminnä
+     yđin+N+Pl+Ess: ytiminä
