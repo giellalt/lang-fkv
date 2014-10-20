@@ -15,6 +15,7 @@ Tests:
 
 
 
+
   Noun - aika - ok : # Noun 'tid' - ok
      aika+N+Sg+Nom: aika
      aika+N+Sg+Gen: aijan
@@ -610,10 +611,10 @@ Tests:
      kulkkiija+N+Pl+Ine: kulkkiijoissa
      kulkkiija+N+Pl+Ela: kulkkiijoista
      kulkkiija+N+Pl+Ill: kulkkiijhoin
-     kulkkiija+N+Pl+Ade: kulkkiijoilla
+     kulkkiija+N+Pl+Ade: kulkkiijoila
      kulkkiija+N+Pl+Abl: kulkkiijoilta
-     kulkkiija+N+Pl+All: kulkkiijoille
-     kulkkiija+N+Pl+Ess: kulkkiijoinna
+     kulkkiija+N+Pl+All: kulkkiijoile
+     kulkkiija+N+Pl+Ess: kulkkiijoina
      kulkkiija+N+Pl+Com: kulkkiijoine
 
 
@@ -639,39 +640,10 @@ Tests:
      kurkkio+N+Pl+Ine: kurkkioissa
      kurkkio+N+Pl+Ela: kurkkioista
      kurkkio+N+Pl+Ill: kurkkihoin
-     kurkkio+N+Pl+Ade: kurkkioilla
+     kurkkio+N+Pl+Ade: kurkkioila
      kurkkio+N+Pl+Abl: kurkkioilta
-     kurkkio+N+Pl+All: kurkkioille
-     kurkkio+N+Pl+Ess: kurkkioinna
-     kurkkio+N+Pl+Com: kurkkioine
-
-
-
-  Noun - kurkkio: # Noun 'borg' - ei tsekattu
-     kurkkio+N+Sg+Nom: kurkkio
-     kurkkio+N+Sg+Gen: kurkkion
-     kurkkio+N+Sg+Par: kurkkiota
-     kurkkio+N+Sg+Tra: kurkkioksi
-     kurkkio+N+Sg+Abe: kurkkiotta
-     kurkkio+N+Sg+Ine: kurkkiossa
-     kurkkio+N+Sg+Ela: kurkkiosta
-     kurkkio+N+Sg+Ill: kurkkihoon
-     kurkkio+N+Sg+Ade: kurkkiolla
-     kurkkio+N+Sg+Abl: kurkkiolta
-     kurkkio+N+Sg+All: kurkkiolle
-     kurkkio+N+Sg+Ess: kurkkionna
-     kurkkio+N+Pl+Nom: kurkkiot
-     kurkkio+N+Pl+Gen: kurkkioitten
-     kurkkio+N+Pl+Par: kurkkioita
-     kurkkio+N+Pl+Tra: kurkkioiksi
-     kurkkio+N+Pl+Abe: kurkkioitta
-     kurkkio+N+Pl+Ine: kurkkioissa
-     kurkkio+N+Pl+Ela: kurkkioista
-     kurkkio+N+Pl+Ill: kurkkihoin
-     kurkkio+N+Pl+Ade: kurkkioilla
-     kurkkio+N+Pl+Abl: kurkkioilta
-     kurkkio+N+Pl+All: kirkkioille
-     kurkkio+N+Pl+Ess: kurkkioinna
+     kurkkio+N+Pl+All: kurkkioile
+     kurkkio+N+Pl+Ess: kurkkioina
      kurkkio+N+Pl+Com: kurkkioine
 
 
@@ -814,10 +786,10 @@ Tests:
      meininki+N+Pl+Ine: meiningiissä
      meininki+N+Pl+Ela: meiningiistä
      meininki+N+Pl+Ill: meininkhiin
-     meininki+N+Pl+Ade: meiningiillä
+     meininki+N+Pl+Ade: meiningiilä
      meininki+N+Pl+Abl: meiningiiltä
-     meininki+N+Pl+All: meiningiille
-     meininki+N+Pl+Ess: meininkiinnä
+     meininki+N+Pl+All: meiningiile
+     meininki+N+Pl+Ess: meininkiinä
      meininki+N+Pl+Com: meininkiine
 
 
@@ -930,10 +902,10 @@ Tests:
      paivukko+N+Pl+Ine: paivukoissa
      paivukko+N+Pl+Ela: paivukoista
      paivukko+N+Pl+Ill: paivukkhoin
-     paivukko+N+Pl+Ade: paivukoilla
+     paivukko+N+Pl+Ade: paivukoila
      paivukko+N+Pl+Abl: paivukoilta
-     paivukko+N+Pl+All: paivukoille
-     paivukko+N+Pl+Ess: paivukkoinna
+     paivukko+N+Pl+All: paivukoile
+     paivukko+N+Pl+Ess: paivukkoina
      paivukko+N+Pl+Com: paivukkoine
 
 
@@ -988,10 +960,10 @@ Tests:
      perintö+N+Pl+Ine: perinnöissä
      perintö+N+Pl+Ela: perinnöistä
      perintö+N+Pl+Ill: perinthöin
-     perintö+N+Pl+Ade: perinnöillä
+     perintö+N+Pl+Ade: perinnöilä
      perintö+N+Pl+Abl: perinnöiltä
-     perintö+N+Pl+All: perinnöille
-     perintö+N+Pl+Ess: perintöinnä
+     perintö+N+Pl+All: perinnöile
+     perintö+N+Pl+Ess: perintöinä
      perintö+N+Pl+Com: perintöine
 
 
@@ -1163,10 +1135,10 @@ Tests:
      sivakka+N+Pl+Ine: sivakoissa
      sivakka+N+Pl+Ela: sivakoista
      sivakka+N+Pl+Ill: sivakkhoin
-     sivakka+N+Pl+Ade: sivakoilla
+     sivakka+N+Pl+Ade: sivakoila
      sivakka+N+Pl+Abl: sivakoilta
-     sivakka+N+Pl+All: sivakoille
-     sivakka+N+Pl+Ess: sivakkoinna
+     sivakka+N+Pl+All: sivakoile
+     sivakka+N+Pl+Ess: sivakkoina
      sivakka+N+Pl+Com: sivakkoine
 
 
@@ -1356,10 +1328,10 @@ Tests:
      tunturi+N+Pl+Ine: tunturiissa
      tunturi+N+Pl+Ela: tunturiista
      tunturi+N+Pl+Ill: tunturhiin
-     tunturi+N+Pl+Ade: tunturiilla
+     tunturi+N+Pl+Ade: tunturiila
      tunturi+N+Pl+Abl: tunturiilta
-     tunturi+N+Pl+All: tunturiille
-     tunturi+N+Pl+Ess: tunturiinna
+     tunturi+N+Pl+All: tunturiile
+     tunturi+N+Pl+Ess: tunturiina
      tunturi+N+Pl+Com: tunturiine
 
 
