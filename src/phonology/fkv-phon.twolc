@@ -431,10 +431,10 @@ i6:0 <=> _ k: a %^WG:0;
 
 
 
-"Gradation k:j" 
+"Gradation k:j"
 !k:j <=>   [a|e|i|i6:] _ [o|e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! pako  - pajon? conflict k:v
 k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! 
-		        	 i _ [ö:|o:]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !		
+                     i _ [ö:|o:]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !		
          [ä|æ|e|i|i6:] _   [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! m̈äki  - mäjen
              [e|i|i6:] _   [e:|i|ä|æ|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
                  [r|l] _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki - jäljen
@@ -457,10 +457,10 @@ k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !
 
 
 
-        
+
 "Gradation k:0" 
 !k:0 <=>                h _ Vowel          (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
-k:0 <=>                h _ [Vowel - e:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
+k:0 <=>                h _ [Vowel - e:]    (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
                        a _ a               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata
              Vowel [u|y] _ e               (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukee - laueta
 !                    a u _ e                                      %^WG:0 ; ! laukee - laueta
@@ -588,21 +588,19 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 !! !!Vowel copying and metathesis
          
-"Vowel copying" ! 
-!! __@RULENAME@__  
-! %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>: _ ;!(%>:) [ (%>:) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
-!    where Vx in ( a e i u y ä ö ) ; ! o in next rule
+! "Vowel copying" ! 
+! !! __@RULENAME@__  
+!  %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>: _ ;!(%>:) [ (%>:) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
+!     where Vx in ( a e i u y ä ö ) ; ! o in next rule
      
-%^V:Vx <=> :Vx Dummy:* %>: _ ;
-    where Vx in ( a e i u y ä ö ) ; ! o in next rule
+!%^V:Vx <=> :Vx Dummy:* %>: _ ;
+!    where Vx in ( a e i u y ä ö ) ; ! o in next rule
    
 ! poika : poikaa
 ! kive : kivee
     
 "Vowel copying in long h forms of a-stems"
 !! __@RULENAME@__ 
-
-
  %^V:o <=> .#. Cns:* (Vowel:) [i|e|a] Cns:* a: %>: %^HMETA: h _ %^AO: i2: ; 
                                   :o [Dummy:* - %^HMETA:] %>: _ [ (%>:) Cns|.#.] ;
                                             (:Cns)(:Cns) :o %>: _ ;
@@ -612,16 +610,13 @@ j:0 <=> l _ e: %^E2I:0 ;
 !0 katto>^V alempi sääntö?
 !0 katto0o
 
-
 !€ paivukko>^V
 !€ paivukko>o
-
 
 "Vowel copying in short h-illative"
 !! __@RULENAME@__
  %^V:Vx <=> Vowel Vx: %>: h _ [ n: | m: ] ;  
     where Vx in ( a e i o u y ä ö ) ; 
-
 
 !€ maa>h^Vn
 !€ maa>han
@@ -632,7 +627,6 @@ j:0 <=> l _ e: %^E2I:0 ;
     where Vx in ( a e i i2 o u y ä ö ) 
           Vy in ( a e i i  o u y ä ö ) 
              matched ;
- 
 
 "Vowel copying in long h forms 2"
 !! __@RULENAME@__ 
@@ -658,16 +652,13 @@ j:0 <=> l _ e: %^E2I:0 ;
 !  Vx:0 <=> Cns _ %>: %^HMETA:0 h %^V: ; 
 !     where Vx in ( a e i o u y ä ö ) ;  
        
-
 !€ syksy>^HMETAh^V^Vn
 !€ syks0>0hyyn
-
 
 "e deletion in illative plural"
  e:0 <=> _ %^EDEL:0 %>: h ;
          _ %^E2I:0 %^HMETA:0 h i i ;
  ! vuothiin
-  
  
 "e deletion in oblique plural of e-stem nouns"
  e:0 <=>     _ (%^WG:0) %>: i2: ;
