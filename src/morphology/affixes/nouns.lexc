@@ -231,8 +231,7 @@ LEXICON x_23
 +Pl:e%>i2 longparpl ;
 +Pl:e%>i2 tt_longgenpl ;
 +Pl:e%>i2 sgpl_cases_short ;
-!+Sg+Ess:en%^A PxxK ; 
-+Pl+Ess:e%>i2n%^A PxxK ;
+ess_strong_even ;
 +Pl+Com:e%>i2ne K ;
 
 
@@ -698,8 +697,8 @@ LEXICON ess_strong_even
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
 LEXICON ess_strong_odd
- +Sg+Ess:%>nn%^A PxxK ;
- +Pl+Ess:%>i2%>nn%^A PxxK ;
+ +Sg+Ess:%>n%^A PxxK ;      ! nn or n ? Eira s. 38 vs yaml
+ +Pl+Ess:%>i2%>n%^A PxxK ;  ! nn
  
 LEXICON sgpl_cases_short ! kaikille paitsi neljän koplalle
  +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto vuođela
