@@ -62,8 +62,6 @@ the same affix in sg and pl
  * LEXICON n_21	  "poika:poi6ka", lyhyt vokali, yks vartalo
 
 
-* to sgpl_cases_short for cases with
-  the same affix in sg and pl
 * shortestgenpl since we have the i
 
 
@@ -108,13 +106,9 @@ the same affix in sg and pl
 * LEXICON n_31	  for same affix in sg and pl
 
  LEXICON n_31m	 lumi lu
-these two lexica for cases with
-the same affix in sg and pl
 
  LEXICON n_31si	 vuosi, käsi
 
-these two lexica for cases with
-the same affix in sg and pl
 
  LEXICON n_31lapsi	 lapsi la
 these two lexica for cases with
@@ -222,7 +216,10 @@ Basic paradigms
 !!Basic vowel stems
 
 
- LEXICON strong-v-stem   ''Kaikki vahvan asteen sijamuodot tähän''
+ LEXICON strong_v_stem_even   ''Kaikki vahvan asteen sijamuodot tähän''
+
+ LEXICON strong_v_stem_odd   ''Kaikki vahvan asteen sijamuodot tähän''
+
 
  LEXICON weak_v_stem  
 
@@ -236,13 +233,13 @@ general weak_v_stem lexicon.
 
 
 
+
+
 * Lyhyt perusmuoto vuođela
 * Lyhyt perusmuoto
-* Huom... essiivi ja heikko aste Lene removed this one
 
 * Pitkä perusmuoto
 * Pitkä perusmuoto
-* Huom... essiivi ja heikko aste !Lene removed this
 
 
 
@@ -297,9 +294,6 @@ linna pl.ill. kaksi muotoa po. linnhoin
  LEXICON PxK  has only -nsA, and is currently not in use. Check
 
  LEXICON PxxK   has also -Vn, thus both .. llensa and ..lleen.
-
-
-
 
 
 
