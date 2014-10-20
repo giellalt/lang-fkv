@@ -66,9 +66,11 @@ Rules
  
   "Gemination VXi"
   !! __@RULENAME@__ 
-0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
+!0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
+0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) Cx _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
          where Cx in ( k p t) ;
 
+! Comment: how come (Cx)? That means putting ptk everywhere
 
 !0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
 !        Cns:*  Vowel:* Vowel (Vowel):Cx e:0 _ %>:0 i2:i :i ;
@@ -792,16 +794,17 @@ Vx:e <=> _ %^AE:0 (%^WG:0) %>: t (t) ;
  
 !! * ove : ovi
 
-"i:0 in par and gen pl of i-stems" ! ristien
- i:0 <=> Cns: _ %>: i2:i %>: [ %^V n | %^V: ] ;
-
+"i:0 in par and gen pl of i-stems, in plural of i-final diphtong stems, in past tense and conditional tense" ! ristien
+ i:0 <=> Cns: _ %>: i2:i %>: [ %^V n | %^V: ] ; ! ristien
+         Cns: _ Dummy:* %>: [ i3:i | i4:i ] ; ! leikin, tohtisin
+         [a|e|o|u|y|ö] _ %>: [ i2:i | i ] ;   ! tuoresta0>i2ksi
 ! # risti>i2>^Vn
 ! 0 rist0>i>en
 
 
 
-"i:0 in past tense and conditional of i-stems" ! leikin, tohtisin
- i:0 <=> Cns: _ Dummy:* %>: [ i3:i | i4:i ] ;
+!"i:0 in past tense and conditional of i-stems" ! leikin, tohtisin
+! i:0 <=> Cns: _ Dummy:* %>: [ i3:i | i4:i ] ;
 
 
 
