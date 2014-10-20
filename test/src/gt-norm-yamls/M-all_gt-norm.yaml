@@ -114,7 +114,7 @@ Tests:
      elläin+N+Sg+Ade: elläimellä
      elläin+N+Sg+Abl: elläimeltä
      elläin+N+Sg+All: elläimelle
-     elläin+N+Sg+Ess: elläimenä
+     elläin+N+Sg+Ess: elläimennä
      elläin+N+Pl+Nom: elläimet
      elläin+N+Pl+Gen: elläimiitten
      elläin+N+Pl+Par: elläimiitä
@@ -127,7 +127,7 @@ Tests:
      elläin+N+Pl+Abl: elläimiltä
      elläin+N+Pl+All: elläimille
      elläin+N+Pl+Com: elläimine
-     elläin+N+Pl+Ess: elläiminä
+     elläin+N+Pl+Ess: elläiminnä
 
 
 
@@ -322,7 +322,7 @@ Tests:
      ihminen+N+Sg+Ade: ihmisellä
      ihminen+N+Sg+Abl: ihmiseltä
      ihminen+N+Sg+All: ihmiselle
-     ihminen+N+Sg+Ess: ihmisenä
+     ihminen+N+Sg+Ess: ihmisennä
      ihminen+N+Pl+Nom: ihmiset
      ihminen+N+Pl+Gen: ihmisten
      ihminen+N+Pl+Par: ihmissii
@@ -334,7 +334,7 @@ Tests:
      ihminen+N+Pl+Ade: ihmisillä
      ihminen+N+Pl+Abl: ihmisiltä
      ihminen+N+Pl+All: ihmisille
-     ihminen+N+Pl+Ess: ihmisinä
+     ihminen+N+Pl+Ess: ihmisinnä
      ihminen+N+Pl+Com: ihmisine
 
 
@@ -409,7 +409,7 @@ Tests:
      kajava+N+Sg+Ade: kajavalla
      kajava+N+Sg+Abl: kajavalta
      kajava+N+Sg+All: kajavalle
-     kajava+N+Sg+Ess: kajavana
+     kajava+N+Sg+Ess: kajavanna
      kajava+N+Pl+Nom: kajavat
      kajava+N+Pl+Gen: kajaviitten
      kajava+N+Pl+Gen: kajavitten
@@ -422,7 +422,7 @@ Tests:
      kajava+N+Pl+Ade: kajavilla
      kajava+N+Pl+Abl: kajavilta
      kajava+N+Pl+All: kajaville
-     kajava+N+Pl+Ess: kajavina
+     kajava+N+Pl+Ess: kajavinna
      kajava+N+Pl+Com: kajavine
 
 
@@ -601,7 +601,7 @@ Tests:
      kulkkiija+N+Sg+Ade: kulkkiijalla
      kulkkiija+N+Sg+Abl: kulkkiijalta
      kulkkiija+N+Sg+All: kulkkiijalle
-     kulkkiija+N+Sg+Ess: kulkkiijana
+     kulkkiija+N+Sg+Ess: kulkkiijanna
      kulkkiija+N+Pl+Nom: kulkkiijat
      kulkkiija+N+Pl+Gen: kulkkiijoitten
      kulkkiija+N+Pl+Par: kulkkiijoita
@@ -613,7 +613,7 @@ Tests:
      kulkkiija+N+Pl+Ade: kulkkiijoilla
      kulkkiija+N+Pl+Abl: kulkkiijoilta
      kulkkiija+N+Pl+All: kulkkiijoille
-     kulkkiija+N+Pl+Ess: kulkkiijoina
+     kulkkiija+N+Pl+Ess: kulkkiijoinna
      kulkkiija+N+Pl+Com: kulkkiijoine
 
 
@@ -630,7 +630,7 @@ Tests:
      kurkkio+N+Sg+Ade: kurkkiolla
      kurkkio+N+Sg+Abl: kurkkiolta
      kurkkio+N+Sg+All: kurkkiolle
-     kurkkio+N+Sg+Ess: kurkkiona
+     kurkkio+N+Sg+Ess: kurkkionna
      kurkkio+N+Pl+Nom: kurkkiot
      kurkkio+N+Pl+Gen: kurkkioitten
      kurkkio+N+Pl+Par: kurkkioita
@@ -642,7 +642,36 @@ Tests:
      kurkkio+N+Pl+Ade: kurkkioilla
      kurkkio+N+Pl+Abl: kurkkioilta
      kurkkio+N+Pl+All: kurkkioille
-     kurkkio+N+Pl+Ess: kurkkioina
+     kurkkio+N+Pl+Ess: kurkkioinna
+     kurkkio+N+Pl+Com: kurkkioine
+
+
+
+  Noun - kurkkio: # Noun 'borg' - ei tsekattu
+     kurkkio+N+Sg+Nom: kurkkio
+     kurkkio+N+Sg+Gen: kurkkion
+     kurkkio+N+Sg+Par: kurkkiota
+     kurkkio+N+Sg+Tra: kurkkioksi
+     kurkkio+N+Sg+Abe: kurkkiotta
+     kurkkio+N+Sg+Ine: kurkkiossa
+     kurkkio+N+Sg+Ela: kurkkiosta
+     kurkkio+N+Sg+Ill: kurkkihoon
+     kurkkio+N+Sg+Ade: kurkkiolla
+     kurkkio+N+Sg+Abl: kurkkiolta
+     kurkkio+N+Sg+All: kurkkiolle
+     kurkkio+N+Sg+Ess: kurkkionna
+     kurkkio+N+Pl+Nom: kurkkiot
+     kurkkio+N+Pl+Gen: kurkkioitten
+     kurkkio+N+Pl+Par: kurkkioita
+     kurkkio+N+Pl+Tra: kurkkioiksi
+     kurkkio+N+Pl+Abe: kurkkioitta
+     kurkkio+N+Pl+Ine: kurkkioissa
+     kurkkio+N+Pl+Ela: kurkkioista
+     kurkkio+N+Pl+Ill: kurkkihoin
+     kurkkio+N+Pl+Ade: kurkkioilla
+     kurkkio+N+Pl+Abl: kurkkioilta
+     kurkkio+N+Pl+All: kirkkioille
+     kurkkio+N+Pl+Ess: kurkkioinna
      kurkkio+N+Pl+Com: kurkkioine
 
 
@@ -776,7 +805,7 @@ Tests:
      meininki+N+Sg+Ade: meiningillä
      meininki+N+Sg+Abl: meiningiltä
      meininki+N+Sg+All: meiningille
-     meininki+N+Sg+Ess: meininkinä
+     meininki+N+Sg+Ess: meininkinnä
      meininki+N+Pl+Nom: meiningit
      meininki+N+Pl+Gen: meiningiitten
      meininki+N+Pl+Par: meininkkiitä
@@ -788,7 +817,7 @@ Tests:
      meininki+N+Pl+Ade: meiningiillä
      meininki+N+Pl+Abl: meiningiiltä
      meininki+N+Pl+All: meiningiille
-     meininki+N+Pl+Ess: meininkiinä
+     meininki+N+Pl+Ess: meininkiinnä
      meininki+N+Pl+Com: meininkiine
 
 
@@ -892,7 +921,7 @@ Tests:
      paivukko+N+Sg+Ade: paivukolla
      paivukko+N+Sg+Abl: paivukolta
      paivukko+N+Sg+All: paivukolle
-     paivukko+N+Sg+Ess: paivukkona
+     paivukko+N+Sg+Ess: paivukkonna
      paivukko+N+Pl+Nom: paivukot
      paivukko+N+Pl+Gen: paivukoitten
      paivukko+N+Pl+Par: paivukoita
@@ -904,7 +933,7 @@ Tests:
      paivukko+N+Pl+Ade: paivukoilla
      paivukko+N+Pl+Abl: paivukoilta
      paivukko+N+Pl+All: paivukoille
-     paivukko+N+Pl+Ess: paivukkoina
+     paivukko+N+Pl+Ess: paivukkoinna
      paivukko+N+Pl+Com: paivukkoine
 
 
@@ -950,7 +979,7 @@ Tests:
      perintö+N+Sg+Ade: perinnöllä
      perintö+N+Sg+Abl: perinnöltä
      perintö+N+Sg+All: perinnölle
-     perintö+N+Sg+Ess: perintönä
+     perintö+N+Sg+Ess: perintönnä
      perintö+N+Pl+Nom: perinnöt
      perintö+N+Pl+Gen: perinnöitten
      perintö+N+Pl+Par: perinnöitä
@@ -962,7 +991,7 @@ Tests:
      perintö+N+Pl+Ade: perinnöillä
      perintö+N+Pl+Abl: perinnöiltä
      perintö+N+Pl+All: perinnöille
-     perintö+N+Pl+Ess: perintöinä
+     perintö+N+Pl+Ess: perintöinnä
      perintö+N+Pl+Com: perintöine
 
 
@@ -1067,7 +1096,7 @@ Tests:
      sairhaus+N+Sg+Ade: sairhauđella
      sairhaus+N+Sg+Abl: sairhauđelta
      sairhaus+N+Sg+All: sairhauđelle
-     sairhaus+N+Sg+Ess: sairhautena
+     sairhaus+N+Sg+Ess: sairhautenna
      sairhaus+N+Pl+Nom: sairhauđet
      sairhaus+N+Pl+Gen: sairhauksiitten
      sairhaus+N+Pl+Par: sairhauksiita
@@ -1079,7 +1108,7 @@ Tests:
      sairhaus+N+Pl+Ade: sairhauksilla
      sairhaus+N+Pl+Abl: sairhauksilta
      sairhaus+N+Pl+All: sairhauksille
-     sairhaus+N+Pl+Ess: sairhauksina
+     sairhaus+N+Pl+Ess: sairhauksinna
      sairhaus+N+Pl+Com: sairhauksine
 
 
@@ -1125,7 +1154,7 @@ Tests:
      sivakka+N+Sg+Ade: sivakalla
      sivakka+N+Sg+Abl: sivakalta
      sivakka+N+Sg+All: sivakalle
-     sivakka+N+Sg+Ess: sivakkana
+     sivakka+N+Sg+Ess: sivakkanna
      sivakka+N+Pl+Nom: sivakat
      sivakka+N+Pl+Gen: sivakoitten
      sivakka+N+Pl+Par: sivakoita
@@ -1137,7 +1166,7 @@ Tests:
      sivakka+N+Pl+Ade: sivakoilla
      sivakka+N+Pl+Abl: sivakoilta
      sivakka+N+Pl+All: sivakoille
-     sivakka+N+Pl+Ess: sivakkoina
+     sivakka+N+Pl+Ess: sivakkoinna
      sivakka+N+Pl+Com: sivakkoine
 
 
@@ -1213,7 +1242,7 @@ Tests:
      taival+N+Sg+Ade: taipalella
      taival+N+Sg+Abl: taipalelta
      taival+N+Sg+All: taipalelle
-     taival+N+Sg+Ess: taipalena
+     taival+N+Sg+Ess: taipalenna
      taival+N+Pl+Nom: taipalet
      taival+N+Pl+Gen: taipaliitten
      taival+N+Pl+Par: taipaliita
@@ -1226,7 +1255,7 @@ Tests:
      taival+N+Pl+Abl: taipalilta
      taival+N+Pl+All: taipalille
      taival+N+Pl+Com: taipaline
-     taival+N+Pl+Ess: taipalina
+     taival+N+Pl+Ess: taipalinna
 
 
 
@@ -1242,7 +1271,7 @@ Tests:
      tervheiset+N+Pl+Ade: tervheisillä
      tervheiset+N+Pl+Abl: tervheisiltä
      tervheiset+N+Pl+All: tervheisille
-     tervheiset+N+Pl+Ess: tervheisinä
+     tervheiset+N+Pl+Ess: tervheisinnä
      tervheiset+N+Pl+Com: tervheisine
 
 
@@ -1318,7 +1347,7 @@ Tests:
      tunturi+N+Sg+Ade: tunturilla
      tunturi+N+Sg+Abl: tunturilta
      tunturi+N+Sg+All: tunturille
-     tunturi+N+Sg+Ess: tunturina
+     tunturi+N+Sg+Ess: tunturinna
      tunturi+N+Pl+Nom: tunturit
      tunturi+N+Pl+Gen: tunturiitten
      tunturi+N+Pl+Par: tunturiita
@@ -1330,7 +1359,7 @@ Tests:
      tunturi+N+Pl+Ade: tunturiilla
      tunturi+N+Pl+Abl: tunturiilta
      tunturi+N+Pl+All: tunturiille
-     tunturi+N+Pl+Ess: tunturiina
+     tunturi+N+Pl+Ess: tunturiinna
      tunturi+N+Pl+Com: tunturiine
 
 
@@ -1405,7 +1434,7 @@ Tests:
      tytär+N+Sg+Ade: tyttärellä
      tytär+N+Sg+Abl: tyttäreltä
      tytär+N+Sg+All: tyttärelle
-     tytär+N+Sg+Ess: tyttärenä
+     tytär+N+Sg+Ess: tyttärennä
      tytär+N+Pl+Nom: tyttäret
      tytär+N+Pl+Gen: tyttäriitten
      tytär+N+Pl+Par: tyttäriitä
@@ -1418,7 +1447,7 @@ Tests:
      tytär+N+Pl+Abl: tyttäriltä
      tytär+N+Pl+All: tyttärille
      tytär+N+Pl+Com: tyttärine
-     tytär+N+Pl+Ess: tyttärinä
+     tytär+N+Pl+Ess: tyttärinnä
 
 
 
@@ -1463,7 +1492,7 @@ Tests:
      veljekset+N+Pl+Ade: veljeksillä
      veljekset+N+Pl+Abl: veljeksiltä
      veljekset+N+Pl+All: veljeksille
-     veljekset+N+Pl+Ess: veljeksinä
+     veljekset+N+Pl+Ess: veljeksinnä
      veljekset+N+Pl+Com: veljeksine
 
 
@@ -1509,7 +1538,7 @@ Tests:
      veres+N+Sg+Ade: vereksellä
      veres+N+Sg+Abl: verekseltä
      veres+N+Sg+All: verekselle
-     veres+N+Sg+Ess: vereksenä
+     veres+N+Sg+Ess: vereksennä
      veres+N+Pl+Nom: verekset
      veres+N+Pl+Gen: veresten
      veres+N+Pl+Par: vereksii
@@ -1521,7 +1550,7 @@ Tests:
      veres+N+Pl+Ade: vereksillä
      veres+N+Pl+Abl: vereksiltä
      veres+N+Pl+All: vereksille
-     veres+N+Pl+Ess: vereksinä
+     veres+N+Pl+Ess: vereksinnä
      veres+N+Pl+Com: vereksine
 
 
@@ -1567,7 +1596,7 @@ Tests:
      yđin+N+Sg+Ade: ytimellä
      yđin+N+Sg+Abl: ytimeltä
      yđin+N+Sg+All: ytimelle
-     yđin+N+Sg+Ess: ytimenä
+     yđin+N+Sg+Ess: ytimennä
      yđin+N+Pl+Nom: ytimet
      yđin+N+Pl+Gen: ytimiitten
      yđin+N+Pl+Par: ytimiitä
@@ -1580,4 +1609,4 @@ Tests:
      yđin+N+Pl+Abl: ytimiltä
      yđin+N+Pl+All: ytimille
      yđin+N+Pl+Com: ytimine
-     yđin+N+Pl+Ess: ytiminä
+     yđin+N+Pl+Ess: ytiminnä
