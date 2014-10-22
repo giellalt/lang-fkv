@@ -71,7 +71,7 @@ LEXICON x_1
 +Sg+Nom: Px ;   ! mattoni
 +Sg+Gen: Px ;   ! mattoni
 +Pl+Nom: Px ;   ! mattoni
-ess_strong_even ;
+ess_even ;
  
 LEXICON n_1pl !!= * @CODE@ = häät
 
@@ -165,17 +165,18 @@ LEXICON n_22odd	!!= * @CODE@  meininki
 
 LEXICON x_22odd	!!= * @CODE@  meininki
  nom_strong ;
- strong_v_stem_odd ;
-:%^WG weak_v_stem ;
+  short_par ;
+ nomgen_px ;
+ :%^WG weak_v_stem ;
  +Sg:%^WG sgpl_cases_long ;      !! these two lexica for cases with
  +Pl:%^WG%>i2 sgpl_cases_long ; !! the same affix in sg and pl
  +Pl:%^WG%>i2 sgpl_cases_long ; 
  2TAVU_V_ill_sg ;
- ess_strong_odd ;
+ ess_odd_sg ;
+ ess_even_pl ;
 !+Pl+Tra:%>i2ksi K ;
 !+Pl+Tra:i%>ksi PxxK ; !Lene removed this
 +Pl:%^WG%>i2 tt_longgenpl ;
-!+Pl:%>i2 tt_longgenpl ;
 +Pl:%>i2 longparpl ;
 +Pl+Ill:%>%^HMETAh%^V%^V n_PxK ;
 +Pl+Ill:%>%^HMETAhi%>i2 n_PxK ;
@@ -214,7 +215,7 @@ LEXICON n_23ii	!!= * @CODE@  assii
 +N: weak_v_stem ;
 +N+Sg:%^WG sgpl_cases_short ;   !! * @CODE@  for same affix in sg and pl
 +N+Pl:%^WG sgpl_cases_short ;  !! * @CODE@  for same affix in sg and pl
-+N: ess_strong_even ;
++N: ess_even ;
 +N+Pl+Com:%>ne K ;
 
 LEXICON n_23	!!= * @CODE@  valkkee
@@ -231,7 +232,7 @@ LEXICON x_23
 +Pl:e%>i2 longparpl ;
 +Pl:e%>i2 tt_longgenpl ;
 +Pl:e%>i2 sgpl_cases_short ;
-ess_strong_even ;
+ess_even ;
 +Pl+Com:e%>i2ne K ;
 
 
@@ -498,12 +499,16 @@ LEXICON n_41 !!= * @CODE@ = veres
 +N: x_41 ;
 
 LEXICON x_41
- sConsCase ; !!= * @CODE@  toistaiseksi :-/
-:kse loput2 ;
+ sConsCase ; ! toistaiseksi :-/
+
+:kse obl_strong_odd ; ! muut vahvat
+:kse weak_v_stem ;
+ +Sg:kse sgpl_cases_long ;     ! these two lexica for cases with
+ +Pl:kse%>i2 sgpl_cases_long ; ! the same affix in sg and pl -- tsekkaa long
+
 +Pl+Gen:%>sten K ;
 +Pl+Par:%>ksii K ;
 +Sg+Ill:ksheen K ;
-+Pl+Ess:ks%>i2%>n%^A PxxK ;
 +Pl+Ill:ksh%>i2in K ;
 +Pl+Com:ks%>i2ne K ;
 
@@ -552,7 +557,7 @@ LEXICON n_42odd !!= @CODE@ ihminen
 LEXICON x_42odd 
 +Sg+Nom: nen K;
 !:s R ;
-:se ess_strong_odd ;
+:se ess_odd ;
 :se weak_v_stem ;
 :s long_par_sg ;
 :se 2TAVU_V_ill_sg ;
@@ -580,7 +585,7 @@ LEXICON nen_sg
   nom-nen ;
  :s R ;
  :se nomgen_px ;
- :se ess_strong_even ;
+ :se ess_even ;
  !make+Pl+kom:sine K ;
  :se weak_v_stem_sg ;
  :s long_par_sg ;
@@ -680,24 +685,36 @@ LEXICON weak_v_stem_pl
 LEXICON obl_strong_even 
  nomgen_px ;
  +Pl:%>i2 com ;
- ess_strong_even ;
+ ess_even ;
  
 LEXICON obl_strong_odd 
  nomgen_px ;
  +Pl:%>i2 com ;
- ess_strong_odd ;
+ ess_odd ;
  
 LEXICON nomgen_px
  +Sg+Nom: Px ;   ! mattoni
  +Sg+Gen: Px ;   ! mattoni
  +Pl+Nom: Px ;   ! mattoni
 
-LEXICON ess_strong_even
+LEXICON ess_even
+ess_even_sg ;
+ess_even_pl ;
+
+LEXICON ess_even_sg 
  +Sg+Ess:%>n%^A PxxK ;
+
+LEXICON ess_even_pl 
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
-LEXICON ess_strong_odd
+LEXICON ess_odd
+ ess_odd_sg ;
+ ess_odd_pl ;
+
+LEXICON ess_odd_sg
  +Sg+Ess:%>nn%^A PxxK ;      ! nn or n ? Eira s. 38 vs yaml
+
+LEXICON ess_odd_pl
  +Pl+Ess:%>i2%>nn%^A PxxK ;  ! nn
  
 LEXICON sgpl_cases_short ! kaikille paitsi neljän koplalle
