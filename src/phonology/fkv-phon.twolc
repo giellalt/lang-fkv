@@ -641,19 +641,11 @@ j:0 <=> l _ e: %^E2I:0 ;
     
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
-! Vx:0 <=> Cns _ %>: %^HMETA:0 h [ %^V: | %^AO: | i: | o:] ; 
-!    where Vx in ( a e i o u y ä ö ) ;
-
- Vx:0 <=> Cns _ %>: %^HMETA:0 h [ :Vx | (%^AO:) ] ; 
+ Vx:0 <=> Cns _ %>: %^HMETA:0 h [ :Vx | %^AO: | i: ] ; 
     where Vx in ( a e i o u y ä ö ) ;
 
 ! oppettaajhiin 
-    
-! "Stem deletion in h-illative b"
-! !! __@RULENAME@__ 
-!  Vx:0 <=> Cns _ %>: %^HMETA:0 h %^V: ; 
-!     where Vx in ( a e i o u y ä ö ) ;  
-       
+           
 !€ syksy>^HMETAh^V^Vn
 !€ syks0>0hyyn
 
@@ -798,6 +790,7 @@ Vx:e <=> _ %^AE:0 (%^WG:0) %>: t (t) ;
  i:0 <=> Cns: _ %>: i2:i %>: [ %^V n | %^V: ] ; ! ristien
          Cns: _ Dummy:* %>: [ i3:i | i4:i ] ; ! leikin, tohtisin
          [a|e|o|u|y|ö] _ %>: [ i2:i | i ] ;   ! tuoresta0>i2ksi
+         
 ! # risti>i2>^Vn
 ! 0 rist0>i>en
 
