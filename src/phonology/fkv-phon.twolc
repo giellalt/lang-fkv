@@ -542,8 +542,8 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !! __@RULENAME@__ 
 t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
         Vowel   _ [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
-  Vowel [n|l|r] _ [                   Vowel:0            %^WG:0  %>: i3: ] ;
-  Vowel   [n|r] _    e: %^E2I:                                             ;
+  Vowel [n|l|r] _ [                   Vowel:0            %^WG:0  %>: [i3:|i2:] ] ;
+!  Vowel   [n|r] _    e: %^E2I:                                             ;
 
 ! ... not ready
 !# vuot0e^E2I>i3
