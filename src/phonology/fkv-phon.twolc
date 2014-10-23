@@ -600,8 +600,15 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vowel copying in short h-illative"
 !! __@RULENAME@__
- %^V:Vx <=> Vowel Vx: %>: h _ [ n: | m: ] ;  
+ %^V:Vx <=> Vowel Vx: %>: h _ [ n: | m: ] ; 
+            :Vx Dummy:* %>: _ ; 
     where Vx in ( a e i o u y ä ö ) ; 
+   
+!  %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>: _ ;!(%>:) [ (%>:) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
+!     where Vx in ( a e i u y ä ö ) ; ! o in next rule
+
+! poika : poikaa
+! kive : kivee
 
 !€ maa>h^Vn
 !€ maa>han
@@ -869,16 +876,7 @@ Vx:e <=> _ %^AE:0 (%^WG:0) %>: t (t) ;
 !  a:o <=>               Cns:* ([i|e|a]         ) [i|e|a] Cns:*  :Cns           _ (Dummy: - %^AE:0) %>: [i2: | i3: ] ;
 !                                                  (:Cns) [ :k | :l] (:i) :i :j _ (Dummy:*) i2: ;
 
-! "Vowel copying" ! 
-! !! __@RULENAME@__  
-!  %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>: _ ;!(%>:) [ (%>:) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
-!     where Vx in ( a e i u y ä ö ) ; ! o in next rule
      
-!%^V:Vx <=> :Vx Dummy:* %>: _ ;
-!    where Vx in ( a e i u y ä ö ) ; ! o in next rule
-   
-! poika : poikaa
-! kive : kivee
 
 
 
