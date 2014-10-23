@@ -352,7 +352,7 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Act+Ind+Prs:%>e v12pers_long ;
 +V+Act+Ind+Prt:%>i3 v12pers_long ;
 !+V+Act+PrfPrc+Sg+Nom:%>%^N%^U K ;
-+V+Act+PrfPrc+Sg+Nom:%>%^WG%^U K ;
++V+Act+PrfPrc+Sg+Nom:%^WG%>%^U K ;
 +V+Pass+PrfPrc+Nom:%>t%^U K ;
 +V+Act+PrfPrc:%>%^WG%^hee PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>e%>%^V%>v%^A K ;
