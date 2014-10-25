@@ -81,8 +81,8 @@ LEXICON a_41_s_kse
 !+A: nen ;
 !+A:s R ;
 !+A:s a_long_par ;
-!+A+Sg:se a_sgpl_cases_short ;      ! these two lexica for cases with
-!+A+Pl:s%>i2 a_sgpl_cases_short ;  ! the same affix in sg and pl
+!+A+Sg:se a_sgpl_cases_even ;      ! these two lexica for cases with
+!+A+Pl:s%>i2 a_sgpl_cases_even ;  ! the same affix in sg and pl
 !+A+Pl:ssh%>i2 a_shorterillpl ;
 !+A+Pl+Com:s%>i2ne K ;
 
@@ -170,13 +170,13 @@ LEXICON a_obl_strong
  +Sg+Ess:%>n%^A PxxK ;
  +Pl+Ess:%>i2%>n%^A PxxK ;
  
-LEXICON a_sgpl_cases_short ! kaikille paitsi neljän koplalle
+LEXICON a_sgpl_cases_even ! kaikille paitsi neljän koplalle
  +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto vuođela
  +All:%>le PxxK ; !! * Lyhyt perusmuoto
  +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
  sgpl_cases_common ;
 
-LEXICON a_sgpl_cases_long ! neljän koplalle
+LEXICON a_sgpl_cases_odd ! neljän koplalle
  +Ade:%>ll%^A PxxK ; !! * Pitkä perusmuoto
  +All:%>lle PxxK ; !! * Pitkä perusmuoto
  +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
@@ -288,27 +288,27 @@ LEXICON a_longerillpl
 LEXICON a_loput
  obl_strong_even ; ! muut vahvat
  weak_v_stem ;
- +Sg: sgpl_cases_long ;      !! these two lexica for cases with
- +Pl:%>i2 sgpl_cases_long ;  !! the same affix in sg and pl -- tsekkaa long
+ +Sg: sgpl_cases_odd ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl_cases_odd ;  !! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 shortgenpl ;
  +Pl:%>i2 shortparpl ;
 
 LEXICON a_loputon
  obl_strong_even ; ! muut vahvat
  weak_v_stem ;
- +Sg: sgpl_cases_long ;      !! these two lexica for cases with
+ +Sg: sgpl_cases_odd ;      !! these two lexica for cases with
 
 LEXICON a_loputonpl 
- +Pl:%>i2 sgpl_cases_long ;  !! the same affix in sg and pl -- tsekkaa long
+ +Pl:%>i2 sgpl_cases_odd ;  !! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 shortgenpl ;
 
 LEXICON a_loputonodd
  obl_strong_odd ; ! muut vahvat
  weak_v_stem ;
-+Sg:sgpl_cases_short ;      !! these two lexica for cases with
++Sg:sgpl_cases_even ;      !! these two lexica for cases with
 
 LEXICON a_loputonoddpl
-+Pl:%>i2 sgpl_cases_short ;  !! the same affix in sg and pl -- tsekkaa long
++Pl:%>i2 sgpl_cases_even ;  !! the same affix in sg and pl -- tsekkaa long
 +Pl:%>i2 shortgenpl ;
 
 
