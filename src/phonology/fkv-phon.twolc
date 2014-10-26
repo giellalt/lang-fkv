@@ -534,9 +534,8 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 "ti:si"
 !! __@RULENAME@__ 
 t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
-        Vowel   _ [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
-  Vowel [n|l|r] _ [                   Vowel:0            (%^WG:0)  (%^E2I:)  %>: [i3:|i2:] ] ;
-!  Vowel   [n|r] _    e: %^E2I:                                             ;
+  Vowel         _ [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
+  Vowel [n|l|r] _ [ (e:) %^E2I:     |  Vowel:0            (%^WG:0)  (%^E2I:)  %>: [i3:|i2:] ] ;
 
 ! ... not ready
 !# vuot0e^E2I>i3
@@ -584,55 +583,76 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! !!Vowel copying and metathesis
          
     
-"Vowel copying in long h forms of a-stems"
-!! __@RULENAME@__ 
- %^V:o <=> .#. Cns:* (Vowel:) [i|e|a] Cns:* a: %>: %^HMETA: h _ %^AO: i2: ; 
-                                  :o [Dummy:* - %^HMETA:] %>: _ [ (%>:) Cns|.#.] ;
-                                            (:Cns)(:Cns) :o %>: _ ;
-! Mikä säätö?
-! traaka : traakkhoin
-! sivakka : sivakkhoin 
-!0 katto>^V alempi sääntö?
-!0 katto0o
-
-!€ paivukko>^V
-!€ paivukko>o
-
 "Vowel copying in short h-illative"
 !! __@RULENAME@__
- %^V:Vx <=> Vowel Vx: %>: h _ [ n: | m: ] ; 
-            :Vx Dummy:* %>: _ ; 
-    where Vx in ( a e i o u y ä ö ) ; 
-   
-!  %^V:Vx <=> :Vx [Dummy:* - %^HMETA:] %>: _ ;!(%>:) [ (%>:) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;
-!     where Vx in ( a e i u y ä ö ) ; ! o in next rule
-
-! poika : poikaa
-! kive : kivee
+ %^V:Vx <=>     Vowel Vx: %>: h _ [ n: | m: ] ;
+!   :Vx [Dummy:* - %^HMETA:] %>: _ ;   !(%>:) [ (%>:) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;   
+    where Vx in ( a e i o u y ä ö ) ;
 
 !€ maa>h^Vn
 !€ maa>han
 
-"Vowel copying in long h forms"
+"Vowel copying in long h sg forms 1"
 !! __@RULENAME@__ 
- %^V:Vy <=>  Vx: %>: %^HMETA: h _ [ %^V: | i2: ] ; 
+ %^V:Vy <=>  Vx: %>: %^HMETA: h _ %^V:  ; 
     where Vx in ( a e i i2 o u y ä ö ) 
           Vy in ( a e i i  o u y ä ö ) 
              matched ;
-
-"Vowel copying in long h forms 2"
+ 
+"Vowel copying in long h sg forms 2"
 !! __@RULENAME@__ 
  %^V:Vy <=>  Vx: %>: %^HMETA: h %^V: _ ; 
     where Vx in ( a e i i2 o u y ä ö )  
           Vy in ( a e i i  o u y ä ö ) 
              matched ;
 
-! %^V:Vx <=> Vowel Vx: %>: %^HMETA: h %^V: _ ; 
-    
+"Vowel copying in long h pl forms"
+!! __@RULENAME@__ 
+ %^V:Vy <=>  Vx: (%^AO:) %>: %^HMETA: h _ %>: 	i2: ; 
+    where Vx in ( e i i2 o u y ä ö ) 
+          Vy in ( e i i  o u y ä ö ) 
+             matched ;
+
+
+"a to o and metathesis in h forms in pl of a-stems"
+!! __@RULENAME@__ 
+ %^V:o <=>                 a: %^AO: %>: %^HMETA: h _  %>: i2: ; 
+.#. Cns:* (Vowel:) [i|e|a] Cns:* a: %>: %^HMETA: h _  %>: i2: ; 
+            :o [Dummy:* - %^HMETA:] %>:            _ [ (%>:) Cns|.#.] ;
+                    (:Cns)(:Cns) :o %>:            _ ;
+
+! "a to o and metathesis in h forms in pl of a-stems"
+!  __@RULENAME@__ 
+!  %^V:o <=>     a: %^AO: %>: %^HMETA: h _  %>: i2:  ; 
+!           :o [Dummy:* - %^HMETA:] %>: _ [ (%>:) Cns|.#.] ;
+!                   (:Cns)(:Cns) :o %>: _ ;
+! 
+! "Vowel copying in long h forms of a-stems"
+!  __@RULENAME@__ 
+!  %^V:o <=> .#. Cns:* (Vowel:) [i|e|a] Cns:* a: %>: %^HMETA: h _ %^AO: i2: ; 
+!                                   :o [Dummy:* - %^HMETA:] %>: _ [ (%>:) Cns|.#.] ;
+!                                           (:Cns)(:Cns) :o %>: _ ;
+
+! Mikä säätö? traaka : traakkhoin sivakka : sivakkhoin 
+!0 katto>^V alempi sääntö?
+!0 katto0o
+
+!€ paivukko>^V
+!€ paivukko>o
+
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
- Vx:0 <=> Cns _ %>: %^HMETA:0 h [ :Vx | %^AO: | i: ] ; 
+ Vx:0 <=> :Cns _ ([%^AO:|%^E2I:]) %>: %^HMETA:0 h [ :Vx | i: ] ; 
     where Vx in ( a e i o u y ä ö ) ;
+
+"a deletion in h-illative of a-stems"
+!! __@RULENAME@__ 
+ a:0 <=> Cns _ %^AO: %>: %^HMETA:0 h %^V: i2: ; 
+
+"e deletion in h-illative"
+!! __@RULENAME@__ 
+ e:0 <=> :Cns _ %^E2I: %>::0 h i2:  ; 
+
 
 ! oppettaajhiin 
            
@@ -694,10 +714,9 @@ a:0 <=> (\a) [(u) u|([u|o]) o] (:i|i6:) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:)
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__  
-  a:o <=>  [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: (Dummy: - %^AE:0) %>: [i2: | i3: ] ;
-                                                         (:Cns) [ :k | :l] (:i) :i :j _ %^AO:0 (Dummy:*) i2: ;                                                           
-                                  !(Cns:*) Vowel:*  Cns:* Vowel:* Cns:* (Cns:*) (k:0) _ %^AO:0 (Dummy:*) (i2:) ;                     
-                          (Cns:*) Vowel:*  Cns:*  (Cns:*) Vowel:* Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) i2: ;                                  
+  a:o <=>  [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] ;
+                                                         (:Cns) [ :k | :l] (:i) :i :j _ %^AO: (Dummy:*)         (%>:) i2: ;                                                           
+                          (Cns:*) Vowel:*  Cns:*  (Cns:*) Vowel:* Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0)          (%>:) i2: ;                                  
 
 !€ sivakka^WG>i2>tten
 !€ siva0ko00i0tten                                                                
@@ -766,14 +785,13 @@ Vx:e <=> _ %^AE:0 (%^WG:0) %>: t (t) ;
  e:i <=> Cns: _ %^E2I:0 [ #: | .#. ] ;  
 
 
-
 !€ ove^E2I
 !€ ovi0
  
 !! * ove : ovi
 
 "i:0 in par and gen pl of i-stems, in plural of i-final diphtong stems, in past tense and conditional tense" ! ristien
- i:0 <=> Cns: _ %>: i2:i %>: [ %^V n | %^V: ] ; ! ristien
+ i:0 <=> Cns: _ %>: i2:i %>: [ %^V: n | %^V: ] ; ! ristien
          Cns: _ Dummy:* %>: [ i3:i | i4:i ] ; ! leikin, tohtisin
          [a|e|o|u|y|ö] _ %>: [ i2:i | i ] ;   ! tuoresta0>i2ksi
          
