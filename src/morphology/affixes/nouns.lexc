@@ -209,7 +209,7 @@ LEXICON n_23ii	!!= * @CODE@  assii
 +N: weak_v_stem ;
 +N+Sg:%^WG sgpl_cases_even ;   !! * @CODE@  for same affix in sg and pl
 +N+Pl:%^WG sgpl_cases_even ;  !! * @CODE@  for same affix in sg and pl
-+N: ess_even ;
++N:e ess_even ;
 +N+Pl+Com:%>ne K ;
 
 LEXICON n_23	!!= * @CODE@  valkkee
@@ -475,19 +475,32 @@ LEXICON n_33t !!= @CODE@ venet
 
 LEXICON x_33t
 :e tConsCase ; ! nom, par
-:hee loputjutut ;
+:hee 33_t_ts_common ;
 +Sg+Ill:hee mTAVU_VV-ill ;
-+Pl+Ill:heissiin K ;
 +Pl+Com:hee%>i2ne K ;
 
 LEXICON n_33ts !!= @CODE@ kirves
-+N+Sg+Nom:es K ;
-+N:es long_par_sg ; 
-+N:hee loputjutut ;
++N: x_33ts ;
+
+LEXICON x_33ts !!= @CODE@ kirves
++Sg+Nom:es K ;
+:es long_par_sg ; 
+:hee 33_t_ts_common ;
 +Sg+Ill:hee mTAVU_VV-ill ;
-+N+Pl+Ill:heissiin K ;
-+N+Pl+Gen:hee%>i2 tt_longgenpl ;
-+N+Pl+Com:hee%>i2ne K ;
++Pl+Gen:hee%>i2 tt_longgenpl ;
++Pl+Com:hee%>i2ne K ;
+
+LEXICON 33_t_ts_common
+ obl_strong_even ; ! muut vahvat
+ weak_v_stem ;
+ +Sg: sgpl_cases_even ;      !! these two lexica for cases with
+ +Pl:%>i2 sgpl_cases_even ;  !! the same affix in sg and pl -- tsekkaa long
+ mTAVU_VV-ill ;
+ +Pl:%>i2 tt_longgenpl ;
+ +Pl:%>i2 longparpl ;
+!+Pl+Ill:heissiin K ;
+ +Pl:%>i2ssii longillpl ;
+
 
 LEXICON n_41 !!= * @CODE@ = veres
 +N: x_41 ;
@@ -614,16 +627,6 @@ LEXICON loput2
  +Pl:%>i2 sgpl_cases_odd ;  !! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 shortparpl ;
  
-LEXICON loputjutut
- obl_strong_odd ; ! muut vahvat
- weak_v_stem ;
- +Sg: sgpl_cases_even ;      !! these two lexica for cases with
- +Pl:%>i2 sgpl_cases_even ;  !! the same affix in sg and pl -- tsekkaa long
- mTAVU_VV-ill ;
- +Pl:%>i2 tt_longgenpl ;
- +Pl:%>i2 longparpl ;
- +Pl:%>i2ssii longillpl ;
-
 LEXICON sConsCase
  +Sg+Nom:%>s K ;
  +Sg+Par:%>st%^A K ; ! Par
