@@ -586,6 +586,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 "Vowel copying in short h-illative"
 !! __@RULENAME@__
  %^V:Vx <=>     Vowel Vx: %>: h _ [ n: | m: ] ;
+                      Vx  %>: _ ;
 !   :Vx [Dummy:* - %^HMETA:] %>: _ ;   !(%>:) [ (%>:) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;   
     where Vx in ( a e i o u y ä ö ) ;
 
