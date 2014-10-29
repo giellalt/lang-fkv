@@ -286,11 +286,10 @@ LEXICON n_31lapsi	!!= @CODE@ lapsi la
 +N:pse%^WG weak_v_stem ;
 +N+Sg:pse%^WG sgpl_cases_even ;      !! these two lexica for cases with
 +N+Pl:ps%^WG%>i2 sgpl_cases_even ;  !! the same affix in sg and pl
-+N+Pl:psi%>i2	shortestgenpl ;
-+Pl:ps%>i2i shortestparpl ;
++N+Pl:ps%>i2%>i	shortestgenpl ;
++N+Pl:ps%>i2%>i shortestparpl ;
 +N+Sg+Ill:ps%>%^HMETAhee n_PxK ;
 +N+Pl+Ill:ps%^EDEL%>hii n_PxK ;
-+N+Pl:psi%>i2 shortparpl ;
 +N+Pl+Com:ps%>i2ne K ;
 
 LEXICON n_31mies	!!= @CODE@ mies mie
