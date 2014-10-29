@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - tervheiset - ok : # Noun 'tid' - ei tsekattu
+  Noun - tervheiset - ok : # Noun 'tid' n_42pl - ei tsekattu
      tervheiset+N+Pl+Nom: tervheiset
      tervheiset+N+Pl+Gen: tervheisten
      tervheiset+N+Pl+Par: tervheisii

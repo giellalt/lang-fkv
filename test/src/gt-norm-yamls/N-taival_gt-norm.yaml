@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - taival - ok : # Noun 'walk' -
+  Noun - taival - ok : # Noun 'walk' - n_32
      taival+N+Sg+Nom: taival
      taival+N+Sg+Gen: taipalen
      taival+N+Sg+Par: taivalta
