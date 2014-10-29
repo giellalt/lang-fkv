@@ -609,8 +609,8 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>: i2: ; ! 3-syll
 
 "e:i in nom.sg. of e-stems"
 !! __@RULENAME@__
-! e:i <=> Cns: _ %^E2I:0 [ #: | .#. | %>: ] ;  
- e:i <=> Cns: _ %^E2I:0 [ #: | .#. ] ;  
+ e:i <=> Cns: _ %^E2I:0 [ #: | .#. | %>: ] ;  ! PASSES: 10510 / FAILS: 747 / TOTAL: 11257
+! e:i <=> Cns: _ %^E2I:0 [ #: | .#. ] ;  
 
 
 !€ ove^E2I
