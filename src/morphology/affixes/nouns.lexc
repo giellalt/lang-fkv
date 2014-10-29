@@ -521,7 +521,10 @@ LEXICON s_kse
 
 LEXICON n_41pl !!= * @CODE@ = veljekset
 +N+Pl+Nom:%>kset K ;
-+N:kse loput2 ;
++N:kse obl_strong_odd ; ! muut vahvat
++N:kse weak_v_stem ;
++N+Sg:kse     sgpl_cases_odd ;  !! these two lexica for cases with
++N+Pl:kse%>i2 sgpl_cases_odd ;  !! the same affix in sg and pl -- tsekkaa long
 +N+Pl+Gen:%>sten K ;
 +N+Pl+Par:%>ksii K ;
 +N+Pl+Ess:ks%>i2%>n%^A PxxK ;
@@ -617,12 +620,6 @@ LEXICON loput
  +Pl:%>i2 tt_longgenpl ;
  +Pl:%>i2 shortparpl ;
 
-LEXICON loput2
- obl_strong_odd ; ! muut vahvat
- weak_v_stem ;
- +Sg: sgpl_cases_odd ;      !! these two lexica for cases with
- +Pl:%>i2 sgpl_cases_odd ;  !! the same affix in sg and pl -- tsekkaa long
- +Pl:%>i2 shortparpl ;
  
 LEXICON sConsCase
  +Sg+Nom:%>s K ;
