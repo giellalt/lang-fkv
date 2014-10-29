@@ -298,16 +298,15 @@ LEXICON n_31mies	!!= @CODE@ mies mie
 +N+Sg+Nom:s R ; ! %^EI e to i
 +N+Sg+Gen:hen K ;
 +N:s long_par_sg ;
-+N:he obl_strong_odd ;   
++N:he obl_strong_even ;   
 +N+Sg:he%^WG weak_v_stem ;
 +N+Pl+Nom:het K ;
 +N+Sg:he%^WG sgpl_cases_even ;      !! these two lexica for cases with
 +N+Pl:h%^WG%>i2 sgpl_cases_even ;  !! the same affix in sg and pl
-+N+Pl:hi%>i2	shortestgenpl ;
-+Pl:h%>i2i shortestparpl ;
++N+Pl:h%>i2%>i	shortestgenpl ;
++N+Pl:h%>i2%>i shortestparpl ;
 +N+Sg+Ill:h%>%^HMETAhee n_PxK ;
 +N+Pl+Ill:hhii n_PxK ;
-+N+Pl:hi%>i2 shortparpl ;
 +N+Pl+Com:h%>i2ne K ;
 
 
