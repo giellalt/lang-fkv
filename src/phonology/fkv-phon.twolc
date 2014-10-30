@@ -498,6 +498,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !            :o [Dummy:* - %^HMETA:] %>:            _ [ (%>:) Cns|.#.] ;
 !                    (:Cns)(:Cns) :o %>:            _ ;
 
+
 ! Mikä säätö? traaka : traakkhoin sivakka : sivakkhoin 
 !0 katto>^V alempi sääntö?
 !0 katto0o
@@ -566,8 +567,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__ 
-a:0 <=> (\a) [(u) u|([u|o]) o] (:i|i6:) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:) %>:  [i2:|i3:] | [a:0]] ;
-          [ #: | .#. ] (Cns:*) Vowel: Cns: (Cns:) [:a|:e] [:v|:m] _ %>: (Dummy:*) i2: (i) ;
+a:0 <=> (\a) [(u) u|([u|o]) o] (:i|i6:) Cns: (Cns:) (Cns:) _     [(^WG:0) %>:  [i2:|i3:] | [a:0]] ;
+   [ #: | .#. ] (Cns:*) Vowel: Cns: (Cns:) [:a|:e] [:v|:m] _ %>: (^WG:0) i2: (i) ;
 
 !€ otta^WG>i2n
 !€ o0t00>in 
@@ -576,9 +577,23 @@ a:0 <=> (\a) [(u) u|([u|o]) o] (:i|i6:) Cns: (Cns:) (Cns:) _  [(Dummy:* - %^AE:)
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__  
-  a:o <=>  [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] ;
-                                                         (:Cns) [ :k | :l] (:i) :i :j _ %^AO: (Dummy:*)         (%>:) i2: ;                                                           
-                          (Cns:*) Vowel:*  Cns:+  (Cns:*) [Vowel: -[o|u]]:+ Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0)          (%>:) i2: ;                                  
+a:o <=>  [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] ;
+                                                       (:Cns) [ :k | :l] (:i) :i :j _ %^AO: (Dummy:*)         (%>:) i2: ;                                                           
+              (Cns:*) Vowel:*  Cns:+  (Cns:*) [Vowel: -[o|u]]:+ Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0)          (%>:) i2: ;                                  
+
+
+
+*** Warning: Unresolved <= conflict with respect to 'a:0' vs. 'a:o'
+    between "a:0 before Pret and Pl i when rounded root vowel"
+        and "a:o before Pl i and Pret i"
+
+ **** Conflicting pair(s) of contexts: 
+  (\a) [(u) u | (u | o) o] (:i | i6:) Cns: (Cns:) (Cns:) _ (Dummy:* - ^AE:) >: [i2: | i3:] | a:0 ;
+  (Cns:*) Vowel:* Cns:+ (Cns:*) [Vowel: - o | u] ?+ Cns:* (Cns:*) (k:0) _ ^AO: (^WG:0) (>:) i2: ;
+Left context example:     b a o i b
+Right context example:    ^AO:0 >:0 i2:i
+
+
 
 !€ sivakka^WG>i2>tten
 !€ siva0ko00i0tten                                                                
