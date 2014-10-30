@@ -270,9 +270,10 @@ LEXICON x_31si
 :%^EDEL long_par_sg ; ! parsg
  obl_strong_even ;   ! compl, ess
 :%^WG weak_v_stem ;
+ 2TAVU_V_ill_sg ;
 +Sg:%^WG sgpl_cases_even ;      ! these two lexica for cases with
 +Pl:%^E2I%>i2 sgpl_cases_even ;  ! the same affix in sg and pl
- 2TAVU_V_ill_sg ;
+ ess_even ;
 :%^E2I%>i2 shortparpl ;
 :%^E2I%>i2 shortgenpl ;
 :%^E2Ihii shortestillpl ; 
@@ -409,6 +410,7 @@ LEXICON x_33as
 :h%>aa weak_v_stem_pl;
 +Sg:h%>aa sgpl_cases_even ;
 +Pl:h%>a%>i2 sgpl_cases_even ;
+   :h%>aa ess_odd ;
 +Pl:h%>a%>i2 longparpl ;
 +Pl:h%>a%>i2 tt_longgenpl ;
 +N+Pl+Ess:h%>a%>i2%>na PxxK ;
@@ -547,11 +549,12 @@ LEXICON n_42
 
 LEXICON x_42 
 +Sg+Nom: nen K ; 
-:se weak_v_stem ;
-:s long_par_sg ;
-:se 2TAVU_V_ill_sg ;
+   :se weak_v_stem ;
+   :s long_par_sg ;
+   :se 2TAVU_V_ill_sg ;
 +Sg:se sgpl_cases_even ;      !! these two lexica for cases with
 +Pl:s%>i2 sgpl_cases_even ;  !! the same affix in sg and pl
+   :se ess_even ;
 +Pl:s consgenpl ;
 +Pl:ss%>i2i shortestparpl ;
 +Pl:sh%>i2 shorterillpl ;
