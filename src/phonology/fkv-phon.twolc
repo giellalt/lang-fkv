@@ -420,7 +420,7 @@ t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) 
 
 "Gradation Nt:NN"
 !! __@RULENAME@__ 
-t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) Dummy:* %^WG:0 ?* \%^E2I:0 ;  
+t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) [Dummy:* - %^E2I:0] %^WG:0 ?* \%^E2I:0 ;  
 !t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 (%>:) \i3: ;  
     where Nx in ( l n r ) ; 
 ! NB nt:nn before i3, if the vowel before i3 is not dropped out. annoin, mutta lensin, blennoin
@@ -495,7 +495,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! __@RULENAME@__ 
  %^V:o <=>                 a: %^AO: %>: %^HMETA: h _  %>: i2: ; 
 .#. Cns:* (Vowel:) [i|e|a] Cns:* a: %>: %^HMETA: h _  %>: i2: ; 
-            :o [Dummy:* - %^HMETA:] %>:            _ [ (%>:) Cns|.#.] ;
+!            :o [Dummy:* - %^HMETA:] %>:            _ [ (%>:) Cns|.#.] ;
 !                    (:Cns)(:Cns) :o %>:            _ ;
 
 ! Mikä säätö? traaka : traakkhoin sivakka : sivakkhoin 
