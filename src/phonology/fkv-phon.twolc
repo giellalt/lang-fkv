@@ -508,26 +508,11 @@ j:0 <=> l _ e: %^E2I:0 ;
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
  Vx:0 <=> :Cns _ ([%^AO:|%^E2I:]) %>: %^HMETA:0 h [ :Vx | i: ] ; 
-          :Cns _  %^AO: %>: %^HMETA:0 h (%^V:) (:o) %>: i2: ;
+          :Cns _  %^AO:           %>: %^HMETA:0 h (%^V:) (:o) %>: i2: ;
     where Vx in ( a e i o u y ä ö ) ;
-
-!"a deletion in h-illative of a-stems"
-!! __@RULENAME@__ 
-! a:0 <=> Cns _ %^AO: %>: %^HMETA:0 h %^V: i2: ; 
-
-! oppettaajhiin 
            
 !€ syksy>^HMETAh^V^Vn
 !€ syks0>0hyyn
-
-"e deletion in illative plural"
- e:0 <=> _ %^EDEL:0 %>: h ;
-         _ %^E2I:0 %^HMETA:0 h i i ;
- ! vuothiin
- 
-"e deletion in oblique plural of e-stem nouns"
- e:0 <=> :Vowel :Cns Cns:* _ (%^WG:0) %>: i2: ; ! left context bec of tie>i2 : t0e0i
-                  t:s _  %^E2I:0 %>: i2: ;
 
 
 !! !!Stem alternation rules
@@ -537,27 +522,45 @@ j:0 <=> l _ e: %^E2I:0 ;
  Vx:0 <=> Vx _ %^VDEL:0  (Dummy:) %>: [s|t] ;
      where Vx in ( a e i ä ) ;
 
-
 !€ rakkaa^VDEL^WG>s
 !€ ra0ka000>s
 
-     
+!! !!e rules
+!  =========
 
+"e:i in nom.sg. of e-stems"
+!! __@RULENAME@__
+ e:i <=> Cns: _ %^E2I:0 [ #: | .#. | %>: \[i2:|%^HMETA:0] ] ;  ! PASSES: 10510 / FAILS: 747 / TOTAL: 11257
 
+!€ ove^E2I
+!€ ovi0
 
-"e:0 in consonant stems"
+"e:0 in consonant stems and illative plural"
 !! __@RULENAME@__ 
-!e:0 <=> Cns: _ [ (Dummy:* - %^E2I:0) %>: [i3:|i4:] | %^EDEL:0 %>: t ] ;
-e:0 <=> Cns Vowel (Vowel) (Cns) Cns _ [ (Dummy:* - %^E2I:0) %>: [i3:|i4:] | %^EDEL:0 %>: t ] ;
-
+ e:0 <=> Cns Vowel:+ Cns:+ _ [(%^WG:)             %>: [i3:|i4:] | %^EDEL:0 %>: [t|h] ] ;
+         :Vowel :Cns Cns:* _  (%^WG:0) %>: i2: ; ! left context bec of tie>i2 : t0e0i
+                           _   %^E2I:0 %^HMETA:0 h i i ;
+                       t:s _   %^E2I:0 %>: i2: ;
+                       
 !€ aukaise>i3
 !€ aukais0>i
 
 
 !! !!i rules
 !  =========
-
 !! The -i- rules require different i-s for different POS.
+
+"i:0 in par and gen pl of i-stems, in plural of i-final diphtong stems, in past tense and conditional tense" ! ristien
+ i:0 <=>          Cns: _         %>: i2:i %>: [ %^V: n | %^V: ] ; ! ristien
+                  Cns: _ Dummy:* %>: [ i3:i | i4:i ] ; ! leikin, tohtisin
+         [a|e|o|u|y|ö] _         %>: [ i2:i | i ] ;   ! tuoresta0>i2ksi
+         
+! # risti>i2>^Vn
+! 0 rist0>i>en
+
+
+!! !!a rules
+!  =========
 
 !! !a before i
 
@@ -593,6 +596,8 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>: i2: ; ! 3-syll
 ! opettaajiissa
 
 
+!! !Shortening 
+
 "Shortening of long vowel in front of i"
 !! __@RULENAME@__ 
  Vx:0 <=> _ Vy %>: ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; 
@@ -608,24 +613,6 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>: i2: ; ! 3-syll
 ! ottaa : otan : ottaisin i4 ei passaa kaikkialle!
 
 
-"e:i in nom.sg. of e-stems"
-!! __@RULENAME@__
- e:i <=> Cns: _ %^E2I:0 [ #: | .#. | %>: ] ;  ! PASSES: 10510 / FAILS: 747 / TOTAL: 11257
-! e:i <=> Cns: _ %^E2I:0 [ #: | .#. ] ;  
-
-
-!€ ove^E2I
-!€ ovi0
- 
-!! * ove : ovi
-
-"i:0 in par and gen pl of i-stems, in plural of i-final diphtong stems, in past tense and conditional tense" ! ristien
- i:0 <=> Cns: _ %>: i2:i %>: [ %^V: n | %^V: ] ; ! ristien
-         Cns: _ Dummy:* %>: [ i3:i | i4:i ] ; ! leikin, tohtisin
-         [a|e|o|u|y|ö] _ %>: [ i2:i | i ] ;   ! tuoresta0>i2ksi
-         
-! # risti>i2>^Vn
-! 0 rist0>i>en
 
 
 !! !!Other rules
@@ -764,4 +751,9 @@ Vx:e <=> _ %^AE:0 (%^WG:0) %>: t (t) ;
 ! Poistettu toistaiseksi
 
 
+!"a deletion in h-illative of a-stems"
+!! __@RULENAME@__ 
+! a:0 <=> Cns _ %^AO: %>: %^HMETA:0 h %^V: i2: ; 
+
+! oppettaajhiin 
 
