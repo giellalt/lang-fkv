@@ -508,11 +508,12 @@ j:0 <=> l _ e: %^E2I:0 ;
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
  Vx:0 <=> :Cns _ ([%^AO:|%^E2I:]) %>: %^HMETA:0 h [ :Vx | i: ] ; 
+          :Cns _  %^AO: %>: %^HMETA:0 h (%^V:) (:o) %>: i2: ;
     where Vx in ( a e i o u y ä ö ) ;
 
-"a deletion in h-illative of a-stems"
+!"a deletion in h-illative of a-stems"
 !! __@RULENAME@__ 
- a:0 <=> Cns _ %^AO: %>: %^HMETA:0 h %^V: i2: ; 
+! a:0 <=> Cns _ %^AO: %>: %^HMETA:0 h %^V: i2: ; 
 
 ! oppettaajhiin 
            
