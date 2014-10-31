@@ -360,10 +360,9 @@ k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !
 !k:0 <=>               h _ Vowel        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
 k:0 <=>                h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
                        a _ a            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata
-             (Vowel) [u|y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukee - laueta
-!                    a u _ e                                   %^WG:0 ; ! laukee - laueta
+               [ a u |y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukee - laueta
       NotOUIF: [ l | r ] _ NotEYUF:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
-                   Vowel _ e        n                          %^WG:0 ; ! ikene- - ien
+         [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0 ; ! ikene- - ien
       NotOUIB: [ l | r ] _ NotEYUB:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! märkä - märät
 !  Vowel [Vowel - [e|i]] _ Vowel        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kaiku - kaiun?
 !   [ NotOUIF: | l | r ] _ NotEYUF:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
@@ -491,6 +490,16 @@ j:0 <=> l _ e: %^E2I:0 ;
     where Vx in ( e i i2 o u y ä ö ) 
           Vy in ( e i i  o u y ä ö ) 
              matched ;
+
+"Vowel copying of a in partitive after vowel sequences"
+!! __@RULENAME@__
+ %^V:a <=> [e|i] a %>: _ ;
+
+"Vowel copying of i in partitive after vowel sequences"
+!! __@RULENAME@__
+ %^V:i <=> y i %>: _ ;
+
+
 
 "a to o and metathesis in h forms in pl of a-stems"
 !! __@RULENAME@__ 
