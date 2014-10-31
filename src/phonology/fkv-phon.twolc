@@ -45,7 +45,8 @@ NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;       !!= * @CODE@
 NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;       !!= * @CODE@ 
 
 ArchiCns = %^N ;                                            !!= * @CODE@ 
-Cns = b c d đ f g h j k l m n p q r s t v w x z t2 %^N ;    !!= * @CODE@ 
+SurfaceCns = b c d đ f g h j k l m n p q r s t v w x z ;    !!= * @CODE@ 
+Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@ 
 Segment = Vowel Cns ;                                       !!= * @CODE@ 
 Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;  !!= * @CODE@ 
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;  !!= * @CODE@ 
@@ -508,8 +509,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Stem deletion in h-illative"
 !! __@RULENAME@__ 
- Vx:0 <=> :Cns _ ([%^AO:|%^E2I:]) %>: %^HMETA:0 h [ :Vx | i: ] ; 
-          :Cns _  %^AO:           %>: %^HMETA:0 h (%^V:) (:o) %>: i2: ;
+ Vx:0 <=> :SurfaceCns _ ([%^AO:|%^E2I:]) %>: %^HMETA:0 h [ :Vx | i: ] ; 
+          :SurfaceCns _  %^AO:           %>: %^HMETA:0 h (%^V:) (:o) %>: i2: ;
     where Vx in ( a e i o u y ä ö ) ;
            
 !€ syksy>^HMETAh^V^Vn
@@ -519,7 +520,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! !!Stem alternation rules
 !  ========================
 
-"Stem shortening for consonant initial suffixes" !!= * @CODE@
+"Stem shortening for consonant initial suffixes" 
  Vx:0 <=> Vx _ %^VDEL:0  (Dummy:) %>: [s|t] ;
      where Vx in ( a e i ä ) ;
 
@@ -531,15 +532,15 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "e:i in nom.sg. of e-stems"
 !! __@RULENAME@__
- e:i <=> Cns: _ %^E2I:0 [ #: | .#. | %>: \[i2:|%^HMETA:0] ] ;  ! PASSES: 10510 / FAILS: 747 / TOTAL: 11257
+ e:i <=> Cns: _ %^E2I:0 [ #: | .#. | %>: \[i2:|%^HMETA:0] ] ; 
 
 !€ ove^E2I
 !€ ovi0
 
 "e:0 in consonant stems and illative plural"
 !! __@RULENAME@__ 
- e:0 <=> Cns Vowel:+ Cns:+ _ [(%^WG:)             %>: [i3:|i4:] | %^EDEL:0 %>: [t|h] ] ;
-         :Vowel :Cns Cns:* _  (%^WG:0) %>: i2: ; ! left context bec of tie>i2 : t0e0i
+ e:0 <=> Cns Vowel (Vowel) Cns:+ _ [(%^WG:)             %>: [i3:|i4:] | %^EDEL:0 %>: [t|h] ] ;
+        :Vowel :SurfaceCns Cns:* _  (%^WG:0) %>: i2: ;              ! left context bec of tie>i2 : t0e0i
                            _   %^E2I:0 %^HMETA:0 h i i ;
                        t:s _   %^E2I:0 %>: i2: ;
                        
@@ -551,8 +552,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 !  =========
 !! The -i- rules require different i-s for different POS.
 
-"i:0 in par and gen pl of i-stems, in plural of i-final diphtong stems, in past tense and conditional tense" ! ristien
- i:0 <=>          Cns: _         %>: i2:i %>: [ %^V: n | %^V: ] ; ! ristien
+"i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense" 
+ i:0 <=>          Cns: _         %>:  :i %>: [ %^V: n | %^V: ] ; ! ristien
                   Cns: _ Dummy:* %>: [ i3:i | i4:i ] ; ! leikin, tohtisin
          [a|e|o|u|y|ö] _         %>: [ i2:i | i ] ;   ! tuoresta0>i2ksi
          
@@ -565,10 +566,9 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 !! !a before i
 
-"a:0 before Pret and Pl i when rounded root vowel"
-!! __@RULENAME@__ 
-a:0 <=> (\a) [(u) u|([u|o]) o] (:i|i6:) Cns: (Cns:) (Cns:) _     [(^WG:0) %>:  [i2:|i3:] | [a:0]] ;
-   [ #: | .#. ] (Cns:*) Vowel: Cns: (Cns:) [:a|:e] [:v|:m] _ %>: (^WG:0) i2: (i) ;
+!"a:0 before Pret and Pl i when rounded root vowel"
+!a:0 <=> (\a) [ u|([u|o]) o] (:i|i6:) Cns:+ _     [(^WG:0) %>:  [i2:|i3:] | a:0 ] ;
+!   [ #: | .#. ] (Cns:*) Vowel: Cns: (Cns:) [:a|:e] [:v|:m] _ %>: (^WG:0) i2: (i) ;
 
 !€ otta^WG>i2n
 !€ o0t00>in 
@@ -581,17 +581,6 @@ a:o <=>  [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cn
                                                        (:Cns) [ :k | :l] (:i) :i :j _ %^AO: (Dummy:*)         (%>:) i2: ;                                                           
               (Cns:*) Vowel:*  Cns:+  (Cns:*) [Vowel: -[o|u]]:+ Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0)          (%>:) i2: ;                                  
 
-
-
-*** Warning: Unresolved <= conflict with respect to 'a:0' vs. 'a:o'
-    between "a:0 before Pret and Pl i when rounded root vowel"
-        and "a:o before Pl i and Pret i"
-
- **** Conflicting pair(s) of contexts: 
-  (\a) [(u) u | (u | o) o] (:i | i6:) Cns: (Cns:) (Cns:) _ (Dummy:* - ^AE:) >: [i2: | i3:] | a:0 ;
-  (Cns:*) Vowel:* Cns:+ (Cns:*) [Vowel: - o | u] ?+ Cns:* (Cns:*) (k:0) _ ^AO: (^WG:0) (>:) i2: ;
-Left context example:     b a o i b
-Right context example:    ^AO:0 >:0 i2:i
 
 
 
