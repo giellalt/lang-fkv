@@ -277,7 +277,7 @@ LEXICON x_31si
  ess_even ;
 :%^E2I%>i2 shortparpl ;
 :%^E2I%>i2 shortgenpl ;
-:%^E2Ihii shortestillpl ; 
++Pl:%^E2I%^HMETAhii shortestillpl ; 
 +Pl+Com:%>i2ne K ;
 
 LEXICON n_31lapsi	!!= @CODE@ lapsi la
