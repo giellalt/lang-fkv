@@ -41,7 +41,8 @@
  * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;        
 
  * ArchiCns = %^N ;                                             
- * Cns = b c d đ f g h j k l m n p q r s t v w x z t2 %^N ;     
+ * SurfaceCns = b c d đ f g h j k l m n p q r s t v w x z ;     
+ * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                         
  * Segment = Vowel Cns ;                                        
  * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;   
  * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
@@ -214,39 +215,40 @@ __a to o and metathesis in h forms in pl of a-stems__
 
 
 
-__Stem deletion in h-illative__ 
 
 __Stem deletion in h-illative__ 
-
-
-
 
 
 
 !!Stem alternation rules
 
- * "Stem shortening for consonant initial suffixes" 
 
 
+!!e rules
+
+__e:i in nom.sg. of e-stems__
 
 
-
-
-
-__e:0 in consonant stems__ 
+__e:0 in consonant stems and illative plural__ 
 
 
 
 !!i rules
-
 The -i- rules require different i-s for different POS.
+
+
+
+
+!!a rules
 
 !a before i
 
-__a:0 before Pret and Pl i when rounded root vowel__ 
 
 
 __a:o before Pl i and Pret i__  
+
+
+
 
 
 
@@ -255,17 +257,12 @@ __a:i in 3-syll stems with long a and i__
 
 
 
+!Shortening 
+
 __Shortening of long vowel in front of i__ 
 
 
 
-
-
-__e:i in nom.sg. of e-stems__
-
-
-
-* ove : ovi
 
 
 
@@ -315,5 +312,7 @@ __ä:0 before i except in conditional__
 __ä:0 before i except in conditional__ 
 
 
+
+__ä:0 before i except in conditional__ 
 
 
