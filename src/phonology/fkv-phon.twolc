@@ -68,8 +68,10 @@ Rules
   !! __@RULENAME@__ 
 !0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) Cx _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
-         where Cx in ( k p t) ;
+         Cns:*  Vowel:* Vowel (Vowel) :Cx _  e:0 %^E2I:0 %>: i2:i %>: %^V:i  ;
+         where Cx in ( k p t s v ) ;
 
+! tote>i2>^V
 !€ sop0i>^V
 !€ soppi>i
 
@@ -217,6 +219,11 @@ Rules
 
 !€ el0ä>^V
 !€ ellä>ä
+
+
+! tänne.
+
+!! !Liquid + gemination consonant
     
 "Gemination LIQa"
 !! __@RULENAME@__ 
@@ -411,8 +418,8 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 "ti:si"
 !! __@RULENAME@__ 
 t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
-  Vowel         _ [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
-  Vowel [n|l|r] _ [ (e:) %^E2I:     |  Vowel:0            (%^WG:0)  (%^E2I:)  %>: [i3:|i2:] ] ;    ! ***
+  Vowel         _ (:s) [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
+  Vowel [n|l|r] _ [ (e:) %^E2I:     | Vowel:0            (%^WG:0)  (%^E2I:)  %>: [i3:|i2:] ] ;    ! ***
 
 ! ... not ready
 !# vuot0e^E2I>i3
@@ -462,8 +469,6 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! __@RULENAME@__
  %^V:Vx <=>     Vowel Vx: %>: h _ [ n: | m: ] ;
                 :Cns Vx %>: _ ;
-!                      Vx  %>: _ ;
-!   :Vx [Dummy:* - %^HMETA:] %>: _ ;   !(%>:) [ (%>:) Cns|.#.];![ Cns|[Vowel - i4:]|.#.] ;   
     where Vx in ( a e i o u y ä ö ) ;
 
 !€ maa>h^Vn
@@ -497,6 +502,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 "Vowel copying of i in partitive after vowel sequences"
 !! __@RULENAME@__
  %^V:i <=> y i %>: _ ;
+           i2: %>: _ ;
 
 
 
@@ -550,7 +556,8 @@ j:0 <=> l _ e: %^E2I:0 ;
  e:0 <=> Cns Vowel (Vowel) Cns:+ _ [(%^WG:)             %>: [i3:|i4:] | %^EDEL:0 %>: [t|h] ] ;
         :Vowel :SurfaceCns Cns:* _  (%^WG:0) %>: i2: ;              ! left context bec of tie>i2 : t0e0i
                            _   %^E2I:0 %^HMETA:0 h i i ;
-                       t:s _   %^E2I:0 %>: i2: ;
+                       t:s _  (%^E2I:0) %>: i2: ;
+                            
                        
 !€ aukaise>i3
 !€ aukais0>i
