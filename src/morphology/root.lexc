@@ -7,7 +7,7 @@
 ! Beware of remnants from the Finnish file
 ! Take nothing at face value!
 
-Multichar_Symbols  !!≈ !!!@CODE@ definitions
+Multichar_Symbols  
 
 !!  !!Tags for POS
  +N +A +Adv +V                                 !!≈ ; @CODE@ : Open POS's
@@ -24,10 +24,11 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Inf  +PrsPrc +PrfPrc +Inf3				   !!≈ ; @CODE@ : Infinite verbs
  +CLB +PUNCT +HYPH							   !!≈ ; @CODE@ : Punctuation
  +Attr
+ 
 !!  !!Phonological symbols
  p1 t1 k1				 !!≈ ; @CODE@ : For cons grad -- in use at all?
  i2 i3 i4 i5 i6	i7		 !!≈ ; @CODE@ : For vowel change -- i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = contr verb cond
- p2 t2 k2 ! 					 !!≈ ; @CODE@ : katt2oma always tt, underlying -ts-
+ p2 t2 k2 				 !!≈ ; @CODE@ : katt2oma always tt, underlying -ts-
  %^A %^O %^U			 !!≈ ; @CODE@ : Vowel harmony a/ä, o/ö, u/y
  %^V 					 !!≈ ; @CODE@ : Vowel copying
  %^N 					 !!≈ ; @CODE@ : tulˆNut, kävel^N^Ut
@@ -82,25 +83,25 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ! =================================================
 
 LEXICON Root
- NounRoot ;
- ProperNoun ;
- AdjectiveRoot ;
- VerbRoot ;
- Adverb ;
- Subjunction ;
- Conjunction ;
- NUM ;
- Preposition ;
- Preposition ;
- Postposition ;
- Interjection ;
- Pronoun ;
- Punctuation ;
- Particle  ;
+
+ AdjectiveRoot ;  
+ Adverb ;		  
+ Conjunction ;	  
+ Interjection ;	  
+ NUM ;			  
+ NounRoot ;		  
+ Particle ;		  
+ Postposition ;	  
+ Preposition ;	  
+ Pronoun ;		  
+ ProperNoun ;	  
+ Punctuation ;	  
+ VerbRoot ;		  
+ Subjunction ;	  
 
 
-! Numeral ;
-! Punctuation ;
+
+! Then to the next lexica.
 
 
 
