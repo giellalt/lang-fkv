@@ -3,7 +3,7 @@
 !! Tässä tiedostossa ovat suljetut sanaluokat.
 
 LEXICON Particle
-!! @LEXNAME@ -leksikossa on vain yksi sana.
+!! @LEXNAME@ -leksikossa on vain kuusi sanaa
 
 tahansa pcle ;
 eri pcle ;
@@ -16,7 +16,7 @@ LEXICON pcle
  +Pcle: # ;
 
 LEXICON Subjunction
-!! @LEXNAME@ -leksikossa on vain yksi sana. !!m. jos vaikka
+!! @LEXNAME@ -leksikossa on tärkeimmät sanat (koska, että, jos, ..)
 
 koska subj ;
 että subj ;
@@ -59,8 +59,11 @@ LEXICON cctag
  +CC: # ;
 
 LEXICON Interjection
-!! @LEXNAME@ -leksikossa on vain yksi sana. !!huh, hui, yäk, kääk, oho, nono
+!! @LEXNAME@ -leksikossa on vain pari sanaa. !! yäk, kääk, nono
 hyi ij ;
+hui ij ;
+huh ij ;
+oho ij ;
 
 LEXICON ij
  +Interj: # ;
