@@ -412,18 +412,17 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !! __@RULENAME@__ 
 t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
   Vowel         _ [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
-  Vowel [n|l|r] _ [ (e:) %^E2I:     |  Vowel:0            (%^WG:0)  (%^E2I:)  %>: [i3:|i2:] ] ;
+  Vowel [n|l|r] _ [ (e:) %^E2I:     |  Vowel:0            (%^WG:0)  (%^E2I:)  %>: [i3:|i2:] ] ;    ! ***
 
 ! ... not ready
 !# vuot0e^E2I>i3
 !0 vuoss00i>i
 
+
 "Gradation Nt:NN"
 !! __@RULENAME@__ 
-t:Nx <=> Nx  _  :Vowel (Dummy:*) ([i|i2:]) [Dummy:* - %^E2I:0] %^WG:0 ?* \%^E2I:0 ;  
-!t:Nx <=> Nx  _  Vowel: (Dummy:) ([i|i2:]) (Dummy:) %^WG:0 (%>:) \i3: ;  
+t:Nx <=> Nx  _  :Vowel  ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;  
     where Nx in ( l n r ) ; 
-! NB nt:nn before i3, if the vowel before i3 is not dropped out. annoin, mutta lensin, blennoin
 
 !€ lentä^WG>n
 !€ lennä0>n
@@ -486,7 +485,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vowel copying in long h pl forms"
 !! __@RULENAME@__ 
- %^V:Vy <=>  Vx: (%^AO:) %>: %^HMETA: h _ %>: 	i2: ; 
+ %^V:Vy <=>  Vx: (%^AO:) %>: %^HMETA: h _ %>:	i2: ; 
     where Vx in ( e i i2 o u y ä ö ) 
           Vy in ( e i i  o u y ä ö ) 
              matched ;
@@ -630,10 +629,10 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>: i2: ; ! 3-syll
 "a:e in passives"
 !! __@RULENAME@__ 
 ! Vx:e <=> _ %^AE:0 (t) (t) ;
-! 	where Vx in ( a ä ) ;
+!      where Vx in ( a ä ) ;
 
 Vx:e <=> _ %^AE:0 (%^WG:0) %>: t (t) ;
- 	where Vx in ( a ä ) ;
+     where Vx in ( a ä ) ;
 
 "ä:0 before i except in conditional"
 !! __@RULENAME@__ 
