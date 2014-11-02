@@ -287,7 +287,7 @@ LEXICON x_31si
     +Pl:%^E2I%>i2     shortparpl ; ! ^E2I to get t:s
     +Pl:%^E2I%>i2     shortgenpl ; ! 
     +Pl:%^E2I%^HMETAhii shortestillpl ; 
-+Pl+Com:%>i2ne        K ;
++Pl+Com:%^E2I%>i2ne        K ;
 
 LEXICON n_31lapsi	!!= @CODE@ lapsi la
 +N+Sg+Nom:psi K ; ! %^EI e to i
