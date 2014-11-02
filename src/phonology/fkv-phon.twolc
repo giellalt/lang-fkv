@@ -67,7 +67,7 @@ Rules
   "Gemination VXi"
   !! __@RULENAME@__ 
 !0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
-0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) Cx _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
+0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) Cx _  :Vowel %>:  [:i - i3:] (i2:i) ;
          Cns:*  Vowel:* Vowel (Vowel) :Cx _  e:0 %^E2I:0 %>: i2:i %>: %^V:i  ;
          where Cx in ( k p t s v ) ;
 
@@ -554,9 +554,9 @@ j:0 <=> l _ e: %^E2I:0 ;
 "e:0 in consonant stems and illative plural"
 !! __@RULENAME@__ 
  e:0 <=> Cns Vowel (Vowel) Cns:+ _ [(%^WG:)             %>: [i3:|i4:] | %^EDEL:0 %>: [t|h] ] ;
-        :Vowel :SurfaceCns Cns:* _  (%^WG:0) %>: i2: ;              ! left context bec of tie>i2 : t0e0i
-                           _   %^E2I:0 %^HMETA:0 h i i ;
-                       t:s _  (%^E2I:0) %>: i2: ;
+        :Vowel :SurfaceCns Cns:* _  (%^WG:0)  %>: i2: ;              ! left context bec of tie>i2 : t0e0i
+                              :s _  (%^E2I:0) %>: i2: ;
+                                 _   %^E2I:0 %^HMETA:0 h i i ;
                             
                        
 !€ aukaise>i3
@@ -582,8 +582,10 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! !a before i
 
 "a:0 before Pret and Pl i when rounded root vowel"
-a:0 <=> (\a) [ u|([u|o]) o] (:i|i6:) Cns:+ _     [(%^WG:0) %>:  [i2:|i3:] | a:0 ] ;
+a:0 <=> (\a) [ u|([u|o]) o] (:i|i6:) Cns:+ _ (%^AO:0)    [(%^WG:0) %>:  [i2:|i3:] | a:0 ] ;
    [ #: | .#. ] (Cns:*) Vowel: Cns: (Cns:) [:a|:e] [:v|:m] _ %>: (%^WG:0) i2: (i) ;
+
+! TODO: a:0 ...  (%^AO:0) ... gives unresolved conflict between a:o and a:0, fix this.
 
 !€ otta^WG>i2n
 !€ o0t00>in 
