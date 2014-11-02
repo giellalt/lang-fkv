@@ -141,46 +141,6 @@ LEXICON a_43odd !!= * @CODE@ onneton
 !! !!! Basic paradigms
 !  ===================
 
-!! !!Basic vowel stems
-!  --------------------
-
-LEXICON a_strong_v_stem  !!= * @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
- nom_strong ;
- obl_strong_even ;
-
-LEXICON a_weak_v_stem !!= * @CODE@ 
- +Sg+Gen:%>n K ;
- +Sg+Gen:%>n R ;
- +Pl+Nom:%>t K ;
-! +Pl+Ins:%>i2%>n K ;   ! Marginal case, in use only for some words.
-                        ! Todo: identify these, and remove Ins from the
-                        ! general weak_v_stem lexicon.
-
-!! !Sublexica for the vowel stems
-!  - - - - - - - - - - - - - - - 
-
-LEXICON a_nom_strong
-  +Sg+Nom: K ; 
-  +Sg+Nom: R ; 
-  short_par ;
-
-LEXICON a_obl_strong 
-! +Sg:%>i2 com ;
- +Pl:%>i2 com ;
- +Sg+Ess:%>n%^A PxxK ;
- +Pl+Ess:%>i2%>n%^A PxxK ;
- 
-LEXICON a_sgpl_cases_even ! kaikille paitsi neljän koplalle
- +Ade:%>l%^A PxxK ; !! * Lyhyt perusmuoto vuođela
- +All:%>le PxxK ; !! * Lyhyt perusmuoto
- +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
- sgpl_cases_common ;
-
-LEXICON a_sgpl_cases_odd ! neljän koplalle
- +Ade:%>ll%^A PxxK ; !! * Pitkä perusmuoto
- +All:%>lle PxxK ; !! * Pitkä perusmuoto
- +Ess:%>n%^A PxxK ; !! * Huom... essiivi ja heikko aste
- sgpl_cases_common ;
 
 LEXICON a_sgpl_cases_common
  +Abl:%>lt%^A PxxK ;
@@ -190,108 +150,21 @@ LEXICON a_sgpl_cases_common
  +Tra:%>kse Pxx ;
  +Abe:%>tt%^A PxxK ;
 
-LEXICON a_com 
-!! Komitatiivilla on vain -ine ja menee Pxx:iin
- +Com:%>ne Pxx ; ! Not to K, since Px must be present
-                 ! Note that adjectives have -ine without Px
-
 
 !! !Lexica for the non-uniform cases
 ! --------------------------------
 
-LEXICON a_short_par
-+Sg+Par:%>%^V PxxK ;
- 
-
-LEXICON a_long_par
- long_par_sg ;
- long_par_pl ;
-
-LEXICON a_long_par_sg
- +Sg+Par:%>t%^A PxxK ;
-
-LEXICON a_long_par_pl
-  +Pl+Par:%>i2%>t%^A PxxK ;
   
 LEXICON shortest-illativ_sg  !jos h ei siirry
  +Sg+Ill:%>%^V n_PxK ;
- 
-LEXICON a_1TAVU_VV-ill  !short maahan
- +Sg+Ill:%>h%^V n_PxK ;
- 
-LEXICON a_2TAVU_V_ill_sg !long
-+Sg+Ill:%>%^HMETAh%^V%^V n_PxK ;
-
-! sykshyyn, linnhaan
-!! linna pl.ill. kaksi muotoa po. linnhoin
-
-LEXICON a_2TAVU_edel-ill !suomhiin
-+Sg+Ill:%>%^HMETAh%^V%^V n_PxK ;
-+Pl+Ill:%^EDEL%>hii n_PxK ;
-
-
-LEXICON a_mTAVU_VV-ill !longer kuninkhaa/sseen
-!+Sg+Ill:%>ss%^V%^V n_PxK ;
-+Sg+Ill:%>ssee n_PxK ; !koska tämä pääte aina sseen
-
-LEXICON a_oldgenpl
- +Gen:%> n_PxK ;
 
 LEXICON a_shortestgenpl !! * @CODE@ zero, because ii > i
  +Gen: n_PxK ;
-
-LEXICON a_shortgenpl
- +Gen:%>%^V n_PxK ;
-
-LEXICON a_longgenpl
- d_longgenpl ; ! oletaan, että -tten vaan
- tt_longgenpl ; 
-
-LEXICON a_d_longgenpl
- +Gen:%>de n_PxK ;
-
-LEXICON a_tt_longgenpl
- +Gen:%>tte n_PxK ;
-
-LEXICON a_consgenpl
- +Gen:%>te n_PxK ;
-
-LEXICON a_shortestparpl !! * @CODE@ zero, because ii > i
- +Par: PxxK ;
-
-LEXICON a_shortparpl
- +Par:%>%^V PxxK ;
-
-LEXICON a_longparpl
- +Par:%>t%^A PxxK ;
-
-LEXICON a_shortestillpl
- +Ill:%> n_PxK ;
-
-LEXICON a_shortillpl
- +Ill:%>hi n_PxK ;
-
-LEXICON a_h_shortillpl
- +Ill:%^EDEL%>hii n_PxK ;
 
 
 LEXICON a_shorterillpl
  +Ill:%>i2 n_PxK ;		
 
-LEXICON a_longillpl
-+Ill: n_PxK ;  ! En tiedä, toimiiko tämä
-
-LEXICON a_longerillpl
-  +Pl+Ill:%>s%^V%^V n_PxK ;
-  
-
-LEXICON a_loput
- obl_strong_even ; ! muut vahvat
- weak_v_stem ;
- +Sg: sgpl_cases_odd ;      !! these two lexica for cases with
- +Pl:%>i2 sgpl_cases_odd ;  !! the same affix in sg and pl -- tsekkaa long
- +Pl:%>i2 shortgenpl ;
- +Pl:%>i2 shortparpl ;
 
 LEXICON a_loputon
  obl_strong_even ; ! muut vahvat
@@ -310,16 +183,6 @@ LEXICON a_loputonodd
 LEXICON a_loputonoddpl
 +Pl:%>i2 sgpl_cases_even ;  !! the same affix in sg and pl -- tsekkaa long
 +Pl:%>i2 shortgenpl ;
-
-
-LEXICON a_sConsCase
- +Sg+Nom:%^WG%>s K ;
- +Sg+Par:%^WG%>st%^A K ; ! Par
- +Pl+Gen:%^WG%>sten K ; ! Gen
-
-LEXICON a_tConsCase
- +Sg+Nom:%^WG%>t K ;
- +Sg+Par:%^WG%>tt%^A K ;
 
 LEXICON a_ton
  +Sg+Nom:%>t%^On K ;
