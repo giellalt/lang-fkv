@@ -17,6 +17,7 @@ Tests:
 
 
 
+
   Noun - aika - ok : # Noun 'tid' - ok
      aika+N+Sg+Nom: aika
      aika+N+Sg+Gen: aijan
@@ -623,7 +624,7 @@ Tests:
   Noun - kurkkio: # Noun 'borg' - ei tsekattu
      kurkkio+N+Sg+Nom: kurkkio
      kurkkio+N+Sg+Gen: kurkkion
-     kurkkio+N+Sg+Par: kurkkiota
+     kurkkio+N+Sg+Par: kurkkioo
      kurkkio+N+Sg+Tra: kurkkioksi
      kurkkio+N+Sg+Abe: kurkkiotta
      kurkkio+N+Sg+Ine: kurkkiossa
@@ -737,7 +738,7 @@ Tests:
 
 
 
-  Noun - maa - ok : # Noun 'borg' - ok
+  Noun - maa - ok : # Noun 'land' - ok
      maa+N+Sg+Nom: maa
      maa+N+Sg+Gen: maan
      maa+N+Sg+Par: maata
@@ -999,7 +1000,7 @@ Tests:
 
 
 
-  Noun - rakas - ei tsekattu : # Noun 'kjære' - ei tsekattu
+  Noun - rakas - ei tsekattu : # Noun 'kjære' n_33as rakk - ei tsekattu
      rakas+N+Sg+Nom: rakas
      rakas+N+Sg+Gen: rakkhaan
      rakas+N+Sg+Par: rakasta
@@ -1028,7 +1029,7 @@ Tests:
 
 
 
-  Noun - ruvis - ei tsekattu : # Noun 'borg' - ei tsekattu
+  Noun - ruvis - ei tsekattu : # Noun 'rug' n_33is ruk - ei tsekattu
      ruvis+N+Sg+Nom: ruvis
      ruvis+N+Sg+Gen: rukhiin
      ruvis+N+Sg+Par: ruvista
@@ -1057,7 +1058,7 @@ Tests:
 
 
 
-  Noun - maa - ei tsekattu : # Noun 'sykdom' - ei tsekattu
+  Noun - sairhaus - ei tsekattu : # Noun 'sykdom' n_32s sairhau - ei tsekattu
      sairhaus+N+Sg+Nom: sairhaus
      sairhaus+N+Sg+Gen: sairhauđen
      sairhaus+N+Sg+Par: sairhautta
@@ -1086,7 +1087,7 @@ Tests:
 
 
 
-  Noun - sieni - ei tsekattu : # Noun 'år' - ei tsekattu
+  Noun - sieni - ei tsekattu : # Noun 'år' n_31 - ei tsekattu
      sieni+N+Sg+Nom: sieni
      sieni+N+Sg+Gen: sienen
      sieni+N+Sg+Par: sientä
@@ -1115,7 +1116,7 @@ Tests:
 
 
 
-  Noun - sivakka: # Noun 'borg' - ei tsekattu
+  Noun - sivakka: # Noun 'borg' - n_22oi ei tsekattu
      sivakka+N+Sg+Nom: sivakka
      sivakka+N+Sg+Gen: sivakan
      sivakka+N+Sg+Par: sivakkaa
@@ -1144,7 +1145,7 @@ Tests:
 
 
 
-  Noun - suomi - ok : # Noun 'borg' - ei tsekattu
+  Noun - suomi - ok : # Noun 'Finland' n_21ie - ei tsekattu
      suomi+N+Sg+Nom: suomi
      suomi+N+Sg+Gen: suomen
      suomi+N+Sg+Par: suomee
@@ -1173,7 +1174,7 @@ Tests:
 
 
 
-  Noun - syksy - ei tsekattu : # Noun 'høst' - ei tsekattu
+  Noun - syksy - ei tsekattu : # Noun 'høst' n_21 - ei tsekattu
      syksy+N+Sg+Nom: syksy
      syksy+N+Sg+Gen: syksyn
      syksy+N+Sg+Par: syksyy
@@ -1203,7 +1204,7 @@ Tests:
 
 
 
-  Noun - taival - ok : # Noun 'walk' -
+  Noun - taival - ok : # Noun 'walk' - n_32
      taival+N+Sg+Nom: taival
      taival+N+Sg+Gen: taipalen
      taival+N+Sg+Par: taivalta
@@ -1232,7 +1233,7 @@ Tests:
 
 
 
-  Noun - tervheiset - ok : # Noun 'tid' - ei tsekattu
+  Noun - tervheiset - ok : # Noun 'tid' n_42pl - ei tsekattu
      tervheiset+N+Pl+Nom: tervheiset
      tervheiset+N+Pl+Gen: tervheisten
      tervheiset+N+Pl+Par: tervheisii
@@ -1249,7 +1250,7 @@ Tests:
 
 
 
-  Noun - tie - ei tsekattu : # Noun 'vei' - ei tsekattu
+  Noun - tie - ei tsekattu : # Noun 'vei' n_1  - ei tsekattu
      tie+N+Sg+Nom: tie
      tie+N+Sg+Gen: tien
      tie+N+Sg+Par: tietä
@@ -1269,7 +1270,7 @@ Tests:
      tie+N+Pl+Abe: teittä
      tie+N+Pl+Ine: teissä
      tie+N+Pl+Ela: teistä
-     tie+N+Pl+Ill: teihiin
+     tie+N+Pl+Ill: teihin
      tie+N+Pl+Ade: teilä
      tie+N+Pl+Abl: teiltä
      tie+N+Pl+All: teile
@@ -1278,7 +1279,7 @@ Tests:
 
 
 
-  Noun - tooli - ei tsekattu : # Noun 'borg' - ei tsekattu
+  Noun - tooli - ei tsekattu : # Noun 'stol' n_21 - ei tsekattu
      tooli+N+Sg+Nom: tooli
      tooli+N+Sg+Gen: toolin
      tooli+N+Sg+Par: toolii
@@ -1293,7 +1294,6 @@ Tests:
      tooli+N+Sg+Ess: toolina
      tooli+N+Pl+Nom: toolit
      tooli+N+Pl+Gen: tooliin
-     tooli+N+Pl+Gen: toolitten
      tooli+N+Pl+Par: toolii
      tooli+N+Pl+Tra: tooliiksi
      tooli+N+Pl+Abe: tooliitta
@@ -1308,7 +1308,7 @@ Tests:
 
 
 
-  Noun - tunturi: # Noun 'borg' - ei tsekattu
+  Noun - tunturi: # Noun 'fjell' - n_22odd ei tsekattu
      tunturi+N+Sg+Nom: tunturi
      tunturi+N+Sg+Gen: tunturin
      tunturi+N+Sg+Par: tunturii
@@ -1337,7 +1337,7 @@ Tests:
 
 
 
-  Noun - tuorestai - ei tsekattu : # Noun 'torsdag' - ei tsekattu
+  Noun - tuorestai - ei tsekattu : # Noun 'torsdag' n_1 - ei tsekattu
      tuorestai+N+Sg+Nom: tuorestai
      tuorestai+N+Sg+Gen: tuorestain
      tuorestai+N+Sg+Par: tuorestaita
@@ -1366,7 +1366,7 @@ Tests:
 
 
 
-  Noun - työ - ei tsekattu : # Noun 'arbeid' - ei tsekattu
+  Noun - työ - ei tsekattu : # Noun 'arbeid' - n_1 ei tsekattu
      työ+N+Sg+Nom: työ
      työ+N+Sg+Gen: työn
      työ+N+Sg+Par: työtä
@@ -1395,7 +1395,7 @@ Tests:
 
 
 
-  Noun - tytär - ok : # Noun 'daughter' - ok
+  Noun - tytär - ok : # Noun 'daughter' - n_32 tyttär ok
      tytär+N+Sg+Nom: tytär
      tytär+N+Sg+Gen: tyttären
      tytär+N+Sg+Par: tytärtä
@@ -1424,7 +1424,7 @@ Tests:
 
 
 
-  Noun - valkkee ok: # Noun 'bål'
+  Noun - valkkee ok: # Noun 'bål' n_23 valkke
      valkkee+N+Sg+Nom: valkkee
      valkkee+N+Sg+Gen: valkkeen
      valkkee+N+Sg+Par: valkkeeta
@@ -1453,7 +1453,7 @@ Tests:
 
 
 
-  Noun - veljekset - ei tsekattu : # Noun 'brødre' - ei tsekattu
+  Noun - veljekset - ei tsekattu : # Noun 'brødre' - n_41pl ei tsekattu
      veljekset+N+Pl+Nom: veljekset
      veljekset+N+Pl+Gen: veljesten
      veljekset+N+Pl+Par: veljeksii
@@ -1470,7 +1470,7 @@ Tests:
 
 
 
-  Noun - venet - ok : # Noun 'borg' - ok
+  Noun - venet - ok : # Noun 'båt' n_33t - ok
      venet+N+Sg+Nom: venet
      venet+N+Sg+Gen: venheen
      venet+N+Sg+Par: venettä
@@ -1499,7 +1499,7 @@ Tests:
 
 
 
-  Noun - veres - ok : # Noun 'fresh"
+  Noun - veres - ok : # Noun 'fresh' n_41
      veres+N+Sg+Nom: veres
      veres+N+Sg+Gen: vereksen
      veres+N+Sg+Par: verestä
@@ -1528,7 +1528,7 @@ Tests:
 
 
 
-  Noun - vuosi - ok : # Noun 'år' - ok
+  Noun - vuosi - ok : # Noun 'år' n_31si - ok
      vuosi+N+Sg+Nom: vuosi
      vuosi+N+Sg+Gen: vuođen
      vuosi+N+Sg+Par: vuotta
@@ -1557,7 +1557,7 @@ Tests:
 
 
 
-  Noun - yđin - ok : # Noun 'kernel' - ei tsekattu
+  Noun - yđin - ok : # Noun 'kernel'  n_32m
      yđin+N+Sg+Nom: yđin
      yđin+N+Sg+Gen: ytimen
      yđin+N+Sg+Par: yđintä
