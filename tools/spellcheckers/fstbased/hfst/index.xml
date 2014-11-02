@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
-    <locale>fkv</locale>
+  <!-- fkv disguised as csb (Kashubian) while waiting for  fkv being added to
+       Libreoffice -->
+    <locale>csb</locale> 
     <title>Giellatekno/Divvun/UiT fst-based speller for Kven Finnish</title>
     <description>This is an fst-based speller for Kven Finnish. It is based
     on the normative subset of the morphological analyser for Kven Finnish.
