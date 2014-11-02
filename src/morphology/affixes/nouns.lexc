@@ -234,7 +234,7 @@ LEXICON n_23ii	!!= * @CODE@  assii
 +N: weak_v_stem ;
 +N+Sg:%^WG sgpl_cases_even ;   !! * @CODE@  for same affix in sg and pl
 +N+Pl:%^WG sgpl_cases_even ;  !! * @CODE@  for same affix in sg and pl
-+N:e ess_even ;
++N: ess_even_ii ;
 +N+Pl+Com:%>ne K ;
 
 
@@ -699,15 +699,21 @@ LEXICON nomgen_px
  +Sg+Gen: Px ;   ! mattoni
  +Pl+Nom: Px ;   ! mattoni
 
-LEXICON ess_even
+LEXICON ess_even 
 ess_even_sg ;
 ess_even_pl ;
+
 
 LEXICON ess_even_sg 
  +Sg+Ess:%>n%^A PxxK ;
 
 LEXICON ess_even_pl 
  +Pl+Ess:%>i2%>n%^A PxxK ;
+
+LEXICON ess_even_ii
++Sg+Ess:%>n%^A PxxK ;
++Pl+Ess:%>n%^A PxxK ;
+
  
 LEXICON ess_odd
  ess_odd_sg ;
