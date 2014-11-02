@@ -525,11 +525,12 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! __@RULENAME@__ 
  Vx:0 <=> :SurfaceCns _ ([%^AO:|%^E2I:]) %>: %^HMETA:0 h [ :Vx | i: ] ; 
           :SurfaceCns _  %^AO:           %>: %^HMETA:0 h (%^V:) (:o) %>: i2: ;
+          :i         _  (%^AO:)           %>: %^HMETA:0 h (%^V:) (%>:) (:o)(:o) (i2:) ;
     where Vx in ( a e i o u y ä ö ) ;
            
 !€ syksy>^HMETAh^V^Vn
 !€ syks0>0hyyn
-
+!
 
 !! !!Stem alternation rules
 !  ========================
