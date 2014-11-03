@@ -113,11 +113,11 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 
 +A: a_ton ;
 +A:%>tt%^Omh%^A shortest-illativ_sg ;
-+A:%>tt%^Om%^A a_sgpl_cases_common ;
++A:%>tt%^Om%^A sgpl_cases_common ;
 +A+Pl+Ill:%>tt%^Omh%>i2in K ;
-+A:%>tt%^Omm%^A%>i2 a_shortestgenpl ; ! naisien
-+A:%>tt%^Omi%> a_long_par_pl;
-+A:%>tt%^Omh%>i2 a_shorterillpl ;
++A:%>tt%^Omm%^A%>i2 shortestgenpl ; ! naisien
++A:%>tt%^Omi%> long_par_pl;
++A:%>tt%^Omh%>i2 shorterillpl ;
 +A:%>tt%^Om%^A a_loputon ; 
 +A:%>tt%^Om a_loputonpl ;
 +A+Pl+Com:%>tt%^Om%>i2ne K ;
@@ -126,11 +126,11 @@ LEXICON a_43odd !!= * @CODE@ onneton
  
 +A: a_ton ;
 +A:%>tt%^Omh%^A shortest-illativ_sg ;
-+A:%>tt%^Om%^A a_sgpl_cases_common ;
++A:%>tt%^Om%^A sgpl_cases_common ;
 +A+Pl+Ill:%>tt%^Omh%>i2in K ;
-+A:%>tt%^Omm%^A%>i2 a_shortestgenpl ; ! naisien
-+A:%>tt%^Ommi%> a_long_par_pl;
-+A:%>tt%^Omh%>i2 a_shorterillpl ;
++A:%>tt%^Omm%^A%>i2 shortestgenpl ; ! naisien
++A:%>tt%^Ommi%> long_par_pl;
++A:%>tt%^Omh%>i2 shorterillpl ;
 +A+Pl+Com:%>tt%^Om%>i2ne K ;
 +A:%>tt%^Om%^A a_loputonodd ;
 +A:%>tt%^Om a_loputonoddpl ;
