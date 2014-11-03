@@ -367,7 +367,7 @@ k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !
 !k:0 <=>               h _ Vowel        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
 k:0 <=>                h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
                        a _ a            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata
-            [i u| a u |y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukee - laueta
+            [i u| a u |y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukee - laueta,liuota-liukee
       NotOUIF: [ l | r ] _ NotEYUF:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
          [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0 ; ! ikene- - ien
       NotOUIB: [ l | r ] _ NotEYUB:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! märkä - märät
@@ -554,7 +554,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "e:0 in consonant stems and illative plural"
 !! __@RULENAME@__ 
- e:0 <=> (Cns) Vowel (Vowel) Cns:+ _ [(%^WG:)             %>: [i3:|i4:] | %^EDEL:0 %>: [t|h] ] ;
+ e:0 <=> (Cns) Vowel (Vowel) Cns:+ _ ([%^AO: |%^AE:|%^VDEL:]) [(%^WG:)  %>: [i3:|i4:] | %^EDEL:0 %>: [t|h] ] ;
         :Vowel :SurfaceCns Cns:* _  (%^WG:0)  %>: i2: ;              ! left context bec of tie>i2 : t0e0i
                               :s _  (%^E2I:0) %>: i2: ;
                                  _   %^E2I:0 %^HMETA:0 h i i ;
