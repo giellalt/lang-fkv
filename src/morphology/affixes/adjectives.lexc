@@ -138,11 +138,12 @@ LEXICON a_43odd !!= * @CODE@ onneton
 
 
 
-!! !!! Basic paradigms
+!! !!!Basic paradigms
 !  ===================
 
+!! Most cases are directed to affixes/nouns.lexc
 
-LEXICON a_sgpl_cases_common
+LEXICON a_sgpl_cases_common  !!= * @CODE@ 
  +Abl:%>lt%^A PxxK ;
  +Ine:%>ss%^A PxxK ;
  +Ela:%>st%^A PxxK ;
@@ -151,8 +152,8 @@ LEXICON a_sgpl_cases_common
  +Abe:%>tt%^A PxxK ;
 
 
-!! !Lexica for the non-uniform cases
-! --------------------------------
+!! !!Lexica for the non-uniform cases
+!    ---------------------------------
 
   
 LEXICON shortest-illativ_sg  !jos h ei siirry
@@ -169,19 +170,19 @@ LEXICON a_shorterillpl
 LEXICON a_loputon
  obl_strong_even ; ! muut vahvat
  weak_v_stem ;
- +Sg: sgpl_cases_odd ;      !! these two lexica for cases with
+ +Sg: sgpl_cases_odd ;      ! these two lexica for cases with
 
 LEXICON a_loputonpl 
- +Pl:%>i2 sgpl_cases_odd ;  !! the same affix in sg and pl -- tsekkaa long
+ +Pl:%>i2 sgpl_cases_odd ;  ! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 shortgenpl ;
 
 LEXICON a_loputonodd
  obl_strong_odd ; ! muut vahvat
  weak_v_stem ;
-+Sg:sgpl_cases_even ;      !! these two lexica for cases with
++Sg:sgpl_cases_even ;      ! these two lexica for cases with
 
 LEXICON a_loputonoddpl
-+Pl:%>i2 sgpl_cases_even ;  !! the same affix in sg and pl -- tsekkaa long
++Pl:%>i2 sgpl_cases_even ;  ! the same affix in sg and pl -- tsekkaa long
 +Pl:%>i2 shortgenpl ;
 
 LEXICON a_ton
