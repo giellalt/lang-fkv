@@ -27,6 +27,19 @@ LEXICON a_22	!!= * @CODE@  liberaali
 LEXICON a_22odd	!!= * @CODE@  simppeli
 +A: x_22odd ;
 
++A+Sg+Comp+Nom:%>mpi K ;
++A+Sg+Comp+Gen:%>mm%^An K ;
++A+Sg+Comp+Ill:%>mph%^A%^An K ;
++A+Sg+Comp+Par:%>mp%^A%^A K  ; 
++A+Sg+Comp+Ess:%>p%^An%^A    K ;
++A+Sg+Comp+Tra:%>mm%^Aksi   K ;
++A+Sg+Comp+Ine:%>mm%^Ass%^A    K ;
++A+Sg+Comp+Ela:%>mm%^Ast%^A    K ;
++A+Sg+Comp+All:%>mm%^Alle    K ;
++A+Sg+Comp+Ade:%>mm%^All%^A    K ;
++A+Sg+Comp+Abl:%>mm%^Alt%^A    K ;
++A+Sg+Comp+Abe:%>mm%^Att%^A    K ;
+
 LEXICON a_23	!!= * @CODE@  pimmee
 +A: x_23 ;
 
