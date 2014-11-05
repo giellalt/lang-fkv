@@ -17,46 +17,42 @@ LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc.
 +A: x_21 ;
 !+A: a_strong_v_stem ;
 !+A:%^WG a_weak_v_stem ;
+:%^AE%^WG comp ;
 
 LEXICON a_21ie  !!= * @CODE@ corresponds to a_21ie etc.
 +A: x_21ie ;
+:comp ;
 
 LEXICON a_22	!!= * @CODE@  liberaali
 +A: x_22 ;
+:comp ;
 
 LEXICON a_22odd	!!= * @CODE@  simppeli
 +A: x_22odd ;
-
-+A+Sg+Comp+Nom:%>mpi K ;
-+A+Sg+Comp+Gen:%>mm%^An K ;
-+A+Sg+Comp+Ill:%>mph%^A%^An K ;
-+A+Sg+Comp+Par:%>mp%^A%^A K  ; 
-+A+Sg+Comp+Ess:%>p%^An%^A    K ;
-+A+Sg+Comp+Tra:%>mm%^Aksi   K ;
-+A+Sg+Comp+Ine:%>mm%^Ass%^A    K ;
-+A+Sg+Comp+Ela:%>mm%^Ast%^A    K ;
-+A+Sg+Comp+All:%>mm%^Alle    K ;
-+A+Sg+Comp+Ade:%>mm%^All%^A    K ;
-+A+Sg+Comp+Abl:%>mm%^Alt%^A    K ;
-+A+Sg+Comp+Abe:%>mm%^Att%^A    K ;
+: comp ;
 
 LEXICON a_23	!!= * @CODE@  pimmee
 +A: x_23 ;
+:comp ;
 
 LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31 ;
+:comp ;
 
 LEXICON a_31si	!!= * @CODE@ uusi
 +A: x_31si ;
+:%^WG comp ;
 
 LEXICON a_32 !!= * @CODE@ tyven
 +A: x_32 ;
+:e comp ;
 
 LEXICON a_32m !!= * @CODE@ vasen sg taipuu kuitenki -ma
 +A: x_32m ;
 
 LEXICON a_33as !!= * @CODE@ rakas
 +A: x_33as ;
+:aa comp ;
 ! comp, superl, puuttuvat
 
 LEXICON a_33aes !!= * @CODE@ rakas
@@ -75,11 +71,12 @@ LEXICON a_33ys !!= * @CODE@ rakas
  
 LEXICON a_33t !!= * @CODE@ tuoret
 +A: x_33t ;
+:hee comp ;
 ! comp, superl, puuttuvat
 
 LEXICON a_41 !!= * @CODE@ = veres
 +A: x_41 ;
-
+:kse comp ;
 
 
 LEXICON a_41_s_kse
@@ -204,5 +201,18 @@ LEXICON a_ton
 ! +Sg+Ill:tt%^Omh%^A%^An K ;
 ! +Pl+Gen:tt%^Omm%>i2in K ;
 
+LEXICON comp
++A+Sg+Comp+Nom:%>mpi K ;
++A+Sg+Comp+Gen:%>mm%^An K ;
++A+Sg+Comp+Ill:%>mph%^A%^An K ;
++A+Sg+Comp+Par:%>mp%^A%^A K  ; 
++A+Sg+Comp+Ess:%>p%^An%^A    K ;
++A+Sg+Comp+Tra:%>mm%^Aksi   K ;
++A+Sg+Comp+Ine:%>mm%^Ass%^A    K ;
++A+Sg+Comp+Ela:%>mm%^Ast%^A    K ;
++A+Sg+Comp+All:%>mm%^Alle    K ;
++A+Sg+Comp+Ade:%>mm%^All%^A    K ;
++A+Sg+Comp+Abl:%>mm%^Alt%^A    K ;
++A+Sg+Comp+Abe:%>mm%^Att%^A    K ;
 
  
