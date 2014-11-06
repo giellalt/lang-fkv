@@ -370,7 +370,8 @@ k:0 <=>                h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka 
             [i u| a u |y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukee - laueta,liuota-liukee
       NotOUIF: [ l | r ] _ NotEYUF:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
          [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0 ; ! ikene- - ien
-      NotOUIB: [ l | r ] _ NotEYUB:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! märkä - märät
+      NotOUIB: [ l | r ] _ NotEYUB: (Dummy:) (:i) (Dummy:) %^WG:0 ; ! märkä - märät  
+            e  [ l | r ] _ i (%>:)  %^WG:0 (%>:)      ; ! keritä - kerkkii
 !  Vowel [Vowel - [e|i]] _ Vowel        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kaiku - kaiun?
 !   [ NotOUIF: | l | r ] _ NotEYUF:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
 !   [ NotOUIB: | l | r ] _ NotEYUB:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! märkä - märät
