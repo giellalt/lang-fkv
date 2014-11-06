@@ -14,8 +14,9 @@
 !! *** 2.1.1. Kaksitavuiset monikko (housut)     = n_21pl
 !! *** 2.1.2. Kaksitavuiset (joki: joke)         = n_21ie
 !! ** 2.2. Usseempitav. (opettaaja)		      	 = n_22
-!! *** 2.2.1. Usseempitav. odd (meininki, tunturi)	= n_22odd
-!! *** 2.2.2. Usseempitav. monikko oi (kulkkiija)	= n_22oi
+!! *** 2.2.1. Usseempitav. odd (kajava)	          = n_22odd
+!! *** 2.2.2. Usseempitav. odd (meininki, tunturi)	= n_22oddi
+!! *** 2.2.3. Usseempitav. monikko oi (kulkkiija)	= n_22oi
 !! ** 2.3 Kokkoontumanom. ( valkkee)    		 = n_23
 !! ** 2.3.1 Kokkoontumanom. (assii)             = n_23ii
 !! * 3. Konsonanttirankaiset					  
@@ -159,10 +160,30 @@ LEXICON x_22
 +Pl+Ill:%>%^HMETAhi%>i2 n_PxK ;
 +Pl+Com:%>i2ne K ;
 
-LEXICON n_22odd	!!= * @CODE@  meininki
+LEXICON n_22odd !!= * @CODE@  kajava
 +N: x_22odd ;
 
-LEXICON x_22odd	!!= * @CODE@  meininki
+LEXICON x_22odd !!= * @CODE@  kajava
+                 nom_strong ;
+                 short_par ;
+                 nomgen_px ;
+       :%^WG     weak_v_stem ;
+    +Sg:%^WG     sgpl_cases_odd ;      
+    +Pl:%^WG%>i2 sgpl_cases_odd ; 
+                 2TAVU_V_ill_sg ;
+                 ess_odd_sg ;
+                 ess_odd_pl ;
++Pl+Tra:%>i2%>ksi   PxxK ; 
+    +Pl:%^WG%>i2 tt_longgenpl ;
+        :i        long_par_pl ;
++Pl+Ill:%>%^HMETAhi%>i2 n_PxK ;
++Pl+Com:%>i2%>ne   K;
+
+
+LEXICON n_22oddi !!= * @CODE@  meininki
++N: x_22oddi ;
+
+LEXICON x_22oddi !!= * @CODE@  meininki
                  nom_strong ;
                  short_par ;
                  nomgen_px ;
