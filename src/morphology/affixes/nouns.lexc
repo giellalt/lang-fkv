@@ -171,13 +171,16 @@ LEXICON x_22odd !!= * @CODE@  kajava
     +Sg:%^WG     sgpl_cases_odd ;      
     +Pl:%^WG%>i2 sgpl_cases_odd ; 
                  2TAVU_V_ill_sg ;
-                 ess_odd_sg ;
-                 ess_odd_pl ;
+                 ess_odd    ;
+                 !ess_odd_sg ;
+                 !ess_odd_pl ;
 !+Pl+Tra:%>i2%>ksi   PxxK ; 
     +Pl:%^WG%>i2 tt_longgenpl ;
       :i        long_par_pl ;
 +Pl+Ill:%>%^HMETAhi%>i2 n_PxK ;
 +Pl+Com:%>i2%>ne   K;
+        
+
 
 
 LEXICON n_22oddi !!= * @CODE@  meininki
