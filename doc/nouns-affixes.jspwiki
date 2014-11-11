@@ -12,8 +12,9 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 *** 2.1.1. Kaksitavuiset monikko (housut)     = n_21pl
 *** 2.1.2. Kaksitavuiset (joki: joke)         = n_21ie
 ** 2.2. Usseempitav. (opettaaja)		      	 = n_22
-*** 2.2.1. Usseempitav. odd (meininki, tunturi)	= n_22odd
-*** 2.2.2. Usseempitav. monikko oi (kulkkiija)	= n_22oi
+*** 2.2.1. Usseempitav. odd (kajava)	          = n_22odd
+*** 2.2.2. Usseempitav. odd (meininki, tunturi)	= n_22oddi
+*** 2.2.3. Usseempitav. monikko oi (kulkkiija)	= n_22oi
 ** 2.3 Kokkoontumanom. ( valkkee)    		 = n_23
 ** 2.3.1 Kokkoontumanom. (assii)             = n_23ii
 * 3. Konsonanttirankaiset					  
@@ -79,9 +80,16 @@ the same affix in sg and pl
 
 the same affix in sg and pl
 
- * LEXICON n_22odd	  meininki
+ * LEXICON n_22odd   kajava
 
- * LEXICON x_22odd	  meininki
+ * LEXICON x_22odd   kajava
+
+
+
+
+ * LEXICON n_22oddi   meininki
+
+ * LEXICON x_22oddi   meininki
 
 
 
