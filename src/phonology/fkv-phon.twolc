@@ -475,6 +475,13 @@ j:0 <=> l _ e: %^E2I:0 ;
 !€ maa>h^Vn
 !€ maa>han
 
+"Vowel copying in partitive of words ending in io, ia"
+!! __@RULENAME@__
+ %^V:Vx <=> :Cns i Vx %>: _ ;
+            where Vx in ( a o ä ö ) ;
+
+
+
 "Vowel copying in long h sg forms 1"
 !! __@RULENAME@__ 
  %^V:Vy <=>  Vx: %>: %^HMETA: h _ %^V:  ; 
