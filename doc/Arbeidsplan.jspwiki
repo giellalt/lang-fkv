@@ -5,27 +5,20 @@
 
 !!Ordbok og fst
 
-# Alle orda i ordboka må inn i fst \\ 
-  (for å kunne sjekke tekstar for nye ord)
-## dei blir først lagt inn som {{n_x, v_x}}, ...
-## og deretter klassifisert
+# Vi må jamnleg sjekke med ordboka om alle orda er i fst-en \\ 
 # Nye kvenske tekstar må bli analysert
 ## ord som manglar i fst må inn i fst
-## ord som manglar i ordboka må inn i ordboka
-# Den norske delen av fkvnob må bli korrekturlese
-## Først: Nye fkv-ord inn, og korrekturlesing av omsetjingane
-## Deretter: Snu fkvnob til nobfkv
-# Etterpå startar arbeidet med nobfkv
+## evt: ord som manglar i ordboka må inn i ordboka
+# nobfkv
 ## Sjekke nob-lemmalista mot nob-frekvenslister
 ## Legge til nob-ord
+## jf. Kvensk institutt sin wiki, som har slike lister
 # fkvnob må bli betre
-## dei kvenske orda må bli korrekturlese
 ## det må bli lagt til eksempel
 
 !!fst
 
 # Unifisere adjektiv- og substantivmorfologi 
-## n_21 og a_21 skal peike til x_21, osb.
 ## opprydding i leksikona
 # Peike frå verbpartisipp til adjektivbøying
 # Sjekke om alle paradigma er store nok

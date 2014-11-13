@@ -13,10 +13,9 @@ Tässä mennään yksityiskohtiin
    Tiedostojen lopussa on adv_x, a_x, n_x, v_x.
    Ne pitää luokitella oikein.
 # testata lemmat ''make check'' avulla ja korjaa
-# poista kaksoiskappaleet (117 N, 96 V, 85 A)
 # lisätä sanat fkv/test/data/inc_aikamatka2.txt fst:hen
 # lisätä sanat fkv/test/data/inc_missing_interj
-# käydä tekstejä läpi ja lisätä puuttuvia sanoja
+# käydä tekstejä läpi ja lisätä puuttuvia sanoja fst:hen
 # miettiä, oliko fkv/morphology/stems/numerals.lexc hyvä idea
  
 Lisätä fst-hen:
@@ -51,7 +50,7 @@ Sen jälkeen katsella, ja lisätä miihin sopi
 
 !!!Ihmiset, työt
 
-# twolc, lexc-morfologia: __Leena, Kaisa__ 
+# twolc, lexc-morfologia: __Leena, Anna-Kaisa, Mari__ 
 # lexc-leksikko (n_x, jne.): __Mervi n_x__ __Anna-Kaisa muut leksikot__
 # fkvnob-sanakirja, esimerkit: __Pirjo__
 # fkvnob-sanakirja, fkv-oikoluku: __Pirjo__ (tehty?)
@@ -64,8 +63,8 @@ Sen jälkeen katsella, ja lisätä miihin sopi
 ### kääntäminen: __Pirjo, muut__
 # Tekstit
 ## T-tekstien kerääminen: __KI__
-## P-tekstien lisääminen korpukseen: __Mervi, Børre, Pirjo...__
-## Aikamatka-tekstien lisääminen korpukseen: __Mervi, Børre, ...__
+## T, P-tekstien lisääminen korpukseen: __Sindre, ...__
+## Aikamatka-tekstien lisääminen korpukseen: __Sindre, ...__
 # Uusien teksteistä tulevien sanojen lisääminen sanakirjaan ja fst:hen: 
 
 
@@ -73,96 +72,5 @@ Sen jälkeen katsella, ja lisätä miihin sopi
 
 !!!Lista morfofonologisista pulmista
 
-Tätä listaa pitää käydä läpi, katsoa, pitääkö edelleen paikkaansa (tuskin pitää).
-
-* syksy+N+Pl+Ill => Missing: sykshyin
-* syksy+N+Pl+Ill => Unexpected: sykshiin, syksh^Vin
-** ainakin lexc-virhe, ehkä myös twolc
-
-* suomi+N+Sg+Par => Missing: suomee
-* suomi+N+Sg+Par => Unexpected: suommee
-** geminaatio toimii, vaikka ei saisi.
-** tehtävä: kertoa milloin se pitää toimia
-
-* suomi+N+Sg+Abe => Missing: suomitta
-* suomi+N+Sg+Abe => Unexpected: suometta
-** ^E2I
-
-* suomi+N+Sg+Ill => Missing: suomheen
-* suomi+N+Sg+Ill => Unexpected: suomi+N+Sg+Ill+?
-** lexc
-
-* suomi+N+Pl+Ill => Missing: suomiitta
-* suomi+N+Pl+Ill => Unexpected: suomi+N+Pl+Ill+?
-** lexc
-
-
-* poika+N+Pl+Gen => Missing: poikkiin
-* poika+N+Pl+Gen => Unexpected: poikain
-** twolc
-** problemet er at i:0 
-
-* poika+N+Pl+Par => Missing: poikkii
-* poika+N+Pl+Par => Unexpected: poikai
-* poika+N+Pl+Tra => Missing: pojiksi
-* poika+N+Pl+Tra => Unexpected: pojaiksi
-** twolc: a:i ennen i
-
-* poika+N+Pl+Ill => Missing: poikhiin
-* poika+N+Pl+Ill => Unexpected: poikh, poikhaan
-** lexc: väärä suffiksi
-
-* opettaaja+N+Sg+Ade => Missing: opettaajala
-* opettaaja+N+Sg+Ade => Unexpected: opettaajalla
-** tässä käytetään sgpl-cases-long, eikä sgpl-cases-short
-
-* opettaaja+N+Pl+Gen => Missing: opettaajiitten
-* opettaaja+N+Pl+Gen => Unexpected: opettaajoitten
-** a:o ennen i, eikä a:i. Tämä on luultavasti hankala:
-*** ongelmana taitaa olla, että a:o-vaihtelu on sidottu tavumäärään
-*** tavuja voi toki laskea, ks. Gemination-sääntö
-
-* opettaaja+N+Pl+Ill => Missing: opettaajhiin
-* opettaaja+N+Pl+Ill => Unexpected: opettaajahin, opettaajhaan
-** lexc: väärä suffiksi
-
-* meininki+N+Pl+Ess => Missing: meininkiinä
-* meininki+N+Pl+Ess => Unexpected: meininkkiinä, meiningiinnä
-** lexc: Tässä on kaksi Ess, pitää olla yksi (poista toinen)
-** lexc + twolc tässä on ^WG
-
-* lumi+N+Sg+Par => Missing results: lunta
-* lumi+N+Sg+Par => Unexpected results: lumta
-** m:n ennen t, vartalo esim lum
-
-* lumi+N+Pl+Ine => Missing results: lumissa
-* lumi+N+Pl+Ine => Unexpected results: lumeissa
-* lumi+N+Pl+Ela => Missing results: lumista
-* lumi+N+Pl+Ela => Unexpected results: lumeista
-** ovi:ove : ovissa toimii, e-i-vaihtelu tässä ei toimii
-** tehtävänä: muokata lumi-leksikko ovi-leksikon mukaan
-
-* kauheea => Missing results: kauhee+N+Sg+Par
-* kauheea => Unexpected results: kauheea+?
-** Tässä pitää olla kauheeta, eli sama ratkaisu kuin assii-sanassa
-
-* kauhee+N+Sg+Ill => Missing results: kauheesseen
-* kauhee+N+Sg+Ill => Unexpected results: kauhee+N+Sg+Ill+?
-** Tässä yksikön illatiivi yksinkertaisesti puuttuu (myös Pl Par ja Gen)
-
-* kauhee+N+Pl+Tra => Missing results: kauheiksi
-* kauhee+N+Pl+Tra => Unexpected results: kauheeiksi
-** twolc-sääntö: pitkä ee lyhyt ennen i:tä
-** Meillä on tommoinen, mutta se toimii vain yksitavuisten sanojen yhteydessä
-
-
-* joki+N+Sg+Gen => Missing results: joven
-* joki+N+Sg+Gen => Unexpected results: joken
-** Melkein kaikki joki-muodot ovat vääriä
-** twolc: Askel yksi: k:v -sääntö pitää toimia. Katso sitä.
-
-* assii+N+Pl+Tra => Missing results: assiiksi
-* assii+N+Pl+Tra => Unexpected results: assiiiksi
-** twolc: tässäkin ii + i -lyhentäminen ontuu.
-
+Pitää tehdä uusi lista.
 
