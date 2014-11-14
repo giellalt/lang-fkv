@@ -5,16 +5,20 @@
 
 !!Ordbok og fst
 
-# Vi må jamnleg sjekke med ordboka om alle orda er i fst-en \\ 
+# Vi må jamnleg sjekke med ordboka om alle orda er i fst-en \\
+  (jf. kommandooversikt nederst på denne sida)
 # Nye kvenske tekstar må bli analysert
-## ord som manglar i fst må inn i fst
+## ord som manglar i fst må inn i fst \\
+   Ta orda som manglar, sorter dei etter ordklasse og gje dei rett 
+   kontinuasjonsleksikon og stamma.	
 ## evt: ord som manglar i ordboka må inn i ordboka
 # nobfkv
 ## Sjekke nob-lemmalista mot nob-frekvenslister
 ## Legge til nob-ord
 ## jf. Kvensk institutt sin wiki, som har slike lister
 # fkvnob må bli betre
-## det må bli lagt til eksempel
+## det må bli lagt til eksempel \\
+   Særleg gjeld dette verb
 
 !!fst
 
@@ -34,5 +38,15 @@ Sjå eigne oahpasider.
 
 * [Arbeidsoppgåver|Tehtavat.html]
 * [Oversikt over språklege spørsmål|LingvistinenSuunnitelma.html]
+
+
+!!!Kommandoar
+
+
+{{{
+Lage frekvenskliste over manglande former:
+
+cat doc/rk_paakirjoitus.txt |preprocess |ufkv|grep '?'|cut -f1|sort|uniq -c |sort -nr
+}}}
 
 
