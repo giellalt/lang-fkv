@@ -24,6 +24,12 @@ Multichar_Symbols
  +Inf  +PrsPrc +PrfPrc +Inf3				   !!≈ ; @CODE@ : Infinite verbs
  +CLB +PUNCT +HYPH							   !!≈ ; @CODE@ : Punctuation
  +Attr
+
+
+ +Use/Sub   !!= @CODE@ only in desc, not in norm.
+ +Use/-Spell !Excluded in speller
+ +Use/SpellNoSugg !recognized but not suggested in speller
+
  
 !!  !!Phonological symbols
  p1 t1 k1				 !!≈ ; @CODE@ : For cons grad -- in use at all?
@@ -58,7 +64,8 @@ Multichar_Symbols
 @U.pron.all@
 @U.pron.ade@
 @U.pron.abl@
-
+@P.compound.block@
+@D.compound.block@
 
 !! !-i- overview
 !! * i2 plural i of nouns
