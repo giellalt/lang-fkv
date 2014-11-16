@@ -36,84 +36,109 @@
 
 LEXICON prop_x
 +N+Prop: x_x ;
++N+Prop:%- R ;
 
 LEXICON prop_1
 +N+Prop: x_1 ;
++N+Prop:%- R ;
 
 LEXICON prop_21
 +N+Prop: x_21 ;
++N+Prop:%- R ;
 
 LEXICON prop_21ie
 +N+Prop: x_21ie ;
++N+Prop:%- R ;
 
 LEXICON prop_21C
 +N+Prop+Sg+Nom: x_21 ;
 +N+Prop:i x_21 ;
++N+Prop:%- R ;
 
 LEXICON prop_42
 +N+Prop: x_42 ;
++N+Prop:%- R ;
 
 LEXICON PROP-plc
 +N+Prop+Plc: x_21 ;
++N+Prop+Plc:%- R ;
 
 LEXICON PROP-sur
 +N+Prop+Sur: x_21 ;
++N+Prop+Sur:%- R ;
 
 LEXICON prop_ani_21
 +N+Prop+Ani: x_21 ;
++N+Prop+Ani:%- R ;
 
 LEXICON prop_ani_21C
 +N+Prop+Ani:i x_21 ;
++N+Prop+Ani:i%- R ;
 +N+Prop+Ani+Sg+Nom:i x_21 ;
 
 LEXICON prop_fem_21
 +N+Prop+Fem: x_21 ;
++N+Prop+Fem:%- R ;
 
 LEXICON prop_fem_21C
 +N+Prop+Fem: K ;
++N+Prop+Fem:%- R ;
 +N+Prop+Fem: x_21 ;
 
 LEXICON prop_mal_21
 +N+Prop+Mal: x_21 ;
++N+Prop+Mal:%- R ;
 
 LEXICON prop_mal_21C
 +N+Prop+Mal:i x_21 ;
++N+Prop+Mal:i%- R ;
 
 LEXICON prop_malfem_21
 +N+Prop+Mal: x_21 ;
 +N+Prop+Fem: x_21 ;
++N+Prop:%- R ;
 
 LEXICON prop_malfem_21C
 +N+Prop+Mal:i x_21 ;
 +N+Prop+Fem:i x_21 ;
++N+Prop:%i R ;
 
 LEXICON prop_obj_21
 +N+Prop+Obj: x_21 ;
++N+Prop+Obj:%- R ;
 
 LEXICON prop_obj_21C
 +N+Prop+Obj: x_21 ;
++N+Prop+Obj:%- R ;
 
 LEXICON prop_org_21
 +N+Prop+Org: x_21 ;
++N+Prop+Org:%- R ;
 
 LEXICON prop_org_21C
 +N+Prop+Org: x_21 ;
++N+Prop+Org:%- R ;
 
 LEXICON prop_plc_21
 +N+Prop+Plc: x_21 ;
++N+Prop+Plc:%- R ;
 
 LEXICON prop_plc_21C
 +N+Prop+Plc: x_21 ;
++N+Prop+Plc:%- R ;
 
 LEXICON prop_sur_21
 +N+Prop+Sur: x_21 ;
++N+Prop+Sur:%- R ;
 
 LEXICON prop_sur_21C
 +N+Prop+Sur: x_21 ;
++N+Prop+Sur:%- R ;
 
 LEXICON prop_surmal_21
 +N+Prop+Sur: x_21 ;
 +N+Prop+Mal: x_21 ;
++N+Prop+Sur:%- R ;
 
 LEXICON prop_surmal_21C
 prop_sur_21C ;
@@ -126,9 +151,11 @@ prop_fem_21C ;
 LEXICON prop_surplc_21
 +N+Prop+Sur: x_21 ;
 +N+Prop+Plc: x_21 ;
++N+Prop:%- R ;
 
 LEXICON prop_surplc_21C
 +N+Prop+Sur: x_21 ;
 +N+Prop+Plc: x_21 ;
++N+Prop:%- R ;
 
 
