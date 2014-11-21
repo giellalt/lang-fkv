@@ -37,6 +37,7 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +Act+Ind+Prs+Pl1:olema K ;
 +Act+Ind+Prs+Pl2:oletta K ;
 +Act+Ind+Prs+Pl3:oon K ;
++Act+Ind+Prs+Pl3:on K_NEUTRAL ;
 +Act+Ind+Prt+Sg1:olin K ;
 +Act+Ind+Prt+Sg2:olit K ;
 +Act+Ind+Prt+Sg3:oli K ;
@@ -643,6 +644,7 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ hantteerata:hantteera
 +V+Pass+PrsPrc+Sg+Nom:%^WG%>tt%^A%>v%^A K ;
 +V+Pass+PrsPrc+Pl+Nom:%^WG%>tt%^A%>v%^At K ;
 +V+Act+Ind+Prs+ConNeg:%>%^V K ;
++V+Der/minen:mi n_42 ;
 
 +V+Act+Cond+Sg1:%>i7sin K ; ! hantteeraisin
 +V+Act+Cond+Sg2:%>i7sit K ;
