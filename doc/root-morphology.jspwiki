@@ -19,6 +19,10 @@
  ; +Inf +PrsPrc +PrfPrc +Inf3				 : Infinite verbs
  ; +CLB +PUNCT +HYPH							 : Punctuation
 
+
+  +Use/Sub    only in desc, not in norm.
+
+
  !!Phonological symbols
  ; p1 t1 k1				 : For cons grad -- in use at all?
  ; i2 i3 i4 i5 i6	i7		 : For vowel change -- i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = contr verb cond
@@ -37,7 +41,6 @@
  ; %^AE : for a to e change
  ; %^M2N : for m to n in lumi lunta
  ; %^¤					 : potecting against e:i word-finally (nalle, liike)
-
 
 
 
