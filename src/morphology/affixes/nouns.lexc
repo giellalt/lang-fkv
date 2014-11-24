@@ -803,7 +803,7 @@ LEXICON com      ! Komitatiivilla on vain -ine ja menee Pxx:iin
 
 LEXICON short_par
 +Sg+Par:%>%^V PxxK ;
-+Sg+Par+Use/Sub:%>%^A PxxK ;
++Sg+Par+Err/Sub:%>%^A PxxK ;
  
 
 LEXICON long_par
