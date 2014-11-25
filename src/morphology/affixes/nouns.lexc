@@ -678,7 +678,7 @@ LEXICON loput
 
  
 LEXICON sConsCase
- +Sg+Nom:%>s K ;
+ +Sg+Nom:%^WG%>s K ;
  +Sg+Par:%>st%^A K ; ! Par
  +Pl+Gen:%>sten K ; ! Gen
 
