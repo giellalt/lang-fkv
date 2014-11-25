@@ -642,25 +642,25 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
  +N+Pl+Com:s%>i2ne K ;
 
 LEXICON nen  !!= @CODE@ on nainen-sanoille
- nen_sg ;
- nen_pl ;
+  nen_sg ;
+  nen_pl ;
 
 LEXICON nen_sg 
-  nom-nen ;
- :se nomgen_px ;
- :se ess_even ;
- !make+Pl+kom:sine K ;
- :se weak_v_stem_sg ;
- :s long_par_sg ;
- :se 2TAVU_V_ill_sg ;
+ +N: nom-nen ;
+ +N:se nomgen_px ;
+ +N:se ess_even ;
+!make+N+Pl+kom:sine K ;
+ +N:se weak_v_stem_sg ;
+ +N:s long_par_sg ;
+ +N:se 2TAVU_V_ill_sg ;
 
 LEXICON nen_pl
- :se weak_v_stem_pl ;
- +Pl+Ill:sh%>i2in K ;
- +Pl:s consgenpl ;
- +Pl:ss%>i2i shortestparpl ;
- +Pl:sh%>i2 shorterillpl ;
- +Pl+Com:s%>i2ne K ;
+ +N:se weak_v_stem_pl ;
+ +N+Pl+Ill:sh%>i2in K ;
+ +N+Pl:s consgenpl ;
+ +N+Pl:ss%>i2i shortestparpl ;
+ +N+Pl:sh%>i2 shorterillpl ;
+ +N+Pl+Com:s%>i2ne K ;
 
 
 LEXICON nom-nen
