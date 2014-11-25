@@ -326,12 +326,15 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 "Gradation p:v"
 !! __@RULENAME@__ 
  p:v <=> Vowel: _ Vowel: (Cns:) Dummy:* (:i) Dummy:* %^WG:0 ;
+              r _ a %^WG:0 ;
 
 
 !€ napa^WG>n
 !€ nava0>n
 !€ taipal^WG
 !€ taival0
+!€ varpa^WG
+!€ varva0
 
 !! !Gradation of -k-
 
@@ -348,7 +351,7 @@ k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !
                      i _ [ö:|o:]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !		
          [ä|æ|e|i|i6:] _   [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! m̈äki  - mäjen
              [e|i|i6:] _   [e:|i|ä|æ|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
-                 [r|l] _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki - jäljen
+              \e [r|l] _   [e:|i]           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki - jäljen
                  Cns u _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
                      h _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet
 
@@ -389,6 +392,7 @@ k:0 <=>                h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka 
 k:v <=>     [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
            \i [o|ö|u|y] _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ;
                   [o|ö] _  e:          (Dummy:) (:i) (Dummy:) %^WG:0 ;
+                   i u  _  a          (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 !€ puku^WG>n
 !€ puvu0>n
