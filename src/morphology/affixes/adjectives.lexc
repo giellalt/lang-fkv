@@ -106,26 +106,13 @@ LEXICON a_42odd !!= * @CODE@ sininen
 
 LEXICON a_43 !!= * @CODE@ muuttumaton
  
-! :s R ;
-! :se a_gae_strong ;
-! +Pl+kom:sine K ;
-! :se a_weak_v_stem ;
-! :s a_long_par ;
-!:se a_2TAVU_V_ill_sg ;
-! +Pl+Ill:ssh%>i2in K ;
-! +Pl:s%>i2 a_shortgenpl ; ! naisien
-! +Pl:s a_consgenpl ;
-! +Pl:ss%>i2 a_shortparpl ;
-! +Pl:ss%>i2 a_shorterillpl ;
-! +Pl+Com:s%>i2ne K ;
-!Täytyy muokata
-
 !+A
 
 +A: a_ton ;
 +A+Sg+Ill:%>tt%^Omh%^A%^A n_PxK ;
 +A:%>tt%^Om%^A sgpl_cases_common ;
 +A+Pl+Ill:%>tt%^Omh%>i2in K ;
++A:%>tt%^Om%^A ess_even_sg ;
 +A:%>tt%^Omm%^A%>i2 shortestgenpl ; ! naisien
 +A:%>tt%^Omi%> long_par_pl;
 !+A:%>tt%^Omh%>i2 shorterillpl ;
@@ -179,7 +166,7 @@ LEXICON a_shorterillpl
 
 
 LEXICON a_loputon
- obl_strong_even ; ! muut vahvat
+! obl_strong_even ; ! muut vahvat
  weak_v_stem ;
  +Sg: sgpl_cases_odd ;      ! these two lexica for cases with
 
