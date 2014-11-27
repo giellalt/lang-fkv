@@ -200,12 +200,14 @@ LEXICON x_22oddi !!= * @CODE@  meininki
     +Pl:%^WG%>i2 sgpl_cases_even ; 
                  2TAVU_V_ill_sg ;
                  ess_odd_sg ;
-                 ess_even_pl ;
+                ! ess_even_pl ;
++Pl:i ess ;
 +Pl+Tra:i%>ksi   PxxK ; ! [meiningiiksi, meininkiiksi] -- check !
     +Pl:%^WG%>i2 tt_longgenpl ;
     +Pl:%>i2     longparpl ;
 +Pl+Ill:%>%^HMETAhi%>i2 n_PxK ;
-+Pl+Com:%>i2ne   K;
+!+Pl+Com:%>i2%>ne   K;
++Pl+Com:ine   K;
 
 !  Tarkista, onko yaml oikein:
 !  [24/25][FAIL] meininki+N+Pl+Ess => Missing results: meininkiinä
