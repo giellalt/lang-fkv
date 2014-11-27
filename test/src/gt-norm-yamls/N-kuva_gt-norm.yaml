@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - kuva - ok : # Noun 'picture'
+     kuva+N+Sg+Nom: kuva
+     kuva+N+Sg+Gen: kuvan
+     kuva+N+Sg+Par: kuvvaa
+     kuva+N+Sg+Tra: kuvaksi
+     kuva+N+Sg+Abe: kuvatta
+     kuva+N+Sg+Ine: kuvassa
+     kuva+N+Sg+Ela: kuvasta
+     kuva+N+Sg+Ill: kuvhaan
+     kuva+N+Sg+Ade: kuvala
+     kuva+N+Sg+Abl: kuvalta
+     kuva+N+Sg+All: kuvale
+     kuva+N+Sg+Ess: kuvana
+     kuva+N+Pl+Nom: kuvat
+     kuva+N+Pl+Gen: kuvviin
+     kuva+N+Pl+Par: kuvvii
+     kuva+N+Pl+Tra: kuviksi
+     kuva+N+Pl+Abe: kuvitta
+     kuva+N+Pl+Ine: kuvissa
+     kuva+N+Pl+Ela: kuvista
+     kuva+N+Pl+Ill: kuvhiin
+     kuva+N+Pl+Ade: kuvila
+     kuva+N+Pl+Abl: kuvilta
+     kuva+N+Pl+All: kuvile
+     kuva+N+Pl+Ess: kuvina
+     kuva+N+Pl+Com: kuvine
