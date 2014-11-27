@@ -113,7 +113,8 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A:%>tt%^Om%^A sgpl_cases_common ;
 +A+Pl+Ill:%>tt%^Omh%>i2in K ;
 +A:%>tt%^Om%^A ess_even_sg ;
-+A:%>tt%^Omm%^A%>i2 shortestgenpl ; ! naisien
+!+A:%>tt%^Omm%^A%>i2 shortestgenpl ; ! naisien
+!+A:%>tt%^Omi%>i2 shortestgenpl ; ! naisien
 +A:%>tt%^Omi%> long_par_pl;
 !+A:%>tt%^Omh%>i2 shorterillpl ;
 +A:%>tt%^Om%^A a_loputon ;  
@@ -126,7 +127,7 @@ LEXICON a_43odd !!= * @CODE@ onneton
 +A+Sg+Ill:%>tt%^Omh%^A%^A n_PxK ;
 +A:%>tt%^Om%^A sgpl_cases_common ;
 +A+Pl+Ill:%>tt%^Omh%>i2in K ;
-+A:%>tt%^Omm%^A%>i2 shortgenpl ; ! naisien
++A+Pl:%>tt%^Omm%>i2%>i a_shortestgenpl ; ! naisien
 +A:%>tt%^Ommi%> long_par_pl;
 +A:%>tt%^Omh%>i2 shorterillpl ;
 +A+Pl+Com:%>tt%^Om%>i2ne K ;
@@ -182,7 +183,7 @@ LEXICON a_loputoneven
 
 LEXICON a_loputonevenpl
 +Pl:%>i2 sgpl_cases_even ;  ! the same affix in sg and pl -- tsekkaa long
-+Pl:%>i2 shortgenpl ;
+!+Pl:%>i2 shortgenpl ;
  :ess_even_pl ;
  
 LEXICON a_ton
