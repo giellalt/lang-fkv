@@ -69,9 +69,9 @@ LEXICON x_1
 +Pl:%>i2 tt_longgenpl ;
 +Pl:%>i2 longparpl ;
 +Pl:%>i2 shortillpl ; 
-+Sg+Nom: Px ;   ! mattoni
-+Sg+Gen: Px ;   ! mattoni
-+Pl+Nom: Px ;   ! mattoni
+! +Sg+Nom: Px ;   ! mattoni
+! +Sg+Gen: Px ;   ! mattoni
+! +Pl+Nom: Px ;   ! mattoni
 ess_even ;
  
 LEXICON n_1pl !!= * @CODE@ = häät
@@ -107,10 +107,10 @@ LEXICON x_21_oblique
         : ess_even_sg ;
         :%^AO ess_even_pl ;
         :%^WG weak_v_stem ;
-     +Sg:%^WG     sgpl_cases_even ;      ! to sgpl_cases_even for cases with
-     +Pl:%^AO%^WG%>i2 sgpl_cases_even ;  ! the same affix in sg and pl
+     +Sg:%^WG     sgpl_cases_even ;     !to sgpl_cases_even for cases with
+     +Pl:%^AO%^WG%>i2 sgpl_cases_even ; !the same affix in sg and pl
                     2TAVU_V_ill_sg ;
-     +Pl:%^AO%>i2 shortestgenpl ;  !! * shortestgenpl since we have the i
+     +Pl:%^AO%>i2 shortestgenpl ;  ! shortestgenpl since we have the i
      +Pl:%^AO%>i2 shortestparpl  ;  
 +Pl+Ill:%^AO%>%^HMETAh%^V%>i2 n_PxK ;
 +Pl+Com:%^AO%>i2ne K ;
@@ -319,7 +319,7 @@ LEXICON n_31si	!!= @CODE@ vuosi, käsi
 
 LEXICON x_31si
 +Sg+Nom:%^E2I         K ; 
-                      nomgen_px ;   ! sg nom/gen px 
+!                      nomgen_px ;   ! sg nom/gen px 
        :%^EDEL        long_par_sg ; ! parsg
        :%^WG          weak_v_stem ; ! gensg, nompl
                       2TAVU_V_ill_sg ;
@@ -745,10 +745,10 @@ LEXICON obl_strong_odd
  +Pl:%>i2 com ;
  ess_odd ;
  
-LEXICON nomgen_px
- +Sg+Nom: Px ;   ! mattoni
- +Sg+Gen: Px ;   ! mattoni
- +Pl+Nom: Px ;   ! mattoni
+! LEXICON nomgen_px
+!  +Sg+Nom: Px ;   ! mattoni
+!  +Sg+Gen: Px ;   ! mattoni
+!  +Pl+Nom: Px ;   ! mattoni
 
 LEXICON ess_even 
 ess_even_sg ;
@@ -791,7 +791,7 @@ LEXICON sgpl_cases_common
  +Ine:%>ss%^A PxxK ;
  +Ela:%>st%^A PxxK ;
  +Tra:%>ksi   K ;
- +Tra:%>kse   Pxx ;
+! +Tra:%>kse   Pxx ;
  +Abe:%>tt%^A PxxK ;
  
 LEXICON ess
@@ -897,22 +897,24 @@ LEXICON longerillpl
 !! !Sublexica for possessive suffixes
 ! ---------------------------------
 
+!! Px is now not in use, with one exception, comitative.
+
 LEXICON n_PxK  !!= @CODE@ has either -n or goes to Px
  :n K ;
- Px ;
+! Px ;
 
 LEXICON i_PxK  !!= @CODE@ Tra: -i or -e and goes to Px
  :i K ;
- :e Px ;
+! :e Px ;
 
 LEXICON PxK !!= @CODE@ has only -nsA, and is currently not in use. Check
  K ;
- Px ;
+! Px ;
 
 LEXICON PxxK  !!= @CODE@ has also -Vn, thus both .. llensa and ..lleen.
  K ;
- Px ;
- Px-Vn ;
+! Px ;
+! Px-Vn ;
 
 LEXICON Pxx
  Px ;
