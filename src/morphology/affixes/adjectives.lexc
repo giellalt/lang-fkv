@@ -36,6 +36,10 @@ LEXICON a_23	!!= * @CODE@  pimmee
 +A: x_23 ;
 :comp ;
 
+LEXICON a_23ii  !!= * @CODE@ auttii
++A: x_23ii ;
+comp ;
+
 LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31 ;
 comp ;
@@ -48,8 +52,27 @@ LEXICON a_32 !!= * @CODE@ tyven
 +A: x_32 ;
 :e comp ;
 
-LEXICON a_32m !!= * @CODE@ vasen sg taipuu kuitenki -ma
+LEXICON a_32m !!= * @CODE@ onko eläin eläimen adjektiiveja?
 +A: x_32m ;
+
+LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
++A+Sg+Nom:%^WGn K ;
++A:m%^A weak_v_stem_sg ;
++A+Sg+Par:%^WG%>nt%^A PxxK ;
++A:m%^A obl_strong_odd ;
++A+Sg+Gen:me%>n K ;
++A:m%^A weak_v_stem_pl ;  ! Nom pl
++A:m%^A 2TAVU_V_ill_sg ;
++A:m%^A 2TAVU_V_ill_sg ;
++A+Sg:m%^A sgpl_cases_odd ;   
++A:m%^A weak_v_stem_pl ;
++A:m%^A weak_v_stem ;
++A+Pl:m%>i2 sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
++A+Pl:%>mi%>i2 longparpl ;
++A+Pl:mi%>i2 tt_longgenpl ;
++A+Pl:m%^HMETAh%>i2i shortestillpl;
++A+Pl+Com:m%>i2ne K ;
+
 
 LEXICON a_33as !!= * @CODE@ rakas
 +A: x_33as ;

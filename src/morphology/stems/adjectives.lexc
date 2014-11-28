@@ -25,7 +25,7 @@ simppeli 		a_22odd ;
 valkkee:valkke   a_23 ; !!= * @CODE@ 
 selkkee:selkke   a_23 ; 
 kauhee:kauhe     a_23 ;
-
+auttii           a_23ii ; !!= * @CODE@ 
 
 
 !! !!3. Konsonanttirankaiset
@@ -41,7 +41,7 @@ täysi:täyte          a_31si ;
 
 tyven               a_32 ; !!= * @CODE@
 
-vasen:vase 			a_32m ;
+vasen:vase 			a_32ma ; !!= * @CODE@
 
 !! !!3.3 Kokoontuma
  
@@ -255,7 +255,7 @@ merkittävä a_22 ;
 tyven a_32 ;
 tyven a_32 ;
 tinatyven a_32 ;
-lämmin:lämpi a_32m ;
+lämmin:lämpi a_32ma ;
 vanhaa:vanha a_23 ;
 vapaa:vapa a_23 ;
 ehhee:ehhe a_23 ;
@@ -311,10 +311,8 @@ kiinttee:kiintte a_23 ;
 hirvee:hirve a_23 ;
 kevvee:kevve a_23 ;
 levvee:levve a_23 ;
-ruottii:ruotti a_23 ;
-ruottii:ruotti a_23 ;
-auttii:autti a_23 ;
-auttii:autti a_23 ;
+ruottii a_23ii ;
+auttii a_23ii ;
 jumalaton:jumala a_43 ;
 mittaamaton:mittaama a_43 ;
 mittaamaton:mittaama a_43 ;
@@ -671,7 +669,7 @@ pirunnäkönen:pirunnäkö a_42odd ;
 tosi:tote a_31si ;
 uusi:uute a_31si ;
 täysi:täyte a_31si ;
-vasen:vase a_32m ;
+vasen:vase a_32ma ;
 vähäinen:vähäise a_32m ;
 latuskainen:latuskai   a_42  ;
 korkukainen:korkukai   a_42  ;
@@ -901,11 +899,12 @@ tiinet:tiin a_33t ;
 tuoret:tuor a_33t ;
 tervet:terv a_33t ;
 veđenpillaama a_22 ;
-ehyt:eh a_33t ;
-ohut:oh a_33t ;
-lyhyt:lyh a_33t ;
+ehyt:eh a_x ; 
+! ehy, ohu, lyhy?              
+ohut:oh a_x ;
+lyhyt:lyh a_x ;
 sikkari a_22odd ;
-hapan a_32m ;
+hapan a_32ma ;
 parhain a_32m ;
 irtain a_32m ;
 suipero a_22odd ;
