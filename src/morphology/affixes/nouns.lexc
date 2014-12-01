@@ -103,7 +103,7 @@ x_21_oblique ;
 LEXICON x_21_oblique
         !    strong_v_stem_even ;
         : short_par ;
-        :  nomgen_px ;
+!        :  nomgen_px ;
         : ess_even_sg ;
         :%^AO ess_even_pl ;
         :%^WG weak_v_stem ;
@@ -173,7 +173,7 @@ LEXICON n_22odd !!= * @CODE@  kajava
 LEXICON x_22odd !!= * @CODE@  kajava
                  nom_strong ;
                  short_par ;
-                 nomgen_px ;
+!                 nomgen_px ;
        :%^WG     weak_v_stem ;
     +Sg:%^WG     sgpl_cases_odd ;      
     +Pl:%^WG%>i2 sgpl_cases_odd ; 
@@ -198,7 +198,7 @@ LEXICON n_22oddi !!= * @CODE@  meininki
 LEXICON x_22oddi !!= * @CODE@  meininki
                  nom_strong ;
                  short_par ;
-                 nomgen_px ;
+!                 nomgen_px ;
        :%^WG     weak_v_stem ;
     +Sg:%^WG     sgpl_cases_odd ;      
     +Pl:%^WG%>i2 sgpl_cases_even ; 
@@ -227,7 +227,7 @@ LEXICON n_22oi	!!= * @CODE@
 LEXICON x_22oi	!!= * @CODE@  Kulkkiija
                      nom_strong ; ! sg nom
                      short_par ;
-                     nomgen_px ;
+!                     nomgen_px ;
 ! +Pl:%>i2 com ;
         :%^WG         weak_v_stem ;
     +Sg:%^WG         sgpl_cases_odd ;  ! these two lexica for cases with
@@ -653,7 +653,7 @@ LEXICON nen  !!= @CODE@ on nainen-sanoille
 
 LEXICON nen_sg 
  +N: nom-nen ;
- +N:se nomgen_px ;
+! +N:se nomgen_px ;
  +N:se ess_even ;
 !make+N+Pl+kom:sine K ;
  +N:se weak_v_stem_sg ;
@@ -736,12 +736,12 @@ LEXICON weak_v_stem_pl
 !  - - - - - - - - - - - - - - - 
 
 LEXICON obl_strong_even 
- nomgen_px ;
+! nomgen_px ;
  +Pl:%>i2 com ;
  ess_even ;
  
 LEXICON obl_strong_odd 
- nomgen_px ;
+! nomgen_px ;
  +Pl:%>i2 com ;
  ess_odd ;
  
