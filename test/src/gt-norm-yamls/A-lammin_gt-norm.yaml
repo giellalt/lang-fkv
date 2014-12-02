@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - lämmin - ok : # Noun 'warm'
+     lämmin+A+Sg+Nom: lämmin
+     lämmin+A+Sg+Gen: lämpimän
+     lämmin+A+Sg+Par: lämmintä
+     lämmin+A+Sg+Tra: lämpimäksi
+     lämmin+A+Sg+Abe: lämpimättä
+     lämmin+A+Sg+Ine: lämpimässä
+     lämmin+A+Sg+Ela: lämpimästä
+     lämmin+A+Sg+Ill: lämpimhään
+     lämmin+A+Sg+Ade: lämpimällä
+     lämmin+A+Sg+Abl: lämpimältä
+     lämmin+A+Sg+All: lämpimälle
+     lämmin+A+Sg+Ess: lämpimännä
+     lämmin+A+Pl+Nom: lämpimät
+     lämmin+A+Pl+Gen: lämpimiitten
+     lämmin+A+Pl+Par: lämpimiitä
+     lämmin+A+Pl+Tra: lämpimiksi
+     lämmin+A+Pl+Abe: lämpimittä
+     lämmin+A+Pl+Ine: lämpimissä
+     lämmin+A+Pl+Ela: lämpimistä
+     lämmin+A+Pl+Ill: lämpimhiin
+     lämmin+A+Pl+Ade: lämpimillä
+     lämmin+A+Pl+Abl: lämpimiltä
+     lämmin+A+Pl+All: lämpimille
+     lämmin+A+Pl+Com: lämpimine
+     lämmin+A+Pl+Ess: lämpiminnä
