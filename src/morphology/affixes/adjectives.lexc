@@ -102,13 +102,13 @@ LEXICON a_33t !!= * @CODE@ tuoret
 ! comp, superl, puuttuvat
 
 LEXICON a_33u !!= * @CODE@ vaipunu:vaipun ! perfect participle
-+A+Sg+Nom:%^U K ;
-+A:ee long_par_sg ; 
-+A:hee 33_t_ts_common ;
-+A+Sg+Ill:hee mTAVU_VV-ill ;
-+A+Pl+Gen:hee%>i2 tt_longgenpl ;
-+A+Pl+Com:hee%>i2ne K ;
-
++A+Sg+Nom:u K ;
+!+A+Sg+Par:u%>tt%^A K ; 
+!+A:hee 33_t_ts_common ;
+!+A+Sg+Ill:hee mTAVU_VV-ill ;
+!+A+Pl+Gen:hee%>i2 tt_longgenpl ;
+!+A+Pl+Com:hee%>i2ne K ;
++A: PRFPRC_OBL ;
 
 LEXICON a_41 !!= * @CODE@ = veres
 +A: x_41 ;
