@@ -108,7 +108,11 @@ LEXICON a_33u !!= * @CODE@ vaipunu:vaipun ! perfect participle
 !+A+Sg+Ill:hee mTAVU_VV-ill ;
 !+A+Pl+Gen:hee%>i2 tt_longgenpl ;
 !+A+Pl+Com:hee%>i2ne K ;
-+A: PRFPRC_OBL ;
++A: PRFPRC_OBL  ;
+
+LEXICON a_33y !!= * @CODE@ väsyny:äsyn ! perfect participle
++A+Sg+Nom:y K ;
++A: PRFPRC_OBL  ;
 
 LEXICON a_41 !!= * @CODE@ = veres
 +A: x_41 ;
