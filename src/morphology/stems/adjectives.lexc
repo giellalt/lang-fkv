@@ -51,6 +51,8 @@ voimakas:voimakk    a_33as ;
 
 tuoret:tuor         a_33t ;
 tervet:terv         a_33t ;
+vaipunu:vaipun      a_33u ;
+
 
 
 
@@ -912,7 +914,7 @@ nainu a_33t ;
 oppinu a_33t ;
 ravistunnu a_33t ;
 hermostunnu a_33t ;
-vaipunu a_33t ;
+vaipunu:vaipun a_33u ;
 ravistunu a_33t ;
 hermostunu a_33t ;
 suuttunu a_33t ;

@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - vaipunu - ok : # Noun 'tired' - 
+     vaipunu+N+Sg+Nom: vaipunu
+     vaipunu+N+Sg+Gen: vaipunheen
+     vaipunu+N+Sg+Par: vaipunutta
+     vaipunu+N+Sg+Tra: vaipunheeksi
+     vaipunu+N+Sg+Abe: vaipunheetta
+     vaipunu+N+Sg+Ine: vaipunheessa
+     vaipunu+N+Sg+Ela: vaipunheesta
+     vaipunu+N+Sg+Ill: vaipunheesseen
+     vaipunu+N+Sg+Ade: vaipunheela
+     vaipunu+N+Sg+Abl: vaipunheelta
+     vaipunu+N+Sg+All: vaipunheele
+     vaipunu+N+Sg+Ess: vaipunheena
+     vaipunu+N+Pl+Nom: vaipunheet
+     vaipunu+N+Pl+Gen: vaipunheitten
+     vaipunu+N+Pl+Par: vaipunheita
+     vaipunu+N+Pl+Tra: vaipunheiksi
+     vaipunu+N+Pl+Abe: vaipunheitta
+     vaipunu+N+Pl+Ine: vaipunheissa
+     vaipunu+N+Pl+Ela: vaipunheista
+     vaipunu+N+Pl+Ill: vaipunheissiin
+     vaipunu+N+Pl+Ade: vaipunheila
+     vaipunu+N+Pl+Abl: vaipunheilta
+     vaipunu+N+Pl+All: vaipunheile
+     vaipunu+N+Pl+Ess: vaipunheina
+     vaipunu+N+Pl+Com: vaipunheine
