@@ -123,6 +123,7 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Act+Inf3+Ill:%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:%>m%^Att%^A K ;
++V+Act+Inf3:%>m%^A MATON ;
 
 LEXICON v1kayda  !!= @CODE@ käyđä:kä 
 +V+Inf:y%>đ%^A K ; ! đ
@@ -198,6 +199,7 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+Act+Inf3+Ill:%>kemh%^A%^An K ;
 +V+Act+Inf3+Ade:%>kem%^All%^A K ;
 +V+Act+Inf3+Abe:%>kem%^Att%^A K ;
+
 
 LEXICON v1tehda !!= @CODE@ tehđä:te 
 +V+Inf:h%>đ%^A K ; ! đ
@@ -746,7 +748,6 @@ LEXICON PRFPRC_OBL !!= @CODE@ is without nom sg
 +Sg+Ill:hee mTAVU_VV-ill ;
 +Pl+Gen:hee%>i2 tt_longgenpl ;
 +Pl+Com:hee%>i2ne K ;
-
 
 
 
