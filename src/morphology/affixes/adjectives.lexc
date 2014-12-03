@@ -161,18 +161,23 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A+Pl+Com:%>tt%^Om%>i2ne K ;
 
 LEXICON a_43odd !!= * @CODE@ onneton
- 
-+A: a_ton ;
-+A+Sg+Ill:%>tt%^Omh%^A%^A n_PxK ;
-+A:%>tt%^Om%^A sgpl_cases_common ;
-+A+Pl+Ill:%>tt%^Omh%>i2in K ;
-+A+Pl:%>tt%^Omm%>i2%>i a_shortestgenpl ; ! naisien
-+A:%>tt%^Ommi%> long_par_pl;
-+A:%>tt%^Omh%>i2 shorterillpl ;
-+A+Pl+Com:%>tt%^Om%>i2ne K ;
-+A:%>tt%^Om%^A a_loputoneven ;
-+A:%>tt%^Om a_loputonevenpl ;
-+A+Pl+Com:%>tt%^Om%>i2ne K ;
++A: x_43odd ;
+
+LEXICON MATON !!= @CODE@ 
++A: x_43odd ;
+
+LEXICON x_43odd !!= * @CODE@ onneton 
+: a_ton ;
++Sg+Ill:%>tt%^Omh%^A%^A n_PxK ;
+:%>tt%^Om%^A sgpl_cases_common ;
++Pl+Ill:%>tt%^Omh%>i2in K ;
++Pl:%>tt%^Omm%>i2%>i a_shortestgenpl ; ! naisien
+:%>tt%^Ommi%> long_par_pl;
+:%>tt%^Omh%>i2 shorterillpl ;
++Pl+Com:%>tt%^Om%>i2ne K ;
+:%>tt%^Om%^A a_loputoneven ;
+:%>tt%^Om a_loputonevenpl ;
++Pl+Com:%>tt%^Om%>i2ne K ;
 
 
 
