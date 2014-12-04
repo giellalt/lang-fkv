@@ -67,8 +67,8 @@ Rules
   "Gemination VXi"
   !! __@RULENAME@__ 
 !0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
-0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) Cx _  :Vowel %>:  [:i - i3:] (i2:i) ;
-         Cns:*  Vowel:* Vowel (Vowel) :Cx _  e:0 %^E2I:0 %>: i2:i %>: %^V:i  ;
+0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) Cx _  :Vowel %>:  [:i - i3:] (i2:i) ;
+         Cns:*  Vowel:* Vowel (Vowel:) :Cx _  e:0 %^E2I:0 %>: i2:i %>: %^V:i  ;
          where Cx in ( k p t s v ) ;
 
 ! tote>i2>^V
@@ -280,7 +280,7 @@ Rules
 
 !€ pölk0ä>^V
 !€ pölkkä>ä
-!€ härk0ä>^V
+!€ härk0ä>^V 
 !€ härkkä>ä
 
 "Gemination LIQi"
