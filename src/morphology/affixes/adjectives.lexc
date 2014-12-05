@@ -23,6 +23,10 @@ LEXICON a_21ie  !!= * @CODE@ corresponds to a_21ie etc.
 +A: x_21ie ;
 comp ;
 
+LEXICON a_21ai  !!= * @CODE@ corresponds to a_21ai etc.
++A: x_21ai ;
+comp ;
+
 LEXICON a_22	!!= * @CODE@  liberaali
 +A: x_22 ;
 comp ;
@@ -143,9 +147,10 @@ LEXICON a_42odd !!= * @CODE@ sininen
 +A: x_42odd ;
 
 
+LEXICON MATON !!= @CODE@ ! ajattelemattomalle lle lla nna
++A: a_43 ;
+
 LEXICON a_43 !!= * @CODE@ muuttumaton
- 
-!+A
 
 +A: a_ton ;
 +A+Sg+Ill:%>tt%^Omh%^A%^A n_PxK ;
@@ -163,7 +168,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 LEXICON a_43odd !!= * @CODE@ onneton
 +A: x_43odd ;
 
-LEXICON MATON !!= @CODE@ 
+LEXICON MATONodd !!= @CODE@ ! käymättömäle le la na
 +A: x_43odd ;
 
 LEXICON x_43odd !!= * @CODE@ onneton 

@@ -123,7 +123,7 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Act+Inf3+Ill:%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:%>m%^Att%^A K ;
-+V+Act+Inf3:%>m%^A MATON ;
++V+Act+Inf3:%>m%^A MATONodd ;
 
 LEXICON v1kayda  !!= @CODE@ käyđä:kä 
 +V+Inf:y%>đ%^A K ; ! đ
@@ -161,6 +161,7 @@ LEXICON v1kayda  !!= @CODE@ käyđä:kä
 +V+Act+Inf3+Ill:y%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:y%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:y%>m%^Att%^A K ;
++V+Act+Inf3:y%>m%^A MATONodd ;
 
 LEXICON v1nahda !!= @CODE@ nähđä:nä 
 +V+Inf:h%>đ%^A K ; ! đ
@@ -194,12 +195,12 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+Act+Imprt+Sg2:je K   ;
 +V+Act+Imprt+Pl2:h%>k%^A%^A K ;
 
-+V+Act+Inf3+Ine:%>kem%^Ass%^A K ;
-+V+Act+Inf3+Ela:%>kem%^Ast%^A K ;
-+V+Act+Inf3+Ill:%>kemh%^A%^An K ;
-+V+Act+Inf3+Ade:%>kem%^All%^A K ;
-+V+Act+Inf3+Abe:%>kem%^Att%^A K ;
-
++V+Act+Inf3+Ine:ke%>m%^Ass%^A K ;
++V+Act+Inf3+Ela:ke%>m%^Ast%^A K ;
++V+Act+Inf3+Ill:ke%>mh%^A%^An K ;
++V+Act+Inf3+Ade:ke%>m%^All%^A K ;
++V+Act+Inf3+Abe:ke%>m%^Att%^A K ;
++V+Act+Inf3:ke%>m%^A MATONodd ;
 
 LEXICON v1tehda !!= @CODE@ tehđä:te 
 +V+Inf:h%>đ%^A K ; ! đ
@@ -233,11 +234,13 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+Act+Imprt+Sg2:he K   ;
 +V+Act+Imprt+Pl2:h%>k%^A%^A K ;
 
-+V+Act+Inf3+Ine:kem%^Ass%^A K ;
-+V+Act+Inf3+Ela:kem%^Ast%^A K ;
-+V+Act+Inf3+Ill:kemh%^A%^An K ;
-+V+Act+Inf3+Ade:kem%^All%^A K ;
-+V+Act+Inf3+Abe:kem%^Att%^A K ;
++V+Act+Inf3+Ine:ke%>m%^Ass%^A K ;
++V+Act+Inf3+Ela:ke%>m%^Ast%^A K ;
++V+Act+Inf3+Ill:ke%>mh%^A%^An K ;
++V+Act+Inf3+Ade:ke%>m%^All%^A K ;
++V+Act+Inf3+Abe:ke%>m%^Att%^A K ;
++V+Act+Inf3ufkv:ke%>m%^Att%^A K ;
++V+Act+Inf3:ke%>m%^A MATONodd ;
 
 LEXICON v2 !!= @CODE@ anttaat:anta 
 +V+Inf:%>%^Vt K ; 
@@ -273,6 +276,7 @@ LEXICON v2 !!= @CODE@ anttaat:anta
 +V+Act+Inf3+Ill:%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>m%^All%^A K ;
 +V+Act+Inf3+Abe:%>m%^Att%^A K ;
++V+Act+Inf3:%>m%^A MATON ;
 
 LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Inf:%>%^Vt K ; 
@@ -309,6 +313,7 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+Inf3+Ill:%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:%>m%^Att%^A K ;
++V+Act+Inf3:%>m%^A MATONodd ;
 
 LEXICON v3_ele_short ! nielä:niel
 +V+Inf:%^WG%>%^A K ; ! short infinitive
@@ -352,6 +357,7 @@ LEXICON v3_ele_notinf
 +V+Act+Inf3+Ill:e%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:e%>m%^All%^A K ;
 +V+Act+Inf3+Abe:e%>m%^Att%^A K ;
++V+Act+Inf3:%>m%^A MATON ;
 
 LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel 
 +V+Inf:%^WG%>%^A K ; 
@@ -393,6 +399,7 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Act+Inf3+Ill:e%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:e%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:e%>m%^Att%^A K ;
++V+Act+Inf3:%>m%^A MATONodd ;
 
 LEXICON v3_ise !!= @CODE@ aukaista:aukaise 
 +V+Inf:%>t%^A K ; 
@@ -428,6 +435,7 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +V+Act+Inf3+Ill:e%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:e%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:e%>m%^Att%^A K ;
++V+Act+Inf3:%>m%^A MATONodd ;
 
 LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Inf:%>%^N%^A K ; !! * pitää tehdä %^D
@@ -463,6 +471,7 @@ LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Act+Inf3+Ill:%>e%^WG%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>e%^WG%>m%^All%^A K ;
 +V+Act+Inf3+Abe:%>e%^WG%>m%^Att%^A K ;
++V+Act+Inf3:%>m%^A MATON ;
 
 LEXICON v3piera !!= @CODE@ pierä:pie
 +V+Inf:r%^A K ; !! * pitää tehdä %^D
@@ -498,7 +507,7 @@ LEXICON v3piera !!= @CODE@ pierä:pie
 +V+Act+Inf3+Ill:%>r%>e%^WG%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>r%>e%^WG%>m%^All%^A K ;
 +V+Act+Inf3+Abe:%>r%>e%^WG%>m%^Att%^A K ;
-
++V+Act+Inf3:%>m%^A MATON ;
 
 LEXICON v3juosta !!= @CODE@ juosta:juo 
 +V+Inf:s%>t%^A K ; 
