@@ -8,9 +8,10 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 * 1. Yksitavuiset / Vi ( maa, tuorestai)		 = n_1
 * 1.1. Yksitavuiset monikko/ Vi ( häät)		 = n_1pl
 * 2. Vokaalirankaiset						 
-** 2.1 Kaksitavuiset ( aika, pappi)			 = n_21
+** 2.1 Kaksitavuiset ( pappi)			     = n_21
 *** 2.1.1. Kaksitavuiset monikko (housut)     = n_21pl
 *** 2.1.2. Kaksitavuiset (joki: joke)         = n_21ie
+*** 2.1.3. Kaksitavuiset (kuva:kuvissa)        = n_21ai
 ** 2.2. Usseempitav. (opettaaja)		      	 = n_22
 *** 2.2.1. Usseempitav. odd (kajava)	          = n_22odd
 *** 2.2.2. Usseempitav. odd (meininki, tunturi)	= n_22oddi
@@ -70,10 +71,14 @@ the same affix in sg and pl
 
 
 
+
  LEXICON n_21ie	 on ove, ovi, nom joki:joke
 
 these two lexica for cases with
 the same affix in sg and pl
+
+ LEXICON n_21ai	 kuva kuvissa
+
 
  * LEXICON n_22	  opettaaja
 
