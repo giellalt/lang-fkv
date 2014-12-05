@@ -543,6 +543,7 @@ LEXICON v3juosta !!= @CODE@ juosta:juo
 +V+Act+Inf3+Ill:%>kse%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>kse%>m%^All%^A K ;
 +V+Act+Inf3+Abe:%>kse%>m%^Att%^A K ;
++V+Act+Inf3:%>kse%>m%^A MATON ;
 
 LEXICON v4 !!= @CODE@ vanheta:vanhe 
 +V+Inf:%^WG%>t%^A K ; 
@@ -578,7 +579,7 @@ LEXICON v4 !!= @CODE@ vanheta:vanhe
 +V+Act+Inf3+Ill:%>ne%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>ne%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:%>ne%>m%^Att%^A K ;
-
++V+Act+Inf3:%>ne%>m%^A MATONodd ;
 
 LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Inf:%>t%^A K ; 
@@ -616,6 +617,8 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Act+Inf3+Ill:%>tte%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>tte%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:%>tte%>m%^Att%^A K ;
++V+Act+Inf3:%>tte%>m%^A MATONodd ;
+
 
 LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+Inf:%>t%^A K ; 
@@ -653,6 +656,7 @@ LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+Act+Inf3+Ill:%>tte%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>tte%>m%^All%^A K ;
 +V+Act+Inf3+Abe:%>tte%>m%^Att%^A K ;
++V+Act+Inf3:%>tte%>m%^A MATON ;
 
 LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ hantteerata:hantteera
 +V+Inf:%^WG%>t%^A K ; !
@@ -689,6 +693,7 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ hantteerata:hantteera
 +V+Act+Inf3+Ill:%>%^V%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>%^V%>m%^Al%^A K ;
 +V+Act+Inf3+Abe:%>%^V%>m%^Att%^A K ;
++V+Act+Inf3:%>%^V%>m%^A MATONodd ;
 
 LEXICON v43_odd !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Inf:%^WG%>t%^A K ;
@@ -724,6 +729,7 @@ LEXICON v43_odd !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Act+Inf3+Ill:%>%^V%>mh%^A%^An K ;
 +V+Act+Inf3+Ade:%>%^V%>m%^All%^A K ;
 +V+Act+Inf3+Abe:%>%^V%>m%^Att%^A K ;
++V+Act+Inf3:%>%^V%>m%^A MATON ;
 
 !! !!Verbien persoonapäätteet
 
