@@ -655,7 +655,7 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>: i2: ; ! 3-syll
 !      where Vx in ( a ä ) ;
 
 Vx:e <=> _  %^AE:0 (%^WG:0) %>: t (t) ; 
-         _  %^AE:0 (%^WG:0) %>: [mp | mm] ; 
+        (Cns:) Vowel: (Vowel:) (Cns:) _ (%^WG:0) %>: [mp | mm] [i|%^A:] (%>:) ; 
      where Vx in ( a ä ) ;
 
 "ä:0 before i except in conditional"
