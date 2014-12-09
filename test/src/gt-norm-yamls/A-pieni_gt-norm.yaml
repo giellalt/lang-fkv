@@ -14,7 +14,7 @@ Tests:
 # Then: linnrun analyser, then correct. 
 
 
-  Noun - pieni - ei tsekattu : # Noun 'år' - ei tsekattu
+  Noun - pieni - ei tsekattu : # Noun 'small' - ei tsekattu
      pieni+A+Sg+Nom: pieni
      pieni+A+Sg+Gen: pienen
      pieni+A+Sg+Par: pientä
@@ -40,3 +40,55 @@ Tests:
      pieni+A+Pl+All: pienile
      pieni+A+Pl+Ess: pieninä
      pieni+A+Pl+Com: pienine
+     
+     pieni+A+Sg+Comp+Nom: pienempi
+     pieni+A+Sg+Comp+Gen: pienemän
+     pieni+A+Sg+Comp+Par: pienemppää
+     pieni+A+Sg+Comp+Tra: pienemäksi
+     pieni+A+Sg+Comp+Abe: pienemättä
+     pieni+A+Sg+Comp+Ine: pienemässä
+     pieni+A+Sg+Comp+Ela: pienemästä
+     pieni+A+Sg+Comp+Ill: pienemphään
+     pieni+A+Sg+Comp+Ade: pienemällä
+     pieni+A+Sg+Comp+Abl: pienemältä
+     pieni+A+Sg+Comp+All: pienemälle
+     pieni+A+Sg+Comp+Ess: pienempännä
+     pieni+A+Pl+Comp+Nom: pienemät
+     pieni+A+Pl+Comp+Gen: pienemitten
+     pieni+A+Pl+Comp+Par: pienemppii
+     pieni+A+Pl+Comp+Tra: pienemiksi
+     pieni+A+Pl+Comp+Abe: pienemittä
+     pieni+A+Pl+Comp+Ine: pienemissä
+     pieni+A+Pl+Comp+Ela: pienemistä
+     pieni+A+Pl+Comp+Ill: pienemphiin
+     pieni+A+Pl+Comp+Ade: pienemillä
+     pieni+A+Pl+Comp+Abl: pienemiltä
+     pieni+A+Pl+Comp+All: pienemille
+     pieni+A+Pl+Comp+Ess: pienempinnä
+     pieni+A+Pl+Comp+Com: pienempine
+
+     pieni+A+Sg+Superl+Nom: pieniin
+     pieni+A+Sg+Superl+Gen: pienimän
+     pieni+A+Sg+Superl+Par: pienimppää
+     pieni+A+Sg+Superl+Tra: pienimäksi
+     pieni+A+Sg+Superl+Abe: pienimättä
+     pieni+A+Sg+Superl+Ine: pienimässä
+     pieni+A+Sg+Superl+Ela: pienimästä
+     pieni+A+Sg+Superl+Ill: pienimphään
+     pieni+A+Sg+Superl+Ade: pienimällä
+     pieni+A+Sg+Superl+Abl: pienimältä
+     pieni+A+Sg+Superl+All: pienimälle
+     pieni+A+Sg+Superl+Ess: pienimpännä
+     pieni+A+Pl+Superl+Nom: pienimät
+     pieni+A+Pl+Superl+Gen: pienimitten
+     pieni+A+Pl+Superl+Par: pienimppii
+     pieni+A+Pl+Superl+Tra: pienimiksi
+     pieni+A+Pl+Superl+Abe: pienimittä
+     pieni+A+Pl+Superl+Ine: pienimissä
+     pieni+A+Pl+Superl+Ela: pienimistä
+     pieni+A+Pl+Superl+Ill: pienimphiin
+     pieni+A+Pl+Superl+Ade: pienimillä
+     pieni+A+Pl+Superl+Abl: pienimiltä
+     pieni+A+Pl+Superl+All: pienimille
+     pieni+A+Pl+Superl+Ess: pienimpinnä
+     pieni+A+Pl+Superl+Com: pienimpine
