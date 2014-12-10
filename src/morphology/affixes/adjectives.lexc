@@ -22,14 +22,17 @@ LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc.
 LEXICON a_21ie  !!= * @CODE@ corresponds to a_21ie etc.
 +A: x_21ie ;
 comp ;
+superl ;
 
 LEXICON a_21ai  !!= * @CODE@ corresponds to a_21ai etc.
 +A: x_21ai ;
 comp ;
+superl ;
 
 LEXICON a_22	!!= * @CODE@  liberaali
 +A: x_22 ;
 comp ;
+superl; 
 
 LEXICON a_22odd	!!= * @CODE@  simppeli
 +A: x_22odd ;
@@ -38,7 +41,7 @@ superl ;
 
 LEXICON a_23	!!= * @CODE@  pimmee
 +A: x_23 ;
-:comp ;
+comp ;
 
 LEXICON a_23ii  !!= * @CODE@ auttii
 +A: x_23ii ;
@@ -247,53 +250,28 @@ LEXICON comp
 +A+Sg+Comp+Gen:%>m%^A%>n K ;
 +A+Sg+Comp+Ill:%>mp%>h%^A%^An K ;
 +A+Sg+Comp+Par:%>mp%^A%>%^A K  ; 
-+A+Sg+Comp+Ess:%>mp%^A%>nn%^A    K ;
-+A+Sg+Comp+Tra:%>m%^A%>ksi   K ;
-+A+Sg+Comp+Ine:%>m%^A%>ss%^A    K ;
-+A+Sg+Comp+Ela:%>m%^A%>st%^A    K ;
-+A+Sg+Comp+All:%>m%^A%>lle    K ;
-+A+Sg+Comp+Ade:%>m%^A%>ll%^A    K ;
-+A+Sg+Comp+Abl:%>m%^A%>lt%^A    K ;
-+A+Sg+Comp+Abe:%>m%^A%>tt%^A    K ;
++A+Sg+Comp+Ess:%>mp%^A%>nn%^A K ;
++A+Sg+Comp:%>m%^A sgpl_cases_odd ;
++A+Pl+Comp:%>m%>i2 sgpl_cases_odd ;
 +A+Pl+Comp+Nom:%>m%^A%>t K ;
 +A+Pl+Comp+Gen:%>m%>i2%>tten K ;
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ; 
 +A+Pl+Comp+Ess:%>mp%>i2%>nn%^A    K ;
-+A+Pl+Comp+Tra:%>m%>i2%>ksi   K ;
-+A+Pl+Comp+Ine:%>m%>i2%>ss%^A    K ;
-+A+Pl+Comp+Ela:%>m%>i2%>st%^A    K ;
-+A+Pl+Comp+All:%>m%>i2%>lle    K ;
-+A+Pl+Comp+Ade:%>m%>i2%>ll%^A    K ;
-+A+Pl+Comp+Abl:%>m%>i2%>lt%^A    K ;
-+A+Pl+Comp+Abe:%>m%>i2%>tt%^A    K ;
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
 LEXICON superl
 +A+Sg+Superl+Nom:%^E2I%>in K ;
+!+A+Superl:%^E2I%>m%^A weak_v_stem ;
 +A+Sg+Superl+Gen:%^E2I%>m%^A%>n K ;
++A+Pl+Superl+Nom:%^E2I%>m%^A%>t K ;
 +A+Sg+Superl+Ill:%^E2I%>mp%>h%^A%^An K ;
 +A+Sg+Superl+Par:%^E2I%>in%>t%^A K  ; 
 +A+Sg+Superl+Ess:%^E2I%>mp%^A%>nn%^A    K ;
 +A+Sg+Superl:%^E2I%>m%^A sgpl_cases_odd ;
 +A+Pl+Superl:%^E2I%>m%>i2 sgpl_cases_odd ;
-!+A+Sg+Superl+Tra:%^E2I%>imm%^A%>ksi   K ;
-!+A+Sg+Superl+Ine:%^E2I%>imm%^A%>ss%^A    K ;
-!+A+Sg+Superl+Ela:%^E2I%>imm%^A%>st%^A    K ;
-!+A+Sg+Superl+All:%^E2I%>imm%^A%>lle    K ;
-!+A+Sg+Superl+Ade:%^E2I%>imm%^A%>ll%^A    K ;
-!+A+Sg+Superl+Abl:%^E2I%>imm%^A%>lt%^A    K ;
-!+A+Sg+Superl+Abe:%^E2I%>imm%^A%>tt%^A    K ;
-+A+Pl+Superl+Nom:%^E2I%>m%^A%>t K ;
 +A+Pl+Superl+Gen:%^E2I%>m%>i2%>tten K ;
 +A+Pl+Superl+Ill:%^E2I%>mp%>h%>i2in K ;
 +A+Pl+Superl+Par:%^E2I%>mpp%>i2%>i K  ; 
 +A+Pl+Superl+Ess:%^E2I%>mp%>i2%>nn%^A    K ;
-!+A+Pl+Superl+Tra:%^E2I%>mm%>i2%>ksi   K ;
-!+A+Pl+Superl+Ine:%^E2I%>mm%>i2%>ss%^A    K ;
-!+A+Pl+Superl+Ela:%^E2I%>mm%>i2%>st%^A    K ;
-!+A+Pl+Superl+All:%^E2I%>mm%>i2%>lle    K ;
-!+A+Pl+Superl+Ade:%^E2I%>mm%>i2%>ll%^A    K ;
-!+A+Pl+Superl+Abl:%^E2I%>mm%>i2%>lt%^A    K ;
-!+A+Pl+Superl+Abe:%^E2I%>mm%>i2%>tt%^A    K ;
 +A+Pl+Superl+Com:%^E2I%>mp%>i2%>ne    K ;
