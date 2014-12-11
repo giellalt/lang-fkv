@@ -13,7 +13,6 @@
 !! ** 2.1 Kaksitavuiset ( pappi)			     = n_21
 !! *** 2.1.1. Kaksitavuiset monikko (housut)     = n_21pl
 !! *** 2.1.2. Kaksitavuiset (joki: joke)         = n_21ie
-!! *** 2.1.3. Kaksitavuiset (kuva:kuvissa)        = n_21ai
 !! ** 2.2. Usseempitav. (opettaaja)		      	 = n_22
 !! *** 2.2.1. Usseempitav. odd (kajava)	          = n_22odd
 !! *** 2.2.2. Usseempitav. odd (meininki, tunturi)	= n_22oddi
@@ -149,24 +148,6 @@ LEXICON x_21ie
 +Pl:%>i2 shortparpl ;
 +Pl+Com:%>i2ne K ;
 
-LEXICON n_21ai	!!= @CODE@ kuva kuvissa
-+N: x_21ai ;
-!+N+Sg+Nom:%^E2I R ; ! %^EI e to i
-
-LEXICON x_21ai 
-           strong_v_stem_even ;
-         short_par ;
-!        :  nomgen_px ;
-         ess_even_sg ;
-         ess_even_pl ;
-        weak_v_stem ;
-     +Sg:%^WG     sgpl_cases_even ;     !to sgpl_cases_even for cases with
-     +Pl:%^WG%>i2 sgpl_cases_even ; !the same affix in sg and pl
-                    2TAVU_V_ill_sg ;
-     +Pl:%>i2 shortestgenpl ;  ! shortestgenpl since we have the i
-     +Pl:%>i2 shortestparpl  ;  
-+Pl+Ill:%>%^HMETAh%^V%>i2 n_PxK ;
-+Pl+Com:%>i2ne K ;
 
 LEXICON n_22	!!= * @CODE@  opettaaja
 +N: x_22 ;
