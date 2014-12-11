@@ -2,9 +2,9 @@
 !!Alphabet
 
  * a b c d đ e f g h i j k l m n o p q         
- * r s t u ü v w x y z å ä ö æ ø               
+ * r s t u ü v w x y z å ä ö æ ø š             
  * A B C D Đ E F G H I J K L M N O P           
- * R S T U V W X Y Z Å Ä Ö Æ Ø                 
+ * R S T U V W X Y Z Å Ä Ö Æ Ø Š               
  * %+:0                                         gemination
  * %^A:ä %^O:ö %^U:y                 archi vowels for harmony
  * %^V %^N:n                         vowel copy sanoo, LNR copy purra
@@ -34,14 +34,14 @@
  * NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;              
  * NotOUI  = e                     y ä ö ü æ ø a ;              
  * NotOUIY = e                       ä ö   æ ø a ;              
-
+ * NotAEI  =                       y ä ö ü æ ø   o u å ;                    
  * NotOUIF =                      y ä ö ü æ ø   ;               and e? (removed 29.1.)
  * NotOUIB =                                  a ;               and e? (removed 29.1.)
  * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;        
  * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;        
 
  * ArchiCns = %^N ;                                             
- * SurfaceCns = b c d đ f g h j k l m n p q r s t v w x z ;     
+ * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;   
  * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                         
  * Segment = Vowel Cns ;                                        
  * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;   
@@ -262,6 +262,7 @@ The -i- rules require different i-s for different POS.
 
 
 __a:o before Pl i and Pret i__  
+
 
 
 
