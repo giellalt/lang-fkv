@@ -50,11 +50,12 @@ comp ;
 LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31 ;
 comp ;
-superl ;
+:%^E2I superl ;
 
 LEXICON a_31si	!!= * @CODE@ uusi
 +A: x_31si ;
 :%^WG comp ;
+:%^E2I superl ;
 
 LEXICON a_32 !!= * @CODE@ tyven
 +A: x_32 ;
@@ -248,6 +249,7 @@ LEXICON a_ton
 LEXICON comp
 +A+Sg+Comp+Nom:%>mpi K ;
 +A+Sg+Comp+Gen:%>m%^A%>n K ;
+!+A+Comp:%>m%^A weak_v_stem ; 
 +A+Sg+Comp+Ill:%>mp%>h%^A%^An K ;
 +A+Sg+Comp+Par:%>mp%^A%>%^A K  ; 
 +A+Sg+Comp+Ess:%>mp%^A%>nn%^A K ;
@@ -261,17 +263,17 @@ LEXICON comp
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
 LEXICON superl
-+A+Sg+Superl+Nom:%^E2I%>in K ;
-!+A+Superl:%^E2I%>m%^A weak_v_stem ;
-+A+Sg+Superl+Gen:%^E2I%>m%^A%>n K ;
-+A+Pl+Superl+Nom:%^E2I%>m%^A%>t K ;
-+A+Sg+Superl+Ill:%^E2I%>mp%>h%^A%^An K ;
-+A+Sg+Superl+Par:%^E2I%>in%>t%^A K  ; 
-+A+Sg+Superl+Ess:%^E2I%>mp%^A%>nn%^A    K ;
-+A+Sg+Superl:%^E2I%>m%^A sgpl_cases_odd ;
-+A+Pl+Superl:%^E2I%>m%>i2 sgpl_cases_odd ;
-+A+Pl+Superl+Gen:%^E2I%>m%>i2%>tten K ;
-+A+Pl+Superl+Ill:%^E2I%>mp%>h%>i2in K ;
-+A+Pl+Superl+Par:%^E2I%>mpp%>i2%>i K  ; 
-+A+Pl+Superl+Ess:%^E2I%>mp%>i2%>nn%^A    K ;
-+A+Pl+Superl+Com:%^E2I%>mp%>i2%>ne    K ;
++A+Sg+Superl+Nom:%>in K ;
+!+A+Superl:%>m%^A weak_v_stem ;
++A+Sg+Superl+Gen:%>m%^A%>n K ;
++A+Pl+Superl+Nom:%>m%^A%>t K ;
++A+Sg+Superl+Ill:%>mp%>h%^A%^An K ;
++A+Sg+Superl+Par:%>in%>t%^A K  ; 
++A+Sg+Superl+Ess:%>mp%^A%>nn%^A    K ;
++A+Sg+Superl:%>m%^A sgpl_cases_odd ;
++A+Pl+Superl:%>m%>i2 sgpl_cases_odd ;
++A+Pl+Superl+Gen:%>m%>i2%>tten K ;
++A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
++A+Pl+Superl+Par:%>mpp%>i2%>i K  ; 
++A+Pl+Superl+Ess:%>mp%>i2%>nn%^A    K ;
++A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
