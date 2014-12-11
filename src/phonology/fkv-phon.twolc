@@ -38,7 +38,7 @@ NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o  å ;       !!= * @CODE@
 NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;             !!= * @CODE@ 
 NotOUI  = e                     y ä ö ü æ ø a ;             !!= * @CODE@ 
 NotOUIY = e                       ä ö   æ ø a ;             !!= * @CODE@ 
-                                
+NotAEI  =                       y ä ö ü æ ø   o u å ;       !!= * @CODE@             
 NotOUIF =                      y ä ö ü æ ø   ;              !!= * @CODE@ and e? (removed 29.1.)
 NotOUIB =                                  a ;              !!= * @CODE@ and e? (removed 29.1.)
 NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;       !!= * @CODE@ 
@@ -595,8 +595,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! !a before i
 
 "a:0 before Pret and Pl i when rounded root vowel"
-a:0 <=> (\a) [ u|([u|o]) o] (:i|i6:) Cns:+ _ (%^AO:0)    [(%^WG:0) %>:  [i2:|i3:] | a:0 ] ;
-      [ #: | .#. ] (Cns:*) Vowel: Cns: (Cns:) [:a|:e] [:v|:m] _ (%^WG:0) (i) %>:  i2: %>: (%^A:);
+a:0 <=>  [ #: | .#. ]  Cns:* (NotAEI)  [ [u|o] ([u|o]) ] (:i|i6:) Cns:+ _ (%^AO:0)    [(%^WG:0) %>:  [i2:|i3:] | a:0 ] ;
+         [ #: | .#. ]  (Cns:*)        Vowel: Cns: (Cns:) [:a|:e] [:v|:m] _ (%^WG:0) (i) %>:  i2: %>: (%^A:);
 
 ! TODO: a:0 ...  (%^AO:0) ... gives unresolved conflict between a:o and a:0, fix this.
 
@@ -607,9 +607,11 @@ a:0 <=> (\a) [ u|([u|o]) o] (:i|i6:) Cns:+ _ (%^AO:0)    [(%^WG:0) %>:  [i2:|i3:
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__  
-a:o <=>  [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] ;
-                                                       (:Cns) [ :k | :l] (:i) :i :j _ %^AO: (Dummy:*)         (%>:) i2: ;                                                           
-              (Cns:*) Vowel:*  Cns:+  (Cns:*) [Vowel: -[o|u]]:+ Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0)          (%>:) i2: ;                                  
+a:o <=>  [ #: | .#. ]                         (Cns:*)   [a|e|i] ([o|u])  Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] (%>:) ;
+!         [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] ;
+                                                        (:Cns) [ :k | :l] (:i) :i :j _ %^AO: (Dummy:*)         %>: i2: (%>:) ;                                                           
+                !   (Cns:*) Vowel:*  Cns  (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0)          (%>:) i2: ;                                  
+
 
 !€ sivakka^WG>i2>tten
 !€ siva0ko00i0tten                                                                
