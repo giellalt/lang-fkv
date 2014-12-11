@@ -3,9 +3,9 @@
 
 Alphabet
 a b c d đ e f g h i j k l m n o p q         !!= * @CODE@
-r s t u ü v w x y z å ä ö æ ø               !!= * @CODE@
+r s t u ü v w x y z å ä ö æ ø š             !!= * @CODE@
 A B C D Đ E F G H I J K L M N O P           !!= * @CODE@
-R S T U V W X Y Z Å Ä Ö Æ Ø                 !!= * @CODE@
+R S T U V W X Y Z Å Ä Ö Æ Ø Š               !!= * @CODE@
 %+:0                                        !!= * @CODE@ gemination
 %^A:ä %^O:ö %^U:y                !!= * @CODE@ archi vowels for harmony
 %^V %^N:n                        !!= * @CODE@ vowel copy sanoo, LNR copy purra
@@ -45,7 +45,7 @@ NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;       !!= * @CODE@
 NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;       !!= * @CODE@ 
 
 ArchiCns = %^N ;                                            !!= * @CODE@ 
-SurfaceCns = b c d đ f g h j k l m n p q r s t v w x z ;    !!= * @CODE@ 
+SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@ 
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@ 
 Segment = Vowel Cns ;                                       !!= * @CODE@ 
 Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;  !!= * @CODE@ 
