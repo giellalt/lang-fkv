@@ -595,9 +595,9 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! !a before i
 
 "a:0 before Pret and Pl i when rounded root vowel"
-a:0 <=>  [ #: | .#. ]  Cns:* (NotAEI)  [ [u|o] ([u|o]) ] (:i|i6:) Cns:+ _ (%^AO:0)    [(%^WG:0) %>:  [i2:|i3:] | a:0 ] ;
+a:0 <=>  [ #: | .#. ]  Cns:* (NotAEI)  [ [u|o] ([u|o]) ] (:i|i6:) Cns:+ _ (%^AO:0)    [(%^WG:0) %>:  [i2:|i3:] | a:0 ] ; ! 2 syllables
          [ #: | .#. ]  (Cns:*)        Vowel: Cns: (Cns:) [:a|:e] [:v|:m] _ (%^WG:0) (i) %>:  i2: %>: (%^A:);
-
+                      (Cns:*)        Vowel: Cns: (Cns:)  _ (%^WG:0) %>: i3: (%>:) ; ! kirjoitan kirjoitin
 ! TODO: a:0 ...  (%^AO:0) ... gives unresolved conflict between a:o and a:0, fix this.
 
 !€ otta^WG>i2n
@@ -607,11 +607,20 @@ a:0 <=>  [ #: | .#. ]  Cns:* (NotAEI)  [ [u|o] ([u|o]) ] (:i|i6:) Cns:+ _ (%^AO:
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__  
-a:o <=>  [ #: | .#. ]                         (Cns:*)   [a|e|i] ([o|u])  Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] (%>:) ;
-!         [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] ;
-                                                        (:Cns) [ :k | :l] (:i) :i :j _ %^AO: (Dummy:*)         %>: i2: (%>:) ;                                                           
-                !   (Cns:*) Vowel:*  Cns  (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0)          (%>:) i2: ;                                  
+a:o <=>  [ #: | .#. ]                         (Cns:*)   [a|e|i] ([u|i|e|a])  Cns: (Cns:) _ %^AO: (%^WG:0) %>: [i2: | i3: ] (%>:) ; ! 2 syllables
+!a:o <=>  [ #: | .#. ]                         (Cns:*)   [a|e|i] ([o|u])  Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] (%>:) ;
+!         [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] ; !
+                                                        (:Cns) [ :k | :l] (:i) :i :j _ %^AO: (Dummy:*)         %>: i2: (%>:) ; ! kulkkiija kulkiijoissa                                                         
+                 (Cns:*) Vowel:*  Cns  (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0)          (%>:) i2: ; ! sivakka sivakoissa                                 
 
+!€ kal0a>i2en ! vaara, aika, kaula
+!€ kallo>ien
+ 
+!€ linna>i2en ! liina, hieta, kiusa
+!€ linno>jen
+
+!€ kela>i2en ! eeva, keila, keula
+!€ kelo>jen
 
 !€ sivakka^WG>i2>tten
 !€ siva0ko00i0tten                                                                
