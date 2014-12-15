@@ -395,17 +395,29 @@ LEXICON yh_indef
 
 
 LEXICON kaik_kvant
-+Nom:ki       K ;
-+Gen:en     K ;
-+Ill:keen   K ;
-+Par:esta    K ;
-+Ess:kena    K ;
-+Tra:iksi   K ;
-+Ine:kessa   K ;
-+Ela:kesta   K ;
-+All:kele    K ;
-+Ade:kela    K ;
-+Abl:kelta   K ;
++Sg+Nom:kaikki       K ;
++Sg+Gen:kaiken     K ;
++Sg+Ill:kaikkeen   K ;
++Sg+Par:kaikesta    K ;
++Sg+Ess:kaikkena    K ;
++Sg+Tra:kaikiksi   K ;
++Sg+Ine:kaikessa   K ;
++Sg+Ela:kaikesta   K ;
++Sg+All:kaikele    K ;
++Sg+Ade:kaikela    K ;
++Sg+Abl:kaikelta   K ;
+
++Pl+Nom:kaiket       K ; 
++Pl+Gen:kaikien     K ;
++Pl+Ill:kaikkiin   K ;
++Pl+Par:kaikista    K ;
++Pl+Ess:kaikkina    K ;
++Pl+Tra:kaikiksi   K ;
++Pl+Ine:kaikissa   K ;
++Pl+Ela:kaikista   K ;
++Pl+All:kaikile    K ;
++Pl+Ade:kaikila    K ;
++Pl+Abl:kaikilta   K ;
 
 
 LEXICON koko_kvant
