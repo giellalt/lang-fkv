@@ -369,8 +369,9 @@ k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !
 "Gradation k:0" 
 !k:0 <=>               h _ Vowel        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
 k:0 <=>                h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat, uhata - uhkaa
-                    (u)  [ a | o ] _ [ a | o]           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata, koota - kokoo, huoata - huokaa
-            [i u| a u | y |u ] (h) _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukee - laueta,liuota-liukee, puheta - puhkee
+             [ .#. | #: ] Cns (u)  [ a | o ] _ [ a | o] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata, koota - kokkoo or kovota kokkoo???, huoata - huokkaa
+            [i u| a u | y ] _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukkee - laueta,liuota-liukkee
+            [ .#. | #: ] Cns  u  h _ e  %^WG:0 ; ! puheta - puhkee 
     NotOUIF: [ l | r ] _ NotEYUF:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
          [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0 ; ! ikene- - ien
      NotOUIB: [ l | r ] _ NotEYUB: (Dummy:) (:i) (Dummy:) %^WG:0 ; ! märkä - märät 
@@ -397,6 +398,10 @@ k:v <=>     [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 !€ puku^WG>n
 !€ puvu0>n
+
+!€ parku^WG>n
+!€ parvu0>n
+
 
 "Gradation nk:ng"
 !! __@RULENAME@__ 
