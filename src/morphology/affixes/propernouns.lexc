@@ -120,6 +120,7 @@ LEXICON prop_org_21
 +N+Prop+Org: Rhyph ;
 
 LEXICON prop_org_21C
++N+Prop+Org+Sg+Nom: K ;
 +N+Prop+Org:i x_21 ;
 +N+Prop+Org: Rhyph ;
 
@@ -128,6 +129,7 @@ LEXICON prop_plc_21
 +N+Prop+Plc: Rhyph ;
 
 LEXICON prop_plc_21C
++N+Prop+Plc+Sg+Nom: K ;
 +N+Prop+Plc:i x_21 ;
 +N+Prop+Plc: Rhyph ;
 
@@ -136,6 +138,7 @@ LEXICON prop_sur_21
 +N+Prop+Sur: Rhyph ;
 
 LEXICON prop_sur_21C
++N+Prop+Plc+Sg+Nom: K ;
 +N+Prop+Sur:i x_21 ;
 +N+Prop+Sur: Rhyph ;
 
@@ -158,6 +161,8 @@ LEXICON prop_surplc_21
 +N+Prop: Rhyph ;
 
 LEXICON prop_surplc_21C
++N+Prop+Plc+Sg+Nom: K ;
++N+Prop+Sur+Sg+Nom: K ;
 +N+Prop+Sur:i x_21 ;
 +N+Prop+Plc:i x_21 ;
 +N+Prop: Rhyph ;
