@@ -14,10 +14,10 @@
 
 
 
-LEXICON K_V
+LEXICON K_V  !!= @CODE@ 
 K ;
 
-LEXICON K !!= is for all clitica except the ones following negative ei
+LEXICON K !!= @CODE@ is for all clitica except the ones following negative ei
  ENDLEX ;
  @D.compound.block@+Clt:@D.compound.block@%>kin ENDLEX ;
  @D.compound.block@+Clt:@D.compound.block@%>ki ENDLEX ;
@@ -29,7 +29,7 @@ LEXICON K_NEG !!= @CODE@ is for eikä
  @D.compound.block@+Clt+Qst:@D.compound.block@%>k%^A ENDLEX ;
  K_NEUTRAL ;
 
-LEXICON K_NEUTRAL !!= is the clitic lexicon common to ei and the rest
+LEXICON K_NEUTRAL  !!= @CODE@  is the clitic lexicon common to ei and the rest
  @D.compound.block@+Clt+Qst:@D.compound.block@%>k%^O ENDLEX ;
  @D.compound.block@+Clt+Qst:@D.compound.block@%>k%^Os ENDLEX ;
  @D.compound.block@+Clt:@D.compound.block@%>h%^An ENDLEX ;
@@ -38,5 +38,5 @@ LEXICON K_NEUTRAL !!= is the clitic lexicon common to ei and the rest
  @D.compound.block@+Clt:@D.compound.block@%>kh%^A%^An ENDLEX ;
  @D.compound.block@+Clt:@D.compound.block@%>h%^A%^An ENDLEX ;
 
-LEXICON ENDLEX
+LEXICON ENDLEX  !!= @CODE@ gives #
 # ;
