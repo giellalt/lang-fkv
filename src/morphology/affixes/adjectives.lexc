@@ -173,8 +173,15 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A:%>tt%^Om a_loputonpl ;
 +A+Pl+Com:%>tt%^Om%>i2ne K ;
 
+:%>tt%^Om%^A comp_mm ;
+:%>tt%^Omi superl_mm ;
++A+Sg+Superl:%>tt%^Om superl_in ;
+
 LEXICON a_43odd !!= * @CODE@ onneton
 +A: x_43odd ;
+:%>tt%^Om%^A comp_onneton ;
+:%>tt%^Ommii superl_onneton ;
++A+Sg+Superl:%>tt%^Ommi superl_in ;
 
 LEXICON MATONodd !!= @CODE@ ! käymättömäle le la na
 +A: x_43odd ;
@@ -191,7 +198,6 @@ LEXICON x_43odd !!= * @CODE@ onneton
 :%>tt%^Om%^A a_loputoneven ;
 :%>tt%^Om a_loputonevenpl ;
 +Pl+Com:%>tt%^Om%>i2ne K ;
-
 
 
 !! !!!Basic paradigms
@@ -254,12 +260,29 @@ LEXICON comp
 +A+Sg+Comp+Gen:%>m%^A%>n K ;
 !+A+Comp:%>m%^A weak_v_stem ; 
 +A+Sg+Comp+Ill:%>mp%>h%^A%^An K ;
-+A+Sg+Comp+Par:%>mp%^A%>%^A K  ; 
-+A+Sg+Comp+Ess:%>mp%^A%>nn%^A K ;
++A+Sg+Comp+Par:%>mp%^A%>%^A K  ;
 +A+Sg+Comp:%>m%^A sgpl_cases_odd ;
-+A+Pl+Comp:%>m%>i2 sgpl_cases_odd ;
++A+Pl+Comp:%>m%>i2 sgpl_cases_odd ; 
++A+Sg+Comp+Ess:%>mp%^A%>nn%^A K ;
 +A+Pl+Comp+Nom:%>m%^A%>t K ;
 +A+Pl+Comp+Gen:%>m%>i2%>tten K ;
++A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
++A+Pl+Comp+Par:%>mpp%>i2%>i K  ; 
++A+Pl+Comp+Ess:%>mp%>i2%>nn%^A    K ;
++A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
+
+LEXICON comp_onneton
++A+Sg+Comp+Nom:%>mpi K ;
++A+Sg+Comp+Gen:%>m%^A%>n K ;
+!+A+Comp:%>m%^A weak_v_stem ; 
++A+Sg+Comp+Ill:%>mp%>h%^A%^An K ;
++A+Sg+Comp+Par:%>mp%^A%>%^A K  ;
++A+Sg+Comp:%>m%^A sgpl_cases_odd ;
++A+Pl+Comp:%>m%>i2 sgpl_cases_odd ; 
++A+Sg+Comp+Ess:%>mp%^A%>nn%^A K ;
++A+Pl+Comp+Nom:%>m%^A%>t K ;
+!+A+Pl+Comp+Gen:%>m%>i2%>tten K ;
++A+Pl+Comp+Gen:%>mpp%>i2%>in K ;
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ; 
 +A+Pl+Comp+Ess:%>mp%>i2%>nn%^A    K ;
@@ -295,6 +318,23 @@ LEXICON superl
 +A+Sg+Superl:%>m%^A sgpl_cases_odd ;
 +A+Pl+Superl:%>m%>i2 sgpl_cases_odd ;
 +A+Pl+Superl+Gen:%>m%>i2%>tten K ;
++A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
++A+Pl+Superl+Par:%>mpp%>i2%>i K  ; 
++A+Pl+Superl+Ess:%>mp%>i2%>nn%^A    K ;
++A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
+
+LEXICON superl_onneton
+!+A+Sg+Superl+Nom:%>in K ;
+!+A+Sg+Superl: superl_in ;
+!+A+Superl:%>m%^A weak_v_stem ;
++A+Sg+Superl+Gen:%>m%^A%>n K ;
++A+Pl+Superl+Nom:%>m%^A%>t K ;
++A+Sg+Superl+Ill:%>mp%>h%^A%^An K ;
+!+A+Sg+Superl+Par:%>in%>t%^A K  ; 
++A+Sg+Superl+Ess:%>mp%^A%>nn%^A    K ;
++A+Sg+Superl:%>m%^A sgpl_cases_odd ;
++A+Pl+Superl:%>m%>i2 sgpl_cases_odd ;
++A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ; 
 +A+Pl+Superl+Ess:%>mp%>i2%>nn%^A    K ;
