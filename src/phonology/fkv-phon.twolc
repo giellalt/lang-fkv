@@ -584,18 +584,19 @@ j:0 <=> l _ e: %^E2I:0 ;
 !€ aukaise>i3
 !€ aukais0>i
 
-
 !! !!i rules
 !  =========
 !! The -i- rules require different i-s for different POS.
 
 "i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense" 
- i:0 <=>          Cns: _         %>:  :i %>: [ %^V: n | %^V: ] ; ! ristien
+ i:0 <=>          Cns: _         %>:  :i (%^AO:) (%^WG:) %>: [ %^V: n | %^V: | t t e ] ; ! ristien, kväänitten
                   Cns: _ Dummy:* %>: [ i3:i | i4:i ] ; ! leikin, tohtisin
          [a|e|o|u|y|ö] _         %>: [ i2:i | i ] ;   ! tuoresta0>i2ksi
          
 !# risti>i2>^Vn
 !0 rist0>i>en
+!# kvääni>i2>tten
+!# kvään00i0tten
 
 
 !! !!a rules
