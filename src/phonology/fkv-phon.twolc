@@ -67,7 +67,7 @@ Rules
   "Gemination VXi"
   !! __@RULENAME@__ 
 !0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
-0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) Cx _  :Vowel %>:  [:i - i3:] (i2:i) ;
+0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) Cx _  :Vowel (%^AO:0) %>:  [:i - i3:] (i2:i) ;
          Cns:*  Vowel:* Vowel (Vowel:) :Cx _  e:0 %^E2I:0 %>: i2:i %>: %^V:i  ;
          where Cx in ( k p t s v ) ;
 
@@ -75,7 +75,7 @@ Rules
 !€ sop0i>^V
 !€ soppi>i
 
-!€ aik0a>i2
+!€ aik0a^AO>i2
 !€ aikko>i
 
 !€ jok0e>i2>i
@@ -617,7 +617,7 @@ a:0 <=>  [ #: | .#. ]  Cns:* (NotAEI)  [ [u|o] ([u|o]) ] (:i|i6:) Cns:+ _ (%^AO:
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__  
-a:o <=>  [ #: | .#. ]                         (Cns:*)   [a|e|i] ([u|i|e|a])  Cns: (Cns:) _ %^AO: (%^WG:0) %>: [i2: | i3: ] (%>:) ; ! 2 syllables
+a:o <=>  [ #: | .#. ]                         (Cns:*)   [a|e|i] ([u|i|e|a])  Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0) %>: [i2: | i3: ] (%>:) ; ! 2 syll
 !a:o <=>  [ #: | .#. ]                         (Cns:*)   [a|e|i] ([o|u])  Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] (%>:) ;
 !         [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %>: [i2: | i3: ] ; !
                                                         (:Cns) [ :k | :l] (:i) :i :j _ %^AO: (Dummy:*)         %>: i2: (%>:) ; ! kulkkiija kulkiijoissa                                                         
