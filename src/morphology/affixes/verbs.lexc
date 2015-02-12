@@ -244,6 +244,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 
 LEXICON v2 !!= @CODE@ anttaat:anta 
 +V+Inf:%>%^Vt K ; 
++V+Inf+Err/Sub:%>%^A K ;  ! suomalainen inf
 +V+Act+Ind+Prs:%^WG v12pers_short ;
 +V+Act+Ind+Prt:%^AO%^WG%>i3 v12pers_short ;
 +V+Act+Ind+Prs+Sg3:%>%^V K ;
@@ -279,7 +280,8 @@ LEXICON v2 !!= @CODE@ anttaat:anta
 +V+Act+Inf3:%>m%^A MATON ;
 
 LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
-+V+Inf:%>%^Vt K ; 
++V+Inf:%>%^Vt K ;        ! kveenin inf valmistuut
++V+Inf+Err/Sub:%>%^A K ; ! suomalainen inf valmistua
 +V+Act+Ind+Prs:%^WG v12pers_long ;
 +V+Act+Ind+Prt:%^WG%>i3 v12pers_long ;
 +V+Act+Ind+Prs+Sg3:%>%^V K ;
