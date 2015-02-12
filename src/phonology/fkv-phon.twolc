@@ -326,7 +326,7 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 "Gradation p:v"
 !! __@RULENAME@__ 
  p:v <=> Vowel: _ Vowel: (Cns:) Dummy:* (:i) Dummy:* %^WG:0 ;
-              r _ a %^WG:0 ;
+          [r|l] _ a %^WG:0 ;
 
 
 !€ napa^WG>n
@@ -335,6 +335,8 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 !€ taival0
 !€ varpa^WG
 !€ varva0
+!€ halpa^WG
+!€ halva0
 
 !! !Gradation of -k-
 
