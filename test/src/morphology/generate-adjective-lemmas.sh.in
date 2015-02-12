@@ -9,7 +9,7 @@
 
 # To run this test script only, do:
 #
-# make check TESTS=generate-noun-lemmas.sh
+# make check TESTS=generate-adjective-lemmas.sh
 
 # This test script will test that all noun lemmas do generate as themselves.
 # Extend as needed, and copy to new files to adapt to other parts of speech.
@@ -21,13 +21,13 @@
 
 ###### Variables: #######
 ### in ###
-source_file=${srcdir}/../../../src/morphology/stems/nouns.lexc
+source_file=${srcdir}/../../../src/morphology/stems/adjectives.lexc
 generator_file=./../../../src/generator-gt-norm
 
 ### out ###
-lemmas=./filtered-nouns
-generated_lemmas=./generated-nouns
-result_file=${srcdir}/missing_noun_lemmas.txt
+lemmas=./filtered-adjectives
+generated_lemmas=./generated-adjectives
+result_file=${srcdir}/missing_adjective_lemmas.txt
 
 # FAIL if source file does not exist:
 if [ ! -f $sourcefile ]; then
@@ -54,9 +54,9 @@ EXTEDITOR=@SEE@
 
 ##### Extract lemmas #####
 ### don't use extract-lemmas.sh ###
-# Hent ut lemmaer fra den nouns.lexc, bortsett fra utkommmenterte (^\!), 
+# Hent ut lemmaer fra adjective.lexc, bortsett fra utkommmenterte (^\!), 
 # dem som krever sammensetning (CmpN/Only|ShCmp|RCmpnd| Rreal | R | Rnoun),
-# LexSub (som blir filtrert bort fra normgenerator). Lemmaene lagres som filtered-nouns
+# LexSub (som blir filtrert bort fra normgenerator). Lemmaene lagres som filtered-adjectives
 
 grep ";" $source_file | \
   egrep -v "^(\!|\@|<)" | \
@@ -87,23 +87,23 @@ for f in $fsttype; do
 	    echo "$f - FAIL"
 	    continue
 	fi
-	echo "$generator_file.$suffix"
+#	echo "$generator_file.$suffix"
 	if [ -f "$generator_file.$suffix" ]; then
 		let "transducer_found += 1"
 
 ###### Test non-comopunds: #######
 		# generate nouns in Singular, extract the resulting generated lemma,
 		# store it:
-# Generer lemmaer i nouns med +N+Sg+Nom, lagre i generated-nouns
-sed 's/$/+N+Sg+Nom/' $lemmas | $lookuptool $generator_file.$suffix | \
-  cut -f2 | grep -v "N+" | grep -v "^$" | sort -u > $generated_lemmas.$f.txt		
+# Generer lemmaer i adjectives med +N+Sg+Nom, lagre i generated-adjectives
+        sed 's/$/+A+Sg+Nom/' $lemmas | $lookuptool $generator_file.$suffix | \
+          cut -f2 | grep -v "A+" | grep -v "^$" | sort -u > $generated_lemmas.$f.txt		
 		
-# Generer plurale lemmaer i filtered-nouns med +N+Pl+Nom (som ikke lar seg generer med +N+Sg+Nom).
-# Lagre dem i generated-nouns
-sed 's/$/+N+Sg+Nom/' $lemmas | $lookuptool $generator_file.$suffix | \
-  cut -f2 | grep "N+" | cut -d "+" -f1 | sed 's/$/+N+Pl+Nom/' | \
-  $lookuptool $generator_file.$suffix | \
-  cut -f2 | grep -v "^$" >> $generated_lemmas.$f.txt 
+# Generer plurale lemmaer i filtered-adjectives med +N+Pl+Nom (som ikke lar seg generer med +N+Sg+Nom).
+# Lagre dem i generated-adjectives
+		sed 's/$/+A+Sg+Nom/' $lemmas | $lookuptool $generator_file.$suffix | \
+		cut -f2 | grep "A+" | cut -d "+" -f1 | sed 's/$/+A+Pl+Nom/' | \
+		$lookuptool $generator_file.$suffix | \
+		cut -f2 | grep -v "^$" >> $generated_lemmas.$f.txt 
 
 
 ###### Collect results: #######
@@ -111,14 +111,14 @@ sed 's/$/+N+Sg+Nom/' $lemmas | $lookuptool $generator_file.$suffix | \
 		# stored and opened in SEE:
 
 # Sorter, unifiser
-sort -u -o $lemmas $lemmas 
-sort -u -o $generated_lemmas.$f.txt $generated_lemmas.$f.txt 
+		sort -u -o $lemmas $lemmas 
+		sort -u -o $generated_lemmas.$f.txt $generated_lemmas.$f.txt 
 
 # Sammenlikne: Former som er i lemmalista med ikke i lista med genererte former,
-# lagre i missingnounLemmas.txt. Formene generes med  +N+Sg+Nom for enklere debugging.
-comm -23 $lemmas $generated_lemmas.$f.txt |\
-  grep -v '^$' | sed 's/$/+N+Sg+Nom/' |\
-  $lookuptool $generator_file.$suffix > $result_file.$f.txt
+# lagre i missingadjectiveLemmas.txt. Formene generes med  +A+Sg+Nom for enklere debugging.
+		comm -23 $lemmas $generated_lemmas.$f.txt |\
+		grep -v '^$' | sed 's/$/+A+Sg+Nom/' |\
+		$lookuptool $generator_file.$suffix > $result_file.$f.txt
 
 		# Open the diff file in SubEthaEdit (if there is a diff):
 		if [ -s $result_file.$f.txt ]; then
