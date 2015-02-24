@@ -51,8 +51,8 @@ LEXICON prop_21ie
 +N+Prop: Rhyph ;
 
 LEXICON prop_plc_21ie
-+N+Prop+Plc: x_21ie ;
-+N+Prop+Plc: Rhyph ;
++N+Prop+Sem/Plc: x_21ie ;
++N+Prop+Sem/Plc: Rhyph ;
 
 LEXICON prop_21C
 +N+Prop+Sg+Nom: x_21 ;
@@ -64,8 +64,8 @@ LEXICON prop_42
 +N+Prop: Rhyph ;
 
 LEXICON PROP-plc
-+N+Prop+Plc: x_21 ;
-+N+Prop+Plc: Rhyph ;
++N+Prop+Sem/Plc: x_21 ;
++N+Prop+Sem/Plc: Rhyph ;
 
 LEXICON PROP-sur
 +N+Prop+Sur: x_21 ;
@@ -125,20 +125,20 @@ LEXICON prop_org_21C
 +N+Prop+Org: Rhyph ;
 
 LEXICON prop_plc_21
-+N+Prop+Plc: x_21 ;
-+N+Prop+Plc: Rhyph ;
++N+Prop+Sem/Plc: x_21 ;
++N+Prop+Sem/Plc: Rhyph ;
 
 LEXICON prop_plc_21C
-+N+Prop+Plc+Sg+Nom: K ;
-+N+Prop+Plc:i x_21 ;
-+N+Prop+Plc: Rhyph ;
++N+Prop+Sem/Plc+Sg+Nom: K ;
++N+Prop+Sem/Plc:i x_21 ;
++N+Prop+Sem/Plc: Rhyph ;
 
 LEXICON prop_sur_21
 +N+Prop+Sur: x_21 ;
 +N+Prop+Sur: Rhyph ;
 
 LEXICON prop_sur_21C
-+N+Prop+Plc+Sg+Nom: K ;
++N+Prop+Sem/Plc+Sg+Nom: K ;
 +N+Prop+Sur:i x_21 ;
 +N+Prop+Sur: Rhyph ;
 
@@ -157,23 +157,23 @@ prop_fem_21C ;
 
 LEXICON prop_surplc_21
 +N+Prop+Sur: x_21 ;
-+N+Prop+Plc: x_21 ;
++N+Prop+Sem/Plc: x_21 ;
 +N+Prop: Rhyph ;
 
 LEXICON prop_surplc_21C
-+N+Prop+Plc+Sg+Nom: K ;
++N+Prop+Sem/Plc+Sg+Nom: K ;
 +N+Prop+Sur+Sg+Nom: K ;
 +N+Prop+Sur:i x_21 ;
-+N+Prop+Plc:i x_21 ;
++N+Prop+Sem/Plc:i x_21 ;
 +N+Prop: Rhyph ;
 
 LEXICON prop_42_sur ! lisätty koska muuten make ei toimi
 +N+Prop+Sur:i x_21 ;
-+N+Prop+Plc:i x_21 ;
++N+Prop+Sem/Plc:i x_21 ;
 +N+Prop: Rhyph ;
 
 LEXICON prop_42_surplc ! lisätty koska muuten make ei toimi
 +N+Prop+Sur:i x_21 ;
-+N+Prop+Plc:i x_21 ;
++N+Prop+Sem/Plc:i x_21 ;
 +N+Prop: Rhyph ;
           
