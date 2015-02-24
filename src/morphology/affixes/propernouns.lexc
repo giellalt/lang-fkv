@@ -108,12 +108,12 @@ LEXICON prop_malfem_21C
 +N+Prop:%i R ;
 
 LEXICON prop_obj_21
-+N+Prop+Obj: x_21 ;
-+N+Prop+Obj: Rhyph ;
++N+Prop+Sem/Obj: x_21 ;
++N+Prop+Sem/Obj: Rhyph ;
 
 LEXICON prop_obj_21C
-+N+Prop+Obj:i x_21 ;
-+N+Prop+Obj: Rhyph ;
++N+Prop+Sem/Obj:i x_21 ;
++N+Prop+Sem/Obj: Rhyph ;
 
 LEXICON prop_org_21
 +N+Prop+Org: x_21 ;
