@@ -90,20 +90,20 @@ LEXICON prop_fem_21C
 +N+Prop+Sem/Fem:i x_21 ;
 
 LEXICON prop_mal_21
-+N+Prop+Mal: x_21 ;
-+N+Prop+Mal: Rhyph ;
++N+Prop+Sem/Mal: x_21 ;
++N+Prop+Sem/Mal: Rhyph ;
 
 LEXICON prop_mal_21C
-+N+Prop+Mal:i x_21 ;
-+N+Prop+Mal:i Rhyph ;
++N+Prop+Sem/Mal:i x_21 ;
++N+Prop+Sem/Mal:i Rhyph ;
 
 LEXICON prop_malfem_21
-+N+Prop+Mal: x_21 ;
++N+Prop+Sem/Mal: x_21 ;
 +N+Prop+Sem/Fem: x_21 ;
 +N+Prop: Rhyph ;
 
 LEXICON prop_malfem_21C
-+N+Prop+Mal:i x_21 ;
++N+Prop+Sem/Mal:i x_21 ;
 +N+Prop+Sem/Fem:i x_21 ;
 +N+Prop:%i R ;
 
@@ -144,7 +144,7 @@ LEXICON prop_sur_21C
 
 LEXICON prop_surmal_21
 +N+Prop+Sem/Sur: x_21 ;
-+N+Prop+Mal: x_21 ;
++N+Prop+Sem/Mal: x_21 ;
 +N+Prop+Sem/Sur: Rhyph ;
 
 LEXICON prop_surmal_21C
