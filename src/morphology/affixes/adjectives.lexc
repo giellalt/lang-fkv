@@ -81,7 +81,7 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 +A:m%^A weak_v_stem ;
 +A+Pl:m%>i2 sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 +A+Pl:%>mi%>i2 longparpl ;
-+A+Pl:mi%>i2 tt_longgenpl ;
++A+Pl:m%>ii2 tt_longgenpl ;
 +A+Pl:m%^HMETAh%>i2i shortestillpl;
 +A+Pl+Com:m%>i2ne K ;
 
@@ -153,7 +153,9 @@ LEXICON a_42 !!= * @CODE@ varovainen
 
 LEXICON a_42odd !!= * @CODE@ sininen
 +A: x_42odd ;
-
+:se comp_mm ;
+:si superl_mm ;
++A+Sg+Superl:ssi superl_in ;
 
 LEXICON MATON !!= @CODE@ ! ajattelemattomalle lle lla nna
 +A: a_43 ;
@@ -299,7 +301,8 @@ LEXICON comp_mm
 +A+Sg+Comp:%>mm%^A sgpl_cases_even ;
 +A+Pl+Comp:%>mm%>i2 sgpl_cases_even ;
 +A+Pl+Comp+Nom:%>mm%^A%>t K ;
-+A+Pl+Comp+Gen:%>mpp%>i2in K ;
+!+A+Pl+Comp+Gen:%>mpp%>i2in K ;
++A+Pl+Comp+Gen:%>mm%>ii2tten K ;
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ; 
 +A+Pl+Comp+Ess:%>mp%>i2%>n%^A    K ;
@@ -351,7 +354,8 @@ LEXICON superl_mm
 +A+Sg+Superl+Ess:%>mp%^A%>n%^A    K ;
 +A+Sg+Superl:%>mm%^A sgpl_cases_even ;
 +A+Pl+Superl:%>mm%>i2 sgpl_cases_even ;
-+A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
+!+A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
++A+Pl+Superl+Gen:%>mm%>ii2%>tten K ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ; 
 +A+Pl+Superl+Ess:%>mp%>i2%>n%^A    K ;
