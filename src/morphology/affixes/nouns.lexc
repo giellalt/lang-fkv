@@ -416,8 +416,8 @@ LEXICON x_32m_pl
 :me weak_v_stem_pl ;
 :me weak_v_stem ;
 +Pl:m%>i2 sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
-+Pl:%>mi%>i2 longparpl ;
-+Pl:mi%>i2 tt_longgenpl ;
++Pl:mi%>i2 longparpl ;
++Pl:m%>ii2 tt_longgenpl ;
 +Pl:m%^HMETAh%>i2i shortestillpl;
 +Pl+Com:m%>i2ne K ;
 
