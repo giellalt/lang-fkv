@@ -24,8 +24,8 @@
 # EITHER: Add weights (modify as needed):
 $(GT_SPELLER_HFST): ../$(GT_SPELLER_HFST)
 	$(AM_V_GEN)cat $< \
-		| $(HFST_REWEIGHT) -a 0.1 -S +Cmp   \
-		| $(HFST_REWEIGHT) -a 0.1 -S +Der   \
+		| $(HFST_REWEIGHT) -a 1.0 -S +Cmp   \
+		| $(HFST_REWEIGHT) -a 0.5 -S +Der   \
 		| $(HFST_REMOVE_EPSILONS) \
 		| $(HFST_PUSH_WEIGHTS) -p end \
 		| $(HFST_DETERMINIZE) \
