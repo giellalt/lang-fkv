@@ -10,66 +10,66 @@ LEXICON AdjectiveRoot
 
 !! !!2.1 Kaksitavvuiset lyhykäisvokaaliset rangat
 
-laiha           a_21 ; !!= * @CODE@
-turha           a_21 ;
-hieno 			a_21 ; !!= * @CODE@ needs own adj lex tag
+laiha a_21 ; !!= * @CODE@
+turha a_21 ;
+hieno a_21 ; !!= * @CODE@ needs own adj lex tag
 
 !! !!2.2. Usseempitavvuiset lyhykäisvokaaliset rangat 
 
 
-liberaali 		a_22 ;	!!= * @CODE@
-simppeli 		a_22odd ;
+liberaali a_22 ; !!= * @CODE@
+simppeli a_22odd ;
 
 !! !!2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
 
-valkkee:valkke   a_23 ; !!= * @CODE@ 
-selkkee:selkke   a_23 ; 
-kauhee:kauhe     a_23 ;
-auttii:autt2ii   a_23ii ; !!= * @CODE@ 
+valkkee:valkke a_23 ; !!= * @CODE@ 
+selkkee:selkke a_23 ; 
+kauhee:kauhe a_23 ;
+auttii:autt2ii a_23ii ; !!= * @CODE@ 
 
 
 !! !!3. Konsonanttirankaiset
 
 !! !!3.1. Kaksitavuiset
-nuori:nuore           a_31 ;                                                    
+nuori:nuore a_31 ; 
 
-uusi:uute            a_31si ; !!= * @CODE@
-täysi:täyte          a_31si ;
+uusi:uute a_31si ; !!= * @CODE@
+täysi:täyte a_31si ;
 
 
 !! !!3.2 Usseaempitavuiset
 
-tyven               a_32 ; !!= * @CODE@
+tyven a_32 ; !!= * @CODE@
 
-vasen:vase 			a_32ma ; !!= * @CODE@
+vasen:vase a_32ma ; !!= * @CODE@
 
 !! !!3.3 Kokoontuma
  
-rakas:rakk          a_33as ;
-tyyris:tyyr         a_33is ;
-voimakas:voimakk    a_33as ;
+rakas:rakk a_33as ;
+tyyris:tyyr a_33is ;
+voimakas:voimakk a_33as ;
 
-tuoret:tuor         a_33t ;
-tervet:terv         a_33t ;
-vaipunu:vaipun      a_33u ;
-väsyny:väsyn        a_33y ;
+tuoret:tuor a_33t ;
+tervet:terv a_33t ;
+vaipunu:vaipun a_33u ;
+väsyny:väsyn a_33y ;
 
 
 
 !! !! 4. Ekstrakonsonanttirankaiset
 
-!! !!4.1  ekstrakonsonanttirankaiset 
+!! !!4.1 ekstrakonsonanttirankaiset 
 
-veres:vere        a_41 ; !!= * @CODE@
+veres:vere a_41 ; !!= * @CODE@
 
-              
+ 
 !! !! 4.2 -nen-adjektiivit
 
-varovainen:varovai a_42  ;
+varovainen:varovai a_42 ;
 
-vihrinen:vihri     a_42odd ;
-sininen:sini       a_42odd ; !!= * @CODE@
-vestainen:vestai   a_42odd ; !!= * @CODE@
+vihrinen:vihri a_42odd ;
+sininen:sini a_42odd ; !!= * @CODE@
+vestainen:vestai a_42odd ; !!= * @CODE@
 konkreettinen:konkreetti a_42odd ; !!= * @CODE@
 !! !! 4.3 -ton-adjektiivit
 
@@ -82,12 +82,12 @@ konkreettinen:konkreetti a_42odd ; !!= * @CODE@
 
 
 kolmikielinen:kolmikieli a_42odd ; 
-ruijalainen:ruijalai a_42  ; 
-raju a_21  ;
-pikku a_21  ;
-virkku a_21  ;
-lamu a_21  ;
-karu a_21  ;
+ruijalainen:ruijalai a_42 ; 
+raju a_21 ;
+pikku a_21 ;
+virkku a_21 ;
+lamu a_21 ;
+karu a_21 ;
 paha a_21 ;
 laiha a_21 ;
 turha a_21 ;
@@ -456,62 +456,62 @@ määrätön:määrä a_43odd ;
 mitätön:mitä a_43odd ;
 mitätön:mitä a_43odd ;
 mitätön:mitä a_43odd ;
-samanaikhainen:samanaikhai   a_42odd ;
-uuđenaikhainen:uuđenaikhai   a_42odd ;
-nykyaikhainen:nykyaikhai   a_42odd ;
-pitkäaikhainen:pitkäaikhai   a_42odd ;
-kaukhainen:kaukhai   a_42odd ;
-salhainen:salhai   a_42odd ;
-eriskumhainen:eriskumhai   a_42odd ;
-pohjainen:pohjai   a_42odd ;
-hiljainen:hiljai   a_42odd ;
-sekainen:sekai   a_42odd ;
-väliaikainen:väliaikai   a_42odd ;
-likainen:likai   a_42odd ;
-tummatukkainen:tummatukkai   a_42odd ;
-pitkäjalkainen:pitkäjalkai   a_42odd ;
-vastahankainen:vastahankai   a_42odd ;
-lokainen:lokai   a_42odd ;
-paskainen:paskai   a_42odd ;
-nelinuskainen:nelinuskai   a_42odd ;
-puskainen:puskai   a_42odd ;
-oikkeuđenmukainen:oikkeuđenmukai   a_42odd ;
-maalainen:maalai   a_42odd ;
-salainen:salai   a_42odd ;
-evankeelis-lutherilainen:evankeelis-lutherilai   a_42odd ;
-hollantilainen:hollantilai   a_42odd ;
-villainen:villai   a_42odd ;
-höperänlainen:höperänlai   a_42odd ;
-torniolainen:torniolai   a_42odd ;
-kiimainen:kiimai   a_42odd ;
-ylivoimainen:ylivoimai   a_42odd ;
-yksituumainen:yksituumai   a_42odd ;
-vähäsanainen:vähäsanai   a_42odd ;
-punainen:punai   a_42odd ;
-vaaleepunainen:vaaleepunai   a_42odd ;
-aniliinipunainen:aniliinipunai   a_42odd ;
-ruusunpunainen:ruusunpunai   a_42odd ;
-vähävoipainen:vähävoipai   a_42odd ;
-tasainen:tasai   a_42odd ;
-hietainen:hietai   a_42odd ;
-kaitainen:kaitai   a_42odd ;
-ristiraitainen:ristiraitai   a_42odd ;
-väkivaltainen:väkivaltai   a_42odd ;
-keltainen:keltai   a_42odd ;
-punaisenkeltainen:punaisenkeltai   a_42odd ;
-puolihintainen:puolihintai   a_42odd ;
-monikertainen:monikertai   a_42odd ;
-monenkertainen:monenkertai   a_42odd ;
-kahđenkertainen:kahđenkertai   a_42odd ;
-yhđenkertainen:yhđenkertai   a_42odd ;
-yksinkertainen:yksinkertai   a_42odd ;
-virtainen:virtai   a_42odd ;
-vaivainen:vaivai   a_42odd ;
-karvainen:karvai   a_42odd ;
-rasvainen:rasvai   a_42odd ;
+samanaikhainen:samanaikhai a_42odd ;
+uuđenaikhainen:uuđenaikhai a_42odd ;
+nykyaikhainen:nykyaikhai a_42odd ;
+pitkäaikhainen:pitkäaikhai a_42odd ;
+kaukhainen:kaukhai a_42odd ;
+salhainen:salhai a_42odd ;
+eriskumhainen:eriskumhai a_42odd ;
+pohjainen:pohjai a_42odd ;
+hiljainen:hiljai a_42odd ;
+sekainen:sekai a_42odd ;
+väliaikainen:väliaikai a_42odd ;
+likainen:likai a_42odd ;
+tummatukkainen:tummatukkai a_42odd ;
+pitkäjalkainen:pitkäjalkai a_42odd ;
+vastahankainen:vastahankai a_42odd ;
+lokainen:lokai a_42odd ;
+paskainen:paskai a_42odd ;
+nelinuskainen:nelinuskai a_42odd ;
+puskainen:puskai a_42odd ;
+oikkeuđenmukainen:oikkeuđenmukai a_42odd ;
+maalainen:maalai a_42odd ;
+salainen:salai a_42odd ;
+evankeelis-lutherilainen:evankeelis-lutherilai a_42odd ;
+hollantilainen:hollantilai a_42odd ;
+villainen:villai a_42odd ;
+höperänlainen:höperänlai a_42odd ;
+torniolainen:torniolai a_42odd ;
+kiimainen:kiimai a_42odd ;
+ylivoimainen:ylivoimai a_42odd ;
+yksituumainen:yksituumai a_42odd ;
+vähäsanainen:vähäsanai a_42odd ;
+punainen:punai a_42odd ;
+vaaleepunainen:vaaleepunai a_42odd ;
+aniliinipunainen:aniliinipunai a_42odd ;
+ruusunpunainen:ruusunpunai a_42odd ;
+vähävoipainen:vähävoipai a_42odd ;
+tasainen:tasai a_42odd ;
+hietainen:hietai a_42odd ;
+kaitainen:kaitai a_42odd ;
+ristiraitainen:ristiraitai a_42odd ;
+väkivaltainen:väkivaltai a_42odd ;
+keltainen:keltai a_42odd ;
+punaisenkeltainen:punaisenkeltai a_42odd ;
+puolihintainen:puolihintai a_42odd ;
+monikertainen:monikertai a_42odd ;
+monenkertainen:monenkertai a_42odd ;
+kahđenkertainen:kahđenkertai a_42odd ;
+yhđenkertainen:yhđenkertai a_42odd ;
+yksinkertainen:yksinkertai a_42odd ;
+virtainen:virtai a_42odd ;
+vaivainen:vaivai a_42odd ;
+karvainen:karvai a_42odd ;
+rasvainen:rasvai a_42odd ;
 vihanen:viha a_42odd ;
 samanaikhanen:samanaikha a_42odd ;
-uuđenaikhanen:uuđenaikha a_42odd  ;
+uuđenaikhanen:uuđenaikha a_42odd ;
 nykyaikhanen:nykyaikha a_42odd ;
 tuhanen:tuha a_42odd ;
 pohjanen:pohja a_42odd ;
@@ -675,160 +675,160 @@ uusi:uute a_31si ;
 täysi:täyte a_31si ;
 vasen:vase a_32ma ;
 vähäinen:vähäise a_32m ;
-latuskainen:latuskai   a_42  ;
-korkukainen:korkukai   a_42  ;
-suurukainen:suurukai   a_42  ;
-talosvankkalainen:talosvankkalai   a_42  ;
-jokalainen:jokalai   a_42  ;
-tuiskalainen:tuiskalai   a_42  ;
-roomalainen:roomalai   a_42  ;
-norjalais-suomalainen:norjalais-suomalai   a_42  ;
-suursuomalainen:suursuomalai   a_42  ;
-pyssyjokilainen:pyssyjokilai   a_42  ;
-puolilainen:puolilai   a_42  ;
-saamilainen:saamilai   a_42  ;
-raisilainen:raisilai   a_42  ;
-paavilainen:paavilai   a_42  ;
-toisenlainen:toisenlai   a_42  ;
-kahđenlainen:kahđenlai   a_42  ;
-yhđenlainen:yhđenlai   a_42  ;
-vanholainen:vanholai   a_42  ;
-minkälainen:minkälai   a_42  ;
-lestadiolainen:lestadiolai   a_42  ;
-vanholaislestaatiolainen:vanholaislestaatiolai   a_42  ;
-tornionlaksolainen:tornionlaksolai   a_42  ;
-suolainen:suolai   a_42  ;
-savolainen:savolai   a_42  ;
-vestakainulainen:vestakainulai   a_42  ;
-alimainen:alimai   a_42  ;
-ulomainen:ulomai   a_42  ;
-etumainen:etumai   a_42  ;
-hajanainen:hajanai   a_42  ;
-aukinainen:aukinai   a_42  ;
-harvinainen:harvinai   a_42  ;
-pikkurainen:pikkurai   a_42  ;
-uskovainen:uskovai   a_42  ;
-alhainen:alhai a_42  ;
-varhainen:varhai a_42  ;
-neljenjalkainen:neljenjalkai a_42  ;
-ohukainen:ohukai a_42  ;
-pitukainen:pitukai a_42  ;
-tanskalainen:tanskalai a_42  ;
-suomalainen:suomalai a_42  ;
-saksalainen:saksalai a_42  ;
-ruottalainen:ruottalai a_42  ;
-juutalainen:juutalai a_42  ;
-vesisaarelainen:vesisaarelai a_42  ;
-erilainen:erilai a_42  ;
-samanlainen:samanlai a_42  ;
-muutamanlainen:muutamanlai a_42  ;
-kaikenlainen:kaikenlai a_42  ;
-pienenlainen:pienenlai a_42  ;
-monenlainen:monenlai a_42  ;
-nuorenlainen:nuorenlai a_42  ;
-senlainen:senlai a_42  ;
-tämänlainen:tämänlai a_42  ;
-jonkulainen:jonkulai a_42  ;
-kainulainen:kainulai a_42  ;
-kokonainen:kokonai a_42  ;
-luottavainen:luottavai a_42  ;
-varovainen:varovai a_42  ;
-rauhalinen:rauhali a_42  ;
-histoorialinen:histooriali a_42  ;
-paikalinen:paikali a_42  ;
-kummalinen:kummali a_42  ;
-vaaralinen:vaarali a_42  ;
-viralinen:virali a_42  ;
-osalinen:osali a_42  ;
-tavalinen:tavali a_42  ;
-epätavalinen:epätavali a_42  ;
-turvalinen:turvali a_42  ;
-luvalinen:luvali a_42  ;
-raiđalinen:raiđali a_42  ;
-tarpheelinen:tarpheeli a_42  ;
-murheelinen:murheeli a_42  ;
-katheelinen:katheeli a_42  ;
-satheelinen:satheeli a_42  ;
-puutheelinen:puutheeli a_42  ;
-tervheelinen:tervheeli a_42  ;
-hengelinen:hengeli a_42  ;
-rehelinen:reheli a_42  ;
-onnelinen:onneli a_42  ;
-lapselinen:lapseli a_42  ;
-ittelinen:itteli a_42  ;
-tähđelinen:tähđeli a_42  ;
-tođelinen:tođeli a_42  ;
-täyđelinen:täyđeli a_42  ;
-ruumhiilinen:ruumhiili a_42  ;
-faakilinen:faakili a_42  ;
-merkilinen:merkili a_42  ;
-teknilinen:teknili a_42  ;
-kropilinen:kropili a_42  ;
-tyypilinen:tyypili a_42  ;
-sportilinen:sportili a_42  ;
-kristilinen:kristili a_42  ;
-pakolinen:pakoli a_42  ;
-uskolinen:uskoli a_42  ;
-joukolinen:joukoli a_42  ;
-armolinen:armoli a_42  ;
-kunnolinen:kunnoli a_42  ;
-urhoolinen:urhooli a_42  ;
-ehtoolinen:ehtooli a_42  ;
-kiitolinen:kiitoli a_42  ;
-luontolinen:luontoli a_42  ;
-velvolinen:velvoli a_42  ;
-mahđolinen:mahđoli a_42  ;
-prikulinen:prikuli a_42  ;
-lopulinen:lopuli a_42  ;
-pirulinen:piruli a_42  ;
-surulinen:suruli a_42  ;
-ruuđulinen:ruuđuli a_42  ;
-myrkylinen:myrkyli a_42  ;
-lykylinen:lykyli a_42  ;
-hyöđylinen:hyöđyli a_42  ;
-pitkälinen:pitkäli a_42  ;
-erikoinen:erikoi a_42  ;
-louhikkoinen:louhikkoi a_42  ;
-alinkoinen:alinkoi a_42  ;
-aurinkoinen:aurinkoi a_42  ;
-kivuloinen:kivuloi a_42  ;
-aikamoinen:aikamoi a_42  ;
-semmoinen:semmoi a_42  ;
-toinen:toi a_42  ;
-porvarinen:porvari a_42  ;
-kulttuurinen:kulttuuri a_42  ;
-sympaattinen:sympaatti a_42  ;
-poliittinen:poliitti a_42  ;
-polittinen:politti a_42  ;
-pulittinen:pulitti a_42  ;
-luinen:lui a_42  ;
-vakituinen:vakitui a_42  ;
-omituinen:omitui a_42  ;
-vasituinen:vasitui a_42  ;
-aktiivinen:aktiivi a_42  ;
-fiktiivinen:fiktiivi a_42  ;
-erityinen:erityi a_42  ;
-ymmyrkäinen:ymmyrkäi a_42  ;
-lyhykäinen:lyhykäi a_42  ;
-itteläinen:itteläi a_42  ;
-pitkyläinen:pitkyläi a_42  ;
-venäläinen:venäläi a_42  ;
-ryssäläinen:ryssäläi a_42  ;
-likimäinen:likimäi a_42  ;
-jälkimäinen:jälkimäi a_42  ;
-keskimäinen:keskimäi a_42  ;
-täkimäinen:täkimäi a_42  ;
-ensimäinen:ensimäi a_42  ;
-pörämäinen:pörämäi a_42  ;
-ittenäinen:ittenäi a_42  ;
-äkkinäinen:äkkinäi a_42  ;
-yksinäinen:yksinäi a_42  ;
-ittepäinen:ittepäi a_42  ;
-kaljupäinen:kaljupäi a_42  ;
-ymmyräinen:ymmyräi a_42  ;
-pahasäinen:pahasäi a_42  ;
-tytyväinen:tytyväi a_42  ;
-vähätöinen:vähätöi a_42  ;
+latuskainen:latuskai a_42 ;
+korkukainen:korkukai a_42 ;
+suurukainen:suurukai a_42 ;
+talosvankkalainen:talosvankkalai a_42 ;
+jokalainen:jokalai a_42 ;
+tuiskalainen:tuiskalai a_42 ;
+roomalainen:roomalai a_42 ;
+norjalais-suomalainen:norjalais-suomalai a_42 ;
+suursuomalainen:suursuomalai a_42 ;
+pyssyjokilainen:pyssyjokilai a_42 ;
+puolilainen:puolilai a_42 ;
+saamilainen:saamilai a_42 ;
+raisilainen:raisilai a_42 ;
+paavilainen:paavilai a_42 ;
+toisenlainen:toisenlai a_42 ;
+kahđenlainen:kahđenlai a_42 ;
+yhđenlainen:yhđenlai a_42 ;
+vanholainen:vanholai a_42 ;
+minkälainen:minkälai a_42 ;
+lestadiolainen:lestadiolai a_42 ;
+vanholaislestaatiolainen:vanholaislestaatiolai a_42 ;
+tornionlaksolainen:tornionlaksolai a_42 ;
+suolainen:suolai a_42 ;
+savolainen:savolai a_42 ;
+vestakainulainen:vestakainulai a_42 ;
+alimainen:alimai a_42 ;
+ulomainen:ulomai a_42 ;
+etumainen:etumai a_42 ;
+hajanainen:hajanai a_42 ;
+aukinainen:aukinai a_42 ;
+harvinainen:harvinai a_42 ;
+pikkurainen:pikkurai a_42 ;
+uskovainen:uskovai a_42 ;
+alhainen:alhai a_42 ;
+varhainen:varhai a_42 ;
+neljenjalkainen:neljenjalkai a_42 ;
+ohukainen:ohukai a_42 ;
+pitukainen:pitukai a_42 ;
+tanskalainen:tanskalai a_42 ;
+suomalainen:suomalai a_42 ;
+saksalainen:saksalai a_42 ;
+ruottalainen:ruottalai a_42 ;
+juutalainen:juutalai a_42 ;
+vesisaarelainen:vesisaarelai a_42 ;
+erilainen:erilai a_42 ;
+samanlainen:samanlai a_42 ;
+muutamanlainen:muutamanlai a_42 ;
+kaikenlainen:kaikenlai a_42 ;
+pienenlainen:pienenlai a_42 ;
+monenlainen:monenlai a_42 ;
+nuorenlainen:nuorenlai a_42 ;
+senlainen:senlai a_42 ;
+tämänlainen:tämänlai a_42 ;
+jonkulainen:jonkulai a_42 ;
+kainulainen:kainulai a_42 ;
+kokonainen:kokonai a_42 ;
+luottavainen:luottavai a_42 ;
+varovainen:varovai a_42 ;
+rauhalinen:rauhali a_42 ;
+histoorialinen:histooriali a_42 ;
+paikalinen:paikali a_42 ;
+kummalinen:kummali a_42 ;
+vaaralinen:vaarali a_42 ;
+viralinen:virali a_42 ;
+osalinen:osali a_42 ;
+tavalinen:tavali a_42 ;
+epätavalinen:epätavali a_42 ;
+turvalinen:turvali a_42 ;
+luvalinen:luvali a_42 ;
+raiđalinen:raiđali a_42 ;
+tarpheelinen:tarpheeli a_42 ;
+murheelinen:murheeli a_42 ;
+katheelinen:katheeli a_42 ;
+satheelinen:satheeli a_42 ;
+puutheelinen:puutheeli a_42 ;
+tervheelinen:tervheeli a_42 ;
+hengelinen:hengeli a_42 ;
+rehelinen:reheli a_42 ;
+onnelinen:onneli a_42 ;
+lapselinen:lapseli a_42 ;
+ittelinen:itteli a_42 ;
+tähđelinen:tähđeli a_42 ;
+tođelinen:tođeli a_42 ;
+täyđelinen:täyđeli a_42 ;
+ruumhiilinen:ruumhiili a_42 ;
+faakilinen:faakili a_42 ;
+merkilinen:merkili a_42 ;
+teknilinen:teknili a_42 ;
+kropilinen:kropili a_42 ;
+tyypilinen:tyypili a_42 ;
+sportilinen:sportili a_42 ;
+kristilinen:kristili a_42 ;
+pakolinen:pakoli a_42 ;
+uskolinen:uskoli a_42 ;
+joukolinen:joukoli a_42 ;
+armolinen:armoli a_42 ;
+kunnolinen:kunnoli a_42 ;
+urhoolinen:urhooli a_42 ;
+ehtoolinen:ehtooli a_42 ;
+kiitolinen:kiitoli a_42 ;
+luontolinen:luontoli a_42 ;
+velvolinen:velvoli a_42 ;
+mahđolinen:mahđoli a_42 ;
+prikulinen:prikuli a_42 ;
+lopulinen:lopuli a_42 ;
+pirulinen:piruli a_42 ;
+surulinen:suruli a_42 ;
+ruuđulinen:ruuđuli a_42 ;
+myrkylinen:myrkyli a_42 ;
+lykylinen:lykyli a_42 ;
+hyöđylinen:hyöđyli a_42 ;
+pitkälinen:pitkäli a_42 ;
+erikoinen:erikoi a_42 ;
+louhikkoinen:louhikkoi a_42 ;
+alinkoinen:alinkoi a_42 ;
+aurinkoinen:aurinkoi a_42 ;
+kivuloinen:kivuloi a_42 ;
+aikamoinen:aikamoi a_42 ;
+semmoinen:semmoi a_42 ;
+toinen:toi a_42 ;
+porvarinen:porvari a_42 ;
+kulttuurinen:kulttuuri a_42 ;
+sympaattinen:sympaatti a_42 ;
+poliittinen:poliitti a_42 ;
+polittinen:politti a_42 ;
+pulittinen:pulitti a_42 ;
+luinen:lui a_42 ;
+vakituinen:vakitui a_42 ;
+omituinen:omitui a_42 ;
+vasituinen:vasitui a_42 ;
+aktiivinen:aktiivi a_42 ;
+fiktiivinen:fiktiivi a_42 ;
+erityinen:erityi a_42 ;
+ymmyrkäinen:ymmyrkäi a_42 ;
+lyhykäinen:lyhykäi a_42 ;
+itteläinen:itteläi a_42 ;
+pitkyläinen:pitkyläi a_42 ;
+venäläinen:venäläi a_42 ;
+ryssäläinen:ryssäläi a_42 ;
+likimäinen:likimäi a_42 ;
+jälkimäinen:jälkimäi a_42 ;
+keskimäinen:keskimäi a_42 ;
+täkimäinen:täkimäi a_42 ;
+ensimäinen:ensimäi a_42 ;
+pörämäinen:pörämäi a_42 ;
+ittenäinen:ittenäi a_42 ;
+äkkinäinen:äkkinäi a_42 ;
+yksinäinen:yksinäi a_42 ;
+ittepäinen:ittepäi a_42 ;
+kaljupäinen:kaljupäi a_42 ;
+ymmyräinen:ymmyräi a_42 ;
+pahasäinen:pahasäi a_42 ;
+tytyväinen:tytyväi a_42 ;
+vähätöinen:vähätöi a_42 ;
 pahas:pah a_33as ;
 reipas:reipp a_33as ;
 puhelias:puheli a_33as ;
@@ -896,7 +896,7 @@ tuoret:tuor a_33t ;
 tervet:terv a_33t ;
 veđenpillaama a_22 ;
 ehyt:eh a_x ; 
-! ehy, ohu, lyhy?              
+! ehy, ohu, lyhy? 
 ohut:oh a_x ;
 lyhyt:lyh a_x ;
 sikkari a_22odd ;
