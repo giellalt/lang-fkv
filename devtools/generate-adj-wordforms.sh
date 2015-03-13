@@ -8,9 +8,9 @@
 morf_codes="+A+Sg+Nom \
             +A+Sg+Gen \
             +A+Sg+Ill \
+            +A+Sg+Ess \
             +A+Pl+Nom \
-            +A+Pl+Com \
-            +A+Attr"
+            +A+Pl+Gen" 
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/morphology/stems/adjectives.lexc
