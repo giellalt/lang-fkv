@@ -19,7 +19,7 @@ LEXICON indneg !!= @CODE@ negaation indikatiivipäätteet
  +Sg1:en K_NEG ;
  +Sg2:et K_NEG ;
  +Sg3:ei K_NEG ;
- +Pl1+Err/Sub:emme K_NEG ;
+ +Pl1+Err/Orth:emme K_NEG ;
  +Pl1:emmä K_NEG ;
  +Pl2:että K_NEG ;
  +Pl3:ei K_NEG ;
@@ -89,12 +89,12 @@ LEXICON v_x
 
 LEXICON v1 !!= @CODE@ saađa:saa 
 +V+Inf:%>đ%^A K ; ! đ
-+V+Inf+Err/Sub:%>d%^A K ; ! d
++V+Inf+Err/Orth:%>d%^A K ; ! d
 +V+Act+Ind+Prs:%^WG v12pers_short ;
 +V+Act+Ind+Prt:%>i3%^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:%>pi K ;
 +V+Act+Ind+Prs+Pl3:%>đh%^A%^An K ; ! đ
-+V+Act+Ind+Prs+Pl3+Err/Sub:%>dh%^A%^An K ; ! d
++V+Act+Ind+Prs+Pl3+Err/Orth:%>dh%^A%^An K ; ! d
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:%>thiin K ; 
 +V+Act+PrfPrc+Sg+Nom:%>%^N%^U K ;
@@ -127,12 +127,12 @@ LEXICON v1 !!= @CODE@ saađa:saa
 
 LEXICON v1kayda  !!= @CODE@ käyđä:kä 
 +V+Inf:y%>đ%^A K ; ! đ
-+V+Inf+Err/Sub:y%>d%^A K ; ! d
++V+Inf+Err/Orth:y%>d%^A K ; ! d
 +V+Act+Ind+Prs:y%^WG v12pers_short ;
 +V+Act+Ind+Prt:v%>i3%^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:y%>pi K ;
 +V+Act+Ind+Prs+Pl3:y%>đhään K ; ! đ
-+V+Act+Ind+Prs+Pl3+Err/Sub:y%>hään K ; ! d
++V+Act+Ind+Prs+Pl3+Err/Orth:y%>hään K ; ! d
 +V+Act+Ind+Prt+Sg3:v%>i3 K ;
 +V+Act+Ind+Prt+Pl3:y%>thiin K ; 
 +V+Act+PrfPrc+Sg+Nom:y%>%^N%^U K ;
@@ -165,7 +165,7 @@ LEXICON v1kayda  !!= @CODE@ käyđä:kä
 
 LEXICON v1nahda !!= @CODE@ nähđä:nä 
 +V+Inf:h%>đ%^A K ; ! đ
-+V+Inf+Err/Sub:h%>d%^A K ; ! d
++V+Inf+Err/Orth:h%>d%^A K ; ! d
 +V+Act+Ind+Prs:je%^WG v12pers_short ;
 +V+Act+Ind+Prt:%>ji%^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:kke%>e K ;
@@ -204,7 +204,7 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 
 LEXICON v1tehda !!= @CODE@ tehđä:te 
 +V+Inf:h%>đ%^A K ; ! đ
-+V+Inf+Err/Sub:h%>d%^A K ; ! d
++V+Inf+Err/Orth:h%>d%^A K ; ! d
 +V+Act+Ind+Prs:he v12pers_short ;
 +V+Act+Ind+Prt:%>hi v12pers_short ;
 +V+Act+Ind+Prs+Sg3:kke%>e K ;
@@ -244,7 +244,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 
 LEXICON v2 !!= @CODE@ anttaat:anta 
 +V+Inf:%>%^Vt K ; 
-+V+Inf+Err/Sub:%>%^A K ;  ! suomalainen inf
++V+Inf+Err/Orth:%>%^A K ;  ! suomalainen inf
 +V+Act+Ind+Prs:%^WG v12pers_short ;
 +V+Act+Ind+Prt:%^AO%^WG%>i3 v12pers_short ;
 +V+Act+Ind+Prs+Sg3:%>%^V K ;
@@ -281,7 +281,7 @@ LEXICON v2 !!= @CODE@ anttaat:anta
 
 LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Inf:%>%^Vt K ;        ! kveenin inf valmistuut
-+V+Inf+Err/Sub:%>%^A K ; ! suomalainen inf valmistua
++V+Inf+Err/Orth:%>%^A K ; ! suomalainen inf valmistua
 +V+Act+Ind+Prs:%^WG v12pers_long ;
 +V+Act+Ind+Prt:%^WG%>i3 v12pers_long ;
 +V+Act+Ind+Prs+Sg3:%>%^V K ;
@@ -624,7 +624,7 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 
 LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+Inf:%>t%^A K ; 
-+V+Inf+Err/Sub:%>đ%^A K ; 
++V+Inf+Err/Orth:%>đ%^A K ; 
 +V+Act+Ind+Prs+Sg3:ttee K ; 
 +V+Act+Ind+Prs+Pl3:%>th%^A%^An K ; 
 +V+Act+Ind+Prt+Sg3:%>tti K ;
