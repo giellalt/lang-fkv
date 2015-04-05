@@ -385,8 +385,8 @@ LEXICON x_32
 :e 2TAVU_V_ill_sg ;
 +Sg:e sgpl_cases_odd ;      
 +Pl:%>i2 sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
-+Pl:i%>i2 tt_longgenpl ;
-+Pl:i%>i2 longparpl ;
++Pl:%>i%>i2 tt_longgenpl ;
++Pl:%>i%>i2 longparpl ;
 +Pl:%^HMETAh%>i2i shortestillpl;
 +Pl+Com:%>i2ne K ;
 
