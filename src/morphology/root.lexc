@@ -4,53 +4,150 @@
 ! ========================================================================
 
 
-! Beware of remnants from the Finnish file
-! Take nothing at face value!
+!! Beware of remnants from the Finnish file.
+!! Take nothing at face value!
 
 Multichar_Symbols  
 
 !!  !!Tags for POS
- +N +A +Adv +V                                 !!≈ ; @CODE@ : Open POS's
- +Pron +CS +CC +Interj +Pcle				   !!≈ ; @CODE@ : Closed POS
++A       !!≈ * __@CODE@__ = Adjective
++Adv     !!≈ * __@CODE@__ = Adverb
++CC      !!≈ * __@CODE@__ = Conjunction
++CS      !!≈ * __@CODE@__ = Subjunction
++Interj  !!≈ * __@CODE@__ = Interjection
++N       !!≈ * __@CODE@__ = Noun
++Num     !!≈ * __@CODE@__ = Numerals
++Pcle    !!≈ * __@CODE@__ = Participle?
++Po      !!≈ * __@CODE@__ = Postposition
++Pr      !!≈ * __@CODE@__ = Preposition
++Pron    !!≈ * __@CODE@__ = Pronomen
++V       !!≈ * __@CODE@__ = Verb
+
++Prop     !!= * __@CODE@__ = Propernoun
 
 !!  !!Tags for grammar
- +Pers +Dem +Interr +Refl +Recipr +Rel +Indef +Qu  !!≈ ; @CODE@ : Pronoun types
- +Sg +Pl 									       !!≈ ; @CODE@ : Number
- +Nom +Gen +Ine +Ill +Ela +Ade +Abe +All +Abl      !!≈ ; @CODE@ :
- +Ess +Tra +Ins +Com +Par					   !!≈ ; @CODE@ : Case
- +Comp +Superl     							   !!≈ ; @CODE@ : Comparatives
- +Clt		  								   !!≈ ; @CODE@ : Clitic
- +Pass +Ind +Prs +Prt +Imprt +Cond +Pot		   !!≈ ; @CODE@ : Finite verbs
- +Inf  +PrsPrc +PrfPrc +Inf3				   !!≈ ; @CODE@ : Infinite verbs
- +CLB +PUNCT +HYPH							   !!≈ ; @CODE@ : Punctuation
- +Attr
+
+!! !Pronoun types
++Pers      !!≈ * __@CODE@__ = Personal
++Dem       !!≈ * __@CODE@__ = Demonstrative
++Interr    !!≈ * __@CODE@__ = Interrogative
++Refl      !!≈ * __@CODE@__ = Reflexive
++Recipr    !!≈ * __@CODE@__ = Reciprocal
++Rel       !!≈ * __@CODE@__ = Relative
++Indef     !!≈ * __@CODE@__ = Indefinitue
++Qu        !!≈ * __@CODE@__ = Hmm, Question?? Interr? Check this.
+
+!! !Number
++Sg   !!≈ * __@CODE@__ = Singular
++Pl   !!≈ * __@CODE@__ = Plural
+
+!! !Case
+
++Nom  !!≈ * __@CODE@__ = Nominative
++Gen  !!≈ * __@CODE@__ = Genitive
++Ine  !!≈ * __@CODE@__ = Inessive
++Ill  !!≈ * __@CODE@__ = Illative
++Ela  !!≈ * __@CODE@__ = Elative
++Ade  !!≈ * __@CODE@__ = Adessive
++Abe  !!≈ * __@CODE@__ = Abessive
++All  !!≈ * __@CODE@__ = Allative
++Abl  !!≈ * __@CODE@__ = Ablative
++Ess  !!≈ * __@CODE@__ = Essive
++Tra  !!≈ * __@CODE@__ = Translaive
++Ins  !!≈ * __@CODE@__ = Instructive
++Com  !!≈ * __@CODE@__ = Comitative
++Par  !!≈ * __@CODE@__ = Partitive
 
 
+!! !Comparatives
++Comp      !!≈ * __@CODE@__ = 
++Superl    !!≈ * __@CODE@__ = 
+
+!! !Finite verbs
++Pass     !!≈ * __@CODE@__ = 
++Ind      !!≈ * __@CODE@__ = 
++Prs      !!≈ * __@CODE@__ = 
++Prt      !!≈ * __@CODE@__ = 
++Imprt    !!≈ * __@CODE@__ = 
++Cond     !!≈ * __@CODE@__ = 
++Pot      !!≈ * __@CODE@__ = Potential
+
+!! !Infinite verbs
++Inf     !!≈ * __@CODE@__ = 
++PrsPrc  !!≈ * __@CODE@__ = 
++PrfPrc  !!≈ * __@CODE@__ = 
++Inf3    !!≈ * __@CODE@__ = Infinite verbs
+
+!! !Punctuation
++CLB    !!≈ * __@CODE@__ = Clause boundary
++PUNCT  !!≈ * __@CODE@__ = Punctuation mark
++HYPH   !!≈ * __@CODE@__ = Hyphenation mark
++Attr   !!≈ * __@CODE@__ = Attributive form, hmm, check, for names?
+
+
+!! !Speller tags
  +Err/Orth   !!= @CODE@ only in desc, not in norm.
- +Use/-Spell !Excluded in speller
- +Use/SpellNoSugg !recognized but not suggested in speller
+ +Use/-Spell   !!≈ * __@CODE@__ = Excluded in speller
+ +Use/SpellNoSugg   !!≈ * __@CODE@__ = recognized but not suggested in speller
 
- +Cmp
- +Der/minen
+!! !Compounds
+ +Cmp  !!≈ * __@CODE@__ = 
+
+!! !Derivation
+ +Der/minen  !!≈ * __@CODE@__ = 
+ 
+ !! !!Clitic tags
+ +Clt	    !!≈ * __@CODE@__ = 
+ +Qst	    !!≈ * __@CODE@__ = 
+ +Foc/han   !!≈ * __@CODE@__ = 
+ +Foc/kaan  !!≈ * __@CODE@__ = 
+ +Foc/kin   !!≈ * __@CODE@__ = 
+ +Foc/pa    !!≈ * __@CODE@__ = 
+ +Foc/s	    !!≈ * __@CODE@__ = 
+ +Foc/pas   !!≈ * __@CODE@__ = 
+ 
+!! !!Semantic tags
+
++Sem/Ani  !!≈ * __@CODE@__ = Animal names
++Sem/Fem  !!≈ * __@CODE@__ = Female names
++Sem/Mal  !!≈ * __@CODE@__ = Male names
++Sem/Obj  !!≈ * __@CODE@__ = Names of objects
++Sem/Org  !!≈ * __@CODE@__ = Names of organisations
++Sem/Plc  !!≈ * __@CODE@__ = Place names
++Sem/Sur  !!≈ * __@CODE@__ = Surnames
+ 
  
 !!  !!Phonological symbols
- p1 t1 k1				 !!≈ ; @CODE@ : For cons grad -- in use at all?
- i2 i3 i4 i5 i6	i7		 !!≈ ; @CODE@ : For vowel change -- i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = contr verb cond
- p2 t2 k2 				 !!≈ ; @CODE@ : katt2oma always tt, underlying -ts-
- %^A %^O %^U			 !!≈ ; @CODE@ : Vowel harmony a/ä, o/ö, u/y
- %^V 					 !!≈ ; @CODE@ : Vowel copying
- %^N 					 !!≈ ; @CODE@ : tulˆNut, kävel^N^Ut
- %^E2I    				 !!≈ ; @CODE@ : for e to i change
- %^HMETA  				 !!≈ ; @CODE@ : for h metathesis syksy - sykshyyn
- %^AO     				 !!≈ ; @CODE@ : a:o rannoissa
- %^WG     				 !!≈ ; @CODE@ : Weak grade matto - maton
- +Err/Orth				 !!≈ ; @CODE@ : Substandard forms
- %^TES					 !!≈ ; @CODE@ :  in use?
- %^VDEL                  !!≈ ; @CODE@ : Deleting long vowel in rakkaa- > rakas
- %^EDEL                  !!≈ ; @CODE@ : Deleting e in front of consonant
- %^AE                    !!≈ ; @CODE@ : for a to e change
- %^M2N                   !!≈ ; @CODE@ : for m to n in lumi lunta
- %^¤					 !!≈ ; @CODE@ : potecting against e:i word-finally (nalle, liike)
+
+! p1 t1 k1  For cons grad -- in use at all? (remove these)
+i2  !!≈ * __@CODE@__ = plural i of nouns
+i3  !!≈ * __@CODE@__ = past tense i of verbs
+i4  !!≈ * __@CODE@__ = i in conditional isi of most verbs (without gemination)
+i5  !!≈ * __@CODE@__ = superlative i of adjectives
+i6  !!≈ * __@CODE@__ = i:j in poika:pojan
+i7	 !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
+
+ p2  			 !!≈ * __@CODE@__ = always p
+ t2  			 !!≈ * __@CODE@__ = always t, cf. katt2oma always tt, underlying -ts-
+ k2 			 !!≈ * __@CODE@__ = always k
+ %^A 		 !!≈ * __@CODE@__ = Vowel harmony a/ä
+ %^O		 !!≈ * __@CODE@__ = Vowel harmony o/ö
+ %^U		 !!≈ * __@CODE@__ = Vowel harmony u/y
+ %^V 				 !!≈ * __@CODE@__ = Vowel copying
+ %^N 				 !!≈ * __@CODE@__ = tulˆNut, kävel^N^Ut
+ %^E2I    			 !!≈ * __@CODE@__ = for e to i change
+ %^HMETA  			 !!≈ * __@CODE@__ = for h metathesis syksy - sykshyyn
+ %^AO     			 !!≈ * __@CODE@__ = a:o rannoissa
+ %^WG     			 !!≈ * __@CODE@__ = Weak grade matto - maton
+ %^TES				 !!≈ * __@CODE@__ =  in use?
+ %^VDEL              !!≈ * __@CODE@__ = Deleting long vowel in rakkaa- > rakas
+ %^EDEL              !!≈ * __@CODE@__ = Deleting e in front of consonant
+ %^AE                !!≈ * __@CODE@__ = for a to e change
+ %^M2N                   !!≈ * __@CODE@__ = for m to n in lumi lunta
+ %^¤					 !!≈ * __@CODE@__ = potecting against e:i word-finally (nalle, liike)
+
+
+
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -82,29 +179,22 @@ Multichar_Symbols
  @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-@U.pron.nom@
-@U.pron.gen@
-@U.pron.ill@
-@U.pron.par@
-@U.pron.par2@
-@U.pron.par3@
-@U.pron.ess@
-@U.pron.tra@
-@U.pron.ine@
-@U.pron.ela@
-@U.pron.all@
-@U.pron.ade@
-@U.pron.abl@
-@P.compound.block@
-@D.compound.block@
+@U.pron.nom@	   !!≈ | @CODE@ | tbw
+@U.pron.gen@	   !!≈ | @CODE@ | tbw
+@U.pron.ill@	   !!≈ | @CODE@ | tbw
+@U.pron.par@	   !!≈ | @CODE@ | tbw
+@U.pron.par2@	   !!≈ | @CODE@ | tbw
+@U.pron.par3@	   !!≈ | @CODE@ | tbw
+@U.pron.ess@	   !!≈ | @CODE@ | tbw
+@U.pron.tra@	   !!≈ | @CODE@ | tbw
+@U.pron.ine@	   !!≈ | @CODE@ | tbw
+@U.pron.ela@	   !!≈ | @CODE@ | tbw
+@U.pron.all@	   !!≈ | @CODE@ | tbw
+@U.pron.ade@	   !!≈ | @CODE@ | tbw
+@U.pron.abl@	   !!≈ | @CODE@ | tbw
+@P.compound.block@ !!≈ | @CODE@ | tbw
+@D.compound.block@ !!≈ | @CODE@ | tbw
 
-!! !-i- overview
-!! * i2 plural i of nouns
-!! * i3 past tense i of verbs
-!! * i4 i in conditional isi of most verbs (without gemination)
-!! * i5 superlative i of adjectives
-!! * i6 i:j in poika:pojan
-!! * i7 i in conditional of contract verbs (with gemination)
 
 ! For Finnish, not in use. Keep in mind:
 ! Y2 a:0 koira - koiria
@@ -117,25 +207,28 @@ Multichar_Symbols
 ! Z2 i:0 i-stems in par,gen pl
 
 ! =================================================
-! !!Basic lexica, pointing to the other lexicon files
+!! !!Basic lexica, pointing to the other lexicon files
 ! =================================================
 
-LEXICON Root
+!! Here is the Root lexicon, pointing to all the parts of speech:
 
- AdjectiveRoot ;  
- Adverb ;		  
- Conjunction ;	  
- Interjection ;	  
- NUM ;			  
- NounRoot ;		  
- Particle ;		  
- Postposition ;	  
- Preposition ;	  
- Pronoun ;		  
- ProperNoun ;	  
- Punctuation ;	  
- VerbRoot ;		  
- Subjunction ;	  
+LEXICON Root    !!=  __@CODE@__
+
+
+ AdjectiveRoot ;  !!= * @CODE@
+ Adverb ;		  !!= * @CODE@
+ Conjunction ;	  !!= * @CODE@
+ Interjection ;	  !!= * @CODE@
+ NUM ;			  !!= * @CODE@
+ NounRoot ;		  !!= * @CODE@
+ Particle ;		  !!= * @CODE@
+ Postposition ;	  !!= * @CODE@
+ Preposition ;	  !!= * @CODE@
+ Pronoun ;		  !!= * @CODE@
+ ProperNoun ;	  !!= * @CODE@
+ Punctuation ;	  !!= * @CODE@
+ VerbRoot ;		  !!= * @CODE@
+ Subjunction ;	  !!= * @CODE@
 
 
 
