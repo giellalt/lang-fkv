@@ -2,45 +2,148 @@
               !!!Kven morphological transducer
 
 
+Beware of remnants from the Finnish file.
+Take nothing at face value!
 
 
  !!Tags for POS
- ; +N +A +Adv +V : Open POS's
- ; +Pron +CS +CC +Interj +Pcle				 : Closed POS
+ * __+A__ = Adjective
+ * __+Adv__ = Adverb
+ * __+CC__ = Conjunction
+ * __+CS__ = Subjunction
+ * __+Interj__ = Interjection
+ * __+N__ = Noun
+ * __+Num__ = Numerals
+ * __+Pcle__ = Participle?
+ * __+Po__ = Postposition
+ * __+Pr__ = Preposition
+ * __+Pron__ = Pronomen
+ * __+V__ = Verb
+
+ * __+Prop     __ = Propernoun
 
  !!Tags for grammar
- ; +Pers +Dem +Interr +Refl +Recipr +Rel +Indef +Qu : Pronoun types
- ; +Sg +Pl 									 : Number
- ; +Nom +Gen +Ine +Ill +Ela +Ade +Abe +All +Abl :
- ; +Ess +Tra +Ins +Com +Par					 : Case
- ; +Comp +Superl 							 : Comparatives
- ; +Clt		 								 : Clitic
- ; +Pass +Ind +Prs +Prt +Imprt +Cond +Pot		 : Finite verbs
- ; +Inf +PrsPrc +PrfPrc +Inf3				 : Infinite verbs
- ; +CLB +PUNCT +HYPH							 : Punctuation
+
+!Pronoun types
+ * __+Pers__ = Personal
+ * __+Dem__ = Demonstrative
+ * __+Interr__ = Interrogative
+ * __+Refl__ = Reflexive
+ * __+Recipr__ = Reciprocal
+ * __+Rel__ = Relative
+ * __+Indef__ = Indefinitue
+ * __+Qu__ = Hmm, Question?? Interr? Check this.
+
+!Number
+ * __+Sg__ = Singular
+ * __+Pl__ = Plural
+
+!Case
+
+ * __+Nom__ = Nominative
+ * __+Gen__ = Genitive
+ * __+Ine__ = Inessive
+ * __+Ill__ = Illative
+ * __+Ela__ = Elative
+ * __+Ade__ = Adessive
+ * __+Abe__ = Abessive
+ * __+All__ = Allative
+ * __+Abl__ = Ablative
+ * __+Ess__ = Essive
+ * __+Tra__ = Translaive
+ * __+Ins__ = Instructive
+ * __+Com__ = Comitative
+ * __+Par__ = Partitive
 
 
-  +Use/Sub    only in desc, not in norm.
+!Comparatives
+ * __+Comp__ = 
+ * __+Superl__ = 
+
+!Finite verbs
+ * __+Pass__ = 
+ * __+Ind__ = 
+ * __+Prs__ = 
+ * __+Prt__ = 
+ * __+Imprt__ = 
+ * __+Cond__ = 
+ * __+Pot__ = Potential
+
+!Infinite verbs
+ * __+Inf__ = 
+ * __+PrsPrc__ = 
+ * __+PrfPrc__ = 
+ * __+Inf3__ = Infinite verbs
+
+!Punctuation
+ * __+CLB__ = Clause boundary
+ * __+PUNCT__ = Punctuation mark
+ * __+HYPH__ = Hyphenation mark
+ * __+Attr__ = Attributive form, hmm, check, for names?
+
+
+!Speller tags
+  +Err/Orth    only in desc, not in norm.
+ * __+Use/-Spell__ = Excluded in speller
+ * __+Use/SpellNoSugg__ = recognized but not suggested in speller
+
+!Compounds
+ * __+Cmp__ = 
+
+!Derivation
+ * __+Der/minen__ = 
+
+!!Clitic tags
+ * __+Clt	__ = 
+ * __+Qst	__ = 
+ * __+Foc/han__ = 
+ * __+Foc/kaan__ = 
+ * __+Foc/kin__ = 
+ * __+Foc/pa__ = 
+ * __+Foc/s	__ = 
+ * __+Foc/pas__ = 
+
+!!Semantic tags
+
+ * __+Sem/Ani__ = Animal names
+ * __+Sem/Fem__ = Female names
+ * __+Sem/Mal__ = Male names
+ * __+Sem/Obj__ = Names of objects
+ * __+Sem/Org__ = Names of organisations
+ * __+Sem/Plc__ = Place names
+ * __+Sem/Sur__ = Surnames
 
 
  !!Phonological symbols
- ; p1 t1 k1				 : For cons grad -- in use at all?
- ; i2 i3 i4 i5 i6	i7		 : For vowel change -- i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = contr verb cond
- ; p2 t2 k2 				 : katt2oma always tt, underlying -ts-
- ; %^A %^O %^U			 : Vowel harmony a/ä, o/ö, u/y
- ; %^V 					 : Vowel copying
- ; %^N 					 : tulˆNut, kävel^N^Ut
- ; %^E2I 				 : for e to i change
- ; %^HMETA 				 : for h metathesis syksy - sykshyyn
- ; %^AO 				 : a:o rannoissa
- ; %^WG 				 : Weak grade matto - maton
- ; +Err/Orth				 : Substandard forms
- ; %^TES					 :  in use?
- ; %^VDEL : Deleting long vowel in rakkaa- > rakas
- ; %^EDEL : Deleting e in front of consonant
- ; %^AE : for a to e change
- ; %^M2N : for m to n in lumi lunta
- ; %^¤					 : potecting against e:i word-finally (nalle, liike)
+
+ * __i2__ = plural i of nouns
+ * __i3__ = past tense i of verbs
+ * __i4__ = i in conditional isi of most verbs (without gemination)
+ * __i5__ = superlative i of adjectives
+ * __i6__ = i:j in poika:pojan
+ * __i7	__ = i in conditional of contract verbs (with gemination)
+
+ * __p2 			__ = always p
+ * __t2 			__ = always t, cf. katt2oma always tt, underlying -ts-
+ * __k2 			__ = always k
+ * __%^A 		__ = Vowel harmony a/ä
+ * __%^O		__ = Vowel harmony o/ö
+ * __%^U		__ = Vowel harmony u/y
+ * __%^V 				__ = Vowel copying
+ * __%^N 				__ = tulˆNut, kävel^N^Ut
+ * __%^E2I 			__ = for e to i change
+ * __%^HMETA 			__ = for h metathesis syksy - sykshyyn
+ * __%^AO 			__ = a:o rannoissa
+ * __%^WG 			__ = Weak grade matto - maton
+ * __%^TES				__ =  in use?
+ * __%^VDEL__ = Deleting long vowel in rakkaa- > rakas
+ * __%^EDEL__ = Deleting e in front of consonant
+ * __%^AE__ = for a to e change
+ * __%^M2N__ = for m to n in lumi lunta
+ * __%^¤					__ = potecting against e:i word-finally (nalle, liike)
+
+
+
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -72,18 +175,45 @@ given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
+ | @U.pron.nom@	 | tbw
+ | @U.pron.gen@	 | tbw
+ | @U.pron.ill@	 | tbw
+ | @U.pron.par@	 | tbw
+ | @U.pron.par2@	 | tbw
+ | @U.pron.par3@	 | tbw
+ | @U.pron.ess@	 | tbw
+ | @U.pron.tra@	 | tbw
+ | @U.pron.ine@	 | tbw
+ | @U.pron.ela@	 | tbw
+ | @U.pron.all@	 | tbw
+ | @U.pron.ade@	 | tbw
+ | @U.pron.abl@	 | tbw
+ | @P.compound.block@ | tbw
+ | @D.compound.block@ | tbw
 
-!-i- overview
-* i2 plural i of nouns
-* i3 past tense i of verbs
-* i4 i in conditional isi of most verbs (without gemination)
-* i5 superlative i of adjectives
-* i6 i:j in poika:pojan
-* i7 i in conditional of contract verbs (with gemination)
 
 
+!!Basic lexica, pointing to the other lexicon files
+
+Here is the Root lexicon, pointing to all the parts of speech:
+
+  __LEXICON Root    __
 
 
+ *  AdjectiveRoot ;  
+ *  Adverb ;		  
+ *  Conjunction ;	  
+ *  Interjection ;	  
+ *  NUM ;			  
+ *  NounRoot ;		  
+ *  Particle ;		  
+ *  Postposition ;	  
+ *  Preposition ;	  
+ *  Pronoun ;		  
+ *  ProperNoun ;	  
+ *  Punctuation ;	  
+ *  VerbRoot ;		  
+ *  Subjunction ;	  
 
 
 
