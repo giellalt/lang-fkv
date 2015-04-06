@@ -106,7 +106,7 @@ Rules
 !€ kal0a>^V
 !€ kalla>a
   
-  "Gemination Ve"
+  "Gemination VVe"
   !! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ]   Vowel:* Vowel Cx _ e %>: :e ;
        where Cx in ( k p t s ) ;
@@ -117,7 +117,7 @@ Rules
 !€ lauk0e>^V
 !€ laukke>e
 
-  "Gemination VVe"
+  "Gemination Ve"
   !! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ e %>: :e ;
        where Cx in ( h j l m n r v ) ;
@@ -431,6 +431,7 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !€ lahđi0
 !€ huutel^WG>^A
 !€ huuđel00a
+
 
 
 "ti:si"
