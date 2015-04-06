@@ -32,11 +32,12 @@ LEXICON K_NEG !!= @CODE@ is for eikä
 LEXICON K_NEUTRAL  !!= @CODE@  is the clitic lexicon common to ei and the rest
  @D.compound.block@+Clt+Qst:@D.compound.block@%>k%^O ENDLEX ;
  @D.compound.block@+Clt+Qst:@D.compound.block@%>k%^Os ENDLEX ;
- @D.compound.block@+Clt:@D.compound.block@%>h%^An ENDLEX ;
- @D.compound.block@+Clt:@D.compound.block@%>p%^A ENDLEX ;
- @D.compound.block@+Clt:@D.compound.block@%>p%^As ENDLEX ;
- @D.compound.block@+Clt:@D.compound.block@%>kh%^A%^An ENDLEX ;
- @D.compound.block@+Clt:@D.compound.block@%>h%^A%^An ENDLEX ;
+ @D.compound.block@+Foc/han:@D.compound.block@%>h%^An ENDLEX ;
+ @D.compound.block@+Foc/pa:@D.compound.block@%>p%^A ENDLEX ;
+ @D.compound.block@+Foc/pas:@D.compound.block@%>p%^As ENDLEX ;
+ @D.compound.block@+Foc/kaan:@D.compound.block@%>kh%^A%^An ENDLEX ;
+ @D.compound.block@+Foc/han:@D.compound.block@%>h%^An ENDLEX ;
+! @D.compound.block@+Foc/han:@D.compound.block@%>h%^A%^An ENDLEX ; ! this long a probably just wrong
 
 LEXICON ENDLEX  !!= @CODE@ gives #
 # ;
