@@ -34,6 +34,34 @@
 !! *** 4.2.2 -inen-nominit odd (vihrinen)	  	= n_42odd = nen
 
 
+
+LEXICON nocmp_prop_plc_21
+@P.compound.block@ prop_plc_21 ;
+
+LEXICON nocmp_prop_surplc_21
+@P.compound.block@ prop_surplc_21 ;
+
+LEXICON nocmp_prop_org_21
+@P.compound.block@ prop_org_21 ;
+
+LEXICON nocmp_prop_mal_21
+@P.compound.block@ prop_mal_21 ;
+
+LEXICON nocmp_prop_21
+@P.compound.block@ prop_21 ;
+
+LEXICON nocmp_prop_plc_21C
+@P.compound.block@ prop_plc_21C ;
+
+LEXICON nocmp_prop_surplc_21C
+@P.compound.block@ prop_surplc_21C ;
+
+LEXICON nocmp_prop_org_21C
+@P.compound.block@ prop_org_21C ;
+
+LEXICON nocmp_prop_sur_21C
+@P.compound.block@ prop_sur_21C ;
+
 LEXICON prop_x
 +N+Prop: x_x ;
 +N+Prop: Rhyph ;
@@ -55,7 +83,7 @@ LEXICON prop_plc_21ie
 +N+Prop+Sem/Plc: Rhyph ;
 
 LEXICON prop_21C
-+N+Prop+Sg+Nom: x_21 ;
++N+Prop+Sg+Nom: K ;
 +N+Prop:i x_21 ;
 +N+Prop: Rhyph ;
 
@@ -108,8 +136,9 @@ LEXICON prop_obj_21
 +N+Prop+Sem/Obj: Rhyph ;
 
 LEXICON prop_obj_21C
-+N+Prop+Sem/Obj:i x_21 ;
++N+Prop+Sem/Obj+Sg+Nom: K ;
 +N+Prop+Sem/Obj: Rhyph ;
++N+Prop+Sem/Obj:i x_21_oblique ;
 
 LEXICON prop_org_21
 +N+Prop+Sem/Org: x_21 ;
