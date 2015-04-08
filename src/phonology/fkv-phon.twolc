@@ -12,8 +12,7 @@ R S T U V W X Y Z Å Ä Ö Æ Ø Š               !!= * @CODE@
 %>:0                               !!= * @CODE@ border before inflection suffix
 i2:i i3:i i4:i i5:i i6:i i7:i    !!= * @CODE@ 
 !! **  i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = cond of contr.v.
-p2:p t2:t k2:k                     !!= * @CODE@ 
-!! ** t2 = always t
+p2:p t2:t k2:k            !!= * @CODE@ t2 = always t
 %^HMETA:0                 !!= * @CODE@ h metateesi sykshyyn
 %^WG:0                    !!= * @CODE@ weak grade hatun
 %^E2I:0                   !!= * @CODE@ e to i in nom ove : ovi
@@ -125,15 +124,15 @@ Rules
 !€ tek0e>^V
 !€ tekke>e
 
-"Gemination Vo"
+"Gemination VVo"
 !! __@RULENAME@__ 
  0:Cx <=> [ .#. | #: ] Cns:*  Vowel:* Vowel Cx _ o %>: :o ;
-        where Cx in (  k p t s) ;
+        where Cx in ( k p t s) ;
  
 !€ kat0o>^V>t
 !€ katto>o>t
 
-  "Gemination VVo"
+  "Gemination Vo"
   !! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ o %>: :o ;
        where Cx in ( h j l m n r v ) ;
