@@ -1,0 +1,94 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - siisti - ei tsekattu : # Noun 'clean' - ei tsekattu
+     siisti+A+Sg+Nom: siisti
+     siisti+A+Sg+Gen: siistin
+     siisti+A+Sg+Par: siistii # tarkista
+     siisti+A+Sg+Tra: siistiksi
+     siisti+A+Sg+Abe: siistittä
+     siisti+A+Sg+Ine: siistissä
+     siisti+A+Sg+Ela: siististä
+     siisti+A+Sg+Ill: siisthiin # tarkista
+     siisti+A+Sg+Ade: siistilä
+     siisti+A+Sg+Abl: siistiltä
+     siisti+A+Sg+All: siistile
+     siisti+A+Sg+Ess: siistinä
+     siisti+A+Pl+Nom: siistit
+     siisti+A+Pl+Gen: siisteiin
+     siisti+A+Pl+Par: siisteii
+     siisti+A+Pl+Tra: siisteiksi
+     siisti+A+Pl+Abe: siisteittä
+     siisti+A+Pl+Ine: siisteissä
+     siisti+A+Pl+Ela: siisteistä
+     siisti+A+Pl+Ill: siistehiin # tarkista
+     siisti+A+Pl+Ade: siisteilä
+     siisti+A+Pl+Abl: siisteiltä
+     siisti+A+Pl+All: siisteile
+     siisti+A+Pl+Ess: siisteinä
+     siisti+A+Pl+Com: siisteine
+     
+     siisti+A+Sg+Comp+Nom: siistimpi
+     siisti+A+Sg+Comp+Gen: siistimän
+     siisti+A+Sg+Comp+Par: siistimppää
+     siisti+A+Sg+Comp+Tra: siistimäksi
+     siisti+A+Sg+Comp+Abe: siistimättä
+     siisti+A+Sg+Comp+Ine: siistimässä
+     siisti+A+Sg+Comp+Ela: siistimästä
+     siisti+A+Sg+Comp+Ill: siistimphään
+     siisti+A+Sg+Comp+Ade: siistimällä
+     siisti+A+Sg+Comp+Abl: siistimältä
+     siisti+A+Sg+Comp+All: siistimälle
+     siisti+A+Sg+Comp+Ess: siistimpännä
+     siisti+A+Pl+Comp+Nom: siistimät
+     siisti+A+Pl+Comp+Gen: siistimitten
+     siisti+A+Pl+Comp+Par: siistimppii
+     siisti+A+Pl+Comp+Tra: siistimiksi
+     siisti+A+Pl+Comp+Abe: siistimittä
+     siisti+A+Pl+Comp+Ine: siistimissä
+     siisti+A+Pl+Comp+Ela: siistimistä
+     siisti+A+Pl+Comp+Ill: siistimphiin
+     siisti+A+Pl+Comp+Ade: siistimillä
+     siisti+A+Pl+Comp+Abl: siistimiltä
+     siisti+A+Pl+Comp+All: siistimille
+     siisti+A+Pl+Comp+Ess: siistimpinnä
+     siisti+A+Pl+Comp+Com: siistimpine
+
+     siisti+A+Sg+Superl+Nom: siistiin # tarkista
+     siisti+A+Sg+Superl+Gen: siistimän # tarkista
+     siisti+A+Sg+Superl+Par: siistiintä
+     siisti+A+Sg+Superl+Tra: siistimäksi
+     siisti+A+Sg+Superl+Abe: siistimättä
+     siisti+A+Sg+Superl+Ine: siistimässä
+     siisti+A+Sg+Superl+Ela: siistimästä
+     siisti+A+Sg+Superl+Ill: siistimphään
+     siisti+A+Sg+Superl+Ade: siistimällä
+     siisti+A+Sg+Superl+Abl: siistimältä
+     siisti+A+Sg+Superl+All: siistimälle
+     siisti+A+Sg+Superl+Ess: siistimpännä
+     siisti+A+Pl+Superl+Nom: siistimät
+     siisti+A+Pl+Superl+Gen: siistimitten
+     siisti+A+Pl+Superl+Par: siistimppii
+     siisti+A+Pl+Superl+Tra: siistimiksi
+     siisti+A+Pl+Superl+Abe: siistimittä
+     siisti+A+Pl+Superl+Ine: siistimissä
+     siisti+A+Pl+Superl+Ela: siistimistä
+     siisti+A+Pl+Superl+Ill: siistimphiin
+     siisti+A+Pl+Superl+Ade: siistimillä
+     siisti+A+Pl+Superl+Abl: siistimiltä
+     siisti+A+Pl+Superl+All: siistimille
+     siisti+A+Pl+Superl+Ess: siistimpinnä
+     siisti+A+Pl+Superl+Com: siistimpine
