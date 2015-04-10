@@ -75,7 +75,7 @@ Rules
 !€ soppi>i
 
 !€ aik0a^AO>i2
-!€ aikko>i
+!€ aikko0>i
 
 !€ jok0e>i2>i
 !€ jokk0>i>i
@@ -316,7 +316,7 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 !€ katto^WG>n
 !€ ka0to0>n
 !€ sivakka^WG>i2>tten                                                                 
-!€ siva0ko00i0tten                                                                 
+!€ siva0ko0>i>tten                                                                 
 !€ katt2o^WG>n
 !€ katto0>n
 
@@ -404,7 +404,7 @@ k:v <=>     [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !€ parvu0>n
 
 !€ koko^WG>t^A
-!€ kovo00ta
+!€ kovo0>ta
 
 
 "Gradation nk:ng"
@@ -429,7 +429,7 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !€ lahti^WG
 !€ lahđi0
 !€ huutel^WG>^A
-!€ huuđel00a
+!€ huuđel0>a
 
 
 
@@ -617,7 +617,7 @@ a:0 <=>  [ #: | .#. ]  Cns:* (NotAEI)  [ [u|o] ([u|o]) ] (:i|i6:) Cns:+ _ (%^AO:
 !€ otta^WG>i2n
 !€ o0t00>in 
 !€ kajava>i2ssa
-!€ kajav00issa 
+!€ kajav0>issa 
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__  
@@ -627,17 +627,20 @@ a:o <=>  [ #: | .#. ]                         (Cns:*)   [a|e|i] ([u|i|e|a])  Cns
                                                         (:Cns) [ :k | :l] (:i) :i :j _ %^AO: (Dummy:*)         %>: i2: (%>:) ; ! kulkkiija kulkiijoissa                                                         
                  (Cns:*) Vowel:*  Cns  (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0)          (%>:) i2: ; ! sivakka sivakoissa                                 
 
-!€ kal0a>i2en ! vaara, aika, kaula
+! vaara, aika, kaula
+!€ kal0a>i2en
 !€ kallo>ien
  
-!€ linna>i2en ! liina, hieta, kiusa
+! liina, hieta, kiusa
+!€ linna>i2en
 !€ linno>jen
 
-!€ kela>i2en ! eeva, keila, keula
+! eeva, keila, keula
+!€ kela>i2en
 !€ kelo>jen
 
 !€ sivakka^WG>i2>tten
-!€ siva0ko00i0tten                                                                
+!€ siva0ko0>i>tten                                                                
                                                 
 !€ kal0a>i2en
 !€ kallo>ien
