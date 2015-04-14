@@ -341,7 +341,7 @@ Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 
 "Gradation i:0, in word poika: pojan"
 !! __@RULENAME@__ 
-i6:0 <=> _ k: a %^WG:0;
+i6:0 <=> _ k: a (%^AO:0) %^WG:0;
 
 !€ poi6ka^WG>n
 !€ po0ja0>n
