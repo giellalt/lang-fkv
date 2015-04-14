@@ -1,0 +1,97 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct. 
+
+
+  Noun - liberaali - ei tsekattu : # Noun 'clean' - ei tsekattu
+     liberaali+A+Sg+Nom: liberaali
+     liberaali+A+Sg+Gen: liberaalin
+     liberaali+A+Sg+Par: liberaalii
+     liberaali+A+Sg+Tra: liberaaliksi
+     liberaali+A+Sg+Abe: liberaalitta
+     liberaali+A+Sg+Ine: liberaalissa
+     liberaali+A+Sg+Ela: liberaalista
+     liberaali+A+Sg+Ill: liberaalhiin
+     liberaali+A+Sg+Ade: liberaalila
+     liberaali+A+Sg+Abl: liberaalilta
+     liberaali+A+Sg+All: liberaalile
+     liberaali+A+Sg+Ess: liberaalina
+     
+     liberaali+A+Pl+Nom: liberaalit
+     liberaali+A+Pl+Gen: liberaaliin
+     liberaali+A+Pl+Par: liberaalii
+     liberaali+A+Pl+Tra: liberaaliiksi
+     liberaali+A+Pl+Abe: liberaaliitta
+     liberaali+A+Pl+Ine: liberaaliissa
+     liberaali+A+Pl+Ela: liberaaliista
+     liberaali+A+Pl+Ill: liberaalhiin
+     liberaali+A+Pl+Ade: liberaaliila
+     liberaali+A+Pl+Abl: liberaaliilta
+     liberaali+A+Pl+All: liberaaliile
+     liberaali+A+Pl+Ess: liberaaliina
+     liberaali+A+Pl+Com: liberaaliine
+     
+     liberaali+A+Sg+Comp+Nom: liberaalimpi
+     liberaali+A+Sg+Comp+Gen: liberaalimman
+     liberaali+A+Sg+Comp+Par: liberaalimppaa
+     liberaali+A+Sg+Comp+Tra: liberaalimmaksi
+     liberaali+A+Sg+Comp+Abe: liberaalimmatta
+     liberaali+A+Sg+Comp+Ine: liberaalimmassa
+     liberaali+A+Sg+Comp+Ela: liberaalimmasta
+     liberaali+A+Sg+Comp+Ill: liberaalimphaan
+     liberaali+A+Sg+Comp+Ade: liberaalimmalla
+     liberaali+A+Sg+Comp+Abl: liberaalimmalta
+     liberaali+A+Sg+Comp+All: liberaalimmalle
+     liberaali+A+Sg+Comp+Ess: liberaalimpanna
+     
+     liberaali+A+Pl+Comp+Nom: liberaalimmat
+     liberaali+A+Pl+Comp+Gen: liberaalimmitten
+     liberaali+A+Pl+Comp+Par: liberaalimppii
+     liberaali+A+Pl+Comp+Tra: liberaalimmiksi
+     liberaali+A+Pl+Comp+Abe: liberaalimmitta
+     liberaali+A+Pl+Comp+Ine: liberaalimmissa
+     liberaali+A+Pl+Comp+Ela: liberaalimmista
+     liberaali+A+Pl+Comp+Ill: liberaalimphiin
+     liberaali+A+Pl+Comp+Ade: liberaalimmilla
+     liberaali+A+Pl+Comp+Abl: liberaalimmilta
+     liberaali+A+Pl+Comp+All: liberaalimmille
+     liberaali+A+Pl+Comp+Ess: liberaalimpinna
+     liberaali+A+Pl+Comp+Com: liberaalimpine
+
+     liberaali+A+Sg+Superl+Nom: liberaaliin
+     liberaali+A+Sg+Superl+Gen: liberaaliimman
+     liberaali+A+Sg+Superl+Par: liberaaliinta
+     liberaali+A+Sg+Superl+Tra: liberaaliimmaksi
+     liberaali+A+Sg+Superl+Abe: liberaaliimmatta
+     liberaali+A+Sg+Superl+Ine: liberaaliimmassa
+     liberaali+A+Sg+Superl+Ela: liberaaliimmasta
+     liberaali+A+Sg+Superl+Ill: liberaaliimphaan
+     liberaali+A+Sg+Superl+Ade: liberaaliimmalla
+     liberaali+A+Sg+Superl+Abl: liberaaliimmalta
+     liberaali+A+Sg+Superl+All: liberaaliimmalle
+     liberaali+A+Sg+Superl+Ess: liberaaliimpana
+     
+     liberaali+A+Pl+Superl+Nom: liberaaliimat
+     liberaali+A+Pl+Superl+Gen: liberaaliimitten
+     liberaali+A+Pl+Superl+Par: liberaaliimppii
+     liberaali+A+Pl+Superl+Tra: liberaaliimiksi
+     liberaali+A+Pl+Superl+Abe: liberaaliimitta
+     liberaali+A+Pl+Superl+Ine: liberaaliimissa
+     liberaali+A+Pl+Superl+Ela: liberaaliimista
+     liberaali+A+Pl+Superl+Ill: liberaaliimphiin
+     liberaali+A+Pl+Superl+Ade: liberaaliimilla
+     liberaali+A+Pl+Superl+Abl: liberaaliimilta
+     liberaali+A+Pl+Superl+All: liberaaliimille
+     liberaali+A+Pl+Superl+Ess: liberaaliimpinna
+     liberaali+A+Pl+Superl+Com: liberaaliimpine
