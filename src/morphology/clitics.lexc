@@ -19,24 +19,25 @@ K ;
 
 LEXICON K !!= @CODE@ is for all clitica except the ones following negative ei
  ENDLEX ;
- @D.compound.block@+Clt:@D.compound.block@%>kin ENDLEX ;
- @D.compound.block@+Clt:@D.compound.block@%>ki ENDLEX ;
+ +Clt:%>kin ENDLEX ;
+ +Clt:%>ki ENDLEX ;
  K_NEUTRAL ;
 
 
 LEXICON K_NEG !!= @CODE@ is for eikä 
  ENDLEX ;
- @D.compound.block@+Clt+Qst:@D.compound.block@%>k%^A ENDLEX ;
+! @D.compound.block@+Clt+Qst:@D.compound.block@%>k%^A ENDLEX ;
+ +Clt+Qst:%>k%^A ENDLEX ;
  K_NEUTRAL ;
 
 LEXICON K_NEUTRAL  !!= @CODE@  is the clitic lexicon common to ei and the rest
- @D.compound.block@+Clt+Qst:@D.compound.block@%>k%^O ENDLEX ;
- @D.compound.block@+Clt+Qst:@D.compound.block@%>k%^Os ENDLEX ;
- @D.compound.block@+Foc/han:@D.compound.block@%>h%^An ENDLEX ;
- @D.compound.block@+Foc/pa:@D.compound.block@%>p%^A ENDLEX ;
- @D.compound.block@+Foc/pas:@D.compound.block@%>p%^As ENDLEX ;
- @D.compound.block@+Foc/kaan:@D.compound.block@%>kh%^A%^An ENDLEX ;
- @D.compound.block@+Foc/han:@D.compound.block@%>h%^An ENDLEX ;
+ +Clt+Qst:%>k%^O ENDLEX ;
+ +Clt+Qst:%>k%^Os ENDLEX ;
+ +Foc/han:%>h%^An ENDLEX ;
+ +Foc/pa:%>p%^A ENDLEX ;
+ +Foc/pas:%>p%^As ENDLEX ;
+ +Foc/kaan:%>kh%^A%^An ENDLEX ;
+ +Foc/han:%>h%^An ENDLEX ;
 ! @D.compound.block@+Foc/han:@D.compound.block@%>h%^A%^An ENDLEX ; ! this long a probably just wrong
 
 LEXICON ENDLEX  !!= @CODE@ gives #

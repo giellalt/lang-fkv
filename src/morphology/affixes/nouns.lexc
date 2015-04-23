@@ -101,9 +101,7 @@ nom_strong ;
 x_21_oblique ;
 
 LEXICON x_21_oblique
-        !    strong_v_stem_even ;
         : short_par ;
-!        :  nomgen_px ;
         : ess_even_sg ;
         :%^AO ess_even_pl ;
         :%^WG weak_v_stem ;
