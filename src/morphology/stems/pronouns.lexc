@@ -80,6 +80,8 @@ muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
 muutamat+Pron+Indef+Pl:muutamat         K   ;
 muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
 
+sama+Pron+indef:sama                    x_21 ;
+
 
 yksi+Pron+Indef:                        yh_indef ;
 kaikki+Pron+Qu:                     kaik_kvant ;
@@ -100,6 +102,7 @@ kumpiki+Pron+Qu+Sg:kum                  sgkum_kvant ;
 kummatki+Pron+Qu+Pl:kum                 plkum_kvant ;
 molemat+Pron+Qu:molem                   molem_kvant ;
 moni+Pron+Qu:mon                        moni_kvant ;
+
 
 !!Kieltopronominit
 
