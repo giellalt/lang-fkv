@@ -110,9 +110,53 @@
 ~≈
 ~●
 
-## Transition pairs + weight:
+## Inclusions: this is the real alphabet definition:
+a
+b
+c
+č
+d
+e
+f
+g
+h
+i
+î
+ï
+j
+k
+l
+m
+n
+o
+p
+r
+s
+t
+u
+v
+w
+x
+y
+z
+-
+.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+:
+
+## Transition pairs + weight - section separator:
 @@
 
+## Transition pair specifications + weight:
 ä	æ	0.95
 æ	ä	0.98
 o	u	0.99
@@ -139,4 +183,6 @@ v	k	0.9
 v	j	0.9
 j	v	0.9
 
-
+## Swaps:
+## Change dh into hd with the weight 0.5:
+##d,h	h,d	0.5
