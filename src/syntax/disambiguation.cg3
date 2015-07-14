@@ -282,6 +282,11 @@ LIST Abbr = Abbr ;
 #LIST AD = AD ; Pcle
 
 
+# Usage tags
+# ----------
+
+LIST Err/Orth = Err/Orth ;
+
 # Derivation
 # ----------
 
@@ -1862,6 +1867,9 @@ SELECT SINÄ IF (-1C Sg2 + KO) ;
 #SELECT PLPRON + ("te") (NOT -1 Gen)  # RISKY, CF. SUOMEN TEIllä
 SELECT ("hän") + Pron + Sg + Par (*-1 NEGV LINK NOT *1 CLB?) (NOT -1 CLB?)
 SELECT ("hän") + Pron + Sg + Par (*1 NEGV LINK NOT *-1 CLB?) (NOT 1 CLB?)
+
+REMOVE:NotDem ("se") + Pron + Dem + Sg + $$ALLCASES (NOT 1 Sg + $$ALLCASES) 
+
 SELECT Pron + Interr (-1 BOS) (*1 ?!)
 SELECT Pron + Interr (-1 Punct) (*1 ?!)
 SELECT Pron + Interr (-2 BOS) (*1 ?!)
@@ -2292,7 +2300,7 @@ REMOVE Interj (NOT -1 CLB?) (NOT 0 VOI)
 
 ## **** VERBAL ENDINGS ****
 SELECT Act + Sg3 (NOT *-1 NEGV BARRIER CLB) (-1C Nom) (-1 N_Pron_Q) (NOT -1 DV-US) (NOT -1 DA-US) (NOT 0 TUO) (NOT -1 Num) (NOT 1C VFIN) (NOT 2C VFIN) (NOT *-1 VFIN BARRIER CLB) (NOT 0 PIENIA_ELAA) (NOT -1 NOUN+InfA) (NOT 0 Cond) (NOT 0 Prt)
-
+SELECT Act + Sg3 (-1 Ine OR Ade)(NOT *-2 NEGV BARRIER CLB) (-2C Nom) (-2 N_Pron_Q) (NOT -2 DV-US) (NOT -2 DA-US) (NOT 0 TUO) (NOT -2 Num) (NOT 1C VFIN) (NOT 2C VFIN) (NOT *-2 VFIN BARRIER CLB) (NOT 0 PIENIA_ELAA) (NOT -2 NOUN+InfA) (NOT 0 Cond) (NOT 0 Prt)
 ## *** IMPERATIVES ***
 SELECT Imprt (-1 BOS) (NOT *1C VFIN) (NOT 0 VOI) (NOT 0 KO)
 # NB "kysy voiko..."
@@ -3702,3 +3710,6 @@ SUBSTITUTE CLB (*) CLB ;
 
 #SUBSTITUTE (+ei V Neg Act Sg3) (+ei V Neg Act Sg3 @+FAUXV) ;
 SUBSTITUTE (Cmpnd @+FAUXV) (Cmpnd) (CS Cmpnd @+FAUXV) ; # ???
+
+
+REMOVE:NoErr Err/Orth # Assume correct fkv if in doubt.
