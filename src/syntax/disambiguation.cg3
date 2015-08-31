@@ -281,6 +281,14 @@ LIST InfV-PCPs = InfA InfE InfMa PrfPrc PrsPrc ;
 LIST Abbr = Abbr ; 
 #LIST AD = AD ; Pcle
 
+# Semantic tags
+# -------------
+
+LIST Sem/Fem = Sem/Fem ;
+LIST Sem/Mal = Sem/Mal ;
+LIST Sem/Plc = Sem/Plc ;
+LIST Sem/Sur = Sem/Sur ;
+
 
 # Usage tags
 # ----------
@@ -1951,6 +1959,8 @@ REMOVE Rel IF (0 ("jotta")) (0 CS) (0 CLB?) (NEGATE -1 WORD) ;
 #SELECT:r1885 Prop IF (NEGATE *-1 BOS OR (":") OR (PUNCT LEFT) OR (Num Nom) BARRIER WORD); 
 
 # *** Prop
+
+REMOVE Sem/Plc IF (-1 Sem/Mal OR Sem/Fem)(0 Sem/Sur);
 
 # in CG1 were 2 analysis (Prop and LG-language):
 #	("suomi" PROP N NOM SG up )
