@@ -1,17 +1,18 @@
 !!!Phonological rules for Kven
 !!Alphabet
 
- * a b c d đ e f g h i j k l m n o p q         
- * r s t u ü v w x y z å ä ö æ ø š             
- * A B C D Đ E F G H I J K L M N O P           
- * R S T U V W X Y Z Å Ä Ö Æ Ø Š               
+ * a a:o b c d đ e f g h i j k l m n o p q         
+ * r s t u ü v w x y z å ä ö æ ø               
+ * A A:O B C D Đ E F G H I J K L M N O P           
+ * R S T U V W X Y Z Å Ä Ö Æ Ø                 
  * %+:0                                         gemination
  * %^A:ä %^O:ö %^U:y                 archi vowels for harmony
  * %^V %^N:n                         vowel copy sanoo, LNR copy purra
- * %>                                border before inflection suffix
+ * %>:0                              suff border can we live without it?
  * i2:i i3:i i4:i i5:i i6:i i7:i     
 **  i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = cond of contr.v.
- * p2:p t2:t k2:k             t2 = always t
+ * t2:t                       
+** t2 = always t
  * %^HMETA:0                  h metateesi sykshyyn
  * %^WG:0                     weak grade hatun
  * %^E2I:0                    e to i in nom ove : ovi
@@ -33,15 +34,14 @@
  * NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;              
  * NotOUI  = e                     y ä ö ü æ ø a ;              
  * NotOUIY = e                       ä ö   æ ø a ;              
- * NotAEI  =                       y ä ö ü æ ø   o u å ;                    
+
  * NotOUIF =                      y ä ö ü æ ø   ;               and e? (removed 29.1.)
  * NotOUIB =                                  a ;               and e? (removed 29.1.)
  * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;        
  * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;        
 
  * ArchiCns = %^N ;                                             
- * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;   
- * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                         
+ * Cns = b c d đ f g h j k l m n p q r s t v w x z t2 %^N ;     
  * Segment = Vowel Cns ;                                        
  * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;   
  * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
@@ -57,6 +57,32 @@
 
 One rule for each vowel environment.
 
+
+
+__@OUTSIDE RULES@__ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__@OUTSIDE RULES@__ 
+
+__@OUTSIDE RULES@__ 
+
+
+__@OUTSIDE RULES@__ 
+
+
+
 __@OUTSIDE RULES@__ 
 
 
@@ -65,23 +91,14 @@ __@OUTSIDE RULES@__
 
 
 
-__@OUTSIDE RULES@__ 
-
-
-__@OUTSIDE RULES@__ 
-
-
-__@OUTSIDE RULES@__ 
 
 
 
-__@OUTSIDE RULES@__ 
+__Gemination Vo__ 
 
 
-__Gemination VVo__ 
+__Gemination Vo__ 
 
-
-__Gemination VVo__ 
 
 
 __Gemination Vu__ 
@@ -102,21 +119,17 @@ __Gemination Vö__
 
 
 
-
 __Gemination Vö__ 
+
 
 
 __Gemination Vä__ 
 
 
 
-
 __Gemination VVä__ 
 
 
-
-
-!Liquid + gemination consonant
 
 __Gemination LIQa__ 
 
@@ -132,17 +145,40 @@ __Gemination LIQu__
 
 __Gemination LIQy__ 
 
-
 __Gemination LIQö__ 
 
-
 __Gemination LIQä__ 
+
 
 
 __Gemination LIQi__ 
 
 
 __Gemination LIQi7__ 
+
+
+!Foot-governed affixation
+
+ Lyhyt tai pitkä pääte tavurakenteen mukaan:
+
+* __Pitkä__: painollisen lyhyen tavun jälkeen 
+** ''sillä''
+** ''tulla''
+* __Lyhyt__: painollisen pitkän tavun jälkeen
+** ''kuula''
+* __Pitkä__: painottoman, pitkän tavun jälkeen
+** ''emänällä''
+** ''sisarelle''
+** ''itteksemmä''
+* __Lyhyt__: painottoman, lyhyen tavun jälkeen
+** ''linnala''
+** ''muistela''
+** ''sijola''
+** ''kantelheela''
+** ''hunteeraama''
+** ''saima''
+
+
 
 
 
@@ -155,15 +191,24 @@ __Gemination LIQi7__
 __Gradation ppttkk : ptk__ 
 
 
+
+
 !Gradation -p-
 
 __Gradation p:v__ 
 
 
-
 !Gradation of -k-
 
-__Gradation i6:0, in word poika: pojan__ 
+__Gradation i:0, in word poika: pojan__ 
+
+
+
+
+
+
+
+
 
 
 
@@ -179,7 +224,6 @@ __Gradation i6:0, in word poika: pojan__
 
 __Gradation nk:ng__ 
 
-__Gradation mp:mm__ 
 
 
 !Gradation of -t-
@@ -189,8 +233,11 @@ __Gradation t:đ__
 
 
 
-__ti:si__ 
 
+
+
+
+__ti:si__ 
 
 
 __Gradation Nt:NN__ 
@@ -199,71 +246,74 @@ __Gradation Nt:NN__
 __Alveolar assimilation for consonant stems__ 
 
 
-
-
 !!!Vowel rules
 
 !!Vowel harmony 
 
 __Back harmony__ 
 
-
 !!Vowel copying and metathesis
 
-
-__Vowel copying in short h-illative and elsewhere__
-
-
-__Vowel copying in partitive of words ending in io, ia__
+__Vowel copying __  
 
 
 
-__Vowel copying in long h sg forms 1__ 
-
-__Vowel copying in long h sg forms 2__ 
-
-__Vowel copying in long h pl forms__ 
-
-__Vowel copying of a in partitive after vowel sequences__
-
-__Vowel copying of i in partitive after vowel sequences__
+__Vowel copying in long h forms of a-stems__ 
 
 
 
-__a to o and metathesis in h forms in pl of a-stems__ 
 
+__Vowel copying in short h-illative__
+
+
+__Vowel copying in long h forms__ 
+
+
+__Vowel copying in long h forms 2__ 
+
+
+__Stem deletion in h-illative__ 
 
 
 
 __Stem deletion in h-illative__ 
 
 
+
+
+
+
+
 !!Stem alternation rules
 
+ * "Stem shortening for consonant initial suffixes" 
 
 
-!!e rules
-
-__e:i in nom.sg. of e-stems__
 
 
-__e:0 in consonant stems and illative plural__ 
+
+
+__e:0 in consonant stems__ 
 
 
 
 !!i rules
+
 The -i- rules require different i-s for different POS.
-
-
-
-
-!!a rules
 
 !a before i
 
+__a:0 before Pret and Pl i when rounded root vowel__ 
 
 
-__a:o before Pl i and Pret i__  
+
+
+
+__a:o before Pl i and Pret i__ 
+
+
+__a:o before Pl i and Pret i__ 
+
 
 
 
@@ -274,26 +324,25 @@ __a:o before Pl i and Pret i__
 __a:i in 3-syll stems with long a and i__ 
 
 
+__a:e in participles__ 
+
+__ä:0 before i except in conditional__ 
 
 
-!Shortening 
 
 __Shortening of long vowel in front of i__ 
 
 
 
 
-
-
-!!Other rules
-
-__a:e in passives and in comparative__ 
-
-
-__ä:0 before i except in conditional__ 
+__Shortening of long vowel in front of i__ 
 
 
 
+__e:i in nom.sg. of e-stems__
+
+
+* ove : ovi
 
 
 
@@ -311,26 +360,5 @@ __ä:0 before i except in conditional__
 
 
 
-__ä:0 before i except in conditional__ 
-__ä:0 before i except in conditional__ 
-__ä:0 before i except in conditional__ 
-
-
-
-
-
-
-
-__ä:0 before i except in conditional__ 
-
-
-
-
-
-__ä:0 before i except in conditional__ 
-
-
-
-__ä:0 before i except in conditional__ 
 
 
