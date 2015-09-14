@@ -14,7 +14,7 @@ Tests:
 # Then: linnrun analyser, then correct. 
 
 
-  Noun - siisti - ei tsekattu : # Noun 'clean' - ei tsekattu
+  Noun - pappi - ei tsekattu : # Noun 'clean' - ei tsekattu
      siisti+A+Sg+Nom: siisti
      siisti+A+Sg+Gen: siistin
      siisti+A+Sg+Par: siistii
@@ -27,8 +27,9 @@ Tests:
      siisti+A+Sg+Abl: siistiltä
      siisti+A+Sg+All: siistile
      siisti+A+Sg+Ess: siistinä
+     
      siisti+A+Pl+Nom: siistit
-     siisti+A+Pl+Gen: siistiin
+     siisti+A+Pl+Gen: [siistiin, siistitten]
      siisti+A+Pl+Par: siistii
      siisti+A+Pl+Tra: siistiiksi
      siisti+A+Pl+Abe: siistiittä
@@ -38,9 +39,9 @@ Tests:
      siisti+A+Pl+Ade: siistiilä
      siisti+A+Pl+Abl: siistiiltä
      siisti+A+Pl+All: siistiile
-     siisti+A+Pl+Ess: siistiinä
      siisti+A+Pl+Com: siistiine
-     
+     siisti+A+Pl+Ess: siistiinä
+
      siisti+A+Sg+Comp+Nom: siistimpi
      siisti+A+Sg+Comp+Gen: siistimän
      siisti+A+Sg+Comp+Par: siistimppää
@@ -53,9 +54,10 @@ Tests:
      siisti+A+Sg+Comp+Abl: siistimältä
      siisti+A+Sg+Comp+All: siistimälle
      siisti+A+Sg+Comp+Ess: siistimpännä
+
      siisti+A+Pl+Comp+Nom: siistimät
-     siisti+A+Pl+Comp+Gen: siistimitten
-     siisti+A+Pl+Comp+Par: siistimppii
+     siisti+A+Pl+Comp+Gen: siistimiitten
+     siisti+A+Pl+Comp+Par: [siistimppiitä, siistimppii]
      siisti+A+Pl+Comp+Tra: siistimiksi
      siisti+A+Pl+Comp+Abe: siistimittä
      siisti+A+Pl+Comp+Ine: siistimissä
@@ -66,7 +68,7 @@ Tests:
      siisti+A+Pl+Comp+All: siistimille
      siisti+A+Pl+Comp+Ess: siistimpinnä
      siisti+A+Pl+Comp+Com: siistimpine
-
+     
      siisti+A+Sg+Superl+Nom: siistiin
      siisti+A+Sg+Superl+Gen: siistiimän
      siisti+A+Sg+Superl+Par: siistiintä
@@ -79,9 +81,10 @@ Tests:
      siisti+A+Sg+Superl+Abl: siistiimältä
      siisti+A+Sg+Superl+All: siistiimälle
      siisti+A+Sg+Superl+Ess: siistiimpännä
+     
      siisti+A+Pl+Superl+Nom: siistiimät
      siisti+A+Pl+Superl+Gen: siistiimitten
-     siisti+A+Pl+Superl+Par: siistiimppii
+     siisti+A+Pl+Superl+Par: [siistiimppiitä, siistiimppii]
      siisti+A+Pl+Superl+Tra: siistiimiksi
      siisti+A+Pl+Superl+Abe: siistiimittä
      siisti+A+Pl+Superl+Ine: siistiimissä
@@ -92,3 +95,4 @@ Tests:
      siisti+A+Pl+Superl+All: siistiimille
      siisti+A+Pl+Superl+Ess: siistiimpinnä
      siisti+A+Pl+Superl+Com: siistiimpine
+
