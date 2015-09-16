@@ -1,7 +1,109 @@
 
+Affix file for Kven adjectives
 
- LEXICON ax   contains unclassified adjectives.
+!!!The basic lexica
 
- LEXICON a_21   corresponds to n_21 etc.
+Each a_ lexicon gets the +A tag and is then
+redirected to a common x_ lexicon in the noun file.
+
+ * LEXICON a_x   contains unclassified adjectives.
+
+
+ * LEXICON ax   contains unclassified adjectives.
+
+ * LEXICON a_21   corresponds to a_21 etc.
+
+ * LEXICON a_21ie   corresponds to a_21ie etc.
+
+
+ * LEXICON a_22	  liberaali
+
+ * LEXICON a_22odd	  simppeli
+
+ * LEXICON a_23	  pimmee
+
+ * LEXICON a_23ii   auttii
+
+ * LEXICON a_31	  pieni
+
+ * LEXICON a_31si	 uusi
+
+ * LEXICON a_32  tyven
+
+ * LEXICON a_32m  irtain
+
+ * LEXICON a_32ma  vasen sg taipuu kuitenki -ma
+
+
+
+ * LEXICON a_33as  rakas
+
+ * LEXICON a_33aes  rakas
+
+
+ * LEXICON a_33is  valmis
+
+ * LEXICON a_33ys  kärys
+
+
+ * LEXICON a_33t  tuoret
+
+ * LEXICON a_33u  vaipunu:vaipun ! perfect participle
+
+ * LEXICON a_33y  väsyny:äsyn ! perfect participle
+
+ * LEXICON a_41  = veres
+
+
+
+
+
+
+ * LEXICON a_42  varovainen
+
+ * LEXICON a_42odd  sininen
+
+ LEXICON MATON  ! ajattelemattomalle lle lla nna
+
+ * LEXICON a_43  muuttumaton
+
+
+
+ * LEXICON a_43odd  onneton
+
+ LEXICON MATONodd  ! käymättömäle le la na
+
+ * LEXICON x_43odd  onneton 
+
+
+!!!Basic paradigms
+
+Most cases are directed to affixes/nouns.lexc
+
+ * LEXICON a_sgpl_cases_common   
+
+
+!!Lexica for the non-uniform cases
+
+
+
+* LEXICON a_sgpl_cases_common   zero, because ii > i
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
