@@ -1,0 +1,99 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    app: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+  
+     loistaava+a+Sg+Nom: loistaava
+     loistaava+a+Sg+Gen: loistaavan
+     loistaava+a+Sg+Par: loistaavaa
+     loistaava+a+Sg+Tra: loistaavaksi
+     loistaava+a+Sg+abe: loistaavatta
+     loistaava+a+Sg+Ine: loistaavassa
+     loistaava+a+Sg+Ela: loistaavasta
+     loistaava+a+Sg+Ill: loistavhaan
+     loistaava+a+Sg+ade: loistaavalla
+     loistaava+a+Sg+abl: loistaavalta
+     loistaava+a+Sg+all: loistaavalle
+     loistaava+a+Sg+Ess: loistaavanna
+     
+     loistaava+a+Pl+Nom: loistaavat
+     loistaava+a+Pl+Gen: [loistaaviitten, loistaavitten]
+     loistaava+a+Pl+Par: loistaaviita
+     loistaava+a+Pl+Tra: loistaaviksi
+     loistaava+a+Pl+abe: loistaavitta
+     loistaava+a+Pl+Ine: loistaavissa
+     loistaava+a+Pl+Ela: loistaavista
+     loistaava+a+Pl+Ill: loistaavhiin
+     loistaava+a+Pl+ade: loistaavilla
+     loistaava+a+Pl+abl: loistaavilta
+     loistaava+a+Pl+all: loistaaville
+     loistaava+a+Pl+Com: loistaavine
+     loistaava+a+Pl+Ess: loistaavinna
+     
+     loistaava+a+Sg+Comp+Nom: loistaavampi
+     loistaava+a+Sg+Comp+Gen: loistaavamman
+     loistaava+a+Sg+Comp+Par: loistaavamppaa
+     loistaava+a+Sg+Comp+Tra: loistaavammaksi
+     loistaava+a+Sg+Comp+abe: loistaavammatta
+     loistaava+a+Sg+Comp+Ine: loistaavammassa
+     loistaava+a+Sg+Comp+Ela: loistaavammasta
+     loistaava+a+Sg+Comp+Ill: loistaavamphaan
+     loistaava+a+Sg+Comp+ade: loistaavammala
+     loistaava+a+Sg+Comp+abl: loistaavammalta
+     loistaava+a+Sg+Comp+all: loistaavammale
+     loistaava+a+Sg+Comp+Ess: loistaavampana
+     
+     loistaava+a+Pl+Comp+Nom: loistaavammat
+     loistaava+a+Pl+Comp+Gen: loistaavammiitten
+     loistaava+a+Pl+Comp+Par: loistaavamppiita
+     loistaava+a+Pl+Comp+Tra: loistaavammiksi
+     loistaava+a+Pl+Comp+abe: loistaavammitta
+     loistaava+a+Pl+Comp+Ine: loistaavammissa
+     loistaava+a+Pl+Comp+Ela: loistaavammista
+     loistaava+a+Pl+Comp+Ill: loistaavamphiin
+     loistaava+a+Pl+Comp+ade: loistaavammila
+     loistaava+a+Pl+Comp+abl: loistaavammilta
+     loistaava+a+Pl+Comp+all: loistaavammile
+     loistaava+a+Pl+Comp+Ess: loistaavampina
+     loistaava+a+Pl+Comp+Com: loistaavampine
+     
+     loistaava+a+Sg+Superl+Nom: loistaaviin
+     loistaava+a+Sg+Superl+Gen: loistaaviiman
+     loistaava+a+Sg+Superl+Par: loistaaviinta
+     loistaava+a+Sg+Superl+Tra: loistaaviimaksi
+     loistaava+a+Sg+Superl+abe: loistaaviimatta
+     loistaava+a+Sg+Superl+Ine: loistaaviimassa
+     loistaava+a+Sg+Superl+Ela: loistaaviimasta
+     loistaava+a+Sg+Superl+Ill: loistaaviimphaan
+     loistaava+a+Sg+Superl+ade: loistaaviimala
+     loistaava+a+Sg+Superl+abl: loistaaviimalta
+     loistaava+a+Sg+Superl+all: loistaaviimale
+     loistaava+a+Sg+Superl+Ess: loistaaviimpana
+     
+     loistaava+a+Pl+Superl+Nom: loistaaviimat
+     loistaava+a+Pl+Superl+Gen: loistaaviimiitten
+     loistaava+a+Pl+Superl+Par: loistaaviimppiita
+     loistaava+a+Pl+Superl+Tra: loistaaviimiksi
+     loistaava+a+Pl+Superl+abe: loistaaviimitta
+     loistaava+a+Pl+Superl+Ine: loistaaviimissa
+     loistaava+a+Pl+Superl+Ela: loistaaviimista
+     loistaava+a+Pl+Superl+Ill: loistaaviimphiin
+     loistaava+a+Pl+Superl+ade: loistaaviimila
+     loistaava+a+Pl+Superl+abl: loistaaviimilta
+     loistaava+a+Pl+Superl+all: loistaaviimile
+     loistaava+a+Pl+Superl+Ess: loistaaviimpina
+     loistaava+a+Pl+Superl+Com: loistaaviimpine
+
