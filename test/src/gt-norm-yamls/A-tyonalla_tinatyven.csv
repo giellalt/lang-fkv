@@ -1,0 +1,99 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+  
+     tinatyven+A+Sg+Nom: tinatyvensti
+     tinatyven+A+Sg+Gen: tinatyvenstin
+     tinatyven+A+Sg+Par: tinatyvenstii
+     tinatyven+A+Sg+Tra: tinatyvenstiksi
+     tinatyven+A+Sg+Abe: tinatyvenstittä
+     tinatyven+A+Sg+Ine: tinatyvenstissä
+     tinatyven+A+Sg+Ela: tinatyvenstistä
+     tinatyven+A+Sg+Ill: tinatyvensthiin
+     tinatyven+A+Sg+Ade: tinatyvenstilä
+     tinatyven+A+Sg+Abl: tinatyvenstiltä
+     tinatyven+A+Sg+All: tinatyvenstile
+     tinatyven+A+Sg+Ess: tinatyvenstinä
+     
+     tinatyven+A+Pl+Nom: tinatyvenstit
+     tinatyven+A+Pl+Gen: tinatyvenstiin
+     tinatyven+A+Pl+Par: tinatyvenstii
+     tinatyven+A+Pl+Tra: tinatyvenstiiksi
+     tinatyven+A+Pl+Abe: tinatyvenstiittä
+     tinatyven+A+Pl+Ine: tinatyvenstiissä
+     tinatyven+A+Pl+Ela: tinatyvenstiistä
+     tinatyven+A+Pl+Ill: tinatyvensthiin
+     tinatyven+A+Pl+Ade: tinatyvenstiilä
+     tinatyven+A+Pl+Abl: tinatyvenstiiltä
+     tinatyven+A+Pl+All: tinatyvenstiile
+     tinatyven+A+Pl+Com: tinatyvenstiine
+     tinatyven+A+Pl+Ess: tinatyvenstiinä
+     
+     tinatyven+A+Sg+Comp+Nom: tinatyventimpi
+     tinatyven+A+Sg+Comp+Gen: tinatyventimän
+     tinatyven+A+Sg+Comp+Par: tinatyventimppää
+     tinatyven+A+Sg+Comp+Tra: tinatyventimäksi
+     tinatyven+A+Sg+Comp+Abe: tinatyventimättä
+     tinatyven+A+Sg+Comp+Ine: tinatyventimässä
+     tinatyven+A+Sg+Comp+Ela: tinatyventimästä
+     tinatyven+A+Sg+Comp+Ill: tinatyventimphään
+     tinatyven+A+Sg+Comp+Ade: tinatyventimällä
+     tinatyven+A+Sg+Comp+Abl: tinatyventimältä
+     tinatyven+A+Sg+Comp+All: tinatyventimälle
+     tinatyven+A+Sg+Comp+Ess: tinatyventimpännä
+     
+     tinatyven+A+Pl+Comp+Nom: tinatyventimät
+     tinatyven+A+Pl+Comp+Gen: tinatyventimiitten
+     tinatyven+A+Pl+Comp+Par: tinatyventimppiitä
+     tinatyven+A+Pl+Comp+Tra: tinatyventimiksi
+     tinatyven+A+Pl+Comp+Abe: tinatyventimittä
+     tinatyven+A+Pl+Comp+Ine: tinatyventimissä
+     tinatyven+A+Pl+Comp+Ela: tinatyventimistä
+     tinatyven+A+Pl+Comp+Ill: tinatyventimphiin
+     tinatyven+A+Pl+Comp+Ade: tinatyventimillä
+     tinatyven+A+Pl+Comp+Abl: tinatyventimiltä
+     tinatyven+A+Pl+Comp+All: tinatyventimille
+     tinatyven+A+Pl+Comp+Ess: tinatyventimpinnä
+     tinatyven+A+Pl+Comp+Com: tinatyventimpine
+     
+     tinatyven+A+Sg+Superl+Nom: tinatyventiin
+     tinatyven+A+Sg+Superl+Gen: tinatyventiimän
+     tinatyven+A+Sg+Superl+Par: tinatyventiintä
+     tinatyven+A+Sg+Superl+Tra: tinatyventiimäksi
+     tinatyven+A+Sg+Superl+Abe: tinatyventiimättä
+     tinatyven+A+Sg+Superl+Ine: tinatyventiimässä
+     tinatyven+A+Sg+Superl+Ela: tinatyventiimästä
+     tinatyven+A+Sg+Superl+Ill: tinatyventiimphään
+     tinatyven+A+Sg+Superl+Ade: tinatyventiimällä
+     tinatyven+A+Sg+Superl+Abl: tinatyventiimältä
+     tinatyven+A+Sg+Superl+All: tinatyventiimälle
+     tinatyven+A+Sg+Superl+Ess: tinatyventiimpännä
+     
+     tinatyven+A+Pl+Superl+Nom: tinatyventiimät
+     tinatyven+A+Pl+Superl+Gen: tinatyventiimitten
+     tinatyven+A+Pl+Superl+Par: tinatyvenstiimppiitä
+     tinatyven+A+Pl+Superl+Tra: tinatyventiimiksi
+     tinatyven+A+Pl+Superl+Abe: tinatyventiimittä
+     tinatyven+A+Pl+Superl+Ine: tinatyventiimissä
+     tinatyven+A+Pl+Superl+Ela: tinatyventiimistä
+     tinatyven+A+Pl+Superl+Ill: tinatyventiimphiin
+     tinatyven+A+Pl+Superl+Ade: tinatyventiimillä
+     tinatyven+A+Pl+Superl+Abl: tinatyventiimiltä
+     tinatyven+A+Pl+Superl+All: tinatyventiimille
+     tinatyven+A+Pl+Superl+Ess: tinatyventiimpinnä
+     tinatyven+A+Pl+Superl+Com: tinatyventiimpine
+

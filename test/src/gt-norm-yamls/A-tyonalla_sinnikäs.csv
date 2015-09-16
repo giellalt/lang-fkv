@@ -1,0 +1,99 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+  
+     sinnikäs+A+Sg+Nom: sinnikksti
+     sinnikäs+A+Sg+Gen: sinnikkstin
+     sinnikäs+A+Sg+Par: sinnikkstii
+     sinnikäs+A+Sg+Tra: sinnikkstiksi
+     sinnikäs+A+Sg+Abe: sinnikkstittä
+     sinnikäs+A+Sg+Ine: sinnikkstissä
+     sinnikäs+A+Sg+Ela: sinnikkstistä
+     sinnikäs+A+Sg+Ill: sinnikksthiin
+     sinnikäs+A+Sg+Ade: sinnikkstilä
+     sinnikäs+A+Sg+Abl: sinnikkstiltä
+     sinnikäs+A+Sg+All: sinnikkstile
+     sinnikäs+A+Sg+Ess: sinnikkstinä
+     
+     sinnikäs+A+Pl+Nom: sinnikkstit
+     sinnikäs+A+Pl+Gen: sinnikkstiin
+     sinnikäs+A+Pl+Par: sinnikkstii
+     sinnikäs+A+Pl+Tra: sinnikkstiiksi
+     sinnikäs+A+Pl+Abe: sinnikkstiittä
+     sinnikäs+A+Pl+Ine: sinnikkstiissä
+     sinnikäs+A+Pl+Ela: sinnikkstiistä
+     sinnikäs+A+Pl+Ill: sinnikksthiin
+     sinnikäs+A+Pl+Ade: sinnikkstiilä
+     sinnikäs+A+Pl+Abl: sinnikkstiiltä
+     sinnikäs+A+Pl+All: sinnikkstiile
+     sinnikäs+A+Pl+Com: sinnikkstiine
+     sinnikäs+A+Pl+Ess: sinnikkstiinä
+     
+     sinnikäs+A+Sg+Comp+Nom: sinnikktimpi
+     sinnikäs+A+Sg+Comp+Gen: sinnikktimän
+     sinnikäs+A+Sg+Comp+Par: sinnikktimppää
+     sinnikäs+A+Sg+Comp+Tra: sinnikktimäksi
+     sinnikäs+A+Sg+Comp+Abe: sinnikktimättä
+     sinnikäs+A+Sg+Comp+Ine: sinnikktimässä
+     sinnikäs+A+Sg+Comp+Ela: sinnikktimästä
+     sinnikäs+A+Sg+Comp+Ill: sinnikktimphään
+     sinnikäs+A+Sg+Comp+Ade: sinnikktimällä
+     sinnikäs+A+Sg+Comp+Abl: sinnikktimältä
+     sinnikäs+A+Sg+Comp+All: sinnikktimälle
+     sinnikäs+A+Sg+Comp+Ess: sinnikktimpännä
+     
+     sinnikäs+A+Pl+Comp+Nom: sinnikktimät
+     sinnikäs+A+Pl+Comp+Gen: sinnikktimiitten
+     sinnikäs+A+Pl+Comp+Par: sinnikktimppiitä
+     sinnikäs+A+Pl+Comp+Tra: sinnikktimiksi
+     sinnikäs+A+Pl+Comp+Abe: sinnikktimittä
+     sinnikäs+A+Pl+Comp+Ine: sinnikktimissä
+     sinnikäs+A+Pl+Comp+Ela: sinnikktimistä
+     sinnikäs+A+Pl+Comp+Ill: sinnikktimphiin
+     sinnikäs+A+Pl+Comp+Ade: sinnikktimillä
+     sinnikäs+A+Pl+Comp+Abl: sinnikktimiltä
+     sinnikäs+A+Pl+Comp+All: sinnikktimille
+     sinnikäs+A+Pl+Comp+Ess: sinnikktimpinnä
+     sinnikäs+A+Pl+Comp+Com: sinnikktimpine
+     
+     sinnikäs+A+Sg+Superl+Nom: sinnikktiin
+     sinnikäs+A+Sg+Superl+Gen: sinnikktiimän
+     sinnikäs+A+Sg+Superl+Par: sinnikktiintä
+     sinnikäs+A+Sg+Superl+Tra: sinnikktiimäksi
+     sinnikäs+A+Sg+Superl+Abe: sinnikktiimättä
+     sinnikäs+A+Sg+Superl+Ine: sinnikktiimässä
+     sinnikäs+A+Sg+Superl+Ela: sinnikktiimästä
+     sinnikäs+A+Sg+Superl+Ill: sinnikktiimphään
+     sinnikäs+A+Sg+Superl+Ade: sinnikktiimällä
+     sinnikäs+A+Sg+Superl+Abl: sinnikktiimältä
+     sinnikäs+A+Sg+Superl+All: sinnikktiimälle
+     sinnikäs+A+Sg+Superl+Ess: sinnikktiimpännä
+     
+     sinnikäs+A+Pl+Superl+Nom: sinnikktiimät
+     sinnikäs+A+Pl+Superl+Gen: sinnikktiimitten
+     sinnikäs+A+Pl+Superl+Par: sinnikkstiimppiitä
+     sinnikäs+A+Pl+Superl+Tra: sinnikktiimiksi
+     sinnikäs+A+Pl+Superl+Abe: sinnikktiimittä
+     sinnikäs+A+Pl+Superl+Ine: sinnikktiimissä
+     sinnikäs+A+Pl+Superl+Ela: sinnikktiimistä
+     sinnikäs+A+Pl+Superl+Ill: sinnikktiimphiin
+     sinnikäs+A+Pl+Superl+Ade: sinnikktiimillä
+     sinnikäs+A+Pl+Superl+Abl: sinnikktiimiltä
+     sinnikäs+A+Pl+Superl+All: sinnikktiimille
+     sinnikäs+A+Pl+Superl+Ess: sinnikktiimpinnä
+     sinnikäs+A+Pl+Superl+Com: sinnikktiimpine
+

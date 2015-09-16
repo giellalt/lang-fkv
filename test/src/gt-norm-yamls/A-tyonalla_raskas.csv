@@ -1,0 +1,99 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+  
+     raskas+A+Sg+Nom: raskaasti
+     raskas+A+Sg+Gen: raskaastin
+     raskas+A+Sg+Par: raskaastii
+     raskas+A+Sg+Tra: raskaastiksi
+     raskas+A+Sg+Abe: raskaastittä
+     raskas+A+Sg+Ine: raskaastissä
+     raskas+A+Sg+Ela: raskaastistä
+     raskas+A+Sg+Ill: raskaasthiin
+     raskas+A+Sg+Ade: raskaastilä
+     raskas+A+Sg+Abl: raskaastiltä
+     raskas+A+Sg+All: raskaastile
+     raskas+A+Sg+Ess: raskaastinä
+     
+     raskas+A+Pl+Nom: raskaastit
+     raskas+A+Pl+Gen: raskaastiin
+     raskas+A+Pl+Par: raskaastii
+     raskas+A+Pl+Tra: raskaastiiksi
+     raskas+A+Pl+Abe: raskaastiittä
+     raskas+A+Pl+Ine: raskaastiissä
+     raskas+A+Pl+Ela: raskaastiistä
+     raskas+A+Pl+Ill: raskaasthiin
+     raskas+A+Pl+Ade: raskaastiilä
+     raskas+A+Pl+Abl: raskaastiiltä
+     raskas+A+Pl+All: raskaastiile
+     raskas+A+Pl+Com: raskaastiine
+     raskas+A+Pl+Ess: raskaastiinä
+     
+     raskas+A+Sg+Comp+Nom: raskaatimpi
+     raskas+A+Sg+Comp+Gen: raskaatimän
+     raskas+A+Sg+Comp+Par: raskaatimppää
+     raskas+A+Sg+Comp+Tra: raskaatimäksi
+     raskas+A+Sg+Comp+Abe: raskaatimättä
+     raskas+A+Sg+Comp+Ine: raskaatimässä
+     raskas+A+Sg+Comp+Ela: raskaatimästä
+     raskas+A+Sg+Comp+Ill: raskaatimphään
+     raskas+A+Sg+Comp+Ade: raskaatimällä
+     raskas+A+Sg+Comp+Abl: raskaatimältä
+     raskas+A+Sg+Comp+All: raskaatimälle
+     raskas+A+Sg+Comp+Ess: raskaatimpännä
+     
+     raskas+A+Pl+Comp+Nom: raskaatimät
+     raskas+A+Pl+Comp+Gen: raskaatimiitten
+     raskas+A+Pl+Comp+Par: raskaatimppiitä
+     raskas+A+Pl+Comp+Tra: raskaatimiksi
+     raskas+A+Pl+Comp+Abe: raskaatimittä
+     raskas+A+Pl+Comp+Ine: raskaatimissä
+     raskas+A+Pl+Comp+Ela: raskaatimistä
+     raskas+A+Pl+Comp+Ill: raskaatimphiin
+     raskas+A+Pl+Comp+Ade: raskaatimillä
+     raskas+A+Pl+Comp+Abl: raskaatimiltä
+     raskas+A+Pl+Comp+All: raskaatimille
+     raskas+A+Pl+Comp+Ess: raskaatimpinnä
+     raskas+A+Pl+Comp+Com: raskaatimpine
+     
+     raskas+A+Sg+Superl+Nom: raskaatiin
+     raskas+A+Sg+Superl+Gen: raskaatiimän
+     raskas+A+Sg+Superl+Par: raskaatiintä
+     raskas+A+Sg+Superl+Tra: raskaatiimäksi
+     raskas+A+Sg+Superl+Abe: raskaatiimättä
+     raskas+A+Sg+Superl+Ine: raskaatiimässä
+     raskas+A+Sg+Superl+Ela: raskaatiimästä
+     raskas+A+Sg+Superl+Ill: raskaatiimphään
+     raskas+A+Sg+Superl+Ade: raskaatiimällä
+     raskas+A+Sg+Superl+Abl: raskaatiimältä
+     raskas+A+Sg+Superl+All: raskaatiimälle
+     raskas+A+Sg+Superl+Ess: raskaatiimpännä
+     
+     raskas+A+Pl+Superl+Nom: raskaatiimät
+     raskas+A+Pl+Superl+Gen: raskaatiimitten
+     raskas+A+Pl+Superl+Par: raskaastiimppiitä
+     raskas+A+Pl+Superl+Tra: raskaatiimiksi
+     raskas+A+Pl+Superl+Abe: raskaatiimittä
+     raskas+A+Pl+Superl+Ine: raskaatiimissä
+     raskas+A+Pl+Superl+Ela: raskaatiimistä
+     raskas+A+Pl+Superl+Ill: raskaatiimphiin
+     raskas+A+Pl+Superl+Ade: raskaatiimillä
+     raskas+A+Pl+Superl+Abl: raskaatiimiltä
+     raskas+A+Pl+Superl+All: raskaatiimille
+     raskas+A+Pl+Superl+Ess: raskaatiimpinnä
+     raskas+A+Pl+Superl+Com: raskaatiimpine
+

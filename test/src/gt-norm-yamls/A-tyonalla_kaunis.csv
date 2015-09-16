@@ -1,0 +1,99 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+  
+     kaunis+A+Sg+Nom: kauniisti
+     kaunis+A+Sg+Gen: kauniistin
+     kaunis+A+Sg+Par: kauniistii
+     kaunis+A+Sg+Tra: kauniistiksi
+     kaunis+A+Sg+Abe: kauniistittä
+     kaunis+A+Sg+Ine: kauniistissä
+     kaunis+A+Sg+Ela: kauniististä
+     kaunis+A+Sg+Ill: kauniisthiin
+     kaunis+A+Sg+Ade: kauniistilä
+     kaunis+A+Sg+Abl: kauniistiltä
+     kaunis+A+Sg+All: kauniistile
+     kaunis+A+Sg+Ess: kauniistinä
+     
+     kaunis+A+Pl+Nom: kauniistit
+     kaunis+A+Pl+Gen: kauniistiin
+     kaunis+A+Pl+Par: kauniistii
+     kaunis+A+Pl+Tra: kauniistiiksi
+     kaunis+A+Pl+Abe: kauniistiittä
+     kaunis+A+Pl+Ine: kauniistiissä
+     kaunis+A+Pl+Ela: kauniistiistä
+     kaunis+A+Pl+Ill: kauniisthiin
+     kaunis+A+Pl+Ade: kauniistiilä
+     kaunis+A+Pl+Abl: kauniistiiltä
+     kaunis+A+Pl+All: kauniistiile
+     kaunis+A+Pl+Com: kauniistiine
+     kaunis+A+Pl+Ess: kauniistiinä
+     
+     kaunis+A+Sg+Comp+Nom: kauniitimpi
+     kaunis+A+Sg+Comp+Gen: kauniitimän
+     kaunis+A+Sg+Comp+Par: kauniitimppää
+     kaunis+A+Sg+Comp+Tra: kauniitimäksi
+     kaunis+A+Sg+Comp+Abe: kauniitimättä
+     kaunis+A+Sg+Comp+Ine: kauniitimässä
+     kaunis+A+Sg+Comp+Ela: kauniitimästä
+     kaunis+A+Sg+Comp+Ill: kauniitimphään
+     kaunis+A+Sg+Comp+Ade: kauniitimällä
+     kaunis+A+Sg+Comp+Abl: kauniitimältä
+     kaunis+A+Sg+Comp+All: kauniitimälle
+     kaunis+A+Sg+Comp+Ess: kauniitimpännä
+     
+     kaunis+A+Pl+Comp+Nom: kauniitimät
+     kaunis+A+Pl+Comp+Gen: kauniitimiitten
+     kaunis+A+Pl+Comp+Par: kauniitimppiitä
+     kaunis+A+Pl+Comp+Tra: kauniitimiksi
+     kaunis+A+Pl+Comp+Abe: kauniitimittä
+     kaunis+A+Pl+Comp+Ine: kauniitimissä
+     kaunis+A+Pl+Comp+Ela: kauniitimistä
+     kaunis+A+Pl+Comp+Ill: kauniitimphiin
+     kaunis+A+Pl+Comp+Ade: kauniitimillä
+     kaunis+A+Pl+Comp+Abl: kauniitimiltä
+     kaunis+A+Pl+Comp+All: kauniitimille
+     kaunis+A+Pl+Comp+Ess: kauniitimpinnä
+     kaunis+A+Pl+Comp+Com: kauniitimpine
+     
+     kaunis+A+Sg+Superl+Nom: kauniitiin
+     kaunis+A+Sg+Superl+Gen: kauniitiimän
+     kaunis+A+Sg+Superl+Par: kauniitiintä
+     kaunis+A+Sg+Superl+Tra: kauniitiimäksi
+     kaunis+A+Sg+Superl+Abe: kauniitiimättä
+     kaunis+A+Sg+Superl+Ine: kauniitiimässä
+     kaunis+A+Sg+Superl+Ela: kauniitiimästä
+     kaunis+A+Sg+Superl+Ill: kauniitiimphään
+     kaunis+A+Sg+Superl+Ade: kauniitiimällä
+     kaunis+A+Sg+Superl+Abl: kauniitiimältä
+     kaunis+A+Sg+Superl+All: kauniitiimälle
+     kaunis+A+Sg+Superl+Ess: kauniitiimpännä
+     
+     kaunis+A+Pl+Superl+Nom: kauniitiimät
+     kaunis+A+Pl+Superl+Gen: kauniitiimitten
+     kaunis+A+Pl+Superl+Par: kauniistiimppiitä
+     kaunis+A+Pl+Superl+Tra: kauniitiimiksi
+     kaunis+A+Pl+Superl+Abe: kauniitiimittä
+     kaunis+A+Pl+Superl+Ine: kauniitiimissä
+     kaunis+A+Pl+Superl+Ela: kauniitiimistä
+     kaunis+A+Pl+Superl+Ill: kauniitiimphiin
+     kaunis+A+Pl+Superl+Ade: kauniitiimillä
+     kaunis+A+Pl+Superl+Abl: kauniitiimiltä
+     kaunis+A+Pl+Superl+All: kauniitiimille
+     kaunis+A+Pl+Superl+Ess: kauniitiimpinnä
+     kaunis+A+Pl+Superl+Com: kauniitiimpine
+

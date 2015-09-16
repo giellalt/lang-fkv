@@ -1,0 +1,99 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+  
+     ruottii+A+Sg+Nom: ruott2iisti
+     ruottii+A+Sg+Gen: ruott2iistin
+     ruottii+A+Sg+Par: ruott2iistii
+     ruottii+A+Sg+Tra: ruott2iistiksi
+     ruottii+A+Sg+Abe: ruott2iistittä
+     ruottii+A+Sg+Ine: ruott2iistissä
+     ruottii+A+Sg+Ela: ruott2iististä
+     ruottii+A+Sg+Ill: ruott2iisthiin
+     ruottii+A+Sg+Ade: ruott2iistilä
+     ruottii+A+Sg+Abl: ruott2iistiltä
+     ruottii+A+Sg+All: ruott2iistile
+     ruottii+A+Sg+Ess: ruott2iistinä
+     
+     ruottii+A+Pl+Nom: ruott2iistit
+     ruottii+A+Pl+Gen: ruott2iistiin
+     ruottii+A+Pl+Par: ruott2iistii
+     ruottii+A+Pl+Tra: ruott2iistiiksi
+     ruottii+A+Pl+Abe: ruott2iistiittä
+     ruottii+A+Pl+Ine: ruott2iistiissä
+     ruottii+A+Pl+Ela: ruott2iistiistä
+     ruottii+A+Pl+Ill: ruott2iisthiin
+     ruottii+A+Pl+Ade: ruott2iistiilä
+     ruottii+A+Pl+Abl: ruott2iistiiltä
+     ruottii+A+Pl+All: ruott2iistiile
+     ruottii+A+Pl+Com: ruott2iistiine
+     ruottii+A+Pl+Ess: ruott2iistiinä
+     
+     ruottii+A+Sg+Comp+Nom: ruott2iitimpi
+     ruottii+A+Sg+Comp+Gen: ruott2iitimän
+     ruottii+A+Sg+Comp+Par: ruott2iitimppää
+     ruottii+A+Sg+Comp+Tra: ruott2iitimäksi
+     ruottii+A+Sg+Comp+Abe: ruott2iitimättä
+     ruottii+A+Sg+Comp+Ine: ruott2iitimässä
+     ruottii+A+Sg+Comp+Ela: ruott2iitimästä
+     ruottii+A+Sg+Comp+Ill: ruott2iitimphään
+     ruottii+A+Sg+Comp+Ade: ruott2iitimällä
+     ruottii+A+Sg+Comp+Abl: ruott2iitimältä
+     ruottii+A+Sg+Comp+All: ruott2iitimälle
+     ruottii+A+Sg+Comp+Ess: ruott2iitimpännä
+     
+     ruottii+A+Pl+Comp+Nom: ruott2iitimät
+     ruottii+A+Pl+Comp+Gen: ruott2iitimiitten
+     ruottii+A+Pl+Comp+Par: ruott2iitimppiitä
+     ruottii+A+Pl+Comp+Tra: ruott2iitimiksi
+     ruottii+A+Pl+Comp+Abe: ruott2iitimittä
+     ruottii+A+Pl+Comp+Ine: ruott2iitimissä
+     ruottii+A+Pl+Comp+Ela: ruott2iitimistä
+     ruottii+A+Pl+Comp+Ill: ruott2iitimphiin
+     ruottii+A+Pl+Comp+Ade: ruott2iitimillä
+     ruottii+A+Pl+Comp+Abl: ruott2iitimiltä
+     ruottii+A+Pl+Comp+All: ruott2iitimille
+     ruottii+A+Pl+Comp+Ess: ruott2iitimpinnä
+     ruottii+A+Pl+Comp+Com: ruott2iitimpine
+     
+     ruottii+A+Sg+Superl+Nom: ruott2iitiin
+     ruottii+A+Sg+Superl+Gen: ruott2iitiimän
+     ruottii+A+Sg+Superl+Par: ruott2iitiintä
+     ruottii+A+Sg+Superl+Tra: ruott2iitiimäksi
+     ruottii+A+Sg+Superl+Abe: ruott2iitiimättä
+     ruottii+A+Sg+Superl+Ine: ruott2iitiimässä
+     ruottii+A+Sg+Superl+Ela: ruott2iitiimästä
+     ruottii+A+Sg+Superl+Ill: ruott2iitiimphään
+     ruottii+A+Sg+Superl+Ade: ruott2iitiimällä
+     ruottii+A+Sg+Superl+Abl: ruott2iitiimältä
+     ruottii+A+Sg+Superl+All: ruott2iitiimälle
+     ruottii+A+Sg+Superl+Ess: ruott2iitiimpännä
+     
+     ruottii+A+Pl+Superl+Nom: ruott2iitiimät
+     ruottii+A+Pl+Superl+Gen: ruott2iitiimitten
+     ruottii+A+Pl+Superl+Par: ruott2iistiimppiitä
+     ruottii+A+Pl+Superl+Tra: ruott2iitiimiksi
+     ruottii+A+Pl+Superl+Abe: ruott2iitiimittä
+     ruottii+A+Pl+Superl+Ine: ruott2iitiimissä
+     ruottii+A+Pl+Superl+Ela: ruott2iitiimistä
+     ruottii+A+Pl+Superl+Ill: ruott2iitiimphiin
+     ruottii+A+Pl+Superl+Ade: ruott2iitiimillä
+     ruottii+A+Pl+Superl+Abl: ruott2iitiimiltä
+     ruottii+A+Pl+Superl+All: ruott2iitiimille
+     ruottii+A+Pl+Superl+Ess: ruott2iitiimpinnä
+     ruottii+A+Pl+Superl+Com: ruott2iitiimpine
+
