@@ -1,0 +1,99 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+  
+     veres+A+Sg+Nom: veresti
+     veres+A+Sg+Gen: verestin
+     veres+A+Sg+Par: verestii
+     veres+A+Sg+Tra: verestiksi
+     veres+A+Sg+Abe: verestittä
+     veres+A+Sg+Ine: verestissä
+     veres+A+Sg+Ela: verestistä
+     veres+A+Sg+Ill: veresthiin
+     veres+A+Sg+Ade: verestilä
+     veres+A+Sg+Abl: verestiltä
+     veres+A+Sg+All: verestile
+     veres+A+Sg+Ess: verestinä
+     
+     veres+A+Pl+Nom: verestit
+     veres+A+Pl+Gen: verestiin
+     veres+A+Pl+Par: verestii
+     veres+A+Pl+Tra: verestiiksi
+     veres+A+Pl+Abe: verestiittä
+     veres+A+Pl+Ine: verestiissä
+     veres+A+Pl+Ela: verestiistä
+     veres+A+Pl+Ill: veresthiin
+     veres+A+Pl+Ade: verestiilä
+     veres+A+Pl+Abl: verestiiltä
+     veres+A+Pl+All: verestiile
+     veres+A+Pl+Com: verestiine
+     veres+A+Pl+Ess: verestiinä
+     
+     veres+A+Sg+Comp+Nom: veretimpi
+     veres+A+Sg+Comp+Gen: veretimän
+     veres+A+Sg+Comp+Par: veretimppää
+     veres+A+Sg+Comp+Tra: veretimäksi
+     veres+A+Sg+Comp+Abe: veretimättä
+     veres+A+Sg+Comp+Ine: veretimässä
+     veres+A+Sg+Comp+Ela: veretimästä
+     veres+A+Sg+Comp+Ill: veretimphään
+     veres+A+Sg+Comp+Ade: veretimällä
+     veres+A+Sg+Comp+Abl: veretimältä
+     veres+A+Sg+Comp+All: veretimälle
+     veres+A+Sg+Comp+Ess: veretimpännä
+     
+     veres+A+Pl+Comp+Nom: veretimät
+     veres+A+Pl+Comp+Gen: veretimiitten
+     veres+A+Pl+Comp+Par: veretimppiitä
+     veres+A+Pl+Comp+Tra: veretimiksi
+     veres+A+Pl+Comp+Abe: veretimittä
+     veres+A+Pl+Comp+Ine: veretimissä
+     veres+A+Pl+Comp+Ela: veretimistä
+     veres+A+Pl+Comp+Ill: veretimphiin
+     veres+A+Pl+Comp+Ade: veretimillä
+     veres+A+Pl+Comp+Abl: veretimiltä
+     veres+A+Pl+Comp+All: veretimille
+     veres+A+Pl+Comp+Ess: veretimpinnä
+     veres+A+Pl+Comp+Com: veretimpine
+     
+     veres+A+Sg+Superl+Nom: veretiin
+     veres+A+Sg+Superl+Gen: veretiimän
+     veres+A+Sg+Superl+Par: veretiintä
+     veres+A+Sg+Superl+Tra: veretiimäksi
+     veres+A+Sg+Superl+Abe: veretiimättä
+     veres+A+Sg+Superl+Ine: veretiimässä
+     veres+A+Sg+Superl+Ela: veretiimästä
+     veres+A+Sg+Superl+Ill: veretiimphään
+     veres+A+Sg+Superl+Ade: veretiimällä
+     veres+A+Sg+Superl+Abl: veretiimältä
+     veres+A+Sg+Superl+All: veretiimälle
+     veres+A+Sg+Superl+Ess: veretiimpännä
+     
+     veres+A+Pl+Superl+Nom: veretiimät
+     veres+A+Pl+Superl+Gen: veretiimitten
+     veres+A+Pl+Superl+Par: verestiimppiitä
+     veres+A+Pl+Superl+Tra: veretiimiksi
+     veres+A+Pl+Superl+Abe: veretiimittä
+     veres+A+Pl+Superl+Ine: veretiimissä
+     veres+A+Pl+Superl+Ela: veretiimistä
+     veres+A+Pl+Superl+Ill: veretiimphiin
+     veres+A+Pl+Superl+Ade: veretiimillä
+     veres+A+Pl+Superl+Abl: veretiimiltä
+     veres+A+Pl+Superl+All: veretiimille
+     veres+A+Pl+Superl+Ess: veretiimpinnä
+     veres+A+Pl+Superl+Com: veretiimpine
+

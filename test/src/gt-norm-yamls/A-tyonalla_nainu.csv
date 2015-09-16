@@ -1,0 +1,99 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+  
+     nainu+A+Sg+Nom: nainiisti
+     nainu+A+Sg+Gen: nainiistin
+     nainu+A+Sg+Par: nainiistii
+     nainu+A+Sg+Tra: nainiistiksi
+     nainu+A+Sg+Abe: nainiistittä
+     nainu+A+Sg+Ine: nainiistissä
+     nainu+A+Sg+Ela: nainiististä
+     nainu+A+Sg+Ill: nainiisthiin
+     nainu+A+Sg+Ade: nainiistilä
+     nainu+A+Sg+Abl: nainiistiltä
+     nainu+A+Sg+All: nainiistile
+     nainu+A+Sg+Ess: nainiistinä
+     
+     nainu+A+Pl+Nom: nainiistit
+     nainu+A+Pl+Gen: nainiistiin
+     nainu+A+Pl+Par: nainiistii
+     nainu+A+Pl+Tra: nainiistiiksi
+     nainu+A+Pl+Abe: nainiistiittä
+     nainu+A+Pl+Ine: nainiistiissä
+     nainu+A+Pl+Ela: nainiistiistä
+     nainu+A+Pl+Ill: nainiisthiin
+     nainu+A+Pl+Ade: nainiistiilä
+     nainu+A+Pl+Abl: nainiistiiltä
+     nainu+A+Pl+All: nainiistiile
+     nainu+A+Pl+Com: nainiistiine
+     nainu+A+Pl+Ess: nainiistiinä
+     
+     nainu+A+Sg+Comp+Nom: nainiitimpi
+     nainu+A+Sg+Comp+Gen: nainiitimän
+     nainu+A+Sg+Comp+Par: nainiitimppää
+     nainu+A+Sg+Comp+Tra: nainiitimäksi
+     nainu+A+Sg+Comp+Abe: nainiitimättä
+     nainu+A+Sg+Comp+Ine: nainiitimässä
+     nainu+A+Sg+Comp+Ela: nainiitimästä
+     nainu+A+Sg+Comp+Ill: nainiitimphään
+     nainu+A+Sg+Comp+Ade: nainiitimällä
+     nainu+A+Sg+Comp+Abl: nainiitimältä
+     nainu+A+Sg+Comp+All: nainiitimälle
+     nainu+A+Sg+Comp+Ess: nainiitimpännä
+     
+     nainu+A+Pl+Comp+Nom: nainiitimät
+     nainu+A+Pl+Comp+Gen: nainiitimiitten
+     nainu+A+Pl+Comp+Par: nainiitimppiitä
+     nainu+A+Pl+Comp+Tra: nainiitimiksi
+     nainu+A+Pl+Comp+Abe: nainiitimittä
+     nainu+A+Pl+Comp+Ine: nainiitimissä
+     nainu+A+Pl+Comp+Ela: nainiitimistä
+     nainu+A+Pl+Comp+Ill: nainiitimphiin
+     nainu+A+Pl+Comp+Ade: nainiitimillä
+     nainu+A+Pl+Comp+Abl: nainiitimiltä
+     nainu+A+Pl+Comp+All: nainiitimille
+     nainu+A+Pl+Comp+Ess: nainiitimpinnä
+     nainu+A+Pl+Comp+Com: nainiitimpine
+     
+     nainu+A+Sg+Superl+Nom: nainiitiin
+     nainu+A+Sg+Superl+Gen: nainiitiimän
+     nainu+A+Sg+Superl+Par: nainiitiintä
+     nainu+A+Sg+Superl+Tra: nainiitiimäksi
+     nainu+A+Sg+Superl+Abe: nainiitiimättä
+     nainu+A+Sg+Superl+Ine: nainiitiimässä
+     nainu+A+Sg+Superl+Ela: nainiitiimästä
+     nainu+A+Sg+Superl+Ill: nainiitiimphään
+     nainu+A+Sg+Superl+Ade: nainiitiimällä
+     nainu+A+Sg+Superl+Abl: nainiitiimältä
+     nainu+A+Sg+Superl+All: nainiitiimälle
+     nainu+A+Sg+Superl+Ess: nainiitiimpännä
+     
+     nainu+A+Pl+Superl+Nom: nainiitiimät
+     nainu+A+Pl+Superl+Gen: nainiitiimitten
+     nainu+A+Pl+Superl+Par: nainiistiimppiitä
+     nainu+A+Pl+Superl+Tra: nainiitiimiksi
+     nainu+A+Pl+Superl+Abe: nainiitiimittä
+     nainu+A+Pl+Superl+Ine: nainiitiimissä
+     nainu+A+Pl+Superl+Ela: nainiitiimistä
+     nainu+A+Pl+Superl+Ill: nainiitiimphiin
+     nainu+A+Pl+Superl+Ade: nainiitiimillä
+     nainu+A+Pl+Superl+Abl: nainiitiimiltä
+     nainu+A+Pl+Superl+All: nainiitiimille
+     nainu+A+Pl+Superl+Ess: nainiitiimpinnä
+     nainu+A+Pl+Superl+Com: nainiitiimpine
+
