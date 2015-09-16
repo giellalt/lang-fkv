@@ -1,0 +1,99 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+  
+     kärys+A+Sg+Nom: kärsti
+     kärys+A+Sg+Gen: kärstin
+     kärys+A+Sg+Par: kärstii
+     kärys+A+Sg+Tra: kärstiksi
+     kärys+A+Sg+Abe: kärstittä
+     kärys+A+Sg+Ine: kärstissä
+     kärys+A+Sg+Ela: kärstistä
+     kärys+A+Sg+Ill: kärsthiin
+     kärys+A+Sg+Ade: kärstilä
+     kärys+A+Sg+Abl: kärstiltä
+     kärys+A+Sg+All: kärstile
+     kärys+A+Sg+Ess: kärstinä
+     
+     kärys+A+Pl+Nom: kärstit
+     kärys+A+Pl+Gen: kärstiin
+     kärys+A+Pl+Par: kärstii
+     kärys+A+Pl+Tra: kärstiiksi
+     kärys+A+Pl+Abe: kärstiittä
+     kärys+A+Pl+Ine: kärstiissä
+     kärys+A+Pl+Ela: kärstiistä
+     kärys+A+Pl+Ill: kärsthiin
+     kärys+A+Pl+Ade: kärstiilä
+     kärys+A+Pl+Abl: kärstiiltä
+     kärys+A+Pl+All: kärstiile
+     kärys+A+Pl+Com: kärstiine
+     kärys+A+Pl+Ess: kärstiinä
+     
+     kärys+A+Sg+Comp+Nom: kärtimpi
+     kärys+A+Sg+Comp+Gen: kärtimän
+     kärys+A+Sg+Comp+Par: kärtimppää
+     kärys+A+Sg+Comp+Tra: kärtimäksi
+     kärys+A+Sg+Comp+Abe: kärtimättä
+     kärys+A+Sg+Comp+Ine: kärtimässä
+     kärys+A+Sg+Comp+Ela: kärtimästä
+     kärys+A+Sg+Comp+Ill: kärtimphään
+     kärys+A+Sg+Comp+Ade: kärtimällä
+     kärys+A+Sg+Comp+Abl: kärtimältä
+     kärys+A+Sg+Comp+All: kärtimälle
+     kärys+A+Sg+Comp+Ess: kärtimpännä
+     
+     kärys+A+Pl+Comp+Nom: kärtimät
+     kärys+A+Pl+Comp+Gen: kärtimiitten
+     kärys+A+Pl+Comp+Par: kärtimppiitä
+     kärys+A+Pl+Comp+Tra: kärtimiksi
+     kärys+A+Pl+Comp+Abe: kärtimittä
+     kärys+A+Pl+Comp+Ine: kärtimissä
+     kärys+A+Pl+Comp+Ela: kärtimistä
+     kärys+A+Pl+Comp+Ill: kärtimphiin
+     kärys+A+Pl+Comp+Ade: kärtimillä
+     kärys+A+Pl+Comp+Abl: kärtimiltä
+     kärys+A+Pl+Comp+All: kärtimille
+     kärys+A+Pl+Comp+Ess: kärtimpinnä
+     kärys+A+Pl+Comp+Com: kärtimpine
+     
+     kärys+A+Sg+Superl+Nom: kärtiin
+     kärys+A+Sg+Superl+Gen: kärtiimän
+     kärys+A+Sg+Superl+Par: kärtiintä
+     kärys+A+Sg+Superl+Tra: kärtiimäksi
+     kärys+A+Sg+Superl+Abe: kärtiimättä
+     kärys+A+Sg+Superl+Ine: kärtiimässä
+     kärys+A+Sg+Superl+Ela: kärtiimästä
+     kärys+A+Sg+Superl+Ill: kärtiimphään
+     kärys+A+Sg+Superl+Ade: kärtiimällä
+     kärys+A+Sg+Superl+Abl: kärtiimältä
+     kärys+A+Sg+Superl+All: kärtiimälle
+     kärys+A+Sg+Superl+Ess: kärtiimpännä
+     
+     kärys+A+Pl+Superl+Nom: kärtiimät
+     kärys+A+Pl+Superl+Gen: kärtiimitten
+     kärys+A+Pl+Superl+Par: kärstiimppiitä
+     kärys+A+Pl+Superl+Tra: kärtiimiksi
+     kärys+A+Pl+Superl+Abe: kärtiimittä
+     kärys+A+Pl+Superl+Ine: kärtiimissä
+     kärys+A+Pl+Superl+Ela: kärtiimistä
+     kärys+A+Pl+Superl+Ill: kärtiimphiin
+     kärys+A+Pl+Superl+Ade: kärtiimillä
+     kärys+A+Pl+Superl+Abl: kärtiimiltä
+     kärys+A+Pl+Superl+All: kärtiimille
+     kärys+A+Pl+Superl+Ess: kärtiimpinnä
+     kärys+A+Pl+Superl+Com: kärtiimpine
+
