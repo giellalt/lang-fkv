@@ -13,8 +13,9 @@ Tests:
 # Proofread the gold standard (below)
 # Then: linnrun analyser, then correct. 
 
+# Ongelmat monikon i:n kanssa. Keskustele Pirjon kanssa, miksi opettajan monikossa on kaksi i:tä myös muissa kuin Gen & Par.
 
-  Noun - liberaali - ei tsekattu : # Noun 'clean' - ei tsekattu
+  Noun - opettaaja - ei tsekattu : # Noun 'clean' - ei tsekattu
      liberaali+A+Sg+Nom: liberaali
      liberaali+A+Sg+Gen: liberaalin
      liberaali+A+Sg+Par: liberaalii
@@ -29,62 +30,62 @@ Tests:
      liberaali+A+Sg+Ess: liberaalina
      
      liberaali+A+Pl+Nom: liberaalit
-     liberaali+A+Pl+Gen: liberaaliin
-     liberaali+A+Pl+Par: liberaalii
-     liberaali+A+Pl+Tra: liberaaliiksi
-     liberaali+A+Pl+Abe: liberaaliitta
-     liberaali+A+Pl+Ine: liberaaliissa
-     liberaali+A+Pl+Ela: liberaaliista
+     liberaali+A+Pl+Gen: liberaaliitten
+     liberaali+A+Pl+Par: liberaaliita
+     liberaali+A+Pl+Tra: liberaaliksi
+     liberaali+A+Pl+Abe: liberaalitta
+     liberaali+A+Pl+Ine: liberaalissa
+     liberaali+A+Pl+Ela: liberaalista
      liberaali+A+Pl+Ill: liberaalhiin
-     liberaali+A+Pl+Ade: liberaaliila
-     liberaali+A+Pl+Abl: liberaaliilta
-     liberaali+A+Pl+All: liberaaliile
-     liberaali+A+Pl+Ess: liberaaliina
-     liberaali+A+Pl+Com: liberaaliine
+     liberaali+A+Pl+Ade: liberaalila
+     liberaali+A+Pl+Abl: liberaalilta
+     liberaali+A+Pl+All: liberaalile
+     liberaali+A+Pl+Ess: liberaalina
+     liberaali+A+Pl+Com: liberaaline
      
      liberaali+A+Sg+Comp+Nom: liberaalimpi
-     liberaali+A+Sg+Comp+Gen: liberaalimman
+     liberaali+A+Sg+Comp+Gen: liberaaliman
      liberaali+A+Sg+Comp+Par: liberaalimppaa
-     liberaali+A+Sg+Comp+Tra: liberaalimmaksi
-     liberaali+A+Sg+Comp+Abe: liberaalimmatta
-     liberaali+A+Sg+Comp+Ine: liberaalimmassa
-     liberaali+A+Sg+Comp+Ela: liberaalimmasta
+     liberaali+A+Sg+Comp+Tra: liberaalimaksi
+     liberaali+A+Sg+Comp+Abe: liberaalimatta
+     liberaali+A+Sg+Comp+Ine: liberaalimassa
+     liberaali+A+Sg+Comp+Ela: liberaalimasta
      liberaali+A+Sg+Comp+Ill: liberaalimphaan
-     liberaali+A+Sg+Comp+Ade: liberaalimmalla
-     liberaali+A+Sg+Comp+Abl: liberaalimmalta
-     liberaali+A+Sg+Comp+All: liberaalimmalle
+     liberaali+A+Sg+Comp+Ade: liberaalimalla
+     liberaali+A+Sg+Comp+Abl: liberaalimalta
+     liberaali+A+Sg+Comp+All: liberaalimalle
      liberaali+A+Sg+Comp+Ess: liberaalimpanna
      
-     liberaali+A+Pl+Comp+Nom: liberaalimmat
-     liberaali+A+Pl+Comp+Gen: liberaalimmitten
-     liberaali+A+Pl+Comp+Par: liberaalimppii
-     liberaali+A+Pl+Comp+Tra: liberaalimmiksi
-     liberaali+A+Pl+Comp+Abe: liberaalimmitta
-     liberaali+A+Pl+Comp+Ine: liberaalimmissa
-     liberaali+A+Pl+Comp+Ela: liberaalimmista
+     liberaali+A+Pl+Comp+Nom: liberaalimat
+     liberaali+A+Pl+Comp+Gen: liberaalimiitten
+     liberaali+A+Pl+Comp+Par: liberaalimppiita
+     liberaali+A+Pl+Comp+Tra: liberaalimiksi
+     liberaali+A+Pl+Comp+Abe: liberaalimitta
+     liberaali+A+Pl+Comp+Ine: liberaalimissa
+     liberaali+A+Pl+Comp+Ela: liberaalimista
      liberaali+A+Pl+Comp+Ill: liberaalimphiin
-     liberaali+A+Pl+Comp+Ade: liberaalimmilla
-     liberaali+A+Pl+Comp+Abl: liberaalimmilta
-     liberaali+A+Pl+Comp+All: liberaalimmille
+     liberaali+A+Pl+Comp+Ade: liberaalimilla
+     liberaali+A+Pl+Comp+Abl: liberaalimilta
+     liberaali+A+Pl+Comp+All: liberaalimille
      liberaali+A+Pl+Comp+Ess: liberaalimpinna
      liberaali+A+Pl+Comp+Com: liberaalimpine
 
      liberaali+A+Sg+Superl+Nom: liberaaliin
-     liberaali+A+Sg+Superl+Gen: liberaaliimman
+     liberaali+A+Sg+Superl+Gen: liberaaliiman
      liberaali+A+Sg+Superl+Par: liberaaliinta
-     liberaali+A+Sg+Superl+Tra: liberaaliimmaksi
-     liberaali+A+Sg+Superl+Abe: liberaaliimmatta
-     liberaali+A+Sg+Superl+Ine: liberaaliimmassa
-     liberaali+A+Sg+Superl+Ela: liberaaliimmasta
+     liberaali+A+Sg+Superl+Tra: liberaaliimaksi
+     liberaali+A+Sg+Superl+Abe: liberaaliimatta
+     liberaali+A+Sg+Superl+Ine: liberaaliimassa
+     liberaali+A+Sg+Superl+Ela: liberaaliimasta
      liberaali+A+Sg+Superl+Ill: liberaaliimphaan
-     liberaali+A+Sg+Superl+Ade: liberaaliimmalla
-     liberaali+A+Sg+Superl+Abl: liberaaliimmalta
-     liberaali+A+Sg+Superl+All: liberaaliimmalle
+     liberaali+A+Sg+Superl+Ade: liberaaliimalla
+     liberaali+A+Sg+Superl+Abl: liberaaliimalta
+     liberaali+A+Sg+Superl+All: liberaaliimalle
      liberaali+A+Sg+Superl+Ess: liberaaliimpana
      
      liberaali+A+Pl+Superl+Nom: liberaaliimat
-     liberaali+A+Pl+Superl+Gen: liberaaliimitten
-     liberaali+A+Pl+Superl+Par: liberaaliimppii
+     liberaali+A+Pl+Superl+Gen: liberaaliimiitten
+     liberaali+A+Pl+Superl+Par: liberaaliimppiita
      liberaali+A+Pl+Superl+Tra: liberaaliimiksi
      liberaali+A+Pl+Superl+Abe: liberaaliimitta
      liberaali+A+Pl+Superl+Ine: liberaaliimissa
