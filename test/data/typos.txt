@@ -11,7 +11,7 @@
 #
 # Other licensing options are available upon request, please contact
 # giellatekno@hum.uit.no or feedback@divvun.no
-#
+
 # typos.txt
 # This file contains common typos and their corrections separated by
 # a <tab> character, optionally followed by a comment. That is, the
@@ -25,11 +25,12 @@
 #
 # leif	feil	# This is just an example
 #
-# Corrections that consist of two or more parts are not split
+# Corrections that consist of two or more parts are not splitted
 # further in the preprocessor, because there is no way of knowing
-# whether the token is a multipart expression or not.
+# whether the token is multipart expression or not.
 # Beware of removing sentence delimiters (.!?) in correction, since
 # they may indicate sentence boundaries.
 #
 #
-åvtohke	åvtehke
+# --- hyphen-section, most are not really typos and should be removed when we get the twol-rules to function ---
+kväänitten	kvääniitten
