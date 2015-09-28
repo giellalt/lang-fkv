@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://gtsvn.uit.no/langtech/trunk/gtcore/scripts/style/speller_xml.css" type="text/css"?>
+<spelltestresult>
+  <header>
+    <engine abbreviation="vk">
+      <toolversion>n/a</toolversion>
+      <processing memoryusage="n/a" systime="0.407" usertime="1.796" realtime="2.29" words_per_sec="11.79"/>
+    </engine>
+    <lexicon version="n/a"/>
+    <document>typos.txt</document>
+    <timestamp>20150928-2045</timestamp>
+    <truefalsesummary wordcount="27">
+      <original correct="0" error="27"/>
+      <speller correct="0" error="27"/>
+      <positive true="27" false="0"/>
+      <negative true="0" false="0"/>
+      <precision>1.00</precision>
+      <recall>1.00</recall>
+      <accuracy>1.00</accuracy>
+    </truefalsesummary>
+    <suggestionsummary>
+      <sugg1 editdist1="10" editdist2="3" editdist3plus="0"/>
+      <sugg2 editdist1="2" editdist2="2" editdist3plus="0"/>
+      <sugg3 editdist1="1" editdist2="0" editdist3plus="0"/>
+      <sugg4 editdist1="1" editdist2="0" editdist3plus="0"/>
+      <sugg5 editdist1="0" editdist2="0" editdist3plus="0"/>
+      <suggbelow5 editdist1="0" editdist2="0" editdist3plus="0"/>
+      <nosugg editdist1="1" editdist2="0" editdist3plus="1"/>
+      <badsuggs editdist1="3" editdist2="2" editdist3plus="1"/>
+      <averageposition>1.47</averageposition>
+      <top5pos_percent>70.37</top5pos_percent>
+      <allpos_percent>70.37</allpos_percent>
+      <averagesuggs_with_correct>5.00</averagesuggs_with_correct>
+    </suggestionsummary>
+  </header>
+  <results>
+    <word corrsugg="1">
+      <original status="error">kväänitten</original>
+      <speller status="error"/>
+      <expected>kvääniitten</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">kvääniitten</suggestion>
+        <suggestion>kväänittä</suggestion>
+        <suggestion>kväänithän</suggestion>
+        <suggestion>kväänitkin</suggestion>
+        <suggestion>kvääniteen</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">tekee</original>
+      <speller status="error"/>
+      <expected>tekkee</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">tekkee</suggestion>
+        <suggestion>teile</suggestion>
+        <suggestion>teki</suggestion>
+        <suggestion>tehen</suggestion>
+        <suggestion>tehe</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="-1">
+      <original status="error">jokea</original>
+      <speller status="error"/>
+      <expected>jokkee</expected>
+      <edit_dist>2</edit_dist>
+      <suggestions count="5">
+        <suggestion>joka</suggestion>
+        <suggestion>jokka</suggestion>
+        <suggestion>joven</suggestion>
+        <suggestion>jonka</suggestion>
+        <suggestion>joila</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">oøi</original>
+      <speller status="error"/>
+      <expected>oli</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">oli</suggestion>
+        <suggestion>oon</suggestion>
+        <suggestion>ei</suggestion>
+        <suggestion>ole</suggestion>
+        <suggestion>olis</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">sillon</original>
+      <speller status="error"/>
+      <expected>silloin</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">silloin</suggestion>
+        <suggestion>sillä</suggestion>
+        <suggestion>siljon</suggestion>
+        <suggestion>sillan</suggestion>
+        <suggestion>sille</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="2">
+      <original status="error">alko</original>
+      <speller status="error"/>
+      <expected>alkoi</expected>
+      <edit_dist>1</edit_dist>
+      <position>2</position>
+      <suggestions count="5">
+        <suggestion>ko</suggestion>
+        <suggestion expected="yes">alkoi</suggestion>
+        <suggestion>koko</suggestion>
+        <suggestion>pakko</suggestion>
+        <suggestion>alas</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">tärkeä</original>
+      <speller status="error"/>
+      <expected>tärkkee</expected>
+      <edit_dist>2</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">tärkkee</suggestion>
+        <suggestion>märkä</suggestion>
+        <suggestion>täkkää</suggestion>
+        <suggestion>kärkenä</suggestion>
+        <suggestion>härkä</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">ihmisiä</original>
+      <speller status="error"/>
+      <expected>ihmissii</expected>
+      <edit_dist>2</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">ihmissii</suggestion>
+        <suggestion>ihmiset</suggestion>
+        <suggestion>ihmistä</suggestion>
+        <suggestion>ihmisen</suggestion>
+        <suggestion>ihmisistä</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">antaa</original>
+      <speller status="error"/>
+      <expected>anttaa</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">anttaa</suggestion>
+        <suggestion>anttaat</suggestion>
+        <suggestion>auttaa</suggestion>
+        <suggestion>antanu</suggestion>
+        <suggestion>kanttaa</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">hakemahaan</original>
+      <speller status="error"/>
+      <expected>hakemhaan</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">hakemhaan</suggestion>
+        <suggestion>hajemahan</suggestion>
+        <suggestion>hajemakhaan</suggestion>
+        <suggestion>hakumahhaan</suggestion>
+        <suggestion>hakamahhaan</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="2">
+      <original status="error">löytää</original>
+      <speller status="error"/>
+      <expected>löyttäät</expected>
+      <edit_dist>2</edit_dist>
+      <position>2</position>
+      <suggestions count="5">
+        <suggestion>löyttää</suggestion>
+        <suggestion expected="yes">löyttäät</suggestion>
+        <suggestion>löytyi</suggestion>
+        <suggestion>löytäny</suggestion>
+        <suggestion>löyhää</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">kokonhaansa</original>
+      <speller status="error"/>
+      <expected>kokonhansa</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">kokonhansa</suggestion>
+        <suggestion>kokonhaanpa</suggestion>
+        <suggestion>kokonhaassa</suggestion>
+        <suggestion>kovonhaanpa</suggestion>
+        <suggestion>kovonhaassa</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">siirythiin</original>
+      <speller status="error"/>
+      <expected>siirrythiin</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">siirrythiin</suggestion>
+        <suggestion>hiirrythiin</suggestion>
+        <suggestion>siirrethiin</suggestion>
+        <suggestion>siisthiin</suggestion>
+        <suggestion>siitethiin</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="-1">
+      <original status="error">kategoorii</original>
+      <speller status="error"/>
+      <expected>kategorii</expected>
+      <edit_dist>1</edit_dist>
+      <suggestions count="5">
+        <suggestion>kastetoorii</suggestion>
+        <suggestion>kattooorii</suggestion>
+        <suggestion>satetoorii</suggestion>
+        <suggestion>katonoorii</suggestion>
+        <suggestion>matetoorii</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">vaikea</original>
+      <speller status="error"/>
+      <expected>vaikkee</expected>
+      <edit_dist>2</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">vaikkee</suggestion>
+        <suggestion>vaikka</suggestion>
+        <suggestion>kaiken</suggestion>
+        <suggestion>aika</suggestion>
+        <suggestion>paikka</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">vaatheet</original>
+      <speller status="error"/>
+      <expected>vaattheet</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">vaattheet</suggestion>
+        <suggestion>saanheet</suggestion>
+        <suggestion>vaattheen</suggestion>
+        <suggestion>vaatinheet</suggestion>
+        <suggestion>kastheet</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="2">
+      <original status="error">pitke</original>
+      <speller status="error"/>
+      <expected>pitkä</expected>
+      <edit_dist>1</edit_dist>
+      <position>2</position>
+      <suggestions count="5">
+        <suggestion>sitte</suggestion>
+        <suggestion expected="yes">pitkä</suggestion>
+        <suggestion>pikku</suggestion>
+        <suggestion>itte</suggestion>
+        <suggestion>pitkät</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="4">
+      <original status="error">nauro</original>
+      <speller status="error"/>
+      <expected>nauroi</expected>
+      <edit_dist>1</edit_dist>
+      <position>4</position>
+      <suggestions count="5">
+        <suggestion>nauru</suggestion>
+        <suggestion>naurun</suggestion>
+        <suggestion>naura</suggestion>
+        <suggestion expected="yes">nauroi</suggestion>
+        <suggestion>nauraa</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="2">
+      <original status="error">tietää</original>
+      <speller status="error"/>
+      <expected>tiettäät</expected>
+      <edit_dist>2</edit_dist>
+      <position>2</position>
+      <suggestions count="5">
+        <suggestion>tiettää</suggestion>
+        <suggestion expected="yes">tiettäät</suggestion>
+        <suggestion>pittää</suggestion>
+        <suggestion>tietä</suggestion>
+        <suggestion>tieđä</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="-1">
+      <original status="error">tartte</original>
+      <speller status="error"/>
+      <expected>tarttee</expected>
+      <edit_dist>1</edit_dist>
+      <suggestions count="5">
+        <suggestion>tartten</suggestion>
+        <suggestion>tarttet</suggestion>
+        <suggestion>kartta</suggestion>
+        <suggestion>tarvitte</suggestion>
+        <suggestion>tartu</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">sannoi</original>
+      <speller status="error"/>
+      <expected>sanoi</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">sanoi</suggestion>
+        <suggestion>sano</suggestion>
+        <suggestion>sannoo</suggestion>
+        <suggestion>sanon</suggestion>
+        <suggestion>sanoit</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="-1">
+      <original status="error">kväänejä</original>
+      <speller status="error"/>
+      <expected>kvääniitä</expected>
+      <edit_dist>3</edit_dist>
+      <suggestions count="5">
+        <suggestion>kvääninä</suggestion>
+        <suggestion>kväänilä</suggestion>
+        <suggestion>kväänipä</suggestion>
+        <suggestion>kväänijää</suggestion>
+        <suggestion>kvääniemä</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="3">
+      <original status="error">laukko</original>
+      <speller status="error"/>
+      <expected>laukkoi</expected>
+      <edit_dist>1</edit_dist>
+      <position>3</position>
+      <suggestions count="5">
+        <suggestion>pakko</suggestion>
+        <suggestion>lauko</suggestion>
+        <suggestion expected="yes">laukkoi</suggestion>
+        <suggestion>laukkoo</suggestion>
+        <suggestion>saukko</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="0">
+      <original status="error">on</original>
+      <speller status="error"/>
+      <expected>oon</expected>
+      <edit_dist>1</edit_dist>
+    </word>
+    <word corrsugg="-1">
+      <original status="error">uusia</original>
+      <speller status="error"/>
+      <expected>uusii</expected>
+      <edit_dist>1</edit_dist>
+      <suggestions count="5">
+        <suggestion>uussii</suggestion>
+        <suggestion>uusi</suggestion>
+        <suggestion>huusi</suggestion>
+        <suggestion>uusila</suggestion>
+        <suggestion>uutta</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="-1">
+      <original status="error">hyviä</original>
+      <speller status="error"/>
+      <expected>hyvvii</expected>
+      <edit_dist>2</edit_dist>
+      <suggestions count="5">
+        <suggestion>hyvä</suggestion>
+        <suggestion>hyvvää</suggestion>
+        <suggestion>hyvin</suggestion>
+        <suggestion>hyvät</suggestion>
+        <suggestion>hyvilä</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="0">
+      <original status="error">isoja</original>
+      <speller status="error"/>
+      <expected>issoi</expected>
+      <edit_dist>3</edit_dist>
+    </word>
+  </results>
+</spelltestresult>
