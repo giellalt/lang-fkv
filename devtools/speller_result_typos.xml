@@ -4,11 +4,11 @@
   <header>
     <engine abbreviation="vk">
       <toolversion>n/a</toolversion>
-      <processing memoryusage="n/a" systime="0.407" usertime="1.796" realtime="2.29" words_per_sec="11.79"/>
+      <processing memoryusage="n/a" systime="0.378" usertime="1.803" realtime="2.218" words_per_sec="12.17"/>
     </engine>
     <lexicon version="n/a"/>
     <document>typos.txt</document>
-    <timestamp>20150928-2045</timestamp>
+    <timestamp>20150928-2122</timestamp>
     <truefalsesummary wordcount="27">
       <original correct="0" error="27"/>
       <speller correct="0" error="27"/>
@@ -142,7 +142,7 @@
         <suggestion>ihmiset</suggestion>
         <suggestion>ihmistä</suggestion>
         <suggestion>ihmisen</suggestion>
-        <suggestion>ihmisistä</suggestion>
+        <suggestion>ihmispii</suggestion>
       </suggestions>
     </word>
     <word corrsugg="1">
@@ -366,9 +366,9 @@
       <suggestions count="5">
         <suggestion>uussii</suggestion>
         <suggestion>uusi</suggestion>
-        <suggestion>huusi</suggestion>
-        <suggestion>uusila</suggestion>
-        <suggestion>uutta</suggestion>
+        <suggestion>assii</suggestion>
+        <suggestion>uunii</suggestion>
+        <suggestion>bussii</suggestion>
       </suggestions>
     </word>
     <word corrsugg="-1">
@@ -378,10 +378,10 @@
       <edit_dist>2</edit_dist>
       <suggestions count="5">
         <suggestion>hyvä</suggestion>
+        <suggestion>hävvii</suggestion>
         <suggestion>hyvvää</suggestion>
         <suggestion>hyvin</suggestion>
-        <suggestion>hyvät</suggestion>
-        <suggestion>hyvilä</suggestion>
+        <suggestion>tyvii</suggestion>
       </suggestions>
     </word>
     <word corrsugg="0">
