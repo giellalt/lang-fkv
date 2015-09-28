@@ -4,32 +4,32 @@
   <header>
     <engine abbreviation="vk">
       <toolversion>n/a</toolversion>
-      <processing memoryusage="n/a" systime="0.378" usertime="1.803" realtime="2.218" words_per_sec="12.17"/>
+      <processing memoryusage="n/a" systime="0.384" usertime="1.86" realtime="2.285" words_per_sec="14.88"/>
     </engine>
     <lexicon version="n/a"/>
     <document>typos.txt</document>
-    <timestamp>20150928-2122</timestamp>
-    <truefalsesummary wordcount="27">
-      <original correct="0" error="27"/>
-      <speller correct="0" error="27"/>
-      <positive true="27" false="0"/>
+    <timestamp>20150928-2256</timestamp>
+    <truefalsesummary wordcount="34">
+      <original correct="0" error="34"/>
+      <speller correct="0" error="34"/>
+      <positive true="34" false="0"/>
       <negative true="0" false="0"/>
       <precision>1.00</precision>
       <recall>1.00</recall>
       <accuracy>1.00</accuracy>
     </truefalsesummary>
     <suggestionsummary>
-      <sugg1 editdist1="10" editdist2="3" editdist3plus="0"/>
+      <sugg1 editdist1="14" editdist2="3" editdist3plus="1"/>
       <sugg2 editdist1="2" editdist2="2" editdist3plus="0"/>
       <sugg3 editdist1="1" editdist2="0" editdist3plus="0"/>
       <sugg4 editdist1="1" editdist2="0" editdist3plus="0"/>
       <sugg5 editdist1="0" editdist2="0" editdist3plus="0"/>
       <suggbelow5 editdist1="0" editdist2="0" editdist3plus="0"/>
-      <nosugg editdist1="1" editdist2="0" editdist3plus="1"/>
-      <badsuggs editdist1="3" editdist2="2" editdist3plus="1"/>
-      <averageposition>1.47</averageposition>
-      <top5pos_percent>70.37</top5pos_percent>
-      <allpos_percent>70.37</allpos_percent>
+      <nosugg editdist1="2" editdist2="0" editdist3plus="0"/>
+      <badsuggs editdist1="3" editdist2="3" editdist3plus="2"/>
+      <averageposition>1.38</averageposition>
+      <top5pos_percent>70.59</top5pos_percent>
+      <allpos_percent>70.59</allpos_percent>
       <averagesuggs_with_correct>5.00</averagesuggs_with_correct>
     </suggestionsummary>
   </header>
@@ -384,11 +384,107 @@
         <suggestion>tyvii</suggestion>
       </suggestions>
     </word>
-    <word corrsugg="0">
+    <word corrsugg="1">
       <original status="error">isoja</original>
       <speller status="error"/>
       <expected>issoi</expected>
       <edit_dist>3</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">issoi</suggestion>
+        <suggestion>soi</suggestion>
+        <suggestion>voi</suggestion>
+        <suggestion>seisoi</suggestion>
+        <suggestion>ihoi</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">seuraaviita</original>
+      <speller status="error"/>
+      <expected>seuraaviitta</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">seuraaviitta</suggestion>
+        <suggestion>seuraaviilta</suggestion>
+        <suggestion>seuraavaita</suggestion>
+        <suggestion>seuraaviista</suggestion>
+        <suggestion>seuraailta</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">käythöön</original>
+      <speller status="error"/>
+      <expected>käytthöön</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">käytthöön</suggestion>
+        <suggestion>käythiin</suggestion>
+        <suggestion>käytthöin</suggestion>
+        <suggestion>käyttöin</suggestion>
+        <suggestion>pyythöön</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="-1">
+      <original status="error">tysäkin</original>
+      <speller status="error"/>
+      <expected>työssäkin</expected>
+      <edit_dist>2</edit_dist>
+      <suggestions count="5">
+        <suggestion>nysäkin</suggestion>
+        <suggestion>tyhäkin</suggestion>
+        <suggestion>tylsäkin</suggestion>
+        <suggestion>ryssäkin</suggestion>
+        <suggestion>tässäkin</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">kuurttoa</original>
+      <speller status="error"/>
+      <expected>kuurttoo</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">kuurttoo</suggestion>
+        <suggestion>kuurto</suggestion>
+        <suggestion>kuurtoi</suggestion>
+        <suggestion>kuurtopa</suggestion>
+        <suggestion>kuurtona</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="-1">
+      <original status="error">lukea</original>
+      <speller status="error"/>
+      <expected>lukkeet</expected>
+      <edit_dist>3</edit_dist>
+      <suggestions count="5">
+        <suggestion>lukkee</suggestion>
+        <suggestion>kuka</suggestion>
+        <suggestion>hukka</suggestion>
+        <suggestion>luki</suggestion>
+        <suggestion>lujet</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="1">
+      <original status="error">lukee</original>
+      <speller status="error"/>
+      <expected>lukkee</expected>
+      <edit_dist>1</edit_dist>
+      <position>1</position>
+      <suggestions count="5">
+        <suggestion expected="yes">lukkee</suggestion>
+        <suggestion>lukkeet</suggestion>
+        <suggestion>luki</suggestion>
+        <suggestion>lujet</suggestion>
+        <suggestion>likele</suggestion>
+      </suggestions>
+    </word>
+    <word corrsugg="0">
+      <original status="error">a</original>
+      <speller status="error"/>
+      <expected>b</expected>
+      <edit_dist>1</edit_dist>
     </word>
   </results>
 </spelltestresult>
