@@ -27,7 +27,7 @@ DEFAULT_EDIT_DIST=2
 # the error model, and thus make it much, much slower. Makre sure you TEST the
 # resulting error model properly and thoroughly, both for speeds and suggestion
 # quality.
-ALLOW_INITIAL_EDITS=no
+ALLOW_INITIAL_EDITS=yes
 
 include $(top_srcdir)/am-shared/tools-spellcheckers-fstbased-hfst-dir-include.am
 
