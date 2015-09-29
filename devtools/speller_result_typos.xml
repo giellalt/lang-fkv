@@ -4,15 +4,15 @@
   <header>
     <engine abbreviation="vk">
       <toolversion>n/a</toolversion>
-      <processing memoryusage="n/a" systime="0.384" usertime="1.86" realtime="2.285" words_per_sec="14.88"/>
+      <processing memoryusage="n/a" systime="0.381" usertime="1.909" realtime="2.35" words_per_sec="13.62"/>
     </engine>
     <lexicon version="n/a"/>
     <document>typos.txt</document>
-    <timestamp>20150928-2256</timestamp>
-    <truefalsesummary wordcount="34">
-      <original correct="0" error="34"/>
-      <speller correct="0" error="34"/>
-      <positive true="34" false="0"/>
+    <timestamp>20150929-1244</timestamp>
+    <truefalsesummary wordcount="32">
+      <original correct="0" error="32"/>
+      <speller correct="0" error="32"/>
+      <positive true="32" false="0"/>
       <negative true="0" false="0"/>
       <precision>1.00</precision>
       <recall>1.00</recall>
@@ -20,16 +20,16 @@
     </truefalsesummary>
     <suggestionsummary>
       <sugg1 editdist1="14" editdist2="3" editdist3plus="1"/>
-      <sugg2 editdist1="2" editdist2="2" editdist3plus="0"/>
+      <sugg2 editdist1="2" editdist2="1" editdist3plus="0"/>
       <sugg3 editdist1="1" editdist2="0" editdist3plus="0"/>
       <sugg4 editdist1="1" editdist2="0" editdist3plus="0"/>
       <sugg5 editdist1="0" editdist2="0" editdist3plus="0"/>
       <suggbelow5 editdist1="0" editdist2="0" editdist3plus="0"/>
-      <nosugg editdist1="2" editdist2="0" editdist3plus="0"/>
+      <nosugg editdist1="1" editdist2="0" editdist3plus="0"/>
       <badsuggs editdist1="3" editdist2="3" editdist3plus="2"/>
-      <averageposition>1.38</averageposition>
-      <top5pos_percent>70.59</top5pos_percent>
-      <allpos_percent>70.59</allpos_percent>
+      <averageposition>1.35</averageposition>
+      <top5pos_percent>71.88</top5pos_percent>
+      <allpos_percent>71.88</allpos_percent>
       <averagesuggs_with_correct>5.00</averagesuggs_with_correct>
     </suggestionsummary>
   </header>
@@ -479,12 +479,6 @@
         <suggestion>lujet</suggestion>
         <suggestion>likele</suggestion>
       </suggestions>
-    </word>
-    <word corrsugg="0">
-      <original status="error">a</original>
-      <speller status="error"/>
-      <expected>b</expected>
-      <edit_dist>1</edit_dist>
     </word>
   </results>
 </spelltestresult>
