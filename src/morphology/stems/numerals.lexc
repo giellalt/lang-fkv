@@ -864,8 +864,8 @@ ARABICCASE ;
 LEXICON ARABICCASE0   !!= * __@CODE@__
  +Sg+Nom: # ;
  +Sg+Gen:%:n # ;
- +RCmpnd:%- ENDLEX ;
- +RCmpnd:%– ENDLEX ;
+ +Cmp/SplitR:%- ENDLEX ;
+ +Cmp/SplitR:%– ENDLEX ;
 
 LEXICON ARABICCASE   !!= * __@CODE@__
  +Sg+Loc:%>ss%^A           K ;
