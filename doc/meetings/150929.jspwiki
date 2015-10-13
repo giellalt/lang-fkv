@@ -70,7 +70,7 @@ Felles for begge ordbøker
 
 * Legg til den finske disambiguatoren (etter sammarbeidsprosjektet med esterne), (__OK__)
 * og gjør den kvensk 
-** Kommando: ''fkvdis "Se tuli."''
+** Eksempel: kommando: ''fkvdis "Se tuli."''
  
 {{{
  "<Se>"
@@ -84,13 +84,12 @@ Felles for begge ordbøker
 
 
 
-
-
-
-
 [https://victorio.uit.no/langtech/trunk/langs/fkv/src/syntax/disambiguation.cg3]
 
 less src/morphology/root.lexc
+
+
+
 
 !! Andre ting gjort siden sist:
 
@@ -99,6 +98,15 @@ less src/morphology/root.lexc
 * Lagt til nye ord i ordboka.
 * Begynt å få user feedback fra Ruijan Kaiku
 * Språkkafe!
+
+
+
+
+
+
+
+
+
 
 
 
@@ -172,7 +180,9 @@ hyvä+A+Pl+Par	hyvväi
 cat src/morphology/stems/adjectives.lexc |grep a_21|tr ':' ' '|cut -d" " -f1|sed 's/$/+A+Pl+Par/'|dfkv|see
 }}}
 
-Vi klare nominativ av alle substantiv! De få (16) verban som mangle er overhode ikke ofte bruke verb.
+Vi klare nominativ av alle substantiv! De (16) verban som fortsatt mangle er ikke ofte bruke verb.
+
+
 
 
 
@@ -215,8 +225,8 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 * Få tekster fra Nasjonalbiblioteket
 
 
-		!! Språktinget?
-* Hva kan vi gjøre med farten?
+		!! Språktinget
+* Hvordan kan vi legge til rette for en mer effektiv prosess av vokabulardiskusjon?
 * Språktingsordlister må legges til
 
 
@@ -229,15 +239,15 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 
 		!! Norsk-Kvensk ordbok
 * rydde i norske lemma (mellomrom)
-** La faste uttrykk stå (Gratulerer med dagen - jeg heter - jeg er)
-** men fjern ting som __aldri__ vil kunne være oppslagsord
+** La faste uttrykk som vi ser at oftes søkes etter være der (Gratulerer med dagen - jeg heter - jeg er)
+** men fjern ting som __aldri__ brukes som oppslagsord
 * Ordlister? Oahpa? Legge til ord fra språkkafé? Sanapuohi? Katso tammikuun referaatti.
 * Legg til lemmaer funnet i Appendix under.
 * facebookista sanoja?
 
 
 		!! Kvensk-Norsk ordbok
-* Prioritere leserene av Ruijan Kaiku?
+* Sørge for at hele Ruijan Kaiku alltid skal være fullt lesbart med ordboka?
 ** se hva vi mangler fra RK ved Nasjonalbiblioteket
 
 
@@ -251,7 +261,12 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 * Nimet!
 
 
-!!Aiheet
+
+
+
+
+
+!!!Aiheet
 
 ! käyttäjille
 
