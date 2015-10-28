@@ -3,16 +3,17 @@ Møte, Börselv 29.9.15
 Hilde, Mari, Sindre, Anna-Kaisa, Trond
 
 Innholdsfortegnelse:
-1) Oversikt fra forrige møte
-2) Oversikt over hvor vi står og forskjellige tester
-3) GJØRELISTE og prioriteringer fremover
--) Appendix
+
+# Oversikt fra forrige møte
+# Oversikt over hvor vi står og forskjellige tester
+# GJØRELISTE og prioriteringer fremover
+# Appendix
 
 
 
 
 
-!!! 1) Oversikt fra forrige møte:
+!!! Oversikt fra forrige møte:
 
 !!Analysator
 
@@ -109,7 +110,7 @@ less src/morphology/root.lexc
 
 
 
-!!! 2) Oversikt over hvor vi står og forskjellige tester
+!!! Oversikt over hvor vi står og forskjellige tester
 
 
 
@@ -159,7 +160,7 @@ cat test/data/fkv.txt|preprocess --corr=test/data/typos.txt|grep '[a-z]'|ufkv|gr
 Jos haluaa YAML-testata pelkästään teittyjä YAML:eita (esim. pelkästään adjektiivit), voi siirtää kaikki muuta YAML:it pois folderista /main/langs/fkv/test/src/gt-norm-yamls/ , tehdä "make check", ja muista siirtää ne takas sen jälkeen tai svn up.
 
 
-		!!Check_lemma (alle grunnformene)
+!!Check_lemma (alle grunnformene)
 
 
 Tre sentrale adjektiv er feil:
@@ -183,7 +184,7 @@ Vi klare nominativ av alle substantiv! De (16) verban som fortsatt mangle er ikk
 
 
 
-		!! Missing list for ordbok
+!! Missing list for ordbok
 
 
 *Hva slår folk opp, uten å få svar. Vi har en logg med 50 000 oppslag. Hvor slår folk opp ifra, IP nummer? Hvor mange brukera?
@@ -200,7 +201,7 @@ __Tiltak:__ Sjå på denne og fylle ut.
 
 
 
-		!! Spellchecker feil?
+!! Spellchecker feil?
 
 {{{
 less test/data/typos.txt
@@ -218,7 +219,7 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 
 
 
-!!! 3) GJØRELISTE og prioriteringer fremover
+!!!GJØRELISTE og prioriteringer fremover
 
 		!! Korpus
 * Sjekk me Merethe om Idar Kristiansen. Mangler det i korpus? Eller i ordboka?
@@ -227,19 +228,21 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 * Få tekster fra Nasjonalbiblioteket
 
 
-		!! Språktinget
+!! Språktinget
+
 * Hvordan kan vi legge til rette for en mer effektiv prosess av vokabulardiskusjon?
 * Språktingsordlister må legges til
 
 
-		!! Retteprogram
+!! Retteprogram
+
 * Rapporter feil i analysator, spesielt fra Merethe og Pirjo
 * Se på feil-"poengene" basert på skriveleifene vi får inn
 * Rette vekter i editdistance, strings, words (filene)
 * Finn naturlige feil fra fjasboka?
 
 
-		!! Norsk-Kvensk ordbok
+!! Norsk-Kvensk ordbok
 * rydde i norske lemma (mellomrom)
 ** La faste uttrykk som vi ser at oftes søkes etter være der (Gratulerer med dagen - jeg heter - jeg er)
 ** men fjern ting som __aldri__ brukes som oppslagsord
@@ -248,12 +251,13 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 * facebookista sanoja?
 
 
-		!! Kvensk-Norsk ordbok
+!! Kvensk-Norsk ordbok
+
 * Sørge for at hele Ruijan Kaiku alltid skal være fullt lesbart med ordboka?
 ** se hva vi mangler fra RK ved Nasjonalbiblioteket
 
 
-		!! Analysator
+!! Analysator
 		
 * Fiks yaml-formattering. Fire mellomrom. White space matters.
 * twolc
@@ -263,15 +267,15 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 * Nimet!
 
 
-!!! "projektit"
+!!! projektit
 
-! käyttäjille
+!! käyttäjille
 
 # nobfkv
 # korjausohjelma
 # fkvnob
 
-! perusmateriaalia
+!! perusmateriaalia
 
 # analysaatori
 # korpus
