@@ -18,7 +18,7 @@ LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc.
 !+A: a_strong_v_stem ;
 !+A:%^WG a_weak_v_stem ;
 :%^AE%^WG comp ;
-:%^AE%^WG superl ;
+:%^AE%^WG%>i5 superl ;
 
 LEXICON a_21ie  !!= * @CODE@ corresponds to a_21ie etc.
 +A: x_21ie ;
@@ -33,8 +33,8 @@ comp ;
 
 LEXICON a_22odd	!!= * @CODE@  simppeli
 +A: x_22odd ;
-comp ;
-superl ;
+comp_mm ;
+:%>ii superl_mm ;
 
 LEXICON a_23	!!= * @CODE@  pimmee
 +A: x_23 ;
