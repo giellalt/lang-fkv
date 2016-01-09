@@ -18,6 +18,7 @@ LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc.
 !+A: a_strong_v_stem ;
 !+A:%^WG a_weak_v_stem ;
 :%^AE%^WG comp ;
+:%^AE%^WG superl ;
 
 LEXICON a_21ie  !!= * @CODE@ corresponds to a_21ie etc.
 +A: x_21ie ;
@@ -28,7 +29,7 @@ superl ;
 LEXICON a_22	!!= * @CODE@  liberaali
 +A: x_22 ;
 comp ;
-superl; 
+:i superl; 
 
 LEXICON a_22odd	!!= * @CODE@  simppeli
 +A: x_22odd ;
@@ -91,26 +92,35 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 
 LEXICON a_33as !!= * @CODE@ rakas
 +A: x_33as ;
-:aa comp ;
+:haa comp ;
+:haa superl ;
 ! comp, superl, puuttuvat
 
 LEXICON a_33aes !!= * @CODE@ rakas
 +A: x_33aes ;
+:hää comp ;
+:hää superl ;
 ! comp, superl, puuttuvat
 
 
 LEXICON a_33is !!= * @CODE@ valmis
 +A: x_33is ;
+:hii comp ;
+:hii superl ;
+
 ! comp, superl, puuttuvat
 
 LEXICON a_33ys !!= * @CODE@ kärys
 +A: x_33ys ;
+:hyy comp ;
+:hyy superl ;
 ! comp, superl, puuttuvat
 
  
 LEXICON a_33t !!= * @CODE@ tuoret
 +A: x_33t ;
 :hee comp ;
+:hee superl ;
 ! comp, superl, puuttuvat
 
 LEXICON a_33u !!= * @CODE@ vaipunu:vaipun ! perfect participle
@@ -135,21 +145,12 @@ LEXICON a_41_s_kse
 +A:%^WG # ;
 
 
-!LEXICON adj-nen
-!+A: nen ;
-
-!LEXICON a_42inen 
-!adj-nen ;
-!+A: nen ;
-!+A:s R ;
-!+A:s a_long_par ;
-!+A+Sg:se a_sgpl_cases_even ;      ! these two lexica for cases with
-!+A+Pl:s%>i2 a_sgpl_cases_even ;  ! the same affix in sg and pl
-!+A+Pl:ssh%>i2 a_shorterillpl ;
-!+A+Pl+Com:s%>i2ne K ;
 
 LEXICON a_42 !!= * @CODE@ varovainen
 +A: x_42 ;
+:se comp ;
+:si superl ;
+
 
 LEXICON a_42odd !!= * @CODE@ sininen
 +A: x_42odd ;
