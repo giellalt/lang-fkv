@@ -60,10 +60,13 @@ LEXICON a_31si	!!= * @CODE@ uusi
 
 LEXICON a_32 !!= * @CODE@ tyven
 +A: x_32 ;
-:e comp ;
+:e comp_mm ;
+:ii superl ;
 
 LEXICON a_32m !!= * @CODE@ irtain
 +A: x_32m ;
+:me comp_mm ;
+:mi superl_mm ;
 
 LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 
@@ -93,13 +96,13 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 LEXICON a_33as !!= * @CODE@ rakas
 +A: x_33as ;
 :haa comp ;
-:haa superl ;
+:hai superl ;
 ! comp, superl, puuttuvat
 
-LEXICON a_33aes !!= * @CODE@ rakas
+LEXICON a_33aes !!= * @CODE@ sinnikäs
 +A: x_33aes ;
 :hää comp ;
-:hää superl ;
+:häi superl ;
 ! comp, superl, puuttuvat
 
 
@@ -113,14 +116,14 @@ LEXICON a_33is !!= * @CODE@ valmis
 LEXICON a_33ys !!= * @CODE@ kärys
 +A: x_33ys ;
 :hyy comp ;
-:hyy superl ;
+:hyi superl ;
 ! comp, superl, puuttuvat
 
  
 LEXICON a_33t !!= * @CODE@ tuoret
 +A: x_33t ;
 :hee comp ;
-:hee superl ;
+:hei superl ;
 ! comp, superl, puuttuvat
 
 LEXICON a_33u !!= * @CODE@ vaipunu:vaipun ! perfect participle
