@@ -13,6 +13,12 @@ LEXICON a_x  !!= * @CODE@ contains unclassified adjectives.
 LEXICON ax  !!= * @CODE@ contains unclassified adjectives.
 +A: K ; 
 
+LEXICON HYVA
++A:hyvä x_21 ; ! hyvvää, hyvät
++A:pare comp ;
++A+Sg+Superl+Nom:paras K ;
+! the rest of paras to be written.
+
 LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc.
 +A: x_21 ;
 !+A: a_strong_v_stem ;
