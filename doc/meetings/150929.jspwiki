@@ -4,10 +4,88 @@ Hilde, Mari, Sindre, Anna-Kaisa, Trond
 
 Innholdsfortegnelse:
 
+# Gjøreliste og prioriteringer fremover
 # Oversikt fra forrige møte
 # Oversikt over hvor vi står og forskjellige tester
-# Gjøreliste og prioriteringer fremover
 # Appendix
+
+
+
+
+
+
+!!!GJØRELISTE og prioriteringer fremover
+
+		!! Korpus
+* Legg til et par store tekster i paralellkorpuset (__Prioritet__)
+* Sjekk me Merethe om Idar Kristiansen. Mangler det i korpus? Eller i ordboka? (__OK__)
+* Er dette alt, Merethe?: freecorpus/orig/fkv/ficti/fiction/idar_kristiansen.docx (__OK__)
+* Få tekster fra Nasjonalbiblioteket
+
+
+!! Språktinget
+
+* Hvordan kan vi legge til rette for en mer effektiv prosess av vokabulardiskusjon?
+* Språktingsordlister må legges til
+
+
+!! Retteprogram
+
+* Lag prosess for å rapportere feil i analysator, spesielt fra Merethe og Pirjo (__Prioritet__)
+* Se på feil-"poengene" basert på skriveleifene vi får inn (Presicion & Recall. Type 1 og type 2 feil i statistikk)
+* Rette vekter i editdistance, strings, words (filene)
+* Finn naturlige feil fra fjasboka?
+* Analysere feilkorpus fra studenter (søk om lov først) & Oahpa!
+
+
+!! Norsk-Kvensk ordbok
+* Legge til en funksjon som gjør at man kan rapportere feil/mangler i ordbøyinger (med en NB melding om at analysatoren ikke e perfekt/ferdig). (__Prioritet__)
+* rydde i norske lemma (mellomrom). (__litt__)
+** Ingen oppslagsord med 7 mellomrom lengre! Fortsatt 19 ord med 3 mellomrom, og 116 med 2!
+** La faste uttrykk som vi ser at oftes søkes etter være der (Gratulerer med dagen - jeg heter - jeg er)
+* Ordlister? Oahpa? Legge til ord fra språkkafé? Sanapuohi? Katso tammikuun referaatti.
+* Legg til lemmaer funnet i Appendix under.
+* facebookista sanoja?
+
+
+!! Kvensk-Norsk ordbok
+
+* Legg til ordboksfunksjonen på hjemmesiden (__Prioritet__)
+* Sørge for at hele Ruijan Kaiku alltid skal være fullt lesbart med ordboka?
+** se hva vi mangler fra RK ved Nasjonalbiblioteket (__Prioritet__)
+
+
+!! Analysator
+		
+* Nimet! (__Prioritet__)
+* Lag script som telle antall ord i forskjellige kategoria. (__Prioritet__)
+* flertallsfeil i nouns. (__Prioritet__)
+* adjektivsfeil. (__Prioritet__)
+* Fiks yaml-formattering. White space matters. (__OK__)
+* twolc
+* adjektiivit (resten av YAML-ene)
+* johdokset
+* Kattavuus
+
+!!! Oversikt over prosjektene
+
+
+!! For brukerne
+
+# nobfkv
+# korjausohjelma
+# fkvnob
+
+!! Grunnmateriale
+
+# analysaatori
+# korpus
+# rinnakkaiskorpus
+
+
+
+
+
 
 
 
@@ -58,7 +136,7 @@ __Puohi__ (fra en norsk frekvensordbok)
 * oversett enkle ord som mangler til kvensk (__litt__)
 * Send til språklærere
 * oversett komplekse ord som mangler til kvensk
-* rydde i norske lemma (__Prioritet__)
+* rydde i norske lemma
 
 ! Hvordan sjekke ordene?
 
@@ -216,72 +294,6 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 
 
 
-
-
-
-!!!GJØRELISTE og prioriteringer fremover
-
-		!! Korpus
-* Sjekk me Merethe om Idar Kristiansen. Mangler det i korpus? Eller i ordboka? (__OK__)
-* Er dette alt, Merethe?: freecorpus/orig/fkv/ficti/fiction/idar_kristiansen.docx (__OK__)
-* Legg til et par store tekster i paralellkorpuset
-* Få tekster fra Nasjonalbiblioteket
-
-
-!! Språktinget
-
-* Hvordan kan vi legge til rette for en mer effektiv prosess av vokabulardiskusjon?
-* Språktingsordlister må legges til
-
-
-!! Retteprogram
-
-* Rapporter feil i analysator, spesielt fra Merethe og Pirjo
-* Se på feil-"poengene" basert på skriveleifene vi får inn
-* Rette vekter i editdistance, strings, words (filene)
-* Finn naturlige feil fra fjasboka?
-
-
-!! Norsk-Kvensk ordbok
-* rydde i norske lemma (mellomrom)
-** La faste uttrykk som vi ser at oftes søkes etter være der (Gratulerer med dagen - jeg heter - jeg er)
-** men fjern ting som __aldri__ brukes som oppslagsord
-* Ordlister? Oahpa? Legge til ord fra språkkafé? Sanapuohi? Katso tammikuun referaatti.
-* Legg til lemmaer funnet i Appendix under.
-* facebookista sanoja?
-
-
-!! Kvensk-Norsk ordbok
-
-* Sørge for at hele Ruijan Kaiku alltid skal være fullt lesbart med ordboka?
-** se hva vi mangler fra RK ved Nasjonalbiblioteket
-* Legg til ordboksfunksjonen på hjemmesiden
-
-
-!! Analysator
-		
-* Fiks yaml-formattering. White space matters. (__OK__)
-* twolc
-* adjektiivit (resten av YAML-ene)
-* johdokset
-* Kattavuus
-* Nimet!
-
-
-!!! Oversikt over prosjektene
-
-
-!! For brukerne
-
-# nobfkv
-# korjausohjelma
-# fkvnob
-
-!! Grunnmateriale
-
-# analysaatori
-# korpus
-# rinnakkaiskorpus
 
 
 
