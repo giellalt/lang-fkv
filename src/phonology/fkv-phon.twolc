@@ -66,7 +66,7 @@ Rules
  
   "Gemination VXi"
   !! __@RULENAME@__ 
-0:Cy <=> Cns:*  Vowel:* Vowel (Vowel:) :Cx _  :Vowel (%^AO:0) %>:  [:i - i3:] (i2:i) ;
+0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) :Cx _  :Vowel (%^AO:0) %>:  [:i - i3:] (i2:i) ;
          Cns:*  Vowel:* Vowel (Vowel:) :Cx _  e:0 %^E2I:0 %>: i2:i %>: %^V:i  ;
          where Cx in ( k p t s v ) ;
 
@@ -312,7 +312,7 @@ Rules
 
 "Gradation ppttkk : ptk"
 !! __@RULENAME@__ 
-Cx:0 <=> [Vowel:|l|m|n|r] _ Cy (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
+Cx:0 <=> [Vowel:|l|m|n|r] _ :Cy (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
             where Cx in ( k p t t3) 
                   Cy in ( k p t t ) 
             matched ;
