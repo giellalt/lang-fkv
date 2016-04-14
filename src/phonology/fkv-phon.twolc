@@ -425,8 +425,12 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "Gradation t:đ"
 !! __@RULENAME@__ 
- t:đ <=> Vowel  _  Vowel (Cns) (Dummy: - %^E2I:) %^WG:0 [\i3:|\i6:|\i2:] ;  
-         h _ Vowel: (Cns) (Dummy:) (:i) (Dummy:) %^WG:0 ; 
+ t:đ <=> Vowel  _  Vowel: (Cns)  Dummy:* (:i) Dummy:* %^WG:0  ;  ! 
+              h _ Vowel: (Cns) (Dummy:) (:i) (Dummy:) %^WG:0 ; 
+! t:đ <=> Vowel  _  Vowel (Cns) (Dummy: - %^E2I:) %^WG:0 [\i3:|\i6:|\i2:] ;  
+
+!!€ pitä^AO^WG>i3>n
+!!€ piđ000>i>n
 
  ! lähteet : lähđen/lähen
 !!€ lahti^WG
@@ -438,9 +442,30 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "ti:si"
 !! __@RULENAME@__ 
-t:s <=> Vowel n _ [ (e:) %^E2I: i3: | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
-  Vowel         _ (:s) [ (e:) %^E2I:     | Vowel:0 [Dummy:* - %^WG:0] %>: i3: | (:s) e: %>: i2: [.#.|Cns]] ;
-  Vowel [n|l|r] _ [ (e:) %^E2I:     | Vowel:0            (%^WG:0)  (%^E2I:)  %>: [i3:|i2:] ] ;    ! ***
+t:s <=> Vowel n  _ (:s)  e:         %>: i2: [.#.|Cns] ;
+  Vowel          _ (:s) (e:) %^E2I: ;
+    Vowel        _ (:s)  e:         %>: i2: [.#.|Cns] ;
+   Vowel [n|l|r] _ (e:)      %^E2I:      ;    ! ***
+   Vowel [n|l|r] _  Vowel:0  (%^WG:0) (%^E2I:) %>: i2:  ;    ! ***   
+! i3
+  Vowel [l|n|r] _ (:s) Vowel:0 (%^AO:0) %>: i3:  ;
+   Vowel Vowel  _ (:s) Vowel:0 (%^AO:0) %>: i3:  ;
+        Vowel n _      Vowel:0 [Dummy:* - %^WG:0] %>: i3:  ;
+
+
+!  Vowel         _ (:s) Vowel:0 [Dummy:* - %^WG:0] %>: i3:  ;
+!  Vowel [n|l|r] _      Vowel:0 (%^WG:0)  (%^E2I:) %>: i3:  ;    ! ***
+
+
+!%>i3
+!%>i3%^WG
+!%>r%>i3
+!%>r%>i3%^WG
+!%^AO%>i3
+!%^AO%^WG%>i3
+!%^WG%>i3
+!v%>i3
+!v%>i3%^WG
 
 ! ... not ready
 !# vuot0e^E2I>i3
