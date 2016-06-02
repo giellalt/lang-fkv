@@ -310,8 +310,9 @@ Rules
 
 "Gradation ppttkk : ptk"
 !! __@RULENAME@__ 
-Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
+Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
             where Cx in ( k p t ) ;
+
 
 !!€ katto^WG>n
 !!€ ka0to0>n
@@ -470,14 +471,35 @@ t:s <=> Vowel n  _ (:s)  e:         %>: i2: [.#.|Cns] ;
 !# vuot0e^E2I>i3
 !0 vuoss00i>i
 
+!# "Gradation Nt:NN"
+!# !! __@RULENAME@__                                                                                
+!# t:Nx <=> Nx  _  :Vowel (Cns)  ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^\
+!# E2I:0 ;
+!#     where Nx in ( l n r ) ;
 
-"Gradation Nt:NN"
+
+
+"Gradation Nt:NN in first syllable after short vowel"
 !! __@RULENAME@__ 
-t:Nx <=> Nx  _  :Vowel (Cns)  ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;  
+t:Nx <=> [.#.|#] Cns* Vowel Nx  _  :Vowel (Cns)  ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;  
+    where Nx in ( l n r ) ; 
+
+"Gradation Nt:N in other circumstances"
+!! __@RULENAME@__ 
+t:0 <=> Vowel Cns* Vowel Nx  _  :Vowel (Cns)  ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;  
     where Nx in ( l n r ) ; 
 
 !!€ lentä^WG>n
 !!€ lennä0>n
+
+!!€ kiertä^WG>n
+!!€ kier0ä0>n
+
+!!€ ymmärtä^WG>n
+!!€ ymmär0ä0>n
+
+!!€ alta^WG>s
+!!€ alla0>s
 
 "Alveolar assimilation for consonant stems"
 !! __@RULENAME@__ 
@@ -710,7 +732,7 @@ a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %>: i2: ; ! 3-syll
 !      where Vx in ( a ä ) ;
 
 Vx:e <=> _  %^AE:0 (%^WG:0) %>: t (t) ; 
-        (Cns:) Vowel: (Vowel:) (Cns:) _ (%^WG:0) %>: [mp | mm] [i|%^A:] (%>:) ; 
+        (Cns:) Vowel: (Vowel:) (Cns:) _ (%^WG:0) %>: [ m p | m m ] [i|%^A:] (%>:) ; 
      where Vx in ( a ä ) ;
 
 "ä:0 before i except in conditional"
