@@ -297,6 +297,227 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 
 
 
+1) Notater fra siste møte:
+
+!!Analysator
+
+Gruppe 2: ''Trond, Lena, Sindre, Anna Kaisa''
+
+! Retteprogram
+
+* Analysatoren: Lydreglan, bøyingsreglan og flere ord. (__OK__)
+* Lag prosess for å rapportere feil i analysator, spesielt fra 
+  Merethe og Pirjo (__Prioritet__)
+* Top 5 på forslag, Precision & Recall
+* Analysere feilkorpus fra studenter (søk om lov først) & Oahpa!
+
+
+! Språkopplæring
+
+* Legge til en funksjon som gjør at man kan rapportere feil/mangler i ordbøyinger.
+* Åpne tekstene som er i Fronter til allment bruk for alle!
+* Integrere dette i et språkkurs via universitetet.
+
+
+!! Ordbok
+
+!kvensk-norsk ordbok
+
+! Korpusarbeid
+* Øk størrelsen på korpuset (__OK__)
+* Lag frekvensliste fra Korpuset (__OK__)
+* sjekk hvilke ord som mangler(__OK__)
+* oversett og legg til i ordboka (delvis)
+
+!norsk-kvensk ordbok
+
+Gruppe 1: ''Bjørnar, Tove, Mari, Merethe, Karin''
+
+__Puohi__ (fra en norsk frekvensordbok)
+
+* ta norske ord fra ulike temaområder (__OK__)
+* oversett enkle ord som mangler til kvensk (__litt__)
+* Send til språklærere
+* oversett komplekse ord som mangler til kvensk
+* rydde i norske lemma (__Prioritet__)
+
+! Hvordan sjekke ordene?
+
+* Få flere til å oversette lister
+* Ha et parallellkorpus klart
+* Søk ordene i parallellkorpuset, først og fremst et par store tekster (__Prioritet__)
+* Gi over til Kventinget for politisk drøfting
+
+Felles for begge ordbøker
+* Legg til den finske disambiguatoren (etter sammarbeidsprosjektet med esterne), (__OK__)
+* og gjør den kvensk 
+** Kommando: ''fkvdis "Se tuli."
+ 
+{{{
+ "<Se>"
+	"se" Pron Pers Sg Nom
+"<tuli>"
+	"tulla" V Act Ind Prt Sg3
+"<.>"
+	"."
+}}}
+
+[https://victorio.uit.no/langtech/trunk/langs/fkv/src/syntax/disambiguation.cg3]
+
+less src/morphology/root.lexc
+
+!! Andre ting gjort siden sist:
+
+*Fulle paradigmer i ordboka!
+*Korpusintegrasjon i ordboka.
+*Lagt til nye ord i ordboka.
+*Begynt å få user feedback fra Ruijan Kaiku
+*Språkkafe!
+
+
+
+
+
+
+
+
+
+
+
+
+!!! 2) Oversikt over hvor vi står, Testing
+
+
+
+
+
+		!!Analysator, hvor mye av korpuset klarer analysatoren vår?: 
+
+* kun fkv: 81,4%
+* fkv eller nob eller sme: 84,0%
+* fkv eller nob  eller sme tai fin: 90,1% 
+
+Topp-ti manglande av 90,1%:
+
+{{{
+ 184 Porsangi
+  46 olkhoon
+  46 oikheen
+  45 siittä
+  42 institutti-Kvensk
+  34 Varengin
+  30 miitä
+  30 elläimile
+  29 Pohjas-Ruijassa
+  28 mihiin
+}}}
+
+Montako sanaa:
+
+{{{
+cat test/data/fkv.txt|preprocess --corr=test/data/typos.txt|grep '[a-z]'|wc -l
+}}}
+
+
+Millaiset sanat ovat aidosti virheitä?
+
+{{{
+cat test/data/fkv.txt|preprocess --corr=test/data/typos.txt|grep '[a-z]'|ufkv|grep '?'|cut -f1|unob|grep '?'|cut -f1|ufin|grep '?'|cut -f1|usme|grep '?'|cut -f1|sort|uniq -c|sort -nr|head
+}}}
+
+
+		!!Yaml, hvor mange av våre tester for hele paradigmer klarer analysatoren? (bøyingsformer)
+
+* SUBSTANTIV: 	FAILS - 44 / 2758
+
+* VERB: 		FAILS - 66 / 2786
+
+* ADJEKTIV:		FAILS - 709 / 2227
+
+
+
+		!!Check_lemma (alle grunnformene)
+
+
+Tre sentrale adjektiv er feil:
+
+* lyhyt+A+Sg+Nom	lyh
+* ohut+A+Sg+Nom	oh
+* vanha+A+Sg+Nom	vanhae
+
+Adjektiva er ikkje like godt dekka som substantiva:
+
+{{{
+hyvä+A+Pl+Par
+hyvä+A+Pl+Par	hyvi
+hyvä+A+Pl+Par	hyvväi
+}}}
+
+Vi klare nominativ av alle substantiv! De få (16) verban som mangle er overhode ikke ofte bruke verb.
+
+
+
+		!! Missing list for ordbok
+
+
+*Hva slår folk opp, uten å få svar. Vi har en logg med 50 000 oppslag. Hvor slår folk opp ifra, IP nummer? Hvor mange brukera?
+
+cat test/data/dict_nobfkv_user_log_150929.txt |grep False|cut -f1|nobfkv|grep '?'|cut -f1|ufkv|grep '?'|cut -f1|sort|uniq -c|sort -nr|less
+
+
+Oversikt til slutt i referatet.
+
+__Tiltak:__ Sjå på denne og fylle ut.
+
+
+
+		!! Spellchecker feil?
+
+
+
+
+
+
+!!! 3) GJØRELISTE og prioriteringer fremover
+
+		!! Korpus
+			* Sjekk me Merethe om Idar Kristiansen. Mangler det i korpus? Eller i ordboka?
+			* Er dette alt: freecorpus/orig/fkv/ficti/fiction/idar_kristiansen.docx
+			* Legg til et par store tekster i paralellkorpuset (__Prioritet__)
+
+
+		!! Språktinget?
+			* Hva kan vi gjøre med farten?
+			* Språktingsordlister må legges til
+
+
+		!! Retteprogram
+			* Rapporter feil i analysator, spesielt fra Merethe og Pirjo (__Prioritet__)
+
+
+		!! Norsk-Kvensk ordbok
+			* rydde i norske lemma (__Prioritet__)
+			* PLANLEGG NOE FOR NORSK KVENSK ORDBOK HER! Ordlister?
+
+
+		!! Kvensk-Norsk ordbok
+
+
+		!! Analysator
+			* Fiks yaml-formattering. Fire mellomrom. White space matters.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -306,6 +527,12 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 
 !!!Appendix
 
+Anna-Kaisa
+Sindre
+Mari
+Merethe 
+Karin
+Tove
 
 Missing fkvnob:
 
@@ -533,6 +760,10 @@ Missing nobfkv
    3 aktivitet
    3 God natt
 }}}
+
+
+
+
 
 
 
