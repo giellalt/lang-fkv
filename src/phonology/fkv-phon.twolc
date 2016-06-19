@@ -10,7 +10,14 @@ R S T U V W X Y Z Å Ä Ö Æ Ø Š               !!= * @CODE@
 %^A:ä %^O:ö %^U:y                !!= * @CODE@ archi vowels for harmony
 %^V %^N:n                        !!= * @CODE@ vowel copy sanoo, LNR copy purra
 %>                               !!= * @CODE@ border before inflection suffix
-i2:i i3:i i4:i i5:i i6:i i7:i    !!= * @CODE@ 
+i2:i  !!≈ * __@CODE@__ = plural i of nouns
+i3:i  !!≈ * __@CODE@__ = past tense i of verbs
+i4:i  !!≈ * __@CODE@__ = i in conditional isi of most verbs (without gemination)
+i5:i  !!≈ * __@CODE@__ = superlative i of adjectives
+i6:i  !!≈ * __@CODE@__ = i:j in poika:pojan
+i7:i  !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
+
+
 !! **  i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = cond of contr.v.
 p2:p t2:t k2:k            !!= * @CODE@ t2 = always t
 %^HMETA:0                 !!= * @CODE@ h metateesi sykshyyn
@@ -65,27 +72,34 @@ Rules
  
   "Gemination VXi"
   !! __@RULENAME@__ 
-!0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
-0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) Cx _  :Vowel (%^AO:0) %>:  [:i - i3:] (i2:i) ;
-         Cns:*  Vowel:* Vowel (Vowel:) :Cx _  e:0 %^E2I:0 %>: i2:i %>: %^V:i  ;
+ 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  :Vowel (%^AO:0) %>:  [:i - i3:] (i2:i) ;
+          Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  e:0 %>: i2:i %>: %^V:i  ;
          where Cx in ( k p t s v ) ;
 
-! tote>i2>^V
+!          Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  e:0 %^E2I:0 %>: i2:i %>: %^V:i  ;
+!0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
+
+!accepted
 !!€ sop0i>^V
 !!€ soppi>i
 
+!accepted
 !!€ aik0a^AO>i2
 !!€ aikko0>i
 
+!rejected
 !!€ jok0e>i2>i
 !!€ jokk0>i>i
-       
+
+!rejected       
 !!€ vuot0e>i2>i
 !!€ vuoss0>i>i
 
+!rejected       
 !!€ poi6k0a>i2>i
 !!€ poikk0>i>i
 
+!rejected       
 !!€ kiv0e>i2>i
 !!€ kivv0>i>i
 
@@ -350,15 +364,21 @@ i6:0 <=> _ k: Vowel: (%^AO:0) %^WG:0;
 !!€ poi6ka^AO^WG>i2>le
 !!€ po0j000>i>le
 
+
 "Gradation k:j"
-!k:j <=>   [a|e|i|i6:] _ [o|e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! pako  - pajon? conflict k:v
-k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! 
-                     i _ [ö:|o:]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !		
-         [ä|æ|e|i|i6:] _   [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! m̈äki  - mäjen
-             [e|i|i6:] _   [e:|i|ä|æ|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
-              \e [r|l] _   [e:|i]           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki - jäljen
-                 Cns u _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
-                     h _    e:           (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet
+k:j <=>    [a|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; !
+                     i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; !
+         [ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki  - mäjen
+             [e|i|i6:] _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
+         \[e|a:] [r|l] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
+                 Cns u _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen                             
+                  \u h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet
+
+!j når H-vokal er [i|e|ä]
+!rk: r,rj -- varkhtaat:faras, parkua:parun, -- !märkä:märjät, särkeä:särjen, särkiä:särjin
+!lk: l,lj -- jalka:jalat, jälkuä:nälyn, -- kulkea:kuljen, kulkia:kuljen, 
+!hk: j,hj -- tuhka:tuhat - pohkheet:pohjet                 
+
 
 !!€ mäke^WG>n
 !!€ mäje0>n
@@ -370,22 +390,20 @@ k:j <=>    [a|e|i|i6:] _ [e:|i]        (Dummy:) (:i) (Dummy:) %^WG:0 ; !
 !!€ luje0>n
 ! jälki: jäljen ; järki; järjen; kulkkeet: kuljen; särkkeet : särjen
 
+! Pöljätä tai pölätä. Terje, sanakirja ja korpus sanovat pölätä. Eiran grammatiikki sannoo pöljätä, mutta sitä ei löyty korpuksesta. YAML-sanoo pölätä, joten pidettiin pölätä
 
 "Gradation k:0" 
-!k:0 <=>               h _ Vowel        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat
-k:0 <=>                h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat, uhata - uhkaa
-            [ .#. | #: ] Cns (u)  [ a | o ] _ a (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata, huoata - huokkaa
-            [i u| a u | y ] _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukkee - laueta,liuota-liukkee
-            [ .#. | #: ] Cns  u  h _ e  %^WG:0 ; ! puheta - puhkee 
-    NotOUIF: [ l | r ] _ NotEYUF:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
-         [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0 ; ! ikene- - ien
-     NotOUIB: [ l | r ] _ NotEYUB: (Dummy:) (:i) (Dummy:) %^WG:0 ; ! märkä - märät 
-!  [ .#. | #: ] Cns: [a | ä ] [ l | r ] _  [ a: | ä: ] (a:| ä:) %^WG:0 (%>i2) ; ! märkä - märät   
-            e  [ l | r ] _ i (%>:)  %^WG:0 (%>:)      ; ! keritä - kerkkii
-!  Vowel [Vowel - [e|i]] _ Vowel        (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kaiku - kaiun?
-!   [ NotOUIF: | l | r ] _ NotEYUF:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan
-!   [ NotOUIB: | l | r ] _ NotEYUB:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! märkä - märät
+k:0 <=>               h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka - tuhat, uhata - uhkaa
+ [.#.|#:] Cns (u) [a|o] _ a (Dummy:) (:i) (Dummy:) %^WG:0 ; ! makaa - maata, huoata - huokkaa
+            [i u|a u|y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukkee - laueta,liuota-liukkee
+       [.#.|#:] Cns u h _ e  %^WG:0 ; ! puheta - puhkee, pohkheet:pohjet
+        [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0 ; ! ikene- - ien
+           ö: [ l | r ] _ [ö|ä] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
+           a: [ l | r ] _ NotEYUB:     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan, NOT: sylki:syljin 
+           e  [ l | r ] _ i (%>:)  %^WG:0 (%>:)      ; ! keritä - kerkkii
 
+!!€ pölkä^WG>t^A
+!!€ pöl0ä0>tä
 !!€ tuhka^WG>t
 !!€ tuh0a0>t
 !!€ maka^WG>t^A
@@ -564,7 +582,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vowel copying in long h pl forms"
 !! __@RULENAME@__ 
- %^V:Vy <=>  Vx: (%^AO:) %>: %^HMETA: h _ %>:	i2: ; 
+ %^V:Vy <=>  Vx: (%^AO:) %>: %^HMETA: h _ %>:        i2: ; 
     where Vx in ( e i i2 o u y ä ö ) 
           Vy in ( e i i  o u y ä ö ) 
              matched ;
@@ -599,7 +617,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! __@RULENAME@__ 
  Vx:0 <=> :SurfaceCns _ ([%^AO:|%^E2I:]) %>: %^HMETA:0 h [ :Vx | i: ] ; 
           :SurfaceCns _  %^AO:           %>: %^HMETA:0 h (%^V:) (:o) %>: i2: ;
-          :i         _  (%^AO:)           %>: %^HMETA:0 h (%^V:) (%>:) (:o)(:o) (i2:) ;
+          :i          _  (%^AO:)         %>: %^HMETA:0 h (%^V:) (%>:) (:o)(:o) (i2:) ;
     where Vx in ( a e i o u y ä ö ) ;
            
 !!€ syksy>^HMETAh^V^Vn
@@ -795,7 +813,7 @@ Vx:e <=> _  %^AE:0 (%^WG:0) %>: t (t) ;
 !old a rules !a:o /<= a _ (\%>:) i ;
 !old a rules 
 !old a rules        ! .#. Cns:* [Vowel: - [o|u]] [i|e|a] Cns:* (:Cns) [Dummy: - %^AE:] _ %^AO:0 [ i2:| i3: ] ;
-!old a rules ! Vowel Cns Cns:* [Vowel: - [o|u]] [i|e|a] Cns:+ (:Cns)[Dummy: - %^AE:] _ [Dummy: - %^AE:] %>: [i2: | i3:] ; !3-syll
+!old a rules ! Vowel Cns Cns:* [Vowel: - [o|u]] [i|e|a] Cns:+ (:Cns)[Dummy: - %^AE:] _ [Dummy: - %^AE:] %>: [i2: | i3:] ; !3-syll
 !old a rules  
 !old a rules ! a:o <=>  .#. Cns:* ([Vowel: - [a|o|u]]) [i|e|a] Cns:* (:Cns) _ [Dummy: - %^AE:] %>: !i2: ; ! 2-syll
 !old a rules !          .#. Cns:* ([Vowel: - [a|o|u]]) [i|e|a] Cns:* (:Cns) _  %^AO:0 ;
