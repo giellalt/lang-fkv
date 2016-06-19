@@ -98,13 +98,13 @@ Multichar_Symbols
  +Der/minen  !!≈ * __@CODE@__ = 
  
  !! !!Clitic tags
- +Clt	    !!≈ * __@CODE@__ = 
- +Qst	    !!≈ * __@CODE@__ = 
+ +Clt        !!≈ * __@CODE@__ = 
+ +Qst        !!≈ * __@CODE@__ = 
  +Foc/han   !!≈ * __@CODE@__ = 
  +Foc/kaan  !!≈ * __@CODE@__ = 
  +Foc/kin   !!≈ * __@CODE@__ = 
  +Foc/pa    !!≈ * __@CODE@__ = 
- +Foc/s	    !!≈ * __@CODE@__ = 
+ +Foc/s        !!≈ * __@CODE@__ = 
  +Foc/pas   !!≈ * __@CODE@__ = 
  
 !! !!Semantic tags
@@ -126,27 +126,28 @@ i3  !!≈ * __@CODE@__ = past tense i of verbs
 i4  !!≈ * __@CODE@__ = i in conditional isi of most verbs (without gemination)
 i5  !!≈ * __@CODE@__ = superlative i of adjectives
 i6  !!≈ * __@CODE@__ = i:j in poika:pojan
-i7	 !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
+i7     !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
 
- p2  			 !!≈ * __@CODE@__ = always p
- t2  			 !!≈ * __@CODE@__ = always t, cf. katt2oma always tt, underlying -ts-
- t3  			 !!≈ * __@CODE@__ = t participating in gradation, but not in t:s
- k2 			 !!≈ * __@CODE@__ = always k
- %^A 		 !!≈ * __@CODE@__ = Vowel harmony a/ä
- %^O		 !!≈ * __@CODE@__ = Vowel harmony o/ö
- %^U		 !!≈ * __@CODE@__ = Vowel harmony u/y
- %^V 				 !!≈ * __@CODE@__ = Vowel copying
- %^N 				 !!≈ * __@CODE@__ = tulˆNut, kävel^N^Ut
- %^E2I    			 !!≈ * __@CODE@__ = for e to i change
- %^HMETA  			 !!≈ * __@CODE@__ = for h metathesis syksy - sykshyyn
- %^AO     			 !!≈ * __@CODE@__ = a:o rannoissa
- %^WG     			 !!≈ * __@CODE@__ = Weak grade matto - maton
- %^TES				 !!≈ * __@CODE@__ =  in use?
+ p2               !!≈ * __@CODE@__ = always p
+ t2               !!≈ * __@CODE@__ = always t, cf. katt2oma always tt, underlying -ts-
+ t3               !!≈ * __@CODE@__ = t participating in gradation, but not in t:s
+ k2              !!≈ * __@CODE@__ = always k
+ k3              !!= * __@CODE@__ = k3 never k:v, contrary to k
+ %^A          !!≈ * __@CODE@__ = Vowel harmony a/ä
+ %^O         !!≈ * __@CODE@__ = Vowel harmony o/ö
+ %^U         !!≈ * __@CODE@__ = Vowel harmony u/y
+ %^V                  !!≈ * __@CODE@__ = Vowel copying
+ %^N                  !!≈ * __@CODE@__ = tulˆNut, kävel^N^Ut
+ %^E2I                 !!≈ * __@CODE@__ = for e to i change
+ %^HMETA               !!≈ * __@CODE@__ = for h metathesis syksy - sykshyyn
+ %^AO                  !!≈ * __@CODE@__ = a:o rannoissa
+ %^WG                  !!≈ * __@CODE@__ = Weak grade matto - maton
+ %^TES                 !!≈ * __@CODE@__ =  in use?
  %^VDEL              !!≈ * __@CODE@__ = Deleting long vowel in rakkaa- > rakas
  %^EDEL              !!≈ * __@CODE@__ = Deleting e in front of consonant
  %^AE                !!≈ * __@CODE@__ = for a to e change
  %^M2N                   !!≈ * __@CODE@__ = for m to n in lumi lunta
- %^¤					 !!≈ * __@CODE@__ = potecting against e:i word-finally (nalle, liike)
+ %^¤                     !!≈ * __@CODE@__ = potecting against e:i word-finally (nalle, liike)
 
 
 
@@ -181,19 +182,19 @@ i7	 !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
  @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-@U.pron.nom@	   !!≈ | @CODE@ | tbw
-@U.pron.gen@	   !!≈ | @CODE@ | tbw
-@U.pron.ill@	   !!≈ | @CODE@ | tbw
-@U.pron.par@	   !!≈ | @CODE@ | tbw
-@U.pron.par2@	   !!≈ | @CODE@ | tbw
-@U.pron.par3@	   !!≈ | @CODE@ | tbw
-@U.pron.ess@	   !!≈ | @CODE@ | tbw
-@U.pron.tra@	   !!≈ | @CODE@ | tbw
-@U.pron.ine@	   !!≈ | @CODE@ | tbw
-@U.pron.ela@	   !!≈ | @CODE@ | tbw
-@U.pron.all@	   !!≈ | @CODE@ | tbw
-@U.pron.ade@	   !!≈ | @CODE@ | tbw
-@U.pron.abl@	   !!≈ | @CODE@ | tbw
+@U.pron.nom@       !!≈ | @CODE@ | tbw
+@U.pron.gen@       !!≈ | @CODE@ | tbw
+@U.pron.ill@       !!≈ | @CODE@ | tbw
+@U.pron.par@       !!≈ | @CODE@ | tbw
+@U.pron.par2@       !!≈ | @CODE@ | tbw
+@U.pron.par3@       !!≈ | @CODE@ | tbw
+@U.pron.ess@       !!≈ | @CODE@ | tbw
+@U.pron.tra@       !!≈ | @CODE@ | tbw
+@U.pron.ine@       !!≈ | @CODE@ | tbw
+@U.pron.ela@       !!≈ | @CODE@ | tbw
+@U.pron.all@       !!≈ | @CODE@ | tbw
+@U.pron.ade@       !!≈ | @CODE@ | tbw
+@U.pron.abl@       !!≈ | @CODE@ | tbw
 @P.compound.block@ !!≈ | @CODE@ | tbw
 @D.compound.block@ !!≈ | @CODE@ | tbw
 
@@ -218,19 +219,19 @@ LEXICON Root    !!=  __@CODE@__
 
 
  AdjectiveRoot ;  !!= * @CODE@
- Adverb ;		  !!= * @CODE@
- Conjunction ;	  !!= * @CODE@
- Interjection ;	  !!= * @CODE@
- NUM ;			  !!= * @CODE@
- NounRoot ;		  !!= * @CODE@
- Particle ;		  !!= * @CODE@
- Postposition ;	  !!= * @CODE@
- Preposition ;	  !!= * @CODE@
- Pronoun ;		  !!= * @CODE@
- ProperNoun ;	  !!= * @CODE@
- Punctuation ;	  !!= * @CODE@
- VerbRoot ;		  !!= * @CODE@
- Subjunction ;	  !!= * @CODE@
+ Adverb ;          !!= * @CODE@
+ Conjunction ;      !!= * @CODE@
+ Interjection ;      !!= * @CODE@
+ NUM ;              !!= * @CODE@
+ NounRoot ;          !!= * @CODE@
+ Particle ;          !!= * @CODE@
+ Postposition ;      !!= * @CODE@
+ Preposition ;      !!= * @CODE@
+ Pronoun ;          !!= * @CODE@
+ ProperNoun ;      !!= * @CODE@
+ Punctuation ;      !!= * @CODE@
+ VerbRoot ;          !!= * @CODE@
+ Subjunction ;      !!= * @CODE@
 
 
 
