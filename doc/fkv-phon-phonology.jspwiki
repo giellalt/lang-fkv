@@ -9,9 +9,14 @@
  * %^A:ä %^O:ö %^U:y                 archi vowels for harmony
  * %^V %^N:n                         vowel copy sanoo, LNR copy purra
  * %>                                border before inflection suffix
- * i2:i i3:i i4:i i5:i i6:i i7:i     
-**  i2 = noun pl, i3 = past tense, i4 = cond, i5 = superlative, i6 = pojan, i7 = cond of contr.v.
- * p2:p t2:t k2:k             t2 = always t
+ * __i2:i__ = plural i of nouns
+ * __i3:i__ = past tense i of verbs
+ * __i4:i__ = i in conditional isi of most verbs (without gemination)
+ * __i5:i__ = superlative i of adjectives
+ * __i6:i__ = i:j in poika:pojan
+ * __i7:i__ = i in conditional of contract verbs (with gemination)
+ * p2:p t2:t k2:k             p2, k2, t2 = always p, t, k
+ * k3:k                       k3 never k:v, contrary to k
  * %^HMETA:0                  h metateesi sykshyyn
  * %^WG:0                     weak grade hatun
  * %^E2I:0                    e to i in nom ove : ovi
@@ -43,8 +48,9 @@
  * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;   
  * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                         
  * Segment = Vowel Cns ;                                        
- * Dummy = %> %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;   
- * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
+ * Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;  
+ * DummyBorder = Dummy %> ;          
+ * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;   
 
 
 !!!Rules
@@ -58,6 +64,7 @@
 One rule for each vowel environment.
 
 __@OUTSIDE RULES@__ 
+
 
 * __sop0i>^V__
 * __soppi>i__
@@ -253,6 +260,9 @@ __Gradation i6:0, in word poika: pojan__
 * __po0j000>i>le__
 
 
+
+
+
 * __mäke^WG>n__
 * __mäje0>n__
 * __aika^WG>n__
@@ -264,6 +274,8 @@ __Gradation i6:0, in word poika: pojan__
 
 
 
+* __pölkä^WG>t^A__
+* __pöl0ä0>tä__
 * __tuhka^WG>t__
 * __tuh0a0>t__
 * __maka^WG>t^A__
@@ -273,6 +285,18 @@ __Gradation i6:0, in word poika: pojan__
 * __sarka^WG>n__
 * __sar0a0>n__
 
+
+
+* __huok3a^WG>t^A__
+* __huo0a0>ta__
+* __liuk3o^WG>t^A__
+* __liu0o0>ta__
+
+
+
+
+* __ruoka^WG>n__
+* __ruova0>n__
 
 * __puku^WG>n__
 * __puvu0>n__
@@ -295,19 +319,22 @@ __Gradation mp:mm__
 
 __Gradation t:đ__ 
 
+
 * __pitä^AO^WG>i3>n__
 * __piđ000>i>n__
 
-* __lahti^WG__
-* __lahđi0__
+* __lahta^WG>i3>n__
+* __lahđ00>i>n__
+* __lahte^WG>n__
+* __lahđe0>n__
 * __huutel^WG>^A__
 * __huuđel0>a__
 
 
-
 __ti:si__ 
 
-
+* __vete^E2I>__
+* __vesi0>__
 
 
 
@@ -508,5 +535,4 @@ __ä:0 before i except in conditional__
 
 
 __ä:0 before i except in conditional__ 
-
 
