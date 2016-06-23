@@ -68,32 +68,32 @@ z
 @@
 
 ## Transition pair specifications + weight:
-ä	æ	-6
-æ	ä	-6
-o	u	-6
-u	o	-6
-ð	đ	-6
-d	đ	-6
-đ	d	-6
-p	b	-6
-b	p	-6
-t	d	-6
-d	t	-6
-ä	e	-6
-e	ä	-6
-a	ä	-6
-ä	a	-6
-ø	ö	-6
-ö	ø	-6
-o	ö	-6
-ö	o	-6
-k	j	-6
-j	k	-6
-k	v	-6
-v	k	-6
-v	j	-6
-j	v	-6
+ä	æ	4
+æ	ä	4
+o	u	4
+u	o	4
+ð	đ	4
+d	đ	4
+đ	d	4
+p	b	4
+b	p	4
+t	d	4
+d	t	4
+ä	e	4
+e	ä	4
+a	ä	4
+ä	a	4
+ø	ö	4
+ö	ø	4
+o	ö	4
+ö	o	4
+k	j	4
+j	k	4
+k	v	4
+v	k	4
+v	j	4
+j	v	4
 
 ## Swaps:
-## Change dh into hd with the weight 0.5:
-##d,h	h,d	0.5
+## Change dh into hd with the weight 5:
+##d,h	h,d	5
