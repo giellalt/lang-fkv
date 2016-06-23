@@ -31,7 +31,7 @@ EDIT_DISTANCE=2
 # search space of the error model, and thus make it much, much slower. Make sure
 # you TEST the resulting error model properly and thoroughly, both for speed
 # and suggestion quality.
-INITIAL_EDITS=yes
+INITIAL_EDITS=no
 
 # Variable to define whether to enable edits of longer strings (as opposed to
 # single letters). Possible values are:
@@ -51,12 +51,12 @@ STRING_REGEX_EDIT_DISTANCE=2
 # * txt   - use only the txt file as source
 # * regex - use only the regex file as source
 # * both  - use both the txt and regex files as sources
-FINAL_STRING_EDITS=no
+FINAL_STRING_EDITS=txt
 
 # Variable to define whether to enable whole-word replacements. Possible values:
 # - yes
 # - no
-WORD_REPLACEMENTS=no
+WORD_REPLACEMENTS=yes
 
 include $(top_srcdir)/am-shared/tools-spellcheckers-fstbased-desktop-hfst-dir-include.am
 
