@@ -95,13 +95,13 @@ Take nothing at face value!
  * __+Der/minen__ = 
 
 !!Clitic tags
- * __+Clt	__ = 
- * __+Qst	__ = 
+ * __+Clt__ = 
+ * __+Qst__ = 
  * __+Foc/han__ = 
  * __+Foc/kaan__ = 
  * __+Foc/kin__ = 
  * __+Foc/pa__ = 
- * __+Foc/s	__ = 
+ * __+Foc/s__ = 
  * __+Foc/pas__ = 
 
 !!Semantic tags
@@ -122,27 +122,28 @@ Take nothing at face value!
  * __i4__ = i in conditional isi of most verbs (without gemination)
  * __i5__ = superlative i of adjectives
  * __i6__ = i:j in poika:pojan
- * __i7	__ = i in conditional of contract verbs (with gemination)
+ * __i7__ = i in conditional of contract verbs (with gemination)
 
- * __p2 			__ = always p
- * __t2 			__ = always t, cf. katt2oma always tt, underlying -ts-
- * __t3 			__ = t participating in gradation, but not in t:s
- * __k2 			__ = always k
- * __%^A 		__ = Vowel harmony a/ä
- * __%^O		__ = Vowel harmony o/ö
- * __%^U		__ = Vowel harmony u/y
- * __%^V 				__ = Vowel copying
- * __%^N 				__ = tulˆNut, kävel^N^Ut
- * __%^E2I 			__ = for e to i change
- * __%^HMETA 			__ = for h metathesis syksy - sykshyyn
- * __%^AO 			__ = a:o rannoissa
- * __%^WG 			__ = Weak grade matto - maton
- * __%^TES				__ =  in use?
+ * __p2__ = always p
+ * __t2__ = always t, cf. katt2oma always tt, underlying -ts-
+ * __t3__ = t participating in gradation, but not in t:s
+ * __k2__ = always k
+ * __ k3              __ = k3 never k:v, contrary to k
+ * __%^A__ = Vowel harmony a/ä
+ * __%^O__ = Vowel harmony o/ö
+ * __%^U__ = Vowel harmony u/y
+ * __%^V__ = Vowel copying
+ * __%^N__ = tulˆNut, kävel^N^Ut
+ * __%^E2I__ = for e to i change
+ * __%^HMETA__ = for h metathesis syksy - sykshyyn
+ * __%^AO__ = a:o rannoissa
+ * __%^WG__ = Weak grade matto - maton
+ * __%^TES__ =  in use?
  * __%^VDEL__ = Deleting long vowel in rakkaa- > rakas
  * __%^EDEL__ = Deleting e in front of consonant
  * __%^AE__ = for a to e change
  * __%^M2N__ = for m to n in lumi lunta
- * __%^¤					__ = potecting against e:i word-finally (nalle, liike)
+ * __%^¤__ = potecting against e:i word-finally (nalle, liike)
 
 
 
@@ -177,19 +178,19 @@ given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
- | @U.pron.nom@	 | tbw
- | @U.pron.gen@	 | tbw
- | @U.pron.ill@	 | tbw
- | @U.pron.par@	 | tbw
- | @U.pron.par2@	 | tbw
- | @U.pron.par3@	 | tbw
- | @U.pron.ess@	 | tbw
- | @U.pron.tra@	 | tbw
- | @U.pron.ine@	 | tbw
- | @U.pron.ela@	 | tbw
- | @U.pron.all@	 | tbw
- | @U.pron.ade@	 | tbw
- | @U.pron.abl@	 | tbw
+ | @U.pron.nom@ | tbw
+ | @U.pron.gen@ | tbw
+ | @U.pron.ill@ | tbw
+ | @U.pron.par@ | tbw
+ | @U.pron.par2@ | tbw
+ | @U.pron.par3@ | tbw
+ | @U.pron.ess@ | tbw
+ | @U.pron.tra@ | tbw
+ | @U.pron.ine@ | tbw
+ | @U.pron.ela@ | tbw
+ | @U.pron.all@ | tbw
+ | @U.pron.ade@ | tbw
+ | @U.pron.abl@ | tbw
  | @P.compound.block@ | tbw
  | @D.compound.block@ | tbw
 
@@ -203,19 +204,19 @@ Here is the Root lexicon, pointing to all the parts of speech:
 
 
  *  AdjectiveRoot ;  
- *  Adverb ;		  
- *  Conjunction ;	  
- *  Interjection ;	  
- *  NUM ;			  
- *  NounRoot ;		  
- *  Particle ;		  
- *  Postposition ;	  
- *  Preposition ;	  
- *  Pronoun ;		  
- *  ProperNoun ;	  
- *  Punctuation ;	  
- *  VerbRoot ;		  
- *  Subjunction ;	  
+ *  Adverb ;          
+ *  Conjunction ;      
+ *  Interjection ;      
+ *  NUM ;              
+ *  NounRoot ;          
+ *  Particle ;          
+ *  Postposition ;      
+ *  Preposition ;      
+ *  Pronoun ;          
+ *  ProperNoun ;      
+ *  Punctuation ;      
+ *  VerbRoot ;          
+ *  Subjunction ;      
 
 
 
