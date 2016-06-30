@@ -69,8 +69,8 @@ Rules
 
 !! One rule for each vowel environment.
  
-  "Gemination VXi"
-  !! __@RULENAME@__ 
+"Gemination VXi"
+!! __@RULENAME@__ 
  0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  :Vowel (%^AO:0) %>:  [:i - i3:] (i2:i) ;
           Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  e:0 %>: i2:i %>: %^V:i  ;
          where Cx in ( k p t s v ) ;
@@ -102,24 +102,24 @@ Rules
 !!€ kiv0e>i2>i
 !!€ kivv0>i>i
 
-  "Gemination VVa"
-  !! __@RULENAME@__ 
+"Gemination VVa"
+!! __@RULENAME@__ 
 0:Cx <=> [ .#. | #: ] Cns:*   Vowel:* Vowel Cx _ a %>: :a ;
        where Cx in (  k p t s ) ;
 
 !!€ aik0a>^V
 !!€ aikka>a
 
-  "Gemination Va"
-  !! __@RULENAME@__ 
+"Gemination Va"
+!! __@RULENAME@__ 
 0:Cx <=> [ .#. | #: ] Cns:* Vowel Cx _ a %>: :a ;
        where Cx in ( h j l m n r v ) ;
 
 !!€ kal0a>^V
 !!€ kalla>a
   
-  "Gemination VVe"
-  !! __@RULENAME@__ 
+"Gemination VVe"
+!! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ]   Vowel:* Vowel Cx _ e %>: :e ;
        where Cx in ( k p t s ) ;
 
@@ -129,8 +129,8 @@ Rules
 !!€ lauk0e>^V
 !!€ laukke>e
 
-  "Gemination Ve"
-  !! __@RULENAME@__ 
+"Gemination Ve"
+!! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ e %>: :e ;
        where Cx in ( h j l m n r v ) ;
 
@@ -145,8 +145,8 @@ Rules
 !!€ kat0o>^V>t
 !!€ katto>o>t
 
-  "Gemination Vo"
-  !! __@RULENAME@__ 
+"Gemination Vo"
+!! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ o %>: :o ;
        where Cx in ( h j l m n r v ) ;
 
@@ -163,8 +163,8 @@ Rules
 !!€ jout0u>^V
 !!€ jouttu>u
 
-  "Gemination VVu"
-  !! __@RULENAME@__ 
+"Gemination VVu"
+!! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ u %>: :u ;
        where Cx in ( h j l m n r v ) ;
 
@@ -183,8 +183,8 @@ Rules
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :y %>: [ :y | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
-  "Gemination VVy"
-  !! __@RULENAME@__ 
+"Gemination VVy"
+!! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ y %>: :y ;
        where Cx in ( h j l m n r v ) ;
 
@@ -203,8 +203,8 @@ Rules
 ! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :ö %>: [ :ö | i7: ] ;   
 !        where Cx in ( h j k l m n p r s t v ) ;
 
-  "Gemination VVö"
-  !! __@RULENAME@__ 
+"Gemination VVö"
+!! __@RULENAME@__ 
 0:Cx <=> [ .#. | Cns ] Vowel Cx _ ö %>: :ö ;
        where Cx in ( h j l m n r v ) ;
     
