@@ -71,11 +71,12 @@ Rules
  
 "Gemination VXi"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  :Vowel (%^AO:0) %>:  [:i - i3:] (i2:i) ;
+ 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  [:o|:i] (%^AO:0) %>:  [:i - i3:] (i2:i) ;
           Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  e:0 %>: i2:i %>: %^V:i  ;
+          Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  e:0 %^E2I:0 %>: i2:i %>: %^V:i  ;
          where Cx in ( k p t s v ) ;
 
-!          Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  e:0 %^E2I:0 %>: i2:i %>: %^V:i  ;
+!0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) :Cx  _  :Vowel (%^AO:0) %>:  [:i - i3:] (i2:i) ;
 !0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %>: (%^E2I:0) [:i - i3:] (i2:i) ;
 
 !accepted
@@ -91,12 +92,12 @@ Rules
 !!€ jokk0>i>i
 
 !rejected       
-!!€ vuot0e>i2>i
-!!€ vuoss0>i>i
+!!€ vuot0e^E2I>i2>^V>
+!!€ vuoss00>i>i>
 
 !rejected       
-!!€ poi6k0a>i2>i
-!!€ poikk0>i>i
+!!€ poi6k0a>i2>^V>
+!!€ poikk0>i>i>
 
 !rejected       
 !!€ kiv0e>i2>i
