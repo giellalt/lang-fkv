@@ -90,12 +90,6 @@ Innholdsfortegnelse:
 
 
 
-
-
-
-
-
-
 !!! Oversikt fra forrige møte:
 
 !!Analysator
@@ -170,7 +164,7 @@ Felles for begge ordbøker
 
 [https://victorio.uit.no/langtech/trunk/langs/fkv/src/syntax/disambiguation.cg3]
 
-less src/morphology/root.lexc
+{{{less src/morphology/root.lexc}}}
 
 
 
@@ -181,14 +175,6 @@ less src/morphology/root.lexc
 * Lagt til nye ord i ordboka.
 * Begynt å få user feedback fra Ruijan Kaiku
 * Språkkafe!
-
-
-
-
-
-
-
-
 
 
 
@@ -299,9 +285,6 @@ see tools/spellcheckers/fstbased/hfst/editdist.default.txt
 
 
 
-
-
-
 1) Notater fra siste møte:
 
 !!Analysator
@@ -356,7 +339,7 @@ __Puohi__ (fra en norsk frekvensordbok)
 Felles for begge ordbøker
 * Legg til den finske disambiguatoren (etter sammarbeidsprosjektet med esterne), (__OK__)
 * og gjør den kvensk 
-** Kommando: ''fkvdis "Se tuli."
+** Kommando: {{fkvdis "Se tuli."}}
  
 {{{
  "<Se>"
@@ -369,7 +352,7 @@ Felles for begge ordbøker
 
 [https://victorio.uit.no/langtech/trunk/langs/fkv/src/syntax/disambiguation.cg3]
 
-less src/morphology/root.lexc
+{{{less src/morphology/root.lexc}}}
 
 !! Andre ting gjort siden sist:
 
@@ -382,21 +365,10 @@ less src/morphology/root.lexc
 
 
 
-
-
-
-
-
-
-
-
 !!! 2) Oversikt over hvor vi står, Testing
 
 
-
-
-
-		!!Analysator, hvor mye av korpuset klarer analysatoren vår?: 
+!!Analysator, hvor mye av korpuset klarer analysatoren vår?: 
 
 * kun fkv: 81,4%
 * fkv eller nob eller sme: 84,0%
@@ -431,7 +403,7 @@ cat test/data/fkv.txt|preprocess --corr=test/data/typos.txt|grep '[a-z]'|ufkv|gr
 }}}
 
 
-		!!Yaml, hvor mange av våre tester for hele paradigmer klarer analysatoren? (bøyingsformer)
+!!Yaml, hvor mange av våre tester for hele paradigmer klarer analysatoren? (bøyingsformer)
 
 * SUBSTANTIV: 	FAILS - 44 / 2758
 
@@ -441,7 +413,7 @@ cat test/data/fkv.txt|preprocess --corr=test/data/typos.txt|grep '[a-z]'|ufkv|gr
 
 
 
-		!!Check_lemma (alle grunnformene)
+!!Check_lemma (alle grunnformene)
 
 
 Tre sentrale adjektiv er feil:
@@ -462,7 +434,7 @@ Vi klare nominativ av alle substantiv! De få (16) verban som mangle er overhode
 
 
 
-		!! Missing list for ordbok
+!! Missing list for ordbok
 
 
 *Hva slår folk opp, uten å få svar. Vi har en logg med 50 000 oppslag. Hvor slår folk opp ifra, IP nummer? Hvor mange brukera?
@@ -476,40 +448,41 @@ __Tiltak:__ Sjå på denne og fylle ut.
 
 
 
-		!! Spellchecker feil?
+!! Spellchecker feil?
 
-
+X
 
 
 
 
 !!! 3) GJØRELISTE og prioriteringer fremover
 
-		!! Korpus
-			* Sjekk me Merethe om Idar Kristiansen. Mangler det i korpus? Eller i ordboka?
-			* Er dette alt: freecorpus/orig/fkv/ficti/fiction/idar_kristiansen.docx
-			* Legg til et par store tekster i paralellkorpuset (__Prioritet__)
+!! Korpus
+* Sjekk me Merethe om Idar Kristiansen. Mangler det i korpus? Eller i ordboka?
+* Er dette alt: freecorpus/orig/fkv/ficti/fiction/idar_kristiansen.docx
+* Legg til et par store tekster i paralellkorpuset (__Prioritet__)
 
 
-		!! Språktinget?
-			* Hva kan vi gjøre med farten?
-			* Språktingsordlister må legges til
+!! Språktinget?
+* Hva kan vi gjøre med farten?
+* Språktingsordlister må legges til
 
 
-		!! Retteprogram
-			* Rapporter feil i analysator, spesielt fra Merethe og Pirjo (__Prioritet__)
+!! Retteprogram
+* Rapporter feil i analysator, spesielt fra Merethe og Pirjo (__Prioritet__)
 
 
-		!! Norsk-Kvensk ordbok
-			* rydde i norske lemma (__Prioritet__)
-			* PLANLEGG NOE FOR NORSK KVENSK ORDBOK HER! Ordlister?
+!! Norsk-Kvensk ordbok
+* rydde i norske lemma (__Prioritet__)
+* PLANLEGG NOE FOR NORSK KVENSK ORDBOK HER! Ordlister?
 
 
-		!! Kvensk-Norsk ordbok
+!! Kvensk-Norsk ordbok
 
+X
 
-		!! Analysator
-			* Fiks yaml-formattering. Fire mellomrom. White space matters.
+!! Analysator
+* Fiks yaml-formattering. Fire mellomrom. White space matters.
 
 
 
@@ -532,12 +505,12 @@ __Tiltak:__ Sjå på denne og fylle ut.
 
 !!!Appendix
 
-Anna-Kaisa
-Sindre
-Mari
-Merethe 
-Karin
-Tove
+* Anna-Kaisa
+* Sindre
+* Mari
+* Merethe 
+* Karin
+* Tove
 
 Missing fkvnob:
 
@@ -765,10 +738,3 @@ Missing nobfkv
    3 aktivitet
    3 God natt
 }}}
-
-
-
-
-
-
-
