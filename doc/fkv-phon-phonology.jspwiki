@@ -43,7 +43,6 @@
  * NotOUIB =                                  a ;               and e? (removed 29.1.)
  * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;        
  * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;        
-
  * ArchiCns = %^N ;                                             
  * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;   
  * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                         
@@ -72,8 +71,8 @@ __Gemination VXi__
 * __aik0a^AO>i2 __
 * __aikko0>i __
 
-* __jok0e>i2>i __
-* __jokk0>i>i __
+* __jok0e^E2I>i2>^V __
+* __jokk00>i>i __
 
 * __vuot0e^E2I>i2>^V> __
 * __vuoss00>i>i> __
@@ -81,8 +80,8 @@ __Gemination VXi__
 * __poi6k0a>i2>^V> __
 * __poikk0>i>i> __
 
-* __kiv0e>i2>i __
-* __kivv0>i>i __
+* __kiv0e>i2i __
+* __kivv0>ii __
 
 __Gemination VVa__ 
 
@@ -145,7 +144,6 @@ __Gemination Vö__
 * __näk0ö>^V __
 * __näkkö>ö __
 
-
 __Gemination VVö__ 
 
 * __pör0ö>^V __
@@ -164,7 +162,6 @@ __Gemination VVä__
 
 * __el0ä>^V __
 * __ellä>ä __
-
 
 
 !Liquid + gemination consonant
@@ -229,9 +226,7 @@ __Gradation ppttkk : ptk__
 
 
 * __katto^WG>n __
-* __ka0to0>n __
-* __sivakka^WG>i2>tten __
-* __siva0ko0>i>tten __
+* __kat0o0>n __
 * __katt2o^WG>n __
 * __katto0>n __
 
@@ -262,7 +257,6 @@ __Gradation i6:0, in word poika: pojan__
 
 
 
-
 * __mäke^WG>n __
 * __mäje0>n __
 * __aika^WG>n __
@@ -284,6 +278,9 @@ __Gradation i6:0, in word poika: pojan__
 * __ky0e0>tä __
 * __sarka^WG>n __
 * __sar0a0>n __
+* __parku^WG>n __
+* __par0u0>n __
+
 
 
 
@@ -298,9 +295,6 @@ __Gradation i6:0, in word poika: pojan__
 
 * __puku^WG>n __
 * __puvu0>n __
-
-* __parku^WG>n __
-* __parvu0>n __
 
 * __koko^WG>t^A __
 * __kovo0>ta __
@@ -331,8 +325,8 @@ __Gradation t:đ__
 
 __ti:si__ 
 
-* __vete^E2I> __
-* __vesi0> __
+* __vete^E2I __
+* __vesi0 __
 
 
 
@@ -405,14 +399,15 @@ __a to o and metathesis in h forms in pl of a-stems__
 
 __Stem deletion in h-illative__ 
 
-* __syksy>^HMETAh^V^Vn __
-* __syks0>0hyyn __
+* __syksy^HMETA>h^V^Vn __
+* __syks>00hyyn __
+
 
 !!Stem alternation rules
 
 
 * __rakkaa^VDEL^WG>s __
-* __ra0ka000>s __
+* __rak0a000>s __
 
 !!e rules
 
@@ -438,15 +433,17 @@ The -i- rules require different i-s for different POS.
 !a before i
 
 
+
 * __otta^WG>i2n __
-* __o0t00>in __
-* __kajava>i2ssa __
-* __kajav0>issa __
+* __ot000>in __
+* __kajava^WG>i2>ss^A __
+* __kajav00>i>ssa __
 
 __a:o before Pl i and Pret i__  
 
+
 * __kal0a>i2en __
-* __kallo>ien __
+* __kalo>jen __
 
 * __linna>i2en __
 * __linno>jen __
@@ -454,14 +451,14 @@ __a:o before Pl i and Pret i__
 * __kela>i2en __
 * __kelo>jen __
 
-* __sivakka^WG>i2>tten __
-* __siva0ko0>i>tten __
+* __sivakka^AO^WG>i2>tten __
+* __sivak0o00>i>tten __
 
-* __kal0a>i2en __
-* __kallo>ien __
+* __kala>i2en __
+* __kalo>jen __
 
-* __kulkkiija>i2 __
-* __kulkkiijo>i __
+* __kulkkiija^AO>i2 __
+* __kulkkiijo^AO>i __
 
 __a:i in 3-syll stems with long a and i__ 
 
@@ -507,7 +504,7 @@ __ä:0 before i except in conditional__
 
 
 * __leikki^WG>i3n __
-* __lei0k00>in __
+* __leik000>in __
 
 
 
