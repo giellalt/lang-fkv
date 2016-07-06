@@ -24,6 +24,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
 %^AE:0                    !!= * @CODE@ -- a to e lauletaan
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
+%^¤:0
 #
 ;
 
@@ -52,7 +53,7 @@ ArchiCns = %^N ;                                            !!= * @CODE@
 SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@ 
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@ 
 Segment = Vowel Cns ;                                       !!= * @CODE@ 
-Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;  !!= * @CODE@
+Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@ 
 
@@ -612,8 +613,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 
 ! Mikä säätö? traaka : traakkhoin sivakka : sivakkhoin 
-!0 katto>^V alempi sääntö?
-!0 katto0o
+! katto>^V alempi sääntö?
+! katto0o
 
 !!€ paivukko>^V
 !!€ paivukko>o
@@ -679,12 +680,19 @@ j:0 <=> l _ e: %^E2I:0 ;
  i:0 <=>          Cns: _         %>  :i (%^AO:) (%^WG:) %> [ %^V: n | %^V: | t t e ] ; ! ristien, kväänitten
                   Cns: _ Dummy:* %> [ i3:i | i4:i ] ; ! leikin, tohtisin
          [a|e|o|u|y|ö] _         %> [ i2:i | i ] ;   ! tuoresta0>i2ksi
-         
-!# risti>i2>^Vn
-!0 rist0>i>en
-!# kvääni>i2>tten
-!# kvään00i0tten
+                  :Cns _ (%^WG:) %> i2:i ;
 
+! i:0 for even-syllabic stems ristiksi, libe-raaliksi
+!!€ risti>i2>^Vn
+!!€ rist0>i>in
+!!€ kvääni>i2>tten
+!!€ kvään0>i>tten
+!!€ liberaali>i2>ksi
+!!€ liberaal0>i>ksi
+
+!i:i for odd-syllabic stems tuntu-riiksi
+!!€ tunturi>^¤i2>ksi
+!!€ tunturi>0i>ksi
 
 !! !!a rules
 !  =========
@@ -906,3 +914,4 @@ Vx:e <=> _  %^AE:0 (%^WG:0) %> t (t) ;
 ! a:0 <=> Cns _ %^AO: %^HMETA: 0%> h %^V: i2: ; 
 
 ! oppettaajhiin 
+
