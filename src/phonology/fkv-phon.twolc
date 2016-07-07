@@ -677,6 +677,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! The -i- rules require different i-s for different POS.
 
 "i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense" 
+!! __@RULENAME@__ 
  i:0 <=>          Cns: _         %>  :i (%^AO:) (%^WG:) %> [ %^V: n | %^V: | t t e ] ; ! ristien, kväänitten
                   Cns: _ Dummy:* %> [ i3:i | i4:i ] ; ! leikin, tohtisin
          [a|e|o|u|y|ö] _         %> [ i2:i | i ] ;   ! tuoresta0>i2ksi
@@ -700,6 +701,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! !a before i
 
 "a:0 before Pret and Pl i when rounded root vowel"
+!! __@RULENAME@__ 
 a:0 <=>  [ #:|.#.]  Cns:* (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* _ (%^AO:0) [(%^WG:0) %>  [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
          [ #:|.#.] (Cns:*) Vowel: Cns: (Cns:) [:a|:e]     [:v|:m] _ (%^WG:0)       (i) %>  i2: %> (%^A:);
                    (Cns:*) Vowel: Cns: (Cns:)                     _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
@@ -719,32 +721,31 @@ a:0 <=>  [ #:|.#.]  Cns:* (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* _ (%^AO:
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__  
 a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)  %> [i2:|i3:] ; ! 2 syll
-                                     (:Cns)  [:k|:l] (:i) :i :j _ %^AO: (Dummy:*) %>  i2:  ; ! kulkkiija kulkiijoissa                                                         
-(Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2: ; ! sivakka sivakoissa                                 
+                                     (:Cns)  [:k|:l] (:i) :i :j _ %^AO: (Dummy:*) %>  i2:  ; ! kulkkiija kulkiijoissa
+(Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2: ; ! sivakka sivakoissa
 
-!a:o <=>  [ #: | .#. ]                         (Cns:*)   [a|e|i] ([o|u])  Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %> [i2: | i3: ] (%>) ;
-!         [ #: | .#. ] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %> [i2: | i3: ] ; !
+
+!a:o <=>  [#:|.#.]                        (Cns:*)   [a|e|i] ([o|u])  Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %> [i2: | i3: ] (%>) ;
+!         [#:|.#.] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %> [i2: | i3: ] ; !
 
 ! vaara, aika, kaula
-!!€ kal0a>i2en
-!!€ kalo>jen
- 
-! liina, hieta, kiusa
-!!€ linna>i2en
-!!€ linno>jen
+!!€ kala^AO^WG>i2>tten
+!!€ kalo00>i>tten
 
-! eeva, keila, keula
-!!€ kela>i2en
-!!€ kelo>jen
+!!€ aika^AO^WG>i2>tten
+!!€ aijo00>i>tten
 
 !!€ sivakka^AO^WG>i2>tten
 !!€ sivak0o00>i>tten                                                                
-                                                
-!!€ kala>i2en
-!!€ kalo>jen
 
-!!€ kulkkiija^AO>i2
-!!€ kulkkiijo^AO>i
+!€ kal0a>i2n
+!€ kallo>in
+
+!!€ kulkkiija^AO>i2>tten
+!!€ kulkkiijo0>i>tten
+
+
+
 
 "a:i in 3-syll stems with long a and i"
 !! __@RULENAME@__ 
