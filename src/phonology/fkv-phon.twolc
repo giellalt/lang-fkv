@@ -703,13 +703,13 @@ j:0 <=> l _ e: %^E2I:0 ;
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__ 
 a:0 <=>  [ #:|.#.]  Cns:* (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* _ (%^AO:0) [(%^WG:0) %>  [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
-         [ #:|.#.] (Cns:*) Vowel: Cns: (Cns:) [:a|:e]     [:v|:m] _ (%^WG:0)       (i) %>  i2: %> (%^A:);
-                   (Cns:*) Vowel: Cns: (Cns:)                     _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
-                                                      :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:a|i:] ; 
-                                                      :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:a|i:] ; 
-                                                      :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
-                                                      :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
-                                                                a _ %^VDEL:0  (Dummy:) %> [s|t] ;
+         [ #:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)       (i) %>  i2: %> (%^A:) ;
+                   (Cns:*) Vowel:+ Cns: (Cns:)                           _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
+                                                            :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:a|i:] ; 
+                                                            :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:a|i:] ; 
+                                                            :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
+                                                            :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
+                                                                      a _ %^VDEL:0  (Dummy:) %> [s|t] ;
 
 ! TODO: a:0 ...  (%^AO:0) ... gives unresolved conflict between a:o and a:0, fix this.
 
@@ -717,6 +717,9 @@ a:0 <=>  [ #:|.#.]  Cns:* (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* _ (%^AO:
 !!€ ot000>in 
 !!€ kajava^WG>i2>ss^A
 !!€ kajav00>i>ssa 
+!!€ loistaava^WG>i2>ss^A
+!!€ loistaav00>i>ssa 
+
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__  
@@ -745,15 +748,14 @@ a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)
 !!€ kulkkiijo0>i>tten
 
 
-
-
 "a:i in 3-syll stems with long a and i"
 !! __@RULENAME@__ 
-a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
+!a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
+a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll
 
 
-! opettaajiissa
-
+!!€ opettaaja>i2>ss^A
+!!€ opettaaji>i>ssa
 
 !! !Shortening 
 
