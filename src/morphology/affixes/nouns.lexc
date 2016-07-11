@@ -159,14 +159,14 @@ LEXICON x_22
 +Sg:^WG sgpl_cases_even ;
 +Pl:^WG%>i2 sgpl_cases_even ;  !! the same affix in sg and pl
  2TAVU_V_ill_sg ;
-!+Sg+Ess:%>n^A PxxK ; Lene removed this one
-!+Pl+Tra:%>i2ksi K ; Lene removed this one
-!!+Pl+Tra:%>i2kse PxxK ;
 +Pl+Ess:%>i2n^A PxxK ;
 +Pl:^WG%>i2 tt_longgenpl ;
 +Pl:%>i2 longparpl ;
-+Pl+Ill:^HMETA%>hi%>i2 n_PxK ;
++Pl+Ill:^HMETA%>hii n_PxK ;
 +Pl+Com:%>i2ne K ;
+!+Sg+Ess:%>n^A PxxK ; Lene removed this one
+!+Pl+Tra:%>i2ksi K ; Lene removed this one
+!!+Pl+Tra:%>i2kse PxxK ;
 
 LEXICON n_22odd !!= * @CODE@  kajava
 +N: x_22odd ;
@@ -185,7 +185,7 @@ LEXICON x_22odd !!= * @CODE@  kajava
 !+Pl+Tra:%>i2%>ksi   PxxK ; 
     +Pl:^WG%>i2 tt_longgenpl ;
       :%>i        long_par_pl ;
-+Pl+Ill:^HMETA%>hi%>i2 n_PxK ;
++Pl+Ill:%^HMETA%>hii n_PxK ;
 +Pl+Com:%>i2%>ne   K;
         
 
@@ -210,7 +210,7 @@ LEXICON x_22oddi !!= * @CODE@  meininki
 +Pl+Tra:i%>ksi   PxxK ; ! [meiningiiksi, meininkiiksi] -- check !
     +Pl:^WG%>i2 tt_longgenpl ;
     +Pl:%>i2     longparpl ;
-+Pl+Ill:^HMETA%>hi%>i2 n_PxK ;
++Pl+Ill:^HMETA%>hii n_PxK ;
 !+Pl+Com:%>i2%>ne   K;
 +Pl+Com:ine   K;
 
@@ -506,22 +506,22 @@ LEXICON x_33ys
 +N+Pl+Ess:h%>y%>i2%>ny PxxK ;
 
 
-LEXICON n_33is !!= @CODE@ rakas
+LEXICON n_33is !!= @CODE@ ruvis, ruumis
 +N: x_33is ;
 
 LEXICON x_33is !!= @CODE@ ruvis
        :i^WG sConsCaselyhyempi ; ! nom, par 
        :hii weak_v_stem_sg ;
        :hii weak_v_stem_pl;
-    +Pl:hi%>i2 longparpl ;
-    +Pl:hi%>i2 tt_longgenpl ;
+    +Pl:hii longparpl ;
+    +Pl:hii tt_longgenpl ;
     +Sg:hii sgpl_cases_even ;
-    +Pl:hi%>i2 sgpl_cases_even ;
+    +Pl:hii sgpl_cases_even ;
        :hii ess_even_sg ;
-       :hi ess_even_pl ;
++Pl+Ess:%>hiin^A PxxK ; ! i in pl lex
 +Sg+Ill:%>hiisseen K ;
-+Pl+Ill:hi%>i2ssiin K ;
-+Pl+Com:hi%>i2ne K ;
++Pl+Ill:hiissiin K ;
++Pl+Com:hiine K ;
 
 LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 n_33t ;
