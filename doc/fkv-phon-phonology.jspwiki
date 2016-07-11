@@ -47,7 +47,7 @@
  * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;   
  * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                         
  * Segment = Vowel Cns ;                                        
- * Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;  
+ * Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  
  * DummyBorder = Dummy %> ;          
  * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;   
 
@@ -60,33 +60,51 @@
 
 !Gemination
 
+Pitkän vokaalin jälkeen ja kans painottoman tavun jälkeen k, t, p ja s geminoituvat 
+ko perässä on pitkä vokaali (= lounaismurteitten erikoisgeminaatio), 
+mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen 
+(= yleisgeminaatio). (ES).
+
 One rule for each vowel environment.
 
 __Gemination VXi__ 
 
 
-* __sop0i>^V __
-* __soppi>i __
+__Gemination Vssi__ 
+
 
 * __aik0a^AO>i2 __
 * __aikko0>i __
 
-* __jok0e^E2I>i2>^V __
-* __jokk00>i>i __
+* __poi6k0a>i2>^V> __
+* __poikk0>i>i> __
 
 * __vuot0e^E2I>i2>^V> __
 * __vuoss00>i>i> __
 
-* __poi6k0a>i2>^V> __
-* __poikk0>i>i> __
+* __housu>i2>le __
+* __housu>i>le __
 
-* __kiv0e>i2i __
-* __kivv0>ii __
+* __hirte^E2I>i2>^V __
+* __hirs00>i>i __
 
 __Gemination VVa__ 
 
 * __aik0a>^V __
 * __aikka>a __
+
+
+__Gemination Vi__ 
+
+* __kiv0e>i2>^V __
+* __kivv0>i>i __
+
+* __sop0i>^V __
+* __soppi>i __
+
+* __jok0e^E2I>i2>^V __
+* __jokk00>i>i __
+
 
 __Gemination Va__ 
 
@@ -328,6 +346,9 @@ __ti:si__
 * __vete^E2I __
 * __vesi0 __
 
+* __hirte^HMETA>hii __
+* __hirs00>hii __
+
 
 
 
@@ -337,6 +358,10 @@ __ti:si__
 __Gradation Nt:NN in first syllable after short vowel__ 
 
 __Gradation Nt:N in other circumstances__ 
+
+
+* __pe#rintö^WG>n __
+* __pe#rinnö0>n __
 
 * __lentä^WG>n __
 * __lennä0>n __
@@ -373,6 +398,12 @@ __Vowel copying in short h-illative and elsewhere__
 
 * __maa>h^Vn __
 * __maa>han __
+* __heinä>^V __
+* __heinä>ä __
+* __syksy>^V __
+* __syksy>y __
+
+
 
 __Vowel copying in partitive of words ending in io, ia__
 
@@ -400,7 +431,8 @@ __a to o and metathesis in h forms in pl of a-stems__
 __Stem deletion in h-illative__ 
 
 * __syksy^HMETA>h^V^Vn __
-* __syks>00hyyn __
+* __syks00>hyyn __
+
 
 
 !!Stem alternation rules
@@ -418,52 +450,74 @@ __e:i in nom.sg. of e-stems__
 
 __e:0 in consonant stems and illative plural__ 
 
+* __ytime^HMETA>h^V^V> __
+* __ytim00>hee> __
+
+* __elläime^HMETA>h^V^V> __
+* __elläim00>hee> __
 
 * __aukaise>i3 __
 * __aukais0>i __
 
+* __vuote^HMETA>hii __
+* __vuot00>hii __
+
 !!i rules
 The -i- rules require different i-s for different POS.
 
+__i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense __ 
 
+
+* __risti>i2>^Vn __
+* __rist0>i>in __
+* __kvääni>i2>tten __
+* __kvään0>i>tten __
+* __liberaali>i2>ksi __
+* __liberaali>i>ksi __
+* __karamelli>i2n^A __
+* __karamelli>0ina __
+* __tunturi>i2>ksi __
+* __tunturi>0i>ksi __
 
 
 !!a rules
 
 !a before i
 
+__a:0 before Pret and Pl i when rounded root vowel__ 
 
 
 * __otta^WG>i2n __
 * __ot000>in __
 * __kajava^WG>i2>ss^A __
 * __kajav00>i>ssa __
+* __loistaava^WG>i2>ss^A __
+* __loistaav00>i>ssa __
+
 
 __a:o before Pl i and Pret i__  
 
 
-* __kal0a>i2en __
-* __kalo>jen __
 
-* __linna>i2en __
-* __linno>jen __
+* __kala^AO^WG>i2>tten __
+* __kalo00>i>tten __
 
-* __kela>i2en __
-* __kelo>jen __
+* __aika^AO^WG>i2>tten __
+* __aijo00>i>tten __
 
 * __sivakka^AO^WG>i2>tten __
 * __sivak0o00>i>tten __
 
-* __kala>i2en __
-* __kalo>jen __
 
-* __kulkkiija^AO>i2 __
-* __kulkkiijo^AO>i __
+* __kulkkiija^AO>i2>tten __
+* __kulkkiijo0>i>tten __
+
 
 __a:i in 3-syll stems with long a and i__ 
 
 
-
+* __opettaaja>i2>ss^A __
+* __opettaaji>i>ssa __
 
 !Shortening 
 
@@ -526,4 +580,5 @@ __ä:0 before i except in conditional__
 
 
 __ä:0 before i except in conditional__ 
+
 
