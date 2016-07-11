@@ -17,7 +17,7 @@ hieno a_21 ; !!= * @CODE@ needs own adj lex tag
 !! !!2.2. Usseempitavvuiset lyhykäisvokaaliset rangat 
 
 
-liberaali a_22 ; !!= * @CODE@
+liberaali:liberaali a_22 ; !!= * @CODE@ XXX check whether pl = liberaaliksi or liberaaliksi
 simppeli a_22odd ;
 
 !! !!2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
