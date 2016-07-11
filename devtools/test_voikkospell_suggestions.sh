@@ -111,4 +111,4 @@ cat "$speller_results.tmp" >> "$speller_results"
 rm -f "$speller_results.tmp"
 
 # Open the xml file in the default browser
-open -a Safari "$speller_results"
+open "$speller_results"
