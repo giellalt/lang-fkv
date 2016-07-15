@@ -14,10 +14,10 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - tervheiset - ok : # Noun 'tid' n_42pl - ei tsekattu
+  Noun - tervheiset - ok : # Noun 'tid' n_42pl - ES ok
      tervheiset+N+Pl+Nom: tervheiset
      tervheiset+N+Pl+Gen: tervheisten
-     tervheiset+N+Pl+Par: tervheisii
+     tervheiset+N+Pl+Par: tervheissii
      tervheiset+N+Pl+Tra: tervheisiksi
      tervheiset+N+Pl+Abe: tervheisittä
      tervheiset+N+Pl+Ine: tervheisissä
@@ -27,4 +27,4 @@ Tests:
      tervheiset+N+Pl+Abl: tervheisiltä
      tervheiset+N+Pl+All: tervheisille
      tervheiset+N+Pl+Ess: tervheisinnä
-     tervheiset+N+Pl+Com: tervheisine
+     tervheiset+N+Pl+Com: tervheisinne

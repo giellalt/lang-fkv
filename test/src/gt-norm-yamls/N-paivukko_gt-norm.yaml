@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - paivukko - ei tsekattu : # Noun 'borg' - ei tsekattu
+  Noun - paivukko - ei tsekattu : # Noun 'borg' - ES ok
      paivukko+N+Sg+Nom: paivukko
      paivukko+N+Sg+Gen: paivukon
      paivukko+N+Sg+Par: paivukkoo
@@ -38,5 +38,5 @@ Tests:
      paivukko+N+Pl+Ade: paivukoila
      paivukko+N+Pl+Abl: paivukoilta
      paivukko+N+Pl+All: paivukoile
-     paivukko+N+Pl+Ess: paivukkoina
-     paivukko+N+Pl+Com: paivukkoine
+     paivukko+N+Pl+Ess: paivukoina
+     paivukko+N+Pl+Com: paivukoine
