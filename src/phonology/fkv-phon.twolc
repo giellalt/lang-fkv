@@ -107,8 +107,8 @@ Rules
 !!€ housu>i2>le
 !!€ housu>i>le
 
-!!€ hirte^E2I>i2>^V
-!!€ hirs00>i>i
+!!€ hirt0e^E2I>i2>^V
+!!€ hirss00>i>i
 
 "Gemination VVa"
 !! __@RULENAME@__ 
@@ -496,8 +496,8 @@ t:s <=> Vowel n  _ (:s)  e:         %> i2: [.#.|Cns] ;
   Vowel [n|l|r]  _      Vowel:0 (%^WG:0) (%^E2I:)  %> i2: ;
   Vowel [n|l|r]  _ (:s) Vowel:0 (%^AO:0) (%^WG:0)  %> i3:  ;
     Vowel Vowel  _ (:s) Vowel:0 (%^AO:0)           %> i3:  ;
-  Vowel 	n 	 _      Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
-  Vowel [n|l|r]  _      Vowel:0 %^HMETA:0 %> h :i	   	   ;
+  Vowel     n      _      Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
+  Vowel [n|l|r]  _      Vowel:0 %^HMETA:0 %> h :i              ;
 
 !!€ vete^E2I
 !!€ vesi0
@@ -854,9 +854,6 @@ Vx:e <=> _  %^AE:0 (%^WG:0) %> t (t) ;
 ! i:0 <=> Cns: _ Dummy:* %> [ i3:i | i4:i ] ;
 
 
-
-!!€ leikki^WG>i3n
-!!€ leik000>in
 
 
 
