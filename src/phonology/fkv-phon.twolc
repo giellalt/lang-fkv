@@ -83,9 +83,6 @@ Rules
           Cns:*  Vowel:* Vowel (Vowel:) Cx _ e: %^E2I:0 %> i2: %> %^V:i ; !vuossii
          where Cx in ( k p t  ) ; ! v excluded
 
-!   Cns:*  Vowel:* Vowel (Vowel:) (LNR) :Cx _ :Vowel         %> i2:i %> [:Vowel:|:SurfaceCns] ; !houssuile
-!0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) :Cx _  :Vowel (%^AO:0) %>  [:i - i3:] (i2:i) ;
-!0:Cx <=> Cns:*  Vowel:* Vowel (Vowel) (Cx) _  :Vowel %> (%^E2I:0) [:i - i3:] (i2:i) ;
 
 "Gemination Vssi"
 !! __@RULENAME@__ 
@@ -109,6 +106,9 @@ Rules
 
 !!€ hirt0e^E2I>i2>^V
 !!€ hirss00>i>i
+
+!!$ hirt0e^E2I>i2>^V
+!!$ hirtt00>i>i
 
 "Gemination VVa"
 !! __@RULENAME@__ 
@@ -314,7 +314,8 @@ Rules
 
 "Gemination LIQi"
 !! __@RULENAME@__ 
- 0:Cx <=> [l|r|n|m] Cx _ :i %> [:i - i7: ] ;   
+ 0:Cx <=> [l|r|n|m]  Cx _ :i %> [:i - i7: ] ; 
+          [l|r|n|m] :Cx _ e: %^E2I:0 %> i2: %> %^V: ;
        where Cx in ( j k p s t v ) ;
     
 !!€ kerk0i>^Vn
@@ -489,10 +490,11 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "ti:si"
 !! __@RULENAME@__ 
-t:s <=> Vowel n  _ (:s)  e:         %> i2: [.#.|Cns] ;
+t:s <=> Vowel n  _   e:         %> i2: [.#.|Cns] ;
   Vowel          _ (:s) (e:) %^E2I: ; ! vesi  vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
   Vowel          _ (:s)  e:         %> i2: [.#.|Cns] ;
-  Vowel [n|l|r]  _ (:s) (e:) %^E2I:      ; ! kansi
+  Vowel [n|l|r]  _      (e:) %^E2I: %> \:i    ; ! kansi
+  Vowel [n|l|r]  _  :s  (e:) %^E2I: %> :i    ; ! hirssii
   Vowel [n|l|r]  _      Vowel:0 (%^WG:0) (%^E2I:)  %> i2: ;
   Vowel [n|l|r]  _ (:s) Vowel:0 (%^AO:0) (%^WG:0)  %> i3:  ;
     Vowel Vowel  _ (:s) Vowel:0 (%^AO:0)           %> i3:  ;
