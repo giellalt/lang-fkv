@@ -77,11 +77,11 @@ Rules
  
 "Gemination VXi"
 !! __@RULENAME@__ 
- 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) (LNR) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ;
-          Cns:*  Vowel:* Vowel (Vowel:) (LNR) Cx _ Vowel:         %> i2:i %> %^V:i  ;
-          Cns:*  Vowel:* Vowel (Vowel:) (LNR) Cx _ e:         %> i7:i Cns ;
-          Cns:*  Vowel:* Vowel (Vowel:) (LNR) Cx _ e: %^E2I:0 %> i2: %> %^V:i ; !vuossii
-         where Cx in ( k p t s ) ; ! v excluded
+ 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ;
+          Cns:*  Vowel:* Vowel (Vowel:) Cx _ Vowel:         %> i2:i %> %^V:i  ;
+          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e:         %> i7:i Cns ;
+          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e: %^E2I:0 %> i2: %> %^V:i ; !vuossii
+         where Cx in ( k p t  ) ; ! v excluded
 
 !   Cns:*  Vowel:* Vowel (Vowel:) (LNR) :Cx _ :Vowel         %> i2:i %> [:Vowel:|:SurfaceCns] ; !houssuile
 !0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) :Cx _  :Vowel (%^AO:0) %>  [:i - i3:] (i2:i) ;
@@ -89,10 +89,10 @@ Rules
 
 "Gemination Vssi"
 !! __@RULENAME@__ 
- 0:s <=>  Cns:*  Vowel:* Vowel (Vowel:) (LNR) t:s _ :i      %>  [:i - i3:] (i2:i) ;
-          Cns:*  Vowel:* Vowel (Vowel:) (LNR) t:s _ :i  %> i2:i %> %^V:i  ;
-          Cns:*  Vowel:* Vowel (Vowel:) (LNR) t:s _ e:         %> i7:i Cns ;
-          Cns:*  Vowel:* Vowel (Vowel:) (LNR) t:s _ e: %^E2I:0 %> i2: %> %^V: ; !vuossii
+ 0:s <=>  Cns:*  Vowel:* Vowel (Vowel:) :s _ :i      %>  [:i - i3:] (i2:i) ;
+          Cns:*  Vowel:* Vowel (Vowel:) :s _ :i  %> i2:i %> %^V:i  ;
+          Cns:*  Vowel:* Vowel (Vowel:) :s _ e:         %> i7:i Cns ;
+          Cns:*  Vowel:* Vowel (Vowel:) :s _ e: %^E2I:0 %> i2: %> %^V: ; !vuossii
 
 
 !!€ aik0a^AO>i2
@@ -121,7 +121,7 @@ Rules
 
 "Gemination Vi"
 !! __@RULENAME@__ 
-0:Cx <=> [.#.|#:] Cns:* Vowel (:LNR) Cx _ (e: %>) :i %> :i ;
+0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (%^E2I:0) %> :i %> :i ;
        where Cx in ( h j l m n r v ) ;
 
 !!€ kiv0e>i2>^V
