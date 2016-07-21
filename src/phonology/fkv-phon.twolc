@@ -826,8 +826,14 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll
 !      where Vx in ( a ä ) ;
 
 Vx:e <=> _  %^AE:0 (%^WG:0) %> t (t) ; 
-        (Cns:) Vowel: (Vowel:) (Cns:) _ (%^WG:0) %> [ m p | m m ] [i|%^A:] (%>) ; 
+    [.#.|#:] Cns:* Vowel: (Vowel:) Cns:* _ (%^WG:0) %> [ m p | m m ] [i|%^A:] (%>) ; 
      where Vx in ( a ä ) ;
+
+!!$ loistaava>mpi
+!!$ loistaave>mpi
+
+!!$ loistaava>mpi
+!!$ loistaava>mpi
 
 "ä:0 before i except in conditional"
 !! __@RULENAME@__ 
@@ -956,4 +962,3 @@ Vx:e <=> _  %^AE:0 (%^WG:0) %> t (t) ;
 ! a:0 <=> Cns _ %^AO: %^HMETA: 0%> h %^V: i2: ; 
 
 ! oppettaajhiin 
-
