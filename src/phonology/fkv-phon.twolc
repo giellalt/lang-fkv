@@ -744,19 +744,22 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__ 
-a:0 <=>  [#:|.#.]  Cns:* (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* _ (%^AO:0) [(%^WG:0) %> (%^¤:) [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
-         [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)       (i) %> (%^¤:) i2: %> (%^A:) ;
-                   (Cns:*) Vowel:+ Cns: (Cns:)                           _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
+a:0 <=>  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* _ (%^AO:0) [(%^WG:0) %>     [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
+         [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)           %> (i) i2: (i) %> ; ! check first (i)
+                  (Cns:*) Vowel:+ Cns: (Cns:)                           _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
                                                            :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:a|i:] ; 
                                                            :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:a|i:] ; 
                                                            :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
                                                            :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
                                                                      a _ %^VDEL:0  (Dummy:) %> [s|t] ;
+!                                                                       _ i5: ; ! loistaaviimmin
 
 ! TODO: a:0 ...  (%^AO:0) ... gives unresolved conflict between a:o and a:0, fix this.
 
 !!€ otta^WG>i2n
 !!€ ot000>in 
+!!€ kajava^WG>i2>ss^A
+!!€ kajav00>i>ssa 
 !!€ kajava^WG>i2>ss^A
 !!€ kajav00>i>ssa 
 !!€ loistaava^WG>i2>ss^A
