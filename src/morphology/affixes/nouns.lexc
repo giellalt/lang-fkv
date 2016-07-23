@@ -183,7 +183,7 @@ LEXICON x_22odd !!= * @CODE@  kajava
                  !ess_odd_sg ;
                  !ess_odd_pl ;
 !+Pl+Tra:%>i2%>ksi   PxxK ; 
-    +Pl:^WG%>i2 tt_longgenpl ;
+    +Pl:^WG%>i2i tt_longgenpl ; ! kajaviitten
       :%>i        long_par_pl ;
 +Pl+Ill:%^HMETA%>hii n_PxK ;
 +Pl+Com:%>i2%>ne   K;
@@ -207,7 +207,6 @@ LEXICON x_22oddi !!= * @CODE@  meininki
                  ess_odd_sg ;
                 ! ess_even_pl ;
 +Pl:i ess ;
-+Pl+Tra:i%>ksi   PxxK ; ! [meiningiiksi, meininkiiksi] -- check !
     +Pl:^WG%>i2 tt_longgenpl ;
     +Pl:%>i2     longparpl ;
 +Pl+Ill:^HMETA%>hii n_PxK ;
@@ -236,8 +235,8 @@ LEXICON x_22oi        !!= * @CODE@  Kulkkiija
                      2TAVU_V_ill_sg ;
     +Pl:^AO^WG%>i2 tt_longgenpl ;
     +Pl:^AO^WG%>i2 longparpl ;
-                     ess_odd_sg ;
-       :^AO         ess_even_pl ;
+                     ess_odd_sg ;    ! paijukko/nna
+       :^AO^WG         ess_even_pl ; ! paijuko/i/na
 +Pl+Com:^AO%>i2ne   K;
 +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK ;
 
@@ -479,7 +478,8 @@ LEXICON x_33aes
 +Pl+Ill:h%>äissiin K ;
 +Pl+Com:h%>ä%>ine K ;
 :h%>ää weak_v_stem_sg ;
-:h%>ää weak_v_stem_pl;
+:h%>ää weak_v_stem_pl ;
+:h%>ää ess_even ;
 +Sg:h%>ää sgpl_cases_even ;
 +Pl:h%>ä%>i2 sgpl_cases_even ;
 +Pl:h%>ä%>i2 longparpl ;
@@ -644,7 +644,7 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
  +N+Pl+Nom:%>set K ;
  +N+Pl:s%>i2 sgpl_cases_odd ;  !! the same affix in sg and pl
  +N+Pl:s consgenpl ;
- +N+Pl:s%>i2 shortparpl ;
+ +N+Pl:ss%>i2 shortparpl ; ! tervhehissii
  +N+Pl+Ill:sh%>i2in K ;
  +N:se ess_odd_pl ;
  +N+Pl+Com:s%>i2ne K ;
