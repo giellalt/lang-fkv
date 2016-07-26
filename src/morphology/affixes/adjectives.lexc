@@ -15,7 +15,7 @@ LEXICON ax  !!= * @CODE@ contains unclassified adjectives.
 
 LEXICON HYVA
 +A:hyvä x_21 ; ! hyvvää, hyvät
-+A:pare comp ;
++A:pare comp_m_odd  ;
 +A+Sg+Superl+Nom:paras K ;
 ! the rest of paras to be written.
 
@@ -23,19 +23,19 @@ LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc.
 +A: x_21 ;
 !+A: a_strong_v_stem ;
 !+A:^WG a_weak_v_stem ;
-:^AE^WG comp ;
-:^AE^WG%>i5 superl ;
+:^AE^WG comp_m_odd  ;
+:^AE^WG%>i5 superl_m_odd ;
 
 LEXICON a_21ie  !!= * @CODE@ corresponds to a_21ie etc.
 +A: x_21ie ;
-comp ;
-superl ;
+comp_m_odd  ;
+superl_m_odd ;
 
 
 LEXICON a_22	!!= * @CODE@  liberaali
 +A: x_22 ;
-comp ;
-:i superl; 
+comp_m_odd  ;
+:i superl_m_odd ; 
 
 LEXICON a_22odd	!!= * @CODE@  simppeli
 +A: x_22odd ;
@@ -44,30 +44,30 @@ comp_mm ;
 
 LEXICON a_23	!!= * @CODE@  pimmee
 +A: x_23 ;
-:e comp ;
-:e%>i2 superl;
+:e comp_m_odd  ;
+:e%>i2 superl_m_odd ;
 +A+Sg+Superl:e%>i2 superl_n ;
 
 LEXICON a_23ii  !!= * @CODE@ auttii
 +A: x_23ii ;
-comp ;
+comp_m_odd  ;
 
 LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31 ;
-comp ;
-:^E2I superl ;
+comp_m_odd  ;
+:^E2I superl_m_odd ;
 +A+Sg+Superl:^E2I superl_in ;
 
 LEXICON a_31si	!!= * @CODE@ uusi
 +A: x_31si ;
-:^WG comp ;
-:^E2I superl ;
+:^WG comp_m_odd  ;
+:^E2I superl_m_odd ;
 +A+Sg+Superl:^E2I superl_in ;
 
 LEXICON a_32 !!= * @CODE@ tyven
 +A: x_32 ;
 :e comp_mm ;
-:ii superl ;
+:ii superl_m_odd ;
 
 LEXICON a_32m !!= * @CODE@ irtain
 +A: x_32m ;
@@ -101,35 +101,35 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 
 LEXICON a_33as !!= * @CODE@ rakas
 +A: x_33as ;
-:haa comp ;
-:hai superl ;
+:haa comp_m_odd  ;
+:hai superl_m_odd ;
 ! comp, superl, puuttuvat
 
 LEXICON a_33aes !!= * @CODE@ sinnikäs
 +A: x_33aes ;
-:hää comp ;
-:häi superl ;
+:hää comp_m_even  ; ! sinnikkhäämälä
+:häi superl_m_even ;
 ! comp, superl, puuttuvat
 
 
 LEXICON a_33is !!= * @CODE@ valmis
 +A: x_33is ;
-:hii comp ;
-:hii superl ;
+:hii comp_m_odd  ;
+:hii superl_m_odd ;
 
 ! comp, superl, puuttuvat
 
 LEXICON a_33ys !!= * @CODE@ kärys
 +A: x_33ys ;
-:hyy comp ;
-:hyi superl ;
+:hyy comp_m_odd  ;
+:hyi superl_m_odd ;
 ! comp, superl, puuttuvat
 
  
 LEXICON a_33t !!= * @CODE@ tuoret
 +A: x_33t ;
-:hee comp ;
-:hei superl ;
+:hee comp_m_odd  ;
+:hei superl_m_odd ;
 ! comp, superl, puuttuvat
 
 LEXICON a_33u !!= * @CODE@ vaipunu:vaipun ! perfect participle
@@ -147,7 +147,7 @@ LEXICON a_33y !!= * @CODE@ väsyny:äsyn ! perfect participle
 
 LEXICON a_41 !!= * @CODE@ = veres
 +A: x_41 ;
-:kse comp ;
+:kse comp_m_odd  ;
 
 
 LEXICON a_41_s_kse
@@ -157,8 +157,8 @@ LEXICON a_41_s_kse
 
 LEXICON a_42 !!= * @CODE@ varovainen
 +A: x_42 ;
-:se comp ;
-:si superl ;
+:se comp_m_odd  ;
+:si superl_m_odd ;
 
 
 LEXICON a_42odd !!= * @CODE@ sininen
@@ -267,22 +267,34 @@ LEXICON a_ton
 ! +Sg+Ill:tt^Omh^A^An K ;
 ! +Pl+Gen:tt^Omm%>i2in K ;
 
-LEXICON comp ! split for syllabicity?
+LEXICON comp_m_odd  ! odd here meaning the resulting stem: 2syll + comp = 3syll
++A+Sg+Comp:%>m^A sgpl_cases_odd ;
++A+Sg+Comp+Ess:%>mp^A%>nn^A K ;
++A+Pl+Comp:%>m%>i2 sgpl_cases_odd ; 
++A+Pl+Comp+Ess:%>mp%>i2%>nn^A    K ;
+comp_m_common ;
+
+LEXICON comp_m_even  ! split for syllabicity sinnikkhäämälä
++A+Sg+Comp:%>m^A sgpl_cases_even ;
++A+Sg+Comp+Ess:%>mp^A%>n^A K ;
++A+Pl+Comp:%>m%>i2 sgpl_cases_even ; 
++A+Pl+Comp+Ess:%>mp%>i2%>n^A    K ;
+comp_m_common ;
+
+LEXICON comp_m_common
 +A+Sg+Comp+Nom:%>mpi K ;
 +A+Sg+Comp+Gen:%>m^A%>n K ;
 !+A+Comp:%>m^A weak_v_stem ; 
 +A+Sg+Comp+Ill:%>mp%>h^A^An K ;
 +A+Sg+Comp+Par:%>mpp^A%>^A K  ; ! liberaali
-+A+Sg+Comp:%>m^A sgpl_cases_odd ;
-+A+Pl+Comp:%>m%>i2 sgpl_cases_odd ; 
-+A+Sg+Comp+Ess:%>mp^A%>nn^A K ;
 +A+Pl+Comp+Nom:%>m^A%>t K ;
 +A+Pl+Comp+Gen:%>m%>i2%>itten K ;
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ; 
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ; 
-+A+Pl+Comp+Ess:%>mp%>i2%>nn^A    K ;
++A+Pl+Comp+Par:%>mp%>i2%>^A K  ; ! sinnikkhäämpiä
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
+
 
 LEXICON comp_onneton
 +A+Sg+Comp+Nom:%>mpi K ;
@@ -321,7 +333,21 @@ LEXICON comp_mm
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
 
-LEXICON superl
+LEXICON superl_m_even
++A+Sg+Superl:%>m^A sgpl_cases_even ;
++A+Pl+Superl:%>m%>i2 sgpl_cases_even ;
++A+Pl+Superl+Ess:%>mp%>i2%>n^A    K ;
+superl_m_common ;
+
+
+LEXICON superl_m_odd
++A+Sg+Superl:%>m^A sgpl_cases_odd ;
++A+Pl+Superl:%>m%>i2 sgpl_cases_odd ;
++A+Pl+Superl+Ess:%>mp%>i2%>nn^A    K ;
+superl_m_common ;
+
+
+LEXICON superl_m_common
 +A+Sg+Superl+Nom:^AO%>n K ;
 !+A+Sg+Superl: superl_in ;
 !+A+Superl:%>m^A weak_v_stem ;
@@ -330,14 +356,13 @@ LEXICON superl
 +A+Sg+Superl+Ill:%>mp%>h^A^An K ;
 +A+Sg+Superl+Par:%>n%>t^A K  ; 
 +A+Sg+Superl+Ess:%>mp^A%>n^A    K ; ! liberaaliimpana
-+A+Sg+Superl:%>m^A sgpl_cases_odd ;
-+A+Pl+Superl:%>m%>i2 sgpl_cases_odd ;
 +A+Pl+Superl+Gen:%>m%>i2%>itten K ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ; 
 +A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ; 
-+A+Pl+Superl+Ess:%>mp%>i2%>nn^A    K ;
++A+Pl+Superl+Par:%>mp%>i2%>^A K  ; 
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
+
 
 LEXICON superl_onneton
 !+A+Sg+Superl+Nom:%>in K ;
