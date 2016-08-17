@@ -495,9 +495,9 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !! __@RULENAME@__ 
 t:s <=> Vowel n  _   e:         %> i2: [.#.|Cns] ;
   Vowel          _ (:s)  e:  %^E2I: ; ! vesi  vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
-!  Vowel          _ (:s)  e:         %> i2: [.#.|Cns] ; ! needed? no.
+  Vowel          _ (:s)  e:         %> i2: [.#.|Cns] ; ! needed? no.
   Vowel [n|l|r]  _      (e:) %^E2I: %> \:i    ; ! kansi
-  Vowel [n|l|r]  _  :s  (e:) %^E2I: %> :i    ; ! hirssii
+  Vowel [n|l|r]  _  :s  (e:) %> :i    ; ! hirssii !  Vowel [n|l|r]  _  :s  (e:) %^E2I: %> :i    ; ! hirssii
   Vowel [n|l|r]  _      Vowel:0 (%^WG:0) (%^E2I:)  %> i2: ;
   Vowel [n|l|r]  _ (:s) Vowel:0 (%^AO:0) (%^WG:0)  %> i3:  ;
     Vowel Vowel  _ (:s) Vowel:0 (%^AO:0)           %> i3:  ;
@@ -750,7 +750,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__ 
-a:0 <=>  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* _ (%^AO:0) [(%^WG:0) %>     [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
+a:0 <=>  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* (:Cns) _ (%^AO:0) [(%^WG:0) %>     [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
          [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)           %> (i) i2: (i) %> ; ! check first (i)
                   (Cns:*) Vowel:+ Cns: (Cns:)                           _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
                                                            :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:a|i:] ; 
@@ -971,3 +971,6 @@ Vx:e <=> _  %^AE:0 (%^WG:0) %> t (t) ;
 ! a:0 <=> Cns _ %^AO: %^HMETA: 0%> h %^V: i2: ; 
 
 ! oppettaajhiin 
+
+!!€ a
+!!€ b
