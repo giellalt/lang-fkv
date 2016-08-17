@@ -290,7 +290,7 @@ LEXICON x_31
 +Sg:^WG sgpl_cases_even ;    !! * @CODE@  for same affix in sg and pl
 +Pl:%>i2 sgpl_cases_even ;  !! * @CODE@  for same affix in sg and pl
  2TAVU_V_ill_sg ;
-+Pl:^E2I^HMETA%>hii shortestillpl ;
++Pl:^HMETA%>hii shortestillpl ;
 +Pl:%>i2 shortparpl         ;
 +Pl:%>i2 shortgenpl         ;
 !!+Pl:^EDEL consgenpl ;
@@ -315,7 +315,7 @@ LEXICON x_31m
 
 LEXICON n_31si        !!= @CODE@ vuosi, käsi
 +N: x_31si ;
-+N+Sg+Nom:^E2I         R ; 
++N+Sg+Nom:         R ; 
 
 LEXICON x_31si
 +Sg+Nom:^E2I         K ; 
@@ -324,13 +324,13 @@ LEXICON x_31si
        :^WG          weak_v_stem ; ! gensg, nompl
                       2TAVU_V_ill_sg ;
     +Sg:^WG          sgpl_cases_even ; ! these two lexica for cases with
-    +Pl:^E2I%>i2     sgpl_cases_even ; ! the same affix in sg and pl
+    +Pl:%>i2     sgpl_cases_even ; ! the same affix in sg and pl
                       ess_even_sg ;
-       :^E2I         ess_even_pl ;
-    +Pl:^E2I%>i2     shortparpl ; ! ^E2I to get t:s
-    +Pl:^E2I%>i2     shortgenpl ; ! vuossiin, *vuottiin
+       :         ess_even_pl ;
+    +Pl:%>i2     shortparpl ; ! ^E2I to get t:s
+    +Pl:%>i2     shortgenpl ; ! vuossiin, *vuottiin
     +Pl:^HMETA%>hii shortestillpl ; 
-+Pl+Com:^E2I%>i2ne        K ;
++Pl+Com:%>i2ne        K ;
 
 LEXICON n_31lapsi        !!= @CODE@ lapsi la
 +N+Sg+Nom:psi K ; ! ^EI e to i
