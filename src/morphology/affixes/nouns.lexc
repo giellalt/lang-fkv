@@ -64,7 +64,7 @@ LEXICON x_1
  weak_v_stem ;
 +Sg: sgpl_cases_even ;      !! these two lexica for cases with
 +Pl:%>i2 sgpl_cases_even ;  !! the same affix in sg and pl
-+Pl+Com:%>i2ne K ;
++Pl+Com:%>i2%>ne K ;
   1TAVU_VV-ill ;
 +Pl:%>i2 tt_longgenpl ;
 +Pl:%>i2 longparpl ;
@@ -79,7 +79,7 @@ LEXICON n_1pl !!= * @CODE@ = häät
  +N: long_par ;
  +N: weak_v_stem ;
 +N+Pl:%>i2 sgpl_cases_even ;  !! the same affix in sg and pl
-+N+Pl+Com:%>i2ne K ;
++N+Pl+Com:%>i2%>ne K ;
 
  +N: 1TAVU_VV-ill ;
  +N+Pl:%>i2 tt_longgenpl ;
@@ -112,7 +112,7 @@ LEXICON x_21_oblique
      +Pl:^AO^WG%>i2 tt_longgenpl ;  ! longgenpl, eira 5322, korpus.
      +Pl:^AO%>i2 shortestparpl  ;  
 +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK ;
-+Pl+Com:^AO%>i2ne K ;
++Pl+Com:^AO%>i2%>ne K ;
  
 
 LEXICON n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
@@ -122,7 +122,7 @@ LEXICON n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
  +N+Pl:%>i2 tt_longgenpl ;
  +N+Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK ;
  +N+Pl:%>i2 shortestparpl ;
- +N+Pl+Com:%>i2ne K ;
+ +N+Pl+Com:%>i2%>ne K ;
 
  
  LEXICON kk-longgenpl
@@ -145,7 +145,7 @@ LEXICON x_21ie
 +Pl:%>i2i shortestgenpl ;
         2TAVU_edel-ill ;
 +Pl:%>i2 shortparpl ;
-+Pl+Com:%>i2ne K ;
++Pl+Com:%>i2%>ne K ;
 
 
 LEXICON n_22        !!= * @CODE@  opettaaja
@@ -159,11 +159,11 @@ LEXICON x_22
 +Sg:^WG       sgpl_cases_even ;  ! the same affix in sg and pl
 +Pl:^WG%>i2 sgpl_cases_even ;  ! Adding  to block i:0
  2TAVU_V_ill_sg ;
-+Pl+Ess:%>i2n^A PxxK ;
++Pl+Ess:%>i2%>n^A PxxK ;
 +Pl:^WG%>i2 tt_longgenpl ;
 +Pl:%>i2    longparpl ;
 +Pl+Ill:^HMETA%>hii n_PxK ;
-+Pl+Com:%>i2ne K ;
++Pl+Com:%>i2%>ne K ;
 !+Sg+Ess:%>n^A PxxK ; Lene removed this one
 !+Pl+Tra:%>i2ksi K ; Lene removed this one
 !!+Pl+Tra:%>i2kse PxxK ;
@@ -237,7 +237,7 @@ LEXICON x_22oi        !!= * @CODE@  Kulkkiija
     +Pl:^AO^WG%>i2 longparpl ;
                      ess_odd_sg ;    ! paijukko/nna
        :^AO^WG         ess_even_pl ; ! paijuko/i/na
-+Pl+Com:^AO%>i2ne   K;
++Pl+Com:^AO%>i2%>ne   K;
 +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK ;
 
 
@@ -258,7 +258,7 @@ LEXICON x_23
     +Pl:e%>i2      tt_longgenpl ;
     +Pl:e%>i2      sgpl_cases_even ;
        :e          ess_even ;
-+Pl+Com:e%>i2ne K ;
++Pl+Com:e%>i2%>ne K ;
 
 LEXICON n_23ii        !!= * @CODE@  assii
 +N: x_23ii ;
@@ -294,7 +294,7 @@ LEXICON x_31
 +Pl:%>i2 shortparpl         ;
 +Pl:%>i2 shortgenpl         ;
 !!+Pl:^EDEL consgenpl ;
-+Pl+Com:%>i2ne K ;
++Pl+Com:%>i2%>ne K ;
 
 LEXICON n_31m        !!= @CODE@ lumi lu
 +N: x_31m ;
@@ -311,7 +311,7 @@ LEXICON x_31m
 +Sg+Ill:m^HMETA%>hee n_PxK ;
 +Pl+Ill:m^EDEL%>hii n_PxK ;
 +Pl:mmi%>i2 shortestparpl ;
-+Pl+Com:m%>i2ne K ;
++Pl+Com:m%>i2%>ne K ;
 
 LEXICON n_31si        !!= @CODE@ vuosi, käsi
 +N: x_31si ;
@@ -330,7 +330,7 @@ LEXICON x_31si
     +Pl:%>i2     shortparpl ; ! ^E2I to get t:s
     +Pl:%>i2     shortgenpl ; ! vuossiin, *vuottiin
     +Pl:^HMETA%>hii shortestillpl ; 
-+Pl+Com:%>i2ne        K ;
++Pl+Com:%>i2%>ne        K ;
 
 LEXICON n_31lapsi        !!= @CODE@ lapsi la
 +N+Sg+Nom:psi K ; ! ^EI e to i
@@ -348,7 +348,7 @@ LEXICON n_31lapsi        !!= @CODE@ lapsi la
 +N+Pl:ps%>i2%>i shortestparpl ;
 +N+Sg+Ill:ps^HMETA%>hee n_PxK ;
 +N+Pl+Ill:ps^EDEL%>hii n_PxK ;
-+N+Pl+Com:ps%>i2ne K ;
++N+Pl+Com:ps%>i2%>ne K ;
 
 LEXICON n_31mies        !!= @CODE@ mies mie
 +N+Sg+Nom:s K ; ! ^EI e to i
@@ -364,7 +364,7 @@ LEXICON n_31mies        !!= @CODE@ mies mie
 +N+Pl:h%>i2%>i shortestparpl ;
 +N+Sg+Ill:h^HMETA%>hee n_PxK ;
 +N+Pl+Ill:hhii n_PxK ;
-+N+Pl+Com:h%>i2ne K ;
++N+Pl+Com:h%>i2%>ne K ;
 
 
 LEXICON n_32 !!= @CODE@ tytär tyttär
@@ -385,7 +385,7 @@ LEXICON x_32
 +Pl:%>i%>i2 tt_longgenpl ;
 +Pl:%>i%>i2 longparpl ;
 +Pl:^HMETAh%>i2i shortestillpl;
-+Pl+Com:%>i2ne K ;
++Pl+Com:%>i2%>ne K ;
 
 LEXICON n_32m !!= @CODE@ elläin elläi
 +N: x_32m ;
@@ -416,7 +416,7 @@ LEXICON x_32m_pl
 +Pl:mi%>i2 longparpl ;
 +Pl:m%>ii2 tt_longgenpl ;
 +Pl:m^HMETAh%>i2i shortestillpl;
-+Pl+Com:m%>i2ne K ;
++Pl+Com:m%>i2%>ne K ;
 
 LEXICON n_32s !!= @CODE@  sairhaus 
 +N+Sg+Nom:^WGs K ;  !! * Konsonanttivartalo: poista -e ja heikko aste
@@ -433,7 +433,7 @@ LEXICON n_32s !!= @CODE@  sairhaus
 +N+Pl:ksi%>i2 longparpl ;
 +N+Pl:ksi%>i2 tt_longgenpl ;
 +N+Pl:ks^HMETAh%>i2i shortestillpl;
-+N+Pl+Com:ks%>i2ne K ;
++N+Pl+Com:ks%>i2%>ne K ;
 
 
 ! LEXICON n_32s != @CODE@  sairhaus vanha versio
@@ -534,7 +534,7 @@ LEXICON x_33t
 :e tConsCase ; ! nom, par
 :hee 33_t_ts_common ;
 +Sg+Ill:hee mTAVU_VV-ill ;
-+Pl+Com:hee%>i2ne K ;
++Pl+Com:hee%>i2%>ne K ;
 
 LEXICON n_33ts !!= @CODE@ kirves
 +N: x_33ts ;
@@ -546,7 +546,7 @@ LEXICON x_33ts !!= @CODE@ kirves
 :hee 33_t_ts_common ;
 +Sg+Ill:hee mTAVU_VV-ill ;
 +Pl+Gen:hee%>i2 tt_longgenpl ;
-+Pl+Com:hee%>i2ne K ;
++Pl+Com:hee%>i2%>ne K ;
 
 LEXICON 33_t_ts_common
  obl_strong_even ; ! muut vahvat
@@ -577,7 +577,7 @@ LEXICON x_41
 +Pl+Par:%>ksii K ;
 +Sg+Ill:ksheen K ;
 +Pl+Ill:ksh%>i2in K ;
-+Pl+Com:ks%>i2ne K ;
++Pl+Com:ks%>i2%>ne K ;
 
 LEXICON s_kse
 +N:^WG # ;
@@ -591,7 +591,7 @@ LEXICON n_41pl !!= * @CODE@ = veljekset
 +N+Pl+Gen:%>sten K ;
 +N+Pl+Par:%>ksii K ;
 +N+Pl+Ill:ksh%>i2in K ;
-+N+Pl+Com:ks%>i2ne K ;
++N+Pl+Com:ks%>i2%>ne K ;
 
 
 
@@ -602,7 +602,7 @@ LEXICON n_41pl !!= * @CODE@ = veljekset
 !+N+Sg:se sgpl_cases_even ;      !! these two lexica for cases with
 !+N+Pl:s%>i2 sgpl_cases_even ;  !! the same affix in sg and pl
 !+N: nen ;
-!+N+Pl+Com:s%>i2ne K ;
+!+N+Pl+Com:s%>i2%>ne K ;
 
 LEXICON n_42
 +N: x_42 ;
@@ -620,7 +620,7 @@ LEXICON x_42
 +Pl:s consgenpl ;
 +Pl:ss%>i2i shortestparpl ;
 +Pl:sh%>i2 shorterillpl ;
-+Pl+Com:s%>i2ne K;
++Pl+Com:s%>i2%>ne K;
 
 
 LEXICON n_42odd !!= @CODE@ ihminen
@@ -638,7 +638,7 @@ LEXICON x_42odd
 +Pl:s consgenpl ;
 +Pl:ss%>i2i shortestparpl ;
 +Pl:sh%>i2 shorterillpl ;
-+Pl+Com:s%>i2ne K;
++Pl+Com:s%>i2%>ne K;
 
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
  +N+Pl+Nom:%>set K ;
@@ -647,7 +647,7 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
  +N+Pl:ss%>i2 shortparpl ; ! tervhehissii
  +N+Pl+Ill:sh%>i2in K ;
  +N:se ess_odd_pl ;
- +N+Pl+Com:s%>i2ne K ;
+ +N+Pl+Com:s%>i2%>ne K ;
 
 LEXICON nen  !!= @CODE@ on nainen-sanoille
   nen_sg ;
@@ -668,7 +668,7 @@ LEXICON nen_pl
  +N+Pl:s consgenpl ;
  +N+Pl:ss%>i2i shortestparpl ;
  +N+Pl:sh%>i2 shorterillpl ;
- +N+Pl+Com:s%>i2ne K ;
+ +N+Pl+Com:s%>i2%>ne K ;
 
 
 LEXICON nom-nen
