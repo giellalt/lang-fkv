@@ -75,21 +75,40 @@ Rules
 
 !! One rule for each vowel environment.
  
-"Gemination VXi"
-!! __@RULENAME@__ 
- 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ;
-          Cns:*  Vowel:* Vowel (Vowel:) Cx _ Vowel:         %> i2:i %> %^V:i  ;
-          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e:         %> i7:i Cns ;
-          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e: %^E2I:0 %> i2: %> %^V:i ; !vuossii
-         where Cx in ( k p t  ) ; ! v excluded
 
+
+!"Gemination VXi"
+!!! __@RULENAME@__ 
+! 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ;
+!          Cns:*  Vowel:* Vowel (Vowel:) Cx _ Vowel:         %> i2:i %> %^V:i  ;
+!          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e:         %> i7:i Cns ;
+!          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e: %^E2I:0 %> i2: %> %^V:i vuossii
+!         where Cx in ( k p t  ) ; ! v excluded
+
+! -- eller --
+
+"Gemination V-kp-i"
+!! __@RULENAME@__ 
+ 0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be shortened, sannoi
+          Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena > penniin hupi>huppiin, laki>lakkiin
+          Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
+         where Cx in ( k p  ) ; ! v excluded 
+
+
+"Gemination Vti"
+!! __@RULENAME@__ 
+ 0:t <=> Cns:* Vowel:* Vowel (Vowel:) t _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
+         Cns:* Vowel:* Vowel (Vowel:) t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin EI sais antaa vuottiin.
+         Cns:* Vowel:* Vowel (Vowel:) t _ e:            %> i7:i Cns ; ! contr verbs
+! split from V-kp_i in order to easier negate words like vuottiin. 
 
 "Gemination Vssi"
-!! __@RULENAME@__ 
- 0:s <=>  Cns:*  Vowel:* Vowel (Vowel:) :s _ :i      %>  [:i - i3:] (i2:i) ;
-          Cns:*  Vowel:* Vowel (Vowel:) :s _ :i  %> i2:i %> %^V:i  ;
-          Cns:*  Vowel:* Vowel (Vowel:) :s _ e:         %> i7:i Cns ;
-          Cns:*  Vowel:* Vowel (Vowel:) :s _ e: 		%> i2: %> %^V: ; !vuossii
+!! __@RULENAME@__
+ 0:s <=>  Cns:*  Vowel:* Vowel (Vowel:) :s _ :i  %>  [:i - i3:] (i2:i) ;
+          Cns:*  Vowel:* Vowel (Vowel:) :s _ :i  %> i2:i %> %^V:i  ; ! klas0i>i2>in:klass0>i>in vuossiin
+          Cns:*  Vowel:* Vowel (Vowel:) :s _ e:  %> i2: %> %^V: ; !vuossiin
+                        
+
 
 
 !!€ aik0a^AO>i2
@@ -98,20 +117,20 @@ Rules
 !!€ poi6k0a>i2>^V>
 !!€ poikk0>i>i>
 
-!!€ vuot0e^E2I>i2>^V>n
-!!€ vuoss00>i>i>n
+!!€ vuot0e>i2>^V>n
+!!€ vuoss0>i>i>n
 
-!!$ vuot0e^E2I>i2>^V>n
-!!$ vuott00>i>i>n
+!!$ vuot0e>i2>^V>n
+!!$ vuott0>i>i>n
 
 !!€ housu>i2>le
 !!€ housu>i>le
 
-!!€ hirt0e^E2I>i2>^V
-!!€ hirss00>i>i
+!!€ hirt0e>i2>^V
+!!€ hirss0>i>i
 
-!!$ hirt0e^E2I>i2>^V
-!!$ hirtt00>i>i
+!!$ hirt0e>i2>^V
+!!$ hirtt0>i>i
 
 "Gemination VVa"
 !! __@RULENAME@__ 
@@ -494,15 +513,16 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 "ti:si"
 !! __@RULENAME@__                                                                                                     
 t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
-  Vowel          _ (:s)  e:  %^E2I: ; ! vesi  vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä               
+  Vowel ([n|l|r]) _ (:s)  e:  %^E2I: ; ! vesi  vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä               
   Vowel          _ (:s)  e:         %> i2: %> [Cns|%^V:] ; ! [vuosiksi, etc. | vuossii, vuossiin]
-  Vowel [n|l|r]  _      (e:) %^E2I: %> \:i    ; ! kansi                                                               
+! Vowel [n|l|r]  _      (e:) %^E2I: %> \:i    ; ! kansi
+!  Vowel [n|l|r]  _      (e:) %^E2I: ; ! kansi
   Vowel [n|l|r]  _  :s  (e:) %> :i    ; ! hirssii !  Vowel [n|l|r]  _  :s  (e:) %^E2I: %> :i    ; ! hirssii           
   Vowel [n|l|r]  _      Vowel:0 (%^WG:0) (%^E2I:)  %> i2:  ;
   Vowel [n|l|r]  _ (:s) Vowel:0 (%^AO:0) (%^WG:0)  %> i3:  ;
   Vowel  Vowel   _ (:s) Vowel:0 (%^AO:0)           %> i3:  ;
   Vowel     n    _      Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
- Vowel ([n|l|r]) _      Vowel:0 %^HMETA:0 %> h :i          ; ! vuoshiin
+ Vowel ([n|l|r]) _      Vowel:0 %^HMETA:0 %> h :i          ; 
 
 !!€ vete^E2I
 !!€ vesi0
