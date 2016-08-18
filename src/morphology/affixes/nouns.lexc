@@ -307,10 +307,10 @@ LEXICON x_31m
 :me^WG weak_v_stem ;
 +Sg:me^WG sgpl_cases_even ;     ! these two lexica for cases with
 +Pl:m^WG%>i2 sgpl_cases_even ;  ! the same affix in sg and pl
-+Pl:mmi%>i2        shortestgenpl ;
++Pl:me%>i2        shortgenpl ;
 +Sg+Ill:m^HMETA%>hee n_PxK ;
 +Pl+Ill:m^EDEL%>hii n_PxK ;
-+Pl:mmi%>i2 shortestparpl ;
++Pl:me%>i2 shortparpl ;
 +Pl+Com:m%>i2%>ne K ;
 
 LEXICON n_31si        !!= @CODE@ vuosi, käsi
