@@ -90,7 +90,7 @@ Rules
 "Gemination V-kkpp-i"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be shortened, sannoi
-          Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V  ; ! pena > penniin hupi>huppiin, laki>lakkiin
+          Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena > penniin hupi>huppiin, laki>lakkiin
           Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
          where Cx in ( k p  ) ; ! v excluded 
 
@@ -135,7 +135,7 @@ Rules
 !!$ hirt0e>i2>^V
 !!$ hirtt0>i>i
 
-! add jokkiin test
+
 
 
 "Gemination VVa"
