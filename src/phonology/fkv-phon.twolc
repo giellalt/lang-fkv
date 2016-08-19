@@ -102,12 +102,15 @@ Rules
          Cns:* Vowel:* Vowel (Vowel:) t _ e:            %> i7:i Cns ; ! contr verbs
 ! split from V-kp_i in order to easier negate words like vuottiin. 
 
+
+
 "Gemination Vssi"
 !! __@RULENAME@__
- 0:s <=>  Cns:*  Vowel:* Vowel (Vowel:) :s _ :i  %>  [:i - i3:] (i2:i) ;
-          Cns:*  Vowel:* Vowel (Vowel:) :s _ :i  %> i2:i %> %^V:i  ; ! klas0i>i2>in:klass0>i>in vuossiin
-          Cns:*  Vowel:* Vowel (Vowel:) :s _ e:  %> i2: %> %^V: ; !vuossiin
-                        
+ 0:s <=>  Cns:*  Vowel:* Vowel (Vowel:) :s _     :i    %> [:i - i3:] (i2:i) ;  ! to be fixed
+          Cns:*  Vowel:* Vowel (Vowel:) :s _ [e:|i:]   %> i2:i %> %^V:i ;  ! klas0i>i2>in:klass0>i>in ja vuossiin
+          Cns:*  Vowel     [n|l|r]     t:s _ [e:|i:]   %> i2:i %> %^V: ;  ! hirssii(n). Ihmeellisestivain t:s toimii, :s antaa paljon virheitä kaikkialla. 22 lisää.
+          Cns:*  Vowel     [n|l|r]     t:s _     :i    %> [:i - i3:] (i2:i) ;  ! to be fixed. Seems to not do anything?
+
 
 
 
