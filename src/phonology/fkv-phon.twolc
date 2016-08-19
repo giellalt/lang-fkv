@@ -82,20 +82,20 @@ Rules
 ! 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ;
 !          Cns:*  Vowel:* Vowel (Vowel:) Cx _ Vowel:         %> i2:i %> %^V:i  ;
 !          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e:         %> i7:i Cns ;
-!          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e: %^E2I:0 %> i2: %> %^V:i vuossii
+!          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e: %^E2I:0 %> i2: %> %^V:i ; vuossii
 !         where Cx in ( k p t  ) ; ! v excluded
 
 ! -- eller --
 
-"Gemination V-kp-i"
+"Gemination V-kkpp-i"
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be shortened, sannoi
-          Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena > penniin hupi>huppiin, laki>lakkiin
+          Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V  ; ! pena > penniin hupi>huppiin, laki>lakkiin
           Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
          where Cx in ( k p  ) ; ! v excluded 
 
 
-"Gemination Vti"
+"Gemination Vtti"
 !! __@RULENAME@__ 
  0:t <=> Cns:* Vowel:* Vowel (Vowel:) t _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
          Cns:* Vowel:* Vowel (Vowel:) t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin EI sais antaa vuottiin.
@@ -134,6 +134,9 @@ Rules
 
 !!$ hirt0e>i2>^V
 !!$ hirtt0>i>i
+
+! add jokkiin test
+
 
 "Gemination VVa"
 !! __@RULENAME@__ 
