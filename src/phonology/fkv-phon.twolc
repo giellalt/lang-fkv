@@ -91,17 +91,16 @@ Rules
 !! __@RULENAME@__ 
  0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be shortened, sannoi
           Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena > penniin hupi>huppiin, laki>lakkiin
-!          Cns   Vowel                  Cx _ e:               %> i2:    i %> n ;
+          Cns   Vowel                  Cx _ e:               %> i2:    i [ %>  n | .#.]; !jokkii jokkiin. Miksi tämä toimii eikä rivi 93?
           Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
          where Cx in ( k p  ) ; ! v excluded 
 
-! Suffiksgrensa e feil, enten på slutten av rad 93, eller itesten (testan? Koffer dobbelt opp. Skriveleif?) for jokkii. Rad 94. Fordi rad 94 funka Da ä kjörte den ukommentert,
 
 !!€ jok0e>i2i>n
 !!€ jokk0>ii>n
 
-!!€ jok0e>i2i>n
-!!€ jokk0>ii>n
+!!€ jok0e>i2i
+!!€ jokk0>ii
 
 !!€ aik0a^AO>i2
 !!€ aikko0>i
@@ -157,7 +156,7 @@ Rules
 
 "Gemination Vi"
 !! __@RULENAME@__ 
-0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (%^E2I:0) %> :i %> :i ;
+0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (%^E2I:0) %> :i %> :i ; ! Skal den siste suffix-grensa være der?
        where Cx in ( h j l m n r v ) ;
 
 !!€ kiv0e>i2>^V
@@ -166,8 +165,9 @@ Rules
 !!€ sop0i>^V
 !!€ soppi>i
 
-!!€ jok0e^E2I>i2>^V
-!!€ jokk00>i>i
+!    jok0e^E2I>i2>^V
+!    jokk00>i>i
+! Koffer va denna her? Legacy code..
 
 
 "Gemination Va"
@@ -752,7 +752,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !!€ aukais0>i
 
 !!€ vuote^HMETA>hii
-!!€ vuot00>hii
+!!€ vuos00>hii
 
 !! !!i rules
 !  =========
@@ -1019,5 +1019,6 @@ Vx:e <=> _  %^AE:0 (%^WG:0) %> t (t) ;
 
 ! oppettaajhiin 
 
-!!€ a
-!!€ b
+!  € a
+!  € b
+! Ka gjor den her testen?
