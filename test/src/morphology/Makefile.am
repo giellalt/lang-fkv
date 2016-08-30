@@ -10,7 +10,6 @@ TESTS=
 
 # Add your shell scripts for running tests requiring only a generator:
 GENERATION_TESTS_IN=generate-adjective-lemmas.sh.in  \
-                    generate-noun-lemmas.sh.in       \
                     generate-propernoun-lemmas.sh.in \
                     generate-verb-lemmas.sh.in
 
