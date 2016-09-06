@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+# Then: linnrun analyser, then correct.
 
 
   Noun - pieni - ei tsekattu : # Noun 'small' - ei tsekattu
@@ -40,7 +40,7 @@ Tests:
      pieni+A+Pl+All: pienile
      pieni+A+Pl+Ess: pieninä
      pieni+A+Pl+Com: pienine
-     
+
      pieni+A+Sg+Comp+Nom: pienempi
      pieni+A+Sg+Comp+Gen: pienemän
      pieni+A+Sg+Comp+Par: pienemppää
@@ -55,7 +55,7 @@ Tests:
      pieni+A+Sg+Comp+Ess: pienempännä
      pieni+A+Pl+Comp+Nom: pienemät
      pieni+A+Pl+Comp+Gen: pienemitten
-     pieni+A+Pl+Comp+Par: pienemppii
+     pieni+A+Pl+Comp+Par: [pienemppii, pienemppiitä, pienempiä]
      pieni+A+Pl+Comp+Tra: pienemiksi
      pieni+A+Pl+Comp+Abe: pienemittä
      pieni+A+Pl+Comp+Ine: pienemissä
@@ -66,7 +66,7 @@ Tests:
      pieni+A+Pl+Comp+All: pienemille
      pieni+A+Pl+Comp+Ess: pienempinnä
      pieni+A+Pl+Comp+Com: pienempine
-     
+
      pieni+A+Sg+Superl+Nom: pieniin
      pieni+A+Sg+Superl+Gen: pienimän
      pieni+A+Sg+Superl+Par: pieniintä
@@ -80,8 +80,8 @@ Tests:
      pieni+A+Sg+Superl+All: pienimälle
      pieni+A+Sg+Superl+Ess: pienimpännä
      pieni+A+Pl+Superl+Nom: pienimät
-     pieni+A+Pl+Superl+Gen: pienimitten
-     pieni+A+Pl+Superl+Par: pienimppii
+     pieni+A+Pl+Superl+Gen: pienimiitten
+     pieni+A+Pl+Superl+Par: [pienimppii, pienimpiä, pienimppiitä]
      pieni+A+Pl+Superl+Tra: pienimiksi
      pieni+A+Pl+Superl+Abe: pienimittä
      pieni+A+Pl+Superl+Ine: pienimissä
