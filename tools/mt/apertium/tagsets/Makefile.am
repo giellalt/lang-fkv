@@ -3,7 +3,7 @@
 ## Licence: GPL v3+
 
 # List relabel source files here:
-TAGSET_SRCS=
+TAGSET_SRCS=modify-tags.regex
 
 # List reorder regex source files here:
 REGEX_SRCS=
