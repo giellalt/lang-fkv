@@ -11,38 +11,38 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun -  - ei tsekattu : # Noun '' - ei tsekattu
-  
-     ruottii+A+Sg+Nom: ruottiisti
-     ruottii+A+Sg+Gen: ruottiistin
-     ruottii+A+Sg+Par: ruottiistii
-     ruottii+A+Sg+Tra: ruottiistiksi
-     ruottii+A+Sg+Abe: ruottiistittä
-     ruottii+A+Sg+Ine: ruottiistissä
-     ruottii+A+Sg+Ela: ruottiististä
-     ruottii+A+Sg+Ill: ruottiisthiin
-     ruottii+A+Sg+Ade: ruottiistilä
-     ruottii+A+Sg+Abl: ruottiistiltä
-     ruottii+A+Sg+All: ruottiistile
-     ruottii+A+Sg+Ess: ruottiistinä
-     
-     ruottii+A+Pl+Nom: ruottiistit
-     ruottii+A+Pl+Gen: ruottiistiin
-     ruottii+A+Pl+Par: ruottiistii
-     ruottii+A+Pl+Tra: ruottiistiiksi
-     ruottii+A+Pl+Abe: ruottiistiittä
-     ruottii+A+Pl+Ine: ruottiistiissä
-     ruottii+A+Pl+Ela: ruottiistiistä
-     ruottii+A+Pl+Ill: ruottiisthiin
-     ruottii+A+Pl+Ade: ruottiistiilä
-     ruottii+A+Pl+Abl: ruottiistiiltä
-     ruottii+A+Pl+All: ruottiistiile
-     ruottii+A+Pl+Com: ruottiistiine
-     ruottii+A+Pl+Ess: ruottiistiinä
-     
+
+     ruottii+A+Sg+Nom: ruottii
+     ruottii+A+Sg+Gen: ruottiin
+     ruottii+A+Sg+Par: ruottiita
+     ruottii+A+Sg+Tra: ruottiiksi
+     ruottii+A+Sg+Abe: ruottiitta
+     ruottii+A+Sg+Ine: ruottiissa
+     ruottii+A+Sg+Ela: ruottiista
+     ruottii+A+Sg+Ill: ruottiisseen
+     ruottii+A+Sg+Ade: ruottiila
+     ruottii+A+Sg+Abl: ruottiilta
+     ruottii+A+Sg+All: ruottiile
+     ruottii+A+Sg+Ess: ruottiinä
+
+     ruottii+A+Pl+Nom: ruottiit
+     ruottii+A+Pl+Gen: ruottiitten
+     ruottii+A+Pl+Par: ruottiita
+     ruottii+A+Pl+Tra: ruottiiksi
+     ruottii+A+Pl+Abe: ruottiistiitta
+     ruottii+A+Pl+Ine: ruottiiissa
+     ruottii+A+Pl+Ela: ruottiista
+     ruottii+A+Pl+Ill: ruottiissiin
+     ruottii+A+Pl+Ade: ruottiila
+     ruottii+A+Pl+Abl: ruottiilta
+     ruottii+A+Pl+All: ruottiile
+     ruottii+A+Pl+Com: ruottiine
+     ruottii+A+Pl+Ess: ruottiina
+
 #    assii+N+Sg+Nom: assii
 #    assii+N+Sg+Gen: assiin
 #    assii+N+Sg+Par: assiita
@@ -55,7 +55,7 @@ Tests:
 #    assii+N+Sg+Abl: assiilta
 #    assii+N+Sg+All: assiile
 #    assii+N+Sg+Ess: assiina
-#    
+#
 #    assii+N+Pl+Nom: assiit
 #    assii+N+Pl+Gen: assiitten
 #    assii+N+Pl+Par: assiita
@@ -69,35 +69,35 @@ Tests:
 #    assii+N+Pl+All: assiile
 #    assii+N+Pl+Ess: assiina
 #    assii+N+Pl+Com: assiine
-     
-     
-     ruottii+A+Sg+Comp+Nom: ruottiitimpi
-     ruottii+A+Sg+Comp+Gen: ruottiitimän
-     ruottii+A+Sg+Comp+Par: ruottiitimppää
-     ruottii+A+Sg+Comp+Tra: ruottiitimäksi
-     ruottii+A+Sg+Comp+Abe: ruottiitimättä
+
+
+     ruottii+A+Sg+Comp+Nom: ruottiimpi
+     ruottii+A+Sg+Comp+Gen: ruottiimän
+     ruottii+A+Sg+Comp+Par: ruottiimppää
+     ruottii+A+Sg+Comp+Tra: ruottiimäksi
+     ruottii+A+Sg+Comp+Abe: ruottiimättä
      ruottii+A+Sg+Comp+Ine: ruottiitimässä
-     ruottii+A+Sg+Comp+Ela: ruottiitimästä
-     ruottii+A+Sg+Comp+Ill: ruottiitimphään
-     ruottii+A+Sg+Comp+Ade: ruottiitimällä
-     ruottii+A+Sg+Comp+Abl: ruottiitimältä
-     ruottii+A+Sg+Comp+All: ruottiitimälle
-     ruottii+A+Sg+Comp+Ess: ruottiitimpännä
-     
-     ruottii+A+Pl+Comp+Nom: ruottiitimät
-     ruottii+A+Pl+Comp+Gen: ruottiitimiitten
-     ruottii+A+Pl+Comp+Par: ruottiitimppiitä
-     ruottii+A+Pl+Comp+Tra: ruottiitimiksi
-     ruottii+A+Pl+Comp+Abe: ruottiitimittä
-     ruottii+A+Pl+Comp+Ine: ruottiitimissä
-     ruottii+A+Pl+Comp+Ela: ruottiitimistä
-     ruottii+A+Pl+Comp+Ill: ruottiitimphiin
-     ruottii+A+Pl+Comp+Ade: ruottiitimillä
-     ruottii+A+Pl+Comp+Abl: ruottiitimiltä
-     ruottii+A+Pl+Comp+All: ruottiitimille
-     ruottii+A+Pl+Comp+Ess: ruottiitimpinnä
-     ruottii+A+Pl+Comp+Com: ruottiitimpine
-     
+     ruottii+A+Sg+Comp+Ela: ruottiimästä
+     ruottii+A+Sg+Comp+Ill: ruottiimphään
+     ruottii+A+Sg+Comp+Ade: ruottiimällä
+     ruottii+A+Sg+Comp+Abl: ruottiimältä
+     ruottii+A+Sg+Comp+All: ruottiimälle
+     ruottii+A+Sg+Comp+Ess: ruottiimpännä
+
+     ruottii+A+Pl+Comp+Nom: ruottiimät
+     ruottii+A+Pl+Comp+Gen: ruottiimiitten
+     ruottii+A+Pl+Comp+Par: ruottiimppiitä
+     ruottii+A+Pl+Comp+Tra: ruottiimiksi
+     ruottii+A+Pl+Comp+Abe: ruottiimittä
+     ruottii+A+Pl+Comp+Ine: ruottiimissä
+     ruottii+A+Pl+Comp+Ela: ruottiimistä
+     ruottii+A+Pl+Comp+Ill: ruottiimphiin
+     ruottii+A+Pl+Comp+Ade: ruottiimillä
+     ruottii+A+Pl+Comp+Abl: ruottiimiltä
+     ruottii+A+Pl+Comp+All: ruottiimille
+     ruottii+A+Pl+Comp+Ess: ruottiimpinnä
+     ruottii+A+Pl+Comp+Com: ruottiimpine
+
      ruottii+A+Sg+Superl+Nom: ruottiitiin
      ruottii+A+Sg+Superl+Gen: ruottiitiimän
      ruottii+A+Sg+Superl+Par: ruottiitiintä
@@ -110,7 +110,7 @@ Tests:
      ruottii+A+Sg+Superl+Abl: ruottiitiimältä
      ruottii+A+Sg+Superl+All: ruottiitiimälle
      ruottii+A+Sg+Superl+Ess: ruottiitiimpännä
-     
+
      ruottii+A+Pl+Superl+Nom: ruottiitiimät
      ruottii+A+Pl+Superl+Gen: ruottiitiimitten
      ruottii+A+Pl+Superl+Par: ruottiistiimppiitä
@@ -124,4 +124,3 @@ Tests:
      ruottii+A+Pl+Superl+All: ruottiitiimille
      ruottii+A+Pl+Superl+Ess: ruottiitiimpinnä
      ruottii+A+Pl+Superl+Com: ruottiitiimpine
-
