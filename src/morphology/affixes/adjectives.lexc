@@ -7,11 +7,11 @@
 !! redirected to a common x_ lexicon in the noun file.
 
 LEXICON a_x  !!= * @CODE@ contains unclassified adjectives.
-+A+Sg+Nom: K ; 
++A+Sg+Nom: K ;
 
 
 LEXICON ax  !!= * @CODE@ contains unclassified adjectives.
-+A: K ; 
++A: K ;
 
 LEXICON HYVA
 +A:hyvä x_21 ; ! hyvvää, hyvät
@@ -35,7 +35,7 @@ superl_m_odd ;
 LEXICON a_22	!!= * @CODE@  liberaali
 +A: x_22 ;
 comp_m_odd  ;
-:i superl_m_odd ; 
+:i superl_m_odd ;
 
 LEXICON a_22odd	!!= * @CODE@  simppeli
 +A: x_22odd ;
@@ -54,8 +54,8 @@ comp_m_odd  ;
 
 LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31 ;
-comp_m_odd  ;
-:^E2I superl_m_odd ;
+ comp_m_odd  ;
+ superl_m_odd ;
 +A+Sg+Superl:^E2I superl_in ;
 
 LEXICON a_31si	!!= * @CODE@ uusi
@@ -86,7 +86,7 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 +A:m^A weak_v_stem_pl ;  ! Nom pl
 !+A:m^A 2TAVU_V_ill_sg ;
 +A+Sg+Ill:mh^A^A n_PxK ;
-+A+Sg:m^A sgpl_cases_odd ;   
++A+Sg:m^A sgpl_cases_odd ;
 +A:m^A weak_v_stem_pl ;
 +A:m^A weak_v_stem ;
 +A+Pl:m%>i2 sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
@@ -96,7 +96,7 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 +A+Pl+Com:m%>i2ne K ;
 
 :m^A comp_mm ;
-:mi superl_mm ; 
+:mi superl_mm ;
 +A+Sg+Superl:m superl_in ;
 
 LEXICON a_33as !!= * @CODE@ rakas
@@ -125,7 +125,7 @@ LEXICON a_33ys !!= * @CODE@ kärys
 :hyi superl_m_odd ;
 ! comp, superl, puuttuvat
 
- 
+
 LEXICON a_33t !!= * @CODE@ tuoret
 +A: x_33t ;
 :hee comp_m_odd  ;
@@ -134,7 +134,7 @@ LEXICON a_33t !!= * @CODE@ tuoret
 
 LEXICON a_33u !!= * @CODE@ vaipunu:vaipun ! perfect participle
 +A+Sg+Nom:u K ;
-!+A+Sg+Par:u%>tt^A K ; 
+!+A+Sg+Par:u%>tt^A K ;
 !+A:hee 33_t_ts_common ;
 !+A+Sg+Ill:hee mTAVU_VV-ill ;
 !+A+Pl+Gen:hee%>i2 tt_longgenpl ;
@@ -181,7 +181,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 !+A:%>tt^Omi%>i2 shortestgenpl ; ! naisien
 +A:%>tt^Omi%> long_par_pl;
 !+A:%>tt^Omh%>i2 shorterillpl ;
-+A:%>tt^Om^A a_loputon ;  
++A:%>tt^Om^A a_loputon ;
 +A:%>tt^Om a_loputonpl ;
 +A+Pl+Com:%>tt^Om%>i2ne K ;
 
@@ -198,7 +198,7 @@ LEXICON a_43odd !!= * @CODE@ onneton
 LEXICON MATONodd !!= @CODE@ ! käymättömäle le la na
 +A: x_43odd ;
 
-LEXICON x_43odd !!= * @CODE@ onneton 
+LEXICON x_43odd !!= * @CODE@ onneton
 : a_ton ;
 +Sg+Ill:%>tt^Omh^A^A n_PxK ;
 :%>tt^Om^A sgpl_cases_common ;
@@ -217,7 +217,7 @@ LEXICON x_43odd !!= * @CODE@ onneton
 
 !! Most cases are directed to affixes/nouns.lexc
 
-LEXICON a_sgpl_cases_common  !!= * @CODE@ 
+LEXICON a_sgpl_cases_common  !!= * @CODE@
  +Abl:%>lt^A PxxK ;
  +Ine:%>ss^A PxxK ;
  +Ela:%>st^A PxxK ;
@@ -229,7 +229,7 @@ LEXICON a_sgpl_cases_common  !!= * @CODE@
 !! !!Lexica for the non-uniform cases
 !    ---------------------------------
 
-  
+
 LEXICON shortest-illativ_sg  !jos h ei siirry
  +Sg+Ill:%>^V n_PxK ;
 
@@ -238,7 +238,7 @@ LEXICON a_shortestgenpl !! * @CODE@ zero, because ii > i
 
 
 LEXICON a_shorterillpl
- +Ill:%>i2 n_PxK ;		
+ +Ill:%>i2 n_PxK ;
 
 
 LEXICON a_loputon
@@ -246,7 +246,7 @@ LEXICON a_loputon
  weak_v_stem ;
  +Sg: sgpl_cases_odd ;      ! these two lexica for cases with
 
-LEXICON a_loputonpl 
+LEXICON a_loputonpl
  +Pl:%>i2 sgpl_cases_odd ;  ! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 shortgenpl ;
  :ess_odd_pl ;
@@ -260,7 +260,7 @@ LEXICON a_loputonevenpl
 +Pl:%>i2 sgpl_cases_even ;  ! the same affix in sg and pl -- tsekkaa long
 !+Pl:%>i2 shortgenpl ;
  :ess_even_pl ;
- 
+
 LEXICON a_ton
  +Sg+Nom:%>t^On K ;
  +Sg+Par:%>t^Ont^A K ;
@@ -270,28 +270,28 @@ LEXICON a_ton
 LEXICON comp_m_odd  ! odd here meaning the resulting stem: 2syll + comp = 3syll
 +A+Sg+Comp:%>m^A sgpl_cases_odd ;  ! ade, all, ine, ela, abl, tra
 +A+Sg+Comp+Ess:%>mp^A%>nn^A K ;
-+A+Pl+Comp:%>m%>i2 sgpl_cases_odd ; 
++A+Pl+Comp:%>m%>i2 sgpl_cases_odd ;
 +A+Pl+Comp+Ess:%>mp%>i2%>nn^A    K ;
 comp_m_common ;
 
 LEXICON comp_m_even  ! split for syllabicity sinnikkhäämälä
 +A+Sg+Comp:%>m^A sgpl_cases_even ;  ! ade, all, ine, ela, abl, tra
 +A+Sg+Comp+Ess:%>mp^A%>n^A K ;
-+A+Pl+Comp:%>m%>i2 sgpl_cases_even ; 
++A+Pl+Comp:%>m%>i2 sgpl_cases_even ;
 +A+Pl+Comp+Ess:%>mp%>i2%>n^A    K ;
 comp_m_common ;
 
 LEXICON comp_m_common
 +A+Sg+Comp+Nom:%>mpi K ;
 +A+Sg+Comp+Gen:%>m^A%>n K ;
-!+A+Comp:%>m^A weak_v_stem ; 
+!+A+Comp:%>m^A weak_v_stem ;
 +A+Sg+Comp+Ill:%>mp%>h^A^An K ;
 +A+Sg+Comp+Par:%>mpp^A%>^A K  ; ! liberaali
 +A+Pl+Comp+Nom:%>m^A%>t K ;
 +A+Pl+Comp+Gen:%>m%>i2%>itten K ;
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
-+A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ; 
-+A+Pl+Comp+Par:%>mpp%>i2%>i K  ; 
++A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
++A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Comp+Par:%>mp%>i2%>^A K  ; ! sinnikkhäämpiä
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
@@ -299,17 +299,17 @@ LEXICON comp_m_common
 LEXICON comp_onneton
 +A+Sg+Comp+Nom:%>mpi K ;
 +A+Sg+Comp+Gen:%>m^A%>n K ;
-!+A+Comp:%>m^A weak_v_stem ; 
+!+A+Comp:%>m^A weak_v_stem ;
 +A+Sg+Comp+Ill:%>mp%>h^A^An K ;
 +A+Sg+Comp+Par:%>mp^A%>^A K  ;
 +A+Sg+Comp:%>m^A sgpl_cases_odd ;
-+A+Pl+Comp:%>m%>i2 sgpl_cases_odd ; 
++A+Pl+Comp:%>m%>i2 sgpl_cases_odd ;
 +A+Sg+Comp+Ess:%>mp^A%>nn^A K ;
 +A+Pl+Comp+Nom:%>m^A%>t K ;
 !+A+Pl+Comp+Gen:%>m%>i2%>tten K ;
 +A+Pl+Comp+Gen:%>mpp%>i2%>in K ;
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
-+A+Pl+Comp+Par:%>mpp%>i2%>i K  ; 
++A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Comp+Ess:%>mp%>i2%>nn^A    K ;
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
@@ -317,9 +317,9 @@ LEXICON comp_mm
 
 +A+Sg+Comp+Nom:%>mpi K ;
 +A+Sg+Comp+Gen:%>mm^A%>n K ;
-!+A+Comp:%>m^A weak_v_stem ; 
+!+A+Comp:%>m^A weak_v_stem ;
 +A+Sg+Comp+Ill:%>mp%>h^A^An K ;
-+A+Sg+Comp+Par:%>mp^A%>^A K  ; 
++A+Sg+Comp+Par:%>mp^A%>^A K  ;
 +A+Sg+Comp+Ess:%>mp^A%>n^A K ;
 +A+Sg+Comp:%>mm^A sgpl_cases_even ;
 +A+Pl+Comp:%>mm%>i2 sgpl_cases_even ;
@@ -327,8 +327,8 @@ LEXICON comp_mm
 !+A+Pl+Comp+Gen:%>mpp%>i2in K ;
 +A+Pl+Comp+Gen:%>mm%>ii2tten K ;
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
-+A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ; 
-+A+Pl+Comp+Par:%>mpp%>i2%>i K  ; 
++A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
++A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Comp+Ess:%>mp%>i2%>nn^A    K ;
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
@@ -348,19 +348,19 @@ superl_m_common ;
 
 
 LEXICON superl_m_common
-+A+Sg+Superl+Nom:^AO%>n K ;
++A+Sg+Superl+Nom:%>n K ;
 !+A+Sg+Superl: superl_in ;
 !+A+Superl:%>m^A weak_v_stem ;
 +A+Sg+Superl+Gen:%>m^A%>n K ;
 +A+Pl+Superl+Nom:%>m^A%>t K ;
 +A+Sg+Superl+Ill:%>mp%>h^A^An K ;
-+A+Sg+Superl+Par:%>n%>t^A K  ; 
++A+Sg+Superl+Par:%>n%>t^A K  ;
 +A+Sg+Superl+Ess:%>mp^A%>n^A    K ; ! liberaaliimpana
 +A+Pl+Superl+Gen:%>m%>i2%>itten K ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
-+A+Pl+Superl+Par:%>mpp%>i2%>i K  ; 
-+A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ; 
-+A+Pl+Superl+Par:%>mp%>i2%>^A K  ; 
++A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
++A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
++A+Pl+Superl+Par:%>mp%>i2%>^A K  ;
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
 
 
@@ -371,13 +371,13 @@ LEXICON superl_onneton
 +A+Sg+Superl+Gen:%>m^A%>n K ;
 +A+Pl+Superl+Nom:%>m^A%>t K ;
 +A+Sg+Superl+Ill:%>mp%>h^A^An K ;
-!+A+Sg+Superl+Par:%>in%>t^A K  ; 
+!+A+Sg+Superl+Par:%>in%>t^A K  ;
 +A+Sg+Superl+Ess:%>mp^A%>nn^A    K ;
 +A+Sg+Superl:%>m^A sgpl_cases_odd ;
 +A+Pl+Superl:%>m%>i2 sgpl_cases_odd ;
 +A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
-+A+Pl+Superl+Par:%>mpp%>i2%>i K  ; 
++A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Superl+Ess:%>mp%>i2%>nn^A    K ;
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
 
@@ -395,7 +395,7 @@ LEXICON superl_mm
 !+A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
 +A+Pl+Superl+Gen:%>m%>ii2%>tten K ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
-+A+Pl+Superl+Par:%>mpp%>i2%>i K  ; 
++A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Superl+Ess:%>mp%>i2%>n^A    K ;
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
 
