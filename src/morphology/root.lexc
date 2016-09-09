@@ -22,6 +22,8 @@ Multichar_Symbols
 +Pr      !!≈ * __@CODE@__ = Preposition
 +Pron    !!≈ * __@CODE@__ = Pronomen
 +V       !!≈ * __@CODE@__ = Verb
++Neg     !!≈ * __@CODE@__ = Hmm, Question?? Interr? Check this.
++ConNeg  !!≈ * __@CODE@__ = Hmm, Question?? Interr? Check this.
 
 +Prop     !!= * __@CODE@__ = Propernoun
 
@@ -76,6 +78,7 @@ Multichar_Symbols
 !! !Finite verbs
 +Pass     !!≈ * __@CODE@__ = 
 +Ind      !!≈ * __@CODE@__ = 
++Act
 +Prs      !!≈ * __@CODE@__ = 
 +Prt      !!≈ * __@CODE@__ = 
 +Imprt    !!≈ * __@CODE@__ = 
@@ -84,6 +87,7 @@ Multichar_Symbols
 
 !! !Infinite verbs
 +Inf     !!≈ * __@CODE@__ = 
++Lat	 !!≈ * __@CODE@__ = lative (the infinitive, used in Apertium)
 +PrsPrc  !!≈ * __@CODE@__ = 
 +PrfPrc  !!≈ * __@CODE@__ = 
 +Inf3    !!≈ * __@CODE@__ = Infinite verbs

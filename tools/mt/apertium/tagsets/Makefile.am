@@ -3,10 +3,10 @@
 ## Licence: GPL v3+
 
 # List relabel source files here:
-TAGSET_SRCS=modify-tags.regex
+TAGSET_SRCS=
 
 # List reorder regex source files here:
-REGEX_SRCS=
+REGEX_SRCS=modify-tags.regex
 
 clean-local:
 	rm -f *.hfst
