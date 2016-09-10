@@ -19,6 +19,8 @@ Take nothing at face value!
  * __+Pr__ = Preposition
  * __+Pron__ = Pronomen
  * __+V__ = Verb
+ * __+Neg__ = Hmm, Question?? Interr? Check this.
+ * __+ConNeg__ = Hmm, Question?? Interr? Check this.
 
  * __+Prop     __ = Propernoun
 
@@ -37,6 +39,15 @@ Take nothing at face value!
 !Number
  * __+Sg__ = Singular
  * __+Pl__ = Plural
+
+Number-person
+
+ * __+Sg1__ = Singular 1
+ * __+Sg2__ = Singular 2
+ * __+Sg3__ = Singular 3
+ * __+Pl1__ = Plural 1
+ * __+Pl2__ = Plural 2
+ * __+Pl3__ = Plural 3
 
 !Case
 
@@ -72,6 +83,7 @@ Take nothing at face value!
 
 !Infinite verbs
  * __+Inf__ = 
+ * __+Lat	__ = lative (the infinitive, used in Apertium)
  * __+PrsPrc__ = 
  * __+PrfPrc__ = 
  * __+Inf3__ = Infinite verbs
@@ -113,6 +125,12 @@ Take nothing at face value!
  * __+Sem/Org__ = Names of organisations
  * __+Sem/Plc__ = Place names
  * __+Sem/Sur__ = Surnames
+
+
+!!Dialect tags
+ * __+Dial/-V__ = Not Varanger
+ * __+Dial/-P__ = Not Porsanger
+ * __+Dial/-J__ = Not Jokivarret
 
 
  !!Phonological symbols
