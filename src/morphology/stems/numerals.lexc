@@ -34,9 +34,10 @@ kolme+Num+Card:kolm         NUM_KOLME ;
 neljä+Num+Card:nelj         NUM_NELJÄ ;
 viisi+Num+Card:vii          NUM_VIISI ;
 kuusi+Num+Card:kuu          NUM_KUUSI ;
-seitsemän+Num+Card:seitsem  NUM_YHDEKSÄN ;
-kahdeksan+Num+Card:kahdeks  NUM_KAHDEKSAN ;
-yhdeksän+Num+Card:yhdeks    NUM_YHDEKSÄN ;
+seittemen+Num+Card+Err/Orth:seitsem  NUM_YHDEKSÄN ;
+seittemen+Num+Card:seittem  NUM_YHDEKSÄN ;
+kahđeksan+Num+Card:kahđeks  NUM_KAHDEKSAN ;
+yhđeksän+Num+Card:yhđeks    NUM_YHDEKSÄN ;
 kymmenen+Num+Card:kymmen    NUM_KYMMENEN ;
 sata+Num+Card:sa            NUM_SATA ;
 tuhat+Num+Card:tuha         NUM_TUHAT ;
@@ -482,10 +483,10 @@ LEXICON NUM_YHDEKSÄN
 !!€ yhdeksissä: yhdeksän+Num+Card+Pl+Ine
 !!€ yhdeksinä: yhdeksän+Num+Card+Pl+Ess
 !!€ yhdeksäin: yhdeksän+Num+Card+Pl+Gen+Use/Rare
-0:än    NUM_FRONT_NOMINATIVE  ;
+0:en    NUM_FRONT_NOMINATIVE  ;
 0:ä     NUM_FRONT_PARTITIVE_Ä    ;
 0:ä     NUM_FRONT_ILLATIVE_ÄN    ;
-0:ä     NUM_FRONT_GENITIVE_IN    ;
+0:e     NUM_FRONT_GENITIVE_IN    ;
 0:ä     NUM_FRONT_SINGULARS   ;
 0       NUM_FRONT_PARTITIVE_IÄ   ;
 0       NUM_FRONT_GENITIVE_IEN   ;
