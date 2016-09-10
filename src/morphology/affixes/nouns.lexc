@@ -108,7 +108,7 @@ LEXICON x_21_oblique
      +Sg:^WG     sgpl_cases_even ;     !to sgpl_cases_even for cases with
      +Pl:^AO^WG%>i2 sgpl_cases_even ; !the same affix in sg and pl
                     2TAVU_V_ill_sg ;
-     +Pl:^AO%>i2 shortestgenpl ;  ! shortestgenpl since we have the i
+     +Pl+Use/NG:^AO%>i2 shortestgenpl ;  ! shortestgenpl since we have the i
      +Pl:^AO^WG%>i2 tt_longgenpl ;  ! longgenpl, eira 5322, korpus.
      +Pl:^AO%>i2 shortestparpl  ;  
 +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK ;
@@ -174,15 +174,11 @@ LEXICON n_22odd !!= * @CODE@  kajava
 LEXICON x_22odd !!= * @CODE@  kajava
                  nom_strong ;
                  short_par ;
-!                 nomgen_px ;
        :^WG     weak_v_stem ;
     +Sg:^WG     sgpl_cases_odd ;      
     +Pl:^WG%>i2 sgpl_cases_odd ; ! Adding  to block i:0
                  2TAVU_V_ill_sg ;
                  ess_odd    ;
-                 !ess_odd_sg ;
-                 !ess_odd_pl ;
-!+Pl+Tra:%>i2%>ksi   PxxK ; 
     +Pl:^WG%>i2i tt_longgenpl ; ! kajaviitten
       :%>i        long_par_pl ;
 +Pl+Ill:%^HMETA%>hii n_PxK ;
@@ -205,12 +201,10 @@ LEXICON x_22oddi !!= * @CODE@  meininki
     +Pl:^WG%>i2 sgpl_cases_even ; ! Adding  to block i:0
                  2TAVU_V_ill_sg ;
                  ess_odd_sg ;
-                ! ess_even_pl ;
 +Pl:i ess ;
     +Pl:^WG%>i2 tt_longgenpl ;
     +Pl:%>i2     longparpl ;
 +Pl+Ill:^HMETA%>hii n_PxK ;
-!+Pl+Com:%>i2%>ne   K;
 +Pl+Com:ine   K;
 
 !  Tarkista, onko yaml oikein:
@@ -227,8 +221,6 @@ LEXICON n_22oi        !!= * @CODE@
 LEXICON x_22oi        !!= * @CODE@  Kulkkiija
                      nom_strong ; ! sg nom
                      short_par ;
-!                     nomgen_px ;
-! +Pl:%>i2 com ;
         :^WG         weak_v_stem ;
     +Sg:^WG         sgpl_cases_odd ;  ! these two lexica for cases with
     +Pl:^AO^WG%>i2 sgpl_cases_even ; ! the same affix in sg and pl
@@ -345,7 +337,7 @@ LEXICON n_31lapsi        !!= @CODE@ lapsi la
 +N+Pl+Gen:sten K ;
 +N+Pl:ps^WG%>i2 sgpl_cases_even ;  !! the same affix in sg and pl
 +N+Pl:ps%>i2%>i        shortestgenpl ;
-+N+Pl:ps%>i2 tt_longgenpl         ;
++N+Pl+Use/NG:ps%>i2 tt_longgenpl         ;
 +N+Pl:ps%>i2%>i shortestparpl ;
 +N+Sg+Ill:ps^HMETA%>hee n_PxK ;
 +N+Pl+Ill:ps^EDEL%>hii n_PxK ;
@@ -682,7 +674,7 @@ LEXICON loput
  +Sg: sgpl_cases_odd ;      !! these two lexica for cases with
  +Pl:%>i2 sgpl_cases_odd ;  !! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 consgenpl ;
- +Pl:%>i2 tt_longgenpl ;
+ +Pl+Use/NG:%>i2 tt_longgenpl ;
  +Pl:%>i2 shortparpl ;
 
  
@@ -852,8 +844,8 @@ LEXICON shortgenpl
  +Gen:%>^V n_PxK ;
 
 LEXICON longgenpl
- d_longgenpl ;   ! oletaan, että -tten vaan
- tt_longgenpl ; 
++Use/NG:  d_longgenpl ;   ! oletaan, että -tten vaan
+          tt_longgenpl ; 
 
 LEXICON d_longgenpl
  +Gen:%>de n_PxK ;
