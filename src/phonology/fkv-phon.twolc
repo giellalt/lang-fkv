@@ -636,7 +636,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 "Vowel copying in short h-illative and short partitive sg"
 !! __@RULENAME@__
  %^V:Vx <=>     Vowel Vx: %> h _ [ n: | m: ] ;
-                :Cns  Vx  %>   _ [ .#. | #: | %> ] ;
+                :Cns  Vx  %>   _ ; ![ .#. | #: | %> ] ;
     where Vx in ( a e i o u y ä ö ) ; ! testing with y in next rule
 
 !!€ maa>h^Vn
@@ -692,8 +692,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a to o and metathesis in h forms in pl of a-stems"
 !! __@RULENAME@__
- %^V:o <=>                  (.#.) Cns:* (Vowel:) [i|e|a] (Cns:*) Cns:* a: (%^AO:) %^HMETA: %> h _  %> i2: ;
-                                                                       ! a:  %^AO:  %^HMETA: %> h _  %> i2: ;
+ %^V:o <=>           [ #: | .#. ] Cns:* (Vowel:) [i|e|a] Cns:* a: (%^AO:) %^HMETA: %> h _  %> i2: ;
+                                                             ! a:  %^AO:  %^HMETA: %> h _  %> i2: ;
 
 !            :o [Dummy:* - %^HMETA:] %>            _ [ (%>) Cns|.#.] ;
 !                    (:Cns)(:Cns) :o %>            _ ;
