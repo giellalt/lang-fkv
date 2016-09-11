@@ -103,6 +103,7 @@ Multichar_Symbols
  +Err/Orth   !!= @CODE@ only in desc, not in norm.
  +Use/-Spell   !!≈ * __@CODE@__ = Excluded in speller
  +Use/SpellNoSugg   !!≈ * __@CODE@__ = recognized but not suggested in speller
+ +Use/NG   !!= @CODE@ only accept, not generate (for MT and Oahpa use)
  +Use/Circ  !!= @CODE@ for numerals, copied from sme
 !! !Compounds
  +Cmp  !!≈ * __@CODE@__ = 
