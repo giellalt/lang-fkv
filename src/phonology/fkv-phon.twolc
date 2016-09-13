@@ -637,7 +637,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! __@RULENAME@__
  %^V:Vx <=>     Vowel Vx: %> h _ [ n: | m: ] ;
                 :Cns  Vx  %>   _ ; ![ .#. | #: | %> ] ;
-    where Vx in ( a e i o u y ä ö ) ; ! testing with y in next rule
+    where Vx in ( a e i o u y ä ö ) ;
 
 !!€ maa>h^Vn
 !!€ maa>han
@@ -645,10 +645,6 @@ j:0 <=> l _ e: %^E2I:0 ;
 !!€ heinä>ä
 !!€ syksy>^V
 !!€ syksy>y
-!!€ poi6ka^AO^HMETA%>h^V%>i2
-!!€ poik000>hi>i
-!!€ kuva^AO^HMETA%>h^V%>i2
-!!€ kuv000>hi>i
 
 
 "Vowel copying in partitive of words ending in io, ia"
@@ -675,9 +671,14 @@ j:0 <=> l _ e: %^E2I:0 ;
 "Vowel copying in long h pl forms"
 !! __@RULENAME@__
  %^V:Vy <=>  Vx: (%^AO:) %^HMETA: %> h _ %>        i2: ;
-    where Vx in ( e i i2 o u y ä ö )
-          Vy in ( e i i  o u y ä ö )
+    where Vx in ( a e i i2 o u y ä ö )
+          Vy in ( i e i i  o u y ä ö )
              matched ;
+
+!!€ poi6ka^AO^HMETA%>h^V%>i2
+!!€ poik000>hi>i
+!!€ kuva^AO^HMETA%>h^V%>i2
+!!€ kuv000>hi>i
 
 "Vowel copying of a in partitive after vowel sequences"
 !! __@RULENAME@__
