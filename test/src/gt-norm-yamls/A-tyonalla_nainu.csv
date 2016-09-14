@@ -11,89 +11,88 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun -  - ei tsekattu : # Noun '' - ei tsekattu
-  
-     nainu+A+Sg+Nom: nainiisti
-     nainu+A+Sg+Gen: nainiistin
-     nainu+A+Sg+Par: nainiistii
-     nainu+A+Sg+Tra: nainiistiksi
-     nainu+A+Sg+Abe: nainiistittä
-     nainu+A+Sg+Ine: nainiistissä
-     nainu+A+Sg+Ela: nainiististä
-     nainu+A+Sg+Ill: nainiisthiin
-     nainu+A+Sg+Ade: nainiistilä
-     nainu+A+Sg+Abl: nainiistiltä
-     nainu+A+Sg+All: nainiistile
-     nainu+A+Sg+Ess: nainiistinä
-     
-     nainu+A+Pl+Nom: nainiistit
-     nainu+A+Pl+Gen: nainiistiin
-     nainu+A+Pl+Par: nainiistii
-     nainu+A+Pl+Tra: nainiistiiksi
-     nainu+A+Pl+Abe: nainiistiittä
-     nainu+A+Pl+Ine: nainiistiissä
-     nainu+A+Pl+Ela: nainiistiistä
-     nainu+A+Pl+Ill: nainiisthiin
-     nainu+A+Pl+Ade: nainiistiilä
-     nainu+A+Pl+Abl: nainiistiiltä
-     nainu+A+Pl+All: nainiistiile
-     nainu+A+Pl+Com: nainiistiine
-     nainu+A+Pl+Ess: nainiistiinä
-     
-     nainu+A+Sg+Comp+Nom: nainiitimpi
-     nainu+A+Sg+Comp+Gen: nainiitimän
-     nainu+A+Sg+Comp+Par: nainiitimppää
-     nainu+A+Sg+Comp+Tra: nainiitimäksi
-     nainu+A+Sg+Comp+Abe: nainiitimättä
-     nainu+A+Sg+Comp+Ine: nainiitimässä
-     nainu+A+Sg+Comp+Ela: nainiitimästä
-     nainu+A+Sg+Comp+Ill: nainiitimphään
-     nainu+A+Sg+Comp+Ade: nainiitimällä
-     nainu+A+Sg+Comp+Abl: nainiitimältä
-     nainu+A+Sg+Comp+All: nainiitimälle
-     nainu+A+Sg+Comp+Ess: nainiitimpännä
-     
-     nainu+A+Pl+Comp+Nom: nainiitimät
-     nainu+A+Pl+Comp+Gen: nainiitimiitten
-     nainu+A+Pl+Comp+Par: nainiitimppiitä
-     nainu+A+Pl+Comp+Tra: nainiitimiksi
-     nainu+A+Pl+Comp+Abe: nainiitimittä
-     nainu+A+Pl+Comp+Ine: nainiitimissä
-     nainu+A+Pl+Comp+Ela: nainiitimistä
-     nainu+A+Pl+Comp+Ill: nainiitimphiin
-     nainu+A+Pl+Comp+Ade: nainiitimillä
-     nainu+A+Pl+Comp+Abl: nainiitimiltä
-     nainu+A+Pl+Comp+All: nainiitimille
-     nainu+A+Pl+Comp+Ess: nainiitimpinnä
-     nainu+A+Pl+Comp+Com: nainiitimpine
-     
-     nainu+A+Sg+Superl+Nom: nainiitiin
-     nainu+A+Sg+Superl+Gen: nainiitiimän
-     nainu+A+Sg+Superl+Par: nainiitiintä
-     nainu+A+Sg+Superl+Tra: nainiitiimäksi
-     nainu+A+Sg+Superl+Abe: nainiitiimättä
-     nainu+A+Sg+Superl+Ine: nainiitiimässä
-     nainu+A+Sg+Superl+Ela: nainiitiimästä
-     nainu+A+Sg+Superl+Ill: nainiitiimphään
-     nainu+A+Sg+Superl+Ade: nainiitiimällä
-     nainu+A+Sg+Superl+Abl: nainiitiimältä
-     nainu+A+Sg+Superl+All: nainiitiimälle
-     nainu+A+Sg+Superl+Ess: nainiitiimpännä
-     
-     nainu+A+Pl+Superl+Nom: nainiitiimät
-     nainu+A+Pl+Superl+Gen: nainiitiimitten
-     nainu+A+Pl+Superl+Par: nainiistiimppiitä
-     nainu+A+Pl+Superl+Tra: nainiitiimiksi
-     nainu+A+Pl+Superl+Abe: nainiitiimittä
-     nainu+A+Pl+Superl+Ine: nainiitiimissä
-     nainu+A+Pl+Superl+Ela: nainiitiimistä
-     nainu+A+Pl+Superl+Ill: nainiitiimphiin
-     nainu+A+Pl+Superl+Ade: nainiitiimillä
-     nainu+A+Pl+Superl+Abl: nainiitiimiltä
-     nainu+A+Pl+Superl+All: nainiitiimille
-     nainu+A+Pl+Superl+Ess: nainiitiimpinnä
-     nainu+A+Pl+Superl+Com: nainiitiimpine
 
+     nainu+A+Sg+Nom: nainu
+     nainu+A+Sg+Gen: nainheen
+     nainu+A+Sg+Par: nainutta
+     nainu+A+Sg+Tra: nainheeksi
+     nainu+A+Sg+Abe: nainheetta
+     nainu+A+Sg+Ine: nainheessa
+     nainu+A+Sg+Ela: nainheesta
+     nainu+A+Sg+Ill: nainheesseen
+     nainu+A+Sg+Ade: nainheela
+     nainu+A+Sg+Abl: nainheelta
+     nainu+A+Sg+All: nainheele
+     nainu+A+Sg+Ess: nainheena
+
+     nainu+A+Pl+Nom: nainheet
+     nainu+A+Pl+Gen: nainheitten
+     nainu+A+Pl+Par: nainheita
+     nainu+A+Pl+Tra: nainheiksi
+     nainu+A+Pl+Abe: nainheitta
+     nainu+A+Pl+Ine: nainheissa
+     nainu+A+Pl+Ela: nainheista
+     nainu+A+Pl+Ill: nainheissiin
+     nainu+A+Pl+Ade: nainheila
+     nainu+A+Pl+Abl: nainheilta
+     nainu+A+Pl+All: nainheile
+     nainu+A+Pl+Com: nainheine
+     nainu+A+Pl+Ess: nainheina
+
+     nainu+A+Sg+Comp+Nom: nainheempi
+     nainu+A+Sg+Comp+Gen: nainheeman
+     nainu+A+Sg+Comp+Par: nainheemppaa
+     nainu+A+Sg+Comp+Tra: nainheemaksi
+     nainu+A+Sg+Comp+Abe: nainheematta
+     nainu+A+Sg+Comp+Ine: nainheemassa
+     nainu+A+Sg+Comp+Ela: nainheemasta
+     nainu+A+Sg+Comp+Ill: nainheemphaan
+     nainu+A+Sg+Comp+Ade: nainheemälla
+     nainu+A+Sg+Comp+Abl: nainheemälta
+     nainu+A+Sg+Comp+All: nainheemälle
+     nainu+A+Sg+Comp+Ess: nainheempanna
+
+     nainu+A+Pl+Comp+Nom: nainheemat
+     nainu+A+Pl+Comp+Gen: nainheemiitten
+     nainu+A+Pl+Comp+Par: nainheemppiita
+     nainu+A+Pl+Comp+Tra: nainheemiksi
+     nainu+A+Pl+Comp+Abe: nainheemitta
+     nainu+A+Pl+Comp+Ine: nainheemissa
+     nainu+A+Pl+Comp+Ela: nainheemista
+     nainu+A+Pl+Comp+Ill: nainheemphiin
+     nainu+A+Pl+Comp+Ade: nainheemilla
+     nainu+A+Pl+Comp+Abl: nainheemiltä
+     nainu+A+Pl+Comp+All: nainheemille
+     nainu+A+Pl+Comp+Ess: nainheempinna
+     nainu+A+Pl+Comp+Com: nainheempine
+
+     nainu+A+Sg+Superl+Nom: nainhein
+     nainu+A+Sg+Superl+Gen: nainheiman
+     nainu+A+Sg+Superl+Par: nainheinta
+     nainu+A+Sg+Superl+Tra: nainheimaksi
+     nainu+A+Sg+Superl+Abe: nainheimatta
+     nainu+A+Sg+Superl+Ine: nainheimassa
+     nainu+A+Sg+Superl+Ela: nainiitiimasta
+     nainu+A+Sg+Superl+Ill: nainheimphaan
+     nainu+A+Sg+Superl+Ade: nainheimalla
+     nainu+A+Sg+Superl+Abl: nainheimalta
+     nainu+A+Sg+Superl+All: nainheimalle
+     nainu+A+Sg+Superl+Ess: nainheimpanna
+
+     nainu+A+Pl+Superl+Nom: nainheimat
+     nainu+A+Pl+Superl+Gen: nainheimitten
+     nainu+A+Pl+Superl+Par: nainheimppiita
+     nainu+A+Pl+Superl+Tra: nainheimiksi
+     nainu+A+Pl+Superl+Abe: nainheimittä
+     nainu+A+Pl+Superl+Ine: nainheimissä
+     nainu+A+Pl+Superl+Ela: nainheimistä
+     nainu+A+Pl+Superl+Ill: nainheimphiin
+     nainu+A+Pl+Superl+Ade: nainheimilla
+     nainu+A+Pl+Superl+Abl: nainheimilta
+     nainu+A+Pl+Superl+All: nainheimille
+     nainu+A+Pl+Superl+Ess: nainheimpinna
+     nainu+A+Pl+Superl+Com: nainheimpine
