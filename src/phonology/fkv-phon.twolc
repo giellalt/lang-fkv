@@ -89,12 +89,23 @@ Rules
 
 "Gemination V-kkpp-i"
 !! __@RULENAME@__
- 0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be shortened, sannoi
-          Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena > penniin hupi>huppiin, laki>lakkiin
+ 0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena > penniin hupi>huppiin, laki>lakkiin
           Cns   Vowel                  Cx _ e:               %> i2:    i [ %>  n | .#.]; !jokkii jokkiin. Miksi tämä toimii eikä rivi 93?
           Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
+
+          Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be shortened, sannoi
+          except
+              _ :i ;!:o (%^AO:0) %> i2: %> n ;
+
          where Cx in ( k p  ) ; ! v excluded
 
+! paivukko n_22oi ;
+! paivukko ^AO%>i2%>ne     Com
+! paivukko ^AO%>i2%>n^A    Ess
+
+! aika n_21 ;
+! aika ^AO%>i2%>ne         Com
+! aika ^AO%>i2%>n^A        Com
 
 !!€ jok0e>i2i>n
 !!€ jokk0>ii>n
