@@ -11,10 +11,10 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
-  Noun - työ - ei tsekattu : # Noun 'arbeid' - n_1 ei tsekattu
+  Noun - työ - ok : # Noun 'arbeid' - n_1 - ok
      työ+N+Sg+Nom: työ
      työ+N+Sg+Gen: työn
      työ+N+Sg+Par: työtä
