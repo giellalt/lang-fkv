@@ -93,11 +93,18 @@ Rules
           Cns   Vowel                  Cx _ e:               %> i2:    i [ %>  n | .#.]; !jokkii jokkiin. Miksi tämä toimii eikä rivi 93?
           Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
 
-          Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be shortened, sannoi
-          except
-              _ :i ;!:o (%^AO:0) %> i2: %> n ;
+          Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i); ! [ t | .#. | n .#.] ;  to be shortened (2014). sannoi & nykkiit
+!     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
+
+!          except
+!              _ :i ;!:o (%^AO:0) %> i2: %> n ;
 
          where Cx in ( k p  ) ; ! v excluded
+
+!"Negation of V-kkpp-i"
+! __@RULENAME@__
+!0:k /<=                  _  :o     (%^AO:0) %>        i2:i        %> n :e ;
+!     pai   v      u   k k   o      ^AO     %>        i2          %>     ne
 
 ! paivukko n_22oi ;
 ! paivukko ^AO%>i2%>ne     Com
