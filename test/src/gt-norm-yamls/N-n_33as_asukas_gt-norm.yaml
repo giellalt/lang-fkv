@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - asukas - ei tsekattu : # Noun 'innbygger' - ei tsekattu
@@ -28,7 +28,7 @@ Tests:
      asukas+N+Sg+All: asukkhaale
      asukas+N+Sg+Ess: asukkhaana
      asukas+N+Pl+Nom: asukkhaat
-     asukas+N+Pl+Gen: asukkhaitten
+     asukas+N+Pl+Gen: [asukkhaitten, asukkhajen] #asukkhajen vain Var. varieteetissä
      asukas+N+Pl+Par: asukkhaita
      asukas+N+Pl+Tra: asukkhaiksi
      asukas+N+Pl+Abe: asukkhaitta
