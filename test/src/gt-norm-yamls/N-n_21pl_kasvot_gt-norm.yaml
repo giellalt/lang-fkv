@@ -11,12 +11,12 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - kasvot - ok : # Noun 'ansikt' - ES ok
      kasvot+N+Pl+Nom: kasvot
-     kasvot+N+Pl+Gen: kasvoin
+     kasvot+N+Pl+Gen: [kasvoitten, kasvoin]
      kasvot+N+Pl+Par: kasvoi
      kasvot+N+Pl+Tra: kasvoiksi
      kasvot+N+Pl+Abe: kasvoitta
