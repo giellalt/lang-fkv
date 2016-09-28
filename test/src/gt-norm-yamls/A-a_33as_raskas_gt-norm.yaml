@@ -11,11 +11,11 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun -  - ei tsekattu : # Noun '' - ei tsekattu
-  
+
      raskas+A+Sg+Nom: raskas
      raskas+A+Sg+Gen: raskhaan
      raskas+A+Sg+Par: raskasta
@@ -28,9 +28,9 @@ Tests:
      raskas+A+Sg+Abl: raskhaalta
      raskas+A+Sg+All: raskhaale
      raskas+A+Sg+Ess: raskhaana
-     
+
      raskas+A+Pl+Nom: raskhaat
-     raskas+A+Pl+Gen: raskhaitten
+     raskas+A+Pl+Gen: [raskhaitten, raskhajen]
      raskas+A+Pl+Par: raskhaita
      raskas+A+Pl+Tra: raskhaiksi
      raskas+A+Pl+Abe: raskhaitta
@@ -42,7 +42,7 @@ Tests:
      raskas+A+Pl+All: raskhaile
      raskas+A+Pl+Com: raskhaine
      raskas+A+Pl+Ess: raskhaina
-     
+
      raskas+A+Sg+Comp+Nom: raskhaampi
      raskas+A+Sg+Comp+Gen: raskhaaman
      raskas+A+Sg+Comp+Par: raskhaamppaa
@@ -55,7 +55,7 @@ Tests:
      raskas+A+Sg+Comp+Abl: raskhaamalta
      raskas+A+Sg+Comp+All: raskhaamalle
      raskas+A+Sg+Comp+Ess: raskhaampanna
-     
+
      raskas+A+Pl+Comp+Nom: raskhaamat
      raskas+A+Pl+Comp+Gen: raskhaamiitten
      raskas+A+Pl+Comp+Par: [raskhaamppiita, raskhaampia, raskhaamppii]
@@ -69,7 +69,7 @@ Tests:
      raskas+A+Pl+Comp+All: raskhaamille
      raskas+A+Pl+Comp+Ess: raskhaampinna
      raskas+A+Pl+Comp+Com: raskhaampine
-     
+
      raskas+A+Sg+Superl+Nom: raskhain
      raskas+A+Sg+Superl+Gen: raskhaiman
      raskas+A+Sg+Superl+Par: raskhainta
@@ -82,7 +82,7 @@ Tests:
      raskas+A+Sg+Superl+Abl: raskhaimalta
      raskas+A+Sg+Superl+All: raskhaimalle
      raskas+A+Sg+Superl+Ess: raskhaimpanna
-     
+
      raskas+A+Pl+Superl+Nom: raskhaimat
      raskas+A+Pl+Superl+Gen: raskhaimiitten
      raskas+A+Pl+Superl+Par: [raskhaimppiita, raskhaimpia, raskhaimppii]
@@ -96,4 +96,3 @@ Tests:
      raskas+A+Pl+Superl+All: raskhaimille
      raskas+A+Pl+Superl+Ess: raskhaimpinna
      raskas+A+Pl+Superl+Com: raskhaimpine
-
