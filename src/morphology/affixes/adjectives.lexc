@@ -329,7 +329,7 @@ LEXICON comp_mm
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
-+A+Pl+Comp+Ess:%>mp%>i2%>nn^A    K ;
++A+Pl+Comp+Ess:%>mp%>i2%>n^A    K ;
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
 
@@ -386,7 +386,7 @@ LEXICON superl_mm
 !+A+Sg+Superl: superl_in ;
 !+A+Superl:%>m^A weak_v_stem ;
 +A+Sg+Superl+Gen:%>mm^A%>n K ;
-+A+Pl+Superl+Nom:%>m^A%>t K ;
++A+Pl+Superl+Nom:%>mm^A%>t K ;
 +A+Sg+Superl+Ill:%>mp%>h^A^An K ;
 +A+Sg+Superl+Par:%>n%>t^A K  ;
 +A+Sg+Superl+Ess:%>mp^A%>n^A    K ;
