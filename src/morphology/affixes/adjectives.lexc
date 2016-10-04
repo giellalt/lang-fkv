@@ -94,13 +94,13 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 +A+Pl:m%>ii2 tt_longgenpl ;
 +A+Pl:m^HMETAh%>i2i shortestillpl;
 +A+Pl+Com:m%>i2ne K ;
-
 :m^A comp_mm ;
 :mi superl_mm ;
 +A+Sg+Superl:m superl_in ;
 
 LEXICON a_33as !!= * @CODE@ rakas
 +A: x_33as ;
+
 :haa comp_m_odd  ;
 :hai superl_m_odd ;
 ! comp, superl, puuttuvat
@@ -329,6 +329,7 @@ LEXICON comp_mm
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
++A+Pl+Comp+Par:%>mp%>i2%>^A K  ;
 +A+Pl+Comp+Ess:%>mp%>i2%>n^A    K ;
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
@@ -396,7 +397,9 @@ LEXICON superl_mm
 !+A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
 +A+Pl+Superl+Gen:%>m%>ii2%>tten K ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
++A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
++A+Pl+Superl+Par:%>mp%>i2%>^A K  ;
 +A+Pl+Superl+Ess:%>mp%>i2%>n^A    K ;
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
 
