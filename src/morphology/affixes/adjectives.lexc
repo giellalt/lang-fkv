@@ -35,7 +35,7 @@ superl_m_odd ;
 LEXICON a_22	!!= * @CODE@  liberaali
 +A: x_22 ;
 comp_m_odd  ;
-:i superl_m_odd ;
+:i superl_m_even ;
 
 LEXICON a_22odd	!!= * @CODE@  simppeli
 +A: x_22odd ;
@@ -50,12 +50,12 @@ LEXICON a_23	!!= * @CODE@  pimmee
 
 LEXICON a_23ii  !!= * @CODE@ auttii
 +A: x_23ii ;
-comp_m_odd  ;
+ comp_m_odd  ;
 
 LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31 ;
- comp_m_odd  ;
- superl_m_odd ;
+ comp_m_odd ;
+:^E2I%>i5 superl_m_odd ;
 +A+Sg+Superl:^E2I superl_in ;
 
 LEXICON a_31si	!!= * @CODE@ uusi
@@ -67,7 +67,7 @@ LEXICON a_31si	!!= * @CODE@ uusi
 LEXICON a_32 !!= * @CODE@ tyven
 +A: x_32 ;
 :e comp_mm ;
-:ii superl_m_odd ;
+:ii superl_m_even ;
 
 LEXICON a_32m !!= * @CODE@ irtain
 +A: x_32m ;
