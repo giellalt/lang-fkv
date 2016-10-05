@@ -7,7 +7,7 @@
 !! Beware of remnants from the Finnish file.
 !! Take nothing at face value!
 
-Multichar_Symbols  
+Multichar_Symbols
 
 !!  !!Tags for POS
 +A       !!≈ * __@CODE@__ = Adjective
@@ -72,24 +72,24 @@ Multichar_Symbols
 
 
 !! !Comparatives
-+Comp      !!≈ * __@CODE@__ = 
-+Superl    !!≈ * __@CODE@__ = 
++Comp      !!≈ * __@CODE@__ =
++Superl    !!≈ * __@CODE@__ =
 
 !! !Finite verbs
-+Pass     !!≈ * __@CODE@__ = 
-+Ind      !!≈ * __@CODE@__ = 
++Pass     !!≈ * __@CODE@__ =
++Ind      !!≈ * __@CODE@__ =
 +Act
-+Prs      !!≈ * __@CODE@__ = 
-+Prt      !!≈ * __@CODE@__ = 
-+Imprt    !!≈ * __@CODE@__ = 
-+Cond     !!≈ * __@CODE@__ = 
++Prs      !!≈ * __@CODE@__ =
++Prt      !!≈ * __@CODE@__ =
++Imprt    !!≈ * __@CODE@__ =
++Cond     !!≈ * __@CODE@__ =
 +Pot      !!≈ * __@CODE@__ = Potential
 
 !! !Infinite verbs
-+Inf     !!≈ * __@CODE@__ = 
++Inf     !!≈ * __@CODE@__ =
 +Lat	 !!≈ * __@CODE@__ = lative (the infinitive, used in Apertium)
-+PrsPrc  !!≈ * __@CODE@__ = 
-+PrfPrc  !!≈ * __@CODE@__ = 
++PrsPrc  !!≈ * __@CODE@__ =
++PrfPrc  !!≈ * __@CODE@__ =
 +Inf3    !!≈ * __@CODE@__ = Infinite verbs
 
 !! !Punctuation
@@ -106,21 +106,21 @@ Multichar_Symbols
  +Use/NG   !!= @CODE@ only accept, not generate (for MT and Oahpa use)
  +Use/Circ  !!= @CODE@ for numerals, copied from sme
 !! !Compounds
- +Cmp  !!≈ * __@CODE@__ = 
+ +Cmp  !!≈ * __@CODE@__ =
 
 !! !Derivation
- +Der/minen  !!≈ * __@CODE@__ = 
- 
+ +Der/minen  !!≈ * __@CODE@__ =
+
  !! !!Clitic tags
- +Clt        !!≈ * __@CODE@__ = 
- +Qst        !!≈ * __@CODE@__ = 
- +Foc/han   !!≈ * __@CODE@__ = 
- +Foc/kaan  !!≈ * __@CODE@__ = 
- +Foc/kin   !!≈ * __@CODE@__ = 
- +Foc/pa    !!≈ * __@CODE@__ = 
- +Foc/s        !!≈ * __@CODE@__ = 
- +Foc/pas   !!≈ * __@CODE@__ = 
- 
+ +Clt        !!≈ * __@CODE@__ =
+ +Qst        !!≈ * __@CODE@__ =
+ +Foc/han   !!≈ * __@CODE@__ =
+ +Foc/kaan  !!≈ * __@CODE@__ =
+ +Foc/kin   !!≈ * __@CODE@__ =
+ +Foc/pa    !!≈ * __@CODE@__ =
+ +Foc/s        !!≈ * __@CODE@__ =
+ +Foc/pas   !!≈ * __@CODE@__ =
+
 !! !!Semantic tags
 
 +Sem/Ani  !!≈ * __@CODE@__ = Animal names
@@ -133,11 +133,14 @@ Multichar_Symbols
 
 
 !! !!Dialect tags
-+Dial/-V !!≈ * __@CODE@__ = Not Varanger
-+Dial/-P !!≈ * __@CODE@__ = Not Porsanger
-+Dial/-J !!≈ * __@CODE@__ = Not Jokivarret
- 
- 
++Dial/-Var !!≈ * __@CODE@__ = Not Varanger
++Dial/-Por !!≈ * __@CODE@__ = Not Porsanger
++Dial/-Jok !!≈ * __@CODE@__ = Not Jokivarret
++Dial/Var !!≈ * __@CODE@__ Varanger, short for +Dial/-Jok+Dial/-Por
++Dial/Por !!≈ * __@CODE@__ Porsanger, short for +Dial/-Jok+Dial/-Var
++Dial/Jok !!≈ * __@CODE@__ Jokivarret, short for +Dial/-Por+Dial/-V
+
+
 !!  !!Phonological symbols
 
 ! p1 t1 k1  For cons grad -- in use at all? (remove these)
@@ -179,7 +182,7 @@ i7     !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
  @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
-!! 
+!!
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
@@ -194,7 +197,7 @@ i7     !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
  @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
  @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
  @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
-!! 
+!!
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
@@ -256,6 +259,3 @@ LEXICON Root    !!=  __@CODE@__
 
 
 ! Then to the next lexica.
-
-
-
