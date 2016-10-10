@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun -  - ei tsekattu : # Noun '' - ei tsekattu
@@ -27,10 +27,10 @@ Tests:
      tyven+A+Sg+Abl: tyveneltä
      tyven+A+Sg+All: tyvenelle
      tyven+A+Sg+Ess: tyvenennä
-     
+
      tyven+A+Pl+Nom: tyvenet
      tyven+A+Pl+Gen: tyveniitten
-     tyven+A+Pl+Par: [tyveniitä, tyvenii]
+     tyven+A+Pl+Par: [tyveniitä, tyvenii] # tyveniitä Por ja Rai varieteeteissä
      tyven+A+Pl+Tra: tyveniksi
      tyven+A+Pl+Abe: tyvenittä
      tyven+A+Pl+Ine: tyvenissä
@@ -41,7 +41,7 @@ Tests:
      tyven+A+Pl+All: tyvenille
      tyven+A+Pl+Com: tyvenine
      tyven+A+Pl+Ess: tyveninnä
-     
+
      tyven+A+Sg+Comp+Nom: tyvenempi
      tyven+A+Sg+Comp+Gen: tyvenemmän
      tyven+A+Sg+Comp+Par: tyvenemppää
@@ -54,7 +54,7 @@ Tests:
      tyven+A+Sg+Comp+Abl: tyvenemmältä
      tyven+A+Sg+Comp+All: tyvenemmäle
      tyven+A+Sg+Comp+Ess: tyvenempänä
-     
+
      tyven+A+Pl+Comp+Nom: tyvenemmät
      tyven+A+Pl+Comp+Gen: tyvenemmiitten
      tyven+A+Pl+Comp+Par: [tyvenemppiitä, tyvenemppii, tyvenempiä]
@@ -68,7 +68,7 @@ Tests:
      tyven+A+Pl+Comp+All: tyvenemmile
      tyven+A+Pl+Comp+Ess: tyvenempinä
      tyven+A+Pl+Comp+Com: tyvenempine
-     
+
      tyven+A+Sg+Superl+Nom: tyveniin
      tyven+A+Sg+Superl+Gen: tyveniimän
      tyven+A+Sg+Superl+Par: tyveniintä
@@ -81,7 +81,7 @@ Tests:
      tyven+A+Sg+Superl+Abl: tyveniimältä
      tyven+A+Sg+Superl+All: tyveniimäle
      tyven+A+Sg+Superl+Ess: tyveniimpänä
-     
+
      tyven+A+Pl+Superl+Nom: tyveniimät
      tyven+A+Pl+Superl+Gen: tyveniimiitten
      tyven+A+Pl+Superl+Par: [tyveniimppiitä, tyveniimppii, tyveniimpiä]
@@ -95,4 +95,3 @@ Tests:
      tyven+A+Pl+Superl+All: tyveniimile
      tyven+A+Pl+Superl+Ess: tyveniimpinä
      tyven+A+Pl+Superl+Com: tyveniimpine
-
