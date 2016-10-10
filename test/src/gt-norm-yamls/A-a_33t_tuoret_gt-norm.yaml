@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+# Then: linnrun analyser, then correct.
 
 
   Noun - venet - ei tsekattu : # Noun 'borg' - ei tsekattu
@@ -28,7 +28,7 @@ Tests:
      tuoret+A+Sg+All: tuorheele
      tuoret+A+Sg+Ess: tuorheena
      tuoret+A+Pl+Nom: tuorheet
-     tuoret+A+Pl+Gen: tuorheitten
+     tuoret+A+Pl+Gen: [tuorheitten, tuorhejen] # tuorhejen vain Var varieteetissä
      tuoret+A+Pl+Par: tuorheita
      tuoret+A+Pl+Tra: tuorheiksi
      tuoret+A+Pl+Abe: tuorheitta
