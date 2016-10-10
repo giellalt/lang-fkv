@@ -11,11 +11,11 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun -  - ei tsekattu : # Noun '' - ei tsekattu
-  
+
      irtain+A+Sg+Nom: irtain
      irtain+A+Sg+Gen: irtaimen
      irtain+A+Sg+Par: irtainta
@@ -28,7 +28,7 @@ Tests:
      irtain+A+Sg+Abl: irtaimelta
      irtain+A+Sg+All: irtaimelle
      irtain+A+Sg+Ess: irtaimenna
-     
+
      irtain+A+Pl+Nom: irtaimet
      irtain+A+Pl+Gen: irtaimiitten
      irtain+A+Pl+Par: irtaimiita
@@ -42,9 +42,9 @@ Tests:
      irtain+A+Pl+All: irtaimille
      irtain+A+Pl+Com: irtaimine
      irtain+A+Pl+Ess: irtaiminna
-     
+
 #     Added the noun version with similar case endings. Only for illustrative purposes.
-#     
+#
 #     elläin+N+Sg+Nom: elläin
 #     elläin+N+Sg+Gen: elläimen
 #     elläin+N+Sg+Par: elläintä
@@ -57,7 +57,7 @@ Tests:
 #     elläin+N+Sg+Abl: elläimeltä
 #     elläin+N+Sg+All: elläimelle
 #     elläin+N+Sg+Ess: elläimennä
-#     
+#
 #     elläin+N+Pl+Nom: elläimet
 #     elläin+N+Pl+Gen: elläimiitten
 #     elläin+N+Pl+Par: elläimiitä
@@ -71,8 +71,8 @@ Tests:
 #     elläin+N+Pl+All: elläimille
 #     elläin+N+Pl+Com: elläimine
 #     elläin+N+Pl+Ess: elläiminnä
-     
-     
+
+
      irtain+A+Sg+Comp+Nom: irtaimempi
      irtain+A+Sg+Comp+Gen: irtaimemman
      irtain+A+Sg+Comp+Par: irtaimemppaa
@@ -85,10 +85,10 @@ Tests:
      irtain+A+Sg+Comp+Abl: irtaimemmalta
      irtain+A+Sg+Comp+All: irtaimemmale
      irtain+A+Sg+Comp+Ess: irtaimempana
-     
+
      irtain+A+Pl+Comp+Nom: irtaimemmat
      irtain+A+Pl+Comp+Gen: irtaimemmiitten
-     irtain+A+Pl+Comp+Par: irtaimemppiita
+     irtain+A+Pl+Comp+Par: [irtaimemppii, irtaimemppiita, irtaimempia] # irtaimemppii ja irtaimemppiita Por ja Rai varieteetissä
      irtain+A+Pl+Comp+Tra: irtaimemmiksi
      irtain+A+Pl+Comp+Abe: irtaimemmitta
      irtain+A+Pl+Comp+Ine: irtaimemmissa
@@ -99,7 +99,7 @@ Tests:
      irtain+A+Pl+Comp+All: irtaimemmile
      irtain+A+Pl+Comp+Ess: irtaimempina
      irtain+A+Pl+Comp+Com: irtaimempine
-     
+
      irtain+A+Sg+Superl+Nom: irtaimiin
      irtain+A+Sg+Superl+Gen: irtaimiiman
      irtain+A+Sg+Superl+Par: irtaimiinta
@@ -112,7 +112,7 @@ Tests:
      irtain+A+Sg+Superl+Abl: irtaimiimalta
      irtain+A+Sg+Superl+All: irtaimiimale
      irtain+A+Sg+Superl+Ess: irtaimiimpana
-     
+
      irtain+A+Pl+Superl+Nom: irtaimiimat
      irtain+A+Pl+Superl+Gen: irtaimiimiitten
      irtain+A+Pl+Superl+Par: irtaimiimppiita
@@ -126,4 +126,3 @@ Tests:
      irtain+A+Pl+Superl+All: irtaimiimile
      irtain+A+Pl+Superl+Ess: irtaimiimpina
      irtain+A+Pl+Superl+Com: irtaimiimpine
-
