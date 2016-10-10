@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+# Then: linnrun analyser, then correct.
 
 
   Noun - mies - ok : # Noun 'mann' - ei tsekattu
@@ -28,7 +28,7 @@ Tests:
      mies+N+Sg+All: miehele
      mies+N+Sg+Ess: miehenä
      mies+N+Pl+Nom: miehet
-     mies+N+Pl+Gen: miehiin
+     mies+N+Pl+Gen: [miehiin, miehitten, miesten] # miehiin Por ja Rai varieteetissä. miesten on rinnakkainen muoto 
      mies+N+Pl+Par: miehii
      mies+N+Pl+Tra: miehiksi
      mies+N+Pl+Abe: miehittä
