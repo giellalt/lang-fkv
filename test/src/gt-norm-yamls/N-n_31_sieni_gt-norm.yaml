@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+# Then: linnrun analyser, then correct.
 
 
   Noun - sieni - ei tsekattu : # Noun 'år' n_31 - ei tsekattu
@@ -28,7 +28,7 @@ Tests:
      sieni+N+Sg+All: sienele
      sieni+N+Sg+Ess: sienenä
      sieni+N+Pl+Nom: sienet
-     sieni+N+Pl+Gen: sieniin
+     sieni+N+Pl+Gen: [sieniin, sienitten, sienten] # sieniin Por ja Rai varieteetissä. sienten on tavallinen rinnakkainen muoto
      sieni+N+Pl+Par: sienii
      sieni+N+Pl+Tra: sieniksi
      sieni+N+Pl+Abe: sienittä
