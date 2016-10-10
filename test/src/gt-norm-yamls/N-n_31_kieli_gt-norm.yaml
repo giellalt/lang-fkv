@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+# Then: linnrun analyser, then correct.
 
 
   Noun - kieli - ei tsekattu : # Noun 'år' - ei tsekattu
@@ -28,7 +28,7 @@ Tests:
      kieli+N+Sg+All: kielele
      kieli+N+Sg+Ess: kielenä
      kieli+N+Pl+Nom: kielet
-     kieli+N+Pl+Gen: kieliin
+     kieli+N+Pl+Gen: [kieliin, kielitten, kielten] # kieliin Por ja Rai varieteetissä. kielten on tavallinen rinnakkainen muoto
      kieli+N+Pl+Par: kielii
      kieli+N+Pl+Tra: kieliksi
      kieli+N+Pl+Abe: kielittä
