@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+# Then: linnrun analyser, then correct.
 
 
   Noun - vuosi - ok : # Noun 'år' n_31si - ok
@@ -28,7 +28,7 @@ Tests:
      vuosi+N+Sg+All: vuođele
      vuosi+N+Sg+Ess: vuotena
      vuosi+N+Pl+Nom: vuođet
-     vuosi+N+Pl+Gen: vuossiin
+     vuosi+N+Pl+Gen: [vuossiin, vuositten] # vuossiin Por ja Rai varieteeteissä
      vuosi+N+Pl+Par: vuossii
      vuosi+N+Pl+Tra: vuosiksi
      vuosi+N+Pl+Abe: vuositta
