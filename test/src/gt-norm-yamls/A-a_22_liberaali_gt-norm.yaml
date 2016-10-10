@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: linnrun analyser, then correct. 
+# Then: linnrun analyser, then correct.
 
 # Ongelmat monikon i:n kanssa. Keskustele Pirjon kanssa, miksi opettajan monikossa on kaksi i:tä myös muissa kuin Gen & Par.
 
@@ -28,21 +28,21 @@ Tests:
      liberaali+A+Sg+Abl: liberaalilta
      liberaali+A+Sg+All: liberaalile
      liberaali+A+Sg+Ess: liberaalina
-     
+
      liberaali+A+Pl+Nom: liberaalit
-     liberaali+A+Pl+Gen: liberaaliitten
+     liberaali+A+Pl+Gen: [liberaaliitten, liberaaliin]
      liberaali+A+Pl+Par: liberaaliita
      liberaali+A+Pl+Tra: liberaaliiksi  # -ii- since it is even-syll. Check!
      liberaali+A+Pl+Abe: liberaaliitta  # -ii- since it is even-syll. Check!
      liberaali+A+Pl+Ine: liberaaliissa  # -ii- since it is even-syll. Check!
      liberaali+A+Pl+Ela: liberaaliista  # -ii- since it is even-syll. Check!
-     liberaali+A+Pl+Ill: liberaalhiin   # 
+     liberaali+A+Pl+Ill: liberaalhiin   #
      liberaali+A+Pl+Ade: liberaaliila   # -ii- since it is even-syll. Check!
      liberaali+A+Pl+Abl: liberaaliilta  # -ii- since it is even-syll. Check!
      liberaali+A+Pl+All: liberaaliile   # -ii- since it is even-syll. Check!
      liberaali+A+Pl+Ess: liberaaliina   # -ii- since it is even-syll. Check!
      liberaali+A+Pl+Com: liberaaliine   # -ii- since it is even-syll. Check!
-     
+
      liberaali+A+Sg+Comp+Nom: liberaalimpi
      liberaali+A+Sg+Comp+Gen: liberaaliman
      liberaali+A+Sg+Comp+Par: liberaalimppaa
@@ -55,7 +55,7 @@ Tests:
      liberaali+A+Sg+Comp+Abl: liberaalimalta
      liberaali+A+Sg+Comp+All: liberaalimalle
      liberaali+A+Sg+Comp+Ess: liberaalimpanna
-     
+
      liberaali+A+Pl+Comp+Nom: liberaalimat
      liberaali+A+Pl+Comp+Gen: liberaalimiitten
      liberaali+A+Pl+Comp+Par: [liberaalimppiita, liberaalimppii, liberaalimpia]
@@ -69,7 +69,7 @@ Tests:
      liberaali+A+Pl+Comp+All: liberaalimille
      liberaali+A+Pl+Comp+Ess: liberaalimpinna
      liberaali+A+Pl+Comp+Com: liberaalimpine
-     
+
      liberaali+A+Sg+Superl+Nom: liberaaliin
      liberaali+A+Sg+Superl+Gen: liberaaliiman
      liberaali+A+Sg+Superl+Par: liberaaliinta
@@ -82,7 +82,7 @@ Tests:
      liberaali+A+Sg+Superl+Abl: liberaaliimalta
      liberaali+A+Sg+Superl+All: liberaaliimalle
      liberaali+A+Sg+Superl+Ess: liberaaliimpanna
-     
+
      liberaali+A+Pl+Superl+Nom: liberaaliimat
      liberaali+A+Pl+Superl+Gen: liberaaliimiitten
      liberaali+A+Pl+Superl+Par: [liberaaliimppiita, liberaaliimppii, liberaaliimpia]
