@@ -291,7 +291,10 @@ LEXICON x_31
  2TAVU_V_ill_sg ;
 +Pl:^HMETA%>hii shortestillpl ;
 +Pl:%>i2 shortparpl         ;
-+Pl:%>i2 shortgenpl         ;
+!+Pl:%>i2 shortgenpl         ;
++Pl:%>i2i shortestgenpl ;
++Pl: consgenpl ;
++Pl:%>i2 tt_longgenpl ;
 !!+Pl:^EDEL consgenpl ;
 +Pl+Com:%>i2%>ne K ;
 
