@@ -15,7 +15,7 @@ Tests:
 
 # Ongelmat monikon i:n kanssa. Keskustele Pirjon kanssa, miksi opettajan monikossa on kaksi i:tä myös muissa kuin Gen & Par.
 
-  Adjective - liberaali - ei tsekattu : # Adjective 'clean' - ei tsekattu
+  Adjective - liberaali - ei tsekattu : # Adjective 'liberal' - tsekattu
      liberaali+A+Sg+Nom: liberaali
      liberaali+A+Sg+Gen: liberaalin
      liberaali+A+Sg+Par: liberaalii
@@ -30,7 +30,7 @@ Tests:
      liberaali+A+Sg+Ess: liberaalina
 
      liberaali+A+Pl+Nom: liberaalit
-     liberaali+A+Pl+Gen: [liberaaliitten, liberaaliin]
+     liberaali+A+Pl+Gen: [liberaaliitten, liberaaliin] # liberaaliin Por varieteetissä
      liberaali+A+Pl+Par: liberaaliita
      liberaali+A+Pl+Tra: liberaaliiksi  # -ii- since it is even-syll. Check!
      liberaali+A+Pl+Abe: liberaaliitta  # -ii- since it is even-syll. Check!
