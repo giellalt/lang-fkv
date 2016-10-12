@@ -385,6 +385,8 @@ LEXICON superl_onneton
 +A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
++A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
++A+Pl+Superl+Par:%>mp%>i2%>^A K  ;
 +A+Pl+Superl+Ess:%>mp%>i2%>nn^A    K ;
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
 
@@ -401,10 +403,10 @@ LEXICON superl_mm
 +A+Pl+Superl:%>mm%>i2 sgpl_cases_even ;
 !+A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
 +A+Pl+Superl+Gen:%>m%>ii2%>tten K ;
-+A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Superl+Par:%>mp%>i2%>^A K  ;
++A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl+Ess:%>mp%>i2%>n^A    K ;
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
 
