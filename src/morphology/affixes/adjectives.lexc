@@ -40,7 +40,7 @@ comp_m_odd  ;
 LEXICON a_22odd	!!= * @CODE@  simppeli
 +A: x_22odd ;
 comp_mm ;
-:%>i5i superl_mm ;
+:%>i5i superl_m_even ;
 
 LEXICON a_23	!!= * @CODE@  pimmee
 +A: x_23 ;
@@ -166,7 +166,7 @@ LEXICON a_42 !!= * @CODE@ varovainen
 LEXICON a_42odd !!= * @CODE@ sininen
 +A: x_42odd ;
 :se comp_mm ;
-:si superl_mm ;
+:si5i superl_m_even ;
 +A+Sg+Superl:ssi superl_in ;
 
 LEXICON MATON !!= @CODE@ ! ajattelemattomalle lle lla nna
@@ -188,7 +188,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A+Pl+Com:%>tt^Om%>i2ne K ;
 
 :%>tt^Om^A comp_mm ;
-:%>tt^Omi5i superl_mm ;
+:%>tt^Omi5i superl_m_even ;
 +A+Pl+Comp+Gen:m^A%>mpp%>i2%>in K ;
 +A+Pl+Superl+Gen:mi%>mpp%>i2%>in K ;
 
