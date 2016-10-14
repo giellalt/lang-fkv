@@ -310,6 +310,7 @@ LEXICON x_31m
 +Sg:me^WG sgpl_cases_even ;     ! these two lexica for cases with
 +Pl:m^WG%>i2 sgpl_cases_even ;  ! the same affix in sg and pl
 +Pl:me%>i2        shortgenpl ;
++Pl:m%>i2        tt_longgenpl ;
 +Sg+Ill:m^HMETA%>hee n_PxK ;
 +Pl+Ill:m^EDEL%>hii n_PxK ;
 +Pl:me%>i2 shortparpl ;
@@ -330,7 +331,8 @@ LEXICON x_31si
                       ess_even_sg ;
        :         ess_even_pl ;
     +Pl:%>i2     shortparpl ; ! ^E2I to get t:s
-    +Pl:%>i2     shortgenpl ; ! vuossiin, *vuottiin
+    +Pl:%>i2     shortgenpl ; ! vuossiin, ei vuottiin
+    +Pl:%>i2     tt_longgenpl ; ! vuossiin, ei vuottiin
     +Pl:^HMETA%>hii shortestillpl ;
 +Pl+Com:%>i2%>ne        K ;
 
