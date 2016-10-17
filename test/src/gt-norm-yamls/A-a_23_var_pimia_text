@@ -1,0 +1,94 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ei tsekattu: # Noun 'sak'
+     pimiä+A+Sg+Nom: pimiä
+     pimiä+A+Sg+Gen: pimiän
+     pimiä+A+Sg+Par: pimiää
+     pimiä+A+Sg+Tra: pimiäksi
+     pimiä+A+Sg+Abe: pimiättä
+     pimiä+A+Sg+Ine: pimiässä
+     pimiä+A+Sg+Ela: pimiästä
+     pimiä+A+Sg+Ill: pimihään
+     pimiä+A+Sg+Ade: pimiällä
+     pimiä+A+Sg+Abl: pimiältä
+     pimiä+A+Sg+All: pimiälle
+     pimiä+A+Sg+Ess: pimiännä
+     pimiä+A+Pl+Nom: pimiät
+     pimiä+A+Pl+Gen: pimeitten
+     pimee+A+Pl+Par: pimeitä
+     pimiä+A+Pl+Tra: pimeiksi
+     pimiä+A+Pl+Abe: pimeittä
+     pimiä+A+Pl+Ine: pimeissä
+     pimiä+A+Pl+Ela: pimeistä
+     pimiä+A+Pl+Ill: pimeissiin
+     pimiä+A+Pl+Ade: pimeilä
+     pimiä+A+Pl+Abl: pimeiltä
+     pimiä+A+Pl+All: pimeile
+     pimiä+A+Pl+Ess: pimeinä
+     pimiä+A+Pl+Com: pimeine
+
+     pimiä+A+Sg+Comp+Nom: pimiämpi
+     pimiä+A+Sg+Comp+Gen: pimiämmän
+     pimiä+A+Sg+Comp+Par: pimiämppää
+     pimiä+A+Sg+Comp+Tra: pimiämmäksi
+     pimiä+A+Sg+Comp+Abe: pimiämmättä
+     pimiä+A+Sg+Comp+Ine: pimiämmässä
+     pimiä+A+Sg+Comp+Ela: pimiämmästä
+     pimiä+A+Sg+Comp+Ill: pimiämphään
+     pimiä+A+Sg+Comp+Ade: pimiämmälä
+     pimiä+A+Sg+Comp+Abl: pimiämmältä
+     pimiä+A+Sg+Comp+All: pimiämmäle
+     pimiä+A+Sg+Comp+Ess: pimiämpänä
+     pimiä+A+Pl+Comp+Nom: pimiämmät
+     pimiä+A+Pl+Comp+Gen: pimiämmitten
+     pimiä+A+Pl+Comp+Par: pimiämpiä
+     pimiä+A+Pl+Comp+Tra: pimiämmiksi
+     pimiä+A+Pl+Comp+Abe: pimiämmittä
+     pimiä+A+Pl+Comp+Ine: pimiämmissä
+     pimiä+A+Pl+Comp+Ela: pimiämmistä
+     pimiä+A+Pl+Comp+Ill: pimiämphiin
+     pimiä+A+Pl+Comp+Ade: pimiämmilä
+     pimiä+A+Pl+Comp+Abl: pimiämmiltä
+     pimiä+A+Pl+Comp+All: pimiämmile
+     pimiä+A+Pl+Comp+Ess: pimiämpinä
+     pimiä+A+Pl+Comp+Com: pimiämpine
+
+     pimiä+A+Sg+Superl+Nom: pimein
+     pimiä+A+Sg+Superl+Gen: pimeimän
+     pimiä+A+Sg+Superl+Par: pimeintä
+     pimiä+A+Sg+Superl+Tra: pimeimäksi
+     pimiä+A+Sg+Superl+Abe: pimeimättä
+     pimiä+A+Sg+Superl+Ine: pimeimässä
+     pimiä+A+Sg+Superl+Ela: pimeimästä
+     pimiä+A+Sg+Superl+Ill: pimeimphään
+     pimiä+A+Sg+Superl+Ade: pimeimällä
+     pimiä+A+Sg+Superl+Abl: pimeimältä
+     pimiä+A+Sg+Superl+All: pimeimälle
+     pimiä+A+Sg+Superl+Ess: pimeimpännä
+     pimiä+A+Pl+Superl+Nom: pimeimät
+     pimiä+A+Pl+Superl+Gen: pimeimitten
+     pimiä+A+Pl+Superl+Par: pimeimpiä
+     pimiä+A+Pl+Superl+Tra: pimeimiksi
+     pimiä+A+Pl+Superl+Abe: pimeimittä
+     pimiä+A+Pl+Superl+Ine: pimeimissä
+     pimiä+A+Pl+Superl+Ela: pimeimistä
+     pimiä+A+Pl+Superl+Ill: pimeimphiin
+     pimiä+A+Pl+Superl+Ade: pimeimillä
+     pimiä+A+Pl+Superl+Abl: pimeimiltä
+     pimiä+A+Pl+Superl+All: pimeimille
+     pimiä+A+Pl+Superl+Ess: pimeimpinnä
+     pimiä+A+Pl+Superl+Com: pimeimpine
