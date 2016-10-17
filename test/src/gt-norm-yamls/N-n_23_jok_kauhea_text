@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kauhea - ok : # Noun 'borg' - ok
+     kauhea+N+Sg+Nom: kauhea
+     kauhea+N+Sg+Gen: kauhean
+     kauhea+N+Sg+Par: kauheata
+     kauhea+N+Sg+Tra: kauheaksi
+     kauhea+N+Sg+Abe: kauheatta
+     kauhea+N+Sg+Ine: kauheassa
+     kauhea+N+Sg+Ela: kauheasta
+     kauhea+N+Sg+Ill: kauhehaan
+     kauhea+N+Sg+Ade: kauheala
+     kauhea+N+Sg+Abl: kauhealta
+     kauhea+N+Sg+All: kauheale
+     kauhea+N+Sg+Ess: kauheana
+     kauhea+N+Pl+Nom: kauheat
+     kauhea+N+Pl+Gen: kauheitten
+     kauhea+N+Pl+Par: kauheita
+     kauhea+N+Pl+Tra: kauheiksi
+     kauhea+N+Pl+Abe: kauheitta
+     kauhea+N+Pl+Ine: kauheissa
+     kauhea+N+Pl+Ela: kauheista
+     kauhea+N+Pl+Ill: kauheissiin
+     kauhea+N+Pl+Ade: kauheila
+     kauhea+N+Pl+Abl: kauheilta
+     kauhia+N+Pl+All: kauheile
+     kauhea+N+Pl+Ess: kauheina
+     kauhea+N+Pl+Com: kauheine
