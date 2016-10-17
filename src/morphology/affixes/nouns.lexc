@@ -161,6 +161,7 @@ LEXICON x_22
 +Pl:^WG%>i2 sgpl_cases_even ;  ! Adding  to block i:0
  2TAVU_V_ill_sg ;
 +Pl+Ess:%>i2%>n^A PxxK ;
++Pl:%>i2 shortestgenpl ;
 +Pl:^WG%>i2 tt_longgenpl ;
 +Pl:%>i2    longparpl ;
 +Pl+Ill:^HMETA%>hii n_PxK ;
@@ -332,7 +333,7 @@ LEXICON x_31si
        :         ess_even_pl ;
     +Pl:%>i2     shortparpl ; ! ^E2I to get t:s
     +Pl:%>i2     shortgenpl ; ! vuossiin, ei vuottiin
-    +Pl:%>i2     tt_longgenpl ; ! vuossiin, ei vuottiin
+    +Pl:%>i2     tt_longgenpl ; ! vuossitten
     +Pl:^HMETA%>hii shortestillpl ;
 +Pl+Com:%>i2%>ne        K ;
 
@@ -365,6 +366,8 @@ LEXICON n_31mies        !!= @CODE@ mies mie
 +N+Sg:he^WG sgpl_cases_even ;      !! these two lexica for cases with
 +N+Pl:h^WG%>i2 sgpl_cases_even ;  !! the same affix in sg and pl
 +N+Pl:h%>i2%>i        shortestgenpl ;
++N+Pl:h%>i2%>        tt_longgenpl ;
++N+Pl:s        consgenpl ;
 +N+Pl:h%>i2%>i shortestparpl ;
 +N+Sg+Ill:h^HMETA%>hee n_PxK ;
 +N+Pl+Ill:hhii n_PxK ;
@@ -471,6 +474,7 @@ LEXICON x_33as
        :h%>aa ess_even ;
     +Pl:h%>a%>i2 longparpl ;
     +Pl:h%>a%>i2 tt_longgenpl ;
+    +Pl:h%>a%>je shortestgenpl ;
 !+N+Pl+Ess:h%>a%>i2%>na PxxK ;
 
 !LEXICON n_33aes
@@ -522,6 +526,7 @@ LEXICON x_33is !!= @CODE@ ruvis
     +Sg:hii sgpl_cases_even ;
     +Pl:hii sgpl_cases_even ;
        :hii ess_even_sg ;
++Pl:hi%>je shortestgenpl ;
 +Pl+Ess:%>hiin^A PxxK ; ! i in pl lex
 +Sg+Ill:%>hiisseen K ;
 +Pl+Ill:hiissiin K ;
@@ -538,6 +543,7 @@ LEXICON x_33t
 :e tConsCase ; ! nom, par
 :hee 33_t_ts_common ;
 +Sg+Ill:hee mTAVU_VV-ill ;
++Pl:he%>je shortestgenpl ;
 +Pl+Com:hee%>i2%>ne K ;
 
 LEXICON n_33ts !!= @CODE@ kirves
@@ -549,7 +555,8 @@ LEXICON x_33ts !!= @CODE@ kirves
 :es long_par_sg ;
 :hee 33_t_ts_common ;
 +Sg+Ill:hee mTAVU_VV-ill ;
-+Pl+Gen:hee%>i2 tt_longgenpl ;
++Pl+Gen:hee%>i2 tt_longgenpl ; ! Can this be commented out?
++Pl:he%>je shortestgenpl ;
 +Pl+Com:hee%>i2%>ne K ;
 
 LEXICON 33_t_ts_common
