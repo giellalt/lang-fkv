@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - valkkee ok: # Noun 'bål' n_23 valkkee, ES ok
+     valkia+N+Sg+Nom: valkia
+     valkia+N+Sg+Gen: valkian
+     valkia+N+Sg+Par: valkiaa
+     valkia+N+Sg+Tra: valkiaksi
+     valkia+N+Sg+Abe: valkiatta
+     valkia+N+Sg+Ine: valkiassa
+     valkia+N+Sg+Ela: valkiasta
+     valkia+N+Sg+Ill: valkihaan
+     valkia+N+Sg+Ade: valkialla
+     valkia+N+Sg+Abl: valkialta
+     valkia+N+Sg+All: valkialle
+     valkia+N+Sg+Ess: valkianna
+     valkia+N+Pl+Nom: valkiat
+     valkia+N+Pl+Gen: valkeitten
+     valkia+N+Pl+Par: valkeita
+     valkia+N+Pl+Tra: valkeiksi
+     valkia+N+Pl+Abe: valkeitta
+     valkia+N+Pl+Ine: valkeissa
+     valkia+N+Pl+Ela: valkeista
+     valkia+N+Pl+Ill: valkeissiin
+     valkia+N+Pl+Ade: valkeila
+     valkia+N+Pl+Abl: valkeilta
+     valkia+N+Pl+All: valkeile
+     valkia+N+Pl+Ess: valkeina
+     valkia+N+Pl+Com: valkeine
