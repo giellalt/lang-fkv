@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - ihminen - ok : # Noun 'menneske' - ok
@@ -28,7 +28,7 @@ Tests:
      ihminen+N+Sg+All: ihmiselle
      ihminen+N+Sg+Ess: ihmisennä
      ihminen+N+Pl+Nom: ihmiset
-     ihminen+N+Pl+Gen: ihmisten
+     ihminen+N+Pl+Gen: ihmisten # -ten sanoille, jotka loppuvat -nen. Muille sanaryhmille on -tten. Paitsi Por ja Rai varieteetissä. Var varieteetti voi myös saada -ien.
      ihminen+N+Pl+Par: ihmissii
      ihminen+N+Pl+Tra: ihmisiksi
      ihminen+N+Pl+Abe: ihmisittä
