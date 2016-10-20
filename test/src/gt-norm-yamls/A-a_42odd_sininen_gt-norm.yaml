@@ -29,7 +29,7 @@ Tests:
      sininen+A+Sg+Ess: sinisennä
      sininen+A+Pl+Nom: siniset
      sininen+A+Pl+Gen: sinisten # -ten sanoille, jotka loppuvat -nen ja myös veres-sanaryhmälle. Muille sanaryhmille on -tten. Paitsi Por ja Rai varieteetissä. Var varieteetti voi myös saada -ien.
-     sininen+A+Pl+Par: sinisiä
+     sininen+A+Pl+Par: sinissii
      sininen+A+Pl+Tra: sinisiksi
      sininen+A+Pl+Abe: sinisittä
      sininen+A+Pl+Ine: sinisissä
@@ -55,7 +55,7 @@ Tests:
      sininen+A+Sg+Comp+Ess: sinisempänä
      sininen+A+Pl+Comp+Nom: sinisemmät
      sininen+A+Pl+Comp+Gen: sinisemmiitten
-     sininen+A+Pl+Comp+Par: sinisempiä
+     sininen+A+Pl+Comp+Par: [sinisemppii, sinisemppiitä]
      sininen+A+Pl+Comp+Tra: sinisemmiksi
      sininen+A+Pl+Comp+Abe: sinisemmittä
      sininen+A+Pl+Comp+Ine: sinisemmissä
@@ -67,28 +67,31 @@ Tests:
      sininen+A+Pl+Comp+Ess: sinisempinä
      sininen+A+Pl+Comp+Com: sinisempine
 
-# Superlatiivissa on aina pitkä vokaali. Siksi on aina vain kaksi m.
-     sininen+A+Sg+Superl+Gen: sinisiimän,
-     sininen+A+Sg+Superl+Par: sinisiintä  # yksi (s) Eira syks 2013 s.106 tai 147
-     sininen+A+Sg+Superl+Tra: sinisiimäksi
-     sininen+A+Sg+Superl+Abe: sinisiimättä
-     sininen+A+Sg+Superl+Ine: sinisiimässä
-     sininen+A+Sg+Superl+Ela: sinisiimästä
-     sininen+A+Sg+Superl+Ill: sinisiimphään
-     sininen+A+Sg+Superl+Ade: sinisiimälä
-     sininen+A+Sg+Superl+Abl: sinisiimältä
-     sininen+A+Sg+Superl+All: sinisiimäle
-     sininen+A+Sg+Superl+Ess: sinisiimpänä
-     sininen+A+Pl+Superl+Nom: sinisiimät
-     sininen+A+Pl+Superl+Gen: sinisiimiitten
-     sininen+A+Pl+Superl+Par: sinisiimpiä # yksi (s) Eira syks 2013 s.106 tai 147
-     sininen+A+Pl+Superl+Tra: sinisiimiksi
-     sininen+A+Pl+Superl+Abe: sinisiimittä
-     sininen+A+Pl+Superl+Ine: sinisiimissä
-     sininen+A+Pl+Superl+Ela: sinisiimistä
-     sininen+A+Pl+Superl+Ill: sinisiimphiin
-     sininen+A+Pl+Superl+Ade: sinisiimilä
-     sininen+A+Pl+Superl+Abl: sinisiimiltä
-     sininen+A+Pl+Superl+All: sinisiimil
-     sininen+A+Pl+Superl+Ess: sinisiimpinä
-     sininen+A+Pl+Superl+Com: sinisiimpine
+# Por varieteetissä on aina kaksi s:ää, jos sen perässä on kaksi vokaalia. Katso myös pl part.
+# Superlatiivissa on aina kaksi i:tä tai diftonki. Siksi siinä on aina yksi m.
+
+     sininen+A+Sg+Superl+Nom: sinissiin
+     sininen+A+Sg+Superl+Gen: sinissiimän
+     sininen+A+Sg+Superl+Par: sinissiintä
+     sininen+A+Sg+Superl+Tra: sinissiimäksi
+     sininen+A+Sg+Superl+Abe: sinissiimättä
+     sininen+A+Sg+Superl+Ine: sinissiimässä
+     sininen+A+Sg+Superl+Ela: sinissiimästä
+     sininen+A+Sg+Superl+Ill: sinissiimphään]
+     sininen+A+Sg+Superl+Ade: sinissiimälä
+     sininen+A+Sg+Superl+Abl: sinissiimältä
+     sininen+A+Sg+Superl+All: sinissiimäle
+     sininen+A+Sg+Superl+Ess: sinissiimpänä
+     sininen+A+Pl+Superl+Nom: sinissiimät
+     sininen+A+Pl+Superl+Gen: sinissiimiitten
+     sininen+A+Pl+Superl+Par: [sinissiimppii, sinissiimppiitä]
+     sininen+A+Pl+Superl+Tra: sinissiimiksi
+     sininen+A+Pl+Superl+Abe: sinissiimittä
+     sininen+A+Pl+Superl+Ine: sinissiimissä
+     sininen+A+Pl+Superl+Ela: sinissiimistä
+     sininen+A+Pl+Superl+Ill: sinissiimphiin
+     sininen+A+Pl+Superl+Ade: sinissiimilä
+     sininen+A+Pl+Superl+Abl: sinissiimiltä
+     sininen+A+Pl+Superl+All: sinissiimile]
+     sininen+A+Pl+Superl+Ess: sinissiimpinä
+     sininen+A+Pl+Superl+Com: sinissiimpine
