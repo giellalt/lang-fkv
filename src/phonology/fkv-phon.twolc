@@ -138,12 +138,14 @@ Rules
 
 "Gemination Vssi"
 !! __@RULENAME@__
- 0:s <=>  Cns:*  Vowel:* Vowel (Vowel:) :s _     :i    %> [:i - i3:] (i2:i) ;  ! to be fixed
-          Cns:*  Vowel:* Vowel (Vowel:) :s _ [e:|i:]   %> i2:i %> %^V:i ;  ! klas0i>i2>in:klass0>i>in ja vuossiin
-          Cns:*  Vowel     [n|l|r]     t:s _ [e:|i:]   %> i2:i %> %^V: ;  ! hirssii(n). Ihmeellisestivain t:s toimii, :s antaa paljon virheitä kaikkialla. 22 lisää.
-          Cns:*  Vowel     [n|l|r]     t:s _     :i    %> [:i - i3:] (i2:i) ;  ! to be fixed. Seems to not do anything?
+ 0:s <=>  Cns:*  Vowel:* Vowel (Vowel:) :s _      :i    %> [:i - i3:] (i2:i) ;  ! to be fixed
+          Cns:*  Vowel:* Vowel (Vowel:) :s _  [e:|i:]   %> i2:i %> %^V:i ;  ! klas0i>i2>in:klass0>i>in ja vuossiin
+          Cns:*  Vowel     [n|l|r]     t:s _  [e:|i:]   %> i2:i %> %^V: ;  ! hirssii(n). Ihmeellisestivain t:s toimii, :s antaa paljon virheitä kaikkialla. 22 lisää.
+          Cns:*  Vowel     [n|l|r]     t:s _      :i    %> [:i - i3:] (i2:i) ;  ! to be fixed. Seems to not do anything?
+                                       t:s  _  e:i  %^E2I:0       %> i5: ; ! uussii
+!                          u   u       t    0  e     ^E2I            %> i5  etc. %>m^A%>t
 
-
+! uussii uute ^E2I%>i5
 
 !!€ vuot0e>i2>^V>n
 !!€ vuoss0>i>i>n
@@ -763,7 +765,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 "e:i in nom.sg. of e-stems"
 !! __@RULENAME@__
 ! e:i <=> Cns: _ %^E2I:0 [#:|.#.|%> \[i2:|%^HMETA:0] ] ;
- e:i <=> Cns: _ %^E2I:0 [#:|.#.|%> \i2:] ;
+ e:i <=> Cns: (0:Cns) _ %^E2I:0 [#:|.#.|%> i5: |%> \i2:] ;
+!    uu   t   e ^E2I            %>    i5 %>m^A%>t
 
 !!€ ove^E2I
 !!€ ovi0
@@ -776,6 +779,7 @@ j:0 <=> l _ e: %^E2I:0 ;
                               :Cns _  (%^E2I:0) %^HMETA:0 %> h [%^V:|i] ;
                               :Cns _  %^VDEL:0  (Dummy:) %> [s|t] ;
                       Cns i e :Cns _ %> t e n ; !kielten sienten
+
 
 ! kieleten
 !!€ ytime^HMETA>h^V^V>
