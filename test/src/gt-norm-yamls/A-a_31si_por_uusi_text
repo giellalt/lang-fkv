@@ -16,20 +16,20 @@ Tests:
 
   Noun - uusi - ei tsekattu : # Noun 'ny' - ei tsekattu
      uusi+A+Sg+Nom: uusi
-     uusi+A+Sg+Gen: uuđen
+     uusi+A+Sg+Gen: uuen
      uusi+A+Sg+Par: uutta
-     uusi+A+Sg+Tra: uuđeksi
-     uusi+A+Sg+Abe: uuđetta
-     uusi+A+Sg+Ine: uuđessa
-     uusi+A+Sg+Ela: uuđesta
+     uusi+A+Sg+Tra: uueksi
+     uusi+A+Sg+Abe: uuetta
+     uusi+A+Sg+Ine: uuessa
+     uusi+A+Sg+Ela: uuesta
      uusi+A+Sg+Ill: uutheen
-     uusi+A+Sg+Ade: uuđela
-     uusi+A+Sg+Abl: uuđelta
-     uusi+A+Sg+All: uuđele
+     uusi+A+Sg+Ade: uuela
+     uusi+A+Sg+Abl: uuelta
+     uusi+A+Sg+All: uuele
      uusi+A+Sg+Ess: uutena
-     uusi+A+Pl+Nom: uuđet
-     uusi+A+Pl+Gen: uussiin
-     uusi+A+Pl+Par: uussii
+     uusi+A+Pl+Nom: uuet
+     uusi+A+Pl+Gen: uusitten
+     uusi+A+Pl+Par: uusia
      uusi+A+Pl+Tra: uusiksi
      uusi+A+Pl+Abe: uusitta
      uusi+A+Pl+Ine: uusissa
@@ -41,56 +41,54 @@ Tests:
      uusi+A+Pl+Ess: uusina
      uusi+A+Pl+Com: uusine
 
-     uusi+A+Sg+Comp+Nom: uuđempi
-     uusi+A+Sg+Comp+Gen: uuđeman
-     uusi+A+Sg+Comp+Par: uuđemppaa
-     uusi+A+Sg+Comp+Tra: uuđemaksi
-     uusi+A+Sg+Comp+Abe: uuđematta
-     uusi+A+Sg+Comp+Ine: uuđemassa
-     uusi+A+Sg+Comp+Ela: uuđemasta
-     uusi+A+Sg+Comp+Ill: uuđemphaan
-     uusi+A+Sg+Comp+Ade: uuđemalla
-     uusi+A+Sg+Comp+Abl: uuđemalta
-     uusi+A+Sg+Comp+All: uuđemalle
-     uusi+A+Sg+Comp+Ess: uuđempanna
-     uusi+A+Pl+Comp+Nom: uuđemat
-     uusi+A+Pl+Comp+Gen: uuđemitten
-     uusi+A+Pl+Comp+Par: [uuđemppii, uuđemppiita]
-     uusi+A+Pl+Comp+Tra: uuđemiksi
-     uusi+A+Pl+Comp+Abe: uuđemitta
-     uusi+A+Pl+Comp+Ine: uuđemissa
-     uusi+A+Pl+Comp+Ela: uuđemista
-     uusi+A+Pl+Comp+Ill: uuđemphiin
-     uusi+A+Pl+Comp+Ade: uuđemilla
-     uusi+A+Pl+Comp+Abl: uuđemilta
-     uusi+A+Pl+Comp+All: uuđemille
-     uusi+A+Pl+Comp+Ess: uuđempinna
-     uusi+A+Pl+Comp+Com: uuđempine
+     uusi+A+Sg+Comp+Nom: uuempi
+     uusi+A+Sg+Comp+Gen: uueman
+     uusi+A+Sg+Comp+Par: uuemppaa
+     uusi+A+Sg+Comp+Tra: uuemaksi
+     uusi+A+Sg+Comp+Abe: uuematta
+     uusi+A+Sg+Comp+Ine: uuemassa
+     uusi+A+Sg+Comp+Ela: uuemasta
+     uusi+A+Sg+Comp+Ill: uuemphaan
+     uusi+A+Sg+Comp+Ade: uuemalla
+     uusi+A+Sg+Comp+Abl: uuemalta
+     uusi+A+Sg+Comp+All: uuemalle
+     uusi+A+Sg+Comp+Ess: uuempanna
+     uusi+A+Pl+Comp+Nom: uuemat
+     uusi+A+Pl+Comp+Gen: uuemitten
+     uusi+A+Pl+Comp+Par: uuempia
+     uusi+A+Pl+Comp+Tra: uuemiksi
+     uusi+A+Pl+Comp+Abe: uuemitta
+     uusi+A+Pl+Comp+Ine: uuemissa
+     uusi+A+Pl+Comp+Ela: uuemista
+     uusi+A+Pl+Comp+Ill: uuemphiin
+     uusi+A+Pl+Comp+Ade: uuemilla
+     uusi+A+Pl+Comp+Abl: uuemilta
+     uusi+A+Pl+Comp+All: uuemille
+     uusi+A+Pl+Comp+Ess: uuempinna
+     uusi+A+Pl+Comp+Com: uuempine
 
-# Eira sanoi, että Por varieteetissä on kaksi s:ää, jos siinä on kaksi i:tä.
-
-     uusi+A+Sg+Superl+Nom: uussiin
-     uusi+A+Sg+Superl+Gen: uussiiman
-     uusi+A+Sg+Superl+Par: uussiinta
-     uusi+A+Sg+Superl+Tra: uussiimaksi
-     uusi+A+Sg+Superl+Abe: uussiimatta
-     uusi+A+Sg+Superl+Ine: uussiimassa
-     uusi+A+Sg+Superl+Ela: uussiimasta
-     uusi+A+Sg+Superl+Ill: uussiimphaan
-     uusi+A+Sg+Superl+Ade: uussiimalla
-     uusi+A+Sg+Superl+Abl: uussiimalta
-     uusi+A+Sg+Superl+All: uussiimalle
-     uusi+A+Sg+Superl+Ess: uussiimpanna
-     uusi+A+Pl+Superl+Nom: uussiimat
-     uusi+A+Pl+Superl+Gen: uussiimitten
-     uusi+A+Pl+Superl+Par: [uussiimppii, uussiimppiita]
-     uusi+A+Pl+Superl+Tra: uussiimiksi
-     uusi+A+Pl+Superl+Abe: uussiimitta
-     uusi+A+Pl+Superl+Ine: uussiimissa
-     uusi+A+Pl+Superl+Ela: uussiimista
-     uusi+A+Pl+Superl+Ill: uussiimphiin
-     uusi+A+Pl+Superl+Ade: uussiimilla
-     uusi+A+Pl+Superl+Abl: uussiimilta
-     uusi+A+Pl+Superl+All: uussiimille
-     uusi+A+Pl+Superl+Ess: uussiimpinna
-     uusi+A+Pl+Superl+Com: uussiimpine
+     uusi+A+Sg+Superl+Nom: uusiin
+     uusi+A+Sg+Superl+Gen: uusiiman
+     uusi+A+Sg+Superl+Par: uusiinta
+     uusi+A+Sg+Superl+Tra: uusiimaksi
+     uusi+A+Sg+Superl+Abe: uusiimatta
+     uusi+A+Sg+Superl+Ine: uusiimassa
+     uusi+A+Sg+Superl+Ela: uusiimasta
+     uusi+A+Sg+Superl+Ill: uusiimphaan
+     uusi+A+Sg+Superl+Ade: uusiimalla
+     uusi+A+Sg+Superl+Abl: uusiimalta
+     uusi+A+Sg+Superl+All: uusiimalle
+     uusi+A+Sg+Superl+Ess: uusiimpanna
+     uusi+A+Pl+Superl+Nom: uusiimat
+     uusi+A+Pl+Superl+Gen: uusiimitten
+     uusi+A+Pl+Superl+Par: uusiimpia
+     uusi+A+Pl+Superl+Tra: uusiimiksi
+     uusi+A+Pl+Superl+Abe: uusiimitta
+     uusi+A+Pl+Superl+Ine: uusiimissa
+     uusi+A+Pl+Superl+Ela: uusiimista
+     uusi+A+Pl+Superl+Ill: uusiimphiin
+     uusi+A+Pl+Superl+Ade: uusiimilla
+     uusi+A+Pl+Superl+Abl: uusiimilta
+     uusi+A+Pl+Superl+All: uusiimille
+     uusi+A+Pl+Superl+Ess: uusiimpinna
+     uusi+A+Pl+Superl+Com: uusiimpine
