@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - nainen - ok : # Noun 'menneske' - ok
@@ -28,7 +28,7 @@ Tests:
      nainen+N+Sg+All: naisele
      nainen+N+Sg+Ess: naisena
      nainen+N+Pl+Nom: naiset
-     nainen+N+Pl+Gen: naisten
+     nainen+N+Pl+Gen: naisten # -ten sanoille, jotka loppuvat -nen. Muille sanaryhmille on -tten. Paitsi Por ja Rai varieteetissä. Var varieteetti voi myös saada -ien.
      nainen+N+Pl+Par: naissii
      nainen+N+Pl+Tra: naisiksi
      nainen+N+Pl+Abe: naisitta
