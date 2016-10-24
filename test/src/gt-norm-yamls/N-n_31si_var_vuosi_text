@@ -16,18 +16,18 @@ Tests:
 
   Noun - vuosi - ok : # Noun 'år' n_31si - ok
      vuosi+N+Sg+Nom: vuosi
-     vuosi+N+Sg+Gen: vuuen
+     vuosi+N+Sg+Gen: [vuoen, vuojen, vuuen]
      vuosi+N+Sg+Par: vuotta
-     vuosi+N+Sg+Tra: vuueksi
-     vuosi+N+Sg+Abe: vuuetta
-     vuosi+N+Sg+Ine: vuuessa
-     vuosi+N+Sg+Ela: vuuesta
+     vuosi+N+Sg+Tra: [vuoeksi, vuojeksi, vuueksi]
+     vuosi+N+Sg+Abe: [vuoetta, vuojetta, vuuetta]
+     vuosi+N+Sg+Ine: [vuoessa, vuojessa, vuuessa]
+     vuosi+N+Sg+Ela: [vuoesta, vuojesta, vuuesta]
      vuosi+N+Sg+Ill: vuotheen
-     vuosi+N+Sg+Ade: vuuela
-     vuosi+N+Sg+Abl: vuuelta
-     vuosi+N+Sg+All: vuuele
+     vuosi+N+Sg+Ade: [vuoela, vuojela, vuuela]
+     vuosi+N+Sg+Abl: [vuoelta, vuojelta, vuuelta]
+     vuosi+N+Sg+All: [vuoele, vuojele, vuuele]
      vuosi+N+Sg+Ess: vuotena
-     vuosi+N+Pl+Nom: vuuet
+     vuosi+N+Pl+Nom: [vuoet, vuojet, vuuet]
      vuosi+N+Pl+Gen: vuositten
      vuosi+N+Pl+Par: vuosia
      vuosi+N+Pl+Tra: vuosiksi
