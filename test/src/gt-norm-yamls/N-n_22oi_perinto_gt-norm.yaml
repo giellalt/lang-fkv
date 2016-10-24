@@ -11,13 +11,13 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - perintö - ei tsekattu : # Noun 'arv' - ei tsekattu
      perintö+N+Sg+Nom: perintö
      perintö+N+Sg+Gen: perinön
-     perintö+N+Sg+Par: perinttöö
+     perintö+N+Sg+Par: [perinttöö, perintöä] # perintöä muissa kuin Por ja Rai varieteeteissä
      perintö+N+Sg+Tra: perinöksi
      perintö+N+Sg+Abe: perinöttä
      perintö+N+Sg+Ine: perinössä
