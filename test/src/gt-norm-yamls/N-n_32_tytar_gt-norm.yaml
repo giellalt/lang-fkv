@@ -11,13 +11,13 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - tytär - ok : # Noun 'daughter' - n_32 tyttär ok
-     tytär+N+Sg+Nom: tytär
+     tytär+N+Sg+Nom: [tytär, tyär] # tyär muissa kuin Por varieteetissä?
      tytär+N+Sg+Gen: tyttären
-     tytär+N+Sg+Par: tytärtä
+     tytär+N+Sg+Par: [tytärtä, tyärtä] # tyärtä muissa kuin Por varieteetissä? 
      tytär+N+Sg+Tra: tyttäreksi
      tytär+N+Sg+Abe: tyttärettä
      tytär+N+Sg+Ine: tyttäressä
