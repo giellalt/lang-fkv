@@ -17,7 +17,7 @@ Tests:
   Noun - joki - ok : # Noun 'river' - ok
      joki+N+Sg+Nom: joki
      joki+N+Sg+Gen: joven
-     joki+N+Sg+Par: [jokkee, jokea, jokia] # jokea jok varieteetissä ja jokia var varieteetissä. 
+     joki+N+Sg+Par: [jokkee, jokea, jokia] # jokea jok varieteetissä ja jokia var varieteetissä.
      joki+N+Sg+Tra: joveksi
      joki+N+Sg+Abe: jovetta
      joki+N+Sg+Ine: jovessa
@@ -28,7 +28,7 @@ Tests:
      joki+N+Sg+All: jovele
      joki+N+Sg+Ess: jokena
      joki+N+Pl+Nom: jovet
-     joki+N+Pl+Gen: jokkiin
+     joki+N+Pl+Gen: [jokkiin, joitten] # joitten muissa kuin por ja rai varieteeteissä. 
      joki+N+Pl+Par: jokkii
      joki+N+Pl+Tra: joviksi
      joki+N+Pl+Abe: jovitta
