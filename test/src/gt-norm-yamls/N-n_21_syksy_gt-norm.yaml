@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: rerun analyser, then correct. 
+# Then: rerun analyser, then correct.
 
 
   Noun - syksy - ei tsekattu : # Noun 'høst' n_21 - ei tsekattu
@@ -28,7 +28,7 @@ Tests:
      syksy+N+Sg+All: syksyle
      syksy+N+Sg+Ess: syksynä
      syksy+N+Pl+Nom: syksyt
-     syksy+N+Pl+Gen: [syksyin, syksyitten]
+     syksy+N+Pl+Gen: [syksyin, syksyitten] # syksyin on Por ja Rai varieteetissä. 
      syksy+N+Pl+Par: syksyi
      syksy+N+Pl+Tra: syksyiksi
      syksy+N+Pl+Abe: syksyittä
@@ -40,4 +40,3 @@ Tests:
      syksy+N+Pl+All: syksyile
      syksy+N+Pl+Ess: syksyinä
      syksy+N+Pl+Com: syksyine
-     
