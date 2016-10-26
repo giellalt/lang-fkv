@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - suomi - ok : # Noun 'Finland' n_21ie - ei tsekattu
@@ -29,7 +29,7 @@ Tests:
      suomi+N+Sg+Ess: suomena
      suomi+N+Pl+Nom: suomet
      suomi+N+Pl+Gen: suomiin
-     suomi+N+Pl+Par: suomii
+     suomi+N+Pl+Par: [suomii, suomia] # suomia var ja jok varieteeteissä. suomii por ja rai varieteeteissä. 
      suomi+N+Pl+Tra: suomiksi
      suomi+N+Pl+Ine: suomissa
      suomi+N+Pl+Ela: suomista
