@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - linna - ok : # Noun 'borg' - ok
@@ -28,7 +28,7 @@ Tests:
      linna+N+Sg+All: linnale
      linna+N+Sg+Ess: linnana
      linna+N+Pl+Nom: linnat
-     linna+N+Pl+Gen: [linnoin, linnoitten]
+     linna+N+Pl+Gen: [linnoin, linnoitten] # linnoin por ja rai varieteeteissä. linnoitten var ja jok varieteeteissä.
      linna+N+Pl+Par: linnoi
      linna+N+Pl+Tra: linnoiksi
      linna+N+Pl+Abe: linnoitta
@@ -40,4 +40,3 @@ Tests:
      linna+N+Pl+All: linnoile
      linna+N+Pl+Ess: linnoina
      linna+N+Pl+Com: linnoine
-     
