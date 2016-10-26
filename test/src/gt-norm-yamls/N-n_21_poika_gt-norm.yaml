@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - poika - ok : # Noun 'boy' - ok
@@ -28,7 +28,7 @@ Tests:
      poika+N+Sg+All: pojale
      poika+N+Sg+Ess: poikana
      poika+N+Pl+Nom: pojat
-     poika+N+Pl+Gen: [poikkiin, pojitten]
+     poika+N+Pl+Gen: [poikkiin, pojitten] # poikkiin por ja rai varieteetissä. pojitten var ja jok varieteetissä. 
      poika+N+Pl+Par: poikkii
      poika+N+Pl+Tra: pojiksi
      poika+N+Pl+Abe: pojitta
@@ -40,4 +40,3 @@ Tests:
      poika+N+Pl+All: pojile
      poika+N+Pl+Ess: poikina
      poika+N+Pl+Com: poikine
-     
