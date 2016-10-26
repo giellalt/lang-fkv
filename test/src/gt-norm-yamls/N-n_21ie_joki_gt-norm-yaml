@@ -11,13 +11,13 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - joki - ok : # Noun 'river' - ok
      joki+N+Sg+Nom: joki
      joki+N+Sg+Gen: joven
-     joki+N+Sg+Par: jokkee
+     joki+N+Sg+Par: [jokkee, jokea, jokia] # jokea jok varieteetissä ja jokia var varieteetissä. 
      joki+N+Sg+Tra: joveksi
      joki+N+Sg+Abe: jovetta
      joki+N+Sg+Ine: jovessa
