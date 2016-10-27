@@ -11,11 +11,11 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun -  - ei tsekattu : # Noun '' - ei tsekattu
-  
+
      kaunis+A+Sg+Nom: kaunis
      kaunis+A+Sg+Gen: kaunhiin
      kaunis+A+Sg+Par: kaunista
@@ -28,7 +28,7 @@ Tests:
      kaunis+A+Sg+Abl: kaunhiilta
      kaunis+A+Sg+All: kaunhiile
      kaunis+A+Sg+Ess: kaunhiina
-     
+
      kaunis+A+Pl+Nom: kaunhiit
      kaunis+A+Pl+Gen: [kaunhiitten, kaunhijen]
      kaunis+A+Pl+Par: kaunhiita
@@ -42,7 +42,7 @@ Tests:
      kaunis+A+Pl+All: kaunhiile
      kaunis+A+Pl+Com: kaunhiine
      kaunis+A+Pl+Ess: kaunhiina
-     
+
      kaunis+A+Sg+Comp+Nom: kaunhiimpi
      kaunis+A+Sg+Comp+Gen: kaunhiiman
      kaunis+A+Sg+Comp+Par: kaunhiimppaa
@@ -55,7 +55,7 @@ Tests:
      kaunis+A+Sg+Comp+Abl: kaunhiimalta
      kaunis+A+Sg+Comp+All: kaunhiimalle
      kaunis+A+Sg+Comp+Ess: kaunhiimpanna
-     
+
      kaunis+A+Pl+Comp+Nom: kaunhiimat
      kaunis+A+Pl+Comp+Gen: kaunhiimiitten
      kaunis+A+Pl+Comp+Par: [kaunhiimppii, kaunhiimppiita, kaunhiimpia]
@@ -69,7 +69,7 @@ Tests:
      kaunis+A+Pl+Comp+All: kaunhiimille
      kaunis+A+Pl+Comp+Ess: kaunhiimpinna
      kaunis+A+Pl+Comp+Com: kaunhiimpine
-     
+
      kaunis+A+Sg+Superl+Nom: kaunhiin
      kaunis+A+Sg+Superl+Gen: kaunhiiman
      kaunis+A+Sg+Superl+Par: kaunhiinta
@@ -82,9 +82,9 @@ Tests:
      kaunis+A+Sg+Superl+Abl: kaunhiimalta
      kaunis+A+Sg+Superl+All: kaunhiimalle
      kaunis+A+Sg+Superl+Ess: kaunhiimpanna
-     
+
      kaunis+A+Pl+Superl+Nom: kaunhiimat
-     kaunis+A+Pl+Superl+Gen: kaunhiimiitten
+     kaunis+A+Pl+Superl+Gen: [kaunhiimiitten, kaunhiimitten] # kaunhiimiitten por ja rai varieteeteissä. kaunhiimitten muissa. 
      kaunis+A+Pl+Superl+Par: [kaunhiimppiita, kaunhiimppii, kaunhiimpia]
      kaunis+A+Pl+Superl+Tra: kaunhiimiksi
      kaunis+A+Pl+Superl+Abe: kaunhiimitta
@@ -96,4 +96,3 @@ Tests:
      kaunis+A+Pl+Superl+All: kaunhiimille
      kaunis+A+Pl+Superl+Ess: kaunhiimpinna
      kaunis+A+Pl+Superl+Com: kaunhiimpine
-
