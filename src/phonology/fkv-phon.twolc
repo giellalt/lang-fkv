@@ -35,11 +35,11 @@ FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            !!= * @CODE@
 BackVowel = a o u å ;                                       !!= * @CODE@
 ArchiVowel =  %^A %^O %^U ;                                 !!= * @CODE@
 SomeVowel = %^V ;                                           !!= * @CODE@
-NeutralVowel = e i ;                                        !!= * @CODE@
+NeutralVowel = e i i2 i3 i4 i5 i6 i7 ;                      !!= * @CODE@
 Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;       !!= * @CODE@
 NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;       !!= * @CODE@
 NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;       !!= * @CODE@
-NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o  å ;       !!= * @CODE@
+NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o   å ;       !!= * @CODE@
 NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;             !!= * @CODE@
 NotOUI  = e                     y ä ö ü æ ø a ;             !!= * @CODE@
 NotOUIY = e                       ä ö   æ ø a ;             !!= * @CODE@
@@ -642,7 +642,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Back harmony"
 !! __@RULENAME@__
- Vx:Vy <=> BackVowel: NonFront:* (:NonFront) NonFront:* %> NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;
+ Vx:Vy <=> BackVowel: NonFront:* (:NonFront) NonFront:* NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;
          where Vx in ( %^A %^O %^U )
                Vy in (   a   o   u )
          matched ;
