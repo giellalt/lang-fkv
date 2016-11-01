@@ -68,8 +68,11 @@ Tests:
      sininen+A+Pl+Comp+Com: sinisempine
 
 # Superlatiivissa on aina pitkä vokaali. Siksi on aina vain kaksi m.
+# Se on vain Por varieteetissä, että on kaksi s:ä kahden -i:n edessä.
+# Var varieteetissä on mahdollista käyttää lyhyttä i:tä superlatiivissa, vaikka se ei ole tavallista. Kainun kielen grammatikki (2014) s.183.
+
      sininen+A+Sg+Superl+Gen: sinisiimän,
-     sininen+A+Sg+Superl+Par: sinisiintä  # yksi (s) Eira syks 2013 s.106 tai 147
+     sininen+A+Sg+Superl+Par: sinisiintä
      sininen+A+Sg+Superl+Tra: sinisiimäksi
      sininen+A+Sg+Superl+Abe: sinisiimättä
      sininen+A+Sg+Superl+Ine: sinisiimässä
@@ -81,7 +84,7 @@ Tests:
      sininen+A+Sg+Superl+Ess: sinisiimpänä
      sininen+A+Pl+Superl+Nom: sinisiimät
      sininen+A+Pl+Superl+Gen: sinisiimitten
-     sininen+A+Pl+Superl+Par: sinisiimpiä # yksi (s) Eira syks 2013 s.106 tai 147
+     sininen+A+Pl+Superl+Par: sinisiimpiä
      sininen+A+Pl+Superl+Tra: sinisiimiksi
      sininen+A+Pl+Superl+Abe: sinisiimittä
      sininen+A+Pl+Superl+Ine: sinisiimissä
