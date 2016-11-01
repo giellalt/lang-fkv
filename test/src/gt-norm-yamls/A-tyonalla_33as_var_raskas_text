@@ -1,0 +1,100 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+
+     raskas+A+Sg+Nom: raskas
+     raskas+A+Sg+Gen: raskhaan
+     raskas+A+Sg+Par: raskasta
+     raskas+A+Sg+Tra: raskhaaksi
+     raskas+A+Sg+Abe: raskhaatta
+     raskas+A+Sg+Ine: raskhaassa
+     raskas+A+Sg+Ela: raskhaasta
+     raskas+A+Sg+Ill: raskhaasseen
+     raskas+A+Sg+Ade: raskhaala
+     raskas+A+Sg+Abl: raskhaalta
+     raskas+A+Sg+All: raskhaale
+     raskas+A+Sg+Ess: raskhaana
+
+     raskas+A+Pl+Nom: raskhaat
+     raskas+A+Pl+Gen: [raskhaitten, raskhajen] 
+     raskas+A+Pl+Par: [raskhaita, raskhaja]
+     raskas+A+Pl+Tra: raskhaiksi
+     raskas+A+Pl+Abe: raskhaitta
+     raskas+A+Pl+Ine: raskhaissa
+     raskas+A+Pl+Ela: raskhaista
+     raskas+A+Pl+Ill: raskhaissiin
+     raskas+A+Pl+Ade: raskhaila
+     raskas+A+Pl+Abl: raskhailta
+     raskas+A+Pl+All: raskhaile
+     raskas+A+Pl+Com: raskhaine
+     raskas+A+Pl+Ess: raskhaina
+
+     raskas+A+Sg+Comp+Nom: raskhaampi
+     raskas+A+Sg+Comp+Gen: raskhaaman
+     raskas+A+Sg+Comp+Par: raskhaamppaa
+     raskas+A+Sg+Comp+Tra: raskhaamaksi
+     raskas+A+Sg+Comp+Abe: raskhaamatta
+     raskas+A+Sg+Comp+Ine: raskhaamassa
+     raskas+A+Sg+Comp+Ela: raskhaamasta
+     raskas+A+Sg+Comp+Ill: raskhaamphaan
+     raskas+A+Sg+Comp+Ade: raskhaamalla
+     raskas+A+Sg+Comp+Abl: raskhaamalta
+     raskas+A+Sg+Comp+All: raskhaamalle
+     raskas+A+Sg+Comp+Ess: raskhaampanna
+
+     raskas+A+Pl+Comp+Nom: raskhaamat
+     raskas+A+Pl+Comp+Gen: raskhaamitten
+     raskas+A+Pl+Comp+Par: [raskhaampia, raskhaamppiita] # rinnakkaiset variantit?
+     raskas+A+Pl+Comp+Tra: raskhaamiksi
+     raskas+A+Pl+Comp+Abe: raskhaamitta
+     raskas+A+Pl+Comp+Ine: raskhaamissa
+     raskas+A+Pl+Comp+Ela: raskhaamista
+     raskas+A+Pl+Comp+Ill: raskhaamphiin
+     raskas+A+Pl+Comp+Ade: raskhaamilla
+     raskas+A+Pl+Comp+Abl: raskhaamilta
+     raskas+A+Pl+Comp+All: raskhaamille
+     raskas+A+Pl+Comp+Ess: raskhaampinna
+     raskas+A+Pl+Comp+Com: raskhaampine
+
+     raskas+A+Sg+Superl+Nom: raskhain
+     raskas+A+Sg+Superl+Gen: raskhaiman
+     raskas+A+Sg+Superl+Par: raskhainta
+     raskas+A+Sg+Superl+Tra: raskhaimaksi
+     raskas+A+Sg+Superl+Abe: raskhaimatta
+     raskas+A+Sg+Superl+Ine: raskhaimassa
+     raskas+A+Sg+Superl+Ela: raskhaimasta
+     raskas+A+Sg+Superl+Ill: raskhaimphaan
+     raskas+A+Sg+Superl+Ade: raskhaimalla
+     raskas+A+Sg+Superl+Abl: raskhaimalta
+     raskas+A+Sg+Superl+All: raskhaimalle
+     raskas+A+Sg+Superl+Ess: raskhaimpanna
+
+     # kaksi i:tä pl superl genitiivissä on vain por ja rai varieteeteissä.
+
+     raskas+A+Pl+Superl+Nom: raskhaimat
+     raskas+A+Pl+Superl+Gen: raskhaimitten
+     raskas+A+Pl+Superl+Par: [raskhaimpia, raskhaimppiita] # rinnakkaiset variantit?
+     raskas+A+Pl+Superl+Tra: raskhaimiksi
+     raskas+A+Pl+Superl+Abe: raskhaimitta
+     raskas+A+Pl+Superl+Ine: raskhaimissa
+     raskas+A+Pl+Superl+Ela: raskhaimista
+     raskas+A+Pl+Superl+Ill: raskhaimphiin
+     raskas+A+Pl+Superl+Ade: raskhaimilla
+     raskas+A+Pl+Superl+Abl: raskhaimilta
+     raskas+A+Pl+Superl+All: raskhaimille
+     raskas+A+Pl+Superl+Ess: raskhaimpinna
+     raskas+A+Pl+Superl+Com: raskhaimpine
