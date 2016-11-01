@@ -11,13 +11,13 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - paivukko - ei tsekattu : # Noun 'borg' - ES ok
-     paivukko+N+Sg+Nom: paivukko
+     paivukko+N+Sg+Nom: paivukko 
      paivukko+N+Sg+Gen: paivukon
-     paivukko+N+Sg+Par: paivukkoo
+     paivukko+N+Sg+Par: paivukkoo # paivukkoa var ja jok varieteeteissä.
      paivukko+N+Sg+Tra: paivukoksi
      paivukko+N+Sg+Abe: paivukotta
      paivukko+N+Sg+Ine: paivukossa
