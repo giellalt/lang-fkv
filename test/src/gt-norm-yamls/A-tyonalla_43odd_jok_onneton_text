@@ -1,0 +1,98 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ihminen - ei tsekattu : # Noun 'unhappy' - ei tsekattu
+     onneton+A+Sg+Nom: onneton
+     onneton+A+Sg+Gen: onnettoman
+     onneton+A+Sg+Par: onnetonta
+     onneton+A+Sg+Tra: onnettomaksi
+     onneton+A+Sg+Abe: onnettomatta
+     onneton+A+Sg+Ine: onnettomassa
+     onneton+A+Sg+Ela: onnettomasta
+     onneton+A+Sg+Ill: onnettomhaan
+     onneton+A+Sg+Ade: onnettomala
+     onneton+A+Sg+Abl: onnettomalta
+     onneton+A+Sg+All: onnettomale
+     onneton+A+Sg+Ess: onnettomana
+     onneton+A+Pl+Nom: onnettomat
+     onneton+A+Pl+Gen: onnettommiin
+     onneton+A+Pl+Par: onnettommiita
+     onneton+A+Pl+Tra: onnettomiksi
+     onneton+A+Pl+Abe: onnettomitta
+     onneton+A+Pl+Ine: onnettomissa
+     onneton+A+Pl+Ela: onnettomista
+     onneton+A+Pl+Ill: onnettomhiin
+     onneton+A+Pl+Ade: onnettomila
+     onneton+A+Pl+Abl: onnettomilta
+     onneton+A+Pl+All: onnettomile
+     onneton+A+Pl+Ess: onnettomina
+     onneton+A+Pl+Com: onnettomine
+
+     onneton+A+Sg+Comp+Nom: onnettomampi
+     onneton+A+Sg+Comp+Gen: onnettomaman
+     onneton+A+Sg+Comp+Par: onnettomamppaa
+     onneton+A+Sg+Comp+Tra: onnettomamaksi
+     onneton+A+Sg+Comp+Abe: onnettomamatta
+     onneton+A+Sg+Comp+Ine: onnettomamassa
+     onneton+A+Sg+Comp+Ela: onnettomamasta
+     onneton+A+Sg+Comp+Ill: onnettomamphaan
+     onneton+A+Sg+Comp+Ade: onnettomamalla
+     onneton+A+Sg+Comp+Abl: onnettomamalta
+     onneton+A+Sg+Comp+All: onnettomamalle
+     onneton+A+Sg+Comp+Ess: onnettomampanna
+     onneton+A+Pl+Comp+Nom: onnettomamat
+     onneton+A+Pl+Comp+Gen: onnettomamppiin
+     onneton+A+Pl+Comp+Par: [onnettomampia, onnettomamppiita] # onnettomamppiita kaikissa dialekteissa.
+     onneton+A+Pl+Comp+Tra: onnettomamiksi
+     onneton+A+Pl+Comp+Abe: onnettomamitta
+     onneton+A+Pl+Comp+Ine: onnettomamissa
+     onneton+A+Pl+Comp+Ela: onnettomamista
+     onneton+A+Pl+Comp+Ill: onnettomamphiin
+     onneton+A+Pl+Comp+Ade: onnettomamilla
+     onneton+A+Pl+Comp+Abl: onnettomamilta
+     onneton+A+Pl+Comp+All: onnettomamille
+     onneton+A+Pl+Comp+Ess: onnettomampinna
+     onneton+A+Pl+Comp+Com: onnettomampine
+
+     # Eira sanoi, että on aina lyhyt -m superlatiivissa, kun siinä oon aina kaksi ii:tä.
+     # Poikkeus oon var varieteetissä, jossa lyhyt i:llinen superlatiivi (-in) on mahdollista, vaikka se on vähän harvinainen.
+     # Se on vain kaksitavuiset nomenit, jotka por ja rai varieteetissä voivat saada vahvan vartalon ja päätteen -in pl genitiivissä.
+
+     onneton+A+Sg+Superl+Nom: onnettommiin # pitäisi tarkistaa kuuluuko tähän olla kaksi m:ä? 
+     onneton+A+Sg+Superl+Gen: onnettommiiman
+     onneton+A+Sg+Superl+Par: onnettommiinta
+     onneton+A+Sg+Superl+Tra: onnettommiimaksi
+     onneton+A+Sg+Superl+Abe: onnettommiimatta
+     onneton+A+Sg+Superl+Ine: onnettommiimassa
+     onneton+A+Sg+Superl+Ela: onnettommiimasta
+     onneton+A+Sg+Superl+Ill: onnettommiimphaan
+     onneton+A+Sg+Superl+Ade: onnettommiimalla
+     onneton+A+Sg+Superl+Abl: onnettommiimalta
+     onneton+A+Sg+Superl+All: onnettommiimalle
+     onneton+A+Sg+Superl+Ess: onnettommiimpanna
+     onneton+A+Pl+Superl+Nom: onnettommiimat
+     onneton+A+Pl+Superl+Gen: onnettommiimitten
+     onneton+A+Pl+Superl+Par: [onnettommiimpia, onnettommiimppiita] # onnettommiimppiita on mahdollista kaikissa varieteeteissä?
+     onneton+A+Pl+Superl+Tra: onnettommiimiksi
+     onneton+A+Pl+Superl+Abe: onnettommiimitta
+     onneton+A+Pl+Superl+Ine: onnettommiimissa
+     onneton+A+Pl+Superl+Ela: onnettommiimista
+     onneton+A+Pl+Superl+Ill: onnettommiimphiin
+     onneton+A+Pl+Superl+Ade: onnettommiimilla
+     onneton+A+Pl+Superl+Abl: onnettommiimilta
+     onneton+A+Pl+Superl+All: onnettommiimille
+     onneton+A+Pl+Superl+Ess: onnettommiimpinna
+     onneton+A+Pl+Superl+Com: onnettommiimpine
