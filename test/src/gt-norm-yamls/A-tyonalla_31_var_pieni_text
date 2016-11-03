@@ -1,0 +1,97 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct.
+
+
+  Noun - pieni - ei tsekattu : # Noun 'small' - ei tsekattu
+     pieni+A+Sg+Nom: pieni
+     pieni+A+Sg+Gen: pienen
+     pieni+A+Sg+Par: pientä
+     pieni+A+Sg+Tra: pieneksi
+     pieni+A+Sg+Abe: pienettä
+     pieni+A+Sg+Ine: pienessä
+     pieni+A+Sg+Ela: pienestä
+     pieni+A+Sg+Ill: pienheen
+     pieni+A+Sg+Ade: pienelä
+     pieni+A+Sg+Abl: pieneltä
+     pieni+A+Sg+All: pienele
+     pieni+A+Sg+Ess: pienenä
+     pieni+A+Pl+Nom: pienet
+     pieni+A+Pl+Gen: [pienitten, pienten] # -ten on mahdollinen tässä sanaryhmässä, mutta se ei ole johdonmukaisesti toisin kuin sininen- ja veresryhmissä.
+     pieni+A+Pl+Par: pienii
+     pieni+A+Pl+Tra: pieniksi
+     pieni+A+Pl+Abe: pienittä
+     pieni+A+Pl+Ine: pienissä
+     pieni+A+Pl+Ela: pienistä
+     pieni+A+Pl+Ill: pienhiin
+     pieni+A+Pl+Ade: pienilä
+     pieni+A+Pl+Abl: pieniltä
+     pieni+A+Pl+All: pienile
+     pieni+A+Pl+Ess: pieninä
+     pieni+A+Pl+Com: pienine
+
+     pieni+A+Sg+Comp+Nom: pienempi
+     pieni+A+Sg+Comp+Gen: pienemän
+     pieni+A+Sg+Comp+Par: pienemppää
+     pieni+A+Sg+Comp+Tra: pienemäksi
+     pieni+A+Sg+Comp+Abe: pienemättä
+     pieni+A+Sg+Comp+Ine: pienemässä
+     pieni+A+Sg+Comp+Ela: pienemästä
+     pieni+A+Sg+Comp+Ill: pienemphään
+     pieni+A+Sg+Comp+Ade: pienemällä
+     pieni+A+Sg+Comp+Abl: pienemältä
+     pieni+A+Sg+Comp+All: pienemälle
+     pieni+A+Sg+Comp+Ess: pienempännä
+     pieni+A+Pl+Comp+Nom: pienemät
+     pieni+A+Pl+Comp+Gen: pienemitten
+     pieni+A+Pl+Comp+Par: [pienempiä, pienemppiitä] #pienemppiitä mahdollinen rinnakkainen variantti?
+     pieni+A+Pl+Comp+Tra: pienemiksi
+     pieni+A+Pl+Comp+Abe: pienemittä
+     pieni+A+Pl+Comp+Ine: pienemissä
+     pieni+A+Pl+Comp+Ela: pienemistä
+     pieni+A+Pl+Comp+Ill: pienemphiin
+     pieni+A+Pl+Comp+Ade: pienemillä
+     pieni+A+Pl+Comp+Abl: pienemiltä
+     pieni+A+Pl+Comp+All: pienemille
+     pieni+A+Pl+Comp+Ess: pienempinnä
+     pieni+A+Pl+Comp+Com: pienempine
+
+     # Varengin varieteetissä lyhyt -i on myös mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
+     Katso Kainun kielen grammatikin (2014) s.183.
+
+     pieni+A+Sg+Superl+Nom: [pieniin, pienin]
+     pieni+A+Sg+Superl+Gen: [pieniimän, pienimän]
+     pieni+A+Sg+Superl+Par: [pieniintä, pienintä]
+     pieni+A+Sg+Superl+Tra: [pieniimäksi, pienimäksi]
+     pieni+A+Sg+Superl+Abe: [pieniimättä, pienimättä]
+     pieni+A+Sg+Superl+Ine: [pieniimässä, pienimässä]
+     pieni+A+Sg+Superl+Ela: [pieniimästä, pienimästä]
+     pieni+A+Sg+Superl+Ill: [pieniimphään, pienimphään]
+     pieni+A+Sg+Superl+Ade: [pieniimällä, pienimällä]
+     pieni+A+Sg+Superl+Abl: [pieniimältä, pienimältä]
+     pieni+A+Sg+Superl+All: [pieniimälle, pienimälle]
+     pieni+A+Sg+Superl+Ess: [pieniimpännä, pienimpännä]
+     pieni+A+Pl+Superl+Nom: [pieniimät, pienimät]
+     pieni+A+Pl+Superl+Gen: [pieniimitten, pienimitten]
+     pieni+A+Pl+Superl+Par: [pieniimpiä, pienimpiä, pieniimppiitä] # pieniimppiitä rinnakkainen variantti?
+     pieni+A+Pl+Superl+Tra: [pieniimiksi, pienimiksi]
+     pieni+A+Pl+Superl+Abe: [pieniimittä, pienimittä]
+     pieni+A+Pl+Superl+Ine: [pieniimissä, pienimissä]
+     pieni+A+Pl+Superl+Ela: [pieniimistä, pienimistä]
+     pieni+A+Pl+Superl+Ill: [pieniimphiin, pienimphiin]
+     pieni+A+Pl+Superl+Ade: [pieniimillä, pienimillä]
+     pieni+A+Pl+Superl+Abl: [pieniimiltä, pieniimiltä]
+     pieni+A+Pl+Superl+All: [pieniimille, pienimille]
+     pieni+A+Pl+Superl+Ess: [pieniimpinnä, pienempinnä]
+     pieni+A+Pl+Superl+Com: [pieniimpine, pienimpine]
