@@ -1,0 +1,96 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ihminen - ei tsekattu : # Noun 'unchangeable' - ei tsekattu
+     muuttumaton+A+Sg+Nom: muuttumaton
+     muuttumaton+A+Sg+Gen: muuttumattoman
+     muuttumaton+A+Sg+Par: muuttumatonta
+     muuttumaton+A+Sg+Tra: muuttumattomaksi
+     muuttumaton+A+Sg+Abe: muuttumattomatta
+     muuttumaton+A+Sg+Ine: muuttumattomassa
+     muuttumaton+A+Sg+Ela: muuttumattomasta
+     muuttumaton+A+Sg+Ill: muuttumattomhaan
+     muuttumaton+A+Sg+Ade: muuttumattomalla
+     muuttumaton+A+Sg+Abl: muuttumattomalta
+     muuttumaton+A+Sg+All: muuttumattomalle
+     muuttumaton+A+Sg+Ess: muuttumattomana
+     muuttumaton+A+Pl+Nom: muuttumattomat
+     muuttumaton+A+Pl+Gen: muuttumattomiin
+     muuttumaton+A+Pl+Par: muuttumattomiita
+     muuttumaton+A+Pl+Tra: muuttumattomiksi
+     muuttumaton+A+Pl+Abe: muuttumattomitta
+     muuttumaton+A+Pl+Ine: muuttumattomissa
+     muuttumaton+A+Pl+Ela: muuttumattomista
+     muuttumaton+A+Pl+Ill: muuttumattomhiin
+     muuttumaton+A+Pl+Ade: muuttumattomilla
+     muuttumaton+A+Pl+Abl: muuttumattomilta
+     muuttumaton+A+Pl+All: muuttumattomille
+     muuttumaton+A+Pl+Ess: muuttumattominna
+     muuttumaton+A+Pl+Com: muuttumattomine
+
+     muuttumaton+A+Sg+Comp+Nom: muuttumattomampi
+     muuttumaton+A+Sg+Comp+Gen: muuttumattomamman
+     muuttumaton+A+Sg+Comp+Par: muuttumattomamppaa
+     muuttumaton+A+Sg+Comp+Tra: muuttumattomammaksi
+     muuttumaton+A+Sg+Comp+Abe: muuttumattomammatta
+     muuttumaton+A+Sg+Comp+Ine: muuttumattomammassa
+     muuttumaton+A+Sg+Comp+Ela: muuttumattomammasta
+     muuttumaton+A+Sg+Comp+Ill: muuttumattomamphaan
+     muuttumaton+A+Sg+Comp+Ade: muuttumattomammala
+     muuttumaton+A+Sg+Comp+Abl: muuttumattomammalta
+     muuttumaton+A+Sg+Comp+All: muuttumattomammale
+     muuttumaton+A+Sg+Comp+Ess: muuttumattomampana
+     muuttumaton+A+Pl+Comp+Nom: muuttumattomammat
+     muuttumaton+A+Pl+Comp+Gen: muuttumattomamppiin
+     muuttumaton+A+Pl+Comp+Par: [muuttumattomampia, muuttumattomamppiita] # muuttumattomamppiita rinnakkainen variantti.
+     muuttumaton+A+Pl+Comp+Tra: muuttumattomammiksi
+     muuttumaton+A+Pl+Comp+Abe: muuttumattomammitta
+     muuttumaton+A+Pl+Comp+Ine: muuttumattomammissa
+     muuttumaton+A+Pl+Comp+Ela: muuttumattomammista
+     muuttumaton+A+Pl+Comp+Ill: muuttumattomamphiin
+     muuttumaton+A+Pl+Comp+Ade: muuttumattomammila
+     muuttumaton+A+Pl+Comp+Abl: muuttumattomammilta
+     muuttumaton+A+Pl+Comp+All: muuttumattomammile
+     muuttumaton+A+Pl+Comp+Ess: muuttumattomampina
+     muuttumaton+A+Pl+Comp+Com: muuttumattomampine
+
+# Se on vain kaksitavuiset nomenit, jotka por ja rai varieteetissä voivat saada vahvan vartalon ja päätteen -in pl genitiivissä.
+
+     muuttumaton+A+Sg+Superl+Nom: [muuttumattomiin, muuttumattomin]
+     muuttumaton+A+Sg+Superl+Gen: [muuttumattomiiman, muuttumattomiman]
+     muuttumaton+A+Sg+Superl+Par: [muuttumattomiinta, muuttumattominta]
+     muuttumaton+A+Sg+Superl+Tra: [muuttumattomiimaksi, muuttumattomimaksi]
+     muuttumaton+A+Sg+Superl+Abe: [muuttumattomiimatta, muuttumattomimatta]
+     muuttumaton+A+Sg+Superl+Ine: [muuttumattomiimassa, muuttumattomimassa]
+     muuttumaton+A+Sg+Superl+Ela: [muuttumattomiimasta, muuttumattomimasta]
+     muuttumaton+A+Sg+Superl+Ill: [muuttumattomiimphaan, muuttumattomimphaan]
+     muuttumaton+A+Sg+Superl+Ade: [muuttumattomiimala, muuttumattomimala]
+     muuttumaton+A+Sg+Superl+Abl: [muuttumattomiimalta, muuttumattomimalta]
+     muuttumaton+A+Sg+Superl+All: [muuttumattomiimale, muuttumattomimale]
+     muuttumaton+A+Sg+Superl+Ess: [muuttumattomiimpana, muuttumattomimpana]
+     muuttumaton+A+Pl+Superl+Nom: [muuttumattomiimat, muuttumattomimat]
+     muuttumaton+A+Pl+Superl+Gen: [muuttumattomiimitten, muuttumattomimitten]
+     muuttumaton+A+Pl+Superl+Par: [muuttumattomiimpia, muuttumattomiimppiita] # muuttumattomiimppiita rinnakkainen variantti?
+     muuttumaton+A+Pl+Superl+Tra: [muuttumattomiimiksi, muuttumattomimiksi]
+     muuttumaton+A+Pl+Superl+Abe: [muuttumattomiimitta, muuttumattomimitta]
+     muuttumaton+A+Pl+Superl+Ine: [muuttumattomiimissa, muuttumattomimissa]
+     muuttumaton+A+Pl+Superl+Ela: [muuttumattomiimista, muuttumattomimista]
+     muuttumaton+A+Pl+Superl+Ill: [muuttumattomiimphiin, muuttumattomimphiin]
+     muuttumaton+A+Pl+Superl+Ade: [muuttumattomiimila, muuttumattomimila]
+     muuttumaton+A+Pl+Superl+Abl: [muuttumattomiimilta, muuttumattomimilta]
+     muuttumaton+A+Pl+Superl+All: [muuttumattomiimile, muuttumattomimile]
+     muuttumaton+A+Pl+Superl+Ess: [muuttumattomiimpina, muuttumattomimpina]
+     muuttumaton+A+Pl+Superl+Com: [muuttumattomiimpine, muuttumattomimpine]
