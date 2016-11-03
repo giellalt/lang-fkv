@@ -1,0 +1,102 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    app: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun -  - ei tsekattu : # Noun '' - TT: grammatikki s. 107
+
+     loistaava+A+Sg+Nom: loistaava
+     loistaava+A+Sg+Gen: loistaavan
+     loistaava+A+Sg+Par: loistaavaa
+     loistaava+A+Sg+Tra: loistaavaksi
+     loistaava+A+Sg+Abe: loistaavatta
+     loistaava+A+Sg+Ine: loistaavassa
+     loistaava+A+Sg+Ela: loistaavasta
+     loistaava+A+Sg+Ill: loistaavhaan
+     loistaava+A+Sg+Ade: loistaavalla
+     loistaava+A+Sg+Abl: loistaavalta
+     loistaava+A+Sg+All: loistaavalle
+     loistaava+A+Sg+Ess: loistaavanna
+
+     loistaava+A+Pl+Nom: loistaavat
+     loistaava+A+Pl+Gen: loistaaviitten
+     loistaava+A+Pl+Par: loistaavia # myös loistaaviita?
+     loistaava+A+Pl+Tra: loistaaviksi
+     loistaava+A+Pl+Abe: loistaavitta
+     loistaava+A+Pl+Ine: loistaavissa
+     loistaava+A+Pl+Ela: loistaavista
+     loistaava+A+Pl+Ill: loistaavhiin
+     loistaava+A+Pl+Ade: loistaavilla
+     loistaava+A+Pl+Abl: loistaavilta
+     loistaava+A+Pl+All: loistaaville
+     loistaava+A+Pl+Com: loistaavine
+     loistaava+A+Pl+Ess: loistaavinna
+
+     loistaava+A+Sg+Comp+Nom: loistaavampi
+     loistaava+A+Sg+Comp+Gen: loistaavamman
+     loistaava+A+Sg+Comp+Par: loistaavamppaa
+     loistaava+A+Sg+Comp+Tra: loistaavammaksi
+     loistaava+A+Sg+Comp+Abe: loistaavammatta
+     loistaava+A+Sg+Comp+Ine: loistaavammassa
+     loistaava+A+Sg+Comp+Ela: loistaavammasta
+     loistaava+A+Sg+Comp+Ill: loistaavamphaan
+     loistaava+A+Sg+Comp+Ade: loistaavammala
+     loistaava+A+Sg+Comp+Abl: loistaavammalta
+     loistaava+A+Sg+Comp+All: loistaavammale
+     loistaava+A+Sg+Comp+Ess: loistaavampana
+
+     loistaava+A+Pl+Comp+Nom: loistaavammat
+     loistaava+A+Pl+Comp+Gen: loistaavamiitten
+     loistaava+A+Pl+Comp+Par: [loistaavampia, loistaavamppiita] # loistaavamppiita kaikissa kveenimurteissa?
+     loistaava+A+Pl+Comp+Tra: loistaavammiksi
+     loistaava+A+Pl+Comp+Abe: loistaavammitta
+     loistaava+A+Pl+Comp+Ine: loistaavammissa
+     loistaava+A+Pl+Comp+Ela: loistaavammista
+     loistaava+A+Pl+Comp+Ill: loistaavamphiin
+     loistaava+A+Pl+Comp+Ade: loistaavammila
+     loistaava+A+Pl+Comp+Abl: loistaavammilta
+     loistaava+A+Pl+Comp+All: loistaavammile
+     loistaava+A+Pl+Comp+Ess: loistaavampina
+     loistaava+A+Pl+Comp+Com: loistaavampine
+
+# Eira sanoi, että oli virhe grammatiikissa. Superlatiivissa on aina yksi m, koska siinä on aina pitkä vokaali tai diftonki ennen suffiksia.
+ # Varengin varieteetissä lyhyt -i on myös mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
+ Katso Kainun kielen grammatikin (2014) s.183.
+
+     loistaava+A+Sg+Superl+Nom: [loistaaviin, loistaavin]
+     loistaava+A+Sg+Superl+Gen: [loistaaviiman, loistaaviman]
+     loistaava+A+Sg+Superl+Par: [loistaaviinta, loistaavinta]
+     loistaava+A+Sg+Superl+Tra: [loistaaviimaksi, loistaavimaksi]
+     loistaava+A+Sg+Superl+Abe: [loistaaviimatta, loistaavimatta]
+     loistaava+A+Sg+Superl+Ine: [loistaaviimassa, loistaavimassa]
+     loistaava+A+Sg+Superl+Ela: [loistaaviimasta, loistaavimasta]
+     loistaava+A+Sg+Superl+Ill: [loistaaviimphaan, loistaavimphaan]
+     loistaava+A+Sg+Superl+Ade: [loistaaviimala, loistaavimala]
+     loistaava+A+Sg+Superl+Abl: [loistaaviimalta, loistaavimalta]
+     loistaava+A+Sg+Superl+All: [loistaaviimale, loistaavimale]
+     loistaava+A+Sg+Superl+Ess: [loistaaviimpana, loistaavimpana]
+
+     loistaava+A+Pl+Superl+Nom: [loistaaviimat, loistaavimat]
+     loistaava+A+Pl+Superl+Gen: [loistaaviimitten, loistaavimitten]
+     loistaava+A+Pl+Superl+Par: [loistaaviimpia, loistaaviimppiita] # loistaviimppiita kaikissa kveenimurteissa?
+     loistaava+A+Pl+Superl+Tra: [loistaaviimmiksi, loistaavimiksi]
+     loistaava+A+Pl+Superl+Abe: [loistaaviimitta, loistaavimitta]
+     loistaava+A+Pl+Superl+Ine: [loistaaviimissa, loistaavimissa]
+     loistaava+A+Pl+Superl+Ela: [loistaaviimista, loistaavimista]
+     loistaava+A+Pl+Superl+Ill: [loistaaviimphiin, loistaavimphiin]
+     loistaava+A+Pl+Superl+Ade: [loistaaviimila, loistaavimila]
+     loistaava+A+Pl+Superl+Abl: [loistaaviimilta, loistaavimilta]
+     loistaava+A+Pl+Superl+All: [loistaaviimile, loistaavimile]
+     loistaava+A+Pl+Superl+Ess: [loistaaviimpina, loistaavimpina]
+     loistaava+A+Pl+Superl+Com: [loistaaviimpine, loistaavimpine]
