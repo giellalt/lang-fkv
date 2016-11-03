@@ -1,0 +1,100 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+     tyven+A+Sg+Nom: tyven
+     tyven+A+Sg+Gen: tyvenen
+     tyven+A+Sg+Par: tyventä
+     tyven+A+Sg+Tra: tyveneksi
+     tyven+A+Sg+Abe: tyvenettä
+     tyven+A+Sg+Ine: tyvenessä
+     tyven+A+Sg+Ela: tyvenestä
+     tyven+A+Sg+Ill: tyvenheen
+     tyven+A+Sg+Ade: tyvenellä
+     tyven+A+Sg+Abl: tyveneltä
+     tyven+A+Sg+All: tyvenelle
+     tyven+A+Sg+Ess: tyvenennä
+
+     tyven+A+Pl+Nom: tyvenet
+     tyven+A+Pl+Gen: tyveniitten
+     tyven+A+Pl+Par: [tyveniä, tyveniitä] # tyveniitä kaikissa kveenimurteissa?
+     tyven+A+Pl+Tra: tyveniksi
+     tyven+A+Pl+Abe: tyvenittä
+     tyven+A+Pl+Ine: tyvenissä
+     tyven+A+Pl+Ela: tyvenistä
+     tyven+A+Pl+Ill: tyvenhiin
+     tyven+A+Pl+Ade: tyvenillä
+     tyven+A+Pl+Abl: tyveniltä
+     tyven+A+Pl+All: tyvenille
+     tyven+A+Pl+Com: tyvenine
+     tyven+A+Pl+Ess: tyveninnä
+
+     tyven+A+Sg+Comp+Nom: tyvenempi
+     tyven+A+Sg+Comp+Gen: tyvenemmän
+     tyven+A+Sg+Comp+Par: tyvenemppää
+     tyven+A+Sg+Comp+Tra: tyvenemmäksi
+     tyven+A+Sg+Comp+Abe: tyvenemmättä
+     tyven+A+Sg+Comp+Ine: tyvenemmässä
+     tyven+A+Sg+Comp+Ela: tyvenemmästä
+     tyven+A+Sg+Comp+Ill: tyvenemphään
+     tyven+A+Sg+Comp+Ade: tyvenemmälä
+     tyven+A+Sg+Comp+Abl: tyvenemmältä
+     tyven+A+Sg+Comp+All: tyvenemmäle
+     tyven+A+Sg+Comp+Ess: tyvenempänä
+
+     tyven+A+Pl+Comp+Nom: tyvenemmät
+     tyven+A+Pl+Comp+Gen: tyvenemmiitten
+     tyven+A+Pl+Comp+Par: [tyvenempiä, tyvenemppiitä] # tyvenemppiitä rinnakkainen variantti.
+     tyven+A+Pl+Comp+Tra: tyvenemmiksi
+     tyven+A+Pl+Comp+Abe: tyvenemmittä
+     tyven+A+Pl+Comp+Ine: tyvenemmissä
+     tyven+A+Pl+Comp+Ela: tyvenemmistä
+     tyven+A+Pl+Comp+Ill: tyvenemphiin
+     tyven+A+Pl+Comp+Ade: tyvenemmilä
+     tyven+A+Pl+Comp+Abl: tyvenemmiltä
+     tyven+A+Pl+Comp+All: tyvenemmile
+     tyven+A+Pl+Comp+Ess: tyvenempinä
+     tyven+A+Pl+Comp+Com: tyvenempine
+
+     # Varengin varieteetissä lyhyt -i on myös mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
+     Katso Kainun kielen grammatikin (2014) s.183.
+
+     tyven+A+Sg+Superl+Nom: [tyveniin, tyvenin]
+     tyven+A+Sg+Superl+Gen: [tyveniimän, tyvenimän]
+     tyven+A+Sg+Superl+Par: [tyveniintä, tyvenintä]
+     tyven+A+Sg+Superl+Tra: [tyveniimäksi, tyvenimäksi]
+     tyven+A+Sg+Superl+Abe: [tyveniimättä, tyvenimättä]
+     tyven+A+Sg+Superl+Ine: [tyveniimässä, tyvenimässä]
+     tyven+A+Sg+Superl+Ela: [tyveniimästä, tyvenimästä]
+     tyven+A+Sg+Superl+Ill: [tyveniimphään, tyvenimphään]
+     tyven+A+Sg+Superl+Ade: [tyveniimälä, tyvenimälä]
+     tyven+A+Sg+Superl+Abl: [tyveniimältä, tyvenimältä]
+     tyven+A+Sg+Superl+All: [tyveniimäle, tyvenimäle]
+     tyven+A+Sg+Superl+Ess: [tyveniimpänä, tyvenimpänä]
+
+     tyven+A+Pl+Superl+Nom: [tyveniimät, tyvenimät]
+     tyven+A+Pl+Superl+Gen: [tyveniimitten, tyvenimitten]
+     tyven+A+Pl+Superl+Par: [tyveniimpiä, tyveniimppiitä] # tyveniimppiitä rinnakkainen variantti.
+     tyven+A+Pl+Superl+Tra: [tyveniimiksi, tyvenimiksi]
+     tyven+A+Pl+Superl+Abe: [tyveniimittä, tyvenimittä]
+     tyven+A+Pl+Superl+Ine: [tyveniimissä, tyvenimissä]
+     tyven+A+Pl+Superl+Ela: [tyveniimistä, tyvenimistä]
+     tyven+A+Pl+Superl+Ill: [tyveniimphiin, tyvenimphiin]
+     tyven+A+Pl+Superl+Ade: [tyveniimilä, tyvenimilä]
+     tyven+A+Pl+Superl+Abl: [tyveniimiltä, tyvenimiltä]
+     tyven+A+Pl+Superl+All: [tyveniimile, tyvenimile]
+     tyven+A+Pl+Superl+Ess: [tyveniimpinä, tyvenimpinä]
+     tyven+A+Pl+Superl+Com: [tyveniimpine, tyvenimpine]
