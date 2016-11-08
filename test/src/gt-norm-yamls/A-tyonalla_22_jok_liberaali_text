@@ -1,0 +1,101 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct.
+
+# Ongelmat monikon i:n kanssa. Keskustele Pirjon kanssa, miksi opettajan monikossa on kaksi i:tä myös muissa kuin Gen & Par.
+
+  Adjective - liberaali - ei tsekattu : # Adjective 'liberal' - tsekattu
+     liberaali+A+Sg+Nom: liberaali
+     liberaali+A+Sg+Gen: liberaalin
+     liberaali+A+Sg+Par: liberaalii
+     liberaali+A+Sg+Tra: liberaaliksi
+     liberaali+A+Sg+Abe: liberaalitta
+     liberaali+A+Sg+Ine: liberaalissa
+     liberaali+A+Sg+Ela: liberaalista
+     liberaali+A+Sg+Ill: liberaalhiin
+     liberaali+A+Sg+Ade: liberaalila
+     liberaali+A+Sg+Abl: liberaalilta
+     liberaali+A+Sg+All: liberaalile
+     liberaali+A+Sg+Ess: liberaalina
+
+     liberaali+A+Pl+Nom: liberaalit
+     liberaali+A+Pl+Gen: liberaaliitten # liberaalitten?
+     liberaali+A+Pl+Par: liberaaliita
+     liberaali+A+Pl+Tra: liberaaliiksi  # -ii- since it is even-syll. Check!
+     liberaali+A+Pl+Abe: liberaaliitta  # -ii- since it is even-syll. Check!
+     liberaali+A+Pl+Ine: liberaaliissa  # -ii- since it is even-syll. Check!
+     liberaali+A+Pl+Ela: liberaaliista  # -ii- since it is even-syll. Check!
+     liberaali+A+Pl+Ill: liberaalhiin   #
+     liberaali+A+Pl+Ade: liberaaliila   # -ii- since it is even-syll. Check!
+     liberaali+A+Pl+Abl: liberaaliilta  # -ii- since it is even-syll. Check!
+     liberaali+A+Pl+All: liberaaliile   # -ii- since it is even-syll. Check!
+     liberaali+A+Pl+Ess: liberaaliina   # -ii- since it is even-syll. Check!
+     liberaali+A+Pl+Com: liberaaliine   # -ii- since it is even-syll. Check!
+
+     liberaali+A+Sg+Comp+Nom: liberaalimpi
+     liberaali+A+Sg+Comp+Gen: liberaaliman
+     liberaali+A+Sg+Comp+Par: liberaalimppaa
+     liberaali+A+Sg+Comp+Tra: liberaalimaksi
+     liberaali+A+Sg+Comp+Abe: liberaalimatta
+     liberaali+A+Sg+Comp+Ine: liberaalimassa
+     liberaali+A+Sg+Comp+Ela: liberaalimasta
+     liberaali+A+Sg+Comp+Ill: liberaalimphaan
+     liberaali+A+Sg+Comp+Ade: liberaalimalla
+     liberaali+A+Sg+Comp+Abl: liberaalimalta
+     liberaali+A+Sg+Comp+All: liberaalimalle
+     liberaali+A+Sg+Comp+Ess: liberaalimpanna
+
+     liberaali+A+Pl+Comp+Nom: liberaalimat
+     liberaali+A+Pl+Comp+Gen: liberaalimitten
+     liberaali+A+Pl+Comp+Par: [liberaalimpia, liberaalimppiita] # liberaalimppiita kaikissa kveenimurteissa?
+     liberaali+A+Pl+Comp+Tra: liberaalimiksi
+     liberaali+A+Pl+Comp+Abe: liberaalimitta
+     liberaali+A+Pl+Comp+Ine: liberaalimissa
+     liberaali+A+Pl+Comp+Ela: liberaalimista
+     liberaali+A+Pl+Comp+Ill: liberaalimphiin
+     liberaali+A+Pl+Comp+Ade: liberaalimilla
+     liberaali+A+Pl+Comp+Abl: liberaalimilta
+     liberaali+A+Pl+Comp+All: liberaalimille
+     liberaali+A+Pl+Comp+Ess: liberaalimpinna
+     liberaali+A+Pl+Comp+Com: liberaalimpine
+
+     # Varengin varieteetissä lyhyt -i on myös mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
+     # Katso Kainun kielen grammatikin (2014) s.183.
+
+     liberaali+A+Sg+Superl+Nom: liberaaliin
+     liberaali+A+Sg+Superl+Gen: liberaaliiman
+     liberaali+A+Sg+Superl+Par: liberaaliinta
+     liberaali+A+Sg+Superl+Tra: liberaaliimaksi
+     liberaali+A+Sg+Superl+Abe: liberaaliimatta
+     liberaali+A+Sg+Superl+Ine: liberaaliimassa
+     liberaali+A+Sg+Superl+Ela: liberaaliimasta
+     liberaali+A+Sg+Superl+Ill: liberaaliimphaan
+     liberaali+A+Sg+Superl+Ade: liberaaliimalla
+     liberaali+A+Sg+Superl+Abl: liberaaliimalta
+     liberaali+A+Sg+Superl+All: liberaaliimalle
+     liberaali+A+Sg+Superl+Ess: liberaaliimpanna
+
+     liberaali+A+Pl+Superl+Nom: liberaaliimat
+     liberaali+A+Pl+Superl+Gen: liberaaliimitten
+     liberaali+A+Pl+Superl+Par: [liberaaliimpia, liberaaliimppiita] # liberaaliimppiita kaikissa kveenimurteissa?
+     liberaali+A+Pl+Superl+Tra: liberaaliimiksi
+     liberaali+A+Pl+Superl+Abe: liberaaliimitta
+     liberaali+A+Pl+Superl+Ine: liberaaliimissa
+     liberaali+A+Pl+Superl+Ela: liberaaliimista
+     liberaali+A+Pl+Superl+Ill: liberaaliimphiin
+     liberaali+A+Pl+Superl+Ade: liberaaliimilla
+     liberaali+A+Pl+Superl+Abl: liberaaliimilta
+     liberaali+A+Pl+Superl+All: liberaaliimille
+     liberaali+A+Pl+Superl+Ess: liberaaliimpinna
+     liberaali+A+Pl+Superl+Com: liberaaliimpine
