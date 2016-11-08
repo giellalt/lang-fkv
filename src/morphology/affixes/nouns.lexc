@@ -273,8 +273,8 @@ LEXICON x_23ii
      +Pl:      longparpl       ;
      +Pl:      tt_longgenpl    ;
                weak_v_stem     ;
-     +Sg:^WG   sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
-     +Pl:^WG   sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
+     +Sg:   sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
+     +Pl:   sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
                ess_even_ii     ;
  +Pl+Com:%>ne  K               ;
 
