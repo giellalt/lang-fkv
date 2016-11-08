@@ -70,29 +70,32 @@ Tests:
      liberaali+A+Pl+Comp+Ess: liberaalimpinna
      liberaali+A+Pl+Comp+Com: liberaalimpine
 
-     liberaali+A+Sg+Superl+Nom: liberaaliin
-     liberaali+A+Sg+Superl+Gen: liberaaliiman
-     liberaali+A+Sg+Superl+Par: liberaaliinta
-     liberaali+A+Sg+Superl+Tra: liberaaliimaksi
-     liberaali+A+Sg+Superl+Abe: liberaaliimatta
-     liberaali+A+Sg+Superl+Ine: liberaaliimassa
-     liberaali+A+Sg+Superl+Ela: liberaaliimasta
-     liberaali+A+Sg+Superl+Ill: liberaaliimphaan
-     liberaali+A+Sg+Superl+Ade: liberaaliimalla
-     liberaali+A+Sg+Superl+Abl: liberaaliimalta
-     liberaali+A+Sg+Superl+All: liberaaliimalle
-     liberaali+A+Sg+Superl+Ess: liberaaliimpanna
+     # Varengin varieteetissä lyhyt -i on myös mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
+     # Katso Kainun kielen grammatikin (2014) s.183.
 
-     liberaali+A+Pl+Superl+Nom: liberaaliimat
-     liberaali+A+Pl+Superl+Gen: liberaaliimitten
+     liberaali+A+Sg+Superl+Nom: [liberaaliin, liberaalin
+     liberaali+A+Sg+Superl+Gen: [liberaaliiman, liberaaliman
+     liberaali+A+Sg+Superl+Par: [liberaaliinta, liberaalinta
+     liberaali+A+Sg+Superl+Tra: [liberaaliimaksi, liberaalimaksi
+     liberaali+A+Sg+Superl+Abe: [liberaaliimatta, liberaalimatta
+     liberaali+A+Sg+Superl+Ine: [liberaaliimassa, liberaalimassa
+     liberaali+A+Sg+Superl+Ela: [liberaaliimasta, liberaalimasta
+     liberaali+A+Sg+Superl+Ill: [liberaaliimphaan, liberaalimphaan
+     liberaali+A+Sg+Superl+Ade: [liberaaliimalla, liberaalimalla
+     liberaali+A+Sg+Superl+Abl: [liberaaliimalta, liberaalimalta
+     liberaali+A+Sg+Superl+All: [liberaaliimalle, liberaalimalle
+     liberaali+A+Sg+Superl+Ess: [liberaaliimpanna, liberaalimpanna
+
+     liberaali+A+Pl+Superl+Nom: [liberaaliimat, liberaalimat
+     liberaali+A+Pl+Superl+Gen: [liberaaliimitten, liberaalimitten
      liberaali+A+Pl+Superl+Par: [liberaaliimpia, liberaaliimppiita] # liberaaliimppiita kaikissa kveenimurteissa?
-     liberaali+A+Pl+Superl+Tra: liberaaliimiksi
-     liberaali+A+Pl+Superl+Abe: liberaaliimitta
-     liberaali+A+Pl+Superl+Ine: liberaaliimissa
-     liberaali+A+Pl+Superl+Ela: liberaaliimista
-     liberaali+A+Pl+Superl+Ill: liberaaliimphiin
-     liberaali+A+Pl+Superl+Ade: liberaaliimilla
-     liberaali+A+Pl+Superl+Abl: liberaaliimilta
-     liberaali+A+Pl+Superl+All: liberaaliimille
-     liberaali+A+Pl+Superl+Ess: liberaaliimpinna
-     liberaali+A+Pl+Superl+Com: liberaaliimpine
+     liberaali+A+Pl+Superl+Tra: [liberaaliimiksi, liberaalimiksi
+     liberaali+A+Pl+Superl+Abe: [liberaaliimitta, liberaalimitta
+     liberaali+A+Pl+Superl+Ine: [liberaaliimissa, liberaalimissa
+     liberaali+A+Pl+Superl+Ela: [liberaaliimista, liberaalimista
+     liberaali+A+Pl+Superl+Ill: [liberaaliimphiin, liberaalimphiin
+     liberaali+A+Pl+Superl+Ade: [liberaaliimilla, liberaalimilla
+     liberaali+A+Pl+Superl+Abl: [liberaaliimilta, liberaalimilta
+     liberaali+A+Pl+Superl+All: [liberaaliimille, liberaalimille
+     liberaali+A+Pl+Superl+Ess: [liberaaliimpinna, liberaalimpinna
+     liberaali+A+Pl+Superl+Com: [liberaaliimpine, liberaalimpine
