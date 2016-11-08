@@ -1,0 +1,100 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct.
+
+
+  Noun - pappi - ei tsekattu : # Noun 'clean' - ei tsekattu
+     siisti+A+Sg+Nom: siisti
+     siisti+A+Sg+Gen: siistin
+     siisti+A+Sg+Par: siistiä
+     siisti+A+Sg+Tra: siistiksi
+     siisti+A+Sg+Abe: siistittä
+     siisti+A+Sg+Ine: siistissä
+     siisti+A+Sg+Ela: siististä
+     siisti+A+Sg+Ill: siisthiin
+     siisti+A+Sg+Ade: siistilä
+     siisti+A+Sg+Abl: siistiltä
+     siisti+A+Sg+All: siistile
+     siisti+A+Sg+Ess: siistinä
+
+     siisti+A+Pl+Nom: siistit
+     siisti+A+Pl+Gen: siistitten
+     siisti+A+Pl+Par: siistiä
+     siisti+A+Pl+Tra: siistiiksi
+     siisti+A+Pl+Abe: siistiittä
+     siisti+A+Pl+Ine: siistiissä
+     siisti+A+Pl+Ela: siistiistä
+     siisti+A+Pl+Ill: siisthiin
+     siisti+A+Pl+Ade: siistiilä
+     siisti+A+Pl+Abl: siistiiltä
+     siisti+A+Pl+All: siistiile
+     siisti+A+Pl+Com: siistiine
+     siisti+A+Pl+Ess: siistiinä
+
+     siisti+A+Sg+Comp+Nom: siistimpi
+     siisti+A+Sg+Comp+Gen: siistimän
+     siisti+A+Sg+Comp+Par: siistimppää
+     siisti+A+Sg+Comp+Tra: siistimäksi
+     siisti+A+Sg+Comp+Abe: siistimättä
+     siisti+A+Sg+Comp+Ine: siistimässä
+     siisti+A+Sg+Comp+Ela: siistimästä
+     siisti+A+Sg+Comp+Ill: siistimphään
+     siisti+A+Sg+Comp+Ade: siistimällä
+     siisti+A+Sg+Comp+Abl: siistimältä
+     siisti+A+Sg+Comp+All: siistimälle
+     siisti+A+Sg+Comp+Ess: siistimpännä
+
+     siisti+A+Pl+Comp+Nom: siistimät
+     siisti+A+Pl+Comp+Gen: siistimitten
+     siisti+A+Pl+Comp+Par: [siistimpiä, siistiimppiitä] # siistiimppiitä kaikissa kveenimurteissa?
+     siisti+A+Pl+Comp+Tra: siistimiksi
+     siisti+A+Pl+Comp+Abe: siistimittä
+     siisti+A+Pl+Comp+Ine: siistimissä
+     siisti+A+Pl+Comp+Ela: siistimistä
+     siisti+A+Pl+Comp+Ill: siistimphiin
+     siisti+A+Pl+Comp+Ade: siistimillä
+     siisti+A+Pl+Comp+Abl: siistimiltä
+     siisti+A+Pl+Comp+All: siistimille
+     siisti+A+Pl+Comp+Ess: siistimpinnä
+     siisti+A+Pl+Comp+Com: siistimpine
+
+     # Varengin varieteetissä lyhyt -i on myös mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
+     # Katso Kainun kielen grammatikin (2014) s.183.
+
+     siisti+A+Sg+Superl+Nom: siistiin
+     siisti+A+Sg+Superl+Gen: siistiimän
+     siisti+A+Sg+Superl+Par: siistiintä
+     siisti+A+Sg+Superl+Tra: siistiimäksi
+     siisti+A+Sg+Superl+Abe: siistiimättä
+     siisti+A+Sg+Superl+Ine: siistiimässä
+     siisti+A+Sg+Superl+Ela: siistiimästä
+     siisti+A+Sg+Superl+Ill: siistiimphään
+     siisti+A+Sg+Superl+Ade: siistiimällä
+     siisti+A+Sg+Superl+Abl: siistiimältä
+     siisti+A+Sg+Superl+All: siistiimälle
+     siisti+A+Sg+Superl+Ess: siistiimpännä
+
+     siisti+A+Pl+Superl+Nom: siistiimät
+     siisti+A+Pl+Superl+Gen: siistiimitten
+     siisti+A+Pl+Superl+Par: [siistiimpiä, siistiimppiitä] # siistiimppiitä kaikissa kveenimurteissa?
+     siisti+A+Pl+Superl+Tra: siistiimiksi
+     siisti+A+Pl+Superl+Abe: siistiimittä
+     siisti+A+Pl+Superl+Ine: siistiimissä
+     siisti+A+Pl+Superl+Ela: siistiimistä
+     siisti+A+Pl+Superl+Ill: siistiimphiin
+     siisti+A+Pl+Superl+Ade: siistiimillä
+     siisti+A+Pl+Superl+Abl: siistiimiltä
+     siisti+A+Pl+Superl+All: siistiimille
+     siisti+A+Pl+Superl+Ess: siistiimpinnä
+     siisti+A+Pl+Superl+Com: siistiimpine
