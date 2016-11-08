@@ -102,10 +102,9 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 
 LEXICON a_33as !!= * @CODE@ rakas
 +A: x_33as ;
-
 :haa comp_m_odd  ;
 :hai superl_m_odd ;
-! comp, superl, puuttuvat
++A+Pl+Superl+Gen:hai%>m%>itten K ; !raskas sanan variaatio, ei dial.
 
 LEXICON a_33aes !!= * @CODE@ sinnikäs
 +A: x_33aes ;
@@ -360,16 +359,16 @@ LEXICON superl_m_common
 !+A+Sg+Superl: superl_in ;
 !+A+Superl:%>m^A weak_v_stem ;
 +A+Sg+Superl+Gen:%>m^A%>n K ;
-+A+Pl+Superl+Nom:%>m^A%>t K ;
 +A+Sg+Superl+Ill:%>mp%>h^A^An K ;
 +A+Sg+Superl+Par:%>n%>t^A K  ;
++A+Pl+Superl+Nom:%>m^A%>t K ;
 +A+Pl+Superl+Gen:%>m%>i2%>itten K ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Superl+Par:%>mp%>i2%>^A K  ;
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
-
+! pl gen variation in LEXICON a_33as
 
 LEXICON superl_onneton
 !+A+Sg+Superl+Nom:%>in K ;
