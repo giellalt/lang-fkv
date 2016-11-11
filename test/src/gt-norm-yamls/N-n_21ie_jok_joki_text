@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - joki - ok : # Noun 'river' - ok
+     joki+N+Sg+Nom: joki
+     joki+N+Sg+Gen: joen # ilman v:tä?
+     joki+N+Sg+Par: jokea
+     joki+N+Sg+Tra: joeksi
+     joki+N+Sg+Abe: joetta
+     joki+N+Sg+Ine: joessa
+     joki+N+Sg+Ela: joesta
+     joki+N+Sg+Ill: jokheen
+     joki+N+Sg+Ade: joela
+     joki+N+Sg+Abl: joelta
+     joki+N+Sg+All: joele
+     joki+N+Sg+Ess: jokena
+     joki+N+Pl+Nom: joet
+     joki+N+Pl+Gen: joitten
+     joki+N+Pl+Par: jokia
+     joki+N+Pl+Tra: joiksi
+     joki+N+Pl+Abe: joitta
+     joki+N+Pl+Ine: joissa
+     joki+N+Pl+Ela: joista
+     joki+N+Pl+Ill: jokhiin
+     joki+N+Pl+Ade: joila
+     joki+N+Pl+Abl: joilta
+     joki+N+Pl+All: joile
+     joki+N+Pl+Ess: jokina
+     joki+N+Pl+Com: jokine
