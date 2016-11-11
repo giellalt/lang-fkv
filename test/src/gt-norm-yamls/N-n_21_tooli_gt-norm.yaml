@@ -17,7 +17,7 @@ Tests:
   Noun - tooli - ei tsekattu : # Noun 'stol' n_21 - ei tsekattu
      tooli+N+Sg+Nom: tooli
      tooli+N+Sg+Gen: toolin
-     tooli+N+Sg+Par: toolii 
+     tooli+N+Sg+Par: toolii
      tooli+N+Sg+Tra: tooliksi
      tooli+N+Sg+Abe: toolitta
      tooli+N+Sg+Ine: toolissa
@@ -40,3 +40,5 @@ Tests:
      tooli+N+Pl+All: tooliile
      tooli+N+Pl+Ess: tooliina
      tooli+N+Pl+Com: tooliine
+
+     # Jos sananloppuinen -i säilyy por ja rai varieteeteissä, kun siihen lisätään monikko -i:n. 
