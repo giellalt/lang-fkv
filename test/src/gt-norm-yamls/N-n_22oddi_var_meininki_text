@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - meininki - ei tsekattu : # Noun 'borg' - ei tsekattu
+     meininki+N+Sg+Nom: meininki
+     meininki+N+Sg+Gen: meiningin
+     meininki+N+Sg+Par: meininkiä 
+     meininki+N+Sg+Tra: meiningiksi
+     meininki+N+Sg+Abe: meiningittä
+     meininki+N+Sg+Ine: meiningissä
+     meininki+N+Sg+Ela: meiningistä
+     meininki+N+Sg+Ill: meininkhiin
+     meininki+N+Sg+Ade: meiningillä
+     meininki+N+Sg+Abl: meiningiltä
+     meininki+N+Sg+All: meiningille
+     meininki+N+Sg+Ess: meininkinnä
+     meininki+N+Pl+Nom: meiningit
+     meininki+N+Pl+Gen: meiningitten
+     meininki+N+Pl+Par: meininkiä # meininkkiitä myös?
+     meininki+N+Pl+Tra: meiningiksi
+     meininki+N+Pl+Abe: meiningittä
+     meininki+N+Pl+Ine: meiningissä
+     meininki+N+Pl+Ela: meiningistä
+     meininki+N+Pl+Ill: meininkhiin
+     meininki+N+Pl+Ade: meiningillä
+     meininki+N+Pl+Abl: meiningiltä
+     meininki+N+Pl+All: meiningille
+     meininki+N+Pl+Ess: meininkinnä
+     meininki+N+Pl+Com: meininkine
+
+     # var ja jok varieteetissä vartaloloppuinen i- ei säily monikossa.
