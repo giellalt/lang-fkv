@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct.
+
+
+  Noun - tunturi: # Noun 'fjell' - n_22odd ei tsekattu
+     tunturi+N+Sg+Nom: tunturi
+     tunturi+N+Sg+Gen: tunturin
+     tunturi+N+Sg+Par: tunturia
+     tunturi+N+Sg+Tra: tunturiksi
+     tunturi+N+Sg+Abe: tunturitta
+     tunturi+N+Sg+Ine: tunturissa
+     tunturi+N+Sg+Ela: tunturista
+     tunturi+N+Sg+Ill: tunturhiin
+     tunturi+N+Sg+Ade: tunturilla
+     tunturi+N+Sg+Abl: tunturilta
+     tunturi+N+Sg+All: tunturille
+     tunturi+N+Sg+Ess: tunturinna
+     tunturi+N+Pl+Nom: tunturit
+     tunturi+N+Pl+Gen: tunturitten
+     tunturi+N+Pl+Par: tunturia
+     tunturi+N+Pl+Tra: tunturiksi
+     tunturi+N+Pl+Abe: tunturitta
+     tunturi+N+Pl+Ine: tunturissa
+     tunturi+N+Pl+Ela: tunturista
+     tunturi+N+Pl+Ill: tunturhiin
+     tunturi+N+Pl+Ade: tunturilla
+     tunturi+N+Pl+Abl: tunturilta
+     tunturi+N+Pl+All: tunturille
+     tunturi+N+Pl+Ess: tunturinna
+     tunturi+N+Pl+Com: tunturine
+
+      # var ja jok varieteetissä vartaloloppuinen i- ei säily monikossa.
