@@ -11,12 +11,12 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - häät - ei tsekattu : # Noun 'bryllup' - ei tsekattu
      häät+N+Pl+Nom: häät
-     häät+N+Pl+Gen: häitten
+     häät+N+Pl+Gen: [häitten, häinen] # häinen vain por varieteetissa. 
      häät+N+Pl+Par: häitä
      häät+N+Pl+Tra: häiksi
      häät+N+Pl+Abe: häittä
