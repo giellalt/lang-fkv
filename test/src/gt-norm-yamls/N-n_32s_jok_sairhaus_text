@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sairhaus - ei tsekattu : # Noun 'sykdom' n_32s sairhau - ei tsekattu
+     sairhaus+N+Sg+Nom: sairhaus
+     sairhaus+N+Sg+Gen: sairhauen
+     sairhaus+N+Sg+Par: sairhautta
+     sairhaus+N+Sg+Tra: sairhaueksi
+     sairhaus+N+Sg+Abe: sairhauetta
+     sairhaus+N+Sg+Ine: sairhauessa
+     sairhaus+N+Sg+Ela: sairhauesta
+     sairhaus+N+Sg+Ill: sairhautheen
+     sairhaus+N+Sg+Ade: sairhauella
+     sairhaus+N+Sg+Abl: sairhauelta
+     sairhaus+N+Sg+All: sairhauelle
+     sairhaus+N+Sg+Ess: sairhautenna
+     sairhaus+N+Pl+Nom: sairhauet
+     sairhaus+N+Pl+Gen: sairhauksiitten
+     sairhaus+N+Pl+Par: sairhauksiita
+     sairhaus+N+Pl+Tra: sairhauksiksi
+     sairhaus+N+Pl+Abe: sairhauksitta
+     sairhaus+N+Pl+Ine: sairhauksissa
+     sairhaus+N+Pl+Ela: sairhauksista
+     sairhaus+N+Pl+Ill: sairhaukshiin
+     sairhaus+N+Pl+Ade: sairhauksilla
+     sairhaus+N+Pl+Abl: sairhauksilta
+     sairhaus+N+Pl+All: sairhauksille
+     sairhaus+N+Pl+Ess: sairhauksinna
+     sairhaus+N+Pl+Com: sairhauksine
