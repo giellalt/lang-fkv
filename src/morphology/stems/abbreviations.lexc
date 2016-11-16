@@ -277,13 +277,11 @@ kvm		ab-nodot ;
 kW		ab-nodot-noun ;
 kWh		ab-nodot-noun ;
 l		ab-noun ;
-Lohk		ab-dot ;
 lok		ab-dot-noun ; !lokatiiva
 lp		ab-dot-noun ; !laktapartihkkal
 lád		ab-dot-noun ; !lassiárvodivat
 m		ab-noun ;
 matem		ab-dot-adj ; !matematihkalaš
-mearrid		ab-dot ;
 mg		ab-nodot-noun ;
 MHz		ab-nodot-noun ;
 milj	ab-num ;
@@ -301,11 +299,11 @@ mV	ab-nodot ;
 mW	ab-nodot ;
 m²		ab-nodot-noun ;
 m³		ab-nodot-noun ;
-o.Kr	ab-dot-adv ; !Does this exist?
+e.Kr	ab-dot-adv ; !Does this exist?
 o.s	ab-dot ;
 obj		ab-noun ;
 od.prp	ab-dot ;
-oKr	ab-dot-adv ;
+eKr	ab-dot-adv ;
 ol	ab-dot-noun ; !ovttaidlohku
 op.cit	ab-dot ;
 P.E.N ab-dot-noun ;
@@ -419,7 +417,7 @@ S.nr		ab-noun ;                                 !
 Kor		ab-noun ;
 Tess		ab-noun ;
 O.nr		ab-noun ;                                 !
-alm		ab-dot ;                                      !
+!alm		ab-dot ;                                      !
 anr		ab-noun ;
 bet		ab-dot-noun ;
 b.c		ab-dot ;  !b.c. 18-22
@@ -462,8 +460,6 @@ LEXICON TRAB
 !Od		ab-dot ;              !
 1.aman	ab-dot ;	!^C^      !1.amanuensis
 Adr	ab-dot-noun ;             !Adreassa
-Boazod:Boazod3 ab-dot-noun ; !SUB !XXX was ist dás?
-
 aman		ab-dot-noun ;          !amanuenssa
 art		ab-dot-noun ;              !artihkkal, artium
 ass		ab-dot-noun ;              !assisteanta, assortemeanta
@@ -471,11 +467,8 @@ adr		ab-dot-noun ;		   !adreassa
 avd		ab-dot-noun ;              !
 avd.dir		ab-dot-noun ;          !
 Avd.dir ab-dot ;              !Advelingsdirektør
-b		ab ; ! trab both in 12. b. 2001 and in "lea miessemánu 30. b. mearidán..."
-bd		ab-dot ;              !
 Bj		ab-dot ;              !Bjørn, Bjarne
 bnr ab-dot-noun ;
-buo		ab-dot ;              !
 cand.mag  ab-dot-noun ;       !
 cand.oecon	  ab-dot-noun ;   !
 cand.philol	  ab-dot-noun ;   !
@@ -486,11 +479,8 @@ cand:cand	  ab-dot-noun ;   !
 Chr		ab-dot ;              !Christian
 d.l		  ab-dot ;            !
 d.g		  ab-dot ;
-dbm	  ab-dot-noun ;           !
 Dep		ab-dot ;              !Departemeantta
 dhj	ab-dot ; !dahje
-dieđ		  ab-noun ; ! 30 % dieđ without final dot.     !
-dieđ.nr		  ab-noun ;            !
 dipl.ing	  ab-dot-noun ;        !
 dipl.ins		  ab-dot-noun ;         !
 dir			  ab-dot-noun ;             !direktevra
@@ -501,19 +491,16 @@ dr.med		  ab-dot-noun ;        !
 dr.philos		  ab-dot-noun ;    !
 dr.poilit		  ab-dot-noun ;
 dr.theol		  ab-dot-noun ;    !
-dáb			  ab-dot ;
 e.e			  ab-dot-adv ;                            !
 Edv		ab-dot-noun ;              !Edvard
 ee			  ab-adv ;                                !
 Ee		ab ;                  !erret eará
-evtt			  ab-dot-noun ;                       !
 ex			  ab ;                                    !
 ex.fac			  ab-dot-noun ;
 fax    ab-dot-noun ;
 fig			  ab-dot ;                                !
 fil.tri			  ab-dot-noun ;                            !
 Gnr ab-dot-noun ;
-geassem	ab-dot-noun ;                                 !
 gen.lt		  ab-dot-noun ;                 !
 genr		  ab-dot-noun ;                 !
 genr.lt		  ab-dot-noun ;                 !
@@ -537,8 +524,6 @@ lic		  ab-dot-noun ;                     !
 lnr		  ab-dot ;                     !
 ltn	  ab-dot-noun ;                         !
 Luk		ab-noun ;             !Lukas
-lul		  ab-dot ;                     !lullisámegiela, lulesamisk
-lullisuopm	ab-dot-noun ;              !
 mag	  ab-dot ;                         !
 mag.art		  ab-dot-noun ;            !
 merc		  ab-dot ;                 !
@@ -551,28 +536,18 @@ Mrs		ab-dot-noun ;         !
 ms		  ab-dot ;                     !
 Ms		ab-dot-noun ;         !
 o.m.d	  ab-dot-adv ;                 !
-oahp		  ab-dot-noun "teacher" ;  !
 obl		  ab-dot ;                     !
 oblt		  ab-dot ;                 !
-Od.dieđ.nr	ab-dot-noun ;          !Odeldikkedieđahusa nummar
-Od.prop		ab-dot-noun ;          !Odeldikkeproposišuvdna
-Od.prp		ab-dot-noun ;          !Odeldikkeproposišuvdna
-Od.prp.nr	ab-dot-noun ;          !
-Od:Od3		ab-nodot-noun ;        !Odelstinget
 odont		  ab-dot ;                 !
 oecon	  ab-dot ;                     !
 omd		  ab-dot-adv ;                 !
-omd:omd3	  ab-nodot-adv ;           !
+esim ab-dot-adj ;
 ordf		  ab-dot-noun ;                 !ordførar
-ossod.dir	  ab-dot-noun ;                 !ossodatdirektevra
 Ot		ab-dot-noun ;              !
 Ot.prop		ab-noun ;              !
 Ot.prop.nr	ab-noun ;              !Odelstingsproposisjon nummer
 Ot.prp		ab-noun ;              !
 Ot.prp.nr	ab-noun ;              !Odelstingsproposisjon nummer
-Oth.prop	ab-noun ;              !h?
-Oth.prp		ab-noun ;              !
-Oth:Oth3	ab-dot-noun ;          !
 ped		  ab-dot ;                     !padagoga, pedagogihkka, pedagogalaš
 pharm	  ab-dot-adj ;                 !
 philol		  ab-dot ;                 !
@@ -586,7 +561,6 @@ prp		  ab-dot ;                     !
 prp:prp3	  ab-nodot-noun ;               !
 psychol		  ab-dot-noun ;                 !
 psyk		  ab-dot-adj ;             !
-r		  ab-dot-verb ;		   !riegadan
 red	          ab-dot-noun ;                         !
 res.kap           ab-dot-noun ;                      !
 resipr	          ab-dot-adj ; !resiprohka TRAB or ITRAB?
@@ -598,28 +572,13 @@ stud	 ab-dot-noun ;                 !
 stud.philol	ab-dot-noun ;              !
 sugr		  ab-dot ;                 !suoma-ugralaš
 suoidnem	ab-dot-noun ;                             !
-suopm	 ab-dot-noun ;                 !
-suorgg		ab-dot-noun ;          !suorggid/-us/-it/-eapmi
-sá	 ab-dot ;                          !
-sásu	 ab-dot ;                      !
 tel ab-noun ;	!Used also without dots
 Th  ab-dot-noun ;
 tlf ab-dot-noun ;
 tri	ab-dot-noun ;                      !tohtori
-Turnusbálv	ab-dot-noun ;          !
-ubm		  ab-dot ;                     !ubmesámegiella
-urál		  ab-dot ;                 !urálalaš
 Vik.pr		  ab-dot-noun ;
 vit.ass	  	  ab-dot-noun ;            !
-vrd		  ab-dot-verb ;                !
-Vrd		ab-dot ;              !
-vrd:vrd3	  ab-nodot-verb ; !veardit !
-Vrd:Vrd3	ab-nodot ;        !
 vs		  ab-dot-cc ;                  !
-vsá		  ab-dot-noun ;                     !
-Vsá		  ab-dot-noun ;
-čakčam	ab-dot-noun ;                                 !
-čuo		ab ;                  !
 
 ! Here comes the initials
 ! They are found in names etc.
@@ -654,6 +613,5 @@ Z	ab-dot-noun ;
 Å	ab-dot-noun ;
 Ä	ab-dot-noun ;
 Ö	ab-dot-noun ;
-Č	ab-dot-noun ;
-Š	ab-dot-noun ;
+
 
