@@ -1,3 +1,7 @@
+
+#      K V E N  D I S A M B I G U A T O R
+
+#      Built based upon the:
 #      *******************************************
 #      * FINCG (CONSTRAINT GRAMMAR FOR FINNISH)  *
 #      * (C) FRED KARLSSON 1989-2000             *
@@ -545,7 +549,7 @@ LIST Ref-VERB = "ajatella" "arvella" "arvioida" "epäillä" "haluta" "havaita" "
 LIST InfMa-Ela = "estää" "kieltää" "kieltäytyä" "lakata" "luopua" "lähteä" "pidätellä" "poistua" "päästä" "varoitella" "varoittaa" "välttyä" "yllättää" ; 
 # <Inf3-Ela> verbs from text_cg1.txt, there may be more of them
 
-LIST InfMa-Ill = "alistua" "ankara" "arka" "asettua" "astua" "auttaa" "ehtiä" "etevä" "hakea" "haluta" "harjoitella" "heittää" "herkkä" 
+LIST InfMa-Ill = "alistua" "ankara" "arka" "asettua" "astua" "auttaat" "ehtiäeht" "etevä" "hakkeet" "haluta" "harjoitella" "heittää" "herkkä" 
 "herättää" "herätä" "hidas" "hyvä" "ilmestyä" "innoittaa" "innostaa" "innostua" "johtaa" "joutua" "jättää" "jäädä" "kannustaa" "kehottaa" 
 "keskittyä" "kiinnostua" "kiire" "kokoontua" "kova" "kutsua" "kääntyä" "käydä" "kyetä" "kykenemätön" "kysyä" "luoda" "luonteva" "lähteä" "mahtua" 
 "matkustaa" "mennä" "mukautua" "määrätä" "neuvoa" "nimetä" "nimittää" "nojautua" "nopea" "nousta" "ohjata" "onnistua" "opetella" "opettaa" 
