@@ -10,7 +10,7 @@ LEXICON NUM
 !! Numerals have been split in three sections, the compounding parts
 !! of cardinals and ordinals, and the non-compounding ones:
 !!€gt-norm: Numeral
-!!€ kaksikymmentäkolmetuhatta: kaksi+Num+Card+Sg+Nom#kymmenen+Num+Card+Sg+Par#kolme+Num+Card+Sg+Nom#tuhat+Num+Card+Sg+Par 23,000
+!!€ kaksikymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par 23,000
 !!€ kahdessadasneljäs: kahdes+Num+Ord+Sg+Nom#sadas+Num+Ord+Sg+Nom#neljäs+Num+Ord+Sg+Nom 204rd
 !!€ viitisenkymmentä: viitisen+Num#kymmentä 50-ish
 0    NUM_CARD_ALL    ;
@@ -25,75 +25,75 @@ LEXICON NUM
 LEXICON NUM_CARD_ALL
 !! The compounding parts of cardinals are the number multiplier words.
 !!€gt-norm: cardinal
-!!€ yksi: yksi+Num+Card+Sg+Nom one
-!!€ viidelle: viisi+Num+Card+Sg+All five
-!!€ tuhatta: tuhat+Num+Card+Sg+Par thousand
-yksi+Num+Card:y             NUM_YKSI  ;
-kaksi+Num+Card:ka           NUM_KAKSI ;
-kolme+Num+Card:kolm         NUM_KOLME ;
-neljä+Num+Card:nelj         NUM_NELJÄ ;
-viisi+Num+Card:vii          NUM_VIISI ;
-kuusi+Num+Card:kuu          NUM_KUUSI ;
-seittemen+Num+Card+Err/Orth:seitsem  NUM_YHDEKSÄN ;
-seittemen+Num+Card:seittem  NUM_YHDEKSÄN ;
-kahđeksan+Num+Card:kahđeks  NUM_KAHDEKSAN ;
-yhđeksän+Num+Card:yhđeks    NUM_YHDEKSÄN ;
-kymmenen+Num+Card:kymmen    NUM_KYMMENEN ;
-sata+Num+Card:sa            NUM_SATA ;
-tuhat+Num+Card:tuha         NUM_TUHAT ;
-miljoona+Num+Card:miljoon  NUM_MILJOONA ;
-miljardi+Num+Card:miljard  NUM_MILJARDI ;
-biljoona+Num+Card:biljoon  NUM_MILJOONA ;
-biljardi+Num+Card:biljard  NUM_MILJARDI ;
-triljoona+Num+Card:triljoon  NUM_MILJOONA ;
-triljardi+Num+Card:triljard  NUM_MILJARDI ;
-kvadriljoona+Num+Card:kvadriljoon  NUM_MILJOONA ;
-kvadriljardi+Num+Card:kvadriljard  NUM_MILJARDI ;
-kvintiljoona+Num+Card:kvintiljoon  NUM_MILJOONA ;
-kvintiljardi+Num+Card:kvintiljard  NUM_MILJARDI ;
-sekstiljoona+Num+Card:sekstiljoon  NUM_MILJOONA ;
-sekstiljardi+Num+Card:sekstiljard  NUM_MILJARDI ;
-oktiljoona+Num+Card:oktiljoon  NUM_MILJOONA ;
-oktiljardi+Num+Card:oktiljard  NUM_MILJARDI ;
-noviljoona+Num+Card:noviljoon  NUM_MILJOONA ;
-noviljardi+Num+Card:noviljard  NUM_MILJARDI ;
-undekiljoona+Num+Card:undekiljoon  NUM_MILJOONA ;
-undekiljardi+Num+Card:undekiljard  NUM_MILJARDI ;
-duodekiljoona+Num+Card:duodekiljoon  NUM_MILJOONA ;
-duodekiljardi+Num+Card:duodekiljard  NUM_MILJARDI ;
-tredekiljoona+Num+Card:tredekiljoon  NUM_MILJOONA ;
-tredekiljardi+Num+Card:tredekiljard  NUM_MILJARDI ;
-kvattuordekiljoona+Num+Card:kvattuordekiljoon  NUM_MILJOONA ;
-kvattuordekiljardi+Num+Card:kvattuordekiljard  NUM_MILJARDI ;
-kvindekiljoona+Num+Card:kvindekiljoon  NUM_MILJOONA ;
-kvindekiljardi+Num+Card:kvindekiljard  NUM_MILJARDI ;
-sedekiljoona+Num+Card:sedekiljoon  NUM_MILJOONA ;
-sedekiljardi+Num+Card:sedekiljard  NUM_MILJARDI ;
-septendekiljoona+Num+Card:septendekiljoon  NUM_MILJOONA ;
-septendekiljardi+Num+Card:septendekiljard  NUM_MILJARDI ;
-oktodekiljoona+Num+Card:oktodekiljoon  NUM_MILJOONA ;
-oktodekiljardi+Num+Card:oktodekiljard  NUM_MILJARDI ;
-novemdekiljoona+Num+Card:novemdekiljoon  NUM_MILJOONA ;
-novemdekiljardi+Num+Card:novemdekiljard  NUM_MILJARDI ;
-vidingtiljoona+Num+Card:vidingtiljoon  NUM_MILJOONA ;
-vidingtiljardi+Num+Card:vidingtiljard  NUM_MILJARDI ;
-tridingtiljoona+Num+Card:tridingtiljoon  NUM_MILJOONA ;
-tridingtiljardi+Num+Card:tridingtiljard  NUM_MILJARDI ;
-sentiljoona+Num+Card:sentiljoon  NUM_MILJOONA ;
-sentiljardi+Num+Card:sentiljard  NUM_MILJARDI ;
-kiljoona+Num+Card:kiljoon  NUM_MILJOONA ;
-kiljardi+Num+Card:kiljard  NUM_MILJARDI ;
-piljoona+Num+Card:piljoon  NUM_MILJOONA ;
-piljardi+Num+Card:piljard  NUM_MILJARDI ;
-Googol+Num+Card:Googol          NUM_GOOGOL  ;
-Googolplex+Num+Card:Googolplex  NUM_GOOGOL  ;
-seitsämän+Err/Orth+Num+Card:seitsäm  NUM_YHDEKSÄN    ;
+!!€ yksi: yksi+Num+Sg+Nom one
+!!€ viidelle: viisi+Num+Sg+All five
+!!€ tuhatta: tuhat+Num+Sg+Par thousand
+yksi+Num:y             NUM_YKSI  ;
+kaksi+Num:ka           NUM_KAKSI ;
+kolme+Num:kolm         NUM_KOLME ;
+neljä+Num:nelj         NUM_NELJÄ ;
+viisi+Num:vii          NUM_VIISI ;
+kuusi+Num:kuu          NUM_KUUSI ;
+seittemen+Num+Err/Orth:seitsem  NUM_YHDEKSÄN ;
+seittemen+Num:seittem  NUM_YHDEKSÄN ;
+kahđeksan+Num:kahđeks  NUM_KAHDEKSAN ;
+yhđeksän+Num:yhđeks    NUM_YHDEKSÄN ;
+kymmenen+Num:kymmen    NUM_KYMMENEN ;
+sata+Num:sa            NUM_SATA ;
+tuhat+Num:tuha         NUM_TUHAT ;
+miljoona+Num:miljoon  NUM_MILJOONA ;
+miljardi+Num:miljard  NUM_MILJARDI ;
+biljoona+Num:biljoon  NUM_MILJOONA ;
+biljardi+Num:biljard  NUM_MILJARDI ;
+triljoona+Num:triljoon  NUM_MILJOONA ;
+triljardi+Num:triljard  NUM_MILJARDI ;
+kvadriljoona+Num:kvadriljoon  NUM_MILJOONA ;
+kvadriljardi+Num:kvadriljard  NUM_MILJARDI ;
+kvintiljoona+Num:kvintiljoon  NUM_MILJOONA ;
+kvintiljardi+Num:kvintiljard  NUM_MILJARDI ;
+sekstiljoona+Num:sekstiljoon  NUM_MILJOONA ;
+sekstiljardi+Num:sekstiljard  NUM_MILJARDI ;
+oktiljoona+Num:oktiljoon  NUM_MILJOONA ;
+oktiljardi+Num:oktiljard  NUM_MILJARDI ;
+noviljoona+Num:noviljoon  NUM_MILJOONA ;
+noviljardi+Num:noviljard  NUM_MILJARDI ;
+undekiljoona+Num:undekiljoon  NUM_MILJOONA ;
+undekiljardi+Num:undekiljard  NUM_MILJARDI ;
+duodekiljoona+Num:duodekiljoon  NUM_MILJOONA ;
+duodekiljardi+Num:duodekiljard  NUM_MILJARDI ;
+tredekiljoona+Num:tredekiljoon  NUM_MILJOONA ;
+tredekiljardi+Num:tredekiljard  NUM_MILJARDI ;
+kvattuordekiljoona+Num:kvattuordekiljoon  NUM_MILJOONA ;
+kvattuordekiljardi+Num:kvattuordekiljard  NUM_MILJARDI ;
+kvindekiljoona+Num:kvindekiljoon  NUM_MILJOONA ;
+kvindekiljardi+Num:kvindekiljard  NUM_MILJARDI ;
+sedekiljoona+Num:sedekiljoon  NUM_MILJOONA ;
+sedekiljardi+Num:sedekiljard  NUM_MILJARDI ;
+septendekiljoona+Num:septendekiljoon  NUM_MILJOONA ;
+septendekiljardi+Num:septendekiljard  NUM_MILJARDI ;
+oktodekiljoona+Num:oktodekiljoon  NUM_MILJOONA ;
+oktodekiljardi+Num:oktodekiljard  NUM_MILJARDI ;
+novemdekiljoona+Num:novemdekiljoon  NUM_MILJOONA ;
+novemdekiljardi+Num:novemdekiljard  NUM_MILJARDI ;
+vidingtiljoona+Num:vidingtiljoon  NUM_MILJOONA ;
+vidingtiljardi+Num:vidingtiljard  NUM_MILJARDI ;
+tridingtiljoona+Num:tridingtiljoon  NUM_MILJOONA ;
+tridingtiljardi+Num:tridingtiljard  NUM_MILJARDI ;
+sentiljoona+Num:sentiljoon  NUM_MILJOONA ;
+sentiljardi+Num:sentiljard  NUM_MILJARDI ;
+kiljoona+Num:kiljoon  NUM_MILJOONA ;
+kiljardi+Num:kiljard  NUM_MILJARDI ;
+piljoona+Num:piljoon  NUM_MILJOONA ;
+piljardi+Num:piljard  NUM_MILJARDI ;
+Googol+Num:Googol          NUM_GOOGOL  ;
+Googolplex+Num:Googolplex  NUM_GOOGOL  ;
+seitsämän+Err/Orth+Num:seitsäm  NUM_YHDEKSÄN    ;
 
 LEXICON NUM_CARD_SUFFIX
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Cardinal multiplicants
-!!€ viisikymmentä: viisi+Num+Card+Sg+Nom#kymmentä
-!!€ neljäsataatuhatta: neljä+Num+Card+Sg+Nom#sata+Num+Card+Sg+Par#tuhatta
+!!€ viisikymmentä: viisi+Num+Sg+Nom#kymmentä
+!!€ neljäsataatuhatta: neljä+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta
 kymmentä    #   ;
 sataa       #   ;
 tuhatta     #   ;
@@ -306,23 +306,23 @@ kuutisen+Num#:kuutisen#    NUM_CARD_SUFFIX   ;
 seitsemisen+Num#:seitsemisen#  NUM_CARD_SUFFIX   ;
 kahdeksisen+Num#:kahdeksisen#  NUM_CARD_SUFFIX   ;
 yhdeksisen+Num#:yhdeksisen#    NUM_CARD_SUFFIX   ;
-pari+Num+Card:par           NUM_PARI ;
+pari+Num:par           NUM_PARI ;
 
 !! !!Numeral stem variation
 !! Numerals follow the same stem variation patterns as nouns, some of these
 !! being very rare to extinct for nouns. 
 LEXICON NUM_YKSI
 !!€gt-norm: Numerals 31
-!!€ yksi: yksi+Num+Card+Sg+Nom
-!!€ yhteen: yksi+Num+Card+Sg+Ill
-!!€ yhtenä: yksi+Num+Card+Sg+Ess
-!!€ yhdessä: yksi+Num+Card+Sg+Ine
-!!€ yhtä: yksi+Num+Card+Sg+Par
-!!€ yksiä: yksi+Num+Card+Pl+Par
-!!€ yksien: yksi+Num+Card+Pl+Gen
-!!€ yksiin: yksi+Num+Card+Pl+Ill
-!!€ yksinä: yksi+Num+Card+Pl+Ess
-!!€ yksissä: yksi+Num+Card+Pl+Ine
+!!€ yksi: yksi+Num+Sg+Nom
+!!€ yhteen: yksi+Num+Sg+Ill
+!!€ yhtenä: yksi+Num+Sg+Ess
+!!€ yhdessä: yksi+Num+Sg+Ine
+!!€ yhtä: yksi+Num+Sg+Par
+!!€ yksiä: yksi+Num+Pl+Par
+!!€ yksien: yksi+Num+Pl+Gen
+!!€ yksiin: yksi+Num+Pl+Ill
+!!€ yksinä: yksi+Num+Pl+Ess
+!!€ yksissä: yksi+Num+Pl+Ine
 0:ksi   NUM_FRONT_NOMINATIVE ;
 0:hte   NUM_FRONT_ILLATIVE_EN    ;
 0:hte   NUM_FRONT_STRONG_SINGULARS   ;
@@ -335,16 +335,16 @@ LEXICON NUM_YKSI
 
 LEXICON NUM_KAKSI
 !!€gt-norm: Numerals 31 back§
-!!€ kaksi: kaksi+Num+Card+Sg+Nom
-!!€ kahteen: kaksi+Num+Card+Sg+Ill
-!!€ kahtena: kaksi+Num+Card+Sg+Ess
-!!€ kahdessa: kaksi+Num+Card+Sg+Ine
-!!€ kahta: kaksi+Num+Card+Sg+Par
-!!€ kaksia: kaksi+Num+Card+Pl+Par
-!!€ kaksien: kaksi+Num+Card+Pl+Gen
-!!€ kaksiin: kaksi+Num+Card+Pl+Ill
-!!€ kaksina: kaksi+Num+Card+Pl+Ess
-!!€ kaksissa: kaksi+Num+Card+Pl+Ine
+!!€ kaksi: kaksi+Num+Sg+Nom
+!!€ kahteen: kaksi+Num+Sg+Ill
+!!€ kahtena: kaksi+Num+Sg+Ess
+!!€ kahdessa: kaksi+Num+Sg+Ine
+!!€ kahta: kaksi+Num+Sg+Par
+!!€ kaksia: kaksi+Num+Pl+Par
+!!€ kaksien: kaksi+Num+Pl+Gen
+!!€ kaksiin: kaksi+Num+Pl+Ill
+!!€ kaksina: kaksi+Num+Pl+Ess
+!!€ kaksissa: kaksi+Num+Pl+Ine
 0:ksi   NUM_BACK_NOMINATIVE ;
 +Use/NG:ks   NUM_BACK_NOMINATIVE ;
 0:hte   NUM_BACK_ILLATIVE_EN    ;
@@ -358,16 +358,16 @@ LEXICON NUM_KAKSI
 
 LEXICON NUM_KOLME
 !!€gt-norm: Numerals 8~5
-!!€ kolme: kolme+Num+Card+Sg+Nom
-!!€ kolmeen: kolme+Num+Card+Sg+Ill
-!!€ kolmena: kolme+Num+Card+Sg+Ess
-!!€ kolmessa: kolme+Num+Card+Sg+Ine
-!!€ kolmea: kolme+Num+Card+Sg+Par
-!!€ kolmia: kolme+Num+Card+Pl+Par
-!!€ kolmien: kolme+Num+Card+Pl+Gen
-!!€ kolmiin: kolme+Num+Card+Pl+Ill
-!!€ kolmina: kolme+Num+Card+Pl+Ess
-!!€ kolmissa: kolme+Num+Card+Pl+Ine
+!!€ kolme: kolme+Num+Sg+Nom
+!!€ kolmeen: kolme+Num+Sg+Ill
+!!€ kolmena: kolme+Num+Sg+Ess
+!!€ kolmessa: kolme+Num+Sg+Ine
+!!€ kolmea: kolme+Num+Sg+Par
+!!€ kolmia: kolme+Num+Pl+Par
+!!€ kolmien: kolme+Num+Pl+Gen
+!!€ kolmiin: kolme+Num+Pl+Ill
+!!€ kolmina: kolme+Num+Pl+Ess
+!!€ kolmissa: kolme+Num+Pl+Ine
 0:e     NUM_BACK_NOMINATIVE  ;
 0:e     NUM_BACK_ILLATIVE_EN    ;
 0:e     NUM_BACK_SINGULARS  ;
@@ -379,17 +379,17 @@ LEXICON NUM_KOLME
 
 LEXICON NUM_NELJÄ
 !!€gt-norm: Numerals 10
-!!€ neljä: neljä+Num+Card+Sg+Nom
-!!€ neljää: neljä+Num+Card+Sg+Par
-!!€ neljään: neljä+Num+Card+Sg+Ill
-!!€ neljänä: neljä+Num+Card+Sg+Ess
-!!€ neljässä: neljä+Num+Card+Sg+Ine
-!!€ neljiä: neljä+Num+Card+Pl+Par
-!!€ neljien: neljä+Num+Card+Pl+Gen
-!!€ neljiin: neljä+Num+Card+Pl+Ill
-!!€ neljinä: neljä+Num+Card+Pl+Ess
-!!€ neljissä: neljä+Num+Card+Pl+Ine
-!!€ neljäin: neljä+Num+Card+Pl+Gen+Use/Rare
+!!€ neljä: neljä+Num+Sg+Nom
+!!€ neljää: neljä+Num+Sg+Par
+!!€ neljään: neljä+Num+Sg+Ill
+!!€ neljänä: neljä+Num+Sg+Ess
+!!€ neljässä: neljä+Num+Sg+Ine
+!!€ neljiä: neljä+Num+Pl+Par
+!!€ neljien: neljä+Num+Pl+Gen
+!!€ neljiin: neljä+Num+Pl+Ill
+!!€ neljinä: neljä+Num+Pl+Ess
+!!€ neljissä: neljä+Num+Pl+Ine
+!!€ neljäin: neljä+Num+Pl+Gen+Use/Rare
 0:ä  NUM_FRONT_NOMINATIVE ;
 0:ä  NUM_FRONT_PARTITIVE_Ä    ;
 0:ä  NUM_FRONT_ILLATIVE_ÄN    ;
@@ -402,17 +402,17 @@ LEXICON NUM_NELJÄ
 
 LEXICON NUM_VIISI
 !!€gt-norm: Numerals 27 front
-!!€ viisi: viisi+Num+Card+Sg+Nom
-!!€ viiteen: viisi+Num+Card+Sg+Ill
-!!€ viitenä: viisi+Num+Card+Sg+Ess
-!!€ viidessä: viisi+Num+Card+Sg+Ine
-!!€ viisinä: viisi+Num+Card+Pl+Ess
-!!€ viisissä: viisi+Num+Card+Pl+Ine
-!!€ viittä: viisi+Num+Card+Sg+Par
-!!€ viitten: viisi+Num+Card+Pl+Gen
-!!€ viisiä: viisi+Num+Card+Pl+Par
-!!€ viisien: viisi+Num+Card+Pl+Gen
-!!€ viisiin: viisi+Num+Card+Pl+Ill
+!!€ viisi: viisi+Num+Sg+Nom
+!!€ viiteen: viisi+Num+Sg+Ill
+!!€ viitenä: viisi+Num+Sg+Ess
+!!€ viidessä: viisi+Num+Sg+Ine
+!!€ viisinä: viisi+Num+Pl+Ess
+!!€ viisissä: viisi+Num+Pl+Ine
+!!€ viittä: viisi+Num+Sg+Par
+!!€ viitten: viisi+Num+Pl+Gen
+!!€ viisiä: viisi+Num+Pl+Par
+!!€ viisien: viisi+Num+Pl+Gen
+!!€ viisiin: viisi+Num+Pl+Ill
 0:si    NUM_FRONT_NOMINATIVE ;
 0:te    NUM_FRONT_ILLATIVE_EN    ;
 0:te    NUM_FRONT_STRONG_SINGULARS   ;
@@ -426,16 +426,16 @@ LEXICON NUM_VIISI
 
 LEXICON NUM_KUUSI
 !!€gt-norm: Numerals 27 back
-!!€ kuusi: kuusi+Num+Card+Sg+Nom
-!!€ kuutena: kuusi+Num+Card+Sg+Ess
-!!€ kuudessa: kuusi+Num+Card+Sg+Ine
-!!€ kuusina: kuusi+Num+Card+Pl+Ess
-!!€ kuusissa: kuusi+Num+Card+Pl+Ine
-!!€ kuutta: kuusi+Num+Card+Sg+Par
-!!€ kuutten: kuusi+Num+Card+Pl+Gen
-!!€ kuusia: kuusi+Num+Card+Pl+Par
-!!€ kuusien: kuusi+Num+Card+Pl+Gen
-!!€ kuusiin: kuusi+Num+Card+Pl+Ill
+!!€ kuusi: kuusi+Num+Sg+Nom
+!!€ kuutena: kuusi+Num+Sg+Ess
+!!€ kuudessa: kuusi+Num+Sg+Ine
+!!€ kuusina: kuusi+Num+Pl+Ess
+!!€ kuusissa: kuusi+Num+Pl+Ine
+!!€ kuutta: kuusi+Num+Sg+Par
+!!€ kuutten: kuusi+Num+Pl+Gen
+!!€ kuusia: kuusi+Num+Pl+Par
+!!€ kuusien: kuusi+Num+Pl+Gen
+!!€ kuusiin: kuusi+Num+Pl+Ill
 0:si    NUM_BACK_NOMINATIVE ;
 0:te    NUM_BACK_ILLATIVE_EN    ;
 0:te    NUM_BACK_STRONG_SINGULARS   ;
@@ -450,17 +450,17 @@ LEXICON NUM_KUUSI
 
 LEXICON NUM_KAHDEKSAN
 !!€gt-norm: Numerals 10n
-!!€ kahdeksan: kahdeksan+Num+Card+Sg+Nom
-!!€ kahdeksaa: kahdeksan+Num+Card+Sg+Par
-!!€ kahdeksaan: kahdeksan+Num+Card+Sg+Ill
-!!€ kahdeksassa: kahdeksan+Num+Card+Sg+Ine
-!!€ kahdeksana: kahdeksan+Num+Card+Sg+Ess
-!!€ kahdeksia: kahdeksan+Num+Card+Pl+Par
-!!€ kahdeksien: kahdeksan+Num+Card+Pl+Gen
-!!€ kahdeksiin: kahdeksan+Num+Card+Pl+Ill
-!!€ kahdeksissa: kahdeksan+Num+Card+Pl+Ine
-!!€ kahdeksina: kahdeksan+Num+Card+Pl+Ess
-!!€ kahdeksain: kahdeksan+Num+Card+Pl+Gen+Use/Rare
+!!€ kahdeksan: kahdeksan+Num+Sg+Nom
+!!€ kahdeksaa: kahdeksan+Num+Sg+Par
+!!€ kahdeksaan: kahdeksan+Num+Sg+Ill
+!!€ kahdeksassa: kahdeksan+Num+Sg+Ine
+!!€ kahdeksana: kahdeksan+Num+Sg+Ess
+!!€ kahdeksia: kahdeksan+Num+Pl+Par
+!!€ kahdeksien: kahdeksan+Num+Pl+Gen
+!!€ kahdeksiin: kahdeksan+Num+Pl+Ill
+!!€ kahdeksissa: kahdeksan+Num+Pl+Ine
+!!€ kahdeksina: kahdeksan+Num+Pl+Ess
+!!€ kahdeksain: kahdeksan+Num+Pl+Gen+Use/Rare
 0:an    NUM_BACK_NOMINATIVE  ;
 0:a     NUM_BACK_PARTITIVE_A    ;
 0:a     NUM_BACK_ILLATIVE_AN    ;
@@ -473,16 +473,16 @@ LEXICON NUM_KAHDEKSAN
 
 LEXICON NUM_YHDEKSÄN
 !!€gt-norm: Numerals 10n front
-!!€ yhdeksän: yhdeksän+Num+Card+Sg+Nom
-!!€ yhdeksää: yhdeksän+Num+Card+Sg+Par
-!!€ yhdeksään: yhdeksän+Num+Card+Sg+Ill
-!!€ yhdeksässä: yhdeksän+Num+Card+Sg+Ine
-!!€ yhdeksänä: yhdeksän+Num+Card+Sg+Ess
-!!€ yhdeksiä: yhdeksän+Num+Card+Pl+Par
-!!€ yhdeksien: yhdeksän+Num+Card+Pl+Gen
-!!€ yhdeksissä: yhdeksän+Num+Card+Pl+Ine
-!!€ yhdeksinä: yhdeksän+Num+Card+Pl+Ess
-!!€ yhdeksäin: yhdeksän+Num+Card+Pl+Gen+Use/Rare
+!!€ yhdeksän: yhdeksän+Num+Sg+Nom
+!!€ yhdeksää: yhdeksän+Num+Sg+Par
+!!€ yhdeksään: yhdeksän+Num+Sg+Ill
+!!€ yhdeksässä: yhdeksän+Num+Sg+Ine
+!!€ yhdeksänä: yhdeksän+Num+Sg+Ess
+!!€ yhdeksiä: yhdeksän+Num+Pl+Par
+!!€ yhdeksien: yhdeksän+Num+Pl+Gen
+!!€ yhdeksissä: yhdeksän+Num+Pl+Ine
+!!€ yhdeksinä: yhdeksän+Num+Pl+Ess
+!!€ yhdeksäin: yhdeksän+Num+Pl+Gen+Use/Rare
 0:en    NUM_FRONT_NOMINATIVE  ;
 0:ä     NUM_FRONT_PARTITIVE_Ä    ;
 0:ä     NUM_FRONT_ILLATIVE_ÄN    ;
@@ -495,16 +495,16 @@ LEXICON NUM_YHDEKSÄN
 
 LEXICON NUM_KYMMENEN
 !!€gt-norm: Numerals 32
-!!€ kymmenen: kymmenen+Num+Card+Sg+Nom
-!!€ kymmeneen: kymmenen+Num+Card+Sg+Ill
-!!€ kymmenenä: kymmenen+Num+Card+Sg+Ess
-!!€ kymmenessä: kymmenen+Num+Card+Sg+Ine
-!!€ kymmentä: kymmenen+Num+Card+Sg+Par
-!!€ kymmenten: kymmenen+Num+Card+Pl+Gen
-!!€ kymmenien: kymmenen+Num+Card+Pl+Gen
-!!€ kymmeniin: kymmenen+Num+Card+Pl+Ill
-!!€ kymmenissä: kymmenen+Num+Card+Pl+Ine
-!!€ kymmeninä: kymmenen+Num+Card+Pl+Ess
+!!€ kymmenen: kymmenen+Num+Sg+Nom
+!!€ kymmeneen: kymmenen+Num+Sg+Ill
+!!€ kymmenenä: kymmenen+Num+Sg+Ess
+!!€ kymmenessä: kymmenen+Num+Sg+Ine
+!!€ kymmentä: kymmenen+Num+Sg+Par
+!!€ kymmenten: kymmenen+Num+Pl+Gen
+!!€ kymmenien: kymmenen+Num+Pl+Gen
+!!€ kymmeniin: kymmenen+Num+Pl+Ill
+!!€ kymmenissä: kymmenen+Num+Pl+Ine
+!!€ kymmeninä: kymmenen+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE ;
 0:e     NUM_FRONT_ILLATIVE_EN    ;
 0:e     NUM_FRONT_SINGULARS   ;
@@ -517,15 +517,15 @@ LEXICON NUM_KYMMENEN
 
 LEXICON NUM_SATA
 !!€gt-norm: Numerals 9
-!!€ sata: sata+Num+Card+Sg+Nom
-!!€ satana: sata+Num+Card+Sg+Ess
-!!€ sadassa: sata+Num+Card+Sg+Ine
-!!€ sataan: sata+Num+Card+Sg+Ill
-!!€ sataa: sata+Num+Card+Sg+Par
-!!€ satojen: sata+Num+Card+Pl+Gen
-!!€ satoihin: sata+Num+Card+Pl+Ill
-!!€ sadoissa: sata+Num+Card+Pl+Ine
-!!€ satoina: sata+Num+Card+Pl+Ess
+!!€ sata: sata+Num+Sg+Nom
+!!€ satana: sata+Num+Sg+Ess
+!!€ sadassa: sata+Num+Sg+Ine
+!!€ sataan: sata+Num+Sg+Ill
+!!€ sataa: sata+Num+Sg+Par
+!!€ satojen: sata+Num+Pl+Gen
+!!€ satoihin: sata+Num+Pl+Ill
+!!€ sadoissa: sata+Num+Pl+Ine
+!!€ satoina: sata+Num+Pl+Ess
 0:ta    NUM_BACK_NOMINATIVE ;
 0:da    NUM_BACK_WEAK_SINGULARS ;
 0:ta    NUM_BACK_STRONG_SINGULARS   ;
@@ -540,17 +540,17 @@ LEXICON NUM_SATA
 
 LEXICON NUM_TUHAT
 !!€gt-norm: Numerals 46
-!!€ tuhat: tuhat+Num+Card+Sg+Nom
-!!€ tuhanteen: tuhat+Num+Card+Sg+Ill
-!!€ tuhantena: tuhat+Num+Card+Sg+Ess
-!!€ tuhannessa: tuhat+Num+Card+Sg+Ine
-!!€ tuhansien: tuhat+Num+Card+Pl+Gen
-!!€ tuhatta: tuhat+Num+Card+Sg+Par
-!!€ tuhansia: tuhat+Num+Card+Pl+Par
-!!€ tuhansien: tuhat+Num+Card+Pl+Gen
-!!€ tuhansiin: tuhat+Num+Card+Pl+Ill
-!!€ tuhansina: tuhat+Num+Card+Pl+Ess
-!!€ tuhansissa: tuhat+Num+Card+Pl+Ine
+!!€ tuhat: tuhat+Num+Sg+Nom
+!!€ tuhanteen: tuhat+Num+Sg+Ill
+!!€ tuhantena: tuhat+Num+Sg+Ess
+!!€ tuhannessa: tuhat+Num+Sg+Ine
+!!€ tuhansien: tuhat+Num+Pl+Gen
+!!€ tuhatta: tuhat+Num+Sg+Par
+!!€ tuhansia: tuhat+Num+Pl+Par
+!!€ tuhansien: tuhat+Num+Pl+Gen
+!!€ tuhansiin: tuhat+Num+Pl+Ill
+!!€ tuhansina: tuhat+Num+Pl+Ess
+!!€ tuhansissa: tuhat+Num+Pl+Ine
 0:t     NUM_BACK_NOMINATIVE ;
 0:nte   NUM_BACK_ILLATIVE_EN    ;
 0:nte   NUM_BACK_STRONG_SINGULARS   ;
@@ -564,16 +564,16 @@ LEXICON NUM_TUHAT
 
 LEXICON NUM_MILJOONA
 !!€gt-norm: Numerals 10
-!!€ miljoona: miljoona+Num+Card+Sg+Nom
-!!€ miljoonana: miljoona+Num+Card+Sg+Ess
-!!€ miljoonassa: miljoona+Num+Card+Sg+Ine
-!!€ miljoonaa: miljoona+Num+Card+Sg+Par
-!!€ miljoonaan: miljoona+Num+Card+Sg+Ill
-!!€ miljoonia: miljoona+Num+Card+Pl+Par
-!!€ miljoonien: miljoona+Num+Card+Pl+Gen
-!!€ miljooniin: miljoona+Num+Card+Pl+Ill
-!!€ miljoonissa: miljoona+Num+Card+Pl+Ine
-!!€ miljoonina: miljoona+Num+Card+Pl+Ess
+!!€ miljoona: miljoona+Num+Sg+Nom
+!!€ miljoonana: miljoona+Num+Sg+Ess
+!!€ miljoonassa: miljoona+Num+Sg+Ine
+!!€ miljoonaa: miljoona+Num+Sg+Par
+!!€ miljoonaan: miljoona+Num+Sg+Ill
+!!€ miljoonia: miljoona+Num+Pl+Par
+!!€ miljoonien: miljoona+Num+Pl+Gen
+!!€ miljooniin: miljoona+Num+Pl+Ill
+!!€ miljoonissa: miljoona+Num+Pl+Ine
+!!€ miljoonina: miljoona+Num+Pl+Ess
 0:a     NUM_BACK_NOMINATIVE    ;
 0:a     NUM_BACK_SINGULARS    ;
 0       NUM_BACK_PLURALS  ;
@@ -587,16 +587,16 @@ LEXICON NUM_MILJOONA
 
 LEXICON NUM_MILJARDI
 !!€gt-norm: Numerals 5
-!!€ miljardi: miljardi+Num+Card+Sg+Nom
-!!€ miljardina: miljardi+Num+Card+Sg+Ess
-!!€ miljardissa: miljardi+Num+Card+Sg+Ine
-!!€ miljardeina: miljardi+Num+Card+Pl+Ess
-!!€ miljardeissa: miljardi+Num+Card+Pl+Ine
-!!€ miljardia: miljardi+Num+Card+Sg+Par
-!!€ miljardiin: miljardi+Num+Card+Sg+Ill
-!!€ miljardeja: miljardi+Num+Card+Pl+Par
-!!€ miljardien: miljardi+Num+Card+Pl+Gen
-!!€ miljardeihin: miljardi+Num+Card+Pl+Ill
+!!€ miljardi: miljardi+Num+Sg+Nom
+!!€ miljardina: miljardi+Num+Sg+Ess
+!!€ miljardissa: miljardi+Num+Sg+Ine
+!!€ miljardeina: miljardi+Num+Pl+Ess
+!!€ miljardeissa: miljardi+Num+Pl+Ine
+!!€ miljardia: miljardi+Num+Sg+Par
+!!€ miljardiin: miljardi+Num+Sg+Ill
+!!€ miljardeja: miljardi+Num+Pl+Par
+!!€ miljardien: miljardi+Num+Pl+Gen
+!!€ miljardeihin: miljardi+Num+Pl+Ill
 0:i NUM_BACK_NOMINATIVE ;
 0:i NUM_BACK_SINGULARS   ;
 0:e NUM_BACK_PLURALS ;
@@ -609,7 +609,7 @@ LEXICON NUM_MILJARDI
 
 LEXICON NUM_GOOGOL
 !!€gt-norm: Numerals 5 more
-!!€ Googol: Googol+Num+Card+Sg+Nom
+!!€ Googol: Googol+Num+Sg+Nom
 0   NUM_BACK_NOMINATIVE ;
 0:i NUM_BACK_SINGULARS   ;
 0:e NUM_BACK_PLURALS ;
@@ -621,16 +621,16 @@ LEXICON NUM_GOOGOL
 
 LEXICON NUM_PARI
 !!€gt-norm: Numerals 5 moremore
-!!€ pari: pari+Num+Card+Sg+Nom
-!!€ parina: pari+Num+Card+Sg+Ess
-!!€ parissa: pari+Num+Card+Sg+Ine
-!!€ pareissa: pari+Num+Card+Pl+Ine
-!!€ pareina: pari+Num+Card+Pl+Ess
-!!€ paria: pari+Num+Card+Sg+Par
-!!€ pareja: pari+Num+Card+Pl+Par
-!!€ parien: pari+Num+Card+Pl+Gen
-!!€ pareihin: pari+Num+Card+Pl+Ill
-!!€ pariin: pari+Num+Card+Sg+Ill
+!!€ pari: pari+Num+Sg+Nom
+!!€ parina: pari+Num+Sg+Ess
+!!€ parissa: pari+Num+Sg+Ine
+!!€ pareissa: pari+Num+Pl+Ine
+!!€ pareina: pari+Num+Pl+Ess
+!!€ paria: pari+Num+Sg+Par
+!!€ pareja: pari+Num+Pl+Par
+!!€ parien: pari+Num+Pl+Gen
+!!€ pareihin: pari+Num+Pl+Ill
+!!€ pariin: pari+Num+Sg+Ill
 0:i     NUM_BACK_NOMINATIVE    ;
 0:i     NUM_BACK_SINGULARS    ;
 0:e     NUM_BACK_PLURALS   ;
