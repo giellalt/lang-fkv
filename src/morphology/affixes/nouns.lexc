@@ -475,7 +475,7 @@ LEXICON x_33as
            :h%>aa        ess_even          ;
         +Pl:h%>a%>i2     longparpl         ;
         +Pl:h%>a%>i2     tt_longgenpl      ;
-        +Pl:h%>a%>je     shortestgenpl     ;
+!        +Pl:h%>a%>je     shortestgenpl     ; rakkhajen
 ! +N+Pl+Ess:h%>a%>i2%>na PxxK              ;
 
 !LEXICON n_33aes
@@ -527,7 +527,7 @@ LEXICON x_33is !!= @CODE@ ruvis
      +Sg:hii        sgpl_cases_even   ;
      +Pl:hii        sgpl_cases_even   ;
         :hii        ess_even_sg       ;
-     +Pl:hi%>je     shortestgenpl     ;
+!     +Pl:hi%>je     shortestgenpl     ; rukhijen
  +Pl+Ess:%>hiin^A   PxxK              ; ! i in pl lex
  +Sg+Ill:%>hiisseen K                 ;
  +Pl+Ill:hiissiin   K                 ;
@@ -544,7 +544,7 @@ LEXICON x_33t
         :e           tConsCase      ; ! nom, par
         :hee         33_t_ts_common ;
  +Sg+Ill:hee         mTAVU_VV-ill   ;
-     +Pl:he%>je      shortestgenpl  ;
+!     +Pl:he%>je      shortestgenpl  ; venhejen
  +Pl+Com:hee%>i2%>ne K              ;
 
 LEXICON n_33ts !!= @CODE@ kirves
@@ -557,7 +557,7 @@ LEXICON x_33ts !!= @CODE@ kirves
         :hee         33_t_ts_common ;
  +Sg+Ill:hee         mTAVU_VV-ill   ;
  +Pl+Gen:hee%>i2     tt_longgenpl   ; ! Can this be commented out?
-     +Pl:he%>je      shortestgenpl  ;
+!     +Pl:he%>je      shortestgenpl  ; Kirvhejen
  +Pl+Com:hee%>i2%>ne K              ;
 
 LEXICON 33_t_ts_common
