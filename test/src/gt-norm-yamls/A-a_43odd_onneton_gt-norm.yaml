@@ -70,7 +70,7 @@ Tests:
      # Eira sanoi, että on aina lyhyt -m superlatiivissa, kun siinä oon aina kaksi ii:tä.
      # Se on vain kaksitavuiset nomenit, jotka por ja rai varieteetissä voivat saada vahvan vartalon ja päätteen -in pl genitiivissä.
 
-     onneton+A+Sg+Superl+Nom: onnettommiin
+     onneton+A+Sg+Superl+Nom: onnettommiin # kaksi vai yksi m? 
      onneton+A+Sg+Superl+Gen: onnettommiiman
      onneton+A+Sg+Superl+Par: onnettommiinta
      onneton+A+Sg+Superl+Tra: onnettommiimaksi
@@ -84,7 +84,7 @@ Tests:
      onneton+A+Sg+Superl+Ess: onnettommiimpanna
      onneton+A+Pl+Superl+Nom: onnettommiimat
      onneton+A+Pl+Superl+Gen: onnettommiimiitten
-     onneton+A+Pl+Superl+Par: [onnettommiimppii, onnettommiimppiita] 
+     onneton+A+Pl+Superl+Par: [onnettommiimppii, onnettommiimppiita]
      onneton+A+Pl+Superl+Tra: onnettommiimiksi
      onneton+A+Pl+Superl+Abe: onnettommiimitta
      onneton+A+Pl+Superl+Ine: onnettommiimissa
