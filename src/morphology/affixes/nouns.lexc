@@ -110,7 +110,7 @@ LEXICON x_21_oblique
         +Pl:^AO^WG%>i2         sgpl_cases_even ; !the same affix in sg and pl
                                2TAVU_V_ill_sg  ;
  +Pl+Use/NG:^AO%>i2            shortestgenpl   ; ! shortestgenpl since we have the i
-        +Pl:^AO^WG%>i2         tt_longgenpl    ; ! longgenpl, eira 5322, korpus.
+!        +Pl:^AO^WG%>i2         tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
         +Pl:^AO%>i2            shortestparpl   ;
     +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
     +Pl+Com:^AO%>i2%>ne        K               ;
@@ -120,7 +120,7 @@ LEXICON n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
  +N+Pl+Nom:%>t                K               ;
      +N+Pl:%>i2               sgpl_cases_even ; !! the same affix in sg and pl
  +N+Pl+Ess:%>i2%>n^A          PxxK            ;
-     +N+Pl:%>i2               tt_longgenpl    ;
+!     +N+Pl:%>i2               tt_longgenpl    ; ! housuitten kasvoitten
      +N+Pl:%>i2               shortestgenpl   ;
  +N+Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
      +N+Pl:%>i2               shortestparpl   ;
@@ -162,7 +162,7 @@ LEXICON x_22
        +Pl:^WG%>i2     sgpl_cases_even    ; ! Adding  to block i:0
                        2TAVU_V_ill_sg     ;
    +Pl+Ess:%>i2%>n^A   PxxK               ;
-       +Pl:%>i2        shortestgenpl      ;
+!       +Pl:%>i2        shortestgenpl      ; opettaajiin
        +Pl:^WG%>i2     tt_longgenpl       ;
        +Pl:%>i2        longparpl          ;
    +Pl+Ill:^HMETA%>hii n_PxK              ;
@@ -296,7 +296,7 @@ LEXICON x_31
 !     +Pl:%>i2        shortgenpl      ;
       +Pl:%>i2i       shortestgenpl   ;
       +Pl:            consgenpl       ;
-      +Pl:%>i2        tt_longgenpl    ;
+!      +Pl:%>i2        tt_longgenpl    ; ! sienitten
 !    !+Pl:^EDEL       consgenpl       ;
   +Pl+Com:%>i2%>ne    K               ;
 
@@ -312,7 +312,7 @@ LEXICON x_31m
      +Sg:me^WG        sgpl_cases_even ; ! these two lexica for cases with
      +Pl:m^WG%>i2     sgpl_cases_even ; ! the same affix in sg and pl
      +Pl:me%>i2       shortgenpl      ;
-     +Pl:m%>i2        tt_longgenpl    ;
+!     +Pl:m%>i2        tt_longgenpl    ; !lumitten
  +Sg+Ill:m^HMETA%>hee n_PxK           ;
  +Pl+Ill:m^EDEL%>hii  n_PxK           ;
      +Pl:me%>i2       shortparpl      ;
@@ -334,7 +334,7 @@ LEXICON x_31si
          :            ess_even_pl     ;
       +Pl:%>i2        shortparpl      ; ! ^E2I to get t:s
       +Pl:%>i2        shortgenpl      ; ! vuossiin, ei vuottiin
-      +Pl:%>i2        tt_longgenpl    ; ! vuossitten
+!      +Pl:%>i2        tt_longgenpl    ;  vuossitten
       +Pl:^HMETA%>hii shortestillpl   ;
   +Pl+Com:%>i2%>ne    K               ;
 
@@ -350,7 +350,7 @@ LEXICON n_31lapsi        !!= @CODE@ lapsi la
     +N+Pl+Gen:sten          K               ;
         +N+Pl:ps^WG%>i2     sgpl_cases_even ; !! the same affix in sg and pl
         +N+Pl:ps%>i2%>i     shortestgenpl   ;
- +N+Pl+Use/NG:ps%>i2        tt_longgenpl    ;
+! +N+Pl+Use/NG:ps%>i2        tt_longgenpl    ; ! lapsitten
         +N+Pl:ps%>i2%>i     shortestparpl   ;
     +N+Sg+Ill:ps^HMETA%>hee n_PxK           ;
     +N+Pl+Ill:ps^EDEL%>hii  n_PxK           ;
@@ -367,7 +367,7 @@ LEXICON n_31mies        !!= @CODE@ mies mie
      +N+Sg:he^WG        sgpl_cases_even ; !! these two lexica for cases with
      +N+Pl:h^WG%>i2     sgpl_cases_even ; !! the same affix in sg and pl
      +N+Pl:h%>i2%>i     shortestgenpl   ;
-     +N+Pl:h%>i2%>      tt_longgenpl    ;
+!     +N+Pl:h%>i2%>      tt_longgenpl    ; !miehitten
      +N+Pl:s            consgenpl       ;
      +N+Pl:h%>i2%>i     shortestparpl   ;
  +N+Sg+Ill:h^HMETA%>hee n_PxK           ;
