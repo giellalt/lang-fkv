@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - yđin - ok : # Noun 'kernel'  n_32m
+     yin+N+Sg+Nom: yin
+     yin+N+Sg+Gen: ytimen
+     yin+N+Sg+Par: yđintä
+     yin+N+Sg+Tra: ytimeksi
+     yin+N+Sg+Abe: ytimettä
+     yin+N+Sg+Ine: ytimessä
+     yin+N+Sg+Ela: ytimestä
+     yin+N+Sg+Ill: ytimheen
+     yin+N+Sg+Ade: ytimellä
+     yin+N+Sg+Abl: ytimeltä
+     yin+N+Sg+All: ytimelle
+     yin+N+Sg+Ess: ytimennä
+     yin+N+Pl+Nom: ytimet
+     yin+N+Pl+Gen: ytimitten
+     yin+N+Pl+Par: ytimiä
+     yin+N+Pl+Tra: ytimiksi
+     yin+N+Pl+Abe: ytimittä
+     yin+N+Pl+Ine: ytimissä
+     yin+N+Pl+Ela: ytimistä
+     yin+N+Pl+Ill: ytimhiin
+     yin+N+Pl+Ade: ytimillä
+     yin+N+Pl+Abl: ytimiltä
+     yin+N+Pl+All: ytimille
+     yin+N+Pl+Com: ytimine
+     yin+N+Pl+Ess: ytiminnä
