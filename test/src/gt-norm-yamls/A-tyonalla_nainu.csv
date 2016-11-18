@@ -31,8 +31,8 @@ Tests:
 
      nainu+A+Pl+Nom: nainheet
      nainu+A+Pl+Gen: nainheitten
-     nainu+A+Pl+Par: [nainheita, nainheja] # nainheja mahdollinen rinnakkainen variantti var varieteetissä.
-     nainu+A+Pl+Tra: [nainheiksi, nainhejen] # nainhejen mahdollinen rinnakkainen variantti var varieteetissä.
+     nainu+A+Pl+Par: nainheita # nainheja mahdollinen rinnakkainen variantti var varieteetissä.
+     nainu+A+Pl+Tra: nainheiksi # nainhejen mahdollinen rinnakkainen variantti var varieteetissä.
      nainu+A+Pl+Abe: nainheitta
      nainu+A+Pl+Ine: nainheissa
      nainu+A+Pl+Ela: nainheista
@@ -84,7 +84,7 @@ Tests:
      nainu+A+Sg+Superl+Ess: nainheimpanna
 
      nainu+A+Pl+Superl+Nom: nainheimat
-     nainu+A+Pl+Superl+Gen: [nainheimiitten, nainheimitten] # naiheimiitten por ja rai varieteeteissä. nainheimitten muissa. 
+     nainu+A+Pl+Superl+Gen: nainheimiitten  
      nainu+A+Pl+Superl+Par: nainheimppiita
      nainu+A+Pl+Superl+Tra: nainheimiksi
      nainu+A+Pl+Superl+Abe: nainheimittä
