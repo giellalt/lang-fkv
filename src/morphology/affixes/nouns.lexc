@@ -391,6 +391,7 @@ LEXICON x_32
      +Sg:e            sgpl_cases_odd ;
      +Pl:%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
      +Pl:%>i%>i2      tt_longgenpl   ;
+     +Pl:%>i2         shortparpl     ;
      +Pl:%>i%>i2      longparpl      ;
      +Pl:^HMETAh%>i2i shortestillpl  ;
  +Pl+Com:%>i2%>ne     K              ;
