@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kulkija - ei tsekattu : # Noun 'borg' - ei tsekattu
+     kulkija+N+Sg+Nom: kulkija
+     kulkija+N+Sg+Gen: kulkijan
+     kulkija+N+Sg+Par: kulkijaa
+     kulkija+N+Sg+Tra: kulkijaksi
+     kulkija+N+Sg+Abe: kulkijatta
+     kulkija+N+Sg+Ine: kulkijassa
+     kulkija+N+Sg+Ela: kulkijasta
+     kulkija+N+Sg+Ill: kulkijhaan
+     kulkija+N+Sg+Ade: kulkijalla
+     kulkija+N+Sg+Abl: kulkijalta
+     kulkija+N+Sg+All: kulkijalle
+     kulkija+N+Sg+Ess: kulkijanna
+     kulkija+N+Pl+Nom: kulkijat
+     kulkija+N+Pl+Gen: kulkijoitten
+     kulkija+N+Pl+Par: kulkijoita
+     kulkija+N+Pl+Tra: kulkijoiksi
+     kulkija+N+Pl+Abe: kulkijoitta
+     kulkija+N+Pl+Ine: kulkijoissa
+     kulkija+N+Pl+Ela: kulkijoista
+     kulkija+N+Pl+Ill: kulkijhoin
+     kulkija+N+Pl+Ade: kulkijoila
+     kulkija+N+Pl+Abl: kulkijoilta
+     kulkija+N+Pl+All: kulkijoile
+     kulkija+N+Pl+Ess: kulkijoina
+     kulkija+N+Pl+Com: kulkijoine
