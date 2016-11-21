@@ -31,7 +31,7 @@ Tests:
 
      loistaava+A+Pl+Nom: loistaavat
      loistaava+A+Pl+Gen: loistaaviitten
-     loistaava+A+Pl+Par: loistaaviita # loistaavia var ja jok varieteeteissä.
+     loistaava+A+Pl+Par: loistaaviita # myös loistaavii.
      loistaava+A+Pl+Tra: loistaaviksi
      loistaava+A+Pl+Abe: loistaavitta
      loistaava+A+Pl+Ine: loistaavissa
@@ -42,6 +42,9 @@ Tests:
      loistaava+A+Pl+All: loistaaville
      loistaava+A+Pl+Com: loistaavine
      loistaava+A+Pl+Ess: loistaavinna
+
+     # Nomineissa, jotka loppuvat iitA:haan, on mahdollista jäättä pois tA-suffiksin pl partitiivissa.
+     # Tämä on erittäin tavallista veres- ja ihminen nominiryhmissä, tekijännimissä (puhhuuja), vA-loppuisissa adjekttiiveissa ja ordinaaleissa.
 
      loistaava+A+Sg+Comp+Nom: loistaavampi
      loistaava+A+Sg+Comp+Gen: loistaavamman
