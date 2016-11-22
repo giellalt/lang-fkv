@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - taival - ok : # Noun 'walk' - n_32
@@ -29,7 +29,7 @@ Tests:
      taival+N+Sg+Ess: taipalenna
      taival+N+Pl+Nom: taipalet
      taival+N+Pl+Gen: taipaliitten
-     taival+N+Pl+Par: taipaliita
+     taival+N+Pl+Par: [taipaliita, taipalii]
      taival+N+Pl+Tra: taipaliksi
      taival+N+Pl+Abe: taipalitta
      taival+N+Pl+Ine: taipalissa
@@ -40,3 +40,5 @@ Tests:
      taival+N+Pl+All: taipalille
      taival+N+Pl+Com: taipaline
      taival+N+Pl+Ess: taipalinna
+
+  # Nomineissa, jotka loppuvat iitA:haan, on mahdollista jäättä pois tA-suffiksin pl partitiivissa.   
