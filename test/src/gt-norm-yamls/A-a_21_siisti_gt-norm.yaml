@@ -17,7 +17,7 @@ Tests:
   Noun - pappi - ei tsekattu : # Noun 'clean' - ei tsekattu
      siisti+A+Sg+Nom: siisti
      siisti+A+Sg+Gen: siistin
-     siisti+A+Sg+Par: siistii 
+     siisti+A+Sg+Par: siistii
      siisti+A+Sg+Tra: siistiksi
      siisti+A+Sg+Abe: siistittä
      siisti+A+Sg+Ine: siistissä
@@ -41,6 +41,8 @@ Tests:
      siisti+A+Pl+All: siistiile
      siisti+A+Pl+Com: siistiine
      siisti+A+Pl+Ess: siistiinä
+
+# Por varieteeteissa vartaloloppuinen -i säilyy monikossa. Se ei tapahdu muissa kveenimurteissa.
 
      siisti+A+Sg+Comp+Nom: siistimpi
      siisti+A+Sg+Comp+Gen: siistimän
