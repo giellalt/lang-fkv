@@ -15,7 +15,7 @@ Tests:
 
 
   Noun - tytär - ok : # Noun 'daughter' - n_32 tyttär ok
-     tytär+N+Sg+Nom: tytär  
+     tytär+N+Sg+Nom: tytär
      tytär+N+Sg+Gen: tyttären
      tytär+N+Sg+Par: tytärtä
      tytär+N+Sg+Tra: tyttäreksi
@@ -29,7 +29,7 @@ Tests:
      tytär+N+Sg+Ess: tyttärennä
      tytär+N+Pl+Nom: tyttäret
      tytär+N+Pl+Gen: tyttäriitten
-     tytär+N+Pl+Par: tyttäriitä
+     tytär+N+Pl+Par: [tyttäriitä, tyttärii]
      tytär+N+Pl+Tra: tyttäriksi
      tytär+N+Pl+Abe: tyttärittä
      tytär+N+Pl+Ine: tyttärissä
@@ -40,3 +40,5 @@ Tests:
      tytär+N+Pl+All: tyttärille
      tytär+N+Pl+Com: tyttärine
      tytär+N+Pl+Ess: tyttärinnä
+
+# Nomineissa, jotka loppuvat iitA:haan, on mahdollista jäättä pois tA-suffiksin pl partitiivissa.
