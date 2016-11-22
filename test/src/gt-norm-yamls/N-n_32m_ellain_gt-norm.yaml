@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - elläin - ok : # Noun 'animal' - ok
@@ -29,7 +29,7 @@ Tests:
      elläin+N+Sg+Ess: elläimennä
      elläin+N+Pl+Nom: elläimet
      elläin+N+Pl+Gen: elläimiitten
-     elläin+N+Pl+Par: elläimiitä
+     elläin+N+Pl+Par: [elläimiitä, elläimii]
      elläin+N+Pl+Tra: elläimiksi
      elläin+N+Pl+Abe: elläimittä
      elläin+N+Pl+Ine: elläimissä
@@ -40,3 +40,5 @@ Tests:
      elläin+N+Pl+All: elläimille
      elläin+N+Pl+Com: elläimine
      elläin+N+Pl+Ess: elläiminnä
+
+# Nomineissa, jotka loppuvat iitA:haan, on mahdollista jäättä pois tA-suffiksin pl partitiivissa. 
