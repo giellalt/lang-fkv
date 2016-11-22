@@ -58,7 +58,7 @@ Tests:
 
      liberaali+A+Pl+Comp+Nom: liberaalimat
      liberaali+A+Pl+Comp+Gen: liberaalimitten
-     liberaali+A+Pl+Comp+Par: [liberaalimpia, liberaalimpia] 
+     liberaali+A+Pl+Comp+Par: [liberaalimpia, liberaalimpia]
      liberaali+A+Pl+Comp+Tra: liberaalimiksi
      liberaali+A+Pl+Comp+Abe: liberaalimitta
      liberaali+A+Pl+Comp+Ine: liberaalimissa
@@ -71,6 +71,7 @@ Tests:
      liberaali+A+Pl+Comp+Com: liberaalimpine
 
      # Varengin varieteetissä lyhyt -i on myös mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
+     # Se ei ole muissa kveenimurteissa.  
      # Katso Kainun kielen grammatikin (2014) s.183.
 
      liberaali+A+Sg+Superl+Nom: liberaaliin
