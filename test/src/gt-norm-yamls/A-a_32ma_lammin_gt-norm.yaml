@@ -29,7 +29,7 @@ Tests:
      lämmin+A+Sg+Ess: lämpimännä
      lämmin+A+Pl+Nom: lämpimät
      lämmin+A+Pl+Gen: lämpimiitten
-     lämmin+A+Pl+Par: lämpimiitä
+     lämmin+A+Pl+Par: [lämpimiitä, lämpimii]
      lämmin+A+Pl+Tra: lämpimiksi
      lämmin+A+Pl+Abe: lämpimittä
      lämmin+A+Pl+Ine: lämpimissä
@@ -40,6 +40,8 @@ Tests:
      lämmin+A+Pl+All: lämpimille
      lämmin+A+Pl+Com: lämpimine
      lämmin+A+Pl+Ess: lämpiminnä
+
+# Nomineissa, jotka loppuvat iitA:haan, on mahdollista jäättä pois tA-suffiksin pl partitiivissa.
 
      lämmin+A+Sg+Comp+Nom: lämpimämpi
      lämmin+A+Sg+Comp+Gen: lämpimämmän
