@@ -29,7 +29,7 @@ Tests:
      muuttumaton+A+Sg+Ess: muuttumattomana
      muuttumaton+A+Pl+Nom: muuttumattomat
      muuttumaton+A+Pl+Gen: muuttumattomiitten
-     muuttumaton+A+Pl+Par: muuttumattomiita
+     muuttumaton+A+Pl+Par: [muuttumattomiita, muuttumattomii]
      muuttumaton+A+Pl+Tra: muuttumattomiksi
      muuttumaton+A+Pl+Abe: muuttumattomitta
      muuttumaton+A+Pl+Ine: muuttumattomissa
@@ -40,6 +40,8 @@ Tests:
      muuttumaton+A+Pl+All: muuttumattomille
      muuttumaton+A+Pl+Ess: muuttumattominna
      muuttumaton+A+Pl+Com: muuttumattomine
+
+ # Nomineissa, jotka loppuvat iitA:haan, on mahdollista jäättä pois tA-suffiksin pl partitiivissa.
 
      muuttumaton+A+Sg+Comp+Nom: muuttumattomampi
      muuttumaton+A+Sg+Comp+Gen: muuttumattomamman # kaksi vai yksi m?
