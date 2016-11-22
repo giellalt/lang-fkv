@@ -72,7 +72,7 @@ Tests:
 
 # Eira sanoi, että oli virhe grammatiikissa. Superlatiivissa on aina yksi m, koska siinä on aina pitkä vokaali tai diftonki ennen suffiksia.
  # Varengin varieteetissä lyhyt -i on myös mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
- # Se ei ole muissa kveenimurteissa. 
+ # Se ei ole muissa kveenimurteissa.
  # Katso Kainun kielen grammatikin (2014) s.183.
 
      loistaava+A+Sg+Superl+Nom: loistaaviin
@@ -90,7 +90,7 @@ Tests:
 
      loistaava+A+Pl+Superl+Nom: loistaaviimat
      loistaava+A+Pl+Superl+Gen: loistaaviimitten
-     loistaava+A+Pl+Superl+Par: [loistaaviimpia, loistaaviimppiita] # loistaviimppiita kaikissa kveenimurteissa?
+     loistaava+A+Pl+Superl+Par: loistaaviimpia
      loistaava+A+Pl+Superl+Tra: loistaaviimiksi
      loistaava+A+Pl+Superl+Abe: loistaaviimitta
      loistaava+A+Pl+Superl+Ine: loistaaviimissa
