@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Noun - yđin - ok : # Noun 'kernel'  n_32m
@@ -29,7 +29,7 @@ Tests:
      yđin+N+Sg+Ess: ytimennä
      yđin+N+Pl+Nom: ytimet
      yđin+N+Pl+Gen: ytimiitten
-     yđin+N+Pl+Par: ytimiitä
+     yđin+N+Pl+Par: [ytimiitä, ytimii]
      yđin+N+Pl+Tra: ytimiksi
      yđin+N+Pl+Abe: ytimittä
      yđin+N+Pl+Ine: ytimissä
@@ -40,3 +40,5 @@ Tests:
      yđin+N+Pl+All: ytimille
      yđin+N+Pl+Com: ytimine
      yđin+N+Pl+Ess: ytiminnä
+
+# Nomineissa, jotka loppuvat iitA:haan, on mahdollista jäättä pois tA-suffiksin pl partitiivissa. 
