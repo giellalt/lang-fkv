@@ -13,8 +13,6 @@ Tests:
 # Proofread the gold standard (below)
 # Then: linnrun analyser, then correct.
 
-# Ongelmat monikon i:n kanssa. Keskustele Pirjon kanssa, miksi opettajan monikossa on kaksi i:tä myös muissa kuin Gen & Par.
-
   Adjective - liberaali - ei tsekattu : # Adjective 'liberal' - tsekattu
      liberaali+A+Sg+Nom: liberaali
      liberaali+A+Sg+Gen: liberaalin
@@ -42,6 +40,8 @@ Tests:
      liberaali+A+Pl+All: liberaalile
      liberaali+A+Pl+Ess: liberaalina
      liberaali+A+Pl+Com: liberaaline
+
+# Por varieteeteissa vartaloloppuinen -i säilyy monikossa. Se ei tapahdu muissa kveenimurteissa. 
 
      liberaali+A+Sg+Comp+Nom: liberaalimpi
      liberaali+A+Sg+Comp+Gen: liberaaliman
