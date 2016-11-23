@@ -1,0 +1,98 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+
+     ruottii+A+Sg+Nom: ruottii
+     ruottii+A+Sg+Gen: ruottiin
+     ruottii+A+Sg+Par: ruottiita
+     ruottii+A+Sg+Tra: ruottiiksi
+     ruottii+A+Sg+Abe: ruottiitta
+     ruottii+A+Sg+Ine: ruottiissa
+     ruottii+A+Sg+Ela: ruottiista
+     ruottii+A+Sg+Ill: ruottiisseen
+     ruottii+A+Sg+Ade: ruottiila
+     ruottii+A+Sg+Abl: ruottiilta
+     ruottii+A+Sg+All: ruottiile
+     ruottii+A+Sg+Ess: ruottiina
+
+     ruottii+A+Pl+Nom: ruottiit
+     ruottii+A+Pl+Gen: ruottiitten # -itten?
+     ruottii+A+Pl+Par: ruottiita
+     ruottii+A+Pl+Tra: ruottiiksi
+     ruottii+A+Pl+Abe: ruottiitta
+     ruottii+A+Pl+Ine: ruottiissa
+     ruottii+A+Pl+Ela: ruottiista
+     ruottii+A+Pl+Ill: ruottiissiin
+     ruottii+A+Pl+Ade: ruottiila
+     ruottii+A+Pl+Abl: ruottiilta
+     ruottii+A+Pl+All: ruottiile
+     ruottii+A+Pl+Com: ruottiine
+     ruottii+A+Pl+Ess: ruottiina
+
+     ruottii+A+Sg+Comp+Nom: ruottiimpi
+     ruottii+A+Sg+Comp+Gen: ruottiiman
+     ruottii+A+Sg+Comp+Par: ruottiimppaa
+     ruottii+A+Sg+Comp+Tra: ruottiimaksi
+     ruottii+A+Sg+Comp+Abe: ruottiimatta
+     ruottii+A+Sg+Comp+Ine: ruottiitimassa
+     ruottii+A+Sg+Comp+Ela: ruottiimasta
+     ruottii+A+Sg+Comp+Ill: ruottiimphaan
+     ruottii+A+Sg+Comp+Ade: ruottiimalla
+     ruottii+A+Sg+Comp+Abl: ruottiimalta
+     ruottii+A+Sg+Comp+All: ruottiimalle
+     ruottii+A+Sg+Comp+Ess: ruottiimpanna
+
+     ruottii+A+Pl+Comp+Nom: ruottiimat
+     ruottii+A+Pl+Comp+Gen: ruottiimitten
+     ruottii+A+Pl+Comp+Par: ruottiimpia
+     ruottii+A+Pl+Comp+Tra: ruottiimiksi
+     ruottii+A+Pl+Comp+Abe: ruottiimitta
+     ruottii+A+Pl+Comp+Ine: ruottiimissa
+     ruottii+A+Pl+Comp+Ela: ruottiimista
+     ruottii+A+Pl+Comp+Ill: ruottiimphiin
+     ruottii+A+Pl+Comp+Ade: ruottiimilla
+     ruottii+A+Pl+Comp+Abl: ruottiimilta
+     ruottii+A+Pl+Comp+All: ruottiimille
+     ruottii+A+Pl+Comp+Ess: ruottiimpinna
+     ruottii+A+Pl+Comp+Com: ruottiimpine
+
+     ruottii+A+Sg+Superl+Nom: ruottiin
+     ruottii+A+Sg+Superl+Gen: ruottiiman
+     ruottii+A+Sg+Superl+Par: ruottiinta
+     ruottii+A+Sg+Superl+Tra: ruottiimaksi
+     ruottii+A+Sg+Superl+Abe: ruottiimatta
+     ruottii+A+Sg+Superl+Ine: ruottiimassa
+     ruottii+A+Sg+Superl+Ela: ruottiimasta
+     ruottii+A+Sg+Superl+Ill: ruottiimphaan
+     ruottii+A+Sg+Superl+Ade: ruottiimalla
+     ruottii+A+Sg+Superl+Abl: ruottiimalta
+     ruottii+A+Sg+Superl+All: ruottiimalle
+     ruottii+A+Sg+Superl+Ess: ruottiimpanna
+
+     ruottii+A+Pl+Superl+Nom: ruottiimat
+     ruottii+A+Pl+Superl+Gen: ruottiimitten # var varieteetin lyhyt i:llinen varantti tässäkin?
+     ruottii+A+Pl+Superl+Par: ruottiimpia
+     ruottii+A+Pl+Superl+Tra: ruottiimiksi
+     ruottii+A+Pl+Superl+Abe: ruottiimitta
+     ruottii+A+Pl+Superl+Ine: ruottiimissa
+     ruottii+A+Pl+Superl+Ela: ruottiimista
+     ruottii+A+Pl+Superl+Ill: ruottiimphiin
+     ruottii+A+Pl+Superl+Ade: ruottiimilla
+     ruottii+A+Pl+Superl+Abl: ruottiimilta
+     ruottii+A+Pl+Superl+All: ruottiimille
+     ruottii+A+Pl+Superl+Ess: ruottiimpinna
+     ruottii+A+Pl+Superl+Com: ruottiimpine
