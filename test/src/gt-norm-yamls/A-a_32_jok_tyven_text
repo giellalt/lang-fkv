@@ -69,6 +69,8 @@ Tests:
      tyven+A+Pl+Comp+Ess: tyvenempinä
      tyven+A+Pl+Comp+Com: tyvenempine
 
+     # Superlaatiivissa on yksi -m, kun siinä oon kaksi i:tä.
+
      tyven+A+Sg+Superl+Nom: tyveniin
      tyven+A+Sg+Superl+Gen: tyveniimän
      tyven+A+Sg+Superl+Par: tyveniintä
@@ -84,7 +86,7 @@ Tests:
 
      tyven+A+Pl+Superl+Nom: tyveniimät
      tyven+A+Pl+Superl+Gen: tyveniimitten
-     tyven+A+Pl+Superl+Par: [tyveniimpiä, tyveniimppiitä] # tyveniimppiitä rinnakkainen variantti.
+     tyven+A+Pl+Superl+Par: tyveniimpiä
      tyven+A+Pl+Superl+Tra: tyveniimiksi
      tyven+A+Pl+Superl+Abe: tyveniimittä
      tyven+A+Pl+Superl+Ine: tyveniimissä
