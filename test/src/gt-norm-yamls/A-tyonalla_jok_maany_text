@@ -1,0 +1,98 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+
+     määny+A+Sg+Nom: määny
+     määny+A+Sg+Gen: määnheen
+     määny+A+Sg+Par: määnyttä
+     määny+A+Sg+Tra: määnheeksi
+     määny+A+Sg+Abe: määnheettä
+     määny+A+Sg+Ine: määnheessä
+     määny+A+Sg+Ela: määnheestä
+     määny+A+Sg+Ill: määnheesseen
+     määny+A+Sg+Ade: määnheelä
+     määny+A+Sg+Abl: määnheeltä
+     määny+A+Sg+All: määnheele
+     määny+A+Sg+Ess: määnheenä
+
+     määny+A+Pl+Nom: määnheet
+     määny+A+Pl+Gen: määnheitten
+     määny+A+Pl+Par: määnheitä
+     määny+A+Pl+Tra: määnheiksi
+     määny+A+Pl+Abe: määnheittä
+     määny+A+Pl+Ine: määnheissä
+     määny+A+Pl+Ela: määnheistä
+     määny+A+Pl+Ill: määnheissiin
+     määny+A+Pl+Ade: määnheilä
+     määny+A+Pl+Abl: määnheiltä
+     määny+A+Pl+All: määnheile
+     määny+A+Pl+Com: määnheine
+     määny+A+Pl+Ess: määnheinä
+
+     määny+A+Sg+Comp+Nom: määnheempi
+     määny+A+Sg+Comp+Gen: määnheemän
+     määny+A+Sg+Comp+Par: määnheempää
+     määny+A+Sg+Comp+Tra: määnheemäksi
+     määny+A+Sg+Comp+Abe: määnheemättä
+     määny+A+Sg+Comp+Ine: määnheemässä
+     määny+A+Sg+Comp+Ela: määnheemästä
+     määny+A+Sg+Comp+Ill: määnheemphään
+     määny+A+Sg+Comp+Ade: määnheemälä
+     määny+A+Sg+Comp+Abl: määnheemältä
+     määny+A+Sg+Comp+All: määnheemäle
+     määny+A+Sg+Comp+Ess: määnheempänä
+
+     määny+A+Pl+Comp+Nom: määnheemät
+     määny+A+Pl+Comp+Gen: määnheimitten
+     määny+A+Pl+Comp+Par: määnheimpiä
+     määny+A+Pl+Comp+Tra: määnheimiksi
+     määny+A+Pl+Comp+Abe: määnheimittä
+     määny+A+Pl+Comp+Ine: määnheimissä
+     määny+A+Pl+Comp+Ela: määnheimistä
+     määny+A+Pl+Comp+Ill: määnheimphiin
+     määny+A+Pl+Comp+Ade: määnheimilä
+     määny+A+Pl+Comp+Abl: määnheimiltä
+     määny+A+Pl+Comp+All: määnheimile
+     määny+A+Pl+Comp+Ess: määnheimpinä
+     määny+A+Pl+Comp+Com: määnheimpine
+
+     määny+A+Sg+Superl+Nom: määnhein
+     määny+A+Sg+Superl+Gen: määnheimän
+     määny+A+Sg+Superl+Par: määnheintä
+     määny+A+Sg+Superl+Tra: määnheimäksi
+     määny+A+Sg+Superl+Abe: määnheimättä
+     määny+A+Sg+Superl+Ine: määnheimässä
+     määny+A+Sg+Superl+Ela: määnheimästä
+     määny+A+Sg+Superl+Ill: määnheimphään
+     määny+A+Sg+Superl+Ade: määnheimälä
+     määny+A+Sg+Superl+Abl: määnheimältä
+     määny+A+Sg+Superl+All: määnheimäle
+     määny+A+Sg+Superl+Ess: määnheimpänä
+
+     määny+A+Pl+Superl+Nom: määnheimät
+     määny+A+Pl+Superl+Gen: määnheimitten
+     määny+A+Pl+Superl+Par: määnheimpiä
+     määny+A+Pl+Superl+Tra: määnheimiksi
+     määny+A+Pl+Superl+Abe: määnheimittä
+     määny+A+Pl+Superl+Ine: määnheimissä
+     määny+A+Pl+Superl+Ela: määnheimistä
+     määny+A+Pl+Superl+Ill: määnheimphiin
+     määny+A+Pl+Superl+Ade: määnheimilä
+     määny+A+Pl+Superl+Abl: määnheimiltä
+     määny+A+Pl+Superl+All: määnheimile
+     määny+A+Pl+Superl+Ess: määnheimpinä
+     määny+A+Pl+Superl+Com: määnheimpine
