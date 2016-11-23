@@ -869,7 +869,7 @@ LEXICON ARABICCASE0   !!= * __@CODE@__
  +Cmp/SplitR:%– ENDLEX ;
 
 LEXICON ARABICCASE   !!= * __@CODE@__
- +Sg+Loc:%>ss^A           K ;
+ +Sg+Ine:%>ss^A           K ;
 
  LEXICON ARABICCASEORD   !!= * __@CODE@__
  +Sg+Gen:%>nnen     K ;
@@ -1037,14 +1037,10 @@ LEXICON ROMNUMTAG   !!= * __@CODE@__
 ! +Num: ROMNUMTAGOBL ; !
 
 LEXICON ROMNUMTAGOBL   !!= * __@CODE@__ 
- +Gen+Err/Orth+Use/Circ:%>a # ; !  But here 123a 123
- +Acc+Err/Orth+Use/Circ:%>a # ; ! 
- +Ill+Use/Circ:%>i # ; !
- +Ill+Err/Orth+Use/Circ:%>ij # ; !
- +Ill+Err/Orth+Use/Circ:%>áj # ; !
- +Loc+Use/Circ:%>s # ; !
- +Com+Use/Circ:%>in # ; !
- +Ess+Use/Circ:%>n # ; !
+ +Gen+Err/Orth+Use/Circ:%>%:n # ; !  But here 123a 123
+ +Acc+Err/Orth+Use/Circ:%>%:n # ; ! 
+ +Ill+Use/Circ:%>%:iin # ; !
+ +Ine+Use/Circ:%>%:ssa # ; !
 
 
 ! A final section with some isolated numeral expresssions !
