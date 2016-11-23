@@ -26,6 +26,9 @@ Multichar_Symbols
 +ConNeg  !!≈ * __@CODE@__ = Hmm, Question?? Interr? Check this.
 
 +Prop     !!= * __@CODE@__ = Propernoun
++Ord  !!≈ * __@CODE@__ = Ordinal
++ABBR  !!≈ * __@CODE@__ = Abbreviation 
++ACR  !!≈ * __@CODE@__ = Acronym 
 
 !!  !!Tags for grammar
 
@@ -97,7 +100,8 @@ Multichar_Symbols
 +PUNCT  !!≈ * __@CODE@__ = Punctuation mark
 +HYPH   !!≈ * __@CODE@__ = Hyphenation mark
 +Attr   !!≈ * __@CODE@__ = Attributive form, hmm, check, for names?
-
++LEFT  !!≈ * __@CODE@__ = left parenth
++RIGHT  !!≈ * __@CODE@__ = right parenth
 
 !! !Speller tags
  +Err/Orth   !!= @CODE@ only in desc, not in norm.
@@ -110,7 +114,7 @@ Multichar_Symbols
 
 !! !Derivation
  +Der/minen  !!≈ * __@CODE@__ =
-
+ +Der/s  !!≈ * __@CODE@__ = deriving numerals
  !! !!Clitic tags
  +Clt        !!≈ * __@CODE@__ =
  +Qst        !!≈ * __@CODE@__ =
