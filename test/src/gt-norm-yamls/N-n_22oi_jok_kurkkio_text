@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: linn../bin/olo-gen.hfstol
+    Morph: linn../bin/olo.hfstol
+  xerox:
+    Gen: linn../bin/iolo.fst
+    Morph: linn../bin/olo.fst
+    App: linnlookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct.
+
+
+  Noun - kurkkio: # Noun 'borg' - ei tsekattu
+     kurkkio+N+Sg+Nom: kurkkio
+     kurkkio+N+Sg+Gen: kurkkion
+     kurkkio+N+Sg+Par: kurkkioo
+     kurkkio+N+Sg+Tra: kurkkioksi
+     kurkkio+N+Sg+Abe: kurkkiotta
+     kurkkio+N+Sg+Ine: kurkkiossa
+     kurkkio+N+Sg+Ela: kurkkiosta
+     kurkkio+N+Sg+Ill: kurkkihoon
+     kurkkio+N+Sg+Ade: kurkkiolla
+     kurkkio+N+Sg+Abl: kurkkiolta
+     kurkkio+N+Sg+All: kurkkiolle
+     kurkkio+N+Sg+Ess: kurkkionna
+     kurkkio+N+Pl+Nom: kurkkiot
+     kurkkio+N+Pl+Gen: kurkkioitten
+     kurkkio+N+Pl+Par: kurkkioita
+     kurkkio+N+Pl+Tra: kurkkioiksi
+     kurkkio+N+Pl+Abe: kurkkioitta
+     kurkkio+N+Pl+Ine: kurkkioissa
+     kurkkio+N+Pl+Ela: kurkkioista
+     kurkkio+N+Pl+Ill: kurkkihoin
+     kurkkio+N+Pl+Ade: kurkkioila
+     kurkkio+N+Pl+Abl: kurkkioilta
+     kurkkio+N+Pl+All: kurkkioile
+     kurkkio+N+Pl+Ess: kurkkioina
+     kurkkio+N+Pl+Com: kurkkioine
