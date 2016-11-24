@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - asia ok: # Noun 'sak'
+     asia+N+Sg+Nom: asia
+     asia+N+Sg+Gen: asian
+     asia+N+Sg+Par: asiaa
+     asia+N+Sg+Tra: asiaksi
+     asia+N+Sg+Abe: asiatta
+     asia+N+Sg+Ine: asiassa
+     asia+N+Sg+Ela: asiasta
+     asia+N+Sg+Ill: asihaan
+     asia+N+Sg+Ade: asialla
+     asia+N+Sg+Abl: asialta
+     asia+N+Sg+All: asialle
+     asia+N+Sg+Ess: asianna
+     asia+N+Pl+Nom: asiat
+     asia+N+Pl+Gen: asioitten
+     asia+N+Pl+Par: asioita
+     asia+N+Pl+Tra: asioiksi
+     asia+N+Pl+Abe: asioitta
+     asia+N+Pl+Ine: asioissa
+     asia+N+Pl+Ela: asioista
+     asia+N+Pl+Ill: asioihin # asihoin?
+     asia+N+Pl+Ade: asioila
+     asia+N+Pl+Abl: asioilta
+     asia+N+Pl+All: asioile
+     asia+N+Pl+Ess: asioina
+     asia+N+Pl+Com: asioine
