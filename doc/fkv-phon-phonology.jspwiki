@@ -26,30 +26,30 @@
 
 
 !!Sets
- * FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;             
- * BackVowel = a o u å ;                                        
- * ArchiVowel =  %^A %^O %^U ;                                  
- * SomeVowel = %^V ;                                            
- * NeutralVowel = e i ;                                         
- * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;        
- * NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;        
- * NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;        
- * NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o  å ;        
- * NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;              
- * NotOUI  = e                     y ä ö ü æ ø a ;              
- * NotOUIY = e                       ä ö   æ ø a ;              
- * NotAEI  =                       y ä ö ü æ ø   o u å ;                    
+ * FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            
+ * BackVowel = a o u å ;                                       
+ * ArchiVowel =  %^A %^O %^U ;                                 
+ * SomeVowel = %^V ;                                           
+ * NeutralVowel = e i i2 i3 i4 i5 i6 i7 ;                      
+ * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;       
+ * NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;       
+ * NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;       
+ * NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o   å ;       
+ * NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;             
+ * NotOUI  = e                     y ä ö ü æ ø a ;             
+ * NotOUIY = e                       ä ö   æ ø a ;             
+ * NotAEI  =                       y ä ö ü æ ø   o u å ;       
  * NotOUIF =                      y ä ö ü æ ø   ;               and e? (removed 29.1.)
  * NotOUIB =                                  a ;               and e? (removed 29.1.)
- * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;        
- * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;        
- * ArchiCns = %^N ;                                             
- * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;   
- * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                         
- * Segment = Vowel Cns ;                                        
+ * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;       
+ * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;       
+ * ArchiCns = %^N ;                                            
+ * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  
+ * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        
+ * Segment = Vowel Cns ;                                       
  * Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  
  * DummyBorder = Dummy %> ;          
- * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;   
+ * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  
 
 
 !!!Rules
@@ -60,9 +60,9 @@
 
 !Gemination
 
-Pitkän vokaalin jälkeen ja kans painottoman tavun jälkeen k, t, p ja s geminoituvat 
-ko perässä on pitkä vokaali (= lounaismurteitten erikoisgeminaatio), 
-mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen 
+Pitkän vokaalin jälkeen ja kans painottoman tavun jälkeen k, t, p ja s geminoituvat
+ko perässä on pitkä vokaali (= lounaismurteitten erikoisgeminaatio),
+mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen
 (= yleisgeminaatio). (ES).
 
 One rule for each vowel environment.
@@ -71,7 +71,12 @@ One rule for each vowel environment.
 
 
 
-__Gemination V-kkpp-i__ 
+__Gemination V-kkpp-i__
+
+
+
+
+
 
 
 * __jok0e>i2i>n __
@@ -87,12 +92,11 @@ __Gemination V-kkpp-i__
 * __poikk0>i>i> __
 
 
-__Gemination Vtti__ 
+__Gemination Vtti__
 
 
 
 __Gemination Vssi__
-
 
 
 * __vuot0e>i2>^V>n __
@@ -113,13 +117,13 @@ __Gemination Vssi__
 
 
 
-__Gemination VVa__ 
+__Gemination VVa__
 
 * __aik0a>^V __
 * __aikka>a __
 
 
-__Gemination Vi__ 
+__Gemination Vi__
 
 * __kiv0e>i2>^V __
 * __kivv0>i>i __
@@ -129,12 +133,12 @@ __Gemination Vi__
 
 
 
-__Gemination Va__ 
+__Gemination Va__
 
 * __kal0a>^V __
 * __kalla>a __
 
-__Gemination VVe__ 
+__Gemination VVe__
 
 * __suome>^V __
 * __suome>e __
@@ -142,50 +146,50 @@ __Gemination VVe__
 * __lauk0e>^V __
 * __laukke>e __
 
-__Gemination Ve__ 
+__Gemination Ve__
 
 * __tek0e>^V __
 * __tekke>e __
 
-__Gemination VVo__ 
+__Gemination VVo__
 
 * __kat0o>^V>t __
 * __katto>o>t __
 
-__Gemination Vo__ 
+__Gemination Vo__
 
 * __kir0o>^V>t __
 * __kirro>o>t __
 
-__Gemination Vu__ 
+__Gemination Vu__
 
 * __jout0u>^V __
 * __jouttu>u __
 
-__Gemination VVu__ 
+__Gemination VVu__
 
 * __puh0u>^V __
 * __puhhu>u __
 
 
-__Gemination Vy__ 
+__Gemination Vy__
 
 * __näk0y>^V __
 * __näkky>y __
 
 
-__Gemination VVy__ 
+__Gemination VVy__
 
 * __lev0y>^V __
 * __levvy>y __
 
-__Gemination Vö__ 
+__Gemination Vö__
 
 
 * __näk0ö>^V __
 * __näkkö>ö __
 
-__Gemination VVö__ 
+__Gemination VVö__
 
 * __pör0ö>^V __
 * __pörrö>ö __
@@ -194,7 +198,7 @@ __Gemination VVö__
 * __*perinnö0>n __ (is not standard language)
 
 
-__Gemination Vä__ 
+__Gemination Vä__
 
 * __tiet0ä>^Vt __
 * __tiettä>ät __
@@ -203,7 +207,7 @@ __Gemination Vä__
 * __assu>ut __
 
 
-__Gemination VVä__ 
+__Gemination VVä__
 
 * __el0ä>^V __
 * __ellä>ä __
@@ -211,49 +215,49 @@ __Gemination VVä__
 
 !Liquid + gemination consonant
 
-__Gemination LIQa__ 
+__Gemination LIQa__
 
 * __jalk0a>^V __
 * __jalkka>a __
 
-__Gemination LIQe__ 
+__Gemination LIQe__
 
 * __järk0e>^V __
 * __järkke>e __
 
-__Gemination LIQo__ 
+__Gemination LIQo__
 
 * __murt0o>^V __
 * __murtto>o __
 
-__Gemination LIQu__ 
+__Gemination LIQu__
 
 * __polk0u>^V __
 * __polkku>u __
 
-__Gemination LIQy__ 
+__Gemination LIQy__
 
 * __särk0y>^V __
 * __särkky>y __
 
-__Gemination LIQö__ 
+__Gemination LIQö__
 
 * __lämp0ö>^V __
 * __lämppö>ö __
 
-__Gemination LIQä__ 
+__Gemination LIQä__
 
 * __pölk0ä>^V __
 * __pölkkä>ä __
 * __härk0ä>^V __
 * __härkkä>ä __
 
-__Gemination LIQi__ 
+__Gemination LIQi__
 
 * __kerk0i>^Vn __
 * __kerkki>in __
 
-__Gemination LIQi7__ 
+__Gemination LIQi7__
 
 * __lauk0e>i7s __
 * __laukke>is __
@@ -267,7 +271,7 @@ __Gemination LIQi7__
 
 !Gradation ppttkk : ptk
 
-__Gradation ppttkk : ptk__ 
+__Gradation ppttkk : ptk__
 
 
 * __katto^WG>n __
@@ -277,7 +281,7 @@ __Gradation ppttkk : ptk__
 
 !Gradation -p-
 
-__Gradation p:v__ 
+__Gradation p:v__
 
 
 * __napa^WG>n __
@@ -293,7 +297,7 @@ __Gradation p:v__
 
 !Gradation of -k-
 
-__Gradation i6:0, in word poika: pojan__ 
+__Gradation i6:0, in word poika: pojan__
 
 * __poi6ka^WG>n __
 * __po0ja0>n __
@@ -347,16 +351,16 @@ __Gradation i6:0, in word poika: pojan__
 * __kovo0>ta __
 
 
-__Gradation nk:ng__ 
+__Gradation nk:ng__
 
-__Gradation mp:mm__ 
+__Gradation mp:mm__
 
 * __ranka^WG>n __
 * __ranga0>n __
 
 !Gradation of -t-
 
-__Gradation t:đ__ 
+__Gradation t:đ__
 
 
 * __pitä^AO^WG>i3>n __
@@ -370,7 +374,7 @@ __Gradation t:đ__
 * __huuđel0>a __
 
 
-__ti:si__                                                                                                     
+__ti:si__
 
 * __vete^E2I __
 * __vesi0 __
@@ -385,9 +389,9 @@ __ti:si__
 
 
 
-__Gradation Nt:NN in first syllable after short vowel__ 
+__Gradation Nt:NN in first syllable after short vowel__
 
-__Gradation Nt:N in other circumstances__ 
+__Gradation Nt:N in other circumstances__
 
 
 * __pe#rintö^WG>n __
@@ -405,7 +409,7 @@ __Gradation Nt:N in other circumstances__
 * __alta^WG>s __
 * __alla0>s __
 
-__Alveolar assimilation for consonant stems__ 
+__Alveolar assimilation for consonant stems__
 
 * __tul>^N^U __
 * __tul>lu __
@@ -414,9 +418,9 @@ __Alveolar assimilation for consonant stems__
 
 !!!Vowel rules
 
-!!Vowel harmony 
+!!Vowel harmony
 
-__Back harmony__ 
+__Back harmony__
 
 * __kulke>^A __
 * __kulke>a __
@@ -424,7 +428,7 @@ __Back harmony__
 !!Vowel copying and metathesis
 
 
-__Vowel copying in short h-illative and elsewhere__
+__Vowel copying in short h-illative and short partitive sg__
 
 * __maa>h^Vn __
 * __maa>han __
@@ -434,16 +438,20 @@ __Vowel copying in short h-illative and elsewhere__
 * __syksy>y __
 
 
-
 __Vowel copying in partitive of words ending in io, ia__
 
 
 
-__Vowel copying in long h sg forms 1__ 
+__Vowel copying in long h sg forms 1__
 
-__Vowel copying in long h sg forms 2__ 
+__Vowel copying in long h sg forms 2__
 
-__Vowel copying in long h pl forms__ 
+__Vowel copying in long h pl forms__
+
+* __poi6ka^AO^HMETA%>h^V%>i2 __
+* __poik000>hi>i __
+* __kuva^AO^HMETA%>h^V%>i2 __
+* __kuv000>hi>i __
 
 __Vowel copying of a in partitive after vowel sequences__
 
@@ -451,14 +459,20 @@ __Vowel copying of i in partitive after vowel sequences__
 
 
 
-__a to o and metathesis in h forms in pl of a-stems__ 
+__a to o and metathesis in h forms in pl of a-stems__
 
 
 
 * __paivukko>^V __
 * __paivukko>o __
 
-__Stem deletion in h-illative__ 
+
+
+
+
+
+
+__Stem deletion in h-illative__
 
 * __syksy^HMETA>h^V^Vn __
 * __syks00>hyyn __
@@ -478,7 +492,8 @@ __e:i in nom.sg. of e-stems__
 * __ove^E2I __
 * __ovi0 __
 
-__e:0 in consonant stems and illative plural__ 
+__e:0 in consonant stems and illative plural__
+
 
 * __ytime^HMETA>h^V^V> __
 * __ytim00>hee> __
@@ -495,7 +510,7 @@ __e:0 in consonant stems and illative plural__
 !!i rules
 The -i- rules require different i-s for different POS.
 
-__i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense __ 
+__i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense__
 
 
 * __risti>i2>^Vn __
@@ -514,7 +529,7 @@ __i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past t
 
 !a before i
 
-__a:0 before Pret and Pl i when rounded root vowel__ 
+__a:0 before Pret and Pl i when rounded root vowel__
 
 
 * __otta^WG>i2n __
@@ -523,11 +538,13 @@ __a:0 before Pret and Pl i when rounded root vowel__
 * __kajav00>i>ssa __
 * __kajava^WG>i2>ss^A __
 * __kajav00>i>ssa __
+* __kajava>i2i>t^A __
+* __kajav0>ii>ta __
 * __loistaava^WG>i2>ss^A __
 * __loistaav00>i>ssa __
 
 
-__a:o before Pl i and Pret i__  
+__a:o before Pl i and Pret i__
 
 
 
@@ -545,15 +562,15 @@ __a:o before Pl i and Pret i__
 * __kulkkiijo0>i>tten __
 
 
-__a:i in 3-syll stems with long a and i__ 
+__a:i in 3-syll stems with long a and i__
 
 
 * __opettaaja>i2>ss^A __
 * __opettaaji>i>ssa __
 
-!Shortening 
+!Shortening
 
-__Shortening of long vowel in front of i__ 
+__Shortening of long vowel in front of i__
 
 * __pää>i2>ss^A __
 * __p0ä>i>ssä __
@@ -564,7 +581,7 @@ __Shortening of long vowel in front of i__
 
 !!Other rules
 
-__a:e in passives and in comparative__ 
+__a:e in passives and in comparative__
 
 
 * __*loistaava>mpi __ (is not standard language)
@@ -581,7 +598,7 @@ __a:e in passives and in comparative__
 
 
 
-__ä:0 before i except in conditional__ 
+__ä:0 before i except in conditional__
 
 * __kehä>i2>ss^A __
 * __keh0>i>ssä __
@@ -612,16 +629,16 @@ __ä:0 before i except in conditional__
 
 
 
-__ä:0 before i except in conditional__ 
+__ä:0 before i except in conditional__
 
 
 
 
 
-__ä:0 before i except in conditional__ 
+__ä:0 before i except in conditional__
 
 
 
-__ä:0 before i except in conditional__ 
+__ä:0 before i except in conditional__
 
 

@@ -23,6 +23,9 @@ Take nothing at face value!
  * __+ConNeg__ = Hmm, Question?? Interr? Check this.
 
  * __+Prop     __ = Propernoun
+ * __+Ord__ = Ordinal
+ * __+ABBR__ = Abbreviation 
+ * __+ACR__ = Acronym 
 
  !!Tags for grammar
 
@@ -69,23 +72,23 @@ Number-person
 
 
 !Comparatives
- * __+Comp__ = 
- * __+Superl__ = 
+ * __+Comp__ =
+ * __+Superl__ =
 
 !Finite verbs
- * __+Pass__ = 
- * __+Ind__ = 
- * __+Prs__ = 
- * __+Prt__ = 
- * __+Imprt__ = 
- * __+Cond__ = 
+ * __+Pass__ =
+ * __+Ind__ =
+ * __+Prs__ =
+ * __+Prt__ =
+ * __+Imprt__ =
+ * __+Cond__ =
  * __+Pot__ = Potential
 
 !Infinite verbs
- * __+Inf__ = 
+ * __+Inf__ =
  * __+Lat	__ = lative (the infinitive, used in Apertium)
- * __+PrsPrc__ = 
- * __+PrfPrc__ = 
+ * __+PrsPrc__ =
+ * __+PrfPrc__ =
  * __+Inf3__ = Infinite verbs
 
 !Punctuation
@@ -93,28 +96,30 @@ Number-person
  * __+PUNCT__ = Punctuation mark
  * __+HYPH__ = Hyphenation mark
  * __+Attr__ = Attributive form, hmm, check, for names?
-
+ * __+LEFT__ = left parenth
+ * __+RIGHT__ = right parenth
 
 !Speller tags
   +Err/Orth    only in desc, not in norm.
  * __+Use/-Spell__ = Excluded in speller
  * __+Use/SpellNoSugg__ = recognized but not suggested in speller
+  +Use/NG    only accept, not generate (for MT and Oahpa use)
   +Use/Circ   for numerals, copied from sme
 !Compounds
- * __+Cmp__ = 
+ * __+Cmp__ =
 
 !Derivation
- * __+Der/minen__ = 
-
+ * __+Der/minen__ =
+ * __+Der/s__ = deriving numerals
 !!Clitic tags
- * __+Clt__ = 
- * __+Qst__ = 
- * __+Foc/han__ = 
- * __+Foc/kaan__ = 
- * __+Foc/kin__ = 
- * __+Foc/pa__ = 
- * __+Foc/s__ = 
- * __+Foc/pas__ = 
+ * __+Clt__ =
+ * __+Qst__ =
+ * __+Foc/han__ =
+ * __+Foc/kaan__ =
+ * __+Foc/kin__ =
+ * __+Foc/pa__ =
+ * __+Foc/s__ =
+ * __+Foc/pas__ =
 
 !!Semantic tags
 
@@ -128,9 +133,12 @@ Number-person
 
 
 !!Dialect tags
- * __+Dial/-V__ = Not Varanger
- * __+Dial/-P__ = Not Porsanger
- * __+Dial/-J__ = Not Jokivarret
+ * __+Dial/-Var__ = Not Varanger
+ * __+Dial/-Por__ = Not Porsanger
+ * __+Dial/-Jok__ = Not Jokivarret
+ * __+Dial/Var__ Varanger, short for +Dial/-Jok+Dial/-Por
+ * __+Dial/Por__ Porsanger, short for +Dial/-Jok+Dial/-Var
+ * __+Dial/Jok__ Jokivarret, short for +Dial/-Por+Dial/-V
 
 
  !!Phonological symbols
@@ -173,7 +181,6 @@ with verbs if the verb is further derived into a noun again:
  | @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
  | @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
  | @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
-
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
@@ -188,7 +195,6 @@ do no harm.
  | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
  | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
  | @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
-
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
@@ -198,6 +204,7 @@ given the proper use of these flags.
 
  | @U.pron.nom@ | tbw
  | @U.pron.gen@ | tbw
+ | @U.pron.gen2@ | tbw
  | @U.pron.ill@ | tbw
  | @U.pron.par@ | tbw
  | @U.pron.par2@ | tbw
@@ -235,9 +242,6 @@ Here is the Root lexicon, pointing to all the parts of speech:
  *  Punctuation ;      
  *  VerbRoot ;          
  *  Subjunction ;      
-
-
-
-
+ *  Abbreviation ;     
 
 
