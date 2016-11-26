@@ -7,7 +7,7 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
  2007 s.87
 * 1. Yksitavuiset / Vi ( maa, tuorestai)                 = n_1
 * 1.1. Yksitavuiset monikko/ Vi ( häät)                 = n_1pl
-* 2. Vokaalirankaiset                                                 
+* 2. Vokaalirankaiset
 ** 2.1 Kaksitavuiset ( pappi)                             = n_21
 *** 2.1.1. Kaksitavuiset monikko (housut)     = n_21pl
 *** 2.1.2. Kaksitavuiset (joki: joke)         = n_21ie
@@ -17,23 +17,23 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 *** 2.2.3. Usseempitav. monikko oi (kulkkiija)        = n_22oi
 ** 2.3 Kokkoontumanom. ( valkkee)                     = n_23
 ** 2.3.1 Kokkoontumanom. (assii)             = n_23ii
-* 3. Konsonanttirankaiset                                          
+* 3. Konsonanttirankaiset
 ** 3.1 Kaksitavuiset ( pieni, kieli)                         = n_31
 ** 3.1.1. Kaksitavuiset lumi)                 = n_31m
 ** 3.1.2. (käsi, vuosi)                                                 = n_31si
 ** 3.1.3. (lapsi)                                                      = n_31lapsi
 ** 3.1.4. (mies)                                                         = n_31mies
-** 3.2 Usseempitavuiset 
+** 3.2 Usseempitavuiset
 ** 3.2.1 (tytär)                              = n_32
 ** 3.2.2. (elläin)                            = n_32m
 ** 3.2.3 (rakkhaus)                                                         = n_32s
-** 3.3 Kokkoontumanom. ( opas, huonet)                 
+** 3.3 Kokkoontumanom. ( opas, huonet)
 ** 3.3.1 (opas)                               = n_33s
 ** 3.3.2 (asukas)                             = n_33sodd
 ** 3.3.3. (ruvis)                           = n_33is
 ** 3.3.4 (huonet)                            = n_33t
 ** 3.3.5 (kirves)                                                         = n_33ts
-* 4. Ekstrakonsonanttirankaiset                                  
+* 4. Ekstrakonsonanttirankaiset
 ** 4.1 veres-nominit ( veres, kokkous)                 = n_41
 ** 4.1.1. veres-nominit monikko ( veljekset)                = n_41pl
 ** 4.2 –inen-nominit ( kainulainen)                         = n_42 = nen
@@ -58,7 +58,7 @@ the same affix in sg and pl
 the same affix in sg and pl
 
 
- * LEXICON n_21C   
+ * LEXICON n_21C 
 
  * LEXICON n_21          "poika:poi6ka", lyhyt vokali, yks vartalo
 
@@ -87,6 +87,8 @@ the same affix in sg and pl
 
 
 
+
+
  * LEXICON n_22oddi   meininki
 
  * LEXICON x_22oddi   meininki
@@ -94,7 +96,7 @@ the same affix in sg and pl
 
 
 
- * LEXICON n_22oi          
+ * LEXICON n_22oi        
 
  * LEXICON x_22oi          Kulkkiija
 
@@ -135,11 +137,11 @@ the same affix in sg and pl
 
  LEXICON n_32m_pl  elläin elläi
 
- LEXICON x_32m  
+ LEXICON x_32m 
 
 
 
- LEXICON n_32s   sairhaus 
+ LEXICON n_32s   sairhaus
 * Konsonanttivartalo: poista -e ja heikko aste
 * Konsonanttivartalo: poista -e ja heikko aste
 * Pitkä perusmuoto
@@ -232,7 +234,7 @@ Basic paradigms
  LEXICON strong_v_stem_odd   ''Kaikki vahvan asteen sijamuodot tähän''
 
 
- LEXICON weak_v_stem  
+ LEXICON weak_v_stem 
 
 
 Todo: identify these, and remove Ins from the
@@ -306,11 +308,6 @@ Px is now not in use, with one exception, comitative.
  LEXICON PxK  has only -nsA, and is currently not in use. Check
 
  LEXICON PxxK   has also -Vn, thus both .. llensa and ..lleen.
-
-
-
-
-
 
 
 
