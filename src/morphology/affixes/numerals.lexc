@@ -241,9 +241,13 @@ LEXICON NUM_FRONT_GENITIVE_TEN
 
 LEXICON NUM_BACK_GENITIVE_IN
 !!€gt-norm: Numeral plural genitive in back
++Pl+Gen:%>in    #     ;
++Pl+Gen:%>i     NUM_BACK_POSS     ;
 
 LEXICON NUM_FRONT_GENITIVE_IN
 !!€gt-norm: Numeral plural genitive in front
++Pl+Gen:%>in    #     ;
++Pl+Gen:%>i     NUM_FRONT_POSS     ;
 
 LEXICON NUM_BACK_ILLATIVE_IHIN
 !!€gt-norm: Numeral plural illaive ihin bavk
