@@ -603,6 +603,7 @@ LEXICON n_41pl !!= * @CODE@ = veljekset
       +N+Pl:kse%>i2    sgpl_cases_odd  ; !! the same affix in sg and pl -- tsekkaa long
   +N+Pl+Gen:%>sten     K               ;
   +N+Pl+Par:%>ksii     K               ;
+  +N+Pl:ks%>i2i        longparpl       ; ! veljeksiitä
   +N+Pl+Ill:ksh%>i2in  K               ;
   +N+Pl+Com:ks%>i2%>ne K               ;
 
@@ -632,6 +633,7 @@ LEXICON x_42
         :se        ess_even        ;
      +Pl:s         consgenpl       ;
      +Pl:ss%>i2i   shortestparpl   ;
+     +Pl:ss%>i2i   longparpl      ; ! naissiita
      +Pl:sh%>i2    shorterillpl    ;
  +Pl+Com:s%>i2%>ne K               ;
 
@@ -650,6 +652,7 @@ LEXICON x_42odd
      +Pl:s%>i2     sgpl_cases_odd ; !! the same affix in sg and pl
      +Pl:s         consgenpl      ;
      +Pl:ss%>i2i   shortestparpl  ;
+     +Pl:ss%>i2i   longparpl      ; ! ihmissiitä
      +Pl:sh%>i2    shorterillpl   ;
  +Pl+Com:s%>i2%>ne K              ;
 
@@ -658,6 +661,7 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
      +N+Pl:s%>i2      sgpl_cases_odd ; !! the same affix in sg and pl
      +N+Pl:s          consgenpl      ;
      +N+Pl:ss%>i2     shortparpl     ; ! tervhehissii
+     +N+Pl:ss%>i2i     longparpl      ; ! tervhehissiitä
  +N+Pl+Ill:sh%>i2in   K              ;
         +N:se         ess_odd_pl     ;
  +N+Pl+Com:s%>i2%>nne K              ;
