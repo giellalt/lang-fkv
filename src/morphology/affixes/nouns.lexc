@@ -439,6 +439,7 @@ LEXICON n_32s !!= @CODE@  sairhaus
          +N:te             ess_odd_sg        ;
          +N:ks             ess_odd_pl        ;
       +N+Pl:ks%>i2         sgpl_cases_odd    ; ! hmm, tämä menee pieleen, sg ≠ pl
+      +N+Pl:ksi%>i2        shortestparpl     ;
       +N+Pl:ksi%>i2        longparpl         ;
       +N+Pl:ksi%>i2        tt_longgenpl      ;
       +N+Pl:ks^HMETAh%>i2i shortestillpl     ;
@@ -587,10 +588,12 @@ LEXICON x_41
      +Pl:kse%>i2    sgpl_cases_odd ; ! the same affix in sg and pl -- tsekkaa long
 
  +Pl+Gen:%>sten     K              ;
- +Pl+Par:%>ksii     K              ;
+ +N+Pl:ks%>i2       shortparpl  ;
+ +N+Pl:ks%>i2i      longparpl      ; ! vereksiitä
  +Sg+Ill:ksheen     K              ;
  +Pl+Ill:ksh%>i2in  K              ;
  +Pl+Com:ks%>i2%>ne K              ;
+ ! +Pl+Par:%>ksii     K              ;
 
 LEXICON s_kse
  +N:^WG # ;
@@ -602,10 +605,11 @@ LEXICON n_41pl !!= * @CODE@ = veljekset
       +N+Sg:kse        sgpl_cases_odd  ; !! these two lexica for cases with
       +N+Pl:kse%>i2    sgpl_cases_odd  ; !! the same affix in sg and pl -- tsekkaa long
   +N+Pl+Gen:%>sten     K               ;
-  +N+Pl+Par:%>ksii     K               ;
+  +N+Pl:ks%>i2         shortparpl   ;
   +N+Pl:ks%>i2i        longparpl       ; ! veljeksiitä
   +N+Pl+Ill:ksh%>i2in  K               ;
   +N+Pl+Com:ks%>i2%>ne K               ;
+  !  +N+Pl+Par:%>ksii     K               ;
 
 
 
