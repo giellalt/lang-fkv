@@ -178,9 +178,12 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A:%>tt^Om^A sgpl_cases_common ;
 +A+Pl+Ill:%>tt^Omh%>i2in K ;
 +A:%>tt^Om^A ess_even_sg ;
-!+A:%>tt^Omm^A%>i2 shortestgenpl ; ! naisien
-!+A:%>tt^Omi%>i2 shortestgenpl ; ! naisien
-+A:%>tt^Omi%> long_par_pl;
+
+!+Pl:%>tt^Om%>i2%>i a_shortestgenpl ; ! onnettomiin
++A+Pl:%>tt^Om%>i2%>i tt_longgenpl   ; ! muuttumattomiitten
++A+Pl:%>tt^Omi%>i2 longparpl        ; ! muuttumattomiita
++A+Pl:%>tt^Omi%>i2%> shortestparpl  ; ! muuttumattomii
+
 !+A:%>tt^Omh%>i2 shorterillpl ;
 +A:%>tt^Om^A a_loputon ;
 +A:%>tt^Om a_loputonpl ;
@@ -207,8 +210,12 @@ LEXICON x_43odd !!= * @CODE@ onneton
 +Sg+Ill:%>tt^Omh^A^A n_PxK ;
 :%>tt^Om^A sgpl_cases_common ;
 +Pl+Ill:%>tt^Omh%>i2in K ;
-+Pl:%>tt^Omm%>i2%>i a_shortestgenpl ; ! naisien
-:%>tt^Ommi%> long_par_pl;
++Pl:%>tt^Om%>i2%>i a_shortestgenpl ; ! onnettomiin
++Pl:%>tt^Om%>i2%>i tt_longgenpl    ; ! onnettomiitten
++Pl:%>tt^Omi%>i2%> longparpl      ; ! onnettomiita
++Pl:%>tt^Omi%>i2 shortestparpl  ; ! onnettomii
+
+
 :%>tt^Omh%>i2 shorterillpl ;
 +Pl+Com:%>tt^Om%>i2ne K ;
 :%>tt^Om^A a_loputoneven ;

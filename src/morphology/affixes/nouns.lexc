@@ -165,6 +165,7 @@ LEXICON x_22
 !       +Pl:%>i2        shortestgenpl      ; opettaajiin
        +Pl:^WG%>i2     tt_longgenpl       ;
        +Pl:%>i2        longparpl          ;
+       +Pl:%>i2        shortestparpl      ;
    +Pl+Ill:^HMETA%>hii n_PxK              ;
    +Pl+Com:%>i2%>ne    K                  ;
 !+Sg+Ess:%>n^A PxxK ; Lene removed this one
@@ -182,15 +183,16 @@ LEXICON x_22odd !!= * @CODE@  kajava
       +Pl:^WG%>i2      sgpl_cases_odd ; ! Adding  to block i:0
                        2TAVU_V_ill_sg ;
                        ess_odd        ;
-
+      +Pl:^WG%>i2i     tt_longgenpl   ; ! kajaviitten
+      +Pl:%>i2i        longparpl      ;
+      +Pl:%>i2%>i      shortestparpl  ; ! %> i necessary, otherwise a:o NOTwork
+  +Pl+Ill:%^HMETA%>hii n_PxK          ;
+  +Pl+Com:%>i2%>ne     K              ;
 !                      ess_odd_sg     ;
 !                      ess_odd_pl     ;
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
 
-      +Pl:^WG%>i2i     tt_longgenpl   ; ! kajaviitten
-         :%>i          long_par_pl    ;
-  +Pl+Ill:%^HMETA%>hii n_PxK          ;
-  +Pl+Com:%>i2%>ne     K              ;
+
 
 
 
@@ -254,7 +256,7 @@ LEXICON x_23
           +Pl+Nom:et         K               ;
           +Sg+Ill:esseen     K               ;
           +Pl+Ill:e%>i2ssiin K               ;
-                 :e          long_par_sg     ;
+              +Sg:e          longparpl     ;
               +Pl:e%>i2      longparpl       ;
               +Pl:e%>i2      tt_longgenpl    ;
               +Pl:e%>i2      sgpl_cases_even ;
@@ -267,7 +269,7 @@ LEXICON n_23ii        !!= * @CODE@  assii
 
 LEXICON x_23ii
  +Sg+Nom:      K               ;
-               long_par_sg     ;
+     +Sg:      longparpl       ;
  +Sg+Ill:sseen K               ;
  +Pl+Ill:ssiin K               ;
      +Pl:      longparpl       ;
@@ -285,7 +287,7 @@ LEXICON n_31        !!= @CODE@  kieli
 
 LEXICON x_31
   +Sg+Nom:^E2I        K               ; ! ^E2I e to i
-         :^EDEL       long_par_sg     ;
+      +Sg:^EDEL       longparpl     ;
                       obl_strong_even ;
          :^WG         weak_v_stem     ;
       +Sg:^WG         sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
@@ -306,7 +308,7 @@ LEXICON n_31m        !!= @CODE@ lumi lu
 
 LEXICON x_31m
  +Sg+Nom:mi           K               ; ! ^EI e to i
-        :n            long_par_sg     ;
+     +Sg:n            longparpl       ;
         :me           obl_strong_even ;
         :me^WG        weak_v_stem     ;
      +Sg:me^WG        sgpl_cases_even ; ! these two lexica for cases with
@@ -325,7 +327,7 @@ LEXICON n_31si        !!= @CODE@ vuosi, käsi
 LEXICON x_31si
   +Sg+Nom:^E2I        K               ;
 !                     nomgen_px       ; ! sg nom/gen px
-         :^EDEL       long_par_sg     ; ! parsg
+      +Sg:^EDEL       longparpl       ; ! parsg
          :^WG         weak_v_stem     ; ! gensg, nompl
                       2TAVU_V_ill_sg  ;
       +Sg:^WG         sgpl_cases_even ; ! these two lexica for cases with
@@ -343,7 +345,7 @@ LEXICON n_31lapsi        !!= @CODE@ lapsi la
     +N+Sg+Nom:psi           R               ; ! ^EI e to i
     +N+Sg+Gen:psen          R               ;
     +N+Pl+Gen:sten          R               ;
-           +N:s             long_par_sg     ;
+        +N+Sg:s             longparpl       ;
            +N:pse           obl_strong_even ;
            +N:pse^WG        weak_v_stem     ;
         +N+Sg:pse^WG        sgpl_cases_even ; !! these two lexica for cases with
@@ -360,7 +362,7 @@ LEXICON n_31mies        !!= @CODE@ mies mie
  +N+Sg+Nom:s            K               ; ! ^EI e to i
  +N+Sg+Nom:s            R               ; ! ^EI e to i
  +N+Sg+Gen:hen          K               ;
-        +N:s            long_par_sg     ;
+     +N+Sg:s            longparpl       ;
         +N:he           obl_strong_even ;
      +N+Sg:he^WG        weak_v_stem     ;
  +N+Pl+Nom:het          K               ;
@@ -400,9 +402,6 @@ LEXICON n_32m !!= @CODE@ elläin elläi
         +N:     x_32m ;
  +N+Sg+Nom:^WGn R     ;
 
-LEXICON n_32m_pl !!= @CODE@ elläin elläi
- +N: x_32m_pl ;
-
 LEXICON x_32m !!= @CODE@
   x_32m_sg ;
   x_32m_pl ;
@@ -418,10 +417,14 @@ LEXICON x_32m_sg
         :me        2TAVU_V_ill_sg ;
      +Sg:me        sgpl_cases_odd ;
 
+LEXICON n_32m_pl !!= @CODE@
+      +N: x_32m_pl ;
+
 LEXICON x_32m_pl
         :me            weak_v_stem_pl ;
         :me            weak_v_stem    ;
      +Pl:m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
+     +Pl:mi%>i2        shortestparpl  ;
      +Pl:mi%>i2        longparpl      ;
      +Pl:m%>ii2        tt_longgenpl   ;
      +Pl:m^HMETAh%>i2i shortestillpl  ;
@@ -555,7 +558,7 @@ LEXICON n_33ts !!= @CODE@ kirves
 
 LEXICON x_33ts !!= @CODE@ kirves
  +Sg+Nom:es          K              ;
-        :es          long_par_sg    ;
+     +Sg:es          longparpl      ;
         :hee         33_t_ts_common ;
  +Sg+Ill:hee         mTAVU_VV-ill   ;
  +Pl+Gen:hee%>i2     tt_longgenpl   ; ! Can this be commented out?
@@ -588,8 +591,8 @@ LEXICON x_41
      +Pl:kse%>i2    sgpl_cases_odd ; ! the same affix in sg and pl -- tsekkaa long
 
  +Pl+Gen:%>sten     K              ;
- +N+Pl:ks%>i2       shortparpl  ;
- +N+Pl:ks%>i2i      longparpl      ; ! vereksiitä
+ +Pl:ks%>i2         shortparpl     ; ! vereksii
+ +Pl:ks%>i2i        longparpl      ; ! vereksiitä
  +Sg+Ill:ksheen     K              ;
  +Pl+Ill:ksh%>i2in  K              ;
  +Pl+Com:ks%>i2%>ne K              ;
@@ -630,7 +633,7 @@ LEXICON n_42
 LEXICON x_42
  +Sg+Nom:nen       K               ;
         :se        weak_v_stem     ;
-        :s         long_par_sg     ;
+     +Sg:s         longparpl       ;
         :se        2TAVU_V_ill_sg  ;
      +Sg:se        sgpl_cases_even ; !! these two lexica for cases with
      +Pl:s%>i2     sgpl_cases_even ; !! the same affix in sg and pl
@@ -650,7 +653,7 @@ LEXICON x_42odd
  +Sg+Nom:nen       K              ;
         :se        ess_odd        ;
         :se        weak_v_stem    ;
-        :s         long_par_sg    ;
+     +Sg:s         longparpl      ;
         :se        2TAVU_V_ill_sg ;
      +Sg:se        sgpl_cases_odd ; !! these two lexica for cases with
      +Pl:s%>i2     sgpl_cases_odd ; !! the same affix in sg and pl
@@ -680,7 +683,7 @@ LEXICON nen_sg
              +N:se   ess_even       ;
 ! make+N+Pl+kom:sine K              ;
              +N:se   weak_v_stem_sg ;
-             +N:s    long_par_sg    ;
+          +N+Sg:s    longparpl      ;
              +N:se   2TAVU_V_ill_sg ;
 
 LEXICON nen_pl
@@ -833,16 +836,9 @@ LEXICON short_par
           +Sg+Par:%>^V PxxK ;
  +Sg+Par+Err/Orth:%>^A PxxK ;
 
-
 LEXICON long_par
-  long_par_sg ;
-  long_par_pl ;
-
-LEXICON long_par_sg
- +Sg+Par:%>t^A PxxK ;
-
-LEXICON long_par_pl
- +Pl+Par:%>i2%>t^A PxxK ;
+ +Sg: longparpl ;
+ +Pl:%>i2 longparpl ;
 
 LEXICON 1TAVU_VV-ill  !short maahan
  +Sg+Ill:%>h^V n_PxK ;
