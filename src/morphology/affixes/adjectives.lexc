@@ -91,6 +91,7 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 +A:m^A weak_v_stem ;
 +A+Pl:m%>i2 sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 +A+Pl:%>mi%>i2 longparpl ;
++A+Pl:%>m%>i2 shortparpl ;
 +A+Pl:m%>ii2 tt_longgenpl ;
 +A+Pl:m^HMETAh%>i2i shortestillpl;
 +A+Pl+Com:m%>i2ne K ;
