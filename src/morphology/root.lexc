@@ -54,6 +54,12 @@ Multichar_Symbols
 +Pl1  !!≈ * __@CODE@__ = Plural 1
 +Pl2  !!≈ * __@CODE@__ = Plural 2
 +Pl3  !!≈ * __@CODE@__ = Plural 3
++PxPl1
++PxPl2
++PxPl3
++PxSg1
++PxSg2
++PxSg3
 
 !! !Case
 
@@ -111,6 +117,7 @@ Multichar_Symbols
  +Use/Circ  !!= @CODE@ for numerals, copied from sme
 !! !Compounds
  +Cmp  !!≈ * __@CODE@__ =
+ +Cmp/SplitR
 
 !! !Derivation
  +Der/minen  !!≈ * __@CODE@__ =
