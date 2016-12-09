@@ -192,8 +192,8 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 
 :%>tt^Om^A comp_mm ;
 :%>tt^Omi5i superl_m_even ;
-+A+Pl+Comp+Gen:m^A%>mpp%>i2%>in K ;
-+A+Pl+Superl+Gen:mi%>mpp%>i2%>in K ;
+!+A+Pl+Comp+Gen:m^A%>mpp%>i2%>in K ; ! muuttumamamppiin
+!+A+Pl+Superl+Gen:mi%>mpp%>i2%>in K ; ! muuttumamimppiin
 
 +A+Sg+Superl:%>tt^Om superl_in ;
 
@@ -318,10 +318,11 @@ LEXICON comp_onneton
 +A+Pl+Comp:%>m%>i2 sgpl_cases_odd ;
 +A+Sg+Comp+Ess:%>mp^A%>nn^A K ;
 +A+Pl+Comp+Nom:%>m^A%>t K ;
-!+A+Pl+Comp+Gen:%>m%>i2%>tten K ;
-+A+Pl+Comp+Gen:%>mpp%>i2%>in K ;
++A+Pl+Comp+Gen:%>m%>i2%>itten K ;
+!+A+Pl+Comp+Gen:%>mpp%>i2%>in K ;
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
++A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Ess:%>mp%>i2%>nn^A    K ;
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
@@ -389,11 +390,12 @@ LEXICON superl_onneton
 +A+Sg+Superl+Ess:%>mp^A%>nn^A    K ;
 +A+Sg+Superl:%>m^A sgpl_cases_odd ;
 +A+Pl+Superl:%>m%>i2 sgpl_cases_odd ;
-+A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
++A+Pl+Superl+Gen:%>m%>i2%>itten K ;
+!+A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
-+A+Pl+Superl+Par:%>mp%>i2%>^A K  ;
+!+A+Pl+Superl+Par:%>mp%>i2%>^A K  ; ! onnettommiimpia
 +A+Pl+Superl+Ess:%>mp%>i2%>nn^A    K ;
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
 
