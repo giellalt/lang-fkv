@@ -84,6 +84,8 @@ LEXICON n_1pl !!= * @CODE@ = häät
 
         +N:          1TAVU_VV-ill    ;
      +N+Pl:%>i2      tt_longgenpl    ;
+     +N+Pl:%>i2%>ne      shortestgenpl   ;
+
      +N+Pl:%>i2      longparpl       ;
      +N+Pl:%>i2      shortillpl      ;
  +N+Pl+Ess:%>i2%>n^A PxxK            ;
