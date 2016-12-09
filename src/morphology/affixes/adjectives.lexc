@@ -304,7 +304,7 @@ LEXICON comp_m_common
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
-+A+Pl+Comp+Par:%>mp%>i2%>^A K  ; ! sinnikkhäämpiä
++A+Pl+Comp+Par+Dial/-Por:%>mp%>i2%>^A K  ; ! sinnikkhäämpiä
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
 
@@ -374,7 +374,7 @@ LEXICON superl_m_common
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
-+A+Pl+Superl+Par:%>mp%>i2%>^A K  ;
++A+Pl+Superl+Par+Dial/-Por:%>mp%>i2%>^A K  ;
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
 ! pl gen variation in LEXICON a_33as
 
