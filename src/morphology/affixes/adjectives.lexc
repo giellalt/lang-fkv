@@ -19,7 +19,7 @@ LEXICON HYVA
 +A+Sg+Superl+Nom:paras K ;
 ! the rest of paras to be written.
 
-LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc.
+LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc. siisti
 +A: x_21 ;
 !+A: a_strong_v_stem ;
 !+A:^WG a_weak_v_stem ;
@@ -37,7 +37,7 @@ LEXICON a_22	!!= * @CODE@  liberaali
 comp_m_odd  ;
 :i superl_m_odd ;
 
-LEXICON a_22odd	!!= * @CODE@  simppeli
+LEXICON a_22odd	!!= * @CODE@  simppeli, loistaava
 +A: x_22odd ;
 comp_mm ;
 :%>i5i superl_m_even ;
@@ -114,7 +114,7 @@ LEXICON a_33aes !!= * @CODE@ sinnikäs
 ! comp, superl, puuttuvat
 
 
-LEXICON a_33is !!= * @CODE@ valmis
+LEXICON a_33is !!= * @CODE@ valmis, kaunis
 +A: x_33is ;
 :hii comp_m_odd  ;
 :hii superl_m_odd ;
@@ -342,7 +342,7 @@ LEXICON comp_mm
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
-+A+Pl+Comp+Par:%>mp%>i2%>^A K  ;
++A+Pl+Comp+Par+Dial/-Por:%>mp%>i2%>^A K  ;
 +A+Pl+Comp+Ess:%>mp%>i2%>n^A    K ;
 +A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
 
@@ -414,7 +414,7 @@ LEXICON superl_mm
 +A+Pl+Superl+Gen:%>m%>ii2%>tten K ;
 +A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
-+A+Pl+Superl+Par:%>mp%>i2%>^A K  ;
++A+Pl+Superl+Par+Dial/-Por:%>mp%>i2%>^A K  ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl+Ess:%>mp%>i2%>n^A    K ;
 +A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
