@@ -14,7 +14,7 @@ laiha a_21 ; !!= * @CODE@
 turha a_21 ;
 hieno a_21 ; !!= * @CODE@ needs own adj lex tag
 
-!! !!2.2. Usseempitavvuiset lyhykäisvokaaliset rangat 
+!! !!2.2. Usseempitavvuiset lyhykäisvokaaliset rangat
 
 
 liberaali:liberaali a_22 ; !!= * @CODE@ XXX check whether pl = liberaaliksi or liberaaliksi
@@ -22,16 +22,16 @@ simppeli a_22odd ;
 
 !! !!2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
 
-valkkee:valkke a_23 ; !!= * @CODE@ 
-selkkee:selkke a_23 ; 
+valkkee:valkke a_23 ; !!= * @CODE@
+selkkee:selkke a_23 ;
 kauhee:kauhe a_23 ;
-auttii:autt2ii a_23ii ; !!= * @CODE@ 
+auttii:autt2ii a_23ii ; !!= * @CODE@
 
 
 !! !!3. Konsonanttirankaiset
 
 !! !!3.1. Kaksitavuiset
-nuori:nuore a_31 ; 
+nuori:nuore a_31 ;
 
 uusi:uute a_31si ; !!= * @CODE@
 täysi:täyte a_31si ;
@@ -44,7 +44,7 @@ tyven a_32 ; !!= * @CODE@
 vasen:vase a_32ma ; !!= * @CODE@
 
 !! !!3.3 Kokoontuma
- 
+
 rakas:rakk a_33as ;
 tyyris:tyyr a_33is ;
 voimakas:voimakk a_33as ;
@@ -58,11 +58,11 @@ väsyny:väsyn a_33y ;
 
 !! !! 4. Ekstrakonsonanttirankaiset
 
-!! !!4.1 ekstrakonsonanttirankaiset 
+!! !!4.1 ekstrakonsonanttirankaiset
 
 veres:vere a_41 ; !!= * @CODE@
 
- 
+
 !! !! 4.2 -nen-adjektiivit
 
 varovainen:varovai a_42 ;
@@ -260,7 +260,7 @@ ohukainen:ohukai a_42 ;
 korkukainen:korkukai a_42 ;
 suurukainen:suurukai a_42 ;
 pitukainen:pitukai a_42 ;
-ruijalainen:ruijalai a_42 ; 
+ruijalainen:ruijalai a_42 ;
 talosvankkalainen:talosvankkalai a_42 ;
 jokalainen:jokalai a_42 ;
 tuiskalainen:tuiskalai a_42 ;
@@ -421,10 +421,6 @@ ymmyräinen:ymmyräi a_42 ;
 pahasäinen:pahasäi a_42 ;
 tytyväinen:tytyväi a_42 ;
 vähätöinen:vähätöi a_42 ;
-
-vanha:vanha a_23 ; ! stem:result = vanha:vanhae vanh:vanhe van:avane vaha:vahae vanhe:vanhee
-
-vapaa:vapa a_23 ;
 ehhee:ehhe a_23 ;
 tihhee:tihhe a_23 ;
 rohkee:rohke a_23 ;
@@ -499,7 +495,7 @@ kärsimätön:kärsimä a_43 ;
 näkymätön:näkymä a_43 ;
 tietämätön:tietämä a_43 ;
 välttämätön:välttämä a_43 ;
-! ehy, ohu, lyhy? 
+! ehy, ohu, lyhy?
 hapan:happa a_32ma ;
 vasen:vase a_32ma ;
 parhain:parhai a_32ma ;
@@ -681,7 +677,7 @@ psykolooginen+Err/Orth:psykolooki a_42odd ;
 sosiaalinen:sosiaali a_42odd ;
 maalinen:maali a_42odd ;
 digitaalinen:digitaali a_42odd ;
-kolmikielinen:kolmikieli a_42odd ; 
+kolmikielinen:kolmikieli a_42odd ;
 kaksikielinen:kaksikieli a_42odd ;
 suomenkielinen:suomenkieli a_42odd ;
 kainunkielinen:kainunkieli a_42odd ;
@@ -900,18 +896,19 @@ oppinu:oppin a_33u ;
 ravistunnu:ravistunn a_33u ;
 hermostunnu:hermostunn a_33u ;
 suuttunu:suuttun a_33u ;
-ehyt:eh a_x ; 
-ohut:oh a_x ;
-lyhyt:lyh a_x ;
+ehyt a_x ; ! :eh
+ohut a_x ; ! :oh
+lyhyt a_x ; ! :lyh
 kolmas a_x ;
 paras a_x ;
 kahđekses a_x ;
 viiđes a_x ;
 tuhat a_x ;
-! muu a_x ;
+muu a_x ;
+vanha a_x ; ! formerly a_23, wrong
+vapaa a_x ; ! formerly a_23, wrong
+
 hengestynny:hengestynn a_33y ;
 väsyny:väsyn a_33y ;
 vastasyntyny:vastasyntyn a_33y ;
 mäđäny:mäđän a_33y ;
-
-
