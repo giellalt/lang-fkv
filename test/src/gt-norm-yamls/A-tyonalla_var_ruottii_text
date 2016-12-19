@@ -16,83 +16,87 @@ Tests:
 
   Noun -  - ei tsekattu : # Noun '' - ei tsekattu
 
-     ruottii+A+Sg+Nom: ruottii
-     ruottii+A+Sg+Gen: ruottiin
-     ruottii+A+Sg+Par: ruottiita
-     ruottii+A+Sg+Tra: ruottiiksi
-     ruottii+A+Sg+Abe: ruottiitta
-     ruottii+A+Sg+Ine: ruottiissa
-     ruottii+A+Sg+Ela: ruottiista
-     ruottii+A+Sg+Ill: ruottiisseen
-     ruottii+A+Sg+Ade: ruottiila
-     ruottii+A+Sg+Abl: ruottiilta
-     ruottii+A+Sg+All: ruottiile
-     ruottii+A+Sg+Ess: ruottiina
+     ruottii+A+Sg+Nom: [ruottii, ruotti] # onko ruottii kahdella i:llä käytetty var varieteetissa?
+     ruottii+A+Sg+Gen: [ruottiin, ruotin]
+     ruottii+A+Sg+Par: [ruottiita, ruottia]
+     ruottii+A+Sg+Tra: [ruottiiksi, ruotiksi]
+     ruottii+A+Sg+Abe: [ruottiitta, ruotitta]
+     ruottii+A+Sg+Ine: [ruottiissa, ruotissa]
+     ruottii+A+Sg+Ela: [ruottiista, ruotista]
+     ruottii+A+Sg+Ill: [ruottiisseen, ruothiin]
+     ruottii+A+Sg+Ade: [ruottiila, ruotila]
+     ruottii+A+Sg+Abl: [ruottiilta, ruotilta]
+     ruottii+A+Sg+All: [ruottiile, ruotile]
+     ruottii+A+Sg+Ess: [ruottiina, ruottina]
 
-     ruottii+A+Pl+Nom: ruottiit
-     ruottii+A+Pl+Gen: ruottiitten # -itten?
-     ruottii+A+Pl+Par: ruottiita
-     ruottii+A+Pl+Tra: ruottiiksi
-     ruottii+A+Pl+Abe: ruottiitta
-     ruottii+A+Pl+Ine: ruottiissa
-     ruottii+A+Pl+Ela: ruottiista
-     ruottii+A+Pl+Ill: ruottiissiin
-     ruottii+A+Pl+Ade: ruottiila
-     ruottii+A+Pl+Abl: ruottiilta
-     ruottii+A+Pl+All: ruottiile
-     ruottii+A+Pl+Com: ruottiine
-     ruottii+A+Pl+Ess: ruottiina
+     ruottii+A+Pl+Nom: [ruottiit, ruotit]
+     ruottii+A+Pl+Gen: [ruottitten, ruotitten]
+     ruottii+A+Pl+Par: [ruottiita, ruottia]
+     ruottii+A+Pl+Tra: [ruottiiksi, ruotiksi]
+     ruottii+A+Pl+Abe: [ruottiitta, ruotitta]
+     ruottii+A+Pl+Ine: [ruottiissa, ruotissa]
+     ruottii+A+Pl+Ela: [ruottiista, ruotista]
+     ruottii+A+Pl+Ill: [ruottiissiin, ruothiin]
+     ruottii+A+Pl+Ade: [ruottiila, ruotila]
+     ruottii+A+Pl+Abl: [ruottiilta, ruotilta]
+     ruottii+A+Pl+All: [ruottiile, ruotile]
+     ruottii+A+Pl+Com: [ruottiine, ruottine]
+     ruottii+A+Pl+Ess: [ruottiina, ruottina]
 
-     ruottii+A+Sg+Comp+Nom: ruottiimpi
-     ruottii+A+Sg+Comp+Gen: ruottiiman
-     ruottii+A+Sg+Comp+Par: ruottiimppaa
-     ruottii+A+Sg+Comp+Tra: ruottiimaksi
-     ruottii+A+Sg+Comp+Abe: ruottiimatta
-     ruottii+A+Sg+Comp+Ine: ruottiitimassa
-     ruottii+A+Sg+Comp+Ela: ruottiimasta
-     ruottii+A+Sg+Comp+Ill: ruottiimphaan
-     ruottii+A+Sg+Comp+Ade: ruottiimalla
-     ruottii+A+Sg+Comp+Abl: ruottiimalta
-     ruottii+A+Sg+Comp+All: ruottiimalle
-     ruottii+A+Sg+Comp+Ess: ruottiimpanna
+     ruottii+A+Sg+Comp+Nom: [ruottiimpi, ruotimpi]
+     ruottii+A+Sg+Comp+Gen: [ruottiiman, ruotiman]
+     ruottii+A+Sg+Comp+Par: [ruottiimppaa, ruotimppaa]
+     ruottii+A+Sg+Comp+Tra: [ruottiimaksi, ruotimaksi]
+     ruottii+A+Sg+Comp+Abe: [ruottiimatta, ruotimatta]
+     ruottii+A+Sg+Comp+Ine: [ruottiimassa, ruotimassa]
+     ruottii+A+Sg+Comp+Ela: [ruottiimasta, ruotimasta]
+     ruottii+A+Sg+Comp+Ill: [ruottiimphaan, ruotimphaan]
+     ruottii+A+Sg+Comp+Ade: [ruottiimalla, ruotimalla]
+     ruottii+A+Sg+Comp+Abl: [ruottiimalta, ruotimalta]
+     ruottii+A+Sg+Comp+All: [ruottiimalle, ruotimalle]
+     ruottii+A+Sg+Comp+Ess: [ruottiimpanna, ruotimpanna]
 
-     ruottii+A+Pl+Comp+Nom: ruottiimat
-     ruottii+A+Pl+Comp+Gen: ruottiimitten
-     ruottii+A+Pl+Comp+Par: ruottiimpia
-     ruottii+A+Pl+Comp+Tra: ruottiimiksi
-     ruottii+A+Pl+Comp+Abe: ruottiimitta
-     ruottii+A+Pl+Comp+Ine: ruottiimissa
-     ruottii+A+Pl+Comp+Ela: ruottiimista
-     ruottii+A+Pl+Comp+Ill: ruottiimphiin
-     ruottii+A+Pl+Comp+Ade: ruottiimilla
-     ruottii+A+Pl+Comp+Abl: ruottiimilta
-     ruottii+A+Pl+Comp+All: ruottiimille
-     ruottii+A+Pl+Comp+Ess: ruottiimpinna
-     ruottii+A+Pl+Comp+Com: ruottiimpine
+     ruottii+A+Pl+Comp+Nom: [ruottiimat, ruotiimat]
+     ruottii+A+Pl+Comp+Gen: [ruottiimitten, ruotimitten]
+     ruottii+A+Pl+Comp+Par: [ruottiimpia,ruotiimpia]
+     ruottii+A+Pl+Comp+Tra: [ruottiimiksi, ruotiimiksi]
+     ruottii+A+Pl+Comp+Abe: [ruottiimitta, ruotiimitta]
+     ruottii+A+Pl+Comp+Ine: [ruottiimissa, ruotiimissa]
+     ruottii+A+Pl+Comp+Ela: [ruottiimista, ruotiimista]
+     ruottii+A+Pl+Comp+Ill: [ruottiimphiin, ruotiimphiin]
+     ruottii+A+Pl+Comp+Ade: [ruottiimilla, ruotiimilla]
+     ruottii+A+Pl+Comp+Abl: [ruottiimilta, ruotiimilta]
+     ruottii+A+Pl+Comp+All: [ruottiimille, ruotiimille]
+     ruottii+A+Pl+Comp+Ess: [ruottiimpinna, ruotiimpinna]
+     ruottii+A+Pl+Comp+Com: [ruottiimpine, ruotiimpine]
 
-     ruottii+A+Sg+Superl+Nom: ruottiin
-     ruottii+A+Sg+Superl+Gen: ruottiiman
-     ruottii+A+Sg+Superl+Par: ruottiinta
-     ruottii+A+Sg+Superl+Tra: ruottiimaksi
-     ruottii+A+Sg+Superl+Abe: ruottiimatta
-     ruottii+A+Sg+Superl+Ine: ruottiimassa
-     ruottii+A+Sg+Superl+Ela: ruottiimasta
-     ruottii+A+Sg+Superl+Ill: ruottiimphaan
-     ruottii+A+Sg+Superl+Ade: ruottiimalla
-     ruottii+A+Sg+Superl+Abl: ruottiimalta
-     ruottii+A+Sg+Superl+All: ruottiimalle
-     ruottii+A+Sg+Superl+Ess: ruottiimpanna
+     ruottii+A+Sg+Superl+Nom: [ruottiin, ruotiin, ruotin]
+     ruottii+A+Sg+Superl+Gen: [ruottiiman, ruotiiman, ruotiman]
+     ruottii+A+Sg+Superl+Par: [ruottiinta, ruotiinta, ruotinta]
+     ruottii+A+Sg+Superl+Tra: [ruottiimaksi, ruotiimaksi, ruotimaksi]
+     ruottii+A+Sg+Superl+Abe: [ruottiimatta, ruotiimatta, ruotimatta]
+     ruottii+A+Sg+Superl+Ine: [ruottiimassa, ruotiimassa, ruotimassa]
+     ruottii+A+Sg+Superl+Ela: [ruottiimasta, ruotiimasta, ruotimasta]
+     ruottii+A+Sg+Superl+Ill: [ruottiimphaan, ruotiimphaan, ruotimphaan]
+     ruottii+A+Sg+Superl+Ade: [ruottiimalla, ruotiimalla, ruotimalla]
+     ruottii+A+Sg+Superl+Abl: [ruottiimalta, ruotiimalta, ruotimalta]
+     ruottii+A+Sg+Superl+All: [ruottiimalle, ruotiimalle, ruotimalle]
+     ruottii+A+Sg+Superl+Ess: [ruottiimpanna, ruotiimpanna, ruotimpanna]
 
-     ruottii+A+Pl+Superl+Nom: ruottiimat
-     ruottii+A+Pl+Superl+Gen: ruottiimitten # var varieteetin lyhyt i:llinen varantti tässäkin?
-     ruottii+A+Pl+Superl+Par: ruottiimpia
-     ruottii+A+Pl+Superl+Tra: ruottiimiksi
-     ruottii+A+Pl+Superl+Abe: ruottiimitta
-     ruottii+A+Pl+Superl+Ine: ruottiimissa
-     ruottii+A+Pl+Superl+Ela: ruottiimista
-     ruottii+A+Pl+Superl+Ill: ruottiimphiin
-     ruottii+A+Pl+Superl+Ade: ruottiimilla
-     ruottii+A+Pl+Superl+Abl: ruottiimilta
-     ruottii+A+Pl+Superl+All: ruottiimille
-     ruottii+A+Pl+Superl+Ess: ruottiimpinna
-     ruottii+A+Pl+Superl+Com: ruottiimpine
+     ruottii+A+Pl+Superl+Nom: [ruottiimat, ruotiimat, ruotimat]
+     ruottii+A+Pl+Superl+Gen: [ruottiimitten, ruotiimitten, ruotimitten]
+     ruottii+A+Pl+Superl+Par: [ruottiimpia, ruotiimpia, ruotimpia]
+     ruottii+A+Pl+Superl+Tra: [ruottiimiksi, ruotiimiksi, ruotimiksi]
+     ruottii+A+Pl+Superl+Abe: [ruottiimitta, ruotiimitta, ruotimitta]
+     ruottii+A+Pl+Superl+Ine: [ruottiimissa, ruotiimissa, ruotimissa]
+     ruottii+A+Pl+Superl+Ela: [ruottiimista, ruotiimista, ruotimphiin]
+     ruottii+A+Pl+Superl+Ill: [ruottiimphiin, ruotiimphiin, ruotimphiin]
+     ruottii+A+Pl+Superl+Ade: [ruottiimilla, ruotiimilla, ruotimilla]
+     ruottii+A+Pl+Superl+Abl: [ruottiimilta, ruotiimilta, ruotimilta]
+     ruottii+A+Pl+Superl+All: [ruottiimille, ruotiimille, ruotimille]
+     ruottii+A+Pl+Superl+Ess: [ruottiimpinna, ruotiimpinna, ruotimpinna]
+     ruottii+A+Pl+Superl+Com: [ruottiimpine, ruotiimpine, ruotimpine]
+
+# Varengin varieteetissä lyhyt -i on myös mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
+# Se ei ole muissa kveenimurteissa.
+# Katso Kainun kielen grammatikin (2014) s.183.
