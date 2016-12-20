@@ -562,7 +562,7 @@ t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
   Vowel [n|l|r]  _ (:s) Vowel:0 (%^AO:0) (%^WG:0)  %> i3:  ;
   Vowel  Vowel   _ (:s) Vowel:0 (%^AO:0)           %> i3:  ;
   Vowel     n    _      Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
- Vowel ([n|l|r]) _      Vowel:0 %^HMETA:0 %> h :i          ;
+ Vowel ([n|l|r]) _      e:0  %^HMETA:0         %> h :i ;
 
 !!€ vete^E2I
 !!€ vesi0
