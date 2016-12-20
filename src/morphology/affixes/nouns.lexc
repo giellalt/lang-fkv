@@ -57,6 +57,11 @@ LEXICON x_x
 LEXICON n_1 !!= * @CODE@ = maa
         +N: x_1 ;
  +N+Sg+Nom: R   ;
+     +N+Pl:%>i2ne   shortestgenpl   ;
+
+ LEXICON n_1ai !!= * @CODE@ = tuorestai ja muut päivät
+         +N: x_1 ;
+  +N+Sg+Nom: R   ;
 
 LEXICON x_1
   +Sg+Nom:         K               ;
@@ -67,7 +72,6 @@ LEXICON x_1
   +Pl+Com:%>i2%>ne K               ;
                    1TAVU_VV-ill    ;
       +Pl:%>i2     tt_longgenpl    ;
-      +Pl:%>ne     shortestgenpl   ;
       +Pl:%>i2     longparpl       ;
       +Pl:%>i2     shortillpl      ;
 ! +Sg+Nom:         Px              ; ! mattoni
@@ -111,8 +115,9 @@ LEXICON x_21_oblique
         +Sg:^WG                sgpl_cases_even ; !to sgpl_cases_even for cases with
         +Pl:^AO^WG%>i2         sgpl_cases_even ; !the same affix in sg and pl
                                2TAVU_V_ill_sg  ;
- +Pl+Use/NG:^AO%>i2            shortestgenpl   ; ! shortestgenpl since we have the i
+        +Pl:^AO%>i2            shortestgenpl   ; ! shortestgenpl since we have the i
 !        +Pl:^AO^WG%>i2         tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
+
         +Pl:^AO%>i2            shortestparpl   ;
     +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
     +Pl+Com:^AO%>i2%>ne        K               ;
@@ -167,7 +172,7 @@ LEXICON x_22
 !       +Pl:%>i2        shortestgenpl      ; opettaajiin
        +Pl:^WG%>i2     tt_longgenpl       ;
        +Pl:%>i2        longparpl          ;
-       +Pl:%>i2        shortestparpl      ;
+       +Pl:%>i2        shortestparpl      ; !liberaali, dialissa on liberaalia?
    +Pl+Ill:^HMETA%>hii n_PxK              ;
    +Pl+Com:%>i2%>ne    K                  ;
 !+Sg+Ess:%>n^A PxxK ; Lene removed this one
@@ -883,7 +888,7 @@ LEXICON consgenpl
  +Gen:%>te n_PxK ;
 
 LEXICON shortestparpl !! * @CODE@ zero, because ii > i
- +Par+Dial/-Por: PxxK ;
+ +Par: PxxK ;
 
 LEXICON shortparpl
  +Par:%>^V PxxK ;
