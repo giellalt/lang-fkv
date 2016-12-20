@@ -10,27 +10,28 @@ LEXICON NounRoot !!= @CODE@
 !nytest
 
 !!  2007 s.87
-!! * 1. Yksitavuiset / Vi ( maa, tuorestai)		 	= n_1
-!! * 1.1. Yksitavuiset monikko/ Vi ( häät)		 	= n_1pl
-!! * 2. Vokaalirankaiset						 	=
-!! ** 2.1 Kaksitavuiset ( aika, pappi)			 	= n_21
-!! *** 2.1.1. Kaksitavuiset monikko (housut)     	= n_21pl
-!! *** 2.1.2. Kaksitavuiset (joki: joke)         	= n_21ie
-!! ** 2.2. Usseempitav. (opettaaja)		     	 	= n_22
-!! *** 2.2.1. Usseempitav. odd (kajava)	         	= n_22odd
-!! *** 2.2.1. Usseempitav. odd (meininki, tunturi)	= n_22oddi
-!! *** 2.2.2. Usseempitav. monikko oi (kulkkiija)	= n_22oi
+!! * 1. Yksitavuiset / Vi ( maa )		 	            = n_1
+!! * 1.1 Yksitavuiset / ai ( tuorestai )		 	    = n_1ai
+!! * 1.2. Yksitavuiset monikko/ Vi ( häät )		  	= n_1pl
+!! * 2. Vokaalirankaiset						 	            =
+!! ** 2.1 Kaksitavuiset ( aika, pappi )			 	    = n_21
+!! *** 2.1.1. Kaksitavuiset monikko (housut )   	= n_21pl
+!! *** 2.1.2. Kaksitavuiset (joki: joke )         = n_21ie
+!! ** 2.2. Usseempitav. ( opettaaja )		     	 	  = n_22
+!! *** 2.2.1. Usseempitav. odd ( kajava )	       	= n_22odd
+!! *** 2.2.1. Usseempitav. odd ( meininki, tunturi )	= n_22oddi
+!! *** 2.2.2. Usseempitav. monikko oi ( kulkkiija )	= n_22oi
 !! ** 2.3 Kokkoontumanom. ( valkkee,)	      	 	= n_23
-!! ** 2.3.1 Kokkoontumanom. ( assii)    		 	= n_23ii
+!! ** 2.3.1 Kokkoontumanom. ( assii )    		 	= n_23ii
 !! * 3. Konsonanttirankaiset
-!! ** 3.1 Kaksitavuiset ( pieni, kieli)		   		= n_31
+!! ** 3.1 Kaksitavuiset ( pieni, kieli )		   		= n_31
 !! ** 3.1.1. lumi:lumen:lunta                  		= n_31m
-!! ** 3.1.2. (käsi, vuosi)					   		= n_31si
-!! ** 3.1.3. (lapsi)		 	         	   		= n_31lapsi
-!! ** 3.1.4. (mies)			         		   		= n_31mies
-!! ** 3.2 Usseempitavuiset ( tytär)
-!! *** 3.2.1 (tytär)                           		= n_32
-!! *** 3.2.2. (elläin: elläimen                		= n_32m
+!! ** 3.1.2. ( käsi, vuosi )					   		= n_31si
+!! ** 3.1.3. ( lapsi )		 	         	   		= n_31lapsi
+!! ** 3.1.4. ( mies )			         		   		= n_31mies
+!! ** 3.2 Usseempitavuiset ( tytär )
+!! *** 3.2.1 ( tytär )                           		= n_32
+!! *** 3.2.2. ( elläin: elläimen                		= n_32m
 !! *** 3.2.3. (rakkhaus)					   		= n_32s
 !! ** 3.3 Kokkoontumanom. ( opas, huonet)
 !! ** 3.3.1 (opas)                             		= n_33as
@@ -647,11 +648,11 @@ heitto n_21 ;
 heittoverkko:heitto#verkko n_21 ;
 hektu n_21 ;
 hekturi n_22oddi ;
-helatuorestai:hela#tuorestai n_1 ;
+helatuorestai:hela#tuorestai n_1ai ;
 helikopteri n_22oddi ;
 heliportti n_21 ;
 hella n_21 ;
-helluntai n_1 ;
+helluntai n_1ai ;
 helluntaiaatto:helluntai#aatto n_21 ;
 helluntaikuostet:helluntai#kuost n_33t ;
 helma n_21 ;
@@ -1441,7 +1442,7 @@ kieruna n_22oi ;
 kihara n_22oi ;
 kiharahykset:kihara#hykse n_21pl ;
 kiharatukka:kihara#tukka n_21 ;
-kihlatuorestai:kihla#tuorestai n_1 ;
+kihlatuorestai:kihla#tuorestai n_1ai ;
 kihlaus:kihlau n_41 ;
 kiikari n_22oddi ;
 kiila n_21 ;
@@ -2142,7 +2143,7 @@ lautanen:lauta n_42odd ;
 lautta n_21 ;
 lauttaplaatta:lautta#plaatta n_21 ;
 lauttareitti:lautta#reitti n_21 ;
-lauvantai n_1 ;
+lauvantai n_1ai ;
 lava n_21 ;
 leekka n_21 ;
 leetninki n_22oddi ;
@@ -2358,7 +2359,7 @@ maalari n_22oddi ;
 maali n_21 ;
 maalinki n_22oddi ;
 maanalhainen:maan#alhai n_42 ;
-maanantai n_1 ;
+maanantai n_1ai ;
 maanmittari:maan#mittari n_22oddi ;
 maanpruuki-ala:maan#pruuki-ala n_21 ;
 maanpruuki:maan#pruuk2i n_21 ;
@@ -3087,7 +3088,7 @@ peret:per n_33t ;
 perfekti n_22oddi ;
 perintö:perintö n_22oi ;
 perisynti:peri#synti n_21 ;
-perjantai n_1 ;
+perjantai n_1ai ;
 perkelet:perkel n_33t ;
 permisioni n_22oddi ;
 perset:pers n_33t ;
@@ -3189,7 +3190,7 @@ pistäin:pistäi n_32m ;
 piteneminen:pitenemi n_42odd ;
 pitenemä n_22 ;
 pitkesenkorento:pitkesen#korento n_22odd ;
-pitkäperjantai:pitkä#perjantai n_1 ;
+pitkäperjantai:pitkä#perjantai n_1ai ;
 pito n_21 ;
 pitsi n_21 ;
 pittuus:pittuu n_32s ;
@@ -4085,7 +4086,7 @@ sumppu n_21 ;
 sumppuvesi:sumppu#vete n_31si ;
 sumpurinkukka n_21 ;
 sumu n_21 ;
-sunnuntai n_1 ;
+sunnuntai n_1ai ;
 suoja n_21 ;
 suojeluala n_21 ;
 suojelus:suojelu n_41 ;
@@ -4354,7 +4355,7 @@ tietunneli:tie#tunneli n_22oddi ;
 tieva n_21 ;
 tiilikivi:tiili#kive n_21ie ;
 tiima n_21 ;
-tiistai n_1 ;
+tiistai n_1ai ;
 tikka n_21 ;
 tikku n_21 ;
 tila n_21 ;
@@ -4483,7 +4484,7 @@ tuomenmarja:tuomen#marja n_21 ;
 tuomenmarjaviini:tuomen#marja#viini n_21;
 tuomi:tuome n_21ie ;
 tuomio n_22oi ;
-tuorestai n_1 ;
+tuorestai n_1ai ;
 tupa n_21 ;
 tupakka n_22oi ;
 tuppi n_21 ;
@@ -5259,7 +5260,7 @@ pellonkylvö:pellon#kylvö n_21 ;
 vestapuoli:vesta#puoli n_31 ;
 niemimaa:niemi#maa n_1 ;
 putaattimaa:putaatti#maa n_1 ;
-palmusunnuntai:palmu#sunnuntai n_1 ;
+palmusunnuntai:palmu#sunnuntai n_1ai ;
 ronkkaluu:ronkka#luu n_1 ;
 leukaluu:leuka#luu n_1 ;
 poskiluu:poski#luu n_1 ;
