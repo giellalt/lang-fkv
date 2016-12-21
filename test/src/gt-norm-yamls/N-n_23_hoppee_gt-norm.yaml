@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - hoppee - ok : # Noun 'borg' - 
+     hoppee+N+Sg+Nom: hoppee
+     hoppee+N+Sg+Gen: hoppeen
+     hoppee+N+Sg+Par: hoppeeta
+     hoppee+N+Sg+Tra: hoppeeksi
+     hoppee+N+Sg+Abe: hoppeetta
+     hoppee+N+Sg+Ine: hoppeessa
+     hoppee+N+Sg+Ela: hoppeesta
+     hoppee+N+Sg+Ill: hoppeesseen
+     hoppee+N+Sg+Ade: hoppeela
+     hoppee+N+Sg+Abl: hoppeelta
+     hoppee+N+Sg+All: hoppeele
+     hoppee+N+Sg+Ess: hoppeena
+     hoppee+N+Pl+Nom: hoppeet
+     hoppee+N+Pl+Gen: hoppeitten
+     hoppee+N+Pl+Par: hoppeita
+     hoppee+N+Pl+Tra: hoppeiksi
+     hoppee+N+Pl+Abe: hoppeitta
+     hoppee+N+Pl+Ine: hoppeissa
+     hoppee+N+Pl+Ela: hoppeista
+     hoppee+N+Pl+Ill: hoppeissiin
+     hoppee+N+Pl+Ade: hoppeila
+     hoppee+N+Pl+Abl: hoppeilta
+     hoppee+N+Pl+All: hoppeile
+     hoppee+N+Pl+Ess: hoppeina
+     hoppee+N+Pl+Com: hoppeine

@@ -1,0 +1,54 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    app: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - pierä - ei tsekattu : # Verb 'to bring' - ei tsekattu
+     pierä+V+Inf: pierä
+     pierä+V+Act+Ind+Prs+Sg1: pieren
+     pierä+V+Act+Ind+Prs+Sg2: pieret
+     pierä+V+Act+Ind+Prs+Sg3: pieree
+     pierä+V+Act+Ind+Prs+Pl1: pieremä
+     pierä+V+Act+Ind+Prs+Pl2: pierettä
+     pierä+V+Act+Ind+Prs+Pl3: pierhään
+     pierä+V+Act+Ind+Prt+Sg1: pierin
+     pierä+V+Act+Ind+Prt+Sg2: pierit
+     pierä+V+Act+Ind+Prt+Sg3: pieri
+     pierä+V+Act+Ind+Prt+Pl1: pierimä
+     pierä+V+Act+Ind+Prt+Pl2: pierittä
+     pierä+V+Act+Ind+Prt+Pl3: pierthiin
+     pierä+V+Act+PrfPrc+Sg+Nom: pierry
+     pierä+V+Pass+PrfPrc+Nom: pierty
+     pierä+V+Act+PrfPrc+Pl+Nom: pierheet
+     pierä+V+Act+PrsPrc+Sg+Nom: pierreevä
+     pierä+V+Act+PrsPrc+Pl+Nom: pierreevät
+     pierä+V+Pass+PrsPrc+Sg+Nom: piertävä
+     pierä+V+Pass+PrsPrc+Pl+Nom: piertävät
+
+     pierä+V+Act+Cond+Sg1: pierisin
+     pierä+V+Act+Cond+Sg2: pierisit
+     pierä+V+Act+Cond+Sg3: pieris
+     pierä+V+Act+Cond+Pl1: pierisimmä
+     pierä+V+Act+Cond+Pl2: pierisittä
+     pierä+V+Act+Cond+Pl3: piertäis
+     pierä+V+Pass+Cond: piertäis
+
+     pierä+V+Act+Imprt+Sg2: piere
+     pierä+V+Act+Imprt+Pl2: pierkkää
+     
+     pierä+V+Act+Inf3+Ine: pieremässä
+     pierä+V+Act+Inf3+Ela: pieremästä
+     pierä+V+Act+Inf3+Ill: pieremhään
+     pierä+V+Act+Inf3+Ade: pieremällä
+     pierä+V+Act+Inf3+Abe: pieremättä
