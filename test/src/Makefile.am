@@ -40,6 +40,12 @@ TESTS+=run-dict-gt-desc-anayaml-testcases.sh \
        run-dict-gt-norm-genyaml-testcases.sh
 endif # WANT_DICTIONARIES
 
+if WANT_OAHPA
+TESTS+=run-gt-norm-por-genyaml-testcases.sh \
+       run-gt-norm-var-genyaml-testcases.sh \
+       run-gt-norm-jok-genyaml-testcases.sh 
+endif # WANT_OAHPA
+
 endif # CAN_YAML_TEST
 
 # List tests that are presently (expected) failures here, ie things that should
@@ -50,7 +56,10 @@ XFAIL_TESTS=run-dict-gt-desc-anayaml-testcases.sh \
             run-gt-desc-yaml-testcases.sh \
             run-gt-norm-anayaml-testcases.sh \
             run-gt-norm-genyaml-testcases.sh \
-            run-lexc-testcases.sh
+            run-lexc-testcases.sh \
+            run-gt-norm-por-genyaml-testcases.sh \
+            run-gt-norm-var-genyaml-testcases.sh \
+            run-gt-norm-jok-genyaml-testcases.sh 
 
 ####### Other targets: ###########
 clean-local:
