@@ -1,0 +1,52 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+  Verb - kyetä - ei tsekattu : # Verb 'to bring' - ei tsekattu
+     kyetä+V+Inf: kyetä
+     kyetä+V+Act+Ind+Prs+Sg1: kykenen
+     kyetä+V+Act+Ind+Prs+Sg2: kykenet
+     kyetä+V+Act+Ind+Prs+Sg3: kykenee
+     kyetä+V+Act+Ind+Prs+Pl1: kykenemmä
+     kyetä+V+Act+Ind+Prs+Pl2: kykenettä
+     kyetä+V+Act+Ind+Prs+Pl3: kyethään
+     kyetä+V+Act+Ind+Prt+Sg1: kykenin
+     kyetä+V+Act+Ind+Prt+Sg2: kykenit
+     kyetä+V+Act+Ind+Prt+Sg3: kykeni
+     kyetä+V+Act+Ind+Prt+Pl1: kykenimmä
+     kyetä+V+Act+Ind+Prt+Pl2: kykenittä
+     kyetä+V+Act+Ind+Prt+Pl3: kyethiin
+     kyetä+V+Act+PrfPrc+Sg+Nom: kyeny
+     kyetä+V+Pass+PrfPrc+Nom: kyetty
+     kyetä+V+Act+PrfPrc+Pl+Nom: kyenheet
+     kyetä+V+Act+PrsPrc+Sg+Nom: kykeneevä
+     kyetä+V+Act+PrsPrc+Pl+Nom: kykeneevät
+     kyetä+V+Pass+PrsPrc+Sg+Nom: kyettävä
+     kyetä+V+Pass+PrsPrc+Pl+Nom: kyettävät
+     
+     kyetä+V+Act+Cond+Sg1: kykenisin
+     kyetä+V+Act+Cond+Sg2: kykenisit
+     kyetä+V+Act+Cond+Sg3: kykenis
+     kyetä+V+Act+Cond+Pl1: kykenisimä
+     kyetä+V+Act+Cond+Pl2: kykenisittä
+     kyetä+V+Act+Cond+Pl3: kyettäis
+     kyetä+V+Pass+Cond: kyettäis
+    
+     kyetä+V+Act+Imprt+Sg2: kykene
+     kyetä+V+Act+Imprt+Pl2: kyekkää
+     
+     kyetä+V+Act+Inf3+Ine: kykenemässä
+     kyetä+V+Act+Inf3+Ela: kykenemästä
+     kyetä+V+Act+Inf3+Ill: kykenemhään
+     kyetä+V+Act+Inf3+Ade: kykenemälä
+     kyetä+V+Act+Inf3+Abe: kykenemättä
