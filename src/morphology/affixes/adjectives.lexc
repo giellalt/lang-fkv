@@ -34,12 +34,13 @@ superl_m_odd ;
 
 LEXICON a_22	!!= * @CODE@  liberaali
 +A: x_22 ;
-comp_m_odd  ;
+comp_m_odd ;
 :i superl_m_odd ;
 
 LEXICON a_22odd	!!= * @CODE@  simppeli, loistaava
 +A: x_22odd ;
 comp_mm ;
++A+Pl+Comp+Gen:%>mm%>ii2tten K ;
 :%>i5i superl_m_even ;
 
 LEXICON a_23	!!= * @CODE@  pimmee
@@ -61,12 +62,13 @@ LEXICON a_31	!!= * @CODE@  pieni
 LEXICON a_31si	!!= * @CODE@ uusi
 +A: x_31si ;
 :^WG comp_m_odd  ;
-:^E2I%>i5 superl_m_odd ;
-+A+Sg+Superl:^E2I superl_in ;
+:^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n
++A+Sg+Superl+Dial/-Por:^E2I superl_in ; ! uussiin
 
 LEXICON a_32 !!= * @CODE@ tyven
 +A: x_32 ;
 :e comp_mm ;
++A+Pl+Comp+Gen:e%>mm%>ii2tten K ;
 :ii superl_m_even ;
 
 LEXICON a_32m !!= * @CODE@ irtain
@@ -74,7 +76,7 @@ LEXICON a_32m !!= * @CODE@ irtain
 :me comp_mm ;
 :mi superl_mm ;
 
-LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
+LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin
 
 +A+Sg+Nom:^WGn K ;
 +A:m^A weak_v_stem_sg ;
@@ -97,15 +99,15 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma
 +A+Pl+Com:m%>i2ne K ;
 :m^A comp_mm ;
 :mi5i superl_m_even ;
-+A+Pl+Comp+Gen:m^A%>mpp%>i2%>in K ;
-+A+Pl+Superl+Gen:mi5i%>mpp%>i2%>in K ;
-+A+Sg+Superl:m superl_in ;
++A+Pl+Comp+Gen+Dial/Por:m^A%>mpp%>i2%>in K ;
++A+Pl+Superl+Gen+Dial/-Por:mi5i%>mpp%>i2%>in K ;
++A+Sg+Superl+Dial/Jok:m superl_in ;
 
-LEXICON a_33as !!= * @CODE@ rakas
+LEXICON a_33as !!= * @CODE@ raskas
 +A: x_33as ;
 :haa comp_m_odd  ;
 :hai superl_m_odd ;
-+A+Pl+Superl+Gen:hai%>m%>itten K ; !raskas sanan variaatio, ei dial.
+!+A+Pl+Superl+Gen:hai%>m%>itten K ; !Variaatio? Ei ainakaan dial.
 
 LEXICON a_33aes !!= * @CODE@ sinnikäs
 +A: x_33aes ;
@@ -166,6 +168,7 @@ LEXICON a_42 !!= * @CODE@ varovainen
 LEXICON a_42odd !!= * @CODE@ sininen
 +A: x_42odd ;
 :se comp_mm ;
++A+Pl+Comp+Gen:se%>mm%>ii2tten K ;
 :ssi5i superl_m_even ;
 +A+Sg+Superl:ssi superl_in ;
 
@@ -191,11 +194,13 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A+Pl+Com:%>tt^Om%>i2ne K ;
 
 :%>tt^Om^A comp_mm ;
++A+Pl+Comp+Gen:%>tt^Om^A%>mm%>ii2tten K ;
+
 :%>tt^Omi5i superl_m_even ;
 !+A+Pl+Comp+Gen:m^A%>mpp%>i2%>in K ; ! muuttumamamppiin
 !+A+Pl+Superl+Gen:mi%>mpp%>i2%>in K ; ! muuttumamimppiin
 
-+A+Sg+Superl:%>tt^Om superl_in ;
+!+A+Sg+Superl:%>tt^Om superl_in ; This is Dial only I think?
 
 LEXICON a_43odd !!= * @CODE@ onneton
 +A: x_43odd ;
@@ -338,7 +343,7 @@ LEXICON comp_mm
 +A+Pl+Comp:%>mm%>i2 sgpl_cases_even ;
 +A+Pl+Comp+Nom:%>mm^A%>t K ;
 !+A+Pl+Comp+Gen:%>mpp%>i2in K ;
-+A+Pl+Comp+Gen:%>mm%>ii2tten K ;
++A+Pl+Comp+Gen+Dial/-Por:%>mm%>ii2tten K ;
 +A+Pl+Comp+Ill:%>mp%>hi%>i2n K ;
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
