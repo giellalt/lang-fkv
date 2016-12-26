@@ -54,7 +54,7 @@ LEXICON x_x
 
 
 
-LEXICON n_1 !!= * @CODE@ = maa
+LEXICON n_1 !!= * @CODE@ = maa, tie
         +N: x_1 ;
  +N+Sg+Nom: R   ;
      +N+Pl:%>i2ne   shortestgenpl   ;
@@ -71,8 +71,8 @@ LEXICON x_1
       +Pl:%>i2     sgpl_cases_even ; !! the same affix in sg and pl
   +Pl+Com:%>i2%>ne K               ;
                    1TAVU_VV-ill    ;
-      +Pl:%>i2     tt_longgenpl    ;
-      +Pl:%>i2     longparpl       ;
+      +Pl:%>i2     tt_longgenpl    ; ! teitten
++Pl+Dial/Por:%>i2  longparpl       ; ! teinen
       +Pl:%>i2     shortillpl      ;
 ! +Sg+Nom:         Px              ; ! mattoni
 ! +Sg+Gen:         Px              ; ! mattoni
@@ -88,7 +88,7 @@ LEXICON n_1pl !!= * @CODE@ = häät
 
         +N:          1TAVU_VV-ill    ;
      +N+Pl:%>i2      tt_longgenpl    ;
-     +N+Pl:%>i2%>ne      shortestgenpl   ;
++N+Pl+Dial/Por:%>i2%>ne shortestgenpl   ; ! häinen
 
      +N+Pl:%>i2      longparpl       ;
      +N+Pl:%>i2      shortillpl      ;
