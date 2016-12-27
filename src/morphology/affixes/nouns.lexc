@@ -55,9 +55,9 @@ LEXICON x_x
 
 
 LEXICON n_1 !!= * @CODE@ = maa, tie
-        +N: x_1 ;
- +N+Sg+Nom: R   ;
-     +N+Pl:%>i2ne   shortestgenpl   ;
+             +N: x_1 ;
+      +N+Sg+Nom: R   ;
+ +N+Pl+Dial/Por:%>i2ne   shortestgenpl   ;
 
  LEXICON n_1ai !!= * @CODE@ = tuorestai ja muut päivät
          +N: x_1 ;
@@ -72,7 +72,7 @@ LEXICON x_1
   +Pl+Com:%>i2%>ne K               ;
                    1TAVU_VV-ill    ;
       +Pl:%>i2     tt_longgenpl    ; ! teitten
-+Pl+Dial/Por:%>i2  longparpl       ; ! teinen
+      +Pl:%>i2     longparpl       ;
       +Pl:%>i2     shortillpl      ;
 ! +Sg+Nom:         Px              ; ! mattoni
 ! +Sg+Gen:         Px              ; ! mattoni
@@ -99,7 +99,7 @@ LEXICON n_21C !!= * @CODE@
           :i n_21 ; ! Hansi
  +N+Sg+Nom:i R    ;
 
-LEXICON n_21        !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo, kuva
+LEXICON n_21        !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo, kuva, linna
         +N: x_21 ;
  +N+Sg+Nom: R    ;
 
@@ -115,10 +115,11 @@ LEXICON x_21_oblique
         +Sg:^WG                sgpl_cases_even ; !to sgpl_cases_even for cases with
         +Pl:^AO^WG%>i2         sgpl_cases_even ; !the same affix in sg and pl
                                2TAVU_V_ill_sg  ;
-        +Pl:^AO%>i2            shortestgenpl   ; ! shortestgenpl since we have the i
-!        +Pl:^AO^WG%>i2         tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
+ +Pl+Dial/Por:^AO%>i2            shortestgenpl   ; ! shortestgenpl since we have the i
++Pl+Dial/-Por:^AO^WG%>i2         tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
+ +Pl+Dial/Por:^AO%>i2            shortestparpl   ;
++Pl+Dial/-Por:^AO^WG%>i2         shortparpl   ;
 
-        +Pl:^AO%>i2            shortestparpl   ;
     +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
     +Pl+Com:^AO%>i2%>ne        K               ;
 
@@ -675,7 +676,7 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
      +N+Pl:s%>i2      sgpl_cases_odd ; !! the same affix in sg and pl
      +N+Pl:s          consgenpl      ;
      +N+Pl:ss%>i2     shortparpl     ; ! tervhehissii
-     +N+Pl:ss%>i2i     longparpl      ; ! tervhehissiitä
+     +N+Pl:ss%>i2i    longparpl      ; ! tervhehissiitä
  +N+Pl+Ill:sh%>i2in   K              ;
         +N:se         ess_odd_pl     ;
  +N+Pl+Com:s%>i2%>nne K              ;
