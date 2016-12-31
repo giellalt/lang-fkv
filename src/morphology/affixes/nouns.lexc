@@ -118,7 +118,7 @@ LEXICON x_21_oblique
  +Pl+Dial/Por:^AO%>i2            shortestgenpl   ; ! shortestgenpl since we have the i
 +Pl+Dial/-Por:^AO^WG%>i2         tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
  +Pl+Dial/Por:^AO%>i2            shortestparpl   ;
-+Pl+Dial/-Por:^AO^WG%>i2         shortparpl   ;
++Pl+Dial/-Por:^AO^WG%>i2         shortparpla   ;
 
     +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
     +Pl+Com:^AO%>i2%>ne        K               ;
@@ -893,6 +893,10 @@ LEXICON shortestparpl !! * @CODE@ zero, because ii > i
 
 LEXICON shortparpl
  +Par:%>^V PxxK ;
+
+ LEXICON shortparpla
+  +Par:%>^A PxxK ;
+
 
 LEXICON longparpl
  +Par:%>t^A PxxK ;
