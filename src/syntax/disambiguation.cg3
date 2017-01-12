@@ -3142,7 +3142,7 @@ SECTION
 
 # Simple for now.
 
-MAP (@CVP) TARGET ("kun") ;
+MAP (@CVP) TARGET ("kun") + CS ;
 MAP (@CNP) TARGET ("ja") + CC ;
 
 # NP-internal things @→N, @N←
