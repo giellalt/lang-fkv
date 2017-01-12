@@ -657,9 +657,9 @@ LIST AUXs = "olla" "ei" ;
 LIST ETTA = "että" ; 
 LIST VAIKKA_KUIN_JOS = "vaikka" "kuin" "jos" "ties" ; 
 LIST JOS_VAIKKA = "jos" "vaikka" ; 
-LIST JOS_KUN_KOSKA_VAIKKA = "jos" "kun" "koska" "vaikka" ; 
+LIST JOS_KO_KOSKA_VAIKKA = "jos" "ko" "koska" "vaikka" ; 
 
-LIST Compl = CS CC "<,>" Punct "joten" "jotta" "että" "jos" "kun" "koska" "vaikka" "kuin" ; 
+LIST Compl = CS CC "<,>" Punct "joten" "jotta" "että" "jos" "ko" "koska" "vaikka" "kuin" ; 
 
 # Question Words
 # --------------
@@ -919,7 +919,7 @@ SET N_P_GEN = Pron + Gen OR NGen ;
 #SET CCC = CC - ("sekä") ;
 #SET CC-CS = CC OR CS ;
 
-SET CP = Interr OR Rel OR QWords OR JOS_KUN_KOSKA_VAIKKA;
+SET CP = Interr OR Rel OR QWords OR JOS_KO_KOSKA_VAIKKA;
 
 SET V-MAIN = V - COPULAS - Neg - MOD-ASP OR ("orrut") ;
 
@@ -2641,12 +2641,12 @@ REMOVE (CAP) ;
 #(@w SELECT (CS "sillä") (-1 ComMA) (NOT 1 Ade)
 SELECT ("sillä") + CS (1C Nom) (2C VFIN) ;
 SELECT ("sillä") + CS (NOT 1 CLB?) (2C Nom) (3C VFIN) ;
-SELECT ("sillä") + CS (1 JOS_KUN_KOSKA_VAIKKA) ;
-SELECT ("sillä") + CS (2 JOS_KUN_KOSKA_VAIKKA) ;
+SELECT ("sillä") + CS (1 JOS_KO_KOSKA_VAIKKA) ;
+SELECT ("sillä") + CS (2 JOS_KO_KOSKA_VAIKKA) ;
 SELECT ("se") + Pron + Sg + Ade (-1 C_Adv) ;
 SELECT ("se") + Pron + Sg + Ade (NOT -1 CLB?) (-2 C_Adv) ;
 #(@w SELECT (Pron Sg Ade "se") (1C OLLA) (1 VFIN)   # TULEE VIRHEITä LIIKAA
-SELECT ("se") + Pron + Sg + Ade (1 CLB?) (NOT 1 JOS_KUN_KOSKA_VAIKKA) ;
+SELECT ("se") + Pron + Sg + Ade (1 CLB?) (NOT 1 JOS_KO_KOSKA_VAIKKA) ;
 REMOVE ("häkä") + N + Pl  ;
 SELECT NSgGen + POSS_SUFF (-1C PCP) (-1 Gen) (-1 Sg) ; # XXXX
 REMOVE InfMa (0 ELAMA_KUOLEMA) ; # XXXX
@@ -3142,7 +3142,7 @@ SECTION
 
 # Simple for now.
 
-MAP (@CVP) TARGET ("kun") + CS ;
+MAP (@CVP) TARGET ("ko") + CS ;
 MAP (@CNP) TARGET ("ja") + CC ;
 
 # NP-internal things @→N, @N←
