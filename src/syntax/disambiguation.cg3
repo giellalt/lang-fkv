@@ -1148,8 +1148,8 @@ ADD UP (*) IF (0 ("<[ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜÕÆØ¢ı¥ŠŽ](.*)>"r)) 
 # Problematic because we don't have CLB for this in gold corpus - 20.01.2015 - FMT+KM 
 #ADD CLB Qst IF (NOT 0 CLB)(NOT -1 CLB) ;
 
-ADD CLB Adv IF (0 KUINKA-MITEN-MIllOIN) (NOT 0 CLB)(NOT -1 CLB) ;
-ADD CLB Conj IF (NOT 0 CC) (NOT 0 CLB)(NOT -1 CLB) ; 
+#ADD CLB Adv IF (0 KUINKA-MITEN-MIllOIN) (NOT 0 CLB)(NOT -1 CLB) ;
+#ADD CLB Conj IF (NOT 0 CC) (NOT 0 CLB)(NOT -1 CLB) ; 
 
 # Including (NOT 0 CLB) because it adds multiple times otherwise - Ryan
 
