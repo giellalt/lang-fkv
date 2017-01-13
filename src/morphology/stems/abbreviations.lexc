@@ -22,14 +22,9 @@ TRAB ;
 ! Also splitting when in doubt: -noun-adj => -noun and -adj
 ! Then pointing to two contlexes, a dot-one and a non-dot-one.
 
-LEXICON ab ! No POS, don't know what pos
-ab-nodot ;
-ab-dot ;
-
-! Some of these POS
-!LEXICON ab-noun-adj
-! ab-noun ;
-! ab-adj ;
+LEXICON ab ! No POS, don't know what pos, assuming noun
+ab-nodot-noun ;
+ab-dot-noun ;
 
 LEXICON ab-dot-noun-adj
 ab-dot-noun ;
@@ -51,16 +46,12 @@ LEXICON ab-num
 ab-nodot-num ;
 ab-dot-num;
 
-!still not in use.
-!LEXICON ab-cc
-!ab-nodot-cc ;
-!ab-dot-cc ;
 
 
 ! Here come POS and Case tags, and no period.
 
 LEXICON ab-nodot-noun ! The bulk
-+ABBR+N: abbrcase ;
++N+ABBR: abbrcase ;
 
 LEXICON abbrcase
 +Attr: # ;    ! no period, that is.
@@ -78,17 +69,17 @@ LEXICON abbrcase
 +Tra:%:ksi # ; ! no period, that is. !SUB
 
 LEXICON ab-nodot-adj
-+ABBR+A: abbrcase ;
++A+ABBR: abbrcase ;
 
 LEXICON ab-nodot-adv
-+ABBR+Adv: # ;
++Adv+ABBR: # ;
 
 LEXICON ab-nodot-num
-+ABBR+Num: abbrcase ;
++Num+ABBR: abbrcase ;
 
 
 LEXICON ab-nodot      ! default
-+ABBR+N: abbrcase ;
++N+ABBR: abbrcase ;
 
 
 ! Here come POS and Case tags, with the period added.
@@ -97,21 +88,21 @@ LEXICON ab-dot        ! Default
 +ABBR:%. abbrcase ;
 
 LEXICON ab-dot-noun   ! This is the lexicon for abbrs that must have a period.
-+ABBR+N:%. # ;
++N+ABBR:%. # ;
 
 ! The idea is that the nominal ones may have case, like e.g. P.E.N.
 
 LEXICON ab-dot-adj ! This is the lexicon for abbrs that must have a period.
-+ABBR+A:%. abbrcase ;
++A+ABBR:%. abbrcase ;
 
 LEXICON ab-dot-adv     ! This is the lexicon for abbrs that must have a period.
-+ABBR+Adv:%. # ;     ! Adv without case.
++Adv+ABBR:%. # ;     ! Adv without case.
 
 LEXICON ab-dot-num     ! This is the lexicon for abbrs that must have a period.
-+ABBR+Num:%. abbrcase ;
++Num+ABBR:%. abbrcase ;
 
 LEXICON ab-dot-cc
-+ABBR+CC:%. # ;
++CC+ABBR:%. # ;
 
 
 ! Then, as an afterthought, come our two verbs, gč. and vrd.
@@ -121,10 +112,10 @@ ab-dot-verb ;
 ab-nodot-verb ;
 
 LEXICON ab-dot-verb
-+ABBR+V:%.   # ; ! Period.
++V+ABBR:%.   # ; ! Period.
 
 LEXICON ab-nodot-verb
-+ABBR+V:    # ; ! No period.
++V+ABBR:    # ; ! No period.
 
 
 
