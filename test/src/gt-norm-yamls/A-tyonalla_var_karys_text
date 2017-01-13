@@ -1,0 +1,98 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun -  - ei tsekattu : # Noun '' - ei tsekattu
+
+     kärys+A+Sg+Nom: kärys
+     kärys+A+Sg+Gen: kärhyyn
+     kärys+A+Sg+Par: kärystä
+     kärys+A+Sg+Tra: kärhyyksi
+     kärys+A+Sg+Abe: kärhyyttä
+     kärys+A+Sg+Ine: kärhyyssä
+     kärys+A+Sg+Ela: kärhyystä
+     kärys+A+Sg+Ill: kärhyysseen
+     kärys+A+Sg+Ade: kärhyylä
+     kärys+A+Sg+Abl: kärhyyltä
+     kärys+A+Sg+All: kärhyyle
+     kärys+A+Sg+Ess: kärhyynä
+
+     kärys+A+Pl+Nom: kärhyyt
+     kärys+A+Pl+Gen: kärhyitten
+     kärys+A+Pl+Par: kärhyitä
+     kärys+A+Pl+Tra: kärhyiksi
+     kärys+A+Pl+Abe: kärhyittä
+     kärys+A+Pl+Ine: kärhyissä
+     kärys+A+Pl+Ela: kärhyistä
+     kärys+A+Pl+Ill: kärhyissiin
+     kärys+A+Pl+Ade: kärhyilä
+     kärys+A+Pl+Abl: kärhyiltä
+     kärys+A+Pl+All: kärhyile
+     kärys+A+Pl+Com: kärhyine
+     kärys+A+Pl+Ess: kärhyinä
+
+     kärys+A+Sg+Comp+Nom: kärhyympi
+     kärys+A+Sg+Comp+Gen: kärhyymän
+     kärys+A+Sg+Comp+Par: kärhyymppää
+     kärys+A+Sg+Comp+Tra: kärhyymäksi
+     kärys+A+Sg+Comp+Abe: kärhyymättä
+     kärys+A+Sg+Comp+Ine: kärhyymässä
+     kärys+A+Sg+Comp+Ela: kärhyymästä
+     kärys+A+Sg+Comp+Ill: kärhyymphääm
+     kärys+A+Sg+Comp+Ade: kärhyymällä
+     kärys+A+Sg+Comp+Abl: kärhyymältä
+     kärys+A+Sg+Comp+All: kärhyymälle
+     kärys+A+Sg+Comp+Ess: kärhympännä
+
+     kärys+A+Pl+Comp+Nom: kärhyymät
+     kärys+A+Pl+Comp+Gen: kärhyymiitten
+     kärys+A+Pl+Comp+Par: kärhyymppiitä
+     kärys+A+Pl+Comp+Tra: kärhyymiksi
+     kärys+A+Pl+Comp+Abe: kärhyymittä
+     kärys+A+Pl+Comp+Ine: kärhyymissä
+     kärys+A+Pl+Comp+Ela: kärhyymistä
+     kärys+A+Pl+Comp+Ill: kärhyymphiin
+     kärys+A+Pl+Comp+Ade: kärhyymillä
+     kärys+A+Pl+Comp+Abl: kärhyymiltä
+     kärys+A+Pl+Comp+All: kärhyymille
+     kärys+A+Pl+Comp+Ess: kärhyympinnä
+     kärys+A+Pl+Comp+Com: kärhyympine
+
+     kärys+A+Sg+Superl+Nom: kärhyin
+     kärys+A+Sg+Superl+Gen: kärhyimän
+     kärys+A+Sg+Superl+Par: kärhyintä
+     kärys+A+Sg+Superl+Tra: kärhyimäksi
+     kärys+A+Sg+Superl+Abe: kärhyimättä
+     kärys+A+Sg+Superl+Ine: kärhyimässä
+     kärys+A+Sg+Superl+Ela: kärhyimästä
+     kärys+A+Sg+Superl+Ill: kärhyimphään
+     kärys+A+Sg+Superl+Ade: kärhyimällä
+     kärys+A+Sg+Superl+Abl: kärhyimältä
+     kärys+A+Sg+Superl+All: kärhyimälle
+     kärys+A+Sg+Superl+Ess: kärhyimpännä
+
+     kärys+A+Pl+Superl+Nom: kärhyimät
+     kärys+A+Pl+Superl+Gen: kärhyimitten
+     kärys+A+Pl+Superl+Par: kärhyimpiä
+     kärys+A+Pl+Superl+Tra: kärhyimiksi
+     kärys+A+Pl+Superl+Abe: kärhyimittä
+     kärys+A+Pl+Superl+Ine: kärhyimissä
+     kärys+A+Pl+Superl+Ela: kärhyimistä
+     kärys+A+Pl+Superl+Ill: kärhyimphiin
+     kärys+A+Pl+Superl+Ade: kärhyimillä
+     kärys+A+Pl+Superl+Abl: kärhyimiltä
+     kärys+A+Pl+Superl+All: kärhyimille
+     kärys+A+Pl+Superl+Ess: kärhyimpinnä
+     kärys+A+Pl+Superl+Com: kärhyimpine
