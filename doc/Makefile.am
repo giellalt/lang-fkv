@@ -9,26 +9,26 @@
 
 if CAN_DOCC
 
-JSP_PAGES=root-morphology.jspwiki \
-		  abbreviations-stems.jspwiki      \
-		  adjectives-affixes.jspwiki \
-		  adjectives-stems.jspwiki         \
-		  adverbs-stems.jspwiki            \
-		  closed-stems.jspwiki       \
-		  nouns-affixes.jspwiki \
-		  nouns-stems.jspwiki              \
-		  nouns-stems.jspwiki \
-		  postpositions-stems.jspwiki        \
-		  prepositions-stems.jspwiki        \
-		  prepositions-stems.jspwiki        \
-		  pronouns-affixes.jspwiki \
-		  pronouns-stems.jspwiki \
-		  propernouns-stems.jspwiki        \
-		  punctuation-stems.jspwiki        \
-		  verbs-affixes.jspwiki \
-		  verbs-stems.jspwiki \
+JSP_PAGES=root-morphology.jspwiki     \
+		  abbreviations-stems.jspwiki \
+		  adjectives-affixes.jspwiki  \
+		  adjectives-stems.jspwiki    \
+		  adverbs-stems.jspwiki       \
+		  closed-stems.jspwiki        \
+		  nouns-affixes.jspwiki       \
+		  nouns-stems.jspwiki         \
+		  nouns-stems.jspwiki         \
+		  postpositions-stems.jspwiki \
+		  prepositions-stems.jspwiki  \
+		  prepositions-stems.jspwiki  \
+		  pronouns-affixes.jspwiki    \
+		  pronouns-stems.jspwiki      \
+		  propernouns-stems.jspwiki   \
+		  punctuation-stems.jspwiki   \
+		  verbs-affixes.jspwiki       \
+		  verbs-stems.jspwiki         \
 		  fkv-phon-phonology.jspwiki
-#		  acronyms-stems.jspwiki           \
+#		  acronyms-stems.jspwiki      \
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # smi-propernouns-stems.jspwiki    \
