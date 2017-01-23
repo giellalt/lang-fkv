@@ -26,9 +26,9 @@ LEXICON ab ! No POS, don't know what pos, assuming noun
 ab-nodot-noun ;
 ab-dot-noun ;
 
-LEXICON ab-dot-noun-adj
-ab-dot-noun ;
-ab-dot-adj ;
+!LEXICON ab-dot-noun-adj
+!ab-dot-noun ;
+!ab-dot-adj ;
 
 LEXICON ab-noun
 ab-nodot-noun ;
@@ -107,15 +107,15 @@ LEXICON ab-dot-cc
 
 ! Then, as an afterthought, come our two verbs, gč. and vrd.
 
-LEXICON ab-verb ! A lexicon for "gč." and perhaps also other abbreviated verbs.
-ab-dot-verb ;
-ab-nodot-verb ;
+!LEXICON ab-verb ! A lexicon for "gč." and perhaps also other abbreviated verbs.
+!ab-dot-verb ;
+!ab-nodot-verb ;
 
-LEXICON ab-dot-verb
-+V+ABBR:%.   # ; ! Period.
-
-LEXICON ab-nodot-verb
-+V+ABBR:    # ; ! No period.
+!LEXICON ab-dot-verb
+!+V+ABBR:%.   # ; ! Period.
+!
+!LEXICON ab-nodot-verb
+!+V+ABBR:    # ; ! No period.
 
 
 

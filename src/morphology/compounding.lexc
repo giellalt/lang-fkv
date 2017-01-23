@@ -3,13 +3,13 @@
 LEXICON R
 !+Cmp#:# # ; ! For turning off compounding during testing
 ! +Cmp#:# NounRoot ;
- +Cmp@D.compound.block@#:@D.compound.block@# NounRoot ;
- +Cmp@D.compound.block@#-:@D.compound.block@#- ProperNoun ;
+ +Cmp@D.compound.block@#:0@D.compound.block@# NounRoot ;
+ +Cmp@D.compound.block@#-:0@D.compound.block@#- ProperNoun ;
 
 
 LEXICON Rhyph
- +Cmp@D.compound.block@#-:@D.compound.block@#- NounRoot ;
- +Cmp@D.compound.block@#-:@D.compound.block@#- ProperNoun ;
+ +Cmp@D.compound.block@#-:0@D.compound.block@#- NounRoot ;
+ +Cmp@D.compound.block@#-:0@D.compound.block@#- ProperNoun ;
 
 LEXICON RNum
       +Use/Circ+Cmp%-#:%-# NounRoot ; ! For Num Cmp Noun, vi vil ikke ha Num Cmp Num 
