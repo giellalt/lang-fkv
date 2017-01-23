@@ -135,11 +135,11 @@ LEXICON n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
  +N+Pl+Com:%>i2%>ne           K               ;
 
 
- LEXICON kk-longgenpl
-      +Gen:%>kk%>i2           #               ; ! kk ?? Tsekkaa..
+! LEXICON kk-longgenpl
+!      +Gen:%>kk%>i2           #               ; ! kk ?? Tsekkaa..
 
-LEXICON kk-longgparpl
- +Par:%>kk%>i2 # ; ! kk ?? Tsekkaa..
+!LEXICON kk-longgparpl
+! +Par:%>kk%>i2 # ; ! kk ?? Tsekkaa..
 
 LEXICON n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke
         +N:     x_21ie ;
@@ -510,9 +510,9 @@ LEXICON x_33aes
 
 
 
-LEXICON n_33ys !!= @CODE@ rakas
-        +N:        x_33ys ;
- +N+Sg+Nom:%>y^WGs R      ;
+!LEXICON n_33ys !!= @CODE@ rakas
+!        +N:        x_33ys ;
+! +N+Sg+Nom:%>y^WGs R      ;
 
 LEXICON x_33ys
           :%>y^WG       sConsCaselyhyempi ; ! nom, par hammas (WG)
@@ -546,8 +546,8 @@ LEXICON x_33is !!= @CODE@ ruvis
  +Pl+Ill:hiissiin   K                 ;
  +Pl+Com:hiine      K                 ;
 
-LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
-  n_33t ;
+!LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
+!  n_33t ;
 
 LEXICON n_33t !!= @CODE@ venet
         +N:   x_33t ;
@@ -606,8 +606,8 @@ LEXICON x_41
  +Pl+Com:ks%>i2%>ne K              ;
  ! +Pl+Par:%>ksii     K              ;
 
-LEXICON s_kse
- +N:^WG # ;
+!LEXICON s_kse
+! +N:^WG # ;
 
 LEXICON n_41pl !!= * @CODE@ = veljekset
   +N+Pl+Nom:%>kset     K               ;
@@ -681,40 +681,40 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
         +N:se         ess_odd_pl     ;
  +N+Pl+Com:s%>i2%>nne K              ;
 
-LEXICON nen  !!= @CODE@ on nainen-sanoille
-  nen_sg ;
-  nen_pl ;
+!LEXICON nen  !!= @CODE@ on nainen-sanoille
+!  nen_sg ;
+!  nen_pl ;
 
-LEXICON nen_sg
-             +N:     nom-nen        ;
-!            +N:se   nomgen_px      ;
-             +N:se   ess_even       ;
-! make+N+Pl+kom:sine K              ;
-             +N:se   weak_v_stem_sg ;
-          +N+Sg:s    longparpl      ;
-             +N:se   2TAVU_V_ill_sg ;
-
-LEXICON nen_pl
-        +N:se        weak_v_stem_pl ;
- +N+Pl+Ill:sh%>i2in  K              ;
-     +N+Pl:s         consgenpl      ;
-     +N+Pl:ss%>i2i   shortestparpl  ;
-     +N+Pl:sh%>i2    shorterillpl   ;
- +N+Pl+Com:s%>i2%>ne K              ;
-
-
-LEXICON nom-nen
- +Sg+Nom:nen K ;
+!LEXICON nen_sg
+!             +N:     nom-nen        ;
+!!            +N:se   nomgen_px      ;
+!             +N:se   ess_even       ;
+!! make+N+Pl+kom:sine K              ;
+!             +N:se   weak_v_stem_sg ;
+!          +N+Sg:s    longparpl      ;
+!             +N:se   2TAVU_V_ill_sg ;
+!
+!LEXICON nen_pl
+!        +N:se        weak_v_stem_pl ;
+! +N+Pl+Ill:sh%>i2in  K              ;
+!     +N+Pl:s         consgenpl      ;
+!     +N+Pl:ss%>i2i   shortestparpl  ;
+!     +N+Pl:sh%>i2    shorterillpl   ;
+! +N+Pl+Com:s%>i2%>ne K              ;
 
 
-LEXICON loput
-                 obl_strong_odd ; ! muut vahvat
-                 weak_v_stem    ;
-        +Sg:     sgpl_cases_odd ; !! these two lexica for cases with
-        +Pl:%>i2 sgpl_cases_odd ; !! the same affix in sg and pl -- tsekkaa long
-        +Pl:%>i2 consgenpl      ;
- +Pl+Use/NG:%>i2 tt_longgenpl   ;
-        +Pl:%>i2 shortparpl     ;
+!LEXICON nom-nen
+! +Sg+Nom:nen K ;
+
+
+!LEXICON loput
+!                 obl_strong_odd ; ! muut vahvat
+!                 weak_v_stem    ;
+!        +Sg:     sgpl_cases_odd ; !! these two lexica for cases with
+!        +Pl:%>i2 sgpl_cases_odd ; !! the same affix in sg and pl -- tsekkaa long
+!        +Pl:%>i2 consgenpl      ;
+! +Pl+Use/NG:%>i2 tt_longgenpl   ;
+!        +Pl:%>i2 shortparpl     ;
 
 
 LEXICON sConsCase
@@ -746,9 +746,9 @@ LEXICON strong_v_stem_even  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän
   short_par       ;
   obl_strong_even ;
 
-LEXICON strong_v_stem_odd  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
-  short_par      ;
-  obl_strong_odd ;
+!LEXICON strong_v_stem_odd  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
+!  short_par      ;
+!  obl_strong_odd ;
 
 
 LEXICON weak_v_stem !!= @CODE@
@@ -866,8 +866,8 @@ LEXICON mTAVU_VV-ill   ! longer kuninkhaa/sseen
  +Sg+Ill:%>ssee n_PxK ; ! koska tämä pääte aina sseen
 
 
-LEXICON oldgenpl
- +Gen:%> n_PxK ;
+!LEXICON oldgenpl
+! +Gen:%> n_PxK ;
 
 LEXICON shortestgenpl
  +Gen: n_PxK ;
@@ -875,12 +875,12 @@ LEXICON shortestgenpl
 LEXICON shortgenpl
  +Gen:%>^V n_PxK ;
 
-LEXICON longgenpl
-! d_longgenpl ;   oletetaan, että -tten vaan
-  tt_longgenpl ;
+!LEXICON longgenpl
+! ! d_longgenpl ;   oletetaan, että -tten vaan
+!  tt_longgenpl ;
 
-LEXICON d_longgenpl
- +Gen:%>de n_PxK ;
+!LEXICON d_longgenpl
+! +Gen:%>de n_PxK ;
 
 LEXICON tt_longgenpl
  +Gen:%>tte n_PxK ;
@@ -907,8 +907,8 @@ LEXICON shortestillpl
 LEXICON shortillpl
  +Ill:%>hi n_PxK ;
 
-LEXICON h_shortillpl
- +Ill:^EDEL%>hii n_PxK ;
+!LEXICON h_shortillpl
+! +Ill:^EDEL%>hii n_PxK ;
 
 
 LEXICON shorterillpl
@@ -917,8 +917,8 @@ LEXICON shorterillpl
 LEXICON longillpl
  +Ill: n_PxK ; ! En tiedä, toimiiko tämä
 
-LEXICON longerillpl
- +Pl+Ill:%>s^V^V n_PxK ;
+!LEXICON longerillpl
+! +Pl+Ill:%>s^V^V n_PxK ;
 
 
 
