@@ -6,12 +6,12 @@
 !! Each a_ lexicon gets the +A tag and is then
 !! redirected to a common x_ lexicon in the noun file.
 
-LEXICON a_x  !!= * @CODE@ contains unclassified adjectives.
+LEXICON a_x  != * @CODE@ contains unclassified adjectives.
 +A+Sg+Nom: K ;
 
 
-LEXICON ax  !!= * @CODE@ contains unclassified adjectives.
-+A: K ;
+!LEXICON ax  !!= * @CODE@ contains unclassified adjectives.
+!+A: K ;
 
 LEXICON HYVA
 +A:hyvä x_21 ; ! hyvvää, hyvät
@@ -26,10 +26,10 @@ LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc. siisti
 :^AE^WG comp_m_odd  ;
 :^AE^WG%>i5 superl_m_odd ;
 
-LEXICON a_21ie  !!= * @CODE@ corresponds to a_21ie etc.
-+A: x_21ie ;
-comp_m_odd  ;
-superl_m_odd ;
+!LEXICON a_21ie  != * @CODE@ corresponds to a_21ie etc.
+!+A: x_21ie ;
+!comp_m_odd  ;
+!superl_m_odd ;
 
 
 LEXICON a_22	!!= * @CODE@  liberaali
@@ -154,8 +154,8 @@ LEXICON a_41 !!= * @CODE@ = veres
 :kse comp_m_odd  ;
 
 
-LEXICON a_41_s_kse
-+A:^WG # ;
+!LEXICON a_41_s_kse
+!+A:^WG # ;
 
 
 
@@ -234,28 +234,28 @@ LEXICON x_43odd !!= * @CODE@ onneton
 
 !! Most cases are directed to affixes/nouns.lexc
 
-LEXICON a_sgpl_cases_common  !!= * @CODE@
- +Abl:%>lt^A PxxK ;
- +Ine:%>ss^A PxxK ;
- +Ela:%>st^A PxxK ;
- +Tra:%>ksi K ;
- +Tra:%>kse Pxx ;
- +Abe:%>tt^A PxxK ;
+!LEXICON a_sgpl_cases_common  != * @CODE@
+! +Abl:%>lt^A PxxK ;
+! +Ine:%>ss^A PxxK ;
+! +Ela:%>st^A PxxK ;
+! +Tra:%>ksi K ;
+! +Tra:%>kse Pxx ;
+! +Abe:%>tt^A PxxK ;
 
 
 !! !!Lexica for the non-uniform cases
 !    ---------------------------------
 
 
-LEXICON shortest-illativ_sg  !jos h ei siirry
- +Sg+Ill:%>^V n_PxK ;
+!LEXICON shortest-illativ_sg  !jos h ei siirry
+! +Sg+Ill:%>^V n_PxK ;
 
 LEXICON a_shortestgenpl !! * @CODE@ zero, because ii > i
  +Gen: n_PxK ;
 
 
-LEXICON a_shorterillpl
- +Ill:%>i2 n_PxK ;
+!LEXICON a_shorterillpl
+! +Ill:%>i2 n_PxK ;
 
 
 LEXICON a_loputon
