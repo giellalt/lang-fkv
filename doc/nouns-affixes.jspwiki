@@ -48,7 +48,7 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 
 
 
- * LEXICON n_1  = maa
+ * LEXICON n_1  = maa, tie
 
  *  LEXICON n_1ai  = tuorestai ja muut päivät
 
@@ -63,7 +63,7 @@ the same affix in sg and pl
 
  * LEXICON n_21C 
 
- * LEXICON n_21          "poika:poi6ka", lyhyt vokali, yks vartalo, kuva
+ * LEXICON n_21          "poika:poi6ka", lyhyt vokali, yks vartalo, kuva, linna
 
 
 
@@ -162,7 +162,6 @@ the same affix in sg and pl
 
 
 
- LEXICON n_33ys  rakas
 
 
 
@@ -170,7 +169,6 @@ the same affix in sg and pl
 
  LEXICON x_33is  ruvis
 
- LEXICON n_33   odottaessa viitataan n_33t-hen
 
  LEXICON n_33t  venet
 
@@ -211,15 +209,13 @@ the same affix in sg and pl
  LEXICON n_42pl !  tervheiset tervhei
 the same affix in sg and pl
 
- LEXICON nen   on nainen-sanoille
+
+           +N:se   nomgen_px      ;
+make+N+Pl+kom:sine K              ;
 
 
 
 
-
-
-these two lexica for cases with
-the same affix in sg and pl -- tsekkaa long
 
 
 
@@ -235,7 +231,6 @@ Basic paradigms
 
  LEXICON strong_v_stem_even   ''Kaikki vahvan asteen sijamuodot tähän''
 
- LEXICON strong_v_stem_odd   ''Kaikki vahvan asteen sijamuodot tähän''
 
 
  LEXICON weak_v_stem 
@@ -284,6 +279,8 @@ general weak_v_stem lexicon.
 
 
 * LEXICON weak_v_stem  zero, because ii > i
+
+
 
 
 
