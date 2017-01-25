@@ -159,7 +159,7 @@ Miten testata:
 # poimia pitkät komennot, esim:
 
 {{{
-hum-tf4-ans163:fkv ttr000$ pushd /Users/ttr000/main/langs/fkv/test/src/morphology; /opt/local/bin/python3.2 /Users/ttr000/main/gtcore/scripts/morph-test.py -c -i -S hfst --app /usr/local/bin/hfst-lookup --gen ./../../../src/generator-gt-norm.hfst --morph ./../../../src/analyser-gt-norm.hfst ./N-linna_gt-norm.yaml; popd
+hum-tf4-ans163:fkv ttr000$ pushd /Users/ttr000/main/langs/fkv/test/src/morphology; /opt/local/bin/python3.2 /Users/ttr000/main/giella-core/scripts/morph-test.py -c -i -S hfst --app /usr/local/bin/hfst-lookup --gen ./../../../src/generator-gt-norm.hfst --morph ./../../../src/analyser-gt-norm.hfst ./N-linna_gt-norm.yaml; popd
 }}}
 
 Tulos: 6 virhettä
