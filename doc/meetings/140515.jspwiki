@@ -142,8 +142,8 @@ Yleisneuvot:
 
 Dokumentaatio:
 
-* Työtehtävien uusjako på norsk: http://giellatekno.uit.no/doc/lang/fkv/Arbeidsplan.html
-* Yksityiskohtaiset työtehtävät: http://giellatekno.uit.no/doc/lang/fkv/Tehtavat.html
+* Työtehtävien uusjako på norsk: [/doc/lang/fkv/Arbeidsplan.html]
+* Yksityiskohtaiset työtehtävät: [/doc/lang/fkv/Tehtavat.html]
 
 !!Analysaattori:
 
@@ -172,7 +172,7 @@ Katsotaan partisiippeja (kesäkuussa)
 !!Sanakirja
 
 Onko sana sanakirjassa? siis katso dokumentaatiosta:
-* [http://giellatekno.uit.no/doc/lang/fkv/Tehtavat.html]
+* [/doc/lang/fkv/Tehtavat.html]
 
 !Työn kulku
 
@@ -247,7 +247,7 @@ svn ci -m "moved orig nob file" inc/pirjo/kainun_institutti/kainun_institutti_aa
 
 Jokaiseen doc-tiedostoon file.doc pitää olla rinnakkais-tiedosto file.doc.xsl. Siinä pitää lukea kaikki meta-tiedot.
 
-Prosessi on selitetty [korpusmanuaalissa|http://giellatekno.uit.no/doc/ling/corpus_conversion.html].
+Prosessi on selitetty [korpusmanuaalissa|/doc/ling/corpus_conversion.html].
 
 
 !Käyttöliittymä:
