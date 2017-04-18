@@ -147,7 +147,9 @@ LEXICON n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke
 
 LEXICON x_21ie
  +Sg+Nom:^E2I     K               ; ! ^EI e to i
-                  short_par       ;
+
+  +Dial/Por:      short_par       ; ! suomee
+ +Dial/-Por:      short_par_a     ; ! suomea
                   obl_strong_even ;
         :^WG      weak_v_stem     ;
      +Sg:^WG      sgpl_cases_even ; !! these two lexica for cases with
@@ -843,6 +845,9 @@ LEXICON com      ! Komitatiivilla on vain -ine ja menee Pxx:iin
 LEXICON short_par
           +Sg+Par:%>^V PxxK ;
  +Sg+Par+Err/Orth:%>^A PxxK ;
+
+ LEXICON short_par_a
+          +Sg+Par:%>^A PxxK ;
 
 LEXICON long_par
  +Sg: longparpl ;
