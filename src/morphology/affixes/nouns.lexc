@@ -378,10 +378,15 @@ LEXICON n_31mies        !!= @CODE@ mies mie
  +N+Pl+Nom:het          K               ;
      +N+Sg:he^WG        sgpl_cases_even ; !! these two lexica for cases with
      +N+Pl:h^WG%>i2     sgpl_cases_even ; !! the same affix in sg and pl
-     +N+Pl:h%>i2%>i     shortestgenpl   ;
-!     +N+Pl:h%>i2%>      tt_longgenpl    ; !miehitten
+
++N+Pl+Dial/Por:h%>i2%>i     shortestgenpl ; ! miehiin
++N+Pl+Dial/-Por:h%>i2%>     tt_longgenpl  ; ! miehitten
+
++N+Pl+Dial/Por:h%>i2%>i     shortestparpl ; ! miehii
++N+Pl+Dial/Por:h%>i2%>      shortparpla   ; ! miehiä
+
+
      +N+Pl:s            consgenpl       ;
-     +N+Pl:h%>i2%>i     shortestparpl   ;
  +N+Sg+Ill:h^HMETA%>hee n_PxK           ;
  +N+Pl+Ill:hhii         n_PxK           ;
  +N+Pl+Com:h%>i2%>ne    K               ;
