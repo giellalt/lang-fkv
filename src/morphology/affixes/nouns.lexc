@@ -207,25 +207,35 @@ LEXICON x_22odd !!= * @CODE@  kajava
 
 
 
-LEXICON n_22oddi !!= * @CODE@  meininki
+LEXICON n_22oddi !!= * @CODE@  meininki, tunturi
         +N:     x_22oddi ;
  +N+Sg+Nom:     R        ;
  +N+Sg+Gen:^WGn R        ;
 
-LEXICON x_22oddi !!= * @CODE@  meininki
+LEXICON x_22oddi !!= * @CODE@  meininki, tunturi
                       nom_strong      ;
-                      short_par       ;
+    +Dial/Por:        short_par       ;
+   +Dial/-Por:        short_par_a     ;
 !                     nomgen_px       ;
          :^WG         weak_v_stem     ;
       +Sg:^WG         sgpl_cases_odd  ;
-      +Pl:^WG%>i2     sgpl_cases_even ; ! Adding  to block i:0
+
++Pl+Dial/Por:^WG%>i2  sgpl_cases_even ; ! Adding  to block i:0
++Pl+Dial/-Por:^WG%>   sgpl_cases_odd  ; ! Adding  to block i:0
                       2TAVU_V_ill_sg  ;
                       ess_odd_sg      ;
-      +Pl:i           ess             ;
-      +Pl:^WG%>i2     tt_longgenpl    ;
-      +Pl:%>i2        longparpl       ;
++Pl+Dial/Por:i        ess             ;
+
++Pl+Dial/Por:^WG%>i2  tt_longgenpl    ;
++Pl+Dial/Por:%>i2     longparpl       ;
   +Pl+Ill:^HMETA%>hii n_PxK           ;
-  +Pl+Com:ine         K               ;
++Pl+Dial/Por+Com:ine  K               ;
+
++Pl+Dial/-Por:%>n    ess              ;
++Pl+Dial/-Por:^WG%>  tt_longgenpl     ;
++Pl+Dial/-Por:%>     shortparpla      ;
++Pl+Dial/-Por+Com:ne K                ;
+
 
 !  Tarkista, onko yaml oikein:
 !  [24/25][FAIL] meininki+N+Pl+Ess => Missing results: meininkiinä
