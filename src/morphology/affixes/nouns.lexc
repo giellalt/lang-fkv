@@ -245,12 +245,13 @@ LEXICON x_22oddi !!= * @CODE@  meininki, tunturi
 
 
 
-LEXICON n_22oi        !!= * @CODE@
+LEXICON n_22oi        !!= * @CODE@  Kulkkiija, paivukko
  +N: x_22oi ;
 
-LEXICON x_22oi        !!= * @CODE@  Kulkkiija
+LEXICON x_22oi        !!= * @CODE@  Kulkkiija, paivukko
                             nom_strong      ; ! sg nom
-                            short_par       ;
+ +Dial/Por:                 short_par       ;
++Dial/-Por:                 short_par_a     ;
         :^WG                weak_v_stem     ;
      +Sg:^WG                sgpl_cases_odd  ; ! these two lexica for cases with
      +Pl:^AO^WG%>i2         sgpl_cases_even ; ! the same affix in sg and pl
@@ -462,9 +463,14 @@ LEXICON x_32m_pl
         :me            weak_v_stem_pl ;
         :me            weak_v_stem    ;
      +Pl:m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
-     +Pl:mi%>i2        shortestparpl  ;
-     +Pl:mi%>i2        longparpl      ;
-     +Pl:m%>ii2        tt_longgenpl   ;
+
+ +Pl+Dial/Por:m%>ii2   tt_longgenpl   ; ! elläimiitten
++Pl+Dial/-Por:m%>i     tt_longgenpl   ; ! elläimitten
+
+ +Pl+Dial/Por:mi%>i2   shortestparpl  ; ! elläimii
+ +Pl+Dial/Por:mi%>i2   longparpl      ; ! elläimiitä
++Pl+Dial/-Por:mi%>     shortparpla    ; ! elläimiä
+
      +Pl:m^HMETAh%>i2i shortestillpl  ;
  +Pl+Com:m%>i2%>ne     K              ;
 
