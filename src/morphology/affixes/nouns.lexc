@@ -314,12 +314,14 @@ LEXICON x_31
       +Pl:%>i2        sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
                       2TAVU_V_ill_sg  ;
       +Pl:^HMETA%>hii shortestillpl   ;
-      +Pl:%>i2        shortparpl      ;
+
+ +Pl+Dial/Por:%>i2i   shortestgenpl   ;
++Pl+Dial/-Por:        consgenpl       ; ! kielten
++Pl+Dial/-Por:%>i2    tt_longgenpl    ; ! kielitten, sienitten
 !     +Pl:%>i2        shortgenpl      ;
-      +Pl:%>i2i       shortestgenpl   ;
-      +Pl:            consgenpl       ;
-!      +Pl:%>i2        tt_longgenpl    ; ! sienitten
 !    !+Pl:^EDEL       consgenpl       ;
+ +Pl+Dial/Por:%>i2    shortparpl      ; ! kielii
++Pl+Dial/-Por:%>i2    shortparpla     ; ! kieliä
   +Pl+Com:%>i2%>ne    K               ;
 
 LEXICON n_31m        !!= @CODE@ lumi lu
