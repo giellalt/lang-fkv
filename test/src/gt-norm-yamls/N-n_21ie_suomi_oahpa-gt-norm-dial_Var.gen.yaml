@@ -17,7 +17,7 @@ Tests:
   Noun - suomi - ok : # Noun 'Finland' n_21ie - ei tsekattu
      suomi+N+Sg+Nom: suomi
      suomi+N+Sg+Gen: suomen
-     suomi+N+Sg+Par: suomiaa
+     suomi+N+Sg+Par: suomia
      suomi+N+Sg+Tra: suomeksi
      suomi+N+Sg+Abe: suometta
      suomi+N+Sg+Ine: suomessa
@@ -29,7 +29,7 @@ Tests:
      suomi+N+Sg+Ess: suomena
      suomi+N+Pl+Nom: suomet
      suomi+N+Pl+Gen: suomitten
-     suomi+N+Pl+Par: suomiaa
+     suomi+N+Pl+Par: suomia
      suomi+N+Pl+Tra: suomiksi
      suomi+N+Pl+Ine: suomissa
      suomi+N+Pl+Ela: suomista
@@ -40,3 +40,8 @@ Tests:
      suomi+N+Pl+All: suomile
      suomi+N+Pl+Ess: suomina
      suomi+N+Pl+Com: suomine
+
+# Varengin varieteetissa pittää muistaat, että rangan e + suffiksin A > iA
+# Katso Kainun kielen grammatiikki (2014) s. 82 ja 165.
+# Vokaali -e muuttuu i:ksi jos seuraavassa tavussa on -a tai -ä.
+# Katso En liten kvensk grammatikk Varanger variant (2012) s. 35. 
