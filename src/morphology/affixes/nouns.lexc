@@ -376,23 +376,30 @@ LEXICON x_31si
       +Pl:^HMETA%>hii shortestillpl   ;
   +Pl+Com:%>i2%>ne    K               ;
 
+!  LEXICON n_31lapsi        !!= @CODE@ lapsi la
+!           +N:              x_31lapsi       ;
+!    +N+Sg+Nom:psi           K               ; ! ^EI e to i
+!    +N+Sg+Nom:psi           R               ; ! ^EI e to i
+! Add in when remember how to not make bug and crash compile, -Sindre
+
 LEXICON n_31lapsi        !!= @CODE@ lapsi la
-    +N+Sg+Nom:psi           K               ; ! ^EI e to i
-    +N+Sg+Nom:psi           R               ; ! ^EI e to i
-    +N+Sg+Gen:psen          R               ;
-    +N+Pl+Gen:sten          R               ;
-        +N+Sg:s             longparpl       ;
-           +N:pse           obl_strong_even ;
-           +N:pse^WG        weak_v_stem     ;
-        +N+Sg:pse^WG        sgpl_cases_even ; !! these two lexica for cases with
-    +N+Pl+Gen:sten          K               ;
-        +N+Pl:ps^WG%>i2     sgpl_cases_even ; !! the same affix in sg and pl
-        +N+Pl:ps%>i2%>i     shortestgenpl   ;
-! +N+Pl+Use/NG:ps%>i2        tt_longgenpl    ; ! lapsitten
-        +N+Pl:ps%>i2%>i     shortestparpl   ;
-    +N+Sg+Ill:ps^HMETA%>hee n_PxK           ;
-    +N+Pl+Ill:ps^EDEL%>hii  n_PxK           ;
-    +N+Pl+Com:ps%>i2%>ne    K               ;
+      +N+Sg+Nom:psi           K               ; ! ^EI e to i
+      +N+Sg+Nom:psi           R               ; ! ^EI e to i
+      +N+Sg+Gen:psen          R               ;
+      +N+Pl+Gen:sten          R               ;
+          +N+Sg:s             longparpl       ;
+             +N:pse           obl_strong_even ;
+             +N:pse^WG        weak_v_stem     ;
+          +N+Sg:pse^WG        sgpl_cases_even ; !! these two lexica for cases with
+      +N+Pl+Gen:sten          K               ;
+          +N+Pl:ps^WG%>i2     sgpl_cases_even ; !! the same affix in sg and pl
+ +N+Pl+Dial/Por:ps%>i2%>i     shortestgenpl   ; ! lapsiin
++N+Pl+Dial/-Por:ps%>i2        tt_longgenpl    ; ! lapsitten
+ +N+Pl+Dial/Por:ps%>i2%>i     shortestparpl   ; ! lapsii
++N+Pl+Dial/-Por:ps%>i2%>      shortparpla     ; ! lapsia
+      +N+Sg+Ill:ps^HMETA%>hee n_PxK           ;
+      +N+Pl+Ill:ps^EDEL%>hii  n_PxK           ;
+      +N+Pl+Com:ps%>i2%>ne    K               ;
 
 LEXICON n_31mies        !!= @CODE@ mies mie
  +N+Sg+Nom:s            K               ; ! ^EI e to i
