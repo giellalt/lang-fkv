@@ -141,23 +141,24 @@ LEXICON n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo
 !LEXICON kk-longgparpl
 ! +Par:%>kk%>i2 # ; ! kk ?? Tsekkaa..
 
-LEXICON n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke
+LEXICON n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi
         +N:     x_21ie ;
  +N+Sg+Nom:^E2I R      ; ! ^EI e to i
 
 LEXICON x_21ie
- +Sg+Nom:^E2I     K               ; ! ^EI e to i
-
-  +Dial/Por:      short_par       ; ! suomee
- +Dial/-Por:      short_par_a     ; ! suomea
-                  obl_strong_even ;
-        :^WG      weak_v_stem     ;
-     +Sg:^WG      sgpl_cases_even ; !! these two lexica for cases with
-     +Pl:^WG%>i2  sgpl_cases_even ; !! the same affix in sg and pl
-     +Pl:%>i2     shortgenpl      ;
-                  2TAVU_edel-ill  ;
-     +Pl:%>i2     shortparpl      ;
- +Pl+Com:%>i2%>ne K               ;
+      +Sg+Nom:^E2I     K               ; ! ^EI e to i
+    +Dial/Por:         short_par       ; ! suomee
+   +Dial/-Por:         short_par_a     ; ! suomea
+                       obl_strong_even ;
+             :^WG      weak_v_stem     ;
+          +Sg:^WG      sgpl_cases_even ; !! these two lexica for cases with
+          +Pl:^WG%>i2  sgpl_cases_even ; !! the same affix in sg and pl
+ +Pl+Dial/Por:%>i2     shortgenpl      ; ! hyksiin
++Pl+Dial/-Por:%>i2     tt_longgenpl    ; ! hyksitten
+ +Pl+Dial/Por:%>i2     shortparpl      ; ! hyksii
++Pl+Dial/-Por:%>i2     shortparpla     ; ! hyksiä
+                       2TAVU_edel-ill  ;
+      +Pl+Com:%>i2%>ne K               ;
 
 
 LEXICON n_22        !!= * @CODE@  opettaaja, karamelli
