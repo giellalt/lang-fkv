@@ -404,27 +404,23 @@ LEXICON n_31lapsi        !!= @CODE@ lapsi la
       +N+Pl+Com:ps%>i2%>ne    K               ;
 
 LEXICON n_31mies        !!= @CODE@ mies mie
- +N+Sg+Nom:s            K               ; ! ^EI e to i
- +N+Sg+Nom:s            R               ; ! ^EI e to i
- +N+Sg+Gen:hen          K               ;
-     +N+Sg:s            longparpl       ;
-        +N:he           obl_strong_even ;
-     +N+Sg:he^WG        weak_v_stem     ;
- +N+Pl+Nom:het          K               ;
-     +N+Sg:he^WG        sgpl_cases_even ; !! these two lexica for cases with
-     +N+Pl:h^WG%>i2     sgpl_cases_even ; !! the same affix in sg and pl
-
-+N+Pl+Dial/Por:h%>i2%>i     shortestgenpl ; ! miehiin
-+N+Pl+Dial/-Por:h%>i2%>     tt_longgenpl  ; ! miehitten
-
-+N+Pl+Dial/Por:h%>i2%>i     shortestparpl ; ! miehii
-+N+Pl+Dial/Por:h%>i2%>      shortparpla   ; ! miehiä
-
-
-     +N+Pl:s            consgenpl       ;
- +N+Sg+Ill:h^HMETA%>hee n_PxK           ;
- +N+Pl+Ill:hhii         n_PxK           ;
- +N+Pl+Com:h%>i2%>ne    K               ;
+      +N+Sg+Nom:s            K               ; ! ^EI e to i
+      +N+Sg+Nom:s            R               ; ! ^EI e to i
+      +N+Sg+Gen:hen          K               ;
+          +N+Sg:s            longparpl       ;
+             +N:he           obl_strong_even ;
+          +N+Sg:he^WG        weak_v_stem     ;
+      +N+Pl+Nom:het          K               ;
+          +N+Sg:he^WG        sgpl_cases_even ; !! these two lexica for cases with
+          +N+Pl:h^WG%>i2     sgpl_cases_even ; !! the same affix in sg and pl
+          +N+Pl:s            consgenpl       ;
+ +N+Pl+Dial/Por:h%>i2%>i     shortestgenpl   ; ! miehiin
++N+Pl+Dial/-Por:h%>i2%>      tt_longgenpl    ; ! miehitten
+ +N+Pl+Dial/Por:h%>i2%>i     shortestparpl   ; ! miehii
++N+Pl+Dial/-Por:h%>i2%>      shortparpla     ; ! miehiä
+      +N+Sg+Ill:h^HMETA%>hee n_PxK           ;
+      +N+Pl+Ill:hhii         n_PxK           ;
+      +N+Pl+Com:h%>i2%>ne    K               ;
 
 
 LEXICON n_32 !!= @CODE@ tytär tyttär
