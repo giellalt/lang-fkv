@@ -374,7 +374,7 @@ LEXICON x_31si
  +Pl+Dial/Por:%>i2     shortparpl      ; ! hirssii   ^E2I to get t:s
 +Pl+Dial/-Por:%>i2%>   shortparpla     ; ! hirsiä
        +Pl:^HMETA%>hii shortestillpl   ;
-   +Pl+Com:%>i2%>ne    K               ;
+      +Pl+Com:%>i2%>ne K               ;
 
 !  LEXICON n_31lapsi        !!= @CODE@ lapsi la
 !           +N:              x_31lapsi       ;
@@ -519,23 +519,24 @@ LEXICON n_32s !!= @CODE@  sairhaus
 !LEXICON n_33 ! ei tehty
                            !n_33s            ;
 
-LEXICON n_33as !!= @CODE@ rakas
+LEXICON n_33as !!= @CODE@ rakas, asukas
  +N: x_33as ;
 
 LEXICON x_33as
-           :a^WG         sConsCaselyhyempi ; ! nom, par hammas (WG)
-           :haa          mTAVU_VV-ill      ;
-    +Pl+Ill:h%>aissiin   K                 ;
-    +Pl+Com:h%>a%>ine    K                 ;
-           :h%>aa        weak_v_stem_sg    ;
-           :h%>aa        weak_v_stem_pl    ;
-        +Sg:h%>aa        sgpl_cases_even   ;
-        +Pl:h%>a%>i2     sgpl_cases_even   ;
-           :h%>aa        ess_even          ;
-        +Pl:h%>a%>i2     longparpl         ;
-        +Pl:h%>a%>i2     tt_longgenpl      ;
-!        +Pl:h%>a%>je     shortestgenpl     ; rakkhajen
-! +N+Pl+Ess:h%>a%>i2%>na PxxK              ;
+             :a^WG         sConsCaselyhyempi ; ! nom, par hammas (WG)
+             :haa          mTAVU_VV-ill      ;
+      +Pl+Ill:h%>aissiin   K                 ;
+      +Pl+Com:h%>a%>ine    K                 ;
+             :h%>aa        weak_v_stem_sg    ;
+             :h%>aa        weak_v_stem_pl    ;
+          +Sg:h%>aa        sgpl_cases_even   ;
+          +Pl:h%>a%>i2     sgpl_cases_even   ;
+             :h%>aa        ess_even          ;
+          +Pl:h%>a%>i2     tt_longgenpl      ; ! asukkhaitten
++Pl+Dial/-Por:h%>a%>je     shortestgenpl     ; ! rakkhajen
+          +Pl:h%>a%>i2     longparpl         ; ! asukkhaita
++Pl+Dial/-Por:h%>a%>j      shortparpla       ; ! rakkhajen
+  ! +N+Pl+Ess:h%>a%>i2%>na PxxK              ;
 
 !LEXICON n_33aes
 !        +N:             x_33aes           ;
@@ -578,19 +579,20 @@ LEXICON n_33is !!= @CODE@ ruvis, ruumis
  +N: x_33is ;
 
 LEXICON x_33is !!= @CODE@ ruvis
-        :i^WG       sConsCaselyhyempi ; ! nom, par
-        :hii        weak_v_stem_sg    ;
-        :hii        weak_v_stem_pl    ;
-     +Pl:hii        longparpl         ;
-     +Pl:hii        tt_longgenpl      ;
-     +Sg:hii        sgpl_cases_even   ;
-     +Pl:hii        sgpl_cases_even   ;
-        :hii        ess_even_sg       ;
-!     +Pl:hi%>je     shortestgenpl     ; rukhijen
- +Pl+Ess:%>hiin^A   PxxK              ; ! i in pl lex
- +Sg+Ill:%>hiisseen K                 ;
- +Pl+Ill:hiissiin   K                 ;
- +Pl+Com:hiine      K                 ;
+             :i^WG       sConsCaselyhyempi ; ! nom, par
+             :hii        weak_v_stem_sg    ;
+             :hii        weak_v_stem_pl    ;
+          +Sg:hii        sgpl_cases_even   ;
+          +Pl:hii        sgpl_cases_even   ;
+             :hii        ess_even_sg       ;
+          +Pl:hii        tt_longgenpl      ; ! rukkhiitten
+          +Pl:hii        longparpl         ; ! rukkhiita
++Pl+Dial/-Por:hi%>je     shortestgenpl     ; ! rukhijen
++Pl+Dial/-Por:hi%>j      shortparpla       ; ! rukhija
+      +Pl+Ess:%>hiin^A   PxxK              ; ! i in pl lex
+      +Sg+Ill:%>hiisseen K                 ;
+      +Pl+Ill:hiissiin   K                 ;
+      +Pl+Com:hiine      K                 ;
 
 !LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 !  n_33t ;
@@ -611,12 +613,13 @@ LEXICON n_33ts !!= @CODE@ kirves
  +N+Sg+Nom:es R      ;
 
 LEXICON x_33ts !!= @CODE@ kirves
- +Sg+Nom:es          K              ;
-     +Sg:es          longparpl      ;
-        :hee         33_t_ts_common ;
- +Sg+Ill:hee         mTAVU_VV-ill   ;
- +Pl+Gen:hee%>i2     tt_longgenpl   ; ! Can this be commented out?
-!     +Pl:he%>je      shortestgenpl  ; Kirvhejen
+      +Sg+Nom:es          K              ;
+          +Sg:es          longparpl      ;
+             :hee         33_t_ts_common ;
+      +Sg+Ill:hee         mTAVU_VV-ill   ;
++Pl+Dial/-Por:he%>je      shortestgenpl  ; ! Kirvhejen
++Pl+Dial/-Por:he%>j       shortparpla    ; ! Kirvhejä
+!      +Pl+Gen:hee%>i2     tt_longgenpl   ; ! Can this be commented out? yes, is in common
  +Pl+Com:hee%>i2%>ne K              ;
 
 LEXICON 33_t_ts_common
