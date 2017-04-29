@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hopia - ok : # Noun 'borg' -
+     hoppee+Dial/Var+N+Sg+Nom: hopia
+     hoppee+Dial/Var+N+Sg+Gen: hopian
+     hoppee+Dial/Var+N+Sg+Par: hopiaa
+     hoppee+Dial/Var+N+Sg+Tra: hopiaksi
+     hoppee+Dial/Var+N+Sg+Abe: hopiatta
+     hoppee+Dial/Var+N+Sg+Ine: hopiassa
+     hoppee+Dial/Var+N+Sg+Ela: hopiasta
+     hoppee+Dial/Var+N+Sg+Ill: hopihaan
+     hoppee+Dial/Var+N+Sg+Ade: hopiala
+     hoppee+Dial/Var+N+Sg+Abl: hopialta
+     hoppee+Dial/Var+N+Sg+All: hopiale
+     hoppee+Dial/Var+N+Sg+Ess: hopiana
+     hoppee+Dial/Var+N+Pl+Nom: hopiat
+     hoppee+Dial/Var+N+Pl+Gen: hopeitten
+     hoppee+Dial/Var+N+Pl+Par: hopeita
+     hoppee+Dial/Var+N+Pl+Tra: hopeiksi
+     hoppee+Dial/Var+N+Pl+Abe: hopeitta
+     hoppee+Dial/Var+N+Pl+Ine: hopeissa
+     hoppee+Dial/Var+N+Pl+Ela: hopeista
+     hoppee+Dial/Var+N+Pl+Ill: hopeissiin
+     hoppee+Dial/Var+N+Pl+Ade: hopeila
+     hoppee+Dial/Var+N+Pl+Abl: hopeilta
+     hoppee+Dial/Var+N+Pl+All: hopeile
+     hoppee+Dial/Var+N+Pl+Ess: hopeina
+     hoppee+Dial/Var+N+Pl+Com: hopeine
