@@ -14,29 +14,29 @@ Tests:
 # Then: run analyser, then correct.
 
 
-  Noun - opettaja - ei tsekattu : # Noun 'borg' - ei tsekattu
-     opettaja+N+Sg+Nom: opettaja # kaksi vai yksi a? 
-     opettaja+N+Sg+Gen: opettajan
-     opettaja+N+Sg+Par: opettajaa
-     opettaja+N+Sg+Tra: opettajaksi
-     opettaja+N+Sg+Abe: opettajatta
-     opettaja+N+Sg+Ine: opettajassa
-     opettaja+N+Sg+Ela: opettajasta
-     opettaja+N+Sg+Ill: opettajhaan
-     opettaja+N+Sg+Ade: opettajala
-     opettaja+N+Sg+Abl: opettajalta
-     opettaja+N+Sg+All: opettajale
-     opettaja+N+Sg+Ess: opettajana
-     opettaja+N+Pl+Nom: opettajat
-     opettaja+N+Pl+Gen: opettajitten
-     opettaja+N+Pl+Par: opettajia
-     opettaja+N+Pl+Tra: opettajiksi
-     opettaja+N+Pl+Abe: opettajitta
-     opettaja+N+Pl+Ine: opettajissa
-     opettaja+N+Pl+Ela: opettajista
-     opettaja+N+Pl+Ill: opettajhiin
-     opettaja+N+Pl+Ade: opettajila
-     opettaja+N+Pl+Abl: opettajilta
-     opettaja+N+Pl+All: opettajile
-     opettaja+N+Pl+Ess: opettajina
-     opettaja+N+Pl+Com: opettajine
+  Noun - opettaaja - ei tsekattu : # Noun 'borg' - ei tsekattu
+     opettaaja+N+Sg+Nom: opettaja # kaksi vai yksi a?
+     opettaaja+N+Sg+Gen: opettajan
+     opettaaja+N+Sg+Par: opettajaa
+     opettaaja+N+Sg+Tra: opettajaksi
+     opettaaja+N+Sg+Abe: opettajatta
+     opettaaja+N+Sg+Ine: opettajassa
+     opettaaja+N+Sg+Ela: opettajasta
+     opettaaja+N+Sg+Ill: opettajhaan
+     opettaaja+N+Sg+Ade: opettajala
+     opettaaja+N+Sg+Abl: opettajalta
+     opettaaja+N+Sg+All: opettajale
+     opettaaja+N+Sg+Ess: opettajana
+     opettaaja+N+Pl+Nom: opettajat
+     opettaaja+N+Pl+Gen: opettajitten
+     opettaaja+N+Pl+Par: opettajia
+     opettaaja+N+Pl+Tra: opettajiksi
+     opettaaja+N+Pl+Abe: opettajitta
+     opettaaja+N+Pl+Ine: opettajissa
+     opettaaja+N+Pl+Ela: opettajista
+     opettaaja+N+Pl+Ill: opettajhiin
+     opettaaja+N+Pl+Ade: opettajila
+     opettaaja+N+Pl+Abl: opettajilta
+     opettaaja+N+Pl+All: opettajile
+     opettaaja+N+Pl+Ess: opettajina
+     opettaaja+N+Pl+Com: opettajine
