@@ -2862,7 +2862,8 @@ oornaaminen:oornaami n_42 ;
 oorninki n_22oddi ;
 opas:opp n_33as ;
 opastus:opastu n_41 ;
-opettaaja n_22 ;
+opettaaja+Dial/Por:opettaaja n_22 ;
+opettaaja+Dial/-Por:opettaja n_22 ; ! Ainakin Var dialektissä
 opetus:opet2u n_41 ;
 opetuslapsi:opetus#la n_31lapsi ;
 opetustiima:opetus#tiima n_21 ;
