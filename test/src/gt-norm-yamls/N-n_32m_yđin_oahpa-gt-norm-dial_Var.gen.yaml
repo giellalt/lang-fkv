@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - yđin - ok : # Noun 'kernel'  n_32m
+     yđin+Dial/Var+N+Sg+Nom: yin
+     yđin+Dial/Var+N+Sg+Gen: ytimen
+     yđin+Dial/Var+N+Sg+Par: yintä
+     yđin+Dial/Var+N+Sg+Tra: ytimeksi
+     yđin+Dial/Var+N+Sg+Abe: ytimettä
+     yđin+Dial/Var+N+Sg+Ine: ytimessä
+     yđin+Dial/Var+N+Sg+Ela: ytimestä
+     yđin+Dial/Var+N+Sg+Ill: ytimheen
+     yđin+Dial/Var+N+Sg+Ade: ytimellä
+     yđin+Dial/Var+N+Sg+Abl: ytimeltä
+     yđin+Dial/Var+N+Sg+All: ytimelle
+     yđin+Dial/Var+N+Sg+Ess: ytimennä
+     yđin+Dial/Var+N+Pl+Nom: ytimet
+     yđin+Dial/Var+N+Pl+Gen: ytimitten
+     yđin+Dial/Var+N+Pl+Par: ytimiä
+     yđin+Dial/Var+N+Pl+Tra: ytimiksi
+     yđin+Dial/Var+N+Pl+Abe: ytimittä
+     yđin+Dial/Var+N+Pl+Ine: ytimissä
+     yđin+Dial/Var+N+Pl+Ela: ytimistä
+     yđin+Dial/Var+N+Pl+Ill: ytimhiin
+     yđin+Dial/Var+N+Pl+Ade: ytimillä
+     yđin+Dial/Var+N+Pl+Abl: ytimiltä
+     yđin+Dial/Var+N+Pl+All: ytimille
+     yđin+Dial/Var+N+Pl+Com: ytimine
+     yđin+Dial/Var+N+Pl+Ess: ytiminnä
