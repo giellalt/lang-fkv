@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kauhia - ok : # Noun 'borg' - ok
+     kauhee+Dial/Var+N+Sg+Nom: kauhia
+     kauhee+Dial/Var+N+Sg+Gen: kauhian
+     kauhee+Dial/Var+N+Sg+Par: kauhiaa
+     kauhee+Dial/Var+N+Sg+Tra: kauhiaksi
+     kauhee+Dial/Var+N+Sg+Abe: kauhiatta
+     kauhee+Dial/Var+N+Sg+Ine: kauhiassa
+     kauhee+Dial/Var+N+Sg+Ela: kauhiasta
+     kauhee+Dial/Var+N+Sg+Ill: kauhihaan
+     kauhee+Dial/Var+N+Sg+Ade: kauhiala
+     kauhee+Dial/Var+N+Sg+Abl: kauhialta
+     kauhee+Dial/Var+N+Sg+All: kauhiale
+     kauhee+Dial/Var+N+Sg+Ess: kauhiana
+     kauhee+Dial/Var+N+Pl+Nom: kauhiat
+     kauhee+Dial/Var+N+Pl+Gen: kauheitten
+     kauhee+Dial/Var+N+Pl+Par: kauheita
+     kauhee+Dial/Var+N+Pl+Tra: kauheiksi
+     kauhee+Dial/Var+N+Pl+Abe: kauheitta
+     kauhee+Dial/Var+N+Pl+Ine: kauheissa
+     kauhee+Dial/Var+N+Pl+Ela: kauheista
+     kauhee+Dial/Var+N+Pl+Ill: kauheissiin
+     kauhee+Dial/Var+N+Pl+Ade: kauheila
+     kauhee+Dial/Var+N+Pl+Abl: kauheilta
+     kauhee+Dial/Var+N+Pl+All: kauheile
+     kauhee+Dial/Var+N+Pl+Ess: kauheina
+     kauhee+Dial/Var+N+Pl+Com: kauheine
