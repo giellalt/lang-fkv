@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ruvis - ei tsekattu : # Noun 'rug' n_33is ruk - ei tsekattu
+     ruvis+Dial/Var+N+Sg+Nom: ruis # myös ruvis?
+     ruvis+Dial/Var+N+Sg+Gen: rukhiin
+     ruvis+Dial/Var+N+Sg+Par: ruista # myös ruvista?
+     ruvis+Dial/Var+N+Sg+Tra: rukhiiksi
+     ruvis+Dial/Var+N+Sg+Abe: rukhiitta
+     ruvis+Dial/Var+N+Sg+Ine: rukhiissa
+     ruvis+Dial/Var+N+Sg+Ela: rukhiista
+     ruvis+Dial/Var+N+Sg+Ill: rukhiisseen
+     ruvis+Dial/Var+N+Sg+Ade: rukhiila
+     ruvis+Dial/Var+N+Sg+Abl: rukhiilta
+     ruvis+Dial/Var+N+Sg+All: rukhiile
+     ruvis+Dial/Var+N+Sg+Ess: rukhiina
+     ruvis+Dial/Var+N+Pl+Nom: rukhiit
+     ruvis+Dial/Var+N+Pl+Gen: [rukhiitten, rukhijen] #ruhkijen mahdollinen Var. varieteetissä.
+     ruvis+Dial/Var+N+Pl+Par: [rukhiita, rukhija] # ruhkija mahdollinen rinnakkainen variantti var varieteetissä. Ei ole muissa varieteeteissä.
+     ruvis+Dial/Var+N+Pl+Tra: rukhiiksi
+     ruvis+Dial/Var+N+Pl+Abe: rukhiitta
+     ruvis+Dial/Var+N+Pl+Ine: rukhiissa
+     ruvis+Dial/Var+N+Pl+Ela: rukhiista
+     ruvis+Dial/Var+N+Pl+Ill: rukhiissiin
+     ruvis+Dial/Var+N+Pl+Ade: rukhiila
+     ruvis+Dial/Var+N+Pl+Abl: rukhiilta
+     ruvis+Dial/Var+N+Pl+All: rukhiile
+     ruvis+Dial/Var+N+Pl+Ess: rukhiina
+     ruvis+Dial/Var+N+Pl+Com: rukhiine
