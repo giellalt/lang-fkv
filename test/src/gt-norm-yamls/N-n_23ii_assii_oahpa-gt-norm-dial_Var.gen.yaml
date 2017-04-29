@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - asia ok: # Noun 'sak'
+     assii+Dial/Var+N+Sg+Nom: asia
+     assii+Dial/Var+N+Sg+Gen: asian
+     assii+Dial/Var+N+Sg+Par: asiaa
+     assii+Dial/Var+N+Sg+Tra: asiaksi
+     assii+Dial/Var+N+Sg+Abe: asiatta
+     assii+Dial/Var+N+Sg+Ine: asiassa
+     assii+Dial/Var+N+Sg+Ela: asiasta
+     assii+Dial/Var+N+Sg+Ill: asihaan
+     assii+Dial/Var+N+Sg+Ade: asialla
+     assii+Dial/Var+N+Sg+Abl: asialta
+     assii+Dial/Var+N+Sg+All: asialle
+     assii+Dial/Var+N+Sg+Ess: asianna
+     assii+Dial/Var+N+Pl+Nom: asiat
+     assii+Dial/Var+N+Pl+Gen: asioitten
+     assii+Dial/Var+N+Pl+Par: asioita
+     assii+Dial/Var+N+Pl+Tra: asioiksi
+     assii+Dial/Var+N+Pl+Abe: asioitta
+     assii+Dial/Var+N+Pl+Ine: asioissa
+     assii+Dial/Var+N+Pl+Ela: asioista
+     assii+Dial/Var+N+Pl+Ill: asioihin # asihoin?
+     assii+Dial/Var+N+Pl+Ade: asioila
+     assii+Dial/Var+N+Pl+Abl: asioilta
+     assii+Dial/Var+N+Pl+All: asioile
+     assii+Dial/Var+N+Pl+Ess: asioina
+     assii+Dial/Var+N+Pl+Com: asioine
