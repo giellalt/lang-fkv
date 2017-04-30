@@ -599,8 +599,9 @@ LEXICON x_33is !!= @CODE@ ruvis
 
 LEXICON n_33t !!= @CODE@ venet, hyljet, huonet
                  +N:   x_33t ;
- +Dial/Por+N+Sg+Nom:et R     ;
-+Dial/-Por+N+Sg+Nom:e  R     ;
+! +Dial/Por+N+Sg+Nom:et R     ;   the nom cases are in tConsCase
+!+Dial/-Por+N+Sg+Nom:e  R     ;   the nom cases are in tConsCase
+! +Dial/Var+N+Sg+Nom:e  R     ;   the nom cases are in tConsCase
 
 LEXICON x_33t
              :e           tConsCase      ; ! nom, par
@@ -787,7 +788,8 @@ LEXICON sConsCaselyhyempi
 
 
 LEXICON tConsCase
- +Sg+Nom:^WG%>t    K ;
+ +Dial/Por+Sg+Nom:^WG%>t    K ;
++Dial/-Por+Sg+Nom:^WG       K ;
  +Sg+Par:^WG%>tt^A K ;
 
 
