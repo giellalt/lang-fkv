@@ -597,16 +597,18 @@ LEXICON x_33is !!= @CODE@ ruvis
 !LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 !  n_33t ;
 
-LEXICON n_33t !!= @CODE@ venet
-        +N:   x_33t ;
- +N+Sg+Nom:et R     ;
+LEXICON n_33t !!= @CODE@ venet, hyljet, huonet
+                 +N:   x_33t ;
+ +Dial/Por+N+Sg+Nom:et R     ;
++Dial/-Por+N+Sg+Nom:e  R     ;
 
 LEXICON x_33t
-        :e           tConsCase      ; ! nom, par
-        :hee         33_t_ts_common ;
- +Sg+Ill:hee         mTAVU_VV-ill   ;
-!     +Pl:he%>je      shortestgenpl  ; venhejen
- +Pl+Com:hee%>i2%>ne K              ;
+             :e           tConsCase      ; ! nom, par
+             :hee         33_t_ts_common ;
+      +Sg+Ill:hee         mTAVU_VV-ill   ;
++Pl+Dial/-Por:he%>je      shortestgenpl  ; ! venhejen
++Pl+Dial/-Por:he%>j       shortparpla    ; ! venhejä
+      +Pl+Com:hee%>i2%>ne K              ;
 
 LEXICON n_33ts !!= @CODE@ kirves
         +N:   x_33ts ;
@@ -713,19 +715,19 @@ LEXICON n_42odd !!= @CODE@ ihminen
  +N+Sg+Nom:s R       ; ! ihmiskala
 
 LEXICON x_42odd
-        +Sg+Nom:nen       K              ;
-               :se        ess_odd        ;
-               :se        weak_v_stem    ;
-            +Sg:s         longparpl      ;
-               :se        2TAVU_V_ill_sg ;
-            +Sg:se        sgpl_cases_odd ; !! these two lexica for cases with
-            +Pl:s%>i2     sgpl_cases_odd ; !! the same affix in sg and pl
-            +Pl:s         consgenpl      ;
- +Dial/Por+N+Pl:ss%>i2i   shortestparpl  ; ! ihmissii
- +Dial/Por+N+Pl:ss%>i2i   longparpl      ; ! ihmissiitä
-+Dial/-Por+N+Pl:s%>i2     shortparpla    ; ! ihmisiä
-            +Pl:sh%>i2    shorterillpl   ;
-        +Pl+Com:s%>i2%>ne K              ;
+      +Sg+Nom:nen       K              ;
+             :se        ess_odd        ;
+             :se        weak_v_stem    ;
+          +Sg:s         longparpl      ;
+             :se        2TAVU_V_ill_sg ;
+          +Sg:se        sgpl_cases_odd ; !! these two lexica for cases with
+          +Pl:s%>i2     sgpl_cases_odd ; !! the same affix in sg and pl
+          +Pl:s         consgenpl      ;
+ +Dial/Por+Pl:ss%>i2i   shortestparpl  ; ! ihmissii
+ +Dial/Por+Pl:ss%>i2i   longparpl      ; ! ihmissiitä
+ +Dial/Var+Pl:s%>i2     shortparpla    ; ! ihmisiä
+          +Pl:sh%>i2    shorterillpl   ;
+      +Pl+Com:s%>i2%>ne K              ;
 
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
       +N+Pl+Nom:%>set      K              ;
