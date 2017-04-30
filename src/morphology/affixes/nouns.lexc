@@ -103,7 +103,7 @@ LEXICON n_21        !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo, kuv
         +N: x_21 ;
  +N+Sg+Nom: R    ;
 
-LEXICON x_21
+LEXICON x_21 ! "poika:poi6ka", lyhyt vokali, yks vartalo, kuva, linna, pappi
   nom_strong   ;
   x_21_oblique ;
 
@@ -115,10 +115,10 @@ LEXICON x_21_oblique
         +Sg:^WG                sgpl_cases_even ; !to sgpl_cases_even for cases with
         +Pl:^AO^WG%>i2         sgpl_cases_even ; !the same affix in sg and pl
                                2TAVU_V_ill_sg  ;
- +Pl+Dial/Por:^AO%>i2            shortestgenpl   ; ! shortestgenpl since we have the i
-+Pl+Dial/-Por:^AO^WG%>i2         tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
- +Pl+Dial/Por:^AO%>i2            shortestparpl   ;
-+Pl+Dial/-Por:^AO^WG%>i2         shortparpla   ;
+ +Pl+Dial/Por:^AO%>i2          shortestgenpl   ; ! shortestgenpl since we have the i
++Pl+Dial/-Por:^AO^WG%>i2       tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
+ +Pl+Dial/Por:^AO%>i2          shortestparpl   ;
++Pl+Dial/-Por:^AO^WG%>j        shortparpla   ;
 
     +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
     +Pl+Com:^AO%>i2%>ne        K               ;
@@ -713,28 +713,30 @@ LEXICON n_42odd !!= @CODE@ ihminen
  +N+Sg+Nom:s R       ; ! ihmiskala
 
 LEXICON x_42odd
- +Sg+Nom:nen       K              ;
-        :se        ess_odd        ;
-        :se        weak_v_stem    ;
-     +Sg:s         longparpl      ;
-        :se        2TAVU_V_ill_sg ;
-     +Sg:se        sgpl_cases_odd ; !! these two lexica for cases with
-     +Pl:s%>i2     sgpl_cases_odd ; !! the same affix in sg and pl
-     +Pl:s         consgenpl      ;
-     +Pl:ss%>i2i   shortestparpl  ;
-     +Pl:ss%>i2i   longparpl      ; ! ihmissiitä
-     +Pl:sh%>i2    shorterillpl   ;
- +Pl+Com:s%>i2%>ne K              ;
+        +Sg+Nom:nen       K              ;
+               :se        ess_odd        ;
+               :se        weak_v_stem    ;
+            +Sg:s         longparpl      ;
+               :se        2TAVU_V_ill_sg ;
+            +Sg:se        sgpl_cases_odd ; !! these two lexica for cases with
+            +Pl:s%>i2     sgpl_cases_odd ; !! the same affix in sg and pl
+            +Pl:s         consgenpl      ;
+ +Dial/Por+N+Pl:ss%>i2i   shortestparpl  ; ! ihmissii
+ +Dial/Por+N+Pl:ss%>i2i   longparpl      ; ! ihmissiitä
++Dial/-Por+N+Pl:s%>i2     shortparpla    ; ! ihmisiä
+            +Pl:sh%>i2    shorterillpl   ;
+        +Pl+Com:s%>i2%>ne K              ;
 
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
- +N+Pl+Nom:%>set      K              ;
-     +N+Pl:s%>i2      sgpl_cases_odd ; !! the same affix in sg and pl
-     +N+Pl:s          consgenpl      ;
-     +N+Pl:ss%>i2     shortparpl     ; ! tervhehissii
-     +N+Pl:ss%>i2i    longparpl      ; ! tervhehissiitä
- +N+Pl+Ill:sh%>i2in   K              ;
-        +N:se         ess_odd_pl     ;
- +N+Pl+Com:s%>i2%>nne K              ;
+      +N+Pl+Nom:%>set      K              ;
+          +N+Pl:s%>i2      sgpl_cases_odd ; !! the same affix in sg and pl
+          +N+Pl:s          consgenpl      ;
+ +Dial/Por+N+Pl:ss%>i2     shortparpl     ; ! tervhehissii
+ +Dial/Por+N+Pl:ss%>i2i    longparpl      ; ! tervhehissiitä
++Dial/-Por+N+Pl:s%>i2      shortparpla    ; ! tervhehisiä
+      +N+Pl+Ill:sh%>i2in   K              ;
+             +N:se         ess_odd_pl     ;
+      +N+Pl+Com:s%>i2%>nne K              ;
 
 !LEXICON nen  !!= @CODE@ on nainen-sanoille
 !  nen_sg ;
