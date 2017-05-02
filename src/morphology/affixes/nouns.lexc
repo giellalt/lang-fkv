@@ -69,7 +69,7 @@ LEXICON x_1
                    weak_v_stem     ;
       +Sg:         sgpl_cases_even ; !! these two lexica for cases with
       +Pl:%>i2     sgpl_cases_even ; !! the same affix in sg and pl
-  +Pl+Com:%>i2%>ne K               ;
+      +Pl:%>i2     com               ;
                    1TAVU_VV-ill    ;
       +Pl:%>i2     tt_longgenpl    ; ! teitten
       +Pl:%>i2     longparpl       ;
@@ -84,7 +84,7 @@ LEXICON n_1pl !!= * @CODE@ = häät
         +N:          long_par        ;
         +N:          weak_v_stem     ;
      +N+Pl:%>i2      sgpl_cases_even ; !! the same affix in sg and pl
- +N+Pl+Com:%>i2%>ne  K               ;
+     +N+Pl:%>i2      com               ;
 
         +N:          1TAVU_VV-ill    ;
      +N+Pl:%>i2      tt_longgenpl    ;
@@ -121,7 +121,7 @@ LEXICON x_21_oblique
 +Pl+Dial/-Por:^AO^WG%>j      shortparpla     ;
 
     +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
-    +Pl+Com:^AO%>i2%>ne        K               ;
+        +Pl:^AO%>i2            com             ;
 
 
 LEXICON n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo, kasvot
@@ -138,7 +138,7 @@ LEXICON x_21pl        !!= * @CODE@
 +Pl+Dial/-Por:%>j                shortparpla     ; ! kasvoja
 
       +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
-      +Pl+Com:%>i2%>ne           K               ;
+          +Pl:%>i2               com             ;
 
 
 ! LEXICON kk-longgenpl
@@ -176,8 +176,8 @@ LEXICON x_22
                        strong_v_stem_even ;
           :^WG         weak_v_stem        ;
        +Sg:^WG         sgpl_cases_even    ; ! the same affix in sg and pl
- +Pl+Dial/Por:^WG%>i2     sgpl_cases_even    ; ! Adding  to block i:0
-+Pl+Dial/-Por:^WG%>       sgpl_cases_even    ; ! Adding  to block i:0
+ +Pl+Dial/Por:^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
++Pl+Dial/-Por:^WG%>    sgpl_cases_even    ; ! Adding  to block i:0
                        2TAVU_V_ill_sg     ;
    +Pl+Ill:^HMETA%>hii n_PxK              ;
 !   +Pl:^WG%>i2       tt_longgenpl       ;
@@ -185,22 +185,21 @@ LEXICON x_22
 !   +Pl:%>i2          shortestparpl      ; !liberaali, dialissa on liberaalia?
 !   +Pl:%>i2          ess                ;
 !   +Pl:%>i2          com                ;
-                       x_22_pl_por        ;
-                       x_22_pl_var        ;
+        +Pl:           x_22_pl_por        ;
+        +Pl:           x_22_pl_var        ;
 
  LEXICON x_22_pl_por
- +Pl+Dial/Por:^WG%>i2     tt_longgenpl       ;
- +Pl+Dial/Por:%>i2        longparpl          ;
- +Pl+Dial/Por:%>i2        shortestparpl      ; 
- +Pl+Dial/Por:%>i2        ess                ;
- +Pl+Dial/Por:%>i2        com                ;
+  +Dial/Por:^WG%>i2     tt_longgenpl       ;
+  +Dial/Por:%>i2        longparpl          ;
+  +Dial/Por:%>i2        shortestparpl      ;
+  +Dial/Por:%>i2        ess                ;
+  +Dial/Por:%>i2        com                ;
 
  LEXICON x_22_pl_var
- +Pl+Dial/-Por:^WG%>       tt_longgenpl       ;
- +Pl+Dial/-Por:%>          longparpl          ;
- +Pl+Dial/-Por:%>          shortestparpl      ;
- +Pl+Dial/-Por:%>          ess                ;
- +Pl+Dial/-Por:%>          com                ;
+ +Dial/-Por:^WG%>       tt_longgenpl       ;
+ +Dial/-Por:%>          shortparpla        ;
+ +Dial/-Por:%>          ess                ;
+ +Dial/-Por:%>          com                ;
 
 ! +Pl:%>i2        shortestgenpl      ; opettaajiin
 ! +Sg+Ess:%>n^A PxxK ; Lene removed this one
@@ -224,7 +223,7 @@ LEXICON x_22odd !!= * @CODE@  kajava
  +Pl+Dial/Por:%>i2%>i      shortestparpl  ; ! %> i necessary, otherwise a:o NOTwork, kajavii
 +Pl+Dial/-Por:%>i2%>       shortparpla    ; ! kajavia
       +Pl+Ill:%^HMETA%>hii n_PxK          ;
-      +Pl+Com:%>i2%>ne     K              ;
+          +Pl:%>i2%>ne     K              ;
 !                      ess_odd_sg     ;
 !                      ess_odd_pl     ;
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
@@ -255,13 +254,13 @@ LEXICON x_22oddi !!= * @CODE@  meininki, tunturi
 
 +Pl+Dial/Por:^WG%>i2  tt_longgenpl    ;
 +Pl+Dial/Por:%>i2     longparpl       ;
-  +Pl+Ill:^HMETA%>hii n_PxK           ;
-+Pl+Dial/Por+Com:ine  K               ;
+     +Pl+Ill:^HMETA%>hii n_PxK           ;
++Pl+Dial/Por:i2       com             ;
 
 +Pl+Dial/-Por:%>n    ess              ;
 +Pl+Dial/-Por:^WG%>  tt_longgenpl     ;
 +Pl+Dial/-Por:%>     shortparpla      ;
-+Pl+Dial/-Por+Com:ne K                ;
++Pl+Dial/-Por:i2     com              ;
 
 
 !  Tarkista, onko yaml oikein:
@@ -640,7 +639,7 @@ LEXICON x_33ts !!= @CODE@ kirves
       +Sg+Ill:hee         mTAVU_VV-ill   ;
 +Pl+Dial/-Por:he%>je      shortestgenpl  ; ! Kirvhejen
 +Pl+Dial/-Por:he%>j       shortparpla    ; ! Kirvhejä
-!      +Pl+Gen:hee%>i2     tt_longgenpl   ; ! Can this be commented out? yes, is in common
+!      +Pl+Gen:hee%>i2     tt_longgenpl   ; ! Can this be commented out? yes, is in the common
  +Pl+Com:hee%>i2%>ne K              ;
 
 LEXICON 33_t_ts_common
