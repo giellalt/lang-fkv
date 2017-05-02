@@ -118,7 +118,7 @@ LEXICON x_21_oblique
  +Pl+Dial/Por:^AO%>i2          shortestgenpl   ; ! shortestgenpl since we have the i
 +Pl+Dial/-Por:^AO^WG%>i2       tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
  +Pl+Dial/Por:^AO%>i2          shortestparpl   ;
-+Pl+Dial/-Por:^AO^WG%>j        shortparpla   ;
++Pl+Dial/-Por:^AO^WG%>j      shortparpla     ;
 
     +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
     +Pl+Com:^AO%>i2%>ne        K               ;
@@ -164,7 +164,7 @@ LEXICON x_21ie
  +Pl+Dial/Por:%>i2     shortparpl      ; ! hyksii
 +Pl+Dial/-Por:%>i2     shortparpla     ; ! hyksiä
                        2TAVU_edel-ill  ;
-      +Pl+Com:%>i2%>ne K               ;
+          +Pl:%>i2     com             ;
 
 
 LEXICON n_22        !!= * @CODE@  opettaaja, karamelli
@@ -176,17 +176,35 @@ LEXICON x_22
                        strong_v_stem_even ;
           :^WG         weak_v_stem        ;
        +Sg:^WG         sgpl_cases_even    ; ! the same affix in sg and pl
-       +Pl:^WG%>i2     sgpl_cases_even    ; ! Adding  to block i:0
+ +Pl+Dial/Por:^WG%>i2     sgpl_cases_even    ; ! Adding  to block i:0
++Pl+Dial/-Por:^WG%>       sgpl_cases_even    ; ! Adding  to block i:0
                        2TAVU_V_ill_sg     ;
-   +Pl+Ess:%>i2%>n^A   PxxK               ;
-!       +Pl:%>i2        shortestgenpl      ; opettaajiin
-       +Pl:^WG%>i2     tt_longgenpl       ;
-       +Pl:%>i2        longparpl          ;
-       +Pl:%>i2        shortestparpl      ; !liberaali, dialissa on liberaalia?
    +Pl+Ill:^HMETA%>hii n_PxK              ;
-   +Pl+Com:%>i2%>ne    K                  ;
-!+Sg+Ess:%>n^A PxxK ; Lene removed this one
-!+Pl+Tra:%>i2ksi K ; Lene removed this one
+!   +Pl:^WG%>i2       tt_longgenpl       ;
+!   +Pl:%>i2          longparpl          ;
+!   +Pl:%>i2          shortestparpl      ; !liberaali, dialissa on liberaalia?
+!   +Pl:%>i2          ess                ;
+!   +Pl:%>i2          com                ;
+                       x_22_pl_por        ;
+                       x_22_pl_var        ;
+
+ LEXICON x_22_pl_por
+ +Pl+Dial/Por:^WG%>i2     tt_longgenpl       ;
+ +Pl+Dial/Por:%>i2        longparpl          ;
+ +Pl+Dial/Por:%>i2        shortestparpl      ; 
+ +Pl+Dial/Por:%>i2        ess                ;
+ +Pl+Dial/Por:%>i2        com                ;
+
+ LEXICON x_22_pl_var
+ +Pl+Dial/-Por:^WG%>       tt_longgenpl       ;
+ +Pl+Dial/-Por:%>          longparpl          ;
+ +Pl+Dial/-Por:%>          shortestparpl      ;
+ +Pl+Dial/-Por:%>          ess                ;
+ +Pl+Dial/-Por:%>          com                ;
+
+! +Pl:%>i2        shortestgenpl      ; opettaajiin
+! +Sg+Ess:%>n^A PxxK ; Lene removed this one
+! +Pl+Tra:%>i2ksi K ; Lene removed this one
 ! !+Pl+Tra:%>i2kse     PxxK               ;
 
 LEXICON n_22odd !!= * @CODE@  kajava
@@ -902,7 +920,8 @@ LEXICON com      ! Komitatiivilla on vain -ine ja menee Pxx:iin
 
 
 LEXICON short_par
-          +Sg+Par:%>^V PxxK ;
+ +Dial/Por+Sg+Par:%>^V PxxK ;
++Dial/-Por+Sg+Par:%>^A PxxK ;
  +Sg+Par+Err/Orth:%>^A PxxK ;
 
  LEXICON short_par_a
