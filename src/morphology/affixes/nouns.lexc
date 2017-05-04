@@ -199,7 +199,7 @@ LEXICON x_22
  +Dial/-Por:^WG%>       tt_longgenpl       ;
  +Dial/-Por:%>          shortparpla        ;
  +Dial/-Por:%>          ess                ;
- +Dial/-Por:%>          com                ;
+! +Dial/-Por:%>          com                ;
 
 ! +Pl:%>i2        shortestgenpl      ; opettaajiin
 ! +Sg+Ess:%>n^A PxxK ; Lene removed this one
@@ -223,7 +223,7 @@ LEXICON x_22odd !!= * @CODE@  kajava
  +Pl+Dial/Por:%>i2%>i      shortestparpl  ; ! %> i necessary, otherwise a:o NOTwork, kajavii
 +Pl+Dial/-Por:%>i2%>       shortparpla    ; ! kajavia
       +Pl+Ill:%^HMETA%>hii n_PxK          ;
-          +Pl:%>i2%>ne     K              ;
+          +Pl:%>i2         com            ; ! kajavine
 !                      ess_odd_sg     ;
 !                      ess_odd_pl     ;
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
@@ -252,15 +252,16 @@ LEXICON x_22oddi !!= * @CODE@  meininki, tunturi
                       ess_odd_sg      ;
 +Pl+Dial/Por:i        ess             ;
 
-+Pl+Dial/Por:^WG%>i2  tt_longgenpl    ;
-+Pl+Dial/Por:%>i2     longparpl       ;
-     +Pl+Ill:^HMETA%>hii n_PxK           ;
-+Pl+Dial/Por:i2       com             ;
+ +Pl+Dial/Por:^WG%>i2  tt_longgenpl    ;
+ +Pl+Dial/Por:%>i2     longparpl       ;
+      +Pl+Ill:^HMETA%>hii n_PxK        ;
+ +Pl+Dial/Por:i2       com             ;
 
-+Pl+Dial/-Por:%>n    ess              ;
-+Pl+Dial/-Por:^WG%>  tt_longgenpl     ;
-+Pl+Dial/-Por:%>     shortparpla      ;
-+Pl+Dial/-Por:i2     com              ;
++Pl+Dial/-Por:%>n     ess             ;
++Pl+Dial/-Por:^WG%>   tt_longgenpl    ;
++Pl+Dial/-Por:%>      shortparpla     ;
++Pl+Dial/-Por:        com             ;
+!+Pl+Dial/Var:         com             ;
 
 
 !  Tarkista, onko yaml oikein:
@@ -910,7 +911,7 @@ LEXICON ess
                     ! Mutta Eira s. 38 kaupunkinna, tyttärennä
 
 LEXICON com      ! Komitatiivilla on vain -ine ja menee Pxx:iin
- +Com:%>ne Pxx ; ! Not to K, since Px must be present
+ +Com:%>ne PxxK ; ! Not to K, since Px must be present
                  ! Note that adjectives have -ine without Px
 
 
