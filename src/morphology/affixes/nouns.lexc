@@ -173,7 +173,8 @@ LEXICON n_22        !!= * @CODE@  opettaaja, karamelli
 
 LEXICON x_22
                        nom_strong         ;
-                       strong_v_stem_even ;
+                       short_par          ; ! karamellia
+                       ess_even_sg        ; ! karamellina
           :^WG         weak_v_stem        ;
        +Sg:^WG         sgpl_cases_even    ; ! the same affix in sg and pl
  +Pl+Dial/Por:^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
@@ -198,11 +199,10 @@ LEXICON x_22
  LEXICON x_22_pl_var
  +Dial/-Por:^WG%>       tt_longgenpl       ;
  +Dial/-Por:%>          shortparpla        ;
- +Dial/-Por:%>          ess                ;
-! +Dial/-Por:%>          com                ;
+ +Dial/-Por:%>          ess                ; ! karamelline
+ +Dial/-Por:%>          com                ; ! karamellina
 
 ! +Pl:%>i2        shortestgenpl      ; opettaajiin
-! +Sg+Ess:%>n^A PxxK ; Lene removed this one
 ! +Pl+Tra:%>i2ksi K ; Lene removed this one
 ! !+Pl+Tra:%>i2kse     PxxK               ;
 
