@@ -118,7 +118,8 @@ LEXICON x_21_oblique
  +Pl+Dial/Por:^AO%>i2          shortestgenpl   ; ! shortestgenpl since we have the i
 +Pl+Dial/-Por:^AO^WG%>i2       tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
  +Pl+Dial/Por:^AO%>i2          shortestparpl   ;
-+Pl+Dial/-Por:^AO^WG%>j      shortparpla     ;
++Pl+Dial/-Por:^AO%>j           shortparpla     ; ! remove one
++Pl+Dial/-Por:^AO%>i2          shortparpla     ; ! remove one
 
     +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
         +Pl:^AO%>i2            com             ;
@@ -147,14 +148,14 @@ LEXICON x_21pl        !!= * @CODE@
 !LEXICON kk-longgparpl
 ! +Par:%>kk%>i2 # ; ! kk ?? Tsekkaa..
 
-LEXICON n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi
+LEXICON n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi, suomi
         +N:     x_21ie ;
  +N+Sg+Nom:^E2I R      ; ! ^EI e to i
 
 LEXICON x_21ie
       +Sg+Nom:^E2I     K               ; ! ^EI e to i
     +Dial/Por:         short_par       ; ! suomee
-   +Dial/-Por:         short_par_a     ; ! suomea
+   +Dial/-Por:^E2I     short_par_a     ; ! suomea
                        obl_strong_even ;
              :^WG      weak_v_stem     ;
           +Sg:^WG      sgpl_cases_even ; !! these two lexica for cases with
@@ -389,7 +390,7 @@ LEXICON x_31si
              :         ess_even_pl     ;
  +Pl+Dial/Por:%>i2     shortgenpl      ; ! vuossiin, ei vuottiin, hirssiin
 +Pl+Dial/-Por:%>i2     tt_longgenpl    ; !hirssitten, vuossitten
- +Pl+Dial/Por:%>i2     shortparpl      ; ! hirssii   ^E2I to get t:s
+ +Pl+Dial/Por:%>i2     shortparpl      ; ! hirssii
 +Pl+Dial/-Por:%>i2%>   shortparpla     ; ! hirsiä
        +Pl:^HMETA%>hii shortestillpl   ;
       +Pl+Com:%>i2%>ne K               ;
