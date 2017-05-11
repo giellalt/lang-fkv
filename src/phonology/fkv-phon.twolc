@@ -227,7 +227,7 @@ Rules
 
 "Gemination Vo"
 !! __@RULENAME@__
-0:Cx <=> [.#.|Cns] Vowel Cx _ :o %> [:o|i2: e] ;
+0:Cx <=> [.#.|Cns] Vowel Cx _ :o [ %> :o  |  (%^AO:0) %> i2: ] ;
        where Cx in ( h j l m n r v ) ;
 
 !!€ kir0o>^V>t
@@ -861,7 +861,7 @@ a:0 <=>  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* (:Cns) _
 !! __@RULENAME@__
 a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)  %> [i2:|i3:|j] ; ! 2 syll, lisäsin ton j sinne. jos tulee enkä voi tehdä koko make checkiä. Toi auttoi linna pl parille, mutta en tiedä että realisoituuko nyt muissakin random paikoissa
                                      (:Cns)  [:k|:l] (:i) :i :j _ %^AO: (Dummy:*) %>  i2:  ; ! kulkkiija kulkiijoissa
-(Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2: ; ! sivakka sivakoissa
+(Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2:  ; ! sivakka sivakoissa
 
 
 !a:o <=>  [#:|.#.]                        (Cns:*)   [a|e|i] ([o|u])  Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %> [i2: | i3: ] (%>) ;
