@@ -19,6 +19,40 @@ LEXICON HYVA
 +A+Sg+Superl+Nom:paras K ;
 ! the rest of paras to be written.
 
+LEXICON VANH
+
++A+Sg+Nom:a K ;
+ +A: x_1pl ; ! ai to oi doesn't work yet
+! yksiköt ovat nämä, x_1 -sestä otettu:
+!      +A+Sg+Nom:a              K               ;
+!          +A+Sg:               sgpl_cases_even ; !! these two lexica for cases with
+ !!                             long_par        ;
+  !                             ess_even_sg     ;
+! monikot ovat nämä, x_21 -sestä otettu:
+!             +A:^AO              ess_even_pl     ;
+!             +A:^WG              weak_v_stem_pl  ;
+!          +A+Pl:^AO^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
+!                                 2TAVU_V_ill_sg  ;
+! +A+Pl+Dial/Por:^AO%>i2          shortestgenpl   ; ! shortestgenpl since we have the i
+!+A+Pl+Dial/-Por:^AO^WG%>i2       tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322
+! +A+Pl+Dial/Por:^AO%>i2          shortestparpl   ;
+!+A+Pl+Dial/-Por:^AO%>j           shortparpla     ; ! remove one
+!+A+Pl+Dial/-Por:^AO%>i2          shortparpla     ; ! remove one
+!      +A+Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ; ! clean this mess
+!          +A+Pl:^AO%>i2          com             ;
+!
+!               :                 comp_m_odd         ; ! vanhemat, vanheman
+!               :%>i5i            superl_m_odd    ; ! vanhiin, vanhiimet
+            ! the rest of paras to be written.
+
+
+
+
+! +Sg+Nom:         Px              ; ! mattoni
+! +Sg+Gen:         Px              ; ! mattoni
+! +Pl+Nom:         Px              ; ! mattoni
+
+
 LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc. siisti
 +A: x_21 ;
 !+A: a_strong_v_stem ;
