@@ -66,33 +66,31 @@ LEXICON n_1 !!= * @CODE@ = maa, tie
 LEXICON x_1
   +Sg+Nom:         K               ;
                    long_par        ;
-                   weak_v_stem     ;
       +Sg:         sgpl_cases_even ; !! these two lexica for cases with
-      +Pl:%>i2     sgpl_cases_even ; !! the same affix in sg and pl
-      +Pl:%>i2     com               ;
-                   1TAVU_VV-ill    ;
-      +Pl:%>i2     tt_longgenpl    ; ! teitten
-      +Pl:%>i2     longparpl       ;
-      +Pl:%>i2     shortillpl      ;
+
+         :         x_1pl           ;
 ! +Sg+Nom:         Px              ; ! mattoni
 ! +Sg+Gen:         Px              ; ! mattoni
 ! +Pl+Nom:         Px              ; ! mattoni
-                   ess_even        ;
+                   ess_even_sg     ;
 
 LEXICON n_1pl !!= * @CODE@ = häät
+        +N: x_1 ;
 
-        +N:          long_par        ;
-        +N:          weak_v_stem     ;
-     +N+Pl:%>i2      sgpl_cases_even ; !! the same affix in sg and pl
-     +N+Pl:%>i2      com               ;
+LEXICON x_1pl !!= * @CODE@ = häät
 
-        +N:          1TAVU_VV-ill    ;
-     +N+Pl:%>i2      tt_longgenpl    ;
-+N+Pl+Dial/Por:%>i2%>ne shortestgenpl   ; ! häinen
+          :          long_par        ;
+          :          weak_v_stem     ;
+       +Pl:%>i2      sgpl_cases_even ; !! the same affix in sg and pl
+       +Pl:%>i2      com               ;
 
-     +N+Pl:%>i2      longparpl       ;
-     +N+Pl:%>i2      shortillpl      ;
- +N+Pl+Ess:%>i2%>n^A PxxK            ;
+          :          1TAVU_VV-ill    ;
+            +Pl:%>i2      tt_longgenpl    ;
+   +Pl+Dial/Por:%>i2%>ne shortestgenpl   ; ! häinen
+
+       +Pl:%>i2      longparpl       ;
+       +Pl:%>i2      shortillpl      ;
+                     ess_even_pl     ; ! %>i2%>n^A
 
 LEXICON n_21C !!= * @CODE@
  +N+Sg+Nom:  K    ; ! Hans
@@ -276,7 +274,7 @@ LEXICON x_22oddi !!= * @CODE@  meininki, tunturi
 LEXICON n_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö
  +N: x_22oi ;
 
-LEXICON x_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö
+LEXICON x_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö, kurkkio
                             nom_strong      ; ! sg nom
  +Dial/Por:                 short_par       ;
 +Dial/-Por:                 short_par_a     ;
@@ -288,20 +286,21 @@ LEXICON x_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö
      +Pl:^AO^WG%>i2         longparpl       ;
                             ess_odd_sg      ; ! paivukko/nna
         :^AO                ess_even_pl     ; ! paivuko/i/na
- +Pl+Com:^AO%>i2%>ne        K               ;
+     +Pl:^AO%>i2            ess             ;
+     +Pl:^AO%>i2            com             ;
  +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
 
 
-LEXICON n_23        !!= * @CODE@  valkkee
+LEXICON n_23        !!= * @CODE@  valkkee, hoppee, kauhhee
         +N:   x_23 ;
- +N+Sg+Nom:   R    ;
- +N+Sg+Gen:en R    ;
+ ! +N+Sg+Nom:   R    ; Is this extra and wrong?
 
 LEXICON x_23
           +Sg+Nom:e          K               ;
  +Sg+Nom+Err/Orth:%>%^A      K               ;
               +Sg:e          sgpl_cases_even ;
           +Sg+Gen:en         K               ;
+          +Sg+Gen:en         R               ; ! TODO check if different than k, maybe put htis in n_23
           +Pl+Nom:et         K               ;
           +Sg+Ill:esseen     K               ;
           +Pl+Ill:e%>i2ssiin K               ;
@@ -929,7 +928,7 @@ LEXICON short_par
 +Dial/-Por+Sg+Par:%>^A PxxK ;
  +Sg+Par+Err/Orth:%>^A PxxK ;
 
- LEXICON short_par_a
+LEXICON short_par_a
           +Sg+Par:%>^A PxxK ;
 
 LEXICON long_par
