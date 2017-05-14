@@ -250,7 +250,7 @@ asfalttijärvi:asfaltti#järve n_21ie ;
 asfalttitie:asfaltti#tie n_1 ;
 askelet:askel n_33t ;
 assii+Dial/Por:assii n_23ii ; !!= * @CODE@
-assii+Dial/-Por:asia n_23ii ;
+assii+Dial/-Por:asia n_22oi ;
 astet:ast n_33t ;
 astii n_23ii ;
 astiikaappi:astii#kaappi n_21 ;
@@ -4880,6 +4880,8 @@ vuorokausi:vuoro#kaute n_31si ;
 vuorovesi-ala n_21 ;
 vuorso n_21 ;
 vuosi:vuote n_31si ;
+!vuosi:vuoje n_31si ;
+!vuosi:vuue n_31si ;
 vuosikymmen:vuosi#kymmen n_32 ;
 vuota n_21 ;
 vuođet:vuot n_33t ;
