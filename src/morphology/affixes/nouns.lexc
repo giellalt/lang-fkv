@@ -292,7 +292,8 @@ LEXICON x_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö, kurk
 
 
 LEXICON n_23        !!= * @CODE@  valkkee, hoppee, kauhhee
-        +N:   x_23 ;
+      +N+Dial/Por:           x_23            ;
+    +N+Dial/-Por:           x_23_-Por       ;
  ! +N+Sg+Nom:   R    ; Is this extra and wrong?
 
 LEXICON x_23
@@ -300,7 +301,7 @@ LEXICON x_23
  +Sg+Nom+Err/Orth:%>%^A      K               ;
               +Sg:e          sgpl_cases_even ;
           +Sg+Gen:en         K               ;
-          +Sg+Gen:en         R               ; ! TODO check if different than k, maybe put htis in n_23
+          +Sg+Gen:en         R               ; ! TODO check if different than k, maybe put this in n_23
           +Pl+Nom:et         K               ;
           +Sg+Ill:esseen     K               ;
           +Pl+Ill:e%>i2ssiin K               ;
@@ -309,7 +310,36 @@ LEXICON x_23
               +Pl:e%>i2      tt_longgenpl    ;
               +Pl:e%>i2      sgpl_cases_even ;
                  :e          ess_even        ;
-          +Pl+Com:e%>i2%>ne  K               ;
+          +Pl+Com:e%>i2      com             ;
+
+!LEXICON x_23_-Por ! look at x_22oi for inspiration, as the -ki cases work
+!      +Sg:^E2I^A     nom             ; ! valkia
+!      +Sg:^E2I^A     gen             ; ! valkian
+!      +Sg:^E2I^A     par             ; ! valkiaa
+!      +Sg:^E2I^A     tra             ; ! valkiaksi
+!      +Sg:^E2I^A     abe             ; ! valkiatta
+!      +Sg:^E2I^A     ine             ; ! valkiassa
+!      +Sg:^E2I^A     ela             ; ! valkiasta
+!      +Sg:^E2I       ill             ; ! valkihaan
+!      +Sg:^E2I^A     ade             ; ! valkialla
+!      +Sg:^E2I^A     abl             ; ! valkialta
+!      +Sg:^E2I^A     all             ; ! valkialle
+!      +Sg:^E2I^A     ess             ; ! valkianna
+
+!      +Pl:^E2I^A     nom             ; ! valkiat
+!      +Pl:%>i2       gen             ; ! valkeitten
+!      +Pl:%>i2       par             ; ! valkeita
+!      +Pl:%>i2       tra             ; ! valkeiksi
+!      +Pl:%>i2       abe             ; ! valkeitta
+!      +Pl:%>i2       ine             ; ! valkeissa
+!      +Pl:%>i2       ela             ; ! valkeista
+!      +Pl:%>i2       ill             ; ! valkeissiin
+!      +Pl:%>i2       ade             ; ! valkeila
+!      +Pl:%>i2       abl             ; ! valkeilta
+!      +Pl:%>i2       all             ; ! valkeile
+!      +Pl:%>i2       ess             ; ! valkeina
+!      +Pl:%>i2       com             ; ! valkeine
+
 
 LEXICON n_23ii        !!= * @CODE@  assii
  +N+Dial/Por:         x_23ii           ;
