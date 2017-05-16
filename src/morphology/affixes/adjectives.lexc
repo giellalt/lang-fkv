@@ -27,9 +27,11 @@ LEXICON VANH
 !      +A+Sg+Nom:a              K               ;
 !          +A+Sg:               sgpl_cases_even ; !! these two lexica for cases with
  !!                             long_par        ;
-  !                             ess_even_sg     ;
+!              +Sg:         ess_n           ;
+
 ! monikot ovat nämä, x_21 -sestä otettu:
-!             +A:^AO              ess_even_pl     ;
+!             +A+Pl:^AO%>i2       ess_n           ;
+
 !             +A:^WG              weak_v_stem_pl  ;
 !          +A+Pl:^AO^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
 !                                 2TAVU_V_ill_sg  ;
@@ -116,8 +118,8 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin
 +A:m^A weak_v_stem_sg ;
 +A+Sg+Par:^WG%>nt^A PxxK ;
 !+A:m^A obl_strong_odd ;
-+A:m^A ess_odd_sg ;
-+A:m ess_odd_pl;
++A+Sg:m^A   ess_nn           ;
++A+Pl:m%>i2 ess_nn           ;
 +A+Sg+Gen:m^A%>n K ;
 +A:m^A weak_v_stem_pl ;  ! Nom pl
 !+A:m^A 2TAVU_V_ill_sg ;
@@ -215,7 +217,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A+Sg+Ill:%>tt^Omh^A^A n_PxK ;
 +A:%>tt^Om^A sgpl_cases_common ;
 +A+Pl+Ill:%>tt^Omh%>i2in K ;
-+A:%>tt^Om^A ess_even_sg ;
++A+Sg:%>tt^Om^A ess_n ;
 
 !+Pl:%>tt^Om%>i2%>i a_shortestgenpl ; ! onnettomiin
 +A+Pl:%>tt^Om%>i2%>i tt_longgenpl   ; ! muuttumattomiitten
@@ -300,17 +302,19 @@ LEXICON a_loputon
 LEXICON a_loputonpl
  +Pl:%>i2 sgpl_cases_odd ;  ! the same affix in sg and pl -- tsekkaa long
  +Pl:%>i2 shortgenpl ;
- :ess_odd_pl ;
+ +Pl:%>i2 ess_nn           ;
+
 
 LEXICON a_loputoneven
  weak_v_stem ;
 +Sg:sgpl_cases_even ;      ! these two lexica for cases with
-:ess_even_sg ;
++Sg:         ess_n           ;
 
 LEXICON a_loputonevenpl
 +Pl:%>i2 sgpl_cases_even ;  ! the same affix in sg and pl -- tsekkaa long
 !+Pl:%>i2 shortgenpl ;
- :ess_even_pl ;
+ +Pl:%>i2     ess_n           ;
+
 
 LEXICON a_ton
  +Sg+Nom:%>t^On K ;
@@ -320,9 +324,9 @@ LEXICON a_ton
 
 LEXICON comp_m_odd  ! odd here meaning the resulting stem: 2syll + comp = 3syll
 +A+Sg+Comp:%>m^A sgpl_cases_odd ;  ! ade, all, ine, ela, abl, tra
-+A+Sg+Comp+Ess:%>mp^A%>nn^A K ;
++A+Sg+Comp:%>mp^A ess_nn  ;
 +A+Pl+Comp:%>m%>i2 sgpl_cases_odd ;
-+A+Pl+Comp+Ess:%>mp%>i2%>nn^A    K ;
++A+Pl+Comp:%>mp%>i2 ess_nn     ;
 comp_m_common ;
 
 LEXICON comp_m_even  ! split for syllabicity sinnikkhäämälä
