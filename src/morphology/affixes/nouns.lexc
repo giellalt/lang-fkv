@@ -72,7 +72,7 @@ LEXICON x_1
 ! +Sg+Nom:         Px              ; ! mattoni
 ! +Sg+Gen:         Px              ; ! mattoni
 ! +Pl+Nom:         Px              ; ! mattoni
-                   ess_even_sg     ;
+      +Sg:         ess_n           ;
 
 LEXICON n_1pl !!= * @CODE@ = häät
         +N: x_1 ;
@@ -90,7 +90,7 @@ LEXICON x_1pl !!= * @CODE@ = häät
 
        +Pl:%>i2      longparpl       ;
        +Pl:%>i2      shortillpl      ;
-                     ess_even_pl     ; ! %>i2%>n^A
+       +Pl:%>i2      ess_n           ;
 
 LEXICON n_21C !!= * @CODE@
  +N+Sg+Nom:  K    ; ! Hans
@@ -107,8 +107,9 @@ LEXICON x_21 ! "poika:poi6ka", lyhyt vokali, yks vartalo, kuva, linna, pappi, to
 
 LEXICON x_21_oblique
            :                   short_par       ;
-           :                   ess_even_sg     ;
-           :^AO                ess_even_pl     ;
+        +Sg:                   ess_n           ;
+        +Pl:^AO%>i2            ess_n           ;
+
            :^WG                weak_v_stem     ;
         +Sg:^WG                sgpl_cases_even ; !to sgpl_cases_even for cases with
         +Pl:^AO^WG%>i2         sgpl_cases_even ; !the same affix in sg and pl
@@ -173,7 +174,7 @@ LEXICON n_22        !!= * @CODE@  opettaaja, karamelli
 LEXICON x_22
                        nom_strong         ;
                        short_par          ; ! karamellia
-                       ess_even_sg        ; ! karamellina
+       +Sg:            ess_n              ; ! karamellina
           :^WG         weak_v_stem        ;
        +Sg:^WG         sgpl_cases_even    ; ! the same affix in sg and pl
  +Pl+Dial/Por:^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
@@ -183,7 +184,7 @@ LEXICON x_22
 !   +Pl:^WG%>i2       tt_longgenpl       ;
 !   +Pl:%>i2          longparpl          ;
 !   +Pl:%>i2          shortestparpl      ; !liberaali, dialissa on liberaalia?
-!   +Pl:%>i2          ess                ;
+!   +Pl:%>i2          ess_n                ;
 !   +Pl:%>i2          com                ;
         +Pl:           x_22_pl_por        ;
         +Pl:           x_22_pl_var        ;
@@ -192,13 +193,13 @@ LEXICON x_22
   +Dial/Por:^WG%>i2     tt_longgenpl       ;
   +Dial/Por:%>i2        longparpl          ;
   +Dial/Por:%>i2        shortestparpl      ;
-  +Dial/Por:%>i2        ess                ;
+  +Dial/Por:%>i2        ess_n                ;
   +Dial/Por:%>i2        com                ;
 
  LEXICON x_22_pl_var
  +Dial/-Por:^WG%>       tt_longgenpl       ;
  +Dial/-Por:%>          shortparpla        ;
- +Dial/-Por:%>          ess                ; ! karamelline
+ +Dial/-Por:%>          ess_n                ; ! karamelline
  +Dial/-Por:%>          com                ; ! karamellina
 
 ! +Pl:%>i2        shortestgenpl      ; opettaajiin
@@ -249,14 +250,14 @@ LEXICON x_22oddi !!= * @CODE@  meininki, tunturi
 +Pl+Dial/-Por:^WG%>   sgpl_cases_odd  ; ! Adding  to block i:0
                       2TAVU_V_ill_sg  ;
                       ess_odd_sg      ;
-+Pl+Dial/Por:i        ess             ;
++Pl+Dial/Por:i        ess_n             ;
 
  +Pl+Dial/Por:^WG%>i2  tt_longgenpl    ;
  +Pl+Dial/Por:%>i2     longparpl       ;
       +Pl+Ill:^HMETA%>hii n_PxK        ;
  +Pl+Dial/Por:i2       com             ;
 
-+Pl+Dial/-Por:%>n     ess             ;
++Pl+Dial/-Por:%>n     ess_n             ; ! TODO check this monstrosity out
 +Pl+Dial/-Por:^WG%>   tt_longgenpl    ;
 +Pl+Dial/-Por:%>      shortparpla     ;
 +Pl+Dial/-Por:        com             ;
@@ -284,9 +285,9 @@ LEXICON x_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö, kurk
                             2TAVU_V_ill_sg  ;
      +Pl:^AO^WG%>i2         tt_longgenpl    ;
      +Pl:^AO^WG%>i2         longparpl       ;
-                            ess_odd_sg      ; ! paivukko/nna
-        :^AO                ess_even_pl     ; ! paivuko/i/na
-     +Pl:^AO%>i2            ess             ;
+     +Sg:                   ess_nn          ; ! paivukkonna
+     +Pl:^AO%>i2            ess_n           ; ! paivukoina
+     +Pl:^AO%>i2            ess_n           ;
      +Pl:^AO%>i2            com             ;
  +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
 
@@ -306,11 +307,12 @@ LEXICON x_23
           +Sg+Ill:esseen     K               ;
           +Pl+Ill:e%>i2ssiin K               ;
               +Sg:e          longparpl       ;
+              +Sg:e          ess_n           ;
               +Pl:e%>i2      longparpl       ;
               +Pl:e%>i2      tt_longgenpl    ;
               +Pl:e%>i2      sgpl_cases_even ;
-                 :e          ess_even        ;
-          +Pl+Com:e%>i2      com             ;
+              +Pl:e%>i2      ess_n           ;
+              +Pl:e%>i2      com             ;
 
 !LEXICON x_23_-Por ! look at x_22oi for inspiration, as the -ki cases work
 !      +Sg:^E2I^A     nom             ; ! valkia
@@ -324,7 +326,7 @@ LEXICON x_23
 !      +Sg:^E2I^A     ade             ; ! valkialla
 !      +Sg:^E2I^A     abl             ; ! valkialta
 !      +Sg:^E2I^A     all             ; ! valkialle
-!      +Sg:^E2I^A     ess             ; ! valkianna
+!      +Sg:^E2I^A     ess_n           ; ! valkianna
 
 !      +Pl:^E2I^A     nom             ; ! valkiat
 !      +Pl:%>i2       gen             ; ! valkeitten
@@ -337,7 +339,7 @@ LEXICON x_23
 !      +Pl:%>i2       ade             ; ! valkeila
 !      +Pl:%>i2       abl             ; ! valkeilta
 !      +Pl:%>i2       all             ; ! valkeile
-!      +Pl:%>i2       ess             ; ! valkeina
+!      +Pl:%>i2       ess_n           ; ! valkeina
 !      +Pl:%>i2       com             ; ! valkeine
 
 
@@ -420,8 +422,8 @@ LEXICON x_31si
                        2TAVU_V_ill_sg  ;
           +Sg:^WG      sgpl_cases_even ; ! these two lexica for cases with
           +Pl:%>i2     sgpl_cases_even ; ! the same affix in sg and pl
-                       ess_even_sg     ;
-             :         ess_even_pl     ;
+          +Sg:         ess_n           ;
+          +Pl:%>i2     ess_n           ;
  +Pl+Dial/Por:%>i2     shortgenpl      ; ! vuossiin, ei vuottiin, hirssiin
 +Pl+Dial/-Por:%>i2     tt_longgenpl    ; !hirssitten, vuossitten
  +Pl+Dial/Por:%>i2     shortparpl      ; ! hirssii
@@ -582,14 +584,16 @@ LEXICON x_33as
       +Pl+Com:h%>a%>ine    K                 ;
              :h%>aa        weak_v_stem_sg    ;
              :h%>aa        weak_v_stem_pl    ;
+          +Sg:h%>aa        ess_n             ;
           +Sg:h%>aa        sgpl_cases_even   ;
           +Pl:h%>a%>i2     sgpl_cases_even   ;
-             :h%>aa        ess_even          ;
           +Pl:h%>a%>i2     tt_longgenpl      ; ! asukkhaitten
 +Pl+Dial/-Por:h%>a%>je     shortestgenpl     ; ! rakkhajen
           +Pl:h%>a%>i2     longparpl         ; ! asukkhaita
 +Pl+Dial/-Por:h%>a%>j      shortparpla       ; ! rakkhajen
   ! +N+Pl+Ess:h%>a%>i2%>na PxxK              ;
+          +Pl:h%>aa%>i2    ess_n             ;
+
 
 !LEXICON n_33aes
 !        +N:             x_33aes           ;
@@ -601,7 +605,8 @@ LEXICON x_33aes
    +Pl+Com:h%>ä%>ine    K                 ;
           :h%>ää        weak_v_stem_sg    ;
           :h%>ää        weak_v_stem_pl    ;
-          :h%>ää        ess_even          ;
+       +Sg:h%>ää        ess_n           ;
+       +Pl:h%>ää%>i2    ess_n           ;
        +Sg:h%>ää        sgpl_cases_even   ;
        +Pl:h%>ä%>i2     sgpl_cases_even   ;
        +Pl:h%>ä%>i2     longparpl         ;
@@ -637,12 +642,12 @@ LEXICON x_33is !!= @CODE@ ruvis
              :hii        weak_v_stem_pl    ;
           +Sg:hii        sgpl_cases_even   ;
           +Pl:hii        sgpl_cases_even   ;
-             :hii        ess_even_sg       ;
+          +Sg:hii        ess_n             ;
           +Pl:hii        tt_longgenpl      ; ! rukkhiitten
           +Pl:hii        longparpl         ; ! rukkhiita
 +Pl+Dial/-Por:hi%>je     shortestgenpl     ; ! rukhijen
 +Pl+Dial/-Por:hi%>j      shortparpla       ; ! rukhija
-      +Pl+Ess:%>hiin^A   PxxK              ; ! i in pl lex
+          +Pl:%>hii      ess_n             ;
       +Sg+Ill:%>hiisseen K                 ;
       +Pl+Ill:hiissiin   K                 ;
       +Pl+Com:hiine      K                 ;
@@ -755,14 +760,14 @@ LEXICON x_42 ! nainen, kainulainen
              :se        2TAVU_V_ill_sg  ;
           +Sg:se        sgpl_cases_even ; !! these two lexica for cases with
           +Pl:s%>i2     sgpl_cases_even ; !! the same affix in sg and pl
-             :se        ess_even        ;
+          +Sg:se        ess_n           ;
           +Pl:s         consgenpl       ; ! kainulaisten
  +Pl+Dial/Por:ss%>i2i   shortestparpl   ; ! kainulaissii
  +Pl+Dial/Por:ss%>i2i   longparpl       ; ! kainulaissiita, naissiita
 +Pl+Dial/-Por:s%>i2     shortparpla     ; ! kainulaisia
           +Pl:sh%>i2    shorterillpl    ;
+          +Pl:se%>i2    ess_n           ;
       +Pl+Com:s%>i2%>ne K               ;
-
 
 LEXICON n_42odd !!= @CODE@ ihminen
         +N:  x_42odd ;
@@ -801,7 +806,9 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
 !LEXICON nen_sg
 !             +N:     nom-nen        ;
 !!            +N:se   nomgen_px      ;
-!             +N:se   ess_even       ;
+!            +Sg:se     ess_n        ;
+!            +Pl:se%>i2 ess_n        ;
+
 !! make+N+Pl+kom:sine K              ;
 !             +N:se   weak_v_stem_sg ;
 !          +N+Sg:s    longparpl      ;
@@ -885,7 +892,8 @@ LEXICON weak_v_stem_pl
 LEXICON obl_strong_even
 !          nomgen_px ;
   +Pl:%>i2 com       ;
-           ess_even  ;
+  +Sg:         ess_n           ;
+  +Pl:%>i2     ess_n           ;
 
 LEXICON obl_strong_odd
 !              nomgen_px ;
@@ -896,17 +904,6 @@ LEXICON obl_strong_odd
 ! +Sg+Nom:     Px        ; ! mattoni
 ! +Sg+Gen:     Px        ; ! mattoni
 ! +Pl+Nom:     Px        ; ! mattoni
-
-LEXICON ess_even
-  ess_even_sg ;
-  ess_even_pl ;
-
-
-LEXICON ess_even_sg
- +Sg+Ess:%>n^A PxxK ;
-
-LEXICON ess_even_pl
- +Pl+Ess:%>i2%>n^A PxxK ;
 
 LEXICON ess_odd
   ess_odd_sg ;
