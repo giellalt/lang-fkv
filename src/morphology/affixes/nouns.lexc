@@ -285,7 +285,6 @@ LEXICON x_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö, kurk
      +Pl:^AO^WG%>i2         longparpl       ;
      +Sg:                   ess_nn          ; ! paivukkonna
      +Pl:^AO%>i2            ess_n           ; ! paivukoina
-     +Pl:^AO%>i2            ess_n           ;
      +Pl:^AO%>i2            com             ;
  +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
 
@@ -546,14 +545,14 @@ LEXICON n_32s !!= @CODE@  sairhaus
       +N+Sg:đe             sgpl_cases_common ;
   +N+Sg+Ade:đe%>ll^A       PxxK              ; !! * Pitkä perusmuoto
   +N+Sg+All:đe%>lle        PxxK              ; !! * Pitkä perusmuoto
-         +N:te             ess_odd_sg        ;
-         +N:ks             ess_odd_pl        ;
-      +N+Pl:ks%>i2         sgpl_cases_odd    ; ! hmm, tämä menee pieleen, sg ≠ pl
+      +N+Sg:te             ess_nn            ;
+      +N+Pl:ks%>i2         sgpl_cases_odd    ; ! TODO wtf is this comm --> hmm, tämä menee pieleen, sg ≠ pl
       +N+Pl:ksi%>i2        shortestparpl     ;
       +N+Pl:ksi%>i2        longparpl         ;
       +N+Pl:ksi%>i2        tt_longgenpl      ;
       +N+Pl:ks^HMETAh%>i2i shortestillpl     ;
-  +N+Pl+Com:ks%>i2%>ne     K                 ;
+      +N+Pl:ks%>i2         ess_nn            ;
+      +N+Pl:ks%>i2         com               ;
 
 
 ! LEXICON n_32s != @CODE@  sairhaus vanha versio
@@ -609,7 +608,7 @@ LEXICON x_33aes
        +Pl:h%>ä%>i2     sgpl_cases_even   ;
        +Pl:h%>ä%>i2     longparpl         ;
        +Pl:h%>ä%>i2     tt_longgenpl      ;
- +N+Pl+Ess:h%>ä%>i2%>nä PxxK              ;
+       +Pl:h%>ä%>i2     ess_n             ;
 
 
 
@@ -628,7 +627,7 @@ LEXICON x_33ys
        +Pl:h%>y%>i2     sgpl_cases_even   ;
        +Pl:h%>y%>i2     longparpl         ;
        +Pl:h%>y%>i2     tt_longgenpl      ;
- +N+Pl+Ess:h%>y%>i2%>ny PxxK              ;
+ +N+Pl+Ess:h%>y%>i2%>ny PxxK              ; ! not to ess n pecause of the y I guess? wat
 
 
 LEXICON n_33is !!= @CODE@ ruvis, ruumis
@@ -765,7 +764,7 @@ LEXICON x_42 ! nainen, kainulainen
 +Pl+Dial/-Por:s%>i2     shortparpla     ; ! kainulaisia
           +Pl:sh%>i2    shorterillpl    ;
           +Pl:se%>i2    ess_n           ;
-      +Pl+Com:s%>i2%>ne K               ;
+          +Pl:s%>i2     com             ;
 
 LEXICON n_42odd !!= @CODE@ ihminen
         +N:  x_42odd ;
@@ -773,7 +772,7 @@ LEXICON n_42odd !!= @CODE@ ihminen
 
 LEXICON x_42odd
       +Sg+Nom:nen       K              ;
-             :se        ess_odd        ;
+          +Sg:se        ess_nn         ;
              :se        weak_v_stem    ;
           +Sg:s         longparpl      ;
              :se        2TAVU_V_ill_sg ;
@@ -784,7 +783,8 @@ LEXICON x_42odd
  +Dial/Por+Pl:ss%>i2i   longparpl      ; ! ihmissiitä
  +Dial/Var+Pl:s%>i2     shortparpla    ; ! ihmisiä
           +Pl:sh%>i2    shorterillpl   ;
-      +Pl+Com:s%>i2%>ne K              ;
+          +Pl:%>i2      ess_nn         ; !
+          +Pl:s%>i2     com            ;
 
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
       +N+Pl+Nom:%>set      K              ;
@@ -794,7 +794,7 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
  +Dial/Por+N+Pl:ss%>i2i    longparpl      ; ! tervhehissiitä
 +Dial/-Por+N+Pl:s%>i2      shortparpla    ; ! tervhehisiä
       +N+Pl+Ill:sh%>i2in   K              ;
-             +N:se         ess_odd_pl     ;
+          +N+Pl:se%>i2     ess_nn         ;
       +N+Pl+Com:s%>i2%>nne K              ;
 
 !LEXICON nen  !!= @CODE@ on nainen-sanoille
@@ -896,22 +896,14 @@ LEXICON obl_strong_even
 LEXICON obl_strong_odd
 !              nomgen_px ;
       +Pl:%>i2 com       ;
-               ess_odd   ;
+      +Sg:         ess_n           ;
+      +Pl:%>i2     ess_n           ;
 
 ! LEXICON nomgen_px
 ! +Sg+Nom:     Px        ; ! mattoni
 ! +Sg+Gen:     Px        ; ! mattoni
 ! +Pl+Nom:     Px        ; ! mattoni
 
-LEXICON ess_odd
-  ess_odd_sg ;
-  ess_odd_pl ;
-
-LEXICON ess_odd_sg
- +Sg+Ess:%>nn^A PxxK ; ! nn or n ? Eira s. 38 vs yaml
-
-LEXICON ess_odd_pl
- +Pl+Ess:%>i2%>nn^A PxxK ; !
 
 LEXICON sgpl_cases_even ! kaikille paitsi neljän koplalle
  +Ade:%>l^A PxxK              ; ! Lyhyt perusmuoto vuođela
