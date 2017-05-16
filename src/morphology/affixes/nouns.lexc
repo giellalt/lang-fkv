@@ -293,7 +293,7 @@ LEXICON x_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö, kurk
 
 LEXICON n_23        !!= * @CODE@  valkkee, hoppee, kauhhee
       +N+Dial/Por:           x_23            ;
-    +N+Dial/-Por:           x_23_-Por       ;
+!    +N+Dial/-Por:           x_23_-Por       ;
  ! +N+Sg+Nom:   R    ; Is this extra and wrong?
 
 LEXICON x_23
@@ -351,6 +351,7 @@ LEXICON x_23ii
           +Sg:        longparpl       ;
       +Sg+Ill:sseen   K               ;
       +Pl+Ill:ssiin   K               ;
+          +Sg:        ess_n           ;
  +Pl+Dial/Por:        tt_longgenpl    ;
 +Pl+Dial/-Por:^AO%>i2 tt_longgenpl    ;
  +Pl+Dial/Por:        longparpl       ;
@@ -359,7 +360,7 @@ LEXICON x_23ii
           +Sg:        sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
  +Dial/Por+Pl:        sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
 +Dial/-Por+Pl:^AO%>i2 sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
-                      ess_even_ii     ;
+          +Pl:        ess_n           ;
           +Pl:^AO     com             ;
 
 
@@ -907,11 +908,6 @@ LEXICON ess_even_sg
 LEXICON ess_even_pl
  +Pl+Ess:%>i2%>n^A PxxK ;
 
-LEXICON ess_even_ii
- +Sg+Ess:%>n^A PxxK ;
- +Pl+Ess:%>n^A PxxK ;
-
-
 LEXICON ess_odd
   ess_odd_sg ;
   ess_odd_pl ;
@@ -940,9 +936,13 @@ LEXICON sgpl_cases_common
 ! +Tra:%>kse  Pxx  ;
   +Abe:%>tt^A PxxK ;
 
-LEXICON ess
+LEXICON ess_n
  +Ess:%>n^A PxxK ; ! Essiivillä aina Eiran gramatiikin mukaan lyhytmuoto
                     ! Mutta Eira s. 38 kaupunkinna, tyttärennä
+
+LEXICON ess_nn
+ +Ess:%>nn^A PxxK ; ! Essiivillä aina Eiran gramatiikin mukaan lyhytmuoto
+                                        ! Mutta Eira s. 38 kaupunkinna, tyttärennä
 
 LEXICON com      ! Komitatiivilla on vain -ine ja menee Pxx:iin
  +Com:%>ne PxxK ; ! Not to K, since Px must be present
