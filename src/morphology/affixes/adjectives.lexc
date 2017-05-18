@@ -57,7 +57,6 @@ LEXICON VANH
 
 LEXICON a_21  !!= * @CODE@ corresponds to a_21 etc. siisti
 +A: x_21 ;
-!+A: a_strong_v_stem ;
 !+A:^WG a_weak_v_stem ;
 :^AE^WG comp_m_odd  ;
 :^AE^WG%>i5 superl_m_odd ;
@@ -117,7 +116,6 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin
 +A+Sg+Nom:^WGn K ;
 +A:m^A weak_v_stem_sg ;
 +A+Sg+Par:^WG%>nt^A PxxK ;
-!+A:m^A obl_strong_odd ;
 +A+Sg:m^A   ess_nn           ;
 +A+Pl:m%>i2 ess_nn           ;
 +A+Sg+Gen:m^A%>n K ;
@@ -132,7 +130,7 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin
 +A+Pl:%>m%>i2 shortparpl ;
 +A+Pl:m%>ii2 tt_longgenpl ;
 +A+Pl:m^HMETAh%>i2i shortestillpl;
-+A+Pl+Com:m%>i2ne K ;
++A+Pl:m%>i2          com         ;
 :m^A comp_mm ;
 :mi5i superl_m_even ;
 +A+Pl+Comp+Gen+Dial/Por:m^A%>mpp%>i2%>in K ;
@@ -178,7 +176,7 @@ LEXICON a_33u !!= * @CODE@ vaipunu:vaipun ! perfect participle
 !+A:hee 33_t_ts_common ;
 !+A+Sg+Ill:hee mTAVU_VV-ill ;
 !+A+Pl+Gen:hee%>i2 tt_longgenpl ;
-!+A+Pl+Com:hee%>i2ne K ;
+!+A+Pl:hee%>i2  com ;
 +A: PRFPRC_OBL  ;
 
 LEXICON a_33y !!= * @CODE@ väsyny:äsyn ! perfect participle
@@ -227,7 +225,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 !+A:%>tt^Omh%>i2 shorterillpl ;
 +A:%>tt^Om^A a_loputon ;
 +A:%>tt^Om a_loputonpl ;
-+A+Pl+Com:%>tt^Om%>i2ne K ;
++A+Pl:%>tt^Om%>i2 com ;
 
 :%>tt^Om^A comp_mm ;
 +A+Pl+Comp+Gen:%>tt^Om^A%>mm%>ii2tten K ;
@@ -259,10 +257,9 @@ LEXICON x_43odd !!= * @CODE@ onneton
 
 
 :%>tt^Omh%>i2 shorterillpl ;
-+Pl+Com:%>tt^Om%>i2ne K ;
++Pl:%>tt^Om%>i2 com ;
 :%>tt^Om^A a_loputoneven ;
 :%>tt^Om a_loputonevenpl ;
-+Pl+Com:%>tt^Om%>i2ne K ;
 
 
 !! !!!Basic paradigms
@@ -295,7 +292,6 @@ LEXICON a_shortestgenpl !! * @CODE@ zero, because ii > i
 
 
 LEXICON a_loputon
-! obl_strong_even ; ! muut vahvat
  weak_v_stem ;
  +Sg: sgpl_cases_odd ;      ! these two lexica for cases with
 
@@ -348,7 +344,7 @@ LEXICON comp_m_common
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Comp+Par+Dial/-Por:%>mp%>i2%>^A K  ; ! sinnikkhäämpiä
-+A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
++A+Pl+Comp:%>mp%>i2    com ;
 
 
 LEXICON comp_onneton
@@ -367,7 +363,7 @@ LEXICON comp_onneton
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Ess:%>mp%>i2%>nn^A    K ;
-+A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
++A+Pl+Comp:%>mp%>i2         com ;
 
 LEXICON comp_mm
 
@@ -386,8 +382,8 @@ LEXICON comp_mm
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Comp+Par+Dial/-Por:%>mp%>i2%>^A K  ;
-+A+Pl+Comp+Ess:%>mp%>i2%>n^A    K ;
-+A+Pl+Comp+Com:%>mp%>i2%>ne    K ;
++A+Pl+Comp:%>mp%>i2       ess_n ;
++A+Pl+Comp:%>mp%>i2       com   ;
 
 
 LEXICON superl_m_even
@@ -419,7 +415,7 @@ LEXICON superl_m_common
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Superl+Par+Dial/-Por:%>mp%>i2%>^A K  ;
-+A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
++A+Pl+Superl:%>mp%>i2       com ;
 ! pl gen variation in LEXICON a_33as
 
 LEXICON superl_onneton
@@ -439,8 +435,8 @@ LEXICON superl_onneton
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
 !+A+Pl+Superl+Par:%>mp%>i2%>^A K  ; ! onnettommiimpia
-+A+Pl+Superl+Ess:%>mp%>i2%>nn^A    K ;
-+A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
++A+Pl+Superl:%>mp%>i2          ess_n ;
++A+Pl+Superl:%>mp%>i2          com ;
 
 LEXICON superl_mm
 +A+Sg+Superl+Nom:%>n K ;
@@ -459,8 +455,8 @@ LEXICON superl_mm
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Superl+Par+Dial/-Por:%>mp%>i2%>^A K  ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
-+A+Pl+Superl+Ess:%>mp%>i2%>n^A    K ;
-+A+Pl+Superl+Com:%>mp%>i2%>ne    K ;
++A+Pl+Superl:%>mp%>i2         ess_n       ;
++A+Pl+Superl:%>mp%>i2         com         ;
 
 
 LEXICON superl_in
