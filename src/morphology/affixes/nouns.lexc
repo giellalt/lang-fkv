@@ -875,11 +875,11 @@ LEXICON tConsCase
 LEXICON nom_strong
  +Sg+Nom: K ;
 
-LEXICON strong_v_stem_even  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
-  short_par       ;
-    +Pl:%>i2 com       ;
-    +Sg:         ess_n           ;
-    +Pl:%>i2     ess_n           ;
+!LEXICON strong_v_stem_even  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
+!  short_par       ;
+!    +Pl:%>i2 com       ;
+!    +Sg:         ess_n           ;
+!    +Pl:%>i2     ess_n           ;
 ! TODO fix this mess
 
 !LEXICON strong_v_stem_odd  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
@@ -904,17 +904,17 @@ LEXICON weak_v_stem_pl
 !! !Sublexica for the vowel stems
 !  - - - - - - - - - - - - - - -
 
-LEXICON obl_strong_even
+!LEXICON obl_strong_even
 !          nomgen_px ;
-  +Pl:%>i2 com       ;
-  +Sg:         ess_n           ;
-  +Pl:%>i2     ess_n           ;
+!  +Pl:%>i2 com       ;
+!  +Sg:         ess_n           ;
+!  +Pl:%>i2     ess_n           ;
 
-LEXICON obl_strong_odd
+!LEXICON obl_strong_odd
 !              nomgen_px ;
-      +Pl:%>i2 com       ;
-      +Sg:         ess_nn           ;
-      +Pl:%>i2     ess_nn           ;
+!      +Pl:%>i2 com       ;
+!      +Sg:         ess_nn           ;
+!      +Pl:%>i2     ess_nn           ;
 
 ! LEXICON nomgen_px
 ! +Sg+Nom:     Px        ; ! mattoni
