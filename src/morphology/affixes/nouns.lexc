@@ -131,7 +131,7 @@ LEXICON n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo, ka
 LEXICON x_21pl        !!= * @CODE@
 
           +Pl:%>i2               sgpl_cases_even ; !! the same affix in sg and pl
-      +Pl+Ess:%>i2%>n^A          PxxK            ;
+          +Pl:%>i2               ess_n            ;
  +Pl+Dial/Por:%>i2               shortestgenpl   ; ! kasvoin
 +Pl+Dial/-Por:%>i2               tt_longgenpl    ; ! kasvoitten, housuitten
  +Pl+Dial/Por:%>i2               shortestparpl   ; ! kasvoi
@@ -248,14 +248,14 @@ LEXICON x_22oddi !!= * @CODE@  meininki, tunturi
  +Pl+Dial/Por:^WG%>i2  sgpl_cases_even ; ! Adding  to block i:0
 +Pl+Dial/-Por:^WG%>   sgpl_cases_odd  ; ! Adding  to block i:0
                       2TAVU_V_ill_sg  ;
-          +Sg:        ess_nn         ;
- +Pl+Dial/Por:^WG%>i2  tt_longgenpl    ;
- +Pl+Dial/Por:%>i2     longparpl       ;
-      +Pl+Ill:^HMETA%>hii n_PxK        ;
- +Pl+Dial/Por:i2       com             ;
+          +Sg:        ess_nn          ;
+          +Pl+Ill:^HMETA%>hii n_PxK   ;
+          +Pl:        ess_nn          ;
 
-+Pl+Dial/-Por:%>n     ess_n             ; ! TODO check this monstrosity out
-          +Pl:%>i2    ess_nn         ;
+ +Pl+Dial/Por:^WG%>i2  tt_longgenpl   ;
+ +Pl+Dial/Por:%>i2     longparpl      ;
+ +Pl+Dial/Por:i2       com            ;
+
 +Pl+Dial/-Por:^WG%>   tt_longgenpl    ;
 +Pl+Dial/-Por:%>      shortparpla     ;
 +Pl+Dial/-Por:        com             ;
@@ -285,7 +285,7 @@ LEXICON x_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö, kurk
      +Pl:^AO^WG%>i2         longparpl       ;
      +Sg:                   ess_nn          ; ! paivukkonna
      +Pl:^AO%>i2            ess_n           ; ! paivukoina
-     +Pl:^AO%>i2            com             ;
+     +Pl:^AO%>i2            com             ; ! paivukoine
  +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
 
 
@@ -473,7 +473,7 @@ LEXICON n_31mies        !!= @CODE@ mies mie
           +N+Pl:h%>i2        com             ;
 
 
-LEXICON n_32 !!= @CODE@ tytär tyttär
+LEXICON n_32 !!= @CODE@ tytär, taival
         +N:    x_32 ;
  +N+Sg+Nom:^WG R    ;
 
@@ -484,9 +484,9 @@ LEXICON x_32
         :e            obl_strong_odd ;
  +Sg+Gen:e%>n         K              ;
         :e            2TAVU_V_ill_sg ;
-        :e            obl_strong_odd ;
         :e            2TAVU_V_ill_sg ;
      +Sg:e            sgpl_cases_odd ;
+     +Sg:e            ess_nn         ;
      +Pl:%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
  +Pl+Dial/Por:%>i%>i2      tt_longgenpl   ; ! tyttäriitten
@@ -497,7 +497,9 @@ LEXICON x_32
 +Pl+Dial/-Por:%>i%>        shortparpla    ; ! tyttäriä
 
           +Pl:^HMETAh%>i2i shortestillpl  ;
-      +Pl+Com:%>i2%>ne     K              ;
+          +Pl:e%>i2     ess_nn         ;
+          +Pl:e%>i2 com       ;
+
 
 LEXICON n_32m !!= @CODE@ elläin elläi
         +N:     x_32m ;
@@ -511,12 +513,14 @@ LEXICON x_32m_sg
  +Sg+Nom:^WGn      K              ;
         :me        weak_v_stem_sg ;
  +Sg+Par:^WG%>nt^A PxxK           ;
-        :me        obl_strong_odd ;
  +Sg+Gen:me%>n     K              ;
         :me        weak_v_stem_pl ; ! Nom pl
         :me        2TAVU_V_ill_sg ;
         :me        2TAVU_V_ill_sg ;
      +Sg:me        sgpl_cases_odd ;
+     +Sg:me        ess_nn         ;
+     +Pl:me%>i2    ess_nn         ;
+     +Pl:me%>i2    com            ;
 
 LEXICON n_32m_pl !!= @CODE@
       +N: x_32m_pl ;
@@ -699,10 +703,9 @@ LEXICON n_41 !!= * @CODE@ = veres
 
 LEXICON x_41
                          sConsCase      ; ! toistaiseksi :-/
-
-             :kse        obl_strong_odd ; ! muut vahvat
              :kse        weak_v_stem    ;
           +Sg:kse        sgpl_cases_odd ; ! these two lexica for cases with
+          +Sg:kse        ess_nn         ;
           +Pl:kse%>i2    sgpl_cases_odd ; ! the same affix in sg and pl -- tsekkaa long
           +Pl:%>s        consgenpl      ; ! veresten
           +Pl:ks%>i2     tt_longgenpl   ; ! vereksitten
@@ -711,7 +714,8 @@ LEXICON x_41
 +Pl+Dial/-Por:ks%>i2     shortparpla    ; ! vereksiä
       +Sg+Ill:ksheen     K              ;
       +Pl+Ill:ksh%>i2in  K              ;
-      +Pl+Com:ks%>i2%>ne K              ;
+          +Pl:kse%>i2    ess_nn         ;
+          +Pl:kse%>i2    com            ;
  ! +Pl+Par:%>ksii     K              ;
 
 !LEXICON s_kse
@@ -731,7 +735,7 @@ LEXICON x_41pl !!= * @CODE@ = veljekset
  +Pl+Dial/Por:ks%>i2i    longparpl       ; ! veljeksiitä
 +Pl+Dial/-Por:ks%>i2     shortparpla     ; ! veljeksiä
       +Pl+Ill:ksh%>i2in  K               ;
-      +Pl+Com:ks%>i2%>ne K               ;
+      +Pl+Com:ks%> com               ;
   !    +Pl+Par:%>ksii     K               ;
 
 
@@ -763,8 +767,8 @@ LEXICON x_42 ! nainen, kainulainen
  +Pl+Dial/Por:ss%>i2i   longparpl       ; ! kainulaissiita, naissiita
 +Pl+Dial/-Por:s%>i2     shortparpla     ; ! kainulaisia
           +Pl:sh%>i2    shorterillpl    ;
-          +Pl:se%>i2    ess_n           ;
-          +Pl:s%>i2     com             ;
+          +Pl:se%>i2    ess_nn          ; ! veljeksinnä
+          +Pl:s%>i2     com             ; ! veljeksine
 
 LEXICON n_42odd !!= @CODE@ ihminen
         +N:  x_42odd ;
@@ -783,7 +787,7 @@ LEXICON x_42odd
  +Dial/Por+Pl:ss%>i2i   longparpl      ; ! ihmissiitä
  +Dial/Var+Pl:s%>i2     shortparpla    ; ! ihmisiä
           +Pl:sh%>i2    shorterillpl   ;
-          +Pl:%>i2      ess_nn         ; !
+          +Pl:s%>i2     ess_nn         ; !
           +Pl:s%>i2     com            ;
 
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
@@ -896,8 +900,8 @@ LEXICON obl_strong_even
 LEXICON obl_strong_odd
 !              nomgen_px ;
       +Pl:%>i2 com       ;
-      +Sg:         ess_n           ;
-      +Pl:%>i2     ess_n           ;
+      +Sg:         ess_nn           ;
+      +Pl:%>i2     ess_nn           ;
 
 ! LEXICON nomgen_px
 ! +Sg+Nom:     Px        ; ! mattoni
