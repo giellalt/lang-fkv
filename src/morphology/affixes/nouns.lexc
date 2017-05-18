@@ -432,7 +432,7 @@ LEXICON x_31si
  +Pl+Dial/Por:%>i2     shortparpl      ; ! hirssii
 +Pl+Dial/-Por:%>i2%>   shortparpla     ; ! hirsiä
        +Pl:^HMETA%>hii shortestillpl   ;
-      +Pl+Com:%>i2%>ne K               ;
+          +Pl:%>i2     com             ;
 
 !  LEXICON n_31lapsi        !!= @CODE@ lapsi la
 !           +N:              x_31lapsi       ;
@@ -546,7 +546,7 @@ LEXICON x_32m_pl
 +Pl+Dial/-Por:mi%>     shortparpla    ; ! elläimiä
 
      +Pl:m^HMETAh%>i2i shortestillpl  ;
- +Pl+Com:m%>i2%>ne     K              ;
+     +Pl:m%>i2         com            ;
 
 LEXICON n_32s !!= @CODE@  sairhaus
   +N+Sg+Nom:^WGs           K                 ; !! * Konsonanttivartalo: poista -e ja heikko aste
@@ -590,7 +590,6 @@ LEXICON x_33as
              :a^WG         sConsCaselyhyempi ; ! nom, par hammas (WG)
              :haa          mTAVU_VV-ill      ;
       +Pl+Ill:h%>aissiin   K                 ;
-      +Pl+Com:h%>a%>ine    K                 ;
              :h%>aa        weak_v_stem_sg    ;
              :h%>aa        weak_v_stem_pl    ;
           +Sg:h%>aa        ess_n             ;
@@ -602,6 +601,7 @@ LEXICON x_33as
 +Pl+Dial/-Por:h%>a%>j      shortparpla       ; ! rakkhajen
   ! +N+Pl+Ess:h%>a%>i2%>na PxxK              ;
           +Pl:h%>aa%>i2    ess_n             ;
+          +Pl:h%>a%>i2     com               ;
 
 
 !LEXICON n_33aes
@@ -611,7 +611,6 @@ LEXICON x_33aes
           :ä^WG         sConsCaselyhyempi ; ! nom, par hammas (WG)
           :hää          mTAVU_VV-ill      ;
    +Pl+Ill:h%>äissiin   K                 ;
-   +Pl+Com:h%>ä%>ine    K                 ;
           :h%>ää        weak_v_stem_sg    ;
           :h%>ää        weak_v_stem_pl    ;
        +Sg:h%>ää        ess_n           ;
@@ -621,6 +620,7 @@ LEXICON x_33aes
        +Pl:h%>ä%>i2     longparpl         ;
        +Pl:h%>ä%>i2     tt_longgenpl      ;
        +Pl:h%>ä%>i2     ess_n             ;
+       +Pl:h%>ä%>i2     com               ;
 
 
 
@@ -632,7 +632,6 @@ LEXICON x_33ys
           :%>y^WG       sConsCaselyhyempi ; ! nom, par hammas (WG)
           :h%>yy        mTAVU_VV-ill      ;
    +Pl+Ill:h%>yissiin   K                 ;
-   +Pl+Com:h%>y%>ine    K                 ;
           :h%>yy        weak_v_stem_sg    ;
           :h%>yy        weak_v_stem_pl    ;
        +Sg:h%>yy        sgpl_cases_even   ;
@@ -640,6 +639,7 @@ LEXICON x_33ys
        +Pl:h%>y%>i2     longparpl         ;
        +Pl:h%>y%>i2     tt_longgenpl      ;
  +N+Pl+Ess:h%>y%>i2%>ny PxxK              ; ! not to ess n pecause of the y I guess? wat
+       +Pl:h%>y%>i2     com               ;
 
 
 LEXICON n_33is !!= @CODE@ ruvis, ruumis
@@ -659,7 +659,7 @@ LEXICON x_33is !!= @CODE@ ruvis
           +Pl:%>hii      ess_n             ;
       +Sg+Ill:%>hiisseen K                 ;
       +Pl+Ill:hiissiin   K                 ;
-      +Pl+Com:hiine      K                 ;
+          +Pl:hi2i       com               ;
 
 !LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 !  n_33t ;
@@ -676,7 +676,7 @@ LEXICON x_33t
       +Sg+Ill:hee         mTAVU_VV-ill   ;
 +Pl+Dial/-Por:he%>je      shortestgenpl  ; ! venhejen
 +Pl+Dial/-Por:he%>j       shortparpla    ; ! venhejä
-      +Pl+Com:hee%>i2     com            ;
+          +Pl:hee%>i2     com            ;
 
 LEXICON n_33ts !!= @CODE@ kirves
         +N:   x_33ts ;
@@ -690,7 +690,7 @@ LEXICON x_33ts !!= @CODE@ kirves
 +Pl+Dial/-Por:he%>je      shortestgenpl  ; ! Kirvhejen
 +Pl+Dial/-Por:he%>j       shortparpla    ; ! Kirvhejä
 !      +Pl+Gen:hee%>i2     tt_longgenpl   ; ! Can this be commented out? yes, is in the common
- +Pl+Com:hee%>i2%>ne K              ;
+          +Pl:hee%>i2     com            ;
 
 LEXICON 33_t_ts_common
                    weak_v_stem     ;
@@ -809,7 +809,7 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
 +Dial/-Por+N+Pl:s%>i2      shortparpla    ; ! tervhehisiä
       +N+Pl+Ill:sh%>i2in   K              ;
           +N+Pl:se%>i2     ess_nn         ;
-      +N+Pl+Com:s%>i2%>nne K              ;
+      +N+Pl+Com:s%>i2%>nne K              ; ! TODO onko tässä kaksi nn:ää?
 
 !LEXICON nen  !!= @CODE@ on nainen-sanoille
 !  nen_sg ;
@@ -832,7 +832,7 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
 !     +N+Pl:s         consgenpl      ;
 !     +N+Pl:ss%>i2i   shortestparpl  ;
 !     +N+Pl:sh%>i2    shorterillpl   ;
-! +N+Pl+Com:s%>i2%>ne K              ;
+! +N+Pl+Com:s%>i2     com            ;
 
 
 !LEXICON nom-nen
@@ -875,17 +875,6 @@ LEXICON tConsCase
 LEXICON nom_strong
  +Sg+Nom: K ;
 
-!LEXICON strong_v_stem_even  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
-!  short_par       ;
-!    +Pl:%>i2 com       ;
-!    +Sg:         ess_n           ;
-!    +Pl:%>i2     ess_n           ;
-! TODO fix this mess
-
-!LEXICON strong_v_stem_odd  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
-!  short_par      ;
-!  obl_strong_odd ;
-
 
 LEXICON weak_v_stem !!= @CODE@
   weak_v_stem_sg ;
@@ -904,22 +893,6 @@ LEXICON weak_v_stem_pl
 !! !Sublexica for the vowel stems
 !  - - - - - - - - - - - - - - -
 
-!LEXICON obl_strong_even
-!          nomgen_px ;
-!  +Pl:%>i2 com       ;
-!  +Sg:         ess_n           ;
-!  +Pl:%>i2     ess_n           ;
-
-!LEXICON obl_strong_odd
-!              nomgen_px ;
-!      +Pl:%>i2 com       ;
-!      +Sg:         ess_nn           ;
-!      +Pl:%>i2     ess_nn           ;
-
-! LEXICON nomgen_px
-! +Sg+Nom:     Px        ; ! mattoni
-! +Sg+Gen:     Px        ; ! mattoni
-! +Pl+Nom:     Px        ; ! mattoni
 
 
 LEXICON sgpl_cases_even ! kaikille paitsi neljän koplalle
@@ -1083,3 +1056,53 @@ LEXICON Px
 LEXICON Px-Vn
  +PxSg3:%>^Vn K ;
  +PxPl3:%>^Vn K ;
+
+ !!! Graveyard
+
+
+
+
+ !! !!! Basic paradigms
+ !  ===================
+
+ !! !!Basic vowel stems
+ !  --------------------
+
+ LEXICON nom_strong
+  +Sg+Nom: K ;
+
+ !LEXICON strong_v_stem_even  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
+ !  short_par       ;
+ !    +Pl:%>i2 com       ;
+ !    +Sg:         ess_n           ;
+ !    +Pl:%>i2     ess_n           ;
+ ! TODO fix this mess
+
+ !LEXICON strong_v_stem_odd  !!= @CODE@ ''Kaikki vahvan asteen sijamuodot tähän''
+ !  short_par      ;
+ !  obl_strong_odd ;
+
+
+
+
+ !! !Sublexica for the vowel stems
+ !  - - - - - - - - - - - - - - -
+
+
+
+ !LEXICON obl_strong_even
+ !          nomgen_px ;
+ !  +Pl:%>i2 com       ;
+ !  +Sg:         ess_n           ;
+ !  +Pl:%>i2     ess_n           ;
+
+ !LEXICON obl_strong_odd
+ !              nomgen_px ;
+ !      +Pl:%>i2 com       ;
+ !      +Sg:         ess_nn           ;
+ !      +Pl:%>i2     ess_nn           ;
+
+ ! LEXICON nomgen_px
+ ! +Sg+Nom:     Px        ; ! mattoni
+ ! +Sg+Gen:     Px        ; ! mattoni
+ ! +Pl+Nom:     Px        ; ! mattoni
