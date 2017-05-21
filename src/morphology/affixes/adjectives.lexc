@@ -119,11 +119,9 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin
 +A+Sg:m^A   ess_nn           ;
 +A+Pl:m%>i2 ess_nn           ;
 +A+Sg+Gen:m^A%>n K ;
-+A:m^A weak_v_stem_pl ;  ! Nom pl
 !+A:m^A 2TAVU_V_ill_sg ;
 +A+Sg+Ill:mh^A^A n_PxK ;
 +A+Sg:m^A sgpl_cases_odd ;
-+A:m^A weak_v_stem_pl ;
 +A:m^A weak_v_stem ;
 +A+Pl:m%>i2 sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 +A+Pl:%>mi%>i2 longparpl ;
