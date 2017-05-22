@@ -83,7 +83,6 @@ LEXICON x_1pl !!= * @CODE@ = häät
           :          weak_v_stem     ;
        +Pl:%>i2      sgpl_cases_even ; !! the same affix in sg and pl
 
-          :          1TAVU_VV-ill    ;
          +Pl:%>i2     gen_tten        ;
 +Pl+Dial/Por:%>i2%>ne gen_n           ; ! häinen
 
@@ -488,7 +487,6 @@ LEXICON x_32
      +Sg:^WG          par_tA         ;
      +Sg:e            gen_n          ;
         :e            2TAVU_V_ill_sg ;
-        :e            2TAVU_V_ill_sg ;
      +Sg:e            sgpl_cases_odd ;
      +Sg:e            ess_nn         ;
      +Pl:%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
@@ -519,7 +517,6 @@ LEXICON x_32m_sg
      +Sg:^WG%>n    par_tA         ;
      +Sg:me        gen_n          ;
         :me        weak_v_stem ; ! Nom pl
-        :me        2TAVU_V_ill_sg ;
         :me        2TAVU_V_ill_sg ;
      +Sg:me        sgpl_cases_odd ;
      +Sg:me        ess_nn         ;
@@ -860,15 +857,11 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
 !  --------------------
 
 
-LEXICON weak_v_stem !!= @CODE@ This bs is gonna get deleted
+LEXICON weak_v_stem !!= @CODE@ This bs is gonna get deleted. Replase the genetives with gen_n and just add the nom,
+! or perhaps make nom_t and/or add it to sgpl_cases which is gonna switch names to basic_cases or something.
  +Sg+Gen:%>n K ;
  +Sg+Gen:%>n R ; ! NB follow this.
  +Pl+Nom:%>t     K ;
-! +Pl+Ins:%>i2%>n K ; !! Marginal case, in use only for some words.
-                        !! TODO : identify these, and remove Ins from the
-                        !! general weak_v_stem lexicon.
-
-
 
 
 !! !Sublexica for the basic unified cases, with even and odd variations
@@ -879,13 +872,13 @@ LEXICON sgpl_cases_even ! kaikille paitsi neljän koplalle
  +All:%>le  PxxK              ; ! Lyhyt perusmuoto
             sgpl_cases_common ;
 
-LEXICON sgpl_cases_odd ! neljän koplalle, mitä vittua tää kopla tarkoittaa tässä kontekstissa? Tämä ei ole aku ankka!
+LEXICON sgpl_cases_odd ! neljän koplalle. <- Mitä vittua tää kopla tarkoittaa tässä kontekstissa? Tämä ei ole aku ankka!
  +Ade:%>ll^A PxxK              ; ! Pitkä perusmuoto
  +All:%>lle  PxxK              ; ! Pitkä perusmuoto
              sgpl_cases_common ;
 
 LEXICON sgpl_cases_common
-  weak_v_stem ; ! Adding this here didn't seem to add any bugs.
+  weak_v_stem ; ! for testing purposes here, TODO delete this line
   +Abl:%>lt^A PxxK ;
   +Ine:%>ss^A PxxK ;
   +Ela:%>st^A PxxK ;
@@ -924,32 +917,32 @@ LEXICON par_V
 LEXICON par_tA ! pitäiskö olla omat tt^A ja st^A ? Mange Sg er slik
  +Par:%>t^A PxxK ;
 
-LEXICON par_end       !! * @CODE@ zero, because ii > i
+LEXICON par_end
   +Par: PxxK ;
 
 
 
-LEXICON 1TAVU_VV-ill  !short maahan
-  +Sg+Ill:%>h^V n_PxK ;
+!LEXICON 1TAVU_VV-ill  !short maahan <- This piece of shit was called only once, and that one time was fucking wrong111
+!  +Sg+Ill:%>h^V n_PxK ;
 
-LEXICON 2TAVU_V_ill_sg !long  |  sykshyyn, linnhaan | linna pl.ill. kaksi muotoa po. linnhoin
+LEXICON 2TAVU_V_ill_sg ! NB  USED 12 TIMES        |  sykshyyn, linnhaan | linna pl.ill. kaksi muotoa po. linnhoin
   +Sg+Ill:^HMETA%>h^V^V n_PxK ;
 
-LEXICON 2TAVU_edel-ill !suomhiin
-  +Sg+Ill:^HMETA%>h^V^V n_PxK ;
-  +Pl+Ill:^EDEL%>hii    n_PxK ;
+LEXICON 2TAVU_edel-ill ! NB USED ONCE 1 !         !suomhiin
+  +Sg+Ill:^HMETA%>h^V^V n_PxK ; ! TODO add Twolc description about HMETA
+  +Pl+Ill:^EDEL%>hii    n_PxK ; ! TODO add Twolc description about EDEL
 
-LEXICON mTAVU_VV-ill   ! longer kuninkhaa/sseen
-  +Sg+Ill:%>ssee n_PxK ; ! koska tämä pääte aina sseen
+LEXICON mTAVU_VV-ill ! NB USED 6 TIMES !!!!!!             longer kuninkhaa/sseen
+  +Sg+Ill:%>ssee n_PxK ; ! koska tämä pääte aina sseen ! toimisko tää aina ^V^V:llä myös?
 
-LEXICON shortestillpl
+LEXICON shortestillpl ! NB USED 5 TIMES !!!!!
  +Ill:%> n_PxK ;
 
-LEXICON shortillpl
+LEXICON shortillpl! ! NB USED ONCE 1 !
  +Ill:%>hi n_PxK ;
 
-LEXICON shorterillpl
- +Ill:%>i2 n_PxK ;
+LEXICON shorterillpl ! NB USED TWICE 2 !!
+ +Ill:%>i2 n_PxK ;! Tämä oikea käyttö monikon i:lle? Tuskin, sais olla viime vaiheessa. Consistent abstraction in layers
 
 
 
@@ -1102,6 +1095,8 @@ LEXICON Px-Vn
 
  !! !Sublexica for the vowel stems
  !  - - - - - - - - - - - - - - -
+
+ ! +Pl+Ins:%>i2%>n K ; !! Eira doesn't use this.
 
 
 
