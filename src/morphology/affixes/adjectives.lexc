@@ -36,10 +36,10 @@ LEXICON VANH
 !          +A+Pl:^AO^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
 !                                 2TAVU_V_ill_sg  ;
 ! +A+Pl+Dial/Por:^AO%>i2          shortestgenpl   ; ! shortestgenpl since we have the i
-!+A+Pl+Dial/-Por:^AO^WG%>i2       tt_longgenpl    ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322
-! +A+Pl+Dial/Por:^AO%>i2          shortestparpl   ;
-!+A+Pl+Dial/-Por:^AO%>j           shortparpla     ; ! remove one
-!+A+Pl+Dial/-Por:^AO%>i2          shortparpla     ; ! remove one
+!+A+Pl+Dial/-Por:^AO^WG%>i2       gen_tten        ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322
+! +A+Pl+Dial/Por:^AO%>i2          par_end         ;
+!+A+Pl+Dial/-Por:^AO%>j           par_A           ; ! remove one
+!+A+Pl+Dial/-Por:^AO%>i2          par_A           ; ! remove one
 !      +A+Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ; ! clean this mess
 !          +A+Pl:^AO%>i2          com             ;
 !
@@ -114,7 +114,6 @@ LEXICON a_32m !!= * @CODE@ irtain
 LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin
 
 +A+Sg+Nom:^WGn K ;
-+A:m^A weak_v_stem_sg ;
 +A+Sg+Par:^WG%>nt^A PxxK ;
 +A+Sg:m^A   ess_nn           ;
 +A+Pl:m%>i2 ess_nn           ;
@@ -124,9 +123,9 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin
 +A+Sg:m^A sgpl_cases_odd ;
 +A:m^A weak_v_stem ;
 +A+Pl:m%>i2 sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
-+A+Pl:%>mi%>i2 longparpl ;
-+A+Pl:%>m%>i2 shortparpl ;
-+A+Pl:m%>ii2 tt_longgenpl ;
++A+Pl:%>mi%>i2 par_tA    ;
++A+Pl:%>m%>i2 par_V      ;
++A+Pl:m%>ii2 gen_tten     ;
 +A+Pl:m^HMETAh%>i2i shortestillpl;
 +A+Pl:m%>i2          com         ;
 :m^A comp_mm ;
@@ -173,7 +172,7 @@ LEXICON a_33u !!= * @CODE@ vaipunu:vaipun ! perfect participle
 !+A+Sg+Par:u%>tt^A K ;
 !+A:hee 33_t_ts_common ;
 !+A+Sg+Ill:hee mTAVU_VV-ill ;
-!+A+Pl+Gen:hee%>i2 tt_longgenpl ;
+!+A+Pl+Gen:hee%>i2 gen_tten     ;
 !+A+Pl:hee%>i2  com ;
 +A: PRFPRC_OBL  ;
 
@@ -216,9 +215,9 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A+Sg:%>tt^Om^A ess_n ;
 
 !+Pl:%>tt^Om%>i2%>i a_shortestgenpl ; ! onnettomiin
-+A+Pl:%>tt^Om%>i2%>i tt_longgenpl   ; ! muuttumattomiitten
-+A+Pl:%>tt^Omi%>i2 longparpl        ; ! muuttumattomiita
-+A+Pl:%>tt^Omi%>i2%> shortestparpl  ; ! muuttumattomii
++A+Pl:%>tt^Om%>i2%>i gen_tten       ; ! muuttumattomiitten
++A+Pl:%>tt^Omi%>i2 par_tA           ; ! muuttumattomiita
++A+Pl:%>tt^Omi%>i2%> par_end        ; ! muuttumattomii
 
 !+A:%>tt^Omh%>i2 shorterillpl ;
 +A:%>tt^Om^A a_loputon ;
@@ -248,10 +247,10 @@ LEXICON x_43odd !!= * @CODE@ onneton
 +Sg+Ill:%>tt^Omh^A^A n_PxK ;
 :%>tt^Om^A sgpl_cases_common ;
 +Pl+Ill:%>tt^Omh%>i2in K ;
-+Pl:%>tt^Om%>i2%>i a_shortestgenpl ; ! onnettomiin
-+Pl:%>tt^Om%>i2%>i tt_longgenpl    ; ! onnettomiitten
-+Pl:%>tt^Omi%>i2%> longparpl      ; ! onnettomiita
-+Pl:%>tt^Omi%>i2 shortestparpl  ; ! onnettomii
++Pl:%>tt^Om%>i2%>i gen_n ; ! onnettomiin
++Pl:%>tt^Om%>i2%>i gen_tten        ; ! onnettomiitten
++Pl:%>tt^Omi%>i2%> par_tA         ; ! onnettomiita
++Pl:%>tt^Omi%>i2 par_end        ; ! onnettomii
 
 
 :%>tt^Omh%>i2 shorterillpl ;
@@ -281,8 +280,8 @@ LEXICON x_43odd !!= * @CODE@ onneton
 !LEXICON shortest-illativ_sg  !jos h ei siirry
 ! +Sg+Ill:%>^V n_PxK ;
 
-LEXICON a_shortestgenpl !! * @CODE@ zero, because ii > i
- +Gen: n_PxK ;
+!LEXICON a_shortestgenpl !! * @CODE@ zero, because ii > i
+! +Gen: n_PxK ;
 
 
 !LEXICON a_shorterillpl
@@ -295,7 +294,7 @@ LEXICON a_loputon
 
 LEXICON a_loputonpl
  +Pl:%>i2 sgpl_cases_odd ;  ! the same affix in sg and pl -- tsekkaa long
- +Pl:%>i2 shortgenpl ;
+ +Pl:%>i2 gen_Vn     ;
  +Pl:%>i2 ess_nn           ;
 
 
@@ -306,7 +305,7 @@ LEXICON a_loputoneven
 
 LEXICON a_loputonevenpl
 +Pl:%>i2 sgpl_cases_even ;  ! the same affix in sg and pl -- tsekkaa long
-!+Pl:%>i2 shortgenpl ;
+!+Pl:%>i2 gen_Vn     ;
  +Pl:%>i2     ess_n           ;
 
 
