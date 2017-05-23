@@ -745,7 +745,7 @@ LEXICON x_41pl !!= * @CODE@ = veljekset
 +Pl+Dial/-Por:ks%>i2     par_A           ; ! veljeksiä
       +Pl+Ill:ksh%>i2in  K               ;
           +Sg:kse        ess_n           ;
-          +Pl:kse%>i2    ess_n           ;
+          +Pl:kse%>i2    ess_nn          ; ! veljeksinnä
           +Pl:ks%>i2     com             ; ! veljeksine
   !    +Pl+Par:%>ksii     K               ;
 
@@ -924,25 +924,68 @@ LEXICON par_end
 
 !LEXICON 1TAVU_VV-ill  !short maahan <- This piece of shit was called only once, and that one time was fucking wrong111
 !  +Sg+Ill:%>h^V n_PxK ;
+! 1.  hVn > maahan
 
 LEXICON 2TAVU_V_ill_sg ! NB  USED 12 TIMES        |  sykshyyn, linnhaan | linna pl.ill. kaksi muotoa po. linnhoin
   +Sg+Ill:^HMETA%>h^V^V n_PxK ;
+! 2.  hVVn > tunturhiin
 
 LEXICON 2TAVU_edel-ill ! NB USED ONCE 1 !         !suomhiin
   +Sg+Ill:^HMETA%>h^V^V n_PxK ; ! TODO add Twolc description about HMETA
+! 2.  hVVn > tunturhiin
   +Pl+Ill:^EDEL%>hii    n_PxK ; ! TODO add Twolc description about EDEL
 
-LEXICON mTAVU_VV-ill ! NB USED 6 TIMES !!!!!!             longer kuninkhaa/sseen
+LEXICON mTAVU_VV-ill ! NB USED 6 TIMES             longer kuninkhaa/sseen
   +Sg+Ill:%>ssee n_PxK ; ! koska tämä pääte aina sseen ! toimisko tää aina ^V^V:llä myös?
+! 3.  sseen > rukhiisseen
 
-LEXICON shortestillpl ! NB USED 5 TIMES !!!!!
+LEXICON shortestillpl ! NB USED 5 TIMES
  +Ill:%> n_PxK ;
 
 LEXICON shortillpl! ! NB USED ONCE 1 !
  +Ill:%>hi n_PxK ;
+! 4.  hin > maihin
 
 LEXICON shorterillpl ! NB USED TWICE 2 !!
  +Ill:%>i2 n_PxK ;! Tämä oikea käyttö monikon i:lle? Tuskin, sais olla viime vaiheessa. Consistent abstraction in layers
+
+
+
+ illatiivissa oon kolme suffiksityyppii
+
+ ! <-------------- Singulaarit
+
+LEXICON ill_hVn !  1.  hVn > maahan
++ill:%>h^V      n_PxK ;
+
+LEXICON ill_hVVn !  2.  hVVn > tunturhiin
++ill:%>h^V^V    n_PxK ;!   (VV tarkoittaa, ette siinä oon kaksi vokaalii)
+
+LEXICON ill_sseen !  3.  sseen > rukhiisseen
++ill:%>ssee     n_PxK ;
+
+! <--------------- Pluralit
+
+LEXICON ill_hin !  4.  hin > maihin
++ill:%>hi       n_PxK ;
+
+LEXICON ill_hVin !  5.  hVin > tunturhiin (tai toinen esimerkki: sivakkhoin)
++ill:%>h^Vi     n_PxK ;
+
+LEXICON ill_ssiin !  6.  ssiin > rukhiissiin
++ill:%>ssii     n_PxK ;!      säänön mukhaan hVn (maahan) saa -hin monikossa (maihin)
+
+LEXICON ill_hVin !  7.  hVVn (tunturhiin) saa hVin (tunturhiin)
++ill:%>h^i      n_PxK ;! (se näyttää samanlaiselta monikossa, mutta ero oon, ette toinen -i siinä oon monikkopääte)
+
+LEXICON ill_ssiin !  8.  sseen (rukhiisseen) saa ssiin (rukhiissiin)
++ill:%>ssii     n_PxK ;
+
+! ymmärtääkseni hVn oon ko oon yksitavuinen sana (tai viikonpäivä)
+! esimerkiksi työhön, maahan, puuhun, tiistaihin jne
+!
+! sseen oon ko vartalo loppuu pitkhään vokaalhiin,
+! esimerkiksi kurkkii-sseen, kaunii-sseen jne
 
 
 
