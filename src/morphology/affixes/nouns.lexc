@@ -87,7 +87,7 @@ LEXICON x_1pl !!= * @CODE@ = häät
 +Pl+Dial/Por:%>i2%>ne gen_n           ; ! häinen
 
        +Pl:%>i2      par_tA          ;
-       +Pl:%>i2      shortillpl      ;
+!       +Pl:%>i2      ill_hin         ; ! TODO UNCOMMENT, THIS IS CORRECT
        +Pl:%>i2      ess_n           ;
        +Pl:%>i2      com               ;
 
@@ -582,10 +582,10 @@ LEXICON n_33as !!= @CODE@ rakas, asukas
 LEXICON x_33as
       +Sg+Nom:a^WG%>s      K                 ;
           +Sg:a^WG%>s      par_tA            ;
-             :haa          mTAVU_VV-ill      ;
-      +Pl+Ill:h%>aissiin   K                 ;
-             :h%>aa        weak_v_stem    ;
-             :h%>aa        weak_v_stem    ;
+          +Sg:haa          ill_sseen         ;
+!      +Pl+Ill:h%>aissiin   K                 ;
+          +Pl:h%>ai   x_33_as_test_for_illative ;
+             :h%>aa        weak_v_stem       ;
           +Sg:h%>aa        ess_n             ;
           +Sg:h%>aa        sgpl_cases_even   ;
           +Pl:h%>a%>i2     sgpl_cases_even   ;
@@ -597,6 +597,8 @@ LEXICON x_33as
           +Pl:h%>aa%>i2    ess_n             ;
           +Pl:h%>a%>i2     com               ;
 
+  LEXICON x_33_as_test_for_illative
++Ill:ssiin K ;
 
 !LEXICON n_33aes
 !        +N:             x_33aes           ;
@@ -604,9 +606,8 @@ LEXICON x_33as
 LEXICON x_33aes
    +Sg+Nom:ä^WG%>s      K                 ;
        +Sg:ä^WG%>s      par_tA            ;
-          :hää          mTAVU_VV-ill      ;
+       +Sg:hää          ill_sseen         ;
    +Pl+Ill:h%>äissiin   K                 ;
-          :h%>ää        weak_v_stem       ;
           :h%>ää        weak_v_stem       ;
        +Sg:h%>ää        ess_n             ;
        +Pl:h%>ää%>i2    ess_n             ;
@@ -623,13 +624,12 @@ LEXICON x_33aes
 !        +N:        x_33ys ;
 ! +N+Sg+Nom:%>y^WGs R      ;
 
-LEXICON x_33ys
+LEXICON x_33ys ! TODO DELETE THIS PROBABLy! ONLY ONE WORD, AN ADJECTIVE, IS IN IT
    +Sg+Nom:%>y^WG%>s    K                 ;
        +Sg:%>y^WG%>s    par_tA            ;
-          :h%>yy        mTAVU_VV-ill      ;
+       +Sg:h%>yy        ill_sseen         ;
    +Pl+Ill:h%>yissiin   K                 ;
-          :h%>yy        weak_v_stem    ;
-          :h%>yy        weak_v_stem    ;
+          :h%>yy        weak_v_stem       ;
        +Sg:h%>yy        sgpl_cases_even   ;
        +Pl:h%>y%>i2     sgpl_cases_even   ;
        +Pl:h%>y%>i2     par_tA            ;
@@ -671,7 +671,7 @@ LEXICON x_33t
 +Dial/-Por+Sg+Nom:e^WG        K              ;
               +Sg:e^WG%>t     par_tA         ;
                  :hee         33_t_ts_common ;
-          +Sg+Ill:hee         mTAVU_VV-ill   ;
+              +Sg:hee         ill_sseen      ;
     +Pl+Dial/-Por:he%>je      gen_n          ; ! venhejen
     +Pl+Dial/-Por:he%>j       par_A          ; ! venhejä
               +Pl:hee%>i2     com            ;
@@ -684,7 +684,7 @@ LEXICON x_33ts !!= @CODE@ kirves
       +Sg+Nom:es          K              ;
           +Sg:es          par_tA         ;
              :hee         33_t_ts_common ;
-      +Sg+Ill:hee         mTAVU_VV-ill   ;
+          +Sg:hee         ill_sseen      ;
 +Pl+Dial/-Por:he%>je      gen_n          ; ! Kirvhejen
 +Pl+Dial/-Por:he%>j       par_A          ; ! Kirvhejä
 !      +Pl+Gen:hee%>i2     gen_tten       ; ! Can this be commented out? yes, is in the common
@@ -695,7 +695,7 @@ LEXICON 33_t_ts_common
       +Sg:         sgpl_cases_even ; !! these two lexica for cases with
       +Sg:         ess_n           ;
       +Pl:%>i2     sgpl_cases_even ; !! the same affix in sg and pl -- tsekkaa long
-                   mTAVU_VV-ill    ;
+      +Sg:         ill_sseen       ;
       +Pl:%>i2     gen_tten        ;
       +Pl:%>i2     par_tA          ;
 ! +Pl+Ill:heissiin K               ;
@@ -776,7 +776,8 @@ LEXICON x_42 ! nainen, kainulainen
  +Pl+Dial/Por:ss%>i2i   par_end         ; ! kainulaissii
  +Pl+Dial/Por:ss%>i2i   par_tA          ; ! kainulaissiita, naissiita
 +Pl+Dial/-Por:s%>i2     par_A           ; ! kainulaisia
-          +Pl:sh%>i2    shorterillpl    ;
+!          +Pl:s         ill_hVin        ; ! NB testing, used to be next line: UNDOMMENT
+!          +Pl:sh%>i2    shorterillpl    ;
           +Pl:se%>i2    ess_n           ; ! naisina
           +Pl:s%>i2     com             ;
 
@@ -922,7 +923,7 @@ LEXICON par_end
 
 
 
-!LEXICON 1TAVU_VV-ill  !short maahan <- This piece of shit was called only once, and that one time was fucking wrong111
+!LEXICON 1TAVU_VV-ill  !short maahan
 !  +Sg+Ill:%>h^V n_PxK ;
 ! 1.  hVn > maahan
 
@@ -935,51 +936,38 @@ LEXICON 2TAVU_edel-ill ! NB USED ONCE 1 !         !suomhiin
 ! 2.  hVVn > tunturhiin
   +Pl+Ill:^EDEL%>hii    n_PxK ; ! TODO add Twolc description about EDEL
 
-LEXICON mTAVU_VV-ill ! NB USED 6 TIMES             longer kuninkhaa/sseen
-  +Sg+Ill:%>ssee n_PxK ; ! koska tämä pääte aina sseen ! toimisko tää aina ^V^V:llä myös?
-! 3.  sseen > rukhiisseen
-
-LEXICON shortestillpl ! NB USED 5 TIMES
+LEXICON shortestillpl ! NB USED 5 TIMES, always pl & either ^HMETAh%>i2i or ^HMETA%>hii
  +Ill:%> n_PxK ;
 
-LEXICON shortillpl! ! NB USED ONCE 1 !
- +Ill:%>hi n_PxK ;
-! 4.  hin > maihin
-
-LEXICON shorterillpl ! NB USED TWICE 2 !!
+LEXICON shorterillpl ! NB USED TWICE 2 !! ihmishiin kainulaishiin
  +Ill:%>i2 n_PxK ;! Tämä oikea käyttö monikon i:lle? Tuskin, sais olla viime vaiheessa. Consistent abstraction in layers
 
 
-
- illatiivissa oon kolme suffiksityyppii
+! Uudet:
 
  ! <-------------- Singulaarit
 
-LEXICON ill_hVn !  1.  hVn > maahan
-+ill:%>h^V      n_PxK ;
+!LEXICON ill_hVn !  1.  hVn > maahan
+!+ill:%>h^V      n_PxK ;
 
-LEXICON ill_hVVn !  2.  hVVn > tunturhiin
-+ill:%>h^V^V    n_PxK ;!   (VV tarkoittaa, ette siinä oon kaksi vokaalii)
+!LEXICON ill_hVVn !  2.  hVVn > tunturhiin
+!+ill:%>h^V^V    n_PxK ;!   (VV tarkoittaa, ette siinä oon kaksi vokaalii)
 
-LEXICON ill_sseen !  3.  sseen > rukhiisseen
+LEXICON ill_sseen !  3.  sseen > rukhiisseen, kuninkhaa>sseen, previously mTAVU_VV-ill
 +ill:%>ssee     n_PxK ;
 
 ! <--------------- Pluralit
 
-LEXICON ill_hin !  4.  hin > maihin
-+ill:%>hi       n_PxK ;
+!LEXICON ill_hin !  4.  hin > maihin
+!+ill:%>hi       n_PxK ;
 
-LEXICON ill_hVin !  5.  hVin > tunturhiin (tai toinen esimerkki: sivakkhoin)
-+ill:%>h^Vi     n_PxK ;
+!LEXICON ill_hVin !  5.  hVin > tunturhiin (ja sivakkhoin), ehkä pitäis pl:ssä olla i2 jos yhteiset sg & pl
+!+ill:h%>i2%>i2     n_PxK ; ! on Sg:ssä hVVn
+!+ill:%<h^Vi        n_PxK ;
 
-LEXICON ill_ssiin !  6.  ssiin > rukhiissiin
-+ill:%>ssii     n_PxK ;!      säänön mukhaan hVn (maahan) saa -hin monikossa (maihin)
+!LEXICON ill_ssiin !  6.  ssiin > rukhiissiin, syksyissii
+!+ill:%>ssii     n_PxK ;!      säänön mukhaan hVn (maahan) saa -hin monikossa (maihin)
 
-LEXICON ill_hVin !  7.  hVVn (tunturhiin) saa hVin (tunturhiin)
-+ill:%>h^i      n_PxK ;! (se näyttää samanlaiselta monikossa, mutta ero oon, ette toinen -i siinä oon monikkopääte)
-
-LEXICON ill_ssiin !  8.  sseen (rukhiisseen) saa ssiin (rukhiissiin)
-+ill:%>ssii     n_PxK ;
 
 ! ymmärtääkseni hVn oon ko oon yksitavuinen sana (tai viikonpäivä)
 ! esimerkiksi työhön, maahan, puuhun, tiistaihin jne
