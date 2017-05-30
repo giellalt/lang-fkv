@@ -41,7 +41,7 @@ LEXICON VANH
 !+A+Pl+Dial/-Por:^AO%>j           par_A           ; ! remove one
 !+A+Pl+Dial/-Por:^AO%>i2          par_A           ; ! remove one
 !      +A+Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ; ! clean this mess
-!          +A+Pl:^AO%>i2          com             ;
+!          +A+Pl:^AO%>i2          com_ne          ;
 !
 !               :                 comp_m_odd         ; ! vanhemat, vanheman
 !               :%>i5i            superl_m_odd    ; ! vanhiin, vanhiimet
@@ -121,13 +121,15 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin
 !+A:m^A 2TAVU_V_ill_sg ;
 +A+Sg+Ill:mh^A^A n_PxK ;
 +A+Sg:m^A sgpl_cases_odd ;
-+A:m^A weak_v_stem ;
++A+Sg:m^A        gen_n_sg       ;
++A+Pl:m^A        nom_t          ;
+
 +A+Pl:m%>i2 sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 +A+Pl:%>mi%>i2 par_tA    ;
 +A+Pl:%>m%>i2 par_V      ;
 +A+Pl:m%>ii2 gen_tten     ;
 +A+Pl:m^HMETA  ill_hiin ;
-+A+Pl:m%>i2          com         ;
++A+Pl:m%>i2          com_ne      ;
 :m^A comp_mm ;
 :mi5i superl_m_even ;
 +A+Pl+Comp+Gen+Dial/Por:m^A%>mpp%>i2%>in K ;
@@ -173,7 +175,7 @@ LEXICON a_33u !!= * @CODE@ vaipunu:vaipun ! perfect participle
 !+A:hee 33_t_ts_common ;
 !+A+Sg+Ill:hee mTAVU_VV-ill ;
 !+A+Pl+Gen:hee%>i2 gen_tten     ;
-!+A+Pl:hee%>i2  com ;
+!+A+Pl:hee%>i2  com_ne;
 +A: PRFPRC_OBL  ;
 
 LEXICON a_33y !!= * @CODE@ väsyny:äsyn ! perfect participle
@@ -222,7 +224,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 !+A:%>tt^Omh%>i2 shorterillpl ;
 +A:%>tt^Om^A a_loputon ;
 +A:%>tt^Om a_loputonpl ;
-+A+Pl:%>tt^Om%>i2 com ;
++A+Pl:%>tt^Om%>i2 com_ne ;
 
 :%>tt^Om^A comp_mm ;
 +A+Pl+Comp+Gen:%>tt^Om^A%>mm%>ii2tten K ;
@@ -252,9 +254,7 @@ LEXICON x_43odd !!= * @CODE@ onneton
 +Pl:%>tt^Omi%>i2%> par_tA         ; ! onnettomiita
 +Pl:%>tt^Omi%>i2 par_end        ; ! onnettomii
 
-
-:%>tt^Omh%>i2 shorterillpl ;
-+Pl:%>tt^Om%>i2 com ;
++Pl:%>tt^Om%>i2 com_ne ;
 :%>tt^Om^A a_loputoneven ;
 :%>tt^Om a_loputonevenpl ;
 
@@ -289,7 +289,8 @@ LEXICON x_43odd !!= * @CODE@ onneton
 
 
 LEXICON a_loputon
- weak_v_stem ;
++Sg:        gen_n_sg       ;
++Pl:        nom_t          ;
  +Sg: sgpl_cases_odd ;      ! these two lexica for cases with
 
 LEXICON a_loputonpl
@@ -299,8 +300,9 @@ LEXICON a_loputonpl
 
 
 LEXICON a_loputoneven
- weak_v_stem ;
-+Sg:sgpl_cases_even ;      ! these two lexica for cases with
++Sg:        gen_n_sg       ;
++Pl:        nom_t          ;
++Sg: sgpl_cases_even ;      ! these two lexica for cases with
 +Sg:         ess_n           ;
 
 LEXICON a_loputonevenpl
@@ -341,7 +343,7 @@ LEXICON comp_m_common
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Comp+Par+Dial/-Por:%>mp%>i2%>^A K  ; ! sinnikkhäämpiä
-+A+Pl+Comp:%>mp%>i2    com ;
++A+Pl+Comp:%>mp%>i2    com_ne;
 
 
 LEXICON comp_onneton
@@ -360,7 +362,7 @@ LEXICON comp_onneton
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Comp+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Comp+Ess:%>mp%>i2%>nn^A    K ;
-+A+Pl+Comp:%>mp%>i2         com ;
++A+Pl+Comp:%>mp%>i2         com_ne;
 
 LEXICON comp_mm
 
@@ -380,7 +382,7 @@ LEXICON comp_mm
 +A+Pl+Comp+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Comp+Par+Dial/-Por:%>mp%>i2%>^A K  ;
 +A+Pl+Comp:%>mp%>i2       ess_n ;
-+A+Pl+Comp:%>mp%>i2       com   ;
++A+Pl+Comp:%>mp%>i2       com_ne ;
 
 
 LEXICON superl_m_even
@@ -412,7 +414,7 @@ LEXICON superl_m_common
 +A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
 +A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Superl+Par+Dial/-Por:%>mp%>i2%>^A K  ;
-+A+Pl+Superl:%>mp%>i2       com ;
++A+Pl+Superl:%>mp%>i2       com_ne;
 ! pl gen variation in LEXICON a_33as
 
 LEXICON superl_onneton
@@ -433,7 +435,7 @@ LEXICON superl_onneton
 +A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
 !+A+Pl+Superl+Par:%>mp%>i2%>^A K  ; ! onnettommiimpia
 +A+Pl+Superl:%>mp%>i2          ess_n ;
-+A+Pl+Superl:%>mp%>i2          com ;
++A+Pl+Superl:%>mp%>i2          com_ne;
 
 LEXICON superl_mm
 +A+Sg+Superl+Nom:%>n K ;
@@ -453,7 +455,7 @@ LEXICON superl_mm
 +A+Pl+Superl+Par+Dial/-Por:%>mp%>i2%>^A K  ;
 +A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
 +A+Pl+Superl:%>mp%>i2         ess_n       ;
-+A+Pl+Superl:%>mp%>i2         com         ;
++A+Pl+Superl:%>mp%>i2         com_ne      ;
 
 
 LEXICON superl_in
