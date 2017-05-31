@@ -886,7 +886,7 @@ valmis:valm a_33is ;
 kaunis:kaun a_33is ;
 raitis:raitt a_33is ;
 tivis:tiv a_33is ;
-kärys:kär a_33ys ;
+kärys:kär a_33ys ; ! TODO Should 33ys be deleted?
 ahnet:ahn a_33t ;
 tiinet:tiin a_33t ;
 kuolu:kuol a_33u ;
@@ -896,14 +896,8 @@ oppinu:oppin a_33u ;
 ravistunnu:ravistunn a_33u ;
 hermostunnu:hermostunn a_33u ;
 suuttunu:suuttun a_33u ;
-hengestynny:hengestynn a_33y ;
-väsyny:väsyn a_33y ;
-vastasyntyny:vastasyntyn a_33y ;
-mäđäny:mäđän a_33y ;
-aijankohthainen:aijankohthai a_42odd ;
-ajattelematon:ajattelema a_43 ;
-
-
+vanhaa:vanha VANH ; ! formerly a_23, wrong
+vapaa a_x ; ! formerly a_23, wrong
 ehyt a_x ; ! :eh
 ohut a_x ; ! :oh
 lyhyt a_x ; ! :lyh
@@ -912,7 +906,4 @@ paras a_x ;
 kahđekses a_x ;
 viiđes a_x ;
 tuhat a_x ;
-muu a_x ;
-vanha a_x ; ! formerly a_23, wrong
-vapaa a_x ; ! formerly a_23, wrong
 
