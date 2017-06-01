@@ -2,7 +2,7 @@
 
 !! !!!Pronominien vartalot
 
-!! Itse taivutus jatkuu 
+!! Itse taivutus jatkuu
 
 LEXICON Pronoun
 doublecasepronouns ;
@@ -11,10 +11,10 @@ doublecasepronounspl  ;
 
 !! Persoonapronominit
 
-mie+Pron+Pers+Sg1:mi         12pronsg   ; !!= * @CODE@ 
-mie+Pron+Pers+Sg1+Use/NG:m         12pronsg_short   ; !!= * @CODE@ 
+mie+Pron+Pers+Sg1:mi         12pronsg   ; !!= * @CODE@
+mie+Pron+Pers+Sg1+Use/NG:m         12pronsg_short   ; !!= * @CODE@
 sie+Pron+Pers+Sg2:si         12pronsg   ; !!  * ...
-sie+Pron+Pers+Sg2+Use/NG:s         12pronsg_short   ; !!= * @CODE@ 
+sie+Pron+Pers+Sg2+Use/NG:s         12pronsg_short   ; !!= * @CODE@
 hän+Pron+Pers+Sg3:hän        han_pron   ;
 se+Pron+Pers+Sg3:            se_pron  ;
 met+Pron+Pers+Pl1:me         123pronpl   ;
@@ -28,7 +28,7 @@ net+Pron+Pers+Pl3:ni         netpronpl   ; ! e>i
 !! Demonstratiivipronominit
 
 tämä+Pron+Dem:tä            tama ;  !!= * @CODE@t
-tuo+Pron+Dem:tuo            tuo ; 
+tuo+Pron+Dem:tuo            tuo ;
 se+Pron+Dem+Sg:             se_pron ;
 nämät+Pron+Dem+Pl+Nom:nämät K ;
 nämät+Pron+Dem+Pl:näi       namaobl ;
@@ -40,9 +40,9 @@ net+Pron+Dem+Pl:nii         namaobl ; ! e>i
 
 !! Kysymäpronominit
 kuka+Pron+Interr+Sg+Nom:kuka K ; !!= * @CODE@ nom
-kuka+Pron+Interr+Pl+Nom:kukka  K  ;  !!= * @CODE@ 
+kuka+Pron+Interr+Pl+Nom:kukka  K  ;  !!= * @CODE@
 
-kuka+Pron+Interr:ke             kuka_relkys_obl  ;  !!= * @CODE@ 
+kuka+Pron+Interr:ke             kuka_relkys_obl  ;  !!= * @CODE@
 kumpi+Pron+Interr:kum kumpi ;
 
 mikä+Pron+Interr:mi             mi_rel  ;  !!= * @CODE@
@@ -61,8 +61,8 @@ itteni+Pron+Refl+Sg:itteni  K   ;
 itteni+Pron+Refl+Sg:itt     s1refpron ;
 ittesti+Pron+Refl+Sg:ittesti    K;
 ittesti+Pron+Refl+Sg:itt    s2refpron ;
-ittemä+Pron+Refl+Pl:ittemä  K   ; 
-ittemä+Pron+Refl+Pl:itt     p1refpron ; 
+ittemä+Pron+Refl+Pl:ittemä  K   ;
+ittemä+Pron+Refl+Pl:itt     p1refpron ;
 ittenä+Pron+Refl+Pl:ittenä  K   ;
 ittenä+Pron+Refl+Pl:itt     p2refpron ;
 ittensä+Pron+Refl+Pl:ittensä    K   ;
@@ -83,6 +83,8 @@ muutamat+Pron+Indef+Pl:muutamat         K   ;
 muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
 
 sama+Pron+Indef:sama                    x_21 ;
+
+muu+Pron+Indef:muu                      x_1 ;
 
 
 yksi+Pron+Indef:                        yh_indef ;
@@ -110,7 +112,7 @@ moni+Pron+Qu:mon                        moni_kvant ;
 
 kukhaan+Pron+Qu:kukhaan         K   ;
 kukhaan+Pron+Qu:ke              kielto  ;
-mikhään+Pron+Qu:mi              mi_kielto  ; 
+mikhään+Pron+Qu:mi              mi_kielto  ;
 yksikhään+Pron+Qu:yht           yht_kielto ;
 kumpikhaan+Pron+Qu:kumpikhaan   K   ;
 kumpikhaan+Pron+Qu:kump         kump_kielto;
@@ -125,6 +127,8 @@ paljo+Pron+Qu+Pl:paljo                plpaljo_kvant ;
 monta+Pron+Qu:mon                     plmon_kvant ;
 harva+Pron+Qu+Sg:harv                 ainut_kvant ;
 harva+Pron+Qu+Pl:harv                 plainut_kvant ;
+
+
 
 
 !!Sannoi_ja_haamui_pronominit
@@ -147,5 +151,3 @@ harva+Pron+Qu+Pl:harv                 plainut_kvant ;
 !!sama pron. muistuttava sana
 !!tuomoinen
 !!yksikhään
-
-
