@@ -190,7 +190,7 @@ LEXICON x_22
        +Pl:^WG         nom_t              ;
        +Sg:^WG         sgpl_cases_even    ; ! the same affix in sg and pl
  +Dial/Por+Pl:^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
-+Dial/-Por+Pl:^WG%>    sgpl_cases_even    ; ! Adding  to block i:0
++Dial/-Por+Pl:^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
           +Sg:^HMETA   ill_hVVn           ;
           +Pl:^HMETA   ill_hiin           ;
 !   +Pl:^WG%>i2       gen_tten           ;
@@ -219,10 +219,10 @@ LEXICON x_22
 ! !+Pl+Tra:%>i2kse     PxxK               ;
 
 LEXICON n_22odd !!= * @CODE@  kajava
-      +N:  x_22odd ;
- +Sg+Nom:  K       ;
+  +N:  x_22odd ;
 
 LEXICON x_22odd !!= * @CODE@  kajava
+      +Sg+Nom:             K              ;
           +Sg:^WG          sgpl_cases_odd ;
           +Sg:^WG          gen_n_sg       ;
  +Dial/Por+Sg:             par_V          ;
@@ -311,18 +311,19 @@ LEXICON n_23        !!= * @CODE@  valkkee, hoppee, kauhhee
 LEXICON x_23
           +Sg+Nom:e          K               ;
  +Sg+Nom+Err/Orth:%>%^A      K               ;
-              +Sg:e          sgpl_cases_even ;
               +Sg:e          gen_n_sg        ;
-              +Pl:e          nom_t           ;
-              +Sg:e          ill_sseen       ;
-              +Pl:e%>i2      ill_ssiin       ;
               +Sg:e          par_tA          ;
+              +Sg:e          ill_sseen       ;
               +Sg:e          ess_n           ;
-              +Pl:e%>i2      par_tA          ;
+              +Sg:e          sgpl_cases_even ;
+
+              +Pl:e          nom_t           ;
               +Pl:e%>i2      gen_tten        ;
-              +Pl:e%>i2      sgpl_cases_even ;
+              +Pl:e%>i2      par_tA          ;
+              +Pl:e%>i2      ill_ssiin       ;
               +Pl:e%>i2      ess_n           ;
               +Pl:e%>i2      com_ne          ;
+              +Pl:e%>i2      sgpl_cases_even ;
 
 !LEXICON x_23_-Por ! look at x_22oi for inspiration, as the -ki cases work
 !      +Sg:^E2I^A     nom             ; ! valkia
@@ -355,26 +356,27 @@ LEXICON x_23
 
 LEXICON n_23ii        !!= * @CODE@  assii
  +N+Dial/Por:         x_23ii           ;
-+N+Dial/-Por:         x_22oi           ; ! skriv dyp kommentar her
++N+Dial/-Por:         x_22oi           ; ! TODO skriv dyp kommentar her
  +N+Sg+Nom:           R                ;
 
 LEXICON x_23ii
-      +Sg+Nom:        K               ;
-          +Sg:        par_tA          ;
-          +Sg:        ill_sseen       ;
-          +Pl:        ill_ssiin       ;
-          +Sg:        ess_n           ;
- +Dial/Por+Pl:        gen_tten        ;
-+Dial/-Por+Pl:^AO%>i2 gen_tten        ;
- +Dial/Por+Pl:        par_tA          ;
-+Dial/-Por+Pl:^AO%>i2 par_tA          ;
-          +Sg:        gen_n_sg        ;
-          +Pl:        nom_t           ;
-          +Sg:        sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
- +Dial/Por+Pl:        sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
-+Dial/-Por+Pl:^AO%>i2 sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
-          +Pl:        ess_n           ;
-          +Pl:^AO     com_ne          ;
+      +Sg+Nom:            K                   ;
+          +Sg:            gen_n_sg            ;
+          +Sg:            par_tA              ;
+          +Sg:            ill_sseen           ;
+          +Sg:            ess_n               ;
+          +Sg:            sgpl_cases_even     ; !! * @CODE@  for same affix in sg and pl
+
+          +Pl:            nom_t               ;
+ +Dial/Por+Pl:            gen_tten            ;
++Dial/-Por+Pl:^AO%>i2     gen_tten            ;
+ +Dial/Por+Pl:            par_tA              ;
++Dial/-Por+Pl:^AO%>i2     par_tA              ;
+          +Pl:            ill_ssiin           ;
+          +Pl:            ess_n               ;
+          +Pl:^AO         com_ne              ;
+ +Dial/Por+Pl:            sgpl_cases_even     ; !! * @CODE@  for same affix in sg and pl
++Dial/-Por+Pl:^AO%>i2     sgpl_cases_even     ; !! * @CODE@  for same affix in sg and pl
 
 
 LEXICON n_31        !!= @CODE@  kieli
@@ -408,21 +410,22 @@ LEXICON n_31m        !!= @CODE@ lumi lu
 
 LEXICON x_31m
  +Sg+Nom:mi           K               ; ! ^EI e to i
-     +Sg:n            par_tA          ;
      +Sg:me^WG        gen_n_sg        ;
-     +Pl:me^WG        nom_t           ;
+     +Sg:n            par_tA          ;
+ +Sg+Ill:m^HMETA%>hee n_PxK           ;
+     +Sg:m^HMETA      ill_hVVn        ; ! ei toimi viel, twolc issues
+     +Sg:me           ess_n           ;
+
 
      +Sg:me^WG        sgpl_cases_even ; ! these two lexica for cases with
-     +Sg:me           ess_n           ;
      +Pl:m^WG%>i2     sgpl_cases_even ; ! the same affix in sg and pl
 
+         +Pl:me^WG        nom_t           ;
  +Dial/Por+Pl:me%>i2       gen_Vn          ; ! lumiin
 +Dial/-Por+Pl:m%>i2        gen_tten        ; ! lumitten
  +Dial/Por+Pl:me%>i2       par_V           ; ! lumii
 +Dial/-Por+Pl:me%>i2       par_A           ; ! lumia
 
- +Sg+Ill:m^HMETA%>hee n_PxK           ;
-     +Sg:m^HMETA       ill_hVVn        ; ! ei toimi viel, twolc issues
 ! +Pl+Ill:m^EDEL%>hii  n_PxK           ;
      +Pl:m^EDEL       ill_hiin        ;
      +Pl:me%>i2       ess_n           ;
