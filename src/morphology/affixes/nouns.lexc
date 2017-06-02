@@ -250,7 +250,7 @@ LEXICON n_22oddi !!= * @CODE@  meininki, tunturi
  +N+Sg+Nom:     R        ;
      +N+Sg:^WG  gen_n    ;
 
-LEXICON x_22oddi !!= * @CODE@  meininki, tunturi
+LEXICON x_22oddi
           +Sg+Nom:        K               ;
               +Sg:^WG     sgpl_cases_odd  ;
               +Sg:^WG     gen_n_sg        ;
@@ -267,7 +267,8 @@ LEXICON x_22oddi !!= * @CODE@  meininki, tunturi
      +Dial/Por+Pl:%>i2    par_tA          ;
     +Dial/-Por+Pl:%>      par_A           ;
               +Pl:^HMETA  ill_hiin        ;
-              +Pl:        ess_nn          ;
+     +Dial/Por+Pl:i2      ess_n           ;
+    +Dial/-Por+Pl:        ess_nn          ;
      +Dial/Por+Pl:i2      com_ne          ;
     +Dial/-Por+Pl:        com_ne          ;
 
@@ -280,24 +281,26 @@ LEXICON x_22oddi !!= * @CODE@  meininki, tunturi
 
 
 
-LEXICON n_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö, kurkkio
+LEXICON n_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö, kurkkio, asia (in Var)
  +N: x_22oi ;
 
 LEXICON x_22oi
       +Sg+Nom:                   K               ; ! sg nom
+          +Pl:^WG                nom_t           ;
+          +Sg:^WG                gen_n_sg        ;
  +Dial/Por+Sg:                   par_V           ;
 +Dial/-Por+Sg:                   par_A           ;
-          +Sg:^WG                gen_n_sg        ;
-          +Pl:^WG                nom_t           ;
-          +Sg:^WG                sgpl_cases_odd  ; ! these two lexica for cases with
-          +Pl:^AO^WG%>i2         sgpl_cases_even ; ! the same affix in sg and pl
           +Sg:^HMETA             ill_hVVn        ;
-          +Pl:^AO^WG%>i2         gen_tten        ;
-          +Pl:^AO^WG%>i2         par_tA          ;
           +Sg:                   ess_nn          ; ! paivukkonna
+          +Sg:^WG                sgpl_cases_odd  ; ! these two lexica for cases with
+
+          +Pl:^AO^WG%>i2         gen_tten        ;
+          +Pl:^AO%>i2            par_tA          ; ! perintöitä, if ^WG then kulkija works, else perintö works
           +Pl:^AO^HMETA          ill_hVin        ;
+          +Pl:^AO%>i2            ill_hin         ; ! TODO, only for asioihin, what to do with rest?
           +Pl:^AO%>i2            ess_n           ;! paivukoina, TODO kulkijoina ei toimi jos on ^AO, miksi?
           +Pl:^AO%>i2            com_ne          ;! paivukoine, TODO kulkijoine ei toimi jos on ^AO, miksi?
+          +Pl:^AO^WG%>i2         sgpl_cases_even ; ! the same affix in sg and pl
 !      +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
          !+Ill:         %>h^V%>i2 n_PxK           ;
 !+Ill:h%>i2%>i2     n_PxK ; ! on Sg:ssä hVVn
@@ -353,8 +356,28 @@ LEXICON x_23
 !      +Pl:%>i2       ess_n           ; ! valkeina
 !      +Pl:%>i2       com_ne          ; ! valkeine
 
+LEXICON n_23ia        !!= * @CODE@  For -Por only valkia, hopia, kauhia
+               +N:           x_23ia          ;
+!    +N+Dial/-Por:           x_23_-Por       ;
+ ! +N+Sg+Nom:   R    ; Is this extra and wrong?
 
-LEXICON n_23ii        !!= * @CODE@  assii
+LEXICON x_23ia
+          +Sg+Nom:^WG           K               ;
+              +Sg:^WG           gen_n_sg        ;
+              +Sg:^WG           par_tA          ;
+              +Sg:^WG           ill_sseen       ;
+              +Sg:^WG           ess_n           ;
+              +Sg:^WG           sgpl_cases_even ;
+
+              +Pl:^WG           nom_t           ;
+              +Pl:^WG%>i2       gen_tten        ;
+              +Pl:^WG%>i2       par_tA          ;
+              +Pl:^WG%>i2       ill_ssiin       ;
+              +Pl:^WG%>i2       ess_n           ;
+              +Pl:^WG%>i2       com_ne          ;
+              +Pl:^WG%>i2       sgpl_cases_even ;
+
+LEXICON n_23ii        !!= * @CODE@  assii (in Por)
  +N+Dial/Por:         x_23ii           ;
 +N+Dial/-Por:         x_22oi           ; ! TODO skriv dyp kommentar her
  +N+Sg+Nom:           R                ;
@@ -395,7 +418,7 @@ LEXICON x_31
       +Pl:^HMETA      ill_hiin        ;
 
  +Dial/Por+Pl:%>i2i   gen_n           ;
-+Dial/-Por+Pl:        gen_ten         ; ! kielten
+          +Pl:        gen_ten         ; ! kielten, both Por and Var
 +Dial/-Por+Pl:%>i2    gen_tten        ; ! kielitten, sienitten
 !     +Pl:%>i2        gen_Vn          ;
 !    !+Pl:^EDEL       gen_ten         ;
@@ -750,7 +773,7 @@ LEXICON x_41
           +Sg:kse        ess_nn         ;
           +Pl:kse%>i2    sgpl_cases_odd ; ! the same affix in sg and pl -- tsekkaa long
           +Pl:%>s        gen_ten        ; ! veresten
-          +Pl:ks%>i2     gen_tten       ; ! vereksitten
++Dial/-Por+Pl:ks%>i2     gen_tten       ; ! vereksitten
  +Dial/Por+Pl:ks%>i2     par_V          ; ! vereksii
  +Dial/Por+Pl:ks%>i2i    par_tA         ; ! vereksiitä
 +Dial/-Por+Pl:ks%>i2     par_A          ; ! vereksiä
@@ -772,9 +795,9 @@ LEXICON x_41pl !!= * @CODE@ = veljekset
           +Sg:kse        gen_n_sg        ;
           +Pl:kse        nom_t           ;
           +Sg:kse        sgpl_cases_odd  ; !! these two lexica for cases with
-          +Pl:kse%>i2    sgpl_cases_odd  ; !! the same affix in sg and pl -- tsekkaa long
+
           +Pl:%>s        gen_ten         ; ! veljesten
-          +Pl:ks%>i2     gen_tten        ; ! veljeksitten
++Dial/-Por+Pl:ks%>i2     gen_tten        ; ! veljeksitten
  +Dial/Por+Pl:ks%>i2     par_V           ; ! veljeksii
  +Dial/Por+Pl:ks%>i2i    par_tA          ; ! veljeksiitä
 +Dial/-Por+Pl:ks%>i2     par_A           ; ! veljeksiä
@@ -783,6 +806,7 @@ LEXICON x_41pl !!= * @CODE@ = veljekset
           +Sg:kse        ess_n           ;
           +Pl:kse%>i2    ess_nn          ; ! veljeksinnä
           +Pl:ks%>i2     com_ne          ; ! veljeksine
+          +Pl:kse%>i2    sgpl_cases_odd  ; !! the same affix in sg and pl -- tsekkaa long
   !    +Pl+Par:%>ksii     K               ;
 
 
@@ -800,7 +824,7 @@ LEXICON n_42 ! nainen, kainulainen
  +N+Sg+Nom:s R    ;
 
 
-LEXICON x_42 ! nainen, kainulainen
+LEXICON x_42 ! varovainen
       +Sg+Nom:nen       K               ;
           +Sg:se        gen_n_sg        ;
           +Pl:se        nom_t           ;
@@ -813,7 +837,7 @@ LEXICON x_42 ! nainen, kainulainen
  +Dial/Por+Pl:ss%>i2i   par_end         ; ! kainulaissii
  +Dial/Por+Pl:ss%>i2i   par_tA          ; ! kainulaissiita, naissiita
 +Dial/-Por+Pl:s%>i2     par_A           ; ! kainulaisia
-          +Pl:s         ill_hVin        ; ! NB testing, used to be next line: UNDOMMENT
+          +Pl:s         ill_hiin        ; ! NB testing, used to be next line: UNDOMMENT
 !          +Pl:sh%>i2    horterillpl    ;
           +Pl:se%>i2    ess_n           ; ! naisina
           +Pl:s%>i2     com_ne          ;

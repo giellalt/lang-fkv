@@ -606,14 +606,14 @@ t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
 
 "Gradation Nt:NN in first syllable after short vowel"
 !! __@RULENAME@__
-t:Nx <=> [.#.|#] Cns* Vowel Nx  _  :Vowel (Cns)  ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+t:Nx <=> [.#.|#] Cns* Vowel Nx _ :Vowel (Cns) ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
     where Nx in ( l n r ) ;
 
 "Gradation Nt:N in other circumstances"
 !! __@RULENAME@__
-t:0 <=> Vowel Cns* Vowel Nx  _  :Vowel (Cns)  ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
-    where Nx in ( l n r ) ;
+t:0 <=> Vowel Cns* Vowel Nx  _  :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
 
+    where Nx in ( l n r ) ;
 
 !!€ pe#rintö^WG>n
 !!€ pe#rinnö0>n
