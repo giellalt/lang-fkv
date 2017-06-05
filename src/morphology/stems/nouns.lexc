@@ -763,7 +763,7 @@ homma n_21 ;
 honka n_21 ;
 honninki n_22oddi ;
 hoppee+Dial/Por:hoppe n_23 ;
-hoppee+Dial/-Por:hopia n_23 ; ! dialekt, var
+hoppee+Dial/-Por:hopia n_23ia ; ! dialekt, var
 hoppeevana:hoppee#vana n_21 ;
 hoppu n_21 ;
 hoppuruoka:hoppu#ruoka n_21 ;
@@ -1310,7 +1310,7 @@ katu n_21 ;
 katunäkö:katu#näkö n_21 ;
 kauha n_21 ;
 kauhee+Dial/Por:kauhe n_23 ;
-kauhee+Dial/Var:kauhia n_23 ;
+kauhee+Dial/-Por:kauhia n_23ia ;
 kauhistus:kauhistu n_41 ;
 kaukalo n_22oi ;
 kauko-ohjaaja n_22odd ;
@@ -4688,7 +4688,7 @@ valinta n_22odd ;
 valitteminen:valittemi n_42odd ;
 valkama n_22odd ;
 valkkee+Dial/Por:valkke n_23 ; !!= * @CODE@ adjektiivi
-valkkee+Dial/-Por:valkia n_23 ; !!= * @CODE@ adjektiivi
+valkkee+Dial/-Por:valkia n_23ia ; !!= * @CODE@ adjektiivi
 valkkeejuusto:valkkee#juusto n_21 ;
 valkkeesoosi:valkkee#soosi n_21 ;
 valo n_21 ;
@@ -5365,5 +5365,3 @@ agnostikkari n_22oddi ;
 aapalikka:aapa#likka n_21 ;
 aavanpinta:aavan#pinta n_21 ;
 aijankuluhomma:aijan#kulu#homma n_21 ;
-
-
