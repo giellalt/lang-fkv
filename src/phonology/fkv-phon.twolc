@@ -898,6 +898,25 @@ a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)
 !!€ kulkkiijo0>i>tten
 
 
+
+"a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
+        !! __@RULENAME@__
+i:0 <=> Cns Vowel (Vowel) Cns Cns:* _ a:0 e %> i2: ; ! 3-syll
+
+
+! TODO write tests
+
+
+"i:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
+        !! __@RULENAME@__
+a:0 <=> Cns Vowel (Vowel) Cns Cns:* i:0 _ e %> i2: ; ! 3-syll
+
+
+! TODO write tests
+
+
+
+
 "a:i in 3-syll stems with long a and i"
 !! __@RULENAME@__
 !a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll

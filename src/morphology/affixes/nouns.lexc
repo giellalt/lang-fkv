@@ -306,7 +306,7 @@ LEXICON x_22oi
 !+Ill:h%>i2%>i2     n_PxK ; ! on Sg:ssä hVVn
 
 
-LEXICON n_23        !!= * @CODE@  valkkee, hoppee, kauhhee
+LEXICON n_23        !!= * @CODE@  valkkee, hoppee, kauhee
       +N+Dial/Por:           x_23            ;
 !    +N+Dial/-Por:           x_23_-Por       ;
  ! +N+Sg+Nom:   R    ; Is this extra and wrong?
@@ -362,20 +362,20 @@ LEXICON n_23ia        !!= * @CODE@  For -Por only valkia, hopia, kauhia
  ! +N+Sg+Nom:   R    ; Is this extra and wrong?
 
 LEXICON x_23ia
-          +Sg+Nom:^WG           K               ;
-              +Sg:^WG           gen_n_sg        ;
-              +Sg:^WG           par_tA          ;
-              +Sg:^WG           ill_sseen       ;
-              +Sg:^WG           ess_n           ;
-              +Sg:^WG           sgpl_cases_even ;
+          +Sg+Nom:           K               ; ! valkia
+              +Sg:           gen_n_sg        ; ! valkian
+              +Sg:           par_V           ; ! valkiaa
+              +Sg:^HMETA     ill_hVVn        ; ! valkihaan
+              +Sg:           ess_nn          ; ! valkianna
+              +Sg:           sgpl_cases_odd  ;
 
-              +Pl:^WG           nom_t           ;
-              +Pl:^WG%>i2       gen_tten        ;
-              +Pl:^WG%>i2       par_tA          ;
-              +Pl:^WG%>i2       ill_ssiin       ;
-              +Pl:^WG%>i2       ess_n           ;
-              +Pl:^WG%>i2       com_ne          ;
-              +Pl:^WG%>i2       sgpl_cases_even ;
+              +Pl:           nom_t           ; ! valkiat
+              +Pl:e%>i2      gen_tten        ; ! valk
+              +Pl:e%>i2      par_tA          ; ! valk
+              +Pl:e%>i2      ill_ssiin       ; ! valk
+              +Pl:e%>i2      ess_n           ; ! valk
+              +Pl:e%>i2      com_ne          ; ! valk
+              +Pl:e%>i2      sgpl_cases_even ; ! valk
 
 LEXICON n_23ii        !!= * @CODE@  assii (in Por)
  +N+Dial/Por:         x_23ii           ;
