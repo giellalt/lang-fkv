@@ -405,7 +405,7 @@ Rules
 "Gradation ppttkk : ptk"
 !! __@RULENAME@__
 Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
-                    Vowel:  Cx _     :o %^AO:0 %> i2:i   %> n  [e|:a|:ä] ; ! Is this general enough, but not too?
+                    Vowel:  Cx _     :o %^AO:0 %> i2:i   %> [ n|t ]  [e|:a|:ä] ; ! Is this general enough, but not too?
             where Cx in ( k p t ) ;
 
 
