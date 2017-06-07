@@ -124,7 +124,7 @@ LEXICON x_21_oblique
           +Pl:^AO%>i2          ess_n           ;
           +Pl:^AO%>i2          com_ne          ;
  +Dial/Por+Pl:^AO^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
-+Dial/-Por+Pl:^AO^WG%>         sgpl_cases_even ; !the same affix in sg and pl
++Dial/-Por+Pl:^AO^WG%>         sgpl_cases_even ; ! should be i in syksy, but not in pappi
 
 
 LEXICON n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo, kasvot
@@ -376,15 +376,15 @@ LEXICON x_23ia
               +Sg:           par_V           ; ! valkiaa
               +Sg:^HMETA     ill_hVVn        ; ! valkihaan
               +Sg:           ess_nn          ; ! valkianna
-              +Sg:           sgpl_cases_odd  ;
+              +Sg:           sgpl_cases_even ; ! TODO odd for valkia, not for other 2 yamls
 
               +Pl:           nom_t           ; ! valkiat
-              +Pl:e%>i2      gen_tten        ; ! valk
-              +Pl:e%>i2      par_tA          ; ! valk
-              +Pl:e%>i2      ill_ssiin       ; ! valk
-              +Pl:e%>i2      ess_n           ; ! valk
-              +Pl:e%>i2      com_ne          ; ! valk
-              +Pl:e%>i2      sgpl_cases_even ; ! valk
+              +Pl:e%>i2      gen_tten        ; ! valkeitten
+              +Pl:e%>i2      par_tA          ; ! valkeita
+              +Pl:e%>i2      ill_ssiin       ; ! valkeissiin
+              +Pl:e%>i2      ess_n           ; ! valkeina
+              +Pl:e%>i2      com_ne          ; ! valkeine
+              +Pl:e%>i2      sgpl_cases_even ; ! valkei-
 
 LEXICON n_23ii        !!= * @CODE@  assii (in Por)
  +N+Dial/Por:         x_23ii           ;
@@ -687,19 +687,6 @@ LEXICON x_33aes
 !        +N:        x_33ys ;
 ! +N+Sg+Nom:%>y^WGs R      ;
 
-LEXICON x_33ys ! TODO DELETE THIS PROBABLy! ONLY ONE WORD, AN ADJECTIVE, IS IN IT
-   +Sg+Nom:%>y^WG%>s    K                 ;
-       +Sg:%>y^WG%>s    par_tA            ;
-       +Sg:h%>yy        ill_sseen         ;
-       +Pl:h%>yi        ill_ssiin         ;
-       +Sg:h%>yy        gen_n_sg          ;
-       +Pl:h%>yy        nom_t             ;
-       +Sg:h%>yy        sgpl_cases_even   ;
-       +Pl:h%>y%>i2     sgpl_cases_even   ;
-       +Pl:h%>y%>i2     par_tA            ;
-       +Pl:h%>y%>i2     gen_tten          ;
- +N+Pl+Ess:h%>y%>i2%>ny PxxK              ; ! not to ess n pecause of the y I guess? wat
-       +Pl:h%>y%>i2     com_ne            ;
 
 
 LEXICON n_33is !!= @CODE@ ruvis, ruumis
