@@ -162,6 +162,20 @@ LEXICON a_33ys !!= * @CODE@ kärys
 :hyi superl_m_odd ;
 ! comp, superl, puuttuvat
 
+LEXICON x_33ys ! TODO DELETE THIS PROBABLy! ONLY ONE WORD, kärys, IS IN IT
+   +Sg+Nom:%>y^WG%>s    K                 ;
+       +Sg:%>y^WG%>s    par_tA            ;
+       +Sg:h%>yy        ill_sseen         ;
+       +Pl:h%>yi        ill_ssiin         ;
+       +Sg:h%>yy        gen_n_sg          ;
+       +Pl:h%>yy        nom_t             ;
+       +Sg:h%>yy        sgpl_cases_even   ;
+       +Pl:h%>y%>i2     sgpl_cases_even   ;
+       +Pl:h%>y%>i2     par_tA            ;
+       +Pl:h%>y%>i2     gen_tten          ;
+ +N+Pl+Ess:h%>y%>i2%>ny PxxK              ; ! not to ess n pecause of the y I guess? wat
+       +Pl:h%>y%>i2     com_ne            ;
+
 
 LEXICON a_33t !!= * @CODE@ tuoret
 +A: x_33t ;
