@@ -27,19 +27,19 @@ net+Pron+Pers+Pl3:ni         netpronpl   ; ! e>i
 
 !! Demonstratiivipronominit
 
-tämä+Pron+Dem:tä            tama ;  !!= * @CODE@t
-tuo+Pron+Dem:tuo            tuo ;
+tämä+Pron+Dem:tä            tama    ;  !!= * @CODE@
+tuo+Pron+Dem:tuo            tuo     ;
 se+Pron+Dem+Sg:             se_pron ;
-nämät+Pron+Dem+Pl+Nom:nämät K ;
+nämät+Pron+Dem+Pl+Nom:nämät K       ;
 nämät+Pron+Dem+Pl:näi       namaobl ;
-nuot+Pron+Dem+Pl+Nom:nuot       K   ;
-nuot+Pron+Dem:nuoi       namaobl ;
-net+Pron+Dem+Pl+Nom:net         K ; ! e>i
+nuot+Pron+Dem+Pl+Nom:nuot   K       ;
+nuot+Pron+Dem:nuoi          namaobl ;
+net+Pron+Dem+Pl+Nom:net     K       ; ! e>i
 net+Pron+Dem+Pl:nii         namaobl ; ! e>i
 
 
 !! Kysymäpronominit
-kuka+Pron+Interr+Sg+Nom:kuka K ; !!= * @CODE@ nom
+kuka+Pron+Interr+Sg+Nom:kuka   K  ; !!= * @CODE@ nom
 kuka+Pron+Interr+Pl+Nom:kukka  K  ;  !!= * @CODE@
 
 kuka+Pron+Interr:ke             kuka_relkys_obl  ;  !!= * @CODE@

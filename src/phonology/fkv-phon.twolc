@@ -418,6 +418,20 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 !!€ paivukko^AO>i2>ne
 !!€ paivuk0o0>i>ne
 
+
+! the following rule, together with adding [Cx|t:0] in Cx:0 ppttkk makes tyärtä work, but how to also get with t?
+! Also needs m4 since this is only in Var. Does this optional t:0 happen in other places too?
+! "t:0 in tytär tyär, tytärtä tyärtä. Stem is tyttär"
+! !! __@RULENAME@__
+! t:0 <=> Vowel:  _ t:0  Vowel:  r %^WG:0 ; !  t       y    t t:0   ä       r   ^WG       (> t ^A) ;
+! ! Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ; ! this taken from ppttkk
+! !!€ tyttär^WG>t^A
+! !!€ ty00är0>tä
+! !!€ tyttär^WG
+! !!€ ty00är0
+
+
+
 !! !Gradation -p-
 
 "Gradation p:v"

@@ -181,9 +181,8 @@ LEXICON x_21ie
 LEXICON n_22        !!= * @CODE@  opettaaja, karamelli
         +N:    x_22  ;
  +N+Sg+Nom:    R     ;
-     +N+Pl:^WG nom_t ;
 
-LEXICON x_22
+LEXICON x_22 !liberaali
 
       +Sg+Nom:         K                  ;
           +Sg:^WG      gen_n_sg           ;
@@ -198,6 +197,7 @@ LEXICON x_22
  +Dial/Por+Pl:^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
 +Dial/-Por+Pl:^WG%>    sgpl_cases_even    ; ! Adding  to block i:0 karamellitten
 
+        +N+Pl:^WG      nom_t              ; ! liberaalit
              :         x_22_pl_por        ;
              :         x_22_pl_var        ;
 
@@ -386,7 +386,7 @@ LEXICON x_23ia
               +Pl:e%>i2      com_ne          ; ! valkeine
               +Pl:e%>i2      sgpl_cases_even ; ! valkei-
 
-LEXICON n_23ii        !!= * @CODE@  assii (in Por)
+LEXICON n_23ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
  +N+Dial/Por:         x_23ii           ;
 +N+Dial/-Por:         x_22oi           ; ! TODO skriv dyp kommentar her
  +N+Sg+Nom:           R                ;
