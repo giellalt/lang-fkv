@@ -56,6 +56,7 @@ Segment = Vowel Cns ;                                       !!= * @CODE@
 Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@
+NE = %> n e ;
 
 
 !! !!!Rules
@@ -93,7 +94,12 @@ Rules
           Cns   Vowel                  Cx _ e:               %> i2:    i [ %>  n | .#.]; !jokkii jokkiin. Miksi tämä toimii eikä rivi 93?
           Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
 
-          Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i); ! [ t | .#. | n .#.] ;  to be shortened (2014). sannoi & nykkiit
+!        (Cns:*) Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %> [:i - i3:] (i2:i) [ t | #:0 | (%>) (n) \[e|:a|:ä] ] ; ! to be shortened (2014). sannoi & nykkiit
+!        Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) [%> t | .#. ] ;  ! to be shortened (2014). sannoi & nykkiit
+!        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i \NE ;  ! aikkoi&aikkoin ei aikoine
+!        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i %> n ;  ! aikkoi&aikkoin ei aikoine
+        Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) [ %> t | .#. | %> n .#.] ;
+!        a i k _ a:o %^AO:0 %> i2:i %> n [\e | \:a|\:ä ] ;
 !     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
 
 !          except
@@ -101,18 +107,6 @@ Rules
 
          where Cx in ( k p  ) ; ! v excluded
 
-!"Negation of V-kkpp-i"
-! __@RULENAME@__
-!0:k /<=                  _  :o     (%^AO:0) %>        i2:i        %> n :e ;
-!     pai   v      u   k k   o      ^AO     %>        i2          %>     ne
-
-! paivukko n_22oi ;
-! paivukko ^AO%>i2%>ne     Com
-! paivukko ^AO%>i2%>n^A    Ess
-
-! aika n_21 ;
-! aika ^AO%>i2%>ne         Com
-! aika ^AO%>i2%>n^A        Com
 
 !!€ jok0e>i2i>n
 !!€ jokk0>ii>n
@@ -125,6 +119,24 @@ Rules
 
 !!€ poi6k0a>i2>^V>
 !!€ poikk0>i>i>
+
+
+
+!"Poista k aikoine "
+!!! __@RULENAME@__
+!Cx:0 <=> (Cns:*) Vowel:* Vowel (Vowel:) Cx _ [:o|:i] %^AO:0 %> i2:i  %> n [ e |:a |:ä] ; ! to be shortened (2014). sannoi & nykkiit
+!     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
+
+!          except
+!              _ :i ;!:o (%^AO:0) %> i2: %> n ;
+
+!        where Cx in ( k p  ) ; ! v excluded
+
+
+!"Negation of V-kkpp-i"
+! __@RULENAME@__
+!0:k /<=                  _  :o     (%^AO:0) %>        i2:i        %> n :e ;
+!     pai   v      u   k k   o      ^AO     %>        i2          %>     ne
 
 
 "Gemination Vtti"
@@ -405,7 +417,8 @@ Rules
 "Gradation ppttkk : ptk"
 !! __@RULENAME@__
 Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
-                    Vowel:  Cx _     :o %^AO:0 %> i2:i   %> [ n|t ]  [e|:a|:ä] ; ! Is this general enough, but not too?
+                    Vowel:  Cx _  :o %^AO:0 %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
+
             where Cx in ( k p t ) ;
 
 
@@ -415,8 +428,8 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 !!€ katto0>n
 !!€ sivakka^AO>i2>ne
 !!€ sivak0o0>i>ne
-!!€ paivukko^AO>i2>ne
-!!€ paivuk0o0>i>ne
+!     !!€ paivukko^AO>i2>ne
+!     !!€ paivuk0o0>i>ne
 
 
 ! the following rule, together with adding [Cx|t:0] in Cx:0 ppttkk makes tyärtä work, but how to also get with t?
@@ -891,6 +904,13 @@ a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)
                                      (:Cns)  [:k|:l] (:i) :i :j _ %^AO: (Dummy:*) %>  i2:  ; ! kulkkiija kulkiijoissa
 (Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2:  ; ! sivakka sivakoissa
 
+          a          i         k     k:0 _ %^AO:0 %> i2:i %> n e  ; ! DELETE
+          a          i         k     k:0 _ %^AO:0 %> i2:i (n)  ; ! DELETE
+
+!                                        _ [:o|:i] (%^AO:0) %>  [:i] [%> t | .#. | %> n .#.] ;  ! to be shortened (2014). sannoi & nykkiit
+
+!         a          i         k     k   a  ^AO  %> i2      >   n   e
+
 
 !a:o <=>  [#:|.#.]                        (Cns:*)   [a|e|i] ([o|u])  Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %> [i2: | i3: ] (%>) ;
 !         [#:|.#.] (Cns:*) [Vowel: -[o|u]] (Cns:*) ([Vowel: -[o|u]]) Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %> [i2: | i3: ] ; !
@@ -913,7 +933,7 @@ a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)
 
 
 
-"a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
+"i:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
         !! __@RULENAME@__
 i:0 <=> Cns Vowel (Vowel) Cns Cns:* _ a:0 e %> i2: ; ! 3-syll
 
@@ -924,7 +944,7 @@ i:0 <=> Cns Vowel (Vowel) Cns Cns:* _ a:0 e %> i2: ; ! 3-syll
 !€ kauh00e>i2>tten
 
 
-"i:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
+"a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
         !! __@RULENAME@__
 a:0 <=> Cns Vowel (Vowel) Cns Cns:* i:0 _ e %> i2: ; ! 3-syll
 
