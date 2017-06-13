@@ -98,18 +98,18 @@ LEXICON n_21C !!= * @CODE@
           :i n_21 ; ! Hansi
  +N+Sg+Nom:i R    ;
 
-LEXICON n_21        !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo, kuva, linna, pappi
+LEXICON n_21        !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks, aika, vartalo, kuva, linna, pappi
         +N: x_21 ;
  +N+Sg+Nom: R    ;
 
 LEXICON x_21 ! "poika:poi6ka", lyhyt vokali, yks vartalo, kuva, linna, pappi, tooli, syksy
-+Sg+Nom:    K    ;
++Sg+Nom:    K            ;
             x_21_oblique ;
 
 LEXICON x_21_oblique
           +Sg:^WG              gen_n_sg        ;
  +Dial/Por+Sg:                 par_V           ;
-+Dial/-Por+Sg:                 par_A           ;
++Dial/-Por+Sg:                 par_A           ;! in var should be poikaa with one k
           +Sg:^HMETA           ill_hVVn        ;
           +Sg:                 ess_n           ;
           +Sg:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
@@ -197,7 +197,7 @@ LEXICON x_22 !liberaali
  +Dial/Por+Pl:^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
 +Dial/-Por+Pl:^WG%>    sgpl_cases_even    ; ! Adding  to block i:0 karamellitten
 
-        +N+Pl:^WG      nom_t              ; ! liberaalit
+          +Pl:^WG      nom_t              ; ! liberaalit
              :         x_22_pl_por        ;
              :         x_22_pl_var        ;
 
@@ -955,7 +955,7 @@ LEXICON gen_n_sg ! Only with sg and general separate, because of R! This is exce
  +Gen:%>n R     ; ! This (R) is for compound words, that's why sg is by itself
 
 LEXICON gen_n
- +Gen: n_PxK ;
+ +Gen:%> n_PxK ;
 
 LEXICON gen_Vn
  +Gen:%>^V n_PxK ;

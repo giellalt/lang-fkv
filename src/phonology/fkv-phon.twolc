@@ -57,6 +57,7 @@ Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@
 NE = %> n e ;
+EÄA = e %^A ;
 
 
 !! !!!Rules
@@ -95,10 +96,11 @@ Rules
           Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
 
 !        (Cns:*) Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %> [:i - i3:] (i2:i) [ t | #:0 | (%>) (n) \[e|:a|:ä] ] ; ! to be shortened (2014). sannoi & nykkiit
-!        Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) [%> t | .#. ] ;  ! to be shortened (2014). sannoi & nykkiit
-!        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i \NE ;  ! aikkoi&aikkoin ei aikoine
-!        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i %> n ;  ! aikkoi&aikkoin ei aikoine
-        Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) [ %> t | .#. | %> n .#.] ;
+        Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) [%> t | .#. ] ;  ! to be shortened (2014). sannoi & nykkiit
+!        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i (%>) (n) \[ :e ] ;  ! aikkoi&aikkoin ei aikoine
+!        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i ;  ! aikkoi&aikkoin ei aikoine
+!        Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  i2:i [ .#. | %> n .#.] ;
+                                  a i Cx _ [:o|:i] (%^AO:0) %>  i2:i (%>) [ .#. | n \EÄA ] ;
 !        a i k _ a:o %^AO:0 %> i2:i %> n [\e | \:a|\:ä ] ;
 !     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
 
@@ -114,8 +116,8 @@ Rules
 !!€ jok0e>i2i
 !!€ jokk0>ii
 
-!!€ aik0a^AO>i2
-!!€ aikko0>i
+! !!€ aik0a^AO>i2
+! !!€ aikko0>i
 
 !!€ poi6k0a>i2>^V>
 !!€ poikk0>i>i>
@@ -194,8 +196,9 @@ Rules
 !!€ kiv0e>i2>^V
 !!€ kivv0>i>i
 
-!!€ sop0i>^V
-!!€ soppi>i
+! !!€ sop0i>^V
+! !!€ soppi>i
+! DELETE THIS COMMENTING OUT BUSINESS, tests are vali TODO
 
 !    jok0e^E2I>i2>^V
 !    jokk00>i>i
