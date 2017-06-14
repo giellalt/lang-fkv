@@ -697,14 +697,34 @@ j:0 <=> l _ e: %^E2I:0 ;
                 :Cns  Vx  %>   _ ; ![ .#. | #: | %> ] ;
     where Vx in ( a e i o u y ä ö ) ;
 
+    !!€ maa>h^Vn
+    !!€ maa>han
+    !!€ heinä>^V
+    !!€ heinä>ä
+    !!€ syksy>^V
+    !!€ syksy>y
 
 
-!!€ maa>h^Vn
-!!€ maa>han
-!!€ heinä>^V
-!!€ heinä>ä
-!!€ syksy>^V
-!!€ syksy>y
+"Vowel copying in long h-illative sg first vowel"
+!! __@RULENAME@__
+%^V:Vx <=>  v e r e  k    s %> h  _  %^V: n ;
+    where Vx in ( e ) ;
+
+!!€ vereks>h^V^Vn
+!!€ vereks>heen
+
+
+"Vowel copying in long h-illative sg second vowel"
+!! __@RULENAME@__
+%^V:Vx <=>  v e r e  k    s  %> h   %^V:  _ n ;
+      ! !!€ v e r e   k    s             > h   ^V  ^V n
+   where Vx in ( e ) ;
+
+!   lum^HMETA %>h^V^V n ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
+!   vere ks   %>h^V^V n       ; TODO make these two rules general for all ^V^Vn illatives
+
+!!€ vereks>h^V^Vn
+!!€ vereks>heen
 
 
 "Vowel copying in partitive of words ending in io, ia"
