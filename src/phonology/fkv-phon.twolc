@@ -707,7 +707,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vowel copying in long h-illative sg first vowel"
 !! __@RULENAME@__
-%^V:Vx <=>  v e r e  k    s %> h  _  %^V: n ;
+%^V:Vx <=> Cns (Vowel) Vx (Cns) Cns (%^HMETA:0) %> h _ %^V: n ;
+        !   l           u         m   ^HMETA    %>h^V^V n ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
     where Vx in ( e ) ;
 
 !!€ vereks>h^V^Vn
@@ -716,12 +717,14 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vowel copying in long h-illative sg second vowel"
 !! __@RULENAME@__
-%^V:Vx <=>  v e r e  k    s  %> h   %^V:  _ n ;
+%^V:Vx <=> Cns (Vowel) Vx (Cns) Cns (%^HMETA:0) %> h %^V: _ n ;
       ! !!€ v e r e   k    s             > h   ^V  ^V n
    where Vx in ( e ) ;
 
-!   lum^HMETA %>h^V^V n ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
-!   vere ks   %>h^V^V n       ; TODO make these two rules general for all ^V^Vn illatives
+!   laps^HMETA  %>h^V^V n ;
+!   lum^HMETA   %>h^V^V n ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
+!   mie h^HMETA %>h^V^V n ;
+!   vere ks     %>h^V^V n ; ! TODO make these two rules general for all ^V^Vn illatives
 
 !!€ vereks>h^V^Vn
 !!€ vereks>heen
