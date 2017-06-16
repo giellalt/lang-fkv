@@ -539,28 +539,25 @@ LEXICON n_32 !!= @CODE@ tytär, taival
  +N+Sg+Nom:^WG R    ;
 
 LEXICON x_32
- +Sg+Nom:^WG          K              ;
-     +Sg:e            gen_n_sg       ;
-     +Pl:e            nom_t          ;
-     +Sg:e^WG         gen_n_sg       ;
-     +Pl:e^WG         nom_t          ;
-     +Sg:^WG          par_tA         ;
-     +Sg:e            gen_n          ;
-     +Sg:e^HMETA      ill_hVVn       ;
-     +Sg:e            sgpl_cases_odd ;
-     +Sg:e            ess_nn         ;
-     +Pl:%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
+      +Sg+Nom:^WG          K              ;
+          +Sg:e            gen_n_sg       ;
+          +Sg:e^WG         gen_n_sg       ;
+          +Sg:^WG          par_tA         ;
+          +Sg:e^HMETA      ill_hVVn       ;
+          +Sg:e            ess_nn         ;
+          +Sg:e            sgpl_cases_odd ;
 
- +Dial/Por+Pl:%>i%>i2      gen_tten  ; ! tyttäriitten
-+Dial/-Por+Pl:%>i%>        gen_tten  ; ! tyttäritten
-
- +Dial/Por+Pl:%>i2         par_V     ; ! tyttärii
- +Dial/Por+Pl:%>i%>i2      par_tA    ; ! tyttäriitä
-+Dial/-Por+Pl:%>i%>        par_A     ; ! tyttäriä
-
-          +Pl:^HMETA   ill_hiin      ;
-          +Pl:e%>i2     ess_nn       ;
-          +Pl:e%>i2     com_ne       ;
+          +Pl:e            nom_t          ;
+          +Pl:e^WG         nom_t          ;
+ +Dial/Por+Pl:%>i%>i2      gen_tten       ; ! tyttäriitten
++Dial/-Por+Pl:%>i%>        gen_tten       ; ! tyttäritten
+ +Dial/Por+Pl:%>i2         par_V          ; ! tyttärii
+ +Dial/Por+Pl:%>i%>i2      par_tA         ; ! tyttäriitä
++Dial/-Por+Pl:%>i%>        par_A          ; ! tyttäriä
+          +Pl:^HMETA       ill_hiin       ;
+          +Pl:e%>i2        ess_nn         ;
+          +Pl:e%>i2        com_ne         ;
+          +Pl:%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
 
 LEXICON n_32m !!= @CODE@ elläin elläi
@@ -573,12 +570,13 @@ LEXICON x_32m !!= @CODE@
 
 LEXICON x_32m_sg
  +Sg+Nom:^WGn      K              ;
-     +Sg:^WG%>n    par_tA         ;
      +Sg:me        gen_n_sg       ;
-     +Pl:me        nom_t          ;
+     +Sg:^WG%>n    par_tA         ;
      +Sg:me^HMETA  ill_hVVn       ;
-     +Sg:me        sgpl_cases_odd ;
      +Sg:me        ess_nn         ;
+     +Sg:me        sgpl_cases_odd ;
+
+     +Pl:me        nom_t          ;
      +Pl:me%>i2    ess_nn         ;
      +Pl:me%>i2    com_ne         ;
 
@@ -586,36 +584,39 @@ LEXICON n_32m_pl !!= @CODE@
       +N: x_32m_pl ;
 
 LEXICON x_32m_pl
-     +Sg:me            gen_n_sg       ;
-     +Pl:me            nom_t          ;
-     +Pl:m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
+          +Sg:me            gen_n_sg       ;
 
- +Dial/Por+Pl:m%>ii2   gen_tten       ; ! elläimiitten
-+Dial/-Por+Pl:m%>i     gen_tten       ; ! elläimitten
-
- +Dial/Por+Pl:mi%>i2   par_end        ; ! elläimii
- +Dial/Por+Pl:mi%>i2   par_tA         ; ! elläimiitä
-+Dial/-Por+Pl:mi%>     par_A          ; ! elläimiä
-
-     +Pl:m^HMETA       ill_hiin       ;
-     +Pl:m%>i2         com_ne         ;
+          +Pl:me            nom_t          ;
+ +Dial/Por+Pl:m%>ii2        gen_tten       ; ! elläimiitten
++Dial/-Por+Pl:m%>i          gen_tten       ; ! elläimitten
+ +Dial/Por+Pl:mi%>i2        par_end        ; ! elläimii
+ +Dial/Por+Pl:mi%>i2        par_tA         ; ! elläimiitä
++Dial/-Por+Pl:mi%>          par_A          ; ! elläimiä
+          +Pl:m^HMETA       ill_hiin       ;
+          +Pl:m%>i2         com_ne         ;
+          +Pl:m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
 LEXICON n_32s !!= @CODE@  sairhaus
-  +N+Sg+Nom:^WGs           K                 ; !! * Konsonanttivartalo: poista -e ja heikko aste
-  +N+Sg+Nom:^WGs           R                 ; !! * Konsonanttivartalo: poista -e ja heikko aste
-      +N+Sg:%>t            par_tA            ;
-      +N+Sg:đe             gen_n_sg          ;
-      +N+Pl:đe             nom_t             ;
-      +N+Sg:te^HMETA       ill_hVVn          ;
-      +N+Sg:đe             sgpl_cases_odd    ;
-      +N+Sg:te             ess_nn            ;
-      +N+Pl:ks%>i2         sgpl_cases_odd    ; ! TODO wtf is this comm --> hmm, tämä menee pieleen, sg ≠ pl
-      +N+Pl:ksi%>i2        par_end           ;
-      +N+Pl:ksi%>i2        par_tA            ;
-      +N+Pl:ksi%>i2        gen_tten          ;
-      +N+Pl:ks^HMETA       ill_hiin          ;
-      +N+Pl:ks%>i2         ess_nn            ;
-      +N+Pl:ks%>i2         com_ne            ;
+ +N: x_32s ;
+
+LEXICON x_32s
++Sg+Nom:^WGs           K                 ; !! * Konsonanttivartalo: poista -e ja heikko aste
++Sg+Nom:^WGs           R                 ; !! * Konsonanttivartalo: poista -e ja heikko aste
+
+    +Pl:đe             nom_t             ;
+    +Sg:đe             gen_n_sg          ;
+    +Sg:%>t            par_tA            ;
+    +Sg:te^HMETA       ill_hVVn          ;
+    +Sg:te             ess_nn            ;
+    +Sg:đe             sgpl_cases_odd    ;
+
+    +Pl:ksi%>i2        gen_tten          ;
+    +Pl:ksi%>i2        par_end           ;
+    +Pl:ksi%>i2        par_tA            ;
+    +Pl:ks^HMETA       ill_hiin          ;
+    +Pl:ks%>i2         ess_nn            ;
+    +Pl:ks%>i2         com_ne            ;
+    +Pl:ks%>i2         sgpl_cases_odd    ; ! TODO wtf is this comm --> hmm, tämä menee pieleen, sg ≠ pl
 
 
 ! LEXICON n_32s != @CODE@  sairhaus vanha versio
