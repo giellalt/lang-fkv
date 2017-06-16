@@ -25,7 +25,7 @@ Tests:
      onneton+A+Sg+Ill: onnettomhaan
      onneton+A+Sg+Ade: onnettomala
      onneton+A+Sg+Abl: onnettomalta
-     onneton+A+Sg+All: onnettomale
+     onneton+A+Sg+All: [onnettomale, onnettomalet]
      onneton+A+Sg+Ess: onnettomana
      onneton+A+Pl+Nom: onnettomat
      onneton+A+Pl+Gen: onnettomitten
@@ -37,7 +37,7 @@ Tests:
      onneton+A+Pl+Ill: onnettomhiin
      onneton+A+Pl+Ade: onnettomila
      onneton+A+Pl+Abl: onnettomilta
-     onneton+A+Pl+All: onnettomile
+     onneton+A+Pl+All: [onnettomile, onnettomilet]
      onneton+A+Pl+Ess: onnettomina
      onneton+A+Pl+Com: onnettomine
 
@@ -51,7 +51,7 @@ Tests:
      onneton+A+Sg+Comp+Ill: onnettomamphaan
      onneton+A+Sg+Comp+Ade: onnettomamalla
      onneton+A+Sg+Comp+Abl: onnettomamalta
-     onneton+A+Sg+Comp+All: onnettomamalle
+     onneton+A+Sg+Comp+All: [onnettomamalle, onnettomamallet]
      onneton+A+Sg+Comp+Ess: onnettomampanna
      onneton+A+Pl+Comp+Nom: onnettomamat
      onneton+A+Pl+Comp+Gen: onnettomamitten
@@ -63,7 +63,7 @@ Tests:
      onneton+A+Pl+Comp+Ill: onnettomamphiin
      onneton+A+Pl+Comp+Ade: onnettomamilla
      onneton+A+Pl+Comp+Abl: onnettomamilta
-     onneton+A+Pl+Comp+All: onnettomamille
+     onneton+A+Pl+Comp+All: [onnettomamille, onnettomamillet]
      onneton+A+Pl+Comp+Ess: onnettomampinna
      onneton+A+Pl+Comp+Com: onnettomampine
 
@@ -81,7 +81,7 @@ Tests:
      onneton+A+Sg+Superl+Ill: onnettommiimphaan
      onneton+A+Sg+Superl+Ade: onnettommiimalla
      onneton+A+Sg+Superl+Abl: onnettommiimalta
-     onneton+A+Sg+Superl+All: onnettommiimalle
+     onneton+A+Sg+Superl+All: [onnettommiimalle, onnettommiimallet]
      onneton+A+Sg+Superl+Ess: onnettommiimpanna
      onneton+A+Pl+Superl+Nom: onnettommiimat
      onneton+A+Pl+Superl+Gen: onnettommiimitten
