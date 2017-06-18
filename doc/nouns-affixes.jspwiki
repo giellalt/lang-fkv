@@ -19,7 +19,7 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 ** 2.3.1 Kokkoontumanom. (assii)             = n_23ii
 * 3. Konsonanttirankaiset
 ** 3.1 Kaksitavuiset ( pieni, kieli)                         = n_31
-** 3.1.1. Kaksitavuiset lumi)                 = n_31m
+** 3.1.1. Kaksitavuiset lumi)                 = n_31lumi
 ** 3.1.2. (käsi, vuosi)                                                 = n_31si
 ** 3.1.3. (lapsi)                                                      = n_31lapsi
 ** 3.1.4. (mies)                                                         = n_31mies
@@ -53,17 +53,19 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
  *  LEXICON n_1ai  = tuorestai ja muut päivät
 
 these two lexica for cases with
-the same affix in sg and pl
+
+
 
  * LEXICON n_1pl  = häät
 
+ * LEXICON x_1pl  = häät
 the same affix in sg and pl
 
 
 
  * LEXICON n_21C 
 
- * LEXICON n_21          "poika:poi6ka", lyhyt vokali, yks vartalo, kuva, linna, pappi
+ * LEXICON n_21          "poika:poi6ka", lyhyt vokali, yks, aika, vartalo, kuva, linna, pappi
 
 
 
@@ -79,13 +81,24 @@ the same affix in sg and pl
 
 
 
+
  LEXICON n_21ie         on ove, ovi, nom joki:joke, hyksi, suomi
 
 these two lexica for cases with
 the same affix in sg and pl
 
 
+
+
+
  * LEXICON n_22          opettaaja, karamelli
+
+
+
+
+
+
+
 
 
 
@@ -98,30 +111,33 @@ the same affix in sg and pl
 
 
 
-
-
  * LEXICON n_22oddi   meininki, tunturi
 
- * LEXICON x_22oddi   meininki, tunturi
 
 
 
 
 
 
+ * LEXICON n_22oi          Kulkkiija, paivukko, sivakka, perintö, kurkkio, asia (in Var)
 
 
- * LEXICON n_22oi          Kulkkiija, paivukko, sivakka, perintö
-
- * LEXICON x_22oi          Kulkkiija, paivukko, sivakka, perintö
 
 
- * LEXICON n_23          valkkee
+ * LEXICON n_23          valkkee, hoppee, kauhee
 
 
- * LEXICON n_23ii          assii
+
+
+
+ * LEXICON n_23ia          For -Por only valkia, hopia, kauhia
+
+
+
+ * LEXICON n_23ii          assii (in Por) kurkkii (in Por)
 
 * LEXICON n_23ii          for same affix in sg and pl
+
 * LEXICON n_23ii          for same affix in sg and pl
 * LEXICON n_23ii          for same affix in sg and pl
 
@@ -132,7 +148,7 @@ the same affix in sg and pl
 * LEXICON n_31          for same affix in sg and pl
 
 
- LEXICON n_31m         lumi lu
+ LEXICON n_31lumi        lumi lu
 
 
 
@@ -141,17 +157,24 @@ the same affix in sg and pl
 
 
 
+
  LEXICON n_31lapsi         lapsi la
+
+ LEXICON x_31lapsi         lapsi la
 these two lexica for cases with
+
 the same affix in sg and pl
+
 
  LEXICON n_31mies         mies mie
+
+ LEXICON x_31mies         mies mie
 these two lexica for cases with
+
 the same affix in sg and pl
 
 
- LEXICON n_32  tytär tyttär
-
+ LEXICON n_32  tytär, taival
 
 
 
@@ -161,17 +184,17 @@ the same affix in sg and pl
  LEXICON x_32m 
 
 
+
  LEXICON n_32m_pl 
 
 
 
-
-
  LEXICON n_32s   sairhaus
+
 * Konsonanttivartalo: poista -e ja heikko aste
 * Konsonanttivartalo: poista -e ja heikko aste
-* Pitkä perusmuoto
-* Pitkä perusmuoto
+
+
 
 
 
@@ -189,7 +212,6 @@ the same affix in sg and pl
 
  LEXICON n_33is  ruvis, ruumis
 
- LEXICON x_33is  ruvis
 
 
  LEXICON n_33t  venet, hyljet, huonet
@@ -206,13 +228,12 @@ the same affix in sg and pl -- tsekkaa long
  * LEXICON n_41  = veres
 
 
-
  * LEXICON n_41pl  = veljekset
 
  * LEXICON x_41pl  = veljekset
 these two lexica for cases with
-the same affix in sg and pl -- tsekkaa long
 
+the same affix in sg and pl -- tsekkaa long
 
 
 
@@ -221,7 +242,6 @@ the same affix in sg and pl -- tsekkaa long
 
 these two lexica for cases with
 the same affix in sg and pl
-
 
  LEXICON n_42odd  ihminen
 
@@ -233,12 +253,8 @@ the same affix in sg and pl
 
 
            +N:se   nomgen_px      ;
+
 make+N+Pl+kom:sine K              ;
-
-
-
-
-
 
 
 
@@ -248,20 +264,17 @@ make+N+Pl+kom:sine K              ;
 
 Basic paradigms
 
-!!Basic vowel stems
-
-
- LEXICON strong_v_stem_even   ''Kaikki vahvan asteen sijamuodot tähän''
 
 
 
- LEXICON weak_v_stem 
+!Sublexica for the basic unified cases, with even and odd variations
 
 
-Todo: identify these, and remove Ins from the
-general weak_v_stem lexicon.
 
-!Sublexica for the vowel stems
+
+
+
+!Sublexica for Gen, Par, Ill, Ess and Com.
 
 
 
@@ -281,7 +294,6 @@ general weak_v_stem lexicon.
 
 
 
-!Lexica for the non-uniform cases
 
 
 
@@ -301,7 +313,6 @@ general weak_v_stem lexicon.
 
 
 
-* LEXICON weak_v_stem  zero, because ii > i
 
 
 
@@ -329,6 +340,65 @@ Px is now not in use, with one exception, comitative.
  LEXICON PxK  has only -nsA, and is currently not in use. Check
 
  LEXICON PxxK   has also -Vn, thus both .. llensa and ..lleen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic paradigms
+
+!!Basic vowel stems
+
+
+  !LEXICON strong_v_stem_even   ''Kaikki vahvan asteen sijamuodot tähän''
+
+  !LEXICON strong_v_stem_odd   ''Kaikki vahvan asteen sijamuodot tähän''
+
+
+
+
+!Sublexica for the vowel stems
+
+
+
+
+
+
 
 
 
