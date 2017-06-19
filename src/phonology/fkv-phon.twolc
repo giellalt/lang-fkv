@@ -199,15 +199,20 @@ Cns   Vowel                  Cx _ i               %>  %^V: ; ! sippiit
 
 "Gemination Vi"
 !! __@RULENAME@__
-0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (%^E2I:0) %> :i %> :i ; ! Skal den siste suffix-grensa være der?
+0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (%^E2I:0) %> :i %> :i ; ! kivvii
+!                    k     u   v  0  a      ^AO    >   i  > n
+         [.#.|#:] Cns:* Vowel Cx _ (:i) (Dummy:0) %> :i ; ! kuvvii different because a:i
        where Cx in ( h j l m n r v ) ;
 
 !!€ kiv0e>i2>^V
 !!€ kivv0>i>i
 
-!    jok0e^E2I>i2>^V
-!    jokk00>i>i
-! Koffer va denna her? Legacy code..
+!!€ kuv0a^AO>i2
+!!€ kuvvi0>i
+!do we want a:i here?
+
+!!€ jok0e^E2I>i2>^V
+!!€ jokk00>i>i
 
 
 "Gemination Va"
@@ -426,7 +431,6 @@ Cns   Vowel                  Cx _ i               %>  %^V: ; ! sippiit
 !! __@RULENAME@__
 Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
                     Vowel:  Cx _  :o %^AO:0 %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
-
             where Cx in ( k p t ) ;
 
 
@@ -438,6 +442,7 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 !!€ sivak0o0>i>ne
 !     !!€ paivukko^AO>i2>ne
 !     !!€ paivuk0o0>i>ne
+!       k    u        l        k iija ^AO >i2 > t ^A  with m4, distinguish from por.
 
 
 ! the following rule, together with adding [Cx|t:0] in Cx:0 ppttkk makes tyärtä work, but how to also get with t?
@@ -896,7 +901,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__
-a:0 <=>  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* (:Cns) _ (%^AO:0) [(%^WG:0) %>     [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
+a:0 <=>  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* (:Cns) _ (%^AO:) [(%^WG:0) %>     [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
          [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)   (%>) (i)        %> (i) :i (i) %> ;
          ! check first (i)? <- What is this? added :i to catch loistaava superl too. should be [i2:|i5:]?
                   (Cns:*) Vowel:+ Cns: (Cns:)                           _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
