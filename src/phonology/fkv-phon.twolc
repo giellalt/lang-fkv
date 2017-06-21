@@ -91,31 +91,30 @@ Rules
 
 "Gemination V-kkpp-i"
 !! __@RULENAME@__
- 0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena > penniin hupi>huppiin, laki>lakkiin
-          Cns   Vowel                  Cx _ e:               %> i2:    i [ %>  n | .#.]; !jokkii jokkiin. Miksi tämä toimii eikä rivi 93?
+ 0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena->penniin->huppiin, laki>lakkiin
+          Cns   Vowel                  Cx _ e:               %> i2:   [ %>  n | .#.]; !jokkii jokkii only.Miksieirivi93?
           Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
-
 ! (Cns:*) Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %> [:i - i3:] (i2:i) [ t | #:0 | (%>) (n) \[e|:a|:ä] ] ; ! sannoi & nykkiit
-        Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) [%> t | .#. ] ; ! sannoi & nykkiit
+         Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) [%> t | .#. ] ; ! sannoi & nykkiit
 !        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i (%>) (n) \[ :e ] ;  ! aikkoi&aikkoin ei aikoine
 !        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i ;  ! aikkoi&aikkoin ei aikoine
 !        Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  i2:i [ .#. | %> n .#.] ;
-                                  a i Cx _ [:o|:i] (%^AO:0) %>  i2:i (%>) [ .#. | n \EÄA ] ;
+                                  a i Cx _ [:o|:i] (%^AO:0) %>  i2:i (%>) [ .#. | n \EÄA ] ; ! TODO make general
 !        a i k _ a:o %^AO:0 %> i2:i %> n [\e | \:a|\:ä ] ;
 !     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
 
-!          except
-!              _ :i ;!:o (%^AO:0) %> i2: %> n ;
-Cns   Vowel                  Cx _ i               %>  %^V: ; ! sippiit
-
+         Cns   Vowel                  Cx _ i               %>  %^V: ; ! sippiit
          where Cx in ( k p  ) ; ! v excluded
 
+!          except
+!              _ :i ;!:o (%^AO:0) %> i2: %> n ;
 
-!!€ jok0e>i2i>n
-!!€ jokk0>ii>n
 
-!!€ jok0e>i2i
-!!€ jokk0>ii
+!!!€ jok0e>i2i>n
+!!!€ jokk0>ii>n
+
+!!!€ jok0e>i2i
+!!!€ jokk0>ii
 
 ! !!€ aik0a^AO>i2
 ! !!€ aikko0>i
@@ -201,18 +200,14 @@ Cns   Vowel                  Cx _ i               %>  %^V: ; ! sippiit
 !! __@RULENAME@__
 0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (%^E2I:0) %> :i %> :i ; ! kivvii
 !                    k     u   v  0  a      ^AO    >   i  > n
-         [.#.|#:] Cns:* Vowel Cx _ (:i) (Dummy:0) %> :i ; ! kuvvii different because a:i
+         [.#.|#:] Cns:* Vowel Cx _ a:0 (Dummy:0) %> :i ; !
        where Cx in ( h j l m n r v ) ;
 
 !!€ kiv0e>i2>^V
 !!€ kivv0>i>i
 
 !!€ kuv0a^AO>i2
-!!€ kuvvi0>i
-!do we want a:i here?
-
-!!€ jok0e^E2I>i2>^V
-!!€ jokk00>i>i
+!!€ kuvv00>i
 
 
 "Gemination Va"
@@ -430,7 +425,7 @@ Cns   Vowel                  Cx _ i               %>  %^V: ; ! sippiit
 "Gradation ppttkk : ptk"
 !! __@RULENAME@__
 Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
-                    Vowel:  Cx _  :o %^AO:0 %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
+         Vowel: ([l|m|n|r]) Cx _  :o %^AO:0 %> i2:i   %> [ n|t ]  [e|:a|:ä] ; 
             where Cx in ( k p t ) ;
 
 
@@ -819,6 +814,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 !!€ syksy^HMETA>h^V^Vn
 !!€ syks00>hyyn
+
 
 
 
