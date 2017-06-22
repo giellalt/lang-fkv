@@ -26,7 +26,7 @@ Tests:
      kaunis+A+Sg+Ill: kaunhiisseen
      kaunis+A+Sg+Ade: kaunhiila
      kaunis+A+Sg+Abl: kaunhiilta
-     kaunis+A+Sg+All: kaunhiile
+     kaunis+A+Sg+All: [kaunhiile, kaunhiilet]
      kaunis+A+Sg+Ess: kaunhiina
 
      kaunis+A+Pl+Nom: kaunhiit
@@ -39,7 +39,7 @@ Tests:
      kaunis+A+Pl+Ill: kaunhiissiin
      kaunis+A+Pl+Ade: kaunhiila
      kaunis+A+Pl+Abl: kaunhiilta
-     kaunis+A+Pl+All: kaunhiile
+     kaunis+A+Pl+All: [kaunhiile, kaunhiilet]
      kaunis+A+Pl+Com: kaunhiine
      kaunis+A+Pl+Ess: kaunhiina
 
@@ -53,7 +53,7 @@ Tests:
      kaunis+A+Sg+Comp+Ill: kaunhiimphaan
      kaunis+A+Sg+Comp+Ade: kaunhiimalla
      kaunis+A+Sg+Comp+Abl: kaunhiimalta
-     kaunis+A+Sg+Comp+All: [kaunhiimalle, kaunhiimallet]
+     kaunis+A+Sg+Comp+All: [kaunhiimalle, kaunhiimallet
      kaunis+A+Sg+Comp+Ess: kaunhiimpanna
 
      kaunis+A+Pl+Comp+Nom: kaunhiimat
