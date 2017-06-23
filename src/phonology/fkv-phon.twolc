@@ -92,17 +92,16 @@ Rules
 "Gemination V-kkpp-i"
 !! __@RULENAME@__
  0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena->penniin->huppiin, laki>lakkiin
-          Cns   Vowel                  Cx _ e:               %> i2:   [ %>  n | .#.]; !jokkii jokkii only.Miksieirivi93?
+          Cns   Vowel                  Cx _ e:               %> i2:   [ %>  n .#. | .#.]; !jokkii jokkii only.Miksieirivi93?
           Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
 ! (Cns:*) Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %> [:i - i3:] (i2:i) [ t | #:0 | (%>) (n) \[e|:a|:ä] ] ; ! sannoi & nykkiit
          Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) [%> t | .#. ] ; ! sannoi & nykkiit
 !        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i (%>) (n) \[ :e ] ;  ! aikkoi&aikkoin ei aikoine
 !        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i ;  ! aikkoi&aikkoin ei aikoine
 !        Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  i2:i [ .#. | %> n .#.] ;
-                                  a i Cx _ [:o|:i] (%^AO:0) %>  i2:i (%>) [ .#. | n \EÄA ] ; ! TODO make general
+                             [a|o] :i Cx _ [:o|:i] (%^AO:0) %>  i2:i (%>) [ .#. | n \EÄA ] ; ! TODO make general
 !        a i k _ a:o %^AO:0 %> i2:i %> n [\e | \:a|\:ä ] ;
 !     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
-
          Cns   Vowel                  Cx _ i               %>  %^V: ; ! sippiit
          where Cx in ( k p  ) ; ! v excluded
 
@@ -119,8 +118,8 @@ Rules
 ! !!€ aik0a^AO>i2
 ! !!€ aikko0>i
 
-!!€ poi6k0a>i2>^V>
-!!€ poikk0>i>i>
+! !!€ poi6k0a>i2>^V>
+! !!€ poikk0>i>i> a:i instead of this
 
 ! s      o   p                      i  %> ^Vt
 ! !!€ sop0i>^V
@@ -899,10 +898,10 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! __@RULENAME@__
 a:0 <=>  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i) :Cns+ Cns:* (:Cns) _ (%^AO:) [%^WG:0 %> [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
   [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i) :Cns+ Cns:* (:Cns) _ %^AO: %> i2: %> n [ %^A: | e ] ; ! for kuvina/e
-  [#:|.#.] (Cns:*) o i6: :Cns+ Cns:* (:Cns) _ (%^AO:) [(%^WG:0) %> [i2:|i3:] | a:0 ] ; ! only for poika
+!  [#:|.#.] (Cns:*) o i6: :Cns+ Cns:* (:Cns) _ (%^AO:) [(%^WG:0) %> [i2:|i3:] | a:0 ] ; ! only for poika TODO this vs a:i
          [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)   (%>) (i)        %> (i) :i (i) %> ;
          ! check first (i)? <- What is this? added :i to catch loistaava superl too. should be [i2:|i5:]?
-                  (Cns:*) Vowel:+ Cns: (Cns:)                           _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin 
+                  (Cns:*) Vowel:+ Cns: (Cns:)                           _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
                                                            :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:a|i:] ;
                                                            :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:a|i:] ;
                                                            :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
@@ -938,8 +937,8 @@ a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)
                                      (:Cns)  [:k|:l] (:i) :i :j _ %^AO: (Dummy:*) %>  i2:  ; ! kulkkiija kulkiijoissa
 (Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2:  ; ! sivakka sivakoissa
 
-          a          i         k     k:0 _ %^AO:0 %> i2:i %> n e  ; ! DELETE
-          a          i         k     k:0 _ %^AO:0 %> i2:i (n)  ; ! DELETE
+          a          i         k     k:0 _ %^AO:0 %> i2:i %> n e  ; ! TODO DELETE
+          a          i         k     k:0 _ %^AO:0 %> i2:i (n)  ; ! TODO DELETE
 
 !                                        _ [:o|:i] (%^AO:0) %>  [:i] [%> t | .#. | %> n .#.] ;  ! to be shortened (2014). sannoi & nykkiit
 
@@ -994,6 +993,8 @@ a:0 <=> Cns Vowel (Vowel) Cns Cns:* i:0 _ e %> i2: ; ! 3-syll
 !a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
 a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll
    [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii ! TODO, distinguish btwn sannoi & kuvvii not with u
+                p o i6: k (:k) _ %^AO:0 %> :i ; ! poi6ka poikkiin poikkii
+!                p o i6  k    a  ^AO   >   i2  >n
 !            k      u   v   0  a    ^AO     > i2
 !            k      u   v   v  i      0     >  i
 
