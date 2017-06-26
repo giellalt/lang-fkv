@@ -480,8 +480,8 @@ i6:0 <=> _ k: Vowel: (%^AO:0) %^WG:0;
 !!€ poi6ka^WG>n
 !!€ po0ja0>n
 
-!!€ poi6ka^AO^WG>i2>le
-!!€ po0j000>i>le
+! !!€ poi6ka^AO^WG>i2>le
+! !!€ po0j000>i>le TODO uncomment, for training purposes commented out
 
 
 "Gradation k:j"
@@ -896,7 +896,10 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__
-a:0 <=>  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i) :Cns+ Cns:* (:Cns) _ (%^AO:) [%^WG:0 %> [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
+a:0 <=>
+[#:|.#.] (Cns:*) (NotAEI) [u|o] ([u|o]) (:i) :Cns+ Cns:* (:Cns) _ (%^AO:) [%^WG:0%>[i2:|i3:] | a:0] ;! 2syllGem/WG
+     ! !!€ p                 o             i6           k         a   ^AO     ^WG   > i2          >le
+     ! !!€ po0j000>i>le
   [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i) :Cns+ Cns:* (:Cns) _ %^AO: %> i2: %> n [ %^A: | e ] ; ! for kuvina/e
 !  [#:|.#.] (Cns:*) o i6: :Cns+ Cns:* (:Cns) _ (%^AO:) [(%^WG:0) %> [i2:|i3:] | a:0 ] ; ! only for poika TODO this vs a:i
          [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)   (%>) (i)        %> (i) :i (i) %> ;
@@ -933,9 +936,11 @@ a:0 <=>  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i) :Cns+ Cns:* (:Cns) _ (%^
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__
-a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)  %> [i2:|i3:|j] ; ! 2 syll, lisäsin ton j sinne. jos tulee enkä voi tehdä koko make checkiä. Toi auttoi linna pl parille, mutta en tiedä että realisoituuko nyt muissakin random paikoissa
+a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)  %> [i2:|i3:|j] ; ! 2 syll
                                      (:Cns)  [:k|:l] (:i) :i :j _ %^AO: (Dummy:*) %>  i2:  ; ! kulkkiija kulkiijoissa
 (Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2:  ; ! sivakka sivakoissa
+
+
 
           a          i         k     k:0 _ %^AO:0 %> i2:i %> n e  ; ! TODO DELETE
           a          i         k     k:0 _ %^AO:0 %> i2:i (n)  ; ! TODO DELETE
