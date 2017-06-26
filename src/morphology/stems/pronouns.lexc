@@ -12,9 +12,9 @@ doublecasepronounspl  ;
 !! Persoonapronominit
 
 mie+Pron+Pers+Sg1:mi         12pronsg   ; !!= * @CODE@
-mie+Pron+Pers+Sg1+Use/NG:m         12pronsg_short   ; !!= * @CODE@
+mie+Pron+Pers+Sg1+Use/NG:m   12pronsg_short   ; !!= * @CODE@
 sie+Pron+Pers+Sg2:si         12pronsg   ; !!  * ...
-sie+Pron+Pers+Sg2+Use/NG:s         12pronsg_short   ; !!= * @CODE@
+sie+Pron+Pers+Sg2+Use/NG:s   12pronsg_short   ; !!= * @CODE@
 hän+Pron+Pers+Sg3:hän        han_pron   ;
 se+Pron+Pers+Sg3:            se_pron  ;
 met+Pron+Pers+Pl1:me         123pronpl   ;
@@ -27,7 +27,7 @@ net+Pron+Pers+Pl3:ni         netpronpl   ; ! e>i
 
 !! Demonstratiivipronominit
 
-tämä+Pron+Dem:tä            tama    ;  !!= * @CODE@
+tämä+Pron+Dem:tä            tama_pron    ;
 tuo+Pron+Dem:tuo            tuo     ;
 se+Pron+Dem+Sg:             se_pron ;
 nämät+Pron+Dem+Pl+Nom:nämät K       ;
