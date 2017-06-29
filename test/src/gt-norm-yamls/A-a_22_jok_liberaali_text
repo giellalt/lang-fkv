@@ -24,7 +24,7 @@ Tests:
      liberaali+A+Sg+Ill: liberaalhiin
      liberaali+A+Sg+Ade: liberaalila
      liberaali+A+Sg+Abl: liberaalilta
-     liberaali+A+Sg+All: liberaalile
+     liberaali+A+Sg+All: [liberaalile, liberaalilet]
      liberaali+A+Sg+Ess: liberaalina
 
      liberaali+A+Pl+Nom: liberaalit
@@ -37,7 +37,7 @@ Tests:
      liberaali+A+Pl+Ill: liberaalhiin
      liberaali+A+Pl+Ade: liberaalila
      liberaali+A+Pl+Abl: liberaalilta
-     liberaali+A+Pl+All: liberaalile
+     liberaali+A+Pl+All: [liberaalile, liberaalilet]
      liberaali+A+Pl+Ess: liberaalina
      liberaali+A+Pl+Com: liberaaline
 
@@ -53,7 +53,7 @@ Tests:
      liberaali+A+Sg+Comp+Ill: liberaalimphaan
      liberaali+A+Sg+Comp+Ade: liberaalimalla
      liberaali+A+Sg+Comp+Abl: liberaalimalta
-     liberaali+A+Sg+Comp+All: liberaalimalle
+     liberaali+A+Sg+Comp+All: [liberaalimalle, liberaalimallet]
      liberaali+A+Sg+Comp+Ess: liberaalimpanna
 
      liberaali+A+Pl+Comp+Nom: liberaalimat
@@ -66,7 +66,7 @@ Tests:
      liberaali+A+Pl+Comp+Ill: liberaalimphiin
      liberaali+A+Pl+Comp+Ade: liberaalimilla
      liberaali+A+Pl+Comp+Abl: liberaalimilta
-     liberaali+A+Pl+Comp+All: liberaalimille
+     liberaali+A+Pl+Comp+All: [liberaalimille, liberaalimillet]
      liberaali+A+Pl+Comp+Ess: liberaalimpinna
      liberaali+A+Pl+Comp+Com: liberaalimpine
 
@@ -84,7 +84,7 @@ Tests:
      liberaali+A+Sg+Superl+Ill: liberaaliimphaan
      liberaali+A+Sg+Superl+Ade: liberaaliimalla
      liberaali+A+Sg+Superl+Abl: liberaaliimalta
-     liberaali+A+Sg+Superl+All: liberaaliimalle
+     liberaali+A+Sg+Superl+All: [liberaaliimalle, liberaaliimallet]
      liberaali+A+Sg+Superl+Ess: liberaaliimpanna
 
      liberaali+A+Pl+Superl+Nom: liberaaliimat
@@ -97,6 +97,6 @@ Tests:
      liberaali+A+Pl+Superl+Ill: liberaaliimphiin
      liberaali+A+Pl+Superl+Ade: liberaaliimilla
      liberaali+A+Pl+Superl+Abl: liberaaliimilta
-     liberaali+A+Pl+Superl+All: liberaaliimille
+     liberaali+A+Pl+Superl+All: [liberaaliimille, liberaaliimillet]
      liberaali+A+Pl+Superl+Ess: liberaaliimpinna
      liberaali+A+Pl+Superl+Com: liberaaliimpine

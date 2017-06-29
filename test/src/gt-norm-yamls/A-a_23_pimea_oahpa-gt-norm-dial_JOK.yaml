@@ -25,7 +25,7 @@ Tests:
      pimeä+A+Sg+Ill: pimehään
      pimeä+A+Sg+Ade: pimeällä
      pimeä+A+Sg+Abl: pimeältä
-     pimeä+A+Sg+All: pimeälle
+     pimeä+A+Sg+All: [pimeälle, pimeället]
      pimeä+A+Sg+Ess: pimeännä
      pimeä+A+Pl+Nom: pimeät
      pimeä+A+Pl+Gen: pimeitten
@@ -37,7 +37,7 @@ Tests:
      pimeä+A+Pl+Ill: pimeissiin
      pimeä+A+Pl+Ade: pimeilä
      pimeä+A+Pl+Abl: pimeiltä
-     pimeä+A+Pl+All: pimeile
+     pimeä+A+Pl+All: [pimeile, pimeilet]
      pimeä+A+Pl+Ess: pimeinä
      pimeä+A+Pl+Com: pimeine
 
@@ -51,7 +51,7 @@ Tests:
      pimeä+A+Sg+Comp+Ill: pimeämphään
      pimeä+A+Sg+Comp+Ade: pimeämmälä
      pimeä+A+Sg+Comp+Abl: pimeämmältä
-     pimeä+A+Sg+Comp+All: pimeämmäle
+     pimeä+A+Sg+Comp+All: [pimeämmäle, pimeämmälet]
      pimeä+A+Sg+Comp+Ess: pimeämpänä
      pimeä+A+Pl+Comp+Nom: pimeämmät
      pimeä+A+Pl+Comp+Gen: pimeämmitten
@@ -63,7 +63,7 @@ Tests:
      pimeä+A+Pl+Comp+Ill: pimeämphiin
      pimeä+A+Pl+Comp+Ade: pimeämmilä
      pimeä+A+Pl+Comp+Abl: pimeämmiltä
-     pimeä+A+Pl+Comp+All: pimeämmile
+     pimeä+A+Pl+Comp+All: [pimeämmile, pimeämmilet]
      pimeä+A+Pl+Comp+Ess: pimeämpinä
      pimeä+A+Pl+Comp+Com: pimeämpine
 
@@ -77,7 +77,7 @@ Tests:
      pimeä+A+Sg+Superl+Ill: pimeimphään
      pimeä+A+Sg+Superl+Ade: pimeimällä
      pimeä+A+Sg+Superl+Abl: pimeimältä
-     pimeä+A+Sg+Superl+All: pimeimälle
+     pimeä+A+Sg+Superl+All: [pimeimälle, pimeimället]
      pimeä+A+Sg+Superl+Ess: pimeimpännä
      pimeä+A+Pl+Superl+Nom: pimeimät
      pimeä+A+Pl+Superl+Gen: pimeimitten
@@ -89,6 +89,6 @@ Tests:
      pimeä+A+Pl+Superl+Ill: pimeimphiin
      pimeä+A+Pl+Superl+Ade: pimeimillä
      pimeä+A+Pl+Superl+Abl: pimeimiltä
-     pimeä+A+Pl+Superl+All: pimeimille
+     pimeä+A+Pl+Superl+All: [pimeimille, pimeimillet]
      pimeä+A+Pl+Superl+Ess: pimeimpinnä
      pimeä+A+Pl+Superl+Com: pimeimpine
