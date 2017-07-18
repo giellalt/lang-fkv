@@ -25,7 +25,7 @@ Tests:
      siisti+A+Sg+Ill: siisthiin
      siisti+A+Sg+Ade: siistilä
      siisti+A+Sg+Abl: siistiltä
-     siisti+A+Sg+All: siistile
+     siisti+A+Sg+All: [siistile, siistilet]
      siisti+A+Sg+Ess: siistinä
 
      siisti+A+Pl+Nom: siistit
@@ -38,7 +38,7 @@ Tests:
      siisti+A+Pl+Ill: siisthiin
      siisti+A+Pl+Ade: siistilä
      siisti+A+Pl+Abl: siistiltä
-     siisti+A+Pl+All: siistile
+     siisti+A+Pl+All: [siistile, siistilet]
      siisti+A+Pl+Com: siistine
      siisti+A+Pl+Ess: siistinä
 
@@ -52,7 +52,7 @@ Tests:
      siisti+A+Sg+Comp+Ill: siistimphään
      siisti+A+Sg+Comp+Ade: siistimällä
      siisti+A+Sg+Comp+Abl: siistimältä
-     siisti+A+Sg+Comp+All: siistimälle
+     siisti+A+Sg+Comp+All: [siistimälle, siistimället]
      siisti+A+Sg+Comp+Ess: siistimpännä
 
      siisti+A+Pl+Comp+Nom: siistimät
@@ -65,7 +65,7 @@ Tests:
      siisti+A+Pl+Comp+Ill: siistimphiin
      siisti+A+Pl+Comp+Ade: siistimillä
      siisti+A+Pl+Comp+Abl: siistimiltä
-     siisti+A+Pl+Comp+All: siistimille
+     siisti+A+Pl+Comp+All: [siistimille, siistimillet]
      siisti+A+Pl+Comp+Ess: siistimpinnä
      siisti+A+Pl+Comp+Com: siistimpine
 
@@ -83,7 +83,7 @@ Tests:
      siisti+A+Sg+Superl+Ill: siistiimphään
      siisti+A+Sg+Superl+Ade: siistiimällä
      siisti+A+Sg+Superl+Abl: siistiimältä
-     siisti+A+Sg+Superl+All: siistiimälle
+     siisti+A+Sg+Superl+All: [siistiimälle, siistiimället]
      siisti+A+Sg+Superl+Ess: siistiimpännä
 
      siisti+A+Pl+Superl+Nom: siistiimät
@@ -96,6 +96,6 @@ Tests:
      siisti+A+Pl+Superl+Ill: siistiimphiin
      siisti+A+Pl+Superl+Ade: siistiimillä
      siisti+A+Pl+Superl+Abl: siistiimiltä
-     siisti+A+Pl+Superl+All: siistiimille
+     siisti+A+Pl+Superl+All: [siistiimille, siistimiillet]
      siisti+A+Pl+Superl+Ess: siistiimpinnä
      siisti+A+Pl+Superl+Com: siistiimpine
