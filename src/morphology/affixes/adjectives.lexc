@@ -77,7 +77,7 @@ LEXICON a_22	!!= * @CODE@  liberaali
 LEXICON a_22odd	!!= * @CODE@  simppeli, loistaava
 +A: x_22odd ;
  comp_mm ;
-+A+Pl+Comp+Gen:%>mm%>ii2tten K ;
++A+Dial/Por+Pl+Comp+Gen:%>mm%>ii2tten K ;
           :%>i5i superl_m_even ;
 +Dial/-Por:%>i5  superl_m_even ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
 
@@ -358,11 +358,11 @@ LEXICON comp_m_common
 +A+Sg+Comp+Par:%>mpp^A%>^A K  ;
 
 +A+Pl+Comp+Nom:%>m^A%>t K        ;
-+A+Pl+Comp:%>m%>i2%>i   gen_tten ; ! used2be +Gen:%>m%>i2%>itten K ;
-+A+Pl+Comp:%>mp         ill_hiin ; ! used2be +Ill:%>mp%>hi%>i2n K
++A+Pl+Comp:%>m%>i2      gen_tten ; ! liberaalimitten ! used2be +Gen:%>m%>i2%>itten K ;
 +A+Pl+Comp:%>mpp%>i2%>i par_tA   ; ! used2be +Par:%>mpp%>i2%>it^A K ;
 +A+Pl+Comp:%>mpp%>i2%>i par_end  ; ! used2be +Par:%>mpp%>i2%>i K  ;
-+A+Pl+Comp+Par+Dial/-Por:%>mp%>i2%>^A K  ; ! sinnikkhäämpiä
++A+Pl+Comp+Par+Dial/-Por:%>mp%>i2%>^A K  ; ! sinnikkhäämpiä, liberaalimpia
++A+Pl+Comp:%>mp         ill_hiin ; ! used2be +Ill:%>mp%>hi%>i2n K
 +A+Pl+Comp:%>mp%>i2     com_ne   ;
 
 
@@ -424,18 +424,19 @@ LEXICON superl_m_odd
 
 LEXICON superl_m_common
 +A+Sg+Superl+Nom:%>n K ;
++A+Sg+Superl+Gen:%>m^A%>n K ;
++A+Sg+Superl+Par:%>n%>t^A K  ;
++A+Sg+Superl+Ill:%>mp%>h^A^An K ;
 !+A+Sg+Superl: superl_in ;
 !+A+Superl:%>m^A weak_v_stem ;
-+A+Sg+Superl+Gen:%>m^A%>n K ;
-+A+Sg+Superl+Ill:%>mp%>h^A^An K ;
-+A+Sg+Superl+Par:%>n%>t^A K  ;
+
 +A+Pl+Superl+Nom:%>m^A%>t K ;
-+A+Pl+Superl+Gen:%>m%>i2%>itten K ;
-+A+Pl+Superl+Ill:%>mp%>h%>i2in K ;
-+A+Pl+Superl+Par:%>mpp%>i2%>i K  ;
-+A+Pl+Superl+Par:%>mpp%>i2%>it^A K  ;
++A+Pl+Superl:%>m%>i2      gen_tten ; ! liberaaliimitten ! used2be +Gen:%>m%>i2%>itten K ;
++A+Pl+Superl:%>mpp%>i2%>i par_end  ;
++A+Pl+Superl:%>mpp%>i2%>i par_tA   ; ! used2be +Par:%>mpp%>i2%>it^A K  ;
 +A+Pl+Superl+Par+Dial/-Por:%>mp%>i2%>^A K  ;
-+A+Pl+Superl:%>mp%>i2       com_ne;
++A+Pl+Superl:%>mp         ill_hiin ; ! used2be +Ill:%>mp%>h%>i2in K ;
++A+Pl+Superl:%>mp%>i2     com_ne;
 ! pl gen variation in LEXICON a_33as
 
 LEXICON superl_onneton
