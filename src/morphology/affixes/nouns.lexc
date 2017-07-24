@@ -122,7 +122,7 @@ LEXICON x_21_oblique
  +Dial/Por+Pl:^AO%>i2          gen_n           ; ! gen_n         since we have the i
 +Dial/-Por+Pl:^AO^WG%>i2       gen_tten        ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
  +Dial/Por+Pl:^AO%>i2          par_end         ;
-+Dial/-Por+Pl:^AO%>j           par_A           ; ! remove one
+ +Dial/Var+Pl:^AO%>j           par_A           ; ! remove one
 +Dial/-Por+Pl:^AO%>i2          par_A           ; ! remove one
           +Pl:^AO^HMETA        ill_hVin        ; ! sykshyin
           +Pl:^AO%>i2          ess_n           ;
