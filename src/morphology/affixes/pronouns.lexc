@@ -5,18 +5,23 @@
 !! Pronominit ovat edelleen vaan kokeiluvaiheessa.
 
 LEXICON 12pronsg !!= @CODE@ on 1., 2. p. yksikkö
-+Nom:e K ;
-+Gen:nun K ;
-+Ill:nhuun K ;
-+Par:nnuu K ;
-+Ess:nuna    K ;
-+Tra:nuksi   K ;
-+Ine:nussa   K ;
-+Ela:nusta   K ;
-+All:nule   K ;
-+Ade:nula    K ;
-+Abl:nulta   K ;
-+Abe:nutta	K ;
++Nom:ie     K ;
++Gen:inun   K ;
++Gen:un     K ; ! TODO consider
++Ill:inhuun K ;
++Par:innuu  K ;
++Ess:inuna  K ;
++Tra:inuksi K ;
++Ine:inussa K ;
++Ela:inusta K ;
++All:inule  K ;
++All:ulle   K ; ! TODO consider
++Ade:inula  K ;
++Ade:ulla   K ; ! TODO consider
++Abl:inulta K ;
++Abl:ulta   K ; ! TODO consider
++Abe:inutta K ;
+
 
 LEXICON 12pronsg_short !!= @CODE@ on 1., 2. p. yksikkö
 +Gen:un K ;
