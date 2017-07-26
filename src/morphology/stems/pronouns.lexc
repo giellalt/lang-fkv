@@ -11,23 +11,24 @@ doublecasepronounspl  ;
 
 !! Persoonapronominit
 
-mie+Pron+Pers+Sg1:mi         12pronsg   ; !!= * @CODE@
-mie+Pron+Pers+Sg1+Use/NG:m   12pronsg_short   ; !!= * @CODE@
-sie+Pron+Pers+Sg2:si         12pronsg   ; !!  * ...
-sie+Pron+Pers+Sg2+Use/NG:s   12pronsg_short   ; !!= * @CODE@
-hän+Pron+Pers+Sg3:hän        han_pron   ;
-se+Pron+Pers+Sg3:            se_pron  ;
-met+Pron+Pers+Pl1:me         123pronpl   ;
-tet+Pron+Pers+Pl2:te         123pronpl   ;
-het+Pron+Pers+Pl3:he         123pronpl   ;
-net+Pron+Pers+Pl3+Nom:net    K   ; ! e>i
-net+Pron+Pers+Pl3:ni         netpronpl   ; ! e>i
+mie+Pron+Pers+Sg1:m        12pronsg       ; !!= * @CODE@
+mie+Pron+Pers+Sg1+Use/NG:m 12pronsg_short ; !!= * @CODE@
+sie+Pron+Pers+Sg2:s        12pronsg       ; !!  * ...
+sie+Pron+Pers+Sg2+Use/NG:s 12pronsg_short ; !!= * @CODE@
+hän+Pron+Pers+Sg3:hän      han_pron       ;
+se+Pron+Pers+Sg3:          se_pron        ;
+met+Pron+Pers+Pl1:me       123pronpl      ;
+tet+Pron+Pers+Pl2:te       123pronpl      ;
+het+Pron+Pers+Pl3:he       123pronpl      ;
+net+Pron+Pers+Pl3+Nom:net  K              ; ! e>i
+net+Pron+Pers+Pl3:ni       netpronpl      ; ! e>i
 
 
 
 !! Demonstratiivipronominit
-
 tämä+Pron+Dem:tä            tama_pron    ;
+tämä+Pron+Dem+Sg+Nom: tämä  K            ; ! jos tämä on tässä niin tämä ja tuo timii kokonaan! Älä poista!
+tämä+Pron+Pers+Sg1:tä       12pronsg    ;
 tuo+Pron+Dem:tuo            tuo     ;
 se+Pron+Dem+Sg:             se_pron ;
 nämät+Pron+Dem+Pl+Nom:nämät K       ;
