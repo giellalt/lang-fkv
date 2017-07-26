@@ -122,11 +122,10 @@ Rules
 ! !!€ poikk0>i>i> a:i instead of this
 
 ! s      o   p                      i  %> ^Vt
-! !!€ sop0i>^V
-! !!€ soppi>i
-! DELETE THIS COMMENTING OUT BUSINESS, tests are vali TODO
-! !!€ sop0i>^V
-! !!€ soppi>i
+!!€ sop0i>^V
+!!€ soppi>i
+!!€ sop0i>^V
+!!€ soppi>i
 
 
 
@@ -481,7 +480,7 @@ i6:0 <=> _ k: Vowel: (%^AO:0) %^WG:0;
 !!€ po0ja0>n
 
 ! !!€ poi6ka^AO^WG>i2>le
-! !!€ po0j000>i>le TODO uncomment, for training purposes commented out
+! !!€ po0j000>i>le TODO uncomment, for training purposes commented out CONFLICT etween a:0 & a:i
 
 
 "Gradation k:j"
@@ -604,7 +603,7 @@ t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
   Vowel [n|l|r]  _ (:s) Vowel:0 (%^AO:0) (%^WG:0)  %> i3:  ;
   Vowel  Vowel   _ (:s) Vowel:0 (%^AO:0)           %> i3:  ;
   Vowel     n    _      Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
- Vowel ([n|l|r]) _      e:0  %^HMETA:0         %> h :i ;
+  Vowel ([n|l|r]) _      e:0  %^HMETA:0         %> h :i ;
 
 !!€ vete^E2I
 !!€ vesi0
@@ -996,9 +995,9 @@ a:0 <=> Cns Vowel (Vowel) Cns Cns:* i:0 _ e %> i2: ; ! 3-syll
 "a:i in 3-syll stems with long a and i"
 !! __@RULENAME@__
 !a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
-a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll
+a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll TODO confilcts with a:0 (Cns:*) Vowel:+ Cns: (Cns:) _ (^WG:0) > i3: (>) ;
    [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii ! TODO, distinguish btwn sannoi & kuvvii not with u
-                p o i6: k (:k) _ %^AO:0 %> :i ; ! poi6ka poikkiin poikkii
+!                p o i6: k (:k) _ %^AO:0 %> :i ; ! poi6ka poikkiin poikkii conflicts with a:0 TODO [#: | .#.] (Cns:*) (NotAEI) [u | o] (u | o) (:i) :Cns+ Cns:* (:Cns) _ ^AO: > i2: > n [^A: | e] ;
 !                p o i6  k    a  ^AO   >   i2  >n
 !            k      u   v   0  a    ^AO     > i2
 !            k      u   v   v  i      0     >  i
@@ -1009,6 +1008,7 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll
 
 !!€ opettaaja>i2>ss^A
 !!€ opettaaji>i>ssa
+! TODO COLLECT a:0 a:i and maybe a:o examples and differentiate between them!!!
 
 
 
