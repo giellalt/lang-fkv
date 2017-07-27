@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hopea - ok : # Noun 'borg' -
+     hoppee+N+Sg+Nom: hopea
+     hoppee+N+Sg+Gen: hopean
+     hoppee+N+Sg+Par: [hopeata, hopeaa]
+     hoppee+N+Sg+Tra: hopeaksi
+     hoppee+N+Sg+Abe: hopeatta
+     hoppee+N+Sg+Ine: hopeassa
+     hoppee+N+Sg+Ela: hopeasta
+     hoppee+N+Sg+Ill: hopehaan
+     hoppee+N+Sg+Ade: hopealla
+     hoppee+N+Sg+Abl: hopealta
+     hoppee+N+Sg+All: hopealle
+     hoppee+N+Sg+Ess: hopeanna
+     hoppee+N+Pl+Nom: hopeat
+     hoppee+N+Pl+Gen: hopeitten
+     hoppee+N+Pl+Par: hopeita
+     hoppee+N+Pl+Tra: hopeiksi
+     hoppee+N+Pl+Abe: hopeitta
+     hoppee+N+Pl+Ine: hopeissa
+     hoppee+N+Pl+Ela: hopeista
+     hoppee+N+Pl+Ill: hopeissiin
+     hoppee+N+Pl+Ade: hopeila
+     hoppee+N+Pl+Abl: hopeilta
+     hoppee+N+Pl+All: hopeile
+     hoppee+N+Pl+Ess: hopeina
+     hoppee+N+Pl+Com: hopeine
