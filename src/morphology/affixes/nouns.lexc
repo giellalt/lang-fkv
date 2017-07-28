@@ -380,7 +380,7 @@ LEXICON x_23ia
               +Sg:           par_V           ; ! valkiaa
               +Sg:^HMETA     ill_hVVn        ; ! valkihaan
               +Sg:           ess_nn          ; ! valkianna
-              +Sg:           sgpl_cases_odd  ; 
+              +Sg:           sgpl_cases_odd  ;
 
               +Pl:           nom_t           ; ! valkiat
               +Pl:e%>i2      gen_tten        ; ! valkeitten
@@ -653,9 +653,9 @@ LEXICON x_33as
 
           +Pl:h%>aa        nom_t             ;
           +Pl:h%>a%>i2     gen_tten          ; ! asukkhaitten
-+Dial/-Por+Pl:h%>a%>je     gen_n             ; ! rakkhajen
+ +Dial/Var+Pl:h%>a%>je     gen_n             ; ! rakkhajen
           +Pl:h%>a%>i2     par_tA            ; ! asukkhaita
-+Dial/-Por+Pl:h%>a%>j      par_A             ; ! rakkhajen
+ +Dial/Var+Pl:h%>a%>j      par_A             ; ! rakkhaja
   ! +N+Pl+Ess:h%>a%>i2%>na PxxK              ;
           +Pl:h%>ai        ill_ssiin         ;
           +Pl:h%>aa%>i2    ess_n             ;
