@@ -385,7 +385,7 @@ Rules
 
 "Gemination LIQä"
 !! __@RULENAME@__
- 0:Cx <=> [l|r|n|m] Cx _ :ä %> :ä  ;
+ 0:Cx <=> [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] Cx _ :ä %> :ä  ; ! kanskje enta et par Cns Vowel. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
         where Cx in ( j k p s t v ) ;
 
 !!€ pölk0ä>^V
