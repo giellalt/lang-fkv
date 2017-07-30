@@ -85,7 +85,8 @@ LEXICON a_23	!!= * @CODE@  pimmee
 +A: x_23 ;
 :e comp_m_odd  ;
 :e%>i2 superl_m_odd ;
-+A+Sg+Superl:e%>i2 superl_n ;
++A+Sg+Superl:e%>i2    nom_n  ;
++A+Sg+Superl:e%>i2%>n par_tA ;
 
 LEXICON a_23ii  !!= * @CODE@ auttii
 +A: x_23ii      ;
@@ -95,13 +96,15 @@ LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31 ;
  comp_m_odd ;
 :^E2I%>i5 superl_m_odd ;
-+A+Sg+Superl:^E2I superl_in ;
++A+Sg+Superl+Nom:^E2I%>in K ;
++A+Sg+Superl:^E2I%>in par_tA ;
 
 LEXICON a_31si	!!= * @CODE@ uusi
 +A: x_31si ;
 :^WG comp_m_odd  ;
 :^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n
-+A+Sg+Superl+Dial/-Por:^E2I superl_in ; ! uussiin
++Dial/-Por+A+Sg+Superl+Nom:^E2I%>in K ; ! uussiin
++Dial/-Por+A+Sg+Superl:^E2I%>in par_tA ;
 
 LEXICON a_32 !!= * @CODE@ tyven
 +A:  x_32 ;
@@ -114,7 +117,7 @@ LEXICON a_32m !!= * @CODE@ irtain
 +A:me comp_mm ;
 :mi superl_mm ;
 
-LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin
+LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 
 +A+Sg+Nom:^WGn   K               ;
 +A+Sg:m^A        gen_n           ;
@@ -138,7 +141,6 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin
 
 +A:m^A comp_mm ;
 :mi5i superl_m_even ;
-! +A+Sg+Superl+Dial/Jok:m superl_in ;
 +A+Pl+Comp+Gen+Dial/Por:m^A%>mpp%>i2%>in K ;
 +A+Pl+Superl+Gen+Dial/Var:mi5i%>mpp%>i2%>in K ;
 
@@ -223,7 +225,8 @@ LEXICON a_42odd !!= * @CODE@ sininen
 +A:se comp_mm ;
 +A+Pl+Comp:se%>mm%>ii2 gen_tten ; ! +Gen:se%>mm%>ii2tten K ;
 :ssi5i superl_m_even ;
-+A+Sg+Superl:ssi superl_in ;
++A+Sg+Superl+Nom:ssi%>in K ;
++A+Sg+Superl:ssi%>in par_tA ;
 
 LEXICON MATON !!= @CODE@ ! ajattelemattomalle lle lla nna
 +A: a_43 ;
@@ -253,13 +256,13 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 !+A+Pl+Comp+Gen:m^A%>mpp%>i2%>in K ; ! muuttumamamppiin
 !+A+Pl+Superl+Gen:mi%>mpp%>i2%>in K ; ! muuttumamimppiin
 
-!+A+Sg+Superl:%>tt^Om superl_in ; This is Dial only I think?
 
 LEXICON a_43odd !!= * @CODE@ onneton
 +A: x_43odd ;
-:%>tt^Om^A comp_onneton ;
++A:%>tt^Om^A comp_onneton ;
 :%>tt^Ommii superl_onneton ;
-+A+Sg+Superl:%>tt^Ommi superl_in ;
++A+Sg+Superl+Nom:%>tt^Ommi%>in K ;
++A+Sg+Superl:%>tt^Ommi%>in par_tA ;
 
 LEXICON MATONodd !!= @CODE@ ! käymättömäle le la na
 +A: x_43odd ;
@@ -269,10 +272,12 @@ LEXICON x_43odd !!= * @CODE@ onneton
 +Sg+Ill:%>tt^Omh^A^A n_PxK ;
    :%>tt^Om^A      sgpl_cases_common ;
 +Pl:%>tt^Om        ill_hiin       ; ! +Ill:%>tt^Omh%>i2in K ;
-+Pl:%>tt^Om%>i2%>i gen_n          ; ! onnettomiin
-+Pl:%>tt^Om%>i2%>i gen_tten       ; ! onnettomiitten
-+Pl:%>tt^Omi%>i2%> par_tA         ; ! onnettomiita
-+Pl:%>tt^Omi%>i2   par_end        ; ! onnettomii
++Pl+Dial/Por:%>tt^Om%>i2%>i gen_tten     ; !onnettomiitten
++Pl+Dial/Jok:%>tt^Om%>i2    gen_tten     ; ! onnettomitten
++Pl+Dial/Por:%>tt^Om%>i2%>i gen_n        ; ! onnettomiin
++Pl+Dial/Por:%>tt^Omi%>i2   par_end      ; ! onnettomii
++Pl+Dial/Por:%>tt^Omi%>i2%> par_tA       ; ! onnettomiita
++Pl+Dial/Jok:%>tt^Omi2%>    par_A        ; ! onnettomia
 
 +Pl:%>tt^Om%>i2 com_ne ;
 :%>tt^Om^A a_loputoneven ;
@@ -371,32 +376,37 @@ LEXICON comp_m_common
 
 
 LEXICON comp_onneton
-+A+Sg+Comp+Nom:%>mpi K        ;
-+A+Sg+Comp:%>m^A     gen_n    ;
-+A+Sg+Comp:%>mp^A    par_A    ;
-+A+Sg+Comp:%>mp      ill_hAAn ;
-+A+Sg+Comp:%>mp^A    ess_nn   ;
-+A+Sg+Comp:%>m^A     sgpl_cases_odd ;
-!+A+Comp:%>m^A weak_v_stem ;
++Sg+Comp+Nom:%>mpi K        ;
++Sg+Comp:%>m^A     gen_n    ;
++Sg+Comp+Dial/Por:%>mpp^A par_A    ; ! used2be included in LIGä twolc
++Sg+Comp+Dial/Jok:%>mp^A  par_A    ;
++Sg+Comp:%>mp      ill_hAAn ;
++Sg+Comp:%>mp^A    ess_nn   ;
++Sg+Comp:%>m^A     sgpl_cases_odd ;
+!+Comp:%>m^A weak_v_stem ;
 
-+A+Pl+Comp:%>m^A        nom_t    ;
-+A+Pl+Comp:%>m%>i2%>i   gen_tten ; ! +Gen:%>m%>i2%>itten K ;
-+A+Pl+Comp:%>mpp%>i2%>i par_end  ;
-+A+Pl+Comp:%>mpp%>i2%>i par_tA   ;
-+A+Pl+Comp:%>mp         ill_hiin ; ! used2be +Gen:se%>mm%>ii2tten K ;
-+A+Pl+Comp:%>mp%>i2     ess_nn   ;
-+A+Pl+Comp:%>mp%>i2     com_ne   ;
-+A+Pl+Comp:%>m%>i2      sgpl_cases_odd ;
-!+A+Pl+Comp+Gen:%>mpp%>i2%>in K ;
++Pl+Comp:%>m^A        nom_t    ;
++Pl+Comp+Dial/Por:%>m%>i2%>i   gen_tten ; !
++Pl+Comp+Dial/Jok:%>m%>i2      gen_tten ; ! +Gen:%>m%>i2%>itten K ;
++Pl+Comp+Dial/Por:%>mpp%>i2%>i par_end  ;
++Pl+Comp+Dial/Por:%>mpp%>i2%>i par_tA   ;
++Pl+Comp+Dial/Jok:%>mp%>i2     par_A    ;
+
++Pl+Comp:%>mp         ill_hiin ; ! used2be +Gen:se%>mm%>ii2tten K ;
++Pl+Comp:%>mp%>i2     ess_nn   ;
++Pl+Comp:%>mp%>i2     com_ne   ;
++Pl+Comp:%>m%>i2      sgpl_cases_odd ;
+!+Pl+Comp+Gen:%>mpp%>i2%>in K ;
 
 LEXICON comp_mm
 
 +Sg+Comp+Nom:%>mpi K     ;
-+Sg+Comp:%>mm^A gen_n    ;
-+Sg+Comp:%>mp^A par_A    ; ! TODO twolc mistake in jok gives double p
-+Sg+Comp:%>mp   ill_hAAn ;
-+Sg+Comp:%>mp^A ess_n    ; ! +Ess:%>mp^A%>n^A K ;
-+Sg+Comp:%>mm^A sgpl_cases_even ;
++Sg+Comp:%>mm^A  gen_n    ;
++Sg+Comp+Dial/Por:%>mpp^A par_A    ; ! used2be included in LIGä twolc
++Sg+Comp+Dial/Jok:%>mp^A  par_A    ;
++Sg+Comp:%>mp    ill_hAAn ;
++Sg+Comp:%>mp^A  ess_n    ; ! +Ess:%>mp^A%>n^A K ;
++Sg+Comp:%>mm^A  sgpl_cases_even ;
 !+A+Comp:%>m^A weak_v_stem ;
 
 +Pl+Comp:%>mm^A nom_t ; ! +Nom:%>mm^A%>t K ;
@@ -423,10 +433,11 @@ LEXICON superl_m_even
 
 
 LEXICON superl_m_odd
-+A+Sg+Superl:%>m^A    sgpl_cases_odd ;
-+A+Pl+Superl:%>m%>i2  sgpl_cases_odd ;
 +A+Sg+Superl:%>mp^A   ess_nn         ;
++A+Sg+Superl:%>m^A    sgpl_cases_odd ;
+
 +A+Pl+Superl:%>mp%>i2 ess_nn         ;
++A+Pl+Superl:%>m%>i2  sgpl_cases_odd ;
 +A: superl_m_common ;
 
 
@@ -475,7 +486,6 @@ LEXICON superl_onneton
 +A+Pl+Superl:%>mp%>i2     com_ne         ;
 +A+Pl+Superl:%>m%>i2      sgpl_cases_odd ;
 !+A+Sg+Superl+Nom:%>in K ;
-!+A+Sg+Superl: superl_in ;
 !+A+Superl:%>m^A weak_v_stem ;
 !+A+Sg+Superl+Par:%>in%>t^A K  ;
 !+A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
@@ -498,15 +508,5 @@ LEXICON superl_mm
 +A+Pl+Superl:%>mp%>i2     ess_n           ;
 +A+Pl+Superl:%>mp%>i2     com_ne          ;
 +A+Pl+Superl:%>mm%>i2     sgpl_cases_even ;
-!+A+Sg+Superl: superl_in ;
 !+A+Superl:%>m^A weak_v_stem ;
 !+A+Pl+Superl+Gen:%>mpp%>i2%>in K ;
-
-
-LEXICON superl_in
-+Nom:%>in K ;
-+Par:%>in%>t^A K  ;
-
-LEXICON superl_n
-+Nom:%>n K ;
-+Par:%>n%>t^A K  ;

@@ -960,6 +960,8 @@ LEXICON sgpl_cases_common
 LEXICON nom_t
 +Nom:%>t K     ; ! Why not PxxK ?
 
+LEXICON nom_n
++Nom:%>n K     ; ! Why not PxxK ?
 
 LEXICON gen_n_sg ! Only with sg and general separate, because of R! This is exception!
     gen_n       ; ! why not go from R -> K, then we don't have to write twice
