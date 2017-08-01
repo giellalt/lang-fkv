@@ -337,7 +337,7 @@ Rules
 
 "Gemination LIQa"
 !! __@RULENAME@__
- 0:Cx <=> [l|r|n|m] Cx _ :a %> :a ;
+ 0:Cx <=> [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] Cx _ :a %> :a ;
         where Cx in ( j k p s t v ) ;
 
 !!€ jalk0a>^V
