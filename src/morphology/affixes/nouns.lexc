@@ -694,7 +694,7 @@ LEXICON x_33aes
 LEXICON n_33is !!= @CODE@ ruvis, ruumis
  +N: x_33is ;
 
-LEXICON x_33is
+LEXICON x_33is ! kaunis
       +Sg+Nom:i^WG%>s    K                 ;
           +Sg:hii        gen_n_sg          ;
           +Sg:i^WG%>s    par_tA            ;
@@ -704,9 +704,9 @@ LEXICON x_33is
 
           +Pl:hii        nom_t             ;
           +Pl:hii        gen_tten          ; ! rukkhiitten
-+Dial/-Por+Pl:hi%>je     gen_n             ; ! rukhijen
+ +Dial/Var+Pl:hi%>je     gen_n             ; ! rukhijen
           +Pl:hii        par_tA            ; ! rukkhiita
-+Dial/-Por+Pl:hi%>j      par_A             ; ! rukhija
+ +Dial/Var+Pl:hi%>j      par_A             ; ! rukhija
           +Pl:hii        ill_ssiin         ;
           +Pl:%>hii      ess_n             ;
           +Pl:hi2i       com_ne            ;
@@ -717,17 +717,14 @@ LEXICON x_33is
 
 LEXICON n_33t !!= @CODE@ venet, hyljet, huonet
                  +N:   x_33t ;
-! +Dial/Por+N+Sg+Nom:et R     ;
-!+Dial/-Por+N+Sg+Nom:e  R     ;
-! +Dial/Var+N+Sg+Nom:e  R     ;
 
 LEXICON x_33t
-+Dial/-Por+Sg+Nom:e^WG        K              ;
-     +Dial/Por+Sg:e^WG        nom_t          ;
+ +Sg+Dial/-Var   :e^WG        nom_t          ;
+ +Sg+Dial/Var+Nom:e^WG        K              ;
               +Sg:e^WG%>t     par_tA         ;
 
-    +Dial/-Por+Pl:he%>je      gen_n          ; ! venhejen
-    +Dial/-Por+Pl:he%>j       par_A          ; ! venhejä
+     +Dial/Var+Pl:he%>je      gen_n          ; ! venhejen
+     +Dial/Var+Pl:he%>j       par_A          ; ! venhejä
               +Pl:hee%>i2     com_ne         ;
 
                  :hee         33_t_ts_common ;

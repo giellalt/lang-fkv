@@ -232,7 +232,7 @@ LEXICON a_42odd !!= * @CODE@ sininen
 +A+Sg+Superl+Dial/Por:ssi%>in par_tA ;
 
 LEXICON MATON !!= @CODE@ ! ajattelemattomalle lle lla nna
-+A: a_43 ;
+: a_43 ;
 
 LEXICON a_43 !!= * @CODE@ muuttumaton
 
@@ -244,10 +244,12 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A+Sg:%>tt^Om^A      sgpl_cases_odd ;
 
 +A+Pl:%>tt^Om^A      nom_t          ;
-+A+Pl:%>tt^Om%>i2    gen_Vn         ;
-+A+Pl:%>tt^Om%>i2%>i gen_tten       ; ! muuttumattomiitten
-+A+Pl:%>tt^Omi%>i2   par_tA         ; ! muuttumattomiita
-+A+Pl:%>tt^Omi%>i2   par_end        ; ! muuttumattomii
++A+Pl+Dial/Por:%>tt^Om%>i2    gen_Vn         ; ! really Vn? TODO
++A+Pl+Dial/Por:%>tt^Om%>i2%>i gen_tten       ; ! muuttumattomiitten
++A+Pl+Dial/Jok:%>tt^Om%>i2    gen_tten       ; ! muuttumattomiitten
++A+Pl+Dial/Por:%>tt^Omi%>i2   par_end        ; ! muuttumattomii
++A+Pl+Dial/Por:%>tt^Omi%>i2   par_tA         ; ! muuttumattomiita
++A+Pl+Dial/Jok:%>tt^Om%>i2    par_A         ; ! muuttumattomia
 +A+Pl:%>tt^Om        ill_hiin       ; ! +Ill:%>tt^Omh%>i2in K
 +A+Pl:%>tt^Om%>i2    ess_nn         ;
 +A+Pl:%>tt^Om%>i2    com_ne         ;
@@ -255,6 +257,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 
 +A:%>tt^Om^A comp_mm ;
 +A:%>tt^Omi5i superl_m_even ;
++A:%>tt^Omi5  superl_m_even ;
 
 
 !+A:%>tt^Omh%>i2 shorterillpl ;
@@ -394,6 +397,7 @@ LEXICON comp_mm
 +Sg+Comp:%>mm^A  gen_n    ;
 +Sg+Comp+Dial/Por:%>mpp^A par_A    ; ! used2be included in LIGä twolc
 +Sg+Comp+Dial/Jok:%>mpp^A  par_A    ; ! loistaavamppaa
++Sg+Comp+Dial/Jok:%>mp^A   par_A    ; ! loistaavamppaa
 +Sg+Comp:%>mp    ill_hAAn ;
 +Sg+Comp:%>mp^A  ess_n    ; ! +Ess:%>mp^A%>n^A K ;
 +Sg+Comp:%>mm^A  sgpl_cases_even ;
