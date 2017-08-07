@@ -17,7 +17,7 @@ Tests:
   Noun - valkkee ok: # Noun 'bål' n_23 valkkee, ES ok
      valkea+N+Sg+Nom: valkea
      valkea+N+Sg+Gen: valkean
-     valkea+N+Sg+Par: [valkeata, valkeaa] 
+     valkea+N+Sg+Par: [valkeata, valkeaa]
      valkea+N+Sg+Tra: valkeaksi
      valkea+N+Sg+Abe: valkeatta
      valkea+N+Sg+Ine: valkeassa
@@ -25,7 +25,7 @@ Tests:
      valkea+N+Sg+Ill: valkehaan
      valkea+N+Sg+Ade: valkealla
      valkea+N+Sg+Abl: valkealta
-     valkea+N+Sg+All: valkealle
+     valkea+N+Sg+All: [valkealle, valkeallet] 
      valkea+N+Sg+Ess: valkeanna
      valkea+N+Pl+Nom: valkeat
      valkea+N+Pl+Gen: valkeitten
@@ -37,6 +37,6 @@ Tests:
      valkea+N+Pl+Ill: valkeissiin
      valkea+N+Pl+Ade: valkeila
      valkea+N+Pl+Abl: valkeilta
-     valkea+N+Pl+All: valkeile
+     valkea+N+Pl+All: [valkeile, valkeilet]
      valkea+N+Pl+Ess: valkeina
      valkea+N+Pl+Com: valkeine

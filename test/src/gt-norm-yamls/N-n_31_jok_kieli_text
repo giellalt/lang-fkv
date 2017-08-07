@@ -25,7 +25,7 @@ Tests:
      kieli+N+Sg+Ill: kielheen
      kieli+N+Sg+Ade: kielelä
      kieli+N+Sg+Abl: kieleltä
-     kieli+N+Sg+All: kielele
+     kieli+N+Sg+All: [kielele, kielelet] 
      kieli+N+Sg+Ess: kielenä
      kieli+N+Pl+Nom: kielet
      kieli+N+Pl+Gen: [kielitten, kielten] # -ten on -nen ja veres-ryhmille. -ten on myös joillekin kaksintavuisille nomineille, joilla on konsonanttiranka. Mutta ei kaikille.
@@ -37,6 +37,6 @@ Tests:
      kieli+N+Pl+Ill: kielhiin
      kieli+N+Pl+Ade: kielilä
      kieli+N+Pl+Abl: kieliltä
-     kieli+N+Pl+All: kielile
+     kieli+N+Pl+All: [kielile, kielilet]
      kieli+N+Pl+Ess: kielinä
      kieli+N+Pl+Com: kieline

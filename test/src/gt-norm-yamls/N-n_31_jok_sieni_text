@@ -25,7 +25,7 @@ Tests:
      sieni+N+Sg+Ill: sienheen
      sieni+N+Sg+Ade: sienelä
      sieni+N+Sg+Abl: sieneltä
-     sieni+N+Sg+All: sienele
+     sieni+N+Sg+All: [sienele, sienelet] 
      sieni+N+Sg+Ess: sienenä
      sieni+N+Pl+Nom: sienet
      sieni+N+Pl+Gen: [sienitten, sienten] # -ten on -nen ja veres-ryhmille. -ten on myös joillekin kaksintavuisille nomineille, joilla on konsonanttiranka. Mutta ei kaikille.
@@ -37,6 +37,6 @@ Tests:
      sieni+N+Pl+Ill: sienhiin
      sieni+N+Pl+Ade: sienilä
      sieni+N+Pl+Abl: sieniltä
-     sieni+N+Pl+All: sienile
+     sieni+N+Pl+All: [sienile, sienilet]
      sieni+N+Pl+Ess: sieninä
      sieni+N+Pl+Com: sienine
