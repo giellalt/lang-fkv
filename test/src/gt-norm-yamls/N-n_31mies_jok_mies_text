@@ -25,7 +25,7 @@ Tests:
      mies+N+Sg+Ill: miehheen
      mies+N+Sg+Ade: miehelä
      mies+N+Sg+Abl: mieheltä
-     mies+N+Sg+All: miehele
+     mies+N+Sg+All: [miehele, miehelet] 
      mies+N+Sg+Ess: miehenä
      mies+N+Pl+Nom: miehet
      mies+N+Pl+Gen: [miehitten, miesten] # -ten on -nen ja veres-ryhmille. -ten on myös joillekin kaksintavuisille nomineille, joilla on konsonanttiranka. Mutta ei kaikille.
@@ -37,6 +37,6 @@ Tests:
      mies+N+Pl+Ill: miehhiin
      mies+N+Pl+Ade: miehilä
      mies+N+Pl+Abl: miehiltä
-     mies+N+Pl+All: miehile
+     mies+N+Pl+All: [miehile, miehilet]
      mies+N+Pl+Ess: miehinä
      mies+N+Pl+Com: miehine
