@@ -25,7 +25,7 @@ Tests:
      asia+N+Sg+Ill: asihaan
      asia+N+Sg+Ade: asialla
      asia+N+Sg+Abl: asialta
-     asia+N+Sg+All: asialle
+     asia+N+Sg+All: [asialle, asiallet] 
      asia+N+Sg+Ess: asianna
      asia+N+Pl+Nom: asiat
      asia+N+Pl+Gen: asioitten
@@ -37,6 +37,6 @@ Tests:
      asia+N+Pl+Ill: asioihin # asihoin?
      asia+N+Pl+Ade: asioila
      asia+N+Pl+Abl: asioilta
-     asia+N+Pl+All: asioile
+     asia+N+Pl+All: [asioile, asioilet]
      asia+N+Pl+Ess: asioina
      asia+N+Pl+Com: asioine
