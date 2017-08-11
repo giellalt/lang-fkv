@@ -17,7 +17,7 @@ Tests:
   Noun - poika - ok : # Noun 'boy' - ok
      poika+N+Sg+Nom: poika
      poika+N+Sg+Gen: pojan
-     poika+N+Sg+Par: poikaa 
+     poika+N+Sg+Par: poikaa
      poika+N+Sg+Tra: pojaksi
      poika+N+Sg+Abe: pojatta
      poika+N+Sg+Ine: pojassa
@@ -25,7 +25,7 @@ Tests:
      poika+N+Sg+Ill: poikhaan
      poika+N+Sg+Ade: pojala
      poika+N+Sg+Abl: pojalta
-     poika+N+Sg+All: pojale
+     poika+N+Sg+All: [pojale, pojalet] 
      poika+N+Sg+Ess: poikana
      poika+N+Pl+Nom: pojat
      poika+N+Pl+Gen: pojitten
@@ -37,6 +37,6 @@ Tests:
      poika+N+Pl+Ill: poikhiin
      poika+N+Pl+Ade: pojila
      poika+N+Pl+Abl: pojilta
-     poika+N+Pl+All: pojile
+     poika+N+Pl+All: [pojile, pojilet]
      poika+N+Pl+Ess: poikina
      poika+N+Pl+Com: poikine
