@@ -17,7 +17,7 @@ Tests:
   Noun - kurkkio: # Noun 'borg' - ei tsekattu
      kurkkio+N+Sg+Nom: kurkkio
      kurkkio+N+Sg+Gen: kurkkion
-     kurkkio+N+Sg+Par: kurkkiota  
+     kurkkio+N+Sg+Par: kurkkiota
      kurkkio+N+Sg+Tra: kurkkioksi
      kurkkio+N+Sg+Abe: kurkkiotta
      kurkkio+N+Sg+Ine: kurkkiossa
@@ -25,7 +25,7 @@ Tests:
      kurkkio+N+Sg+Ill: kurkkihoon
      kurkkio+N+Sg+Ade: kurkkiolla
      kurkkio+N+Sg+Abl: kurkkiolta
-     kurkkio+N+Sg+All: kurkkiolle
+     kurkkio+N+Sg+All: [kurkkiolle, kurkkiollet] 
      kurkkio+N+Sg+Ess: kurkkionna
      kurkkio+N+Pl+Nom: kurkkiot
      kurkkio+N+Pl+Gen: kurkkioitten
@@ -37,6 +37,6 @@ Tests:
      kurkkio+N+Pl+Ill: kurkkihoin
      kurkkio+N+Pl+Ade: kurkkioila
      kurkkio+N+Pl+Abl: kurkkioilta
-     kurkkio+N+Pl+All: kurkkioile
+     kurkkio+N+Pl+All: [kurkkioile, kurkkioilet]
      kurkkio+N+Pl+Ess: kurkkioina
      kurkkio+N+Pl+Com: kurkkioine
