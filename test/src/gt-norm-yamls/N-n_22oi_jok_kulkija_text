@@ -15,7 +15,7 @@ Tests:
 
 
   Noun - kulkija - ei tsekattu : # Noun 'borg' - ei tsekattu
-     kulkija+N+Sg+Nom: kulkija # kaksi vai yksi k? 
+     kulkija+N+Sg+Nom: kulkija # kaksi vai yksi k?
      kulkija+N+Sg+Gen: kulkijan
      kulkija+N+Sg+Par: kulkijaa
      kulkija+N+Sg+Tra: kulkijaksi
@@ -25,7 +25,7 @@ Tests:
      kulkija+N+Sg+Ill: kulkijhaan
      kulkija+N+Sg+Ade: kulkijalla
      kulkija+N+Sg+Abl: kulkijalta
-     kulkija+N+Sg+All: kulkijalle
+     kulkija+N+Sg+All: [kulkijalle, kulkijallet] 
      kulkija+N+Sg+Ess: kulkijanna
      kulkija+N+Pl+Nom: kulkijat
      kulkija+N+Pl+Gen: kulkijoitten
@@ -37,6 +37,6 @@ Tests:
      kulkija+N+Pl+Ill: kulkijhoin
      kulkija+N+Pl+Ade: kulkijoila
      kulkija+N+Pl+Abl: kulkijoilta
-     kulkija+N+Pl+All: kulkijoile
+     kulkija+N+Pl+All: [kulkijoile, kulkujoilet]
      kulkija+N+Pl+Ess: kulkijoina
      kulkija+N+Pl+Com: kulkijoine
