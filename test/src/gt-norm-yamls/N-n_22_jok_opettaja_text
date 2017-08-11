@@ -15,7 +15,7 @@ Tests:
 
 
   Noun - opettaja - ei tsekattu : # Noun 'borg' - ei tsekattu
-     opettaja+N+Sg+Nom: opettaja # yksi vai kaksi a? 
+     opettaja+N+Sg+Nom: opettaja # yksi vai kaksi a?
      opettaja+N+Sg+Gen: opettajan
      opettaja+N+Sg+Par: opettajaa
      opettaja+N+Sg+Tra: opettajaksi
@@ -25,7 +25,7 @@ Tests:
      opettaja+N+Sg+Ill: opettajhaan
      opettaja+N+Sg+Ade: opettajala
      opettaja+N+Sg+Abl: opettajalta
-     opettaja+N+Sg+All: opettajale
+     opettaja+N+Sg+All: [opettajale, opettajalet] 
      opettaja+N+Sg+Ess: opettajana
      opettaja+N+Pl+Nom: opettajat
      opettaja+N+Pl+Gen: opettajitten
@@ -37,6 +37,6 @@ Tests:
      opettaja+N+Pl+Ill: opettajhiin
      opettaja+N+Pl+Ade: opettajila
      opettaja+N+Pl+Abl: opettajilta
-     opettaja+N+Pl+All: opettajile
+     opettaja+N+Pl+All: [opettajile, opettajilet]
      opettaja+N+Pl+Ess: opettajina
      opettaja+N+Pl+Com: opettajine
