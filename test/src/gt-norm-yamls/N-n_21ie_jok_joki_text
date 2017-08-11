@@ -16,7 +16,7 @@ Tests:
 
   Noun - joki - ok : # Noun 'river' - ok
      joki+N+Sg+Nom: joki
-     joki+N+Sg+Gen: joen 
+     joki+N+Sg+Gen: joen
      joki+N+Sg+Par: jokea
      joki+N+Sg+Tra: joeksi
      joki+N+Sg+Abe: joetta
@@ -25,7 +25,7 @@ Tests:
      joki+N+Sg+Ill: jokheen
      joki+N+Sg+Ade: joela
      joki+N+Sg+Abl: joelta
-     joki+N+Sg+All: joele
+     joki+N+Sg+All: [joele, joelet] 
      joki+N+Sg+Ess: jokena
      joki+N+Pl+Nom: joet
      joki+N+Pl+Gen: joitten
@@ -37,6 +37,6 @@ Tests:
      joki+N+Pl+Ill: jokhiin
      joki+N+Pl+Ade: joila
      joki+N+Pl+Abl: joilta
-     joki+N+Pl+All: joile
+     joki+N+Pl+All: [joile, joilet]
      joki+N+Pl+Ess: jokina
      joki+N+Pl+Com: jokine
