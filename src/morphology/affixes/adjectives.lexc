@@ -92,6 +92,14 @@ LEXICON a_23ii  !!= * @CODE@ auttii
 +A: x_23ii      ;
     comp_m_odd  ;
 
+LEXICON a_23ia	!!= * @CODE@  pimeä
++A: x_23ia ;
+  : comp_mm ;
++A:%>i2 superl_m_odd ;
++A+Sg+Superl:e%>i2    nom_n  ;
++A+Sg+Superl:e%>i2%>n par_tA ;
+
+
 LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31 ;
  comp_m_odd ;
@@ -256,8 +264,8 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A+Pl:%>tt^Om%>i2    sgpl_cases_odd ;
 
 +A:%>tt^Om^A comp_mm ;
-+A:%>tt^Omi5i superl_m_even ;
-+A:%>tt^Omi5  superl_m_even ;
++A+Dial/Por:%>tt^Omi5  superl_m_even ;
++A+Dial/Jok:%>tt^Omi5i superl_m_even ;
 
 
 !+A:%>tt^Omh%>i2 shorterillpl ;
