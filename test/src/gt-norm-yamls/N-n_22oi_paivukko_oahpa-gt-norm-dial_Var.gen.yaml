@@ -17,7 +17,7 @@ Tests:
   Noun - paivukko - ei tsekattu : # Noun 'borg' - ES ok
      paivukko+N+Sg+Nom: paivukko # myös paijukko on olemassa. Kainun kielen grammatikki (2014) s. 168.
      paivukko+N+Sg+Gen: paivukon
-     paivukko+N+Sg+Par: paivukkoa 
+     paivukko+N+Sg+Par: paivukkoa
      paivukko+N+Sg+Tra: paivukoksi
      paivukko+N+Sg+Abe: paivukotta
      paivukko+N+Sg+Ine: paivukossa
@@ -40,3 +40,6 @@ Tests:
      paivukko+N+Pl+All: paivukoile
      paivukko+N+Pl+Ess: paivukoina
      paivukko+N+Pl+Com: paivukoine
+
+  # Katso s. 157 Kainun kielen grammatiikista (2014) monitavuisten nominien monikko-vartalosta.
+  # Kolme- ja useampitavuisten nominien monikko vartalo on aina heikkoasteinen, kun vartalokonsonanttina on kk, tt tai pp.
