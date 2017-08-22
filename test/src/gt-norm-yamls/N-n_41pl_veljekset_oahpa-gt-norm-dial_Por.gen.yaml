@@ -17,7 +17,7 @@ Tests:
   Noun - veljekset - ei tsekattu : # Noun 'brødre' - n_41pl ei tsekattu
      veljekset+N+Pl+Nom: veljekset
      veljekset+N+Pl+Gen: veljesten # -ten veres ja -nen sanaryhmille ja joillekin kaksintavuisille nomineille, joilla on konsonanttivartalo. Muille sanaryhmille on -tten. Paitsi Por ja Rai varieteetissä. Var varieteetti voi myös saada -ien.
-     veljekset+N+Pl+Par: [veljeksii, veljeksiitä] 
+     veljekset+N+Pl+Par: [veljeksii, veljeksiitä]
      veljekset+N+Pl+Tra: veljeksiksi
      veljekset+N+Pl+Abe: veljeksittä
      veljekset+N+Pl+Ine: veljeksissä
@@ -27,7 +27,9 @@ Tests:
      veljekset+N+Pl+Abl: veljeksiltä
      veljekset+N+Pl+All: veljeksille
      veljekset+N+Pl+Ess: veljeksinnä
-     veljekset+N+Pl+Com: veljeksine
+     veljekset+N+Pl+Com: veljeksinne
 
 # Nomineissa, jotka loppuvat iitA:haan, on mahdollista jäättä pois tA-suffiksin pl partitiivissa.
 # Tämä on erittäin tavallista veres- ja ihminen nominiryhmissä, tekijännimissä (puhhuuja), vA-loppuisissa adjekttiiveissa ja ordinaaleissa.
+
+# Pituusreekeli on voimassa myös komitatiivissa. 
