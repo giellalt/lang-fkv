@@ -744,19 +744,19 @@ LEXICON x_33ts !!= @CODE@ kirves
              !      +Pl+Gen:hee%>i2     gen_tten       ; ! Can this be commented out? yes, is in the common
 
 LEXICON 33_t_ts_common
-      +Sg:         gen_n_sg        ;
-      +Sg:         ill_sseen       ;
-      +Sg:         ess_n           ;
-      +Sg:         sgpl_cases_even ; !! these two lexica for cases with
+          +Sg:         gen_n_sg        ;
+          +Sg:         ill_sseen       ;
+          +Sg:         ess_n           ;
+          +Sg:         sgpl_cases_even ; !! these two lexica for cases with
 
-      +Pl:         nom_t           ;
-      +Pl:%>i2     gen_tten        ;
-      +Pl:%>i2     par_tA          ;
-! +Pl+Ill:heissiin K               ;
-      +Pl:%>i2     ill_ssiin       ;
-      +Pl:%>i2     ess_n           ;
-      +Pl:%>i2     com_ne          ;
-      +Pl:%>i2     sgpl_cases_even ; !! the same affix in sg and pl -- tsekkaa long
+          +Pl:         nom_t           ;
+          +Pl:%>i2     gen_tten        ;
+          +Pl:%>i2     par_tA          ;
+          +Pl:%>i2     ill_ssiin       ;
+          +Pl:%>i2     ess_n           ;
+          +Pl:%>i2     com_ne          ;
+          +Pl:%>i2     sgpl_cases_even ; !! the same affix in sg and pl -- tsekkaa long
+      ! +Pl+Ill:heissiin K               ;
 
 
 LEXICON n_41 !!= * @CODE@ = veres
@@ -805,7 +805,7 @@ LEXICON x_41pl !!= * @CODE@ = veljekset
 !      +Pl+Ill:ksh%>i2in  K               ;
           +Pl:ks         ill_hiin        ;
           +Pl:kse%>i2    ess_nn          ; ! veljeksinnä
-          +Pl:ks%>i2     com_ne          ; ! veljeksine
+          +Pl:ks%>i2     com_nne         ; ! veljeksine
           +Pl:kse%>i2    sgpl_cases_odd  ; !! the same affix in sg and pl -- tsekkaa long
   !    +Pl+Par:%>ksii     K               ;
 
@@ -820,8 +820,8 @@ LEXICON x_41pl !!= * @CODE@ = veljekset
 ! +N+Pl+Com:s%>i2%>ne  K               ;
 
 LEXICON n_42 ! nainen, kainulainen
-        +N:  x_42 ;
- +N+Sg+Nom:s R    ;
+           +N:  x_42 ;
+    +N+Sg+Nom:s R    ;
 
 
 LEXICON x_42 ! varovainen
@@ -844,8 +844,8 @@ LEXICON x_42 ! varovainen
           +Pl:s%>i2     sgpl_cases_even ; !! the same affix in sg and pl
 
 LEXICON n_42odd !!= @CODE@ ihminen
-        +N:  x_42odd ;
- +N+Sg+Nom:s R       ; ! ihmiskala
+           +N:  x_42odd ;
+    +N+Sg+Nom:s R       ; ! ihmiskala
 
 LEXICON x_42odd
       +Sg+Nom:nen       K              ;
@@ -874,7 +874,7 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
 !      +N+Pl+Ill:sh%>i2in   K              ;
           +N+Pl:s          ill_hiin       ;
           +N+Pl:se%>i2     ess_nn         ;
-      +N+Pl+Com:s%>i2%>nne K              ; ! TODO onko tässä kaksi nn:ää?
+          +N+Pl:s%>i2      com_nne        ; ! TODO onko tässä kaksi nn:ää?
           +N+Pl:s%>i2      sgpl_cases_odd ; !! the same affix in sg and pl
 
 !LEXICON nen  !!= @CODE@ on nainen-sanoille
@@ -929,24 +929,23 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
 ! ----------------------------------------------------------------------
 
 LEXICON sgpl_cases_even ! kaikille paitsi neljän koplalle
-          +Ade:%>l^A PxxK              ; ! Lyhyt perusmuoto vuođela
-          +All:%>le  PxxK              ; ! Lyhyt perusmuoto
- +Dial/Jok+All:%>let PxxK              ; ! pienelet
+         +Ade:%>l^A PxxK              ; ! Lyhyt perusmuoto vuođela
+         +All:%>le  PxxK              ; ! Lyhyt perusmuoto
++Dial/Jok+All:%>let PxxK              ; ! pienelet
                      sgpl_cases_common ;
 
 LEXICON sgpl_cases_odd ! neljän koplalle. <- Mitä vittua tää kopla tarkoittaa tässä kontekstissa? Tämä ei ole aku ankka!
-          +Ade:%>ll^A PxxK              ; ! Pitkä perusmuoto
-          +All:%>lle  PxxK              ; ! Pitkä perusmuoto
- +Dial/Jok+All:%>llet PxxK              ; ! pieniimillet
+         +Ade:%>ll^A PxxK              ; ! Pitkä perusmuoto
+         +All:%>lle  PxxK              ; ! Pitkä perusmuoto
++Dial/Jok+All:%>llet PxxK              ; ! pieniimillet
                       sgpl_cases_common ;
 
 LEXICON sgpl_cases_common
-  +Abl:%>lt^A PxxK ;
-  +Ine:%>ss^A PxxK ;
-  +Ela:%>st^A PxxK ;
-  +Tra:%>ksi  K    ;
-! +Tra:%>kse  Pxx  ;
-  +Abe:%>tt^A PxxK ;
+         +Abl:%>lt^A PxxK ;
+         +Ine:%>ss^A PxxK ;
+         +Ela:%>st^A PxxK ;
+         +Tra:%>ksi  K    ; ! +Tra:%>kse  Pxx  ;
+         +Abe:%>tt^A PxxK ;
 
 
 
@@ -1034,10 +1033,14 @@ LEXICON ill_hiin ! NB USED 5 TIMES, always pl & either ^HMETAh%>i2i or ^HMETA%>h
 
 
 
- LEXICON com_ne    ! Komitatiivilla on vain -ine ja menee Pxx:iin
-  +Com:%>ne PxxK ; ! Not to K, since Px must be present ! Note that adjectives have -ine without Px
-! one exception, in terhveiset it is two n's
+ LEXICON com_ne
+  +Com:%>ne PxxK ; ! Note that adjectives have -ine without Px, though Px doesn't do anything atm
 
+LEXICON com_nne
+  +Com:%>nne PxxK ;
+! ess, ade ja all oon aina kaksi n-/r-/l-/m-, jos oon 3/5/7 lyhyttä tavvuu ennen suffiksi
+! Puhuin Eiran ja Mikon kanssa, ja het sanothaan, ette loogisesti oon näin kans komitatiivissa
+! Eli on "tervheisinne" ja "veljeksinne" komitatiivissa
 
 
  !LEXICON longgenpl
