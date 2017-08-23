@@ -104,14 +104,14 @@ LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31 ;
  comp_m_odd ;
 +A:^E2I%>i5 superl_m_odd ;
-+A+Sg+Superl+Nom:^E2I%>in K ;
++A+Sg+Superl:^E2I%>i nom_n ;
 +A+Sg+Superl:^E2I%>in par_tA ;
 
 LEXICON a_31si	!!= * @CODE@ uusi
 +A: x_31si ;
 :^WG comp_m_odd  ;
 +A:^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n
-+Dial/-Por+A+Sg+Superl+Nom:^E2I%>in K ; ! uussiin
++Dial/-Por+A+Sg+Superl:^E2I%>i  nom_n ; ! uussiin
 +Dial/-Por+A+Sg+Superl:^E2I%>in par_tA ;
 
 LEXICON a_32 !!= * @CODE@ tyven
@@ -145,9 +145,10 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 
 +A:m^A  comp_mm       ;
 +A:mi5i superl_m_even ;
-+A+Pl+Comp+Gen+Dial/Por:m^A%>mpp%>i2%>in K ;
-+A+Sg+Comp+Dial/Jok:m^A%>mp^A  par_A ; ! lämpimämpää, not pp. Only 4 lämmin?
-+A+Pl+Superl+Gen+Dial/Var:mi5i%>mpp%>i2%>in K ;
+
++A+Sg+Comp+Dial/Jok:m^A%>mp^A       par_A ; ! lämpimämpää, not pp. Only 4 lämmin?
++A+Pl+Comp+Dial/Por:m^A%>mpp%>i2%>i gen_n ;
++A+Pl+Superl+Dial/Var:mi5i%>mpp%>i2%>i gen_n ;
 
 LEXICON a_33as !!= * @CODE@ raskas
 +A: x_33as ;
@@ -177,17 +178,18 @@ LEXICON a_33ys !!= * @CODE@ kärys
 
 LEXICON x_33ys ! TODO DELETE THIS PROBABLy! ONLY ONE WORD, kärys, IS IN IT
    +Sg+Nom:%>y^WG%>s    K                 ;
+       +Sg:h%>yy        gen_n_sg          ;
        +Sg:%>y^WG%>s    par_tA            ;
        +Sg:h%>yy        ill_sseen         ;
-       +Pl:h%>yi        ill_ssiin         ;
-       +Sg:h%>yy        gen_n_sg          ;
-       +Pl:h%>yy        nom_t             ;
        +Sg:h%>yy        sgpl_cases_even   ;
-       +Pl:h%>y%>i2     sgpl_cases_even   ;
-       +Pl:h%>y%>i2     par_tA            ;
+
+       +Pl:h%>yy        nom_t             ;
        +Pl:h%>y%>i2     gen_tten          ;
- +N+Pl+Ess:h%>y%>i2%>ny PxxK              ; ! not to ess n pecause of the y I guess? wat
+       +Pl:h%>y%>i2     par_tA            ;
+       +Pl:h%>yi        ill_ssiin         ;
+ +N+Pl+Ess:h%>y%>i2%>ny PxxK              ; ! not to ess n pecause of the y??
        +Pl:h%>y%>i2     com_ne            ;
+       +Pl:h%>y%>i2     sgpl_cases_even   ;
 
 
 LEXICON a_33t !!= * @CODE@ tuoret
@@ -390,28 +392,29 @@ LEXICON comp_onneton
 
 LEXICON comp_mm
 
-+Sg+Comp+Nom:%>mpi K     ;
-+Sg+Comp:%>mm^A  gen_n    ;
++Sg+Comp+Nom:%>mpi K               ;
++Sg+Comp:%>mm^A    gen_n           ;
 +Sg+Comp+Dial/Por:%>mpp^A par_A    ; ! used2be included in LIGä twolc
 +Sg+Comp+Dial/Jok:%>mpp^A par_A    ; ! loistaavamppaa
-+Sg+Comp+Dial/Jok:%>mp^A  par_A    ; ! loistaavamppaa
-+Sg+Comp:%>mp    ill_hAAn ;
-+Sg+Comp:%>mp^A  ess_n    ; ! +Ess:%>mp^A%>n^A K ;
-+Sg+Comp:%>mm^A  sgpl_cases_even ;
++Sg+Comp+Dial/Jok:%>mp^A  par_A    ; ! loistaavampaa
++Sg+Comp:%>mp      ill_hAAn        ;
++Sg+Comp:%>mp^A    ess_n           ; ! +Ess:%>mp^A%>n^A K
++Sg+Comp:%>mm^A    sgpl_cases_even ;
 !+A+Comp:%>m^A weak_v_stem ;
 
-+Pl+Comp:%>mm^A nom_t ; ! +Nom:%>mm^A%>t K ;
-!+Pl+Comp+Dial/Por:%>mm%>ii2 gen_tten ; ! used2be +Gen:%>mm%>ii2tten K ;
-+Pl+Comp+Dial/Var:%>mm%>ii2 gen_tten ; ! used2be +Gen:%>mm%>ii2tten K ;
-+Pl+Comp+Dial/Jok:%>mm%>i2  gen_tten ; ! used2be +Gen:%>mm%>i2tten  K ; ! i2 or i ?
- +Pl+Comp+Dial/Por:%>mpp%>i2%>i par_tA ; ! +Par:%>mpp%>i2%>it^A K  ;
- +Pl+Comp+Dial/Por:%>mpp%>i2%>i par_end  ; ! +Par:%>mpp%>i2%>i K  ;
-+Pl+Comp+Dial/-Por:%>mp%>i2 par_A ; ! +Par+Dial/-Por:%>mp%>i2%>^A K  ;
-+Pl+Comp:%>mp         ill_hiin ; ! +Ill:%>mp%>hi%>i2n K ;
-+Pl+Comp:%>mp%>i2     ess_n ;
-+Pl+Comp:%>mp%>i2     com_ne ;
-+Pl+Comp:%>mm%>i2 sgpl_cases_even ;
++Pl+Comp:%>mm^A    nom_t           ; ! +Nom:%>mm^A%>t K ;
+! +Pl:%> gen_par_ppiita ;
+ +Pl+Comp+Dial/Var:%>mm%>ii2    gen_tten ; ! used2be +Gen:%>mm%>ii2tten K
+ +Pl+Comp+Dial/Jok:%>mm%>i2     gen_tten ; ! used2be +Gen:%>mm%>i2tten  K  ! i2 or i ?
+ +Pl+Comp+Dial/Por:%>mpp%>i2%>i par_tA   ; ! +Par:%>mpp%>i2%>it^A K
+ +Pl+Comp+Dial/Por:%>mpp%>i2%>i par_end  ; ! +Par:%>mpp%>i2%>i K
++Pl+Comp+Dial/-Por:%>mp%>i2     par_A    ; ! +Par+Dial/-Por:%>mp%>i2%>^A K
++Pl+Comp:%>mp      ill_hiin        ; ! +Ill:%>mp%>hi%>i2n K
++Pl+Comp:%>mp%>i2  ess_n           ;
++Pl+Comp:%>mp%>i2  com_ne          ;
++Pl+Comp:%>mm%>i2  sgpl_cases_even ;
 !+A+Pl+Comp+Gen:%>mpp%>i2in K ;
+!+Pl+Comp+Dial/Por:%>mm%>ii2 gen_tten ; ! used2be +Gen:%>mm%>ii2tten K ;
 
 
 LEXICON superl_m_even
