@@ -320,69 +320,37 @@ LEXICON x_22oi
 
 
 LEXICON n_23        !!= * @CODE@  valkkee, hoppee, kauhee
-      +N+Dial/Por:           x_23            ;
-!    +N+Dial/-Por:           x_23_-Por       ;
- ! +N+Sg+Nom:   R    ; Is this extra and wrong?
+      +N+Dial/Por:        x_23            ;
+     +N+Dial/-Por:        x_23ia          ; ! TODO TODO TODO TWOLC triggeri joka poistaa yhden Cns ja 1 Vow!
+ ! +N+Sg+Nom:   R     Is this extra and wrong?
 
 LEXICON x_23
-          +Sg+Nom:e          K               ;
- +Sg+Nom+Err/Orth:%>%^A      K               ;
-              +Sg:e          gen_n_sg        ;
-              +Sg:e          par_tA          ;
-              +Sg:e          ill_sseen       ;
-              +Sg:e          ess_n           ;
-              +Sg:e          sgpl_cases_even ;
+          +Sg+Nom:e       K               ;
+ +Sg+Nom+Err/Orth:%>%^A   K               ;
+              +Sg:e       gen_n_sg        ;
+              +Sg:e       par_tA          ;
+              +Sg:e       ill_sseen       ;
+              +Sg:e       ess_n           ;
+              +Sg:e       sgpl_cases_even ;
 
-              +Pl:e          nom_t           ;
-              +Pl:e%>i2      gen_tten        ;
-              +Pl:e%>i2      par_tA          ;
-              +Pl:e%>i2      ill_ssiin       ;
-              +Pl:e%>i2      ess_n           ;
-              +Pl:e%>i2      com_ne          ;
-              +Pl:e%>i2      sgpl_cases_even ;
+              +Pl:e       nom_t           ;
+              +Pl:e%>i2   gen_tten        ;
+              +Pl:e%>i2   par_tA          ;
+              +Pl:e%>i2   ill_ssiin       ;
+              +Pl:e%>i2   ess_n           ;
+              +Pl:e%>i2   com_ne          ;
+              +Pl:e%>i2   sgpl_cases_even ;
 
-!LEXICON x_23_-Por ! look at x_22oi for inspiration, as the -ki cases work
-!      +Sg:^E2I^A     nom             ; ! valkia
-!      +Sg:^E2I^A     gen             ; ! valkian
-!      +Sg:^E2I^A     par             ; ! valkiaa
-!      +Sg:^E2I^A     tra             ; ! valkiaksi
-!      +Sg:^E2I^A     abe             ; ! valkiatta
-!      +Sg:^E2I^A     ine             ; ! valkiassa
-!      +Sg:^E2I^A     ela             ; ! valkiasta
-!      +Sg:^E2I       ill             ; ! valkihaan
-!      +Sg:^E2I^A     ade             ; ! valkialla
-!      +Sg:^E2I^A     abl             ; ! valkialta
-!      +Sg:^E2I^A     all             ; ! valkialle
-!      +Sg:^E2I^A     ess_n           ; ! valkianna
+LEXICON x_23ia ! For -Por only valkia, hopia, kauhia
+          +Sg+Nom:^A         K               ; ! valkia
+              +Sg:^A         gen_n_sg        ; ! valkian
+              +Sg:^A         par_A           ; ! valkiaa
+              +Sg:^At        par_A           ; ! valkiaa
+              +Sg:^HMETA     ill_hAAn        ; ! valkihaan
+              +Sg:^A         ess_nn          ; ! valkianna pime^A>nn^A
+              +Sg:^A         sgpl_cases_odd  ;
 
-!      +Pl:^E2I^A     nom             ; ! valkiat
-!      +Pl:%>i2       gen             ; ! valkeitten
-!      +Pl:%>i2       par             ; ! valkeita
-!      +Pl:%>i2       tra             ; ! valkeiksi
-!      +Pl:%>i2       abe             ; ! valkeitta
-!      +Pl:%>i2       ine             ; ! valkeissa
-!      +Pl:%>i2       ela             ; ! valkeista
-!      +Pl:%>i2       ill             ; ! valkeissiin
-!      +Pl:%>i2       ade             ; ! valkeila
-!      +Pl:%>i2       abl             ; ! valkeilta
-!      +Pl:%>i2       all             ; ! valkeile
-!      +Pl:%>i2       ess_n           ; ! valkeina
-!      +Pl:%>i2       com_ne          ; ! valkeine
-
-LEXICON n_23ia        !!= * @CODE@  For -Por only valkia, hopia, kauhia
-               +N:           x_23ia          ;
-!    +N+Dial/-Por:           x_23_-Por       ;
- ! +N+Sg+Nom:   R    ; Is this extra and wrong?
-
-LEXICON x_23ia
-          +Sg+Nom:           K               ; ! valkia
-              +Sg:           gen_n_sg        ; ! valkian
-              +Sg:           par_A           ; ! valkiaa
-              +Sg:^HMETA     ill_hVVn        ; ! valkihaan
-              +Sg:           ess_nn          ; ! valkianna
-              +Sg:           sgpl_cases_odd  ;
-
-              +Pl:           nom_t           ; ! valkiat
+              +Pl:^A         nom_t           ; ! valkiat
               +Pl:e%>i2      gen_tten        ; ! valkeitten
               +Pl:e%>i2      par_tA          ; ! valkeita
               +Pl:e%>i2      ill_ssiin       ; ! valkeissiin
@@ -692,46 +660,46 @@ LEXICON x_33aes
 
 
 LEXICON n_33is !!= @CODE@ ruvis, ruumis
- +N: x_33is ;
+           +N:          x_33is          ;
 
 LEXICON x_33is ! kaunis
-      +Sg+Nom:i^WG%>s    K                 ;
-          +Sg:hii        gen_n_sg          ;
-          +Sg:i^WG%>s    par_tA            ;
-          +Sg:%>hii      ill_sseen         ;
-          +Sg:hii        ess_n             ;
-          +Sg:hii        sgpl_cases_even   ;
+      +Sg+Nom:i^WG%>s   K               ;
+          +Sg:hii       gen_n_sg        ;
+          +Sg:i^WG%>s   par_tA          ;
+          +Sg:%>hii     ill_sseen       ;
+          +Sg:hii       ess_n           ;
+          +Sg:hii       sgpl_cases_even ;
 
-          +Pl:hii        nom_t             ;
-          +Pl:hii        gen_tten          ; ! rukkhiitten
- +Dial/Var+Pl:hi%>je     gen_n             ; ! rukhijen
-          +Pl:hii        par_tA            ; ! rukkhiita
- +Dial/Var+Pl:hi%>j      par_A             ; ! rukhija
-          +Pl:hii        ill_ssiin         ;
-          +Pl:%>hii      ess_n             ;
-          +Pl:hi2i       com_ne            ;
-          +Pl:hii        sgpl_cases_even   ;
+          +Pl:hii       nom_t           ;
+          +Pl:hii       gen_tten        ; ! rukkhiitten
+ +Dial/Var+Pl:hi%>je    gen_n           ; ! rukhijen
+          +Pl:hii       par_tA          ; ! rukkhiita
+ +Dial/Var+Pl:hi%>j     par_A           ; ! rukhija
+          +Pl:hii       ill_ssiin       ;
+          +Pl:%>hii     ess_n           ;
+          +Pl:hi2i      com_ne          ;
+          +Pl:hii       sgpl_cases_even ;
 
 !LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 !  n_33t ;
 
 LEXICON n_33t !!= @CODE@ venet, hyljet, huonet
-                 +N:   x_33t ;
+           +N:   x_33t ;
 
 LEXICON x_33t
- +Sg+Dial/-Var   :e^WG        nom_t          ;
- +Sg+Dial/Var+Nom:e^WG        K              ;
-              +Sg:e^WG%>t     par_tA         ;
++Sg+Dial/Var+Nom:e^WG     K              ;
++Sg+Dial/-Var:e^WG        nom_t          ;
+          +Sg:e^WG%>t     par_tA         ;
 
-     +Dial/Var+Pl:he%>je      gen_n          ; ! venhejen
-     +Dial/Var+Pl:he%>j       par_A          ; ! venhejä
-              +Pl:hee%>i2     com_ne         ;
+ +Dial/Var+Pl:he%>je      gen_n          ; ! venhejen
+ +Dial/Var+Pl:he%>j       par_A          ; ! venhejä
+          +Pl:hee%>i2     com_ne         ;
 
-                 :hee         33_t_ts_common ;
+             :hee         33_t_ts_common ;
 
 LEXICON n_33ts !!= @CODE@ kirves
-        +N:   x_33ts ;
- +N+Sg+Nom:es R      ;
+           +N:   x_33ts ;
+    +N+Sg+Nom:es R      ;
 
 LEXICON x_33ts !!= @CODE@ kirves
       +Sg+Nom:es          K              ;
@@ -760,9 +728,9 @@ LEXICON 33_t_ts_common
 
 
 LEXICON n_41 !!= * @CODE@ = veres
-        +N:     x_41     ;
- +N+Sg+Nom:s    R        ;
-     +N+Sg:kse gen_n_sg ;
+           +N:     x_41     ;
+    +N+Sg+Nom:s    R        ;
+        +N+Sg:kse gen_n_sg ;
 
 LEXICON x_41
       +Sg+Nom:^WG%>s     K              ;
