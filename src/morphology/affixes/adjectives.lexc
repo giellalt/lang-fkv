@@ -92,10 +92,10 @@ LEXICON a_23ii  !!= * @CODE@ auttii
 +A: x_23ii      ;
     comp_m_odd  ;
 
-LEXICON a_23ia	!!= * @CODE@  pimeä
+LEXICON a_23ia	!!= * @CODE@ pimeä. Is -Por verson of a_23, never called from stems/adjectives.lexc
 +A: x_23ia ;
-+A: comp_mm ;
-+A:%>i2 superl_m_odd ;
++A:^A comp_mm ;
++A:%>i5 superl_m_odd ;
 +A+Sg+Superl:e%>i2    nom_n  ;
 +A+Sg+Superl:e%>i2%>n par_tA ;
 
@@ -214,7 +214,7 @@ LEXICON a_33y !!= * @CODE@ väsyny:väsyn ! perfect participle
 LEXICON a_41 !!= * @CODE@ = veres
 +A: x_41 ;
 :kse comp_m_odd  ;
-+A:ksi superl_m_odd ; ! Do they have superl? TODO
++A:ksi superl_m_odd ; ! Do they have superl? TODO 
 
 
 !LEXICON a_41_s_kse
