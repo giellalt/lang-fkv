@@ -861,6 +861,12 @@ j:0 <=> l _ e: %^E2I:0 ;
 !!€ vuote^HMETA>hii
 !!€ vuos00>hii
 
+"Cns:0 in hoppe- hope-a in Var & Jok" ! TODO Change E2I tag to a custom one
+!! __@RULENAME@__
+ Cx:0 <=> Cns: Vowel Cns: _ [ e | i ]  %^E2I:0 ; ! hopea
+             where Cx in ( Cns ) ;
+
+
 !! !!i rules
 !  =========
 !! The -i- rules require different i-s for different POS.
