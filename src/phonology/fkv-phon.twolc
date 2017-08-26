@@ -863,8 +863,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Cns:0 in hoppe- hope-a in Var & Jok" ! TODO Change E2I tag to a custom one
 !! __@RULENAME@__
- Cx:0 <=> Cns: Vowel Cns: _ [ e | i ]  %^E2I:0 ; ! hopea
-             where Cx in ( Cns ) ;
+ Cx:0 <=> Cns Vowel Cns _ e %^E2I: ; ! hopea
+             where Cx in ( b c d đ f g h j k l m n p q r s š t v w x z p2 t2 k2 ) ;
 
 
 !! !!i rules
