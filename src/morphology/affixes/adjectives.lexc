@@ -94,9 +94,9 @@ LEXICON a_23ii  !!= * @CODE@ auttii
     comp_m_odd  ;
 
 LEXICON a_23ea	!!= * @CODE@ pimeä. Is -Por verson of a_23, never called from stems/adjectives.lexc
-+A:%^¤ x_23ia ; ! TODO Change E2I tag to a custom one
++A:%^¤ x_23ia ; ! TODO Change %^¤ tag to a custom one
 +A:%^¤^A comp_mm ;
-+A:%^¤%>i5 superl_m_odd ;
++A:%^¤e%>i5 superl_m_odd ;
 +A+Sg+Superl:%^¤%>i2    nom_n  ;
 +A+Sg+Superl:%^¤%>i2%>n par_tA ;
 
