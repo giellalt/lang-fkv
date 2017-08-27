@@ -321,7 +321,7 @@ LEXICON x_22oi
 
 LEXICON n_23        !!= * @CODE@  valkkee, hoppee, kauhee
       +N+Dial/Por:        x_23            ;
-     +N+Dial/-Por:        x_23ia          ; ! TODO TODO TODO TWOLC triggeri joka poistaa yhden Cns ja 1 Vow!
+     +N+Dial/-Por:^E2I^¤  x_23ia          ; ! TODO TODO TODO TWOLC triggeri joka poistaa yhden Cns ja 1 Vow!
  ! +N+Sg+Nom:   R     Is this extra and wrong?
 
 LEXICON x_23
@@ -342,21 +342,21 @@ LEXICON x_23
               +Pl:e%>i2   sgpl_cases_even ;
 
 LEXICON x_23ia ! For -Por only valkia, hopia, kauhia
-          +Sg+Nom:^A         K               ; ! valkia
-              +Sg:^A         gen_n_sg        ; ! valkian
-              +Sg:^A         par_A           ; ! valkiaa
-              +Sg:^At        par_A           ; ! valkiaa
+          +Sg+Nom:%>^A         K               ; ! valkia
+              +Sg:%>^A         gen_n_sg        ; ! valkian
+              +Sg:%>^A         par_A           ; ! valkiaa
+              +Sg:%>^At        par_A           ; ! valkiaa
               +Sg:^HMETA     ill_hAAn        ; ! valkihaan
-              +Sg:^A         ess_nn          ; ! valkianna pime^A>nn^A
-              +Sg:^A         sgpl_cases_odd  ;
+              +Sg:%>^A         ess_nn          ; ! valkianna pime^A>nn^A
+              +Sg:%>^A         sgpl_cases_odd  ;
 
-              +Pl:^A         nom_t           ; ! valkiat
-              +Pl:i2         gen_tten        ; ! valkeitten
-              +Pl:i2         par_tA          ; ! valkeita
-              +Pl:i2         ill_ssiin       ; ! valkeissiin
-              +Pl:i2         ess_n           ; ! valkeina
-              +Pl:i2         com_ne          ; ! valkeine
-              +Pl:i2         sgpl_cases_even ; ! valkei-
+              +Pl:%>^A         nom_t           ; ! valkiat
+              +Pl:%>i2         gen_tten        ; ! valkeitten
+              +Pl:%>i2         par_tA          ; ! valkeita
+              +Pl:%>i2         ill_ssiin       ; ! valkeissiin
+              +Pl:%>i2         ess_n           ; ! valkeina
+              +Pl:%>i2         com_ne          ; ! valkeine
+              +Pl:%>i2         sgpl_cases_even ; ! valkei-
 
 LEXICON n_23ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
  +N+Dial/Por:         x_23ii           ;
