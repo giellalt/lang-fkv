@@ -832,8 +832,7 @@ homet:hom n_33t ;
 homma n_21 ;
 honka n_21 ;
 honninki n_22oddi ;
-hoppee+Dial/Por:hoppe n_23 ;
-hoppee+Dial/-Por:hopia n_23ia ; ! dialekt, var
+hoppee:hoppe n_23 ;
 hoppeevana:hoppee#vana n_21 ;
 hoppu n_21 ;
 hoppuruoka:hoppu#ruoka n_21 ;
@@ -946,7 +945,7 @@ ilmaraito:ilma#raito n_21 ;
 ilmareikä:ilma#reikä n_21 ;
 ilmatooki:ilma#took2i n_21 ;
 ilmestys:ilmesty n_41 ;
-ilmivalkkee:ilmi#valkke n_23 ;
+! ilmivalkkee:ilmi#valkke a_23 ; ! Laitoin adjektiiveihin
 ilmoittaaja n_22 ;
 ilmoittaaja+N+Sg+Nom+Err/Orth:ilmottaaja K ;
 ilmotus:ilmot2u n_41 ;
@@ -1381,8 +1380,7 @@ kattokruunu:katto#kruunu n_21 ;
 katu n_21 ;
 katunäkö:katu#näkö n_21 ;
 kauha n_21 ;
-kauhee+Dial/Por:kauhe n_23 ;
-kauhee+Dial/-Por:kauhia n_23ia ;
+kauhhee:kauhhe n_23 ;
 kauhistus:kauhistu n_41 ;
 kaukalo n_22oi ;
 kauko-ohjaaja n_22odd ;
@@ -4770,8 +4768,7 @@ valinanvara:valinan#vara n_21 ;
 valinta n_22odd ;
 valitteminen:valittemi n_42odd ;
 valkama n_22odd ;
-valkkee+Dial/Por:valkke n_23 ; !!= * @CODE@ adjektiivi
-valkkee+Dial/-Por:valkia n_23ia ; !!= * @CODE@ adjektiivi
+!valkkee:valkke n_23 ; !!= * @CODE@ adjektiivi TODO Kysy miks tämä ois täällä?
 valkkeejuusto:valkkee#juusto n_21 ;
 valkkeesoosi:valkkee#soosi n_21 ;
 valo n_21 ;
@@ -5454,4 +5451,3 @@ aijankuluhomma:aijan#kulu#homma n_21 ;
 ärryttäminen:ärryttämi n_42odd ;
 äyskarri n_22oddi ;
 askel n_x ;
-

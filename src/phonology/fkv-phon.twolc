@@ -24,7 +24,8 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
 %^AE:0                    !!= * @CODE@ -- a to e lauletaan
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
-%^¤:0 ! Not in dummy, TODO maybe add?
+%^¤:0                ! Not in dummy, TODO maybe add?
+!%^n_23-e2i:0          ! Not in dummy, TODO maybe add?
 #
 ;
 
@@ -53,7 +54,7 @@ ArchiCns = %^N ;                                            !!= * @CODE@
 SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@
 Segment = Vowel Cns ;                                       !!= * @CODE@
-Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO ;  !!= * @CODE@
+Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@
 NE = %> n e ;
@@ -422,8 +423,8 @@ Rules
 
 "Gradation ppttkk : ptk"
 !! __@RULENAME@__
-Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
-         Vowel: ([l|m|n|r]) Cx _  :o %^AO:0 %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
+Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG: ;   !entinen omppu
+         Vowel: ([l|m|n|r]) Cx _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
             where Cx in ( k p t ) ;
 
 
@@ -840,7 +841,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "e:i in n_23ia kauhia hopia"
 !! __@RULENAME@__
- e:i <=> Cns Vowel (Vowel) Cns Cns:0 _ (%^E2I:0) %^¤:0 ; ! hopia ! E2I is for e:i hoppe^E2I^¤>^A -> hopia, kauhia
+ e:i <=> Cns Vowel (Vowel) Cns Cns:0 _ %^E2I:0 %^¤:0 ; ! hopia ! E2I is for e:i hoppe^E2I^¤>^A -> hopia, kauhia
 !         k    a      u     h    h   e   ^E2I     ^¤    %>^A
 ! TODO Write tests
 
@@ -868,12 +869,12 @@ j:0 <=> l _ e: %^E2I:0 ;
 !!€ vuos00>hii
 
 "Cns:0 in hoppe- hope-a in Var & Jok" ! TODO Change E2I tag to a custom one
-!! __@RULENAME@__
- Cx:0 <=> Cns Vowel (Vowel) Cns _ e (%^E2I:0) %^¤:0 ; ! hopea ! E2I is for e:i hopia
-!          k    a       u    h  h e   ^E2I      ^¤%>^A
+!! @RULENAME@
+ Cx:0 <=> Cns Vowel (Vowel) Cx  _ e: (%^E2I:0) %^¤:0  %> [ %^A: | i2: | h ] ; ! E2I is for e:i hopia
+!          k    a       u    h  h e   ^E2I      ^¤%  >^A
 !           h    o    p  _ e (%^E2I:0) %^¤:0 ; ! hopea ! E2I is for e:i hopia
 !          k    a      u     h  h e   ^E2I     ^¤    >  ^A    kauhhe^E2I^¤>^A
-    where Cx in ( b c d đ f g h j k m p q s š w x z p2 k2 ) ; ! TODO We can restict these Cons
+    where Cx in ( b d f g h j k m p q s w x z p2 k2 ) ; ! TODO We can restict these Cons
 
 
 !! !!i rules

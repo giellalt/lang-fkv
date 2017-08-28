@@ -319,7 +319,7 @@ LEXICON x_22oi
 !+Ill:h%>i2%>i2     n_PxK ; ! on Sg:ssä hVVn
 
 
-LEXICON n_23        !!= * @CODE@  valkkee, hoppee, kauhee
+LEXICON n_23        !!= * @CODE@  hoppee
       +N+Dial/Por:        x_23            ;
      +N+Dial/-Por:^E2I^¤  x_23ia          ; ! TODO TODO TODO TWOLC triggeri joka poistaa yhden Cns ja 1 Vow!
  ! +N+Sg+Nom:   R     Is this extra and wrong?
@@ -345,8 +345,8 @@ LEXICON x_23ia ! For -Por only valkia, hopia, kauhia
           +Sg+Nom:%>^A         K               ; ! valkia
               +Sg:%>^A         gen_n_sg        ; ! valkian
               +Sg:%>^A         par_A           ; ! valkiaa
-              +Sg:%>^At        par_A           ; ! valkiaa
-              +Sg:^HMETA     ill_hAAn        ; ! valkihaan
+              +Sg:%>^At        par_A           ; ! valkiata
+              +Sg:             ill_hAAn        ; ! valkihaan
               +Sg:%>^A         ess_nn          ; ! valkianna pime^A>nn^A
               +Sg:%>^A         sgpl_cases_odd  ;
 
