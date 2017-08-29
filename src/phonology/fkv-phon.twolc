@@ -841,7 +841,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "e:i in n_23ia kauhia hopia"
 !! __@RULENAME@__
- e:i <=> Cns Vowel (Vowel) Cns Cns:0 _ %^E2I:0 %^¤:0 ; ! hopia ! E2I is for e:i hoppe^E2I^¤>^A -> hopia, kauhia
+ e:i <=> Cns Vowel (Vowel) ([n|l|r]) Cns Cns:0 _ %^E2I:0 %^¤:0 %> [ %^A: | h ]; ! E2I is for e:i hoppe^E2I^¤>^A -> hopia, kauhia
 !         k    a      u     h    h   e   ^E2I     ^¤    %>^A
 ! TODO Write tests
 
@@ -870,11 +870,9 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Cns:0 in hoppe- hope-a in Var & Jok" ! TODO Change E2I tag to a custom one
 !! @RULENAME@
- Cx:0 <=> Cns Vowel (Vowel) Cx  _ e: (%^E2I:0) %^¤:0  %> [ %^A: | i2: | h ] ; ! E2I is for e:i hopia
-!          k    a       u    h  h e   ^E2I      ^¤%  >^A
-!           h    o    p  _ e (%^E2I:0) %^¤:0 ; ! hopea ! E2I is for e:i hopia
-!          k    a      u     h  h e   ^E2I     ^¤    >  ^A    kauhhe^E2I^¤>^A
+ Cx:0 <=> Cns Vowel (Vowel) ([n|l|r]) Cx  _ e: (%^E2I:0) %^¤:0  %> [ %^A: | i2: | i5: | h ] ;
     where Cx in ( b d f g h j k m p q s w x z p2 k2 ) ; ! TODO We can restict these Cons
+    ! E2I is for e:i hopia   ! Known words for l and r, not yet for n but imagine :)
 
 
 !! !!i rules
