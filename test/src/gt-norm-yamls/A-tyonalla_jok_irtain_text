@@ -40,7 +40,7 @@ Tests:
      irtain+A+Pl+Ade: irtaimilla
      irtain+A+Pl+Abl: irtaimilta
      irtain+A+Pl+All: irtaimille
-     irtain+A+Pl+Com: irtaimine
+     irtain+A+Pl+Com: irtaiminne
      irtain+A+Pl+Ess: irtaiminna
 
      irtain+A+Sg+Comp+Nom: irtaimempi
@@ -84,19 +84,17 @@ Tests:
      irtain+A+Sg+Superl+Ess: irtaimiimpana
 
 # Eira sanoi, että on aina lyhyt -m superlatiivissa, kun siinä oon aina kaksi ii:tä.
-# Varengin varieteetissä lyhyt -i on kuitenkin mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
-# Katso Kainun kielen grammatikin (2014) s.183.
 
-     irtain+A+Pl+Superl+Nom: [irtaimiimat, irtaimimat] # yksi vai kaksi m:ää, kun siinä on nyt yksi i?
-     irtain+A+Pl+Superl+Gen: [irtaimiimitten, irtaimimitten]
-     irtain+A+Pl+Superl+Par: [irtaimiimpia, irtaimimpia]
-     irtain+A+Pl+Superl+Tra: [irtaimiimiksi, irtaimimiksi]
-     irtain+A+Pl+Superl+Abe: [irtaimiimitta, irtaimimitta]
-     irtain+A+Pl+Superl+Ine: [irtaimiimissa, irtaimimissa]
-     irtain+A+Pl+Superl+Ela: [irtaimiimista, irtaimimista]
-     irtain+A+Pl+Superl+Ill: [irtaimiimphiin, irtaimimphiin]
-     irtain+A+Pl+Superl+Ade: [irtaimiimila, irtaimimila]
-     irtain+A+Pl+Superl+Abl: [irtaimiimilta, irtaimimilta]
-     irtain+A+Pl+Superl+All: [irtaimiimile, irtaimimile]
-     irtain+A+Pl+Superl+Ess: [irtaimiimpina, irtaimimpina]
-     irtain+A+Pl+Superl+Com: [irtaimiimpine, irtaimimpine]
+     irtain+A+Pl+Superl+Nom: irtaimiimat
+     irtain+A+Pl+Superl+Gen: irtaimiimitten
+     irtain+A+Pl+Superl+Par: irtaimiimpia
+     irtain+A+Pl+Superl+Tra: irtaimiimiksi
+     irtain+A+Pl+Superl+Abe: irtaimiimitta
+     irtain+A+Pl+Superl+Ine: irtaimiimissa
+     irtain+A+Pl+Superl+Ela: irtaimiimista
+     irtain+A+Pl+Superl+Ill: irtaimiimphiin
+     irtain+A+Pl+Superl+Ade: irtaimiimila
+     irtain+A+Pl+Superl+Abl: irtaimiimilta
+     irtain+A+Pl+Superl+All: irtaimiimile
+     irtain+A+Pl+Superl+Ess: irtaimiimpina
+     irtain+A+Pl+Superl+Com: irtaimiimpine
