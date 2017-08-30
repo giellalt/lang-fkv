@@ -40,7 +40,7 @@ Tests:
      irtain+A+Pl+Ade: irtaimilla
      irtain+A+Pl+Abl: irtaimilta
      irtain+A+Pl+All: irtaimille
-     irtain+A+Pl+Com: irtaimine
+     irtain+A+Pl+Com: irtaiminne
      irtain+A+Pl+Ess: irtaiminna
 
      irtain+A+Sg+Comp+Nom: irtaimempi
@@ -96,3 +96,7 @@ Tests:
      irtain+A+Pl+Superl+All: [irtaimiimile, irtaimimile]
      irtain+A+Pl+Superl+Ess: [irtaimiimpina, irtaimimpina]
      irtain+A+Pl+Superl+Com: [irtaimiimpine, irtaimimpine]
+
+     # Eira sanoi, että on aina lyhyt -m superlatiivissa, kun siinä oon aina kaksi ii:tä.
+     # Varengin varieteetissä lyhyt -i on kuitenkin mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
+     # Katso Kainun kielen grammatikin (2014) s.183.
