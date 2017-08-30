@@ -147,7 +147,6 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 +A:m^A  comp_mm       ;
 +A:mi5i superl_m_even ;
 
-+A+Sg+Comp+Dial/Jok:m^A%>mp^A       par_A ; ! lämpimämpää, not pp. Only 4 lämmin?
 +A+Pl+Comp+Dial/Por:m^A%>mpp%>i2%>i gen_n ;
 +A+Pl+Superl+Dial/Var:mi5i%>mpp%>i2%>i gen_n ;
 
@@ -358,7 +357,8 @@ LEXICON comp_m_even  ! split for syllabicity sinnikkhäämälä
 LEXICON comp_m_common
 +A+Sg+Comp+Nom:%>mpi K              ;
 +A+Sg+Comp:%>m^A     gen_n          ;
-+A+Sg+Comp:%>mpp^A   par_A          ;
+ +A+Sg+Comp+Dial/Por:%>mpp^A   par_A          ; ! -mppää on por ja -mpää on jok & var - Aili 29.8.17
++A+Sg+Comp+Dial/-Por:%>mp^A    par_A          ; ! -mppää on por ja -mpää on jok & var - Aili 29.8.17
 +A+Sg+Comp:%>mp      ill_hAAn       ;
 
 +A+Pl+Comp:%>m^A     nom_t          ;
@@ -376,8 +376,8 @@ LEXICON comp_m_common
 LEXICON comp_onneton
 +Sg+Comp+Nom:%>mpi K              ;
 +Sg+Comp:%>m^A     gen_n          ;
-+Sg+Comp+Dial/Por:%>mpp^A par_A   ; ! used2be included in LIGä twolc
-+Sg+Comp+Dial/Jok:%>mp^A  par_A   ;
+ +Sg+Comp+Dial/Por:%>mpp^A par_A   ; ! used2be included in LIGä twolc
++Sg+Comp+Dial/-Por:%>mp^A  par_A   ; ! -mppää on por ja -mpää on jok & var - Aili 29.8.17
 +Sg+Comp:%>mp      ill_hAAn       ;
 +Sg+Comp:%>mp^A    ess_nn         ;
 +Sg+Comp:%>m^A     sgpl_cases_odd ;
@@ -396,8 +396,7 @@ LEXICON comp_mm
 +Sg+Comp+Nom:%>mpi K               ;
 +Sg+Comp:%>mm^A    gen_n           ;
 +Sg+Comp+Dial/Por:%>mpp^A par_A    ; ! used2be included in LIGä twolc
-+Sg+Comp+Dial/Jok:%>mpp^A par_A    ; ! loistaavamppaa
-+Sg+Comp+Dial/Jok:%>mp^A  par_A    ; ! loistaavampaa
++Sg+Comp+Dial/Jok:%>mp^A  par_A    ; ! loistaavampaa ! -mppää on por ja -mpää on jok & var - Aili 29.8.17
 +Sg+Comp:%>mp      ill_hAAn        ;
 +Sg+Comp:%>mp^A    ess_n           ; ! +Ess:%>mp^A%>n^A K
 +Sg+Comp:%>mm^A    sgpl_cases_even ;
