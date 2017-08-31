@@ -246,7 +246,8 @@ Rules
 
 "Gemination Vo"
 !! __@RULENAME@__
-0:Cx <=> [.#.|Cns] Vowel Cx _ :o [ %> :o  |  (%^AO:0) %> i2: ] ;
+0:Cx <=> [.#.|.#. Cns] Vowel Cx _ :o [ %> :o  |  (%^AO:0) %> i2: ] ;
+! | .#. Cns] is to not trigger on kulkija^AO>i2>t^A to try to give -jj
        where Cx in ( h j l m n r v ) ;
 
 !!€ kir0o>^V>t
