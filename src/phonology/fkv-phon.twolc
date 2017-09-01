@@ -248,7 +248,7 @@ Rules
 !! __@RULENAME@__
 0:Cx <=> [.#.|.#. Cns] Vowel Cx _ :o [ %> :o  |  (%^AO:0) %> i2: ] ;
 ! | .#. Cns] is to not trigger on kulkija^AO>i2>t^A to try to give -jj
-       where Cx in ( h j l m n r v ) ;
+       where Cx in ( h j l m n r v ) ;v
 
 !!€ kir0o>^V>t
 !!€ kirro>o>t
@@ -419,6 +419,17 @@ Rules
 
 !! !!Consonant gradation
 !    ===================
+
+
+"Gradation t:0 before t:0 in tyttär -> tyär"
+!! __@RULENAME@__
+t:0 <=> t y _ t:0 ä r %^WG: ; ! tytär sg nom and par. tyär tyärtä
+
+!!€ tyttär^WG
+!!€ tyär
+!!€ tyttär^WG>t^A
+!!€ tyärtä
+
 
 !! !Gradation ppttkk : ptk
 
