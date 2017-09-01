@@ -906,8 +906,8 @@ färirikas:färirikk a_33as ;
 harkkuinen:harkkui a_42odd ;
 härski a_21 ;
 hoppeeharmaaja a_22odd ;
-hengestynny:hengestyn a_33u ; !!! TODO toimiiko myös y-päätteisillä?
-hengistynny:hengistyn a_33u ; !!! TODO toimiiko myös y-päätteisillä?
+hengestynny:hengestyn a_x ; ! a_33u ei toimi y-päätteisillä
+hengistynny:hengistyn a_x ; ! a_33u ei toimi y-päätteisillä
 vanhaa:vanha VANH ; ! formerly a_23, wrong
 vapaa a_x ; ! formerly a_23, wrong
 ehyt a_x ; ! :eh
