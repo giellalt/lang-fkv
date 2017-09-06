@@ -1,0 +1,102 @@
+# cat fkvtext_analysed.txt | lookup2cg | vislcg3 -g disambiguation.cg3 -t
+# echo 'sentence' | preprocess | lookup -flags mbTT 1.fst | lookup2cg|vislcg3 -g ../../syntax/1_disambiguation.cg3
+
+#   ============================ #
+#!! !!!Start making a syntactic disambiguator 
+#   ============================ #
+
+
+# ========== #
+# Delimiters #
+# ========== #
+
+
+DELIMITERS = "<.>" "<...>" "<!>" "<?>" "<¶>";
+
+
+
+# ============= #
+# Tags and sets #
+# ============= #
+
+
+# ========
+   SETS
+# ========
+
+LIST BOS = (>>>) (<s>); 
+LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
+
+LIST N = N ;
+LIST V = V ;
+LIST A = A ;
+LIST CC = CC ;
+LIST Dem = Dem ;
+LIST Adv = Adv ;
+LIST Pr = Pr ;
+LIST Po = Po ;
+LIST Gen = Gen ;
+LIST Par = Par ;
+LIST Prop = Prop ;
+LIST Interr = Interr ;
+LIST Pron = Pron ;
+LIST Rel = Rel ;
+LIST CS = CS ;
+LIST PronPers = (Pron Pers) ; # järjestyksellä ei väliä kun ()
+LIST Indef = Indef ;
+LIST ConNeg = ConNeg ;
+LIST Neg = Neg ;
+LIST KUNKA = "kunka" "missä" ;
+LIST COMMA = "," ;
+
+
+# Sets
+# ====
+
+LIST WORD = N V A Adv Pr Interj Po Num CC CS Pron  ;
+
+
+# Here come the rules #
+
+BEFORE-SECTIONS 
+
+
+
+SECTION
+# SELECT:Dummyrule WORD IF (0 WORD) ;
+
+SELECT:person_test V IF (-1 PronPers) ; # exempel
+
+SELECT:adv_after_V Adv IF (-1 V)
+       (NEGATE 0 Dem OR Indef LINK *1 N BARRIER WORD - A) 
+       (NEGATE 0 Pron LINK 1 COMMA LINK 1 KUNKA OR Rel OR CS) 
+ ;
+	#$ sykläsin+V noppeesti+Adv tähään+Dem koulhuun+N+Ill  # noppeesti
+	#$ Konferansiprogramin saatat lukea tästä: www.fad.dep.no.
+	#% on+V       tänä+Dem  A    vuona+N
+
+REMOVE:prop_infrontof_kieli Prop (0 Gen OR Pron OR A LINK 1 ("kieli")) ;
+	#$ Kainun kieli oon osa Ruijan kulttuuriperinnöstä.
+	
+REMOVE:PropInit Prop (-1 BOS)  ((0 CC) OR (0 Pr LINK 1 N)) ;	
+	#$ Mutta kaikila kirjailiijoila
+
+SELECT:PropNotInit Prop (NOT -1 BOS) ;
+
+
+
+
+SELECT Pr IF (-1 Gen OR Par);
+SELECT Po IF (1 Gen OR Par);
+
+SELECT ConNeg IF (-1 Neg);
+
+SELECT:interrel Interr OR Rel (1 CS) ; # Ei anna mithään?
+
+#MAP (@GRAM-ERR) TARGET V (0 V + 3S LINK -1 N + S) ;
+
+
+
+AFTER-SECTIONS 
+
+
