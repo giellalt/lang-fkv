@@ -1,19 +1,19 @@
 !! !!!Verbivartalot
 
 !! Katsaus:
-!! * Epäsäännölliset ei+V+Neg: neg ; olla+V: OLLA ;
+!! * Epäsäännölliset ei+V+Neg: neg ; olla: OLLA ;
 !! * YKSITAVUISET v1 saađa, vieđä...
 !! * Erikoinen yksitavuinen V1nahda, V1tehda V1kayda
 !! * YKSIVARTALOISET v2 lähteet, lukkeet...
 !! * v2_odd kirjoittaat
-!! * KONSONANTTIVARTALOISET v3-tyyppit: 
+!! * KONSONANTTIVARTALOISET v3-tyyppit:
 !! * v3_ele ajatella
 !! * v3_ele_short kuula
 !! * v3_ise aukaista :aukais
 !! * v3_lnr tulla, mennä...
 !! * v3piera pierä
 !! * v3_ele_odd kävelä:kävel  ;
-!! * v3juosta juosta:juo v3juosta ; 
+!! * v3juosta juosta:juo v3juosta ;
 !! * VOKAALIVARTALOISET v4-tyyppiset
 !! * v4 lämmetä
 !! * v43 evakueerata
@@ -21,7 +21,7 @@
 !! * v4_oitte haravoita
 !! * kontraktiverbit jatkata:jatka v43_odd ;
 
-LEXICON VerbRoot 
+LEXICON VerbRoot
 
 aavistaat:aavista v2_odd ;
 nomineerata:nomineera v43_odd ;
@@ -819,7 +819,7 @@ nylkkeet:nylke v2 ;
 nähđä:nä v1nahda ;
 näjetellä:näjettel v3_ele ;
 näkkyyt:näky v2 ;
-nälkkyyt:nälky v2 ; ! antaa: nälkyn    pitäis antaa nälyn. 050916 
+nälkkyyt:nälky v2 ; ! antaa: nälkyn    pitäis antaa nälyn. 050916
 näpätä:näppä v43_odd ;
 näytelä:näyttel v3_ele_odd ;
 näyttäyttyyt:näyttäytty v2_odd ;
@@ -838,7 +838,7 @@ oksenttaat:oksenta v2_odd ;
 oksenuttaat:oksenutta v2 ;
 oksettaat:oksetta v2_odd ;
 olestaat:olesta v2_odd ;
-olla+V: OLLA ;
+olla: OLLA ;
 omaksuut:omaksu v2_odd ;
 omistaat:omista v2_odd ;
 onkkiit:onki v2 ;
@@ -1364,7 +1364,7 @@ ulista:ulis v3_ise ;
 ulvaista:ulvais v3_ise ;
 ulvoot:ulvo v2 ;
 unheettaat:unheetta v2_odd ;
-unheettaat:unheetta v2_odd ; 
+unheettaat:unheetta v2_odd ;
 unheettuut:unheettu v2_odd ;
 unhettaat:unhetta v2_odd ;
 unistaat:unista v2_odd ;
@@ -1375,7 +1375,7 @@ urrutella:urruttel v3_ele ;
 uskalttaat:uskalta v2_odd ;
 uskoot:usko v2 ;
 uuđistaat:uuđista v2_odd ;
-vaatettiit:vaatetti v2_odd ; 
+vaatettiit:vaatetti v2_odd ;
 vaatita:vaati v4_itte ;
 vaattiit:vaatti v2 ;
 vahingoittaat:vahingoitta v2 ;
@@ -2496,5 +2496,3 @@ piđetä:pite v4 ;
 yksinkertaistaat:yksinkertaista v2_odd ;
 funkeerata:funkeera v43_odd ;
 sonnittaat:sonnitta v2_odd ;
-
-
