@@ -21,8 +21,10 @@ LEXICON Subjunction
 !! @LEXNAME@ -leksikossa on tärkeimmät sanat (koska, että, jos, ..)
 
 koska subj ;
-että subj ;
-ette subj ;
+että+Dial/-Por:että subj ;
+ette+Dial/Por:ette subj ;
+siksi subj ;
+sillä subj ;
 jos subj ;
 joskin subj ;
 vaikka subj ;
@@ -40,20 +42,20 @@ LEXICON Conjunction
 eli cctag ;
 ja cctag ;
 tai cctag ;
-tahi cctag ; 
+tahi cctag ;
 vai cctag ;
 mutta cctag ;
 mut cctag ;
 sekä cctag ;
 
-joko cctag ; 
+joko cctag ;
 vaan cctag ;
 vai cctag ;
 ynnä cctag ;
 saati cctag ;
 kunnes cctag ;
-siksi cctag ;
-sillä cctag ;
+! siksi cctag ; !# Aili: siirsin sen subj-tagin alle.
+! sillä cctag ; !# Aili: siirsin sen subj-tagin alle.
 näet cctag ;
 nimittäin cctag ;
 
@@ -101,4 +103,3 @@ voi-voi ij ;
 
 LEXICON ij
  +Interj: # ;
-
