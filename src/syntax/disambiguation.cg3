@@ -122,6 +122,9 @@ SELECT:interrel Interr OR Rel (1 CS) ; # Ei anna mithään?
 
 #MAP (@GRAM-ERR) TARGET V (0 V + 3S LINK -1 N + S) ;
 
+LIST WORDLEMMA = (".*"r) ;
+
+REMOVE:errorth $$WORDLEMMA + (Err/Orth) (0 $$WORDLEMMA - (Err/Orth) ) ; #Removes Err/Orth analysis when there is an analysis with same lemma without Err/Orth
 
 
 AFTER-SECTIONS
