@@ -421,16 +421,6 @@ Rules
 !    ===================
 
 
-"Gradation t:0 before t:0 in tyttär -> tyär"
-!! __@RULENAME@__
-t:0 <=> t y _ t:0 ä r %^WG: ; ! tytär sg nom and par. tyär tyärtä
-
-!!€ tyttär^WG
-!!€ tyär
-!!€ tyttär^WG>t^A
-!!€ tyärtä
-
-
 !! !Gradation ppttkk : ptk
 
 "Gradation ppttkk : ptk"
@@ -446,21 +436,31 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 !!€ katto0>n
 !!€ sivakka^AO>i2>ne
 !!€ sivak0o0>i>ne
-!     !!€ paivukko^AO>i2>ne
-!     !!€ paivuk0o0>i>ne
-!       k    u        l        k iija ^AO >i2 > t ^A  with m4, distinguish from por.
+!  !!€ paivukko^AO>i2>ne
+!  !!€ paivuk0o0>i>ne
+!  kulkiija^AO>i2>t^A distinguish this from por somehow.
 
 
-! the following rule, together with adding [Cx|t:0] in Cx:0 ppttkk makes tyärtä work, but how to also get with t?
+
+
+
+! TODO the following rule, together with adding [Cx|t:0] in Cx:0 ppttkk makes tyärtä work, but how to also get with t?
 ! Also needs m4 since this is only in Var. Does this optional t:0 happen in other places too?
+
 ! "t:0 in tytär tyär, tytärtä tyärtä. Stem is tyttär"
 ! !! __@RULENAME@__
 ! t:0 <=> Vowel:  _ t:0  Vowel:  r %^WG:0 ; !  t       y    t t:0   ä       r   ^WG       (> t ^A) ;
 ! ! Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ; ! this taken from ppttkk
-! !!€ tyttär^WG>t^A
-! !!€ ty00är0>tä
+
+! "Gradation t:0 before t:0 in tyttär -> tyär"
+! !! __@RULENAME@__
+! t:0 <=> t y _ t:0 ä r %^WG:0 ; ! tytär sg nom and par. tyär tyärtä
+
 ! !!€ tyttär^WG
 ! !!€ ty00är0
+! !!€ tyttär^WG>t^A
+! !!€ ty00är0>tä
+
 
 
 
@@ -487,13 +487,13 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 
 "Gradation i6:0, in word poika: pojan"
 !! __@RULENAME@__
-i6:0 <=> _ k: Vowel: (%^AO:0) %^WG:0;
+i6:0 <=> _ k: Vowel: (%^AO:0) %^WG:0 ;
 
 !!€ poi6ka^WG>n
 !!€ po0ja0>n
 
-! !!€ poi6ka^AO^WG>i2>le
-! !!€ po0j000>i>le TODO uncomment, for training purposes commented out CONFLICT etween a:0 & a:i
+!!€ poi6ka^AO^WG>i2>le
+!!€ po0j000>i>le
 
 
 "Gradation k:j"
@@ -922,19 +922,19 @@ j:0 <=> l _ e: %^E2I:0 ;
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__
 a:0 <=>
-[#:|.#.] (Cns:*) (NotAEI) [u|o] ([u|o]) (:i) :Cns+ Cns:* (:Cns) _ (%^AO:) [%^WG:0 %> [i2:|i3:] | a:0] ;! 2syllGem/WG
-     ! !!€ p                 o             i6           k         a   ^AO     ^WG   > i2          >le
+[#:|.#.] (Cns:*) (NotAEI) [u|o]  ([u|o]) (:i) :Cns+ Cns:* (:Cns) _ (%^AO:) [%^WG:0 %> [i2:|i3:] | a:0] ;! 2syllGem/WG
+     ! !!€ p                o            i6           k         a   ^AO     ^WG    >  i2                >le
      ! !!€ po0j000>i>le
-  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i) :Cns+ Cns:* (:Cns) _ %^AO: %> i2: %> n [ %^A: | e ] ; ! for kuvina/e
+[#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i) :Cns+ Cns:* (:Cns) _ %^AO: %> i2: %> n [ %^A: | e ] ; ! for kuvina/e
 !  [#:|.#.] (Cns:*) o i6: :Cns+ Cns:* (:Cns) _ (%^AO:) [(%^WG:0) %> [i2:|i3:] | a:0 ] ; ! only for poika TODO this vs a:i
-         [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)   (%>) (i)        %> (i) :i (i) %> ;
+   [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)   (%>) (i)        %> (i) :i (i) %> ;
          ! check first (i)? <- What is this? added :i to catch loistaava superl too. should be [i2:|i5:]?
-                  (Cns:*) Vowel:+ Cns: (Cns:)                           _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
-                                                           :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:a|i:] ;
-                                                           :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:a|i:] ;
-                                                           :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
-                                                           :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
-                                                                     a _ %^VDEL:0  (Dummy:) %> [s|t] ;
+             (Cns:*) Vowel:+ Cns: (Cns:)                          _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
+                                                      :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:a|i:] ;
+                                                      :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:a|i:] ;
+                                                      :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
+                                                      :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
+                                                                a _ %^VDEL:0  (Dummy:) %> [s|t] ;
 !                                                                       _ i5: ; ! loistaaviimmin
 
 ! TODO: a:0 ...  (%^AO:0) ... gives unresolved conflict between a:o and a:0, fix this.
@@ -995,21 +995,19 @@ a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)
 !!€ kulkkiijo0>i>tten
 
 
-
-"i:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
-        !! __@RULENAME@ __
-i:0 <=> Cns Vowel (Vowel) Cns Cns:* _ a:0 e %> i2: ; ! 3-syll
-
+! TODO Distinguish between adj and noun, also in yamls!! Then uncomment these two rules
+!"i:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
+!        !! __@RULENAME@ __
+!i:0 <=> Cns Vowel (Vowel) Cns Cns:* _ a:0 e %> i2: ; ! 3-syll
 
 !€ hopiae>i2>tten
 !€ hop00e>i2>tten
 !€ kauhae>i2>tten
 !€ kauh00e>i2>tten
 
-
-"a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
+! "a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
         !! __@RULENAME@ __
-a:0 <=> Cns Vowel (Vowel) Cns Cns:* i:0 _ e %> i2: ; ! 3-syll
+! a:0 <=> Cns Vowel (Vowel) Cns Cns:* i:0 _ e %> i2: ; ! 3-syll
 
 
 !€ valkiae>i2>tten
@@ -1022,8 +1020,8 @@ a:0 <=> Cns Vowel (Vowel) Cns Cns:* i:0 _ e %> i2: ; ! 3-syll
 !! __@RULENAME@__
 !a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
 a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll TODO confilcts with a:0 (Cns:*) Vowel:+ Cns: (Cns:) _ (^WG:0) > i3: (>) ;
-   [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii ! TODO, distinguish btwn sannoi & kuvvii not with u
-!                p o i6: k (:k) _ %^AO:0 %> :i ; ! poi6ka poikkiin poikkii conflicts with a:0 TODO [#: | .#.] (Cns:*) (NotAEI) [u | o] (u | o) (:i) :Cns+ Cns:* (:Cns) _ ^AO: > i2: > n [^A: | e] ;
+   [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, trying to diff btwn sannoi & kuvvii, TODO "u" not good
+! We don't want a:i in poika, we want plural i only              p o i6: k (:k) _ %^AO:0 %> :i ; ! poi6ka poikkiin poikkii conflicts with a:0 TODO [#: | .#.] (Cns:*) (NotAEI) [u | o] (u | o) (:i) :Cns+ Cns:* (:Cns) _ ^AO: > i2: > n [^A: | e] ;
 !                p o i6  k    a  ^AO   >   i2  >n
 !            k      u   v   0  a    ^AO     > i2
 !            k      u   v   v  i      0     >  i
@@ -1035,8 +1033,6 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll TODO confilcts with 
 !!€ opettaaja>i2>ss^A
 !!€ opettaaji>i>ssa
 ! TODO COLLECT a:0 a:i and maybe a:o examples and differentiate between them!!!
-
-
 
 
 !! !Shortening
