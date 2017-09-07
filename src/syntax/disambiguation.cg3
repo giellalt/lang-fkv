@@ -41,6 +41,12 @@ LIST Prop = Prop ;
 LIST Interr = Interr ;
 LIST Pron = Pron ;
 LIST Rel = Rel ;
+LIST Relpronpl = (Pron Rel Pl) ; # "mikkä ja "jokka"
+LIST Relpronsg = (Pron Rel Sg) ; # "mikä" ja "joka"
+LIST Interrpronpl = (Pron Interr Pl) ; # "kuka" ja "mikä"
+LIST Sg = Sg ;
+LIST Pl = Pl ;
+LIST Nom = Nom ;
 LIST CS = CS ;
 LIST PronPers = (Pron Pers) ; # järjestyksellä ei väliä kun ()
 LIST Indef = Indef ;
@@ -48,6 +54,7 @@ LIST ConNeg = ConNeg ;
 LIST Neg = Neg ;
 LIST KUNKA = "kunka" "missä" ;
 LIST COMMA = "," ;
+LIST Pl3 = Pl3 ;
 
 
 # Sets
@@ -69,8 +76,8 @@ SELECT:person_test V IF (-1 PronPers) ; # exempel
 
 SELECT:adv_after_V Adv IF (-1 V)
        (NEGATE 0 Dem OR Indef LINK *1 N BARRIER WORD - A)
-       (NEGATE 0 Pron LINK 1 COMMA LINK 1 KUNKA OR Rel OR CS)
- ;
+       (NEGATE 0 Pron LINK 1 COMMA LINK 1 KUNKA OR Rel OR CS) ;
+
 	#$ sykläsin+V noppeesti+Adv tähään+Dem koulhuun+N+Ill  # noppeesti
 	#$ Konferansiprogramin saatat lukea tästä: www.fad.dep.no.
 	#% on+V       tänä+Dem  A    vuona+N
@@ -86,11 +93,28 @@ SELECT:PropNotInit Prop (NOT -1 BOS) ;
 
 
 
-SELECT Pr IF (-1 Gen OR Par);
+SELECT:Prifgenpar Pr IF (1 Gen OR Par);
 SELECT:Poifgen Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + Gen) ;
   #$  Ja hän itte meni heiđän etheen, kumarsi seittemen kerttaa maahan siksi ko hän tuli veljen etheen(en setning hvor den skal fungere)
   #% Mutta heilä ei ole juurta, het uskothaan vain vähäsen aikkaa, ja ko heitä freistathaan niin het jääđhään pois (setning hvor den ikke skal fun).
   #$ eksempel med aikkaa (het uskothaan vain vähäsen aikkaa)
+
+  SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) (-1 (N Pl Nom) OR  Relpronpl + Nom) ;
+  #$ Nämät käskyt mikkä mie tääpänä annan sinule
+  #$ Kekkä oon nämät jokka oon sinun myötä?
+  #$ Kaikki muut jokka oon tulheet ennen minuu
+  #$ Kirjota: Autuhaat oon net jokka oon kuttuttu Karittan hääruokapöythään.
+  #$ Nämät oon net lapset jokka Jumala hänen armossa oon suonut sinun palvelijale.
+  #% ... Jumala hänen armossa oon suonut sinun palvelijale.
+  #% Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa ...
+  #%  ... sillä Herra oon se joka tuomittee minun.
+  #% Kansa sillon ko olen tehny jotaki mistä toiset ei tykätäl.
+
+  SELECT:Relpronifitsanounoracommabeforeit Relpronpl IF ((-1 N) OR (-1 COMMA LINK -1 N))(NEGATE *1 ("?")) ;
+   #$ Kaikki muut jokka oon tulheet ennen minuu
+    #%Kekkä oon nämät jokka oon sinun myötä?
+
+
 
 SELECT ConNeg IF (-1 Neg);
 
