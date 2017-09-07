@@ -24,8 +24,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
 %^AE:0                    !!= * @CODE@ -- a to e lauletaan
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
-%^¤:0                ! Not in dummy, TODO maybe add?
-!%^n_23-e2i:0          ! Not in dummy, TODO maybe add?
+%^¤:0
 #
 ;
 
@@ -57,8 +56,6 @@ Segment = Vowel Cns ;                                       !!= * @CODE@
 Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@
-NE = %> n e ;
-EÄA = e %^A ;
 
 
 !! !!!Rules
@@ -92,60 +89,42 @@ Rules
 
 "Gemination V-kkpp-i"
 !! __@RULENAME@__
- 0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena->penniin->huppiin, laki>lakkiin
-          Cns   Vowel                  Cx _ e:               %> i2:   [ %>  n .#. | .#.]; !jokkii jokkii only.Miksieirivi93?
+ 0:Cx <=> Cns:* Vowel:* Vowel (Vowel:) Cx _ Vowel:           %> i2:i %> %^V:i  ; ! pena > penniin hupi>huppiin, laki>lakkiin
+          Cns   Vowel                  Cx _ e:               %> i2:    i [ %>  n | .#.]; !jokkii jokkiin. Miksi tämä toimii eikä rivi 93?
           Cns:* Vowel:* Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
-! (Cns:*) Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %> [:i - i3:] (i2:i) [ t | #:0 | (%>) (n) \[e|:a|:ä] ] ; ! sannoi & nykkiit
-         Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) [%> t | .#. ] ; ! sannoi & nykkiit
-!        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i (%>) (n) \[ :e ] ;  ! aikkoi&aikkoin ei aikoine
-!        Cns:* Vowel:* Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i ;  ! aikkoi&aikkoin ei aikoine
-!        Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  i2:i [ .#. | %> n .#.] ;
-                             [a|o] :i Cx _ [:o|:i] (%^AO:0) %>  i2:i (%>) [ .#. | n \EÄA ] ; ! TODO make general
-!        a i k _ a:o %^AO:0 %> i2:i %> n [\e | \:a|\:ä ] ;
+
+          Cns:* Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i); ! [ t | .#. | n .#.] ;  to be shortened (2014). sannoi & nykkiit
 !     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
-         Cns   Vowel                  Cx _ i               %>  %^V: ; ! sippiit
+
+!          except
+!              _ :i ;!:o (%^AO:0) %> i2: %> n ;
+
          where Cx in ( k p  ) ; ! v excluded
-
-!          except
-!              _ :i ;!:o (%^AO:0) %> i2: %> n ;
-
-
-!!!€ jok0e>i2i>n
-!!!€ jokk0>ii>n
-
-!!!€ jok0e>i2i
-!!!€ jokk0>ii
-
-! !!€ aik0a^AO>i2
-! !!€ aikko0>i
-
-! !!€ poi6k0a>i2>^V>
-! !!€ poikk0>i>i> a:i instead of this
-
-! s      o   p                      i  %> ^Vt
-!!€ sop0i>^V
-!!€ soppi>i
-!!€ sop0i>^V
-!!€ soppi>i
-
-
-
-
-!"Poista k aikoine "
-!!! __@RULENAME@__
-!Cx:0 <=> (Cns:*) Vowel:* Vowel (Vowel:) Cx _ [:o|:i] %^AO:0 %> i2:i  %> n [ e |:a |:ä] ; ! to be shortened (2014). sannoi & nykkiit
-!     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
-
-!          except
-!              _ :i ;!:o (%^AO:0) %> i2: %> n ;
-
-!        where Cx in ( k p  ) ; ! v excluded
-
 
 !"Negation of V-kkpp-i"
 ! __@RULENAME@__
 !0:k /<=                  _  :o     (%^AO:0) %>        i2:i        %> n :e ;
 !     pai   v      u   k k   o      ^AO     %>        i2          %>     ne
+
+! paivukko n_22oi ;
+! paivukko ^AO%>i2%>ne     Com
+! paivukko ^AO%>i2%>n^A    Ess
+
+! aika n_21 ;
+! aika ^AO%>i2%>ne         Com
+! aika ^AO%>i2%>n^A        Com
+
+!!€ jok0e>i2i>n
+!!€ jokk0>ii>n
+
+!!€ jok0e>i2i
+!!€ jokk0>ii
+
+!!€ aik0a^AO>i2
+!!€ aikko0>i
+
+!!€ poi6k0a>i2>^V>
+!!€ poikk0>i>i>
 
 
 "Gemination Vtti"
@@ -197,17 +176,19 @@ Rules
 
 "Gemination Vi"
 !! __@RULENAME@__
-0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (%^E2I:0) %> :i %> :i ; ! kivvii
-!                    k     u   v  0  a      ^AO    >   i  > n
-         [.#.|#:] Cns:* Vowel Cx _ a:i (Dummy:0) %> :i ; !
+0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (%^E2I:0) %> :i %> :i ; ! Skal den siste suffix-grensa være der?
        where Cx in ( h j l m n r v ) ;
 
 !!€ kiv0e>i2>^V
 !!€ kivv0>i>i
 
-!!€ kuv0a^AO>i2
-!!€ kuvvi0>i
-! We want a:i here
+!!€ sop0i>^V
+!!€ soppi>i
+
+!    jok0e^E2I>i2>^V
+!    jokk00>i>i
+! Koffer va denna her? Legacy code..
+
 
 "Gemination Va"
 !! __@RULENAME@__
@@ -246,15 +227,11 @@ Rules
 
 "Gemination Vo"
 !! __@RULENAME@__
-0:Cx <=> [.#.|.#. Cns] Vowel Cx _ :o [ %> :o  |  (%^AO:0) %> i2: ] ;
-! | .#. Cns] is to not trigger on kulkija^AO>i2>t^A to try to give -jj
+0:Cx <=> [.#.|Cns] Vowel Cx _ :o %> [:o|i2: e] ;
        where Cx in ( h j l m n r v ) ;
 
 !!€ kir0o>^V>t
 !!€ kirro>o>t
-
-!!€ san0a^AO>i2
-!!€ sanno0>i
 
 "Gemination Vu"
 !! __@RULENAME@__
@@ -339,7 +316,7 @@ Rules
 
 "Gemination LIQa"
 !! __@RULENAME@__
- 0:Cx <=> [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] Cx _ :a %> :a ;
+ 0:Cx <=> [l|r|n|m] Cx _ :a %> :a ;
         where Cx in ( j k p s t v ) ;
 
 !!€ jalk0a>^V
@@ -387,7 +364,7 @@ Rules
 
 "Gemination LIQä"
 !! __@RULENAME@__
- 0:Cx <=> [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] Cx _ :ä %> :ä  ; ! kanskje enta et par Cns Vowel. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+ 0:Cx <=> [l|r|n|m] Cx _ :ä %> :ä  ;
         where Cx in ( j k p s t v ) ;
 
 !!€ pölk0ä>^V
@@ -420,23 +397,11 @@ Rules
 !! !!Consonant gradation
 !    ===================
 
-
-"Gradation t:0 before t:0 in tyttär -> tyär"
-!! __@RULENAME@__
-t:0 <=> t y _ t:0 ä r %^WG: ; ! tytär sg nom and par. tyär tyärtä
-
-!!€ tyttär^WG
-!!€ tyär
-!!€ tyttär^WG>t^A
-!!€ tyärtä
-
-
 !! !Gradation ppttkk : ptk
 
 "Gradation ppttkk : ptk"
 !! __@RULENAME@__
-Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG: ;   !entinen omppu
-         Vowel: ([l|m|n|r]) Cx _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
+Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ;   !entinen omppu
             where Cx in ( k p t ) ;
 
 
@@ -444,25 +409,6 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 !!€ kat0o0>n
 !!€ katt2o^WG>n
 !!€ katto0>n
-!!€ sivakka^AO>i2>ne
-!!€ sivak0o0>i>ne
-!     !!€ paivukko^AO>i2>ne
-!     !!€ paivuk0o0>i>ne
-!       k    u        l        k iija ^AO >i2 > t ^A  with m4, distinguish from por.
-
-
-! the following rule, together with adding [Cx|t:0] in Cx:0 ppttkk makes tyärtä work, but how to also get with t?
-! Also needs m4 since this is only in Var. Does this optional t:0 happen in other places too?
-! "t:0 in tytär tyär, tytärtä tyärtä. Stem is tyttär"
-! !! __@RULENAME@__
-! t:0 <=> Vowel:  _ t:0  Vowel:  r %^WG:0 ; !  t       y    t t:0   ä       r   ^WG       (> t ^A) ;
-! ! Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ; ! this taken from ppttkk
-! !!€ tyttär^WG>t^A
-! !!€ ty00är0>tä
-! !!€ tyttär^WG
-! !!€ ty00är0
-
-
 
 !! !Gradation -p-
 
@@ -492,8 +438,8 @@ i6:0 <=> _ k: Vowel: (%^AO:0) %^WG:0;
 !!€ poi6ka^WG>n
 !!€ po0ja0>n
 
-! !!€ poi6ka^AO^WG>i2>le
-! !!€ po0j000>i>le TODO uncomment, for training purposes commented out CONFLICT etween a:0 & a:i
+!!€ poi6ka^AO^WG>i2>le
+!!€ po0j000>i>le
 
 
 "Gradation k:j"
@@ -607,7 +553,7 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 "ti:si"
 !! __@RULENAME@__
 t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
- Vowel ([n|l|r]) _ (:s)  e:  %^E2I: ; ! vesi  vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
+  Vowel ([n|l|r]) _ (:s)  e:  %^E2I: ; ! vesi  vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
   Vowel          _ (:s)  e:         %> i2: %> [Cns|%^V:] ; ! [vuosiksi, etc. | vuossii, vuossiin]
 ! Vowel [n|l|r]  _      (e:) %^E2I: %> \:i    ; ! kansi
 !  Vowel [n|l|r]  _      (e:) %^E2I: ; ! kansi
@@ -616,7 +562,7 @@ t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
   Vowel [n|l|r]  _ (:s) Vowel:0 (%^AO:0) (%^WG:0)  %> i3:  ;
   Vowel  Vowel   _ (:s) Vowel:0 (%^AO:0)           %> i3:  ;
   Vowel     n    _      Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
-  Vowel ([n|l|r]) _      e:0  %^HMETA:0         %> h :i ;
+ Vowel ([n|l|r]) _      e:0  %^HMETA:0         %> h :i ;
 
 !!€ vete^E2I
 !!€ vesi0
@@ -652,14 +598,14 @@ t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
 
 "Gradation Nt:NN in first syllable after short vowel"
 !! __@RULENAME@__
-t:Nx <=> [.#.|#] Cns* Vowel Nx _ :Vowel (Cns) ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+t:Nx <=> [.#.|#] Cns* Vowel Nx  _  :Vowel (Cns)  ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
     where Nx in ( l n r ) ;
 
 "Gradation Nt:N in other circumstances"
 !! __@RULENAME@__
-t:0 <=> Vowel Cns* Vowel Nx  _  :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
-
+t:0 <=> Vowel Cns* Vowel Nx  _  :Vowel (Cns)  ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
     where Nx in ( l n r ) ;
+
 
 !!€ pe#rintö^WG>n
 !!€ pe#rinnö0>n
@@ -713,37 +659,12 @@ j:0 <=> l _ e: %^E2I:0 ;
                 :Cns  Vx  %>   _ ; ![ .#. | #: | %> ] ;
     where Vx in ( a e i o u y ä ö ) ;
 
-    !!€ maa>h^Vn
-    !!€ maa>han
-    !!€ heinä>^V
-    !!€ heinä>ä
-    !!€ syksy>^V
-    !!€ syksy>y
-
-
-"Vowel copying in long h-illative sg first vowel"
-!! __@RULENAME@__
-%^V:Vx <=> Cns (Vowel) Vx (Cns) Cns (%^HMETA:0) %> h _ %^V: n ;
-        !   l           u         m   ^HMETA    %>h^V^V n ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
-    where Vx in ( e ) ;
-
-!!€ vereks>h^V^Vn
-!!€ vereks>heen
-
-
-"Vowel copying in long h-illative sg second vowel"
-!! __@RULENAME@__
-%^V:Vx <=> Cns (Vowel) Vx (Cns) Cns (%^HMETA:0) %> h %^V: _ n ;
-      ! !!€ v e r e   k    s             > h   ^V  ^V n
-   where Vx in ( e ) ;
-
-!   laps^HMETA  %>h^V^V n ; ! TODO WRITE MORE TESTS
-!   lum^HMETA   %>h^V^V n ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
-!   mie h^HMETA %>h^V^V n ;
-!   vere ks     %>h^V^V n ; ! TODO make these two rules general for all ^V^Vn illatives
-
-!!€ vereks>h^V^Vn
-!!€ vereks>heen
+!!€ maa>h^Vn
+!!€ maa>han
+!!€ heinä>^V
+!!€ heinä>ä
+!!€ syksy>^V
+!!€ syksy>y
 
 
 "Vowel copying in partitive of words ending in io, ia"
@@ -828,7 +749,6 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 
 
-
 !! !!Stem alternation rules
 !  ========================
 
@@ -850,12 +770,6 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 !!€ ove^E2I
 !!€ ovi0
-
-"e:i in n_23ia kauhia hopia"
-!! __@RULENAME@__
- e:i <=> Cns Vowel (Vowel) ([n|l|r]) Cns Cns:0 _ %^E2I:0 %^¤:0 %> [ %^A: | h ]; ! E2I is for e:i hoppe^E2I^¤>^A -> hopia, kauhia
-!         k    a      u     h    h   e   ^E2I     ^¤    %>^A
-! TODO Write tests
 
 "e:0 in consonant stems and illative plural"
 !! __@RULENAME@__
@@ -879,13 +793,6 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 !!€ vuote^HMETA>hii
 !!€ vuos00>hii
-
-"Cns:0 in hoppe- hope-a in Var & Jok" ! TODO Change E2I tag to a custom one
-!! @RULENAME@
- Cx:0 <=> Cns Vowel (Vowel) ([n|l|r]) Cx  _ e: (%^E2I:0) %^¤:0  %> [ %^A: | i2: | i5: | h ] ;
-    where Cx in ( b d f g h j k m p q s w x z p2 k2 ) ; ! TODO We can restict these Cons
-    ! E2I is for e:i hopia   ! Known words for l and r, not yet for n but imagine :)
-
 
 !! !!i rules
 !  =========
@@ -921,14 +828,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__
-a:0 <=>
-[#:|.#.] (Cns:*) (NotAEI) [u|o] ([u|o]) (:i) :Cns+ Cns:* (:Cns) _ (%^AO:) [%^WG:0 %> [i2:|i3:] | a:0] ;! 2syllGem/WG
-     ! !!€ p                 o             i6           k         a   ^AO     ^WG   > i2          >le
-     ! !!€ po0j000>i>le
-  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i) :Cns+ Cns:* (:Cns) _ %^AO: %> i2: %> n [ %^A: | e ] ; ! for kuvina/e
-!  [#:|.#.] (Cns:*) o i6: :Cns+ Cns:* (:Cns) _ (%^AO:) [(%^WG:0) %> [i2:|i3:] | a:0 ] ; ! only for poika TODO this vs a:i
-         [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)   (%>) (i)        %> (i) :i (i) %> ;
-         ! check first (i)? <- What is this? added :i to catch loistaava superl too. should be [i2:|i5:]?
+a:0 <=>  [#:|.#.] (Cns:*) (NotAEI) [[u|o] ([u|o])] (:i|i6:) :Cns+ Cns:* (:Cns) _ (%^AO:0) [(%^WG:0) %>     [i2:|i3:] | a:0 ] ; ! 2syll, Gem/WG
+         [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)     [:a|:e]   [:v|:m] _ (%^WG:0)   (%>) (i)        %> (i) :i (i) %> ; ! check first (i)? <- What does that comment mean? added :i to catch loistaava superl too. maybe it should be [i2: | i5:]
                   (Cns:*) Vowel:+ Cns: (Cns:)                           _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan kirjoitin
                                                            :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:a|i:] ;
                                                            :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:a|i:] ;
@@ -950,29 +851,12 @@ a:0 <=>
 !!€ loistaava^WG>i2>ss^A
 !!€ loistaav00>i>ssa
 
-! € persooa^WG>i2>ss^A
-! € kajav00>i>ssa
-! næmæ kaksi, ylæ ja alapuoli, ei oo tehty viel, tehdææn pian.
-! € nutukka^WG>i2>ss^A
-! € kajav00>i>ssa
-!nutukoissa
-
-
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__
-a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)  %> [i2:|i3:|j] ; ! 2 syll
+a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)  %> [i2:|i3:] ; ! 2 syll
                                      (:Cns)  [:k|:l] (:i) :i :j _ %^AO: (Dummy:*) %>  i2:  ; ! kulkkiija kulkiijoissa
-(Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2:  ; ! sivakka sivakoissa
-
-
-
-          a          i         k     k:0 _ %^AO:0 %> i2:i %> n e  ; ! TODO DELETE
-          a          i         k     k:0 _ %^AO:0 %> i2:i (n)  ; ! TODO DELETE
-
-!                                        _ [:o|:i] (%^AO:0) %>  [:i] [%> t | .#. | %> n .#.] ;  ! to be shortened (2014). sannoi & nykkiit
-
-!         a          i         k     k   a  ^AO  %> i2      >   n   e
+(Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2: ; ! sivakka sivakoissa
 
 
 !a:o <=>  [#:|.#.]                        (Cns:*)   [a|e|i] ([o|u])  Cns: (Cns:) _ %^AO: ([Dummy: - %^AE:0]) %> [i2: | i3: ] (%>) ;
@@ -995,49 +879,14 @@ a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)
 !!€ kulkkiijo0>i>tten
 
 
-
-"i:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
-        !! __@RULENAME@ __
-i:0 <=> Cns Vowel (Vowel) Cns Cns:* _ a:0 e %> i2: ; ! 3-syll
-
-
-!€ hopiae>i2>tten
-!€ hop00e>i2>tten
-!€ kauhae>i2>tten
-!€ kauh00e>i2>tten
-
-
-"a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
-        !! __@RULENAME@ __
-a:0 <=> Cns Vowel (Vowel) Cns Cns:* i:0 _ e %> i2: ; ! 3-syll
-
-
-!€ valkiae>i2>tten
-!€ valki00e>i2>tten
-
-
-
-
 "a:i in 3-syll stems with long a and i"
 !! __@RULENAME@__
 !a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
-a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll TODO confilcts with a:0 (Cns:*) Vowel:+ Cns: (Cns:) _ (^WG:0) > i3: (>) ;
-   [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii ! TODO, distinguish btwn sannoi & kuvvii not with u
-!                p o i6: k (:k) _ %^AO:0 %> :i ; ! poi6ka poikkiin poikkii conflicts with a:0 TODO [#: | .#.] (Cns:*) (NotAEI) [u | o] (u | o) (:i) :Cns+ Cns:* (:Cns) _ ^AO: > i2: > n [^A: | e] ;
-!                p o i6  k    a  ^AO   >   i2  >n
-!            k      u   v   0  a    ^AO     > i2
-!            k      u   v   v  i      0     >  i
+a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll
 
-!!€ kuv0a^AO>i2
-!!€ kuvvi0>i
-! We want a:i here
 
 !!€ opettaaja>i2>ss^A
 !!€ opettaaji>i>ssa
-! TODO COLLECT a:0 a:i and maybe a:o examples and differentiate between them!!!
-
-
-
 
 !! !Shortening
 
