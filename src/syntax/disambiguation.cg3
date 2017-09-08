@@ -33,10 +33,24 @@ LIST A = A ;
 LIST CC = CC ;
 LIST Dem = Dem ;
 LIST Adv = Adv ;
+LIST A = A ;
 LIST Pr = Pr ;
 LIST Po = Po ;
+LIST Nom = Nom ;
 LIST Gen = Gen ;
+LIST Acc = Acc
 LIST Par = Par ;
+LIST Ine = Ine ;
+LIST Ill = Ill ;
+LIST Ela = Ela ;
+LIST Ade = Ade ;
+LIST Abe = Abe ;
+LIST All = All ;
+LIST Abl = Abl ;
+LIST Ess = Ess ;
+LIST Tra = Tra ;
+LIST Ins = Ins ;
+LIST Com = Com ;
 LIST Prop = Prop ;
 LIST Interr = Interr ;
 LIST Pron = Pron ;
@@ -46,9 +60,9 @@ LIST Relpronsg = (Pron Rel Sg) ; # "mikä" ja "joka"
 LIST Interrpronpl = (Pron Interr Pl) ; # "kuka" ja "mikä"
 LIST Sg = Sg ;
 LIST Pl = Pl ;
-LIST Nom = Nom ;
 LIST CS = CS ;
 LIST PronPers = (Pron Pers) ; # järjestyksellä ei väliä kun ()
+LIST Pers = Pers ;
 LIST Indef = Indef ;
 LIST ConNeg = ConNeg ;
 LIST Neg = Neg ;
@@ -114,6 +128,18 @@ SELECT:Poifgen Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + Gen)
    #$ Kaikki muut jokka oon tulheet ennen minuu
     #%Kekkä oon nämät jokka oon sinun myötä?
 
+REMOVE:differentiatebetweenhäntänounandthirdperpron  ("häntä") IF (0 Pers) (*-1 V BARRIER WORD - Adv LINK NOT 0 ("olla")) ;
+#$ Ja Eesau juoksi häntä vasthaan, ja hän alkoi hyvväilemähään häntä, otti hänen kaulan ympäri ja summasteli häntä, ja het itkethiin.
+#$  ... hän kävelee heiðän eðessä, ja lamphaat kyytäthään häntä ...
+
+SELECT:dempronandnotpronpers Dem IF (1 A OR N) (NEGATE -1 Dem LINK -1 V) (NEGATE 0 Ade LINK NOT 1 Ade + N) ;
+#$ Päivää jälkhiin se iso ihmisjoukko mikä oli tullu juhlhiin, sai kuula ette Jeesus oli tulemassa Jerusaleemhiin.
+#% Ja se tapattui niinä päivinä ko keisari Aukustus oli päättäny ette koko mailma piti maksaat verroo.
+#% ... niin ota vasthaan tämän lahjan minun käðestä, sillä tarkoitus oli nähðä sinun silmät ...
+
+SELECT:congruencebetweennounandverb Pers IF (-1 N OR 1 N LINK V) (NEGATE -1 Dem) ;
+#$ Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa ...
+#% ... niin ota vasthaan tämän lahjan minun käðestä, sillä tarkoitus oli nähðä sinun silmät ...
 
 
 SELECT ConNeg IF (-1 Neg);
@@ -122,7 +148,7 @@ SELECT:interrel Interr OR Rel (1 CS) ; # Ei anna mithään?
 
 #MAP (@GRAM-ERR) TARGET V (0 V + 3S LINK -1 N + S) ;
 
-LIST WORDLEMMA = (".*"r) ;
+ LIST WORDLEMMA = (".*"r) ;
 
 REMOVE:errorth $$WORDLEMMA + (Err/Orth) (0 $$WORDLEMMA - (Err/Orth) ) ; #Removes Err/Orth analysis when there is an analysis with same lemma without Err/Orth
 
