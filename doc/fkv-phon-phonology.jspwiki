@@ -29,6 +29,8 @@
  * FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            
  * BackVowel = a o u å ;                                       
  * ArchiVowel =  %^A %^O %^U ;                                 
+ * RoundedVowel = e ä a i i2 i3 i4 i5 i6 i7                    
+ * UnroundedVowel = y ö u o                                    
  * SomeVowel = %^V ;                                           
  * NeutralVowel = e i i2 i3 i4 i5 i6 i7 ;                      
  * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;       
@@ -272,14 +274,6 @@ __Gemination LIQi7__
 !!Consonant gradation
 
 
-__Gradation t:0 before t:0 in tyttär -> tyär__
-
-* __tyttär^WG __
-* __tyär __
-* __tyttär^WG>t^A __
-* __tyärtä __
-
-
 !Gradation ppttkk : ptk
 
 __Gradation ppttkk : ptk__
@@ -291,6 +285,13 @@ __Gradation ppttkk : ptk__
 * __katto0>n __
 * __sivakka^AO>i2>ne __
 * __sivak0o0>i>ne __
+
+
+
+
+
+
+
 
 
 
@@ -319,6 +320,8 @@ __Gradation i6:0, in word poika: pojan__
 * __poi6ka^WG>n __
 * __po0ja0>n __
 
+* __poi6ka^AO^WG>i2>le __
+* __po0j000>i>le __
 
 
 
@@ -560,6 +563,7 @@ __i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past t
 __a:0 before Pret and Pl i when rounded root vowel__
 
 
+
 * __otta^WG>i2n __
 * __ot000>in __
 * __kajava^WG>i2>ss^A __
@@ -582,7 +586,6 @@ __a:o before Pl i and Pret i__
 
 
 
-
 * __kala^AO^WG>i2>tten __
 * __kalo00>i>tten __
 
@@ -598,12 +601,8 @@ __a:o before Pl i and Pret i__
 
 
 
-__i:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei- __
 
-
-
-
-__a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei- __
+__a:o before Pl i and Pret i __
 
 
 
@@ -612,12 +611,14 @@ __a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei- __
 
 __a:i in 3-syll stems with long a and i__
 
+
+
+
 * __kuv0a^AO>i2 __
 * __kuvvi0>i __
 
 * __opettaaja>i2>ss^A __
 * __opettaaji>i>ssa __
-
 
 
 
