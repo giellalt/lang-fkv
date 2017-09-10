@@ -207,8 +207,8 @@ Rules
 !!€ kiv0e>i2>^V
 !!€ kivv0>i>i
 
-!!€ kuv0a^AO>i2
-!!€ kuvvi0>i
+! !!€ kuv0a^AO>i2
+! !!€ kuvvi0>i
 ! We want a:i here
 
 "Gemination Va"
@@ -924,10 +924,11 @@ j:0 <=> l _ e: %^E2I:0 ;
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__
 a:0 <=>
-[#:|.#.] (Cns:*) (NotAEI) [u|o]  ([u|o]) (:i) :Cns+ Cns:* (:Cns) _ %^AO: [%^WG:0 %> [i2:|i3:] | a:0] ;
-! !!€ p                o            i6                k          a  ^AO    ^WG    >  i2                >le
-! !!€ po0j000>i>le
-! used to have %^AO: as optional in (), TODO which case is a:0 at the end? Also kuvina/e here
+[#:|.#.] (Cns:*) [(NotAEI) u| (NotAEI) o | u | o]  ([u|o]) ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO: [%^WG:0 %> [i2:|i3:] | a:0] ;
+!            p                                 o            i6    k                a  ^AO    ^WG    >  i2         >le
+! pojile a:0, mutta poikhiin a:i
+!            p                                 o             0   j                 0   0       0       >i>le
+! used to have %^AO: as optional in (), TODO which case is a:0 at the end? Also kuvina/e here, TODO lumena?
 
 [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)       [:a|:e]   [:v|:m] _ (%^WG:0)   (%>) (i)        %> (i) :i (i) %> ;
          ! check first (i)? <- What is this? added :i to catch loistaava superl too. should be [i2:|i5:]?
@@ -939,9 +940,11 @@ a:0 <=>
                                                                a _ %^VDEL:0  (Dummy:) %> [s|t] ;
 !                                                                       _ i5: ; ! loistaaviimmin
 
+
+
 ! TODO: a:0 ...  (%^AO:0) ... gives unresolved conflict between a:o and a:0, fix this.
 
-!!€ otta^WG>i2n
+!!€ otta^WG>i3n
 !!€ ot000>in
 !!€ kajava^WG>i2>ss^A
 !!€ kajav00>i>ssa
@@ -964,12 +967,19 @@ a:0 <=>
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__
 a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)  %> [i2:|i3:|j] ; ! sannoi 2 syll
-                                     (:Cns)  [:k|:l] (:i) :i :j _ %^AO: (Dummy:*) %>  i2:  ; ! kulkkiija kulkiijoissa
-(Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2:  ; ! sivakka sivakoissa
+                                     (:Cns)  [:k|:l] (:i) :i :j _ %^AO: (Dummy:*) %>  i2:   ; ! kulkkiija kulkiijoissa
+(Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* (Cns:*) (k:0) _ %^AO: (%^WG:0) (%>) i2:   ; ! sivakoissa, sannoi
+(Cns:*) Vowel:* Cns (Cns:*) [a|e|i] ([o|u]) Cns:* ([Cns:*|0:Cns]) (k:0) _ %^AO: ^HMETA    %> ^V i2: ; ! aikhoin
+!               s            a                n      0                  a  ^AO             >  i2
+!               s            a                n      n                  o   0              >  i
+
+! a e i here means UnroundedVowel.
+! Sitte vartalon loppuvokaali muuttu o:ksi, kun vartalon alussa on a-, e- tai i- (ei pyöreä vokaali)
+! , esimerkiksi reuna: reunhoin, aika:aikhoin
 
 
-          a          i         k     k:0 _ %^AO:0 %> i2:i %> n e  ; ! TODO DELETE
-          a          i         k     k:0 _ %^AO:0 %> i2:i (n)  ; ! TODO DELETE
+!          a          i         k     k:0 _ %^AO:0 %> i2:i %> n e  ; ! TODO DELETE
+!          a          i         k     k:0 _ %^AO:0 %> i2:i (n)  ; ! TODO DELETE
 
 !                                        _ [:o|:i] (%^AO:0) %>  [:i] [%> t | .#. | %> n .#.] ;  ! to be shortened (2014). sannoi & nykkiit
 
@@ -1021,13 +1031,21 @@ a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)
 !! __@RULENAME@__
 !a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
 a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll TODO confilcts with a:0 (Cns:*) Vowel:+ Cns: (Cns:) _ (^WG:0) > i3: (>) ;
-   [.#.|#:] Cns:* RoundedVowel Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii TODO add diftongs, see conv w Aili
+   [.#.|#:] Cns:* ([u | o]) [u|o|i6:] Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, ruoka ruokhiin, poi6ka poikhiin
+!    [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, ruoka ruokhiin, poi6ka poikhiin
+!  Not  san0a^AO>i2
+!  Not  sanno0>i
+! RoundedVowel = e ä a i i2 i3 i4 i5 i6 i7                    !!= * @CODE@
+! UnroundedVowel = y ö u o                                    !!= * @CODE@
 
+! Hmm! differense in lexc in kuvvii ja ruokhiin. kuvvii adds one i and ruohkiin two! I think. TODO check if true, plan a:0 vs a:i accordingly TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
    ! aili [3:54 PM]
-! Eli kun ensi tavussa on pyöreä vokaali (esim. -u tai -o), vartalon loppuvokaali jää pois -i (tai vastaavan -j) suffiksin edeltä
-! Poika-nominissa on pyöreä vokali -o, siksi poikhiin
-! Sitte vartalon loppuvokaali muuttu o:ksi, kun vartalon alussa on a-, e- tai i-, esimerkiksi reuna: reunhoin, aika:aikhoin
+! Eli kun ensi tavussa on pyöreä vokaali (esim. -u tai -o), vartalon loppuvokaali jää pois
+!  -i (tai vastaavan -j) suffiksin edeltä. Poika-nominissa on pyöreä vokali -o, siksi poikhiin
 ! Luin, että  u- tai o-alkuisen diftongin jäljessä vartalon loppuvokaali katoaa (esim ruoka: ruokhiin, poika: poikhiin jne)
+
+! Sitte vartalon loppuvokaali muuttu o:ksi, kun vartalon alussa on a-, e- tai i- (ei pyöreä vokaali)
+! , esimerkiksi reuna: reunhoin, aika:aikhoin
 
 
 ! We don't want a:i in poika, we want plural i only              p o i6: k (:k) _ %^AO:0 %> :i ; ! poi6ka poikkiin poikkii conflicts with a:0 TODO [#: | .#.] (Cns:*) (NotAEI) [u | o] (u | o) (:i) :Cns+ Cns:* (:Cns) _ ^AO: > i2: > n [^A: | e] ;
@@ -1035,8 +1053,8 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll TODO confilcts with 
 !            k      u   v   0  a    ^AO     > i2
 !            k      u   v   v  i      0     >  i
 
-!!€ kuv0a^AO>i2
-!!€ kuvvi0>i
+! !!€ kuv0a^AO>i2
+! !!€ kuvvi0>i
 ! We want a:i here
 
 !!€ opettaaja>i2>ss^A
@@ -1073,12 +1091,11 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll TODO confilcts with 
 
 "a:e in passives and in comparative"
 !! __@RULENAME@__
-! Vx:e <=> _  %^AE:0 (t) (t) ;
-!      where Vx in ( a ä ) ;
-
 Vx:e <=> _  %^AE:0 (%^WG:0) %> t (t) ;
     [.#.|#:] Cns:* Vowel: (Vowel:) Cns:* _ (%^WG:0) %> [ m p | m m ] [i|%^A:] (%>) ;
      where Vx in ( a ä ) ;
+     ! Vx:e <=> _  %^AE:0 (t) (t) ;
+     !      where Vx in ( a ä ) ;
 
 !!$ loistaava>mpi
 !!$ loistaave>mpi
