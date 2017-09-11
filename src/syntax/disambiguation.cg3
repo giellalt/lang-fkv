@@ -137,7 +137,7 @@ SELECT:Poifgen Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + Gen)
   #% Mutta heilä ei ole juurta, het uskothaan vain vähäsen aikkaa, ja ko heitä freistathaan niin het jääđhään pois (setning hvor den ikke skal fun).
   #$ eksempel med aikkaa (het uskothaan vain vähäsen aikkaa)
 
-  SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) (-1 (N Pl Nom) OR  Relpronpl + Nom) ;
+SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) (-1 (N Pl Nom) OR  Relpronpl + Nom) ;
   #$ Nämät käskyt mikkä mie tääpänä annan sinule
   #$ Kekkä oon nämät jokka oon sinun myötä?
   #$ Kaikki muut jokka oon tulheet ennen minuu
@@ -148,7 +148,7 @@ SELECT:Poifgen Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + Gen)
   #%  ... sillä Herra oon se joka tuomittee minun.
   #% Kansa sillon ko olen tehny jotaki mistä toiset ei tykätäl.
 
-  SELECT:Relpronifitsanounoracommabeforeit Relpronpl IF ((-1 N) OR (-1 COMMA LINK -1 N))(NEGATE *1 ("?")) ;
+SELECT:Relpronifitsanounoracommabeforeit Relpronpl IF ((-1 N) OR (-1 COMMA LINK -1 N))(NEGATE *1 ("?")) ;
    #$ Kaikki muut jokka oon tulheet ennen minuu
     #%Kekkä oon nämät jokka oon sinun myötä?
 
@@ -164,7 +164,7 @@ SELECT:dempronandnotpronpers Dem IF (1 A OR N) (NEGATE -1 Dem LINK -1 V) (NEGATE
 #% Ja se tapattui niinä päivinä ko keisari Aukustus oli päättäny ette koko mailma piti maksaat verroo.
 #% ... niin ota vasthaan tämän lahjan minun käðestä, sillä tarkoitus oli nähðä sinun silmät ...
 
-SELECT:Imperativefromconneg ConNeg IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - Adv) ;
+IFF:Imperativefromconneg ConNeg IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - Adv) ;
 #% Anna se mikä oon sinun, olla sinun.
 # Jos mie nyt olen saannu hyväntahtoisuutta sinulta, niin ota vasthaan tämän lahjan minun käðestä
  # Mutta heilä ei ole juurta, het uskothaan vain vähäsen aikkaa ...
@@ -189,7 +189,7 @@ SELECT:interrel Interr OR Rel (1 CS) ; # Ei anna mithään?
 
 #MAP (@GRAM-ERR) TARGET V (0 V + 3S LINK -1 N + S) ;
 
- LIST WORDLEMMA = (".*"r) ;
+LIST WORDLEMMA = (".*"r) ;
 
 REMOVE:errorth $$WORDLEMMA + (Err/Orth) (0 $$WORDLEMMA - (Err/Orth) ) ; #Removes Err/Orth analysis when there is an analysis with same lemma without Err/Orth
 
