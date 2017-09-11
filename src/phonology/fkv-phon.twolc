@@ -1026,13 +1026,19 @@ a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)
 
 
 
-
 "a:i in 3-syll stems with long a and i"
 !! __@RULENAME@__
 !a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
-a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> (i2:) ; ! 3-syll TODO confilcts with a:0 (Cns:*) Vowel:+ Cns: (Cns:) _ (^WG:0) > i3: (>) ;
-   [.#.|#:] Cns:* ([u | o]) [u|o|i6:] Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, ruoka ruokhiin, poi6ka poikhiin
-!    [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, ruoka ruokhiin, poi6ka poikhiin
+a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO confilcts with a:0 (Cns:*) Vowel:+ Cns: (Cns:) _ (^WG:0) > i3: (>) ;
+   [.#.|#:] Cns:* [u o | o u | u | o | i6:] Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, ruoka ruokhiin, poi6ka poikhiin
+
+! !!$ kuva^AO>i2
+! !!$ kuva0>i TODO Uncomment and test, difficult to work when the other tests aren't run becuase of this
+
+!!€ kuv0a^AO>i2
+!!€ kuvvi0>i
+
+!  [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, ruoka ruokhiin, poi6ka poikhiin
 !  Not  san0a^AO>i2
 !  Not  sanno0>i
 ! RoundedVowel = e ä a i i2 i3 i4 i5 i6 i7                    !!= * @CODE@
