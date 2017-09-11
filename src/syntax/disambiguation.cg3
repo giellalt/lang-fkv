@@ -70,6 +70,7 @@ LIST Neg = Neg ;
 LIST KUNKA = "kunka" "missä" ;
 LIST COMMA = "," ;
 LIST Pl3 = Pl3 ;
+LIST Sg3 = Sg3 ;
 LIST Foc/kaan = Foc/kaan ;
 
 
@@ -137,7 +138,7 @@ SELECT:Poifgen Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + Gen)
   #% Mutta heilä ei ole juurta, het uskothaan vain vähäsen aikkaa, ja ko heitä freistathaan niin het jääđhään pois (setning hvor den ikke skal fun).
   #$ eksempel med aikkaa (het uskothaan vain vähäsen aikkaa)
 
-SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) (-1 (N Pl Nom) OR  Relpronpl + Nom) ;
+SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Relpronpl + Nom) OR (1 (N Pl Nom))) ;
   #$ Nämät käskyt mikkä mie tääpänä annan sinule
   #$ Kekkä oon nämät jokka oon sinun myötä?
   #$ Kaikki muut jokka oon tulheet ennen minuu
@@ -148,14 +149,23 @@ SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) (-1 (N Pl Nom) OR  
   #%  ... sillä Herra oon se joka tuomittee minun.
   #% Kansa sillon ko olen tehny jotaki mistä toiset ei tykätäl.
 
+SELECT:Sg3ollaifplrelpronandplinterrpron Sg3 IF (0 ("olla")) (*-1 (N Sg Nom) OR  Relpronsg + Nom) ;
+  #$ ... Jumala hänen armossa oon suonut sinun palvelijale.
+  #$ Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa ...
+  #$  ... sillä Herra oon se joka tuomittee minun.
+  #$ Kansa sillon ko olen tehny jotaki mistä toiset ei tykätäl.
+
+SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(-1 N) (NEGATE *1 ("?")) ;
+# Kekkä oon nämät jokka oon sinun myötä?
+# Anna se mikä oon sinun, olla sinun.
+# ... ota vasthaan tämän lahjan mikä tuopi minun siunauksen, ja minkä tuothiin sinule ...
+# Mutta Herra Jumala huusi miehele ja sanoi hänele: Missä sie olet?
+
 SELECT:Relpronifitsanounoracommabeforeit Relpronpl IF ((-1 N) OR (-1 COMMA LINK -1 N))(NEGATE *1 ("?")) ;
    #$ Kaikki muut jokka oon tulheet ennen minuu
     #%Kekkä oon nämät jokka oon sinun myötä?
 
 REMOVE:differentiatebetweenhäntänounandthirdperpron  ("häntä") IF (0 Pers) (*-1 V BARRIER WORD - Adv LINK NOT 0 ("olla")) ;
-
-
-
 #$ Ja Eesau juoksi häntä vasthaan, ja hän alkoi hyvväilemähään häntä, otti hänen kaulan ympäri ja summasteli häntä, ja het itkethiin.
 #$  ... hän kävelee heiðän eðessä, ja lamphaat kyytäthään häntä ...
 
