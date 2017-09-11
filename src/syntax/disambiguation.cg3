@@ -76,6 +76,28 @@ LIST Pl3 = Pl3 ;
 
 LIST WORD = N V A Adv Pr Interj Po Num CC CS Pron  ;
 
+# Sets for barriers
+LIST NPMOD = (Pers Gen) (A Gen) (A Ine) (A Ade) (A Nom) (A Par) (A Acc) ;  
+SET NPMODADV = NPMOD OR Adv ;
+
+SET NOT-NPMOD = WORD - NPMOD ;
+
+SET NOT-NPMODADV = WORD - NPMODADV ;
+
+
+LIST S-BOUNDARY = CS "mutta" ":"  ;
+
+LIST VFIN = Ind Cond Pot Imprt   ;
+
+LIST COPULAS = "olla" ;
+
+LIST MOD-ASP =  "saađa" "häyttyyt"   ; #add lemmas
+
+LIST AUX-OR-MAIN = "tulla" "osata" "haluta"  ; #add lemmas
+
+SET AUX = COPULAS OR ONLY-AUX OR AUX-OR-MAIN ;
+
+SET SV-BOUNDARY = S-BOUNDARY OR VFIN   ;
 
 # Here come the rules #
 
@@ -129,6 +151,9 @@ SELECT:Poifgen Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + Gen)
     #%Kekkä oon nämät jokka oon sinun myötä?
 
 REMOVE:differentiatebetweenhäntänounandthirdperpron  ("häntä") IF (0 Pers) (*-1 V BARRIER WORD - Adv LINK NOT 0 ("olla")) ;
+
+
+
 #$ Ja Eesau juoksi häntä vasthaan, ja hän alkoi hyvväilemähään häntä, otti hänen kaulan ympäri ja summasteli häntä, ja het itkethiin.
 #$  ... hän kävelee heiðän eðessä, ja lamphaat kyytäthään häntä ...
 
