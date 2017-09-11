@@ -122,8 +122,8 @@ LEXICON x_21_oblique
  +Dial/Por+Pl:^AO%>i2          gen_n           ; ! gen_n         since we have the i
 +Dial/-Por+Pl:^AO^WG%>i2       gen_tten        ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
  +Dial/Por+Pl:^AO%>i2          par_end         ;
- +Dial/Var+Pl:^AO%>j           par_A           ; ! remove one
-+Dial/-Por+Pl:^AO%>i2          par_A           ; ! remove one
+ +Dial/Var+Pl:^AO%>j           par_A           ;
++Dial/-Por+Pl:^AO%>i2          par_A           ;
           +Pl:^AO^HMETA        ill_hVin        ; ! sykshyin
           +Pl:^AO%>i2          ess_n           ;
           +Pl:^AO%>i2          com_ne          ;
@@ -253,7 +253,8 @@ LEXICON x_22odd !!= * @CODE@  kajava
 !      +Pl+Ill:%^HMETA%>hii n_PxK          ;
           +Pl:%^HMETA      ill_hiin       ;
           +Pl:%>i2         ess_nn         ;
-          +Pl:%>i2         com_ne         ; ! kajavine
+ +Dial/Por+Pl:%>i2         com_nne        ;
++Dial/-Por+Pl:%>i2         com_ne         ;
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
 
 
@@ -528,7 +529,8 @@ LEXICON x_32
 +Dial/-Por+Pl:%>i%>        par_A          ; ! tyttäriä
           +Pl:^HMETA       ill_hiin       ;
           +Pl:e%>i2        ess_nn         ;
-          +Pl:e%>i2        com_ne         ;
+ +Dial/Por+Pl:e%>i2        com_nne        ;
++Dial/-Por+Pl:e%>i2        com_ne         ;
           +Pl:%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
 
@@ -565,30 +567,32 @@ LEXICON x_32m_pl
  +Dial/Por+Pl:mi%>i2        par_tA         ; ! elläimiitä
 +Dial/-Por+Pl:mi%>          par_A          ; ! elläimiä
           +Pl:m^HMETA       ill_hiin       ;
-          +Pl:m%>i2         com_ne         ;
+ +Dial/Por+Pl:m%>i2         com_nne        ;
++Dial/-Por+Pl:m%>i2         com_ne         ;
           +Pl:m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
 LEXICON n_32s !!= @CODE@  sairhaus
  +N: x_32s ;
 
 LEXICON x_32s
-+Sg+Nom:^WGs           K                 ; !! * Konsonanttivartalo: poista -e ja heikko aste
-+Sg+Nom:^WGs           R                 ; !! * Konsonanttivartalo: poista -e ja heikko aste
+      +Sg+Nom:^WGs           K                 ; !! * Konsonanttivartalo: poista -e ja heikko aste
+      +Sg+Nom:^WGs           R                 ; !! * Konsonanttivartalo: poista -e ja heikko aste
 
-    +Pl:đe             nom_t             ;
-    +Sg:đe             gen_n_sg          ;
-    +Sg:%>t            par_tA            ;
-    +Sg:te^HMETA       ill_hVVn          ;
-    +Sg:te             ess_nn            ;
-    +Sg:đe             sgpl_cases_odd    ;
+          +Pl:đe             nom_t             ;
+          +Sg:đe             gen_n_sg          ;
+          +Sg:%>t            par_tA            ;
+          +Sg:te^HMETA       ill_hVVn          ;
+          +Sg:te             ess_nn            ;
+          +Sg:đe             sgpl_cases_odd    ;
 
-    +Pl:ksi%>i2        gen_tten          ;
-    +Pl:ksi%>i2        par_end           ;
-    +Pl:ksi%>i2        par_tA            ;
-    +Pl:ks^HMETA       ill_hiin          ;
-    +Pl:ks%>i2         ess_nn            ;
-    +Pl:ks%>i2         com_ne            ;
-    +Pl:ks%>i2         sgpl_cases_odd    ; ! TODO wtf is this comm --> hmm, tämä menee pieleen, sg ≠ pl
+          +Pl:ksi%>i2        gen_tten          ;
+          +Pl:ksi%>i2        par_end           ;
+          +Pl:ksi%>i2        par_tA            ;
+          +Pl:ks^HMETA       ill_hiin          ;
+          +Pl:ks%>i2         ess_nn            ;
+ +Dial/Por+Pl:ks%>i2         com_nne           ;
++Dial/-Por+Pl:ks%>i2         com_ne            ;
+          +Pl:ks%>i2         sgpl_cases_odd    ; ! TODO wtf is this comm --> hmm, tämä menee pieleen, sg ≠ pl
 
 
 ! LEXICON n_32s != @CODE@  sairhaus vanha versio
@@ -750,7 +754,8 @@ LEXICON x_41
 +Dial/-Por+Pl:ks%>i2     par_A          ; ! vereksiä
           +Pl:ks         ill_hiin       ;
           +Pl:kse%>i2    ess_nn         ;
-          +Pl:kse%>i2    com_ne         ;
+ +Dial/Por+Pl:kse%>i2    com_nne        ;
++Dial/-Por+Pl:kse%>i2    com_ne         ;
  ! +Pl+Par:%>ksii     K              ;
 
 !LEXICON s_kse
@@ -830,7 +835,8 @@ LEXICON x_42odd
 +Dial/-Por+Pl:s%>i2     par_A          ; ! ihmisiä
           +Pl:s         ill_hiin       ; ! ihmishiin
           +Pl:s%>i2     ess_nn         ; !
-          +Pl:s%>i2     com_ne         ;
+ +Dial/Por+Pl:s%>i2     com_nne        ;
++Dial/-Por+Pl:s%>i2     com_ne         ;
           +Pl:s%>i2     sgpl_cases_odd ; !! the same affix in sg and pl
 
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
