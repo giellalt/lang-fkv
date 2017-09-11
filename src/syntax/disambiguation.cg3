@@ -65,10 +65,12 @@ LIST PronPers = (Pron Pers) ; # järjestyksellä ei väliä kun ()
 LIST Pers = Pers ;
 LIST Indef = Indef ;
 LIST ConNeg = ConNeg ;
+LIST Imprt = Imprt ;
 LIST Neg = Neg ;
 LIST KUNKA = "kunka" "missä" ;
 LIST COMMA = "," ;
 LIST Pl3 = Pl3 ;
+LIST Foc/kaan = Foc/kaan ;
 
 
 # Sets
@@ -161,6 +163,19 @@ SELECT:dempronandnotpronpers Dem IF (1 A OR N) (NEGATE -1 Dem LINK -1 V) (NEGATE
 #$ Päivää jälkhiin se iso ihmisjoukko mikä oli tullu juhlhiin, sai kuula ette Jeesus oli tulemassa Jerusaleemhiin.
 #% Ja se tapattui niinä päivinä ko keisari Aukustus oli päättäny ette koko mailma piti maksaat verroo.
 #% ... niin ota vasthaan tämän lahjan minun käðestä, sillä tarkoitus oli nähðä sinun silmät ...
+
+SELECT:Imperativefromconneg ConNeg IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - Adv) ;
+#% Anna se mikä oon sinun, olla sinun.
+# Jos mie nyt olen saannu hyväntahtoisuutta sinulta, niin ota vasthaan tämän lahjan minun käðestä
+ # Mutta heilä ei ole juurta, het uskothaan vain vähäsen aikkaa ...
+# ... ja nautinnosta niin ette het ei saa kypsyy sattoo.
+# ei ole minun tiet, sanoo Herra.
+# ... ja eikä mene sinne takasin ennen ko oon kastelu maan,
+# Ei mikhään luotu ole hänele näkymätön.
+# Mutta minule se ei merkitte mithään jos tet tuomitetta ...
+# Sillä minula ei ole tiettoo misthään mitä mie olen tehny väärin.
+# Mutta en mie sen tähđen ole viaton ...
+# ... ja villielläimet ei tule syömhään heitä.
 
 #SELECT:congruencebetweennounandverb  IF (-1 N OR 1 N LINK V) (NEGATE -1 Dem) ;
 #$ Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa ...
