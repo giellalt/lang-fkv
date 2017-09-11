@@ -200,9 +200,39 @@ LEXICON prop_mal_41
 +N+Prop+Sem/Mal: x_41 ;
 +N+Prop+Sem/Mal: Rhyph ;
 
+LEXICON prop_fem_41
++N+Prop+Sem/Fem: x_41 ;
++N+Prop+Sem/Fem: Rhyph ;
+
+LEXICON prop_surmal_41
+prop_mal_41 ;
+prop_sur_41 ;
+
+
+LEXICON prop_surplc_41
+prop_plc_41 ;
+prop_sur_41 ;
+
 LEXICON prop_plc_41
 +N+Prop+Sem/Plc: x_41 ;
 +N+Prop+Sem/Plc: Rhyph ;
+
+LEXICON prop_sur_41
++N+Prop+Sem/Sur: x_41 ;
++N+Prop+Sem/Sur: Rhyph ;
+
+LEXICON prop_ani_41
++N+Prop+Sem/Ani: x_41 ;
++N+Prop+Sem/Ani: Rhyph ;
+
+LEXICON prop_obj_41
++N+Prop+Sem/Obj: x_41 ;
++N+Prop+Sem/Obj: Rhyph ;
+
+LEXICON prop_org_41
++N+Prop+Sem/Org: x_41 ;
++N+Prop+Sem/Org: Rhyph ;
+
 
 
 !LEXICON prop_41
