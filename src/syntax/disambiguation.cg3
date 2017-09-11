@@ -77,7 +77,7 @@ LIST Pl3 = Pl3 ;
 LIST WORD = N V A Adv Pr Interj Po Num CC CS Pron  ;
 
 # Sets for barriers
-LIST NPMOD = (Pers Gen) (A Gen) (A Ine) (A Ade) (A Nom) (A Par) (A Acc) ;  
+LIST NPMOD = (Pers Gen) (A Gen) (A Ine) (A Ade) (A Nom) (A Par) (A Acc) ;
 SET NPMODADV = NPMOD OR Adv ;
 
 SET NOT-NPMOD = WORD - NPMOD ;
@@ -95,7 +95,7 @@ LIST MOD-ASP =  "saađa" "häyttyyt"   ; #add lemmas
 
 LIST AUX-OR-MAIN = "tulla" "osata" "haluta"  ; #add lemmas
 
-SET AUX = COPULAS OR ONLY-AUX OR AUX-OR-MAIN ;
+SET AUX = COPULAS OR MOD-ASP OR AUX-OR-MAIN ;
 
 SET SV-BOUNDARY = S-BOUNDARY OR VFIN   ;
 
