@@ -112,7 +112,7 @@ LEXICON x_21 ! "poika:poi6ka", lyhyt vokali, yks vartalo, kuva, linna, pappi, to
 
 LEXICON x_21_oblique
           +Sg:^WG              gen_n_sg        ;
- +Dial/Por+Sg:                 par_V           ;
+ +Dial/Por+Sg:%>                 par_V           ;
 +Dial/-Por+Sg:                 par_A           ;! in var should be poikaa with one k
           +Sg:^HMETA           ill_hVVn        ;
           +Sg:                 ess_n           ;
@@ -543,16 +543,12 @@ LEXICON x_32m !!= @CODE@
   x_32m_pl ;
 
 LEXICON x_32m_sg
- +Sg+Nom:^WGn      K              ;
-     +Sg:me        gen_n_sg       ;
-     +Sg:^WG%>n    par_tA         ;
-     +Sg:me^HMETA  ill_hVVn       ;
-     +Sg:me        ess_nn         ;
-     +Sg:me        sgpl_cases_odd ;
-
-     +Pl:me        nom_t          ;
-     +Pl:me%>i2    ess_nn         ;
-     +Pl:me%>i2    com_ne         ;
+      +Sg+Nom:^WGn      K              ;
+          +Sg:me        gen_n_sg       ;
+          +Sg:^WG%>n    par_tA         ;
+          +Sg:me^HMETA  ill_hVVn       ;
+          +Sg:me        ess_nn         ;
+          +Sg:me        sgpl_cases_odd ;
 
 LEXICON n_32m_pl !!= @CODE@
       +N: x_32m_pl ;
@@ -567,9 +563,10 @@ LEXICON x_32m_pl
  +Dial/Por+Pl:mi%>i2        par_tA         ; ! elläimiitä
 +Dial/-Por+Pl:mi%>          par_A          ; ! elläimiä
           +Pl:m^HMETA       ill_hiin       ;
+          +Pl:me%>i2        ess_nn         ;
  +Dial/Por+Pl:m%>i2         com_nne        ;
 +Dial/-Por+Pl:m%>i2         com_ne         ;
-          +Pl:m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
+          +Pl:m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl, TODO check this <-
 
 LEXICON n_32s !!= @CODE@  sairhaus
  +N: x_32s ;
