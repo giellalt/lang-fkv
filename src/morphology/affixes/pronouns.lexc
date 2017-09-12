@@ -416,10 +416,10 @@ LEXICON yh_indef
 LEXICON kaik_kvant
 +Sg+Nom:kaikki       K ;
 +Sg+Gen:kaiken     K ;
-+Sg+Ill:kaikkeen   K ;
-+Sg+Par:kaikesta    K ;
++Sg+Ill:kaikkheen   K ;
++Sg+Par:kaikkee    K ;
 +Sg+Ess:kaikkena    K ;
-+Sg+Tra:kaikiksi   K ;
++Sg+Tra:kaikeksi   K ;
 +Sg+Ine:kaikessa   K ;
 +Sg+Ela:kaikesta   K ;
 +Sg+All:kaikele    K ;
@@ -427,8 +427,9 @@ LEXICON kaik_kvant
 +Sg+Abl:kaikelta   K ;
 
 +Pl+Nom:kaiket       K ;
-+Pl+Gen:kaikien     K ;
-+Pl+Ill:kaikkiin   K ;
++Pl+Gen+Dial/Por:kaikkiin     K ;
++Pl+Gen+Dial/-Por:kaikitten     K ;
++Pl+Ill:kaikkhiin   K ;
 +Pl+Par:kaikista    K ;
 +Pl+Ess:kaikkina    K ;
 +Pl+Tra:kaikiksi   K ;
