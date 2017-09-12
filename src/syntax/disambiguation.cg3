@@ -89,7 +89,7 @@ SET NOT-NPMOD = WORD - NPMOD ;
 
 SET NOT-NPMODADV = WORD - NPMODADV ;
 
-LIST QVANT-ADV = "paljon" "vähän" "enämen" "vähemän"; 
+LIST QVANT-ADV = "paljon" "vähän" "enämen" "vähemän" ;
 
 
 LIST S-BOUNDARY = CS "mutta" ":"  ;
@@ -178,9 +178,10 @@ REMOVE:annaimperativeandnotannaname ("Anna") IF (0 Imprt) (1 Pron LINK 1 Relpron
 # N Prop Sem/Fem Sg Nom
 # V Act Imprt Sg2
 
-REMOVE:tulinounfromtuliprtsg3 ("tuli") IF (1 Pron LINK 1 Relpronsg) ;
+SELECT:tulinounfromtuliprtsg3 V + Sg3 IF  (-1 N + Par LINK *-1 QVANT-ADV BARRIER WORD - A) ;
 # ... kumarsi seittemen kerttaa maahaan siksi ko hän tuli veljen etheen.
 # Paljon ihmissii tuli nyt kaikista kaupungiista siltä alalta.
+# QVANT-ADV
 
 
 
