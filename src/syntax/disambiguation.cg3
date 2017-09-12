@@ -142,7 +142,9 @@ SELECT:Poifgen Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + Gen)
   #% Mutta heilä ei ole juurta, het uskothaan vain vähäsen aikkaa, ja ko heitä freistathaan niin het jääđhään pois (setning hvor den ikke skal fun).
   #$ eksempel med aikkaa (het uskothaan vain vähäsen aikkaa)
 
-SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Relpronpl + Nom) OR (1 (N Pl Nom))) ;
+LIST SUBJ-CASE = Nom Par ;
+
+SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ;
   #$ Nämät käskyt mikkä mie tääpänä annan sinule
   #$ Kekkä oon nämät jokka oon sinun myötä?
   #$ Kaikki muut jokka oon tulheet ennen minuu
@@ -153,7 +155,7 @@ SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR 
   #%  ... sillä Herra oon se joka tuomittee minun.
   #% Kansa sillon ko olen tehny jotaki mistä toiset ei tykätäl.
 
-SELECT:Sg3ollaifplrelpronandplinterrpron Sg3 IF (0 ("olla")) (*-1 (N Sg Nom) OR  Relpronsg + Nom) ;
+SELECT:Sg3ollaifplrelpronandplinterrpron Sg3 IF (0 ("olla")) (*-1 (N Sg Nom) OR  Relpronsg + Nom BARRIER WORD - Adv) ;
   #$ ... Jumala hänen armossa oon suonut sinun palvelijale.
   #$ Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa ...
   #$  ... sillä Herra oon se joka tuomittee minun.
@@ -164,6 +166,14 @@ SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(-1 N + Sg OR Pron + Sg OR
 # Anna se mikä oon sinun, olla sinun.
 # ... ota vasthaan tämän lahjan mikä tuopi minun siunauksen, ja minkä tuothiin sinule ...
 # Mutta Herra Jumala huusi miehele ja sanoi hänele: Missä sie olet?
+# Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa, ja jokka mie olen nyt kohðanu?"
+
+#SELECT:differencebetweenniitäimprtandniitädemandpers:
+# Kalliole puðonnu siemen merkittee niitä ...
+# Mutta hyvhään maahaan puðonnut siemen merkittee niitä ...
+# Sillä niinko ruumis oon yksi, ja siinä oon paljon jäseniitä, niin kaikki ruumhiin jäsenet, vaikka niitä oonki paljon, oon yksi ruumis, niin oon Kristuski.
+
+SELECT:paljonadvandnotpaljonoun Adv IF (0 ("paljon") LINK *1 N + Par + Pl BARRIER WORD -  (A Par)) ;
 
 SELECT:Relpronifitsanounoracommabeforeit Relpronpl IF ((-1 N + Pl OR Pron + Pl OR Pron + Pl3) OR (-1 COMMA LINK -1 N))(NEGATE *1 ("?")) ;
    #$ Kaikki muut jokka oon tulheet ennen minuu
