@@ -142,7 +142,7 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 +A+Pl:%>m        gen_par_iitten ;
 +A+Pl:m^HMETA    ill_hiin       ;
 +A+Pl:m%>i2      ess_nn         ;
-+A+Pl:m%>i2      com_ne         ;
++A+Pl:m%>i2      com_nne        ;
 +A+Pl:m%>i2      sgpl_cases_odd ; ! ≠
 
 +A:m^A  comp_mm       ;
@@ -256,7 +256,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A+Pl:%>tt^Om        gen_par_iitten ;
 +A+Pl:%>tt^Om        ill_hiin       ; ! +Ill:%>tt^Omh%>i2in K
 +A+Pl:%>tt^Om%>i2    ess_nn         ;
-+A+Pl:%>tt^Om%>i2    com_ne         ;
++A+Pl:%>tt^Om%>i2    com_nne        ;
 +A+Pl:%>tt^Om%>i2    sgpl_cases_odd ;
 
 +A:%>tt^Om^A comp_mm ;
@@ -343,6 +343,7 @@ LEXICON comp_m_odd  ! odd here meaning the resulting stem: 2syll + comp = 3syll
 +Sg+Comp:%>m^A     sgpl_cases_odd  ;  ! ade, all, ine, ela, abl, tra
 
 +Pl+Comp:%>mp%>i2  ess_nn          ;
++Pl+Comp:%>mp%>i2  com_nne         ; ! nne when lle
 +Pl+Comp:%>m%>i2   sgpl_cases_odd  ;
                    comp_m_common   ;
 
@@ -351,6 +352,7 @@ LEXICON comp_m_even  ! split for syllabicity sinnikkhäämälä
 +Sg+Comp:%>m^A     sgpl_cases_even ;  ! ade, all, ine, ela, abl, tra
 
 +Pl+Comp:%>mp%>i2  ess_n           ;
++Pl+Comp:%>mp%>i2  com_ne          ; ! ne when le
 +Pl+Comp:%>m%>i2   sgpl_cases_even ;
                    comp_m_common   ;
 
@@ -364,7 +366,6 @@ LEXICON comp_m_common
 +Pl+Comp:%>m^A     nom_t          ;
 +Pl+Comp:%>m       gen_par_ppiita ;
 +Pl+Comp:%>mp      ill_hiin       ; ! used2be +Ill:%>mp%>hi%>i2n K
-+Pl+Comp:%>mp%>i2  com_ne         ;
 
 !+A+Comp:%>m^A weak_v_stem ;
 !+A+Pl+Comp+Dial/Por:%>m%>i2i  gen_tten ; ! liberaalimitten ! used2be +Gen:%>m%>i2%>itten K ;
@@ -386,7 +387,7 @@ LEXICON comp_onneton
 +Pl+Comp:%>m       gen_par_ppiita ;
 +Pl+Comp:%>mp      ill_hiin       ; ! used2be +Gen:se%>mm%>ii2tten K
 +Pl+Comp:%>mp%>i2  ess_nn         ;
-+Pl+Comp:%>mp%>i2  com_ne         ;
++Pl+Comp:%>mp%>i2  com_nne        ;
 +Pl+Comp:%>m%>i2   sgpl_cases_odd ;
 !+Pl+Comp+Gen:%>mpp%>i2%>in K ;
 !+Comp:%>m^A weak_v_stem ;
@@ -418,23 +419,23 @@ LEXICON comp_mm
 !+Pl+Comp+Dial/Por:%>mm%>ii2 gen_tten ; ! used2be +Gen:%>mm%>ii2tten K ;
 
 
-LEXICON superl_m_even
-+Sg+Superl:%>mp^A   ess_n           ; !+Ess:%>mp^A%>n^A    K ;
-+Sg+Superl:%>m^A    sgpl_cases_even ;
-
-+Pl+Superl:%>mp%>i2 ess_n           ; !+Ess:%>mp%>i2%>n^A    K ;
-+Pl+Superl:%>m%>i2  sgpl_cases_even ;
-: superl_m_common ;
-
-
 LEXICON superl_m_odd
 +Sg+Superl:%>mp^A   ess_nn         ;
 +Sg+Superl:%>m^A    sgpl_cases_odd ;
 
 +Pl+Superl:%>mp%>i2 ess_nn         ;
++Pl+Superl:%>mp%>i2 com_nne        ; ! nne when lle
 +Pl+Superl:%>m%>i2  sgpl_cases_odd ;
-: superl_m_common ;
+  : superl_m_common ;
 
+LEXICON superl_m_even
++Sg+Superl:%>mp^A   ess_n           ; !+Ess:%>mp^A%>n^A    K ;
++Sg+Superl:%>m^A    sgpl_cases_even ;
+
++Pl+Superl:%>mp%>i2 ess_n           ; !+Ess:%>mp%>i2%>n^A    K ;
++Pl+Superl:%>mp%>i2 com_ne          ; ! ne when le
++Pl+Superl:%>m%>i2  sgpl_cases_even ;
+  : superl_m_common ;
 
 LEXICON superl_m_common
 +Sg+Superl:             nom_n          ;
@@ -445,7 +446,6 @@ LEXICON superl_m_common
 +Pl+Superl:%>m^A        nom_t          ;
 +Pl+Superl:%>m          gen_par_ppiita ;
 +Pl+Superl:%>mp         ill_hiin       ; ! used2be +Ill:%>mp%>h%>i2in K ;
-+Pl+Superl:%>mp%>i2     com_ne         ;
 
 !+Pl+Superl+Dial/Por:%>m%>i2i     gen_tten ; ! liberaaliimitten ! used2be +Gen:%>m%>i2%>itten K ;
 !+Pl+Superl+Dial/-Por:%>m%>i2     gen_tten ; ! liberaaliimitten ! used2be +Gen:%>m%>i2%>itten K ;
@@ -479,7 +479,7 @@ LEXICON superl_onneton
 +Pl+Superl:%>m          gen_par_ppiita ;
 +Pl+Superl:%>mp%>       ill_hiin       ; !used2be +Ill:%>mp%>h%>i2in K
 +Pl+Superl:%>mp%>i2     ess_nn         ;
-+Pl+Superl:%>mp%>i2     com_ne         ;
++Pl+Superl:%>mp%>i2     com_nne        ;
 +Pl+Superl:%>m%>i2      sgpl_cases_odd ;
 !+Sg+Superl+Nom:%>in K ;
 !+Superl:%>m^A weak_v_stem ;
