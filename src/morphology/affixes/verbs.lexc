@@ -286,6 +286,47 @@ LEXICON v2 !!= @CODE@ anttaat:anta, soppiit:sopi
 +V+Act+Inf3+Abe:%>m^Att^A K ;
 +V+Act+Inf3:%>m^A MATON ;
 
+
+LEXICON v2_tiettäät !!= @CODE@ tiettäät
++V+Inf:tä%>^Vt K ;
++V+Inf+Err/Orth:tä%>^A K ;  !
++V+Act+Ind+Prs:tä^WG v12pers_short ;
++V+Act+Ind+Prt:tä^AO%>i3 v12pers_short ;
++V+Act+Ind+Prs+Sg3:tä%>^V K ;
++V+Act+Ind+Prs+Pl3:tä^AE^WG%>th^A^An K ;
++V+Act+Ind+Prt+Sg3:tä^AO%>i3 K ;
++V+Act+Ind+Prt+Pl3+Dial/Por:tä^AE^WG%>thiin K ;
++V+Act+Ind+Prt+Pl3+Dial/-Por:si^AE^WG%>vät K ;
++V+Act+PrfPrc+Sg+Nom:tä%>^N^U K ;
++V+Act+Ind+Prt+ConNeg+Sg:tä%>^N^U K ;
++V+Pass+PrfPrc+Nom:tä^AE^WG%>tt^U K ;
+!+V+Act+PrfPrc:tä%>^Nhee PRFPRC_OBL ;
++V+Act+PrfPrc:tä%>^N PRFPRC_OBL ;
++V+Act+PrsPrc+Sg+Nom:tä%>^V%>v^A K ;
++V+Act+PrsPrc+Pl+Nom:tä%>^V%>v^At K ;
++V+Pass+PrsPrc+Sg+Nom:tä^AE^WG%>tt^A%>v^A K ;
++V+Pass+PrsPrc+Pl+Nom:tä^AE^WG%>tt^A%>v^At K ;
++V+Act+Ind+Prs+ConNeg:tä^WG K ;
+
++V+Act+Cond+Sg1:tä^VDEL%>i4sin K ; ! antaisin
++V+Act+Cond+Sg2:tä^VDEL%>i4sit K ;
++V+Act+Cond+Sg3:tä^VDEL%>i4s K ;
++V+Act+Cond+Pl1:tä^VDEL%>i4simm^A K ;
++V+Act+Cond+Pl2:tä^VDEL%>i4sitt^A K ;
++V+Act+Cond+Pl3:tä^AE^WG%>tt^A%>i4s K ;
++V+Pass+Cond:tä^AE^WG%>tt^A%>i4s K ;
+
++V+Act+Imprt+Sg2:tä^WG K   ;
++V+Act+Imprt+Pl2:tä%>kk^A^A K ;
+
++V+Act+Inf3+Ine:tä%>m^Ass^A K ;
++V+Act+Inf3+Ela:tä%>m^Ast^A K ;
++V+Act+Inf3+Ill:tä%>mh^A^An K ;
++V+Act+Inf3+Ade:tä%>m^All^A K ;
++V+Act+Inf3+Abe:tä%>m^Att^A K ;
++V+Act+Inf3:tä%>m^A MATON ;
+
+
 LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Inf:%>^Vt K ;        ! kveenin inf valmistuut
 +V+Inf+Err/Orth:%>^A K ; ! suomalainen inf valmistua
@@ -295,6 +336,7 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+Ind+Prs+Pl3:^AE^WG%>th^A^An K ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:^AE^WG%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:^WG%>sivat K ; !TEST
 !+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc+Sg+Nom:%>nn^U K ;
 +V+Act+Ind+Prt+ConNeg+Sg:%>nn^U K ;
