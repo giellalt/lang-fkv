@@ -35,8 +35,8 @@ Sets
 FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            !!= * @CODE@
 BackVowel = a o u å ;                                       !!= * @CODE@
 ArchiVowel =  %^A %^O %^U ;                                 !!= * @CODE@
-RoundedVowel = e ä a i i2 i3 i4 i5 i6 i7                    !!= * @CODE@
-UnroundedVowel = y ö u o                                    !!= * @CODE@
+RoundedVowel = e ä a i i2 i3 i4 i5 i6 i7 ;                  !!= * @CODE@
+UnroundedVowel = y ö u o ;                                  !!= * @CODE@
 SomeVowel = %^V ;                                           !!= * @CODE@
 NeutralVowel = e i i2 i3 i4 i5 i6 i7 ;                      !!= * @CODE@
 Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;       !!= * @CODE@
@@ -152,11 +152,22 @@ Rules
 
 "Gemination Vtti"
 !! __@RULENAME@__
- 0:t <=> Cns:* Vowel:* Vowel (Vowel:) t _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
-         Cns:* Vowel:* Vowel (Vowel:) t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin EI sais antaa vuottiin.
-         Cns:* Vowel:* Vowel (Vowel:) t _ e:            %> i7:i Cns ; ! contr verbs
-! split from V-kp_i in order to easier negate words like vuottiin.
+ 0:t <=> :Vowel t _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
+         :Vowel t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
+         :Vowel t _ e:            %> i7:i Cns ; ! contr verbs
+[.#.|#:] Cns:+ Vowel:+ [l|r|n|m] t _ :a %> :a ; TODO ! used to be in LIQa. Twolc doesn't work,
+! or act as supposed to. Try with HFST and see if it works any better. WTF
 
+!!€ ant0a>^Vt
+!!€ antta>at
+
+
+!
+ !Cns:* Vowel:* Vowel (Vowel:) t _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
+         !Cns:* Vowel:* Vowel (Vowel:) t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
+         !Cns:* Vowel:* Vowel (Vowel:) t _ e:            %> i7:i Cns ; ! contr verbs
+! split from V-kp_i in order to easier negate words like vuottiin.
+! anttaat is in LIQa
 
 
 "Gemination Vssi"
@@ -342,10 +353,12 @@ Rules
 "Gemination LIQa"
 !! __@RULENAME@__
  0:Cx <=> [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] Cx _ :a %> :a ;
-        where Cx in ( j k p s t v ) ;
+  !               Vowel:          Cns      Cx _ a  %>  %^V: ; ! anttaa
+         where Cx in ( j k p s v ) ;
 
 !!€ jalk0a>^V
 !!€ jalkka>a
+
 
 "Gemination LIQe"
 !! __@RULENAME@__
@@ -923,8 +936,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__
-a:0 <=>
-[#:|.#.] (Cns:*) [(NotAEI) u| (NotAEI) o | u | o]  ([u|o]) ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO: [%^WG:0 %> [i2:|i3:] | a:0] ;
+a:0 <=> [#:|.#.] (Cns:*) [(NotAEI) u| (NotAEI) o | u | o]  ([u|o]) ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO: [%^WG:0 %> [i2:|i3:] | a:0] ;
 !            p                                 o            i6    k                a  ^AO    ^WG    >  i2         >le
 ! pojile a:0, mutta poikhiin a:i
 !            p                                 o             0   j                 0   0       0       >i>le
@@ -1011,18 +1023,18 @@ a:o <=> [#:|.#.] (Cns:*) [a|e|i] ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: (%^WG:0)
 !        !! __@RULENAME@ __
 !i:0 <=> Cns Vowel (Vowel) Cns Cns:* _ a:0 e %> i2: ; ! 3-syll
 
-!€ hopiae>i2>tten
-!€ hop00e>i2>tten
-!€ kauhae>i2>tten
-!€ kauh00e>i2>tten
+! hopiae>i2>tten
+! hop00e>i2>tten
+! kauhae>i2>tten
+! kauh00e>i2>tten
 
 ! "a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei-"
         !! __@RULENAME@ __
 ! a:0 <=> Cns Vowel (Vowel) Cns Cns:* i:0 _ e %> i2: ; ! 3-syll
 
 
-!€ valkiae>i2>tten
-!€ valki00e>i2>tten
+! valkiae>i2>tten
+! valki00e>i2>tten
 
 
 
@@ -1066,12 +1078,6 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO confilcts with a:
 !!€ opettaaja>i2>ss^A
 !!€ opettaaji>i>ssa
 ! TODO COLLECT a:0 a:i and maybe a:o examples and differentiate between them!!!
-
-! TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
-! [#: | .#.] (Cns:*) (NotAEI) [u | o] (u | o) (:i) :Cns+ Cns:* (:Cns) _ ^AO: > i2: > n [^A: | e] ;
-! [.#. | #:] Cns:* u Cns :Cns _ ^AO:0 > :i ;
-! Left context example:     u b b
-! Right context example:    ^AO:0 > i2:i > n e
 
 
 !! !Shortening
