@@ -325,6 +325,48 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+Inf3+Abe:%>m^Att^A K ;
 +V+Act+Inf3:%>m^A MATONodd ;
 
+LEXICON v2_ta_odd !!= @CODE@ kumarttaat
++V+Inf:ta%>^Vt K ;        ! kveenin inf valmistuut
++V+Inf+Err/Orth:ta%>^A K ; ! suomalainen inf valmistua
++V+Act+Ind+Prs:ta^WG v12pers_long ;
++V+Act+Ind+Prt:ta^WG%>i3 v12pers_long ;
++V+Act+Ind+Prs+Sg3:ta%>^V K ;
++V+Act+Ind+Prs+Pl3:ta^AE^WG%>th^A^An K ;
++V+Act+Ind+Prt+Sg3:ta%>i3 K ;
++V+Act+Ind+Prt+Pl3+Dial/Por:ta^AE^WG%>thiin K ;
++V+Act+Ind+Prt+Pl3+Dial/-Por:si^WG%>vat K ; !Aili: new form
+!+V+Act+PrfPrc+Sg+Nom:ta%>^N^U K ;
++V+Act+PrfPrc+Sg+Nom:ta%>nn^U K ;
++V+Act+Ind+Prt+ConNeg+Sg:ta%>nn^U K ;
++V+Pass+PrfPrc+Nom:ta^AE^WG%>tt^U K ;
+!+V+Act+PrfPrc:ta%>^Nhee PRFPRC_OBL ;
++V+Act+PrfPrc:ta%>^N PRFPRC_OBL ;
++V+Act+PrsPrc+Sg+Nom:ta%>^V%>v^A K ;
++V+Act+PrsPrc+Pl+Nom:ta%>^V%>v^At K ;
++V+Pass+PrsPrc+Sg+Nom:ta^AE^WG%>tt^A%>v^A K ;
++V+Pass+PrsPrc+Pl+Nom:ta^AE^WG%>tt^A%>v^At K ;
++V+Act+Ind+Prs+ConNeg:ta^WG K ;
+
++V+Act+Cond+Sg1:ta%>i4sin K ; ! kirjoittaisin
++V+Act+Cond+Sg2:ta%>i4sit K ;
++V+Act+Cond+Sg3:ta%>i4s K ;
++V+Act+Cond+Pl1:ta%>i4sim^A K ;
++V+Act+Cond+Pl2:ta%>i4sitt^A K ;
++V+Act+Cond+Pl3:ta^AE^WG%>tt^A%>i4s K ;
++V+Pass+Cond:ta^AE^WG%>tt^A%>i4s K ;
+
++V+Act+Imprt+Sg2:ta^WG K   ;
++V+Act+Imprt+Pl2:ta%>kk^A^A K ;
+
++V+Act+Inf3+Ine:ta%>m^Ass^A K ;
++V+Act+Inf3+Ela:ta%>m^Ast^A K ;
++V+Act+Inf3+Ill:ta%>mh^A^An K ;
++V+Act+Inf3+Ade:ta%>m^Al^A K ;
++V+Act+Inf3+Abe:ta%>m^Att^A K ;
++V+Act+Inf3:ta%>m^A MATONodd ;
+
+
+
 LEXICON v3_ele_short ! nielä:niel
 +V+Inf:^WG%>^A K ; ! short infinitive
 v3_ele_notinf ;      ! the rest is identical
