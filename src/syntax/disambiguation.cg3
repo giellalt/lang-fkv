@@ -215,6 +215,12 @@ SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 N + Sg OR Pron + Sg O
 # Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa, ja jokka mie olen nyt kohðanu?"
 # ... ota vasthaan tämän lahjan mikä tuopi minun siunauksen, ja minkä tuothiin sinule, sillä Jumala oon näyttäny minule. 
 
+SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 (PUNCT RIGHT) BARRIER WORD - CC LINK *-1 (PUNCT LEFT) LINK -1 N + Sg OR Pron + Sg OR Pron + Sg3 BARRIER WORD - CC) (NEGATE *1 ("?") BARRIER S-BOUNDARY) ;
+# Raatimies Odd Keskitalo informeerasi sekretariaatin funkšuunista (toiminta vailuu kokonhans), minkä jälkhiin raatimiehet selvästi ilmasthiin, ette tarvithaan ainaski kohta 100% stillinki, jotta kyethään ottamhaan vaarhiin ja selviämhään kaikista tarpheista ja haastheista.
+
+SELECT:interrpron Interr IF  (*1 ("?") ) ;
+# Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa, ja jokka mie olen nyt kohðanu?"
+
 SELECT:differencebetweenniitäimprtandniitädemandpersifitssubj (Pron Dem Pl) OR (Pron Pers Pl3) IF (0 Par OR Nom)((1 VFIN + Pl3) OR (-1 VFIN + Pl3)) ;
 # ... vaikka niitä oonki paljon, oon yksi ruumis, niin oon Kristuski.
 # Net huuðethiin ...
