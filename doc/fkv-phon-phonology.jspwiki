@@ -29,8 +29,8 @@
  * FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            
  * BackVowel = a o u å ;                                       
  * ArchiVowel =  %^A %^O %^U ;                                 
- * RoundedVowel = e ä a i i2 i3 i4 i5 i6 i7                    
- * UnroundedVowel = y ö u o                                    
+ * RoundedVowel = e ä a i i2 i3 i4 i5 i6 i7 ;                  
+ * UnroundedVowel = y ö u o ;                                  
  * SomeVowel = %^V ;                                           
  * NeutralVowel = e i i2 i3 i4 i5 i6 i7 ;                      
  * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;       
@@ -97,6 +97,10 @@ __Gemination V-kkpp-i__
 
 __Gemination Vtti__
 
+* __ant0a>^Vt __
+* __antta>at __
+
+
 
 
 __Gemination Vssi__
@@ -131,8 +135,6 @@ __Gemination Vi__
 * __kiv0e>i2>^V __
 * __kivv0>i>i __
 
-* __kuv0a^AO>i2 __
-* __kuvvi0>i __
 
 __Gemination Va__
 
@@ -223,6 +225,7 @@ __Gemination LIQa__
 
 * __jalk0a>^V __
 * __jalkka>a __
+
 
 __Gemination LIQe__
 
@@ -564,7 +567,9 @@ __a:0 before Pret and Pl i when rounded root vowel__
 
 
 
-* __otta^WG>i2n __
+
+
+* __otta^WG>i3n __
 * __ot000>in __
 * __kajava^WG>i2>ss^A __
 * __kajav00>i>ssa __
@@ -579,6 +584,7 @@ __a:0 before Pret and Pl i when rounded root vowel__
 
 
 __a:o before Pl i and Pret i__
+
 
 
 
@@ -608,18 +614,20 @@ __a:o before Pl i and Pret i __
 
 
 
-
 __a:i in 3-syll stems with long a and i__
-
-
 
 
 * __kuv0a^AO>i2 __
 * __kuvvi0>i __
 
+
+
+
+
+
+
 * __opettaaja>i2>ss^A __
 * __opettaaji>i>ssa __
-
 
 
 !Shortening
@@ -636,7 +644,6 @@ __Shortening of long vowel in front of i__
 !!Other rules
 
 __a:e in passives and in comparative__
-
 
 * __*loistaava>mpi __ (is not standard language)
 * __*loistaave>mpi __ (is not standard language)
