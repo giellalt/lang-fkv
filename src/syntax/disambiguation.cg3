@@ -75,6 +75,9 @@ LIST Sg3 = Sg3 ;
 LIST Sg2 = Sg2 ;
 LIST Foc/kaan = Foc/kaan ;
 LIST Sem/Fem = Sem/Fem ;
+LIST @CVP = @CVP ; # Conjunction or subjunction that conjoins finite verb phrases.
+LIST @CNP = @CNP ; # Local conjunction or subjunction.
+
 
 
 # Sets
@@ -93,7 +96,7 @@ SET NOT-NPMODADV = WORD - NPMODADV ;
 LIST QVANT-ADV = "paljon" "vähän" "enämen" "vähemän" ;
 
 
-LIST S-BOUNDARY = CS "mutta" ":" Rel  ;
+LIST S-BOUNDARY = CS "mutta" ":" Rel @CVP  ;
 
 LIST VFIN = Ind Cond Pot Imprt   ;
 
@@ -143,7 +146,16 @@ SELECT:Poifgen Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + Gen)
   #% Mutta heilä ei ole juurta, het uskothaan vain vähäsen aikkaa, ja ko heitä freistathaan niin het jääđhään pois (setning hvor den ikke skal fun).
   #$ eksempel med aikkaa (het uskothaan vain vähäsen aikkaa)
 
+### Rules for mapping @CVP and @CNP on the CC
+MAP @CVP TARGET CS ;
+
+MAP @CNP TARGET CC IF (-1 N)(*1 N BARRIER NOT-NPMOD) ;
+	#$ mitä Kväänin kieliraati ja Kväänin kielitinka oon tehneet ...
+
+
+
 LIST SUBJ-CASE = Nom Par ;
+ 
 
 SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ;
   #$ Nämät käskyt mikkä mie tääpänä annan sinule
