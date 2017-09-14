@@ -11,7 +11,9 @@
 # ========== #
 
 
-DELIMITERS = "<.>" "<...>" "<!>" "<?>" "<¶>";
+DELIMITERS = "<.>" "<...>" "<!>" "<?>" "<¶>" ;   
+#!! Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
+
 
 
 
@@ -27,15 +29,29 @@ DELIMITERS = "<.>" "<...>" "<!>" "<?>" "<¶>";
 LIST BOS = (>>>) (<s>) (sent);
 LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
 
-LIST N = N ;
-LIST V = V ;
-LIST A = A ;
-LIST CC = CC ;
-LIST Dem = Dem ;
-LIST Adv = Adv ;
-LIST Pr = Pr ;
-LIST Po = Po ;
-LIST Nom = Nom ;
+LIST N = N ;  #!! * N = noun
+LIST A = A ;  #!! * A = adjective
+LIST Num = Num ;  #!! * Num = numeral
+LIST V = V ;  #!! * V = verb
+LIST CC = CC ; #!! * CC = conjunction
+LIST CS = CS ; #!! * CS = subjunction
+LIST Adv = Adv ; #!! * Adv = adverb
+LIST Pr = Pr ;  #!! * Pr = preposition
+LIST Po = Po ;  #!! * Po = postposition
+LIST Pron = Pron ; #!! * Pron = pronoun
+LIST Interj = Interj ; #!! * Interj = interjection
+LIST Dem = Dem ; #!! * Dem = demonstrative
+# Numerus
+LIST Sg = Sg ;
+LIST Pl = Pl ;
+LIST Sg1 = Sg1 ;
+LIST Sg2 = Sg2 ;
+LIST Sg3 = Sg3 ;
+LIST Pl1 = Pl1 ;
+LIST Pl2 = Pl2 ;
+LIST Pl3 = Pl3 ;
+# Case
+LIST Nom = Nom ; #!! * Nom = nominative
 LIST Gen = Gen ;
 LIST Acc = Acc ;
 LIST Par = Par ;
@@ -50,17 +66,14 @@ LIST Ess = Ess ;
 LIST Tra = Tra ;
 LIST Ins = Ins ;
 LIST Com = Com ;
+# Types
 LIST Prop = Prop ;
 LIST Interr = Interr ;
-LIST Pron = Pron ;
 LIST Rel = Rel ;
 LIST Relpronpl = (Pron Rel Pl) ; # "mikkä ja "jokka"
 LIST Relpronsg = (Pron Rel Sg) ; # "mikä" ja "joka"
 LIST Interrpronpl = (Pron Interr Pl) ; # "kuka" ja "mikä"
-LIST Sg = Sg ;
-LIST Pl = Pl ;
-LIST CS = CS ;
-LIST PronPers = (Pron Pers) ; # järjestyksellä ei väliä kun ()
+
 LIST Pers = Pers ;
 LIST Indef = Indef ;
 LIST ConNeg = ConNeg ;
@@ -68,11 +81,8 @@ LIST PrfPrc = PrfPrc ;
 LIST Imprt = Imprt ;
 LIST Act = Act ;
 LIST Neg = Neg ;
-LIST KUNKA = "kunka" "missä" ;
+
 LIST COMMA = "," ;
-LIST Pl3 = Pl3 ;
-LIST Sg3 = Sg3 ;
-LIST Sg2 = Sg2 ;
 LIST Foc/kaan = Foc/kaan ;
 LIST Sem/Fem = Sem/Fem ;
 LIST @CVP = @CVP ; # Conjunction or subjunction that conjoins finite verb phrases.
@@ -94,9 +104,10 @@ SET NOT-NPMOD = WORD - NPMOD ;
 SET NOT-NPMODADV = WORD - NPMODADV ;
 
 LIST QVANT-ADV = "paljon" "vähän" "enämen" "vähemän" ;
+LIST KUNKA = "kunka" "missä" ;
 
 
-LIST S-BOUNDARY = CS "mutta" ":" Rel @CVP  ;
+SET S-BOUNDARY = CS OR ("mutta") OR (":") OR Rel OR @CVP OR KUNKA ;
 
 LIST VFIN = Ind Cond Pot Imprt   ;
 
@@ -110,6 +121,7 @@ SET AUX = COPULAS OR MOD-ASP OR AUX-OR-MAIN ;
 
 SET SV-BOUNDARY = S-BOUNDARY OR VFIN   ;
 
+
 # Here come the rules #
 
 BEFORE-SECTIONS
@@ -119,7 +131,7 @@ BEFORE-SECTIONS
 SECTION
 # SELECT:Dummyrule WORD IF (0 WORD) ;
 
-SELECT:person_test V IF (-1 PronPers) ; # exempel
+SELECT:person_test V IF (-1 Pers) ; # exempel
 
 SELECT:adv_after_V Adv IF (-1 V)
        (NEGATE 0 Dem OR Indef LINK *1 N BARRIER WORD - A)
