@@ -22,8 +22,8 @@ Multichar_Symbols
 +Pr      !!≈ * __@CODE@__ = Preposition
 +Pron    !!≈ * __@CODE@__ = Pronomen
 +V       !!≈ * __@CODE@__ = Verb
-+Neg     !!≈ * __@CODE@__ = Hmm, Question?? Interr? Check this.
-+ConNeg  !!≈ * __@CODE@__ = Hmm, Question?? Interr? Check this.
++Neg     !!≈ * __@CODE@__ = Negation verb 'ei'
++ConNeg  !!≈ * __@CODE@__ = Negation form of verb
 
 +Prop     !!= * __@CODE@__ = Propernoun
 +Ord  !!≈ * __@CODE@__ = Ordinal
@@ -40,7 +40,7 @@ Multichar_Symbols
 +Recipr    !!≈ * __@CODE@__ = Reciprocal
 +Rel       !!≈ * __@CODE@__ = Relative
 +Indef     !!≈ * __@CODE@__ = Indefinitue
-+Qu        !!≈ * __@CODE@__ = Hmm, Question?? Interr? Check this.
++Qu        !!≈ * __@CODE@__ = Quantity
 
 !! !Number
 +Sg   !!≈ * __@CODE@__ = Singular
@@ -54,12 +54,12 @@ Multichar_Symbols
 +Pl1  !!≈ * __@CODE@__ = Plural 1
 +Pl2  !!≈ * __@CODE@__ = Plural 2
 +Pl3  !!≈ * __@CODE@__ = Plural 3
-+PxPl1
-+PxPl2
-+PxPl3
-+PxSg1
-+PxSg2
-+PxSg3
++PxSg1 !!≈ * __@CODE@__ = Poss suff: the owner is Singular 1
++PxSg2 !!≈ * __@CODE@__ = Poss suff: the owner is Singular 2
++PxSg3 !!≈ * __@CODE@__ = Poss suff: the owner is Singular 3
++PxPl1 !!≈ * __@CODE@__ = Poss suff: the owner is Plural 1
++PxPl2 !!≈ * __@CODE@__ = Poss suff: the owner is Plural 2
++PxPl3 !!≈ * __@CODE@__ = Poss suff: the owner is Plural 3
 
 !! !Case
 
@@ -87,19 +87,19 @@ Multichar_Symbols
 !! !Finite verbs
 +Pass     !!≈ * __@CODE@__ = Passive 
 +Ind      !!≈ * __@CODE@__ = Indicative
-+Act
-+Prs      !!≈ * __@CODE@__ =
-+Prt      !!≈ * __@CODE@__ =
-+Imprt    !!≈ * __@CODE@__ =
++Act      !!≈ * __@CODE@__ = Active
++Prs      !!≈ * __@CODE@__ = Presens
++Prt      !!≈ * __@CODE@__ = Preteritum
++Imprt    !!≈ * __@CODE@__ = Imperative
 +Cond     !!≈ * __@CODE@__ = Conditional
 +Pot      !!≈ * __@CODE@__ = Potential
 
 !! !Infinite verbs
-+Inf     !!≈ * __@CODE@__ =
++Inf     !!≈ * __@CODE@__ = Infinitive
 +Lat	 !!≈ * __@CODE@__ = lative (the infinitive, used in Apertium)
-+PrsPrc  !!≈ * __@CODE@__ =
-+PrfPrc  !!≈ * __@CODE@__ =
-+Inf3    !!≈ * __@CODE@__ = Infinite verbs
++PrsPrc  !!≈ * __@CODE@__ = Presence Particip
++PrfPrc  !!≈ * __@CODE@__ = Preteritum Particip
++Inf3    !!≈ * __@CODE@__ = Infinite 3
 
 !! !Punctuation
 +CLB    !!≈ * __@CODE@__ = Clause boundary
@@ -110,7 +110,7 @@ Multichar_Symbols
 +RIGHT  !!≈ * __@CODE@__ = right parenth
 
 !! !Speller tags
- +Err/Orth   !!= @CODE@ only in desc, not in norm.
+ +Err/Orth   !!= @CODE@  misspelling or nor normative form. It will be included only in desc, not in norm.
  +Use/-Spell   !!≈ * __@CODE@__ = Excluded in speller
  +Use/SpellNoSugg   !!≈ * __@CODE@__ = recognized but not suggested in speller
  +Use/NG   !!= @CODE@ only accept, not generate (for MT and Oahpa use)
@@ -124,7 +124,7 @@ Multichar_Symbols
  +Der/s  !!≈ * __@CODE@__ = deriving numerals
  !! !!Clitic tags
  +Clt        !!≈ * __@CODE@__ =
- +Qst        !!≈ * __@CODE@__ =
+ +Qst        !!≈ * __@CODE@__ = 
  +Foc/han   !!≈ * __@CODE@__ =
  +Foc/kaan  !!≈ * __@CODE@__ =
  +Foc/kin   !!≈ * __@CODE@__ =
@@ -133,7 +133,7 @@ Multichar_Symbols
  +Foc/pas   !!≈ * __@CODE@__ =
 
 !! !!Tokeniser tags
-  +MWE !!≈ * __@CODE@__ = multiword expression
+  +MWE !!≈ * __@CODE@__ = multiword expression, for tokenisation
 
 
 !! !!Semantic tags
