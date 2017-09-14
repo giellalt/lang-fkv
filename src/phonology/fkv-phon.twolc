@@ -155,7 +155,7 @@ Rules
  0:t <=> :Vowel t _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
          :Vowel t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
          :Vowel t _ e:            %> i7:i Cns ; ! contr verbs
-[.#.|#:] Cns:+ Vowel:+ [l|r|n|m] t _ :a %> :a ; TODO ! used to be in LIQa. Twolc doesn't work,
+[.#.|#:] Cns:+ Vowel:+ [l|r|n|m] t _ :a %> :a ;! TODO ! used to be in LIQa. Twolc doesn't work,
 ! or act as supposed to. Try with HFST and see if it works any better. WTF
 
 !!€ ant0a>^Vt
