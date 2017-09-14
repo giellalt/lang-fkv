@@ -40,7 +40,7 @@ LIST Pr = Pr ;  #!! * Pr = preposition
 LIST Po = Po ;  #!! * Po = postposition
 LIST Pron = Pron ; #!! * Pron = pronoun
 LIST Interj = Interj ; #!! * Interj = interjection
-LIST Dem = Dem ; #!! * Dem = demonstrative
+
 # Numerus
 LIST Sg = Sg ;
 LIST Pl = Pl ;
@@ -66,16 +66,20 @@ LIST Ess = Ess ;
 LIST Tra = Tra ;
 LIST Ins = Ins ;
 LIST Com = Com ;
+LIST SUBJ-CASE = Nom Par ;
+
 # Types
 LIST Prop = Prop ;
 LIST Interr = Interr ;
+LIST Dem = Dem ; #!! * Dem = demonstrative
 LIST Rel = Rel ;
 LIST Relpronpl = (Pron Rel Pl) ; # "mikkä ja "jokka"
 LIST Relpronsg = (Pron Rel Sg) ; # "mikä" ja "joka"
 LIST Interrpronpl = (Pron Interr Pl) ; # "kuka" ja "mikä"
-
 LIST Pers = Pers ;
 LIST Indef = Indef ;
+
+LIST Inf = Inf ;
 LIST ConNeg = ConNeg ;
 LIST PrfPrc = PrfPrc ; 
 LIST Imprt = Imprt ;
@@ -159,14 +163,16 @@ SELECT:Poifgen Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + Gen)
   #$ eksempel med aikkaa (het uskothaan vain vähäsen aikkaa)
 
 ### Rules for mapping @CVP and @CNP on the CC
-MAP @CVP TARGET CS ;
+MAP @CVP TARGET CS OR ("mutta") ;
 
 MAP @CNP TARGET CC IF (-1 N)(*1 N BARRIER NOT-NPMOD) ;
 	#$ mitä Kväänin kieliraati ja Kväänin kielitinka oon tehneet ...
 
+MAP @CNP TARGET CC IF (-1 Inf)(1 Inf) ;
+	
 
 
-LIST SUBJ-CASE = Nom Par ;
+
  
 
 SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ;
