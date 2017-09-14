@@ -22,7 +22,7 @@ Multichar_Symbols
 +Pr      !!≈ * __@CODE@__ = Preposition
 +Pron    !!≈ * __@CODE@__ = Pronomen
 +V       !!≈ * __@CODE@__ = Verb
-+Neg     !!≈ * __@CODE@__ = Negation verb 'ei'
++Neg     !!≈ * __@CODE@__ = Negation verb ei
 +ConNeg  !!≈ * __@CODE@__ = Negation form of verb
 
 +Prop     !!= * __@CODE@__ = Propernoun
@@ -124,13 +124,13 @@ Multichar_Symbols
  +Der/s  !!≈ * __@CODE@__ = deriving numerals
  !! !!Clitic tags
  +Clt        !!≈ * __@CODE@__ =
- +Qst        !!≈ * __@CODE@__ = 
- +Foc/han   !!≈ * __@CODE@__ =
- +Foc/kaan  !!≈ * __@CODE@__ =
- +Foc/kin   !!≈ * __@CODE@__ =
- +Foc/pa    !!≈ * __@CODE@__ =
- +Foc/s        !!≈ * __@CODE@__ =
- +Foc/pas   !!≈ * __@CODE@__ =
+ +Qst        !!≈ * __@CODE@__ = Focusclitic question -ko
+ +Foc/han   !!≈ * __@CODE@__ = Focusclitic -han
+ +Foc/kaan  !!≈ * __@CODE@__ = Focusclitic -kaan
+ +Foc/kin   !!≈ * __@CODE@__ = Focusclitic -kin
+ +Foc/pa    !!≈ * __@CODE@__ = Focusclitic -pa
+ +Foc/s        !!≈ * __@CODE@__ = Focusclitic -s
+ +Foc/pas   !!≈ * __@CODE@__ = Focusclitic -pas
 
 !! !!Tokeniser tags
   +MWE !!≈ * __@CODE@__ = multiword expression, for tokenisation
