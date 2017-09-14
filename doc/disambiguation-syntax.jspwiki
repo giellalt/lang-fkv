@@ -4,7 +4,7 @@
 
 
 
-Sentence delimiters are the following: <.> <!> <?> <...> <¶>
+Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 
 
 
@@ -14,7 +14,23 @@ Sentence delimiters are the following: <.> <!> <?> <...> <¶>
 
 
 * N = noun
+* A = adjective
+* Num = numeral
 * V = verb
+* CC = conjunction
+* CS = subjunction
+* Adv = adverb
+* Pr = preposition
+* Po = postposition
+* Pron = pronoun
+* Interj = interjection
+* Dem = demonstrative
+* Nom = nominative
+
+
+* @CVP = Conjunction or subjunction that conjoins finite verb phrases.
+* @CNP = Local conjunction or subjunction.
+
 
 
 
