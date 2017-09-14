@@ -19,8 +19,8 @@ Take nothing at face value!
  * __+Pr__ = Preposition
  * __+Pron__ = Pronomen
  * __+V__ = Verb
- * __+Neg__ = Hmm, Question?? Interr? Check this.
- * __+ConNeg__ = Hmm, Question?? Interr? Check this.
+ * __+Neg__ = Negation verb ei
+ * __+ConNeg__ = Negation form of verb
 
  * __+Prop     __ = Propernoun
  * __+Ord__ = Ordinal
@@ -37,7 +37,7 @@ Take nothing at face value!
  * __+Recipr__ = Reciprocal
  * __+Rel__ = Relative
  * __+Indef__ = Indefinitue
- * __+Qu__ = Hmm, Question?? Interr? Check this.
+ * __+Qu__ = Quantity
 
 !Number
  * __+Sg__ = Singular
@@ -51,6 +51,12 @@ Number-person
  * __+Pl1__ = Plural 1
  * __+Pl2__ = Plural 2
  * __+Pl3__ = Plural 3
+ * __+PxSg1__ = Poss suff: the owner is Singular 1
+ * __+PxSg2__ = Poss suff: the owner is Singular 2
+ * __+PxSg3__ = Poss suff: the owner is Singular 3
+ * __+PxPl1__ = Poss suff: the owner is Plural 1
+ * __+PxPl2__ = Poss suff: the owner is Plural 2
+ * __+PxPl3__ = Poss suff: the owner is Plural 3
 
 !Case
 
@@ -78,18 +84,19 @@ Number-person
 !Finite verbs
  * __+Pass__ = Passive 
  * __+Ind__ = Indicative
- * __+Prs__ =
- * __+Prt__ =
- * __+Imprt__ =
+ * __+Act__ = Active
+ * __+Prs__ = Presens
+ * __+Prt__ = Preteritum
+ * __+Imprt__ = Imperative
  * __+Cond__ = Conditional
  * __+Pot__ = Potential
 
 !Infinite verbs
- * __+Inf__ =
+ * __+Inf__ = Infinitive
  * __+Lat	__ = lative (the infinitive, used in Apertium)
- * __+PrsPrc__ =
- * __+PrfPrc__ =
- * __+Inf3__ = Infinite verbs
+ * __+PrsPrc__ = Presence Particip
+ * __+PrfPrc__ = Preteritum Particip
+ * __+Inf3__ = Infinite 3
 
 !Punctuation
  * __+CLB__ = Clause boundary
@@ -100,7 +107,7 @@ Number-person
  * __+RIGHT__ = right parenth
 
 !Speller tags
-  +Err/Orth    only in desc, not in norm.
+  +Err/Orth     misspelling or nor normative form. It will be included only in desc, not in norm.
  * __+Use/-Spell__ = Excluded in speller
  * __+Use/SpellNoSugg__ = recognized but not suggested in speller
   +Use/NG    only accept, not generate (for MT and Oahpa use)
@@ -113,16 +120,16 @@ Number-person
  * __+Der/s__ = deriving numerals
 !!Clitic tags
  * __+Clt__ =
- * __+Qst__ =
- * __+Foc/han__ =
- * __+Foc/kaan__ =
- * __+Foc/kin__ =
- * __+Foc/pa__ =
- * __+Foc/s__ =
- * __+Foc/pas__ =
+ * __+Qst__ = Focusclitic question -ko
+ * __+Foc/han__ = Focusclitic -han
+ * __+Foc/kaan__ = Focusclitic -kaan
+ * __+Foc/kin__ = Focusclitic -kin
+ * __+Foc/pa__ = Focusclitic -pa
+ * __+Foc/s__ = Focusclitic -s
+ * __+Foc/pas__ = Focusclitic -pas
 
 !!Tokeniser tags
- * __+MWE__ = multiword expression
+ * __+MWE__ = multiword expression, for tokenisation
 
 
 !!Semantic tags
