@@ -154,13 +154,17 @@ Rules
 !!$ poi6ka^AO>i2
 !!$ poika0>i
 !!€ poi6ka^AO>i2>n^A
-!!€ poiki0>i>na
+!!€ poik00>i>na
 !!$ poi6ka^AO>i2>n^A
 !!$ poika0>i>na
+!!$ poi6ka^AO>i2>n^A
+!!$ poiki0>i>na
 !!€ poi6ka^AO>i2>ne
-!!€ poiki0>i>ne
+!!€ poik00>i>ne
 !!$ poi6ka^AO>i2>ne
 !!$ poika0>i>ne
+!!$ poi6ka^AO>i2>ne
+!!$ poiki0>i>ne
 
 
 
@@ -273,7 +277,7 @@ Rules
 "Gemination Vi"
 !! __@RULENAME@__
 0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (%^E2I:0) %> :i %> :i ; ! kivvii
-!                    k     u   v  0  a      ^AO    >   i  > n
+!                   k     u   v  0  a      ^AO    >   i  > n
          [.#.|#:] Cns:* Vowel Cx _ a:i (Dummy:0) %> :i ; !
        where Cx in ( h j l m n r v ) ;
 
@@ -999,7 +1003,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__
 a:0 <=> [#:|.#.] (Cns:*) (UnroundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO: [%^WG:0 %> [i2:|i3:] | a:0] ;
-                  ! k                       u                        v             a  ^AO             >i2>n^A
+        [#:|.#.]  Cns    (UnroundedVowel) (i6:)                               Cns  _ %^AO:0 %> i2:i %> n  [e | %^A:]  ; ! TODO check if context should be more extensive. NOT :Cns though!
 !            p                                 o            i6    k                a  ^AO    ^WG    >  i2         >le
 ! pojile a:0, mutta poikhiin a:i
 !            p                                 o             0   j                 0   0       0       >i>le
@@ -1038,7 +1042,7 @@ a:0 <=> [#:|.#.] (Cns:*) (UnroundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cn
 !! __@RULENAME@__
 a:o <=> [#:|.#.] RoundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^WG:0)  %> [i2:|i3:|j] ; ! sannoi 2 syll
      Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: (%^WG:0)  %> i2:   ; ! sivakoissa, sannoi
-     Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: ^HMETA    %> ^V i2: ; ! aikhoin
+     Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: ^HMETA    %> %^V i2: ; ! aikhoin
      [:k|:l]  (:i) :i             :j                         _ %^AO: (Dummy:*) %>  i2:   ; ! kulkkiija kulkiijoissa
 !               s            a                n      0                  a  ^AO             >  i2
 !               s            a                n      n                  o   0              >  i
