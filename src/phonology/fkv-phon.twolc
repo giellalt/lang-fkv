@@ -110,18 +110,31 @@ Rules
 !          except
 !              _ :i ;!:o (%^AO:0) %> i2: %> n ;
 
-!!$ kuva^AO>i2
-!!$ kuva0>i
-!!$ kuva^AO>i2>n
-!!$ kuva0>i>n
-!!$ kuva^AO>i2>n^A
-!!$ kuva0>i>na
+! TODO Uncomment and fix ^A: issues in a:o and kkpp in general
+!   !!$ kuva^AO>i2
+!   !!$ kuva0>i
+!   !!$ kuva^AO>i2>n
+!   !!$ kuva0>i>n
+!   !!$ kuva^AO>i2>n^A
+!   !!$ kuva0>i>na
+!    !!$ poi6ka^AO>i2>n^A
+!    !!$ poika0>i>na
+!         !!€ kuva^AO>i2>n^A
+!         !!€ kuv00>i>na
+!         !!€ poi6ka^AO>i2>n^A
+!         !!€ poik00>i>na
+
+
+
+!!$ kuv0a^AO>i2>n^A
+!!$ kuvvi0>i>na
+!!$ poi6ka^AO>i2>n^A
+!!$ poiki0>i>na
+
 !!$ poi6ka^AO>i2>n
 !!$ poika0>i>n
 !!$ poi6ka^AO>i2
 !!$ poika0>i
-!!$ poi6ka^AO>i2>n^A
-!!$ poika0>i>na
 
 !!€ aik0a^AO>i2>n
 !!€ aikko0>i>n
@@ -140,10 +153,7 @@ Rules
 !!€ kuvvi0>i>n
 !!€ kuv0a^AO>i2
 !!€ kuvvi0>i
-!!€ kuva^AO>i2>n^A
-!!€ kuv00>i>na
-!!$ kuv0a^AO>i2>n^A
-!!$ kuvvi0>i>na
+
 !!€ kuva^AO>i2>ne
 !!€ kuv00>i>ne
 !!$ kuv0a^AO>i2>ne
@@ -155,10 +165,6 @@ Rules
 !!€ poikki0>i>n
 !!€ poi6k0a^AO>i2
 !!€ poikki0>i
-!!€ poi6ka^AO>i2>n^A
-!!€ poik00>i>na
-!!$ poi6ka^AO>i2>n^A
-!!$ poiki0>i>na
 !!€ poi6ka^AO>i2>ne
 !!€ poik00>i>ne
 !!$ poi6ka^AO>i2>ne
