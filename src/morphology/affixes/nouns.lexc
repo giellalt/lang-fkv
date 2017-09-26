@@ -241,7 +241,7 @@ LEXICON x_22odd !!= * @CODE@  kajava
  +Dial/Por+Sg:             par_V          ;
 +Dial/-Por+Sg:             par_A          ;
           +Sg:^HMETA       ill_hVVn       ;
-          +Sg:             ess_nn         ;
+          +Sg:             ess_nnA        ;
 
           +Pl:^WG%>i2      sgpl_cases_odd ; ! Adding  to block i:0
           +Pl:^WG          nom_t          ;
@@ -252,7 +252,7 @@ LEXICON x_22odd !!= * @CODE@  kajava
 +Dial/-Por+Pl:%>i2%>       par_A          ; ! kajavia
 !      +Pl+Ill:%^HMETA%>hii n_PxK          ;
           +Pl:%^HMETA      ill_hiin       ;
-          +Pl:%>i2         ess_nn         ;
+          +Pl:%>i2         ess_nnA        ;
  +Dial/Por+Pl:%>i2         com_nne        ;
 +Dial/-Por+Pl:%>i2         com_ne         ;
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
@@ -271,7 +271,7 @@ LEXICON x_22oddi
      +Dial/Por+Sg:        par_V           ;
     +Dial/-Por+Sg:        par_A           ;
               +Sg:^HMETA  ill_hVVn        ;
-              +Sg:        ess_nn          ;
+              +Sg:        ess_nnA         ;
 
               +Pl:^WG     nom_t           ;
      +Dial/Por+Pl:^WG%>i2 sgpl_cases_even ; ! Adding  to block i:0
@@ -282,7 +282,7 @@ LEXICON x_22oddi
     +Dial/-Por+Pl:%>      par_A           ;
               +Pl:^HMETA  ill_hiin        ;
      +Dial/Por+Pl:%>i2      ess_nA           ;
-    +Dial/-Por+Pl:        ess_nn          ;
+    +Dial/-Por+Pl:        ess_nnA         ;
      +Dial/Por+Pl:%>i2      com_ne          ;
     +Dial/-Por+Pl:        com_ne          ;
 
@@ -305,7 +305,7 @@ LEXICON x_22oi
  +Dial/Por+Sg:                   par_V           ;
 +Dial/-Por+Sg:                   par_A           ;
           +Sg:^HMETA             ill_hVVn        ;
-          +Sg:                   ess_nn          ; ! paivukkonna
+          +Sg:                   ess_nnA         ; ! paivukkonna
           +Sg:^WG                sgpl_cases_odd  ; ! these two lexica for cases with
 
           +Pl:^AO^WG%>i2         gen_tten        ;
@@ -348,7 +348,7 @@ LEXICON x_23ia ! For -Por only valkia, hopia, kauhia
               +Sg:%>^A         par_A           ; ! valkiaa
               +Sg:%>^At        par_A           ; ! valkiata
               +Sg:             ill_hAAn        ; ! valkihaan
-              +Sg:%>^A         ess_nn          ; ! valkianna pime^A>nn^A
+              +Sg:%>^A         ess_nnA         ; ! valkianna pime^A>nn^A
               +Sg:%>^A         sgpl_cases_odd  ;
 
               +Pl:%>^A         nom_t           ; ! valkiat
@@ -517,7 +517,7 @@ LEXICON x_32
           +Sg:e^WG         gen_n_sg       ;
           +Sg:^WG          par_tA         ;
           +Sg:e^HMETA      ill_hVVn       ;
-          +Sg:e            ess_nn         ;
+          +Sg:e            ess_nnA        ;
           +Sg:e            sgpl_cases_odd ;
 
           +Pl:e            nom_t          ;
@@ -528,7 +528,7 @@ LEXICON x_32
  +Dial/Por+Pl:%>i%>i2      par_tA         ; ! tyttäriitä
 +Dial/-Por+Pl:%>i%>        par_A          ; ! tyttäriä
           +Pl:^HMETA       ill_hiin       ;
-          +Pl:e%>i2        ess_nn         ;
+          +Pl:e%>i2        ess_nnA        ;
  +Dial/Por+Pl:e%>i2        com_nne        ;
 +Dial/-Por+Pl:e%>i2        com_ne         ;
           +Pl:%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
@@ -547,7 +547,7 @@ LEXICON x_32m_sg
           +Sg:me        gen_n_sg       ;
           +Sg:^WG%>n    par_tA         ;
           +Sg:me^HMETA  ill_hVVn       ;
-          +Sg:me        ess_nn         ;
+          +Sg:me        ess_nnA        ;
           +Sg:me        sgpl_cases_odd ;
 
 LEXICON n_32m_pl !!= @CODE@
@@ -563,7 +563,7 @@ LEXICON x_32m_pl
  +Dial/Por+Pl:mi%>i2        par_tA         ; ! elläimiitä
 +Dial/-Por+Pl:mi%>          par_A          ; ! elläimiä
           +Pl:m^HMETA       ill_hiin       ;
-          +Pl:me%>i2        ess_nn         ;
+          +Pl:me%>i2        ess_nnA        ;
  +Dial/Por+Pl:m%>i2         com_nne        ;
 +Dial/-Por+Pl:m%>i2         com_ne         ;
           +Pl:m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl, TODO check this <-
@@ -579,14 +579,14 @@ LEXICON x_32s
           +Sg:đe             gen_n_sg          ;
           +Sg:%>t            par_tA            ;
           +Sg:te^HMETA       ill_hVVn          ;
-          +Sg:te             ess_nn            ;
+          +Sg:te             ess_nnA           ;
           +Sg:đe             sgpl_cases_odd    ;
 
           +Pl:ksi%>i2        gen_tten          ;
           +Pl:ksi%>i2        par_end           ;
           +Pl:ksi%>i2        par_tA            ;
           +Pl:ks^HMETA       ill_hiin          ;
-          +Pl:ks%>i2         ess_nn            ;
+          +Pl:ks%>i2         ess_nnA           ;
  +Dial/Por+Pl:ks%>i2         com_nne           ;
 +Dial/-Por+Pl:ks%>i2         com_ne            ;
           +Pl:ks%>i2         sgpl_cases_odd    ; ! TODO wtf is this comm --> hmm, tämä menee pieleen, sg ≠ pl
@@ -677,9 +677,9 @@ LEXICON x_33is ! kaunis
           +Pl:hii       par_tA          ; ! rukkhiita
  +Dial/Var+Pl:hi%>j     par_A           ; ! rukhija
           +Pl:hii       ill_ssiin       ;
-          +Pl:%>hii     ess_nA           ;
-          +Pl:h%>i2i      com_ne          ;
-          +Pl:h%>ii       sgpl_cases_even ;
+          +Pl:%>hii     ess_nA          ;
+          +Pl:h%>i2i    com_ne          ;
+          +Pl:h%>ii     sgpl_cases_even ;
 
 !LEXICON n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 !  n_33t ;
@@ -740,7 +740,7 @@ LEXICON x_41
           +Sg:%>s        par_tA         ;
           +Sg:ks         ill_hVVn       ;
           +Sg+Ill:ksheen K              ; ! +Pl+Ill:ksh%>i2in K;
-          +Sg:kse        ess_nn         ;
+          +Sg:kse        ess_nnA        ;
           +Pl:kse%>i2    sgpl_cases_odd ; ! the same affix in sg and pl -- tsekkaa long
 
           +Pl:kse        nom_t          ;
@@ -750,7 +750,7 @@ LEXICON x_41
  +Dial/Por+Pl:ks%>i2i    par_tA         ; ! vereksiitä
 +Dial/-Por+Pl:ks%>i2     par_A          ; ! vereksiä
           +Pl:ks         ill_hiin       ;
-          +Pl:kse%>i2    ess_nn         ;
+          +Pl:kse%>i2    ess_nnA        ;
  +Dial/Por+Pl:kse%>i2    com_nne        ;
 +Dial/-Por+Pl:kse%>i2    com_ne         ;
  ! +Pl+Par:%>ksii     K              ;
@@ -774,7 +774,7 @@ LEXICON x_41pl !!= * @CODE@ = veljekset
 +Dial/-Por+Pl:ks%>i2     par_A           ; ! veljeksiä
 !      +Pl+Ill:ksh%>i2in  K               ;
           +Pl:ks         ill_hiin        ;
-          +Pl:kse%>i2    ess_nn          ; ! veljeksinnä
+          +Pl:kse%>i2    ess_nnA         ; ! veljeksinnä
           +Pl:ks%>i2     com_nne         ; ! veljeksine
           +Pl:kse%>i2    sgpl_cases_odd  ; !! the same affix in sg and pl -- tsekkaa long
   !    +Pl+Par:%>ksii     K               ;
@@ -822,7 +822,7 @@ LEXICON x_42odd
           +Sg:se        gen_n_sg       ;
           +Sg:s         par_tA         ;
           +Sg:se^HMETA  ill_hVVn       ;
-          +Sg:se        ess_nn         ;
+          +Sg:se        ess_nnA        ;
           +Sg:se        sgpl_cases_odd ; !! these two lexica for cases with
 
           +Pl:se        nom_t          ;
@@ -831,9 +831,9 @@ LEXICON x_42odd
  +Dial/Por+Pl:ss%>i2i   par_tA         ; ! ihmissiitä
 +Dial/-Por+Pl:s%>i2     par_A          ; ! ihmisiä
           +Pl:s         ill_hiin       ; ! ihmishiin
-          +Pl:s%>i2     ess_nn         ; !
+          +Pl:s%>i2     ess_nnA        ; !
  +Dial/Por+Pl:s%>i2     com_nne        ;
-+Dial/-Por+Pl:s%>i2     com_ne         ;
++Dial/-Por+Pl:s%>i2     com_nne        ;
           +Pl:s%>i2     sgpl_cases_odd ; !! the same affix in sg and pl
 
 LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
@@ -844,7 +844,7 @@ LEXICON n_42pl ! !!= @CODE@ tervheiset tervhei
 +Dial/-Por+N+Pl:s%>i2      par_A          ; ! tervhehisiä
 !      +N+Pl+Ill:sh%>i2in   K              ;
           +N+Pl:s          ill_hiin       ;
-          +N+Pl:se%>i2     ess_nn         ;
+          +N+Pl:se%>i2     ess_nnA        ;
           +N+Pl:s%>i2      com_nne        ; ! TODO onko tässä kaksi nn:ää?
           +N+Pl:s%>i2      sgpl_cases_odd ; !! the same affix in sg and pl
 
@@ -999,7 +999,7 @@ LEXICON ill_hiin ! NB USED 5 TIMES, always pl & either ^HMETAh%>i2i or ^HMETA%>h
  LEXICON ess_nA
   +Ess:%>n^A PxxK ;
 
- LEXICON ess_nn
+ LEXICON ess_nnA
   +Ess:%>nn^A PxxK ; ! Ess aina Eiran gramatiikin mukaan lyhytmuoto, Mutta Eira s. 38 kaupunkinna, tyttärennä
 
 
@@ -1157,8 +1157,8 @@ LEXICON PxxK  !!= @CODE@ has also -Vn, thus both .. llensa and ..lleen.
  !LEXICON obl_strong_odd
  !              nomgen_px ;
  !      +Pl:%>i2 com_ne    ;
- !      +Sg:         ess_nn           ;
- !      +Pl:%>i2     ess_nn           ;
+ !      +Sg:         ess_nnA          ;
+ !      +Pl:%>i2     ess_nnA          ;
 
  ! LEXICON nomgen_px
  ! +Sg+Nom:     Px        ; ! mattoni
