@@ -254,7 +254,8 @@ LEXICON x_22odd !!= * @CODE@  kajava
           +Pl:%^HMETA      ill_hiin       ;
           +Pl:%>i2         ess_nnA        ;
  +Dial/Por+Pl:%>i2         com_nne        ;
-+Dial/-Por+Pl:%>i2         com_ne         ;
+ +Dial/Var+Pl:%>i2         com_nne        ;
+ +Dial/Jok+Pl:%>i2         com_ne         ;
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
 
 
@@ -274,17 +275,19 @@ LEXICON x_22oddi
               +Sg:        ess_nnA         ;
 
               +Pl:^WG     nom_t           ;
-     +Dial/Por+Pl:^WG%>i2 sgpl_cases_even ; ! Adding  to block i:0
-    +Dial/-Por+Pl:^WG%>   sgpl_cases_odd  ; ! Adding  to block i:0
-     +Dial/Por+Pl:^WG%>i2 gen_tten        ;
-    +Dial/-Por+Pl:^WG%>   gen_tten        ;
-     +Dial/Por+Pl:%>i2    par_tA          ;
-    +Dial/-Por+Pl:%>      par_A           ;
+     +Pl+Dial/Por:^WG%>i2 sgpl_cases_even ; ! Adding  to block i:0
+    +Pl+Dial/-Por:^WG%>   sgpl_cases_odd  ; ! Adding  to block i:0
+     +Pl+Dial/Por:^WG%>i2 gen_tten        ;
+    +Pl+Dial/-Por:^WG%>   gen_tten        ;
+     +Pl+Dial/Por:%>i2    par_tA          ;
+    +Pl+Dial/-Por:%>      par_A           ;
               +Pl:^HMETA  ill_hiin        ;
-     +Dial/Por+Pl:%>i2      ess_nA           ;
-    +Dial/-Por+Pl:        ess_nnA         ;
-     +Dial/Por+Pl:%>i2      com_ne          ;
-    +Dial/-Por+Pl:        com_ne          ;
+     +Pl+Dial/Por:%>i2    ess_nA          ;
+     +Pl+Dial/Var:        ess_nnA         ;
+     +Pl+Dial/Jok:        ess_nnA         ;
+     +Pl+Dial/Por:%>i2    com_ne          ;
+     +Pl+Dial/Var:        com_nne         ;
+     +Pl+Dial/Jok:        com_nne         ;
 
 
 !  Tarkista, onko yaml oikein:
@@ -511,7 +514,7 @@ LEXICON n_32 !!= @CODE@ tytär, taival
         +N:    x_32 ;
  +N+Sg+Nom:^WG R    ;
 
-LEXICON x_32
+LEXICON x_32 ! tyven
       +Sg+Nom:^WG          K              ;
           +Sg:e            gen_n_sg       ;
           +Sg:e^WG         gen_n_sg       ;
@@ -523,18 +526,19 @@ LEXICON x_32
           +Pl:e            nom_t          ;
           +Pl:e^WG         nom_t          ;
  +Dial/Por+Pl:%>i%>i2      gen_tten       ; ! tyttäriitten
-+Dial/-Por+Pl:%>i%>        gen_tten       ; ! tyttäritten
++Dial/-Por+Pl:%>i%>        gen_tten       ; ! tyttäritten, mutta tyveniitten? TODO checking with Aili
  +Dial/Por+Pl:%>i2         par_V          ; ! tyttärii
  +Dial/Por+Pl:%>i%>i2      par_tA         ; ! tyttäriitä
 +Dial/-Por+Pl:%>i%>        par_A          ; ! tyttäriä
           +Pl:^HMETA       ill_hiin       ;
           +Pl:e%>i2        ess_nnA        ;
  +Dial/Por+Pl:e%>i2        com_nne        ;
-+Dial/-Por+Pl:e%>i2        com_ne         ;
+ +Dial/Var+Pl:e%>i2        com_nne        ;
+ +Dial/Jok+Pl:e%>i2        com_ne         ;
           +Pl:%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
 
-LEXICON n_32m !!= @CODE@ elläin elläi
+LEXICON n_32m !!= @CODE@ elläin elläi yđin ydin
         +N:     x_32m ;
  +N+Sg+Nom:^WGn R     ;
 
@@ -565,7 +569,8 @@ LEXICON x_32m_pl
           +Pl:m^HMETA       ill_hiin       ;
           +Pl:me%>i2        ess_nnA        ;
  +Dial/Por+Pl:m%>i2         com_nne        ;
-+Dial/-Por+Pl:m%>i2         com_ne         ;
+ +Dial/Var+Pl:m%>i2         com_nne        ;
+ +Dial/Jok+Pl:m%>i2         com_ne         ;
           +Pl:m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl, TODO check this <-
 
 LEXICON n_32s !!= @CODE@  sairhaus
@@ -588,7 +593,8 @@ LEXICON x_32s
           +Pl:ks^HMETA       ill_hiin          ;
           +Pl:ks%>i2         ess_nnA           ;
  +Dial/Por+Pl:ks%>i2         com_nne           ;
-+Dial/-Por+Pl:ks%>i2         com_ne            ;
+ +Dial/Var+Pl:ks%>i2         com_nne           ;
+ +Dial/Jok+Pl:ks%>i2         com_ne            ;
           +Pl:ks%>i2         sgpl_cases_odd    ; ! TODO wtf is this comm --> hmm, tämä menee pieleen, sg ≠ pl
 
 
@@ -752,7 +758,8 @@ LEXICON x_41
           +Pl:ks         ill_hiin       ;
           +Pl:kse%>i2    ess_nnA        ;
  +Dial/Por+Pl:kse%>i2    com_nne        ;
-+Dial/-Por+Pl:kse%>i2    com_ne         ;
+ +Dial/Var+Pl:kse%>i2    com_nne        ;
+ +Dial/Jok+Pl:kse%>i2    com_ne         ;
  ! +Pl+Par:%>ksii     K              ;
 
 !LEXICON s_kse

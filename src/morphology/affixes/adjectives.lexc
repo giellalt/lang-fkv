@@ -79,14 +79,17 @@ LEXICON a_22odd	!!= * @CODE@  simppeli, loistaava
          +A:      x_22odd       ;
          +A:      comp_mm       ;
          +A:%>i5i superl_m_even ;
-+A+Dial/Var:%>i5  superl_m_even ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
++A+Dial/Var:%>i5  superl_mm     ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
  !+A+Dial/Por+Pl+Comp+Gen:%>mm%>ii2tten K ;
 
 LEXICON a_23	!!= * @CODE@  pimmee
 +A+Dial/Por:      x_23         ;
-  +Dial/Jok:      a_23ea       ;
++A+Dial/Var:^¤    x_23ia       ;
++A+Dial/Jok:      a_23ea       ;
+
 +A+Dial/Por:e     comp_m_odd   ;
 +A+Dial/Por:e%>i2 superl_m_odd ;
+
 +A+Dial/Por+Sg+Superl:e%>i2    nom_n  ;
 +A+Dial/Por+Sg+Superl:e%>i2%>n par_tA ;
 
@@ -95,11 +98,11 @@ LEXICON a_23ii  !!= * @CODE@ auttii
     comp_m_odd  ;
 
 LEXICON a_23ea	!!= * @CODE@ pimeä. Is -Por verson of a_23, never called from stems/adjectives.lexc
-+A:^¤ x_23ia ; ! TODO Change ^¤ tag to a custom one
-+A:^¤%>^A comp_mm ;
-+A:^¤%>i5 superl_m_odd ;
-+A+Sg+Superl:^¤%>i2    nom_n  ;
-+A+Sg+Superl:^¤%>i2%>n par_tA ;
+  :^¤ x_23ia ; ! TODO Change ^¤ tag to a custom one
+  :^¤%>^A comp_mm ;
+  :^¤%>i5 superl_m_odd ;
+  +Sg+Superl:^¤%>i2    nom_n  ;
+  +Sg+Superl:^¤%>i2%>n par_tA ;
 
 
 LEXICON a_31	!!= * @CODE@  pieni
