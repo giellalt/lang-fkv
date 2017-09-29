@@ -82,7 +82,7 @@ LEXICON a_22odd	!!= * @CODE@  simppeli, loistaava
 +A+Dial/Var:%>i5  superl_mm     ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
  !+A+Dial/Por+Pl+Comp+Gen:%>mm%>ii2tten K ;
 
-LEXICON a_23	!!= * @CODE@  pimmee
+LEXICON a_23	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out as adjectives
 +A+Dial/Por:      x_23         ;
 +A+Dial/Var:^¤    x_23ia       ;
 +A+Dial/Jok:      a_23ea       ;
@@ -265,6 +265,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 
 +A:%>tt^Om^A comp_mm ;
 +A+Dial/Por:%>tt^Omi5  superl_m_even ;
++A+Dial/Var:%>tt^Omi5i superl_m_even ;
 +A+Dial/Jok:%>tt^Omi5i superl_m_even ;
 
 
