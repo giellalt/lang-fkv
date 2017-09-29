@@ -332,9 +332,9 @@ LEXICON x_23
           +Sg+Nom:e       K               ;
  +Sg+Nom+Err/Orth:%>%^A   K               ;
               +Sg:e       gen_n_sg        ;
-              +Sg:e       par_tA          ;
+    +Sg+Dial/-Var:e       par_tA          ;
               +Sg:e       ill_sseen       ;
-              +Sg:e       ess_nA           ;
+              +Sg:e       ess_nA          ;
               +Sg:e       sgpl_cases_even ;
 
               +Pl:e       nom_t           ;
@@ -391,7 +391,7 @@ LEXICON n_31        !!= @CODE@  kieli
         +N:     x_31 ;
  +N+Sg+Nom:^E2I R    ; ! ^E2I e to i
 
-LEXICON x_31
+LEXICON x_31 ! pieni
   +Sg+Nom:^E2I        K               ; ! ^E2I e to i
       +Sg:^EDEL       par_tA          ;
       +Sg:^WG         gen_n_sg        ;
@@ -407,9 +407,9 @@ LEXICON x_31
 +Dial/-Por+Pl:%>i2    gen_tten        ; ! kielitten, sienitten
 !     +Pl:%>i2        gen_Vn          ;
 !    !+Pl:^EDEL       gen_ten         ;
- +Dial/Por+Pl:%>i2    par_V           ; ! kielii
-+Dial/-Por+Pl:%>i2    par_A           ; ! kieliä
-          +Pl:%>i2    ess_nA           ;
++Dial/-Jok+Pl:%>i2    par_V           ; ! kielii, pienii
+ +Dial/Jok+Pl:%>i2    par_A           ; ! kieliä
+          +Pl:%>i2    ess_nA          ;
           +Pl:%>i2    com_ne          ;
 
 LEXICON n_31lumi       !!= @CODE@ lumi lu
@@ -641,22 +641,24 @@ LEXICON x_33as
 !        +N:             x_33aes           ;
 
 LEXICON x_33aes
-   +Sg+Nom:ä^WG%>s      K                 ;
-       +Sg:ä^WG%>s      par_tA            ;
-       +Sg:h%>ää        gen_n_sg          ;
-       +Sg:hää          ill_sseen         ;
-       +Sg:h%>ää        ess_nA             ;
-       +Sg:h%>ää        sgpl_cases_even   ;
-!    +Pl+Ill:h%>äissiin   K                 ;
+      +Sg+Nom:ä^WG%>s      K                 ;
+          +Sg:ä^WG%>s      par_tA            ;
+          +Sg:h%>ää        gen_n_sg          ;
+          +Sg:hää          ill_sseen         ;
+          +Sg:h%>ää        ess_nA            ;
+          +Sg:h%>ää        sgpl_cases_even   ;
+    !    +Pl+Ill:h%>äissiin   K                 ;
 
-       +Pl:h%>ää        nom_t             ;
-       +Pl:h%>ä%>i2     gen_tten          ;
-       +Pl:h%>ä%>i2     par_tA            ;
-       +Pl:h%>äi        ill_ssiin         ;
-       +Pl:h%>ä%>i2     ess_nA             ;
-       +Pl:h%>ää%>i2    ess_nA             ; ! TODO choose one
-       +Pl:h%>ä%>i2     com_ne            ;
-       +Pl:h%>ä%>i2     sgpl_cases_even   ;
+          +Pl:h%>ää        nom_t             ;
+          +Pl:h%>ä%>i2     gen_tten          ;
+          +Pl:h%>ä%>i2     par_tA            ;
++Dial/-Por+Pl:hä%>je       gen_n             ; ! sinnikkhäjen
++Dial/-Por+Pl:hä%>j        par_A             ; ! sinnikkhäjä
+          +Pl:h%>äi        ill_ssiin         ;
+          +Pl:h%>ä%>i2     ess_nA            ;
+          +Pl:h%>ää%>i2    ess_nA            ; ! TODO choose one
+          +Pl:h%>ä%>i2     com_ne            ;
+          +Pl:h%>ä%>i2     sgpl_cases_even   ;
 
 
 
