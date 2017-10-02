@@ -89,6 +89,8 @@ LEXICON a_23	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out as a
 
 +A+Dial/Por:e     comp_m_odd   ;
 +A+Dial/Por:e%>i2 superl_m_odd ;
++A+Dial/Var:^¤%>^A comp_mm ;
++A+Dial/Var:^¤%>i5 superl_m_odd ;
 
 +A+Dial/Por+Sg+Superl:e%>i2    nom_n  ;
 +A+Dial/Por+Sg+Superl:e%>i2%>n par_tA ;
@@ -145,7 +147,9 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 +A+Pl:%>m        gen_par_iitten ;
 +A+Pl:m^HMETA    ill_hiin       ;
 +A+Pl:m%>i2      ess_nnA        ;
-+A+Pl:m%>i2      com_ne         ;
++A+Pl+Dial/Por:m%>i2  com_nne        ;
++A+Pl+Dial/-Por:m%>i2 com_ne         ;
+
 +A+Pl:m%>i2      sgpl_cases_odd ; ! ≠
 
 +A:m^A  comp_mm       ;
@@ -264,7 +268,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A+Pl:%>tt^Om%>i2    sgpl_cases_odd ;
 
 +A:%>tt^Om^A comp_mm ;
-+A+Dial/Por:%>tt^Omi5  superl_m_even ;
++A+Dial/Por:%>tt^Omi5i superl_m_even ;
 +A+Dial/Var:%>tt^Omi5i superl_m_even ;
 +A+Dial/Jok:%>tt^Omi5i superl_m_even ;
 
@@ -392,7 +396,8 @@ LEXICON comp_onneton
 +Pl+Comp:%>m       gen_par_ppiita ;
 +Pl+Comp:%>mp      ill_hiin       ; ! used2be +Gen:se%>mm%>ii2tten K
 +Pl+Comp:%>mp%>i2  ess_nnA        ;
-+Pl+Comp:%>mp%>i2  com_ne         ;
++Pl+Comp+Dial/Por:%>mp%>i2  com_nne        ;
++Pl+Comp+Dial/-Por:%>mp%>i2 com_ne         ;
 +Pl+Comp:%>m%>i2   sgpl_cases_odd ;
 !+Pl+Comp+Gen:%>mpp%>i2%>in K ;
 !+Comp:%>m^A weak_v_stem ;
@@ -486,7 +491,8 @@ LEXICON superl_onneton
 +Pl+Superl:%>m          gen_par_ppiita ;
 +Pl+Superl:%>mp%>       ill_hiin       ; !used2be +Ill:%>mp%>h%>i2in K
 +Pl+Superl:%>mp%>i2     ess_nnA        ;
-+Pl+Superl:%>mp%>i2     com_ne         ;
++Pl+Superl+Dial/Por:%>mp%>i2     com_nne        ;
++Pl+Superl+Dial/-Por:%>mp%>i2    com_ne         ;
 +Pl+Superl:%>m%>i2      sgpl_cases_odd ;
 !+Sg+Superl+Nom:%>in K ;
 !+Superl:%>m^A weak_v_stem ;
