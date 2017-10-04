@@ -306,7 +306,7 @@ LEXICON x_43odd !!= * @CODE@ onneton
 +Sg:%>tt^Om^A      sgpl_cases_even   ;
 
 +Pl:%>tt^Om^A      nom_t             ;
-+Pl:%>tt^Omm       gen_par_iitten    ;
++Pl:%>tt^Om        gen_par_iitten    ;
 +Pl:%>tt^Om        ill_hiin          ; ! +Ill:%>tt^Omh%>i2in K
 +Pl:%>tt^Om%>i2    ess_nA            ;
 +Pl:%>tt^Om%>i2    com_ne            ;
@@ -414,7 +414,8 @@ LEXICON comp_mm
 !+A+Comp:%>m^A weak_v_stem ;
 
 +Pl+Comp:%>mm^A    nom_t           ; ! +Nom:%>mm^A%>t K ;
-+Pl+Comp:          gen_par_ppiita  ; ! TODO mm ?
++Pl+Comp:m         gen_par_ppiita  ; ! TODO mm Missing results: tyvenemmitten, Unexpected: tyvenemitten, tyvenemmiitten
+
 !  +Pl+Comp+Dial/Var:%>mm%>ii2    gen_tten ; ! used2be +Gen:%>mm%>ii2tten K
 !  +Pl+Comp+Dial/Jok:%>mm%>i2     gen_tten ; ! used2be +Gen:%>mm%>i2tten  K  ! i2 or i ?
 !  +Pl+Comp+Dial/Por:%>mpp%>i2%>i par_tA   ; ! +Par:%>mpp%>i2%>it^A K
@@ -510,9 +511,10 @@ LEXICON superl_mm
 +Sg+Superl:%>mm^A       sgpl_cases_even ;
 
 +Pl+Superl:%>mm^A       nom_t           ;
-+Pl+Superl:%>m%>ii2     gen_tten        ;
-+Pl+Superl:%>mpp%>i2%>i par_end         ;
-+Pl+Superl:%>mpp%>i2%>i par_tA          ;
++Pl+Superl+Dial/Por:%>m%>ii2    gen_tten        ;
++Pl+Superl+Dial/Var:%>mm%>i2    gen_tten        ;
++Pl+Superl+Dial/Por:%>mpp%>i2%>i par_end         ;
++Pl+Superl+Dial/Por:%>mpp%>i2%>i par_tA          ;
 +Pl+Superl+Dial/-Por:%>mp%>i2 par_A     ;
 +Pl+Superl:%>mp         ill_hiin        ; !used2be +Ill:%>mp%>h%>i2in K
 +Pl+Superl:%>mp%>i2     ess_nA          ;
@@ -524,7 +526,7 @@ LEXICON superl_mm
 
 LEXICON gen_par_ppiita
  +Dial/Por:%>i2%>i   gen_tten ;
-+Dial/-Por:%>i2      gen_tten ;
++Dial/-Por:m%>i2      gen_tten ;
  +Dial/Por:pp%>i2%>i par_end  ;
  +Dial/Por:pp%>i2%>i par_tA   ;
 +Dial/-Por:p%>i2     par_A    ;

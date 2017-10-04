@@ -349,7 +349,7 @@ LEXICON x_23ia ! For -Por only valkia, hopia, kauhia
           +Sg+Nom:%>^A         K               ; ! valkia
               +Sg:%>^A         gen_n_sg        ; ! valkian
               +Sg:%>^A         par_A           ; ! valkiaa
-              +Sg:%>^At        par_A           ; ! valkiata
+     +Sg+Dial/Jok:%>^At        par_A           ; ! valkiata
               +Sg:             ill_hAAn        ; ! valkihaan
               +Sg:%>^A         ess_nnA         ; ! valkianna pime^A>nn^A
               +Sg:%>^A         sgpl_cases_odd  ;
