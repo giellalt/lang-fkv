@@ -111,6 +111,7 @@ LEXICON a_31	!!= * @CODE@  pieni
 +A: x_31        ;
 +A: comp_m_odd  ;
 +A:^E2I%>i5 superl_m_odd ;
++A+Dial/Var:^E2I superl_m_odd ; ! No superl i? maybe e:0 and i5 would be more appropriate
 +A+Sg+Superl:^E2I%>i nom_n ;
 +A+Sg+Superl:^E2I%>in par_tA ;
 
@@ -118,6 +119,7 @@ LEXICON a_31si	!!= * @CODE@ uusi
 +A:         x_31si       ;
 +A:^WG      comp_m_odd   ;
 +A:^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n
++A+Dial/Var:^E2I superl_m_odd ; ! No superl i? maybe e:0 and i5 would be more appropriate
 +Dial/-Por+A+Sg+Superl:^E2I%>i  nom_n ; ! uussiin
 +Dial/-Por+A+Sg+Superl:^E2I%>in par_tA ;
 
@@ -125,7 +127,8 @@ LEXICON a_32 !!= * @CODE@ tyven
 +A:  x_32 ;
 +A:e comp_mm ;
 +A+Pl+Comp+Dial/-Jok:e%>mm%>ii2 gen_tten ; ! +Gen:e%>mm%>ii2tten K ; ! Kanskje -Por
-+A:ii superl_m_even ;
++A:i5i superl_m_even ;
++A+Dial/Var:i5 superl_m_even ;
 
 LEXICON a_32m !!= * @CODE@ irtain
 +A:   x_32m     ;
@@ -154,6 +157,7 @@ LEXICON a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 
 +A:m^A  comp_mm       ;
 +A:mi5i superl_m_even ;
++A+Dial/Var:mi5 superl_mm ;
 
 +A+Pl+Comp+Dial/Por:m^A%>mpp%>i2%>i gen_n ;
 +A+Pl+Superl+Dial/Var:mi5i%>mpp%>i2%>i gen_n ;
@@ -242,6 +246,7 @@ LEXICON a_42odd !!= * @CODE@ sininen
 
 +A+Dial/Por:ssi5i superl_m_even ;
 +A+Dial/Var:si5i  superl_m_even ;
++A+Dial/Var:si5   superl_mm     ;
 +A+Dial/Jok:si5i  superl_m_even ;
 
 +A+Pl+Comp+Dial/Por:se%>mm%>ii2 gen_tten ; ! +Gen:se%>mm%>ii2tten K ;
@@ -270,6 +275,7 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 +A:%>tt^Om^A comp_mm ;
 +A+Dial/Por:%>tt^Omi5i superl_m_even ;
 +A+Dial/Var:%>tt^Omi5i superl_m_even ;
++A+Dial/Var:%>tt^Omi5  superl_m_even ;
 +A+Dial/Jok:%>tt^Omi5i superl_m_even ;
 
 
@@ -290,7 +296,8 @@ LEXICON a_43 !!= * @CODE@ muuttumaton
 LEXICON a_43odd !!= * @CODE@ onneton
 +A: x_43odd ;
 +A:%>tt^Om^A comp_onneton ;
-+A:%>tt^Ommii superl_onneton ;
++A:%>tt^Ommi5i superl_onneton ;
++A+Dial/Var:%>tt^Ommi5 superl_onneton ;
 +A+Sg+Superl:%>tt^Ommi%>i nom_n ; ! used2be +Nom:%>tt^Ommi%>in
 +A+Sg+Superl:%>tt^Ommi%>in par_tA ;
 
@@ -526,7 +533,7 @@ LEXICON superl_mm
 
 LEXICON gen_par_ppiita
  +Dial/Por:%>i2%>i   gen_tten ;
-+Dial/-Por:m%>i2      gen_tten ;
++Dial/-Por:%>i2      gen_tten ;
  +Dial/Por:pp%>i2%>i par_end  ;
  +Dial/Por:pp%>i2%>i par_tA   ;
 +Dial/-Por:p%>i2     par_A    ;
