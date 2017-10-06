@@ -255,7 +255,7 @@ LEXICON x_22odd !!= * @CODE@  kajava
           +Pl:%>i2         ess_nnA        ;
  +Dial/Por+Pl:%>i2         com_nne        ;
  +Dial/Var+Pl:%>i2         com_nne        ;
- +Dial/Jok+Pl:%>i2         com_ne         ;
+ +Dial/Jok+Pl:%>i2         com_nne        ; !Jok loistaava
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
 
 
@@ -534,7 +534,7 @@ LEXICON x_32 ! tyven
           +Pl:e%>i2        ess_nnA        ;
  +Dial/Por+Pl:e%>i2        com_nne        ;
  +Dial/Var+Pl:e%>i2        com_nne        ;
- +Dial/Jok+Pl:e%>i2        com_ne         ;
+ +Dial/Jok+Pl:e%>i2        com_nne        ; ! jok: tyveninne
           +Pl:%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
 
