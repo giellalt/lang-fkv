@@ -115,12 +115,12 @@ LEXICON a_31	!!= * @CODE@  pieni
 +A+Sg+Superl:^E2I%>i nom_n ;
 +A+Sg+Superl:^E2I%>in par_tA ;
 
-LEXICON a_31si	!!= * @CODE@ uusi
+LEXICON a_31si	!!= * @CODE@ uusi. uussiin only por, always one s in Var
 +A:         x_31si       ;
 +A:^WG      comp_m_odd   ;
-+A:^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n
++A:^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n ! TODO Vssi remove uussiin context for -Por
 +A+Dial/Var:^E2I superl_m_odd ; ! No superl i? maybe e:0 and i5 would be more appropriate
-+Dial/-Por+A+Sg+Superl:^E2I%>i  nom_n ; ! uussiin
++Dial/-Por+A+Sg+Superl:^E2I%>i  nom_n ; ! uusiin
 +Dial/-Por+A+Sg+Superl:^E2I%>in par_tA ;
 
 LEXICON a_32 !!= * @CODE@ tyven
@@ -420,7 +420,11 @@ LEXICON comp_mm
 !+A+Comp:%>m^A weak_v_stem ;
 
 +Pl+Comp:%>mm^A    nom_t           ; ! +Nom:%>mm^A%>t K ;
-+Pl+Comp:m         gen_par_ppiita_mmitt  ; ! TODO mm Missing results: tyvenemmitten,muuttumattomammitten, Unexpected: tyvenemitten, tyvenemmiitten,
++Pl+Comp:m         gen_par_ppiita_mmitt  ; ! TODO mm Missing results: ,muuttumattomammitten, Unexpected: tyvenemitten, tyvenemmiitten,
+
+! Par Missing results: tyvenemmiitten  Unexpected results: tyvenemiitten
+! Jok unexptected:                                 tyvenemiitten  Generating correctly: tyvenemmitten
+! Var missing results: tyvenimmitten,  Unexpected: tyvenimitten   Generating correctly: tyveniimitten
 
 !  +Pl+Comp+Dial/Var:%>mm%>ii2    gen_tten ; ! used2be +Gen:%>mm%>ii2tten K
 !  +Pl+Comp+Dial/Jok:%>mm%>i2     gen_tten ; ! used2be +Gen:%>mm%>i2tten  K  ! i2 or i ?
