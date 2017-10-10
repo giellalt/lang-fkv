@@ -407,8 +407,8 @@ LEXICON x_31 ! pieni
 +Dial/-Por+Pl:%>i2    gen_tten        ; ! kielitten, sienitten
 !     +Pl:%>i2        gen_Vn          ;
 !    !+Pl:^EDEL       gen_ten         ;
-+Dial/-Jok+Pl:%>i2    par_V           ; ! kielii, pienii
- +Dial/Jok+Pl:%>i2    par_A           ; ! kieliä
+ +Dial/Por+Pl:%>i2    par_V           ; ! kielii, pienii
++Dial/-Por+Pl:%>i2    par_A           ; ! kieliä, pieniä
           +Pl:%>i2    ess_nA          ;
           +Pl:%>i2    com_ne          ;
 
