@@ -19,8 +19,8 @@ LEXICON HYVA
 +A+Sg+Superl+Nom:paras K ;
 ! TODO the rest of paras to be written.
 
-LEXICON VANH
 
+LEXICON VANH
 +A+Sg+Nom:a K ;
  +A: vanha_x_1pl ; ! ai to oi doesn't work yet
 ! yksiköt ovat nämä, vanha_x_1 -sestä otettu:
@@ -56,8 +56,11 @@ LEXICON vanha_nocomp_a_21  !!= * @CODE@
 +A:           vanha_x_21         ;
 
 LEXICON vanha_a_21  !!= * @CODE@ siisti
-          +A:           vanha_x_21         ;
+          +A:           vanha_x_21   ;
+
           +A:^AE^WG     comp_m_odd   ;
++A+Pl+Comp+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
+
           +A:^AE^WG%>i5 superl_m_odd ;
  +A+Dial/Var:^AE^WG%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
 
@@ -150,8 +153,8 @@ LEXICON vanha_a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 +A+Pl:%>m        gen_par_iitten ;
 +A+Pl:m^HMETA    ill_hiin       ;
 +A+Pl:m%>i2      ess_nnA        ;
-+A+Pl+Dial/-Var:m%>i2  com_nne        ; ! lämpiminne
 +A+Pl+Dial/Var:m%>i2 com_ne         ;
++A+Pl+Dial/-Var:m%>i2  com_nne        ; ! lämpiminne
 
 +A+Pl:m%>i2      sgpl_cases_odd ; ! ≠
 
@@ -186,7 +189,7 @@ LEXICON vanha_a_33ys !!= * @CODE@ kärys
 +A:    vanha_x_33ys       ;
 +A:hyy comp_m_odd   ;
 +A:hyi superl_m_odd ;
-! comp, superl, puuttuvat
+
 
 LEXICON vanha_x_33ys ! TODO DELETE THIS PROBABLy! ONLY ONE WORD, kärys, IS IN IT
    +Sg+Nom:%>y^WG%>s    K                 ;
@@ -199,7 +202,7 @@ LEXICON vanha_x_33ys ! TODO DELETE THIS PROBABLy! ONLY ONE WORD, kärys, IS IN I
        +Pl:h%>y%>i2     gen_tten          ;
        +Pl:h%>y%>i2     par_tA            ;
        +Pl:h%>yi        ill_ssiin         ;
- +N+Pl+Ess:h%>y%>i2%>ny PxxK              ; ! not to ess n pecause of the y??
+   +Pl+Ess:h%>y%>i2%>ny PxxK              ; ! not to ess n pecause of the y??
        +Pl:h%>y%>i2     com_ne            ;
        +Pl:h%>y%>i2     sgpl_cases_even   ;
 
@@ -224,7 +227,7 @@ LEXICON vanha_a_33y !!= * @CODE@ väsyny:väsyn ! perfect participle
 +A: PRFPRC_OBL  ;
 
 LEXICON vanha_a_41 !!= * @CODE@ = veres
-+A:    vanha_x_41         ;
++A:    vanha_x_41   ;
 +A:kse comp_m_odd   ;
 +A:ksi superl_m_odd ; ! Do they have superl? TODO
 
@@ -440,6 +443,14 @@ LEXICON comp_mm
 !+Pl+Comp+Dial/Por:%>mm%>ii2 gen_tten ; ! used2be +Gen:%>mm%>ii2tten K ;
 
 
+LEXICON gen_par_ppiita_mmitt
+ +Dial/Por:%>i2%>i   gen_tten ;
++Dial/-Por:m%>i2     gen_tten ; ! muuttumattomammitten
+ +Dial/Por:pp%>i2%>i par_end  ;
+ +Dial/Por:pp%>i2%>i par_tA   ;
++Dial/-Por:p%>i2     par_A    ;
+
+
 LEXICON superl_m_even
 +Sg+Superl:%>mp^A   ess_nA          ; !+Ess:%>mp^A%>n^A    K ;
 +Sg+Superl:%>m^A    sgpl_cases_even ;
@@ -543,12 +554,6 @@ LEXICON gen_par_ppiita
  +Dial/Por:pp%>i2%>i par_tA   ;
 +Dial/-Por:p%>i2     par_A    ;
 
-LEXICON gen_par_ppiita_mmitt
- +Dial/Por:%>i2%>i   gen_tten ;
-+Dial/-Por:m%>i2     gen_tten ; ! muuttumattomammitten
- +Dial/Por:pp%>i2%>i par_end  ;
- +Dial/Por:pp%>i2%>i par_tA   ;
-+Dial/-Por:p%>i2     par_A    ;
 
 LEXICON gen_par_iitten
  +Dial/Por:%>i2%>i   gen_tten ; !onnettomiitten
