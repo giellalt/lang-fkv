@@ -122,13 +122,20 @@ LEXICON vanha_x_21_oblique
  +Dial/Por+Pl:^AO%>i2          gen_n           ; ! gen_n         since we have the i
 +Dial/-Por+Pl:^AO^WG%>i2       gen_tten        ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
  +Dial/Por+Pl:^AO%>i2          par_end         ;
- +Dial/Var+Pl:^AO%>j           par_A           ;
+ +Dial/Var+Pl:^AO%>j           par_A           ; ! Use i:j in twolc j, see below
 +Dial/-Por+Pl:^AO%>i2          par_A           ;
           +Pl:^AO^HMETA        ill_hVin        ; ! sykshyin
-          +Pl:^AO%>i2          ess_nA           ;
+          +Pl:^AO%>i2          ess_nA          ;
           +Pl:^AO%>i2          com_ne          ;
  +Dial/Por+Pl:^AO^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
 +Dial/-Por+Pl:^AO^WG%>i2       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
+
+
+![15/25][FAIL] kuva+N+Pl+Par => Missing results: kuvia
+![15/25][FAIL] kuva+N+Pl+Par => Unexpected results: kuvaja, kuvaia
+![15/25][FAIL] linna+N+Pl+Par => Missing results: linnoja
+![15/25][FAIL] linna+N+Pl+Par => Unexpected results: linnaja, linnoia
+
 
 
 LEXICON vanha_n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo, kasvot
