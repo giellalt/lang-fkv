@@ -17,73 +17,76 @@ redirected to a common x_ lexicon in the noun file.
 
 
 
- * LEXICON nocompa_21  
+ * LEXICON vanha_nocomp_a_21  
 
- * LEXICON a_21   siisti
-
-
-
-
- * LEXICON a_22	  liberaali
-
- * LEXICON a_22odd	  simppeli, loistaava
-
- * LEXICON a_23	  pimmee
-
- * LEXICON a_23ii   auttii
-
- * LEXICON a_23ea	 pimeä. Is -Por verson of a_23, never called from stems/adjectives.lexc
-
-
- * LEXICON a_31	  pieni
-
- * LEXICON a_31si	 uusi
-
- * LEXICON a_32  tyven
-
- * LEXICON a_32m  irtain
-
- * LEXICON a_32ma  vasen sg taipuu kuitenki -ma, lämmin:lämpi
+ * LEXICON vanha_a_21   siisti
 
 
 
 
+ * LEXICON vanha_a_22	  liberaali
 
- * LEXICON a_33as  raskas
+ * LEXICON vanha_a_22odd	  simppeli, loistaava
 
- * LEXICON a_33aes  sinnikäs
-
-
- * LEXICON a_33is  valmis, kaunis
-
-
- * LEXICON a_33ys  kärys
+ * LEXICON vanha_a_23	  pimmee, valkkee, kauhhee, hoppee ! TODO sort out as adjectives
 
 
 
+ * LEXICON vanha_a_23ii   auttii
 
- * LEXICON a_33t  tuoret
+ * LEXICON vanha_a_23ea	 pimeä. Is -Por verson of vanha_a_23, never called from stems/adjectives.lexc
 
- * LEXICON a_33u  vaipunu:vaipun ! perfect participle
 
- * LEXICON a_33y  väsyny:väsyn ! perfect participle
+ * LEXICON vanha_a_31	  pieni
 
- * LEXICON a_41  = veres
+ * LEXICON vanha_a_31si	 uusi. uussiin only por, always one s in Var
+
+ * LEXICON vanha_a_32  tyven
+
+ * LEXICON vanha_a_32m  irtain
+
+ * LEXICON vanha_a_32ma  vasen sg taipuu kuitenki -ma, lämmin:lämpi
 
 
 
 
 
- * LEXICON a_42  varovainen
+
+ * LEXICON vanha_a_33as  raskas
+
+ * LEXICON vanha_a_33aes  sinnikäs
 
 
- * LEXICON a_42odd  sininen
+ * LEXICON vanha_a_33is  valmis, kaunis
+
+
+ * LEXICON vanha_a_33ys  kärys
+
+
+
+
+ * LEXICON vanha_a_33t  tuoret
+
+ * LEXICON vanha_a_33u  vaipunu:vaipun ! perfect participle
+
+ * LEXICON vanha_a_33y  väsyny:väsyn ! perfect participle
+
+ * LEXICON vanha_a_41  = veres
+
+
+
+
+
+ * LEXICON vanha_a_42  varovainen
+
+
+ * LEXICON vanha_a_42odd  sininen
 
 
 
  LEXICON MATON  ! TODO ajattelemattomalle lle lla nna
 
- * LEXICON a_43  muuttumaton
+ * LEXICON vanha_a_43  muuttumaton
 
 
 
@@ -91,11 +94,12 @@ redirected to a common x_ lexicon in the noun file.
 
 
 
- * LEXICON a_43odd  onneton
+ * LEXICON vanha_a_43odd  onneton
+
 
  LEXICON MATONodd  ! käymättömäle le la na
 
- * LEXICON x_43odd  onneton
+ * LEXICON vanha_x_43odd  onneton
 
 
 
@@ -108,6 +112,11 @@ Most cases are directed to affixes/nouns.lexc
 
 
 !!Lexica for the non-uniform cases
+
+
+
+
+
 
 
 
