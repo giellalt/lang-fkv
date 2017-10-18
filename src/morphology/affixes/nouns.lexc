@@ -332,7 +332,8 @@ LEXICON vanha_x_22oi
 
 LEXICON vanha_n_23        !!= * @CODE@  hoppee
       +N+Dial/Por:        vanha_x_23            ;
-     +N+Dial/-Por:^E2I^¤  vanha_x_23ia          ; ! TODO TODO TODO TWOLC triggeri joka poistaa yhden Cns ja 1 Vow!
+      +N+Dial/Var:^E2I^¤  vanha_x_23ia          ;
+      +N+Dial/Jok:^¤      vanha_x_23ia          ; ! hopea, not hopi
  ! +N+Sg+Nom:   R     Is this extra and wrong?
 
 LEXICON vanha_x_23
