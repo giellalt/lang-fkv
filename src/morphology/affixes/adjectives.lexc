@@ -561,8 +561,8 @@ LEXICON gen_mii/mitten_miin
 ! Par groupings for dialect
 
 LEXICON par_pA/A_group
-            +Dial/Por:%>mpp^A   par_A   ; ! -mppää on por
-            +Dial/-Por:%>mp^A   par_A   ; ! ja -mpää on jok & var - Aili 29.8.17
+            +Dial/Por:p^A   par_A   ; ! -mppää on por
+            +Dial/-Por:^A   par_A   ; ! ja -mpää on jok & var - Aili 29.8.17
 
 
 LEXICON par_ppii_group
@@ -576,4 +576,4 @@ LEXICON par_ii_group
             +Dial/-Por:i2       par_A    ; ! onnettomia
 
 LEXICON nom_mpi
-              +Nom:%>mpi K ;
+            +Nom:%>mpi K ;
