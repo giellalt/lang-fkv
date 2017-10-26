@@ -1,10 +1,10 @@
-
 Affix file for Kven adjectives
 
-!!!The basic lexica
+!!!The base lexica
 
-Each a_ lexicon gets the +A tag and is then
-redirected to a common x_ lexicon in the noun file.
+Each a_ lexicon gets the +A tag and is then redirected to
+a common x_ lexicon in the noun file, while compar and superl are here.
+
 
 
 
@@ -34,6 +34,7 @@ redirected to a common x_ lexicon in the noun file.
 
 
 
+
  * LEXICON vanha_a_23ii   auttii
 
  * LEXICON vanha_a_23ea	 pimeä. Is -Por verson of vanha_a_23, never called from stems/adjectives.lexc
@@ -48,7 +49,6 @@ redirected to a common x_ lexicon in the noun file.
  * LEXICON vanha_a_32m  irtain
 
  * LEXICON vanha_a_32ma  vasen sg taipuu kuitenki -ma, lämmin:lämpi
-
 
 
 
@@ -87,10 +87,11 @@ redirected to a common x_ lexicon in the noun file.
 
 
 
+
  LEXICON MATON  ! TODO ajattelemattomalle lle lla nna
 
- * LEXICON vanha_a_43  muuttumaton
 
+ * LEXICON vanha_a_43  muuttumaton
 
 
 
@@ -115,6 +116,12 @@ Most cases are directed to affixes/nouns.lexc
 
 
 !!Lexica for the non-uniform cases
+
+
+
+
+
+
 
 
 
