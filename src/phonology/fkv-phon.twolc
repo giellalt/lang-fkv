@@ -644,10 +644,8 @@ k3:0 <=> u o _ a %^WG: ;
 "k:v"
 k:v <=> [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
        \i [o|ö|u|y] _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! ruoka
-              [o|ö] _  e:          (Dummy:) (:i) (Dummy:) %^WG:0 ;
+              [o|ö] _  e:          (Dummy:) (:i) (Dummy:) %^WG:0 ; ! TODO not in joen VAR
                i u  _  a           (Dummy:) (:i) (Dummy:) %^WG:0 ; !kiukhaan:kiuvas
-
-
 
 !!€ ruoka^WG>n
 !!€ ruova0>n
@@ -657,6 +655,9 @@ k:v <=> [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 !!€ koko^WG>t^A
 !!€ kovo0>ta
+
+! "k:0" for joke -> joen in VAR! TODO
+! k:0 <=> [o|ö] _ e: %^¤:0 (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 
 "Gradation nk:ng"
