@@ -163,7 +163,8 @@ LEXICON vanha_x_21pl        !!= * @CODE@
 ! +Par:%>kk%>i2 # ; ! kk ?? Tsekkaa..
 
 LEXICON vanha_n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi, suomi
-+N         :     vanha_x_21ie ;
++N:     vanha_x_21ie ;
+!+N+Dial/Var:^¤   vanha_x_21ie ; TODO for joen VAR, needs to not break other stuff
 +N+Sg      :^E2I nom_R     ; ! ^EI e to i
 
 LEXICON vanha_x_21ie
