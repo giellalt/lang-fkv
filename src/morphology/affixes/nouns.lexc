@@ -130,12 +130,41 @@ LEXICON vanha_x_21_oblique
   +Pl+Dial/Por:^AO^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
   +Pl+Dial/-Por:^AO^WG%>i2       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
 
-
 ![15/25][FAIL] kuva+N+Pl+Par => Missing results: kuvia
 ![15/25][FAIL] kuva+N+Pl+Par => Unexpected results: kuvaja, kuvaia
 ![15/25][FAIL] linna+N+Pl+Par => Missing results: linnoja
 ![15/25][FAIL] linna+N+Pl+Par => Unexpected results: linnaja, linnoia
 
+
+LEXICON vanha_n_21i        !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks, aika, vartalo, kuva, linna, pappi
++N         : vanha_x_21i ;
++N+Sg      : nom_R   ;
++N+Sg      : nom_end            ;
+
+
+LEXICON vanha_x_21i ! pappi, tooli, lyhyt vokali, loppuu i:llä
+
+
+  +Sg      :^WG              gen_n_sg        ;
+  +Sg+Dial/Por:                 par_V           ;
+  +Sg+Dial/-Por:                 par_A           ;! in var should be poikaa with one k
+  +Sg      :^HMETA           ill_hVVn        ;
+  +Sg      :                 ess_nA          ;
+  +Sg      :^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
+
+  +Pl      :^WG              nom_t           ;
+  +Pl+Dial/Por:^AO%>i2          gen_n           ; ! gen_n         since we have the i
+  +Pl+Dial/-Por:^AO^WG       gen_tten        ;
+  +Pl+Dial/Por:^AO%>i2          par_end         ;
+!  +Pl+Dial/Var:^AO%>j           par_A           ; ! Use i:j in twolc j, see below
+  +Pl+Dial/-Por:^AO          par_A           ;
+  +Pl      :^AO^HMETA        ill_hVin        ;
+  +Pl+Dial/Por:^AO%>i2          ess_nA          ;
+  +Pl+Dial/-Por:^AO          ess_nA          ;
+  +Pl+Dial/Por:^AO%>i2          com_ne          ;
+  +Pl+Dial/-Por:^AO          com_ne          ;
+  +Pl+Dial/Por:^AO^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
+  +Pl+Dial/-Por:^AO^WG       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
 
 
 LEXICON vanha_n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo, kasvot
