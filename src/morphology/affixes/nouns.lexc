@@ -136,7 +136,7 @@ LEXICON vanha_x_21_oblique
 ![15/25][FAIL] linna+N+Pl+Par => Unexpected results: linnaja, linnoia
 
 
-LEXICON vanha_n_21i        !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks, aika, vartalo, kuva, linna, pappi
+LEXICON vanha_n_21i ! pappi, tooli, lyhyt vokali, loppuu i:llä
 +N         : vanha_x_21i ;
 +N+Sg      : nom_R   ;
 +N+Sg      : nom_end            ;
