@@ -3,71 +3,56 @@
 
 LEXICON NounRoot !!= @CODE@
 
-!! Leksikkonimet Eiran mukaan
-!! * n1 Eira 1
-!! * n12 Eira 1.1 etc
-!! Luokat vanha_n_21 n12 vanha_n_22 vanha_n_22odd vanha_n_32 vanha_n_32s vanha_n_32m vanha_n_1 vanha_n_23 vanha_n_33as n-33is vanha_n_33t vanha_n_41 vanha_n_42 vanha_n_42odd Eiran v. 2009 mukaan
-!nytest
+
+!!  Nomenityypit s.147 (Eira published book 2014)
 
 
-!!  Nomenityypit s.147 (Eira published)
+!! TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 
-!! Kaksitavuiset lyhykäisvokaaliset rangat     eli tyyppi 1
-  !! ** 2.1 Kaksitavuiset ( aika, pappi, juoppo )			 	    = n_11 ! vanha_n_21
-  !! *** 2.1.2. Kaksitavuiset (joki: joke )         = vanha_n_21ie
-  !! ** 3.1 Kaksitavuiset ( pieni, kieli )		   		= n_12 ! vanha_n_31
-  !! ** 3.1.2. ( käsi, vuosi )					   		= n_12_si ! vanha_n_31si
-  !! ** 3.1.3. ( lapsi )		 	         	   		= n_12_lapsi ! vanha_n_31lapsi
+    !! ** 2.1 Kaksitavuiset ( aika, pappi, juoppo )			 	        = n_11        ! vanha_n_21
+    !! *** 2.1.1. Kaksitavuiset monikko (housut )   	            = n_11_pl     ! vanha_n_21pl
+    !! *** 2.1.2. Kaksitavuiset (joki: joke )                     = n_11_ie     ! vanha_n_21ie
 
-
-!! Usheempitavuiset lykyäisvokaaliset rangat   eli tyyppi 2
-  !! *** 2.2.2. Usseempitav. monikko oi ( kulkkiija, sivakka )	= n_21_oi     ! vanha_n_22oi
-  !! *** 2.2.1. Usseempitav. odd ( kajava )	       	            = n_21_odd    ! vanha_n_22odd
-  !! *** 2.2.1. Usseempitav. odd ( meininki, tunturi )	        = n_21_oddi   ! vanha_n_22oddi
-  ! paijukko
-  ! valkea (ei valkkee!! Vaan valkea~valkia, valkea/nna, -eina)
-
-  !! ** 3.2 Usseempitavuiset ( tytär )
-  !! *** 3.2.1 ( tytär, taival, paimen )                   		  = n_22        ! vanha_n_32
-  !! *** 3.2.2. ( elläin: elläimen)                		          = n_22_m      ! vanha_n_32m
-  ! onneton
-  !! *** 3.2.3. (rakkhaus)					   		                      = n_22_s      ! vanha_n_32s
-  !! ** 4.1 veres-nominit ( veres, kokkous)	   		              = n_22_JOTAIN ! vanha_n_41
-  !! *** 4.2.2 -inen-nominit odd (vihrinen / ihminen)	   		    = n_22_JOTAIN ! vanha_n_42odd = nen
-  !! ** 4.1.1. veres-nominit monikko ( veljekset)		            =             ! vanha_n_41pl
-  !! ** 4.2 –inen-nominit ( kainulainen)		   		              =             ! vanha_n_42 = nen
-  !! *** 4.2.1 -inen-nominit Pl (tervheiset)	   		            =             ! vanha_n_42pl = nen
+    !! ** 3.1 Kaksitavuiset ( pieni, kieli )		   		            = n_12        ! vanha_n_31
+    !! ** 3.1.2. ( käsi, vuosi )					   		                  = n_12_si     ! vanha_n_31si
+    !! ** 3.1.3. ( lapsi )		 	         	   		                  = n_12_lapsi  ! vanha_n_31lapsi
+    !! ** 3.1.1. lumi:lumen:lunta                  		            = n_12_m      ! vanha_n_31m
+    !! ** 3.1.4. ( mies )			         		   		                  = n_12_mies   ! vanha_n_31mies
 
 
-!! Pitkävokaaliset rangat                      eli tyyppi 3
-  !! * 1. Yksitavuiset / Vi ( maa, yö )		 	                    = n_31        ! vanha_n_1
-  !! * 1.1 Yksitavuiset / ai ( tuorestai )		 	                = n_31_ai     ! vanha_n_1ai
-  !! ** 2.3 Kokkoontumanom. ( valkkee,)	      	 	              = n_31_JOTAIN ! vanha_n_23
-  !! ** 2.3.1 Kokkoontumanom. ( assii, laattii )    		 	      = n_31_ii     ! vanha_n_23ii
+!! TYYPPI 2: Usheempitavuiset lykyäisvokaaliset rangat
 
-  !! ** 3.3.5 (kirves)						   		            = n_32 ! vanha_n_33ts
+    !! ** 2.2. Usseempitav. ( opettaaja )		     	 	              = n_21        ! vanha_n_22
+    !! *** 2.2.2. U.tav. monikko oi (kulkkiija,sivakka,paijukko )	= n_21_oi     ! vanha_n_22oi
+    !! *** 2.2.1. Usseempitav. odd ( kajava )	       	            = n_21_odd    ! vanha_n_22odd
+    !! *** 2.2.1. Usseempitav. odd ( meininki, tunturi )	        = n_21_oddi   ! vanha_n_22oddi
+    ! valkea (ei valkkee!! Vaan valkea~valkia, valkea/nna, -eina) TODO check diff and add to yaml&fst
+
+    !! ** 3.2 Usseempitavuiset ( tytär )
+    !! *** 3.2.1 ( tytär, taival, paimen )                   		  = n_22        ! vanha_n_32
+    !! *** 3.2.2 ( elläin: elläimen)                		          = n_22_m      ! vanha_n_32m
+    !! ** 4.3  ton-adjektiivit (onneton:onne)                     =             ! vanha_a_43odd
+    !! *** 3.2.3 (rakkhaus)					   		                        = n_22_s      ! vanha_n_32s
+    !! ** 4.1 veres-nominit ( veres, kokkous)	   		              = n_22_JOTAIN ! vanha_n_41
+    !! *** 4.2.2 -inen-nominit odd (vihrinen / ihminen)	   		    = n_22_JOTAIN ! vanha_n_42odd
+    !! ** 4.1.1 veres-nominit monikko ( veljekset)		            =             ! vanha_n_41pl
+    !! ** 4.2 –inen-nominit ( kainulainen)		   		              =             ! vanha_n_42
+    !! *** 4.2.1 -inen-nominit Pl (tervheiset)	   		            =             ! vanha_n_42pl
 
 
+!! TYYPPI 3: Pitkävokaaliset rangat
 
+    !! * 1. Yksitavuiset / Vi ( maa, yö )		 	                    = n_31        ! vanha_n_1
+    !! * 1.2. Yksitavuiset monikko/ Vi ( häät )		  	            = n_31_pl     ! vanha_n_1pl
+    !! * 1.1 Yksitavuiset / ai ( tuorestai )		 	                = n_31_ai     ! vanha_n_1ai
+    !! ** 2.3 Kokkoontumanom. ( valkkee,)	      	 	              = n_31_JOTAIN ! vanha_n_23
+    !! ** 2.3.1 Kokkoontumanom. ( assii, laattii )    		 	      = n_31_ii     ! vanha_n_23ii
 
-!! ei luokiteltu vielä uuden kirjan mukaan
-!! * 1.2. Yksitavuiset monikko/ Vi ( häät )		  	= vanha_n_1pl
-
-!! * 2. Vokaalirankaiset						 	            =
-!! *** 2.1.1. Kaksitavuiset monikko (housut )   	= vanha_n_21pl
-!! ** 2.2. Usseempitav. ( opettaaja )		     	 	  = vanha_n_22
-
-!! * 3. Konsonanttirankaiset
-!! ** 3.1.1. lumi:lumen:lunta                  		= vanha_n_31m
-!! ** 3.1.4. ( mies )			         		   		= vanha_n_31mies
-!! ** 3.3 Kokkoontumanom. ( opas, huonet)
-!! ** 3.3.1 (opas)                             		= vanha_n_33as
-!! ** 3.3.2 (asukas)                           		= vanha_n_33as
-!! ** 3.3.3. (ruvis)                           		= vanha_n_33is
-!! ** 3.3.4 (huonet)                           		= vanha_n_33t
-
-!! * 4. Ekstrakonsonanttirankaiset
-
+    !! ** 3.3.1 (opas) & 3.3.2 (asukas) & rakas                   = n_32_as     ! vanha_n_33as
+    !! ** 3.3.3 (ruvis, kaunis)                           		    = n_32_is     ! vanha_n_33is
+    !! ** 3.3.4 (huonet, hyljet, perkele)                         = n_32_ts     ! vanha_n_33t
+    !! ** 3.3.5 (kirves)						   		                        = n_32_ts     ! vanha_n_33ts
+    ! kuolu:kuol                                                  = n_33_u      ! vanha_a_33u ;
 
 
 
