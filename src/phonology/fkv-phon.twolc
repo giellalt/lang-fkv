@@ -940,11 +940,13 @@ j:0 <=> l _ e: %^E2I:0 ;
 !!€ ove^E2I
 !!€ ovi0
 
-"e:i in n_23ia kauhia hopia"
+"e:i in n_23ia kauhia hopia in Var"
 !! __@RULENAME@__
- e:i <=> Cns Vowel (Vowel) ([n|l|r]) Cns Cns:0 _ %^E2I:0 %^¤:0 %> [ %^A: | h ]; ! E2I is for e:i hoppe^E2I^¤>^A -> hopia, kauhia
-!         k    a      u     h    h   e   ^E2I     ^¤    %>^A
-! TODO Write tests
+ e:i <=> Cns Vowel (Vowel) ([n|l|r]) Cns (Cns:0) _ %^E2I:0 %^¤:0 %> [ %^A: | h ]; ! E2I is for e:i hoppe^E2I^¤>^A -> hopia, kauhia
+! TODO Write more tests, with Cns:0 (specifically k:0) when sorted out which are truly adj.
+!!€ kauhe^E2I^¤>^A
+!!€ kauhi00>a
+! TODO for pimiä to work, need m:0 (lots of Cns:0 in fact) or different stems all over.
 
 "e:0 in consonant stems and illative plural"
 !! __@RULENAME@__
