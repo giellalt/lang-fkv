@@ -96,13 +96,13 @@ LEXICON vanha_a_22odd	!!= * @CODE@  simppeli, loistaava
 LEXICON vanha_a_23	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out as adjectives
 +A+Dial/Por:      vanha_x_23         ;
 +A+Dial/Var:^E2I^¤    vanha_x_23ia       ;
-+A+Dial/Jok:      vanha_a_23ea       ;
++A+Dial/Jok:      vanha_a_23ea       ; ! Jok comp and superls is here
 
 +A+Dial/Por:e     comp_m_odd   ;
-+A+Dial/Var:^¤%>^A comp_mm ;
++A+Dial/Var:^E2I^¤%>^A comp_mm ;
 
 +A+Dial/Por:e%>i2 superl_m_odd ;
-+A+Dial/Var:^¤%>i5 superl_m_odd ;
++A+Dial/Var:^¤%>i5 superl_m_odd ; ! not E2I because pimeimän
 
 +A+Sg+Superl+Dial/Por:e%>i2    nom_n  ;
 +A+Sg+Superl+Dial/Por:e%>i2%>n par_tA ;
@@ -111,7 +111,7 @@ LEXICON vanha_a_23ii  !!= * @CODE@ auttii
 +A                : vanha_x_23ii ;
                     comp_m_odd   ;
 
-LEXICON vanha_a_23ea	!!= * @CODE@ pimeä. Is -Por verson of vanha_a_23, never called from stems/adjectives.lexc
+LEXICON vanha_a_23ea	!!= * @CODE@ pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
                   :^¤ vanha_x_23ia ; ! TODO Change ^¤ tag to a custom one
                   :^¤%>^A comp_mm ;
                   :^¤%>i5 superl_m_odd ;
