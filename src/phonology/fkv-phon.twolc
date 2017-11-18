@@ -21,6 +21,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^HMETA:0                 !!= * @CODE@ h metateesi sykshyyn
 %^WG:0                    !!= * @CODE@ weak grade hatun
 %^E2I:0                   !!= * @CODE@ e to i in nom ove : ovi
+%^A2I:0                   !!= * @CODE@ a to i in opettajine (Var)
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
 %^AE:0                    !!= * @CODE@ -- a to e lauletaan
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
@@ -56,7 +57,7 @@ ArchiCns = %^N ;                                            !!= * @CODE@
 SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@
 Segment = Vowel Cns ;                                       !!= * @CODE@
-Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  !!= * @CODE@
+Dummy = %+ %^WG %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@
 NE = %> n e ;
@@ -1094,8 +1095,9 @@ a:o <=> [#:|.#.] RoundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^WG:
 "a:i in 3-syll stems with long a and i"
 !! __@RULENAME@__
 !a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
-a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll
-   [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _ %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! kuvviin kuvvii, ruokaruokhiin, poi6ka poikhiin
+a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instead of a a to catch all cases? Which could be missing?
+        Vowel Cns Cns:* a   j _ (%^WG:) %^A2I:0 %> ; ! Var TODO need Vowel instead of a a to catch all cases? Which could be missing? opettajine
+        [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _ %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! kuvviin kuvvii, ruokaruokhiin, poi6ka poikhiin
 !             p               oi6ka^AO%>i2
 !  [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, ruoka ruokhiin, poi6ka poikhiin
 
