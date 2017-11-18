@@ -234,14 +234,9 @@ LEXICON vanha_x_22 !liberaali
   +Sg      :^WG      sgpl_cases_even    ; ! the same affix in sg and pl
 
 
-
-  +Pl+Dial/Por:^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
-  +Pl+Dial/-Por:^WG%>    sgpl_cases_even    ; ! Adding  to block i:0 karamellitten
-
   +Pl      :^WG      nom_t              ; ! liberaalit
            :         vanha_x_22_pl_por        ;
            :         vanha_x_22_pl_var        ;
-
 
         !   +Pl:^WG%>i2       gen_tten           ;
         !   +Pl:%>i2          par_tA             ;
@@ -254,15 +249,20 @@ LEXICON vanha_x_22_pl_por
   +Pl+Dial/Por:%>i2       par_tA      ;
   +Pl+Dial/Por:%>i2       par_end     ;
   +Pl+Dial/Por:^HMETA     ill_hiin    ;
-  +Pl+Dial/Por:%>i2       ess_nA       ;
+  +Pl+Dial/Por:%>i2       ess_nA      ;
   +Pl+Dial/Por:%>i2       com_ne      ;
+  +Pl+Dial/Por:^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
 
-LEXICON vanha_x_22_pl_var
-  +Pl+Dial/-Por:^WG%>      gen_tten    ;
-  +Pl+Dial/-Por:%>         par_A       ;
-  +Pl+Dial/-Por:^HMETA     ill_hiin    ;
-  +Pl+Dial/-Por:%>         ess_nA       ; ! karamelline
-  +Pl+Dial/-Por:%>         com_ne      ; ! karamellina
+
+LEXICON vanha_x_22_pl_var ! TODO look at Dummy symbol structure in Twolc, now that we
+                          ! need more of them. Rules for when (which problems) and
+                          ! where (in the string/word "structure") ! ^WG before ^A2I always?
+  +Pl+Dial/-Por:^WG^A2I   gen_tten    ;
+  +Pl+Dial/-Por:^A2I      par_A       ;
+  +Pl+Dial/-Por:^HMETA    ill_hiin    ;
+  +Pl+Dial/-Por:^A2I      ess_nA      ; ! karamelline
+  +Pl+Dial/-Por:^A2I      com_ne      ; ! karamellina
+  +Pl+Dial/-Por:^WG^A2I    sgpl_cases_even    ; ! Adding  to block i:0 karamellitten
 
 ! +Pl:%>i2        gen_n              ; opettaajiin
 ! +Pl+Tra:%>i2ksi K ; Lene removed this one
