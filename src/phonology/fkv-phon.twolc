@@ -25,8 +25,9 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
 %^AE:0                    !!= * @CODE@ -- a to e lauletaan
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
-%^¤:0                ! Not in dummy, TODO maybe add?
-!%^n_23-e2i:0          ! Not in dummy, TODO maybe add?
+%^¤:0
+!!!*** Remember to add new tags to Dummy further down!
+!%^n_23-e2i:0          ! Not in dummy
 #
 ;
 
@@ -814,7 +815,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 "Vowel copying in long h-illative sg first vowel"
 !! __@RULENAME@__
 %^V:Vx <=> Cns (Vowel) Vx (Cns) Cns (%^HMETA:0) %> h _ %^V: n ;
-        !   l           u         m   ^HMETA    %>h^V^V n ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
+        !   l           u         m   ^HMETA    %> h ^V ^V  n ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
     where Vx in ( e ) ;
 
 !!€ vereks>h^V^Vn
@@ -947,7 +948,6 @@ j:0 <=> l _ e: %^E2I:0 ;
 ! TODO Write more tests, with Cns:0 (specifically k:0) when sorted out which are truly adj.
 !!€ kauhe^E2I^¤>^A
 !!€ kauhi00>a
-! TODO for pimiä to work, need m:0 (lots of Cns:0 in fact) or different stems all over.
 
 "e:0 in consonant stems and illative plural"
 !! __@RULENAME@__
@@ -975,8 +975,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 "Cns:0 in hoppe- hope-a in Var & Jok" ! TODO Change E2I tag to a custom one
 !! @RULENAME@
  Cx:0 <=> Cns Vowel (Vowel) ([n|l|r]) Cx:  _ e: (%^E2I:0) %^¤:0  %> [ %^A: | i2: | i5: | h ] ;
-    where Cx in ( b d f g h j k m p q s w x z p2 k2 ) ; ! TODO We can restict these Cons
-    ! E2I is for e:i hopia   ! Known words for l and r, not yet for n but imagine :)
+    where Cx in ( b d f g h j k m p q s w x z p2 k2 ) ; ! TODO We could further restict these Cons
+    ! E2I is for e:i hopia   ! Known words for l and r, not yet for n but use imagination :)
 
 
 !! !!i rules
@@ -1045,22 +1045,24 @@ a:0 <=> [#:|.#.] (Cns:*) (UnroundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cn
 !!€ loistaava^WG>i2>ss^A
 !!€ loistaav00>i>ssa
 
-! € persooa^WG>i2>ss^A
+!!€ persoona^WG>i2>ss^A
+!!€ persoono0>i>ssa
+!!€ nutukka^WG>i2>ss^A
+!!€ nutuk0o0>i>ssa !nutukoissa
+
+! € kajav00>i>ssa
 ! € kajav00>i>ssa
 ! TODO, finish these tests
-! € nutukka^WG>i2>ss^A
-! € kajav00>i>ssa
-!nutukoissa
 
 
 
 "a:o before Pl i and Pret i"
 !! __@RULENAME@__
-a:o <=> [#:|.#.] RoundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^WG:0)  %> [i2:|i3:|j] ; ! sannoi 2 syll
-     Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: (%^WG:0)  %> i2:   ; ! sivakoissa, sannoi
-     Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: %^HMETA    %> %^V i2: ; ! aikhoin
-     [:k|:l]  (:i) :i             :j                         _ %^AO: (Dummy:*) %>  i2:   ; ! kulkkiija kulkiijoissa
-     [#:|.#.] Cns       Vowel         Cns     Cns            _ %^AO:           %> j %> %^A: ; ! linnoja in Var
+a:o <=> [#:|.#.] RoundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^WG:0)  %>    [i2:|i3:|j] ; ! sannoi 2 syll
+     Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: (%^WG:0)  %>     i2:   ; ! sivakoissa, sannoi
+     Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: %^HMETA:  %> %^V i2: ; ! aikhoin
+     [:k|:l]  (:i) :i             :j                              _ %^AO: (Dummy:*) %>     i2:   ; ! kulkkiija kulkiijoissa
+     [#:|.#.] Cns       Vowel         Cns     Cns                 _ %^AO:           %> j %> %^A: ; ! linnoja in Var
 !               s            a                n      0                  a  ^AO             >  i2
 !               s            a                n      n                  o   0              >  i
 !         a          i         k     k   a  ^AO  %> i2      >   n   e
@@ -1101,15 +1103,15 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 !             p               oi6ka^AO%>i2
 !  [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, ruoka ruokhiin, poi6ka poikhiin
 
-! !!$ kuva^AO>i2
-! !!$ kuva0>i TODO Uncomment and test, difficult to work when the other tests aren't run becuase of this
+!!$ kuva^AO>i2
+!!$ kuva0>i
 !!€ kuv0a^AO>i2
 !!€ kuvvi0>i
 
-! !!€san0a^AO>i2
-! !!€sanno0>i ! TODO check this
+!!€san0a^AO>i2
+!!€sanno0>i ! is this test correct? or is it sanoi?
 
-! Hmm! differense in lexc in kuvvii ja ruokhiin. kuvvii adds one i and ruohkiin two! I think. TODO check if true, plan a:0 vs a:i accordingly TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
+! Hmm! differense in lexc in kuvvii ja ruokhiin. kuvvii adds one i and ruohkiin two! I think. TODO check if true, plan a:0 vs a:i accordingly TODO TODO TODO
    ! aili [3:54 PM]
 ! Eli kun ensi tavussa on pyöreä vokaali (esim. -u tai -o), vartalon loppuvokaali jää pois
 !  -i (tai vastaavan -j) suffiksin edeltä. Poika-nominissa on pyöreä vokali -o, siksi poikhiin
