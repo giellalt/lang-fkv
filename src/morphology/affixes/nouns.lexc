@@ -782,12 +782,11 @@ LEXICON vanha_n_41 !!= * @CODE@ = veres
 LEXICON vanha_x_41
   +Sg      :^WG%>s     nom_end        ;
   +Sg      :kse        gen_n_sg       ;
-  +Sg      :kse        sgpl_cases_odd ; ! these two lexica for cases with
   +Sg      :%>s        par_tA         ;
   +Sg      :ks         ill_hVVn       ;
-  +Sg+Ill:ksheen K              ; ! +Pl+Ill:ksh%>i2in K; ! TODO TODO TODO
+!  +Sg+Ill:ksheen K              ; ! +Pl+Ill:ksh%>i2in K; ! TODO TODO TODO
   +Sg      :kse        ess_nnA        ;
-  +Pl      :kse%>i2    sgpl_cases_odd ; ! the same affix in sg and pl -- tsekkaa long
+  +Sg      :kse        sgpl_cases_odd ; ! these two lexica for cases with
 
   +Pl      :kse        nom_t          ;
   +Pl      :%>s        gen_ten        ; ! veresten
@@ -795,11 +794,12 @@ LEXICON vanha_x_41
   +Pl+Dial/Por:ks%>i2     par_V          ; ! vereksii
   +Pl+Dial/Por:ks%>i2i    par_tA         ; ! vereksiitä
   +Pl+Dial/-Por:ks%>i2     par_A          ; ! vereksiä
-  +Pl      :ks         ill_hiin       ;
+  +Pl      :ks         ill_hiin       ; ! ei ^HMETA? tai edel tai mitään?
   +Pl      :kse%>i2    ess_nnA        ;
   +Pl+Dial/Por:kse%>i2    com_nne        ;
   +Pl+Dial/Var:kse%>i2    com_nne        ;
   +Pl+Dial/Jok:kse%>i2    com_ne         ;
+  +Pl      :kse%>i2    sgpl_cases_odd ; ! the same affix in sg and pl -- tsekkaa long
  ! +Pl+Par:%>ksii     K              ;
 
 !LEXICON vanha_s_kse
