@@ -646,7 +646,7 @@ k3:0 <=> u o _ a %^WG: ;
 "k:v"
 k:v <=> [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
        \i [o|ö|u|y] _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! ruoka
-              [o|ö] _  e:          (Dummy:) (:i) (Dummy:) %^WG:0 ; ! TODO not in joen VAR
+              [o|ö] _  e:          (Dummy:) (:i) (Dummy:) %^WG:0 ; ! TODO not in joen VAR, see "k:0 for joke -> joen in VAR"
                i u  _  a           (Dummy:) (:i) (Dummy:) %^WG:0 ; !kiukhaan:kiuvas
 
 !!€ ruoka^WG>n
@@ -658,7 +658,7 @@ k:v <=> [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !!€ koko^WG>t^A
 !!€ kovo0>ta
 
-! "k:0" for joke -> joen in VAR! TODO
+! "k:0 for joke -> joen in VAR"! TODO
 ! k:0 <=> [o|ö] _ e: %^¤:0 (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 
@@ -828,10 +828,14 @@ j:0 <=> l _ e: %^E2I:0 ;
       ! !!€ v e r e   k    s             > h   ^V  ^V n
    where Vx in ( e ) ;
 
-!   laps^HMETA  %>h^V^V n ; ! TODO WRITE MORE TESTS
-!   lum^HMETA   %>h^V^V n ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
-!   mie h^HMETA %>h^V^V n ;
-!   vere ks     %>h^V^V n ; ! TODO make these two rules general for all ^V^Vn illatives
+!!€ lapse^HMETA>h^V^Vn ! e is for vowel copying, then e:0 ! maybe should have it without e?
+!!€ laps00>heen
+
+!!€ lume^HMETA>h^V^Vn
+!!€ lum00>heen
+
+!!€ mieh^HMETA>h^V^Vn ! maybe miehe with the e, as the others TODO check
+!!€ mieh0>heen
 
 !!€ vereks>h^V^Vn
 !!€ vereks>heen
@@ -1130,8 +1134,52 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 ! !!€ kuvvi0>i
 ! We want a:i here
 
+! jok
 !!€ opettaaja>i2>ss^A
 !!€ opettaaji>i>ssa
+
+! var
+!!€ opettaja>ss^A
+!!€ opettaji>ssa
+
+
+! por
+!!€ opettaaja^WG>i2>tten
+!!€ opettaaji0>i>tten
+
+!!€ opettaaja>i2>t^A
+!!€ opettaaji>i>ta
+
+!!€ opettaaja>i2
+!!€ opettaaji>i
+
+!!€ opettaaja^HMETA>hiin
+!!€ opettaaj00>hiin
+
+!!€ opettaaja>i2>n^A
+!!€ opettaaji>i>na
+
+!!€ opettaaja>i2>ne
+!!€ opettaaji>i>ne
+
+!!$ opettaaja>i2>ne
+!!$ opettaaja>i>ne
+
+! var, and probably Jok, but they are not finished yet
+!!€ opettaja^WG^A2I>tten
+!!€ opettaji00>tten
+!!€ opettaja^A2I>^A
+!!€ opettaji0>a
+
+!!€ opettaja^HMETA>hiin
+!!€ opettaj00>hiin
+!!€ opettaja^A2I>n^A
+!!€ opettaji0>na
+
+!!$ opettaja^A2I>n^A
+!!$ opettaja0>na
+
+
 ! TODO COLLECT a:0 a:i and maybe a:o examples and differentiate between them!!!
 
 
