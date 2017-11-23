@@ -25,6 +25,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
 %^AE:0                    !!= * @CODE@ -- a to e lauletaan
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
+%^I0:0                    !!= * @CODE@ -- i to 0 in vanha_a_21 -Por with i endings: tooline
 %^¤:0
 !!!*** Remember to add new tags to Dummy further down!
 !%^n_23-e2i:0          ! Not in dummy
@@ -58,7 +59,7 @@ ArchiCns = %^N ;                                            !!= * @CODE@
 SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@
 Segment = Vowel Cns ;                                       !!= * @CODE@
-Dummy = %+ %^WG %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  !!= * @CODE@
+Dummy = %+ %^WG %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@
 NE = %> n e ;
@@ -1017,9 +1018,9 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__
-a:0 <=> [#:|.#.] (Cns:*) (UnroundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO: [%^WG:0 %> [i2:|i3:] | a:0 ] ;
+a:0 <=> [#:|.#.] (Cns:*) (UnroundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO:0 [%^WG:0 (%^I0:0) %> [i2:|i3:] | a:0 ] ;
 ! TODO which case is a:0 at the end? Also kuvina/e here, i or not, depends on dialect remember. ! Also: used to have %^AO: as optional in (),
-        [#:|.#.]  Cns    (UnroundedVowel) [u|o]  (i6:)                        Cns  _ %^AO:0 %> i2:i %> n  [e | :a | :ä ] ;
+        [#:|.#.]  Cns    (UnroundedVowel) [u|o]  (i6:)                        Cns  _ %^AO:0 (%^I0:0) %> i2:i %> n  [e | :a | :ä ] ;
 ! TODO TODO if ^A: it says no realizations, if :a | :ä it just ignores them?
 ! TODO check if context should be more extensive. NOT :Cns though!
 !            p                                 o            i6    k                a  ^AO    ^WG    >  i2         >le
@@ -1057,15 +1058,15 @@ a:0 <=> [#:|.#.] (Cns:*) (UnroundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cn
 !!€ nutuk0o0>i>ssa ! nutukoissa
 
 
+! TODO TODO TODO Which order do we put the tags!? f.ex ^AO always before or after ^WG ??
 
-
-"a:o before Pl i and Pret i"
+"a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
 !! __@RULENAME@__
-a:o <=> [#:|.#.] RoundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^WG:0)  %>    [i2:|i3:|j] ; ! sannoi 2 syll
-     Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: (%^WG:0)  %>     i2:   ; ! sivakoissa, sannoi
-     Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: %^HMETA:  %> %^V i2: ; ! aikhoin
-     [:k|:l]  (:i) :i             :j                              _ %^AO: (Dummy:*) %>     i2:   ; ! kulkkiija kulkiijoissa
-     [#:|.#.] Cns       Vowel         Cns     Cns                 _ %^AO:           %> j %> %^A: ; ! linnoja in Var
+a:o <=> [#:|.#.] RoundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^WG:0) (%^I0:0) %>    [i2:|i3:|j] ; ! sannoi 2 syll
+     Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: (%^WG:0) (%^I0:0) %>     i2:   ; ! sivakoissa, sannoi
+     Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: %^HMETA:          %> %^V i2: ; ! aikhoin
+     [:k|:l]  (:i) :i             :j                              _ %^AO: (Dummy:*)         %>     i2:   ; ! kulkkiija kulkiijoissa
+     [#:|.#.] Cns       Vowel         Cns     Cns                 _ %^AO:                   %> j %> %^A: ; ! linnoja in Var
 !               s            a                n      0                  a  ^AO             >  i2
 !               s            a                n      n                  o   0              >  i
 !         a          i         k     k   a  ^AO  %> i2      >   n   e
@@ -1206,6 +1207,9 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 ! valkiae>i2>tten
 ! valki00e>i2>tten
 
+"i:0 in vanha_n_21 -Por with I0 tag"
+!! __@RULENAME@__
+ i:0 <=> Cns: _ %^AO:0 (%^WG:0) %^I0:0 %> i2:i %> ; ! tooline in Var ja Jok. Not tooliine, which is in Por
 
 
 !! !Shortening

@@ -107,10 +107,14 @@ LEXICON vanha_n_21        !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks, aika,
 +N+Sg      : nom_R   ;
 
 LEXICON vanha_x_21 ! "poika:poi6ka", lyhyt vokali, yks vartalo, kuva, linna, pappi, tooli, syksy
-  +Sg      :    nom_end            ;
-            vanha_x_21_oblique ;
+  +Sg      :    nom_end                 ;
+           :    vanha_x_21_oblique      ;
 
-LEXICON vanha_x_21_oblique
+LEXICON vanha_x_21_oblique ! this is also called from affixes/propernouns
+  +Dial/Por:    vanha_x_21_oblique_Por  ;
+ +Dial/-Por:    vanha_x_21_oblique_-Por ;
+
+LEXICON vanha_x_21_oblique_Por
   +Sg      :^WG              gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
   +Sg+Dial/-Por:                 par_A           ;! in var should be poikaa with one k
@@ -135,8 +139,26 @@ LEXICON vanha_x_21_oblique
 ![15/25][FAIL] linna+N+Pl+Par => Missing results: linnoja
 ![15/25][FAIL] linna+N+Pl+Par => Unexpected results: linnaja, linnoia
 
+LEXICON vanha_x_21_oblique_-Por
+  +Sg      :^WG              gen_n_sg        ;
+  +Sg+Dial/Por:                 par_V           ;
+  +Sg+Dial/-Por:                 par_A           ;! in var should be poikaa with one k
+  +Sg      :^HMETA           ill_hVVn        ;
+  +Sg      :                 ess_nA          ;
+  +Sg      :^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
 
-LEXICON vanha_n_21i ! pappi, tooli, lyhyt vokali, loppuu i:llä
+  +Pl      :^WG              nom_t           ;
+  +Pl+Dial/-Por:^AO^WG^I0%>i2    gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
+  +Pl+Dial/Var:^AO%>j           par_A           ; ! Use i:j in twolc j, see below
+  +Pl+Dial/-Por:^AO^I0%>i2       par_A           ;
+  +Pl      :^AO^HMETA        ill_hVin        ; ! toolhiin
+  +Pl      :^AO^I0%>i2       ess_nA          ;
+  +Pl      :^AO^I0%>i2       com_ne          ;
+
+  +Pl+Dial/-Por:^AO^WG^I0%>i2       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
+
+
+LEXICON vanha_n_21i ! Not in use, just a thought, if we don't do it with TWOLC TODO ! pappi, tooli, lyhyt vokali, loppuu i:llä
 +N         : vanha_x_21i ;
 +N+Sg      : nom_R   ;
 +N+Sg      : nom_end            ;
