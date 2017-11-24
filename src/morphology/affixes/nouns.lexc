@@ -102,37 +102,32 @@ LEXICON vanha_n_21C !!= * @CODE@
            :i vanha_n_21 ; ! Hansi
 +N+Sg      :i nom_R      ;
 
-LEXICON vanha_n_21        !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks, aika, vartalo, kuva, linna, pappi
+LEXICON vanha_n_21 !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo, aika, kuva, linna, pappi, tooli, syksy
 +N         : vanha_x_21 ;
 +N+Sg      : nom_R   ;
 
-LEXICON vanha_x_21 ! "poika:poi6ka", lyhyt vokali, yks vartalo, kuva, linna, pappi, tooli, syksy
+LEXICON vanha_x_21
   +Sg      :    nom_end                 ;
            :    vanha_x_21_oblique      ;
 
 LEXICON vanha_x_21_oblique ! this is also called from affixes/propernouns
-  +Dial/Por:    vanha_x_21_oblique_Por  ;
- +Dial/-Por:    vanha_x_21_oblique_-Por ;
+     +Dial/Por:    vanha_x_21_oblique_Por  ;
+     +Dial/-Por:    vanha_x_21_oblique_-Por ;
 
 LEXICON vanha_x_21_oblique_Por
   +Sg      :^WG              gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
-  +Sg+Dial/-Por:                 par_A           ;! in var should be poikaa with one k
   +Sg      :^HMETA           ill_hVVn        ;
   +Sg      :                 ess_nA          ;
   +Sg      :^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
 
   +Pl      :^WG              nom_t           ;
   +Pl+Dial/Por:^AO%>i2          gen_n           ; ! gen_n         since we have the i
-  +Pl+Dial/-Por:^AO^WG%>i2       gen_tten        ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322, korpus.
   +Pl+Dial/Por:^AO%>i2          par_end         ;
-  +Pl+Dial/Var:^AO%>j           par_A           ; ! Use i:j in twolc j, see below
-  +Pl+Dial/-Por:^AO%>i2          par_A           ;
   +Pl      :^AO^HMETA        ill_hVin        ; ! sykshyin
   +Pl      :^AO%>i2          ess_nA          ;
   +Pl      :^AO%>i2          com_ne          ;
   +Pl+Dial/Por:^AO^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
-  +Pl+Dial/-Por:^AO^WG%>i2       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
 
 ![15/25][FAIL] kuva+N+Pl+Par => Missing results: kuvia
 ![15/25][FAIL] kuva+N+Pl+Par => Unexpected results: kuvaja, kuvaia
@@ -141,8 +136,7 @@ LEXICON vanha_x_21_oblique_Por
 
 LEXICON vanha_x_21_oblique_-Por
   +Sg      :^WG              gen_n_sg        ;
-  +Sg+Dial/Por:                 par_V           ;
-  +Sg+Dial/-Por:                 par_A           ;! in var should be poikaa with one k
+  +Sg+Dial/-Por:              par_A           ;! in var should be poikaa with one k, kk:k luultavasti (error with ^A only?) ! ^WG gives aiaa
   +Sg      :^HMETA           ill_hVVn        ;
   +Sg      :                 ess_nA          ;
   +Sg      :^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
@@ -155,7 +149,7 @@ LEXICON vanha_x_21_oblique_-Por
   +Pl      :^AO^I0%>i2       ess_nA          ;
   +Pl      :^AO^I0%>i2       com_ne          ;
 
-  +Pl+Dial/-Por:^AO^WG^I0%>i2       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
+  +Pl+Dial/-Por:^AO^WG^I0%>i2    sgpl_cases_even ;
 
 
 LEXICON vanha_n_21i ! Not in use, just a thought, if we don't do it with TWOLC TODO ! pappi, tooli, lyhyt vokali, loppuu i:llä
@@ -165,8 +159,6 @@ LEXICON vanha_n_21i ! Not in use, just a thought, if we don't do it with TWOLC T
 
 
 LEXICON vanha_x_21i ! pappi, tooli, lyhyt vokali, loppuu i:llä
-
-
   +Sg      :^WG              gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
   +Sg+Dial/-Por:                 par_A           ;! in var should be poikaa with one k
