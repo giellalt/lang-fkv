@@ -250,7 +250,7 @@ Rules
           Cns:*  Vowel:* Vowel (Vowel:) :s _  [e:|i:]   %> i2:i %> %^V:i ;  ! klas0i>i2>in:klass0>i>in ja vuossiin
           Cns:*  Vowel     [n|l|r]     t:s _  [e:|i:]   %> i2:i %> %^V: ;  ! hirssii(n). Ihmeellisestivain t:s toimii, :s antaa paljon virheitä kaikkialla. 22 lisää.
           Cns:*  Vowel     [n|l|r]     t:s _      :i    %> [:i - i3:] (i2:i) ;  ! to be fixed. Seems to not do anything?
-                                       t:s _  e:i  %^E2I:0       %> i5: ; ! uussii TODO TODO REMOVE THIS IN -POR
+                                       t:s _  e:i  %^E2I:0       %> i5: ; ! uussii TODO DONE REMOVE THIS IN -POR
 !                          u   u       t    0  e     ^E2I            %> i5  etc. %>m^A%>t
 
 ! uussii uute ^E2I%>i5
@@ -275,11 +275,12 @@ Rules
 
 "Gemination VVa"
 !! __@RULENAME@__
-0:Cx <=> [ .#. | #: ] Cns:*   Vowel:* Vowel Cx _ a %> :a ;
+0:Cx <=> [ .#. | #: ] Cns:* Vowel:* Vowel Cx _ a %> :a ;
        where Cx in ( k p t s ) ;
 
 !!€ aik0a>^V
 !!€ aikka>a
+! TODO TODO this (aika test above) should not happen in Var (and prob not Jok). How to differentiate?
 
 
 "Gemination Vi"
@@ -533,7 +534,7 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 
 
 
-! TODO the following rule, together with adding [Cx|t:0] in Cx:0 ppttkk makes tyärtä work, but how to also get with t?
+! TODO DONE the following rule, together with adding [Cx|t:0] in Cx:0 ppttkk makes tyärtä work, but how to also get with t?
 ! Also needs m4 since this is only in Var. Does this optional t:0 happen in other places too?
 
 ! "t:0 in tytär tyär, tytärtä tyärtä. Stem is tyttär"
@@ -586,13 +587,12 @@ i6:0 <=> _ k: Vowel: (%^AO:0) %^WG:0 ;
 
 
 "Gradation k:j"
-k:j <=>    [a|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; !
-                     i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; !
-         [ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki  - mäjen
-             [e|i|i6:] _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
-         \[e|a:] [r|l] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
-                 Cns u _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
-                  \u h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet
+k:j <=>  [a|ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki  - mäjen
+                       i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; !
+!               [e|i|i6:] _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
+           \[e|a:] [r|l] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
+                   Cns u _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
+                    \u h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet
 
 !j når H-vokal er [i|e|ä]
 !rk: r,rj -- varkhtaat:faras, parkua:parun, -- !märkä:märjät, särkeä:särjen, särkiä:särjin
@@ -617,9 +617,10 @@ k:0 <=>               h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka -
             [i u|a u|y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0 ; ! kykenee - kyetä, laukkee - laueta,liuota-liukkee
        [.#.|#:] Cns u h _ e  %^WG:0 ; ! puheta - puhkee, pohkheet:pohjet
         [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0 ; ! ikene- - ien
-           ö: [l|r] _ [ö|ä] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
-           a: [l|r] _ [NotEYUB:|u]     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan, NOT: sylki:syljin
-           e  [l|r] _ i (%>)  %^WG:0 (%>)      ; ! keritä - kerkkii
+               ö: [l|r] _ [ö|ä] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
+               a: [l|r] _ [NotEYUB:|u]     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan, NOT: sylki:syljin
+               e  [l|r] _ i (%>)  %^WG:0 (%>)      ; ! keritä - kerkkii
+              [e|i|i6:] _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
 
 !!€ pölkä^WG>t^A
 !!€ pöl0ä0>tä
@@ -647,7 +648,7 @@ k3:0 <=> u o _ a %^WG: ;
 "k:v"
 k:v <=> [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
        \i [o|ö|u|y] _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! ruoka
-              [o|ö] _  e:          (Dummy:) (:i) (Dummy:) %^WG:0 ; ! TODO not in joen VAR, see "k:0 for joke -> joen in VAR"
+              [o|ö] _  e:          (Dummy:) (:i) (Dummy:) %^WG:0 ; ! TODO DONE not in joen VAR, see "k:0 for joke -> joen in VAR"
                i u  _  a           (Dummy:) (:i) (Dummy:) %^WG:0 ; !kiukhaan:kiuvas
 
 !!€ ruoka^WG>n
@@ -659,7 +660,7 @@ k:v <=> [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !!€ koko^WG>t^A
 !!€ kovo0>ta
 
-! "k:0 for joke -> joen in VAR"! TODO
+! "k:0 for joke -> joen in VAR"! TODO DONE
 ! k:0 <=> [o|ö] _ e: %^¤:0 (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 
@@ -1058,7 +1059,7 @@ a:0 <=> [#:|.#.] (Cns:*) (UnroundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cn
 !!€ nutuk0o0>i>ssa ! nutukoissa
 
 
-! TODO TODO TODO Which order do we put the tags!? f.ex ^AO always before or after ^WG ??
+! TODO Which order do we put the tags!? f.ex ^AO always before or after ^WG ??
 
 "a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
 !! __@RULENAME@__
