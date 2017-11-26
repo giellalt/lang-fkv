@@ -136,15 +136,15 @@ LEXICON vanha_x_21_oblique_Por
 
 LEXICON vanha_x_21_oblique_-Por
   +Sg      :^WG              gen_n_sg        ;
-  +Sg+Dial/-Por:              par_A           ;! in var should be poikaa with one k, kk:k luultavasti (error with ^A only?) ! ^WG gives aiaa
+  +Sg      :                 par_A           ;! in var should be poikaa with one k, kk:k luultavasti (error with ^A only?) ! ^WG gives aiaa
   +Sg      :^HMETA           ill_hVVn        ;
   +Sg      :                 ess_nA          ;
   +Sg      :^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
 
   +Pl      :^WG              nom_t           ;
-  +Pl+Dial/-Por:^AO^WG^I0%>i2    gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
+  +Pl      :^AO^WG^I0%>i2    gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
   +Pl+Dial/Var:^AO%>j           par_A           ; ! Use i:j in twolc j, see below
-  +Pl+Dial/-Por:^AO^I0%>i2       par_A           ;
+  +Pl      :^AO^I0%>i2       par_A           ;
   +Pl      :^AO^HMETA        ill_hVin        ; ! toolhiin
   +Pl      :^AO^I0%>i2       ess_nA          ;
   +Pl      :^AO^I0%>i2       com_ne          ;
@@ -158,7 +158,7 @@ LEXICON vanha_n_21i ! Not in use, just a thought, if we don't do it with TWOLC T
 +N+Sg      : nom_end            ;
 
 
-LEXICON vanha_x_21i ! pappi, tooli, lyhyt vokali, loppuu i:llä
+LEXICON vanha_x_21i ! Not in use, pappi, tooli, lyhyt vokali, loppuu i:llä
   +Sg      :^WG              gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
   +Sg+Dial/-Por:                 par_A           ;! in var should be poikaa with one k
