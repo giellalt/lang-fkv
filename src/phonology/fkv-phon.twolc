@@ -280,7 +280,8 @@ Rules
 
 !!€ aik0a>^V
 !!€ aikka>a
-! TODO TODO this (aika test above) should not happen in Var (and prob not Jok). How to differentiate?
+! TODO Done this rule should not happen in Var (and prob not Jok). If just commenting out Var works well.
+! Maybe break (block) this somehow, without making the Lexc too messy.
 
 
 "Gemination Vi"
@@ -589,7 +590,8 @@ i6:0 <=> _ k: Vowel: (%^AO:0) %^WG:0 ;
 "Gradation k:j"
 k:j <=>  [a|ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki  - mäjen
                        i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; !
-!               [e|i|i6:] _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
+                     i6: _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! poika poha, pojitte
+                   [e|i] _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika-aijan ! TODO DONE move to k:0 in Var
            \[e|a:] [r|l] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
                    Cns u _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
                     \u h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet
@@ -620,7 +622,6 @@ k:0 <=>               h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! tuhka -
                ö: [l|r] _ [ö|ä] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
                a: [l|r] _ [NotEYUB:|u]     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan, NOT: sylki:syljin
                e  [l|r] _ i (%>)  %^WG:0 (%>)      ; ! keritä - kerkkii
-              [e|i|i6:] _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika  - aijan
 
 !!€ pölkä^WG>t^A
 !!€ pöl0ä0>tä
