@@ -249,8 +249,8 @@ LEXICON vanha_x_22 !liberaali
 
 
   +Pl      :^WG      nom_t              ; ! liberaalit
-           :         vanha_x_22_pl_por        ;
-           :         vanha_x_22_pl_var        ;
+  +Dial/Por:         vanha_x_22_pl_por        ;
+  +Dial/-Por:         vanha_x_22_pl_var        ;
 
         !   +Pl:^WG%>i2       gen_tten           ;
         !   +Pl:%>i2          par_tA             ;
@@ -259,24 +259,24 @@ LEXICON vanha_x_22 !liberaali
         !   +Pl:%>i2          com_ne             ;
 
 LEXICON vanha_x_22_pl_por
-  +Pl+Dial/Por:^WG%>i2    gen_tten    ;
-  +Pl+Dial/Por:%>i2       par_tA      ;
-  +Pl+Dial/Por:%>i2       par_end     ;
-  +Pl+Dial/Por:^HMETA     ill_hiin    ;
-  +Pl+Dial/Por:%>i2       ess_nA      ;
-  +Pl+Dial/Por:%>i2       com_ne      ;
-  +Pl+Dial/Por:^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
+  +Pl      :^WG%>i2    gen_tten    ;
+  +Pl      :%>i2       par_tA      ;
+  +Pl      :%>i2       par_end     ;
+  +Pl      :^HMETA     ill_hiin    ;
+  +Pl      :%>i2       ess_nA      ;
+  +Pl      :%>i2       com_ne      ;
+  +Pl      :^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
 
 
 LEXICON vanha_x_22_pl_var ! TODO look at Dummy symbol structure in Twolc, now that we
                           ! need more of them. Rules for when (which problems) and
                           ! where (in the string/word "structure") ! ^WG before ^A2I always?
-  +Pl+Dial/-Por:^WG^A2I   gen_tten    ;
-  +Pl+Dial/-Por:^A2I      par_A       ;
-  +Pl+Dial/-Por:^HMETA    ill_hiin    ;
-  +Pl+Dial/-Por:^A2I      ess_nA      ; ! karamelline
-  +Pl+Dial/-Por:^A2I      com_ne      ; ! karamellina
-  +Pl+Dial/-Por:^WG^A2I    sgpl_cases_even    ; ! Adding  to block i:0 karamellitten
+  +Pl      :^WG^A2I   gen_tten    ;
+  +Pl      :^A2I      par_A       ;
+  +Pl      :^HMETA    ill_hiin    ;
+  +Pl      :^A2I      ess_nA      ; ! karamelline
+  +Pl      :^A2I      com_ne      ; ! karamellina
+  +Pl      :^WG^A2I    sgpl_cases_even    ; ! Adding  to block i:0 karamellitten
 
 ! +Pl:%>i2        gen_n              ; opettaajiin
 ! +Pl+Tra:%>i2ksi K ; Lene removed this one
@@ -294,7 +294,6 @@ LEXICON vanha_x_22odd !!= * @CODE@  kajava
   +Sg      :^HMETA       ill_hVVn       ;
   +Sg      :             ess_nnA        ;
 
-  +Pl      :^WG%>i2      sgpl_cases_odd ; ! Adding  to block i:0
   +Pl      :^WG          nom_t          ;
   +Pl+Dial/Por:^WG%>i2i     gen_tten       ; ! kajaviitten
   +Pl+Dial/-Por:^WG%>i2      gen_tten       ; ! kajavitten
@@ -307,6 +306,7 @@ LEXICON vanha_x_22odd !!= * @CODE@  kajava
   +Pl+Dial/Por:%>i2         com_nne        ;
   +Pl+Dial/Var:%>i2         com_nne        ;
   +Pl+Dial/Jok:%>i2         com_nne        ; !Jok loistaava
+  +Pl      :^AO^WG%>i2      sgpl_cases_odd ; ! Adding  to block i:0
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
 
 
