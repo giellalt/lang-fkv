@@ -831,13 +831,16 @@ j:0 <=> l _ e: %^E2I:0 ;
       ! !!€ v e r e   k    s             > h   ^V  ^V n
    where Vx in ( e ) ;
 
-!!€ lapse^HMETA>h^V^Vn ! e is for vowel copying, then e:0 ! maybe should have it without e?
+
+! e is for vowel copying, then e:0 ! maybe should have it without e?
+!!€ lapse^HMETA>h^V^Vn
 !!€ laps00>heen
 
 !!€ lume^HMETA>h^V^Vn
 !!€ lum00>heen
 
-!!€ mieh^HMETA>h^V^Vn ! maybe miehe with the e, as the others TODO check
+! maybe miehe with the e, as the others TODO check
+!!€ mieh^HMETA>h^V^Vn
 !!€ mieh0>heen
 
 !!€ vereks>h^V^Vn
@@ -1054,13 +1057,6 @@ a:0 <=> [#:|.#.] (Cns:*) (UnroundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cn
 !!€ loistaava^WG>i2>ss^A
 !!€ loistaav00>i>ssa
 
-!!€ persoona^WG>i2>ss^A
-!!€ persoono0>i>ssa
-!!€ nutukka^WG>i2>ss^A
-!!€ nutuk0o0>i>ssa ! nutukoissa
-
-
-! TODO Which order do we put the tags!? f.ex ^AO always before or after ^WG ??
 
 "a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
 !! __@RULENAME@__
@@ -1068,6 +1064,8 @@ a:o <=> [#:|.#.] RoundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^WG:
      Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: (%^WG:0) (%^I0:0) %>     i2:   ; ! sivakoissa, sannoi
      Cns (Cns:*) RoundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: %^HMETA:          %> %^V i2: ; ! aikhoin
      [:k|:l]  (:i) :i             :j                              _ %^AO: (Dummy:*)         %>     i2:   ; ! kulkkiija kulkiijoissa
+!     Cns         Vowel (Vowel)         Cns          _ %^AO: (%^WG:0)          %>     i2: ; ! vaaroitten, persoonoissa
+     !p e r s o o n _ %^AO: (%^WG:0)          %>     i2: ; ! vaaroitten, persoonoissa
      [#:|.#.] Cns       Vowel         Cns     Cns                 _ %^AO:                   %> j %> %^A: ; ! linnoja in Var
 !               s            a                n      0                  a  ^AO             >  i2
 !               s            a                n      n                  o   0              >  i
@@ -1076,13 +1074,24 @@ a:o <=> [#:|.#.] RoundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^WG:
 ! Sitte vartalon loppuvokaali muuttu o:ksi, kun vartalon alussa on a-, e- tai i- (ei pyöreä vokaali)
 ! , esimerkiksi reuna: reunhoin, aika:aikhoin
 
+! TODO have asked Aili about how to differentiate persoona ja
+!   !!€ persoona^WG>i2>ss^A
+!   !!€ persoono0>i>ssa
+!   !!€ vaara^AO^WG>i2>tten
+!   !!€ vaaro00>i>tten
+! nutukoissa
+!   !!€ nutukka^AO^WG>i2>ss^A
+!   !!€ nutuk0o^AO0>i>ssa
+! TODO Which order do we put the tags!? f.ex ^AO always before or after ^WG ??
+! Apparently probably before, has been best practice so far at least it seems
+
 
 
 !!€ kala^AO^WG>i2>tten
 !!€ kalo00>i>tten
 
-!!€ vaara^AO^WG>i2>tten
-!!€ vaaro00>i>tten
+
+
 ! TODO double check these with Aili
 !!€ kaula^AO^WG>i2>tten
 !!€ kaulo00>i>tten
@@ -1117,13 +1126,12 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 !             p               oi6ka^AO%>i2
 !  [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, ruoka ruokhiin, poi6ka poikhiin
 
-!!$ kuva^AO>i2
-!!$ kuva0>i
+! TODO fix this kuva
+! !!$ kuva^AO>i2
+! !!$ kuva0>i
 !!€ kuv0a^AO>i2
 !!€ kuvvi0>i
 
-!!€san0a^AO>i2
-!!€sanno0>i ! is this test correct? or is it sanoi?
 
 ! Hmm! differense in lexc in kuvvii ja ruokhiin. kuvvii adds one i and ruohkiin two! I think. TODO check if true, plan a:0 vs a:i accordingly TODO TODO TODO
    ! aili [3:54 PM]
@@ -1145,12 +1153,12 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 ! We want a:i here
 
 ! jok
-!!€ opettaaja>i2>ss^A
-!!€ opettaaji>i>ssa
+!!€ opettaaja^WG>i2>ss^A
+!!€ opettaaji0>i>ssa
 
 ! var
-!!€ opettaja>ss^A
-!!€ opettaji>ssa
+!!€ opettaja^WG^A2I>ss^A
+!!€ opettaji00>ssa
 
 
 ! por
@@ -1175,7 +1183,7 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 !!$ opettaaja>i2>ne
 !!$ opettaaja>i>ne
 
-! var, and probably Jok, but they are not finished yet
+! var, and probably Jok, but jok yamls are not finished yet
 !!€ opettaja^WG^A2I>tten
 !!€ opettaji00>tten
 !!€ opettaja^A2I>^A
