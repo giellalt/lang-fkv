@@ -102,7 +102,7 @@ LEXICON vanha_n_21C !!= * @CODE@
            :i vanha_n_21 ; ! Hansi
 +N+Sg      :i nom_R      ;
 
-LEXICON vanha_n_21 !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo, aika, kuva, linna, pappi, tooli, syksy
+LEXICON vanha_n_21 !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo, aika, kuva, linna, pappi, tooli, syksy ! jos loppuu i:hin ne ovat lainasanoja
 +N         : vanha_x_21 ;
 +N+Sg      : nom_R   ;
 
@@ -205,7 +205,7 @@ LEXICON vanha_x_21pl        !!= * @CODE@
 !LEXICON vanha_kk-longgparpl
 ! +Par:%>kk%>i2 # ; ! kk ?? Tsekkaa..
 
-LEXICON vanha_n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi, suomi
+LEXICON vanha_n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi, suomi ! Ei lainasanat
 +N:     vanha_x_21ie ;
 !+N+Dial/Var:^¤   vanha_x_21ie ; TODO for joen VAR, needs to not break other stuff
 +N+Sg      :^E2I nom_R     ; ! ^EI e to i
@@ -491,7 +491,7 @@ LEXICON vanha_n_31si        !!= @CODE@ vuosi, käsi, hirsi
 +N         : vanha_x_31si ;
 +N+Sg      : nom_R     ;
 
-LEXICON vanha_x_31si
+LEXICON vanha_x_31si ! uusi
   +Sg      :^E2I     nom_end         ;
 !                       nomgen_px       ; ! sg nom/gen px
   +Sg      :^WG      gen_n_sg        ;
