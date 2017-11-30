@@ -10,7 +10,9 @@ LEXICON NounRoot !!= @CODE@
   !! TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 
     !! ** 2.1 Kaksitavuiset ( aika, pappi, juoppo )	(prob.split i)= n_11        ! vanha_n_21
-    ! legg til vanha_n_21i
+    ! TODO legg til vanha_n_21i = färi
+    ! TODO legg til vanha_n_21_URa = sana = sanoissa []
+    ! TODO legg til vanha_n_21_Ra  = kuva = kuvissa []
     !! *** 2.1.1  Kaksitavuiset monikko (housut )   	            = n_11_pl     ! vanha_n_21pl
     !! *** 2.1.2  Kaksitavuiset (joki: joke )                     = n_11_ie     ! vanha_n_21ie
 
@@ -2051,7 +2053,7 @@ kuurto-oorninki vanha_n_22oddi ;
 kuusi:kuute vanha_n_31si ;
 kuutama vanha_n_22oi ;
 kuuđain:kuuđai vanha_n_32m ;
-kuva:kuva vanha_n_21 ;
+kuva:kuva vanha_n_21_Ra ;
 kuva-albumi vanha_n_22oddi ;
 kuvadokumentašuuni:kuva#dokumentašuuni vanha_n_22 ;
 kuvakavalkaadi:kuva#kavalkaadi vanha_n_22 ;
@@ -3986,7 +3988,7 @@ salmi:salme vanha_n_21ie ;
 sammakko vanha_n_22oi ;
 sammal:sammal vanha_n_32 ;
 sammalet:sammal vanha_n_33t ;
-sana vanha_n_21 ;
+sana vanha_n_21_URa ;
 sanansaattaaja:sanan#saattaaja vanha_n_22odd ;
 sanapuohi:sana#puohe vanha_n_21ie ;
 sanatoriumi vanha_n_21i ;
