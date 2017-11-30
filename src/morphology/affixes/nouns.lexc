@@ -94,22 +94,17 @@ LEXICON vanha_x_1pl !!= * @CODE@ = häät
   +Pl      :%>i2      com_ne          ;
 
 
-
 !! !Eira's classification
 
-LEXICON vanha_n_21C !!= * @CODE@
-+N+Sg      :  nom_end    ; ! Hans
-           :i vanha_n_21 ; ! Hansi
-+N+Sg      :i nom_R      ;
 
 LEXICON vanha_n_21 !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo, aika, kuva, linna, pappi, tooli, syksy ! jos loppuu i:hin ne ovat lainasanoja
 +N         : vanha_x_21 ;
 +N+Sg      : nom_R   ;
-! vanha_n_21     = puku = puvuissa
-! vanha_n_21_URa = sana = sanoissa []
-! vanha_n_21_Ra  = kuva = kuvissa []
-! vanha_n_21i    = färi : färi n_21 på i er lånord  sed /i vanha_21/i vanha_21i/
-! vanha_n_21ie  = veri : vere
+
+LEXICON vanha_n_21C !!= * @CODE@
++N+Sg      :  nom_end    ; ! Hans
+:i vanha_n_21 ; ! Hansi
++N+Sg      :i nom_R      ;
 
 LEXICON vanha_x_21
   +Sg      :    nom_end                 ;
@@ -155,6 +150,78 @@ LEXICON vanha_x_21_oblique_-Por
   +Pl      :^AO^I0%>i2       com_ne          ;
 
   +Pl+Dial/-Por:^AO^WG^I0%>i2    sgpl_cases_even ;
+
+
+LEXICON vanha_n_21_URa !!= * @CODE@ sana
++N+Sg      : nom_R   ;
++N+Sg+Dial/Por:^WG              gen_n_sg        ;
++N+Sg+Dial/Por:                 par_V           ;
++N+Sg+Dial/Por:^HMETA           ill_hVVn        ;
++N+Sg+Dial/Por:                 ess_nA          ;
++N+Sg+Dial/Por:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
++N+Pl+Dial/Por:^WG              nom_t           ;
++N+Pl+Dial/Por:^AO%>i2          gen_n           ; ! gen_n         since we have the i
++N+Pl+Dial/Por:^AO%>i2          par_end         ;
++N+Pl+Dial/Por:^AO^HMETA        ill_hVin        ; ! sykshyin
++N+Pl+Dial/Por:^AO%>i2          ess_nA          ;
++N+Pl+Dial/Por:^AO%>i2          com_ne          ;
++N+Pl+Dial/Por:^AO^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
++N+Sg+Dial/-Por:^WG              gen_n_sg        ;
++N+Sg+Dial/-Por:                 par_A           ;! in var should be poikaa with one k, kk:k luultavasti (error with ^A only?) ! ^WG gives aiaa
++N+Sg+Dial/-Por:^HMETA           ill_hVVn        ;
++N+Sg+Dial/-Por:                 ess_nA          ;
++N+Sg+Dial/-Por:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
++N+Pl+Dial/-Por:^WG              nom_t           ;
++N+Pl+Dial/-Por:^AO^WG^I0%>i2    gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
++N+Pl+Dial/-Por:^AO%>j           par_A           ; ! Use i:j in twolc j, see below
++N+Pl+Dial/-Por:^AO^I0%>i2       par_A           ;
++N+Pl+Dial/-Por:^AO^HMETA        ill_hVin        ; ! toolhiin
++N+Pl+Dial/-Por:^AO^I0%>i2       ess_nA          ;
++N+Pl+Dial/-Por:^AO^I0%>i2       com_ne          ;
++N+Pl+Dial/-Por:^AO^WG^I0%>i2    sgpl_cases_even ;
+
+
+LEXICON vanha_n_21_Ra !!= * @CODE@ kuva
++N+Sg      : nom_R   ; ! miksi tämä? TODO
++N+Sg      : nom_end   ;
+
++N+Sg+Dial/Por:^WG              gen_n_sg        ;
++N+Sg+Dial/Por:                 par_V           ;
++N+Sg+Dial/Por:^HMETA           ill_hVVn        ;
++N+Sg+Dial/Por:                 ess_nA          ;
++N+Sg+Dial/Por:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
+
++N+Pl+Dial/Por:^WG              nom_t           ;
++N+Pl+Dial/Por:^A0%>i2          gen_n           ; ! gen_n         since we have the i
++N+Pl+Dial/Por:^A0%>i2          par_end         ;
++N+Pl+Dial/Por:^A0^HMETA        ill_hiin        ; ! kuvhiin
++N+Pl+Dial/Por:^A0%>i2          ess_nA          ;
++N+Pl+Dial/Por:^A0%>i2          com_ne          ;
++N+Pl+Dial/Por:^A0^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
+
++N+Sg+Dial/-Por:^WG              gen_n_sg        ;
++N+Sg+Dial/-Por:                 par_A           ;! in var should be poikaa with one k, kk:k luultavasti (error with ^A only?) ! ^WG gives aiaa
++N+Sg+Dial/-Por:^HMETA           ill_hVVn        ;
++N+Sg+Dial/-Por:                 ess_nA          ;
++N+Sg+Dial/-Por:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
+
++N+Pl+Dial/-Por:^WG              nom_t           ;
++N+Pl+Dial/-Por:^A0^WG^I0%>i2    gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
++N+Pl+Dial/-Por:^A0^I0%>i2       par_A           ;
+! +N+Pl+Dial/-Por:%>j              par_A           ; ! Use i:j in twolc j, see below. ! What words)
++N+Pl+Dial/-Por:^A0^HMETA        ill_hiin        ; ! kuvhiin
++N+Pl+Dial/-Por:^A0^I0%>i2       ess_nA          ; ! TODO here twolc doesn't work, fix tags, no a:o
++N+Pl+Dial/-Por:^A0^I0%>i2       com_ne          ;
++N+Pl+Dial/-Por:^A0^WG^I0%>i2    sgpl_cases_even ;
+! TODO maybe ^A0 (create it) instead of A2I, when it would be plural i2 consistently
+
+
+! TODO TODO TODO
+! vanha_n_21     = puku = puvuissa
+! vanha_n_21_URa = sana = sanoissa []
+! vanha_n_21_Ra  = kuva = kuvissa []
+! vanha_n_21i    = färi : färi n_21 på i er lånord  sed /i vanha_21/i vanha_21i/
+! vanha_n_21ie  = veri : vere
 
 
 LEXICON vanha_n_21i ! Not in use, just a thought, if we don't do it with TWOLC TODO ! pappi, tooli, lyhyt vokali, loppuu i:llä

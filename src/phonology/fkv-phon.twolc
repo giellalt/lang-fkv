@@ -25,6 +25,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
 %^AE:0                    !!= * @CODE@ -- a to e lauletaan
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
+%^A0:0                    !!= * @CODE@ -- a to 0
 %^I0:0                    !!= * @CODE@ -- i to 0 in vanha_x_21 -Por with i endings: tooline
 %^¤:0
 !!!*** Remember to add new tags to Dummy further down!
@@ -59,7 +60,7 @@ ArchiCns = %^N ;                                            !!= * @CODE@
 SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@
 Segment = Vowel Cns ;                                       !!= * @CODE@
-Dummy = %+ %^WG %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 ;  !!= * @CODE@
+Dummy = %+ %^WG %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^A0 ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@
 NE = %> n e ;
@@ -1039,6 +1040,7 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
                                                      :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
                                                      :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
                                                                a _ %^VDEL:0  (Dummy:) %> [s|t] ;
+                                                                 _ %^A0:0 ;
 !                                                                       _ i5: ; ! loistaaviimmin
 
 
