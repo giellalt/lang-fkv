@@ -1,0 +1,54 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - aikkoot - ok : # Verb 'to bring' - ok
+     aikkoot+V+Inf: aikkoot
+     aikkoot+V+Act+Ind+Prs+Sg1: aion
+     aikkoot+V+Act+Ind+Prs+Sg2: aiot
+     aikkoot+V+Act+Ind+Prs+Sg3: aikoo
+     aikkoot+V+Act+Ind+Prs+Pl1: aioma
+     aikkoot+V+Act+Ind+Prs+Pl2: aiotta
+     aikkoot+V+Act+Ind+Prs+Pl3: aikovat
+     aikkoot+V+Act+Ind+Prt+Sg1: aioin
+     aikkoot+V+Act+Ind+Prt+Sg2: aioit
+     aikkoot+V+Act+Ind+Prt+Sg3: aikoi
+     aikkoot+V+Act+Ind+Prt+Pl1: aioima
+     aikkoot+V+Act+Ind+Prt+Pl2: aioitta
+     aikkoot+V+Act+Ind+Prt+Pl3: aiothiin
+     aikkoot+V+Act+PrfPrc+Sg+Nom: aikonu
+     aikkoot+V+Pass+PrfPrc+Nom: aiottu
+     aikkoot+V+Act+PrfPrc+Pl+Nom: aikonheet
+     aikkoot+V+Act+PrsPrc+Sg+Nom: aikova
+     aikkoot+V+Act+PrsPrc+Pl+Nom: aikovat
+     aikkoot+V+Pass+PrsPrc+Sg+Nom: aiottava
+     aikkoot+V+Pass+PrsPrc+Pl+Nom: aiottavat
+
+     aikkoot+V+Act+Cond+Sg1: aikoisin
+     aikkoot+V+Act+Cond+Sg2: aikoisit
+     aikkoot+V+Act+Cond+Sg3: aikois
+     aikkoot+V+Act+Cond+Pl1: aikoisimma
+     aikkoot+V+Act+Cond+Pl2: aikoisitta
+     aikkoot+V+Act+Cond+Pl3: aijottais
+     aikkoot+V+Pass+Cond: aiottais
+
+     aikkoot+V+Act+Imprt+Sg2: aio
+     aikkoot+V+Act+Imprt+Pl2: aikokkaa
+
+     aikkoot+V+Act+Inf3+Ine: aikomassa
+     aikkoot+V+Act+Inf3+Ela: aikomasta
+     aikkoot+V+Act+Inf3+Ill: aikomhaan
+     aikkoot+V+Act+Inf3+Ade: aikomalla
+     aikkoot+V+Act+Inf3+Abe: aikomatta
