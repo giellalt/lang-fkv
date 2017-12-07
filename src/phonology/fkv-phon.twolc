@@ -1040,7 +1040,7 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
                                                      :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
                                                      :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
                                                                a _ %^VDEL:0  (Dummy:) %> [s|t] ;
-                                                                 _ %^A0:0 ;
+                                                                 _ (%^WG:0) %^A0:0 ;
 !                                                                       _ i5: ; ! loistaaviimmin
 
 
@@ -1062,13 +1062,13 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
 
 "a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
 !! __@RULENAME@__
-a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^WG:0) (%^I0:0) %>    [i2:|i3:|j] ; ! sannoi 2 syll
-     Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: (%^WG:0) (%^I0:0) %>     i2:   ; ! sivakoissa, sannoi
-     Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: %^HMETA:          %> %^V i2: ; ! aikhoin
-     [:k|:l]  (:i) :i             :j                                _ %^AO: (Dummy:*)         %>     i2:   ; ! kulkkiija kulkiijoissa
+a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)     _ (%^WG:0) %^AO: (%^I0:0) %>    [i2:|i3:|j] ; ! sannoi 2 syll
+     Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (%^WG:0) %^AO: (%^I0:0) %>     i2: ; ! sivakoissa sannoi
+     Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ %^AO: %^HMETA:          %> %^V i2: ; ! aikhoin
+     [:k|:l]  (:i) :i             :j                               _ %^AO: (Dummy:*)         %>     i2: ;!kulkiijoissa
 !     Cns         Vowel (Vowel)         Cns          _ %^AO: (%^WG:0)          %>     i2: ; ! vaaroitten, persoonoissa
      !p e r s o o n _ %^AO: (%^WG:0)          %>     i2: ; ! vaaroitten, persoonoissa
-     [#:|.#.] Cns       Vowel         Cns     Cns                   _ %^AO:                   %> j %> %^A: ; ! linnoja in Var
+     [#:|.#.] Cns       Vowel         Cns     Cns                  _ %^AO:                   %> j %> %^A: ; ! linnoja in Var
 !               s            a                n      0                  a  ^AO             >  i2
 !               s            a                n      n                  o   0              >  i
 !         a          i         k     k   a  ^AO  %> i2      >   n   e
@@ -1095,7 +1095,7 @@ a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^W
 
 
 ! TODO double check these with Aili
-!!€ kaula^AO^WG>i2>tten
+!!€ kaula^WG^AO>i2>tten
 !!€ kaulo00>i>tten
 
 
@@ -1124,7 +1124,8 @@ a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^W
 !a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
 a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instead of a a to catch all cases? Which could be missing?
         Vowel Cns Cns:* a   j _ (%^WG:) %^A2I:0 %> ; ! Var TODO need Vowel instead of a a to catch all cases? Which could be missing? opettajine
-        [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _ %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! kuvviin kuvvii, ruokaruokhiin, poi6ka poikhiin
+        [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _ %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! TODO Remove and fix this. ! ruokaruokhiin, poi6ka poikhiin
+                              _ (%^WG:0) %^A2I:0 ; ! kuvviin kuvvii
 ! TODO TODO TODO remove this previous context, and just f*cking split it in lexc.
 ! n_21     = puku = puvuissa
 ! n_21_URa = sana = sanoissa
@@ -1138,9 +1139,9 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 !  [.#.|#:] Cns:* u Cns :Cns _ %^AO:0 %> :i ; ! kuvviin kuvvii, ruoka ruokhiin, poi6ka poikhiin
 
 ! TODO fix this kuva
-! !!$ kuva^AO>i2
-! !!$ kuva0>i
-!!€ kuv0a^AO>i2
+!!$ kuva^A2I>i2
+!!$ kuva0>i
+!!€ kuv0a^A2I>i2
 !!€ kuvvi0>i
 
 
