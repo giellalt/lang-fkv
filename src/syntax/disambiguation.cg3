@@ -12,7 +12,7 @@
 # ========== #
 
 
-DELIMITERS = "<.>" "<...>" "<!>" "<?>" "<¶>" ;   
+DELIMITERS = "<.>" "<...>" "<!>" "<?>" "<¶>" ;
 #!! Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 
 
@@ -53,7 +53,7 @@ LIST Pl1 = Pl1 ;   #!! * Pl1 = Plural 1.p.
 LIST Pl2 = Pl2 ;   #!! * Pl2 = Plural 2.p.
 LIST Pl3 = Pl3 ;   #!! * Pl3 = Plural 3.p.
 #!! !Cases
-LIST Nom = Nom ; #!! * Nom 
+LIST Nom = Nom ; #!! * Nom
 LIST Gen = Gen ;   #!! * Gen
 LIST Acc = Acc ;   #!! * Acc
 LIST Par = Par ;   #!! * Par
@@ -109,7 +109,7 @@ SET NOT-NPMOD = WORD - NPMOD ; #!! * NOT-NPMOD = these cannot modify a noun
 
 SET NOT-NPMODADV = WORD - NPMODADV ; #!! * NOT-NPMODADV = these cannot modify a noun, and is not adverb
 
-LIST QVANT-ADV = "paljon" "vähän" "enämen" "vähemän" ;  #!! * QVANT-ADV = e.g. paljon, vähän  
+LIST QVANT-ADV = "paljon" "vähän" "enämen" "vähemän" ;  #!! * QVANT-ADV = e.g. paljon, vähän
 LIST KUNKA = "kunka" "missä" ;  #!! * KUNKA = e.g. kunka missä (adverbs that start a sentence)
 
 
@@ -128,13 +128,15 @@ SET AUX = COPULAS OR MOD-ASP OR AUX-OR-MAIN ;  #!! * AUX = verbs which can be au
 SET SV-BOUNDARY = S-BOUNDARY OR VFIN   ;  #!! * SV-BOUNDARY = words that start a sentence and finite verb
 
 
-# Here come the rules 
+# Here come the rules
 
 BEFORE-SECTIONS
 
 
 SECTION
 #!! !!Disambiguation rules
+
+#!! !Early rules
 # SELECT:Dummyrule WORD IF (0 WORD) ;
 
 #!! * __person_test__ selects finite verb if there is a Pron Pers to the left
@@ -162,6 +164,14 @@ SELECT:PropNotInit Prop (NOT *-1 BOS BARRIER WORD) ;
 
 
 
+#!! !Preposition/postposition/adverb rules
+
+REMOVE Po IF (NOT -1 Gen);
+
+#% Met panema  oven ja klasireijät kiini.
+
+REMOVE Pr IF (NOT -1 Gen);
+#% Met panema  oven ja klasireijät kiini.
 
 #!! * __Prifgenpar__ selects  preposition to the left of Gen or Par
 SELECT:Prifgenpar Pr IF (1 Gen OR Par);
@@ -183,11 +193,11 @@ MAP:CNPifN @CNP TARGET CC IF (-1 N)(*1 N BARRIER NOT-NPMOD) ;
 
 #!! * __CNPifInf__ maps @CNP to CC between two Inf
 MAP:CNPifInf @CNP TARGET CC IF (-1 Inf)(1 Inf) ;
-	
 
 
 
- 
+
+
 #!! !!More disambiguation rules
 
 #!! * __Pl3ollaifplrelpronandplinterrpron__ selects Pl3 if olla
@@ -211,25 +221,25 @@ SELECT:Sg3ollaifplrelpronandplinterrpron Sg3 IF (0 ("olla")) (*-1 (N Sg Nom) OR 
 
 #!! * __Sg3ollainpretandperf__ selects Sg3 if COPULAS
 SELECT:Sg3ollainpretandperf Sg3 IF (0 COPULAS LINK 1 PrfPrc)(*-1 BOS BARRIER WORD)  ;
-#$ Oon kirjoitettu profeeta Esekielin tykönä luvussa 34, värsyt 23 - 31: 23. 
+#$ Oon kirjoitettu profeeta Esekielin tykönä luvussa 34, värsyt 23 - 31: 23.
 # ... jokka Jumala hänen armossa oon suonut sinun palvelijale.
 
 #!! * __Sg3ollainpretandperf__ selects Sg3 if COPULAS
 SELECT:Sg3ollainpretandperf Sg3 IF (0 COPULAS LINK 1 Ade LINK *1 Nom OR Par BARRIER NOT-NPMODADV)(*-1 BOS OR S-BOUNDARY BARRIER WORD)  ;
 
-# Oonhan meilä vielä kieli. 
-# Oonko niilä semmmosta kulttuurii, mitä ... 
-#$  Oon juuri tyven. 
-#$ Oonko se tosi, ette semmoinen Alattion mies oon käyny aivan kiini Kööpenhaminassa asti ja puhunu kuninkhaan kans? 
-# Oon aamu. 
-# Oon hyvin näköistä. 
+# Oonhan meilä vielä kieli.
+# Oonko niilä semmmosta kulttuurii, mitä ...
+#$  Oon juuri tyven.
+#$ Oonko se tosi, ette semmoinen Alattion mies oon käyny aivan kiini Kööpenhaminassa asti ja puhunu kuninkhaan kans?
+# Oon aamu.
+# Oon hyvin näköistä.
 # Oonpa ihana paikka!
-# Oonko Ollin Nuutti tullu takaisin kuninkhaan tykköö? 
-# Ollin Nuutti likenee pitkin tietä ja oon heti ihmisten tykönä. 
-# Universiteetin siljola oon oikhein iso kartano. 
+# Oonko Ollin Nuutti tullu takaisin kuninkhaan tykköö?
+# Ollin Nuutti likenee pitkin tietä ja oon heti ihmisten tykönä.
+# Universiteetin siljola oon oikhein iso kartano.
 # Siinä kartanossa oon semmoinen ymmyräinen loma
-# ... mihin oon meininki lähteet? 
-# Meilä oon vielä vaapa sija. 
+# ... mihin oon meininki lähteet?
+# Meilä oon vielä vaapa sija.
 
 
 #!! * __Relpronandnotintterpron__ selects Rel Sg if Interr
@@ -239,7 +249,7 @@ SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 N + Sg OR Pron + Sg O
 # ... ota vasthaan tämän lahjan mikä tuopi minun siunauksen, ja minkä tuothiin sinule ...
 # Mutta Herra Jumala huusi miehele ja sanoi hänele: Missä sie olet?
 # Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa, ja jokka mie olen nyt kohðanu?"
-# ... ota vasthaan tämän lahjan mikä tuopi minun siunauksen, ja minkä tuothiin sinule, sillä Jumala oon näyttäny minule. 
+# ... ota vasthaan tämän lahjan mikä tuopi minun siunauksen, ja minkä tuothiin sinule, sillä Jumala oon näyttäny minule.
 
 #!! * __Relpronandnotintterpron__ selects Rel Sg if Interr
 SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 (PUNCT RIGHT) BARRIER WORD - CC LINK *-1 (PUNCT LEFT) LINK -1 N + Sg OR Pron + Sg OR Pron + Sg3 BARRIER WORD - CC) (NEGATE *1 ("?") BARRIER S-BOUNDARY) ;
@@ -249,8 +259,8 @@ SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 (PUNCT RIGHT) BARRIER
 SELECT:interrpron Interr IF  (*1 ("?") ) ;
 # Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa, ja jokka mie olen nyt kohðanu?"
 
-#!! * __differencebetweenniitäimprtandniitädemandpersifitssubj__ selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
-SELECT:differencebetweenniitäimprtandniitädemandpersifitssubj (Pron Dem Pl) OR (Pron Pers Pl3) IF (0 Par OR Nom)((1 VFIN + Pl3) OR (-1 VFIN + Pl3)) ;
+#!! * __DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj__ selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
+SELECT:DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj (Pron Dem Pl) OR (Pron Pers Pl3) IF (0 Par OR Nom)((1 VFIN + Pl3) OR (-1 VFIN + Pl3)) ;
 # ... vaikka niitä oonki paljon, oon yksi ruumis, niin oon Kristuski.
 # Net huuðethiin ...
 # Autuhaat oon net jokka oon kuttuttu Karittan hääruokapöythään.
@@ -315,7 +325,7 @@ IFF:Imperativefromconneg ConNeg IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - A
 # Mutta en mie sen tähđen ole viaton ...
 # ... ja villielläimet ei tule syömhään heitä.
 
-#!! * __ImperativeafterNeg__ removes Imprt if pronoun 
+#!! * __ImperativeafterNeg__ removes Imprt if pronoun
 REMOVE:ImperativeafterNeg Imprt IF (0 Pron)(*-1 Neg BARRIER WORD - Foc/kaan - Adv) ;
 	#$ Ei yksikhään niistä jokka mie olin kuttunu.
 
@@ -333,7 +343,7 @@ SELECT:interrel Interr OR Rel (1 CS) ; # Ei anna mithään?
 
 #MAP (@GRAM-ERR) TARGET V (0 V + 3S LINK -1 N + S) ;
 
-LIST WORDLEMMA = (".*"r) ;
+LIST WORDLEMMA = (".*"r) ; #!! * WORDLEMMA = regex giving the lemma in question
 
 #!! * __errorth__ removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 REMOVE:errorth $$WORDLEMMA + (Err/Orth) (0 $$WORDLEMMA - (Err/Orth) ) ; #Removes Err/Orth analysis when there is an analysis with same lemma without Err/Orth
