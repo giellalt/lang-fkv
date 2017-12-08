@@ -98,7 +98,7 @@ Rules
 
 "Gemination V-kkpp-i"
 !! __@RULENAME@__
- 0:Cx <=> ([a|o]) Vowel (Vowel:) Cx _ [:o|:i| \a] (%^AO:0) %> [:i - i3:] [ %> [n|t] .#. | .#.]; ! never a:0! Then only k
+ 0:Cx <=> ([a|o]) Vowel (Vowel:) Cx _ [:o|:i| \a] ([%^AO:0 | %^A2I:0]) %> [:i - i3:] [ %> [n|t] .#. | .#.]; ! never a:0! Then only k
  ! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
  ! Also Cns Vowel Cx _ i %> %^V: ;!sippiit but ^V is always :i,right?
                       Vowel (Vowel:) Cx _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
@@ -115,29 +115,29 @@ Rules
 !              _ :i ;!:o (%^AO:0) %> i2: %> n ;
 
 ! TODO Uncomment and fix ^A: issues in a:o and kkpp in general
-!   !!$ kuva^AO>i2
+!   !!$ kuva^A0>i2
 !   !!$ kuva0>i
-!   !!$ kuva^AO>i2>n
+!   !!$ kuva^A0>i2>n
 !   !!$ kuva0>i>n
-!   !!$ kuva^AO>i2>n^A
+!   !!$ kuva^A0>i2>n^A
 !   !!$ kuva0>i>na
-!    !!$ poi6ka^AO>i2>n^A
+!    !!$ poi6ka^A0>i2>n^A
 !    !!$ poika0>i>na
-!         !!€ kuva^AO>i2>n^A
+!         !!€ kuva^A0>i2>n^A
 !         !!€ kuv00>i>na
-!         !!€ poi6ka^AO>i2>n^A
+!         !!€ poi6ka^A0>i2>n^A
 !         !!€ poik00>i>na
 
 
 
-!!$ kuv0a^AO>i2>n^A
+!!$ kuv0a^A0>i2>n^A
 !!$ kuvvi0>i>na
-!!$ poi6ka^AO>i2>n^A
+!!$ poi6ka^A0>i2>n^A
 !!$ poiki0>i>na
 
-!!$ poi6ka^AO>i2>n
+!!$ poi6ka^A2I>i2>n
 !!$ poika0>i>n
-!!$ poi6ka^AO>i2
+!!$ poi6ka^A2I>i2
 !!$ poika0>i
 
 !!€ aik0a^AO>i2>n
@@ -153,27 +153,27 @@ Rules
 !!€ aika^AO>i2>ne
 !!€ aiko0>i>ne
 
-!!€ kuv0a^AO>i2>n
+!!€ kuv0a^A2I>i2>n
 !!€ kuvvi0>i>n
-!!€ kuv0a^AO>i2
+!!€ kuv0a^A2I>i2
 !!€ kuvvi0>i
 
-!!€ kuva^AO>i2>ne
+!!€ kuva^A0>i2>ne
 !!€ kuv00>i>ne
-!!$ kuv0a^AO>i2>ne
+!!$ kuv0a^A0>i2>ne
 !!$ kuvvi0>i>ne
-!!$ kuva^AO>i2>ne
+!!$ kuva^A0>i2>ne
 !!$ kuva0>i>ne
 
-!!€ poi6k0a^AO>i2>n
+!!€ poi6k0a^A2I>i2>n
 !!€ poikki0>i>n
-!!€ poi6k0a^AO>i2
+!!€ poi6k0a^A2I>i2
 !!€ poikki0>i
-!!€ poi6ka^AO>i2>ne
+!!€ poi6ka^A0>i2>ne
 !!€ poik00>i>ne
-!!$ poi6ka^AO>i2>ne
+!!$ poi6ka^A0>i2>ne
 !!$ poika0>i>ne
-!!$ poi6ka^AO>i2>ne
+!!$ poi6ka^A0>i2>ne
 !!$ poiki0>i>ne
 
 
@@ -584,7 +584,7 @@ i6:0 <=> _ k: Vowel: (%^AO:0) %^WG:0 ;
 !!€ poi6ka^WG>n
 !!€ po0ja0>n
 
-!!€ poi6ka^AO^WG>i2>le
+!!€ poi6ka^WG^A0>i2>le
 !!€ po0j000>i>le
 
 
@@ -686,7 +686,7 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 ! t:đ <=> Vowel  _  Vowel (Cns) (Dummy: - %^E2I:) %^WG:0 [\i3:|\i6:|\i2:] ;
 
-!!€ pitä^AO^WG>i3>n
+!!€ pitä^WG^AO>i3>n
 !!€ piđ000>i>n
 
 !!€ lahta^WG>i3>n
@@ -1063,6 +1063,7 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
 "a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
 !! __@RULENAME@__
 a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)     _ (%^WG:0) %^AO: (%^I0:0) %>    [i2:|i3:|j] ; ! sannoi 2 syll
+!     k               a                 l                          a   ^WG     ^AO            >     i2    >tten
      Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (%^WG:0) %^AO: (%^I0:0) %>     i2: ; ! sivakoissa sannoi
      Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ %^AO: %^HMETA:          %> %^V i2: ; ! aikhoin
      [:k|:l]  (:i) :i             :j                               _ %^AO: (Dummy:*)         %>     i2: ;!kulkiijoissa
@@ -1079,31 +1080,27 @@ a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)     _ (%^WG:0) %^
 ! TODO have asked Aili about how to differentiate persoona ja
 !   !!€ persoona^WG>i2>ss^A
 !   !!€ persoono0>i>ssa
-!   !!€ vaara^AO^WG>i2>tten
+!   !!€ vaara^WG^AO>i2>tten
 !   !!€ vaaro00>i>tten
 ! nutukoissa
-!   !!€ nutukka^AO^WG>i2>ss^A
+!   !!€ nutukka^WG^AO>i2>ss^A
 !   !!€ nutuk0o^AO0>i>ssa
 ! TODO Which order do we put the tags!? f.ex ^AO always before or after ^WG ??
 ! Apparently probably before, has been best practice so far at least it seems
 
 
-
-!!€ kala^AO^WG>i2>tten
+!!€ kala^WG^AO>i2>tten
 !!€ kalo00>i>tten
-
-
 
 ! TODO double check these with Aili
 !!€ kaula^WG^AO>i2>tten
 !!€ kaulo00>i>tten
 
-
 ! aika
-!!€ aika^AO^WG>i2>tten
+!!€ aika^WG^AO>i2>tten
 !!€ aijo00>i>tten
 
-!!€ sivakka^AO^WG>i2>tten
+!!€ sivakka^WG^AO>i2>tten
 !!€ sivak0o00>i>tten
 
 !€ kal0a>i2n

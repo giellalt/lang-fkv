@@ -98,12 +98,12 @@ LEXICON vanha_x_1pl !!= * @CODE@ = häät
 
 ! TODO TODO TODO
 ! vanha_n_21     = puku = puvuissa
-! vanha_n_21_URa = sana = sanoissa []
-! vanha_n_21_Ra  = kuva = kuvissa []
+! vanha_n_21_AO = sana = sanoissa []
+! vanha_n_21_A0_A2I  = kuva = kuvissa []
 ! vanha_n_21i    = färi : färi n_21 på i er lånord  sed /i vanha_21/i vanha_21i/
 ! vanha_n_21ie  = veri : vere
 
-LEXICON vanha_n_21 !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo, aika, pappi, tooli, syksy ! jos loppuu i:hin ne ovat lainasanoja
+LEXICON vanha_n_21 !!= * @CODE@  "poika:poi6ka", lyhyt vokali, yks vartalo, pappi, tooli, syksy ! jos loppuu i:hin ne ovat lainasanoja
 +N         : vanha_x_21 ;
 +N+Sg      : nom_R   ;
 
@@ -147,8 +147,7 @@ LEXICON vanha_x_21_oblique ! this is also called from affixes/propernouns ! puku
   +Pl+Dial/-Por:%>i2             com_ne          ;
   +Pl+Dial/-Por:^WG%>i2          sgpl_cases_even ;
 
-LEXICON vanha_n_21_URa !!= * @CODE@ sana - sanoissa. Linna? Linnoissa?
-! TODO all ^AO probably here, but not in n_21
+LEXICON vanha_n_21_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
 +N+Sg      :                    nom_R           ;
 +N+Sg      :                    nom_end         ;
 +N+Sg+Dial/Por:^WG              gen_n_sg        ;
@@ -180,7 +179,7 @@ LEXICON vanha_n_21_URa !!= * @CODE@ sana - sanoissa. Linna? Linnoissa?
 +N+Pl+Dial/-Por:^AO%>i2          com_ne          ;
 +N+Pl+Dial/-Por:^WG^AO%>i2       sgpl_cases_even ;
 
-LEXICON vanha_n_21_Ra !!= * @CODE@ kuva - kuvissa
+LEXICON vanha_n_21_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa
 +N+Sg      : nom_R   ; ! miksi tämä? TODO
 +N+Sg      : nom_end   ;
 
