@@ -1,0 +1,54 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - tulla - ok: # Verb 'to bring'
+     tulla+V+Inf: tulla
+     tulla+V+Act+Ind+Prs+Sg1: tulen
+     tulla+V+Act+Ind+Prs+Sg2: tulet
+     tulla+V+Act+Ind+Prs+Sg3: tullee
+     tulla+V+Act+Ind+Prs+Pl1: tulema
+     tulla+V+Act+Ind+Prs+Pl2: tuletta
+     tulla+V+Act+Ind+Prs+Pl3: tulhaan
+     tulla+V+Act+Ind+Prt+Sg1: tulin
+     tulla+V+Act+Ind+Prt+Sg2: tulit
+     tulla+V+Act+Ind+Prt+Sg3: tuli
+     tulla+V+Act+Ind+Prt+Pl1: tulima
+     tulla+V+Act+Ind+Prt+Pl2: tulitta
+     tulla+V+Act+Ind+Prt+Pl3: tulthiin
+     tulla+V+Act+PrfPrc+Sg+Nom: tullu
+     tulla+V+Pass+PrfPrc+Nom: tultu
+     tulla+V+Act+PrfPrc+Pl+Nom: tulheet
+     tulla+V+Act+PrsPrc+Sg+Nom: tulleeva
+     tulla+V+Act+PrsPrc+Pl+Nom: tulleevat
+     tulla+V+Pass+PrsPrc+Sg+Nom: tultava
+     tulla+V+Pass+PrsPrc+Pl+Nom: tultavat
+
+     tulla+V+Act+Cond+Sg1: tulisin
+     tulla+V+Act+Cond+Sg2: tulisit
+     tulla+V+Act+Cond+Sg3: tulis
+     tulla+V+Act+Cond+Pl1: tulisimma
+     tulla+V+Act+Cond+Pl2: tulisitta
+     tulla+V+Act+Cond+Pl3: tultais
+     tulla+V+Pass+Cond: tultais
+
+     tulla+V+Act+Imprt+Sg2: tule
+     tulla+V+Act+Imprt+Pl2: tulkkaa
+
+     tulla+V+Act+Inf3+Ine: tulemassa
+     tulla+V+Act+Inf3+Ela: tulemasta
+     tulla+V+Act+Inf3+Ill: tulemhaan
+     tulla+V+Act+Inf3+Ade: tulemalla
+     tulla+V+Act+Inf3+Abe: tulematta
