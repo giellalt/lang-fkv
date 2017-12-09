@@ -98,11 +98,12 @@ Rules
 
 "Gemination V-kkpp-i"
 !! __@RULENAME@__
- 0:Cx <=> ([a|o]) Vowel (Vowel:) Cx _ [:o|:i| \a] ([%^AO:0 | %^A2I:0]) %> [:i - i3:] [ %> [n|t] .#. | .#.]; ! never a:0! Then only k
+ 0:Cx <=> ([a|o]) Vowel (Vowel:) Cx _ [:o|:i| \a] ([%^AO:0 | %^A2I:0]) %> [:i - i3:] [ %> [n|t] .#. | .#.]; ! never a:0! Then only k           a       i             Cx _ a:o           %^AO:0             %>   i2:i %> n #. ;
+ ! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
  ! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
  ! Also Cns Vowel Cx _ i %> %^V: ;!sippiit but ^V is always :i,right?
-                      Vowel (Vowel:) Cx _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
-                      Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
+                  Vowel (Vowel:) Cx _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
+                  Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
        where Cx in ( k p ) ; ! v excluded
          !     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
 
