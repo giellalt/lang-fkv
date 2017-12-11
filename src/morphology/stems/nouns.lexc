@@ -11,8 +11,8 @@ LEXICON NounRoot !!= @CODE@
 
     !! ** 2.1 Kaksitavuiset ( aika, pappi, juoppo )	(prob.split i)= n_11        ! vanha_n_21
     ! TODO legg til vanha_n_21i = färi
-    ! TODO legg til vanha_n_21_URa = sana = sanoissa []
-    ! TODO legg til vanha_n_21_Ra  = kuva = kuvissa []
+    ! TODO legg til vanha_n_21_AO = sana = sanoissa []
+    ! TODO legg til vanha_n_21_A0_A2I  = kuva = kuvissa []
     !! *** 2.1.1  Kaksitavuiset monikko (housut )   	            = n_11_pl     ! vanha_n_21pl
     !! *** 2.1.2  Kaksitavuiset (joki: joke )                     = n_11_ie     ! vanha_n_21ie
 
@@ -118,7 +118,7 @@ aihki vanha_n_21i ;
 aijanjakso:aijan#jakso vanha_n_21 ;
 aijankulu:aijan#kulu vanha_n_21 ;
 aijankäännet:aijan#käänn vanha_n_33t ;
-aika vanha_n_21 ;
+aika vanha_n_21_AO ;
 aika-avaruus:aika-avaruu vanha_n_32s ;
 aikakartta:aika#kartta vanha_n_21 ;
 aikaknappi:aika#knappi vanha_n_21i ;
@@ -2067,7 +2067,7 @@ kuurto-oorninki vanha_n_22oddi ;
 kuusi:kuute vanha_n_31si ;
 kuutama vanha_n_22oi ;
 kuuđain:kuuđai vanha_n_32m ;
-kuva:kuva vanha_n_21_Ra ;
+kuva:kuva vanha_n_21_A0_A2I ;
 kuva-albumi vanha_n_22oddi ;
 kuvadokumentašuuni:kuva#dokumentašuuni vanha_n_22 ;
 kuvakavalkaadi:kuva#kavalkaadi vanha_n_22 ;
@@ -2360,7 +2360,7 @@ limppu vanha_n_21 ;
 linja vanha_n_21 ;
 linkki vanha_n_21i ;
 linko vanha_n_21 ;
-linna vanha_n_21_URa ; !!= * @CODE@
+linna vanha_n_21_AO ; !!= * @CODE@
 linnukka vanha_n_22oi ;
 linsi vanha_n_21i ;
 lintu vanha_n_21 ;
@@ -3381,7 +3381,7 @@ pohjaismaa:pohjais#maa vanha_n_1 ;
 pohjaistuuli:pohjais#tuule vanha_n_31 ;
 pohjapiirustus:pohja#piirustu vanha_n_41 ;
 pohjaturvet:pohja#turp vanha_n_33t ;
-poika:poi6ka vanha_n_21 ;
+poika:poi6ka vanha_n_21_A0_A2I ;
 poikainen:poikai vanha_n_42 ;
 poikamies:poika#mie vanha_n_31mies ;
 poikanen:poika vanha_n_42odd ;
@@ -4003,7 +4003,7 @@ salva vanha_n_21 ;
 sammakko vanha_n_22oi ;
 sammal:sammal vanha_n_32 ;
 sammalet:sammal vanha_n_33t ;
-sana vanha_n_21_URa ;
+sana vanha_n_21_AO ;
 sanansaattaaja:sanan#saattaaja vanha_n_22odd ;
 sanapuohi:sana#puohe vanha_n_21ie ;
 sanatoriumi vanha_n_21i ;
