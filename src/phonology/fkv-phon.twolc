@@ -98,7 +98,8 @@ Rules
 
 "Gemination V-kkpp-i"
 !! __@RULENAME@__
- 0:Cx <=> ([a|o]) Vowel (Vowel:) Cx _ [:o|:i| \a] ([%^AO:0 | %^A2I:0]) %> [:i - i3:] [ %> [n|t] .#. | .#.]; ! never a:0! Then only k           a       i             Cx _ a:o           %^AO:0             %>   i2:i %> n #. ;
+ 0:Cx <=> ([a|o]) Vowel (Vowel:) Cx _ [:o|:i| \a] ([%^AO:0 | %^A2I:0]) %> [:i - i3:] [ %> [n|t] #. | #.]; ! never a:0! Then only k           a       i             Cx _ a:o           %^AO:0             %>   i2:i %> n #. ;
+ ! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar?
  ! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
  ! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
  ! Also Cns Vowel Cx _ i %> %^V: ;!sippiit but ^V is always :i,right?
@@ -580,7 +581,7 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 
 "Gradation i6:0, in word poika: pojan"
 !! __@RULENAME@__
-i6:0 <=> _ k: Vowel: (%^AO:0) %^WG:0 ;
+i6:0 <=> _ k: Vowel: %^WG:0 (%^AO:0) ;
 
 !!€ poi6ka^WG>n
 !!€ po0ja0>n
@@ -664,7 +665,7 @@ k:v <=> [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !!€ kovo0>ta
 
 ! "k:0 for joke -> joen in VAR"! TODO DONE
-! k:0 <=> [o|ö] _ e: %^¤:0 (Dummy:) (:i) (Dummy:) %^WG:0 ;
+! k:0 <=> [o|ö] _ e: %^¤:0 (Dummy:) (:i) (Dummy:) %^WG:0 ; ! TODO Dummy probably after ^WG, since ^WG^AO is the rule
 
 
 "Gradation nk:ng"
@@ -682,10 +683,10 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "Gradation t:đ"
 !! __@RULENAME@__
- t:đ <=> Vowel _ Vowel: (Cns) [Dummy: - %^E2I:]* (:i) [Dummy: - %^E2I:]* %^WG:0  ;  !
+ t:đ <=> Vowel _ Vowel: (Cns) [Dummy: - %^E2I:]* (:i) [Dummy: - %^E2I:]* %^WG:0 ; ! TODO ^WG other tag order, is right?
              h _ Vowel: (Cns) (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
-! t:đ <=> Vowel  _  Vowel (Cns) (Dummy: - %^E2I:) %^WG:0 [\i3:|\i6:|\i2:] ;
+! t:đ <=> Vowel  _  Vowel (Cns) (Dummy: - %^E2I:) %^WG:0 [\i3:|\i6:|\i2:] ; ! TODO ^WG other tag order keep in mind
 
 !!€ pitä^WG^AO>i3>n
 !!€ piđ000>i>n
@@ -707,7 +708,7 @@ t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
 !  Vowel [n|l|r]  _      (e:) %^E2I: ; ! kansi
   Vowel [n|l|r]  _  :s  (e:) %> :i    ; ! hirssii !  Vowel [n|l|r]  _  :s  (e:) %^E2I: %> :i    ; ! hirssii
   Vowel [n|l|r]  _      Vowel:0 (%^WG:0) (%^E2I:)  %> i2:  ;
-  Vowel [n|l|r]  _ (:s) Vowel:0 (%^AO:0) (%^WG:0)  %> i3:  ;
+  Vowel [n|l|r]  _ (:s) Vowel:0 (%^WG:0) (%^AO:0)  %> i3:  ;
   Vowel  Vowel   _ (:s) Vowel:0 (%^AO:0)           %> i3:  ;
   Vowel     n    _      Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
   Vowel ([n|l|r]) _      e:0  %^HMETA:0         %> h :i ;
@@ -727,7 +728,7 @@ t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
 !%>r%>i3
 !%>r%>i3%^WG
 !%^AO%>i3
-!%^AO%^WG%>i3
+!%^WG%^AO%>i3
 !%^WG%>i3
 !v%>i3
 !v%>i3%^WG
@@ -748,11 +749,10 @@ t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
 !! __@RULENAME@__
 t:Nx <=> [.#.|#] Cns* Vowel Nx _ :Vowel (Cns) ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
     where Nx in ( l n r ) ;
-
+! TODO TODO TODO for both these rules, maybe the dummy should be after the ^WG. Usually our rule is: ^WG^AO...
 "Gradation Nt:N in other circumstances"
 !! __@RULENAME@__
 t:0 <=> Vowel Cns* Vowel Nx  _  :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
-
     where Nx in ( l n r ) ;
 
 !!€ pe#rintö^WG>n
@@ -941,7 +941,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 !!€ rakkaa^VDEL^WG>s
 !!€ rak0a000>s
-
+! TODO maybe change the system to be ^WG then VDEL, if so, fix this test afterwards
 !! !!e rules
 !  =========
 
@@ -963,7 +963,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "e:0 in consonant stems and illative plural"
 !! __@RULENAME@__
- e:0 <=> (Cns) Vowel (Vowel) Cns:+ _ ([%^AO: |%^AE:|%^VDEL:]) [(%^WG:)  %> [i3:|i4:] | %^EDEL:0 %> [t|h] ] ;
+ e:0 <=> (Cns) Vowel (Vowel) Cns:+ _ (%^WG:) ([%^AO: |%^AE:|%^VDEL:]) [(%^WG:)  %> [i3:|i4:] | %^EDEL:0 %> [t|h] ] ;
+ ! TODO fix the ^WG uglyness in the row above. rule is: ^WG^AO, but usually so far ^VDEL^WG. Hmm
           :Vowel :SurfaceCns Cns:* _  (%^WG:0)  %> i2: ;              ! left context bec of tie>i2 : t0e0i
                               :Cns _  (%^E2I:0) %> i2: ;
                               :Cns _  (%^E2I:0) %^HMETA:0 %> h [%^V:|i] ;
@@ -997,7 +998,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense"
 !! __@RULENAME@__
- i:0 <=> [#:|.#.] Cns:* Vowel:+ Cns:* (:Cns)               _ (%^AO:) (%^WG:) %>  :i %> [ %^V: n | %^V: | t t e ] ; ! ristien, kväänitten, papiiksi
+ i:0 <=> [#:|.#.] Cns:* Vowel:+ Cns:* (:Cns)               _ (%^WG:) (%^AO:) %>  :i %> [ %^V: n | %^V: | t t e ] ; ! ristien, kväänitten, papiiksi
                                        :Cns                _ Dummy:*         %> [ i3:i | i4:i ] ; ! leikin, tohtisin
                                         :Cns [a|e|o|u|y|ö] _                 %> [ i2:i | i ] ;   ! tuoresta0>i2ksi
          [#:|.#.] Cns:* Vowel:+ Cns:* (:Cns)               _ (%^WG:)         %> i2:i ;
@@ -1025,16 +1026,17 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__
-a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO:0 [%^WG:0 (%^I0:0) %> [i2:|i3:] | a:0 ] ;
-! TODO which case is a:0 at the end? Also kuvina/e here, i or not, depends on dialect remember. ! Also: used to have %^AO: as optional in (),
+a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^WG:0 %^AO:0 (%^I0:0) %> [i2:|i3:] ;
+        [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO:0 a:0 ;
+        ! TODO which case is a:0 at the end? Also kuvina/e here, i or not, depends on dialect remember. ! Also: used to have %^AO: as optional in (),
         [#:|.#.]  Cns    (RoundedVowel) [u|o]  (i6:)                        Cns  _ %^AO:0 (%^I0:0) %> i2:i %> n  [e | :a | :ä ] ;
 ! TODO TODO if ^A: it says no realizations, if :a | :ä it just ignores them?
 ! TODO check if context should be more extensive. NOT :Cns though!
-!            p                                 o            i6    k                a  ^AO    ^WG    >  i2         >le
+!            p                                 o            i6    k                a  ^WG     ^AO    >  i2         >le
 ! pojile a:0, mutta poikhiin a:i
 !            p                                 o             0   j                 0   0       0       >i>le
 
-[#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)       [:a|:e]   [:v|:m] _ (%^AO:0) (%^WG:0)   (%>) (i)        %> (i) :i (i) %> ;
+[#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)       [:a|:e]   [:v|:m] _ (%^WG:0) (%^AO:0)   (%>) (i)        %> (i) :i (i) %> ;
          ! check first (i)? <- What is this? added :i to catch loistaava superl too. should be [i2:|i5:]?
                  Vowel:+ Cns: (Cns:)                             _ (%^WG:0)            %> i3: (%>) ; ! kirjoitan/tin
                                                      :SurfaceCns _ ([%^E2I:|%^AO:]) %^HMETA:  %> h [:a|i:] ;
@@ -1062,14 +1064,15 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
 
 
 "a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
+! WG always before AO always before AO
 !! __@RULENAME@__
-a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)     _ (%^WG:0) %^AO: (%^I0:0) %>    [i2:|i3:|j] ; ! sannoi 2 syll
-!     k               a                 l                          a   ^WG     ^AO            >     i2    >tten
-     Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (%^WG:0) %^AO: (%^I0:0) %>     i2: ; ! sivakoissa sannoi
-     Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ %^AO: %^HMETA:          %> %^V i2: ; ! aikhoin
-     [:k|:l]  (:i) :i             :j                               _ %^AO: (Dummy:*)         %>     i2: ;!kulkiijoissa
-!     Cns         Vowel (Vowel)         Cns          _ %^AO: (%^WG:0)          %>     i2: ; ! vaaroitten, persoonoissa
-     !p e r s o o n _ %^AO: (%^WG:0)          %>     i2: ; ! vaaroitten, persoonoissa
+a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)     _ (%^WG:0) %^AO: (%^I0:0)  %>    [i2:|i3:|j] ; ! sannoi 2 syll
+!     k               a                 l                          a   ^WG     ^AO             >     i2    >tten
+     Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (%^WG:0) %^AO: (%^I0:0)  %>     i2: ; ! sivakoissa sannoi
+     Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (Dummy:*) %^AO: %^HMETA: %> %^V i2: ; ! aikhoin
+     [:k|:l]  (:i) :i             :j                               _ (Dummy:*) %^AO:          %>     i2: ; !kulkiijoissa
+!     Cns         Vowel (Vowel)         Cns          _ (%^WG:0) %^AO:           %>     i2: ; ! vaaroitten, persoonoissa
+     !p e r s o o n _ (%^WG:0) %^AO:           %>     i2: ; ! vaaroitten, persoonoissa
      [#:|.#.] Cns       Vowel         Cns     Cns                  _ %^AO:                   %> j %> %^A: ; ! linnoja in Var
 !               s            a                n      0                  a  ^AO             >  i2
 !               s            a                n      n                  o   0              >  i
@@ -1086,7 +1089,7 @@ a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)     _ (%^WG:0) %^
 ! nutukoissa
 !   !!€ nutukka^WG^AO>i2>ss^A
 !   !!€ nutuk0o^AO0>i>ssa
-! TODO Which order do we put the tags!? f.ex ^AO always before or after ^WG ??
+! TODO Which order do we put the tags!? f.ex ^AO always before or after ^WG ?? Answer: yes!! ^WG^Awhatever
 ! Apparently probably before, has been best practice so far at least it seems
 
 
@@ -1113,8 +1116,8 @@ a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)     _ (%^WG:0) %^
 !"NOT a:a when it should be a:o or a:i in pl gen and par "
 !!! __@RULENAME@__
 !a:a /<= k u v _ %^AO %> i2: %> n .#. ;
-![#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ %^AO: (%^WG:0)  %> [i2:|i3:|j] ; ! sannoi 2 syll
-     !Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ %^AO: (%^WG:0)  %> i2:   ; ! sivakoissa, sannoi
+![#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)      _ (%^WG:0) %^AO:   %> [i2:|i3:|j] ; ! sannoi 2 syll
+     !Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ (%^WG:0) %^AO:   %> i2:   ; ! sivakoissa, sannoi
         ![.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _ %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! kuvviin kuvvii, ruokaruokhiin,
 
 "a:i in 3-syll stems with long a and i"
@@ -1229,7 +1232,7 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 
 "i:0 in vanha_n_21 -Por with I0 tag"
 !! __@RULENAME@__
- i:0 <=> Cns: _ %^AO:0 (%^WG:0) %^I0:0 %> i2:i %> ; ! tooline in Var ja Jok. Not tooliine, which is in Por
+ i:0 <=> Cns: _ (%^WG:0) %^AO:0 %^I0:0 %> i2:i %> ; ! tooline in Var ja Jok. Not tooliine, which is in Por
 
 
 !! !Shortening
@@ -1255,7 +1258,7 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 
 "a:e in passives and in comparative"
 !! __@RULENAME@__
-Vx:e <=> _  %^AE:0 (%^WG:0) %> t (t) ;
+Vx:e <=> _  (%^WG:0) %^AE:0 %> t (t) ;
     [.#.|#:] Cns:* Vowel: (Vowel:) Cns:* _ (%^WG:0) %> [ m p | m m ] [i|%^A:] (%>) ;
      where Vx in ( a ä ) ;
      ! Vx:e <=> _  %^AE:0 (t) (t) ;
