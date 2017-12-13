@@ -41,10 +41,10 @@ LEXICON VANH
 !             +A+Pl:^AO%>i2       ess_nA          ;
 
 !             +A:^WG              weak_v_stem_pl  ;
-!          +A+Pl:^AO^WG%>i2       sgpl_cases_even ; !the same affix in sg and pl
+!          +A+Pl:^WG^AO%>i2       sgpl_cases_even ; !the same affix in sg and pl
 !                                 2TAVU_V_ill_sg  ;
 ! +A+Pl+Dial/Por:^AO%>i2          shortestgenpl   ; ! shortestgenpl since we have the i
-!+A+Pl+Dial/-Por:^AO^WG%>i2       gen_tten        ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322
+!+A+Pl+Dial/-Por:^WG^AO%>i2       gen_tten        ;! syksyitten, toolitten. Dialect ! longgenpl, eira 5322
 ! +A+Pl+Dial/Por:^AO%>i2          par_end         ;
 !+A+Pl+Dial/-Por:^AO%>j           par_A           ; ! remove one
 !+A+Pl+Dial/-Por:^AO%>i2          par_A           ; ! remove one
@@ -63,14 +63,23 @@ LEXICON VANH
 LEXICON vanha_nocomp_a_21  !!= * @CODE@
 +A                :           vanha_x_21         ;
 
+LEXICON vanha_a_21i  !!= * @CODE@ siisti
++A                :           vanha_x_21i  ;
++A                :^WG^AE     comp_m_odd   ;
++A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
+
++A                :^WG^AE%>i5 superl_m_odd ;
++A+Dial/Var       :^WG^AE%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
+
+
 LEXICON vanha_a_21  !!= * @CODE@ siisti
 +A                :           vanha_x_21   ;
 
-+A                :^AE^WG     comp_m_odd   ;
++A                :^WG^AE     comp_m_odd   ;
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
 
-+A                :^AE^WG%>i5 superl_m_odd ;
-+A+Dial/Var       :^AE^WG%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
++A                :^WG^AE%>i5 superl_m_odd ;
++A+Dial/Var       :^WG^AE%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
 
  !+A:^WG a_weak_v_stem ;
 
