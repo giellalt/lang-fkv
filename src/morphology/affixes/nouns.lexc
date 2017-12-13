@@ -218,6 +218,7 @@ LEXICON vanha_n_21i ! Not in use, just a thought, if we don't do it with TWOLC T
 +N+Sg      : nom_end            ;
 
 LEXICON vanha_x_21i ! Not in use, pappi, tooli, lyhyt vokali, loppuu i:llä
+  +Sg      :    nom_end                 ;
   +Sg      :^WG              gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
   +Sg+Dial/-Por:                 par_A           ;! in var should be poikaa with one k
