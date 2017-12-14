@@ -98,7 +98,10 @@ Rules
 
 "Gemination V-kkpp-i"
 !! __@RULENAME@__
- 0:Cx <=> ([a|o]) Vowel (Vowel:) Cx _ [:o|:i| \a] ([%^AO:0 | %^A2I:0]) %> [:i - i3:] [ %> [n|t] #. | #.]; ! never a:0! Then only k           a       i             Cx _ a:o           %^AO:0             %>   i2:i %> n #. ;
+ 0:Cx <=> ([a|o]) Vowel (Vowel:) Cx _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] %> [n|t] .#. ; ! never a:0! Then only k           a       i           Cx _ a:o           %^AO:0             %>   i2:i %> n #. ;
+          ([a|o]) Vowel (Vowel:) Cx _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] .#. ; ! Maybe [Dummy:* - ^A0] ?
+ ! removed the /a, so not a:a, keep in mind if strange bugs appear. used2be [:o|:i|\a]
+ ! should not be any ^WG in these context, not in gen and par.
  ! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar?
  ! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
  ! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
