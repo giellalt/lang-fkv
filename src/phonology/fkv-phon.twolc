@@ -108,6 +108,7 @@ Rules
  ! Also Cns Vowel Cx _ i %> %^V: ;!sippiit but ^V is always :i,right?
                   Vowel (Vowel:) Cx _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
                   Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
+                  Vowel (Vowel:) Cx _ Vowel:           %> %^V:i ; ! sopi soppii
        where Cx in ( k p ) ; ! v excluded
          !     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
 
@@ -196,18 +197,14 @@ Rules
 ! !!€ aik0a^AO>i2
 ! !!€ aikko0>i
 
-!!€ poi6k0a^AO>i2>n
+!!€ poi6k0a^A2I>i2>n
 !!€ poikki0>i>n
 
-! !!$ poi6ka^AO>i2>n
-! !!$ poika0>i>n
+!!$ poi6ka^A2I>i2>n
+!!$ poika0>i>n
 
-! !!€ poi6k0a>i2>^V>
-! !!€ poikk0>i>i> a:i instead of this
 
 ! s      o   p                      i  %> ^Vt
-!!€ sop0i>^V
-!!€ soppi>i
 !!€ sop0i>^V
 !!€ soppi>i
 
@@ -1039,9 +1036,11 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
 ! pojile a:0, mutta poikhiin a:i
 !            p                                 o             0   j                 0   0       0       >i>le
 
-[#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)       [:a|:e]   [:v|:m] _ (%^WG:0) (%^AO:0)   (%>) (i)        %> (i) :i (i) %> ;
+[#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)       [:a|:e]   [:v|:m] _ (%^WG:0) (%^AO:0) (%>) (i)        %> (i) :i (i) %> ;
          ! check first (i)? <- What is this? added :i to catch loistaava superl too. should be [i2:|i5:]?
-                 Vowel:+ Cns: (Cns:)                             _ (%^WG:0)            %> i3: (%>) ; ! kirjoitan/tin
+                 Vowel:+ Cns: (Cns:)                             _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan/tin
+                 Vowel:+ Cns: (Cns:)                             _ (%^AO:0)           %> i3: (%>) ; ! antoi ja muita
+                 ! TODO not good to use ^AO here, instead of ^A0, it's there because the v2 lexica has not been split.
                                                      :SurfaceCns _ ([%^E2I:|%^AO:]) %^HMETA:  %> h [:a|i:] ;
                                                      :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
                                                      :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
