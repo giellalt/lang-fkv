@@ -374,28 +374,26 @@ LEXICON vanha_n_22oddi !!= * @CODE@  meininki, tunturi TODO
 
 LEXICON vanha_x_22oddi
   +Sg      :        nom_end               ;
-  +Sg      :^WG     sgpl_cases_odd  ;
   +Sg      :^WG     gen_n_sg        ;
   +Sg+Dial/Por:        par_V           ;
   +Sg+Dial/-Por:        par_A           ;
   +Sg      :^HMETA  ill_hVVn        ;
   +Sg      :        ess_nnA         ;
+  +Sg      :^WG     sgpl_cases_odd  ;
 
   +Pl      :^WG     nom_t           ;
-  +Pl+Dial/Por:^WG%>i2 sgpl_cases_even ; ! Adding  to block i:0
-  +Pl+Dial/-Por:^WG%>   sgpl_cases_odd  ; ! Adding  to block i:0
   +Pl+Dial/Por:^WG%>i2 gen_tten        ;
-  +Pl+Dial/-Por:^WG%>   gen_tten        ;
+  +Pl+Dial/-Por:^WG     gen_tten        ;
   +Pl+Dial/Por:%>i2    par_tA          ;
-  +Pl+Dial/-Por:%>      par_A           ;
+  +Pl+Dial/-Por:        par_A           ;
   +Pl      :^HMETA  ill_hiin        ;
   +Pl+Dial/Por:%>i2    ess_nA          ;
-  +Pl+Dial/Var:        ess_nnA         ;
-  +Pl+Dial/Jok:        ess_nnA         ;
+  +Pl+Dial/-Por:        ess_nnA         ;
   +Pl+Dial/Por:%>i2    com_ne          ;
-  +Pl+Dial/Var:        com_nne         ;
-  +Pl+Dial/Jok:        com_nne         ;
+  +Pl+Dial/-Por:        com_nne         ;
 
+  +Pl+Dial/Por:^WG%>i2 sgpl_cases_even ; ! Adding  to block i:0
+  +Pl+Dial/-Por:^WG%>   sgpl_cases_odd  ; ! Adding  to block i:0
 
 !  Tarkista, onko yaml oikein:
 !  [24/25][FAIL] meininki+N+Pl+Ess => Missing results: meininkiinä
