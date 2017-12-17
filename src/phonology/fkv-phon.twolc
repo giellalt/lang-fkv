@@ -66,6 +66,9 @@ NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  
 NE = %> n e ;
 EÄA = e %^A ;
 
+! Development rules:
+! --- NO UNCLEAR SEQUENCES WITHOUT A FUCKING EXPLANATION (and TESTS): (Cns:*) :Cns+ Cns:* (:Cns)
+! --- One TRIGGER, one change! No ^AO that means a:o and a:0 and a:i, then 3 DIFFERENT triggers
 
 !! !!!Rules
 Rules
@@ -233,10 +236,10 @@ Rules
  0:t <=> :Vowel t _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
          :Vowel t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
          :Vowel t _ e:            %> i7:i Cns ; ! contr verbs
-[.#.|#:] Cns:+ Vowel:+ [l|r|n|m] t _ :a %> :a ; ! TODO used to be in LIQa. Twolc doesn't work,
-! or act as supposed to. Try with HFST and see if it works any better. WTF
-! !!€ ant0a>^Vt
-! !!€ antta>at ! commented out after conversation with Sjur and Trond, Twolc not working as exptected
+[.#.|#:] Cns:* Vowel:+ [l|r|n|m] t _ :a %> :a ; ! TODO used to be in LIQa.
+
+!!€ ant0a>^Vt
+!!€ antta>at
 
 
 !
@@ -281,7 +284,7 @@ Rules
 0:Cx <=> [ .#. | #: ] Cns:* Vowel:* Vowel Cx _ a %> :a ; ! TODO this is the line from the comment below about dialects
 !          Vowel [n|l|r] _ a %> a:a ;
 ! maybe add  [n|l|r] somewhere here
-a n t _ a %> %^V t; ! TODO TODO TODO, how does this not work? Do more twolc (the program) testing, because wtf?
+!a n t _ a %> %^V t; ! TODO TODO TODO, how does this not work? Do more twolc (the program) testing, because wtf?
        where Cx in ( k p t s ) ;
 ! Add these when it's fixed
 ! !!€ ant0a>^Vt
@@ -1041,25 +1044,33 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! __@RULENAME@__
 a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^WG:0 %^AO:0 (%^I0:0) %> [i2:|i3:] ;
         [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO:0 a:0 ;
-        ! TODO which case is a:0 at the end? Also kuvina/e here, i or not, depends on dialect remember. ! Also: used to have %^AO: as optional in (),
+        ! TODO which case is a:0 at the end? Also kuvina/e here, i or not, depends on dialect remember.
+        ! Also: used to have %^AO: as optional in (),
         [#:|.#.]  Cns    (RoundedVowel) [u|o]  (i6:)                        Cns  _ %^AO:0 (%^I0:0) %> i2:i %> n  [e | :a | :ä ] ;
 ! TODO TODO if ^A: it says no realizations, if :a | :ä it just ignores them?
 ! TODO check if context should be more extensive. NOT :Cns though!
-!            p                                 o            i6    k                a  ^WG     ^AO    >  i2         >le
-! pojile a:0, mutta poikhiin a:i
-!            p                                 o             0   j                 0   0       0       >i>le
-
 [#:|.#.] (Cns:*) Vowel:+ Cns: (Cns:) (a)       [:a|:e]   [:v|:m] _ (%^WG:0) (%^AO:0) (%>) (i)        %> (i) :i (i) %> ;
          ! check first (i)? <- What is this? added :i to catch loistaava superl too. should be [i2:|i5:]?
                  Vowel:+ Cns: (Cns:)                             _ (%^WG:0)           %> i3: (%>) ; ! kirjoitan/tin
-                 Vowel:+ Cns: (Cns:)                             _ (%^AO:0)           %> i3: (%>) ; ! antoi ja muita
-                 ! TODO not good to use ^AO here, instead of ^A0, it's there because the v2 lexica has not been split.
+                 Vowel:+ Cns: (Cns:)                             _ (%^AO:0)           %> i3: (%>) ; ! antoi (ja muita v2 w/a:o)
+! TODO not good to use ^AO here, instead of ^A0, it's there because the v2 lexica has not been split.
                                                      :SurfaceCns _ ([%^E2I:|%^AO:]) %^HMETA:  %> h [:a|i:] ;
                                                      :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
                                                      :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
                                                                a _ %^VDEL:0  (Dummy:) %> [s|t] ;
                                                                  _ (%^WG:0) %^A0:0 ;
 !                                                                       _ i5: ; ! loistaaviimmin
+
+
+! TODO TODO TODO talk to Aili about making a REALLY GOOD RoundedVowelUOYÖ (a|e|i) alternative structure!!!
+! anttaat:anta antoi mutta luottaat:luotta luotti
+! Elikkäs anta^AO>i3 a:o
+! Mutta luotta^AO>i3 a:0
+!    l               u o                  t            t    0    0   >  i
+!          RoundedVowelY:+               Cns:        (Cns:) _ %^AO: %> i3: ; ! antoi (ja muita v2 w/a:o)
+!vs
+![#:|.#.] UnroundedVowelEAIÄ ([u|i|e|a]) Cns: (:Cns) (Cns:) _ %^AO: %> i3: ; ! sannoi 2 syll
+!                        a                 n           t    o    0   >  i
 
 
 !"^A:A aina"
