@@ -37,7 +37,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pl2 = Plural 2.p.
 * Pl3 = Plural 3.p.
 !Cases
-* Nom 
+* Nom
 * Gen
 * Acc
 * Par
@@ -91,7 +91,7 @@ Interrpronpl "kuka" ja "mikä"
 
 * NOT-NPMODADV = these cannot modify a noun, and is not adverb
 
-* QVANT-ADV = e.g. paljon, vähän  
+* QVANT-ADV = e.g. paljon, vähän
 * KUNKA = e.g. kunka missä (adverbs that start a sentence)
 
 
@@ -115,6 +115,8 @@ Interrpronpl "kuka" ja "mikä"
 
 !!Disambiguation rules
 
+!Early rules
+
 * __person_test__ selects finite verb if there is a Pron Pers to the left
 
 * __adv_after_V__ selects adverb if there is a verb to the right
@@ -125,6 +127,10 @@ Interrpronpl "kuka" ja "mikä"
 * __PropInit__ removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
 
 * __PropNotInit__ selects  propernoun if it is not in the beginning of a sentence
+
+
+
+!Preposition/postposition/adverb rules
 
 
 
@@ -163,7 +169,7 @@ Interrpronpl "kuka" ja "mikä"
 
 * __interrpron__ selects Interr if ? in the end
 
-* __differencebetweenniitäimprtandniitädemandpersifitssubj__ selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
+* __DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj__ selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
 
 
 * __paljonadvandnotpaljonoun__ selects Adv if paljon
@@ -181,7 +187,7 @@ Interrpronpl "kuka" ja "mikä"
 
 * __Imperativefromconneg__ selects and removes ConNeg
 
-* __ImperativeafterNeg__ removes Imprt if pronoun 
+* __ImperativeafterNeg__ removes Imprt if pronoun
 
 
 
@@ -190,6 +196,7 @@ Interrpronpl "kuka" ja "mikä"
 * __interrel__ selects Interr of Rel if CS to the right
 
 
+* WORDLEMMA = regex giving the lemma in question
 
 * __errorth__ removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 
