@@ -20,17 +20,20 @@
  * %^HMETA:0                  h metateesi sykshyyn
  * %^WG:0                     weak grade hatun
  * %^E2I:0                    e to i in nom ove : ovi
+ * %^A2I:0                    a to i in opettajine (Var)
  * %^VDEL:0 %^EDEL:0          -- DEL = deletion
  * %^AE:0                     -- a to e lauletaan
  * %^AO:0                     -- a to o sanoissa
+ * %^A0:0                     -- a to 0
+ * %^I0:0                     -- i to 0 in vanha_x_21 -Por with i endings: tooline
 
 
 !!Sets
  * FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            
  * BackVowel = a o u å ;                                       
  * ArchiVowel =  %^A %^O %^U ;                                 
- * RoundedVowel = e ä a i i2 i3 i4 i5 i6 i7 ;                  
- * UnroundedVowel = y ö u o ;                                  
+ * UnroundedVowel = e ä a i i2 i3 i4 i5 i6 i7 ;                
+ * RoundedVowel = y ö u o ;                                    
  * SomeVowel = %^V ;                                           
  * NeutralVowel = e i i2 i3 i4 i5 i6 i7 ;                      
  * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;       
@@ -49,7 +52,7 @@
  * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  
  * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        
  * Segment = Vowel Cns ;                                       
- * Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  
+ * Dummy = %+ %^WG %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^A0 ;  
  * DummyBorder = Dummy %> ;          
  * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  
 
@@ -415,8 +418,6 @@ __Gradation i6:0, in word poika: pojan__
 * __huo0a0>ta __
 
 
-
-
 * __ruoka^WG>n __
 * __ruova0>n __
 
@@ -425,6 +426,7 @@ __Gradation i6:0, in word poika: pojan__
 
 * __koko^WG>t^A __
 * __kovo0>ta __
+
 
 
 __Gradation nk:ng__
@@ -518,6 +520,15 @@ __Vowel copying in long h-illative sg first vowel__
 __Vowel copying in long h-illative sg second vowel__
 
 
+* __lapse^HMETA>h^V^Vn __
+* __laps00>heen __
+
+* __lume^HMETA>h^V^Vn __
+* __lum00>heen __
+
+* __mieh^HMETA>h^V^Vn __
+* __mieh0>heen __
+
 * __vereks>h^V^Vn __
 * __vereks>heen __
 
@@ -577,7 +588,9 @@ __e:i in nom.sg. of e-stems__
 * __ove^E2I __
 * __ovi0 __
 
-__e:i in n_23ia kauhia hopia__
+__e:i in n_23ia kauhia hopia in Var__
+* __kauhe^E2I^¤>^A __
+* __kauhi00>a __
 
 __e:0 in consonant stems and illative plural__
 
@@ -594,7 +607,7 @@ __e:0 in consonant stems and illative plural__
 * __vuote^HMETA>hii __
 * __vuos00>hii __
 
-Cns:0 in hoppe- hope-a in Var @RULENAME@ Jok 
+Cns:0 in hoppe- hope-a in Var @RULENAME@ Jok
 
 
 !!i rules
@@ -636,14 +649,20 @@ __a:0 before Pret and Pl i when rounded root vowel__
 * __loistaav00>i>ssa __
 
 
+__a:o before Pl i and Pret i __
 
 
-__a:o before Pl i and Pret i__
 
 
 
 * __kala^AO^WG>i2>tten __
 * __kalo00>i>tten __
+
+
+
+* __kaula^WG^AO>i2>tten __
+* __kaulo00>i>tten __
+
 
 * __aika^AO^WG>i2>tten __
 * __aijo00>i>tten __
@@ -658,7 +677,14 @@ __a:o before Pl i and Pret i__
 
 __a:i in 3-syll stems with long a and i__
 
-* __kuv0a^AO>i2 __
+
+
+
+
+
+* __*kuva^A2I>i2 __ (is not standard language)
+* __*kuva0>i __ (is not standard language)
+* __kuv0a^A2I>i2 __
 * __kuvvi0>i __
 
 
@@ -667,14 +693,55 @@ __a:i in 3-syll stems with long a and i__
 
 
 
-* __opettaaja>i2>ss^A __
-* __opettaaji>i>ssa __
+* __opettaaja^WG>i2>ss^A __
+* __opettaaji0>i>ssa __
+
+* __opettaja^WG^A2I>ss^A __
+* __opettaji00>ssa __
+
+
+* __opettaaja^WG>i2>tten __
+* __opettaaji0>i>tten __
+
+* __opettaaja>i2>t^A __
+* __opettaaji>i>ta __
+
+* __opettaaja>i2 __
+* __opettaaji>i __
+
+* __opettaaja^HMETA>hiin __
+* __opettaaj00>hiin __
+
+* __opettaaja>i2>n^A __
+* __opettaaji>i>na __
+
+* __opettaaja>i2>ne __
+* __opettaaji>i>ne __
+
+* __*opettaaja>i2>ne __ (is not standard language)
+* __*opettaaja>i>ne __ (is not standard language)
+
+* __opettaja^WG^A2I>tten __
+* __opettaji00>tten __
+* __opettaja^A2I>^A __
+* __opettaji0>a __
+
+* __opettaja^HMETA>hiin __
+* __opettaj00>hiin __
+* __opettaja^A2I>n^A __
+* __opettaji0>na __
+
+* __*opettaja^A2I>n^A __ (is not standard language)
+* __*opettaja0>na __ (is not standard language)
+
+
 
 
 
 
 __a:i in 3-syll stems with long a and i __
 
+__i:0 in vanha_n_21 -Por with I0 tag__
 
 
 !Shortening
