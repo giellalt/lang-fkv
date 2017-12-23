@@ -351,15 +351,16 @@ LEXICON vanha_x_22odd !!= * @CODE@  kajava
   +Sg      :             ess_nnA        ;
 
   +Pl      :^WG          nom_t          ;
-  +Pl+Dial/Por:^WG%>i2i     gen_tten       ; ! kajaviitten
-  +Pl+Dial/-Por:^WG%>i2      gen_tten       ; ! kajavitten
-  +Pl+Dial/Por:%>i2i        par_tA         ; ! kajaviita
-  +Pl+Dial/Por:%>i2%>i      par_end        ; ! %> i necessary, otherwise a:o NOTwork, kajavii
+  +Pl+Dial/Por:^WG^A0%>i2i     gen_tten       ; ! kajaviitten ! TODO Why WG here and not it par?
+  +Pl+Dial/-Por:^WG^A0%>i2      gen_tten       ; ! kajavitten
+  +Pl+Dial/Por:^A0%>i2i        par_tA         ; ! kajaviita
+  +Pl+Dial/Por:^A0%>i2%>i      par_end        ; ! %> i necessary, otherwise a:o NOTwork, kajavii
   +Pl+Dial/-Por:%>i2%>       par_A          ; ! kajavia
 !      +Pl+Ill:%^HMETA%>hii n_PxK          ;
   +Pl      :%^HMETA      ill_hiin       ;
-  +Pl      :%>i2         ess_nnA        ;
-  +Pl+Dial/Por:%>i2         com_nne        ;
+  +Pl+Dial/Por:^A0%>i2         ess_nnA        ;
+  +Pl+Dial/-Por:%>i2         ess_nnA        ;
+  +Pl+Dial/Por:^A0%>i2         com_nne        ;
   +Pl+Dial/Var:%>i2         com_nne        ;
   +Pl+Dial/Jok:%>i2         com_nne        ; !Jok loistaava
   +Pl      :^WG^A0%>i2      sgpl_cases_odd ; ! TODO any cases here that should have ^AO?
