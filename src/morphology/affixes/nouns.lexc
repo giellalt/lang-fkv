@@ -355,13 +355,13 @@ LEXICON vanha_x_22odd !!= * @CODE@  kajava
   +Pl+Dial/-Por:^WG^A0%>i2      gen_tten       ; ! kajavitten
   +Pl+Dial/Por:^A0%>i2i        par_tA         ; ! kajaviita
   +Pl+Dial/Por:^A0%>i2%>i      par_end        ; ! %> i necessary, otherwise a:o NOTwork, kajavii
-  +Pl+Dial/-Por:%>i2%>       par_A          ; ! kajavia
+  +Pl+Dial/-Por:^A0%>i2%>       par_A          ; ! kajavia
 !      +Pl+Ill:%^HMETA%>hii n_PxK          ;
   +Pl      :%^HMETA      ill_hiin       ;
   +Pl+Dial/Por:^A0%>i2         ess_nnA        ;
-  +Pl+Dial/-Por:%>i2         ess_nnA        ;
+  +Pl+Dial/-Por:^A0%>i2         ess_nnA        ;
   +Pl+Dial/Por:^A0%>i2         com_nne        ;
-  +Pl+Dial/Var:%>i2         com_nne        ;
+  +Pl+Dial/Var:^A0%>i2         com_nne        ;
   +Pl+Dial/Jok:%>i2         com_nne        ; !Jok loistaava
   +Pl      :^WG^A0%>i2      sgpl_cases_odd ; ! TODO any cases here that should have ^AO?
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
@@ -429,10 +429,10 @@ LEXICON vanha_x_22oi
 !+Ill:h%>i2%>i2     n_PxK ; ! on Sg:ssä hVVn
 
 
-LEXICON vanha_n_23        !!= * @CODE@  hoppee
+LEXICON vanha_n_23        !!= * @CODE@  hoppee:hoppe
 +N+Dial/Por:        vanha_x_23            ;
 +N+Dial/Var:^E2I^¤  vanha_x_23ia          ;
-+N+Dial/Jok:^¤      vanha_x_23ia          ; ! hopea, not hopi
++N+Dial/Jok:^¤      vanha_x_23ia          ; ! hopea, not hopia
  ! +N+Sg+Nom:   R     Is this extra and wrong?
 
 LEXICON vanha_x_23
@@ -453,7 +453,7 @@ LEXICON vanha_x_23
   +Pl      :e%>i2   sgpl_cases_even ;
 
 LEXICON vanha_x_23ia ! For -Por only valkia, hopia, kauhia
-  +Sg+Nom:%>^A         K               ; ! valkia
+  +Sg+Nom  :%>^A         K               ; ! valkia
   +Sg      :%>^A         gen_n_sg        ; ! valkian
   +Sg      :%>^A         par_A           ; ! valkiaa
   +Sg+Dial/Jok:%>^At        par_A           ; ! valkiata
