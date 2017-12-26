@@ -27,6 +27,9 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
 %^A0:0                    !!= * @CODE@ -- a to 0
 %^I0:0                    !!= * @CODE@ -- i to 0 in vanha_x_21 -Por with i endings: tooline
+%^Por:0                   !!= * @CODE@ -- Porsanger  dialect
+%^Var:0                   !!= * @CODE@ -- Varanger   dialect
+%^Jok:0                   !!= * @CODE@ -- Jokivarret dialect
 %^¤:0
 !!!*** Remember to add new tags to Dummy further down!
 !%^n_23-e2i:0          ! Not in dummy
@@ -60,8 +63,9 @@ ArchiCns = %^N ;                                            !!= * @CODE@
 SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@
 Segment = Vowel Cns ;                                       !!= * @CODE@
-Dummy = %+ %^WG %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^A0 ;  !!= * @CODE@
+Dummy = %+ %^WG %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^A0 %^Por %^Var %^Jok ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
+Dialects =  %^Por %^Var %^Jok ;  !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@
 NE = %> n e ;
 EÄA = e %^A ;
@@ -256,7 +260,7 @@ Rules
           Cns:*  Vowel:* Vowel (Vowel:) :s _  [e:|i:]   %> i2:i %> %^V:i ;  ! klas0i>i2>in:klass0>i>in ja vuossiin
           Cns:*  Vowel     [n|l|r]     t:s _  [e:|i:]   %> i2:i %> %^V: ;  ! hirssii(n). Ihmeellisestivain t:s toimii, :s antaa paljon virheitä kaikkialla. 22 lisää.
           Cns:*  Vowel     [n|l|r]     t:s _      :i    %> [:i - i3:] (i2:i) ;  ! to be fixed. Seems to not do anything?
-                                       t:s _  e:i  %^E2I:0       %> i5: ; ! uussii TODO DONE REMOVE THIS IN -POR
+                                       t:s _  e:i (%^Jok:0)  %^E2I:0       %> i5: ; ! uussii TODO DONE REMOVE THIS IN -POR
 !                          u   u       t    0  e     ^E2I            %> i5  etc. %>m^A%>t
 
 ! uussii uute ^E2I%>i5
@@ -702,6 +706,9 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
  t:đ <=> Vowel _ Vowel: (Cns) [Dummy: - %^E2I:]* (:i) [Dummy: - %^E2I:]* %^WG:0 ; ! TODO ^WG other tag order, is right?
              h _ Vowel: (Cns) (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
+! should not include ^Jok (uuen).
+! When ^Jok it should go to a t:0 rule instead
+
 ! t:đ <=> Vowel  _  Vowel (Cns) (Dummy: - %^E2I:) %^WG:0 [\i3:|\i6:|\i2:] ; ! TODO ^WG other tag order keep in mind
 
 !!€ pitä^WG^AO>i3>n
@@ -717,17 +724,17 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "ti:si"
 !! __@RULENAME@__
-t:s <=> Vowel n  _   e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
- Vowel ([n|l|r]) _ (:s)  e:  %^E2I: ; ! vesi  vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
-  Vowel          _ (:s)  e:         %> i2: %> [Cns|%^V:] ; ! [vuosiksi, etc. | vuossii, vuossiin]
-! Vowel [n|l|r]  _      (e:) %^E2I: %> \:i    ; ! kansi
-!  Vowel [n|l|r]  _      (e:) %^E2I: ; ! kansi
-  Vowel [n|l|r]  _  :s  (e:) %> :i    ; ! hirssii !  Vowel [n|l|r]  _  :s  (e:) %^E2I: %> :i    ; ! hirssii
-  Vowel [n|l|r]  _      Vowel:0 (%^WG:0) (%^E2I:)  %> i2:  ;
-  Vowel [n|l|r]  _ (:s) Vowel:0 (%^WG:0) (%^AO:0)  %> i3:  ;
-  Vowel  Vowel   _ (:s) Vowel:0 (%^AO:0)           %> i3:  ;
-  Vowel     n    _      Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
-  Vowel ([n|l|r]) _      e:0  %^HMETA:0         %> h :i ;
+t:s <=> Vowel n   _    e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
+ Vowel ([n|l|r])  _  (:s)  e: (%^Jok:0) %^E2I: ; ! vesi  vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
+  Vowel           _  (:s)  e:         %> i2: %> [Cns|%^V:] ; ! [vuosiksi, etc. | vuossii, vuossiin]
+! Vowel [n|l|r]   _       (e:) %^E2I: %> \:i    ; ! kansi
+!  Vowel [n|l|r]  _       (e:) %^E2I: ; ! kansi
+  Vowel [n|l|r]   _   :s  (e:) %> :i    ; ! hirssii !  Vowel [n|l|r] _   :s  (e:) %^E2I: %> :i    ; ! hirssii
+  Vowel [n|l|r]   _       Vowel:0 (%^WG:0) (%^E2I:)  %> i2:  ;
+  Vowel [n|l|r]   _  (:s) Vowel:0 (%^WG:0) (%^AO:0)  %> i3:  ;
+  Vowel  Vowel    _  (:s) Vowel:0 (%^AO:0)           %> i3:  ;
+  Vowel     n     _       Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
+  Vowel ([n|l|r]) _       e:0  %^HMETA:0         %> h :i ;
 
 !!€ vete^E2I
 !!€ vesi0
@@ -964,7 +971,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 "e:i in nom.sg. of e-stems"
 !! __@RULENAME@__
 ! e:i <=> Cns: _ %^E2I:0 [#:|.#.|%> \[i2:|%^HMETA:0] ] ;
- e:i <=> Cns: (0:Cns) _ %^E2I:0 [#:|.#.|%> i5: |%> \i2:] ;
+ e:i <=> Cns: (0:Cns) _ (%^Jok:0) %^E2I:0 [#:|.#.|%> i5: |%> \i2:] ;
 !    uu   t   e ^E2I            %>    i5 %>m^A%>t
 
 !!€ ove^E2I
