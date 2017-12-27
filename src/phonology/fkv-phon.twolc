@@ -703,7 +703,7 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "Gradation t:đ"
 !! __@RULENAME@__
- t:đ <=> Vowel _ Vowel: (Cns) [Dummy: - %^E2I:]* (:i) [Dummy: - %^E2I:]* %^WG:0 ; ! TODO ^WG other tag order, is right?
+ t:đ <=> Vowel _ Vowel: (Cns) [Dummy: - [%^E2I: | %^Jok:]]* (:i) [Dummy: - [%^E2I: | %^Jok:]]* %^WG:0 ; ! TODO ^WG other tag order, is right?
              h _ Vowel: (Cns) (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 ! should not include ^Jok (uuen).
@@ -773,9 +773,11 @@ t:s <=> Vowel n   _    e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nl
 t:Nx <=> [.#.|#] Cns* Vowel Nx _ :Vowel (Cns) ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
     where Nx in ( l n r ) ;
 ! TODO TODO TODO for both these rules, maybe the dummy should be after the ^WG. Usually our rule is: ^WG^AO...
+
 "Gradation Nt:N in other circumstances"
 !! __@RULENAME@__
-t:0 <=> Vowel Cns* Vowel Nx  _  :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+t:0 <=> Vowel Cns* Vowel Nx  _ :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+                       Vowel _ Vowel: (Cns) (:i) %^Jok: %^WG:0 ; ! TODO ^WG other tag order, is right?
     where Nx in ( l n r ) ;
 
 !!€ pe#rintö^WG>n
@@ -878,17 +880,16 @@ j:0 <=> l _ e: %^E2I:0 ;
             where Vx in ( a o ä ö ) ;
 
 
-
 "Vowel copying in long h sg forms 1"
 !! __@RULENAME@__
- %^V:Vy <=>  Vx: %^HMETA: %> h _ %^V:  ;
+ %^V:Vy <=>  Vx: (%^Jok:) %^HMETA: %> h _ %^V:  ;
     where Vx in ( a e i i2 o u y ä ö )
           Vy in ( a e i i  o u y ä ö )
              matched ;
 
 "Vowel copying in long h sg forms 2"
 !! __@RULENAME@__
- %^V:Vy <=>  Vx: %^HMETA: %> h %^V: _ ;
+ %^V:Vy <=>  Vx: (%^Jok:) %^HMETA: %> h %^V: _ ;
     where Vx in ( a e i i2 o u y ä ö )
           Vy in ( a e i i  o u y ä ö )
              matched ;
@@ -986,11 +987,11 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "e:0 in consonant stems and illative plural"
 !! __@RULENAME@__
- e:0 <=> (Cns) Vowel (Vowel) Cns:+ _ (%^WG:) ([%^AO: |%^AE:|%^VDEL:]) [(%^WG:)  %> [i3:|i4:] | %^EDEL:0 %> [t|h] ] ;
+ e:0 <=> (Cns) Vowel (Vowel) Cns:+ _ (%^Jok:) (%^WG:) ([%^AO: |%^AE:|%^VDEL:]) [(%^WG:)  %> [i3:|i4:] | %^EDEL:0 %> [t|h] ] ;
  ! TODO fix the ^WG uglyness in the row above. rule is: ^WG^AO, but usually so far ^VDEL^WG. Hmm
           :Vowel :SurfaceCns Cns:* _  (%^WG:0)  %> i2: ;              ! left context bec of tie>i2 : t0e0i
                               :Cns _  (%^E2I:0) %> i2: ;
-                              :Cns _  (%^E2I:0) %^HMETA:0 %> h [%^V:|i] ;
+                              :Cns _ (%^Jok:) (%^E2I:0) %^HMETA:0 %> h [%^V:|i] ;
                               :Cns _  %^VDEL:0  (Dummy:) %> [s|t] ;
                       Cns i e :Cns _ %> t e n ; !kielten sienten
 
