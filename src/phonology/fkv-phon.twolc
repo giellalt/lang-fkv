@@ -725,8 +725,8 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 "ti:si"
 !! __@RULENAME@__
 t:s <=> Vowel n   _    e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
- Vowel ([n|l|r])  _  (:s)  e: (%^Jok:0) %^E2I: ; ! vesi  vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
-  Vowel           _  (:s)  e:         %> i2: %> [Cns|%^V:] ; ! [vuosiksi, etc. | vuossii, vuossiin]
+ Vowel ([n|l|r])  _  (:s)  e: (%^Jok:0) %^E2I: ;! uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
+  Vowel           _  (:s)  e: (%^Jok:0) %> i2: %> [Cns|%^V:] ; ! [vuosiksi, etc. | vuossii, vuossiin] ! uusine
 ! Vowel [n|l|r]   _       (e:) %^E2I: %> \:i    ; ! kansi
 !  Vowel [n|l|r]  _       (e:) %^E2I: ; ! kansi
   Vowel [n|l|r]   _   :s  (e:) %> :i    ; ! hirssii !  Vowel [n|l|r] _   :s  (e:) %^E2I: %> :i    ; ! hirssii
@@ -734,7 +734,7 @@ t:s <=> Vowel n   _    e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nl
   Vowel [n|l|r]   _  (:s) Vowel:0 (%^WG:0) (%^AO:0)  %> i3:  ;
   Vowel  Vowel    _  (:s) Vowel:0 (%^AO:0)           %> i3:  ;
   Vowel     n     _       Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
-  Vowel ([n|l|r]) _       e:0  %^HMETA:0         %> h :i ;
+  Vowel ([n|l|r]) _       e:0 (%^Jok:0) %^HMETA:0         %> h :i ; ! jok uushiin
 
 !!€ vete^E2I
 !!€ vesi0
@@ -990,7 +990,7 @@ j:0 <=> l _ e: %^E2I:0 ;
  e:0 <=> (Cns) Vowel (Vowel) Cns:+ _ (%^Jok:) (%^WG:) ([%^AO: |%^AE:|%^VDEL:]) [(%^WG:)  %> [i3:|i4:] | %^EDEL:0 %> [t|h] ] ;
  ! TODO fix the ^WG uglyness in the row above. rule is: ^WG^AO, but usually so far ^VDEL^WG. Hmm
           :Vowel :SurfaceCns Cns:* _  (%^WG:0)  %> i2: ;              ! left context bec of tie>i2 : t0e0i
-                              :Cns _  (%^E2I:0) %> i2: ;
+                              :Cns _ (%^Jok:) (%^E2I:0) %> i2: ; ! jok uusine
                               :Cns _ (%^Jok:) (%^E2I:0) %^HMETA:0 %> h [%^V:|i] ;
                               :Cns _  %^VDEL:0  (Dummy:) %> [s|t] ;
                       Cns i e :Cns _ %> t e n ; !kielten sienten
