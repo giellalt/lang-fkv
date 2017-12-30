@@ -143,7 +143,9 @@ LEXICON vanha_a_31si	!!= * @CODE@ uusi. uussiin only por, always one s in Var
 +A+Dial/Por       :^Por^WG  comp_m_odd   ;
 +A+Dial/Var       :^Var^WG  comp_m_odd   ;
 +A+Dial/Jok       :^Jok^WG  comp_m_odd   ;
-+A                :^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n ! TODO Vssi remove uussiin context for -Por
++A+Dial/Por       :^Por^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n ! TODO Vssi remove uussiin context for -Por
++A+Dial/Var       :^Var^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n ! TODO Vssi remove uussiin context for -Por
++A+Dial/Jok       :^Jok^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n ! TODO Vssi remove uussiin context for -Por
 +A+Dial/Var       :^E2I superl_m_odd ; ! No superl i? maybe e:0 and i5 would be more appropriate
 +A+Sg+Superl+Dial/-Por:^E2I%>i  nom_n ; ! uusiin
 +A+Sg+Superl+Dial/-Por:^E2I%>in par_tA ;
