@@ -728,15 +728,16 @@ p:m <=> Vowel: m _  Vowel: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 "ti:si"
 !! __@RULENAME@__
-t:s <=> Vowel n   _        e:         %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
- Vowel ([n|l|r])  _  (:s)  e:  (Dialects:0) %^E2I: ;! uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
-  Vowel           _  (:s)  e:  (Dialects:0) %> i2: %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc. | vuossii(n) | uusia] ! uusine
-  Vowel ([n|l|r]) _        e:0 (Dialects:0) %^HMETA:0 %> h :i ; ! jok uushiin
-  Vowel  Vowel    _  (:s) Vowel:0 (%^AO:0)           %> i3:  ;
-  Vowel     n     _       Vowel:0 [Dummy:* - %^WG:0] %> i3:  ;
-  Vowel [n|l|r]   _   :s  (e:) %> :i    ; ! hirssii !  Vowel [n|l|r] _   :s  (e:) %^E2I: %> :i    ; ! hirssii
-  Vowel [n|l|r]   _       Vowel:0 (%^WG:0) (%^E2I:)  %> i2:  ;
-  Vowel [n|l|r]   _  (:s) Vowel:0 (%^WG:0) (%^AO:0)  %> i3:  ;
+t:s <=> Vowel n   _        e:                  %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
+ Vowel ([n|l|r])  _  (:s)  e:     (Dialects:0) %^E2I: ;! uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
+  Vowel           _  (:s)  e:     (Dialects:0) %> i2:    %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc. | vuossii(n) | uusia] ! uusine
+  Vowel ([n|l|r]) _        e:0    (Dialects:0) %^HMETA:0 %> h :i ; ! jok uushiin
+  Vowel  Vowel    _  (:s) Vowel:0 (%^AO:0)               %> i3:  ;
+  Vowel     n     _       Vowel:0 [Dummy:* - %^WG:0]     %> i3:  ;
+  Vowel [n|l|r]   _   :s   e:0    (Dialects:0) %> i2:i   %> %^V: ; ! hirssii
+                      !  Vowel [n|l|r] _   :s  (e:) %^E2I: %> :i ; ! hirssii
+  Vowel [n|l|r]   _       Vowel:0 (Dialects:0) (%^WG:0) (%^E2I:)  %> i2: ; ! hirsiksi, hirsi (pl - gen par)
+  Vowel [n|l|r]   _  (:s) Vowel:0 (%^WG:0) (%^AO:0)      %> i3:  ;
 ! Vowel [n|l|r]   _       (e:) %^E2I: %> \:i    ; ! kansi
 ! Vowel [n|l|r]   _       (e:) %^E2I: ; ! kansi
 
