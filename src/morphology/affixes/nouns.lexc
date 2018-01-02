@@ -241,12 +241,12 @@ LEXICON vanha_x_21i ! Not in use, pappi, tooli, lyhyt vokali, loppuu i:llä
   +Pl+Dial/-Por:^WG^AO       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
 
 LEXICON vanha_n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi, suomi ! Ei lainasanat
-+N:     vanha_x_21ie ;
-+N+Sg      :^E2I nom_R     ; ! ^EI e to i
++N         :         vanha_x_21ie ;
++N+Sg      :^E2I     nom_R        ; ! ^EI e to i
 !+N+Dial/Var:^¤   vanha_x_21ie ; TODO for joen VAR, needs to not break other stuff
 
 LEXICON vanha_x_21ie
-  +Sg+Nom:^E2I     K               ; ! ^EI e to i
+  +Sg+Nom  :^E2I     K               ; ! ^EI e to i
   +Sg+Dial/Por:         par_V           ; ! suomee
   +Sg+Dial/-Por:^E2I     par_A           ; ! suomea
   +Sg      :^WG      gen_n_sg        ;
@@ -543,7 +543,9 @@ LEXICON vanha_x_31lumi
 
 
 LEXICON vanha_n_31si        !!= @CODE@ vuosi, käsi, hirsi
-+N         : vanha_x_31si ;
++N+Dial/Por       :^Por     vanha_x_31si ;
++N+Dial/Var       :^Var     vanha_x_31si ;
++N+Dial/Jok       :^Jok     vanha_x_31si ;
 +N+Sg      : nom_R     ;
 
 LEXICON vanha_x_31si ! uusi
@@ -681,9 +683,11 @@ LEXICON vanha_x_32m_pl
   +Pl      :m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl, TODO check this <-
 
 LEXICON vanha_n_32s !!= @CODE@  sairhaus
-+N         : vanha_x_32s ;
++N+Dial/Por:^Por    vanha_x_32s_Por     ;
++N+Dial/Var:^Var    vanha_x_32s_NOT_Por ;
++N+Dial/Jok:^Jok    vanha_x_32s_NOT_Por ;
 
-LEXICON vanha_x_32s
+LEXICON vanha_x_32s_Por
   +Sg      :^WGs           nom_end           ; !! * Konsonanttivartalo: poista -e ja heikko aste
   +Sg      :^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
 
@@ -700,9 +704,26 @@ LEXICON vanha_x_32s
   +Pl      :ks^HMETA       ill_hiin          ;
   +Pl      :ks%>i2         ess_nnA           ;
   +Pl+Dial/Por:ks%>i2         com_nne           ;
-  +Pl+Dial/Var:ks%>i2         com_nne           ;
-  +Pl+Dial/Jok:ks%>i2         com_ne            ;
   +Pl      :ks%>i2         sgpl_cases_odd    ; ! TODO wtf is this comm --> hmm, tämä menee pieleen, sg ≠ pl
+
+  LEXICON vanha_x_32s_NOT_Por
+    +Sg      :^WGs           nom_end           ; !! * Konsonanttivartalo: poista -e ja heikko aste
+    +Sg      :^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
+
+    +Pl      :e              nom_t             ;
+    +Sg      :e              gen_n_sg          ;
+    +Sg      :%>t            par_tA            ;
+    +Sg      :te^HMETA       ill_hVVn          ;
+    +Sg      :te             ess_nnA           ;
+    +Sg      :e              sgpl_cases_odd    ;
+
+    +Pl      :ks%>i2         gen_tten          ; ! maybe add ksi and remove i2
+    +Pl      :ks%>i2         par_A             ;
+    +Pl      :ks^HMETA       ill_hiin          ;
+    +Pl      :ks%>i2         ess_nnA           ;
+    +Pl+Dial/Var:ks%>i2         com_nne           ;
+    +Pl+Dial/Jok:ks%>i2         com_ne            ;
+    +Pl      :ks%>i2         sgpl_cases_odd    ; ! TODO wtf is this comm --> hmm, tämä menee pieleen, sg ≠ pl
 
 
 ! LEXICON vanha_n_32s != @CODE@  sairhaus vanha versio
