@@ -241,7 +241,9 @@ LEXICON vanha_x_21i ! Not in use, pappi, tooli, lyhyt vokali, loppuu i:llä
   +Pl+Dial/-Por:^WG^AO       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
 
 LEXICON vanha_n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi, suomi ! Ei lainasanat
-+N         :         vanha_x_21ie ;
++N+Dial/Por:^Por         vanha_x_21ie ;
++N+Dial/Var:^Var         vanha_x_21ie ;
++N+Dial/Jok:^Jok         vanha_x_21ie ;
 +N+Sg      :^E2I     nom_R        ; ! ^EI e to i
 !+N+Dial/Var:^¤   vanha_x_21ie ; TODO for joen VAR, needs to not break other stuff
 
