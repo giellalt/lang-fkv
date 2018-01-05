@@ -27,9 +27,9 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
 %^A0:0                    !!= * @CODE@ -- a to 0
 %^I0:0                    !!= * @CODE@ -- i to 0 in vanha_x_21 -Por with i endings: tooline
-%^Por:0                   !!= * @CODE@ -- Porsanger  dialect
-%^Var:0                   !!= * @CODE@ -- Varanger   dialect
-%^Jok:0                   !!= * @CODE@ -- Jokivarret dialect
+%^Por:0                   !!= * @CODE@ -- Porsanger  dialekti
+%^Var:0                   !!= * @CODE@ -- Varanger   dialekti
+%^Jok:0                   !!= * @CODE@ -- Jokivarret dialekti
 %^¤:0
 !!!*** Remember to add new tags to Dummy further down!
 !%^n_23-e2i:0          ! Not in dummy
@@ -289,7 +289,7 @@ Rules
 
 "Gemination VVa"
 !! __@RULENAME@__
-0:Cx <=> [ .#. | #: ] Cns:* Vowel:* Vowel Cx _ a %> :a ; ! TODO this is the line from the comment below about dialects
+0:Cx <=> [ .#. | #: ] Cns:* Vowel:* Vowel Cx _ a (Dialects:0) %> :a ; ! TODO this is the line from the comment below about dialects
 !          Vowel [n|l|r] _ a %> a:a ;
 ! maybe add  [n|l|r] somewhere here
 !a n t _ a %> %^V t; ! TODO TODO TODO, how does this not work? Do more twolc (the program) testing, because wtf?
@@ -313,7 +313,7 @@ Rules
 
 "Gemination Vi"
 !! __@RULENAME@__
-0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (%^E2I:0) %> :i %> :i ; ! kivvii
+0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
 !                   k     u   v  0  a      ^AO    >   i  > n
          [.#.|#:] Cns:* Vowel Cx _ a:i (Dummy:0) %> :i ; !
        where Cx in ( h j l m n r v ) ;
@@ -618,7 +618,8 @@ i6:0 <=> _ k: Vowel: %^WG:0 (%^AO:0) ;
 k:j <=>  [a|ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki  - mäjen
                        i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; !
                      i6: _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! poika poha, pojitte
-                   [e|i] _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! aika-aijan ! TODO DONE move to k:0 in Var
+                   [e|i] _ [e:|i|ä|a:]  %^Por: %^WG:0 ; ! aika-aijan ! used to have (Dummy:) (:i) (Dummy:) before ^WG ! TODO DONE move to k:0 in Var
+                   ! TODO TODO TODO TODO Add Dialects triggers to aika, do the k:0 rule afterwards. Done
            \[e|a:] [r|l] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
                    Cns u _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
                     \u h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet
@@ -679,7 +680,7 @@ k3:0 <=> u o _ a %^WG: ;
 "k:v"
 k:v <=> [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
        \i [o|ö|u|y] _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! ruoka
-              [o|ö] _  e: %^Por    (Dummy:) (:i) (Dummy:) %^WG:0 ; ! TODO DONE not in joen VAR, see "k:0 for joke -> joen in VAR"
+              [o|ö] _  e: %^Por:    (Dummy:) (:i) (Dummy:) %^WG:0 ; ! TODO DONE not in joen VAR, see "k:0 for joke -> joen in VAR"
                i u  _  a           (Dummy:) (:i) (Dummy:) %^WG:0 ; !kiukhaan:kiuvas
 
 !!€ ruoka^WG>n
@@ -836,8 +837,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vowel copying in short h-illative and short partitive sg"
 !! __@RULENAME@__
- %^V:Vx <=>     Vowel Vx: %> h _ [ n: | m: ] ;
-                :Cns  Vx  %>   _ ; ![ .#. | #: | %> ] ;
+ %^V:Vx <=>     Vowel Vx: (Dialects:) %> h _ [ n: | m: ] ;
+                :Cns  Vx  (Dialects:) %>   _ ; ![ .#. | #: | %> ] ;
     where Vx in ( a e i o u y ä ö ) ;
 
     !!€ maa>h^Vn
@@ -860,7 +861,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vowel copying in long h-illative sg second vowel"
 !! __@RULENAME@__
-%^V:Vx <=> Cns (Vowel) Vx (Cns) Cns (%^HMETA:0) %> h %^V: _ n ;
+%^V:Vx <=> Cns (Vowel) Vx (Cns) Cns (Dialects:) (%^HMETA:0) %> h %^V: _ n ;
       ! !!€ v e r e   k    s             > h   ^V  ^V n
    where Vx in ( e ) ;
 ! TODO check if this isn't included in the similar rules below
@@ -882,7 +883,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vowel copying in partitive of words ending in io, ia"
 !! __@RULENAME@__
- %^V:Vx <=> :Cns i Vx %> _ ;
+ %^V:Vx <=> :Cns i Vx (Dialects:) %> _ ;
             where Vx in ( a o ä ö ) ;
 
 
@@ -902,7 +903,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vowel copying in long h pl forms"
 !! __@RULENAME@__
- %^V:Vy <=>  Vx: (%^AO:) %^HMETA: %> h _ %>        i2: ;
+ %^V:Vy <=>  Vx: (Dialects:) (%^AO:) %^HMETA: %> h _ %>        i2:i ; ! TODO This interferes with aikhoin aika^Por^AO^HMETA>h^V>i2n -> aik0000>ho>in
     where Vx in ( a e i i2 o u y ä ö )
           Vy in ( i e i i  o u y ä ö )
              matched ;
@@ -925,7 +926,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a to o and metathesis in h forms in pl of a-stems"
 !! __@RULENAME@__
- %^V:o <=>           ([ #: | .#. ]) Cns:* (Vowel:) [i|e|a] Cns:* a: (%^AO:) %^HMETA: %> h _  %> i2: ;
+ %^V:o <=>           ([ #: | .#. ]) Cns:* (Vowel:) [i|e|a] Cns:* a: (Dialects:) (%^AO:) %^HMETA: %> h _  %> i2: ;
                                                              ! a:  %^AO:  %^HMETA: %> h _  %> i2: ;
 
 !            :o [Dummy:* - %^HMETA:] %>            _ [ (%>) Cns|.#.] ;
@@ -993,8 +994,9 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "e:0 in consonant stems and illative plural"
 !! __@RULENAME@__
- e:0 <=> (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) (%^WG:) ([%^AO: |%^AE:|%^VDEL:]) [(%^WG:)  %> [i3:|i4:] | %^EDEL:0 %> [t|h] ] ;
- ! TODO fix the ^WG uglyness in the row above. rule is: ^WG^AO, but usually so far ^VDEL^WG. Hmm
+ e:0 <=> (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) (%^WG:) ([%^AO:|%^AE:|%^VDEL:]) (%^WG:)   %> [i3:|i4:] ;
+         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) (%^WG:) ([%^AO:|%^AE:|%^VDEL:])  %^EDEL:0 %> [t|h]     ;
+         ! TODO Our rule is: ^WG^AO, but usually so far ^VDEL^WG. Hmm
 :Vowel [:SurfaceCns | Cns:0] Cns:* _ (Dialects:0) (%^WG:0)  %> i2: ;! hyksiksi, ja Cns:0->joiksi ! L-context bec of tie>i2 : t0e0i
                               :Cns _ (Dialects:0) (%^E2I:0) %> i2: ; ! jok uusine
                               :Cns _ (Dialects:0) (%^E2I:0) %^HMETA:0 %> h [%^V:|i] ; ! uutheen
@@ -1058,7 +1060,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! __@RULENAME@__
 a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^WG:0 %^AO:0 (%^I0:0) %> [i2:|i3:] ;
         [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO:0 a:0 ;
-        ! TODO which case is a:0 at the end? Also kuvina/e here, i or not, depends on dialect remember.
+        ! TODO which case is a:0 at the end? Also kuvina/e here, i or not, depends on the dialects remember.
         ! Also: used to have %^AO: as optional in (),
         [#:|.#.]  Cns    (RoundedVowel) [u|o]  (i6:)                        Cns  _ %^AO:0 (%^I0:0) %> i2:i %> n  [e | :a | :ä ] ;
 ! TODO TODO if ^A: it says no realizations, if :a | :ä it just ignores them?
@@ -1072,9 +1074,9 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
 ! TODO TODO luotti (and antoi) now works, maybe the this left context is not optimal! Find a better one with Aili :)
 ! TODO not good to use ^AO here, instead of ^A0, it's there because the v2 lexica has not been split.
 ! Maybe (if we make the part between RoundedVowel and _ better) we can remove most of these rules as it would be enough.
-                                                     :SurfaceCns _ ([%^E2I:|%^AO:]) %^HMETA:  %> h [:a|i:] ;
-                                                     :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
-                                                     :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
+                                                     :SurfaceCns _ (Dialects:0) ([%^E2I:|%^AO:]) %^HMETA:  %> h [:a|i:] ; ! aikhaan
+                                                     :SurfaceCns _ (Dialects:0)  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
+                                                     :i          _ (Dialects:0) (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
                                                                a _ %^VDEL:0  ([Dummy: - %^A2I:]) %> [s|t] ;
                                                                  _ (%^WG:0) %^A0:0 ;
 !                                                                       _ i5: ; ! loistaaviimmin
@@ -1111,12 +1113,9 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
 "a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
 ! WG always before AO always before AO
 !! __@RULENAME@__
-a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)         _ (%^WG:0) %^AO: (%^I0:0) %> [ j|i2:|i3: ] ; ! sannoi 2 syll
-!     k               a                 l                          a   ^WG     ^AO             >     i2    >tten
-[#: | .#.] (Cns:*) UnroundedVowel (o | u) (Cns:+) (Vowel:+) (Cns:+) (Vowel:+) _ (%^WG:0) %^AO: (%^I0:0) %> i2: ;
+a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)                _ (Dialects:0) (%^WG:0) %^AO: (%^I0:0) %> [ j|i2:|i3: ] ; ! sannoi 2 syll
+[#: | .#.] (Cns:*) UnroundedVowel (o | u) (Cns:+) (Vowel:+) (Cns:+) (Vowel:+) _ (Dialects:0) (%^WG:0) %^AO: (%^I0:0) %> i2: ;
 ! Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (%^WG:0) %^AO: (%^I0:0) %>     i2: ; ! sivakoissa sannoi
-! s i     v               a                   k                   k    a
-[#: | .#.] (Cns:*) UnroundedVowel (o | u) (Cns:+) (Vowel:+) (Cns:+) (Vowel:+) _ (%^WG:0) %^AO:          %>     i2: ;
 ! Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (%^WG:0) %^AO: %^HMETA: %> %^V i2: ; ! aikhoin
      [:k|:l]  (:i) :i             :j                                   _ (%^WG:0) %^AO:          %>     i2: ; !kulkiijoissa
 !     Cns         Vowel (Vowel)         Cns          _ (%^WG:0) %^AO:           %>     i2: ; ! vaaroitten, persoonoissa
@@ -1264,7 +1263,7 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 
 
 ! TODO Distinguish between adj and noun, also in yamls!! Then uncomment these two rules
-!"i:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei- in dialect -Por!"
+!"i:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei- in dialects -Por!"
 !        !! __@RULENAME@ __
 !i:0 <=> Cns Vowel (Vowel) Cns Cns:* _ a:0 e %> i2: ; ! 3-syll
 ! hopiae>i2>tten
@@ -1272,7 +1271,7 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instea
 ! kauhae>i2>tten
 ! kauh00e>i2>tten
 
-! "a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei- in dialect -Por!"
+! "a:0 in x_23 hopia valkia kauhia in pret hopei- valkei- kauhei- in dialects -Por!"
 !! __@RULENAME@ __
 ! a:0 <=> Cns Vowel (Vowel) Cns Cns:* i:0 _ e %> i2: ; ! 3-syll
 ! valkiae>i2>tten
