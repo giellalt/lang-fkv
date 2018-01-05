@@ -148,36 +148,45 @@ LEXICON vanha_x_21_oblique ! this is also called from affixes/propernouns ! puku
   +Pl+Dial/-Por:^WG%>i2          sgpl_cases_even ;
 
 LEXICON vanha_n_21_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
-+N+Sg      :                    nom_R           ;
-+N+Sg      :                    nom_end         ;
-+N+Sg+Dial/Por:^WG              gen_n_sg        ;
-+N+Sg+Dial/Por:                 par_V           ;
-+N+Sg+Dial/Por:^HMETA           ill_hVVn        ;
-+N+Sg+Dial/Por:                 ess_nA          ;
-+N+Sg+Dial/Por:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
++N+Dial/Por:^Por         vanha_x_21_AO_Por ;
++N+Dial/Var:^Var         vanha_x_21_AO_NOT_Por ;
++N+Dial/Jok:^Jok         vanha_x_21_AO_NOT_Por ;
 
-+N+Pl+Dial/Por:^WG              nom_t           ;
-+N+Pl+Dial/Por:^AO%>i2          gen_n           ; ! gen_n         since we have the i
-+N+Pl+Dial/Por:^AO%>i2          par_end         ;
-+N+Pl+Dial/Por:^AO^HMETA        ill_hVin        ; ! sykshyin
-+N+Pl+Dial/Por:^AO%>i2          ess_nA          ;
-+N+Pl+Dial/Por:^AO%>i2          com_ne          ;
-+N+Pl+Dial/Por:^WG^AO%>i2       sgpl_cases_even ; !the same affix in sg and pl
+LEXICON vanha_x_21_AO_Por !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
++Sg      :                    nom_R           ;
++Sg      :                    nom_end         ;
++Sg      :^WG                 gen_n_sg        ;
++Sg      :                    par_V           ;
++Sg      :^HMETA              ill_hVVn        ;
++Sg      :                    ess_nA          ;
++Sg      :^WG                 sgpl_cases_even ; !to sgpl_cases_even for cases with
 
-+N+Sg+Dial/-Por:^WG              gen_n_sg        ;
-+N+Sg+Dial/-Por:                 par_A           ;!var should be poikaa (not kk), kk:k luultavasti (error with ^A only?) ! ^WG gives (gave) aiaa
-+N+Sg+Dial/-Por:^HMETA           ill_hVVn        ;
-+N+Sg+Dial/-Por:                 ess_nA          ;
-+N+Sg+Dial/-Por:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
++Pl      :^WG                 nom_t           ;
++Pl      :^AO%>i2             gen_n           ; ! gen_n         since we have the i
++Pl      :^AO%>i2             par_end         ;
++Pl      :^AO^HMETA           ill_hVin        ; ! sykshyin
++Pl      :^AO%>i2             ess_nA          ;
++Pl      :^AO%>i2             com_ne          ;
++Pl      :^WG^AO%>i2          sgpl_cases_even ; !the same affix in sg and pl
 
-+N+Pl+Dial/-Por:^WG              nom_t           ;
-+N+Pl+Dial/-Por:^WG^AO%>i2       gen_tten        ;
-+N+Pl+Dial/-Por:^AO%>j           par_A           ; ! Use i:j in twolc j, see below
-+N+Pl+Dial/-Por:^AO%>i2          par_A           ;
-+N+Pl+Dial/-Por:^AO^HMETA        ill_hVin        ;
-+N+Pl+Dial/-Por:^AO%>i2          ess_nA          ;
-+N+Pl+Dial/-Por:^AO%>i2          com_ne          ;
-+N+Pl+Dial/-Por:^WG^AO%>i2       sgpl_cases_even ;
+LEXICON vanha_x_21_AO_NOT_Por !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
++Sg      :                    nom_R           ;
++Sg      :                    nom_end         ;
+
++Sg      :^WG                 gen_n_sg        ;
++Sg      :                    par_A           ;!var should be poikaa (not kk), kk:k luultavasti (error with ^A only?) ! ^WG gives (gave) aiaa
++Sg      :^HMETA              ill_hVVn        ;
++Sg      :                    ess_nA          ;
++Sg      :^WG                 sgpl_cases_even ; !to sgpl_cases_even for cases with
+
++Pl      :^WG                 nom_t           ;
++Pl      :^WG^AO%>i2          gen_tten        ;
++Pl      :^AO%>j              par_A           ; ! Use i:j in twolc j, see below
++Pl      :^AO%>i2             par_A           ;
++Pl      :^AO^HMETA           ill_hVin        ;
++Pl      :^AO%>i2             ess_nA          ;
++Pl      :^AO%>i2             com_ne          ;
++Pl      :^WG^AO%>i2          sgpl_cases_even ;
 
 LEXICON vanha_n_21_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa
 +N+Sg      : nom_R   ; ! miksi tämä? TODO
