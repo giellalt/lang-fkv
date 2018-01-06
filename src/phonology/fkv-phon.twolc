@@ -335,7 +335,7 @@ Rules
 
 "Gemination VVe"
 !! __@RULENAME@__
-0:Cx <=> [ .#. | Cns ]   Vowel:* Vowel Cx _ e %> :e ;
+0:Cx <=> [ .#. | Cns ]   Vowel:* Vowel Cx _ e (Dialects:) %> :e ;
        where Cx in ( k p t s ) ;
 
 !!€ suome>^V
@@ -642,16 +642,17 @@ k:j <=>  [a|ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki
 ! Pöljätä tai pölätä. Terje, sanakirja ja korpus sanovat pölätä. Eiran grammatiikki sannoo pöljätä, mutta sitä ei löyty korpuksesta. YAML-sanoo pölätä, joten pidettiin pölätä
 
 "Gradation k:0"
-k:0 <=>               h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0     ; ! tuhka - tuhat, uhata - uhkaa
- [.#.|#:] Cns (u)     a _ a (Dummy:) (:i) (Dummy:) %^WG:0                ; ! makaa - maata
-            [i u|a u|y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0     ; ! kykenee - kyetä, laukkee - laueta,liuota-liukkee
-       [.#.|#:] Cns u h _ e  %^WG:0                                      ; ! puheta - puhkee, pohkheet:pohjet
-        [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0     ; ! ikene- - ien
-               ö: [l|r] _ [ö|ä] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
-               a: [l|r] _ [NotEYUB:|u]     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan, NOT: sylki:syljin
-               e  [l|r] _ i (%>)  %^WG:0 (%>)                            ; ! keritä - kerkkii
-               ! "k:0 for joke -> joen in VAR"! TODO DONE
-                  [o|ö] _ e: %^Var:0 (Dummy:) (:i) (Dummy:) %^WG:0       ; ! joki joen
+k:0 <=>               h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0      ; ! tuhka - tuhat, uhata - uhkaa
+ [.#.|#:] Cns (u)     a _ a (Dummy:) (:i) (Dummy:) %^WG:0                 ; ! makaa - maata
+            [i u|a u|y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0      ; ! kykenee - kyetä, laukkee - laueta,liuota-liukkee
+       [.#.|#:] Cns u h _ e  %^WG:0                                       ; ! puheta - puhkee, pohkheet:pohjet
+        [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0      ; ! ikene- - ien
+               ö: [l|r] _ [ö|ä] (Dummy:) (:i) (Dummy:)        %^WG:0 ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
+               a: [l|r] _ [NotEYUB:|u]     (Dummy:) (:i) (Dummy:) %^WG:0  ; ! varas - varkaan, NOT: sylki:syljin
+               e  [l|r] _ i (%>)                              %^WG:0 (%>) ; ! keritä - kerkkii
+                  [o|ö] _ e:  %^Var:0 (Dummy:) (:i) (Dummy:)  %^WG:0      ; ! joki joen
+                  a  i  _ a   %^Var:0                         %^WG:0 %>   ; ! aika aian
+                  a  i  _ a:o %^Var:0                        (%^WG:0) (%^AO:0) %> i2: %> \n ; ! aika aian
 
 
 !!€ pölkä^WG>t^A
@@ -680,7 +681,7 @@ k3:0 <=> u o _ a %^WG: ;
 "k:v"
 k:v <=> [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
        \i [o|ö|u|y] _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! ruoka
-              [o|ö] _  e: %^Por:    (Dummy:) (:i) (Dummy:) %^WG:0 ; ! TODO DONE not in joen VAR, see "k:0 for joke -> joen in VAR"
+              [o|ö] _  e: %^Por:    (Dummy:) (:i) (Dummy:) %^WG:0 ; ! Por: joke -> joven.  Var: joke -> joen
                i u  _  a           (Dummy:) (:i) (Dummy:) %^WG:0 ; !kiukhaan:kiuvas
 
 !!€ ruoka^WG>n

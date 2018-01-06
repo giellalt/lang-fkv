@@ -250,32 +250,43 @@ LEXICON vanha_x_21i ! Not in use, pappi, tooli, lyhyt vokali, loppuu i:llä
   +Pl+Dial/-Por:^WG^AO       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
 
 LEXICON vanha_n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi, suomi ! Ei lainasanat
-+N+Dial/Por:^Por         vanha_x_21ie ;
-+N+Dial/Var:^Var         vanha_x_21ie ;
-+N+Dial/Jok:^Jok         vanha_x_21ie ;
++N+Dial/Por:^Por         vanha_x_21ie_Por ;
++N+Dial/Var:^Var         vanha_x_21ie_NOT_Por ;
++N+Dial/Jok:^Jok         vanha_x_21ie_NOT_Por ;
 +N+Sg      :^E2I     nom_R        ; ! ^EI e to i
 !+N+Dial/Var:^¤   vanha_x_21ie ; TODO for joen VAR, needs to not break other stuff
 
-LEXICON vanha_x_21ie
+LEXICON vanha_x_21ie_Por
   +Sg+Nom  :^E2I     K               ; ! ^EI e to i
-  +Sg+Dial/Por:         par_V           ; ! suomee
-  +Sg+Dial/-Por:^E2I     par_A           ; ! suomea
+  +Sg      :         par_V           ; ! suomee
   +Sg      :^WG      gen_n_sg        ;
   +Pl      :^WG      nom_t           ;
   +Sg      :^WG      sgpl_cases_even ; !! these two lexica for cases with
   +Sg      :         ess_nA          ;
   +Pl      :^WG%>i2  sgpl_cases_even ; !! the same affix in sg and pl
-  +Pl+Dial/Por:%>i2     gen_Vn          ; ! hyksiin
-  +Pl+Dial/-Por:%>i2     gen_tten        ; ! hyksitten
-  +Pl+Dial/Por:%>i2     par_V           ; ! hyksii
-  +Pl+Dial/-Por:%>i2     par_A           ; ! hyksiä
+  +Pl      :%>i2     gen_Vn          ; ! hyksiin
+  +Pl      :%>i2     par_V           ; ! hyksii
   +Sg      :^HMETA   ill_hVVn        ;
-!      +Pl+Ill:^EDEL%>hii n_PxK         ; ! TODO add Twolc description about EDEL ! suomhiin
   +Pl      :^EDEL    ill_hiin        ; ! TODO add Twolc description about EDEL ! suomhiin
-
   +Pl      :%>i2     ess_nA          ;
   +Pl      :%>i2     com_ne          ;
+  !      +Pl+Ill:^EDEL%>hii n_PxK         ; ! TODO add Twolc description about EDEL ! suomhiin
 
+  LEXICON vanha_x_21ie_NOT_Por
+    +Sg+Nom  :^E2I     K               ; ! ^EI e to i
+    +Sg      :^E2I     par_A           ; ! suomea
+    +Sg      :^WG      gen_n_sg        ;
+    +Pl      :^WG      nom_t           ;
+    +Sg      :^WG      sgpl_cases_even ; !! these two lexica for cases with
+    +Sg      :         ess_nA          ;
+    +Pl      :^WG%>i2  sgpl_cases_even ; !! the same affix in sg and pl
+    +Pl      :^WG%>i2  gen_tten        ; ! hyksitten
+    +Pl      :%>i2     par_A           ; ! hyksiä
+    +Sg      :^HMETA   ill_hVVn        ;
+    +Pl      :^EDEL    ill_hiin        ; ! TODO add Twolc description about EDEL ! suomhiin
+    +Pl      :%>i2     ess_nA          ;
+    +Pl      :%>i2     com_ne          ;
+    !      +Pl+Ill:^EDEL%>hii n_PxK         ; ! TODO add Twolc description about EDEL ! suomhiin
 
 LEXICON vanha_n_21pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo, kasvot
 +N         :       vanha_x_21pl    ;
