@@ -252,7 +252,7 @@ SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 N + Sg OR Pron + Sg O
 # ... ota vasthaan tämän lahjan mikä tuopi minun siunauksen, ja minkä tuothiin sinule, sillä Jumala oon näyttäny minule.
 
 #!! * __Relpronandnotintterpron__ selects Rel Sg if Interr
-SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 (PUNCT RIGHT) BARRIER WORD - CC LINK *-1 (PUNCT LEFT) LINK -1 N + Sg OR Pron + Sg OR Pron + Sg3 BARRIER WORD - CC) (NEGATE *1 ("?") BARRIER S-BOUNDARY) ;
+SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 (PUNCT RIGHT) BARRIER WORD - CC LINK *-1 (PUNCT LEFT) BARRIER WORD - CC LINK -1 N + Sg OR Pron + Sg OR Pron + Sg3) (NEGATE *1 ("?") BARRIER S-BOUNDARY) ;
 # Raatimies Odd Keskitalo informeerasi sekretariaatin funkšuunista (toiminta vailuu kokonhans), minkä jälkhiin raatimiehet selvästi ilmasthiin, ette tarvithaan ainaski kohta 100% stillinki, jotta kyethään ottamhaan vaarhiin ja selviämhään kaikista tarpheista ja haastheista.
 
 #!! * __interrpron__ selects Interr if ? in the end
