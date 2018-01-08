@@ -1,0 +1,54 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kyytitä - ok : # Verb 'to bring' - ok
+     kyytitä+V+Inf: kyytitä
+     kyytitä+V+Act+Ind+Prs+Sg1: kyytitten
+     kyytitä+V+Act+Ind+Prs+Sg2: kyytittet
+     kyytitä+V+Act+Ind+Prs+Sg3: kyytittee
+     kyytitä+V+Act+Ind+Prs+Pl1: kyytittemmä
+     kyytitä+V+Act+Ind+Prs+Pl2: kyytittettä
+     kyytitä+V+Act+Ind+Prs+Pl3: kyytithään
+     kyytitä+V+Act+Ind+Prt+Sg1: kyytittin
+     kyytitä+V+Act+Ind+Prt+Sg2: kyytittit
+     kyytitä+V+Act+Ind+Prt+Sg3: kyytitti
+     kyytitä+V+Act+Ind+Prt+Pl1: kyytittimmä
+     kyytitä+V+Act+Ind+Prt+Pl2: kyytittittä
+     kyytitä+V+Act+Ind+Prt+Pl3: kyytithiin
+     kyytitä+V+Act+PrfPrc+Sg+Nom: kyytiny
+     kyytitä+V+Pass+PrfPrc+Nom: kyytitty
+     kyytitä+V+Act+PrfPrc+Pl+Nom: kyytinheet
+     kyytitä+V+Act+PrsPrc+Sg+Nom: kyytitteevä
+     kyytitä+V+Act+PrsPrc+Pl+Nom: kyytitteevät
+     kyytitä+V+Pass+PrsPrc+Sg+Nom: kyytittävä
+     kyytitä+V+Pass+PrsPrc+Pl+Nom: kyytittävät
+
+     kyytitä+V+Act+Cond+Sg1: kyytittisin
+     kyytitä+V+Act+Cond+Sg2: kyytittisit
+     kyytitä+V+Act+Cond+Sg3: kyytittis
+     kyytitä+V+Act+Cond+Pl1: kyytittisimä
+     kyytitä+V+Act+Cond+Pl2: kyytittisittä
+     kyytitä+V+Act+Cond+Pl3: kyytittäis
+     kyytitä+V+Pass+Cond: kyytittäis
+
+     kyytitä+V+Act+Imprt+Sg2: kyytitte
+     kyytitä+V+Act+Imprt+Pl2: kyytikkää
+
+     kyytitä+V+Act+Inf3+Ine: kyytittemässä
+     kyytitä+V+Act+Inf3+Ela: kyytittemästä
+     kyytitä+V+Act+Inf3+Ill: kyytittemhään
+     kyytitä+V+Act+Inf3+Ade: kyytittemälä
+     kyytitä+V+Act+Inf3+Abe: kyytittemättä
