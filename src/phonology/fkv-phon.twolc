@@ -782,11 +782,23 @@ t:Nx <=> [.#.|#] Cns* Vowel Nx _ :Vowel (Cns) ([Dummy: - %^E2I:0]) ([i|i2:]) ([D
     where Nx in ( l n r ) ;
 ! TODO TODO TODO for both these rules, maybe the dummy should be after the ^WG. Usually our rule is: ^WG^AO...
 
-"Gradation Nt:N in other circumstances"
+"Gradation Nt:N in other circumstances & vuote vuoeksi t:0"
 !! __@RULENAME@__
 t:0 <=> Vowel Cns* Vowel Nx  _ :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
                        Vowel _ Vowel: (Cns) (:i) [%^Jok:|%^Var:] %^WG:0 ; ! TODO ^WG other tag order, is right?
     where Nx in ( l n r ) ;
+
+! TODO TODO TODO The following rule works for the vuojeksi var alternative variant, though we want both
+! the t:j AND the t:0! And the t:j really just in vuosi:vuote vuojen
+! "t:j in Var variant vuojeksi"
+! !! __@RULENAME@__
+! t:j <=> Vowel _ Vowel: (Cns) (:i) %^Var: %^WG:0 ; ! TODO ^WG other tag order, is right?
+
+"o:u in vuosi vuote vuoet -> vuuet optional variant"
+!! __@RULENAME@__
+o:u <=> v u _ t:0 e %^Var: %^WG: %> t ;
+      ! v u o t e  ^Var   ^WG  > t
+
 
 !!€ pe#rintö^WG>n
 !!€ pe#rinnö0>n
