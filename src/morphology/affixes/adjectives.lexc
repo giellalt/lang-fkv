@@ -272,9 +272,10 @@ LEXICON vanha_a_42odd !!= * @CODE@ sininen
 +A                :   vanha_x_42odd ;
 +A                :se comp_mm ;
 
-+A+Dial/-Jok      :ssi5i superl_m_even ; ! TODO probably just Por
-+A+Dial/Jok       :si5i  superl_m_even ;
++A+Dial/Por       :ssi5i superl_m_even ;
++A+Dial/Var       :si5i  superl_m_even ;
 +A+Dial/Var       :si5   superl_mm     ;
++A+Dial/Jok       :si5i  superl_m_even ;
 
 +A+Pl+Compar+Dial/Por:se%>mm%>ii2 gen_tten ; ! +Gen:se%>mm%>ii2tten K ;
 +A+Sg+Superl+Dial/Por:ssi%>in par_tA ;
