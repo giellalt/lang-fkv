@@ -790,15 +790,17 @@ t:0 <=> Vowel Cns* Vowel Nx  _ :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Du
 
 ! TODO TODO TODO The following rule works for the vuojeksi var alternative variant, though we want both
 ! the t:j AND the t:0! And the t:j really just in vuosi:vuote vuojen
-! "t:j in Var variant vuojeksi"
-! !! __@RULENAME@__
-! t:j <=> Vowel _ Vowel: (Cns) (:i) %^Var: %^WG:0 ; ! TODO ^WG other tag order, is right?
+!"t:j in Var variant vuojeksi"
+!!! __@RULENAME@__
+!t:j <=> Vowel _ Vowel: (Cns) (:i) %^Var: %^WG:0 ; ! TODO ^WG other tag order, is right?
 
-"o:u in vuosi vuote vuoet -> vuuet optional variant"
-!! __@RULENAME@__
-o:u <=> v u _ t:0 e %^Var: %^WG: %> t ;
+!"o:u in vuosi vuote vuoet -> vuuet optional variant"
+!!! __@RULENAME@__
+!o:u <=> v u _ t:0 e %^Var: %^WG: %> t ; ! savvuhuonet
+!        v u _ t:0 e %^Var: %^WG: %> ;
       ! v u o t e  ^Var   ^WG  > t
-
+! TODO TODO TODO with the 3 rules above all the vuosi VAR variants work! Now just need to find a away
+! to make all 4 happen simultaneously (and maybe just for the word vuosi).
 
 !!€ pe#rintö^WG>n
 !!€ pe#rinnö0>n
