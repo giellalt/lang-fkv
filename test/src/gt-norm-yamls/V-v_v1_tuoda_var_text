@@ -27,7 +27,7 @@ Tests:
      tuođa+V+Act+Ind+Prt+Sg3: toi
      tuođa+V+Act+Ind+Prt+Pl1: toima
      tuođa+V+Act+Ind+Prt+Pl2: toitta
-     tuođa+V+Act+Ind+Prt+Pl3: toivat
+     tuođa+V+Act+Ind+Prt+Pl3: [toivat, toit]
      tuođa+V+Act+PrfPrc+Sg+Nom: tuonu
      tuođa+V+Pass+PrfPrc+Nom: tuotu
      tuođa+V+Act+PrfPrc+Pl+Nom: tuonheet
@@ -61,13 +61,13 @@ Tests:
      saađa+V+Act+Ind+Prs+Sg3: saapi
      saađa+V+Act+Ind+Prs+Pl1: saama
      saađa+V+Act+Ind+Prs+Pl2: saatta
-     saađa+V+Act+Ind+Prs+Pl3: saahaan
+     saađa+V+Act+Ind+Prs+Pl3: saavat
      saađa+V+Act+Ind+Prt+Sg1: sain
      saađa+V+Act+Ind+Prt+Sg2: sait
      saađa+V+Act+Ind+Prt+Sg3: sai
      saađa+V+Act+Ind+Prt+Pl1: saima
      saađa+V+Act+Ind+Prt+Pl2: saitta
-     saađa+V+Act+Ind+Prt+Pl3: saathiin
+     saađa+V+Act+Ind+Prt+Pl3: [saivat, sait]
      saađa+V+Act+PrfPrc+Sg+Nom: saanu
      saađa+V+Pass+PrfPrc+Nom: saatu
      saađa+V+Act+PrfPrc+Pl+Nom: saanheet
@@ -94,4 +94,4 @@ Tests:
      saađa+V+Act+Inf3+Abe: saamatta
 
 # Suffiksi on A (-a tai -ä) infinitiivissä, kun siinä on diftongi.
-# Kun vartalossa on pitkä vokaali, eli kaksi samanlaista vokaalia niin se on hA (Söderholm 2014: 233). 
+# Kun vartalossa on pitkä vokaali, eli kaksi samanlaista vokaalia niin se on hA (Söderholm 2014: 233).
