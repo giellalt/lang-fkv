@@ -14,11 +14,11 @@ Tests:
 # Then: run analyser, then correct.
   Verb - laueta - ei tsekattu : # Verb 'to bring' - ei tsekattu
      laueta+V+Inf: laueta
-     laueta+V+Act+Ind+Prs+Sg1: laukkeen
-     laueta+V+Act+Ind+Prs+Sg2: laukkeet
-     laueta+V+Act+Ind+Prs+Sg3: laukkee
-     laueta+V+Act+Ind+Prs+Pl1: laukkeema
-     laueta+V+Act+Ind+Prs+Pl2: laukkeetta
+     laueta+V+Act+Ind+Prs+Sg1: laukeen
+     laueta+V+Act+Ind+Prs+Sg2: laukeet
+     laueta+V+Act+Ind+Prs+Sg3: laukee
+     laueta+V+Act+Ind+Prs+Pl1: laukeema
+     laueta+V+Act+Ind+Prs+Pl2: laukeetta
      laueta+V+Act+Ind+Prs+Pl3: lauethaan
      laueta+V+Act+Ind+Prt+Sg1: laukesin
      laueta+V+Act+Ind+Prt+Sg2: laukesit
@@ -29,24 +29,24 @@ Tests:
      laueta+V+Act+PrfPrc+Sg+Nom: lauenu
      laueta+V+Pass+PrfPrc+Nom: lauettu
      laueta+V+Act+PrfPrc+Pl+Nom: lauenheet
-     laueta+V+Act+PrsPrc+Sg+Nom: laukkeeva
+     laueta+V+Act+PrsPrc+Sg+Nom: laukeeva
      laueta+V+Act+PrsPrc+Pl+Nom: laukkeevat
      laueta+V+Pass+PrsPrc+Sg+Nom: lauettava
      laueta+V+Pass+PrsPrc+Pl+Nom: lauettavat
 
-     laueta+V+Act+Cond+Sg1: laukkeisin
-     laueta+V+Act+Cond+Sg2: laukkeisit
-     laueta+V+Act+Cond+Sg3: laukkeis
-     laueta+V+Act+Cond+Pl1: laukkeisimma
-     laueta+V+Act+Cond+Pl2: laukkeisitta
+     laueta+V+Act+Cond+Sg1: laukeisin
+     laueta+V+Act+Cond+Sg2: laukeisit
+     laueta+V+Act+Cond+Sg3: laukeis
+     laueta+V+Act+Cond+Pl1: laukeisimma
+     laueta+V+Act+Cond+Pl2: laukeisitta
      laueta+V+Act+Cond+Pl3: lauettais
      laueta+V+Pass+Cond: lauettais
 
      laueta+V+Act+Imprt+Sg2: laukkee
      laueta+V+Act+Imprt+Pl2: lauekkaa
 
-     laueta+V+Act+Inf3+Ine: laukkeemassa
-     laueta+V+Act+Inf3+Ela: laukkeemasta
-     laueta+V+Act+Inf3+Ill: laukkeemhaan
-     laueta+V+Act+Inf3+Ade: laukkeemalla
-     laueta+V+Act+Inf3+Abe: laukkeematta
+     laueta+V+Act+Inf3+Ine: laukeemassa
+     laueta+V+Act+Inf3+Ela: laukeemasta
+     laueta+V+Act+Inf3+Ill: laukeemhaan
+     laueta+V+Act+Inf3+Ade: laukeemalla
+     laueta+V+Act+Inf3+Abe: laukeematta
