@@ -737,8 +737,9 @@ t:Nx <=> [.#.|#] Cns* Vowel Nx _ :Vowel (Cns) ([Dummy: - %^E2I:0]) ([i|i2:]) ([D
 "Gradation Nt:N in other circumstances & vuote vuoeksi t:0"
 !! __@RULENAME@__
 t:0 <=> Vowel Cns* Vowel Nx  _ :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
-                       Vowel _ Vowel: (Cns) (:i) [%^Jok:|%^Var:] %^WG:0 ;
+                       Vowel _ Vowel: (Cns)                          (:i)      [%^Jok:|%^Var:]   %^WG:0 ;
     where Nx in ( l n r ) ;
+
 
 ! TODO TODO TODO The following rule works for the vuojeksi var alternative variant, though we want both
 ! the t:j AND the t:0! And the t:j really just in vuosi:vuote vuojen
@@ -752,7 +753,7 @@ t:0 <=> Vowel Cns* Vowel Nx  _ :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Du
 !        v u _ t:0 e %^Var: %^WG: %> ;
       ! v u o t e  ^Var   ^WG  > t
 ! TODO TODO TODO with the 3 rules above all the vuosi VAR variants work! Now just need to find a away
-! to make all 4 happen simultaneously (and maybe just for the word vuosi).
+! to make all 4 happen simultaneously (and maybe just for the word vuosi?).
 
 !!€ pe#rintö^WG>n
 !!€ pe#rinnö0>n
@@ -775,7 +776,7 @@ t:0 <=> Vowel Cns* Vowel Nx  _ :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Du
 !! __@RULENAME@__
  t:đ <=> h _ Vowel: (Cns) (Dummy:)                           (:i) (Dummy:)                           %^WG:0 ;
      Vowel _ Vowel: (Cns) [Dummy: - [%^E2I:|%^Jok:|%^Var:]]* (:i) [Dummy: - [%^E2I:|%^Jok:|%^Var:]]* %^WG:0 ; ! TODO ^WG other tag order?
-!                           0+ Dummy: paitsi! nää 3                 0+ Dummy: paitsi! nää 3 ! TODO lisää 1.kontekstiin?
+!                           0+ Dummy: paitsi E2I tai -Por          0+ Dummy: paitsi E2I tai -Por! TODO lisää 1.kontekstiin?
 ! should not include ^Jok (uuen).
 ! When ^Jok it should go to the t:0 rule above instead
 
@@ -794,7 +795,6 @@ t:0 <=> Vowel Cns* Vowel Nx  _ :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Du
 ! "Gradation t:0 in yđin (ydin w/đ) in Var stem: yti -> yi)"
 ! In Por it is yti for all except the Sg+Nom and Sg+Par which has yđin yđintä, those two have ^WG!
 ! so should be t:0 in Var Sg+Nom and Sg+Par, now it is with đ. So t:0 instead of t:đ for those. Those two have ^WG!
-! In Jok PROBABLY t:0 for all or something?
 
 ! So in one rule one dialect trigger, in the other another, or at least a negation
 

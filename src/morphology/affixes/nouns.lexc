@@ -642,35 +642,48 @@ LEXICON vanha_x_31mies        !!= @CODE@ mies mie
 
 
 LEXICON vanha_n_32 !!= @CODE@ tytär, taival
-+N         :    vanha_x_32 ;
-+N+Sg      :^WG nom_R   ;
+! Encountered a problem for the dialect trigger order!
+! "e:0 in consonant stems and illative plural"
+! and other all rules want the order to be stem ^Var therest,
+! but in _n_32 (and some other sublexica) we add an e in all
+! conjjugations except in a few (sgnom, and sgpl gen, par).
+
+! Added an e before the dialect triggers, which need to be added to the e:0 rule in twolc,
+! but I think that in the longer run having a uniform structure for this will be better.
+
++N+Dial/Por:e^Por vanha_x_32 ;
++N+Dial/Var:e^Var vanha_x_32 ;
++N+Dial/Jok:e^Jok vanha_x_32 ;
++N+Sg      :^WG  nom_R      ;
 
 LEXICON vanha_x_32 ! tyven
   +Sg      :^WG          nom_end        ;
-  +Sg      :e            gen_n_sg       ;
-  +Sg      :e^WG         gen_n_sg       ;
+  +Sg      :             gen_n_sg       ;
+  +Sg      :^WG          gen_n_sg       ;
   +Sg      :^WG          par_tA         ;
-  +Sg      :e^HMETA      ill_hVVn       ;
-  +Sg      :e            ess_nnA        ;
-  +Sg      :e            sgpl_cases_odd ;
+  +Sg      :^HMETA       ill_hVVn       ;
+  +Sg      :             ess_nnA        ;
+  +Sg      :             sgpl_cases_odd ;
 
-  +Pl      :e            nom_t          ;
-  +Pl      :e^WG         nom_t          ;
+  +Pl      :             nom_t          ;
+  +Pl      :^WG          nom_t          ;
   +Pl+Dial/Por:%>i%>i2      gen_tten       ; ! tyttäriitten
   +Pl+Dial/-Por:%>i%>        gen_tten       ; ! tyttäritten, mutta tyveniitten? TODO checking with Aili
   +Pl+Dial/Por:%>i2         par_V          ; ! tyttärii
   +Pl+Dial/Por:%>i%>i2      par_tA         ; ! tyttäriitä
   +Pl+Dial/-Por:%>i%>        par_A          ; ! tyttäriä
   +Pl      :^HMETA       ill_hiin       ;
-  +Pl      :e%>i2        ess_nnA        ;
-  +Pl+Dial/Por:e%>i2        com_nne        ;
-  +Pl+Dial/Var:e%>i2        com_nne        ;
-  +Pl+Dial/Jok:e%>i2        com_nne        ; ! jok: tyveninne
+  +Pl      :%>i2         ess_nnA        ;
+  +Pl+Dial/Por:%>i2         com_nne        ;
+  +Pl+Dial/Var:%>i2         com_nne        ;
+  +Pl+Dial/Jok:%>i2         com_nne        ; ! jok: tyveninne
   +Pl      :%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
 
 LEXICON vanha_n_32m !!= @CODE@ elläin elläi yđin ydin
-+N         :     vanha_x_32m ;
++N+Dial/Por:^Por vanha_x_32m ;
++N+Dial/Var:^Var vanha_x_32m ;
++N+Dial/Jok:^Jok vanha_x_32m ;
 +N+Sg      :^WGn nom_R    ;
 
 LEXICON vanha_x_32m !!= @CODE@
