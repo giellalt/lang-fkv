@@ -5,7 +5,7 @@
 # over by the test runner.
 
 ###### Variables: #######
-transducer=oahpa-gt-norm-dial_Por
+transducer=gt-norm-dial_Por
 halftest=gen # analysis test
 yaml_file_subdir=gt-norm-yamls
 
