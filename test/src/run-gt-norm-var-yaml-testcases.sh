@@ -5,7 +5,7 @@
 # over by the test runner.
 
 ###### Variables: #######
-transducer=gt-norm
+transducer=gt-norm-dial_Var
 
 yaml_file_subdir=gt-norm-yamls
 

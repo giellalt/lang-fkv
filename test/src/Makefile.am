@@ -24,6 +24,13 @@ if WANT_GENERATION
 TESTS+=run-gt-norm-yaml-testcases.sh \
        run-gt-desc-yaml-testcases.sh \
        run-lexc-testcases.sh
+
+if WANT_DIALECTS
+TESTS+=run-gt-norm-por-yaml-testcases.sh \
+       run-gt-norm-var-yaml-testcases.sh \
+       run-gt-norm-jok-yaml-testcases.sh 
+endif # WANT_DIALECTS
+
 endif # WANT_GENERATION
 endif # WANT_MORPHOLOGY
 
@@ -31,6 +38,13 @@ endif # WANT_MORPHOLOGY
 if WANT_GENERATION
 TESTS+=run-gt-norm-genyaml-testcases.sh \
        run-gt-desc-genyaml-testcases.sh
+
+if WANT_DIALECTS
+TESTS+=run-gt-norm-por-genyaml-testcases.sh \
+       run-gt-norm-var-genyaml-testcases.sh \
+       run-gt-norm-jok-genyaml-testcases.sh 
+endif # WANT_DIALECTS
+
 endif # WANT_GENERATION
 
 # This is for yaml tests to be run when building fst's tailored to the needs of
@@ -39,12 +53,6 @@ if WANT_DICTIONARIES
 TESTS+=run-dict-gt-desc-anayaml-testcases.sh \
        run-dict-gt-norm-genyaml-testcases.sh
 endif # WANT_DICTIONARIES
-
-if WANT_OAHPA
-TESTS+=run-gt-norm-por-genyaml-testcases.sh \
-       run-gt-norm-var-genyaml-testcases.sh \
-       run-gt-norm-jok-genyaml-testcases.sh 
-endif # WANT_OAHPA
 
 endif # CAN_YAML_TEST
 
