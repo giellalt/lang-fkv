@@ -1,4 +1,4 @@
-Config:
+seeConfig:
   hfst:
     Gen: ../../../src/generator-gt-norm.hfst
     Morph: ../../../src/analyser-gt-norm.hfst
@@ -11,32 +11,44 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: linnrun analyser, then correct.
+# Then: run analyser, then correct.
 
 
-  Noun - käsi - ok : # Noun 'år' - ei tsekattu
-     käsi+N+Sg+Nom: käsi
-     käsi+N+Sg+Gen: käđen
-     käsi+N+Sg+Par: kättä
-     käsi+N+Sg+Tra: käđeksi
-     käsi+N+Sg+Abe: käđettä
-     käsi+N+Sg+Ine: käđessä
-     käsi+N+Sg+Ela: käđestä
-     käsi+N+Sg+Ill: kätheen
-     käsi+N+Sg+Ade: käđelä
-     käsi+N+Sg+Abl: käđeltä
-     käsi+N+Sg+All: käđele
-     käsi+N+Sg+Ess: kätenä
-     käsi+N+Pl+Nom: käđet
-     käsi+N+Pl+Gen: kässiin
-     käsi+N+Pl+Par: kässii
-     käsi+N+Pl+Tra: käsiksi
-     käsi+N+Pl+Abe: käsittä
-     käsi+N+Pl+Ine: käsissä
-     käsi+N+Pl+Ela: käsistä
-     käsi+N+Pl+Ill: käshiin
-     käsi+N+Pl+Ade: käsilä
-     käsi+N+Pl+Abl: käsiltä
-     käsi+N+Pl+All: käsile
-     käsi+N+Pl+Ess: käsinä
-     käsi+N+Pl+Com: käsine
+  Verb - nähhä - ok : # Verb 'to do' - ok
+     nähđä+V+Inf: nähhä
+     nähđä+V+Act+Ind+Prs+Sg1: näen
+     nähđä+V+Act+Ind+Prs+Sg2: näet
+     nähđä+V+Act+Ind+Prs+Sg3: näkkee
+     nähđä+V+Act+Ind+Prs+Pl1: näemä
+     nähđä+V+Act+Ind+Prs+Pl2: näettä
+     nähđä+V+Act+Ind+Prs+Pl3: näkevät
+     nähđä+V+Act+Ind+Prt+Sg1: näin
+     nähđä+V+Act+Ind+Prt+Sg2: näit
+     nähđä+V+Act+Ind+Prt+Sg3: näki
+     nähđä+V+Act+Ind+Prt+Pl1: näimä
+     nähđä+V+Act+Ind+Prt+Pl2: näittä
+     nähđä+V+Act+Ind+Prt+Pl3: [näkivät, näit]
+     nähđä+V+Act+PrfPrc+Sg+Nom: nähny
+     nähđä+V+Pass+PrfPrc+Nom: nähty
+     nähđä+V+Act+PrfPrc+Pl+Nom: nähnheet
+     nähđä+V+Act+PrsPrc+Sg+Nom: näkevä
+     nähđä+V+Act+PrsPrc+Pl+Nom: näkevät
+     nähđä+V+Pass+PrsPrc+Sg+Nom: nähtävä
+     nähđä+V+Pass+PrsPrc+Pl+Nom: nähtävät
+
+     nähđä+V+Act+Cond+Sg1: näkisin
+     nähđä+V+Act+Cond+Sg2: näkisit
+     nähđä+V+Act+Cond+Sg3: näkis
+     nähđä+V+Act+Cond+Pl1: näkisimmä
+     nähđä+V+Act+Cond+Pl2: näkisittä
+     nähđä+V+Act+Cond+Pl3: nähtäis
+     nähđä+V+Pass+Cond: nähtäis
+
+     nähđä+V+Act+Imprt+Sg2: näe
+     nähđä+V+Act+Imprt+Pl2: nähkää
+
+     nähđä+V+Act+Inf3+Ine: näkemässä
+     nähđä+V+Act+Inf3+Ela: näkemästä
+     nähđä+V+Act+Inf3+Ill: näkemhään
+     nähđä+V+Act+Inf3+Ade: näkemällä
+     nähđä+V+Act+Inf3+Abe: näkemättä
