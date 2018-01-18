@@ -24,7 +24,9 @@ morf_codes="+N+Sg+Nom \
             +N+Sg+Ade \
             +N+Sg+Ess \
             +N+Pl+Nom \
-            +N+Pl+Com"
+            +N+Pl+Gen \
+            +N+Pl+Par \
+            +N+Pl+Ill"
 
 
 # Lexicon source file for lexicons and lemmas:
