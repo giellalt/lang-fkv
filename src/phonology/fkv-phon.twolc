@@ -42,7 +42,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 ! Morpheme boundaries:
  »  !!= * @CODE@ = Derivational suffix
 %>  !!= * @CODE@ = border before inflection suffix
- #  !!= * @CODE@ = Word boundary for both lexicalised and dynamic compounds
+ #  !! The hash mark = Word boundary for both lexicalised and dynamic compounds
  %^ !!= * @CODE@ = (exceptional) soft hyphenation point
 
 ;
@@ -755,8 +755,10 @@ t:0 <=> Vowel Cns* Vowel Nx  _ :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Du
 ! TODO TODO TODO with the 3 rules above all the vuosi VAR variants work! Now just need to find a away
 ! to make all 4 happen simultaneously (and maybe just for the word vuosi?).
 
+!! {{{
 !!€ pe#rintö^WG>n
 !!€ pe#rinnö0>n
+!! }}}
 
 !!€ lentä^WG>n
 !!€ lennä0>n
