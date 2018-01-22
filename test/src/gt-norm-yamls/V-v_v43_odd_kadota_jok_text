@@ -1,0 +1,54 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kađota - ok : # Verb 'to bring' - ok
+     kađota+V+Inf: kaota
+     kađota+V+Act+Ind+Prs+Sg1: katoan
+     kađota+V+Act+Ind+Prs+Sg2: katoat
+     kađota+V+Act+Ind+Prs+Sg3: katoa
+     kađota+V+Act+Ind+Prs+Pl1: katoama
+     kađota+V+Act+Ind+Prs+Pl2: katoatta
+     kađota+V+Act+Ind+Prs+Pl3: katoavat
+     kađota+V+Act+Ind+Prt+Sg1: katosin
+     kađota+V+Act+Ind+Prt+Sg2: katosit
+     kađota+V+Act+Ind+Prt+Sg3: katos
+     kađota+V+Act+Ind+Prt+Pl1: katosimma
+     kađota+V+Act+Ind+Prt+Pl2: katositta
+     kađota+V+Act+Ind+Prt+Pl3: [katosivat, katosit]
+     kađota+V+Act+PrfPrc+Sg+Nom: kaonu
+     kađota+V+Pass+PrfPrc+Nom: kaottu
+     kađota+V+Act+PrfPrc+Pl+Nom: kaonheet
+     kađota+V+Act+PrsPrc+Sg+Nom: katoava
+     kađota+V+Act+PrsPrc+Pl+Nom: katoavat
+     kađota+V+Pass+PrsPrc+Sg+Nom: kaottava
+     kađota+V+Pass+PrsPrc+Pl+Nom: kaottavat
+
+     kađota+V+Act+Cond+Sg1: katoaisin
+     kađota+V+Act+Cond+Sg2: katoaisit
+     kađota+V+Act+Cond+Sg3: katoais
+     kađota+V+Act+Cond+Pl1: katoaisimma
+     kađota+V+Act+Cond+Pl2: kattoisitta
+     kađota+V+Act+Cond+Pl3: kaottais
+     kađota+V+Pass+Cond: kaottais
+
+     kađota+V+Act+Imprt+Sg2: katoa
+     kađota+V+Act+Imprt+Pl2: kaokkaa
+
+     kađota+V+Act+Inf3+Ine: katoamassa
+     kađota+V+Act+Inf3+Ela: katoamasta
+     kađota+V+Act+Inf3+Ill: katoamhaan
+     kađota+V+Act+Inf3+Ade: katoamalla
+     kađota+V+Act+Inf3+Abe: katoamatta
