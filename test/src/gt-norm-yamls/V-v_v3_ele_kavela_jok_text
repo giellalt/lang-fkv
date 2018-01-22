@@ -1,0 +1,54 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kävelä - ok : # Verb 'to bring' - ok
+     kävelä+V+Inf: kävelä
+     kävelä+V+Act+Ind+Prs+Sg1: kävelen
+     kävelä+V+Act+Ind+Prs+Sg2: kävelet
+     kävelä+V+Act+Ind+Prs+Sg3: kävelee
+     kävelä+V+Act+Ind+Prs+Pl1: kävelemmä
+     kävelä+V+Act+Ind+Prs+Pl2: kävelettä
+     kävelä+V+Act+Ind+Prs+Pl3: kävelevät
+     kävelä+V+Act+Ind+Prt+Sg1: kävelin
+     kävelä+V+Act+Ind+Prt+Sg2: kävelit
+     kävelä+V+Act+Ind+Prt+Sg3: käveli
+     kävelä+V+Act+Ind+Prt+Pl1: kävelimmä
+     kävelä+V+Act+Ind+Prt+Pl2: kävelittä
+     kävelä+V+Act+Ind+Prt+Pl3: [kävelivät, kävelit]
+     kävelä+V+Act+PrfPrc+Sg+Nom: kävely
+     kävelä+V+Pass+PrfPrc+Nom: kävelty
+     kävelä+V+Act+PrfPrc+Pl+Nom: kävelheet
+     kävelä+V+Act+PrsPrc+Sg+Nom: kävelevä
+     kävelä+V+Act+PrsPrc+Pl+Nom: kävelevät
+     kävelä+V+Pass+PrsPrc+Sg+Nom: käveltävä
+     kävelä+V+Pass+PrsPrc+Pl+Nom: käveltävät
+
+     kävelä+V+Act+Cond+Sg1: kävelisin
+     kävelä+V+Act+Cond+Sg2: kävelisit
+     kävelä+V+Act+Cond+Sg3: kävelis
+     kävelä+V+Act+Cond+Pl1: kävelisimä
+     kävelä+V+Act+Cond+Pl2: kävelisittä
+     kävelä+V+Act+Cond+Pl3: käveltäis
+     kävelä+V+Pass+Cond: käveltäis
+
+     kävelä+V+Act+Imprt+Sg2: kävele
+     kävelä+V+Act+Imprt+Pl2: kävelkkää
+
+     kävelä+V+Act+Inf3+Ine: kävelemässä
+     kävelä+V+Act+Inf3+Ela: kävelemästä
+     kävelä+V+Act+Inf3+Ill: kävelemhään
+     kävelä+V+Act+Inf3+Ade: kävelemälä
+     kävelä+V+Act+Inf3+Abe: kävelemättä
