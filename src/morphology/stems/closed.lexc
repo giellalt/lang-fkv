@@ -39,7 +39,7 @@ LEXICON subj
  +CS: # ;
 
 LEXICON Conjunction
-!! @LEXNAME@ -leksikossa on vain pari sanaa. !!joko - tai
+!! @LEXNAME@ -leksikossa on vain pari sanaa. joko - tai
 eli cctag ;
 ja cctag ;
 tai cctag ;
@@ -55,8 +55,8 @@ vai cctag ;
 ynnä cctag ;
 saati cctag ;
 kunnes cctag ;
-! siksi cctag ; !# Aili: siirsin sen subj-tagin alle.
-! sillä cctag ; !# Aili: siirsin sen subj-tagin alle.
+! siksi cctag ; Aili: siirsin sen subj-tagin alle.
+! sillä cctag ;  Aili: siirsin sen subj-tagin alle.
 näet cctag ;
 nimittäin cctag ;
 
@@ -65,7 +65,7 @@ LEXICON cctag
  +CC: # ;
 
 LEXICON Interjection
-!! @LEXNAME@ -leksikossa on vain pari sanaa. !! yäk, kääk, nono
+!! @LEXNAME@ -leksikossa on vain pari sanaa.  yäk, kääk, nono
 ah ij ;
 ahaa ij ;
 ai ij ;
