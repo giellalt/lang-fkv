@@ -658,15 +658,15 @@ LEXICON vanha_n_32 !!= @CODE@ tytär, taival
 
 LEXICON vanha_x_32 ! tyven
   +Sg      :^WG          nom_end        ;
-  +Sg      :             gen_n_sg       ;
-  +Sg      :^WG          gen_n_sg       ;
+  +Sg      :e             gen_n_sg       ;
+  +Sg      :e^WG          gen_n_sg       ;
   +Sg      :^WG          par_tA         ;
   +Sg      :^HMETA       ill_hVVn       ;
-  +Sg      :             ess_nnA        ;
-  +Sg      :             sgpl_cases_odd ;
+  +Sg      :e             ess_nnA        ;
+  +Sg      :e             sgpl_cases_odd ;
 
-  +Pl      :             nom_t          ;
-  +Pl      :^WG          nom_t          ;
+  +Pl      :e             nom_t          ;
+  +Pl      :e^WG          nom_t          ;
   +Pl+Dial/Por:%>i%>i2      gen_tten       ; ! tyttäriitten
   +Pl+Dial/-Por:%>i%>        gen_tten       ; ! tyttäritten, mutta tyveniitten? TODO checking with Aili
   +Pl+Dial/Por:%>i2         par_V          ; ! tyttärii
