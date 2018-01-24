@@ -42,7 +42,7 @@ täysi:täyte vanha_a_31si ;
 
 !! !!3.2 Usseaempitavuiset
 
-tyven vanha_a_32 ; !!= * @CODE@
+tyven:tyve vanha_a_32 ; !!= * @CODE@
 
 vasen:vase vanha_a_32ma ; !!= * @CODE@
 
@@ -256,8 +256,8 @@ ultrafioletti vanha_a_22 ;
 nekatiivi vanha_a_22 ;
 primitiivi vanha_a_22 ;
 merkittävä vanha_a_22 ;
-tyven vanha_a_32 ;
-tinatyven vanha_a_32 ;
+tyven:tyve vanha_a_32 ;
+tinatyven:tina#tyve vanha_a_32 ;
 alhainen:alhai vanha_a_42 ;
 varhainen:varhai vanha_a_42 ;
 neljenjalkainen:neljenjalkai vanha_a_42 ;
