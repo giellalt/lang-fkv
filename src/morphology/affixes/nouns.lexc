@@ -651,9 +651,9 @@ LEXICON vanha_n_32 !!= @CODE@ tytär, taival
 ! Added an e before the dialect triggers, which need to be added to the e:0 rule in twolc,
 ! but I think that in the longer run having a uniform structure for this will be better.
 
-+N+Dial/Por:e^Por vanha_x_32 ;
-+N+Dial/Var:e^Var vanha_x_32 ;
-+N+Dial/Jok:e^Jok vanha_x_32 ;
++N+Dial/Por:^Por vanha_x_32 ;
++N+Dial/Var:^Var vanha_x_32 ;
++N+Dial/Jok:^Jok vanha_x_32 ;
 +N+Sg      :^WG  nom_R      ;
 
 LEXICON vanha_x_32 ! tyven
