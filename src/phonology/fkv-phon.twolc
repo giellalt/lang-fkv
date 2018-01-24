@@ -554,7 +554,7 @@ Rules
 
 "Gradation ppttkk : ptk"
 !! __@RULENAME@__
-Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG: ;   !entinen omppu
+Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) (e:0) (Dialects:0) %^WG: ; !tytärtä   !entinen omppu
          Vowel: ([l|m|n|r]) Cx _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
             where Cx in ( k p t ) ;
 
@@ -568,8 +568,6 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 !  !!€ paivukko^AO>i2>ne
 !  !!€ paivuk0o0>i>ne
 !  kulkiija^AO>i2>t^A distinguish this from por somehow.
-
-
 
 
 
@@ -597,7 +595,7 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 
 "Gradation p:v"
 !! __@RULENAME@__
- p:v <=> Vowel: _ Vowel: (Cns:) Dummy:* (:i) Dummy:* %^WG:0 ;
+ p:v <=> Vowel: _ Vowel: (Cns:) Dummy:* ([:i|e:0]) Dummy:* %^WG:0 ;
           [r|l] _ [e|a] %^WG:0 ;
 
 
@@ -1045,6 +1043,9 @@ j:0 <=> l _ e: %^E2I:0 ;
                               :Cns _ (Dialects:0) (%^E2I:0) %> i2: ; ! jok uusine
                               :Cns _ (Dialects:0) (%^E2I:0) %^HMETA:0 %> h [%^V:|i] ; ! uutheen
                               :Cns _  %^VDEL:0  (Dummy:) %> [s|t] ;
+!         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 ;
+         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 %> t %^A: ; ! taivalta sgpar ja tytärtä
+!        (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 .#. ; ! taival sgnom ja tytär
                       Cns i e :Cns _ %> t e n ; !kielten sienten
 
 
