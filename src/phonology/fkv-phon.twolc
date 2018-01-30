@@ -1045,9 +1045,42 @@ j:0 <=> l _ e: %^E2I:0 ;
                               :Cns _  %^VDEL:0  (Dummy:) %> [s|t] ;
 !         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 ;
          (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 %> t %^A: ; ! taivalta sgpar ja tytärtä
-!        (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 .#. ; ! taival sgnom ja tytär
+!         pake^WG%>t^A, What is the distinction for pajeta, as opposed to taivalta?
+         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 .#. ; ! taival/tytär sgnom TODO end of word still doesn't work!
                       Cns i e :Cns _ %> t e n ; !kielten sienten
 
+! TODO TODO TODO
+! WTF; Toimii Twolc:ssä mutta ei kun kompiloi, miks?
+! [ 2/75][FAIL] tyven+A+Sg+Gen => Missing results: tyvenen
+! [ 2/75][FAIL] tyven+A+Sg+Gen => Unexpected results: tyvenn
+! Lexical string ('q' = quit): tyvene^Por^WG>n
+! Surface string ('q' = quit): tyvene00>n
+! t
+! y
+! v
+! e
+! n
+! e
+! ^Por:0
+! ^WG:0
+! >
+! n
+! ACCEPTED
+!
+! Lexical string ('q' = quit): tyvene^Por^WG>n
+! Surface string ('q' = quit): tyven000>n
+! t
+! y
+! v
+! e
+! n
+! e:0
+! ^Por:0
+! ^WG:0
+! >
+! n
+! REJECTED: "e:0 in consonant stems and illative plural" fails in state 25.
+!
 
 ! kieleten
 !!€ ytime^HMETA>h^V^V>
