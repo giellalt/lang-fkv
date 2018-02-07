@@ -834,7 +834,9 @@ LEXICON vanha_x_33aes
 
 
 LEXICON vanha_n_33is !!= @CODE@ ruvis, ruumis
-+N         :          vanha_x_33is          ;
++N+Dial/Por:^Por vanha_x_33is ;
++N+Dial/Var:^Var vanha_x_33is ;
++N+Dial/Jok:^Jok vanha_x_33is ;
 
 LEXICON vanha_x_33is ! kaunis
   +Sg      :i^WG%>s   nom_end         ;
