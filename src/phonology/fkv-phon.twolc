@@ -662,7 +662,7 @@ k:0 <=>               h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0      ; ! tu
                   [o|ö] _ e:  %^Var:0 (Dummy:) (:i) (Dummy:)  %^WG:0      ; ! joki joen
                   a  i  _ a   %^Var:0                         %^WG:0 %>   ; ! aika aian
                   a  i  _ a:o %^Var:0                        (%^WG:0) (%^AO:0) %> i2: %> \n ; ! aika aian
-
+                    r u _     %^Var:0           i             %^WG:0 %> s ; ! ruvis -> ruis in var
 
 !!€ pölkä^WG>t^A
 !!€ pöl0ä0>tä
@@ -689,8 +689,8 @@ k3:0 <=> u o _ a %^WG: ;
 
 "k:v"
 k:v <=> [Vowel - i] _ [o|ö|u|y]    (Dummy:) (:i) (Dummy:) %^WG:0 ;
-       \i [o|ö|u|y] _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! ruoka
-              [o|ö] _  e: %^Por:    (Dummy:) (:i) (Dummy:) %^WG:0 ; ! Por: joke -> joven.  Var: joke -> joen
+       \i [o|ö|u|y] _ (%^Por:) [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! ruoka ! (^Por) is for ruvis
+              [o|ö] _  e: %^Por:   (Dummy:) (:i) (Dummy:) %^WG:0 ; ! Por: joke -> joven.  Var: joke -> joen
                i u  _  a           (Dummy:) (:i) (Dummy:) %^WG:0 ; !kiukhaan:kiuvas
 
 !!€ ruoka^WG>n
