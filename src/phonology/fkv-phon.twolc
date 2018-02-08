@@ -29,6 +29,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^Por:0                   !!= * @CODE@ -- Porsanger  dialekti
 %^Var:0                   !!= * @CODE@ -- Varanger   dialekti
 %^Jok:0                   !!= * @CODE@ -- Jokivarret dialekti
+%^End:0                   !!= * @CODE@ -- End of word, since the # tags don't work properly
 %^¤:0
 !!!*** Remember to add new tags to Dummy further down!
 !%^n_23-e2i:0          ! Not in dummy
@@ -1046,7 +1047,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 ;
          (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 %> t %^A: ; ! taivalta sgpar ja tytärtä
 !         pake^WG%>t^A, What is the distinction for pajeta, as opposed to taivalta?
-         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 .#. ; ! taival/tytär sgnom TODO end of word still doesn't work!
+         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 %^End:0 ; ! taival/tytär sgnom TODO end of word still doesn't work!
                       Cns i e :Cns _ %> t e n ; !kielten sienten
 
 ! TODO TODO TODO
