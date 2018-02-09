@@ -659,7 +659,7 @@ LEXICON vanha_n_32 !!= @CODE@ tytär:tyttär, taival:taipal
 
 ! tyvenen (ja muut sg) toimii Twolc:ssä mutta ei yamleilla kun kompiloi, miks? katso e:0 twolc:ssä, lisää notes
 LEXICON vanha_x_32 ! tyven
-  +Sg      :^WG          nom_end        ; ! TODO add e:0 for tyvene -> tyven sg nom
+  +Sg      :^WG^E0       nom_end        ;
 !  +Sg      :             gen_n_sg       ;
   +Sg      :^WG          gen_n_sg       ;
   +Sg      :^WG          par_tA         ;
@@ -1101,7 +1101,7 @@ LEXICON sgpl_cases_common
 
 
 LEXICON nom_end
- +Nom:^End K ; ! Why not PxxK ?
+ +Nom: K ; ! Why not PxxK ?
 
 LEXICON nom_R
  +Nom: R ;
