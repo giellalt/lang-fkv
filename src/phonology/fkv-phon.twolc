@@ -866,7 +866,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Back harmony for %^A: %^O: %^U:"
 !! __@RULENAME@__
- Vx:Vy <=> BackVowel: NonFront:* (NonFront:*) (:NonFront) NonFront:* NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;
+ Vx:Vy <=> BackVowel: NonFront:* (NonFront:*) (:NonFront) NonFront:* NonFront:* NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;
           [#:|.#.]  Cns    (RoundedVowel) [u|o]  (i6:)                        Cns  a: %^AO:0 %> i2:i %> n _  ;
 
     where Vx in ( %^A %^O %^U )
