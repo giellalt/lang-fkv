@@ -15,7 +15,7 @@ Tests:
 
 
   Verb - kirjoittaat - ok : # Verb 'to bring' - ok
-     kirjoittaat+V+Inf: [kirjoittaa, kirjottaa]
+     kirjoittaat+V+Inf: [kirjoittaa, kirjottaa, kirjoittaat, kirjottaat]
      kirjoittaat+V+Act+Ind+Prs+Sg1: [kirjoitan, kirjotan]
      kirjoittaat+V+Act+Ind+Prs+Sg2: [kirjoitat, kirjotat]
      kirjoittaat+V+Act+Ind+Prs+Sg3: [kirjoittaa, kirjottaa]
@@ -51,4 +51,4 @@ Tests:
      kirjoittaat+V+Act+Inf3+Ela: [kirjoittamasta, kirjottamasta]
      kirjoittaat+V+Act+Inf3+Ill: [kirjoittamhaan, kirjottamhaan]
      kirjoittaat+V+Act+Inf3+Ade: [kirjoittamala, kirjottamala]
-     kirjoittaat+V+Act+Inf3+Abe: [kirjoittamatta, kirjottamatta] 
+     kirjoittaat+V+Act+Inf3+Abe: [kirjoittamatta, kirjottamatta]
