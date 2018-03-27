@@ -19,6 +19,8 @@ p2:p t2:t k2:k            !!= * @CODE@ p2, k2, t2 = always p, t, k
 k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^HMETA:0                 !!= * @CODE@ h metateesi sykshyyn
 %^WG:0                    !!= * @CODE@ weak grade hatun
+%^TJ:0                    !!≈ * @CODE@ vuote vuoje
+%^UU:0                    !!≈ * @CODE@ vuote vuue
 %^E2I:0                   !!= * @CODE@ e to i in nom ove : ovi
 %^A2I:0                   !!= * @CODE@ a to i in opettajine (Var)
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
@@ -26,7 +28,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
 %^A0:0                    !!= * @CODE@ -- a to 0
 %^I0:0                    !!= * @CODE@ -- i to 0 in vanha_x_21 -Por with i endings: tooline
-%^E0:0                    !!≈ * __@CODE@__ = e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
+%^E0:0                    !!≈ * @CODE@ e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
 %^Por:0                   !!= * @CODE@ -- Porsanger  dialekti
 %^Var:0                   !!= * @CODE@ -- Varanger   dialekti
 %^Jok:0                   !!= * @CODE@ -- Jokivarret dialekti
@@ -76,7 +78,7 @@ ArchiCns = %^N ;                                            !!= * @CODE@
 SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@
 Segment = Vowel Cns ;                                       !!= * @CODE@
-Dummy = %+ %^WG %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  !!= * @CODE@
+Dummy = %+ %^WG %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 Dialects =  %^Por %^Var %^Jok ;  !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@
@@ -743,14 +745,14 @@ t:0 <=> Vowel Cns* Vowel Nx  _ :Vowel (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Du
 
 ! TODO TODO TODO The following rule works for the vuojeksi var alternative variant, though we want both
 ! the t:j AND the t:0! And the t:j really just in vuosi:vuote vuojen
-!"t:j in Var variant vuojeksi"
-!!! __@RULENAME@__
-!t:j <=> Vowel _ Vowel: (Cns) (:i) %^Var: %^WG:0 ;
+"t:j in Var variant vuojeksi"
+!! __@RULENAME@__
+t:j <=> Vowel _ Vowel: (Cns) (:i) %^Var: %^WG:0 %^TJ: ;
 
-!"o:u in vuosi vuote vuoet -> vuuet optional variant"
-!!! __@RULENAME@__
-!o:u <=> v u _ t:0 e %^Var: %^WG: %> t ; ! savvuhuonet
-!        v u _ t:0 e %^Var: %^WG: %> ;
+"o:u in vuosi vuote vuoet -> vuuet optional variant"
+!! __@RULENAME@__
+o:u <=> v u _ t:0 e %^Var: %^WG: %^UU: %> t ; ! savvuhuonet
+        v u _ t:0 e %^Var: %^WG: %^UU: %> ;
       ! v u o t e  ^Var   ^WG  > t
 ! TODO TODO TODO with the 3 rules above all the vuosi VAR variants work! Now just need to find a away
 ! to make all 4 happen simultaneously (and maybe just for the word vuosi?).
