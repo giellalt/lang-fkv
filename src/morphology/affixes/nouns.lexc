@@ -676,7 +676,7 @@ LEXICON vanha_n_32 !!= @CODE@ tytär:tyttär, taival:taipal
 ! but I think that in the longer run having a uniform structure for this will be better.
 
 +N+Dial/Por:e^Por vanha_x_32 ;
-+N+Dial/Var:e^Var vanha_x_32 ;
++N+Dial/Var:e^Var vanha_x_32_Var ;
 +N+Dial/Jok:e^Jok vanha_x_32 ;
 +N+Sg      :^WG  nom_R      ;
 
@@ -705,6 +705,26 @@ LEXICON vanha_x_32 ! tyven
   +Pl+Dial/Jok:%>i2         com_nne        ; ! jok: tyveninne
   +Pl      :%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
+  LEXICON vanha_x_32_Var ! tyven
+    +Sg      :^WG^E0       nom_end        ; ! tytär
+    +Sg      :^WG^T0^E0    nom_end        ; ! tyät
+  !  +Sg      :             gen_n_sg       ;
+    +Sg      :^WG          gen_n_sg       ;
+    +Sg      :^WG^E0       par_tA         ; ! tytärtä
+    +Sg      :^WG^T0^E0    par_tA         ; ! tyärtä
+    +Sg      :^HMETA       ill_hVVn       ;
+    +Sg      :             ess_nnA        ;
+    +Sg      :             sgpl_cases_odd ;
+
+    +Pl      :             nom_t          ;
+    +Pl      :^WG          nom_t          ;
+    +Pl      :%>i2         gen_tten       ; ! tyttäritten, mutta tyveniitten? TODO checking with Aili
+    +Pl      :%>i2         par_A          ; ! tyttäriä
+    +Pl      :^HMETA       ill_hiin       ;
+    +Pl      :%>i2         ess_nnA        ;
+    +Pl      :%>i2         com_nne        ;
+    +Pl      :%>i2         com_nne        ;
+    +Pl      :%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
 LEXICON vanha_n_32m !!= @CODE@ elläin elläi yđin ydin
 +N+Dial/Por:^Por vanha_x_32m ;
