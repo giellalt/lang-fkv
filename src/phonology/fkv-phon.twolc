@@ -20,6 +20,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^HMETA:0                 !!= * @CODE@ h metateesi sykshyyn
 %^WG:0                    !!= * @CODE@ weak grade hatun
 %^TJ:0                    !!≈ * @CODE@ vuote vuoje
+%^T0:0                    !!≈ * @CODE@ tytär tyär tytärtä tyärtä in Var
 %^UU:0                    !!≈ * @CODE@ vuote vuue
 %^E2I:0                   !!= * @CODE@ e to i in nom ove : ovi
 %^A2I:0                   !!= * @CODE@ a to i in opettajine (Var)
@@ -578,19 +579,20 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 ! TODO DONE the following rule, together with adding [Cx|t:0] in Cx:0 ppttkk makes tyärtä work, but how to also get with t?
 ! Also needs m4 since this is only in Var. Does this optional t:0 happen in other places too?
 
-! "t:0 in tytär tyär, tytärtä tyärtä. Stem is tyttär"
-! !! __@RULENAME@__
-! t:0 <=> Vowel:  _ t:0  Vowel:  r %^WG:0 ; !  t       y    t t:0   ä       r   ^WG       (> t ^A) ;
-! ! Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ; ! this taken from ppttkk
+ "t:0 in tytär tyär, tytärtä tyärtä. Stem is tyttär"
+ !! __@RULENAME@__
+ t:0 <=> Vowel:  _ t:0 Vowel: r e %^Var:0 %^WG:0 (%^E0:0) %^T0:0 ;
+ ! Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ; ! this taken from ppttkk
 
-! "Gradation t:0 before t:0 in tyttär -> tyär"
-! !! __@RULENAME@__
-! t:0 <=> t y _ t:0 ä r %^WG:0 ; ! tytär sg nom and par. tyär tyärtä
+ "Gradation t:0 before t:0 in tyttär -> tyär"
+ !! __@RULENAME@__
+ t:0 <=> t y     _ t:0  ä     r e %^Var:0 %^WG:0 (%^E0:0) %^T0:0 ; ! tytär sg nom and par. tyär tyärtä
 
-! !!€ tyttär^WG
-! !!€ ty00är0
-! !!€ tyttär^WG>t^A
-! !!€ ty00är0>tä
+! TODO add e ^Var E0 and T0 to these tests
+!!€ tyttär^WG
+!!€ ty00är0
+!!€ tyttär^WG>t^A
+!!€ ty00är0>tä
 
 
 
