@@ -557,17 +557,26 @@ Rules
 
 !! !Gradation ppttkk : ptk
 
-"Gradation ppttkk : ptk"
+"Gradation pp : p"
 !! __@RULENAME@__
-Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) (e:0) (Dialects:0) %^WG: ; !tytärtä   !entinen omppu
-         Vowel: ([l|m|n|r]) Cx _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
-            where Cx in ( k p t ) ;
+p:0 <=> Vowel: ([l|m|n|r]) p _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) (e:0) (Dialects:0) %^WG: ; !tytärtä   !entinen omppu
+        Vowel: ([l|m|n|r]) p _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
 
+"Gradation tt : t"
+!! __@RULENAME@__
+t:0 <=> Vowel: ([l|m|n|r]) [t|t:0] _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) (e:0) (Dialects:0) %^WG: ; !tytärtä
+        Vowel: ([l|m|n|r]) t       _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
 
 !!€ katto^WG>n
 !!€ kat0o0>n
 !!€ katt2o^WG>n
 !!€ katto0>n
+
+"Gradation kk : k"
+!! __@RULENAME@__
+k:0 <=> Vowel: ([l|m|n|r]) k _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) (e:0) (Dialects:0) %^WG: ; !tytärtä   !entinen omppu
+        Vowel: ([l|m|n|r]) k _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
+
 !!€ sivakka^AO>i2>ne
 !!€ sivak0o0>i>ne
 !  !!€ paivukko^AO>i2>ne
@@ -575,24 +584,19 @@ Cx:0 <=> Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l
 !  kulkiija^AO>i2>t^A distinguish this from por somehow.
 
 
-
 ! TODO DONE the following rule, together with adding [Cx|t:0] in Cx:0 ppttkk makes tyärtä work, but how to also get with t?
 ! Also needs m4 since this is only in Var. Does this optional t:0 happen in other places too?
 
- "t:0 in tytär tyär, tytärtä tyärtä. Stem is tyttär"
+ "Gradation t:0 in tyär and tyärtä. Stem is tyttäre"
  !! __@RULENAME@__
- t:0 <=> Vowel:  _ t:0 Vowel: r e %^Var:0 %^WG:0 (%^E0:0) %^T0:0 ;
- ! Vowel: ([l|m|n|r]) Cx _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r|n) %^WG:0 ; ! this taken from ppttkk
+ t:0 <=> t y     _ t:0 ä r e:0 %^Var:0 %^WG:0 %^T0:0 (%^E0:0) ; ! toinen t:0 happens in tt : t rule above ! tytär sg nom and par. tyär tyärtä
 
- "Gradation t:0 before t:0 in tyttär -> tyär"
- !! __@RULENAME@__
- t:0 <=> t y     _ t:0  ä     r e %^Var:0 %^WG:0 (%^E0:0) %^T0:0 ; ! tytär sg nom and par. tyär tyärtä
-
+! TODO TODO TODO jos haluaa yleistää tätä, niin pitää hiota paljon. Ainakin v.konteksti ja myör ä ja ehkä r
 ! TODO add e ^Var E0 and T0 to these tests
-!!€ tyttär^WG
-!!€ ty00är0
-!!€ tyttär^WG>t^A
-!!€ ty00är0>tä
+! !!€ tyttär^WG
+! !!€ ty00är0
+! !!€ tyttär^WG>t^A
+! !!€ ty00är0>tä
 
 
 
@@ -1050,8 +1054,8 @@ j:0 <=> l _ e: %^E2I:0 ;
                               :Cns _ (Dialects:0) (%^E2I:0) %^HMETA:0 %> h [%^V:|i] ; ! uutheen
                               :Cns _  %^VDEL:0  (Dummy:) %> [s|t] ;
 !         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 ;
-         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 %^E0:0 %> t %^A: ; ! taivalta sgpar ja tytärtä
-         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 %^E0:0 ; ! taival/tytär sgnom and tyven we add e b4 Dial trig.
+         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 (%^T0:0) %^E0:0 %> t %^A: ; ! taivalta sgpar ja tytärtä
+         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 (%^T0:0) %^E0:0 ; ! taival/tytär sgnom and tyven we add e b4 Dial trig.
                       Cns i e :Cns _ %> t e n ; !kielten sienten
 
 ! TODO TODO TODO
