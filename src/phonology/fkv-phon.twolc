@@ -79,7 +79,7 @@ ArchiCns = %^N ;                                            !!= * @CODE@
 SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@
 Segment = Vowel Cns ;                                       !!= * @CODE@
-Dummy = %+ %^WG %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  !!= * @CODE@
+Dummy = %+ %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 Dialects =  %^Por %^Var %^Jok ;  !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  !!= * @CODE@
@@ -119,20 +119,33 @@ Rules
 
 ! -- eller --
 
-"Gemination V-kkpp-i"
+"Gemination V-kk-i"
 !! __@RULENAME@__
- 0:Cx <=> ([a|o]) Vowel (Vowel:) Cx _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] %> [n|t] .#. ; ! never a:0! Then only k           a       i           Cx _ a:o           %^AO:0             %>   i2:i %> n #. ;
-          ([a|o]) Vowel (Vowel:) Cx _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] .#. ; ! Maybe [Dummy:* - ^A0] ?
+ 0:Cx <=> ([a|o]) Vowel (Vowel:) k _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] %> [n|t] .#. ; ! never a:0! Then only k           a       i           k _ a:o           %^AO:0             %>   i2:i %> n #. ;
+          ([a|o]) Vowel (Vowel:) k _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] .#. ; ! Maybe [Dummy:* - ^A0] ?
  ! removed the /a, so not a:a, keep in mind if strange bugs appear. used2be [:o|:i|\a]
  ! should not be any ^WG in these context, not in gen and par.
  ! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar?
  ! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
  ! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
- ! Also Cns Vowel Cx _ i %> %^V: ;!sippiit but ^V is always :i,right?
-                  Vowel (Vowel:) Cx _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
-                  Vowel (Vowel:) Cx _ e:               %> i7:i Cns ; ! contr verbs
-                  Vowel (Vowel:) Cx _ Vowel:           %> %^V:i ; ! sopi soppii
-       where Cx in ( k p ) ; ! v excluded
+ ! Also Cns Vowel k _ i %> %^V: ;!sippiit but ^V is always :i,right?
+                  Vowel (Vowel:) k _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
+                  Vowel (Vowel:) k _ e:               %> i7:i Cns ; ! contr verbs
+                  Vowel (Vowel:) k _ Vowel:           %> %^V:i ; ! sopi soppii
+
+"Gemination V-pp-i"
+!! __@RULENAME@__
+0:p <=> ([a|o]) Vowel (Vowel:) p _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] %> [n|t] .#. ; ! never a:0! Then only k           a       i           p _ a:o           %^AO:0             %>   i2:i %> n #. ;
+        ([a|o]) Vowel (Vowel:) p _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] .#. ; ! Maybe [Dummy:* - ^A0] ?
+! removed the /a, so not a:a, keep in mind if strange bugs appear. used2be [:o|:i|\a]
+! should not be any ^WG in these context, not in gen and par.
+! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar?
+! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
+! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
+! Also Cns Vowel p _ i %> %^V: ;!sippiit but ^V is always :i,right?
+                Vowel (Vowel:) p _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
+                Vowel (Vowel:) p _ e:               %> i7:i Cns ; ! contr verbs
+                Vowel (Vowel:) p _ Vowel:           %> %^V:i ; ! sopi soppii
          !     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
 
          ! Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %> [:i - i3:] (i2:i) [ t | #:0 | (%>) (n) \[e|:a|:ä] ] ; ! sannoi & nykkiit
@@ -308,7 +321,7 @@ Rules
 0:Cx <=> [ .#. | #: ] Cns:* Vowel:* Vowel Cx _ a (Dialects:0) %> :a ; ! TODO this is the line from the comment below about dialects
 !          Vowel [n|l|r] _ a %> a:a ;
 ! maybe add  [n|l|r] somewhere here
-!a n t _ a %> %^V t; ! TODO TODO TODO, how does this not work? Do more twolc (the program) testing, because wtf?
+!a n t _ a %> %^V: t; ! TODO TODO TODO, how does this not work? Do more twolc (the program) testing, because wtf?
        where Cx in ( k p t s ) ;
 ! Add these when it's fixed
 ! !!€ ant0a>^Vt
