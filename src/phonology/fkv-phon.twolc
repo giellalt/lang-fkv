@@ -121,17 +121,20 @@ Rules
 
 "Gemination V-kk-i"
 !! __@RULENAME@__
- 0:Cx <=> ([a|o]) Vowel (Vowel:) k _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] %> [n|t] .#. ; ! never a:0! Then only k           a       i           k _ a:o           %^AO:0             %>   i2:i %> n #. ;
-          ([a|o]) Vowel (Vowel:) k _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] .#. ; ! Maybe [Dummy:* - ^A0] ?
+0:k <=> ([a|o]) Vowel (Vowel:) k _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] %> [n|t] .#. ; ! never a:0! Then only k           a       i           k _ a:o           %^AO:0             %>   i2:i %> n #. ;
+        ([a|o]) Vowel (Vowel:) k _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] .#. ; ! Maybe [Dummy:* - ^A0] ?
+      p     o     i6:i         k _            a:i %^A2I:0   %> i2:i %> n ; ! gen_n         since we have the i
  ! removed the /a, so not a:a, keep in mind if strange bugs appear. used2be [:o|:i|\a]
  ! should not be any ^WG in these context, not in gen and par.
  ! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar?
  ! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
  ! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
  ! Also Cns Vowel k _ i %> %^V: ;!sippiit but ^V is always :i,right?
-                  Vowel (Vowel:) k _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
-                  Vowel (Vowel:) k _ e:               %> i7:i Cns ; ! contr verbs
-                  Vowel (Vowel:) k _ Vowel:           %> %^V:i ; ! sopi soppii
+                Vowel (Vowel:) k _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
+                Vowel (Vowel:) k _ e:               %> i7:i Cns ; ! contr verbs
+                Vowel (Vowel:) k _ Vowel:           %> %^V:i ; ! sopi soppii
+
+
 
 "Gemination V-pp-i"
 !! __@RULENAME@__
@@ -544,8 +547,9 @@ Rules
 
 "Gemination LIQi"
 !! __@RULENAME@__
- 0:Cx <=> [l|r|n|m]  Cx _ :i %> [ %^V:i - i7: ] ; ! Added ^V:i instead of just :i.
-          [l|r|n|m] :Cx _ e: %^E2I:0 %> i2: %> %^V: ;
+ 0:Cx <=> [l|r|n|m]  Cx _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+          [l|r|n|m] :Cx _ e: %^E2I:0 %> i2: %>   %^V: ;
+          [l|r|n|m]  Cx _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
        where Cx in ( j k p s t v ) ;
 
 !!€ kerk0i>^Vn
@@ -1273,6 +1277,7 @@ a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)                _ 
 a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO need Vowel instead of a a to catch all cases? Which could be missing?
         Vowel Cns Cns:* a   j _ (%^WG:) %^A2I:0 %> ; ! Var TODO need Vowel instead of a a to catch all cases? Which could be missing? opettajine
         [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _ %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! TODO Remove and fix this. ! ruokaruokhiin, poi6ka poikhiin
+!       p                       o i6:i  k  :k a:i %^A2I:0   %> i2:i %> n ; ! gen_n         since we have the i
                               _ (%^WG:0) %^A2I:0 ; ! kuvviin kuvvii
 ! TODO TODO TODO remove this previous context, and just f*cking split it in lexc.
 ! n_21     = puku = puvuissa
