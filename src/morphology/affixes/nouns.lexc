@@ -257,18 +257,19 @@ LEXICON vanha_n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi, suomi 
 
 LEXICON vanha_x_21ie_Por
   +Sg+Nom  :^E2I     K               ; ! ^EI e to i
-  +Sg      :         par_V           ; ! suomee
   +Sg      :^WG      gen_n_sg        ;
-  +Pl      :^WG      nom_t           ;
-  +Sg      :^WG      sgpl_cases_even ; !! these two lexica for cases with
+  +Sg      :         par_V           ; ! suomee
+  +Sg      :^HMETA   ill_hVVn        ;
   +Sg      :         ess_nA          ;
-  +Pl      :^WG%>i2  sgpl_cases_even ; !! the same affix in sg and pl
+  +Sg      :^WG      sgpl_cases_even ; !! these two lexica for cases with
+
+  +Pl      :^WG      nom_t           ;
   +Pl      :%>i2     gen_Vn          ; ! hyksiin
   +Pl      :%>i2     par_V           ; ! hyksii
-  +Sg      :^HMETA   ill_hVVn        ;
   +Pl      :^EDEL    ill_hiin        ; ! TODO add Twolc description about EDEL ! suomhiin
   +Pl      :%>i2     ess_nA          ;
   +Pl      :%>i2     com_ne          ;
+  +Pl      :^WG%>i2  sgpl_cases_even ; !! the same affix in sg and pl
   !      +Pl+Ill:^EDEL%>hii n_PxK         ; ! TODO add Twolc description about EDEL ! suomhiin
 
   LEXICON vanha_x_21ie_NOT_Por
