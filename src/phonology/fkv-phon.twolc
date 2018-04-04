@@ -121,8 +121,9 @@ Rules
 
 "0:k Gemination V-kk-i"
 !! __@RULENAME@__
-0:k <=> ([a|o]) [Vowel|i6:] (Vowel:) k _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] %> [n|t] # ; ! never a:0! Then only k           a       i           k _ a:o           %^AO:0             %>   i2:i %> n #. ;
-        ([a|o]) [Vowel|i6:] (Vowel:) k _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] # ; ! Maybe [Dummy:* - ^A0] ?
+0:k <=> ([a|o]) [Vowel|i6:] (Vowel:) k _  :o (Dialects:0) %^AO:0  %> [:i - i3:] (%> [n|t])     # ; ! aikkoi  ! never a:0
+        ([a|o]) [Vowel|i6:] (Vowel:) k _  :i (Dialects:0) %^A2I:0 %> [:i - i3:] (%> [n|t])     # ; ! poikkii ! never a:0
+        ([a|o])  Vowel      (Vowel:) k _ e:0 (Dialects:0)         %>   i2:i      %> %^V:i  (n) # ; ! jokkii
 ! TODO TODO TODO e:i i2:i and ^V:i ??? Fix this. d: Easter 2018
 !            j o k _ e:i %^Por %> i2:i %> %^V n ;
 !            j o k _ e:i %^Por %> i2:i %> %^V # ;
@@ -130,7 +131,7 @@ Rules
 !            p     o     i6:i         k _              a:i %^A2I:0   %> i2:i       # ; !  since we have the i
  ! removed the /a, so not a:a, keep in mind if strange bugs appear. used2be [:o|:i|\a]
  ! should not be any ^WG in these context, not in gen and par.
- ! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar?
+ ! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar? Answer: use just #
  ! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
  ! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
  ! Also Cns Vowel k _ i %> %^V: ;!sippiit but ^V is always :i,right?
@@ -690,7 +691,7 @@ k:0 <=>               h _ [Vowel - e:] (Dummy:) (:i) (Dummy:) %^WG:0      ; ! tu
                ö: [l|r] _ [ö|ä] (Dummy:) (:i) (Dummy:)        %^WG:0 ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
                a: [l|r] _ [NotEYUB:|u]     (Dummy:) (:i) (Dummy:) %^WG:0  ; ! varas - varkaan, NOT: sylki:syljin
                e  [l|r] _ i (%>)                              %^WG:0 (%>) ; ! keritä - kerkkii
-                  [o|ö] _ e:  %^Var:0 (Dummy:) (:i) (Dummy:)  %^WG:0      ; ! joki joen
+                  [o|ö] _ e:  %^Var:0 (Dummy:) (:i) (Dummy:)  %^WG:0      ; ! joki (stem joke) joen
                   a  i  _ a   %^Var:0                         %^WG:0 %>   ; ! aika aian
                   a  i  _ a:o %^Var:0                        (%^WG:0) (%^AO:0) %> i2: %> \n ; ! aika aian
                     r u _     %^Var:0           i             %^WG:0 %> s ; ! ruvis -> ruis in var
@@ -1071,7 +1072,7 @@ j:0 <=> l _ e: %^E2I:0 ;
          (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) (%^WG:) ([%^AO:|%^AE:|%^VDEL:])  %^EDEL:0 %> [t|h]     ;
          ! TODO Our rule is: ^WG^AO, but usually so far ^VDEL^WG. Hmm
 :Vowel [:SurfaceCns | Cns:0] Cns:* _ (Dialects:0) (%^WG:0)  %> i2: ;! hyksiksi, ja Cns:0->joiksi ! L-context bec of tie>i2 : t0e0i
-                              :Cns _ (Dialects:0) (%^E2I:0) %> i2: ; ! jok uusine
+                              :Cns _ (Dialects:0) (%^E2I:0) %> i2: ; ! jok uusine TODO why jok e:0 i2 i n ? And not e:i?
                               :Cns _ (Dialects:0) (%^E2I:0) %^HMETA:0 %> h [%^V:|i] ; ! uutheen
                               :Cns _  %^VDEL:0  (Dummy:) %> [s|t] ;
 !         (Cns) Vowel (Vowel) Cns:+ _ (Dialects:0) %^WG:0 ;
@@ -1186,7 +1187,7 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
                                                      :SurfaceCns _ (Dialects:0)  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
                                                      :i          _ (Dialects:0) (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
                                                                a _ %^VDEL:0  ([Dummy: - %^A2I:]) %> [s|t] ;
-                                                                 _ (%^WG:0) %^A0:0 ;
+                                                                 _ (Dialects:0) (%^WG:0) %^A0:0 ;
 !                                                                       _ i5: ; ! loistaaviimmin
 
 
@@ -1282,7 +1283,7 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vowel instead of 
         Vowel Cns Cns:* a   j _ (%^WG:) %^A2I:0 %> ; ! Var TODO Vowel instead of a a to generalize? Are cases missing? opettajine
         [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _ %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! TODO Remove and fix this. ! ruokaruokhiin, poi6ka poikhiin
 !       p      o i6:i  k  :k a:i %^A2I:0   %> i2:i %> n ; ! gen_n         since we have the i
-                              _ (%^WG:0) %^A2I:0 ; ! kuvviin kuvvii, poikkiin poikkii
+                              _ (Dialects:0) (%^WG:0) %^A2I:0 ; ! kuvviin kuvvii, poikkiin poikkii
 ! TODO TODO TODO remove this previous context, and just f*cking split it in lexc.
 ! n_21     = puku = puvuissa
 ! n_21_URa = sana = sanoissa
