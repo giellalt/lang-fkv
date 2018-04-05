@@ -352,23 +352,26 @@ Rules
 !! __@RULENAME@__
 0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
 !                   k     u   v  0  a      ^AO    >   i  > n
-         [.#.|#:] Cns:* Vowel Cx _ a:i (Dummy:0) %> :i ; !
+         [.#.|#:] Cns:* Vowel Cx _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
        where Cx in ( h j l m n r v ) ;
 
 !!€ kiv0e>i2>^V
 !!€ kivv0>i>i
 
-! !!€ kuv0a^AO>i2
-! !!€ kuvvi0>i
-! We want a:i here
+!!€ kuv0a^AO>i2
+!!€ kuvvi0>i
+! TODO TODO TODO, should we have a:i i2:i n? Not consistent with some others, where we have a:0 i2:i i n
 
 "Gemination Va"
 !! __@RULENAME@__
-0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ :a %> :a ;
+0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ :a (Dialects:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
        where Cx in ( h j l m n r v ) ;
 
 !!€ kal0a>^V
 !!€ kalla>a
+! kuva is ^V in Por and ^A in -Por
+!!€ kuv0a>^V
+!!€ kuvva>a
 
 "Gemination VVe"
 !! __@RULENAME@__
@@ -646,7 +649,7 @@ k:0 <=> Vowel: ([l|m|n|r]) k _ (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l|r
 
 "Gradation i6:0, in word poika: pojan"
 !! __@RULENAME@__
-i6:0 <=> _ k: Vowel: %^WG:0 (%^AO:0) ;
+i6:0 <=> _ k: Vowel: (Dialects:0) %^WG:0 (%^AO:0) ;
 
 !!€ poi6ka^WG>n
 !!€ po0ja0>n
@@ -1187,8 +1190,10 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
                                                      :SurfaceCns _ (Dialects:0)  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
                                                      :i          _ (Dialects:0) (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
                                                                a _ %^VDEL:0  ([Dummy: - %^A2I:]) %> [s|t] ;
-                                                                 _ (Dialects:0) (%^WG:0) %^A0:0 ;
+                                                                 _ (Dialects:0) (%^WG:0) %^A0:0 ; ! ^A0 is always a:0
 !                                                                       _ i5: ; ! loistaaviimmin
+
+! TODO TODO TODO TODO TODO a lot of the AO contexts are no longer! As they are replaced by the A0 tag in lexc
 
 
 ! TODO TODO TODO talk to Aili about making a REALLY GOOD RoundedVowelUOYÖ (a|e|i) alternative structure!!!
