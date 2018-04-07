@@ -186,7 +186,7 @@ LEXICON vanha_x_21_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO wh
 +Sg+Dial/-Por:                 par_A           ;
 +Sg          :^HMETA           ill_hVVn        ;
 +Sg          :                 ess_nA          ;
-+Sg+Dial/Por :^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
++Sg          :^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
 
 +Pl          :^WG              nom_t           ;
 +Pl+Dial/Por :^A2I%>i2         gen_n           ; ! gen_n         since we have the i
@@ -335,19 +335,19 @@ LEXICON vanha_n_22odd !!= * @CODE@  kajava
 +N         :  vanha_x_22odd ;
 
 LEXICON vanha_x_22odd !!= * @CODE@  kajava
-  +Sg      :             nom_end              ;
-  +Sg      :^WG          sgpl_cases_odd ;
-  +Sg      :^WG          gen_n_sg       ;
-  +Sg+Dial/Por:             par_V          ;
+  +Sg          :             nom_end              ;
+  +Sg          :^WG          sgpl_cases_odd ;
+  +Sg          :^WG          gen_n_sg       ;
+  +Sg+Dial/Por :             par_V          ;
   +Sg+Dial/-Por:             par_A          ;
-  +Sg      :^HMETA       ill_hVVn       ;
-  +Sg      :             ess_nnA        ;
+  +Sg          :^HMETA       ill_hVVn       ;
+  +Sg          :             ess_nnA        ;
 
-  +Pl      :^WG          nom_t          ;
-  +Pl+Dial/Por:^WG^A0%>i2i     gen_tten       ; ! kajaviitten ! TODO Why WG here and not it par?
+  +Pl          :^WG          nom_t          ;
+  +Pl+Dial/Por :^WG^A0%>i2i     gen_tten       ; ! kajaviitten ! TODO Why WG here and not it par?
   +Pl+Dial/-Por:^WG^A0%>i2      gen_tten       ; ! kajavitten
-  +Pl+Dial/Por:^A0%>i2i        par_tA         ; ! kajaviita
-  +Pl+Dial/Por:^A0%>i2%>i      par_end        ; ! %> i necessary, otherwise a:o NOTwork, kajavii
+  +Pl+Dial/Por :^A0%>i2i        par_tA         ; ! kajaviita
+  +Pl+Dial/Por :^A0%>i2%>i      par_end        ; ! %> i necessary, otherwise a:o NOTwork, kajavii
   +Pl+Dial/-Por:^A0%>i2%>       par_A          ; ! kajavia
 !      +Pl+Ill:%^HMETA%>hii n_PxK          ;
   +Pl      :%^HMETA      ill_hiin       ;
