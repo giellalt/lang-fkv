@@ -326,26 +326,24 @@ Rules
 
 "Gemination VVa"
 !! __@RULENAME@__
-0:Cx <=> [ .#. | #: ] Cns:* Vowel:* Vowel Cx _ a (Dialects:0) %> :a ; ! TODO this is the line from the comment below about dialects
+0:Cx <=> [ .#. | #: ] Cns:* Vowel:* Vowel Cx _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
 !          Vowel [n|l|r] _ a %> a:a ;
 ! maybe add  [n|l|r] somewhere here
-!a n t _ a %> %^V: t; ! TODO TODO TODO, how does this not work? Do more twolc (the program) testing, because wtf?
        where Cx in ( k p t s ) ;
+
 ! Add these when it's fixed
-! !!€ ant0a>^Vt
-! !!€ antta>at
-! !!€ ant0a>^V
-! !!€ antta>a
-! !!$ anta^AO>i3
-! !!$ anto0>i
-! !!€ ant0a>^V>v^A
-! !!€ antta>a>va
-! !!€ ant0a>^V>v^At
-! !!€ antta>a>vat
-! !!€ aik0a>^V
-! !!€ aikka>a
-! TODO Done this rule should not happen in Var (and prob not Jok). If just commenting out Var works well.
-! Maybe break (block) this somehow, without making the Lexc too messy.
+!!€ ant0a>^Vt
+!!€ antta>at
+!!€ ant0a>^V
+!!€ antta>a
+!!$ anta^AO>i3
+!!$ anto0>i
+!!€ ant0a>^V>v^A
+!!€ antta>a>va
+!!€ ant0a>^V>v^At
+!!€ antta>a>vat
+!!€ aik0a>^V
+!!€ aikka>a
 
 
 "Gemination Vi"
