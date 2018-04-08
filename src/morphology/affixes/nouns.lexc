@@ -153,25 +153,25 @@ LEXICON vanha_n_21_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
 +N+Dial/Jok:^Jok         vanha_x_21_AO ;
 
 LEXICON vanha_x_21_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
-+Sg      :                    nom_R           ;
-+Sg      :                    nom_end         ;
-+Sg      :^WG                 gen_n_sg        ;
-+Sg+Dial/Por:                 par_V           ;
++Sg          :                    nom_R           ;
++Sg          :                    nom_end         ;
++Sg          :^WG                 gen_n_sg        ;
++Sg+Dial/Por :                 par_V           ;
 +Sg+Dial/-Por:                par_A           ;
-+Sg      :^HMETA              ill_hVVn        ;
-+Sg      :                    ess_nA          ;
-+Sg      :^WG                 sgpl_cases_even ; !to sgpl_cases_even for cases with
++Sg          :^HMETA              ill_hVVn        ;
++Sg          :                    ess_nA          ;
++Sg          :^WG                 sgpl_cases_even ; !to sgpl_cases_even for cases with
 
-+Pl      :^WG                 nom_t           ;
-+Pl+Dial/Por:^AO%>i2          gen_n           ; ! gen_n         since we have the i
++Pl          :^WG                 nom_t           ;
++Pl+Dial/Por :^AO%>i2          gen_n           ; ! gen_n         since we have the i
 +Pl+Dial/-Por:^WG^AO%>i2      gen_tten        ;
-+Pl+Dial/Por:^AO%>i2          par_end         ;
++Pl+Dial/Por :^AO%>i2          par_end         ;
 +Pl+Dial/-Por:^AO%>j          par_A           ; ! Use i:j in twolc j, see below
 +Pl+Dial/-Por:^AO%>i2         par_A           ;
-+Pl      :^AO^HMETA           ill_hVin        ; ! sykshyin
-+Pl      :^AO%>i2             ess_nA          ;
-+Pl      :^AO%>i2             com_ne          ;
-+Pl      :^WG^AO%>i2          sgpl_cases_even ; !the same affix in sg and pl
++Pl          :^AO^HMETA           ill_hVin        ; ! sykshyin
++Pl          :^AO%>i2             ess_nA          ;
++Pl          :^AO%>i2             com_ne          ;
++Pl          :^WG^AO%>i2          sgpl_cases_even ; !the same affix in sg and pl
 
 LEXICON vanha_n_21_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which adjectives?
 +N+Dial/Por:^Por  vanha_x_21_A0_A2I ;
