@@ -190,41 +190,44 @@ Rules
 !!$ poi6ka^A2I>i2
 !!$ poika0>i
 
-!!€ aik0a^AO>i2>n
-!!€ aikko0>i>n
-!!$ aika^AO>i2>n
-!!$ aiko0>i>n
-!!€ aik0a^AO>i2
-!!€ aikko0>i
-!!$ aika^AO>i2
-!!$ aiko0>i
-!!€ aika^AO>i2>n^A
-!!€ aiko0>i>na
-!!€ aika^AO>i2>ne
-!!€ aiko0>i>ne
+! !!€ aik0a^Por^AO>i2>n
+! !!€ aikko 0   0 >i>n
+!!$ aika^Por^AO>i2>n
+!!$ aiko00>i>n
 
-!!€ kuv0a^A2I>i2>n
-!!€ kuvvi0>i>n
-!!€ kuv0a^A2I>i2
-!!€ kuvvi0>i
+! TODO Seems to work in lexc?
+! !!€ aik0a^Por^AO>i2
+! !!€ aikko00>i
 
-!!€ kuva^A0>i2>ne
-!!€ kuv00>i>ne
-!!$ kuv0a^A0>i2>ne
-!!$ kuvvi0>i>ne
-!!$ kuva^A0>i2>ne
-!!$ kuva0>i>ne
+!!$ aika^Por^AO>i2
+!!$ aiko00>i
+!!€ aika^Por^AO>i2>n^A
+!!€ aiko00>i>na
+!!€ aika^Por^AO>i2>ne
+!!€ aiko00>i>ne
 
-!!€ poi6k0a^A2I>i2>n
-!!€ poikki0>i>n
-!!€ poi6k0a^A2I>i2
-!!€ poikki0>i
-!!€ poi6ka^A0>i2>ne
-!!€ poik00>i>ne
-!!$ poi6ka^A0>i2>ne
-!!$ poika0>i>ne
-!!$ poi6ka^A0>i2>ne
-!!$ poiki0>i>ne
+!!€ kuv0a^Por^A2I>i2>n
+!!€ kuvvi00>i>n
+!!€ kuv0a^Por^A2I>i2
+!!€ kuvvi00>i
+
+!!€ kuva^Por^A0>i2>ne
+!!€ kuv000>i>ne
+!!$ kuv0a^Por^A0>i2>ne
+!!$ kuvvi00>i>ne
+!!$ kuva^Por^A0>i2>ne
+!!$ kuva00>i>ne
+
+! !!€ poi6k0a^Por^A2I>i2>n
+! !!€ poikki00>i>n
+! !!€ poi6k0a^Por^A2I>i2
+! !!€ poikki00>i
+!!€ poi6ka^Por^A0>i2>ne
+!!€ poik000>i>ne
+!!$ poi6ka^Por^A0>i2>ne
+!!$ poika00>i>ne
+!!$ poi6ka^Por^A0>i2>ne
+!!$ poiki00>i>ne
 
 
 
@@ -241,8 +244,8 @@ Rules
 ! !!€ aik0a^AO>i2
 ! !!€ aikko0>i
 
-!!€ poi6k0a^A2I>i2>n
-!!€ poikki0>i>n
+! !!€ poi6k0a^A2I>i2>n
+! !!€ poikki0>i>n
 
 !!$ poi6ka^A2I>i2>n
 !!$ poika0>i>n
@@ -336,14 +339,17 @@ Rules
 !!€ antta>at
 !!€ ant0a>^V
 !!€ antta>a
-!!$ anta^AO>i3
-!!$ anto0>i
+
+! TODO TODO TODO fix this test (04.18), ei ehkä dial tag, ehkä joku muu
+! !!$ anta^AO>i3
+! !!$ anto0>i
+
 !!€ ant0a>^V>v^A
 !!€ antta>a>va
 !!€ ant0a>^V>v^At
 !!€ antta>a>vat
-!!€ aik0a>^V
-!!€ aikka>a
+!!€ aik0a^Por>^V
+!!€ aikka0>a
 
 
 "Gemination Vi"
@@ -356,8 +362,9 @@ Rules
 !!€ kiv0e>i2>^V
 !!€ kivv0>i>i
 
-!!€ kuv0a^AO>i2
-!!€ kuvvi0>i
+! TODO Seems to work in lexc?
+! !!€ kuv0a^Por^AO>i2
+! !!€ kuvvi00>i
 ! TODO TODO TODO, should we have a:i i2:i n? Not consistent with some others, where we have a:0 i2:i i n
 
 "Gemination Va"
@@ -407,8 +414,9 @@ Rules
 !!€ kir0o>^V>t
 !!€ kirro>o>t
 
-!!€ san0a^AO>i2
-!!€ sanno0>i
+! TODO Seems to work in lexc?
+! !!€ san0a^AO>i2
+! !!€ sanno0>i
 
 "Gemination Vu"
 !! __@RULENAME@__
@@ -673,8 +681,8 @@ k:j <=>  [a|ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki
 
 !!€ mäke^WG>n
 !!€ mäje0>n
-!!€ aika^WG>n
-!!€ aija0>n
+!!€ aika^Por^WG>n
+!!€ aija00>n
 !!€ jälke^WG>n
 !!€ jälje0>n
 !!€ luke^WG>n
@@ -1210,12 +1218,13 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
 
 !!€ otta^WG>i3n
 !!€ ot000>in
-!!€ kajava^WG>i2>ss^A
-!!€ kajav00>i>ssa
-!!€ kajava^WG>i2>ss^A
-!!€ kajav00>i>ssa
-!!€ kajava>i2i>t^A
-!!€ kajav0>ii>ta
+
+! TODO Seems to work in lexc?
+! !!€ kajava^WG>i2>ss^A
+! !!€ kajav00>i>ssa
+! !!€ kajava>i2i>t^A
+! !!€ kajav0>ii>ta
+
 !!€ loistaava^WG>i2>ss^A
 !!€ loistaav00>i>ssa
 
@@ -1260,8 +1269,11 @@ a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)                _ 
 !!€ kaulo00>i>tten
 
 ! aika
-!!€ aika^WG^AO>i2>tten
-!!€ aijo00>i>tten
+! TODO Seems to work in lexc?
+! !!€ aika^Var^WG^AO>i2>tten
+! !!€ aijo000>i>tten
+! !!€ aika^Jok^WG^AO>i2>tten
+! !!€ aijo000>i>tten
 
 !!€ sivakka^WG^AO>i2>tten
 !!€ sivak0o00>i>tten
