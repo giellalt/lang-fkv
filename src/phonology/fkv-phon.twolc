@@ -122,6 +122,9 @@ Rules
 "0:k Gemination V-kk-i"
 !! __@RULENAME@__
 0:k <=> ([a|o]) [Vowel|i6:] (Vowel:) k _  :o (Dialects:0) %^AO:0  %> [:i - i3:] (%> [n|t])     # ; ! aikkoi  ! never a:0
+!!$       a       i                  k     a   ^Por        ^AO      >i2>n
+!!$       a       i                  k     o   00>i>n
+
         ([a|o]) [Vowel|i6:] (Vowel:) k _  :i (Dialects:0) %^A2I:0 %> [:i - i3:] (%> [n|t])     # ; ! poikkii ! never a:0
         ([a|o])  Vowel      (Vowel:) k _ e:0 (Dialects:0)         %>   i2:i      %> %^V:i  (n) # ; ! jokkii
 ! TODO TODO TODO e:i i2:i and ^V:i ??? Fix this. d: Easter 2018
@@ -192,15 +195,20 @@ Rules
 
 ! !!€ aik0a^Por^AO>i2>n
 ! !!€ aikko 0   0 >i>n
-!!$ aika^Por^AO>i2>n
-!!$ aiko00>i>n
+! !!$ aika^Por^AO>i2>n
+! !!$ aiko00>i>n
+! Miks tää menee läpi? TODO Ask about the nature of 0:something and these negational Rules
+! How to make sure 0:k exists and NOT the base 0:0?
 
 ! TODO Seems to work in lexc?
 ! !!€ aik0a^Por^AO>i2
 ! !!€ aikko00>i
 
-!!$ aika^Por^AO>i2
-!!$ aiko00>i
+! !!$ aika^Por^AO>i2
+! !!$ aiko00>i
+! Miks tää menee läpi? TODO Ask about the nature of 0:something and these negational Rules
+! How to make sure 0:k exists and NOT the base 0:0?
+
 !!€ aika^Por^AO>i2>n^A
 !!€ aiko00>i>na
 !!€ aika^Por^AO>i2>ne
