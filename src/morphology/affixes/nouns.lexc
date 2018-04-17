@@ -78,30 +78,30 @@ LEXICON vanha_x_1
 
 
 LEXICON vanha_n_1pl !!= * @CODE@ = häät
-+N         : vanha_x_1 ;
++N             : vanha_x_1 ;
 
 LEXICON vanha_x_1pl !!= * @CODE@ = häät
-  +Sg      : gen_n_sg ;
+  +Sg          : gen_n_sg ;
 
-  +Pl      : nom_t    ;
-  +Pl      :%>i2      sgpl_cases_even ; !! the same affix in sg and pl
+  +Pl          : nom_t    ;
+  +Pl          :%>i2      sgpl_cases_even ; !! the same affix in sg and pl
 
-  +Pl      :%>i2     gen_tten       ;
-  +Pl+Dial/Por:%>i2%>ne gen_n          ; ! häinen
-  +Pl      :%>i2      par_tA          ;
-  +Pl      :%>i2      ill_hin         ;
-  +Pl      :%>i2      ess_nA          ;
-  +Pl      :%>i2      com_ne          ;
+  +Pl          :%>i2     gen_tten       ;
+  +Pl+Dial/Por :%>i2%>ne gen_n          ; ! häinen
+  +Pl          :%>i2      par_tA          ;
+  +Pl          :%>i2      ill_hin         ;
+  +Pl          :%>i2      ess_nA          ;
+  +Pl          :%>i2      com_ne          ;
 
 
 !! !Eira's classification
 
 ! TODO TODO TODO
-! vanha_n_21     = puku = puvuissa
-! vanha_n_21_AO = sana = sanoissa []
+! vanha_n_21         = puku = puvuissa
+! vanha_n_21_AO      = sana = sanoissa []
 ! vanha_n_21_A0_A2I  = kuva = kuvissa []
-! vanha_n_21i    = färi : färi n_21 på i er lånord  sed /i vanha_21/i vanha_21i/
-! vanha_n_21ie  = veri : vere
+! vanha_n_21i        = färi : färi n_21 på i er lånord  sed /i vanha_21/i vanha_21i/
+! vanha_n_21_E2I     = veri : vere
 
 LEXICON vanha_n_21 !!= * @CODE@  lyhyt vokali, yks vartalo, pappi, tooli, syksy ! jos loppuu i:hin ne ovat lainasanoja
 +N         : vanha_x_21 ;
@@ -156,18 +156,18 @@ LEXICON vanha_x_21_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TOD
 +Sg          :                    nom_R           ;
 +Sg          :                    nom_end         ;
 +Sg          :^WG                 gen_n_sg        ;
-+Sg+Dial/Por :                 par_V           ;
-+Sg+Dial/-Por:                par_A           ;
++Sg+Dial/Por :                    par_V           ;
++Sg+Dial/-Por:                    par_A           ;
 +Sg          :^HMETA              ill_hVVn        ;
 +Sg          :                    ess_nA          ;
 +Sg          :^WG                 sgpl_cases_even ; !to sgpl_cases_even for cases with
 
 +Pl          :^WG                 nom_t           ;
-+Pl+Dial/Por :^AO%>i2          gen_n           ; ! gen_n         since we have the i
-+Pl+Dial/-Por:^WG^AO%>i2      gen_tten        ;
-+Pl+Dial/Por :^AO%>i2          par_end         ;
-+Pl+Dial/-Por:^AO%>j          par_A           ; ! Use i:j in twolc j, see below
-+Pl+Dial/-Por:^AO%>i2         par_A           ;
++Pl+Dial/Por :^AO%>i2             gen_n           ; ! gen_n         since we have the i
++Pl+Dial/-Por:^WG^AO%>i2          gen_tten        ;
++Pl+Dial/Por :^AO%>i2             par_end         ;
++Pl+Dial/-Por:^AO%>j              par_A           ; ! Use i:j in twolc j, see below
++Pl+Dial/-Por:^AO%>i2             par_A           ;
 +Pl          :^AO^HMETA           ill_hVin        ; ! sykshyin
 +Pl          :^AO%>i2             ess_nA          ;
 +Pl          :^AO%>i2             com_ne          ;
@@ -231,14 +231,14 @@ LEXICON vanha_x_21i ! Not in use, pappi, tooli, lyhyt vokali, loppuu i:llä
   +Pl+Dial/Por:^WG^AO%>i2       sgpl_cases_even ; !the same affix in sg and pl
   +Pl+Dial/-Por:^WG^AO       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
 
-LEXICON vanha_n_21ie        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi, suomi ! Ei lainasanat
-+N+Dial/Por:^Por         vanha_x_21ie ;
-+N+Dial/Var:^Var         vanha_x_21ie ;
-+N+Dial/Jok:^Jok         vanha_x_21ie ;
+LEXICON vanha_n_21_E2I        !!= @CODE@ on ove, ovi, nom joki:joke, hyksi, suomi ! Ei lainasanat
++N+Dial/Por:^Por         vanha_x_21_E2I ;
++N+Dial/Var:^Var         vanha_x_21_E2I ;
++N+Dial/Jok:^Jok         vanha_x_21_E2I ;
 +N+Sg      :^E2I         nom_R        ; ! ^EI e to i
-!+N+Dial/Var:^¤   vanha_x_21ie ; TODO for joen VAR, needs to not break other stuff
+!+N+Dial/Var:^¤   vanha_x_21_E2I ; TODO for joen VAR, needs to not break other stuff
 
-LEXICON vanha_x_21ie
+LEXICON vanha_x_21_E2I
 +Sg+Nom      :^E2I     K               ; ! ^EI e to i
 +Sg          :^WG      gen_n_sg        ;
 +Sg+Dial/Por :         par_V           ; ! suomee
