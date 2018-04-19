@@ -9,12 +9,12 @@ LEXICON NounRoot !!= @CODE@
 
   !! TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 
-    !! ** 2.1 Kaksitavuiset ( aika, pappi, juoppo )	(prob.split i)= n_11        ! vanha_n_21
-    ! TODO legg til vanha_n_21i = färi
-    ! TODO legg til vanha_n_21_AO = sana = sanoissa []
-    ! TODO legg til vanha_n_21_A0_A2I  = kuva = kuvissa []
+    !! ** 2.1 Kaksitavuiset ( juoppo, syksy, puku )               = n_11        ! vanha_n_21
+    !! ** X.X Kaksitavuiset ( sana : sanoissa, aika )  a -> o:ksi = n_11_AO     ! vanha_n_21_AO
+    !! ** X.X Kaksitavuiset ( kuva : kuvissa )         a -> i:ksi = n_11_A0_A2I ! vanha_n_21_A0_A2I
+    !! ** X.X Kaksitavuiset lånord ( färi : färi, pappi, tooli ) sed /i vanha_21/i vanha_21i/ = n_11_i      ! vanha_n_21i
     !! *** 2.1.1  Kaksitavuiset monikko (housut )   	            = n_11_pl     ! vanha_n_21pl
-    !! *** 2.1.2  Kaksitavuiset (joki: joke )                     = n_11_E2I     ! vanha_n_21_E2I
+    !! *** 2.1.2  Kaksitavuiset ( joki:joke, ovi:ove ) e -> i:ksi = n_11_E2I    ! vanha_n_21_E2I
 
     !! ** 3.1 Kaksitavuiset ( pieni, kieli )		   		            = n_12        ! vanha_n_31
     !! ** 3.1.1  ( lumi:lumen:lunta )                 		        = n_12_m      ! vanha_n_31m
