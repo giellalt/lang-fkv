@@ -174,10 +174,14 @@ Number-person
  * __^E2I__ = for e to i change
  * __^A2I__ = for a to i change
  * __^I0__ = i to 0 in vanha_a_21 -Por with i endings: tooline
+ * __^E0__ = e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
  * __^HMETA__ = for h metathesis syksy - sykshyyn
  * __^AO__ = a:0
  * __^A0__ = a:o rannoissa
  * __^WG__ = Weak grade matto - maton
+ * __^TJ__ = vuote vuoje
+ * __^T0__ = tytär tyär tytärtä tyärtä in Var
+ * __^UU__ = vuote vuue
  * __^TES__ =  in use?
  * __^VDEL__ = Deleting long vowel in rakkaa- > rakas
  * __^EDEL__ = Deleting e in front of consonant
@@ -187,6 +191,7 @@ Number-person
  *  ^Por                    -- Porsanger  dialect
  *  ^Var                    -- Varanger   dialect
  *  ^Jok                    -- Jokivarret dialect
+ *  ^End                    -- End of word, since the # tags don't work properly
 
 * »
 * «
