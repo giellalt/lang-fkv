@@ -549,8 +549,12 @@ LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Act+PrfPrc:%> PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>^N%>ee%>v^A K ;
 +V+Act+PrsPrc+Pl+Nom:%>^N%>ee%>v^At K ;
++V+Pass+Ind+Prs:%>^N^A%^An K ;
++V+Pass+Ind+Prt:%>thiin K ;
 +V+Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
 +V+Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
++V+Pass+PrfPrc+Sg+Nom:t^U K ;
++V+Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ;
 +V+Act+Ind+Prs+ConNeg:%>e K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ;
