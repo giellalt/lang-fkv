@@ -129,7 +129,7 @@ LEXICON vanha_a_23ea	!!= * @CODE@ pimeä. Is Jok verson of vanha_a_23, never cal
 
 
 LEXICON vanha_a_31	!!= * @CODE@  pieni
-+A                : vanha_x_31        ;
++A                : x_12        ;
 +A                : comp_m_odd  ;
 +A                :^E2I%>i5 superl_m_odd ;
 +A+Dial/Var       :^E2I superl_m_odd ; ! No superl i? maybe e:0 and i5 would be more appropriate
@@ -137,9 +137,9 @@ LEXICON vanha_a_31	!!= * @CODE@  pieni
 +A+Sg+Superl      :^E2I%>in par_tA ;
 
 LEXICON vanha_a_31si	!!= * @CODE@ uusi. uussiin only por, always one s in Var
-+A+Dial/Por       :^Por     vanha_x_31si ;
-+A+Dial/Var       :^Var     vanha_x_31si ;
-+A+Dial/Jok       :^Jok     vanha_x_31si ;
++A+Dial/Por       :^Por     x_12_si ;
++A+Dial/Var       :^Var     x_12_si ;
++A+Dial/Jok       :^Jok     x_12_si ;
 +A+Dial/Por       :^Por^WG  comp_m_odd   ;
 +A+Dial/Var       :^Var^WG  comp_m_odd   ;
 +A+Dial/Jok       :^Jok^WG  comp_m_odd   ;
