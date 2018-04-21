@@ -54,22 +54,22 @@ LEXICON vanha_x_x
 
 
 
-LEXICON vanha_n_1 !!= * @CODE@ = maa, tie
-+N         : vanha_x_1 ;
+LEXICON n_31 !!= * @CODE@ = maa, tie
++N         : x_31 ;
 +N+Sg      : nom_end   ;
 +N+Pl+Dial/Por:%>i2ne   gen_n           ;
 
-LEXICON vanha_n_1ai !!= * @CODE@ = tuorestai ja muut päivät
-+N         : vanha_x_1 ;
+LEXICON n_31_ai !!= * @CODE@ = tuorestai ja muut päivät
++N         : x_31 ;
 +N+Sg      : nom_R     ;
 
-LEXICON vanha_x_1
+LEXICON x_31
   +Sg      :         nom_end         ;
   +Sg      :         gen_n_sg        ;
   +Sg      :         ill_hVn         ; ! maahan
   +Sg      :         par_tA          ;
   +Sg      :         sgpl_cases_even ; !! these two lexica for cases with
-           :         vanha_x_1pl           ;
+           :         x_31_pl         ;
 ! +Sg+Nom:         Px              ; ! mattoni
 ! +Sg+Gen:         Px              ; ! mattoni
 ! +Pl+Nom:         Px              ; ! mattoni
@@ -77,10 +77,10 @@ LEXICON vanha_x_1
 
 
 
-LEXICON vanha_n_1pl !!= * @CODE@ = häät
-+N             : vanha_x_1 ;
+LEXICON n_31_pl !!= * @CODE@ = häät
++N             : x_31 ;
 
-LEXICON vanha_x_1pl !!= * @CODE@ = häät
+LEXICON x_31_pl !!= * @CODE@ = häät
   +Sg          : gen_n_sg ;
 
   +Pl          : nom_t    ;
@@ -103,8 +103,8 @@ LEXICON vanha_x_1pl !!= * @CODE@ = häät
 ! vanha_n_21i        = färi : färi n_21 på i er lånord  sed /i vanha_21/i vanha_21i/
 ! vanha_n_21_E2I     = veri : vere
 
-LEXICON vanha_n_21 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
-+N         : vanha_x_21 ;
+LEXICON n_11 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
++N         : x_11 ;
 +N+Sg      : nom_R   ;
 
 LEXICON vanha_n_21C ! TODO check what is this?
@@ -112,12 +112,12 @@ LEXICON vanha_n_21C ! TODO check what is this?
            :i vanha_n_21 ; ! Hansi
 +N+Sg      :i nom_R      ;
 
-LEXICON vanha_x_21
+LEXICON x_11
   +Sg      :    nom_end                 ;
-           :    vanha_x_21_oblique      ;
+           :    x_11_oblique            ; ! TODO find better name
 
 ! TODO old version of this (before split) is at the end of this file
-LEXICON vanha_x_21_oblique ! this is also called from affixes/propernouns ! puku - puvuissa
+LEXICON x_11_oblique ! this is also called from affixes/propernouns ! puku - puvuissa
   +Sg+Dial/Por:^WG              gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
   +Sg+Dial/Por:^HMETA           ill_hVVn        ;
@@ -147,12 +147,12 @@ LEXICON vanha_x_21_oblique ! this is also called from affixes/propernouns ! puku
   +Pl+Dial/-Por:%>i2             com_ne          ;
   +Pl+Dial/-Por:^WG%>i2          sgpl_cases_even ;
 
-LEXICON vanha_n_21_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
-+N+Dial/Por:^Por         vanha_x_21_AO ;
-+N+Dial/Var:^Var         vanha_x_21_AO ;
-+N+Dial/Jok:^Jok         vanha_x_21_AO ;
+LEXICON n_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
++N+Dial/Por:^Por         x_11_AO ;
++N+Dial/Var:^Var         x_11_AO ;
++N+Dial/Jok:^Jok         x_11_AO ;
 
-LEXICON vanha_x_21_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
+LEXICON x_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
 +Sg          :                    nom_R           ;
 +Sg          :                    nom_end         ;
 +Sg          :^WG                 gen_n_sg        ;
@@ -173,12 +173,12 @@ LEXICON vanha_x_21_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TOD
 +Pl          :^AO%>i2             com_ne          ;
 +Pl          :^WG^AO%>i2          sgpl_cases_even ; !the same affix in sg and pl
 
-LEXICON vanha_n_21_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which adjectives?
-+N+Dial/Por  :^Por             vanha_x_21_A0_A2I ;
-+N+Dial/Var  :^Var             vanha_x_21_A0_A2I ;
-+N+Dial/Jok  :^Jok             vanha_x_21_A0_A2I ;
+LEXICON n_11_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which adjectives?
++N+Dial/Por  :^Por             x_11_A0_A2I ;
++N+Dial/Var  :^Var             x_11_A0_A2I ;
++N+Dial/Jok  :^Jok             x_11_A0_A2I ;
 
-LEXICON vanha_x_21_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which adjectives?
+LEXICON x_11_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which adjectives?
 +Sg          :                 nom_R   ; ! miksi tämä? TODO
 +Sg          :                 nom_end   ;
 +Sg          :^WG              gen_n_sg        ;
@@ -203,12 +203,12 @@ LEXICON vanha_x_21_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO wh
 
 ! +Pl+Dial/-Por:%>j              par_A           ; ! Use i:j in twolc j, see below. ! What words)
 
-LEXICON vanha_n_21i ! pappi, tooli, lyhyt vokali, loppuu i:llä
-+N             :             vanha_x_21i     ;
+LEXICON n_11_i ! pappi, tooli, lyhyt vokali, loppuu i:llä
++N             :             x_11_i     ;
 +N+Sg          :             nom_R           ;
 +N+Sg          :             nom_end         ;
 
-LEXICON vanha_x_21i ! pappi, tooli, lyhyt vokali, loppuu i:llä
+LEXICON x_11_i ! pappi, tooli, lyhyt vokali, loppuu i:llä
   +Sg          :             nom_end         ;
   +Sg          :^WG          gen_n_sg        ;
   +Sg+Dial/Por :             par_V           ;
@@ -231,14 +231,14 @@ LEXICON vanha_x_21i ! pappi, tooli, lyhyt vokali, loppuu i:llä
   +Pl+Dial/Por :^WG^AO%>i2   sgpl_cases_even ; !the same affix in sg and pl
   +Pl+Dial/-Por:^WG^AO       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
 
-LEXICON vanha_n_21_E2I        !!= @CODE@ on ovi:ove, joki:joke, hyksi, suomi ! Ei lainasanat
-+N+Dial/Por    :^Por         vanha_x_21_E2I  ;
-+N+Dial/Var    :^Var         vanha_x_21_E2I  ;
-+N+Dial/Jok    :^Jok         vanha_x_21_E2I  ;
+LEXICON n_11_E2I        !!= @CODE@ on ovi:ove, joki:joke, hyksi, suomi ! Ei lainasanat
++N+Dial/Por    :^Por         x_11_E2I  ;
++N+Dial/Var    :^Var         x_11_E2I  ;
++N+Dial/Jok    :^Jok         x_11_E2I  ;
 +N+Sg          :^E2I         nom_R           ; ! ^EI e to i
-!+N+Dial/Var:^¤   vanha_x_21_E2I ; TODO for joen VAR, needs to not break other stuff
+!+N+Dial/Var:^¤   x_11_E2I ; TODO for joen VAR, needs to not break other stuff
 
-LEXICON vanha_x_21_E2I
+LEXICON x_11_E2I
   +Sg+Nom      :^E2I         K               ; ! ^EI e to i
   +Sg          :^WG          gen_n_sg        ;
   +Sg+Dial/Por :             par_V           ; ! suomee
@@ -421,13 +421,16 @@ LEXICON vanha_x_22oi
 !+Ill:h%>i2%>i2     n_PxK ; ! on Sg:ssä hVVn
 
 
-LEXICON vanha_n_23        !!= * @CODE@  hoppee:hoppe
-+N+Dial/Por:        vanha_x_23            ;
+LEXICON n_31_JOTAIN        !!= * @CODE@  hoppee:hoppe
++N+Dial/Por:        x_31_JOTAIN            ;
 +N+Dial/Var:^E2I^¤  vanha_x_23ia          ;
 +N+Dial/Jok:^¤      vanha_x_23ia          ; ! hopea, not hopia
+! TODO TODO TODO this is where it might be going wrong
+! Need to distinguish hoppee (silvery) and hoppee (silver)
+! Also for Valkkee (white) and valkke (a fire or something similar) TODO TODO TODO
  ! +N+Sg+Nom:   R     Is this extra and wrong?
 
-LEXICON vanha_x_23
+LEXICON x_31_JOTAIN
   +Sg+Nom:e       K               ;
   +Sg+Nom+Err/Orth:%>%^A   K               ;
   +Sg      :e       gen_n_sg        ;
@@ -461,12 +464,12 @@ LEXICON vanha_x_23ia ! For -Por only valkia, hopia, kauhia
   +Pl      :%>i2         com_ne          ; ! valkeine
   +Pl      :%>i2         sgpl_cases_even ; ! valkei-
 
-LEXICON vanha_n_23ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
-+N+Dial/Por:         vanha_x_23ii           ;
+LEXICON n_31_JOTAIN_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
++N+Dial/Por:         x_31_JOTAIN_ii           ;
 +N+Dial/-Por:         vanha_x_22oi           ; ! TODO skriv dyp kommentar her
 +N+Sg      :           nom_R               ;
 
-LEXICON vanha_x_23ii
+LEXICON x_31_JOTAIN_ii
   +Sg      :            nom_end             ;
   +Sg      :            gen_n_sg            ;
   +Sg      :            par_tA              ;
@@ -584,10 +587,10 @@ LEXICON x_12_si ! uusi
     +Pl      :%>i2     com_ne          ;
     +Pl      :%>i2     sgpl_cases_even ; ! the same affix in sg and pl
 
-LEXICON vanha_n_31lapsi        !!= @CODE@ lapsi la
-+N         : vanha_x_31lapsi ;
+LEXICON n_12_lapsi        !!= @CODE@ lapsi la
++N         : x_12_lapsi ;
 
-LEXICON vanha_x_31lapsi        !!= @CODE@ lapsi la
+LEXICON x_12_lapsi        !!= @CODE@ lapsi la
   +Sg      :psi           nom_end         ; ! ^EI e to i
   +Sg      :psi           nom_R           ; ! ^EI e to i
   +Sg      :pse^WG        gen_n_sg        ;
@@ -609,10 +612,10 @@ LEXICON vanha_x_31lapsi        !!= @CODE@ lapsi la
   +Pl      :ps^WG%>i2     sgpl_cases_even ; !! the same affix in sg and pl
 
 
-LEXICON vanha_n_31mies        !!= @CODE@ mies mie
-+N         : vanha_x_31mies ;
+LEXICON n_12_mies        !!= @CODE@ mies mie
++N         : x_12_mies ;
 
-LEXICON vanha_x_31mies        !!= @CODE@ mies mie
+LEXICON x_12_mies        !!= @CODE@ mies mie
   +Sg      :s            nom_end         ; ! ^EI e to i
   +Sg      :s            nom_R           ; ! ^EI e to i
 !          +Sg:he           gen_n           ; ! TODO, remove?
@@ -793,10 +796,10 @@ LEXICON vanha_x_32s_Por
 !LEXICON vanha_n_33 ! ei tehty
                            !n_33s            ;
 
-LEXICON vanha_n_33as !!= @CODE@ rakas, asukas
-+N         : vanha_x_33as ;
+LEXICON n_32_as !!= @CODE@ rakas, asukas
++N         : x_32_as ;
 
-LEXICON vanha_x_33as
+LEXICON x_32_as
   +Sg+Nom:a^WG%>s      K                 ;
   +Sg      :a^WG%>s      par_tA            ;
   +Sg      :haa          ill_sseen         ;
@@ -847,12 +850,12 @@ LEXICON vanha_x_33aes
 
 
 
-LEXICON vanha_n_33is !!= @CODE@ ruvis, ruumis
-+N+Dial/Por:^Por vanha_x_33is ;
-+N+Dial/Var:^Var vanha_x_33is ;
-+N+Dial/Jok:^Jok vanha_x_33is ;
+LEXICON n_32_is !!= @CODE@ ruvis, ruumis
++N+Dial/Por:^Por x_32_is ;
++N+Dial/Var:^Var x_32_is ;
++N+Dial/Jok:^Jok x_32_is ;
 
-LEXICON vanha_x_33is ! kaunis
+LEXICON x_32_is ! kaunis
   +Sg      :i^WG%>s   nom_end         ;
   +Sg      :hii       gen_n_sg        ;
   +Sg      :i^WG%>s   par_tA          ;
@@ -873,10 +876,10 @@ LEXICON vanha_x_33is ! kaunis
 !LEXICON vanha_n_33  !!= @CODE@ odottaessa viitataan n_33t-hen
 !  n_33t ;
 
-LEXICON vanha_n_33t !!= @CODE@ venet, hyljet, huonet
-+N         :   vanha_x_33t ;
+LEXICON n_32_et !!= @CODE@ venet, hyljet, huonet
++N         :   x_32_et ;
 
-LEXICON vanha_x_33t
+LEXICON x_32_et
   +Sg+Dial/Var+Nom:e^WG     K              ;
   +Sg+Dial/-Var:e^WG        nom_t          ;
   +Sg      :e^WG%>t     par_tA         ;
@@ -887,11 +890,11 @@ LEXICON vanha_x_33t
 
            :hee         vanha_x_33_t_ts_common ;
 
-LEXICON vanha_n_33ts !!= @CODE@ kirves
-+N         :   vanha_x_33ts ;
+LEXICON n_32_ts !!= @CODE@ kirves
++N         :   x_32_ts ;
 +N+Sg      :es nom_R      ;
 
-LEXICON vanha_x_33ts !!= @CODE@ kirves
+LEXICON x_32_ts !!= @CODE@ kirves
   +Sg:es          nom_end              ;
   +Pl+Dial/-Por:he%>je      gen_n          ; ! Kirvhejen
   +Pl+Dial/-Por:he%>j       par_A          ; ! Kirvhejä
