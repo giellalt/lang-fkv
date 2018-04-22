@@ -46,10 +46,10 @@
 
 !! !Incomong
 
-LEXICON vanha_n_x
-+N         : vanha_x_x ;
+LEXICON n_x
++N         : x_x ;
 
-LEXICON vanha_x_x
+LEXICON x_x
   +Sg      : nom_end ; ! Just to make it compile
 
 
@@ -109,7 +109,7 @@ LEXICON n_11 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin n
 
 LEXICON vanha_n_21C ! TODO check what is this?
 +N+Sg      :  nom_end    ; ! Hans
-           :i vanha_n_21 ; ! Hansi
+           :i n_11 ; ! Hansi
 +N+Sg      :i nom_R      ;
 
 LEXICON x_11
@@ -281,11 +281,11 @@ LEXICON x_11_pl        !!= * @CODE@ ! Seems like no adjectives call this?
   !LEXICON vanha_kk-longgparpl
   ! +Par:%>kk%>i2 # ; ! kk ?? Tsekkaa..
 
-LEXICON vanha_n_22        !!= * @CODE@  opettaaja, karamelli
-+N         :    vanha_x_22  ;
+LEXICON n_21        !!= * @CODE@  opettaaja, karamelli
++N         :    x_21  ;
 +N+Sg      :    nom_R    ;
 
-LEXICON vanha_x_22 !liberaali
+LEXICON x_21 !liberaali
 
   +Sg      :         nom_end                  ;
   +Sg      :^WG      gen_n_sg           ;
@@ -297,8 +297,8 @@ LEXICON vanha_x_22 !liberaali
 
 
   +Pl      :^WG      nom_t              ; ! liberaalit
-  +Dial/Por:         vanha_x_22_pl_por        ;
-  +Dial/-Por:         vanha_x_22_pl_var        ;
+  +Dial/Por:         x_21_pl_por        ;
+  +Dial/-Por:         x_21_pl_var        ;
 
         !   +Pl:^WG%>i2       gen_tten           ;
         !   +Pl:%>i2          par_tA             ;
@@ -306,7 +306,7 @@ LEXICON vanha_x_22 !liberaali
         !   +Pl:%>i2          ess_nA                ;
         !   +Pl:%>i2          com_ne             ;
 
-LEXICON vanha_x_22_pl_por
+LEXICON x_21_pl_por
   +Pl      :^WG%>i2    gen_tten    ;
   +Pl      :%>i2       par_tA      ;
   +Pl      :%>i2       par_end     ;
@@ -316,7 +316,7 @@ LEXICON vanha_x_22_pl_por
   +Pl      :^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
 
 
-LEXICON vanha_x_22_pl_var ! TODO look at Dummy symbol structure in Twolc, now that we
+LEXICON x_21_pl_var ! TODO look at Dummy symbol structure in Twolc, now that we
                           ! need more of them. Rules for when (which problems) and
                           ! where (in the string/word "structure") ! ^WG before ^A2I always?
   +Pl      :^WG^A2I   gen_tten    ;
@@ -330,10 +330,10 @@ LEXICON vanha_x_22_pl_var ! TODO look at Dummy symbol structure in Twolc, now th
 ! +Pl+Tra:%>i2ksi K ; Lene removed this one
 ! !+Pl+Tra:%>i2kse     PxxK               ;
 
-LEXICON vanha_n_22odd !!= * @CODE@  kajava
-+N         :  vanha_x_22odd ;
+LEXICON n_21_odd !!= * @CODE@  kajava
++N         :  x_21_odd ;
 
-LEXICON vanha_x_22odd !!= * @CODE@  kajava
+LEXICON x_21_odd !!= * @CODE@  kajava
   +Sg          :             nom_end              ;
   +Sg          :^WG          sgpl_cases_odd ;
   +Sg          :^WG          gen_n_sg       ;
@@ -360,12 +360,12 @@ LEXICON vanha_x_22odd !!= * @CODE@  kajava
 
 
 
-LEXICON vanha_n_22oddi !!= * @CODE@  meininki, tunturi TODO
-+N         :     vanha_x_22oddi ;
+LEXICON n_21_odd_i !!= * @CODE@  meininki, tunturi TODO
++N         :     x_21_odd_i ;
 +N+Sg      :     nom_R       ;
 +N+Sg      :^WG  gen_n    ;
 
-LEXICON vanha_x_22oddi
+LEXICON x_21_odd_i
   +Sg      :        nom_end               ;
   +Sg      :^WG     gen_n_sg        ;
   +Sg+Dial/Por:        par_V           ;
@@ -396,10 +396,10 @@ LEXICON vanha_x_22oddi
 
 
 
-LEXICON vanha_n_22oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö, kurkkio, asia (in Var)
-+N         : vanha_x_22oi ;
+LEXICON n_21_oi        !!= * @CODE@  Kulkkiija, paivukko, sivakka, perintö, kurkkio, asia (in Var)
++N         : x_21_oi ;
 
-LEXICON vanha_x_22oi
+LEXICON x_21_oi
   +Sg      :                   nom_end         ;
   +Pl      :^WG                nom_t           ;
   +Sg      :^WG                gen_n_sg        ;
@@ -423,8 +423,8 @@ LEXICON vanha_x_22oi
 
 LEXICON n_31_JOTAIN        !!= * @CODE@  hoppee:hoppe
 +N+Dial/Por:        x_31_JOTAIN            ;
-+N+Dial/Var:^E2I^¤  vanha_x_23ia          ;
-+N+Dial/Jok:^¤      vanha_x_23ia          ; ! hopea, not hopia
++N+Dial/Var:^E2I^¤  x_31_JOTAIN_ia          ;
++N+Dial/Jok:^¤      x_31_JOTAIN_ia          ; ! hopea, not hopia
 ! TODO TODO TODO this is where it might be going wrong
 ! Need to distinguish hoppee (silvery) and hoppee (silver)
 ! Also for Valkkee (white) and valkke (a fire or something similar) TODO TODO TODO
@@ -447,7 +447,7 @@ LEXICON x_31_JOTAIN
   +Pl      :e%>i2   com_ne          ;
   +Pl      :e%>i2   sgpl_cases_even ;
 
-LEXICON vanha_x_23ia ! For -Por only valkia, hopia, kauhia
+LEXICON x_31_JOTAIN_ia ! For -Por only valkia, hopia, kauhia
   +Sg+Nom  :%>^A         K               ; ! valkia
   +Sg      :%>^A         gen_n_sg        ; ! valkian
   +Sg      :%>^A         par_A           ; ! valkiaa
@@ -466,7 +466,7 @@ LEXICON vanha_x_23ia ! For -Por only valkia, hopia, kauhia
 
 LEXICON n_31_JOTAIN_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
 +N+Dial/Por:         x_31_JOTAIN_ii           ;
-+N+Dial/-Por:         vanha_x_22oi           ; ! TODO skriv dyp kommentar her
++N+Dial/-Por:         x_21_oi           ; ! TODO skriv dyp kommentar her
 +N+Sg      :           nom_R               ;
 
 LEXICON x_31_JOTAIN_ii
@@ -638,7 +638,7 @@ LEXICON x_12_mies        !!= @CODE@ mies mie
   +Pl      :h^WG%>i2     sgpl_cases_even ; !! the same affix in sg and pl
 
 
-LEXICON vanha_n_32 !!= @CODE@ tytär:tyttär, taival:taipal
+LEXICON n_22 !!= @CODE@ tytär:tyttär, taival:taipal
 ! Encountered a problem for the dialect trigger order!
 ! "e:0 in consonant stems and illative plural"
 ! and other all rules want the order to be stem ^Var therest,
@@ -648,14 +648,14 @@ LEXICON vanha_n_32 !!= @CODE@ tytär:tyttär, taival:taipal
 ! Added an e before the dialect triggers, which need to be added to the e:0 rule in twolc,
 ! but I think that in the longer run having a uniform structure for this will be better.
 
-+N+Dial/Por:e^Por vanha_x_32 ;
-+N+Dial/Var:e^Var vanha_x_32_Var ;
-+N+Dial/Jok:e^Jok vanha_x_32 ;
++N+Dial/Por:e^Por x_22 ;
++N+Dial/Var:e^Var x_22_Var ;
++N+Dial/Jok:e^Jok x_22 ;
 +N+Sg      :^WG  nom_R      ;
 
 
 ! tyvenen (ja muut sg) toimii Twolc:ssä mutta ei yamleilla kun kompiloi, miks? katso e:0 twolc:ssä, lisää notes
-LEXICON vanha_x_32 ! tyven
+LEXICON x_22 ! tyven
   +Sg      :^WG^E0       nom_end        ;
 !  +Sg      :             gen_n_sg       ;
   +Sg      :^WG          gen_n_sg       ;
@@ -678,7 +678,7 @@ LEXICON vanha_x_32 ! tyven
   +Pl+Dial/Jok:%>i2         com_nne        ; ! jok: tyveninne
   +Pl      :%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
-  LEXICON vanha_x_32_Var ! tyven
+  LEXICON x_22_Var ! tyven
     +Sg      :^WG^E0       nom_end        ; ! tytär
     +Sg      :^WG^T0^E0    nom_end        ; ! tyät
   !  +Sg      :             gen_n_sg       ;
@@ -699,17 +699,17 @@ LEXICON vanha_x_32 ! tyven
     +Pl      :%>i2         com_nne        ;
     +Pl      :%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
-LEXICON vanha_n_32m !!= @CODE@ elläin elläi yđin ydin
-+N+Dial/Por:^Por vanha_x_32m ;
-+N+Dial/Var:^Var vanha_x_32m ;
-+N+Dial/Jok:^Jok vanha_x_32m ;
+LEXICON n_22_m !!= @CODE@ elläin elläi yđin ydin
++N+Dial/Por:^Por x_22_m ;
++N+Dial/Var:^Var x_22_m ;
++N+Dial/Jok:^Jok x_22_m ;
 +N+Sg      :^WGn nom_R    ;
 
-LEXICON vanha_x_32m !!= @CODE@
-  vanha_x_32m_sg ;
-  vanha_x_32m_pl ;
+LEXICON x_22_m !!= @CODE@
+  x_22_m_sg ;
+  x_22_m_pl ;
 
-LEXICON vanha_x_32m_sg
+LEXICON x_22_m_sg
   +Sg      :^WGn      nom_end        ;
   +Sg      :me        gen_n_sg       ;
   +Sg      :^WG%>n    par_tA         ;
@@ -717,10 +717,10 @@ LEXICON vanha_x_32m_sg
   +Sg      :me        ess_nnA        ;
   +Sg      :me        sgpl_cases_odd ;
 
-LEXICON vanha_n_32m_pl !!= @CODE@
-+N         : vanha_x_32m_pl ;
+LEXICON n_22_m_pl !!= @CODE@
++N         : x_22_m_pl ;
 
-LEXICON vanha_x_32m_pl
+LEXICON x_22_m_pl
   +Sg      :me            gen_n_sg       ;
 
   +Pl      :me            nom_t          ;
@@ -736,12 +736,12 @@ LEXICON vanha_x_32m_pl
   +Pl+Dial/Jok:m%>i2         com_ne         ;
   +Pl      :m%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl, TODO check this <-
 
-LEXICON vanha_n_32s !!= @CODE@  sairhaus
-+N+Dial/Por:^Por    vanha_x_32s_Por     ;
-+N+Dial/Var:^Var    vanha_x_32s_NOT_Por ;
-+N+Dial/Jok:^Jok    vanha_x_32s_NOT_Por ;
+LEXICON n_22_s !!= @CODE@  sairhaus
++N+Dial/Por:^Por    x_22_s_Por     ;
++N+Dial/Var:^Var    x_22_s_NOT_Por ;
++N+Dial/Jok:^Jok    x_22_s_NOT_Por ;
 
-LEXICON vanha_x_32s_Por
+LEXICON x_22_s_Por
   +Sg      :^WGs           nom_end           ; !! * Konsonanttivartalo: poista -e ja heikko aste
   +Sg      :^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
 
@@ -760,7 +760,7 @@ LEXICON vanha_x_32s_Por
   +Pl+Dial/Por:ks%>i2         com_nne           ;
   +Pl      :ks%>i2         sgpl_cases_odd    ; ! TODO wtf is this comm --> hmm, tämä menee pieleen, sg ≠ pl
 
-  LEXICON vanha_x_32s_NOT_Por
+  LEXICON x_22_s_NOT_Por
     +Sg      :^WGs           nom_end           ; !! * Konsonanttivartalo: poista -e ja heikko aste
     +Sg      :^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
 
@@ -822,7 +822,7 @@ LEXICON x_32_as
 !LEXICON vanha_n_33aes
 !        +N:             vanha_x_33aes           ;
 
-LEXICON vanha_x_33aes
+LEXICON x_32_aes
   +Sg+Nom:ä^WG%>s      K                 ;
   +Sg      :ä^WG%>s      par_tA            ;
   +Sg      :h%>ää        gen_n_sg          ;
@@ -888,7 +888,7 @@ LEXICON x_32_et
   +Pl+Dial/Var:he%>j       par_A          ; ! venhejä
   +Pl      :hee%>i2     com_ne         ;
 
-           :hee         vanha_x_33_t_ts_common ;
+           :hee         x_32_et_ts_common ;
 
 LEXICON n_32_ts !!= @CODE@ kirves
 +N         :   x_32_ts ;
@@ -901,10 +901,10 @@ LEXICON x_32_ts !!= @CODE@ kirves
   +Sg      :es          par_tA         ;
   +Pl      :hee%>i2     com_ne         ;
 
-           :hee         vanha_x_33_t_ts_common ;
+           :hee         x_32_et_ts_common ;
              !      +Pl+Gen:hee%>i2     gen_tten       ; ! Can this be commented out? yes, is in the common
 
-LEXICON vanha_x_33_t_ts_common
+LEXICON x_32_et_ts_common
   +Sg      :         gen_n_sg        ;
   +Sg      :         ill_sseen       ;
   +Sg      :         ess_nA          ;
@@ -920,12 +920,12 @@ LEXICON vanha_x_33_t_ts_common
       ! +Pl+Ill:heissiin K               ;
 
 
-LEXICON vanha_n_41 !!= * @CODE@ = veres
-+N         :           vanha_x_41     ;
+LEXICON n_22_excns !!= * @CODE@ = veres
++N         :           x_22_excns     ;
 +N+Sg      :s          nom_R          ;
 +N+Sg      :kse        gen_n_sg       ;
 
-LEXICON vanha_x_41
+LEXICON x_22_excns
   +Sg      :^WG%>s     nom_end        ;
   +Sg      :kse        gen_n_sg       ;
   +Sg      :%>s        par_tA         ;
@@ -950,11 +950,11 @@ LEXICON vanha_x_41
 
 !LEXICON vanha_s_kse
 ! +N:^WG # ;
-LEXICON vanha_n_41pl !!= * @CODE@ = veljekset
-+N         :           vanha_x_41pl          ;
+LEXICON n_22_excns_pl !!= * @CODE@ = veljekset
++N         :           x_22_excns_pl          ;
 +N+Pl      :%>kse      nom_t               ;
 
-LEXICON vanha_x_41pl !!= * @CODE@ = veljekset
+LEXICON x_22_excns_pl !!= * @CODE@ = veljekset
   +Sg      :kse        gen_n_sg        ;
   +Sg      :kse        ess_nA          ;
   +Sg      :kse        sgpl_cases_odd  ; !! these two lexica for cases with
@@ -982,12 +982,12 @@ LEXICON vanha_x_41pl !!= * @CODE@ = veljekset
 !        +N:           nen             ;
 ! +N+Pl+Com:s%>i2%>ne  K               ;
 
-LEXICON vanha_n_42 ! nainen, kainulainen
-+N         :  vanha_x_42 ;
+LEXICON n_22_inen ! nainen, kainulainen
++N         :  x_22_inen ;
 +N+Sg      :s nom_R      ;
 
 
-LEXICON vanha_x_42 ! varovainen
+LEXICON x_22_inen ! varovainen
   +Sg      :ne        nom_n           ;
   +Sg      :se        gen_n_sg        ;
   +Sg      :s         par_tA          ;
@@ -1006,11 +1006,11 @@ LEXICON vanha_x_42 ! varovainen
   +Pl      :s%>i2     com_ne          ;
   +Pl      :s%>i2     sgpl_cases_even ; !! the same affix in sg and pl
 
-LEXICON vanha_n_42odd !!= @CODE@ ihminen
-+N         :  vanha_x_42odd ;
+LEXICON n_22_inen_odd !!= @CODE@ ihminen
++N         :  x_22_inen_odd ;
 +N+Sg      :s nom_R         ; ! ihmiskala
 
-LEXICON vanha_x_42odd
+LEXICON x_22_inen_odd
   +Sg      :nen       nom_end        ;
   +Sg      :se        gen_n_sg       ;
   +Sg      :s         par_tA         ;
@@ -1029,7 +1029,7 @@ LEXICON vanha_x_42odd
   +Pl+Dial/-Por:s%>i2     com_nne        ;
   +Pl      :s%>i2     sgpl_cases_odd ; !! the same affix in sg and pl
 
-LEXICON vanha_n_42pl ! !!= @CODE@ tervheiset tervhei
+LEXICON n_22_inen_pl ! !!= @CODE@ tervheiset tervhei
 +N+Pl      :%>se       nom_t          ;
 +N+Pl      :s          gen_ten        ;
 +N+Pl+Dial/Por:ss%>i2     par_V          ; ! tervhehissii
