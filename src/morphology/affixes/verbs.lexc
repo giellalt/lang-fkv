@@ -127,7 +127,7 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Act+Inf3+Ade:%>m^Al^A K ;
 +V+Act+Inf3+Abe:%>m^Att^A K ;
 +V+Act+Inf3:%>m^A MATONodd ;
-+V+Der/minen:mi vanha_n_42 ;
++V+Der/minen:mi n_22_inen ;
 
 LEXICON v1kayda  !!= @CODE@ käyđä:kä
 +V+Inf:y%>đ^A K ; ! đ
@@ -781,7 +781,7 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ hantteerata:hantteera
 +V+Pass+PrsPrc+Sg+Nom:^WG%>tt^A%>v^A K ;
 +V+Pass+PrsPrc+Pl+Nom:^WG%>tt^A%>v^At K ;
 +V+Act+Ind+Prs+ConNeg:%>^V K ;
-+V+Der/minen:mi vanha_n_42 ;
++V+Der/minen:mi n_22_inen ;
 
 +V+Act+Cond+Sg1:%>i7sin K ; ! hantteeraisin
 +V+Act+Cond+Sg2:%>i7sit K ;
@@ -867,11 +867,11 @@ LEXICON PRFPRC_OBL !!= @CODE@ is without nom sg
 ! +Pl:%>i2 com ;
 !weak_v_stem ;
 +Sg+Par:u%>tt^A K ;
-:hee vanha_x_33_t_ts_common ;
+:hee x_32_et_ts_common ;
 +Sg+Ill:hee ill_sseen    ;
 +Pl+Gen:hee%>i2 gen_tten ;
 +Pl+Com:hee%>i2ne K ;
-+Err/Orth:ee vanha_x_33_t_ts_common ;
++Err/Orth:ee x_32_et_ts_common ;
 +Sg+Ill+Err/Orth:ee ill_sseen    ;
 +Pl+Gen+Err/Orth:ee%>i2 gen_tten ;
 +Pl+Com+Err/Orth:ee%>i2ne K ;
