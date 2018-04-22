@@ -15,7 +15,7 @@ LEXICON vanha_a_x  != * @CODE@ contains unclassified adjectives.
 !+A: K ;
 
 LEXICON HYVA
-+A                :hyvä vanha_x_21 ; ! hyvvää, hyvät
++A                :hyvä x_11 ; ! hyvvää, hyvät
 +A                :pare comp_m_odd  ;
 +A+Sg+Superl      :paras nom_end ;
 ! TODO the rest of paras to be written.
@@ -30,7 +30,7 @@ LEXICON HYVA
 
 LEXICON VANH
 +A+Sg             :a nom_end ;
-+A                :  vanha_x_1pl ; ! ai to oi doesn't work yet
++A                :  x_31_pl ; ! ai to oi doesn't work yet
 ! yksiköt ovat nämä, vanha_x_1 -sestä otettu:
 !      +A+Sg+Nom:a              K               ;
 !          +A+Sg:               sgpl_cases_even ; !! these two lexica for cases with
@@ -61,10 +61,10 @@ LEXICON VANH
 ! +Pl+Nom:         Px              ; ! mattoni
 
 LEXICON vanha_nocomp_a_21  !!= * @CODE@
-+A                :           vanha_x_21         ;
++A                :           x_11         ;
 
 LEXICON vanha_a_21i  !!= * @CODE@ siisti
-+A                :           vanha_x_21i  ;
++A                :           x_11_i  ;
 +A                :^WG^AE     comp_m_odd   ;
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
 
@@ -73,7 +73,7 @@ LEXICON vanha_a_21i  !!= * @CODE@ siisti
 
 
 LEXICON vanha_a_21  !!= * @CODE@ siisti
-+A                :           vanha_x_21   ;
++A                :           x_11   ;
 
 +A                :^WG^AE     comp_m_odd   ;
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
@@ -90,21 +90,21 @@ LEXICON vanha_a_21  !!= * @CODE@ siisti
 
 
 LEXICON vanha_a_22	!!= * @CODE@  liberaali
-+A                :  vanha_x_22         ;
++A                :  x_21         ;
 +A                :  comp_m_odd   ;
 +A                :i superl_m_odd ; ! Should be i5?
 +A+Dial/Var       :  superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
 
 LEXICON vanha_a_22odd	!!= * @CODE@  simppeli, loistaava
-+A                :      vanha_x_22odd       ;
++A                :      x_21_odd       ;
 +A                :      comp_mm       ;
 +A                :%>i5i superl_m_even ;
 +A+Dial/Var       :%>i5  superl_mm     ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
  !+A+Dial/Por+Pl+Compar+Gen:%>mm%>ii2tten K ;
 
 LEXICON vanha_a_23	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out as adjectives
-+A+Dial/Por:      vanha_x_23         ;
-+A+Dial/Var:^E2I^¤    vanha_x_23ia       ;
++A+Dial/Por:      x_31_JOTAIN         ;
++A+Dial/Var:^E2I^¤    x_31_JOTAIN_ia       ;
 +A+Dial/Jok:      vanha_a_23ea       ; ! Jok comp and superls is here
 
 +A+Dial/Por:e     comp_m_odd   ;
@@ -117,11 +117,11 @@ LEXICON vanha_a_23	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort ou
 +A+Sg+Superl+Dial/Por:e%>i2%>n par_tA ;
 
 LEXICON vanha_a_23ii  !!= * @CODE@ auttii
-+A                : vanha_x_23ii ;
++A                : x_31_JOTAIN_ii ;
                     comp_m_odd   ;
 
 LEXICON vanha_a_23ea	!!= * @CODE@ pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
-                  :^¤ vanha_x_23ia ; ! TODO Change ^¤ tag to a custom one
+                  :^¤ x_31_JOTAIN_ia ; ! TODO Change ^¤ tag to a custom one
                   :^¤%>^A comp_mm ;
                   :^¤%>i5 superl_m_odd ;
   +Sg+Superl      :^¤%>i2    nom_n  ;
@@ -151,7 +151,7 @@ LEXICON vanha_a_31si	!!= * @CODE@ uusi. uussiin only por, always one s in Var
 +A+Sg+Superl+Dial/-Por:^E2I%>in par_tA ;
 
 LEXICON vanha_a_32 !!= * @CODE@ tyven
-+A                :e vanha_x_32 ;
++A                :e x_22 ;
 +A                :e comp_mm ;
 !+A+Pl+Compar+Dial/-Var:e%>m%>ii2 gen_tten ; ! +Gen:e%>mm%>ii2tten K ; ! not in Var
 +A                :i5i superl_m_even ;
@@ -159,7 +159,7 @@ LEXICON vanha_a_32 !!= * @CODE@ tyven
 +A+Pl+Superl+Dial/Var:i5%>mm%>i2 gen_tten ;
 
 LEXICON vanha_a_32m !!= * @CODE@ irtain
-+A                :   vanha_x_32m     ;
++A                :   x_22_m     ;
 +A                :me comp_mm   ;
 +A                :mi superl_mm ;
 
@@ -191,20 +191,20 @@ LEXICON vanha_a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 +A+Pl+Superl+Dial/Var:mi5i%>mpp%>i2%>i gen_n ;
 
 LEXICON vanha_a_33as !!= * @CODE@ raskas
-+A                :    vanha_x_33as ;
++A                :    x_32_as ;
 +A                :haa comp_m_odd   ;
 +A                :hai superl_m_odd ;
 !+A+Pl+Superl+Gen:hai%>m%>itten K ; !Variaatio? Ei ainakaan dial.
 
 LEXICON vanha_a_33aes !!= * @CODE@ sinnikäs
-+A                :    vanha_x_33aes ;
++A                :    x_32_aes ;
 +A                :hää comp_m_even   ; ! sinnikkhäämälä
 +A                :häi superl_m_even ;
 ! comp, superl, puuttuvat
 
 
 LEXICON vanha_a_33is !!= * @CODE@ valmis, kaunis
-+A                :    vanha_x_33is ;
++A                :    x_32_is ;
 +A                :hii comp_m_odd   ;
 +A                :hii superl_m_odd ;
 
@@ -233,7 +233,7 @@ LEXICON vanha_x_33ys ! TODO DELETE THIS PROBABLy! ONLY ONE WORD, kärys, IS IN I
 
 
 LEXICON vanha_a_33t !!= * @CODE@ tuoret
-+A                :    vanha_x_33t  ;
++A                :    x_32_et  ;
 +A                :hee comp_m_odd   ;
 +A                :hei superl_m_odd ;
 ! comp, superl, puuttuvat
@@ -252,7 +252,7 @@ LEXICON vanha_a_33y !!= * @CODE@ väsyny:väsyn ! perfect participle
 +A                : PRFPRC_OBL  ;
 
 LEXICON vanha_a_41 !!= * @CODE@ = veres
-+A                :    vanha_x_41   ;
++A                :    x_22_excns   ;
 +A                :kse comp_m_odd   ;
 +A                :ksi superl_m_odd ; ! Do they have superl? TODO
 
@@ -263,13 +263,13 @@ LEXICON vanha_a_41 !!= * @CODE@ = veres
 
 
 LEXICON vanha_a_42 !!= * @CODE@ varovainen
-+A                :   vanha_x_42         ;
++A                :   x_22_inen         ;
 +A                :se comp_m_odd   ;
 +A                :si superl_m_odd ;
 
 
 LEXICON vanha_a_42odd !!= * @CODE@ sininen
-+A                :   vanha_x_42odd ;
++A                :   x_22_inen_odd ;
 +A                :se comp_mm ;
 
 +A+Dial/Por       :ssi5i superl_m_even ;
