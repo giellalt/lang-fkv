@@ -64,16 +64,16 @@ LEXICON n_31_ai !!= * @CODE@ = tuorestai ja muut päivät
 +N+Sg      : nom_R     ;
 
 LEXICON x_31
-  +Sg      :         nom_end         ;
-  +Sg      :         gen_n_sg        ;
-  +Sg      :         ill_hVn         ; ! maahan
-  +Sg      :         par_tA          ;
-  +Sg      :         sgpl_cases_even ; !! these two lexica for cases with
-           :         x_31_pl         ;
-! +Sg+Nom:         Px              ; ! mattoni
-! +Sg+Gen:         Px              ; ! mattoni
-! +Pl+Nom:         Px              ; ! mattoni
-  +Sg      :         ess_nA          ;
+      +Sg: nom_end         ;
+      +Sg: gen_n_sg        ;
+      +Sg: ill_hVn         ; ! maahan
+      +Sg: par_tA          ;
+      +Sg: sgpl_cases_even ; ! these two lexica for cases with
+           x_31_pl         ;
+! +Sg+Nom: Px              ; ! mattoni
+! +Sg+Gen: Px              ; ! mattoni
+! +Pl+Nom: Px              ; ! mattoni
+      +Sg: ess_nA          ;
 
 
 
