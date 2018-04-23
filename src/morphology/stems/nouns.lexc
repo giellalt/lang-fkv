@@ -14,10 +14,9 @@ LEXICON NounRoot !!= @CODE@
     !! ** X.X Kaksitavuiset ( sana : sanoissa, aika )  a -> o:ksi = n_11_AO        ! vanha_n_21_AO
     !! ** X.X Kaksitavuiset ( kuva : kuvissa )         a -> i:ksi = n_11_A0_A2I    ! vanha_n_21_A0_A2I
     !! ** X.X Kaksitavuiset lånord ( färi : färi, pappi, tooli )  = n_11_i         ! vanha_n_21i
-            ! For å få en liste av lånord til n_11_i bruk: sed /i vanha_n_21/i vanha_n_21i/
+            ! For å få en liste av lånord til n_11_i bruk: sed /i vanha_21/i vanha_21i/
     !! *** 2.1.1  Kaksitavuiset monikko (housut )   	            = n_11_pl        ! vanha_n_21pl
     !! *** 2.1.2  Kaksitavuiset ( joki:joke, ovi:ove ) e -> i:ksi = n_11_E2I       ! vanha_n_21_E2I
-      ! TODO add some info about wtf ranch vanha_n_21C ; ?
 
     !! ** 3.1 Kaksitavuiset ( pieni, kieli )		   		            = n_12           ! vanha_n_31
     !! ** 3.1.1  ( lumi:lumen:lunta )                 		        = n_12_lumi      ! vanha_n_31lumi
@@ -37,14 +36,15 @@ LEXICON NounRoot !!= @CODE@
     !! ** 3.2 Usseempitavuiset ( tytär )
     !! *** 3.2.1 ( tytär, taival, paimen )                   		  = n_22           ! vanha_n_32
     !! *** 3.2.2 ( elläin: elläimen)                		          = n_22_m         ! vanha_n_32m
-    !! TODO TODO TODO Add descr. here, this was unlisted?         = n_22_m_pl      ! vanha_n_32m_pl
+      ! TODO add vanha_n_32m_pl
     !! ** 4.3  ton-adjektiivit (onneton:onne) (vain Adj)          = a_22_ton      -! vanha_a_43odd
+      ! TODO Check is, esp. in Adjectives!!
     !! *** 3.2.3 (rakkhaus)					   		                        = n_22_s         ! vanha_n_32s
     !! ** 4.1 veres-nominit ( veres, kokkous)	   	 ekstraCNSranka = n_22_excns     ! vanha_n_41
     !! ** 4.1.1 veres-nominit monikko ( veljekset) ekstraCNSranka = n_22_excns_pl  ! vanha_n_41pl
     !! *** 4.2.2 -inen-nominit odd (vihrinen / ihminen)	   		    = n_22_inen_odd  ! vanha_n_42odd
     !! ** 4.2 –inen-nominit ( kainulainen)		   		              = n_22_inen      ! vanha_n_42
-    !! *** 4.2.1 -inen-nominit Pl (tervheiset)	   		            = n_22_inen_pl  -! vanha_n_42pl
+    !! *** 4.2.1 -inen-nominit Pl (tervheiset)	   		            = n_22_inen_pl   ! vanha_n_42pl
 
 
   !! TYYPPI 3: Pitkävokaaliset rangat
@@ -1016,7 +1016,7 @@ ilmaraito:ilma#raito n_11 ;
 ilmareikä:ilma#reikä n_11 ;
 ilmatooki:ilma#took2i n_11_i ;
 ilmestys:ilmesty n_22_excns ;
-ilmivalkkee:ilmi#valkke n_31_JOTAIN ; ! Laitoin adjektiiveihin ! TODO check this confusing case again
+ilmivalkkee:ilmi#valkke vanha_a_23 ; ! Laitoin adjektiiveihin
 ilmoittaaja n_21 ;
 ilmoittaaja+N+Sg+Nom+Err/Orth:ilmottaaja K ;
 ilmoittaminen:ilmoittami n_22_inen_odd ;
@@ -1529,7 +1529,7 @@ kellomäärä:kello#määrä n_11 ;
 keltakukka:kelta#kukka n_11 ;
 keltasirkkoinen:kelta#sirkkoi n_22_inen_odd ;
 keltatauti:kelta#tauti n_11_i ;
-keläs:kel n_32_ts ; ;
+keläs:kel n_32_ts ;
 kemppi n_11_i ;
 keneraali n_21 ;
 kengännauha:kengän#nauha n_11 ;
@@ -1682,7 +1682,7 @@ kiroussana:kirous#sana n_11 ;
 kirppu n_11 ;
 kirpputori:kirppu#tori n_11_i ;
 kirsi n_11_i ;
-kirves:kirv n_32_ts ; ;
+kirves:kirv n_32_ts ;
 kirvesmies:kirves#mie n_12_mies ;
 kirvesvarsi:kirves#varte n_12_si ;
 kirvheenterä:kirvheen#terä n_11 ;
