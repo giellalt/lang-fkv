@@ -6,80 +6,77 @@ LEXICON AdjectiveRoot
 
 
 
-!! !!2. Vokaalirankaiset
 
-!! !!2.1 Kaksitavvuiset lyhykäisvokaaliset rangat
+!! TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 
+!! Kaksitavuiset lyhykäisvokaaliset rangat
+! vanha_a_21 -> a_11
 laiha vanha_a_21 ; !!= * @CODE@
 turha vanha_a_21 ;
 hieno vanha_a_21 ; !!= * @CODE@ needs own adj lex tag
 siisti vanha_a_21i ; ! TODO TODO TODO remember to _21 classification for adj too
 
-!! !!2.2. Usseempitavvuiset lyhykäisvokaaliset rangat
+!  Kaksitavuiset (Konsonanttirankaiset?)
+! vanha_a_31 -> a_12
+nuori:nuore a_12 ;
+pieni:piene a_12 ;
+uusi:uute a_12_si ; !!= * @CODE@
+täysi:täyte a_12_si ;
 
 
+
+!! TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
+
+!! Usheempitavuiset lyhykäisvokaaliset rangat
+! vanha_a_22 -> a_21
 liberaali:liberaali vanha_a_22 ; !!= * @CODE@ XXX check whether pl = liberaaliksi or liberaaliksi
 simppeli vanha_a_22odd ;
 
-!! !!2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
-
-valkkee:valkke vanha_a_23 ; !!= * @CODE@
-selkkee:selkke vanha_a_23 ;
-kauhhee:kauhe vanha_a_23 ;
-karkkee:karkke n_31_JOTAIN ; ! TODO TODO TODO check these, valkkee etc. confusion 
-makkee:makke n_31_JOTAIN ; ! TODO TODO TODO check these, valkkee etc. confusion
-auttii:autt2ii vanha_a_23ii ; !!= * @CODE@
-
-
-!! !!3. Konsonanttirankaiset
-
-!! !!3.1. Kaksitavuiset
-nuori:nuore vanha_a_31 ;
-
-uusi:uute vanha_a_31si ; !!= * @CODE@
-täysi:täyte vanha_a_31si ;
-
-
-!! !!3.2 Usseaempitavuiset
-
+!! Usheempitavuiset (Konsonanttirankaiset?)
+! vanha_a_32 -> a_22
 tyven:tyven vanha_a_32 ; !!= * @CODE@
 tinatyven:tina#tyven vanha_a_32 ;
+vasen:vase vanha_a_32ma ; !!= * @CODE@ ! TODO _32ma?
 
-vasen:vase vanha_a_32ma ; !!= * @CODE@
-
-!! !!3.3 Kokoontuma
-
-rakas:rakk vanha_a_33as ;
-tyyris:tyyr vanha_a_33is ;
-voimakas:voimakk vanha_a_33as ;
-
-tuoret:tuor vanha_a_33t ;
-tervet:terv vanha_a_33t ;
-vaipunu:vaipun vanha_a_33u ;
-väsyny:väsyn vanha_a_33y ;
-
-
-
-!! !! 4. Ekstrakonsonanttirankaiset
-
-!! !!4.1 ekstrakonsonanttirankaiset
-
+!! Usheempitavuiset (Ekstrakonsonanttirankaiset?)
+! vanha_a_41 -> a_22_excns
 veres:vere vanha_a_41 ; !!= * @CODE@
 
-
-!! !! 4.2 -nen-adjektiivit
-
+!! Usheempitavuiset -nen-adjektiivit
+! vanha_a_42 -> a_22_inen
 varovainen:varovai vanha_a_42 ;
-
 vihrinen:vihri vanha_a_42odd ;
 sininen:sini vanha_a_42odd ; !!= * @CODE@
 vestainen:vestai vanha_a_42odd ; !!= * @CODE@
 konkreettinen:konkreetti vanha_a_42odd ; !!= * @CODE@
 
-!! !! 4.3 -ton-adjektiivit
-
+!! (Usheempitavuiset) -ton-adjektiivit
+! vanha_a_43odd -> a_22_ton
 onneton:onne vanha_a_43odd ;
+! TODO Double heck this chapt. numbers
 
+
+
+!! TYYPPI 3: Pitkävokaaliset rangat
+
+!! Pitkävokaaliset rangat: (Yksirankaiset kaksitavuiset (Kokoontumanom.?) ?)
+! vanha_a_23 -> a_31_JOTAIN
+valkkee:valkke vanha_a_23 ; !!= * @CODE@
+selkkee:selkke vanha_a_23 ;
+kauhhee:kauhe vanha_a_23 ;
+auttii:autt2ii vanha_a_23ii ; !!= * @CODE@
+karkkee:karkke n_31_JOTAIN ; ! TODO TODO TODO check these, valkkee etc. confusion
+makkee:makke n_31_JOTAIN ; ! TODO TODO TODO check these, valkkee etc. confusion
+
+!! Pitkävokaaliset Konsonanttirankaiset (Kokoontuma?)
+! vanha_a_33 -> a_32_
+rakas:rakk vanha_a_33as ; ! a_32_as
+tyyris:tyyr vanha_a_33is ; ! a_32_is
+voimakas:voimakk vanha_a_33as ; ! a_32_as
+tuoret:tuor vanha_a_33t ; ! vanha_a_33t -> a_32_et
+tervet:terv vanha_a_33t ; ! vanha_a_33t -> a_32_et
+vaipunu:vaipun vanha_a_33u ; ! vanha_33->32 ! TODO not moved in nouns either to non vanha_
+väsyny:väsyn vanha_a_33y ; ! vanha_33->32 ! TODO also probably not moved in nouns either to non vanha_
 
 
 
@@ -249,10 +246,9 @@ silko vanha_a_21 ;
 sisä vanha_a_21 ;
 vähä vanha_a_21 ;
 väärä vanha_a_21 ;
-puoli:puole vanha_a_31 ;
-pieni:piene vanha_a_31 ;
-nuori:nuore vanha_a_31 ;
-suuri:suure vanha_a_31 ;
+puoli:puole a_12 ;
+nuori:nuore a_12 ;
+suuri:suure a_12 ;
 veres:vere vanha_a_41 ;
 veđenpillaama vanha_a_22 ;
 ulosantama vanha_a_22 ;
@@ -877,7 +873,7 @@ määrätön:määrä vanha_a_43odd ;
 mitätön:mitä vanha_a_43odd ;
 ruottii:ruott2ii vanha_a_23ii ;
 auttii:autt2ii vanha_a_23ii ;
-tosi:tote vanha_a_31si ;
+tosi:tote a_12_si ;
 vähäinen:vähäise vanha_a_32m ;
 irtain:irt2ai vanha_a_32m ;
 pahas:pah vanha_a_33as ;
@@ -974,3 +970,81 @@ kuuđes vanha_a_x ;
 seittemes vanha_a_x ;
 yhđekses vanha_a_x ;
 kymmenes vanha_a_x ;
+
+
+!----------------------------------------------------------------------------------------------------------------------
+! Old classification, eira 2007 I think
+
+!! !!2. Vokaalirankaiset
+
+!! !!2.1 Kaksitavvuiset lyhykäisvokaaliset rangat
+
+!laiha vanha_a_21 ; !!= * @CODE@
+!turha vanha_a_21 ;
+!hieno vanha_a_21 ; !!= * @CODE@ needs own adj lex tag
+!siisti vanha_a_21i ; ! TODO TODO TODO remember to _21 classification for adj too
+
+!! !!2.2. Usseempitavvuiset lyhykäisvokaaliset rangat
+
+
+!liberaali:liberaali vanha_a_22 ; !!= * @CODE@ XXX check whether pl = liberaaliksi or liberaaliksi
+!simppeli vanha_a_22odd ;
+
+!! !!2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
+
+!valkkee:valkke vanha_a_23 ; !!= * @CODE@
+!selkkee:selkke vanha_a_23 ;
+!kauhhee:kauhe vanha_a_23 ;
+!karkkee:karkke n_31_JOTAIN ; ! TODO TODO TODO check these, valkkee etc. confusion
+!makkee:makke n_31_JOTAIN ; ! TODO TODO TODO check these, valkkee etc. confusion
+!auttii:autt2ii vanha_a_23ii ; !!= * @CODE@
+
+
+!! !!3. Konsonanttirankaiset
+
+!! !!3.1. Kaksitavuiset
+!nuori:nuore vanha_a_31 ;
+
+!uusi:uute vanha_a_31si ; !!= * @CODE@
+!täysi:täyte vanha_a_31si ;
+
+
+!! !!3.2 Usseaempitavuiset
+
+!tyven:tyven vanha_a_32 ; !!= * @CODE@
+!tinatyven:tina#tyven vanha_a_32 ;
+
+!vasen:vase vanha_a_32ma ; !!= * @CODE@
+
+!! !!3.3 Kokoontuma
+
+!rakas:rakk vanha_a_33as ;
+!tyyris:tyyr vanha_a_33is ;
+!voimakas:voimakk vanha_a_33as ;
+
+!tuoret:tuor vanha_a_33t ;
+!tervet:terv vanha_a_33t ;
+!vaipunu:vaipun vanha_a_33u ;
+!väsyny:väsyn vanha_a_33y ;
+
+
+
+!! !! 4. Ekstrakonsonanttirankaiset
+
+!! !!4.1 ekstrakonsonanttirankaiset
+
+!veres:vere vanha_a_41 ; !!= * @CODE@
+
+
+!! !! 4.2 -nen-adjektiivit
+
+!varovainen:varovai vanha_a_42 ;
+
+!vihrinen:vihri vanha_a_42odd ;
+!sininen:sini vanha_a_42odd ; !!= * @CODE@
+!vestainen:vestai vanha_a_42odd ; !!= * @CODE@
+!konkreettinen:konkreetti vanha_a_42odd ; !!= * @CODE@
+
+!! !! 4.3 -ton-adjektiivit
+
+! onneton:onne vanha_a_43odd ;
