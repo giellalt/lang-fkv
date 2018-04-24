@@ -48,17 +48,16 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 
 
 
- * LEXICON vanha_n_1  = maa, tie
+ * LEXICON n_31  = maa, tie
 
- * LEXICON vanha_n_1ai  = tuorestai ja muut päivät
-
-these two lexica for cases with
+ * LEXICON n_31_ai  = tuorestai ja muut päivät
 
 
 
- * LEXICON vanha_n_1pl  = häät
 
- * LEXICON vanha_x_1pl  = häät
+ * LEXICON n_31_pl  = häät
+
+ * LEXICON x_31_pl  = häät
 
 the same affix in sg and pl
 
@@ -67,7 +66,7 @@ the same affix in sg and pl
 !Eira's classification
 
 
- * LEXICON vanha_n_21   lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
+ * LEXICON n_11   lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
 
 
 
@@ -75,38 +74,37 @@ the same affix in sg and pl
 
 
 
- * LEXICON vanha_n_21_AO  sana - sanoissa. Linna? Linnoissa? aika
+ * LEXICON n_11_AO  sana - sanoissa. Linna? Linnoissa? aika
 
- * LEXICON vanha_x_21_AO  sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
-
-
- * LEXICON vanha_n_21_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
-
- * LEXICON vanha_x_21_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
+ * LEXICON x_11_AO  sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
 
 
+ * LEXICON n_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
+
+ * LEXICON x_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
 
 
 
 
- LEXICON vanha_n_21_E2I         on ovi:ove, joki:joke, hyksi, suomi ! Ei lainasanat
+
+
+ LEXICON n_11_E2I         on ovi:ove, joki:joke, hyksi, suomi ! Ei lainasanat
 
 these two lexica for cases with
 
 the same affix in sg and pl
 
 
- * LEXICON vanha_n_21pl          "villahousut", lyhyt vokali, yks vartalo, kasvot
+ * LEXICON n_11_pl          "villahousut", lyhyt vokali, yks vartalo, kasvot
 
- * LEXICON vanha_x_21pl        
+ * LEXICON x_11_pl         ! Seems like no adjectives call this?
+
 
 the same affix in sg and pl
 
 
 
-
-
- * LEXICON vanha_n_22          opettaaja, karamelli
+ * LEXICON n_21          opettaaja, karamelli
 
 
 
@@ -117,74 +115,74 @@ the same affix in sg and pl
 
 
 
- * LEXICON vanha_n_22odd   kajava
+ * LEXICON n_21_odd   kajava
 
- * LEXICON vanha_x_22odd   kajava
-
-
+ * LEXICON x_21_odd   kajava
 
 
- * LEXICON vanha_n_22oddi   meininki, tunturi TODO
 
 
+ * LEXICON n_21_odd_i   meininki, tunturi TODO
 
 
 
 
 
- * LEXICON vanha_n_22oi          Kulkkiija, paivukko, sivakka, perintö, kurkkio, asia (in Var)
+
+
+ * LEXICON n_21_oi          Kulkkiija, paivukko, sivakka, perintö, kurkkio, asia (in Var)
 
 
 
 
- * LEXICON vanha_n_23          hoppee:hoppe
-
-
-
-
-
- * LEXICON vanha_n_23ii          assii (in Por) kurkkii (in Por)
-
-* LEXICON vanha_n_23ii          for same affix in sg and pl
-
-* LEXICON vanha_n_23ii          for same affix in sg and pl
-* LEXICON vanha_n_23ii          for same affix in sg and pl
-
-
- LEXICON vanha_n_31          kieli
-
-* LEXICON vanha_n_31          for same affix in sg and pl
-
-* LEXICON vanha_n_31          for same affix in sg and pl
-
- LEXICON vanha_n_31lumi        lumi lu
-
-
-
-
- LEXICON vanha_n_31si         vuosi, käsi, hirsi
+ * LEXICON n_31_JOTAIN          hoppee:hoppe
 
 
 
 
 
- LEXICON vanha_n_31lapsi         lapsi la
+ * LEXICON n_31_JOTAIN_ii          assii (in Por) kurkkii (in Por)
 
- LEXICON vanha_x_31lapsi         lapsi la
+* LEXICON n_31_JOTAIN_ii          for same affix in sg and pl
+
+* LEXICON n_31_JOTAIN_ii          for same affix in sg and pl
+* LEXICON n_31_JOTAIN_ii          for same affix in sg and pl
+
+
+ LEXICON n_12          kieli
+
+* LEXICON n_12          for same affix in sg and pl
+
+* LEXICON n_12          for same affix in sg and pl
+
+ LEXICON n_12_lumi        lumi lu
+
+
+
+
+ LEXICON n_12_si         vuosi, käsi, hirsi
+
+
+
+
+
+ LEXICON n_12_lapsi         lapsi la
+
+ LEXICON x_12_lapsi         lapsi la
 these two lexica for cases with
 
 the same affix in sg and pl
 
 
- LEXICON vanha_n_31mies         mies mie
+ LEXICON n_12_mies         mies mie
 
- LEXICON vanha_x_31mies         mies mie
+ LEXICON x_12_mies         mies mie
 these two lexica for cases with
 
 the same affix in sg and pl
 
 
- LEXICON vanha_n_32  tytär:tyttär, taival:taipal
+ LEXICON n_22  tytär:tyttär, taival:taipal
 
 
 
@@ -193,34 +191,24 @@ the same affix in sg and pl
 
 
 
- LEXICON vanha_n_32m  elläin elläi yđin ydin
+ LEXICON n_22_m  elläin elläi yđin ydin
 
- LEXICON vanha_x_32m 
-
-
- LEXICON vanha_n_32m_pl 
+ LEXICON x_22_m 
 
 
-
- LEXICON vanha_n_32s   sairhaus
-
-* Konsonanttivartalo: poista -e ja heikko aste
-* Konsonanttivartalo: poista -e ja heikko aste
+ LEXICON n_22_m_pl 
 
 
+
+ LEXICON n_22_s   sairhaus
 
 * Konsonanttivartalo: poista -e ja heikko aste
 * Konsonanttivartalo: poista -e ja heikko aste
 
 
 
-
-
-
-
- LEXICON vanha_n_33as  rakas, asukas
-
-
+* Konsonanttivartalo: poista -e ja heikko aste
+* Konsonanttivartalo: poista -e ja heikko aste
 
 
 
@@ -228,21 +216,31 @@ the same affix in sg and pl
 
 
 
-
-
- LEXICON vanha_n_33is  ruvis, ruumis
-
-
-
-
- LEXICON vanha_n_33t  venet, hyljet, huonet
+ LEXICON n_32_as  rakas, asukas
 
 
 
 
- LEXICON vanha_n_33ts  kirves
 
- LEXICON vanha_x_33ts  kirves
+
+
+
+
+
+
+ LEXICON n_32_is  ruvis, ruumis
+
+
+
+
+ LEXICON n_32_et  venet, hyljet, huonet
+
+
+
+
+ LEXICON n_32_ts  kirves
+
+ LEXICON x_32_ts  kirves
 
 
 these two lexica for cases with
@@ -250,13 +248,13 @@ these two lexica for cases with
 the same affix in sg and pl -- tsekkaa long
 
 
- * LEXICON vanha_n_41  = veres
+ * LEXICON n_22_excns  = veres
 
 
 
- * LEXICON vanha_n_41pl  = veljekset
+ * LEXICON n_22_excns_pl  = veljekset
 
- * LEXICON vanha_x_41pl  = veljekset
+ * LEXICON x_22_excns_pl  = veljekset
 these two lexica for cases with
 
 the same affix in sg and pl -- tsekkaa long
@@ -270,13 +268,13 @@ these two lexica for cases with
 
 the same affix in sg and pl
 
- LEXICON vanha_n_42odd  ihminen
+ LEXICON n_22_inen_odd  ihminen
 
 these two lexica for cases with
 
 the same affix in sg and pl
 
- LEXICON vanha_n_42pl !  tervheiset tervhei
+ LEXICON n_22_inen_pl !  tervheiset tervhei
 the same affix in sg and pl
 
 
