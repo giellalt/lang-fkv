@@ -39,6 +39,7 @@ LEXICON NounRoot !!= @CODE@
       ! TODO add vanha_n_32m_pl
     !! ** 4.3  ton-adjektiivit (onneton:onne) (vain Adj)          = a_22_ton      -! vanha_a_43odd
       ! TODO Check is, esp. in Adjectives!!
+      ! TODO Also check vanha_a_43 muuttumaton in adjectives. Look up in grammar
     !! *** 3.2.3 (rakkhaus)					   		                        = n_22_s         ! vanha_n_32s
     !! ** 4.1 veres-nominit ( veres, kokkous)	   	 ekstraCNSranka = n_22_excns     ! vanha_n_41
     !! ** 4.1.1 veres-nominit monikko ( veljekset) ekstraCNSranka = n_22_excns_pl  ! vanha_n_41pl
@@ -1016,7 +1017,7 @@ ilmaraito:ilma#raito n_11 ;
 ilmareikä:ilma#reikä n_11 ;
 ilmatooki:ilma#took2i n_11_i ;
 ilmestys:ilmesty n_22_excns ;
-ilmivalkkee:ilmi#valkke vanha_a_23 ; ! Laitoin adjektiiveihin
+ilmivalkkee:ilmi#valkke n_31_JOTAIN ; ! Laitoin adjektiiveihin
 ilmoittaaja n_21 ;
 ilmoittaaja+N+Sg+Nom+Err/Orth:ilmottaaja K ;
 ilmoittaminen:ilmoittami n_22_inen_odd ;
