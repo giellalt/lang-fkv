@@ -11,44 +11,44 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Verb - kirjoittaat - ok : # Verb 'to bring' - ok
-     kirjoittaat+V+Inf: kirjoittaat
-     kirjoittaat+V+Act+Ind+Prs+Sg1: kirjoitan
-     kirjoittaat+V+Act+Ind+Prs+Sg2: kirjoitat
-     kirjoittaat+V+Act+Ind+Prs+Sg3: kirjoittaa
-     kirjoittaat+V+Act+Ind+Prs+Pl1: kirjoitamma
-     kirjoittaat+V+Act+Ind+Prs+Pl2: kirjoitatta
-     kirjoittaat+V+Act+Ind+Prs+Pl3: kirjoitethaan
-     kirjoittaat+V+Act+Ind+Prt+Sg1: kirjoitin
-     kirjoittaat+V+Act+Ind+Prt+Sg2: kirjoitit
-     kirjoittaat+V+Act+Ind+Prt+Sg3: kirjoitti
-     kirjoittaat+V+Act+Ind+Prt+Pl1: kirjoitimma
-     kirjoittaat+V+Act+Ind+Prt+Pl2: kirjoititta
-     kirjoittaat+V+Act+Ind+Prt+Pl3: kirjoitethiin
-     kirjoittaat+V+Act+PrfPrc+Sg+Nom: kirjoittannu
-     kirjoittaat+V+Pass+PrfPrc+Nom: kirjoitettu
-     kirjoittaat+V+Act+PrfPrc+Pl+Nom: kirjoittanheet
-     kirjoittaat+V+Act+PrsPrc+Sg+Nom: kirjoittaava
-     kirjoittaat+V+Act+PrsPrc+Pl+Nom: kirjoittaavat
-     kirjoittaat+V+Pass+PrsPrc+Sg+Nom: kirjoitettava
-     kirjoittaat+V+Pass+PrsPrc+Pl+Nom: kirjoitettavat
-     
-     kirjoittaat+V+Act+Cond+Sg1: kirjoittaisin
-     kirjoittaat+V+Act+Cond+Sg2: kirjoittaisit
-     kirjoittaat+V+Act+Cond+Sg3: kirjoittais
-     kirjoittaat+V+Act+Cond+Pl1: kirjoittaisima
-     kirjoittaat+V+Act+Cond+Pl2: kirjoittaisitta
-     kirjoittaat+V+Act+Cond+Pl3: kirjoitettais
-     kirjoittaat+V+Pass+Cond: kirjoitettais
-  
-     kirjoittaat+V+Act+Imprt+Sg2: kirjoita
-     kirjoittaat+V+Act+Imprt+Pl2: kirjoittakkaa
-     
-     kirjoittaat+V+Act+Inf3+Ine: kirjoittamassa
-     kirjoittaat+V+Act+Inf3+Ela: kirjoittamasta
-     kirjoittaat+V+Act+Inf3+Ill: kirjoittamhaan
-     kirjoittaat+V+Act+Inf3+Ade: kirjoittamala
-     kirjoittaat+V+Act+Inf3+Abe: kirjoittamatta
+     kirjoittaat+V+Inf: [kirjoittaat, kirjottaat]
+     kirjoittaat+V+Act+Ind+Prs+Sg1: [kirjoitan, kirjotan]
+     kirjoittaat+V+Act+Ind+Prs+Sg2: [kirjoitat, kirjotat]
+     kirjoittaat+V+Act+Ind+Prs+Sg3: [kirjoittaa, kirjottaa]
+     kirjoittaat+V+Act+Ind+Prs+Pl1: [kirjoitamma, kirjotamma]
+     kirjoittaat+V+Act+Ind+Prs+Pl2: [kirjoitatta, kirjotatta]
+     kirjoittaat+V+Act+Ind+Prs+Pl3: [kirjoitethaan, kirjotethaan]
+     kirjoittaat+V+Act+Ind+Prt+Sg1: [kirjoitin, kirjotin]
+     kirjoittaat+V+Act+Ind+Prt+Sg2: [kirjoitit, kirjotit]
+     kirjoittaat+V+Act+Ind+Prt+Sg3: [kirjoitti, kirjotti]
+     kirjoittaat+V+Act+Ind+Prt+Pl1: [kirjoitimma, kirjotimma]
+     kirjoittaat+V+Act+Ind+Prt+Pl2: [kirjoititta, kirjotitta]
+     kirjoittaat+V+Act+Ind+Prt+Pl3: [kirjoitethiin, kirjotethiin]
+     kirjoittaat+V+Act+PrfPrc+Sg+Nom: [kirjoittannu, kirjottannu]
+     kirjoittaat+V+Pass+PrfPrc+Nom: [kirjoitettu, kirjotettu]
+     kirjoittaat+V+Act+PrfPrc+Pl+Nom: [kirjoittanheet, kirjottanheet]
+     kirjoittaat+V+Act+PrsPrc+Sg+Nom: [kirjoittaava, kirjottaava]
+     kirjoittaat+V+Act+PrsPrc+Pl+Nom: [kirjoittaavat, kirjottaavat]
+     kirjoittaat+V+Pass+PrsPrc+Sg+Nom: [kirjoitettava, kirjotettava]
+     kirjoittaat+V+Pass+PrsPrc+Pl+Nom: [kirjoitettavat, kirjotettavat]
+
+     kirjoittaat+V+Act+Cond+Sg1: [kirjoittaisin, kirjottaisin]
+     kirjoittaat+V+Act+Cond+Sg2: [kirjoittaisit, kirjottaisit]
+     kirjoittaat+V+Act+Cond+Sg3: [kirjoittais, kirjottais]
+     kirjoittaat+V+Act+Cond+Pl1: [kirjoittaisima, kirjottaisima]
+     kirjoittaat+V+Act+Cond+Pl2: [kirjoittaisitta, kirjottaisitta]
+     kirjoittaat+V+Act+Cond+Pl3: [kirjoitettais, kirjotettais]
+     kirjoittaat+V+Pass+Cond: [kirjoitettais, kirjotettais]
+
+     kirjoittaat+V+Act+Imprt+Sg2: [kirjoita, kirjota]
+     kirjoittaat+V+Act+Imprt+Pl2: [kirjoittakkaa, kirjottakkaa]
+
+     kirjoittaat+V+Act+Inf3+Ine: [kirjoittamassa, kirjottamassa]
+     kirjoittaat+V+Act+Inf3+Ela: [kirjoittamasta, kirjottamasta]
+     kirjoittaat+V+Act+Inf3+Ill: [kirjoittamhaan, kirjottamhaan]
+     kirjoittaat+V+Act+Inf3+Ade: [kirjoittamala, kirjottamala]
+     kirjoittaat+V+Act+Inf3+Abe: [kirjoittamatta, kirjottamatta] 
