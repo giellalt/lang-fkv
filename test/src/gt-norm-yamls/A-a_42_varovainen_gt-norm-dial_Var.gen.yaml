@@ -16,30 +16,31 @@ Tests:
 # Comparative and superlative missing
 
   Noun - nainen - ei tsekattu : # Noun 'careful' - ei tsekattu
-     varovainen+A+Sg+Nom: [varovanen, varovainen]
-     varovainen+A+Sg+Gen: [varovasen, varovaisen]
-     varovainen+A+Sg+Par: [varovasta, varovaista]
-     varovainen+A+Sg+Tra: [varovaseksi, varovaiseksi]
-     varovainen+A+Sg+Abe: [varovasetta, varovaisetta]
-     varovainen+A+Sg+Ine: [varovasessa, varovaisessa]
-     varovainen+A+Sg+Ela: [varovasesta, varovaisesta]
-     varovainen+A+Sg+Ill: [varovasheen, varovaisheek]
-     varovainen+A+Sg+Ade: [varovasela, varovaisela]
-     varovainen+A+Sg+Abl: [varovaselta, varovaiselta]
-     varovainen+A+Sg+All: [varovasele, varovaisele]
-     varovainen+A+Sg+Ess: [varovasena, varovaisena]
-     varovainen+A+Pl+Nom: [varovaset, varovaiset]
-     varovainen+A+Pl+Gen: [varovasten, varovaisten] # -ten sanoille, jotka loppuvat -nen ja myös veres-sanaryhmälle. Muille sanaryhmille on -tten; paitsi Por ja Rai varieteetissä. Var varieteetti voi myös saada -ien.
-     varovainen+A+Pl+Par: [varovasia, varovaisia]
-     varovainen+A+Pl+Tra: [varovasiksi, varovaisiksi]
-     varovainen+A+Pl+Abe: [varovasitta, varovaisitta]
-     varovainen+A+Pl+Ine: [varovaisissa, varovaisissa]
-     varovainen+A+Pl+Ela: [varovaisista, varovaisista]
-     varovainen+A+Pl+Ill: [varovashiin, varovaishiin]
-     varovainen+A+Pl+Ade: [varovasila, varovaisila]
-     varovainen+A+Pl+Abl: [varovasilta, varovaisilta]
-     varovainen+A+Pl+All: [varovasile, varovaisile]
-     varovainen+A+Pl+Ess: [varovasina, varovaisina]
-     varovainen+A+Pl+Com: [varovasine, varovaisine] 
+     varovainen+A+Sg+Nom: varovainen
+     varovainen+A+Sg+Gen: varovaisen
+     varovainen+A+Sg+Par: varovaista
+     varovainen+A+Sg+Tra: varovaiseksi
+     varovainen+A+Sg+Abe: varovaisetta
+     varovainen+A+Sg+Ine: varovaisessa
+     varovainen+A+Sg+Ela: varovaisesta
+     varovainen+A+Sg+Ill: varovaisheen
+     varovainen+A+Sg+Ade: varovaisela
+     varovainen+A+Sg+Abl: varovaiselta
+     varovainen+A+Sg+All: varovaisele
+     varovainen+A+Sg+Ess: varovaisena
+     varovainen+A+Pl+Nom: varovaiset
+     varovainen+A+Pl+Gen: varovaisten # -ten sanoille, jotka loppuvat -nen ja myös veres-sanaryhmälle. Muille sanaryhmille on -tten; paitsi Por ja Rai varieteetissä. Var varieteetti voi myös saada -ien.
+     varovainen+A+Pl+Par: varovaisia
+     varovainen+A+Pl+Tra: varovaisiksi
+     varovainen+A+Pl+Abe: varovaisitta
+     varovainen+A+Pl+Ine: varovaisissa
+     varovainen+A+Pl+Ela: varovaisista
+     varovainen+A+Pl+Ill: varovaishiin
+     varovainen+A+Pl+Ade: varovaisila
+     varovainen+A+Pl+Abl: varovaisilta
+     varovainen+A+Pl+All: varovaisile
+     varovainen+A+Pl+Ess: varovaisina
+     varovainen+A+Pl+Com: varovaisine
 
-     # On vain Por varieteetissä, jossa on kaksi s:ää, jos sen perässä on kaksi vokaalia.
+# On vain Por varieteetissä, jossa on kaksi s:ää, jos sen perässä on kaksi vokaalia.
+# Mualla kuin toisessa tavussa -i johdos on aina mukana (Söderholm 2014: 85). 
