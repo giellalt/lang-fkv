@@ -29,14 +29,14 @@ täysi:täyte a_12_si ;
 
 !! Usheempitavuiset lyhykäisvokaaliset rangat
 ! vanha_a_22 -> a_21
-liberaali:liberaali a_21 ; !!= * @CODE@ XXX check whether pl = liberaaliksi or liberaaliksi
+liberaali:liberaali a_21 ;
 simppeli a_21_odd ;
 
 !! Usheempitavuiset (Konsonanttirankaiset?)
 ! vanha_a_32 -> a_22
 tyven:tyven a_22 ; !!= * @CODE@
 tinatyven:tina#tyven a_22 ;
-vasen:vase vanha_a_32ma ; !!= * @CODE@ ! TODO _32ma?
+vasen:vase a_22_ma ; !!= * @CODE@
 
 !! Usheempitavuiset (Ekstrakonsonanttirankaiset?)
 ! vanha_a_41 -> a_22_excns
@@ -68,9 +68,9 @@ muuttumaton:muuttuma a_22_ton ;
 valkkee:valkke a_31_JOTAIN ; !!= * @CODE@
 selkkee:selkke a_31_JOTAIN ;
 kauhhee:kauhe a_31_JOTAIN ;
-auttii:autt2ii a_31_JOTAIN_ii ; !!= * @CODE@
 karkkee:karkke a_31_JOTAIN ; ! TODO TODO TODO check these, valkkee etc. confusion
 makkee:makke a_31_JOTAIN ; ! TODO TODO TODO check these, valkkee etc. confusion
+auttii:autt2ii a_31_JOTAIN_ii ; !!= * @CODE@
 
 !! Pitkävokaaliset Konsonanttirankaiset (Kokoontuma?)
 ! vanha_a_33 -> a_32_
@@ -79,10 +79,16 @@ tyyris:tyyr a_32_is ; ! a_32_is
 voimakas:voimakk a_32_as ; ! a_32_as
 tuoret:tuor a_32_et ; ! vanha_a_33t -> a_32_et
 tervet:terv a_32_et ; ! vanha_a_33t -> a_32_et
-vaipunu:vaipun vanha_a_33u ; ! vanha_33->32 ! TODO Sublexica not moved in nouns either to non vanha_
-väsyny:väsyn vanha_a_33y ; ! vanha_33->32 ! TODO Sublexica also probably not moved in nouns either to non vanha_
+vaipunu:vaipun a_32_u ; ! vanha_33-> a_32_u
+väsyny:väsyn vanha_a_33y ; ! This is the only word ! TODO Shoud 33y be deleted?
+
+kärys:kär vanha_a_33ys ; ! This is the only word TODO Should 33ys be deleted?
 
 
+
+! Do these exist as their own sublexica? Or should they be classified somewhere else
+vähäinen:vähäise vanha_a_32m ;
+irtain:irt2ai vanha_a_32m ;
 
 
 paha a_11 ;
@@ -523,10 +529,10 @@ tietämätön:tietämä a_22_ton ;
 välttämätön:välttämä a_22_ton ;
 taipumaton:taipuma a_22_ton ;
 ! ehy, ohu, lyhy?
-hapan:happa vanha_a_32ma ;
-vasen:vase vanha_a_32ma ;
-parhain:parhai vanha_a_32ma ;
-lämmin:lämpi vanha_a_32ma ;
+hapan:happa a_22_ma ;
+vasen:vase a_22_ma ;
+parhain:parhai a_22_ma ;
+lämmin:lämpi a_22_ma ;
 seuraava:seuraa a_21_odd ;
 harmaaja a_21_odd ;
 engelska a_21_odd ;
@@ -877,8 +883,6 @@ mitätön:mitä a_22_ton_odd ;
 ruottii:ruott2ii a_31_JOTAIN_ii ;
 auttii:autt2ii a_31_JOTAIN_ii ;
 tosi:tote a_12_si ;
-vähäinen:vähäise vanha_a_32m ;
-irtain:irt2ai vanha_a_32m ;
 pahas:pah a_32_as ;
 puhelias:puheli a_32_as ;
 laupias:laupi a_32_as ;
@@ -933,16 +937,15 @@ valmis:valm a_32_is ;
 kaunis:kaun a_32_is ;
 raitis:raitt a_32_is ;
 tivis:tiv a_32_is ;
-kärys:kär vanha_a_33ys ; ! TODO Should 33ys be deleted?
 ahnet:ahn a_32_et ;
 tiinet:tiin a_32_et ;
-kuolu:kuol vanha_a_33u ;
-kokenu:koken vanha_a_33u ;
-nainu:nain vanha_a_33u ;
-oppinu:oppin vanha_a_33u ;
-ravistunnu:ravistunn vanha_a_33u ;
-hermostunnu:hermostunn vanha_a_33u ;
-suuttunu:suuttun vanha_a_33u ;
+kuolu:kuol a_32_u ;
+kokenu:koken a_32_u ;
+nainu:nain a_32_u ;
+oppinu:oppin a_32_u ;
+ravistunnu:ravistunn a_32_u ;
+hermostunnu:hermostunn a_32_u ;
+suuttunu:suuttun a_32_u ;
 aijankohthainen:aijankohthai a_22_inen_odd ;
 ajattelematon:ajattelema a_22_ton ;
 briittiläinen:briittiläi a_22_inen ;
