@@ -36,7 +36,8 @@ LEXICON NounRoot !!= @CODE@
     !! ** 3.2 Usseempitavuiset ( tytär )
     !! *** 3.2.1 ( tytär, taival, paimen )                   		  = n_22           ! vanha_n_32
     !! *** 3.2.2 ( elläin: elläimen)                		          = n_22_m         ! vanha_n_32m
-      ! TODO add vanha_n_32m_pl
+    !! ***       ( vanhimet:vanhi )                		            = n_22_m_pl      ! vanha_n_32m_pl
+
     !! ** 4.3  ton-adjektiivit (onneton:onne) (vain Adj)          = a_22_ton      -! vanha_a_43odd
       ! TODO Check is, esp. in Adjectives!!
       ! TODO Also check vanha_a_43 muuttumaton in adjectives. Look up in grammar
@@ -64,8 +65,8 @@ LEXICON NounRoot !!= @CODE@
     !! ** 3.3.4 (huonet, hyljet, perkele)                         = n_32_et        ! vanha_n_33t
     !! ** 3.3.5 (kirves)                                          = n_32_ts        ! vanha_n_33ts
         ! TODO vain kaksi sanaa? Vain kirves ja keläs. Hmm
-!   ! kuolu:kuol                                                  = n_33_u ?      -! vanha_a_33u ?
-!       ! TODO onko tämä edes olemassa enään? Mikä luokitus on kuolu?
+!   ! kuolu:kuol                                                  = n_32_u       -! vanha_a_33u ?
+!       ! TODO onko tämä edes olemassa enään? Mikä luokitus on kuolu? Not nouns, only in adj it seems
 
 
 
