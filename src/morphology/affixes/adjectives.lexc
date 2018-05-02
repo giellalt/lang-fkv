@@ -18,7 +18,7 @@ LEXICON HYVA
 +A                :hyvä x_11 ; ! hyvvää, hyvät
 +A                :pare comp_m_odd  ;
 +A+Sg+Superl      :paras nom_end ;
-! TODO the rest of paras to be written.
+! TODO TODO TODO the rest of paras to be written.
 
 !+A+Sg+Superl+D_Por+Nom:paras K ;
 ! +A+Sg+Super+!Por+Nom:paras K ;
@@ -166,7 +166,7 @@ LEXICON vanha_a_32m !!= * @CODE@ irtain
 +A                :me comp_mm   ;
 +A                :mi superl_mm ;
 
-LEXICON vanha_a_32ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
+LEXICON a_22_ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 
 +A+Sg             :^WG        nom_n              ; ! +Nom:^WGn
 +A+Sg             :m^A        gen_n          ;
@@ -241,7 +241,7 @@ LEXICON a_32_et !!= * @CODE@ tuoret
 +A                :hei superl_m_odd ;
 ! comp, superl, puuttuvat
 
-LEXICON vanha_a_33u !!= * @CODE@ vaipunu:vaipun ! perfect participle
+LEXICON a_32_u !!= * @CODE@ vaipunu:vaipun ! perfect participle
 +A+Sg             : nom_u   ;
 +A                : PRFPRC_OBL  ;
 !+A+Sg+Par:u%>tt^A K ;
@@ -284,7 +284,7 @@ LEXICON a_22_inen_odd !!= * @CODE@ sininen
 +A+Sg+Superl+Dial/Por:ssi%>in par_tA ;
 
 
-LEXICON MATON !!= @CODE@ ! TODO ajattelemattomalle lle lla nna
+LEXICON MATON !!= @CODE@ ! TODO TODO TODO ajattelemattomalle lle lla nna
                   : a_22_ton ;
 
 
@@ -297,7 +297,7 @@ LEXICON a_22_ton !!= * @CODE@ muuttumaton
 +A+Sg             :%>tt^Om^A      sgpl_cases_odd ;
 
 +A+Pl             :%>tt^Om^A      nom_t          ;
-!+A+Pl+Dial/Por:%>tt^Om%>i2    gen_Vn         ; ! really Vn? TODO check if works now that it's commented out
+!+A+Pl+Dial/Por:%>tt^Om%>i2    gen_Vn         ; ! really Vn?
 +A+Pl             :%>tt^Om        gen_mii/mitten_miin ;
 +A+Pl             :%>tt^Om        par_ii_group   ;
 +A+Pl             :%>tt^Om        ill_hiin       ; ! +Ill:%>tt^Omh%>i2in K
