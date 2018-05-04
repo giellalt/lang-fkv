@@ -6,7 +6,6 @@ LEXICON AdjectiveRoot
 
 
 
-
 !! TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 
 !! Kaksitavuiset lyhykäisvokaaliset rangat
@@ -14,7 +13,7 @@ LEXICON AdjectiveRoot
 laiha a_11 ; !!= * @CODE@
 turha a_11 ;
 hieno a_11 ; !!= * @CODE@ needs own adj lex tag
-siisti a_11_i ; ! TODO TODO TODO remember to _21 classification for adj too. So far this is the only one
+siisti a_11_i ; ! TODO TODO TODO remember to do the _21 classification for adj too. So far done only this one
 
 !  Kaksitavuiset (Konsonanttirankaiset?)
 ! vanha_a_31 -> a_12
@@ -50,15 +49,14 @@ sininen:sini a_22_inen_odd ; !!= * @CODE@
 vestainen:vestai a_22_inen_odd ; !!= * @CODE@
 konkreettinen:konkreetti a_22_inen_odd ; !!= * @CODE@
 
-!! (Usheempitavuiset) -ton-adjektiivit
+!! (Usheempitavuiset) -ton-adjektiivit, Pariton määrä tavuja
 ! vanha_a_43odd -> a_22_ton
-onneton:onne a_22_ton_odd ;
-! TODO Double heck this chapt. numbers
+onneton:onne a_22_ton_odd ; ! TODO Double check the 2.2 chapter number in Eira's Grammar
 
-!! ** 4.3  ton-adjektiivit (onneton:onne) (vain Adj)          = a_22_ton      -! vanha_a_43odd
-! vanha_a_43odd -> a_22_ton
-muuttumaton:muuttuma a_22_ton ;
-! TODO TODO TODO Look through this, and add to maps in nouns and Adjectives
+!! (Usheempitavuiset) -ton-adjektiivit, Parillinen määrä tavuja
+! vanha_a_43 -> a_22_ton
+muuttumaton:muuttuma a_22_ton_even ; ! TODO Double check the 2.2 chapter number in Eira's Grammar
+
 
 
 !! TYYPPI 3: Pitkävokaaliset rangat
@@ -80,15 +78,13 @@ voimakas:voimakk a_32_as ; ! a_32_as
 tuoret:tuor a_32_et ; ! vanha_a_33t -> a_32_et
 tervet:terv a_32_et ; ! vanha_a_33t -> a_32_et
 vaipunu:vaipun a_32_u ; ! vanha_33-> a_32_u
-väsyny:väsyn vanha_a_33y ; ! This is the only word ! TODO Shoud 33y be deleted?
-
-kärys:kär vanha_a_33ys ; ! This is the only word TODO Should 33ys be deleted?
-
-
+väsyny:väsyn a_32_väsynyt ;
+kärys:kär a_32_kärys ;
 
 ! Do these exist as their own sublexica? Or should they be classified somewhere else
 vähäinen:vähäise vanha_a_32m ;
 irtain:irt2ai vanha_a_32m ;
+
 
 
 paha a_11 ;
@@ -96,8 +92,8 @@ laiha a_11 ;
 lauha a_11 ;
 laaja a_11 ;
 taaja a_11 ;
-hurja:hurja a_11 ;
-kurja:kurja a_11 ;
+hurja a_11 ;
+kurja a_11 ;
 luja a_11 ;
 raaka a_11 ;
 liika a_11 ;
@@ -249,7 +245,8 @@ selvä a_11 ;
 epäselvä a_11 ;
 jyrkkä a_11 ;
 koutu a_11 ;
-hyvä: HYVA ;
+hyvä: HYVA ; ! paras on täällä
+paras+A+Sg+Nom:paras nom_end ; ! koko taivutus löytyy hyvä HYVA subleksikosta
 syvä a_11 ;
 pystö a_11 ;
 silko a_11 ;
@@ -506,28 +503,28 @@ kiinttee:kiintte a_31_JOTAIN ;
 hirvee:hirve a_31_JOTAIN ;
 kevvee:kevve a_31_JOTAIN ;
 levvee:levve a_31_JOTAIN ;
-jumalaton:jumala a_22_ton ;
-vallaton:valla a_22_ton ;
-mittaamaton:mittaama a_22_ton ;
-maksamaton:maksama a_22_ton ;
-perhäänantamaton:perhäänantama a_22_ton ;
-paistamaton:paistama a_22_ton ;
-luottamaton:luottama a_22_ton ;
-vaihettelematon:vaihettelema a_22_ton ;
-valettelematon:valettelema a_22_ton ;
-olematon:olema a_22_ton ;
-tuntematon:tuntema a_22_ton ;
-huolimaton:huolima a_22_ton ;
-oppimaton:oppima a_22_ton ;
-vaatimaton:vaatima a_22_ton ;
-uskomaton:uskoma a_22_ton ;
-liikkumaton:liikkuma a_22_ton ;
-loppumaton:loppuma a_22_ton ;
-kärsimätön:kärsimä a_22_ton ;
-näkymätön:näkymä a_22_ton ;
-tietämätön:tietämä a_22_ton ;
-välttämätön:välttämä a_22_ton ;
-taipumaton:taipuma a_22_ton ;
+jumalaton:jumala a_22_ton_even ;
+vallaton:valla a_22_ton_even ;
+mittaamaton:mittaama a_22_ton_even ;
+maksamaton:maksama a_22_ton_even ;
+perhäänantamaton:perhäänantama a_22_ton_even ;
+paistamaton:paistama a_22_ton_even ;
+luottamaton:luottama a_22_ton_even ;
+vaihettelematon:vaihettelema a_22_ton_even ;
+valettelematon:valettelema a_22_ton_even ;
+olematon:olema a_22_ton_even ;
+tuntematon:tuntema a_22_ton_even ;
+huolimaton:huolima a_22_ton_even ;
+oppimaton:oppima a_22_ton_even ;
+vaatimaton:vaatima a_22_ton_even ;
+uskomaton:uskoma a_22_ton_even ;
+liikkumaton:liikkuma a_22_ton_even ;
+loppumaton:loppuma a_22_ton_even ;
+kärsimätön:kärsimä a_22_ton_even ;
+näkymätön:näkymä a_22_ton_even ;
+tietämätön:tietämä a_22_ton_even ;
+välttämätön:välttämä a_22_ton_even ;
+taipumaton:taipuma a_22_ton_even ;
 ! ehy, ohu, lyhy?
 hapan:happa a_22_ma ;
 vasen:vase a_22_ma ;
@@ -905,7 +902,6 @@ arvokas:arvokk a_32_as ;
 kirkas:kirkk a_32_as ;
 autuas:autu a_32_as ;
 liukas:liukk a_32_as ;
-raskas:rask a_32_as ;
 raskas:rask a_32_as ; !sk ei vaihtelussa!
 hurskas:hursk a_32_as ;
 vanhurskas:vanhursk a_32_as ;
@@ -918,7 +914,6 @@ vieras:vier a_32_as ;
 ventovieras:ventovier a_32_as ;
 sairas:sair a_32_as ;
 puhelias a_32_as ;
-! paras a_32_as ; TODO think where to put this.
 viisas:viis a_32_as ;
 itteviisas:itteviis a_32_as ;
 runsas:runs a_32_as ;
@@ -947,7 +942,7 @@ ravistunnu:ravistunn a_32_u ;
 hermostunnu:hermostunn a_32_u ;
 suuttunu:suuttun a_32_u ;
 aijankohthainen:aijankohthai a_22_inen_odd ;
-ajattelematon:ajattelema a_22_ton ;
+ajattelematon:ajattelema a_22_ton_even ;
 briittiläinen:briittiläi a_22_inen ;
 elektrinen:elektri a_22_inen ;
 geneerinen:geneeri a_22_inen ;
@@ -967,7 +962,6 @@ ehyt a_x ; ! :eh
 ohut a_x ; ! :oh
 lyhyt a_x ; ! :lyh
 kolmas a_x ;
-paras a_x ;
 kahđekses a_x ;
 viiđes a_x ;
 tuhat a_x ;
