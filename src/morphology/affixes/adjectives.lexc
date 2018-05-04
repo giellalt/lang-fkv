@@ -14,21 +14,12 @@ LEXICON a_x  != * @CODE@ contains unclassified adjectives.
 !LEXICON ax  !!= * @CODE@ contains unclassified adjectives.
 !+A: K ;
 
-LEXICON HYVA
+LEXICON HYVA ! TODO add hyvä tests in yamls
 +A                :hyvä x_11 ; ! hyvvää, hyvät
-+A                :pare comp_m_odd  ;
-+A+Sg+Superl      :paras nom_end ;
-! TODO TODO TODO the rest of paras to be written.
++A                :pare comp_m_odd ;
++A                :parhai superl_m_odd ;
 
-!+A+Sg+Superl+D_Por+Nom:paras K ;
-! +A+Sg+Super+!Por+Nom:paras K ;
-!   +Sg+Compar+!Por+Nom:paras K ;
-
-! +A+Sg+Super+DPor+Nom:paras K ;
-! +A                  :paras K ;
-!            +!Por+Nom:paras K ;
-
-LEXICON VANH
+LEXICON VANH ! TODO TODO TODO Check vanha
 +A+Sg             :a nom_end ;
 +A                :  x_31_pl ; ! ai to oi doesn't work yet
 ! yksiköt ovat nämä, vanha_x_1 -sestä otettu:
@@ -213,13 +204,13 @@ LEXICON a_32_is !!= * @CODE@ valmis, kaunis
 
 ! comp, superl, puuttuvat
 
-LEXICON vanha_a_33ys !!= * @CODE@ kärys
-+A                :    vanha_x_33ys;
+LEXICON a_32_kärys !!= * @CODE@ kärys, so far this is the only word
++A                :    x_32_kärys ;
 +A                :hyy comp_m_odd   ;
 +A                :hyi superl_m_odd ;
 
 
-LEXICON vanha_x_33ys ! TODO DELETE THIS PROBABLy! ONLY ONE WORD, kärys, IS IN IT
+LEXICON x_32_kärys
   +Sg+Nom:%>y^WG%>s    K                 ;
   +Sg             :h%>yy        gen_n_sg          ;
   +Sg             :%>y^WG%>s    par_tA            ;
@@ -250,9 +241,9 @@ LEXICON a_32_u !!= * @CODE@ vaipunu:vaipun ! perfect participle
 !+A+Pl+Gen:hee%>i2 gen_tten     ;
 !+A+Pl:hee%>i2  com_ne;
 
-LEXICON vanha_a_33y !!= * @CODE@ väsyny:väsyn ! perfect participle
-+A+Sg             : nom_y   ;
-+A                : PRFPRC_OBL  ;
+LEXICON a_32_väsynyt !!= * @CODE@ väsyny:väsyn, so far this is the only word ! perfect participle
++A+Sg             : nom_y ;
++A                : PRFPRC_OBL ;
 
 LEXICON a_22_excns !!= * @CODE@ = veres
 +A                :    x_22_excns   ;
@@ -285,10 +276,10 @@ LEXICON a_22_inen_odd !!= * @CODE@ sininen
 
 
 LEXICON MATON !!= @CODE@ ! TODO TODO TODO ajattelemattomalle lle lla nna
-                  : a_22_ton ;
+                  : a_22_ton_even ;
 
 
-LEXICON a_22_ton !!= * @CODE@ muuttumaton
+LEXICON a_22_ton_even !!= * @CODE@ muuttumaton
 +A+Sg             :%>t^O          nom_n          ; ! used2be without > before n
 +A+Sg             :%>tt^Om^A      gen_n_sg       ;
 +A+Sg             :%>t^On         par_tA         ;
@@ -325,7 +316,7 @@ LEXICON a_22_ton !!= * @CODE@ muuttumaton
 
 
 LEXICON a_22_ton_odd !!= * @CODE@ onneton
-+A                : x_22_ton ; ! TODO TODO TODO odd? Or even, or what?
++A                : x_22_ton ;
 +A                :%>tt^Om^A comp_onneton ;
 +A                :%>tt^Ommi5i superl_onneton ;
 +A+Dial/Var       :%>tt^Ommi5 superl_onneton ;
