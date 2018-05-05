@@ -87,6 +87,10 @@ irtain:irt2ai vanha_a_32m ;
 
 
 
+
+hyvä: HYVA ; ! paras on täällä
+paras+A+Sg+Nom:paras nom_end ; ! taivutus on hyvä: HYVA ; subleksikosta
+vanhaa:vanh VANHAA ; ! formerly vanha_a_23, wrong
 paha a_11 ;
 laiha a_11 ;
 lauha a_11 ;
@@ -115,7 +119,7 @@ sula a_11 ;
 lama a_11 ;
 kumma a_11 ;
 tumma a_11 ;
-oma vanha_nocomp_a_21 ;
+oma vanha_nocomp_a_21 ; ! TODO how does this work?
 soma a_11 ;
 varma a_11 ;
 epävarma a_11 ;
@@ -245,8 +249,6 @@ selvä a_11 ;
 epäselvä a_11 ;
 jyrkkä a_11 ;
 koutu a_11 ;
-hyvä: HYVA ; ! paras on täällä
-paras+A+Sg+Nom:paras nom_end ; ! koko taivutus löytyy hyvä HYVA subleksikosta
 syvä a_11 ;
 pystö a_11 ;
 silko a_11 ;
@@ -956,7 +958,6 @@ härski a_11 ;
 hoppeeharmaaja a_21_odd ;
 hengestynny:hengestyn a_x ; ! vanha_a_33u ei toimi y-päätteisillä
 hengistynny:hengistyn a_x ; ! vanha_a_33u ei toimi y-päätteisillä
-vanhaa:vanha VANH ; ! formerly vanha_a_23, wrong
 vapaa a_x ; ! formerly vanha_a_23, wrong
 ehyt a_x ; ! :eh
 ohut a_x ; ! :oh

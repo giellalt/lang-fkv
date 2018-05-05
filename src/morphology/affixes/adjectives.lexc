@@ -14,14 +14,17 @@ LEXICON a_x  != * @CODE@ contains unclassified adjectives.
 !LEXICON ax  !!= * @CODE@ contains unclassified adjectives.
 !+A: K ;
 
-LEXICON HYVA ! TODO add hyvä tests in yamls
+LEXICON HYVA
 +A                :hyvä x_11 ; ! hyvvää, hyvät
 +A                :pare comp_m_odd ;
 +A                :parhai superl_m_odd ;
 
-LEXICON VANH ! TODO TODO TODO Check vanha
-+A+Sg             :a nom_end ;
-+A                :  x_31_pl ; ! ai to oi doesn't work yet
+LEXICON VANHAA ! still TODO fix up vanha yaml
++A+Sg             :aa nom_end ;
++A                :a^AO x_31 ; ! ai to oi doesn't work yet
++A                :e comp_m_odd ;
++A                :i5 superl_m_odd ;
+
 ! yksiköt ovat nämä, vanha_x_1 -sestä otettu:
 !      +A+Sg+Nom:a              K               ;
 !          +A+Sg:               sgpl_cases_even ; !! these two lexica for cases with
