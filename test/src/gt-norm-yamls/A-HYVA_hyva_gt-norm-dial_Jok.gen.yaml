@@ -1,0 +1,99 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct.
+
+
+  Noun - pappi - ei tsekattu : # Noun 'clean' - ei tsekattu
+     hyvä+A+Sg+Nom: hyvä
+     hyvä+A+Sg+Gen: hyvän
+     hyvä+A+Sg+Par: hyvvää
+     hyvä+A+Sg+Tra: hyväksi
+     hyvä+A+Sg+Abe: hyvättä
+     hyvä+A+Sg+Ine: hyvässä
+     hyvä+A+Sg+Ela: hyvästä
+     hyvä+A+Sg+Ill: hyvhään
+     hyvä+A+Sg+Ade: hyvälä
+     hyvä+A+Sg+Abl: hyvältä
+     hyvä+A+Sg+All: [hyväle, hyvälet]
+     hyvä+A+Sg+Ess: hyvänä
+
+     hyvä+A+Pl+Nom: hyvät
+     hyvä+A+Pl+Gen: hyvitten
+     hyvä+A+Pl+Par: hyviä
+     hyvä+A+Pl+Tra: hyviksi
+#     hyvä+A+Pl+Abe: hyvittä
+     hyvä+A+Pl+Ine: hyvissä
+     hyvä+A+Pl+Ela: hyvistä
+     hyvä+A+Pl+Ill: hyvhäin
+     hyvä+A+Pl+Ade: hyvilä
+     hyvä+A+Pl+Abl: hyviltä
+     hyvä+A+Pl+All: [hyvile, hyvilet]
+     hyvä+A+Pl+Ess: hyvinä
+     hyvä+A+Pl+Com: hyvine
+
+# Por varieteeteissa vartaloloppuinen -i säilyy monikossa. Se ei tapahdu muissa kveenimurteissa.
+
+     hyvä+A+Sg+Compar+Nom: parempi
+     hyvä+A+Sg+Compar+Gen: pareman
+     hyvä+A+Sg+Compar+Par: parempaa
+     hyvä+A+Sg+Compar+Tra: paremaksi
+     hyvä+A+Sg+Compar+Abe: parematta
+     hyvä+A+Sg+Compar+Ine: paremassa
+     hyvä+A+Sg+Compar+Ela: paremasta
+     hyvä+A+Sg+Compar+Ill: paremphaan
+     hyvä+A+Sg+Compar+Ade: paremalla
+     hyvä+A+Sg+Compar+Abl: paremalta
+     hyvä+A+Sg+Compar+All: [paremalle, paremallet]
+     hyvä+A+Sg+Compar+Ess: parempanna
+
+     hyvä+A+Pl+Compar+Nom: paremat
+     hyvä+A+Pl+Compar+Gen: paremitten
+     hyvä+A+Pl+Compar+Par: parempia
+     hyvä+A+Pl+Compar+Tra: paremiksi
+     hyvä+A+Pl+Compar+Abe: paremitta
+     hyvä+A+Pl+Compar+Ine: paremissa
+     hyvä+A+Pl+Compar+Ela: paremista
+     hyvä+A+Pl+Compar+Ill: paremphiin
+     hyvä+A+Pl+Compar+Ade: paremilla
+     hyvä+A+Pl+Compar+Abl: paremilta
+     hyvä+A+Pl+Compar+All: [paremille, paremillet]
+     hyvä+A+Pl+Compar+Ess: parempinna
+     hyvä+A+Pl+Compar+Com: parempinne
+
+     hyvä+A+Sg+Superl+Nom: parhain
+     hyvä+A+Sg+Superl+Gen: parhaiman
+     hyvä+A+Sg+Superl+Par: parhainta
+     hyvä+A+Sg+Superl+Tra: parhaimaksi
+     hyvä+A+Sg+Superl+Abe: parhaimatta
+     hyvä+A+Sg+Superl+Ine: parhaimassa
+     hyvä+A+Sg+Superl+Ela: parhaimasta
+     hyvä+A+Sg+Superl+Ill: parhaimphaan
+     hyvä+A+Sg+Superl+Ade: parhaimalla
+     hyvä+A+Sg+Superl+Abl: parhaimalta
+     hyvä+A+Sg+Superl+All: [parhaimalle, parhaimallet]
+     hyvä+A+Sg+Superl+Ess: parhaimpanna
+
+     hyvä+A+Pl+Superl+Nom: parhaimat
+     hyvä+A+Pl+Superl+Gen: parhaimitten
+     hyvä+A+Pl+Superl+Par: parhaimpia
+     hyvä+A+Pl+Superl+Tra: parhaimiksi
+     hyvä+A+Pl+Superl+Abe: parhaimitta
+     hyvä+A+Pl+Superl+Ine: parhaimissa
+     hyvä+A+Pl+Superl+Ela: parhaimista
+     hyvä+A+Pl+Superl+Ill: parhaimphiin
+     hyvä+A+Pl+Superl+Ade: parhaimilla
+     hyvä+A+Pl+Superl+Abl: parhaimilta
+     hyvä+A+Pl+Superl+All: [parhaimille, parhaimillet]
+     hyvä+A+Pl+Superl+Ess: parhaimpinna
+     hyvä+A+Pl+Superl+Com: parhaimpinne
