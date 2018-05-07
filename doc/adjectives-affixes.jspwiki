@@ -10,7 +10,6 @@ a common x_ lexicon in the noun file, while compar and superl are here.
 
 
 
-
                             long_par        ;
 
 
@@ -19,96 +18,96 @@ a common x_ lexicon in the noun file, while compar and superl are here.
 
  * LEXICON vanha_nocomp_a_21  
 
- * LEXICON vanha_a_21i   siisti
+ * LEXICON a_11_i   siisti
 
 
 
 
- * LEXICON vanha_a_21   siisti
+ * LEXICON a_11   siisti
 
 
 
 
 
 
- * LEXICON vanha_a_22	  liberaali
+ * LEXICON a_21	  liberaali
 
- * LEXICON vanha_a_22odd	  simppeli, loistaava
+ * LEXICON a_21_odd	  simppeli, loistaava
 
- * LEXICON vanha_a_23	  pimmee, valkkee, kauhhee, hoppee ! TODO sort out as adjectives
-
-
+ * LEXICON a_31_JOTAIN	  pimmee, valkkee, kauhhee, hoppee ! TODO sort out as adjectives
 
 
- * LEXICON vanha_a_23ii   auttii
+
+
+ * LEXICON a_31_JOTAIN_ii   auttii
 
  * LEXICON vanha_a_23ea	 pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
 
 
- * LEXICON vanha_a_31	  pieni
+ * LEXICON a_12	  pieni
 
- * LEXICON vanha_a_31si	 uusi. uussiin only por, always one s in Var
+ * LEXICON a_12_si	 uusi. uussiin only por, always one s in Var
 
- * LEXICON vanha_a_32  tyven
+ * LEXICON a_22  tyven
 
  * LEXICON vanha_a_32m  irtain
 
- * LEXICON vanha_a_32ma  vasen sg taipuu kuitenki -ma, lämmin:lämpi
+ * LEXICON a_22_ma  vasen sg taipuu kuitenki -ma, lämmin:lämpi
 
 
 
 
 
- * LEXICON vanha_a_33as  raskas
+ * LEXICON a_32_as  raskas
 
  * LEXICON vanha_a_33aes  sinnikäs
 
 
- * LEXICON vanha_a_33is  valmis, kaunis
+ * LEXICON a_32_is  valmis, kaunis
 
 
- * LEXICON vanha_a_33ys  kärys
-
-
-
-
-
- * LEXICON vanha_a_33t  tuoret
-
- * LEXICON vanha_a_33u  vaipunu:vaipun ! perfect participle
-
- * LEXICON vanha_a_33y  väsyny:väsyn ! perfect participle
-
- * LEXICON vanha_a_41  = veres
+ * LEXICON a_32_kärys  kärys, so far this is the only word
 
 
 
 
 
- * LEXICON vanha_a_42  varovainen
+ * LEXICON a_32_et  tuoret
 
+ * LEXICON a_32_u  vaipunu:vaipun ! perfect participle
 
- * LEXICON vanha_a_42odd  sininen
+ * LEXICON a_32_väsynyt  väsyny:väsyn, so far this is the only word ! perfect participle
 
-
-
-
- LEXICON MATON  ! TODO ajattelemattomalle lle lla nna
-
-
- * LEXICON vanha_a_43  muuttumaton
+ * LEXICON a_22_excns  = veres
 
 
 
 
 
+ * LEXICON a_22_inen  varovainen
 
- * LEXICON vanha_a_43odd  onneton
+
+ * LEXICON a_22_inen_odd  sininen
 
 
- LEXICON MATONodd  ! käymättömäle le la na
 
- * LEXICON vanha_x_43odd  onneton
+
+ LEXICON MATON  ! TODO TODO TODO ajattelemattomalle lle lla nna
+
+
+ * LEXICON a_22_ton_even  muuttumaton
+
+
+
+
+
+
+ * LEXICON a_22_ton_odd  onneton
+
+
+ LEXICON MATONodd  ! käymättömäle le la na ! TODO Probably not in use atm
+
+ * LEXICON x_22_ton  onneton
 
 
 
