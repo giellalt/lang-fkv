@@ -121,8 +121,8 @@ Rules
 
 "0:k Gemination V-kk-i"
 !! __@RULENAME@__
-0:k <=> ([a|o]) [Vowel|i6:] (Vowel:) k _  :o (Dialects:0) %^AO:0  %> [:i - i3:] (%> [n|t])     # ; ! aikkoi  ! never a:0
-!!$       a       i                  k     a   ^Por        ^AO      >i2>n
+0:k <=> ([a|o]) [Vowel|i6:] (Vowel:) k _  :o (Dialects:0)  %^AO:0 %> [:i - i3:] (%> [n|t])     # ; ! aikkoi  ! never a:0
+!!$       a       i                  k     a   ^Por         ^AO  >   i2>n
 !!$       a       i                  k     o   00>i>n
 
         ([a|o]) [Vowel|i6:] (Vowel:) k _  :i (Dialects:0) %^A2I:0 %> [:i - i3:] (%> [n|t])     # ; ! poikkii ! never a:0
@@ -285,7 +285,7 @@ Rules
 
 "Gemination Vtti"
 !! __@RULENAME@__
- 0:t <=> :Vowel t _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
+ 0:t <=> :Vowel t _ [:o|:i]  (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
          :Vowel t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
          :Vowel t _ e:            %> i7:i Cns ; ! contr verbs
 [.#.|#:] Cns:* Vowel:+ [l|r|n|m] t _ :a %> :a ; ! TODO used to be in LIQa.
@@ -415,16 +415,19 @@ Rules
 
 "Gemination Vo"
 !! __@RULENAME@__
-0:Cx <=> [.#.|.#. Cns] Vowel Cx _ :o [ %> :o  |  (%^AO:0) %> i2: ] ;
+0:Cx <=> [.#.|.#. Cns] Vowel Cx _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
 ! | .#. Cns] is to not trigger on kulkija^AO>i2>t^A to try to give -jj
        where Cx in ( h j l m n r v ) ;
+
+!!€ kal0a^Por^AO>i2
+!!€ kallo00>i
 
 !!€ kir0o>^V>t
 !!€ kirro>o>t
 
 ! TODO Seems to work in lexc?
-! !!€ san0a^AO>i2
-! !!€ sanno0>i
+!!€ san0a^AO>i2
+!!€ sanno0>i
 
 "Gemination Vu"
 !! __@RULENAME@__
@@ -1200,11 +1203,11 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
 ! TODO TODO luotti (and antoi) now works, maybe the this left context is not optimal! Find a better one with Aili :)
 ! TODO not good to use ^AO here, instead of ^A0, it's there because the v2 lexica has not been split.
 ! Maybe (if we make the part between RoundedVowel and _ better) we can remove most of these rules as it would be enough.
-                                                     :SurfaceCns _ (Dialects:0) ([%^E2I:|%^AO:]) %^HMETA:  %> h [:a|i:] ; ! aikhaan
-                                                     :SurfaceCns _ (Dialects:0)  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
-                                                     :i          _ (Dialects:0) (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
+                                                     :SurfaceCns _ (Dialects:) ([%^E2I:|%^AO:]) %^HMETA:  %> h [:a|i:] ; ! aikhaan
+                                                     :SurfaceCns _ (Dialects:)  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
+                                                     :i          _ (Dialects:) (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
                                                                a _ %^VDEL:0  ([Dummy: - %^A2I:]) %> [s|t] ;
-                                                                 _ (Dialects:0) (%^WG:0) %^A0:0 ; ! ^A0 is always a:0
+                                                                 _ (Dialects:) (%^WG:0) %^A0:0 ; ! ^A0 is always a:0
 !                                                                       _ i5: ; ! loistaaviimmin
 
 ! TODO TODO TODO TODO TODO a lot of the AO contexts are no longer! As they are replaced by the A0 tag in lexc
@@ -1242,17 +1245,20 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVowel) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns)
 "a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
 ! WG always before AO always before AO
 !! __@RULENAME@__
-a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)                _ (Dialects:0) (%^WG:0) %^AO: (%^I0:0) %> [ j|i2:|i3: ] ; ! sannoi 2 syll
-[#: | .#.] (Cns:*) UnroundedVowel (o | u) (Cns:+) (Vowel:+) (Cns:+) (Vowel:+) _ (Dialects:0) (%^WG:0) %^AO: (%^I0:0) %> i2: ;
-! Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (%^WG:0) %^AO: (%^I0:0) %>     i2: ; ! sivakoissa sannoi
-! Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (%^WG:0) %^AO: %^HMETA: %> %^V i2: ; ! aikhoin
-     [:k|:l]  (:i) :i             :j                                   _ (%^WG:0) %^AO:          %>     i2: ; !kulkiijoissa
+a:o <=> [#:|.#.] (Cns:*) UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)            _ (Dialects:) (%^WG:0) (%^I0:0) %^AO: %> [j|i2:|i3: ] ; ! sannoi
+        [#:|.#.] (Cns:*) UnroundedVowel (o|u) (Cns:+) (Vowel:+) (Cns:+) (Vowel:+) _ (Dialects:) (%^WG:0) (%^I0:0) %^AO: %> i2: ;
+                [:k|:l]  (:i) :i             :j                                   _ (Dialects:) (%^WG:0)          %^AO: %> i2: ; !kulkiijoissa
+           [#:|.#.] Cns  Vowel                      Cns   Cns                     _ (Dialects:)                   %^AO: %> j %> %^A: ; !linnoja Var
 !     Cns         Vowel (Vowel)         Cns          _ (%^WG:0) %^AO:           %>     i2: ; ! vaaroitten, persoonoissa
      !p e r s o o n _ (%^WG:0) %^AO:           %>     i2: ; ! vaaroitten, persoonoissa
-[#:|.#.] Cns                  Vowel         Cns     Cns                _ %^AO:                   %> j %> %^A: ; ! linnoja in Var
-!               s            a                n      0                  a  ^AO             >  i2
-!               s            a                n      n                  o   0              >  i
+!               s            a                n      0                  a               ^AO > i2
+!               s            a                n      n                  o               0 >  i
 !         a          i         k     k   a  ^AO  %> i2      >   n   e
+! Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (%^WG:0) %^AO: (%^I0:0) %>     i2: ; ! sivakoissa sannoi
+! Cns (Cns:*) UnroundedVowel ([o|u]) Cns:* ([Cns:*|:Cns]) (k:0) _ (%^WG:0) %^AO: %^HMETA: %> %^V i2: ; ! aikhoin
+
+!!€ matka^Por^AO>i2
+!!€ matko00>i
 
 ! Sitte vartalon loppuvokaali muuttu o:ksi, kun vartalon alussa on a-, e- tai i- (ei pyöreä vokaali)
 ! , esimerkiksi reuna: reunhoin, aika:aikhoin
@@ -1260,11 +1266,11 @@ a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)                _ 
 ! TODO have asked Aili about how to differentiate persoona ja
 !   !!€ persoona^WG>i2>ss^A
 !   !!€ persoono0>i>ssa
-!   !!€ vaara^WG^AO>i2>tten
-!   !!€ vaaro00>i>tten
+!   !!€ vaara^WG>^AOi2>tten
+!   !!€ vaaro0>0i>tten
 ! nutukoissa
-!   !!€ nutukka^WG^AO>i2>ss^A
-!   !!€ nutuk0o^AO0>i>ssa
+!   !!€ nutukka^WG>^AOi2>ss^A
+!   !!€ nutuk0o^AO0^AO>i>ssa
 ! TODO Which order do we put the tags!? f.ex ^AO always before or after ^WG ?? Answer: yes!! ^WG^Awhatever
 ! Apparently probably before, has been best practice so far at least it seems
 
@@ -1304,7 +1310,7 @@ a:o <=> [#:|.#.] UnroundedVowel ([u|i|e|a]) Cns: (:Cns) (Cns:)                _ 
 !a:i <=> Vowel Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
 a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vowel instead of a a to generalize? Are cases missing?
         Vowel Cns Cns:* a   j _ (%^WG:) %^A2I:0 %> ; ! Var TODO Vowel instead of a a to generalize? Are cases missing? opettajine
-        [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _ %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! TODO Remove and fix this. ! ruokaruokhiin, poi6ka poikhiin
+        [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _  %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! TODO Remove and fix this. ! ruokaruokhiin, poi6ka poikhiin
 !       p      o i6:i  k  :k a:i %^A2I:0   %> i2:i %> n ; ! gen_n         since we have the i
                               _ (Dialects:0) (%^WG:0) %^A2I:0 ; ! kuvviin kuvvii, poikkiin poikkii
 ! TODO TODO TODO remove this previous context, and just f*cking split it in lexc.
@@ -1412,7 +1418,7 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vowel instead of 
 
 "i:0 in vanha_n_21 -Por with I0 tag"
 !! __@RULENAME@__
- i:0 <=> Cns: _ (%^WG:0) %^AO:0 %^I0:0 %> i2:i %> ; ! tooline in Var ja Jok. Not tooliine, which is in Por
+ i:0 <=> Cns: _ (%^WG:0) %^AO:0 %> %^I0:0 i2:i %> ; ! tooline in Var ja Jok. Not tooliine, which is in Por
 
 
 !! !Shortening
