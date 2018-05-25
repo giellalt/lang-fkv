@@ -1,5 +1,11 @@
 Config:
-
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
 
 Tests:
 
@@ -7,83 +13,83 @@ Tests:
 
 
   Noun - soma - ei tsekattu : # Noun 'nice' - ei tsekattu
-     soma+A+Sg+Nom: soma
-     soma+A+Sg+Gen: soman
-     soma+A+Sg+Par: sommaa
-     soma+A+Sg+Tra: somaksi
-     soma+A+Sg+Abe: somatta
-     soma+A+Sg+Ine: somassa
-     soma+A+Sg+Ela: somasta
-     soma+A+Sg+Ill: somhaan #tsekkaa oonko oikhein
-     soma+A+Sg+Ade: somala
-     soma+A+Sg+Abl: somalta
-     soma+A+Sg+All: somale
-     soma+A+Sg+Ess: somana
+    soma+A+Sg+Nom: soma
+    soma+A+Sg+Gen: soman
+    soma+A+Sg+Par: sommaa
+    soma+A+Sg+Tra: somaksi
+    soma+A+Sg+Abe: somatta
+    soma+A+Sg+Ine: somassa
+    soma+A+Sg+Ela: somasta
+    soma+A+Sg+Ill: somhaan #tsekkaa oonko oikhein
+    soma+A+Sg+Ade: somala
+    soma+A+Sg+Abl: somalta
+    soma+A+Sg+All: somale
+    soma+A+Sg+Ess: somana
 
-     soma+A+Pl+Nom: somat
-     soma+A+Pl+Gen: somiitten
-     soma+A+Pl+Par: sommii #tsekkaa oonko oikhein
-     soma+A+Pl+Tra: somiksi
-     soma+A+Pl+Abe: somitta
-     soma+A+Pl+Ine: somissa
-     soma+A+Pl+Ela: somista
-     soma+A+Pl+Ill: somhiin #tsekkaa oonko oikhein
-     soma+A+Pl+Ade: somila
-     soma+A+Pl+Abl: somilta
-     soma+A+Pl+All: somile
-     soma+A+Pl+Com: somine
-     soma+A+Pl+Ess: somina
+    soma+A+Pl+Nom: somat
+    soma+A+Pl+Gen: somiitten
+    soma+A+Pl+Par: sommii #tsekkaa oonko oikhein
+    soma+A+Pl+Tra: somiksi
+    soma+A+Pl+Abe: somitta
+    soma+A+Pl+Ine: somissa
+    soma+A+Pl+Ela: somista
+    soma+A+Pl+Ill: somhiin #tsekkaa oonko oikhein
+    soma+A+Pl+Ade: somila
+    soma+A+Pl+Abl: somilta
+    soma+A+Pl+All: somile
+    soma+A+Pl+Com: somine
+    soma+A+Pl+Ess: somina
 
-     soma+A+Sg+Compar+Nom: somempi
-     soma+A+Sg+Compar+Gen: someman
-     soma+A+Sg+Compar+Par: somemppaa
-     soma+A+Sg+Compar+Tra: somemaksi
-     soma+A+Sg+Compar+Abe: somematta
-     soma+A+Sg+Compar+Ine: somemassa
-     soma+A+Sg+Compar+Ela: somemasta
-     soma+A+Sg+Compar+Ill: somemphaan
-     soma+A+Sg+Compar+Ade: somemala
-     soma+A+Sg+Compar+Abl: somemalta
-     soma+A+Sg+Compar+All: somemalle
-     soma+A+Sg+Compar+Ess: somempanna
+    soma+A+Sg+Compar+Nom: somempi
+    soma+A+Sg+Compar+Gen: someman
+    soma+A+Sg+Compar+Par: somemppaa
+    soma+A+Sg+Compar+Tra: somemaksi
+    soma+A+Sg+Compar+Abe: somematta
+    soma+A+Sg+Compar+Ine: somemassa
+    soma+A+Sg+Compar+Ela: somemasta
+    soma+A+Sg+Compar+Ill: somemphaan
+    soma+A+Sg+Compar+Ade: somemala
+    soma+A+Sg+Compar+Abl: somemalta
+    soma+A+Sg+Compar+All: somemalle
+    soma+A+Sg+Compar+Ess: somempanna
 
-     soma+A+Pl+Compar+Nom: somemat
-     soma+A+Pl+Compar+Gen: somemiitten
-     soma+A+Pl+Compar+Par: somemppii
-     soma+A+Pl+Compar+Tra: somemiksi
-     soma+A+Pl+Compar+Abe: somemitta
-     soma+A+Pl+Compar+Ine: somemissa
-     soma+A+Pl+Compar+Ela: somemista
-     soma+A+Pl+Compar+Ill: somemphiin
-     soma+A+Pl+Compar+Ade: somemilla
-     soma+A+Pl+Compar+Abl: somemilta
-     soma+A+Pl+Compar+All: somemille
-     soma+A+Pl+Compar+Ess: somempinna
-     soma+A+Pl+Compar+Com: somempinne
+    soma+A+Pl+Compar+Nom: somemat
+    soma+A+Pl+Compar+Gen: somemiitten
+    soma+A+Pl+Compar+Par: somemppii
+    soma+A+Pl+Compar+Tra: somemiksi
+    soma+A+Pl+Compar+Abe: somemitta
+    soma+A+Pl+Compar+Ine: somemissa
+    soma+A+Pl+Compar+Ela: somemista
+    soma+A+Pl+Compar+Ill: somemphiin
+    soma+A+Pl+Compar+Ade: somemilla
+    soma+A+Pl+Compar+Abl: somemilta
+    soma+A+Pl+Compar+All: somemille
+    soma+A+Pl+Compar+Ess: somempinna
+    soma+A+Pl+Compar+Com: somempinne
 
-     soma+A+Sg+Superl+Nom: somiin
-     soma+A+Sg+Superl+Gen: somiiman
-     soma+A+Sg+Superl+Par: somiinta
-     soma+A+Sg+Superl+Tra: somiimaksi
-     soma+A+Sg+Superl+Abe: somiimatta
-     soma+A+Sg+Superl+Ine: somiimassa
-     soma+A+Sg+Superl+Ela: somiimasta
-     soma+A+Sg+Superl+Ill: somiimphaan
-     soma+A+Sg+Superl+Ade: somiimalla
-     soma+A+Sg+Superl+Abl: somiimalta
-     soma+A+Sg+Superl+All: somiimalle
-     soma+A+Sg+Superl+Ess: somiimpanna
+    soma+A+Sg+Superl+Nom: somiin
+    soma+A+Sg+Superl+Gen: somiiman
+    soma+A+Sg+Superl+Par: somiinta
+    soma+A+Sg+Superl+Tra: somiimaksi
+    soma+A+Sg+Superl+Abe: somiimatta
+    soma+A+Sg+Superl+Ine: somiimassa
+    soma+A+Sg+Superl+Ela: somiimasta
+    soma+A+Sg+Superl+Ill: somiimphaan
+    soma+A+Sg+Superl+Ade: somiimalla
+    soma+A+Sg+Superl+Abl: somiimalta
+    soma+A+Sg+Superl+All: somiimalle
+    soma+A+Sg+Superl+Ess: somiimpanna
 
-     soma+A+Pl+Superl+Nom: somiimat
-     soma+A+Pl+Superl+Gen: somiimiitten
-     soma+A+Pl+Superl+Par: somiimppii
-     soma+A+Pl+Superl+Tra: somiimiksi
-     soma+A+Pl+Superl+Abe: somiimitta
-     soma+A+Pl+Superl+Ine: somiimissa
-     soma+A+Pl+Superl+Ela: somiimista
-     soma+A+Pl+Superl+Ill: somiimphiin
-     soma+A+Pl+Superl+Ade: somiimilla
-     soma+A+Pl+Superl+Abl: somiimilta
-     soma+A+Pl+Superl+All: somiimille
-     soma+A+Pl+Superl+Ess: somiimpinna
-     soma+A+Pl+Superl+Com: somiimpinne
+    soma+A+Pl+Superl+Nom: somiimat
+    soma+A+Pl+Superl+Gen: somiimiitten
+    soma+A+Pl+Superl+Par: somiimppii
+    soma+A+Pl+Superl+Tra: somiimiksi
+    soma+A+Pl+Superl+Abe: somiimitta
+    soma+A+Pl+Superl+Ine: somiimissa
+    soma+A+Pl+Superl+Ela: somiimista
+    soma+A+Pl+Superl+Ill: somiimphiin
+    soma+A+Pl+Superl+Ade: somiimilla
+    soma+A+Pl+Superl+Abl: somiimilta
+    soma+A+Pl+Superl+All: somiimille
+    soma+A+Pl+Superl+Ess: somiimpinna
+    soma+A+Pl+Superl+Com: somiimpinne
