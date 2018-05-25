@@ -6,84 +6,30 @@ Tests:
 
 
 
-  Noun - soma - ei tsekattu : # Noun 'nice' - ei tsekattu
-     sana+Asana+A+Sg+Nom: soma
-     sana+A+Sg+Gen: soman
-     sana+A+Sg+Par: sommaa
-     sana+A+Sg+Tra: somaksi
-     sana+A+Sg+Abe: somatta
-     sana+A+Sg+Ine: somassa
-     sana+A+Sg+Ela: somasta
-     sana+A+Sg+Ill: somhaan #tsekkaa oonko oikhein
-     sana+A+Sg+Ade: somala
-     sana+A+Sg+Abl: somalta
-     sana+A+Sg+All: somale
-     sana+A+Sg+Ess: somana
+  Noun - sana - ei tsekattu : # Noun 'nice' - ei tsekattu
+     sana+A+Sg+Nom: sana
+     sana+A+Sg+Gen: sanan
+     sana+A+Sg+Par: sannaa
+     sana+A+Sg+Tra: sanaksi
+     sana+A+Sg+Abe: sanatta
+     sana+A+Sg+Ine: sanassa
+     sana+A+Sg+Ela: sanasta
+     sana+A+Sg+Ill: sanhaan #tsekkaa oonko oikhein
+     sana+A+Sg+Ade: sanala
+     sana+A+Sg+Abl: sanalta
+     sana+A+Sg+All: sanale
+     sana+A+Sg+Ess: sanana
 
-     sana+A+Pl+Nom: somat
-     sana+A+Pl+Gen: somiitten
-     sana+A+Pl+Par: sommii #tsekkaa oonko oikhein
-     sana+A+Pl+Tra: somiksi
-     sana+A+Pl+Abe: somitta
-     sana+A+Pl+Ine: somissa
-     sana+A+Pl+Ela: somista
-     sana+A+Pl+Ill: somhiin #tsekkaa oonko oikhein
-     sana+A+Pl+Ade: somila
-     sana+A+Pl+Abl: somilta
-     sana+A+Pl+All: somile
-     sana+A+Pl+Com: somine
-     sana+A+Pl+Ess: somina
-
-     sana+A+Sg+Compar+Nom: somampi
-     sana+A+Sg+Compar+Gen: somaman
-     sana+A+Sg+Compar+Par: somamppaa
-     sana+A+Sg+Compar+Tra: somamaksi
-     sana+A+Sg+Compar+Abe: somamatta
-     sana+A+Sg+Compar+Ine: somamassa
-     sana+A+Sg+Compar+Ela: somamasta
-     sana+A+Sg+Compar+Ill: somamphaan
-     sana+A+Sg+Compar+Ade: somamala
-     sana+A+Sg+Compar+Abl: somamalta
-     sana+A+Sg+Compar+All: somamalle
-     sana+A+Sg+Compar+Ess: somampanna
-
-     sana+A+Pl+Compar+Nom: somamat
-     sana+A+Pl+Compar+Gen: somamiitten
-     sana+A+Pl+Compar+Par: somamppii
-     sana+A+Pl+Compar+Tra: somamiksi
-     sana+A+Pl+Compar+Abe: somamitta
-     sana+A+Pl+Compar+Ine: somamissa
-     sana+A+Pl+Compar+Ela: somamista
-     sana+A+Pl+Compar+Ill: somamphiin
-     sana+A+Pl+Compar+Ade: somamilla
-     sana+A+Pl+Compar+Abl: somamilta
-     sana+A+Pl+Compar+All: somamille
-     sana+A+Pl+Compar+Ess: somampinna
-     sana+A+Pl+Compar+Com: somampinne
-
-     sana+A+Sg+Superl+Nom: somiin
-     sana+A+Sg+Superl+Gen: somiiman
-     sana+A+Sg+Superl+Par: somiinta
-     sana+A+Sg+Superl+Tra: somiimaksi
-     sana+A+Sg+Superl+Abe: somiimatta
-     sana+A+Sg+Superl+Ine: somiimassa
-     sana+A+Sg+Superl+Ela: somiimasta
-     sana+A+Sg+Superl+Ill: somiimphaan
-     sana+A+Sg+Superl+Ade: somiimalla
-     sana+A+Sg+Superl+Abl: somiimalta
-     sana+A+Sg+Superl+All: somiimalle
-     sana+A+Sg+Superl+Ess: somiimpanna
-
-     sana+A+Pl+Superl+Nom: somiimat
-     sana+A+Pl+Superl+Gen: somiimiitten
-     sana+A+Pl+Superl+Par: somiimppii
-     sana+A+Pl+Superl+Tra: somiimiksi
-     sana+A+Pl+Superl+Abe: somiimitta
-     sana+A+Pl+Superl+Ine: somiimissa
-     sana+A+Pl+Superl+Ela: somiimista
-     sana+A+Pl+Superl+Ill: somiimphiin
-     sana+A+Pl+Superl+Ade: somiimilla
-     sana+A+Pl+Superl+Abl: somiimilta
-     sana+A+Pl+Superl+All: somiimille
-     sana+A+Pl+Superl+Ess: somiimpinna
-     sana+A+Pl+Superl+Com: somiimpinne
+     sana+A+Pl+Nom: sanat
+     sana+A+Pl+Gen: sanoitten
+     sana+A+Pl+Par: sannoi
+     sana+A+Pl+Tra: sanoiksi
+     sana+A+Pl+Abe: sanoitta
+     sana+A+Pl+Ine: sanoissa
+     sana+A+Pl+Ela: sanoista
+     sana+A+Pl+Ill: sanhoin #tsekkaa oonko oikhein
+     sana+A+Pl+Ade: sanoila
+     sana+A+Pl+Abl: sanoilta
+     sana+A+Pl+All: sanoile
+     sana+A+Pl+Com: sanoine
+     sana+A+Pl+Ess: sanoina
