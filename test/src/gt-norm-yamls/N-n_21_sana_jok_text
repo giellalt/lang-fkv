@@ -17,7 +17,7 @@ Tests:
      sana+A+Sg+Ill: sanhaan #tsekkaa oonko oikhein
      sana+A+Sg+Ade: sanala
      sana+A+Sg+Abl: sanalta
-     sana+A+Sg+All: sanale
+     sana+A+Sg+All: [sanale, sanalet]
      sana+A+Sg+Ess: sanana
 
      sana+A+Pl+Nom: sanat
@@ -30,6 +30,6 @@ Tests:
      sana+A+Pl+Ill: sanhoin #tsekkaa oonko oikhein
      sana+A+Pl+Ade: sanoila
      sana+A+Pl+Abl: sanoilta
-     sana+A+Pl+All: sanoile
+     sana+A+Pl+All: [sanoile, sanoilet]
      sana+A+Pl+Com: sanoine
      sana+A+Pl+Ess: sanoina
