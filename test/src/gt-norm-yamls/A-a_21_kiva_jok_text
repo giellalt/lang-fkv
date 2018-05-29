@@ -21,7 +21,7 @@ Tests:
     kiva+A+Sg+Ill: kivhaan #tsekkaa oonko oikhein
     kiva+A+Sg+Ade: kivala
     kiva+A+Sg+Abl: kivalta
-    kiva+A+Sg+All: kivale
+    kiva+A+Sg+All: [kivale, kivalet]
     kiva+A+Sg+Ess: kivana
 
     kiva+A+Pl+Nom: kivat
@@ -34,7 +34,7 @@ Tests:
     kiva+A+Pl+Ill: kivhoin #tsekkaa oonko oikhein
     kiva+A+Pl+Ade: kivoila
     kiva+A+Pl+Abl: kivoilta
-    kiva+A+Pl+All: kivoile
+    kiva+A+Pl+All: [kivoile, kivoilet]
     kiva+A+Pl+Com: kivoine
     kiva+A+Pl+Ess: kivoina
 
@@ -48,7 +48,7 @@ Tests:
     kiva+A+Sg+Compar+Ill: kivemphaan
     kiva+A+Sg+Compar+Ade: kivemala
     kiva+A+Sg+Compar+Abl: kivemalta
-    kiva+A+Sg+Compar+All: kivemalle
+    kiva+A+Sg+Compar+All: [kivemalle, kivemallet]
     kiva+A+Sg+Compar+Ess: kivempanna
 
     kiva+A+Pl+Compar+Nom: kivemat
@@ -61,7 +61,7 @@ Tests:
     kiva+A+Pl+Compar+Ill: kivemphiin
     kiva+A+Pl+Compar+Ade: kivemilla
     kiva+A+Pl+Compar+Abl: kivemilta
-    kiva+A+Pl+Compar+All: kivemille
+    kiva+A+Pl+Compar+All: [kivemille, kivemillet]
     kiva+A+Pl+Compar+Ess: kivempinna
     kiva+A+Pl+Compar+Com: kivempinne
 
@@ -75,7 +75,7 @@ Tests:
     kiva+A+Sg+Superl+Ill: kivoimphaan
     kiva+A+Sg+Superl+Ade: kivoimalla
     kiva+A+Sg+Superl+Abl: kivoimalta
-    kiva+A+Sg+Superl+All: kivoimalle
+    kiva+A+Sg+Superl+All: [kivoimalle, kivoimallet]
     kiva+A+Sg+Superl+Ess: kivoimpanna
 
     kiva+A+Pl+Superl+Nom: kivoimat
@@ -88,6 +88,6 @@ Tests:
     kiva+A+Pl+Superl+Ill: kivoimphiin
     kiva+A+Pl+Superl+Ade: kivoimilla
     kiva+A+Pl+Superl+Abl: kivoimilta
-    kiva+A+Pl+Superl+All: kivoimille
+    kiva+A+Pl+Superl+All: [kivoimille, kivoimillet]
     kiva+A+Pl+Superl+Ess: kivoimpinna
     kiva+A+Pl+Superl+Com: kivoimpinne
