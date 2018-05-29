@@ -61,29 +61,32 @@ Tests:
      soma+A+Pl+Compar+Ess: somempinna
      soma+A+Pl+Compar+Com: somempinne
 
-     soma+A+Sg+Superl+Nom: somiin
-     soma+A+Sg+Superl+Gen: somiiman
-     soma+A+Sg+Superl+Par: somiinta
-     soma+A+Sg+Superl+Tra: somiimaksi
-     soma+A+Sg+Superl+Abe: somiimatta
-     soma+A+Sg+Superl+Ine: somiimassa
-     soma+A+Sg+Superl+Ela: somiimasta
-     soma+A+Sg+Superl+Ill: somiimphaan
-     soma+A+Sg+Superl+Ade: somiimalla
-     soma+A+Sg+Superl+Abl: somiimalta
-     soma+A+Sg+Superl+All: somiimalle
-     soma+A+Sg+Superl+Ess: somiimpanna
+# Varengin varieteetissä lyhyt -i on myös mahdollista superlatiivissa, vaikka se ei ole kovin tavallista.
+# Katso Kainun kielen grammatikin (2014) s.183.
 
-     soma+A+Pl+Superl+Nom: somiimat
-     soma+A+Pl+Superl+Gen: somiimitten
-     soma+A+Pl+Superl+Par: somiimpia
-     soma+A+Pl+Superl+Tra: somiimiksi
-     soma+A+Pl+Superl+Abe: somiimitta
-     soma+A+Pl+Superl+Ine: somiimissa
-     soma+A+Pl+Superl+Ela: somiimista
-     soma+A+Pl+Superl+Ill: somiimphiin
-     soma+A+Pl+Superl+Ade: somiimilla
-     soma+A+Pl+Superl+Abl: somiimilta
-     soma+A+Pl+Superl+All: somiimille
-     soma+A+Pl+Superl+Ess: somiimpinna
-     soma+A+Pl+Superl+Com: somiimpinne
+     soma+A+Sg+Superl+Nom: [somiin, somin]
+     soma+A+Sg+Superl+Gen: [somiiman, somiman]
+     soma+A+Sg+Superl+Par: [somiinta, sominta]
+     soma+A+Sg+Superl+Tra: [somiimaksi, somimaksi]
+     soma+A+Sg+Superl+Abe: [somiimatta, somimatta]
+     soma+A+Sg+Superl+Ine: [somiimassa, somimassa]
+     soma+A+Sg+Superl+Ela: [somiimasta, somimasta]
+     soma+A+Sg+Superl+Ill: [somiimphaan, somimphaan]
+     soma+A+Sg+Superl+Ade: [somiimalla, somimalla]
+     soma+A+Sg+Superl+Abl: [somiimalta, somimalta]
+     soma+A+Sg+Superl+All: [somiimalle, somimalle]
+     soma+A+Sg+Superl+Ess: [somiimpanna, somimpanna]
+
+     soma+A+Pl+Superl+Nom: [somiimat, somimat]
+     soma+A+Pl+Superl+Gen: [somiimitten, somimitten]
+     soma+A+Pl+Superl+Par: [somiimpia, somimpia]
+     soma+A+Pl+Superl+Tra: [somiimiksi, somimiksi]
+     soma+A+Pl+Superl+Abe: [somiimitta, somimitta]
+     soma+A+Pl+Superl+Ine: [somiimissa, somimissa]
+     soma+A+Pl+Superl+Ela: [somiimista, somimista]
+     soma+A+Pl+Superl+Ill: [somiimphiin, somimphiin]
+     soma+A+Pl+Superl+Ade: [somiimilla, somimilla]
+     soma+A+Pl+Superl+Abl: [somiimilta, somimilta]
+     soma+A+Pl+Superl+All: [somiimille, somimille]
+     soma+A+Pl+Superl+Ess: [somiimpinna, somimpinna]
+     soma+A+Pl+Superl+Com: [somiimpinne, somimpinne]
