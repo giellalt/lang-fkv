@@ -19,7 +19,7 @@ LEXICON HYVA
 +A                :pare comp_m_odd ;
 +A                :parhai superl_m_odd ;
 
-LEXICON VANHAA ! still TODO fix up vanha yaml
+LEXICON VANHAA ! still TODO fix vanha yaml
 +A+Sg             :aa nom_end ;
 +A                :a^AO x_31 ; ! ai to oi doesn't work yet
 +A                :e comp_m_odd ;
@@ -69,13 +69,13 @@ LEXICON a_11_i  !!= * @CODE@ siisti
 LEXICON vanha_x_21 ! XXX debug, fix this, it comes from pronoun "sama"
  a_11 ;
 
-LEXICON a_11  !!= * @CODE@ siisti
+LEXICON a_11  !!= * @CODE@ siisti, soma
 +A                :           x_11   ;
 
 +A                :^WG^AE     comp_m_odd   ;
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
 
-+A                :^WG^AE%>i5 superl_m_odd ;
++A                :^WG^AE%>i5 superl_m_odd ; ! TODO TODO TODO ^AE, really?
 +A+Dial/Var       :^WG^AE%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
 
  !+A:^WG a_weak_v_stem ;
@@ -99,7 +99,7 @@ LEXICON a_21_odd	!!= * @CODE@  simppeli, loistaava
 +A+Dial/Var       :%>i5  superl_mm     ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
  !+A+Dial/Por+Pl+Compar+Gen:%>mm%>ii2tten K ;
 
-LEXICON a_31_JOTAIN	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out as adjectives
+LEXICON a_31_JOTAIN	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out nouns and adjectives
 +A+Dial/Por:      x_31_JOTAIN         ;
 +A+Dial/Var:^E2I^¤    x_31_JOTAIN_ia       ;
 +A+Dial/Jok:      vanha_a_23ea       ; ! Jok comp and superls is here

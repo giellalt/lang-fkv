@@ -25,7 +25,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^E2I:0                   !!= * @CODE@ e to i in nom ove : ovi
 %^A2I:0                   !!= * @CODE@ a to i in opettajine (Var)
 %^VDEL:0 %^EDEL:0         !!= * @CODE@ -- DEL = deletion
-%^AE:0                    !!= * @CODE@ -- a to e lauletaan
+%^AE:0                    !!= * @CODE@ -- a to e lauletaan, soma somempi
 %^AO:0                    !!= * @CODE@ -- a to o sanoissa
 %^A0:0                    !!= * @CODE@ -- a to 0
 %^I0:0                    !!= * @CODE@ -- i to 0 in vanha_x_21 -Por with i endings: tooline
@@ -1442,10 +1442,10 @@ a:i <=> Vowel Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vowel instead of 
 !! !!Other rules
 !    ===========
 
-"a:e in passives and in comparative"
+"a:e in comparative"
 !! __@RULENAME@__
-Vx:e <=> _  (%^WG:0) %^AE:0 %> t (t) ;
-    [.#.|#:] Cns:* Vowel: (Vowel:) Cns:* _ (%^WG:0) %> [ m p | m m ] [i|%^A:] (%>) ;
+Vx:e <=> _  (%^WG:0) %^AE:0 ;
+    [.#.|#:] Cns:* Vowel: (Vowel:) Cns:* _ (%^WG:0) %> m p i (%>) ;
      where Vx in ( a ä ) ;
      ! Vx:e <=> _  %^AE:0 (t) (t) ;
      !      where Vx in ( a ä ) ;
@@ -1463,12 +1463,17 @@ Vx:e <=> _  (%^WG:0) %^AE:0 %> t (t) ;
 !!€ vahve>mpi
 
 ! TODO See page 180 and add all the comparative types
+! TODO TODO TODO check this rule split properly. Used to be: [ m p | m m ] [i|%^A:]
+"a:e in passives"
+!! __@RULENAME@__
+Vx:e <=>  [.#.|#:] Cns:* Vowel: (Vowel:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
+     where Vx in ( a ä ) ;
 
 
 "ä:0 before i except in conditional"
 !! __@RULENAME@__
  ä:0 <=> Cns: _ ä:0 ;
-         Cns: _ (Dummy:* - %^AE:0) %> [ i|i2:|i3:|i5: ] ;
+         Cns: _ (Dummy: - %^AE:0) (Dummy: - %^AE:0) (Dummy: - %^AE:0) %> [ i|i2:|i3:|i5: ] ;
 
 !!€ kehä>i2>ss^A
 !!€ keh0>i>ssä
