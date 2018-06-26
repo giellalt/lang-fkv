@@ -21,7 +21,9 @@ LEXICON HYVA
 
 LEXICON VANHAA ! still TODO fix vanha yaml
 +A+Sg             :aa nom_end ;
-+A                :a^AO x_31 ; ! ai to oi doesn't work yet
++A+Dial/Por       :a^AO x_31 ; ! ai to oi doesn't work yet
++A+Dial/Var       :a^AO x_31 ; ! ai to oi doesn't work yet
++A+Dial/Jok       :a^AO x_31 ; ! ai to oi doesn't work yet
 +A                :e comp_m_odd ;
 +A                :i5 superl_m_odd ;
 
@@ -75,7 +77,7 @@ LEXICON a_11  !!= * @CODE@ siisti, soma
 +A                :^WG^AE     comp_m_odd   ;
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
 
-+A                :^WG^AE%>i5 superl_m_odd ; ! TODO TODO TODO ^AE, really?
++A                :^WG^A2I%>i5 superl_m_odd ; ! TODO TODO TODO ^AE, really?
 +A+Dial/Var       :^WG^AE%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
 
  !+A:^WG a_weak_v_stem ;
