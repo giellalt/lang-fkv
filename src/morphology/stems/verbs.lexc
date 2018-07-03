@@ -71,8 +71,8 @@ asetella:asettel v3_ele ;
 asettuut:asettu v2_odd ;
 astuut:astu v2 ;
 aueta:auke v43_odd ;
-aukaista+v1:aukais v3_ise ;
-aukaista+v2:aukas v3_ise ;
+aukaista:aukais v3_ise ; ! TODO used to have +v1 ?
+aukaista:aukas v3_ise ; ! TODO used to have +v2 ?
 auttaat:autta v2 ;
 averteerata:averteera v43_odd ;
 diskrimineerata:diskrimineera v43 ;
