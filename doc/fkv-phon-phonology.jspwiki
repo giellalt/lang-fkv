@@ -29,7 +29,7 @@
  * %^A0:0                     -- a to 0
  * %^I0:0                     -- i to 0 in vanha_x_21 -Por with i endings: tooline
  * %^E0:0 e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
- * %^Por:0                    -- Porsanger  dialekti
+ * %^Por:0                    -f- Porsanger  dialekti
  * %^Var:0                    -- Varanger   dialekti
  * %^Jok:0                    -- Jokivarret dialekti
  * %^End:0                    -- End of word, since the # tags don't work properly
@@ -43,14 +43,14 @@ The hash mark = Word boundary for both lexicalised and dynamic compounds
 
 
 !!Sets
- * FrontVowel = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            
- * BackVowel = a o u å ;                                       
- * ArchiVowel =  %^A %^O %^U ;                                 
- * UnroundedVowel = e ä a i i2 i3 i4 i5 i6 i7 ;                
- * RoundedVowel = y ö u o ;                                    
- * SomeVowel = %^V ;                                           
- * NeutralVowel = e i i2 i3 i4 i5 i6 i7 ;                      
- * Vowel   = FrontVowel BackVowel ArchiVowel SomeVowel ;       
+ * FrontVow = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            
+ * BackVow = a o u å ;                                       
+ * ArchiVow =  %^A %^O %^U ;                                 
+ * UnroundedVow = e ä a i i2 i3 i4 i5 i6 i7 ;                
+ * RoundedVow = y ö u o ;                                    
+ * SomeVow = %^V ;                                           
+ * NeutralVow = e i i2 i3 i4 i5 i6 i7 ;                      
+ * Vow   = FrontVow BackVow ArchiVow SomeVow ;       
  * NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;       
  * NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;       
  * NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o   å ;       
@@ -65,11 +65,11 @@ The hash mark = Word boundary for both lexicalised and dynamic compounds
  * ArchiCns = %^N ;                                            
  * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  
  * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        
- * Segment = Vowel Cns ;                                       
+ * Segment = Vow Cns ;                                       
  * Dummy = %+ %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  
  * DummyBorder = Dummy %> ;          
  * Dialects =  %^Por %^Var %^Jok ;  
- * NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy %> ;  
+ * NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;  
 
 
 !!!Rules
@@ -78,285 +78,25 @@ The hash mark = Word boundary for both lexicalised and dynamic compounds
 !!Consonant rules
 
 
-!Gemination
+!!Gemination
 
 Pitkän vokaalin jälkeen ja kans painottoman tavun jälkeen k, t, p ja s geminoituvat
 ko perässä on pitkä vokaali (= lounaismurteitten erikoisgeminaatio),
 mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen
 (= yleisgeminaatio). (ES).
 
-One rule for each vowel environment.
 
 
 
 
 
-__0:k Gemination V-kk-i__
-* __*a __ {{i }} (is not standard language k a ^Por ^AO > i2>n)
-* __*a __ {{i }} (is not standard language k o 00>i>n)
 
 
 
 
-__0:p Gemination V-pp-i__
 
 
 
-
-
-* __*kuv0a^A0>i2>n^A __ (is not standard language)
-* __*kuvvi0>i>na __ (is not standard language)
-* __*poi6ka^A0>i2>n^A __ (is not standard language)
-* __*poiki0>i>na __ (is not standard language)
-
-* __*poi6ka^A2I>i2>n __ (is not standard language)
-* __*poika0>i>n __ (is not standard language)
-* __*poi6ka^A2I>i2 __ (is not standard language)
-* __*poika0>i __ (is not standard language)
-
-
-
-
-* __aika^Por^AO>i2>n^A __
-* __aiko00>i>na __
-* __aika^Por^AO>i2>ne __
-* __aiko00>i>ne __
-
-* __kuv0a^Por^A2I>i2>n __
-* __kuvvi00>i>n __
-* __kuv0a^Por^A2I>i2 __
-* __kuvvi00>i __
-
-* __kuva^Por^A0>i2>ne __
-* __kuv000>i>ne __
-* __*kuv0a^Por^A0>i2>ne __ (is not standard language)
-* __*kuvvi00>i>ne __ (is not standard language)
-* __*kuva^Por^A0>i2>ne __ (is not standard language)
-* __*kuva00>i>ne __ (is not standard language)
-
-* __poi6ka^Por^A0>i2>ne __
-* __poik000>i>ne __
-* __*poi6ka^Por^A0>i2>ne __ (is not standard language)
-* __*poika00>i>ne __ (is not standard language)
-* __*poi6ka^Por^A0>i2>ne __ (is not standard language)
-* __*poiki00>i>ne __ (is not standard language)
-
-
-
-
-
-
-
-
-
-
-
-* __*poi6ka^A2I>i2>n __ (is not standard language)
-* __*poika0>i>n __ (is not standard language)
-
-
-* __sop0i>^V __
-* __soppi>i __
-
-
-
-
-
-
-
-
-
-
-__Gemination Vtti__
-
-* __ant0a>^Vt __
-* __antta>at __
-
-
-
-
-__Gemination Vssi__
-
-
-* __vuot0e>i2>^V>n __
-* __vuoss0>i>i>n __
-
-* __*vuot0e>i2>^V>n __ (is not standard language)
-* __*vuott0>i>i>n __ (is not standard language)
-
-* __housu>i2>le __
-* __housu>i>le __
-
-* __hirt0e>i2>^V __
-* __hirss0>i>i __
-
-* __*hirt0e>i2>^V __ (is not standard language)
-* __*hirtt0>i>i __ (is not standard language)
-
-
-
-
-__Gemination VVa__
-
-* __ant0a>^Vt __
-* __antta>at __
-* __ant0a>^V __
-* __antta>a __
-
-
-* __ant0a>^V>v^A __
-* __antta>a>va __
-* __ant0a>^V>v^At __
-* __antta>a>vat __
-* __aik0a^Por>^V __
-* __aikka0>a __
-
-
-__Gemination Vi__
-
-* __kiv0e>i2>^V __
-* __kivv0>i>i __
-
-
-__Gemination Va__
-
-* __kal0a>^V __
-* __kalla>a __
-* __kuv0a>^V __
-* __kuvva>a __
-
-__Gemination VVe__
-
-* __suome>^V __
-* __suome>e __
-
-* __lauk0e>^V __
-* __laukke>e __
-
-__Gemination Ve__
-
-* __tek0e>^V __
-* __tekke>e __
-
-__Gemination VVo__
-
-* __kat0o>^V>t __
-* __katto>o>t __
-
-__Gemination Vo__
-
-* __kal0a^Por^AO>i2 __
-* __kallo00>i __
-
-* __kir0o>^V>t __
-* __kirro>o>t __
-
-* __san0a^AO>i2 __
-* __sanno0>i __
-
-__Gemination Vu__
-
-* __jout0u>^V __
-* __jouttu>u __
-
-__Gemination VVu__
-
-* __puh0u>^V __
-* __puhhu>u __
-
-
-__Gemination Vy__
-
-* __näk0y>^V __
-* __näkky>y __
-
-
-__Gemination VVy__
-
-* __lev0y>^V __
-* __levvy>y __
-
-__Gemination Vö__
-
-
-* __näk0ö>^V __
-* __näkkö>ö __
-
-__Gemination VVö__
-
-* __pör0ö>^V __
-* __pörrö>ö __
-
-* __*perin0ö^WG>n __ (is not standard language)
-* __*perinnö0>n __ (is not standard language)
-
-
-__Gemination Vä__
-
-* __tiet0ä>^Vt __
-* __tiettä>ät __
-
-* __as0u>^Vt __
-* __assu>ut __
-
-
-__Gemination VVä__
-
-* __el0ä>^V __
-* __ellä>ä __
-
-
-!Liquid + gemination consonant
-
-__Gemination LIQa__
-
-* __jalk0a>^V __
-* __jalkka>a __
-
-
-__Gemination LIQe__
-
-* __järk0e>^V __
-* __järkke>e __
-
-__Gemination LIQo__
-
-* __murt0o>^V __
-* __murtto>o __
-
-__Gemination LIQu__
-
-* __polk0u>^V __
-* __polkku>u __
-
-__Gemination LIQy__
-
-* __särk0y>^V __
-* __särkky>y __
-
-__Gemination LIQö__
-
-* __lämp0ö>^V __
-* __lämppö>ö __
-
-__Gemination LIQä__
-
-* __pölk0ä>^V __
-* __pölkkä>ä __
-* __härk0ä>^V __
-* __härkkä>ä __
-
-__Gemination LIQi__
-
-* __kerk0i>^Vn __
-* __kerkki>in __
-
-__Gemination LIQi7__
-
-* __lauk0e>i7s __
-* __laukke>is __
-* __särk0y>i7s __
-* __särkky>is __
 
 
 
@@ -364,43 +104,31 @@ __Gemination LIQi7__
 !!Consonant gradation
 
 
-!Gradation ppttkk : ptk
-
-__Gradation pp : p__
-
-__Gradation tt : t__
-
-* __katto^WG>n __
-* __kat0o0>n __
-* __katt2o^WG>n __
-* __katto0>n __
-
-__Gradation kk : k__
-
-* __sivakka^AO>i2>ne __
-* __sivak0o0>i>ne __
-
-
-
-__Gradation kk : k__
-
-
-
 
 
 !Gradation -p-
 
+__Gradation p:0 (pp:p)__
+
 __Gradation p:v__
 
+__Gradation mp:mm__
+
+* __ranka^WG>n __
+* __ranga0>n __
 
 * __napa^WG>n __
 * __nava0>n __
+
 * __taipal^WG __
 * __taival0 __
+
 * __varpa^WG __
 * __varva0 __
+
 * __halpa^WG __
 * __halva0 __
+
 * __turpe^WGt __
 * __turve0t __
 
@@ -414,7 +142,13 @@ __Gradation i6:0, in word poika: pojan__
 * __poi6ka^WG^A0>i2>le __
 * __po0j000>i>le __
 
+TODO: When k:j and when k:0 between e and i.
 
+
+
+
+* __halke^WG%>t^A __
+* __halje0>ta __
 
 
 * __mäke^WG>n __
@@ -425,7 +159,6 @@ __Gradation i6:0, in word poika: pojan__
 * __jälje0>n __
 * __luke^WG>n __
 * __luje0>n __
-
 
 
 * __pölkä^WG>t^A __
@@ -461,19 +194,28 @@ __Gradation i6:0, in word poika: pojan__
 
 __Gradation nk:ng__
 
-__Gradation mp:mm__
 
-* __ranka^WG>n __
-* __ranga0>n __
 
-!Gradation of -t-
+* __sivakka^AO>i2>ne __
+* __sivak0o0>i>ne __
 
 
 
+!Gradation t
+
+
+
+__Gradation tt : t__
 
 __Gradation Nt:NN in first syllable after short vowel__
 
 __Gradation Nt:N in other circumstances @RULENAME@ vuote vuoeksi t:0__
+
+
+* __katto^WG>n __
+* __kat0o0>n __
+* __katt2o^WG>n __
+* __katto0>n __
 
 
 __t:j in Var variant vuojeksi__
@@ -516,7 +258,6 @@ __Gradation t:đ__
 
 
 
-
 __ti:si__
 
 * __vete^E2I __
@@ -530,6 +271,8 @@ __ti:si__
 
 
 
+!!Consonant assimilation
+
 __Alveolar assimilation for consonant stems__
 
 * __tul>^N^U __
@@ -537,9 +280,9 @@ __Alveolar assimilation for consonant stems__
 
 
 
-!!!Vowel rules
+!!!Vow rules
 
-!!Vowel harmony
+!!Vow harmony
 
 __Back harmony for %^A: %^O: %^U:__
 
@@ -547,20 +290,20 @@ __Back harmony for %^A: %^O: %^U:__
 * __kulke>^A __
 * __kulke>a __
 
-!!Vowel copying and metathesis
+!!Vow copying and metathesis
 
 
-__Vowel copying in short h-illative and short partitive sg__
+__Vow copying in short h-illative and short partitive sg__
 
 
 
-__Vowel copying in long h-illative sg first vowel__
+__Vow copying in long h-illative sg first vowel__
 
 * __vereks>h^V^Vn __
 * __vereks>heen __
 
 
-__Vowel copying in long h-illative sg second vowel__
+__Vow copying in long h-illative sg second vowel__
 
 * __lapse^HMETA>h^V^Vn __
 * __laps00>heen __
@@ -575,23 +318,23 @@ __Vowel copying in long h-illative sg second vowel__
 * __vereks>heen __
 
 
-__Vowel copying in partitive of words ending in io, ia__
+__Vow copying in partitive of words ending in io, ia__
 
 
-__Vowel copying in long h sg forms 1__
+__Vow copying in long h sg forms 1__
 
-__Vowel copying in long h sg forms 2__
+__Vow copying in long h sg forms 2__
 
-__Vowel copying in long h pl forms__
+__Vow copying in long h pl forms__
 
 * __poi6ka^AO^HMETA%>h^V%>i2 __
 * __poik000>hi>i __
 * __kuva^AO^HMETA%>h^V%>i2 __
 * __kuv000>hi>i __
 
-__Vowel copying of a in partitive after vowel sequences__
+__Vow copying of a in partitive after vowel sequences__
 
-__Vowel copying of i in partitive after vowel sequences__
+__Vow copying of i in partitive after vowel sequences__
 
 
 
@@ -819,6 +562,185 @@ __ä:0 before i except in conditional__
 
 
 
+!!Gemination tests
+
+
+
+
+* __*kuv0a^A0>i2>n^A __ (is not standard language)
+* __*kuvvi0>i>na __ (is not standard language)
+* __*poi6ka^A0>i2>n^A __ (is not standard language)
+* __*poiki0>i>na __ (is not standard language)
+
+* __*poi6ka^A2I>i2>n __ (is not standard language)
+* __*poika0>i>n __ (is not standard language)
+* __*poi6ka^A2I>i2 __ (is not standard language)
+* __*poika0>i __ (is not standard language)
+
+
+
+
+* __aika^Por^AO>i2>n^A __
+* __aiko00>i>na __
+* __aika^Por^AO>i2>ne __
+* __aiko00>i>ne __
+
+* __kuv0a^Por^A2I>i2>n __
+* __kuvvi00>i>n __
+* __kuv0a^Por^A2I>i2 __
+* __kuvvi00>i __
+
+* __kuva^Por^A0>i2>ne __
+* __kuv000>i>ne __
+* __*kuv0a^Por^A0>i2>ne __ (is not standard language)
+* __*kuvvi00>i>ne __ (is not standard language)
+* __*kuva^Por^A0>i2>ne __ (is not standard language)
+* __*kuva00>i>ne __ (is not standard language)
+
+* __poi6ka^Por^A0>i2>ne __
+* __poik000>i>ne __
+* __*poi6ka^Por^A0>i2>ne __ (is not standard language)
+* __*poika00>i>ne __ (is not standard language)
+* __*poi6ka^Por^A0>i2>ne __ (is not standard language)
+* __*poiki00>i>ne __ (is not standard language)
+
+* __jak0a>^Vt __
+* __jakka>at __
+
+
+
+
+
+* __*poi6ka^A2I>i2>n __ (is not standard language)
+* __*poika0>i>n __ (is not standard language)
+
+* __sop0i>^V __
+* __soppi>i __
+
+* __vuot0e>i2>^V>n __
+* __vuoss0>i>i>n __
+
+* __*vuot0e>i2>^V>n __ (is not standard language)
+* __*vuott0>i>i>n __ (is not standard language)
+
+* __housu>i2>le __
+* __housu>i>le __
+
+* __hirt0e>i2>^V __
+* __hirss0>i>i __
+
+* __*hirt0e>i2>^V __ (is not standard language)
+* __*hirtt0>i>i __ (is not standard language)
+
+* __ant0a>^Vt __
+* __antta>at __
+
+* __ant0a>^V __
+* __antta>a __
+
+
+* __ant0a>^V>v^A __
+* __antta>a>va __
+
+* __ant0a>^V>v^At __
+* __antta>a>vat __
+
+* __aik0a^Por>^V __
+* __aikka0>a __
+
+* __kiv0e>i2>^V __
+* __kivv0>i>i __
+
+
+
+* __kal0a>^V __
+* __kalla>a __
+* __kuv0a>^V __
+* __kuvva>a __
+
+* __suome>^V __
+* __suome>e __
+
+* __lauk0e>^V __
+* __laukke>e __
+
+* __tek0e>^V __
+* __tekke>e __
+
+* __kat0o>^V>t __
+* __katto>o>t __
+
+* __kal0a^Por^AO>i2 __
+* __kallo00>i __
+
+* __kir0o>^V>t __
+* __kirro>o>t __
+
+* __san0a^AO>i2 __
+* __sanno0>i __
+
+* __jout0u>^V __
+* __jouttu>u __
+
+* __puh0u>^V __
+* __puhhu>u __
+
+* __näk0y>^V __
+* __näkky>y __
+
+* __lev0y>^V __
+* __levvy>y __
+
+* __näk0ö>^V __
+* __näkkö>ö __
+
+* __pör0ö>^V __
+* __pörrö>ö __
+
+* __*perin0ö^WG>n __ (is not standard language)
+* __*perinnö0>n __ (is not standard language)
+
+* __tiet0ä>^Vt __
+* __tiettä>ät __
+
+* __as0u>^Vt __
+* __assu>ut __
+
+* __el0ä>^V __
+* __ellä>ä __
+
+* __jalk0a>^V __
+* __jalkka>a __
+
+* __järk0e>^V __
+* __järkke>e __
+
+* __murt0o>^V __
+* __murtto>o __
+
+* __polk0u>^V __
+* __polkku>u __
+
+* __särk0y>^V __
+* __särkky>y __
+
+* __lämp0ö>^V __
+* __lämppö>ö __
+
+* __pölk0ä>^V __
+* __pölkkä>ä __
+
+* __härk0ä>^V __
+* __härkkä>ä __
+
+* __kerk0i>^Vn __
+* __kerkki>in __
+
+* __lauk0e>i7s __
+* __laukke>is __
+
+* __särk0y>i7s __
+* __särkky>is __
 
 
 
@@ -852,3 +774,5 @@ __ä:0 before i except in conditional__
 __ä:0 before i except in conditional__
 
 
+* __a __
+* __b __
