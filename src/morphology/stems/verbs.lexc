@@ -350,7 +350,7 @@ karhiita:karhii v43_odd ;
 karhita:karhi v4_itte ;
 karistaat:karis v2_ta_odd ;
 karjaista:karjais v3_ise ;
-karjuut:karju v2 ;
+karjjuut:karju v2 ; ! XXX pitäisikö olla karjuut?
 karssiit:karsi v2 ;
 kartata:kartta v43_odd ;
 karttuut:karttu v2 ;
@@ -421,7 +421,7 @@ kiittäät:kiittä v2 ;
 kilistä:kilis v3_ise ;
 kiljaista:kiljais v3_ise ;
 kiljasta:kiljas v3_ise ;
-kiljuut:kilju v2 ;
+kiljjuut:kilju v2 ; ! XXX vai kiljuut???
 killata:killa v43_odd ;
 kilppaila:kilpp2ail v3_ele_odd ;
 kilvetä:kilpe v43_odd ;
@@ -1136,7 +1136,7 @@ räkätä:räkkä v43_odd ;
 rännätä:rännä v43_odd ;
 räpytellä:räpyttel v3_ele ;
 rääkkyyt:rääky v2 ;
-röhtelä:röhtel v3_ele_odd ;
+röhđelä:röhtel v3_ele_odd ; ! XXX vai röhtelä ??
 saaloot:saalo v2 ;
 saappuut:saapu v2 ;
 saarnata:saarna v43_odd ;
@@ -1147,7 +1147,7 @@ sairastaat:sairasta v2 ;
 sairastella:sairastel v3_ele ;
 sairastuut:sairastu v2 ;
 salata:sala v43_odd ;
-salvaat:salpa v2 ;
+salppaat:salpa v2 ; ! XXX vai salvaat ???
 sammuttaat:sammut v2_ta_odd ;
 sammuut:sammu v2 ;
 sannoot:sano v2 ;
@@ -1190,7 +1190,7 @@ sittoonttuut:sittoontu v2_odd ;
 sittoot:sito v2 ;
 siunata:siuna v43_odd ;
 sivakoita:sivakoi v4_oitte ;
-sivakoiđa:sivakoi v4_oitte ;
+sivakoiđa:sivakoi v1 ; ! XXX miksi kaksi sivakoi?
 skruuvata:skruuva v43_odd ;
 skuurata:skuura v43_odd ;
 sliipata:sliippa v43_odd ;
@@ -1353,7 +1353,7 @@ tyttyyt:tyty v2 ;
 tyyhenttäät:tyyhenttä v2_odd ;
 tyyhetä:tyyhe v4 ;
 tyyrätä:tyyrä v43_odd ;
-työtelä:työtel v3_ele_odd ;
+työtelä:työt2el v3_ele_odd ; ! XXX vai työđelä?
 tägnätä:tägnä v43_odd ;
 täivätä:täivä v43_odd ;
 täkätä:täkkä v43_odd ;
@@ -1372,7 +1372,7 @@ ulelttuut:ulelttu v2_odd ;
 ulettuut:ulettu v2_odd ;
 ulista:ulis v3_ise ;
 ulvaista:ulvais v3_ise ;
-ulvoot:ulvo v2 ;
+ulvvoot:ulvo v2 ; ! XXX vai ulvoot?
 unheettaat:unheet v2_ta_odd ;
 unheettaat:unheet v2_ta_odd ;
 unheettuut:unheettu v2_odd ;
@@ -1402,7 +1402,7 @@ vainota:vaino v43_odd ;
 vaippuut:vaipu v2 ;
 vaistoot:vaisto v2 ;
 vaistota:vaisto v43_odd ;
-vaitela:vaitel v3_ele_odd ;
+vaiđela:vaitel v3_ele_odd ; ! XXX vai vaitela?
 vaivata:vaiva v43_odd ;
 vajelttaat:vajel v2_ta_odd ;
 vajota:vajo v43_odd ;
@@ -1415,7 +1415,7 @@ vallaat:vala v2 ;
 valmistaat:valmis v2_ta_odd ;
 valmistuut:valmistu v2_odd ;
 valota:valo v43_odd ;
-valvoot:valvo v2 ;
+valvvoot:valvo v2 ; ! XXX vai valvoot?
 vanheta:vanhe v4 ;
 vannoot:vanno v2 ;
 vannottaat:vannot v2_ta_odd ;
