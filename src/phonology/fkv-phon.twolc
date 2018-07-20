@@ -30,7 +30,7 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^A0:0                    !!= * @CODE@ -- a to 0
 %^I0:0                    !!= * @CODE@ -- i to 0 in vanha_x_21 -Por with i endings: tooline
 %^E0:0                    !!≈ * @CODE@ e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
-%^Por:0                   !!= * @CODE@ -- Porsanger  dialekti
+%^Por:0                   !!= * @CODE@ -f- Porsanger  dialekti
 %^Var:0                   !!= * @CODE@ -- Varanger   dialekti
 %^Jok:0                   !!= * @CODE@ -- Jokivarret dialekti
 %^End:0                   !!= * @CODE@ -- End of word, since the # tags don't work properly
@@ -98,497 +98,214 @@ Rules
 !     ===============
 
 
-!! !Gemination
+!! !!Gemination
 
 !! Pitkän vokaalin jälkeen ja kans painottoman tavun jälkeen k, t, p ja s geminoituvat
 !! ko perässä on pitkä vokaali (= lounaismurteitten erikoisgeminaatio),
 !! mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen
 !! (= yleisgeminaatio). (ES).
 
-!! One rule for each vowel environment.
+"Gemination 0:h"
+0:h <=> [.#.|#:] Cns:* Vowel h _ ä %> :ä ;
+        [.#.|#:] Cns:* Vowel h _ ö %> :ö ;
+        [.#.|#:] Cns:* Vowel h _ y %> :y ;
+        [.#.|#:] Cns:* Vowel h _ u %> :u ;
+        [.#.|#:] Cns:* Vowel h _ e %> :e ;
+        [.#.|#:] Cns:* Vowel h _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:* Vowel h _ :a (Dialects:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
+        [.#.|#:] Cns:* Vowel h _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
+        [.#.|#:] Cns:* Vowel h _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
+"Gemination 0:j"
+0:j <=> [.#.|#:] Cns:*  Vowel j _ ä %> :ä ;
+        [.#.|#:] Cns:*  Vowel j _ ö %> :ö ;
+        [.#.|#:] Cns:*  Vowel j _ y %> :y ;
+        [.#.|#:] Cns:* Vowel j _ u %> :u ;
+        [.#.|#:] Cns:*  Vowel j _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:*  Vowel j _ e %> :e ;
+        [.#.|#:] Cns:* Vowel j _ :a (Dialects:0) %> :a ; ! for kuvvaa d. could be just %^Por:0
+        [.#.|#:] Cns:* Vowel j _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
+        [.#.|#:] Cns:* Vowel j _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii !
+        [.#.|#:] Cns:* Vowel:+ [l|r|n|m] j _ :ä %> :ä  ; !Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+        [.#.|#:] Cns:* Vowel:+ [l|r|n|m] j _ :a %> :a ;
+                               [l|r|n|m] j _ :Vowel %>  i7: ;
+                               [l|r|n|m]  j _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                               [l|r|n|m] :j _ e: %^E2I:0 %> i2: %>   %^V: ;
+                               [l|r|n|m]  j _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
+                               [l|r|n|m] j _ :ö %> :ö ;
+                               [l|r|n|m] j _ :y %> :y ;
+                               [l|r|n|m] j _ :u %> :u ;
+                               [l|r|n|m] j _ :o %> :o ;
+                               [l|r|n|m] j _ :e %> :e ;
 
-
-!"Gemination VXi"
-!!! __@RULENAME@__
-! 0:Cx <=> Cns:*  Vowel:* Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ;
-!          Cns:*  Vowel:* Vowel (Vowel:) Cx _ Vowel:         %> i2:i %> %^V:i  ;
-!          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e:         %> i7:i Cns ;
-!          Cns:*  Vowel:* Vowel (Vowel:) Cx _ e: %^E2I:0 %> i2: %> %^V:i ; vuossii
-!         where Cx in ( k p t  ) ; ! v excluded
-
-! -- eller --
-
-"0:k Gemination V-kk-i"
-!! __@RULENAME@__
+"Gemination 0:k"
 0:k <=> ([a|o]) [Vowel|i6:] (Vowel:) k _  :o (Dialects:0)  %^AO:0 %> [:i - i3:] (%> [n|t])     # ; ! aikkoi  ! never a:0
-!!$       a       i                  k     a   ^Por         ^AO  >   i2>n
-!!$       a       i                  k     o   00>i>n
-
         ([a|o]) [Vowel|i6:] (Vowel:) k _  :i (Dialects:0) %^A2I:0 %> [:i - i3:] (%> [n|t])     # ; ! poikkii ! never a:0
         ([a|o])  Vowel      (Vowel:) k _ e:0 (Dialects:0)         %>   i2:i      %> %^V:i  (n) # ; ! jokkii
-! TODO TODO TODO e:i i2:i and ^V:i ??? Fix this. d: Easter 2018
-!            j o k _ e:i %^Por %> i2:i %> %^V n ;
-!            j o k _ e:i %^Por %> i2:i %> %^V # ;
-!            p     o     i6:i         k _              a:i %^A2I:0   %> i2:i       %> n ; ! gen_n   since we have the i
-!            p     o     i6:i         k _              a:i %^A2I:0   %> i2:i       # ; !  since we have the i
- ! removed the /a, so not a:a, keep in mind if strange bugs appear. used2be [:o|:i|\a]
- ! should not be any ^WG in these context, not in gen and par.
- ! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar? Answer: use just #
- ! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
- ! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
- ! Also Cns Vowel k _ i %> %^V: ;!sippiit but ^V is always :i,right?
-                Vowel (Vowel:) k _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
-                Vowel (Vowel:) k _ e:               %> i7:i Cns ; ! contr verbs
-                Vowel (Vowel:) k _ Vowel:           %> %^V:i ; ! sopi soppii
+                      Vowel (Vowel:) k _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
+                      Vowel (Vowel:) k _ e:               %> i7:i Cns ; ! contr verbs
+                      Vowel (Vowel:) k _ Vowel:           %> %^V:i ; ! sopi soppii
+ [.#.|#:] Cns:* Vowel:* Vowel      k _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
+ [.#.|#:] Cns:* Vowel:* Vowel      k _ ä %> :ä ;
+ [.#.|#:] Cns:* Vowel:* Vowel      k _ ö %> :ö ;
+ [.#.|#:] Cns:* Vowel:* Vowel      k _ y %> :y ;
+ [.#.|#:] Cns:* Vowel:* Vowel      k _ u %> %^V:u  ;
+ [.#.|#:] Cns:* Vowel:* Vowel      k _ o %> :o ;
+ [.#.|#:] Cns:* Vowel:* Vowel      k _ e (Dialects:) %> :e ;
+ [.#.|#:] Cns:* Vowel:+ [l|r|n|m]  k _ :ä %> :ä  ; ! kanskje enta et par Cns Vowel. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+ [.#.|#:] Cns:* Vowel:+ [l|r|n|m]  k _ :a %> :a ;
+                        [l|r|n|m]  k _ :Vowel %>  i7: ;
+                        [l|r|n|m]  k _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                        [l|r|n|m] :k _ e: %^E2I:0 %> i2: %>   %^V: ;
+                        [l|r|n|m]  k _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
+                        [l|r|n|m]  k _ :ö %> :ö ;
+                        [l|r|n|m]  k _ :y %> :y ;
+                        [l|r|n|m]  k _ :u %> :u ;
+                        [l|r|n|m]  k _ :o %> :o ;
+                        [l|r|n|m]  k _ :e %> :e ;
 
+"Gemination 0:l"
+0:l <=> [.#.|#:] Cns:* Vowel l _ ä %> :ä ;
+        [.#.|#:] Cns:* Vowel l _ ö %> :ö ;
+        [.#.|#:] Cns:* Vowel l _ y %> :y ;
+        [.#.|#:] Cns:* Vowel l _ u %> :u ;
+        [.#.|#:] Cns:* Vowel l _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:* Vowel l _ e %> :e ;
+        [.#.|#:] Cns:* Vowel l _ :a (Dialects:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
+        [.#.|#:] Cns:* Vowel l _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
+        [.#.|#:] Cns:* Vowel l _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
+"Gemination 0:m"
+0:m <=> [.#.|#:] Cns:* Vowel m _ ä %> :ä ;
+        [.#.|#:] Cns:* Vowel m _ ö %> :ö ;
+        [.#.|#:] Cns:* Vowel m _ y %> :y ;
+        [.#.|#:] Cns:* Vowel m _ u %> :u ;
+        [.#.|#:] Cns:* Vowel m _ e %> :e ;
+        [.#.|#:] Cns:* Vowel m _ :o   (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:* Vowel m _ :a   (Dialects:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
+        [.#.|#:] Cns:* Vowel m _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
+        [.#.|#:] Cns:* Vowel m _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
-"0:p Gemination V-pp-i"
-!! __@RULENAME@__
-0:p <=> ([a|o]) Vowel (Vowel:) p _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] %> [n|t] .#. ; ! never a:0! Then only k           a       i           p _ a:o           %^AO:0             %>   i2:i %> n #. ;
+"Gemination 0:n"
+0:n <=> [.#.|#:] Cns:* Vowel n _ ä %> :ä ;
+        [.#.|#:] Cns:* Vowel n _ ö %> :ö ;
+        [.#.|#:] Cns:* Vowel n _ y %> :y ;
+        [.#.|#:] Cns:* Vowel n _ u %> :u ;
+        [.#.|#:] Cns:* Vowel n _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:* Vowel n _ e %> :e ;
+        [.#.|#:] Cns:* Vowel n _ :a (Dialects:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
+        [.#.|#:] Cns:* Vowel n _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
+        [.#.|#:] Cns:* Vowel n _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
+
+"Gemination 0:p"
+0:p <=> ([a|o]) Vowel (Vowel:) p _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] %> [n|t] .#. ; ! never a:0! Then only k a i p _ a:o %^AO:0 %> i2:i %> n #. ;
         ([a|o]) Vowel (Vowel:) p _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] .#. ; ! Maybe [Dummy:* - ^A0] ?
-! removed the /a, so not a:a, keep in mind if strange bugs appear. used2be [:o|:i|\a]
-! should not be any ^WG in these context, not in gen and par.
-! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar?
-! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
-! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
-! Also Cns Vowel p _ i %> %^V: ;!sippiit but ^V is always :i,right?
                 Vowel (Vowel:) p _ Vowel:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
                 Vowel (Vowel:) p _ e:               %> i7:i Cns ; ! contr verbs
                 Vowel (Vowel:) p _ Vowel:           %> %^V:i ; ! sopi soppii
-         !     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
-
-         ! Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %> [:i - i3:] (i2:i) [ t | #:0 | (%>) (n) \[e|:a|:ä] ] ; ! sannoi & nykkiit
-         !        Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i (%>) (n) \[ :e ] ;  ! aikkoi&aikkoin ei aikoine
-         !        Vowel (Vowel:) Cx _ :o %^AO:0 %>  i2:i ;  ! aikkoi&aikkoin ei aikoine
-         !        Vowel (Vowel:) Cx _ [:o|:i] (%^AO:0) %>  i2:i [ .#. | %> n .#.] ;
-         !        a i k _ a:o %^AO:0 %> i2:i %> n [\e | \:a|\:ä ] ;
-!          except
-!              _ :i ;!:o (%^AO:0) %> i2: %> n ;
-
-! TODO Uncomment and fix ^A: issues in a:o and kkpp in general
-!   !!$ kuva^A0>i2
-!   !!$ kuva0>i
-!   !!$ kuva^A0>i2>n
-!   !!$ kuva0>i>n
-!   !!$ kuva^A0>i2>n^A
-!   !!$ kuva0>i>na
-!    !!$ poi6ka^A0>i2>n^A
-!    !!$ poika0>i>na
-!         !!€ kuva^A0>i2>n^A
-!         !!€ kuv00>i>na
-!         !!€ poi6ka^A0>i2>n^A
-!         !!€ poik00>i>na
+  [.#.|#:] Cns:* Vowel:* Vowel p _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
+  [.#.|#:] Cns:* Vowel:* Vowel p _ ä %> :ä ;
+  [.#.|#:] Cns:* Vowel:* Vowel p _ ö %> :ö ;
+  [.#.|#:] Cns:* Vowel:* Vowel p _ y %> :y ;
+  [.#.|#:] Cns:* Vowel:* Vowel p _ u %> %^V:u  ;
+  [.#.|#:] Cns:* Vowel:* Vowel p _ o %> :o ;
+  [.#.|#:] Cns:* Vowel:* Vowel p _ e (Dialects:) %> :e ;
+  [.#.|#:] Cns:* Vowel:+ [l|r|n|m] p _ :ä %> :ä  ; ! kanskje enta et par Cns Vowel. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+  [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] p _ :a %> :a ;
+                         [l|r|n|m] p _ :Vowel %>  i7: ;
+                         [l|r|n|m] p _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                         [l|r|n|m] :p _ e: %^E2I:0 %> i2: %>   %^V: ;
+                         [l|r|n|m] p _  i          %> i2: %> t %^A: ; ! meininkkiitä in Por
+                         [l|r|n|m] p _ :ö %> :ö ;
+                         [l|r|n|m] p _ :y %> :y ;
+                         [l|r|n|m] p _ :u %> :u ;
+                         [l|r|n|m] p _ :o %> :o ;
+                         [l|r|n|m] p _ :e %> :e ;
 
 
+"Gemination 0:r"
+0:r <=> [.#.|#:] Cns:* Vowel r _ ä %> :ä ;
+        [.#.|#:] Cns:* Vowel r _ ö %> :ö ;
+        [.#.|#:] Cns:* Vowel r _ y %> :y ;
+        [.#.|#:] Cns:* Vowel r _ u %> :u ;
+        [.#.|#:] Cns:* Vowel r _ e %> :e ;
+        [.#.|#:] Cns:* Vowel r _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:* Vowel r _ :a (Dialects:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
+        [.#.|#:] Cns:* Vowel r _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
+        [.#.|#:] Cns:* Vowel r _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
-!!$ kuv0a^A0>i2>n^A
-!!$ kuvvi0>i>na
-!!$ poi6ka^A0>i2>n^A
-!!$ poiki0>i>na
-
-!!$ poi6ka^A2I>i2>n
-!!$ poika0>i>n
-!!$ poi6ka^A2I>i2
-!!$ poika0>i
-
-! !!€ aik0a^Por^AO>i2>n
-! !!€ aikko 0   0 >i>n
-! !!$ aika^Por^AO>i2>n
-! !!$ aiko00>i>n
-! Miks tää menee läpi? TODO Ask about the nature of 0:something and these negational Rules
-! How to make sure 0:k exists and NOT the base 0:0?
-
-! TODO Seems to work in lexc?
-! !!€ aik0a^Por^AO>i2
-! !!€ aikko00>i
-
-! !!$ aika^Por^AO>i2
-! !!$ aiko00>i
-! Miks tää menee läpi? TODO Ask about the nature of 0:something and these negational Rules
-! How to make sure 0:k exists and NOT the base 0:0?
-
-!!€ aika^Por^AO>i2>n^A
-!!€ aiko00>i>na
-!!€ aika^Por^AO>i2>ne
-!!€ aiko00>i>ne
-
-!!€ kuv0a^Por^A2I>i2>n
-!!€ kuvvi00>i>n
-!!€ kuv0a^Por^A2I>i2
-!!€ kuvvi00>i
-
-!!€ kuva^Por^A0>i2>ne
-!!€ kuv000>i>ne
-!!$ kuv0a^Por^A0>i2>ne
-!!$ kuvvi00>i>ne
-!!$ kuva^Por^A0>i2>ne
-!!$ kuva00>i>ne
-
-! !!€ poi6k0a^Por^A2I>i2>n
-! !!€ poikki00>i>n
-! !!€ poi6k0a^Por^A2I>i2
-! !!€ poikki00>i
-!!€ poi6ka^Por^A0>i2>ne
-!!€ poik000>i>ne
-!!$ poi6ka^Por^A0>i2>ne
-!!$ poika00>i>ne
-!!$ poi6ka^Por^A0>i2>ne
-!!$ poiki00>i>ne
-
-
-
-
-
-
-
-! !!€ jok0e>i2>n
-! !!€ jokki>i>n
-
-! !!€ jok0e>i2
-! !!€ jokki>i
-
-! !!€ aik0a^AO>i2
-! !!€ aikko0>i
-
-! !!€ poi6k0a^A2I>i2>n
-! !!€ poikki0>i>n
-
-!!$ poi6ka^A2I>i2>n
-!!$ poika0>i>n
-
-
-! s      o   p                      i  %> ^Vt
-!!€ sop0i>^V
-!!€ soppi>i
-
-
-
-
-!"Poista k aikoine "
-!!! __@RULENAME@__
-!Cx:0 <=> Vowel (Vowel:) Cx _ [:o|:i] %^AO:0 %> i2:i  %> n [ e |:a |:ä] ; ! to be shortened (2014). sannoi & nykkiit
-!     pai   v                       u   k k   o      ^AO     %>       i2          %>     ne
-
-!          except
-!              _ :i ;!:o (%^AO:0) %> i2: %> n ;
-
-!        where Cx in ( k p  ) ; ! v excluded
-
-
-!"Negation of V-kkpp-i"
-! __@RULENAME@__
-!0:k /<=                  _  :o     (%^AO:0) %>        i2:i        %> n :e ;
-!     pai   v      u   k k   o      ^AO     %>        i2          %>     ne
-
-
-"Gemination Vtti"
-!! __@RULENAME@__
- 0:t <=> :Vowel t _ [:o|:i]  (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
-         :Vowel t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
-         :Vowel t _ e:            %> i7:i Cns ; ! contr verbs
-[.#.|#:] Cns:* Vowel:+ [l|r|n|m] t _ :a %> :a ; ! TODO used to be in LIQa.
-
-!!€ ant0a>^Vt
-!!€ antta>at
-
-
-!
- !Cns:* Vowel:* Vowel (Vowel:) t _ [:o|:i] (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
-         !Cns:* Vowel:* Vowel (Vowel:) t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
-         !Cns:* Vowel:* Vowel (Vowel:) t _ e:            %> i7:i Cns ; ! contr verbs
-! split from V-kp_i in order to easier negate words like vuottiin.
-! anttaat is in LIQa
-
-
-"Gemination Vssi"
-!! __@RULENAME@__
+"Gemination 0:s"
  0:s <=>  Cns:*  Vowel:* Vowel (Vowel:) :s _   :i                   %> [:i - i3:] (i2:i) ;  ! to be fixed
           Cns:*  Vowel:* Vowel (Vowel:) :s _ [e:|i:]                %> i2:i %> %^V:i ;  ! klas0i>i2>in:klass0>i>in ja vuossiin
           Cns:*  Vowel     [n|l|r]     t:s _ [e:|i:]                %> i2:i %> %^V: ;  ! hirssii(n). Ihmeellisestivain t:s toimii, :s antaa paljon virheitä kaikkialla. 22 lisää.
           Cns:*  Vowel     [n|l|r]     t:s _   :i                   %> [:i - i3:] (i2:i) ;  ! to be fixed. Seems to not do anything?
                                        t:s _  e:0  %^Por:0          %> i2: %> %^V: ; ! ! uussiin uussii in Por
                                        t:s _  e:i (%^Por:0) %^E2I:0 %> i5: ; ! ONLY SUPERL, i5 IS SUPERLATIVE i
-                                      ! TODO probably have this be only in Por, not optionally in Por.
-                                      ! Check if this doesn't work in -Por (probably shouldn@t)
-                                      ! We have e:i in superlative, now we want uussiin which takes e:0, only Por thought
-!                          u   u       t    0  e     ^E2I            %> i5  etc. %>m^A%>t
+        [.#.|#:] Cns:* Vowel:* Vowel s _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
+        [.#.|#:] Cns:* Vowel:* Vowel s _ ä %> :ä ;
+        [.#.|#:] Cns:* Vowel:* Vowel s _ ö %> :ö ;
+        [.#.|#:] Cns:* Vowel:* Vowel s _ y %> :y ;
+        [.#.|#:] Cns:* Vowel:* Vowel s _ u %> %^V:u  ;
+        [.#.|#:] Cns:* Vowel:* Vowel s _ o %> :o ;
+        [.#.|#:] Cns:* Vowel:* Vowel s _ e (Dialects:) %> :e ;
+                           [l|r|n|m] s _ :Vowel %>  i7: ;
+                           [l|r|n|m] s _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                           [l|r|n|m] :s _ e: %^E2I:0 %> i2: %>   %^V: ;
+                           [l|r|n|m] s _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
+                           [l|r|n|m] s _ :ö %> :ö ;
+                           [l|r|n|m] s _ :y %> :y ;
+                           [l|r|n|m] s _ :u %> :u ;
+                           [l|r|n|m] s _ :o %> :o ;
+                           [l|r|n|m] s _ :e %> :e ;
+    [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] s _ :a %> :a ;
+    [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] s _ :ä %> :ä  ; ! kanskje enta et par Cns Vowel. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+
+"Gemination 0:t"
+ 0:t <=> :Vowel t _ [:o|:i]  (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
+         :Vowel t _ [Vowel: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
+         :Vowel t _ e:            %> i7:i Cns ; ! contr verbs
+  [.#.|#:] Cns:* Vowel:+ [l|r|n|m] t _ :a %> :a ; ! TODO used to be in LIQa.
+  [ .#. | #: ] Cns:* Vowel:* Vowel t _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
+  [ .#. | Cns ]  Vowel:* Vowel t _ ä %> :ä ;
+  [ .#. | Cns ]  Vowel:* Vowel t _ ö %> :ö ;
+  [ .#. | Cns ]  Vowel:* Vowel t _ y %> :y ;
+  ([ .#. | Cns]) (Vowel:*) Vowel t _ u %> %^V:u  ;
+  [ .#. | #: ] Cns:*  Vowel:* Vowel t _ o %> :o ;
+ [ .#. | Cns ]   Vowel:* Vowel t _ e (Dialects:) %> :e ;
+  [l|r|n|m] t _ :Vowel %>  i7: ;
+  [l|r|n|m]  t _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+          [l|r|n|m] :t _ e: %^E2I:0 %> i2: %>   %^V: ;
+          [l|r|n|m]  t _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
+  [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] t _ :ä %> :ä  ; ! kanskje enta et par Cns Vowel. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+  [l|r|n|m] t _ :ö %> :ö ;
+  [l|r|n|m] t _ :y %> :y ;
+  [l|r|n|m] t _ :u %> :u ;
+  [l|r|n|m] t _ :o %> :o ;
+  [l|r|n|m] t _ :e %> :e ;
+  [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] t _ :a %> :a ;
+
+"Gemination 0:v"
+0:v <=> [.#.|#:] Cns:*  Vowel v _ ä %> :ä ;
+        [.#.|#:] Cns:*  Vowel v _ ö %> :ö ;
+        [.#.|#:] Cns:*  Vowel v _ y %> :y ;
+        [.#.|#:] Cns:*  Vowel v _ u %> :u ;
+        [.#.|#:] Cns:*  Vowel v _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:*  Vowel v _ e %> :e ;
+        [.#.|#:] Cns:*  Vowel v _ :a (Dialects:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
+        [.#.|#:] Cns:*  Vowel v _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
+        [.#.|#:] Cns:*  Vowel v _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
+        [.#.|#:] Cns:*  Vowel:+ [l|r|n|m] v _ :ä %> :ä  ; ! kanskje enta et par Cns Vowel. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+        [.#.|#:] Cns:*  Vowel:+ [l|r|n|m] v _ :a %> :a ;
+                                [l|r|n|m] v _ :Vowel %>  i7: ;
+                                [l|r|n|m]  v _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                                [l|r|n|m] :v _ e: %^E2I:0 %> i2: %>   %^V: ;
+                                [l|r|n|m]  v _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
+                                [l|r|n|m] v _ :ö %> :ö ;
+                                [l|r|n|m] v _ :y %> :y ;
+                                [l|r|n|m] v _ :u %> :u ;
+                                [l|r|n|m] v _ :o %> :o ;
+                                [l|r|n|m] v _ :e %> :e ;
 
-! uussii uute ^E2I%>i5
-
-!!€ vuot0e>i2>^V>n
-!!€ vuoss0>i>i>n
-
-!!$ vuot0e>i2>^V>n
-!!$ vuott0>i>i>n
-
-!!€ housu>i2>le
-!!€ housu>i>le
-
-!!€ hirt0e>i2>^V
-!!€ hirss0>i>i
-
-!!$ hirt0e>i2>^V
-!!$ hirtt0>i>i
-
-
-
-
-"Gemination VVa"
-!! __@RULENAME@__
-0:Cx <=> [ .#. | #: ] Cns:* Vowel:* Vowel Cx _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
-!          Vowel [n|l|r] _ a %> a:a ;
-! maybe add  [n|l|r] somewhere here
-       where Cx in ( k p t s ) ;
-
-! Add these when it's fixed
-!!€ ant0a>^Vt
-!!€ antta>at
-!!€ ant0a>^V
-!!€ antta>a
-
-! TODO TODO TODO fix this test (04.18), ei ehkä dial tag, ehkä joku muu
-! !!$ anta^AO>i3
-! !!$ anto0>i
-
-!!€ ant0a>^V>v^A
-!!€ antta>a>va
-!!€ ant0a>^V>v^At
-!!€ antta>a>vat
-!!€ aik0a^Por>^V
-!!€ aikka0>a
-
-
-"Gemination Vi"
-!! __@RULENAME@__
-0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
-!                   k     u   v  0  a      ^AO    >   i  > n
-         [.#.|#:] Cns:* Vowel Cx _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
-       where Cx in ( h j l m n r v ) ;
-
-!!€ kiv0e>i2>^V
-!!€ kivv0>i>i
-
-! TODO Seems to work in lexc?
-! !!€ kuv0a^Por^AO>i2
-! !!€ kuvvi00>i
-! TODO TODO TODO, should we have a:i i2:i n? Not consistent with some others, where we have a:0 i2:i i n
-
-"Gemination Va"
-!! __@RULENAME@__
-0:Cx <=> [.#.|#:] Cns:* Vowel Cx _ :a (Dialects:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
-       where Cx in ( h j l m n r v ) ;
-
-!!€ kal0a>^V
-!!€ kalla>a
-! kuva is ^V in Por and ^A in -Por
-!!€ kuv0a>^V
-!!€ kuvva>a
-
-"Gemination VVe"
-!! __@RULENAME@__
-0:Cx <=> [ .#. | Cns ]   Vowel:* Vowel Cx _ e (Dialects:) %> :e ;
-       where Cx in ( k p t s ) ;
-
-!!€ suome>^V
-!!€ suome>e
-
-!!€ lauk0e>^V
-!!€ laukke>e
-
-"Gemination Ve"
-!! __@RULENAME@__
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ e %> :e ;
-       where Cx in ( h j l m n r v ) ;
-
-!!€ tek0e>^V
-!!€ tekke>e
-
-"Gemination VVo"
-!! __@RULENAME@__
- 0:Cx <=> [ .#. | #: ] Cns:*  Vowel:* Vowel Cx _ o %> :o ;
-        where Cx in ( k p t s) ;
-
-!!€ kat0o>^V>t
-!!€ katto>o>t
-
-"Gemination Vo"
-!! __@RULENAME@__
-0:Cx <=> [.#.|.#. Cns] Vowel Cx _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
-! | .#. Cns] is to not trigger on kulkija^AO>i2>t^A to try to give -jj
-       where Cx in ( h j l m n r v ) ;
-
-!!€ kal0a^Por^AO>i2
-!!€ kallo00>i
-
-!!€ kir0o>^V>t
-!!€ kirro>o>t
-
-! TODO Seems to work in lexc?
-!!€ san0a^AO>i2
-!!€ sanno0>i
-
-"Gemination Vu"
-!! __@RULENAME@__
- 0:Cx <=> ([ .#. | Cns]) (Vowel:*) Vowel Cx _ u %> %^V:u  ;
-        where Cx in (  k p t s ) ;
-! 0:Cx <=> .#. Cns:* Vowel:* Vowel Cx _ :u %> [ :u | i7: ] ;
-!        where Cx in ( h j k l m n p r s t v ) ;
-
-!!€ jout0u>^V
-!!€ jouttu>u
-
-"Gemination VVu"
-!! __@RULENAME@__
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ u %> :u ;
-       where Cx in ( h j l m n r v ) ;
-
-!!€ puh0u>^V
-!!€ puhhu>u
-
-
-"Gemination Vy"
-!! __@RULENAME@__
- 0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ y %> :y ;
-        where Cx in (  k p t s) ;
-
-!!€ näk0y>^V
-!!€ näkky>y
-
-
-"Gemination VVy"
-!! __@RULENAME@__
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ y %> :y ;
-       where Cx in ( h j l m n r v ) ;
-
-!!€ lev0y>^V
-!!€ levvy>y
-
-"Gemination Vö"
-!! __@RULENAME@__
- 0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ ö %> :ö ;
-        where Cx in (  k p t s) ;
-
-
-!!€ näk0ö>^V
-!!€ näkkö>ö
-
-"Gemination VVö"
-!! __@RULENAME@__
-0:Cx <=> [ .#. | Cns ] Vowel Cx _ ö %> :ö ;
-       where Cx in ( h j l m n r v ) ;
-
-!!€ pör0ö>^V
-!!€ pörrö>ö
-
-!!$ perin0ö^WG>n
-!!$ perinnö0>n
-
-
-"Gemination Vä"
-!! __@RULENAME@__
- 0:Cx <=> [ .#. | Cns ]  Vowel:* Vowel Cx _ ä %> :ä ;
-        where Cx in ( k p t s) ;
-
-!!€ tiet0ä>^Vt
-!!€ tiettä>ät
-
-!!€ as0u>^Vt
-!!€ assu>ut
-
-
-"Gemination VVä"
-!! __@RULENAME@__
-0:Cx <=> [ .#. | Cns | #: ] Vowel Cx _ ä %> :ä ;
-         where Cx
-         in    ( h j l m n r v ) ;
-
-!!€ el0ä>^V
-!!€ ellä>ä
-
-
-!! !Liquid + gemination consonant
-
-"Gemination LIQa"
-!! __@RULENAME@__
- 0:Cx <=> [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] Cx _ :a %> :a ;
-  !               Vowel:          Cns      Cx _ a  %>  %^V: ; ! anttaa
-         where Cx in ( j k p s v ) ;
-
-!!€ jalk0a>^V
-!!€ jalkka>a
-
-
-"Gemination LIQe"
-!! __@RULENAME@__
- 0:Cx <=> [l|r|n|m] Cx _ :e %> :e ;
-        where Cx in ( j k p s t v ) ;
-
-!!€ järk0e>^V
-!!€ järkke>e
-
-"Gemination LIQo"
-!! __@RULENAME@__
- 0:Cx <=> [l|r|n|m] Cx _ :o %> :o ;
-        where Cx in ( j k p s t v ) ;
-
-!!€ murt0o>^V
-!!€ murtto>o
-
-"Gemination LIQu"
-!! __@RULENAME@__
- 0:Cx <=> [l|r|n|m] Cx _ :u %> :u ;
-        where Cx in ( j k p s t v ) ;
-
-!!€ polk0u>^V
-!!€ polkku>u
-
-"Gemination LIQy"
-!! __@RULENAME@__
- 0:Cx <=> [l|r|n|m] Cx _ :y %> :y ;
-        where Cx in ( j k p s t v ) ;
-
-!!€ särk0y>^V
-!!€ särkky>y
-
-"Gemination LIQö"
-!! __@RULENAME@__
- 0:Cx <=> [l|r|n|m] Cx _ :ö %> :ö ;
-        where Cx in ( j k p s t v ) ;
-
-!!€ lämp0ö>^V
-!!€ lämppö>ö
-
-"Gemination LIQä"
-!! __@RULENAME@__
- 0:Cx <=> [.#.|#:] Cns:+ Vowel:+ [l|r|n|m] Cx _ :ä %> :ä  ; ! kanskje enta et par Cns Vowel. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
-        where Cx in ( j k p s t v ) ;
-
-!!€ pölk0ä>^V
-!!€ pölkkä>ä
-!!€ härk0ä>^V
-!!€ härkkä>ä
-
-"Gemination LIQi"
-!! __@RULENAME@__
- 0:Cx <=> [l|r|n|m]  Cx _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
-          [l|r|n|m] :Cx _ e: %^E2I:0 %> i2: %>   %^V: ;
-          [l|r|n|m]  Cx _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
-       where Cx in ( j k p s t v ) ;
-
-!!€ kerk0i>^Vn
-!!€ kerkki>in
-
-"Gemination LIQi7"
-!! __@RULENAME@__
- 0:Cx <=> [l|r|n|m] Cx _ :Vowel %>  i7: ;
-        where Cx in ( j k p s t v ) ;
-
-!!€ lauk0e>i7s
-!!€ laukke>is
-!!€ särk0y>i7s
-!!€ särkky>is
 
 
 
@@ -1484,6 +1201,244 @@ Vx:e <=>  [.#.|#:] Cns:* Vowel: (Vowel:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
 
 
 
+!%%%%%%%%%%%%%%%%%%%%
+!! !!Gemination tests
+
+! TODO TODO TODO e:i i2:i and ^V:i ??? Fix this. d: Easter 2018
+!            j o k _ e:i %^Por %> i2:i %> %^V n ;
+!            j o k _ e:i %^Por %> i2:i %> %^V # ;
+!            p     o     i6:i         k _              a:i %^A2I:0   %> i2:i       %> n ; ! gen_n   since we have the i
+!            p     o     i6:i         k _              a:i %^A2I:0   %> i2:i       # ; !  since we have the i
+ ! removed the /a, so not a:a, keep in mind if strange bugs appear. used2be [:o|:i|\a]
+ ! should not be any ^WG in these context, not in gen and par.
+ ! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar? Answer: use just #
+ ! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
+ ! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
+ ! Also Cns Vowel k _ i %> %^V: ;!sippiit but ^V is always :i,right?
+
+! removed the /a, so not a:a, keep in mind if strange bugs appear. used2be [:o|:i|\a]
+! should not be any ^WG in these context, not in gen and par.
+! TODO TODO TODO find alternative to .#. at the end. Maybe NOT > or something similar?
+! akkoin akkoi mutta aikoina aikoine. .#. ei toimi niin kuin pitäisä. Miksi? TODO TODO sama sanassa poika
+! jokkii,sannoi,nykkiit. Maybe \EÄA. Used2nothave Cns @start be4 merger.
+! Also Cns Vowel p _ i %> %^V: ;!sippiit but ^V is always :i,right?
+
+! TODO Uncomment and fix ^A: issues in a:o and kkpp in general
+!   !!$ kuva^A0>i2
+!   !!$ kuva0>i
+!   !!$ kuva^A0>i2>n
+!   !!$ kuva0>i>n
+!   !!$ kuva^A0>i2>n^A
+!   !!$ kuva0>i>na
+!   !!$ poi6ka^A0>i2>n^A
+!   !!$ poika0>i>na
+!   !!€ kuva^A0>i2>n^A
+!   !!€ kuv00>i>na
+!   !!€ poi6ka^A0>i2>n^A
+!   !!€ poik00>i>na
+
+!!$ kuv0a^A0>i2>n^A
+!!$ kuvvi0>i>na
+!!$ poi6ka^A0>i2>n^A
+!!$ poiki0>i>na
+
+!!$ poi6ka^A2I>i2>n
+!!$ poika0>i>n
+!!$ poi6ka^A2I>i2
+!!$ poika0>i
+
+! !!€ aik0a^Por^AO>i2>n
+! !!€ aikko 0   0 >i>n
+! !!$ aika^Por^AO>i2>n
+! !!$ aiko00>i>n
+! Miks tää menee läpi? TODO Ask about the nature of 0:something and these negational Rules
+! How to make sure 0:k exists and NOT the base 0:0?
+
+! TODO Seems to work in lexc?
+! !!€ aik0a^Por^AO>i2
+! !!€ aikko00>i
+
+! !!$ aika^Por^AO>i2
+! !!$ aiko00>i
+! Miks tää menee läpi? TODO Ask about the nature of 0:something and these negational Rules
+! How to make sure 0:k exists and NOT the base 0:0?
+
+!!€ aika^Por^AO>i2>n^A
+!!€ aiko00>i>na
+!!€ aika^Por^AO>i2>ne
+!!€ aiko00>i>ne
+
+!!€ kuv0a^Por^A2I>i2>n
+!!€ kuvvi00>i>n
+!!€ kuv0a^Por^A2I>i2
+!!€ kuvvi00>i
+
+!!€ kuva^Por^A0>i2>ne
+!!€ kuv000>i>ne
+!!$ kuv0a^Por^A0>i2>ne
+!!$ kuvvi00>i>ne
+!!$ kuva^Por^A0>i2>ne
+!!$ kuva00>i>ne
+
+! !!€ poi6k0a^Por^A2I>i2>n
+! !!€ poikki00>i>n
+! !!€ poi6k0a^Por^A2I>i2
+! !!€ poikki00>i
+!!€ poi6ka^Por^A0>i2>ne
+!!€ poik000>i>ne
+!!$ poi6ka^Por^A0>i2>ne
+!!$ poika00>i>ne
+!!$ poi6ka^Por^A0>i2>ne
+!!$ poiki00>i>ne
+
+! !!€ jok0e>i2>n
+! !!€ jokki>i>n
+
+! !!€ jok0e>i2
+! !!€ jokki>i
+
+! !!€ aik0a^AO>i2
+! !!€ aikko0>i
+
+! !!€ poi6k0a^A2I>i2>n
+! !!€ poikki0>i>n
+
+!!$ poi6ka^A2I>i2>n
+!!$ poika0>i>n
+
+!!€ sop0i>^V
+!!€ soppi>i
+
+!!€ vuot0e>i2>^V>n
+!!€ vuoss0>i>i>n
+
+!!$ vuot0e>i2>^V>n
+!!$ vuott0>i>i>n
+
+!!€ housu>i2>le
+!!€ housu>i>le
+
+!!€ hirt0e>i2>^V
+!!€ hirss0>i>i
+
+!!$ hirt0e>i2>^V
+!!$ hirtt0>i>i
+
+!!€ ant0a>^Vt
+!!€ antta>at
+!!€ ant0a>^V
+!!€ antta>a
+
+! !!$ anta^AO>i3
+! !!$ anto0>i
+
+!!€ ant0a>^V>v^A
+!!€ antta>a>va
+
+!!€ ant0a>^V>v^At
+!!€ antta>a>vat
+
+!!€ aik0a^Por>^V
+!!€ aikka0>a
+
+!!€ kiv0e>i2>^V
+!!€ kivv0>i>i
+
+! !!€ kuv0a^Por^AO>i2
+! !!€ kuvvi00>i
+! TODO TODO TODO, should we have a:i i2:i n? Not consistent with some others, where we have a:0 i2:i i n
+
+
+!!€ kal0a>^V
+!!€ kalla>a
+! kuva is ^V in Por and ^A in -Por
+!!€ kuv0a>^V
+!!€ kuvva>a
+
+!!€ suome>^V
+!!€ suome>e
+
+!!€ lauk0e>^V
+!!€ laukke>e
+
+!!€ tek0e>^V
+!!€ tekke>e
+
+!!€ kat0o>^V>t
+!!€ katto>o>t
+
+!!€ kal0a^Por^AO>i2
+!!€ kallo00>i
+
+!!€ kir0o>^V>t
+!!€ kirro>o>t
+
+! TODO Seems to work in lexc?
+!!€ san0a^AO>i2
+!!€ sanno0>i
+
+!!€ jout0u>^V
+!!€ jouttu>u
+
+!!€ puh0u>^V
+!!€ puhhu>u
+
+!!€ näk0y>^V
+!!€ näkky>y
+
+!!€ lev0y>^V
+!!€ levvy>y
+
+!!€ näk0ö>^V
+!!€ näkkö>ö
+
+!!€ pör0ö>^V
+!!€ pörrö>ö
+
+!!$ perin0ö^WG>n
+!!$ perinnö0>n
+
+!!€ tiet0ä>^Vt
+!!€ tiettä>ät
+
+!!€ as0u>^Vt
+!!€ assu>ut
+
+!!€ el0ä>^V
+!!€ ellä>ä
+
+!!€ jalk0a>^V
+!!€ jalkka>a
+
+!!€ järk0e>^V
+!!€ järkke>e
+
+!!€ murt0o>^V
+!!€ murtto>o
+
+!!€ polk0u>^V
+!!€ polkku>u
+
+!!€ särk0y>^V
+!!€ särkky>y
+
+!!€ lämp0ö>^V
+!!€ lämppö>ö
+
+!!€ pölk0ä>^V
+!!€ pölkkä>ä
+
+!!€ härk0ä>^V
+!!€ härkkä>ä
+
+!!€ kerk0i>^Vn
+!!€ kerkki>in
+
+!!€ lauk0e>i7s
+!!€ laukke>is
+
+!!€ särk0y>i7s
+!!€ särkky>is
 
 
 
@@ -1599,6 +1554,6 @@ Vx:e <=>  [.#.|#:] Cns:* Vowel: (Vowel:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
 
 ! oppettaajhiin
 
-!  € a
-!  € b
+!!€ a
+!!€ b
 ! Ka gjor den her testen?
