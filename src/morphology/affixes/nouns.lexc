@@ -81,8 +81,7 @@ LEXICON n_31_pl !!= * @CODE@ = häät
 +N             : x_31 ;
 
 LEXICON x_31_pl !!= * @CODE@ = häät
-  +Sg          : gen_n_sg ;
-
+!  +Sg          : gen_n_sg ; gen_n_sg in x_31
   +Pl          : nom_t    ;
   +Pl          :%>i2      sgpl_cases_even ; !! the same affix in sg and pl
 
@@ -1092,13 +1091,13 @@ LEXICON n_22_inen_pl ! !!= @CODE@ tervheiset tervhei
 !! !Sublexica for the basic unified cases, with even and odd variations
 ! ----------------------------------------------------------------------
 
-LEXICON sgpl_cases_even ! kaikille paitsi neljän koplalle
+LEXICON sgpl_cases_even ! 
            +Ade:%>l^A  PxxK              ; ! Lyhyt perusmuoto vuođela
            +All:%>le   PxxK              ; ! Lyhyt perusmuoto
   +Dial/Jok+All:%>let  PxxK              ; ! pienelet
                        sgpl_cases_common ;
 
-LEXICON sgpl_cases_odd ! neljän koplalle. <- Mitä vittua tää kopla tarkoittaa tässä kontekstissa? Tämä ei ole aku ankka!
+LEXICON sgpl_cases_odd ! 
            +Ade:%>ll^A PxxK              ; ! Pitkä perusmuoto
            +All:%>lle  PxxK              ; ! Pitkä perusmuoto
   +Dial/Jok+All:%>llet PxxK              ; ! pieniimillet
