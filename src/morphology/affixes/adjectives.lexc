@@ -25,7 +25,9 @@ LEXICON VANHAA ! still TODO fix vanha yaml
 +A+Dial/Var       :a^Var x_11_AO ; ! ai to oi doesn't work yet
 +A+Dial/Jok       :a^Jok x_11_AO ; ! ai to oi doesn't work yet
 +A                :e comp_m_odd ;
-+A                :i5 superl_m_odd ;
++A+Dial/Por       :^Pori5 superl_m_odd ;
++A+Dial/Var       :^Vari5 superl_m_odd ;
++A+Dial/Jok       :^Joki5 superl_m_odd ;
 
 ! yksiköt ovat nämä, vanha_x_1 -sestä otettu:
 !      +A+Sg+Nom:a              K               ;
@@ -72,14 +74,14 @@ LEXICON a_11_AO ! laiha
 +A:^AE     comp_m_odd   ; !
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
 +A:^WG^A2I%>i5 superl_m_odd ;
-+A+Dial/Var:^WG^AE%>   superl_m_odd ; 
++A+Dial/Var:^WG^AE%>   superl_m_odd ;
 
 LEXICON a_11_A0_A2I ! kova
 +A: x_11_A0_A2I ;
 +A:^AE     comp_m_odd   ; !
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
 +A:^WG^A2I%>i5 superl_m_odd ;
-+A+Dial/Var:^WG^AE%>   superl_m_odd ; 
++A+Dial/Var:^WG^AE%>   superl_m_odd ;
 
 ! LEXICON vanha_x_21 ! can come from pronoun "sama"
 !  a_11 ;
