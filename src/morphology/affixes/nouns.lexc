@@ -1091,16 +1091,16 @@ LEXICON n_22_inen_pl ! !!= @CODE@ tervheiset tervhei
 !! !Sublexica for the basic unified cases, with even and odd variations
 ! ----------------------------------------------------------------------
 
-LEXICON sgpl_cases_even ! 
+LEXICON sgpl_cases_even !
            +Ade:%>l^A  PxxK              ; ! Lyhyt perusmuoto vuođela
            +All:%>le   PxxK              ; ! Lyhyt perusmuoto
   +Dial/Jok+All:%>let  PxxK              ; ! pienelet
                        sgpl_cases_common ;
 
-LEXICON sgpl_cases_odd ! 
+LEXICON sgpl_cases_odd !
            +Ade:%>ll^A PxxK              ; ! Pitkä perusmuoto
            +All:%>lle  PxxK              ; ! Pitkä perusmuoto
-  +Dial/Jok+All:%>llet PxxK              ; ! pieniimillet
+ +Dial/-Por+All:%>llet PxxK              ; ! pieniimillet
                        sgpl_cases_common ;
 
 LEXICON sgpl_cases_common

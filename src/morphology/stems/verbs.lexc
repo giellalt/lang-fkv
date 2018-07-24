@@ -72,7 +72,10 @@ asettuut:asettu v2_odd ;
 astuut:astu v2 ;
 aueta:auke v43_odd ;
 aukaista:aukais v3_ise ; ! TODO used to have +v1 ?
-aukaista:aukas v3_ise ; ! TODO used to have +v2 ?
+aukaista:aukas v3_ise ; ! TODO used to have +v2 ? ! [17/34][FAIL] aukaista+V+Act+PrsPrc+Sg+Nom => Missing results: aukaseva
+! Now v3_ise all end on s. In order to have aukasevat, as an possible
+! Unexpected results: aukasseeva, aukaisseevat
+! Missing results: aukasevat, Unexpected results: aukasseevat
 auttaat:autta v2 ;
 averteerata:averteera v43_odd ;
 diskrimineerata:diskrimineera v43 ;

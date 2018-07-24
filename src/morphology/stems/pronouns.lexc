@@ -27,9 +27,9 @@ net+Pron+Pers+Pl3+Gen+Err/Orth:niinen  K ;
 
 
 !! Demonstratiivipronominit
-tämä+Pron+Dem:tä            tama_pron    ;
-tämä+Pron+Dem+Sg+Nom: tämä  K            ; ! jos tämä on tässä niin tämä ja tuo timii kokonaan! Älä poista!
-tämä+Pron+Pers+Sg1:tä       12pronsg    ;
+tämä+Pron+Dem:tä            tama_pron ;
+tämä+Pron+Dem+Sg+Nom: tämä  K         ; ! jos tämä on tässä niin tämä ja tuo toimii kokonaan! Älä poista!
+tämä+Pron+Pers+Sg1:tä       12pronsg  ;
 tuo+Pron+Dem:tuo            tuo     ;
 se+Pron+Dem+Sg:             se_pron ;
 nämät+Pron+Dem+Pl+Nom:nämät K       ;
@@ -85,7 +85,7 @@ joku+Pron+Indef+Sg:jo                   sgjoku_indef ;
 jokku+Pron+Indef+Pl:jokku               K ;
 jokku+Pron+Indef+Pl:joi                 pljoku_indef ;
 muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
-!!!muutama+Pron+Indef+Pl:muutam			TODO 
+!!!muutama+Pron+Indef+Pl:muutam			TODO
 muutamat+Pron+Indef+Pl:muutamat         K   ;
 muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
 
