@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 ## Copyright: SÅ·mediggi/Divvun/UiT
-## Licence: GPL v3+
+## Licence: GPL v3+ 
 
 SUBDIRS = phonology orthography morphology syntax
 
