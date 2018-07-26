@@ -1,5 +1,5 @@
 ## Process this file with automake to produce Makefile.in
-## Copyright: S√°mediggi/Divvun/UiT
+## Copyright: SÅ·mediggi/Divvun/UiT
 ## Licence: GPL v3+
 
 SUBDIRS = phonology orthography morphology syntax
@@ -19,6 +19,12 @@ if WANT_MORPHOLOGY
 TESTS+=run-gt-norm-anayaml-testcases.sh \
        run-gt-desc-anayaml-testcases.sh
 
+if WANT_DIALECTS
+TESTS+=run-gt-norm-por-anayaml-testcases.sh \
+       run-gt-norm-var-anayaml-testcases.sh \
+       run-gt-norm-jok-anayaml-testcases.sh
+endif # WANT_DIALECTS 
+
 # This is for yaml tests requiring BOTH an analyser AND a generator:
 if WANT_GENERATION
 TESTS+=run-gt-norm-yaml-testcases.sh \
@@ -28,7 +34,7 @@ TESTS+=run-gt-norm-yaml-testcases.sh \
 if WANT_DIALECTS
 TESTS+=run-gt-norm-por-yaml-testcases.sh \
        run-gt-norm-var-yaml-testcases.sh \
-       run-gt-norm-jok-yaml-testcases.sh 
+       run-gt-norm-jok-yaml-testcases.sh
 endif # WANT_DIALECTS
 
 endif # WANT_GENERATION
@@ -42,7 +48,7 @@ TESTS+=run-gt-norm-genyaml-testcases.sh \
 if WANT_DIALECTS
 TESTS+=run-gt-norm-por-genyaml-testcases.sh \
        run-gt-norm-var-genyaml-testcases.sh \
-       run-gt-norm-jok-genyaml-testcases.sh 
+       run-gt-norm-jok-genyaml-testcases.sh
 endif # WANT_DIALECTS
 
 endif # WANT_GENERATION
@@ -65,9 +71,12 @@ XFAIL_TESTS=run-dict-gt-desc-anayaml-testcases.sh \
             run-gt-norm-anayaml-testcases.sh \
             run-gt-norm-genyaml-testcases.sh \
             run-lexc-testcases.sh \
+            run-gt-norm-por-anayaml-testcases.sh \
+            run-gt-norm-var-anayaml-testcases.sh \
+            run-gt-norm-jok-anayaml-testcases.sh \
             run-gt-norm-por-genyaml-testcases.sh \
             run-gt-norm-var-genyaml-testcases.sh \
-            run-gt-norm-jok-genyaml-testcases.sh 
+            run-gt-norm-jok-genyaml-testcases.sh
 
 ####### Other targets: ###########
 clean-local:
