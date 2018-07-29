@@ -75,8 +75,8 @@ XFAIL_TESTS=run-dict-gt-desc-anayaml-testcases.sh \
             run-gt-norm-var-anayaml-testcases.sh \
             run-gt-norm-jok-anayaml-testcases.sh \
             run-gt-norm-por-genyaml-testcases.sh \
-            run-gt-norm-var-genyaml-testcases.sh \
-            run-gt-norm-jok-genyaml-testcases.sh
+            run-gt-norm-var-genyaml-testcases.sh 
+
 
 ####### Other targets: ###########
 clean-local:
