@@ -1,4 +1,4 @@
-!! !!!Phonological rules for Kven
+!! !!!!Phonological rules for Kven
 !! !!Alphabet
 
 Alphabet
@@ -86,15 +86,15 @@ NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;  !!= * @C
 NE = %> n e ;
 EÄA = e %^A ;
 
-! Development rules:
-! --- NO UNCLEAR SEQUENCES WITHOUT A FUCKING EXPLANATION (and TESTS): (Cns:*) :Cns+ Cns:* (:Cns)
+! Development principles:
+! --- NO UNCLEAR SEQUENCES WITHOUT AN EXPLANATION (and TESTS): (Cns:*) :Cns+ Cns:* (:Cns)
 ! --- One TRIGGER, one change! No ^AO that means a:o and a:0 and a:i, then 3 DIFFERENT triggers
 
-!! !!!Rules
+!! !!!!Rules (Divided into consonant and vowel rules)
 Rules
 
 
-!! !!Consonant rules
+!! !!!Consonant rules
 !     ===============
 
 
@@ -239,7 +239,7 @@ Rules
 "Gemination 0:s"
  0:s <=>  Cns:* Vow:+         :s _   :i                   %> [:i - i3:] (i2:i) ;  ! to be fixed
           Cns:* Vow:+         :s _ [e:|i:]                %> i2:i %> %^V:i ;  ! klas0i>i2>in:klass0>i>in ja vuossiin
-          Cns:* Vow  [n|l|r] t:s _ [e:|i:]                %> i2:i %> %^V: ;  ! hirssii(n). Ihmeellisestivain t:s toimii, :s antaa paljon virheitä kaikkialla. 22 lisää.
+          Cns:* Vow  [n|l|r] t:s _ [e:|i:]                %> i2:i %> %^V: ;  ! hirssii(n). Vain t:s toimii, :s ==> virheitä kaikkialla: 22 lisää.
           Cns:* Vow  [n|l|r] t:s _   :i                   %> [:i - i3:] (i2:i) ;  ! to be fixed. Seems to not do anything?
                              t:s _  e:0  %^Por:0          %> i2: %> %^V: ; ! ! uussiin uussii in Por
                              t:s _  e:i (%^Por:0) %^E2I:0 %> i5: ; ! ONLY SUPERL, i5 IS SUPERLATIVE i
@@ -312,13 +312,24 @@ Rules
 
 
 
-!! !!Consonant gradation
+
+
+
+
+
+
+
+
+
+
+
+
+!! !!Gradation
 !    ===================
 
 
 
-
-!! !Gradation -p-
+!! !Gradation p
 
 "Gradation p:0 (pp:p)"
 !! __@RULENAME@__
@@ -352,7 +363,7 @@ p:m <=> Vow: m _  Vow: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 !!€ turpe^WGt
 !!€ turve0t
 
-!! !Gradation of -k-
+!! !Gradation k
 
 "Gradation i6:0, in word poika: pojan"
 !! __@RULENAME@__
@@ -411,7 +422,8 @@ k:0 <=>               h _ [Vow - e:] (Dummy:) (:i) (Dummy:) %^WG:0      ; ! tuhk
 !!€ luje0>n
 ! jälki: jäljen ; järki; järjen; kulkkeet: kuljen; särkkeet : särjen
 
-! Pöljätä tai pölätä. Terje, sanakirja ja korpus sanovat pölätä. Eiran grammatiikki sannoo pöljätä, mutta sitä ei löyty korpuksesta. YAML-sanoo pölätä, joten pidettiin pölätä
+! Pöljätä tai pölätä. Terje, sanakirja ja korpus sanovat pölätä.
+! Eiran grammatiikki sannoo pöljätä, mutta sitä ei löyty korpuksesta. YAML-sanoo pölätä, joten pidettiin pölätä
 
 !!€ pölkä^WG>t^A
 !!€ pöl0ä0>tä
@@ -602,7 +614,16 @@ t:s <=> Vow n   _        e:                  %> i2: [.#.|%> Cns] ; ! Miksi vain 
 !0 vuoss00i>i
 
 
-!! !!Consonant assimilation
+
+
+
+
+
+
+
+
+
+!! !!Assimilation
 
 "Alveolar assimilation for consonant stems"
 !! __@RULENAME@__
@@ -616,11 +637,73 @@ t:s <=> Vow n   _        e:                  %> i2: [.#.|%> Cns] ; ! Miksi vain 
 j:0 <=> l _ e: %^E2I:0 ;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ! ===============
 !! !!!Vow rules
 ! ===============
 
 !! !!Vow harmony
+
+!! The idea of having f.ex V:e, always to a specific vowel, is to not have conflicts in
+!! twolc compilation. This improves compilation time (we assume) and it make Twolc
+!! behave more predictable. Weird things happen sometimes with conflicts!
+!! The downside is that often you have linguistic rules for vowels that are similar
+!! for a group of vowels! This is most of case. And now you have to edit it for all
+!! vowel separately one by one. Hopefully, we can make sure we don't forget to do it
+!! too often, by having more user feedback, especially from the paradigms in the dictionary.
+
+
+!! ! For each Vowel separately
+
+"V:e"
+!! __@RULENAME@__
+! Old names:
+! 1. "Vow copying in long h-illative sg first vowel"
+! 2. "Vow copying in long h-illative sg second vowel"
+! 3. "Vow copying in short h-illative and short partitive sg"
+%^V:e <=> Cns (Vow) e (Cns) Cns (%^Por:0)   (%^HMETA:0) %> h      _ %^V: n      ; ! 1.
+          Cns (Vow) e (Cns) Cns (Dialects:) (%^HMETA:0) %> h %^V: _      n      ; ! 2.
+               Vow e: (Dialects:)                       %> h      _ [ n: | m: ] ; ! 3. ! teehen
+         :Cns      e  (Dialects:)                       %>        _             ; ! 3. ! saamee (ainoa!) [ .#. | #: | %> ] ;
+
+! Old tests for "Vow copying in long h-illative sg first vowel"
+!!€ vereks>h^V^Vn
+!!€ vereks>heen
+
+! Old tests for ! "Vow copying in long h-illative sg second vowel"
+! e is for vowel copying, then e:0 ! maybe should have it without e?
+!!€ lapse^HMETA>h^V^Vn
+!!€ laps00>heen
+!!€ lume^HMETA>h^V^Vn
+!!€ lum00>heen
+! maybe miehe with the e, as the others TODO check
+!!€ mieh^HMETA>h^V^Vn
+!!€ mieh0>heen
+!!€ vereks>h^V^Vn
+!!€ vereks>heen
+
+
+
+!! ! (the old system) with variables (Vx/Vy) instead of each vowel separately
 
 "Back harmony for %^A: %^O: %^U:"
 !! __@RULENAME@__
@@ -639,9 +722,9 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vow copying in short h-illative and short partitive sg"
 !! __@RULENAME@__
- %^V:Vx <=>     Vow Vx: (Dialects:) %> h _ [ n: | m: ] ;
-                :Cns  Vx  (Dialects:) %>   _ ; ![ .#. | #: | %> ] ;
-    where Vx in ( a e i o u y ä ö ) ;
+ %^V:Vx <=>     Vow Vx: (Dialects:) %> h _ [ n: | m: ] ; ! maahan
+                :Cns  Vx  (Dialects:) %>   _ ; ![ .#. | #: | %> ] ; ! heinää
+    where Vx in ( a i o u y ä ö ) ;
 
     !!€ maa>h^Vn
     !!€ maa>han
@@ -650,37 +733,6 @@ j:0 <=> l _ e: %^E2I:0 ;
     !!€ syksy>^V
     !!€ syksy>y
 
-
-"Vow copying in long h-illative sg first vowel"
-!! __@RULENAME@__
-%^V:Vx <=> Cns (Vow) Vx (Cns) Cns (%^Por:0) (%^HMETA:0) %> h _ %^V: n ;
-        !   l           u         m   ^HMETA    %> h ^V ^V  n ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
-    where Vx in ( e ) ;
-
-!!€ vereks>h^V^Vn
-!!€ vereks>heen
-
-
-"Vow copying in long h-illative sg second vowel"
-!! __@RULENAME@__
-%^V:Vx <=> Cns (Vow) Vx (Cns) Cns (Dialects:) (%^HMETA:0) %> h %^V: _ n ;
-      ! !!€ v e r e   k    s             > h   ^V  ^V n
-   where Vx in ( e ) ;
-! TODO check if this isn't included in the similar rules below
-
-! e is for vowel copying, then e:0 ! maybe should have it without e?
-!!€ lapse^HMETA>h^V^Vn
-!!€ laps00>heen
-
-!!€ lume^HMETA>h^V^Vn
-!!€ lum00>heen
-
-! maybe miehe with the e, as the others TODO check
-!!€ mieh^HMETA>h^V^Vn
-!!€ mieh0>heen
-
-!!€ vereks>h^V^Vn
-!!€ vereks>heen
 
 
 "Vow copying in partitive of words ending in io, ia"
@@ -749,8 +801,6 @@ j:0 <=> l _ e: %^E2I:0 ;
 !Sitte vartalon loppuvokaali muuttu o:ksi, kun vartalon alussa on a-, e- tai i-, esimerkiksi reuna: reunhoin, aika:aikhoin
 
 
-
-
 "Stem deletion in h-illative"
 !! __@RULENAME@__
  Vx:0 <=> :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:Vx|i:] ;
@@ -765,6 +815,22 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 !! !!Stem alternation rules
 !  ========================
 
@@ -775,6 +841,10 @@ j:0 <=> l _ e: %^E2I:0 ;
 !!€ rakkaa^VDEL^WG>s
 !!€ rak0a000>s
 ! TODO maybe change the system to be ^WG then VDEL, if so, fix this test afterwards
+
+
+
+
 !! !!e rules
 !  =========
 
@@ -861,6 +931,7 @@ j:0 <=> l _ e: %^E2I:0 ;
     ! TODO We could further restict these Consonants
 
 
+
 !! !!i rules
 !  =========
 !! The -i- rules require different i-s for different POS.
@@ -886,6 +957,8 @@ j:0 <=> l _ e: %^E2I:0 ;
 !i:i for odd-syllabic stems tuntu-riiksi
 !!€ tunturi>i2>ksi
 !!€ tunturi>i>ksi
+
+
 
 
 !! !!a rules
@@ -1018,7 +1091,7 @@ a:o <=> [#:|.#.] (Cns:*) UnroundedVow ([u|i|e|a]) Cns: (:Cns) (Cns:)            
 !a:i <=> Vow Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
 a:i <=> Vow Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vow instead of a a to generalize? Are cases missing?
         Vow Cns Cns:* a   j _ (%^WG:) %^A2I:0 %> ; ! Var TODO Vow instead of a a to generalize? Are cases missing? opettajine
-        [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _  %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! TODO Remove and fix this. ! ruokaruokhiin, poi6ka poikhiin
+        [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _  %^AO:0 %> i2: [ .#. | %> n .#. ]  ;! TODO rm&fix this. ! ruokaruokhiin, poi6ka poikhiin
 !       p      o i6:i  k  :k a:i %^A2I:0   %> i2:i %> n ; ! gen_n         since we have the i
                               _ (Dialects:0) (%^WG:0) %^A2I:0 ; ! kuvviin kuvvii, poikkiin poikkii
 ! TODO TODO TODO remove this previous context, and just f*cking split it in lexc.
@@ -1040,7 +1113,8 @@ a:i <=> Vow Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vow instead of a a 
 !!€ kuvvi0>i
 
 
-! Hmm! differense in lexc in kuvvii ja ruokhiin. kuvvii adds one i and ruohkiin two! I think. TODO check if true, plan a:0 vs a:i accordingly TODO TODO TODO
+! Hmm! differense in lexc in kuvvii ja ruokhiin. kuvvii adds one i and ruohkiin two! I think.
+! TODO check if above is true, plan a:0 vs a:i accordingly TODO TODO TODO
    ! aili [3:54 PM]
 ! Eli kun ensi tavussa on pyöreä vokaali (esim. -u tai -o), vartalon loppuvokaali jää pois
 !  -i (tai vastaavan -j) suffiksin edeltä. Poika-nominissa on pyöreä vokali -o, siksi poikhiin
@@ -1147,7 +1221,7 @@ a:i <=> Vow Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vow instead of a a 
 
 
 
-!! !!Other rules
+!! !!!Other rules
 !    ===========
 
 "a:e in comparative"
