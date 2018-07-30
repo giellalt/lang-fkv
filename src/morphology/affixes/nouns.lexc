@@ -357,7 +357,9 @@ LEXICON x_21_odd !!= * @CODE@  kajava
   +Pl      :^WG^A0%>i2      sgpl_cases_odd ; ! TODO any cases here that should have ^AO?
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
 
-
+LEXICON n_21_odd_C !!= * @CODE@ lainasanat, fiction
++N+Sg: nom_end ;
++N:i x_21_odd_i_oblique ;
 
 LEXICON n_21_odd_i !!= * @CODE@  meininki, tunturi TODO
 +N         :     x_21_odd_i ;
@@ -366,6 +368,9 @@ LEXICON n_21_odd_i !!= * @CODE@  meininki, tunturi TODO
 
 LEXICON x_21_odd_i
   +Sg      :        nom_end               ;
+  x_21_odd_i_oblique ;
+  
+LEXICON x_21_odd_i_oblique
   +Sg      :^WG     gen_n_sg        ;
   +Sg+Dial/Por:        par_V           ;
   +Sg+Dial/-Por:        par_A           ;
@@ -928,7 +933,8 @@ LEXICON x_22_excns
   +Sg      :^WG%>s     nom_end        ;
   +Sg      :kse        gen_n_sg       ;
   +Sg      :%>s        par_tA         ;
-  +Sg      :ks         ill_hVVn       ;
+  +Sg      :ks         ill_heen       ;
+!  +Sg      :ks         ill_hVVn       ;
 !  +Sg+Ill:ksheen K              ; ! +Pl+Ill:ksh%>i2in K; ! TODO TODO TODO
   +Sg      :kse        ess_nnA        ;
   +Sg      :kse        sgpl_cases_odd ; ! these two lexica for cases with
@@ -1172,8 +1178,11 @@ LEXICON par_end
 LEXICON ill_hVn ! NB Used 1 ONCE, only: 1.  hVn > maahan
  +Ill:%>h^V      n_PxK ; !  +Sg +Ill:%>h^V n_PxK ;
 
-LEXICON ill_hVVn !  2.  hVVn > tunturhiin | sykshyyn, linnhaan | linna pl.ill. kaksi muotoa po. linnhoin,
- +Ill:%>h^V^V    n_PxK ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
+LEXICON ill_hVVn !  2.  hVVn > tunturhiin | sykshyyn, linnhaan | linna pl.ill. 2 muotoa po. linnhoin,
++Ill:%>h^V^V    n_PxK ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
+
+LEXICON ill_heen !  for s : ksheen
++Ill:%>hee    n_PxK ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
 
 LEXICON ill_sseen !  3.  sseen > rukhiisseen, kuninkhaa>sseen, previously mTAVU_VV-ill
  +Ill:%>ssee     n_PxK ;
