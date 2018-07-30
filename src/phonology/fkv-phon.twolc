@@ -582,8 +582,8 @@ o:u <=> v u _ t:0 e %^Var: %^WG: %^UU: %> t ; ! savvuhuonet
 t:s <=> Vow n   _        e:                  %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
  Vow ([n|l|r])  _  (:s)  e:     (Dialects:0) %^E2I: ;! uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
   Vow           _  (:s)  e:     (Dialects:0) %> i2:    %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc. | vuossii(n) | uusia] ! uusine
-  Vow ([n|l|r]) _        e:0    (Dialects:0) %^HMETA:0 %> h :i ; ! jok uushiin
-  Vow  Vow      _  (:s) Vow:0 (%^AO:0)               %> i3:  ;
+  Vow ([n|l|r]) _        e:0    (Dialects:0) (%^AO:0) %^HMETA:0 %> h :i ; ! jok uushiin
+  Vow  Vow      _  (:s) Vow:0 (%^AO:0)                %> i3:  ;
   Vow     n     _       Vow:0 [Dummy:* - %^WG:0]     %> i3:  ;
   Vow [n|l|r]   _   :s   e:0    (Dialects:0) %> i2:i   %> %^V: ; ! hirssii
   Vow [n|l|r]   _       Vow:0 (Dialects:0) (%^WG:0) (%^E2I:)  %> i2: ; ! hirsiksi, hirsi (pl - gen par)
@@ -718,8 +718,9 @@ j:0 <=> l _ e: %^E2I:0 ;
 %^V:a <=>     Vow a: (Dialects:)           %> h  _ [ n: | m: ] ; ! 1. !maahan
             :Cns  a  (Dialects:)           %>    _ ; ! 1. ! [ .#. | #: | %> ] ; !heinää
             :Cns i a (Dialects:)           %>    _ ; ! 2.
-                  a: (Dialects:0) %^HMETA: %> h  _   %^V:  ; ! 3.
-                  a: (Dialects:0) %^HMETA: %> h %^V:  _  ; ! 4.
+                  a: (Dialects:) (%^AO:) %^HMETA: %> h  _   %^V:  ; ! 3.
+                  a: (Dialects:) (%^AO:) %^HMETA: %> h %^V:  _  ; ! 4.
+                                 [e|i|:Cns] a %> _ ; ! Vow copying of a in partitive after vowel sequences
 
 !!€ maa>h^Vn
 !!€ maa>han
@@ -788,9 +789,6 @@ j:0 <=> l _ e: %^E2I:0 ;
 !!€ kuva^AO^HMETA%>h^V%>i2
 !!€ kuv000>hi>i
 
-"Vow copying of a in partitive after vowel sequences"
-!! __@RULENAME@__
- %^V:a <=> [e|i] a %> _ ;
 
 "Vow copying of i in partitive after vowel sequences"
 !! __@RULENAME@__
@@ -820,19 +818,6 @@ j:0 <=> l _ e: %^E2I:0 ;
 !Luin, että  u- tai o-alkuisen diftongin jäljessä vartalon loppuvokaali katoaa (esim ruoka: ruokhiin, poika: poikhiin jne)
 
 !Sitte vartalon loppuvokaali muuttu o:ksi, kun vartalon alussa on a-, e- tai i-, esimerkiksi reuna: reunhoin, aika:aikhoin
-
-
-"Stem deletion in h-illative"
-!! __@RULENAME@__
- Vx:0 <=> :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:Vx|i:] ;
-          :SurfaceCns _ (%^AO:)  %^HMETA: %> h [:Vx|i:] ;
-          :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) (:o) %> i2: ;
-          :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ;
-    where Vx in ( i o u y ä ö ) ; ! removing a, e
-
-!!€ syksy^HMETA>h^V^Vn
-!!€ syks00>hyyn
-
 
 
 
@@ -1010,7 +995,28 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _
                                                      :i          _ (Dialects:) (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
                                                                a _ %^VDEL:0  ([Dummy: - %^A2I:]) %> [s|t] ;
                                                                  _ (Dialects:) (%^WG:0) %^A0:0 ; ! ^A0 is always a:0
-!                                                                       _ i5: ; ! loistaaviimmin
+                                                                       _ i5: ; ! loistaaviimmin
+!         :SurfaceCns _ (Dialects:) (%^E2I:) (%^HMETA:) %> h [:a|i:] ; ! "Stem deletion of a in h-illative"
+!         :SurfaceCns _ (Dialects:) (%^AO:)  (%^HMETA:) %> h (%^V:) (:o) %> i2: ; ! "Stem deletion of a in h-illative"
+!         :i          _ (Dialects:) (%^AO:)  (%^HMETA:) %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! "Stem deletion of a in h-illative"
+
+!!€ varma^HMETA>h^V^Vn
+!!€ varm00>haan
+
+
+"Stem deletion in h-illative"
+!! __@RULENAME@__
+ Vx:0 <=> :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:Vx|i:] ;
+          :SurfaceCns _ (%^AO:)  %^HMETA: %> h [:Vx|i:] ;
+          :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) (:o) %> i2: ;
+          :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ;
+    where Vx in ( i o u y ä ö ) ; ! removing a, e
+
+!!€ syksy^HMETA>h^V^Vn
+!!€ syks00>hyyn
+
+
+
 
 ! TODO TODO TODO TODO TODO a lot of the AO contexts are no longer! As they are replaced by the A0 tag in lexc
 
