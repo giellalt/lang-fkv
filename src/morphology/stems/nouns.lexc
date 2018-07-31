@@ -72,18 +72,14 @@ LEXICON NounRoot !!= @CODE@
 
 
 !!!arrugado n_21 ;
-!!!hauđathauđat n_x ;
 !!!kumara:kumara n_21_odd ;
 !!!rasittaat:rasittaa vanha_n_33 ;
 !!!tukkee:tukke n_31_JOTAIN ;
 !!!ulkoovi:ulkoove n_11_E2I ;
-!ikamatkalainen:ikamatkalai n_22_inen ;
-!olu n_11 ;
 
 
 
 ! List where # should be added
-!tyven n_22 ; Tämä on jo adj.lexc
 !vuosi:vuoje n_12_si ;
 !vuosi:vuue n_12_si ;
 !!!cuesta n_11_AO  ;
@@ -311,7 +307,7 @@ asetti n_21_odd_i ;
 asfaltti n_21_odd_i ;
 asfalttijärvi:asfaltti#järve n_11_E2I ;
 asfalttitie:asfaltti#tie n_31 ;
-askel n_x ;
+askel n_22 ;
 askelet:askel n_32_et ;
 assii+Dial/-Por:asia n_21_oi ; ! TODO TODO TODO This is old! We prob don't need to distgsh in stems
 assii+Dial/Por:assii n_31_JOTAIN_ii ; !!= * @CODE@
@@ -830,7 +826,7 @@ herräysliiket:herräys#liikk n_32_et ;
 hersku n_11 ;
 hertta n_11_AO  ;
 herätys:herät2y n_22_excns ;
-hete n_x ; !!! TODO käänteinen astevaihtelu
+hetet:hett n_32_et ; ! XXX check hete
 hetelmä n_21_odd ;
 hetelmätaras:hetelmä#tar n_32_as ;
 hetki:hetke n_11_E2I ;
@@ -1198,7 +1194,7 @@ juoksu n_11 ;
 juolikka n_21_oi ;
 juoma n_11_A0_A2I ;
 juomaklasi:juoma#klasi n_11_i ;
-juomingit n_x ;
+juomingit:juominki n_11_pl ;
 juomu n_11 ;
 juomus:juomu n_22_excns ;
 juoppo n_11 ;
@@ -1250,7 +1246,7 @@ jäsen:jäsen n_22 ;
 jästi n_11_i ;
 jätkä n_11 ;
 jää n_31 ;
-jäähyvästit n_x ;
+jäähyvästit:jäähyvästi n_11_pl ;
 jääkaappi:jää#kaappi n_11_i ;
 jääkarfuu:jää#karfuu n_31_JOTAIN_ii ;
 jääkarhuu:jää#karhuu n_31_JOTAIN_ii ;
@@ -1504,7 +1500,7 @@ kauhistus:kauhistu n_22_excns ;
 kaukalo n_21_oi ;
 kauko-ohjaaja n_21_odd ;
 kaula n_11_AO  ;
-kaulanne n_x ;
+kaulannet:kaulant n_32_et ; ! XXX check
 kaulus:kaulu n_22_excns ;
 kaunet:kaun n_32_et ;
 kaunheus:kaunheu n_22_s ;
@@ -1635,7 +1631,7 @@ kieliprošekti:kieli#prošekti n_21_odd_i ;
 kieliseppä:kieli#seppä n_11 ;
 kielisota:kieli#sota n_11_A0_A2I ;
 kieliteknologiaprošekti:kieli#teknologia#prošekti n_21_odd_i ;
-kielitieđe:kieli#tieđe n_x ;
+kielitieđet:kieli#tiet n_32_et ; ! XXX check
 kielivuosi:kieli#vuote n_12_si ;
 kielto n_11 ;
 kieltoverbi:kielto#verbi n_11_i ;
@@ -2451,7 +2447,7 @@ liekki n_11_i ;
 liekkiraito:liekki#raito n_11 ;
 liemi:lieme n_12 ;
 lieppi n_11_i ;
-liete n_x ; !!! TODO käänteinen astevaihtelu
+lietet:liett n_32_et ; !!! TODO käänteinen astevaihtelu
 liha n_11_AO  ;
 lihaliemi:liha#lieme n_12 ;
 lihanhimo:lihan#himo n_11 ;
@@ -3253,7 +3249,7 @@ outa n_11_A0_A2I ;
 outamaa:outa#maa n_31 ;
 outavouti:outa#vouti n_11_i ;
 ovensuu:oven#suu n_31 ;
-overalsit n_x ;
+overalsit:overalsi n_11_pl ;
 ovi:ove n_11_E2I ;
 ovikello:ovi#kello n_11 ;
 ovipieli:ovi#piele n_12 ;
@@ -3749,7 +3745,7 @@ prakut:praku n_11_pl ;
 predikasuuni n_21_odd_i ;
 predikasuunisyntakti:predikasuuni#syntakti n_21_odd_i ;
 predikatiivi n_21_odd_i ;
-preesens n_x ; !!! TODO ei sopivaa luokkaa
+preesens n_21_odd_C ; 
 preesensi n_21_odd_i ;
 preevi n_11_i ;
 preivi n_11_i ;
@@ -4426,7 +4422,7 @@ savvuporo:savvu#poro n_11 ;
 savvureikä:savvu#reikä n_11 ;
 sađet:sat n_32_et ;
 sađetkuuro n_11 ;
-sciens n_x ;
+!sciens n_x ;
 seeni n_11_i ;
 seili n_11_i ;
 seililaiva:seili#laiva n_11_AO  ;
@@ -4709,7 +4705,7 @@ suomus:suomu n_22_excns ;
 suonenveto:suonen#veto n_11 ;
 suoni:suone n_12 ;
 suopunki n_21_odd_i ;
-suorki n_x ; !!! TODO Taivutustyyppi ei tiedossa, gen suorkin
+suorki:suork2i n_12 ; 
 suorsa n_11_A0_A2I ;
 suova n_11_A0_A2I ;
 superlatiivi n_21_odd_i ;
@@ -5156,7 +5152,8 @@ turhuus:turhuu n_22_s ;
 turisti n_21_odd_i ;
 turisti+N+Sg+Nom+Err/Orth:tyristi K ;
 turistibisnes:turisti#bisne n_22_excns ;
-turistihyttä+N+Sg+Nom+Err/Orth:tyristi#hyttä K ;
+turistihyttä+Err/Orth:tyristi#hyttä n_11 ; ! XXX check
+turistihyttä:turisti#hyttä n_11 ; ! XXX check
 turkishattu:turkis#hattu n_11 ;
 turkiskaulus:turkis#kaulu n_22_excns ;
 turkki n_11_i ;
@@ -5310,7 +5307,7 @@ uuđenvuođenaatto:uuđenvuođen#aatto n_11 ;
 uuđenvuođenpäivä:uuđen#vuođen#päivä n_11 ;
 uuđistusdepartementti:uuđistus#departementti n_21_odd_i ;
 vaaja n_21_odd ;
-vaaka n_x ; !!!TODO taivutusparadigmaa selvitellään
+vaaka n_11_AO ; !!!TODO taivutusparadigmaa selvitellään
 vaakasuora:vaaka#suora n_11_A0_A2I ;
 vaakkara n_21_oi ;
 vaaksiainen:vaaksiai n_22_inen ;
@@ -5559,9 +5556,10 @@ viissaus:viissau n_22_s ;
 viisymmi n_21_odd_i ;
 viitonen:viito n_22_inen_odd ;
 vika n_11_AO  ;
-vikaatet+N+Sg+Nom+Err/Orth:vikaatt K ;
-vikatet:vikatt n_32_et ;
-vikattheenvarsi:vikattheen#varte n_12_si ;
+!vikaatet+N+Sg+Nom+Err/Orth:vikaatt K ; ! XXX check viikatet / vikatet
+!vikatet:vikatt n_32_et ;
+!vikattheenvarsi:vikattheen#varte n_12_si ;
+viikatet:viikatt n_32_et ; ! XXX check viikatet/vikaatet
 vilja n_11_AO  ;
 viljat:vilja n_11_pl ;
 villa n_11_AO  ;
