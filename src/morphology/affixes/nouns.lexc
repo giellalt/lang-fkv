@@ -1101,6 +1101,7 @@ LEXICON sgpl_cases_even !
            +Ade:%>l^A  PxxK              ; ! Lyhyt perusmuoto vuođela
            +All:%>le   PxxK              ; ! Lyhyt perusmuoto
   +Dial/Jok+All:%>let  PxxK              ; ! pienelet
+!  +Dial/-Por+All:%>let  PxxK              ; ! pienelet
                        sgpl_cases_common ;
 
 LEXICON sgpl_cases_odd !
