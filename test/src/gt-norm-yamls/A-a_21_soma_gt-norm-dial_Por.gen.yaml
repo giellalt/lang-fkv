@@ -20,20 +20,20 @@ Tests:
     soma+A+Sg+Abe: somatta
     soma+A+Sg+Ine: somassa
     soma+A+Sg+Ela: somasta
-    soma+A+Sg+Ill: somhaan #tsekkaa oonko oikhein
+    soma+A+Sg+Ill: somhaan
     soma+A+Sg+Ade: somala
     soma+A+Sg+Abl: somalta
     soma+A+Sg+All: somale
     soma+A+Sg+Ess: somana
 
     soma+A+Pl+Nom: somat
-    soma+A+Pl+Gen: somiitten
-    soma+A+Pl+Par: sommii #tsekkaa oonko oikhein
+    soma+A+Pl+Gen: sommiin # *somitten, cf. kuvviin, poikkiin (mutta Eira ~ pojitten)
+    soma+A+Pl+Par: sommii 
     soma+A+Pl+Tra: somiksi
     soma+A+Pl+Abe: somitta
     soma+A+Pl+Ine: somissa
     soma+A+Pl+Ela: somista
-    soma+A+Pl+Ill: somhiin #tsekkaa oonko oikhein
+    soma+A+Pl+Ill: somhiin
     soma+A+Pl+Ade: somila
     soma+A+Pl+Abl: somilta
     soma+A+Pl+All: somile
@@ -48,14 +48,14 @@ Tests:
     soma+A+Sg+Compar+Ine: somemassa
     soma+A+Sg+Compar+Ela: somemasta
     soma+A+Sg+Compar+Ill: somemphaan
-    soma+A+Sg+Compar+Ade: somemala
+    soma+A+Sg+Compar+Ade: somemalla
     soma+A+Sg+Compar+Abl: somemalta
     soma+A+Sg+Compar+All: somemalle
     soma+A+Sg+Compar+Ess: somempanna
 
     soma+A+Pl+Compar+Nom: somemat
     soma+A+Pl+Compar+Gen: somemiitten
-    soma+A+Pl+Compar+Par: somemppii
+    soma+A+Pl+Compar+Par: [somemppii, somemppiita]
     soma+A+Pl+Compar+Tra: somemiksi
     soma+A+Pl+Compar+Abe: somemitta
     soma+A+Pl+Compar+Ine: somemissa
@@ -82,7 +82,7 @@ Tests:
 
     soma+A+Pl+Superl+Nom: somiimat
     soma+A+Pl+Superl+Gen: somiimiitten
-    soma+A+Pl+Superl+Par: somiimppii
+    soma+A+Pl+Superl+Par: [somiimppii, somiimppiita]
     soma+A+Pl+Superl+Tra: somiimiksi
     soma+A+Pl+Superl+Abe: somiimitta
     soma+A+Pl+Superl+Ine: somiimissa
