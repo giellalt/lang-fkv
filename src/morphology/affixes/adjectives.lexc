@@ -115,9 +115,9 @@ LEXICON a_21_odd	!!= * @CODE@  simppeli, loistaava
 +A+Dial/Var       :%>i5  superl_mm     ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
  !+A+Dial/Por+Pl+Compar+Gen:%>mm%>ii2tten K ;
 
-LEXICON a_31_JOTAIN	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out nouns and adjectives
-+A+Dial/Por:      x_31_JOTAIN         ;
-+A+Dial/Var:^E2I^¤    x_31_JOTAIN_ia       ;
+LEXICON a_31_ee	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out nouns and adjectives
++A+Dial/Por:      x_31_ee         ;
++A+Dial/Var:^E2I^¤    x_31_ia       ;
 +A+Dial/Jok:      vanha_a_23ea       ; ! Jok comp and superls is here
 
 +A+Dial/Por:e     comp_m_odd   ;
@@ -129,12 +129,12 @@ LEXICON a_31_JOTAIN	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort o
 +A+Sg+Superl+Dial/Por:e%>i2    nom_n  ;
 +A+Sg+Superl+Dial/Por:e%>i2%>n par_tA ;
 
-LEXICON a_31_JOTAIN_ii  !!= * @CODE@ auttii
-+A                : x_31_JOTAIN_ii ;
+LEXICON a_31_ii  !!= * @CODE@ auttii
++A                : x_31_ii ;
                     comp_m_odd   ;
 
 LEXICON vanha_a_23ea	!!= * @CODE@ pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
-                  :^¤ x_31_JOTAIN_ia ; ! TODO Change ^¤ tag to a custom one
+                  :^¤ x_31_ia ; ! TODO Change ^¤ tag to a custom one
                   :^¤%>^A comp_mm ;
                   :^¤%>i5 superl_m_odd ;
   +Sg+Superl      :^¤%>i2    nom_n  ;

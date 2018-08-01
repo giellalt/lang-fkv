@@ -246,7 +246,7 @@ LEXICON x_11_E2I
   +Sg          :^WG          gen_n_sg        ;
   +Sg+Dial/Por :             par_V           ; ! suomee
   +Sg+Dial/-Por:^E2I         par_A           ; ! suomea
-  +Sg          :^HMETA       ill_hVVn        ;
+  +Sg          :^HMETA       ill_hVVn        ; ! tyvheen
   +Sg          :             ess_nA          ;
   +Sg          :^WG          sgpl_cases_even ; !! these two lexica for cases with
 
@@ -373,7 +373,7 @@ LEXICON n_21_odd_i !!= * @CODE@  meininki, tunturi TODO
 LEXICON x_21_odd_i
   +Sg      :        nom_end               ;
   x_21_odd_i_oblique ;
-  
+
 LEXICON x_21_odd_i_oblique
   +Sg      :^WG     gen_n_sg        ;
   +Sg+Dial/Por:        par_V           ;
@@ -429,20 +429,24 @@ LEXICON x_21_oi
 !+Ill:h%>i2%>i2     n_PxK ; ! on Sg:ssä hVVn
 
 
-LEXICON n_31_JOTAIN        !!= * @CODE@  hoppee:hoppe
-+N+Dial/Por:        x_31_JOTAIN            ;
-+N+Dial/Var:^E2I^¤  x_31_JOTAIN_ia          ;
-+N+Dial/Jok:^¤      x_31_JOTAIN_ia          ; ! hopea, not hopia
+! n_31_ee ! vanha_n_23
+! n_31_lainasaina_ee ! vanha_n_23
+! n_31_ii ! vanha_n_23ii
+
+LEXICON n_31_ee        !!= * @CODE@  hoppee:hoppe
++N+Dial/Por:        x_31_ee            ;
++N+Dial/Var:^E2I^¤  x_31_ia          ;
++N+Dial/Jok:^¤      x_31_ia          ; ! hopea, not hopia
 ! TODO TODO TODO this is where it might be going wrong
 ! Need to distinguish hoppee (silvery) and hoppee (silver)
 ! Also for Valkkee (white) and valkke (a fire or something similar) TODO TODO TODO
  ! +N+Sg+Nom:   R     Is this extra and wrong?
 
-LEXICON x_31_JOTAIN
+LEXICON x_31_ee ! for Por
   +Sg+Nom:e       K               ;
   +Sg+Nom+Err/Orth:%>%^A   K               ;
   +Sg      :e       gen_n_sg        ;
-  +Sg+Dial/-Var:e       par_tA          ;
+  +Sg+Dial/-Var:e   par_tA          ;
   +Sg      :e       ill_sseen       ;
   +Sg      :e       ess_nA          ;
   +Sg      :e       sgpl_cases_even ;
@@ -455,7 +459,8 @@ LEXICON x_31_JOTAIN
   +Pl      :e%>i2   com_ne          ;
   +Pl      :e%>i2   sgpl_cases_even ;
 
-LEXICON x_31_JOTAIN_ia ! For -Por only valkia, hopia, kauhia
+
+LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   +Sg+Nom  :%>^A         K               ; ! valkia
   +Sg      :%>^A         gen_n_sg        ; ! valkian
   +Sg      :%>^A         par_A           ; ! valkiaa
@@ -472,12 +477,33 @@ LEXICON x_31_JOTAIN_ia ! For -Por only valkia, hopia, kauhia
   +Pl      :%>i2         com_ne          ; ! valkeine
   +Pl      :%>i2         sgpl_cases_even ; ! valkei-
 
-LEXICON n_31_JOTAIN_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
-+N+Dial/Por:         x_31_JOTAIN_ii           ;
+
+  LEXICON n_31_lainasaina_ee        !!= * @CODE@  filee idee (jotka ei oo filiä)
+  +N:        x_31_lainasaina_ee            ;
+
+   LEXICON x_31_lainasaina_ee
+  +Sg+Nom:e       K               ;
+  +Sg+Nom+Err/Orth:%>%^A   K               ;
+  +Sg      :e       gen_n_sg        ;
+  +Sg+Dial/-Var:e       par_tA          ;
+  +Sg      :e       ill_sseen       ;
+  +Sg      :e       ess_nA          ;
+  +Sg      :e       sgpl_cases_even ;
+
+  +Pl      :e       nom_t           ;
+  +Pl      :e%>i2   gen_tten        ;
+  +Pl      :e%>i2   par_tA          ;
+  +Pl      :e%>i2   ill_ssiin       ;
+  +Pl      :e%>i2   ess_nA          ;
+  +Pl      :e%>i2   com_ne          ;
+  +Pl      :e%>i2   sgpl_cases_even ;
+
+LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
++N+Dial/Por:         x_31_ii           ;
 +N+Dial/-Por:         x_21_oi           ; ! TODO skriv dyp kommentar her
 +N+Sg      :           nom_R               ;
 
-LEXICON x_31_JOTAIN_ii
+LEXICON x_31_ii
   +Sg      :            nom_end             ;
   +Sg      :            gen_n_sg            ;
   +Sg      :            par_tA              ;
@@ -928,7 +954,7 @@ LEXICON x_32_et_ts_common
       ! +Pl+Ill:heissiin K               ;
 
 
-LEXICON n_22_excns !!= * @CODE@ = veres
+LEXICON n_22_excns !!= * @CODE@ = veres (keskus)
 +N         :           x_22_excns     ;
 +N+Sg      :s          nom_R          ;
 +N+Sg      :kse        gen_n_sg       ;
@@ -1187,8 +1213,13 @@ LEXICON ill_hVn ! NB Used 1 ONCE, only: 1.  hVn > maahan
 LEXICON ill_hVVn !  2.  hVVn > tunturhiin | sykshyyn, linnhaan | linna pl.ill. 2 muotoa po. linnhoin,
 +Ill:%>h^V^V    n_PxK ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
 
-LEXICON ill_heen !  for s : ksheen
+LEXICON ill_heen !  for s : ksheen (only n_22_excns)
 +Ill:%>hee    n_PxK ; ! TODO add Twolc description about HMETA   ! 2.  hVVn > tunturhiin
+! halutaan heen eikä hVVn koska sanassa välttämättä ei ole e:tä! Vastaus --> vastauksheen
+! Vartalo on silloin vastau, eikä vastaukse, koska jos ois vastaukse, niin pitäisi
+! poistaa tosi monta merkkiät (kirjainta). Useimmiten toimitaan toisin, mutta tässä
+! tilanteessa työlästä laatia hmeta (metateesi, eli kirjainpaikanvaihto). Ja tässä
+! tilanteessa nämä sanat ovat jo rajoitettu LEXC:ssä! Jee!
 
 LEXICON ill_sseen !  3.  sseen > rukhiisseen, kuninkhaa>sseen, previously mTAVU_VV-ill
  +Ill:%>ssee     n_PxK ;
