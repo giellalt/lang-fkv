@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - filee - ok : # Noun 'filé' - not checked
+     filee+N+Sg+Nom: filee
+     filee+N+Sg+Gen: fileen
+     filee+N+Sg+Par: fileetä
+     filee+N+Sg+Tra: fileeksi
+     filee+N+Sg+Abe: fileettä
+     filee+N+Sg+Ine: fileessä
+     filee+N+Sg+Ela: fileestä
+     filee+N+Sg+Ill: fileehen
+     filee+N+Sg+Ade: fileellä
+     filee+N+Sg+Abl: fileeltä
+     filee+N+Sg+All: fileelle
+     filee+N+Sg+Ess: fileennä
+     filee+N+Pl+Nom: fileet
+     filee+N+Pl+Gen: fileitten
+     filee+N+Pl+Par: fileitä
+     filee+N+Pl+Tra: fileiksi
+     filee+N+Pl+Abe: fileittä
+     filee+N+Pl+Ine: fileissä
+     filee+N+Pl+Ela: fileistä
+     filee+N+Pl+Ill: fileissiin
+     filee+N+Pl+Ade: fileilä
+     filee+N+Pl+Abl: fileiltä
+     filee+N+Pl+All: fileile
+     filee+N+Pl+Ess: fileinä
+     filee+N+Pl+Com: fileine
