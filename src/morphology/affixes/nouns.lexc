@@ -106,18 +106,21 @@ LEXICON x_31_pl_common ! (both 1syll and tuorestai)
 ! vanha_n_21i        = färi : färi n_21 på i er lånord  sed /i vanha_21/i vanha_21i/
 ! vanha_n_21_E2I     = veri : vere
 
-LEXICON n_11_ä ! päivä, genpl päiviin
-+N             :             x_11_ä     ;
-+N+Sg          :             nom_R           ;
+LEXICON n_11_ae ! päivä, genpl päiviin
++N:             x_11_ae     ;
++N+Sg:          nom_R           ;
 
-LEXICON x_11_ä
+LEXICON x_11_ae
 +Pl+Dial/Por:%>i2 gen_in ; ! päiviin
              x_11_rest ;
 
-
 LEXICON n_11 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
-+N             :             x_11     ;
-+N+Sg          :             nom_R           ;
++N:             x_11     ;
++N+Sg:             nom_R           ;
+
+LEXICON x_11
++Pl+Dial/Por:%>i2 gen_n ; ! syksyin
+             x_11_rest ; ! all x_11 except plural gen
 
 
 LEXICON vanha_n_21C ! TODO check what is this?
@@ -125,12 +128,8 @@ LEXICON vanha_n_21C ! TODO check what is this?
            :i n_11 ; ! Hansi
 +N+Sg      :i nom_R      ;
 
-LEXICON x_11
-+Pl+Dial/Por:%>i2 gen_n ; ! syksyin
-             x_11_rest ; ! all x_11 except plural gen
-
 LEXICON x_11_rest
-  +Sg      :    nom_end                 ;
+  +Sg:    nom_end                 ;
 
   +Sg+Dial/Por:^WG              gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
