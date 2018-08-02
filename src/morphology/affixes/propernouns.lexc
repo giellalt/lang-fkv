@@ -63,7 +63,7 @@ LEXICON vanha_nocmp_prop_sur_21C
 @P.compound.block@ vanha_prop_sur_21C ;
 
 LEXICON vanha_prop_x
-+N+Prop: x_x ;
++N+Prop: # ;
 +N+Prop: Rhyph ;
 
 LEXICON vanha_prop_1
@@ -102,7 +102,7 @@ LEXICON vanha_prop_ani_21
 LEXICON vanha_prop_ani_21C
 +N+Prop+Sem/Ani+Sg+Nom: K ;
 +N+Prop+Sem/Ani: Rhyph ;
-+N+Prop+Sem/Ani:i x_11_oblique ;
++N+Prop+Sem/Ani:i x_11_i_oblique ;
 
 LEXICON vanha_prop_fem_21
 +N+Prop+Sem/Fem: x_11 ;
@@ -111,7 +111,7 @@ LEXICON vanha_prop_fem_21
 LEXICON vanha_prop_fem_21C
 +N+Prop+Sem/Fem+Sg+Nom: K ;
 +N+Prop+Sem/Fem: Rhyph ;
-+N+Prop+Sem/Fem:i x_11_oblique ;
++N+Prop+Sem/Fem:i x_11_i_oblique ;
 
 LEXICON vanha_prop_mal_21
 +N+Prop+Sem/Mal: x_11 ;
@@ -120,7 +120,7 @@ LEXICON vanha_prop_mal_21
 LEXICON vanha_prop_mal_21C
 +N+Prop+Sem/Mal+Sg+Nom: K ;
 +N+Prop+Sem/Mal: Rhyph ;
-+N+Prop+Sem/Mal:i x_11_oblique ;
++N+Prop+Sem/Mal:i x_11_i_oblique ;
 
 LEXICON vanha_prop_malfem_21
 +N+Prop+Sem/Mal: x_11 ;
@@ -138,7 +138,7 @@ LEXICON vanha_prop_obj_21
 LEXICON vanha_prop_obj_21C
 +N+Prop+Sem/Obj+Sg+Nom: K ;
 +N+Prop+Sem/Obj: Rhyph ;
-+N+Prop+Sem/Obj:i x_11_oblique ;
++N+Prop+Sem/Obj:i x_11_i_oblique ;
 
 LEXICON vanha_prop_org_21
 +N+Prop+Sem/Org: x_11 ;
@@ -147,7 +147,7 @@ LEXICON vanha_prop_org_21
 LEXICON vanha_prop_org_21C
 +N+Prop+Sem/Org+Sg+Nom: K ;
 +N+Prop+Sem/Org: Rhyph ;
-+N+Prop+Sem/Org:i x_11_oblique ;
++N+Prop+Sem/Org:i x_11_i_oblique ;
 
 LEXICON vanha_prop_plc_21
 +N+Prop+Sem/Plc: x_11 ;
@@ -156,7 +156,7 @@ LEXICON vanha_prop_plc_21
 LEXICON vanha_prop_plc_21C
 +N+Prop+Sem/Plc+Sg+Nom: K ;
 +N+Prop+Sem/Plc: Rhyph ;
-+N+Prop+Sem/Plc:i x_11_oblique ;
++N+Prop+Sem/Plc:i x_11_i_oblique ;
 
 LEXICON vanha_prop_sur_21
 +N+Prop+Sem/Sur: x_11 ;
@@ -169,7 +169,7 @@ LEXICON vanha_prop_plc_22odd
 LEXICON vanha_prop_sur_21C
 +N+Prop+Sem/Sur+Sg+Nom: K ;
 +N+Prop+Sem/Sur: Rhyph ;
-+N+Prop+Sem/Sur:i x_11_oblique ;
++N+Prop+Sem/Sur:i x_11_i_oblique ;
 
 LEXICON vanha_prop_surmal_21
 +N+Prop+Sem/Sur: x_11 ;

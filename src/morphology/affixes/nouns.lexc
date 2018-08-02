@@ -46,11 +46,11 @@
 
 !! !Incomong
 
-LEXICON n_x
-+N         : x_x ;
+!LEXICON n_x kaikki nyt luokiteltu
+!+N         : x_x ;
 
-LEXICON x_x
-  +Sg      : nom_end ; ! Just to make it compile
+!LEXICON x_x
+!  +Sg      : nom_end ; ! Just to make it compile
 
 
 
@@ -106,9 +106,19 @@ LEXICON x_31_pl_common ! (both 1syll and tuorestai)
 ! vanha_n_21i        = färi : färi n_21 på i er lånord  sed /i vanha_21/i vanha_21i/
 ! vanha_n_21_E2I     = veri : vere
 
+LEXICON n_11_ä ! päivä, genpl päiviin
++N             :             x_11_ä     ;
++N+Sg          :             nom_R           ;
+
+LEXICON x_11_ä
++Pl+Dial/Por:%>i2 gen_in ; ! päiviin
+             x_11_rest ;
+
+
 LEXICON n_11 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
-+N         : x_11 ;
-+N+Sg      : nom_R   ;
++N             :             x_11     ;
++N+Sg          :             nom_R           ;
+
 
 LEXICON vanha_n_21C ! TODO check what is this?
 +N+Sg      :  nom_end    ; ! Hans
@@ -116,11 +126,12 @@ LEXICON vanha_n_21C ! TODO check what is this?
 +N+Sg      :i nom_R      ;
 
 LEXICON x_11
-  +Sg      :    nom_end                 ;
-           :    x_11_oblique            ; ! TODO find better name
++Pl+Dial/Por:%>i2 gen_n ; ! syksyin
+             x_11_rest ; ! all x_11 except plural gen
 
-! TODO old version of this (before split) is at the end of this file
-LEXICON x_11_oblique ! this is also called from affixes/propernouns ! puku - puvuissa
+LEXICON x_11_rest
+  +Sg      :    nom_end                 ;
+
   +Sg+Dial/Por:^WG              gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
   +Sg+Dial/Por:^HMETA           ill_hVVn        ;
@@ -128,7 +139,7 @@ LEXICON x_11_oblique ! this is also called from affixes/propernouns ! puku - puv
   +Sg+Dial/Por:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
 
   +Pl+Dial/Por:^WG              nom_t           ;
-  +Pl+Dial/Por:%>i2             gen_n           ; ! gen_n         since we have the i
+! +Pl+Dial/Por:%>i2             gen_n           ; ! this in x_11
   +Pl+Dial/Por:%>i2             par_end         ;
   +Pl+Dial/Por:^HMETA           ill_hVin        ; ! sykshyin
   +Pl+Dial/Por:%>i2             ess_nA          ;
@@ -212,8 +223,11 @@ LEXICON n_11_i ! pappi, tooli, lyhyt vokali, loppuu i:llä
 +N+Sg          :             nom_end         ;
 
 LEXICON x_11_i ! pappi, tooli, lyhyt vokali, loppuu i:llä
-  +Sg          :             nom_end         ;
-  +Sg          :^WG          gen_n_sg        ;
+  +Sg: nom_end ;   ! nom.sg in -i (but not propernouns -C)
+  x_11_i_oblique ; ! (also for propernouns)
+
+LEXICON x_11_i_oblique ! rest of i, also propernouns
++Sg          :^WG          gen_n_sg        ;
   +Sg+Dial/Por :             par_V           ;
   +Sg+Dial/-Por:             par_A           ;
   +Sg          :^HMETA       ill_hVVn        ;
@@ -430,7 +444,7 @@ LEXICON x_21_oi
 
 
 ! n_31_ee ! vanha_n_23
-! n_31_lainasaina_ee ! vanha_n_23
+! n_31_lainasana_ee ! vanha_n_23
 ! n_31_ii ! vanha_n_23ii
 
 LEXICON n_31_ee        !!= * @CODE@  hoppee:hoppe
@@ -478,25 +492,24 @@ LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   +Pl      :%>i2         sgpl_cases_even ; ! valkei-
 
 
-  LEXICON n_31_lainasaina_ee        !!= * @CODE@  filee idee (jotka ei oo filiä)
-  +N:        x_31_lainasaina_ee            ;
+  LEXICON n_31_lainasana
+  +N:        x_31_lainasana            ;
 
-   LEXICON x_31_lainasaina_ee
-  +Sg+Nom:e       K               ;
-  +Sg+Nom+Err/Orth:%>%^A   K               ;
-  +Sg      :e       gen_n_sg        ;
-  +Sg+Dial/-Var:e       par_tA          ;
-  +Sg      :e       ill_sseen       ;
-  +Sg      :e       ess_nA          ;
-  +Sg      :e       sgpl_cases_even ;
+   LEXICON x_31_lainasana
+  +Sg+Nom:       K               ;
+  +Sg      :       gen_n_sg        ;
+  +Sg+Dial/-Var:       par_tA          ;
+  +Sg      :       ill_sseen       ;
+  +Sg      :       ess_nA          ;
+  +Sg      :       sgpl_cases_even ;
 
-  +Pl      :e       nom_t           ;
-  +Pl      :e%>i2   gen_tten        ;
-  +Pl      :e%>i2   par_tA          ;
-  +Pl      :e%>i2   ill_ssiin       ;
-  +Pl      :e%>i2   ess_nA          ;
-  +Pl      :e%>i2   com_ne          ;
-  +Pl      :e%>i2   sgpl_cases_even ;
+  +Pl      :       nom_t           ;
+  +Pl      :%>i2   gen_tten        ;
+  +Pl      :%>i2   par_tA          ;
+  +Pl      :%>i2   ill_ssiin       ;
+  +Pl      :%>i2   ess_nA          ;
+  +Pl      :%>i2   com_ne          ;
+  +Pl      :%>i2   sgpl_cases_even ;
 
 LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
 +N+Dial/Por:         x_31_ii           ;
@@ -537,7 +550,7 @@ LEXICON x_12 ! pieni
 
   +Pl      :^WG         nom_t           ;
   +Pl+Dial/Por:%>i2i    gen_n           ;
-  +Pl      :            gen_ten         ; ! kielten, both Por and Var
+  +Pl:                  gen_ten         ; ! kielten, both Por and Var
   +Pl+Dial/-Por:%>i2    gen_tten        ; ! kielitten, sienitten
   +Pl+Dial/Por:%>i2     par_V           ; ! kielii, pienii
   +Pl+Dial/-Por:%>i2    par_A           ; ! kieliä, pieniä
@@ -1182,6 +1195,9 @@ LEXICON gen_n
 
 LEXICON gen_Vn
  +Gen:%>^V n_PxK ;
+
+LEXICON gen_in
+ +Gen:%>i n_PxK ;
 
 LEXICON gen_tten  ! vereksitten
  +Gen:%>tte n_PxK ;
