@@ -15,7 +15,7 @@ LEXICON a_x  != * @CODE@ contains unclassified adjectives.
 !+A: K ;
 
 LEXICON HYVA
-+A                :hyvä x_11 ; ! hyvvää, hyvät
++A                :hyvä x_11_ä ; ! hyvvää, hyvät
 +A                :pare comp_m_odd ;
 +A                :parhai superl_m_odd ;
 
@@ -94,12 +94,12 @@ LEXICON a_11  !!= * @CODE@ siisti, soma
 +A                :^WG^A2I%>i5 superl_m_odd ; ! TODO TODO TODO ^AE, really?
 +A+Dial/Var       :^WG^AE%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
 
- !+A:^WG a_weak_v_stem ;
-
-!LEXICON vanha_x_21_E2I  != * @CODE@ corresponds to vanha_x_21_E2I etc.
-!+A: vanha_x_21_E2I ;
-!comp_m_odd  ;
-!superl_m_odd ;
+LEXICON a_11_ä  !!= * @CODE@ väärä, nöyrä
++A                :           x_11_ä   ; ! koska gen pl vääriin
++A                :^WG^AE     comp_m_odd   ;
++A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! 
++A                :^WG^A2I%>i5 superl_m_odd ; 
++A+Dial/Var       :^WG^AE%>   superl_m_odd ; 
 
 
 LEXICON a_21	!!= * @CODE@  liberaali
