@@ -15,33 +15,64 @@
 !!! Project pages
 
 
+ 
+!!Testing
+
+* [Kaikki generoidut paradigmat|KaikkiGeneroidutParadigmat.html]
+
+
+!!! Meetings
+
+* 2018: 
+* 2017:  
+  [18.8.17|meetings/170818.html] 
+* 2015:  
+  [24.1.15|meetings/150124.html] //
+  [24.8.15|meetings/150824.html] //
+  [29.9.15|meetings/150929_ja_16XXXX.html]
+
+
 !!Suunnitelmat
+(tänne!)
+
+
+!!Muut kveenin kielen projektit
+* [Sanakirjat|../../../doc/dicts/fkvdict/KvenDictionaries.html]  // 
+ [e-opetusohjelma oahpa.no/kveeni|../../../ped/fkv-oahpa.html]  // 
+ [Korp online|http://gtweb.uit.no/f_korp/]
+
+
+
+
+!!! Grammatical issues
+
+* [The tags that are in use|https://victorio.uit.no/langtech/trunk/langs/fkv/src/morphology/root.lexc]   
+* [A list of morphological tags|../common/MorphologicalTags.html]
+
+!!!Using the analysers
+
+* In the terminal: analyse words by writing ''ufkv'', generate with ''dfkv''
+* For more info, see [How to use the morphological parsers|../../tools/docu-sme-manual.html]
+
+!!!HOWTO -- technical documentation for linguists
+
+* [Puuttuvien sanojen nouto|PuuttuvienSanojenNouto.html]
+
+!!!Older documents
+
+!! Older plans (2013)
+
 * [Arbeidsplan|Arbeidsplan.html] 
 * [Lingvistinen suunnitelma|LingvistinenSuunnitelma.html]
+* Korpukset: [Tiedosto: RK-yliöt|corpus/RuijanKaikuYliot.html]
 
-!! FST
-
+!! FST (2013)
 * [Morfofonologia|Morfofonologia.html]
 * [Nominien jaottelusta|nominien_jaottelusta.html]  // 
    [Nominien tilanne|NominienTilanne.html]
 * [Työtehtävät|Tehtavat.html]
 
-!!Muut projektit
-* [Sanakirjat|../../../doc/dicts/fkvdict/KvenDictionaries.html]
-* [Dokumentaatio e-opetusohjelmaan oahpa.no/kveen (fkvoahpa)|../../../ped/fkv-oahpa.html]
-* Korpukset
-** [Tiedosto: RK-yliöt|corpus/RuijanKaikuYliot.html]
-** [Korp online|http://gtweb.uit.no/f_korp/]
-
-!!! Meetings
-
-* 2017:  
-  [18.8.17|meetings/170818.html] //
-
-* 2015:  
-  [24.1.15|meetings/150124.html] //
-  [24.8.15|meetings/150824.html] //
-  [29.9.15|meetings/150929_ja_16XXXX.html]
+!! Older meeting minutes
 
   * 2014:  
   [17.1.14|meetings/140117.html] //
@@ -62,38 +93,12 @@
    [3.5.13|meetings/130503.html]  //
   [12.6.13|meetings/130612.html]  //
   [20.9.13|meetings/130920.html]  //
-  
-
-
-
-!!! Grammatical issues
-
-* [The tags that are in use|https://victorio.uit.no/langtech/trunk/langs/fkv/src/morphology/root.lexc]   
-* [A list of morphological tags|../common/MorphologicalTags.html]
-
-!!!Using the analysers
-
-* In the terminal: analyse words by writing ''ufkv'', generate with ''dfkv''
-* For more info, see [How to use the morphological parsers|../../tools/docu-sme-manual.html]
-
-!!!HOWTO -- technical documentation for linguists
-
-* [Puuttuvien sanojen nouto|PuuttuvienSanojenNouto.html]
-
-!!!Older documents
-
+ 
 !!Reports
 
 * 2014: [Elokuu|RapporttiElokuu2014.html]
 
 !!! Test reports
-
-* 2018
-** [Sg Par|TestiSgPar.html]
-** [Pl Par|TestiPlPar.html]
-** [Pl Gen|TestiPlGen.html]
-** [Sg Ill|TestiSgIll.html]
-** [Pl Ill|TestiPlIll.html]
 
 * 2013:  
    [25.11.13|testreports/Virhe131125.html]  //
