@@ -72,10 +72,9 @@ The hash mark = Word boundary for both lexicalised and dynamic compounds
  * NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;  
 
 
-!!!Rules
+!!!Rules (Divided into consonant and vowel rules)
 
-
-!!Consonant rules
+!!!Consonant rules
 
 
 !!Gemination
@@ -101,12 +100,23 @@ mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen
 
 
 
-!!Consonant gradation
 
 
 
 
-!Gradation -p-
+
+
+
+
+
+
+
+
+!!Gradation
+
+
+
+!Gradation p
 
 __Gradation p:0 (pp:p)__
 
@@ -132,7 +142,7 @@ __Gradation mp:mm__
 * __turpe^WGt __
 * __turve0t __
 
-!Gradation of -k-
+!Gradation k
 
 __Gradation i6:0, in word poika: pojan__
 
@@ -271,12 +281,44 @@ __ti:si__
 
 
 
-!!Consonant assimilation
 
-__Alveolar assimilation for consonant stems__
 
+
+
+
+
+
+
+
+!!Assimilation
+
+__Alveolar assimilation for consonant stem l__
 * __tul>^N^U __
 * __tul>lu __
+
+__Alveolar assimilation for consonant stem r__
+
+__Alveolar assimilation for consonant stem s__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -284,57 +326,78 @@ __Alveolar assimilation for consonant stems__
 
 !!Vow harmony
 
-__Back harmony for %^A: %^O: %^U:__
+The idea of having f.ex V:e, always to a specific vowel, is to not have conflicts in
+twolc compilation. This improves compilation time (we assume) and it make Twolc
+behave more predictable. Weird things happen sometimes with conflicts!
+The downside is that often you have linguistic rules for vowels that are similar
+for a group of vowels! This is most of case. And now you have to edit it for all
+vowel separately one by one. Hopefully, we can make sure we don't forget to do it
+too often, by having more user feedback, especially from the paradigms in the dictionary.
 
 
-* __kulke>^A __
-* __kulke>a __
+! For each Vowel separately
 
-!!Vow copying and metathesis
-
-
-__Vow copying in short h-illative and short partitive sg__
-
-
-
-__Vow copying in long h-illative sg first vowel__
-
-* __vereks>h^V^Vn __
-* __vereks>heen __
-
-
-__Vow copying in long h-illative sg second vowel__
+__^V:e__
 
 * __lapse^HMETA>h^V^Vn __
 * __laps00>heen __
-
 * __lume^HMETA>h^V^Vn __
 * __lum00>heen __
-
 * __mieh^HMETA>h^V^Vn __
 * __mieh0>heen __
 
-* __vereks>h^V^Vn __
-* __vereks>heen __
+
+__^V:a__
 
 
-__Vow copying in partitive of words ending in io, ia__
+* __maa>h^Vn __
+* __maa>han __
 
 
-__Vow copying in long h sg forms 1__
-
-__Vow copying in long h sg forms 2__
-
-__Vow copying in long h pl forms__
+__^V:i__
 
 * __poi6ka^AO^HMETA%>h^V%>i2 __
 * __poik000>hi>i __
 * __kuva^AO^HMETA%>h^V%>i2 __
 * __kuv000>hi>i __
 
-__Vow copying of a in partitive after vowel sequences__
+__^V:o__
 
-__Vow copying of i in partitive after vowel sequences__
+
+
+
+
+
+
+! (the old system) with variables (Vx/Vy) instead of each vowel separately
+
+__Back harmony for %^A: %^O: %^U:__
+
+
+* __kulke>^A __
+* __kulke>a __
+
+
+!!Vow copying and metathesis
+
+__Vow copying in short h-illative and short partitive sg__
+
+* __heinä>^V __
+* __heinä>ä __
+* __syksy>^V __
+* __syksy>y __
+
+
+
+__Vow copying in partitive of words ending in io, ia__
+
+
+__Vow copying in long h sg forms both part one and part two__
+
+
+__Vow copying in long h pl forms__
+
+
 
 
 
@@ -350,7 +413,6 @@ __a to o and metathesis in h forms in pl of a-stems__
 
 
 
-
 __Stem deletion in h-illative__
 
 * __syksy^HMETA>h^V^Vn __
@@ -359,24 +421,38 @@ __Stem deletion in h-illative__
 
 
 
+
+
+
+
+
+
+
+
 !!Stem alternation rules
 
 
-* __rakkaa^VDEL^WG>s __
-* __rak0a000>s __
+
+
+
 !!e rules
 
-__e:i in nom.sg. of e-stems__
+__e:i in nom.sg. of e-stems and in n_23ia kauhia hopia in Var__
 
 * __ove^E2I __
 * __ovi0 __
 
-__e:i in n_23ia kauhia hopia in Var__
 * __kauhe^E2I^¤>^A __
 * __kauhi00>a __
 
 __e:0 in consonant stems and illative plural__
 
+
+* __tyvene^Por^WG>n __
+* __tyvene00>n __
+
+* __kiele>ten __
+* __kiel0>ten __
 
 * __ytime^HMETA>h^V^V> __
 * __ytim00>hee> __
@@ -393,11 +469,11 @@ __e:0 in consonant stems and illative plural__
 Cns:0 in hoppe- hope-a in Var @RULENAME@ Jok
 
 
+
 !!i rules
 The -i- rules require different i-s for different POS.
 
 __i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense__
-
 
 * __risti>i2>^Vn __
 * __rist0>i>in __
@@ -411,11 +487,24 @@ __i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past t
 * __tunturi>i>ksi __
 
 
+
+
 !!a rules
 
-!a before i
-
 __a:0 before Pret and Pl i when rounded root vowel__
+
+* __varma^HMETA>h^V^Vn __
+* __varm00>haan __
+
+* __rakkaa^VDEL^WG>s __
+* __rak0a000>s __
+
+
+
+__Stem deletion in h-illative__
+
+* __syksy^HMETA>h^V^Vn __
+* __syks00>hyyn __
 
 
 
@@ -525,14 +614,11 @@ __i:0 in vanha_n_21 -Por with I0 tag__
 
 __Shortening of long vowel in front of i__
 
-* __pää>i2>ss^A __
-* __p0ä>i>ssä __
 
 
 
 
-
-!!Other rules
+!!!Other Vowel rules (two A:e rules and one ä:0)
 
 __a:e in comparative__
 
@@ -551,13 +637,23 @@ __a:e in comparative__
 __a:e in passives__
 
 
-__ä:0 before i except in conditional__
-
+__ä:0 in different contexts__
 * __kehä>i2>ss^A __
 * __keh0>i>ssä __
 
+
+* __päivä>i2>in __
+* __päiv0>i>in __
+
+* __jyv0ä>i2>in __
+* __jyvv0>i>in __
+
 * __*kehä>i2>ss^A __ (is not standard language)
 * __*kehä>i>ssä __ (is not standard language)
+
+* __pää>i2>ss^A __
+* __p0ä>i>ssä __
+
 
 
 
@@ -603,13 +699,6 @@ __ä:0 before i except in conditional__
 * __*poika00>i>ne __ (is not standard language)
 * __*poi6ka^Por^A0>i2>ne __ (is not standard language)
 * __*poiki00>i>ne __ (is not standard language)
-
-* __jak0a>^Vt __
-* __jakka>at __
-
-
-
-
 
 * __*poi6ka^A2I>i2>n __ (is not standard language)
 * __*poika0>i>n __ (is not standard language)
@@ -761,17 +850,17 @@ __ä:0 before i except in conditional__
 
 
 
-__ä:0 before i except in conditional__
+__ä:0 in different contexts__
 
 
 
 
 
-__ä:0 before i except in conditional__
+__ä:0 in different contexts__
 
 
 
-__ä:0 before i except in conditional__
+__ä:0 in different contexts__
 
 
 * __a __
