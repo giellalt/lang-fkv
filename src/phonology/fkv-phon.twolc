@@ -203,7 +203,7 @@ Rules
         ([a|o]) Vow:+ p _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] .#. ; ! Maybe [Dummy:* - ^A0] ?
                 Vow:+ p _ Vow:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
                 Vow:+ p _ e:               %> i7:i Cns ; ! contr verbs
-                Vow:+ p _ Vow:           %> %^V:i ; ! sopi soppii		
+                Vow:+ p _ Vow:           %> %^V:i ; ! sopi soppii
  [.#.|#:] Cns:* Vow:+ p _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
  [.#.|#:] Cns:* Vow:+ p _ ä %> :ä ;
  [.#.|#:] Cns:* Vow:+ p _ ö %> :ö ;
@@ -845,7 +845,7 @@ j:0 <=> l _ e: %^E2I:0 ;
           :SurfaceCns _ (%^AO:)  %^HMETA: %> h [:Vx|i:] ;
           :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) (:o) %> i2: ;
           :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ;
-    where Vx in ( i o u y ö ) ; ! removing a, e, ä
+    where Vx in ( o u y ö ) ; ! removing a, e, ä, i
 
 !!€ syksy^HMETA>h^V^Vn
 !!€ syks00>hyyn
@@ -906,7 +906,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !                      Cns i e :Cns _ %> t e n ; !kielten sienten
 !         (Cns) Vow (Vow) Cns:+ _ (Dialects:0) %^WG:0 ;
 
-! TODO TODO TODO 
+! TODO TODO TODO
 ! WTF; Toimii Twolc:ssä mutta ei kun kompiloi, miks?
 ! [ 2/75][FAIL] tyven+A+Sg+Gen => Missing results: tyvenen
 ! [ 2/75][FAIL] tyven+A+Sg+Gen => Unexpected results: tyvenn
@@ -966,14 +966,26 @@ j:0 <=> l _ e: %^E2I:0 ;
 !  =========
 !! The -i- rules require different i-s for different POS.
 
-"i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense"
+"i:0"
 !! __@RULENAME@__
- i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:) (%^AO:) %>  :i %> [ %^V: n | %^V: | t t e ] ; ! ristien, kväänitten, papiiksi
-                                       :Cns                _ Dummy:*         %> [ i3:i | i4:i ] ; ! leikin, tohtisin
-                                        :Cns [a|e|o|u|y|ö] _                 %> [ i2:i | i ] ;   ! tuoresta0>i2ksi
-         [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:)         %> i2:i ;
-! Note: This shall not work for Ci forms skaramelli
-                                                         i _ %^VDEL:0  (Dummy:) %> [s|t] ; !Stem shortening for consonant initial suffixes
+! 1. "i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense"
+! 2. "Stem shortening for consonant initial suffixes"
+! 3. i:0 in vanha_n_21 -Por with I0 tag"
+! 4. "Stem deletion in h-illative"
+! 5. "Shortening of long vowel in front of i"
+ i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:) (%^AO:)    %>  :i %> [ %^V: n | %^V: | t t e ] ; ! 1. ! ristien, kväänitten, papiiksi
+                                     :Cns                  _ Dummy:*            %> [ i3:i | i4:i ] ; ! 1. ! leikin, tohtisin
+                                     :Cns [a|e|o|u|y|ö]    _                    %> [ i2:i | i ]    ; ! 1.   ! tuoresta0>i2ksi
+         [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:)            %> i2:i            ; ! 1. ! Note: This shall not work for Ci forms skaramelli
+                                                         i _ %^VDEL:0  (Dummy:) %> [s|t]           ; ! 2.
+                                                      Cns: _ (%^WG:0) %^AO:0    %> %^I0:0 i2:i %>  ; ! 3. ! TODO Add dialect tags here ! tooline in Var ja Jok. Not tooliine, which is in Por
+                                               :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:i|i:]                    ; ! 4.
+                                               :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:i|i:]                    ; ! 4.
+                                               :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2:         ; ! 4.
+                                               :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! 4.
+                                                           _ e %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:]     ; ! 5.
+
+
 
 ! i:0 for even-syllabic stems ristiksi, libe-raaliksi
 !!€ risti>i2>^Vn
@@ -987,6 +999,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !i:i for odd-syllabic stems tuntu-riiksi
 !!€ tunturi>i2>ksi
 !!€ tunturi>i>ksi
+
 
 
 
@@ -1018,7 +1031,7 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _
                                                      :i          _ (Dialects:) (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
                                                                a _ %^VDEL:0  ([Dummy: - %^A2I:]) %> [s|t] ; ! rakkaa^VDEL^WGs : rakas
                                                                  _ (Dialects:) (%^WG:0) %^A0:0 ; ! ^A0 is always a:0
-                                                                       _ i5: ; ! loistaaviimmin
+                                                                 _ i5: ; ! loistaaviimmin
 !         :SurfaceCns _ (Dialects:) (%^E2I:) (%^HMETA:) %> h [:a|i:] ; ! "Stem deletion of a in h-illative"
 !         :SurfaceCns _ (Dialects:) (%^AO:)  (%^HMETA:) %> h (%^V:) (:o) %> i2: ; ! "Stem deletion of a in h-illative"
 !         :i          _ (Dialects:) (%^AO:)  (%^HMETA:) %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! "Stem deletion of a in h-illative"
@@ -1031,17 +1044,6 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _
 ! TODO maybe change the system to be ^WG then VDEL, if so, fix this test afterwards
 
 
-
-"Stem deletion in h-illative"
-!! __@RULENAME@__
- Vx:0 <=> :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:Vx|i:] ;
-          :SurfaceCns _ (%^AO:)  %^HMETA: %> h [:Vx|i:] ;
-          :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) (:o) %> i2: ;
-          :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ;
-    where Vx in ( i o u y ö ) ; ! removing a, e, ä
-
-!!€ syksy^HMETA>h^V^Vn
-!!€ syks00>hyyn
 
 ! TODO TODO TODO TODO TODO a lot of the AO contexts are no longer! As they are replaced by the A0 tag in lexc
 
@@ -1144,7 +1146,6 @@ a:o <=> [#:|.#.] (Cns:*) UnroundedVow ([u|i|e|a]) Cns: (:Cns) (Cns:)            
 a:i <=> Vow Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vow instead of a a to generalize? Are cases missing?
         Vow Cns Cns:* a   j _ (%^WG:) %^A2I:0 %> ; ! Var TODO Vow instead of a a to generalize? Are cases missing? opettajine
         [.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _  %^AO:0 %> i2: [ .#. | %> n .#. ]  ;! TODO rm&fix this. ! ruokaruokhiin, poi6ka poikhiin
-!       p      o i6:i  k  :k a:i %^A2I:0   %> i2:i %> n ; ! gen_n         since we have the i
                               _ (Dialects:0) (%^WG:0) %^A2I:0 ; ! kuvviin kuvvii, poikkiin poikkii
 ! TODO TODO TODO remove this previous context, and just f*cking split it in lexc.
 ! n_21     = puku = puvuissa
@@ -1250,21 +1251,17 @@ a:i <=> Vow Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vow instead of a a 
 ! valkiae>i2>tten
 ! valki00e>i2>tten
 
-"i:0 in vanha_n_21 -Por with I0 tag"
-!! __@RULENAME@__
- i:0 <=> Cns: _ (%^WG:0) %^AO:0 %> %^I0:0 i2:i %> ; ! tooline in Var ja Jok. Not tooliine, which is in Por
-
 
 !! !Shortening
 
 "Shortening of long vowel in front of i"
 !! __@RULENAME@__
  Vx:0 <=> _ Vy %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ;
-     where Vx in ( u y u y i )
-           Vy in ( u y o ö e )
+     where Vx in ( u y u y ) ! removing Vx == i and Vy == e
+           Vy in ( u y o ö )
           matched ;
 
-! saa∂a : sain : saisin
+! saada : sain : saisin
 ! ottaa : otan : ottaisin i4 ei passaa kaikkialle!
 
 
@@ -1301,18 +1298,20 @@ Vx:e <=>  [.#.|#:] Cns:* Vow: (Vow:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
      where Vx in ( a ä ) ;
 
 
-"ä:0 in different contexts"
+"ä:0"
 !! __@RULENAME@__
+! 1. "Shortening of long vowel in front of i"
+! 2. "Stem deletion in h-illative"
  ä:0 <=> :Cns _ (Dummy: - %^AE:0) (Dummy: - %^AE:0) (Dummy: - %^AE:0) %> [ i|i2:|i3:|i5: ] ; ! before i exc conditional
-              _ ä %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; ! = Shortening of long vowel in front of i
-            ä _ %^VDEL:0  (Dummy:) %> [s|t] ;	      
-          :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:ä|i:] ; ! Stem deletion in h-illative
-          :SurfaceCns _ (%^AO:)  %^HMETA: %> h [:ä|i:] ; ! Stem deletion in h-illative
-          :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) (:o) %> i2: ; ! Stem deletion in h-illative
-          :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! Stem deletion in h-illative
+              _ ä %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; ! 1.
+            ä _ %^VDEL:0  (Dummy:) %> [s|t] ;
+  :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:ä|i:] ; ! 2.
+  :SurfaceCns _ (%^AO:)  %^HMETA: %> h [:ä|i:] ; ! 2.
+  :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) (:o) %> i2: ; ! 2.
+  :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! 2.
+
 !!€ kehä>i2>ss^A
 !!€ keh0>i>ssä
-
 
 !!€ päivä>i2>in
 !!€ päiv0>i>in
