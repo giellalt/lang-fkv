@@ -88,13 +88,13 @@ LEXICON x_31_pl !!= * @CODE@ = häät
 
 LEXICON x_31_pl_common ! (both 1syll and tuorestai)
 +Pl          : nom_t    ;
-  +Pl          :%>i2      sgpl_cases_even ; !! the same affix in sg and pl
++Pl          :%>i2      sgpl_cases_even ; !! the same affix in sg and pl
 
-  +Pl          :%>i2     gen_tten       ;
-  +Pl          :%>i2      par_tA          ;
-  +Pl          :%>i2      ill_hin         ;
-  +Pl          :%>i2      ess_nA          ;
-  +Pl          :%>i2      com_ne          ;
++Pl          :%>i2     gen_tten       ;
++Pl          :%>i2      par_tA          ;
++Pl          :%>i2      ill_hin         ;
++Pl          :%>i2      ess_nA          ;
++Pl          :%>i2      com_ne          ;
 
 
 !! !Eira's classification
@@ -491,16 +491,16 @@ LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   +Pl      :%>i2         sgpl_cases_even ; ! valkei-
 
 
-  LEXICON n_31_lainasana
-  +N:        x_31_lainasana            ;
+  LEXICON n_31_lainasana_ee ! filee
+  +N:      x_31_lainasana_ee       ;
 
-   LEXICON x_31_lainasana
-  +Sg+Nom:       K               ;
+   LEXICON x_31_lainasana_ee
+  +Sg+Nom:         K               ;
   +Sg      :       gen_n_sg        ;
-  +Sg+Dial/-Var:       par_tA          ;
-  +Sg      :       ill_sseen       ;
+  +Sg+Dial/-Var:   par_tA          ;
+  +Sg      :       ill_hVn         ; ! fileehen
   +Sg      :       ess_nA          ;
-  +Sg      :       sgpl_cases_even ;
+  +Sg      :       sgpl_cases_odd  ;
 
   +Pl      :       nom_t           ;
   +Pl      :%>i2   gen_tten        ;
@@ -511,8 +511,8 @@ LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   +Pl      :%>i2   sgpl_cases_even ;
 
 LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
-+N+Dial/Por:         x_31_ii           ;
-+N+Dial/-Por:         x_21_oi           ; ! TODO skriv dyp kommentar her
++N+Dial/Por:           x_31_ii             ;
++N+Dial/-Por:          x_21_oi             ; ! TODO skriv dyp kommentar her
 +N+Sg      :           nom_R               ;
 
 LEXICON x_31_ii
@@ -1241,6 +1241,7 @@ LEXICON ill_sseen !  3.  sseen > rukhiisseen, kuninkhaa>sseen, previously mTAVU_
 
 LEXICON ill_hAAn
  +Ill:%>h^A^A    n_PxK ; ! Found often in sg adjectives
+
 
 ! <--------------- Pluralit
 
