@@ -15,58 +15,58 @@ LEXICON NounRoot !!= @CODE@
     !! ** X.X Kaksitavuiset ( kuva : kuvissa )         a -> i:ksi = n_11_A0_A2I    ! vanha_n_21_A0_A2I
     !! ** X.X Kaksitavuiset lånord ( färi : färi, pappi, tooli )  = n_11_i         ! vanha_n_21i
             ! For å få en liste av lånord til n_11_i bruk: sed /i vanha_21/i vanha_21i/
-    !! *** 2.1.1  Kaksitavuiset monikko (housut )   	            = n_11_pl        ! vanha_n_21pl
+    !! *** 2.1.1  Kaksitavuiset monikko (housut )                 = n_11_pl        ! vanha_n_21pl
     !! *** 2.1.2  Kaksitavuiset ( joki:joke, ovi:ove ) e -> i:ksi = n_11_E2I       ! vanha_n_21_E2I
 
     !! ** 3.1 Kaksitavuiset (CNS-rankaiset?) ( pieni, kieli )     = n_12           ! vanha_n_31
-    !! ** 3.1.1  ( lumi:lumen:lunta )                 		        = n_12_lumi      ! vanha_n_31lumi
-    !! ** 3.1.2  ( käsi, vuosi )					   		                  = n_12_si        ! vanha_n_31si
-    !! ** 3.1.3  ( lapsi )		 	         	   		                  = n_12_lapsi     ! vanha_n_31lapsi
-    !! ** 3.1.4  ( mies )			         		   		                  = n_12_mies      ! vanha_n_31mies
+    !! ** 3.1.1  ( lumi:lumen:lunta )                             = n_12_lumi      ! vanha_n_31lumi
+    !! ** 3.1.2  ( käsi, vuosi )                                  = n_12_si        ! vanha_n_31si
+    !! ** 3.1.3  ( lapsi )                                        = n_12_lapsi     ! vanha_n_31lapsi
+    !! ** 3.1.4  ( mies )                                         = n_12_mies      ! vanha_n_31mies
 
 
   !! TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
 
-    !! ** 2.2  Usseempitav. ( opettaaja )		     	 	              = n_21           ! vanha_n_22
-    !! *** 2.2.2  U.tav. monikko oi (kulkkiija,sivakka,paijukko )	= n_21_oi        ! vanha_n_22oi
-    !! *** 2.2.1  Usseempitav. odd ( kajava )	       	            = n_21_odd       ! vanha_n_22odd
-    !! *** 2.2.1  Usseempitav. odd ( meininki, tunturi )	        = n_21_odd_i     ! vanha_n_22oddi
+    !! ** 2.2  Usseempitav. ( opettaaja )                         = n_21           ! vanha_n_22
+    !! *** 2.2.2  U.tav. monikko oi (kulkkiija,sivakka,paijukko ) = n_21_oi        ! vanha_n_22oi
+    !! *** 2.2.1  Usseempitav. odd ( kajava )                     = n_21_odd       ! vanha_n_22odd
+    !! *** 2.2.1  Usseempitav. odd ( meininki, tunturi )          = n_21_odd_i     ! vanha_n_22oddi
     ! valkea (ei valkkee!! Vaan valkea~valkia, valkea/nna, -eina) TODO check diff and add to yaml&fst
 
     !! ** 3.2 Usseempitavuiset ( tytär )
-    !! *** 3.2.1 ( tytär, taival, paimen )                   		  = n_22           ! vanha_n_32
-    !! *** 3.2.2 ( elläin: elläimen)                		          = n_22_m         ! vanha_n_32m
-    !! ***       ( vanhimet:vanhi )                		            = n_22_m_pl      ! vanha_n_32m_pl
+    !! *** 3.2.1 ( tytär, taival, paimen )                        = n_22           ! vanha_n_32
+    !! *** 3.2.2 ( elläin: elläimen)                              = n_22_m         ! vanha_n_32m
+    !! ***       ( vanhimet:vanhi )                               = n_22_m_pl      ! vanha_n_32m_pl
 
     !! ** 4.3  ton-adjektiivit (onneton:onne) (vain Adj)          = a_22_ton      -! vanha_a_43odd
       ! TODO Check is, esp. in Adjectives!!
       ! TODO Also check vanha_a_43 muuttumaton in adjectives. Look up in grammar
-    !! *** 3.2.3 (rakkhaus)					   		                        = n_22_s         ! vanha_n_32s
-    !! ** 4.1 veres-nominit ( veres, kokkous)	   	 ekstraCNSranka = n_22_excns     ! vanha_n_41
+    !! *** 3.2.3 (rakkhaus)                                       = n_22_s         ! vanha_n_32s
+    !! ** 4.1 veres-nominit ( veres, kokkous) ekstraCNSranka      = n_22_excns     ! vanha_n_41
     !! ** 4.1.1 veres-nominit monikko ( veljekset) ekstraCNSranka = n_22_excns_pl  ! vanha_n_41pl
-    !! *** 4.2.2 -inen-nominit odd (vihrinen / ihminen)	   		    = n_22_inen_odd  ! vanha_n_42odd
-    !! ** 4.2 –inen-nominit ( kainulainen)		   		              = n_22_inen      ! vanha_n_42
-    !! *** 4.2.1 -inen-nominit Pl (tervheiset)	   		            = n_22_inen_pl   ! vanha_n_42pl
+    !! *** 4.2.2 -inen-nominit odd (vihrinen / ihminen)           = n_22_inen_odd  ! vanha_n_42odd
+    !! ** 4.2 –inen-nominit ( kainulainen)                        = n_22_inen      ! vanha_n_42
+    !! *** 4.2.1 -inen-nominit Pl (tervheiset)                    = n_22_inen_pl   ! vanha_n_42pl
 
 
   !! TYYPPI 3: Pitkävokaaliset rangat
 
-    !! * 1. Yksitavuiset / Vi ( maa, yö )		 	                    = n_31           ! vanha_n_1
-    !! * 1.2  Yksitavuiset monikko/ Vi ( häät )		  	            = n_31_pl        ! vanha_n_1pl
+    !! * 1. Yksitavuiset / Vi ( maa, yö )                         = n_31           ! vanha_n_1
+    !! * 1.2  Yksitavuiset monikko/ Vi ( häät )                   = n_31_pl        ! vanha_n_1pl
         ! TODO vain kaksi sanaa, häät ja puut
-    !! * 1.1 Yksitavuiset / ai ( tuorestai )		 	              = n_31_ai      ! vanha_n_1ai
-    !! ** 2.3 Kokkoontumanom. ( valkkee)	      	 	              = n_31_ee ! vanha_n_23
-    !! ** 2.3 Kokkoontumanom. ( filee, teevee) Lainasanat!	      	      = n_31_lainasana_ee ! vanha_n_23
-    !! ** 2.3.1 Kokkoontumanom. ( assii, laattii )    		 	      = n_31_ii ! vanha_n_23ii
+    !! * 1.1 Yksitavuiset / ai ( tuorestai )                      = n_31_ai        ! vanha_n_1ai
+    !! ** 2.3 Kokkoontumanom. ( valkkee)                          = n_31_ee        ! vanha_n_23
+    !! ** 2.3 Kokkoontumanom. ( filee, teevee) Lainasanat!        = n_31_lainasana_ee ! vanha_n_23
+    !! ** 2.3.1 Kokkoontumanom. ( assii, laattii )                = n_31_ii        ! vanha_n_23ii
         ! TODO uu words are here to? Add a yaml probably if they should be here (as they are)
 
     !! ** 3.3.1 (opas) & 3.3.2 (asukas) & rakas                   = n_32_as        ! vanha_n_33as
-    !! ** 3.3.3 (ruvis, kaunis)                           		    = n_32_is        ! vanha_n_33is
+    !! ** 3.3.3 (ruvis, kaunis)                                   = n_32_is        ! vanha_n_33is
         ! TODO vain kaksi sanaa? Vain ruvis ja kaunis. Hmm
     !! ** 3.3.4 (huonet, hyljet, perkele)                         = n_32_et        ! vanha_n_33t
     !! ** 3.3.5 (kirves)                                          = n_32_ts        ! vanha_n_33ts
         ! TODO vain kaksi sanaa? Vain kirves ja keläs. Hmm
-!   ! kuolu:kuol                                                  = n_32_u       -! vanha_a_33u ?
+!   ! kuolu:kuol                                                  = n_32_u        -! vanha_a_33u ?
 !       ! TODO onko tämä edes olemassa enään? Mikä luokitus on kuolu? Not nouns, only in adj it seems
 
 
@@ -540,7 +540,7 @@ eđelinen:eđeli n_22_inen ;
 eđesvastaus:eđes#vastau n_22_excns ;
 faaki n_11_i ;
 faakimies:faaki#mie n_12_mies ;
-faakimiljöö:faaki#miljöö n_31_lainasana ;
+faakimiljöö:faaki#miljöö n_31_lainasana_ee ;
 faakimuistelus:faaki#muistelu n_22_excns ;
 faakina n_21_oi ;
 faakiopetus:faaki#opet2u n_22_excns ;
@@ -584,7 +584,7 @@ fiila n_11_AO  ;
 fiili n_11_i ;
 fiilipunkki:fiili#punkki n_11_i ;
 fiksuuni:fiksuuni n_21_odd_i ;
-filee:filee n_31_lainasana ;
+filee:filee n_31_lainasana_ee ;
 filmi n_11_i ;
 filmi-ilta n_11_AO  ;
 filmipremiääri:filmi#premiääri n_21 ;
@@ -1009,7 +1009,7 @@ höyläpenkki:höylä#penkki n_11_i ;
 höyry n_11 ;
 höystet:höyst n_32_et ;
 höystö n_11 ;
-idee:idee n_31_lainasana ;
+idee:idee n_31_lainasana_ee ;
 ideepankki n_11_i ;
 identiteetti n_21_odd_i ;
 ien:iken n_22 ;
@@ -2856,7 +2856,7 @@ miljarti n_21_odd_i ;
 miljonääri n_21 ;
 miljunääri n_21 ;
 miljuuna n_21_oi ;
-miljöö n_31_lainasana ;
+miljöö n_31_lainasana_ee ;
 mineraali n_21 ;
 minipankko:mini#pankko n_11 ;
 ministeri n_21 ;
@@ -3612,7 +3612,7 @@ plankku n_11 ;
 plantaaši n_11_i ;
 plassi n_11_i ;
 plastikki n_21_odd_i ;
-platoo n_31_lainasana ;
+platoo n_31_lainasana_ee ;
 pliantti n_21_odd_i ;
 pluraali n_21_odd_i ;
 pluskvamperfekti n_21 ;
@@ -4923,7 +4923,7 @@ teelusikka:tee#lusikka n_21_oi ;
 teema n_11_AO  ;
 teeplantaaši:tee#plantaaši n_11_i ;
 teerni n_11_i ;
-teevee:teevee n_31_lainasana ;
+teevee:teevee n_31_lainasana_ee ;
 tehtäävä n_21_odd ;
 tehđas:teht n_32_as ;
 teiri n_11_i ;
