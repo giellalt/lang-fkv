@@ -31,7 +31,7 @@ LEXICON Punctuation
 %"+PUNCT:%"         # ;
 '+PUNCT:'           # ;
 %*+PUNCT:%*         # ;
-++PUNCT:+           # ;
+++PUNCT:+7          # ;
 `+PUNCT:`           # ;
 ´+PUNCT:´           # ;
 /+PUNCT:/           # ; 
@@ -41,20 +41,20 @@ LEXICON Punctuation
 
 ! Paired punctuation marks
 
-%«+PUNCT+RIGHT:%«   # ;
-%»+PUNCT+LEFT:%»    # ;
-%“+PUNCT+LEFT:%“    # ;
-%”+PUNCT+RIGHT:%”   # ;
-%‘+PUNCT+LEFT:%‘    # ;
-%’+PUNCT+RIGHT:%’   # ;
-%‹+PUNCT+LEFT:%‹    # ;
-%›+PUNCT+RIGHT:%›   # ;
-%(+PUNCT+LEFT:%(    # ;
-%)+PUNCT+RIGHT:%)   # ;
-%[+PUNCT+LEFT:%[    # ;
-%]+PUNCT+RIGHT:%]   # ;
-%{+PUNCT+LEFT:%{    # ;
-%}+PUNCT+RIGHT:%}   # ;
-%<+PUNCT+LEFT:%<    # ;
-%>+PUNCT+LEFT:%>    # ;
+«+PUNCT+RIGHT:«7     # ;
+»+PUNCT+LEFT:»7      # ;
+%“+PUNCT+LEFT:%“     # ;
+%”+PUNCT+RIGHT:%”    # ;
+%‘+PUNCT+LEFT:%‘     # ;
+%’+PUNCT+RIGHT:%’    # ;
+%‹+PUNCT+LEFT:%‹     # ;
+%›+PUNCT+RIGHT:%›    # ;
+%(+PUNCT+LEFT:%(     # ;
+%)+PUNCT+RIGHT:%)    # ;
+%[+PUNCT+LEFT:%[     # ;
+%]+PUNCT+RIGHT:%]    # ;
+%{+PUNCT+LEFT:%{     # ;
+%}+PUNCT+RIGHT:%}    # ;
+%<+PUNCT+LEFT:%[%<%] # ;
+%>+PUNCT+LEFT:%[%>%] # ;
 
