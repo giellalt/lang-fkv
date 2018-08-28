@@ -12,48 +12,48 @@ TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 ** X.X Kaksitavuiset ( sana : sanoissa, aika )  a -> o:ksi = n_11_AO        ! vanha_n_21_AO
 ** X.X Kaksitavuiset ( kuva : kuvissa )         a -> i:ksi = n_11_A0_A2I    ! vanha_n_21_A0_A2I
 ** X.X Kaksitavuiset lånord ( färi : färi, pappi, tooli )  = n_11_i         ! vanha_n_21i
-*** 2.1.1  Kaksitavuiset monikko (housut )   	            = n_11_pl        ! vanha_n_21pl
+*** 2.1.1  Kaksitavuiset monikko (housut )                 = n_11_pl        ! vanha_n_21pl
 *** 2.1.2  Kaksitavuiset ( joki:joke, ovi:ove ) e -> i:ksi = n_11_E2I       ! vanha_n_21_E2I
 
 ** 3.1 Kaksitavuiset (CNS-rankaiset?) ( pieni, kieli )     = n_12           ! vanha_n_31
-** 3.1.1  ( lumi:lumen:lunta )                 		        = n_12_lumi      ! vanha_n_31lumi
-** 3.1.2  ( käsi, vuosi )					   		                  = n_12_si        ! vanha_n_31si
-** 3.1.3  ( lapsi )		 	         	   		                  = n_12_lapsi     ! vanha_n_31lapsi
-** 3.1.4  ( mies )			         		   		                  = n_12_mies      ! vanha_n_31mies
+** 3.1.1  ( lumi:lumen:lunta )                             = n_12_lumi      ! vanha_n_31lumi
+** 3.1.2  ( käsi, vuosi )                                  = n_12_si        ! vanha_n_31si
+** 3.1.3  ( lapsi )                                        = n_12_lapsi     ! vanha_n_31lapsi
+** 3.1.4  ( mies )                                         = n_12_mies      ! vanha_n_31mies
 
 
 TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
 
-** 2.2  Usseempitav. ( opettaaja )		     	 	              = n_21           ! vanha_n_22
-*** 2.2.2  U.tav. monikko oi (kulkkiija,sivakka,paijukko )	= n_21_oi        ! vanha_n_22oi
-*** 2.2.1  Usseempitav. odd ( kajava )	       	            = n_21_odd       ! vanha_n_22odd
-*** 2.2.1  Usseempitav. odd ( meininki, tunturi )	        = n_21_odd_i     ! vanha_n_22oddi
+** 2.2  Usseempitav. ( opettaaja )                         = n_21           ! vanha_n_22
+*** 2.2.2  U.tav. monikko oi (kulkkiija,sivakka,paijukko ) = n_21_oi        ! vanha_n_22oi
+*** 2.2.1  Usseempitav. odd ( kajava )                     = n_21_odd       ! vanha_n_22odd
+*** 2.2.1  Usseempitav. odd ( meininki, tunturi )          = n_21_odd_i     ! vanha_n_22oddi
 
 ** 3.2 Usseempitavuiset ( tytär )
-*** 3.2.1 ( tytär, taival, paimen )                   		  = n_22           ! vanha_n_32
-*** 3.2.2 ( elläin: elläimen)                		          = n_22_m         ! vanha_n_32m
-***       ( vanhimet:vanhi )                		            = n_22_m_pl      ! vanha_n_32m_pl
+*** 3.2.1 ( tytär, taival, paimen )                        = n_22           ! vanha_n_32
+*** 3.2.2 ( elläin: elläimen)                              = n_22_m         ! vanha_n_32m
+***       ( vanhimet:vanhi )                               = n_22_m_pl      ! vanha_n_32m_pl
 
 ** 4.3  ton-adjektiivit (onneton:onne) (vain Adj)          = a_22_ton      -! vanha_a_43odd
-*** 3.2.3 (rakkhaus)					   		                        = n_22_s         ! vanha_n_32s
-** 4.1 veres-nominit ( veres, kokkous)	   	 ekstraCNSranka = n_22_excns     ! vanha_n_41
+*** 3.2.3 (rakkhaus)                                       = n_22_s         ! vanha_n_32s
+** 4.1 veres-nominit ( veres, kokkous) ekstraCNSranka      = n_22_excns     ! vanha_n_41
 ** 4.1.1 veres-nominit monikko ( veljekset) ekstraCNSranka = n_22_excns_pl  ! vanha_n_41pl
-*** 4.2.2 -inen-nominit odd (vihrinen / ihminen)	   		    = n_22_inen_odd  ! vanha_n_42odd
-** 4.2 –inen-nominit ( kainulainen)		   		              = n_22_inen      ! vanha_n_42
-*** 4.2.1 -inen-nominit Pl (tervheiset)	   		            = n_22_inen_pl   ! vanha_n_42pl
+*** 4.2.2 -inen-nominit odd (vihrinen / ihminen)           = n_22_inen_odd  ! vanha_n_42odd
+** 4.2 –inen-nominit ( kainulainen)                        = n_22_inen      ! vanha_n_42
+*** 4.2.1 -inen-nominit Pl (tervheiset)                    = n_22_inen_pl   ! vanha_n_42pl
 
 
 TYYPPI 3: Pitkävokaaliset rangat
 
-* 1. Yksitavuiset / Vi ( maa, yö )		 	                    = n_31           ! vanha_n_1
-* 1.2  Yksitavuiset monikko/ Vi ( häät )		  	            = n_31_pl        ! vanha_n_1pl
-* 1.1 Yksitavuiset / ai ( tuorestai )		 	              = n_31_ai      ! vanha_n_1ai
-** 2.3 Kokkoontumanom. ( valkkee)	      	 	              = n_31_ee ! vanha_n_23
-** 2.3 Kokkoontumanom. ( filee, teevee) Lainasanat!	      	      = n_31_lainasana_ee ! vanha_n_23
-** 2.3.1 Kokkoontumanom. ( assii, laattii )    		 	      = n_31_ii ! vanha_n_23ii
+* 1. Yksitavuiset / Vi ( maa, yö )                         = n_31           ! vanha_n_1
+* 1.2  Yksitavuiset monikko/ Vi ( häät )                   = n_31_pl        ! vanha_n_1pl
+* 1.1 Yksitavuiset / ai ( tuorestai )                      = n_31_ai        ! vanha_n_1ai
+** 2.3 Kokkoontumanom. ( valkkee)                          = n_31_ee        ! vanha_n_23
+** 2.3 Kokkoontumanom. ( filee, teevee) Lainasanat!        = n_31_lainasana_ee ! vanha_n_23
+** 2.3.1 Kokkoontumanom. ( assii, laattii )                = n_31_ii        ! vanha_n_23ii
 
 ** 3.3.1 (opas) & 3.3.2 (asukas) & rakas                   = n_32_as        ! vanha_n_33as
-** 3.3.3 (ruvis, kaunis)                           		    = n_32_is        ! vanha_n_33is
+** 3.3.3 (ruvis, kaunis)                                   = n_32_is        ! vanha_n_33is
 ** 3.3.4 (huonet, hyljet, perkele)                         = n_32_et        ! vanha_n_33t
 ** 3.3.5 (kirves)                                          = n_32_ts        ! vanha_n_33ts
 
