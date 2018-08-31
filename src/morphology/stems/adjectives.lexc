@@ -145,8 +145,8 @@ fakki a_11 ;
 plankki a_11 ;
 flinkki a_11 ;
 villi a_11 ;
-käsipuoli a_11 ;
-silmäpuoli a_11 ;
+käsipuoli:käsi#puole a_12 ;
+silmäpuoli:silmä#puole a_12 ;
 hööli a_11 ;
 viimi a_11 ;
 himmi a_11 ;
@@ -189,7 +189,7 @@ ontto a_11 ;
 rutto a_11 ;
 outo a_11 ;
 siivo a_11 ;
-ohu a_11 ;
+ohu a_x ; !!! TODO aiemmin a_11, ei toimi.
 raju a_11 ;
 kalju a_11 ;
 pikku a_11 ;
@@ -205,7 +205,7 @@ kalsu a_11 ;
 kranttu a_11 ;
 tuttu a_11 ;
 liehmuu a_11 ;
-lyhy a_11 ;
+lyhy a_x ; !!! TODO aiemmin a_11 mutta se ei käy.
 häijy a_11 ;
 syyry a_11 ;
 kypsy a_11 ;
