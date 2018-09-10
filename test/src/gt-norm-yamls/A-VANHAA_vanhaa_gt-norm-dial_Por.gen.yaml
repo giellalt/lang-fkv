@@ -1,0 +1,100 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: linnrun analyser, then correct.
+
+
+  Noun - pappi - ei tsekattu : # Noun 'clean' - ei tsekattu
+     vanhaa+A+Sg+Nom: vanhaa
+     vanhaa+A+Sg+Gen: vanhan
+     vanhaa+A+Sg+Par: vanhhaa
+     vanhaa+A+Sg+Tra: vanhaksi
+     vanhaa+A+Sg+Abe: vanhatta
+     vanhaa+A+Sg+Ine: vanhassa
+     vanhaa+A+Sg+Ela: vanhasta
+     vanhaa+A+Sg+Ill: vanhhaan
+     vanhaa+A+Sg+Ade: vanhala
+     vanhaa+A+Sg+Abl: vanhalta
+     vanhaa+A+Sg+All: vanhale
+     vanhaa+A+Sg+Ess: vanhana
+
+     vanhaa+A+Pl+Nom: vanhat
+     vanhaa+A+Pl+Gen: vanhoitten
+     vanhaa+A+Pl+Par: vanhoja
+     vanhaa+A+Pl+Tra: vanhoiksi
+     vanhaa+A+Pl+Ine: vanhoissa
+     vanhaa+A+Pl+Ela: vanhoista
+     vanhaa+A+Pl+Ill: vanhoin
+     vanhaa+A+Pl+Ade: vanhoila
+     vanhaa+A+Pl+Abl: vanhoilta
+     vanhaa+A+Pl+All: vanhoilet
+     vanhaa+A+Pl+Ess: vanhoina
+     vanhaa+A+Pl+Com: vanhoine
+
+
+
+     vanhaa+A+Sg+Compar+Nom: vanhempi
+     vanhaa+A+Sg+Compar+Gen: vanheman
+     vanhaa+A+Sg+Compar+Par: vanhemppaa
+     vanhaa+A+Sg+Compar+Tra: vanhemaksi
+     vanhaa+A+Sg+Compar+Abe: vanhematta
+     vanhaa+A+Sg+Compar+Ine: vanhemassa
+     vanhaa+A+Sg+Compar+Ela: vanhemasta
+     vanhaa+A+Sg+Compar+Ill: vanhemphaan
+     vanhaa+A+Sg+Compar+Ade: vanhemalla
+     vanhaa+A+Sg+Compar+Abl: vanhemalta
+     vanhaa+A+Sg+Compar+All: vanhemalle
+     vanhaa+A+Sg+Compar+Ess: vanhempanna
+
+     vanhaa+A+Pl+Compar+Nom: vanhemat
+     vanhaa+A+Pl+Compar+Gen: vanhemiitten
+     vanhaa+A+Pl+Compar+Par: [vanhemppiita, vanhemppii]
+     vanhaa+A+Pl+Compar+Tra: vanhemiksi
+     vanhaa+A+Pl+Compar+Abe: vanhemitta
+     vanhaa+A+Pl+Compar+Ine: vanhemissa
+     vanhaa+A+Pl+Compar+Ela: vanhemista
+     vanhaa+A+Pl+Compar+Ill: vanhemphiin
+     vanhaa+A+Pl+Compar+Ade: vanhemilla
+     vanhaa+A+Pl+Compar+Abl: vanhemilta
+     vanhaa+A+Pl+Compar+All: vanhemille
+     vanhaa+A+Pl+Compar+Ess: vanhempinna
+     vanhaa+A+Pl+Compar+Com: vanhempinne
+
+
+
+     vanhaa+A+Sg+Superl+Nom: vanhin
+     vanhaa+A+Sg+Superl+Gen: vanhiman
+     vanhaa+A+Sg+Superl+Par: vanhinta
+     vanhaa+A+Sg+Superl+Tra: vanhimaksi
+     vanhaa+A+Sg+Superl+Abe: vanhimatta
+     vanhaa+A+Sg+Superl+Ine: vanhimassa
+     vanhaa+A+Sg+Superl+Ela: vanhimasta
+     vanhaa+A+Sg+Superl+Ill: vanhimphaan
+     vanhaa+A+Sg+Superl+Ade: vanhimalla
+     vanhaa+A+Sg+Superl+Abl: vanhimalta
+     vanhaa+A+Sg+Superl+All: vanhimalle
+     vanhaa+A+Sg+Superl+Ess: vanhimpanna
+
+     vanhaa+A+Pl+Superl+Nom: vanhimat
+     vanhaa+A+Pl+Superl+Gen: vanhimiitten
+     vanhaa+A+Pl+Superl+Par: [vanhimppii, vanhimppiita]
+     vanhaa+A+Pl+Superl+Tra: vanhimiksi
+     vanhaa+A+Pl+Superl+Abe: vanhimitta
+     vanhaa+A+Pl+Superl+Ine: vanhimissa
+     vanhaa+A+Pl+Superl+Ela: vanhimista
+     vanhaa+A+Pl+Superl+Ill: vanhimphiin
+     vanhaa+A+Pl+Superl+Ade: vanhimilla
+     vanhaa+A+Pl+Superl+Abl: vanhimilta
+     vanhaa+A+Pl+Superl+All: vanhimille
+     vanhaa+A+Pl+Superl+Ess: vanhimpinna
+     vanhaa+A+Pl+Superl+Com: vanhimpinne
