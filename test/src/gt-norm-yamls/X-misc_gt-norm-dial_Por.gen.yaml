@@ -13,758 +13,1444 @@ Tests:
 # Proofread the gold standard (below)
 # Then: linnrun analyser, then correct.
 
-Noun - misc - ei tsekattu : # Noun 'misc' - Aili on tsekannut jos lukee ok, ei muilta
-
-flaku+N+Sg+Nom: flaku     # (ok)
-flaku+N+Sg+Gen: flavun     # (ok)
-flaku+N+Sg+Par: flakkuu     # (ok)
-flaku+N+Sg+Ine: flavussa     # (ok)
-flaku+N+Sg+Ill: flakhuun     # (ok)
-flaku+N+Sg+Ela: flavusta     # (ok)
-flaku+N+Sg+Ade: flavula     # (ok)
-flaku+N+Sg+Abe: flavutta     # (ok)
-flaku+N+Sg+All: flavule     # (ok)
-flaku+N+Sg+Abl: flavulta     # (ok)
-flaku+N+Sg+Ess: flakuna     # (ok)
-flaku+N+Sg+Tra: flavuksi     # (ok)
-
-flaku+N+Pl+Nom: flavut     # (ok)
-flaku+N+Pl+Gen: flakuin     # (flakkuin)
-flaku+N+Pl+Par: flakui     # (flakkui)
-flaku+N+Pl+Ine: flavuissa     # (ok)
-flaku+N+Pl+Ill: flakhuin     # (ok)
-flaku+N+Pl+Ela: flavuista     # (ok)
-flaku+N+Pl+Ade: flavuila     # (ok)
-flaku+N+Pl+Abe: flavuitta     # (ok)
-flaku+N+Pl+All: flavuile     # (ok)
-flaku+N+Pl+Abl: flavuilta     # (ok)
-flaku+N+Pl+Ess: flakuina     # (ok)
-flaku+N+Pl+Tra: flavuiksi     # (ok)
-flaku+N+Pl+Com: flakuine     # (ok)
-
-
-
-hoppu+N+Sg+Nom: hoppu     # (ok)
-hoppu+N+Sg+Gen: hopun     # (ok)
-hoppu+N+Sg+Par: hoppuu     # (ok)
-hoppu+N+Sg+Ine: hopussa     # (ok)
-hoppu+N+Sg+Ill: hopphuun     # (?)
-hoppu+N+Sg+Ela: hopusta     # (ok)
-hoppu+N+Sg+Ade: hopula     # (ok)
-hoppu+N+Sg+Abe: hoputta     # (ok)
-hoppu+N+Sg+All: hopule     # (ok)
-hoppu+N+Sg+Abl: hopulta     # (ok)
-hoppu+N+Sg+Ess: hoppuna     # (ok)
-hoppu+N+Sg+Tra: hopuksi     # (ok)
-
-hoppu+N+Pl+Nom: hoput     # (ok)
-hoppu+N+Pl+Gen: hoppuin     # (ok)
-hoppu+N+Pl+Par: hoppui     # (ok)
-hoppu+N+Pl+Ine: hopuissa     # (ok)
-hoppu+N+Pl+Ill: hopphuin     # (?)
-hoppu+N+Pl+Ela: hopuista     # (ok)
-hoppu+N+Pl+Ade: hopuila     # (ok)
-hoppu+N+Pl+Abe: hopuitta     # (ok)
-hoppu+N+Pl+All: hopuile     # (ok)
-hoppu+N+Pl+Abl: hopuilta     # (ok)
-hoppu+N+Pl+Ess: hoppuina     # (ok)
-hoppu+N+Pl+Tra: hopuiksi     # (ok)
-hoppu+N+Pl+Com: hoppuine     # (ok)
-
-
-
-häntä+N+Sg+Nom: häntä     # (ok)
-häntä+N+Sg+Gen: hännän     # (ok)
-häntä+N+Sg+Par: hänttää     # (ok)
-häntä+N+Sg+Ine: hännässä     # (ok)
-häntä+N+Sg+Ill: hänthään     # (ok)
-häntä+N+Sg+Ela: hännästä     # (ok)
-häntä+N+Sg+Ade: hännälä     # (ok)
-häntä+N+Sg+Abe: hännättä     # (ok)
-häntä+N+Sg+All: hännäle     # (ok)
-häntä+N+Sg+Abl: hännältä     # (ok)
-häntä+N+Sg+Ess: häntänä     # (ok)
-häntä+N+Sg+Tra: hännäksi     # (ok)
-
-häntä+N+Pl+Nom: hännät     # (ok)
-häntä+N+Pl+Gen: hänsiin     # (hänttiin)
-häntä+N+Pl+Par: hänsi     # (hänttii)
-häntä+N+Pl+Ine: hänsissä     # (hännissä)
-häntä+N+Pl+Ill: hänthäin     # (hänthiin)
-häntä+N+Pl+Ela: hänsistä     # (hännistä)
-häntä+N+Pl+Ade: hänsilä     # (hännilä)
-häntä+N+Pl+Abe: hänsittä     # (hännittä)
-häntä+N+Pl+All: hänsile     # (hännile)
-häntä+N+Pl+Abl: hänsiltä     # (hänniltä)
-häntä+N+Pl+Ess: hänsinä     # (häntinä)
-häntä+N+Pl+Tra: hänsiksi     # (hänniksi)
-häntä+N+Pl+Com: hänsine     # (häntine)
-
-
-ikä+N+Sg+Nom: ikä     # (ok)
-ikä+N+Sg+Gen: ikän     # (iän)
-ikä+N+Sg+Par: ikkää     # (ok)
-ikä+N+Sg+Ine: ikässä     # (iässä)
-ikä+N+Sg+Ill: ikhään     # (ok)
-ikä+N+Sg+Ela: ikästä     # (iästä)
-ikä+N+Sg+Ade: ikälä     # (iälä)
-ikä+N+Sg+Abe: ikättä     # (iättä)
-ikä+N+Sg+All: ikäle     # (iäle)
-ikä+N+Sg+Abl: ikältä     # (iältä)
-ikä+N+Sg+Ess: ikänä     # (ok)
-ikä+N+Sg+Tra: ikäksi     # (iäksi)
-
-ikä+N+Pl+Nom: ikät     # (iät)
-ikä+N+Pl+Gen: ikiin     # (ikkiin)
-ikä+N+Pl+Par: iki     # (ikkii)
-ikä+N+Pl+Ine: ikissä     # (iissä)
-ikä+N+Pl+Ill: ikhäin     # (ikhiin)
-ikä+N+Pl+Ela: ikistä     # (iistä)
-ikä+N+Pl+Ade: ikilä     # (iilä)
-ikä+N+Pl+Abe: ikittä     # (iittä)
-ikä+N+Pl+All: ikile     # (iile)
-ikä+N+Pl+Abl: ikiltä     # (iiltä)
-ikä+N+Pl+Ess: ikinä     # (ok)
-ikä+N+Pl+Tra: ikiksi     # (iiksi)
-ikä+N+Pl+Com: ikine     # (ok)
-
-
-
-
-into+N+Sg+sg: pl
-into+N+Sg+Nom: into     # (ok)
-into+N+Sg+Gen: innon     # (ok)
-into+N+Sg+Par: inttoo     # (ok)
-into+N+Sg+Ine: innossa     # (ok)
-into+N+Sg+Ill: inthoon     # (ok)
-into+N+Sg+Ela: innosta     # (ok)
-into+N+Sg+Ade: innola     # (ok)
-into+N+Sg+Abe: innotta     # (ok)
-into+N+Sg+All: innole     # (ok)
-into+N+Sg+Abl: innolta     # (ok)
-into+N+Sg+Ess: intona     # (ok)
-into+N+Sg+Tra: innoksi     # (ok)
-
-into+N+Pl+Nom: innot     # (ok)
-into+N+Pl+Gen: intoin     # (inttoin)
-into+N+Pl+Par: intoi     # (inttoi)
-into+N+Pl+Ine: innoissa     # (ok)
-into+N+Pl+Ill: inthoin     # (ok)
-into+N+Pl+Ela: innoista     # (ok)
-into+N+Pl+Ade: innoila     # (ok)
-into+N+Pl+Abe: innoitta     # (ok)
-into+N+Pl+All: innoile     # (ok)
-into+N+Pl+Abl: innoilta     # (ok)
-into+N+Pl+Ess: intoina     # (ok)
-into+N+Pl+Tra: innoiksi     # (ok)
-into+N+Pl+Com: intoine     # (ok)
-
-
-
-juomu+N+Sg+Nom: juomu     # (ok)
-juomu+N+Sg+Gen: juomun     # (ok)
-juomu+N+Sg+Par: juomuu     # (ok)
-juomu+N+Sg+Ine: juomussa     # (ok)
-juomu+N+Sg+Ill: juomhuun     # (ok)
-juomu+N+Sg+Ela: juomusta     # (ok)
-juomu+N+Sg+Ade: juomula     # (ok)
-juomu+N+Sg+Abe: juomutta     # (ok)
-juomu+N+Sg+All: juomule     # (ok)
-juomu+N+Sg+Abl: juomulta     # (ok)
-juomu+N+Sg+Ess: juomuna     # (ok)
-juomu+N+Sg+Tra: juomuksi     # (ok)
-
-juomu+N+Pl+Nom: juomut     # (ok)
-juomu+N+Pl+Gen: juomuin     # (ok)
-juomu+N+Pl+Par: juomui     # (ok)
-juomu+N+Pl+Ine: juomuissa     # (ok)
-juomu+N+Pl+Ill: juomhuin     # (ok)
-juomu+N+Pl+Ela: juomuista     # (ok)
-juomu+N+Pl+Ade: juomuila     # (ok)
-juomu+N+Pl+Abe: juomuitta     # (ok)
-juomu+N+Pl+All: juomuile     # (ok)
-juomu+N+Pl+Abl: juomuilta     # (ok)
-juomu+N+Pl+Ess: juomuina     # (ok)
-juomu+N+Pl+Tra: juomuiksi     # (ok)
-juomu+N+Pl+Com: juomuine     # (ok)
-
-
-
-katto+N+Sg+Nom: katto     # (ok)
-katto+N+Sg+Gen: katon     # (ok)
-katto+N+Sg+Par: kattoo     # (ok)
-katto+N+Sg+Ine: katossa     # (ok)
-katto+N+Sg+Ill: katthoon     # (ok)
-katto+N+Sg+Ela: katosta     # (ok)
-katto+N+Sg+Ade: katola     # (ok)
-katto+N+Sg+Abe: katotta     # (ok)
-katto+N+Sg+All: katole     # (ok)
-katto+N+Sg+Abl: katolta     # (ok)
-katto+N+Sg+Ess: kattona     # (ok)
-katto+N+Sg+Tra: katoksi     # (ok)
-
-katto+N+Pl+Nom: katot     # (ok)
-katto+N+Pl+Gen: kattoin     # (ok)
-katto+N+Pl+Par: kattoi     # (ok)
-katto+N+Pl+Ine: katoissa     # (ok)
-katto+N+Pl+Ill: katthoin     # (ok)
-katto+N+Pl+Ela: katoista     # (ok)
-katto+N+Pl+Ade: katoila     # (ok)
-katto+N+Pl+Abe: katoitta     # (ok)
-katto+N+Pl+All: katoile     # (ok)
-katto+N+Pl+Abl: katoilta     # (ok)
-katto+N+Pl+Ess: kattoina     # (ok)
-katto+N+Pl+Tra: katoiksi     # (ok)
-katto+N+Pl+Com: kattoine     # (ok)
-
-
-
-kelhä+N+Sg+Nom: kelhä     # (ok)
-kelhä+N+Sg+Gen: kelhän     # (ok)
-kelhä+N+Sg+Par: kelhää     # (ok)
-kelhä+N+Sg+Ine: kelhässä     # (ok)
-kelhä+N+Sg+Ill: kelhhään     # (ok)
-kelhä+N+Sg+Ela: kelhästä     # (ok)
-kelhä+N+Sg+Ade: kelhälä     # (ok)
-kelhä+N+Sg+Abe: kelhättä     # (ok)
-kelhä+N+Sg+All: kelhäle     # (ok)
-kelhä+N+Sg+Abl: kelhältä     # (ok)
-kelhä+N+Sg+Ess: kelhänä     # (ok)
-kelhä+N+Sg+Tra: kelhäksi     # (ok)
-
-kelhä+N+Pl+Nom: kelhät     # (ok)
-kelhä+N+Pl+Gen: kelhiin     # (ok)
-kelhä+N+Pl+Par: kelhi     # (kelhii)
-kelhä+N+Pl+Ine: kelhissä     # (ok)
-kelhä+N+Pl+Ill: kelhhäin     # (kelhhiin)
-kelhä+N+Pl+Ela: kelhistä     # (ok)
-kelhä+N+Pl+Ade: kelhilä     # (ok)
-kelhä+N+Pl+Abe: kelhittä     # (ok)
-kelhä+N+Pl+All: kelhile     # (ok)
-kelhä+N+Pl+Abl: kelhiltä     # (ok)
-kelhä+N+Pl+Ess: kelhinä     # (ok)
-kelhä+N+Pl+Tra: kelhiksi     # (ok)
-kelhä+N+Pl+Com: kelhine     # (ok)
-
-
-
-kenkä+N+Sg+Nom: kenkä     # (ok)
-kenkä+N+Sg+Gen: kengän     # (ok)
-kenkä+N+Sg+Par: kenkkää     # (ok)
-kenkä+N+Sg+Ine: kengässä     # (ok)
-kenkä+N+Sg+Ill: kenkhään     # (ok)
-kenkä+N+Sg+Ela: kengästä     # (ok)
-kenkä+N+Sg+Ade: kengälä     # (ok)
-kenkä+N+Sg+Abe: kengättä     # (ok)
-kenkä+N+Sg+All: kengäle     # (ok)
-kenkä+N+Sg+Abl: kengältä     # (ok)
-kenkä+N+Sg+Ess: kenkänä     # (ok)
-kenkä+N+Sg+Tra: kengäksi     # (ok)
-
-kenkä+N+Pl+Nom: kengät     # (ok)
-kenkä+N+Pl+Gen: kenkiin     # (kenkkiin)
-kenkä+N+Pl+Par: kenki     # (kenkkii)
-kenkä+N+Pl+Ine: kengissä     # (ok)
-kenkä+N+Pl+Ill: kenkhäin     # (kenkhiin)
-kenkä+N+Pl+Ela: kengistä     # (ok)
-kenkä+N+Pl+Ade: kengilä     # (ok)
-kenkä+N+Pl+Abe: kengittä     # (ok)
-kenkä+N+Pl+All: kengile     # (ok)
-kenkä+N+Pl+Abl: kengiltä     # (ok)
-kenkä+N+Pl+Ess: kenkinä     # (ok)
-kenkä+N+Pl+Tra: kengiksi     # (ok)
-kenkä+N+Pl+Com: kenkine     # (ok)
-
-
-
-lehmä+N+Sg+Nom: lehmä     # (ok)
-lehmä+N+Sg+Gen: lehmän     # (ok)
-lehmä+N+Sg+Par: lehmää     # (ok)
-lehmä+N+Sg+Ine: lehmässä     # (ok)
-lehmä+N+Sg+Ill: lehmhään     # (ok)
-lehmä+N+Sg+Ela: lehmästä     # (ok)
-lehmä+N+Sg+Ade: lehmälä     # (ok)
-lehmä+N+Sg+Abe: lehmättä     # (ok)
-lehmä+N+Sg+All: lehmäle     # (ok)
-lehmä+N+Sg+Abl: lehmältä     # (ok)
-lehmä+N+Sg+Ess: lehmänä     # (ok)
-lehmä+N+Sg+Tra: lehmäksi     # (ok)
-
-lehmä+N+Pl+Nom: lehmät     # (ok)
-lehmä+N+Pl+Gen: lehmiin     # (ok)
-lehmä+N+Pl+Par: lehmi     # (lehmii)
-lehmä+N+Pl+Ine: lehmissä     # (ok)
-lehmä+N+Pl+Ill: lehmhäin     # (lehmhiin)
-lehmä+N+Pl+Ela: lehmistä     # (ok)
-lehmä+N+Pl+Ade: lehmilä     # (ok)
-lehmä+N+Pl+Abe: lehmittä     # (ok)
-lehmä+N+Pl+All: lehmile     # (ok)
-lehmä+N+Pl+Abl: lehmiltä     # (ok)
-lehmä+N+Pl+Ess: lehminä     # (ok)
-lehmä+N+Pl+Tra: lehmiksi     # (ok)
-lehmä+N+Pl+Com: lehmine     # (ok)
-
-
-
-leipä+N+Sg+Nom: leipä     # (ok)
-leipä+N+Sg+Gen: leivän     # (ok)
-leipä+N+Sg+Par: leippää     # (ok)
-leipä+N+Sg+Ine: leivässä     # (ok)
-leipä+N+Sg+Ill: leiphään     # (ok)
-leipä+N+Sg+Ela: leivästä     # (ok)
-leipä+N+Sg+Ade: leivälä     # (ok)
-leipä+N+Sg+Abe: leivättä     # (ok)
-leipä+N+Sg+All: leiväle     # (ok)
-leipä+N+Sg+Abl: leivältä     # (ok)
-leipä+N+Sg+Ess: leipänä     # (ok)
-leipä+N+Sg+Tra: leiväksi     # (ok)
-
-leipä+N+Pl+Nom: leivät     # (ok)
-leipä+N+Pl+Gen: leipiin     # (leippiin)
-leipä+N+Pl+Par: leipi     # (leippii)
-leipä+N+Pl+Ine: leivissä     # (ok)
-leipä+N+Pl+Ill: leiphäin     # (leiphiin)
-leipä+N+Pl+Ela: leivistä     # (ok)
-leipä+N+Pl+Ade: leivilä     # (ok)
-leipä+N+Pl+Abe: leivittä     # (ok)
-leipä+N+Pl+All: leivile     # (ok)
-leipä+N+Pl+Abl: leiviltä     # (ok)
-leipä+N+Pl+Ess: leipinä     # (ok)
-leipä+N+Pl+Tra: leiviksi     # (ok)
-leipä+N+Pl+Com: leipine     # (ok)
-
-
-
-maito+N+Sg+Nom: maito     # (ok)
-maito+N+Sg+Gen: maiđon     # (ok)
-maito+N+Sg+Par: maittoo     # (ok)
-maito+N+Sg+Ine: maiđossa     # (ok)
-maito+N+Sg+Ill: maithoon     # (ok)
-maito+N+Sg+Ela: maiđosta     # (ok)
-maito+N+Sg+Ade: maiđola     # (ok)
-maito+N+Sg+Abe: maiđotta     # (ok)
-maito+N+Sg+All: maiđole     # (ok)
-maito+N+Sg+Abl: maiđolta     # (ok)
-maito+N+Sg+Ess: maitona     # (ok)
-maito+N+Sg+Tra: maiđoksi     # (ok)
-
-maito+N+Pl+Nom: maiđot     # (ok)
-maito+N+Pl+Gen: maittoin     # (ok)
-maito+N+Pl+Par: maittoi     # (ok)
-maito+N+Pl+Ine: maiđoissa     # (ok)
-maito+N+Pl+Ill: maithoin     # (ok)
-maito+N+Pl+Ela: maiđoista     # (ok)
-maito+N+Pl+Ade: maiđoila     # (ok)
-maito+N+Pl+Abe: maiđoitta     # (ok)
-maito+N+Pl+All: maiđoile     # (ok)
-maito+N+Pl+Abl: maiđoilta     # (ok)
-maito+N+Pl+Ess: maittoina     # (maitoina)
-maito+N+Pl+Tra: maiđoiksi     # (ok)
-maito+N+Pl+Com: maittoine     # (maitoine)
-
-
-
-nisu+N+Sg+Nom: nisu     # (ok)
-nisu+N+Sg+Gen: nisun     # (ok)
-nisu+N+Sg+Par: nissuu     # (ok)
-nisu+N+Sg+Ine: nisussa     # (ok)
-nisu+N+Sg+Ill: nishuun     # (ok)
-nisu+N+Sg+Ela: nisusta     # (ok)
-nisu+N+Sg+Ade: nisula     # (ok)
-nisu+N+Sg+Abe: nisutta     # (ok)
-nisu+N+Sg+All: nisule     # (ok)
-nisu+N+Sg+Abl: nisulta     # (ok)
-nisu+N+Sg+Ess: nisuna     # (ok)
-nisu+N+Sg+Tra: nisuksi     # (ok)
-
-nisu+N+Pl+Nom: nisut     # (ok)
-nisu+N+Pl+Gen: nisuin     # (nissuin)
-nisu+N+Pl+Par: nisui     # (nissui)
-nisu+N+Pl+Ine: nisuissa     # (ok)
-nisu+N+Pl+Ill: nishuin     # (ok)
-nisu+N+Pl+Ela: nisuista     # (ok)
-nisu+N+Pl+Ade: nisuila     # (ok)
-nisu+N+Pl+Abe: nisuitta     # (ok)
-nisu+N+Pl+All: nisuile     # (ok)
-nisu+N+Pl+Abl: nisuilta     # (ok)
-nisu+N+Pl+Ess: nisuina     # (ok)
-nisu+N+Pl+Tra: nisuiksi     # (ok)
-nisu+N+Pl+Com: nisuine     # (ok)
-
-
-
-piano+N+Sg+Nom: piano     # (ok)
-piano+N+Sg+Gen: pianon     # (ok)
-piano+N+Sg+Par: pianoo     # (ok)
-piano+N+Sg+Ine: pianossa     # (ok)
-piano+N+Sg+Ill: pianhoon     # (ok)
-piano+N+Sg+Ela: pianosta     # (ok)
-piano+N+Sg+Ade: pianola     # (ok)
-piano+N+Sg+Abe: pianotta     # (ok)
-piano+N+Sg+All: pianole     # (ok)
-piano+N+Sg+Abl: pianolta     # (ok)
-piano+N+Sg+Ess: pianona     # (ok)
-piano+N+Sg+Tra: pianoksi     # (ok)
-
-piano+N+Pl+Nom: pianot     # (ok)
-piano+N+Pl+Gen: pianoin     # (ok)
-piano+N+Pl+Par: pianoi     # (ok)
-piano+N+Pl+Ine: pianoissa     # (ok)
-piano+N+Pl+Ill: pianhoin     # (ok)
-piano+N+Pl+Ela: pianoista     # (ok)
-piano+N+Pl+Ade: pianoila     # (ok)
-piano+N+Pl+Abe: pianoitta     # (ok)
-piano+N+Pl+All: pianoile     # (ok)
-piano+N+Pl+Abl: pianoilta     # (ok)
-piano+N+Pl+Ess: pianoina     # (ok)
-piano+N+Pl+Tra: pianoiksi     # (ok)
-piano+N+Pl+Com: pianoine     # (ok)
-
-
-
-pieru+N+Sg+Nom: pieru     # (ok)
-pieru+N+Sg+Gen: pierun     # (ok)
-pieru+N+Sg+Par: pieruu     # (ok)
-pieru+N+Sg+Ine: pierussa     # (ok)
-pieru+N+Sg+Ill: pierhuun     # (ok)
-pieru+N+Sg+Ela: pierusta     # (ok)
-pieru+N+Sg+Ade: pierula     # (ok)
-pieru+N+Sg+Abe: pierutta     # (ok)
-pieru+N+Sg+All: pierule     # (ok)
-pieru+N+Sg+Abl: pierulta     # (ok)
-pieru+N+Sg+Ess: pieruna     # (ok)
-pieru+N+Sg+Tra: pieruksi     # (ok)
-
-pieru+N+Pl+Nom: pierut     # (ok)
-pieru+N+Pl+Gen: pieruin     # (ok)
-pieru+N+Pl+Par: pierui     # (ok)
-pieru+N+Pl+Ine: pieruissa     # (ok)
-pieru+N+Pl+Ill: pierhuin     # (ok)
-pieru+N+Pl+Ela: pieruista     # (ok)
-pieru+N+Pl+Ade: pieruila     # (ok)
-pieru+N+Pl+Abe: pieruitta     # (ok)
-pieru+N+Pl+All: pieruile     # (ok)
-pieru+N+Pl+Abl: pieruilta     # (ok)
-pieru+N+Pl+Ess: pieruina     # (ok)
-pieru+N+Pl+Tra: pieruiksi     # (ok)
-pieru+N+Pl+Com: pieruine     # (ok)
-
-
-
-puonu+N+Sg+Nom: pounu     # (ok)
-puonu+N+Sg+Gen: pounun     # (ok)
-puonu+N+Sg+Par: pounuu     # (ok)
-puonu+N+Sg+Ine: pounussa     # (ok)
-puonu+N+Sg+Ill: pounhuun     # (ok)
-puonu+N+Sg+Ela: pounusta     # (ok)
-puonu+N+Sg+Ade: pounula     # (ok)
-puonu+N+Sg+Abe: pounutta     # (ok)
-puonu+N+Sg+All: pounule     # (ok)
-puonu+N+Sg+Abl: pounulta     # (ok)
-puonu+N+Sg+Ess: poununa     # (ok)
-puonu+N+Sg+Tra: pounuksi     # (ok)
-
-puonu+N+Pl+Nom: pounut     # (ok)
-puonu+N+Pl+Gen: pounuin     # (ok)
-puonu+N+Pl+Par: pounui     # (ok)
-puonu+N+Pl+Ine: pounuissa     # (ok)
-puonu+N+Pl+Ill: pounhuin     # (ok)
-puonu+N+Pl+Ela: pounuista     # (ok)
-puonu+N+Pl+Ade: pounuila     # (ok)
-puonu+N+Pl+Abe: pounuitta     # (ok)
-puonu+N+Pl+All: pounuile     # (ok)
-puonu+N+Pl+Abl: pounuilta     # (ok)
-puonu+N+Pl+Ess: pounuina     # (ok)
-puonu+N+Pl+Tra: pounuiksi     # (ok)
-puonu+N+Pl+Com: pounuine     # (ok)
-
-
-
-pyhä+N+Sg+Nom: pyhä     # (ok)
-pyhä+N+Sg+Gen: pyhän     # (ok)
-pyhä+N+Sg+Par: pyhhää     # (ok)
-pyhä+N+Sg+Ine: pyhässä     # (ok)
-pyhä+N+Sg+Ill: pyhhään     # (ok)
-pyhä+N+Sg+Ela: pyhästä     # (ok)
-pyhä+N+Sg+Ade: pyhälä     # (ok)
-pyhä+N+Sg+Abe: pyhättä     # (ok)
-pyhä+N+Sg+All: pyhäle     # (ok)
-pyhä+N+Sg+Abl: pyhältä     # (ok)
-pyhä+N+Sg+Ess: pyhänä     # (ok)
-pyhä+N+Sg+Tra: pyhäksi     # (ok)
-
-pyhä+N+Pl+Nom: pyhät     # (ok)
-pyhä+N+Pl+Gen: pyhiin     # (pyhhiin)
-pyhä+N+Pl+Par: pyhi     # (pyhhii)
-pyhä+N+Pl+Ine: pyhissä     # (ok)
-pyhä+N+Pl+Ill: pyhhäin     # (pyhhiin)
-pyhä+N+Pl+Ela: pyhistä     # (ok)
-pyhä+N+Pl+Ade: pyhilä     # (ok)
-pyhä+N+Pl+Abe: pyhittä     # (ok)
-pyhä+N+Pl+All: pyhile     # (ok)
-pyhä+N+Pl+Abl: pyhiltä     # (ok)
-pyhä+N+Pl+Ess: pyhinä     # (ok)
-pyhä+N+Pl+Tra: pyhiksi     # (ok)
-pyhä+N+Pl+Com: pyhine     # (ok)
-
-
-
-riekko+N+Sg+Nom: riekko     # (ok)
-riekko+N+Sg+Gen: riekon     # (ok)
-riekko+N+Sg+Par: riekkoo     # (ok)
-riekko+N+Sg+Ine: riekossa     # (ok)
-riekko+N+Sg+Ill: riekkhoon     # (ok)
-riekko+N+Sg+Ela: riekosta     # (ok)
-riekko+N+Sg+Ade: riekola     # (ok)
-riekko+N+Sg+Abe: riekotta     # (ok)
-riekko+N+Sg+All: riekole     # (ok)
-riekko+N+Sg+Abl: riekolta     # (ok)
-riekko+N+Sg+Ess: riekkona     # (ok)
-riekko+N+Sg+Tra: riekoksi     # (ok)
-
-riekko+N+Pl+Nom: riekot     # (ok)
-riekko+N+Pl+Gen: riekkoin     # (ok)
-riekko+N+Pl+Par: riekkoi     # (ok)
-riekko+N+Pl+Ine: riekoissa     # (ok)
-riekko+N+Pl+Ill: riekkhoin     # (ok)
-riekko+N+Pl+Ela: riekoista     # (ok)
-riekko+N+Pl+Ade: riekoila     # (ok)
-riekko+N+Pl+Abe: riekoitta     # (ok)
-riekko+N+Pl+All: riekoile     # (ok)
-riekko+N+Pl+Abl: riekoilta     # (ok)
-riekko+N+Pl+Ess: riekkoina     # (ok)
-riekko+N+Pl+Tra: riekoiksi     # (ok)
-riekko+N+Pl+Com: riekkoine     # (ok)
-
-
-
-saajo+N+Sg+Nom: saajo     # (ok)
-saajo+N+Sg+Gen: saajon     # (ok)
-saajo+N+Sg+Par: saajoo     # (ok)
-saajo+N+Sg+Ine: saajossa     # (ok)
-saajo+N+Sg+Ill: saajhoon     # (ok)
-saajo+N+Sg+Ela: saajosta     # (ok)
-saajo+N+Sg+Ade: saajola     # (ok)
-saajo+N+Sg+Abe: saajotta     # (ok)
-saajo+N+Sg+All: saajole     # (ok)
-saajo+N+Sg+Abl: saajolta     # (ok)
-saajo+N+Sg+Ess: saajona     # (ok)
-saajo+N+Sg+Tra: saajoksi     # (ok)
-
-saajo+N+Pl+Nom: saajot     # (ok)
-saajo+N+Pl+Gen: saajoin     # (ok)
-saajo+N+Pl+Par: saajoi     # (ok)
-saajo+N+Pl+Ine: saajoissa     # (ok)
-saajo+N+Pl+Ill: saajhoin     # (ok)
-saajo+N+Pl+Ela: saajoista     # (ok)
-saajo+N+Pl+Ade: saajoila     # (ok)
-saajo+N+Pl+Abe: saajoitta     # (ok)
-saajo+N+Pl+All: saajoile     # (ok)
-saajo+N+Pl+Abl: saajoilta     # (ok)
-saajo+N+Pl+Ess: saajoina     # (ok)
-saajo+N+Pl+Tra: saajoiksi     # (ok)
-saajo+N+Pl+Com: saajoine     # (ok)
-
-
-
-++N+Sg+Nom: seppä     # (ok)
-++N+Sg+Gen: sepän     # (ok)
-++N+Sg+Par: seppää     # (ok)
-++N+Sg+Ine: sepässä     # (ok)
-++N+Sg+Ill: sepphään     # (ok)
-++N+Sg+Ela: sepästä     # (ok)
-++N+Sg+Ade: sepälä     # (ok)
-++N+Sg+Abe: sepättä     # (ok)
-++N+Sg+All: sepäle     # (ok)
-++N+Sg+Abl: sepältä     # (ok)
-++N+Sg+Ess: seppänä     # (ok)
-++N+Sg+Tra: sepäksi     # (ok)
-
-++N+Pl+Nom: sepät     # (ok)
-++N+Pl+Gen: seppiin     # (ok)
-++N+Pl+Par: seppi     # (seppii)
-++N+Pl+Ine: sepäissä     # (sepissä)
-++N+Pl+Ill: sepphäin     # (sepphiin)
-++N+Pl+Ela: sepäistä     # (sepistä)
-++N+Pl+Ade: sepäilä     # (sepilä)
-++N+Pl+Abe: sepäittä     # (sepittä)
-++N+Pl+All: sepäile     # (sepile)
-++N+Pl+Abl: sepäiltä     # (sepiltä)
-++N+Pl+Ess: seppinä     # (ok)
-++N+Pl+Tra: sepäiksi     # (sepiksi)
-++N+Pl+Com: seppine     # (ok)
-
-
-
-silmä+N+Sg+Nom: silmä     # (ok)
-silmä+N+Sg+Gen: silmän     # (ok)
-silmä+N+Sg+Par: silmää     # (ok)
-silmä+N+Sg+Ine: silmässä     # (ok)
-silmä+N+Sg+Ill: silmhään     # (ok)
-silmä+N+Sg+Ela: silmästä     # (ok)
-silmä+N+Sg+Ade: silmälä     # (ok)
-silmä+N+Sg+Abe: silmättä     # (ok)
-silmä+N+Sg+All: silmäle     # (ok)
-silmä+N+Sg+Abl: silmältä     # (ok)
-silmä+N+Sg+Ess: silmänä     # (ok)
-silmä+N+Sg+Tra: silmäksi     # (ok)
-
-silmä+N+Pl+Nom: silmät     # (ok)
-silmä+N+Pl+Gen: silmiin     # (ok)
-silmä+N+Pl+Par: silmi     # (silmii)
-silmä+N+Pl+Ine: silmissä     # (ok)
-silmä+N+Pl+Ill: silmhäin     # (silmhiin)
-silmä+N+Pl+Ela: silmistä     # (ok)
-silmä+N+Pl+Ade: silmilä     # (ok)
-silmä+N+Pl+Abe: silmittä     # (ok)
-silmä+N+Pl+All: silmile     # (ok)
-silmä+N+Pl+Abl: silmiltä     # (ok)
-silmä+N+Pl+Ess: silminä     # (ok)
-silmä+N+Pl+Tra: silmiksi     # (ok)
-silmä+N+Pl+Com: silmine     # (ok)
-
-
-
-syöpä+N+Sg+Nom: syöpä     # (ok)
-syöpä+N+Sg+Gen: syövän     # (ok)
-syöpä+N+Sg+Par: syöppää     # (ok)
-syöpä+N+Sg+Ine: syövässä     # (ok)
-syöpä+N+Sg+Ill: syöphään     # (ok)
-syöpä+N+Sg+Ela: syövästä     # (ok)
-syöpä+N+Sg+Ade: syövälä     # (ok)
-syöpä+N+Sg+Abe: syövättä     # (ok)
-syöpä+N+Sg+All: syöväle     # (ok)
-syöpä+N+Sg+Abl: syövältä     # (ok)
-syöpä+N+Sg+Ess: syöpänä     # (ok)
-syöpä+N+Sg+Tra: syöväksi     # (ok)
-
-syöpä+N+Pl+Nom: syövät     # (ok)
-syöpä+N+Pl+Gen: syöpiin     # (syöppiin)
-syöpä+N+Pl+Par: syöpi     # (syöppii)
-syöpä+N+Pl+Ine: syövissä     # (ok)
-syöpä+N+Pl+Ill: syöphäin     # (syöphiin)
-syöpä+N+Pl+Ela: syövistä     # (ok)
-syöpä+N+Pl+Ade: syövilä     # (ok)
-syöpä+N+Pl+Abe: syövittä     # (ok)
-syöpä+N+Pl+All: syövile     # (ok)
-syöpä+N+Pl+Abl: syöviltä     # (ok)
-syöpä+N+Pl+Ess: syöpinä     # (ok)
-syöpä+N+Pl+Tra: syöviksi     # (ok)
-syöpä+N+Pl+Com: syöpine     # (ok)
-
-
-
-tahko+N+Sg+Nom: tahko     # (ok)
-tahko+N+Sg+Gen: tahon     # (ok)
-tahko+N+Sg+Par: tahkoo     # (ok)
-tahko+N+Sg+Ine: tahossa     # (ok)
-tahko+N+Sg+Ill: tahkhoon     # (ok)
-tahko+N+Sg+Ela: tahosta     # (ok)
-tahko+N+Sg+Ade: tahola     # (ok)
-tahko+N+Sg+Abe: tahotta     # (ok)
-tahko+N+Sg+All: tahole     # (ok)
-tahko+N+Sg+Abl: taholta     # (ok)
-tahko+N+Sg+Ess: tahkona     # (ok)
-tahko+N+Sg+Tra: tahoksi     # (ok)
-
-tahko+N+Pl+Nom: tahot     # (ok)
-tahko+N+Pl+Gen: tahkoin     # (ok)
-tahko+N+Pl+Par: tahkoi     # (ok)
-tahko+N+Pl+Ine: tahoissa     # (ok)
-tahko+N+Pl+Ill: tahkhoin     # (ok)
-tahko+N+Pl+Ela: tahoista     # (ok)
-tahko+N+Pl+Ade: tahoila     # (ok)
-tahko+N+Pl+Abe: tahoitta     # (ok)
-tahko+N+Pl+All: tahoile     # (ok)
-tahko+N+Pl+Abl: tahoilta     # (ok)
-tahko+N+Pl+Ess: tahkoina     # (ok)
-tahko+N+Pl+Tra: tahoiksi     # (ok)
-tahko+N+Pl+Com: tahkoine     # (ok)
-
-
-
-# kanskje ikke entall i det hele tatt?
-urku+N+Sg+Nom: urku     # (ok)
-urku+N+Sg+Gen: urkun     # (urun)
-urku+N+Sg+Par: urkkuu     # (ok)
-urku+N+Sg+Ine: urkussa     # (urussa)
-urku+N+Sg+Ill: urkhuun     # (ok)
-urku+N+Sg+Ela: urkusta     # (urusta)
-urku+N+Sg+Ade: urkula     # (urula)
-urku+N+Sg+Abe: urkutta     # (urutta)
-urku+N+Sg+All: urkule     # (urule)
-urku+N+Sg+Abl: urkulta     # (urulta)
-urku+N+Sg+Ess: urkuna     # (ok)
-urku+N+Sg+Tra: urkuksi     # (uruksi)
-
-urku+N+Pl+Nom: urkut     # (urut)
-urku+N+Pl+Gen: urkuin     # (urkkuin)
-urku+N+Pl+Par: urkui     # (urkkui)
-urku+N+Pl+Ine: urkuissa     # (uruissa)
-urku+N+Pl+Ill: urkhuin     # (ok)
-urku+N+Pl+Ela: urkuista     # (uruista)
-urku+N+Pl+Ade: urkuila     # (uruila)
-urku+N+Pl+Abe: urkuitta     # (uruitta)
-urku+N+Pl+All: urkuile     # (uruile)
-urku+N+Pl+Abl: urkuilta     # (uruilta)
-urku+N+Pl+Ess: urkuina     # (ok)
-urku+N+Pl+Tra: urkuiksi     # (uruiksi)
-urku+N+Pl+Com: urkuine     # (ok)
-
-
-
-vävy+N+Sg+Nom: vävy     # (ok)
-vävy+N+Sg+Gen: vävyn     # (ok)
-vävy+N+Sg+Par: vävvyy     # (ok)
-vävy+N+Sg+Ine: vävyssä     # (ok)
-vävy+N+Sg+Ill: vävhyyn     # (ok)
-vävy+N+Sg+Ela: vävystä     # (ok)
-vävy+N+Sg+Ade: vävylä     # (ok)
-vävy+N+Sg+Abe: vävyttä     # (ok)
-vävy+N+Sg+All: vävyle     # (ok)
-vävy+N+Sg+Abl: vävyltä     # (ok)
-vävy+N+Sg+Ess: vävynä     # (ok)
-vävy+N+Sg+Tra: vävyksi     # (ok)
-
-vävy+N+Pl+Nom: vävyt     # (ok)
-vävy+N+Pl+Gen: vävyin     # (vävvyin)
-vävy+N+Pl+Par: vävyi     # (vävvyi)
-vävy+N+Pl+Ine: vävyissä     # (ok)
-vävy+N+Pl+Ill: vävhyin     # (ok)
-vävy+N+Pl+Ela: vävyistä     # (ok)
-vävy+N+Pl+Ade: vävyilä     # (ok)
-vävy+N+Pl+Abe: vävyittä     # (ok)
-vävy+N+Pl+All: vävyile     # (ok)
-vävy+N+Pl+Abl: vävyiltä     # (ok)
-vävy+N+Pl+Ess: vävyinä     # (ok)
-vävy+N+Pl+Tra: vävyiksi     # (ok)
-vävy+N+Pl+Com: vävyine     # (ok)
-
-
-
-äijä+N+Sg+Nom: äijä     # (ok)
-äijä+N+Sg+Gen: äijän     # (ok)
-äijä+N+Sg+Par: äijää     # (ok)
-äijä+N+Sg+Ine: äijässä     # (ok)
-äijä+N+Sg+Ill: äijhään     # (ok)
-äijä+N+Sg+Ela: äijästä     # (ok)
-äijä+N+Sg+Ade: äijälä     # (ok)
-äijä+N+Sg+Abe: äijättä     # (ok)
-äijä+N+Sg+All: äijäle     # (ok)
-äijä+N+Sg+Abl: äijältä     # (ok)
-äijä+N+Sg+Ess: äijänä     # (ok)
-äijä+N+Sg+Tra: äijäksi     # (ok)
-
-äijä+N+Pl+Nom: äijät     # (ok)
-äijä+N+Pl+Gen: äijiin     # (ok)
-äijä+N+Pl+Par: äiji     # (äijii)
-äijä+N+Pl+Ine: äijissä     # (ok)
-äijä+N+Pl+Ill: äijhäin     # (äijhiin)
-äijä+N+Pl+Ela: äijistä     # (ok)
-äijä+N+Pl+Ade: äijilä     # (ok)
-äijä+N+Pl+Abe: äijittä     # (ok)
-äijä+N+Pl+All: äijile     # (ok)
-äijä+N+Pl+Abl: äijiltä     # (ok)
-äijä+N+Pl+Ess: äijinä     # (ok)
-äijä+N+Pl+Tra: äijiksi     # (ok)
-äijä+N+Pl+Com: äijine     # (ok)
+  Noun - misc - ei tsekattu : # Noun 'misc' - Aili on tsekannut jos lukee ok, ei muilta
+
+     flaku+N+Sg+Nom: flaku       # (ok)
+     flaku+N+Sg+Gen: flavun      # (ok)
+     flaku+N+Sg+Par: flakkuu     # (ok)
+     flaku+N+Sg+Ine: flavussa    # (ok)
+     flaku+N+Sg+Ill: flakhuun    # (ok)
+     flaku+N+Sg+Ela: flavusta    # (ok)
+     flaku+N+Sg+Ade: flavula     # (ok)
+     flaku+N+Sg+Abe: flavutta    # (ok)
+     flaku+N+Sg+All: flavule     # (ok)
+     flaku+N+Sg+Abl: flavulta    # (ok)
+     flaku+N+Sg+Ess: flakuna     # (ok)
+     flaku+N+Sg+Tra: flavuksi    # (ok)
+
+     flaku+N+Pl+Nom: flavut      # (ok)
+     flaku+N+Pl+Gen: flakkuin    # (antaa nyt flakuin)
+     flaku+N+Pl+Par: flakkui     # (antaa nyt flakkui)
+     flaku+N+Pl+Ine: flavuissa   # (ok)
+     flaku+N+Pl+Ill: flakhuin    # (ok)
+     flaku+N+Pl+Ela: flavuista   # (ok)
+     flaku+N+Pl+Ade: flavuila    # (ok)
+     flaku+N+Pl+Abe: flavuitta   # (ok)
+     flaku+N+Pl+All: flavuile    # (ok)
+     flaku+N+Pl+Abl: flavuilta   # (ok)
+     flaku+N+Pl+Ess: flakuina    # (ok)
+     flaku+N+Pl+Tra: flavuiksi   # (ok)
+     flaku+N+Pl+Com: flakuine    # (ok)
+
+
+
+     hoppu+N+Sg+Nom: hoppu       # (ok)
+     hoppu+N+Sg+Gen: hopun       # (ok)
+     hoppu+N+Sg+Par: hoppuu      # (ok)
+     hoppu+N+Sg+Ine: hopussa     # (ok)
+     hoppu+N+Sg+Ill: hopphuun    # (?)
+     hoppu+N+Sg+Ela: hopusta     # (ok)
+     hoppu+N+Sg+Ade: hopula      # (ok)
+     hoppu+N+Sg+Abe: hoputta     # (ok)
+     hoppu+N+Sg+All: hopule      # (ok)
+     hoppu+N+Sg+Abl: hopulta     # (ok)
+     hoppu+N+Sg+Ess: hoppuna     # (ok)
+     hoppu+N+Sg+Tra: hopuksi     # (ok)
+
+     hoppu+N+Pl+Nom: hoput       # (ok)
+     hoppu+N+Pl+Gen: hoppuin     # (ok)
+     hoppu+N+Pl+Par: hoppui      # (ok)
+     hoppu+N+Pl+Ine: hopuissa    # (ok)
+     hoppu+N+Pl+Ill: hopphuin    # (ok)
+     hoppu+N+Pl+Ela: hopuista    # (ok)
+     hoppu+N+Pl+Ade: hopuila     # (ok)
+     hoppu+N+Pl+Abe: hopuitta    # (ok)
+     hoppu+N+Pl+All: hopuile     # (ok)
+     hoppu+N+Pl+Abl: hopuilta    # (ok)
+     hoppu+N+Pl+Ess: hoppuina    # (ok)
+     hoppu+N+Pl+Tra: hopuiksi    # (ok)
+     hoppu+N+Pl+Com: hoppuine    # (ok)
+
+
+
+     häntä+N+Sg+Nom: häntä       # (ok)
+     häntä+N+Sg+Gen: hännän      # (ok)
+     häntä+N+Sg+Par: hänttää     # (ok)
+     häntä+N+Sg+Ine: hännässä    # (ok)
+     häntä+N+Sg+Ill: hänthään    # (ok)
+     häntä+N+Sg+Ela: hännästä    # (ok)
+     häntä+N+Sg+Ade: hännälä     # (ok)
+     häntä+N+Sg+Abe: hännättä    # (ok)
+     häntä+N+Sg+All: hännäle     # (ok)
+     häntä+N+Sg+Abl: hännältä    # (ok)
+     häntä+N+Sg+Ess: häntänä     # (ok)
+     häntä+N+Sg+Tra: hännäksi    # (ok)
+
+     häntä+N+Pl+Nom: hännät      # (ok)
+     häntä+N+Pl+Gen: hänttiin    # (antaa nyt hänsiin)
+     häntä+N+Pl+Par: hänttii     # (antaa nyt hänsi)
+     häntä+N+Pl+Ine: hännissä    # (antaa nyt hänsissä)
+     häntä+N+Pl+Ill: hänthiin    # (antaa nyt hänthäin)
+     häntä+N+Pl+Ela: hännistä    # (antaa nyt hänsistä)
+     häntä+N+Pl+Ade: hännilä     # (antaa nyt hänsilä)
+     häntä+N+Pl+Abe: hännittä    # (antaa nyt hänsittä)
+     häntä+N+Pl+All: hännile     # (antaa nyt hänsile)
+     häntä+N+Pl+Abl: hänniltä    # (antaa nyt hänsiltä)
+     häntä+N+Pl+Ess: häntinä     # (antaa nyt hänsinä)
+     häntä+N+Pl+Tra: hänniksi    # (antaa nyt hänsiksi)
+     häntä+N+Pl+Com: häntine     # (antaa nyt hänsine)
+
+
+     ikä+N+Sg+Nom: ikä           # (ok)
+     ikä+N+Sg+Gen: iän           # (antaa nyt ikän)
+     ikä+N+Sg+Par: ikkää         # (ok)
+     ikä+N+Sg+Ine: iässä         # (antaa nyt ikässä)
+     ikä+N+Sg+Ill: ikhään        # (ok)
+     ikä+N+Sg+Ela: iästä         # (antaa nyt ikästä)
+     ikä+N+Sg+Ade: iälä          # (antaa nyt ikälä)
+     ikä+N+Sg+Abe: iättä         # (antaa nyt ikättä)
+     ikä+N+Sg+All: iäle          # (antaa nyt ikäle)
+     ikä+N+Sg+Abl: iältä         # (antaa nyt ikältä)
+     ikä+N+Sg+Ess: ikänä         # (ok)
+     ikä+N+Sg+Tra: iäksi         # (antaa nyt ikäksi)
+
+     ikä+N+Pl+Nom: iät           # (antaa nyt ikät)
+     ikä+N+Pl+Gen: ikkiin        # (antaa nyt ikiin)
+     ikä+N+Pl+Par: ikkii         # (antaa nyt iki)
+     ikä+N+Pl+Ine: iissä         # (antaa nyt ikissä)
+     ikä+N+Pl+Ill: ikhiin        # (antaa nyt ikhäin)
+     ikä+N+Pl+Ela: iistä         # (antaa nyt ikistä)
+     ikä+N+Pl+Ade: iilä          # (antaa nyt ikilä)
+     ikä+N+Pl+Abe: iittä         # (antaa nyt ikittä)
+     ikä+N+Pl+All: iile          # (antaa nyt ikile)
+     ikä+N+Pl+Abl: iiltä         # (antaa nyt ikiltä)
+     ikä+N+Pl+Ess: ikinä         # (ok)
+     ikä+N+Pl+Tra: iiksi         # (antaa nyt ikiksi)
+     ikä+N+Pl+Com: ikine         # (ok)
+
+     alaikä+N+Sg+Gen: alaiän # alaikän
+
+
+
+     into+N+Sg+Nom: into         # (ok)
+     into+N+Sg+Gen: innon        # (ok)
+     into+N+Sg+Par: inttoo       # (ok)
+     into+N+Sg+Ine: innossa      # (ok)
+     into+N+Sg+Ill: inthoon      # (ok)
+     into+N+Sg+Ela: innosta      # (ok)
+     into+N+Sg+Ade: innola       # (ok)
+     into+N+Sg+Abe: innotta      # (ok)
+     into+N+Sg+All: innole       # (ok)
+     into+N+Sg+Abl: innolta      # (ok)
+     into+N+Sg+Ess: intona       # (ok)
+     into+N+Sg+Tra: innoksi      # (ok)
+
+     into+N+Pl+Nom: innot        # (ok)
+     into+N+Pl+Gen: inttoin      # (antaa nyt intoin)
+     into+N+Pl+Par: inttoi       # (antaa nyt intoi)
+     into+N+Pl+Ine: innoissa     # (ok)
+     into+N+Pl+Ill: inthoin      # (ok)
+     into+N+Pl+Ela: innoista     # (ok)
+     into+N+Pl+Ade: innoila      # (ok)
+     into+N+Pl+Abe: innoitta     # (ok)
+     into+N+Pl+All: innoile      # (ok)
+     into+N+Pl+Abl: innoilta     # (ok)
+     into+N+Pl+Ess: intoina      # (ok)
+     into+N+Pl+Tra: innoiksi     # (ok)
+     into+N+Pl+Com: intoine      # (ok)
+
+
+
+     juomu+N+Sg+Nom: juomu       # (ok)
+     juomu+N+Sg+Gen: juomun      # (ok)
+     juomu+N+Sg+Par: juomuu      # (ok)
+     juomu+N+Sg+Ine: juomussa    # (ok)
+     juomu+N+Sg+Ill: juomhuun    # (ok)
+     juomu+N+Sg+Ela: juomusta    # (ok)
+     juomu+N+Sg+Ade: juomula     # (ok)
+     juomu+N+Sg+Abe: juomutta    # (ok)
+     juomu+N+Sg+All: juomule     # (ok)
+     juomu+N+Sg+Abl: juomulta    # (ok)
+     juomu+N+Sg+Ess: juomuna     # (ok)
+     juomu+N+Sg+Tra: juomuksi    # (ok)
+
+     juomu+N+Pl+Nom: juomut      # (ok)
+     juomu+N+Pl+Gen: juomuin     # (ok)
+     juomu+N+Pl+Par: juomui      # (ok)
+     juomu+N+Pl+Ine: juomuissa   # (ok)
+     juomu+N+Pl+Ill: juomhuin    # (ok)
+     juomu+N+Pl+Ela: juomuista   # (ok)
+     juomu+N+Pl+Ade: juomuila    # (ok)
+     juomu+N+Pl+Abe: juomuitta   # (ok)
+     juomu+N+Pl+All: juomuile    # (ok)
+     juomu+N+Pl+Abl: juomuilta   # (ok)
+     juomu+N+Pl+Ess: juomuina    # (ok)
+     juomu+N+Pl+Tra: juomuiksi   # (ok)
+     juomu+N+Pl+Com: juomuine    # (ok)
+
+
+
+     katto+N+Sg+Nom: katto       # (ok)
+     katto+N+Sg+Gen: katon       # (ok)
+     katto+N+Sg+Par: kattoo      # (ok)
+     katto+N+Sg+Ine: katossa     # (ok)
+     katto+N+Sg+Ill: katthoon    # (ok)
+     katto+N+Sg+Ela: katosta     # (ok)
+     katto+N+Sg+Ade: katola      # (ok)
+     katto+N+Sg+Abe: katotta     # (ok)
+     katto+N+Sg+All: katole      # (ok)
+     katto+N+Sg+Abl: katolta     # (ok)
+     katto+N+Sg+Ess: kattona     # (ok)
+     katto+N+Sg+Tra: katoksi     # (ok)
+
+     katto+N+Pl+Nom: katot       # (ok)
+     katto+N+Pl+Gen: kattoin     # (ok)
+     katto+N+Pl+Par: kattoi      # (ok)
+     katto+N+Pl+Ine: katoissa    # (ok)
+     katto+N+Pl+Ill: katthoin    # (ok)
+     katto+N+Pl+Ela: katoista    # (ok)
+     katto+N+Pl+Ade: katoila     # (ok)
+     katto+N+Pl+Abe: katoitta    # (ok)
+     katto+N+Pl+All: katoile     # (ok)
+     katto+N+Pl+Abl: katoilta    # (ok)
+     katto+N+Pl+Ess: kattoina    # (ok)
+     katto+N+Pl+Tra: katoiksi    # (ok)
+     katto+N+Pl+Com: kattoine    # (ok)
+
+
+
+     kelhä+N+Sg+Nom: kelhä       # (ok)
+     kelhä+N+Sg+Gen: kelhän      # (ok)
+     kelhä+N+Sg+Par: kelhää      # (ok)
+     kelhä+N+Sg+Ine: kelhässä    # (ok)
+     kelhä+N+Sg+Ill: kelhhään    # (ok)
+     kelhä+N+Sg+Ela: kelhästä    # (ok)
+     kelhä+N+Sg+Ade: kelhälä     # (ok)
+     kelhä+N+Sg+Abe: kelhättä    # (ok)
+     kelhä+N+Sg+All: kelhäle     # (ok)
+     kelhä+N+Sg+Abl: kelhältä    # (ok)
+     kelhä+N+Sg+Ess: kelhänä     # (ok)
+     kelhä+N+Sg+Tra: kelhäksi    # (ok)
+
+     kelhä+N+Pl+Nom: kelhät      # (ok)
+     kelhä+N+Pl+Gen: kelhiin     # (ok)
+     kelhä+N+Pl+Par: kelhii      # (antaa nyt kelhi)
+     kelhä+N+Pl+Ine: kelhissä    # (ok)
+     kelhä+N+Pl+Ill: kelhhiin    # (antaa nyt kelhhäin)
+     kelhä+N+Pl+Ela: kelhistä    # (ok)
+     kelhä+N+Pl+Ade: kelhilä     # (ok)
+     kelhä+N+Pl+Abe: kelhittä    # (ok)
+     kelhä+N+Pl+All: kelhile     # (ok)
+     kelhä+N+Pl+Abl: kelhiltä    # (ok)
+     kelhä+N+Pl+Ess: kelhinä     # (ok)
+     kelhä+N+Pl+Tra: kelhiksi    # (ok)
+     kelhä+N+Pl+Com: kelhine     # (ok)
+
+
+
+     kenkä+N+Sg+Nom: kenkä       # (ok)
+     kenkä+N+Sg+Gen: kengän      # (ok)
+     kenkä+N+Sg+Par: kenkkää     # (ok)
+     kenkä+N+Sg+Ine: kengässä    # (ok)
+     kenkä+N+Sg+Ill: kenkhään    # (ok)
+     kenkä+N+Sg+Ela: kengästä    # (ok)
+     kenkä+N+Sg+Ade: kengälä     # (ok)
+     kenkä+N+Sg+Abe: kengättä    # (ok)
+     kenkä+N+Sg+All: kengäle     # (ok)
+     kenkä+N+Sg+Abl: kengältä    # (ok)
+     kenkä+N+Sg+Ess: kenkänä     # (ok)
+     kenkä+N+Sg+Tra: kengäksi    # (ok)
+
+     kenkä+N+Pl+Nom: kengät      # (ok)
+     kenkä+N+Pl+Gen: kenkkiin    # (antaa nyt kenkiin)
+     kenkä+N+Pl+Par: kenkkii     # (antaa nyt kenki)
+     kenkä+N+Pl+Ine: kengissä    # (ok)
+     kenkä+N+Pl+Ill: kenkhiin    # (antaa nyt kenkhäin)
+     kenkä+N+Pl+Ela: kengistä    # (ok)
+     kenkä+N+Pl+Ade: kengilä     # (ok)
+     kenkä+N+Pl+Abe: kengittä    # (ok)
+     kenkä+N+Pl+All: kengile     # (ok)
+     kenkä+N+Pl+Abl: kengiltä    # (ok)
+     kenkä+N+Pl+Ess: kenkinä     # (ok)
+     kenkä+N+Pl+Tra: kengiksi    # (ok)
+     kenkä+N+Pl+Com: kenkine     # (ok)
+
+
+
+     lehmä+N+Sg+Nom: lehmä       # (ok)
+     lehmä+N+Sg+Gen: lehmän      # (ok)
+     lehmä+N+Sg+Par: lehmää      # (ok)
+     lehmä+N+Sg+Ine: lehmässä    # (ok)
+     lehmä+N+Sg+Ill: lehmhään    # (ok)
+     lehmä+N+Sg+Ela: lehmästä    # (ok)
+     lehmä+N+Sg+Ade: lehmälä     # (ok)
+     lehmä+N+Sg+Abe: lehmättä    # (ok)
+     lehmä+N+Sg+All: lehmäle     # (ok)
+     lehmä+N+Sg+Abl: lehmältä    # (ok)
+     lehmä+N+Sg+Ess: lehmänä     # (ok)
+     lehmä+N+Sg+Tra: lehmäksi    # (ok)
+
+     lehmä+N+Pl+Nom: lehmät      # (ok)
+     lehmä+N+Pl+Gen: lehmiin     # (ok)
+     lehmä+N+Pl+Par: lehmi       # (lehmii)
+     lehmä+N+Pl+Ine: lehmissä    # (ok)
+     lehmä+N+Pl+Ill: lehmhiin    # (antaa nyt lehmhäin)
+     lehmä+N+Pl+Ela: lehmistä    # (ok)
+     lehmä+N+Pl+Ade: lehmilä     # (ok)
+     lehmä+N+Pl+Abe: lehmittä    # (ok)
+     lehmä+N+Pl+All: lehmile     # (ok)
+     lehmä+N+Pl+Abl: lehmiltä    # (ok)
+     lehmä+N+Pl+Ess: lehminä     # (ok)
+     lehmä+N+Pl+Tra: lehmiksi    # (ok)
+     lehmä+N+Pl+Com: lehmine     # (ok)
+
+
+
+     leipä+N+Sg+Nom: leipä       # (ok)
+     leipä+N+Sg+Gen: leivän      # (ok)
+     leipä+N+Sg+Par: leippää     # (ok)
+     leipä+N+Sg+Ine: leivässä    # (ok)
+     leipä+N+Sg+Ill: leiphään    # (ok)
+     leipä+N+Sg+Ela: leivästä    # (ok)
+     leipä+N+Sg+Ade: leivälä     # (ok)
+     leipä+N+Sg+Abe: leivättä    # (ok)
+     leipä+N+Sg+All: leiväle     # (ok)
+     leipä+N+Sg+Abl: leivältä    # (ok)
+     leipä+N+Sg+Ess: leipänä     # (ok)
+     leipä+N+Sg+Tra: leiväksi    # (ok)
+
+     leipä+N+Pl+Nom: leivät      # (ok)
+     leipä+N+Pl+Gen: leippiin    # (antaa nyt leipiin)
+     leipä+N+Pl+Par: leippii     # (antaa nyt leipi)
+     leipä+N+Pl+Ine: leivissä    # (ok)
+     leipä+N+Pl+Ill: leiphiin    # (antaa nyt leiphäin)
+     leipä+N+Pl+Ela: leivistä    # (ok)
+     leipä+N+Pl+Ade: leivilä     # (ok)
+     leipä+N+Pl+Abe: leivittä    # (ok)
+     leipä+N+Pl+All: leivile     # (ok)
+     leipä+N+Pl+Abl: leiviltä    # (ok)
+     leipä+N+Pl+Ess: leipinä     # (ok)
+     leipä+N+Pl+Tra: leiviksi    # (ok)
+     leipä+N+Pl+Com: leipine     # (ok)
+
+
+
+     maito+N+Sg+Nom: maito       # (ok)
+     maito+N+Sg+Gen: maiđon      # (ok)
+     maito+N+Sg+Par: maittoo     # (ok)
+     maito+N+Sg+Ine: maiđossa    # (ok)
+     maito+N+Sg+Ill: maithoon    # (ok)
+     maito+N+Sg+Ela: maiđosta    # (ok)
+     maito+N+Sg+Ade: maiđola     # (ok)
+     maito+N+Sg+Abe: maiđotta    # (ok)
+     maito+N+Sg+All: maiđole     # (ok)
+     maito+N+Sg+Abl: maiđolta    # (ok)
+     maito+N+Sg+Ess: maitona     # (ok)
+     maito+N+Sg+Tra: maiđoksi    # (ok)
+
+     maito+N+Pl+Nom: maiđot      # (ok)
+     maito+N+Pl+Gen: maittoin    # (ok)
+     maito+N+Pl+Par: maittoi     # (ok)
+     maito+N+Pl+Ine: maiđoissa   # (ok)
+     maito+N+Pl+Ill: maithoin    # (ok)
+     maito+N+Pl+Ela: maiđoista   # (ok)
+     maito+N+Pl+Ade: maiđoila    # (ok)
+     maito+N+Pl+Abe: maiđoitta   # (ok)
+     maito+N+Pl+All: maiđoile    # (ok)
+     maito+N+Pl+Abl: maiđoilta   # (ok)
+     maito+N+Pl+Ess: maitoina    # (antaa nyt maittoina)
+     maito+N+Pl+Tra: maiđoiksi   # (ok)
+     maito+N+Pl+Com: maitoine    # (antaa nyt maittoine)
+
+
+
+     nisu+N+Sg+Nom: nisu         # (ok)
+     nisu+N+Sg+Gen: nisun        # (ok)
+     nisu+N+Sg+Par: nissuu       # (ok)
+     nisu+N+Sg+Ine: nisussa      # (ok)
+     nisu+N+Sg+Ill: nishuun      # (ok)
+     nisu+N+Sg+Ela: nisusta      # (ok)
+     nisu+N+Sg+Ade: nisula       # (ok)
+     nisu+N+Sg+Abe: nisutta      # (ok)
+     nisu+N+Sg+All: nisule       # (ok)
+     nisu+N+Sg+Abl: nisulta      # (ok)
+     nisu+N+Sg+Ess: nisuna       # (ok)
+     nisu+N+Sg+Tra: nisuksi      # (ok)
+
+     nisu+N+Pl+Nom: nisut        # (ok)
+     nisu+N+Pl+Gen: nissuin      # (antaa nyt nisuin)
+     nisu+N+Pl+Par: nissui       # (antaa nyt nisui)
+     nisu+N+Pl+Ine: nisuissa     # (ok)
+     nisu+N+Pl+Ill: nishuin      # (ok)
+     nisu+N+Pl+Ela: nisuista     # (ok)
+     nisu+N+Pl+Ade: nisuila      # (ok)
+     nisu+N+Pl+Abe: nisuitta     # (ok)
+     nisu+N+Pl+All: nisuile      # (ok)
+     nisu+N+Pl+Abl: nisuilta     # (ok)
+     nisu+N+Pl+Ess: nisuina      # (ok)
+     nisu+N+Pl+Tra: nisuiksi     # (ok)
+     nisu+N+Pl+Com: nisuine      # (ok)
+
+
+
+     piano+N+Sg+Nom: piano       # (ok)
+     piano+N+Sg+Gen: pianon      # (ok)
+     piano+N+Sg+Par: pianoo      # (ok)
+     piano+N+Sg+Ine: pianossa    # (ok)
+     piano+N+Sg+Ill: pianhoon    # (ok)
+     piano+N+Sg+Ela: pianosta    # (ok)
+     piano+N+Sg+Ade: pianola     # (ok)
+     piano+N+Sg+Abe: pianotta    # (ok)
+     piano+N+Sg+All: pianole     # (ok)
+     piano+N+Sg+Abl: pianolta    # (ok)
+     piano+N+Sg+Ess: pianona     # (ok)
+     piano+N+Sg+Tra: pianoksi    # (ok)
+
+     piano+N+Pl+Nom: pianot      # (ok)
+     piano+N+Pl+Gen: pianoin     # (ok)
+     piano+N+Pl+Par: pianoi      # (ok)
+     piano+N+Pl+Ine: pianoissa   # (ok)
+     piano+N+Pl+Ill: pianhoin    # (ok)
+     piano+N+Pl+Ela: pianoista   # (ok)
+     piano+N+Pl+Ade: pianoila    # (ok)
+     piano+N+Pl+Abe: pianoitta   # (ok)
+     piano+N+Pl+All: pianoile    # (ok)
+     piano+N+Pl+Abl: pianoilta   # (ok)
+     piano+N+Pl+Ess: pianoina    # (ok)
+     piano+N+Pl+Tra: pianoiksi   # (ok)
+     piano+N+Pl+Com: pianoine    # (ok)
+
+
+
+     pieru+N+Sg+Nom: pieru       # (ok)
+     pieru+N+Sg+Gen: pierun      # (ok)
+     pieru+N+Sg+Par: pieruu      # (ok)
+     pieru+N+Sg+Ine: pierussa    # (ok)
+     pieru+N+Sg+Ill: pierhuun    # (ok)
+     pieru+N+Sg+Ela: pierusta    # (ok)
+     pieru+N+Sg+Ade: pierula     # (ok)
+     pieru+N+Sg+Abe: pierutta    # (ok)
+     pieru+N+Sg+All: pierule     # (ok)
+     pieru+N+Sg+Abl: pierulta    # (ok)
+     pieru+N+Sg+Ess: pieruna     # (ok)
+     pieru+N+Sg+Tra: pieruksi    # (ok)
+
+     pieru+N+Pl+Nom: pierut      # (ok)
+     pieru+N+Pl+Gen: pieruin     # (ok)
+     pieru+N+Pl+Par: pierui      # (ok)
+     pieru+N+Pl+Ine: pieruissa   # (ok)
+     pieru+N+Pl+Ill: pierhuin    # (ok)
+     pieru+N+Pl+Ela: pieruista   # (ok)
+     pieru+N+Pl+Ade: pieruila    # (ok)
+     pieru+N+Pl+Abe: pieruitta   # (ok)
+     pieru+N+Pl+All: pieruile    # (ok)
+     pieru+N+Pl+Abl: pieruilta   # (ok)
+     pieru+N+Pl+Ess: pieruina    # (ok)
+     pieru+N+Pl+Tra: pieruiksi   # (ok)
+     pieru+N+Pl+Com: pieruine    # (ok)
+
+
+
+     puonu+N+Sg+Nom: pounu       # (ok)
+     puonu+N+Sg+Gen: pounun      # (ok)
+     puonu+N+Sg+Par: pounuu      # (ok)
+     puonu+N+Sg+Ine: pounussa    # (ok)
+     puonu+N+Sg+Ill: pounhuun    # (ok)
+     puonu+N+Sg+Ela: pounusta    # (ok)
+     puonu+N+Sg+Ade: pounula     # (ok)
+     puonu+N+Sg+Abe: pounutta    # (ok)
+     puonu+N+Sg+All: pounule     # (ok)
+     puonu+N+Sg+Abl: pounulta    # (ok)
+     puonu+N+Sg+Ess: poununa     # (ok)
+     puonu+N+Sg+Tra: pounuksi    # (ok)
+
+     puonu+N+Pl+Nom: pounut      # (ok)
+     puonu+N+Pl+Gen: pounuin     # (ok)
+     puonu+N+Pl+Par: pounui      # (ok)
+     puonu+N+Pl+Ine: pounuissa   # (ok)
+     puonu+N+Pl+Ill: pounhuin    # (ok)
+     puonu+N+Pl+Ela: pounuista   # (ok)
+     puonu+N+Pl+Ade: pounuila    # (ok)
+     puonu+N+Pl+Abe: pounuitta   # (ok)
+     puonu+N+Pl+All: pounuile    # (ok)
+     puonu+N+Pl+Abl: pounuilta   # (ok)
+     puonu+N+Pl+Ess: pounuina    # (ok)
+     puonu+N+Pl+Tra: pounuiksi   # (ok)
+     puonu+N+Pl+Com: pounuine    # (ok)
+
+
+
+     pyhä+N+Sg+Nom: pyhä         # (ok)
+     pyhä+N+Sg+Gen: pyhän        # (ok)
+     pyhä+N+Sg+Par: pyhhää       # (ok)
+     pyhä+N+Sg+Ine: pyhässä      # (ok)
+     pyhä+N+Sg+Ill: pyhhään      # (ok)
+     pyhä+N+Sg+Ela: pyhästä      # (ok)
+     pyhä+N+Sg+Ade: pyhälä       # (ok)
+     pyhä+N+Sg+Abe: pyhättä      # (ok)
+     pyhä+N+Sg+All: pyhäle       # (ok)
+     pyhä+N+Sg+Abl: pyhältä      # (ok)
+     pyhä+N+Sg+Ess: pyhänä       # (ok)
+     pyhä+N+Sg+Tra: pyhäksi      # (ok)
+
+     pyhä+N+Pl+Nom: pyhät        # (ok)
+     pyhä+N+Pl+Gen: pyhhiin      # (antaa nyt pyhiin)
+     pyhä+N+Pl+Par: pyhhii       # (antaa nyt pyhi)
+     pyhä+N+Pl+Ine: pyhissä      # (ok)
+     pyhä+N+Pl+Ill: pyhhiin      # (antaa nyt pyhhäin)
+     pyhä+N+Pl+Ela: pyhistä      # (ok)
+     pyhä+N+Pl+Ade: pyhilä       # (ok)
+     pyhä+N+Pl+Abe: pyhittä      # (ok)
+     pyhä+N+Pl+All: pyhile       # (ok)
+     pyhä+N+Pl+Abl: pyhiltä      # (ok)
+     pyhä+N+Pl+Ess: pyhinä       # (ok)
+     pyhä+N+Pl+Tra: pyhiksi      # (ok)
+     pyhä+N+Pl+Com: pyhine       # (ok)
+
+
+
+     riekko+N+Sg+Nom: riekko     # (ok)
+     riekko+N+Sg+Gen: riekon     # (ok)
+     riekko+N+Sg+Par: riekkoo    # (ok)
+     riekko+N+Sg+Ine: riekossa   # (ok)
+     riekko+N+Sg+Ill: riekkhoon  # (ok)
+     riekko+N+Sg+Ela: riekosta   # (ok)
+     riekko+N+Sg+Ade: riekola    # (ok)
+     riekko+N+Sg+Abe: riekotta   # (ok)
+     riekko+N+Sg+All: riekole    # (ok)
+     riekko+N+Sg+Abl: riekolta   # (ok)
+     riekko+N+Sg+Ess: riekkona   # (ok)
+     riekko+N+Sg+Tra: riekoksi   # (ok)
+
+     riekko+N+Pl+Nom: riekot     # (ok)
+     riekko+N+Pl+Gen: riekkoin   # (ok)
+     riekko+N+Pl+Par: riekkoi    # (ok)
+     riekko+N+Pl+Ine: riekoissa  # (ok)
+     riekko+N+Pl+Ill: riekkhoin  # (ok)
+     riekko+N+Pl+Ela: riekoista  # (ok)
+     riekko+N+Pl+Ade: riekoila   # (ok)
+     riekko+N+Pl+Abe: riekoitta  # (ok)
+     riekko+N+Pl+All: riekoile   # (ok)
+     riekko+N+Pl+Abl: riekoilta  # (ok)
+     riekko+N+Pl+Ess: riekkoina  # (ok)
+     riekko+N+Pl+Tra: riekoiksi  # (ok)
+     riekko+N+Pl+Com: riekkoine  # (ok)
+
+
+
+     saajo+N+Sg+Nom: saajo       # (ok)
+     saajo+N+Sg+Gen: saajon      # (ok)
+     saajo+N+Sg+Par: saajoo      # (ok)
+     saajo+N+Sg+Ine: saajossa    # (ok)
+     saajo+N+Sg+Ill: saajhoon    # (ok)
+     saajo+N+Sg+Ela: saajosta    # (ok)
+     saajo+N+Sg+Ade: saajola     # (ok)
+     saajo+N+Sg+Abe: saajotta    # (ok)
+     saajo+N+Sg+All: saajole     # (ok)
+     saajo+N+Sg+Abl: saajolta    # (ok)
+     saajo+N+Sg+Ess: saajona     # (ok)
+     saajo+N+Sg+Tra: saajoksi    # (ok)
+
+     saajo+N+Pl+Nom: saajot      # (ok)
+     saajo+N+Pl+Gen: saajoin     # (ok)
+     saajo+N+Pl+Par: saajoi      # (ok)
+     saajo+N+Pl+Ine: saajoissa   # (ok)
+     saajo+N+Pl+Ill: saajhoin    # (ok)
+     saajo+N+Pl+Ela: saajoista   # (ok)
+     saajo+N+Pl+Ade: saajoila    # (ok)
+     saajo+N+Pl+Abe: saajoitta   # (ok)
+     saajo+N+Pl+All: saajoile    # (ok)
+     saajo+N+Pl+Abl: saajoilta   # (ok)
+     saajo+N+Pl+Ess: saajoina    # (ok)
+     saajo+N+Pl+Tra: saajoiksi   # (ok)
+     saajo+N+Pl+Com: saajoine    # (ok)
+
+
+
+     seppä+N+Sg+Nom: seppä       # (ok)
+     seppä+N+Sg+Gen: sepän       # (ok)
+     seppä+N+Sg+Par: seppää      # (ok)
+     seppä+N+Sg+Ine: sepässä     # (ok)
+     seppä+N+Sg+Ill: sepphään    # (ok)
+     seppä+N+Sg+Ela: sepästä     # (ok)
+     seppä+N+Sg+Ade: sepälä      # (ok)
+     seppä+N+Sg+Abe: sepättä     # (ok)
+     seppä+N+Sg+All: sepäle      # (ok)
+     seppä+N+Sg+Abl: sepältä     # (ok)
+     seppä+N+Sg+Ess: seppänä     # (ok)
+     seppä+N+Sg+Tra: sepäksi     # (ok)
+
+     seppä+N+Pl+Nom: sepät       # (ok)
+     seppä+N+Pl+Gen: seppiin     # (ok)
+     seppä+N+Pl+Par: seppii      # (antaa nyt seppi)
+     seppä+N+Pl+Ine: sepissä     # (antaa nyt sepäissä)
+     seppä+N+Pl+Ill: sepphiin    # (antaa nyt sepphäin)
+     seppä+N+Pl+Ela: sepistä     # (antaa nyt sepäistä)
+     seppä+N+Pl+Ade: sepilä      # (antaa nyt sepäilä)
+     seppä+N+Pl+Abe: sepittä     # (antaa nyt sepäittä)
+     seppä+N+Pl+All: sepile      # (antaa nyt sepäile)
+     seppä+N+Pl+Abl: sepiltä     # (antaa nyt sepäiltä)
+     seppä+N+Pl+Ess: seppinä     # (ok)
+     seppä+N+Pl+Tra: sepiksi     # (antaa nyt sepäiksi)
+     seppä+N+Pl+Com: seppine     # (ok)
+
+
+
+     silmä+N+Sg+Nom: silmä       # (ok)
+     silmä+N+Sg+Gen: silmän      # (ok)
+     silmä+N+Sg+Par: silmää      # (ok)
+     silmä+N+Sg+Ine: silmässä    # (ok)
+     silmä+N+Sg+Ill: silmhään    # (ok)
+     silmä+N+Sg+Ela: silmästä    # (ok)
+     silmä+N+Sg+Ade: silmälä     # (ok)
+     silmä+N+Sg+Abe: silmättä    # (ok)
+     silmä+N+Sg+All: silmäle     # (ok)
+     silmä+N+Sg+Abl: silmältä    # (ok)
+     silmä+N+Sg+Ess: silmänä     # (ok)
+     silmä+N+Sg+Tra: silmäksi    # (ok)
+
+     silmä+N+Pl+Nom: silmät      # (ok)
+     silmä+N+Pl+Gen: silmiin     # (ok)
+     silmä+N+Pl+Par: silmii      # (antaa nyt silmi)
+     silmä+N+Pl+Ine: silmissä    # (ok)
+     silmä+N+Pl+Ill: silmhiin    # (antaa nyt silmhäin)
+     silmä+N+Pl+Ela: silmistä    # (ok)
+     silmä+N+Pl+Ade: silmilä     # (ok)
+     silmä+N+Pl+Abe: silmittä    # (ok)
+     silmä+N+Pl+All: silmile     # (ok)
+     silmä+N+Pl+Abl: silmiltä    # (ok)
+     silmä+N+Pl+Ess: silminä     # (ok)
+     silmä+N+Pl+Tra: silmiksi    # (ok)
+     silmä+N+Pl+Com: silmine     # (ok)
+
+
+
+     syöpä+N+Sg+Nom: syöpä       # (ok)
+     syöpä+N+Sg+Gen: syövän      # (ok)
+     syöpä+N+Sg+Par: syöppää     # (ok)
+     syöpä+N+Sg+Ine: syövässä    # (ok)
+     syöpä+N+Sg+Ill: syöphään    # (ok)
+     syöpä+N+Sg+Ela: syövästä    # (ok)
+     syöpä+N+Sg+Ade: syövälä     # (ok)
+     syöpä+N+Sg+Abe: syövättä    # (ok)
+     syöpä+N+Sg+All: syöväle     # (ok)
+     syöpä+N+Sg+Abl: syövältä    # (ok)
+     syöpä+N+Sg+Ess: syöpänä     # (ok)
+     syöpä+N+Sg+Tra: syöväksi    # (ok)
+
+     syöpä+N+Pl+Nom: syövät      # (ok)
+     syöpä+N+Pl+Gen: syöppiin    # (antaa nyt syöpiin)
+     syöpä+N+Pl+Par: syöppii     # (antaa nyt syöpi)
+     syöpä+N+Pl+Ine: syövissä    # (ok)
+     syöpä+N+Pl+Ill: syöphiin    # (antaa nyt syöphäin)
+     syöpä+N+Pl+Ela: syövistä    # (ok)
+     syöpä+N+Pl+Ade: syövilä     # (ok)
+     syöpä+N+Pl+Abe: syövittä    # (ok)
+     syöpä+N+Pl+All: syövile     # (ok)
+     syöpä+N+Pl+Abl: syöviltä    # (ok)
+     syöpä+N+Pl+Ess: syöpinä     # (ok)
+     syöpä+N+Pl+Tra: syöviksi    # (ok)
+     syöpä+N+Pl+Com: syöpine     # (ok)
+
+
+
+     tahko+N+Sg+Nom: tahko       # (ok)
+     tahko+N+Sg+Gen: tahon       # (ok)
+     tahko+N+Sg+Par: tahkoo      # (ok)
+     tahko+N+Sg+Ine: tahossa     # (ok)
+     tahko+N+Sg+Ill: tahkhoon    # (ok)
+     tahko+N+Sg+Ela: tahosta     # (ok)
+     tahko+N+Sg+Ade: tahola      # (ok)
+     tahko+N+Sg+Abe: tahotta     # (ok)
+     tahko+N+Sg+All: tahole      # (ok)
+     tahko+N+Sg+Abl: taholta     # (ok)
+     tahko+N+Sg+Ess: tahkona     # (ok)
+     tahko+N+Sg+Tra: tahoksi     # (ok)
+
+     tahko+N+Pl+Nom: tahot       # (ok)
+     tahko+N+Pl+Gen: tahkoin     # (ok)
+     tahko+N+Pl+Par: tahkoi      # (ok)
+     tahko+N+Pl+Ine: tahoissa    # (ok)
+     tahko+N+Pl+Ill: tahkhoin    # (ok)
+     tahko+N+Pl+Ela: tahoista    # (ok)
+     tahko+N+Pl+Ade: tahoila     # (ok)
+     tahko+N+Pl+Abe: tahoitta    # (ok)
+     tahko+N+Pl+All: tahoile     # (ok)
+     tahko+N+Pl+Abl: tahoilta    # (ok)
+     tahko+N+Pl+Ess: tahkoina    # (ok)
+     tahko+N+Pl+Tra: tahoiksi    # (ok)
+     tahko+N+Pl+Com: tahkoine    # (ok)
+
+
+
+     # kanskje ikke entall i det hele tatt?
+     urku+N+Sg+Nom: urku         # (ok)
+     urku+N+Sg+Gen: urun         # (antaa nyt urkun)
+     urku+N+Sg+Par: urkkuu       # (ok)
+     urku+N+Sg+Ine: urussa       # (antaa nyt urkussa)
+     urku+N+Sg+Ill: urkhuun      # (ok)
+     urku+N+Sg+Ela: urusta       # (antaa nyt urkusta)
+     urku+N+Sg+Ade: urula        # (antaa nyt urkula)
+     urku+N+Sg+Abe: urutta       # (antaa nyt urkutta)
+     urku+N+Sg+All: urule        # (antaa nyt urkule)
+     urku+N+Sg+Abl: urulta       # (antaa nyt urkulta)
+     urku+N+Sg+Ess: urkuna       # (ok)
+     urku+N+Sg+Tra: uruksi       # (antaa nyt urkuksi)
+
+     urku+N+Pl+Nom: urut         # (antaa nyt urkut)
+     urku+N+Pl+Gen: urkkuin      # (antaa nyt urkuin)
+     urku+N+Pl+Par: urkkui       # (antaa nyt urkui)
+     urku+N+Pl+Ine: uruissa      # (antaa nyt urkuissa)
+     urku+N+Pl+Ill: urkhuin      # (ok)
+     urku+N+Pl+Ela: uruista      # (antaa nyt urkuista)
+     urku+N+Pl+Ade: uruila       # (antaa nyt urkuila)
+     urku+N+Pl+Abe: uruitta      # (antaa nyt urkuitta)
+     urku+N+Pl+All: uruile       # (antaa nyt urkuile)
+     urku+N+Pl+Abl: uruilta      # (antaa nyt urkuilta)
+     urku+N+Pl+Ess: urkuina      # (ok)
+     urku+N+Pl+Tra: uruiksi      # (antaa nyt urkuiksi)
+     urku+N+Pl+Com: urkuine      # (ok)
+
+
+
+     vävy+N+Sg+Nom: vävy         # (ok)
+     vävy+N+Sg+Gen: vävyn        # (ok)
+     vävy+N+Sg+Par: vävvyy       # (ok)
+     vävy+N+Sg+Ine: vävyssä      # (ok)
+     vävy+N+Sg+Ill: vävhyyn      # (ok)
+     vävy+N+Sg+Ela: vävystä      # (ok)
+     vävy+N+Sg+Ade: vävylä       # (ok)
+     vävy+N+Sg+Abe: vävyttä      # (ok)
+     vävy+N+Sg+All: vävyle       # (ok)
+     vävy+N+Sg+Abl: vävyltä      # (ok)
+     vävy+N+Sg+Ess: vävynä       # (ok)
+     vävy+N+Sg+Tra: vävyksi      # (ok)
+
+     vävy+N+Pl+Nom: vävyt        # (ok)
+     vävy+N+Pl+Gen: vävvyin      # (antaa nyt vävyin)
+     vävy+N+Pl+Par: vävvyi       # (antaa nyt vävyi)
+     vävy+N+Pl+Ine: vävyissä     # (ok)
+     vävy+N+Pl+Ill: vävhyin      # (ok)
+     vävy+N+Pl+Ela: vävyistä     # (ok)
+     vävy+N+Pl+Ade: vävyilä      # (ok)
+     vävy+N+Pl+Abe: vävyittä     # (ok)
+     vävy+N+Pl+All: vävyile      # (ok)
+     vävy+N+Pl+Abl: vävyiltä     # (ok)
+     vävy+N+Pl+Ess: vävyinä      # (ok)
+     vävy+N+Pl+Tra: vävyiksi     # (ok)
+     vävy+N+Pl+Com: vävyine      # (ok)
+
+
+
+     äijä+N+Sg+Nom: äijä         # (ok)
+     äijä+N+Sg+Gen: äijän        # (ok)
+     äijä+N+Sg+Par: äijää        # (ok)
+     äijä+N+Sg+Ine: äijässä      # (ok)
+     äijä+N+Sg+Ill: äijhään      # (ok)
+     äijä+N+Sg+Ela: äijästä      # (ok)
+     äijä+N+Sg+Ade: äijälä       # (ok)
+     äijä+N+Sg+Abe: äijättä      # (ok)
+     äijä+N+Sg+All: äijäle       # (ok)
+     äijä+N+Sg+Abl: äijältä      # (ok)
+     äijä+N+Sg+Ess: äijänä       # (ok)
+     äijä+N+Sg+Tra: äijäksi      # (ok)
+
+     äijä+N+Pl+Nom: äijät        # (ok)
+     äijä+N+Pl+Gen: äijiin       # (ok)
+     äijä+N+Pl+Par: äijii        # (antaa nyt äiji)
+     äijä+N+Pl+Ine: äijissä      # (ok)
+     äijä+N+Pl+Ill: äijhiin      # (antaa nyt äijhäin)
+     äijä+N+Pl+Ela: äijistä      # (ok)
+     äijä+N+Pl+Ade: äijilä       # (ok)
+     äijä+N+Pl+Abe: äijittä      # (ok)
+     äijä+N+Pl+All: äijile       # (ok)
+     äijä+N+Pl+Abl: äijiltä      # (ok)
+     äijä+N+Pl+Ess: äijinä       # (ok)
+     äijä+N+Pl+Tra: äijiksi      # (ok)
+     äijä+N+Pl+Com: äijine       # (ok)
+
+
+========================================================================================================================
+
+
+     ilta+N+Sg+Gen:	illan
+     TV-ilta+N+Sg+Gen: TV-illan
+     aateli+N+Sg+Gen:
+     aateli+N+Sg+Gen:
+     aateli+N+Sg+Gen:
+     aateli+N+Sg+Gen:
+     aateli+N+Sg+Gen:
+     aateli+N+Sg+Gen:
+
+
+aateli+N+Sg+Gen: aatelin # aađelin
+
+
+aijankäännet+N+Sg+Gen: # aijankäännheen
+
+arpa+N+Sg+Gen: arvan # arpan
+
+arpi+N+Sg+Gen: arven # arpin
+
+# aihki+N+Sg+Gen: # aihin
+# asentolaaki+N+Sg+Gen: ? # asentolaajin
+
+blaađi+N+Sg+Gen: # blaađin
+
+delta+N+Sg+Gen: # dellan
+
+elekriski+N+Sg+Gen: # elekriskin
+
+elka+N+Sg+Gen: # elkan
+
+emäntä+N+Sg+Gen: # emänän
+
+enturi+N+Sg+Gen: # ennurin
+
+faaki+N+Sg+Gen: # faajin
+
+familiä+N+Sg+Gen: # familiän
+
+fati+N+Sg+Gen: # fatin
+
+fatilinen+N+Sg+Gen: # fatilisen
+
+floota+N+Sg+Gen: # floođan
+
+flynteri+N+Sg+Gen: # flynnerin
+
+frahti+N+Sg+Gen: # frahđin
+
+forlaaki+N+Sg+Gen: # forlaajin
+
+haaki+N+Sg+Gen: # haajin
+
+haitari+N+Sg+Gen: # haiđarin
+
+hehtari+N+Sg+Gen: # hehđarin
+
+housunsääri+N+Sg+Gen: # housunsäärin
+
+hykset+N+Sg+Gen: # hyksheen
+
+lohta+N+Sg+Gen: # lohđan
+
+loota+N+Sg+Gen: # loođan
+
+
+
+
+========================================================================================================================
+
+
+
+
+
+
+asfdsf
+
+hiiri+N+Sg+Gen:  hiiren # hiiren
+
+isotäti+N+Sg+Ge n: isotäđin# isođäđin
+
+iđentiteetti+N+Sg+Gen: identiteetin #ientiteetti
+
+
+
+
+
+
+
+
+
+
+aateli+N+Sg+Gen: aatelin  # aađelin
+
+# aihki+N+Sg+Gen        aihin # Kuinka graadivaihtelu toimii saamelaisissa lainoissa
+
+aijankäännet+N+Sg+Gen:   aijankääntheen    #aijankäännheen
+
+alaikä+N+Sg+Gen: alaijän  # alaikän
+
+arpa+N+Sg+Gen: arvan # arpan
+
+arpi+N+Sg+Gen: arven #      arpin
+
+# asentolaaki+N+Sg+Gen:        asentolaajin #
+
+#blaađi+N+Sg+Gen:        blaađin # oonko blaadi/blaati?
+
+#delta+N+Sg+Gen:        dellan  #minkälainen graadivaihtelu oon lainoissa?
+
+#elekriski+N+Sg+Gen:        elekriskin # on kirjoitusvirhe: pitäis olla elektristi # Ja onko tämä adjektiivi?  #elektrisiteetti ko oon substantiivi ja elektrinen ko oon adjektiivi?
+
+#elka+N+Sg+Gen:        elkan #minkälainen graadivaihtelu oon lainoissa?
+
+enturi+N+Sg+Gen: enturin #   ennurin
+
+#faaki+N+Sg+Gen:        faajin #minkälainen graadivaihtelu oon lainoissa?
+
+#familiä+N+Sg+Gen:        familiän #familia? Tässä ei ole vokaalisointtii
+
+fati+N+Sg+Gen:        fatin # Myös fajin?
+
+fatilinen+N+Sg+Gen:        fatilisen #Myös fajilisen?
+
+#floota+N+Sg+Gen        floođan  #minkälainen graadivaihtelu oon lainoissa?
+
+flynteri+N+Sg+Gen: flynterin # flynnerin
+
+frahti+N+Sg+Gen:        frahđin #Myös frahtin?
+
+#forlaaki+N+Sg+Gen:        forlaajin  #minkälainen graadivaihtelu oon lainoissa?
+
+#haaki+N+Sg+Gen:        haajin  #minkälainen graadivaihtelu oon lainoissa?
+
+haitari+N+Sg+Gen:        haiđarin
+
+hehtari+N+Sg+Gen:        hehđarin
+
+housunsääri+N+Sg+Gen:        housunsäärin
+
+hykset+N+Sg+Gen:        hyksheen
+
+ikä+N+Sg+Gen: ijän  #ikän
+
+isotäti+N+Sg+Gen: isotäđin  # isođäđin
+
+iđentiteetti+N+Sg+Gen: identiteetin  #iđentiteetin
+
+janturi+N+Sg+Gen: janturin #jannurin
+
+jääteli+N+Sg+Gen: jäätelin #jääđelin
+
+
+
+kaapeli+N+Sg+Gen: kaapelin #kaavelin
+
+kaiku+N+Sg+Gen: kaijun (?) #kaikun
+
+kalalampi+N+Sg+Gen: kalalammen #kalalammin
+
+kalapruuki+N+Sg+Gen: kalapruukin #sama ongelma ko köökin paradigmassa. Eli oonko oikeastaan kalapruukki?
+
+kalenteri+N+Sg+Gen: kalenterin # kalenerin
+
+karitaaki+N+Sg+Gen: karitaajin #hankalat lainat-kategoriassa
+
+keituri+N+Sg+Gen: keiturin #keiđurin
+
+keläs+N+Sg+Gen: kelhään #kelheen
+
+keski-ikä+N+Sg+Gen: keski-ijän #keski-ikän
+
+kielikylpy+N+Sg+Gen: kielikylvyn #kielikylpyn
+
+kielimentori+N+Sg+Gen: kielimentorin #kielimennorin
+
+# kiiski+N+Sg+Gen: kiisken # kiiskin (?)
+
+kilpa+N+Sg+Gen: kilvan #kilpan
+
+kilpi+N+Sg+Gen: kilven #kilpin
+
+klasireikä+N+Sg+Gen: klasireijän #klasireikän
+
+klupu+N+Sg+Gen: kluvun #häyttyy selvittäät kuinka graadivaihtelu toimii lainoissa
+
+klypi+N+Sg+Gen: klyvin #häyttyy selvittäät kuinka graadivaihtelu toimii lainoissa
+
+koipi+N+Sg+Gen: koiven #koivin
+
+komuuti+N+Sg+Gen: komuuđin #häyttyy selvittäät kuinka graadivaihtelu toimii lainoissa
+
+korpi+N+Sg+Gen: korven #korpin
+
+kraatari+N+Sg+Gen: kraatarin # kraađarin
+
+kraateri+N+Sg+Gen: kraaterin #kraađerin
+
+kraati+N+Sg+Gen: kraađin #minkälainen graadivaihtelu oon lainoissa?
+
+krampuođi+N+Sg+Gen: krampuođin #hyperkorrektin đ:n käyttö?
+
+kriitu+N+Sg+Gen: kriiđun #kriitun?
+
+krooflynteri+N+Sg+Gen: krooflynterin # krooflynnerin
+
+kruuti+N+Sg+Gen:  kruuđin #myös kruutin?
+
+kruununhärkä+N+Sg+Gen: kruuninhärän # kruununhärkän
+
+kryysitaaki+N+Sg+Gen: kryysitaajin #minkälainen graadivaihtelu oon lainoissa?
+
+kulku+N+Sg+Gen: kulun #kulkun
+
+kunteri+N+Sg+Gen: kunterin #kunnerin
+
+kupari+N+Sg+Gen: kuparin # kuvarin
+
+kusi+N+Sg+Gen: kusen #kuđen
+
+kyrpä+N+Sg+Gen: kyrvän # kyrpän
+
+#laaki+N+Sg+Gen:laajin #minkälainen graadivaihtelu oon lainoissa?
+
+laađinki+N+Sg+Gen: laatinki #laađingin
+
+lahtari+N+Sg+Gen: lahtarin #lahđarin
+
+laituri+N+Sg+Gen: laiturin #laiđurin
+
+lampi+N+Sg+Gen: lammen #lammin
+
+lannanreki+N+Sg+Gen: lannanrejen #lannanrejin
+
+latini+N+Sg+Gen: latinin #lađinin
+
+lehtimettä+N+Sg+Gen: lehtimettän #lehtimetän
+
+lohta+N+Sg+Gen: lohđan #Myös lohtan?
+
+loota+N+Sg+Gen: loođan #Myös lootan?
+
+------------------------------------------------
+
+
+# sukalttaat+V+Act+Ind+Prt+Sg1: sukalsin  # sukalain
+
+vahventtaat+V+Act+Ind+Prt+Sg1:vahvensin          # vahventain
+
+ajattaat+V+Act+Ind+Prt+Sg1: ajatin # ajatain
+
+rukattaat+V+Act+Ind+Prt+Sg1:     rukatin   # rukatain
+
+ailattaat+V+Act+Ind+Prt+Sg1:    ailatin    # ailatain
+
+juovattaat+V+Act+Ind+Prt+Sg1:  juovatin      # juovatain
+
+langettaat+V+Act+Ind+Prt+Sg1l:    langetin    # langetain
+
+vahingoittaat+V+Act+Ind+Prt+Sg1:    vahingoitin    # vahingoitain
+
+kunnioittaat+V+Act+Ind+Prt+Sg1:    kunnioitin    # kunnioitain
+
+lahjoittaat+V+Act+Ind+Prt+Sg1:  lahjoitin      # lahjoitain
+
+osoittaat+V+Act+Ind+Prt+Sg1:    osoitin    # osoitain
+
+# mistanttaat+V+Act+Ind+Prt+Sg1:    mistantin    # mistantain
+
+vaijenttaat+V+Act+Ind+Prt+Sg1:  vaijensin      # vaijentain
+
+ojenttaat+V+Act+Ind+Prt+Sg1:   ojensin     # ojentain
+
+vahventtaat+V+Act+Ind+Prt+Sg1:   vahvensin     # vahventain
+
+isonttaat+V+Act+Ind+Prt+Sg1:  isonsin      # isontain
+
+# laikottaat+V+Act+Ind+Prt+Sg1:   laikotin     # laikotain
+
+vasthaanottaat+V+Act+Ind+Prt+Sg1:   vasthaanotin     # vasthaanotain
+
+pelastaat+V+Act+Ind+Prt+Sg1:   pelastin     # pelastain
+
+sairastaat+V+Act+Ind+Prt+Sg1:   sairastin     # sairastain
+
+aivastaat+V+Act+Ind+Prt+Sg1:    aivastin    # aivastain
+
+norjalaistaat+V+Act+Ind+Prt+Sg1:  norjalaistin # norjalaistain
+
+ruiđalaistaat+V+Act+Ind+Prt+Sg1ruiđalaistain
+
+kolistaat+V+Act+Ind+Prt+Sg1kolistain
+
+tođistaat+V+Act+Ind+Prt+Sg1tođistain
+
+eđesauttaat+V+Act+Ind+Prt+Sg1eđesautain
+
+happanuttaat+V+Act+Ind+Prt+Sg1happanutain
+
+oksenuttaat+V+Act+Ind+Prt+Sg1oksenutain
+
+muretuttaat+V+Act+Ind+Prt+Sg1muretutain
+
+aivastuttaat+V+Act+Ind+Prt+Sg1aivastutain
+
+liikahtaat+V+Act+Ind+Prt+Sg1:        # liikahđain
+
+joukahtaat+V+Act+Ind+Prt+Sg1:        # joukahđain
+
+naiđa+V+Act+Ind+Prt+Sg1naiin
+
+vihkiit+V+Act+Ind+Prt+Sg1vihiin
+
+# pyhkiit+V+Act+Ind+Prt+Sg1pyhiin
+
+naakkiit+V+Act+Ind+Prt+Sg1naakiin
+
+lakkiit+V+Act+Ind+Prt+Sg1lakiin
+
+leikkiit+V+Act+Ind+Prt+Sg1leikiin
+
+# palkkiit+V+Act+Ind+Prt+Sg1palkiin
+
+hankkiit+V+Act+Ind+Prt+Sg1hankiin
+
+kuokkiit+V+Act+Ind+Prt+Sg1kuokiin
+
+ruokkiit+V+Act+Ind+Prt+Sg1ruokiin
+
+# härkkiit+V+Act+Ind+Prt+Sg1härkiin
+
+kukkiit+V+Act+Ind+Prt+Sg1kukiin
+
+tukkiit+V+Act+Ind+Prt+Sg1tukiin
+
+sivakoiđa+V+Act+Ind+Prt+Sg1sivakoiin
+
+voiđa+V+Act+Ind+Prt+Sg1voiin
+
+kraappiit+V+Act+Ind+Prt+Sg1kraapiin
+
+oppiit+V+Act+Ind+Prt+Sg1opiin
+
+hyppiit+V+Act+Ind+Prt+Sg1hypiin
+
+praattiit+V+Act+Ind+Prt+Sg1praatiin
+
+# vaattiit+V+Act+Ind+Prt+Sg1vaatiin
+
+# purjettiit+V+Act+Ind+Prt+Sg1purjetiin
+
+# murettiit+V+Act+Ind+Prt+Sg1muretiin
+
+vaatettiit+V+Act+Ind+Prt+Sg1vaatetiin
+
+# ilvettiit+V+Act+Ind+Prt+Sg1ilvetiin
+
+viittiit+V+Act+Ind+Prt+Sg1viitiin
+
+moittiit+V+Act+Ind+Prt+Sg1moitiin
+
+# hättiit+V+Act+Ind+Prt+Sg1hätiin
+
+uiđa+V+Act+Ind+Prt+Sg1uiin
+
+puiđa+V+Act+Ind+Prt+Sg1puiin
+
+# vihkiit+V+Act+Ind+Prt+Sg1vihkin
+
+# pyhkiit+V+Act+Ind+Prt+Sg1pyhkin
+
+# joikkaat+V+Act+Ind+Prt+Sg1joikin
+
+# poikkiit+V+Act+Ind+Prt+Sg1poikin
+
+kokkeet+V+Act+Ind+Prt+Sg1kokin
+
+purkkaat+V+Act+Ind+Prt+Sg1purkin
+
+# märkkiit+V+Act+Ind+Prt+Sg1märkin
+
+# nykkiit+V+Act+Ind+Prt+Sg1nykin
+
+# rykkiit+V+Act+Ind+Prt+Sg1rykin
+
+juoskenella+V+Act+Ind+Prt+Sg1:   juoskentelin # juoskenelin
+
+komenella+V+Act+Ind+Prt+Sg1: komentelin # komenelin
+
+kevenellä+V+Act+Ind+Prt+Sg1: keventelin # kevenelin
+
+vahvenella+V+Act+Ind+Prt+Sg1: vahventelin # vahvenelin
+
+# pehmiit+V+Act+Ind+Prt+Sg1pehmin
+
+# henkkaat+V+Act+Ind+Prt+Sg1hengoin
+
+# jakkaat+V+Act+Ind+Prt+Sg1jakoin
+
+# kankkoot+V+Act+Ind+Prt+Sg1kankoin
+
+# salppaat+V+Act+Ind+Prt+Sg1salpoin
+
+# kaarttaat+V+Act+Ind+Prt+Sg1kaaroin
+
+# raattaat+V+Act+Ind+Prt+Sg1raatoin
+
+kylppeet+V+Act+Ind+Prt+Sg1: kylvin #  kylpin
+
+# keijata+V+Act+Ind+Prt+Sg1keikasin
+
+# rinkata+V+Act+Ind+Prt+Sg1rinkkasin
+
+# pruukata+V+Act+Ind+Prt+Sg1pruukkasin
+
+# jatkata+V+Act+Ind+Prt+Sg1jatkasin
+
+# suunata+V+Act+Ind+Prt+Sg1suunasin
+
+# parata+V+Act+Ind+Prt+Sg1parasin !!! fkvnobin mukaan vartalot on parane- ja paran-
+
+verrata+V+Act+Ind+Prt+Sg1: vertasin # verrasin
+
+vähetä+V+Act+Ind+Prt+Sg1: vähenin # vähesin
+
+piestä+V+Act+Ind+Prt+Sg1: pieksin # piesin
+
+levetä+V+Act+Ind+Prt+Sg1: levenin # levesin
+
+rangaista+V+Act+Ind+Prt+Sg1: rankaisin # rangaisin
+
+# villitä+V+Act+Ind+Prt+Sg1villisin
+
+häiritä+V+Act+Ind+Prt+Sg1: häiritsin # häirisin
+
+# haasita+V+Act+Ind+Prt+Sg1haasisin
+
+# valota+V+Act+Ind+Prt+Sg1valosin
+
+# huonota+V+Act+Ind+Prt+Sg1huonosin
+
+# isota+V+Act+Ind+Prt+Sg1isosin
+
+# hiirttäät+V+Act+Ind+Prt+Sg1hiirsin
+
+# korista+V+Act+Ind+Prt+Sg1korissin
+
+# myöđätä+V+Act+Ind+Prt+Sg1myöđäsin
+
+# mullita+V+Act+Ind+Prt+Sg1mullittin
+
+# touhuut+V+Act+Ind+Prt+Sg1touhuin
+
+# kaikkuut+V+Act+Ind+Prt+Sg1kaikuin
+
+perruunttuut+V+Act+Ind+Prt+Sg1perruuntuin
+
+# lymmyyt+V+Act+Ind+Prt+Sg1lymyin
+
+# näyttäyttyyt+V+Act+Ind+Prt+Sg1näyttäytyin
+
+vihelttäät+V+Act+Ind+Prt+Sg1: vihelsin # viheläin
+
+kielttäät+V+Act+Ind+Prt+Sg1: kielsin # kieläin
+
+kiilttäät+V+Act+Ind+Prt+Sg1: kiilsin # kiiläin
+
+sisälttäät+V+Act+Ind+Prt+Sg1: sisälsin # sisäläin
+
+lyhenttäät+V+Act+Ind+Prt+Sg1: lyhensin # lyhenäin
+
+vähenttäät+V+Act+Ind+Prt+Sg1: vähensin #  vähenäin
+
+pehmenttäät+V+Act+Ind+Prt+Sg1: pehmensin # pehmenäin
+
+pimmenttäät+V+Act+Ind+Prt+Sg1: pimmensin # pimmenäin
+
+pienenttäät+V+Act+Ind+Prt+Sg1: pienensin # pienenäin
+
+tyhventtäät+V+Act+Ind+Prt+Sg1tyhvenäin
+
+piđenttäät+V+Act+Ind+Prt+Sg1: piđensin # piđenäin
+
+käänttäät+V+Act+Ind+Prt+Sg1: käänsin # käänäin
+
+kierttäät+V+Act+Ind+Prt+Sg1: kiersin # kieräin
+
+# hiirttäät+V+Act+Ind+Prt+Sg1hiiräin
+
+piirttäät+V+Act+Ind+Prt+Sg1: piirsin # piiräin
+
+siirttäät+V+Act+Ind+Prt+Sg1: siirsin # siiräin
+
+ymmärttäät+V+Act+Ind+Prt+Sg1: ymmärsin # ymmäräin
+
+pyörttäät+V+Act+Ind+Prt+Sg1: pyörsin # pyöräin
+
+tehettäät+V+Act+Ind+Prt+Sg1: tehetin # tehetäin
+
+iljettäät+V+Act+Ind+Prt+Sg1: iljetin # iljetäin
+
+menettäät+V+Act+Ind+Prt+Sg1menetäin
+
+pettäät+V+Act+Ind+Prt+Sg1petäin
+
+hävettäät+V+Act+Ind+Prt+Sg1hävetäin
+
+# ittäät+V+Act+Ind+Prt+Sg1itäin
+
+heittäät+V+Act+Ind+Prt+Sg1: heitin # heitäin
+
+keittäät+V+Act+Ind+Prt+Sg1: keitin # keitäin
+
+peittäät+V+Act+Ind+Prt+Sg1: peitin # peitäin
+
+hengittäät+V+Act+Ind+Prt+Sg1: hengitin # hengitäin
+
+kengittäät+V+Act+Ind+Prt+Sg1: kengitin # kengitäin
+
+miehittäät+V+Act+Ind+Prt+Sg1: miehitin # miehitäin
+
+kehittäät+V+Act+Ind+Prt+Sg1: kehitin # kehitäin
+
+kiittäät+V+Act+Ind+Prt+Sg1: kiitin # kiitäin
+
+liittäät+V+Act+Ind+Prt+Sg1: liitin # liitäin
+
+niittäät+V+Act+Ind+Prt+Sg1: niitin # niitäin
+
+riittäät+V+Act+Ind+Prt+Sg1riitäin
+
+siittäät+V+Act+Ind+Prt+Sg1siitäin
+
+pitkittäät+V+Act+Ind+Prt+Sg1: pitkitin # pitkitäin
+
+selittäät+V+Act+Ind+Prt+Sg1selitäin
+
+silittäät+V+Act+Ind+Prt+Sg1silitäin
+
+villittäät+V+Act+Ind+Prt+Sg1villitäin
+
+välittäät+V+Act+Ind+Prt+Sg1: välitän # välitäin
+
+pehmittäät+V+Act+Ind+Prt+Sg1pehmitäin
+
+nimittäät+V+Act+Ind+Prt+Sg1: nimitin # nimitäin
+
+ylösnimittäät+V+Act+Ind+Prt+Sg1ylösnimitäin
+
+lämmittäät+V+Act+Ind+Prt+Sg1lämmitäin
+
+kiinittäät+V+Act+Ind+Prt+Sg1kiinitäin
+
+jännittäät+V+Act+Ind+Prt+Sg1jännitäin
+
+liepittäät+V+Act+Ind+Prt+Sg1liepitäin
+
+piipittäät+V+Act+Ind+Prt+Sg1piipitäin
+
+vierittäät+V+Act+Ind+Prt+Sg1vieritäin
+
+kerittäät+V+Act+Ind+Prt+Sg1keritäin
+
+terittäät+V+Act+Ind+Prt+Sg1teritäin
+
+virittäät+V+Act+Ind+Prt+Sg1viritäin
+
+yrittäät+V+Act+Ind+Prt+Sg1yritäin
+
+pyörittäät+V+Act+Ind+Prt+Sg1pyöritäin
+
+esittäät+V+Act+Ind+Prt+Sg1esitäin
+
+vesittäät+V+Act+Ind+Prt+Sg1vesitäin
+
+kevittäät+V+Act+Ind+Prt+Sg1kevitäin
+
+levittäät+V+Act+Ind+Prt+Sg1levitäin
+
+siivittäät+V+Act+Ind+Prt+Sg1siivitäin
+
+selvittäät+V+Act+Ind+Prt+Sg1selvitäin
+
+hävittäät+V+Act+Ind+Prt+Sg1hävitäin
+
+väittäät+V+Act+Ind+Prt+Sg1väitäin
+
+viilttäät+V+Act+Ind+Prt+Sg1: viilsin # viiltäin
+
+välttäät+V+Act+Ind+Prt+Sg1: vältin # vältäin
+
+# tyyhenttäät+V+Act+Ind+Prt+Sg1tyyhentäin
+
+# pimmeinttäät+V+Act+Ind+Prt+Sg1pimmeintäin
+
+hirttäät+V+Act+Ind+Prt+Sg1: hirtin # hirtäin
+
+myrkyttäät+V+Act+Ind+Prt+Sg1: myrkytin # myrkytäin
+
+läiskyttäät+V+Act+Ind+Prt+Sg1: läiskytin # läiskytäin
+
+mykyttäät+V+Act+Ind+Prt+Sg1mykytäin
+
+säilyttäät+V+Act+Ind+Prt+Sg1: säilytin # säilytäin
+
+venyttäät+V+Act+Ind+Prt+Sg1: venytin # venytäin
+
+synnyttäät+V+Act+Ind+Prt+Sg1: synnytin # synnytäin
+
+ärryttäät+V+Act+Ind+Prt+Sg1ärrytäin
+
+äärryttäät+V+Act+Ind+Prt+Sg1äärrytäin
+
+pyöryttäät+V+Act+Ind+Prt+Sg1pyörytäin
+
+väsyttäät+V+Act+Ind+Prt+Sg1: väsytin # väsytäin
+
+kylmetyttäät+V+Act+Ind+Prt+Sg1kylmetytäin
+
+lähđetyttäät+V+Act+Ind+Prt+Sg1lähđetytäin
+
+sytyttäät+V+Act+Ind+Prt+Sg1: sytytin # sytytäin
+
+viivyttäät+V+Act+Ind+Prt+Sg1: viivytin # viivytäin
+
+kehäyttäät+V+Act+Ind+Prt+Sg1kehäytäin
+
+läkhäyttäät+V+Act+Ind+Prt+Sg1läkhäytäin
+
+käyttäät+V+Act+Ind+Prt+Sg1: käytin # käytäin
+
+näyttäät+V+Act+Ind+Prt+Sg1: näytin # näytäin
+
+täyttäät+V+Act+Ind+Prt+Sg1: täytin # täytäin
+
+jähđyttäät+V+Act+Ind+Prt+Sg1: jähđytin # jähđytäin
+
+jääđyttäät+V+Act+Ind+Prt+Sg1: jääđytin # jääđytäin
+
+hyöđyttäät+V+Act+Ind+Prt+Sg1: hyöđytin # hyöđytäin
+
+käänhättäät+V+Act+Ind+Prt+Sg1: käänhätin # käänhätäin
+
+lähättäät+V+Act+Ind+Prt+Sg1: lähätin # lähätäin
+
+jättäät+V+Act+Ind+Prt+Sg1: jätin # jätäin
+
+säikättäät+V+Act+Ind+Prt+Sg1: säikätin # säikätäin
+
+läiskättäät+V+Act+Ind+Prt+Sg1: läiskätin # läiskätäin
+
+pyrskättäät+V+Act+Ind+Prt+Sg1pyrskätäin
+
+elättäät+V+Act+Ind+Prt+Sg1: elätin # elätäin
+
+yllättäät+V+Act+Ind+Prt+Sg1: yllätin # yllätäin
+
+pölättäät+V+Act+Ind+Prt+Sg1: pölätin # pölätäin
+
+ennättäät+V+Act+Ind+Prt+Sg1: ennätin # ennätäin
+
+herättäät+V+Act+Ind+Prt+Sg1: herätin # herätäin
+
+säpsättäät+V+Act+Ind+Prt+Sg1säpsätäin
+
+pysättäät+V+Act+Ind+Prt+Sg1pysätäin
+
+viivättäät+V+Act+Ind+Prt+Sg1viivätäin
+
+jäättäät+V+Act+Ind+Prt+Sg1jäätäin
+
+päättäät+V+Act+Ind+Prt+Sg1: päätin # päätäin
+
+piđättäät+V+Act+Ind+Prt+Sg1: piđätin # piđätäin
+
+väköttäät+V+Act+Ind+Prt+Sg1: väkötin # väkötäin
+
+häämöttäät+V+Act+Ind+Prt+Sg1: häämötin # häämötäin
+
+syöttäät+V+Act+Ind+Prt+Sg1: syötin # syötäin
+
+viettäät+V+Act+Ind+Prt+Sg1: vietin # vieđin
