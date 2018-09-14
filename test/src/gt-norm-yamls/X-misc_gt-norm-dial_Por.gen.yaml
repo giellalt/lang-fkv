@@ -770,7 +770,7 @@ Tests:
     äijä+N+Pl+Com: äijine       # (ok)
 
 
-# ========================================================================================================================
+# =================================================================================================================
 
 
     ilta+N+Sg+Gen: illan
@@ -819,7 +819,7 @@ Tests:
 
     haitari+N+Sg+Gen: haitari # haiđarin
 
-    hehtari+N+Sg+Gen:  hehtarin # hehđarin
+    hehtari+N+Sg+Gen: hehtarin # hehđarin
 
     housunsääri+N+Sg+Gen: # housunsäärin
 
@@ -832,10 +832,10 @@ Tests:
 
 
 
-# ========================================================================================================================
+# ===================================================================================================================
 
 
-    hiiri+N+Sg+Gen:  hiiren # hiiren
+    hiiri+N+Sg+Gen: hiiren # hiiren
 
     isotäti+N+Sg+Ge n: isotäđin # isođäđin
 
@@ -843,7 +843,7 @@ Tests:
 
 # aihki+N+Sg+Gen        aihin # Kuinka graadivaihtelu toimii saamelaisissa lainoissa
 
-    aijankäännet+N+Sg+Gen:   aijankääntheen    #aijankäännheen
+    aijankäännet+N+Sg+Gen: aijankääntheen    #aijankäännheen
 
     alaikä+N+Sg+Gen: alaijän  # alaikän
 
@@ -851,35 +851,35 @@ Tests:
 
     arpi+N+Sg+Gen: arven #      arpin
 
-# asentolaaki+N+Sg+Gen:     asentolaajin #
+# asentolaaki+N+Sg+Gen: asentolaajin #
 
-#blaađi+N+Sg+Gen:     blaađin # oonko blaadi/blaati?
+#blaađi+N+Sg+Gen: blaađin # oonko blaadi/blaati?
 
-#delta+N+Sg+Gen:     dellan  #minkälainen graadivaihtelu oon lainoissa?
+#delta+N+Sg+Gen: dellan  #minkälainen graadivaihtelu oon lainoissa?
 
-#elekriski+N+Sg+Gen:     elekriskin # on kirjoitusvirhe: pitäis olla elektristi # Ja onko tämä adjektiivi?  #elektrisiteetti ko oon substantiivi ja elektrinen ko oon adjektiivi?
+#elekriski+N+Sg+Gen: elekriskin # on kirjoitusvirhe: pitäis olla elektristi # Ja onko tämä adjektiivi?  #elektrisiteetti ko oon substantiivi ja elektrinen ko oon adjektiivi?
 
-#elka+N+Sg+Gen:     elkan #minkälainen graadivaihtelu oon lainoissa?
+#elka+N+Sg+Gen: elkan #minkälainen graadivaihtelu oon lainoissa?
 
     enturi+N+Sg+Gen: enturin #   ennurin
 
-#faaki+N+Sg+Gen:    faajin #minkälainen graadivaihtelu oon lainoissa?
+#faaki+N+Sg+Gen: faajin #minkälainen graadivaihtelu oon lainoissa?
 
-#familiä+N+Sg+Gen:    familiän #familia? Tässä ei ole vokaalisointtii
+#familiä+N+Sg+Gen: familiän #familia? Tässä ei ole vokaalisointtii
 
-    fati+N+Sg+Gen:    fatin # Myös fajin?
+    fati+N+Sg+Gen: fatin # Myös fajin?
 
-    fatilinen+N+Sg+Gen:    fatilisen #Myös fajilisen?
+    fatilinen+N+Sg+Gen: fatilisen #Myös fajilisen?
 
-#floota+N+Sg+Gen:    floođan  #minkälainen graadivaihtelu oon lainoissa?
+#floota+N+Sg+Gen: floođan  #minkälainen graadivaihtelu oon lainoissa?
 
     flynteri+N+Sg+Gen: flynterin # flynnerin
 
     frahti+N+Sg+Gen: frahđin #Myös frahtin?
 
-#forlaaki+N+Sg+Gen:    forlaajin  #minkälainen graadivaihtelu oon lainoissa?
+#forlaaki+N+Sg+Gen: forlaajin  #minkälainen graadivaihtelu oon lainoissa?
 
-#haaki+N+Sg+Gen:    haajin  #minkälainen graadivaihtelu oon lainoissa?
+#haaki+N+Sg+Gen: haajin  #minkälainen graadivaihtelu oon lainoissa?
 
     haitari+N+Sg+Gen: haitarin # haiđarin
 
@@ -951,11 +951,13 @@ Tests:
 
     krooflynteri+N+Sg+Gen: krooflynterin # krooflynnerin
 
-    kruuti+N+Sg+Gen:  kruuđin #myös kruutin?
+    kruuti+N+Sg+Gen: kruuđin #myös kruutin?
 
     kruununhärkä+N+Sg+Gen: kruuninhärän # kruununhärkän
 
     kryysitaaki+N+Sg+Gen: kryysitaajin #minkälainen graadivaihtelu oon lainoissa?
+
+# ok
 
     kulku+N+Sg+Gen: kulun #kulkun
 
@@ -990,51 +992,53 @@ Tests:
 # ------------------------------------------------
 
 
-# sukalttaat+V+Act+Ind+Prt+Sg1: sukalsin  # sukalain
+    # sukalttaat+V+Act+Ind+Prt+Sg1: sukalsin  # sukalain
 
-    vahventtaat+V+Act+Ind+Prt+Sg1: vahvensin          # vahventain
+    vahventtaat+V+Act+Ind+Prt+Sg1: vahvensin      # vahventain
 
     ajattaat+V+Act+Ind+Prt+Sg1: ajatin # ajatain
 
-    rukattaat+V+Act+Ind+Prt+Sg1:  rukatin   # rukatain
+    rukattaat+V+Act+Ind+Prt+Sg1: rukatin   # rukatain
 
     ailattaat+V+Act+Ind+Prt+Sg1: ailatin    # ailatain
 
-    juovattaat+V+Act+Ind+Prt+Sg1:  juovatin      # juovatain
+    juovattaat+V+Act+Ind+Prt+Sg1: juovatin      # juovatain
 
-    langettaat+V+Act+Ind+Prt+Sg1: l: langetin    # langetain
+    langettaat+V+Act+Ind+Prt+Sg1: langetin    # langetain
 
     vahingoittaat+V+Act+Ind+Prt+Sg1: vahingoitin    # vahingoitain
 
     kunnioittaat+V+Act+Ind+Prt+Sg1: kunnioitin    # kunnioitain
 
-    lahjoittaat+V+Act+Ind+Prt+Sg1:  lahjoitin      # lahjoitain
+    lahjoittaat+V+Act+Ind+Prt+Sg1: lahjoitin      # lahjoitain
 
     osoittaat+V+Act+Ind+Prt+Sg1: osoitin    # osoitain
 
-# mistanttaat+V+Act+Ind+Prt+Sg1: mistantin    # mistantain
+    # mistanttaat+V+Act+Ind+Prt+Sg1: mistantin    # mistantain
 
-    vaijenttaat+V+Act+Ind+Prt+Sg1:  vaijensin      # vaijentain
+    vaijenttaat+V+Act+Ind+Prt+Sg1: vaijensin      # vaijentain
 
-    ojenttaat+V+Act+Ind+Prt+Sg1:   ojensin     # ojentain
+    ojenttaat+V+Act+Ind+Prt+Sg1: ojensin     # ojentain
 
-    vahventtaat+V+Act+Ind+Prt+Sg1:   vahvensin     # vahventain
+    vahventtaat+V+Act+Ind+Prt+Sg1: vahvensin     # vahventain
 
-    isonttaat+V+Act+Ind+Prt+Sg1:  isonsin      # isontain
+    isonttaat+V+Act+Ind+Prt+Sg1: isonsin      # isontain
 
-# laikottaat+V+Act+Ind+Prt+Sg1:   laikotin     # laikotain
+    # laikottaat+V+Act+Ind+Prt+Sg1: laikotin     # laikotain
 
-    vasthaanottaat+V+Act+Ind+Prt+Sg1:   vasthaanotin     # vasthaanotain
+    vasthaanottaat+V+Act+Ind+Prt+Sg1: vasthaanotin     # vasthaanotain
 
-    pelastaat+V+Act+Ind+Prt+Sg1:   pelastin     # pelastain
+    pelastaat+V+Act+Ind+Prt+Sg1: pelastin     # pelastain
 
-    sairastaat+V+Act+Ind+Prt+Sg1:   sairastin     # sairastain
+    sairastaat+V+Act+Ind+Prt+Sg1: sairastin     # sairastain
 
     aivastaat+V+Act+Ind+Prt+Sg1: aivastin    # aivastain
 
     norjalaistaat+V+Act+Ind+Prt+Sg1: norjalaistin # norjalaistain
 
     ruiđalaistaat+V+Act+Ind+Prt+Sg1: ruiđalaistin # ruiđalaistain
+
+# ok
 
     kolistaat+V+Act+Ind+Prt+Sg1: kolistin
 
@@ -1050,15 +1054,15 @@ Tests:
 
     aivastuttaat+V+Act+Ind+Prt+Sg1: aivastutain
 
-    liikahtaat+V+Act+Ind+Prt+Sg1:     # liikahđain
+    liikahtaat+V+Act+Ind+Prt+Sg1: liikahđin # liikahđain
 
-    joukahtaat+V+Act+Ind+Prt+Sg1:     # joukahđain
+    joukahtaat+V+Act+Ind+Prt+Sg1: joukahđin # joukahđain
 
-    naiđa+V+Act+Ind+Prt+Sg1: naiin
+    naiđa+V+Act+Ind+Prt+Sg1: nain
 
     vihkiit+V+Act+Ind+Prt+Sg1: vihiin
 
-# pyhkiit+V+Act+Ind+Prt+Sg1: pyhiin
+    # pyhkiit+V+Act+Ind+Prt+Sg1: pyhiin
 
     naakkiit+V+Act+Ind+Prt+Sg1: naakiin
 
@@ -1066,7 +1070,7 @@ Tests:
 
     leikkiit+V+Act+Ind+Prt+Sg1: leikiin
 
-# palkkiit+V+Act+Ind+Prt+Sg1: palkiin
+    # palkkiit+V+Act+Ind+Prt+Sg1: palkiin
 
     hankkiit+V+Act+Ind+Prt+Sg1: hankiin
 
@@ -1074,7 +1078,7 @@ Tests:
 
     ruokkiit+V+Act+Ind+Prt+Sg1: ruokiin
 
-# härkkiit+V+Act+Ind+Prt+Sg1: härkiin
+    # härkkiit+V+Act+Ind+Prt+Sg1: härkiin
 
     kukkiit+V+Act+Ind+Prt+Sg1: kukiin
 
@@ -1092,45 +1096,45 @@ Tests:
 
     praattiit+V+Act+Ind+Prt+Sg1: praatiin
 
-# vaattiit+V+Act+Ind+Prt+Sg1: vaatiin
+    # vaattiit+V+Act+Ind+Prt+Sg1: vaatiin
 
-# purjettiit+V+Act+Ind+Prt+Sg1: purjetiin
+    # purjettiit+V+Act+Ind+Prt+Sg1: purjetiin
 
-# murettiit+V+Act+Ind+Prt+Sg1: muretiin
+    # murettiit+V+Act+Ind+Prt+Sg1: muretiin
 
     vaatettiit+V+Act+Ind+Prt+Sg1: vaatetiin
 
-# ilvettiit+V+Act+Ind+Prt+Sg1: ilvetiin
+    # ilvettiit+V+Act+Ind+Prt+Sg1: ilvetiin
 
     viittiit+V+Act+Ind+Prt+Sg1: viitiin
 
     moittiit+V+Act+Ind+Prt+Sg1: moitiin
 
-# hättiit+V+Act+Ind+Prt+Sg1: hätiin
+    # hättiit+V+Act+Ind+Prt+Sg1: hätiin
 
     uiđa+V+Act+Ind+Prt+Sg1: uiin
 
     puiđa+V+Act+Ind+Prt+Sg1: puiin
 
-# vihkiit+V+Act+Ind+Prt+Sg1: vihkin
+    # vihkiit+V+Act+Ind+Prt+Sg1: vihkin
 
-# pyhkiit+V+Act+Ind+Prt+Sg1: pyhkin
+    # pyhkiit+V+Act+Ind+Prt+Sg1: pyhkin
 
-# joikkaat+V+Act+Ind+Prt+Sg1: joikin
+    # joikkaat+V+Act+Ind+Prt+Sg1: joikin
 
-# poikkiit+V+Act+Ind+Prt+Sg1: poikin
+    # poikkiit+V+Act+Ind+Prt+Sg1: poikin
 
     kokkeet+V+Act+Ind+Prt+Sg1: kokin
 
     purkkaat+V+Act+Ind+Prt+Sg1: purkin
 
-# märkkiit+V+Act+Ind+Prt+Sg1: märkin
+    # märkkiit+V+Act+Ind+Prt+Sg1: märkin
 
-# nykkiit+V+Act+Ind+Prt+Sg1: nykin
+    # nykkiit+V+Act+Ind+Prt+Sg1: nykin
 
-# rykkiit+V+Act+Ind+Prt+Sg1: rykin
+    # rykkiit+V+Act+Ind+Prt+Sg1: rykin
 
-    juoskenella+V+Act+Ind+Prt+Sg1:   juoskentelin # juoskenelin
+    juoskenella+V+Act+Ind+Prt+Sg1: juoskentelin # juoskenelin
 
     komenella+V+Act+Ind+Prt+Sg1: komentelin # komenelin
 
@@ -1138,33 +1142,33 @@ Tests:
 
     vahvenella+V+Act+Ind+Prt+Sg1: vahventelin # vahvenelin
 
-# pehmiit+V+Act+Ind+Prt+Sg1: pehmin
+    # pehmiit+V+Act+Ind+Prt+Sg1: pehmin
 
-# henkkaat+V+Act+Ind+Prt+Sg1: hengoin
+    # henkkaat+V+Act+Ind+Prt+Sg1: hengoin
 
-# jakkaat+V+Act+Ind+Prt+Sg1: jakoin
+    # jakkaat+V+Act+Ind+Prt+Sg1: jakoin
 
-# kankkoot+V+Act+Ind+Prt+Sg1: kankoin
+    # kankkoot+V+Act+Ind+Prt+Sg1: kankoin
 
-# salppaat+V+Act+Ind+Prt+Sg1: salpoin
+    # salppaat+V+Act+Ind+Prt+Sg1: salpoin
 
-# kaarttaat+V+Act+Ind+Prt+Sg1: kaaroin
+    # kaarttaat+V+Act+Ind+Prt+Sg1: kaaroin
 
-# raattaat+V+Act+Ind+Prt+Sg1: raatoin
+    # raattaat+V+Act+Ind+Prt+Sg1: raatoin
 
     kylppeet+V+Act+Ind+Prt+Sg1: kylvin #  kylpin
 
-# keijata+V+Act+Ind+Prt+Sg1: keikasin
+    # keijata+V+Act+Ind+Prt+Sg1: keikasin
 
-# rinkata+V+Act+Ind+Prt+Sg1: rinkkasin
+    # rinkata+V+Act+Ind+Prt+Sg1: rinkkasin
 
-# pruukata+V+Act+Ind+Prt+Sg1: pruukkasin
+      # pruukata+V+Act+Ind+Prt+Sg1: pruukkasin
 
-# jatkata+V+Act+Ind+Prt+Sg1: jatkasin
+    # jatkata+V+Act+Ind+Prt+Sg1: jatkasin
 
-# suunata+V+Act+Ind+Prt+Sg1: suunasin
+    # suunata+V+Act+Ind+Prt+Sg1: suunasin
 
-# parata+V+Act+Ind+Prt+Sg1: parasin !!! fkvnobin mukaan vartalot on parane- ja paran-
+    # parata+V+Act+Ind+Prt+Sg1: parasin !!! fkvnobin mukaan vartalot on parane- ja paran-
 
     verrata+V+Act+Ind+Prt+Sg1: vertasin # verrasin
 
@@ -1176,35 +1180,35 @@ Tests:
 
     rangaista+V+Act+Ind+Prt+Sg1: rankaisin # rangaisin
 
-# villitä+V+Act+Ind+Prt+Sg1: villisin
+    # villitä+V+Act+Ind+Prt+Sg1: villisin
 
     häiritä+V+Act+Ind+Prt+Sg1: häiritsin # häirisin
 
-# haasita+V+Act+Ind+Prt+Sg1: haasisin
+    # haasita+V+Act+Ind+Prt+Sg1: haasisin
 
-# valota+V+Act+Ind+Prt+Sg1: valosin
+    # valota+V+Act+Ind+Prt+Sg1: valosin
 
-# huonota+V+Act+Ind+Prt+Sg1: huonosin
+    # huonota+V+Act+Ind+Prt+Sg1: huonosin
 
-# isota+V+Act+Ind+Prt+Sg1: isosin
+    # isota+V+Act+Ind+Prt+Sg1: isosin
 
-# hiirttäät+V+Act+Ind+Prt+Sg1: hiirsin
+    # hiirttäät+V+Act+Ind+Prt+Sg1: hiirsin
 
-# korista+V+Act+Ind+Prt+Sg1: korissin
+    # korista+V+Act+Ind+Prt+Sg1: korissin
 
-# myöđätä+V+Act+Ind+Prt+Sg1: myöđäsin
+    # myöđätä+V+Act+Ind+Prt+Sg1: myöđäsin
 
-# mullita+V+Act+Ind+Prt+Sg1: mullittin
+    # mullita+V+Act+Ind+Prt+Sg1: mullittin
 
-# touhuut+V+Act+Ind+Prt+Sg1: touhuin
+    # touhuut+V+Act+Ind+Prt+Sg1: touhuin
 
-# kaikkuut+V+Act+Ind+Prt+Sg1: kaikuin
+    # kaikkuut+V+Act+Ind+Prt+Sg1: kaikuin
 
     perruunttuut+V+Act+Ind+Prt+Sg1: perruuntuin
 
-# lymmyyt+V+Act+Ind+Prt+Sg1: lymyin
+    # lymmyyt+V+Act+Ind+Prt+Sg1: lymyin
 
-# näyttäyttyyt+V+Act+Ind+Prt+Sg1: näyttäytyin
+    # näyttäyttyyt+V+Act+Ind+Prt+Sg1: näyttäytyin
 
     vihelttäät+V+Act+Ind+Prt+Sg1: vihelsin # viheläin
 
@@ -1232,7 +1236,7 @@ Tests:
 
     kierttäät+V+Act+Ind+Prt+Sg1: kiersin # kieräin
 
-# hiirttäät+V+Act+Ind+Prt+Sg1: hiiräin
+    # hiirttäät+V+Act+Ind+Prt+Sg1: hiiräin
 
     piirttäät+V+Act+Ind+Prt+Sg1: piirsin # piiräin
 
@@ -1252,7 +1256,7 @@ Tests:
 
     hävettäät+V+Act+Ind+Prt+Sg1: hävetäin
 
-# ittäät+V+Act+Ind+Prt+Sg1: itäin
+    # ittäät+V+Act+Ind+Prt+Sg1: itäin
 
     heittäät+V+Act+Ind+Prt+Sg1: heitin # heitäin
 
@@ -1336,9 +1340,9 @@ Tests:
 
     välttäät+V+Act+Ind+Prt+Sg1: vältin # vältäin
 
-# tyyhenttäät+V+Act+Ind+Prt+Sg1: tyyhentäin
+    # tyyhenttäät+V+Act+Ind+Prt+Sg1: tyyhentäin
 
-# pimmeinttäät+V+Act+Ind+Prt+Sg1: pimmeintäin
+    # pimmeinttäät+V+Act+Ind+Prt+Sg1: pimmeintäin
 
     hirttäät+V+Act+Ind+Prt+Sg1: hirtin # hirtäin
 
@@ -1427,3 +1431,4 @@ Tests:
     syöttäät+V+Act+Ind+Prt+Sg1: syötin # syötäin
 
     viettäät+V+Act+Ind+Prt+Sg1: vietin # vieđin
+    
