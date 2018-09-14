@@ -3,7 +3,6 @@
 
 LEXICON NounRoot !!= @CODE@
 
-
 !! Nomenityyppit s.147 (Eira published book 2014) (Niitä oon 3)
   ! Siitä sais kiinnostavan artikkelin kun vertais tätä karttaa Eiran yksinkertaistettuun versioon
   ! t. Sindre
@@ -24,7 +23,6 @@ LEXICON NounRoot !!= @CODE@
     !! ** X.X.X  (kusi, kuusi) toistaiseksi vain nämä 2 sanaa     = n_12_kusi      ! oli virheellinen
     !! ** 3.1.3  ( lapsi )                                        = n_12_lapsi     ! vanha_n_31lapsi
     !! ** 3.1.4  ( mies )                                         = n_12_mies      ! vanha_n_31mies
-
 
   !! TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
 
@@ -49,7 +47,6 @@ LEXICON NounRoot !!= @CODE@
     !! ** 4.2 –inen-nominit ( kainulainen)                        = n_22_inen      ! vanha_n_42
     !! *** 4.2.1 -inen-nominit Pl (tervheiset)                    = n_22_inen_pl   ! vanha_n_42pl
 
-
   !! TYYPPI 3: Pitkävokaaliset rangat
 
     !! * 1. Yksitavuiset / Vi ( maa, yö )                         = n_31           ! vanha_n_1
@@ -70,16 +67,11 @@ LEXICON NounRoot !!= @CODE@
 !   ! kuolu:kuol                                                  = n_32_u        -! vanha_a_33u ?
 !       ! TODO onko tämä edes olemassa enään? Mikä luokitus on kuolu? Not nouns, only in adj it seems
 
-
-
-
 !!!arrugado n_21 ;
 !!!kumara:kumara n_21_odd ;
 !!!rasittaat:rasittaa vanha_n_33 ;
 !!!tukkee:tukke n_31_ee ;
 !!!ulkoovi:ulkoove n_11_E2I ;
-
-
 
 ! List where # should be added
 !vuosi:vuoje n_12_si ;
@@ -87,6 +79,10 @@ LEXICON NounRoot !!= @CODE@
 !!!cuesta n_11_AO  ;
 !!!sabkha n_11_AO  ;
 
+!sciens n_x ;
+!vikaatet+N+Sg+Nom+Err/Orth:vikaatt K ; ! XXX check viikatet / vikatet
+!vikatet:vikatt n_32_et ;
+!vikattheenvarsi:vikattheen#varte n_12_si ;
 C-vitamiini n_21 ;
 Suomi-seura n_11_AO  ;
 T-paita n_11_AO  ;
@@ -828,9 +824,9 @@ herräysliiket:herräys#liikk n_32_et ;
 hersku n_11 ;
 hertta n_11_AO  ;
 herätys:herät2y n_22_excns ;
-hetet:hett n_32_et ; ! XXX check hete
 hetelmä n_21_odd ;
 hetelmätaras:hetelmä#tar n_32_as ;
+hetet:hett n_32_et ; ! XXX check hete
 hetki:hetke n_11_E2I ;
 hevoinen:hevoi n_22_inen_odd ;
 hevoisenkenkä:hevoisen#kenkä n_11_ae ;
@@ -4420,7 +4416,6 @@ savvuporo:savvu#poro n_11 ;
 savvureikä:savvu#reikä n_11_ae ;
 sađet:sat n_32_et ;
 sađetkuuro:sađet#kuuro n_11 ;
-!sciens n_x ;
 seeni n_11_i ;
 seili n_11_i ;
 seililaiva:seili#laiva n_11_AO  ;
@@ -5536,6 +5531,7 @@ viholinen:viholi n_22_inen ;
 vihta n_11_AO  ;
 vihti n_11_i ;
 viika:viik2a n_11_AO  ;
+viikatet:viikatt n_32_et ; ! XXX check viikatet/vikaatet
 viikinkiaika:viikinki#aika n_11_AO  ;
 viikka n_11_AO  ;
 viikko n_11 ;
@@ -5553,10 +5549,6 @@ viissaus:viissau n_22_s ;
 viisymmi n_21_odd_i ;
 viitonen:viito n_22_inen_odd ;
 vika n_11_AO  ;
-!vikaatet+N+Sg+Nom+Err/Orth:vikaatt K ; ! XXX check viikatet / vikatet
-!vikatet:vikatt n_32_et ;
-!vikattheenvarsi:vikattheen#varte n_12_si ;
-viikatet:viikatt n_32_et ; ! XXX check viikatet/vikaatet
 vilja n_11_AO  ;
 viljat:vilja n_11_pl ;
 villa n_11_AO  ;
@@ -5602,7 +5594,6 @@ voisilmä:voi#silmä n_11_ae ;
 voittaaja n_21_odd ;
 voitto n_11 ;
 voiđet:voit n_32_et ;
-vokaali n_21_odd_i ;
 vokaali n_21_odd_i ;
 vokaaliharmonii:vokaali#harmonii n_31_ii ;
 vokaaliranka:vokaali#ranka n_11_AO  ;
@@ -5755,8 +5746,6 @@ yđinkontti:yđin#kontti n_11_i ;
 öystäetelä:öystä#etelä n_21_oi ;
 ööli n_11_i ;
 šoru n_11 ;
-
-
 
 ! Old lexica map
 
