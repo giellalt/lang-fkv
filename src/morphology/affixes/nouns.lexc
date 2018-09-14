@@ -298,11 +298,21 @@ LEXICON x_11_pl        !!= * @CODE@ ! Seems like no adjectives call this?
   ! +Par:%>kk%>i2 # ; ! kk ?? Tsekkaa..
 
 LEXICON n_21        !!= * @CODE@  opettaaja, karamelli
+n_21_sg ;
+n_21_pl ;
+
+LEXICON n_21_sg
 +N         :    x_21  ;
 +N+Sg      :    nom_R    ;
 
-LEXICON x_21 !liberaali
+LEXICON n_21_pl
++N: x_21_pl ;
 
+LEXICON x_21 ! adjektiivit ynnä muut
+x_21_sg ;
+x_21_pl ;
+
+LEXICON x_21_sg
   +Sg      :         nom_end                  ;
   +Sg      :^WG      gen_n_sg           ;
   +Sg+Dial/Por:         par_V              ;
@@ -311,7 +321,7 @@ LEXICON x_21 !liberaali
   +Sg      :         ess_nA              ; ! karamellina
   +Sg      :^WG      sgpl_cases_even    ; ! the same affix in sg and pl
 
-
+LEXICON x_21_pl
   +Pl      :^WG      nom_t              ; ! liberaalit
   +Dial/Por:         x_21_pl_por        ;
   +Dial/-Por:         x_21_pl_var        ;
