@@ -570,11 +570,11 @@ LEXICON x_12 ! pieni
   !     +Pl:%>i2        gen_Vn          ;
   !    !+Pl:^EDEL       gen_ten         ;
 
-LEXICON n_12_lumi       !!= @CODE@ lumi lu
-+N         :   x_12_lumi ;
+LEXICON n_12_mi       !!= @CODE@ lumi lu
++N         :   x_12_mi ;
 +N+Sg      :mi nom_R       ; ! ^EI e to i
 
-LEXICON x_12_lumi
+LEXICON x_12_mi
   +Sg      :mi           nom_end         ; ! ^EI e to i
   +Sg      :me^WG        gen_n_sg        ;
   +Sg      :n            par_tA          ;
@@ -642,6 +642,33 @@ LEXICON x_12_si ! uusi
     +Pl      :%>i2     ess_nA          ;
     +Pl      :%>i2     com_ne          ;
     +Pl      :%>i2     sgpl_cases_even ; ! the same affix in sg and pl
+
+
+LEXICON n_12_kusi        !!= @CODE@ kusi kuusi
++N         : x_12_kusi ;
+
+LEXICON x_12_kusi        !!= @CODE@ kusi kuusi
+  +Sg      :e^E2I       nom_end         ; ! ^EI e to i
+  +Sg      :e^E2I       nom_R           ; ! ^EI e to i
+  +Sg      :e^WG        gen_n_sg        ;
+  +Sg      :e           gen_n_sg        ; ! should be ^WG?
+  +Sg      :            par_tA          ; ! kuusta kusta
+  +Sg      :e^HMETA     ill_hVVn        ; ! e is for vowel copying, then e:0
+  +Sg      :e           ess_nA          ;
+  +Sg      :e^WG        sgpl_cases_even ; !! these two lexica for cases with
+
+  +Pl      :e^WG        nom_t           ;
+  +Pl      :             gen_ten         ; ! kusten
+  +Pl+Dial/Por:s%>i2%>i     gen_n           ; !
+  +Pl+Dial/-Por:e%>i2        gen_tten        ; ! lasitten
+  +Pl+Dial/Por:s%>i2%>i     par_end         ; !
+  +Pl+Dial/-Por:e%>i2%>      par_A           ; !
+  +Pl      :^EDEL       ill_hiin        ;
+  +Pl      :e%>i2       ess_nA          ;
+  +Pl      :e%>i2        com_ne          ; ! kanskje se
+  +Pl      :e^WG%>i2     sgpl_cases_even ; !! the same affix in sg and pl
+
+
 
 LEXICON n_12_lapsi        !!= @CODE@ lapsi la
 +N         : x_12_lapsi ;
