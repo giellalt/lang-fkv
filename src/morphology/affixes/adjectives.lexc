@@ -87,12 +87,11 @@ LEXICON a_11_A0_A2I ! kova
 !  a_11 ;
 
 LEXICON a_11  !!= * @CODE@ siisti, soma
-+A                :           x_11   ;
-+A                :^WG^AE     comp_m_odd   ;
++A:           x_11   ;
++A:^WG^AE     comp_m_odd   ;
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
-
-+A                :^WG^A2I%>i5 superl_m_odd ; ! TODO TODO TODO ^AE, really?
-+A+Dial/Var       :^WG^AE%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
++A:^WG^A2I%>i5 superl_m_odd ; ! TODO TODO TODO ^AE, really?
++A+Dial/Var:^WG^AE%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
 
 LEXICON a_11_ae  !!= * @CODE@ väärä, nöyrä
 +A                :           x_11_ae   ; ! koska gen pl vääriin
