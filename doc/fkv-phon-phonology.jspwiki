@@ -14,7 +14,7 @@
  * __i5:i__ = superlative i of adjectives
  * __i6:i__ = i:j in poika:pojan
  * __i7:i__ = i in conditional of contract verbs (with gemination)
- * p2:p t2:t k2:k             p2, k2, t2 = always p, t, k
+ * p2:p t2:t k2:k             p2, k2, t2 = always p, t, k ; eli ei tule astevaihtelua
  * k3:k                       k3 never k:v, contrary to k
  * %^HMETA:0                  h metateesi sykshyyn
  * %^WG:0                     weak grade hatun
@@ -123,6 +123,9 @@ __Gradation p:0 (pp:p)__
 __Gradation p:v__
 
 __Gradation mp:mm__
+
+* __kilpe^WG>n __
+* __kilve0>n __
 
 * __ranka^WG>n __
 * __ranga0>n __
