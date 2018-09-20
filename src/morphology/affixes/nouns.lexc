@@ -57,7 +57,7 @@
 LEXICON n_31 !!= * @CODE@ = maa, tie
 +N         : x_31 ;
 +N+Sg      : nom_end   ;
-+N+Pl+Dial/Por:%>i2ne   gen_n           ;
+!+N+Pl+Dial/Por:%>i2ne   gen_n           ; ! in x_31_pl
 
 LEXICON n_31_ai !!= * @CODE@ = tuorestai ja muut päivät
    +N: x_31_sg ; ! like the others
