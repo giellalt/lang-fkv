@@ -15,7 +15,7 @@ i4:i  !!≈ * __@CODE@__ = i in conditional isi of most verbs (without geminatio
 i5:i  !!≈ * __@CODE@__ = superlative i of adjectives
 i6:i  !!≈ * __@CODE@__ = i:j in poika:pojan
 i7:i  !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
-p2:p t2:t k2:k            !!= * @CODE@ p2, k2, t2 = always p, t, k
+p2:p t2:t k2:k            !!= * @CODE@ p2, k2, t2 = always p, t, k ; eli ei tule astevaihtelua
 k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
 %^HMETA:0                 !!= * @CODE@ h metateesi sykshyyn
 %^WG:0                    !!= * @CODE@ weak grade hatun
@@ -45,7 +45,6 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
  %[%<%] ! <
  %+7:%+ ! Literal +, as opposed to the gemination symbol
 
-! Morpheme boundaries:
  »  !!= * @CODE@ = Derivational suffix
 %>  !!= * @CODE@ = border before inflection suffix
  #  !! The hash mark = Word boundary for both lexicalised and dynamic compounds
@@ -340,12 +339,16 @@ p:0 <=> Vow: ([l|m|n|r]) p _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r|n) (e
 
 "Gradation p:v"
 !! __@RULENAME@__
- p:v <=> Vow: _ Vow: (Cns:) Dummy:* ([:i|e:0]) Dummy:* %^WG:0 ;
-          [r|l] _ [e|a] %^WG:0 ;
+p:v <=> Vow: _ Vow:      Dummy:* ([:i|e:0]) Dummy:* %^WG:0 ; ! papu:pavun
+        Vow: _ Vow: Cns: Dummy:*            Dummy:* %^WG:0 ; ! taipal:taival
+       [r|l] _ [e|a] %^WG:0 ;
 
 "Gradation mp:mm"
 !! __@RULENAME@__
 p:m <=> Vow: m _  Vow: (Dummy:) (:i) (Dummy:) %^WG:0 ;
+
+!!€ kilpe^WG>n
+!!€ kilve0>n
 
 !!€ ranka^WG>n
 !!€ ranga0>n
@@ -493,7 +496,8 @@ t:0 <=> Vow: ([l|m|n|r]) [t|t:0] _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r
 
 "Gradation Nt:NN in first syllable after short vowel"
 !! __@RULENAME@__
-t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow (Cns) ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+         [.#.|#] Cns* Vow Nx _ :Vow Cns ([Dummy: - %^E2I:0])           ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
     where Nx in ( l n r ) ;
 ! TODO TODO TODO for both these rules, maybe the dummy should be after the ^WG. Usually our rule is: ^WG^AO...
 
@@ -551,7 +555,8 @@ o:u <=> v u _ t:0 e %^Var: %^WG: %^UU: %> t ; ! savvuhuonet
 "Gradation t:đ"
 !! __@RULENAME@__
  t:đ <=> h _ Vow: (Cns) (Dummy:)                           (:i) (Dummy:)                           %^WG:0 ;
-     Vow _ Vow: (Cns) [Dummy: - [%^E2I:|%^Jok:|%^Var:]]* (:i) [Dummy: - [%^E2I:|%^Jok:|%^Var:]]* %^WG:0 ; ! TODO ^WG other tag order?
+       Vow _ Vow:     [Dummy: - [%^E2I:|%^Jok:|%^Var:]]* (:i) [Dummy: - [%^E2I:|%^Jok:|%^Var:]]* %^WG:0 ; ! TODO ^WG other tag order?
+       Vow _ Vow: Cns [Dummy: - [%^E2I:|%^Jok:|%^Var:]]*      [Dummy: - [%^E2I:|%^Jok:|%^Var:]]* %^WG:0 ; ! TODO ^WG other tag order?
 !                           0+ Dummy: paitsi E2I tai -Por          0+ Dummy: paitsi E2I tai -Por! TODO lisää 1.kontekstiin?
 ! should not include ^Jok (uuen).
 ! When ^Jok it should go to the t:0 rule above instead
