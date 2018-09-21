@@ -159,8 +159,10 @@ LEXICON a_12_si	!!= * @CODE@ uusi. uussiin only por, always one s in Var
 +A+Dial/Var       :^Var^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n
 +A+Dial/Jok       :^Jok^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n
 +A+Dial/Var       :^E2I superl_m_odd ; ! No superl i? maybe e:0 and i5 would be more appropriate
-+A+Sg+Superl+Dial/-Por:^E2I%>i  nom_n ; ! uusiin
-+A+Sg+Superl+Dial/-Por:^E2I%>in par_tA ;
++A+Sg+Superl+Dial/Jok:^E2I%>i  nom_n ; ! uusiin
++A+Sg+Superl+Dial/Jok:^E2I%>in par_tA ;
++A+Sg+Superl+Dial/Var:^E2I%>i  nom_n ; ! uusiin
++A+Sg+Superl+Dial/Var:^E2I%>in par_tA ;
 
 LEXICON a_22 !!= * @CODE@ tyven
 +A                :e x_22 ;
@@ -571,7 +573,8 @@ LEXICON superl_mm
 
 LEXICON gen_mii/mitten
             +Dial/Por:%>i2%>i   gen_tten ;
-            +Dial/-Por:%>i2      gen_tten ;
+            +Dial/Jok:%>i2      gen_tten ;
+            +Dial/Var:%>i2      gen_tten ;
 
 LEXICON gen_mii/mmitten ! muuttumaton
             +Dial/Por:%>ii2     gen_tten ;
@@ -579,11 +582,13 @@ LEXICON gen_mii/mmitten ! muuttumaton
 
 LEXICON gen_mmii/mmitten ! muuttumaton
             +Dial/Por:m%>i2%>i  gen_tten ;
-            +Dial/-Por:m%>i2     gen_tten ; ! muuttumattomammitten
+            +Dial/Jok:m%>i2     gen_tten ; ! muuttumattomammitten
+            +Dial/Var:m%>i2     gen_tten ; ! muuttumattomammitten
 
 LEXICON gen_mii/mitten_miin
             +Dial/Por:%>i2%>i   gen_tten ; ! onnettomiitten
-            +Dial/-Por:%>i2      gen_tten ; ! onnettomitten
+            +Dial/Jok:%>i2      gen_tten ; ! onnettomitten
+            +Dial/Var:%>i2      gen_tten ; ! onnettomitten
             +Dial/Por:%>i2%>i   gen_n    ; ! onnettomiin
 
 
@@ -591,18 +596,21 @@ LEXICON gen_mii/mitten_miin
 
 LEXICON par_pA/A_group
             +Dial/Por:p^A   par_A   ; ! -mppää on por
-            +Dial/-Por:^A   par_A   ; ! ja -mpää on jok & var - Aili 29.8.17
+            +Dial/Jok:^A   par_A   ; ! ja -mpää on jok & var - Aili 29.8.17
+            +Dial/Var:^A   par_A   ; ! ja -mpää on jok & var - Aili 29.8.17
 
 
 LEXICON par_ppii_group
             +Dial/Por:pp%>i2%>i par_end  ;
             +Dial/Por:pp%>i2%>i par_tA   ;
-            +Dial/-Por:p%>i2     par_A    ;
+            +Dial/Jok:p%>i2     par_A    ;
+            +Dial/Var:p%>i2     par_A    ;
 
 LEXICON par_ii_group
             +Dial/Por:i%>i2     par_end  ; ! onnettomii
             +Dial/Por:i%>i2     par_tA   ; ! onnettomiita
-            +Dial/-Por:i2       par_A    ; ! onnettomia
+            +Dial/Jok:i2       par_A    ; ! onnettomia
+            +Dial/Var:i2       par_A    ; ! onnettomia
 
 LEXICON nom_mpi
             +Nom:%>mpi K ;
