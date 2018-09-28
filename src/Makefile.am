@@ -63,6 +63,24 @@ endif # CAN_FOMA
 #################################################
 #### Add language-specific build rules here: ####
 
+
+# We need to add processing of language-specific tags in the analysers:
+# ... so far only in the XEROX/FOMA disambiguation analyser
+analyser-disamb-gt-desc.%: analyser-disamb-gt-desc.tmp.% \
+					filters/remove-orig_lang-tags.%           \
+					filters/remove-dialect-tags.%             \
+					filters/remove-homonymy-tags.%           
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			    @\"filters/remove-dialect-tags.$*\"             \
+			.o. @\"filters/remove-homonymy-tags.$*\"           \
+			.o. @\"filters/remove-orig_lang-tags.$*\"           \
+			.o. @\"$<\"                                         \
+			;\n\
+		 $(INVERT_HFST)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
+
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
 ##################################################################
