@@ -126,17 +126,17 @@ Rules
         [.#.|#:] Cns:* Vow j _ :a (Dialects:0) %> :a ; ! for kuvvaa d. could be just %^Por:0
         [.#.|#:] Cns:* Vow j _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:* Vow j _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii !
-        [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :ä %> :ä  ; !Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
-        [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :a %> :a ;
-                               [l|r|n|m] j _ :Vow %>  i7: ;
-                               [l|r|n|m]  j _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
-                               [l|r|n|m] :j _ e: %^E2I:0 %> i2: %>   %^V: ;
-                               [l|r|n|m]  j _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
-                               [l|r|n|m] j _ :ö %> :ö ;
-                               [l|r|n|m] j _ :y %> :y ;
-                               [l|r|n|m] j _ :u %> :u ;
-                               [l|r|n|m] j _ :o %> :o ;
-                               [l|r|n|m] j _ :e %> :e ;
+        [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :ä (Dialects:) %> :ä  ; !Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+        [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :a (Dialects:) %> :a ;
+                               [l|r|n|m] j _ :Vow (Dialects:) %>  i7: ;
+                               [l|r|n|m]  j _ :i        (Dialects:)  %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                               [l|r|n|m] :j _ e:  (Dialects:) %^E2I:0 %> i2: %>   %^V: ;
+                               [l|r|n|m]  j _  i        (Dialects:)  %> i2: %> t %^A: ; ! meininkkiitä in Por
+                               [l|r|n|m] j _ :ö (Dialects:) %> :ö ;
+                               [l|r|n|m] j _ :y (Dialects:) %> :y ;
+                               [l|r|n|m] j _ :u (Dialects:) %> :u ;
+                               [l|r|n|m] j _ :o (Dialects:) %> :o ;
+                               [l|r|n|m] j _ :e (Dialects:) %> :e ;
 
 "Gemination 0:k"
 0:k <=> ([a|o]) [Vow|i6:] (Vow:) k _  :o (Dialects:0)  %^AO:0 %> [:i - i3:] (%> [n|t])     # ; ! aikkoi  ! never a:0
@@ -153,17 +153,18 @@ Rules
  [.#.|#:] Cns:* Vow:+      k _ u %> %^V:u  ;
  [.#.|#:] Cns:* Vow:+      k _ o %> :o ;
  [.#.|#:] Cns:* Vow:+      k _ e (Dialects:) %> :e ;
- [.#.|#:] Cns:* Vow:+ [l|r|n|m]  k _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
- [.#.|#:] Cns:* Vow:+ [l|r|n|m]  k _ :a %> :a ;
-                        [l|r|n|m]  k _ :Vow %>  i7: ;
-                        [l|r|n|m]  k _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
-                        [l|r|n|m] :k _ e: %^E2I:0 %> i2: %>   %^V: ;
-                        [l|r|n|m]  k _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
-                        [l|r|n|m]  k _ :ö %> :ö ;
-                        [l|r|n|m]  k _ :y %> :y ;
-                        [l|r|n|m]  k _ :u %> :u ;
-                        [l|r|n|m]  k _ :o %> :o ;
-                        [l|r|n|m]  k _ :e %> :e ;
+ [.#.|#:] Cns:* Vow:+ [l|r|n|m]  k _ :ä (Dialects:) %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+ [.#.|#:] Cns:* Vow:+ [l|r|n|m]  k _ :a (Dialects:) %> :a ;
+                        [l|r|n|m]  k _ :Vow (Dialects:) %>  i7: ;
+                        [l|r|n|m]  k _ :i   (Dialects:)       %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                        [l|r|n|m] :k _ e: (Dialects:) %^E2I:0 %> i2: %>   %^V: ;
+                        [l|r|n|m]  k _  i (Dialects:)         %> i2: %> t %^A: ; ! meininkkiitä in Por
+                        [l|r|n|m]  k _ :ö (Dialects:) %> :ö ;
+                        [l|r|n|m]  k _ :y (Dialects:) %> :y ;
+                        [l|r|n|m]  k _ :u (Dialects:) %> :u ;
+                        [l|r|n|m]  k _ :o (Dialects:) %> :o ;
+                        [l|r|n|m]  k _ :e (Dialects:) %> :e ;
+                        [l|r|n|m]  k _ :a (Dialects:) %> :a ;
 
 "Gemination 0:l"
 0:l <=> [.#.|#:] Cns:* Vow l _ ä %> :ä ;
