@@ -275,7 +275,7 @@ Rules
  [.#.|#:] Cns:* Vow:+           t _ u %> %^V:u  ;
  [.#.|#:] Cns:* Vow:+           t _ o %> :o ;
  [.#.|#:] Cns:* Vow:+           t _ e (Dialects:) %> :e ;
- [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] t _ :a %> :a ;
+ [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] t _ :a (Dialects:) %> :a  ;
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] t _ :ä %> :ä  ; ! Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
                         [l|r|n|m] t _ :ö %> :ö ;
                         [l|r|n|m] t _ :y %> :y ;
