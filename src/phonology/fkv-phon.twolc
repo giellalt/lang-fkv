@@ -213,7 +213,7 @@ Rules
  [.#.|#:] Cns:* Vow:+ p _ o %> :o ;
  [.#.|#:] Cns:* Vow:+ p _ e (Dialects:) %> :e ;
  [.#.|#:] Cns:* Vow:+ [l|r|n|m] p _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
- [.#.|#:] Cns:+ Vow:+ [l|r|n|m] p _ :a %> :a ;
+ [.#.|#:] Cns:* Vow:+ [l|r|n|m]  p _ :a (Dialects:) %> :a ;
                       [l|r|n|m] p _ :Vow %>  i7: ;
                       [l|r|n|m] p _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                       [l|r|n|m] :p _ e: %^E2I:0 %> i2: %>   %^V: ;
