@@ -369,45 +369,45 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+Inf3:%>m^A MATONodd ;
 
 LEXICON v2_ta_odd !!= @CODE@ kumarttaat
-+V+Inf:ta%>^Vt K ;        ! kveenin inf valmistuut
-+V+Inf+Err/Orth:ta%>^A K ; ! suomalainen inf valmistua
-+V+Act+Ind+Prs:ta^WG v12pers_long ;
-+V+Act+Ind+Prt:ta^WG%>i3 v12pers_long ;
-+V+Act+Ind+Prs+Sg3:ta%>^V K ;
-+V+Act+Ind+Prs+Pl3:ta^WG^AE%>th^A^An K ;
-+V+Act+Ind+Prt+Sg3:ta%>i3 K ;
-+V+Act+Ind+Prt+Pl3+Dial/Por:ta^WG^AE%>thiin K ;
++V+Inf:t^A%>^Vt K ;        ! kveenin inf valmistuut
++V+Inf+Err/Orth:t^A%>^A K ; ! suomalainen inf valmistua
++V+Act+Ind+Prs:t^A^WG v12pers_long ;
++V+Act+Ind+Prt:t^A^WG%>i3 v12pers_long ;
++V+Act+Ind+Prs+Sg3:t^A%>^V K ;
++V+Act+Ind+Prs+Pl3:t^A^WG^AE%>th^A^An K ;
++V+Act+Ind+Prt+Sg3:t^A%>i3 K ;
++V+Act+Ind+Prt+Pl3+Dial/Por:t^A^WG^AE%>thiin K ;
 +V+Act+Ind+Prt+Pl3+Dial/Jok:si^WG%>vat K ; !Aili: new form
 +V+Act+Ind+Prt+Pl3+Dial/Var:si^WG%>vat K ; !Aili: new form
-!+V+Act+PrfPrc+Sg+Nom:ta%>^N^U K ;
-+V+Act+PrfPrc+Sg+Nom:ta%>nn^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:ta%>nn^U K ;
-+V+Pass+PrfPrc+Nom:ta^WG^AE%>tt^U K ;
-!+V+Act+PrfPrc:ta%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:ta%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:ta%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:ta%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:ta^WG^AE%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:ta^WG^AE%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:ta^WG K ;
+!+V+Act+PrfPrc+Sg+Nom:t^A%>^N^U K ;
++V+Act+PrfPrc+Sg+Nom:t^A%>nn^U K ;
++V+Act+Ind+Prt+ConNeg+Sg:t^A%>nn^U K ;
++V+Pass+PrfPrc+Nom:t^A^WG^AE%>tt^U K ;
+!+V+Act+PrfPrc:t^A%>^Nhee PRFPRC_OBL ;
++V+Act+PrfPrc:t^A%>^N PRFPRC_OBL ;
++V+Act+PrsPrc+Sg+Nom:t^A%>^V%>v^A K ;
++V+Act+PrsPrc+Pl+Nom:t^A%>^V%>v^At K ;
++V+Pass+PrsPrc+Sg+Nom:t^A^WG^AE%>tt^A%>v^A K ;
++V+Pass+PrsPrc+Pl+Nom:t^A^WG^AE%>tt^A%>v^At K ;
++V+Act+Ind+Prs+ConNeg:t^A^WG K ;
 
-+V+Act+Cond+Sg1:ta%>i4sin K ; ! kirjoittaisin
-+V+Act+Cond+Sg2:ta%>i4sit K ;
-+V+Act+Cond+Sg3:ta%>i4s K ;
-+V+Act+Cond+Pl1:ta%>i4sim^A K ;
-+V+Act+Cond+Pl2:ta%>i4sitt^A K ;
-+V+Act+Cond+Pl3:ta^WG^AE%>tt^A%>i4s K ;
-+V+Pass+Cond:ta^WG^AE%>tt^A%>i4s K ;
++V+Act+Cond+Sg1:t^A%>i4sin K ; ! kirjoittaisin
++V+Act+Cond+Sg2:t^A%>i4sit K ;
++V+Act+Cond+Sg3:t^A%>i4s K ;
++V+Act+Cond+Pl1:t^A%>i4sim^A K ;
++V+Act+Cond+Pl2:t^A%>i4sitt^A K ;
++V+Act+Cond+Pl3:t^A^WG^AE%>tt^A%>i4s K ;
++V+Pass+Cond:t^A^WG^AE%>tt^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:ta^WG K   ;
-+V+Act+Imprt+Pl2:ta%>kk^A^A K ;
++V+Act+Imprt+Sg2:t^A^WG K   ;
++V+Act+Imprt+Pl2:t^A%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:ta%>m^Ass^A K ;
-+V+Act+Inf3+Ela:ta%>m^Ast^A K ;
-+V+Act+Inf3+Ill:ta%>mh^A^An K ;
-+V+Act+Inf3+Ade:ta%>m^Al^A K ;
-+V+Act+Inf3+Abe:ta%>m^Att^A K ;
-+V+Act+Inf3:ta%>m^A MATONodd ;
++V+Act+Inf3+Ine:t^A%>m^Ass^A K ;
++V+Act+Inf3+Ela:t^A%>m^Ast^A K ;
++V+Act+Inf3+Ill:t^A%>mh^A^An K ;
++V+Act+Inf3+Ade:t^A%>m^Al^A K ;
++V+Act+Inf3+Abe:t^A%>m^Att^A K ;
++V+Act+Inf3:t^A%>m^A MATONodd ;
 
 
 
