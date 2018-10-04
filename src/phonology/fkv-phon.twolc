@@ -298,17 +298,17 @@ Rules
         [.#.|#:] Cns:*  Vow v _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:*  Vow v _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
         [.#.|#:] Cns:*  Vow v _  ä:  (Dialects:) %> :i %> i ; ! jyvä jyvviin
-        [.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :ä (Dialects:) %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
-        [.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :a (Dialects:) %> :a ;
-                                [l|r|n|m] v _ :Vow %>  i7: (Dialects:);
-                                [l|r|n|m]  v _ :i (Dialects:)        %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
-                                [l|r|n|m] :v _ e: (Dialects:) %^E2I:0 %> i2: %>   %^V: ;
-                                [l|r|n|m]  v _  i         %> i2: (Dialects:) %> t %^A: ; ! meininkkiitä in Por
-                                [l|r|n|m] v _ :ö (Dialects:) %> :ö ;
-                                [l|r|n|m] v _ :y (Dialects:) %> :y ;
-                                [l|r|n|m] v _ :u (Dialects:) %> :u ;
-                                [l|r|n|m] v _ :o (Dialects:) %> :o ;
-                                [l|r|n|m] v _ :e (Dialects:) %> :e ;
+        [.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+        [.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :a %> :a ;
+                                [l|r|n|m] v _ :Vow %>  i7: ;
+                                [l|r|n|m]  v _ :i       %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                                [l|r|n|m] :v _ e: %^E2I:0 %> i2: %>   %^V: ;
+                                [l|r|n|m]  v _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
+                                [l|r|n|m] v _ :ö %> :ö ;
+                                [l|r|n|m] v _ :y %> :y ;
+                                [l|r|n|m] v _ :u %> :u ;
+                                [l|r|n|m] v _ :o %> :o ;
+                                [l|r|n|m] v _ :e %> :e ;
 
 
 
