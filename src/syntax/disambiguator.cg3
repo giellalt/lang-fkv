@@ -348,5 +348,20 @@ LIST WORDLEMMA = (".*"r) ; #!! * WORDLEMMA = regex giving the lemma in question
 #!! * __errorth__ removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 REMOVE:errorth $$WORDLEMMA + (Err/Orth) (0 $$WORDLEMMA - (Err/Orth) ) ; #Removes Err/Orth analysis when there is an analysis with same lemma without Err/Orth
 
+AFTER-SECTIONS              #
 
-AFTER-SECTIONS
+
+SUBSTITUTE (A) (A <fkv>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (N) (N <fkv>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Adv) (Adv <fkv>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (V) (V <fkv>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Num) (Num <fkv>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Interj) (Interj <fkv>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Po) (Po <fkv>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pr) (Pr <fkv>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pron) (Pron <fkv>) WORD ; #RemoveFromApertium
+SUBSTITUTE (CC) (CC <fkv>) WORD ; #RemoveFromApertium
+SUBSTITUTE (CS) (CS <fkv>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pcle) (Pcle <fkv>) WORD ; #RemoveFromApertium
+
+
