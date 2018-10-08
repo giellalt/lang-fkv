@@ -661,7 +661,7 @@ LEXICON NUM_ENSIMMÄINEN
 0:s     NUM_FRONT_GENITIVE_IEN   ;
 0:s     NUM_FRONT_ILLATIVE_IIN   ;
 0:s     NUM_FRONT_PLURALS ;
-+Der/s:s    R ;
++Der+Der/s:s    R ; !new PoS is missing
 
 LEXICON NUM_TOINEN
 !!€gt-norm: Numerals 38 back
@@ -685,7 +685,7 @@ LEXICON NUM_TOINEN
 0:s     NUM_BACK_GENITIVE_IEN   ;
 0:s     NUM_BACK_ILLATIVE_IIN   ;
 0:s     NUM_BACK_PLURALS ;
-+Der/s:s    R ;
++Der+Der/s:s    R ; !new PoS is missing
 
 LEXICON NUM_KOLMAS
 !!€gt-norm: Numerals 45
