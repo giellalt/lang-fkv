@@ -294,7 +294,7 @@ Rules
         [.#.|#:] Cns:*  Vow v _ y %> :y ;
         [.#.|#:] Cns:*  Vow v _ u %> :u ;
         [.#.|#:] Cns:*  Vow v _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
-        [.#.|#:] Cns:*  Vow v _ e %> :e (Dialects:) ;
+        [.#.|#:] Cns:*  Vow v _ e (Dialects:) %> :e ;
         [.#.|#:] Cns:*  Vow v _ :a (Dialects:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:*  Vow v _ (e:) (Dialects:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:*  Vow v _  a:i (Dialects:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
