@@ -250,13 +250,13 @@ valvvoot:valvo v2 ; ! XXX vai valvoot?
 ulvvoot:ulvo v2 ; ! XXX vai ulvoot?
 sauvoot:sauvo v2 ;
 neuvoot:neuvo v2 ;
-happanuttaat:happanut v2 ;
+happanuttaat:happanutta v2_odd ;
 kuttuut:kutt2u v2 ;
 kiehuut:kiehu v2 ;
 kuohuut:kuohu v2 ;
 touhuut:touhu v2 ;
 puhhuut:puhu v2 ;
-kaikkuut:kaiju v2 ;
+kaikkuut:kaiku v2 ;
 keijuut:keiju v2 ;
 suijjuut:suijju v2 ;
 kiljjuut:kilju v2 ; ! XXX vai kiljuut???
@@ -423,7 +423,7 @@ päättäät:päättä v2 ;
 syöttäät:syöttä v2 ;
 pyyttäät:pyytä v2 ;
 löyttäät:löytä v2 ;
-aivastuttaat:aivastut v2 ;
+aivastuttaat:aivastutta v2_odd ;
 siittäät:siittä v2 ;
 hirttäät:hirttä v2 ;
 kestäät:kestä v2 ;
@@ -447,232 +447,232 @@ langettaat:langetta v2_odd ;
 lahjoittaat:lahjoitta v2_odd ;
 osoittaat:osoitta v2_odd ;
 laikottaat:laikotta v2_odd ;
-kiehahtaat:kiehah v2_ta_odd ;
-nukahtaat:nukah v2_ta_odd ;
-armahtaat:armah v2_ta_odd ;
-seisahtaat:seisah v2_ta_odd ;
+kiehahtaat:kiehahta v2_odd ; ! v2_ta_odd 
+nukahtaat:nukahta v2_odd ; ! v2_ta_odd 
+armahtaat:armahta v2_odd ; ! v2_ta_odd 
+seisahtaat:seisahta v2_odd ; ! v2_ta_odd 
 märehtiit:märehti v2_odd ;
 kađehtiit:kađehti v2_odd ;
 purjettiit:purjetti v2_odd ;
 murettiit:muretti v2_odd ;
 vaatettiit:vaatetti v2_odd ;
-puhalttaat:puhal v2_ta_odd ;
-uskalttaat:uskal v2_ta_odd ;
-vajelttaat:vajel v2_ta_odd ;
-paskanttaat:paskan v2_ta_odd ;
-paranttaat:paran v2_ta_odd ;
-kustanttaat:kustan v2_ta_odd ;
-pahenttaat:pahen v2_ta_odd ;
-ohenttaat:ohen v2_ta_odd ;
-laajenttaat:laajen v2_ta_odd ;
-vaijenttaat:vaijen v2_ta_odd ;
-ojenttaat:ojen v2_ta_odd ;
-rakenttaat:raken v2_ta_odd ;
-paimenttaat:paimen v2_ta_odd ;
-komenttaat:komen v2_ta_odd ;
-oksenttaat:oksen v2_ta_odd ;
-vahventtaat:vahven v2_ta_odd ;
-isonttaat:ison v2_ta_odd ;
-kumarttaat:kumar v2_ta_odd ;
-rangastaat:rangas v2_ta_odd ;
-hengastaat:hengas v2_ta_odd ;
-kajastaat:kajas v2_ta_odd ;
-paljastaat:paljas v2_ta_odd ;
-rakastaat:rakas v2_ta_odd ;
-henkastaat:henkas v2_ta_odd ;
-rinkastaat:rinkas v2_ta_odd ;
-rokastaat:rokas v2_ta_odd ;
-kalastaat:kalas v2_ta_odd ;
-mellastaat:mellas v2_ta_odd ;
-summastaat:summas v2_ta_odd ;
-lunastaat:lunas v2_ta_odd ;
-opastaat:opas v2_ta_odd ;
-varastaat:varas v2_ta_odd ;
-kurastaat:kuras v2_ta_odd ;
-rattastaat:rattas v2_ta_odd ;
-olestaat:oles v2_ta_odd ;
-oikaistaat:oikais v2_ta_odd ;
-yksinkertaistaat:yksinkertais v2_ta_odd ;
-kallistaat:kallis v2_ta_odd ;
-valmistaat:valmis v2_ta_odd ;
-lommistaat:lommis v2_ta_odd ;
-omistaat:omis v2_ta_odd ;
-komistaat:komis v2_ta_odd ;
-unistaat:unis v2_ta_odd ;
-kopistaat:kopis v2_ta_odd ;
-kaaristaat:kaaris v2_ta_odd ;
-karistaat:karis v2_ta_odd ;
-koristaat:koris v2_ta_odd ;
-puristaat:puris v2_ta_odd ;
-vesistäät:vesis v2_odd ;
-aavistaat:aavis v2_ta_odd ;
-ravistaat:ravis v2_ta_odd ;
-vahvistaat:vahvis v2_ta_odd ;
-polvistaat:polvis v2_ta_odd ;
-ahđistaat:ahđis v2_ta_odd ;
-puhđistaat:puhđis v2_ta_odd ;
-puđistaat:puđis v2_ta_odd ;
-uuđistaat:uuđis v2_ta_odd ;
-ukkostaat:ukkos v2_ta_odd ;
-hiilostaat:hiilos v2_ta_odd ;
-kuulostaat:kuulos v2_ta_odd ;
-sanostaat:sanos v2_ta_odd ;
-painostaat:painos v2_ta_odd ;
-kattostaat:kattos v2_ta_odd ;
-tuohustaat:tuohus v2_ta_odd ;
-matkustaat:matkus v2_ta_odd ;
-vilustaat:vilus v2_ta_odd ;
-puolustaat:puolus v2_ta_odd ;
-haamustaat:haamus v2_ta_odd ;
-priimustaat:priimus v2_ta_odd ;
-ennustaat:ennus v2_ta_odd ;
-sonnustaat:sonnus v2_ta_odd ;
-tunnustaat:tunnus v2_ta_odd ;
-perustaat:perus v2_ta_odd ;
-piirustaat:piirus v2_ta_odd ;
-kuorustaat:kuorus v2_ta_odd ;
-vastustaat:vastus v2_ta_odd ;
-mavustaat:mavus v2_ta_odd ;
-savvustaat:savvus v2_ta_odd ;
-kiehattaat:kiehat v2_ta_odd ;
-tiphattaat:tiphat v2_ta_odd ;
-vipshattaat:vipshat v2_ta_odd ;
-ajattaat:ajat v2_ta_odd ;
-pujattaat:pujat v2_ta_odd ;
-paukattaat:paukat v2_ta_odd ;
-nukattaat:nukat v2_ta_odd ;
-ailattaat:ailat v2_ta_odd ;
-rallattaat:rallat v2_ta_odd ;
-sullattaat:sullat v2_ta_odd ;
-sulattaat:sulat v2_ta_odd ;
-armattaat:armat v2_ta_odd ;
-kannattaat:kannat v2_ta_odd ;
-hirnattaat:hirnat v2_ta_odd ;
-livattaat:livat v2_ta_odd ;
-kuivattaat:kuivat v2_ta_odd ;
-unheettaat:unheet v2_ta_odd ;
-unheettaat:unheet v2_ta_odd ;
-vaihettaat:vaihet v2_ta_odd ;
-unhettaat:unhet v2_ta_odd ;
-kuljettaat:kuljet v2_ta_odd ;
-pujettaat:pujet v2_ta_odd ;
-koskettaat:kosket v2_ta_odd ;
-panettaat:panet v2_ta_odd ;
-opettaat:opet v2_ta_odd ;
-lopettaat:lopet v2_ta_odd ;
-oksettaat:okset v2_ta_odd ;
-ojittaat:ojit v2_ta_odd ;
-valittaat:valit v2_ta_odd ;
-toimittaat:toimit v2_ta_odd ;
-lumittaat:lumit v2_ta_odd ;
-painittaat:painit v2_ta_odd ;
-sonnittaat:sonnit v2_ta_odd ;
-kehoittaat:kehoit v2_ta_odd ;
-rauhoittaat:rauhoit v2_ta_odd ;
-hajoittaat:hajoit v2_ta_odd ;
-rajoittaat:rajoit v2_ta_odd ;
-harjoittaat:harjoit v2_ta_odd ;
-kirjoittaat:kirjoit v2_ta_odd ;
-allekirjoittaat:alle#kirjoit v2_ta_odd ;
-pakoittaat:pakoit v2_ta_odd ;
-sekoittaat:sekoit v2_ta_odd ;
-tarkoittaat:tarkoit v2_ta_odd ;
-aloittaat:aloit v2_ta_odd ;
-ilmoittaat:ilmoit v2_ta_odd ;
-teroittaat:teroit v2_ta_odd ;
-koroittaat:koroit v2_ta_odd ;
-haavoittaat:haavoit v2_ta_odd ;
-ehđoittaat:ehđoit v2_odd ;
-rauđoittaat:rauđoit v2_odd ;
-kaupittaat:kaupit v2_ta_odd ;
-kuorittaat:kuorit v2_ta_odd ;
-kurittaat:kurit v2_ta_odd ;
-esittäät:esitä v2_odd ;
-vesittäät:vesit v2_odd ;
-huvittaat:huvit v2_ta_odd ;
-mistanttaat:mistant v2_ta_odd ;
-raottaat:raot v2_ta_odd ;
-lihottaat:lihot v2_ta_odd ;
-kohottaat:kohot v2_ta_odd ;
-rauhottaat:rauhot v2_ta_odd ;
-liottaat:liot v2_ta_odd ;
-hajottaat:hajot v2_ta_odd ;
-rajottaat:rajot v2_ta_odd ;
-vajottaat:vajot v2_ta_odd ;
-lahjottaat:lahjot v2_ta_odd ;
-tuijottaat:tuijot v2_ta_odd ;
-harjottaat:harjot v2_ta_odd ;
-kirjottaat:kirjot v2_ta_odd ;
-pakottaat:pakot v2_ta_odd ;
-sekottaat:sekot v2_ta_odd ;
-tarkottaat:tarkot v2_ta_odd ;
-pirskottaat:pirskot v2_ta_odd ;
-laukottaat:laukot v2_ta_odd ;
-alottaat:alot v2_ta_odd ;
-nilottaat:nilot v2_ta_odd ;
-ilmottaat:ilmot v2_ta_odd ;
-janottaat:janot v2_ta_odd ;
-jannottaat:jannot v2_ta_odd ;
-vannottaat:vannot v2_ta_odd ;
-paapottaat:paapot v2_ta_odd ;
-helpottaat:helpot v2_ta_odd ;
-upottaat:upot v2_ta_odd ;
-varottaat:varot v2_ta_odd ;
-erottaat:erot v2_ta_odd ;
-terottaat:terot v2_ta_odd ;
-verottaat:verot v2_ta_odd ;
-vistottaat:vistot v2_ta_odd ;
-ravottaat:ravot v2_ta_odd ;
-livottaat:livot v2_ta_odd ;
-karvottaat:karvot v2_ta_odd ;
-hieđottaat:hieđot v2_ta_odd ;
-ehđottaat:ehđot v2_ta_odd ;
-ođottaat:ođot v2_ta_odd ;
-rauđottaat:rauđot v2_ta_odd ;
-puđottaat:puđot v2_ta_odd ;
-vaphauttaat:vaphaut v2_ta_odd ;
-laihuttaat:laihut v2_ta_odd ;
-suijuttaat:suijut v2_ta_odd ;
-vaikuttaat:vaikut v2_ta_odd ;
-keikuttaat:keikut v2_ta_odd ;
-liikuttaat:liikut v2_ta_odd ;
-arkuttaat:arkut v2_ta_odd ;
-heiskuttaat:heiskut v2_ta_odd ;
-huiskuttaat:huiskut v2_ta_odd ;
-truiskuttaat:truiskut v2_ta_odd ;
-tuiskuttaat:tuiskut v2_ta_odd ;
-viskuttaat:viskut v2_ta_odd ;
-tiuskuttaat:tiuskut v2_ta_odd ;
-kutkuttaat:kutkut v2_ta_odd ;
-hukuttaat:hukut v2_ta_odd ;
-lukuttaat:lukut v2_ta_odd ;
-nukuttaat:nukut v2_ta_odd ;
-taluttaat:talut v2_ta_odd ;
-heiluttaat:heilut v2_ta_odd ;
-kuluttaat:kulut v2_ta_odd ;
-kouluttaat:koulut v2_ta_odd ;
-sammuttaat:sammut v2_ta_odd ;
-paranuttaat:paranut v2_ta_odd ;
-vanuttaat:vanut v2_ta_odd ;
-taputtaat:taput v2_ta_odd ;
-tiputtaat:tiput v2_ta_odd ;
-hoputtaat:hoput v2_ta_odd ;
-koputtaat:koput v2_ta_odd ;
-viruttaat:virut v2_ta_odd ;
-paisuttaat:paisut v2_ta_odd ;
-ođotatuttaat:ođotatut v2_ta_odd ;
-tartuttaat:tartut v2_ta_odd ;
-istuttaat:istut v2_ta_odd ;
-muistuttaat:muistut v2_ta_odd ;
-kassuuttaat:kassuut v2_ta_odd ;
-taivuttaat:taivut v2_ta_odd ;
-luovuttaat:luovut v2_ta_odd ;
-mahđuttaat:mahđut v2_ta_odd ;
-lohđuttaat:lohđut v2_ta_odd ;
-häämöttäät:häämöttä v2_ta_odd ;
+puhalttaat:puhalta v2_odd ; ! v2_ta_odd 
+uskalttaat:uskalta v2_odd ; ! v2_ta_odd 
+vajelttaat:vajelta v2_odd ; ! v2_ta_odd 
+paskanttaat:paskanta v2_odd ; ! v2_ta_odd 
+paranttaat:paranta v2_odd ; ! v2_ta_odd 
+kustanttaat:kustanta v2_odd ; ! v2_ta_odd 
+pahenttaat:pahenta v2_odd ; ! v2_ta_odd 
+ohenttaat:ohenta v2_odd ; ! v2_ta_odd 
+laajenttaat:laajenta v2_odd ; ! v2_ta_odd 
+vaijenttaat:vaijenta v2_odd ; ! v2_ta_odd 
+ojenttaat:ojenta v2_odd ; ! v2_ta_odd 
+rakenttaat:rakenta v2_odd ; ! v2_ta_odd 
+paimenttaat:paimenta v2_odd ; ! v2_ta_odd 
+komenttaat:komenta v2_odd ; ! v2_ta_odd 
+oksenttaat:oksenta v2_odd ; ! v2_ta_odd 
+vahventtaat:vahventa v2_odd ; ! v2_ta_odd 
+isonttaat:isonta v2_odd ; ! v2_ta_odd 
+kumarttaat:kumarta v2_odd ; ! v2_ta_odd 
+rangastaat:rangasta v2_odd ; ! v2_ta_odd 
+hengastaat:hengasta v2_odd ; ! v2_ta_odd 
+kajastaat:kajasta v2_odd ; ! v2_ta_odd 
+paljastaat:paljasta v2_odd ; ! v2_ta_odd 
+rakastaat:rakasta v2_odd ; ! v2_ta_odd 
+henkastaat:henkasta v2_odd ; ! v2_ta_odd 
+rinkastaat:rinkasta v2_odd ; ! v2_ta_odd 
+rokastaat:rokasta v2_odd ; ! v2_ta_odd 
+kalastaat:kalasta v2_odd ; ! v2_ta_odd 
+mellastaat:mellasta v2_odd ; ! v2_ta_odd 
+summastaat:summasta v2_odd ; ! v2_ta_odd 
+lunastaat:lunasta v2_odd ; ! v2_ta_odd 
+opastaat:opasta v2_odd ; ! v2_ta_odd 
+varastaat:varasta v2_odd ; ! v2_ta_odd 
+kurastaat:kurasta v2_odd ; ! v2_ta_odd 
+rattastaat:rattasta v2_odd ; ! v2_ta_odd 
+olestaat:olesta v2_odd ; ! v2_ta_odd 
+oikaistaat:oikaista v2_odd ; ! v2_ta_odd 
+yksinkertaistaat:yksinkertaista v2_odd ; ! v2_ta_odd 
+kallistaat:kallista v2_odd ; ! v2_ta_odd 
+valmistaat:valmista v2_odd ; ! v2_ta_odd 
+lommistaat:lommista v2_odd ; ! v2_ta_odd 
+omistaat:omista v2_odd ; ! v2_ta_odd 
+komistaat:komista v2_odd ; ! v2_ta_odd 
+unistaat:unista v2_odd ; ! v2_ta_odd 
+kopistaat:kopista v2_odd ; ! v2_ta_odd 
+kaaristaat:kaarista v2_odd ; ! v2_ta_odd 
+karistaat:karista v2_odd ; ! v2_ta_odd 
+koristaat:korista v2_odd ; ! v2_ta_odd 
+puristaat:purista v2_odd ; ! v2_ta_odd 
+vesistäät:vesistæ v2_odd ;
+aavistaat:aavista v2_odd ; ! v2_ta_odd 
+ravistaat:ravista v2_odd ; ! v2_ta_odd 
+vahvistaat:vahvista v2_odd ; ! v2_ta_odd 
+polvistaat:polvista v2_odd ; ! v2_ta_odd 
+ahđistaat:ahđista v2_odd ; ! v2_ta_odd 
+puhđistaat:puhđista v2_odd ; ! v2_ta_odd 
+puđistaat:puđista v2_odd ; ! v2_ta_odd 
+uuđistaat:uuđista v2_odd ; ! v2_ta_odd 
+ukkostaat:ukkosta v2_odd ; ! v2_ta_odd 
+hiilostaat:hiilosta v2_odd ; ! v2_ta_odd 
+kuulostaat:kuulosta v2_odd ; ! v2_ta_odd 
+sanostaat:sanosta v2_odd ; ! v2_ta_odd 
+painostaat:painosta v2_odd ; ! v2_ta_odd 
+kattostaat:kattosta v2_odd ; ! v2_ta_odd 
+tuohustaat:tuohusta v2_odd ; ! v2_ta_odd 
+matkustaat:matkusta v2_odd ; ! v2_ta_odd 
+vilustaat:vilusta v2_odd ; ! v2_ta_odd 
+puolustaat:puolusta v2_odd ; ! v2_ta_odd 
+haamustaat:haamusta v2_odd ; ! v2_ta_odd 
+priimustaat:priimusta v2_odd ; ! v2_ta_odd 
+ennustaat:ennusta v2_odd ; ! v2_ta_odd 
+sonnustaat:sonnusta v2_odd ; ! v2_ta_odd 
+tunnustaat:tunnusta v2_odd ; ! v2_ta_odd 
+perustaat:perusta v2_odd ; ! v2_ta_odd 
+piirustaat:piirusta v2_odd ; ! v2_ta_odd 
+kuorustaat:kuorusta v2_odd ; ! v2_ta_odd 
+vastustaat:vastusta v2_odd ; ! v2_ta_odd 
+mavustaat:mavusta v2_odd ; ! v2_ta_odd 
+savvustaat:savvusta v2_odd ; ! v2_ta_odd 
+kiehattaat:kiehatta v2_odd ; ! v2_ta_odd 
+tiphattaat:tiphatta v2_odd ; ! v2_ta_odd 
+vipshattaat:vipshatta v2_odd ; ! v2_ta_odd 
+ajattaat:ajatta v2_odd ; ! v2_ta_odd 
+pujattaat:pujatta v2_odd ; ! v2_ta_odd 
+paukattaat:paukatta v2_odd ; ! v2_ta_odd 
+nukattaat:nukatta v2_odd ; ! v2_ta_odd 
+ailattaat:ailatta v2_odd ; ! v2_ta_odd 
+rallattaat:rallatta v2_odd ; ! v2_ta_odd 
+sullattaat:sullatta v2_odd ; ! v2_ta_odd 
+sulattaat:sulatta v2_odd ; ! v2_ta_odd 
+armattaat:armatta v2_odd ; ! v2_ta_odd 
+kannattaat:kannatta v2_odd ; ! v2_ta_odd 
+hirnattaat:hirnatta v2_odd ; ! v2_ta_odd 
+livattaat:livatta v2_odd ; ! v2_ta_odd 
+kuivattaat:kuivatta v2_odd ; ! v2_ta_odd 
+unheettaat:unheetta v2_odd ; ! v2_ta_odd 
+unheettaat:unheetta v2_odd ; ! v2_ta_odd 
+vaihettaat:vaihetta v2_odd ; ! v2_ta_odd 
+unhettaat:unhetta v2_odd ; ! v2_ta_odd 
+kuljettaat:kuljetta v2_odd ; ! v2_ta_odd 
+pujettaat:pujetta v2_odd ; ! v2_ta_odd 
+koskettaat:kosketta v2_odd ; ! v2_ta_odd 
+panettaat:panetta v2_odd ; ! v2_ta_odd 
+opettaat:opetta v2_odd ; ! v2_ta_odd 
+lopettaat:lopetta v2_odd ; ! v2_ta_odd 
+oksettaat:oksetta v2_odd ; ! v2_ta_odd 
+ojittaat:ojitta v2_odd ; ! v2_ta_odd 
+valittaat:valitta v2_odd ; ! v2_ta_odd 
+toimittaat:toimitta v2_odd ; ! v2_ta_odd 
+lumittaat:lumitta v2_odd ; ! v2_ta_odd 
+painittaat:painitta v2_odd ; ! v2_ta_odd 
+sonnittaat:sonnitta v2_odd ; ! v2_ta_odd 
+kehoittaat:kehoitta v2_odd ; ! v2_ta_odd 
+rauhoittaat:rauhoitta v2_odd ; ! v2_ta_odd 
+hajoittaat:hajoitta v2_odd ; ! v2_ta_odd 
+rajoittaat:rajoitta v2_odd ; ! v2_ta_odd 
+harjoittaat:harjoitta v2_odd ; ! v2_ta_odd 
+kirjoittaat:kirjoitta v2_odd ; ! v2_ta_odd 
+allekirjoittaat:alle#kirjoitta v2_odd ; ! v2_ta_odd 
+pakoittaat:pakoitta v2_odd ; ! v2_ta_odd 
+sekoittaat:sekoitta v2_odd ; ! v2_ta_odd 
+tarkoittaat:tarkoitta v2_odd ; ! v2_ta_odd 
+aloittaat:aloitta v2_odd ; ! v2_ta_odd 
+ilmoittaat:ilmoitta v2_odd ; ! v2_ta_odd 
+teroittaat:teroitta v2_odd ; ! v2_ta_odd 
+koroittaat:koroitta v2_odd ; ! v2_ta_odd 
+haavoittaat:haavoitta v2_odd ; ! v2_ta_odd 
+ehđoittaat:ehđoitta v2_odd ;
+rauđoittaat:rauđoitta v2_odd ;
+kaupittaat:kaupitta v2_odd ; ! v2_ta_odd 
+kuorittaat:kuoritta v2_odd ; ! v2_ta_odd 
+kurittaat:kuritta v2_odd ; ! v2_ta_odd 
+esittäät:esittä v2_odd ;
+vesittäät:vesittä v2_odd ;
+huvittaat:huvitta v2_odd ; ! v2_ta_odd 
+mistanttaat:mistantta v2_odd ; ! v2_ta_odd 
+raottaat:raotta v2_odd ; ! v2_ta_odd 
+lihottaat:lihotta v2_odd ; ! v2_ta_odd 
+kohottaat:kohotta v2_odd ; ! v2_ta_odd 
+rauhottaat:rauhotta v2_odd ; ! v2_ta_odd 
+liottaat:liotta v2_odd ; ! v2_ta_odd 
+hajottaat:hajotta v2_odd ; ! v2_ta_odd 
+rajottaat:rajotta v2_odd ; ! v2_ta_odd 
+vajottaat:vajotta v2_odd ; ! v2_ta_odd 
+lahjottaat:lahjotta v2_odd ; ! v2_ta_odd 
+tuijottaat:tuijotta v2_odd ; ! v2_ta_odd 
+harjottaat:harjotta v2_odd ; ! v2_ta_odd 
+kirjottaat:kirjotta v2_odd ; ! v2_ta_odd 
+pakottaat:pakotta v2_odd ; ! v2_ta_odd 
+sekottaat:sekotta v2_odd ; ! v2_ta_odd 
+tarkottaat:tarkotta v2_odd ; ! v2_ta_odd 
+pirskottaat:pirskotta v2_odd ; ! v2_ta_odd 
+laukottaat:laukotta v2_odd ; ! v2_ta_odd 
+alottaat:alotta v2_odd ; ! v2_ta_odd 
+nilottaat:nilotta v2_odd ; ! v2_ta_odd 
+ilmottaat:ilmotta v2_odd ; ! v2_ta_odd 
+janottaat:janotta v2_odd ; ! v2_ta_odd 
+jannottaat:jannotta v2_odd ; ! v2_ta_odd 
+vannottaat:vannotta v2_odd ; ! v2_ta_odd 
+paapottaat:paapotta v2_odd ; ! v2_ta_odd 
+helpottaat:helpotta v2_odd ; ! v2_ta_odd 
+upottaat:upotta v2_odd ; ! v2_ta_odd 
+varottaat:varotta v2_odd ; ! v2_ta_odd 
+erottaat:erotta v2_odd ; ! v2_ta_odd 
+terottaat:terotta v2_odd ; ! v2_ta_odd 
+verottaat:verotta v2_odd ; ! v2_ta_odd 
+vistottaat:vistotta v2_odd ; ! v2_ta_odd 
+ravottaat:ravotta v2_odd ; ! v2_ta_odd 
+livottaat:livotta v2_odd ; ! v2_ta_odd 
+karvottaat:karvotta v2_odd ; ! v2_ta_odd 
+hieđottaat:hieđotta v2_odd ; ! v2_ta_odd 
+ehđottaat:ehđotta v2_odd ; ! v2_ta_odd 
+ođottaat:ođotta v2_odd ; ! v2_ta_odd 
+rauđottaat:rauđotta v2_odd ; ! v2_ta_odd 
+puđottaat:puđotta v2_odd ; ! v2_ta_odd 
+vaphauttaat:vaphautta v2_odd ; ! v2_ta_odd 
+laihuttaat:laihutta v2_odd ; ! v2_ta_odd 
+suijuttaat:suijutta v2_odd ; ! v2_ta_odd 
+vaikuttaat:vaikutta v2_odd ; ! v2_ta_odd 
+keikuttaat:keikutta v2_odd ; ! v2_ta_odd 
+liikuttaat:liikutta v2_odd ; ! v2_ta_odd 
+arkuttaat:arkutta v2_odd ; ! v2_ta_odd 
+heiskuttaat:heiskutta v2_odd ; ! v2_ta_odd 
+huiskuttaat:huiskutta v2_odd ; ! v2_ta_odd 
+truiskuttaat:truiskutta v2_odd ; ! v2_ta_odd 
+tuiskuttaat:tuiskutta v2_odd ; ! v2_ta_odd 
+viskuttaat:viskutta v2_odd ; ! v2_ta_odd 
+tiuskuttaat:tiuskutta v2_odd ; ! v2_ta_odd 
+kutkuttaat:kutkutta v2_odd ; ! v2_ta_odd 
+hukuttaat:hukutta v2_odd ; ! v2_ta_odd 
+lukuttaat:lukutta v2_odd ; ! v2_ta_odd 
+nukuttaat:nukutta v2_odd ; ! v2_ta_odd 
+taluttaat:talutta v2_odd ; ! v2_ta_odd 
+heiluttaat:heilutta v2_odd ; ! v2_ta_odd 
+kuluttaat:kulutta v2_odd ; ! v2_ta_odd 
+kouluttaat:koulutta v2_odd ; ! v2_ta_odd 
+sammuttaat:sammutta v2_odd ; ! v2_ta_odd 
+paranuttaat:paranutta v2_odd ; ! v2_ta_odd 
+vanuttaat:vanutta v2_odd ; ! v2_ta_odd 
+taputtaat:taputta v2_odd ; ! v2_ta_odd 
+tiputtaat:tiputta v2_odd ; ! v2_ta_odd 
+hoputtaat:hoputta v2_odd ; ! v2_ta_odd 
+koputtaat:koputta v2_odd ; ! v2_ta_odd 
+viruttaat:virutta v2_odd ; ! v2_ta_odd 
+paisuttaat:paisutta v2_odd ; ! v2_ta_odd 
+ođotatuttaat:ođotatutta v2_odd ; ! v2_ta_odd 
+tartuttaat:tartutta v2_odd ; ! v2_ta_odd 
+istuttaat:istutta v2_odd ; ! v2_ta_odd 
+muistuttaat:muistutta v2_odd ; ! v2_ta_odd 
+kassuuttaat:kassuutta v2_odd ; ! v2_ta_odd 
+taivuttaat:taivutta v2_odd ; ! v2_ta_odd 
+luovuttaat:luovutta v2_odd ; ! v2_ta_odd 
+mahđuttaat:mahđutta v2_odd ; ! v2_ta_odd 
+lohđuttaat:lohđutta v2_odd ; ! v2_ta_odd 
+häämöttäät:häämöttä v2_odd ;
 
-elättäät:elät v2_odd ;
-ennättäät:ennät v2_ta_odd ;
+elättäät:elättä v2_odd ;
+ennättäät:ennättä v2_odd ;
 omaksuut:omaksu v2_odd ;
 tapahtuut:tapahtu v2_odd ;
 palelttuut:paleltu v2_odd ;
@@ -782,7 +782,7 @@ jännittyyt:jännitty v2_odd ;
 läkättyyt:läkätty v2_odd ;
 yllättyyt:yllätty v2_odd ;
 pysättyyt:pysätty v2_odd ;
-näyttäyttyyt:näyttäyty v2_odd ;
+näyttäyttyyt:näyttäytty v2_odd ;
 räjähtäät:räjähtä v2_odd ;
 säikähtäät:säikähtä v2_odd ;
 vihelttäät:viheltä v2_odd ;
@@ -800,7 +800,7 @@ pimmeinttäät:pimmeintä v2_odd ;
 ymmärttäät:ymmärtä v2_odd ;
 järjestäät:järjestä v2_odd ;
 ylistäät:ylistä v2_odd ;
-eristäät:eristä v2_ta_odd ;
+eristäät:eristä v2_odd ; ! v2_ta_odd 
 käyristäät:käyristä v2_odd ;
 eđistäät:eđistä v2_odd ;
 yhđistäät:yhđistä v2_odd ;
