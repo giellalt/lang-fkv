@@ -169,6 +169,7 @@ Rules
 "Gemination 0:l"
 0:l <=> [.#.|#:] Cns:* Vow l _ ä %> :ä ;
         [.#.|#:] Cns:* Vow l _ ö %> :ö ;
+        [.#.|#:] Cns:*  Vow l _ i (Dialects:) %> :i  ;
         [.#.|#:] Cns:* Vow l _ y %> :y ;
         [.#.|#:] Cns:* Vow l _ u %> :u ;
         [.#.|#:] Cns:* Vow l _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
@@ -216,7 +217,7 @@ Rules
  [.#.|#:] Cns:* Vow:+ [l|r|n|m]  p _ :a (Dialects:) %> :a ;
                       [l|r|n|m] p _ :Vow %>  i7: ;
                       [l|r|n|m] p _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
-                      [l|r|n|m] :p _ e: %^E2I:0 %> i2: %>   %^V: ;
+                      [l|r|n|m] :p _ e: (Dialects:) %^E2I:0 %> i2: %>   %^V: ;        
                       [l|r|n|m] p _  i          %> i2: %> t %^A: ; ! meininkkiitä in Por
                       [l|r|n|m] p _ :ö %> :ö ;
                       [l|r|n|m] p _ :y %> :y ;
