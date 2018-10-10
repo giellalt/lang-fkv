@@ -27,6 +27,8 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pron = pronoun
 * Interj = interjection
 
+
+
 !Numerus
 * Sg = Singular
 * Pl = Plural
@@ -139,6 +141,9 @@ Interrpronpl "kuka" ja "mikä"
 
 * __Poifgenpar__ selects  postposition to the right of Gen or Par
 
+* __vasthaan__
+
+
 !!Rules for mapping @CVP and @CNP on the CC and CS
 
 * __CVP__ maps @CVP to CS and mutta
@@ -148,10 +153,50 @@ Interrpronpl "kuka" ja "mikä"
 * __CNPifInf__ maps @CNP to CC between two Inf
 
 
+!!Case rules
 
+!Partitive
+
+
+
+!Illative
+
+
+!!Number rules
 
 
 !!More disambiguation rules
+* __SgNotPl__
+
+
+!Elative
+
+
+
+!!Adverbs
+
+
+Conjunctions
+
+
+!!Subjunctions
+
+
+!!Pronouns
+
+
+
+
+
+!!Verb rules
+
+!Infinitive
+
+
+!!Present Pl3
+
+
+
 
 * __Pl3ollaifplrelpronandplinterrpron__ selects Pl3 if olla
 
