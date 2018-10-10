@@ -192,6 +192,7 @@ Rules
 "Gemination 0:n"
 0:n <=> [.#.|#:] Cns:* Vow n _ ä %> :ä ;
         [.#.|#:] Cns:* Vow n _ ö %> :ö ;
+        [.#.|#:] Cns:*  Vow n _ i (Dialects:) %> :i  ;
         [.#.|#:] Cns:* Vow n _ y %> :y ;
         [.#.|#:] Cns:* Vow n _ u %> :u ;
         [.#.|#:] Cns:* Vow n _ :o (Dialects:) [ %> :o | (%^AO:0) %> i2: ] ;
