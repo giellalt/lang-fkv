@@ -42,6 +42,14 @@ LIST Pr = Pr ;  #!! * Pr = preposition
 LIST Po = Po ;  #!! * Po = postposition
 LIST Pron = Pron ; #!! * Pron = pronoun
 LIST Interj = Interj ; #!! * Interj = interjection
+LIST CLB = CLB ;
+
+LIST Prs = Prs ;
+LIST Prt = Prt ;
+LIST Act = Act ;
+LIST Pass = Pass ;
+
+LIST Attr = Attr ; # ?
 
 #!! !Numerus
 LIST Sg = Sg ;   #!! * Sg = Singular
@@ -80,6 +88,7 @@ LIST Relpronsg = (Pron Rel Sg) ; #!! Relpronsg "mikä" ja "joka"
 LIST Interrpronpl = (Pron Interr Pl) ; #!! Interrpronpl "kuka" ja "mikä"
 LIST Pers = Pers ; #!! * Pers = Personal pron
 LIST Indef = Indef ; #!! * Indef = Indef pron
+LIST Qu = Qu ;
 
 LIST Inf = Inf ; #!! * Inf = Infinitive
 LIST ConNeg = ConNeg ; #!! * ConNeg = Conjugated as Negative form
@@ -89,6 +98,7 @@ LIST Act = Act ; #!! * Act = Active
 LIST Neg = Neg ; #!! * Neg = Negation verb
 
 LIST COMMA = "," ; #!! * COMMA = comma
+LIST Foc/han = Foc/han ;
 LIST Foc/kaan = Foc/kaan ; #!! * Foc/kaan = focus clitic -kaan
 LIST Sem/Fem = Sem/Fem ; #!! * Sem/Fem = feminin propernoun
 LIST @CVP = @CVP ; # !! * @CVP = Conjunction or subjunction that conjoins finite verb phrases.
@@ -126,6 +136,8 @@ LIST AUX-OR-MAIN = "tulla" "osata" "haluta"  ; #add lemmas  #!! * AUX-OR-MAIN = 
 SET AUX = COPULAS OR MOD-ASP OR AUX-OR-MAIN ;  #!! * AUX = verbs which can be auxilary
 
 SET SV-BOUNDARY = S-BOUNDARY OR VFIN   ;  #!! * SV-BOUNDARY = words that start a sentence and finite verb
+
+LIST ELA-VERB = "herättäät" "pittäät" ;
 
 
 # Here come the rules
@@ -182,6 +194,10 @@ SELECT:Poifgenpar Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + G
   #% Mutta heilä ei ole juurta, het uskothaan vain vähäsen aikkaa, ja ko heitä freistathaan niin het jääđhään pois (setning hvor den ikke skal fun).
   #$ eksempel med aikkaa (het uskothaan vain vähäsen aikkaa)
 
+#!! * __vasthaan__
+REMOVE ("vasta") IF (-1 Par)(0 ("vasthaan"));
+
+
 #!! !!Rules for mapping @CVP and @CNP on the CC and CS
 
 #!! * __CVP__ maps @CVP to CS and mutta
@@ -195,10 +211,93 @@ MAP:CNPifN @CNP TARGET CC IF (-1 N)(*1 N BARRIER NOT-NPMOD) ;
 MAP:CNPifInf @CNP TARGET CC IF (-1 Inf)(1 Inf) ;
 
 
+#!! !!Case rules
+
+#!! !Partitive
+REMOVE:vasthaan Nom IF (0 Par)(1 ("vasthaan"));
+#$ Eesau juoksi häntä vastaan.
+
+SELECT:häntä Par IF (-1 V)(0 ("häntä"));
+
+SELECT Pron IF (-1 V)(0 ("tet") + Pl + Par)(1 V);
 
 
+#!! Genitive
+
+REMOVE:GenNotSg1 Sg1 IF (-1 V)(0 Gen);
+
+#!! !Illative
+
+REMOVE:han Foc/han IF (0 ("ma"))(*-1 V);
+
+#!! !!Number rules
+
+REMOVE:PropSg Pl IF (0 Prop + Sg);
+
+REMOVE Pl + Par IF (-1 Sg)(0 Sg + Par);
 
 #!! !!More disambiguation rules
+#!! * __SgNotPl__
+REMOVE:Sg3 Pl3 IF (0 Sg3)(NOT *0 Pl + Nom BARRIER Pl3);
+
+
+#!! !Elative
+
+
+
+#!! !!Adverbs
+
+SELECT:paljon Adv IF (0 ("paljon"))(NOT 1 Po);
+SELECT:kerran Adv IF (0 ("kerran"))(1 VFIN);
+
+#!! !! Conjunctions
+
+REMOVE Prop IF (0 ("mutta"));
+
+#!! !!Subjunctions
+REMOVE:CS CC IF (-1 BOS)(0 CS);
+#$ Jos mie nyt olen...
+
+SELECT CS IF (-1 BOS OR CLB)(0 ("sillä"))(NOT 1 V);
+#$ , sillä tarkoitus oli tulla.
+
+REMOVE CC IF (-1 BOS OR CLB OR Adv OR CS)(0 CS)(NOT 1 Adv);
+
+REMOVE CC IF (-1 V)(0 CS)(1 N OR A OR Pron);
+
+#!! !!Pronouns
+
+SELECT:sie Pron IF (0 ("sie"))(*0 Sg2);
+
+REMOVE:Pers Dem IF (0 Pers)(NOT 1 NPMOD OR N);
+
+REMOVE:Rel Interr IF (0 Rel)(-1 N);
+REMOVE:Interr Rel IF (0 Interr)(-1 V);
+REMOVE:RelNotQu Qu IF (0 Rel)(1 V);
+
+SELECT:koko Pron IF (0 ("koko"))(1 N);
+
+REMOVE Attr IF (NOT 1 N);
+
+#!! !!Verb rules
+
+#!! !Infinitive
+
+SELECT Inf IF (-1 AUX);
+#$ Hän sai kuula ette Jeesus oli tulemassa.
+
+#!! !!Present Sg3
+
+REMOVE Imprt IF (-1 Sg + Nom)(0 Prs + Sg3)
+
+REMOVE N IF (-1 Sg + Nom)(0 ("vastata") + Sg3);
+
+#!! !!Present Pl3
+
+REMOVE Pass IF (0  Pl3)(*0 Pl3 + Nom OR Pl + Nom);
+
+REMOVE:Pl3 Sg3 IF (-1C Pl + Nom);
+REMOVE:Pl3 Sg3 IF (-1C Pl3 + Nom);
 
 #!! * __Pl3ollaifplrelpronandplinterrpron__ selects Pl3 if olla
 SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ;
