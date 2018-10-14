@@ -250,12 +250,15 @@ REMOVE:Sg3 Pl3 IF (0 Sg3)(NOT *0 Pl + Nom BARRIER Pl3);
 SELECT:paljon Adv IF (0 ("paljon"))(NOT 1 Po);
 SELECT:kerran Adv IF (0 ("kerran"))(1 VFIN);
 
+SELECT:jälkhiin Adv IF (-1 Par)(0 ("jälkhiin"));
+
+
 #!! !! Conjunctions
 
 REMOVE Prop IF (0 ("mutta"));
 
 #!! !!Subjunctions
-REMOVE:CS CC IF (-1 BOS)(0 CS);
+REMOVE:CS CC IF (-1 BOS OR CC)(0 CS);
 #$ Jos mie nyt olen...
 
 SELECT CS IF (-1 BOS OR CLB)(0 ("sillä"))(NOT 1 V);
