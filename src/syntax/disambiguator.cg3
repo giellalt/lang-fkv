@@ -288,9 +288,9 @@ SELECT Inf IF (-1 AUX);
 
 #!! !!Present Sg3
 
-REMOVE Imprt IF (-1 Sg + Nom)(0 Prs + Sg3)
+REMOVE Imprt IF (-1 Sg + Nom)(0 Prs + Sg3) ;
 
-REMOVE N IF (-1 Sg + Nom)(0 ("vastata") + Sg3);
+REMOVE N IF (-1 Sg + Nom)(0 ("vastata") + Sg3) ;
 
 #!! !!Present Pl3
 
