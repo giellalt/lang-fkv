@@ -68,7 +68,7 @@ The hash mark = Word boundary for both lexicalised and dynamic compounds
  * Segment = Vow Cns ;                                       
  * Dummy = %+ %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  
  * DummyBorder = Dummy %> ;          
- * Dialects =  %^Por %^Var %^Jok ;  
+ * Dial =  %^Por %^Var %^Jok ;  
  * NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;  
 
 
@@ -329,7 +329,7 @@ __Alveolar assimilation for consonant stem s__
 
 !!Vow harmony
 
-The idea of having f.ex V:e, always to a specific vowel, is to not have conflicts in
+Thefa idea of having f.ex V:e, always to a specific vowel, is to not have conflicts in
 twolc compilation. This improves compilation time (we assume) and it make Twolc
 behave more predictable. Weird things happen sometimes with conflicts!
 The downside is that often you have linguistic rules for vowels that are similar
