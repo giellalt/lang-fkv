@@ -139,18 +139,18 @@ Rules
                                [l|r|n|m] j _ :e (Dial:) %> :e ;
 
 "Gemination 0:k"
-0:k <=> ([a|o]) [Vow|i6:] (Vow:) k _  :o (Dial:0)  %^AO:0 %> [:i - i3:] (%> [n|t])     # ; ! aikkoi  ! never a:0
-        ([a|o]) [Vow|i6:] (Vow:) k _  :i (Dial:0) %^A2I:0 %> [:i - i3:] (%> [n|t])     # ; ! poikkii ! never a:0
-        ([a|o])  Vow      (Vow:) k _ e:0 (Dial:0)         %>   i2:i      %> %^V:i  (n) # ; ! jokkii
+0:k <=> ([a|o]) [Vow|i6:] (Vow:) k _  :o (Dial:)  %^AO: %> [:i - i3:] (%> [n|t])     # ; ! aikkoi  ! never a:0
+        ([a|o]) [Vow|i6:] (Vow:) k _  :i (Dial:) %^A2I: %> [:i - i3:] (%> [n|t])     # ; ! poikkii ! never a:0
+        ([a|o])  Vow      (Vow:) k _ e:0 (Dial:)        %>   i2:i      %> %^V:i  (n) # ; ! jokkii
                       Vow:+ k _ Vow:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
-                      Vow:+ k _ e:               %> i7:i Cns ; ! contr verbs
+                      Vow:+ k _ e:             %> i7:i Cns ; ! contr verbs
                       Vow:+ k _ Vow:           %> %^V:i ; ! sopi soppii
  [.#.|#:] Cns:* Vow:+      k _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
  [.#.|#:] Cns:* Vow:+      k _ ä %> :ä ;
  [.#.|#:] Cns:* Vow:+      k _ a %> :a ;
  [.#.|#:] Cns:* Vow:+      k _ ö %> :ö ;
  [.#.|#:] Cns:* Vow:+      k _ y %> :y ;
- [.#.|#:] Cns:* Vow:+      k _ u %> %^V:u  ;
+ [.#.|#:] Cns:* Vow:+      k _ u %> [%^V:u|i2: n .#.]  ;
  [.#.|#:] Cns:* Vow:+      k _ o %> :o ;
  [.#.|#:] Cns:* Vow:+      k _ e (Dial:) %> :e ;
  [.#.|#:] Cns:* Vow:+ [l|r|n|m]  k _ :ä (Dial:) %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
@@ -165,6 +165,9 @@ Rules
                         [l|r|n|m]  k _ :o (Dial:) %> :o ;
                         [l|r|n|m]  k _ :e (Dial:) %> :e ;
                         [l|r|n|m]  k _ :a (Dial:) %> :a ;
+
+!!€ flak0u>i2n
+!!€ flakku>in
 
 "Gemination 0:l"
 0:l <=> [.#.|#:] Cns:* Vow l _ ä %> :ä ;
@@ -1312,8 +1315,8 @@ Vx:e <=>  [.#.|#:] Cns:* Vow: (Vow:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
 !! __@RULENAME@__
 ! 1. "Shortening of long vowel in front of i"
 ! 2. "Stem deletion in h-illative"
- ä:0 <=> :Cns _ (Dummy: - %^AE:0) (Dummy: - %^AE:0) (Dummy: - %^AE:0) %> [ i|i2:|i3:|i5: ] ; ! before i exc conditional
-              _ ä %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; ! 1.
+ ä:0 <=> :Cns (Cns:) _ (Dummy: - %^AE:0) (Dummy: - %^AE:0) (Dummy: - %^AE:0) %> [ i|i2:|i3:|i5: ] ; ! before i exc conditional
+                     _ ä %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; ! 1.
             ä _ %^VDEL:0  (Dummy:) %> [s|t] ;
   :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:ä|i:] ; ! 2.
   :SurfaceCns _ (%^AO:)  %^HMETA: %> h [:ä|i:] ; ! 2.
