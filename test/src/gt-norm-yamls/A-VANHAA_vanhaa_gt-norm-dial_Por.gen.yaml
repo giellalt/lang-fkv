@@ -16,20 +16,23 @@ Tests:
 
   Noun - pappi - ei tsekattu : # Noun 'clean' - ei tsekattu
      vanhaa+A+Sg+Nom: vanhaa
-     vanhaa+A+Sg+Gen: vanhan
+     vanhaa+A+Sg+Gen: vanhaan
      vanhaa+A+Sg+Par: vanhaata
-     vanhaa+A+Sg+Tra: vanhaksi
-     vanhaa+A+Sg+Abe: vanhatta
-     vanhaa+A+Sg+Ine: vanhassa
-     vanhaa+A+Sg+Ela: vanhasta
+     vanhaa+A+Sg+Tra: vanhaaksi
+     vanhaa+A+Sg+Abe: vanhaatta
+     vanhaa+A+Sg+Ine: vanhaassa
+     vanhaa+A+Sg+Ela: vanhaasta
      vanhaa+A+Sg+Ill: vanhhaan
-     vanhaa+A+Sg+Ade: vanhala
-     vanhaa+A+Sg+Abl: vanhalta
-     vanhaa+A+Sg+All: vanhale
-     vanhaa+A+Sg+Ess: vanhana
+     vanhaa+A+Sg+Ade: vanhaala
+     vanhaa+A+Sg+Abl: vanhaalta
+     vanhaa+A+Sg+All: vanhaale
+     vanhaa+A+Sg+Ess: vanhaana
+
+# Sivula 173 Eiran norjankielisessä grammatiikissa: vanhaa-nominin vartalossa oon kaksi a:ta singulaarissa.
+# Pluraalissa se taipuu samalla tavalla kuin yksinartaloiset, kaksitauviset nominit, joissa on lyhyt vokaali.
 
      vanhaa+A+Pl+Nom: vanhat
-    # vanhaa+A+Pl+Gen: vanhoin # Kaksi vai yksi h?
+     vanhaa+A+Pl+Gen: vanhoin # Kaksi vai yksi h?
      vanhaa+A+Pl+Par: vanhoi
      vanhaa+A+Pl+Tra: vanhoiksi
      vanhaa+A+Pl+Ine: vanhoissa
