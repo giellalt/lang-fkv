@@ -10,7 +10,7 @@
 !! * v3_ele
 !! * v3_ele_short kuula
 !! * v3_ise aukaista :aukais
-!! * v3_lnr tulla, mennä...
+!! * v3_lnrs tulla, mennä...
 !! * v3piera pierä
 !! * v3_ele_odd kävelä:kävel  ;
 !! * v3juosta juostajuo v3juosta ;
@@ -572,7 +572,8 @@ rauhoittaat:rauhoitta v2_odd ; ! v2_ta_odd
 hajoittaat:hajoitta v2_odd ; ! v2_ta_odd 
 rajoittaat:rajoitta v2_odd ; ! v2_ta_odd 
 harjoittaat:harjoitta v2_odd ; ! v2_ta_odd 
-kirjoittaat:kirjoitta v2_odd ; ! v2_ta_odd 
+kirjoittaat+v1:kirjoitta v2_odd ; ! v2_ta_odd 
+kirjoittaat+v2:kirjotta v2_odd ; ! v2_ta_odd 
 allekirjoittaat:alle#kirjoitta v2_odd ; ! v2_ta_odd 
 pakoittaat:pakoitta v2_odd ; ! v2_ta_odd 
 sekoittaat:sekoitta v2_odd ; ! v2_ta_odd 
@@ -1080,73 +1081,63 @@ kuula:kuul v3_ele_short ;
 luula:luul v3_ele_short ;
 tuula:tuul v3_ele_short ;
 
-kiljasta:kiljas v3_ise ;
-lakasta:lakas v3_ise ;
-lohkasta:lohkas v3_ise ;
-oikasta:oikas v3_ise ;
-kiskasta:kiskas v3_ise ;
-katkasta:katkas v3_ise ;
-aukaista:aukais v3_ise ; ! TODO used to have +v2 ? ! [17/34][FAIL] aukaista+V+Act+PrsPrc+Sg+Nom => Missing results: aukaseva
-laukasta:laukas v3_ise ;
-nielasta:nielas v3_ise ;
+aukaista:auka v3_ise ; ! TODO used to have +v1 ?
+halkaista:halka v3_ise ;
+helistä:hel v3_ise ;
+hitistä:hit v3_ise ;
+huokaista:huoka v3_ise ;
+häikäistä:häikä v3_ise ;
+julkaista:julka v3_ise ;
+jyristä:jyr v3_ise ;
+karjaista:karja v3_ise ;
+katkaista:katka v3_ise ;
+kihistä:kih v3_ise ;
+kilistä:kil v3_ise ;
+kiljaista:kilja v3_ise ;
+kiskaista:kiska v3_ise ;
+kolista:kol v3_ise ;
+kopaista:kopa v3_ise ;
+korista:kor v3_ise ;
 kraapasta:kraapas v3_ise ;
-pestä:pes v3_ise ;
-kiljaista:kiljais v3_ise ;
-karjaista:karjais v3_ise ;
-lakaista:lakais v3_ise ;
-lohkaista:lohkais v3_ise ;
-puhkaista:puhkais v3_ise ;
-oikaista:oikais v3_ise ;
-halkaista:halkais v3_ise ;
-julkaista:julkais v3_ise ;
-rangaista:rankais v3_ise ;
-huokaista:huokais v3_ise ;
-kiskaista:kiskais v3_ise ;
-katkaista:katkais v3_ise ;
-ratkaista:ratkais v3_ise ;
-potkaista:potkais v3_ise ;
-aukaista:aukais v3_ise ; ! TODO used to have +v1 ?
-laukaista:laukais v3_ise ;
-nielaista:nielais v3_ise ;
-kopaista:kopais v3_ise ;
-ulvaista:ulvais v3_ise ;
-kihistä:kihis v3_ise ;
-rähistä:rähis v3_ise ;
-helistä:helis v3_ise ;
-kilistä:kilis v3_ise ;
-vilistä:vilis v3_ise ;
-kolista:kolis v3_ise ;
-ulista:ulis v3_ise ;
-krapista:krapis v3_ise ;
-vapista:vapis v3_ise ;
-rypistä:rypis v3_ise ;
-korista:koris v3_ise ;
-lorista:loris v3_ise ;
-porista:poris v3_ise ;
-murista:muris v3_ise ;
-surista:suris v3_ise ;
-jyristä:jyris v3_ise ;
-täristä:täris v3_ise ;
-hitistä:hitis v3_ise ;
-rotista:rotis v3_ise ;
-kutista:kutis v3_ise ;
-mutista:mutis v3_ise ;
-häikäistä:häikäis v3_ise ;
-sylkäistä:sylkäis v3_ise ;
-repäistä:repäis v3_ise ;
-kysäistä:kysäis v3_ise ;
-käväistä:käväis v3_ise ;
-kusta:kus v3_ise ;
+krapista:krap v3_ise ;
+kusta:kus v3_lnrs ;
+kutista:kut v3_ise ;
+kysäistä:kysä v3_ise ;
+käväistä:kävä v3_ise ;
+lakaista:laka v3_ise ;
+laukaista:lauka v3_ise ;
+lohkaista:lohka v3_ise ;
+lorista:lor v3_ise ;
+murista:mur v3_ise ;
+mutista:mut v3_ise ;
+nielaista:niela v3_ise ;
 nousta:nous v3_ise ;
-häikästä:häikäs v3_ise ;
-silmästä:silmäs v3_ise ;
-kävästä:käväs v3_ise ;
-päästä:pääs v3_ise ;
+oikaista:oika v3_ise ;
+oikasta:oikas v3_ise ;
+pestä:pes v3_lnrs ;
+porista:por v3_ise ;
+potkaista:potka v3_ise ;
+puhkaista:puhka v3_ise ;
+päästä:pääs v3_lnrs ;
+rangaista:ranka v3_ise ;
+ratkaista:ratka v3_ise ;
+repäistä:repä v3_ise ;
+rotista:rot v3_ise ;
+rypistä:ryp v3_ise ;
+rähistä:räh v3_ise ;
+silmästä:silmä v3_ise ;
+surista:sur v3_ise ;
+sylkäistä:sylkä v3_ise ;
+täristä:tär v3_ise ;
+ulista:ul v3_ise ;
+ulvaista:ulva v3_ise ;
+vapista:vap v3_ise ;
+vilistä:vil v3_ise ;
 
-tulla:tul v3_lnr ;
-panna:pan v3_lnr ;
-mennä:men v3_lnr ;
-purra:pur v3_lnr ;
+tulla:tul v3_lnrs ;
+panna:pan v3_lnrs ;
+mennä:men v3_lnrs ;
+purra:pur v3_lnrs ;
 
 piestä:pie v3juosta ; ! XXX taipuu kuten juosta, mutta jatkoleksikko ei toimi
 juosta:juo v3juosta ;
