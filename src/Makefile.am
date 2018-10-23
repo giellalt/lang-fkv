@@ -87,7 +87,7 @@ analyser-dict-gt-desc.%: analyser-dict-gt-desc.tmp.% \
 
 # We need to add processing of language-specific tags in the analyser:
 analyser-dict-gt-desc-mobile.%: analyser-dict-gt-desc-mobile.tmp.% \
-					filters/remove-derivation-position-tags.% \
+					filters/remove-derivation-position-tags.% 
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 			    @\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"$<\"                                         \
@@ -177,7 +177,7 @@ generator-gt-%.$(1): generator-gt-%.tmp.$(1) \
 					 filters/remove-derivation-position-tags.$(1)     \
 					 filters/make-optional-coll-tags.$(1)             \
 					 filters/make-optional-lang_hom-tags.$(1)         \
-					 filters/rename_optional-POS_before_Der-tags.$(1) \
+					 filters/rename_optional-POS_before_Der-tags.$(1) 
 	$$(AM_V_XFST_TOOL)$$(PRINTF) "read regex \
 			    @\"filters/make-optional-coll-tags.$(1)\"             \
 			.o. @\"filters/make-optional-lang_hom-tags.$(1)\"         \
@@ -195,7 +195,7 @@ $(foreach fst,hfst xfst foma,$(eval $(call giella_generators,$(fst))))
 # Dict-fst local modifications and language-specific changes:
 generator-dict-gt-norm.%: generator-dict-gt-norm.tmp.%             \
 					 filters/remove-derivation-position-tags.%      \
-					 filters/rename_optional-POS_before_Der-tags.% \
+					 filters/rename_optional-POS_before_Der-tags.% 
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 			    @\"filters/rename_optional-POS_before_Der-tags.$*\" \
 			.o. @\"filters/remove-derivation-position-tags.$*\"  \
