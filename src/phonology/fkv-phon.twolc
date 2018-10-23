@@ -269,27 +269,27 @@ Rules
 [.#.|#:] Cns:+ Vow:+ [l|r|n|m] s _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
 
 "Gemination 0:t"
-0:t <=>                    :Vow t _ [:o|:i]  (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
-                           :Vow t _ [Vow: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
-                           :Vow t _ e:            %> i7:i Cns ; ! contr verbs
- [.#.|#:] Cns:* Vow:+           t _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
- [.#.|#:] Cns:* Vow:+           t _ a %> :a ;
- [.#.|#:] Cns:* Vow:+           t _ ä %> :ä ;
- [.#.|#:] Cns:* Vow:+           t _ ö %> :ö ;
- [.#.|#:] Cns:* Vow:+           t _ y %> :y ;
- [.#.|#:] Cns:* Vow:+           t _ u %> %^V:u  ;
- [.#.|#:] Cns:* Vow:+           t _ o %> :o ;
- [.#.|#:] Cns:* Vow:+           t _ e (Dial:) %> :e ;
- [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] t _ :a (Dial:) %> :a  ;
- [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] t _ :ä %> :ä  ; ! Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
-                        [l|r|n|m] t _ :ö %> :ö ;
-                        [l|r|n|m] t _ :y %> :y ;
-                        [l|r|n|m] t _ :u %> :u ;
-                        [l|r|n|m] t _ :o %> :o ;
-                        [l|r|n|m] t _ :Vow %>  i7: ;
-                        [l|r|n|m] t _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
-                        [l|r|n|m] t _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
-                        [l|r|n|m] t _ :e %> :e ;
+0:t <=>                    :Vow :t _ [:o|:i]  (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
+                           :Vow :t _ [Vow: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
+                           :Vow :t _ e:            %> i7:i Cns ; ! contr verbs
+ [.#.|#:] Cns:* Vow:+           :t _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
+ [.#.|#:] Cns:* Vow:+           :t _ a %> :a ;
+ [.#.|#:] Cns:* Vow:+           :t _ ä %> :ä ;
+ [.#.|#:] Cns:* Vow:+           :t _ ö %> :ö ;
+ [.#.|#:] Cns:* Vow:+           :t _ y %> :y ;
+ [.#.|#:] Cns:* Vow:+           :t _ u %> %^V:u  ;
+ [.#.|#:] Cns:* Vow:+           :t _ o %> :o ;
+ [.#.|#:] Cns:* Vow:+           :t _ e (Dial:) %> :e ;
+ [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :a (Dial:) %> :a  ;
+ [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :ä %> :ä  ; ! Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+                        [l|r|n|m] :t _ :ö %> :ö ;
+                        [l|r|n|m] :t _ :y %> :y ;
+                        [l|r|n|m] :t _ :u %> :u ;
+                        [l|r|n|m] :t _ :o %> :o ;
+                        [l|r|n|m] :t _ :Vow %>  i7: ;
+                        [l|r|n|m] :t _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                        [l|r|n|m] :t _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
+                        [l|r|n|m] :t _ :e %> :e ;
                         [l|r|n|m] :t _ e: %^E2I:0 %> i2: %>   %^V: ;
 
 "Gemination 0:v"
