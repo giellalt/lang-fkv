@@ -28,6 +28,15 @@ Ks. ''"Gemination 0:h"'', näyttää siltä, että tämä konteksti puuttu, on v
 
 esimerkiksi "ikiin", "köhiin", "selkiin". Se pittää olla "ikkiin", "köhhiin" ja "selkkiin". Jostain syystä pl genitiivin geminasuuni toimii näissä:  hirsikämppä, kämppä, penkkä, jänkkä, leppä, seppä, kärppä, ristirääppä, kenttä, hyttä. prättä, syöttä, levä, hietäjyvä, jyvä. 
 
+{{{
+ikä+N+Pl+Gen
+ikä>i2>in
+}}}
+
+Eli ä:i toimii. 0:k ei toimunut kun oli ^V:i, nyt on :i, oikeassa kontekstissa.
+
+
+
 !!Graadivaihtelu 0:k ei toimi ollenkhaan seuraavissa: 
 
 ikä, reikä, nälkä, selkä, yrkä, räkä,  
