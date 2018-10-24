@@ -152,19 +152,19 @@ analyser-pmatchdisamb-gt-desc.hfst: analyser-pmatchdisamb-gt-desc.tmp.hfst \
 
 # We need to add processing of language-specific tags in the analysers:
 # ... so far only in the XEROX/FOMA disambiguation analyser
-analyser-disamb-gt-desc.%: analyser-disamb-gt-desc.tmp.% \
+analyser-disamb-gt-desc.%: analyser-disamb-gt-desc.tmp.%      \
 					filters/remove-orig_lang-tags.%           \
-					filters/remove-derivation-position-tags.hfst   \
+					filters/remove-derivation-position-tags.% \
 					filters/remove-dialect-tags.%             \
-					filters/remove-homonymy-tags.%           \
+					filters/remove-homonymy-tags.%            \
 					filters/rename-POS_before_Der-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-			    @\"filters/remove-dialect-tags.$*\"             \
+			    @\"filters/remove-dialect-tags.$*\"            \
 			.o. @\"filters/remove-homonymy-tags.$*\"           \
-			.o. @\"filters/remove-orig_lang-tags.$*\"           \
-			.o. @\"filters/remove-derivation-position-tags.hfst\" \
-			.o. @\"filters/rename-POS_before_Der-tags.$*\"      \
-			.o. @\"$<\"                                         \
+			.o. @\"filters/remove-orig_lang-tags.$*\"          \
+			.o. @\"filters/remove-derivation-position-tags.%\" \
+			.o. @\"filters/rename-POS_before_Der-tags.$*\"     \
+			.o. @\"$<\"                                        \
 			;\n\
 		 $(INVERT_HFST)\
 		 save stack $@\n\
