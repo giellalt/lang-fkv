@@ -33,8 +33,6 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +V+Act+Ind+Prs+Sg1:olen K ;
 +V+Act+Ind+Prs+Sg2:olet K ;
 +V+Act+Ind+Prs+Sg3:oon K ;
-+V+Act+Ind+Prs+Pl1:olema K ;
-+V+Act+Ind+Prs+Pl2:oletta K ;
 +V+Act+Ind+Prs+Pl3:oon K ;
 +V+Act+Ind+Prs+Pl3:on K_NEUTRAL ;
 +V+Act+Ind+Prt+Sg1:olin K ;
@@ -54,6 +52,15 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +V+Pass+PrsPrc+Sg+Nom:oltava K ;
 +V+Pass+PrsPrc+Pl+Nom:oltavat K ;
 +V+Act+Ind+Prs+ConNeg:ole K ;
+
+! These are standard Finnish forms marked as Err/Orth.
++V+Act+Ind+Prs+Pl1+Err/Orth:olemme K ;
++V+Act+Ind+Prs+Pl2+Err/Orth:olette K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:ollut K ;
++V+Act+Ind+Prt+ConNeg+Sg+Err/Orth:ollut K ;
++V+Act+PrfPrc+Pl+Nom+Err/Orth:olleet K ;
++V+Act+Ind+Prt+ConNeg+Pl+Err/Orth:olleet K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
 
 +V+Act+Cond+Sg1:olisin K ; ! olisin
 +V+Act+Cond+Sg2:olisit K ; ! olisit
