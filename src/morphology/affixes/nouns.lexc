@@ -1262,14 +1262,19 @@ LEXICON sgpl_cases_even !
            +Ade:%>l^A  PxxK              ; ! Lyhyt perusmuoto vuođela
            +All:%>le   PxxK              ; ! Lyhyt perusmuoto
   +Dial/Jok+All:%>let  PxxK              ; ! pienelet
-!  +Dial/-Por+All:%>let  PxxK              ; ! pienelet
+           +Ade+Err/Orth:%>ll^A  PxxK    ; ! Pitkä perusmuoto väärin
+           +All+Err/Orth:%>lle   PxxK    ; ! Pitkä perusmuoto väärin
+  +Dial/Jok+All+Err/Orth:%>llet  PxxK    ; ! Pitkä perusmuoto väärin
+
                        sgpl_cases_common ;
 
 LEXICON sgpl_cases_odd !
            +Ade:%>ll^A PxxK              ; ! Pitkä perusmuoto
            +All:%>lle  PxxK              ; ! Pitkä perusmuoto
   +Dial/Jok+All:%>llet PxxK              ; ! pieniimillet
-!+Dial/-Por+All:%>llet PxxK              ; ! pieniimillet
+           +Ade+Err/Orth:%>l^A  PxxK     ; ! Lyhyt perusmuoto väärin
+           +All+Err/Orth:%>le   PxxK     ; ! Lyhyt perusmuoto väärin
+  +Dial/Jok+All+Err/Orth:%>let  PxxK     ; ! Lyhyt perusmuoto väärin
                        sgpl_cases_common ;
 
 LEXICON sgpl_cases_common
