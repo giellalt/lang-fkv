@@ -42,7 +42,6 @@ k3:k                      !!= * @CODE@ k3 never k:v, contrary to k
  «7     ! «
  %[%>%] ! >
  %[%<%] ! <
- %+7:%+ ! Literal +, as opposed to the gemination symbol
 
  »  !!= * @CODE@ = Derivational suffix
 %>  !!= * @CODE@ = border before inflection suffix
@@ -78,7 +77,7 @@ ArchiCns = %^N ;                                            !!= * @CODE@
 SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@
 Segment = Vow Cns ;                                       !!= * @CODE@
-Dummy = %+ %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  !!= * @CODE@
+Dummy = %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 Dial =  %^Por %^Var %^Jok ;  !!= * @CODE@
 NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;  !!= * @CODE@
