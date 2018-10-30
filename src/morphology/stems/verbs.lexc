@@ -10,7 +10,7 @@
 !! * v3_ele
 !! * v3_ele_short kuula
 !! * v3_ise aukaista :aukais
-!! * v3_lnrs tulla, mennä...
+!! * v3_lnr tulla, mennä...
 !! * v3piera pierä
 !! * v3_ele_odd kävelä:kävel  ;
 !! * v3juosta juostajuo v3juosta ;
@@ -1098,7 +1098,7 @@ kopaista:kopa v3_ise ;
 korista:kor v3_ise ;
 kraapasta:kraapa v3_ise ;
 krapista:krap v3_ise ;
-kusta:kus v3_lnrs ;
+kusta:kus v3_s ;
 kutista:kut v3_ise ;
 kysäistä:kysä v3_ise ;
 käväistä:kävä v3_ise ;
@@ -1111,12 +1111,13 @@ mutista:mut v3_ise ;
 nielaista:niela v3_ise ;
 oikaista:oika v3_ise ;
 oikasta:oikas v3_ise ;
-pestä:pes v3_lnrs ;
+pestä:pes v3_s ;
 porista:por v3_ise ;
 potkaista:potka v3_ise ;
 puhkaista:puhka v3_ise ;
-päästä:pääs v3_lnrs ;
-rangaista:ranka v3_ise ;
+päästä:pääs v3_s ;
+rangaista:ranga v3_ise ; ! XXX rangaista ??
+rankaista:ranka v3_ise ; ! XXX rankaista ??
 ratkaista:ratka v3_ise ;
 repäistä:repä v3_ise ;
 rotista:rot v3_ise ;
@@ -1131,11 +1132,11 @@ ulvaista:ulva v3_ise ;
 vapista:vap v3_ise ;
 vilistä:vil v3_ise ;
 
-tulla:tul v3_lnrs ;
-panna:pan v3_lnrs ;
-mennä:men v3_lnrs ;
-purra:pur v3_lnrs ;
-nousta:nous v3_lnrs ;
+tulla:tul v3_lnr ;
+panna:pan v3_lnr ;
+mennä:men v3_lnr ;
+purra:pur v3_lnr ;
+nousta:nous v3_s ;
 
 piestä:pie v3juosta ; ! XXX taipuu kuten juosta, mutta jatkoleksikko ei toimi
 juosta:juo v3juosta ;
