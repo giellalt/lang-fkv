@@ -650,7 +650,7 @@ t:s <=> Vow n   _        e:                  %> i2: [.#.|%> Cns] ; ! Miksi vain 
 
 "Alveolar assimilation for consonant stem s"
 !! __@RULENAME@__
-%^N:s <=> s: %> _ ;
+%^N:s <=> s: %> _ \%^A: ; ! kussut, kusta, pessyt, pestä
 
 "j:0 in front of i"
 j:0 <=> l _ e: %^E2I:0 ;
