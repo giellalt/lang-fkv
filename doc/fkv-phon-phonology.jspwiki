@@ -5,7 +5,6 @@
  * r s t u ü v w x y z å ä ö æ ø š             
  * A B C D Đ E F G H I J K L M N O P           
  * R S T U V W X Y Z Å Ä Ö Æ Ø Š               
- * %+:0                                         gemination
  * %^A:ä %^O:ö %^U:y                 archi vowels for harmony
  * %^V %^N:n                         vowel copy sanoo, LNR copy purra
  * __i2:i__ = plural i of nouns
@@ -66,7 +65,7 @@ The hash mark = Word boundary for both lexicalised and dynamic compounds
  * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  
  * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        
  * Segment = Vow Cns ;                                       
- * Dummy = %+ %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  
+ * Dummy = %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  
  * DummyBorder = Dummy %> ;          
  * Dial =  %^Por %^Var %^Jok ;  
  * NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;  
