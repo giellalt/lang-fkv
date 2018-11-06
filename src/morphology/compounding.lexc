@@ -4,14 +4,14 @@ LEXICON R
 !+Cmp#:# # ; ! For turning off compounding during testing
 ! +Cmp#:# NounRoot ;
  +Cmp#:0# NounRoot ;
- +Cmp#-:0#- ProperNoun ;
+ +Cmp/Hyph#:0#- ProperNoun ;
 
 
 LEXICON Rhyph
- +Cmp#-:0#- NounRoot ;
- +Cmp#-:0#- ProperNoun ;
+ +Cmp/Hyph#:0#- NounRoot ;
+ +Cmp/Hyph#:0#- ProperNoun ;
 
 LEXICON RNum
-      +Use/Circ+Cmp%-#:%-# NounRoot ; ! For Num Cmp Noun, vi vil ikke ha Num Cmp Num 
+      +Use/Circ+Cmp/Hyph#:%-# NounRoot ; ! For Num Cmp Noun, vi vil ikke ha Num Cmp Num 
 
 
