@@ -140,7 +140,7 @@ LEXICON x_11_rest
 
   +Pl+Dial/Por:^WG              nom_t           ;
 ! +Pl+Dial/Por:%>i2             gen_n           ; ! this in x_11
-  +Pl+Dial/Por:%>i2             par_end         ;
+  +Pl+Dial/Por:%>i2             par_V         ;
   +Pl+Dial/Por:^HMETA           ill_hVin        ; ! sykshyin
   +Pl+Dial/Por:%>i2             ess_nA          ;
   +Pl+Dial/Por:%>i2             com_ne          ;
@@ -180,9 +180,9 @@ LEXICON x_11_rest
 
 
 LEXICON n_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
-+N+Dial/Por:^Por         x_11_AO ;
-+N+Dial/Var:^Var         x_11_AO ;
-+N+Dial/Jok:^Jok         x_11_AO ;
++N:         x_11_AO ;
++N:         x_11_AO ;
++N:         x_11_AO ;
 
 LEXICON x_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
 +Sg          :                    nom_R           ;
