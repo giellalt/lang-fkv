@@ -978,26 +978,14 @@ j:0 <=> l _ e: %^E2I:0 ;
 !  =========
 !! The -i- rules require different i-s for different POS.
 
-"i:0"
+"i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense"
 !! __@RULENAME@__
-! 1. "i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense"
-! 2. "Stem shortening for consonant initial suffixes"
-! 3. i:0 in vanha_n_21 -Por with I0 tag"
-! 4. "Stem deletion in h-illative"
-! 5. "Shortening of long vowel in front of i"
- i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:) (%^AO:)    %>  :i %> [ %^V: n | %^V: | t t e ] ; ! 1. ! ristien, kväänitten, papiiksi
-                                     :Cns                  _ Dummy:*            %> [ i3:i | i4:i ] ; ! 1. ! leikin, tohtisin
-                                     :Cns [a|e|o|u|y|ö]    _                    %> [ i2:i | i ]    ; ! 1.   ! tuoresta0>i2ksi
-         [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:)            %> i2:i            ; ! 1. ! Note: This shall not work for Ci forms skaramelli
-                                                         i _ %^VDEL:0  (Dummy:) %> [s|t]           ; ! 2.
-                                                      Cns: _ (%^WG:0) %^AO:0    %> %^I0:0 i2:i %>  ; ! 3. ! TODO Add dialect tags here ! tooline in Var ja Jok. Not tooliine, which is in Por
-                                               :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:i|i:]                    ; ! 4.
-                                               :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:i|i:]                    ; ! 4.
-                                               :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2:         ; ! 4.
-                                               :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! 4.
-                                                           _ e %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:]     ; ! 5.
-
-
+ i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:) (%^AO:) %>  :i %> [ %^V: n | %^V: | t t e ] ; ! ristien, kväänitten, papiiksi
+                                       :Cns                _ Dummy:*         %> [ i3:i | i4:i ] ; ! leikin, tohtisin
+                                        :Cns [a|e|o|u|y|ö] _                 %> [ i2:i | i ] ;   ! tuoresta0>i2ksi
+         [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:)         %> i2:i ;
+! Note: This shall not work for Ci forms skaramelli
+                                                         i _ %^VDEL:0  (Dummy:) %> [s|t] ; !Stem shortening for consonant initial suffixes
 
 ! i:0 for even-syllabic stems ristiksi, libe-raaliksi
 !!€ risti>i2>^Vn
@@ -1317,7 +1305,7 @@ Vx:e <=>  [.#.|#:] Cns:* Vow: (Vow:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
                      _ ä %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; ! 1.
             ä _ %^VDEL:0  (Dummy:) %> [s|t] ;
   :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:ä|i:] ; ! 2.
-  :SurfaceCns _ (%^AO:)  %^HMETA: %> h [:ä|i:] ; ! 2.
+  :SurfaceCns _  %^HMETA: %> h [:ä|i:] ; ! 2.
   :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) (:o) %> i2: ; ! 2.
   :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! 2.
 
