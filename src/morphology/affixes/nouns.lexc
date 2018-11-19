@@ -112,6 +112,9 @@ LEXICON n_11_ae ! päivä, genpl päiviin
 
 LEXICON x_11_ae
 +Pl+Dial/Por:%>i2 gen_in ; ! päiviin
+  +Pl+Dial/Por:^HMETA           ill_hiin        ; ! päivhiin
+  +Pl+Dial/Var:^HMETA           ill_hiin        ; ! päivhiin
+  +Pl+Dial/Jok:^HMETA           ill_hiin        ; ! päivhiin
              x_11_rest ;
 
 LEXICON n_11 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
@@ -120,6 +123,7 @@ LEXICON n_11 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin n
 
 LEXICON x_11
 +Pl+Dial/Por:%>i2 gen_n ; ! syksyin
++Pl+Dial/Var:^HMETA           ill_hVin        ; ! toolhiin
              x_11_rest ; ! all x_11 except plural gen
 
 
@@ -141,7 +145,6 @@ LEXICON x_11_rest
   +Pl+Dial/Por:^WG              nom_t           ;
 ! +Pl+Dial/Por:%>i2             gen_n           ; ! this in x_11
   +Pl+Dial/Por:%>i2             par_V         ;
-  +Pl+Dial/Por:^HMETA           ill_hiin        ; ! päivhiin
   +Pl+Dial/Por:%>i2             ess_nA          ;
   +Pl+Dial/Por:%>i2             com_ne          ;
   +Pl+Dial/Por:^WG%>i2          sgpl_cases_even ; !the same affix in sg and pl
@@ -157,7 +160,6 @@ LEXICON x_11_rest
   +Pl+Dial/Jok:^WG%>i2          gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
   +Pl+Dial/Var:%>j               par_A           ; ! Use i:j in twolc j, see below
   +Pl+Dial/Jok:%>i2             par_A           ;
-  +Pl+Dial/Jok:^HMETA           ill_hVin        ; ! toolhiin
   +Pl+Dial/Jok:%>i2             ess_nA          ;
   +Pl+Dial/Jok:%>i2             com_ne          ;
   +Pl+Dial/Jok:^WG%>i2          sgpl_cases_even ;
@@ -173,7 +175,6 @@ LEXICON x_11_rest
   +Pl+Dial/Var:^WG%>i2          gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
   +Pl+Dial/Var:%>j               par_A           ; ! Use i:j in twolc j, see below
   +Pl+Dial/Var:%>i2             par_A           ;
-  +Pl+Dial/Var:^HMETA           ill_hVin        ; ! toolhiin
   +Pl+Dial/Var:%>i2             ess_nA          ;
   +Pl+Dial/Var:%>i2             com_ne          ;
   +Pl+Dial/Var:^WG%>i2          sgpl_cases_even ;
