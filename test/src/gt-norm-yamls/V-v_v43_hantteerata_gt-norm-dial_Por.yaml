@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Verb - hantteerata - ok : # Verb 'to bring' - ei tsekattu
@@ -24,7 +24,7 @@ Tests:
      hantteerata+V+Act+Ind+Prs+Pl3: hantteerathaan
      hantteerata+V+Act+Ind+Prt+Sg1: hantteerasin
      hantteerata+V+Act+Ind+Prt+Sg2: hantteerasit
-     hantteerata+V+Act+Ind+Prt+Sg3: hantteeras
+     hantteerata+V+Act+Ind+Prt+Sg3: [hantteeras, hantteerasi] 
      hantteerata+V+Act+Ind+Prt+Pl1: hantteerasima
      hantteerata+V+Act+Ind+Prt+Pl2: hantteerasitta
      hantteerata+V+Act+Ind+Prt+Pl3: hantteerathiin
@@ -43,10 +43,10 @@ Tests:
      hantteerata+V+Act+Cond+Pl2: hantteeraisitta
      hantteerata+V+Act+Cond+Pl3: hantteerattais
      hantteerata+V+Pass+Cond: hantteerattais
-    
+
      hantteerata+V+Act+Imprt+Sg2: hantteeraa
      hantteerata+V+Act+Imprt+Pl2: hantteeraakkaa
-     
+
      hantteerata+V+Act+Inf3+Ine: hantteeraamassa
      hantteerata+V+Act+Inf3+Ela: hantteeraamasta
      hantteerata+V+Act+Inf3+Ill: hantteeraamhaan
