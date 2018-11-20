@@ -11,7 +11,7 @@ Tests:
 
 # todo:
 # Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# Then: run analyser, then correct.
 
 
   Verb - jatkata - ok : # Verb 'to bring' - ok
@@ -24,7 +24,7 @@ Tests:
      jatkata+V+Act+Ind+Prs+Pl3: jatkathaan
      jatkata+V+Act+Ind+Prt+Sg1: jatkasin
      jatkata+V+Act+Ind+Prt+Sg2: jatkasit
-     jatkata+V+Act+Ind+Prt+Sg3: jatkas
+     jatkata+V+Act+Ind+Prt+Sg3: [jatkas, jatkasi] 
      jatkata+V+Act+Ind+Prt+Pl1: jatkasimma
      jatkata+V+Act+Ind+Prt+Pl2: jatkasitta
      jatkata+V+Act+Ind+Prt+Pl3: jatkathiin
@@ -43,10 +43,10 @@ Tests:
      jatkata+V+Act+Cond+Pl2: jatkaisitta
      jatkata+V+Act+Cond+Pl3: jatkattais
      jatkata+V+Pass+Cond: jatkattais
-    
+
      jatkata+V+Act+Imprt+Sg2: jatkaa
      jatkata+V+Act+Imprt+Pl2: jatkakkaa
-     
+
      jatkata+V+Act+Inf3+Ine: jatkaamassa
      jatkata+V+Act+Inf3+Ela: jatkaamasta
      jatkata+V+Act+Inf3+Ill: jatkaamhaan
