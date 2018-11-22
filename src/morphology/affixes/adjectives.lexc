@@ -21,9 +21,11 @@ LEXICON HYVA
 
 LEXICON VANHAA ! still TODO fix vanha yaml
 +A+Sg       :aa nom_end ;
++A+Sg      :aa          ill_sseen         ;
++A+Pl      :oi        ill_ssiin         ;
 +A+Dial/Por :a^Por^AO x_31 ; ! ai to oi doesn't work yet
-+A+Dial/Var :a^Var x_11_AO ; ! ai to oi doesn't work yet
-+A+Dial/Jok :a^Jok x_11_AO ; ! ai to oi doesn't work yet
++A+Dial/Var :a^Var^AO x_31  ; ! ai to oi doesn't work yet
++A+Dial/Jok :a^Jok^AO x_31  ; ! ai to oi doesn't work yet
 +A:e comp_m_odd ;
 +A+Dial/Por :^Pori5 superl_m_odd ;
 +A+Dial/Var :^Vari5 superl_m_odd ;
