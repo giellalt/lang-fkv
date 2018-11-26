@@ -35,8 +35,10 @@ LEXICON VANHAA ! still TODO fix vanha yaml
 +A+Pl      :oi     ess_nA          ;
 +A+Pl      :oi    com_ne          ;
 +A+Pl      :oi     sgpl_cases_even ;  
-+A+Pl      :oi       par_end          ;
++A+Pl+Dial/Por      :oi       par_end          ;
++A+Pl+Dial/-Por:oj           par_A           ;
 +A+Pl+Dial/Por :oi             gen_n           ; 
++A+Pl+Dial/-Por:oi       gen_tten        ;
 
 +A:e comp_m_odd ;
 +A+Dial/Por :^Pori5 superl_m_odd ;
