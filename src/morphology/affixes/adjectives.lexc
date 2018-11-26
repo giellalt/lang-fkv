@@ -20,27 +20,37 @@ LEXICON HYVA
 +A:parhai superl_m_odd ;
 
 LEXICON VANHAA ! still TODO fix vanha yaml
-+A+Sg       :aa nom_end ;
++A+Sg      :aa nom_end ;
 +A+Sg      :aa       par_tA          ; ! vanhaata
 +A+Sg      :aa          ill_sseen         ;
 +A+Sg      :aa          gen_n_sg         ;
+
 +A+Sg      :aa          ess_nA         ;
 +A+Sg      :aa              sgpl_cases_even ;
-+A+Pl      :oi        ill_ssiin         ;
-            x_VANHAA ; 
++A+Pl      :aa       nom_t           ;
 
-LEXICON x_VANHAA ! still TODO fix vanha yaml
 
-+A+Dial/Por :a^Por x_11_AO ; ! ai to oi doesn't work yet
-+A+Dial/Var :a^Var x_11_AO  ; ! ai to oi doesn't work yet
-+A+Dial/Jok :a^Jok x_11_AO  ; ! ai to oi doesn't work yet
+     
++A+Pl      :oi        ill_ssiin         ;  
++A+Pl      :oi     ess_nA          ;
++A+Pl      :oi    com_ne          ;
++A+Pl      :oi     sgpl_cases_even ;  
++A+Pl      :oi       par_end          ;
++A+Pl+Dial/Por :oi             gen_n           ; 
+
 +A:e comp_m_odd ;
 +A+Dial/Por :^Pori5 superl_m_odd ;
 +A+Dial/Var :^Vari5 superl_m_odd ;
 +A+Dial/Jok :^Joki5 superl_m_odd ;
 
 
+!            x_VANHAA ; 
 
+!LEXICON x_VANHAA ! still TODO fix vanha yaml
+
+!+A+Dial/Por :a^Por x_11_AO ; ! ai to oi doesn't work yet
+!+A+Dial/Var :a^Var x_11_AO  ; ! ai to oi doesn't work yet
+!+A+Dial/Jok :a^Jok x_11_AO  ; ! ai to oi doesn't work yet
 ! yksiköt ovat nämä, vanha_x_1 -sestä otettu:
 !      +A+Sg+Nom:a              K               ;
 !          +A+Sg:               sgpl_cases_even ; !! these two lexica for cases with
