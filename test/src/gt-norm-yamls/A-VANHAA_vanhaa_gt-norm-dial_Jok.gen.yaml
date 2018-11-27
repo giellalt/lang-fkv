@@ -58,7 +58,7 @@ Tests:
      vanhaa+A+Sg+Compar+Ill: vanhemphaan
      vanhaa+A+Sg+Compar+Ade: vanhemalla
      vanhaa+A+Sg+Compar+Abl: vanhemalta
-     vanhaa+A+Sg+Compar+All: vanhemalle
+     vanhaa+A+Sg+Compar+All: [vanhemalle, vanhemallet]
      vanhaa+A+Sg+Compar+Ess: vanhempanna
 
      vanhaa+A+Pl+Compar+Nom: vanhemat
@@ -71,7 +71,7 @@ Tests:
      vanhaa+A+Pl+Compar+Ill: vanhemphiin
      vanhaa+A+Pl+Compar+Ade: vanhemilla
      vanhaa+A+Pl+Compar+Abl: vanhemilta
-     vanhaa+A+Pl+Compar+All: vanhemille
+     vanhaa+A+Pl+Compar+All: [vanhemille, vanhemillet]
      vanhaa+A+Pl+Compar+Ess: vanhempinna
      vanhaa+A+Pl+Compar+Com: vanhempinne
 
@@ -87,7 +87,7 @@ Tests:
      vanhaa+A+Sg+Superl+Ill: vanhiimphaan
      vanhaa+A+Sg+Superl+Ade: vanhiimalla
      vanhaa+A+Sg+Superl+Abl: vanhiimalta
-     vanhaa+A+Sg+Superl+All: vanhiimalle
+     vanhaa+A+Sg+Superl+All: [vanhiimalle, vanhiimallet]
      vanhaa+A+Sg+Superl+Ess: vanhiimpanna
 
      vanhaa+A+Pl+Superl+Nom: vanhiimat
@@ -100,6 +100,6 @@ Tests:
      vanhaa+A+Pl+Superl+Ill: vanhiimphiin
      vanhaa+A+Pl+Superl+Ade: vanhiimilla
      vanhaa+A+Pl+Superl+Abl: vanhiimilta
-     vanhaa+A+Pl+Superl+All: vanhiimille
+     vanhaa+A+Pl+Superl+All: [vanhiimille, vanhiimillet]
      vanhaa+A+Pl+Superl+Ess: vanhiimpinna
      vanhaa+A+Pl+Superl+Com: vanhiimpinne
