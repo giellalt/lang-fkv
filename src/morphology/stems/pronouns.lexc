@@ -44,10 +44,11 @@ net+Pron+Dem:nii         namaobl ; ! e>i
 !! Kysymäpronominit
 kuka+Pron+Interr+Sg+Nom:kuka   K  ; !!= * @CODE@ nom
 kuka+Pron+Interr+Pl+Nom+Dial/Por:kukka  K  ;  !!= * @CODE@
-kuka+Pron+Interr+Pl+Nom+Dial/-Por:kutka  K  ;  !
-kuka+Pron+Interr+Pl+Nom+Dial/-Por:ketkä  K  ;  ! # Varengin ja jokivarren varieteetissa -tk (katso Eiran grammatiikki s.250)
 kuka+Pron+Interr+Pl+Nom+Dial/Por:kekkä  K  ;  ! # Porsangin ja Raisin varieteetissa kaksi k:tä (katso Eiran grammatiikki s.250)
-
+kuka+Pron+Interr+Pl+Nom+Dial/Var:kutka  K  ;  !
+kuka+Pron+Interr+Pl+Nom+Dial/Var:ketkä  K  ;  ! # Varengin ja jokivarren varieteetissa -tk (katso Eiran grammatiikki s.250)
+kuka+Pron+Interr+Pl+Nom+Dial/Jok:kutka  K  ;  !
+kuka+Pron+Interr+Pl+Nom+Dial/Jok:ketkä  K  ;  ! # Varengin ja jokivarren varieteetissa -tk (katso Eiran grammatiikki s.250)
 
 kuka+Pron+Interr:ke             kuka_relkys_obl  ;  !!= * @CODE@
 kumpi+Pron+Interr:kum kumpi ;

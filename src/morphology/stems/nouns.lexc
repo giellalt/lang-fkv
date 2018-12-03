@@ -165,7 +165,7 @@ ateria:ateria n_21_oi ;
 alkuhistooria:alku#histooria n_21_oi ;
 histooria:histooria n_21_oi ;
 psykiatria:psykiatria n_21_oi ;
-assii+Dial/-Por:asia n_21_oi ; ! TODO TODO TODO This is old! We prob don't need to distgsh in stems
+!assii+Dial/-Por:asia n_21_oi ; ! TODO TODO TODO This is old! We prob don't need to distgsh in stems
 talvihaasia:talvi#haasia n_21_oi ;
 haasia:haasia n_21_oi ;
 makkaratianen:makkara#tia n_22_inen_odd ;
@@ -275,7 +275,7 @@ kirjailiija:kirjailiija n_21_oi ;
 oppiija:oppiija n_21_oi ;
 assiintunttiija:assiin#tunttiija n_21_oi ;
 tunttiija:tunttiija n_21_oi ;
-kulkkiija+Dial/-Por:kulkija n_21_oi ; ! dialekt, var.
+kulkkiija+Dial/Var:kulkija n_21_oi ; ! dialekt, var.
 lukija:lukija n_21_oi ;
 kuulija:kuulija n_21_oi ;
 kaalamasija:kaalama#sija n_11_AO  ;
@@ -3703,8 +3703,7 @@ aapahyljet:aapa#hylk n_32_et ;
 maihyljet:mai#hylk n_32_et ;
 kivihyljet:kivi#hylk n_32_et ;
 ryssänhyljet:ryssän#hylk n_32_et ;
-hyljet+Dial/-Por:hylk n_32_et ;
-hyljet+Dial/Por:hylk n_32_et ;
+hyljet:hylk n_32_et ;
 kangas:kank n_32_as ;
 kannas:kank n_32_as ;
 nokkarengas:nokka#renk n_32_as ;
@@ -3801,8 +3800,7 @@ kokkoushuonet:kokkous#huon n_32_et ;
 rukkoushuonet:rukkous#huon n_32_et ;
 savvuhuonet:savvu#huon n_32_et ;
 yöpymähuonet:yöpymä#huon n_32_et ;
-huonet+Dial/-Por:huon n_32_et ;
-huonet+Dial/Por:huon n_32_et ;
+huonet:huon n_32_et ;
 kaarnet:kaarn n_32_et ;
 hernet:hern n_32_et ;
 kaunet:kaun n_32_et ;
