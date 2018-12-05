@@ -112,9 +112,9 @@ LEXICON n_11_ae ! päivä, genpl päiviin
 
 LEXICON x_11_ae
 +Pl+Dial/Por:%>i2 gen_in ; ! päiviin
-  +Pl+Dial/Por:^HMETA           ill_hiin        ; ! päivhiin
-  +Pl+Dial/Var:^HMETA           ill_hiin        ; ! päivhiin
-  +Pl+Dial/Jok:^HMETA           ill_hiin        ; ! päivhiin
+  +Pl+Dial/Por:           ill_hiin        ; ! päivhiin
+  +Pl+Dial/Var:           ill_hiin        ; ! päivhiin
+  +Pl+Dial/Jok:           ill_hiin        ; ! päivhiin
              x_11_rest ;
 
 LEXICON n_11 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
@@ -123,7 +123,9 @@ LEXICON n_11 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin n
 
 LEXICON x_11
 +Pl+Dial/Por:%>i2 gen_n ; ! syksyin
-+Pl+Dial/Var:^HMETA           ill_hVin        ; ! toolhiin
++Pl+Dial/Por:^HMETA           ill_hVin        ; ! sykshyin
++Pl+Dial/Var:^HMETA           ill_hVin        ; ! sykshyin
++Pl+Dial/Jok:^HMETA           ill_hVin        ; ! sykshyin
              x_11_rest ; ! all x_11 except plural gen
 
 

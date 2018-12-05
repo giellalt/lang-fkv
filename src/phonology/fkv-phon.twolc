@@ -301,7 +301,7 @@ Rules
         [.#.|#:] Cns:*  Vow v _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:*  Vow v _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:*  Vow v _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
-        [.#.|#:] Cns:*  Vow v _  ä:  (Dial:) %> :i %> [i | %^V:i] ; ! jyvä jyvviin
+        [.#.|#:] Cns:*  Vow v _  ä:  (Dial:) %> :i %> [i | %^V:i] ; ! jyvä jyvviin  ==>  :i
         [.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
         [.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :a %> :a ;
                                 [l|r|n|m] v _ :Vow %>  i7: ;
@@ -1304,8 +1304,8 @@ Vx:e <=>  [.#.|#:] Cns:* Vow: (Vow:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
  ä:0 <=> :Cns (Cns:) _ (Dummy: - %^AE:0) (Dummy: - %^AE:0) (Dummy: - %^AE:0) %> [ i|i2:|i3:|i5: ] ; ! before i exc conditional
                      _ ä %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; ! 1.
             ä _ %^VDEL:0  (Dummy:) %> [s|t] ;
-  :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:ä|i:] ; ! 2.
-  :SurfaceCns _  %^HMETA: %> h [:ä|i:] ; ! 2.
+  :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:ä|i:] ; 
+  :SurfaceCns _                   %> h i i %> n  ; ! päivä>hiin : päiv0hiin
   :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) (:o) %> i2: ; ! 2.
   :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! 2.
 
