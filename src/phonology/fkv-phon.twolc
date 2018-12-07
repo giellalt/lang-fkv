@@ -345,7 +345,7 @@ p:0 <=> Vow: ([l|m|n|r]) p _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r|n) (e
 "Gradation p:v"
 !! __@RULENAME@__
 p:v <=> Vow: _ Vow:      Dummy:* ([:i|e:0]) Dummy:* %^WG:0 ; ! papu:pavun
-        Vow: _ Vow: Cns: Dummy:*            Dummy:* %^WG:0 ; ! taipal:taival
+        Vow: _ Vow: Cns: Dummy:* (e:0)      Dummy:* %^WG:0 ; ! taipal:taival
        [r|l] _ [e|a] %^WG:0 ;
 
 "Gradation mp:mm"
