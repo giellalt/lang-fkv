@@ -204,7 +204,7 @@ LEXICON x_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TODO whic
 +Pl+Dial/Var:^WG^AO%>i2          gen_tten        ;
 +Pl+Dial/Por :^AO%>i2             par_end         ;
 +Pl+Dial/Jok:^AO%>j              par_A           ; ! Use i:j in twolc j, see below
-+Pl+Dial/Var:^AO%>i2             par_A           ;
++Pl+Dial/Var:^AO%>j             par_A           ;
 +Pl          :^AO^HMETA           ill_hVin        ; ! sykshyin
 +Pl          :^AO%>i2             ess_nA          ;
 +Pl          :^AO%>i2             com_ne          ;
