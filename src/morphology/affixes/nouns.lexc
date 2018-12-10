@@ -112,10 +112,55 @@ LEXICON n_11_ae ! päivä, genpl päiviin
 
 LEXICON x_11_ae
 +Pl+Dial/Por:%>i2 gen_in ; ! päiviin
-  +Pl+Dial/Por:           ill_hiin        ; ! päivhiin
-  +Pl+Dial/Var:           ill_hiin        ; ! päivhiin
-  +Pl+Dial/Jok:           ill_hiin        ; ! päivhiin
-             x_11_rest ;
++Pl+Dial/Por:          ill_hiin         ; ! päivhiin
++Pl+Dial/Var:          ill_hiin         ; ! päivhiin
++Pl+Dial/Jok:          ill_hiin         ; ! päivhiin
+  
+   +Sg:    nom_end                 ;
+
+!Por
+  +Sg+Dial/Por:^WG              gen_n_sg        ;
+  +Sg+Dial/Por:^HMETA           ill_hVVn        ; ! päivhään
+  +Sg+Dial/Por:                 par_V           ;
+  +Sg+Dial/Por:                 ess_nA          ;
+  +Sg+Dial/Por:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
+
+  +Pl+Dial/Por:^WG              nom_t           ;
+! +Pl+Dial/Por:%>i2             gen_n           ; ! this in x_11
+  +Pl+Dial/Por:%>i2             par_V         ;
+  +Pl+Dial/Por:%>i2             ess_nA          ;
+  +Pl+Dial/Por:%>i2             com_ne          ;
+  +Pl+Dial/Por:^WG%>i2          sgpl_cases_even ; !the same affix in sg and pl
+
+!Jok
+  +Sg+Dial/Jok:^WG              gen_n_sg        ;
+  +Sg+Dial/Por:^HMETA           ill_hVVn        ; ! päivhään
+  +Sg+Dial/Jok:                 par_A           ;
+  +Sg+Dial/Jok:                 ess_nA          ;
+  +Sg+Dial/Jok:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
+
+  +Pl+Dial/Jok:^WG              nom_t           ;
+  +Pl+Dial/Jok:^WG%>i2          gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
+  +Pl+Dial/Jok:%>i2             par_A           ;
+  +Pl+Dial/Jok:%>i2             ess_nA          ;
+  +Pl+Dial/Jok:%>i2             com_ne          ;
+  +Pl+Dial/Jok:^WG%>i2          sgpl_cases_even ;
+
+!Var
+  +Sg+Dial/Var:^WG              gen_n_sg        ;
+  +Sg+Dial/Por:^HMETA            ill_hVVn        ; ! päivhään
+  +Sg+Dial/Var:                  par_A           ;
+  +Sg+Dial/Var:                 ess_nA          ;
+  +Sg+Dial/Var:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
+
+  +Pl+Dial/Var:^WG              nom_t           ;
+  +Pl+Dial/Var:^WG%>i2          gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
+  +Pl+Dial/Var:%>i2             par_A           ;
+  +Pl+Dial/Var:%>i2             ess_nA          ;
+  +Pl+Dial/Var:%>i2             com_ne          ;
+  +Pl+Dial/Var:^WG%>i2          sgpl_cases_even ; 
+  
+
 
 LEXICON n_11 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
 +N:             x_11     ;
@@ -168,7 +213,7 @@ LEXICON x_11_rest
 
 !Var
   +Sg+Dial/Var:^WG              gen_n_sg        ;
-  +Sg+Dial/Var:%>j                  par_A           ;
+  +Sg+Dial/Var:                  par_A           ;
   +Sg+Dial/Var:^HMETA           ill_hVVn        ;
   +Sg+Dial/Var:                 ess_nA          ;
   +Sg+Dial/Var:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
