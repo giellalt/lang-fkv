@@ -111,10 +111,10 @@ LEXICON n_11_ae ! päivä, genpl päiviin
 +N+Sg:          nom_R           ;
 
 LEXICON x_11_ae
-+Pl+Dial/Por:%>i2 gen_in ; ! päiviin
-+Pl+Dial/Por:          ill_hiin         ; ! päivhiin
-+Pl+Dial/Var:          ill_hiin         ; ! päivhiin
-+Pl+Dial/Jok:           ill_hiin        ; ! päivhiin
++Pl+Dial/Por:%>i2      gen_in      ; ! päiviin
++Pl+Dial/Por:          ill_hiin    ; ! päivhiin
++Pl+Dial/Var:          ill_hiin    ; ! päivhiin
++Pl+Dial/Jok:          ill_hiin    ; ! päivhiin
   
    +Sg:    nom_end                 ;
 
@@ -134,7 +134,7 @@ LEXICON x_11_ae
 
 !Jok
   +Sg+Dial/Jok:^WG              gen_n_sg        ;
-  +Sg+Dial/Por:^HMETA           ill_hVVn        ; ! päivhään
+  +Sg+Dial/Jok:^HMETA           ill_hVVn        ; ! päivhään
   +Sg+Dial/Jok:                 par_A           ;
   +Sg+Dial/Jok:                 ess_nA          ;
   +Sg+Dial/Jok:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
@@ -148,8 +148,8 @@ LEXICON x_11_ae
 
 !Var
   +Sg+Dial/Var:^WG              gen_n_sg        ;
-  +Sg+Dial/Por:^HMETA            ill_hVVn        ; ! päivhään
-  +Sg+Dial/Var:                  par_A           ;
+  +Sg+Dial/Var:^HMETA           ill_hVVn        ; ! päivhään
+  +Sg+Dial/Var:                 par_A           ;
   +Sg+Dial/Var:                 ess_nA          ;
   +Sg+Dial/Var:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
 
