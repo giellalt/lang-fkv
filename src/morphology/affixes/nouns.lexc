@@ -221,6 +221,7 @@ LEXICON x_11_rest
   +Pl+Dial/Var:^WG              nom_t           ;
   +Pl+Dial/Var:^WG%>i2          gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
   +Pl+Dial/Var:%>j               par_A           ; ! Use i:j in twolc j, see below
+ 
   +Pl+Dial/Var:%>i2             ess_nA          ;
   +Pl+Dial/Var:%>i2             com_ne          ;
   +Pl+Dial/Var:^WG%>i2          sgpl_cases_even ;
@@ -607,7 +608,7 @@ LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   +Sg+Dial/-Var:   par_tA          ;
   +Sg      :       ill_hVn         ; ! fileehen
   +Sg      :       ess_nA          ;
-  +Sg      :       sgpl_cases_odd  ;
+  +Sg      :       sgpl_cases_even  ;
 
   +Pl      :       nom_t           ;
   +Pl      :%>i2   gen_tten        ;
