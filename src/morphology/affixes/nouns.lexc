@@ -111,10 +111,10 @@ LEXICON n_11_ae ! päivä, genpl päiviin
 +N+Sg:          nom_R           ;
 
 LEXICON x_11_ae
-+Pl+Dial/Por:%>i2      gen_in      ; ! päiviin
-+Pl+Dial/Por:          ill_hiin    ; ! päivhiin
-+Pl+Dial/Var:          ill_hiin    ; ! päivhiin
-+Pl+Dial/Jok:          ill_hiin    ; ! päivhiin
++Pl+Dial/Por:%>i2 gen_in ; ! päiviin
++Pl+Dial/Por:          ill_hiin         ; ! päivhiin
++Pl+Dial/Var:          ill_hiin         ; ! päivhiin
++Pl+Dial/Jok:           ill_hiin        ; ! päivhiin
   
    +Sg:    nom_end                 ;
 
@@ -148,8 +148,8 @@ LEXICON x_11_ae
 
 !Var
   +Sg+Dial/Var:^WG              gen_n_sg        ;
-  +Sg+Dial/Var:^HMETA           ill_hVVn        ; ! päivhään
-  +Sg+Dial/Var:                 par_A           ;
+  +Sg+Dial/Por:^HMETA            ill_hVVn        ; ! päivhään
+  +Sg+Dial/Var:                  par_A           ;
   +Sg+Dial/Var:                 ess_nA          ;
   +Sg+Dial/Var:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
 
@@ -880,12 +880,12 @@ LEXICON x_22 ! tyven
   +Pl      :%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
   LEXICON x_22_Var ! tyven
-    +Sg      :^WG^E0       nom_end        ; ! tytär
-   ! +Sg      :^WG^T0^E0    nom_end        ; ! tyär
+    +Sg      :^WG       nom_end        ; ! tytär
+    +Sg      :^WG^T0^E0    nom_end        ; ! tyär
   !  +Sg      :             gen_n_sg       ;
     +Sg      :^WG          gen_n_sg       ;
     +Sg      :^WG^E0       par_tA         ; ! tytärtä
- !  +Sg      :^WG^T0^E0    par_tA         ; ! tyärtä
+   +Sg      :^WG^T0^E0    par_tA         ; ! tyärtä
     +Sg      :^HMETA       ill_hVVn       ;
     +Sg      :             ess_nnA        ;
     +Sg      :             sgpl_cases_odd ;
