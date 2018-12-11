@@ -206,8 +206,7 @@ LEXICON x_11_rest
 
   +Pl+Dial/Jok:^WG              nom_t           ;
   +Pl+Dial/Jok:^WG%>i2          gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
-  +Pl+Dial/Var:%>j               par_A           ; ! Use i:j in twolc j, see below
-  +Pl+Dial/Jok:%>i2             par_A           ;
+  +Pl+Dial/Jok:%>j             par_A           ; ! Use i:j in twolc j, see
   +Pl+Dial/Jok:%>i2             ess_nA          ;
   +Pl+Dial/Jok:%>i2             com_ne          ;
   +Pl+Dial/Jok:^WG%>i2          sgpl_cases_even ;
@@ -222,7 +221,6 @@ LEXICON x_11_rest
   +Pl+Dial/Var:^WG              nom_t           ;
   +Pl+Dial/Var:^WG%>i2          gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
   +Pl+Dial/Var:%>j               par_A           ; ! Use i:j in twolc j, see below
-  +Pl+Dial/Var:%>i2             par_A           ;
   +Pl+Dial/Var:%>i2             ess_nA          ;
   +Pl+Dial/Var:%>i2             com_ne          ;
   +Pl+Dial/Var:^WG%>i2          sgpl_cases_even ;
