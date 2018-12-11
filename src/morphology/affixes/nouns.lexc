@@ -181,6 +181,7 @@ LEXICON vanha_n_21C ! TODO check what is this?
 
 LEXICON x_11_rest
   +Sg:    nom_end                 ;
+  +Sg          :^HMETA              ill_hVVn        ;
 
 !Por
   +Sg+Dial/Por:^WG              gen_n_sg        ;
@@ -213,7 +214,7 @@ LEXICON x_11_rest
 
 !Var
   +Sg+Dial/Var:^WG              gen_n_sg        ;
-  +Sg+Dial/Var:                  par_A           ;
+  +Sg+Dial/Var:                  par_A          ;
   +Sg+Dial/Var:^HMETA           ill_hVVn        ;
   +Sg+Dial/Var:                 ess_nA          ;
   +Sg+Dial/Var:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
@@ -880,7 +881,7 @@ LEXICON x_22 ! tyven
   +Pl      :%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
   LEXICON x_22_Var ! tyven
-    +Sg      :^WG       nom_end        ; ! tytär
+    +Sg      :^WG^E0       nom_end        ; ! tytär
     +Sg      :^WG^T0^E0    nom_end        ; ! tyär
   !  +Sg      :             gen_n_sg       ;
     +Sg      :^WG          gen_n_sg       ;
