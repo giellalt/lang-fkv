@@ -519,6 +519,7 @@ LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 
 LEXICON v3_aise !!= @CODE@ aukaista:aukaise
 +v1+Dial/Por:is v3_ise_inflection ; ! aukaista, aukaisen, ...
++v1+Dial/Por:s v3_ise_inflection ; ! aukasta, aukasen, ...
 +v2+Dial/Var:s v3_ise_inflection ; ! aukasta, aukasen, ...
 +v2+Dial/Jok:s v3_ise_inflection ; ! aukasta, aukasen, ...
 
@@ -526,6 +527,10 @@ LEXICON v3_ise_inflection
 +V+Inf:%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>see K ;
 +V+Act+Ind+Prs+Pl3:%>th^A^An K ;
+!+V+Act+Ind+Prs+Pl3:%>se%>^V%>v^A K ;
+!+V+Act+Ind+Prs+Pl3:%>e%>v^A K ;
+!+V+Act+Ind+Prs+Pl3:%>se%>^V%>v^At K ;
+!+V+Act+Ind+Prs+Pl3:%>e%>v^At K ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:%>thiin K ;
 +V+Act+Ind+Prs:%>e v12pers_long ; ! aukaisemma
