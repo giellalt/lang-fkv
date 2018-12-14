@@ -21,7 +21,7 @@ Tests:
      aukaista+V+Act+Ind+Prs+Sg3: [aukaissee, aukassee]
      aukaista+V+Act+Ind+Prs+Pl1: [aukaisemma, aukasemma]
      aukaista+V+Act+Ind+Prs+Pl2: [aukaisetta, aukasetta]
-     aukaista+V+Act+Ind+Prs+Pl3: [aukaisthaan, aukasthaan, aukaisevat, aukaiseva, aukaisseeva, aukaisseevat]
+     aukaista+V+Act+Ind+Prs+Pl3: [aukaisthaan, aukasthaan, aukaisseeva, aukaisseevat, aukassevat, aukasseva]
      aukaista+V+Act+Ind+Prt+Sg1: [aukaisin, aukasin]
      aukaista+V+Act+Ind+Prt+Sg2: [aukaisit, aukasit]
      aukaista+V+Act+Ind+Prt+Sg3: [aukaisi, aukasi]
@@ -31,10 +31,13 @@ Tests:
      aukaista+V+Act+PrfPrc+Sg+Nom: [aukaissu, aukassu]
      aukaista+V+Pass+PrfPrc+Nom: [aukaistu, aukastu]
      aukaista+V+Act+PrfPrc+Pl+Nom: [aukaisheet, aukasheet]
-     aukaista+V+Act+PrsPrc+Sg+Nom: [aukaisseeva, aukasseeva, aukaiseva, aukaseva]
-     aukaista+V+Act+PrsPrc+Pl+Nom: [aukaisseevat, aukasseevat, aukaisevat, aukasevat]
+     aukaista+V+Act+PrsPrc+Sg+Nom: [aukaisseeva, aukasseeva]
+     aukaista+V+Act+PrsPrc+Pl+Nom: [aukaisseevat, aukasseevat]
      aukaista+V+Pass+PrsPrc+Sg+Nom: [aukaistava, aukastava]
      aukaista+V+Pass+PrsPrc+Pl+Nom: [aukaistavat, aukastavat]
+
+# Kommentti Act Ind Pl3:stä: Norjankielisen grammatiikin mukaan preesens partisiippi tehdään sillä tavoin, että -vA
+# suffiksi laitetaan indikatiivin preesensin aktiiviin muotoon sg3:ssä. Katso sivulla 267 norjankielisessä grammatiikissa.
 
      aukaista+V+Act+Cond+Sg1: [aukaisisin, aukasisin]
      aukaista+V+Act+Cond+Sg2: [aukaisisit, aukasisit]
