@@ -235,7 +235,7 @@ LEXICON n_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
 LEXICON x_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
 +Sg          :                    nom_R           ;
 +Sg          :                    nom_end         ;
-+Sg          :^WG                 gen_n_sg        ;
++Sg          :^Por^WG                 gen_n_sg        ;
 +Sg+Dial/Por :                    par_V           ;
 +Sg+Dial/Var:                    par_A           ;
 +Sg+Dial/Jok:                    par_A           ;
@@ -243,7 +243,7 @@ LEXICON x_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TODO whic
 +Sg          :                    ess_nA          ;
 +Sg          :^Por^WG                 sgpl_cases_even ; !to sgpl_cases_even for cases with
 
-+Pl          :^WG                 nom_t           ;
++Pl          :^Por^WG                 nom_t           ;
 +Pl+Dial/Por :^AO%>i2             gen_n           ; ! gen_n         since we have the i
 +Pl+Dial/Jok:^WG^AO%>i2          gen_tten        ;
 +Pl+Dial/Var:^WG^AO%>i2          gen_tten        ;
