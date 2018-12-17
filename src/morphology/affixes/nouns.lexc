@@ -241,7 +241,7 @@ LEXICON x_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TODO whic
 +Sg+Dial/Jok:                    par_A           ;
 +Sg          :^HMETA              ill_hVVn        ;
 +Sg          :                    ess_nA          ;
-+Sg          :^WG                 sgpl_cases_even ; !to sgpl_cases_even for cases with
++Sg          :^Por^WG                 sgpl_cases_even ; !to sgpl_cases_even for cases with
 
 +Pl          :^WG                 nom_t           ;
 +Pl+Dial/Por :^AO%>i2             gen_n           ; ! gen_n         since we have the i
