@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (joulukuun 18. päivänä 2018, klo. 21:17)</title>  
+    <title>Generoidut muodot (tammikuun 7. päivänä 2019, klo. 18:57)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -2279,10 +2279,16 @@
 <tr><td>statistikki+N+Pl+Par</td><td>statistikkii</td></tr>
 <tr><td>kuikka+N+Pl+Par</td><td>kuikkii</td></tr>
 <tr><td>kalkki+N+Pl+Par</td><td>kalkkii</td></tr>
+<tr><td>selkä+N+Pl+Par</td><td>selkkii</td></tr>
+<tr><td>kissanselkä+N+Pl+Par</td><td>kissanselkkii</td></tr>
 <tr><td>nulkka+N+Pl+Par</td><td>nulkkii</td></tr>
 <tr><td>pulkka+N+Pl+Par</td><td>pulkkii</td></tr>
 <tr><td>tulkki+N+Pl+Par</td><td>tulkkii</td></tr>
 <tr><td>fylkki+N+Pl+Par</td><td>fylkkii</td></tr>
+<tr><td>nälkä+N+Pl+Par</td><td>nälkkii</td></tr>
+<tr><td>sölkä+N+Pl+Par</td><td>sölkkii</td></tr>
+<tr><td>vaaransölkä+N+Pl+Par</td><td>vaaransölkkii</td></tr>
+<tr><td>kissansölkä+N+Pl+Par</td><td>kissansölkkii</td></tr>
 <tr><td>hankki+N+Pl+Par</td><td>hankkii</td></tr>
 <tr><td>pankki+N+Pl+Par</td><td>pankkii</td></tr>
 <tr><td>rantapankki+N+Pl+Par</td><td>rantapankkii</td></tr>
@@ -2290,6 +2296,14 @@
 <tr><td>korallipankki+N+Pl+Par</td><td>korallipankkii</td></tr>
 <tr><td>vesitankki+N+Pl+Par</td><td>vesitankkii</td></tr>
 <tr><td>kenkki+N+Pl+Par</td><td>kenkkii</td></tr>
+<tr><td>kenkä+N+Pl+Par</td><td>kenkkii</td></tr>
+<tr><td>paulakenkä+N+Pl+Par</td><td>paulakenkkii</td></tr>
+<tr><td>loppakenkä+N+Pl+Par</td><td>loppakenkkii</td></tr>
+<tr><td>vuotakenkä+N+Pl+Par</td><td>vuotakenkkii</td></tr>
+<tr><td>joggekenkä+N+Pl+Par</td><td>joggekenkkii</td></tr>
+<tr><td>hevoisenkenkä+N+Pl+Par</td><td>hevoisenkenkkii</td></tr>
+<tr><td>hevosenkenkä+N+Pl+Par</td><td>hevosenkenkkii</td></tr>
+<tr><td>hihtokenkä+N+Pl+Par</td><td>hihtokenkkii</td></tr>
 <tr><td>skenkki+N+Pl+Par</td><td>skenkkii</td></tr>
 <tr><td>jouluskenkki+N+Pl+Par</td><td>jouluskenkkii</td></tr>
 <tr><td>joulukenkki+N+Pl+Par</td><td>joulukenkkii</td></tr>
@@ -2368,7 +2382,11 @@
 <tr><td>nurkka+N+Pl+Par</td><td>nurkkii</td></tr>
 <tr><td>purkki+N+Pl+Par</td><td>purkkii</td></tr>
 <tr><td>turkki+N+Pl+Par</td><td>turkkii</td></tr>
+<tr><td>yrkä+N+Pl+Par</td><td>yrkkii</td></tr>
 <tr><td>nyrkki+N+Pl+Par</td><td>nyrkkii</td></tr>
+<tr><td>härkä+N+Pl+Par</td><td>härkkii</td></tr>
+<tr><td>kruununhärkä+N+Pl+Par</td><td>kruununhärkkii</td></tr>
+<tr><td>vetohärkä+N+Pl+Par</td><td>vetohärkkii</td></tr>
 <tr><td>haukka+N+Pl+Par</td><td>haukkii</td></tr>
 <tr><td>hauki+N+Pl+Par</td><td>haukkii</td></tr>
 <tr><td>hiirihaukka+N+Pl+Par</td><td>hiirihaukkii</td></tr>
@@ -2440,32 +2458,18 @@
 <tr><td>mökki+N+Pl+Par</td><td>mökkii</td></tr>
 <tr><td>köökki+N+Pl+Par</td><td>köökkii</td></tr>
 <tr><td>löökki+N+Pl+Par</td><td>löökkii</td></tr>
-<tr><td>selkä+N+Pl+Par</td><td>selkii</td></tr>
-<tr><td>kissanselkä+N+Pl+Par</td><td>kissanselkii</td></tr>
 <tr><td>telki+N+Pl+Par</td><td>telkii</td></tr>
 <tr><td>solki+N+Pl+Par</td><td>solkii</td></tr>
 <tr><td>kylki+N+Pl+Par</td><td>kylkii</td></tr>
 <tr><td>vaarankylki+N+Pl+Par</td><td>vaarankylkii</td></tr>
 <tr><td>sylki+N+Pl+Par</td><td>sylkii</td></tr>
 <tr><td>jälki+N+Pl+Par</td><td>jälkii</td></tr>
-<tr><td>nälkä+N+Pl+Par</td><td>nälkii</td></tr>
-<tr><td>sölkä+N+Pl+Par</td><td>sölkii</td></tr>
-<tr><td>vaaransölkä+N+Pl+Par</td><td>vaaransölkii</td></tr>
-<tr><td>kissansölkä+N+Pl+Par</td><td>kissansölkii</td></tr>
 <tr><td>fanki+N+Pl+Par</td><td>fankii</td></tr>
 <tr><td>hanki+N+Pl+Par</td><td>hankii</td></tr>
 <tr><td>kanki+N+Pl+Par</td><td>kankii</td></tr>
 <tr><td>rautakanki+N+Pl+Par</td><td>rautakankii</td></tr>
 <tr><td>seiväskanki+N+Pl+Par</td><td>seiväskankii</td></tr>
 <tr><td>henki+N+Pl+Par</td><td>henkii</td></tr>
-<tr><td>kenkä+N+Pl+Par</td><td>kenkii</td></tr>
-<tr><td>paulakenkä+N+Pl+Par</td><td>paulakenkii</td></tr>
-<tr><td>loppakenkä+N+Pl+Par</td><td>loppakenkii</td></tr>
-<tr><td>vuotakenkä+N+Pl+Par</td><td>vuotakenkii</td></tr>
-<tr><td>joggekenkä+N+Pl+Par</td><td>joggekenkii</td></tr>
-<tr><td>hevoisenkenkä+N+Pl+Par</td><td>hevoisenkenkii</td></tr>
-<tr><td>hevosenkenkä+N+Pl+Par</td><td>hevosenkenkii</td></tr>
-<tr><td>hihtokenkä+N+Pl+Par</td><td>hihtokenkii</td></tr>
 <tr><td>trenki+N+Pl+Par</td><td>trenkii</td></tr>
 <tr><td>prioriteerinki+N+Pl+Par</td><td>prioriteerinkii</td></tr>
 <tr><td>sortteerinki+N+Pl+Par</td><td>sortteerinkii</td></tr>
@@ -2483,10 +2487,6 @@
 <tr><td>arki+N+Pl+Par</td><td>arkii</td></tr>
 <tr><td>suorki+N+Pl+Par</td><td>suorkii</td></tr>
 <tr><td>kurki+N+Pl+Par</td><td>kurkii</td></tr>
-<tr><td>yrkä+N+Pl+Par</td><td>yrkii</td></tr>
-<tr><td>härkä+N+Pl+Par</td><td>härkii</td></tr>
-<tr><td>kruununhärkä+N+Pl+Par</td><td>kruununhärkii</td></tr>
-<tr><td>vetohärkä+N+Pl+Par</td><td>vetohärkii</td></tr>
 <tr><td>järki+N+Pl+Par</td><td>järkii</td></tr>
 <tr><td>kärki+N+Pl+Par</td><td>kärkii</td></tr>
 <tr><td>paaski+N+Pl+Par</td><td>paaskii</td></tr>

@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (joulukuun 5. päivänä 2018, klo. 10:21)</title>  
+    <title>Generoidut muodot (joulukuun 18. päivänä 2018, klo. 21:38)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -1397,12 +1397,12 @@
 <tr><td>muijeta+V+Act+Ind+Prt+Pl1</td><td>muikenimma</td></tr>
 <tr><td>valjeta+V+Act+Ind+Prt+Pl1</td><td>valkenimma</td></tr>
 <tr><td>tarjeta+V+Act+Ind+Prt+Pl1</td><td>tarkenimma</td></tr>
-<tr><td>liueta+V+Act+Ind+Prt+Pl1</td><td>liukenimma</td></tr>
 <tr><td>kuumeta+V+Act+Ind+Prt+Pl1</td><td>kuumenimma</td></tr>
 <tr><td>nuoreta+V+Act+Ind+Prt+Pl1</td><td>nuorenimma</td></tr>
 <tr><td>suureta+V+Act+Ind+Prt+Pl1</td><td>suurenimma</td></tr>
 <tr><td>huonota+V+Act+Ind+Prt+Pl1</td><td>huononimma</td></tr>
 <tr><td>isota+V+Act+Ind+Prt+Pl1</td><td>isonimma</td></tr>
+<tr><td>rangaista+V+Act+Ind+Prt+Pl1</td><td>rangasimma</td></tr>
 <tr><td>laahata+V+Act+Ind+Prt+Pl1</td><td>laahasimma</td></tr>
 <tr><td>raahata+V+Act+Ind+Prt+Pl1</td><td>raahasimma</td></tr>
 <tr><td>sahata+V+Act+Ind+Prt+Pl1</td><td>sahasimma</td></tr>
@@ -1415,10 +1415,16 @@
 <tr><td>ohjata+V+Act+Ind+Prt+Pl1</td><td>ohjasimma</td></tr>
 <tr><td>speijata+V+Act+Ind+Prt+Pl1</td><td>speijasimma</td></tr>
 <tr><td>puijata+V+Act+Ind+Prt+Pl1</td><td>puijasimma</td></tr>
+<tr><td>kiljaista+V+Act+Ind+Prt+Pl1</td><td>kiljasimma</td></tr>
 <tr><td>nojata+V+Act+Ind+Prt+Pl1</td><td>nojasimma</td></tr>
+<tr><td>karjaista+V+Act+Ind+Prt+Pl1</td><td>karjasimma</td></tr>
 <tr><td>korjata+V+Act+Ind+Prt+Pl1</td><td>korjasimma</td></tr>
+<tr><td>lakaista+V+Act+Ind+Prt+Pl1</td><td>lakasimma</td></tr>
 <tr><td>maata+V+Act+Ind+Prt+Pl1</td><td>makasimma</td></tr>
+<tr><td>lohkaista+V+Act+Ind+Prt+Pl1</td><td>lohkasimma</td></tr>
 <tr><td>uhata+V+Act+Ind+Prt+Pl1</td><td>uhkasimma</td></tr>
+<tr><td>puhkaista+V+Act+Ind+Prt+Pl1</td><td>puhkasimma</td></tr>
+<tr><td>oikaista+V+Act+Ind+Prt+Pl1</td><td>oikasimma</td></tr>
 <tr><td>kaakata+V+Act+Ind+Prt+Pl1</td><td>kaakkasimma</td></tr>
 <tr><td>raakata+V+Act+Ind+Prt+Pl1</td><td>raakkasimma</td></tr>
 <tr><td>traakata+V+Act+Ind+Prt+Pl1</td><td>traakkasimma</td></tr>
@@ -1452,14 +1458,19 @@
 <tr><td>pluukata+V+Act+Ind+Prt+Pl1</td><td>pluukkasimma</td></tr>
 <tr><td>pruukata+V+Act+Ind+Prt+Pl1</td><td>pruukkasimma</td></tr>
 <tr><td>söökata+V+Act+Ind+Prt+Pl1</td><td>söökkasimma</td></tr>
+<tr><td>halkaista+V+Act+Ind+Prt+Pl1</td><td>halkasimma</td></tr>
+<tr><td>julkaista+V+Act+Ind+Prt+Pl1</td><td>julkasimma</td></tr>
+<tr><td>rankaista+V+Act+Ind+Prt+Pl1</td><td>rankasimma</td></tr>
 <tr><td>hengata+V+Act+Ind+Prt+Pl1</td><td>henkasimma</td></tr>
 <tr><td>tingata+V+Act+Ind+Prt+Pl1</td><td>tinkasimma</td></tr>
 <tr><td>huoata+V+Act+Ind+Prt+Pl1</td><td>huokasimma</td></tr>
+<tr><td>huokaista+V+Act+Ind+Prt+Pl1</td><td>huokasimma</td></tr>
 <tr><td>karata+V+Act+Ind+Prt+Pl1</td><td>karkasimma</td></tr>
 <tr><td>haaskata+V+Act+Ind+Prt+Pl1</td><td>haaskasimma</td></tr>
 <tr><td>paiskata+V+Act+Ind+Prt+Pl1</td><td>paiskasimma</td></tr>
 <tr><td>fiskata+V+Act+Ind+Prt+Pl1</td><td>fiskasimma</td></tr>
 <tr><td>piiskata+V+Act+Ind+Prt+Pl1</td><td>piiskasimma</td></tr>
+<tr><td>kiskaista+V+Act+Ind+Prt+Pl1</td><td>kiskasimma</td></tr>
 <tr><td>tiskata+V+Act+Ind+Prt+Pl1</td><td>tiskasimma</td></tr>
 <tr><td>kuiskata+V+Act+Ind+Prt+Pl1</td><td>kuiskasimma</td></tr>
 <tr><td>tuiskata+V+Act+Ind+Prt+Pl1</td><td>tuiskasimma</td></tr>
@@ -1468,11 +1479,17 @@
 <tr><td>kerskata+V+Act+Ind+Prt+Pl1</td><td>kerskasimma</td></tr>
 <tr><td>murskata+V+Act+Ind+Prt+Pl1</td><td>murskasimma</td></tr>
 <tr><td>jatkata+V+Act+Ind+Prt+Pl1</td><td>jatkasimma</td></tr>
+<tr><td>katkaista+V+Act+Ind+Prt+Pl1</td><td>katkasimma</td></tr>
+<tr><td>ratkaista+V+Act+Ind+Prt+Pl1</td><td>ratkasimma</td></tr>
 <tr><td>vatkata+V+Act+Ind+Prt+Pl1</td><td>vatkasimma</td></tr>
+<tr><td>potkaista+V+Act+Ind+Prt+Pl1</td><td>potkasimma</td></tr>
+<tr><td>aukaista+V+Act+Ind+Prt+Pl1</td><td>aukasimma</td></tr>
+<tr><td>laukaista+V+Act+Ind+Prt+Pl1</td><td>laukasimma</td></tr>
 <tr><td>maalata+V+Act+Ind+Prt+Pl1</td><td>maalasimma</td></tr>
 <tr><td>halata+V+Act+Ind+Prt+Pl1</td><td>halasimma</td></tr>
 <tr><td>palata+V+Act+Ind+Prt+Pl1</td><td>palasimma</td></tr>
 <tr><td>salata+V+Act+Ind+Prt+Pl1</td><td>salasimma</td></tr>
+<tr><td>nielaista+V+Act+Ind+Prt+Pl1</td><td>nielasimma</td></tr>
 <tr><td>kelata+V+Act+Ind+Prt+Pl1</td><td>kelasimma</td></tr>
 <tr><td>pelata+V+Act+Ind+Prt+Pl1</td><td>pelasimma</td></tr>
 <tr><td>tuhlata+V+Act+Ind+Prt+Pl1</td><td>tuhlasimma</td></tr>
@@ -1514,11 +1531,13 @@
 <tr><td>kruunata+V+Act+Ind+Prt+Pl1</td><td>kruunasimma</td></tr>
 <tr><td>pruunata+V+Act+Ind+Prt+Pl1</td><td>pruunasimma</td></tr>
 <tr><td>suunata+V+Act+Ind+Prt+Pl1</td><td>suunasimma</td></tr>
+<tr><td>kraapasta+V+Act+Ind+Prt+Pl1</td><td>kraapasimma</td></tr>
 <tr><td>tavata+V+Act+Ind+Prt+Pl1</td><td>tapasimma</td></tr>
 <tr><td>kaivata+V+Act+Ind+Prt+Pl1</td><td>kaipasimma</td></tr>
 <tr><td>kelvata+V+Act+Ind+Prt+Pl1</td><td>kelpasimma</td></tr>
 <tr><td>kammata+V+Act+Ind+Prt+Pl1</td><td>kampasimma</td></tr>
 <tr><td>temmata+V+Act+Ind+Prt+Pl1</td><td>tempasimma</td></tr>
+<tr><td>kopaista+V+Act+Ind+Prt+Pl1</td><td>kopasimma</td></tr>
 <tr><td>klapata+V+Act+Ind+Prt+Pl1</td><td>klappasimma</td></tr>
 <tr><td>tapata+V+Act+Ind+Prt+Pl1</td><td>tappasimma</td></tr>
 <tr><td>sliipata+V+Act+Ind+Prt+Pl1</td><td>sliippasimma</td></tr>
@@ -1621,6 +1640,7 @@
 <tr><td>triivata+V+Act+Ind+Prt+Pl1</td><td>triivasimma</td></tr>
 <tr><td>kuivata+V+Act+Ind+Prt+Pl1</td><td>kuivasimma</td></tr>
 <tr><td>tolvata+V+Act+Ind+Prt+Pl1</td><td>tolvasimma</td></tr>
+<tr><td>ulvaista+V+Act+Ind+Prt+Pl1</td><td>ulvasimma</td></tr>
 <tr><td>luovata+V+Act+Ind+Prt+Pl1</td><td>luovasimma</td></tr>
 <tr><td>arvata+V+Act+Ind+Prt+Pl1</td><td>arvasimma</td></tr>
 <tr><td>tervata+V+Act+Ind+Prt+Pl1</td><td>tervasimma</td></tr>
@@ -1639,6 +1659,7 @@
 <tr><td>ratketa+V+Act+Ind+Prt+Pl1</td><td>ratkesimma</td></tr>
 <tr><td>aueta+V+Act+Ind+Prt+Pl1</td><td>aukesimma</td></tr>
 <tr><td>laueta+V+Act+Ind+Prt+Pl1</td><td>laukesimma</td></tr>
+<tr><td>liueta+V+Act+Ind+Prt+Pl1</td><td>liukesimma</td></tr>
 <tr><td>tođeta+V+Act+Ind+Prt+Pl1</td><td>totesimma</td></tr>
 <tr><td>rangaista+V+Act+Ind+Prt+Pl1</td><td>rangaisimma</td></tr>
 <tr><td>kiljaista+V+Act+Ind+Prt+Pl1</td><td>kiljaisimma</td></tr>
