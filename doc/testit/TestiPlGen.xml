@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (joulukuun 18. päivänä 2018, klo. 21:17)</title>  
+    <title>Generoidut muodot (tammikuun 7. päivänä 2019, klo. 18:58)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -3014,10 +3014,16 @@
 <tr><td>roikka+N+Pl+Gen</td><td>roikkiin</td></tr>
 <tr><td>kuikka+N+Pl+Gen</td><td>kuikkiin</td></tr>
 <tr><td>kalkki+N+Pl+Gen</td><td>kalkkiin</td></tr>
+<tr><td>selkä+N+Pl+Gen</td><td>selkkiin</td></tr>
+<tr><td>kissanselkä+N+Pl+Gen</td><td>kissanselkkiin</td></tr>
 <tr><td>nulkka+N+Pl+Gen</td><td>nulkkiin</td></tr>
 <tr><td>pulkka+N+Pl+Gen</td><td>pulkkiin</td></tr>
 <tr><td>tulkki+N+Pl+Gen</td><td>tulkkiin</td></tr>
 <tr><td>fylkki+N+Pl+Gen</td><td>fylkkiin</td></tr>
+<tr><td>nälkä+N+Pl+Gen</td><td>nälkkiin</td></tr>
+<tr><td>sölkä+N+Pl+Gen</td><td>sölkkiin</td></tr>
+<tr><td>vaaransölkä+N+Pl+Gen</td><td>vaaransölkkiin</td></tr>
+<tr><td>kissansölkä+N+Pl+Gen</td><td>kissansölkkiin</td></tr>
 <tr><td>hankki+N+Pl+Gen</td><td>hankkiin</td></tr>
 <tr><td>pankki+N+Pl+Gen</td><td>pankkiin</td></tr>
 <tr><td>rantapankki+N+Pl+Gen</td><td>rantapankkiin</td></tr>
@@ -3025,6 +3031,14 @@
 <tr><td>korallipankki+N+Pl+Gen</td><td>korallipankkiin</td></tr>
 <tr><td>vesitankki+N+Pl+Gen</td><td>vesitankkiin</td></tr>
 <tr><td>kenkki+N+Pl+Gen</td><td>kenkkiin</td></tr>
+<tr><td>kenkä+N+Pl+Gen</td><td>kenkkiin</td></tr>
+<tr><td>paulakenkä+N+Pl+Gen</td><td>paulakenkkiin</td></tr>
+<tr><td>loppakenkä+N+Pl+Gen</td><td>loppakenkkiin</td></tr>
+<tr><td>vuotakenkä+N+Pl+Gen</td><td>vuotakenkkiin</td></tr>
+<tr><td>joggekenkä+N+Pl+Gen</td><td>joggekenkkiin</td></tr>
+<tr><td>hevoisenkenkä+N+Pl+Gen</td><td>hevoisenkenkkiin</td></tr>
+<tr><td>hevosenkenkä+N+Pl+Gen</td><td>hevosenkenkkiin</td></tr>
+<tr><td>hihtokenkä+N+Pl+Gen</td><td>hihtokenkkiin</td></tr>
 <tr><td>skenkki+N+Pl+Gen</td><td>skenkkiin</td></tr>
 <tr><td>jouluskenkki+N+Pl+Gen</td><td>jouluskenkkiin</td></tr>
 <tr><td>joulukenkki+N+Pl+Gen</td><td>joulukenkkiin</td></tr>
@@ -3103,7 +3117,11 @@
 <tr><td>nurkka+N+Pl+Gen</td><td>nurkkiin</td></tr>
 <tr><td>purkki+N+Pl+Gen</td><td>purkkiin</td></tr>
 <tr><td>turkki+N+Pl+Gen</td><td>turkkiin</td></tr>
+<tr><td>yrkä+N+Pl+Gen</td><td>yrkkiin</td></tr>
 <tr><td>nyrkki+N+Pl+Gen</td><td>nyrkkiin</td></tr>
+<tr><td>härkä+N+Pl+Gen</td><td>härkkiin</td></tr>
+<tr><td>kruununhärkä+N+Pl+Gen</td><td>kruununhärkkiin</td></tr>
+<tr><td>vetohärkä+N+Pl+Gen</td><td>vetohärkkiin</td></tr>
 <tr><td>haukka+N+Pl+Gen</td><td>haukkiin</td></tr>
 <tr><td>hauki+N+Pl+Gen</td><td>haukkiin</td></tr>
 <tr><td>hiirihaukka+N+Pl+Gen</td><td>hiirihaukkiin</td></tr>
@@ -3175,32 +3193,18 @@
 <tr><td>mökki+N+Pl+Gen</td><td>mökkiin</td></tr>
 <tr><td>köökki+N+Pl+Gen</td><td>köökkiin</td></tr>
 <tr><td>löökki+N+Pl+Gen</td><td>löökkiin</td></tr>
-<tr><td>selkä+N+Pl+Gen</td><td>selkiin</td></tr>
-<tr><td>kissanselkä+N+Pl+Gen</td><td>kissanselkiin</td></tr>
 <tr><td>telki+N+Pl+Gen</td><td>telkiin</td></tr>
 <tr><td>solki+N+Pl+Gen</td><td>solkiin</td></tr>
 <tr><td>kylki+N+Pl+Gen</td><td>kylkiin</td></tr>
 <tr><td>vaarankylki+N+Pl+Gen</td><td>vaarankylkiin</td></tr>
 <tr><td>sylki+N+Pl+Gen</td><td>sylkiin</td></tr>
 <tr><td>jälki+N+Pl+Gen</td><td>jälkiin</td></tr>
-<tr><td>nälkä+N+Pl+Gen</td><td>nälkiin</td></tr>
-<tr><td>sölkä+N+Pl+Gen</td><td>sölkiin</td></tr>
-<tr><td>vaaransölkä+N+Pl+Gen</td><td>vaaransölkiin</td></tr>
-<tr><td>kissansölkä+N+Pl+Gen</td><td>kissansölkiin</td></tr>
 <tr><td>fanki+N+Pl+Gen</td><td>fankiin</td></tr>
 <tr><td>hanki+N+Pl+Gen</td><td>hankiin</td></tr>
 <tr><td>kanki+N+Pl+Gen</td><td>kankiin</td></tr>
 <tr><td>rautakanki+N+Pl+Gen</td><td>rautakankiin</td></tr>
 <tr><td>seiväskanki+N+Pl+Gen</td><td>seiväskankiin</td></tr>
 <tr><td>henki+N+Pl+Gen</td><td>henkiin</td></tr>
-<tr><td>kenkä+N+Pl+Gen</td><td>kenkiin</td></tr>
-<tr><td>paulakenkä+N+Pl+Gen</td><td>paulakenkiin</td></tr>
-<tr><td>loppakenkä+N+Pl+Gen</td><td>loppakenkiin</td></tr>
-<tr><td>vuotakenkä+N+Pl+Gen</td><td>vuotakenkiin</td></tr>
-<tr><td>joggekenkä+N+Pl+Gen</td><td>joggekenkiin</td></tr>
-<tr><td>hevoisenkenkä+N+Pl+Gen</td><td>hevoisenkenkiin</td></tr>
-<tr><td>hevosenkenkä+N+Pl+Gen</td><td>hevosenkenkiin</td></tr>
-<tr><td>hihtokenkä+N+Pl+Gen</td><td>hihtokenkiin</td></tr>
 <tr><td>trenki+N+Pl+Gen</td><td>trenkiin</td></tr>
 <tr><td>onki+N+Pl+Gen</td><td>onkiin</td></tr>
 <tr><td>honka+N+Pl+Gen</td><td>honkiin</td></tr>
@@ -3215,10 +3219,6 @@
 <tr><td>arki+N+Pl+Gen</td><td>arkiin</td></tr>
 <tr><td>suorki+N+Pl+Gen</td><td>suorkiin</td></tr>
 <tr><td>kurki+N+Pl+Gen</td><td>kurkiin</td></tr>
-<tr><td>yrkä+N+Pl+Gen</td><td>yrkiin</td></tr>
-<tr><td>härkä+N+Pl+Gen</td><td>härkiin</td></tr>
-<tr><td>kruununhärkä+N+Pl+Gen</td><td>kruununhärkiin</td></tr>
-<tr><td>vetohärkä+N+Pl+Gen</td><td>vetohärkiin</td></tr>
 <tr><td>järki+N+Pl+Gen</td><td>järkiin</td></tr>
 <tr><td>kärki+N+Pl+Gen</td><td>kärkiin</td></tr>
 <tr><td>paaski+N+Pl+Gen</td><td>paaskiin</td></tr>
