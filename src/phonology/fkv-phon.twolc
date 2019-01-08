@@ -391,7 +391,7 @@ i6:0 <=> _ k: Vow: (Dial:0) %^WG:0 (%^AO:0) ;
 k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki  - mäjen
                       i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; !
                     i6: _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! poika poha, pojitte
-                  [e|i] _ [e:|i|ä|a:]  %^Por: %^WG:0 ; ! aika-aijan ! used to have (Dummy:) (:i) (Dummy:) before ^WG ! TODO DONE move to k:0 in Var
+                  [e|i] _ [e:|i|ä:|a:]  %^Por: %^WG:0 (%> i2:i)     ; ! aika-aijan ! used to have (Dummy:) (:i) (Dummy:) before ^WG ! TODO DONE move to k:0 in Var
              \[e] [r|l] _ e:          (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
             [a|e] [r|l] _ e           (Dummy:) %^WG:0 %> ; ! haljeta, halkee, seljetä, selkee
                   Cns u _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
