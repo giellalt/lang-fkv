@@ -278,7 +278,7 @@ Rules
  [.#.|#:] Cns:* Vow:+           :t _ u %> %^V:u  ;
  [.#.|#:] Cns:* Vow:+           :t _ o %> :o ;
  [.#.|#:] Cns:* Vow:+           :t _ e (Dial:) %> :e ;
- [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :a (Dial:) %> :a  ;
+ [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ [:a|a:] (Dial:) [%> :a|%^AO: %> i2: (%> n) #]  ; ! ranta:ranttoi, virta:virttoi
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :ä %> :ä  ; ! Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
                         [l|r|n|m] :t _ :ö %> :ö ;
                         [l|r|n|m] :t _ :y %> :y ;
@@ -1077,7 +1077,7 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _
 "a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
 ! WG always before AO always before AO
 !! __@RULENAME@__
-a:o <=> [#:|.#.] (Cns:*) UnroundedVow ([u|i|e|a]) Cns: (:Cns) (Cns:)            _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> [j|i2:|i3: ] ; ! sannoi
+a:o <=> [#:|.#.] (Cns:*) UnroundedVow ([u|i|e|a]) Cns: (:Cns) (Cns:)  (:t)   _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> [j|i2:|i3: ] ; ! sannoi
         [#:|.#.] (Cns:*) UnroundedVow (o|u) (Cns:+) (Vow:+) (Cns:+) (Vow:+) _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> i2: ;
                 [:k|:l]  (:i) :i             :j                                   _ (Dial:) (%^WG:0)          %^AO: %> i2: ; !kulkiijoissa
            [#:|.#.] Cns  Vow                      Cns   Cns                     _ (Dial:)                   %^AO: %> j %> %^A: ; !linnoja Var
