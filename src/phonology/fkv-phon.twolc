@@ -283,7 +283,7 @@ Rules
                         [l|r|n|m] :t _ :ö %> :ö ;
                         [l|r|n|m] :t _ :y %> :y ;
                         [l|r|n|m] :t _ :u %> :u ;
-                        [l|r|n|m] :t _ :o %> :o ;
+                        [l|r|n|m] :t _ :o %> [:o|i2: (%> n) #] ; ! kunto:kunttoi, kunttoin
                         [l|r|n|m] :t _ :Vow %>  i7: ;
                         [l|r|n|m] :t _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                         [l|r|n|m] :t _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
