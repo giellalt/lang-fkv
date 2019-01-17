@@ -184,11 +184,11 @@ LEXICON x_11_rest
   +Sg          :^HMETA              ill_hVVn        ;
 
 !Por
-  +Sg+Dial/Por:^WG              gen_n_sg        ;
+  +Sg+Dial/Por:^Por^WG              gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
   +Sg+Dial/Por:^HMETA           ill_hVVn        ;
   +Sg+Dial/Por:                 ess_nA          ;
-  +Sg+Dial/Por:^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
+  +Sg+Dial/Por:^Por^WG              sgpl_cases_even ; !to sgpl_cases_even for cases with
 
   +Pl+Dial/Por:^WG              nom_t           ;
 ! +Pl+Dial/Por:%>i2             gen_n           ; ! this in x_11
@@ -431,6 +431,8 @@ LEXICON x_21_pl_por
   +Pl      :%>i2       ess_nA      ;
   +Pl      :%>i2       com_ne      ;
   +Pl      :^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
+  
+  !  +Pl+Dial/Por :^A0%>i2%>i      par_end        ; ! %> i necessary, otherwise a:o NOTwork, kajavii
 
 
 LEXICON x_21_pl_var ! TODO look at Dummy symbol structure in Twolc, now that we
@@ -478,6 +480,34 @@ LEXICON x_21_odd !!= * @CODE@  kajava
   +Pl+Dial/Jok:%>i2         com_nne        ; !Jok loistaava
   +Pl      :^WG^A0%>i2      sgpl_cases_odd ; ! TODO any cases here that should have ^AO?
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
+
+LEXICON n_21_odd_u
+
++N         :  x_21_odd_u ;
+
+LEXICON x_21_odd_u
+
+  +Sg      :                   nom_end         ;
+  +Pl      :^WG                nom_t           ;
+  +Sg      :^WG                gen_n_sg        ;
+  +Sg+Dial/Por:                   par_V           ;
+  +Sg+Dial/Jok:                   par_A           ;
+  +Sg+Dial/Var:                   par_A           ;
+  +Sg      :^HMETA             ill_hVVn        ;
+  +Sg      :                   ess_nnA         ; ! paivukkonna
+  +Sg      :^WG                sgpl_cases_odd  ; ! these two lexica for cases with
+
+  +Pl      :^WG^AO%>i2         gen_tten        ;
+  +Pl      :^AO%>i2            par_tA          ; ! perintöitä, if ^WG then kulkija works, else perintö works
+  +Pl      :^AO^HMETA          ill_hVin        ;
+!          +Pl:^AO%>i2            ill_hin         ; ! TODO, only for asioihin, not the others?
+  +Pl      :^AO%>i2            ess_nA          ; ! paivukoina
+  +Pl      :^AO%>i2            com_ne          ; ! paivukoine
+  +Pl      :^WG^AO%>i2         sgpl_cases_even ; ! the same affix in sg and pl
+!      +Pl+Ill:^AO^HMETA%>h^V%>i2 n_PxK           ;
+         !+Ill:         %>h^V%>i2 n_PxK           ;
+!+Ill:h%>i2%>i2     n_PxK ; ! on Sg:ssä hVVn
+
 
 LEXICON n_21_odd_C !!= * @CODE@ lainasanat, fiction
 +N+Sg: nom_end ;
