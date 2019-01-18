@@ -449,6 +449,27 @@ LEXICON x_21_pl_var ! TODO look at Dummy symbol structure in Twolc, now that we
 ! +Pl+Tra:%>i2ksi K ; Lene removed this one
 ! !+Pl+Tra:%>i2kse     PxxK               ;
 
+LEXICON n_21_ae_even
++N: x_21_ae_even ;
+
+LEXICON x_21_ae_even 
+  +Sg      :         nom_end                  ;
+  +Sg      :^WG      gen_n_sg           ;
+  +Sg+Dial/Por:         par_V              ;
+  +Sg+Dial/Jok:         par_A              ; ! karamellia
+  +Sg+Dial/Var:         par_A              ; ! karamellia
+  +Sg      :^HMETA   ill_hVVn           ;
+  +Sg      :         ess_nA              ; ! karamellina
+  +Sg      :^WG      sgpl_cases_even    ;
+  +Pl      :^WG          nom_t          ;
+  +Pl      :^WG%>i2    gen_tten    ;
+  +Pl      :%>i2i       par_tA      ;
+  +Pl      :%>i2%>i       par_end     ;
+  +Pl      :^HMETA     ill_hiin    ;
+  +Pl      :%>i2       ess_nA      ;
+  +Pl      :%>i2       com_ne      ;
+  +Pl      :^WG%>i2  sgpl_cases_even    ; ! Adding  to block i:0
+
 LEXICON n_21_odd !!= * @CODE@  kajava
 +N         :  x_21_odd ;
 
@@ -499,6 +520,7 @@ LEXICON x_21_odd_u
 
   +Pl      :^WG^AO%>i2         gen_tten        ;
   +Pl      :^AO%>i2            par_tA          ; ! perintöitä, if ^WG then kulkija works, else perintö works
+   +Pl+Dial/Por      :^Por^AO%>i2            par_end          ; 
   +Pl      :^AO^HMETA          ill_hVin        ;
 !          +Pl:^AO%>i2            ill_hin         ; ! TODO, only for asioihin, not the others?
   +Pl      :^AO%>i2            ess_nA          ; ! paivukoina
