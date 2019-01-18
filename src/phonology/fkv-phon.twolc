@@ -88,6 +88,10 @@ EÄA = e %^A ;
 ! --- NO UNCLEAR SEQUENCES WITHOUT AN EXPLANATION (and TESTS): (Cns:*) :Cns+ Cns:* (:Cns)
 ! --- One TRIGGER, one change! No ^AO that means a:o and a:0 and a:i, then 3 DIFFERENT triggers
 
+!! Trigger order (to be completed
+! stem Dial: ^WG [^T0|^TJ] [^E0|^I0|^E2I|^A2I|^AO|^AE|^VDEL|^UU] ^HMETA > [i2:|i3:|i4:|i5:] > suffixes
+
+
 !! !!!Rules (Divided into consonant and vowel rules)
 Rules
 
@@ -504,7 +508,10 @@ t:0 <=> Vow: ([l|m|n|r]) [t|t:0] _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r
 
 "Gradation Nt:NN in first syllable after short vowel"
 !! __@RULENAME@__
+!t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+!         [.#.|#] Cns* Vow Nx _ :Vow Cns ([Dummy: - %^E2I:0])           ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
 t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+         [.#.|#] Cns* Vow Nx _ ä: (Dial:)  %^WG:  %> i2: ; ! hännissä
          [.#.|#] Cns* Vow Nx _ :Vow Cns ([Dummy: - %^E2I:0])           ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
     where Nx in ( l n r ) ;
 ! TODO TODO TODO for both these rules, maybe the dummy should be after the ^WG. Usually our rule is: ^WG^AO...
@@ -594,14 +601,15 @@ o:u <=> v u _ t:0 e %^Var: %^WG: %^UU: %> t ; ! savvuhuonet
 
 "ti:si"
 !! __@RULENAME@__
-t:s <=> Vow n   _        e:                  %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr?
+t:s <=> Vow n   _        e:                  %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr? tt ja dummy 
  Vow ([n|l|r])  _  (:s)  e:     (Dial:0) %^E2I: ;! uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
   Vow           _  (:s)  e:     (Dial:0) %> i2:    %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc. | vuossii(n) | uusia] ! uusine
   Vow ([n|l|r]) _        e:0    (Dial:0) (%^AO:0) %^HMETA:0 %> h :i ; ! jok uushiin
   Vow  Vow      _  (:s) Vow:0 (%^AO:0)                %> i3:  ;
   Vow     n     _       Vow:0 [Dummy:* - %^WG:0]     %> i3:  ;
   Vow [n|l|r]   _   :s   e:0    (Dial:0) %> i2:i   %> %^V: ; ! hirssii
-  Vow [n|l|r]   _       Vow:0 (Dial:0) (%^WG:0) (%^E2I:)  %> i2: ; ! hirsiksi, hirsi (pl - gen par)
+!  Vow [n|l|r]   _       Vow:0 (Dial:0) (%^WG:0) (%^E2I:)  %> i2: ; ! hirsiksi, hirsi (pl - gen par)
+  Vow [n|l|r]   _       e: (Dial:0) (%^WG:0) (%^E2I:)  %> i2: ; ! hirsiksi, hirsi (pl - gen par)
   Vow [n|l|r]   _  (:s) Vow:0 (%^WG:0) (%^AO:0)      %> i3:  ;
 
 !!€ vete^E2I
@@ -989,7 +997,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 ! 5. "Shortening of long vowel in front of i"
  i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:) (%^AO:)    %>  :i %> [ %^V: n | %^V: | t t e ] ; ! 1. ! ristien, kväänitten, papiiksi
                                      :Cns                  _ Dummy:*            %> [ i3:i | i4:i ] ; ! 1. ! leikin, tohtisin
-                                     :Cns [a|e|o|u|y|ö]    _                    %> [ i2:i | i ]    ; ! 1.   ! tuoresta0>i2ksi
+                            [#:|.#.|:Cns] [a|e|o|u|y|ö]    _                    %> [ i2:i | i ]    ; ! 1.   ! tuoresta0>i2ksi
          [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:)            %> i2:i            ; ! 1. ! Note: This shall not work for Ci forms skaramelli
                                                          i _ %^VDEL:0  (Dummy:) %> [s|t]           ; ! 2.
                                                       Cns: _ (%^WG:0) %^AO:0    %> %^I0:0 i2:i %>  ; ! 3. ! TODO Add dialect tags here ! tooline in Var ja Jok. Not tooliine, which is in Por
