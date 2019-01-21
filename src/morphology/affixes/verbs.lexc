@@ -103,8 +103,8 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Inf:%>đ^A K ; ! đ
 +V+Inf+Err/Orth:%>d^A K ; ! d
 +V+Inf+Err/Orth:%>h^A K ; ! h
-+V+Act+Ind+Prs:^WG v12pers_short ;
-+V+Act+Ind+Prt:^WG%>i3 v12pers_short ;
++V+Act+Ind+Prs: v12pers_short ;
++V+Act+Ind+Prt:%>i3 v12pers_short ;
 +V+Act+Ind+Prs+Sg3:%>pi K ;
 +V+Act+Ind+Prs+Pl3:%>đh^A^An K ; ! đ
 +V+Act+Ind+Prs+Pl3+Err/Orth:%>dh^A^An K ; ! d
@@ -262,13 +262,16 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 LEXICON v2 !!= @CODE@ ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
 +V+Inf:%>^Vt K ;
 +V+Inf+Err/Orth:%>^A K ;  ! suomalainen inf
+
 +V+Act+Ind+Prs:^WG v12pers_short ;
-+V+Act+Ind+Prt:^WG^AO%>i3 v12pers_short ;
 +V+Act+Ind+Prs+Sg3:%>^V K ;
 +V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
+
++V+Act+Ind+Prt:^WG^AO%>i3 v12pers_short ;
 +V+Act+Ind+Prt+Sg3:^AO%>i3 K ;      ! se alkoi
 +V+Act+Ind+Prt+Sg3+Err/Orth:^AO K ; ! se alko
 +V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
+
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
