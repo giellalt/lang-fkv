@@ -292,7 +292,7 @@ Tests:
 
     lehmä+N+Pl+Nom: lehmät    # (ok)
     lehmä+N+Pl+Gen: lehmiin    # (ok)
-    lehmä+N+Pl+Par: lehmi    # (lehmii)
+    lehmä+N+Pl+Par: lehmii    # (ok?)
     lehmä+N+Pl+Ine: lehmissä    # (ok)
     lehmä+N+Pl+Ill: lehmhiin    # (antaa nyt lehmhäin)
     lehmä+N+Pl+Ela: lehmistä    # (ok)
@@ -821,7 +821,7 @@ Tests:
 
     hehtari+N+Sg+Gen: hehtarin # hehđarin
 
-    housunsääri+N+Sg+Gen: # housunsäärin
+    housunsääri+N+Sg+Gen: housunsäären
 
     hykset+N+Sg+Gen: # hyksheen
 
@@ -837,7 +837,7 @@ Tests:
 
     hiiri+N+Sg+Gen: hiiren # hiiren
 
-    isotäti+N+Sg+Ge n: isotäđin # isođäđin
+    isotäti+N+Sg+Gen: isotäđin # isođäđin
 
     aateli+N+Sg+Gen: aatelin  # aađelin
 
@@ -884,8 +884,6 @@ Tests:
     haitari+N+Sg+Gen: haitarin # haiđarin
 
     hehtari+N+Sg+Gen: hehtarin # hehđarin
-
-    housunsääri+N+Sg+Gen: housusäären # housunsäärin
 
     hykset+N+Sg+Gen: hyksheen
 
@@ -1635,7 +1633,7 @@ Tests:
 
     mullita+V+Act+Ind+Prt+Sg1: mullittin
 
-    touhuut+V+Act+Ind+Prt+Sg1: touhuun # touhuin
+    touhuut+V+Act+Ind+Prt+Sg1: touhuin
 
     kaikkuut+V+Act+Ind+Prt+Sg1: kaijuin # kaikuin
 
