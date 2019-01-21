@@ -518,7 +518,8 @@ t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: 
 
 "Gradation Nt:N in other circumstances & vuote vuoeksi t:0"
 !! __@RULENAME@__
-t:0 <=> Vow Cns* Vow Nx  _ :Vow (Cns) ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+t:0 <=> Vow Cns* Vow Nx  _ :Vow       ([Dummy: - %^E2I:0])  ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+        Vow Cns* Vow Nx  _ :Vow Cns ([Dummy: - %^E2I:0])  ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
                        Vow _ Vow: (Cns)                          (:i)      [%^Jok:|%^Var:]   %^WG:0 ;
     where Nx in ( l n r ) ;
 
@@ -995,17 +996,17 @@ j:0 <=> l _ e: %^E2I:0 ;
 ! 3. i:0 in vanha_n_21 -Por with I0 tag"
 ! 4. "Stem deletion in h-illative"
 ! 5. "Shortening of long vowel in front of i"
- i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:) (%^AO:)    %>  :i %> [ %^V: n | %^V: | t t e ] ; ! 1. ! ristien, kväänitten, papiiksi
-                                     :Cns                  _ Dummy:*            %> [ i3:i | i4:i ] ; ! 1. ! leikin, tohtisin
-                            [#:|.#.|:Cns] [a|e|o|u|y|ö]    _                    %> [ i2:i | i ]    ; ! 1.   ! tuoresta0>i2ksi
-         [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:)            %> i2:i            ; ! 1. ! Note: This shall not work for Ci forms skaramelli
-                                                         i _ %^VDEL:0  (Dummy:) %> [s|t]           ; ! 2.
-                                                      Cns: _ (%^WG:0) %^AO:0    %> %^I0:0 i2:i %>  ; ! 3. ! TODO Add dialect tags here ! tooline in Var ja Jok. Not tooliine, which is in Por
-                                               :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:i|i:]                    ; ! 4.
-                                               :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:i|i:]                    ; ! 4.
-                                               :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2:         ; ! 4.
-                                               :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! 4.
-                                                           _ e %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:]     ; ! 5.
+ i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)              _ (%^WG:) (%^AO:)    %>  :i %> [ %^V: n | %^V: | t t e ] ; ! 1. ! ristien, kväänitten, papiiksi
+                               :Cns (Cns:)              _ Dummy:*            %> [ i3:i | i4:i ] ; ! 1. ! leikin, tohtisin, ilvetin
+                            [#:|.#.|:Cns] [a|e|o|u|y|ö] _                    %> [i2:|i3:|i ]    ; ! 1.   ! tuoresta0>i2ksi, nai>i2>n
+         [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)              _ (%^WG:)            %> i2:i            ; ! 1. ! Note: This shall not work for Ci forms skaramelli
+                                                      i _ %^VDEL:0  (Dummy:) %> [s|t]           ; ! 2.
+                                                   Cns: _ (%^WG:0) %^AO:0    %> %^I0:0 i2:i %>  ; ! 3. ! TODO Add dialect tags here ! tooline in Var ja Jok. Not tooliine, which is in Por
+                                            :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:i|i:]                    ; ! 4.
+                                            :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:i|i:]                    ; ! 4.
+                                            :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2:         ; ! 4.
+                                            :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! 4.
+                                                        _ e %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:]     ; ! 5.
 
 
 
