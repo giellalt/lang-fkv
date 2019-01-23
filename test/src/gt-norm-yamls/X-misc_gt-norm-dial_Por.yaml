@@ -102,33 +102,33 @@ Tests:
 
 
     ikä+N+Sg+Nom: ikä    # (ok)
-    ikä+N+Sg+Gen: iän    # (antaa nyt ikän)
+    ikä+N+Sg+Gen: ijän    # (antaa nyt ikän)
     ikä+N+Sg+Par: ikkää    # (ok)
-    ikä+N+Sg+Ine: iässä    # (antaa nyt ikässä)
+    ikä+N+Sg+Ine: ijässä    # (antaa nyt ikässä)
     ikä+N+Sg+Ill: ikhään    # (ok)
-    ikä+N+Sg+Ela: iästä    # (antaa nyt ikästä)
-    ikä+N+Sg+Ade: iälä    # (antaa nyt ikälä)
-    ikä+N+Sg+Abe: iättä    # (antaa nyt ikättä)
-    ikä+N+Sg+All: iäle    # (antaa nyt ikäle)
-    ikä+N+Sg+Abl: iältä    # (antaa nyt ikältä)
+    ikä+N+Sg+Ela: ijästä    # (antaa nyt ikästä)
+    ikä+N+Sg+Ade: ijälä    # (antaa nyt ikälä)
+    ikä+N+Sg+Abe: ijättä    # (antaa nyt ikättä)
+    ikä+N+Sg+All: ijäle    # (antaa nyt ikäle)
+    ikä+N+Sg+Abl: ijältä    # (antaa nyt ikältä)
     ikä+N+Sg+Ess: ikänä    # (ok)
-    ikä+N+Sg+Tra: iäksi    # (antaa nyt ikäksi)
+    ikä+N+Sg+Tra: ijäksi    # (antaa nyt ikäksi)
 
-    ikä+N+Pl+Nom: iät    # (antaa nyt ikät)
+    ikä+N+Pl+Nom: ijät    # (antaa nyt ikät)
     ikä+N+Pl+Gen: ikkiin    # (antaa nyt ikiin)
     ikä+N+Pl+Par: ikkii    # (antaa nyt iki)
-    ikä+N+Pl+Ine: iissä    # (antaa nyt ikissä)
+    ikä+N+Pl+Ine: ijissä    # (antaa nyt ikissä)
     ikä+N+Pl+Ill: ikhiin    # (antaa nyt ikhäin)
-    ikä+N+Pl+Ela: iistä    # (antaa nyt ikistä)
-    ikä+N+Pl+Ade: iilä    # (antaa nyt ikilä)
-    ikä+N+Pl+Abe: iittä    # (antaa nyt ikittä)
-    ikä+N+Pl+All: iile    # (antaa nyt ikile)
-    ikä+N+Pl+Abl: iiltä    # (antaa nyt ikiltä)
+    ikä+N+Pl+Ela: ijistä    # (antaa nyt ikistä)
+    ikä+N+Pl+Ade: ijilä    # (antaa nyt ikilä)
+    ikä+N+Pl+Abe: ijittä    # (antaa nyt ikittä)
+    ikä+N+Pl+All: ijile    # (antaa nyt ikile)
+    ikä+N+Pl+Abl: ijiltä    # (antaa nyt ikiltä)
     ikä+N+Pl+Ess: ikinä    # (ok)
-    ikä+N+Pl+Tra: iiksi    # (antaa nyt ikiksi)
+    ikä+N+Pl+Tra: ijiksi    # (antaa nyt ikiksi)
     ikä+N+Pl+Com: ikine    # (ok)
 
-    alaikä+N+Sg+Gen: alaiän # alaikän
+    alaikä+N+Sg+Gen: alaijän # alaikän
 
 
 
@@ -787,7 +787,7 @@ Tests:
     # aihki+N+Sg+Gen: # aihin
     # asentolaaki+N+Sg+Gen: ? # asentolaajin
 
-    blaađi+N+Sg+Gen: blaađin #Myös blaati (?) 
+    blaađi+N+Sg+Gen: blaađin #Myös blaati (?)
 
     delta+N+Sg+Gen: deltan # dellan
 
@@ -951,7 +951,7 @@ Tests:
 
     kruuti+N+Sg+Gen: kruuđin #myös kruutin?
 
-    kruununhärkä+N+Sg+Gen: kruuninhärän # kruununhärkän
+    kruununhärkä+N+Sg+Gen: kruununhärän # kruununhärkän
 
     kryysitaaki+N+Sg+Gen: kryysitaajin #minkälainen graadivaihtelu oon lainoissa?
 
