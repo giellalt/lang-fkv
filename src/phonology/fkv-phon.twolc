@@ -89,8 +89,9 @@ EÄA = e %^A ;
 ! --- One TRIGGER, one change! No ^AO that means a:o and a:0 and a:i, then 3 DIFFERENT triggers
 
 !! Trigger order (to be completed
-! stem Dial: ^WG [^T0|^TJ] [^E0|^I0|^E2I|^A2I|^AO|^AE|^VDEL|^UU] ^HMETA > [i2:|i3:|i4:|i5:] > suffixes
-
+!! {{{
+!! stem Dial: ^WG [^T0|^TJ] [^E0|^I0|^E2I|^A2I|^AO|^AE|^VDEL|^UU] ^HMETA > [i2:|i3:|i4:|i5:] > suffixes
+!! }}}
 
 !! !!!Rules (Divided into consonant and vowel rules)
 Rules
@@ -152,7 +153,7 @@ Rules
  [.#.|#:] Cns:* Vow:+      k _ a %> :a ;
  [.#.|#:] Cns:* Vow:+      k _ ö %> :ö ;
  [.#.|#:] Cns:* Vow:+      k _ y %> :y ;
- [.#.|#:] Cns:* Vow:+      k _ u %> [%^V:u|i2:i (%> n) # ]  ; ! flaku flakkui, flakkuin
+ [.#.|#:] Cns:* Vow:+      k _ u %> [:u|:i (%> n) .#. ]  ; ! flaku flakkui, flakkuin
  [.#.|#:] Cns:* Vow:+      k _ o %> :o ;
  [.#.|#:] Cns:* Vow:+      k _ e (Dial:) %> :e ;
  [.#.|#:] Cns:* Vow:+ [l|r|n|m]  k _ ä: (Dial:) %> [ :ä | i2:i %> :i ] ; ! selkä selkkii, selkkiin
@@ -161,15 +162,19 @@ Rules
                         [l|r|n|m]  k _ :i   (Dial:)       %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                         [l|r|n|m] :k _ e: (Dial:) %^E2I:0 %> i2: %>   %^V: ;
                         [l|r|n|m]  k _  i (Dial:)         %> i2: %> t %^A: ; ! meininkkiitä in Por
-                        [l|r|n|m]  k _ :ö (Dial:) %> :ö ;
-                        [l|r|n|m]  k _ :y (Dial:) %> :y ;
-                        [l|r|n|m]  k _ :u (Dial:) %> :u ;
-                        [l|r|n|m]  k _ :o (Dial:) %> :o ;
-                        [l|r|n|m]  k _ :e (Dial:) %> :e ;
-                        [l|r|n|m]  k _ :a (Dial:) %> :a ;
+                        [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i] ;
+                        [l|r|n|m]  k _ :y (Dial:) %> [:y|:i] ;
+                        [l|r|n|m]  k _ :u (Dial:) %> [:u|:i] ;
+                        [l|r|n|m]  k _ :o (Dial:) %> [:o|:i] ;
+                        [l|r|n|m]  k _ :e (Dial:) %> [:e|:i] ;
+                        [l|r|n|m]  k _ :a (Dial:) %> [:a|:i] ;
 
-!!€ flak0u>i2n
-!!€ flakku>in
+!!€ flak0u>i2>n
+!!€ flakku>i>n
+!!€ flaku>i2>n^A
+!!€ flaku>i>na
+!!€ urk0u>i2
+!!€ urkku>i
 
 "Gemination 0:l"
 0:l <=> [.#.|#:] Cns:* Vow l _ ä %> :ä ;
@@ -1087,7 +1092,7 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _
 "a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
 ! WG always before AO always before AO
 !! __@RULENAME@__
-a:o <=> [#:|.#.] (Cns:*) UnroundedVow ([u|i|e|a]) Cns: (:Cns) (Cns:)  (:t)   _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> [j|i2:|i3: ] ; ! sannoi
+a:o <=> [#:|.#.] (Cns:*) UnroundedVow ([u|i|e|a]) Cns:+ (:Cns)     _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> [j|i2:|i3: ] ; ! sannoi
         [#:|.#.] (Cns:*) UnroundedVow (o|u) (Cns:+) (Vow:+) (Cns:+) (Vow:+) _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> i2: ;
                 [:k|:l]  (:i) :i             :j                                   _ (Dial:) (%^WG:0)          %^AO: %> i2: ; !kulkiijoissa
            [#:|.#.] Cns  Vow                      Cns   Cns                     _ (Dial:)                   %^AO: %> j %> %^A: ; !linnoja Var
