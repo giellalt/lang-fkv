@@ -1092,7 +1092,7 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _
 "a:o before Pl i and Pret i" ! which context is Pret i? TODO if you cannot find, just delete
 ! WG always before AO always before AO
 !! __@RULENAME@__
-a:o <=> [#:|.#.] (Cns:*) UnroundedVow ([u|i|e|a]) Cns:+ (:Cns)     _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> [j|i2:|i3: ] ; ! sannoi
+a:o <=> [#:|.#.] (Cns:*) UnroundedVow ([u|i|e|a]) (Cns:*) (Vow:*) Cns:+ (:Cns)     _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> [j|i2:|i3: ] ; ! sannoi
         [#:|.#.] (Cns:*) UnroundedVow (o|u) (Cns:+) (Vow:+) (Cns:+) (Vow:+) _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> i2: ;
                 [:k|:l]  (:i) :i             :j                                   _ (Dial:) (%^WG:0)          %^AO: %> i2: ; !kulkiijoissa
            [#:|.#.] Cns  Vow                      Cns   Cns                     _ (Dial:)                   %^AO: %> j %> %^A: ; !linnoja Var
