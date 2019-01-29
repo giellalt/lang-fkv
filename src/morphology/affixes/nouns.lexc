@@ -564,6 +564,45 @@ LEXICON x_21_odd_ua !saipua, fierua ja luusua
   +Pl      :^WG^A0%>i2      sgpl_cases_odd ; ! TODO any cases here that should have ^AO?
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
 
+LEXICON n_21_odd_AO
+
++N         :  x_21_odd_AO ;
+
+LEXICON x_21_odd_AO
+
++Sg:                    nom_R           ;
++Sg:                    nom_end         ;
++Sg+Dial/Por:^Por^WG    gen_n_sg        ;
+!+Sg+Dial/Var:^Var^WG    gen_n_sg        ;
++Sg+Dial/Por:       par_V           ;
+!+Sg+Dial/Var:^Var       par_A           ;
+!+Sg+Dial/Jok:^Jok       par_A           ;
++Sg:^HMETA              ill_hVVn        ;
++Sg:                    ess_nA          ;
++Sg+Dial/Por:^Por^WG    sgpl_cases_odd ; !to sgpl_cases_even for cases with
+!+Sg+Dial/Var:^Var^WG    sgpl_cases_odd ; !to sgpl_cases_even for cases with
+
++Pl+Dial/Por:^Por^WG                 nom_t           ;
+!+Pl+Dial/Var:^Var^WG                 nom_t           ;
+!+Pl+Dial/Jok:^Jok^WG^AO%>i2          gen_tten        ;
+!+Pl+Dial/Var:^Var^WG^AO%>i2          gen_tten        ;
++Pl+Dial/Por:^Por^WG^AO%>i2             gen_tten          ;
++Pl+Dial/Por:^Por^AO%>i2             par_end         ;
+
+
+!+Pl+Dial/Jok:^Jok^AO%>j              par_A           ; ! Use i:j in twolc j, see below
+!+Pl+Dial/Var:^Var^AO%>j              par_A           ;
++Pl:^AO^HMETA                        ill_hVin        ; ! sykshyin
++Pl:^AO%>i2                          ess_nA          ;
++Pl:^AO%>i2                          com_ne          ;
++Pl+Dial/Por:^Por^WG^AO%>i2          sgpl_cases_even ; !the same affix in sg and pl
+!+Pl+Dial/Var:^Var^WG^AO%>i2          sgpl_cases_even ; !the same affix in sg and pl
+
+
+
+
+
+
 LEXICON n_21_odd_oi
 
 +N         :  x_21_odd_oi ;
