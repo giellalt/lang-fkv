@@ -1152,6 +1152,15 @@ a:o <=> [#:|.#.] (Cns:*) UnroundedVow ([u|i|e|a]) (Cns:*) (Vow:*) Cns:+ (:Cns)  
      !Cns (Cns:*) UnroundedVow ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ (%^WG:0) %^AO:   %> i2:   ; ! sivakoissa, sannoi
         ![.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _ %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! kuvviin kuvvii, ruokaruokhiin,
 
+
+"ä:ö before Pl i"
+!! __@RULENAME@__
+ä:ö <=> 
+        [:k|:l]  (:i)  :i  :j  _  (Dial:)  (%^WG:0)  %^AO:  %>  i2:  ; ! tekkiijä - tekkiijöitä
+
+
+
+
 "a:i in 3-syll stems with long a and i"
 !! __@RULENAME@__
 !a:i <=> Vow Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
