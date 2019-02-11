@@ -233,7 +233,7 @@ Rules
                       [l|r|n|m] p _ :ö %> :ö ;
                       [l|r|n|m] p _ :y %> :y ;
                       [l|r|n|m] p _ :u %> :u ;
-                      [l|r|n|m] p _ :o %> :o ;
+                      [l|r|n|m] p _ :o %> [:o|i2: (%> n) #] ;
                       [l|r|n|m] p _ :e %> :e ;
 
 
@@ -355,7 +355,7 @@ p:0 <=> Vow: ([l|m|n|r]) p _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r|n) (e
 !! __@RULENAME@__
 p:v <=> Vow: _ Vow:      Dummy:* ([:i|e:0]) Dummy:* %^WG:0 ; ! papu:pavun
         Vow: _ Vow: Cns: Dummy:* (e:0)      Dummy:* %^WG:0 ; ! taipal:taival
-       [r|l] _ [e|a:|y] (Dial:) %^WG:0 ; ! kylpy:kylvyn
+       [r|l] _ [e|a:|o|y] (Dial:) %^WG:0 ; ! kylpy:kylvyn
 
 "Gradation mp:mm"
 !! __@RULENAME@__
