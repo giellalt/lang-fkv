@@ -224,7 +224,7 @@ Rules
  [.#.|#:] Cns:* Vow:+ p _ u %> %^V:u  ;
  [.#.|#:] Cns:* Vow:+ p _ o %> [:o|i2: (%> n) #] ;
  [.#.|#:] Cns:* Vow:+ p _ e (Dial:) %> :e ;
- [.#.|#:] Cns:* Vow:+ [l|r|n|m] p _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+ [.#.|#:] Cns:* Vow:+ [l|r|n|m] p _ ä: %> [:ä|i2: %> :i (n) #] ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
  [.#.|#:] Cns:* Vow:+ [l|r|n|m] p _ a: (Dial:) [%> :a|%^AO: %> i2: (%> n) #] ;
                       [l|r|n|m] p _ :Vow %>  i7: ;
                       [l|r|n|m] p _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
@@ -355,7 +355,7 @@ p:0 <=> Vow: ([l|m|n|r]) p _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r|n) (e
 !! __@RULENAME@__
 p:v <=> Vow: _ Vow:      Dummy:* ([:i|e:0]) Dummy:* %^WG:0 ; ! papu:pavun
         Vow: _ Vow: Cns: Dummy:* (e:0)      Dummy:* %^WG:0 ; ! taipal:taival
-       [r|l] _ [e:|a:|o|y] (Dial:) %^WG:0 ; ! kylpy:kylvyn
+       [r|l] _ [e:|a:|ä:|o|y] (Dial:) %^WG:0 ; ! kylpy:kylvyn
 
 "Gradation mp:mm"
 !! __@RULENAME@__
