@@ -287,7 +287,8 @@ Rules
  [.#.|#:] Cns:* Vow:+           :t _ u %> %^V:u  ;
  [.#.|#:] Cns:* Vow:+           :t _ o %> :o ;
  [.#.|#:] Cns:* Vow:+           :t _ e (Dial:) %> :e ;
- [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ [:a|a:] (Dial:) [%> :a|%^AO: %> i2: (%> n) #]  ; ! ranta:ranttoi, virta:virttoi
+ [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :a (Dial:) %> :a  ; ! sg
+ [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ a: (Dial:) [ %^A2I: | %^AO: ] %> i2: (%> n) #  ; ! pl
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :ä %> :ä  ; ! Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
                         [l|r|n|m] :t _ :ö %> [:ö|i2: (%> n) #] ;
                         [l|r|n|m] :t _ :y %> :y ;
