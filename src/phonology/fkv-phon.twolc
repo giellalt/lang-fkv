@@ -289,7 +289,8 @@ Rules
  [.#.|#:] Cns:* Vow:+           :t _ e (Dial:) %> :e ;
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :a (Dial:) %> :a  ; ! sg
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ a: (Dial:) [ %^A2I: | %^AO: ] %> i2: (%> n) #  ; ! pl
- [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :ä %> :ä  ; ! Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+ [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :ä %> :ä  ; ! sg
+ [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ ä: %^A0: %> i2: (%>) i (%> t %^A:)  ; ! pl
                         [l|r|n|m] :t _ :ö %> [:ö|i2: (%> n) #] ;
                         [l|r|n|m] :t _ :y %> :y ;
                         [l|r|n|m] :t _ :u %> :u ;
@@ -525,6 +526,7 @@ t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: 
 "Gradation Nt:N in other circumstances & vuote vuoeksi t:0"
 !! __@RULENAME@__
 t:0 <=> Vow Cns* Vow Nx  _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+        Vow Cns* Vow Nx  _ Vow:     %^WG:0 (%^A0:) %> i2:   ; ! isäntä - isänissä
         Vow Cns* Vow Nx  _ :Vow Cns ([Dummy: - %^E2I:0]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
                      Vow _ Vow: (Cns)                          (:i)      [%^Jok:|%^Var:]  %^WG:0 ;
     where Nx in ( l n r ) ;
