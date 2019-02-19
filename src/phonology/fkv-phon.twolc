@@ -165,7 +165,7 @@ Rules
                         [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i] ;
                         [l|r|n|m]  k _ :y (Dial:) %> [:y|:i] ;
                         [l|r|n|m]  k _ :u (Dial:) %> [:u|:i] ;
-                        [l|r|n|m]  k _ :o (Dial:) %> [:o|:i] ;
+                        [l|r|n|m]  k _ :o (Dial:) %> [:o|:i] ;                
                         [l|r|n|m]  k _ :e (Dial:) %> [:e|:i] ;
                         [l|r|n|m]  k _ :a (Dial:) %> [:a|:i] ;
 
@@ -230,7 +230,7 @@ Rules
                       [l|r|n|m] p _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                       [l|r|n|m] :p _ e: (Dial:) %^E2I:0 %> i2: %>   %^V: ;        
                       [l|r|n|m] p _  i          %> i2: %> t %^A: ; ! meininkkiitä in Por
-                      [l|r|n|m] p _ :ö %> :ö ;
+                      [l|r|n|m] p _ :ö %> [:ö|i2: (%> n) # ] ;
                       [l|r|n|m] p _ :y %> :y ;
                       [l|r|n|m] p _ :u %> :u ;
                       [l|r|n|m] p _ :o %> [:o|i2: (%> n) #] ;
@@ -285,7 +285,7 @@ Rules
  [.#.|#:] Cns:* Vow:+           :t _ ö %> :ö ;
  [.#.|#:] Cns:* Vow:+           :t _ y %> :y ;
  [.#.|#:] Cns:* Vow:+           :t _ u %> %^V:u  ;
- [.#.|#:] Cns:* Vow:+           :t _ o %> [:o|i2: (%> n) # ] ;
+ [.#.|#:] Cns:* Vow:+           :t _ o %> [:o|i2: (%> n) # ] ; ! sata: sattoi, sattoin
  !    [l|r|n|m] p _ :o %> [:o|i2: (%> n) #] ;
  
  
