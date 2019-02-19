@@ -283,7 +283,7 @@ Rules
  [.#.|#:] Cns:* Vow:+           :t _ a %> :a ;
  [.#.|#:] Cns:* Vow:+           :t _ ä %> :ä ;
  [.#.|#:] Cns:* Vow:+           :t _ ö %> [:ö|i2: (%> n) # ] ;
- [.#.|#:] Cns:* Vow:+           :t _ y %> :y ;
+ [.#.|#:] Cns:* Vow:+           :t _ y %> [:y|i2: (%> n) # ] ;
  [.#.|#:] Cns:* Vow:+           :t _ u %> [%^V:u|i2: (%> n) #]  ;
  [.#.|#:] Cns:* Vow:+           :t _ o %> [:o|i2: (%> n) # ] ; ! sata: sattoi, sattoin
  
