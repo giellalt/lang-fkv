@@ -234,7 +234,7 @@ Rules
                       [l|r|n|m] p _ :y %> [:y|i2: (%> n) #] ;
                       [l|r|n|m] p _ :u %> [:u|i2: (%> n) #] ;
                       [l|r|n|m] p _ :o %> [:o|i2: (%> n) #] ;
-                      [l|r|n|m] p _ :e %> :e ;
+                      [l|r|n|m] p _ :e (Dial:) %> :e ;
 
 
 "Gemination 0:r"
