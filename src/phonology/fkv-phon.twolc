@@ -150,7 +150,8 @@ Rules
                       Vow:+ k _ Vow:           %> %^V:i ; ! sopi soppii
  [.#.|#:] Cns:* Vow:+ [k|k2:] _ a: %^Por:0 [%> :a | %^AO: %> i2: (%> n) # ] ; ! Only in Por, 0:k kk
  [.#.|#:] Cns:* Vow:+      k _ ä %> :ä ;
- [.#.|#:] Cns:* Vow:+      k _ a %> :a ;
+ [.#.|#:] Cns:* Vow:+      k _ a %^Por:0 [%> :a | %^AO: %> i2: (%> n) # ] ; ! Only in Por, 0:k kk ;
+                        !  [.#.|#:] Cns:* Vow:+      k _ a %^Por:0 [%> :a | %^AO: %> i2: (%> n) # ] ; ! Only in Por, 0:k kk
  [.#.|#:] Cns:* Vow:+      k _ ö %> [:ö|i2: (%> n) #] ;
  [.#.|#:] Cns:* Vow:+      k _ y %> [:y|i2: (%> n) # ] ;
  [.#.|#:] Cns:* Vow:+      k _ u %> [:u|:i (%> n) # ]  ; ! flaku flakkui, flakkuin
@@ -216,7 +217,10 @@ Rules
                 Vow:+ p _ Vow:           %> i2:i  %> %^V:i ; !pena-penniin,huppiin,eilaki-lakkiin?
                 Vow:+ p _ e:               %> i7:i Cns ; ! contr verbs
                 Vow:+ p _ Vow:           %> %^V:i ; ! sopi soppii
- [.#.|#:] Cns:* Vow:+ p _ a: %^Por:0 [%> :a|%^AO: %> i2: (%> n) #] ; ! Only in Por, 0:k kk
+ [.#.|#:] Cns:* Vow:+ [p|p2:] _ a: %^Por:0 [%> :a|%^A2I: %> i2: (%> n) #] ; ! Only in Por, 0:k kk
+ 
+![.#.|#:] Cns:* Vow:+ [k|k2:] _ a: %^Por:0 [%> :a | %^AO: %> i2: (%> n) # ] ; ! Only in Por, 0:k kk
+
  [.#.|#:] Cns:* Vow:+ p _ ä %> :ä ;
  [.#.|#:] Cns:* Vow:+ p _ ö %> :ö ;
  [.#.|#:] Cns:* Vow:+ p _ y %> [:y|i2: (%> n) #] ;
