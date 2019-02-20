@@ -166,7 +166,7 @@ Rules
                         [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i] ;
                         [l|r|n|m]  k _ :y (Dial:) %> [:y|:i] ;
                         [l|r|n|m]  k _ :u (Dial:) %> [:u|:i] ;
-                        [l|r|n|m]  k _ :o (Dial:) %> [:o|:i] ;                
+                        [l|r|n|m]  k _ :o (Dial:) %> [:o|:i (%> n) #] ;                
                         [l|r|n|m]  k _ :e (Dial:) %> [:e|:i] ;
 
 !!€ flak0u>i2>n
