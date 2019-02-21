@@ -297,7 +297,8 @@ Rules
                         [l|r|n|m] :t _ :u %> :u ;
                         [l|r|n|m] :t _ :o %> [:o|i2: (%> n) #] ; ! kunto:kunttoi, kunttoin
                         [l|r|n|m] :t _ :Vow %>  i7: ;
-                        [l|r|n|m] :t _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                        [l|r|n|m] :t _ i [ %> %^V:i| (%^AO:0) %> i2: (%> n) #] ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                        ! r _ i [%> :i| (%^AO:0) %> i2: (%> n) #] ; ! perriit
                         [l|r|n|m] :t _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
                         [l|r|n|m] :t _ :e %> :e ;
                         [l|r|n|m] :t _ e: %^E2I:0 %> i2: %>   %^V: ;
