@@ -243,7 +243,7 @@ Rules
         [.#.|#:] Cns:* Vow r _ y %> :y ;
         [.#.|#:] Cns:* Vow r _ u %> :u ;
         [.#.|#:] Cns:* Vow r _ e %> :e ;
-        [.#.|#:] Cns:* Vow r _ i %> :i ; ! perriit
+        [.#.|#:] Cns:* Vow r _ i [%> :i| (%^AO:0) %> i2: (%> n) #] ; ! perriit
         [.#.|#:] Cns:* Vow r _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: ] ;
         [.#.|#:] Cns:* Vow r _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow r _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
@@ -305,7 +305,8 @@ Rules
 "Gemination 0:v"
 0:v <=> [.#.|#:] Cns:*  Vow v _ ä %> :ä ;
         [.#.|#:] Cns:*  Vow v _ ö %> :ö ;
-        [.#.|#:] Cns:*  Vow v _ i (Dial:) %> :i  ;
+        [.#.|#:] Cns:*  Vow v _ i (Dial:) [%> :i| (%^AO:0) %> i2: (%> n) #]  ;
+        ! _ i [%> :i | (%^AO:0) %> i2: (%> n) # ] ; ! perriit
         [.#.|#:] Cns:*  Vow v _ y %> :y ;
         [.#.|#:] Cns:*  Vow v _ u %> [:u|i2: (%> n) # ] ;
         [.#.|#:] Cns:*  Vow v _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: ] ;
