@@ -124,7 +124,8 @@ Rules
         [.#.|#:] Cns:*  Vow j _ ö %> :ö ;
         [.#.|#:] Cns:*  Vow j _ y %> :y ;
         [.#.|#:] Cns:* Vow j _ u %> :u ;
-        ![.#.|#:] Cns:*  Vow j _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:*  Vow j _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
+        ![.#.|#:] Cns:* Vow:+           [t|t2:] _ a: %^Por:0 [%> :a | %^A2I: %> i2: (%> n) #] ;
         [.#.|#:] Cns:*  Vow j _ e %> :e ;
         [.#.|#:] Cns:* Vow j _ :a (Dial:0) %> :a ; ! for kuvvaa d. could be just %^Por:0
         [.#.|#:] Cns:* Vow j _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
