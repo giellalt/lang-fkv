@@ -250,13 +250,13 @@ Rules
         [.#.|#:] Cns:* Vow r _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
 "Gemination 0:s"
- 0:s <=>  Cns:* Vow:+         :s _   :i                   %> [:i - i3:] (i2:i) ;  ! to be fixed
+ 0:s <=>  Cns:* Vow:+         :s _   :i                   [%> :i - i3:| (%^AO:0) %> i2:i (%> n) # ];   ! to be fixed
           Cns:* Vow:+         :s _ [e:|i:]                %> i2:i %> %^V:i ;  ! klas0i>i2>in:klass0>i>in ja vuossiin
           Cns:* Vow  [n|l|r] t:s _ [e:|i:]                %> i2:i %> %^V: ;  ! hirssii(n). Vain t:s toimii, :s ==> virheitä kaikkialla: 22 lisää.
           Cns:* Vow  [n|l|r] t:s _   :i                   %> [:i - i3:] (i2:i) ;  ! to be fixed. Seems to not do anything?
                              t:s _  e:0  %^Por:0          %> i2: %> %^V: ; ! ! uussiin uussii in Por
                              t:s _  e:i (%^Por:0) %^E2I:0 %> i5: ; ! ONLY SUPERL, i5 IS SUPERLATIVE i
-          [.#.|#:] Cns:* Vow:+ s _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
+          [.#.|#:] Cns:* Vow:+ s _ a: %^Por:0 [%> :a|(%^A2I:0) %> i2: (%> n) #] ; ! Only in Por, 0:k kk
           [.#.|#:] Cns:* Vow:+ s _ ä %> :ä ;
           [.#.|#:] Cns:* Vow:+ s _ ö %> :ö ;
           [.#.|#:] Cns:* Vow:+ s _ y %> :y ;
@@ -298,7 +298,6 @@ Rules
                         [l|r|n|m] :t _ :o %> [:o|i2: (%> n) #] ; ! kunto:kunttoi, kunttoin
                         [l|r|n|m] :t _ :Vow %>  i7: ;
                         [l|r|n|m] :t _ i [ %> %^V:i| (%^AO:0) %> i2: (%> n) #] ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
-                        ! r _ i [%> :i| (%^AO:0) %> i2: (%> n) #] ; ! perriit
                         [l|r|n|m] :t _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
                         [l|r|n|m] :t _ :e %> :e ;
                         [l|r|n|m] :t _ e: %^E2I:0 %> i2: %>   %^V: ;
