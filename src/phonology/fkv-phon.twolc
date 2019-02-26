@@ -238,7 +238,7 @@ Rules
 
 
 "Gemination 0:r"
-0:r <=> [.#.|#:] Cns:* Vow r _ ä %> :ä ;
+0:r <=> [.#.|#:] Cns:* Vow r _ ä: [%> :ä| %> i2: %> :i (%> n) ] ;
         [.#.|#:] Cns:* Vow r _ ö %> :ö ;
         [.#.|#:] Cns:* Vow r _ y %> :y ;
         [.#.|#:] Cns:* Vow r _ u %> :u ;
@@ -827,13 +827,16 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "Vow copying in long h pl forms"
 !! __@RULENAME@__
- %^V:Vy <=>  Vx: (Dial:) (%^AO:) %^HMETA: %> h _ %>  i2:i ; ! TODO This interferes with aikhoin aika^Por^AO^HMETA>h^V>i2n -> aik0000>ho>in
-    where Vx in ( a e i2 o u y ä ö )
-          Vy in ( i e i  o u y ä ö )
-             matched ;
+ %^V:Vy <=>  Vx: (Dial:) (%^AO:) %^HMETA: %> h _ %>  i2: ; ! TODO This interferes with aikhoin aika^Por^AO^HMETA>h^V>i2n -> aik0000>ho>in
+    where Vx in ( a e o u y ä ö ) ! i2
+          Vy in ( i e o u y ä ö ) ! i
+              matched ;
 
-
-
+! ok in xfst, fails in hfst, for this rule:
+!!€ sivakka^AO^HMETA>h^V>i2n
+!!€ sivakk000>ho>in
+!#:0 s i v a k k a:0 ^AO:0 ^HMETA:0 > h ^V:o > HERE ---> i2:i n #:0
+!FAIL: sivakka^AO^HMETA>h^V>i2n : sivakk000>ho>in REJECTED
 
 
 "a to o and metathesis in h forms in pl of a-stems"
@@ -1040,6 +1043,7 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _
 !         :SurfaceCns _ (Dial:) (%^E2I:) (%^HMETA:) %> h [:a|i:] ; ! "Stem deletion of a in h-illative"
 !         :SurfaceCns _ (Dial:) (%^AO:)  (%^HMETA:) %> h (%^V:) (:o) %> i2: ; ! "Stem deletion of a in h-illative"
 !         :i          _ (Dial:) (%^AO:)  (%^HMETA:) %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! "Stem deletion of a in h-illative"
+
 
 !!€ varma^HMETA>h^V^Vn
 !!€ varm00>haan
@@ -1686,6 +1690,3 @@ Vx:e <=>  [.#.|#:] Cns:* Vow: (Vow:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
 
 ! oppettaajhiin
 
-!!€ a
-!!€ b
-! Ka gjor den her testen?
