@@ -291,8 +291,7 @@ Rules
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :a (Dial:) %> :a  ; ! sg
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ a: (Dial:) [ %^A2I: | %^AO: ] %> i2: (%> n) #  ; ! pl
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :ä %> :ä  ; ! sg
- [.#.|#:] [Cns: *Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ ä: %^A0: %> i2: (%>) i (%> t %^A:)  ; ! pl
-                                              
+ [.#.|#:] [Cns: *Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ ä: (%^A0:) %> i2: (%>) :i (%> t %^A:)  ; ! pl                                           
                         [l|r|n|m] :t _ :ö %> [:ö|i2: (%> n) #] ;
                         [l|r|n|m] :t _ :y %> :y ;
                         [l|r|n|m] :t _ :u %> :u ;
