@@ -516,10 +516,8 @@ t:0 <=> Vow: ([l|m|n|r]) [t|t:0] _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r
 
 "Gradation Nt:NN in first syllable after short vowel"
 !! __@RULENAME@__
-!t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
-!         [.#.|#] Cns* Vow Nx _ :Vow Cns ([Dummy: - %^E2I:0])           ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
 t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
-         [.#.|#] Cns* Vow Nx _ ä: (Dial:)  %^WG:  %> i2: ; ! hännissä
+         [.#.|#] Cns* Vow Nx _ Vow: (Dial:) %^WG: (%^A0:) %> i2: ; ! hännissä / kunnissa (vain monikon sääntö)
          [.#.|#] Cns* Vow Nx _ :Vow Cns ([Dummy: - %^E2I:0])           ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
     where Nx in ( l n r ) ;
 ! TODO TODO TODO for both these rules, maybe the dummy should be after the ^WG. Usually our rule is: ^WG^AO...
