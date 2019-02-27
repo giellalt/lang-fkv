@@ -163,7 +163,7 @@ Rules
                         [l|r|n|m] :k _ e: (Dial:) %^E2I:0 %> i2: %>   %^V: ;
                         [l|r|n|m]  k _  i (Dial:)         %> i2: %> t %^A: ; ! meininkkiitä in Por
                         [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i] ;
-                        [l|r|n|m]  k _ :y (Dial:) %> [:y|:i] ;
+                        [l|r|n|m]  k _ :y (Dial:) %> [:y|:i #] ;
                         [l|r|n|m]  k _ :u (Dial:) %> [:u|:i] ;
                         [l|r|n|m]  k _ :o (Dial:) %> [:o|:i (%> n) #] ;                
                         [l|r|n|m]  k _ :e (Dial:) %> [:e|:i] ;
@@ -240,7 +240,7 @@ Rules
 "Gemination 0:r"
 0:r <=> [.#.|#:] Cns:* Vow r _ ä: [%> :ä| %> i2: %> :i (%> n) ] ;
         [.#.|#:] Cns:* Vow r _ ö:  [%> :ö| %> i2: (%> n) #] ;
-        [.#.|#:] Cns:* Vow r _ y %> :y ;
+        [.#.|#:] Cns:* Vow r _ y: [%> :y|%> i2: (%> n) #] ;
         [.#.|#:] Cns:* Vow r _ u %> :u ;
         [.#.|#:] Cns:* Vow r _ e %> :e ;
         [.#.|#:] Cns:* Vow r _ i [%> :i| (%^AO:0) %> i2: (%> n) #] ; ! perriit
@@ -259,7 +259,7 @@ Rules
           [.#.|#:] Cns:* Vow:+ s _ a: %^Por:0 [%> :a|(%^A2I:0) %> i2: (%> n) #] ; ! Only in Por, 0:k kk
           [.#.|#:] Cns:* Vow:+ s _ ä: (Dial:) [%> :ä|%> i2: %> :i (%> n) ] ; !nysä>nyssii ja nyssiin 
           [.#.|#:] Cns:* Vow:+ s _ ö %> :ö ;
-          [.#.|#:] Cns:* Vow:+ s _ y %> :y ;
+          [.#.|#:] Cns:* Vow:+ s _ y: [%> :y|%> i2: (%> n) # ] ;
           [.#.|#:] Cns:* Vow:+ s _ u %> %^V:u  ;
           [.#.|#:] Cns:* Vow:+ s _ o %> :o ;
           [.#.|#:] Cns:* Vow:+ s _ e (Dial:) %> :e ;
@@ -269,7 +269,7 @@ Rules
                      [l|r|n|m] s _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
                      [l|r|n|m] s _ :ö %> :ö ;
                      [l|r|n|m] s _ :y %> :y ;
-                     [l|r|n|m] s _ :u %> :u ;
+                     [l|r|n|m] s _ :u [%> :u| %> i2: (%> n) #] ;
                      [l|r|n|m] s _ :o %> :o ;
                      [l|r|n|m] s _ :e %> :e ;
 [.#.|#:] Cns:+ Vow:+ [l|r|n|m] s _ :a %> :a ;
@@ -294,7 +294,7 @@ Rules
  [.#.|#:] [Cns: *Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ ä: (%^A0:) %> i2: (%>) :i (%> t %^A:)  ; ! pl                                           
                         [l|r|n|m] :t _ :ö %> [:ö|i2: (%> n) #] ;
                         [l|r|n|m] :t _ :y %> [:y|i2: (%> n) #] ;
-                        [l|r|n|m] :t _ :u %> :u ;
+                        [l|r|n|m] :t _ :u %> [:u|i2: (%> n) #] ;
                         [l|r|n|m] :t _ :o %> [:o|i2: (%> n) #] ; ! kunto:kunttoi, kunttoin
                         [l|r|n|m] :t _ :Vow %>  i7: ;
                         [l|r|n|m] :t _ i [ %> %^V:i| (%^AO:0) %> i2: (%> n) #] ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
