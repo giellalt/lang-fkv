@@ -223,7 +223,7 @@ Rules
  [.#.|#:] Cns:* Vow:+ p _ y %> [:y|i2: (%> n) #] ;
  [.#.|#:] Cns:* Vow:+ p _ u %> [%^V:u|i2: (%> n) # ]  ;
  [.#.|#:] Cns:* Vow:+ p _ o %> [:o|i2: (%> n) #] ;
- [.#.|#:] Cns:* Vow:+ p _ e (Dial:) %> :e ;
+ [.#.|#:] Cns:* Vow:+ p _ e: (Dial:) [%> :e| %> i2: %> :i (%> n) ] ;
  [.#.|#:] Cns:* Vow:+ [l|r|n|m] p _ ä: %> [:ä|i2: %> :i (n) #] ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
  [.#.|#:] Cns:* Vow:+ [l|r|n|m] p _ a: (Dial:) [%> :a|%^A2I:|%^AO: %> i2: (%> n) #] ;
                       [l|r|n|m] p _ :Vow %>  i7: ;
