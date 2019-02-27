@@ -239,7 +239,7 @@ Rules
 
 "Gemination 0:r"
 0:r <=> [.#.|#:] Cns:* Vow r _ ä: [%> :ä| %> i2: %> :i (%> n) ] ;
-        [.#.|#:] Cns:* Vow r _ ö %> :ö ;
+        [.#.|#:] Cns:* Vow r _ ö:  [%> :ö| %> i2: (%> n) ] ;
         [.#.|#:] Cns:* Vow r _ y %> :y ;
         [.#.|#:] Cns:* Vow r _ u %> :u ;
         [.#.|#:] Cns:* Vow r _ e %> :e ;
