@@ -293,7 +293,7 @@ Rules
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :ä %> :ä  ; ! sg
  [.#.|#:] [Cns: *Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ ä: (%^A0:) %> i2: (%>) :i (%> t %^A:)  ; ! pl                                           
                         [l|r|n|m] :t _ :ö %> [:ö|i2: (%> n) #] ;
-                        [l|r|n|m] :t _ :y %> :y ;
+                        [l|r|n|m] :t _ :y %> [:y|i2: (%> n) #] ;
                         [l|r|n|m] :t _ :u %> :u ;
                         [l|r|n|m] :t _ :o %> [:o|i2: (%> n) #] ; ! kunto:kunttoi, kunttoin
                         [l|r|n|m] :t _ :Vow %>  i7: ;
