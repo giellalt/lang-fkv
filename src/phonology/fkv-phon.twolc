@@ -278,7 +278,7 @@ Rules
 [.#.|#:] Cns:+ Vow:+ [l|r|n|m] s _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
 
 "Gemination 0:t"
-0:t <=>                    :Vow :t _ [:o|:i]  (%^AO:0) %>  [:i - i3:] (i2:i) ; ! to be fixed
+0:t <=>                    :Vow :t _ [:o|:i]  (%^AO:0) %>  [:i - i2:] ; ! kađota:kato -> kattoisin
                            :Vow :t _ [Vow: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
                            :Vow :t _ e:            %> i7:i Cns ; ! contr verbs
  [.#.|#:] Cns:* Vow:+           :t _ a %^Por:0 %> :a ; ! Only in Por, 0:k kk
@@ -287,7 +287,7 @@ Rules
  [.#.|#:] Cns:* Vow:+           :t _ ö %> [:ö|i2: (%> n) # ] ;
  [.#.|#:] Cns:* Vow:+           :t _ y %> [:y|i2: (%> n) # ] ;
  [.#.|#:] Cns:* Vow:+           :t _ u %> [%^V:u|i2: (%> n) #]  ;
- [.#.|#:] Cns:* Vow:+           :t _ :o %> [:o|i2: (%> n) # ] ; ! sata: sattoi, sattoin
+ [.#.|#:] Cns:* Vow:+           :t _ :o %> [:o|i2: (%> n) # ] ; ! sata:sattoi, maito:maittoi
  [.#.|#:] Cns:* Vow:+           :t _ e (Dial:) %> :e ;
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ :a (Dial:) %> :a  ; ! sg
  [.#.|#:] [Cns:* Vow:+] ([Cns:* Vow:+]) [l|r|n|m] :t _ a: (Dial:) [ %^A2I: | %^AO: ] %> i2: (%> n) #  ; ! pl
