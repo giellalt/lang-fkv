@@ -27,10 +27,15 @@ LEXICON NounRoot !!= @CODE@
   !! TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
 
     !! ** 2.2  Usseempitav. ( opettaaja )                         = n_21           ! vanha_n_22
-    !! *** 2.2.2  U.tav. monikko oi (kulkkiija,sivakka,paijukko ) = n_21_oi        ! vanha_n_22oi
+    !! *** 2.2.2  U.tav. monikko oi (kulkkiija,sivakka,paijukko ) = n_21_oi        ! vanha_n_22oi 
+!n_21_ae_even  Usseempitav.even. ä-loppuinen, monikko -i (äänestäjä, mähättäjä, pitenemä) ! Ailin lisäys  
     !! *** 2.2.1  Usseempitav. odd ( kajava )                     = n_21_odd       ! vanha_n_22odd
     !! *** 2.2.1  Usseempitav. odd ( meininki, tunturi )          = n_21_odd_i     ! vanha_n_22oddi
     ! valkea (ei valkkee!! Vaan valkea~valkia, valkea/nna, -eina) TODO check diff and add to yaml&fst
+!n_21_odd_u    (palvelu,ratkaisu, raamattu) !Ailin lisäys
+!n_21_odd_ua    (saipua, fierua, luusua) ! Ailin lisäys 
+! n_21_odd_AO  AO in plural, and also gemination in pl par (valinta> valinttoi) ! Ailin lisäys (työn alla)
+!n_21_odd_oi odd number and oi in plural (opinto, sovinto) ! Ailin lisäys (työn alla) 
 
     !! ** 3.2 Usseempitavuiset ( tytär )
     !! *** 3.2.1 ( tytär, taival, paimen )                        = n_22           ! vanha_n_32
@@ -4947,7 +4952,7 @@ juoru:juoru n_11 ;
 nauru:nauru n_11 ;
 persetkuru:perset#kuru n_11 ;
 kuru:kuru n_11 ;
-muru:muru n_11 ;
+u:muru n_11 ;
 mouru:mouru n_11 ;
 suru:suru n_11 ;
 suurus:suuru n_22_excns ;
