@@ -112,7 +112,7 @@ Rules
 0:h <=> [.#.|#:] Cns:* Vow h _ ä %> :ä ;
         [.#.|#:] Cns:* Vow h _ ö %> :ö ;
         [.#.|#:] Cns:* Vow h _ y %> :y ;
-        [.#.|#:] Cns:* Vow h _ u %> :u ;
+        [.#.|#:] Cns:* Vow h _ u %> [:u|i2: (%> n) #] ;
         [.#.|#:] Cns:* Vow h _ e %> :e ;
         [.#.|#:] Cns:* Vow h _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: ] ;
         [.#.|#:] Cns:* Vow h _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
