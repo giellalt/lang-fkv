@@ -163,7 +163,7 @@ Rules
                         [l|r|n|m] :k _ e: (Dial:) %^E2I:0 %> i2: %>   %^V: ;
                         [l|r|n|m]  k _  i (Dial:)         %> i2: %> t %^A: ; ! meininkkiitä in Por
                         [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i] ;
-                        [l|r|n|m]  k _ :y (Dial:) %> [:y|:i #] ;
+                        [l|r|n|m]  k _ :y (Dial:) %> [:y|:i (%> n) #] ;
                         [l|r|n|m]  k _ :u (Dial:) %> [:u|:i (%> n) #] ; ! urkkui mutta urkuina
                         [l|r|n|m]  k _ :o (Dial:) %> [:o|:i (%> n) #] ;                
                         [l|r|n|m]  k _ :e (Dial:) %> [:e|:i] ;
