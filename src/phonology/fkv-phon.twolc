@@ -407,7 +407,7 @@ k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki 
                   [e|i] _ [e:|i|ä:|a:|u]  %^Por:               %^WG:0 (%> i2:i) ; ! aika-aijan (Dummy: before ^WG? !TODO DONE move to k:0 in Var
              \[e] [r|l] _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
             [a|e] [r|l] _  e          (Dummy:)               %^WG:0 %> ; ! haljeta, halkee, seljetä, selkee
-                  Cns u _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! lukkeet  - lujen
+ [.#.|#:]     Cns [o|u] _  e:         %^WG:0                           ; ! lukkeet  - lujen
 !                  \u h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet, change to next line due to puhke
                       h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet, lohke- lohjeta, puhke- puhjeta
 
