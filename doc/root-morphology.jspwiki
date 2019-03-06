@@ -25,6 +25,7 @@ Take nothing at face value!
  * __+Prop     __ = Propernoun
  * __+Ord__ = Ordinal
  * __+ABBR__ = Abbreviation
+ * +Symbol = independent symbols in the text stream, like £, €, ©
  * __+ACR__ = Acronym
 
  !!Tags for grammar
@@ -282,7 +283,8 @@ Here is the Root lexicon, pointing to all the parts of speech:
  *  Pronoun ;          
  *  ProperNoun ;      
  *  Punctuation ;      
- *  VerbRoot ;          
+ *  Symbols     ;      
+ *  VerbRoot ;         
  *  Subjunction ;      
  *  Abbreviation ;     
 
