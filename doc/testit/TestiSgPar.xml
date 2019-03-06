@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (helmikuun 22. päivänä 2019, klo. 11:17)</title>  
+    <title>Generoidut muodot (maaliskuun 6. päivänä 2019, klo. 15:15)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -415,7 +415,6 @@
 <tr><td>urakkapalkka+N+Sg+Par</td><td>urakkapalkkaa</td></tr>
 <tr><td>tiimapalkka+N+Sg+Par</td><td>tiimapalkkaa</td></tr>
 <tr><td>vuosipalkka+N+Sg+Par</td><td>vuosipalkkaa</td></tr>
-<tr><td>elka+N+Sg+Par</td><td>elkkaa</td></tr>
 <tr><td>kelkka+N+Sg+Par</td><td>kelkkaa</td></tr>
 <tr><td>vesikelkka+N+Sg+Par</td><td>vesikelkkaa</td></tr>
 <tr><td>pelkka+N+Sg+Par</td><td>pelkkaa</td></tr>
@@ -533,6 +532,7 @@
 <tr><td>luukka+N+Sg+Par</td><td>luukkaa</td></tr>
 <tr><td>pluuka+N+Sg+Par</td><td>pluukkaa</td></tr>
 <tr><td>sluuka+N+Sg+Par</td><td>sluukkaa</td></tr>
+<tr><td>elka+N+Sg+Par</td><td>elkaa</td></tr>
 <tr><td>paska+N+Sg+Par</td><td>paskaa</td></tr>
 <tr><td>rieska+N+Sg+Par</td><td>rieskaa</td></tr>
 <tr><td>ohrarieska+N+Sg+Par</td><td>ohrarieskaa</td></tr>
@@ -1050,7 +1050,6 @@
 <tr><td>luhta+N+Sg+Par</td><td>luhtaa</td></tr>
 <tr><td>jikta+N+Sg+Par</td><td>jiktaa</td></tr>
 <tr><td>pukta+N+Sg+Par</td><td>puktaa</td></tr>
-<tr><td>luononhallinta+N+Sg+Par</td><td>luononhallintaa</td></tr>
 <tr><td>pasta+N+Sg+Par</td><td>pastaa</td></tr>
 <tr><td>vasta+N+Sg+Par</td><td>vastaa</td></tr>
 <tr><td>niesta+N+Sg+Par</td><td>niestaa</td></tr>
@@ -1140,6 +1139,7 @@
 <tr><td>santa+N+Sg+Par</td><td>santtaa</td></tr>
 <tr><td>hinta+N+Sg+Par</td><td>hinttaa</td></tr>
 <tr><td>valinta+N+Sg+Par</td><td>valinttaa</td></tr>
+<tr><td>luononhallinta+N+Sg+Par</td><td>luononhallinttaa</td></tr>
 <tr><td>toiminta+N+Sg+Par</td><td>toiminttaa</td></tr>
 <tr><td>pinta+N+Sg+Par</td><td>pinttaa</td></tr>
 <tr><td>aavanpinta+N+Sg+Par</td><td>aavanpinttaa</td></tr>
@@ -4492,8 +4492,8 @@
 <tr><td>kukku+N+Sg+Par</td><td>kukkuu</td></tr>
 <tr><td>lukku+N+Sg+Par</td><td>lukkuu</td></tr>
 <tr><td>luku+N+Sg+Par</td><td>lukkuu</td></tr>
-<tr><td>seittementoistasattaa-luku+N+Sg+Par</td><td>seittementoistasattaa-lukkuu</td></tr>
 <tr><td>kahđeksantoistasađan-luku+N+Sg+Par</td><td>kahđeksantoistasađan-lukkuu</td></tr>
+<tr><td>seittementoistasađan-luku+N+Sg+Par</td><td>seittementoistasađan-lukkuu</td></tr>
 <tr><td>yhđeksentoistasađan-luku+N+Sg+Par</td><td>yhđeksentoistasađan-lukkuu</td></tr>
 <tr><td>munalukku+N+Sg+Par</td><td>munalukkuu</td></tr>
 <tr><td>vuosiluku+N+Sg+Par</td><td>vuosilukkuu</td></tr>
@@ -4605,7 +4605,6 @@
 <tr><td>pounu+N+Sg+Par</td><td>pounuu</td></tr>
 <tr><td>kruunu+N+Sg+Par</td><td>kruunuu</td></tr>
 <tr><td>kattokruunu+N+Sg+Par</td><td>kattokruunuu</td></tr>
-<tr><td>nepu+N+Sg+Par</td><td>nepuu</td></tr>
 <tr><td>apu+N+Sg+Par</td><td>appuu</td></tr>
 <tr><td>lappu+N+Sg+Par</td><td>lappuu</td></tr>
 <tr><td>krapu+N+Sg+Par</td><td>krappuu</td></tr>
@@ -4615,6 +4614,7 @@
 <tr><td>riepu+N+Sg+Par</td><td>rieppuu</td></tr>
 <tr><td>lapsiriepu+N+Sg+Par</td><td>lapsirieppuu</td></tr>
 <tr><td>äijäriepu+N+Sg+Par</td><td>äijärieppuu</td></tr>
+<tr><td>nepu+N+Sg+Par</td><td>neppuu</td></tr>
 <tr><td>reppu+N+Sg+Par</td><td>reppuu</td></tr>
 <tr><td>teppu+N+Sg+Par</td><td>teppuu</td></tr>
 <tr><td>piippu+N+Sg+Par</td><td>piippuu</td></tr>
@@ -4660,7 +4660,7 @@
 <tr><td>šoru+N+Sg+Par</td><td>šorruu</td></tr>
 <tr><td>kuru+N+Sg+Par</td><td>kurruu</td></tr>
 <tr><td>persetkuru+N+Sg+Par</td><td>persetkurruu</td></tr>
-<tr><td>muru+N+Sg+Par</td><td>murruu</td></tr>
+<tr><td>u+N+Sg+Par</td><td>murruu</td></tr>
 <tr><td>suru+N+Sg+Par</td><td>surruu</td></tr>
 <tr><td>nauru+N+Sg+Par</td><td>nauruu</td></tr>
 <tr><td>mouru+N+Sg+Par</td><td>mouruu</td></tr>
