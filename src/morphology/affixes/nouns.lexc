@@ -1187,6 +1187,9 @@ LEXICON x_32_as
 !LEXICON vanha_n_33aes
 !        +N:             vanha_x_33aes           ;
 
+LEXICON n_32_aes
++N         : x_32_aes ;
+
 LEXICON x_32_aes
   +Sg+Nom:ä^WG%>s      K                 ;
   +Sg      :ä^WG%>s      par_tA            ;
