@@ -122,6 +122,7 @@ Rules
 "Gemination 0:j"
 0:j <=> [.#.|#:] Cns:*  Vow j _ ä: (Dial:) %> [:ä | i2:i %> :i ] ;
         [.#.|#:] Cns:*  Vow j _ ö %> :ö ;
+         [.#.|#:] Cns:*  Vow j _ i [%> :i| %^AO:| %>i2 (%> n) ]  ;
         [.#.|#:] Cns:*  Vow j _ y %> :y ;
         [.#.|#:] Cns:* Vow j _ u %> [:u|i2: (%> n) #] ;
         [.#.|#:] Cns:*  Vow j _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
@@ -129,7 +130,7 @@ Rules
         [.#.|#:] Cns:* Vow j _ :a (Dial:0) %> :a ; ! for kuvvaa d. could be just %^Por:0
         [.#.|#:] Cns:* Vow j _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:* Vow j _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii !
-        [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :ä (Dial:) %> :ä  ; !Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+      !  [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :ä (Dial:) %> :ä  ; !Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
        ! [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :a (Dial:) %> :a ;
                                [l|r|n|m] j _ :Vow (Dial:) %>  i7: ;
                                [l|r|n|m] j _ :i   (Dial:) %>  %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
