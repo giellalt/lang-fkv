@@ -131,7 +131,7 @@ Rules
         [.#.|#:] Cns:* Vow j _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:* Vow j _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii !
       !  [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :ä (Dial:) %> :ä  ; !Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
-       ! [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :a (Dial:) %> :a ;
+        [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :a (Dial:) %> :a ;
                                [l|r|n|m] j _ :Vow (Dial:) %>  i7: ;
                                [l|r|n|m] j _ :i   (Dial:) %>  %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                                [l|r|n|m] :j _ e:  (Dial:) %^E2I:0 %> i2: %>   %^V: ;
@@ -409,6 +409,7 @@ k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki 
              \[e] [r|l] _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
             [a|e] [r|l] _  e          (Dummy:)               %^WG:0 %> ; ! haljeta, halkee, seljetä, selkee
  [.#.|#:]     Cns [o|u] _  e:         %^WG:0                           ; ! lukkeet  - lujen
+ [.#.|#:]     Cns   a i _  u          %^WG:0                           ; ! kaikkuut:kaijun
 !                  \u h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet, change to next line due to puhke
                       h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet, lohke- lohjeta, puhke- puhjeta
 
@@ -1292,7 +1293,7 @@ a:i <=> Vow Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vow instead of a a 
 
 "a:e in comparative"
 !! __@RULENAME@__
-Vx:e <=>                             _ (%^WG:0) %^AE:0 ;
+Vx:e <=>                             _ (%^WG:0) %^AE:0 ; ! tämä on myös passiivin sääntö, pitäisi ehkä muokata
     [.#.|#:] Cns:* Vow: (Vow:) Cns:* _ (%^WG:0) %> m p i (%>) ;
      where Vx in ( a ä ) ;
      ! Vx:e <=> _  %^AE:0 (t) (t) ;
