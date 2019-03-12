@@ -409,13 +409,12 @@ k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki 
              \[e] [r|l] _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
             [a|e] [r|l] _  e          (Dummy:)               %^WG:0 %> ; ! haljeta, halkee, seljetä, selkee
  [.#.|#:]     Cns [o|u] _  e:         %^WG:0                           ; ! lukkeet  - lujen
- [.#.|#:]     Cns   a i _  u          %^WG:0                           ; ! kaikkuut:kaijun
-!                  \u h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet, change to next line due to puhke
+ [.#.|#:]   [k|j] a (i) _  [a:|u]     %^WG:0 ([%^AO:|%^AE:]) (%>) (i3:) (%>)     ; ! kaikkuut:kaijun, jakkaat:jajan
                       h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet, lohke- lohjeta, puhke- puhjeta
 
 "Gradation k:0"
 k:0 <=>               h _ [Vow - e:]   (Dummy:) (:i) (Dummy:) %^WG:0      ; !tuhka - tuhat, uhata - uhkaa
- [.#.|#:] Cns (u)     a _ a:           (Dummy:) (:i) (Dummy:) %^WG:0 (%^AO:0 %> i2: %> \n)  ; !makaa - maata
+ [.#.|#:] [m|h] (u)   a _ a:           (Dummy:) (:i) (Dummy:) %^WG:0 (%^AO:0 %> i2: %> \n)  ; !makaa:maata, haka:haan
             [i u|a u|y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0      ; !kykenee - kyetä, laukkee - laueta,liuota-liukkee
        [.#.|#:] Cns u h _ e  %^WG:0                                       ; !puheta - puhkee, pohkheet:pohjet
         [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0      ; !ikene- - ien
