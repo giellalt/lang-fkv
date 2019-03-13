@@ -120,13 +120,13 @@ Rules
         [.#.|#:] Cns:* Vow h _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
 "Gemination 0:j"
-0:j <=> [.#.|#:] Cns:*  Vow j _ ä: (Dial:) %> [:ä | i2:i %> :i ] ;
-        [.#.|#:] Cns:*  Vow j _ ö %> :ö ;
-         [.#.|#:] Cns:*  Vow j _ i [%> :i| %^AO:| %>i2 (%> n) ]  ;
-        [.#.|#:] Cns:*  Vow j _ y %> :y ;
+0:j <=> [.#.|#:] Cns:* Vow j _ ä: (Dial:) %> [:ä | i2:i %> :i ] ;
+        [.#.|#:] Cns:* Vow j _ ö %> :ö ;
+        [.#.|#:] Cns:* Vow j _ i [%> :i| %^AO:| %>i2 (%> n) ]  ;
+        [.#.|#:] Cns:* Vow j _ y %> :y ;
         [.#.|#:] Cns:* Vow j _ u %> [:u|i2: (%> n) #] ;
-        [.#.|#:] Cns:*  Vow j _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
-        [.#.|#:] Cns:*  Vow j _ e %> :e ;
+        [.#.|#:] Cns:* Vow j _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
+        [.#.|#:] Cns:* Vow j _ e %> :e ;
         [.#.|#:] Cns:* Vow j _ :a (Dial:0) %> :a ; ! for kuvvaa d. could be just %^Por:0
         [.#.|#:] Cns:* Vow j _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:* Vow j _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii !
@@ -143,31 +143,31 @@ Rules
                                [l|r|n|m] j _ :e (Dial:) %> :e ;
 
 "Gemination 0:k"
-0:k <=> ([a|o]) [Vow|i6:] (Vow:) k _  :o (Dial:)  %^AO: %> [:i - i3:] (%> [n|t])     # ; ! aikkoi  ! never a:0
-        ([a|o]) [Vow|i6:] (Vow:) k _  :i (Dial:) %^A2I: %> [:i - i3:] (%> [n|t])     # ; ! poikkii ! never a:0
-        ([a|o])  Vow      (Vow:) k _ e:0 (Dial:)        %>   i2:i      %> %^V:i  (n) # ; ! jokkii
-                      Vow:+ k _ Vow:           %> i2:i  %>   :i ; ! pena-penniin,huppiin,eilaki-lakkiin? was: %^V:i
-                      Vow:+ k _ e:             %> i7:i Cns ; ! contr verbs
-                      Vow:+ [k|k2:] _ Vow:           [%> %^V:i | %^AO: %> i2: (%> n) # ] ; ! sopi soppii
- [.#.|#:] Cns:* Vow:+ [k|k2:] _ a: %^Por:0 [%> :a | %^AO: %> i2: (%> n) #] ; ! Only in Por, 0:k kk
+0:k <=> ([a|o]) [Vow|i6:] (Vow:) k _  :o (Dial:)  %^AO: %> [:i - i3:] (%> [n|t])     #  ; ! aikkoi  ! never a:0
+        ([a|o]) [Vow|i6:] (Vow:) k _  :i (Dial:) %^A2I: %> [:i - i3:] (%> [n|t])     #  ; ! poikkii ! never a:0
+        ([a|o]) Vow       (Vow:) k _ e:0 (Dial:)        %>   i2:i      %> %^V:i  (n) #  ; ! jokkii
+                Vow:+       k _ Vow:           %> i2:i  %>  :i                      ; ! pena-penniin,huppiin,eilaki-lakkiin? was: %^V:i
+                Vow:+       k _ e:             %> i7:i  Cns                         ; ! contr verbs
+                Vow:+ [k|k2:] _ Vow:       [%> %^V:i | %^AO: %> i2: (%> n) # ]      ; ! sopi soppii
+ [.#.|#:] Cns:* Vow:+ [k|k2:] _ a: %^Por:0 [%> :a | %^AO: %> i2: (%> n) #]  ; ! Only in Por, 0:k kk
  [.#.|#:] Cns:* Vow:+       k _ a  %> :a                ; ! jakkaat:jakkaa
  [.#.|#:] Cns:* Vow:+       k _ ä  %> :ä                ;
  [.#.|#:] Cns:* Vow:+       k _ ö  %> [:ö|i2: (%> n) #] ;
  [.#.|#:] Cns:* Vow:+       k _ y  %> [:y|i2: (%> n) #] ;
  [.#.|#:] Cns:* Vow:+       k _ u  %> [:u|:i  (%> n) #] ; ! flaku flakkui, flakkuin
  [.#.|#:] Cns:* Vow:+       k _ o  %> [:o|:i  (%> n) #] ; ! koko kokkoi
- [.#.|#:] Cns:* Vow:+       k _ e (Dial:) %> :e ;
- [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ ä: (Dial:)         %> [ :ä | i2:i %> :i ] ; ! selkä selkkii, selkkiin
+ [.#.|#:] Cns:* Vow:+       k _ e (Dial:) %> :e         ;
+ [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ ä: (Dial:)         %> [ :ä | i2:i %> :i ]         ; ! selkä selkkii, selkkiin
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ a: (Dial:)        [%> :a | %^AO: %> i2: (%> n) #] ; ! virka:virkkoi
-                        [l|r|n|m]  k _ :Vow (Dial:)       %>  i7: ;
+                        [l|r|n|m]  k _ :Vow (Dial:)       %>  i7:           ;
                         [l|r|n|m]  k _ :i (Dial:)         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
-                        [l|r|n|m] :k _ e: (Dial:) %^E2I:0 %> i2: %>   %^V: ;
-                        [l|r|n|m]  k _  i (Dial:)         %> i2: %> t %^A: ; ! meininkkiitä in Por
-                        [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i] ;
+                        [l|r|n|m] :k _ e: (Dial:) %^E2I:0 %> i2: %>   %^V:  ;
+                        [l|r|n|m]  k _  i (Dial:)         %> i2: %> t %^A:  ; ! meininkkiitä in Por
+                        [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i]          ;
                         [l|r|n|m]  k _ :y (Dial:) %> [:y|:i (%> n) #] ;
                         [l|r|n|m]  k _ :u (Dial:) %> [:u|:i (%> n) #] ; ! urkkui mutta urkuina
                         [l|r|n|m]  k _ :o (Dial:) %> [:o|:i (%> n) #] ;                
-                        [l|r|n|m]  k _ :e (Dial:) %> [:e|:i] ;
+                        [l|r|n|m]  k _ :e (Dial:) %> [:e|:i]          ;
 
 
 
@@ -405,7 +405,7 @@ i6:0 <=> _ k: Vow: (Dial:0) %^WG:0 (%^AO:0) ;
 k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i]      (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki  - mäjen
                       i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; !
                     i6: _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! poika poha, pojitte
-                  [e|i] _ [e:|i|ä:|a:|u]  %^Por:               %^WG:0 (%> i2:i) ; ! aika-aijan (Dummy: before ^WG? !TODO DONE move to k:0 in Var
+                  [e|i] _ [e:|i|ä:|a:|u]  %^Por:             %^WG:0 (%> i2:i) ; ! aika-aijan (Dummy: before ^WG? !TODO DONE move to k:0 in Var
              \[e] [r|l] _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
             [a|e] [r|l] _  e          (Dummy:)               %^WG:0 %> ; ! haljeta, halkee, seljetä, selkee
  [.#.|#:]     Cns [o|u] _  e:         %^WG:0                           ; ! lukkeet  - lujen
@@ -418,9 +418,9 @@ k:0 <=>               h _ [Vow - e:]   (Dummy:) (:i) (Dummy:) %^WG:0      ; !tuh
             [i u|a u|y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0      ; !kykenee - kyetä, laukkee - laueta,liuota-liukkee
        [.#.|#:] Cns u h _ e  %^WG:0                                       ; !puheta - puhkee, pohkheet:pohjet
         [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0      ; !ikene- - ien
-               ö: [l|r] _ [ö|ä]   (Dummy:) (:i) (Dummy:)      %^WG:0 ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
-        [e|i|ä|y|o] [l|r] _ [a:|ä:|y|u|o] (Dummy:) (:i) (Dummy:)      %^WG:0 ; ! selkä:selän, nälkä:nälän, härkä:härän, yrkä:yrän
-               a: [l|r] _ [NotEYUB:|u] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! varas - varkaan, NOT: sylki:syljin
+               ö: [l|r] _ [ö|ä]   (Dummy:) (:i) (Dummy:)      %^WG:0      ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
+      [e|i|ä|y|o] [l|r] _ [a:|ä:|y|u|o] (Dummy:) (:i) (Dummy:) %^WG:0     ; ! selkä:selän, nälkä:nälän, härkä:härän, yrkä:yrän
+               a: [l|r] _ [NotEYUB:|u] (Dummy:) (:i) (Dummy:) %^WG:0      ; ! varas - varkaan, NOT: sylki:syljin
                e  [l|r] _ i (%>)                              %^WG:0 (%>) ; !keritä - kerkkii
                   [o|ö] _ e:  %^Var:0 (Dummy:) (:i) (Dummy:)  %^WG:0      ; !joki (stem joke) joen
                   a  i  _ a   %^Var:0                         %^WG:0 %>   ; !aika aian
