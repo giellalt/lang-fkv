@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (maaliskuun 6. päivänä 2019, klo. 15:16)</title>  
+    <title>Generoidut muodot (maaliskuun 19. päivänä 2019, klo. 12:16)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -26,15 +26,15 @@
 <tr><td>ajjaat+V+Act+Ind+Prs+Sg3</td><td>ajjaa</td></tr>
 <tr><td>rajata+V+Act+Ind+Prs+Sg3</td><td>rajjaa</td></tr>
 <tr><td>nojata+V+Act+Ind+Prs+Sg3</td><td>nojjaa</td></tr>
-<tr><td>korjata+V+Act+Ind+Prs+Sg3</td><td>korjjaa</td></tr>
-<tr><td>jakkaat+V+Act+Ind+Prs+Sg3</td><td>jakaa</td></tr>
-<tr><td>maata+V+Act+Ind+Prs+Sg3</td><td>makaa</td></tr>
+<tr><td>korjata+V+Act+Ind+Prs+Sg3</td><td>korjaa</td></tr>
 <tr><td>uhata+V+Act+Ind+Prs+Sg3</td><td>uhkaa</td></tr>
 <tr><td>kaakata+V+Act+Ind+Prs+Sg3</td><td>kaakkaa</td></tr>
 <tr><td>raakata+V+Act+Ind+Prs+Sg3</td><td>raakkaa</td></tr>
 <tr><td>traakata+V+Act+Ind+Prs+Sg3</td><td>traakkaa</td></tr>
 <tr><td>hakata+V+Act+Ind+Prs+Sg3</td><td>hakkaa</td></tr>
+<tr><td>jakkaat+V+Act+Ind+Prs+Sg3</td><td>jakkaa</td></tr>
 <tr><td>lakata+V+Act+Ind+Prs+Sg3</td><td>lakkaa</td></tr>
+<tr><td>maata+V+Act+Ind+Prs+Sg3</td><td>makkaa</td></tr>
 <tr><td>nakata+V+Act+Ind+Prs+Sg3</td><td>nakkaa</td></tr>
 <tr><td>pakata+V+Act+Ind+Prs+Sg3</td><td>pakkaa</td></tr>
 <tr><td>leekata+V+Act+Ind+Prs+Sg3</td><td>leekkaa</td></tr>
@@ -60,6 +60,7 @@
 <tr><td>kokata+V+Act+Ind+Prs+Sg3</td><td>kokkaa</td></tr>
 <tr><td>plokata+V+Act+Ind+Prs+Sg3</td><td>plokkaa</td></tr>
 <tr><td>mookata+V+Act+Ind+Prs+Sg3</td><td>mookkaa</td></tr>
+<tr><td>huokata+V+Act+Ind+Prs+Sg3</td><td>huokkaa</td></tr>
 <tr><td>muokata+V+Act+Ind+Prs+Sg3</td><td>muokkaa</td></tr>
 <tr><td>karata+V+Act+Ind+Prs+Sg3</td><td>karkkaa</td></tr>
 <tr><td>kurkata+V+Act+Ind+Prs+Sg3</td><td>kurkkaa</td></tr>
@@ -70,7 +71,6 @@
 <tr><td>pluukata+V+Act+Ind+Prs+Sg3</td><td>pluukkaa</td></tr>
 <tr><td>pruukata+V+Act+Ind+Prs+Sg3</td><td>pruukkaa</td></tr>
 <tr><td>söökata+V+Act+Ind+Prs+Sg3</td><td>söökkaa</td></tr>
-<tr><td>huokata+V+Act+Ind+Prs+Sg3</td><td>huokaa</td></tr>
 <tr><td>huoata+V+Act+Ind+Prs+Sg3</td><td>huokaa</td></tr>
 <tr><td>haaskata+V+Act+Ind+Prs+Sg3</td><td>haaskaa</td></tr>
 <tr><td>paiskata+V+Act+Ind+Prs+Sg3</td><td>paiskaa</td></tr>
@@ -1863,16 +1863,26 @@
 <tr><td>mainita+V+Act+Ind+Prs+Sg3</td><td>mainittee</td></tr>
 <tr><td>punnita+V+Act+Ind+Prs+Sg3</td><td>punnittee</td></tr>
 <tr><td>sivakoita+V+Act+Ind+Prs+Sg3</td><td>sivakoittee</td></tr>
+<tr><td>sivakoiđa+V+Act+Ind+Prs+Sg3</td><td>sivakoittee</td></tr>
 <tr><td>palmikoita+V+Act+Ind+Prs+Sg3</td><td>palmikoittee</td></tr>
+<tr><td>palmikoiđa+V+Act+Ind+Prs+Sg3</td><td>palmikoittee</td></tr>
 <tr><td>iloita+V+Act+Ind+Prs+Sg3</td><td>iloittee</td></tr>
 <tr><td>joutiloita+V+Act+Ind+Prs+Sg3</td><td>joutiloittee</td></tr>
+<tr><td>joutiloiđa+V+Act+Ind+Prs+Sg3</td><td>joutiloittee</td></tr>
 <tr><td>markkinoita+V+Act+Ind+Prs+Sg3</td><td>markkinoittee</td></tr>
+<tr><td>markkinoiđa+V+Act+Ind+Prs+Sg3</td><td>markkinoittee</td></tr>
 <tr><td>kiharoita+V+Act+Ind+Prs+Sg3</td><td>kiharoittee</td></tr>
+<tr><td>kiharoiđa+V+Act+Ind+Prs+Sg3</td><td>kiharoittee</td></tr>
 <tr><td>kiikaroita+V+Act+Ind+Prs+Sg3</td><td>kiikaroittee</td></tr>
+<tr><td>kiikaroiđa+V+Act+Ind+Prs+Sg3</td><td>kiikaroittee</td></tr>
 <tr><td>piikaroita+V+Act+Ind+Prs+Sg3</td><td>piikaroittee</td></tr>
+<tr><td>piikaroiđa+V+Act+Ind+Prs+Sg3</td><td>piikaroittee</td></tr>
 <tr><td>nikkaroita+V+Act+Ind+Prs+Sg3</td><td>nikkaroittee</td></tr>
+<tr><td>nikkaroiđa+V+Act+Ind+Prs+Sg3</td><td>nikkaroittee</td></tr>
 <tr><td>palavoita+V+Act+Ind+Prs+Sg3</td><td>palavoittee</td></tr>
+<tr><td>palavoiđa+V+Act+Ind+Prs+Sg3</td><td>palavoittee</td></tr>
 <tr><td>haravoita+V+Act+Ind+Prs+Sg3</td><td>haravoittee</td></tr>
+<tr><td>haravoiđa+V+Act+Ind+Prs+Sg3</td><td>haravoittee</td></tr>
 <tr><td>vieritä+V+Act+Ind+Prs+Sg3</td><td>vierittee</td></tr>
 <tr><td>häiritä+V+Act+Ind+Prs+Sg3</td><td>häirittee</td></tr>
 <tr><td>praatita+V+Act+Ind+Prs+Sg3</td><td>praatittee</td></tr>
@@ -1882,8 +1892,11 @@
 <tr><td>siivitä+V+Act+Ind+Prs+Sg3</td><td>siivittee</td></tr>
 <tr><td>tarvita+V+Act+Ind+Prs+Sg3</td><td>tarvittee</td></tr>
 <tr><td>kävelöitä+V+Act+Ind+Prs+Sg3</td><td>kävelöittee</td></tr>
+<tr><td>kävelöiđä+V+Act+Ind+Prs+Sg3</td><td>kävelöittee</td></tr>
 <tr><td>elämöitä+V+Act+Ind+Prs+Sg3</td><td>elämöittee</td></tr>
+<tr><td>elämöiđä+V+Act+Ind+Prs+Sg3</td><td>elämöittee</td></tr>
 <tr><td>kinneröitä+V+Act+Ind+Prs+Sg3</td><td>kinneröittee</td></tr>
+<tr><td>kinneröiđä+V+Act+Ind+Prs+Sg3</td><td>kinneröittee</td></tr>
 <tr><td>tuntteet+V+Act+Ind+Prs+Sg3</td><td>tunttee</td></tr>
 <tr><td>tođeta+V+Act+Ind+Prs+Sg3</td><td>tottee</td></tr>
 <tr><td>kutteet+V+Act+Ind+Prs+Sg3</td><td>kuttee</td></tr>
@@ -1984,7 +1997,7 @@
 <tr><td>hajota+V+Act+Ind+Prs+Sg3</td><td>hajjoo</td></tr>
 <tr><td>vajota+V+Act+Ind+Prs+Sg3</td><td>vajjoo</td></tr>
 <tr><td>hijjoot+V+Act+Ind+Prs+Sg3</td><td>hijjoo</td></tr>
-<tr><td>tarjota+V+Act+Ind+Prs+Sg3</td><td>tarjjoo</td></tr>
+<tr><td>tarjota+V+Act+Ind+Prs+Sg3</td><td>tarjoo</td></tr>
 <tr><td>takkoot+V+Act+Ind+Prs+Sg3</td><td>takkoo</td></tr>
 <tr><td>aikkoot+V+Act+Ind+Prs+Sg3</td><td>aikkoo</td></tr>
 <tr><td>leikkoot+V+Act+Ind+Prs+Sg3</td><td>leikkoo</td></tr>
@@ -2052,8 +2065,8 @@
 <tr><td>touhuut+V+Act+Ind+Prs+Sg3</td><td>touhuu</td></tr>
 <tr><td>keijuut+V+Act+Ind+Prs+Sg3</td><td>keijuu</td></tr>
 <tr><td>suijjuut+V+Act+Ind+Prs+Sg3</td><td>suijjuu</td></tr>
-<tr><td>kiljjuut+V+Act+Ind+Prs+Sg3</td><td>kiljjuu</td></tr>
-<tr><td>karjjuut+V+Act+Ind+Prs+Sg3</td><td>karjjuu</td></tr>
+<tr><td>kiljjuut+V+Act+Ind+Prs+Sg3</td><td>kiljuu</td></tr>
+<tr><td>karjjuut+V+Act+Ind+Prs+Sg3</td><td>karjuu</td></tr>
 <tr><td>kraakkuut+V+Act+Ind+Prs+Sg3</td><td>kraakkuu</td></tr>
 <tr><td>kaikkuut+V+Act+Ind+Prs+Sg3</td><td>kaikkuu</td></tr>
 <tr><td>kiikkuut+V+Act+Ind+Prs+Sg3</td><td>kiikkuu</td></tr>
@@ -2301,10 +2314,10 @@
 <tr><td>hyöttyyt+V+Act+Ind+Prs+Sg3</td><td>hyöttyy</td></tr>
 <tr><td>kehätä+V+Act+Ind+Prs+Sg3</td><td>kehhää</td></tr>
 <tr><td>mäihätä+V+Act+Ind+Prs+Sg3</td><td>mäihää</td></tr>
-<tr><td>kerjätä+V+Act+Ind+Prs+Sg3</td><td>kerjjää</td></tr>
-<tr><td>färjätä+V+Act+Ind+Prs+Sg3</td><td>färjjää</td></tr>
-<tr><td>pärjätä+V+Act+Ind+Prs+Sg3</td><td>pärjjää</td></tr>
 <tr><td>läjätä+V+Act+Ind+Prs+Sg3</td><td>läjjää</td></tr>
+<tr><td>kerjätä+V+Act+Ind+Prs+Sg3</td><td>kerjää</td></tr>
+<tr><td>färjätä+V+Act+Ind+Prs+Sg3</td><td>färjää</td></tr>
+<tr><td>pärjätä+V+Act+Ind+Prs+Sg3</td><td>pärjää</td></tr>
 <tr><td>pölätä+V+Act+Ind+Prs+Sg3</td><td>pölkkää</td></tr>
 <tr><td>kenkätä+V+Act+Ind+Prs+Sg3</td><td>kenkkää</td></tr>
 <tr><td>rynkätä+V+Act+Ind+Prs+Sg3</td><td>rynkkää</td></tr>
