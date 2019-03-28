@@ -1,0 +1,331 @@
+fkv-kokous 28.3.2019
+
+Läsnä: Trond, Thomas, Mervi, Mari, Anna-Kaisa ja Aili
+
+!!!Asialista: 
+
+* Status ja kysymykset
+* Graadivaihtelu
+* Numeraalit
+* määkkiit ja naakkiit
+* Seuraava möötti
+
+!!Status ja kysymykset
+
+Ailin ja Thomaksen kysymykset:
+
+* Olema korjanheet kaikki X-misc yamliin feilit. Jäljelä oon perintö-nomini ja ylipäänsä kolmetavuisten nominiitten pl par sujjutus ja pl vartalo.
+* Eiran jälkhiin se oon perintö: perinöitä, heikkona graadina ja lisäksi -tA 
+saattaa "puttoot pois". 
+* Maholiset kaksiparadigmoiset lainasanat (torko, fati, haaki, soopa jne). 
+* Sanakirjassa oon sekä “henkkaat” ette “hengata”. Oonko net oikkeestansa sama verbi?
+* Millä tavala erottaa verbissä tavalinen vahva graadi ja geminasjuuni?
+* Kommentti X-misc yamliista: joskus net oon oikkeessa ja joskus väärässä. Millä laila pitäis suhtautuut kommenthiin joka löyttyy yamliista tahi lexc:stä? Joskus näyttää siltä ette kommentit oon kopi-pastattu jostaki muvalta.
+* Graadivaihtelufeilit verbissä: kun korjaa niitä tullee helposti feilii muuvale, esim    substantiiviitten puolela
+
+* Eira oli samaa mieltä naakkiit-verbistä, mutta hänen mielestään määkkiit taipuu näin:
+määkkiit : määjin
+
+Tässä Eiran vastaus:
+"Tämmösten verbiin graadivaihettelu selvii 2. partisiipin haamusta. Ja kyllä kansa preteritin sg.3.p. Jos niissä oon II-graadi, se graadivaihettelu oon tyyppii II:I. Eli oon leikkiit : leikkiny : leikin (II:I:I) ja naakkiit : naakkinu : naakin (II:I:I), mutta määkkiit : määkiny : määjin (II:I:0). Mutta se oon tietenki paha tiettäät, jos sulla ei ole nuoita haamui (eli 2. partis. tahi preteritin sg.3.p.), mistä sen graadivaihettelun näkkee."
+
+näyttää siltä ette graadivaihtelu oon kiini verbistä ja sen historiasta
+tuottaa meile vähän haastheita ko infinitiivit saattaavat olla geminoitut (ja grammatikki ei tee eroa geminaation ja astevaihtelun välillä)
+
+!!Graadivaihtelu
+
+Luottaat: hän luotti (suomeksi "luottaa")
+Nukkuut: hän nukkui  (suomeksi "nukkua")
+
+Lukkeet: hän lukkee, hän luki
+
+
+
+Koska oon k:j ja koska k:v ko oon kaksi -k:ta infinitiivissä? 
+
+
+
+Kolmetavuiset: minkälainen partitiivisuffiksi ja rankan net pittävät saađa?
+Maholiset kaksiparadigmoiset lainasanat: yksi paradigma missä oon tavalinen graadivaihtelu ja toinen missä ei ole? (molemissa oon por dialektiissa geminasuuni)
+Epäreekelimäisyys i-loppuisissa nominissa: koska oon tyhä yksi -i, koska oon kaksi ja koska niitten lopussa saapi olla -ia? Ko puhuthaan por dialektiista.
+
+-logi 
+
+Porsangin dialektiissa ei ole -ia, oon aina -ii (Italii, assii jne) 
+
+
+
+
+Oonko graadivaihtelu k:0, k:j tahi k:v:
+
+viika (viijan tahi viian?)
+vaaka (vaaan tahi vaajan?)
+torko (toron tahi torvon?)
+korko (koron tahi korvon?) ??????
+Oonko sanassa tavalinen graadivahtelu:
+
+kriitu
+traaka
+nepu
+
+haaki: haakin
+soopa: soopan
+raati: raatin
+viika: viikan (?)
+
+
+
+torko: torvon 
+
+t2: pysyvä -t
+fati: fatin, fajin
+
+grep fati src/morphology/stems/nouns.lexc 
+fati+Err/Orth:fati n_11_i ; ! mutta ymmärrämme fajin
+fati:fat2i n_11_i ; ! normi on fatin
+
+
+tf4-hsl-m0024:fkv trond$ grep 't2.*n_11' src/morphology/stems/nouns.lexc
+vatta:vatt2a n_11_AO  ;
+delta:delt2a n_11_AO  ;
+floota:floot2a n_11_A0_A2I ;
+raakaveitti:raaka#veitt2e n_11_E2I ;
+klinkkuveitti:klinkku#veitt2e n_11_E2I ;
+veitti:veitt2e n_11_E2I ;
+teefati:tee#fat2i n_11_i ;
+leipäfati:leipä#fat2i n_11_i ;
+fati:fat2i n_11_i ;
+saiti:sait2i n_11_i ;
+siiti:siit2i n_11_i ;
+ruotti:ruott2i n_11_i ;
+fossiilimettä:fossiili#mett2ä n_11_ae ;
+syđänmettä:syđän#mett2ä n_11_ae ;
+petäjämettä:petäjä#mett2ä n_11_ae ;
+pötäjämettä:pötäjä#mett2ä n_11_ae ;
+mettä:mett2ä n_11_ae ;
+lehtimettä:lehti#mett2ä n_11_ae ;
+
+echo kriitu+N+Sg+Gen|dfkv
+kriitu+N+Sg+Gen        kriiđun
+
+e raati+N+Sg+Gen|dfkv
+raati+N+Sg+Gen        raađin
+
+
+tf4-hsl-m0024:fkv trond$ cat src/morphology/stems/nouns.lexc |grep 'ii:'
+strategii:strategii n_31_ii ;
+arkeologii:arkeologii n_31_ii ;
+teologii:teologii n_31_ii ;
+morfologii:morfologii n_31_ii ;
+hanhii:hanhii n_31_ii ;
+jouttikarhii:joutti#karhii n_31_ii ;
+karhii:karhii n_31_ii ;
+ahkii:ahkii n_31_ii ;
+jalkasikkii:jalka#sikkii n_31_ii ;
+kalansikkii:kalan#sikkii n_31_ii ;
+sikkii:sikkii n_31_ii ;
+kurkkii:kurkkii n_31_ii ;
+ökonomii:ökonomii n_31_ii ;
+komppanii:komppanii n_31_ii ;
+rannii:rannii n_31_ii ;
+minnii:minnii n_31_ii ;
+vokaaliharmonii:vokaali#harmonii n_31_ii ;
+harmonii:harmonii n_31_ii ;
+haravanpii:haravan#pii n_31_ii ;
+pii:pii n_31 ;
+hietalappii:hieta#lappii n_31_ii ;
+lappii:lappii n_31_ii ;
+vuoppii:vuoppii n_31_ii ;
+teorii:teorii n_31_ii ;
+kategorii:kategorii n_31_ii ;
+pääassii:pää#assii n_31_ii ;
+rassii:rassii n_31_ii ;
+koheessii:koheessii n_31_ii ;
+morssii:morssii n_31_ii ;
+keittoastii:keitto#astii n_31_ii ;
+maalaattii:maa#laattii n_31_ii ;
+hietalaattii:hieta#laattii n_31_ii ;
+laattii:laattii n_31_ii ;
+lattii:lattii n_31_ii ;
+svoovelikalttii:svooveli#kalttii n_31_ii ;
+kalttii:kalttii n_31_ii ;
+harttii:harttii n_31_ii ;
+työväjenparttii:työväjen#parttii n_31_ii ;
+parttii:parttii n_31_ii ;
+kiviauttii:kivi#auttii n_31_ii ;
+hieta-auttii:hieta-#auttii n_31_ii ;
+auttii:auttii n_31_ii ;
+kultarauttii:kulta#rauttii n_31_ii ;
+distribuuttii:distribuutti n_31_ii ;
+
+kafea:kafea n_21_oi ;
+moskea:moskea n_21_oi ;
+eksperttikomitea:ekspertti#komitea n_21_oi ;
+komitea:komitea n_21_oi ;
+
+Panna rauttii: rautio eri lexciconhiin
+rauttii:rautti n_31_io ;
+astii:asti n_31_ia ;
+
+LEXICON n_31_io
++N+Dial/Por:i           x_31_ii             ; rauttii
++N+Dial/Jok:o          x_21_oi             ; ! rautio
+
+LEXICON n_31_ia
++N+Dial/Por:i           x_31_ii             ; asttii
++N+Dial/Jok:a          x_21_ai             ; ! astia
+
+LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)                 
++N+Dial/Por:i           x_31_ii             ;
++N+Dial/Jok:a          x_21_oi             ; ! TODO skriv dyp kommentar her           
++N+Dial/Var:a          x_21_oi             ; ! TODO skriv dyp kommentar her           
++N+Sg      :           nom_R               ;
+
+LEXICON x_21_oi
+  +Sg      :                   nom_end         ;
+
+
+tf4-hsl-m0024:fkv trond$ sh devtools/noun_minip.sh morfologii
+morfologii+N+Sg+Nom        morfologii
+
+
+"Gemination 0:k"
+0:k <=> ([a|o]) [Vow|i6:] (Vow:) k _  :o (Dial:)  %^AO: %> [:i - i3:] (%> [n|t])     #  ; 
+        ([a|o]) [Vow|i6:] (Vow:) k _  :i (Dial:) %^A2I: %> [:i - i3:] (%> [n|t])     #  ; 
+        ([a|o]) Vow       (Vow:) k _ e:0 (Dial:)        %>   i2:i      %> %^V:i  (n) #  ; 
+                Vow:+       k _ Vow:           %> i2:i  %>  :i                      ; ! pe
+                Vow:+       k _ e:             %> i7:i  Cns                         ; ! co
+                Vow:+ [k|k2:] _ Vow:       [%> %^V:i | %^AO: %> i2: (%> n) # ]      ; ! so
+ [.#.|#:] Cns:* Vow:+ [k|k2:] _ a: %^Por:0 [%> :a | %^AO: %> i2: (%> n) #]  ; ! Only in Po
+ [.#.|#:] Cns:* Vow:+       k _ a  %> :a                ; ! jakkaat:jakkaa                                                                                                                      
+ [.#.|#:] Cns:* Vow:+       k _ ä  %> :ä                ;
+ [.#.|#:] Cns:* Vow:+       k _ ö  %> [:ö|i2: (%> n) #] ;
+ [.#.|#:] Cns:* Vow:+       k _ y  %> [:y|i2: (%> n) #] ;
+ [.#.|#:] Cns:* Vow:+       k _ u  %> [:u|:i  (%> n) #] ; ! flaku flakkui, flakkuin                                                                                                             
+ [.#.|#:] Cns:* Vow:+       k _ o  %> [:o|:i  (%> n) #] ; ! koko kokkoi                                                                                                                         
+ [.#.|#:] Cns:* Vow:+       k _ e (Dial:) %> :e         ;
+ [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ ä: (Dial:)         %> [ :ä | i2:i %> :i ]         ; ! 
+ [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ a: (Dial:)        [%> :a | %^AO: %> i2: (%> n) #] ; ! 
+                        [l|r|n|m]  k _ :Vow (Dial:)       %>  i7:           ;
+                        [l|r|n|m]  k _ :i (Dial:)         %>          %^V:i ; ! Added
+                        [l|r|n|m] :k _ e: (Dial:) %^E2I:0 %> i2: %>   %^V:  ;
+                        [l|r|n|m]  k _  i (Dial:)         %> i2: %> t %^A:  ;
+                        [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i]          ;
+                        [l|r|n|m]  k _ :y (Dial:) %> [:y|:i (%> n) #] ;
+                        [l|r|n|m]  k _ :u (Dial:) %> [:u|:i (%> n) #] ;
+                        [l|r|n|m]  k _ :o (Dial:) %> [:o|:i (%> n) #] ;
+                        [l|r|n|m]  k _ :e (Dial:) %> [:e|:i]          ;
+
+!!Numeraalit
+
+[ 1/11][FAIL] kahdeksan => Missing results: kahdeksan+Num+Sg+Nom
+[ 2/11][FAIL] kahdeksaa => Missing results: kahdeksan+Num+Sg+Par
+[ 3/11][FAIL] kahdeksaan => Missing results: kahdeksan+Num+Sg+Ill
+[ 4/11][FAIL] kahdeksassa => Missing results: kahdeksan+Num+Sg+Ine
+[ 5/11][FAIL] kahdeksana => Missing results: kahdeksan+Num+Sg+Ess
+[ 6/11][FAIL] kahdeksia => Missing results: kahdeksan+Num+Pl+Par
+[ 7/11][FAIL] kahdeksien => Missing results: kahdeksan+Num+Pl+Gen
+[ 8/11][FAIL] kahdeksiin => Missing results: kahdeksan+Num+Pl+Ill
+[ 9/11][FAIL] kahdeksissa => Missing results: kahdeksan+Num+Pl+Ine
+[10/11][FAIL] kahdeksina => Missing results: kahdeksan+Num+Pl+Ess
+[11/11][FAIL] kahdeksain => Missing results: kahdeksan+Num+Pl+Gen+Use/Rare
+
+kahđeksan+Num:kahđeks  NUM_KAHDEKSAN ;
+
+src/morphology/stems/numerals.lexc:kahđeksan+Num:kahđeks  NUM_KAHDEKSAN ;
+src/morphology/stems/numerals.lexc:LEXICON NUM_KAHDEKSAN
+
+stems/numerals.lexc
+LEXICON NUM_KAHDEKSAN
+:en    NUM_BACK_NOMINATIVE  ;
+:a     NUM_BACK_PARTITIVE_A    ;
+:a     NUM_BACK_ILLATIVE_AN    ;
+:a     NUM_BACK_GENITIVE_IN    ;
+:a     NUM_BACK_SINGULARS   ;
+       NUM_BACK_PARTITIVE_IA   ;
+       NUM_BACK_GENITIVE_IEN   ;
+       NUM_BACK_ILLATIVE_IIN   ;
+       NUM_BACK_PLURALS ;
+
+
+(Tommi Pirisen tapa)
+omorfi-analysaattori
+main/langs/fkv/src/
+main/langs/fin/src/
+
+cd ../fin/
+./autogen.sh && ./configure && make -j
+ufin
+
+
+affičes/numerals.lexc
+ ! allomorphs                                                                                             
+LEXICON NUM_BACK_PARTITIVE_A
+ !!€gt-norm: Numeral singular partitive a                                                                 
+ !!€ kahdeksaa: kahdeksan+Num+Card+Sg+Par eight                                                           
++Sg+Par:%>a      NUM_BACK_POSS_OPT      ;
+
+!!määkkiit ja naakkiit
+
+Olema korjanheet kaikki X-misc yamliin feilit. Jäljelä oon perintö-nomini ja ylipäänsä kolmetavuisten nominiitten pl par sujjutus ja pl vartalo.
+Eiran jälkhiin se oon perintö: perinöitä, heikkona graadina ja lisäksi -tA
+saattaa "puttoot pois".
+Maholiset kaksiparadigmoiset lainasanat (torko, fati, haaki, soopa jne).
+Sanakirjassa oon sekä “henkkaat” ette “hengata”. Oonko net oikkeestansa sama verbi?
+Millä tavala erottaa verbissä tavalinen vahva graadi ja geminasjuuni?
+Kommentti X-misc yamliista: joskus net oon oikkeessa ja joskus väärässä. Millä laila pitäis suhtautuut kommenthiin joka löyttyy yamliista tahi lexc:stä? Joskus näyttää siltä ette kommentit oon kopi-pastattu jostaki muvalta.
+Graadivaihtelufeilit verbissä: kun korjaa niitä tullee helposti feilii muuvale, esim. substantiiviitten puolela
+
+
+ egrep '(hengata|henkkaat)' src/morphology/stems/verbs.lexc
+henkkaat:henkka v2 ;
+hengata:henka v43_odd ;
+
+
+määkkiit : määkin
+naakkiit : naakin
+
+naakkiit:naakki v2 ; 
+määkkiit:määki v2 ; ! => av k:j pret ge k:kk inf
+
+
+määkkiit:määk2i v2 ; määkkiit, määkin, määkit, määki
+
+
+naakkiit+V+Act+Ind+Prt+Sg3        naakki  <============ koska naakki
+määkkiit+V+Act+Ind+Prt+Sg3        määki <===== koska vart. määki
+
+
+Eira oli samaa mieltä naakkiit-verbistä, mutta hänen mielestään määkkiit taipuu näin:
+määkkiit : määjin
+
+Tässä Eiran vastaus:
+"Tämmösten verbiin graadivaihettelu selvii 2. partisiipin haamusta. Ja kyllä kansa preteritin sg.3.p. Jos niissä oon II-graadi, se graadivaihettelu oon tyyppii II:I. Eli oon leikkiit : leikkiny : leikin (II:I:I) ja naakkiit : naakkinu : naakin (II:I:I), mutta määkkiit : määkiny : määjin (II:I:0). Mutta se oon tietenki paha tiettäät, jos sulla ei ole nuoita haamui (eli 2. partis. tahi preteritin sg.3.p.), mistä sen graadivaihettelun näkkee."
+
+näyttää siltä ette graadivaihtelu oon kiini verbistä ja sen historiasta
+tuottaa meile vähän haastheita ko infinitiivit saattaavat olla geminoitut (ja grammatikki ei tee eroa geminaation ja astevaihtelun välillä)
+
+
+Määkkyyt: määvyn 
+
+Kaksi verbi jonka paradigma oon "sulauttunu yhtheen". "sekaparadigmoja" Suomen murretutkimuksessa. Siirtäny toisheen verbityypphiin. 
+
+
+
+"Gradation k:j"
+k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki  - mäjen
+                      i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; !
+                    i6: _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! poika poha, pojitte
+                  [e|i] _ [e:|i|ä:|a:|u]  %^Por:             %^WG:0 (%> i2:i) ; ! aika-aijan 
+             \[e] [r|l] _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
+            [a|e] [r|l] _  e          (Dummy:)               %^WG:0 %> ; ! haljeta,halkee, seljetä,selkee
+ [.#.|#:]     Cns [o|u] _  e:         %^WG:0                           ; ! lukkeet  - lujen
+ [.#.|#:]   [k|j] a (i) _  [a:|u]     %^WG:0 ([%^AO:|%^AE:]) (%>) (i3:) (%>) ; ! kaikkuut:kaijun, jakkaat:jajan
+                      h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet, lohke- lohjeta, puhke- puhjeta
+
+
+!!!Seuraava kokkous: 
+
+Keskiviikkona 3.4 ennen kl 09 (?) 
+
+
