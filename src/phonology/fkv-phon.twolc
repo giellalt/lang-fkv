@@ -109,6 +109,7 @@ Rules
 !! (= yleisgeminaatio). (ES).
 
 "Gemination 0:h"
+!! __@RULENAME@__
 0:h <=> [.#.|#:] Cns:* Vow h _ ä %> :ä ;
         [.#.|#:] Cns:* Vow h _ ö %> :ö ;
         [.#.|#:] Cns:* Vow h _ y %> :y ;
@@ -120,6 +121,7 @@ Rules
         [.#.|#:] Cns:* Vow h _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
 "Gemination 0:j"
+!! __@RULENAME@__
 0:j <=> [.#.|#:] Cns:* Vow j _ ä: (Dial:) %> [:ä | i2:i %> :i ] ;
         [.#.|#:] Cns:* Vow j _ ö %> :ö ;
         [.#.|#:] Cns:* Vow j _ i [%> :i| %^AO:| %>i2 (%> n) ]  ;
@@ -143,6 +145,7 @@ Rules
                                [l|r|n|m] j _ :e (Dial:) %> :e ;
 
 "Gemination 0:k"
+!! __@RULENAME@__
 0:k <=> ([a|o]) [Vow|i6:] (Vow:) k _  :o (Dial:)  %^AO: %> [:i - i3:] (%> [n|t])     #  ; ! aikkoi  ! never a:0
         ([a|o]) [Vow|i6:] (Vow:) k _  :i (Dial:) %^A2I: %> [:i - i3:] (%> [n|t])     #  ; ! poikkii ! never a:0
         ([a|o]) Vow       (Vow:) k _ e:0 (Dial:)        %>   i2:i      %> %^V:i  (n) #  ; ! jokkii
@@ -179,6 +182,7 @@ Rules
 !!€ urkku>i
 
 "Gemination 0:l"
+!! __@RULENAME@__
 0:l <=> [.#.|#:] Cns:* Vow l _ ä %> :ä ;
         [.#.|#:] Cns:* Vow l _ ö %> :ö ;
         [.#.|#:] Cns:* Vow l _ i (Dial:) %> :i  ;
@@ -191,6 +195,7 @@ Rules
         [.#.|#:] Cns:* Vow l _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
 "Gemination 0:m"
+!! __@RULENAME@__
 0:m <=> [.#.|#:] Cns:* Vow m _ ä %> :ä ;
         [.#.|#:] Cns:* Vow m _ ö %> :ö ;
         [.#.|#:] Cns:* Vow m _ y %> :y ;
@@ -202,6 +207,7 @@ Rules
         [.#.|#:] Cns:* Vow m _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
 "Gemination 0:n"
+!! __@RULENAME@__
 0:n <=> [.#.|#:] Cns:* Vow n _ ä %> :ä ;
         [.#.|#:] Cns:* Vow n _ ö %> :ö ;
         [.#.|#:] Cns:* Vow n _ i (Dial:) %> :i  ;
@@ -214,6 +220,7 @@ Rules
         [.#.|#:] Cns:* Vow n _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
 "Gemination 0:p"
+!! __@RULENAME@__
 0:p <=> ([a|o]) Vow:+ p _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] %> [n|t] .#. ; ! never a:0! Then only k a i p _ a:o %^AO:0 %> i2:i %> n #. ;
         ([a|o]) Vow:+ p _ [ :o %^AO:0 | :i %^A2I:0 ] %> [:i - i3:] .#. ; ! Maybe [Dummy:* - ^A0] ?
                 Vow:+ p _ Vow:              %> i2:i  %> :i ; !pena-penniin,huppiin,eilaki-lakkiin? leippii, leippiin leipä>i2>in 
@@ -241,6 +248,7 @@ Rules
 
 
 "Gemination 0:r"
+!! __@RULENAME@__
 0:r <=> [.#.|#:] Cns:* Vow r _ ä: [%> :ä| %> i2: %> :i (%> n) ] ;
         [.#.|#:] Cns:* Vow r _ ö:  [%> :ö| %> i2: (%> n) #] ;
         [.#.|#:] Cns:* Vow r _ y: [%> :y|%> i2: (%> n) #] ;
@@ -253,7 +261,8 @@ Rules
         [.#.|#:] Cns:* Vow r _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
 
 "Gemination 0:s"
- 0:s <=>  Cns:* Vow:+         :s _   :i                   [%> :i - i3:| (%^AO:0) %> i2:i (%> n) # ];   ! to be fixed
+!! __@RULENAME@__
+0:s <=>   Cns:* Vow:+         :s _   :i                   [%> :i - i3:| (%^AO:0) %> i2:i (%> n) # ];   ! to be fixed
           Cns:* Vow:+         :s _ [e:|i:]                %> i2:i %> %^V:i ;  ! klas0i>i2>in:klass0>i>in ja vuossiin
           Cns:* Vow  [n|l|r] t:s _ [e:|i:]                %> i2:i %> %^V: ;  ! hirssii(n). Vain t:s toimii, :s ==> virheitä kaikkialla: 22 lisää.
           Cns:* Vow  [n|l|r] t:s _   :i                   %> [:i - i3:] (i2:i) ;  ! to be fixed. Seems to not do anything?
@@ -279,6 +288,7 @@ Rules
 [.#.|#:] Cns:+ Vow:+ [l|r|n|m] s _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
 
 "Gemination 0:t"
+!! __@RULENAME@__
 0:t <=>                    :Vow :t _ [:o|:i]  (%^AO:0) %>  [:i - i2:] ; ! kađota:kato -> kattoisin
                            :Vow :t _ [Vow: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
                            :Vow :t _ e:            %> i7:i Cns ; ! contr verbs
@@ -305,6 +315,7 @@ Rules
                         [l|r|n|m] :t _ e: %^E2I:0 %> i2: %>   %^V: ;
 
 "Gemination 0:v"
+!! __@RULENAME@__
 0:v <=> [.#.|#:] Cns:*  Vow v _ ä %> :ä ;
         [.#.|#:] Cns:*  Vow v _ ö %> :ö ;
         [.#.|#:] Cns:*  Vow v _ i (Dial:) [%> :i| (%^AO:0) %> i2: (%> n) #]  ;
@@ -402,6 +413,7 @@ i6:0 <=> _ k: Vow: (Dial:0) %^WG:0 (%^AO:0) ;
 !! TODO: When k:j and when k:0 between e and i.
 
 "Gradation k:j"
+!! __@RULENAME@__
 k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki  - mäjen
                       i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; !
                     i6: _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0 ; ! poika poha, pojitte
@@ -413,6 +425,7 @@ k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki 
                       h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet, lohke- lohjeta, puhke- puhjeta
 
 "Gradation k:0"
+!! __@RULENAME@__
 k:0 <=>               h _ [Vow: - e:]   (Dummy:) (:i) (Dummy:) %^WG:0      ; !tuhka - tuhat, uhata - uhkaa
  [.#.|#:] [m|h] (u)   a _ a:           (Dummy:) (:i) (Dummy:) %^WG:0 (%^AO:0 %> i2: %> \n)  ; !makaa:maata, haka:haan
             [i u|a u|y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0      ; !kykenee - kyetä, laukkee - laueta,liuota-liukkee
@@ -468,6 +481,7 @@ k:0 <=>               h _ [Vow: - e:]   (Dummy:) (:i) (Dummy:) %^WG:0      ; !tu
 
 
 "Gradation k3:0"
+!! __@RULENAME@__
 k3:0 <=> u o _ a %^WG: ;
 
 !ruovan u0a, uva. Løysing: uk3a:u0a, uka:uva. u_a-konteksten ut av k:0-regelen
@@ -476,6 +490,7 @@ k3:0 <=> u o _ a %^WG: ;
 !!€ huo0a0>ta
 
 "Gradation k:v"
+!! __@RULENAME@__
 k:v <=> [Vow - i] _ [o|ö|u|y]           (Dummy:) (:i) (Dummy:) %^WG:0 ;
      \i [o|ö|u|y] _ (%^Por:) [Vow - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; !ruoka (^Por) is for ruvis
 [.#.|#]  Cns+  y  _  i:                       %^WG:0  %^AO:  %>  i3:  ; !nykkiit:nyvin (preteriti)
@@ -669,6 +684,7 @@ t:s <=> Vow n   _        e:                  %> i2: [.#.|%> Cns] ; ! Miksi vain 
 %^N:s <=> s: %> _ \%^A: ; ! kussut, kusta, pessyt, pestä
 
 "j:0 in front of i"
+!! __@RULENAME@__
 j:0 <=> l _ e: %^E2I:0 ;
 
 
