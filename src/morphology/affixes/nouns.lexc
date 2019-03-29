@@ -779,6 +779,16 @@ LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   +Pl      :%>i2   ess_nA          ;
   +Pl      :%>i2   com_ne          ;
   +Pl      :%>i2   sgpl_cases_even ;
+  
+LEXICON n_31_io
+
++N+Dial/Por:i           x_31_ii             ; !rauttii
++N+Dial/Jok:o          x_21_oi             ; ! rautio
+  
+LEXICON n_31_ia
+
++N+Dial/Por:i           x_31_ii             ; asttii
++N+Dial/Jok:a          x_21_oi             ; ! astia 
 
 LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
 +N+Dial/Por:           x_31_ii             ;
