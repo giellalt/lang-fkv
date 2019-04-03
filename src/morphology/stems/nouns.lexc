@@ -3,86 +3,72 @@
 
 LEXICON NounRoot !!= @CODE@
 
-!! Nomenityyppit s.147 (Eira published book 2014) (Niitä oon 3)
-  ! Siitä sais kiinnostavan artikkelin kun vertais tätä karttaa Eiran yksinkertaistettuun versioon
-  ! t. Sindre
+!! Nomenityyppit s.147 (Eira published book 2014) (Niitähän oon 3)
 
   !! TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 
-    !! ** 2.1 Kaksitavuiset ( juoppo, syksy, puku )               = n_11           ! vanha_n_21
-    !! ** X.X Kaksitavuiset ( sana : sanoissa, aika )  a -> o:ksi = n_11_AO        ! vanha_n_21_AO
-    !! ** X.X Kaksitavuiset ( kuva : kuvissa )         a -> i:ksi = n_11_A0_A2I    ! vanha_n_21_A0_A2I
-    !! ** X.X Kaksitavuiset lånord ( färi : färi, pappi, tooli )  = n_11_i         ! vanha_n_21i
-            ! For å få en liste av lånord til n_11_i bruk: sed /i vanha_21/i vanha_21i/
-    !! *** 2.1.1  Kaksitavuiset monikko (housut )                 = n_11_pl        ! vanha_n_21pl
-    !! *** 2.1.2  Kaksitavuiset ( joki:joke, ovi:ove ) e -> i:ksi = n_11_E2I       ! vanha_n_21_E2I
+    !! * 2.1 Kaksitavuiset ( juoppo, syksy, puku )               = {{n_11}}
+    !! * X.X Kaksitavuiset ( sana : sanoissa, aika )  a -> o:ksi = {{n_11_AO}}
+    !! * X.X Kaksitavuiset ( kuva : kuvissa )         a -> i:ksi = {{n_11_A0_A2I}}
+    !! * X.X Kaksitavuiset lånord ( färi : färi, pappi, tooli )  = {{n_11_i}}
+    !! ** 2.1.1  Kaksitavuiset monikko (housut )                 = {{n_11_pl}}
+    !! ** 2.1.2  Kaksitavuiset ( joki:joke, ovi:ove ) e -> i:ksi = {{n_11_E2I}}
+    !! * 3.1 Kaksitavuiset (CNS-rankaiset?) ( pieni, kieli )     = {{n_12}}
+    !! * 3.1.1  ( lumi:lunta, toimi, liemi )                     = {{n_12_mi}}
+    !! * 3.1.2  ( käsi, vuosi )                                  = {{n_12_si}}
+    !! * X.X.X  (kusi, kuusi) toistaiseksi vain nämä 2 sanaa     = {{n_12_kusi}}
+    !! * 3.1.3  ( lapsi )                                        = {{n_12_lapsi}}
+    !! * 3.1.4  ( mies )                                         = {{n_12_mies}}
+																
+  !! TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat		
+																
+    !! * 2.2  Usseempitav. ( opettaaja )                         = {{n_21}}
+    !! ** 2.2.2  U.tav. monikko oi (kulkkiija,sivakka,paijukko ) = {{n_21_oi}}
+    !! ** 2.2.1  Usseempitav. odd ( kajava )                     = {{n_21_odd}}
+    !! ** 2.2.1  Usseempitav. odd ( meininki, tunturi )          = {{n_21_odd_i}}
+    ! valkea (ei valkkee!! Vaan valkea~valkia, valkea/nna, -eina)
+																 
+    !! * 3.2 Usseempitavuiset ( tytär )							 
+    !! ** 3.2.1 ( tytär, taival, paimen )                        = {{n_22}}
+    !! ** 3.2.2 ( elläin: elläimen)                              = {{n_22_m}}
+    !! **       ( vanhimet:vanhi )                               = {{n_22_m_pl}}
+																 
+    !! * 4.3  ton-adjektiivit (onneton:onne) (vain Adj)          = {{a_22_ton}}
+    !! ** 3.2.3 (rakkhaus)                                       = {{n_22_s}}
+    !! * 4.1 veres-nominit ( veres, kokkous) ekstraCNSranka      = {{n_22_excns}}
+    !! * 4.1.1 veres-nominit monikko ( veljekset) ekstraCNSranka = {{n_22_excns_pl}}
+    !! ** 4.2.2 -inen-nominit odd (vihrinen / ihminen)           = {{n_22_inen_odd}}
+    !! * 4.2 –inen-nominit ( kainulainen)                        = {{n_22_inen}}
+    !! ** 4.2.1 -inen-nominit Pl (tervheiset)                    = {{n_22_inen_pl}}
+																 
+  !! TYYPPI 3: Pitkävokaaliset rangat							 
+																 
+    !! * 1. Yksitavuiset / Vi ( maa, yö )                        = {{ n_31}}
+    !! * 1.2  Yksitavuiset monikko/ Vi ( häät )                  = {{ n_31_pl}}
+        ! TODO vain kaksi sanaa, häät ja puut					 
+    !! * 1.1 Yksitavuiset / ai ( tuorestai )                     = {{ n_31_ai}}
+    !! ** 2.3 Kokkoontumanom. ( valkkee)                         = {{ n_31_ee}}
+    !! ** 2.3 Kokkoontumanom. ( filee, teevee) Lainasanat!     = {{n_31_lainasana_ee}}
+    !! ** 2.3.1 Kokkoontumanom. ( assii, laattii )                = {{ n_31_ii}}
+    !! ** 3.3.1 (opas) & 3.3.2 (asukas) & rakas                   = {{ n_32_as}}
+    !! ** 3.3.3 (ruvis, kaunis)                                   = {{ n_32_is}}
+        ! TODO vain kaksi sanaa? Vain ruvis ja kaunis. Hmm		 
+    !! ** 3.3.4 (huonet, hyljet, perkele)                         = {{ n_32_et}}
+    !! ** 3.3.5 (kirves)                                          = {{ n_32_ts}}
+       ! TODO vain kaksi sanaa? Vain kirves ja keläs. Hmm		 
+       ! TODO onko tämä edes olemassa enään? Mikä luokitus on kuolu? Not nouns, only in adj it seems
 
-    !! ** 3.1 Kaksitavuiset (CNS-rankaiset?) ( pieni, kieli )     = n_12           ! vanha_n_31
-    !! ** 3.1.1  ( lumi:lunta, toimi, liemi )                     = n_12_mi        ! vanha_n_31lumi
-    !! ** 3.1.2  ( käsi, vuosi )                                  = n_12_si        ! vanha_n_31si
-    !! ** X.X.X  (kusi, kuusi) toistaiseksi vain nämä 2 sanaa     = n_12_kusi      ! oli virheellinen
-    !! ** 3.1.3  ( lapsi )                                        = n_12_lapsi     ! vanha_n_31lapsi
-    !! ** 3.1.4  ( mies )                                         = n_12_mies      ! vanha_n_31mies
-
-  !! TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
-
-    !! ** 2.2  Usseempitav. ( opettaaja )                         = n_21           ! vanha_n_22
-    !! *** 2.2.2  U.tav. monikko oi (kulkkiija,sivakka,paijukko ) = n_21_oi        ! vanha_n_22oi 
-!n_21_ae_even  Usseempitav.even. ä-loppuinen, monikko -i (äänestäjä, mähättäjä, pitenemä) ! Ailin lisäys  
-    !! *** 2.2.1  Usseempitav. odd ( kajava )                     = n_21_odd       ! vanha_n_22odd
-    !! *** 2.2.1  Usseempitav. odd ( meininki, tunturi )          = n_21_odd_i     ! vanha_n_22oddi
-    ! valkea (ei valkkee!! Vaan valkea~valkia, valkea/nna, -eina) TODO check diff and add to yaml&fst
-!n_21_odd_u    (palvelu,ratkaisu, raamattu) !Ailin lisäys
-!n_21_odd_ua    (saipua, fierua, luusua) ! Ailin lisäys 
-! n_21_odd_AO  AO in plural, and also gemination in pl par (valinta> valinttoi) ! Ailin lisäys (työn alla)
-!n_21_odd_oi odd number and oi in plural (opinto, sovinto) ! Ailin lisäys (työn alla) 
-
-    !! ** 3.2 Usseempitavuiset ( tytär )
-    !! *** 3.2.1 ( tytär, taival, paimen )                        = n_22           ! vanha_n_32
-    !! *** 3.2.2 ( elläin: elläimen)                              = n_22_m         ! vanha_n_32m
-    !! ***       ( vanhimet:vanhi )                               = n_22_m_pl      ! vanha_n_32m_pl
-
-    !! ** 4.3  ton-adjektiivit (onneton:onne) (vain Adj)          = a_22_ton      -! vanha_a_43odd
-      ! TODO Check is, esp. in Adjectives!!
-      ! TODO Also check vanha_a_43 muuttumaton in adjectives. Look up in grammar
-    !! *** 3.2.3 (rakkhaus)                                       = n_22_s         ! vanha_n_32s
-    !! ** 4.1 veres-nominit ( veres, kokkous) ekstraCNSranka      = n_22_excns     ! vanha_n_41
-    !! ** 4.1.1 veres-nominit monikko ( veljekset) ekstraCNSranka = n_22_excns_pl  ! vanha_n_41pl
-    !! *** 4.2.2 -inen-nominit odd (vihrinen / ihminen)           = n_22_inen_odd  ! vanha_n_42odd
-    !! ** 4.2 –inen-nominit ( kainulainen)                        = n_22_inen      ! vanha_n_42
-    !! *** 4.2.1 -inen-nominit Pl (tervheiset)                    = n_22_inen_pl   ! vanha_n_42pl
-
-  !! TYYPPI 3: Pitkävokaaliset rangat
-
-    !! * 1. Yksitavuiset / Vi ( maa, yö )                         = n_31           ! vanha_n_1
-    !! * 1.2  Yksitavuiset monikko/ Vi ( häät )                   = n_31_pl        ! vanha_n_1pl
-        ! TODO vain kaksi sanaa, häät ja puut
-    !! * 1.1 Yksitavuiset / ai ( tuorestai )                      = n_31_ai        ! vanha_n_1ai
-    !! ** 2.3 Kokkoontumanom. ( valkkee)                          = n_31_ee        ! vanha_n_23
-    !! ** 2.3 Kokkoontumanom. ( filee, teevee) Lainasanat!        = n_31_lainasana_ee ! vanha_n_23
-    !! ** 2.3.1 Kokkoontumanom. ( assii, laattii )                = n_31_ii        ! vanha_n_23ii
-        ! TODO uu words are here to? Add a yaml probably if they should be here (as they are)
-
-    !! ** 3.3.1 (opas) & 3.3.2 (asukas) & rakas                   = n_32_as        ! vanha_n_33as
-    !! ** 3.3.3 (ruvis, kaunis)                                   = n_32_is        ! vanha_n_33is
-        ! TODO vain kaksi sanaa? Vain ruvis ja kaunis. Hmm
-    !! ** 3.3.4 (huonet, hyljet, perkele)                         = n_32_et        ! vanha_n_33t
-    !! ** 3.3.5 (kirves)                                          = n_32_ts        ! vanha_n_33ts
-        ! TODO vain kaksi sanaa? Vain kirves ja keläs. Hmm
-!   ! kuolu:kuol                                                  = n_32_u        -! vanha_a_33u ?
-!       ! TODO onko tämä edes olemassa enään? Mikä luokitus on kuolu? Not nouns, only in adj it seems
-
-!!!arrugado n_21 ;
-!!!kumara:kumara n_21_odd ;
-!!!rasittaat:rasittaa vanha_n_33 ;
-!!!tukkee:tukke n_31_ee ;
-!!!ulkoovi:ulkoove n_11_E2I ;
+!arrugado n_21 ;
+!kumara:kumara n_21_odd ;
+!rasittaat:rasittaa vanha_n_33 ;
+!tukkee:tukke n_31_ee ;
+!ulkoovi:ulkoove n_11_E2I ;
 
 ! List where # should be added
 !vuosi:vuoje n_12_si ;
 !vuosi:vuue n_12_si ;
-!!!cuesta n_11_AO  ;
-!!!sabkha n_11_AO  ;
+!cuesta n_11_AO  ;
+!sabkha n_11_AO  ;
 
 !sciens n_x ;
 !vikaatet+N+Sg+Nom+Err/Orth:vikaatt K ; ! XXX check viikatet / vikatet
