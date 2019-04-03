@@ -782,12 +782,12 @@ LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   
 LEXICON n_31_io
 
-+N+Dial/Por:i           x_31_ii             ; !rauttii
-+N+Dial/Jok:o          x_21_oi             ; ! rautio
+!+N+Dial/Por:i           x_31_ii             ; !rauttii, kommentoitu pois koska muitten varianttien nominit saavat por päätteitä 
++N  :          x_21_oi             ; ! var ja jok rautio
   
 LEXICON n_31_asia
 
- +N      :          x_21_oi             ; ! astia 
+ +N      :          x_21_oi             ; ! var ja jok astia 
 
 LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
 +N+Dial/Por:           x_31_ii             ;
