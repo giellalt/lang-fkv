@@ -526,12 +526,6 @@ k:g <=> Vow: n _  Vow: (Dummy:) (:i) (Dummy:) %^WG:0 ;
 
 
 
-"Gradation tt : t"
-!! __@RULENAME@__
-t:0 <=> Vow: ([l|m|n|r]) [t|t:0] _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r|n) (e:0) (Dial:0) %^WG: ; !tytärtä
-        Vow: ([l|m|n|r]) t       _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
-                         t y     _ t:0 ä r e:0 %^Var:0 %^WG:0 %^T0:0 (%^E0:0) ; !toinen t:0 happens in tt:t tytär sg nom,par. tyär tyärtä
-
 "Gradation Nt:NN in first syllable after short vowel"
 !! __@RULENAME@__
 t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
@@ -540,13 +534,17 @@ t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: 
     where Nx in ( l n r ) ;
 ! TODO TODO TODO for both these rules, maybe the dummy should be after the ^WG. Usually our rule is: ^WG^AO...
 
-"Gradation Nt:N in other circumstances & vuote vuoeksi t:0"
+
+
+"Gradation t:0 for tt:t, Nt:N and vuote:vuoeksi"
 !! __@RULENAME@__
-t:0 <=> Vow Cns* Vow Nx  _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
-        Vow Cns* Vow Nx  _ Vow:     %^WG:0 (%^A0:) %> i2:   ; ! isäntä - isänissä
-        Vow Cns* Vow Nx  _ :Vow Cns ([Dummy: - %^E2I:0]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
-                     Vow _ Vow: (Cns)                          (:i)      [%^Jok:|%^Var:]  %^WG:0 ;
-    where Nx in ( l n r ) ;
+t:0 <=> Vow: ([l|m|n|r]) [t|t:0] _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r|n) (e:0) (Dial:0) %^WG: ; !tytärtä
+        Vow: ([l|m|n|r]) t       _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
+                         t y     _ t:0 ä r e:0 %^Var:0 %^WG:0 %^T0:0 (%^E0:0) ; !toinen t:0 happens in tt:t tytär sg nom,par. tyär tyärtä
+           Vow Cns* Vow [l|n|r]  _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+           Vow Cns* Vow [l|n|r]  _ Vow:     %^WG:0 (%^A0:) %> i2:   ; ! isäntä - isänissä *)
+           Vow Cns* Vow [l|n|r]  _ :Vow Cns ([Dummy: - %^E2I:0]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
+                             Vow _ Vow: (Cns)                          (:i)      [%^Jok:|%^Var:]  %^WG:0 ;
 
 ! TODO add e ^Var E0 and T0 to these tests
 ! !!€ tyttär^WG
@@ -558,6 +556,29 @@ t:0 <=> Vow Cns* Vow Nx  _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^
 !!€ kat0o0>n
 !!€ katt2o^WG>n
 !!€ katto0>n
+
+"ti:si"
+!! __@RULENAME@__
+t:s <=> Vow n  _        e:0                  %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr? tt ja dummy 
+ Vow ([n|l|r]) _ (:s)   e:0 (Dial:0) %^E2I: ;! uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
+ Vow           _ (:s)   e:0 (Dial:0) %> i2:    %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc. | vuossii(n) | uusia] ! uusine
+ Vow ([n|l|r]) _        e:0 (Dial:0) (%^AO:0) %^HMETA:0 %> h :i ; ! jok uushiin
+ Vow  Vow      _ (:s) Vow:0          (%^AO:0)      %> i3:  ;
+ Vow  n        _      Vow:0 [Dummy:* - %^WG:0]     %> i3:  ;
+ Vow [n|l|r]   _  :s    e:0 (Dial:0) %> i2:i       %> %^V: ; ! hirssii
+!Vow [n|l|r]   _      Vow:0 (Dial:0) (%^WG:0) (%^E2I:)  %> i2: ; ! hirsiksi, hirsi (pl - gen par)
+ Vow [n|l|r]   _        e:0 (Dial:0) (%^WG:0) (%^E2I:)  %> i2: ; ! hirsiksi, hirsi (pl - gen par) *)
+ Vow [n|l|r]   _ (:s) Vow:0 (%^WG:0) (%^AO:0)      %> i3:  ;
+
+!!€ vete^E2I
+!!€ vesi0
+
+! vuot0e^E2I>i2>^V>n
+! vuoss00>i>i>n
+
+!!€ hirte^HMETA>hii
+!!€ hirs00>hii
+
 
 
 ! TODO TODO TODO The following rule works for the vuojeksi var alternative variant, though we want both
@@ -624,28 +645,6 @@ o:u <=> v u _ t:0 e %^Var: %^WG: %^UU: %> t ; !savvuhuonet
 ! !! __@RULENAME@__
 !  t:đ <=> Vow _ Vow: (Cns) [Dummy: - [%^E2I: | [%^Jok:|%^Var:]]]* (:i) [Dummy: - [%^E2I: | [%^Jok:|%^Var:]]]* %^WG:0 ;
 !              h _ Vow: (Cns) (Dummy:) (:i) (Dummy:) %^WG:0 ;
-
-"ti:si"
-!! __@RULENAME@__
-t:s <=> Vow n   _        e:                  %> i2: [.#.|%> Cns] ; ! Miksi vain n? Eikä nlr? tt ja dummy 
- Vow ([n|l|r])  _  (:s)  e:     (Dial:0) %^E2I: ;! uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
-  Vow           _  (:s)  e:     (Dial:0) %> i2:    %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc. | vuossii(n) | uusia] ! uusine
-  Vow ([n|l|r]) _        e:0    (Dial:0) (%^AO:0) %^HMETA:0 %> h :i ; ! jok uushiin
-  Vow  Vow      _  (:s) Vow:0 (%^AO:0)                %> i3:  ;
-  Vow  n        _       Vow:0 [Dummy:* - %^WG:0]     %> i3:  ;
-  Vow [n|l|r]   _   :s   e:0    (Dial:0) %> i2:i   %> %^V: ; ! hirssii
-! Vow [n|l|r]   _       Vow:0 (Dial:0) (%^WG:0) (%^E2I:)  %> i2: ; ! hirsiksi, hirsi (pl - gen par)
-  Vow [n|l|r]   _       e: (Dial:0) (%^WG:0) (%^E2I:)  %> i2: ; ! hirsiksi, hirsi (pl - gen par)
-  Vow [n|l|r]   _  (:s) Vow:0 (%^WG:0) (%^AO:0)      %> i3:  ;
-
-!!€ vete^E2I
-!!€ vesi0
-
-! vuot0e^E2I>i2>^V>n
-! vuoss00>i>i>n
-
-!!€ hirte^HMETA>hii
-!!€ hirs00>hii
 
 
 !%>i3
