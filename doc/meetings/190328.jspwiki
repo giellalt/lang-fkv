@@ -22,15 +22,17 @@ saattaa "puttoot pois".
 * Millä tavala erottaa verbissä tavalinen vahva graadi ja geminasjuuni?
 * Kommentti X-misc yamliista: joskus net oon oikkeessa ja joskus väärässä. Millä laila pitäis suhtautuut kommenthiin joka löyttyy yamliista tahi lexc:stä? Joskus näyttää siltä ette kommentit oon kopi-pastattu jostaki muvalta.
 * Graadivaihtelufeilit verbissä: kun korjaa niitä tullee helposti feilii muuvale, esim    substantiiviitten puolela
-
 * Eira oli samaa mieltä naakkiit-verbistä, mutta hänen mielestään määkkiit taipuu näin:
 määkkiit : määjin
 
 Tässä Eiran vastaus:
+
 "Tämmösten verbiin graadivaihettelu selvii 2. partisiipin haamusta. Ja kyllä kansa preteritin sg.3.p. Jos niissä oon II-graadi, se graadivaihettelu oon tyyppii II:I. Eli oon leikkiit : leikkiny : leikin (II:I:I) ja naakkiit : naakkinu : naakin (II:I:I), mutta määkkiit : määkiny : määjin (II:I:0). Mutta se oon tietenki paha tiettäät, jos sulla ei ole nuoita haamui (eli 2. partis. tahi preteritin sg.3.p.), mistä sen graadivaihettelun näkkee."
 
+{{{
 näyttää siltä ette graadivaihtelu oon kiini verbistä ja sen historiasta
 tuottaa meile vähän haastheita ko infinitiivit saattaavat olla geminoitut (ja grammatikki ei tee eroa geminaation ja astevaihtelun välillä)
+}}}
 
 !!Graadivaihtelu
 
@@ -45,9 +47,9 @@ Koska oon k:j ja koska k:v ko oon kaksi -k:ta infinitiivissä?
 
 
 
-Kolmetavuiset: minkälainen partitiivisuffiksi ja rankan net pittävät saađa?
-Maholiset kaksiparadigmoiset lainasanat: yksi paradigma missä oon tavalinen graadivaihtelu ja toinen missä ei ole? (molemissa oon por dialektiissa geminasuuni)
-Epäreekelimäisyys i-loppuisissa nominissa: koska oon tyhä yksi -i, koska oon kaksi ja koska niitten lopussa saapi olla -ia? Ko puhuthaan por dialektiista.
+* Kolmetavuiset: minkälainen partitiivisuffiksi ja rankan net pittävät saađa?
+* Maholiset kaksiparadigmoiset lainasanat: yksi paradigma missä oon tavalinen graadivaihtelu ja toinen missä ei ole? (molemissa oon por dialektiissa geminasuuni)
+* Epäreekelimäisyys i-loppuisissa nominissa: koska oon tyhä yksi -i, koska oon kaksi ja koska niitten lopussa saapi olla -ia? Ko puhuthaan por dialektiista.
 
 -logi 
 
@@ -55,6 +57,7 @@ Porsangin dialektiissa ei ole -ia, oon aina -ii (Italii, assii jne)
 
 
 
+{{{
 
 Oonko graadivaihtelu k:0, k:j tahi k:v:
 
@@ -85,7 +88,7 @@ fati+Err/Orth:fati n_11_i ; ! mutta ymmärrämme fajin
 fati:fat2i n_11_i ; ! normi on fatin
 
 
-tf4-hsl-m0024:fkv trond$ grep 't2.*n_11' src/morphology/stems/nouns.lexc
+tf4-hsl-m0024:fkv trond$ grep "t2.*n_11" src/morphology/stems/nouns.lexc
 vatta:vatt2a n_11_AO  ;
 delta:delt2a n_11_AO  ;
 floota:floot2a n_11_A0_A2I ;
@@ -112,7 +115,7 @@ e raati+N+Sg+Gen|dfkv
 raati+N+Sg+Gen        raađin
 
 
-tf4-hsl-m0024:fkv trond$ cat src/morphology/stems/nouns.lexc |grep 'ii:'
+tf4-hsl-m0024:fkv trond$ cat src/morphology/stems/nouns.lexc |grep "ii:"
 strategii:strategii n_31_ii ;
 arkeologii:arkeologii n_31_ii ;
 teologii:teologii n_31_ii ;
@@ -216,19 +219,22 @@ morfologii+N+Sg+Nom        morfologii
                         [l|r|n|m]  k _ :o (Dial:) %> [:o|:i (%> n) #] ;
                         [l|r|n|m]  k _ :e (Dial:) %> [:e|:i]          ;
 
+}}}
+
 !!Numeraalit
 
-[ 1/11][FAIL] kahdeksan => Missing results: kahdeksan+Num+Sg+Nom
-[ 2/11][FAIL] kahdeksaa => Missing results: kahdeksan+Num+Sg+Par
-[ 3/11][FAIL] kahdeksaan => Missing results: kahdeksan+Num+Sg+Ill
-[ 4/11][FAIL] kahdeksassa => Missing results: kahdeksan+Num+Sg+Ine
-[ 5/11][FAIL] kahdeksana => Missing results: kahdeksan+Num+Sg+Ess
-[ 6/11][FAIL] kahdeksia => Missing results: kahdeksan+Num+Pl+Par
-[ 7/11][FAIL] kahdeksien => Missing results: kahdeksan+Num+Pl+Gen
-[ 8/11][FAIL] kahdeksiin => Missing results: kahdeksan+Num+Pl+Ill
-[ 9/11][FAIL] kahdeksissa => Missing results: kahdeksan+Num+Pl+Ine
-[10/11][FAIL] kahdeksina => Missing results: kahdeksan+Num+Pl+Ess
-[11/11][FAIL] kahdeksain => Missing results: kahdeksan+Num+Pl+Gen+Use/Rare
+{{{
+ 1/11 FAIL kahdeksan => Missing results: kahdeksan+Num+Sg+Nom
+ 2/11 FAIL kahdeksaa => Missing results: kahdeksan+Num+Sg+Par
+ 3/11 FAIL kahdeksaan => Missing results: kahdeksan+Num+Sg+Ill
+ 4/11 FAIL kahdeksassa => Missing results: kahdeksan+Num+Sg+Ine
+ 5/11 FAIL kahdeksana => Missing results: kahdeksan+Num+Sg+Ess
+ 6/11 FAIL kahdeksia => Missing results: kahdeksan+Num+Pl+Par
+ 7/11 FAIL kahdeksien => Missing results: kahdeksan+Num+Pl+Gen
+ 8/11 FAIL kahdeksiin => Missing results: kahdeksan+Num+Pl+Ill
+ 9/11 FAIL kahdeksissa => Missing results: kahdeksan+Num+Pl+Ine
+10/11 FAIL kahdeksina => Missing results: kahdeksan+Num+Pl+Ess
+11/11 FAIL kahdeksain => Missing results: kahdeksan+Num+Pl+Gen+Use/Rare
 
 kahđeksan+Num:kahđeks  NUM_KAHDEKSAN ;
 
@@ -265,19 +271,22 @@ LEXICON NUM_BACK_PARTITIVE_A
  !!€ kahdeksaa: kahdeksan+Num+Card+Sg+Par eight                                                           
 +Sg+Par:%>a      NUM_BACK_POSS_OPT      ;
 
+}}}
+
+
 !!määkkiit ja naakkiit
 
-Olema korjanheet kaikki X-misc yamliin feilit. Jäljelä oon perintö-nomini ja ylipäänsä kolmetavuisten nominiitten pl par sujjutus ja pl vartalo.
-Eiran jälkhiin se oon perintö: perinöitä, heikkona graadina ja lisäksi -tA
-saattaa "puttoot pois".
-Maholiset kaksiparadigmoiset lainasanat (torko, fati, haaki, soopa jne).
-Sanakirjassa oon sekä “henkkaat” ette “hengata”. Oonko net oikkeestansa sama verbi?
-Millä tavala erottaa verbissä tavalinen vahva graadi ja geminasjuuni?
-Kommentti X-misc yamliista: joskus net oon oikkeessa ja joskus väärässä. Millä laila pitäis suhtautuut kommenthiin joka löyttyy yamliista tahi lexc:stä? Joskus näyttää siltä ette kommentit oon kopi-pastattu jostaki muvalta.
-Graadivaihtelufeilit verbissä: kun korjaa niitä tullee helposti feilii muuvale, esim. substantiiviitten puolela
+* Olema korjanheet kaikki X-misc yamliin feilit. Jäljelä oon perintö-nomini ja ylipäänsä kolmetavuisten nominiitten pl par sujjutus ja pl vartalo.
+* Eiran jälkhiin se oon perintö: perinöitä, heikkona graadina ja lisäksi -tA
+* saattaa "puttoot pois".
+* Maholiset kaksiparadigmoiset lainasanat (torko, fati, haaki, soopa jne).
+* Sanakirjassa oon sekä “henkkaat” ette “hengata”. Oonko net oikkeestansa sama verbi?
+* Millä tavala erottaa verbissä tavalinen vahva graadi ja geminasjuuni?
+* Kommentti X-misc yamliista: joskus net oon oikkeessa ja joskus väärässä. Millä laila pitäis suhtautuut kommenthiin joka löyttyy yamliista tahi lexc:stä? Joskus näyttää siltä ette kommentit oon kopi-pastattu jostaki muvalta.
+* Graadivaihtelufeilit verbissä: kun korjaa niitä tullee helposti feilii muuvale, esim. substantiiviitten puolela
 
-
- egrep '(hengata|henkkaat)' src/morphology/stems/verbs.lexc
+{{{
+egrep "(hengata|henkkaat)" src/morphology/stems/verbs.lexc
 henkkaat:henkka v2 ;
 hengata:henka v43_odd ;
 
@@ -294,16 +303,18 @@ määkkiit:määk2i v2 ; määkkiit, määkin, määkit, määki
 
 naakkiit+V+Act+Ind+Prt+Sg3        naakki  <============ koska naakki
 määkkiit+V+Act+Ind+Prt+Sg3        määki <===== koska vart. määki
-
+}}}
 
 Eira oli samaa mieltä naakkiit-verbistä, mutta hänen mielestään määkkiit taipuu näin:
+
 määkkiit : määjin
 
 Tässä Eiran vastaus:
+
 "Tämmösten verbiin graadivaihettelu selvii 2. partisiipin haamusta. Ja kyllä kansa preteritin sg.3.p. Jos niissä oon II-graadi, se graadivaihettelu oon tyyppii II:I. Eli oon leikkiit : leikkiny : leikin (II:I:I) ja naakkiit : naakkinu : naakin (II:I:I), mutta määkkiit : määkiny : määjin (II:I:0). Mutta se oon tietenki paha tiettäät, jos sulla ei ole nuoita haamui (eli 2. partis. tahi preteritin sg.3.p.), mistä sen graadivaihettelun näkkee."
 
-näyttää siltä ette graadivaihtelu oon kiini verbistä ja sen historiasta
-tuottaa meile vähän haastheita ko infinitiivit saattaavat olla geminoitut (ja grammatikki ei tee eroa geminaation ja astevaihtelun välillä)
+* näyttää siltä ette graadivaihtelu oon kiini verbistä ja sen historiasta
+* tuottaa meile vähän haastheita ko infinitiivit saattaavat olla geminoitut (ja grammatikki ei tee eroa geminaation ja astevaihtelun välillä)
 
 
 Määkkyyt: määvyn 
@@ -311,7 +322,7 @@ Määkkyyt: määvyn
 Kaksi verbi jonka paradigma oon "sulauttunu yhtheen". "sekaparadigmoja" Suomen murretutkimuksessa. Siirtäny toisheen verbityypphiin. 
 
 
-
+{{{
 "Gradation k:j"
 k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki  - mäjen
                       i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; !
@@ -322,11 +333,11 @@ k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki 
  [.#.|#:]     Cns [o|u] _  e:         %^WG:0                           ; ! lukkeet  - lujen
  [.#.|#:]   [k|j] a (i) _  [a:|u]     %^WG:0 ([%^AO:|%^AE:]) (%>) (i3:) (%>) ; ! kaikkuut:kaijun, jakkaat:jajan
                       h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet, lohke- lohjeta, puhke- puhjeta
-
+}}}
 
 !!!Seuraava kokkous: 
 
-Keskiviikkona 3.4 ennen kl 09 (?) 
+__Keskiviikkona 3.4 ennen kl 09 (?)__ 
 
 
 
