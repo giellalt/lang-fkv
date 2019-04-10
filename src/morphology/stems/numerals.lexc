@@ -450,17 +450,16 @@ LEXICON NUM_KUUSI
 
 LEXICON NUM_KAHDEKSAN
 !!€gt-norm: Numerals 10n
-!!€ kahdeksan: kahdeksan+Num+Sg+Nom
-!!€ kahdeksaa: kahdeksan+Num+Sg+Par
-!!€ kahdeksaan: kahdeksan+Num+Sg+Ill
-!!€ kahdeksassa: kahdeksan+Num+Sg+Ine
-!!€ kahdeksana: kahdeksan+Num+Sg+Ess
-!!€ kahdeksia: kahdeksan+Num+Pl+Par
-!!€ kahdeksien: kahdeksan+Num+Pl+Gen
-!!€ kahdeksiin: kahdeksan+Num+Pl+Ill
-!!€ kahdeksissa: kahdeksan+Num+Pl+Ine
-!!€ kahdeksina: kahdeksan+Num+Pl+Ess
-!!€ kahdeksain: kahdeksan+Num+Pl+Gen+Use/Rare
+!!€ kahđeksen: kahdeksan+Num+Sg+Nom
+!!€ kahđeksee: kahdeksan+Num+Sg+Par
+!!€ kahđeksheen: kahdeksan+Num+Sg+Ill
+!!€ kahđeksessa: kahdeksan+Num+Sg+Ine
+!!€ kahđeksenna: kahdeksan+Num+Sg+Ess
+!!€ kahđeksii,kahđeksiita : kahdeksan+Num+Pl+Par
+!!€ kahđeksiitten: kahdeksan+Num+Pl+Gen
+!!€ kahđekshiin: kahdeksan+Num+Pl+Ill
+!!€ kahđeksissa: kahdeksan+Num+Pl+Ine
+!!€ kahđeksinna: kahdeksan+Num+Pl+Ess
 0:an    NUM_BACK_NOMINATIVE  ;
 0:a     NUM_BACK_PARTITIVE_A    ;
 0:a     NUM_BACK_ILLATIVE_AN    ;
@@ -473,16 +472,15 @@ LEXICON NUM_KAHDEKSAN
 
 LEXICON NUM_YHDEKSÄN
 !!€gt-norm: Numerals 10n front
-!!€ yhdeksän: yhdeksän+Num+Sg+Nom
-!!€ yhdeksää: yhdeksän+Num+Sg+Par
-!!€ yhdeksään: yhdeksän+Num+Sg+Ill
-!!€ yhdeksässä: yhdeksän+Num+Sg+Ine
-!!€ yhdeksänä: yhdeksän+Num+Sg+Ess
-!!€ yhdeksiä: yhdeksän+Num+Pl+Par
-!!€ yhdeksien: yhdeksän+Num+Pl+Gen
-!!€ yhdeksissä: yhdeksän+Num+Pl+Ine
-!!€ yhdeksinä: yhdeksän+Num+Pl+Ess
-!!€ yhdeksäin: yhdeksän+Num+Pl+Gen+Use/Rare
+!!€ yhđeksen: yhdeksän+Num+Sg+Nom
+!!€ yhđeksee: yhdeksän+Num+Sg+Par
+!!€ yhđeksheen: yhdeksän+Num+Sg+Ill
+!!€ yhđeksessä: yhdeksän+Num+Sg+Ine
+!!€ yhđeksennä: yhdeksän+Num+Sg+Ess
+!!€ yhđeksii, yhđeksiitä: yhdeksän+Num+Pl+Par
+!!€ yhđeksiitten: yhdeksän+Num+Pl+Gen
+!!€ yhđeksissä: yhdeksän+Num+Pl+Ine
+!!€ yhđeksinnä: yhdeksän+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE  ;
 0:ä     NUM_FRONT_PARTITIVE_Ä    ;
 0:ä     NUM_FRONT_ILLATIVE_ÄN    ;
@@ -521,7 +519,7 @@ LEXICON NUM_SATA
 !!€ satana: sata+Num+Sg+Ess
 !!€ sadassa: sata+Num+Sg+Ine
 !!€ sataan: sata+Num+Sg+Ill
-!!€ sataa: sata+Num+Sg+Par
+!!€ sattaa: sata+Num+Sg+Par
 !!€ satojen: sata+Num+Pl+Gen
 !!€ satoihin: sata+Num+Pl+Ill
 !!€ sadoissa: sata+Num+Pl+Ine
@@ -677,7 +675,7 @@ LEXICON NUM_TOINEN
 !!€ toisissa: toinen+Num+Ord+Pl+Ine
 !!€ toisina: toinen+Num+Ord+Pl+Ess
 0:nen   NUM_BACK_NOMINATIVE ;
-0:se    NUM_BACK_ILLATIVE_EN    ;
+0:she    NUM_BACK_ILLATIVE_EN    ;
 0:se    NUM_BACK_SINGULARS   ;
 0:s     NUM_BACK_PARTITIVE_TA   ;
 0:s     NUM_BACK_GENITIVE_TEN   ;
