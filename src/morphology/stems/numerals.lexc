@@ -359,13 +359,13 @@ LEXICON NUM_KAKSI
 LEXICON NUM_KOLME
 !!€gt-norm: Numerals 8~5
 !!€ kolme: kolme+Num+Sg+Nom
-!!€ kolmeen: kolme+Num+Sg+Ill
+!!€ kolmheen: kolme+Num+Sg+Ill
 !!€ kolmena: kolme+Num+Sg+Ess
 !!€ kolmessa: kolme+Num+Sg+Ine
-!!€ kolmea: kolme+Num+Sg+Par
-!!€ kolmia: kolme+Num+Pl+Par
-!!€ kolmien: kolme+Num+Pl+Gen
-!!€ kolmiin: kolme+Num+Pl+Ill
+!!€ kolmee: kolme+Num+Sg+Par
+!!€ kolmii: kolme+Num+Pl+Par
+!!€ kolmiin: kolme+Num+Pl+Gen
+!!€ kolmhiin: kolme+Num+Pl+Ill
 !!€ kolmina: kolme+Num+Pl+Ess
 !!€ kolmissa: kolme+Num+Pl+Ine
 0:e     NUM_BACK_NOMINATIVE  ;
@@ -379,17 +379,17 @@ LEXICON NUM_KOLME
 
 LEXICON NUM_NELJÄ
 !!€gt-norm: Numerals 10
-!!€ neljä: neljä+Num+Sg+Nom
-!!€ neljää: neljä+Num+Sg+Par
-!!€ neljään: neljä+Num+Sg+Ill
-!!€ neljänä: neljä+Num+Sg+Ess
-!!€ neljässä: neljä+Num+Sg+Ine
-!!€ neljiä: neljä+Num+Pl+Par
-!!€ neljien: neljä+Num+Pl+Gen
-!!€ neljiin: neljä+Num+Pl+Ill
+!!€ nelje: neljä+Num+Sg+Nom
+!!€ neljee: neljä+Num+Sg+Par
+!!€ neljheen: neljä+Num+Sg+Ill
+!!€ neljenä: neljä+Num+Sg+Ess
+!!€ neljessä: neljä+Num+Sg+Ine
+!!€ neljii: neljä+Num+Pl+Par
+!!€ neljiin: neljä+Num+Pl+Gen
+!!€ neljhiin: neljä+Num+Pl+Ill
 !!€ neljinä: neljä+Num+Pl+Ess
 !!€ neljissä: neljä+Num+Pl+Ine
-!!€ neljäin: neljä+Num+Pl+Gen+Use/Rare
+!!€ neljäin: neljä+Num+Pl+Gen+Use/Rare (Ei ole olemassa kveeniksi) 
 0:ä  NUM_FRONT_NOMINATIVE ;
 0:ä  NUM_FRONT_PARTITIVE_Ä    ;
 0:ä  NUM_FRONT_ILLATIVE_ÄN    ;
