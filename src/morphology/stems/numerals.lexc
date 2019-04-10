@@ -460,8 +460,8 @@ LEXICON NUM_KAHDEKSAN
 !!€ kahđekshiin: kahdeksan+Num+Pl+Ill
 !!€ kahđeksissa: kahdeksan+Num+Pl+Ine
 !!€ kahđeksinna: kahdeksan+Num+Pl+Ess
-0:an    NUM_BACK_NOMINATIVE  ;
-0:a     NUM_BACK_PARTITIVE_A    ;
+0:en    NUM_BACK_NOMINATIVE  ;
+0:e     NUM_BACK_PARTITIVE_E    ;
 0:a     NUM_BACK_ILLATIVE_AN    ;
 0:a     NUM_BACK_GENITIVE_IN    ;
 0:a     NUM_BACK_SINGULARS   ;
@@ -482,7 +482,7 @@ LEXICON NUM_YHDEKSÄN
 !!€ yhđeksissä: yhdeksän+Num+Pl+Ine
 !!€ yhđeksinnä: yhdeksän+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE  ;
-0:ä     NUM_FRONT_PARTITIVE_Ä    ;
+0:e     NUM_FRONT_PARTITIVE_E    ;
 0:ä     NUM_FRONT_ILLATIVE_ÄN    ;
 0:e     NUM_FRONT_GENITIVE_IN    ;
 0:ä     NUM_FRONT_SINGULARS   ;
