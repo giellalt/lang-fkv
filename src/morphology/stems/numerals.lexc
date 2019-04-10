@@ -415,7 +415,7 @@ LEXICON NUM_VIISI
 0:si    NUM_FRONT_NOMINATIVE ;
 0:te    NUM_FRONT_ILLATIVE_EN    ;
 0:te    NUM_FRONT_STRONG_SINGULARS   ;
-0:đe    NUM_FRONT_WEAK_SINGULARS   ;
+0:de    NUM_FRONT_WEAK_SINGULARS   ;
 0:s     NUM_FRONT_PLURALS ;
 0:t     NUM_FRONT_PARTITIVE_TÄ   ;
 0:t     NUM_FRONT_GENITIVE_TEN   ;
@@ -459,7 +459,7 @@ LEXICON NUM_KAHDEKSAN
 !!€ kahđeksissa: kahdeksan+Num+Pl+Ine
 !!€ kahđeksinna: kahdeksan+Num+Pl+Ess
 0:en    NUM_BACK_NOMINATIVE  ;
-0:e     NUM_BACK_PARTITIVE_E    ;
+0:a     NUM_BACK_PARTITIVE_A    ;
 0:a     NUM_BACK_ILLATIVE_AN    ;
 0:a     NUM_BACK_GENITIVE_IN    ;
 0:a     NUM_BACK_SINGULARS   ;
@@ -480,7 +480,7 @@ LEXICON NUM_YHDEKSÄN
 !!€ yhđeksissä: yhdeksän+Num+Pl+Ine
 !!€ yhđeksinnä: yhdeksän+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE  ;
-0:e     NUM_FRONT_PARTITIVE_E    ;
+0:ä     NUM_FRONT_PARTITIVE_Ä    ;
 0:ä     NUM_FRONT_ILLATIVE_ÄN    ;
 0:e     NUM_FRONT_GENITIVE_IN    ;
 0:ä     NUM_FRONT_SINGULARS   ;
