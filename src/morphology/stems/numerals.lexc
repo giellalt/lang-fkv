@@ -492,13 +492,13 @@ LEXICON NUM_YHDEKSÄN
 LEXICON NUM_KYMMENEN
 !!€gt-norm: Numerals 32
 !!€ kymmenen: kymmenen+Num+Sg+Nom
-!!€ kymmeneen: kymmenen+Num+Sg+Ill
+!!€ kymmenheen: kymmenen+Num+Sg+Ill
 !!€ kymmenenä: kymmenen+Num+Sg+Ess
 !!€ kymmenessä: kymmenen+Num+Sg+Ine
 !!€ kymmentä: kymmenen+Num+Sg+Par
 !!€ kymmenten: kymmenen+Num+Pl+Gen
-!!€ kymmenien: kymmenen+Num+Pl+Gen
-!!€ kymmeniin: kymmenen+Num+Pl+Ill
+!!€ kymmeniin: kymmenen+Num+Pl+Gen
+!!€ kymmenhiin: kymmenen+Num+Pl+Ill
 !!€ kymmenissä: kymmenen+Num+Pl+Ine
 !!€ kymmeninä: kymmenen+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE ;
@@ -515,12 +515,12 @@ LEXICON NUM_SATA
 !!€gt-norm: Numerals 9
 !!€ sata: sata+Num+Sg+Nom
 !!€ satana: sata+Num+Sg+Ess
-!!€ sadassa: sata+Num+Sg+Ine
-!!€ sataan: sata+Num+Sg+Ill
+!!€ sađassa: sata+Num+Sg+Ine
+!!€ sathaan: sata+Num+Sg+Ill
 !!€ sattaa: sata+Num+Sg+Par
-!!€ satojen: sata+Num+Pl+Gen
+!!€ sattoin: sata+Num+Pl+Gen
 !!€ satoihin: sata+Num+Pl+Ill
-!!€ sadoissa: sata+Num+Pl+Ine
+!!€ sađoissa: sata+Num+Pl+Ine
 !!€ satoina: sata+Num+Pl+Ess
 0:ta    NUM_BACK_NOMINATIVE ;
 0:da    NUM_BACK_WEAK_SINGULARS ;
