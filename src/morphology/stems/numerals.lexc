@@ -403,20 +403,19 @@ LEXICON NUM_NELJÄ
 LEXICON NUM_VIISI
 !!€gt-norm: Numerals 27 front
 !!€ viisi: viisi+Num+Sg+Nom
-!!€ viiteen: viisi+Num+Sg+Ill
+!!€ viitheen: viisi+Num+Sg+Ill
 !!€ viitenä: viisi+Num+Sg+Ess
-!!€ viidessä: viisi+Num+Sg+Ine
+!!€ viiđessä: viisi+Num+Sg+Ine
 !!€ viisinä: viisi+Num+Pl+Ess
 !!€ viisissä: viisi+Num+Pl+Ine
 !!€ viittä: viisi+Num+Sg+Par
-!!€ viitten: viisi+Num+Pl+Gen
-!!€ viisiä: viisi+Num+Pl+Par
-!!€ viisien: viisi+Num+Pl+Gen
+!!€ viissii: viisi+Num+Pl+Par
+!!€ viissiin: viisi+Num+Pl+Gen
 !!€ viisiin: viisi+Num+Pl+Ill
 0:si    NUM_FRONT_NOMINATIVE ;
 0:te    NUM_FRONT_ILLATIVE_EN    ;
 0:te    NUM_FRONT_STRONG_SINGULARS   ;
-0:de    NUM_FRONT_WEAK_SINGULARS   ;
+0:đe    NUM_FRONT_WEAK_SINGULARS   ;
 0:s     NUM_FRONT_PLURALS ;
 0:t     NUM_FRONT_PARTITIVE_TÄ   ;
 0:t     NUM_FRONT_GENITIVE_TEN   ;
@@ -428,14 +427,13 @@ LEXICON NUM_KUUSI
 !!€gt-norm: Numerals 27 back
 !!€ kuusi: kuusi+Num+Sg+Nom
 !!€ kuutena: kuusi+Num+Sg+Ess
-!!€ kuudessa: kuusi+Num+Sg+Ine
+!!€ kuuđessa: kuusi+Num+Sg+Ine
 !!€ kuusina: kuusi+Num+Pl+Ess
 !!€ kuusissa: kuusi+Num+Pl+Ine
 !!€ kuutta: kuusi+Num+Sg+Par
-!!€ kuutten: kuusi+Num+Pl+Gen
-!!€ kuusia: kuusi+Num+Pl+Par
-!!€ kuusien: kuusi+Num+Pl+Gen
-!!€ kuusiin: kuusi+Num+Pl+Ill
+!!€ kuussii: kuusi+Num+Pl+Par
+!!€ kuussiin: kuusi+Num+Pl+Gen
+!!€ kuushiin: kuusi+Num+Pl+Ill
 0:si    NUM_BACK_NOMINATIVE ;
 0:te    NUM_BACK_ILLATIVE_EN    ;
 0:te    NUM_BACK_STRONG_SINGULARS   ;
