@@ -620,13 +620,13 @@ LEXICON NUM_PARI
 !!€ pari: pari+Num+Sg+Nom
 !!€ parina: pari+Num+Sg+Ess
 !!€ parissa: pari+Num+Sg+Ine
-!!€ pareissa: pari+Num+Pl+Ine
-!!€ pareina: pari+Num+Pl+Ess
-!!€ paria: pari+Num+Sg+Par
-!!€ pareja: pari+Num+Pl+Par
-!!€ parien: pari+Num+Pl+Gen
-!!€ pareihin: pari+Num+Pl+Ill
-!!€ pariin: pari+Num+Sg+Ill
+!!€ pariissa: pari+Num+Pl+Ine
+!!€ pariina: pari+Num+Pl+Ess
+!!€ parrii: pari+Num+Sg+Par
+!!€ parrii: pari+Num+Pl+Par
+!!€ parriin: pari+Num+Pl+Gen
+!!€ parhiin: pari+Num+Pl+Ill
+!!€ parhiin: pari+Num+Sg+Ill
 0:i     NUM_BACK_NOMINATIVE    ;
 0:i     NUM_BACK_SINGULARS    ;
 0:e     NUM_BACK_PLURALS   ;
@@ -644,8 +644,8 @@ LEXICON NUM_ENSIMMÄINEN
 !!€ ensimmäisessä: ensimmäinen+Num+Ord+Sg+Ine
 !!€ ensimmäistä: ensimmäinen+Num+Ord+Sg+Par
 !!€ ensimmäisten: ensimmäinen+Num+Ord+Pl+Gen
-!!€ ensimmäisiä: ensimmäinen+Num+Ord+Pl+Par
-!!€ ensimmäisiin: ensimmäinen+Num+Ord+Pl+Ill
+!!€ ensimmäissii: ensimmäinen+Num+Ord+Pl+Par
+!!€ ensimmäishiin: ensimmäinen+Num+Ord+Pl+Ill
 !!€ ensimmäisinä: ensimmäinen+Num+Ord+Pl+Ess
 !!€ ensimmäisissä: ensimmäinen+Num+Ord+Pl+Ine
 0:nen   NUM_FRONT_NOMINATIVE ;
@@ -662,12 +662,12 @@ LEXICON NUM_ENSIMMÄINEN
 LEXICON NUM_TOINEN
 !!€gt-norm: Numerals 38 back
 !!€ toinen: toinen+Num+Ord+Sg+Nom
-!!€ toiseen: toinen+Num+Ord+Sg+Ill
+!!€ toisheen: toinen+Num+Ord+Sg+Ill
 !!€ toista: toinen+Num+Ord+Sg+Par
 !!€ toisten: toinen+Num+Ord+Pl+Gen
-!!€ toisien: toinen+Num+Ord+Pl+Gen
-!!€ toisia: toinen+Num+Ord+Pl+Par
-!!€ toisiin: toinen+Num+Ord+Pl+Ill
+!!€ toissiin: toinen+Num+Ord+Pl+Gen
+!!€ toissii: toinen+Num+Ord+Pl+Par
+!!€ toishiin: toinen+Num+Ord+Pl+Ill
 !!€ toisena: toinen+Num+Ord+Sg+Ess
 !!€ toisessa: toinen+Num+Ord+Sg+Ine
 !!€ toisissa: toinen+Num+Ord+Pl+Ine
@@ -687,11 +687,11 @@ LEXICON NUM_KOLMAS
 !!€gt-norm: Numerals 45
 !!€ kolmas: kolmas+Num+Ord+Sg+Nom
 !!€ kolmantena: kolmas+Num+Ord+Sg+Ess
-!!€ kolmannessa: kolmas+Num+Ord+Sg+Ine
-!!€ kolmanteen: kolmas+Num+Ord+Sg+Ill
+!!€ kolmanessa: kolmas+Num+Ord+Sg+Ine
+!!€ kolmantheen: kolmas+Num+Ord+Sg+Ill
 !!€ kolmatta: kolmas+Num+Ord+Sg+Par
-!!€ kolmansia: kolmas+Num+Ord+Pl+Par
-!!€ kolmansien: kolmas+Num+Ord+Pl+Gen
+!!€ kolmanssii: kolmas+Num+Ord+Pl+Par
+!!€ kolmanssiin: kolmas+Num+Ord+Pl+Gen
 !!€ kolmansissa: kolmas+Num+Ord+Pl+Ine
 !!€ kolmansina: kolmas+Num+Ord+Pl+Ess
 0:s     NUM_BACK_NOMINATIVE ;
@@ -706,16 +706,16 @@ LEXICON NUM_KOLMAS
 
 LEXICON NUM_NELJÄS
 !!€gt-norm: Numerals 45 fron
-!!€ neljäs: neljäs+Num+Ord+Sg+Nom
-!!€ neljänteen: neljäs+Num+Ord+Sg+Ill
-!!€ neljäntenä: neljäs+Num+Ord+Sg+Ess
-!!€ neljännessä: neljäs+Num+Ord+Sg+Ine
-!!€ neljättä: neljäs+Num+Ord+Sg+Par
-!!€ neljänsiä: neljäs+Num+Ord+Pl+Par
-!!€ neljänsien: neljäs+Num+Ord+Pl+Gen
-!!€ neljänsiin: neljäs+Num+Ord+Pl+Ill
-!!€ neljänsissä: neljäs+Num+Ord+Pl+Ine
-!!€ neljänsinä: neljäs+Num+Ord+Pl+Ess
+!!€ neljes: neljäs+Num+Ord+Sg+Nom
+!!€ neljentheen: neljäs+Num+Ord+Sg+Ill
+!!€ neljentenä: neljäs+Num+Ord+Sg+Ess
+!!€ neljennessä: neljäs+Num+Ord+Sg+Ine
+!!€ neljettä: neljäs+Num+Ord+Sg+Par
+!!€ neljenssii: neljäs+Num+Ord+Pl+Par
+!!€ neljenssiin: neljäs+Num+Ord+Pl+Gen
+!!€ neljenshiin: neljäs+Num+Ord+Pl+Ill
+!!€ neljensissä: neljäs+Num+Ord+Pl+Ine
+!!€ neljensinä: neljäs+Num+Ord+Pl+Ess
 0:s     NUM_FRONT_NOMINATIVE ;
 0:nte   NUM_FRONT_ILLATIVE_EN    ;
 0:nte   NUM_FRONT_STRONG_SINGULARS   ;
