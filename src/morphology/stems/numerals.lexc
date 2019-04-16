@@ -10,9 +10,9 @@ LEXICON NUM
 !! Numerals have been split in three sections, the compounding parts
 !! of cardinals and ordinals, and the non-compounding ones:
 !!€gt-norm: Numeral
-!!€ kaksikymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par 23,000
-!!€ kahdessadasneljäs: kahdes+Num+Ord+Sg+Nom#sadas+Num+Ord+Sg+Nom#neljäs+Num+Ord+Sg+Nom 204rd
-!!€ viitisenkymmentä: viitisen+Num#kymmentä 50-ish
+!!€ kaksikymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par ! 23,000
+!!€ kahdessadasneljäs: kahdes+Num+Ord+Sg+Nom#sadas+Num+Ord+Sg+Nom#neljäs+Num+Ord+Sg+Nom  ! 204rd
+!!€ viitisenkymmentä: viitisen+Num#kymmentä  ! 50-ish
 0    NUM_CARD_ALL    ;
 0    NUM_ORD_ALL ;
 0    NUM_OTHERS  ;
@@ -31,7 +31,7 @@ LEXICON NUM_CARD_ALL
 yksi+Num:y             NUM_YKSI  ;
 kaksi+Num:ka           NUM_KAKSI ;
 kolme+Num:kolm         NUM_KOLME ;
-neljä+Num:nelj         NUM_NELJÄ ;
+nelje+Num:nelj         NUM_NELJÄ ;
 viisi+Num:vii          NUM_VIISI ;
 kuusi+Num:kuu          NUM_KUUSI ;
 seittemen+Num+Err/Orth:seitsem  NUM_YHDEKSÄN ;
@@ -379,22 +379,22 @@ LEXICON NUM_KOLME
 
 LEXICON NUM_NELJÄ
 !!€gt-norm: Numerals 10
-!!€ nelje: neljä+Num+Sg+Nom
-!!€ neljee: neljä+Num+Sg+Par
-!!€ neljheen: neljä+Num+Sg+Ill
-!!€ neljenä: neljä+Num+Sg+Ess
-!!€ neljessä: neljä+Num+Sg+Ine
-!!€ neljii: neljä+Num+Pl+Par
-!!€ neljiin: neljä+Num+Pl+Gen
-!!€ neljhiin: neljä+Num+Pl+Ill
-!!€ neljinä: neljä+Num+Pl+Ess
-!!€ neljissä: neljä+Num+Pl+Ine
-!!€ neljäin: neljä+Num+Pl+Gen+Use/Rare (Ei ole olemassa kveeniksi) 
-0:ä  NUM_FRONT_NOMINATIVE ;
-0:ä  NUM_FRONT_PARTITIVE_Ä    ;
-0:ä  NUM_FRONT_ILLATIVE_ÄN    ;
-0:ä  NUM_FRONT_GENITIVE_IN    ;
-0:ä  NUM_FRONT_SINGULARS   ;
+!!€ nelje: nelje+Num+Sg+Nom
+!!€ neljee: nelje+Num+Sg+Par
+!!€ neljheen: nelje+Num+Sg+Ill
+!!€ neljenä: nelje+Num+Sg+Ess
+!!€ neljessä: nelje+Num+Sg+Ine
+!!€ neljii: nelje+Num+Pl+Par
+!!€ neljiin: nelje+Num+Pl+Gen
+!!€ neljhiin: nelje+Num+Pl+Ill
+!!€ neljinä: nelje+Num+Pl+Ess
+!!€ neljissä: nelje+Num+Pl+Ine
+!!€ neljäin: nelje+Num+Pl+Gen+Use/Rare ! (Ei ole olemassa kveeniksi) 
+0:e  NUM_FRONT_NOMINATIVE ;
+0:e  NUM_FRONT_PARTITIVE_Ä    ;
+0:e  NUM_FRONT_ILLATIVE_ÄN    ;
+0:e  NUM_FRONT_GENITIVE_IN    ;
+0:e  NUM_FRONT_SINGULARS   ;
 0    NUM_FRONT_PARTITIVE_IÄ   ;
 0    NUM_FRONT_GENITIVE_IEN   ;
 0    NUM_FRONT_ILLATIVE_IIN   ;
@@ -448,16 +448,16 @@ LEXICON NUM_KUUSI
 
 LEXICON NUM_KAHDEKSAN
 !!€gt-norm: Numerals 10n
-!!€ kahđeksen: kahdeksan+Num+Sg+Nom
-!!€ kahđeksee: kahdeksan+Num+Sg+Par
-!!€ kahđeksheen: kahdeksan+Num+Sg+Ill
-!!€ kahđeksessa: kahdeksan+Num+Sg+Ine
-!!€ kahđeksenna: kahdeksan+Num+Sg+Ess
-!!€ kahđeksii,kahđeksiita : kahdeksan+Num+Pl+Par
-!!€ kahđeksiitten: kahdeksan+Num+Pl+Gen
-!!€ kahđekshiin: kahdeksan+Num+Pl+Ill
-!!€ kahđeksissa: kahdeksan+Num+Pl+Ine
-!!€ kahđeksinna: kahdeksan+Num+Pl+Ess
+!!€ kahđeksen: kahđeksen+Num+Sg+Nom
+!!€ kahđeksee: kahđeksen+Num+Sg+Par
+!!€ kahđeksheen: kahđeksen+Num+Sg+Ill
+!!€ kahđeksessa: kahđeksen+Num+Sg+Ine
+!!€ kahđeksenna: kahđeksen+Num+Sg+Ess
+!!€ kahđeksii,kahđeksiita : kahđeksen+Num+Pl+Par
+!!€ kahđeksiitten: kahđeksen+Num+Pl+Gen
+!!€ kahđekshiin: kahđeksen+Num+Pl+Ill
+!!€ kahđeksissa: kahđeksen+Num+Pl+Ine
+!!€ kahđeksinna: kahđeksen+Num+Pl+Ess
 0:en    NUM_BACK_NOMINATIVE  ;
 0:a     NUM_BACK_PARTITIVE_A    ;
 0:a     NUM_BACK_ILLATIVE_AN    ;
@@ -470,20 +470,20 @@ LEXICON NUM_KAHDEKSAN
 
 LEXICON NUM_YHDEKSÄN
 !!€gt-norm: Numerals 10n front
-!!€ yhđeksen: yhdeksän+Num+Sg+Nom
-!!€ yhđeksee: yhdeksän+Num+Sg+Par
-!!€ yhđeksheen: yhdeksän+Num+Sg+Ill
-!!€ yhđeksessä: yhdeksän+Num+Sg+Ine
-!!€ yhđeksennä: yhdeksän+Num+Sg+Ess
-!!€ yhđeksii, yhđeksiitä: yhdeksän+Num+Pl+Par
-!!€ yhđeksiitten: yhdeksän+Num+Pl+Gen
-!!€ yhđeksissä: yhdeksän+Num+Pl+Ine
-!!€ yhđeksinnä: yhdeksän+Num+Pl+Ess
+!!€ yhđeksen: yhđeksen+Num+Sg+Nom
+!!€ yhđeksee: yhđeksen+Num+Sg+Par
+!!€ yhđeksheen: yhđeksen+Num+Sg+Ill
+!!€ yhđeksessä: yhđeksen+Num+Sg+Ine
+!!€ yhđeksennä: yhđeksen+Num+Sg+Ess
+!!€ yhđeksii, yhđeksiitä: yhđeksen+Num+Pl+Par
+!!€ yhđeksiitten: yhđeksen+Num+Pl+Gen
+!!€ yhđeksissä: yhđeksen+Num+Pl+Ine
+!!€ yhđeksinnä: yhđeksen+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE  ;
-0:ä     NUM_FRONT_PARTITIVE_Ä    ;
-0:ä     NUM_FRONT_ILLATIVE_ÄN    ;
+0:e     NUM_FRONT_PARTITIVE_Ä    ;
+0:e     NUM_FRONT_ILLATIVE_ÄN    ;
 0:e     NUM_FRONT_GENITIVE_IN    ;
-0:ä     NUM_FRONT_SINGULARS   ;
+0:e     NUM_FRONT_SINGULARS   ;
 0       NUM_FRONT_PARTITIVE_IÄ   ;
 0       NUM_FRONT_GENITIVE_IEN   ;
 0       NUM_FRONT_ILLATIVE_IIN   ;
