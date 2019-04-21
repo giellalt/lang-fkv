@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (maaliskuun 19. päivänä 2019, klo. 12:16)</title>  
+    <title>Generoidut muodot (huhtikuun 21. päivänä 2019, klo. 22:3)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -55,6 +55,7 @@
 <tr><td>kokata+V+Act+Ind+Prt+Pl3</td><td>kokathiin</td></tr>
 <tr><td>plokata+V+Act+Ind+Prt+Pl3</td><td>plokathiin</td></tr>
 <tr><td>mookata+V+Act+Ind+Prt+Pl3</td><td>mookathiin</td></tr>
+<tr><td>huokata+V+Act+Ind+Prt+Pl3</td><td>huokathiin</td></tr>
 <tr><td>muokata+V+Act+Ind+Prt+Pl3</td><td>muokathiin</td></tr>
 <tr><td>kurkata+V+Act+Ind+Prt+Pl3</td><td>kurkathiin</td></tr>
 <tr><td>haaskata+V+Act+Ind+Prt+Pl3</td><td>haaskathiin</td></tr>
@@ -1169,7 +1170,6 @@
 <tr><td>kuivata+V+Act+Ind+Prt+Pl3</td><td>kuivathiin</td></tr>
 <tr><td>kelvata+V+Act+Ind+Prt+Pl3</td><td>kelvathiin</td></tr>
 <tr><td>tolvata+V+Act+Ind+Prt+Pl3</td><td>tolvathiin</td></tr>
-<tr><td>huokata+V+Act+Ind+Prt+Pl3</td><td>huovathiin</td></tr>
 <tr><td>luovata+V+Act+Ind+Prt+Pl3</td><td>luovathiin</td></tr>
 <tr><td>arvata+V+Act+Ind+Prt+Pl3</td><td>arvathiin</td></tr>
 <tr><td>tervata+V+Act+Ind+Prt+Pl3</td><td>tervathiin</td></tr>
@@ -1439,7 +1439,6 @@
 <tr><td>tuijottaat+V+Act+Ind+Prt+Pl3</td><td>tuijotethiin</td></tr>
 <tr><td>harjottaat+V+Act+Ind+Prt+Pl3</td><td>harjotethiin</td></tr>
 <tr><td>kirjoittaat+V+Act+Ind+Prt+Pl3</td><td>kirjotethiin</td></tr>
-<tr><td>kirjottaat+V+Act+Ind+Prt+Pl3</td><td>kirjotethiin</td></tr>
 <tr><td>pakottaat+V+Act+Ind+Prt+Pl3</td><td>pakotethiin</td></tr>
 <tr><td>sekottaat+V+Act+Ind+Prt+Pl3</td><td>sekotethiin</td></tr>
 <tr><td>laikottaat+V+Act+Ind+Prt+Pl3</td><td>laikotethiin</td></tr>
@@ -1750,27 +1749,17 @@
 <tr><td>painiit+V+Act+Ind+Prt+Pl3</td><td>painithiin</td></tr>
 <tr><td>punnita+V+Act+Ind+Prt+Pl3</td><td>punnithiin</td></tr>
 <tr><td>sivakoita+V+Act+Ind+Prt+Pl3</td><td>sivakoithiin</td></tr>
-<tr><td>sivakoiđa+V+Act+Ind+Prt+Pl3</td><td>sivakoithiin</td></tr>
 <tr><td>palmikoita+V+Act+Ind+Prt+Pl3</td><td>palmikoithiin</td></tr>
-<tr><td>palmikoiđa+V+Act+Ind+Prt+Pl3</td><td>palmikoithiin</td></tr>
 <tr><td>iloita+V+Act+Ind+Prt+Pl3</td><td>iloithiin</td></tr>
 <tr><td>joutiloita+V+Act+Ind+Prt+Pl3</td><td>joutiloithiin</td></tr>
-<tr><td>joutiloiđa+V+Act+Ind+Prt+Pl3</td><td>joutiloithiin</td></tr>
 <tr><td>markkinoita+V+Act+Ind+Prt+Pl3</td><td>markkinoithiin</td></tr>
-<tr><td>markkinoiđa+V+Act+Ind+Prt+Pl3</td><td>markkinoithiin</td></tr>
 <tr><td>kiharoita+V+Act+Ind+Prt+Pl3</td><td>kiharoithiin</td></tr>
-<tr><td>kiharoiđa+V+Act+Ind+Prt+Pl3</td><td>kiharoithiin</td></tr>
 <tr><td>kiikaroita+V+Act+Ind+Prt+Pl3</td><td>kiikaroithiin</td></tr>
-<tr><td>kiikaroiđa+V+Act+Ind+Prt+Pl3</td><td>kiikaroithiin</td></tr>
 <tr><td>piikaroita+V+Act+Ind+Prt+Pl3</td><td>piikaroithiin</td></tr>
-<tr><td>piikaroiđa+V+Act+Ind+Prt+Pl3</td><td>piikaroithiin</td></tr>
 <tr><td>nikkaroita+V+Act+Ind+Prt+Pl3</td><td>nikkaroithiin</td></tr>
-<tr><td>nikkaroiđa+V+Act+Ind+Prt+Pl3</td><td>nikkaroithiin</td></tr>
 <tr><td>voiđa+V+Act+Ind+Prt+Pl3</td><td>voithiin</td></tr>
 <tr><td>palavoita+V+Act+Ind+Prt+Pl3</td><td>palavoithiin</td></tr>
-<tr><td>palavoiđa+V+Act+Ind+Prt+Pl3</td><td>palavoithiin</td></tr>
 <tr><td>haravoita+V+Act+Ind+Prt+Pl3</td><td>haravoithiin</td></tr>
-<tr><td>haravoiđa+V+Act+Ind+Prt+Pl3</td><td>haravoithiin</td></tr>
 <tr><td>kraappiit+V+Act+Ind+Prt+Pl3</td><td>kraapithiin</td></tr>
 <tr><td>oppiit+V+Act+Ind+Prt+Pl3</td><td>opithiin</td></tr>
 <tr><td>hyppiit+V+Act+Ind+Prt+Pl3</td><td>hypithiin</td></tr>
@@ -1815,11 +1804,8 @@
 <tr><td>rykkiit+V+Act+Ind+Prt+Pl3</td><td>ryvithiin</td></tr>
 <tr><td>hävitä+V+Act+Ind+Prt+Pl3</td><td>hävithiin</td></tr>
 <tr><td>kävelöitä+V+Act+Ind+Prt+Pl3</td><td>kävelöithiin</td></tr>
-<tr><td>kävelöiđä+V+Act+Ind+Prt+Pl3</td><td>kävelöithiin</td></tr>
 <tr><td>elämöitä+V+Act+Ind+Prt+Pl3</td><td>elämöithiin</td></tr>
-<tr><td>elämöiđä+V+Act+Ind+Prt+Pl3</td><td>elämöithiin</td></tr>
 <tr><td>kinneröitä+V+Act+Ind+Prt+Pl3</td><td>kinneröithiin</td></tr>
-<tr><td>kinneröiđä+V+Act+Ind+Prt+Pl3</td><td>kinneröithiin</td></tr>
 <tr><td>vaattiit+V+Act+Ind+Prt+Pl3</td><td>vaađithiin</td></tr>
 <tr><td>märehtiit+V+Act+Ind+Prt+Pl3</td><td>märehđithiin</td></tr>
 <tr><td>kađehtiit+V+Act+Ind+Prt+Pl3</td><td>kađehđithiin</td></tr>
@@ -1950,7 +1936,6 @@
 <tr><td>luistela+V+Act+Ind+Prt+Pl3</td><td>luistelthiin</td></tr>
 <tr><td>muistela+V+Act+Ind+Prt+Pl3</td><td>muistelthiin</td></tr>
 <tr><td>polvistella+V+Act+Ind+Prt+Pl3</td><td>polvistelthiin</td></tr>
-<tr><td>hirvistella+V+Act+Ind+Prt+Pl3</td><td>hirvistelthiin</td></tr>
 <tr><td>hirvistellä+V+Act+Ind+Prt+Pl3</td><td>hirvistelthiin</td></tr>
 <tr><td>puhđistella+V+Act+Ind+Prt+Pl3</td><td>puhđistelthiin</td></tr>
 <tr><td>puđistela+V+Act+Ind+Prt+Pl3</td><td>puđistelthiin</td></tr>
@@ -2272,6 +2257,7 @@
 <tr><td>tippuut+V+Act+Ind+Prt+Pl3</td><td>tiputhiin</td></tr>
 <tr><td>pumputa+V+Act+Ind+Prt+Pl3</td><td>pumputhiin</td></tr>
 <tr><td>loppuut+V+Act+Ind+Prt+Pl3</td><td>loputhiin</td></tr>
+<tr><td>kerputa+V+Act+Ind+Prt+Pl3</td><td>kerputhiin</td></tr>
 <tr><td>kumarttuut+V+Act+Ind+Prt+Pl3</td><td>kumaruthiin</td></tr>
 <tr><td>parkkuut+V+Act+Ind+Prt+Pl3</td><td>paruthiin</td></tr>
 <tr><td>torruut+V+Act+Ind+Prt+Pl3</td><td>toruthiin</td></tr>
@@ -2354,7 +2340,6 @@
 <tr><td>saappuut+V+Act+Ind+Prt+Pl3</td><td>saavuthiin</td></tr>
 <tr><td>vaippuut+V+Act+Ind+Prt+Pl3</td><td>vaivuthiin</td></tr>
 <tr><td>luoppuut+V+Act+Ind+Prt+Pl3</td><td>luovuthiin</td></tr>
-<tr><td>kerputa+V+Act+Ind+Prt+Pl3</td><td>kervuthiin</td></tr>
 <tr><td>kaattuut+V+Act+Ind+Prt+Pl3</td><td>kaađuthiin</td></tr>
 <tr><td>maattuut+V+Act+Ind+Prt+Pl3</td><td>maađuthiin</td></tr>
 <tr><td>kattuut+V+Act+Ind+Prt+Pl3</td><td>kađuthiin</td></tr>

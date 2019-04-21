@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (maaliskuun 19. päivänä 2019, klo. 11:57)</title>  
+    <title>Generoidut muodot (huhtikuun 21. päivänä 2019, klo. 22:3)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -45,19 +45,8 @@
 <tr><td>nauha+N+Sg+Par</td><td>nauhaa</td></tr>
 <tr><td>kengännauha+N+Sg+Par</td><td>kengännauhaa</td></tr>
 <tr><td>rauha+N+Sg+Par</td><td>rauhaa</td></tr>
-<tr><td>meedia+N+Sg+Par</td><td>meediaa</td></tr>
 <tr><td>itaalia+N+Sg+Par</td><td>itaaliaa</td></tr>
-<tr><td>kunnia+N+Sg+Par</td><td>kunniaa</td></tr>
-<tr><td>lintukolonia+N+Sg+Par</td><td>lintukoloniaa</td></tr>
-<tr><td>pekuunia+N+Sg+Par</td><td>pekuuniaa</td></tr>
-<tr><td>galleria+N+Sg+Par</td><td>galleriaa</td></tr>
-<tr><td>ateria+N+Sg+Par</td><td>ateriaa</td></tr>
-<tr><td>histooria+N+Sg+Par</td><td>histooriaa</td></tr>
-<tr><td>alkuhistooria+N+Sg+Par</td><td>alkuhistooriaa</td></tr>
-<tr><td>psykiatria+N+Sg+Par</td><td>psykiatriaa</td></tr>
 <tr><td>asia+N+Sg+Par</td><td>asiaa</td></tr>
-<tr><td>haasia+N+Sg+Par</td><td>haasiaa</td></tr>
-<tr><td>talvihaasia+N+Sg+Par</td><td>talvihaasiaa</td></tr>
 <tr><td>pulettia+N+Sg+Par</td><td>pulettiaa</td></tr>
 <tr><td>murhaaja+N+Sg+Par</td><td>murhaajaa</td></tr>
 <tr><td>ohjaaja+N+Sg+Par</td><td>ohjaajaa</td></tr>
@@ -1303,6 +1292,7 @@
 <tr><td>syntymämaa+N+Sg+Par</td><td>syntymämaata</td></tr>
 <tr><td>heinämaa+N+Sg+Par</td><td>heinämaata</td></tr>
 <tr><td>työmaa+N+Sg+Par</td><td>työmaata</td></tr>
+<tr><td>meedia+N+Sg+Par</td><td>meediata</td></tr>
 <tr><td>spa+N+Sg+Par</td><td>spata</td></tr>
 <tr><td>valkkee+N+Sg+Par</td><td>valkkeeta</td></tr>
 <tr><td>ilmivalkkee+N+Sg+Par</td><td>ilmivalkkeeta</td></tr>
@@ -1334,17 +1324,27 @@
 <tr><td>jouttikarhii+N+Sg+Par</td><td>jouttikarhiita</td></tr>
 <tr><td>ahkii+N+Sg+Par</td><td>ahkiita</td></tr>
 <tr><td>kurkkii+N+Sg+Par</td><td>kurkkiita</td></tr>
+<tr><td>itaalii+N+Sg+Par</td><td>itaaliita</td></tr>
 <tr><td>ökonomii+N+Sg+Par</td><td>ökonomiita</td></tr>
 <tr><td>komppanii+N+Sg+Par</td><td>komppaniita</td></tr>
 <tr><td>rannii+N+Sg+Par</td><td>ranniita</td></tr>
+<tr><td>kunnii+N+Sg+Par</td><td>kunniita</td></tr>
+<tr><td>lintukolonii+N+Sg+Par</td><td>lintukoloniita</td></tr>
 <tr><td>harmonii+N+Sg+Par</td><td>harmoniita</td></tr>
 <tr><td>vokaaliharmonii+N+Sg+Par</td><td>vokaaliharmoniita</td></tr>
+<tr><td>pekuunii+N+Sg+Par</td><td>pekuuniita</td></tr>
 <tr><td>lappii+N+Sg+Par</td><td>lappiita</td></tr>
 <tr><td>hietalappii+N+Sg+Par</td><td>hietalappiita</td></tr>
 <tr><td>vuoppii+N+Sg+Par</td><td>vuoppiita</td></tr>
+<tr><td>gallerii+N+Sg+Par</td><td>galleriita</td></tr>
+<tr><td>aterii+N+Sg+Par</td><td>ateriita</td></tr>
 <tr><td>teorii+N+Sg+Par</td><td>teoriita</td></tr>
 <tr><td>kategorii+N+Sg+Par</td><td>kategoriita</td></tr>
+<tr><td>histoorii+N+Sg+Par</td><td>histooriita</td></tr>
+<tr><td>alkuhistoorii+N+Sg+Par</td><td>alkuhistooriita</td></tr>
+<tr><td>psykiatrii+N+Sg+Par</td><td>psykiatriita</td></tr>
 <tr><td>assii+N+Sg+Par</td><td>assiita</td></tr>
+<tr><td>talvihaassii+N+Sg+Par</td><td>talvihaassiita</td></tr>
 <tr><td>rassii+N+Sg+Par</td><td>rassiita</td></tr>
 <tr><td>pääassii+N+Sg+Par</td><td>pääassiita</td></tr>
 <tr><td>koheessii+N+Sg+Par</td><td>koheessiita</td></tr>
@@ -1355,6 +1355,7 @@
 <tr><td>maalaattii+N+Sg+Par</td><td>maalaattiita</td></tr>
 <tr><td>hietalaattii+N+Sg+Par</td><td>hietalaattiita</td></tr>
 <tr><td>lattii+N+Sg+Par</td><td>lattiita</td></tr>
+<tr><td>pulettii+N+Sg+Par</td><td>pulettiita</td></tr>
 <tr><td>kalttii+N+Sg+Par</td><td>kalttiita</td></tr>
 <tr><td>svoovelikalttii+N+Sg+Par</td><td>svoovelikalttiita</td></tr>
 <tr><td>harttii+N+Sg+Par</td><td>harttiita</td></tr>
@@ -2404,6 +2405,7 @@
 <tr><td>promenaadi+N+Sg+Par</td><td>promenaadii</td></tr>
 <tr><td>graadi+N+Sg+Par</td><td>graadii</td></tr>
 <tr><td>wadi+N+Sg+Par</td><td>wadii</td></tr>
+<tr><td>meedii+N+Sg+Par</td><td>meedii</td></tr>
 <tr><td>pyramidi+N+Sg+Par</td><td>pyramidii</td></tr>
 <tr><td>stipendi+N+Sg+Par</td><td>stipendii</td></tr>
 <tr><td>bändi+N+Sg+Par</td><td>bändii</td></tr>
@@ -3456,6 +3458,7 @@
 <tr><td>militääribaasi+N+Sg+Par</td><td>militääribaassii</td></tr>
 <tr><td>flyyibaasi+N+Sg+Par</td><td>flyyibaassii</td></tr>
 <tr><td>tutkimusbaasi+N+Sg+Par</td><td>tutkimusbaassii</td></tr>
+<tr><td>haassii+N+Sg+Par</td><td>haassii</td></tr>
 <tr><td>haasi+N+Sg+Par</td><td>haassii</td></tr>
 <tr><td>kymnaasi+N+Sg+Par</td><td>kymnaassii</td></tr>
 <tr><td>raasi+N+Sg+Par</td><td>raassii</td></tr>
@@ -3589,6 +3592,7 @@
 <tr><td>kolekti+N+Sg+Par</td><td>kolektii</td></tr>
 <tr><td>prošekti+N+Sg+Par</td><td>prošektii</td></tr>
 <tr><td>kieliteknologiaprošekti+N+Sg+Par</td><td>kieliteknologiaprošektii</td></tr>
+<tr><td>kieliteknologiiprošekti+N+Sg+Par</td><td>kieliteknologiiprošektii</td></tr>
 <tr><td>faakiprošekti+N+Sg+Par</td><td>faakiprošektii</td></tr>
 <tr><td>musikkiprošekti+N+Sg+Par</td><td>musikkiprošektii</td></tr>
 <tr><td>kieliprošekti+N+Sg+Par</td><td>kieliprošektii</td></tr>
