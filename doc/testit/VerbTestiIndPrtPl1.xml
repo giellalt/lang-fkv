@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (maaliskuun 19. päivänä 2019, klo. 12:16)</title>  
+    <title>Generoidut muodot (huhtikuun 21. päivänä 2019, klo. 22:3)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -14,6 +14,7 @@
 <tr><td>onkkiit+V+Act+Ind+Prt+Pl1</td><td>ongima</td></tr>
 <tr><td>kuohiit+V+Act+Ind+Prt+Pl1</td><td>kuohima</td></tr>
 <tr><td>hakkeet+V+Act+Ind+Prt+Pl1</td><td>hajima</td></tr>
+<tr><td>poikkiit+V+Act+Ind+Prt+Pl1</td><td>poijima</td></tr>
 <tr><td>polkkeet+V+Act+Ind+Prt+Pl1</td><td>poljima</td></tr>
 <tr><td>kulkkeet+V+Act+Ind+Prt+Pl1</td><td>kuljima</td></tr>
 <tr><td>sulkkeet+V+Act+Ind+Prt+Pl1</td><td>suljima</td></tr>
@@ -22,7 +23,6 @@
 <tr><td>naakkiit+V+Act+Ind+Prt+Pl1</td><td>naakima</td></tr>
 <tr><td>lakkiit+V+Act+Ind+Prt+Pl1</td><td>lakima</td></tr>
 <tr><td>joikkaat+V+Act+Ind+Prt+Pl1</td><td>joikima</td></tr>
-<tr><td>poikkiit+V+Act+Ind+Prt+Pl1</td><td>poikima</td></tr>
 <tr><td>palkkiit+V+Act+Ind+Prt+Pl1</td><td>palkima</td></tr>
 <tr><td>hankkiit+V+Act+Ind+Prt+Pl1</td><td>hankima</td></tr>
 <tr><td>kuokkiit+V+Act+Ind+Prt+Pl1</td><td>kuokima</td></tr>
@@ -1228,26 +1228,16 @@
 <tr><td>nostaat+V+Act+Ind+Prt+Pl1</td><td>nostima</td></tr>
 <tr><td>luostaat+V+Act+Ind+Prt+Pl1</td><td>luostima</td></tr>
 <tr><td>sivakoita+V+Act+Ind+Prt+Pl1</td><td>sivakoittima</td></tr>
-<tr><td>sivakoiđa+V+Act+Ind+Prt+Pl1</td><td>sivakoittima</td></tr>
 <tr><td>palmikoita+V+Act+Ind+Prt+Pl1</td><td>palmikoittima</td></tr>
-<tr><td>palmikoiđa+V+Act+Ind+Prt+Pl1</td><td>palmikoittima</td></tr>
 <tr><td>iloita+V+Act+Ind+Prt+Pl1</td><td>iloittima</td></tr>
 <tr><td>joutiloita+V+Act+Ind+Prt+Pl1</td><td>joutiloittima</td></tr>
-<tr><td>joutiloiđa+V+Act+Ind+Prt+Pl1</td><td>joutiloittima</td></tr>
 <tr><td>markkinoita+V+Act+Ind+Prt+Pl1</td><td>markkinoittima</td></tr>
-<tr><td>markkinoiđa+V+Act+Ind+Prt+Pl1</td><td>markkinoittima</td></tr>
 <tr><td>kiharoita+V+Act+Ind+Prt+Pl1</td><td>kiharoittima</td></tr>
-<tr><td>kiharoiđa+V+Act+Ind+Prt+Pl1</td><td>kiharoittima</td></tr>
 <tr><td>kiikaroita+V+Act+Ind+Prt+Pl1</td><td>kiikaroittima</td></tr>
-<tr><td>kiikaroiđa+V+Act+Ind+Prt+Pl1</td><td>kiikaroittima</td></tr>
 <tr><td>piikaroita+V+Act+Ind+Prt+Pl1</td><td>piikaroittima</td></tr>
-<tr><td>piikaroiđa+V+Act+Ind+Prt+Pl1</td><td>piikaroittima</td></tr>
 <tr><td>nikkaroita+V+Act+Ind+Prt+Pl1</td><td>nikkaroittima</td></tr>
-<tr><td>nikkaroiđa+V+Act+Ind+Prt+Pl1</td><td>nikkaroittima</td></tr>
 <tr><td>palavoita+V+Act+Ind+Prt+Pl1</td><td>palavoittima</td></tr>
-<tr><td>palavoiđa+V+Act+Ind+Prt+Pl1</td><td>palavoittima</td></tr>
 <tr><td>haravoita+V+Act+Ind+Prt+Pl1</td><td>haravoittima</td></tr>
-<tr><td>haravoiđa+V+Act+Ind+Prt+Pl1</td><td>haravoittima</td></tr>
 <tr><td>muuttaat+V+Act+Ind+Prt+Pl1</td><td>muutima</td></tr>
 <tr><td>uiđa+V+Act+Ind+Prt+Pl1</td><td>uima</td></tr>
 <tr><td>vinkkuut+V+Act+Ind+Prt+Pl1</td><td>vinguima</td></tr>
@@ -1459,6 +1449,7 @@
 <tr><td>kokata+V+Act+Ind+Prt+Pl1</td><td>kokkasimma</td></tr>
 <tr><td>plokata+V+Act+Ind+Prt+Pl1</td><td>plokkasimma</td></tr>
 <tr><td>mookata+V+Act+Ind+Prt+Pl1</td><td>mookkasimma</td></tr>
+<tr><td>huokata+V+Act+Ind+Prt+Pl1</td><td>huokkasimma</td></tr>
 <tr><td>muokata+V+Act+Ind+Prt+Pl1</td><td>muokkasimma</td></tr>
 <tr><td>kurkata+V+Act+Ind+Prt+Pl1</td><td>kurkkasimma</td></tr>
 <tr><td>laukata+V+Act+Ind+Prt+Pl1</td><td>laukkasimma</td></tr>
@@ -1472,7 +1463,6 @@
 <tr><td>rankaista+V+Act+Ind+Prt+Pl1</td><td>rankasimma</td></tr>
 <tr><td>hengata+V+Act+Ind+Prt+Pl1</td><td>henkasimma</td></tr>
 <tr><td>tingata+V+Act+Ind+Prt+Pl1</td><td>tinkasimma</td></tr>
-<tr><td>huokata+V+Act+Ind+Prt+Pl1</td><td>huokasimma</td></tr>
 <tr><td>huoata+V+Act+Ind+Prt+Pl1</td><td>huokasimma</td></tr>
 <tr><td>huokaista+V+Act+Ind+Prt+Pl1</td><td>huokasimma</td></tr>
 <tr><td>karata+V+Act+Ind+Prt+Pl1</td><td>karkasimma</td></tr>
@@ -1760,7 +1750,7 @@
 <tr><td>remuta+V+Act+Ind+Prt+Pl1</td><td>remusimma</td></tr>
 <tr><td>kirnuta+V+Act+Ind+Prt+Pl1</td><td>kirnusimma</td></tr>
 <tr><td>pumputa+V+Act+Ind+Prt+Pl1</td><td>pumppusimma</td></tr>
-<tr><td>kerputa+V+Act+Ind+Prt+Pl1</td><td>kerpusimma</td></tr>
+<tr><td>kerputa+V+Act+Ind+Prt+Pl1</td><td>kerppusimma</td></tr>
 <tr><td>juoruta+V+Act+Ind+Prt+Pl1</td><td>juorusimma</td></tr>
 <tr><td>kasuta+V+Act+Ind+Prt+Pl1</td><td>kasusimma</td></tr>
 <tr><td>pursuta+V+Act+Ind+Prt+Pl1</td><td>pursusimma</td></tr>
@@ -1839,7 +1829,6 @@
 <tr><td>tuijottaat+V+Act+Ind+Prt+Pl1</td><td>tuijotimma</td></tr>
 <tr><td>harjottaat+V+Act+Ind+Prt+Pl1</td><td>harjotimma</td></tr>
 <tr><td>kirjoittaat+V+Act+Ind+Prt+Pl1</td><td>kirjotimma</td></tr>
-<tr><td>kirjottaat+V+Act+Ind+Prt+Pl1</td><td>kirjotimma</td></tr>
 <tr><td>pakottaat+V+Act+Ind+Prt+Pl1</td><td>pakotimma</td></tr>
 <tr><td>sekottaat+V+Act+Ind+Prt+Pl1</td><td>sekotimma</td></tr>
 <tr><td>laikottaat+V+Act+Ind+Prt+Pl1</td><td>laikotimma</td></tr>
@@ -2078,12 +2067,13 @@
 <tr><td>vieđä+V+Act+Ind+Prt+Pl1</td><td>veimä</td></tr>
 <tr><td>henkkiit+V+Act+Ind+Prt+Pl1</td><td>hengimä</td></tr>
 <tr><td>tehđä+V+Act+Ind+Prt+Pl1</td><td>tehimä</td></tr>
+<tr><td>vihkiit+V+Act+Ind+Prt+Pl1</td><td>vihimä</td></tr>
+<tr><td>pyhkiit+V+Act+Ind+Prt+Pl1</td><td>pyhimä</td></tr>
 <tr><td>nylkkeet+V+Act+Ind+Prt+Pl1</td><td>nyljimä</td></tr>
 <tr><td>sylkkeet+V+Act+Ind+Prt+Pl1</td><td>syljimä</td></tr>
 <tr><td>särkkeet+V+Act+Ind+Prt+Pl1</td><td>särjimä</td></tr>
 <tr><td>nähđä+V+Act+Ind+Prt+Pl1</td><td>näjimä</td></tr>
-<tr><td>vihkiit+V+Act+Ind+Prt+Pl1</td><td>vihkimä</td></tr>
-<tr><td>pyhkiit+V+Act+Ind+Prt+Pl1</td><td>pyhkimä</td></tr>
+<tr><td>määkkiit+V+Act+Ind+Prt+Pl1</td><td>määjimä</td></tr>
 <tr><td>leikkiit+V+Act+Ind+Prt+Pl1</td><td>leikimä</td></tr>
 <tr><td>härkkiit+V+Act+Ind+Prt+Pl1</td><td>härkimä</td></tr>
 <tr><td>märkkiit+V+Act+Ind+Prt+Pl1</td><td>märkimä</td></tr>
@@ -2093,7 +2083,6 @@
 <tr><td>käskeet+V+Act+Ind+Prt+Pl1</td><td>käskimä</td></tr>
 <tr><td>itkeet+V+Act+Ind+Prt+Pl1</td><td>itkimä</td></tr>
 <tr><td>kätkeet+V+Act+Ind+Prt+Pl1</td><td>kätkimä</td></tr>
-<tr><td>määkkiit+V+Act+Ind+Prt+Pl1</td><td>määkimä</td></tr>
 <tr><td>elläät+V+Act+Ind+Prt+Pl1</td><td>elimä</td></tr>
 <tr><td>nielä+V+Act+Ind+Prt+Pl1</td><td>nielimä</td></tr>
 <tr><td>teheskellä+V+Act+Ind+Prt+Pl1</td><td>teheskelimä</td></tr>
@@ -2109,7 +2098,6 @@
 <tr><td>miehistellä+V+Act+Ind+Prt+Pl1</td><td>miehistelimä</td></tr>
 <tr><td>hyyristellä+V+Act+Ind+Prt+Pl1</td><td>hyyristelimä</td></tr>
 <tr><td>höristellä+V+Act+Ind+Prt+Pl1</td><td>höristelimä</td></tr>
-<tr><td>hirvistella+V+Act+Ind+Prt+Pl1</td><td>hirvistelimä</td></tr>
 <tr><td>hirvistellä+V+Act+Ind+Prt+Pl1</td><td>hirvistelimä</td></tr>
 <tr><td>pyllystellä+V+Act+Ind+Prt+Pl1</td><td>pyllystelimä</td></tr>
 <tr><td>kylästellä+V+Act+Ind+Prt+Pl1</td><td>kylästelimä</td></tr>
@@ -2181,11 +2169,8 @@
 <tr><td>päästäät+V+Act+Ind+Prt+Pl1</td><td>päästimä</td></tr>
 <tr><td>säästäät+V+Act+Ind+Prt+Pl1</td><td>säästimä</td></tr>
 <tr><td>kävelöitä+V+Act+Ind+Prt+Pl1</td><td>kävelöittimä</td></tr>
-<tr><td>kävelöiđä+V+Act+Ind+Prt+Pl1</td><td>kävelöittimä</td></tr>
 <tr><td>elämöitä+V+Act+Ind+Prt+Pl1</td><td>elämöittimä</td></tr>
-<tr><td>elämöiđä+V+Act+Ind+Prt+Pl1</td><td>elämöittimä</td></tr>
 <tr><td>kinneröitä+V+Act+Ind+Prt+Pl1</td><td>kinneröittimä</td></tr>
-<tr><td>kinneröiđä+V+Act+Ind+Prt+Pl1</td><td>kinneröittimä</td></tr>
 <tr><td>lähđetyttäät+V+Act+Ind+Prt+Pl1</td><td>lähđetytimä</td></tr>
 <tr><td>käyttäät+V+Act+Ind+Prt+Pl1</td><td>käytimä</td></tr>
 <tr><td>näyttäät+V+Act+Ind+Prt+Pl1</td><td>näytimä</td></tr>
