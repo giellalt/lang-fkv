@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (maaliskuun 19. päivänä 2019, klo. 12:16)</title>  
+    <title>Generoidut muodot (huhtikuun 21. päivänä 2019, klo. 22:3)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -15,8 +15,11 @@
 <tr><td>henkkiit+V+Act+Ind+Prt+Sg1</td><td>hengin</td></tr>
 <tr><td>onkkiit+V+Act+Ind+Prt+Sg1</td><td>ongin</td></tr>
 <tr><td>tehđä+V+Act+Ind+Prt+Sg1</td><td>tehin</td></tr>
+<tr><td>vihkiit+V+Act+Ind+Prt+Sg1</td><td>vihin</td></tr>
 <tr><td>kuohiit+V+Act+Ind+Prt+Sg1</td><td>kuohin</td></tr>
+<tr><td>pyhkiit+V+Act+Ind+Prt+Sg1</td><td>pyhin</td></tr>
 <tr><td>hakkeet+V+Act+Ind+Prt+Sg1</td><td>hajin</td></tr>
+<tr><td>poikkiit+V+Act+Ind+Prt+Sg1</td><td>poijin</td></tr>
 <tr><td>polkkeet+V+Act+Ind+Prt+Sg1</td><td>poljin</td></tr>
 <tr><td>kulkkeet+V+Act+Ind+Prt+Sg1</td><td>kuljin</td></tr>
 <tr><td>sulkkeet+V+Act+Ind+Prt+Sg1</td><td>suljin</td></tr>
@@ -26,13 +29,11 @@
 <tr><td>särkkeet+V+Act+Ind+Prt+Sg1</td><td>särjin</td></tr>
 <tr><td>lukkeet+V+Act+Ind+Prt+Sg1</td><td>lujin</td></tr>
 <tr><td>nähđä+V+Act+Ind+Prt+Sg1</td><td>näjin</td></tr>
+<tr><td>määkkiit+V+Act+Ind+Prt+Sg1</td><td>määjin</td></tr>
 <tr><td>naakkiit+V+Act+Ind+Prt+Sg1</td><td>naakin</td></tr>
 <tr><td>lakkiit+V+Act+Ind+Prt+Sg1</td><td>lakin</td></tr>
-<tr><td>vihkiit+V+Act+Ind+Prt+Sg1</td><td>vihkin</td></tr>
-<tr><td>pyhkiit+V+Act+Ind+Prt+Sg1</td><td>pyhkin</td></tr>
 <tr><td>leikkiit+V+Act+Ind+Prt+Sg1</td><td>leikin</td></tr>
 <tr><td>joikkaat+V+Act+Ind+Prt+Sg1</td><td>joikin</td></tr>
-<tr><td>poikkiit+V+Act+Ind+Prt+Sg1</td><td>poikin</td></tr>
 <tr><td>palkkiit+V+Act+Ind+Prt+Sg1</td><td>palkin</td></tr>
 <tr><td>hankkiit+V+Act+Ind+Prt+Sg1</td><td>hankin</td></tr>
 <tr><td>kuokkiit+V+Act+Ind+Prt+Sg1</td><td>kuokin</td></tr>
@@ -58,7 +59,6 @@
 <tr><td>kätkeet+V+Act+Ind+Prt+Sg1</td><td>kätkin</td></tr>
 <tr><td>kukkiit+V+Act+Ind+Prt+Sg1</td><td>kukin</td></tr>
 <tr><td>tukkiit+V+Act+Ind+Prt+Sg1</td><td>tukin</td></tr>
-<tr><td>määkkiit+V+Act+Ind+Prt+Sg1</td><td>määkin</td></tr>
 <tr><td>elläät+V+Act+Ind+Prt+Sg1</td><td>elin</td></tr>
 <tr><td>puhela+V+Act+Ind+Prt+Sg1</td><td>puhelin</td></tr>
 <tr><td>nielä+V+Act+Ind+Prt+Sg1</td><td>nielin</td></tr>
@@ -145,7 +145,6 @@
 <tr><td>luistela+V+Act+Ind+Prt+Sg1</td><td>luistelin</td></tr>
 <tr><td>muistela+V+Act+Ind+Prt+Sg1</td><td>muistelin</td></tr>
 <tr><td>polvistella+V+Act+Ind+Prt+Sg1</td><td>polvistelin</td></tr>
-<tr><td>hirvistella+V+Act+Ind+Prt+Sg1</td><td>hirvistelin</td></tr>
 <tr><td>hirvistellä+V+Act+Ind+Prt+Sg1</td><td>hirvistelin</td></tr>
 <tr><td>puhđistella+V+Act+Ind+Prt+Sg1</td><td>puhđistelin</td></tr>
 <tr><td>puđistela+V+Act+Ind+Prt+Sg1</td><td>puđistelin</td></tr>
@@ -457,6 +456,7 @@
 <tr><td>kokata+V+Act+Ind+Prt+Sg1</td><td>kokkasin</td></tr>
 <tr><td>plokata+V+Act+Ind+Prt+Sg1</td><td>plokkasin</td></tr>
 <tr><td>mookata+V+Act+Ind+Prt+Sg1</td><td>mookkasin</td></tr>
+<tr><td>huokata+V+Act+Ind+Prt+Sg1</td><td>huokkasin</td></tr>
 <tr><td>muokata+V+Act+Ind+Prt+Sg1</td><td>muokkasin</td></tr>
 <tr><td>kurkata+V+Act+Ind+Prt+Sg1</td><td>kurkkasin</td></tr>
 <tr><td>laukata+V+Act+Ind+Prt+Sg1</td><td>laukkasin</td></tr>
@@ -470,7 +470,6 @@
 <tr><td>rankaista+V+Act+Ind+Prt+Sg1</td><td>rankasin</td></tr>
 <tr><td>hengata+V+Act+Ind+Prt+Sg1</td><td>henkasin</td></tr>
 <tr><td>tingata+V+Act+Ind+Prt+Sg1</td><td>tinkasin</td></tr>
-<tr><td>huokata+V+Act+Ind+Prt+Sg1</td><td>huokasin</td></tr>
 <tr><td>huoata+V+Act+Ind+Prt+Sg1</td><td>huokasin</td></tr>
 <tr><td>huokaista+V+Act+Ind+Prt+Sg1</td><td>huokasin</td></tr>
 <tr><td>karata+V+Act+Ind+Prt+Sg1</td><td>karkasin</td></tr>
@@ -1768,7 +1767,7 @@
 <tr><td>kirnuta+V+Act+Ind+Prt+Sg1</td><td>kirnusin</td></tr>
 <tr><td>nousta+V+Act+Ind+Prt+Sg1</td><td>nousin</td></tr>
 <tr><td>pumputa+V+Act+Ind+Prt+Sg1</td><td>pumppusin</td></tr>
-<tr><td>kerputa+V+Act+Ind+Prt+Sg1</td><td>kerpusin</td></tr>
+<tr><td>kerputa+V+Act+Ind+Prt+Sg1</td><td>kerppusin</td></tr>
 <tr><td>juoruta+V+Act+Ind+Prt+Sg1</td><td>juorusin</td></tr>
 <tr><td>kasuta+V+Act+Ind+Prt+Sg1</td><td>kasusin</td></tr>
 <tr><td>pursuta+V+Act+Ind+Prt+Sg1</td><td>pursusin</td></tr>
@@ -1963,7 +1962,6 @@
 <tr><td>tuijottaat+V+Act+Ind+Prt+Sg1</td><td>tuijotin</td></tr>
 <tr><td>harjottaat+V+Act+Ind+Prt+Sg1</td><td>harjotin</td></tr>
 <tr><td>kirjoittaat+V+Act+Ind+Prt+Sg1</td><td>kirjotin</td></tr>
-<tr><td>kirjottaat+V+Act+Ind+Prt+Sg1</td><td>kirjotin</td></tr>
 <tr><td>pakottaat+V+Act+Ind+Prt+Sg1</td><td>pakotin</td></tr>
 <tr><td>sekottaat+V+Act+Ind+Prt+Sg1</td><td>sekotin</td></tr>
 <tr><td>laikottaat+V+Act+Ind+Prt+Sg1</td><td>laikotin</td></tr>
@@ -2105,26 +2103,16 @@
 <tr><td>mainita+V+Act+Ind+Prt+Sg1</td><td>mainittin</td></tr>
 <tr><td>punnita+V+Act+Ind+Prt+Sg1</td><td>punnittin</td></tr>
 <tr><td>sivakoita+V+Act+Ind+Prt+Sg1</td><td>sivakoittin</td></tr>
-<tr><td>sivakoiđa+V+Act+Ind+Prt+Sg1</td><td>sivakoittin</td></tr>
 <tr><td>palmikoita+V+Act+Ind+Prt+Sg1</td><td>palmikoittin</td></tr>
-<tr><td>palmikoiđa+V+Act+Ind+Prt+Sg1</td><td>palmikoittin</td></tr>
 <tr><td>iloita+V+Act+Ind+Prt+Sg1</td><td>iloittin</td></tr>
 <tr><td>joutiloita+V+Act+Ind+Prt+Sg1</td><td>joutiloittin</td></tr>
-<tr><td>joutiloiđa+V+Act+Ind+Prt+Sg1</td><td>joutiloittin</td></tr>
 <tr><td>markkinoita+V+Act+Ind+Prt+Sg1</td><td>markkinoittin</td></tr>
-<tr><td>markkinoiđa+V+Act+Ind+Prt+Sg1</td><td>markkinoittin</td></tr>
 <tr><td>kiharoita+V+Act+Ind+Prt+Sg1</td><td>kiharoittin</td></tr>
-<tr><td>kiharoiđa+V+Act+Ind+Prt+Sg1</td><td>kiharoittin</td></tr>
 <tr><td>kiikaroita+V+Act+Ind+Prt+Sg1</td><td>kiikaroittin</td></tr>
-<tr><td>kiikaroiđa+V+Act+Ind+Prt+Sg1</td><td>kiikaroittin</td></tr>
 <tr><td>piikaroita+V+Act+Ind+Prt+Sg1</td><td>piikaroittin</td></tr>
-<tr><td>piikaroiđa+V+Act+Ind+Prt+Sg1</td><td>piikaroittin</td></tr>
 <tr><td>nikkaroita+V+Act+Ind+Prt+Sg1</td><td>nikkaroittin</td></tr>
-<tr><td>nikkaroiđa+V+Act+Ind+Prt+Sg1</td><td>nikkaroittin</td></tr>
 <tr><td>palavoita+V+Act+Ind+Prt+Sg1</td><td>palavoittin</td></tr>
-<tr><td>palavoiđa+V+Act+Ind+Prt+Sg1</td><td>palavoittin</td></tr>
 <tr><td>haravoita+V+Act+Ind+Prt+Sg1</td><td>haravoittin</td></tr>
-<tr><td>haravoiđa+V+Act+Ind+Prt+Sg1</td><td>haravoittin</td></tr>
 <tr><td>vieritä+V+Act+Ind+Prt+Sg1</td><td>vierittin</td></tr>
 <tr><td>häiritä+V+Act+Ind+Prt+Sg1</td><td>häirittin</td></tr>
 <tr><td>praatita+V+Act+Ind+Prt+Sg1</td><td>praatittin</td></tr>
@@ -2134,11 +2122,8 @@
 <tr><td>siivitä+V+Act+Ind+Prt+Sg1</td><td>siivittin</td></tr>
 <tr><td>tarvita+V+Act+Ind+Prt+Sg1</td><td>tarvittin</td></tr>
 <tr><td>kävelöitä+V+Act+Ind+Prt+Sg1</td><td>kävelöittin</td></tr>
-<tr><td>kävelöiđä+V+Act+Ind+Prt+Sg1</td><td>kävelöittin</td></tr>
 <tr><td>elämöitä+V+Act+Ind+Prt+Sg1</td><td>elämöittin</td></tr>
-<tr><td>elämöiđä+V+Act+Ind+Prt+Sg1</td><td>elämöittin</td></tr>
 <tr><td>kinneröitä+V+Act+Ind+Prt+Sg1</td><td>kinneröittin</td></tr>
-<tr><td>kinneröiđä+V+Act+Ind+Prt+Sg1</td><td>kinneröittin</td></tr>
 <tr><td>vaphauttaat+V+Act+Ind+Prt+Sg1</td><td>vaphautin</td></tr>
 <tr><td>laihuttaat+V+Act+Ind+Prt+Sg1</td><td>laihutin</td></tr>
 <tr><td>suijuttaat+V+Act+Ind+Prt+Sg1</td><td>suijutin</td></tr>

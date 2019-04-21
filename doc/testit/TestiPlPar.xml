@@ -2,13 +2,14 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (maaliskuun 19. päivänä 2019, klo. 11:58)</title>  
+    <title>Generoidut muodot (huhtikuun 21. päivänä 2019, klo. 22:3)</title>  
   </header> 
   <body>	  
     <section><title/>  
 <table>
 <tr><td>+N+Pl+Par</td><td>+N+Pl+Par</td></tr>
 <tr><td>kuutama+N+Pl+Par</td><td>kuutama+N+Pl+Par</td></tr>
+<tr><td>meedia+N+Pl+Par</td><td>meediata</td></tr>
 <tr><td>kauppias+N+Pl+Par</td><td>kauppihaita</td></tr>
 <tr><td>taskukauppias+N+Pl+Par</td><td>taskukauppihaita</td></tr>
 <tr><td>rakas+N+Pl+Par</td><td>rakkhaita</td></tr>
@@ -439,6 +440,7 @@
 <tr><td>sentraali+N+Pl+Par</td><td>sentraaliita</td></tr>
 <tr><td>apuneuvosentraali+N+Pl+Par</td><td>apuneuvosentraaliita</td></tr>
 <tr><td>pluraali+N+Pl+Par</td><td>pluraaliita</td></tr>
+<tr><td>itaalii+N+Pl+Par</td><td>itaaliita</td></tr>
 <tr><td>portaali+N+Pl+Par</td><td>portaaliita</td></tr>
 <tr><td>manttaali+N+Pl+Par</td><td>manttaaliita</td></tr>
 <tr><td>sammal+N+Pl+Par</td><td>sammaliita</td></tr>
@@ -601,6 +603,7 @@
 <tr><td>engelsmanni+N+Pl+Par</td><td>engelsmanniita</td></tr>
 <tr><td>rannii+N+Pl+Par</td><td>ranniita</td></tr>
 <tr><td>nyylonni+N+Pl+Par</td><td>nyylonniita</td></tr>
+<tr><td>kunnii+N+Pl+Par</td><td>kunniita</td></tr>
 <tr><td>organisasioni+N+Pl+Par</td><td>organisasioniita</td></tr>
 <tr><td>permisioni+N+Pl+Par</td><td>permisioniita</td></tr>
 <tr><td>fiction+N+Pl+Par</td><td>fictioniita</td></tr>
@@ -608,6 +611,7 @@
 <tr><td>aikaleksikoni+N+Pl+Par</td><td>aikaleksikoniita</td></tr>
 <tr><td>digitaalileksikoni+N+Pl+Par</td><td>digitaalileksikoniita</td></tr>
 <tr><td>peikkoni+N+Pl+Par</td><td>peikkoniita</td></tr>
+<tr><td>lintukolonii+N+Pl+Par</td><td>lintukoloniita</td></tr>
 <tr><td>mammona+N+Pl+Par</td><td>mammoniita</td></tr>
 <tr><td>harmonii+N+Pl+Par</td><td>harmoniita</td></tr>
 <tr><td>vokaaliharmonii+N+Pl+Par</td><td>vokaaliharmoniita</td></tr>
@@ -619,6 +623,7 @@
 <tr><td>devoni+N+Pl+Par</td><td>devoniita</td></tr>
 <tr><td>laguuni+N+Pl+Par</td><td>laguuniita</td></tr>
 <tr><td>rekiuuni+N+Pl+Par</td><td>rekiuuniita</td></tr>
+<tr><td>pekuunii+N+Pl+Par</td><td>pekuuniita</td></tr>
 <tr><td>komuuni+N+Pl+Par</td><td>komuuniita</td></tr>
 <tr><td>fylkinkomuuni+N+Pl+Par</td><td>fylkinkomuuniita</td></tr>
 <tr><td>kanuuni+N+Pl+Par</td><td>kanuuniita</td></tr>
@@ -776,6 +781,7 @@
 <tr><td>sokkeri+N+Pl+Par</td><td>sokkeriita</td></tr>
 <tr><td>holkeri+N+Pl+Par</td><td>holkeriita</td></tr>
 <tr><td>suokeri+N+Pl+Par</td><td>suokeriita</td></tr>
+<tr><td>gallerii+N+Pl+Par</td><td>galleriita</td></tr>
 <tr><td>hummeri+N+Pl+Par</td><td>hummeriita</td></tr>
 <tr><td>indiaaneri+N+Pl+Par</td><td>indiaaneriita</td></tr>
 <tr><td>paperi+N+Pl+Par</td><td>paperiita</td></tr>
@@ -783,6 +789,7 @@
 <tr><td>voipaperi+N+Pl+Par</td><td>voipaperiita</td></tr>
 <tr><td>novemperi+N+Pl+Par</td><td>novemperiita</td></tr>
 <tr><td>oktooperi+N+Pl+Par</td><td>oktooperiita</td></tr>
+<tr><td>aterii+N+Pl+Par</td><td>ateriita</td></tr>
 <tr><td>kraateri+N+Pl+Par</td><td>kraateriita</td></tr>
 <tr><td>materi+N+Pl+Par</td><td>materiita</td></tr>
 <tr><td>kalenteri+N+Pl+Par</td><td>kalenteriita</td></tr>
@@ -807,6 +814,8 @@
 <tr><td>kategorii+N+Pl+Par</td><td>kategoriita</td></tr>
 <tr><td>kalori+N+Pl+Par</td><td>kaloriita</td></tr>
 <tr><td>professoori+N+Pl+Par</td><td>professooriita</td></tr>
+<tr><td>histoorii+N+Pl+Par</td><td>histooriita</td></tr>
+<tr><td>alkuhistoorii+N+Pl+Par</td><td>alkuhistooriita</td></tr>
 <tr><td>professori+N+Pl+Par</td><td>professoriita</td></tr>
 <tr><td>tohtori+N+Pl+Par</td><td>tohtoriita</td></tr>
 <tr><td>elläintohtori+N+Pl+Par</td><td>elläintohtoriita</td></tr>
@@ -823,6 +832,7 @@
 <tr><td>postikonttori+N+Pl+Par</td><td>postikonttoriita</td></tr>
 <tr><td>työtelykonttori+N+Pl+Par</td><td>työtelykonttoriita</td></tr>
 <tr><td>äyskarri+N+Pl+Par</td><td>äyskarriita</td></tr>
+<tr><td>psykiatrii+N+Pl+Par</td><td>psykiatriita</td></tr>
 <tr><td>majuri+N+Pl+Par</td><td>majuriita</td></tr>
 <tr><td>kaakkuri+N+Pl+Par</td><td>kaakkuriita</td></tr>
 <tr><td>ankkuri+N+Pl+Par</td><td>ankkuriita</td></tr>
@@ -1176,6 +1186,8 @@
 <tr><td>tavus+N+Pl+Par</td><td>tavuksiita</td></tr>
 <tr><td>vaivus+N+Pl+Par</td><td>vaivuksiita</td></tr>
 <tr><td>assii+N+Pl+Par</td><td>assiita</td></tr>
+<tr><td>haassii+N+Pl+Par</td><td>haassiita</td></tr>
+<tr><td>talvihaassii+N+Pl+Par</td><td>talvihaassiita</td></tr>
 <tr><td>kymnaasi+N+Pl+Par</td><td>kymnaassiita</td></tr>
 <tr><td>karaasi+N+Pl+Par</td><td>karaassiita</td></tr>
 <tr><td>joukhanen+N+Pl+Par</td><td>joukhassiita</td></tr>
@@ -1426,6 +1438,7 @@
 <tr><td>kolekti+N+Pl+Par</td><td>kolektiita</td></tr>
 <tr><td>prošekti+N+Pl+Par</td><td>prošektiita</td></tr>
 <tr><td>kieliteknologiaprošekti+N+Pl+Par</td><td>kieliteknologiaprošektiita</td></tr>
+<tr><td>kieliteknologiiprošekti+N+Pl+Par</td><td>kieliteknologiiprošektiita</td></tr>
 <tr><td>faakiprošekti+N+Pl+Par</td><td>faakiprošektiita</td></tr>
 <tr><td>musikkiprošekti+N+Pl+Par</td><td>musikkiprošektiita</td></tr>
 <tr><td>kieliprošekti+N+Pl+Par</td><td>kieliprošektiita</td></tr>
@@ -1492,6 +1505,7 @@
 <tr><td>poteetti+N+Pl+Par</td><td>poteettiita</td></tr>
 <tr><td>majesteetti+N+Pl+Par</td><td>majesteettiita</td></tr>
 <tr><td>kylvöputeetti+N+Pl+Par</td><td>kylvöputeettiita</td></tr>
+<tr><td>pulettii+N+Pl+Par</td><td>pulettiita</td></tr>
 <tr><td>planetti+N+Pl+Par</td><td>planettiita</td></tr>
 <tr><td>trumpetti+N+Pl+Par</td><td>trumpettiita</td></tr>
 <tr><td>asetti+N+Pl+Par</td><td>asettiita</td></tr>
@@ -1588,7 +1602,6 @@
 <tr><td>moskea+N+Pl+Par</td><td>moskeoita</td></tr>
 <tr><td>komitea+N+Pl+Par</td><td>komiteoita</td></tr>
 <tr><td>eksperttikomitea+N+Pl+Par</td><td>eksperttikomiteoita</td></tr>
-<tr><td>meedia+N+Pl+Par</td><td>meedioita</td></tr>
 <tr><td>ahkio+N+Pl+Par</td><td>ahkioita</td></tr>
 <tr><td>palkkio+N+Pl+Par</td><td>palkkioita</td></tr>
 <tr><td>kurkkio+N+Pl+Par</td><td>kurkkioita</td></tr>
@@ -1598,20 +1611,10 @@
 <tr><td>karikallio+N+Pl+Par</td><td>karikallioita</td></tr>
 <tr><td>tuomio+N+Pl+Par</td><td>tuomioita</td></tr>
 <tr><td>vainio+N+Pl+Par</td><td>vainioita</td></tr>
-<tr><td>kunnia+N+Pl+Par</td><td>kunnioita</td></tr>
-<tr><td>lintukolonia+N+Pl+Par</td><td>lintukolonioita</td></tr>
 <tr><td>raunio+N+Pl+Par</td><td>raunioita</td></tr>
-<tr><td>pekuunia+N+Pl+Par</td><td>pekuunioita</td></tr>
 <tr><td>vuopio+N+Pl+Par</td><td>vuopioita</td></tr>
-<tr><td>galleria+N+Pl+Par</td><td>gallerioita</td></tr>
-<tr><td>ateria+N+Pl+Par</td><td>aterioita</td></tr>
-<tr><td>histooria+N+Pl+Par</td><td>histoorioita</td></tr>
-<tr><td>alkuhistooria+N+Pl+Par</td><td>alkuhistoorioita</td></tr>
 <tr><td>territorio+N+Pl+Par</td><td>territorioita</td></tr>
-<tr><td>psykiatria+N+Pl+Par</td><td>psykiatrioita</td></tr>
 <tr><td>asia+N+Pl+Par</td><td>asioita</td></tr>
-<tr><td>haasia+N+Pl+Par</td><td>haasioita</td></tr>
-<tr><td>talvihaasia+N+Pl+Par</td><td>talvihaasioita</td></tr>
 <tr><td>anssio+N+Pl+Par</td><td>anssioita</td></tr>
 <tr><td>raatio+N+Pl+Par</td><td>raatioita</td></tr>
 <tr><td>valtio+N+Pl+Par</td><td>valtioita</td></tr>
@@ -1839,9 +1842,9 @@
 <tr><td>navetta+N+Pl+Par</td><td>navetoita</td></tr>
 <tr><td>lammasnavetta+N+Pl+Par</td><td>lammasnavetoita</td></tr>
 <tr><td>kesänavetta+N+Pl+Par</td><td>kesänavetoita</td></tr>
-<tr><td>karitta+N+Pl+Par</td><td>karitoita</td></tr>
 <tr><td>putkisto+N+Pl+Par</td><td>putkistoita</td></tr>
 <tr><td>verkosto+N+Pl+Par</td><td>verkostoita</td></tr>
+<tr><td>karitta+N+Pl+Par</td><td>karittoita</td></tr>
 <tr><td>kajuutta+N+Pl+Par</td><td>kajuutoita</td></tr>
 <tr><td>voi+N+Pl+Par</td><td>voita</td></tr>
 <tr><td>sulavoi+N+Pl+Par</td><td>sulavoita</td></tr>
@@ -6123,6 +6126,7 @@
 <tr><td>oistotie+N+Pl+Par</td><td>oistoteitä</td></tr>
 <tr><td>porrastie+N+Pl+Par</td><td>porrasteitä</td></tr>
 <tr><td>teevee+N+Pl+Par</td><td>teeveitä</td></tr>
+<tr><td>meedii+N+Pl+Par</td><td>meediitä</td></tr>
 <tr><td>stipendi+N+Pl+Par</td><td>stipendiitä</td></tr>
 <tr><td>venäjä+N+Pl+Par</td><td>venäjiitä</td></tr>
 <tr><td>veräjä+N+Pl+Par</td><td>veräjiitä</td></tr>
