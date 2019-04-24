@@ -371,7 +371,7 @@ LEXICON NUM_KOLME
 0:e     NUM_BACK_NOMINATIVE  ;
 0:he    NUM_BACK_ILLATIVE_EN    ;
 0:e     NUM_BACK_SINGULARS  ;
-0:e     NUM_BACK_PARTITIVE_A_AN ;
+0:e     NUM_FRONT_PARTITIVE_E ;
 0       NUM_BACK_PARTITIVE_II ;
 0       NUM_BACK_GENITIVE_IIN ;
 0       NUM_BACK_ILLATIVE_HIIN ;
@@ -391,7 +391,7 @@ LEXICON NUM_NELJÄ
 !!€ neljissä: nelje+Num+Pl+Ine
 !!€ neljäin: nelje+Num+Pl+Gen+Use/Rare ! (Ei ole olemassa kveeniksi) 
 0:e  NUM_FRONT_NOMINATIVE ;
-0:e  NUM_FRONT_PARTITIVE_Ä    ;
+0:e  NUM_FRONT_PARTITIVE_E   ;
 0:he NUM_FRONT_ILLATIVE_ÄN    ;
 0:e  NUM_FRONT_GENITIVE_IN    ;
 0:e  NUM_FRONT_SINGULARS   ;
