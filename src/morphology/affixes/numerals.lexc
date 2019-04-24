@@ -207,6 +207,9 @@ LEXICON NUM_BACK_PARTITIVE_IA
 !!€ kaksia: kaksi+Num+Card+Pl+Par
 +Pl+Par:%>i%>a    NUM_BACK_POSS_AN_OPT      ;
 
+LEXICON NUM_BACK_PARTITIVE_II
++Pl+Par:%>i%>i    NUM_BACK_POSS_AN_OPT      ;
+
 LEXICON NUM_FRONT_PARTITIVE_IÄ
 !!€gt-norm: Numeral plural partitive iä
 !!€ neljiä: neljä+Num+Card+Pl+Par
@@ -222,6 +225,10 @@ LEXICON NUM_BACK_GENITIVE_IEN
 !!€ kaksien: kaksi+Num+Card+Pl+Gen
 +Pl+Gen:%>i%>en   #     ;
 +Pl+Gen:%>i%>e    NUM_BACK_POSS     ;
+
+LEXICON NUM_BACK_GENITIVE_IIN
++Pl+Gen:%>i%>in   #     ;
++Pl+Gen:%>i%>i    NUM_BACK_POSS     ;
 
 LEXICON NUM_FRONT_GENITIVE_IEN
 !!€gt-norm: Numeral plural genitive ien front
