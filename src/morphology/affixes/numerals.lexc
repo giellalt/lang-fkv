@@ -215,6 +215,10 @@ LEXICON NUM_FRONT_PARTITIVE_IÄ
 !!€ neljiä: neljä+Num+Card+Pl+Par
 +Pl+Par:%>i%>ä    NUM_FRONT_POSS_ÄN_OPT      ;
 
+LEXICON NUM_FRONT_PARTITIVE_II
++Pl+Par:%>i%>i    NUM_FRONT_POSS_ÄN_OPT      ;
+
+
 LEXICON NUM_BACK_PARTITIVE_JA
 !!€gt-norm: Numeral plural partitive ja
 !!€ miljardeja: miljardi+Num+Card+Pl+Par
@@ -235,6 +239,10 @@ LEXICON NUM_FRONT_GENITIVE_IEN
 !!€ yksien: yksi+Num+Card+Pl+Gen
 +Pl+Gen:%>i%>en   #     ;
 +Pl+Gen:%>i%>e    NUM_FRONT_POSS     ;
+
+LEXICON NUM_FRONT_GENITIVE_IIN
++Pl+Gen:%>i%>in   #     ;
++Pl+Gen:%>i%>i    NUM_FRONT_POSS     ;
 
 LEXICON NUM_BACK_GENITIVE_JEN
 !!€gt-norm: Numeral plural genitive jen back
