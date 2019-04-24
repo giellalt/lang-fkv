@@ -460,8 +460,8 @@ LEXICON NUM_KAHDEKSAN
 !!€ kahđeksissa: kahđeksen+Num+Pl+Ine
 !!€ kahđeksinna: kahđeksen+Num+Pl+Ess
 0:en    NUM_BACK_NOMINATIVE  ;
-0:e     NUM_BACK_PARTITIVE_A    ;
-0:e     NUM_BACK_ILLATIVE_AN    ;
+0:e     NUM_BACK_PARTITIVE_E    ;
+0:he    NUM_BACK_ILLATIVE_EN    ;
 0:e     NUM_BACK_GENITIVE_IN    ;
 0:e     NUM_BACK_SINGULARS   ;
 0       NUM_BACK_PARTITIVE_II   ;
@@ -483,8 +483,8 @@ LEXICON NUM_YHDEKSÄN
 !!€ yhđeksissä: yhđeksen+Num+Pl+Ine
 !!€ yhđeksinnä: yhđeksen+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE  ;
-0:e     NUM_FRONT_PARTITIVE_Ä    ;
-0:e     NUM_FRONT_ILLATIVE_ÄN    ;
+0:e     NUM_FRONT_PARTITIVE_E    ;
+0:he    NUM_FRONT_ILLATIVE_EN    ;
 0:e     NUM_FRONT_GENITIVE_IN    ;
 0:e     NUM_FRONT_SINGULARS   ;
 0       NUM_FRONT_PARTITIVE_II   ;
@@ -500,7 +500,7 @@ LEXICON NUM_KYMMENEN
 !!€ kymmenessä: kymmenen+Num+Sg+Ine
 !!€ kymmentä: kymmenen+Num+Sg+Par
 !!€ kymmenten: kymmenen+Num+Pl+Gen
-!!€ kymmeniin: kymmenen+Num+Pl+Gen
+!!€ kymmeniitten: kymmenen+Num+Pl+Gen
 !!€ kymmenhiin: kymmenen+Num+Pl+Ill
 !!€ kymmenissä: kymmenen+Num+Pl+Ine
 !!€ kymmeninä: kymmenen+Num+Pl+Ess
@@ -526,9 +526,9 @@ LEXICON NUM_SATA
 !!€ sađoissa: sata+Num+Pl+Ine
 !!€ satoina: sata+Num+Pl+Ess
 0:ta    NUM_BACK_NOMINATIVE ;
-0:da    NUM_BACK_WEAK_SINGULARS ;
+0:đa    NUM_BACK_WEAK_SINGULARS ;
 0:ta    NUM_BACK_STRONG_SINGULARS   ;
-0:do    NUM_BACK_WEAK_PLURALS   ;
+0:đo    NUM_BACK_WEAK_PLURALS   ;
 0:to    NUM_BACK_STRONG_PLURALS ;
 0:ta    NUM_BACK_ILLATIVE_AN    ;
 0:ta    NUM_BACK_PARTITIVE_A    ;

@@ -152,6 +152,11 @@ LEXICON NUM_BACK_PARTITIVE_A
 !!€ kahdeksaa: kahdeksan+Num+Card+Sg+Par eight
 +Sg+Par:%>a      NUM_BACK_POSS_OPT      ;
 
+LEXICON NUM_BACK_PARTITIVE_E
+!!€gt-norm: Numeral singular partitive a
+!!€ kahdeksaa: kahdeksan+Num+Card+Sg+Par eight
++Sg+Par:%>e      NUM_BACK_POSS_OPT      ;
+
 LEXICON NUM_FRONT_PARTITIVE_Ä
 !!€gt-norm: Numeral singular partitive ä
 !!€ neljää: neljä+Num+Card+Sg+Par four
