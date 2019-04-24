@@ -453,7 +453,8 @@ LEXICON NUM_KAHDEKSAN
 !!€ kahđeksheen: kahđeksen+Num+Sg+Ill
 !!€ kahđeksessa: kahđeksen+Num+Sg+Ine
 !!€ kahđeksenna: kahđeksen+Num+Sg+Ess
-!!€ kahđeksii,kahđeksiita : kahđeksen+Num+Pl+Par
+!!€ kahđeksii: kahđeksen+Num+Pl+Par
+!!€ kahđeksiita: kahđeken+Num+Pl+Par
 !!€ kahđeksiitten: kahđeksen+Num+Pl+Gen
 !!€ kahđekshiin: kahđeksen+Num+Pl+Ill
 !!€ kahđeksissa: kahđeksen+Num+Pl+Ine
@@ -463,7 +464,7 @@ LEXICON NUM_KAHDEKSAN
 0:e     NUM_BACK_ILLATIVE_AN    ;
 0:e     NUM_BACK_GENITIVE_IN    ;
 0:e     NUM_BACK_SINGULARS   ;
-0       NUM_BACK_PARTITIVE_IA   ;
+0       NUM_BACK_PARTITIVE_II   ;
 0       NUM_BACK_GENITIVE_IEN   ;
 0       NUM_BACK_ILLATIVE_HIIN  ;
 0       NUM_BACK_PLURALS ;
@@ -475,7 +476,8 @@ LEXICON NUM_YHDEKSÄN
 !!€ yhđeksheen: yhđeksen+Num+Sg+Ill
 !!€ yhđeksessä: yhđeksen+Num+Sg+Ine
 !!€ yhđeksennä: yhđeksen+Num+Sg+Ess
-!!€ yhđeksii, yhđeksiitä: yhđeksen+Num+Pl+Par
+!!€ yhđeksii: yhđeksen+Num+Pl+Par
+!!€ yhđeksiitä: yhđeksen+Num+Pl+Par
 !!€ yhđeksiitten: yhđeksen+Num+Pl+Gen
 !!€ yhđekshiin: yhđeksen+Num+Pl+Ill
 !!€ yhđeksissä: yhđeksen+Num+Pl+Ine
@@ -485,7 +487,7 @@ LEXICON NUM_YHDEKSÄN
 0:e     NUM_FRONT_ILLATIVE_ÄN    ;
 0:e     NUM_FRONT_GENITIVE_IN    ;
 0:e     NUM_FRONT_SINGULARS   ;
-0       NUM_FRONT_PARTITIVE_IÄ   ;
+0       NUM_FRONT_PARTITIVE_II   ;
 0       NUM_FRONT_GENITIVE_IEN   ;
 0       NUM_FRONT_ILLATIVE_HIIN  ;
 0       NUM_FRONT_PLURALS ;
@@ -507,8 +509,8 @@ LEXICON NUM_KYMMENEN
 0:e     NUM_FRONT_SINGULARS   ;
 0       NUM_FRONT_PARTITIVE_TÄ   ;
 0       NUM_FRONT_GENITIVE_TEN   ;
-0       NUM_FRONT_PARTITIVE_IÄ   ;
-0       NUM_FRONT_GENITIVE_IEN   ;
+0       NUM_FRONT_PARTITIVE_II   ;
+0       NUM_FRONT_GENITIVE_IIN   ;
 0       NUM_FRONT_ILLATIVE_HIIN  ;
 0       NUM_FRONT_PLURALS ;
 
