@@ -269,12 +269,19 @@ LEXICON NUM_BACK_ILLATIVE_IIN
 +Pl+Ill:%>i%>in    #     ;
 +Pl+Ill:%>i%>i     NUM_BACK_POSS     ;
 
+LEXICON NUM_BACK_ILLATIVE_HIIN
++Pl+Ill:%>hi%>in    #     ;
++Pl+Ill:%>hi%>i     NUM_BACK_POSS     ;
+
 LEXICON NUM_FRONT_ILLATIVE_IIN
 !!€gt-norm: Numeral plural illaive iin front
 !!€ yksiin: yksi+Num+Card+Pl+Ill
 +Pl+Ill:%>i%>in    #     ;
 +Pl+Ill:%>i%>i     NUM_FRONT_POSS     ;
 
+LEXICON NUM_FRONT_ILLATIVE_HIIN
++Pl+Ill:%>hi%>in    #     ;
++Pl+Ill:%>hi%>i     NUM_FRONT_POSS     ;
 
 ! possessives
 LEXICON NUM_BACK_POSS
