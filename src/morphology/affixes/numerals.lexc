@@ -136,14 +136,14 @@ LEXICON NUM_FRONT_STRONG_PLURALS
 !!€ kaksina: kaksi+Num+Card+Pl+Ess
 !!€ kaksine: kaksi+Num+Card+Com
 +Pl+Ess:%>i%>nä   NUM_FRONT_POSS_ÄN_OPT      ;
-+Com:%>i%>ne        NUM_FRONT_POSS_ÄN_OPT      ;
++Pl+Com:%>i%>ne        NUM_FRONT_POSS_ÄN_OPT      ;
 
 LEXICON NUM_BACK_STRONG_PLURALS
 !!€gt-norm: Numeral weak plural front strong
 !!€ yksinä: yksi+Num+Card+Pl+Ess
 !!€ yksine: yksi+Num+Card+Com
 +Pl+Ess:%>i%>na   NUM_BACK_POSS_AN_OPT      ;
-+Com:%>i%>ne        NUM_BACK_POSS_AN_OPT      ;
++Pl+Com:%>i%>ne        NUM_BACK_POSS_AN_OPT      ;
 
 
 ! allomorphs
