@@ -153,14 +153,7 @@ LEXICON NUM_BACK_PARTITIVE_A
 +Sg+Par:%>a      NUM_BACK_POSS_OPT      ;
 
 LEXICON NUM_BACK_PARTITIVE_E
-!!€gt-norm: Numeral singular partitive a
-!!€ kahdeksaa: kahdeksan+Num+Card+Sg+Par eight
 +Sg+Par:%>e      NUM_BACK_POSS_OPT      ;
-
-LEXICON NUM_FRONT_PARTITIVE_Ä
-!!€gt-norm: Numeral singular partitive ä
-!!€ neljää: neljä+Num+Card+Sg+Par four
-+Sg+Par:%>ä      NUM_FRONT_POSS_OPT      ;
 
 LEXICON NUM_BACK_PARTITIVE_A_AN
 !!€gt-norm: Numeral singular partitive a poss aan
@@ -205,11 +198,6 @@ LEXICON NUM_BACK_ILLATIVE_IN
 +Sg+Ill:%>in     #         ;
 +Sg+Ill:%>i      NUM_BACK_POSS     ;
 
-LEXICON NUM_FRONT_ILLATIVE_ÄN
-!!€gt-norm: Numeral singular illative än
-!!€ neljään: neljä+Num+Card+Sg+Ill
-+Sg+Ill:%>än     #         ;
-+Sg+Ill:%>ä      NUM_FRONT_POSS     ;
 
 LEXICON NUM_BACK_PARTITIVE_IA
 !!€gt-norm: Numeral plural partitive ia
@@ -219,10 +207,6 @@ LEXICON NUM_BACK_PARTITIVE_IA
 LEXICON NUM_BACK_PARTITIVE_II
 +Pl+Par:%>i%>i    NUM_BACK_POSS_AN_OPT      ;
 
-LEXICON NUM_FRONT_PARTITIVE_IÄ
-!!€gt-norm: Numeral plural partitive iä
-!!€ neljiä: neljä+Num+Card+Pl+Par
-+Pl+Par:%>i%>ä    NUM_FRONT_POSS_ÄN_OPT      ;
 
 LEXICON NUM_FRONT_PARTITIVE_II
 +Pl+Par:%>i%>i    NUM_FRONT_POSS_ÄN_OPT      ;
@@ -243,11 +227,6 @@ LEXICON NUM_BACK_GENITIVE_IIN
 +Pl+Gen:%>i%>in   #     ;
 +Pl+Gen:%>i%>i    NUM_BACK_POSS     ;
 
-LEXICON NUM_FRONT_GENITIVE_IEN
-!!€gt-norm: Numeral plural genitive ien front
-!!€ yksien: yksi+Num+Card+Pl+Gen
-+Pl+Gen:%>i%>en   #     ;
-+Pl+Gen:%>i%>e    NUM_FRONT_POSS     ;
 
 LEXICON NUM_FRONT_GENITIVE_IIN
 +Pl+Gen:%>i%>in   #     ;
@@ -305,11 +284,6 @@ LEXICON NUM_BACK_ILLATIVE_HIIN
 +Pl+Ill:%>hi%>in    #     ;
 +Pl+Ill:%>hi%>i     NUM_BACK_POSS     ;
 
-LEXICON NUM_FRONT_ILLATIVE_IIN
-!!€gt-norm: Numeral plural illaive iin front
-!!€ yksiin: yksi+Num+Card+Pl+Ill
-+Pl+Ill:%>i%>in    #     ;
-+Pl+Ill:%>i%>i     NUM_FRONT_POSS     ;
 
 LEXICON NUM_FRONT_ILLATIVE_HIIN
 +Pl+Ill:%>hi%>in    #     ;
