@@ -172,6 +172,10 @@ LEXICON NUM_FRONT_PARTITIVE_TÄ
 !!€ viittä: viisi+Num+Card+Sg+Par five
 +Sg+Par:%>tä     NUM_FRONT_POSS_ÄN_OPT      ;
 
+
+LEXICON NUM_FRONT_PARTITIVE_E
++Sg+Par:%>e      NUM_FRONT_POSS_OPT      ;
+
 LEXICON NUM_BACK_ILLATIVE_AN
 !!€gt-norm: Numeral singular illative an
 !!€ kahdeksaan: kahdeksan+Num+Card+Sg+Ill
