@@ -248,6 +248,14 @@ LEXICON NUM_FRONT_GENITIVE_IIN
 +Pl+Gen:%>i%>in   #     ;
 +Pl+Gen:%>i%>i    NUM_FRONT_POSS     ;
 
+LEXICON NUM_FRONT_GENITIVE_IITTEN
++Pl+Gen:%>i%>itten   #     ;
++Pl+Gen:%>i%>i    NUM_FRONT_POSS     ;
+
+LEXICON NUM_BACK_GENITIVE_IITTEN
++Pl+Gen:%>i%>itten   #     ;
++Pl+Gen:%>i%>i    NUM_BACK_POSS     ;
+
 LEXICON NUM_BACK_GENITIVE_JEN
 !!€gt-norm: Numeral plural genitive jen back
 !!€ satojen: sata+Num+Card+Pl+Gen hundred
