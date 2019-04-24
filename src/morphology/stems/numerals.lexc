@@ -164,7 +164,7 @@ yhdes+Num+Ord:yhde              NUM_NELJÄS ;
 toinen+Num+Ord:toi              NUM_TOINEN ;
 kahdes+Num+Ord:kahde            NUM_KOLMAS ;
 kolmas+Num+Ord:kolma            NUM_KOLMAS ;
-neljäs+Num+Ord:neljä            NUM_NELJÄS ;
+neljes+Num+Ord:nelje            NUM_NELJÄS ;
 viides+Num+Ord:viide            NUM_NELJÄS ;
 kuudes+Num+Ord:kuude            NUM_KOLMAS ;
 seitsemäs+Num+Ord:seitsemä      NUM_NELJÄS ;
@@ -709,24 +709,24 @@ LEXICON NUM_KOLMAS
 
 LEXICON NUM_NELJÄS
 !!€gt-norm: Numerals 45 fron
-!!€ neljes: neljäs+Num+Ord+Sg+Nom
-!!€ neljentheen: neljäs+Num+Ord+Sg+Ill
-!!€ neljentenä: neljäs+Num+Ord+Sg+Ess
-!!€ neljennessä: neljäs+Num+Ord+Sg+Ine
-!!€ neljettä: neljäs+Num+Ord+Sg+Par
-!!€ neljenssii: neljäs+Num+Ord+Pl+Par
-!!€ neljenssiin: neljäs+Num+Ord+Pl+Gen
-!!€ neljenshiin: neljäs+Num+Ord+Pl+Ill
-!!€ neljensissä: neljäs+Num+Ord+Pl+Ine
-!!€ neljensinä: neljäs+Num+Ord+Pl+Ess
+!!€ neljes: neljes+Num+Ord+Sg+Nom
+!!€ neljentheen: neljes+Num+Ord+Sg+Ill
+!!€ neljentenä: neljes+Num+Ord+Sg+Ess
+!!€ neljennessä: neljes+Num+Ord+Sg+Ine
+!!€ neljettä: neljes+Num+Ord+Sg+Par
+!!€ neljenssii: neljes+Num+Ord+Pl+Par
+!!€ neljenssiin: neljes+Num+Ord+Pl+Gen
+!!€ neljenshiin: neljes+Num+Ord+Pl+Ill
+!!€ neljensissä: neljes+Num+Ord+Pl+Ine
+!!€ neljensinä: neljes+Num+Ord+Pl+Ess
 0:s     NUM_FRONT_NOMINATIVE ;
-0:nte   NUM_FRONT_ILLATIVE_EN    ;
+0:nthe  NUM_FRONT_ILLATIVE_EN    ;
 0:nte   NUM_FRONT_STRONG_SINGULARS   ;
 0:nne   NUM_FRONT_WEAK_SINGULARS   ;
 0:t     NUM_FRONT_PARTITIVE_TÄ   ;
-0:ns    NUM_FRONT_PARTITIVE_IÄ   ;
-0:ns    NUM_FRONT_GENITIVE_IEN   ;
-0:ns    NUM_FRONT_ILLATIVE_IIN   ;
+0:nss   NUM_FRONT_PARTITIVE_II   ;
+0:nss   NUM_FRONT_GENITIVE_IIN   ;
+0:ns    NUM_FRONT_ILLATIVE_HIIN   ;
 0:ns    NUM_FRONT_PLURALS ;
 
 
