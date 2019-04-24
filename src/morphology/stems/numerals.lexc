@@ -560,7 +560,7 @@ LEXICON NUM_TUHAT
 0:ns    NUM_BACK_PLURALS ;
 
 LEXICON NUM_MILJOONA
-!!€gt-norm: Numerals 10
+!!€gt-norm: Numerals 10 miljoona
 !!€ miljoona: miljoona+Num+Sg+Nom
 !!€ miljoonana: miljoona+Num+Sg+Ess
 !!€ miljoonassa: miljoona+Num+Sg+Ine
@@ -579,7 +579,7 @@ LEXICON NUM_MILJOONA
 0       NUM_BACK_PARTITIVE_IA    ;
 0       NUM_BACK_GENITIVE_IEN    ;
 0:a     NUM_BACK_GENITIVE_IN    ;
-0:h     NUM_BACK_ILLATIVE_IIN   ;
+0       NUM_BACK_ILLATIVE_HIIN   ;
 
 
 LEXICON NUM_MILJARDI
