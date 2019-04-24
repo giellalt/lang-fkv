@@ -324,13 +324,13 @@ LEXICON NUM_YKSI
 !!€ yksinä: yksi+Num+Pl+Ess
 !!€ yksissä: yksi+Num+Pl+Ine
 0:ksi   NUM_FRONT_NOMINATIVE ;
-0:hte   NUM_FRONT_ILLATIVE_EN    ;
+0:hthe  NUM_FRONT_ILLATIVE_EN    ;
 0:hte   NUM_FRONT_STRONG_SINGULARS   ;
-0:hde   NUM_FRONT_WEAK_SINGULARS   ;
+0:hđe   NUM_FRONT_WEAK_SINGULARS   ;
 0:h     NUM_FRONT_PARTITIVE_TÄ   ;
 0:ks    NUM_FRONT_PARTITIVE_IÄ   ;
 0:ks    NUM_FRONT_GENITIVE_IEN   ;
-0:ks    NUM_FRONT_ILLATIVE_IIN   ;
+0:ks    NUM_FRONT_ILLATIVE_HIIN   ;
 0:ks    NUM_FRONT_PLURALS ;
 
 LEXICON NUM_KAKSI
@@ -347,13 +347,13 @@ LEXICON NUM_KAKSI
 !!€ kaksissa: kaksi+Num+Pl+Ine
 0:ksi   NUM_BACK_NOMINATIVE ;
 +Use/NG:ks   NUM_BACK_NOMINATIVE ;
-0:hte   NUM_BACK_ILLATIVE_EN    ;
+0:hthe  NUM_BACK_ILLATIVE_EN    ;
 0:hte   NUM_BACK_STRONG_SINGULARS   ;
-0:hde   NUM_BACK_WEAK_SINGULARS   ;
+0:hđe   NUM_BACK_WEAK_SINGULARS   ;
 0:h     NUM_BACK_PARTITIVE_TA   ;
 0:ks    NUM_BACK_PARTITIVE_IA   ;
 0:ks    NUM_BACK_GENITIVE_IEN   ;
-0:ks    NUM_BACK_ILLATIVE_IIN   ;
+0:ks    NUM_BACK_ILLATIVE_HIIN  ;
 0:ks    NUM_BACK_PLURALS ;
 
 LEXICON NUM_KOLME
@@ -369,12 +369,12 @@ LEXICON NUM_KOLME
 !!€ kolmina: kolme+Num+Pl+Ess
 !!€ kolmissa: kolme+Num+Pl+Ine
 0:e     NUM_BACK_NOMINATIVE  ;
-0:e     NUM_BACK_ILLATIVE_EN    ;
+0:he    NUM_BACK_ILLATIVE_EN    ;
 0:e     NUM_BACK_SINGULARS  ;
 0:e     NUM_BACK_PARTITIVE_A_AN ;
 0       NUM_BACK_PARTITIVE_IA ;
 0       NUM_BACK_GENITIVE_IEN ;
-0       NUM_BACK_ILLATIVE_IIN ;
+0       NUM_BACK_ILLATIVE_HIIN ;
 0       NUM_BACK_PLURALS ; 
 
 LEXICON NUM_NELJÄ
@@ -392,12 +392,12 @@ LEXICON NUM_NELJÄ
 !!€ neljäin: nelje+Num+Pl+Gen+Use/Rare ! (Ei ole olemassa kveeniksi) 
 0:e  NUM_FRONT_NOMINATIVE ;
 0:e  NUM_FRONT_PARTITIVE_Ä    ;
-0:e  NUM_FRONT_ILLATIVE_ÄN    ;
+0:he NUM_FRONT_ILLATIVE_ÄN    ;
 0:e  NUM_FRONT_GENITIVE_IN    ;
 0:e  NUM_FRONT_SINGULARS   ;
 0    NUM_FRONT_PARTITIVE_IÄ   ;
 0    NUM_FRONT_GENITIVE_IEN   ;
-0    NUM_FRONT_ILLATIVE_IIN   ;
+0    NUM_FRONT_ILLATIVE_HIIN   ;
 0    NUM_FRONT_PLURALS ;
 
 LEXICON NUM_VIISI
@@ -411,17 +411,17 @@ LEXICON NUM_VIISI
 !!€ viittä: viisi+Num+Sg+Par
 !!€ viissii: viisi+Num+Pl+Par
 !!€ viissiin: viisi+Num+Pl+Gen
-!!€ viisiin: viisi+Num+Pl+Ill
+!!€ viishiin: viisi+Num+Pl+Ill
 0:si    NUM_FRONT_NOMINATIVE ;
-0:te    NUM_FRONT_ILLATIVE_EN    ;
+0:the    NUM_FRONT_ILLATIVE_EN    ;
 0:te    NUM_FRONT_STRONG_SINGULARS   ;
-0:de    NUM_FRONT_WEAK_SINGULARS   ;
+0:đe    NUM_FRONT_WEAK_SINGULARS   ;
 0:s     NUM_FRONT_PLURALS ;
 0:t     NUM_FRONT_PARTITIVE_TÄ   ;
 0:t     NUM_FRONT_GENITIVE_TEN   ;
 0:s     NUM_FRONT_PARTITIVE_IÄ   ;
 0:s     NUM_FRONT_GENITIVE_IEN   ;
-0:s     NUM_FRONT_ILLATIVE_IIN   ;
+0:s     NUM_FRONT_ILLATIVE_HIIN  ;
 
 LEXICON NUM_KUUSI
 !!€gt-norm: Numerals 27 back
@@ -437,13 +437,13 @@ LEXICON NUM_KUUSI
 0:si    NUM_BACK_NOMINATIVE ;
 0:te    NUM_BACK_ILLATIVE_EN    ;
 0:te    NUM_BACK_STRONG_SINGULARS   ;
-0:de    NUM_BACK_WEAK_SINGULARS   ;
+0:đe    NUM_BACK_WEAK_SINGULARS   ;
 0:s     NUM_BACK_PLURALS ;
 0:t     NUM_BACK_PARTITIVE_TA   ;
 0:t     NUM_BACK_GENITIVE_TEN   ;
 0:s     NUM_BACK_PARTITIVE_IA   ;
 0:s     NUM_BACK_GENITIVE_IEN   ;
-0:s     NUM_BACK_ILLATIVE_IIN   ;
+0:s     NUM_BACK_ILLATIVE_HIIN  ;
 
 
 LEXICON NUM_KAHDEKSAN
@@ -459,13 +459,13 @@ LEXICON NUM_KAHDEKSAN
 !!€ kahđeksissa: kahđeksen+Num+Pl+Ine
 !!€ kahđeksinna: kahđeksen+Num+Pl+Ess
 0:en    NUM_BACK_NOMINATIVE  ;
-0:a     NUM_BACK_PARTITIVE_A    ;
-0:a     NUM_BACK_ILLATIVE_AN    ;
-0:a     NUM_BACK_GENITIVE_IN    ;
-0:a     NUM_BACK_SINGULARS   ;
+0:e     NUM_BACK_PARTITIVE_A    ;
+0:e     NUM_BACK_ILLATIVE_AN    ;
+0:e     NUM_BACK_GENITIVE_IN    ;
+0:e     NUM_BACK_SINGULARS   ;
 0       NUM_BACK_PARTITIVE_IA   ;
 0       NUM_BACK_GENITIVE_IEN   ;
-0       NUM_BACK_ILLATIVE_IIN   ;
+0       NUM_BACK_ILLATIVE_HIIN  ;
 0       NUM_BACK_PLURALS ;
 
 LEXICON NUM_YHDEKSÄN
@@ -477,6 +477,7 @@ LEXICON NUM_YHDEKSÄN
 !!€ yhđeksennä: yhđeksen+Num+Sg+Ess
 !!€ yhđeksii, yhđeksiitä: yhđeksen+Num+Pl+Par
 !!€ yhđeksiitten: yhđeksen+Num+Pl+Gen
+!!€ yhđekshiin: yhđeksen+Num+Pl+Ill
 !!€ yhđeksissä: yhđeksen+Num+Pl+Ine
 !!€ yhđeksinnä: yhđeksen+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE  ;
@@ -486,7 +487,7 @@ LEXICON NUM_YHDEKSÄN
 0:e     NUM_FRONT_SINGULARS   ;
 0       NUM_FRONT_PARTITIVE_IÄ   ;
 0       NUM_FRONT_GENITIVE_IEN   ;
-0       NUM_FRONT_ILLATIVE_IIN   ;
+0       NUM_FRONT_ILLATIVE_HIIN  ;
 0       NUM_FRONT_PLURALS ;
 
 LEXICON NUM_KYMMENEN
@@ -502,13 +503,13 @@ LEXICON NUM_KYMMENEN
 !!€ kymmenissä: kymmenen+Num+Pl+Ine
 !!€ kymmeninä: kymmenen+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE ;
-0:e     NUM_FRONT_ILLATIVE_EN    ;
+0:he    NUM_FRONT_ILLATIVE_EN    ;
 0:e     NUM_FRONT_SINGULARS   ;
 0       NUM_FRONT_PARTITIVE_TÄ   ;
 0       NUM_FRONT_GENITIVE_TEN   ;
 0       NUM_FRONT_PARTITIVE_IÄ   ;
 0       NUM_FRONT_GENITIVE_IEN   ;
-0       NUM_FRONT_ILLATIVE_IIN   ;
+0       NUM_FRONT_ILLATIVE_HIIN  ;
 0       NUM_FRONT_PLURALS ;
 
 LEXICON NUM_SATA
@@ -574,11 +575,11 @@ LEXICON NUM_MILJOONA
 0:a     NUM_BACK_SINGULARS    ;
 0       NUM_BACK_PLURALS  ;
 0:a     NUM_BACK_PARTITIVE_A      ;
-0:a     NUM_BACK_ILLATIVE_AN     ;
+0:ha    NUM_BACK_ILLATIVE_AN     ;
 0       NUM_BACK_PARTITIVE_IA    ;
 0       NUM_BACK_GENITIVE_IEN    ;
 0:a     NUM_BACK_GENITIVE_IN    ;
-0       NUM_BACK_ILLATIVE_IIN   ;
+0:h     NUM_BACK_ILLATIVE_IIN   ;
 
 
 LEXICON NUM_MILJARDI
