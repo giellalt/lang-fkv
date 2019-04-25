@@ -454,7 +454,7 @@ LEXICON NUM_KAHDEKSAN
 !!€ kahđeksessa: kahđeksen+Num+Sg+Ine
 !!€ kahđeksenna: kahđeksen+Num+Sg+Ess
 !!€ kahđeksii: kahđeksen+Num+Pl+Par
-!!€ kahđeksiita: kahđeken+Num+Pl+Par
+!!€ kahđeksiita: kahđeksen+Num+Pl+Par
 !!€ kahđeksiitten: kahđeksen+Num+Pl+Gen
 !!€ kahđekshiin: kahđeksen+Num+Pl+Ill
 !!€ kahđeksissa: kahđeksen+Num+Pl+Ine
@@ -512,6 +512,7 @@ LEXICON NUM_KYMMENEN
 0       NUM_FRONT_PARTITIVE_TÄ   ;
 0       NUM_FRONT_GENITIVE_TEN   ;
 0       NUM_FRONT_PARTITIVE_II   ;
+0       NUM_FRONT_PARTITIVE_III   ;
 0       NUM_FRONT_GENITIVE_IITTEN    ;
 0       NUM_FRONT_ILLATIVE_HIIN  ;
 0       NUM_FRONT_PLURALS ;
@@ -534,9 +535,9 @@ LEXICON NUM_SATA
 0:to    NUM_BACK_STRONG_PLURALS ;
 0:ta    NUM_BACK_ILLATIVE_AN    ;
 0:ta    NUM_BACK_PARTITIVE_A    ;
-0:to    NUM_BACK_PARTITIVE_JA   ;
-0:to    NUM_BACK_GENITIVE_JEN   ;
-0:ta    NUM_BACK_GENITIVE_IN    ;
+0:tto    NUM_BACK_PARTITIVE_OI   ;
+0:tto    NUM_BACK_GENITIVE_JEN   ;
+!0:ta    NUM_BACK_GENITIVE_IN    ;
 0:to    NUM_BACK_ILLATIVE_IHIN  ;
 
 LEXICON NUM_TUHAT
