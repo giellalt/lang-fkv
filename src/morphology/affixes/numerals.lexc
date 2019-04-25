@@ -249,11 +249,9 @@ LEXICON NUM_BACK_GENITIVE_IITTEN
 +Pl+Gen:%>i%>itten   #     ;
 +Pl+Gen:%>i%>i    NUM_BACK_POSS     ;
 
-LEXICON NUM_BACK_GENITIVE_JEN
-!!€gt-norm: Numeral plural genitive jen back
-!!€ satojen: sata+Num+Card+Pl+Gen hundred
-+Pl+Gen:%>j%>en    #     ;
-+Pl+Gen:%>j%>e     NUM_BACK_POSS     ;
+!LEXICON NUM_BACK_GENITIVE_JEN
+!+Pl+Gen:%>j%>en    #     ;
+!+Pl+Gen:%>j%>e     NUM_BACK_POSS     ;
 
 !LEXICON NUM_BACK_GENITIVE_IN
 !+Pl+Gen:%>i%>n    #     ;
