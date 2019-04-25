@@ -210,6 +210,9 @@ LEXICON NUM_BACK_PARTITIVE_II
 LEXICON NUM_BACK_PARTITIVE_III
 +Pl+Par:%>i%>i%>t%>a    NUM_BACK_POSS_AN_OPT      ;
 
+LEXICON NUM_BACK_PARTITIVE_OI
++Pl+Par:%>i    NUM_BACK_POSS_AN_OPT      ;
+
 
 LEXICON NUM_FRONT_PARTITIVE_II
 +Pl+Par:%>i%>i    NUM_FRONT_POSS_ÄN_OPT      ;
@@ -251,6 +254,10 @@ LEXICON NUM_BACK_GENITIVE_JEN
 !!€ satojen: sata+Num+Card+Pl+Gen hundred
 +Pl+Gen:%>j%>en    #     ;
 +Pl+Gen:%>j%>e     NUM_BACK_POSS     ;
+
+!LEXICON NUM_BACK_GENITIVE_IN
+!+Pl+Gen:%>i%>n    #     ;
+!+Pl+Gen:%>i     NUM_BACK_POSS     ;
 
 LEXICON NUM_BACK_GENITIVE_TEN
 !!€gt-norm: Numeral plural genitive ten back
