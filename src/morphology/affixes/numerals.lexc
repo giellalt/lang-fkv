@@ -198,6 +198,8 @@ LEXICON NUM_BACK_ILLATIVE_IN
 +Sg+Ill:%>in     #         ;
 +Sg+Ill:%>i      NUM_BACK_POSS     ;
 
+LEXICON NUM_BACK_PARTITIVE_II_Sg
++Sg+Par:%>i%>i    NUM_BACK_POSS_AN_OPT      ;
 
 LEXICON NUM_BACK_PARTITIVE_IA
 !!€gt-norm: Numeral plural partitive ia
