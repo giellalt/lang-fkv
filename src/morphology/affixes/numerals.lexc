@@ -92,18 +92,30 @@ LEXICON NUM_FRONT_SINGULARS_LL
 LEXICON NUM_BACK_STRONG_SINGULARS
 !!€gt-norm: Numeral strong singular back
 !!€ kahtena: kaksi+Num+Card+Sg+Ess
-+Sg+Ess:%>na NUM_BACK_POSS_AN_OPT      ;
+!+Sg+Ess:%>na NUM_BACK_POSS_AN_OPT      ;
 +Sg+Nom:0  NUM_BACK_POSS   ;
 +Sg+Gen:0  NUM_BACK_POSS   ;
 +Pl+Nom:0  NUM_BACK_POSS   ;
 
+LEXICON NUM_BACK_STRONG_SINGULARS_NA
++Sg+Ess:%>na NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_STRONG_SINGULARS_NNA
++Sg+Ess:%>nna NUM_BACK_POSS_AN_OPT      ;
+
 LEXICON NUM_FRONT_STRONG_SINGULARS
 !!€gt-norm: Numeral strong singular front
 !!€ yhtenä: yksi+Num+Card+Sg+Ess
-+Sg+Ess:%>nä NUM_FRONT_POSS_ÄN_OPT      ;
+!+Sg+Ess:%>nä NUM_FRONT_POSS_ÄN_OPT      ;
 +Sg+Nom:0  NUM_FRONT_POSS   ;
 +Sg+Gen:0  NUM_FRONT_POSS   ;
 +Pl+Nom:0  NUM_FRONT_POSS   ;
+
+LEXICON NUM_FRONT_STRONG_SINGULARS_NA
++Sg+Ess:%>nä NUM_FRONT_POSS_ÄN_OPT      ;
+
+LEXICON NUM_FRONT_STRONG_SINGULARS_NNA
++Sg+Ess:%>nnä NUM_FRONT_POSS_ÄN_OPT      ;
 
 LEXICON NUM_BACK_WEAK_PLURALS
 !!€gt-norm: Numeral weak plural back
