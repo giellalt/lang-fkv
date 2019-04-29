@@ -159,7 +159,7 @@ LEXICON NUM_ORD_ALL
 !!€ neljäs: neljäs+Num+Ord+Sg+Nom
 !!€ viidennelle: viides+Num+Ord+Sg+All
 !!€ tuhannetta: tuhannes+Num+Ord+Sg+Par
-ensimmäinen+Num+Ord:ensimmäi    NUM_ENSIMMÄINEN ;
+ensimäinen+Num+Ord:ensimäi    NUM_ENSIMMÄINEN ;
 yhdes+Num+Ord:yhde              NUM_NELJÄS ;
 toinen+Num+Ord:toi              NUM_TOINEN ;
 kahdes+Num+Ord:kahde            NUM_KOLMAS ;
@@ -596,7 +596,7 @@ LEXICON NUM_TUHAT
 LEXICON NUM_MILJOONA
 !!€gt-norm: Numerals 10 miljoona
 !!€ miljoona: miljoona+Num+Sg+Nom
-!!€ miljoonana: miljoona+Num+Sg+Ess
+!!€ miljoonanna: miljoona+Num+Sg+Ess
 !!€ miljoonassa: miljoona+Num+Sg+Ine
 !!€ miljoonaa: miljoona+Num+Sg+Par
 !!€ miljoonhaan: miljoona+Num+Sg+Ill
@@ -604,7 +604,7 @@ LEXICON NUM_MILJOONA
 !!€ miljooniitten: miljoona+Num+Pl+Gen
 !!€ miljoonhiin: miljoona+Num+Pl+Ill
 !!€ miljoonissa: miljoona+Num+Pl+Ine
-!!€ miljoonina: miljoona+Num+Pl+Ess
+!!€ miljooninna: miljoona+Num+Pl+Ess
 0:a     NUM_BACK_NOMINATIVE    ;
 0:a     NUM_BACK_SINGULARS    ;
 0:a     NUM_BACK_STRONG_SINGULARS_NNA ;
@@ -621,7 +621,7 @@ LEXICON NUM_MILJOONA
 LEXICON NUM_MILJARDI
 !!€gt-norm: Numerals 5
 !!€ miljardi: miljardi+Num+Sg+Nom
-!!€ miljardina: miljardi+Num+Sg+Ess
+!!€ miljardinna: miljardi+Num+Sg+Ess
 !!€ miljardissa: miljardi+Num+Sg+Ine
 !!€ miljardiina: miljardi+Num+Pl+Ess
 !!€ miljardiissa: miljardi+Num+Pl+Ine
@@ -681,18 +681,19 @@ LEXICON NUM_PARI
 
 LEXICON NUM_ENSIMMÄINEN
 !!€gt-norm: Numerals 38
-!!€ ensimmäinen: ensimmäinen+Num+Ord+Sg+Nom
-!!€ ensimmäisenä: ensimmäinen+Num+Ord+Sg+Ess
-!!€ ensimmäisessä: ensimmäinen+Num+Ord+Sg+Ine
-!!€ ensimmäistä: ensimmäinen+Num+Ord+Sg+Par
-!!€ ensimmäisten: ensimmäinen+Num+Ord+Pl+Gen
-!!€ ensimmäissii: ensimmäinen+Num+Ord+Pl+Par
-!!€ ensimmäishiin: ensimmäinen+Num+Ord+Pl+Ill
-!!€ ensimmäisinä: ensimmäinen+Num+Ord+Pl+Ess
-!!€ ensimmäisissä: ensimmäinen+Num+Ord+Pl+Ine
+!!€ ensimäinen: ensimäinen+Num+Ord+Sg+Nom
+!!€ ensimäisenä: ensimäinen+Num+Ord+Sg+Ess
+!!€ ensimäisessä: ensimäinen+Num+Ord+Sg+Ine
+!!€ ensimäistä: ensimäinen+Num+Ord+Sg+Par
+!!€ ensimäisten: ensimäinen+Num+Ord+Pl+Gen
+!!€ ensimäissii: ensimäinen+Num+Ord+Pl+Par
+!!€ ensimäishiin: ensimäinen+Num+Ord+Pl+Ill
+!!€ ensimäisinä: ensimäinen+Num+Ord+Pl+Ess
+!!€ ensimäisissä: ensimäinen+Num+Ord+Pl+Ine
 0:nen   NUM_FRONT_NOMINATIVE ;
 0:se    NUM_FRONT_ILLATIVE_EN    ;
 0:se    NUM_FRONT_SINGULARS   ;
+0:se    NUM_FRONT_STRONG_SINGULARS_NA ;
 0:s     NUM_FRONT_PARTITIVE_TÄ   ;
 0:s     NUM_FRONT_GENITIVE_TEN   ;
 0:ss    NUM_FRONT_PARTITIVE_II   ;
@@ -717,6 +718,7 @@ LEXICON NUM_TOINEN
 0:nen   NUM_BACK_NOMINATIVE ;
 0:she    NUM_BACK_ILLATIVE_EN    ;
 0:se    NUM_BACK_SINGULARS   ;
+0:se    NUM_BACK_STRONG_SINGULARS_NA ;
 0:s     NUM_BACK_PARTITIVE_TA   ;
 0:s     NUM_BACK_GENITIVE_TEN   ;
 0:ss    NUM_BACK_PARTITIVE_II   ;
@@ -728,17 +730,18 @@ LEXICON NUM_TOINEN
 LEXICON NUM_KOLMAS
 !!€gt-norm: Numerals 45
 !!€ kolmas: kolmas+Num+Ord+Sg+Nom
-!!€ kolmantena: kolmas+Num+Ord+Sg+Ess
+!!€ kolmantenna: kolmas+Num+Ord+Sg+Ess
 !!€ kolmanessa: kolmas+Num+Ord+Sg+Ine
 !!€ kolmantheen: kolmas+Num+Ord+Sg+Ill
 !!€ kolmatta: kolmas+Num+Ord+Sg+Par
 !!€ kolmanssii: kolmas+Num+Ord+Pl+Par
 !!€ kolmanssiin: kolmas+Num+Ord+Pl+Gen
 !!€ kolmansissa: kolmas+Num+Ord+Pl+Ine
-!!€ kolmansina: kolmas+Num+Ord+Pl+Ess
+!!€ kolmansinna: kolmas+Num+Ord+Pl+Ess
 0:s     NUM_BACK_NOMINATIVE ;
 0:nthe  NUM_BACK_ILLATIVE_EN    ;
 0:nte   NUM_BACK_STRONG_SINGULARS   ;
+0:nte   NUM_BACK_STRONG_SINGULARS_NNA ;
 0:ne    NUM_BACK_WEAK_SINGULARS   ;
 0:t     NUM_BACK_PARTITIVE_TA   ;
 0:nss   NUM_BACK_PARTITIVE_II   ;
@@ -750,17 +753,18 @@ LEXICON NUM_NELJÄS
 !!€gt-norm: Numerals 45 fron
 !!€ neljes: neljes+Num+Ord+Sg+Nom
 !!€ neljentheen: neljes+Num+Ord+Sg+Ill
-!!€ neljentenä: neljes+Num+Ord+Sg+Ess
+!!€ neljentennä: neljes+Num+Ord+Sg+Ess
 !!€ neljennessä: neljes+Num+Ord+Sg+Ine
 !!€ neljettä: neljes+Num+Ord+Sg+Par
 !!€ neljenssii: neljes+Num+Ord+Pl+Par
 !!€ neljenssiin: neljes+Num+Ord+Pl+Gen
 !!€ neljenshiin: neljes+Num+Ord+Pl+Ill
 !!€ neljensissä: neljes+Num+Ord+Pl+Ine
-!!€ neljensinä: neljes+Num+Ord+Pl+Ess
+!!€ neljensinnä: neljes+Num+Ord+Pl+Ess
 0:s     NUM_FRONT_NOMINATIVE ;
 0:nthe  NUM_FRONT_ILLATIVE_EN    ;
 0:nte   NUM_FRONT_STRONG_SINGULARS   ;
+0:nte   NUM_FRONT_STRONG_SINGULARS_NNA ;
 0:nne   NUM_FRONT_WEAK_SINGULARS   ;
 0:t     NUM_FRONT_PARTITIVE_TÄ   ;
 0:nss   NUM_FRONT_PARTITIVE_II   ;
