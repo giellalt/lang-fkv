@@ -143,7 +143,7 @@ LEXICON NUM_BACK_STRONG_PLURALS
 !!€ yksinä: yksi+Num+Card+Pl+Ess
 !!€ yksine: yksi+Num+Card+Com
 +Pl+Ess:%>i%>na   NUM_BACK_POSS_AN_OPT      ;
-+Pl+Com:%>i%>ne        NUM_BACK_POSS_AN_OPT      ;
++Pl+Com:%>i%>ne   NUM_BACK_POSS_AN_OPT      ;
 
 
 ! allomorphs
@@ -200,6 +200,10 @@ LEXICON NUM_BACK_ILLATIVE_IN
 
 LEXICON NUM_BACK_PARTITIVE_II_Sg
 +Sg+Par:%>i%>i    NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_ILLATIVE_HIIN_Sg
++Sg+Ill:%>hi%>in    #     ;
++Sg+Ill:%>hi%>i     NUM_BACK_POSS     ;
 
 LEXICON NUM_BACK_PARTITIVE_IA
 !!€gt-norm: Numeral plural partitive ia
