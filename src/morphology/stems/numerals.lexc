@@ -389,7 +389,6 @@ LEXICON NUM_NELJÄ
 !!€ neljhiin: nelje+Num+Pl+Ill
 !!€ neljinä: nelje+Num+Pl+Ess
 !!€ neljissä: nelje+Num+Pl+Ine
-!!€ neljäin: nelje+Num+Pl+Gen+Use/Rare ! (Ei ole olemassa kveeniksi) 
 0:e  NUM_FRONT_NOMINATIVE ;
 0:e  NUM_FRONT_PARTITIVE_E   ;
 0:he NUM_FRONT_ILLATIVE_EN    ;
@@ -580,7 +579,7 @@ LEXICON NUM_MILJOONA
 0       NUM_BACK_PLURALS  ;
 0:a     NUM_BACK_PARTITIVE_A      ;
 0:ha    NUM_BACK_ILLATIVE_AN     ;
-0       NUM_BACK_PARTITIVE_IA    ;
+0       NUM_BACK_PARTITIVE_II    ;
 0       NUM_BACK_GENITIVE_IEN    ;
 0:a     NUM_BACK_GENITIVE_IN    ;
 0       NUM_BACK_ILLATIVE_HIIN   ;
@@ -635,11 +634,11 @@ LEXICON NUM_PARI
 0:i     NUM_BACK_NOMINATIVE    ;
 0:i     NUM_BACK_SINGULARS    ;
 0:e     NUM_BACK_PLURALS   ;
-0:i     NUM_BACK_PARTITIVE_A_AN  ;
+0       NUM_BACK_PARTITIVE_II_Sg  ;
+0       NUM_BACK_PARTITIVE_II  ;
 0:i     NUM_BACK_ILLATIVE_IN ;
-0:e     NUM_BACK_PARTITIVE_JA    ;
-0       NUM_BACK_GENITIVE_IEN    ;
-0:e     NUM_BACK_ILLATIVE_IHIN   ;
+0       NUM_BACK_GENITIVE_IIN   ;
+0       NUM_BACK_ILLATIVE_HIIN  ;
 
 
 LEXICON NUM_ENSIMMÄINEN
