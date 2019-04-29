@@ -544,8 +544,8 @@ LEXICON NUM_TUHAT
 !!€ tuhat: tuhat+Num+Sg+Nom
 !!€ tuhantheen: tuhat+Num+Sg+Ill
 !!€ tuhantena: tuhat+Num+Sg+Ess
-!!€ tuhannessa: tuhat+Num+Sg+Ine
-!!€ tuhansien: tuhat+Num+Pl+Gen
+!!€ tuhanessa: tuhat+Num+Sg+Ine
+!!€ tuhanssiitten: tuhat+Num+Pl+Gen
 !!€ tuhatta: tuhat+Num+Sg+Par
 !!€ tuhansii: tuhat+Num+Pl+Par
 !!€ tuhansiin: tuhat+Num+Pl+Gen
@@ -553,9 +553,9 @@ LEXICON NUM_TUHAT
 !!€ tuhansina: tuhat+Num+Pl+Ess
 !!€ tuhansissa: tuhat+Num+Pl+Ine
 0:t     NUM_BACK_NOMINATIVE ;
-0:nte   NUM_BACK_ILLATIVE_EN    ;
+0:nthe   NUM_BACK_ILLATIVE_EN    ;
 0:nte   NUM_BACK_STRONG_SINGULARS   ;
-0:nne   NUM_BACK_WEAK_SINGULARS   ;
+0:ne   NUM_BACK_WEAK_SINGULARS   ;
 0:n     NUM_BACK_GENITIVE_TEN   ;
 0:t     NUM_BACK_PARTITIVE_TA   ;
 0:ns    NUM_BACK_PARTITIVE_IA   ;
