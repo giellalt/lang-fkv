@@ -633,7 +633,7 @@ LEXICON NUM_PARI
 !!€ parhiin: pari+Num+Sg+Ill
 0:i     NUM_BACK_NOMINATIVE    ;
 0:i     NUM_BACK_SINGULARS    ;
-0:i     NUM_BACK_PLURALS   ;
+0:i^WG  NUM_BACK_PLURALS   ;
 0       NUM_BACK_PARTITIVE_II_Sg  ;
 0       NUM_BACK_PARTITIVE_II  ;
 0:i     NUM_BACK_ILLATIVE_IN ;
