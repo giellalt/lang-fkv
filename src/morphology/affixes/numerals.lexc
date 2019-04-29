@@ -155,10 +155,10 @@ LEXICON NUM_BACK_PARTITIVE_A
 LEXICON NUM_BACK_PARTITIVE_E
 +Sg+Par:%>e      NUM_BACK_POSS_OPT      ;
 
-LEXICON NUM_BACK_PARTITIVE_A_AN
+!LEXICON NUM_BACK_PARTITIVE_A_AN
 !!€gt-norm: Numeral singular partitive a poss aan
 !!€ kolmea: kolme+Num+Card+Sg+Par three
-+Sg+Par:%>a      NUM_BACK_POSS_AN_OPT      ;
+!+Sg+Par:%>a      NUM_BACK_POSS_AN_OPT      ;
 
 LEXICON NUM_BACK_PARTITIVE_TA
 !!€gt-norm: Numeral singular partitive ta
@@ -205,10 +205,10 @@ LEXICON NUM_BACK_ILLATIVE_HIIN_Sg
 +Sg+Ill:%>hi%>in    #     ;
 +Sg+Ill:%>hi%>i     NUM_BACK_POSS     ;
 
-LEXICON NUM_BACK_PARTITIVE_IA
+!LEXICON NUM_BACK_PARTITIVE_IA
 !!€gt-norm: Numeral plural partitive ia
 !!€ kaksia: kaksi+Num+Card+Pl+Par
-+Pl+Par:%>i%>a    NUM_BACK_POSS_AN_OPT      ;
+!+Pl+Par:%>i%>a    NUM_BACK_POSS_AN_OPT      ;
 
 LEXICON NUM_BACK_PARTITIVE_II
 +Pl+Par:%>i%>i    NUM_BACK_POSS_AN_OPT      ;
