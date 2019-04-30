@@ -157,8 +157,8 @@ LEXICON NUM_ORD_ALL
 !! The compounding parts of ordinals are the number multiplier words.
 !!€gt-norm: Ordinal numerals
 !!€ neljäs: neljäs+Num+Ord+Sg+Nom
-!!€ viidennelle: viides+Num+Ord+Sg+All
-!!€ tuhannetta: tuhannes+Num+Ord+Sg+Par
+!!€ viidenelle: viides+Num+Ord+Sg+All
+!!€ tuhanetta: tuhanes+Num+Ord+Sg+Par
 ensimäinen+Num+Ord:ensimäi    NUM_ENSIMMÄINEN ;
 yhdes+Num+Ord:yhde              NUM_NELJÄS ;
 toinen+Num+Ord:toi              NUM_TOINEN ;
@@ -222,10 +222,10 @@ LEXICON NUM_ORD_SUFFIX
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Ordinal multiplicants
 !!€ viideskymmenes: viides+Num+Ord+Sg+Nom#kymmenes
-!!€ neljässadastuhannes: neljäs+Num+Ord+Sg+Nom#sadas+Num+Ord+Sg+Nom#tuhannes
+!!€ neljässadastuhanes: neljäs+Num+Ord+Sg+Nom#sadas+Num+Ord+Sg+Nom#tuhannes
 kymmenes # ;
 sadas # ;
-tuhannes # ;
+tuhanes # ;
 miljoonas # ;
 miljardis # ;
 biljoonas # ;
