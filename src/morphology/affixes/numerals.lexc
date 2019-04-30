@@ -175,19 +175,34 @@ LEXICON NUM_FRONT_WEAK_PLURALS_LL
 +Pl+Ade:%>i%>llä   NUM_FRONT_POSS_ÄN_OPT      ;
 +Pl+All:%>i%>lle  NUM_FRONT_POSS_ÄN_OPT      ;
 
-LEXICON NUM_FRONT_STRONG_PLURALS
+LEXICON NUM_FRONT_STRONG_PLURALS_N
 !!€gt-norm: Numeral weak plural back strong
 !!€ kaksina: kaksi+Num+Card+Pl+Ess
 !!€ kaksine: kaksi+Num+Card+Com
 +Pl+Ess:%>i%>nä   NUM_FRONT_POSS_ÄN_OPT      ;
 +Pl+Com:%>i%>ne        NUM_FRONT_POSS_ÄN_OPT      ;
 
-LEXICON NUM_BACK_STRONG_PLURALS
+LEXICON NUM_FRONT_STRONG_PLURALS_NN
+!!€gt-norm: Numeral weak plural back strong
+!!€ kaksina: kaksi+Num+Card+Pl+Ess
+!!€ kaksine: kaksi+Num+Card+Com
++Pl+Ess:%>i%>nnä   NUM_FRONT_POSS_ÄN_OPT      ;
++Pl+Com:%>i%>nne        NUM_FRONT_POSS_ÄN_OPT      ; ! Pituusreekeli on voimassa myös komitatiivissa
+
+LEXICON NUM_BACK_STRONG_PLURALS_N
 !!€gt-norm: Numeral weak plural front strong
 !!€ yksinä: yksi+Num+Card+Pl+Ess
 !!€ yksine: yksi+Num+Card+Com
 +Pl+Ess:%>i%>na   NUM_BACK_POSS_AN_OPT      ;
 +Pl+Com:%>i%>ne   NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_STRONG_PLURALS_NN
+!!€gt-norm: Numeral weak plural front strong
+!!€ yksinä: yksi+Num+Card+Pl+Ess
+!!€ yksine: yksi+Num+Card+Com
++Pl+Ess:%>i%>nna   NUM_BACK_POSS_AN_OPT      ;
++Pl+Com:%>i%>nne   NUM_BACK_POSS_AN_OPT      ;  ! Pituusreekeli on voimassa myös komitatiivissa
+
 
 
 ! allomorphs
@@ -477,12 +492,12 @@ LEXICON NUM_FRONT_SINGULARS
 0    NUM_FRONT_WEAK_SINGULARS   ;
 
 LEXICON NUM_FRONT_PLURALS
-0   NUM_FRONT_STRONG_PLURALS ;
+!0   NUM_FRONT_STRONG_PLURALS ;
 0   NUM_FRONT_WEAK_PLURALS ;
 
 LEXICON NUM_BACK_PLURALS
-0   NUM_BACK_STRONG_PLURALS ;
 0   NUM_BACK_WEAK_PLURALS ;
+
 
 LEXICON NUM_BACK_POSS_AN_OPT
 0    NUM_BACK_POSS   ;
