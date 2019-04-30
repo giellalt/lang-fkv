@@ -93,7 +93,7 @@ LEXICON NUM_CARD_SUFFIX
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Cardinal multiplicants
 !!€ viisikymmentä: viisi+Num+Sg+Nom#kymmentä
-!!€ neljesataatuhatta: neljä+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta
+!!€ neljesattaatuhatta: nelje+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta
 kymmentä    #   ;
 sataa       #   ;
 tuhatta     #   ;
@@ -157,22 +157,22 @@ LEXICON NUM_ORD_ALL
 !! The compounding parts of ordinals are the number multiplier words.
 !!€gt-norm: Ordinal numerals
 !!€ neljes: neljes+Num+Ord+Sg+Nom
-!!€ viiđenelle: viides+Num+Ord+Sg+All
+!!€ viiđenele: viiđes+Num+Ord+Sg+All
 !!€ tuhanetta: tuhanes+Num+Ord+Sg+Par
 ensimäinen+Num+Ord:ensimäi    NUM_ENSIMMÄINEN ;
-yhdes+Num+Ord:yhde              NUM_NELJÄS ;
+yhđes+Num+Ord:yhđe              NUM_NELJÄS ;
 toinen+Num+Ord:toi              NUM_TOINEN ;
-kahdes+Num+Ord:kahde            NUM_KOLMAS ;
+kahđes+Num+Ord:kahđe            NUM_KOLMAS ;
 kolmas+Num+Ord:kolma            NUM_KOLMAS ;
 neljes+Num+Ord:nelje            NUM_NELJÄS ;
-viides+Num+Ord:viide            NUM_NELJÄS ;
+viiđes+Num+Ord:viiđe            NUM_NELJÄS ;
 kuudes+Num+Ord:kuude            NUM_KOLMAS ;
 seitsemäs+Num+Ord:seitsemä      NUM_NELJÄS ;
-kahdeksas+Num+Ord:kahdeksa      NUM_KOLMAS ;
-yhdeksäs+Num+Ord:yhdeksä        NUM_NELJÄS ;
+kahđekses+Num+Ord:kahđekse      NUM_KOLMAS ;
+yhđekses+Num+Ord:yhđekse        NUM_NELJÄS ;
 kymmenes+Num+Ord:kymmene        NUM_NELJÄS ;
 sadas+Num+Ord:sada              NUM_KOLMAS ;
-tuhannes+Num+Ord:tuhanne        NUM_KOLMAS ;
+tuhanes+Num+Ord:tuhane        NUM_KOLMAS ;
 miljoonas+Num+Ord:miljoona  NUM_KOLMAS ;
 miljardis+Num+Ord:miljardi  NUM_KOLMAS   ;
 biljoonas+Num+Ord:biljoona  NUM_KOLMAS ;
@@ -221,8 +221,8 @@ piljardis+Num+Ord:piljardi  NUM_KOLMAS   ;
 LEXICON NUM_ORD_SUFFIX
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Ordinal multiplicants
-!!€ viideskymmenes: viides+Num+Ord+Sg+Nom#kymmenes
-!!€ neljässadastuhanes: neljäs+Num+Ord+Sg+Nom#sadas+Num+Ord+Sg+Nom#tuhannes
+!!€ viiđeskymmenes: viiđes+Num+Ord+Sg+Nom#kymmenes
+!!€ neljessadastuhanes: neljes+Num+Ord+Sg+Nom#sadas+Num+Ord+Sg+Nom#tuhannes
 kymmenes # ;
 sadas # ;
 tuhanes # ;
@@ -796,7 +796,7 @@ LEXICON NUM_NELJÄS
 0:nthe  NUM_FRONT_ILLATIVE_EN    ;
 0:nte   NUM_FRONT_STRONG_SINGULARS   ;
 0:nte   NUM_FRONT_STRONG_SINGULARS_NNA ;
-0:nne   NUM_FRONT_WEAK_SINGULARS   ;
+0:ne    NUM_FRONT_WEAK_SINGULARS   ;
 0:t     NUM_FRONT_PARTITIVE_TÄ   ;
 0:nss   NUM_FRONT_PARTITIVE_II   ;
 0:nss   NUM_FRONT_GENITIVE_IITTEN   ;
