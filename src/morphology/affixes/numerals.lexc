@@ -360,10 +360,13 @@ LEXICON NUM_BACK_ILLATIVE_HIIN
 +Pl+Ill:%>hi%>in    #     ;
 +Pl+Ill:%>hi%>i     NUM_BACK_POSS     ;
 
-
 LEXICON NUM_FRONT_ILLATIVE_HIIN
 +Pl+Ill:%>hi%>in    #     ;
 +Pl+Ill:%>hi%>i     NUM_FRONT_POSS     ;
+
+LEXICON NUM_BACK_ILLATIVE_HOIN
++Pl+Ill:%>ho%>in    #     ;
++Pl+Ill:%>ho%>i     NUM_BACK_POSS     ;
 
 ! possessives
 LEXICON NUM_BACK_POSS
