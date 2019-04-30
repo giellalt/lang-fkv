@@ -592,10 +592,9 @@ LEXICON NUM_TUHAT
 !!€ tuhantheen: tuhat+Num+Sg+Ill
 !!€ tuhantenna: tuhat+Num+Sg+Ess
 !!€ tuhanessa: tuhat+Num+Sg+Ine
-!!€ tuhanssiitten: tuhat+Num+Pl+Gen
 !!€ tuhatta: tuhat+Num+Sg+Par
-!!€ tuhansii: tuhat+Num+Pl+Par
-!!€ tuhansiin: tuhat+Num+Pl+Gen
+!!€ tuhanssii: tuhat+Num+Pl+Par
+!!€ tuhanssiitten: tuhat+Num+Pl+Gen
 !!€ tuhanshiin: tuhat+Num+Pl+Ill
 !!€ tuhansinna: tuhat+Num+Pl+Ess
 !!€ tuhansissa: tuhat+Num+Pl+Ine
@@ -608,7 +607,7 @@ LEXICON NUM_TUHAT
 0:n     NUM_BACK_GENITIVE_TEN     ;
 0:t     NUM_BACK_PARTITIVE_TA     ;
 0:nss   NUM_BACK_PARTITIVE_II     ;
-0:ns    NUM_BACK_GENITIVE_IITTEN  ;
+0:nss   NUM_BACK_GENITIVE_IITTEN  ;
 0:ns    NUM_BACK_ILLATIVE_HIIN    ;
 0:ns    NUM_BACK_PLURALS ;
 0:ns    NUM_BACK_STRONG_PLURALS_NN ;
@@ -714,6 +713,7 @@ LEXICON NUM_ENSIMMÄINEN
 !!€ ensimäisessä: ensimäinen+Num+Ord+Sg+Ine
 !!€ ensimäistä: ensimäinen+Num+Ord+Sg+Par
 !!€ ensimäisten: ensimäinen+Num+Ord+Pl+Gen
+!!€ ensimäissiitten: ensimäinen+Num+Ord+Pl+Gen
 !!€ ensimäissii: ensimäinen+Num+Ord+Pl+Par
 !!€ ensimäishiin: ensimäinen+Num+Ord+Pl+Ill
 !!€ ensimäisinä: ensimäinen+Num+Ord+Pl+Ess
@@ -725,7 +725,7 @@ LEXICON NUM_ENSIMMÄINEN
 0:s     NUM_FRONT_PARTITIVE_TÄ   ;
 0:s     NUM_FRONT_GENITIVE_TEN   ;
 0:ss    NUM_FRONT_PARTITIVE_II   ;
-0:ss    NUM_FRONT_GENITIVE_IIN   ;
+0:ss    NUM_FRONT_GENITIVE_IITTEN ;
 0:s     NUM_FRONT_ILLATIVE_HIIN  ;
 0:s     NUM_FRONT_PLURALS ;
 0:s     NUM_FRONT_STRONG_PLURALS_N ;
@@ -765,7 +765,7 @@ LEXICON NUM_KOLMAS
 !!€ kolmantheen: kolmas+Num+Ord+Sg+Ill
 !!€ kolmatta: kolmas+Num+Ord+Sg+Par
 !!€ kolmanssii: kolmas+Num+Ord+Pl+Par
-!!€ kolmanssiin: kolmas+Num+Ord+Pl+Gen
+!!€ kolmanssiitten: kolmas+Num+Ord+Pl+Gen
 !!€ kolmansissa: kolmas+Num+Ord+Pl+Ine
 !!€ kolmansinna: kolmas+Num+Ord+Pl+Ess
 0:s     NUM_BACK_NOMINATIVE ;
@@ -775,7 +775,7 @@ LEXICON NUM_KOLMAS
 0:ne    NUM_BACK_WEAK_SINGULARS ;
 0:t     NUM_BACK_PARTITIVE_TA   ;
 0:nss   NUM_BACK_PARTITIVE_II   ;
-0:nss   NUM_BACK_GENITIVE_IIN   ;
+0:nss   NUM_BACK_GENITIVE_IITTEN   ;
 0:ns    NUM_BACK_ILLATIVE_IIN   ;
 0:ns    NUM_BACK_PLURALS ;
 0:ns    NUM_BACK_STRONG_PLURALS_NN ;
@@ -788,7 +788,7 @@ LEXICON NUM_NELJÄS
 !!€ neljennessä: neljes+Num+Ord+Sg+Ine
 !!€ neljettä: neljes+Num+Ord+Sg+Par
 !!€ neljenssii: neljes+Num+Ord+Pl+Par
-!!€ neljenssiin: neljes+Num+Ord+Pl+Gen
+!!€ neljenssiitten: neljes+Num+Ord+Pl+Gen
 !!€ neljenshiin: neljes+Num+Ord+Pl+Ill
 !!€ neljensissä: neljes+Num+Ord+Pl+Ine
 !!€ neljensinnä: neljes+Num+Ord+Pl+Ess
@@ -799,7 +799,7 @@ LEXICON NUM_NELJÄS
 0:nne   NUM_FRONT_WEAK_SINGULARS   ;
 0:t     NUM_FRONT_PARTITIVE_TÄ   ;
 0:nss   NUM_FRONT_PARTITIVE_II   ;
-0:nss   NUM_FRONT_GENITIVE_IIN   ;
+0:nss   NUM_FRONT_GENITIVE_IITTEN   ;
 0:ns    NUM_FRONT_ILLATIVE_HIIN  ;
 0:ns    NUM_FRONT_PLURALS ;
 0:ns    NUM_FRONT_STRONG_PLURALS_NN ;
