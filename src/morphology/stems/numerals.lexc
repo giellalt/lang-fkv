@@ -26,7 +26,7 @@ LEXICON NUM_CARD_ALL
 !! The compounding parts of cardinals are the number multiplier words.
 !!€gt-norm: cardinal
 !!€ yksi: yksi+Num+Sg+Nom !one
-!!€ viidele: viisi+Num+Sg+All !five
+!!€ viiđele: viisi+Num+Sg+All !five
 !!€ tuhatta: tuhat+Num+Sg+Par !thousand
 yksi+Num:y             NUM_YKSI  ;
 kaksi+Num:ka           NUM_KAKSI ;
@@ -93,7 +93,7 @@ LEXICON NUM_CARD_SUFFIX
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Cardinal multiplicants
 !!€ viisikymmentä: viisi+Num+Sg+Nom#kymmentä
-!!€ neljäsataatuhatta: neljä+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta
+!!€ neljesataatuhatta: neljä+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta
 kymmentä    #   ;
 sataa       #   ;
 tuhatta     #   ;
