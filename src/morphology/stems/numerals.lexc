@@ -11,7 +11,7 @@ LEXICON NUM
 !! of cardinals and ordinals, and the non-compounding ones:
 !!€gt-norm: Numeral
 !!€ kaksikymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par ! 23,000
-!!€ kahđessađasneljes: kahdes+Num+Ord+Sg+Nom#sadas+Num+Ord+Sg+Nom#neljäs+Num+Ord+Sg+Nom  ! 204rd
+!!€ kahđessađasneljes: kahđes+Num+Ord+Sg+Nom#sadas+Num+Ord+Sg+Nom#neljäs+Num+Ord+Sg+Nom  ! 204rd
 !!€ viitisenkymmentä: viitisen+Num#kymmentä  ! 50-ish
 0    NUM_CARD_ALL    ;
 0    NUM_ORD_ALL ;
@@ -156,7 +156,7 @@ kymmenettä      #    ;
 LEXICON NUM_ORD_ALL
 !! The compounding parts of ordinals are the number multiplier words.
 !!€gt-norm: Ordinal numerals
-!!€ neljäs: neljäs+Num+Ord+Sg+Nom
+!!€ neljes: neljes+Num+Ord+Sg+Nom
 !!€ viiđenelle: viides+Num+Ord+Sg+All
 !!€ tuhanetta: tuhanes+Num+Ord+Sg+Par
 ensimäinen+Num+Ord:ensimäi    NUM_ENSIMMÄINEN ;
