@@ -27,7 +27,7 @@ LEXICON NUM_FRONT_PLNOM_CLIT
 ! basic cases
 LEXICON NUM_BACK_WEAK_SINGULARS
 !!€gt-norm: Numeral weak singular back
-!!€ kahđen: kaksi+Num+Card+Sg+Gen
+!!€ kahđen: kaksi+Num+Sg+Gen
 !!€ kahđela: kaksi+Num+Sg+Ade
 !!€ kahđelta: kaksi+Num+Sg+Abl
 !!€ kahđele: kaksi+Num+Sg+All
@@ -59,7 +59,7 @@ LEXICON NUM_BACK_SINGULARS_LL
 
 LEXICON NUM_FRONT_WEAK_SINGULARS
 !!€gt-norm: Numeral weak singular front
-!!€ yhđen: yksi+Num+Card+Sg+Gen
+!!€ yhđen: yksi+Num+Sg+Gen
 !!€ yhđelä: yksi+Num+Sg+Ade
 !!€ yhđeltä: yksi+Num+Sg+Abl
 !!€ yhđele: yksi+Num+Sg+All
@@ -178,28 +178,28 @@ LEXICON NUM_FRONT_WEAK_PLURALS_LL
 LEXICON NUM_FRONT_STRONG_PLURALS_N
 !!€gt-norm: Numeral weak plural back strong
 !!€ kaksina: kaksi+Num+Pl+Ess
-!!€ kaksine: kaksi+Num+Com
+!!€ kaksine: kaksi+Num+Pl+Com
 +Pl+Ess:%>i%>nä   NUM_FRONT_POSS_ÄN_OPT      ;
 +Pl+Com:%>i%>ne        NUM_FRONT_POSS_ÄN_OPT      ;
 
 LEXICON NUM_FRONT_STRONG_PLURALS_NN
 !!€gt-norm: Numeral weak plural back strong
 !!€ kaksina: kaksi+Num+Pl+Ess
-!!€ kaksine: kaksi+Num+Com
+!!€ kaksine: kaksi+Num+Pl+Com
 +Pl+Ess:%>i%>nnä   NUM_FRONT_POSS_ÄN_OPT      ;
 +Pl+Com:%>i%>nne        NUM_FRONT_POSS_ÄN_OPT      ; ! Pituusreekeli on voimassa myös komitatiivissa
 
 LEXICON NUM_BACK_STRONG_PLURALS_N
 !!€gt-norm: Numeral weak plural front strong
 !!€ yksinä: yksi+Num+Pl+Ess
-!!€ yksine: yksi+Num+Com
+!!€ yksine: yksi+Num+Pl+Com
 +Pl+Ess:^Por%>i%>na   NUM_BACK_POSS_AN_OPT      ;
 +Pl+Com:^Por%>i%>ne   NUM_BACK_POSS_AN_OPT      ;
 
 LEXICON NUM_BACK_STRONG_PLURALS_NN
 !!€gt-norm: Numeral weak plural front strong
 !!€ yksinä: yksi+Num+Pl+Ess
-!!€ yksine: yksi+Num+Com
+!!€ yksine: yksi+Num+Pl+Com
 +Pl+Ess:%>i%>nna   NUM_BACK_POSS_AN_OPT      ;
 +Pl+Com:%>i%>nne   NUM_BACK_POSS_AN_OPT      ;  ! Pituusreekeli on voimassa myös komitatiivissa
 
@@ -208,7 +208,7 @@ LEXICON NUM_BACK_STRONG_PLURALS_NN
 ! allomorphs
 LEXICON NUM_BACK_PARTITIVE_A
 !!€gt-norm: Numeral singular partitive a
-!!€ kahđeksee: kahdeksan+Num+Sg+Par !eight
+!!€ kahđeksee: kahđeksen+Num+Sg+Par !eight
 +Sg+Par:%>a      NUM_BACK_POSS_OPT      ;
 
 LEXICON NUM_BACK_PARTITIVE_E
@@ -235,7 +235,7 @@ LEXICON NUM_FRONT_PARTITIVE_E
 
 LEXICON NUM_BACK_ILLATIVE_AN
 !!€gt-norm: Numeral singular illative an
-!!€ kahđeksheen: kahdeksan+Num+Sg+Ill
+!!€ kahđeksheen: kahđeksen+Num+Sg+Ill
 +Sg+Ill:%>an     #         ;
 +Sg+Ill:%>a      NUM_BACK_POSS     ;
 
@@ -324,13 +324,15 @@ LEXICON NUM_BACK_GENITIVE_IITTEN
 
 LEXICON NUM_BACK_GENITIVE_TEN
 !!€gt-norm: Numeral plural genitive ten back
-!!€ kuutten: kuusi+Num+Pl+Gen
+!!€ kuussiin: kuusi+Num+Pl+Gen
+!!€ kuutten: kuusi+Num+Pl+Gen !kuussiin on tärkeämpi
 +Pl+Gen:%>ten    #     ;
 +Pl+Gen:%>te     NUM_BACK_POSS     ;
 
 LEXICON NUM_FRONT_GENITIVE_TEN
 !!€gt-norm: Numeral plural genitive ten front
-!!€ viitten: viisi+Num+Pl+Gen
+!!€ viissiin: viisi+Num+Pl+Gen 
+!!€ viitten: viisi+Num+Pl+Gen !viissiin on tärkeämpi
 +Pl+Gen:%>ten    #     ;
 +Pl+Gen:%>te     NUM_FRONT_POSS     ;
 
@@ -371,7 +373,7 @@ LEXICON NUM_BACK_ILLATIVE_HOIN
 ! possessives
 LEXICON NUM_BACK_POSS
 !!€gt-norm: Numeral possessive back
-!!€ kahteni: kaksi+Num+Sg+Nom+PxSg1
+!!€ kahteni: kaksi+Num+Sg+Nom+PxSg1 !Kainun kielessä possessiivisuffiksiita käytethään aika vähän. Annamme niiden olla täällä toistaiseksi.
 +PxSg1:%>ni  NUM_BACK_CLIT_OPT        ;
 +PxSg2:%>si  NUM_BACK_CLIT_OPT        ;
 +PxSg3:%>nsa NUM_BACK_CLIT_OPT        ;
@@ -391,24 +393,27 @@ LEXICON NUM_FRONT_POSS
 
 LEXICON NUM_BACK_POSS_AN
 !!€gt-norm: Numeral possessive back aan
-!!€ kolmean: kolme+Num+Sg+Par+PxSg3
+!!€ kolmeensa: kolme+Num+Sg+Par+PxSg3
 +PxSg3:%>an    NUM_BACK_CLIT_OPT     ;
 +PxPl3:%>an    NUM_BACK_CLIT_OPT     ;
 
 LEXICON NUM_BACK_POSS_EN
 !!€gt-norm: Numeral possessive back eenback
+!!€ kahđeksensa: kaksi+Num+Sg+Tra+PxSg3
 !!€ kahđekseen: kaksi+Num+Sg+Tra+PxSg3
 +PxSg3:%>en    NUM_BACK_CLIT_OPT     ;
 +PxPl3:%>en    NUM_BACK_CLIT_OPT     ;
 
 LEXICON NUM_FRONT_POSS_EN
 !!€gt-norm: Numeral possessive back een front
+!!€ neljeksensä: nelje+Num+Sg+Tra+PxSg3
 !!€ neljekseen: nelje+Num+Sg+Tra+PxSg3
 +PxSg3:%>en    NUM_FRONT_CLIT_OPT     ;
 +PxPl3:%>en    NUM_FRONT_CLIT_OPT     ;
 
 LEXICON NUM_FRONT_POSS_ÄN
 !!€gt-norm: Numeral possessive back ään
+!!€ viittänsä: viisi+Num+Sg+Par+PxSg3
 !!€ viittään: viisi+Num+Sg+Par+PxSg3
 +PxSg3:%>än    NUM_FRONT_CLIT_OPT     ;
 +PxPl3:%>än    NUM_FRONT_CLIT_OPT     ;
