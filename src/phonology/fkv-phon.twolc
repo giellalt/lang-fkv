@@ -329,7 +329,7 @@ Rules
         [.#.|#:] Cns:*  Vow v _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
         [.#.|#:] Cns:*  Vow v _  ä:  (Dial:) %> :i %> :i ; ! jyvä jyvviin, jyvvii
         [.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
-        [.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :a %> :a ;
+        ![.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :a %> :a ;
                               [l|r|n|m] v _ :Vow %>  i7: ;
                               [l|r|n|m] v _ :i       %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                               [l|r|n|m] :v _ e: %^E2I:0 %> i2: %>   %^V: ;
