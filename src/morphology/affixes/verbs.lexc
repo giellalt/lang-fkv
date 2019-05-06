@@ -202,6 +202,7 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+Act+PrfPrc+Sg+Nom:h%>^N^U K ;
 +V+Act+Ind+Prt+ConNeg+Sg:h%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
++V+Pass+PrfPrc+Pl+Nom:h%>đ^U%>t K ;
 !+V+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
 +V+Act+PrfPrc:h%>^N PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:kkee%>v^A K ;
@@ -242,6 +243,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+Act+PrfPrc+Sg+Nom:h%>^n^U K ;
 +V+Act+Inf+Prt+ConNeg+Sg:h%>^n^U K ;
 +V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
++V+Pass+PrfPrc+Pl+Nom:h%>đ^U%>t K ; 
 !+V+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
 +V+Act+PrfPrc:h%>^N PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:kkee%>v^A K ;
