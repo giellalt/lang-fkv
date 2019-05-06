@@ -274,7 +274,7 @@ Rules
           [.#.|#:] Cns:* Vow:+ s _ y: [%> :y|%> i2: (%> n) # ] ;
           [.#.|#:] Cns:* Vow:+ s _ u: [%> %^V:u|%> i2: (%> n) #]  ;
           [.#.|#:] Cns:* Vow:+ s _ o %> :o ;
-          [.#.|#:] Cns:* Vow:+ s _ e (Dial:) %> :e ;
+          [.#.|#:] Cns:* Vow:+ s _ %> :e (Dial:) :e ; ! pestä:pessee
                      [l|r|n|m] s _ :Vow %>  i7: ;
                      [l|r|n|m] s _ :i         [ %> %^V:i| (%^AO:0) %> i2: (%> n) # ] ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                      [l|r|n|m] :s _ e: %^E2I:0 %> i2: %>   %^V: ;
