@@ -918,6 +918,48 @@ LEXICON v43_odd !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Act+Inf3+Abe:%>^V%>m^Att^A K ;
 +V+Act+Inf3:%>^V%>m^A MATON ;
 
+
+LEXICON v43_odd_II !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
++V+Inf:^WG%>i%>t^A K ;
++V+Act+Ind+Prs+Sg3:%>^V K ; !
++V+Act+Ind+Prs+Pl3:^WG%>i%>th^A^An K ;
++V+Act+Ind+Prt+Sg3:%>i%>s K ;
++V+Act+Ind+Prt+Sg3:%>i%>si K ; ! XXX not-norm?
++V+Act+Ind+Prt+Pl3:^WG%>i%>thiin K ;
++V+Act+Ind+Prs:%>^V v12pers_short ;
++V+Act+Ind+Prt:%>i%>si v12pers_long ;
++V+Pass+Ind+Prs:^WG%>i%>th^A^An K ;
++V+Pass+Ind+Prt:^WG%>i%>thiin K ;
++V+Act+PrfPrc+Sg+Nom:^WG%>i%>^N^U K ;
++V+Act+Ind+Prt+ConNeg+Sg:^WG%>i%>^N^U K ;
++V+Pass+PrfPrc+Sg+Nom:^WG%>i%>tt^U K ;
++V+Pass+PrfPrc+Pl+Nom:^WG%>i%>t^U%>t K ;
+!+V+Act+PrfPrc:^WG%>^Nhee PRFPRC_OBL ;
++V+Act+PrfPrc:^WG%>i%>^N PRFPRC_OBL ;
++V+Act+PrsPrc+Sg+Nom:%>^V%>i%>v^A K ;
++V+Act+PrsPrc+Pl+Nom:%>^V%>i%>v^At K ;
++V+Pass+PrsPrc+Sg+Nom:^WG%>i%>tt^A%>v^A K ;
++V+Pass+PrsPrc+Pl+Nom:^WG%>i%>tt^A%>v^At K ;
++V+Act+Ind+Prs+ConNeg:%>^V K ;
+
++V+Act+Cond+Sg1:%>i%>i7sin K ; ! jatkaisin, pölkkäisin
++V+Act+Cond+Sg2:%>i7sit K ;
++V+Act+Cond+Sg3:%>i7s K ;
++V+Act+Cond+Pl1:%>i7simm^A K ;
++V+Act+Cond+Pl2:%>i7sitt^A K ;
++V+Act+Cond+Pl3:^WG%>tt^A%>i7s K ;
++V+Pass+Cond:^WG%>i%>tt^A%>i7s K ;
+
++V+Act+Imprt+Sg2:%>^V K   ;
++V+Act+Imprt+Pl2:^WG%>kk^A^A K ;
+
++V+Act+Inf3+Ine:%>^V%>m^Ass^A K ;
++V+Act+Inf3+Ela:%>^V%>m^Ast^A K ;
++V+Act+Inf3+Ill:%>^V%>mh^A^An K ;
++V+Act+Inf3+Ade:%>^V%>m^All^A K ;
++V+Act+Inf3+Abe:%>^V%>m^Att^A K ;
++V+Act+Inf3:%>^V%>m^A MATON ;
+
 !! !!Verbien persoonapäätteet
 
 !! Tämä osa antaa personapäätteet.
