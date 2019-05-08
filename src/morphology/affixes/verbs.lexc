@@ -471,7 +471,7 @@ LEXICON v3_ele_notinf
 +V+Pass+Ind+Prs:^WG%>h^A^An K ;
 +V+Pass+Ind+Prt:^WG%>thiin K ; 
 +V+Pass+PrfPrc+Sg+Nom:^WG%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG%>t^U%>t K ;
++V+Pass+PrfPrc+Pl+Nom:^WG%>^U%>t K ;
 !+V+Act+PrfPrc:^WG^hee PRFPRC_OBL ;
 +V+Act+PrfPrc:^WG%> PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>le%>^V%>v^A K ;
@@ -570,7 +570,7 @@ LEXICON v3_ise_inflection
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-!+V+Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ; !Täytyy löytää oikean muodon
++V+Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ; 
 !+V+Act+PrfPrc:^WG%>^hee PRFPRC_OBL ;
 +V+Act+PrfPrc:^WG%> PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>se%>^V%>v^A K ;
@@ -695,7 +695,7 @@ LEXICON v3piera !!= @CODE@ pierä:pie
 +V+Act+Ind+Prt:%>r%>i3^WG v12pers_short ;
 +V+Act+PrfPrc+Sg+Nom:%>r%>^N^U K ; !! * Lyhyt partisiippi
 +V+Pass+PrfPrc+Sg+Nom:%>r%>t^U K ; !! * Lyhyt partisiippi
-!+V+Pass+PrfPrc+Pl+Nom:%>r%>t^U K ; !Täytyy löytää oikean muodon
++V+Pass+PrfPrc+Pl+Nom:%>rr%>^U%>t K ; 
 !+V+Act+PrfPrc:%>rhee PRFPRC_OBL ;
 +V+Act+PrfPrc:%>r PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>r%>^N%>ee%>v^A K ;
@@ -735,7 +735,7 @@ LEXICON v3juosta !!= @CODE@ juosta:juo
 +V+Act+PrfPrc+Sg+Nom:s%>^N^U K ;
 +V+Act+Ind+Prt+ConNeg+Sg:s%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>st^U K ;
-!+V+Pass+PrfPrc+Pl+Nom:%>st^U K ; !Täytyy löytää oikean muodon
++V+Pass+PrfPrc+Pl+Nom:%>st^U K ; !Täytyy löytää oikean muodon
 !+V+Act+PrfPrc:s%>hee PRFPRC_OBL ;
 +V+Act+PrfPrc:s%> PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:ksee%>v^A K ;
