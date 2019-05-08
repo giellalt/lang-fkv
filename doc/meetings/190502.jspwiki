@@ -37,6 +37,7 @@ Muut kysymykset
 
 * Miksi on olemassa yksi jono, missä *tämä* saa *+Pers*-tagin? Outoa on, että persoona-pronominit ei toimi jos se poistetaan tahi kommentoidhaan pois.
 
+{{{
 tämä+Pron+Dem:tä            tama_pron ;
 
 tämä+Pron+Pers+Sg1:tä       12pronsg  ;
@@ -45,7 +46,6 @@ mie+Pron+Pers+Sg1:m        12pronsg       ; !!= * @CODE@
 tämä oon (Dem)
 ja mie oon (Pers)
 
-{{{
 täie
 täie        tämä+Pron+Pers+Sg1+Nom
 
@@ -129,12 +129,12 @@ Ratkaisu:
 * Ottaa esille kaikki käännösten alkuperäiset norjankieliset dokumentit, ja ajaa ne sanakirjan läpi. Lisätä sanakirjaan.
 * Ottaa esille kaikki käännökset, ajaa analysaattorin läpi, lisätä.
 
+{{{
 antiword *.doc |
 cat mandat | 
 
 preprocess| unob|cut -f2|cut -d"+" -f1|uniq|sort|uniq -c|sort -nr|cut -c6-|nobfkv|grep "?"
 
-{{{
 cat ~/Downloads/mandat.txt| 
 preprocess| 
 unob|
