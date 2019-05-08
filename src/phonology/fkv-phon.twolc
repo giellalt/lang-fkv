@@ -152,7 +152,7 @@ Rules
                 Vow:+       k _ Vow:           %> i2:i  %>  :i                      ; ! pena-penniin,huppiin,eilaki-lakkiin? was: %^V:i
                 Vow:+       k _ e:             %> i7:i  Cns                         ; ! contr verbs
                 Vow:+ [k|k2:] _ Vow:       [%> %^V:i | %^AO: %> i2: (%> n) # ]      ; ! sopi soppii
- [.#.|#:] Cns:* Vow:+ [k|k2:] _ a: %^Por:0 [%> :a | %^AO: %> i2: (%> n) #]  ; ! Only in Por, 0:k kk
+ [.#.|#:] Cns:* Vow:+ [k|k2:|k3:] _ a: (%^Por:0) [%> :a | %^AO: %> i2: (%> n) #]  ; ! Only in Por, 0:k kk
  [.#.|#:] Cns:* Vow:+       k _ a  %> :a                ; ! jakkaat:jakkaa
  [.#.|#:] Cns:* Vow:+       k _ ä  %> :ä                ;
  [.#.|#:] Cns:* Vow:+       k _ ö  %> [:ö|i2: (%> n) #] ;
