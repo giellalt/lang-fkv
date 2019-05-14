@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (tammikuun 8. päivänä 2019, klo. 12:2)</title>  
+    <title>Generoidut muodot (toukokuun 14. päivänä 2019, klo. 14:56)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -19,6 +19,7 @@
 <tr><td>kannela+V+Act+PrfPrc+Sg+Nom</td><td>kannelu</td></tr>
 <tr><td>kuunela+V+Act+PrfPrc+Sg+Nom</td><td>kuunelu</td></tr>
 <tr><td>tapela+V+Act+PrfPrc+Sg+Nom</td><td>tapelu</td></tr>
+<tr><td>vaitela+V+Act+PrfPrc+Sg+Nom</td><td>vaitelu</td></tr>
 <tr><td>koitela+V+Act+PrfPrc+Sg+Nom</td><td>koitelu</td></tr>
 <tr><td>poltela+V+Act+PrfPrc+Sg+Nom</td><td>poltelu</td></tr>
 <tr><td>totela+V+Act+PrfPrc+Sg+Nom</td><td>totelu</td></tr>
@@ -161,6 +162,17 @@
 <tr><td>kuula+V+Act+PrfPrc+Sg+Nom</td><td>kuullu</td></tr>
 <tr><td>luula+V+Act+PrfPrc+Sg+Nom</td><td>luullu</td></tr>
 <tr><td>tuula+V+Act+PrfPrc+Sg+Nom</td><td>tuullu</td></tr>
+<tr><td>laađata+V+Act+PrfPrc+Sg+Nom</td><td>laađanu</td></tr>
+<tr><td>lahđata+V+Act+PrfPrc+Sg+Nom</td><td>lahđanu</td></tr>
+<tr><td>frahđata+V+Act+PrfPrc+Sg+Nom</td><td>frahđanu</td></tr>
+<tr><td>vahđata+V+Act+PrfPrc+Sg+Nom</td><td>vahđanu</td></tr>
+<tr><td>kehđata+V+Act+PrfPrc+Sg+Nom</td><td>kehđanu</td></tr>
+<tr><td>hihđata+V+Act+PrfPrc+Sg+Nom</td><td>hihđanu</td></tr>
+<tr><td>sihđata+V+Act+PrfPrc+Sg+Nom</td><td>sihđanu</td></tr>
+<tr><td>kohđata+V+Act+PrfPrc+Sg+Nom</td><td>kohđanu</td></tr>
+<tr><td>aiđata+V+Act+PrfPrc+Sg+Nom</td><td>aiđanu</td></tr>
+<tr><td>luođata+V+Act+PrfPrc+Sg+Nom</td><td>luođanu</td></tr>
+<tr><td>hauđata+V+Act+PrfPrc+Sg+Nom</td><td>hauđanu</td></tr>
 <tr><td>maata+V+Act+PrfPrc+Sg+Nom</td><td>maanu</td></tr>
 <tr><td>saađa+V+Act+PrfPrc+Sg+Nom</td><td>saanu</td></tr>
 <tr><td>hengata+V+Act+PrfPrc+Sg+Nom</td><td>henganu</td></tr>
@@ -178,6 +190,7 @@
 <tr><td>ajjaat+V+Act+PrfPrc+Sg+Nom</td><td>ajanu</td></tr>
 <tr><td>rajata+V+Act+PrfPrc+Sg+Nom</td><td>rajanu</td></tr>
 <tr><td>ohjata+V+Act+PrfPrc+Sg+Nom</td><td>ohjanu</td></tr>
+<tr><td>keijata+V+Act+PrfPrc+Sg+Nom</td><td>keijanu</td></tr>
 <tr><td>speijata+V+Act+PrfPrc+Sg+Nom</td><td>speijanu</td></tr>
 <tr><td>puijata+V+Act+PrfPrc+Sg+Nom</td><td>puijanu</td></tr>
 <tr><td>nojata+V+Act+PrfPrc+Sg+Nom</td><td>nojanu</td></tr>
@@ -211,6 +224,7 @@
 <tr><td>kokata+V+Act+PrfPrc+Sg+Nom</td><td>kokanu</td></tr>
 <tr><td>plokata+V+Act+PrfPrc+Sg+Nom</td><td>plokanu</td></tr>
 <tr><td>mookata+V+Act+PrfPrc+Sg+Nom</td><td>mookanu</td></tr>
+<tr><td>huokata+V+Act+PrfPrc+Sg+Nom</td><td>huokanu</td></tr>
 <tr><td>muokata+V+Act+PrfPrc+Sg+Nom</td><td>muokanu</td></tr>
 <tr><td>kurkata+V+Act+PrfPrc+Sg+Nom</td><td>kurkanu</td></tr>
 <tr><td>purkkaat+V+Act+PrfPrc+Sg+Nom</td><td>purkanu</td></tr>
@@ -363,6 +377,7 @@
 <tr><td>kaattaat+V+Act+PrfPrc+Sg+Nom</td><td>kaatanu</td></tr>
 <tr><td>praatata+V+Act+PrfPrc+Sg+Nom</td><td>praatanu</td></tr>
 <tr><td>mahtaat+V+Act+PrfPrc+Sg+Nom</td><td>mahtanu</td></tr>
+<tr><td>frahtata+V+Act+PrfPrc+Sg+Nom</td><td>frahtanu</td></tr>
 <tr><td>haitata+V+Act+PrfPrc+Sg+Nom</td><td>haitanu</td></tr>
 <tr><td>viitata+V+Act+PrfPrc+Sg+Nom</td><td>viitanu</td></tr>
 <tr><td>mitata+V+Act+PrfPrc+Sg+Nom</td><td>mitanu</td></tr>
@@ -443,17 +458,6 @@
 <tr><td>kuvata+V+Act+PrfPrc+Sg+Nom</td><td>kuvanu</td></tr>
 <tr><td>luvata+V+Act+PrfPrc+Sg+Nom</td><td>luvanu</td></tr>
 <tr><td>skruuvata+V+Act+PrfPrc+Sg+Nom</td><td>skruuvanu</td></tr>
-<tr><td>laađata+V+Act+PrfPrc+Sg+Nom</td><td>laađanu</td></tr>
-<tr><td>lahđata+V+Act+PrfPrc+Sg+Nom</td><td>lahđanu</td></tr>
-<tr><td>frahđata+V+Act+PrfPrc+Sg+Nom</td><td>frahđanu</td></tr>
-<tr><td>vahđata+V+Act+PrfPrc+Sg+Nom</td><td>vahđanu</td></tr>
-<tr><td>kehđata+V+Act+PrfPrc+Sg+Nom</td><td>kehđanu</td></tr>
-<tr><td>hihđata+V+Act+PrfPrc+Sg+Nom</td><td>hihđanu</td></tr>
-<tr><td>sihđata+V+Act+PrfPrc+Sg+Nom</td><td>sihđanu</td></tr>
-<tr><td>kohđata+V+Act+PrfPrc+Sg+Nom</td><td>kohđanu</td></tr>
-<tr><td>aiđata+V+Act+PrfPrc+Sg+Nom</td><td>aiđanu</td></tr>
-<tr><td>luođata+V+Act+PrfPrc+Sg+Nom</td><td>luođanu</td></tr>
-<tr><td>hauđata+V+Act+PrfPrc+Sg+Nom</td><td>hauđanu</td></tr>
 <tr><td>langeta+V+Act+PrfPrc+Sg+Nom</td><td>langenu</td></tr>
 <tr><td>vanheta+V+Act+PrfPrc+Sg+Nom</td><td>vanhenu</td></tr>
 <tr><td>pajeta+V+Act+PrfPrc+Sg+Nom</td><td>pajenu</td></tr>
@@ -463,6 +467,7 @@
 <tr><td>muijeta+V+Act+PrfPrc+Sg+Nom</td><td>muijenu</td></tr>
 <tr><td>haljeta+V+Act+PrfPrc+Sg+Nom</td><td>haljenu</td></tr>
 <tr><td>valjeta+V+Act+PrfPrc+Sg+Nom</td><td>valjenu</td></tr>
+<tr><td>noveta+V+Act+PrfPrc+Sg+Nom</td><td>nojenu</td></tr>
 <tr><td>tarjeta+V+Act+PrfPrc+Sg+Nom</td><td>tarjenu</td></tr>
 <tr><td>lujeta+V+Act+PrfPrc+Sg+Nom</td><td>lujenu</td></tr>
 <tr><td>hakkeet+V+Act+PrfPrc+Sg+Nom</td><td>hakenu</td></tr>
@@ -471,7 +476,6 @@
 <tr><td>kulkkeet+V+Act+PrfPrc+Sg+Nom</td><td>kulkenu</td></tr>
 <tr><td>sulkkeet+V+Act+PrfPrc+Sg+Nom</td><td>sulkenu</td></tr>
 <tr><td>kokkeet+V+Act+PrfPrc+Sg+Nom</td><td>kokenu</td></tr>
-<tr><td>noveta+V+Act+PrfPrc+Sg+Nom</td><td>nokenu</td></tr>
 <tr><td>laskeet+V+Act+PrfPrc+Sg+Nom</td><td>laskenu</td></tr>
 <tr><td>koskeet+V+Act+PrfPrc+Sg+Nom</td><td>koskenu</td></tr>
 <tr><td>puskeet+V+Act+PrfPrc+Sg+Nom</td><td>puskenu</td></tr>
@@ -567,7 +571,6 @@
 <tr><td>probeerata+V+Act+PrfPrc+Sg+Nom</td><td>probeerannu</td></tr>
 <tr><td>approbeerata+V+Act+PrfPrc+Sg+Nom</td><td>approbeerannu</td></tr>
 <tr><td>barbeerata+V+Act+PrfPrc+Sg+Nom</td><td>barbeerannu</td></tr>
-<tr><td>glattbarbeerata+V+Act+PrfPrc+Sg+Nom</td><td>glattbarbeerannu</td></tr>
 <tr><td>absorbeerata+V+Act+PrfPrc+Sg+Nom</td><td>absorbeerannu</td></tr>
 <tr><td>adsorbeerata+V+Act+PrfPrc+Sg+Nom</td><td>adsorbeerannu</td></tr>
 <tr><td>masturbeerata+V+Act+PrfPrc+Sg+Nom</td><td>masturbeerannu</td></tr>
@@ -575,7 +578,6 @@
 <tr><td>radeerata+V+Act+PrfPrc+Sg+Nom</td><td>radeerannu</td></tr>
 <tr><td>paradeerata+V+Act+PrfPrc+Sg+Nom</td><td>paradeerannu</td></tr>
 <tr><td>gradeerata+V+Act+PrfPrc+Sg+Nom</td><td>gradeerannu</td></tr>
-<tr><td>nedgradeerata+V+Act+PrfPrc+Sg+Nom</td><td>nedgradeerannu</td></tr>
 <tr><td>degradeerata+V+Act+PrfPrc+Sg+Nom</td><td>degradeerannu</td></tr>
 <tr><td>tradeerata+V+Act+PrfPrc+Sg+Nom</td><td>tradeerannu</td></tr>
 <tr><td>invadeerata+V+Act+PrfPrc+Sg+Nom</td><td>invadeerannu</td></tr>
@@ -615,15 +617,12 @@
 <tr><td>implodeerata+V+Act+PrfPrc+Sg+Nom</td><td>implodeerannu</td></tr>
 <tr><td>eksplodeerata+V+Act+PrfPrc+Sg+Nom</td><td>eksplodeerannu</td></tr>
 <tr><td>brodeerata+V+Act+PrfPrc+Sg+Nom</td><td>brodeerannu</td></tr>
-<tr><td>utbrodeerata+V+Act+PrfPrc+Sg+Nom</td><td>utbrodeerannu</td></tr>
 <tr><td>erodeerata+V+Act+PrfPrc+Sg+Nom</td><td>erodeerannu</td></tr>
 <tr><td>korrodeerata+V+Act+PrfPrc+Sg+Nom</td><td>korrodeerannu</td></tr>
 <tr><td>bombardeerata+V+Act+PrfPrc+Sg+Nom</td><td>bombardeerannu</td></tr>
 <tr><td>gardeerata+V+Act+PrfPrc+Sg+Nom</td><td>gardeerannu</td></tr>
 <tr><td>retardeerata+V+Act+PrfPrc+Sg+Nom</td><td>retardeerannu</td></tr>
 <tr><td>vurdeerata+V+Act+PrfPrc+Sg+Nom</td><td>vurdeerannu</td></tr>
-<tr><td>nedvurdeerata+V+Act+PrfPrc+Sg+Nom</td><td>nedvurdeerannu</td></tr>
-<tr><td>undervurdeerata+V+Act+PrfPrc+Sg+Nom</td><td>undervurdeerannu</td></tr>
 <tr><td>overvurdeerata+V+Act+PrfPrc+Sg+Nom</td><td>overvurdeerannu</td></tr>
 <tr><td>applaudeerata+V+Act+PrfPrc+Sg+Nom</td><td>applaudeerannu</td></tr>
 <tr><td>inkludeerata+V+Act+PrfPrc+Sg+Nom</td><td>inkludeerannu</td></tr>
@@ -631,20 +630,15 @@
 <tr><td>ekskludeerata+V+Act+PrfPrc+Sg+Nom</td><td>ekskludeerannu</td></tr>
 <tr><td>illudeerata+V+Act+PrfPrc+Sg+Nom</td><td>illudeerannu</td></tr>
 <tr><td>studeerata+V+Act+PrfPrc+Sg+Nom</td><td>studeerannu</td></tr>
-<tr><td>finstudeerata+V+Act+PrfPrc+Sg+Nom</td><td>finstudeerannu</td></tr>
-<tr><td>innstudeerata+V+Act+PrfPrc+Sg+Nom</td><td>innstudeerannu</td></tr>
-<tr><td>kreeerata+V+Act+PrfPrc+Sg+Nom</td><td>kreeerannu</td></tr>
 <tr><td>telegrafeerata+V+Act+PrfPrc+Sg+Nom</td><td>telegrafeerannu</td></tr>
 <tr><td>koreografeerata+V+Act+PrfPrc+Sg+Nom</td><td>koreografeerannu</td></tr>
 <tr><td>fotografeerata+V+Act+PrfPrc+Sg+Nom</td><td>fotografeerannu</td></tr>
-<tr><td>avfotografeerata+V+Act+PrfPrc+Sg+Nom</td><td>avfotografeerannu</td></tr>
 <tr><td>staffeerata+V+Act+PrfPrc+Sg+Nom</td><td>staffeerannu</td></tr>
 <tr><td>skamfeerata+V+Act+PrfPrc+Sg+Nom</td><td>skamfeerannu</td></tr>
 <tr><td>triumfeerata+V+Act+PrfPrc+Sg+Nom</td><td>triumfeerannu</td></tr>
 <tr><td>filosofeerata+V+Act+PrfPrc+Sg+Nom</td><td>filosofeerannu</td></tr>
 <tr><td>ageerata+V+Act+PrfPrc+Sg+Nom</td><td>ageerannu</td></tr>
 <tr><td>reageerata+V+Act+PrfPrc+Sg+Nom</td><td>reageerannu</td></tr>
-<tr><td>utageerata+V+Act+PrfPrc+Sg+Nom</td><td>utageerannu</td></tr>
 <tr><td>delegeerata+V+Act+PrfPrc+Sg+Nom</td><td>delegeerannu</td></tr>
 <tr><td>privilegeerata+V+Act+PrfPrc+Sg+Nom</td><td>privilegeerannu</td></tr>
 <tr><td>segregeerata+V+Act+PrfPrc+Sg+Nom</td><td>segregeerannu</td></tr>
@@ -652,7 +646,6 @@
 <tr><td>priviligeerata+V+Act+PrfPrc+Sg+Nom</td><td>priviligeerannu</td></tr>
 <tr><td>erigeerata+V+Act+PrfPrc+Sg+Nom</td><td>erigeerannu</td></tr>
 <tr><td>dirigeerata+V+Act+PrfPrc+Sg+Nom</td><td>dirigeerannu</td></tr>
-<tr><td>omdirigeerata+V+Act+PrfPrc+Sg+Nom</td><td>omdirigeerannu</td></tr>
 <tr><td>korrigeerata+V+Act+PrfPrc+Sg+Nom</td><td>korrigeerannu</td></tr>
 <tr><td>intrigeerata+V+Act+PrfPrc+Sg+Nom</td><td>intrigeerannu</td></tr>
 <tr><td>navigeerata+V+Act+PrfPrc+Sg+Nom</td><td>navigeerannu</td></tr>
@@ -687,7 +680,6 @@
 <tr><td>eksproprieerata+V+Act+PrfPrc+Sg+Nom</td><td>eksproprieerannu</td></tr>
 <tr><td>repatrieerata+V+Act+PrfPrc+Sg+Nom</td><td>repatrieerannu</td></tr>
 <tr><td>finansieerata+V+Act+PrfPrc+Sg+Nom</td><td>finansieerannu</td></tr>
-<tr><td>lånefinansieerata+V+Act+PrfPrc+Sg+Nom</td><td>lånefinansieerannu</td></tr>
 <tr><td>refinansieerata+V+Act+PrfPrc+Sg+Nom</td><td>refinansieerannu</td></tr>
 <tr><td>delfinansieerata+V+Act+PrfPrc+Sg+Nom</td><td>delfinansieerannu</td></tr>
 <tr><td>lisensieerata+V+Act+PrfPrc+Sg+Nom</td><td>lisensieerannu</td></tr>
@@ -734,7 +726,6 @@
 <tr><td>etableerata+V+Act+PrfPrc+Sg+Nom</td><td>etableerannu</td></tr>
 <tr><td>reetableerata+V+Act+PrfPrc+Sg+Nom</td><td>reetableerannu</td></tr>
 <tr><td>møbleerata+V+Act+PrfPrc+Sg+Nom</td><td>møbleerannu</td></tr>
-<tr><td>ommøbleerata+V+Act+PrfPrc+Sg+Nom</td><td>ommøbleerannu</td></tr>
 <tr><td>deleerata+V+Act+PrfPrc+Sg+Nom</td><td>deleerannu</td></tr>
 <tr><td>krakeleerata+V+Act+PrfPrc+Sg+Nom</td><td>krakeleerannu</td></tr>
 <tr><td>kokkeleerata+V+Act+PrfPrc+Sg+Nom</td><td>kokkeleerannu</td></tr>
@@ -763,18 +754,14 @@
 <tr><td>kontrolleerata+V+Act+PrfPrc+Sg+Nom</td><td>kontrolleerannu</td></tr>
 <tr><td>annulleerata+V+Act+PrfPrc+Sg+Nom</td><td>annulleerannu</td></tr>
 <tr><td>rulleerata+V+Act+PrfPrc+Sg+Nom</td><td>rulleerannu</td></tr>
-<tr><td>innrulleerata+V+Act+PrfPrc+Sg+Nom</td><td>innrulleerannu</td></tr>
 <tr><td>kondoleerata+V+Act+PrfPrc+Sg+Nom</td><td>kondoleerannu</td></tr>
 <tr><td>skoleerata+V+Act+PrfPrc+Sg+Nom</td><td>skoleerannu</td></tr>
-<tr><td>omskoleerata+V+Act+PrfPrc+Sg+Nom</td><td>omskoleerannu</td></tr>
 <tr><td>demoleerata+V+Act+PrfPrc+Sg+Nom</td><td>demoleerannu</td></tr>
 <tr><td>poleerata+V+Act+PrfPrc+Sg+Nom</td><td>poleerannu</td></tr>
 <tr><td>ekstrapoleerata+V+Act+PrfPrc+Sg+Nom</td><td>ekstrapoleerannu</td></tr>
-<tr><td>blankpoleerata+V+Act+PrfPrc+Sg+Nom</td><td>blankpoleerannu</td></tr>
 <tr><td>interpoleerata+V+Act+PrfPrc+Sg+Nom</td><td>interpoleerannu</td></tr>
 <tr><td>spoleerata+V+Act+PrfPrc+Sg+Nom</td><td>spoleerannu</td></tr>
 <tr><td>isoleerata+V+Act+PrfPrc+Sg+Nom</td><td>isoleerannu</td></tr>
-<tr><td>etterisoleerata+V+Act+PrfPrc+Sg+Nom</td><td>etterisoleerannu</td></tr>
 <tr><td>kontempleerata+V+Act+PrfPrc+Sg+Nom</td><td>kontempleerannu</td></tr>
 <tr><td>suppleerata+V+Act+PrfPrc+Sg+Nom</td><td>suppleerannu</td></tr>
 <tr><td>fabuleerata+V+Act+PrfPrc+Sg+Nom</td><td>fabuleerannu</td></tr>
@@ -783,7 +770,6 @@
 <tr><td>deerataguleerata+V+Act+PrfPrc+Sg+Nom</td><td>deerataguleerannu</td></tr>
 <tr><td>reguleerata+V+Act+PrfPrc+Sg+Nom</td><td>reguleerannu</td></tr>
 <tr><td>detaljreguleerata+V+Act+PrfPrc+Sg+Nom</td><td>detaljreguleerannu</td></tr>
-<tr><td>omreguleerata+V+Act+PrfPrc+Sg+Nom</td><td>omreguleerannu</td></tr>
 <tr><td>indeksreguleerata+V+Act+PrfPrc+Sg+Nom</td><td>indeksreguleerannu</td></tr>
 <tr><td>lovreguleerata+V+Act+PrfPrc+Sg+Nom</td><td>lovreguleerannu</td></tr>
 <tr><td>ejakuleerata+V+Act+PrfPrc+Sg+Nom</td><td>ejakuleerannu</td></tr>
@@ -798,7 +784,6 @@
 <tr><td>resirkuleerata+V+Act+PrfPrc+Sg+Nom</td><td>resirkuleerannu</td></tr>
 <tr><td>simuleerata+V+Act+PrfPrc+Sg+Nom</td><td>simuleerannu</td></tr>
 <tr><td>stimuleerata+V+Act+PrfPrc+Sg+Nom</td><td>stimuleerannu</td></tr>
-<tr><td>understimuleerata+V+Act+PrfPrc+Sg+Nom</td><td>understimuleerannu</td></tr>
 <tr><td>formuleerata+V+Act+PrfPrc+Sg+Nom</td><td>formuleerannu</td></tr>
 <tr><td>reformuleerata+V+Act+PrfPrc+Sg+Nom</td><td>reformuleerannu</td></tr>
 <tr><td>spissformuleerata+V+Act+PrfPrc+Sg+Nom</td><td>spissformuleerannu</td></tr>
@@ -831,7 +816,6 @@
 <tr><td>optimeerata+V+Act+PrfPrc+Sg+Nom</td><td>optimeerannu</td></tr>
 <tr><td>estimeerata+V+Act+PrfPrc+Sg+Nom</td><td>estimeerannu</td></tr>
 <tr><td>programmeerata+V+Act+PrfPrc+Sg+Nom</td><td>programmeerannu</td></tr>
-<tr><td>omprogrammeerata+V+Act+PrfPrc+Sg+Nom</td><td>omprogrammeerannu</td></tr>
 <tr><td>summeerata+V+Act+PrfPrc+Sg+Nom</td><td>summeerannu</td></tr>
 <tr><td>lobotomeerata+V+Act+PrfPrc+Sg+Nom</td><td>lobotomeerannu</td></tr>
 <tr><td>armeerata+V+Act+PrfPrc+Sg+Nom</td><td>armeerannu</td></tr>
@@ -877,7 +861,6 @@
 <tr><td>disiplineerata+V+Act+PrfPrc+Sg+Nom</td><td>disiplineerannu</td></tr>
 <tr><td>lamineerata+V+Act+PrfPrc+Sg+Nom</td><td>lamineerannu</td></tr>
 <tr><td>eksamineerata+V+Act+PrfPrc+Sg+Nom</td><td>eksamineerannu</td></tr>
-<tr><td>uteksamineerata+V+Act+PrfPrc+Sg+Nom</td><td>uteksamineerannu</td></tr>
 <tr><td>kontamineerata+V+Act+PrfPrc+Sg+Nom</td><td>kontamineerannu</td></tr>
 <tr><td>insemineerata+V+Act+PrfPrc+Sg+Nom</td><td>insemineerannu</td></tr>
 <tr><td>elimineerata+V+Act+PrfPrc+Sg+Nom</td><td>elimineerannu</td></tr>
@@ -918,10 +901,7 @@
 <tr><td>funksjoneerata+V+Act+PrfPrc+Sg+Nom</td><td>funksjoneerannu</td></tr>
 <tr><td>auksjoneerata+V+Act+PrfPrc+Sg+Nom</td><td>auksjoneerannu</td></tr>
 <tr><td>dimensjoneerata+V+Act+PrfPrc+Sg+Nom</td><td>dimensjoneerannu</td></tr>
-<tr><td>underdimensjoneerata+V+Act+PrfPrc+Sg+Nom</td><td>underdimensjoneerannu</td></tr>
-<tr><td>overdimensjoneerata+V+Act+PrfPrc+Sg+Nom</td><td>overdimensjoneerannu</td></tr>
 <tr><td>pensjoneerata+V+Act+PrfPrc+Sg+Nom</td><td>pensjoneerannu</td></tr>
-<tr><td>førtidspensjoneerata+V+Act+PrfPrc+Sg+Nom</td><td>førtidspensjoneerannu</td></tr>
 <tr><td>mosjoneerata+V+Act+PrfPrc+Sg+Nom</td><td>mosjoneerannu</td></tr>
 <tr><td>porsjoneerata+V+Act+PrfPrc+Sg+Nom</td><td>porsjoneerannu</td></tr>
 <tr><td>kausjoneerata+V+Act+PrfPrc+Sg+Nom</td><td>kausjoneerannu</td></tr>
@@ -938,7 +918,6 @@
 <tr><td>opponeerata+V+Act+PrfPrc+Sg+Nom</td><td>opponeerannu</td></tr>
 <tr><td>disponeerata+V+Act+PrfPrc+Sg+Nom</td><td>disponeerannu</td></tr>
 <tr><td>predisponeerata+V+Act+PrfPrc+Sg+Nom</td><td>predisponeerannu</td></tr>
-<tr><td>omdisponeerata+V+Act+PrfPrc+Sg+Nom</td><td>omdisponeerannu</td></tr>
 <tr><td>undeerataksponeerata+V+Act+PrfPrc+Sg+Nom</td><td>undeerataksponeerannu</td></tr>
 <tr><td>oveerataksponeerata+V+Act+PrfPrc+Sg+Nom</td><td>oveerataksponeerannu</td></tr>
 <tr><td>eksponeerata+V+Act+PrfPrc+Sg+Nom</td><td>eksponeerannu</td></tr>
@@ -953,7 +932,6 @@
 <tr><td>turneerata+V+Act+PrfPrc+Sg+Nom</td><td>turneerannu</td></tr>
 <tr><td>returneerata+V+Act+PrfPrc+Sg+Nom</td><td>returneerannu</td></tr>
 <tr><td>spiuneerata+V+Act+PrfPrc+Sg+Nom</td><td>spiuneerannu</td></tr>
-<tr><td>utbasuneerata+V+Act+PrfPrc+Sg+Nom</td><td>utbasuneerannu</td></tr>
 <tr><td>drapeerata+V+Act+PrfPrc+Sg+Nom</td><td>drapeerannu</td></tr>
 <tr><td>krepeerata+V+Act+PrfPrc+Sg+Nom</td><td>krepeerannu</td></tr>
 <tr><td>skalpeerata+V+Act+PrfPrc+Sg+Nom</td><td>skalpeerannu</td></tr>
@@ -994,7 +972,6 @@
 <tr><td>inkorporeerata+V+Act+PrfPrc+Sg+Nom</td><td>inkorporeerannu</td></tr>
 <tr><td>monitoreerata+V+Act+PrfPrc+Sg+Nom</td><td>monitoreerannu</td></tr>
 <tr><td>konkurreerata+V+Act+PrfPrc+Sg+Nom</td><td>konkurreerannu</td></tr>
-<tr><td>utkonkurreerata+V+Act+PrfPrc+Sg+Nom</td><td>utkonkurreerannu</td></tr>
 <tr><td>penetreerata+V+Act+PrfPrc+Sg+Nom</td><td>penetreerannu</td></tr>
 <tr><td>titreerata+V+Act+PrfPrc+Sg+Nom</td><td>titreerannu</td></tr>
 <tr><td>filtreerata+V+Act+PrfPrc+Sg+Nom</td><td>filtreerannu</td></tr>
@@ -1003,8 +980,6 @@
 <tr><td>kastreerata+V+Act+PrfPrc+Sg+Nom</td><td>kastreerannu</td></tr>
 <tr><td>orkestreerata+V+Act+PrfPrc+Sg+Nom</td><td>orkestreerannu</td></tr>
 <tr><td>registreerata+V+Act+PrfPrc+Sg+Nom</td><td>registreerannu</td></tr>
-<tr><td>omregistreerata+V+Act+PrfPrc+Sg+Nom</td><td>omregistreerannu</td></tr>
-<tr><td>avregistreerata+V+Act+PrfPrc+Sg+Nom</td><td>avregistreerannu</td></tr>
 <tr><td>administreerata+V+Act+PrfPrc+Sg+Nom</td><td>administreerannu</td></tr>
 <tr><td>demonstreerata+V+Act+PrfPrc+Sg+Nom</td><td>demonstreerannu</td></tr>
 <tr><td>illustreerata+V+Act+PrfPrc+Sg+Nom</td><td>illustreerannu</td></tr>
@@ -1017,14 +992,11 @@
 <tr><td>faktureerata+V+Act+PrfPrc+Sg+Nom</td><td>faktureerannu</td></tr>
 <tr><td>struktureerata+V+Act+PrfPrc+Sg+Nom</td><td>struktureerannu</td></tr>
 <tr><td>restruktureerata+V+Act+PrfPrc+Sg+Nom</td><td>restruktureerannu</td></tr>
-<tr><td>omstruktureerata+V+Act+PrfPrc+Sg+Nom</td><td>omstruktureerannu</td></tr>
 <tr><td>tortureerata+V+Act+PrfPrc+Sg+Nom</td><td>tortureerannu</td></tr>
 <tr><td>manøvreerata+V+Act+PrfPrc+Sg+Nom</td><td>manøvreerannu</td></tr>
-<tr><td>utmanøvreerata+V+Act+PrfPrc+Sg+Nom</td><td>utmanøvreerannu</td></tr>
 <tr><td>baseerata+V+Act+PrfPrc+Sg+Nom</td><td>baseerannu</td></tr>
 <tr><td>glaseerata+V+Act+PrfPrc+Sg+Nom</td><td>glaseerannu</td></tr>
 <tr><td>spaseerata+V+Act+PrfPrc+Sg+Nom</td><td>spaseerannu</td></tr>
-<tr><td>avspaseerata+V+Act+PrfPrc+Sg+Nom</td><td>avspaseerannu</td></tr>
 <tr><td>raseerata+V+Act+PrfPrc+Sg+Nom</td><td>raseerannu</td></tr>
 <tr><td>parafraseerata+V+Act+PrfPrc+Sg+Nom</td><td>parafraseerannu</td></tr>
 <tr><td>fantaseerata+V+Act+PrfPrc+Sg+Nom</td><td>fantaseerannu</td></tr>
@@ -1057,7 +1029,6 @@
 <tr><td>notifiseerata+V+Act+PrfPrc+Sg+Nom</td><td>notifiseerannu</td></tr>
 <tr><td>sertifiseerata+V+Act+PrfPrc+Sg+Nom</td><td>sertifiseerannu</td></tr>
 <tr><td>mystifiseerata+V+Act+PrfPrc+Sg+Nom</td><td>mystifiseerannu</td></tr>
-<tr><td>avmystifiseerata+V+Act+PrfPrc+Sg+Nom</td><td>avmystifiseerannu</td></tr>
 <tr><td>infiseerata+V+Act+PrfPrc+Sg+Nom</td><td>infiseerannu</td></tr>
 <tr><td>desinfiseerata+V+Act+PrfPrc+Sg+Nom</td><td>desinfiseerannu</td></tr>
 <tr><td>katalogiseerata+V+Act+PrfPrc+Sg+Nom</td><td>katalogiseerannu</td></tr>
@@ -1090,7 +1061,6 @@
 <tr><td>signaliseerata+V+Act+PrfPrc+Sg+Nom</td><td>signaliseerannu</td></tr>
 <tr><td>marginaliseerata+V+Act+PrfPrc+Sg+Nom</td><td>marginaliseerannu</td></tr>
 <tr><td>kriminaliseerata+V+Act+PrfPrc+Sg+Nom</td><td>kriminaliseerannu</td></tr>
-<tr><td>avkriminaliseerata+V+Act+PrfPrc+Sg+Nom</td><td>avkriminaliseerannu</td></tr>
 <tr><td>nasjonaliseerata+V+Act+PrfPrc+Sg+Nom</td><td>nasjonaliseerannu</td></tr>
 <tr><td>internasjonaliseerata+V+Act+PrfPrc+Sg+Nom</td><td>internasjonaliseerannu</td></tr>
 <tr><td>rasjonaliseerata+V+Act+PrfPrc+Sg+Nom</td><td>rasjonaliseerannu</td></tr>
@@ -1190,7 +1160,6 @@
 <tr><td>presiseerata+V+Act+PrfPrc+Sg+Nom</td><td>presiseerannu</td></tr>
 <tr><td>musiseerata+V+Act+PrfPrc+Sg+Nom</td><td>musiseerannu</td></tr>
 <tr><td>dramatiseerata+V+Act+PrfPrc+Sg+Nom</td><td>dramatiseerannu</td></tr>
-<tr><td>avdramatiseerata+V+Act+PrfPrc+Sg+Nom</td><td>avdramatiseerannu</td></tr>
 <tr><td>problematiseerata+V+Act+PrfPrc+Sg+Nom</td><td>problematiseerannu</td></tr>
 <tr><td>tematiseerata+V+Act+PrfPrc+Sg+Nom</td><td>tematiseerannu</td></tr>
 <tr><td>systematiseerata+V+Act+PrfPrc+Sg+Nom</td><td>systematiseerannu</td></tr>
@@ -1237,7 +1206,6 @@
 <tr><td>pulseerata+V+Act+PrfPrc+Sg+Nom</td><td>pulseerannu</td></tr>
 <tr><td>lanseerata+V+Act+PrfPrc+Sg+Nom</td><td>lanseerannu</td></tr>
 <tr><td>balanseerata+V+Act+PrfPrc+Sg+Nom</td><td>balanseerannu</td></tr>
-<tr><td>avbalanseerata+V+Act+PrfPrc+Sg+Nom</td><td>avbalanseerannu</td></tr>
 <tr><td>relanseerata+V+Act+PrfPrc+Sg+Nom</td><td>relanseerannu</td></tr>
 <tr><td>distanseerata+V+Act+PrfPrc+Sg+Nom</td><td>distanseerannu</td></tr>
 <tr><td>avanseerata+V+Act+PrfPrc+Sg+Nom</td><td>avanseerannu</td></tr>
@@ -1259,9 +1227,7 @@
 <tr><td>forseerata+V+Act+PrfPrc+Sg+Nom</td><td>forseerannu</td></tr>
 <tr><td>kasseerata+V+Act+PrfPrc+Sg+Nom</td><td>kasseerannu</td></tr>
 <tr><td>trakasseerata+V+Act+PrfPrc+Sg+Nom</td><td>trakasseerannu</td></tr>
-<tr><td>innkasseerata+V+Act+PrfPrc+Sg+Nom</td><td>innkasseerannu</td></tr>
 <tr><td>plasseerata+V+Act+PrfPrc+Sg+Nom</td><td>plasseerannu</td></tr>
-<tr><td>innplasseerata+V+Act+PrfPrc+Sg+Nom</td><td>innplasseerannu</td></tr>
 <tr><td>masseerata+V+Act+PrfPrc+Sg+Nom</td><td>masseerannu</td></tr>
 <tr><td>passeerata+V+Act+PrfPrc+Sg+Nom</td><td>passeerannu</td></tr>
 <tr><td>dresseerata+V+Act+PrfPrc+Sg+Nom</td><td>dresseerannu</td></tr>
@@ -1293,7 +1259,6 @@
 <tr><td>formateerata+V+Act+PrfPrc+Sg+Nom</td><td>formateerannu</td></tr>
 <tr><td>kurateerata+V+Act+PrfPrc+Sg+Nom</td><td>kurateerannu</td></tr>
 <tr><td>konstateerata+V+Act+PrfPrc+Sg+Nom</td><td>konstateerannu</td></tr>
-<tr><td>handteerata+V+Act+PrfPrc+Sg+Nom</td><td>handteerannu</td></tr>
 <tr><td>profeteerata+V+Act+PrfPrc+Sg+Nom</td><td>profeteerannu</td></tr>
 <tr><td>vegeteerata+V+Act+PrfPrc+Sg+Nom</td><td>vegeteerannu</td></tr>
 <tr><td>repeteerata+V+Act+PrfPrc+Sg+Nom</td><td>repeteerannu</td></tr>
@@ -1308,8 +1273,6 @@
 <tr><td>hospiteerata+V+Act+PrfPrc+Sg+Nom</td><td>hospiteerannu</td></tr>
 <tr><td>friteerata+V+Act+PrfPrc+Sg+Nom</td><td>friteerannu</td></tr>
 <tr><td>prioriteerata+V+Act+PrfPrc+Sg+Nom</td><td>prioriteerannu</td></tr>
-<tr><td>nedprioriteerata+V+Act+PrfPrc+Sg+Nom</td><td>nedprioriteerannu</td></tr>
-<tr><td>omprioriteerata+V+Act+PrfPrc+Sg+Nom</td><td>omprioriteerannu</td></tr>
 <tr><td>irriteerata+V+Act+PrfPrc+Sg+Nom</td><td>irriteerannu</td></tr>
 <tr><td>siteerata+V+Act+PrfPrc+Sg+Nom</td><td>siteerannu</td></tr>
 <tr><td>resiteerata+V+Act+PrfPrc+Sg+Nom</td><td>resiteerannu</td></tr>
@@ -1357,15 +1320,12 @@
 <tr><td>dokumenteerata+V+Act+PrfPrc+Sg+Nom</td><td>dokumenteerannu</td></tr>
 <tr><td>presenteerata+V+Act+PrfPrc+Sg+Nom</td><td>presenteerannu</td></tr>
 <tr><td>representeerata+V+Act+PrfPrc+Sg+Nom</td><td>representeerannu</td></tr>
-<tr><td>underrepresenteerata+V+Act+PrfPrc+Sg+Nom</td><td>underrepresenteerannu</td></tr>
 <tr><td>dissenteerata+V+Act+PrfPrc+Sg+Nom</td><td>dissenteerannu</td></tr>
 <tr><td>patenteerata+V+Act+PrfPrc+Sg+Nom</td><td>patenteerannu</td></tr>
 <tr><td>frekventeerata+V+Act+PrfPrc+Sg+Nom</td><td>frekventeerannu</td></tr>
 <tr><td>diskonteerata+V+Act+PrfPrc+Sg+Nom</td><td>diskonteerannu</td></tr>
 <tr><td>monteerata+V+Act+PrfPrc+Sg+Nom</td><td>monteerannu</td></tr>
 <tr><td>demonteerata+V+Act+PrfPrc+Sg+Nom</td><td>demonteerannu</td></tr>
-<tr><td>innmonteerata+V+Act+PrfPrc+Sg+Nom</td><td>innmonteerannu</td></tr>
-<tr><td>påmonteerata+V+Act+PrfPrc+Sg+Nom</td><td>påmonteerannu</td></tr>
 <tr><td>konfronteerata+V+Act+PrfPrc+Sg+Nom</td><td>konfronteerannu</td></tr>
 <tr><td>funteerata+V+Act+PrfPrc+Sg+Nom</td><td>funteerannu</td></tr>
 <tr><td>hunteerata+V+Act+PrfPrc+Sg+Nom</td><td>hunteerannu</td></tr>
@@ -1383,7 +1343,6 @@
 <tr><td>krypteerata+V+Act+PrfPrc+Sg+Nom</td><td>krypteerannu</td></tr>
 <tr><td>dekrypteerata+V+Act+PrfPrc+Sg+Nom</td><td>dekrypteerannu</td></tr>
 <tr><td>parteerata+V+Act+PrfPrc+Sg+Nom</td><td>parteerannu</td></tr>
-<tr><td>innkvarteerata+V+Act+PrfPrc+Sg+Nom</td><td>innkvarteerannu</td></tr>
 <tr><td>deserteerata+V+Act+PrfPrc+Sg+Nom</td><td>deserteerannu</td></tr>
 <tr><td>konserteerata+V+Act+PrfPrc+Sg+Nom</td><td>konserteerannu</td></tr>
 <tr><td>inverteerata+V+Act+PrfPrc+Sg+Nom</td><td>inverteerannu</td></tr>
@@ -1424,7 +1383,6 @@
 <tr><td>utdebatteerata+V+Act+PrfPrc+Sg+Nom</td><td>utdebatteerannu</td></tr>
 <tr><td>flatteerata+V+Act+PrfPrc+Sg+Nom</td><td>flatteerannu</td></tr>
 <tr><td>budsjetteerata+V+Act+PrfPrc+Sg+Nom</td><td>budsjetteerannu</td></tr>
-<tr><td>underbudsjetteerata+V+Act+PrfPrc+Sg+Nom</td><td>underbudsjetteerannu</td></tr>
 <tr><td>koketteerata+V+Act+PrfPrc+Sg+Nom</td><td>koketteerannu</td></tr>
 <tr><td>kompletteerata+V+Act+PrfPrc+Sg+Nom</td><td>kompletteerannu</td></tr>
 <tr><td>portretteerata+V+Act+PrfPrc+Sg+Nom</td><td>portretteerannu</td></tr>
@@ -1461,7 +1419,6 @@
 <tr><td>instrueerata+V+Act+PrfPrc+Sg+Nom</td><td>instrueerannu</td></tr>
 <tr><td>konstrueerata+V+Act+PrfPrc+Sg+Nom</td><td>konstrueerannu</td></tr>
 <tr><td>rekonstrueerata+V+Act+PrfPrc+Sg+Nom</td><td>rekonstrueerannu</td></tr>
-<tr><td>oppkonstrueerata+V+Act+PrfPrc+Sg+Nom</td><td>oppkonstrueerannu</td></tr>
 <tr><td>statueerata+V+Act+PrfPrc+Sg+Nom</td><td>statueerannu</td></tr>
 <tr><td>substitueerata+V+Act+PrfPrc+Sg+Nom</td><td>substitueerannu</td></tr>
 <tr><td>restitueerata+V+Act+PrfPrc+Sg+Nom</td><td>restitueerannu</td></tr>
@@ -1478,10 +1435,6 @@
 <tr><td>bokstaveerata+V+Act+PrfPrc+Sg+Nom</td><td>bokstaveerannu</td></tr>
 <tr><td>leveerata+V+Act+PrfPrc+Sg+Nom</td><td>leveerannu</td></tr>
 <tr><td>eleveerata+V+Act+PrfPrc+Sg+Nom</td><td>eleveerannu</td></tr>
-<tr><td>tilbakeleveerata+V+Act+PrfPrc+Sg+Nom</td><td>tilbakeleveerannu</td></tr>
-<tr><td>overleveerata+V+Act+PrfPrc+Sg+Nom</td><td>overleveerannu</td></tr>
-<tr><td>utleveerata+V+Act+PrfPrc+Sg+Nom</td><td>utleveerannu</td></tr>
-<tr><td>avleveerata+V+Act+PrfPrc+Sg+Nom</td><td>avleveerannu</td></tr>
 <tr><td>arkiveerata+V+Act+PrfPrc+Sg+Nom</td><td>arkiveerannu</td></tr>
 <tr><td>deriveerata+V+Act+PrfPrc+Sg+Nom</td><td>deriveerannu</td></tr>
 <tr><td>intensiveerata+V+Act+PrfPrc+Sg+Nom</td><td>intensiveerannu</td></tr>
@@ -1497,7 +1450,6 @@
 <tr><td>moveerata+V+Act+PrfPrc+Sg+Nom</td><td>moveerannu</td></tr>
 <tr><td>promoveerata+V+Act+PrfPrc+Sg+Nom</td><td>promoveerannu</td></tr>
 <tr><td>renoveerata+V+Act+PrfPrc+Sg+Nom</td><td>renoveerannu</td></tr>
-<tr><td>totalrenoveerata+V+Act+PrfPrc+Sg+Nom</td><td>totalrenoveerannu</td></tr>
 <tr><td>innoveerata+V+Act+PrfPrc+Sg+Nom</td><td>innoveerannu</td></tr>
 <tr><td>tatoveerata+V+Act+PrfPrc+Sg+Nom</td><td>tatoveerannu</td></tr>
 <tr><td>serveerata+V+Act+PrfPrc+Sg+Nom</td><td>serveerannu</td></tr>
@@ -1673,7 +1625,6 @@
 <tr><td>tuijottaat+V+Act+PrfPrc+Sg+Nom</td><td>tuijottannu</td></tr>
 <tr><td>harjottaat+V+Act+PrfPrc+Sg+Nom</td><td>harjottannu</td></tr>
 <tr><td>kirjoittaat+V+Act+PrfPrc+Sg+Nom</td><td>kirjottannu</td></tr>
-<tr><td>kirjottaat+V+Act+PrfPrc+Sg+Nom</td><td>kirjottannu</td></tr>
 <tr><td>pakottaat+V+Act+PrfPrc+Sg+Nom</td><td>pakottannu</td></tr>
 <tr><td>sekottaat+V+Act+PrfPrc+Sg+Nom</td><td>sekottannu</td></tr>
 <tr><td>laikottaat+V+Act+PrfPrc+Sg+Nom</td><td>laikottannu</td></tr>
@@ -1826,6 +1777,9 @@
 <tr><td>lihottuut+V+Act+PrfPrc+Sg+Nom</td><td>lihottunnu</td></tr>
 <tr><td>rauhottuut+V+Act+PrfPrc+Sg+Nom</td><td>rauhottunnu</td></tr>
 <tr><td>varvottuut+V+Act+PrfPrc+Sg+Nom</td><td>varvottunnu</td></tr>
+<tr><td>kađota+V+Act+PrfPrc+Sg+Nom</td><td>kađonu</td></tr>
+<tr><td>pađota+V+Act+PrfPrc+Sg+Nom</td><td>pađonu</td></tr>
+<tr><td>puđota+V+Act+PrfPrc+Sg+Nom</td><td>puđonu</td></tr>
 <tr><td>lahota+V+Act+PrfPrc+Sg+Nom</td><td>lahonu</td></tr>
 <tr><td>lihhoot+V+Act+PrfPrc+Sg+Nom</td><td>lihonu</td></tr>
 <tr><td>inhota+V+Act+PrfPrc+Sg+Nom</td><td>inhonu</td></tr>
@@ -1893,24 +1847,21 @@
 <tr><td>tuođa+V+Act+PrfPrc+Sg+Nom</td><td>tuonu</td></tr>
 <tr><td>siivota+V+Act+PrfPrc+Sg+Nom</td><td>siivonu</td></tr>
 <tr><td>toivoot+V+Act+PrfPrc+Sg+Nom</td><td>toivonu</td></tr>
-<tr><td>valvvoot+V+Act+PrfPrc+Sg+Nom</td><td>valvonu</td></tr>
-<tr><td>ulvvoot+V+Act+PrfPrc+Sg+Nom</td><td>ulvonu</td></tr>
+<tr><td>valvoot+V+Act+PrfPrc+Sg+Nom</td><td>valvonu</td></tr>
+<tr><td>ulvoot+V+Act+PrfPrc+Sg+Nom</td><td>ulvonu</td></tr>
 <tr><td>kovota+V+Act+PrfPrc+Sg+Nom</td><td>kovonu</td></tr>
 <tr><td>rosvota+V+Act+PrfPrc+Sg+Nom</td><td>rosvonu</td></tr>
 <tr><td>sauvoot+V+Act+PrfPrc+Sg+Nom</td><td>sauvonu</td></tr>
 <tr><td>neuvoot+V+Act+PrfPrc+Sg+Nom</td><td>neuvonu</td></tr>
 <tr><td>liuota+V+Act+PrfPrc+Sg+Nom</td><td>liuvonu</td></tr>
-<tr><td>kađota+V+Act+PrfPrc+Sg+Nom</td><td>kađonu</td></tr>
-<tr><td>pađota+V+Act+PrfPrc+Sg+Nom</td><td>pađonu</td></tr>
-<tr><td>puđota+V+Act+PrfPrc+Sg+Nom</td><td>puđonu</td></tr>
 <tr><td>kiehuut+V+Act+PrfPrc+Sg+Nom</td><td>kiehunu</td></tr>
 <tr><td>kuohuut+V+Act+PrfPrc+Sg+Nom</td><td>kuohunu</td></tr>
 <tr><td>touhuut+V+Act+PrfPrc+Sg+Nom</td><td>touhunu</td></tr>
 <tr><td>puhhuut+V+Act+PrfPrc+Sg+Nom</td><td>puhunu</td></tr>
 <tr><td>keijuut+V+Act+PrfPrc+Sg+Nom</td><td>keijunu</td></tr>
-<tr><td>suijjuut+V+Act+PrfPrc+Sg+Nom</td><td>suijjunu</td></tr>
-<tr><td>kiljjuut+V+Act+PrfPrc+Sg+Nom</td><td>kiljunu</td></tr>
-<tr><td>karjjuut+V+Act+PrfPrc+Sg+Nom</td><td>karjunu</td></tr>
+<tr><td>suijuut+V+Act+PrfPrc+Sg+Nom</td><td>suijunu</td></tr>
+<tr><td>kiljuut+V+Act+PrfPrc+Sg+Nom</td><td>kiljunu</td></tr>
+<tr><td>karjuut+V+Act+PrfPrc+Sg+Nom</td><td>karjunu</td></tr>
 <tr><td>kaikkuut+V+Act+PrfPrc+Sg+Nom</td><td>kaikunu</td></tr>
 <tr><td>hoikkuut+V+Act+PrfPrc+Sg+Nom</td><td>hoikunu</td></tr>
 <tr><td>kraakkuut+V+Act+PrfPrc+Sg+Nom</td><td>kraakkunu</td></tr>
@@ -2065,7 +2016,7 @@
 <tr><td>kiilelä+V+Act+PrfPrc+Sg+Nom</td><td>kiilely</td></tr>
 <tr><td>lennelä+V+Act+PrfPrc+Sg+Nom</td><td>lennely</td></tr>
 <tr><td>käänelä+V+Act+PrfPrc+Sg+Nom</td><td>käänely</td></tr>
-<tr><td>kierrelä+V+Act+PrfPrc+Sg+Nom</td><td>kierely</td></tr>
+<tr><td>kierelä+V+Act+PrfPrc+Sg+Nom</td><td>kierely</td></tr>
 <tr><td>kyselä+V+Act+PrfPrc+Sg+Nom</td><td>kysely</td></tr>
 <tr><td>keitelä+V+Act+PrfPrc+Sg+Nom</td><td>keitely</td></tr>
 <tr><td>kiitelä+V+Act+PrfPrc+Sg+Nom</td><td>kiitely</td></tr>
@@ -2227,6 +2178,7 @@
 <tr><td>läkättyyt+V+Act+PrfPrc+Sg+Nom</td><td>läkättynny</td></tr>
 <tr><td>yllättyyt+V+Act+PrfPrc+Sg+Nom</td><td>yllättynny</td></tr>
 <tr><td>pysättyyt+V+Act+PrfPrc+Sg+Nom</td><td>pysättynny</td></tr>
+<tr><td>myöđätä+V+Act+PrfPrc+Sg+Nom</td><td>myöđänny</td></tr>
 <tr><td>räjähtäät+V+Act+PrfPrc+Sg+Nom</td><td>räjähtänny</td></tr>
 <tr><td>säikähtäät+V+Act+PrfPrc+Sg+Nom</td><td>säikähtänny</td></tr>
 <tr><td>vihelttäät+V+Act+PrfPrc+Sg+Nom</td><td>viheltänny</td></tr>
@@ -2318,7 +2270,6 @@
 <tr><td>piđättäät+V+Act+PrfPrc+Sg+Nom</td><td>piđättänny</td></tr>
 <tr><td>väköttäät+V+Act+PrfPrc+Sg+Nom</td><td>väköttänny</td></tr>
 <tr><td>häämöttäät+V+Act+PrfPrc+Sg+Nom</td><td>häämöttänny</td></tr>
-<tr><td>myöđätä+V+Act+PrfPrc+Sg+Nom</td><td>myöđänny</td></tr>
 <tr><td>öljytä+V+Act+PrfPrc+Sg+Nom</td><td>öljyny</td></tr>
 <tr><td>nälkkyyt+V+Act+PrfPrc+Sg+Nom</td><td>nälkyny</td></tr>
 <tr><td>särkkyyt+V+Act+PrfPrc+Sg+Nom</td><td>särkyny</td></tr>
@@ -2363,6 +2314,7 @@
 <tr><td>hyöttyyt+V+Act+PrfPrc+Sg+Nom</td><td>hyötyny</td></tr>
 <tr><td>myyđä+V+Act+PrfPrc+Sg+Nom</td><td>myyny</td></tr>
 <tr><td>käyđä+V+Act+PrfPrc+Sg+Nom</td><td>käyny</td></tr>
+<tr><td>mäđätä+V+Act+PrfPrc+Sg+Nom</td><td>mäđäny</td></tr>
 <tr><td>kehätä+V+Act+PrfPrc+Sg+Nom</td><td>kehäny</td></tr>
 <tr><td>mäihätä+V+Act+PrfPrc+Sg+Nom</td><td>mäihäny</td></tr>
 <tr><td>kerjätä+V+Act+PrfPrc+Sg+Nom</td><td>kerjäny</td></tr>
@@ -2467,7 +2419,6 @@
 <tr><td>ryövätä+V+Act+PrfPrc+Sg+Nom</td><td>ryöväny</td></tr>
 <tr><td>pröövätä+V+Act+PrfPrc+Sg+Nom</td><td>prööväny</td></tr>
 <tr><td>jääđä+V+Act+PrfPrc+Sg+Nom</td><td>jääny</td></tr>
-<tr><td>mäđätä+V+Act+PrfPrc+Sg+Nom</td><td>mäđäny</td></tr>
 <tr><td>lyöđä+V+Act+PrfPrc+Sg+Nom</td><td>lyöny</td></tr>
 <tr><td>syöđä+V+Act+PrfPrc+Sg+Nom</td><td>syöny</td></tr>
 <tr><td>pierä+V+Act+PrfPrc+Sg+Nom</td><td>pierry</td></tr>
