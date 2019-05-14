@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (huhtikuun 21. päivänä 2019, klo. 22:3)</title>  
+    <title>Generoidut muodot (toukokuun 14. päivänä 2019, klo. 14:39)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -249,6 +249,9 @@
 <tr><td>mettäaukkee+N+Pl+Par</td><td>mettäaukkeita</td></tr>
 <tr><td>hoppee+N+Pl+Par</td><td>hoppeita</td></tr>
 <tr><td>mokkakaffi+N+Pl+Par</td><td>mokkakaffita</td></tr>
+<tr><td>etaaši+N+Pl+Par</td><td>etaašiita</td></tr>
+<tr><td>plantaaši+N+Pl+Par</td><td>plantaašiita</td></tr>
+<tr><td>kumiplantaaši+N+Pl+Par</td><td>kumiplantaašiita</td></tr>
 <tr><td>adverbi+N+Pl+Par</td><td>adverbiita</td></tr>
 <tr><td>proadverbi+N+Pl+Par</td><td>proadverbiita</td></tr>
 <tr><td>kuvakavalkaadi+N+Pl+Par</td><td>kuvakavalkaadiita</td></tr>
@@ -1593,9 +1596,6 @@
 <tr><td>substantiivi+N+Pl+Par</td><td>substantiiviita</td></tr>
 <tr><td>lokomotiivi+N+Pl+Par</td><td>lokomotiiviita</td></tr>
 <tr><td>jehuva+N+Pl+Par</td><td>jehuviita</td></tr>
-<tr><td>etaaši+N+Pl+Par</td><td>etaašiita</td></tr>
-<tr><td>plantaaši+N+Pl+Par</td><td>plantaašiita</td></tr>
-<tr><td>kumiplantaaši+N+Pl+Par</td><td>kumiplantaašiita</td></tr>
 <tr><td>liuskalakki+N+Pl+Par</td><td>liuskalakkita</td></tr>
 <tr><td>spiuni+N+Pl+Par</td><td>spiunita</td></tr>
 <tr><td>kafea+N+Pl+Par</td><td>kafeoita</td></tr>
@@ -1934,6 +1934,19 @@
 <tr><td>kukkura+N+Pl+Par</td><td>kukkurai</td></tr>
 <tr><td>mokkakaffi+N+Pl+Par</td><td>mokkakaffi</td></tr>
 <tr><td>ranch+N+Pl+Par</td><td>ranchi</td></tr>
+<tr><td>blaađi+N+Pl+Par</td><td>blaađii</td></tr>
+<tr><td>luođi+N+Pl+Par</td><td>luođii</td></tr>
+<tr><td>puođi+N+Pl+Par</td><td>puođii</td></tr>
+<tr><td>bensiinipuođi+N+Pl+Par</td><td>bensiinipuođii</td></tr>
+<tr><td>tekstipuođi+N+Pl+Par</td><td>tekstipuođii</td></tr>
+<tr><td>krampuođi+N+Pl+Par</td><td>krampuođii</td></tr>
+<tr><td>teeplantaaši+N+Pl+Par</td><td>teeplantaašii</td></tr>
+<tr><td>pumpuliplantaaši+N+Pl+Par</td><td>pumpuliplantaašii</td></tr>
+<tr><td>banaaniplantaaši+N+Pl+Par</td><td>banaaniplantaašii</td></tr>
+<tr><td>sokkeriplantaaši+N+Pl+Par</td><td>sokkeriplantaašii</td></tr>
+<tr><td>sisalplantaaši+N+Pl+Par</td><td>sisalplantaašii</td></tr>
+<tr><td>öljypuuplantaaši+N+Pl+Par</td><td>öljypuuplantaašii</td></tr>
+<tr><td>dyšši+N+Pl+Par</td><td>dyššii</td></tr>
 <tr><td>verbi+N+Pl+Par</td><td>verbii</td></tr>
 <tr><td>kokkoontumaverbi+N+Pl+Par</td><td>kokkoontumaverbii</td></tr>
 <tr><td>kieltoverbi+N+Pl+Par</td><td>kieltoverbii</td></tr>
@@ -4536,19 +4549,6 @@
 <tr><td>pröövi+N+Pl+Par</td><td>pröövii</td></tr>
 <tr><td>flyyi+N+Pl+Par</td><td>flyyii</td></tr>
 <tr><td>pikaflyyi+N+Pl+Par</td><td>pikaflyyii</td></tr>
-<tr><td>blaađi+N+Pl+Par</td><td>blaađii</td></tr>
-<tr><td>teeplantaaši+N+Pl+Par</td><td>teeplantaašii</td></tr>
-<tr><td>pumpuliplantaaši+N+Pl+Par</td><td>pumpuliplantaašii</td></tr>
-<tr><td>banaaniplantaaši+N+Pl+Par</td><td>banaaniplantaašii</td></tr>
-<tr><td>sokkeriplantaaši+N+Pl+Par</td><td>sokkeriplantaašii</td></tr>
-<tr><td>sisalplantaaši+N+Pl+Par</td><td>sisalplantaašii</td></tr>
-<tr><td>öljypuuplantaaši+N+Pl+Par</td><td>öljypuuplantaašii</td></tr>
-<tr><td>luođi+N+Pl+Par</td><td>luođii</td></tr>
-<tr><td>puođi+N+Pl+Par</td><td>puođii</td></tr>
-<tr><td>bensiinipuođi+N+Pl+Par</td><td>bensiinipuođii</td></tr>
-<tr><td>tekstipuođi+N+Pl+Par</td><td>tekstipuođii</td></tr>
-<tr><td>krampuođi+N+Pl+Par</td><td>krampuođii</td></tr>
-<tr><td>dyšši+N+Pl+Par</td><td>dyššii</td></tr>
 <tr><td>skarffa+N+Pl+Par</td><td>skarffoi</td></tr>
 <tr><td>tango+N+Pl+Par</td><td>tangoi</td></tr>
 <tr><td>maha+N+Pl+Par</td><td>mahhoi</td></tr>
