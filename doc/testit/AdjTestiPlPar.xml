@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (tammikuun 8. päivänä 2019, klo. 11:59)</title>  
+    <title>Generoidut muodot (toukokuun 14. päivänä 2019, klo. 14:56)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -568,15 +568,16 @@
 <tr><td>epävarma+A+Pl+Par</td><td>epävarmai</td></tr>
 <tr><td>ankara+A+Pl+Par</td><td>ankarai</td></tr>
 <tr><td>kippura+A+Pl+Par</td><td>kippurai</td></tr>
+<tr><td>ruiđa+A+Pl+Par</td><td>ruiđii</td></tr>
 <tr><td>sakea+A+Pl+Par</td><td>sakeii</td></tr>
 <tr><td>korkea+A+Pl+Par</td><td>korkeii</td></tr>
 <tr><td>ruskea+A+Pl+Par</td><td>ruskeii</td></tr>
+<tr><td>pyhä+A+Pl+Par</td><td>pyhhii</td></tr>
+<tr><td>vähä+A+Pl+Par</td><td>vähhii</td></tr>
 <tr><td>turha+A+Pl+Par</td><td>turhii</td></tr>
-<tr><td>pyhä+A+Pl+Par</td><td>pyhii</td></tr>
 <tr><td>tyyhä+A+Pl+Par</td><td>tyyhii</td></tr>
 <tr><td>köyhä+A+Pl+Par</td><td>köyhii</td></tr>
 <tr><td>löyhä+A+Pl+Par</td><td>löyhii</td></tr>
-<tr><td>vähä+A+Pl+Par</td><td>vähii</td></tr>
 <tr><td>normaali+A+Pl+Par</td><td>normaaliii</td></tr>
 <tr><td>rekiunaali+A+Pl+Par</td><td>rekiunaaliii</td></tr>
 <tr><td>sentraali+A+Pl+Par</td><td>sentraaliii</td></tr>
@@ -718,7 +719,6 @@
 <tr><td>nöyrä+A+Pl+Par</td><td>nöyrii</td></tr>
 <tr><td>näppärä+A+Pl+Par</td><td>näppärii</td></tr>
 <tr><td>väärä+A+Pl+Par</td><td>väärii</td></tr>
-<tr><td>sisä+A+Pl+Par</td><td>sisii</td></tr>
 <tr><td>veres+A+Pl+Par</td><td>vereksii</td></tr>
 <tr><td>tylsä+A+Pl+Par</td><td>tylsii</td></tr>
 <tr><td>käpsä+A+Pl+Par</td><td>käpsii</td></tr>
@@ -1024,6 +1024,7 @@
 <tr><td>kulttuurinen+A+Pl+Par</td><td>kulttuurissii</td></tr>
 <tr><td>färinen+A+Pl+Par</td><td>färissii</td></tr>
 <tr><td>samanfärinen+A+Pl+Par</td><td>samanfärissii</td></tr>
+<tr><td>sisä+A+Pl+Par</td><td>sissii</td></tr>
 <tr><td>vesinen+A+Pl+Par</td><td>vesissii</td></tr>
 <tr><td>kaksinen+A+Pl+Par</td><td>kaksissii</td></tr>
 <tr><td>kompleksinen+A+Pl+Par</td><td>kompleksissii</td></tr>
@@ -1152,6 +1153,7 @@
 <tr><td>pölynen+A+Pl+Par</td><td>pölyssii</td></tr>
 <tr><td>ryssä+A+Pl+Par</td><td>ryssii</td></tr>
 <tr><td>täysi+A+Pl+Par</td><td>täyssii</td></tr>
+<tr><td>löysä+A+Pl+Par</td><td>löyssii</td></tr>
 <tr><td>vähänen+A+Pl+Par</td><td>vähässii</td></tr>
 <tr><td>alaikänen+A+Pl+Par</td><td>alaikässii</td></tr>
 <tr><td>äkänen+A+Pl+Par</td><td>äkässii</td></tr>
@@ -1160,7 +1162,6 @@
 <tr><td>sisänen+A+Pl+Par</td><td>sisässii</td></tr>
 <tr><td>näkönen+A+Pl+Par</td><td>näkössii</td></tr>
 <tr><td>pirunnäkönen+A+Pl+Par</td><td>pirunnäkössii</td></tr>
-<tr><td>löysä+A+Pl+Par</td><td>löysii</td></tr>
 <tr><td>siisti+A+Pl+Par</td><td>siistii</td></tr>
 <tr><td>musta+A+Pl+Par</td><td>mustii</td></tr>
 <tr><td>pikimusta+A+Pl+Par</td><td>pikimustii</td></tr>
@@ -1224,7 +1225,6 @@
 <tr><td>kristitty+A+Pl+Par</td><td>kristittyii</td></tr>
 <tr><td>määrätty+A+Pl+Par</td><td>määrättyii</td></tr>
 <tr><td>präntätty+A+Pl+Par</td><td>präntättyii</td></tr>
-<tr><td>ruiđa+A+Pl+Par</td><td>ruiđii</td></tr>
 <tr><td>fakki+A+Pl+Par</td><td>fakki</td></tr>
 <tr><td>plankki+A+Pl+Par</td><td>plankki</td></tr>
 <tr><td>flinkki+A+Pl+Par</td><td>flinkki</td></tr>
@@ -1248,11 +1248,11 @@
 <tr><td>raaka+A+Pl+Par</td><td>raakkoi</td></tr>
 <tr><td>heikko+A+Pl+Par</td><td>heikkoi</td></tr>
 <tr><td>liika+A+Pl+Par</td><td>liikkoi</td></tr>
+<tr><td>silko+A+Pl+Par</td><td>silkkoi</td></tr>
+<tr><td>ulko+A+Pl+Par</td><td>ulkkoi</td></tr>
 <tr><td>vankka+A+Pl+Par</td><td>vankkoi</td></tr>
+<tr><td>arka+A+Pl+Par</td><td>arkkoi</td></tr>
 <tr><td>tarkka+A+Pl+Par</td><td>tarkkoi</td></tr>
-<tr><td>silko+A+Pl+Par</td><td>silkoi</td></tr>
-<tr><td>ulko+A+Pl+Par</td><td>ulkoi</td></tr>
-<tr><td>arka+A+Pl+Par</td><td>arkoi</td></tr>
 <tr><td>laiska+A+Pl+Par</td><td>laiskoi</td></tr>
 <tr><td>tanska+A+Pl+Par</td><td>tanskoi</td></tr>
 <tr><td>hauska+A+Pl+Par</td><td>hauskoi</td></tr>
@@ -1266,19 +1266,19 @@
 <tr><td>hieno+A+Pl+Par</td><td>hienoi</td></tr>
 <tr><td>kehno+A+Pl+Par</td><td>kehnoi</td></tr>
 <tr><td>huono+A+Pl+Par</td><td>huonoi</td></tr>
-<tr><td>halpa+A+Pl+Par</td><td>halpoi</td></tr>
+<tr><td>halpa+A+Pl+Par</td><td>halppoi</td></tr>
 <tr><td>helppo+A+Pl+Par</td><td>helppoi</td></tr>
 <tr><td>juoppo+A+Pl+Par</td><td>juoppoi</td></tr>
 <tr><td>saura+A+Pl+Par</td><td>sauroi</td></tr>
 <tr><td>kuuro+A+Pl+Par</td><td>kuuroi</td></tr>
 <tr><td>iso+A+Pl+Par</td><td>isoi</td></tr>
 <tr><td>lakso+A+Pl+Par</td><td>laksoi</td></tr>
-<tr><td>viinto+A+Pl+Par</td><td>viintoi</td></tr>
 <tr><td>fasta+A+Pl+Par</td><td>fastoi</td></tr>
 <tr><td>vaisto+A+Pl+Par</td><td>vaistoi</td></tr>
 <tr><td>pisto+A+Pl+Par</td><td>pistoi</td></tr>
 <tr><td>visto+A+Pl+Par</td><td>vistoi</td></tr>
 <tr><td>kaltto+A+Pl+Par</td><td>kalttoi</td></tr>
+<tr><td>viinto+A+Pl+Par</td><td>viinttoi</td></tr>
 <tr><td>ontto+A+Pl+Par</td><td>onttoi</td></tr>
 <tr><td>outo+A+Pl+Par</td><td>outtoi</td></tr>
 <tr><td>rutto+A+Pl+Par</td><td>ruttoi</td></tr>
@@ -1290,27 +1290,27 @@
 <tr><td>klaari+A+Pl+Par</td><td>klaari</td></tr>
 <tr><td>eri+A+Pl+Par</td><td>eri</td></tr>
 <tr><td>ensi+A+Pl+Par</td><td>ensi</td></tr>
-<tr><td>irti+A+Pl+Par</td><td>irsi</td></tr>
 <tr><td>vissi+A+Pl+Par</td><td>vissi</td></tr>
 <tr><td>vaiti+A+Pl+Par</td><td>vaiti</td></tr>
+<tr><td>irti+A+Pl+Par</td><td>irti</td></tr>
 <tr><td>söötti+A+Pl+Par</td><td>söötti</td></tr>
-<tr><td>raju+A+Pl+Par</td><td>rajui</td></tr>
+<tr><td>raju+A+Pl+Par</td><td>rajjui</td></tr>
 <tr><td>kalju+A+Pl+Par</td><td>kaljui</td></tr>
 <tr><td>pikku+A+Pl+Par</td><td>pikkui</td></tr>
 <tr><td>virkku+A+Pl+Par</td><td>virkkui</td></tr>
 <tr><td>hullu+A+Pl+Par</td><td>hullui</td></tr>
 <tr><td>sotahullu+A+Pl+Par</td><td>sotahullui</td></tr>
 <tr><td>kuulu+A+Pl+Par</td><td>kuului</td></tr>
-<tr><td>lamu+A+Pl+Par</td><td>lamui</td></tr>
 <tr><td>liehmuu+A+Pl+Par</td><td>liehmui</td></tr>
-<tr><td>karu+A+Pl+Par</td><td>karui</td></tr>
-<tr><td>kesu+A+Pl+Par</td><td>kesui</td></tr>
-<tr><td>visu+A+Pl+Par</td><td>visui</td></tr>
+<tr><td>lamu+A+Pl+Par</td><td>lammui</td></tr>
+<tr><td>karu+A+Pl+Par</td><td>karrui</td></tr>
 <tr><td>paksu+A+Pl+Par</td><td>paksui</td></tr>
-<tr><td>kalsu+A+Pl+Par</td><td>kalsui</td></tr>
+<tr><td>kesu+A+Pl+Par</td><td>kessui</td></tr>
+<tr><td>visu+A+Pl+Par</td><td>vissui</td></tr>
+<tr><td>kalsu+A+Pl+Par</td><td>kalssui</td></tr>
 <tr><td>kranttu+A+Pl+Par</td><td>kranttui</td></tr>
+<tr><td>koutu+A+Pl+Par</td><td>kouttui</td></tr>
 <tr><td>tuttu+A+Pl+Par</td><td>tuttui</td></tr>
-<tr><td>koutu+A+Pl+Par</td><td>koutui</td></tr>
 <tr><td>pälvi+A+Pl+Par</td><td>pälvi</td></tr>
 <tr><td>krouvi+A+Pl+Par</td><td>krouvi</td></tr>
 <tr><td>merkittävä+A+Pl+Par</td><td>merkittävi</td></tr>
