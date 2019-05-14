@@ -325,7 +325,7 @@ LEXICON NUM_YKSI
 !!€ yksinä: yksi+Num+Pl+Ess
 !!€ yksissä: yksi+Num+Pl+Ine
 0:ksi   NUM_FRONT_NOMINATIVE ;
-0:hthe  NUM_FRONT_ILLATIVE_EN    ;
+0:ht    NUM_FRONT_ILLATIVE_HEEN    ;
 0:hte   NUM_FRONT_STRONG_SINGULARS   ;
 0:hte   NUM_FRONT_STRONG_SINGULARS_NA ;
 0:hđe   NUM_FRONT_WEAK_SINGULARS   ;
@@ -353,7 +353,7 @@ LEXICON NUM_KAKSI
 !!€ kaksissa: kaksi+Num+Pl+Ine
 0:ksi   NUM_BACK_NOMINATIVE ;
 !+Use/NG:ks   NUM_BACK_NOMINATIVE ; 
-0:hthe  NUM_BACK_ILLATIVE_EN    ;
+0:ht    NUM_BACK_ILLATIVE_HEEN    ;
 0:hte   NUM_BACK_STRONG_SINGULARS   ;
 0:hte   NUM_BACK_STRONG_SINGULARS_NA ;        
 0:hđe   NUM_BACK_WEAK_SINGULARS   ;
@@ -380,7 +380,7 @@ LEXICON NUM_KOLME
 !!€ kolmina: kolme+Num+Pl+Ess
 !!€ kolmissa: kolme+Num+Pl+Ine
 0:e     NUM_BACK_NOMINATIVE  ;
-0:he    NUM_BACK_ILLATIVE_EN    ;
+0       NUM_BACK_ILLATIVE_HEEN    ;
 0:e     NUM_BACK_SINGULARS  ;
 0:e     NUM_BACK_STRONG_SINGULARS_NA ; 
 0:e     NUM_BACK_SINGULARS_L     ;
@@ -407,7 +407,7 @@ LEXICON NUM_NELJÄ
 !!€ neljinä: nelje+Num+Pl+Ess
 !!€ neljissä: nelje+Num+Pl+Ine
 0:e  NUM_FRONT_NOMINATIVE ;
-0:he NUM_FRONT_ILLATIVE_EN    ;
+0   NUM_FRONT_ILLATIVE_HEEN   ;
 0:e  NUM_FRONT_GENITIVE_IN    ;
 0:e  NUM_FRONT_SINGULARS   ;
 0:e  NUM_FRONT_STRONG_SINGULARS_NA ;
@@ -434,7 +434,7 @@ LEXICON NUM_VIISI
 !!€ viishiin: viisi+Num+Pl+Ill
 !!€ viisinä: viisi+Num+Pl+Ess
 0:si    NUM_FRONT_NOMINATIVE ;
-0:the   NUM_FRONT_ILLATIVE_EN    ;
+0:t     NUM_FRONT_ILLATIVE_HEEN    ;
 0:te    NUM_FRONT_STRONG_SINGULARS   ;
 0:te    NUM_FRONT_STRONG_SINGULARS_NA ;
 0:đe    NUM_FRONT_WEAK_SINGULARS   ;
@@ -461,7 +461,7 @@ LEXICON NUM_KUUSI
 !!€ kuussiin: kuusi+Num+Pl+Gen
 !!€ kuushiin: kuusi+Num+Pl+Ill
 0:si    NUM_BACK_NOMINATIVE ;
-0:the    NUM_BACK_ILLATIVE_EN    ;
+0:t     NUM_BACK_ILLATIVE_HEEN    ;
 0:te    NUM_BACK_STRONG_SINGULARS   ;
 0:te    NUM_BACK_STRONG_SINGULARS_NA ; 
 0:đe    NUM_BACK_WEAK_SINGULARS   ;
@@ -492,7 +492,7 @@ LEXICON NUM_KAHDEKSAN
 !!€ kahđeksinna: kahđeksen+Num+Pl+Ess
 0:en    NUM_BACK_NOMINATIVE  ;
 0:e     NUM_BACK_PARTITIVE_E    ;
-0:he    NUM_BACK_ILLATIVE_EN    ;
+0       NUM_BACK_ILLATIVE_HEEN    ;
 !0:e     NUM_BACK_GENITIVE_IN    ;
 0:e     NUM_BACK_SINGULARS   ;
 0:e     NUM_BACK_STRONG_SINGULARS_NNA ;
@@ -521,7 +521,7 @@ LEXICON NUM_YHDEKSÄN
 !!€ yhđeksinnä: yhđeksen+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE  ;
 0:e     NUM_FRONT_PARTITIVE_E    ;
-0:he    NUM_FRONT_ILLATIVE_EN    ;
+0       NUM_FRONT_ILLATIVE_HEEN    ;
 !0:e     NUM_FRONT_GENITIVE_IN    ;
 0:e     NUM_FRONT_SINGULARS   ;
 0:e     NUM_FRONT_STRONG_SINGULARS_NNA ;
@@ -548,7 +548,7 @@ LEXICON NUM_KYMMENEN
 !!€ kymmenissä: kymmenen+Num+Pl+Ine
 !!€ kymmeninnä: kymmenen+Num+Pl+Ess
 0:en    NUM_FRONT_NOMINATIVE ;
-0:he    NUM_FRONT_ILLATIVE_EN    ;
+0       NUM_FRONT_ILLATIVE_HEEN    ;
 0:e     NUM_FRONT_SINGULARS   ;
 0:e     NUM_FRONT_STRONG_SINGULARS_NNA ;
 0:e     NUM_FRONT_SINGULARS_LL  ;
@@ -600,7 +600,7 @@ LEXICON NUM_TUHAT
 !!€ tuhansinna: tuhat+Num+Pl+Ess
 !!€ tuhansissa: tuhat+Num+Pl+Ine
 0:t     NUM_BACK_NOMINATIVE ;
-0:nthe  NUM_BACK_ILLATIVE_EN    ;
+0:nt    NUM_BACK_ILLATIVE_HEEN    ;
 0:nte   NUM_BACK_STRONG_SINGULARS   ;
 0:nte   NUM_BACK_STRONG_SINGULARS_NNA ;
 0:ne    NUM_BACK_WEAK_SINGULARS   ;
@@ -720,7 +720,7 @@ LEXICON NUM_ENSIMMÄINEN
 !!€ ensimäisinä: ensimäinen+Num+Ord+Pl+Ess
 !!€ ensimäisissä: ensimäinen+Num+Ord+Pl+Ine
 0:nen   NUM_FRONT_NOMINATIVE ;
-0:she   NUM_FRONT_ILLATIVE_EN    ;
+0:s     NUM_FRONT_ILLATIVE_HEEN    ;
 0:se    NUM_FRONT_SINGULARS   ;
 0:se    NUM_FRONT_STRONG_SINGULARS_NA ;
 0:s     NUM_FRONT_PARTITIVE_TÄ   ;
@@ -747,7 +747,7 @@ LEXICON NUM_TOINEN
 !!€ toisissa: toinen+Num+Ord+Pl+Ine
 !!€ toisina: toinen+Num+Ord+Pl+Ess
 0:nen   NUM_BACK_NOMINATIVE ;
-0:she   NUM_BACK_ILLATIVE_EN    ;
+0:s     NUM_BACK_ILLATIVE_HEEN    ;
 0:se    NUM_BACK_SINGULARS   ;
 0:se    NUM_BACK_SINGULARS_L ;
 0:se    NUM_BACK_WEAK_PLURALS_L ;
@@ -774,7 +774,7 @@ LEXICON NUM_KOLMAS
 !!€ kolmansissa: kolmas+Num+Ord+Pl+Ine
 !!€ kolmansinna: kolmas+Num+Ord+Pl+Ess
 0:s     NUM_BACK_NOMINATIVE ;
-0:nthe  NUM_BACK_ILLATIVE_EN    ;
+0:nt    NUM_BACK_ILLATIVE_HEEN    ;
 0:nte   NUM_BACK_STRONG_SINGULARS   ;
 0:nte   NUM_BACK_STRONG_SINGULARS_NNA ;
 0:ne    NUM_BACK_WEAK_SINGULARS ;
@@ -801,7 +801,7 @@ LEXICON NUM_NELJÄS
 !!€ neljensissä: neljes+Num+Ord+Pl+Ine
 !!€ neljensinnä: neljes+Num+Ord+Pl+Ess
 0:s     NUM_FRONT_NOMINATIVE ;
-0:nthe  NUM_FRONT_ILLATIVE_EN    ;
+0:nt    NUM_FRONT_ILLATIVE_HEEN    ;
 0:nte   NUM_FRONT_STRONG_SINGULARS   ;
 0:nte   NUM_FRONT_STRONG_SINGULARS_NNA ;
 0:ne    NUM_FRONT_WEAK_SINGULARS   ;
