@@ -303,9 +303,9 @@ kolmisen+Num#:kolmisen#    NUM_CARD_SUFFIX   ;
 nelisen+Num#:nelisen#  NUM_CARD_SUFFIX   ;
 viitisen+Num#:viitisen#    NUM_CARD_SUFFIX   ;
 kuutisen+Num#:kuutisen#    NUM_CARD_SUFFIX   ;
-seitsemisen+Num#:seitsemisen#  NUM_CARD_SUFFIX   ;
-kahdeksisen+Num#:kahdeksisen#  NUM_CARD_SUFFIX   ;
-yhdeksisen+Num#:yhdeksisen#    NUM_CARD_SUFFIX   ;
+seittemisen+Num#:seittemisen#  NUM_CARD_SUFFIX   ;
+kahđeksisen+Num#:kahđeksisen#  NUM_CARD_SUFFIX   ;
+yhđeksisen+Num#:yhđeksisen#    NUM_CARD_SUFFIX   ;
 pari+Num:par           NUM_PARI ;
 
 !! !!Numeral stem variation
@@ -402,6 +402,7 @@ LEXICON NUM_NELJÄ
 !!€ neljelä: nelje+Num+Sg+Ade
 !!€ neljii: nelje+Num+Pl+Par
 !!€ neljiin: nelje+Num+Pl+Gen
+!!€ neljein: nelje+Num+Pl+Gen !harvinainen muoto
 !!€ neljhiin: nelje+Num+Pl+Ill
 !!€ neljinä: nelje+Num+Pl+Ess
 !!€ neljissä: nelje+Num+Pl+Ine
@@ -719,7 +720,7 @@ LEXICON NUM_ENSIMMÄINEN
 !!€ ensimäisinä: ensimäinen+Num+Ord+Pl+Ess
 !!€ ensimäisissä: ensimäinen+Num+Ord+Pl+Ine
 0:nen   NUM_FRONT_NOMINATIVE ;
-0:se    NUM_FRONT_ILLATIVE_EN    ;
+0:she   NUM_FRONT_ILLATIVE_EN    ;
 0:se    NUM_FRONT_SINGULARS   ;
 0:se    NUM_FRONT_STRONG_SINGULARS_NA ;
 0:s     NUM_FRONT_PARTITIVE_TÄ   ;
