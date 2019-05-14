@@ -239,17 +239,17 @@ LEXICON NUM_BACK_ILLATIVE_AN
 +Sg+Ill:%>an     #         ;
 +Sg+Ill:%>a      NUM_BACK_POSS     ;
 
-LEXICON NUM_BACK_ILLATIVE_EN
+LEXICON NUM_BACK_ILLATIVE_HEEN
 !!€gt-norm: Numeral singular illative en back
 !!€ kolmheen: kolme+Num+Sg+Ill
-+Sg+Ill:%>en     #         ;
-+Sg+Ill:%>e      NUM_BACK_POSS     ;
++Sg+Ill:%>he%>en    #     ;
++Sg+Ill:%>he%>e     NUM_BACK_POSS     ;
 
-LEXICON NUM_FRONT_ILLATIVE_EN
+LEXICON NUM_FRONT_ILLATIVE_HEEN
 !!€gt-norm: Numeral singular illative en front
 !!€ viitheen: viisi+Num+Sg+Ill
-+Sg+Ill:%>en     #         ;
-+Sg+Ill:%>e      NUM_FRONT_POSS     ;
++Sg+Ill:%>he%>en    #     ;
++Sg+Ill:%>he%>e     NUM_FRONT_POSS     ;
 
 LEXICON NUM_BACK_ILLATIVE_IN
 !!€gt-norm: Numeral singular illative in back
