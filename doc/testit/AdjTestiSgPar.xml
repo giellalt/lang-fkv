@@ -2,7 +2,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (tammikuun 8. päivänä 2019, klo. 11:59)</title>  
+    <title>Generoidut muodot (toukokuun 14. päivänä 2019, klo. 14:56)</title>  
   </header> 
   <body>	  
     <section><title/>  
@@ -28,6 +28,7 @@
 <tr><td>hengestynny+A+Sg+Par</td><td>hengestynny+A+Sg+Par</td></tr>
 <tr><td>hengistynny+A+Sg+Par</td><td>hengistynny+A+Sg+Par</td></tr>
 <tr><td>liehmuu+A+Sg+Par</td><td>liehmuu</td></tr>
+<tr><td>ruiđa+A+Sg+Par</td><td>ruiđaa</td></tr>
 <tr><td>sakea+A+Sg+Par</td><td>sakeaa</td></tr>
 <tr><td>korkea+A+Sg+Par</td><td>korkeaa</td></tr>
 <tr><td>ruskea+A+Sg+Par</td><td>ruskeaa</td></tr>
@@ -39,20 +40,20 @@
 <tr><td>harmaaja+A+Sg+Par</td><td>harmaajaa</td></tr>
 <tr><td>hoppeeharmaaja+A+Sg+Par</td><td>hoppeeharmaajaa</td></tr>
 <tr><td>taaja+A+Sg+Par</td><td>taajaa</td></tr>
-<tr><td>hurja+A+Sg+Par</td><td>hurjjaa</td></tr>
-<tr><td>kurja+A+Sg+Par</td><td>kurjjaa</td></tr>
 <tr><td>luja+A+Sg+Par</td><td>lujjaa</td></tr>
+<tr><td>hurja+A+Sg+Par</td><td>hurjaa</td></tr>
+<tr><td>kurja+A+Sg+Par</td><td>kurjaa</td></tr>
 <tr><td>raaka+A+Sg+Par</td><td>raakkaa</td></tr>
 <tr><td>ilakka+A+Sg+Par</td><td>ilakkaa</td></tr>
 <tr><td>liika+A+Sg+Par</td><td>liikkaa</td></tr>
 <tr><td>hoikka+A+Sg+Par</td><td>hoikkaa</td></tr>
 <tr><td>vankka+A+Sg+Par</td><td>vankkaa</td></tr>
 <tr><td>arka+A+Sg+Par</td><td>arkkaa</td></tr>
-<tr><td>pimmeenarka+A+Sg+Par</td><td>pimmeenarkkaa</td></tr>
 <tr><td>tarkka+A+Sg+Par</td><td>tarkkaa</td></tr>
 <tr><td>tiukka+A+Sg+Par</td><td>tiukkaa</td></tr>
 <tr><td>soukka+A+Sg+Par</td><td>soukkaa</td></tr>
 <tr><td>nuuka+A+Sg+Par</td><td>nuukkaa</td></tr>
+<tr><td>pimmeenarka+A+Sg+Par</td><td>pimmeenarkaa</td></tr>
 <tr><td>laiska+A+Sg+Par</td><td>laiskaa</td></tr>
 <tr><td>engelska+A+Sg+Par</td><td>engelskaa</td></tr>
 <tr><td>tanska+A+Sg+Par</td><td>tanskaa</td></tr>
@@ -114,7 +115,6 @@
 <tr><td>tunttuuva+A+Sg+Par</td><td>tunttuuvaa</td></tr>
 <tr><td>kiva+A+Sg+Par</td><td>kivvaa</td></tr>
 <tr><td>kova+A+Sg+Par</td><td>kovvaa</td></tr>
-<tr><td>ruiđa+A+Sg+Par</td><td>ruiđaa</td></tr>
 <tr><td>vanhaa+A+Sg+Par</td><td>vanhaata</td></tr>
 <tr><td>kauhhee+A+Sg+Par</td><td>kauheeta</td></tr>
 <tr><td>rohkee+A+Sg+Par</td><td>rohkeeta</td></tr>
@@ -206,6 +206,9 @@
 <tr><td>mavuton+A+Sg+Par</td><td>mavutonta</td></tr>
 <tr><td>nuori+A+Sg+Par</td><td>nuorta</td></tr>
 <tr><td>suuri+A+Sg+Par</td><td>suurta</td></tr>
+<tr><td>ahđas+A+Sg+Par</td><td>ahđasta</td></tr>
+<tr><td>puhđas+A+Sg+Par</td><td>puhđasta</td></tr>
+<tr><td>hiđas+A+Sg+Par</td><td>hiđasta</td></tr>
 <tr><td>pahas+A+Sg+Par</td><td>pahasta</td></tr>
 <tr><td>vihanen+A+Sg+Par</td><td>vihasta</td></tr>
 <tr><td>samanaikhanen+A+Sg+Par</td><td>samanaikhasta</td></tr>
@@ -276,9 +279,6 @@
 <tr><td>autuas+A+Sg+Par</td><td>autuasta</td></tr>
 <tr><td>raavas+A+Sg+Par</td><td>raavasta</td></tr>
 <tr><td>karvas+A+Sg+Par</td><td>karvasta</td></tr>
-<tr><td>ahđas+A+Sg+Par</td><td>ahđasta</td></tr>
-<tr><td>puhđas+A+Sg+Par</td><td>puhđasta</td></tr>
-<tr><td>hiđas+A+Sg+Par</td><td>hiđasta</td></tr>
 <tr><td>vihainen+A+Sg+Par</td><td>vihaista</td></tr>
 <tr><td>vanhaanaikhainen+A+Sg+Par</td><td>vanhaanaikhaista</td></tr>
 <tr><td>samanaikhainen+A+Sg+Par</td><td>samanaikhaista</td></tr>
@@ -638,8 +638,8 @@
 <tr><td>söötti+A+Sg+Par</td><td>sööttii</td></tr>
 <tr><td>nekatiivi+A+Sg+Par</td><td>nekatiivii</td></tr>
 <tr><td>primitiivi+A+Sg+Par</td><td>primitiivii</td></tr>
+<tr><td>pälvi+A+Sg+Par</td><td>pälvii</td></tr>
 <tr><td>krouvi+A+Sg+Par</td><td>krouvii</td></tr>
-<tr><td>pälvi+A+Sg+Par</td><td>pälvvii</td></tr>
 <tr><td>laho+A+Sg+Par</td><td>lahhoo</td></tr>
 <tr><td>mainio+A+Sg+Par</td><td>mainioo</td></tr>
 <tr><td>ujo+A+Sg+Par</td><td>ujjoo</td></tr>
@@ -668,7 +668,7 @@
 <tr><td>rutto+A+Sg+Par</td><td>ruttoo</td></tr>
 <tr><td>siivo+A+Sg+Par</td><td>siivoo</td></tr>
 <tr><td>raju+A+Sg+Par</td><td>rajjuu</td></tr>
-<tr><td>kalju+A+Sg+Par</td><td>kaljjuu</td></tr>
+<tr><td>kalju+A+Sg+Par</td><td>kaljuu</td></tr>
 <tr><td>pikku+A+Sg+Par</td><td>pikkuu</td></tr>
 <tr><td>virkku+A+Sg+Par</td><td>virkkuu</td></tr>
 <tr><td>hullu+A+Sg+Par</td><td>hulluu</td></tr>
@@ -858,7 +858,7 @@
 <tr><td>köyhä+A+Sg+Par</td><td>köyhää</td></tr>
 <tr><td>löyhä+A+Sg+Par</td><td>löyhää</td></tr>
 <tr><td>tyhjä+A+Sg+Par</td><td>tyhjää</td></tr>
-<tr><td>väljä+A+Sg+Par</td><td>väljjää</td></tr>
+<tr><td>väljä+A+Sg+Par</td><td>väljää</td></tr>
 <tr><td>pelkkä+A+Sg+Par</td><td>pelkkää</td></tr>
 <tr><td>synkkä+A+Sg+Par</td><td>synkkää</td></tr>
 <tr><td>herkkä+A+Sg+Par</td><td>herkkää</td></tr>
@@ -895,8 +895,8 @@
 <tr><td>lievä+A+Sg+Par</td><td>lievää</td></tr>
 <tr><td>sievä+A+Sg+Par</td><td>sievää</td></tr>
 <tr><td>tyhvä+A+Sg+Par</td><td>tyhvää</td></tr>
+<tr><td>selvä+A+Sg+Par</td><td>selvää</td></tr>
 <tr><td>epäselvä+A+Sg+Par</td><td>epäselvää</td></tr>
-<tr><td>selvä+A+Sg+Par</td><td>selvvää</td></tr>
 <tr><td>hyvä+A+Sg+Par</td><td>hyvvää</td></tr>
 <tr><td>syvä+A+Sg+Par</td><td>syvvää</td></tr>
 <tr><td>ikävä+A+Sg+Par</td><td>ikävää</td></tr>
