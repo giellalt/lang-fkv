@@ -1,0 +1,171 @@
+Kokkous 16.5.2019 klo 9.00
+
+Läsnäolevat: Aili, Mervi, Thomas ja Trond
+
+
+!!!Asialista
+
+* Analysaattori
+* Korpus
+** Aloitus
+** Fiilit
+**Workshop
+*Sanakirja
+
+
+!!!Analysaattori
+
+!!yaml
+
+!Rapporti
+* generating gt-norm-dial_Por fst(s): PASSES: 2432 / FAILS: 0 / TOTAL: 2432
+* generating gt-norm-dial_Var fst(s): PASSES: 5875 / FAILS: 23 / TOTAL: 5898
+* generating gt-norm-dial_Jok fst(s): PASSES: 2866 / FAILS: 0 / TOTAL: 2866
+
+!Var-virheet
+
+{{{
+ 20/25  FAIL  linna+N+Pl+Ill => Missing results: linnhoin
+ 20/25  FAIL  linna+N+Pl+Ill => Unexpected results: linna+N+Pl+Ill+?
+
+ 20/25  FAIL  kulkkiija+N+Pl+Ill => Missing results: kulkijhoin
+ 20/25  FAIL  kulkkiija+N+Pl+Ill => Unexpected results: kulkkiija+N+Pl+Ill+?
+
+  2/25  PASS  vuosi+N+Sg+Gen => vuoen
+  2/25  FAIL  vuosi+N+Sg+Gen => Missing results: vuojen
+
+ 20/25  FAIL  asia+N+Pl+Ill => Unexpected results: asia+N+Pl+Ill+?
+
+ 20/25  FAIL  aika+N+Pl+Ill => Missing results: aikhoin
+ 20/25  FAIL  aika+N+Pl+Ill => Unexpected results: aika+N+Pl+Ill+?
+
+ 20/25  FAIL  sivakka+N+Pl+Ill => Missing results: sivakkhoin
+ 20/25  FAIL  sivakka+N+Pl+Ill => Unexpected results: sivakka+N+Pl+Ill+?
+}}}
+
+
+
+
+!!Numeraalit
+
+{{{
+test/data/testnumeralpradigm.txt 
+sh devtools/numerals_minip.sh '^kolme'
+}}}
+
+
+("neljäs"cp  oon ominaisuus, se kuvvailee "kala" toisessa esimerkissä,
+"neljä" taas on määrä, eikä ominaisuus) 
+
+sh devtools/numerals_minip.sh '^kolmas'
+
+__Trond__ katselee minip-testiä ordinaaleille.
+
+
+!!Kysymykset/asiat
+
+! Sivu on saanut uuden osoitteen: 
+
+[http://giellalt.uit.no/doc/lang/fkv/KaikkiGeneroidutParadigmat.html]
+
+Voitte itse generoida uudet paradigmat:
+
+{{{
+sh src/scripts/all_fst_output_as_table.sh
+ lt doc/testit/
+}}}
+
+! 12pronsg
+
+Kysymys 12 pronsg-kummituksista?
+
+keskustelu asiasta:
+
+
+{{{
+tämä+Pron+Pers+Sg1:tä       12pronsg  ;  ==> tä + 12pronsg =  täie
+
+ ufkv
+mie
+mie        mie+Pron+Pers+Sg1+Nom  ==> m + 12pronsg = mie
+
+sie
+sie        sie+Pron+Pers+Sg2+Nom
+sie        siđet+N+Sg+Nom
+
+hän
+hän        hän+Pron+Pers+Sg3+Nom
+
+tämä
+tämä        tämä+Pron+Dem+Dem+Sg+Nom
+tämä        tämä+Pron+Dem+Sg+Nom
+
+tf4-hsl-m0024:fkv trond$ e tämä+Pron+Pers+Sg1|dfkv
+tämä+Pron+Pers+Sg1        tämä+Pron+Pers+Sg1        +?
+
+tf4-hsl-m0024:fkv trond$ ufkv
+tämä
+tämä        tämä+Pron+Dem+Dem+Sg+Nom
+tämä        tämä+Pron+Dem+Sg+Nom
+
+tämä+Pron+Pers+Sg1:tä       12pronsg  ;
++Nom:ie     K ; 
+
+YAML test 36: analyser-gt-norm-dial_Por.xfst + gt-norm-yamls/P-12pronsg_mie_gt-norm-dial_Por.yaml - 212/0/212 PASS
+}}}
+
+
+!!Genetiivi
+(Kvääniksi oon kans "Mie syön äpylin") 
+
+{{{
+nyt:
+hänet        hänet        +?
+parempi:
+hänet        hänet+Err/Orth+Pron+Pers+Sg3+Gen
+}}}
+
+
+!sh devtools ordinaali-numeroille
+
+Voisiko Trond tehdä *sh devtools* ordinaali-numeroille? (kolmas+Num+Ord+Sg+Nom)
+** Tulossa
+* Mitä voisi olla syy siihen, että “yksi suunta” toimii mutta toinen ei?
+
+{{{
+ 1/11 *PASS* kahđekses => kahđekses+Num+Ord+Sg+Nom
+ 1/11 *FAIL* kahđekses+Num+Ord+Sg+Nom => Missing results: kahđekses (edited)
+}}}
+
+!Grammatiikkikysymykset Anna-Kaisale:
+
+* akt. ind. imperf., yks. 3.    *souti, sousi*       Kumppaa piethään meilä? Oonko molemat oikhein kvääniksi? (edited) 
+* mA -infinitiivi (miksi se ei aina ota vahviinta graadii?)
+* Onko Anna-Kaisa kuulu, ette kielimestarit käyttävät muotoa neljenssiin? vai onko meillä vain neljenssiitten?
+
+!!!Korpus
+
+!!Aloitus
+
+[Dokumentaatio|https://giellalt.uit.no/ling/corpus_intro.html]
+
+Korpus on työpajan teema.
+
+
+!!Fiilit
+
+[https://www.dropbox.com/sh/fvmrz9nqp9w83d7/AADF2KyMYSa_vz4a7y3BHw8na?dl=0]
+
+!!Workshop
+
+* Mahdollisesti Porsangissa ma-ti 27.-28.5. välisenä aikana
+* Koneet ja ohjelmat kondikseen
+* 12.35 ma lento 
+* 18.05 ti lento
+* Paikka: Kielisentteri klo 14
+
+!!!Sanakirja
+
+excel-dokumentti, main/words/dicts/fkvnob/inc/tiedostonnimi.xlsx
+
+
