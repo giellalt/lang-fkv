@@ -11,7 +11,7 @@ LEXICON NUM
 !! of cardinals and ordinals, and the non-compounding ones:
 !!€gt-norm: Numeral
 !!€ kaksikymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par ! 23,000
-!!€ kahđessađasneljes: kahđes+Num+Ord+Sg+Nom#sađas+Num+Ord+Sg+Nom#neljes+Num+Ord+Sg+Nom  ! 204rd
+!!€ kahđessađasneljes: kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom  ! 204rd
 !!€ viitisenkymmentä: viitisen+Num#kymmentä  ! 50-ish
 0    NUM_CARD_ALL    ;
 0    NUM_ORD_ALL ;
@@ -156,9 +156,9 @@ kymmenettä      #    ;
 LEXICON NUM_ORD_ALL
 !! The compounding parts of ordinals are the number multiplier words.
 !!€gt-norm: Ordinal numerals
-!!€ neljes: neljes+Num+Ord+Sg+Nom
-!!€ viiđenelle: viiđes+Num+Ord+Sg+All
-!!€ tuhanetta: tuhanes+Num+Ord+Sg+Par
+!!€ neljes: neljes+A+Ord+Sg+Nom
+!!€ viiđenelle: viiđes+A+Ord+Sg+All
+!!€ tuhanetta: tuhanes+A+Ord+Sg+Par
 ensimäinen+A+Ord:ensimäi    NUM_ENSIMMÄINEN ;
 yhđes+A+Ord:yhđe              NUM_NELJÄS ;
 toinen+A+Ord:toi              NUM_TOINEN ;
@@ -221,8 +221,8 @@ piljardis+A+Ord:piljardi  NUM_KOLMAS   ;
 LEXICON NUM_ORD_SUFFIX
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Ordinal multiplicants
-!!€ viiđeskymmenes: viiđes+Num+Ord+Sg+Nom#kymmenes
-!!€ neljessađastuhanes: neljes+Num+Ord+Sg+Nom#sađas+Num+Ord+Sg+Nom#tuhanes
+!!€ viiđeskymmenes: viiđes+A+Ord+Sg+Nom#kymmenes
+!!€ neljessađastuhanes: neljes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#tuhanes
 kymmenes # ;
 sađas # ;
 tuhanes # ;
@@ -352,7 +352,7 @@ LEXICON NUM_KAKSI
 !!€ kaksina: kaksi+Num+Pl+Ess
 !!€ kaksissa: kaksi+Num+Pl+Ine
 0:ksi   NUM_BACK_NOMINATIVE ;
-!+Use/NG:ks   NUM_BACK_NOMINATIVE ; 
++Use/NG:ks   NUM_BACK_NOMINATIVE ; 
 0:ht    NUM_BACK_ILLATIVE_HEEN    ;
 0:hte   NUM_BACK_STRONG_SINGULARS   ;
 0:hte   NUM_BACK_STRONG_SINGULARS_NA ;        
@@ -709,16 +709,16 @@ LEXICON NUM_PARI
 
 LEXICON NUM_ENSIMMÄINEN
 !!€gt-norm: Numerals 38
-!!€ ensimäinen: ensimäinen+Num+Ord+Sg+Nom
-!!€ ensimäisenä: ensimäinen+Num+Ord+Sg+Ess
-!!€ ensimäisessä: ensimäinen+Num+Ord+Sg+Ine
-!!€ ensimäistä: ensimäinen+Num+Ord+Sg+Par
-!!€ ensimäisten: ensimäinen+Num+Ord+Pl+Gen
-!!€ ensimäissiitten: ensimäinen+Num+Ord+Pl+Gen
-!!€ ensimäissii: ensimäinen+Num+Ord+Pl+Par
-!!€ ensimäishiin: ensimäinen+Num+Ord+Pl+Ill
-!!€ ensimäisinä: ensimäinen+Num+Ord+Pl+Ess
-!!€ ensimäisissä: ensimäinen+Num+Ord+Pl+Ine
+!!€ ensimäinen: ensimäinen+A+Ord+Sg+Nom
+!!€ ensimäisenä: ensimäinen+A+Ord+Sg+Ess
+!!€ ensimäisessä: ensimäinen+A+Ord+Sg+Ine
+!!€ ensimäistä: ensimäinen+A+Ord+Sg+Par
+!!€ ensimäisten: ensimäinen+A+Ord+Pl+Gen
+!!€ ensimäissiitten: ensimäinen+A+Ord+Pl+Gen
+!!€ ensimäissii: ensimäinen+A+Ord+Pl+Par
+!!€ ensimäishiin: ensimäinen+A+Ord+Pl+Ill
+!!€ ensimäisinä: ensimäinen+A+Ord+Pl+Ess
+!!€ ensimäisissä: ensimäinen+A+Ord+Pl+Ine
 0:nen   NUM_FRONT_NOMINATIVE ;
 0:s     NUM_FRONT_ILLATIVE_HEEN    ;
 0:se    NUM_FRONT_SINGULARS   ;
@@ -734,18 +734,18 @@ LEXICON NUM_ENSIMMÄINEN
 
 LEXICON NUM_TOINEN
 !!€gt-norm: Numerals 38 back
-!!€ toinen: toinen+Num+Ord+Sg+Nom
-!!€ toisheen: toinen+Num+Ord+Sg+Ill
-!!€ toista: toinen+Num+Ord+Sg+Par
-!!€ toisessa: toinen+Num+Ord+Sg+Ine
-!!€ toisela: toinen+Num+Ord+Sg+Ade
-!!€ toisena: toinen+Num+Ord+Sg+Ess
-!!€ toisten: toinen+Num+Ord+Pl+Gen
-!!€ toissiin: toinen+Num+Ord+Pl+Gen
-!!€ toissii: toinen+Num+Ord+Pl+Par
-!!€ toishiin: toinen+Num+Ord+Pl+Ill
-!!€ toisissa: toinen+Num+Ord+Pl+Ine
-!!€ toisina: toinen+Num+Ord+Pl+Ess
+!!€ toinen: toinen+A+Ord+Sg+Nom
+!!€ toisheen: toinen+A+Ord+Sg+Ill
+!!€ toista: toinen+A+Ord+Sg+Par
+!!€ toisessa: toinen+A+Ord+Sg+Ine
+!!€ toisela: toinen+A+Ord+Sg+Ade
+!!€ toisena: toinen+A+Ord+Sg+Ess
+!!€ toisten: toinen+A+Ord+Pl+Gen
+!!€ toissiin: toinen+A+Ord+Pl+Gen
+!!€ toissii: toinen+A+Ord+Pl+Par
+!!€ toishiin: toinen+A+Ord+Pl+Ill
+!!€ toisissa: toinen+A+Ord+Pl+Ine
+!!€ toisina: toinen+A+Ord+Pl+Ess
 0:nen   NUM_BACK_NOMINATIVE ;
 0:s     NUM_BACK_ILLATIVE_HEEN    ;
 0:se    NUM_BACK_SINGULARS   ;
@@ -763,16 +763,16 @@ LEXICON NUM_TOINEN
 
 LEXICON NUM_KOLMAS
 !!€gt-norm: Numerals 45
-!!€ kolmas: kolmas+Num+Ord+Sg+Nom
-!!€ kolmantenna: kolmas+Num+Ord+Sg+Ess
-!!€ kolmanessa: kolmas+Num+Ord+Sg+Ine
-!!€ kolmanella: kolmas+Num+Ord+Sg+Ade
-!!€ kolmantheen: kolmas+Num+Ord+Sg+Ill
-!!€ kolmatta: kolmas+Num+Ord+Sg+Par
-!!€ kolmanssii: kolmas+Num+Ord+Pl+Par
-!!€ kolmanssiitten: kolmas+Num+Ord+Pl+Gen
-!!€ kolmansissa: kolmas+Num+Ord+Pl+Ine
-!!€ kolmansinna: kolmas+Num+Ord+Pl+Ess
+!!€ kolmas: kolmas+A+Ord+Sg+Nom
+!!€ kolmantenna: kolmas+A+Ord+Sg+Ess
+!!€ kolmanessa: kolmas+A+Ord+Sg+Ine
+!!€ kolmanella: kolmas+A+Ord+Sg+Ade
+!!€ kolmantheen: kolmas+A+Ord+Sg+Ill
+!!€ kolmatta: kolmas+A+Ord+Sg+Par
+!!€ kolmanssii: kolmas+A+Ord+Pl+Par
+!!€ kolmanssiitten: kolmas+A+Ord+Pl+Gen
+!!€ kolmansissa: kolmas+A+Ord+Pl+Ine
+!!€ kolmansinna: kolmas+A+Ord+Pl+Ess
 0:s     NUM_BACK_NOMINATIVE ;
 0:nt    NUM_BACK_ILLATIVE_HEEN    ;
 0:nte   NUM_BACK_STRONG_SINGULARS   ;
@@ -789,17 +789,17 @@ LEXICON NUM_KOLMAS
 
 LEXICON NUM_NELJÄS
 !!€gt-norm: Numerals 45 fron
-!!€ neljes: neljes+Num+Ord+Sg+Nom
-!!€ neljentheen: neljes+Num+Ord+Sg+Ill
-!!€ neljentennä: neljes+Num+Ord+Sg+Ess
-!!€ neljenessä: neljes+Num+Ord+Sg+Ine
-!!€ neljenellä: neljes+Num+Ord+Sg+Ade
-!!€ neljettä: neljes+Num+Ord+Sg+Par
-!!€ neljenssii: neljes+Num+Ord+Pl+Par
-!!€ neljenssiitten: neljes+Num+Ord+Pl+Gen
-!!€ neljenshiin: neljes+Num+Ord+Pl+Ill
-!!€ neljensissä: neljes+Num+Ord+Pl+Ine
-!!€ neljensinnä: neljes+Num+Ord+Pl+Ess
+!!€ neljes: neljes+A+Ord+Sg+Nom
+!!€ neljentheen: neljes+A+Ord+Sg+Ill
+!!€ neljentennä: neljes+A+Ord+Sg+Ess
+!!€ neljenessä: neljes+A+Ord+Sg+Ine
+!!€ neljenellä: neljes+A+Ord+Sg+Ade
+!!€ neljettä: neljes+A+Ord+Sg+Par
+!!€ neljenssii: neljes+A+Ord+Pl+Par
+!!€ neljenssiitten: neljes+A+Ord+Pl+Gen
+!!€ neljenshiin: neljes+A+Ord+Pl+Ill
+!!€ neljensissä: neljes+A+Ord+Pl+Ine
+!!€ neljensinnä: neljes+A+Ord+Pl+Ess
 0:s     NUM_FRONT_NOMINATIVE ;
 0:nt    NUM_FRONT_ILLATIVE_HEEN    ;
 0:nte   NUM_FRONT_STRONG_SINGULARS   ;
