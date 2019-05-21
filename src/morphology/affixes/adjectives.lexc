@@ -122,7 +122,7 @@ LEXICON a_11  !!= * @CODE@ siisti, soma
 
 LEXICON a_11_E2I !!= * @CODE@ moni, umpi, pälvi 
 +A:           x_11_E2I   ; 
-+A: comp_m_odd  ;
++A:^WG comp_m_odd  ;
 +A:^E2I%>i5 superl_m_odd ;
 +A+Dial/Var :^E2I superl_m_odd ; ! No superl i? maybe e:0 and i5 would be more appropriate
 +A+Sg+Superl:^E2I%>i nom_n ;
