@@ -314,6 +314,7 @@ pari+Num:par           NUM_PARI ;
 LEXICON NUM_YKSI
 !!€gt-norm: Numerals 31
 !!€ yksi: yksi+Num+Sg+Nom
+!!€ yks: yksi+Num+Sg+Nom !sallima puhekieliset haamut ko "yks" ja "kaks"
 !!€ yhtheen: yksi+Num+Sg+Ill
 !!€ yhtenä: yksi+Num+Sg+Ess
 !!€ yhđessä: yksi+Num+Sg+Ine
@@ -325,6 +326,7 @@ LEXICON NUM_YKSI
 !!€ yksinä: yksi+Num+Pl+Ess
 !!€ yksissä: yksi+Num+Pl+Ine
 0:ksi   NUM_FRONT_NOMINATIVE ;
++Use/NG:ks   NUM_FRONT_NOMINATIVE ; 
 0:ht    NUM_FRONT_ILLATIVE_HEEN    ;
 0:hte   NUM_FRONT_STRONG_SINGULARS   ;
 0:hte   NUM_FRONT_STRONG_SINGULARS_NA ;
