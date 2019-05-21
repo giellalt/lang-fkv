@@ -122,10 +122,11 @@ LEXICON a_11  !!= * @CODE@ siisti, soma
 
 LEXICON a_11_E2I !!= * @CODE@ moni, umpi, pälvi 
 +A:           x_11_E2I   ; 
-+A:^WG^AE     comp_m_odd   ;
-+A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
-+A:^WG^A2I%>i5 superl_m_odd ; ! TODO TODO TODO ^AE, really?
-+A+Dial/Var:^WG^AE%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
++A: comp_m_odd  ;
++A:^E2I%>i5 superl_m_odd ;
++A+Dial/Var :^E2I superl_m_odd ; ! No superl i? maybe e:0 and i5 would be more appropriate
++A+Sg+Superl:^E2I%>i nom_n ;
++A+Sg+Superl:^E2I%>in par_tA ;
 
 
 LEXICON a_11_ae  !!= * @CODE@ väärä, nöyrä
