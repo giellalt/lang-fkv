@@ -51,13 +51,13 @@ Läsnäolevat: Aili, Mervi, Thomas ja Trond
 {{{
 test/data/testnumeralpradigm.txt 
 sh devtools/numerals_minip.sh '^kolme'
-}}}
 
 
 ("neljäs"cp  oon ominaisuus, se kuvvailee "kala" toisessa esimerkissä,
 "neljä" taas on määrä, eikä ominaisuus) 
 
 sh devtools/numerals_minip.sh '^kolmas'
+}}}
 
 __Trond__ katselee minip-testiä ordinaaleille.
 
