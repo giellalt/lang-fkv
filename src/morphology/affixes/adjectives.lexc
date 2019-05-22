@@ -125,8 +125,8 @@ LEXICON a_11_E2I !!= * @CODE@ moni, umpi, pälvi
 +A:^WG comp_m_odd  ;
 +A:^E2I%>i5 superl_m_odd ;
 +A+Dial/Var :^E2I superl_m_odd ; ! No superl i? maybe e:0 and i5 would be more appropriate
-+A+Sg+Superl:^E2I%>i nom_n ;
-+A+Sg+Superl:^E2I%>in par_tA ;
+!+A+Sg+Superl:^E2I%>i nom_n ;
+!+A+Sg+Superl:^E2I%>in par_tA ;
 
 
 LEXICON a_11_ae  !!= * @CODE@ väärä, nöyrä

@@ -238,7 +238,7 @@ Rules
  [.#.|#:] Cns:* Vow:+ [l|r|n|m] p _ a: (Dial:) [%> :a|%^A2I:|%^AO: %> i2: (%> n) #] ;
                       [l|r|n|m] p _ :Vow %>  i7: ;
                       [l|r|n|m] p _ :i         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
-                      [l|r|n|m] :p _ e: (Dial:) %^E2I:0 %> i2: %>   %^V: ;        
+                      [l|r|n|m] :p _ e: (Dial:) %^E2I:0 %> [i2:|i5:] %>   [%^V:|m|n] ;        
                       [l|r|n|m] p _  i          %> i2: %> t %^A: ; ! meininkkiitä in Por
                       [l|r|n|m] p _ :ö %> [:ö|i2: (%> n) # ] ; 
                       [l|r|n|m] p _ :y %> [:y|i2: (%> n) #] ;
