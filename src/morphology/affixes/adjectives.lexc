@@ -301,6 +301,8 @@ LEXICON a_32_u !!= * @CODE@ vaipunu:vaipun ! perfect participle
 LEXICON a_32_väsynyt !!= * @CODE@ väsyny:väsyn, so far this is the only word ! perfect participle
 +A+Sg       : nom_y ;
 +A: PRFPRC_OBL ;
++A:hee comp_m_even   ;
++A:hei superl_m_even ;
 
 LEXICON a_32_nny !!= * @CODE@ hengistynny:hengistynn
 +A+Sg: nom_y ;
