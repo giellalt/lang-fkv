@@ -292,6 +292,8 @@ LEXICON a_32_et !!= * @CODE@ tuoret
 LEXICON a_32_u !!= * @CODE@ vaipunu:vaipun ! perfect participle
 +A+Sg       : nom_u   ;
 +A: PRFPRC_OBL  ;
++A:hee comp_m_even   ;
++A:hei superl_m_even ;
 !+A+Sg+Par:u%>tt^A K ;
 !+A:hee vanha_x_33_t_ts_common ;
 !+A+Sg+Ill:hee mTAVU_VV-ill ;
@@ -307,6 +309,8 @@ LEXICON a_32_väsynyt !!= * @CODE@ väsyny:väsyn, so far this is the only word 
 LEXICON a_32_nny !!= * @CODE@ hengistynny:hengistynn
 +A+Sg: nom_y ;
 +A: PRFPRC_OBL ;
++A:hee comp_m_even   ;
++A:hei superl_m_even ;
 
 LEXICON a_22_excns !!= * @CODE@ = veres
 +A:    x_22_excns   ;
