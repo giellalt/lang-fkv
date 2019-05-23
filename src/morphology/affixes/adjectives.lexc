@@ -166,7 +166,8 @@ LEXICON a_31_ee	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out n
 
 LEXICON a_31_ii  !!= * @CODE@ auttii
 +A: x_31_ii ;
-                    comp_m_odd   ;
++A: comp_m_odd   ;
++A: superl_m_odd ;
 
 LEXICON vanha_a_23ea	!!= * @CODE@ pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
   :^¤ x_31_ia ; ! TODO Change ^¤ tag to a custom one
