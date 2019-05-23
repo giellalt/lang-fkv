@@ -309,8 +309,8 @@ LEXICON a_32_väsynyt !!= * @CODE@ väsyny:väsyn, so far this is the only word 
 LEXICON a_32_nny !!= * @CODE@ hengistynny:hengistynn
 +A+Sg: nom_y ;
 +A: PRFPRC_OBL ;
-+A:hee comp_m_even   ;
-+A:hei superl_m_even ;
++A:hee comp_m_odd   ;
++A:hei superl_m_odd ;
 
 LEXICON a_22_excns !!= * @CODE@ = veres
 +A:    x_22_excns   ;
