@@ -120,7 +120,13 @@ Multichar_Symbols
  +Cmp  !!≈ * __@CODE@__ =
  +Cmp/SplitR
  +Cmp/Hyph     !!≈ * __@CODE@__ - on dynamic compounds that have a hyphen (in use?)
- 
+
+
+
+ @P.Pmatch.Backtrack@ !!≈ | @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
+
+
+
 !! !Derivation
  +Der   !!≈ * __@CODE@__ =
  +Der1
@@ -310,6 +316,11 @@ LEXICON Root    !!=  __@CODE@__
  VerbRoot ;         !!= * @CODE@
  Subjunction ;      !!= * @CODE@
  Abbreviation ;     !!= * @CODE@
+ Acronym      ; !!= * @CODE@
+
+LEXICON Acronym
+Acronym-fkv ;
+Acronym-smi ;
 
 
-! Then to the next lexica.
+
