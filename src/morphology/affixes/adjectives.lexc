@@ -100,15 +100,15 @@ LEXICON a_11_AO ! laiha
 +A: x_11_AO ;
 +A:^WG^AE     comp_m_odd   ; !
 !+A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
-+A:^WG^A2I%>i5 superl_m_odd ;
-+A+Dial/Var:^WG^A2I%>   superl_m_odd ;
++A:^AO%>i5 superl_m_odd ;
++A+Dial/Var:^AO%>i5   superl_m_odd ;
 
 LEXICON a_11_A0_A2I ! kova
 +A: x_11_A0_A2I ;
 +A:^WG^AE     comp_m_odd   ; !
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
-+A:^WG^A2I%>i5 superl_m_odd ;
-+A+Dial/Var:^WG^AE%>   superl_m_odd ;
++A:^A2I%>i5 superl_m_odd ;
+!+A+Dial/Var:^A2I%>   superl_m_odd ; !kovvimpia ? Lyhyt i:llinen superlatiivi? 
 
 ! LEXICON vanha_x_21 ! can come from pronoun "sama"
 !  a_11 ;
