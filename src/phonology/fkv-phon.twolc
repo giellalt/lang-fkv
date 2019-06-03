@@ -122,16 +122,16 @@ Rules
 
 "Gemination 0:j"
 !! __@RULENAME@__
-0:j <=> [.#.|#:] Cns:* Vow j _ ä: (Dial:) %> [:ä | i2:i %> :i ] ;
-        [.#.|#:] Cns:* Vow j _ ö %> :ö ;
-        [.#.|#:] Cns:* Vow j _ i [%> :i| %^AO:| %>i2 (%> n) ]  ;
-        [.#.|#:] Cns:* Vow j _ y %> :y ;
-        [.#.|#:] Cns:* Vow j _ u %> [:u|i2: (%> n) #] ;
-        [.#.|#:] Cns:* Vow j _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
-        [.#.|#:] Cns:* Vow j _ e %> :e ;
-        [.#.|#:] Cns:* Vow j _ :a (Dial:0) %> :a ; ! for kuvvaa d. could be just %^Por:0
-        [.#.|#:] Cns:* Vow j _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
-        [.#.|#:] Cns:* Vow j _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii !
+0:j <=> [.#.|#:] Cns:* Vow j _ ä: (Dial:) %> [:ä | i2:i %> :i ]      ;
+        [.#.|#:] Cns:* Vow j _ ö  %> :ö                              ;
+        [.#.|#:] Cns:* Vow j _ y  %> :y                              ;
+        [.#.|#:] Cns:* Vow j _ e  %> :e                              ;
+        [.#.|#:] Cns:* Vow j _ i [%> :i| %^AO:| %>i2 (%> n) ]        ;
+        [.#.|#:] Cns:* Vow j _ u  %> [:u|i2: (%> n) #]               ;
+        [.#.|#:] Cns:* Vow j _ :a   (Dial:0)  %> :a                  ; ! for kuvvaa d. could be just %^Por:0
+        [.#.|#:] Cns:* Vow j _ :o   (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
+        [.#.|#:] Cns:* Vow j _ (e:) (Dial:) (%^E2I:0) %> :i %> :i    ; ! kivvii
+        [.#.|#:] Cns:* Vow j _  a:i (Dial:) (%^A2I:0) %> :i         ; ! kuva kuvvii !
       !  [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :ä (Dial:) %> :ä  ; !Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
       !  [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :a (Dial:) %> :a ;
                                ![l|r|n|m] j _ :Vow (Dial:) %>  i7: ;
@@ -423,16 +423,16 @@ k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i:]     (Dummy:) (:i) (Dummy:) %^WG:0 ; ! mäki 
              \[e] [r|l] _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! jälki:jäljen, sylki:syljen
             [a|e] [r|l] _  e          (Dummy:)               %^WG:0 %> ; ! haljeta, halkee, seljetä, selkee
  [.#.|#:]     Cns [o|u] _  e:         %^WG:0                           ; ! lukkeet  - lujen
- [.#.|#:]   [k|j] a (i) _  [a:|u]     %^WG:0 ([%^AO:|%^AE:]) (%>) (i3:) (%>)     ; ! kaikkuut:kaijun, jakkaat:jajan
-                      h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0 ; ! vehke- - vehjet, lohke- lohjeta, puhke- puhjeta
+ [.#.|#:]         j a   _  a:     %^WG:0 ([%^AO:|%^AE:]) (%>) (i3:) (%>)  ; ! jakkaat:jajan
+ [.#.|#:]     Cns Vow i _  u      %^WG:0 ([%^AO:|%^AE:]) (%>) (i3:) (%>)  ; ! kaikkuut:kaijun
+                      h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0       ; ! vehke- - vehjet, lohke- lohjeta, puhke- puhjeta
 
 "Gradation k:0"
 !! __@RULENAME@__
 k:0 <=>               h _ [Vow: - e:]   (Dummy:) (:i) (Dummy:) %^WG:0      ; !tuhka - tuhat, uhata - uhkaa
  [.#.|#:] [m|h] (u)   a _ a:           (Dummy:) (:i) (Dummy:) %^WG:0 (%^AO:0 %> i2: %> \n)  ; !makaa:maata, haka:haan
             [i u|a u|y] _ e            (Dummy:) (:i) (Dummy:) %^WG:0      ; !kykenee - kyetä, laukkee - laueta,liuota-liukkee
-       [.#.|#:] Cns u h _ e  %^WG:0                                       ; !puheta - puhkee, pohkheet:pohjet
-        [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0      ; !ikene- - ien
+         [a|e|i|o|y|ä|ö] _ e        n                          %^WG:0      ; !ikene- - ien
                ö: [l|r] _ [ö|ä]   (Dummy:) (:i) (Dummy:)      %^WG:0      ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
     [e|i|o|u|y|ä] [l|r] _ [a:|ä:|y|u|o] (Dummy:) (:i) (Dummy:) %^WG:0     ; ! selkä:selän, nälkä:nälän, härkä:härän, yrkä:yrän
                a: [l|r] _ [NotEYUB:|u] (Dummy:) (:i) (Dummy:) %^WG:0      ; ! varas - varkaan, NOT: sylki:syljin
@@ -444,6 +444,7 @@ k:0 <=>               h _ [Vow: - e:]   (Dummy:) (:i) (Dummy:) %^WG:0      ; !tu
      Vow: ([l|m|n|r]) k _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r|n) (e:0) (Dial:0) %^WG: ; !kk:k
      Vow: ([l|m|n|r]) k _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ; ! kk:k
                 u [l|r] _ u  (Dial:)  %^WG:0  ;
+!      [.#.|#:] Cns u h _ e  %^WG:0  ; !puheta - puhkee, pohkheet:pohjet (3/6-19: puheta on poiskommentoitu ja pohkheet:pohjet-sanassa ei ole "u". Thomas)
 
 
 !!€ halke^WG%>t^A
@@ -493,7 +494,7 @@ k3:0 <=> u o _ a %^WG: ;
 
 "Gradation k:v"
 !! __@RULENAME@__
-k:v <=> [Vow - i] _ [o|ö|u|y]           (Dummy:) (:i) (Dummy:) %^WG:0 ;
+k:v <=> [Vow - [e|i]] _ [o|ö|u|y]           (Dummy:) (:i) (Dummy:) %^WG:0 ;
      \i [o|ö|u|y] _ (%^Por:) [Vow - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; !ruoka (^Por) is for ruvis
 [.#.|#]  Cns+  y  _  i:                       %^WG:0  %^AO:  %>  i3:  ; !nykkiit:nyvin (preteriti)
             [o|ö] _  e: %^Por:          (Dummy:) (:i) (Dummy:) %^WG:0 ; !Por: joke:joven. Var: joke:joen
