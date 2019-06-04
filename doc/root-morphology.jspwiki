@@ -117,6 +117,12 @@ Number-person
  * __+Cmp__ =
  * __+Cmp/Hyph__ - on dynamic compounds that have a hyphen (in use?)
 
+
+
+ | @P.Pmatch.Backtrack@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
+
+
+
 !Derivation
  * __+Der__ =
 
@@ -287,5 +293,8 @@ Here is the Root lexicon, pointing to all the parts of speech:
  *  VerbRoot ;         
  *  Subjunction ;      
  *  Abbreviation ;     
+ *  Acronym      ; 
+
+
 
 
