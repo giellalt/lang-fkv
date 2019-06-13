@@ -1,11 +1,6 @@
-!! !!!Numerals
-!! Numerals are morphologically nominals, only exception to noun inflection
-!! is that they form compounds with special agreeing patterns. Syntactically
-!! and semantically numerals are clearly separate subset of nominals. Some
-!! of the numerals stem variation patterns are rare to non-existent for other
-!! nominal types. Numerals have two subclasses, cardinals and ordinals.
+!! !!!Kven numerals
 
-! TODO: unimpl.
+
 LEXICON NUM 
 !! Numerals have been split in three sections, the compounding parts
 !! of cardinals and ordinals, and the non-compounding ones:
@@ -13,6 +8,7 @@ LEXICON NUM
 !!€ kaksikymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par ! 23,000
 !!€ kahđessađasneljes: kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom  ! 204rd
 !!€ viitisenkymmentä: viitisen+Num#kymmentä  ! 50-ish
+
 0    NUM_CARD_ALL    ;
 0    NUM_ORD_ALL ;
 0    NUM_OTHERS  ;
