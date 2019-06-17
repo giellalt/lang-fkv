@@ -166,8 +166,8 @@ LEXICON a_11_ae  !!= * @CODE@ väärä, nöyrä
 LEXICON a_21	!!= * @CODE@  liberaali
 +A:  x_21         ;
 +A:  comp_m_odd   ;
-+A:i superl_m_odd ; ! Should be i5?
-+A+Dial/Var :  superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
++A:^A2I%>i5 superl_m_odd ; ! Should be i5?
++A+Dial/Var :^A2I  superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
 
 LEXICON a_21_odd	!!= * @CODE@  simppeli, loistaava
 +A:      x_21_odd       ;
