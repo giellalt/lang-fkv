@@ -85,6 +85,32 @@ LEXICON VANHAA ! still TODO fix vanha yaml
 ! +Sg+Gen:         Px              ; ! mattoni
 ! +Pl+Nom:         Px              ; ! mattoni
 
+
+LEXICON VAPAA !Poikkeuksellinen. Katso s.172-173 norjankielisessä grammatiikissa. 
++A+Sg      :aa nom_end ;
++A+Sg      :aa       par_tA          ; ! vanhaata
+  +A+Sg      :haa          ill_sseen         ;
+!      +Pl+Ill:h%>aissiin   K                 ;
+  +A+Sg      :h%>aa        gen_n_sg          ;
+  +A+Sg      :h%>aa        ess_nA             ;
+  +A+Sg      :h%>aa        sgpl_cases_even   ;
+
+  +A+Pl      :h%>aa        nom_t             ;
+  +A+Pl      :h%>a%>i2     gen_tten          ; ! asukkhaitten
+  +A+Pl+Dial/Var:h%>a%>je     gen_n             ; ! rakkhajen
+  +A+Pl      :h%>a%>i2     par_tA            ; ! asukkhaita
+  +Pl+Dial/Var:h%>a%>j      par_A             ; ! rakkhaja
+  ! +A+N+Pl+Ess:h%>a%>i2%>na PxxK              ;
+  +A+Pl      :h%>ai        ill_ssiin         ;
+  +A+Pl      :h%>aa%>i2    ess_nA             ;
+  +A+Pl      :h%>a%>i2     com_ne            ;
+  +A+Pl      :h%>a%>i2     sgpl_cases_even   ;
+
++A:haa comp_m_odd   ;
++A:hai superl_m_odd ;
+!+A+Pl+Superl+Gen:hai%>m%>itten K ; !Variaatio? Ei ainakaan dial.
+
+
 LEXICON vanha_nocomp_a_21  !!= * @CODE@
 +A:           x_11         ;
 
