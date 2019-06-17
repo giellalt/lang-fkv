@@ -2,12 +2,13 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (toukokuun 22. päivänä 2019, klo. 21:55)</title>  
+    <title>Generoidut muodot (kesäkuun 17. päivänä 2019, klo. 17:31)</title>  
   </header> 
   <body>	  
     <section><title/>  
 <table>
 <tr><td>+A+Sg+Gen</td><td>+A+Sg+Gen</td></tr>
+<tr><td>vapaa+A+Sg+Gen</td><td>vapaa+A+Sg+Gen</td></tr>
 <tr><td>paras+A+Sg+Gen</td><td>paras+A+Sg+Gen</td></tr>
 <tr><td>ohut+A+Sg+Gen</td><td>ohut+A+Sg+Gen</td></tr>
 <tr><td>ehyt+A+Sg+Gen</td><td>ehyt+A+Sg+Gen</td></tr>
@@ -16,6 +17,7 @@
 <tr><td>lyhy+A+Sg+Gen</td><td>lyhy+A+Sg+Gen</td></tr>
 <tr><td>hengestynny+A+Sg+Gen</td><td>hengestynny+A+Sg+Gen</td></tr>
 <tr><td>hengistynny+A+Sg+Gen</td><td>hengistynny+A+Sg+Gen</td></tr>
+<tr><td>ruiđa+A+Sg+Gen</td><td>ruiđan</td></tr>
 <tr><td>pahas+A+Sg+Gen</td><td>pahhaan</td></tr>
 <tr><td>puhelias+A+Sg+Gen</td><td>puhelihaan</td></tr>
 <tr><td>laupias+A+Sg+Gen</td><td>laupihaan</td></tr>
@@ -63,8 +65,6 @@
 <tr><td>autuas+A+Sg+Gen</td><td>autuhaan</td></tr>
 <tr><td>raavas+A+Sg+Gen</td><td>raavhaan</td></tr>
 <tr><td>karvas+A+Sg+Gen</td><td>karvhaan</td></tr>
-<tr><td>vapaa+A+Sg+Gen</td><td>vapaan</td></tr>
-<tr><td>vappaa+A+Sg+Gen</td><td>vappaan</td></tr>
 <tr><td>sakea+A+Sg+Gen</td><td>sakean</td></tr>
 <tr><td>korkea+A+Sg+Gen</td><td>korkean</td></tr>
 <tr><td>ruskea+A+Sg+Gen</td><td>ruskean</td></tr>
@@ -86,8 +86,6 @@
 <tr><td>vankka+A+Sg+Gen</td><td>vankan</td></tr>
 <tr><td>tarkka+A+Sg+Gen</td><td>tarkan</td></tr>
 <tr><td>laiska+A+Sg+Gen</td><td>laiskan</td></tr>
-<tr><td>engelska+A+Sg+Gen</td><td>engelskan</td></tr>
-<tr><td>tanska+A+Sg+Gen</td><td>tanskan</td></tr>
 <tr><td>hauska+A+Sg+Gen</td><td>hauskan</td></tr>
 <tr><td>tiukka+A+Sg+Gen</td><td>tiukan</td></tr>
 <tr><td>soukka+A+Sg+Gen</td><td>soukan</td></tr>
@@ -199,7 +197,9 @@
 <tr><td>puolikassuuva+A+Sg+Gen</td><td>puolikassuuvan</td></tr>
 <tr><td>leppääkassuuva+A+Sg+Gen</td><td>leppääkassuuvan</td></tr>
 <tr><td>tunttuuva+A+Sg+Gen</td><td>tunttuuvan</td></tr>
-<tr><td>ruiđa+A+Sg+Gen</td><td>ruiđan</td></tr>
+<tr><td>tosi+A+Sg+Gen</td><td>tođen</td></tr>
+<tr><td>uusi+A+Sg+Gen</td><td>uuđen</td></tr>
+<tr><td>täysi+A+Sg+Gen</td><td>täyđen</td></tr>
 <tr><td>ehhee+A+Sg+Gen</td><td>ehheen</td></tr>
 <tr><td>tihhee+A+Sg+Gen</td><td>tihheen</td></tr>
 <tr><td>kuolu+A+Sg+Gen</td><td>kuolheen</td></tr>
@@ -275,11 +275,9 @@
 <tr><td>silmäpuoli+A+Sg+Gen</td><td>silmäpuolen</td></tr>
 <tr><td>vähäinen+A+Sg+Gen</td><td>vähäisemen</td></tr>
 <tr><td>irtain+A+Sg+Gen</td><td>irtaimen</td></tr>
-<tr><td>umpi+A+Sg+Gen</td><td>ummen</td></tr>
 <tr><td>pieni+A+Sg+Gen</td><td>pienen</td></tr>
 <tr><td>tyven+A+Sg+Gen</td><td>tyvenen</td></tr>
 <tr><td>tinatyven+A+Sg+Gen</td><td>tinatyvenen</td></tr>
-<tr><td>moni+A+Sg+Gen</td><td>monen</td></tr>
 <tr><td>nuori+A+Sg+Gen</td><td>nuoren</td></tr>
 <tr><td>suuri+A+Sg+Gen</td><td>suuren</td></tr>
 <tr><td>vihanen+A+Sg+Gen</td><td>vihasen</td></tr>
@@ -715,17 +713,12 @@
 <tr><td>sisänen+A+Sg+Gen</td><td>sisäsen</td></tr>
 <tr><td>näkönen+A+Sg+Gen</td><td>näkösen</td></tr>
 <tr><td>pirunnäkönen+A+Sg+Gen</td><td>pirunnäkösen</td></tr>
-<tr><td>pälvi+A+Sg+Gen</td><td>pälven</td></tr>
-<tr><td>tosi+A+Sg+Gen</td><td>tođen</td></tr>
-<tr><td>uusi+A+Sg+Gen</td><td>uuđen</td></tr>
-<tr><td>täysi+A+Sg+Gen</td><td>täyđen</td></tr>
 <tr><td>kallis+A+Sg+Gen</td><td>kallhiin</td></tr>
 <tr><td>valmis+A+Sg+Gen</td><td>valmhiin</td></tr>
 <tr><td>kaunis+A+Sg+Gen</td><td>kaunhiin</td></tr>
 <tr><td>tyyris+A+Sg+Gen</td><td>tyyrhiin</td></tr>
 <tr><td>raitis+A+Sg+Gen</td><td>raitthiin</td></tr>
 <tr><td>tivis+A+Sg+Gen</td><td>tivhiin</td></tr>
-<tr><td>ruottii+A+Sg+Gen</td><td>ruottiin</td></tr>
 <tr><td>auttii+A+Sg+Gen</td><td>auttiin</td></tr>
 <tr><td>fakki+A+Sg+Gen</td><td>fakin</td></tr>
 <tr><td>plankki+A+Sg+Gen</td><td>plankin</td></tr>
@@ -742,8 +735,10 @@
 <tr><td>hööli+A+Sg+Gen</td><td>höölin</td></tr>
 <tr><td>viimi+A+Sg+Gen</td><td>viimin</td></tr>
 <tr><td>himmi+A+Sg+Gen</td><td>himmin</td></tr>
+<tr><td>umpi+A+Sg+Gen</td><td>ummin</td></tr>
 <tr><td>kleini+A+Sg+Gen</td><td>kleinin</td></tr>
 <tr><td>fiini+A+Sg+Gen</td><td>fiinin</td></tr>
+<tr><td>moni+A+Sg+Gen</td><td>monin</td></tr>
 <tr><td>pruuni+A+Sg+Gen</td><td>pruunin</td></tr>
 <tr><td>klaari+A+Sg+Gen</td><td>klaarin</td></tr>
 <tr><td>naakkari+A+Sg+Gen</td><td>naakkarin</td></tr>
@@ -764,6 +759,7 @@
 <tr><td>söötti+A+Sg+Gen</td><td>söötin</td></tr>
 <tr><td>nekatiivi+A+Sg+Gen</td><td>nekatiivin</td></tr>
 <tr><td>primitiivi+A+Sg+Gen</td><td>primitiivin</td></tr>
+<tr><td>pälvi+A+Sg+Gen</td><td>pälvin</td></tr>
 <tr><td>krouvi+A+Sg+Gen</td><td>krouvin</td></tr>
 <tr><td>vaiti+A+Sg+Gen</td><td>vaiđin</td></tr>
 <tr><td>laho+A+Sg+Gen</td><td>lahon</td></tr>
@@ -827,6 +823,7 @@
 <tr><td>määrätty+A+Sg+Gen</td><td>määrätyn</td></tr>
 <tr><td>präntätty+A+Sg+Gen</td><td>präntätyn</td></tr>
 <tr><td>kärys+A+Sg+Gen</td><td>kärhyyn</td></tr>
+<tr><td>mätä+A+Sg+Gen</td><td>mäđän</td></tr>
 <tr><td>pyhä+A+Sg+Gen</td><td>pyhän</td></tr>
 <tr><td>tyyhä+A+Sg+Gen</td><td>tyyhän</td></tr>
 <tr><td>köyhä+A+Sg+Gen</td><td>köyhän</td></tr>
@@ -875,7 +872,6 @@
 <tr><td>tylsä+A+Sg+Gen</td><td>tylsän</td></tr>
 <tr><td>käpsä+A+Sg+Gen</td><td>käpsän</td></tr>
 <tr><td>näpsä+A+Sg+Gen</td><td>näpsän</td></tr>
-<tr><td>ryssä+A+Sg+Gen</td><td>ryssän</td></tr>
 <tr><td>löysä+A+Sg+Gen</td><td>löysän</td></tr>
 <tr><td>ryöttä+A+Sg+Gen</td><td>ryötän</td></tr>
 <tr><td>yhđentekkeevä+A+Sg+Gen</td><td>yhđentekkeevän</td></tr>
@@ -899,7 +895,6 @@
 <tr><td>kiilttäävä+A+Sg+Gen</td><td>kiilttäävän</td></tr>
 <tr><td>virkistyttäävä+A+Sg+Gen</td><td>virkistyttäävän</td></tr>
 <tr><td>sinnikäs+A+Sg+Gen</td><td>sinnikkhään</td></tr>
-<tr><td>mätä+A+Sg+Gen</td><td>mäđän</td></tr>
 <tr><td>pystö+A+Sg+Gen</td><td>pystön</td></tr>
 </table>
     </section>
