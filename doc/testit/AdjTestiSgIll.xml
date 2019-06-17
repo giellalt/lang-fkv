@@ -2,12 +2,13 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (toukokuun 22. päivänä 2019, klo. 21:54)</title>  
+    <title>Generoidut muodot (kesäkuun 17. päivänä 2019, klo. 17:31)</title>  
   </header> 
   <body>	  
     <section><title/>  
 <table>
 <tr><td>+A+Sg+Ill</td><td>+A+Sg+Ill</td></tr>
+<tr><td>vapaa+A+Sg+Ill</td><td>vapaa+A+Sg+Ill</td></tr>
 <tr><td>paras+A+Sg+Ill</td><td>paras+A+Sg+Ill</td></tr>
 <tr><td>ohut+A+Sg+Ill</td><td>ohut+A+Sg+Ill</td></tr>
 <tr><td>ehyt+A+Sg+Ill</td><td>ehyt+A+Sg+Ill</td></tr>
@@ -16,6 +17,7 @@
 <tr><td>lyhy+A+Sg+Ill</td><td>lyhy+A+Sg+Ill</td></tr>
 <tr><td>hengestynny+A+Sg+Ill</td><td>hengestynny+A+Sg+Ill</td></tr>
 <tr><td>hengistynny+A+Sg+Ill</td><td>hengistynny+A+Sg+Ill</td></tr>
+<tr><td>ruiđa+A+Sg+Ill</td><td>ruiđhaan</td></tr>
 <tr><td>sakea+A+Sg+Ill</td><td>sakeahaan</td></tr>
 <tr><td>korkea+A+Sg+Ill</td><td>korkeahaan</td></tr>
 <tr><td>ruskea+A+Sg+Ill</td><td>ruskeahaan</td></tr>
@@ -41,8 +43,6 @@
 <tr><td>arka+A+Sg+Ill</td><td>arkhaan</td></tr>
 <tr><td>pimmeenarka+A+Sg+Ill</td><td>pimmeenarkhaan</td></tr>
 <tr><td>laiska+A+Sg+Ill</td><td>laiskhaan</td></tr>
-<tr><td>engelska+A+Sg+Ill</td><td>engelskhaan</td></tr>
-<tr><td>tanska+A+Sg+Ill</td><td>tanskhaan</td></tr>
 <tr><td>hauska+A+Sg+Ill</td><td>hauskhaan</td></tr>
 <tr><td>nuuka+A+Sg+Ill</td><td>nuukhaan</td></tr>
 <tr><td>hankala+A+Sg+Ill</td><td>hankalhaan</td></tr>
@@ -150,7 +150,6 @@
 <tr><td>puolikassuuva+A+Sg+Ill</td><td>puolikassuuvhaan</td></tr>
 <tr><td>leppääkassuuva+A+Sg+Ill</td><td>leppääkassuuvhaan</td></tr>
 <tr><td>tunttuuva+A+Sg+Ill</td><td>tunttuuvhaan</td></tr>
-<tr><td>ruiđa+A+Sg+Ill</td><td>ruiđhaan</td></tr>
 <tr><td>puoli+A+Sg+Ill</td><td>puolheen</td></tr>
 <tr><td>käsipuoli+A+Sg+Ill</td><td>käsipuolheen</td></tr>
 <tr><td>silmäpuoli+A+Sg+Ill</td><td>silmäpuolheen</td></tr>
@@ -159,8 +158,6 @@
 <tr><td>pieni+A+Sg+Ill</td><td>pienheen</td></tr>
 <tr><td>tyven+A+Sg+Ill</td><td>tyvenheen</td></tr>
 <tr><td>tinatyven+A+Sg+Ill</td><td>tinatyvenheen</td></tr>
-<tr><td>moni+A+Sg+Ill</td><td>monheen</td></tr>
-<tr><td>umpi+A+Sg+Ill</td><td>umpheen</td></tr>
 <tr><td>nuori+A+Sg+Ill</td><td>nuorheen</td></tr>
 <tr><td>suuri+A+Sg+Ill</td><td>suurheen</td></tr>
 <tr><td>vihanen+A+Sg+Ill</td><td>vihasheen</td></tr>
@@ -599,7 +596,6 @@
 <tr><td>tosi+A+Sg+Ill</td><td>totheen</td></tr>
 <tr><td>uusi+A+Sg+Ill</td><td>uutheen</td></tr>
 <tr><td>täysi+A+Sg+Ill</td><td>täytheen</td></tr>
-<tr><td>pälvi+A+Sg+Ill</td><td>pälvheen</td></tr>
 <tr><td>pahas+A+Sg+Ill</td><td>pahhaasseen</td></tr>
 <tr><td>puhelias+A+Sg+Ill</td><td>puhelihaasseen</td></tr>
 <tr><td>laupias+A+Sg+Ill</td><td>laupihaasseen</td></tr>
@@ -647,8 +643,6 @@
 <tr><td>autuas+A+Sg+Ill</td><td>autuhaasseen</td></tr>
 <tr><td>raavas+A+Sg+Ill</td><td>raavhaasseen</td></tr>
 <tr><td>karvas+A+Sg+Ill</td><td>karvhaasseen</td></tr>
-<tr><td>vapaa+A+Sg+Ill</td><td>vapaasseen</td></tr>
-<tr><td>vappaa+A+Sg+Ill</td><td>vappaasseen</td></tr>
 <tr><td>ehhee+A+Sg+Ill</td><td>ehheesseen</td></tr>
 <tr><td>tihhee+A+Sg+Ill</td><td>tihheesseen</td></tr>
 <tr><td>kuolu+A+Sg+Ill</td><td>kuolheesseen</td></tr>
@@ -725,7 +719,6 @@
 <tr><td>tyyris+A+Sg+Ill</td><td>tyyrhiisseen</td></tr>
 <tr><td>raitis+A+Sg+Ill</td><td>raitthiisseen</td></tr>
 <tr><td>tivis+A+Sg+Ill</td><td>tivhiisseen</td></tr>
-<tr><td>ruottii+A+Sg+Ill</td><td>ruottiisseen</td></tr>
 <tr><td>auttii+A+Sg+Ill</td><td>auttiisseen</td></tr>
 <tr><td>kärys+A+Sg+Ill</td><td>kärhyysseen</td></tr>
 <tr><td>sinnikäs+A+Sg+Ill</td><td>sinnikkhäässeen</td></tr>
@@ -746,7 +739,9 @@
 <tr><td>himmi+A+Sg+Ill</td><td>himmhiin</td></tr>
 <tr><td>kleini+A+Sg+Ill</td><td>kleinhiin</td></tr>
 <tr><td>fiini+A+Sg+Ill</td><td>fiinhiin</td></tr>
+<tr><td>moni+A+Sg+Ill</td><td>monhiin</td></tr>
 <tr><td>pruuni+A+Sg+Ill</td><td>pruunhiin</td></tr>
+<tr><td>umpi+A+Sg+Ill</td><td>umphiin</td></tr>
 <tr><td>klaari+A+Sg+Ill</td><td>klaarhiin</td></tr>
 <tr><td>naakkari+A+Sg+Ill</td><td>naakkarhiin</td></tr>
 <tr><td>sikkari+A+Sg+Ill</td><td>sikkarhiin</td></tr>
@@ -767,6 +762,7 @@
 <tr><td>söötti+A+Sg+Ill</td><td>söötthiin</td></tr>
 <tr><td>nekatiivi+A+Sg+Ill</td><td>nekatiivhiin</td></tr>
 <tr><td>primitiivi+A+Sg+Ill</td><td>primitiivhiin</td></tr>
+<tr><td>pälvi+A+Sg+Ill</td><td>pälvhiin</td></tr>
 <tr><td>krouvi+A+Sg+Ill</td><td>krouvhiin</td></tr>
 <tr><td>laho+A+Sg+Ill</td><td>lahhoon</td></tr>
 <tr><td>mainio+A+Sg+Ill</td><td>mainihoon</td></tr>
@@ -876,7 +872,6 @@
 <tr><td>tylsä+A+Sg+Ill</td><td>tylshään</td></tr>
 <tr><td>käpsä+A+Sg+Ill</td><td>käpshään</td></tr>
 <tr><td>näpsä+A+Sg+Ill</td><td>näpshään</td></tr>
-<tr><td>ryssä+A+Sg+Ill</td><td>rysshään</td></tr>
 <tr><td>löysä+A+Sg+Ill</td><td>löyshään</td></tr>
 <tr><td>ryöttä+A+Sg+Ill</td><td>ryötthään</td></tr>
 <tr><td>mätä+A+Sg+Ill</td><td>mäthään</td></tr>
