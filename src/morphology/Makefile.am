@@ -37,6 +37,7 @@ GT_LEXC_SRCS_L1_L2=\
 			   stems/adverbs.lexc       \
 			   stems/closed.lexc        \
 			   stems/nouns.lexc         \
+			   stems/numerals.lexc         \
 			   stems/prepositions.lexc  \
 			   stems/postpositions.lexc \
 			   stems/pronouns.lexc      \
@@ -61,11 +62,13 @@ GT_LEXC_L2_SRCS=\
 			$(L2)
 
 # Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=generated_files/smi-$(GTLANG)-numerals.lexc \
-                    generated_files/smi-$(GTLANG)-acronyms.lexc \
+GENERATED_LEXC_SRCS=generated_files/smi-$(GTLANG)-acronyms.lexc \
                     generated_files/punctuation.lexc \
+                    generated_files/smi-digits.lexc \
+                    generated_files/arabic_roman_digits.lexc \
                     generated_files/symbols.lexc
 
+#generated_files/smi-$(GTLANG)-numerals.lexc \
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=
 
@@ -77,7 +80,6 @@ GT_LOCAL_XFSCRIPT_SRCS=
 
 # Define here any additional sources just included in the distro:
 GT_DISTRO_SRCS=stems/$(GTLANG)-acronyms.lexc \
-				stems/numerals.lexc \
                $(top_srcdir)/src/scripts/smi-$(GTLANG)-conversion.pl
 
 
@@ -106,19 +108,24 @@ generated_files/smi-$(GTLANG)-acronyms.lexc: \
 	echo "" >> $@ && \
 	cat $< >> $@
 
-generated_files/arabic_roman_digits.lexc: \
-			$(GIELLA_SHARED)/smi/src/morphology/stems/arabic_roman_digits.lexc
+#generated_files/arabic_roman_digits.lexc: \
+#			$(GIELLA_SHARED)/smi/src/morphology/stems/arabic_roman_digits.lexc
+#	$(AM_V_at)$(MKDIR_P) generated_files
+#	$(AM_V_GEN)cp -f $< $@
+#generated_files/smi-$(GTLANG)-numerals.lexc: \
+#		generated_files/arabic_roman_digits.lexc \
+#		$(srcdir)/stems/numerals.lexc
+#	$(AM_V_GEN)rm -f $@ && \
+#	cp -f $(srcdir)/stems/numerals.lexc $@ && \
+#	echo "" >> $@ && \
+#	echo "! <--- Dump from SMI -->" >> $@ && \
+#	echo "" >> $@ && \
+#	cat $< >> $@
+
+generated_files/%.lexc: \
+			$(GIELLA_SHARED)/smi/src/morphology/stems/%.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $< $@
-generated_files/smi-$(GTLANG)-numerals.lexc: \
-		generated_files/arabic_roman_digits.lexc \
-		$(srcdir)/stems/numerals.lexc
-	$(AM_V_GEN)rm -f $@ && \
-	cp -f $(srcdir)/stems/numerals.lexc $@ && \
-	echo "" >> $@ && \
-	echo "! <--- Dump from SMI -->" >> $@ && \
-	echo "" >> $@ && \
-	cat $< >> $@
 
 
 ### END: Local processing: ###
