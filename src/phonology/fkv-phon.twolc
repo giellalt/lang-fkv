@@ -1039,18 +1039,14 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _
         [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO:0 a:0 ;
         ! TODO which case is a:0 at the end? Also kuvina/e here, i or not, depends on the dialects remember.
         ! Also: used to have %^AO: as optional in (),
-        [#:|.#.]  Cns    (RoundedVow) [u|o]  (i6:)                        Cns  _ %^AO:0 (%^I0:0) %> i2:i %> n  [e | :a | :ä ] ;
+        [#:|.#.]  Cns    (RoundedVow) [u|o]  (i6:)                        Cns  _ %^A0:0 (%^I0:0) %> i2:i %> n  [e | :a | :ä ] ;
 ! TODO TODO if ^A: it says no realizations, if :a | :ä it just ignores them?
 ! TODO check if context should be more extensive. NOT :Cns though!
-[#:|.#.] (Cns:*) RoundedVow (Vow) Cns: (Cns:)(a)[:a|:e][:v|:m] _ (Dial:)(%^WG:0) (%^AO:0) (%>) ([i2:|i])  %> (i) :i (i) %> ;
+[#:|.#.] (Cns:*) RoundedVow (Vow) Cns: (Cns:)(a)[:a|:e][:v|:m] _ (Dial:)(%^WG:0) (%^A0:0) (%>) ([i2:|i])  %> (i) :i (i) %> ;
          ! check first (i)? <- What is this? added :i to catch loistaava superl too. should be [i2:|i5:]?
-[#:|.#.] (Cns:*) RoundedVow (Vow) Cns: (Cns:)(a)[:a|:e][:v|:m] _ (Dial:)(%^WG:0) (%^AO:0) (%>) (i)        %> (i) :i (i) %> ;
+[#:|.#.] (Cns:*) RoundedVow (Vow) Cns: (Cns:)(a)[:a|:e][:v|:m] _ (Dial:)(%^WG:0) (%^A0:0) (%>) (i)        %> (i) :i (i) %> ;
                                                                _ a (Dial:) %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; ! = Shortening of long vowel in front of i
                  Vow:+ Cns: (Cns:)                             _ (Dial:) (%^WG:0) %> i3: (%>) ; ! kirjoitan/tin
-      RoundedVow [u|o] Cns: (Cns:)                             _ (Dial:) (%^AO:0) %> i3: (%>) ; ! luotti EI antoi (ja muita v2 w/a:o)
-! TODO TODO luotti (and antoi) now works, maybe the this left context is not optimal! Find a better one with Aili :)
-! TODO not good to use ^AO here, instead of ^A0, it's there because the v2 lexica has not been split.
-! Maybe (if we make the part between RoundedVow and _ better) we can remove most of these rules as it would be enough.
                                                      :SurfaceCns _ (Dial:) ([%^E2I:|%^AO:]) %^HMETA:  %> h [:a|i:] ; ! aikhaan
                                                      :SurfaceCns _ (Dial:)  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
                                                      :i          _ (Dial:) (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
@@ -1181,7 +1177,7 @@ a:o <=> [#:|.#.] (Cns:*) UnroundedVow ([u|i|e|a]) (Cns:*) (Vow:*) Cns:+ (:Cns) _
 !a:i <=> Vow Cns Cns:* a a Cns:+ (:Cns) _ (%^WG:) %> i2: ; ! 3-syll
 a:i <=> Vow Cns Cns:* a a j _ (%^WG:) %> i2: ; ! 3-syll TODO Vow instead of a a to generalize? Are cases missing?
         Vow Cns Cns:* a   j _ (%^WG:) %^A2I:0 %> ; ! Var TODO Vow instead of a a to generalize? Are cases missing? opettajine
-                              _ (Dial:0) (%^WG:0) %^A2I:0 ; ! kuvviin kuvvii, poikkiin poikkii
+                            _ (Dial:0) (%^WG:0) %^A2I:0 ; ! kuvviin kuvvii, poikkiin poikkii
 ! n_21     = puku = puvuissa
 ! n_21_URa = sana = sanoissa
 ! n_21_Ra  = kuva = kuvissa
