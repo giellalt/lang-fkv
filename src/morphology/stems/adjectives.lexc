@@ -951,8 +951,8 @@ hengistynny:hengistynn  a_32_nny ; ! vanha_a_33u ei toimi y-päätteisillä
 ehyt a_x ; ! :eh
 ohut a_x ; ! :oh
 lyhyt a_x ; ! :lyh
-vappaa:vapp VANHAA ; ! TODO: vappaa ja vapaa pitää lyödä yhteen.
-vapaa:vap VANHAA ; ! 
+!vappaa:vapp VANHAA ; ! TODO: vappaa ja vapaa pitää lyödä yhteen. Aili: mitä teemme tämän kans? Grammatiikissa sanotaan ette vapaa oon I-graadi. Silloin "vappaa" ei olisi mahdollista. 
+vapaa:vap2 VAPAA ; ! 
 
 
 !----------------------------------------------------------------------------------------------------------------------
