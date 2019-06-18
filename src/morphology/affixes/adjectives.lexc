@@ -160,7 +160,7 @@ LEXICON a_11_ae  !!= * @CODE@ väärä, nöyrä
 +A:^WG^AE     comp_m_odd   ;
 !+A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! 
 +A:%>i5i superl_m_odd ; 
-+A+Dial/Var :^WG%>i5   superl_m_odd ; 
++A+Dial/Var :%>i5   superl_m_odd ; 
 
 
 LEXICON a_21	!!= * @CODE@  liberaali
@@ -195,6 +195,16 @@ LEXICON a_31_ee	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out n
 
 +A+Sg+Superl+Dial/Por:e%>i2    nom_n  ;
 +A+Sg+Superl+Dial/Por:e%>i2%>n par_tA ;
+
+
+LEXICON a_31_ea  
++A: x_31_ea ; 
++A:     comp_m_odd   ;
+!+A+Dial/Var:^E2I^¤%>^A comp_mm ;
+
+!+A+Dial/Por:e%>i2 superl_m_odd ;
++A:^A2I superl_m_odd ; 
+!+A:^¤%>i5 superl_m_odd ; ! not E2I because pimeimän
 
 LEXICON a_31_ii  !!= * @CODE@ auttii
 +A: x_31_ii ;
