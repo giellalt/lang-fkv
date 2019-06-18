@@ -24,20 +24,21 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
-			   affixes/acronyms.lexc      \
+			   affixes/acronyms.lexc    \
 			   affixes/adjectives.lexc  \
 			   affixes/nouns.lexc       \
 			   affixes/verbs.lexc       \
 			   affixes/pronouns.lexc    \
-			   affixes/propernouns.lexc    \
+			   affixes/propernouns.lexc \
 			   affixes/numerals.lexc    \
 			   affixes/symbols.lexc     \
+			   stems/$(GTLANG)-acronyms.lexc \
 			   stems/abbreviations.lexc \
 			   stems/adjectives.lexc    \
 			   stems/adverbs.lexc       \
 			   stems/closed.lexc        \
 			   stems/nouns.lexc         \
-			   stems/numerals.lexc         \
+			   stems/numerals.lexc      \
 			   stems/prepositions.lexc  \
 			   stems/postpositions.lexc \
 			   stems/pronouns.lexc      \
@@ -62,13 +63,12 @@ GT_LEXC_L2_SRCS=\
 			$(L2)
 
 # Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=generated_files/smi-$(GTLANG)-acronyms.lexc \
+GENERATED_LEXC_SRCS=generated_files/smi-acronyms.lexc \
                     generated_files/punctuation.lexc \
                     generated_files/smi-digits.lexc \
                     generated_files/arabic_roman_digits.lexc \
                     generated_files/symbols.lexc
 
-#generated_files/smi-$(GTLANG)-numerals.lexc \
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=
 
@@ -79,9 +79,7 @@ GT_LOCAL_SRCS=
 GT_LOCAL_XFSCRIPT_SRCS=
 
 # Define here any additional sources just included in the distro:
-GT_DISTRO_SRCS=stems/$(GTLANG)-acronyms.lexc \
-               $(top_srcdir)/src/scripts/smi-$(GTLANG)-conversion.pl
-
+GT_DISTRO_SRCS=
 
 ### BEGIN: Local processing: ###
 
@@ -93,16 +91,6 @@ GT_DISTRO_SRCS=stems/$(GTLANG)-acronyms.lexc \
 
 GIELLA_LOCAL_TARGETS=
 
-generated_files/smi-$(GTLANG)-acronyms.lexc: \
-		generated_files/smi-acronyms.lexc \
-		$(srcdir)/stems/$(GTLANG)-acronyms.lexc
-	$(AM_V_GEN)rm -f $@ && \
-	cp -f $(srcdir)/stems/$(GTLANG)-acronyms.lexc $@ && \
-	echo "" >> $@ && \
-	echo "! <--- Dump from SMI -->" >> $@ && \
-	echo "" >> $@ && \
-	cat $< >> $@
-
 generated_files/%.lexc: \
 			$(GIELLA_SHARED)/smi/src/morphology/stems/%.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
@@ -112,8 +100,6 @@ generated_files/%.lexc: \
 			$(GIELLA_SHARED)/all-langs/src/morphology/stems/%.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $< $@
-
-
 
 ### END: Local processing: ###
 
