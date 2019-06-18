@@ -115,7 +115,8 @@ Rules
         [.#.|#:] Cns:* Vow h _ y %> :y ;
         [.#.|#:] Cns:* Vow h _ u %> [:u|i2: (%> n) #] ;
         [.#.|#:] Cns:* Vow h _ e %> :e ;
-        [.#.|#:] Cns:* Vow h _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:* Vow h _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
+        [.#.|#:] Cns:* Vow h _ :o (Dial:)        %^AO:0 %> i5: %> [m|n] ; !superlatiivi
         [.#.|#:] Cns:* Vow h _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow h _ [ä:|(e:)] (Dial:) (%^E2I:0) %> :i %> :i ; ! pyhä:pyhhii
         [.#.|#:] Cns:* Vow h _ ä: %> i5: i %> [n|m] ; ! superl. pyhhiimässä
