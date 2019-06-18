@@ -30,7 +30,7 @@ täysi:täyte a_12_si ;
 !! Usheempitavuiset lyhykäisvokaaliset rangat
 ! vanha_a_22 -> a_21
 liberaali:liberaali a_21 ;
-simppeli a_21_odd ;
+simppeli a_21_odd_i;
 
 !! Usheempitavuiset (Konsonanttirankaiset?)
 ! vanha_a_32 -> a_22
@@ -557,15 +557,15 @@ puolikassuuva:puoli#kassuuva a_21_odd ;
 leppääkassuuva:leppää#kassuuva a_21_odd ;
 tunttuuva a_21_odd ;
 normaali a_21_odd_i ;
-rekiunaali a_21_odd ;
-sentraali a_21_odd ;
-passeli a_21_odd ;
-naakkari a_21_odd ;
-sikkari a_21_odd ;
-primääri a_21_odd ;
-oransi a_21_odd ;
-oranssi a_21_odd ;
-interesantti a_21_odd ;
+rekiunaali a_21_odd_i ;
+sentraali a_21_odd_i;
+passeli a_21_odd_i ;
+naakkari a_21_odd_i ;
+sikkari a_21_odd_i;
+primääri a_21_odd_i ;
+oransi a_21_odd_i ;
+oranssi a_21_odd_i ;
+interesantti a_21_odd_i ;
 mainio a_21_odd ;
 suipero a_21_odd ;
 maalattu a_21_odd ;
@@ -598,7 +598,7 @@ ymmärettäävä a_21_odd_ae ;
 jännittäävä a_21_odd_ae ;
 kiilttäävä a_21_odd_ae ;
 virkistyttäävä a_21_odd_ae ;
-ekvivalentti a_21_odd ;
+ekvivalentti a_21_odd_i;
 korkea a_31_ea;
 ruskea a_31_ea ;
 sakea a_31_ea ;
