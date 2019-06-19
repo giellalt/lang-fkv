@@ -132,7 +132,7 @@ LEXICON a_11_AO ! laiha
 LEXICON a_11_A0_A2I ! kova
 +A: x_11_A0_A2I ;
 +A:^WG^AE     comp_m_odd   ; !
-!+A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
++A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
 +A:^A2I%>i5 superl_m_odd ;
 !+A+Dial/Var:^A2I%>   superl_m_odd ; !kovvimpia ? Lyhyt i:llinen superlatiivi? 
 
@@ -465,6 +465,30 @@ LEXICON x_22_ton !!= * @CODE@ onneton
   +Pl       :%>tt^Om%>i2    ess_nA            ;
   +Pl       :%>tt^Om%>i2    com_ne            ;
   +Pl       :%>tt^Om%>i2    sgpl_cases_even   ;
+  
+  
+LEXICON a_22_ton_yksi_t
++A: x_22_ton_yksi_t   ; 
++A:%>t^Om^A comp_onneton ;
++A:%>t^Ommi5i superl_onneton ;
++A+Dial/Var :%>t^Ommi5 superl_onneton ;
+
+LEXICON x_22_ton_yksi_t !!= * @CODE@ alaston yhelä -t:läm alastoman
+  +Sg       :%>t^O          nom_n             ;
+  +Sg       :%>t^Om^A      gen_n_sg          ;
+  +Sg       :%>t^On         par_tA            ;
+  +Sg       :%>t^Om        ill_hAAn          ; ! used2be +Ill:%>tt^Omh^A^A
+  +Sg       :%>t^Om^A      ess_nA            ;
+  +Sg       :%>t^Om^A      sgpl_cases_even   ;
+
+  +Pl       :%>t^Om^A      nom_t             ;
+  +Pl       :%>t^Om        gen_mii/mitten_miin ;
+  +Pl       :%>t^Om        par_ii_group      ;
+  +Pl       :%>t^Om        ill_hiin          ; ! +Ill:%>tt^Omh%>i2in K
+  +Pl       :%>t^Om%>i2    ess_nA            ;
+  +Pl       :%>t^Om%>i2    com_ne            ;
+  +Pl       :%>t^Om%>i2    sgpl_cases_even   ;
+
 
 
 !+Pl:%>i2 gen_Vn     ;
