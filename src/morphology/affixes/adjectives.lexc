@@ -160,7 +160,7 @@ LEXICON a_11_ae  !!= * @CODE@ väärä, nöyrä
 +A:^WG^AE     comp_m_odd   ;
 !+A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! 
 +A:%>i5i superl_m_odd ; 
-+A+Dial/Var :%>i5   superl_m_odd ; 
+!+A+Dial/Var :%>i5   superl_m_odd ; 
 
 
 LEXICON a_21	!!= * @CODE@  liberaali
@@ -397,8 +397,8 @@ LEXICON a_22_inen !!= * @CODE@ varovainen
 LEXICON a_22_inen_odd !!= * @CODE@ sininen
 +A:   x_22_inen_odd ;
 +A:se comp_mm ;
-
 +A+Dial/Por :ssi5i superl_m_even ;
+
 +A+Dial/Var :si5i  superl_m_even ;
 +A+Dial/Var :si5   superl_mm     ;
 +A+Dial/Jok :si5i  superl_m_even ;
