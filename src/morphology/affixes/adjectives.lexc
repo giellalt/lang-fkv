@@ -230,6 +230,11 @@ LEXICON a_31_ii  !!= * @CODE@ auttii
 +A: comp_m_odd   ;
 +A: superl_m_odd ;
 
+LEXICON a_31_uu  !!= * @CODE@ liehmuu
++A: x_31_uu ;
++A: comp_m_odd   ;
++A:%>i2 superl_m_odd ; !Se pitää olla i5, mutta se ei jostain syystä lyhenä loppu -u:n. TODO: saada i5 toimimaan niin kuin i2.  
+
 LEXICON vanha_a_23ea	!!= * @CODE@ pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
   :^¤ x_31_ia ; ! TODO Change ^¤ tag to a custom one
   :^¤%>^A comp_mm ;
