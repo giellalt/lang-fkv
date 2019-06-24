@@ -139,12 +139,12 @@ LEXICON a_11_A0_A2I ! kova
 ! LEXICON vanha_x_21 ! can come from pronoun "sama"
 !  a_11 ;
 
-LEXICON a_11  !!= * @CODE@ siisti, soma
+LEXICON a_11  !!= * @CODE@ hieno, tuttu, syyry
 +A:           x_11   ;
 +A:^WG^AE     comp_m_odd   ;
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
 +A:%>i5 superl_m_odd ;
-+A+Dial/Var:^WG^AE%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
++A+Dial/Var:^WG%>i5   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183 Ja var:issa oon heikko aste. 
 
 LEXICON a_11_E2I !!= * @CODE@ moni, umpi, pälvi 
 +A:           x_11_E2I   ; 
