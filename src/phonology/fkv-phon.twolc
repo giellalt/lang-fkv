@@ -1040,7 +1040,7 @@ e:i <=> Cns: (0:Cns) _ (Dial:0) %^E2I:0 [#:|.#.|%> i5: |%> \i2:] ; ! nom.sg of e
 
 "a:0 before Pret and Pl i when rounded root vowel"
 !! __@RULENAME@__
-a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ (%^WG:0) %^AO:0 (%^I0:0) %> [i2:|i3:] ;
+a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ (%^WG:0) %^AO:0 (%^I0:0) %> [i3:] ;
         [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _ %^AO:0 a:0 ;
         ! TODO which case is a:0 at the end? Also kuvina/e here, i or not, depends on the dialects remember.
         ! Also: used to have %^AO: as optional in (),
