@@ -143,7 +143,7 @@ LEXICON a_11  !!= * @CODE@ siisti, soma
 +A:           x_11   ;
 +A:^WG^AE     comp_m_odd   ;
 +A+Pl+Compar+Dial/Var:i%>mp%>i2 par_A ; ! Siistiimpiä
-+A:^A2I%>i5 superl_m_odd ; ! TODO TODO TODO ^AE, really?
++A:%>i5 superl_m_odd ;
 +A+Dial/Var:^WG^AE%>   superl_m_odd ; ! Var:issa lyhyt -i myös mahd. superl,vaikkei kovin tavall.Eira(14)s183
 
 LEXICON a_11_E2I !!= * @CODE@ moni, umpi, pälvi 
