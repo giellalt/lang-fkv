@@ -295,8 +295,9 @@ Rules
 "Gemination 0:t"
 !! __@RULENAME@__
 0:t <=>                    :Vow :t _ [:o|:i]  (%^AO:0) %>  [:i - i2:] ; ! kađota:kato -> kattoisin
-                           :Vow :t _ [Vow: - e:] %> i2:i %> %^V:i  ; ! värriin, vattiin mut EI vuottiin!!
+                           :Vow :t _ [Vow: - e:] %> i2:i %> :i ; ! värriin, vattiin mut EI vuottiin!!
                            :Vow :t _ e:            %> i7:i Cns ; ! contr verbs
+                           :Vow :t _ ä: %> i5: :i %> [m|n]     ; ! superl. mättiin
  [.#.|#:] Cns:* Vow:+           :t _ a: (%^Por:0) [%> :a| %^AO: %> i2: (%> n) ] ; ! Only in Por, 0:k kk
  [.#.|#:] Cns:* Vow:+           [t|t2:] _ a: %^Por:0 [%> :a | %^A2I: %> i2: (%> n) #] ;
  [.#.|#:] Cns:* Vow:+           :t _ ä %> :ä ;
@@ -338,13 +339,12 @@ Rules
                              ! [l|r|n|m] v _ :Vow %>  i7: ;
                              ! [l|r|n|m] v _ :i       %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                              ! [l|r|n|m] :v _ e: %^E2I:0 %> i2: %>   %^V: ;
-                            !  [l|r|n|m] v _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
+                             ! [l|r|n|m] v _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
                               ![l|r|n|m] v _ :ö %> :ö ;
                               ![l|r|n|m] v _ :y %> :y ;
                               ![l|r|n|m] v _ :u %> :u ;
                               ![l|r|n|m] v _ :o %> :o ;
                               ![l|r|n|m] v _ :e %> :e ;
-
 
 
 
