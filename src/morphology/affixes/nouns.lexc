@@ -958,10 +958,10 @@ LEXICON x_12_si ! uusi
     +Pl      :^WG      nom_t           ;
     +Pl      :^WG^UU   nom_t           ;
     +Pl      :^WG^TJ   nom_t           ;
-    +Pl+Dial/Por:%>i2     gen_Vn          ; ! vuossiin, ei vuottiin, hirssiin
+    !+Pl+Dial/Por:%>i2     gen_Vn          ; ! vuossiin, ei vuottiin, hirssiin
     +Pl+Dial/Jok:%>i2     gen_tten        ; !hirssitten, vuossitten
     +Pl+Dial/Var:^E2I%>i2 gen_tten        ; !hirssitten, vuossitten
-    +Pl+Dial/Por:%>i2     par_V           ; ! hirssii
+    !+Pl+Dial/Por:%>i2     par_V           ; ! hirssii
     +Pl+Dial/Jok:%>i2     par_A           ; ! hirsiä
     +Pl+Dial/Var:^E2I%>i2 par_A           ; ! hirsiä
     +Pl      :^HMETA   ill_hiin        ;
