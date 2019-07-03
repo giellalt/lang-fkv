@@ -936,7 +936,7 @@ LEXICON x_12_si ! uusi
   +Pl+Dial/Var:%>i2     gen_tten        ; !hirssitten, vuossitten
   +Pl+Dial/Por:^E2I%>i2 par_V           ; ! hirssii
   +Pl+Dial/Jok:%>i2     par_A           ; ! hirsiä
-  +Pl+Dial/Var:%>i2     par_A           ; ! hirsiä
+  !+Pl+Dial/Var:%>i2     par_A           ; ! hirsiä
   +Pl      :^HMETA    ill_hiin        ;
   +Pl      :^E2I%>i2    ess_nA          ;
   +Pl      :^E2I%>i2    com_ne          ;
