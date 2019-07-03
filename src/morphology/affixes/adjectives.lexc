@@ -166,7 +166,7 @@ LEXICON a_11_ae  !!= * @CODE@ väärä, nöyrä
 !+A+Dial/Var :%>i5   superl_m_odd ; 
 
 
-LEXICON a_21	!!= * @CODE@  liberaali
+LEXICON a_21	!!= * @CODE@  liberaali !TODO: selvittää kannattaako siirtää osa sanoista toiseen ryhmään vai muuttaa tämän ryhmän nimen 
 +A:  x_21         ;
 +A:  comp_m_odd   ;
 +A:^A2I%>i5 superl_m_odd ; ! Should be i5?
@@ -178,11 +178,11 @@ LEXICON a_21_ae_even
 +A:%>i5i superl_m_odd ;
 +A+Dial/Var :%>i5  superl_m_odd     ; !Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall.
 
-LEXICON a_21_odd	!!= * @CODE@ loistaava
+LEXICON a_21_odd	!!= * @CODE@ loistaava 
 +A:      x_21_odd       ;
 +A:      comp_mm       ;
 +A:^A2I%>i5 superl_m_even ;
-+A+Dial/Var :^A2I  superl_mm     ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
++A+Dial/Var :^A2I  superl_mm     ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183 ! TODO: jos tulee ongelmia var murteen lyhyt i:llisen superlatiivin kanssa meidän täytyy siirtää kaikki -o ja -y loppuiset adjektiivit.  
  !+A+Dial/Por+Pl+Compar+Gen:%>mm%>ii2tten K ;
  
 LEXICON a_21_odd_u !vasittu, maalattu  
@@ -192,13 +192,13 @@ LEXICON a_21_odd_u !vasittu, maalattu
 !+A+Dial/Var :%>i5   superl_m     ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
  !+A+Dial/Por+Pl+Compar+Gen:%>mm%>ii2tten K ;
  
-LEXICON a_21_odd_i
+LEXICON a_21_odd_i !Simppeli 
 +A:      x_21_odd_i       ;
 +A:      comp_mm       ;
 +A:^A2I%>i5 superl_m_even ;
 +A+Dial/Var :^A2I  superl_mm     ;
  
-LEXICON a_21_odd_ae
+LEXICON a_21_odd_ae !näpperä 
 +A:      x_21_odd       ;
 +A:      comp_mm       ;
 +A:%>i5i superl_m_even ;
@@ -265,10 +265,10 @@ LEXICON a_12_si	!!= * @CODE@ uusi. uussiin only por, always one s in Var
 +A+Dial/Var :^Var^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n
 +A+Dial/Jok :^Jok^E2I%>i5 superl_m_odd ; ! uusin +A+Sg+Superl+Nom:%>n
 +A+Dial/Var :^E2I superl_m_odd ; ! No superl i? maybe e:0 and i5 would be more appropriate
-+A+Sg+Superl+Dial/Jok:^E2I%>i  nom_n ; ! uusiin
-+A+Sg+Superl+Dial/Jok:^E2I%>in par_tA ;
-+A+Sg+Superl+Dial/Var:^E2I%>i  nom_n ; ! uusiin
-+A+Sg+Superl+Dial/Var:^E2I%>in par_tA ;
+!+A+Sg+Superl+Dial/Jok:^E2I%>i  nom_n ; ! uusiin
+!+A+Sg+Superl+Dial/Jok:^E2I%>in par_tA ;
+!+A+Sg+Superl+Dial/Var:^E2I%>i  nom_n ; ! uusiin
+!+A+Sg+Superl+Dial/Var:^E2I%>in par_tA ;
 
 LEXICON a_21_oi !ilakka, niin kuin "mustikka"
 +A: x_21_oi ; 
