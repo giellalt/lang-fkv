@@ -207,7 +207,8 @@ Rules
         [.#.|#:] Cns:* Vow m _ y %> :y ;
         [.#.|#:] Cns:* Vow m _ u: [%> :u| %> i2: (%> n) # ] ;
         [.#.|#:] Cns:* Vow m _ e (Dial:) %> :e ;
-        [.#.|#:] Cns:* Vow m _ :o   (Dial:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:* Vow m _ :o   (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
+        [.#.|#:] Cns:* Vow m _ :o   (Dial:)             %^AO:0 %> i5: %> [m|n]   ; ! superlatiivi 
         [.#.|#:] Cns:* Vow m _ :a   (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow m _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:* Vow m _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
