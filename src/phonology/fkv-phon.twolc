@@ -130,6 +130,7 @@ Rules
         [.#.|#:] Cns:* Vow j _ e  %> :e                              ;
         [.#.|#:] Cns:* Vow j _ i [%> :i| %^AO:| %>i2 (%> n) ]        ;
         [.#.|#:] Cns:* Vow j _ u  %> [:u|i2: (%> n) #]               ;
+        [.#.|#:] Cns:* Vow j _ u  %>     i5:  %> [m|n]               ; ! superlatiivi 
         [.#.|#:] Cns:* Vow j _ :a   (Dial:0)  %> :a                  ; ! for kuvvaa d. could be just %^Por:0
         [.#.|#:] Cns:* Vow j _ :o   (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
         [.#.|#:] Cns:* Vow j _ :o   (Dial:)           (%^AO:0) %> i5: %> [m|n]   ; ! superlatiivi 
@@ -165,6 +166,7 @@ Rules
  [.#.|#:] Cns:* Vow:+       k _ o  %> [:o|:i  (%> n) #] ; ! koko kokkoi
  [.#.|#:] Cns:* Vow:+       k _ e (Dial:) %> :e         ;
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ ä: (Dial:)         %> [ :ä | i2:i %> :i ]         ; ! selkä selkkii, selkkiin
+ [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ ä: (Dial:)         %>  i5:  :i  %>  [m|n]         ; ! superlatiivi 
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ a: (Dial:)        [%> :a | %^AO: %> i2: (%> n) #] ; ! virka:virkkoi
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ a: (Dial:)         %^AO: %> i5: %> [m|n] ; ! superlatiivi, pimmeenarkkoiman
                         [l|r|n|m]  k _ :Vow (Dial:)       %>  i7:           ;
@@ -209,7 +211,7 @@ Rules
         [.#.|#:] Cns:* Vow m _ u: [%> :u| %> i2: (%> n) # ] ;
         [.#.|#:] Cns:* Vow m _ e (Dial:) %> :e ;
         [.#.|#:] Cns:* Vow m _ :o   (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
-        [.#.|#:] Cns:* Vow m _ :o   (Dial:)             %^AO:0 %> i5: %> [m|n]   ; ! superlatiivi 
+        [.#.|#:] Cns:* Vow m _ [:o|u] (Dial:)         (%^AO:0) %> i5: %> [m|n]   ; ! superlatiivi 
         [.#.|#:] Cns:* Vow m _ :a   (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow m _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:* Vow m _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
@@ -265,6 +267,7 @@ Rules
         [.#.|#:] Cns:* Vow r _ e %> :e ;
         [.#.|#:] Cns:* Vow r _ i [%> :i| (%^AO:0) %> i2: (%> n) #] ; ! perriit
         [.#.|#:] Cns:* Vow r _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:* Vow r _ [:o|u]       %> i5:  %> [m|n]          ; ! superlatiivi 
         [.#.|#:] Cns:* Vow r _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow r _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:* Vow r _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
@@ -282,7 +285,7 @@ Rules
           [.#.|#:] Cns:* Vow:+ s _ y: [%> :y|%> i2: (%> n) # ]    ;
           [.#.|#:] Cns:* Vow:+ s _ u: [%> %^V:u|%> i2: (%> n) #]  ;
           [.#.|#:] Cns:* Vow:+ s _ :o [ %> :o | %> i2: (%> n) # ] ;
-          [.#.|#:] Cns:* Vow:+ s _ :o           %> i5:  %> [m|n]  ; ! superlatiivi 
+          [.#.|#:] Cns:* Vow:+ s _ [:o|u]       %> i5:  %> [m|n]  ; ! superlatiivi 
           [.#.|#:] Cns:* Vow:+ s _ %> :e (Dial:) :e ; ! pestä:pessee
                      [l|r|n|m] s _ :Vow %>  i7: ;
                      [l|r|n|m] s _ :i         [ %> %^V:i| (%^AO:0) %> i2: (%> n) # ] ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
@@ -307,7 +310,8 @@ Rules
  [.#.|#:] Cns:* Vow:+           :t _ ä %> :ä ;
  [.#.|#:] Cns:* Vow:+           :t _ ö %> [:ö|i2: (%> n) # ] ;
  [.#.|#:] Cns:* Vow:+           :t _ y %> [:y|i2: (%> n) # ] ;
- [.#.|#:] Cns:* Vow:+           :t _ u %> [%^V:u|i2: (%> n) #]  ;
+ [.#.|#:] Cns:* Vow:+           :t _ u %> [%^V:u|i2: (%> n) #] ;
+ [.#.|#:] Cns:* Vow:+           :t _ [:o|u] %> i5: %> [m|n]   ; ! superlatiivi 
  [.#.|#:] Cns:* Vow:+           :t _ :o %> [:o|i2: (%> n) # ] ; ! sata:sattoi, maito:maittoi
  [.#.|#:] Cns:* Vow:+           :t _ e (Dial:) %> :e ;
  [.#.|#:] Cns:+ Vow:+            t _ a %> %^V: (t) # ; ! inf: hoittaat, juttaat + prt.sg3 hoittaa, juttaa.
@@ -337,8 +341,9 @@ Rules
         [.#.|#:] Cns:*  Vow v _ e (Dial:) %> :e ;
         [.#.|#:] Cns:*  Vow v _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:*  Vow v _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
-        [.#.|#:] Cns:*  Vow v _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
-        [.#.|#:] Cns:*  Vow v _  ä:  (Dial:) %> :i %> :i ; ! jyvä jyvviin, jyvvii
+        [.#.|#:] Cns:*  Vow v _  a:i (Dial:) (%^A2I:0) %> :i       ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
+        [.#.|#:] Cns:*  Vow v _  ä:  (Dial:) %> :i %> :i           ; ! jyvä jyvviin, jyvvii
+        [.#.|#:] Cns:*  Vow v _  ä:  (Dial:) %>  i5:  :i %> [m|n]  ; ! superlatiivi 
        ! [.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
         ![.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :a %> :a ;
                              ! [l|r|n|m] v _ :Vow %>  i7: ;
