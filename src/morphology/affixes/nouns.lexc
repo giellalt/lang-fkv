@@ -519,7 +519,7 @@ LEXICON x_21_odd_u
   +Sg      :^WG                sgpl_cases_odd  ; ! these two lexica for cases with
 
   +Pl      :^WG^AO%>i2         gen_tten        ;
-  +Pl      :^AO%>i2            par_tA          ; ! perintöitä, if ^WG then kulkija works, else perintö works
+  +Pl      :^AO%>i2            par_tA          ; ! TODO: saada selville jos tämä ryhmä saa -tA päätteen
    +Pl+Dial/Por      :^Por^AO%>i2            par_end          ; 
   +Pl      :^AO^HMETA          ill_hVin        ;
 !          +Pl:^AO%>i2            ill_hin         ; ! TODO, only for asioihin, not the others?
