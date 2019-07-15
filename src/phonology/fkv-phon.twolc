@@ -297,7 +297,7 @@ Rules
                      [l|r|n|m] s _ :o %> :o ;
                      [l|r|n|m] s _ :e %> :e ;
 [.#.|#:] Cns:+ Vow:+ [l|r|n|m] s _ :a %> :a ;
-[.#.|#:] Cns:+ Vow:+ [l|r|n|m] s _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
+[.#.|#:] Cns:+ Vow:+ [l|r|n|m] s _ ä: [%> :ä| %> [i2:|i5:] (%>) :i (%> [m|n]) ] ; ! sg.par, pl.par/gen, superlatiivi (tylsä/tylssiin)
 
 "Gemination 0:t"
 !! __@RULENAME@__
