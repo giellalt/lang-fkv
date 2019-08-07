@@ -29,6 +29,7 @@ a common x_ lexicon in the noun file, while compar and superl are here.
 
 
 
+
  * LEXICON vanha_nocomp_a_21  
 
  * LEXICON a_11_i   siisti
@@ -37,7 +38,7 @@ a common x_ lexicon in the noun file, while compar and superl are here.
 
 
 
- * LEXICON a_11   siisti, soma
+ * LEXICON a_11   hieno, tuttu, syyry
 
  * LEXICON a_11_E2I  moni, umpi, pälvi 
 
@@ -45,9 +46,12 @@ a common x_ lexicon in the noun file, while compar and superl are here.
  * LEXICON a_11_ae   väärä, nöyrä
 
 
- * LEXICON a_21	  liberaali
+ * LEXICON a_21	  liberaali !TODO: selvittää kannattaako siirtää osa sanoista toiseen ryhmään vai muuttaa tämän ryhmän nimen 
 
- * LEXICON a_21_odd	  simppeli, loistaava
+
+ * LEXICON a_21_odd	 loistaava 
+
+
 
 
  * LEXICON a_31_ee	  pimmee, valkkee, kauhhee, hoppee ! TODO sort out nouns and adjectives
@@ -55,7 +59,12 @@ a common x_ lexicon in the noun file, while compar and superl are here.
 
 
 
+
+
+
  * LEXICON a_31_ii   auttii
+
+ * LEXICON a_31_uu   liehmuu
 
  * LEXICON vanha_a_23ea	 pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
 
@@ -63,6 +72,9 @@ a common x_ lexicon in the noun file, while compar and superl are here.
  * LEXICON a_12	  pieni
 
  * LEXICON a_12_si	 uusi. uussiin only por, always one s in Var
+
+
+
 
  * LEXICON a_22  tyven
 
@@ -126,6 +138,12 @@ a common x_ lexicon in the noun file, while compar and superl are here.
  LEXICON MATONodd  ! käymättömäle le la na ! TODO Probably not in use atm
 
  * LEXICON x_22_ton  onneton
+
+
+
+
+ * LEXICON x_22_ton_yksi_t  alaston yhelä -t:läm alastoman
+
 
 
 
