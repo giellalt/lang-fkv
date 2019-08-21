@@ -484,11 +484,11 @@ LEXICON x_21_odd !!= * @CODE@  kajava
   +Sg          :             ess_nnA        ;
 
   +Pl          :^WG          nom_t          ;
-  +Pl+Dial/Por :^WG^A0%>i2i     gen_tten       ; ! kajaviitten ! TODO Why WG here and not it par?
+  +Pl+Dial/Por:^WG^A0%>i2i     gen_tten       ; ! kajaviitten ! TODO Why WG here and not it par?
   +Pl+Dial/Jok:^WG^A0%>i2      gen_tten       ; ! kajavitten
   +Pl+Dial/Var:^WG^A0%>i2      gen_tten       ; ! kajavitten
-  +Pl+Dial/Por :^A0%>i2i        par_tA         ; ! kajaviita
-  +Pl+Dial/Por :^A0%>i2%>i      par_end        ; ! %> i necessary, otherwise a:o NOTwork, kajavii
+  +Pl+Dial/Por:^WG^A0%>i2i        par_tA         ; ! kajaviita
+  +Pl+Dial/Por:^A0%>i2%>i      par_end        ; ! %> i necessary, otherwise a:o NOTwork, kajavii
   +Pl+Dial/Jok:^A0%>i2%>       par_A          ; ! kajavia
   +Pl+Dial/Var:^A0%>i2%>       par_A          ; ! kajavia
 !      +Pl+Ill:%^HMETA%>hii n_PxK          ;
@@ -612,7 +612,7 @@ LEXICON x_21_odd_oi
 +Sg:                    nom_end         ;
 +Sg+Dial/Por:^Por^WG    gen_n_sg        ;
 +Sg+Dial/Var:^Var^WG    gen_n_sg        ;
-+Sg+Dial/Por:       par_V           ;
++Sg+Dial/Por:           par_V           ;
 +Sg+Dial/Var:^Var       par_A           ;
 !+Sg+Dial/Jok:^Jok       par_A           ;
 +Sg:^HMETA              ill_hVVn        ;
@@ -620,15 +620,16 @@ LEXICON x_21_odd_oi
 +Sg+Dial/Por:^Por^WG    sgpl_cases_odd ; !to sgpl_cases_even for cases with
 +Sg+Dial/Var:^Var^WG    sgpl_cases_odd ; !to sgpl_cases_even for cases with
 
-+Pl+Dial/Por:^Por^WG                 nom_t           ;
-+Pl+Dial/Var:^Var^WG                 nom_t           ;
-!+Pl+Dial/Jok:^Jok^WG^AO%>i2          gen_tten        ;
-+Pl+Dial/Var:^Var^WG^AO%>i2          gen_tten        ;
-+Pl+Dial/Por:^Por^WG^AO%>i2             gen_tten          ;
-+Pl+Dial/Por:%>i2             par_end         ;
-!+Pl+Dial/Jok:^Jok^AO%>j              par_A           ; ! Use i:j in twolc j, see below
-+Pl+Dial/Var:^Var^AO%>i2              par_tA           ;
-+Pl:^AO^HMETA                        ill_hVin        ; ! sykshyin
++Pl+Dial/Por:^Por^WG              nom_t           ;
++Pl+Dial/Var:^Var^WG              nom_t           ;
+!+Pl+Dial/Jok:^Jok^WG^AO%>i2      gen_tten        ;
++Pl+Dial/Var:^Var^WG^AO%>i2       gen_tten        ;
++Pl+Dial/Por:^Por^WG^AO%>i2       gen_tten        ;
++Pl+Dial/Por:^Por^WG^A0%>i2       par_tA         ;
++Pl+Dial/Por:%>i2                 par_end         ;
+!+Pl+Dial/Jok:^Jok^AO%>j          par_A           ; ! Use i:j in twolc j, see below
++Pl+Dial/Var:^Var^AO%>i2          par_tA           ;
++Pl:^AO^HMETA                     ill_hVin        ; ! sykshyin
 +Pl:%>i2                          ess_nA          ;
 +Pl:%>i2                          com_ne          ;
 +Pl+Dial/Por:^Por^WG%>i2          sgpl_cases_even ; !the same affix in sg and pl
@@ -685,7 +686,7 @@ LEXICON x_21_odd_i_oblique
 
 
 
-LEXICON n_21_oi        !!= * @CODE@  Mustikka, kulkkiija, paivukko, sivakka, perintö, kurkkio, asia (in Var)
+LEXICON n_21_oi        !!= * @CODE@  Paivukko, perintö, kurkkio
 ! They differ from n_21_odd_oi in pl par
 +N         : x_21_oi ;
 
@@ -702,7 +703,7 @@ LEXICON x_21_oi
 
   +Pl      :^WG^AO%>i2         gen_tten        ;
   +Pl      :^AO%>i2            par_tA          ; ! perintöitä, if ^WG then kulkija works, else perintö works
-  +Pl      :^AO^HMETA          ill_hVin        ;
+  +Pl      :^HMETA             ill_hVin        ;
 !          +Pl:^AO%>i2            ill_hin         ; ! TODO, only for asioihin, not the others?
   +Pl      :^AO%>i2            ess_nA          ; ! paivukoina
   +Pl      :^AO%>i2            com_ne          ; ! paivukoine
@@ -715,6 +716,27 @@ LEXICON x_21_oi
 ! n_31_ee ! vanha_n_23
 ! n_31_lainasana_ee ! vanha_n_23
 ! n_31_ii ! vanha_n_23ii
+
+LEXICON n_21_ao        !!= * @CODE@  Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
++N         : x_21_ao ;
+
+LEXICON x_21_ao
+  +Sg      :                   nom_end         ;
+  +Pl      :^WG                nom_t           ;
+  +Sg      :^WG                gen_n_sg        ;
+  +Sg+Dial/Por:                   par_V        ;
+  +Sg+Dial/Jok:                   par_A        ;
+  +Sg+Dial/Var:                   par_A        ;
+  +Sg      :^HMETA             ill_hVVn        ;
+  +Sg      :                   ess_nnA         ; 
+  +Sg      :^WG                sgpl_cases_odd  ; 
+
+  +Pl      :^WG^AO%>i2         gen_tten        ;
+  +Pl      :^AO%>i2            par_tA          ; 
+  +Pl      :^AO^HMETA          ill_hVin        ;
+  +Pl      :^AO%>i2            ess_nA          ; 
+  +Pl      :^AO%>i2            com_ne          ; 
+  +Pl      :^WG^AO%>i2         sgpl_cases_even ; 
 
 LEXICON n_31_ee        !!= * @CODE@  hoppee:hoppe
 +N+Dial/Por:        x_31_ee            ;
@@ -805,7 +827,7 @@ LEXICON n_31_io
   
 LEXICON n_31_asia
 
- +N      :          x_21_oi             ; ! var ja jok astia 
+ +N      :          x_21_ao             ; ! var ja jok astia 
 
 LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
 +N+Dial/Por:           x_31_ii             ;
