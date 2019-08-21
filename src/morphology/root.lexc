@@ -30,6 +30,10 @@ Multichar_Symbols
 +ABBR  !!≈ * __@CODE@__ = Abbreviation
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 +ACR  !!≈ * __@CODE@__ = Acronym
++Arab !!≈ * __@CODE@__ = Arabic
++Coll !!≈ * __@CODE@__ = Collective numeral
++Rom
++Dyn
 
 !!  !!Tags for grammar
 
@@ -112,6 +116,10 @@ Multichar_Symbols
 
 !! !Speller tags
  +Err/Orth   !!= @CODE@  misspelling or nor normative form. It will be included only in desc, not in norm.
+ +Err/Hyph
+ +Err/Lex
+ +Err/SpaceCmp
+ +Use/-PMatch
  +Use/-Spell   !!≈ * __@CODE@__ = Excluded in speller
  +Use/SpellNoSugg   !!≈ * __@CODE@__ = recognized but not suggested in speller
  +Use/NG   !!= @CODE@ only accept, not generate (for MT and Oahpa use)
@@ -120,8 +128,18 @@ Multichar_Symbols
  +Cmp  !!≈ * __@CODE@__ =
  +Cmp/SplitR
  +Cmp/Hyph     !!≈ * __@CODE@__ - on dynamic compounds that have a hyphen (in use?)
+ +CmpNP/None
 
 
+ +OLang/ENG
+ +OLang/FIN
+ +OLang/NNO
+ +OLang/NOB
+ +OLang/RUS
+ +OLang/SMA
+ +OLang/SME
+ +OLang/SWE
+ +OLang/UND
 
  @P.Pmatch.Backtrack@ !!≈ | @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
 
@@ -164,6 +182,32 @@ Multichar_Symbols
 +Sem/Plc  !!≈ * __@CODE@__ = Place names
 +Sem/Sur  !!≈ * __@CODE@__ = Surnames
 +Sem/ID  !!= * @CODE@ = ID
++Sem/Build
++Sem/Build-room
++Sem/Cat
++Sem/Date
++Sem/Domain
++Sem/Dummytag
++Sem/Event
++Sem/Group_Hum
++Sem/Hum
++Sem/Mat
++Sem/Measr
++Sem/Money
++Sem/Obj-el
++Sem/Obj-ling
++Sem/Org_Prod-audio
++Sem/Org_Prod-vis
++Sem/Prod-vis
++Sem/Route
++Sem/Rule
++Sem/State-sick
++Sem/Substnc
++Sem/Time-clock
++Sem/Tool-it
++Sem/Txt
++Sem/Veh
++Sem/Year
 
 
 !! !!Dialect tags
@@ -263,6 +307,9 @@ i7     !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
 !! given the proper use of these flags.
  @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @C.ErrOrth@        !!≈ | @CODE@
+ @D.ErrOrth.ON@ 	!!≈ | @CODE@
+ @P.ErrOrth.ON@     !!≈ | @CODE@
 
 @U.pron.nom@       !!≈ | @CODE@ | tbw
 @U.pron.gen@       !!≈ | @CODE@ | tbw
