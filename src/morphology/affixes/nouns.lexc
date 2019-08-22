@@ -564,7 +564,7 @@ LEXICON x_21_odd_ua !saipua, fierua ja luusua
   +Pl      :^WG^A0%>i2      sgpl_cases_odd ; ! TODO any cases here that should have ^AO?
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
 
-LEXICON n_21_odd_AO !valinta> valinttoi, for the nouns where the stems change to -o in plural, and also that have special gemination in pl par 
+LEXICON n_21_odd_AO !valinta> valinttoi. For the nouns that ends in -a and where the stem change to -o in plural, and also that have special gemination in pl par. We might have to change pl par for the same reason as in "perintö". 
 
 +N         :  x_21_odd_AO ;
 
@@ -602,7 +602,7 @@ LEXICON x_21_odd_AO
 
 
 
-LEXICON n_21_odd_oi  !For nouns that get special gemination in pl partitive
+LEXICON n_21_odd_oi  ! For nouns that ends in -o and get special gemination in pl partitive and where only -i is added to the plural stem. We might have to change pl par when we find out is it "perinttöi, perintöitä or perinöitä". 
 
 +N         :  x_21_odd_oi ;
 
@@ -629,7 +629,7 @@ LEXICON x_21_odd_oi
 +Pl+Dial/Por:%>i2                 par_end         ;
 !+Pl+Dial/Jok:^Jok^AO%>j          par_A           ; ! Use i:j in twolc j, see below
 +Pl+Dial/Var:^Var^AO%>i2          par_tA           ;
-+Pl:^AO^HMETA                     ill_hVin        ; ! sykshyin
++Pl:^HMETA                     ill_hVin        ; ! sykshyin
 +Pl:%>i2                          ess_nA          ;
 +Pl:%>i2                          com_ne          ;
 +Pl+Dial/Por:^Por^WG%>i2          sgpl_cases_even ; !the same affix in sg and pl
