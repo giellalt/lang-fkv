@@ -561,7 +561,7 @@ t:0 <=> Vow: ([l|m|n|r]) [t|t:0] _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r
            Vow Cns* Vow [l|n|r]  _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
            Vow Cns* Vow [l|n|r]  _ Vow:     %^WG:0 (%^A0:) %> i2:   ; ! isäntä - isänissä *)
            Vow Cns* Vow [l|n|r]  _ :Vow Cns ([Dummy: - %^E2I:0]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
-                             Vow _ Vow: (Cns)                          (:i)      [%^Jok:|%^Var:]  %^WG:0 ;
+                             Vow _ Vow: (Cns)                          (:i)      [%^Jok:|%^Var:]  %^WG:0 \%^TJ: ;
 
 ! TODO add e ^Var E0 and T0 to these tests
 ! !!€ tyttär^WG
