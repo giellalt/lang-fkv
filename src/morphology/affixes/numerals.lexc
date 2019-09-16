@@ -25,11 +25,13 @@
 LEXICON NUM_BACK_NOMINATIVE
 !!€gt-norm: Numeral nominative back
 !!€ kaksi: kaksi+Num+Sg+Nom # two
+!!€ kaks: kaksi+Num+Sg+Nom
 +Sg+Nom:0   NUM_BACK_CLIT_OPT  ;
 
 LEXICON NUM_FRONT_NOMINATIVE
 !!€gt-norm: Numeral nominative front
 !!€ yksi: yksi+Num+Sg+Nom # one
+!!€ yks: yksi+Num+Sg+Nom # one
 +Sg+Nom:0   NUM_FRONT_CLIT_OPT  ;
 
 LEXICON NUM_BACK_PLNOM_CLIT
