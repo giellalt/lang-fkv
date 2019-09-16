@@ -6,6 +6,7 @@ LEXICON NUM
 !! of cardinals and ordinals, and the non-compounding ones:
 !!€gt-norm: Numeral
 !!€ kaksikymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par ! 23,000
+!!€ kakskymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par
 !!€ kahđessađasneljes: kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom  ! 204rd
 !!€ viitisenkymmentä: viitisen+Num#kymmentä  ! 50-ish
 
@@ -291,7 +292,6 @@ LEXICON NUM_OTHERS
 !! but are not basic cardinals or ordinals:
 !!€gt-norm: Numeral others
 !!€ viitisenkymmentä: viitisen+Num#kymmentä
-!!€ puolikymmentä: puolikymmentä+Num+Sg+Nom
 yksisen+Num#:yksisen#  NUM_CARD_SUFFIX   ;
 kaksisen+Num#:kaksisen#    NUM_CARD_SUFFIX   ;
 yhtisen+Num#:yhtisen#  NUM_CARD_SUFFIX   ;
@@ -431,6 +431,7 @@ LEXICON NUM_VIISI
 !!€ viisissä: viisi+Num+Pl+Ine
 !!€ viissii: viisi+Num+Pl+Par
 !!€ viissiin: viisi+Num+Pl+Gen
+!!€ viitten: viisi+Num+Pl+Gen !harvinainen muoto
 !!€ viishiin: viisi+Num+Pl+Ill
 !!€ viisinä: viisi+Num+Pl+Ess
 0:si    NUM_FRONT_NOMINATIVE ;
@@ -459,6 +460,7 @@ LEXICON NUM_KUUSI
 !!€ kuusissa: kuusi+Num+Pl+Ine
 !!€ kuussii: kuusi+Num+Pl+Par
 !!€ kuussiin: kuusi+Num+Pl+Gen
+!!€ kuutten: kuusi+Num+Pl+Gen !harvinainen muoto
 !!€ kuushiin: kuusi+Num+Pl+Ill
 0:si    NUM_BACK_NOMINATIVE ;
 0:t     NUM_BACK_ILLATIVE_HEEN    ;
@@ -596,6 +598,7 @@ LEXICON NUM_TUHAT
 !!€ tuhatta: tuhat+Num+Sg+Par
 !!€ tuhanssii: tuhat+Num+Pl+Par
 !!€ tuhanssiitten: tuhat+Num+Pl+Gen
+!!€ tuhantten: tuhat+Num+Pl+Gen !harvinainen muoto
 !!€ tuhanshiin: tuhat+Num+Pl+Ill
 !!€ tuhansinna: tuhat+Num+Pl+Ess
 !!€ tuhansissa: tuhat+Num+Pl+Ine
@@ -605,7 +608,7 @@ LEXICON NUM_TUHAT
 0:nte   NUM_BACK_STRONG_SINGULARS_NNA ;
 0:ne    NUM_BACK_WEAK_SINGULARS   ;
 0:ne    NUM_BACK_SINGULARS_LL     ;
-0:n     NUM_BACK_GENITIVE_TEN     ;
+0:nt    NUM_BACK_GENITIVE_TEN     ;
 0:t     NUM_BACK_PARTITIVE_TA     ;
 0:nss   NUM_BACK_PARTITIVE_II     ;
 0:nss   NUM_BACK_GENITIVE_IITTEN  ;
