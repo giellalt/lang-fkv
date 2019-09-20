@@ -27,6 +27,8 @@ Take nothing at face value!
  * __+ABBR__ = Abbreviation
  * +Symbol = independent symbols in the text stream, like £, €, ©
  * __+ACR__ = Acronym
+ * __+Arab__ = Arabic
+ * __+Coll__ = Collective numeral
 
  !!Tags for grammar
 
@@ -251,6 +253,9 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+ | @C.ErrOrth@
+ | @D.ErrOrth.ON@ 	
+ | @P.ErrOrth.ON@
 
  | @U.pron.nom@ | tbw
  | @U.pron.gen@ | tbw
