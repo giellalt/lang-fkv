@@ -2,14 +2,12 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
   <header> 
-    <title>Generoidut muodot (kesäkuun 17. päivänä 2019, klo. 17:31)</title>  
+    <title>Generoidut muodot (syyskuun 23. päivänä 2019, klo. 16:38)</title>  
   </header> 
   <body>	  
     <section><title/>  
 <table>
 <tr><td>+N+Sg+Gen</td><td>+N+Sg+Gen</td></tr>
-<tr><td>engelska+N+Sg+Gen</td><td>engelska+N+Sg+Gen</td></tr>
-<tr><td>ruottii+N+Sg+Gen</td><td>ruottii+N+Sg+Gen</td></tr>
 <tr><td>pata+N+Sg+Gen</td><td>pađan</td></tr>
 <tr><td>rautapata+N+Sg+Gen</td><td>rautapađan</td></tr>
 <tr><td>variksenpata+N+Sg+Gen</td><td>variksenpađan</td></tr>
@@ -40,6 +38,7 @@
 <tr><td>riita+N+Sg+Gen</td><td>riiđan</td></tr>
 <tr><td>ristiriita+N+Sg+Gen</td><td>ristiriiđan</td></tr>
 <tr><td>noita+N+Sg+Gen</td><td>noiđan</td></tr>
+<tr><td>ruiđa+N+Sg+Gen</td><td>ruiđan</td></tr>
 <tr><td>kota+N+Sg+Gen</td><td>kođan</td></tr>
 <tr><td>turvetkota+N+Sg+Gen</td><td>turvetkođan</td></tr>
 <tr><td>äimäkota+N+Sg+Gen</td><td>äimäkođan</td></tr>
@@ -626,6 +625,7 @@
 <tr><td>kurkkionniska+N+Sg+Gen</td><td>kurkkionniskan</td></tr>
 <tr><td>pađonniska+N+Sg+Gen</td><td>pađonniskan</td></tr>
 <tr><td>kyrönniska+N+Sg+Gen</td><td>kyrönniskan</td></tr>
+<tr><td>engelska+N+Sg+Gen</td><td>engelskan</td></tr>
 <tr><td>hanska+N+Sg+Gen</td><td>hanskan</td></tr>
 <tr><td>franska+N+Sg+Gen</td><td>franskan</td></tr>
 <tr><td>tanska+N+Sg+Gen</td><td>tanskan</td></tr>
@@ -2278,10 +2278,10 @@
 <tr><td>eepos+N+Sg+Gen</td><td>eepoksen</td></tr>
 <tr><td>našunaalieepos+N+Sg+Gen</td><td>našunaalieepoksen</td></tr>
 <tr><td>našunaalieepos+N+Sg+Gen</td><td>našunaalieepoksen</td></tr>
+<tr><td>kieros+N+Sg+Gen</td><td>kieroksen</td></tr>
+<tr><td>kieros+N+Sg+Gen</td><td>kieroksen</td></tr>
 <tr><td>piiros+N+Sg+Gen</td><td>piiroksen</td></tr>
 <tr><td>piiros+N+Sg+Gen</td><td>piiroksen</td></tr>
-<tr><td>kierros+N+Sg+Gen</td><td>kierroksen</td></tr>
-<tr><td>kierros+N+Sg+Gen</td><td>kierroksen</td></tr>
 <tr><td>laitos+N+Sg+Gen</td><td>laitoksen</td></tr>
 <tr><td>laitos+N+Sg+Gen</td><td>laitoksen</td></tr>
 <tr><td>sahalaitos+N+Sg+Gen</td><td>sahalaitoksen</td></tr>
@@ -3139,6 +3139,7 @@
 <tr><td>pulettii+N+Sg+Gen</td><td>pulettiin</td></tr>
 <tr><td>kalttii+N+Sg+Gen</td><td>kalttiin</td></tr>
 <tr><td>svoovelikalttii+N+Sg+Gen</td><td>svoovelikalttiin</td></tr>
+<tr><td>ruottii+N+Sg+Gen</td><td>ruottiin</td></tr>
 <tr><td>harttii+N+Sg+Gen</td><td>harttiin</td></tr>
 <tr><td>parttii+N+Sg+Gen</td><td>parttiin</td></tr>
 <tr><td>työväjenparttii+N+Sg+Gen</td><td>työväjenparttiin</td></tr>
@@ -4674,6 +4675,13 @@
 <tr><td>evakko+N+Sg+Gen</td><td>evakon</td></tr>
 <tr><td>riekko+N+Sg+Gen</td><td>riekon</td></tr>
 <tr><td>tuntuririekko+N+Sg+Gen</td><td>tuntuririekon</td></tr>
+<tr><td>teko+N+Sg+Gen</td><td>tekon</td></tr>
+<tr><td>omateko+N+Sg+Gen</td><td>omatekon</td></tr>
+<tr><td>kulttuuriteko+N+Sg+Gen</td><td>kulttuuritekon</td></tr>
+<tr><td>pahanteko+N+Sg+Gen</td><td>pahantekon</td></tr>
+<tr><td>tienteko+N+Sg+Gen</td><td>tientekon</td></tr>
+<tr><td>heinänteko+N+Sg+Gen</td><td>heinäntekon</td></tr>
+<tr><td>työnteko+N+Sg+Gen</td><td>työntekon</td></tr>
 <tr><td>laikko+N+Sg+Gen</td><td>laikon</td></tr>
 <tr><td>huonetlaikko+N+Sg+Gen</td><td>huonetlaikon</td></tr>
 <tr><td>taikko+N+Sg+Gen</td><td>taikon</td></tr>
@@ -4994,13 +5002,6 @@
 <tr><td>vako+N+Sg+Gen</td><td>vavon</td></tr>
 <tr><td>lepo+N+Sg+Gen</td><td>levon</td></tr>
 <tr><td>repo+N+Sg+Gen</td><td>revon</td></tr>
-<tr><td>teko+N+Sg+Gen</td><td>tevon</td></tr>
-<tr><td>omateko+N+Sg+Gen</td><td>omatevon</td></tr>
-<tr><td>kulttuuriteko+N+Sg+Gen</td><td>kulttuuritevon</td></tr>
-<tr><td>pahanteko+N+Sg+Gen</td><td>pahantevon</td></tr>
-<tr><td>tienteko+N+Sg+Gen</td><td>tientevon</td></tr>
-<tr><td>heinänteko+N+Sg+Gen</td><td>heinäntevon</td></tr>
-<tr><td>työnteko+N+Sg+Gen</td><td>työntevon</td></tr>
 <tr><td>kaivo+N+Sg+Gen</td><td>kaivon</td></tr>
 <tr><td>kelakaivo+N+Sg+Gen</td><td>kelakaivon</td></tr>
 <tr><td>vinttikaivo+N+Sg+Gen</td><td>vinttikaivon</td></tr>
@@ -5563,6 +5564,7 @@
 <tr><td>räkä+N+Sg+Gen</td><td>räkän</td></tr>
 <tr><td>selkä+N+Sg+Gen</td><td>selän</td></tr>
 <tr><td>kissanselkä+N+Sg+Gen</td><td>kissanselän</td></tr>
+<tr><td>koukkuselkä+N+Sg+Gen</td><td>koukkuselän</td></tr>
 <tr><td>etelä+N+Sg+Gen</td><td>etelän</td></tr>
 <tr><td>öystäetelä+N+Sg+Gen</td><td>öystäetelän</td></tr>
 <tr><td>sirkilä+N+Sg+Gen</td><td>sirkilän</td></tr>
@@ -5596,6 +5598,7 @@
 <tr><td>sölkä+N+Sg+Gen</td><td>sölän</td></tr>
 <tr><td>vaaransölkä+N+Sg+Gen</td><td>vaaransölän</td></tr>
 <tr><td>kissansölkä+N+Sg+Gen</td><td>kissansölän</td></tr>
+<tr><td>koukkusölkä+N+Sg+Gen</td><td>koukkusölän</td></tr>
 <tr><td>emä+N+Sg+Gen</td><td>emän</td></tr>
 <tr><td>tekemä+N+Sg+Gen</td><td>tekemän</td></tr>
 <tr><td>pitenemä+N+Sg+Gen</td><td>pitenemän</td></tr>
