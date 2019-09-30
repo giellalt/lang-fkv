@@ -719,10 +719,10 @@ LEXICON x_21_oi
 ! n_31_lainasana_ee ! vanha_n_23
 ! n_31_ii ! vanha_n_23ii
 
-LEXICON n_21_ao        !!= * @CODE@  Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
-+N         : x_21_ao ;
+LEXICON n_21_oi_AO        !!= * @CODE@  Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
++N         : x_21_oi_AO ;
 
-LEXICON x_21_ao
+LEXICON x_21_oi_AO
   +Sg      :                   nom_end         ;
   +Pl      :^WG                nom_t           ;
   +Sg      :^WG                gen_n_sg        ;
@@ -829,7 +829,7 @@ LEXICON n_31_io
   
 LEXICON n_31_asia
 
- +N      :          x_21_ao             ; ! var ja jok astia 
+ +N      :          x_21_oi_AO             ; ! var ja jok astia 
 
 LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
 +N+Dial/Por:           x_31_ii             ;
