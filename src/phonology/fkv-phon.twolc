@@ -128,7 +128,7 @@ Rules
         [.#.|#:] Cns:* Vow j _ ö  %> :ö                              ;
         [.#.|#:] Cns:* Vow j _ y  %> :y                              ;
         [.#.|#:] Cns:* Vow j _ e  %> :e                              ;
-        [.#.|#:] Cns:* Vow j _ i [%> :i| %^AO:| %>i2 (%> n) ]        ;
+        [.#.|#:] Cns:* Vow j _ i (%^AO:) %> :i (%> n) #              ;
         [.#.|#:] Cns:* Vow j _ u  %> [:u|i2: (%> n) #]               ;
         [.#.|#:] Cns:* Vow j _ u  %>     i5:  %> [m|n]               ; ! superlatiivi 
         [.#.|#:] Cns:* Vow j _ :a   (Dial:0)  %> :a                  ; ! for kuvvaa d. could be just %^Por:0
