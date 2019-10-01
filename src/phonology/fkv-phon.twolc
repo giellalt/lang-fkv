@@ -224,7 +224,7 @@ Rules
         [.#.|#:] Cns:* Vow n _ i (Dial:) %> :i  ;
         [.#.|#:] Cns:* Vow n _ y %> :y ;
         [.#.|#:] Cns:* Vow n _ u %> :u ;
-        [.#.|#:] Cns:* Vow n _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:* Vow n _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
         [.#.|#:] Cns:* Vow n _ e %> :e ;
         [.#.|#:] Cns:* Vow n _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow n _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
