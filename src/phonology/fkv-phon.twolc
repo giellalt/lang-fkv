@@ -382,7 +382,7 @@ Rules
 "Gradation p:0 (pp:p)"
 !! __@RULENAME@__
 p:0 <=> Vow: ([l|m|n|r]) p _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r|n) (e:0) (Dial:0) %^WG: ; !tytärtä   !entinen omppu
-        Vow: ([l|m|n|r]) p _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
+        Vow: ([l|m|n|r]) p _  :o %^WG: %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
 
 "Gradation p:v"
 !! __@RULENAME@__
@@ -557,7 +557,7 @@ t:Nx <=> [.#.|#] Cns* Vow Nx _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: 
 "Gradation t:0 for tt:t, Nt:N and vuote:vuoeksi"
 !! __@RULENAME@__
 t:0 <=> Vow: ([l|m|n|r]) [t|t:0] _ (:h) (Dummy:) Vow: (Vow:0) (Dummy:) (:i) (l|r|n) (e:0) (Dial:0) %^WG: ; !tytärtä
-        Vow: ([l|m|n|r]) t       _  :o %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
+        Vow: ([l|m|n|r]) t       _  :o %^WG: %^AO: %> i2:i   %> [ n|t ]  [e|:a|:ä] ;
                          t y     _ t:0 ä r e:0 %^Var:0 %^WG:0 %^T0:0 (%^E0:0) ; !toinen t:0 happens in tt:t tytär sg nom,par. tyär tyärtä
            Vow Cns* Vow [l|n|r]  _ :Vow     ([Dummy: - %^E2I:0]) ([i|i2:]) ([Dummy: - %^E2I:0]) %^WG:0 ?* \%^E2I:0 ;
            Vow Cns* Vow [l|n|r]  _ Vow:     %^WG:0 (%^A0:) %> i2:   ; ! isäntä - isänissä *)
