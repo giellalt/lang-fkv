@@ -267,7 +267,7 @@ Rules
         [.#.|#:] Cns:* Vow r _ u: [%> :u|%> i2: (%> n) #] ;
         [.#.|#:] Cns:* Vow r _ e %> :e ;
         [.#.|#:] Cns:* Vow r _ i [%> :i| (%^AO:0) %> i2: (%> n) #] ; ! perriit
-        [.#.|#:] Cns:* Vow r _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: ] ;
+        [.#.|#:] Cns:* Vow r _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
         [.#.|#:] Cns:* Vow r _ [:o|u]       %> i5:  %> [m|n]          ; ! superlatiivi 
         [.#.|#:] Cns:* Vow r _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow r _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
