@@ -117,30 +117,31 @@ Multichar_Symbols
 
 !! !Speller tags
  +Err/Orth   !!= @CODE@  misspelling or nor normative form. It will be included only in desc, not in norm.
- +Err/Hyph
- +Err/Lex
- +Err/SpaceCmp
- +Use/-PMatch
+ +Err/Hyph !!≈ * __@CODE@__ =
+ +Err/Lex !!≈ * __@CODE@__ =
+ +Err/SpaceCmp !!≈ * __@CODE@__ =
+ +Use/-PMatch !!≈ * __@CODE@__ =
+ +Use/PMatch !!≈ * __@CODE@__ =
  +Use/-Spell   !!≈ * __@CODE@__ = Excluded in speller
  +Use/SpellNoSugg   !!≈ * __@CODE@__ = recognized but not suggested in speller
  +Use/NG   !!= @CODE@ only accept, not generate (for MT and Oahpa use)
  +Use/Circ  !!= @CODE@ for numerals, copied from sme
 !! !Compounds
  +Cmp  !!≈ * __@CODE@__ =
- +Cmp/SplitR
+ +Cmp/SplitR !!≈ * __@CODE@__ =
  +Cmp/Hyph     !!≈ * __@CODE@__ - on dynamic compounds that have a hyphen (in use?)
- +CmpNP/None
+ +CmpNP/None !!≈ * __@CODE@__ =
 
 
- +OLang/ENG
- +OLang/FIN
- +OLang/NNO
- +OLang/NOB
- +OLang/RUS
- +OLang/SMA
- +OLang/SME
- +OLang/SWE
- +OLang/UND
+ +OLang/ENG !!≈ * __@CODE@__ = Language of common names
+ +OLang/FIN !!≈ * __@CODE@__ = Language of common names
+ +OLang/NNO !!≈ * __@CODE@__ = Language of common names
+ +OLang/NOB !!≈ * __@CODE@__ = Language of common names
+ +OLang/RUS !!≈ * __@CODE@__ = Language of common names
+ +OLang/SMA !!≈ * __@CODE@__ = Language of common names
+ +OLang/SME !!≈ * __@CODE@__ = Language of common names
+ +OLang/SWE !!≈ * __@CODE@__ = Language of common names
+ +OLang/UND !!≈ * __@CODE@__ = Language of common names
 
  @P.Pmatch.Backtrack@ !!≈ | @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
 
@@ -202,6 +203,7 @@ Multichar_Symbols
 +Sem/Prod-vis
 +Sem/Route
 +Sem/Rule
++Sem/Sign
 +Sem/State-sick
 +Sem/Substnc
 +Sem/Time-clock
