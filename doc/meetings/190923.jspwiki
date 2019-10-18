@@ -131,7 +131,7 @@ Mitä tarkoittaa >ect=“‘’“/>   ? Mitä se tekkee?
 Poistimme tämän xsl-tiedostosta, ja sitten convert2xml onnistui.
 }}}
 
-__'"/>ect="'__ olisi pitänyt olla sähköpostiosoite.
+'"/>ect="' olisi pitänyt olla sähköpostiosoite.
 
 sub_email-rivi pitää sisältää 
 
@@ -143,6 +143,7 @@ Kommentti: kokeilima xmllint ja se toimii kans korpuspuolela, jos feili oon xml:
 
 
 Jos saa "Could not convert":
+
 # Katso lokista. 
 # Jos ongelma jatkuu, päivitä convert2xml (katso ylääällä, kohta __Korpuskääntäminen__)
 # kokeile uudestaan
@@ -171,7 +172,7 @@ Converter: Not valid XML. More info in the log file: /Users/trond/freecorpus/ori
 <string>:1:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
 }}}
 
-* Ongelma: __p is not declared in p list of possible children__
+* Ongelma: p is not declared in p list of possible children
 * Vastaus: Bugzilla tai meili Børrelle, kopio Trondille.
 
 Toinen asia:  __ai(ð)an__. Analysaattori ei ymmärrä tälläistä muotoa.
@@ -203,7 +204,7 @@ convert2xml orig/fkv/facta/kainun_institutti/alkukursi_1._osa.docx
 see orig/fkv/facta/kainun_institutti/alkukursi_1._osa.docx.xsl
 see orig/fkv/facta/kainun_institutti/alkukursi_4._osa.docx.xsl
 
-{{{
+
      <xsl:template match="p[parent::body][not(./em | ./span)][text()]">
          <xsl:variable name="text" select='current()' />
          <xsl:variable name="type" select='@type' />
