@@ -1,6 +1,5 @@
 
 fkv-kokous 15.10.2019
-
 Paikalla Aili, Thomas, Trond
 
 !!!Asialista
@@ -53,6 +52,7 @@ Oikea apostroffi on __'__, eli U+002 APOSTROPHE. Voidaan myös käyttää __"__ 
 Notes-ohjelmasta pitää poistaa kaikki "smart quotes"-valinnat.
 
 Uusi nob:
+
 {{{
 cd ../nob
 svn up
@@ -63,6 +63,7 @@ make -j
 }}}
 
 Kommennot __u__ = analyysi (up), __d__ = generointi (down): 
+
 * hfst-analysaattorille: hunob, hdnob, hufkv, hdfkv
 * xfst-analysaattorille: unob, dnob, ufkv, dfkv
 
@@ -96,6 +97,7 @@ see                         # ja heitetään subethaeditiin
 !! Missing list
 
 ---- 
+
 sivu alkaa tähän
 
 ufkv jos xfst, hufkv jost hfst-xfst:
@@ -153,6 +155,7 @@ Vaihtoehtoinen
 ei preprocess, vaan hfst-tokenize
 
 ----
+
 Sivu loppuu tähän
 
 
