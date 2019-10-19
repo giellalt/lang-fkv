@@ -47,7 +47,9 @@ sed: 1: "‘s/,/,": invalid command code ?
 Kommennossa oli virhe: Väärä apostroffi. Unicode-merkkien tunnistaminen:
 [https://earthlingsoft.net/UnicodeChecker/]
 
+{{{
 Oikea apostroffi on __'__, eli U+002 APOSTROPHE. Voidaan myös käyttää __"__ (eli: shift 2).
+}}}
 
 Notes-ohjelmasta pitää poistaa kaikki "smart quotes"-valinnat.
 
@@ -127,9 +129,12 @@ Sen jälkeen pitää lisätä teksti.missing-sanat src/morphology/stems/ -tiedos
 
 Hyvä idea: Jos on tavallinen virhe, niin sekin voidaan lisätä analysaattoriin:
 
+{{{
 peret+Err/Orth:pär n_32_et ; 
+}}}
 
 Onko sinulla antiword-lääke? Kirjoita komentoriville:
+
 {{{
 which antiword
 }}}
@@ -194,7 +199,7 @@ Tässä ovat [jspwiki-editoinnin säännöt|https://giellalt.uit.no/infra/jspwik
 
 
 !!Rinnakkaistekstit
-* Adding the parallel file. Miten se oli kuin molemmat tekstit (originaaliteksti ja käänös) on samassa dokumentissa? Tämä komento myös silloin? add_files_to_corpus -p orig/sme/admin/sd/other_files/dokumentti.pdf -l nob
+* Adding the parallel file. Miten se oli kuin molemmat tekstit (originaaliteksti ja käänös) on samassa dokumentissa? Tämä komento myös silloin? {{add_files_to_corpus -p orig/sme/admin/sd/other_files/dokumentti.pdf -l nob}}
 
 * Pitäisikö laittaa orginaalitekstin eriksheen korpuksheen? 
 
