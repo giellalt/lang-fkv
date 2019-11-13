@@ -15,6 +15,26 @@
  
  cat src/morphology/stems/nouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/$/+N+Pl+Gen/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/TestiPlGen.xml
  
+
+
+ cat src/morphology/stems/propernouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|sed 's/% /%_/g;'| tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/%_/ /g;'|sed 's/$/+N+Prop+Sg+Par/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/PropTestiSgPar.xml
+
+ cat src/morphology/stems/propernouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|sed 's/% /%_/g;'| tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/%_/ /g;'|sed 's/$/+N+Prop+Pl+Par/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/PropTestiPlPar.xml
+
+ cat src/morphology/stems/propernouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|sed 's/% /%_/g;'| tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/%_/ /g;'|sed 's/$/+N+Prop+Pl+Ill/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/PropTestiPlIll.xml
+
+ cat src/morphology/stems/propernouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|sed 's/% /%_/g;'| tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/%_/ /g;'|sed 's/$/+N+Prop+Pl+Ess/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/PropTestiPlEss.xml
+
+ cat src/morphology/stems/propernouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|sed 's/% /%_/g;'| tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/%_/ /g;'|sed 's/$/+N+Prop+Pl+Com/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/PropTestiPlCom.xml
+
+ cat src/morphology/stems/propernouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|sed 's/% /%_/g;'| tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/%_/ /g;'|sed 's/$/+N+Prop+Sg+Ill/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/PropTestiSgIll.xml
+
+ cat src/morphology/stems/propernouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|sed 's/% /%_/g;'| tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/%_/ /g;'|sed 's/$/+N+Prop+Sg+Gen/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/PropTestiSgGen.xml
+
+ cat src/morphology/stems/propernouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|sed 's/% /%_/g;'| tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/%_/ /g;'|sed 's/$/+N+Prop+Pl+Gen/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/PropTestiPlGen.xml
+ 
+
+ 
  cat src/morphology/stems/verbs.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/$/+V+Act+Ind+Prs+Sg1/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/VerbTestiIndPrsSg1.xml
  
  cat src/morphology/stems/verbs.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/$/+V+Act+Ind+Prs+Sg3/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/VerbTestiIndPrsSg3.xml
