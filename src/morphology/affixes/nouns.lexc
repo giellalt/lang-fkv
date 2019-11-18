@@ -361,6 +361,37 @@ LEXICON x_11_E2I
   +Pl          :^WG%>i2      sgpl_cases_even ; !! the same affix in sg and pl
   !      +Pl+Ill:^EDEL%>hii n_PxK         ; ! TODO add Twolc description about EDEL ! suomhiin
 
+LEXICON x_11_E2I_prop !propernouns
+
+  +Sg+Nom      :^E2I         K               ; 
+  +Sg+Dial/Por:^Por^WG       gen_n_sg        ; !Lemmijoven
+  +Sg+Dial/Var:^Var^WG       gen_n_sg        ; !Lemmijoen
+  +Sg+Dial/Jok:^Jok^WG       gen_n_sg        ;
+  +Sg+Dial/Por:              par_V           ; 
+  +Sg+Dial/Var:^E2I          par_A           ; 
+  +Sg+Dial/Jok:^E2I          par_A           ; 
+  +Sg          :^HMETA       ill_hVVn        ; 
+  +Sg          :             ess_nA          ;
+  +Sg+Dial/Por:^Por^WG       sgpl_cases_even ;
+  +Sg+Dial/Var:^Var^WG       sgpl_cases_even ;
+  +Sg+Dial/Jok:^Jok^WG       sgpl_cases_even ;
+
+  +Pl+Dial/Por:^Por^WG       nom_t           ;
+  +Pl+Dial/Var:^Var^WG       nom_t           ;
+  +Pl+Dial/Jok:^Jok^WG       nom_t           ;
+  +Pl+Dial/Por:%>i2          gen_Vn          ; 
+  +Pl+Dial/Var:^WG%>i2       gen_tten        ; 
+  +Pl+Dial/Jok:^WG%>i2       gen_tten        ; 
+  +Pl+Dial/Por:%>i2          par_V           ; 
+  +Pl+Dial/Var:%>i2          par_A           ; 
+  +Pl+Dial/Jok:%>i2          par_A           ; 
+  +Pl          :^EDEL        ill_hiin        ; 
+  +Pl          :%>i2         ess_nA          ;
+  +Pl          :%>i2         com_ne          ;
+  +Pl+Dial/Por:^Por^WG%>i2   sgpl_cases_even ;
+  +Pl+Dial/Var:^Var^WG%>i2   sgpl_cases_even ;
+  +Pl+Dial/Jok:^Jok^WG%>i2   sgpl_cases_even ;
+
 
 LEXICON n_11_pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo, kasvot
 +N             :       x_11_pl    ;
