@@ -752,6 +752,11 @@ LEXICON x_21_oi
 
 LEXICON n_21_oi_AO        !!= * @CODE@  Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
 +N         : x_21_oi_AO ;
++N+Pl      :^AO^HMETA          ill_hVin        ;
+
+LEXICON n_21_oi_ÄÖ        !!= * @CODE@  Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
++N         : x_21_oi_AO ;
++N+Pl      :^AO^HMETA          ill_höin        ;
 
 LEXICON x_21_oi_AO
   +Sg      :                   nom_end         ;
@@ -766,10 +771,9 @@ LEXICON x_21_oi_AO
 
   +Pl      :^WG^AO%>i2         gen_tten        ;
   +Pl      :^WG^AO%>i2         par_tA          ; 
-  +Pl      :^AO^HMETA          ill_hVin        ;
   +Pl      :^WG^AO%>i2         ess_nA          ; 
   +Pl      :^WG^AO%>i2         com_ne          ; 
-  +Pl      :^WG^AO%>i2         sgpl_cases_even ; 
+  +Pl      :^WG^AO%>i2         sgpl_cases_even ;
 
 LEXICON n_31_ee        !!= * @CODE@  hoppee:hoppe
 +N+Dial/Por:        x_31_ee            ;
@@ -861,6 +865,7 @@ LEXICON n_31_io
 LEXICON n_31_asia
 
  +N      :          x_21_oi_AO             ; ! var ja jok astia 
+ +N+Pl   :^AO^HMETA ill_hVin               ;
 
 LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
 +N+Dial/Por:           x_31_ii             ;
@@ -1698,6 +1703,9 @@ LEXICON ill_hVin !  5.  hVin > tunturhiin (ja sivakkhoin), ehkä pitäis pl:ssä
  +Ill:%>h^V%>i2     n_PxK ; ! > for twolc. Find good exlanation TODO fix this on twolc.
 ! +Ill:h%>i2%>i2     n_PxK ; ! on Sg:ssä hVVn
 ! TODO What about this i2>i2thing? ugly, but works on some things, should it be merged with ^V &/or hiin?
+
+LEXICON ill_höin !
+ +Ill:%>hö%>i2     n_PxK ; ! kynttilä - kynttilhöin. Hattu-V ei toimi ö:n kanssa tässä jostain syystä.
 
 LEXICON ill_ssiin !  6.  ssiin > rukhiissiin, syksyissii
  +Ill:%>ssii     n_PxK ;!      säänön mukhaan hVn (maahan) saa -hin monikossa (maihin)

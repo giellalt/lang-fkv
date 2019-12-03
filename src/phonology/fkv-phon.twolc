@@ -1140,6 +1140,10 @@ a:o <=> [#:|.#.] Cns:* UnroundedVow ([u|i|e|a]) (Cns:*) (Vow:*) Cns:+ (:Cns) _ (
 !!€ matka^Por^AO>i2
 !!€ matko00>i
 
+"ä:ö before Pl i"
+!! __@RULENAME@__
+ä:ö <=>  Cns: [RoundedVow|UnroundedVow] Cns:+ Vow:+ [j|l|n] _ (Dial:) (%^WG:0) %^AO: %> i2: ; ! kynttilöitä, tekkiijöitä
+
 ! Sitte vartalon loppuvokaali muuttu o:ksi, kun vartalon alussa on a-, e- tai i- (ei pyöreä vokaali)
 ! , esimerkiksi reuna: reunhoin, aika:aikhoin
 
@@ -1185,11 +1189,6 @@ a:o <=> [#:|.#.] Cns:* UnroundedVow ([u|i|e|a]) (Cns:*) (Vow:*) Cns:+ (:Cns) _ (
      !Cns (Cns:*) UnroundedVow ([o|u]) Cns:* ([Cns:*|:Cns])  (k:0) _ (%^WG:0) %^AO:   %> i2:   ; ! sivakoissa, sannoi
         ![.#.|#:] Cns [u o | o u | u | o | o i6:] Cns :Cns _ %^AO:0 %> i2: [ .#. | %> n .#. ]  ; ! kuvviin kuvvii, ruokaruokhiin,
 
-
-"ä:ö before Pl i"
-!! __@RULENAME@__
-ä:ö <=> 
-        [:k|:l]  (:i)  :i  :j  _  (Dial:)  (%^WG:0)  %^AO:  %>  i2:  ; ! tekkiijä - tekkiijöitä
 
 
 
@@ -1359,7 +1358,7 @@ Vx:e <=>  [.#.|#:] Cns:* Vow: (Vow:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
             ä _ %^VDEL:0  (Dummy:) %> [s|t] ;
   :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:ä|i:] ; 
   :SurfaceCns _                   %> h i i %> n  ; ! päivä>hiin : päiv0hiin
-  :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) (:o) %> i2: ; ! 2.
+  :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) ([:o|:ö]) %> i2: ; ! 2.
   :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! 2.
 
 !!€ kehä>i2>ss^A
