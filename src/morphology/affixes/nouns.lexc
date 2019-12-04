@@ -505,7 +505,13 @@ LEXICON n_21_odd !!= * @CODE@  kajava
 +N         :  x_21_odd ;
 
 LEXICON x_21_odd !!= * @CODE@  kajava
+x_21_odd_nomsg ;
+x_21_odd_oblique ;
+
+LEXICON x_21_odd_nomsg
   +Sg          :             nom_end              ;
+
+LEXICON x_21_odd_oblique 
   +Sg          :^WG          sgpl_cases_odd ;
   +Sg          :^WG          gen_n_sg       ;
   +Sg+Dial/Por :             par_V          ;
@@ -785,8 +791,14 @@ LEXICON n_31_ee        !!= * @CODE@  hoppee:hoppe
  ! +N+Sg+Nom:   R     Is this extra and wrong?
 
 LEXICON x_31_ee ! for Por
+x_31_ee_nomsg ;
+x_31_ee_oblique ;
+
+LEXICON x_31_ee_nomsg 
   +Sg+Nom:e       K               ;
   +Sg+Nom+Err/Orth:%>%^A   K               ;
+
+LEXICON x_31_ee_oblique 
   +Sg      :e       gen_n_sg        ;
   +Sg+Dial/-Var:e   par_tA          ;
   +Sg      :e       ill_sseen       ;
