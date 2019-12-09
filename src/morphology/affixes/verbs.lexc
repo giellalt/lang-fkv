@@ -115,6 +115,7 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Act+Ind+Prt+Pl3:%>thiin K ;
 +V+Pass+Ind+Prs:%>đh^A^An K ; ! đ
 +V+Pass+Ind+Prt:%>thiin K ; 
++V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc+Der/A+A+Sg+Nom:%>n^U K ;
 +V+Act+PrfPrc+Der/A:%>ne x_31_ee_oblique ;
 +V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
@@ -478,11 +479,12 @@ LEXICON v3_ele_notinf
 +V+Pass+Ind+Prt:^WG%>thiin K ; 
 +V+Pass+PrfPrc+Der/A+A:%>e x_31_ee_oblique ;
 +V+Pass+PrfPrc+Der/A+A+Sg+Nom:%>t^U K ;
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
++V+Pass+PrfPrc+Sg+Nom:^WG%>t^U K ;
 +V+Pass+PrfPrc+Pl+Nom:^WG%>^U%>t K ;
 !+V+Act+PrfPrc:^WG^hee PRFPRC_OBL ;
 +V+Act+PrfPrc:^WG%> PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>le%>^V%>v^A K ;
++V+Act+PrsPrc+Pl+Nom:%>le%>^V%>v^At K ;
 +V+Act+PrsPrc+Der/A+A:%>le%>^V%>v^A x_21_odd ;
 +V+Pass+PrsPrc+Sg+Nom:^WG%>t^A%>v^A K ;
 +V+Pass+PrsPrc+Pl+Nom:^WG%>t^A%>v^At K ;
@@ -618,7 +620,7 @@ LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Act+Ind+Prs:%>e^WG v12pers_short ;
 +V+Act+Ind+Prt:%>i3^WG v12pers_short ;
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ; !! * Lyhyt partisiippi
-+V+Act+PrfPrc+Der/A+A:%>nee x_21_even_oblique ; !! * Lyhyt partisiippi
++V+Act+PrfPrc+Der/A+A:%>nee x_21_odd_oblique ; !! * Lyhyt partisiippi
 +V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ; !! * Lyhyt partisiippi
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !! * Lyhyt partisiippi
 !+V+Act+PrfPrc:%>hee PRFPRC_OBL ;
