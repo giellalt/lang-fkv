@@ -1,0 +1,171 @@
+
+fkv-kokous 17.12.2019
+
+Paikalla: Aili, Thomas, Trond
+
+!!!Asialista
+
+* Syksyn seminaari Tromssan museossa
+* Priorisointi: Analysaattori, sanakirja, ...
+* Käytännön kysymykset
+
+
+!!! Syksyn seminaari Tromssan museossa
+
+Hyvin meni. Hyvä että painostettiin se, kuinka tärkeä on tehdä kielen revitalisaatiota nyt kun meillä on vielä vanhimmat kväänin kielen puhujat elossa.
+
+!!! Priorisointi: Analysaattori, sanakirja, ...
+
+Työtehtävät: sanakirja, korpus, por-analysaattori, muut analysaattorit
+
+Esim. niin:
+
+# sanakirja (+ uudet sanat analysaattoriin)
+## lisätä nob-sanoja
+## lisätä fkv-sanoja
+## parantaa keskeisten nob-sanojen artikkeleitä (esim. på, i, ville, like, ...)
+# korpus
+## kerätä tekstejä
+## rinnastaa tekstejä
+# por-analysaattori
+
+Kenen tarpeiden mukaan mennään? Ketkä käyttävät ressursseja?
+
+KI:n kääntäjät (Aili, Mari)
+
+OmegaT-ohjelman käyttö:
+
+[https://omegat.org] ja painaa "Get started". Näin voidaan tehdä fkv:lle.
+
+Jos sanakirjatyö tarkoittaa "lisätä nob -> fkv-termipareja", sittem
+järkevää olisi __aloittaa korpus-työllä__.
+
+Käännösmuisteista: rinnakkaistekstit OmegaT (.tmx):
+
+[https://giellalt.uit.no/tm/TranslationMemory.html]
+
+!!! Käytännön kysymykset
+!!että
+
+{{{
+etten, ettet
+mutta, muttei 
+Tuomas:fkv thomas$ ufkv
+ette
+ette	ette+CS
+}}}
+
+closed.lexc:
+
+LEXICON Subjunction
+!! @LEXNAME@ -leksikossa on tärkeimmät sanat (koska, että, jos, ..)
+
+koska subj ;
+ette+Dial/Jok:että subj ;
+ette+Dial/Var:että subj ;
+ette+Dial/Por:ette subj ;
+siksi subj ;
+
+LEXICON Conjunction
+!! @LEXNAME@ -leksikossa on vain pari sanaa. joko - tai
+mutta cctag ;
+mut cctag ;
+
+ette
+
+
+{{{
+LEXICON Conjunction
+tahi cctag ;
+mutta cctag ;
+mutta+CC:mutte CSpers ; ! uus
+
+LEXICON Subjunction
+ette+Dial/Var:että subj ;
+ette+Dial/Por:ette subj ;
+ette+CS+Dial/Por:ette CSpers ; ! uus
+siksi subj ;
+
+
+LEXICON CSpers ! uus
+ +Sg1:%>n K ;
+ +Sg2:%>t K ;
+ +Sg3:%>i K ;
+ +Pl1:%>m^A K ;
+ +Pl2:%>tt^A K ;
+ +Pl3:%>i K ;
+
+! kuten nyt:
+LEXICON cctag 
+ +CC: # ;
+LEXICON subj
+ +CS: # ;
+}}}
+
+Toinen mahdollisuus olisi:
+
+{{{
+ette+CS+Sg1:etten K ;
+ette+CS+Sg2:ettet K ;
+ette+CS+Sg3:ettei K ;
+ette+CS+Pl1:ettemä K ;
+ette+CS+Pl2:ettett^A K ;
+ette+CS+Pl3:ettei K ;
+
+mutte+CC+Sg1:mutten K ;
+mutte+CC+Sg2:muttet K ;
+mutte+CC+Sg3:muttei K ;
+mutte+CC+Pl1:muttema K ;
+mutte+CC+Pl2:muttett^A K ;
+mutte+CC+Pl3:muttei K ;
+}}}
+ 
+Suomen analysaattori:
+
+{{{
+että	ette+CS
+
+etten	ettei+CS+Neg+Act+Sg1
+etten	etten+Pcle+CS
+
+ettet	ettei+CS+Neg+Act+Sg2
+ettet	ettet+Pcle+CS
+
+etteivät	ettei+CS+Neg+Act+Pl3
+etteivät	etteivät+Pcle+CS
+}}}
+
+
+!!!Korpustyö
+
+Selitys tässä
+
+[https://giellalt.uit.no/ling/corpus_conversion.html]
+
+
+!Työsuunnitelma:
+
+# Järjestää __kaikki__ rinnakkaistekstit
+# Lisätä ne freecorpus-kansioon ja tehdä metadatoja
+# rinnastaa ne
+# Sen jälkeen päivitetään Korp-ia.
+
+
+!Miten lisätä tekstit
+
+# lisäys:
+## laitaa alkuperäinen fkv freecorups/orig/fkv (esim fkvfiili.doc)
+## laitaa alkuperäinen nob freecorups/orig/nob (esim nobfiili.doc)
+# Kummassakin ajaa kommenot {{convert2xml}}
+# editoida fkvfiili.doc.xsl ja nob.fiili.doc.xsl
+# ajaa convert2xml uudestaan
+
+Tulos näkyy sen jälkeen tässä:
+
+[http://gtweb.uit.no/f_korp/?mode=parallel#parallel_corpora=fkv]
+
+!!!Seuraava kokous
+
+Joulun jälkeen.
+
+
