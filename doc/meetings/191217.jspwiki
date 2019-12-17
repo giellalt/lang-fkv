@@ -6,7 +6,7 @@ Paikalla: Aili, Thomas, Trond
 !!!Asialista
 
 * Syksyn seminaari Tromssan museossa
-* Priorisointi: Analysaattori, sanakirja, ...
+* Priorisointi: Analysaattori, sanakirja..
 * Käytännön kysymykset
 
 
@@ -37,15 +37,16 @@ OmegaT-ohjelman käyttö:
 
 [https://omegat.org] ja painaa "Get started". Näin voidaan tehdä fkv:lle.
 
-Jos sanakirjatyö tarkoittaa "lisätä nob -> fkv-termipareja", sittem
+Jos sanakirjatyö tarkoittaa "lisätä nob -> fkv-termipareja", sitten
 järkevää olisi __aloittaa korpus-työllä__.
 
-Käännösmuisteista: rinnakkaistekstit OmegaT (.tmx):
+{{{ Käännösmuisteista: rinnakkaistekstit OmegaT (.tmx): }}}
 
 [https://giellalt.uit.no/tm/TranslationMemory.html]
 
 !!! Käytännön kysymykset
-!!että
+
+!! että ja mutta
 
 {{{
 etten, ettet
@@ -53,7 +54,7 @@ mutta, muttei
 Tuomas:fkv thomas$ ufkv
 ette
 ette	ette+CS
-}}}
+
 
 closed.lexc:
 
@@ -73,8 +74,6 @@ mut cctag ;
 
 ette
 
-
-{{{
 LEXICON Conjunction
 tahi cctag ;
 mutta cctag ;
@@ -157,8 +156,8 @@ Selitys tässä
 ## laitaa alkuperäinen fkv freecorups/orig/fkv (esim fkvfiili.doc)
 ## laitaa alkuperäinen nob freecorups/orig/nob (esim nobfiili.doc)
 # Kummassakin ajaa kommenot {{convert2xml}}
-# editoida fkvfiili.doc.xsl ja nob.fiili.doc.xsl
-# ajaa convert2xml uudestaan
+# editoida {{fkvfiili.doc.xsl}} ja {{nob.fiili.doc.xsl}}
+# ajaa {{convert2xml}} uudestaan
 
 Tulos näkyy sen jälkeen tässä:
 
