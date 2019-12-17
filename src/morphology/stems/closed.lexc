@@ -24,6 +24,9 @@ koska subj ;
 ette+Dial/Jok:että subj ;
 ette+Dial/Var:että subj ;
 ette+Dial/Por:ette subj ;
+ette+CS+Dial/Jok:ette CSpers ; ! ettei
+ette+CS+Dial/Var:ette CSpers ; 
+ette+CS+Dial/Por:ette CSpers ;
 siksi subj ;
 sillä subj ;
 siksi% ko+MWE:siksi% ko subj ; 
@@ -48,6 +51,7 @@ tai cctag ;
 tahi cctag ;
 mutta cctag ;
 mut cctag ;
+mutta+CC:mutte CSpers ; ! muttei
 sekä cctag ;
 
 joko cctag ;
@@ -67,6 +71,14 @@ nimittäin cctag ;
 
 LEXICON cctag
  +CC: # ;
+
+LEXICON CSpers ! muttei, ettei
+ +Sg1:%>n K ;
+ +Sg2:%>t K ;
+ +Sg3:%>i K ;
+ +Pl1:%>m^A K ;
+ +Pl2:%>tt^A K ;
+ +Pl3:%>i K ;
 
 LEXICON Interjection
 !! @LEXNAME@ -leksikossa on vain pari sanaa.  yäk, kääk, nono
