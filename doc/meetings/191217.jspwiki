@@ -155,8 +155,8 @@ Selitys tässä
 !Miten lisätä tekstit
 
 # lisäys:
-## laitaa alkuperäinen fkv freecorups/orig/fkv (esim fkvfiili.doc)
-## laitaa alkuperäinen nob freecorups/orig/nob (esim nobfiili.doc)
+## laitaa alkuperäinen fkv {{ freecorups/orig/fkv (esim fkvfiili.doc) }}
+## laitaa alkuperäinen nob {{ freecorups/orig/nob (esim nobfiili.doc) }}
 # Kummassakin ajaa kommenot {{ convert2xml }}
 # editoida {{ fkvfiili.doc.xsl }} ja {{ nob.fiili.doc.xsl }}
 # ajaa {{ convert2xml }} uudestaan
