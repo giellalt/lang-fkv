@@ -197,6 +197,7 @@ Rules
         [.#.|#:] Cns:* Vow l _ i (Dial:) %> :i  ;
         [.#.|#:] Cns:* Vow l _ y %> [:y|i2: (%> n) #] ;
         [.#.|#:] Cns:* Vow l _ u %> [:u|i2: (%> n) #] ;
+                 Cns   Vow l _ u [%> %^V: | %> i2: #] ; ! vaihettelluu, vaihettellui
         [.#.|#:] Cns:* Vow l _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ; ! ala alloi, alloin (mutta ei alloina)
         [.#.|#:] Cns:* Vow l _ :o (Dial:)           (%^AO:0) %> i5: %> [m|n]   ; ! superlatiivi 
         [.#.|#:] Cns:* Vow l _ e %> :e ;
