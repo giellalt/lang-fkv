@@ -727,7 +727,7 @@ LEXICON n_21_oi        !!= * @CODE@  Paivukko, perintö, kurkkio
 ! They differ from n_21_odd_oi in pl par
 +N         : x_21_oi ;
 
-LEXICON x_21_oi
+LEXICON x_21_oi ! Kommentaari: var ja jok dialektissa oon sg gen "aurinkon" ja sg nom "kuninkas" s.72 norjankielisessä grammatiikissa. 
   +Sg      :                   nom_end         ;
   +Pl      :^WG                nom_t           ;
   +Sg      :^WG                gen_n_sg        ;
