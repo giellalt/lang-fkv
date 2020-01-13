@@ -585,7 +585,7 @@ t:s <=> Vow n  _        e:0                  %> i2: [.#.|%> Cns] ; ! Miksi vain 
  Vow ([n|l|r]) _ (:s)   e: (Dial:0) %^E2I: ;! uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
  Vow           _ (:s)   e:0 (Dial:0) %> i2:    %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc. | vuossii(n) | uusia] ! uusine
  Vow ([n|l|r]) _        e:0 (Dial:0) (%^AO:0) %^HMETA:0 %> h :i ; ! jok uushiin
- !Vow  Vow      _ (:s) Vow:0          (%^AO:0)      %> i3:  ; !poiskommentoitu koska teki hoittaat+V+Act+Ind+Prt+Sg3 "hoisi"
+ u    u        _ (:s) Vow:0          (%^AO:0)      %> i3:  ; ! huuttaat -> huusi
  Vow  n        _      Vow:0 [Dummy:* - %^WG:0]     %> i3:  ;
  Vow [n|l|r]   _  :s    e:0 (Dial:0) %> i2:i       %> %^V: ; ! hirssii
 !Vow [n|l|r]   _      Vow:0 (Dial:0) (%^WG:0) (%^E2I:)  %> i2: ; ! hirsiksi, hirsi (pl - gen par)
