@@ -1419,7 +1419,7 @@ LEXICON x_32_et_ts_common
 LEXICON n_22_excns !!= * @CODE@ = veres (keskus)
 +N         :           x_22_excns     ;
 +N+Sg      :s          nom_R          ;
-+N+Sg      :kse        gen_n_sg       ;
+!+N+Sg      :kse        gen_n_sg       ;
 
 LEXICON x_22_excns
   +Sg      :^WG%>s     nom_end        ;
