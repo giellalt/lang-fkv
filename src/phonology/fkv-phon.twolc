@@ -327,6 +327,7 @@ Rules
                         [l|r|n|m] :t _ :ö %> [:ö|i2: (%> n) #] ;
                         [l|r|n|m] :t _ :y %> [:y|i2: (%> n) #] ;
                         [l|r|n|m] :t _ :u %> [:u|i2: (%> n) #] ;
+                        [l|r|n|m] :t _ :u %>     i5:  %> [m|n] ;
                         [l|r|n|m] :t _ :o %> [:o|i2: (%> n) #] ; ! kunto:kunttoi, kunttoin
                         [l|r|n|m] :t _ :Vow %>  i7: ;
                         [l|r|n|m] :t _ i [ %> %^V:i| (%^AO:0) %> i2: (%> n) #] ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
