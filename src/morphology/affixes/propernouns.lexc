@@ -91,6 +91,19 @@ LEXICON vanha_prop_surplc_21ie
 +N+Prop+Sem/Plc: x_11_E2I ;
 +N+Prop: RHyph ;
 
+LEXICON vanha_prop_plc_21ta ! saari, saare -> sg.par. saarta
++N+Prop+Sem/Plc: x_12 ;
++N+Prop+Sem/Plc: RHyph ;
+
+LEXICON vanha_prop_sur_21ta ! saari, saare -> sg.par. saarta
++N+Prop+Sem/Sur: x_12 ;
++N+Prop+Sem/Sur: RHyph ;
+
+LEXICON vanha_prop_surplc_21ta ! saari, saare -> sg.par. saarta
++N+Prop+Sem/Sur: x_12 ;
++N+Prop+Sem/Plc: x_12 ;
++N+Prop: RHyph ;
+
 LEXICON vanha_prop_21C
 +N+Prop+Sg+Nom: K ;
 +N+Prop:i x_11 ;
