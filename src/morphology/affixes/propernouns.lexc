@@ -78,6 +78,10 @@ LEXICON vanha_prop_plc_11_AO_A2I
 +N+Prop: x_11_A0_A2I ; 
 +N+Prop: RHyph ;
 
+LEXICON vanha_prop_sur_11_AO_A2I 
++N+Prop: x_11_A0_A2I ; 
++N+Prop: RHyph ;
+
 LEXICON vanha_prop_21
 +N+Prop: x_11 ;
 +N+Prop: RHyph ;
@@ -116,6 +120,10 @@ LEXICON vanha_prop_21C
 +N+Prop+Sg+Nom: K ;
 +N+Prop:i x_11 ;
 +N+Prop: RHyph ;
+
+LEXICON vanha_prop_31asia
++N+Prop+: n_31_asia ;
++N+Prop: RHyph ; 
 
 !LEXICON PROP-plc
 !+N+Prop+Sem/Plc: x_11 ;
