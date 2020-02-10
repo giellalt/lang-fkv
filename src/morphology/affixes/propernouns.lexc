@@ -197,6 +197,16 @@ LEXICON vanha_prop_plc_21C
 +N+Prop+Sem/Plc: RHyph ;
 +N+Prop+Sem/Plc:i x_11_i_oblique ;
 
+LEXICON vanha_prop_plc_21Cv         !vierassanat 
++N+Prop+Sem/Plc+Sg+Nom: K ;
++N+Prop+Sg+Nom :  nom_end ;
++N+Prop        :i x_11    ;
+
+LEXICON vanha_prop_sur_21Cv         !vierassanat 
++N+Prop+Sem/Sur+Sg+Nom: K ;
++N+Prop+Sg+Nom :  nom_end ; ! Hans
++N+Prop        :i x_11    ; ! Hansi
+
 LEXICON vanha_prop_plc_21ii
 +N+Prop+Sem/Plc+Sg+Nom: K ;
 +N+Prop+Sem/Plc: RHyph ;
