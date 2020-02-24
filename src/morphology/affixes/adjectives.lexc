@@ -193,8 +193,8 @@ LEXICON a_21_odd_u !vasittu, maalattu, kristitty, mainio
  
 LEXICON a_21_even_u 
 +A:   x_21_even_u ; 
-+A:^WG      comp_m_even      ;
-+A:%>i5 superl_m_even ;
++A:^WG      comp_m_odd      ;
++A:%>i5 superl_m_odd ;
 !+A+Dial/Var :%>i5   superl_m     ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183
  !+A+Dial/Por+Pl+Compar+Gen:%>mm%>ii2tten K ;
  
@@ -563,12 +563,12 @@ LEXICON comp_m_odd  ! odd here meaning the resulting stem: 2syll + comp = 3syll
                    comp_m_common   ;
 
 LEXICON comp_m_even  ! split for syllabicity sinnikkhäämälä
-  +Sg+Compar:%>mp^A    ess_nnA          ;
-  +Sg+Compar:%>m^A     sgpl_cases_odd ;  ! ade, all, ine, ela, abl, tra
+  +Sg+Compar:%>mp^A    ess_nA          ;
+  +Sg+Compar:%>m^A     sgpl_cases_even ;  ! ade, all, ine, ela, abl, tra
 
-  +Pl+Compar:%>mp%>i2  ess_nnA          ;
-  +Pl+Compar:%>mp%>i2  com_nne          ;
-  +Pl+Compar:%>m%>i2   sgpl_cases_odd ;
+  +Pl+Compar:%>mp%>i2  ess_nA          ;
+  +Pl+Compar:%>mp%>i2  com_ne          ;
+  +Pl+Compar:%>m%>i2   sgpl_cases_even ;
                    comp_m_common   ;
 
 LEXICON comp_m_common
@@ -631,21 +631,21 @@ LEXICON comp_mm
 
 
 LEXICON superl_m_even
-  +Sg+Superl:%>mp^A   ess_nnA          ; !+Ess:%>mp^A%>n^A    K ;
-  +Sg+Superl:%>m^A    sgpl_cases_odd ;
+  +Sg+Superl:%>mp^A   ess_nA          ; !+Ess:%>mp^A%>n^A    K ;
+  +Sg+Superl:%>m^A    sgpl_cases_even ;
 
-  +Pl+Superl:%>mp%>i2 ess_nnA          ; !+Ess:%>mp%>i2%>n^A    K ;
-  +Pl+Superl:%>mp%>i2 com_nne          ;
-  +Pl+Superl:%>m%>i2  sgpl_cases_odd ;
+  +Pl+Superl:%>mp%>i2 ess_nA          ; !+Ess:%>mp%>i2%>n^A    K ;
+  +Pl+Superl:%>mp%>i2 com_ne          ;
+  +Pl+Superl:%>m%>i2  sgpl_cases_even ;
   : superl_m_common ;
 
 LEXICON superl_m_odd
-  +Sg+Superl:%>mp^A   ess_nA        ;
-  +Sg+Superl:%>m^A    sgpl_cases_even ;
+  +Sg+Superl:%>mp^A   ess_nnA        ;
+  +Sg+Superl:%>m^A    sgpl_cases_odd ;
 
-  +Pl+Superl:%>mp%>i2 ess_nA        ;
-  +Pl+Superl:%>mp%>i2 com_ne        ;
-  +Pl+Superl:%>m%>i2  sgpl_cases_even ;
+  +Pl+Superl:%>mp%>i2 ess_nnA        ;
+  +Pl+Superl:%>mp%>i2 com_nne        ;
+  +Pl+Superl:%>m%>i2  sgpl_cases_odd ;
   : superl_m_common ;
 
 
