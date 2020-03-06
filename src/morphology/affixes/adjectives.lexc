@@ -225,6 +225,27 @@ LEXICON a_31_ee	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out n
 +A+Sg+Superl+Dial/Por:e%>i2    nom_n  ;
 +A+Sg+Superl+Dial/Por:e%>i2%>n par_tA ;
 
+LEXICON a_31_ussee	! ussee
++A+Dial/Por:se    x_31_ee_nomsg   ;
++A+Dial/Por:he    x_31_ee_oblique ;
++A+Sg+Compar:hee          nom_mpi        ;
++A+Sg+Compar:hee%>m^A     gen_n          ;
++A+Sg+Compar:hee%>mp      par_pA/A_group ; ! used2be included in LIGä twolc
++A+Sg+Compar:hee%>mp      ill_hAAn       ;
++A+Sg+Compar:hee%>mp^A    ess_nnA         ;
++A+Sg+Compar:hee%>m^A     sgpl_cases_odd  ;  ! ade, all, ine, ela, abl, tra
+
++A+Pl+Compar:hee%>m^A     nom_t          ;
++A+Pl+Compar:hee%>m       gen_mii/mitten ;
++A+Pl+Compar:hee%>m       par_ppii_group ;
++A+Pl+Compar:hee%>mp      ill_hiin       ; ! used2be +Ill:%>mp%>hi%>i2n K
++A+Pl+Compar:hee%>mp%>i2  ess_nnA         ;
++A+Pl+Compar:hee%>mp%>i2  com_nne         ;
++A+Pl+Compar:hee%>m%>i2   sgpl_cases_odd  ;
+
++A+Dial/Por:hei%>i2 superl_m_odd   ;
++A+Sg+Superl+Dial/Por:hei%>i2    nom_n  ;
++A+Sg+Superl+Dial/Por:hei%>i2%>n par_tA ;
 
 LEXICON a_31_ea  
 +A: x_31_ea ; 
