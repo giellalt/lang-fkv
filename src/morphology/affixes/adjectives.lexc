@@ -256,6 +256,31 @@ LEXICON a_31_ea
 +A:^A2I superl_m_odd ; 
 !+A:^¤%>i5 superl_m_odd ; ! not E2I because pimeimän
 
+LEXICON a_31_ussee
++A+Sg+Nom  :see       K               ;
++A+Sg      :hee       gen_n_sg        ;
++A+Sg      :hee       par_tA          ;
++A+Sg      :hee       ill_sseen       ;
++A+Sg      :hee       ess_nA          ;
++A+Sg      :hee       sgpl_cases_even ;
+  
++A+Pl      :hee       nom_t            ; 
++A+Pl      :h%>e%>i2   gen_tten        ;
++A+Pl      :h%>e%>i2   par_tA          ;
++A+Pl      :h%>e%>i2   ill_ssiin       ;
++A+Pl      :h%>e%>i2   ess_nA          ;
++A+Pl      :h%>e%>i2   com_ne          ;
++A+Pl      :h%>e%>i2   sgpl_cases_even ;
+  
+  +A+Dial/Por:hee     comp_m_odd   ;
+!+A+Dial/Var:^E2I^¤%>^A comp_mm ;
+
++A+Dial/Por:h%>e%>i2 superl_m_odd ;
+!+A+Dial/Var:^¤%>i5 superl_m_odd ; ! not E2I because pimeimän
+
++A+Sg+Superl+Dial/Por:h%>e%>i2    nom_n  ;
++A+Sg+Superl+Dial/Por:h%>e%>i2%>n par_tA ;
+
 LEXICON a_31_ii  !!= * @CODE@ auttii
 +A: x_31_ii ;
 +A: comp_m_odd   ;
