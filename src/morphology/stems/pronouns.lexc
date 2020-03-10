@@ -18,10 +18,13 @@ sie+Pron+Pers+Sg2+Use/NG:s 12pronsg_short ; !!= * @CODE@
 hän+Pron+Pers+Sg3:hän      han_pron       ;
 se+Pron+Pers+Sg3:          se_pron        ;
 met+Pron+Pers+Pl1:me       123pronpl      ;
+met+Pron+Pers+Pl3+Nom+Err/Orth:me  K      ;
 tet+Pron+Pers+Pl2:te       123pronpl      ;
+tet+Pron+Pers+Pl3+Nom+Err/Orth:te  K      ;
 het+Pron+Pers+Pl3:he       123pronpl      ;
+het+Pron+Pers+Pl3+Nom+Err/Orth:he  K      ;
 net+Pron+Pers+Pl3+Nom:net  K              ; ! e>i
-net+Pron+Pers+Pl3+Nom+Err/Orth:ne  K              ; ! e>i
+net+Pron+Pers+Pl3+Nom+Err/Orth:ne  K      ; ! e>i
 net+Pron+Pers+Pl3:ni       netpronpl      ; ! e>i
 net+Pron+Pers+Pl3+Gen+Err/Orth:niinen  K ;
 
