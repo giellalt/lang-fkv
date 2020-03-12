@@ -1513,6 +1513,8 @@ LEXICON n_22_excns_pl !!= * @CODE@ = veljekset
 LEXICON x_22_excns_pl !!= * @CODE@ = veljekset
   +Sg      :kse        gen_n_sg        ;
   +Sg      :kse        ess_nA          ;
+  +Sg      :%>s         par_tA         ; 
+  +Sg      :ks         ill_heen        ; 
   +Sg      :kse        sgpl_cases_odd  ; !! these two lexica for cases with
 
   +Pl      :kse        nom_t           ;
