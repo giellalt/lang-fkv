@@ -747,6 +747,38 @@ LEXICON x_21_odd_i_oblique
 !  [25/25][FAIL] meininki+N+Pl+Com => Missing results: meininkiine
 !  [25/25][FAIL] meininki+N+Pl+Com => Unexpected results: meininkkiine
 
+LEXICON n_21_even_i !kommentaari, even tavut 
++N+Sg: nom_end ;
++N: x_21_even_i ;
+
+LEXICON x_21_even_i 
+  +Sg      :^WG     gen_n_sg        ;
+  +Sg+Dial/Por:        par_V           ;
+  +Sg+Dial/Jok:        par_A           ;
+  +Sg+Dial/Var:        par_A           ;
+  +Sg      :^HMETA  ill_hVVn        ;
+  +Sg      :        ess_nA         ;
+  +Sg      :^WG     sgpl_cases_even  ;
+
+  +Pl      :^WG     nom_t           ;
+  +Pl+Dial/Por:^WG%>i2 gen_tten        ;
+  +Pl+Dial/Jok:^WG     gen_tten        ;
+  +Pl+Dial/Var:^WG     gen_tten        ;
+  +Pl+Dial/Por:%>i2    par_tA          ;
+  +Pl+Dial/Jok:        par_A           ;
+  +Pl+Dial/Var:        par_A           ;
+  +Pl      :^HMETA  ill_hiin        ;
+  +Pl+Dial/Por:%>i2    ess_nA          ;
+  +Pl+Dial/Jok:        ess_nA         ;
+  +Pl+Dial/Var:        ess_nA         ;
+  +Pl+Dial/Por:%>i2    com_ne          ;
+  +Pl+Dial/Jok:        com_ne         ;
+  +Pl+Dial/Var:        com_ne         ;
+
+  +Pl+Dial/Por:^WG%>i2 sgpl_cases_even ; ! Adding  to block i:0
+  +Pl+Dial/Jok:^WG%>   sgpl_cases_even  ; ! Adding  to block i:0
+  +Pl+Dial/Var:^WG%>   sgpl_cases_even  ; ! Adding  to block i:0
+
 
 
 LEXICON n_21_oi        !!= * @CODE@  Paivukko, perintö, kurkkio
@@ -1511,6 +1543,7 @@ LEXICON n_22_excns_pl !!= * @CODE@ = veljekset
 +N+Pl      :%>kse      nom_t               ;
 
 LEXICON x_22_excns_pl !!= * @CODE@ = veljekset
+  
   +Sg      :kse        gen_n_sg        ;
   +Sg      :kse        ess_nA          ;
   +Sg      :%>s         par_tA         ; 
