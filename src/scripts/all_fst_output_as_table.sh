@@ -77,3 +77,7 @@
  cat src/morphology/stems/adjectives.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/$/+A+Sg+Superl+Nom/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/AdjTestiSuperlSgNom.xml
 
  cat src/morphology/stems/adjectives.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/$/+A+Sg+Compar+Nom/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/AdjTestiCompSgNom.xml
+
+
+ cat test/data/testpronounparadigm.txt | lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|perl src/scripts/all_fst_output_as_table.pl > doc/testit/PronTesti.xml
+ 
