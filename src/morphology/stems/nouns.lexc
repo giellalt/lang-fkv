@@ -1849,8 +1849,10 @@ nuorukainen:nuorukai n_22_inen ;
 päänalainen:pään#alai n_22_inen ;
 ulkomaalainen:ulkomaalai n_22_inen_odd ;
 itaalialainen:itaalialai n_22_inen ;
+somaalialainen:somaalialai n_22_inen ; 
 aasialainen:aasialai n_22_inen_odd ;
 ruijalainen:ruijalai n_22_inen ;
+saivolainen:saivolai n_22_inen ; 
 karjalainen:karjalai n_22_inen ;
 norjalainen:norjalai n_22_inen ;
 amerikkalainen:amerikkalai n_22_inen ;
@@ -1947,6 +1949,8 @@ bändi:bändi n_11_i ;
 pagodi:pagodi n_21_odd_i ;
 metodi:metodi n_21_odd_i ;
 metodi+Err/Orth:metuudi n_21_odd_i ; ! Seuraa mitä kielitinka sannoo tästä. 
+episodi:episodi n_21_odd_i ; 
+episodi+Err/Orth:episuudi n_21_odd_i ; 
 halkkein:halkk2ei n_22_m ;
 aukkein:aukk2ei n_22_m ; ! XXX ?
 tervheiset:tervhei n_22_inen_pl ;
@@ -5102,6 +5106,7 @@ rantakalastus:ranta#kalastu n_22_excns ;
 merikalastus:meri#kalastu n_22_excns ;
 kalastus:kalastu n_22_excns ;
 pelastus:pelastu n_22_excns ;
+pittääjänopastus:pittääjän#opastu n_22_excns ; 
 opastus:opastu n_22_excns ;
 vastus:vastu n_22_excns ;
 aivastus:aivastu n_22_excns ;
