@@ -23,6 +23,7 @@ LEXICON indneg !!= @CODE@ negaation indikatiivipäätteet
  +Pl1:emmä K_NEG ;
  +Pl2:että K_NEG ;
  +Pl3:ei K_NEG ;
+ +Pl3+Err/Orth:eivät K_NEG ; 
 
 LEXICON imprtneg !!= @CODE@ negaation imperatiivipäätteet
  +Sg2:älä # ;
