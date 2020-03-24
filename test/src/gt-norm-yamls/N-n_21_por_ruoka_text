@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ruoka - ok : # Noun 'tid' - ok
+     ruoka+N+Sg+Nom: ruoka
+     ruoka+N+Sg+Gen: ruovan
+     ruoka+N+Sg+Par: ruokkaa
+     ruoka+N+Sg+Tra: ruovaksi
+     ruoka+N+Sg+Abe: ruovatta
+     ruoka+N+Sg+Ine: ruovassa
+     ruoka+N+Sg+Ela: ruovasta
+     ruoka+N+Sg+Ill: ruokhaan
+     ruoka+N+Sg+Ade: ruovala
+     ruoka+N+Sg+Abl: ruovalta
+     ruoka+N+Sg+All: ruovale
+     ruoka+N+Sg+Ess: ruokana
+     ruoka+N+Pl+Nom: ruovat
+     ruoka+N+Pl+Gen: ruokkiin
+     ruoka+N+Pl+Par: ruokkii
+     ruoka+N+Pl+Tra: ruoviksi
+     ruoka+N+Pl+Abe: ruovitta
+     ruoka+N+Pl+Ine: ruovissa
+     ruoka+N+Pl+Ela: ruovista
+     ruoka+N+Pl+Ill: ruokhiin
+     ruoka+N+Pl+Ade: ruovila
+     ruoka+N+Pl+Abl: ruovilta
+     ruoka+N+Pl+All: ruovile
+     ruoka+N+Pl+Ess: ruokina
+     ruoka+N+Pl+Com: ruokine
