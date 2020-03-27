@@ -1062,6 +1062,7 @@ LEXICON x_12_si ! uusi
   +Sg      :^EDEL    par_tA          ; ! parsg
   +Sg      :^HMETA   ill_hVVn        ;
   +Sg      :         ess_nA          ;
+  +Sg/Err/Orth:      ess_nnA         ; 
   +Sg      :^WG      sgpl_cases_even ; ! these two lexica for cases with
 
   +Pl      :^WG      nom_t           ;
@@ -1085,6 +1086,7 @@ LEXICON x_12_si ! uusi
     +Sg      :^EDEL    par_tA          ; ! parsg
     +Sg      :^HMETA   ill_hVVn        ;
     +Sg      :         ess_nA          ;
+    
     +Sg      :^WG      sgpl_cases_even ; ! these two lexica for cases with
     +Sg      :^WG^UU   sgpl_cases_even ; ! these two lexica for cases with
     +Sg      :^WG^TJ   sgpl_cases_even ; ! these two lexica for cases with
@@ -1102,6 +1104,28 @@ LEXICON x_12_si ! uusi
     +Pl      :^E2I%>i2 ess_nA          ;
     +Pl      :^E2I%>i2 com_ne          ;
     +Pl      :^E2I%>i2 sgpl_cases_even ; ! the same affix in sg and pl
+    
+LEXICON n_12_vuosi ! vuosi, vuona 
+  +Sg      :si^E2I     nom_end         ;
+!                       nomgen_px       ; ! sg nom/gen px
+  +Sg      :te^WG      gen_n_sg        ;
+  +Sg      :t^EDEL    par_tA          ; ! parsg
+  +Sg      :t^HMETA   ill_hVVn        ;
+  +Sg      :         ess_nA          ;
+  +Sg/Err/Orth:      ess_nnA         ; 
+  +Sg      :đe^WG      sgpl_cases_even ; ! these two lexica for cases with
+
+  +Pl      :đe^WG      nom_t           ;
+  +Pl+Dial/Por:ss^E2I%>i2 gen_Vn          ; ! vuossiin, ei vuottiin, hirssiin
+  !+Pl+Dial/Jok:%>i2     gen_tten        ; !hirssitten, vuossitten
+  !+Pl+Dial/Var:%>i2     gen_tten        ; !hirssitten, vuossitten
+  +Pl+Dial/Por:ss^E2I%>i2 par_V           ; ! hirssii
+  !+Pl+Dial/Jok:%>i2     par_A           ; ! hirsiä
+  !+Pl+Dial/Var:%>i2     par_A           ; ! hirsiä
+  +Pl      :t^HMETA    ill_hiin        ;
+  +Pl      :s^E2I%>i2    ess_nA          ;
+  +Pl      :s^E2I%>i2    com_ne          ;
+  +Pl      :s^E2I%>i2    sgpl_cases_even ; ! the same affix in sg and pl
 
 
 LEXICON n_12_kusi        !!= @CODE@ kusi kuusi
