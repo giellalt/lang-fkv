@@ -1,0 +1,60 @@
+! ============================= !
+!! File containing abbreviations 
+! ============================= !
+
+!! Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
+
+! Lexica for adding tags and periods
+! ----------------------------------
+
+! Splitting in 3 groups, because of the preprocessor
+! - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LEXICON Abbreviation
+ITRAB ;
+TRNUMAB ;
+TRAB ;
+
+
+! The abbreviation lexicon itself
+! -------------------------------
+
+
+! =============================================== !
+!            Intransitive abbreviations           !
+! =============================================== !
+
+LEXICON ITRAB
+
+e.Kr+Adv:e.Kr	ab-dot-adv-itrab ;
+eKr+Adv:eKr	ab-dot-adv-itrab ;
+j.Kr+Adv:j.Kr	ab-dot-adv-itrab ;
+jKr+Adv:jKr	ab-dot-adv-itrab ;
+prees+N.prees   ab-dot-noun-itrab ;
+ry+N:ry		ab-dot-noun-itrab ;
+
+
+
+! ============================================================ !
+!      Abreviations who are transitive in front of numerals    !
+! ============================================================ !
+
+LEXICON TRNUMAB
+! For abbrs for which numerals are complements, but other
+! words not necessarily are. This group treats arabic numerals as
+! if it were transitive but letters as if it were intransitive.
+! TODO: Bug the fact that these abbrs do not distinguish between
+! cap and small letters, whereast he ITRAB ones do.
+
+nro+N:nro ab-noun-trnumab ;
+
+
+! =============================================== !
+!              Transitive abbreviations           !
+! =============================================== !
+
+LEXICON TRAB
+! For abbrs that always have a constituent following it.
+
+esim+A:esim ab-dot-adj-trab ;
+
