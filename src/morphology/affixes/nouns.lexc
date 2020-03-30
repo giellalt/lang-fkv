@@ -1106,7 +1106,10 @@ LEXICON x_12_si ! uusi
     +Pl      :^E2I%>i2 sgpl_cases_even ; ! the same affix in sg and pl
     
 LEXICON n_12_vuosi      !!= @CODE@ vuosi, vuona 
-+N         : x_12_vuosi ;
++N+Dial/Por:^Por     x_12_vuosi ;
++N+Dial/Var:te^Var   x_12_si_var ;
++N+Dial/Jok:^Jok     x_12_vuosi ;
+
 
 LEXICON x_12_vuosi      !!= @CODE@
   +Sg      :si         nom_end         ;
@@ -1118,9 +1121,9 @@ LEXICON x_12_vuosi      !!= @CODE@
   +Sg      :đe         sgpl_cases_even ; ! these two lexica for cases with
 
   +Pl      :đe         nom_t           ;
-  +Pl+Dial/Por:ss%>i2  gen_Vn          ; ! vuossiin, ei vuottiin
-  +Pl+Dial/Por:ss%>i2  par_V           ; ! vuossii
-  +Pl      :t          ill_hiin        ;
+  +Pl      :ss%>i2  gen_Vn          ; ! vuossiin, ei vuottiin
+  +Pl      :ss%>i2  par_V           ; ! vuossii
+  +Pl      :s          ill_hiin        ;
   +Pl      :s%>i2      ess_nA          ;
   +Pl      :s%>i2      com_ne          ;
   +Pl      :s%>i2      sgpl_cases_even ; ! the same affix in sg and pl
