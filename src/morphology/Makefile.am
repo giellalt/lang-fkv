@@ -24,6 +24,7 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
+			   affixes/abbreviations.lexc \
 			   affixes/acronyms.lexc    \
 			   affixes/adjectives.lexc  \
 			   affixes/nouns.lexc       \
@@ -64,6 +65,7 @@ GT_LEXC_L2_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=generated_files/smi-acronyms.lexc \
+                    generated_files/smi-abbreviations.lexc \
                     generated_files/punctuation.lexc \
                     generated_files/smi-digits.lexc \
                     generated_files/arabic_roman_digits.lexc \
