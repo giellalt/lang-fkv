@@ -34,7 +34,7 @@ GT_LEXC_SRCS_L1_L2=\
 			   affixes/numerals.lexc    \
 			   affixes/symbols.lexc     \
 			   stems/$(GTLANG)-acronyms.lexc \
-			   stems/abbreviations.lexc \
+			   stems/$(GTLANG)-abbreviations.lexc \
 			   stems/adjectives.lexc    \
 			   stems/adverbs.lexc       \
 			   stems/closed.lexc        \
