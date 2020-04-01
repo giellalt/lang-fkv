@@ -21,7 +21,6 @@ LEXICON HYVA
 
 LEXICON VANHAA ! still TODO fix vanha yaml
 +A+Sg      :aa    nom_end ;
-+A+Sg+Err/Orth:a  nom_end ;
 +A+Sg      :aa    par_tA         ; ! vanhaata
 +A+Sg      :aa    ill_sseen      ;
 +A+Sg      :aa    gen_n_sg       ;
@@ -30,7 +29,6 @@ LEXICON VANHAA ! still TODO fix vanha yaml
 +A+Sg+Dial/Jok:aa       sgpl_cases_even ;
 +A+Sg+Dial/Var:aa       sgpl_cases_even ;
 +A+Pl         :aa       nom_t           ;
-+A+Pl+Err/Orth:a        nom_t           ;
      
 +A+Pl      :oi    ill_ssiin         ;  
 +A+Pl      :oi    ess_nA          ;
