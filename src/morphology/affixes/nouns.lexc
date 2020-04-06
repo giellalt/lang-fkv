@@ -943,8 +943,8 @@ LEXICON n_31_asia
 
 LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
 +N+Dial/Por:           x_31_ii             ;
-+N+Dial/Jok:          x_21_oi             ; ! TODO skriv dyp kommentar her
-+N+Dial/Var:          x_21_oi             ; ! TODO skriv dyp kommentar her
++N+Dial/Jok:           x_31_oi             ; ! TODO skriv dyp kommentar her
++N+Dial/Var:           x_31_oi             ; ! TODO skriv dyp kommentar her
 +N+Sg      :           nom_R               ;
 
 LEXICON x_31_ii
@@ -956,18 +956,29 @@ LEXICON x_31_ii
   +Sg      :            sgpl_cases_even     ; !! * @CODE@  for same affix in sg and pl
 
   +Pl      :            nom_t               ;
-  +Pl+Dial/Por:            gen_tten            ;
-  +Pl+Dial/Jok:%>i2        gen_tten            ;
-  +Pl+Dial/Var:%>i2        gen_tten            ;
-  +Pl+Dial/Por:            par_tA              ;
-  +Pl+Dial/Jok:%>i2        par_tA              ;
-  +Pl+Dial/Var:%>i2        par_tA              ;
+  +Pl      :            gen_tten            ;
+  +Pl      :            par_tA              ;
   +Pl      :            ill_ssiin           ;
   +Pl      :            ess_nA              ;
   +Pl      :            com_ne              ;
-  +Pl+Dial/Por:            sgpl_cases_even     ; !! * @CODE@  for same affix in sg and pl
-  +Pl+Dial/Jok:%>i2        sgpl_cases_even     ; !! * @CODE@  for same affix in sg and pl
-  +Pl+Dial/Var:%>i2        sgpl_cases_even     ; !! * @CODE@  for same affix in sg and pl
+  +Pl      :            sgpl_cases_even     ; !! * @CODE@  for same affix in sg and pl
+  
+LEXICON x_31_oi 
+  +Sg      :                   nom_end         ;
+  +Sg      :^WG                gen_n_sg        ;
+  +Sg      :                   par_A           ;
+  +Sg      :^HMETA             ill_hVVn        ;
+  +Sg      :                   ess_nnA         ; 
+  +Sg      :^WG                sgpl_cases_odd  ; 
+
+  +Pl      :^WG                nom_t           ;
+  +Pl      :^WG^AO             gen_tten        ;
+  +Pl      :^WG^AO             par_tA          ;
+  +Pl      :^HMETA             ill_hVin        ;
+  +Pl      :^WG^AO%>i2         ess_nA          ; 
+  +Pl      :^WG^AO%>i2         com_ne          ; 
+  +Pl      :^WG^AO%>i2         sgpl_cases_even ; 
+
   
 LEXICON n_31_uu        !!= * @CODE@  karhuu (in Por) 
 +N+Dial/Por:           x_31_uu             ;
