@@ -944,7 +944,7 @@ Vx:0 <=> :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:Vx|i:] ;
 "e:i in nom.sg. of e-stems and in n_23ia kauhia hopia in Var"
 !! __@RULENAME@__
 e:i <=> Cns: (0:Cns) _ (Dial:0) %^E2I:0 [#:|.#.|%> i5: |%> \i2:] ; ! nom.sg of e-stems
-        Cns Vow (Vow) ([n|l|r]) Cns (Cns:0) _ %^E2I:0 %^¤:0 %> [ %^A: | h ]; ! E2I for e:i hoppe^E2I^¤>^A -> hopia, kauhia in Var
+        (Cns) Vow (Vow) ([n|l|r]) Cns (Cns:0) _ %^E2I:0 %^¤:0 %> [ %^A: | h ]; ! E2I for e:i hoppe^E2I^¤>^A -> hopia, kauhia in Var
 
 !!€ ove^E2I
 !!€ ovi0
@@ -1023,7 +1023,7 @@ e:i <=> Cns: (0:Cns) _ (Dial:0) %^E2I:0 [#:|.#.|%> i5: |%> \i2:] ; ! nom.sg of e
 
 "Cns:0 in hoppe- hope-a in Var & Jok"
 !! @RULENAME@
- Cx:0 <=> Cns Vow (Vow) ([n|l|r]) Cx:  _ e: (%^E2I:0 | %^A2I:0) %^¤:0  %> [ %^A: | i2: | i5: | h ] ;
+ Cx:0 <=> (Cns) Vow (Vow) ([n|l|r]) Cx:  _ e: (%^E2I:0 | %^A2I:0) %^¤:0  %> [ %^A: | i2: | i5: | h ] ;
     where Cx in ( b d f g h j k m p q s w x z p2 k2 ) ; ! E2I is for e:i hopia. We have l and r word, not yet for n but imaginatine :)
     ! TODO We could further restict these Consonants
 

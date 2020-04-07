@@ -858,7 +858,7 @@ x_31_ee_oblique ;
 
 LEXICON x_31_ee_nomsg 
   +Sg+Nom:e       K               ;
-  +Sg+Nom+Err/Orth:%>%^A   K               ;
+!  +Sg+Nom+Err/Orth:%>^WG^A   K    ;
 
 LEXICON x_31_ee_oblique 
   +Sg      :e       gen_n_sg        ;
