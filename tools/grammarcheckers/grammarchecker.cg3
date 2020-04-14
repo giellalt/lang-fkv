@@ -182,6 +182,7 @@ LIST Pot = Pot ;			   #!! Pot
 LIST Cond = Cond ;			   #!! Cond
 LIST Imprt = Imprt ;		   #!! Imprt
 LIST ImprtII = ImprtII ;	   #!! ImprtII
+
 LIST Sg1 = Sg1 (p1 sg) ;			   #!! Sg1
 LIST Sg2 = Sg2 (p2 sg) ;			   #!! Sg2
 LIST Sg3 = Sg3 (p3 sg) ;			   #!! Sg3
@@ -191,6 +192,7 @@ LIST Du3 = Du3 (p3 du) ;			   #!! Du3
 LIST Pl1 = Pl1 (p1 pl) ;			   #!! Pl1
 LIST Pl2 = Pl2 (p2 pl);			   #!! Pl2
 LIST Pl3 = Pl3 (p3 pl);			   #!! Pl3
+
 LIST Inf = Inf ;			   #!! Inf
 LIST ConNeg = ConNeg ;		   #!! ConNeg
 LIST Neg = Neg ;			   #!! Neg
@@ -410,6 +412,15 @@ SET DU-PL-V = DU1-V OR DU2-V OR DU3-V OR PL1-V OR PL2-V OR PL3-V ;
 
 SET 1-2-V = SG1-V OR SG2-V OR DU1-V OR DU2-V OR PL1-V OR PL2-V ;
 
+
+SET NOT-SG1 = Sg2 OR Sg3 OR Pl1 OR Pl2 OR Pl3 ;
+SET NOT-SG2 = Sg1 OR Sg3 OR Pl1 OR Pl2 OR Pl3 ;
+SET NOT-SG3 = Sg1 OR Sg2 OR Pl1 OR Pl2 OR Pl3 ;
+SET NOT-PL1 = Sg1 OR Sg2 OR Sg3 OR Pl2 OR Pl3 ;
+SET NOT-PL2 = Sg1 OR Sg2 OR Sg3 OR Pl1 OR Pl3 ;
+SET NOT-PL3 = Sg1 OR Sg2 OR Sg3 OR Pl1 OR Pl2 ;
+
+
 #!! !Pronoun sets
 # ------------
 
@@ -596,7 +607,12 @@ SET CCCOMMA = CC OR COMMA ;
 
 #!! !Grammarchecker sets
 
-LIST &err-agr = &err-agr ;
+LIST &err-agr-sg1 = &err-agr-sg1 ;
+LIST &err-agr-sg2 = &err-agr-sg2 ;
+LIST &err-agr-sg3 = &err-agr-sg3 ;
+LIST &err-agr-pl1 = &err-agr-pl1 ;
+LIST &err-agr-pl2 = &err-agr-pl2 ;
+LIST &err-agr-pl3 = &err-agr-pl3 ;
 LIST &err-gen-po = &err-gen-po ;
 LIST &err-no-conneg = &err-no-conneg ;
 LIST &err-orrood-inf = &err-orrood-inf ;
@@ -615,13 +631,32 @@ ADD:spell-it-all (&typo &SUGGESTWF) (<spelled>) ;
 ADD:spell-conservatively (&typo &SUGGESTWF) (<spelled>) IF (NEGATE -1 QMARK LINK 2 QMARK);
 
 # A simple grammar checker rule without suggestions: Ensure preceding nominal agrees with the verb
-ADD:err-agr (&err-agr) TARGET V IF (-1C Sg + Nom) (0 V) (NOT 0 Sg3);
-ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Sg1 + Nom) (0 V) (NOT 0 Sg1);
-ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Sg2 + Nom) (0 V) (NOT 0 Sg2);
-ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl1 + Nom) (0 V) (NOT 0 Pl1);
-ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl2 + Nom) (0 V) (NOT 0 Pl2);
+ADD:err-agr-sg1 (&err-agr-sg1) TARGET V IF (-1C Pron + Sg1 + Nom) (0 V) (NOT 0 Sg1);
+COPY:err-agr-sg1 (Sg1 &SUGGEST) EXCEPT NOT-SG1 TARGET (V Ind Prs &err-agr-sg1) ;
+
+ADD:err-agr-sg2 (&err-agr-sg2) TARGET V IF (-1C Pron + Sg2 + Nom) (0 V) (NOT 0 Sg2);
+COPY:err-agr-sg2 (Sg1 &SUGGEST) EXCEPT NOT-SG2 TARGET (V Ind Prs &err-agr-sg2) ;
+
+ADD:err-agr-sg3 (&err-agr-sg3) TARGET V IF (-1C Sg + Nom) (0 (V Ind Prs)) (NOT 0 Sg3) ;
+COPY:err-agr-sg3 (Sg3 &SUGGEST) EXCEPT NOT-SG3 TARGET (V Ind Prs &err-agr-sg3) ;
+	
+ADD:err-agr-pl1 (&err-agr-pl1) TARGET V IF (-1C Pron + Pl1 + Nom) (0 V) (NOT 0 Pl1);
+COPY:err-agr-pl1 (Pl1 &SUGGEST) EXCEPT NOT-PL1 TARGET (V Ind Prs &err-agr-pl1) ;
+
+ADD:err-agr (&err-agr-pl2) TARGET V IF (-1C Pron + Pl2 + Nom) (0 V) (NOT 0 Pl2);
+COPY:err-agr-sg2 (Pl2 &SUGGEST) EXCEPT NOT-PL2 TARGET (V Ind Prs &err-agr-pl2) ;
 
 ADD:err-no-conneg (&err-no-conneg) TARGET Prs IF (-1 Neg)(0 V + Sg3);
+COPY:err-no-conneg (ConNeg &SUGGEST) EXCEPT Sg3 TARGET (V Ind Prs &err-no-conneg) ;
+
+ADD:err-no-conneg (&err-no-conneg) TARGET Prs IF (-1 Neg)(0 V + Sg1);
+COPY:err-no-conneg (ConNeg &SUGGEST) EXCEPT Sg1 TARGET (V Act Ind Prs &err-no-conneg) ;
+
+ADD:err-no-conneg (&err-no-conneg) TARGET Prs IF (-1 Neg)(0 V + Sg2);
+COPY:err-no-conneg (ConNeg &SUGGEST) EXCEPT Sg2 TARGET (V Act Ind Prs &err-no-conneg) ;
+
+ADD:err-no-conneg (&err-no-conneg) TARGET Prs IF (-1 Neg)(0 V + Sg3);
+COPY:err-no-conneg (ConNeg &SUGGEST) EXCEPT Sg3 TARGET (V Act Ind Prs &err-no-conneg) ;
 
 # And one with a suggestion where we simply change the tag Sg into Attr:
 ADD:attr-not-pred (&attr-not-pred) TARGET (A Sg) IF (NOT 0 Attr OR Gen) (1 CC LINK *1 COMMON-N) ;
