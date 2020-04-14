@@ -1,11 +1,11 @@
-LEXICON SYMBOLS
-  §+N+ABBR:§  # ; ! §:s
- §§+N+ABBR:§§ # ; ! §§:ain
-  $+N+ABBR:$  # ; ! $:s
-  €+N+ABBR:€  # ; ! €:s
-  £+N+ABBR:£  # ; ! £:s
-           ®+N+ABBR:®  #               ;
-           ©+N+ABBR:©  #               ;
+!LEXICON SYMBOLS
+!  §+N+ABBR:§  # ; ! §:s
+! §§+N+ABBR:§§ # ; ! §§:ain
+!  $+N+ABBR:$  # ; ! $:s
+!  €+N+ABBR:€  # ; ! €:s
+!  £+N+ABBR:£  # ; ! £:s
+!           ®+N+ABBR:®  #               ;
+!           ©+N+ABBR:©  #               ;
 
 ! Now splitting according to POS, and according to dot or not
 ! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -27,7 +27,7 @@ LEXICON ab-adj   !!= * __@CODE@__
 LEXICON ab-adv-itrab   +ABBR+Gram/IAbbr:    ab-adv ;
 !LEXICON ab-adv-numnoab +ABBR+Gram/NoAbbr:   ab-adv ;
 !LEXICON ab-adv-trab    +ABBR+Gram/TAbbr:    ab-adv ;
-LEXICON ab-adv-trnumab +ABBR+Gram/TNumAbbr: ab-adv ;
+!LEXICON ab-adv-trnumab +ABBR+Gram/TNumAbbr: ab-adv ;
 LEXICON ab-adv   !!= * __@CODE@__
          ab-nodot-adv ;
 +Use/NG: ab-dot-adv   ;
@@ -189,21 +189,21 @@ LEXICON DOT   !!= * __@CODE@__ - Adds the dot to dotted abbreviations.
 ! Also splitting when in doubt: -noun-adj => -noun and -adj
 ! Then pointing to two contlexes, a dot-one and a non-dot-one.
 
-LEXICON ab ! No POS, don't know what pos, assuming noun
-ab-nodot-noun ;
-ab-dot-noun ;
+!LEXICON ab ! No POS, don't know what pos, assuming noun
+!ab-nodot-noun ;
+!ab-dot-noun ;
 
 
 
-LEXICON ab-nodot      ! default
-+N+ABBR: nodot-nomaccgen-infl ;
-+N+ABBR: nodot-oblique-infl ;
+!LEXICON ab-nodot      ! default
+!+N+ABBR: nodot-nomaccgen-infl ;
+!+N+ABBR: nodot-oblique-infl ;
 
 
 ! Here come POS and Case tags, with the period added.
 
-LEXICON ab-dot        ! TODO - fix
-+N+ABBR:%. nodot-nomaccgen-infl ;
+!LEXICON ab-dot        ! TODO - fix
+!+N+ABBR:%. nodot-nomaccgen-infl ;
 
 
 
