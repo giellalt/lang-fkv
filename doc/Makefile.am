@@ -25,7 +25,7 @@ JSP_PAGES=root-morphology.jspwiki     \
 		  punctuation-stems.jspwiki   \
 		  verbs-affixes.jspwiki       \
 		  verbs-stems.jspwiki         \
-		  fkv-phon-phonology.jspwiki \
+		  phonology-morphology.jspwiki \
 		  disambiguator-syntax.jspwiki
 #		  acronyms-stems.jspwiki      \
 # clitics-morphology.jspwiki       \
