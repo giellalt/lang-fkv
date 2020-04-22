@@ -278,7 +278,8 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 
 LEXICON v2 !!= @CODE@ ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
 +V+Inf:%>^Vt K ;
-+V+Inf+Err/Orth:^A K ;  ! suomalainen inf
++V+Inf+Err/Orth:^A K ;  ! suomalainen ja jok murteen inf
++V+Inf+Err/Orth:^E2I%>^A K ; ! var inf
 
 +V+Act+Ind+Prs:^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:%>^V K ;
