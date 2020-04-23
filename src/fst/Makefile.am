@@ -96,12 +96,12 @@ GT_DISTRO_SRCS=
 GIELLA_LOCAL_TARGETS=
 
 generated_files/%.lexc: \
-			$(GIELLA_SHARED)/smi/src/morphology/stems/%.lexc
+			$(GIELLA_SHARED)/smi/src/fst/stems/%.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $< $@
 
 generated_files/%.lexc: \
-			$(GIELLA_SHARED)/all-langs/src/morphology/stems/%.lexc
+			$(GIELLA_SHARED)/all-langs/src/fst/stems/%.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $< $@
 
