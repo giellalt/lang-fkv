@@ -871,8 +871,8 @@ j:0 <=> l _ e: (Dial:0) %^E2I:0 ;
 "Vow copying in long h pl forms"
 !! __@RULENAME@__
  %^V:Vy <=>  Vx: (Dial:) %^HMETA: %> h _ %>  i2: ; ! TODO This interferes with aikhoin aika^Por^AO^HMETA>h^V>i2n -> aik0000>ho>in
-    where Vx in ( a e o u y ä ö ) ! i2
-          Vy in ( i e o u y ä ö ) ! i
+    where Vx in ( e o u y ä ö ) ! i2
+          Vy in ( e o u y ä ö ) ! i
               matched ;
 
 ! ok in xfst, fails in hfst, for this rule:
