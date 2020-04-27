@@ -30,6 +30,8 @@ Multichar_Symbols
 +ABBR  !!≈ * __@CODE@__ = Abbreviation
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 +ACR  !!≈ * __@CODE@__ = Acronym
++TV   !!≈ * __@CODE@__ = Transitive verb
++IV   !!≈ * __@CODE@__ = Intansitive verb
 +Arab !!≈ * __@CODE@__ = Arabic
 +Coll !!≈ * __@CODE@__ = Collective numeral
 +Rom
@@ -130,6 +132,7 @@ Multichar_Symbols
  +Cmp  !!≈ * __@CODE@__ =
  +Cmp/SplitR !!≈ * __@CODE@__ =
  +Cmp/Hyph     !!≈ * __@CODE@__ - on dynamic compounds that have a hyphen (in use?)
+ +CmpNP/First  !!≈ * __@CODE@__ - ... only be first part in a compound or alone
  +CmpNP/None !!≈ * __@CODE@__ =
 
 
@@ -177,6 +180,7 @@ Multichar_Symbols
 
 !! !!Semantic tags
 
++Sem/Amount
 +Sem/Ani  !!≈ * __@CODE@__ = Animal names
 +Sem/Fem  !!≈ * __@CODE@__ = Female names
 +Sem/Mal  !!≈ * __@CODE@__ = Male names
@@ -188,12 +192,17 @@ Multichar_Symbols
 +Sem/Build
 +Sem/Build-room
 +Sem/Cat
++Sem/Curr
 +Sem/Date
 +Sem/Domain
++Sem/Domain_Hum
 +Sem/Dummytag
++Sem/Edu_Hum
 +Sem/Event
++Sem/Food-med
 +Sem/Group_Hum
 +Sem/Hum
++Sem/Lang
 +Sem/Mat
 +Sem/Measr
 +Sem/Money
@@ -201,12 +210,15 @@ Multichar_Symbols
 +Sem/Obj-ling
 +Sem/Org_Prod-audio
 +Sem/Org_Prod-vis
++Sem/Part
 +Sem/Prod-vis
 +Sem/Route
 +Sem/Rule
 +Sem/Sign
++Sem/State
 +Sem/State-sick
 +Sem/Substnc
++Sem/Time
 +Sem/Time-clock
 +Sem/Tool-it
 +Sem/Txt
