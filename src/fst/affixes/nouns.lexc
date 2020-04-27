@@ -1093,7 +1093,7 @@ LEXICON x_12_si ! uusi
   +Sg      :^EDEL    par_tA          ; ! parsg
   +Sg      :^HMETA   ill_hVVn        ;
   +Sg      :         ess_nA          ;
-  +Sg/Err/Orth:      ess_nnA         ; 
+  +Sg+Err/Orth:      ess_nnA         ; 
   +Sg      :^WG      sgpl_cases_even ; ! these two lexica for cases with
 
   +Pl      :^WG      nom_t           ;
@@ -1149,7 +1149,7 @@ LEXICON x_12_vuosi      !!= @CODE@
   +Sg      :te^HMETA   ill_hVVn        ;
   +Sg      :           ess_nA          ;
   +Sg      :te         ess_nA          ; 
-  +Sg/Err/Orth:        ess_nnA         ;
+  +Sg+Err/Orth:        ess_nnA         ;
   +Sg      :đe         sgpl_cases_even ; ! these two lexica for cases with
 
   +Pl      :đe         nom_t           ;
