@@ -26,7 +26,7 @@ sort -nr >       # järjestä taajuuden mukaan
 teksti.missing   # 
 }}}
 
-Sen jälkeen pitää lisätä teksti.missing-sanat src/morphology/stems/ -tiedostoihin tarpeiden mukaan.
+Sen jälkeen pitää lisätä teksti.missing-sanat src/fst/stems/ -tiedostoihin tarpeiden mukaan.
 
 Hyvä idea: Jos on tavallinen virhe, niin sekin voidaan lisätä analysaattoriin:
 
