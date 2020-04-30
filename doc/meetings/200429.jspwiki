@@ -1,0 +1,45 @@
+fkv-kokous 29.04.2020
+
+Paikalla: Aili, Hilde, Thomas, Trond
+
+Kva slags type ord? -- Arbeidsfordeling?
+
+* nye ord
+** språkreirsord
+** linus-bøker og AE sine bøker
+** facebook-innsamlingsarbeidet og språkkafeane
+** Ord frå norsk (frekvenslister frå ulike tekstområde)
+* Betre ordartiklar
+** eksempelsetningar
+** reksjon
+* Kjeldekunnskap
+
+cat linusbok | preprocess| ufkv | cut -f2|cut -d"+" -f1|uniq | sort|uniq -c|sort -nr|cut -c6-|fkvnob | grep "+?"
+
+
+
+Alle 
+# ta teksten i e-format
+# rette den med hjelp av stavekontrollen <====== manuelt arbeid
+# finne grunnformene med hjelp av analysatoren
+# slå opp alle orda i ordboka
+# få ut lista over orda som manglar
+# legge til i ordboka <====== manuelt arbeid
+
+
+9000 ord 
+
+Problemet blir illustrert av ordet "kumpula", som stod på ei nettside men ikkje i ordboka. Kommentatoren sa "det må vere ein feil med teksten i nettsida, i og med at ordet ikkje står i ordboka". Men feilen ligg i ordboka.
+
+Levikki Missä (kolmessa) murteessa sana käytetään Murteet Äänteelliset erot Muodolliset erot Sanastolliset erot Suurimman osan sanastosta on yhteinen Erot kolmen(?)laisia Sana löytyy vain murteesta a Merktyksellä m on sana s1, s2, .. murteisa mu1, mu2, … Samalla sanalla on eri merkitys / laajempi merkitys toisessa murteessa
+
+
+Alta    N       Alattio
+Bugøynes-væring N       pykejäläinen
+Bygøynes        N       Pykejä
+Børselv N       Pyssyjoki
+...
+
+* Få tillatelse av AE til å legge inn alle ordene fra lærebøkene og skoleordboken (?) 
+
+* Kontakt RW 
