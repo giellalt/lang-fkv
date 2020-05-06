@@ -642,44 +642,44 @@ LEXICON DIGITCASES
 
 
 LEXICON DIGITCASE0
-      +Arab+Sg+Nom: # ;
+       +Sg+Nom: # ;
   +Cmp/SplitR:%:%- ENDLEX ;
 
 
 LEXICON DIGITCASE
-        +Arab+Sg+Gen:n       # ;
-        +Arab+Sg+Ill:iin      # ;
-        +Arab+Sg+Ine:ssa     # ; ! NRK:sne
-        +Arab+Sg+Ela:sta     # ; ! NRK:ste
-        +Arab+Sg+All:lla     # ; ! NRK:sne
-        +Arab+Sg+Abl:lta     # ; ! NRK:ste
-           +Arab+Ess:ina     # ; ! NBR:ine
-        +Arab+Pl+Nom:t       # ;
-        +Arab+Pl+Gen:ien       # ;
-        +Arab+Pl+Ill:ihin     # ;
-        +Arab+Pl+Ine:issa    # ;
-        +Arab+Pl+Ela:ista    # ;
-        +Arab+Pl+All:illa    # ;
-        +Arab+Pl+Abl:ilta    # ;
-        +Arab+Pl+Com:ine     # ;
+         +Sg+Gen:n       # ;
+         +Sg+Ill:iin      # ;
+         +Sg+Ine:ssa     # ; ! NRK:sne
+         +Sg+Ela:sta     # ; ! NRK:ste
+         +Sg+All:lla     # ; ! NRK:sne
+         +Sg+Abl:lta     # ; ! NRK:ste
+            +Ess:ina     # ; ! NBR:ine
+         +Pl+Nom:t       # ;
+         +Pl+Gen:ien       # ;
+         +Pl+Ill:ihin     # ;
+         +Pl+Ine:issa    # ;
+         +Pl+Ela:ista    # ;
+         +Pl+All:illa    # ;
+         +Pl+Abl:ilta    # ;
+         +Pl+Com:ine     # ;
 !ordinals
 
 LEXICON ARABICCASEORD
-      +Arab+Sg+Nom:%>s       # ;
-      +Arab+Sg+Gen:%>nnen      # ;
-      +Arab+Sg+Ill:%>nteen    # ;
-      +Arab+Sg+Ine:%>nnessa   # ;
-      +Arab+Sg+Ela:%>nnesta   # ;
-      +Arab+Sg+Ess:%>ntena    # ;
-      +Arab+Pl+Nom:%>nnet       # ;
-      +Arab+Pl+Gen:%>nsien       # ;
-      +Arab+Pl+Ill:%>nsiin    # ;
-      +Arab+Pl+Ine:%>nsissa    # ;
-      +Arab+Pl+Ela:%>nsista  # ;
-      +Arab+Pl+Com:%>nnine # ;
+       +Sg+Nom:%>s       # ;
+       +Sg+Gen:%>nnen      # ;
+       +Sg+Ill:%>nteen    # ;
+       +Sg+Ine:%>nnessa   # ;
+       +Sg+Ela:%>nnesta   # ;
+       +Sg+Ess:%>ntena    # ;
+       +Pl+Nom:%>nnet       # ;
+       +Pl+Gen:%>nsien       # ;
+       +Pl+Ill:%>nsiin    # ;
+       +Pl+Ine:%>nsissa    # ;
+       +Pl+Ela:%>nsista  # ;
+       +Pl+Com:%>nnine # ;
 
 LEXICON ARABICCASECOLL
- +Arab+Pl+Nom:%>t       # ;
+  +Pl+Nom:%>t       # ;
 ! +Arab+Pl+Acc:%>sidie    # ;
 ! +Arab+Pl+Gen:%>si       # ;
 ! +Arab+Pl+Ill:%>sidie    # ;
