@@ -1,0 +1,50 @@
+# Add your error:correct string pairs here (not complete words, they have
+# a separate file), followed by TAB and the weight for the edit operation:
+#øø:öö	2
+#ää:ææ	2
+
+
+iä:ii	2
+ia:ii	2
+i:ii	4
+yä:yy	2
+eä:ee	2
+ea:ee	2
+öä:öö	2
+oa:oo	2
+ua:uu	2
+ee:ei	9
+ff:f	9
+f:ff	1
+hh:h	9
+h:hh	1
+jj:j	9
+j:jj	1
+kk:k	9
+k:kk	1
+ll:l	4
+l:ll	1
+mm:m	9
+m:mm	1
+nn:n	9
+n:nn	1
+pp:p	9
+p:pp	1
+rr:r	9
+r:rr	1
+ss:s	9
+s:ss	1
+tt:t	4
+t:tt	1
+vv:v	9
+v:vv	1
+
+ng:nk	9
+nk:ng	9
+
+nk:nkh	9
+nkh:nk	9
+ia:ija	4
+äävy:äyđy	4
+ai:aji	4
+ue:uođe	4
