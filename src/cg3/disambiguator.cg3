@@ -219,6 +219,9 @@ REMOVE:vasthaan Nom IF (0 Par)(1 ("vasthaan"));
 
 SELECT:häntä Par IF (-1 V)(0 ("häntä"));
 
+REMOVE:ParNotImprt Imprt IF (0 Par)(*1 Neg);
+#€ Viimi aikhoin heitä ei ole näkyny ollenkhaan.
+
 SELECT Pron IF (-1 V)(0 ("tet") + Pl + Par)(1 V);
 
 
