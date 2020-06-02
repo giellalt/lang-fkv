@@ -1937,37 +1937,37 @@ LEXICON com_nne
 
 LEXICON n_PxK  !!= @CODE@ has either -n or goes to Px
   :n K  ;
-!    Px ;
+    Px ;
 
 LEXICON i_PxK  !!= @CODE@ Tra: -i or -e and goes to Px
   :i K  ;
-! :e Px ;
+ :e Px ;
 
 LEXICON PxK !!= @CODE@ has only -nsA, and is currently not in use. Check
      K  ;
-!  Px ;
+  Px ;
 
 LEXICON PxxK  !!= @CODE@ has also -Vn, thus both .. llensa and ..lleen.
      K  ;
-!  Px    ;
-!  Px-Vn ;
+  Px    ;
+  Px-Vn ;
 
-!LEXICON Pxx
-!  Px    ;
-!  Px-Vn ;
+LEXICON Pxx
+  Px    ;
+  Px-Vn ;
 
-!LEXICON Px
-! +PxSg1:%>ni   K ;
-! +PxSg2:%>sti  K ;
-! +PxSg3:%>ns^A K ;
-! +PxPl1:%>mm^A K ; ! NB! -m^A ei hoidettu
-! +PxPl2:%>nn^A K ; ! NB! -n^A ei hoidettu
-! +PxPl3:%>ns^A K ;
+LEXICON Px
+ +PxSg1:%>ni   K ;
+ +PxSg2:%>sti  K ;
+ +PxSg3:%>ns^A K ;
+ +PxPl1:%>mm^A K ; ! NB! -m^A ei hoidettu
+ +PxPl2:%>nn^A K ; ! NB! -n^A ei hoidettu
+ +PxPl3:%>ns^A K ;
 !
 !
-!LEXICON Px-Vn
-! +PxSg3:%>^Vn K ;
-! +PxPl3:%>^Vn K ;
+LEXICON Px-Vn
+ +PxSg3:%>^Vn K ;
+ +PxPl3:%>^Vn K ;
 
 
 
