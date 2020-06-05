@@ -436,6 +436,7 @@ LEXICON NUM_VIISI
 !!€ viishiin: viisi+Num+Pl+Ill
 !!€ viisinä: viisi+Num+Pl+Ess
 0:si    NUM_FRONT_NOMINATIVE ;
++Use/NG:s  NUM_FRONT_NOMINATIVE ; 
 0:t     NUM_FRONT_ILLATIVE_HEEN    ;
 0:te    NUM_FRONT_STRONG_SINGULARS   ;
 0:te    NUM_FRONT_STRONG_SINGULARS_NA ;
@@ -464,6 +465,7 @@ LEXICON NUM_KUUSI
 !!€ kuutten: kuusi+Num+Pl+Gen !harvinainen muoto
 !!€ kuushiin: kuusi+Num+Pl+Ill
 0:si    NUM_BACK_NOMINATIVE ;
++Use/NG:s   NUM_BACK_NOMINATIVE ; 
 0:t     NUM_BACK_ILLATIVE_HEEN    ;
 0:te    NUM_BACK_STRONG_SINGULARS   ;
 0:te    NUM_BACK_STRONG_SINGULARS_NA ; 
