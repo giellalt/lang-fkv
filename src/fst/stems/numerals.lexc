@@ -91,6 +91,7 @@ LEXICON NUM_CARD_SUFFIX
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Cardinal multiplicants
 !!€ viisikymmentä: viisi+Num+Sg+Nom#kymmentä
+!!€ viiskymmentä: viisi+Num+Sg+Nom#kymmentä
 !!€ neljesattaatuhatta: nelje+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta
 kymmentä    #   ;
 sataa       #   ;
@@ -424,6 +425,7 @@ LEXICON NUM_NELJÄ
 LEXICON NUM_VIISI
 !!€gt-norm: Numerals 27 front
 !!€ viisi: viisi+Num+Sg+Nom
+!!€ viis: viisi+Num+Sg+Nom
 !!€ viitheen: viisi+Num+Sg+Ill
 !!€ viittä: viisi+Num+Sg+Par
 !!€ viiđessä: viisi+Num+Sg+Ine
@@ -454,6 +456,7 @@ LEXICON NUM_VIISI
 LEXICON NUM_KUUSI
 !!€gt-norm: Numerals 27 back
 !!€ kuusi: kuusi+Num+Sg+Nom
+!!€ kuus: kuusi+Num+Sg+Nom
 !!€ kuutta: kuusi+Num+Sg+Par
 !!€ kuutena: kuusi+Num+Sg+Ess
 !!€ kuuđessa: kuusi+Num+Sg+Ine
