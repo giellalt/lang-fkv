@@ -24,7 +24,7 @@ do
  do
     #  echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm.xfst
 #   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.xfst
-echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.hfst
+echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.hfstol
 
  done
 done
