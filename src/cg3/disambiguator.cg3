@@ -43,7 +43,7 @@ LIST Po = Po ;  #!! * Po = postposition
 LIST Pron = Pron ; #!! * Pron = pronoun
 LIST Interj = Interj ; #!! * Interj = interjection
 LIST CLB = CLB ;
-
+LIST CLBfinal = CLBfinal ; # because common num
 LIST Prs = Prs ;
 LIST Prt = Prt ;
 LIST Act = Act ;
@@ -78,6 +78,13 @@ LIST Ins = Ins ;   #!! * Ins
 LIST Com = Com ;   #!! * Com
 LIST SUBJ-CASE = Nom Par ;   #!! * SUBJ-CASE = Nom Par
 
+LIST Pos = Pos ;	
+LIST Comp = Comp ;
+LIST Superl = Superl ;	
+LIST Ord = Ord ;
+
+LIST Err/Orth = Err/Orth ;
+	
 #!! !Types
 LIST Prop = Prop ;   #!! * Prop = Proper noun
 LIST Interr = Interr ;   #!! * Interr = Interrogative
@@ -104,7 +111,11 @@ LIST Sem/Fem = Sem/Fem ; #!! * Sem/Fem = feminin propernoun
 LIST @CVP = @CVP ; # !! * @CVP = Conjunction or subjunction that conjoins finite verb phrases.
 LIST @CNP = @CNP ; # !! * @CNP = Local conjunction or subjunction.
 
+LIST Sem/ID = Sem/ID ;
+LIST Arab = Arab ;
 
+LIST CURRENCY = "dinaari" "dollari" "euro" "kruunu" "kr" "rupla" "rubel" "¢" "€" "$";
+	
 
 #!! !!Sets with more members
 # ====
@@ -144,6 +155,16 @@ LIST ELA-VERB = "herättäät" "pittäät" ;
 
 BEFORE-SECTIONS
 
+REMOVE CLBfinal ;
+
+SELECT:Sem/ID Sem/ID IF (-1 ("§")) ; 
+REMOVE:Sem/ID Sem/ID IF (1 CURRENCY) ; 
+
+SELECT:Arab Arab IF (NOT 0 Ord OR Prop OR Arab + Err/Orth) ; # In Apertium we get analysis both with and without the tag.
+
+
+REMOVE:dyn  Arab (0 Prop) ; # foreløpig løsning, til vi har ny løsning for numerals.lexc
+	
 
 SECTION
 #!! !!Disambiguation rules
@@ -255,6 +276,8 @@ SELECT:kerran Adv IF (0 ("kerran"))(1 VFIN);
 
 SELECT:jälkhiin Adv IF (-1 Par)(0 ("jälkhiin"));
 
+
+SELECT:miksi Adv IF (0 ("miksi"))(NOT 1  Tra);	
 
 #!! !! Conjunctions
 
