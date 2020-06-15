@@ -10,6 +10,7 @@
 # sh devtools/adj_minip.sh '^lestadiolainen[ :+]' 
 
 LOOKUP=$(echo $LOOKUP)
+HLOOKUP=$(echo $HLOOKUP)
 GTHOME=$(echo $GTHOME)
 
 PATTERN=$1
@@ -22,7 +23,8 @@ for lemma in $(cat $L_FILE);
 do
  for form in $(cat $P_FILE);
  do
-   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.xfst
+     echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.hfstol
+#   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.xfst
   # echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm.xfst
  done
 done
