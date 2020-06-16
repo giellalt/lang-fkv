@@ -228,9 +228,9 @@ LEXICON vanha_prop_plc_21_oi_AO
 +N+Prop+Sem/Plc: x_21_oi_AO ;
 +N+Prop+Sem/Plc: RHyph ; 
 
-!LEXICON vanha_prop_fem_21_oi_AO
-!+N+Prop+Sem/Fem: x_21_oi_AO ;
-!+N+Prop+Sem/Fem: RHyph ; 
+LEXICON vanha_prop_fem_21_oi_AO
++N+Prop+Sem/Fem: x_21_oi_AO ;
++N+Prop+Sem/Fem: RHyph ; 
 
 LEXICON vanha_prop_plc_21_odd_i 
 +N+Prop+Sem/Plc: x_21_odd_i ;
@@ -290,6 +290,10 @@ LEXICON vanha_prop_plc_31
 LEXICON vanha_prop_plc_31ea
 +N+Prop: x_31_ea ;
 +N+Prop: RHyph ;
+
+!LEXICON vanha_prop_plc_31uu
+!+N+Prop: x_31_uu   ;
+!+N+Prop: RHyph ;
 
 LEXICON vanha_prop_mal_41
 +N+Prop+Sem/Mal: x_22_excns ;
