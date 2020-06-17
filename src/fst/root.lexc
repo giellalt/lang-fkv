@@ -146,7 +146,6 @@ Multichar_Symbols
  +OLang/SWE !!≈ * __@CODE@__ = Language of common names
  +OLang/UND !!≈ * __@CODE@__ = Language of common names
 
- @P.Pmatch.Backtrack@ !!≈ | @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
 
 
 
@@ -344,6 +343,11 @@ i7     !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
  @C.ErrOrth@        !!≈ | @CODE@
  @D.ErrOrth.ON@ 	!!≈ | @CODE@
  @P.ErrOrth.ON@     !!≈ | @CODE@
+ @R.ErrOrth.ON@     !!≈ | @CODE@
+ @P.Pmatch.Loc@     !!≈ | @CODE@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+ @P.Pmatch.Backtrack@ !!≈ | @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
+
+
 
 @U.pron.nom@       !!≈ | @CODE@ | tbw
 @U.pron.gen@       !!≈ | @CODE@ | tbw
