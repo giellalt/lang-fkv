@@ -83,7 +83,9 @@ GT_LOCAL_SRCS=
 GT_LOCAL_XFSCRIPT_SRCS=
 
 # Define here any additional sources just included in the distro:
-GT_DISTRO_SRCS=
+GT_DISTRO_SRCS=stems/$(GTLANG)-abbreviations.lexc \
+                $(top_srcdir)/src/scripts/smi-$(GTLANG)-conversion.pl
+
 
 ### BEGIN: Local processing: ###
 
