@@ -44,6 +44,7 @@ LIST Pron = Pron ; #!! * Pron = pronoun
 LIST Interj = Interj ; #!! * Interj = interjection
 LIST CLB = CLB ;
 LIST CLBfinal = CLBfinal ; # because common num
+LIST PUNCT = PUNCT ;
 LIST Prs = Prs ;
 LIST Prt = Prt ;
 LIST Act = Act ;
@@ -78,6 +79,7 @@ LIST Ins = Ins ;   #!! * Ins
 LIST Com = Com ;   #!! * Com
 LIST SUBJ-CASE = Nom Par ;   #!! * SUBJ-CASE = Nom Par
 
+LIST CASE = Nom Gen Acc Par Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com ;	
 LIST Pos = Pos ;	
 LIST Comp = Comp ;
 LIST Superl = Superl ;	
@@ -195,7 +197,11 @@ REMOVE:PropInit Prop (*-1 BOS BARRIER WORD)  ((0 CC) OR (0 Pr LINK 1 N)) ;
 #!! * __PropNotInit__ selects  propernoun if it is not in the beginning of a sentence
 SELECT:PropNotInit Prop (NOT *-1 BOS BARRIER WORD) ;
 
+#!! Numeral phrases
 
+REMOVE:NomParNum Gen IF (0 Num + Nom)(1 Par);
+	## kaksi sannaa
+	
 
 #!! !Preposition/postposition/adverb rules
 
@@ -268,7 +274,18 @@ REMOVE:Sg3 Pl3 IF (0 Sg3)(NOT *0 Pl + Nom BARRIER Pl3);
 #!! !Elative
 
 
+#!! !!Verbs
 
+SELECT:eliV V IF (-1 Pron + Rel)(0 ("eli"))
+	## mies joka eli ...
+
+SELECT:eliCC CC IF (-2 $$CASE)(0 ("eli"))(1 $$CASE);
+	## mies eli jätkä
+SELECT:eliCC CC IF (-2 $$CASE)(-1 COMMA)(0 ("eli"))(1 $$CASE);
+	## mies eli jätkä
+SELECT:eliCC CC IF (-1 $$CASE)(0 ("eli"))(1 $$CASE);
+	## mies eli jätkä
+	
 #!! !!Adverbs
 
 SELECT:paljon Adv IF (0 ("paljon"))(NOT 1 Po);
