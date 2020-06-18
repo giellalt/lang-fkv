@@ -276,7 +276,9 @@ REMOVE:Sg3 Pl3 IF (0 Sg3)(NOT *0 Pl + Nom BARRIER Pl3);
 
 #!! !!Verbs
 
-SELECT:eliV V IF (-1 Pron + Rel)(0 ("eli"))
+	
+#!! !Specific verbs	
+SELECT:eliV V IF (-1 Pron + Rel)(0 ("eli")) ;
 	## mies joka eli ...
 
 SELECT:eliCC CC IF (-2 $$CASE)(0 ("eli"))(1 $$CASE);
@@ -325,7 +327,7 @@ SELECT:koko Pron IF (0 ("koko"))(1 N);
 
 REMOVE Attr IF (NOT 1 N);
 
-#!! !!Verb rules
+#!! !!Verb rules, Verbs
 
 #!! !Infinitive
 
@@ -338,13 +340,16 @@ REMOVE Imprt IF (-1 Sg + Nom)(0 Prs + Sg3) ;
 
 REMOVE N IF (-1 Sg + Nom)(0 ("vastata") + Sg3) ;
 
-#!! !!Present Pl3
+#!! !!Present Pl3 or Passive
 
-REMOVE Pass IF (0  Pl3)(*0 Pl3 + Nom OR Pl + Nom);
+REMOVE:Pl3NotPass Pass IF (0  Pl3)(*0 Pl3 + Nom OR Pl + Nom);
 
-REMOVE:Pl3 Sg3 IF (-1C Pl + Nom);
-REMOVE:Pl3 Sg3 IF (-1C Pl3 + Nom);
+REMOVE:SgJaSgNotPass Pass IF (-1 Sg + Nom LINK *-1 CC BARRIER NOT-NPMODADV LINK -1 Sg + Nom) ;
+REMOVE:Pl3 Sg3 IF (-1C Pl + Nom) ;
+REMOVE:Pl3 Sg3 IF (-1C Pl3 + Nom) ;
 
+REMOVE:PassNotPl3 Pl3 IF (NOT *0 Pl + Nom OR CC)(-1 Pl1 OR Pl2 OR Gen OR Par);
+	
 #!! * __Pl3ollaifplrelpronandplinterrpron__ selects Pl3 if olla
 SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ;
   #$ Nämät käskyt mikkä mie tääpänä annan sinule
