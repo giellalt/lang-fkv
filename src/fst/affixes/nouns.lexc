@@ -1503,6 +1503,22 @@ LEXICON x_32_et
 
            :hee         x_32_et_ts_common ;
 
+LEXICON n_32_et_2 !!= @CODE@ askel, kyynel, kannel
++N         :   x_32_et2 ;
+
+LEXICON x_32_et2
+  +Sg+Dial/Var+Nom:e^WG     K              ;
+  +Sg+Dial/-Var:e^WG        nom_t          ;
+  +Sg+Nom  :^WG             K              ; ! askel
+  +Sg      :e^WG%>t        par_tA         ; ! askeletta
+  +Sg      :^WG^E0         par_tA         ; ! askelta
+
+  +Pl+Dial/Var:he%>je      gen_n          ;
+  +Pl+Dial/Var:he%>j       par_A          ;
+  +Pl      :hee%>i2     com_ne         ;
+
+           :hee         x_32_et_ts_common ;
+
 LEXICON n_32_ut !!= @CODE@ vantut:vantutta:vantthuut
 +N         :   x_32_ut ;
 
