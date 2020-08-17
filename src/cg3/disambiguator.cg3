@@ -106,6 +106,16 @@ LIST Imprt = Imprt ; #!! * Imprt = Imperative
 LIST Act = Act ; #!! * Act = Active
 LIST Neg = Neg ; #!! * Neg = Negation verb
 
+
+LIST PxSg1 = PxSg1 ;
+LIST PxSg2 = PxSg2 ;
+LIST PxSg3 = PxSg3 ;
+LIST PxPl1 = PxPl1 ;
+LIST PxPl2 = PxPl2 ;
+LIST PxPl3 = PxPl3 ;
+
+LIST PX = PxSg1  PxSg2  PxSg3  PxPl1  PxPl2  PxPl3 ;	
+	
 LIST COMMA = "," ; #!! * COMMA = comma
 LIST Foc/han = Foc/han ;
 LIST Foc/kaan = Foc/kaan ; #!! * Foc/kaan = focus clitic -kaan
@@ -197,6 +207,15 @@ REMOVE:PropInit Prop (*-1 BOS BARRIER WORD)  ((0 CC) OR (0 Pr LINK 1 N)) ;
 #!! * __PropNotInit__ selects  propernoun if it is not in the beginning of a sentence
 SELECT:PropNotInit Prop (NOT *-1 BOS BARRIER WORD) ;
 
+
+#!! Possessive suffixes
+
+	# First we put rules to choose Px forms... (forthcomong)
+
+	# Then we remove the remaining Px
+REMOVE:NoPx PX ;
+
+	
 #!! Numeral phrases
 
 REMOVE:NomParNum Gen IF (0 Num + Nom)(1 Par);
@@ -287,6 +306,12 @@ SELECT:eliCC CC IF (-2 $$CASE)(-1 COMMA)(0 ("eli"))(1 $$CASE);
 	## mies eli jätkä
 SELECT:eliCC CC IF (-1 $$CASE)(0 ("eli"))(1 $$CASE);
 	## mies eli jätkä
+
+SELECT:eliCCforInf CC IF (*-1 Inf BARRIER VFIN)(1 Inf) ;
+	## saattaat realiserata strategian eli auttaat kveenin kielen kehittymistä
+	
+#SELECT:eliCCdef CC IF (-1 COMMA)(1 ("\""));
+SELECT:eliCCdef CC IF (-1 COMMA)(1 PUNCT);	
 	
 #!! !!Adverbs
 
@@ -306,6 +331,15 @@ REMOVE Prop IF (0 ("mutta"));
 REMOVE:CS CC IF (-1 BOS OR CC)(0 CS);
 #$ Jos mie nyt olen...
 
+#!! jos
+REMOVE:josNotCC CC IF (0 ("jos" CS));
+# Awaiting exaples with CC.
+	
+#!! ko	
+REMOVE:koNotCC CC IF (0 ("ko" CS));
+# Awaiting exaples with CC.
+	
+#!! sillä	
 SELECT CS IF (-1 BOS OR CLB)(0 ("sillä"))(NOT 1 V);
 #$ , sillä tarkoitus oli tulla.
 
