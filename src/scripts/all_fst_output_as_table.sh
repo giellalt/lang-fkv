@@ -15,6 +15,7 @@
  
  cat src/fst/stems/nouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/$/+N+Pl+Gen/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/TestiPlGen.xml
  
+ cat src/fst/stems/nouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/$/+N+Pl+Ine/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/TestiPlIne.xml
 
 
  cat src/fst/stems/propernouns.lexc |grep ";"|tr '\!' '£'| cut -d"£" -f1|sed 's/% /%_/g;'| tr '[+ ]' ':' |grep -v '_pl'|cut -d":" -f1| sort|uniq |sed 's/%_/ /g;'|sed 's/$/+N+Prop+Sg+Par/'|lookup src/generator-gt-norm-dial_Por.xfst| grep '\t'|rev|sort|rev|perl src/scripts/all_fst_output_as_table.pl > doc/testit/PropTestiSgPar.xml
