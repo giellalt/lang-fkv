@@ -1957,17 +1957,17 @@ LEXICON PxxK  !!= @CODE@ has also -Vn, thus both .. llensa and ..lleen.
 !  Px-Vn ;
 
 LEXICON Px
- +PxSg1:%>ni   K ;
- +PxSg2:%>sti  K ;
- +PxSg3:%>ns^A K ;
- +PxPl1:%>mm^A K ; ! NB! -m^A ei hoidettu
- +PxPl2:%>nn^A K ; ! NB! -n^A ei hoidettu
- +PxPl3:%>ns^A K ;
+ +PxSg1:%>ni   K "weight: 5.5" ;
+ +PxSg2:%>sti  K "weight: 5.5" ; 
+ +PxSg3:%>ns^A K "weight: 5.5" ;
+ +PxPl1:%>mm^A K "weight: 5.5" ; ! NB! m^A ei hoidettu
+ +PxPl2:%>nn^A K "weight: 5.5" ; ! NB! n^A ei hoidettu
+ +PxPl3:%>ns^A K "weight: 5.5" ;
 !
 !
 LEXICON Px-Vn
- +PxSg3:%>^Vn K ;
- +PxPl3:%>^Vn K ;
+ +PxSg3:%>^Vn K  "weight: 5.5" ;
+ +PxPl3:%>^Vn K  "weight: 5.5" ;
  
  !!!Closed parts of speech     !Testi                                                                                                                                        
 
