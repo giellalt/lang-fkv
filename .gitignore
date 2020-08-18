@@ -63,3 +63,6 @@ Makefile
 /tools/spellcheckers/filters/remove-usage-tags.regex
 /tools/spellcheckers/weights/*.clean.txt
 /tools/spellcheckers/easteregg.*
+/src/filters/remove-all_dialects_but_Jok-strings.regex
+/src/filters/remove-all_dialects_but_Por-strings.regex
+/src/filters/remove-all_dialects_but_Var-strings.regex
