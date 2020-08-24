@@ -3063,6 +3063,7 @@ pappi:pappi n_11_i ; ! vartalo = pappi, heikko vartalo = papi
 sirappi:sirappi n_21_odd_i ;
 tappi:tappi n_11_i ;
 etappi:etappi n_21_odd_i ;
+mylvarppi:mylvarppi n_21_odd_i ;
 lieppi:lieppi n_11_i ;
 keppi:keppi n_11_i ;
 partisippi+Err/Orth:partisiippi n_21 ;
@@ -5818,6 +5819,7 @@ feeriä:feeriä n_21_oi ;
 pahantekkiijä:pahan#tekkiijä n_21_oi_ÄÖ ;
 työntekkiijä:työn#tekkiijä n_21_oi_ÄÖ ;
 pölynimmiijä:pölynimmiijä n_21_oi_ÄÖ ;
+tomunimmiijä:tomunimmiijä n_21_oi_ÄÖ ;
 tekkiijä:tekkiijä n_21_oi_ÄÖ ;
 märehtiijä:märehtiijä n_21_oi ;
 eeskävijä:ees#kävijä n_21_oi_ÄÖ ;
@@ -6087,11 +6089,14 @@ taistelukenttä:taistelu#kenttä n_11_ae ;
 öljykenttä:öljy#kenttä n_11_ae ;
 lentämäkenttä:lentämä#kenttä n_11_ae ;
 heinäkenttä:heinä#kenttä n_11_ae ;
+rullauskenttä:rullaus#kenttä n_11_ae ;
 kenttä:kenttä n_11_ae ;
 turistihyttä:turisti#hyttä n_11_ae ; ! XXX check
 turistihyttä+Err/Orth:tyristi#hyttä n_11_ae ; ! XXX check
 hyttä:hyttä n_11_ae ;
 röyttäs:röytt2ä n_22_excns ;
+stryykiprättä:stryyki#prättä n_11_ae ;
+leikkoprättä:leikko#prättä n_11_ae ;
 prättä:prättä n_11_ae ;
 syöttä:syöttä n_11_ae ;
 hoitamapöytä:hoitama#pöytä n_11_ae ; 
