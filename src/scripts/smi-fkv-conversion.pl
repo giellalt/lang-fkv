@@ -15,8 +15,8 @@ BEGIN {
 use open qw( :encoding(UTF-8) :std );
 
 while(<>) {
-	# String substitutions:
-	s/đ+Use\/SpellNoSugg+N+Sem\/Sign+Use\/NG:đ ab-dot-noun-trab/!đ+Use\/SpellNoSugg+N+Sem\/Sign+Use\/NG:đ ab-dot-noun-trab/g ;
+    # String substitutions:
+    s/đ\+Use\/SpellNoSugg/!đ+Use\/SpellNoSugg/g ; 
 
 	my $line = $_;
 
