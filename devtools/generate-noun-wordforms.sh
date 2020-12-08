@@ -23,8 +23,13 @@ morf_codes="+N+Sg+Nom \
             +N+Sg+Gen \
             +N+Sg+Par \
             +N+Sg+Ill \
+            +N+Sg+Ine \
+            +N+Sg+Ela \
+            +N+Sg+All \
             +N+Sg+Ade \
+            +N+Sg+Abl \
             +N+Sg+Ess \
+            +N+Sg+Tra \
             +N+Pl+Nom \
             +N+Pl+Gen \
             +N+Pl+Par \
