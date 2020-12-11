@@ -26,6 +26,7 @@ do
  #  echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.xfst
     echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.hfstol
  done
+ rm -f $L_FILE
 done
 
 
