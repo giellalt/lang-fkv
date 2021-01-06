@@ -1,0 +1,100 @@
+
+fkv-kokous 6.1.21
+
+Paikalla Aili, Thomas, Trond
+
+!!!Asialista
+
+* Korpus
+* FST
+* Sanavarasto
+* Sanakirja
+* Muut asiat
+* Ensi kokous
+
+!!! Korpus
+
+!!Yksikieliset
+Tämän viikon aikana.
+
+!!Kaksikieliset
+Tämän viikon aikana.
+
+{{{
+uit-mac-443:freecorpus ttr000$ ll prestable/tmx/nob2fkv/*/*/* prestable/tmx/nob2fkv/*/* prestable/tmx/nob2fkv/*/*/*/*|grep 'tmx$'|wc -l
+     234
+uit-mac-443:freecorpus ttr000$ ll stable/tmx/nob2fkv/*/*/* prestable/tmx/nob2fkv/*/* prestable/tmx/nob2fkv/*/*/*/*|grep 'tmx$'|wc -l
+ls: stable/tmx/nob2fkv/*/*/*: No such file or directory
+     117
+}}}
+
+!!Korjaus korpukseen?
+
+Korpustekstin luovuttaja on lähettänyt tietoa, että tässä ja tässä on virheitä. Me emme voi manuaalisesti korjata, me tarvitaan uusia originaaleja.
+
+!!! FST
+
+Testit menevät aika hyvin.
+
+
+!!!Sanavarasto
+
+Sanat niin ko: ''syyskuu, joulukuu, tyttö'' (maholiset lainat suomen kielestä paikoissa missä oon enämen kontaktii Suomen kans) 
+
+# FST:ssä mutta Err/Orth (teemme sen tarvittaessa (nyt: 15 tyttö, 0 syyskuu))
+# FST:ssä ja hyväksytty (==> kirjoittaja ei saa punaista viivaa)
+# fkvnob-sanakirjassa (syyskuu => september (huom: septemberikuu)
+## tyttö lemma, mutta re-noodi: (<re>vanligere i finsk, kvensk = tytär</re>)
+# nobfkv-sanakirjassa (tähän vain jente => tytär, __eikä__ jente => tyttö)
+
+
+see tools/spellcheckers/words.default.txt
+
+{{{
+# Add complete words here as misspelling:correct followed by a TAB and the
+# weight:
+tyttö:tytär	2
+on:oon	2
+tua:tuođa	2
+ollut:ollu	2
+}}}
+
+!!! Sanakirja
+
+Idea: Lisät¨käyttöohje, josta tieto nobfkv- ja fkvnob-sanakirjojen eroista. (ja kunka niitä piethään). Piian mainita ette sanakirjat ei ole valmhiita.  
+
+Oma valikko "Meistä"-valikon oikealla puolella: "Sanakirjasta ja sen käytöstä". Palataan tähän.
+
+!!Esimerkkilauseet
+
+Esimerkkiselitykset esimerkissä.
+
+{{{
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="V">holde</t>
+...
+             <xg>
+               <x> Piđä sommaa! (til en person)</x>
+               <xt>Ha det moro!</xt>
+            </xg>
+             <xg>
+               <x> Piđäkkää sommaa! (til flere)</x>
+               <xt>Ha det moro!</xt>
+            </xg>
+...
+}}}
+
+
+!!! Muut asiat
+
+# Ensin korpus
+# Sitten sanakirja ja FST rinnakkain
+# Etsi korpustekstii mitä vailuthaan 
+# Kunka paljon muut piethään apuvälinheitä? (sanakirja ja oikheinkirjoitusprukrami) 
+
+!!!Ensi kokous
+
+Torstaina  21.1. klo 13.
+
+
