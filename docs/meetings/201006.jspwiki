@@ -11,12 +11,11 @@ Asialista
 
 
 
-
 !!!Kielitingan kokous
 Aili otti esille lainasanojen (epä)johdonmukainen kirjoitusasu, ja periaatteita sen suhteen
 
-''kyrssi, resurssi, bussi/byssi/pyssi''
-''fontteeni'', 
+kyrssi, resurssi, bussi/byssi/pyssi
+fontteeni
 
 * Kielitingan uusi päätös: perintö -> perinöitä 
 * Tähän asti: perintö -> perinttöi
@@ -25,8 +24,10 @@ Huom!
 {{{
 +Pl+Par:^WG%it^A # ;
 +Pl+Par+Err/Orth:%i # ;  ! Ei saa poistaa, vaan err/orthata
-}}}
+
 +Pl+Par+Use/NG:%i # ; ! myös oikein
+}}}
+
 
 # Kirjoittaa kuten äännetään
 # Kirjoittaa niin, että nähdään, onko lainasana vai ei
@@ -49,20 +50,19 @@ Tehtävänä:
 
 !!!nds
 
-Voiko nähhä lähtheet'?
+Voiko nähhä lähtheet?
 Vastaus on "kyllä".
 
 # lähde on xml-tiedostossa (mutta kaipaa hioamista
 # kuinka pittäät näyttäät lähet mailmale (ta = ?, ...)
 # miten näyttää se (esim oikella: "Lähde" -- ja lähde on klikkauksen takana)
 
-
+{{{
 tf4-hsl-m0024:dicts trond$ cat fkvnob/src/*.xml|grep '<e'|wc -l
     9585
 tf4-hsl-m0024:dicts trond$ cat fkvnob/src/*.xml|grep '<e src="[^"]'|wc -l
     9585
 
-{{{
 cat fkvnob/src/*.xml|grep '<e'|cut -d'"' -f2|tr ';' '\n'|sort|uniq -c|sort -nr
 5206 ai = sana aittaa = Sana-aitta
 4668 ta = Terje Aronsen = 

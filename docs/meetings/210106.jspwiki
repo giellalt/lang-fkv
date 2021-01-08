@@ -39,6 +39,7 @@ Testit menevät aika hyvin.
 
 !!!Sanavarasto
 
+{{{
 Sanat niin ko: ''syyskuu, joulukuu, tyttö'' (maholiset lainat suomen kielestä paikoissa missä oon enämen kontaktii Suomen kans) 
 
 # FST:ssä mutta Err/Orth (teemme sen tarvittaessa (nyt: 15 tyttö, 0 syyskuu))
@@ -50,7 +51,7 @@ Sanat niin ko: ''syyskuu, joulukuu, tyttö'' (maholiset lainat suomen kielestä 
 
 see tools/spellcheckers/words.default.txt
 
-{{{
+
 # Add complete words here as misspelling:correct followed by a TAB and the
 # weight:
 tyttö:tytär	2
@@ -61,7 +62,7 @@ ollut:ollu	2
 
 !!! Sanakirja
 
-Idea: Lisät¨käyttöohje, josta tieto nobfkv- ja fkvnob-sanakirjojen eroista. (ja kunka niitä piethään). Piian mainita ette sanakirjat ei ole valmhiita.  
+Idea: Lisät käyttöohje, josta tieto nobfkv- ja fkvnob-sanakirjojen eroista. (ja kunka niitä piethään). Piian mainita ette sanakirjat ei ole valmhiita.  
 
 Oma valikko "Meistä"-valikon oikealla puolella: "Sanakirjasta ja sen käytöstä". Palataan tähän.
 
