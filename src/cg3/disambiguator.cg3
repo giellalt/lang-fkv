@@ -181,8 +181,16 @@ REMOVE:dyn  Arab (0 Prop) ; # foreløpig løsning, til vi har ny løsning for nu
 SECTION
 #!! !!Disambiguation rules
 
+#!! !Dialects
+
+REMOVE:NotVar (Dial/Var);
+REMOVE:NotJok (Dial/Jok);
+
 #!! !Early rules
 # SELECT:Dummyrule WORD IF (0 WORD) ;
+
+#!! 
+REMOVE:on ("o") IF (0 ("olla"));
 
 #!! * __person_test__ selects finite verb if there is a Pron Pers to the left
 SELECT:person_test VFIN IF (-1 Pers) ; # exempel
@@ -292,6 +300,10 @@ REMOVE:Sg3 Pl3 IF (0 Sg3)(NOT *0 Pl + Nom BARRIER Pl3);
 
 #!! !Elative
 
+#!! !!Propernouns
+
+SELECT:Bulle Nom IF (0 ("Bulle"));
+# not Bu +N+Prop+All
 
 #!! !!Verbs
 
@@ -300,18 +312,23 @@ REMOVE:Sg3 Pl3 IF (0 Sg3)(NOT *0 Pl + Nom BARRIER Pl3);
 SELECT:eliV V IF (-1 Pron + Rel)(0 ("eli")) ;
 	## mies joka eli ...
 
-SELECT:eliCC CC IF (-2 $$CASE)(0 ("eli"))(1 $$CASE);
+SELECT:eliCC CC IF (-1 $$CASE)(0 ("eli"))(1 $$CASE);
 	## mies eli jätkä
 SELECT:eliCC CC IF (-2 $$CASE)(-1 COMMA)(0 ("eli"))(1 $$CASE);
 	## mies eli jätkä
 SELECT:eliCC CC IF (-1 $$CASE)(0 ("eli"))(1 $$CASE);
 	## mies eli jätkä
 
+#!! eli
+
+SELECT:eliCCb CC IF (-1 N + Sg + Nom)(0 ("eli"))(1 N + Sg + Nom);
+	     ## kunta eli kommuuni
+
 SELECT:eliCCforInf CC IF (*-1 Inf BARRIER VFIN)(1 Inf) ;
 	## saattaat realiserata strategian eli auttaat kveenin kielen kehittymistä
 	
-#SELECT:eliCCdef CC IF (-1 COMMA)(1 ("\""));
-SELECT:eliCCdef CC IF (-1 COMMA)(1 PUNCT);	
+
+SELECT:CCdef CC IF (-1 COMMA)(1 PUNCT);	
 	
 #!! !!Adverbs
 
@@ -323,9 +340,16 @@ SELECT:jälkhiin Adv IF (-1 Par)(0 ("jälkhiin"));
 
 SELECT:miksi Adv IF (0 ("miksi"))(NOT 1  Tra);	
 
+
+#!! !!Adjectives
+
+SELECT:eriNom A + Nom IF (0 ("eri") + Sg + Nom)(1 N + Sg + Nom);
+SELECT:eriPar A + Par IF (0 ("eri") + Sg + Par)(1 N + Sg + Par);
+
 #!! !! Conjunctions
 
 REMOVE Prop IF (0 ("mutta"));
+
 
 #!! !!Subjunctions
 REMOVE:CS CC IF (-1 BOS OR CC)(0 CS);
