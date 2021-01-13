@@ -7,6 +7,7 @@
 !+A+Sg+Superl+D_Por:
 !+A+D_Por+Sg+Superl:
 
+
 LEXICON a_x  != * @CODE@ contains unclassified adjectives.
 +A+Sg       : nom_end ;
 
@@ -113,8 +114,10 @@ LEXICON VAPAA !Poikkeuksellinen. Katso s.172-173 norjankielisessä grammatiikiss
 !+A+Pl+Superl+Gen:hai%>m%>itten K ; !Variaatio? Ei ainakaan dial.
 
 LEXICON IRTI !taipumattomat partikkelit, irti, ensi, viimi, eri.
-+A+Sg      : nom_end ;
++A+Attr: # ;
 
+LEXICON VAITI
++A+Sg+Nom: # ;
 
 LEXICON vanha_nocomp_a_21  !!= * @CODE@
 +A:           x_11_A0_A2I         ;
