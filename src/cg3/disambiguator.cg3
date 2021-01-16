@@ -38,6 +38,7 @@ LIST V = V ;  #!! * V = verb
 LIST CC = CC ; #!! * CC = conjunction
 LIST CS = CS ; #!! * CS = subjunction
 LIST Adv = Adv ; #!! * Adv = adverb
+LIST Pcle = Pcle ; #!! * Pcle = particle
 LIST Pr = Pr ;  #!! * Pr = preposition
 LIST Po = Po ;  #!! * Po = postposition
 LIST Pron = Pron ; #!! * Pron = pronoun
@@ -47,6 +48,7 @@ LIST CLBfinal = CLBfinal ; # because common num
 LIST PUNCT = PUNCT ;
 LIST Prs = Prs ;
 LIST Prt = Prt ;
+LIST Ind = Ind ;
 LIST Act = Act ;
 LIST Pass = Pass ;
 
@@ -128,6 +130,7 @@ LIST Arab = Arab ;
 
 LIST CURRENCY = "dinaari" "dollari" "euro" "kruunu" "kr" "rupla" "rubel" "¢" "€" "$";
 	
+SET QNUM = Num - ("yksi") - ("1") - Sem/ID ;
 
 #!! !!Sets with more members
 # ====
@@ -177,6 +180,7 @@ SELECT:Arab Arab IF (NOT 0 Ord OR Prop OR Arab + Err/Orth) ; # In Apertium we ge
 
 REMOVE:dyn  Arab (0 Prop) ; # foreløpig løsning, til vi har ny løsning for numerals.lexc
 	
+REMOVE:Maria ("Mar") IF (0 ("Mari") OR ("Maria"));
 
 SECTION
 #!! !!Disambiguation rules
@@ -193,7 +197,11 @@ REMOVE:NotJok (Dial/Jok);
 REMOVE:on ("o") IF (0 ("olla"));
 
 #!! * __person_test__ selects finite verb if there is a Pron Pers to the left
-SELECT:person_test VFIN IF (-1 Pers) ; # exempel
+#SELECT:person_test VFIN IF (-1 Pers) ; # exempel
+
+SELECT:Sg3IfSubj V + Sg3 IF (-1 Pron + Sg3 + Nom OR N + Sg + Nom); 
+SELECT:Sg2IfSubj V + Sg2 IF (-1 Pron + Sg2 + Nom);
+SELECT:Sg1IfSubj V + Sg1 IF (-1 Pron + Sg1 + Nom);
 
 #!! * __adv_after_V__ selects adverb if there is a verb to the right
 SELECT:adv_after_V Adv IF (-1 V)
@@ -276,8 +284,11 @@ SELECT:häntä Par IF (-1 V)(0 ("häntä"));
 REMOVE:ParNotImprt Imprt IF (0 Par)(*1 Neg);
 #€ Viimi aikhoin heitä ei ole näkyny ollenkhaan.
 
+SELECT:ParNP Sg + Par IF (-1C Sg + Par)(-2 QNUM);
+
 SELECT Pron IF (-1 V)(0 ("tet") + Pl + Par)(1 V);
 
+SELECT:QPar Sg + Par IF (-1C QNUM)(NOT 0 Prop);
 
 #!! Genitive
 
@@ -309,6 +320,14 @@ SELECT:Bulle Nom IF (0 ("Bulle"));
 
 	
 #!! !Specific verbs	
+
+
+#!! ei negation verb
+
+SELECT:en Neg + Sg1 ; # en is not Gen of e.
+
+#!! eli
+
 SELECT:eliV V IF (-1 Pron + Rel)(0 ("eli")) ;
 	## mies joka eli ...
 
@@ -319,10 +338,10 @@ SELECT:eliCC CC IF (-2 $$CASE)(-1 COMMA)(0 ("eli"))(1 $$CASE);
 SELECT:eliCC CC IF (-1 $$CASE)(0 ("eli"))(1 $$CASE);
 	## mies eli jätkä
 
-#!! eli
-
 SELECT:eliCCb CC IF (-1 N + Sg + Nom)(0 ("eli"))(1 N + Sg + Nom);
 	     ## kunta eli kommuuni
+
+SELECT:eliCCc CC IF (0 ("eli"))(*0 Prs); # Idea: Prt "eli" with tense agreement in sentence
 
 SELECT:eliCCforInf CC IF (*-1 Inf BARRIER VFIN)(1 Inf) ;
 	## saattaat realiserata strategian eli auttaat kveenin kielen kehittymistä
@@ -332,9 +351,15 @@ SELECT:CCdef CC IF (-1 COMMA)(1 PUNCT);
 	
 #!! !!Adverbs
 
+REMOVE:AdvNotPcle Pcle IF (0 Adv)(NOT 1 CLB OR EOS);
+
+#!! !paljon
 SELECT:paljon Adv IF (0 ("paljon"))(NOT 1 Po);
+
+#!! !kerran
 SELECT:kerran Adv IF (0 ("kerran"))(1 VFIN);
 
+#!! !jälkhiin
 SELECT:jälkhiin Adv IF (-1 Par)(0 ("jälkhiin"));
 
 
@@ -355,10 +380,18 @@ REMOVE Prop IF (0 ("mutta"));
 REMOVE:CS CC IF (-1 BOS OR CC)(0 CS);
 #$ Jos mie nyt olen...
 
+
+#!! että
+
+SELECT:ettaPl2 Neg + Pl2 IF (-1 Pl2 OR CS)(1 ConNeg);
+SELECT:ettaCS CS IF (0 ("että"));
+
 #!! jos
 REMOVE:josNotCC CC IF (0 ("jos" CS));
-# Awaiting exaples with CC.
-	
+# Awaiting examples with CC.
+
+REMOVE:josNotProp Prop IF (0 ("jos" CS));	
+# Awaiting examples with Jos.
 #!! ko	
 REMOVE:koNotCC CC IF (0 ("ko" CS));
 # Awaiting exaples with CC.
@@ -402,7 +435,9 @@ REMOVE Imprt IF (-1 Sg + Nom)(0 Prs + Sg3) ;
 
 REMOVE N IF (-1 Sg + Nom)(0 ("vastata") + Sg3) ;
 
+
 #!! !!Present Pl3 or Passive
+
 
 REMOVE:Pl3NotPass Pass IF (0  Pl3)(*0 Pl3 + Nom OR Pl + Nom);
 
@@ -411,6 +446,17 @@ REMOVE:Pl3 Sg3 IF (-1C Pl + Nom) ;
 REMOVE:Pl3 Sg3 IF (-1C Pl3 + Nom) ;
 
 REMOVE:PassNotPl3 Pl3 IF (NOT *0 Pl + Nom OR CC)(-1 Pl1 OR Pl2 OR Gen OR Par);
+
+REMOVE:CoordPl3a Pass IF (-1 Sg + Nom LINK -1 CC LINK -1 Sg + Nom)(0 Prs + Pl3);
+REMOVE:CoordPl3b Pass IF (-1 CC LINK *-1 Sg + Nom LINK -1 CC LINK -1 Sg + Nom)(0 Prs + Pl3);
+
+REMOVE:PassNotPl3Rel Pl3 IF (-1 Rel + Gen);
+#$ 		    
+
+
+#!! Imperative
+
+REMOVE:NotImprtIfLeft Imprt IF (-1 Rel OR Interr OR A OR N OR Ind);
 	
 #!! * __Pl3ollaifplrelpronandplinterrpron__ selects Pl3 if olla
 SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ;
@@ -549,6 +595,8 @@ REMOVE:ImperativeafterNeg Imprt IF (0 Pron)(*-1 Neg BARRIER WORD - Foc/kaan - Ad
 #REMOVE:differencebetweenfunctionalsubjunctionandtemporalsubjuntion CS IF (CS + ("ko")
 
 #SELECT:ConNeg ConNeg IF (-1 Neg);
+
+REMOVE:NoErrOrth Err/Orth ;
 
 #!! * __interrel__ selects Interr of Rel if CS to the right
 SELECT:interrel Interr OR Rel (1 CS) ; # Ei anna mithään?
