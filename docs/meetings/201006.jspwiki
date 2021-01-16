@@ -1,17 +1,16 @@
-fkv-kokous 6.10
+fkv-kokous 06.10.2020
 
-Paikalla Aili, Thomas, Trond
+Paikalla: Aili, Thomas, Trond
 
-Asialista
+!!!Asialista
 
 * Kielitingan ja kääntäjien kokous
 * Rinnakkaiskorpus
 * nds
 * fst
 
-
-
 !!!Kielitingan kokous
+
 Aili otti esille lainasanojen (epä)johdonmukainen kirjoitusasu, ja periaatteita sen suhteen
 
 kyrssi, resurssi, bussi/byssi/pyssi
@@ -33,6 +32,7 @@ Huom!
 # Kirjoittaa niin, että nähdään, onko lainasana vai ei
 
 !!!Kääntäjien kokous
+
 Ne pitää lähettää Kainun instituuttiin (osoitteena vai
 
 
@@ -42,10 +42,12 @@ Piian Børre saattaa auttaat? Pittäät uuen möötin Tromssassa.
 
 Tehtävänä:
 
+{{{
 * Trond puhuu Börren kanssa + katso korpusta
 * Järjestetään opetus jossakin, jollain tavalla
 * Aili ja Thomas lukevat dokumentaatiota ennen opetusta ([https://giellalt.uit.no/ling/corpusindex.html], erityisesti [https://giellalt.uit.no/ling/CorpusTools.html])
 * Institutti järjestää dropboksin tai s-osoitteen, johon kääntäjät voivat lähettää tiedostoja
+}}}
 
 
 !!!nds
@@ -53,11 +55,11 @@ Tehtävänä:
 Voiko nähhä lähtheet?
 Vastaus on "kyllä".
 
+{{{
 # lähde on xml-tiedostossa (mutta kaipaa hioamista
 # kuinka pittäät näyttäät lähet mailmale (ta = ?, ...)
 # miten näyttää se (esim oikella: "Lähde" -- ja lähde on klikkauksen takana)
 
-{{{
 tf4-hsl-m0024:dicts trond$ cat fkvnob/src/*.xml|grep '<e'|wc -l
     9585
 tf4-hsl-m0024:dicts trond$ cat fkvnob/src/*.xml|grep '<e src="[^"]'|wc -l
@@ -123,8 +125,8 @@ pii     rivetind
             <t pos="N">gjestebud</t>
 }}}
 
-#Tarkistaa merkitykset ja muuta järjestyksen sen jälkhiin 
-#sanat pittää olla samala tarkkuuela: 
+# Tarkistaa merkitykset ja muuta järjestyksen sen jälkhiin 
+# sanat pittää olla samala tarkkuuela: 
 
 {{{
          <l pos="N">plaana</l>
@@ -137,7 +139,7 @@ pii     rivetind
             <t pos="N">åpen plass</t>    
 }}}
 
-#Tarkista mitä sana tarkoittaa norjaksi: 
+Tarkista mitä sana tarkoittaa norjaksi: 
 
 {{{
    <e src="ai">
@@ -151,7 +153,6 @@ pii     rivetind
       </mg>
    </e>
 }}}
-
 
 
 
