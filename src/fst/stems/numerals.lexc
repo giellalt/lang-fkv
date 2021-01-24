@@ -33,8 +33,17 @@ nelje+Num:nelj         NUM_NELJÄ ;
 viisi+Num:vii          NUM_VIISI ;
 kuusi+Num:kuu          NUM_KUUSI ;
 seittemen+Num+Err/Orth:seitsem  NUM_YHDEKSÄN ;
+seittemen+Num+Err/Orth:seitsem  NUM_ÄN ;
+seittemen+Num+Err/Orth:seittem  NUM_ÄN ;
 seittemen+Num:seittem  NUM_YHDEKSÄN ;
-kahđeksen+Num:kahđeks  NUM_KAHDEKSAN ;
+kahđeksen+Num+Err/Orth:kahdeks  NUM_AN ;
+kahđeksen+Num+Err/Orth:kahđeks  NUM_AN ;
+kahđeksen+Num+Err/Orth:kaheks   NUM_AN ;
+kahđeksen+Num+Err/Orth:kaheksa       K ;
+kahđeksen+Num:kahđeks    NUM_KAHDEKSAN ;
+yhđeksen+Num+Err/Orth:yhđeks NUM_ÄN ;
+yhđeksen+Num+Err/Orth:yheks  NUM_ÄN ;
+yhđeksen+Num+Err/Orth:yheksä      K ;
 yhđeksen+Num:yhđeks    NUM_YHDEKSÄN ;
 kymmenen+Num:kymmen    NUM_KYMMENEN ;
 sata+Num:sa            NUM_SATA ;
@@ -541,6 +550,12 @@ LEXICON NUM_YHDEKSÄN
 0       NUM_FRONT_PLURALS ;
 0       NUM_FRONT_STRONG_PLURALS_NN ; 
 0       NUM_FRONT_WEAK_PLURALS_LL ;
+
+LEXICON NUM_ÄN
+0:än    NUM_FRONT_NOMINATIVE ;
+
+LEXICON NUM_AN
+0:an    NUM_FRONT_NOMINATIVE ;
 
 LEXICON NUM_KYMMENEN
 !!€gt-norm: Numerals 32
