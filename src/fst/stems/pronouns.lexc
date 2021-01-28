@@ -13,7 +13,7 @@ LEXICON Pronoun
 
 mie+Pron+Pers+Sg1:m        12pronsg       ; !!= * @CODE@
 mie+Pron+Pers+Sg1+Use/NG:m 12pronsg_short ; !!= * @CODE@
-mie+Err/Orth:mä                   K       ; 
+mie+Pron+Pers+Sg1+Err/Orth:mä      K      ; 
 sie+Pron+Pers+Sg2:s        12pronsg       ; !!  * ...
 sie+Pron+Pers+Sg2+Use/NG:s 12pronsg_short ; !!= * @CODE@
 hän+Pron+Pers+Sg3:hän      han_pron       ;
@@ -35,7 +35,7 @@ net+Pron+Pers+Pl3+Gen+Err/Orth:niinen  K  ;
 !! Demonstratiivipronominit
 tämä+Pron+Dem:tä            tama_pron ;
 tuo+Pron+Dem:tuo            tuo     ;
-tuo+Err/Orth:tuoi           K ; 
+tuo+Pron+Dem+Err/Orth:tuoi  K       ; 
 se+Pron+Dem+Sg:             se_pron ;
 nämät+Pron+Dem+Pl+Nom:nämät K       ;
 nämät+Pron+Dem:näi       namaobl ;
@@ -116,6 +116,8 @@ joka+Pron+Qu+Attr:joka                  # ;
 ainua+Pron+Qu:ainu                      ainut_kvant ;
 
 itte+Pron+Qu:itt                        itte_kvant ;
+itte+Pron+Qu+Nom+Err/Orth:itse          K ; 
+itte+Pron+Refl+Sg+Err/Orth:itseni       K ;
 kukin+Pron+Qu:ku                        kukin_kvant ;
 kekin+Pron+Qu:ke                        kekin_kvant ;
 kukanen+Pron+Qu:kuka                    toisen ;
