@@ -59,6 +59,7 @@ LIST Abbr = Abbr ;
 LIST Refl = Refl ;
 LIST PrsPrc = PrsPrc ;
 
+
 LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" ; 
 LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" "," ; 
 LIST CS = CS ; 
@@ -117,6 +118,10 @@ LIST Tra = Tra ;   #!! * Tra
 LIST Ins = Ins ;   #!! * Ins
 LIST Com = Com ;   #!! * Com
 LIST SUBJ-CASE = Nom Par ;   #!! * SUBJ-CASE = Nom Par
+
+LIST ADVLCASE = Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com ;
+LIST ADVLCASEAdv = Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com Adv ;
+LIST LOCCASE = Ine Ill Ela Ade All Abl ;
 
 LIST CASE = Nom Gen Acc Par Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com ;	
 LIST Pos = Pos ;	
@@ -306,9 +311,23 @@ LIST PX = PxSg1  PxSg2  PxSg3  PxPl1  PxPl2  PxPl3 ;
 LIST COMMA = "," ; #!! * COMMA = comma
 LIST COLON = ":" ;
 LIST Punct = Punct ;
+
+LIST Foc/kin = Foc/kin ;
+LIST Foc/ka = Foc/ka ;
+LIST Foc/pa = Foc/pa ;
 LIST Foc/han = Foc/han ;
 LIST Foc/kaan = Foc/kaan ; #!! * Foc/kaan = focus clitic -kaan
+LIST Foc/s = Foc/s ;
+LIST Foc/pas = Foc/pas ;
+
 LIST Sem/Fem = Sem/Fem ; #!! * Sem/Fem = feminin propernoun
+LIST Sem/ID = Sem/ID ;
+LIST Sem/Time = Sem/Time ;
+
+
+
+
+
 LIST @CVP = @CVP ; # !! * @CVP = Conjunction or subjunction that conjoins finite verb phrases.
 LIST @CNP = @CNP ; # !! * @CNP = Local conjunction or subjunction.
 
@@ -319,8 +338,9 @@ LIST QUOTE = Quote ;
 LIST QUO = "<">" ; 
 
 LIST OM = >>> """ "“" ;
-LIST OMS = >>> """ ":" ";" "“" ;
+LIST OMS = >>> """ ":" ";" "“" ; # "
 
+LIST Sem/Adr = Sem/Adr ;
 LIST Sem/ID = Sem/ID ;
 LIST Arab = Arab ;
 
@@ -405,10 +425,10 @@ SET CP = Interr OR Rel OR QWords OR JOS_KUN_KOSKA_VAIKKA;
 
 SET NP-BOUNDARY = BOS OR EOS OR CLB OR VFIN OR InfA23 OR Act + Ess OR ConNeg OR PCP OR PPRON-NOT-GEN OR Po OR Pr OR Pcle OR CS OR CP ; # Removed VGen, Recipr, "jed", Interj
 
-SET S-BOUNDARY  = Interr OR Rel OR ("miksi") OR ("mutta") OR ("sitten") + CC OR QWords OR (";") OR (":") OR ("-") OR ("–") OR CS OR ("eikä") OR KUNKA OR @CVP ; #!! * S-BOUNDARY = words that start a sentence
-
-SET S-BOUNDARY1  = Interr OR Rel OR ("miksi") OR ("mutta") OR ("sitten") + CC OR QWords OR (";") OR (":") OR ("-") OR ("–") ;
+SET S-BOUNDARY1 = Interr OR Rel OR ("miksi") OR ("mutta") OR ("sitten") + CC OR QWords OR (";") OR (":") OR ("-") OR ("–") ;
 SET S-BOUNDARY2 = Interr OR Rel OR ("miksi") OR ("mutta") OR ("sitten") + CC OR QWords OR (";") OR (":") OR ("-") OR ("–") OR (@CVP) ;
+SET S-BOUNDARY  = Interr OR Rel OR ("miksi") OR ("mutta") OR ("sitten") + CC OR QWords OR (";") OR (":") OR ("-") OR ("–") OR (@CVP) OR CS OR ("eikä") OR KUNKA ; #!! * S-BOUNDARY = words that start a sentence
+
 
 
 
@@ -693,6 +713,21 @@ SET VPl3 = V + Pl3 ;
 SET SGAGR = VSg1 OR VSg2 OR VSg3 ;
 SET PLAGR = VPl1 OR VPl2 OR VPl3 ;
 SET ALL_PLPRON = PLPRON OR SGAGR OR N + Pl ;
+
+# Coordinators
+# ------------
+SET Foc = Foc/han  OR Foc/kaan  OR Foc/kin  OR Foc/pa  OR Foc/s OR Foc/pas ;
+
+LIST NEGFOC = (Neg Foc/kaan) ;
+
+LIST XGO = "niinko" ;
+  # Compounds
+
+
+SET CRD = @CNP OR COMMA OR NEGFOC OR XGO OR ("/") OR ("-")  ;
+    # AFTER LCRD vs. GCRD disambiguation
+
+
 
 
 
@@ -1501,7 +1536,7 @@ REMOVE N IF (0 Ensimmainen + $$ALLCASES)(1 A + $$ALLCASES);
 # ------------- 
 
 # Mostly same as sme rule, but removed (0 ("orrut")); is it worth including copulas here? Finnish doesn't quite have quite the same here
-MAP (@+FMAINV) TARGET VFIN IF (NEGATE *0 VERB BARRIER S-BOUNDARY2 OR CC) ;
+MAP (@+FMAINV) TARGET VFIN IF (NEGATE *0 VFIN BARRIER S-BOUNDARY OR CC OR COMMA) ;
 
 #!! * __+FMAINV__  to the remaining finite verbs which are not AUX    
 MAP:+FMAINV (@+FMAINV) TARGET VFIN-NOT-AUX (NOT 0 V + OBJ OR V + SUBJ OR V + @ADVL OR (V @>N) OR (V @N<))(NEGATE *0 VFIN-NOT-AUX OR @+FMAINV BARRIER S-BOUNDARY OR COMMA OR LEFT OR RIGHT) (NEGATE *-1 (V @>N) BARRIER NOT-A OR LEFT)
@@ -1643,8 +1678,58 @@ MAP (@<P) TARGET PRON_PR_CASE IF (*-1 Pr BARRIER Pr) ;
 MAP (@<ADVL @LOC) TARGET LOC-CASE (-1 VSg3 + Act + Ind + Prt) ;
 MAP (@SUBJ>) TARGET Par (1 VSg3) (*1 @<ADVL) ;
 
-MAP:AllAdvl (@<ADVL) TARGET LOC-CASE IF (*-1 VFIN);
-MAP:AllAdvl (@ADVL>) TARGET LOC-CASE IF (*1 VFIN);
+MAP:AllAdvl (@<ADVL) TARGET LOC-CASE OR Tra OR Ess OR Com IF (*-1 VFIN);
+MAP:AllAdvl (@ADVL>) TARGET LOC-CASE OR Tra OR Ess OR Com IF (*1 VFIN);
+
+
+# Stray NP HNOUN mapping
+
+#!! !!HNOUN MAPPING
+
+MAP:hnounNom (@HNOUN) TARGET NP-HEAD-NOM - A OR (Num Nom) 
+(NEGATE *0 V BARRIER (":"))(NEGATE *-1 PUNCT BARRIER (":") LINK -1 WORD) 
+;
+
+MAP:hnounNom (@HNOUN) TARGET A OR (Num Nom) (*-1 BOS BARRIER WORD)(*1 EOS BARRIER WORD) ;
+
+
+MAP:HNOUN<advl (@<SPRED) TARGET Sem/Adr (-1 (":") LINK -1 Nom) ;
+	#$ Fiskes, rukses, alit, ruoná ja muđui buotlágaš ivnnit.
+	#$ Bargolávdegotti bargu: Álgobargu lei čielggadit min mandáhta.
+
+MAP:hnounAdvl (@HNOUN) TARGET ADVLCASE OR Acc (NEGATE *0 REAL-V OR @HNOUN) ;
+	#$ Juoba ge dán áigodagas.
+MAP:hnounInterj (@HNOUN) TARGET Acc (*-1 Interj BARRIER NOT-NPMOD) ;
+
+#!!	* __ADVLheadliner__	
+MAP:ADVLheadliner (@ADVL>) TARGET ADVLCASE OR Sem/Time (*1 @HNOUN) ;	
+	#$ Vuosttaš geasi nissonolmmoš bajimusas.
+
+
+MAP:HNOUNn< (@N<) TARGET ADVLCASEAdv (*-1 @HNOUN BARRIER CRD OR (":") OR LEFT LINK NOT 0 Num OR Pron)(NEGATE 0 Sem/Plc + LOCCASE LINK -1 Superl) ;
+MAP:HNOUNn< (@N<) TARGET ADVLCASEAdv (-1 CRD LINK -1 @N<)(1 EOS) ;
+MAP:HNOUN<advl (@<ADVL) TARGET ADVLCASEAdv (*-1 @HNOUN BARRIER CRD OR (":")) ;
+MAP:advl>HNOUN (@ADVL>) TARGET ADVLCASEAdv (*1 @HNOUN BARRIER CRD OR (":")) ;
+MAP:HNOUN<obj (@<OBJ) TARGET Acc (*-1 @HNOUN) ;
+	#% Birasgáhttenlihkadus ja álgoálbmogat - ovttasbargit vai vuostálágaid?
+MAP:obj>HNOUN (@OBJ>) TARGET Acc (*1 @HNOUN) ;
+MAP:HNOUN<spred1 (@<SPRED) TARGET (A Nom) (*-1 @HNOUN) ;
+	#$ Dii guoktilaččat!
+MAP:spred>HNOUN (@SPRED>) TARGET (A Nom) (*1 @HNOUN) ;
+MAP:HNOUN<spred2 (@<SPRED) TARGET (A Nom) OR (N Nom) (*-1 PUNCT BARRIER REAL-V LINK *-1 @HNOUN) ;
+	#$ Birasgáhttenlihkadus ja álgoálbmogat – ovttasbargit vai vuostálagaid?
+MAP:HNOUN<spred3 (@<SPRED) TARGET (N Ess) (*-1 Nom BARRIER V) ;
+	#$ Mu dárkileamos muittut internáhttaskuvllas leat dán áigodagas; 10 vuosttaš jagi álbmot- ja joatkkaskuvlla (framhaldskuvlla) oahpaheaddjin, ja muhtin áigodagaid internáhttahoavdan, 12 maŋimus jagi nuoraidskuvlla jođiheaddjin ja eanaš oahppit orro internáhtas.
+MAP:HNOUNcoor (@HNOUN) TARGET N (-1 @CNP LINK -1 @HNOUN) ;
+	#$ Oslos ja Londonis.
+
+MAP (@ADVL) TARGET Adv (-1 BOS) ;
+#!! * __@<ADVLcoor__ (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
+MAP:@<ADVLcoor (@<ADVL) TARGET ADVLCASEAdv (-1 @CNP LINK -1 ADVLCASEAdv) ;
+	#$ Odne vai ihttin?
+
+	#$ Báhpaeamit, Margrethe Wiig, gii lei gasku giellamoivvi, ráhkadii iežas sárgumiiguin sámegiela Áppesa, mii lei stuorra ávkin sámegiela oahpahusas.
+
 
 
 # Currently this is tied to a subject and adverbial
