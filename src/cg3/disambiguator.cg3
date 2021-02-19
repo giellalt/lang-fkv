@@ -1,8 +1,9 @@
-# cat fkvtext_analysed.txt | lookup2cg | vislcg3 -g disambiguation.cg3 -t
-# echo 'sentence' | preprocess | lookup -flags mbTT 1.fst | lookup2cg|vislcg3 -g ../../syntax/1_disambiguation.cg3
+# Usage:
+# cat text.txt|hfst-tokenize -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3
+
 
 #   ============================ #
-#!! !!!Start making a syntactic disambiguator
+#!! !!!Disambiguator for Kven
 #   ============================ #
 
 #!! !!Sets
@@ -1373,6 +1374,7 @@ MAP (@N<) TARGET Num IF (-1 N) ;
 MAP (@N<) TARGET ("itse") IF (-1 Pron) (0 $$ALLCASES) (-1 $$ALLCASES) ;
 
 MAP (@>N) TARGET N + Gen IF (-1C CS)(1 N);
+MAP (@>N) TARGET N + ABBR IF (1 N);
 
 # Mapping subjects and objects
 # ----------------------------
