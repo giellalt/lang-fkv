@@ -56,7 +56,7 @@ LIST Ind = Ind ;
 LIST Act = Act ;
 LIST Pass = Pass Pss ;
 LIST ActPass = Act Pass Pss ;
-LIST Abbr = Abbr ;
+LIST ABBR = Abbr ABBR ;
 LIST Refl = Refl ;
 LIST PrsPrc = PrsPrc ;
 
@@ -451,15 +451,15 @@ SET NP-HEAD-ACC    = Pron + Acc OR N + Acc OR A + Acc - Cmpnd - Dem - ("hyvä");
 SET NP-HEAD-GEN    = Pron + Gen OR NGen OR A + Gen - Cmpnd - Dem - ("hyvä");
 
 # why gen?
-#SET PRE-NP-HEAD = (Prop Attr) OR Prop + (@>N) OR (A Attr) OR (Abbr Attr) OR ("hyvä") OR Pron + Pers + Gen OR NGen OR 
-SET PRE-NP-HEAD = Prop + Gen OR Prop + (@>N) OR A OR Abbr + Gen OR ("hyvä") OR Pron + Pers + Gen OR NGen OR 
+#SET PRE-NP-HEAD = (Prop Attr) OR Prop + (@>N) OR (A Attr) OR (ABBR Attr) OR ("hyvä") OR Pron + Pers + Gen OR NGen OR 
+SET PRE-NP-HEAD = Prop + Gen OR Prop + (@>N) OR A OR ABBR + Gen OR ("hyvä") OR Pron + Pers + Gen OR NGen OR 
          Num OR Cmpnd OR CC OR Pron + Dem OR Pron + Refl + Gen OR Pron + Indef OR 
          PrfPrc + (@>N) OR PrsPrc OR Ord OR PCP ;
          # The strict version of items that can only be premodifiers, not parts of the predicate
  
 SET NOT-A = WORD - A ;
 
-SET NPNH     = WORD - PRE-NP-HEAD OR Abbr ; 
+SET NPNH     = WORD - PRE-NP-HEAD OR ABBR ; 
 
 # (A Pos) changed to A - 19.01.2015 -FMT+KM
 SET NAttrs = PCP OR A OR Pron OR Ord OR NGen OR Card OR UNDECL_ADJ ; 
@@ -1758,30 +1758,30 @@ SECTION
 
 #$# Lines commented out with #$# due to regex compilation problems. Have a look.
 
-#$# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET (Abbr Sg Gen) (1 ("<(.*):in>"r)) (2 ("<(.*):in>"r)) ;
-#$# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET (Abbr Sg Gen) (1 ("<(.*)'in>"r)) (2 ("<(.*)'in>"r)) ;
-#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):tta>"r)) (2 ("<(.*):tta>"r)) ;
-#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):ta>"r)) (2 ("<(.*):ta>"r)) ;
-#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):ttä>"r)) (2 ("<(.*):ttä>"r)) ;
-#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):tä>"r)) (2 ("<(.*):tä>"r)) ;
-#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):aa>"r)) (2 ("<(.*):aa>"r)) ;
-#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):a>"r)) (2 ("<(.*):a>"r)) ;
-#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):ää>"r)) (2 ("<(.*):ää>"r)) ;
-#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):ä>"r)) (2 ("<(.*):ä>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg Ine) (1 ("<(.*):ssa>"r)) (2 ("<(.*):ssa>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg Ine) (1 ("<(.*):ssä>"r)) (2 ("<(.*):ssä>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg Ela) (1 ("<(.*):sta>"r)) (2 ("<(.*):sta>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg Ela) (1 ("<(.*):stä>"r)) (2 ("<(.*):stä>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg Ill) (1 ("<(.*):aan>"r)) (2 ("<(.*):aan>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg Ill) (1 ("<(.*):ään>"r)) (2 ("<(.*):ään>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg Ade) (1 ("<(.*):lla>"r)) (2 ("<(.*):lla>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg Ade) (1 ("<(.*):llä>"r)) (2 ("<(.*):llä>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg Abl) (1 ("<(.*):lta>"r)) (2 ("<(.*):lta>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg Abl) (1 ("<(.*):ltä>"r)) (2 ("<(.*):ltä>"r)) ;
-#$# MAP (@ADVL) TARGET (Abbr Sg All) (1 ("<(.*):lle>"r)) (2 ("<(.*):lle>"r)) ;
+#$# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET (ABBR Sg Gen) (1 ("<(.*):in>"r)) (2 ("<(.*):in>"r)) ;
+#$# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET (ABBR Sg Gen) (1 ("<(.*)'in>"r)) (2 ("<(.*)'in>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (ABBR Sg Par) (1 ("<(.*):tta>"r)) (2 ("<(.*):tta>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (ABBR Sg Par) (1 ("<(.*):ta>"r)) (2 ("<(.*):ta>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (ABBR Sg Par) (1 ("<(.*):ttä>"r)) (2 ("<(.*):ttä>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (ABBR Sg Par) (1 ("<(.*):tä>"r)) (2 ("<(.*):tä>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (ABBR Sg Par) (1 ("<(.*):aa>"r)) (2 ("<(.*):aa>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (ABBR Sg Par) (1 ("<(.*):a>"r)) (2 ("<(.*):a>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (ABBR Sg Par) (1 ("<(.*):ää>"r)) (2 ("<(.*):ää>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (ABBR Sg Par) (1 ("<(.*):ä>"r)) (2 ("<(.*):ä>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg Ine) (1 ("<(.*):ssa>"r)) (2 ("<(.*):ssa>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg Ine) (1 ("<(.*):ssä>"r)) (2 ("<(.*):ssä>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg Ela) (1 ("<(.*):sta>"r)) (2 ("<(.*):sta>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg Ela) (1 ("<(.*):stä>"r)) (2 ("<(.*):stä>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg Ill) (1 ("<(.*):aan>"r)) (2 ("<(.*):aan>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg Ill) (1 ("<(.*):ään>"r)) (2 ("<(.*):ään>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg Ade) (1 ("<(.*):lla>"r)) (2 ("<(.*):lla>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg Ade) (1 ("<(.*):llä>"r)) (2 ("<(.*):llä>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg Abl) (1 ("<(.*):lta>"r)) (2 ("<(.*):lta>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg Abl) (1 ("<(.*):ltä>"r)) (2 ("<(.*):ltä>"r)) ;
+#$# MAP (@ADVL) TARGET (ABBR Sg All) (1 ("<(.*):lle>"r)) (2 ("<(.*):lle>"r)) ;
 #$# ##MAP ((DASH) (@1 (^ ("->"r)) ($ ("->"r)) (@2 NIL) ; # XXXX
-#$# ##MAP ((Abbr Sg Nom (@SUBJ @OBJ @PC)) (@1 (NEGATE * ("i>"r)) (NEGATE * ("e>"r)) (NEGATE * ("ä>"r)) (NEGATE * ("y>"r)) (NEGATE * ("ö>"r)) (NEGATE * ("u>"r)) (NEGATE * ("o>"r)) (NEGATE * ("a>"r)) (NEGATE * ("I>"r)) (NEGATE * ("E>"r)) (NEGATE * ("[>"r)) (NEGATE * ("Y>"r)) (NEGATE * ("_>"r)) (NEGATE * ("U>"r)) (NEGATE * ("O>"r)) (NEGATE * ("A>"r)) (NEGATE * (":>"r)) (@2 NIL) ;
-#$# MAP (@SUBJ @OBJ @PC) TARGET (Abbr Sg Nom) (@1 (* (":kin>"r)) (2 ("<(.*)x:kin>"r)) ;
+#$# ##MAP ((ABBR Sg Nom (@SUBJ @OBJ @PC)) (@1 (NEGATE * ("i>"r)) (NEGATE * ("e>"r)) (NEGATE * ("ä>"r)) (NEGATE * ("y>"r)) (NEGATE * ("ö>"r)) (NEGATE * ("u>"r)) (NEGATE * ("o>"r)) (NEGATE * ("a>"r)) (NEGATE * ("I>"r)) (NEGATE * ("E>"r)) (NEGATE * ("[>"r)) (NEGATE * ("Y>"r)) (NEGATE * ("_>"r)) (NEGATE * ("U>"r)) (NEGATE * ("O>"r)) (NEGATE * ("A>"r)) (NEGATE * (":>"r)) (@2 NIL) ;
+#$# MAP (@SUBJ @OBJ @PC) TARGET (ABBR Sg Nom) (@1 (* (":kin>"r)) (2 ("<(.*)x:kin>"r)) ;
 #$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)uksessa>"r)) (2 ("<(.*)uksessa" ("us>"r)) ;
 #$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)yksessä>"r)) (2 ("<(.*)yksessä" ("ys>"r)) ;
 #$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)ssa>"r)) (2 ("<(.*)ssa>"r)) ;
