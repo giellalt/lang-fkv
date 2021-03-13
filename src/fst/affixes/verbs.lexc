@@ -86,6 +86,7 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +V+Act+Inf3+Ill:olemhaan K ;
 +V+Act+Inf3+Ade:olemalla K ;
 +V+Act+Inf3+Abe:olematta K ;
++V+Der+Der/minen:olemi n_22_inen ;
 
 
 !! !!!INCOMING
@@ -240,6 +241,8 @@ LEXICON v1kayda  !!= @CODE@ käyđä:kä
 +V+Act+Inf3+Ade:y%>m^Al^A K ;
 +V+Act+Inf3+Abe:y%>m^Att^A K ;
 +V+Act+Inf3:y%>m^A MATONodd ;
++V+Der+Der/minen:ymi n_22_inen ;
+
 
 LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+Inf:h%>đ^A K ; ! đ
@@ -281,6 +284,7 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+Act+Inf3+Ade:ke%>m^All^A K ;
 +V+Act+Inf3+Abe:ke%>m^Att^A K ;
 +V+Act+Inf3:ke%>m^A MATONodd ;
++V+Der+Der/minen:kemi n_22_inen ;
 
 LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+Inf:h%>đ^A K ; ! đ
@@ -322,6 +326,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+Act+Inf3+Ade:ke%>m^All^A K ;
 +V+Act+Inf3+Abe:ke%>m^Att^A K ;
 +V+Act+Inf3:ke%>m^A MATONodd ;
++V+Der+Der/minen:kemi n_22_inen ;
 
 LEXICON v2 !!= @CODE@ ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
 +V+Inf:%>^Vt K ;
@@ -369,6 +374,7 @@ LEXICON v2 !!= @CODE@ ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, 
 +V+Act+Inf3+Ade:%>m^All^A K ;
 +V+Act+Inf3+Abe:%>m^Att^A K ;
 +V+Act+Inf3:%>m^A MATON ;
++V+Der+Der/minen:mi n_22_inen ;
 
 LEXICON v2_si !!= @CODE@ ! pyyttäät:pyysi
 +V+Inf:%>^Vt K ;
@@ -416,6 +422,7 @@ LEXICON v2_si !!= @CODE@ ! pyyttäät:pyysi
 +V+Act+Inf3+Ade:%>m^All^A K ;
 +V+Act+Inf3+Abe:%>m^Att^A K ;
 +V+Act+Inf3:%>m^A MATON ;
++V+Der+Der/minen:mi n_22_inen ;
 
 
 LEXICON v2_tiettäät !!= @CODE@ tiettäät
@@ -460,6 +467,7 @@ LEXICON v2_tiettäät !!= @CODE@ tiettäät
 +V+Act+Inf3+Ade:tä%>m^All^A K ;
 +V+Act+Inf3+Abe:tä%>m^Att^A K ;
 +V+Act+Inf3:tä%>m^A MATON ;
++V+Der+Der/minen:tämi n_22_inen ;
 
 
 LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
@@ -507,6 +515,7 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+Inf3+Ade:%>m^Al^A K ;
 +V+Act+Inf3+Abe:%>m^Att^A K ;
 +V+Act+Inf3:%>m^A MATONodd ;
++V+Der+Der/minen:mi n_22_inen ;
 
 !v2_ta LEXICON v2_ta_odd !!= @CODE@ kumarttaat
 !v2_ta +V+Inf:t^A%>^Vt K ;        ! kveenin inf valmistuut
@@ -602,7 +611,8 @@ LEXICON v3_ele_notinf
 +V+Act+Inf3+Ill:e%>mh^A^An K ;
 +V+Act+Inf3+Ade:e%>m^All^A K ;
 +V+Act+Inf3+Abe:e%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATON ;
++V+Act+Inf3:e%>m^A MATON ;
++V+Der+Der/minen:emi n_22_inen ;
 
 LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Inf:^WG%>^A K ;
@@ -648,7 +658,8 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Act+Inf3+Ill:e%>mh^A^An K ;
 +V+Act+Inf3+Ade:e%>m^Al^A K ;
 +V+Act+Inf3+Abe:e%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATONodd ;
++V+Act+Inf3:e%>m^A MATONodd ;
++V+Der+Der/minen:emi n_22_inen_odd ;
 
 LEXICON v3_ise !!= @CODE@ aukaista:aukaise
 +v1:is v3_ise_inflection ; ! täristä
@@ -704,7 +715,8 @@ LEXICON v3_ise_inflection
 +V+Act+Inf3+Ill:e%>mh^A^An K ;
 +V+Act+Inf3+Ade:e%>m^Al^A K ;
 +V+Act+Inf3+Abe:e%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATONodd ;
++V+Act+Inf3:e%>m^A MATONodd ;
++V+Der+Der/minen:emi n_22_inen_odd ;
 
 LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Inf:%>^N^A K ; !! * pitää tehdä ^D
@@ -747,7 +759,8 @@ LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Act+Inf3+Ill:%>e^WG%>mh^A^An K ;
 +V+Act+Inf3+Ade:%>e^WG%>m^All^A K ;
 +V+Act+Inf3+Abe:%>e^WG%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATON ;
++V+Act+Inf3:e%>m^A MATON ;
++V+Der+Der/minen:emi n_22_inen ;
 
 LEXICON v3_s !!= @CODE@ ja vartalo on pan-
 +V+Inf:%>t^A K ; !! * pitää tehdä ^D
@@ -788,7 +801,8 @@ LEXICON v3_s !!= @CODE@ ja vartalo on pan-
 +V+Act+Inf3+Ill:%>e^WG%>mh^A^An K ;
 +V+Act+Inf3+Ade:%>e^WG%>m^All^A K ;
 +V+Act+Inf3+Abe:%>e^WG%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATON ;
++V+Act+Inf3:e%>m^A MATON ;
++V+Der+Der/minen:emi n_22_inen ;
 
 LEXICON v3piera !!= @CODE@ pierä:pie
 +V+Inf:r^A K ; !! * pitää tehdä ^D
@@ -827,7 +841,8 @@ LEXICON v3piera !!= @CODE@ pierä:pie
 +V+Act+Inf3+Ill:%>r%>e^WG%>mh^A^An K ;
 +V+Act+Inf3+Ade:%>r%>e^WG%>m^All^A K ;
 +V+Act+Inf3+Abe:%>r%>e^WG%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATON ;
++V+Act+Inf3:e%>m^A MATON ;
++V+Der+Der/minen:emi n_22_inen ;
 
 LEXICON v3juosta !!= @CODE@ juosta:juo
 +V+Inf:s%>t^A K ;
@@ -868,6 +883,7 @@ LEXICON v3juosta !!= @CODE@ juosta:juo
 +V+Act+Inf3+Ade:%>kse%>m^All^A K ;
 +V+Act+Inf3+Abe:%>kse%>m^Att^A K ;
 +V+Act+Inf3:%>kse%>m^A MATON ;
++V+Der+Der/minen:ksemi n_22_inen ;
 
 LEXICON v4 !!= @CODE@ vanheta:vanhe, pajeta:pake
 +V+Inf:^WG%>t^A K ;
@@ -908,6 +924,7 @@ LEXICON v4 !!= @CODE@ vanheta:vanhe, pajeta:pake
 +V+Act+Inf3+Ade:%>ne%>m^Al^A K ;
 +V+Act+Inf3+Abe:%>ne%>m^Att^A K ;
 +V+Act+Inf3:%>ne%>m^A MATONodd ;
++V+Der+Der/minen:nemi n_22_inen ;
 
 LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Inf:%>t^A K ;
@@ -950,6 +967,7 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Act+Inf3+Ade:%>tte%>m^Al^A K ;
 +V+Act+Inf3+Abe:%>tte%>m^Att^A K ;
 +V+Act+Inf3:%>tte%>m^A MATONodd ;
++V+Der+Der/minen:ttemi n_22_inen ;
 
 
 LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
@@ -992,6 +1010,7 @@ LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+Act+Inf3+Ade:%>tte%>m^All^A K ;
 +V+Act+Inf3+Abe:%>tte%>m^Att^A K ;
 +V+Act+Inf3:%>tte%>m^A MATON ;
++V+Der+Der/minen:ttemi n_22_inen ;
 
 LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ hantteerata:hantteera
 +V+Inf:^WG%>t^A K ; !
@@ -1015,7 +1034,6 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ hantteerata:hantteera
 +V+Pass+PrsPrc+Sg+Nom:^WG%>tt^A%>v^A K ;
 +V+Pass+PrsPrc+Pl+Nom:^WG%>tt^A%>v^At K ;
 +V+Act+Ind+Prs+ConNeg:%>^V K ;
-+V+Der+Der/minen:mi n_22_inen ;
 
 +V+Act+Cond+Sg1:%>i7sin K ; ! hantteeraisin
 +V+Act+Cond+Sg2:%>i7sit K ;
@@ -1034,6 +1052,7 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ hantteerata:hantteera
 +V+Act+Inf3+Ade:%>^V%>m^Al^A K ;
 +V+Act+Inf3+Abe:%>^V%>m^Att^A K ;
 +V+Act+Inf3:%>^V%>m^A MATONodd ;
++V+Der+Der/minen:%>^V%>mi n_22_inen ;
 
 LEXICON v43_odd !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Inf:^WG%>t^A K ;
@@ -1075,6 +1094,7 @@ LEXICON v43_odd !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Act+Inf3+Ade:%>^V%>m^All^A K ;
 +V+Act+Inf3+Abe:%>^V%>m^Att^A K ;
 +V+Act+Inf3:%>^V%>m^A MATON ;
++V+Der+Der/minen:%>^V%>mi n_22_inen ;
 
 
 LEXICON v43_odd_II !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
@@ -1117,6 +1137,7 @@ LEXICON v43_odd_II !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Act+Inf3+Ade:%>^V%>m^All^A K ;
 +V+Act+Inf3+Abe:%>^V%>m^Att^A K ;
 +V+Act+Inf3:%>^V%>m^A MATON ;
++V+Der+Der/minen:%>^V%>mi n_22_inen ;
 
 !! !!Verbien persoonapäätteet
 
