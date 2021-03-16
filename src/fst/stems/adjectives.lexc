@@ -79,11 +79,14 @@ rakas:rakk a_32_as ; ! a_32_as
 rakas+Err/Orth:rak a_32_as ; 
 tyyris:tyyr a_32_is ; ! a_32_is
 voimakas:voimakk a_32_as ; ! a_32_as
+tarmokas:tarmokk a_32_as ;
 tuoret:tuor a_32_et ; ! vanha_a_33t -> a_32_et
 tervet:terv a_32_et ; ! vanha_a_33t -> a_32_et
 tervet+A+Sg+Tra+Err/Orth:terveeksi K ; 
 vaipunu:vaipun a_32_u ; ! vanha_33-> a_32_u
 väsyny:väsyn a_32_väsynyt ;
+vastasyntyny:vasta#syntyn a_32_väsynyt ;
+syntyny:syntyn a_32_väsynyt ;
 kärys:kär a_32_kärys ;
 
 ! Do these exist as their own sublexica? Or should they be classified somewhere else
@@ -95,6 +98,7 @@ irtain:irt2ai vanha_a_32m ;
 
 hyvä: HYVA ; ! paras on täällä
 paras+A+Sg+Nom:paras nom_end ; ! taivutus on hyvä: HYVA ; subleksikosta
+ikivanhaa:iki#vanh VANHAA ;
 vanhaa:vanh VANHAA ; ! formerly vanha_a_23, wrong
 paha a_11_AO ;
 lauha a_11_AO ;
@@ -190,6 +194,8 @@ ontto a_11 ;
 rutto a_11 ;
 outo a_11 ;
 siivo a_11 ;
+siro a_11 ;
+aito a_11 ;
 ohu a_x ; !!! TODO aiemmin a_11, ei toimi.
 raju a_11 ;
 kalju a_11 ;
@@ -209,6 +215,8 @@ liehmuu a_31_uu  ;
 lyhy a_x ; !!! TODO aiemmin a_11 mutta se ei käy.
 häijy a_11 ;
 syyry a_11 ;
+ylikypsy:yli#kypsy a_11 ;
+läpikypsy:läpi#kypsy a_11 ;
 kypsy a_11 ;
 pyhä a_11_ae ;
 tyyhä a_11_ae ;
@@ -245,6 +253,7 @@ tyhvä a_11_ae ;
 selvä a_11_ae ;
 epäselvä a_11_ae ;
 jyrkkä a_11_ae ;
+höykkä a_11_ae ;
 koutu a_11 ;
 syvä a_11_ae ;
 pystö a_11 ;
@@ -505,6 +514,15 @@ korree:korre a_31_ee ;
 murree:murre a_31_ee ;
 pyöree:pyöre a_31_ee ;
 kalssee:kalsse a_31_ee ;
+kuohee:kuohe a_31_ee ;
+karhee:karhe a_31_ee ;
+kankkee:kankke a_31_ee ;
+hellee:helle a_31_ee ;
+pullee:pulle a_31_ee ;
+vällee:välle a_31_ee ;
+kalppee:kalppe a_31_ee ;
+närppee:närppe a_31_ee ;
+vihree:vihre a_31_ee ;
 ussee:us a_31_ussee ;
 ussee+Err/Orth:usse a_31_ee ; 
 kostee:koste a_31_ee ;
@@ -546,6 +564,7 @@ kamala a_21_odd ;
 matala a_21_odd ;
 kavala a_21_odd ;
 happela a_21_odd ;
+sukkela a_21_odd ;
 ihana a_21_odd ;
 tieđonankara:tieđon#ankara a_21_odd ;
 ahkera a_21_odd ;
@@ -590,6 +609,7 @@ maalattu a_21_odd_u;
 merkattu a_21_odd_u; 
 ulkokullattu a_21_odd_u ;
 kevveestisuolattu:kevveesti#suolattu a_21_odd_u ;
+poikkihakattu:poikki#hakattu a_21_odd_u ;
 tunnettu a_21_odd_u ;
 opetettu a_21_even_u ;
 kuvailtu a_21_odd_u ;
@@ -602,13 +622,19 @@ kylmetty a_21_odd_u  ;
 käytetty a_21_odd_u  ;
 kristitty a_21_odd_u  ;
 määrätty a_21_odd_u ;
+silkkipräntätty:silkki#präntätty a_21_odd_u  ;
 präntätty a_21_odd_u  ;
 pyhitetty a_21_even_u ; 
 valittu a_21_even_u ; 
 ytelä a_21_odd_ae ;
-höperä a_21_odd_ae;
+äitelä a_21_odd_ae ; 
+höperä a_21_odd_ae ;
 näppärä a_21_odd_ae ;
 yhđentekkeevä:yhđen#tekkeevä a_21_odd_ae ;
+läpinäkkyyvä:läpi#näkkyyvä a_21_odd_ae ;
+näkkyyvä:näkkyyvä a_21_odd_ae ;
+läpipistäävä:läpi#pistäävä a_21_odd_ae ;
+eppäilyttäävä:eppäilyttäävä a_21_odd_ae ;
 kärsiivä a_21_odd_ae ;
 järkkeevä a_21_odd_ae ;
 väkkeevä a_21_odd_ae ;
@@ -931,6 +957,8 @@ mavuton:mavu a_22_ton_odd ;
 hävytön:hävy a_22_ton_odd ;
 kykenemätön:kykenemä a_22_ton_odd ;
 ymmärtämätön:ymmärtämä a_22_ton_odd ;
+lystitön:lysti a_22_ton_odd ;
+myrkytön:myrky a_22_ton_odd ;
 määrätön:määrä a_22_ton_odd ;
 mitätön:mitä a_22_ton_odd ;
 !ruottii:ruott2ii a_31_ii ; ! ruottii ei ole adjektiivi
@@ -939,6 +967,7 @@ pahas:pah a_32_as ;
 puhelias:puheli a_32_as ;
 laupias:laupi a_32_as ;
 kaikkivaltias:kaikkivalti a_32_as ;
+kaikkivalttias:kaikkivaltti a_32_as ;
 paljas:palj a_32_as ;
 viekas:viekk a_32_as ;
 onnekas:onnekk a_32_as ;
@@ -956,6 +985,7 @@ praatikas:praatikk a_32_as ;
 vilkas:vilkk a_32_as ;
 nerokas:nerokk a_32_as ;
 arvokas:arvokk a_32_as ;
+tähtikirkas:tähti#kirkk a_32_as ;
 kirkas:kirkk a_32_as ;
 autuas:autu a_32_as ;
 liukas:liukk a_32_as ;
@@ -986,6 +1016,7 @@ kallis:kall a_32_is ;
 valmis:valm a_32_is ;
 kaunis:kaun a_32_is ;
 raitis:raitt a_32_is ;
+tuulentivis:tuulen#tiv a_32_is ;
 tivis:tiv a_32_is ;
 ahnet:ahn a_32_et ;
 tiinet:tiin a_32_et ;
@@ -995,6 +1026,7 @@ nainu:nain a_32_u ;
 oppinu:oppin a_32_u ;
 ravistunnu:ravistunn a_32_u ;
 hermostunnu:hermostunn a_32_u ;
+pillaantunnu:pillaantunn a_32_u ;
 suuttunu:suuttun a_32_u ;
 aijankohthainen:aijankohthai a_22_inen_odd ;
 ajattelematon:ajattelema a_22_ton_even ;
