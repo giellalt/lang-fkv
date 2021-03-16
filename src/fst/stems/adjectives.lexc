@@ -44,10 +44,10 @@ veres:vere a_22_excns ; !!= * @CODE@
 
 !! Usheempitavuiset -nen-adjektiivit
 ! vanha_a_42 -> a_22_inen
-abessiivinen:abessiivi a_22_inen_odd ; 
+abessiivinen:abessiivi a_22_inen_odd ;
 varovainen:varovai a_22_inen ;
 vihrinen:vihri a_22_inen_odd ;
-reikäinen:reikäi a_22_inen_odd ; 
+reikäinen:reikäi a_22_inen_odd ;
 sininen:sini a_22_inen_odd ; !!= * @CODE@
 vestainen:vestai a_22_inen_odd ; !!= * @CODE@
 konkreettinen:konkreetti a_22_inen_odd ; !!= * @CODE@
@@ -76,13 +76,13 @@ auttii:autt2ii a_31_ii ; !!= * @CODE@
 !! Pitkävokaaliset Konsonanttirankaiset (Kokoontuma?)
 ! vanha_a_33 -> a_32_
 rakas:rakk a_32_as ; ! a_32_as
-rakas+Err/Orth:rak a_32_as ; 
+rakas+Err/Orth:rak a_32_as ;
 tyyris:tyyr a_32_is ; ! a_32_is
 voimakas:voimakk a_32_as ; ! a_32_as
 tarmokas:tarmokk a_32_as ;
 tuoret:tuor a_32_et ; ! vanha_a_33t -> a_32_et
 tervet:terv a_32_et ; ! vanha_a_33t -> a_32_et
-tervet+A+Sg+Tra+Err/Orth:terveeksi K ; 
+tervet+A+Sg+Tra+Err/Orth:terveeksi K ;
 vaipunu:vaipun a_32_u ; ! vanha_33-> a_32_u
 väsyny:väsyn a_32_väsynyt ;
 vastasyntyny:vasta#syntyn a_32_väsynyt ;
@@ -274,7 +274,7 @@ nekatiivi a_21 ;
 primitiivi a_21 ;
 merkittävä a_21_ae_even ;
 alhainen:alhai a_22_inen ;
-varhainen:varhai a_22_inen ; 
+varhainen:varhai a_22_inen ;
 neljenjalkainen:neljenjalkai a_22_inen ;
 latuskainen:latuskai a_22_inen ;
 ohukainen:ohukai a_22_inen ;
@@ -325,7 +325,7 @@ kainulainen:kainulai a_22_inen ;
 vestakainulainen:vestakainulai a_22_inen ;
 minkälainen:minkälai a_22_inen ;
 alimainen:alimai a_22_inen ;
-alimainen+Err/Orth:alimmai a_22_inen ; 
+alimainen+Err/Orth:alimmai a_22_inen ;
 ulomainen:ulomai a_22_inen ;
 etumainen:etumai a_22_inen ;
 hajanainen:hajanai a_22_inen ;
@@ -353,7 +353,7 @@ raiđalinen:raiđali a_22_inen ;
 tarpheelinen:tarpheeli a_22_inen ;
 lyhykäisvokaalinen:lyhykäis#vokaali a_22_inen ;
 luonolinen:luonoli a_22_inen ;
-luonolinen+Err/Orth:luonnoli a_22_inen ; 
+luonolinen+Err/Orth:luonnoli a_22_inen ;
 murheelinen:murheeli a_22_inen ;
 katheelinen:katheeli a_22_inen ;
 satheelinen:satheeli a_22_inen ;
@@ -368,7 +368,7 @@ ittelinen:itteli a_22_inen ;
 tähđelinen:tähđeli a_22_inen ;
 tođelinen:tođeli a_22_inen ;
 täyđelinen:täyđeli a_22_inen ;
-dramaattinen:dramaatti a_22_inen ; 
+dramaattinen:dramaatti a_22_inen ;
 ruumhiilinen:ruumhiili a_22_inen ;
 faakilinen:faakili a_22_inen ;
 arkiivifaakilinen:arkiivifaakili a_22_inen ;
@@ -404,8 +404,8 @@ erikoinen:erikoi a_22_inen ;
 louhikkoinen:louhikkoi a_22_inen ;
 alinkoinen:alinkoi a_22_inen ;
 aurinkoinen:aurinkoi a_22_inen ;
-samanarvoinen:saman#arvoi a_22_inen_odd ; 
-punahyksinen:puna#hyksi a_22_inen_odd ; 
+samanarvoinen:saman#arvoi a_22_inen_odd ;
+punahyksinen:puna#hyksi a_22_inen_odd ;
 kivuloinen:kivuloi a_22_inen ;
 aikamoinen:aikamoi a_22_inen ;
 semmoinen:semmoi a_22_inen ;
@@ -457,6 +457,9 @@ javolinen:javoli a_22_inen ;
 koukkuselkäinen:koukkuselkäi a_22_inen ;
 koukkusölkäinen:koukku#sölkäi a_22_inen ;
 syntaktinen:syntakti a_22_inen ;
+puristinen:puristi a_22_inen ;
+formalistinen:formalisti a_22_inen ;
+realistinen:realisti a_22_inen ;
 passiivinen:passiivi a_22_inen ;
 sivvupainolinen:sivvupainoli a_22_inen ;
 obligatoorinen:obligatoori a_22_inen ;
@@ -465,7 +468,7 @@ myötäinen:myötäi a_22_inen ;
 päälimäinen:päälimäi a_22_inen ;
 vierhiinen:vierhii a_22_inen ;
 hoppuinen:hoppui a_22_inen ;
-puinen:pui a_22_inen ; 
+puinen:pui a_22_inen ;
 ehhee:ehhe a_31_ee ;
 tihhee:tihhe a_31_ee ;
 rohkee:rohke a_31_ee ;
@@ -475,7 +478,7 @@ sakkee:sakke a_31_ee ;
 vaikkee:vaikke a_31_ee ;
 oikkee:oikke a_31_ee ;
 muikkee:muikke a_31_ee ;
-surkkee:surkke a_31_ee ; 
+surkkee:surkke a_31_ee ;
 valkkee:valkke a_31_ee ;
 vitivalkkee:vitivalkke a_31_ee ;
 ilmivalkkee:ilmi#valkke a_31_ee ;
@@ -483,7 +486,7 @@ ilkkee:ilkke a_31_ee ;
 sokkee:sokke a_31_ee ;
 huokkee:huokke a_31_ee ;
 korkkee:korkke a_31_ee ;
-tärkkee:tärkke a_31_ee ; 
+tärkkee:tärkke a_31_ee ;
 aukkee:aukke a_31_ee ;
 laukkee:laukke a_31_ee ;
 ruskee:ruske a_31_ee ;
@@ -524,7 +527,7 @@ kalppee:kalppe a_31_ee ;
 närppee:närppe a_31_ee ;
 vihree:vihre a_31_ee ;
 ussee:us a_31_ussee ;
-ussee+Err/Orth:usse a_31_ee ; 
+ussee+Err/Orth:usse a_31_ee ;
 kostee:koste a_31_ee ;
 laattee:laatte a_31_ee ;
 kiinttee:kiintte a_31_ee ;
@@ -593,7 +596,7 @@ tunttuuva a_21_odd ;
 normaali a_21_odd_i ;
 rekiunaali a_21_odd_i ;
 sentraali a_21_odd_i;
-passeli a_21_odd_i ; 
+passeli a_21_odd_i ;
 naakkari a_21_odd_i ;
 sikkari a_21_odd_i;
 primääri a_21_odd_i ;
@@ -602,11 +605,11 @@ oranssi a_21_odd_i ;
 oranši a_21_odd_i ;
 turkkiisi:turkkiisi n_21_odd_i ;
 interesantti a_21_odd_i ;
-interesantti+Err/Orth:intressantti a_21_odd_i ; 
+interesantti+Err/Orth:intressantti a_21_odd_i ;
 mainio a_21_odd_u  ;
 suipero a_21_odd_u  ;
 maalattu a_21_odd_u;
-merkattu a_21_odd_u; 
+merkattu a_21_odd_u;
 ulkokullattu a_21_odd_u ;
 kevveestisuolattu:kevveesti#suolattu a_21_odd_u ;
 poikkihakattu:poikki#hakattu a_21_odd_u ;
@@ -624,10 +627,10 @@ kristitty a_21_odd_u  ;
 määrätty a_21_odd_u ;
 silkkipräntätty:silkki#präntätty a_21_odd_u  ;
 präntätty a_21_odd_u  ;
-pyhitetty a_21_even_u ; 
-valittu a_21_even_u ; 
+pyhitetty a_21_even_u ;
+valittu a_21_even_u ;
 ytelä a_21_odd_ae ;
-äitelä a_21_odd_ae ; 
+äitelä a_21_odd_ae ;
 höperä a_21_odd_ae ;
 näppärä a_21_odd_ae ;
 yhđentekkeevä:yhđen#tekkeevä a_21_odd_ae ;
@@ -726,7 +729,7 @@ vaaleepunainen:vaaleepunai a_22_inen_odd ;
 aniliinipunainen:aniliinipunai a_22_inen_odd ;
 ruusunpunainen:ruusunpunai a_22_inen_odd ;
 vähävoipainen:vähävoipai a_22_inen_odd ;
-epätasainen:epätasai a_22_inen_odd ; 
+epätasainen:epätasai a_22_inen_odd ;
 tasainen:tasai a_22_inen_odd ;
 hietainen:hietai a_22_inen_odd ;
 kaitainen:kaitai a_22_inen_odd ;
@@ -754,10 +757,10 @@ yhtheinen:yhthei a_22_inen_odd ;
 myöntheinen:myönthei a_22_inen_odd ;
 auringonpaistheinen:auringonpaisthei a_22_inen_odd ;
 psykolooginen:psykoloogi a_22_inen_odd ;
-biolooginen:bioloogi a_22_inen ; 
+biolooginen:bioloogi a_22_inen ;
 ökolooginen:ökoloogi a_22_inen_odd ;
 iänkaikkinen:iänkaikki a_22_inen_odd ;
-iänkaikkinen+Err/Orth:ijänkaikki a_22_inen_odd ; 
+iänkaikkinen+Err/Orth:ijänkaikki a_22_inen_odd ;
 piikkinen:piikki a_22_inen_odd ;
 pahanilkinen:pahanilki a_22_inen_odd ;
 nokinen:noki a_22_inen_odd ;
@@ -827,7 +830,7 @@ populaarinen:populaari a_22_inen_odd ;
 tummaverinen:tummaveri a_22_inen_odd ;
 pahankurinen:pahankuri a_22_inen_odd ;
 hullunkurinen:hullunkuri a_22_inen_odd ;
-erifärinen:eri#färi a_22_inen_odd ; 
+erifärinen:eri#färi a_22_inen_odd ;
 färinen:färi a_22_inen_odd ;
 samanfärinen:samanfäri a_22_inen_odd ;
 vesinen:vesi a_22_inen_odd ;
@@ -860,8 +863,10 @@ skandinaavinen:skandinaavi a_22_inen_odd ;
 kreatiivinen:kreatiivi a_22_inen_odd ;
 nekatiivinen:nekatiivi a_22_inen_odd ;
 administratiivinen:administratiivi a_22_inen_odd ;
+deksriptiivinen:deskriptiivi a_22_inen_odd ;
 primitiivinen:primitiivi a_22_inen_odd ;
 positiivinen:positiivi a_22_inen_odd ;
+negatiivinen:negatiivi a_22_inen_odd ;
 pusitiivinen:pusitiivi a_22_inen_odd ;
 effektiivinen:effektiivi a_22_inen_odd ;
 kivinen:kivi a_22_inen_odd ;
@@ -974,12 +979,12 @@ onnekas:onnekk a_32_as ;
 raikas:raikk a_32_as ;
 vitamiinikas:vitamiinikk a_32_as ;
 rikas:rikk a_32_as ;
-rikas+Err/Orth:rik a_32_as ; 
+rikas+Err/Orth:rik a_32_as ;
 lajirikas:laji#rikk a_32_as ;
 raharikas:raha#rikk a_32_as ;
 tietorikas:tieto#rikk a_32_as ;
 sađetrikas:sađet#rikk a_32_as ;
-fantasiirikas:fantasii#rikk a_32_as ; 
+fantasiirikas:fantasii#rikk a_32_as ;
 lapsikas:lapsikk a_32_as ;
 praatikas:praatikk a_32_as ;
 vilkas:vilkk a_32_as ;
@@ -1037,8 +1042,8 @@ englantilainen:englantilai a_22_inen_odd ;
 färirikas:färi#rikk a_32_as ;
 harkkuinen:harkkui a_22_inen_odd ;
 morfofonologinen:morfofonologi a_22_inen_odd ;
-fonoginen:fonologi a_22_inen_odd ; 
-fonologinen+Err/Orth:fonolooginen a_22_inen_odd ; 
+fonoginen:fonologi a_22_inen_odd ;
+fonologinen+Err/Orth:fonolooginen a_22_inen_odd ;
 kausatiivinen:kausatiivi a_22_inen_odd ;
 disjunktiivinen:disjunktiivi a_22_inen_odd ;
 härski a_11 ;
@@ -1048,8 +1053,8 @@ hengistynny:hengistynn  a_32_nny ; ! vanha_a_33u ei toimi y-päätteisillä
 ehyt a_x ; ! :eh
 ohut a_x ; ! :oh
 lyhyt a_x ; ! :lyh
-!vappaa:vapp VANHAA ; ! TODO: vappaa ja vapaa pitää lyödä yhteen. Aili: mitä teemme tämän kans? Grammatiikissa sanotaan ette vapaa oon I-graadi. Silloin "vappaa" ei olisi mahdollista. 
-vapaa:vap2 VAPAA ; ! 
+!vappaa:vapp VANHAA ; ! TODO: vappaa ja vapaa pitää lyödä yhteen. Aili: mitä teemme tämän kans? Grammatiikissa sanotaan ette vapaa oon I-graadi. Silloin "vappaa" ei olisi mahdollista.
+vapaa:vap2 VAPAA ; !
 
 
 !----------------------------------------------------------------------------------------------------------------------
