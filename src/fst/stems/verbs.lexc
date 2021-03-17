@@ -263,6 +263,10 @@ puhhuut:puhu v2 ;
 kaikkuut:kaiku v2 ;
 keijuut:keiju v2 ;
 sujjuut:suju v2 ;
+suijuut:suiju v2 ;
+paisuut:paisu v2 ;
+johtuut:johtu v2 ;
+tottuut:tottu v2 ;
 kiljuut:kilju v2 ; ! -j ei geminoidu tässä, koska ennen -j oon pitkä tavu. 
 karjuut:karju v2 ; ! -j ei geminoidu tässä, koska ennen -j oon pitkä tavu. 
 hoikkuut:hoiku v2 ;
@@ -544,6 +548,11 @@ kuorustaat:kuorusta v2_odd ; ! v2_ta_odd
 vastustaat:vastusta v2_odd ; ! v2_ta_odd 
 mavustaat:mavusta v2_odd ; ! v2_ta_odd 
 savvustaat:savvusta v2_odd ; ! v2_ta_odd 
+tarkistaat:tarkista v2_odd ;
+krapsattaat:krapsatta v2_odd ;
+ripsattaat:ripsatta v2_odd ;
+kuossuttaat:kuossutta v2_odd ;
+suututtaat:suututta v2_odd ;
 kiehattaat:kiehatta v2_odd ; ! v2_ta_odd 
 tiphattaat:tiphatta v2_odd ; ! v2_ta_odd 
 vipshattaat:vipshatta v2_odd ; ! v2_ta_odd 
@@ -743,6 +752,11 @@ hermostuut:hermostu v2_odd ;
 tutustuut:tutustu v2_odd ;
 tapattuut:tapattu v2_odd ;
 haamustuut:haamustu v2_odd ;
+rakastuut:rakastu v2_odd ;
+huolestuut:huolestu v2_odd ;
+toistuut:toistu v2_odd ;
+uuđistuut:uuđistu v2_odd ;
+innostuut:innostu v2_odd ;
 havattuut:havattu v2_odd ;
 unheettuut:unheettu v2_odd ;
 vaihettuut:vaihettu v2_odd ;
@@ -759,7 +773,9 @@ ulelttuut:ulelttu v2_odd ;
 lihottuut:lihottu v2_odd ;
 rauhottuut:rauhottu v2_odd ;
 varvottuut:varvottu v2_odd ;
+pillaanttuut:pillaanttu v2_odd ;
 hyväksyyt:hyväksy v2_odd ;
+vähäksyyt:vähäksy v2_odd ;
 hivelttyyt:hivelty v2_odd ;
 kätkeenttyyt:kätkeenty v2_odd ;
 essiinttyyt:essiinty v2_odd ;
@@ -777,6 +793,7 @@ hengistyyt:hengisty v2_odd ;
 pöyhistyyt:pöyhisty v2_odd ;
 tyrmistyyt:tyrmisty v2_odd ;
 käyristyyt:käyristy v2_odd ;
+virkistyyt:virkisty v2_odd ;
 eđistyyt:eđisty v2_odd ;
 yhđistyyt:yhđisty v2_odd ;
 elästyyt:elästy v2_odd ;
@@ -814,6 +831,8 @@ järjestäät:järjestä v2_odd ;
 ylistäät:ylistä v2_odd ;
 eristäät:eristä v2_odd ; ! v2_ta_odd 
 käyristäät:käyristä v2_odd ;
+äänestäät:äänestä v2_odd ;
+ryöstäät:ryöstä v2_odd ;
 eđistäät:eđistä v2_odd ;
 eđistäät+Err/Orth:eistä v2_odd ; 
 yhđistäät:yhđistä v2_odd ;
@@ -882,6 +901,7 @@ pysättäät:pysättä v2_odd ;
 viivättäät:viivättä v2_odd ;
 piđättäät:piđättä v2_odd ;
 väköttäät:väköttä v2_odd ;
+imettäät:imettä v2_odd ;
 
 tiettäät:tie v2_tiettäät ;
 tiettäät+Err/Orth:tietää K ; 
@@ -1010,6 +1030,10 @@ urrutella:urruttel v3_ele ;
 kuossutella:kuossuttel v3_ele ;
 muistutella:muistuttel v3_ele ;
 lohđutella:lohđuttel v3_ele ;
+kummitella:kummitel v3_ele ;
+ujostella:ujostel v3_ele ;
+houkutella:houkutel v3_ele ;
+venytellä:venytel v3_ele ;
 lymmytellä:lymmyttel v3_ele ;
 räpytellä:räpyttel v3_ele ;
 väärytellä:vääryttel v3_ele ;
@@ -1083,6 +1107,8 @@ rukkoila:rukk2oil v3_ele_odd ;
 luppoila:lupp2oil v3_ele_odd ;
 muijoila:muijoil v3_ele_odd ;
 pirruila:pirruil v3_ele_odd ;
+hengaila:hengail v3_ele_odd ;
+snappaila:snappail v3_ele_odd ;
 hymmyilä:hymmyil v3_ele_odd ;
 lymmyilä:lymmyil v3_ele_odd ;
 lykkäilä:lykk2äil v3_ele_odd ;
@@ -2373,6 +2399,16 @@ korvata:korva v43_odd ;
 turvata:turva v43_odd ;
 kuvata:kuva v43_odd ;
 skruuvata:skruuva v43_odd ;
+surfata:surfa v43_odd ;
+puuhata:puuha v43_odd ;
+vallata:valla v43_odd ;
+feirata:feira v43_odd ;
+polsata:polsa v43_odd ;
+stressata:stressa v43_odd ;
+pissata:pissa v43_odd ;
+skeitata:skeita v43_odd ;
+postata:posta v43_odd ;
+poovata:poova v43_odd ;
 lohjeta:lohke v43_odd ;
 puhjeta:puhke v43_odd ;
 poiketa:poikke v43_odd ;
@@ -2476,6 +2512,10 @@ hyyrätä:hyyrä v43_odd ;
 tyyrätä:tyyrä v43_odd ;
 häärätä:häärä v43_odd ;
 määrätä:määrä v43_odd ;
+häklätä:häklä v43_odd ;
+silmätä:silmä v43_odd ;
+räpätä:räpä v43_odd ;
+höyrätä:höyrä v43_odd ;
 pörätä:pörä v43_odd ;
 lisätä:lisä v43_odd ;
 kryssätä:kryssä v43_odd ;
