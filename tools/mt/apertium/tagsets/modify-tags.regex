@@ -63,7 +63,7 @@
     "<cmpar>"     ->	"<comp>" ,
     "<superl>"     ->	"<sup>" ,
     "<recipr>"    ->	"<res>" ] .o.
-  [ "<inf3>"  ->        "infma"   ] .o.
+  [ "<inf3>"  ->        "<infma>"   ] .o.
   [ "<inf>"       ->	"<actv>" "<infa>" "<sg>" "<lat>" ] .o.
   [ "<card>" -> 0  ] .o.
   [ "<err_der>"  ->		0 ] .o.
