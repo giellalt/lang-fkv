@@ -325,7 +325,7 @@ LIST Sem/Fem = Sem/Fem ; #!! * Sem/Fem = feminin propernoun
 LIST Sem/ID = Sem/ID ;
 LIST Sem/Time = Sem/Time ;
 
-
+LIST Der/minen = Der/minen ;
 
 
 
@@ -1571,8 +1571,8 @@ MAP (@-FAUXV) TARGET ConNeg (-1 Neg) ;
 MAP (@-FAUXV) TARGET ConNeg (-1 Neg LINK -1 Nom) ;  # (*1 NNom BARRIER NPNH LINK *-1 Neg LINK -1 Nom) ; 
 
 
-MAP (@+FAUXV) TARGET REAL_AUX IF (NEGATE 0 ConNeg) ;
-MAP (@+FAUXV) TARGET REAL_AUX ;
+MAP (@+FAUXV) TARGET REAL_AUX IF (NEGATE 0 ConNeg OR Der/minen) ;
+#MAP (@+FAUXV) TARGET REAL_AUX ;
 
 
 
