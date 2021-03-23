@@ -873,7 +873,7 @@ REMOVE Pl + Par IF (-1 Sg)(0 Sg + Par);
 
 #!! !!More disambiguation rules
 #!! * __SgNotPl__
-REMOVE:Sg3 Pl3 IF (0 Sg3)(NOT *0 Pl + Nom BARRIER Pl3);
+REMOVE:Sg3 Pl3 OR Pl IF (0 Sg3)(NOT *0 Pl + Nom);
 
 
 #!! !Elative
@@ -1401,6 +1401,7 @@ MAP (@<OBJ) TARGET NNom IF (*-1 Pass) (*-1 Nom) ;
     # Needs barriers
 
 MAP (@N>) TARGET NSgNom IF (1 Prop) ;
+MAP:GenN (@N>) TARGET Gen IF (1 N) ;
 
 # LIST Cases = Ill Ine ; 
 # MAP (@N>) Pron + Dem IF (1 N) (1 $$Cases) (0 $$Cases) ;
@@ -1459,13 +1460,13 @@ MAP (@<SUBJ) TARGET Par (*-1 V-NOT-COPULAS BARRIER S-BOUNDARY2) (NEGATE 0 WORD L
 
 # Ihmisiä tungeksi torilla. 
 
-MAP (@<OBJ) TARGET Gen IF (-1 Act); #BARRIER CLB);# (NEGATE 0 WORD LINK 1 Gen) (NEGATE 0 WORD LINK *1 @<OBJ BARRIER CLB) (NEGATE 0 WORD LINK *1 Par BARRIER CLB) (NEGATE 0 WORD LINK *-1 REALCOPULAS BARRIER CLB OR VFIN) (NEGATE 0 WORD LINK 1 Po) (NEGATE 0 WORD LINK *-1 Neg BARRIER V);
+#MAP (@<OBJ) TARGET Gen IF (-1 Act BARRIER CLB);# (NEGATE 0 WORD LINK 1 Gen) (NEGATE 0 WORD LINK *1 @<OBJ BARRIER CLB) (NEGATE 0 WORD LINK *1 Par BARRIER CLB) (NEGATE 0 WORD LINK *-1 REALCOPULAS BARRIER CLB OR VFIN) (NEGATE 0 WORD LINK 1 Po) (NEGATE 0 WORD LINK *-1 Neg BARRIER V);
 
 MAP (@<OBJ) TARGET Gen IF (*-1 Act BARRIER CLB) (NEGATE 0 WORD LINK 1 Gen) (NEGATE 0 WORD LINK *1 @<OBJ BARRIER CLB) (NEGATE 0 WORD LINK *1 Par BARRIER CLB) (NEGATE 0 WORD LINK *-1 REALCOPULAS BARRIER CLB) (NEGATE 0 WORD LINK 1 Po) (NEGATE 0 WORD LINK *-1 Neg BARRIER V);
 
     # Hän käski minun tehdä sen.
 
-MAP (@<OBJ) TARGET Gen IF (-1 Act) (NEGATE 0 WORD LINK *1 Po BARRIER Po) (NEGATE 0 WORD LINK *-1 Neg BARRIER V) ;
+MAP (@<OBJ) TARGET Gen IF (-1 Act)(NOT -1 ("olla")) (NEGATE 0 WORD LINK *1 Po BARRIER Po) (NEGATE 0 WORD LINK *-1 Neg BARRIER V) ;
 
     # Luin sen ennen uutisia.
     # Istuin pöydän alla. -- Do not mark @OBJ in this instance.
