@@ -20,6 +20,7 @@
 
 # List any local filter regex files here:
 GIELLA_FILTER_LOCAL_REGEX_SRCS=\
+					remove-norm-comp-tags.regex                       \
 					rename-POS_before_Der-tags.regex                  \
 					remove-derivation-position-tags.regex             \
 					downcase_UCletters.regex
