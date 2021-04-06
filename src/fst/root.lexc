@@ -132,6 +132,8 @@ Multichar_Symbols
  +Use/-Spell   !!≈ * __@CODE@__ = Excluded in speller
  +Use/SpellNoSugg   !!≈ * __@CODE@__ = recognized but not suggested in speller
  +Use/NG   !!= @CODE@ only accept, not generate (for MT and Oahpa use)
+ +Use/GC           !!≈ * __@CODE@__ only retained in the HFST Grammar Checker disambiguation analyser
+ +Use/-GC          !!≈ * __@CODE@__ never retained in the HFST Grammar Checker disambiguation analyser
  +Use/Circ  !!= @CODE@ for numerals, copied from sme
 !! !Compounds
  +Cmp  !!≈ * __@CODE@__ =
