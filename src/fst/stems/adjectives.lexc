@@ -1,4 +1,4 @@
-!! !!!Kven language adjectives
+!! # Kven language adjectives
 
 
 LEXICON AdjectiveRoot
@@ -1060,22 +1060,22 @@ vapaa:vap2 VAPAA ; !
 !----------------------------------------------------------------------------------------------------------------------
 ! Old classification, eira 2007 I think
 
-!! !!2. Vokaalirankaiset
+!! ## 2. Vokaalirankaiset
 
-!! !!2.1 Kaksitavvuiset lyhykäisvokaaliset rangat
+!! ## 2.1 Kaksitavvuiset lyhykäisvokaaliset rangat
 
 !laiha vanha_a_21 ; !!= * @CODE@
 !turha vanha_a_21 ;
 !hieno vanha_a_21 ; !!= * @CODE@ needs own adj lex tag
 !siisti a_11_i ! TODO TODO TODO remember to _21 classification for adj too
 
-!! !!2.2. Usseempitavvuiset lyhykäisvokaaliset rangat
+!! ## 2.2. Usseempitavvuiset lyhykäisvokaaliset rangat
 
 
 !liberaali:liberaali vanha_a_22 ; !!= * @CODE@ XXX check whether pl = liberaaliksi or liberaaliksi
 !simppeli vanha_a_22odd ;
 
-!! !!2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
+!! ## 2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
 
 !valkkee:valkke vanha_a_23 ; !!= * @CODE@
 !selkkee:selkke vanha_a_23 ;
@@ -1085,23 +1085,23 @@ vapaa:vap2 VAPAA ; !
 !auttii:autt2ii vanha_a_23ii ; !!= * @CODE@
 
 
-!! !!3. Konsonanttirankaiset
+!! ## 3. Konsonanttirankaiset
 
-!! !!3.1. Kaksitavuiset
+!! ## 3.1. Kaksitavuiset
 !nuori:nuore vanha_a_31 ;
 
 !uusi:uute vanha_a_31si ; !!= * @CODE@
 !täysi:täyte vanha_a_31si ;
 
 
-!! !!3.2 Usseaempitavuiset
+!! ## 3.2 Usseaempitavuiset
 
 !tyven:tyven vanha_a_32 ; !!= * @CODE@
 !tinatyven:tina#tyven vanha_a_32 ;
 
 !vasen:vase vanha_a_32ma ; !!= * @CODE@
 
-!! !!3.3 Kokoontuma
+!! ## 3.3 Kokoontuma
 
 !rakas:rakk vanha_a_33as ;
 !tyyris:tyyr vanha_a_33is ;
@@ -1114,14 +1114,14 @@ vapaa:vap2 VAPAA ; !
 
 
 
-!! !! 4. Ekstrakonsonanttirankaiset
+!! 4. Ekstrakonsonanttirankaiset
 
-!! !!4.1 ekstrakonsonanttirankaiset
+!! ## 4.1 ekstrakonsonanttirankaiset
 
 !veres:vere vanha_a_41 ; !!= * @CODE@
 
 
-!! !! 4.2 -nen-adjektiivit
+!! 4.2 -nen-adjektiivit
 
 !varovainen:varovai vanha_a_42 ;
 
@@ -1130,6 +1130,6 @@ vapaa:vap2 VAPAA ; !
 !vestainen:vestai vanha_a_42odd ; !!= * @CODE@
 !konkreettinen:konkreetti vanha_a_42odd ; !!= * @CODE@
 
-!! !! 4.3 -ton-adjektiivit
+!! 4.3 -ton-adjektiivit
 
 ! onneton:onne vanha_a_43odd ;

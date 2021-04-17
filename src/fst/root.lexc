@@ -1,6 +1,6 @@
 
 ! ========================================================================
-!!               !!!Kven morphological transducer
+!! # Kven morphological transducer
 ! ========================================================================
 
 
@@ -10,208 +10,208 @@
 Multichar_Symbols
 
 
-+Ex/N	!!= * __@CODE@__ - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
-+Ex/A	!!= * __@CODE@__ - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
-+Ex/V	!!= * __@CODE@__ - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/N	!!= * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/A	!!= * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/V	!!= * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
-!!  !!Tags for POS
-+A       !!≈ * __@CODE@__ = Adjective
-+Adv     !!≈ * __@CODE@__ = Adverb
-+CC      !!≈ * __@CODE@__ = Conjunction
-+CS      !!≈ * __@CODE@__ = Subjunction
-+Interj  !!≈ * __@CODE@__ = Interjection
-+N       !!≈ * __@CODE@__ = Noun
-+Num     !!≈ * __@CODE@__ = Numerals
-+Pcle    !!≈ * __@CODE@__ = Participle?
-+Po      !!≈ * __@CODE@__ = Postposition
-+Pr      !!≈ * __@CODE@__ = Preposition
-+Pron    !!≈ * __@CODE@__ = Pronomen
-+V       !!≈ * __@CODE@__ = Verb
-+Neg     !!≈ * __@CODE@__ = Negation verb ei
-+ConNeg  !!≈ * __@CODE@__ = Negation form of verb
+!! ## Tags for POS
++A       !!≈ * **@CODE@** = Adjective
++Adv     !!≈ * **@CODE@** = Adverb
++CC      !!≈ * **@CODE@** = Conjunction
++CS      !!≈ * **@CODE@** = Subjunction
++Interj  !!≈ * **@CODE@** = Interjection
++N       !!≈ * **@CODE@** = Noun
++Num     !!≈ * **@CODE@** = Numerals
++Pcle    !!≈ * **@CODE@** = Participle?
++Po      !!≈ * **@CODE@** = Postposition
++Pr      !!≈ * **@CODE@** = Preposition
++Pron    !!≈ * **@CODE@** = Pronomen
++V       !!≈ * **@CODE@** = Verb
++Neg     !!≈ * **@CODE@** = Negation verb ei
++ConNeg  !!≈ * **@CODE@** = Negation form of verb
 
-+Prop     !!= * __@CODE@__ = Propernoun
-+Ord  !!≈ * __@CODE@__ = Ordinal
-+ABBR  !!≈ * __@CODE@__ = Abbreviation
++Prop     !!= * **@CODE@** = Propernoun
++Ord  !!≈ * **@CODE@** = Ordinal
++ABBR  !!≈ * **@CODE@** = Abbreviation
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
-+ACR  !!≈ * __@CODE@__ = Acronym
-+TV   !!≈ * __@CODE@__ = Transitive verb
-+IV   !!≈ * __@CODE@__ = Intansitive verb
-+Arab !!≈ * __@CODE@__ = Arabic
-+Coll !!≈ * __@CODE@__ = Collective numeral
++ACR  !!≈ * **@CODE@** = Acronym
++TV   !!≈ * **@CODE@** = Transitive verb
++IV   !!≈ * **@CODE@** = Intansitive verb
++Arab !!≈ * **@CODE@** = Arabic
++Coll !!≈ * **@CODE@** = Collective numeral
 +Rom
 +Dyn
 
-!!  !!Tags for grammar
+!! ## Tags for grammar
 
-!! !Pronoun types
-+Pers      !!≈ * __@CODE@__ = Personal
-+Dem       !!≈ * __@CODE@__ = Demonstrative
-+Interr    !!≈ * __@CODE@__ = Interrogative
-+Refl      !!≈ * __@CODE@__ = Reflexive
-+Recipr    !!≈ * __@CODE@__ = Reciprocal
-+Rel       !!≈ * __@CODE@__ = Relative
-+Indef     !!≈ * __@CODE@__ = Indefinitue
-+Qu        !!≈ * __@CODE@__ = Quantity
+!! ### Pronoun types
++Pers      !!≈ * **@CODE@** = Personal
++Dem       !!≈ * **@CODE@** = Demonstrative
++Interr    !!≈ * **@CODE@** = Interrogative
++Refl      !!≈ * **@CODE@** = Reflexive
++Recipr    !!≈ * **@CODE@** = Reciprocal
++Rel       !!≈ * **@CODE@** = Relative
++Indef     !!≈ * **@CODE@** = Indefinitue
++Qu        !!≈ * **@CODE@** = Quantity
 
-!! !Number
-+Sg   !!≈ * __@CODE@__ = Singular
-+Pl   !!≈ * __@CODE@__ = Plural
+!! ### Number
++Sg   !!≈ * **@CODE@** = Singular
++Pl   !!≈ * **@CODE@** = Plural
 
 !! Number-person
 
-+Sg1  !!≈ * __@CODE@__ = Singular 1
-+Sg2  !!≈ * __@CODE@__ = Singular 2
-+Sg3  !!≈ * __@CODE@__ = Singular 3
-+Pl1  !!≈ * __@CODE@__ = Plural 1
-+Pl2  !!≈ * __@CODE@__ = Plural 2
-+Pl3  !!≈ * __@CODE@__ = Plural 3
-+PxSg1 !!≈ * __@CODE@__ = Poss suff: the owner is Singular 1
-+PxSg2 !!≈ * __@CODE@__ = Poss suff: the owner is Singular 2
-+PxSg3 !!≈ * __@CODE@__ = Poss suff: the owner is Singular 3
-+PxPl1 !!≈ * __@CODE@__ = Poss suff: the owner is Plural 1
-+PxPl2 !!≈ * __@CODE@__ = Poss suff: the owner is Plural 2
-+PxPl3 !!≈ * __@CODE@__ = Poss suff: the owner is Plural 3
++Sg1  !!≈ * **@CODE@** = Singular 1
++Sg2  !!≈ * **@CODE@** = Singular 2
++Sg3  !!≈ * **@CODE@** = Singular 3
++Pl1  !!≈ * **@CODE@** = Plural 1
++Pl2  !!≈ * **@CODE@** = Plural 2
++Pl3  !!≈ * **@CODE@** = Plural 3
++PxSg1 !!≈ * **@CODE@** = Poss suff: the owner is Singular 1
++PxSg2 !!≈ * **@CODE@** = Poss suff: the owner is Singular 2
++PxSg3 !!≈ * **@CODE@** = Poss suff: the owner is Singular 3
++PxPl1 !!≈ * **@CODE@** = Poss suff: the owner is Plural 1
++PxPl2 !!≈ * **@CODE@** = Poss suff: the owner is Plural 2
++PxPl3 !!≈ * **@CODE@** = Poss suff: the owner is Plural 3
 
-!! !Case
+!! ### Case
 
-+Nom  !!≈ * __@CODE@__ = Nominative
-+Gen  !!≈ * __@CODE@__ = Genitive
-+Acc  !!≈ * __@CODE@__ = Accusative, for pronouns, but is it correct?
-+Ine  !!≈ * __@CODE@__ = Inessive
-+Ill  !!≈ * __@CODE@__ = Illative
-+Ela  !!≈ * __@CODE@__ = Elative
-+Ade  !!≈ * __@CODE@__ = Adessive
-+Abe  !!≈ * __@CODE@__ = Abessive
-+All  !!≈ * __@CODE@__ = Allative
-+Abl  !!≈ * __@CODE@__ = Ablative
-+Ess  !!≈ * __@CODE@__ = Essive
-+Tra  !!≈ * __@CODE@__ = Translaive
-+Ins  !!≈ * __@CODE@__ = Instructive
-+Com  !!≈ * __@CODE@__ = Comitative
-+Par  !!≈ * __@CODE@__ = Partitive
++Nom  !!≈ * **@CODE@** = Nominative
++Gen  !!≈ * **@CODE@** = Genitive
++Acc  !!≈ * **@CODE@** = Accusative, for pronouns, but is it correct?
++Ine  !!≈ * **@CODE@** = Inessive
++Ill  !!≈ * **@CODE@** = Illative
++Ela  !!≈ * **@CODE@** = Elative
++Ade  !!≈ * **@CODE@** = Adessive
++Abe  !!≈ * **@CODE@** = Abessive
++All  !!≈ * **@CODE@** = Allative
++Abl  !!≈ * **@CODE@** = Ablative
++Ess  !!≈ * **@CODE@** = Essive
++Tra  !!≈ * **@CODE@** = Translaive
++Ins  !!≈ * **@CODE@** = Instructive
++Com  !!≈ * **@CODE@** = Comitative
++Par  !!≈ * **@CODE@** = Partitive
 
 
-!! !Comparatives
-+Compar      !!≈ * __@CODE@__ = Comparative
-+Superl      !!≈ * __@CODE@__ = Superlative
+!! ### Comparatives
++Compar      !!≈ * **@CODE@** = Comparative
++Superl      !!≈ * **@CODE@** = Superlative
 
-!! !Finite verbs
-+Pass     !!≈ * __@CODE@__ = Passive
-+Ind      !!≈ * __@CODE@__ = Indicative
-+Act      !!≈ * __@CODE@__ = Active
-+Prs      !!≈ * __@CODE@__ = Presens
-+Prt      !!≈ * __@CODE@__ = Preteritum
-+Imprt    !!≈ * __@CODE@__ = Imperative
-+Cond     !!≈ * __@CODE@__ = Conditional
-+Pot      !!≈ * __@CODE@__ = Potential
+!! ### Finite verbs
++Pass     !!≈ * **@CODE@** = Passive
++Ind      !!≈ * **@CODE@** = Indicative
++Act      !!≈ * **@CODE@** = Active
++Prs      !!≈ * **@CODE@** = Presens
++Prt      !!≈ * **@CODE@** = Preteritum
++Imprt    !!≈ * **@CODE@** = Imperative
++Cond     !!≈ * **@CODE@** = Conditional
++Pot      !!≈ * **@CODE@** = Potential
 
-!! !Infinite verbs
-+Inf     !!≈ * __@CODE@__ = Infinitive
-+Lat	 !!≈ * __@CODE@__ = lative (the infinitive, used in Apertium)
-+PrsPrc  !!≈ * __@CODE@__ = Presence Particip
-+PrfPrc  !!≈ * __@CODE@__ = Preteritum Particip
-+Inf3    !!≈ * __@CODE@__ = Infinite 3
+!! ### Infinite verbs
++Inf     !!≈ * **@CODE@** = Infinitive
++Lat	 !!≈ * **@CODE@** = lative (the infinitive, used in Apertium)
++PrsPrc  !!≈ * **@CODE@** = Presence Particip
++PrfPrc  !!≈ * **@CODE@** = Preteritum Particip
++Inf3    !!≈ * **@CODE@** = Infinite 3
 
-!! !Punctuation
-+CLB    !!≈ * __@CODE@__ = Clause boundary
-+PUNCT  !!≈ * __@CODE@__ = Punctuation mark
-+HYPH   !!≈ * __@CODE@__ = Hyphenation mark
-+Attr   !!≈ * __@CODE@__ = Attributive form, hmm, check, for names?
-+LEFT  !!≈ * __@CODE@__ = left parenth
-+RIGHT  !!≈ * __@CODE@__ = right parenth
-+CLBfinal       !!≈ * __@CODE@__  Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
+!! ### Punctuation
++CLB    !!≈ * **@CODE@** = Clause boundary
++PUNCT  !!≈ * **@CODE@** = Punctuation mark
++HYPH   !!≈ * **@CODE@** = Hyphenation mark
++Attr   !!≈ * **@CODE@** = Attributive form, hmm, check, for names?
++LEFT  !!≈ * **@CODE@** = left parenth
++RIGHT  !!≈ * **@CODE@** = right parenth
++CLBfinal       !!≈ * **@CODE@**  Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
 
-!! !Speller tags
+!! ### Speller tags
  +Err/Orth   !!= @CODE@  misspelling or nor normative form. It will be included only in desc, not in norm.
- +Err/Hyph !!≈ * __@CODE@__ =
- +Err/Lex !!≈ * __@CODE@__ =
- +Err/SpaceCmp !!≈ * __@CODE@__ =
- +Use/-PMatch !!≈ * __@CODE@__ =
- +Use/PMatch !!≈ * __@CODE@__ =
- +Use/-Spell   !!≈ * __@CODE@__ = Excluded in speller
- +Use/SpellNoSugg   !!≈ * __@CODE@__ = recognized but not suggested in speller
+ +Err/Hyph !!≈ * **@CODE@** =
+ +Err/Lex !!≈ * **@CODE@** =
+ +Err/SpaceCmp !!≈ * **@CODE@** =
+ +Use/-PMatch !!≈ * **@CODE@** =
+ +Use/PMatch !!≈ * **@CODE@** =
+ +Use/-Spell   !!≈ * **@CODE@** = Excluded in speller
+ +Use/SpellNoSugg   !!≈ * **@CODE@** = recognized but not suggested in speller
  +Use/NG   !!= @CODE@ only accept, not generate (for MT and Oahpa use)
- +Use/GC           !!≈ * __@CODE@__ only retained in the HFST Grammar Checker disambiguation analyser
- +Use/-GC          !!≈ * __@CODE@__ never retained in the HFST Grammar Checker disambiguation analyser
+ +Use/GC           !!≈ * **@CODE@** only retained in the HFST Grammar Checker disambiguation analyser
+ +Use/-GC          !!≈ * **@CODE@** never retained in the HFST Grammar Checker disambiguation analyser
  +Use/Circ  !!= @CODE@ for numerals, copied from sme
-!! !Compounds
- +Cmp  !!≈ * __@CODE@__ =
- +Cmp/SplitR !!≈ * __@CODE@__ =
- +Cmp/Hyph     !!≈ * __@CODE@__ - on dynamic compounds that have a hyphen (in use?)
- +CmpNP/First  !!≈ * __@CODE@__ - ... only be first part in a compound or alone
- +CmpNP/None !!≈ * __@CODE@__ =
+!! ### Compounds
+ +Cmp  !!≈ * **@CODE@** =
+ +Cmp/SplitR !!≈ * **@CODE@** =
+ +Cmp/Hyph     !!≈ * **@CODE@** - on dynamic compounds that have a hyphen (in use?)
+ +CmpNP/First  !!≈ * **@CODE@** - ... only be first part in a compound or alone
+ +CmpNP/None !!≈ * **@CODE@** =
 
 
- +OLang/ENG !!≈ * __@CODE@__ = Language of common names
- +OLang/FIN !!≈ * __@CODE@__ = Language of common names
- +OLang/NNO !!≈ * __@CODE@__ = Language of common names
- +OLang/NOB !!≈ * __@CODE@__ = Language of common names
- +OLang/RUS !!≈ * __@CODE@__ = Language of common names
- +OLang/SMA !!≈ * __@CODE@__ = Language of common names
- +OLang/SME !!≈ * __@CODE@__ = Language of common names
- +OLang/SWE !!≈ * __@CODE@__ = Language of common names
- +OLang/UND !!≈ * __@CODE@__ = Language of common names
+ +OLang/ENG !!≈ * **@CODE@** = Language of common names
+ +OLang/FIN !!≈ * **@CODE@** = Language of common names
+ +OLang/NNO !!≈ * **@CODE@** = Language of common names
+ +OLang/NOB !!≈ * **@CODE@** = Language of common names
+ +OLang/RUS !!≈ * **@CODE@** = Language of common names
+ +OLang/SMA !!≈ * **@CODE@** = Language of common names
+ +OLang/SME !!≈ * **@CODE@** = Language of common names
+ +OLang/SWE !!≈ * **@CODE@** = Language of common names
+ +OLang/UND !!≈ * **@CODE@** = Language of common names
 
 
 
 
-!! !Derivation
- +Der   !!≈ * __@CODE@__ =
+!! ### Derivation
+ +Der   !!≈ * **@CODE@** =
  +Der1
  +Der2
  +Der3
  +Der4
  +Der5
 
- +Der/A  !!≈ * __@CODE@__ = deriving adjectives from verbs
- +Der/minen  !!≈ * __@CODE@__ =
- +Der/s  !!≈ * __@CODE@__ = deriving numerals
- !! !!Clitic tags
- +Clt        !!≈ * __@CODE@__ =
- +Qst        !!≈ * __@CODE@__ = Focusclitic question -ko
- +Foc/han   !!≈ * __@CODE@__ = Focusclitic -han
- +Foc/kaan  !!≈ * __@CODE@__ = Focusclitic -kaan
- +Foc/kin   !!≈ * __@CODE@__ = Focusclitic -kin
- +Foc/pa    !!≈ * __@CODE@__ = Focusclitic -pa
- +Foc/s        !!≈ * __@CODE@__ = Focusclitic -s
- +Foc/pas   !!≈ * __@CODE@__ = Focusclitic -pas
+ +Der/A  !!≈ * **@CODE@** = deriving adjectives from verbs
+ +Der/minen  !!≈ * **@CODE@** =
+ +Der/s  !!≈ * **@CODE@** = deriving numerals
+ !! ## Clitic tags
+ +Clt        !!≈ * **@CODE@** =
+ +Qst        !!≈ * **@CODE@** = Focusclitic question -ko
+ +Foc/han   !!≈ * **@CODE@** = Focusclitic -han
+ +Foc/kaan  !!≈ * **@CODE@** = Focusclitic -kaan
+ +Foc/kin   !!≈ * **@CODE@** = Focusclitic -kin
+ +Foc/pa    !!≈ * **@CODE@** = Focusclitic -pa
+ +Foc/s        !!≈ * **@CODE@** = Focusclitic -s
+ +Foc/pas   !!≈ * **@CODE@** = Focusclitic -pas
 
-!! !!Tokeniser tags
-  +MWE !!≈ * __@CODE@__ = multiword expression, for tokenisation
+!! ## Tokeniser tags
+  +MWE !!≈ * **@CODE@** = multiword expression, for tokenisation
 
-+v1        !!≈ * __@CODE@__ =
-+v2        !!≈ * __@CODE@__ =
-
-
++v1        !!≈ * **@CODE@** =
++v2        !!≈ * **@CODE@** =
 
 
-  +Gram/TAbbr    !!≈ ; @CODE@ : Transitive abbreviation (it needs an argument)
-  +Gram/NoAbbr   !!≈ ; @CODE@ : Intransitive abbreviations that are homonymous
+
+
+  +Gram/TAbbr    !!≈ * **@CODE@**:  Transitive abbreviation (it needs an argument)
+  +Gram/NoAbbr   !!≈ * **@CODE@**:  Intransitive abbreviations that are homonymous
                  !!    with more frequent words. They should only be considered
                  !!    abbreviations in the middle of a sentence.
-  +Gram/TNumAbbr !!≈ ; @CODE@ : Transitive abbreviation if the following
+  +Gram/TNumAbbr !!≈ * **@CODE@**:  Transitive abbreviation if the following
                  !!             constituent is numeric
- +Gram/NumNoAbbr !!≈ ; @CODE@ : Transitive abbreviations for which numerals
+ +Gram/NumNoAbbr !!≈ * **@CODE@**:  Transitive abbreviations for which numerals
                  !! are complements and normal words. The abbreviation usage
                  !! is less common and thus only the occurences in the middle of
                  !! the sentence can be considered as true cases.
-  +Gram/TIAbbr   !!≈ ; @CODE@ : Both transitive and intransitive abbreviation
-  +Gram/IAbbr    !!≈ ; @CODE@ : Intransitive abbreviation (it takes no argument)
-  +Gram/3syll    !!≈ ; @CODE@ :trisyllabic verbs
+  +Gram/TIAbbr   !!≈ * **@CODE@**:  Both transitive and intransitive abbreviation
+  +Gram/IAbbr    !!≈ * **@CODE@**:  Intransitive abbreviation (it takes no argument)
+  +Gram/3syll    !!≈ * **@CODE@**: trisyllabic verbs
 
 
 
-!! !!Semantic tags
+!! ## Semantic tags
 
 +Sem/Amount
-+Sem/Ani  !!≈ * __@CODE@__ = Animal names
-+Sem/Fem  !!≈ * __@CODE@__ = Female names
-+Sem/Mal  !!≈ * __@CODE@__ = Male names
-+Sem/Obj  !!≈ * __@CODE@__ = Names of objects
-+Sem/Org  !!≈ * __@CODE@__ = Names of organisations
-+Sem/Plc  !!≈ * __@CODE@__ = Place names
-+Sem/Sur  !!≈ * __@CODE@__ = Surnames
++Sem/Ani  !!≈ * **@CODE@** = Animal names
++Sem/Fem  !!≈ * **@CODE@** = Female names
++Sem/Mal  !!≈ * **@CODE@** = Male names
++Sem/Obj  !!≈ * **@CODE@** = Names of objects
++Sem/Org  !!≈ * **@CODE@** = Names of organisations
++Sem/Plc  !!≈ * **@CODE@** = Place names
++Sem/Sur  !!≈ * **@CODE@** = Surnames
 +Sem/ID  !!= * @CODE@ = ID
 +Sem/Build
 +Sem/Build-room
@@ -250,63 +250,63 @@ Multichar_Symbols
 +Sem/Year
 
 
-!! !!Dialect tags
-+Dial/-Var !!≈ * __@CODE@__ = Not Varanger
-+Dial/-Por !!≈ * __@CODE@__ = Not Porsanger
-+Dial/-Jok !!≈ * __@CODE@__ = Not Jokivarret
-+Dial/Var !!≈ * __@CODE@__ Varanger, short for +Dial/-Jok+Dial/-Por
-+Dial/Por !!≈ * __@CODE@__ Porsanger, short for +Dial/-Jok+Dial/-Var
-+Dial/Jok !!≈ * __@CODE@__ Jokivarret, short for +Dial/-Por+Dial/-V
+!! ## Dialect tags
++Dial/-Var !!≈ * **@CODE@** = Not Varanger
++Dial/-Por !!≈ * **@CODE@** = Not Porsanger
++Dial/-Jok !!≈ * **@CODE@** = Not Jokivarret
++Dial/Var !!≈ * **@CODE@** Varanger, short for +Dial/-Jok+Dial/-Por
++Dial/Por !!≈ * **@CODE@** Porsanger, short for +Dial/-Jok+Dial/-Var
++Dial/Jok !!≈ * **@CODE@** Jokivarret, short for +Dial/-Por+Dial/-V
 
-!! !!Stem variant tags
-+v1 !!≈ ; @CODE@ : variant 1
-+v2 !!≈ ; @CODE@ : variant 2
-+v3 !!≈ ; @CODE@ : variant 3
-+v4 !!≈ ; @CODE@ : variant 4
-+v5 !!≈ ; @CODE@ : variant 5
-+v6 !!≈ ; @CODE@ : variant 6
-+v7 !!≈ ; @CODE@ : variant 7
+!! ## Stem variant tags
++v1 !!≈ * **@CODE@**:  variant 1
++v2 !!≈ * **@CODE@**:  variant 2
++v3 !!≈ * **@CODE@**:  variant 3
++v4 !!≈ * **@CODE@**:  variant 4
++v5 !!≈ * **@CODE@**:  variant 5
++v6 !!≈ * **@CODE@**:  variant 6
++v7 !!≈ * **@CODE@**:  variant 7
 
 
 
-!!  !!Phonological symbols
+!! ## Phonological symbols
 
 ! p1 t1 k1  For cons grad -- in use at all? (remove these)
-i2  !!≈ * __@CODE@__ = plural i of nouns
-i3  !!≈ * __@CODE@__ = past tense i of verbs
-i4  !!≈ * __@CODE@__ = i in conditional isi of most verbs (without gemination)
-i5  !!≈ * __@CODE@__ = superlative i of adjectives
-i6  !!≈ * __@CODE@__ = i:j in poika:pojan
-i7     !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
+i2  !!≈ * **@CODE@** = plural i of nouns
+i3  !!≈ * **@CODE@** = past tense i of verbs
+i4  !!≈ * **@CODE@** = i in conditional isi of most verbs (without gemination)
+i5  !!≈ * **@CODE@** = superlative i of adjectives
+i6  !!≈ * **@CODE@** = i:j in poika:pojan
+i7     !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
 
- p2               !!≈ * __@CODE@__ = always p
- t2               !!≈ * __@CODE@__ = always t, cf. katt2oma always tt, underlying -ts-
- t3               !!≈ * __@CODE@__ = t participating in gradation, but not in t:s
- t4               !!≈ * __@CODE@__ = t for Finnish täytyy (no gemination, no nothing)
- k2              !!≈ * __@CODE@__ = always k
- k3              !!= * __@CODE@__ = k3 never k:v, contrary to k
- ^A          !!≈ * __@CODE@__ = Vowel harmony a/ä
- ^O         !!≈ * __@CODE@__ = Vowel harmony o/ö
- ^U         !!≈ * __@CODE@__ = Vowel harmony u/y
- ^V                  !!≈ * __@CODE@__ = Vowel copying
- ^N                  !!≈ * __@CODE@__ = tulˆNut, kävel^N^Ut
- ^E2I                 !!≈ * __@CODE@__ = for e to i change
- ^A2I                 !!≈ * __@CODE@__ = for a to i change
- ^I0                  !!≈ * __@CODE@__ = i to 0 in vanha_a_21 -Por with i endings: tooline
- ^E0                  !!≈ * __@CODE@__ = e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
- ^HMETA               !!≈ * __@CODE@__ = for h metathesis syksy - sykshyyn
- ^AO                  !!≈ * __@CODE@__ = a:0
- ^A0                  !!≈ * __@CODE@__ = a:o rannoissa
- ^WG                  !!≈ * __@CODE@__ = Weak grade matto - maton
- ^TJ                  !!≈ * __@CODE@__ = vuote vuoje
- ^T0                  !!≈ * __@CODE@__ = tytär tyär tytärtä tyärtä in Var
- ^UU                  !!≈ * __@CODE@__ = vuote vuue
- ^TES                 !!≈ * __@CODE@__ =  in use?
- ^VDEL              !!≈ * __@CODE@__ = Deleting long vowel in rakkaa- > rakas
- ^EDEL              !!≈ * __@CODE@__ = Deleting e in front of consonant
- ^AE                !!≈ * __@CODE@__ = for a to e change
- ^M2N                   !!≈ * __@CODE@__ = for m to n in lumi lunta
- ^¤                     !!≈ * __@CODE@__ = potecting against e:i word-finally (nalle, liike)
+ p2               !!≈ * **@CODE@** = always p
+ t2               !!≈ * **@CODE@** = always t, cf. katt2oma always tt, underlying -ts-
+ t3               !!≈ * **@CODE@** = t participating in gradation, but not in t:s
+ t4               !!≈ * **@CODE@** = t for Finnish täytyy (no gemination, no nothing)
+ k2              !!≈ * **@CODE@** = always k
+ k3              !!= * **@CODE@** = k3 never k:v, contrary to k
+ ^A          !!≈ * **@CODE@** = Vowel harmony a/ä
+ ^O         !!≈ * **@CODE@** = Vowel harmony o/ö
+ ^U         !!≈ * **@CODE@** = Vowel harmony u/y
+ ^V                  !!≈ * **@CODE@** = Vowel copying
+ ^N                  !!≈ * **@CODE@** = tulˆNut, kävel^N^Ut
+ ^E2I                 !!≈ * **@CODE@** = for e to i change
+ ^A2I                 !!≈ * **@CODE@** = for a to i change
+ ^I0                  !!≈ * **@CODE@** = i to 0 in vanha_a_21 -Por with i endings: tooline
+ ^E0                  !!≈ * **@CODE@** = e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
+ ^HMETA               !!≈ * **@CODE@** = for h metathesis syksy - sykshyyn
+ ^AO                  !!≈ * **@CODE@** = a:0
+ ^A0                  !!≈ * **@CODE@** = a:o rannoissa
+ ^WG                  !!≈ * **@CODE@** = Weak grade matto - maton
+ ^TJ                  !!≈ * **@CODE@** = vuote vuoje
+ ^T0                  !!≈ * **@CODE@** = tytär tyär tytärtä tyärtä in Var
+ ^UU                  !!≈ * **@CODE@** = vuote vuue
+ ^TES                 !!≈ * **@CODE@** =  in use?
+ ^VDEL              !!≈ * **@CODE@** = Deleting long vowel in rakkaa- > rakas
+ ^EDEL              !!≈ * **@CODE@** = Deleting e in front of consonant
+ ^AE                !!≈ * **@CODE@** = for a to e change
+ ^M2N                   !!≈ * **@CODE@** = for m to n in lumi lunta
+ ^¤                     !!≈ * **@CODE@** = potecting against e:i word-finally (nalle, liike)
  ^Por                   !!= * @CODE@ -- Porsanger  dialect
  ^Var                   !!= * @CODE@ -- Varanger   dialect
  ^Jok                   !!= * @CODE@ -- Jokivarret dialect
@@ -319,60 +319,60 @@ i7     !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
 
 
 
-!! !!Flag diacritics
+!! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
 !!
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @D.CmpSuff.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @P.CmpSuff.TRUE@  !!≈ | @CODE@ | Mark that we have passed R
- @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
+ @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
+ @D.CmpSuff.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
+ @P.CmpSuff.TRUE@  !!≈ |  @CODE@ | Mark that we have passed R
+ @D.CmpNone.TRUE@  !!≈ |  @CODE@ | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
 !!
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @C.ErrOrth@        !!≈ | @CODE@
- @D.ErrOrth.ON@ 	!!≈ | @CODE@
- @P.ErrOrth.ON@     !!≈ | @CODE@
- @R.ErrOrth.ON@     !!≈ | @CODE@
- @P.Pmatch.Loc@     !!≈ | @CODE@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
- @P.Pmatch.Backtrack@ !!≈ | @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
+ @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @C.ErrOrth@        !!≈ |  @CODE@
+ @D.ErrOrth.ON@ 	!!≈ |  @CODE@
+ @P.ErrOrth.ON@     !!≈ |  @CODE@
+ @R.ErrOrth.ON@     !!≈ |  @CODE@
+ @P.Pmatch.Loc@     !!≈ |  @CODE@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+ @P.Pmatch.Backtrack@ !!≈ |  @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
 
 
 
-@U.pron.nom@       !!≈ | @CODE@ | tbw
-@U.pron.gen@       !!≈ | @CODE@ | tbw
-@U.pron.gen2@      !!≈ | @CODE@ | tbw
-@U.pron.ill@       !!≈ | @CODE@ | tbw
-@U.pron.par@       !!≈ | @CODE@ | tbw
-@U.pron.par2@       !!≈ | @CODE@ | tbw
-@U.pron.par3@       !!≈ | @CODE@ | tbw
-@U.pron.ess@       !!≈ | @CODE@ | tbw
-@U.pron.tra@       !!≈ | @CODE@ | tbw
-@U.pron.ine@       !!≈ | @CODE@ | tbw
-@U.pron.ela@       !!≈ | @CODE@ | tbw
-@U.pron.all@       !!≈ | @CODE@ | tbw
-@U.pron.ade@       !!≈ | @CODE@ | tbw
-@U.pron.abl@       !!≈ | @CODE@ | tbw
-@P.compound.block@ !!≈ | @CODE@ | tbw
-@D.compound.block@ !!≈ | @CODE@ | tbw
+@U.pron.nom@       !!≈ |  @CODE@ | tbw
+@U.pron.gen@       !!≈ |  @CODE@ | tbw
+@U.pron.gen2@      !!≈ |  @CODE@ | tbw
+@U.pron.ill@       !!≈ |  @CODE@ | tbw
+@U.pron.par@       !!≈ |  @CODE@ | tbw
+@U.pron.par2@       !!≈ |  @CODE@ | tbw
+@U.pron.par3@       !!≈ |  @CODE@ | tbw
+@U.pron.ess@       !!≈ |  @CODE@ | tbw
+@U.pron.tra@       !!≈ |  @CODE@ | tbw
+@U.pron.ine@       !!≈ |  @CODE@ | tbw
+@U.pron.ela@       !!≈ |  @CODE@ | tbw
+@U.pron.all@       !!≈ |  @CODE@ | tbw
+@U.pron.ade@       !!≈ |  @CODE@ | tbw
+@U.pron.abl@       !!≈ |  @CODE@ | tbw
+@P.compound.block@ !!≈ |  @CODE@ | tbw
+@D.compound.block@ !!≈ |  @CODE@ | tbw
 
 
 ! For Finnish, not in use. Keep in mind:
@@ -386,12 +386,12 @@ i7     !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
 ! Z2 i:0 i-stems in par,gen pl
 
 ! =================================================
-!! !!Basic lexica, pointing to the other lexicon files
+!! ## Basic lexica, pointing to the other lexicon files
 ! =================================================
 
 !! Here is the Root lexicon, pointing to all the parts of speech:
 
-LEXICON Root    !!=  __@CODE@__
+LEXICON Root    !!=  **@CODE@**
 
 
  AdjectiveRoot ;  !!= * @CODE@

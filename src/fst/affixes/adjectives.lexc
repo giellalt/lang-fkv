@@ -1,6 +1,6 @@
 !! Affix file for Kven adjectives
 
-!! !!!The base lexica
+!! # The base lexica
 
 !! Each a_ lexicon gets the +A tag and is then redirected to
 !! a common x_ lexicon in the noun file, while compar and superl are here.
@@ -554,7 +554,7 @@ LEXICON x_22_ton_yksi_t !!= * @CODE@ alaston yhelä -t:läm alastoman
 ! +Pl+Gen:tt^Omm%>i2in K ;
 
 
-!! !!!Basic paradigms
+!! # Basic paradigms
 !  ===================
 
 !! Most cases are directed to affixes/nouns.lexc
@@ -568,7 +568,7 @@ LEXICON x_22_ton_yksi_t !!= * @CODE@ alaston yhelä -t:läm alastoman
 ! +Abe:%>tt^A PxxK ;
 
 
-!! !!Lexica for the non-uniform cases
+!! ## Lexica for the non-uniform cases
 !    ---------------------------------
 
 

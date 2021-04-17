@@ -1,10 +1,10 @@
 ! ===================================
-!! !!!LEXICA FOR KVEN VERB INFLECTION
+!! # LEXICA FOR KVEN VERB INFLECTION
 ! ===================================
 
 
 
-!! !!!Auxiliaries
+!! # Auxiliaries
 
 
 LEXICON neg !!= @CODE@ jakaantuu kolmeen
@@ -89,20 +89,20 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +V+Der+Der/minen:olemi n_22_inen ;
 
 
-!! !!!INCOMING
+!! # INCOMING
 
 !LEXICON v_x
 !+V: # ; ! Just to make it compile
 
 
-!! !!!Verbiluokat v1...
+!! # Verbiluokat v1...
 
 !! Luokkien v1, v2... Eiran kieliopin mukaan.
 !! Tarvitaan luultavasti alaluokkia.
 
 !! Jokaisessa leksikossa on infinitiivi, kolmannen
 !! persoonan pääteet, ja viittaus preesensin ja preteritin
-!! kautta leksikkoon __v12pers__, missä ''-n, -t, -mA, -ttA''
+!! kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 LEXICON v1 !!= @CODE@ saađa:saa
 +V+Inf:%>đ^A K ; ! đ
@@ -1012,7 +1012,7 @@ LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+Act+Inf3:%>tte%>m^A MATON ;
 +V+Der+Der/minen:ttemi n_22_inen ;
 
-LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ hantteerata:hantteera
+LEXICON v43 !!= @CODE@ hantteerata:hantteera
 +V+Inf:^WG%>t^A K ; !
 +V+Act+Ind+Prs+Sg3:%>^V K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
@@ -1054,7 +1054,7 @@ LEXICON v43 !!= @CODE@ kontraktiverbit !!= @CODE@ hantteerata:hantteera
 +V+Act+Inf3:%>^V%>m^A MATONodd ;
 +V+Der+Der/minen:%>^V%>mi n_22_inen ;
 
-LEXICON v43_odd !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
+LEXICON v43_odd !!= @CODE@ jatkata:jatka
 +V+Inf:^WG%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>^V K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
@@ -1097,7 +1097,7 @@ LEXICON v43_odd !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Der+Der/minen:%>^V%>mi n_22_inen ;
 
 
-LEXICON v43_odd_II !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
+LEXICON v43_odd_II !!= @CODE@ jatkata:jatka
 +V+Inf:^WG%>i%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>^V K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>i%>th^A^An K ;
@@ -1139,7 +1139,7 @@ LEXICON v43_odd_II !!= @CODE@ kontraktiverbit !!= @CODE@ jatkata:jatka
 +V+Act+Inf3:%>^V%>m^A MATON ;
 +V+Der+Der/minen:%>^V%>mi n_22_inen ;
 
-!! !!Verbien persoonapäätteet
+!! ## Verbien persoonapäätteet
 
 !! Tämä osa antaa personapäätteet.
 !! 1. ja 2. persoona erikseen, koska ne ovat samoja
