@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-fkv)](https://github.com/giellalt/lang-fkv/issues)
- [![Build Status](https://github.com/giellalt/lang-fkv/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-fkv/actions)
+[![Build Status](https://github.com/giellalt/lang-fkv/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-fkv/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-fkv)](https://raw.githubusercontent.com/giellalt/lang-fkv/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-fkv)
 for the Kven Finnish language by using the [Divvun Installer](http://divvun.no)
