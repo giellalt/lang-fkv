@@ -1,7 +1,7 @@
 # Kven Finnish documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-fkv)](https://raw.githubusercontent.com/giellalt/lang-fkv/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-fkv)](https://raw.githubusercontent.com/giellalt/lang-fkv/develop/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-fkv)](https://github.com/giellalt/lang-fkv/issues)
 [![Build status](https://github.com/giellalt/lang-fkv/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-fkv/actions)
 
