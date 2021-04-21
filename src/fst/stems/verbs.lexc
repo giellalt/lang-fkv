@@ -23,19 +23,21 @@
 !! * kontraktiverbit jatkata:jatka v43_odd ;
 
 LEXICON VerbRoot
+# Lexicon @LEXNAME@ 
 
-! v_v2
-! Now v3_ise all end on s. In order to have aukasevat, as an possible
-! Unexpected results: aukasseeva, aukaisseevat
-! Missing results: aukasevat, Unexpected results: aukasseevat
-olla: OLLA ;
-ei+V+Neg: neg ;
-saađa:saa v1 ;
-vieđä:vie v1 ;
-naiđa:nai v1iđa ;
-voiđa:voi v1iđa ;
-uiđa:ui v1iđa ;
-puiđa:pui v1iđa ;
+!! v_v2
+!! Now v3_ise all end on s. In order to have aukasevat, as an possible
+!! Unexpected results: aukasseeva, aukaisseevat
+!! Missing results: aukasevat, Unexpected results: aukasseevat
+
+olla: OLLA ;  !!≈ * @CODE@ 
+ei+V+Neg: neg ;  !!≈ * @CODE@ 
+saađa:saa v1 ;  !!≈ * @CODE@ 
+vieđä:vie v1 ;  !!≈ * @CODE@ 
+naiđa:nai v1iđa ;  !!≈ * @CODE@ 
+voiđa:voi v1iđa ;  !!≈ * @CODE@ 
+uiđa:ui v1iđa ;  !!≈ * @CODE@ 
+puiđa:pui v1iđa ; !! ...
 juođa:juo v1 ;
 luođa:luo v1 ;
 suođa:suo v1 ;

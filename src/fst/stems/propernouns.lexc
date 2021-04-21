@@ -1,11 +1,14 @@
- LEXICON ProperNoun !!= @CODE@ on kokeellinen leksikko
+!! # Propernoun lexicon for Kven
+
+
+LEXICON ProperNoun !!= @CODE@ on kokeellinen leksikko
 
 Noereh%! vanha_prop_org_21 ; !Sami youth organisation
-Ap:Ap2 vanha_nocmp_prop_org_21C ;
-Kap:Kap2 vanha_prop_sur_21C ;
-Tonle-Sap:Tonle-Sap2 vanha_prop_plc_21C ;
-Ginungagap:Ginungagap2 vanha_prop_plc_21C ;
-Ginnungagap:Ginnungagap2 vanha_prop_plc_21C ;
+Ap:Ap2 vanha_nocmp_prop_org_21C ;   !!≈ * @CODE@ 
+Kap:Kap2 vanha_prop_sur_21C ;  !!≈ * @CODE@ 
+Tonle-Sap:Tonle-Sap2 vanha_prop_plc_21C ;  !!≈ * @CODE@ 
+Ginungagap:Ginungagap2 vanha_prop_plc_21C ;  !!≈ * @CODE@ 
+Ginnungagap:Ginnungagap2 vanha_prop_plc_21C ; !! ...
 Nordkap:Nordkap2 vanha_prop_plc_21C ;
 Kyrenaikalandskap:Kyrenaikalandskap2 vanha_prop_plc_21C ;
 Fiskefelleskap:Fiskefelleskap2 vanha_prop_org_21C ;
