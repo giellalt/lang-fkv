@@ -6,6 +6,8 @@
 [![Build status](https://github.com/giellalt/lang-fkv/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-fkv/actions)
 
 This page documents the work on the **Kven Finnish language model**. 
+It contains some 45000 stems, and is in use, in the Kven e-dictionary, 
+and in a Kven spellchecker.
 
 # Project documentation
 
