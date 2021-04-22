@@ -1,924 +1,3655 @@
-<?xml version="1.0" encoding="UTF-8"?>  
-<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
-<document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
-  <header> 
-    <title>Generoidut muodot (kesäkuun 19. päivänä 2020, klo. 13:17)</title>  
-  </header> 
-  <body>	  
-    <section><title/>  
-<table>
-<tr><td>+A+Sg+Gen</td><td>+A+Sg+Gen</td></tr>
-<tr><td>viimi+A+Sg+Gen</td><td>viimi+A+Sg+Gen</td></tr>
-<tr><td>turkkiisi+A+Sg+Gen</td><td>turkkiisi+A+Sg+Gen</td></tr>
-<tr><td>ensi+A+Sg+Gen</td><td>ensi+A+Sg+Gen</td></tr>
-<tr><td>vaiti+A+Sg+Gen</td><td>vaiti+A+Sg+Gen</td></tr>
-<tr><td>irti+A+Sg+Gen</td><td>irti+A+Sg+Gen</td></tr>
-<tr><td>fonologinen+A+Sg+Gen</td><td>fonologinen+A+Sg+Gen</td></tr>
-<tr><td>paras+A+Sg+Gen</td><td>paras+A+Sg+Gen</td></tr>
-<tr><td>ohut+A+Sg+Gen</td><td>ohut+A+Sg+Gen</td></tr>
-<tr><td>ehyt+A+Sg+Gen</td><td>ehyt+A+Sg+Gen</td></tr>
-<tr><td>lyhyt+A+Sg+Gen</td><td>lyhyt+A+Sg+Gen</td></tr>
-<tr><td>ohu+A+Sg+Gen</td><td>ohu+A+Sg+Gen</td></tr>
-<tr><td>pikku+A+Sg+Gen</td><td>pikku+A+Sg+Gen</td></tr>
-<tr><td>lyhy+A+Sg+Gen</td><td>lyhy+A+Sg+Gen</td></tr>
-<tr><td>pahas+A+Sg+Gen</td><td>pahhaan</td></tr>
-<tr><td>puhelias+A+Sg+Gen</td><td>puhelihaan</td></tr>
-<tr><td>laupias+A+Sg+Gen</td><td>laupihaan</td></tr>
-<tr><td>kaikkivaltias+A+Sg+Gen</td><td>kaikkivaltihaan</td></tr>
-<tr><td>paljas+A+Sg+Gen</td><td>paljhaan</td></tr>
-<tr><td>voimakas+A+Sg+Gen</td><td>voimakkhaan</td></tr>
-<tr><td>rakas+A+Sg+Gen</td><td>rakkhaan</td></tr>
-<tr><td>viekas+A+Sg+Gen</td><td>viekkhaan</td></tr>
-<tr><td>onnekas+A+Sg+Gen</td><td>onnekkhaan</td></tr>
-<tr><td>raikas+A+Sg+Gen</td><td>raikkhaan</td></tr>
-<tr><td>vitamiinikas+A+Sg+Gen</td><td>vitamiinikkhaan</td></tr>
-<tr><td>rikas+A+Sg+Gen</td><td>rikkhaan</td></tr>
-<tr><td>raharikas+A+Sg+Gen</td><td>raharikkhaan</td></tr>
-<tr><td>fantasiirikas+A+Sg+Gen</td><td>fantasiirikkhaan</td></tr>
-<tr><td>lajirikas+A+Sg+Gen</td><td>lajirikkhaan</td></tr>
-<tr><td>färirikas+A+Sg+Gen</td><td>färirikkhaan</td></tr>
-<tr><td>tietorikas+A+Sg+Gen</td><td>tietorikkhaan</td></tr>
-<tr><td>sađetrikas+A+Sg+Gen</td><td>sađetrikkhaan</td></tr>
-<tr><td>lapsikas+A+Sg+Gen</td><td>lapsikkhaan</td></tr>
-<tr><td>praatikas+A+Sg+Gen</td><td>praatikkhaan</td></tr>
-<tr><td>vilkas+A+Sg+Gen</td><td>vilkkhaan</td></tr>
-<tr><td>nerokas+A+Sg+Gen</td><td>nerokkhaan</td></tr>
-<tr><td>arvokas+A+Sg+Gen</td><td>arvokkhaan</td></tr>
-<tr><td>kirkas+A+Sg+Gen</td><td>kirkkhaan</td></tr>
-<tr><td>liukas+A+Sg+Gen</td><td>liukkhaan</td></tr>
-<tr><td>raskas+A+Sg+Gen</td><td>raskhaan</td></tr>
-<tr><td>hurskas+A+Sg+Gen</td><td>hurskhaan</td></tr>
-<tr><td>vanhurskas+A+Sg+Gen</td><td>vanhurskhaan</td></tr>
-<tr><td>joutilas+A+Sg+Gen</td><td>joutilhaan</td></tr>
-<tr><td>armas+A+Sg+Gen</td><td>armhaan</td></tr>
-<tr><td>vanhaa+A+Sg+Gen</td><td>vanhaan</td></tr>
-<tr><td>vapaa+A+Sg+Gen</td><td>vaphaan</td></tr>
-<tr><td>reipas+A+Sg+Gen</td><td>reipphaan</td></tr>
-<tr><td>opas+A+Sg+Gen</td><td>opphaan</td></tr>
-<tr><td>vieras+A+Sg+Gen</td><td>vierhaan</td></tr>
-<tr><td>ventovieras+A+Sg+Gen</td><td>ventovierhaan</td></tr>
-<tr><td>sairas+A+Sg+Gen</td><td>sairhaan</td></tr>
-<tr><td>viisas+A+Sg+Gen</td><td>viishaan</td></tr>
-<tr><td>itteviisas+A+Sg+Gen</td><td>itteviishaan</td></tr>
-<tr><td>runsas+A+Sg+Gen</td><td>runshaan</td></tr>
-<tr><td>karsas+A+Sg+Gen</td><td>karshaan</td></tr>
-<tr><td>ahđas+A+Sg+Gen</td><td>ahthaan</td></tr>
-<tr><td>puhđas+A+Sg+Gen</td><td>puhthaan</td></tr>
-<tr><td>hiđas+A+Sg+Gen</td><td>hithaan</td></tr>
-<tr><td>harras+A+Sg+Gen</td><td>harthaan</td></tr>
-<tr><td>laatas+A+Sg+Gen</td><td>laatthaan</td></tr>
-<tr><td>rietas+A+Sg+Gen</td><td>rietthaan</td></tr>
-<tr><td>autuas+A+Sg+Gen</td><td>autuhaan</td></tr>
-<tr><td>raavas+A+Sg+Gen</td><td>raavhaan</td></tr>
-<tr><td>karvas+A+Sg+Gen</td><td>karvhaan</td></tr>
-<tr><td>sakea+A+Sg+Gen</td><td>sakean</td></tr>
-<tr><td>korkea+A+Sg+Gen</td><td>korkean</td></tr>
-<tr><td>ruskea+A+Sg+Gen</td><td>ruskean</td></tr>
-<tr><td>paha+A+Sg+Gen</td><td>pahan</td></tr>
-<tr><td>laiha+A+Sg+Gen</td><td>laihan</td></tr>
-<tr><td>turha+A+Sg+Gen</td><td>turhan</td></tr>
-<tr><td>lauha+A+Sg+Gen</td><td>lauhan</td></tr>
-<tr><td>laaja+A+Sg+Gen</td><td>laajan</td></tr>
-<tr><td>harmaaja+A+Sg+Gen</td><td>harmaajan</td></tr>
-<tr><td>hoppeeharmaaja+A+Sg+Gen</td><td>hoppeeharmaajan</td></tr>
-<tr><td>taaja+A+Sg+Gen</td><td>taajan</td></tr>
-<tr><td>liika+A+Sg+Gen</td><td>liijan</td></tr>
-<tr><td>hurja+A+Sg+Gen</td><td>hurjan</td></tr>
-<tr><td>kurja+A+Sg+Gen</td><td>kurjan</td></tr>
-<tr><td>luja+A+Sg+Gen</td><td>lujan</td></tr>
-<tr><td>raaka+A+Sg+Gen</td><td>raakan</td></tr>
-<tr><td>ilakka+A+Sg+Gen</td><td>ilakan</td></tr>
-<tr><td>hoikka+A+Sg+Gen</td><td>hoikan</td></tr>
-<tr><td>vankka+A+Sg+Gen</td><td>vankan</td></tr>
-<tr><td>tarkka+A+Sg+Gen</td><td>tarkan</td></tr>
-<tr><td>laiska+A+Sg+Gen</td><td>laiskan</td></tr>
-<tr><td>hauska+A+Sg+Gen</td><td>hauskan</td></tr>
-<tr><td>tiukka+A+Sg+Gen</td><td>tiukan</td></tr>
-<tr><td>soukka+A+Sg+Gen</td><td>soukan</td></tr>
-<tr><td>hankala+A+Sg+Gen</td><td>hankalan</td></tr>
-<tr><td>kamala+A+Sg+Gen</td><td>kamalan</td></tr>
-<tr><td>matala+A+Sg+Gen</td><td>matalan</td></tr>
-<tr><td>kavala+A+Sg+Gen</td><td>kavalan</td></tr>
-<tr><td>happela+A+Sg+Gen</td><td>happelan</td></tr>
-<tr><td>siila+A+Sg+Gen</td><td>siilan</td></tr>
-<tr><td>sula+A+Sg+Gen</td><td>sulan</td></tr>
-<tr><td>veđenpillaama+A+Sg+Gen</td><td>veđenpillaaman</td></tr>
-<tr><td>lama+A+Sg+Gen</td><td>laman</td></tr>
-<tr><td>hapan+A+Sg+Gen</td><td>happaman</td></tr>
-<tr><td>ulosantama+A+Sg+Gen</td><td>ulosantaman</td></tr>
-<tr><td>vasen+A+Sg+Gen</td><td>vaseman</td></tr>
-<tr><td>parhain+A+Sg+Gen</td><td>parhaiman</td></tr>
-<tr><td>kumma+A+Sg+Gen</td><td>kumman</td></tr>
-<tr><td>tumma+A+Sg+Gen</td><td>tumman</td></tr>
-<tr><td>oma+A+Sg+Gen</td><td>oman</td></tr>
-<tr><td>soma+A+Sg+Gen</td><td>soman</td></tr>
-<tr><td>alaston+A+Sg+Gen</td><td>alastoman</td></tr>
-<tr><td>rauhaton+A+Sg+Gen</td><td>rauhattoman</td></tr>
-<tr><td>viaton+A+Sg+Gen</td><td>viattoman</td></tr>
-<tr><td>rajaton+A+Sg+Gen</td><td>rajattoman</td></tr>
-<tr><td>pohjaton+A+Sg+Gen</td><td>pohjattoman</td></tr>
-<tr><td>vijaton+A+Sg+Gen</td><td>vijattoman</td></tr>
-<tr><td>jumalaton+A+Sg+Gen</td><td>jumalattoman</td></tr>
-<tr><td>vallaton+A+Sg+Gen</td><td>vallattoman</td></tr>
-<tr><td>saamaton+A+Sg+Gen</td><td>saamattoman</td></tr>
-<tr><td>mittaamaton+A+Sg+Gen</td><td>mittaamattoman</td></tr>
-<tr><td>maksamaton+A+Sg+Gen</td><td>maksamattoman</td></tr>
-<tr><td>perhäänantamaton+A+Sg+Gen</td><td>perhäänantamattoman</td></tr>
-<tr><td>paistamaton+A+Sg+Gen</td><td>paistamattoman</td></tr>
-<tr><td>luottamaton+A+Sg+Gen</td><td>luottamattoman</td></tr>
-<tr><td>ajattelematon+A+Sg+Gen</td><td>ajattelemattoman</td></tr>
-<tr><td>vaihettelematon+A+Sg+Gen</td><td>vaihettelemattoman</td></tr>
-<tr><td>valettelematon+A+Sg+Gen</td><td>valettelemattoman</td></tr>
-<tr><td>tottelematon+A+Sg+Gen</td><td>tottelemattoman</td></tr>
-<tr><td>olematon+A+Sg+Gen</td><td>olemattoman</td></tr>
-<tr><td>tuntematon+A+Sg+Gen</td><td>tuntemattoman</td></tr>
-<tr><td>naimaton+A+Sg+Gen</td><td>naimattoman</td></tr>
-<tr><td>huolimaton+A+Sg+Gen</td><td>huolimattoman</td></tr>
-<tr><td>oppimaton+A+Sg+Gen</td><td>oppimattoman</td></tr>
-<tr><td>vaatimaton+A+Sg+Gen</td><td>vaatimattoman</td></tr>
-<tr><td>uskomaton+A+Sg+Gen</td><td>uskomattoman</td></tr>
-<tr><td>liikkumaton+A+Sg+Gen</td><td>liikkumattoman</td></tr>
-<tr><td>taipumaton+A+Sg+Gen</td><td>taipumattoman</td></tr>
-<tr><td>loppumaton+A+Sg+Gen</td><td>loppumattoman</td></tr>
-<tr><td>muuttumaton+A+Sg+Gen</td><td>muuttumattoman</td></tr>
-<tr><td>herraton+A+Sg+Gen</td><td>herrattoman</td></tr>
-<tr><td>luvaton+A+Sg+Gen</td><td>luvattoman</td></tr>
-<tr><td>toimeton+A+Sg+Gen</td><td>toimettoman</td></tr>
-<tr><td>onneton+A+Sg+Gen</td><td>onnettoman</td></tr>
-<tr><td>ruokoton+A+Sg+Gen</td><td>ruokottoman</td></tr>
-<tr><td>uskoton+A+Sg+Gen</td><td>uskottoman</td></tr>
-<tr><td>armoton+A+Sg+Gen</td><td>armottoman</td></tr>
-<tr><td>painoton+A+Sg+Gen</td><td>painottoman</td></tr>
-<tr><td>levoton+A+Sg+Gen</td><td>levottoman</td></tr>
-<tr><td>kelvoton+A+Sg+Gen</td><td>kelvottoman</td></tr>
-<tr><td>arvoton+A+Sg+Gen</td><td>arvottoman</td></tr>
-<tr><td>mahđoton+A+Sg+Gen</td><td>mahđottoman</td></tr>
-<tr><td>loputon+A+Sg+Gen</td><td>loputtoman</td></tr>
-<tr><td>suruton+A+Sg+Gen</td><td>suruttoman</td></tr>
-<tr><td>avuton+A+Sg+Gen</td><td>avuttoman</td></tr>
-<tr><td>mavuton+A+Sg+Gen</td><td>mavuttoman</td></tr>
-<tr><td>varma+A+Sg+Gen</td><td>varman</td></tr>
-<tr><td>epävarma+A+Sg+Gen</td><td>epävarman</td></tr>
-<tr><td>ruma+A+Sg+Gen</td><td>ruman</td></tr>
-<tr><td>kuuma+A+Sg+Gen</td><td>kuuman</td></tr>
-<tr><td>ihana+A+Sg+Gen</td><td>ihanan</td></tr>
-<tr><td>arka+A+Sg+Gen</td><td>aran</td></tr>
-<tr><td>ankara+A+Sg+Gen</td><td>ankaran</td></tr>
-<tr><td>tieđonankara+A+Sg+Gen</td><td>tieđonankaran</td></tr>
-<tr><td>pimmeenarka+A+Sg+Gen</td><td>pimmeenaran</td></tr>
-<tr><td>ahkera+A+Sg+Gen</td><td>ahkeran</td></tr>
-<tr><td>uuttera+A+Sg+Gen</td><td>uutteran</td></tr>
-<tr><td>suora+A+Sg+Gen</td><td>suoran</td></tr>
-<tr><td>pystösuora+A+Sg+Gen</td><td>pystösuoran</td></tr>
-<tr><td>saura+A+Sg+Gen</td><td>sauran</td></tr>
-<tr><td>kippura+A+Sg+Gen</td><td>kippuran</td></tr>
-<tr><td>fasta+A+Sg+Gen</td><td>fastan</td></tr>
-<tr><td>musta+A+Sg+Gen</td><td>mustan</td></tr>
-<tr><td>pikimusta+A+Sg+Gen</td><td>pikimustan</td></tr>
-<tr><td>kirjaava+A+Sg+Gen</td><td>kirjaavan</td></tr>
-<tr><td>yhtheenhenkkaava+A+Sg+Gen</td><td>yhtheenhenkkaavan</td></tr>
-<tr><td>seuraava+A+Sg+Gen</td><td>seuraavan</td></tr>
-<tr><td>mahtaava+A+Sg+Gen</td><td>mahtaavan</td></tr>
-<tr><td>loistaava+A+Sg+Gen</td><td>loistaavan</td></tr>
-<tr><td>valttaava+A+Sg+Gen</td><td>valttaavan</td></tr>
-<tr><td>virttaava+A+Sg+Gen</td><td>virttaavan</td></tr>
-<tr><td>jouttaava+A+Sg+Gen</td><td>jouttaavan</td></tr>
-<tr><td>lihava+A+Sg+Gen</td><td>lihavan</td></tr>
-<tr><td>vakava+A+Sg+Gen</td><td>vakavan</td></tr>
-<tr><td>mukava+A+Sg+Gen</td><td>mukavan</td></tr>
-<tr><td>painava+A+Sg+Gen</td><td>painavan</td></tr>
-<tr><td>herrattava+A+Sg+Gen</td><td>herrattavan</td></tr>
-<tr><td>pulleeva+A+Sg+Gen</td><td>pulleevan</td></tr>
-<tr><td>tulleeva+A+Sg+Gen</td><td>tulleevan</td></tr>
-<tr><td>vahva+A+Sg+Gen</td><td>vahvan</td></tr>
-<tr><td>soppiiva+A+Sg+Gen</td><td>soppiivan</td></tr>
-<tr><td>kiva+A+Sg+Gen</td><td>kivan</td></tr>
-<tr><td>loiva+A+Sg+Gen</td><td>loivan</td></tr>
-<tr><td>kuiva+A+Sg+Gen</td><td>kuivan</td></tr>
-<tr><td>halpa+A+Sg+Gen</td><td>halvan</td></tr>
-<tr><td>kova+A+Sg+Gen</td><td>kovan</td></tr>
-<tr><td>harva+A+Sg+Gen</td><td>harvan</td></tr>
-<tr><td>nuuka+A+Sg+Gen</td><td>nuuvan</td></tr>
-<tr><td>puolikassuuva+A+Sg+Gen</td><td>puolikassuuvan</td></tr>
-<tr><td>leppääkassuuva+A+Sg+Gen</td><td>leppääkassuuvan</td></tr>
-<tr><td>tunttuuva+A+Sg+Gen</td><td>tunttuuvan</td></tr>
-<tr><td>tosi+A+Sg+Gen</td><td>tođen</td></tr>
-<tr><td>uusi+A+Sg+Gen</td><td>uuđen</td></tr>
-<tr><td>täysi+A+Sg+Gen</td><td>täyđen</td></tr>
-<tr><td>ehhee+A+Sg+Gen</td><td>ehheen</td></tr>
-<tr><td>tihhee+A+Sg+Gen</td><td>tihheen</td></tr>
-<tr><td>kuolu+A+Sg+Gen</td><td>kuolheen</td></tr>
-<tr><td>kokenu+A+Sg+Gen</td><td>kokenheen</td></tr>
-<tr><td>ahnet+A+Sg+Gen</td><td>ahnheen</td></tr>
-<tr><td>nainu+A+Sg+Gen</td><td>nainheen</td></tr>
-<tr><td>tiinet+A+Sg+Gen</td><td>tiinheen</td></tr>
-<tr><td>oppinu+A+Sg+Gen</td><td>oppinheen</td></tr>
-<tr><td>ravistunnu+A+Sg+Gen</td><td>ravistunnheen</td></tr>
-<tr><td>hermostunnu+A+Sg+Gen</td><td>hermostunnheen</td></tr>
-<tr><td>hengestynny+A+Sg+Gen</td><td>hengestynnheen</td></tr>
-<tr><td>hengistynny+A+Sg+Gen</td><td>hengistynnheen</td></tr>
-<tr><td>vaipunu+A+Sg+Gen</td><td>vaipunheen</td></tr>
-<tr><td>suuttunu+A+Sg+Gen</td><td>suuttunheen</td></tr>
-<tr><td>väsyny+A+Sg+Gen</td><td>väsynheen</td></tr>
-<tr><td>tuoret+A+Sg+Gen</td><td>tuorheen</td></tr>
-<tr><td>ussee+A+Sg+Gen</td><td>usheen</td></tr>
-<tr><td>kauhhee+A+Sg+Gen</td><td>kauheen</td></tr>
-<tr><td>tervet+A+Sg+Gen</td><td>tervheen</td></tr>
-<tr><td>rohkee+A+Sg+Gen</td><td>rohkeen</td></tr>
-<tr><td>laakkee+A+Sg+Gen</td><td>laakkeen</td></tr>
-<tr><td>makkee+A+Sg+Gen</td><td>makkeen</td></tr>
-<tr><td>sakkee+A+Sg+Gen</td><td>sakkeen</td></tr>
-<tr><td>vaikkee+A+Sg+Gen</td><td>vaikkeen</td></tr>
-<tr><td>oikkee+A+Sg+Gen</td><td>oikkeen</td></tr>
-<tr><td>muikkee+A+Sg+Gen</td><td>muikkeen</td></tr>
-<tr><td>valkkee+A+Sg+Gen</td><td>valkkeen</td></tr>
-<tr><td>ilmivalkkee+A+Sg+Gen</td><td>ilmivalkkeen</td></tr>
-<tr><td>vitivalkkee+A+Sg+Gen</td><td>vitivalkkeen</td></tr>
-<tr><td>selkkee+A+Sg+Gen</td><td>selkkeen</td></tr>
-<tr><td>ilkkee+A+Sg+Gen</td><td>ilkkeen</td></tr>
-<tr><td>sokkee+A+Sg+Gen</td><td>sokkeen</td></tr>
-<tr><td>huokkee+A+Sg+Gen</td><td>huokkeen</td></tr>
-<tr><td>karkkee+A+Sg+Gen</td><td>karkkeen</td></tr>
-<tr><td>korkkee+A+Sg+Gen</td><td>korkkeen</td></tr>
-<tr><td>tärkkee+A+Sg+Gen</td><td>tärkkeen</td></tr>
-<tr><td>aukkee+A+Sg+Gen</td><td>aukkeen</td></tr>
-<tr><td>laukkee+A+Sg+Gen</td><td>laukkeen</td></tr>
-<tr><td>ruskee+A+Sg+Gen</td><td>ruskeen</td></tr>
-<tr><td>sitkee+A+Sg+Gen</td><td>sitkeen</td></tr>
-<tr><td>notkee+A+Sg+Gen</td><td>notkeen</td></tr>
-<tr><td>haalee+A+Sg+Gen</td><td>haaleen</td></tr>
-<tr><td>vaalee+A+Sg+Gen</td><td>vaaleen</td></tr>
-<tr><td>haalee+A+Sg+Gen</td><td>halleen</td></tr>
-<tr><td>sillee+A+Sg+Gen</td><td>silleen</td></tr>
-<tr><td>pehmee+A+Sg+Gen</td><td>pehmeen</td></tr>
-<tr><td>himmee+A+Sg+Gen</td><td>himmeen</td></tr>
-<tr><td>pimmee+A+Sg+Gen</td><td>pimmeen</td></tr>
-<tr><td>pilkkapimmee+A+Sg+Gen</td><td>pilkkapimmeen</td></tr>
-<tr><td>säkkipimmee+A+Sg+Gen</td><td>säkkipimmeen</td></tr>
-<tr><td>syyspimmee+A+Sg+Gen</td><td>syyspimmeen</td></tr>
-<tr><td>kommee+A+Sg+Gen</td><td>kommeen</td></tr>
-<tr><td>kirmee+A+Sg+Gen</td><td>kirmeen</td></tr>
-<tr><td>ahnee+A+Sg+Gen</td><td>ahneen</td></tr>
-<tr><td>kappee+A+Sg+Gen</td><td>kappeen</td></tr>
-<tr><td>rappee+A+Sg+Gen</td><td>rappeen</td></tr>
-<tr><td>lieppee+A+Sg+Gen</td><td>lieppeen</td></tr>
-<tr><td>kippee+A+Sg+Gen</td><td>kippeen</td></tr>
-<tr><td>merikippee+A+Sg+Gen</td><td>merikippeen</td></tr>
-<tr><td>ylppee+A+Sg+Gen</td><td>ylppeen</td></tr>
-<tr><td>noppee+A+Sg+Gen</td><td>noppeen</td></tr>
-<tr><td>virree+A+Sg+Gen</td><td>virreen</td></tr>
-<tr><td>korree+A+Sg+Gen</td><td>korreen</td></tr>
-<tr><td>murree+A+Sg+Gen</td><td>murreen</td></tr>
-<tr><td>pyöree+A+Sg+Gen</td><td>pyöreen</td></tr>
-<tr><td>kalssee+A+Sg+Gen</td><td>kalsseen</td></tr>
-<tr><td>kostee+A+Sg+Gen</td><td>kosteen</td></tr>
-<tr><td>laattee+A+Sg+Gen</td><td>laatteen</td></tr>
-<tr><td>kiinttee+A+Sg+Gen</td><td>kiintteen</td></tr>
-<tr><td>hirvee+A+Sg+Gen</td><td>hirveen</td></tr>
-<tr><td>kevvee+A+Sg+Gen</td><td>kevveen</td></tr>
-<tr><td>levvee+A+Sg+Gen</td><td>levveen</td></tr>
-<tr><td>puoli+A+Sg+Gen</td><td>puolen</td></tr>
-<tr><td>käsipuoli+A+Sg+Gen</td><td>käsipuolen</td></tr>
-<tr><td>silmäpuoli+A+Sg+Gen</td><td>silmäpuolen</td></tr>
-<tr><td>irtain+A+Sg+Gen</td><td>irtaimen</td></tr>
-<tr><td>umpi+A+Sg+Gen</td><td>ummen</td></tr>
-<tr><td>pieni+A+Sg+Gen</td><td>pienen</td></tr>
-<tr><td>tyven+A+Sg+Gen</td><td>tyvenen</td></tr>
-<tr><td>tinatyven+A+Sg+Gen</td><td>tinatyvenen</td></tr>
-<tr><td>moni+A+Sg+Gen</td><td>monen</td></tr>
-<tr><td>nuori+A+Sg+Gen</td><td>nuoren</td></tr>
-<tr><td>suuri+A+Sg+Gen</td><td>suuren</td></tr>
-<tr><td>vihanen+A+Sg+Gen</td><td>vihasen</td></tr>
-<tr><td>samanaikhanen+A+Sg+Gen</td><td>samanaikhasen</td></tr>
-<tr><td>uuđenaikhanen+A+Sg+Gen</td><td>uuđenaikhasen</td></tr>
-<tr><td>nykyaikhanen+A+Sg+Gen</td><td>nykyaikhasen</td></tr>
-<tr><td>tuhanen+A+Sg+Gen</td><td>tuhasen</td></tr>
-<tr><td>pohjanen+A+Sg+Gen</td><td>pohjasen</td></tr>
-<tr><td>sekanen+A+Sg+Gen</td><td>sekasen</td></tr>
-<tr><td>hoikkanen+A+Sg+Gen</td><td>hoikkasen</td></tr>
-<tr><td>kukkanen+A+Sg+Gen</td><td>kukkasen</td></tr>
-<tr><td>mukkanen+A+Sg+Gen</td><td>mukkasen</td></tr>
-<tr><td>tummatukkanen+A+Sg+Gen</td><td>tummatukkasen</td></tr>
-<tr><td>pitkäjalkanen+A+Sg+Gen</td><td>pitkäjalkasen</td></tr>
-<tr><td>lokanen+A+Sg+Gen</td><td>lokasen</td></tr>
-<tr><td>neljennuskanen+A+Sg+Gen</td><td>neljennuskasen</td></tr>
-<tr><td>salanen+A+Sg+Gen</td><td>salasen</td></tr>
-<tr><td>kiimanen+A+Sg+Gen</td><td>kiimasen</td></tr>
-<tr><td>ylivoimanen+A+Sg+Gen</td><td>ylivoimasen</td></tr>
-<tr><td>punanen+A+Sg+Gen</td><td>punasen</td></tr>
-<tr><td>vaaleepunanen+A+Sg+Gen</td><td>vaaleepunasen</td></tr>
-<tr><td>aniliinipunanen+A+Sg+Gen</td><td>aniliinipunasen</td></tr>
-<tr><td>vähävoipanen+A+Sg+Gen</td><td>vähävoipasen</td></tr>
-<tr><td>tasanen+A+Sg+Gen</td><td>tasasen</td></tr>
-<tr><td>kaitanen+A+Sg+Gen</td><td>kaitasen</td></tr>
-<tr><td>keltainen+A+Sg+Gen</td><td>keltasen</td></tr>
-<tr><td>puolihintanen+A+Sg+Gen</td><td>puolihintasen</td></tr>
-<tr><td>monikertanen+A+Sg+Gen</td><td>monikertasen</td></tr>
-<tr><td>yksinkertanen+A+Sg+Gen</td><td>yksinkertasen</td></tr>
-<tr><td>vihainen+A+Sg+Gen</td><td>vihaisen</td></tr>
-<tr><td>vanhaanaikhainen+A+Sg+Gen</td><td>vanhaanaikhaisen</td></tr>
-<tr><td>samanaikhainen+A+Sg+Gen</td><td>samanaikhaisen</td></tr>
-<tr><td>uuđenaikhainen+A+Sg+Gen</td><td>uuđenaikhaisen</td></tr>
-<tr><td>nykyaikhainen+A+Sg+Gen</td><td>nykyaikhaisen</td></tr>
-<tr><td>pitkäaikhainen+A+Sg+Gen</td><td>pitkäaikhaisen</td></tr>
-<tr><td>kaukhainen+A+Sg+Gen</td><td>kaukhaisen</td></tr>
-<tr><td>alhainen+A+Sg+Gen</td><td>alhaisen</td></tr>
-<tr><td>salhainen+A+Sg+Gen</td><td>salhaisen</td></tr>
-<tr><td>eriskumhainen+A+Sg+Gen</td><td>eriskumhaisen</td></tr>
-<tr><td>varhainen+A+Sg+Gen</td><td>varhaisen</td></tr>
-<tr><td>aijankohthainen+A+Sg+Gen</td><td>aijankohthaisen</td></tr>
-<tr><td>pohjainen+A+Sg+Gen</td><td>pohjaisen</td></tr>
-<tr><td>hiljainen+A+Sg+Gen</td><td>hiljaisen</td></tr>
-<tr><td>sekainen+A+Sg+Gen</td><td>sekaisen</td></tr>
-<tr><td>väliaikainen+A+Sg+Gen</td><td>väliaikaisen</td></tr>
-<tr><td>likainen+A+Sg+Gen</td><td>likaisen</td></tr>
-<tr><td>nollapaikkainen+A+Sg+Gen</td><td>nollapaikkaisen</td></tr>
-<tr><td>kolmipaikkainen+A+Sg+Gen</td><td>kolmipaikkaisen</td></tr>
-<tr><td>kaksipaikkainen+A+Sg+Gen</td><td>kaksipaikkaisen</td></tr>
-<tr><td>yksipaikkainen+A+Sg+Gen</td><td>yksipaikkaisen</td></tr>
-<tr><td>tummatukkainen+A+Sg+Gen</td><td>tummatukkaisen</td></tr>
-<tr><td>neljenjalkainen+A+Sg+Gen</td><td>neljenjalkaisen</td></tr>
-<tr><td>pitkäjalkainen+A+Sg+Gen</td><td>pitkäjalkaisen</td></tr>
-<tr><td>vastahankainen+A+Sg+Gen</td><td>vastahankaisen</td></tr>
-<tr><td>kaksirankainen+A+Sg+Gen</td><td>kaksirankaisen</td></tr>
-<tr><td>yksirankainen+A+Sg+Gen</td><td>yksirankaisen</td></tr>
-<tr><td>konsonanttirankainen+A+Sg+Gen</td><td>konsonanttirankaisen</td></tr>
-<tr><td>lokainen+A+Sg+Gen</td><td>lokaisen</td></tr>
-<tr><td>paskainen+A+Sg+Gen</td><td>paskaisen</td></tr>
-<tr><td>nelinuskainen+A+Sg+Gen</td><td>nelinuskaisen</td></tr>
-<tr><td>puskainen+A+Sg+Gen</td><td>puskaisen</td></tr>
-<tr><td>latuskainen+A+Sg+Gen</td><td>latuskaisen</td></tr>
-<tr><td>ohukainen+A+Sg+Gen</td><td>ohukaisen</td></tr>
-<tr><td>korkukainen+A+Sg+Gen</td><td>korkukaisen</td></tr>
-<tr><td>oikkeuđenmukainen+A+Sg+Gen</td><td>oikkeuđenmukaisen</td></tr>
-<tr><td>reekelinmukainen+A+Sg+Gen</td><td>reekelinmukaisen</td></tr>
-<tr><td>epäreekelinmukainen+A+Sg+Gen</td><td>epäreekelinmukaisen</td></tr>
-<tr><td>suurukainen+A+Sg+Gen</td><td>suurukaisen</td></tr>
-<tr><td>pitukainen+A+Sg+Gen</td><td>pitukaisen</td></tr>
-<tr><td>maalainen+A+Sg+Gen</td><td>maalaisen</td></tr>
-<tr><td>ulkomaalainen+A+Sg+Gen</td><td>ulkomaalaisen</td></tr>
-<tr><td>ruijalainen+A+Sg+Gen</td><td>ruijalaisen</td></tr>
-<tr><td>talosvankkalainen+A+Sg+Gen</td><td>talosvankkalaisen</td></tr>
-<tr><td>jokalainen+A+Sg+Gen</td><td>jokalaisen</td></tr>
-<tr><td>tuiskalainen+A+Sg+Gen</td><td>tuiskalaisen</td></tr>
-<tr><td>tanskalainen+A+Sg+Gen</td><td>tanskalaisen</td></tr>
-<tr><td>roomalainen+A+Sg+Gen</td><td>roomalaisen</td></tr>
-<tr><td>suomalainen+A+Sg+Gen</td><td>suomalaisen</td></tr>
-<tr><td>norjalais-suomalainen+A+Sg+Gen</td><td>norjalais-suomalaisen</td></tr>
-<tr><td>suursuomalainen+A+Sg+Gen</td><td>suursuomalaisen</td></tr>
-<tr><td>salainen+A+Sg+Gen</td><td>salaisen</td></tr>
-<tr><td>saksalainen+A+Sg+Gen</td><td>saksalaisen</td></tr>
-<tr><td>tromssalainen+A+Sg+Gen</td><td>tromssalaisen</td></tr>
-<tr><td>ruottalainen+A+Sg+Gen</td><td>ruottalaisen</td></tr>
-<tr><td>juutalainen+A+Sg+Gen</td><td>juutalaisen</td></tr>
-<tr><td>vesisaarelainen+A+Sg+Gen</td><td>vesisaarelaisen</td></tr>
-<tr><td>pyssyjokilainen+A+Sg+Gen</td><td>pyssyjokilaisen</td></tr>
-<tr><td>puolilainen+A+Sg+Gen</td><td>puolilaisen</td></tr>
-<tr><td>saamilainen+A+Sg+Gen</td><td>saamilaisen</td></tr>
-<tr><td>erilainen+A+Sg+Gen</td><td>erilaisen</td></tr>
-<tr><td>evankeelis-lutherilainen+A+Sg+Gen</td><td>evankeelis-lutherilaisen</td></tr>
-<tr><td>suomalais-ugrilainen+A+Sg+Gen</td><td>suomalais-ugrilaisen</td></tr>
-<tr><td>raisilainen+A+Sg+Gen</td><td>raisilaisen</td></tr>
-<tr><td>englantilainen+A+Sg+Gen</td><td>englantilaisen</td></tr>
-<tr><td>hollantilainen+A+Sg+Gen</td><td>hollantilaisen</td></tr>
-<tr><td>paavilainen+A+Sg+Gen</td><td>paavilaisen</td></tr>
-<tr><td>villainen+A+Sg+Gen</td><td>villaisen</td></tr>
-<tr><td>tällainen+A+Sg+Gen</td><td>tällaisen</td></tr>
-<tr><td>samanlainen+A+Sg+Gen</td><td>samanlaisen</td></tr>
-<tr><td>muutamanlainen+A+Sg+Gen</td><td>muutamanlaisen</td></tr>
-<tr><td>kaikenlainen+A+Sg+Gen</td><td>kaikenlaisen</td></tr>
-<tr><td>pienenlainen+A+Sg+Gen</td><td>pienenlaisen</td></tr>
-<tr><td>monenlainen+A+Sg+Gen</td><td>monenlaisen</td></tr>
-<tr><td>nuorenlainen+A+Sg+Gen</td><td>nuorenlaisen</td></tr>
-<tr><td>senlainen+A+Sg+Gen</td><td>senlaisen</td></tr>
-<tr><td>toisenlainen+A+Sg+Gen</td><td>toisenlaisen</td></tr>
-<tr><td>kahđenlainen+A+Sg+Gen</td><td>kahđenlaisen</td></tr>
-<tr><td>yhđenlainen+A+Sg+Gen</td><td>yhđenlaisen</td></tr>
-<tr><td>tyyrhinlainen+A+Sg+Gen</td><td>tyyrhinlaisen</td></tr>
-<tr><td>isonlainen+A+Sg+Gen</td><td>isonlaisen</td></tr>
-<tr><td>tämänlainen+A+Sg+Gen</td><td>tämänlaisen</td></tr>
-<tr><td>höperänlainen+A+Sg+Gen</td><td>höperänlaisen</td></tr>
-<tr><td>vanholainen+A+Sg+Gen</td><td>vanholaisen</td></tr>
-<tr><td>lestadiolainen+A+Sg+Gen</td><td>lestadiolaisen</td></tr>
-<tr><td>torniolainen+A+Sg+Gen</td><td>torniolaisen</td></tr>
-<tr><td>vanholaislestaatiolainen+A+Sg+Gen</td><td>vanholaislestaatiolaisen</td></tr>
-<tr><td>alattiolainen+A+Sg+Gen</td><td>alattiolaisen</td></tr>
-<tr><td>tornionlaksolainen+A+Sg+Gen</td><td>tornionlaksolaisen</td></tr>
-<tr><td>suolainen+A+Sg+Gen</td><td>suolaisen</td></tr>
-<tr><td>tuolainen+A+Sg+Gen</td><td>tuolaisen</td></tr>
-<tr><td>savolainen+A+Sg+Gen</td><td>savolaisen</td></tr>
-<tr><td>jonkulainen+A+Sg+Gen</td><td>jonkulaisen</td></tr>
-<tr><td>kainulainen+A+Sg+Gen</td><td>kainulaisen</td></tr>
-<tr><td>vestakainulainen+A+Sg+Gen</td><td>vestakainulaisen</td></tr>
-<tr><td>minkälainen+A+Sg+Gen</td><td>minkälaisen</td></tr>
-<tr><td>kiimainen+A+Sg+Gen</td><td>kiimaisen</td></tr>
-<tr><td>alimainen+A+Sg+Gen</td><td>alimaisen</td></tr>
-<tr><td>ylivoimainen+A+Sg+Gen</td><td>ylivoimaisen</td></tr>
-<tr><td>ulomainen+A+Sg+Gen</td><td>ulomaisen</td></tr>
-<tr><td>etumainen+A+Sg+Gen</td><td>etumaisen</td></tr>
-<tr><td>yksituumainen+A+Sg+Gen</td><td>yksituumaisen</td></tr>
-<tr><td>hajanainen+A+Sg+Gen</td><td>hajanaisen</td></tr>
-<tr><td>vähäsanainen+A+Sg+Gen</td><td>vähäsanaisen</td></tr>
-<tr><td>aukinainen+A+Sg+Gen</td><td>aukinaisen</td></tr>
-<tr><td>harvinainen+A+Sg+Gen</td><td>harvinaisen</td></tr>
-<tr><td>kokonainen+A+Sg+Gen</td><td>kokonaisen</td></tr>
-<tr><td>punainen+A+Sg+Gen</td><td>punaisen</td></tr>
-<tr><td>vaaleepunainen+A+Sg+Gen</td><td>vaaleepunaisen</td></tr>
-<tr><td>aniliinipunainen+A+Sg+Gen</td><td>aniliinipunaisen</td></tr>
-<tr><td>ruusunpunainen+A+Sg+Gen</td><td>ruusunpunaisen</td></tr>
-<tr><td>vähävoipainen+A+Sg+Gen</td><td>vähävoipaisen</td></tr>
-<tr><td>pikkurainen+A+Sg+Gen</td><td>pikkuraisen</td></tr>
-<tr><td>tasainen+A+Sg+Gen</td><td>tasaisen</td></tr>
-<tr><td>epätasainen+A+Sg+Gen</td><td>epätasaisen</td></tr>
-<tr><td>hietainen+A+Sg+Gen</td><td>hietaisen</td></tr>
-<tr><td>kaitainen+A+Sg+Gen</td><td>kaitaisen</td></tr>
-<tr><td>ristiraitainen+A+Sg+Gen</td><td>ristiraitaisen</td></tr>
-<tr><td>väkivaltainen+A+Sg+Gen</td><td>väkivaltaisen</td></tr>
-<tr><td>keltainen+A+Sg+Gen</td><td>keltaisen</td></tr>
-<tr><td>punaisenkeltainen+A+Sg+Gen</td><td>punaisenkeltaisen</td></tr>
-<tr><td>puolihintainen+A+Sg+Gen</td><td>puolihintaisen</td></tr>
-<tr><td>monikertainen+A+Sg+Gen</td><td>monikertaisen</td></tr>
-<tr><td>monenkertainen+A+Sg+Gen</td><td>monenkertaisen</td></tr>
-<tr><td>kahđenkertainen+A+Sg+Gen</td><td>kahđenkertaisen</td></tr>
-<tr><td>yhđenkertainen+A+Sg+Gen</td><td>yhđenkertaisen</td></tr>
-<tr><td>yksinkertainen+A+Sg+Gen</td><td>yksinkertaisen</td></tr>
-<tr><td>virtainen+A+Sg+Gen</td><td>virtaisen</td></tr>
-<tr><td>vestainen+A+Sg+Gen</td><td>vestaisen</td></tr>
-<tr><td>luottavainen+A+Sg+Gen</td><td>luottavaisen</td></tr>
-<tr><td>vaivainen+A+Sg+Gen</td><td>vaivaisen</td></tr>
-<tr><td>uskovainen+A+Sg+Gen</td><td>uskovaisen</td></tr>
-<tr><td>varovainen+A+Sg+Gen</td><td>varovaisen</td></tr>
-<tr><td>karvainen+A+Sg+Gen</td><td>karvaisen</td></tr>
-<tr><td>rasvainen+A+Sg+Gen</td><td>rasvaisen</td></tr>
-<tr><td>likheinen+A+Sg+Gen</td><td>likheisen</td></tr>
-<tr><td>melkheinen+A+Sg+Gen</td><td>melkheisen</td></tr>
-<tr><td>ylheinen+A+Sg+Gen</td><td>ylheisen</td></tr>
-<tr><td>yhtheinen+A+Sg+Gen</td><td>yhtheisen</td></tr>
-<tr><td>myöntheinen+A+Sg+Gen</td><td>myöntheisen</td></tr>
-<tr><td>auringonpaistheinen+A+Sg+Gen</td><td>auringonpaistheisen</td></tr>
-<tr><td>fonoginen+A+Sg+Gen</td><td>fonologisen</td></tr>
-<tr><td>morfofonologinen+A+Sg+Gen</td><td>morfofonologisen</td></tr>
-<tr><td>biolooginen+A+Sg+Gen</td><td>bioloogisen</td></tr>
-<tr><td>psykolooginen+A+Sg+Gen</td><td>psykoloogisen</td></tr>
-<tr><td>ökolooginen+A+Sg+Gen</td><td>ökoloogisen</td></tr>
-<tr><td>vierhiinen+A+Sg+Gen</td><td>vierhiisen</td></tr>
-<tr><td>produktiivinen+A+Sg+Gen</td><td>produktiisen</td></tr>
-<tr><td>iänkaikkinen+A+Sg+Gen</td><td>iänkaikkisen</td></tr>
-<tr><td>piikkinen+A+Sg+Gen</td><td>piikkisen</td></tr>
-<tr><td>pahanilkinen+A+Sg+Gen</td><td>pahanilkisen</td></tr>
-<tr><td>nokinen+A+Sg+Gen</td><td>nokisen</td></tr>
-<tr><td>modaalinen+A+Sg+Gen</td><td>modaalisen</td></tr>
-<tr><td>sosiaalinen+A+Sg+Gen</td><td>sosiaalisen</td></tr>
-<tr><td>lyhykäisvokaalinen+A+Sg+Gen</td><td>lyhykäisvokaalisen</td></tr>
-<tr><td>maalinen+A+Sg+Gen</td><td>maalisen</td></tr>
-<tr><td>tradittiinaalinen+A+Sg+Gen</td><td>tradittiinaalisen</td></tr>
-<tr><td>pluraalinen+A+Sg+Gen</td><td>pluraalisen</td></tr>
-<tr><td>digitaalinen+A+Sg+Gen</td><td>digitaalisen</td></tr>
-<tr><td>aspektuaalinen+A+Sg+Gen</td><td>aspektuaalisen</td></tr>
-<tr><td>rauhalinen+A+Sg+Gen</td><td>rauhalisen</td></tr>
-<tr><td>histoorialinen+A+Sg+Gen</td><td>histoorialisen</td></tr>
-<tr><td>historialinen+A+Sg+Gen</td><td>historialisen</td></tr>
-<tr><td>paikalinen+A+Sg+Gen</td><td>paikalisen</td></tr>
-<tr><td>kummalinen+A+Sg+Gen</td><td>kummalisen</td></tr>
-<tr><td>vaaralinen+A+Sg+Gen</td><td>vaaralisen</td></tr>
-<tr><td>viralinen+A+Sg+Gen</td><td>viralisen</td></tr>
-<tr><td>kansalinen+A+Sg+Gen</td><td>kansalisen</td></tr>
-<tr><td>osalinen+A+Sg+Gen</td><td>osalisen</td></tr>
-<tr><td>tavalinen+A+Sg+Gen</td><td>tavalisen</td></tr>
-<tr><td>epätavalinen+A+Sg+Gen</td><td>epätavalisen</td></tr>
-<tr><td>turvalinen+A+Sg+Gen</td><td>turvalisen</td></tr>
-<tr><td>luvalinen+A+Sg+Gen</td><td>luvalisen</td></tr>
-<tr><td>raiđalinen+A+Sg+Gen</td><td>raiđalisen</td></tr>
-<tr><td>tarpheelinen+A+Sg+Gen</td><td>tarpheelisen</td></tr>
-<tr><td>murheelinen+A+Sg+Gen</td><td>murheelisen</td></tr>
-<tr><td>katheelinen+A+Sg+Gen</td><td>katheelisen</td></tr>
-<tr><td>satheelinen+A+Sg+Gen</td><td>satheelisen</td></tr>
-<tr><td>puutheelinen+A+Sg+Gen</td><td>puutheelisen</td></tr>
-<tr><td>tervheelinen+A+Sg+Gen</td><td>tervheelisen</td></tr>
-<tr><td>hengelinen+A+Sg+Gen</td><td>hengelisen</td></tr>
-<tr><td>rehelinen+A+Sg+Gen</td><td>rehelisen</td></tr>
-<tr><td>kolmikielinen+A+Sg+Gen</td><td>kolmikielisen</td></tr>
-<tr><td>kaksikielinen+A+Sg+Gen</td><td>kaksikielisen</td></tr>
-<tr><td>suomenkielinen+A+Sg+Gen</td><td>suomenkielisen</td></tr>
-<tr><td>kainunkielinen+A+Sg+Gen</td><td>kainunkielisen</td></tr>
-<tr><td>ylimielinen+A+Sg+Gen</td><td>ylimielisen</td></tr>
-<tr><td>yksmielinen+A+Sg+Gen</td><td>yksmielisen</td></tr>
-<tr><td>onnelinen+A+Sg+Gen</td><td>onnelisen</td></tr>
-<tr><td>äänelinen+A+Sg+Gen</td><td>äänelisen</td></tr>
-<tr><td>lapselinen+A+Sg+Gen</td><td>lapselisen</td></tr>
-<tr><td>ittelinen+A+Sg+Gen</td><td>ittelisen</td></tr>
-<tr><td>tähđelinen+A+Sg+Gen</td><td>tähđelisen</td></tr>
-<tr><td>tođelinen+A+Sg+Gen</td><td>tođelisen</td></tr>
-<tr><td>täyđelinen+A+Sg+Gen</td><td>täyđelisen</td></tr>
-<tr><td>eilinen+A+Sg+Gen</td><td>eilisen</td></tr>
-<tr><td>ruumhiilinen+A+Sg+Gen</td><td>ruumhiilisen</td></tr>
-<tr><td>faakilinen+A+Sg+Gen</td><td>faakilisen</td></tr>
-<tr><td>arkiivifaakilinen+A+Sg+Gen</td><td>arkiivifaakilisen</td></tr>
-<tr><td>merkilinen+A+Sg+Gen</td><td>merkilisen</td></tr>
-<tr><td>teknilinen+A+Sg+Gen</td><td>teknilisen</td></tr>
-<tr><td>kropilinen+A+Sg+Gen</td><td>kropilisen</td></tr>
-<tr><td>tyypilinen+A+Sg+Gen</td><td>tyypilisen</td></tr>
-<tr><td>sportilinen+A+Sg+Gen</td><td>sportilisen</td></tr>
-<tr><td>kristilinen+A+Sg+Gen</td><td>kristilisen</td></tr>
-<tr><td>paralellinen+A+Sg+Gen</td><td>paralellisen</td></tr>
-<tr><td>histoorillinen+A+Sg+Gen</td><td>histoorillisen</td></tr>
-<tr><td>uskonollinen+A+Sg+Gen</td><td>uskonollisen</td></tr>
-<tr><td>ystävällinen+A+Sg+Gen</td><td>ystävällisen</td></tr>
-<tr><td>pakolinen+A+Sg+Gen</td><td>pakolisen</td></tr>
-<tr><td>uskolinen+A+Sg+Gen</td><td>uskolisen</td></tr>
-<tr><td>joukolinen+A+Sg+Gen</td><td>joukolisen</td></tr>
-<tr><td>armolinen+A+Sg+Gen</td><td>armolisen</td></tr>
-<tr><td>painolinen+A+Sg+Gen</td><td>painolisen</td></tr>
-<tr><td>valtapainolinen+A+Sg+Gen</td><td>valtapainolisen</td></tr>
-<tr><td>sivvupainolinen+A+Sg+Gen</td><td>sivvupainolisen</td></tr>
-<tr><td>kunnolinen+A+Sg+Gen</td><td>kunnolisen</td></tr>
-<tr><td>luonolinen+A+Sg+Gen</td><td>luonolisen</td></tr>
-<tr><td>urhoolinen+A+Sg+Gen</td><td>urhoolisen</td></tr>
-<tr><td>ehtoolinen+A+Sg+Gen</td><td>ehtoolisen</td></tr>
-<tr><td>kiitolinen+A+Sg+Gen</td><td>kiitolisen</td></tr>
-<tr><td>luontolinen+A+Sg+Gen</td><td>luontolisen</td></tr>
-<tr><td>javolinen+A+Sg+Gen</td><td>javolisen</td></tr>
-<tr><td>velvolinen+A+Sg+Gen</td><td>velvolisen</td></tr>
-<tr><td>mahđolinen+A+Sg+Gen</td><td>mahđolisen</td></tr>
-<tr><td>prikulinen+A+Sg+Gen</td><td>prikulisen</td></tr>
-<tr><td>lopulinen+A+Sg+Gen</td><td>lopulisen</td></tr>
-<tr><td>pirulinen+A+Sg+Gen</td><td>pirulisen</td></tr>
-<tr><td>surulinen+A+Sg+Gen</td><td>surulisen</td></tr>
-<tr><td>ruuđulinen+A+Sg+Gen</td><td>ruuđulisen</td></tr>
-<tr><td>ylinen+A+Sg+Gen</td><td>ylisen</td></tr>
-<tr><td>myrkylinen+A+Sg+Gen</td><td>myrkylisen</td></tr>
-<tr><td>lykylinen+A+Sg+Gen</td><td>lykylisen</td></tr>
-<tr><td>hyöđylinen+A+Sg+Gen</td><td>hyöđylisen</td></tr>
-<tr><td>pitkälinen+A+Sg+Gen</td><td>pitkälisen</td></tr>
-<tr><td>välinen+A+Sg+Gen</td><td>välisen</td></tr>
-<tr><td>viiminen+A+Sg+Gen</td><td>viimisen</td></tr>
-<tr><td>ekonominen+A+Sg+Gen</td><td>ekonomisen</td></tr>
-<tr><td>autonoominen+A+Sg+Gen</td><td>autonoomisen</td></tr>
-<tr><td>luminen+A+Sg+Gen</td><td>lumisen</td></tr>
-<tr><td>synonyyminen+A+Sg+Gen</td><td>synonyymisen</td></tr>
-<tr><td>sininen+A+Sg+Gen</td><td>sinisen</td></tr>
-<tr><td>vaaleesininen+A+Sg+Gen</td><td>vaaleesinisen</td></tr>
-<tr><td>elektroninen+A+Sg+Gen</td><td>elektronisen</td></tr>
-<tr><td>pahanjuoninen+A+Sg+Gen</td><td>pahanjuonisen</td></tr>
-<tr><td>vastahakoinen+A+Sg+Gen</td><td>vastahakoisen</td></tr>
-<tr><td>kotitekoinen+A+Sg+Gen</td><td>kotitekoisen</td></tr>
-<tr><td>erikoinen+A+Sg+Gen</td><td>erikoisen</td></tr>
-<tr><td>louhikkoinen+A+Sg+Gen</td><td>louhikkoisen</td></tr>
-<tr><td>alinkoinen+A+Sg+Gen</td><td>alinkoisen</td></tr>
-<tr><td>aurinkoinen+A+Sg+Gen</td><td>aurinkoisen</td></tr>
-<tr><td>kokoinen+A+Sg+Gen</td><td>kokoisen</td></tr>
-<tr><td>puolikokoinen+A+Sg+Gen</td><td>puolikokoisen</td></tr>
-<tr><td>epäuskoinen+A+Sg+Gen</td><td>epäuskoisen</td></tr>
-<tr><td>iloinen+A+Sg+Gen</td><td>iloisen</td></tr>
-<tr><td>kiloinen+A+Sg+Gen</td><td>kiloisen</td></tr>
-<tr><td>suloinen+A+Sg+Gen</td><td>suloisen</td></tr>
-<tr><td>epäluuloinen+A+Sg+Gen</td><td>epäluuloisen</td></tr>
-<tr><td>kivuloinen+A+Sg+Gen</td><td>kivuloisen</td></tr>
-<tr><td>aikamoinen+A+Sg+Gen</td><td>aikamoisen</td></tr>
-<tr><td>semmoinen+A+Sg+Gen</td><td>semmoisen</td></tr>
-<tr><td>tuomoinen+A+Sg+Gen</td><td>tuomoisen</td></tr>
-<tr><td>toinen+A+Sg+Gen</td><td>toisen</td></tr>
-<tr><td>pitkävetoinen+A+Sg+Gen</td><td>pitkävetoisen</td></tr>
-<tr><td>vapaaehtoinen+A+Sg+Gen</td><td>vapaaehtoisen</td></tr>
-<tr><td>hyvämuistoinen+A+Sg+Gen</td><td>hyvämuistoisen</td></tr>
-<tr><td>samanarvoinen+A+Sg+Gen</td><td>samanarvoisen</td></tr>
-<tr><td>prototyyppinen+A+Sg+Gen</td><td>prototyyppisen</td></tr>
-<tr><td>populaarinen+A+Sg+Gen</td><td>populaarisen</td></tr>
-<tr><td>porvarinen+A+Sg+Gen</td><td>porvarisen</td></tr>
-<tr><td>geneerinen+A+Sg+Gen</td><td>geneerisen</td></tr>
-<tr><td>tummaverinen+A+Sg+Gen</td><td>tummaverisen</td></tr>
-<tr><td>vihrinen+A+Sg+Gen</td><td>vihrisen</td></tr>
-<tr><td>kelta-vihrinen+A+Sg+Gen</td><td>kelta-vihrisen</td></tr>
-<tr><td>sini-vihrinen+A+Sg+Gen</td><td>sini-vihrisen</td></tr>
-<tr><td>obligatoorinen+A+Sg+Gen</td><td>obligatoorisen</td></tr>
-<tr><td>elektrinen+A+Sg+Gen</td><td>elektrisen</td></tr>
-<tr><td>pahankurinen+A+Sg+Gen</td><td>pahankurisen</td></tr>
-<tr><td>hullunkurinen+A+Sg+Gen</td><td>hullunkurisen</td></tr>
-<tr><td>kulttuurinen+A+Sg+Gen</td><td>kulttuurisen</td></tr>
-<tr><td>färinen+A+Sg+Gen</td><td>färisen</td></tr>
-<tr><td>erifärinen+A+Sg+Gen</td><td>erifärisen</td></tr>
-<tr><td>samanfärinen+A+Sg+Gen</td><td>samanfärisen</td></tr>
-<tr><td>vesinen+A+Sg+Gen</td><td>vesisen</td></tr>
-<tr><td>kaksinen+A+Sg+Gen</td><td>kaksisen</td></tr>
-<tr><td>kompleksinen+A+Sg+Gen</td><td>kompleksisen</td></tr>
-<tr><td>pitkävarsinen+A+Sg+Gen</td><td>pitkävarsisen</td></tr>
-<tr><td>saftinen+A+Sg+Gen</td><td>saftisen</td></tr>
-<tr><td>syntaktinen+A+Sg+Gen</td><td>syntaktisen</td></tr>
-<tr><td>entinen+A+Sg+Gen</td><td>entisen</td></tr>
-<tr><td>syntinen+A+Sg+Gen</td><td>syntisen</td></tr>
-<tr><td>läntinen+A+Sg+Gen</td><td>läntisen</td></tr>
-<tr><td>totinen+A+Sg+Gen</td><td>totisen</td></tr>
-<tr><td>vuotinen+A+Sg+Gen</td><td>vuotisen</td></tr>
-<tr><td>dramaattinen+A+Sg+Gen</td><td>dramaattisen</td></tr>
-<tr><td>systemaattinen+A+Sg+Gen</td><td>systemaattisen</td></tr>
-<tr><td>symptomaattinen+A+Sg+Gen</td><td>symptomaattisen</td></tr>
-<tr><td>sympaattinen+A+Sg+Gen</td><td>sympaattisen</td></tr>
-<tr><td>konkreettinen+A+Sg+Gen</td><td>konkreettisen</td></tr>
-<tr><td>poliittinen+A+Sg+Gen</td><td>poliittisen</td></tr>
-<tr><td>polittinen+A+Sg+Gen</td><td>polittisen</td></tr>
-<tr><td>pulittinen+A+Sg+Gen</td><td>pulittisen</td></tr>
-<tr><td>neljenkanttinen+A+Sg+Gen</td><td>neljenkanttisen</td></tr>
-<tr><td>kahđeksenkanttinen+A+Sg+Gen</td><td>kahđeksenkanttisen</td></tr>
-<tr><td>neliskanttinen+A+Sg+Gen</td><td>neliskanttisen</td></tr>
-<tr><td>semanttinen+A+Sg+Gen</td><td>semanttisen</td></tr>
-<tr><td>romanttinen+A+Sg+Gen</td><td>romanttisen</td></tr>
-<tr><td>identtinen+A+Sg+Gen</td><td>identtisen</td></tr>
-<tr><td>yhđensorttinen+A+Sg+Gen</td><td>yhđensorttisen</td></tr>
-<tr><td>uuđenaikhuinen+A+Sg+Gen</td><td>uuđenaikhuisen</td></tr>
-<tr><td>mielhuinen+A+Sg+Gen</td><td>mielhuisen</td></tr>
-<tr><td>ikuinen+A+Sg+Gen</td><td>ikuisen</td></tr>
-<tr><td>pikkuinen+A+Sg+Gen</td><td>pikkuisen</td></tr>
-<tr><td>harkkuinen+A+Sg+Gen</td><td>harkkuisen</td></tr>
-<tr><td>korkuinen+A+Sg+Gen</td><td>korkuisen</td></tr>
-<tr><td>suomensukuinen+A+Sg+Gen</td><td>suomensukuisen</td></tr>
-<tr><td>luinen+A+Sg+Gen</td><td>luisen</td></tr>
-<tr><td>viluinen+A+Sg+Gen</td><td>viluisen</td></tr>
-<tr><td>hirmuinen+A+Sg+Gen</td><td>hirmuisen</td></tr>
-<tr><td>sumuinen+A+Sg+Gen</td><td>sumuisen</td></tr>
-<tr><td>hoppuinen+A+Sg+Gen</td><td>hoppuisen</td></tr>
-<tr><td>sananloppuinen+A+Sg+Gen</td><td>sananloppuisen</td></tr>
-<tr><td>vakituinen+A+Sg+Gen</td><td>vakituisen</td></tr>
-<tr><td>omituinen+A+Sg+Gen</td><td>omituisen</td></tr>
-<tr><td>pituinen+A+Sg+Gen</td><td>pituisen</td></tr>
-<tr><td>vasituinen+A+Sg+Gen</td><td>vasituisen</td></tr>
-<tr><td>joutuinen+A+Sg+Gen</td><td>joutuisen</td></tr>
-<tr><td>usheempitavuinen+A+Sg+Gen</td><td>usheempitavuisen</td></tr>
-<tr><td>kaksitavuinen+A+Sg+Gen</td><td>kaksitavuisen</td></tr>
-<tr><td>yksitavuinen+A+Sg+Gen</td><td>yksitavuisen</td></tr>
-<tr><td>skandinaavinen+A+Sg+Gen</td><td>skandinaavisen</td></tr>
-<tr><td>passiivinen+A+Sg+Gen</td><td>passiivisen</td></tr>
-<tr><td>abessiivinen+A+Sg+Gen</td><td>abessiivisen</td></tr>
-<tr><td>kreatiivinen+A+Sg+Gen</td><td>kreatiivisen</td></tr>
-<tr><td>nekatiivinen+A+Sg+Gen</td><td>nekatiivisen</td></tr>
-<tr><td>administratiivinen+A+Sg+Gen</td><td>administratiivisen</td></tr>
-<tr><td>kausatiivinen+A+Sg+Gen</td><td>kausatiivisen</td></tr>
-<tr><td>primitiivinen+A+Sg+Gen</td><td>primitiivisen</td></tr>
-<tr><td>positiivinen+A+Sg+Gen</td><td>positiivisen</td></tr>
-<tr><td>pusitiivinen+A+Sg+Gen</td><td>pusitiivisen</td></tr>
-<tr><td>aktiivinen+A+Sg+Gen</td><td>aktiivisen</td></tr>
-<tr><td>effektiivinen+A+Sg+Gen</td><td>effektiivisen</td></tr>
-<tr><td>konnektiivinen+A+Sg+Gen</td><td>konnektiivisen</td></tr>
-<tr><td>fiktiivinen+A+Sg+Gen</td><td>fiktiivisen</td></tr>
-<tr><td>disjunktiivinen+A+Sg+Gen</td><td>disjunktiivisen</td></tr>
-<tr><td>kivinen+A+Sg+Gen</td><td>kivisen</td></tr>
-<tr><td>pilvinen+A+Sg+Gen</td><td>pilvisen</td></tr>
-<tr><td>rynkkyinen+A+Sg+Gen</td><td>rynkkyisen</td></tr>
-<tr><td>nykyinen+A+Sg+Gen</td><td>nykyisen</td></tr>
-<tr><td>pölyinen+A+Sg+Gen</td><td>pölyisen</td></tr>
-<tr><td>erityinen+A+Sg+Gen</td><td>erityisen</td></tr>
-<tr><td>ikhäinen+A+Sg+Gen</td><td>ikhäisen</td></tr>
-<tr><td>keski-ikhäinen+A+Sg+Gen</td><td>keski-ikhäisen</td></tr>
-<tr><td>alaikhäinen+A+Sg+Gen</td><td>alaikhäisen</td></tr>
-<tr><td>vähäinen+A+Sg+Gen</td><td>vähäisen</td></tr>
-<tr><td>alaikäinen+A+Sg+Gen</td><td>alaikäisen</td></tr>
-<tr><td>reikäinen+A+Sg+Gen</td><td>reikäisen</td></tr>
-<tr><td>koukkuselkäinen+A+Sg+Gen</td><td>koukkuselkäisen</td></tr>
-<tr><td>koukkusölkäinen+A+Sg+Gen</td><td>koukkusölkäisen</td></tr>
-<tr><td>ymmyrkäinen+A+Sg+Gen</td><td>ymmyrkäisen</td></tr>
-<tr><td>lyhykäinen+A+Sg+Gen</td><td>lyhykäisen</td></tr>
-<tr><td>äkäinen+A+Sg+Gen</td><td>äkäisen</td></tr>
-<tr><td>itteläinen+A+Sg+Gen</td><td>itteläisen</td></tr>
-<tr><td>briittiläinen+A+Sg+Gen</td><td>briittiläisen</td></tr>
-<tr><td>pitkyläinen+A+Sg+Gen</td><td>pitkyläisen</td></tr>
-<tr><td>yykeäläinen+A+Sg+Gen</td><td>yykeäläisen</td></tr>
-<tr><td>pykejäläinen+A+Sg+Gen</td><td>pykejäläisen</td></tr>
-<tr><td>tyskäläinen+A+Sg+Gen</td><td>tyskäläisen</td></tr>
-<tr><td>venäläinen+A+Sg+Gen</td><td>venäläisen</td></tr>
-<tr><td>ryssäläinen+A+Sg+Gen</td><td>ryssäläisen</td></tr>
-<tr><td>likimäinen+A+Sg+Gen</td><td>likimäisen</td></tr>
-<tr><td>jälkimäinen+A+Sg+Gen</td><td>jälkimäisen</td></tr>
-<tr><td>keskimäinen+A+Sg+Gen</td><td>keskimäisen</td></tr>
-<tr><td>täkimäinen+A+Sg+Gen</td><td>täkimäisen</td></tr>
-<tr><td>ylimäinen+A+Sg+Gen</td><td>ylimäisen</td></tr>
-<tr><td>päälimäinen+A+Sg+Gen</td><td>päälimäisen</td></tr>
-<tr><td>ensimäinen+A+Sg+Gen</td><td>ensimäisen</td></tr>
-<tr><td>tämmäinen+A+Sg+Gen</td><td>tämmäisen</td></tr>
-<tr><td>pörämäinen+A+Sg+Gen</td><td>pörämäisen</td></tr>
-<tr><td>ittenäinen+A+Sg+Gen</td><td>ittenäisen</td></tr>
-<tr><td>äkkinäinen+A+Sg+Gen</td><td>äkkinäisen</td></tr>
-<tr><td>yksinäinen+A+Sg+Gen</td><td>yksinäisen</td></tr>
-<tr><td>ittepäinen+A+Sg+Gen</td><td>ittepäisen</td></tr>
-<tr><td>kaljupäinen+A+Sg+Gen</td><td>kaljupäisen</td></tr>
-<tr><td>ymmyräinen+A+Sg+Gen</td><td>ymmyräisen</td></tr>
-<tr><td>alkupöräinen+A+Sg+Gen</td><td>alkupöräisen</td></tr>
-<tr><td>pahasäinen+A+Sg+Gen</td><td>pahasäisen</td></tr>
-<tr><td>sisäinen+A+Sg+Gen</td><td>sisäisen</td></tr>
-<tr><td>öystäinen+A+Sg+Gen</td><td>öystäisen</td></tr>
-<tr><td>myötäinen+A+Sg+Gen</td><td>myötäisen</td></tr>
-<tr><td>tytyväinen+A+Sg+Gen</td><td>tytyväisen</td></tr>
-<tr><td>näköinen+A+Sg+Gen</td><td>näköisen</td></tr>
-<tr><td>pirunnäköinen+A+Sg+Gen</td><td>pirunnäköisen</td></tr>
-<tr><td>tämmöinen+A+Sg+Gen</td><td>tämmöisen</td></tr>
-<tr><td>vähätöinen+A+Sg+Gen</td><td>vähätöisen</td></tr>
-<tr><td>veres+A+Sg+Gen</td><td>vereksen</td></tr>
-<tr><td>kotitekonen+A+Sg+Gen</td><td>kotitekosen</td></tr>
-<tr><td>louhikkonen+A+Sg+Gen</td><td>louhikkosen</td></tr>
-<tr><td>pilkkonen+A+Sg+Gen</td><td>pilkkosen</td></tr>
-<tr><td>puolikokonen+A+Sg+Gen</td><td>puolikokosen</td></tr>
-<tr><td>semmonen+A+Sg+Gen</td><td>semmosen</td></tr>
-<tr><td>tuomoinen+A+Sg+Gen</td><td>tuomosen</td></tr>
-<tr><td>vapaaehtonen+A+Sg+Gen</td><td>vapaaehtosen</td></tr>
-<tr><td>kotonen+A+Sg+Gen</td><td>kotosen</td></tr>
-<tr><td>ikunen+A+Sg+Gen</td><td>ikusen</td></tr>
-<tr><td>pikkunen+A+Sg+Gen</td><td>pikkusen</td></tr>
-<tr><td>harkkunen+A+Sg+Gen</td><td>harkkusen</td></tr>
-<tr><td>vilunen+A+Sg+Gen</td><td>vilusen</td></tr>
-<tr><td>hirmunen+A+Sg+Gen</td><td>hirmusen</td></tr>
-<tr><td>rynkkynen+A+Sg+Gen</td><td>rynkkysen</td></tr>
-<tr><td>nykynen+A+Sg+Gen</td><td>nykysen</td></tr>
-<tr><td>pölynen+A+Sg+Gen</td><td>pölysen</td></tr>
-<tr><td>vähänen+A+Sg+Gen</td><td>vähäsen</td></tr>
-<tr><td>alaikänen+A+Sg+Gen</td><td>alaikäsen</td></tr>
-<tr><td>äkänen+A+Sg+Gen</td><td>äkäsen</td></tr>
-<tr><td>tämmänen+A+Sg+Gen</td><td>tämmäsen</td></tr>
-<tr><td>alkupöränen+A+Sg+Gen</td><td>alkupöräsen</td></tr>
-<tr><td>sisänen+A+Sg+Gen</td><td>sisäsen</td></tr>
-<tr><td>näkönen+A+Sg+Gen</td><td>näkösen</td></tr>
-<tr><td>pirunnäkönen+A+Sg+Gen</td><td>pirunnäkösen</td></tr>
-<tr><td>pälvi+A+Sg+Gen</td><td>pälven</td></tr>
-<tr><td>kallis+A+Sg+Gen</td><td>kallhiin</td></tr>
-<tr><td>valmis+A+Sg+Gen</td><td>valmhiin</td></tr>
-<tr><td>kaunis+A+Sg+Gen</td><td>kaunhiin</td></tr>
-<tr><td>tyyris+A+Sg+Gen</td><td>tyyrhiin</td></tr>
-<tr><td>raitis+A+Sg+Gen</td><td>raitthiin</td></tr>
-<tr><td>tivis+A+Sg+Gen</td><td>tivhiin</td></tr>
-<tr><td>auttii+A+Sg+Gen</td><td>auttiin</td></tr>
-<tr><td>fakki+A+Sg+Gen</td><td>fakin</td></tr>
-<tr><td>plankki+A+Sg+Gen</td><td>plankin</td></tr>
-<tr><td>flinkki+A+Sg+Gen</td><td>flinkin</td></tr>
-<tr><td>härski+A+Sg+Gen</td><td>härskin</td></tr>
-<tr><td>ratikaali+A+Sg+Gen</td><td>ratikaalin</td></tr>
-<tr><td>normaali+A+Sg+Gen</td><td>normaalin</td></tr>
-<tr><td>rekiunaali+A+Sg+Gen</td><td>rekiunaalin</td></tr>
-<tr><td>liberaali+A+Sg+Gen</td><td>liberaalin</td></tr>
-<tr><td>sentraali+A+Sg+Gen</td><td>sentraalin</td></tr>
-<tr><td>simppeli+A+Sg+Gen</td><td>simppelin</td></tr>
-<tr><td>passeli+A+Sg+Gen</td><td>passelin</td></tr>
-<tr><td>villi+A+Sg+Gen</td><td>villin</td></tr>
-<tr><td>hööli+A+Sg+Gen</td><td>höölin</td></tr>
-<tr><td>himmi+A+Sg+Gen</td><td>himmin</td></tr>
-<tr><td>kleini+A+Sg+Gen</td><td>kleinin</td></tr>
-<tr><td>fiini+A+Sg+Gen</td><td>fiinin</td></tr>
-<tr><td>pruuni+A+Sg+Gen</td><td>pruunin</td></tr>
-<tr><td>klaari+A+Sg+Gen</td><td>klaarin</td></tr>
-<tr><td>naakkari+A+Sg+Gen</td><td>naakkarin</td></tr>
-<tr><td>sikkari+A+Sg+Gen</td><td>sikkarin</td></tr>
-<tr><td>eri+A+Sg+Gen</td><td>erin</td></tr>
-<tr><td>primääri+A+Sg+Gen</td><td>primäärin</td></tr>
-<tr><td>oransi+A+Sg+Gen</td><td>oransin</td></tr>
-<tr><td>vissi+A+Sg+Gen</td><td>vissin</td></tr>
-<tr><td>epävissi+A+Sg+Gen</td><td>epävissin</td></tr>
-<tr><td>oranssi+A+Sg+Gen</td><td>oranssin</td></tr>
-<tr><td>fioletti+A+Sg+Gen</td><td>fioletin</td></tr>
-<tr><td>ultrafioletti+A+Sg+Gen</td><td>ultrafioletin</td></tr>
-<tr><td>interesantti+A+Sg+Gen</td><td>interesantin</td></tr>
-<tr><td>ekvivalentti+A+Sg+Gen</td><td>ekvivalentin</td></tr>
-<tr><td>siisti+A+Sg+Gen</td><td>siistin</td></tr>
-<tr><td>söötti+A+Sg+Gen</td><td>söötin</td></tr>
-<tr><td>nekatiivi+A+Sg+Gen</td><td>nekatiivin</td></tr>
-<tr><td>primitiivi+A+Sg+Gen</td><td>primitiivin</td></tr>
-<tr><td>krouvi+A+Sg+Gen</td><td>krouvin</td></tr>
-<tr><td>oranši+A+Sg+Gen</td><td>oranšin</td></tr>
-<tr><td>laho+A+Sg+Gen</td><td>lahon</td></tr>
-<tr><td>mainio+A+Sg+Gen</td><td>mainion</td></tr>
-<tr><td>ujo+A+Sg+Gen</td><td>ujon</td></tr>
-<tr><td>heikko+A+Sg+Gen</td><td>heikon</td></tr>
-<tr><td>kaalo+A+Sg+Gen</td><td>kaalon</td></tr>
-<tr><td>silko+A+Sg+Gen</td><td>silon</td></tr>
-<tr><td>tollo+A+Sg+Gen</td><td>tollon</td></tr>
-<tr><td>kolo+A+Sg+Gen</td><td>kolon</td></tr>
-<tr><td>ulko+A+Sg+Gen</td><td>ulon</td></tr>
-<tr><td>hieno+A+Sg+Gen</td><td>hienon</td></tr>
-<tr><td>kehno+A+Sg+Gen</td><td>kehnon</td></tr>
-<tr><td>viinto+A+Sg+Gen</td><td>viinon</td></tr>
-<tr><td>huono+A+Sg+Gen</td><td>huonon</td></tr>
-<tr><td>helppo+A+Sg+Gen</td><td>helpon</td></tr>
-<tr><td>juoppo+A+Sg+Gen</td><td>juopon</td></tr>
-<tr><td>suipero+A+Sg+Gen</td><td>suiperon</td></tr>
-<tr><td>kuuro+A+Sg+Gen</td><td>kuuron</td></tr>
-<tr><td>iso+A+Sg+Gen</td><td>ison</td></tr>
-<tr><td>lakso+A+Sg+Gen</td><td>lakson</td></tr>
-<tr><td>kaltto+A+Sg+Gen</td><td>kalton</td></tr>
-<tr><td>ontto+A+Sg+Gen</td><td>onton</td></tr>
-<tr><td>vaisto+A+Sg+Gen</td><td>vaiston</td></tr>
-<tr><td>pisto+A+Sg+Gen</td><td>piston</td></tr>
-<tr><td>visto+A+Sg+Gen</td><td>viston</td></tr>
-<tr><td>rutto+A+Sg+Gen</td><td>ruton</td></tr>
-<tr><td>siivo+A+Sg+Gen</td><td>siivon</td></tr>
-<tr><td>outo+A+Sg+Gen</td><td>ouđon</td></tr>
-<tr><td>raju+A+Sg+Gen</td><td>rajun</td></tr>
-<tr><td>kalju+A+Sg+Gen</td><td>kaljun</td></tr>
-<tr><td>virkku+A+Sg+Gen</td><td>virkun</td></tr>
-<tr><td>kuvailtu+A+Sg+Gen</td><td>kuvailun</td></tr>
-<tr><td>hullu+A+Sg+Gen</td><td>hullun</td></tr>
-<tr><td>sotahullu+A+Sg+Gen</td><td>sotahullun</td></tr>
-<tr><td>kuulu+A+Sg+Gen</td><td>kuulun</td></tr>
-<tr><td>lamu+A+Sg+Gen</td><td>lamun</td></tr>
-<tr><td>karu+A+Sg+Gen</td><td>karun</td></tr>
-<tr><td>kesu+A+Sg+Gen</td><td>kesun</td></tr>
-<tr><td>visu+A+Sg+Gen</td><td>visun</td></tr>
-<tr><td>paksu+A+Sg+Gen</td><td>paksun</td></tr>
-<tr><td>kalsu+A+Sg+Gen</td><td>kalsun</td></tr>
-<tr><td>merkattu+A+Sg+Gen</td><td>merkatun</td></tr>
-<tr><td>maalattu+A+Sg+Gen</td><td>maalatun</td></tr>
-<tr><td>ulkokullattu+A+Sg+Gen</td><td>ulkokullatun</td></tr>
-<tr><td>kevveestisuolattu+A+Sg+Gen</td><td>kevveestisuolatun</td></tr>
-<tr><td>siunattu+A+Sg+Gen</td><td>siunatun</td></tr>
-<tr><td>tunnettu+A+Sg+Gen</td><td>tunnetun</td></tr>
-<tr><td>opetettu+A+Sg+Gen</td><td>opetetun</td></tr>
-<tr><td>valittu+A+Sg+Gen</td><td>valitun</td></tr>
-<tr><td>vasittu+A+Sg+Gen</td><td>vasitun</td></tr>
-<tr><td>kranttu+A+Sg+Gen</td><td>krantun</td></tr>
-<tr><td>kattottu+A+Sg+Gen</td><td>kattotun</td></tr>
-<tr><td>kotonakuottu+A+Sg+Gen</td><td>kotonakuotun</td></tr>
-<tr><td>tuttu+A+Sg+Gen</td><td>tutun</td></tr>
-<tr><td>liehmuu+A+Sg+Gen</td><td>liehmuun</td></tr>
-<tr><td>koutu+A+Sg+Gen</td><td>kouđun</td></tr>
-<tr><td>häijy+A+Sg+Gen</td><td>häijyn</td></tr>
-<tr><td>syyry+A+Sg+Gen</td><td>syyryn</td></tr>
-<tr><td>kypsy+A+Sg+Gen</td><td>kypsyn</td></tr>
-<tr><td>niinkäsketty+A+Sg+Gen</td><td>niinkäsketyn</td></tr>
-<tr><td>kylmetty+A+Sg+Gen</td><td>kylmetyn</td></tr>
-<tr><td>pyhitetty+A+Sg+Gen</td><td>pyhitetyn</td></tr>
-<tr><td>käytetty+A+Sg+Gen</td><td>käytetyn</td></tr>
-<tr><td>kristitty+A+Sg+Gen</td><td>kristityn</td></tr>
-<tr><td>määrätty+A+Sg+Gen</td><td>määrätyn</td></tr>
-<tr><td>präntätty+A+Sg+Gen</td><td>präntätyn</td></tr>
-<tr><td>kärys+A+Sg+Gen</td><td>kärhyyn</td></tr>
-<tr><td>mätä+A+Sg+Gen</td><td>mäđän</td></tr>
-<tr><td>pyhä+A+Sg+Gen</td><td>pyhän</td></tr>
-<tr><td>tyyhä+A+Sg+Gen</td><td>tyyhän</td></tr>
-<tr><td>köyhä+A+Sg+Gen</td><td>köyhän</td></tr>
-<tr><td>löyhä+A+Sg+Gen</td><td>löyhän</td></tr>
-<tr><td>vähä+A+Sg+Gen</td><td>vähän</td></tr>
-<tr><td>tyhjä+A+Sg+Gen</td><td>tyhjän</td></tr>
-<tr><td>väljä+A+Sg+Gen</td><td>väljän</td></tr>
-<tr><td>pelkkä+A+Sg+Gen</td><td>pelkän</td></tr>
-<tr><td>synkkä+A+Sg+Gen</td><td>synkän</td></tr>
-<tr><td>herkkä+A+Sg+Gen</td><td>herkän</td></tr>
-<tr><td>jyrkkä+A+Sg+Gen</td><td>jyrkän</td></tr>
-<tr><td>nyrkkä+A+Sg+Gen</td><td>nyrkän</td></tr>
-<tr><td>pitkä+A+Sg+Gen</td><td>pitkän</td></tr>
-<tr><td>mykkä+A+Sg+Gen</td><td>mykän</td></tr>
-<tr><td>ytelä+A+Sg+Gen</td><td>ytelän</td></tr>
-<tr><td>tyhmä+A+Sg+Gen</td><td>tyhmän</td></tr>
-<tr><td>lämmin+A+Sg+Gen</td><td>lämpimän</td></tr>
-<tr><td>kylmä+A+Sg+Gen</td><td>kylmän</td></tr>
-<tr><td>jääkylmä+A+Sg+Gen</td><td>jääkylmän</td></tr>
-<tr><td>hengetön+A+Sg+Gen</td><td>hengettömän</td></tr>
-<tr><td>äänetön+A+Sg+Gen</td><td>äänettömän</td></tr>
-<tr><td>pilvetön+A+Sg+Gen</td><td>pilvettömän</td></tr>
-<tr><td>färitön+A+Sg+Gen</td><td>färittömän</td></tr>
-<tr><td>hävitön+A+Sg+Gen</td><td>hävittömän</td></tr>
-<tr><td>hävytön+A+Sg+Gen</td><td>hävyttömän</td></tr>
-<tr><td>kykenemätön+A+Sg+Gen</td><td>kykenemättömän</td></tr>
-<tr><td>kärsimätön+A+Sg+Gen</td><td>kärsimättömän</td></tr>
-<tr><td>näkymätön+A+Sg+Gen</td><td>näkymättömän</td></tr>
-<tr><td>tietämätön+A+Sg+Gen</td><td>tietämättömän</td></tr>
-<tr><td>ymmärtämätön+A+Sg+Gen</td><td>ymmärtämättömän</td></tr>
-<tr><td>välttämätön+A+Sg+Gen</td><td>välttämättömän</td></tr>
-<tr><td>määrätön+A+Sg+Gen</td><td>määrättömän</td></tr>
-<tr><td>mitätön+A+Sg+Gen</td><td>mitättömän</td></tr>
-<tr><td>seppä+A+Sg+Gen</td><td>sepän</td></tr>
-<tr><td>näpperä+A+Sg+Gen</td><td>näpperän</td></tr>
-<tr><td>höperä+A+Sg+Gen</td><td>höperän</td></tr>
-<tr><td>kiverä+A+Sg+Gen</td><td>kiverän</td></tr>
-<tr><td>käyrä+A+Sg+Gen</td><td>käyrän</td></tr>
-<tr><td>nöyrä+A+Sg+Gen</td><td>nöyrän</td></tr>
-<tr><td>märkä+A+Sg+Gen</td><td>märän</td></tr>
-<tr><td>läpimärkä+A+Sg+Gen</td><td>läpimärän</td></tr>
-<tr><td>näppärä+A+Sg+Gen</td><td>näppärän</td></tr>
-<tr><td>väärä+A+Sg+Gen</td><td>väärän</td></tr>
-<tr><td>sisä+A+Sg+Gen</td><td>sisän</td></tr>
-<tr><td>tylsä+A+Sg+Gen</td><td>tylsän</td></tr>
-<tr><td>käpsä+A+Sg+Gen</td><td>käpsän</td></tr>
-<tr><td>näpsä+A+Sg+Gen</td><td>näpsän</td></tr>
-<tr><td>löysä+A+Sg+Gen</td><td>löysän</td></tr>
-<tr><td>ryöttä+A+Sg+Gen</td><td>ryötän</td></tr>
-<tr><td>yhđentekkeevä+A+Sg+Gen</td><td>yhđentekkeevän</td></tr>
-<tr><td>järkkeevä+A+Sg+Gen</td><td>järkkeevän</td></tr>
-<tr><td>väkkeevä+A+Sg+Gen</td><td>väkkeevän</td></tr>
-<tr><td>lievä+A+Sg+Gen</td><td>lievän</td></tr>
-<tr><td>sievä+A+Sg+Gen</td><td>sievän</td></tr>
-<tr><td>tyhvä+A+Sg+Gen</td><td>tyhvän</td></tr>
-<tr><td>kärsiivä+A+Sg+Gen</td><td>kärsiivän</td></tr>
-<tr><td>selvä+A+Sg+Gen</td><td>selvän</td></tr>
-<tr><td>epäselvä+A+Sg+Gen</td><td>epäselvän</td></tr>
-<tr><td>hyvä+A+Sg+Gen</td><td>hyvän</td></tr>
-<tr><td>syvä+A+Sg+Gen</td><td>syvän</td></tr>
-<tr><td>ikävä+A+Sg+Gen</td><td>ikävän</td></tr>
-<tr><td>terävä+A+Sg+Gen</td><td>terävän</td></tr>
-<tr><td>veđenpitävä+A+Sg+Gen</td><td>veđenpitävän</td></tr>
-<tr><td>merkittävä+A+Sg+Gen</td><td>merkittävän</td></tr>
-<tr><td>syötävä+A+Sg+Gen</td><td>syötävän</td></tr>
-<tr><td>elläävä+A+Sg+Gen</td><td>elläävän</td></tr>
-<tr><td>ymmärettäävä+A+Sg+Gen</td><td>ymmärettäävän</td></tr>
-<tr><td>jännittäävä+A+Sg+Gen</td><td>jännittäävän</td></tr>
-<tr><td>kiilttäävä+A+Sg+Gen</td><td>kiilttäävän</td></tr>
-<tr><td>virkistyttäävä+A+Sg+Gen</td><td>virkistyttäävän</td></tr>
-<tr><td>sinnikäs+A+Sg+Gen</td><td>sinnikkhään</td></tr>
-<tr><td>pystö+A+Sg+Gen</td><td>pystön</td></tr>
-</table>
-    </section>
-  </body> 
-</document> 
+<html xmlns:xi="http://www.w3.org/2001/XInclude" lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Generoidut muodot (kesäkuun 19. päivänä 2020, klo. 13:17)</title>
+   </head>
+   <body>
+      <h1></h1>
+      <table>
+         <tr>
+            <td colspan="1" rowspan="1">+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">viimi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">viimi+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">turkkiisi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">turkkiisi+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ensi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ensi+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaiti+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaiti+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">irti+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">irti+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">fonologinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">fonologinen+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paras+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">paras+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ohut+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ohut+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ehyt+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ehyt+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lyhyt+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lyhyt+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ohu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ohu+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pikku+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pikku+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lyhy+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lyhy+A+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pahas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pahhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puhelias+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puhelihaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">laupias+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">laupihaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikkivaltias+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaikkivaltihaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">paljhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">voimakas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">voimakkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rakas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rakkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">viekas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">viekkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">onnekas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">onnekkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">raikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">raikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vitamiinikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vitamiinikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">raharikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">raharikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">fantasiirikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">fantasiirikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lajirikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lajirikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">färirikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">färirikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tietorikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tietorikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sađetrikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sađetrikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lapsikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lapsikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">praatikas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">praatikkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vilkas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vilkkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nerokas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nerokkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">arvokas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">arvokkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kirkas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kirkkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">liukas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">liukkhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">raskas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">raskhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hurskas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hurskhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vanhurskas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vanhurskhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joutilas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">joutilhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">armas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">armhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vanhaa+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vanhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vapaa+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaphaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">reipas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">reipphaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">opas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">opphaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vieras+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vierhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ventovieras+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ventovierhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sairas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sairhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">viisas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">viishaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteviisas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">itteviishaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">runsas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">runshaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">karsas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">karshaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ahđas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ahthaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puhđas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puhthaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hiđas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hithaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harras+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">harthaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">laatas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">laatthaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rietas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rietthaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">autuas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">autuhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">raavas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">raavhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">karvas+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">karvhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sakea+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sakean</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">korkea+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">korkean</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ruskea+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ruskean</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paha+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pahan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">laiha+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">laihan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">turha+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">turhan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lauha+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lauhan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">laaja+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">laajan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harmaaja+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">harmaajan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hoppeeharmaaja+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hoppeeharmaajan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">taaja+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">taajan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">liika+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">liijan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hurja+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hurjan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kurja+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kurjan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">luja+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lujan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">raaka+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">raakan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ilakka+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ilakan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hoikka+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hoikan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vankka+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vankan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tarkka+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tarkan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">laiska+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">laiskan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hauska+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hauskan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tiukka+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tiukan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">soukka+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">soukan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hankala+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hankalan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kamala+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kamalan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">matala+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">matalan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kavala+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kavalan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">happela+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">happelan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">siila+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">siilan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sula+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sulan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">veđenpillaama+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">veđenpillaaman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lama+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">laman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hapan+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">happaman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ulosantama+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ulosantaman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vasen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaseman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">parhain+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">parhaiman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumma+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kumman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tumma+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tumman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">oma+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">oman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">soma+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">soman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">alaston+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">alastoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rauhaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rauhattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">viaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">viattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rajaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rajattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pohjaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pohjattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vijaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vijattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jumalaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jumalattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vallaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vallattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">saamaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">saamattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mittaamaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mittaamattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">maksamaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">maksamattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">perhäänantamaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">perhäänantamattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paistamaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">paistamattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">luottamaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">luottamattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ajattelematon+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ajattelemattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaihettelematon+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaihettelemattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">valettelematon+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">valettelemattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tottelematon+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tottelemattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">olematon+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">olemattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuntematon+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tuntemattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">naimaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">naimattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">huolimaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">huolimattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">oppimaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">oppimattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaatimaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaatimattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">uskomaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">uskomattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">liikkumaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">liikkumattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">taipumaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">taipumattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">loppumaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">loppumattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muuttumaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">muuttumattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">herraton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">herrattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">luvaton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">luvattoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toimeton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">toimettoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">onneton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">onnettoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ruokoton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ruokottoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">uskoton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">uskottoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">armoton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">armottoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">painoton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">painottoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">levoton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">levottoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kelvoton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kelvottoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">arvoton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">arvottoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mahđoton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mahđottoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">loputon+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">loputtoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suruton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suruttoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">avuton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">avuttoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mavuton+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mavuttoman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">varma+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">varman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">epävarma+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">epävarman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ruma+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ruman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuuma+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kuuman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ihana+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ihanan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">arka+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">aran</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ankara+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ankaran</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tieđonankara+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tieđonankaran</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pimmeenarka+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pimmeenaran</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ahkera+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ahkeran</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">uuttera+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">uutteran</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suora+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suoran</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pystösuora+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pystösuoran</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">saura+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sauran</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kippura+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kippuran</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">fasta+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">fastan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">musta+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mustan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pikimusta+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pikimustan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kirjaava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kirjaavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yhtheenhenkkaava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yhtheenhenkkaavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">seuraava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">seuraavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mahtaava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mahtaavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">loistaava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">loistaavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">valttaava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">valttaavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">virttaava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">virttaavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jouttaava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jouttaavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lihava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lihavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vakava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vakavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mukava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mukavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">painava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">painavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">herrattava+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">herrattavan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pulleeva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pulleevan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tulleeva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tulleevan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vahva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vahvan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">soppiiva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">soppiivan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kiva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kivan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">loiva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">loivan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuiva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kuivan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">halpa+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">halvan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kova+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kovan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">harvan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuuka+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nuuvan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puolikassuuva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puolikassuuvan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">leppääkassuuva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">leppääkassuuvan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tunttuuva+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tunttuuvan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tosi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tođen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">uusi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">uuđen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">täysi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">täyđen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ehhee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ehheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tihhee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tihheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuolu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kuolheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kokenu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kokenheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ahnet+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ahnheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nainu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nainheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tiinet+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tiinheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">oppinu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">oppinheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ravistunnu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ravistunnheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hermostunnu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hermostunnheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hengestynny+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hengestynnheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hengistynny+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hengistynnheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaipunu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaipunheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suuttunu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suuttunheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">väsyny+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">väsynheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuoret+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tuorheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">usheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kauhhee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kauheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tervet+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tervheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rohkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rohkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">laakkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">laakkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">makkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">makkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sakkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sakkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaikkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaikkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">oikkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">oikkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muikkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">muikkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">valkkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">valkkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ilmivalkkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ilmivalkkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vitivalkkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vitivalkkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">selkkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">selkkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ilkkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ilkkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sokkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sokkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">huokkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">huokkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">karkkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">karkkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">korkkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">korkkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tärkkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tärkkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">aukkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">aukkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">laukkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">laukkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ruskee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ruskeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sitkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sitkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">notkee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">notkeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">haalee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">haaleen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaalee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaaleen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">haalee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">halleen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sillee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">silleen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pehmee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pehmeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">himmee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">himmeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pimmee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pimmeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pilkkapimmee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pilkkapimmeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">säkkipimmee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">säkkipimmeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">syyspimmee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">syyspimmeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kommee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kommeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kirmee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kirmeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ahnee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ahneen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kappee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kappeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rappee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rappeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lieppee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lieppeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kippee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kippeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">merikippee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">merikippeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ylppee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ylppeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">noppee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">noppeen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">virree+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">virreen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">korree+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">korreen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">murree+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">murreen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pyöree+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pyöreen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kalssee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kalsseen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kostee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kosteen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">laattee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">laatteen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kiinttee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kiintteen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hirvee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hirveen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kevvee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kevveen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">levvee+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">levveen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puoli+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puolen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">käsipuoli+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">käsipuolen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">silmäpuoli+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">silmäpuolen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">irtain+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">irtaimen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">umpi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ummen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pieni+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pienen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tyven+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tyvenen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tinatyven+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tinatyvenen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">monen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuori+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nuoren</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suuri+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suuren</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vihanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vihasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">samanaikhanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">samanaikhasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">uuđenaikhanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">uuđenaikhasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nykyaikhanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nykyaikhasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuhanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tuhasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pohjanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pohjasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sekanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sekasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hoikkanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hoikkasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukkanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kukkasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mukkanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mukkasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tummatukkanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tummatukkasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pitkäjalkanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pitkäjalkasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lokanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lokasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">neljennuskanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">neljennuskasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">salanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">salasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kiimanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kiimasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ylivoimanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ylivoimasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">punanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">punasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaaleepunanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaaleepunasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">aniliinipunanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">aniliinipunasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vähävoipanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vähävoipasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tasanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tasasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaitanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaitasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">keltainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">keltasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puolihintanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puolihintasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">monikertanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">monikertasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksinkertanen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yksinkertasen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vihainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vihaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vanhaanaikhainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vanhaanaikhaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">samanaikhainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">samanaikhaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">uuđenaikhainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">uuđenaikhaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nykyaikhainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nykyaikhaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pitkäaikhainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pitkäaikhaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaukhainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaukhaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">alhainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">alhaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">salhainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">salhaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">eriskumhainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">eriskumhaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">varhainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">varhaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">aijankohthainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">aijankohthaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pohjainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pohjaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hiljainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hiljaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sekainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sekaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">väliaikainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">väliaikaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">likainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">likaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nollapaikkainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nollapaikkaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kolmipaikkainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kolmipaikkaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaksipaikkainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaksipaikkaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksipaikkainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yksipaikkaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tummatukkainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tummatukkaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">neljenjalkainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">neljenjalkaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pitkäjalkainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pitkäjalkaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vastahankainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vastahankaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaksirankainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaksirankaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksirankainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yksirankaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">konsonanttirankainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">konsonanttirankaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lokainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lokaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paskainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">paskaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nelinuskainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nelinuskaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puskainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puskaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">latuskainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">latuskaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ohukainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ohukaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">korkukainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">korkukaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">oikkeuđenmukainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">oikkeuđenmukaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">reekelinmukainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">reekelinmukaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">epäreekelinmukainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">epäreekelinmukaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suurukainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suurukaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pitukainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pitukaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">maalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">maalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ulkomaalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ulkomaalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ruijalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ruijalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">talosvankkalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">talosvankkalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jokalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuiskalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tuiskalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tanskalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tanskalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">roomalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">roomalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suomalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suomalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">norjalais-suomalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">norjalais-suomalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suursuomalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suursuomalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">salainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">salaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">saksalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">saksalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tromssalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tromssalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ruottalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ruottalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">juutalainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">juutalaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vesisaarelainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vesisaarelaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pyssyjokilainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pyssyjokilaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puolilainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puolilaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">saamilainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">saamilaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">erilainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">erilaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">evankeelis-lutherilainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">evankeelis-lutherilaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suomalais-ugrilainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suomalais-ugrilaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">raisilainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">raisilaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">englantilainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">englantilaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hollantilainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hollantilaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paavilainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">paavilaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">villainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">villaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tällainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tällaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">samanlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">samanlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamanlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">muutamanlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikenlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaikenlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pienenlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pienenlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">monenlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">monenlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuorenlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nuorenlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">senlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">senlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toisenlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">toisenlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kahđenlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kahđenlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yhđenlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yhđenlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tyyrhinlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tyyrhinlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">isonlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">isonlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämänlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tämänlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">höperänlainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">höperänlaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vanholainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vanholaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lestadiolainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lestadiolaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">torniolainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">torniolaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vanholaislestaatiolainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vanholaislestaatiolaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">alattiolainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">alattiolaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tornionlaksolainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tornionlaksolaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suolainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suolaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuolainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tuolaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">savolainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">savolaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jonkulainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jonkulaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kainulainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kainulaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vestakainulainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vestakainulaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">minkälainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">minkälaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kiimainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kiimaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">alimainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">alimaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ylivoimainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ylivoimaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ulomainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ulomaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">etumainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">etumaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksituumainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yksituumaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hajanainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hajanaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vähäsanainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vähäsanaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">aukinainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">aukinaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harvinainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">harvinaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kokonainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kokonaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">punainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">punaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaaleepunainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaaleepunaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">aniliinipunainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">aniliinipunaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ruusunpunainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ruusunpunaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vähävoipainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vähävoipaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pikkurainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pikkuraisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tasainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tasaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">epätasainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">epätasaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hietainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hietaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaitainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaitaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ristiraitainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ristiraitaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">väkivaltainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">väkivaltaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">keltainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">keltaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">punaisenkeltainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">punaisenkeltaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puolihintainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puolihintaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">monikertainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">monikertaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">monenkertainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">monenkertaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kahđenkertainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kahđenkertaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yhđenkertainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yhđenkertaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksinkertainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yksinkertaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">virtainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">virtaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vestainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vestaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">luottavainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">luottavaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaivainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaivaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">uskovainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">uskovaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">varovainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">varovaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">karvainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">karvaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rasvainen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rasvaisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">likheinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">likheisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">melkheinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">melkheisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ylheinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ylheisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yhtheinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yhtheisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">myöntheinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">myöntheisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">auringonpaistheinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">auringonpaistheisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">fonoginen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">fonologisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">morfofonologinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">morfofonologisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">biolooginen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">bioloogisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">psykolooginen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">psykoloogisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ökolooginen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ökoloogisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vierhiinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vierhiisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">produktiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">produktiisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">iänkaikkinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">iänkaikkisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">piikkinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">piikkisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pahanilkinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pahanilkisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nokinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nokisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">modaalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">modaalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sosiaalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sosiaalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lyhykäisvokaalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lyhykäisvokaalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">maalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">maalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tradittiinaalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tradittiinaalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pluraalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pluraalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">digitaalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">digitaalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">aspektuaalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">aspektuaalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rauhalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rauhalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">histoorialinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">histoorialisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">historialinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">historialisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paikalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">paikalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kummalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaaralinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaaralisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">viralinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">viralisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kansalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kansalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">osalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">osalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tavalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tavalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">epätavalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">epätavalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">turvalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">turvalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">luvalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">luvalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">raiđalinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">raiđalisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tarpheelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tarpheelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">murheelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">murheelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">katheelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">katheelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">satheelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">satheelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puutheelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puutheelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tervheelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tervheelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hengelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hengelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rehelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rehelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kolmikielinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kolmikielisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaksikielinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaksikielisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suomenkielinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suomenkielisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kainunkielinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kainunkielisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ylimielinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ylimielisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksmielinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yksmielisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">onnelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">onnelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">äänelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">äänelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lapselinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lapselisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ittelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tähđelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tähđelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tođelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tođelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">täyđelinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">täyđelisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">eilinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">eilisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ruumhiilinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ruumhiilisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">faakilinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">faakilisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">arkiivifaakilinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">arkiivifaakilisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">merkilinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">merkilisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">teknilinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">teknilisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kropilinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kropilisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tyypilinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tyypilisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sportilinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sportilisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kristilinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kristilisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paralellinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">paralellisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">histoorillinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">histoorillisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">uskonollinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">uskonollisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ystävällinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ystävällisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pakolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pakolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">uskolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">uskolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joukolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">joukolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">armolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">armolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">painolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">painolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">valtapainolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">valtapainolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sivvupainolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sivvupainolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kunnolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kunnolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">luonolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">luonolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">urhoolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">urhoolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ehtoolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ehtoolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kiitolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kiitolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">luontolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">luontolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">javolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">javolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">velvolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">velvolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mahđolinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mahđolisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">prikulinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">prikulisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lopulinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lopulisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pirulinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pirulisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">surulinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">surulisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ruuđulinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ruuđulisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ylinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ylisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">myrkylinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">myrkylisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lykylinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lykylisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hyöđylinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hyöđylisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pitkälinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pitkälisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">välinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">välisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">viiminen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">viimisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ekonominen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ekonomisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">autonoominen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">autonoomisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">luminen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lumisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">synonyyminen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">synonyymisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sininen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sinisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaaleesininen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaaleesinisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">elektroninen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">elektronisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pahanjuoninen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pahanjuonisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vastahakoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vastahakoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kotitekoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kotitekoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">erikoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">erikoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">louhikkoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">louhikkoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">alinkoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">alinkoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">aurinkoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">aurinkoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kokoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kokoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puolikokoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puolikokoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">epäuskoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">epäuskoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">iloinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">iloisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kiloinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kiloisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suloinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suloisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">epäluuloinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">epäluuloisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kivuloinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kivuloisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">aikamoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">aikamoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">semmoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">semmoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuomoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tuomoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">toisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pitkävetoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pitkävetoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vapaaehtoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vapaaehtoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hyvämuistoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hyvämuistoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">samanarvoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">samanarvoisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">prototyyppinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">prototyyppisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">populaarinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">populaarisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">porvarinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">porvarisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">geneerinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">geneerisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tummaverinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tummaverisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vihrinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vihrisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kelta-vihrinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kelta-vihrisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sini-vihrinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sini-vihrisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">obligatoorinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">obligatoorisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">elektrinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">elektrisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pahankurinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pahankurisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hullunkurinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hullunkurisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kulttuurinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kulttuurisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">färinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">färisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">erifärinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">erifärisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">samanfärinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">samanfärisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vesinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vesisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaksinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaksisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kompleksinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kompleksisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pitkävarsinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pitkävarsisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">saftinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">saftisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">syntaktinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">syntaktisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">entinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">entisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">syntinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">syntisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">läntinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">läntisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">totinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">totisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vuotinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vuotisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">dramaattinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">dramaattisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">systemaattinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">systemaattisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">symptomaattinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">symptomaattisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sympaattinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sympaattisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">konkreettinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">konkreettisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">poliittinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">poliittisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">polittinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">polittisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pulittinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pulittisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">neljenkanttinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">neljenkanttisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kahđeksenkanttinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kahđeksenkanttisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">neliskanttinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">neliskanttisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">semanttinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">semanttisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">romanttinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">romanttisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">identtinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">identtisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yhđensorttinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yhđensorttisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">uuđenaikhuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">uuđenaikhuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mielhuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mielhuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ikuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ikuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pikkuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pikkuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harkkuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">harkkuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">korkuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">korkuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suomensukuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suomensukuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">luinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">luisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">viluinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">viluisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hirmuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hirmuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sumuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sumuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hoppuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hoppuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sananloppuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sananloppuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vakituinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vakituisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">omituinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">omituisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pituinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pituisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vasituinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vasituisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joutuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">joutuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">usheempitavuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">usheempitavuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaksitavuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaksitavuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksitavuinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yksitavuisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">skandinaavinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">skandinaavisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">passiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">passiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">abessiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">abessiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kreatiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kreatiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nekatiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nekatiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">administratiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">administratiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kausatiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kausatiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">primitiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">primitiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">positiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">positiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pusitiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pusitiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">aktiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">aktiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">effektiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">effektiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">konnektiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">konnektiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">fiktiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">fiktiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">disjunktiivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">disjunktiivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kivinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kivisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pilvinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pilvisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rynkkyinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rynkkyisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nykyinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nykyisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pölyinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pölyisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">erityinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">erityisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ikhäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ikhäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">keski-ikhäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">keski-ikhäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">alaikhäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">alaikhäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vähäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vähäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">alaikäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">alaikäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">reikäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">reikäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">koukkuselkäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">koukkuselkäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">koukkusölkäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">koukkusölkäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ymmyrkäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ymmyrkäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lyhykäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lyhykäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">äkäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">äkäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteläinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">itteläisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">briittiläinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">briittiläisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pitkyläinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pitkyläisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yykeäläinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yykeäläisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pykejäläinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pykejäläisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tyskäläinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tyskäläisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">venäläinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">venäläisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ryssäläinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ryssäläisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">likimäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">likimäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jälkimäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jälkimäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">keskimäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">keskimäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">täkimäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">täkimäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ylimäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ylimäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">päälimäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">päälimäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ensimäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ensimäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämmäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tämmäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pörämäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pörämäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ittenäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">äkkinäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">äkkinäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksinäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yksinäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittepäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ittepäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaljupäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaljupäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ymmyräinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ymmyräisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">alkupöräinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">alkupöräisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pahasäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pahasäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sisäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sisäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">öystäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">öystäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">myötäinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">myötäisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tytyväinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tytyväisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">näköinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">näköisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pirunnäköinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pirunnäköisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämmöinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tämmöisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vähätöinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vähätöisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">veres+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vereksen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kotitekonen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kotitekosen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">louhikkonen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">louhikkosen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pilkkonen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pilkkosen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">puolikokonen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">puolikokosen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">semmonen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">semmosen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuomoinen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tuomosen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vapaaehtonen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vapaaehtosen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kotonen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kotosen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ikunen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ikusen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pikkunen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pikkusen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harkkunen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">harkkusen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vilunen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vilusen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hirmunen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hirmusen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rynkkynen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rynkkysen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nykynen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nykysen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pölynen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pölysen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vähänen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vähäsen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">alaikänen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">alaikäsen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">äkänen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">äkäsen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämmänen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tämmäsen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">alkupöränen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">alkupöräsen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sisänen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sisäsen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">näkönen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">näkösen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pirunnäkönen+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pirunnäkösen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pälvi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pälven</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kallis+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kallhiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">valmis+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">valmhiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaunis+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaunhiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tyyris+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tyyrhiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">raitis+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">raitthiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tivis+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tivhiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">auttii+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">auttiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">fakki+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">fakin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">plankki+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">plankin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">flinkki+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">flinkin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">härski+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">härskin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ratikaali+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ratikaalin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">normaali+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">normaalin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rekiunaali+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rekiunaalin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">liberaali+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">liberaalin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sentraali+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sentraalin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">simppeli+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">simppelin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">passeli+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">passelin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">villi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">villin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hööli+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">höölin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">himmi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">himmin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kleini+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kleinin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">fiini+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">fiinin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pruuni+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pruunin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">klaari+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">klaarin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">naakkari+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">naakkarin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sikkari+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sikkarin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">eri+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">erin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">primääri+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">primäärin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">oransi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">oransin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vissi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vissin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">epävissi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">epävissin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">oranssi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">oranssin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">fioletti+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">fioletin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ultrafioletti+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ultrafioletin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">interesantti+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">interesantin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ekvivalentti+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ekvivalentin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">siisti+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">siistin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">söötti+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">söötin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nekatiivi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nekatiivin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">primitiivi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">primitiivin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">krouvi+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">krouvin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">oranši+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">oranšin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">laho+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lahon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mainio+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mainion</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ujo+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ujon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">heikko+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">heikon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaalo+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaalon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">silko+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">silon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tollo+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tollon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kolo+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kolon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ulko+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ulon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hieno+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hienon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kehno+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kehnon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">viinto+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">viinon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">huono+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">huonon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">helppo+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">helpon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">juoppo+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">juopon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">suipero+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">suiperon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuuro+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kuuron</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">iso+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ison</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lakso+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lakson</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaltto+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kalton</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ontto+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">onton</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vaisto+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vaiston</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pisto+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">piston</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">visto+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">viston</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">rutto+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ruton</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">siivo+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">siivon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">outo+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ouđon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">raju+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">rajun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kalju+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaljun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">virkku+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">virkun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuvailtu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kuvailun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hullu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hullun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sotahullu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sotahullun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuulu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kuulun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lamu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lamun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">karu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">karun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kesu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kesun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">visu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">visun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paksu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">paksun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kalsu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kalsun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">merkattu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">merkatun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">maalattu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">maalatun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ulkokullattu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ulkokullatun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kevveestisuolattu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kevveestisuolatun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">siunattu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">siunatun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tunnettu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tunnetun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">opetettu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">opetetun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">valittu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">valitun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vasittu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vasitun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kranttu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">krantun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kattottu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kattotun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kotonakuottu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kotonakuotun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuttu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tutun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">liehmuu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">liehmuun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">koutu+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kouđun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">häijy+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">häijyn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">syyry+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">syyryn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kypsy+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kypsyn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">niinkäsketty+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">niinkäsketyn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kylmetty+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kylmetyn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pyhitetty+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pyhitetyn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">käytetty+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">käytetyn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kristitty+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kristityn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">määrätty+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">määrätyn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">präntätty+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">präntätyn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kärys+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kärhyyn</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mätä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mäđän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pyhä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pyhän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tyyhä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tyyhän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">köyhä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">köyhän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">löyhä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">löyhän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">vähä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">vähän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tyhjä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tyhjän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">väljä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">väljän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pelkkä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pelkän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">synkkä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">synkän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">herkkä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">herkän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jyrkkä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jyrkän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nyrkkä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nyrkän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pitkä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pitkän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mykkä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mykän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ytelä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ytelän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tyhmä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tyhmän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lämmin+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lämpimän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kylmä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kylmän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jääkylmä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jääkylmän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hengetön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hengettömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">äänetön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">äänettömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pilvetön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pilvettömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">färitön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">färittömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hävitön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hävittömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hävytön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hävyttömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kykenemätön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kykenemättömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kärsimätön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kärsimättömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">näkymätön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">näkymättömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tietämätön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tietämättömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ymmärtämätön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ymmärtämättömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">välttämätön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">välttämättömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">määrätön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">määrättömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mitätön+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">mitättömän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">seppä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sepän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">näpperä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">näpperän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">höperä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">höperän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kiverä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kiverän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">käyrä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">käyrän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nöyrä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">nöyrän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">märkä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">märän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">läpimärkä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">läpimärän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">näppärä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">näppärän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">väärä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">väärän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sisä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sisän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tylsä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tylsän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">käpsä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">käpsän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">näpsä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">näpsän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">löysä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">löysän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ryöttä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ryötän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yhđentekkeevä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yhđentekkeevän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">järkkeevä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">järkkeevän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">väkkeevä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">väkkeevän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">lievä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">lievän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sievä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sievän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tyhvä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tyhvän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kärsiivä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kärsiivän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">selvä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">selvän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">epäselvä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">epäselvän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hyvä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">hyvän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">syvä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">syvän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ikävä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ikävän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">terävä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">terävän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">veđenpitävä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">veđenpitävän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">merkittävä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">merkittävän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">syötävä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">syötävän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">elläävä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">elläävän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ymmärettäävä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ymmärettäävän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jännittäävä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jännittäävän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kiilttäävä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kiilttäävän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">virkistyttäävä+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">virkistyttäävän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sinnikäs+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sinnikkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">pystö+A+Sg+Gen</td>
+            <td colspan="1" rowspan="1">pystön</td>
+         </tr>
+      </table>
+   </body>
+</html>

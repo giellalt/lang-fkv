@@ -1,801 +1,3163 @@
-<?xml version="1.0" encoding="UTF-8"?>  
-<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
-<document xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">  
-  <header> 
-    <title>Generoidut muodot (kesäkuun 19. päivänä 2020, klo. 13:17)</title>  
-  </header> 
-  <body>	  
-    <section><title/>  
-<table>
-<tr><td>mie+Pron+Pers+Sg1+Nom</td><td>mie</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Gen</td><td>mun</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Gen</td><td>minun</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Ill</td><td>minhuun</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Par</td><td>minnuu</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Ess</td><td>minuna</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Tra</td><td>minuksi</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Ine</td><td>minussa</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Ela</td><td>minusta</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+All</td><td>mulle</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+All</td><td>minule</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Ade</td><td>mulla</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Ade</td><td>minula</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Abl</td><td>multa</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Abl</td><td>minulta</td></tr>
-<tr><td>mie+Pron+Pers+Sg1+Abe</td><td>minutta</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Nom</td><td>sie</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Gen</td><td>sun</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Gen</td><td>sinun</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Ill</td><td>sinhuun</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Par</td><td>sinnuu</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Ess</td><td>sinuna</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Tra</td><td>sinuksi</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Ine</td><td>sinussa</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Ela</td><td>sinusta</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+All</td><td>sulle</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+All</td><td>sinule</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Ade</td><td>sulla</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Ade</td><td>sinula</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Abl</td><td>sulta</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Abl</td><td>sinulta</td></tr>
-<tr><td>sie+Pron+Pers+Sg2+Abe</td><td>sinutta</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Nom</td><td>hän</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Gen</td><td>hänen</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Ill</td><td>hänheen</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Par</td><td>häntä</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Ess</td><td>hänenä</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Tra</td><td>häneksi</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Ine</td><td>hänessä</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Ela</td><td>hänestä</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+All</td><td>hänele</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Ade</td><td>hänelä</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Abl</td><td>häneltä</td></tr>
-<tr><td>hän+Pron+Pers+Sg3+Abe</td><td>hänettä</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Nom</td><td>se</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Gen</td><td>sen</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Ill</td><td>siiheen</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Par</td><td>sitä</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Ess</td><td>sinä</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Tra</td><td>siksi</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Ine</td><td>siinä</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Ela</td><td>siitä</td></tr>
-<tr><td>se+Pron+Pers+Sg3+All</td><td>sille</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Ade</td><td>sillä</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Abl</td><td>siltä</td></tr>
-<tr><td>se+Pron+Pers+Sg3+Abe</td><td>se+Pron+Pers+Sg3+Abe</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Nom</td><td>met</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Gen</td><td>meiđän</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Ill</td><td>meihiin</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Par</td><td>meitä</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Ess</td><td>meinä</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Tra</td><td>meiksi</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Ine</td><td>meissä</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Ela</td><td>meistä</td></tr>
-<tr><td>met+Pron+Pers+Pl1+All</td><td>meile</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Ade</td><td>meilä</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Abl</td><td>meiltä</td></tr>
-<tr><td>met+Pron+Pers+Pl1+Abe</td><td>meittä</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Nom</td><td>tet</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Gen</td><td>teiđän</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Ill</td><td>teihiin</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Par</td><td>teitä</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Ess</td><td>teinä</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Tra</td><td>teiksi</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Ine</td><td>teissä</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Ela</td><td>teistä</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+All</td><td>teile</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Ade</td><td>teilä</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Abl</td><td>teiltä</td></tr>
-<tr><td>tet+Pron+Pers+Pl2+Abe</td><td>teittä</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Nom</td><td>het</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Gen</td><td>heiđän</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Ill</td><td>heihiin</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Par</td><td>heitä</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Ess</td><td>heinä</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Tra</td><td>heiksi</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Ine</td><td>heissä</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Ela</td><td>heistä</td></tr>
-<tr><td>het+Pron+Pers+Pl3+All</td><td>heile</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Ade</td><td>heilä</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Abl</td><td>heiltä</td></tr>
-<tr><td>het+Pron+Pers+Pl3+Abe</td><td>heittä</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Nom</td><td>net</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Gen</td><td>niitten</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Ill</td><td>niihiin</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Par</td><td>niitä</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Ess</td><td>niinä</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Tra</td><td>niiksi</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Ine</td><td>niissä</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Ela</td><td>niistä</td></tr>
-<tr><td>net+Pron+Pers+Pl3+All</td><td>niile</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Ade</td><td>niilä</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Abl</td><td>niiltä</td></tr>
-<tr><td>net+Pron+Pers+Pl3+Abe</td><td>niittä</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Nom</td><td>tämä</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Gen</td><td>tämän</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Ill</td><td>tähän</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Par</td><td>tätä</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Ess</td><td>tänä</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Ess</td><td>tänä</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Tra</td><td>täksi</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Ine</td><td>tässä</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Ela</td><td>tästä</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+All</td><td>tälle</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Ade</td><td>tällä</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Abl</td><td>tältä</td></tr>
-<tr><td>tämä+Pron+Dem+Sg+Abe</td><td>tämä+Pron+Dem+Sg+Abe</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Nom</td><td>tuo</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Gen</td><td>tuon</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Ill</td><td>tuohon</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Par</td><td>tuota</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Ess</td><td>tuona</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Tra</td><td>tuoksi</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Ine</td><td>tuossa</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Ela</td><td>tuosta</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+All</td><td>tuole</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Ade</td><td>tuola</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Abl</td><td>tuolta</td></tr>
-<tr><td>tuo+Pron+Dem+Sg+Abe</td><td>tuo+Pron+Dem+Sg+Abe</td></tr>
-<tr><td>se+Pron+Dem+Sg+Nom</td><td>se</td></tr>
-<tr><td>se+Pron+Dem+Sg+Gen</td><td>sen</td></tr>
-<tr><td>se+Pron+Dem+Sg+Ill</td><td>siiheen</td></tr>
-<tr><td>se+Pron+Dem+Sg+Par</td><td>sitä</td></tr>
-<tr><td>se+Pron+Dem+Sg+Ess</td><td>sinä</td></tr>
-<tr><td>se+Pron+Dem+Sg+Tra</td><td>siksi</td></tr>
-<tr><td>se+Pron+Dem+Sg+Ine</td><td>siinä</td></tr>
-<tr><td>se+Pron+Dem+Sg+Ela</td><td>siitä</td></tr>
-<tr><td>se+Pron+Dem+Sg+All</td><td>sille</td></tr>
-<tr><td>se+Pron+Dem+Sg+Ade</td><td>sillä</td></tr>
-<tr><td>se+Pron+Dem+Sg+Abl</td><td>siltä</td></tr>
-<tr><td>se+Pron+Dem+Sg+Abe</td><td>se+Pron+Dem+Sg+Abe</td></tr>
-<tr><td>nämät+Pron+Dem+Nom</td><td>nämät+Pron+Dem+Nom</td></tr>
-<tr><td>nämät+Pron+Dem+Gen</td><td>nämät+Pron+Dem+Gen</td></tr>
-<tr><td>nämät+Pron+Dem+Ill</td><td>nämät+Pron+Dem+Ill</td></tr>
-<tr><td>nämät+Pron+Dem+Par</td><td>nämät+Pron+Dem+Par</td></tr>
-<tr><td>nämät+Pron+Dem+Ess</td><td>nämät+Pron+Dem+Ess</td></tr>
-<tr><td>nämät+Pron+Dem+Tra</td><td>nämät+Pron+Dem+Tra</td></tr>
-<tr><td>nämät+Pron+Dem+Ine</td><td>nämät+Pron+Dem+Ine</td></tr>
-<tr><td>nämät+Pron+Dem+Ela</td><td>nämät+Pron+Dem+Ela</td></tr>
-<tr><td>nämät+Pron+Dem+All</td><td>nämät+Pron+Dem+All</td></tr>
-<tr><td>nämät+Pron+Dem+Ade</td><td>nämät+Pron+Dem+Ade</td></tr>
-<tr><td>nämät+Pron+Dem+Abl</td><td>nämät+Pron+Dem+Abl</td></tr>
-<tr><td>nämät+Pron+Dem+Abe</td><td>nämät+Pron+Dem+Abe</td></tr>
-<tr><td>nuot+Pron+Dem+Nom</td><td>nuot+Pron+Dem+Nom</td></tr>
-<tr><td>nuot+Pron+Dem+Gen</td><td>nuot+Pron+Dem+Gen</td></tr>
-<tr><td>nuot+Pron+Dem+Ill</td><td>nuot+Pron+Dem+Ill</td></tr>
-<tr><td>nuot+Pron+Dem+Par</td><td>nuot+Pron+Dem+Par</td></tr>
-<tr><td>nuot+Pron+Dem+Ess</td><td>nuot+Pron+Dem+Ess</td></tr>
-<tr><td>nuot+Pron+Dem+Tra</td><td>nuot+Pron+Dem+Tra</td></tr>
-<tr><td>nuot+Pron+Dem+Ine</td><td>nuot+Pron+Dem+Ine</td></tr>
-<tr><td>nuot+Pron+Dem+Ela</td><td>nuot+Pron+Dem+Ela</td></tr>
-<tr><td>nuot+Pron+Dem+All</td><td>nuot+Pron+Dem+All</td></tr>
-<tr><td>nuot+Pron+Dem+Ade</td><td>nuot+Pron+Dem+Ade</td></tr>
-<tr><td>nuot+Pron+Dem+Abl</td><td>nuot+Pron+Dem+Abl</td></tr>
-<tr><td>nuot+Pron+Dem+Abe</td><td>nuot+Pron+Dem+Abe</td></tr>
-<tr><td>net+Pron+Dem+Nom</td><td>net+Pron+Dem+Nom</td></tr>
-<tr><td>net+Pron+Dem+Gen</td><td>net+Pron+Dem+Gen</td></tr>
-<tr><td>net+Pron+Dem+Ill</td><td>net+Pron+Dem+Ill</td></tr>
-<tr><td>net+Pron+Dem+Par</td><td>net+Pron+Dem+Par</td></tr>
-<tr><td>net+Pron+Dem+Ess</td><td>net+Pron+Dem+Ess</td></tr>
-<tr><td>net+Pron+Dem+Tra</td><td>net+Pron+Dem+Tra</td></tr>
-<tr><td>net+Pron+Dem+Ine</td><td>net+Pron+Dem+Ine</td></tr>
-<tr><td>net+Pron+Dem+Ela</td><td>net+Pron+Dem+Ela</td></tr>
-<tr><td>net+Pron+Dem+All</td><td>net+Pron+Dem+All</td></tr>
-<tr><td>net+Pron+Dem+Ade</td><td>net+Pron+Dem+Ade</td></tr>
-<tr><td>net+Pron+Dem+Abl</td><td>net+Pron+Dem+Abl</td></tr>
-<tr><td>net+Pron+Dem+Abe</td><td>net+Pron+Dem+Abe</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Nom</td><td>kuka</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Gen</td><td>kenen</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Gen</td><td>kenenkä</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Ill</td><td>kenheen</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Par</td><td>ketä</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Ess</td><td>kenenä</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Tra</td><td>keneksi</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Ine</td><td>kenessä</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Ela</td><td>kenestä</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+All</td><td>kelle</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+All</td><td>kenele</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Ade</td><td>kellä</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Ade</td><td>kenelä</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Abl</td><td>keltä</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Abl</td><td>keneltä</td></tr>
-<tr><td>kuka+Pron+Interr+Sg+Abe</td><td>kuka+Pron+Interr+Sg+Abe</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Nom</td><td>kukka</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Nom</td><td>kekkä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Gen</td><td>kenen</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Gen</td><td>kenenkä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Ill</td><td>kenheen</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Par</td><td>ketä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Par</td><td>keitä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Ess</td><td>kenenä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Tra</td><td>keneksi</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Ine</td><td>kenessä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Ela</td><td>kenestä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+All</td><td>kelle</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+All</td><td>kenele</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Ade</td><td>kellä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Ade</td><td>kenelä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Abl</td><td>keltä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Abl</td><td>keneltä</td></tr>
-<tr><td>kuka+Pron+Interr+Pl+Abe</td><td>kuka+Pron+Interr+Pl+Abe</td></tr>
-<tr><td>mikä+Pron+Interr+Nom</td><td>mikä+Pron+Interr+Nom</td></tr>
-<tr><td>mikä+Pron+Interr+Gen</td><td>mikä+Pron+Interr+Gen</td></tr>
-<tr><td>mikä+Pron+Interr+Ill</td><td>mikä+Pron+Interr+Ill</td></tr>
-<tr><td>mikä+Pron+Interr+Par</td><td>mikä+Pron+Interr+Par</td></tr>
-<tr><td>mikä+Pron+Interr+Ess</td><td>mikä+Pron+Interr+Ess</td></tr>
-<tr><td>mikä+Pron+Interr+Tra</td><td>mikä+Pron+Interr+Tra</td></tr>
-<tr><td>mikä+Pron+Interr+Ine</td><td>mikä+Pron+Interr+Ine</td></tr>
-<tr><td>mikä+Pron+Interr+Ela</td><td>mikä+Pron+Interr+Ela</td></tr>
-<tr><td>mikä+Pron+Interr+All</td><td>mikä+Pron+Interr+All</td></tr>
-<tr><td>mikä+Pron+Interr+Ade</td><td>mikä+Pron+Interr+Ade</td></tr>
-<tr><td>mikä+Pron+Interr+Abl</td><td>mikä+Pron+Interr+Abl</td></tr>
-<tr><td>mikä+Pron+Interr+Abe</td><td>mikä+Pron+Interr+Abe</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Nom</td><td>joka</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Gen</td><td>jonka</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Ill</td><td>johon</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Ill</td><td>johonka</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Par</td><td>jota</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Ess</td><td>jona</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Tra</td><td>joksi</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Ine</td><td>jossa</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Ela</td><td>josta</td></tr>
-<tr><td>joka+Pron+Rel+Sg+All</td><td>jolle</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Ade</td><td>jolla</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Abl</td><td>jolta</td></tr>
-<tr><td>joka+Pron+Rel+Sg+Abe</td><td>joka+Pron+Rel+Sg+Abe</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Nom</td><td>jokka</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Gen</td><td>joitten</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Ill</td><td>joihin</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Par</td><td>joita</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Ess</td><td>joina</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Tra</td><td>joiksi</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Ine</td><td>joissa</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Ela</td><td>joista</td></tr>
-<tr><td>joka+Pron+Rel+Pl+All</td><td>joile</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Ade</td><td>joila</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Abl</td><td>joilta</td></tr>
-<tr><td>joka+Pron+Rel+Pl+Abe</td><td>joka+Pron+Rel+Pl+Abe</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Nom</td><td>mikä</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Gen</td><td>minkä</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Ill</td><td>mihin</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Ill</td><td>mihinkä</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Par</td><td>mitä</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Ess</td><td>minä</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Tra</td><td>miksi</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Ine</td><td>missä</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Ela</td><td>mistä</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+All</td><td>mille</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Ade</td><td>millä</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Abl</td><td>miltä</td></tr>
-<tr><td>mikä+Pron+Rel+Sg+Abe</td><td>mikä+Pron+Rel+Sg+Abe</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Nom</td><td>mitkä</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Nom</td><td>mikkä</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Gen</td><td>minkä</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Ill</td><td>mihin</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Ill</td><td>mihinkä</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Par</td><td>mitä</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Ess</td><td>minä</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Tra</td><td>miksi</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Ine</td><td>missä</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Ela</td><td>mistä</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+All</td><td>mille</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Ade</td><td>millä</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Abl</td><td>miltä</td></tr>
-<tr><td>mikä+Pron+Rel+Pl+Abe</td><td>mikä+Pron+Rel+Pl+Abe</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Nom</td><td>itteni+Pron+Refl+Sg+Nom</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Gen</td><td>itteni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Ill</td><td>ittheeni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Par</td><td>ittiäni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Par</td><td>itteeni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Par</td><td>itteäni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Ess</td><td>ittenäni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Tra</td><td>ittekseni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Ine</td><td>ittessäni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Ela</td><td>ittestäni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+All</td><td>itteleni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Ade</td><td>itteläni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Abl</td><td>itteltäni</td></tr>
-<tr><td>itteni+Pron+Refl+Sg+Abe</td><td>itteni+Pron+Refl+Sg+Abe</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Nom</td><td>ittesti+Pron+Refl+Sg+Nom</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Gen</td><td>ittsti</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Ill</td><td>ittheesti</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Par</td><td>ittiästi</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Par</td><td>itteesti</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Par</td><td>itteästi</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Ess</td><td>ittenästi</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Tra</td><td>itteksesti</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Ine</td><td>ittessästi</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Ela</td><td>ittestästi</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+All</td><td>ittelesti</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Ade</td><td>ittelästi</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Abl</td><td>itteltästi</td></tr>
-<tr><td>ittesti+Pron+Refl+Sg+Abe</td><td>ittesti+Pron+Refl+Sg+Abe</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Nom</td><td>ittemä+Pron+Refl+Pl+Nom</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Gen</td><td>ittmä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Ill</td><td>ittheemä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Par</td><td>ittiämä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Par</td><td>itteemä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Par</td><td>itteämä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Ess</td><td>ittenämmä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Tra</td><td>itteksemmä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Ine</td><td>ittessämmä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Ela</td><td>ittestämmä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+All</td><td>ittelemmä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Ade</td><td>ittelämmä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Abl</td><td>itteltämmä</td></tr>
-<tr><td>ittemä+Pron+Refl+Pl+Abe</td><td>ittemä+Pron+Refl+Pl+Abe</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Nom</td><td>ittenä+Pron+Refl+Pl+Nom</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Gen</td><td>ittnä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Ill</td><td>ittheenä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Par</td><td>ittiännä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Par</td><td>itteenä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Par</td><td>itteännä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Ess</td><td>ittenännä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Tra</td><td>itteksennä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Ine</td><td>ittessännä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Ela</td><td>ittestännä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+All</td><td>ittelennä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Ade</td><td>ittelännä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Abl</td><td>ittetännä</td></tr>
-<tr><td>ittenä+Pron+Refl+Pl+Abe</td><td>ittenä+Pron+Refl+Pl+Abe</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Nom</td><td>ittensä+Pron+Refl+Pl+Nom</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Gen</td><td>ittnä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Ill</td><td>ittheensä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Par</td><td>ittiänsä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Par</td><td>itteensä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Par</td><td>itteänsä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Ess</td><td>ittenänsä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Tra</td><td>itteksensä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Ine</td><td>ittessänsä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Ela</td><td>ittestänsä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+All</td><td>ittelensä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Ade</td><td>ittelänsä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Abl</td><td>ittltänsä</td></tr>
-<tr><td>ittensä+Pron+Refl+Pl+Abe</td><td>ittensä+Pron+Refl+Pl+Abe</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Nom</td><td>toinen+Pron+Recipr+Attr+Nom</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Gen</td><td>toinen+Pron+Recipr+Attr+Gen</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Ill</td><td>toinen+Pron+Recipr+Attr+Ill</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Par</td><td>toinen+Pron+Recipr+Attr+Par</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Ess</td><td>toinen+Pron+Recipr+Attr+Ess</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Tra</td><td>toinen+Pron+Recipr+Attr+Tra</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Ine</td><td>toinen+Pron+Recipr+Attr+Ine</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Ela</td><td>toinen+Pron+Recipr+Attr+Ela</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+All</td><td>toinen+Pron+Recipr+Attr+All</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Ade</td><td>toinen+Pron+Recipr+Attr+Ade</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Abl</td><td>toinen+Pron+Recipr+Attr+Abl</td></tr>
-<tr><td>toinen+Pron+Recipr+Attr+Abe</td><td>toinen+Pron+Recipr+Attr+Abe</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Nom</td><td>toinen</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Gen</td><td>toisen</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Ill</td><td>toisheen</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Par</td><td>toista</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Ess</td><td>toisena</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Tra</td><td>toiseksi</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Ine</td><td>toisessa</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Ela</td><td>toisesta</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+All</td><td>toisele</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Ade</td><td>toisela</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Abl</td><td>toiselta</td></tr>
-<tr><td>toinen+Pron+Recipr+Sg+Abe</td><td>toinen+Pron+Recipr+Sg+Abe</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Nom</td><td>toiset</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Gen</td><td>toisten</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Ill</td><td>toishiin</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Par</td><td>toisia</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Ess</td><td>toisina</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Tra</td><td>toisiksi</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Ine</td><td>toisissa</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Ela</td><td>toisista</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+All</td><td>toisile</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Ade</td><td>toisila</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Abl</td><td>toisilta</td></tr>
-<tr><td>toinen+Pron+Recipr+Pl+Abe</td><td>toinen+Pron+Recipr+Pl+Abe</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Nom</td><td>joku</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Gen</td><td>jonku</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Ill</td><td>johonki</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Par</td><td>jotaki</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Ess</td><td>jonaki</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Tra</td><td>joksiki</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Ine</td><td>jossaki</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Ela</td><td>jostaki</td></tr>
-<tr><td>joku+Pron+Indef+Sg+All</td><td>jolleki</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Ade</td><td>jollaki</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Abl</td><td>jolleki</td></tr>
-<tr><td>joku+Pron+Indef+Sg+Abe</td><td>joku+Pron+Indef+Sg+Abe</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Nom</td><td>jokku+Pron+Indef+Pl+Nom</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Gen</td><td>joittenki</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Ill</td><td>joihinki</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Par</td><td>joitaki</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Ess</td><td>joinaki</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Tra</td><td>joiksiki</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Ine</td><td>joissaki</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Ela</td><td>joistaki</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+All</td><td>joilleki</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Ade</td><td>joillaki</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Abl</td><td>joilleki</td></tr>
-<tr><td>jokku+Pron+Indef+Pl+Abe</td><td>jokku+Pron+Indef+Pl+Abe</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Nom</td><td>muutampi</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Gen</td><td>muutaman</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Ill</td><td>muutamphaan</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Par</td><td>muutammaa</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Par</td><td>muutamppaa</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Ess</td><td>muutaminna</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Ess</td><td>muutampanna</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Tra</td><td>muutamaksi</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Ine</td><td>muutamassa</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Ela</td><td>muutamasta</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+All</td><td>muutamalle</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Ade</td><td>muutamalla</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Abl</td><td>muutamalta</td></tr>
-<tr><td>muutampi+Pron+Indef+Sg+Abe</td><td>muutampi+Pron+Indef+Sg+Abe</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Nom</td><td>muutamat+Pron+Indef+Pl+Nom</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Gen</td><td>muutamitten</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Ill</td><td>muutamphiin</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Par</td><td>muutamppiita</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Par</td><td>muutammia</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Ess</td><td>muutaminna</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Ess</td><td>muutampinna</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Tra</td><td>muutamiksi</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Ine</td><td>muutamissa</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Ela</td><td>muutamista</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+All</td><td>muutamille</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Ade</td><td>muutamilla</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Abl</td><td>muutamilta</td></tr>
-<tr><td>muutamat+Pron+Indef+Pl+Abe</td><td>muutamat+Pron+Indef+Pl+Abe</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Nom</td><td>sama</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Gen</td><td>saman</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Ill</td><td>samhaan</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Par</td><td>sammaa</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Ess</td><td>samana</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Tra</td><td>samaksi</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Ine</td><td>samassa</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Ela</td><td>samasta</td></tr>
-<tr><td>sama+Pron+Indef+Sg+All</td><td>samale</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Ade</td><td>samala</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Abl</td><td>samalta</td></tr>
-<tr><td>sama+Pron+Indef+Sg+Abe</td><td>samatta</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Nom</td><td>samat</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Gen</td><td>samain</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Ill</td><td>samahoin</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Par</td><td>samai</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Ess</td><td>samaina</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Tra</td><td>samaiksi</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Ine</td><td>samaissa</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Ela</td><td>samaista</td></tr>
-<tr><td>sama+Pron+Indef+Pl+All</td><td>samaile</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Ade</td><td>samaila</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Abl</td><td>samailta</td></tr>
-<tr><td>sama+Pron+Indef+Pl+Abe</td><td>samaitta</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Nom</td><td>muu</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Gen</td><td>muun</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Ill</td><td>muuhun</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Par</td><td>muuta</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Ess</td><td>muuna</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Tra</td><td>muuksi</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Ine</td><td>muussa</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Ela</td><td>muusta</td></tr>
-<tr><td>muu+Pron+Indef+Sg+All</td><td>muule</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Ade</td><td>muula</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Abl</td><td>muulta</td></tr>
-<tr><td>muu+Pron+Indef+Sg+Abe</td><td>muutta</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Nom</td><td>muut</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Gen</td><td>muitten</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Gen</td><td>muinen</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Ill</td><td>muihin</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Par</td><td>muita</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Ess</td><td>muina</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Tra</td><td>muiksi</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Ine</td><td>muissa</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Ela</td><td>muista</td></tr>
-<tr><td>muu+Pron+Indef+Pl+All</td><td>muile</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Ade</td><td>muila</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Abl</td><td>muilta</td></tr>
-<tr><td>muu+Pron+Indef+Pl+Abe</td><td>muitta</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Nom</td><td>yksi+Pron+Indef+Sg+Nom</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Gen</td><td>yksi+Pron+Indef+Sg+Gen</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Ill</td><td>yksi+Pron+Indef+Sg+Ill</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Par</td><td>yksi+Pron+Indef+Sg+Par</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Ess</td><td>yksi+Pron+Indef+Sg+Ess</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Tra</td><td>yksi+Pron+Indef+Sg+Tra</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Ine</td><td>yksi+Pron+Indef+Sg+Ine</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Ela</td><td>yksi+Pron+Indef+Sg+Ela</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+All</td><td>yksi+Pron+Indef+Sg+All</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Ade</td><td>yksi+Pron+Indef+Sg+Ade</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Abl</td><td>yksi+Pron+Indef+Sg+Abl</td></tr>
-<tr><td>yksi+Pron+Indef+Sg+Abe</td><td>yksi+Pron+Indef+Sg+Abe</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Nom</td><td>yksi+Pron+Indef+Pl+Nom</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Gen</td><td>yksi+Pron+Indef+Pl+Gen</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Ill</td><td>yksi+Pron+Indef+Pl+Ill</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Par</td><td>yksi+Pron+Indef+Pl+Par</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Ess</td><td>yksi+Pron+Indef+Pl+Ess</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Tra</td><td>yksi+Pron+Indef+Pl+Tra</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Ine</td><td>yksi+Pron+Indef+Pl+Ine</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Ela</td><td>yksi+Pron+Indef+Pl+Ela</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+All</td><td>yksi+Pron+Indef+Pl+All</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Ade</td><td>yksi+Pron+Indef+Pl+Ade</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Abl</td><td>yksi+Pron+Indef+Pl+Abl</td></tr>
-<tr><td>yksi+Pron+Indef+Pl+Abe</td><td>yksi+Pron+Indef+Pl+Abe</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Nom</td><td>kaikki</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Gen</td><td>kaiken</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Ill</td><td>kaikkheen</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Par</td><td>kaikkee</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Ess</td><td>kaikkena</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Tra</td><td>kaikeksi</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Ine</td><td>kaikessa</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Ela</td><td>kaikesta</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+All</td><td>kaikele</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Ade</td><td>kaikela</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Abl</td><td>kaikelta</td></tr>
-<tr><td>kaikki+Pron+Qu+Sg+Abe</td><td>kaikki+Pron+Qu+Sg+Abe</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Nom</td><td>kaiket</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Gen</td><td>kaikkiin</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Ill</td><td>kaikkhiin</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Par</td><td>kaikkii</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Ess</td><td>kaikkina</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Tra</td><td>kaikiksi</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Ine</td><td>kaikissa</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Ela</td><td>kaikista</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+All</td><td>kaikile</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Ade</td><td>kaikila</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Abl</td><td>kaikilta</td></tr>
-<tr><td>kaikki+Pron+Qu+Pl+Abe</td><td>kaikki+Pron+Qu+Pl+Abe</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Nom</td><td>jokhainen+Pron+Qu+Sg+Nom</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Gen</td><td>jokhainen+Pron+Qu+Sg+Gen</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Ill</td><td>jokhainen+Pron+Qu+Sg+Ill</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Par</td><td>jokhainen+Pron+Qu+Sg+Par</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Ess</td><td>jokhainen+Pron+Qu+Sg+Ess</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Tra</td><td>jokhainen+Pron+Qu+Sg+Tra</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Ine</td><td>jokhainen+Pron+Qu+Sg+Ine</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Ela</td><td>jokhainen+Pron+Qu+Sg+Ela</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+All</td><td>jokhainen+Pron+Qu+Sg+All</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Ade</td><td>jokhainen+Pron+Qu+Sg+Ade</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Abl</td><td>jokhainen+Pron+Qu+Sg+Abl</td></tr>
-<tr><td>jokhainen+Pron+Qu+Sg+Abe</td><td>jokhainen+Pron+Qu+Sg+Abe</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Nom</td><td>jokhainen+Pron+Qu+Pl+Nom</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Gen</td><td>jokhainen+Pron+Qu+Pl+Gen</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Ill</td><td>jokhainen+Pron+Qu+Pl+Ill</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Par</td><td>jokhainen+Pron+Qu+Pl+Par</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Ess</td><td>jokhainen+Pron+Qu+Pl+Ess</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Tra</td><td>jokhainen+Pron+Qu+Pl+Tra</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Ine</td><td>jokhainen+Pron+Qu+Pl+Ine</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Ela</td><td>jokhainen+Pron+Qu+Pl+Ela</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+All</td><td>jokhainen+Pron+Qu+Pl+All</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Ade</td><td>jokhainen+Pron+Qu+Pl+Ade</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Abl</td><td>jokhainen+Pron+Qu+Pl+Abl</td></tr>
-<tr><td>jokhainen+Pron+Qu+Pl+Abe</td><td>jokhainen+Pron+Qu+Pl+Abe</td></tr>
-<tr><td>itte+Pron+Qu+Nom</td><td>itte</td></tr>
-<tr><td>itte+Pron+Qu+Gen</td><td>itten</td></tr>
-<tr><td>itte+Pron+Qu+Ill</td><td>ittheen</td></tr>
-<tr><td>itte+Pron+Qu+Par</td><td>ittiä</td></tr>
-<tr><td>itte+Pron+Qu+Par</td><td>ittee</td></tr>
-<tr><td>itte+Pron+Qu+Par</td><td>itteä</td></tr>
-<tr><td>itte+Pron+Qu+Ess</td><td>ittenä</td></tr>
-<tr><td>itte+Pron+Qu+Tra</td><td>itteksi</td></tr>
-<tr><td>itte+Pron+Qu+Ine</td><td>ittessä</td></tr>
-<tr><td>itte+Pron+Qu+Ela</td><td>ittestä</td></tr>
-<tr><td>itte+Pron+Qu+All</td><td>ittele</td></tr>
-<tr><td>itte+Pron+Qu+Ade</td><td>ittelä</td></tr>
-<tr><td>itte+Pron+Qu+Abl</td><td>itteltä</td></tr>
-<tr><td>itte+Pron+Qu+Abe</td><td>itte+Pron+Qu+Abe</td></tr>
-<tr><td>kekin+Pron+Qu+Nom</td><td>kekin+Pron+Qu+Nom</td></tr>
-<tr><td>kekin+Pron+Qu+Gen</td><td>kenenki</td></tr>
-<tr><td>kekin+Pron+Qu+Ill</td><td>kehenki</td></tr>
-<tr><td>kekin+Pron+Qu+Par</td><td>ketaki</td></tr>
-<tr><td>kekin+Pron+Qu+Ess</td><td>kenäki</td></tr>
-<tr><td>kekin+Pron+Qu+Tra</td><td>keksiki</td></tr>
-<tr><td>kekin+Pron+Qu+Ine</td><td>kessäki</td></tr>
-<tr><td>kekin+Pron+Qu+Ela</td><td>kestäki</td></tr>
-<tr><td>kekin+Pron+Qu+All</td><td>kelleki</td></tr>
-<tr><td>kekin+Pron+Qu+Ade</td><td>kelläki</td></tr>
-<tr><td>kekin+Pron+Qu+Abl</td><td>keltäki</td></tr>
-<tr><td>kekin+Pron+Qu+Abe</td><td>kekin+Pron+Qu+Abe</td></tr>
-<tr><td>kukanen+Pron+Qu+Nom</td><td>kukanen+Pron+Qu+Nom</td></tr>
-<tr><td>kukanen+Pron+Qu+Gen</td><td>kukanen+Pron+Qu+Gen</td></tr>
-<tr><td>kukanen+Pron+Qu+Ill</td><td>kukanen+Pron+Qu+Ill</td></tr>
-<tr><td>kukanen+Pron+Qu+Par</td><td>kukanen+Pron+Qu+Par</td></tr>
-<tr><td>kukanen+Pron+Qu+Ess</td><td>kukanen+Pron+Qu+Ess</td></tr>
-<tr><td>kukanen+Pron+Qu+Tra</td><td>kukanen+Pron+Qu+Tra</td></tr>
-<tr><td>kukanen+Pron+Qu+Ine</td><td>kukanen+Pron+Qu+Ine</td></tr>
-<tr><td>kukanen+Pron+Qu+Ela</td><td>kukanen+Pron+Qu+Ela</td></tr>
-<tr><td>kukanen+Pron+Qu+All</td><td>kukanen+Pron+Qu+All</td></tr>
-<tr><td>kukanen+Pron+Qu+Ade</td><td>kukanen+Pron+Qu+Ade</td></tr>
-<tr><td>kukanen+Pron+Qu+Abl</td><td>kukanen+Pron+Qu+Abl</td></tr>
-<tr><td>kukanen+Pron+Qu+Abe</td><td>kukanen+Pron+Qu+Abe</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Nom</td><td>kumpiki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Gen</td><td>kummanki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Ill</td><td>kumphaanki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Par</td><td>kumpaaki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Par</td><td>kumppaaki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Ess</td><td>kumpanaki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Tra</td><td>kummaksiki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Ine</td><td>kummassaki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Ela</td><td>kummastaki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+All</td><td>kummalleki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Ade</td><td>kummallaki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Abl</td><td>kummaltaki</td></tr>
-<tr><td>kumpiki+Pron+Qu+Sg+Abe</td><td>kumpiki+Pron+Qu+Sg+Abe</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Nom</td><td>kummatki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Gen</td><td>kumppinki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Gen</td><td>kummittenki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Ill</td><td>kumphiinki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Par</td><td>kumpiaki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Par</td><td>kumppiiki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Ess</td><td>kumpinaki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Tra</td><td>kummiksiki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Ine</td><td>kummissaki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Ela</td><td>kummistaki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+All</td><td>kummileki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Ade</td><td>kummilaki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Abl</td><td>kummiltaki</td></tr>
-<tr><td>kummatki+Pron+Qu+Pl+Abe</td><td>kummatki+Pron+Qu+Pl+Abe</td></tr>
-<tr><td>molemat+Pron+Qu+Nom</td><td>molemat</td></tr>
-<tr><td>molemat+Pron+Qu+Gen</td><td>molemman</td></tr>
-<tr><td>molemat+Pron+Qu+Ill</td><td>molemphaan</td></tr>
-<tr><td>molemat+Pron+Qu+Par</td><td>molemppaa</td></tr>
-<tr><td>molemat+Pron+Qu+Ess</td><td>molempanna</td></tr>
-<tr><td>molemat+Pron+Qu+Tra</td><td>molemaksi</td></tr>
-<tr><td>molemat+Pron+Qu+Ine</td><td>molemassa</td></tr>
-<tr><td>molemat+Pron+Qu+Ela</td><td>molemasta</td></tr>
-<tr><td>molemat+Pron+Qu+All</td><td>molemale</td></tr>
-<tr><td>molemat+Pron+Qu+Ade</td><td>molemila</td></tr>
-<tr><td>molemat+Pron+Qu+Abl</td><td>molemalta</td></tr>
-<tr><td>molemat+Pron+Qu+Abe</td><td>molemat+Pron+Qu+Abe</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Nom</td><td>moni</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Gen</td><td>monen</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Ill</td><td>moni+Pron+Qu+Sg+Ill</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Par</td><td>monta</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Ess</td><td>monena</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Tra</td><td>moneksi</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Ine</td><td>monessa</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Ela</td><td>monesta</td></tr>
-<tr><td>moni+Pron+Qu+Sg+All</td><td>monele</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Ade</td><td>monela</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Abl</td><td>monelta</td></tr>
-<tr><td>moni+Pron+Qu+Sg+Abe</td><td>moni+Pron+Qu+Sg+Abe</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Nom</td><td>monet</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Gen</td><td>mon3en</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Ill</td><td>moni+Pron+Qu+Pl+Ill</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Par</td><td>moniq</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Ess</td><td>monina</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Tra</td><td>moniksi</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Ine</td><td>monissa</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Ela</td><td>monista</td></tr>
-<tr><td>moni+Pron+Qu+Pl+All</td><td>monile</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Ade</td><td>monila</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Abl</td><td>monilta</td></tr>
-<tr><td>moni+Pron+Qu+Pl+Abe</td><td>moni+Pron+Qu+Pl+Abe</td></tr>
-<tr><td>kukhaan+Pron+Qu+Nom</td><td>kukhaan+Pron+Qu+Nom</td></tr>
-<tr><td>kukhaan+Pron+Qu+Gen</td><td>kenenkhään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Ill</td><td>kenheenkhään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Par</td><td>kethään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Ess</td><td>kenenäkhään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Tra</td><td>keneksikhään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Ine</td><td>kenessäkhään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Ela</td><td>kenestäkhään</td></tr>
-<tr><td>kukhaan+Pron+Qu+All</td><td>kelheen</td></tr>
-<tr><td>kukhaan+Pron+Qu+All</td><td>kenelekhään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Ade</td><td>kethään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Ade</td><td>kekeläkhään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Abl</td><td>kelthään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Abl</td><td>keneltäkhään</td></tr>
-<tr><td>kukhaan+Pron+Qu+Abe</td><td>kukhaan+Pron+Qu+Abe</td></tr>
-<tr><td>mikhään+Pron+Qu+Nom</td><td>mi</td></tr>
-<tr><td>mikhään+Pron+Qu+Gen</td><td>minkhään</td></tr>
-<tr><td>mikhään+Pron+Qu+Ill</td><td>mihinkhään</td></tr>
-<tr><td>mikhään+Pron+Qu+Par</td><td>mithään</td></tr>
-<tr><td>mikhään+Pron+Qu+Ess</td><td>minhään</td></tr>
-<tr><td>mikhään+Pron+Qu+Tra</td><td>miksikhään</td></tr>
-<tr><td>mikhään+Pron+Qu+Ine</td><td>mishään</td></tr>
-<tr><td>mikhään+Pron+Qu+Ela</td><td>misthään</td></tr>
-<tr><td>mikhään+Pron+Qu+All</td><td>millekhään</td></tr>
-<tr><td>mikhään+Pron+Qu+Ade</td><td>milhään</td></tr>
-<tr><td>mikhään+Pron+Qu+Abl</td><td>milthään</td></tr>
-<tr><td>mikhään+Pron+Qu+Abe</td><td>mikhään+Pron+Qu+Abe</td></tr>
-<tr><td>yksikhään+Pron+Qu+Nom</td><td>yht</td></tr>
-<tr><td>yksikhään+Pron+Qu+Gen</td><td>yksikhään+Pron+Qu+Gen</td></tr>
-<tr><td>yksikhään+Pron+Qu+Ill</td><td>yhtheenkään</td></tr>
-<tr><td>yksikhään+Pron+Qu+Par</td><td>yhtäkhään</td></tr>
-<tr><td>yksikhään+Pron+Qu+Ess</td><td>yksikhään+Pron+Qu+Ess</td></tr>
-<tr><td>yksikhään+Pron+Qu+Tra</td><td>yksikhään+Pron+Qu+Tra</td></tr>
-<tr><td>yksikhään+Pron+Qu+Ine</td><td>yksikhään+Pron+Qu+Ine</td></tr>
-<tr><td>yksikhään+Pron+Qu+Ela</td><td>yksikhään+Pron+Qu+Ela</td></tr>
-<tr><td>yksikhään+Pron+Qu+All</td><td>yksikhään+Pron+Qu+All</td></tr>
-<tr><td>yksikhään+Pron+Qu+Ade</td><td>yksikhään+Pron+Qu+Ade</td></tr>
-<tr><td>yksikhään+Pron+Qu+Abl</td><td>yksikhään+Pron+Qu+Abl</td></tr>
-<tr><td>yksikhään+Pron+Qu+Abe</td><td>yksikhään+Pron+Qu+Abe</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Nom</td><td>kumpikhaan+Pron+Qu+Nom</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Gen</td><td>kumpikhaan+Pron+Qu+Gen</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Ill</td><td>kumphaankaan</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Par</td><td>kumpikhaan+Pron+Qu+Par</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Ess</td><td>kumpikhaan+Pron+Qu+Ess</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Tra</td><td>kumpikhaan+Pron+Qu+Tra</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Ine</td><td>kumpikhaan+Pron+Qu+Ine</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Ela</td><td>kumpikhaan+Pron+Qu+Ela</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+All</td><td>kumpikhaan+Pron+Qu+All</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Ade</td><td>kumpikhaan+Pron+Qu+Ade</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Abl</td><td>kumpikhaan+Pron+Qu+Abl</td></tr>
-<tr><td>kumpikhaan+Pron+Qu+Abe</td><td>kumpikhaan+Pron+Qu+Abe</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Nom</td><td>ussie</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Nom</td><td>ussea</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Nom</td><td>ussee</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Gen</td><td>usian</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Gen</td><td>usean</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Gen</td><td>usheen</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ill</td><td>usheesseen</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ill</td><td>usihan</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ill</td><td>usehan</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Par</td><td>usiaa</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Par</td><td>useaa</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Par</td><td>usheeta</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ess</td><td>usiana</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ess</td><td>useana</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ess</td><td>usheena</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Tra</td><td>usiaksi</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Tra</td><td>useaksi</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Tra</td><td>usheeksi</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ine</td><td>usheessa</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ela</td><td>usiasta</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ela</td><td>useasta</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ela</td><td>usheesta</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+All</td><td>usialle</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+All</td><td>usealle</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+All</td><td>usheele</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ade</td><td>usialla</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ade</td><td>usealla</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Ade</td><td>usheela</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Abl</td><td>usialta</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Abl</td><td>usealta</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Abl</td><td>usheelta</td></tr>
-<tr><td>ussee+Pron+Qu+Sg+Abe</td><td>ussee+Pron+Qu+Sg+Abe</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Nom</td><td>useat</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Nom</td><td>usiat</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Nom</td><td>usheeet</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Gen</td><td>usheitten</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Ill</td><td>usheissiin</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Par</td><td>usheita</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Ess</td><td>usheina</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Tra</td><td>usheiksi</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Ine</td><td>usheissa</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Ela</td><td>usheista</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+All</td><td>usheile</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Ade</td><td>usheila</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Abl</td><td>usheilta</td></tr>
-<tr><td>ussee+Pron+Qu+Pl+Abe</td><td>ussee+Pron+Qu+Pl+Abe</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Nom</td><td>paljo+Pron+Qu+Pl+Nom</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Gen</td><td>paljo+Pron+Qu+Pl+Gen</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Ill</td><td>paljo+Pron+Qu+Pl+Ill</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Par</td><td>paljo+Pron+Qu+Pl+Par</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Ess</td><td>paljo+Pron+Qu+Pl+Ess</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Tra</td><td>paljo+Pron+Qu+Pl+Tra</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Ine</td><td>paljo+Pron+Qu+Pl+Ine</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Ela</td><td>paljosta</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+All</td><td>paljoile</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Ade</td><td>paljo+Pron+Qu+Pl+Ade</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Abl</td><td>paljo+Pron+Qu+Pl+Abl</td></tr>
-<tr><td>paljo+Pron+Qu+Pl+Abe</td><td>paljo+Pron+Qu+Pl+Abe</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Nom</td><td>harva</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Gen</td><td>harvan</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Ill</td><td>harvaan</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Par</td><td>harvasta</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Ess</td><td>harvana</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Tra</td><td>harvaksi</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Ine</td><td>harvassa</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Ela</td><td>harvasta</td></tr>
-<tr><td>harva+Pron+Qu+Sg+All</td><td>harvale</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Ade</td><td>harvala</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Abl</td><td>harvalta</td></tr>
-<tr><td>harva+Pron+Qu+Sg+Abe</td><td>harva+Pron+Qu+Sg+Abe</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Nom</td><td>harvat</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Gen</td><td>harvoin</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Ill</td><td>harvoihin</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Par</td><td>harvoista</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Ess</td><td>harvaina</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Tra</td><td>harvaiksi</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Ine</td><td>harvoissa</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Ela</td><td>harvoista</td></tr>
-<tr><td>harva+Pron+Qu+Pl+All</td><td>harvoile</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Ade</td><td>harvoila</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Abl</td><td>harvoilta</td></tr>
-<tr><td>harva+Pron+Qu+Pl+Abe</td><td>harva+Pron+Qu+Pl+Abe</td></tr>
-</table>
-    </section>
-  </body> 
-</document> 
+<html xmlns:xi="http://www.w3.org/2001/XInclude" lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Generoidut muodot (kesäkuun 19. päivänä 2020, klo. 13:17)</title>
+   </head>
+   <body>
+      <h1></h1>
+      <table>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Nom</td>
+            <td colspan="1" rowspan="1">mie</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Gen</td>
+            <td colspan="1" rowspan="1">mun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Gen</td>
+            <td colspan="1" rowspan="1">minun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Ill</td>
+            <td colspan="1" rowspan="1">minhuun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Par</td>
+            <td colspan="1" rowspan="1">minnuu</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Ess</td>
+            <td colspan="1" rowspan="1">minuna</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Tra</td>
+            <td colspan="1" rowspan="1">minuksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Ine</td>
+            <td colspan="1" rowspan="1">minussa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Ela</td>
+            <td colspan="1" rowspan="1">minusta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+All</td>
+            <td colspan="1" rowspan="1">mulle</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+All</td>
+            <td colspan="1" rowspan="1">minule</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Ade</td>
+            <td colspan="1" rowspan="1">mulla</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Ade</td>
+            <td colspan="1" rowspan="1">minula</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Abl</td>
+            <td colspan="1" rowspan="1">multa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Abl</td>
+            <td colspan="1" rowspan="1">minulta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mie+Pron+Pers+Sg1+Abe</td>
+            <td colspan="1" rowspan="1">minutta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Nom</td>
+            <td colspan="1" rowspan="1">sie</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Gen</td>
+            <td colspan="1" rowspan="1">sun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Gen</td>
+            <td colspan="1" rowspan="1">sinun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Ill</td>
+            <td colspan="1" rowspan="1">sinhuun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Par</td>
+            <td colspan="1" rowspan="1">sinnuu</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Ess</td>
+            <td colspan="1" rowspan="1">sinuna</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Tra</td>
+            <td colspan="1" rowspan="1">sinuksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Ine</td>
+            <td colspan="1" rowspan="1">sinussa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Ela</td>
+            <td colspan="1" rowspan="1">sinusta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+All</td>
+            <td colspan="1" rowspan="1">sulle</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+All</td>
+            <td colspan="1" rowspan="1">sinule</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Ade</td>
+            <td colspan="1" rowspan="1">sulla</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Ade</td>
+            <td colspan="1" rowspan="1">sinula</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Abl</td>
+            <td colspan="1" rowspan="1">sulta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Abl</td>
+            <td colspan="1" rowspan="1">sinulta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sie+Pron+Pers+Sg2+Abe</td>
+            <td colspan="1" rowspan="1">sinutta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Nom</td>
+            <td colspan="1" rowspan="1">hän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Gen</td>
+            <td colspan="1" rowspan="1">hänen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Ill</td>
+            <td colspan="1" rowspan="1">hänheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Par</td>
+            <td colspan="1" rowspan="1">häntä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Ess</td>
+            <td colspan="1" rowspan="1">hänenä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Tra</td>
+            <td colspan="1" rowspan="1">häneksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Ine</td>
+            <td colspan="1" rowspan="1">hänessä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Ela</td>
+            <td colspan="1" rowspan="1">hänestä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+All</td>
+            <td colspan="1" rowspan="1">hänele</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Ade</td>
+            <td colspan="1" rowspan="1">hänelä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Abl</td>
+            <td colspan="1" rowspan="1">häneltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">hän+Pron+Pers+Sg3+Abe</td>
+            <td colspan="1" rowspan="1">hänettä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Nom</td>
+            <td colspan="1" rowspan="1">se</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Gen</td>
+            <td colspan="1" rowspan="1">sen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Ill</td>
+            <td colspan="1" rowspan="1">siiheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Par</td>
+            <td colspan="1" rowspan="1">sitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Ess</td>
+            <td colspan="1" rowspan="1">sinä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Tra</td>
+            <td colspan="1" rowspan="1">siksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Ine</td>
+            <td colspan="1" rowspan="1">siinä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Ela</td>
+            <td colspan="1" rowspan="1">siitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+All</td>
+            <td colspan="1" rowspan="1">sille</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Ade</td>
+            <td colspan="1" rowspan="1">sillä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Abl</td>
+            <td colspan="1" rowspan="1">siltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Abe</td>
+            <td colspan="1" rowspan="1">se+Pron+Pers+Sg3+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Nom</td>
+            <td colspan="1" rowspan="1">met</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Gen</td>
+            <td colspan="1" rowspan="1">meiđän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Ill</td>
+            <td colspan="1" rowspan="1">meihiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Par</td>
+            <td colspan="1" rowspan="1">meitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Ess</td>
+            <td colspan="1" rowspan="1">meinä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Tra</td>
+            <td colspan="1" rowspan="1">meiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Ine</td>
+            <td colspan="1" rowspan="1">meissä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Ela</td>
+            <td colspan="1" rowspan="1">meistä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+All</td>
+            <td colspan="1" rowspan="1">meile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Ade</td>
+            <td colspan="1" rowspan="1">meilä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Abl</td>
+            <td colspan="1" rowspan="1">meiltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">met+Pron+Pers+Pl1+Abe</td>
+            <td colspan="1" rowspan="1">meittä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Nom</td>
+            <td colspan="1" rowspan="1">tet</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Gen</td>
+            <td colspan="1" rowspan="1">teiđän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Ill</td>
+            <td colspan="1" rowspan="1">teihiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Par</td>
+            <td colspan="1" rowspan="1">teitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Ess</td>
+            <td colspan="1" rowspan="1">teinä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Tra</td>
+            <td colspan="1" rowspan="1">teiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Ine</td>
+            <td colspan="1" rowspan="1">teissä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Ela</td>
+            <td colspan="1" rowspan="1">teistä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+All</td>
+            <td colspan="1" rowspan="1">teile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Ade</td>
+            <td colspan="1" rowspan="1">teilä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Abl</td>
+            <td colspan="1" rowspan="1">teiltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tet+Pron+Pers+Pl2+Abe</td>
+            <td colspan="1" rowspan="1">teittä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Nom</td>
+            <td colspan="1" rowspan="1">het</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Gen</td>
+            <td colspan="1" rowspan="1">heiđän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Ill</td>
+            <td colspan="1" rowspan="1">heihiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Par</td>
+            <td colspan="1" rowspan="1">heitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Ess</td>
+            <td colspan="1" rowspan="1">heinä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Tra</td>
+            <td colspan="1" rowspan="1">heiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Ine</td>
+            <td colspan="1" rowspan="1">heissä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Ela</td>
+            <td colspan="1" rowspan="1">heistä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+All</td>
+            <td colspan="1" rowspan="1">heile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Ade</td>
+            <td colspan="1" rowspan="1">heilä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Abl</td>
+            <td colspan="1" rowspan="1">heiltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">het+Pron+Pers+Pl3+Abe</td>
+            <td colspan="1" rowspan="1">heittä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Nom</td>
+            <td colspan="1" rowspan="1">net</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Gen</td>
+            <td colspan="1" rowspan="1">niitten</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Ill</td>
+            <td colspan="1" rowspan="1">niihiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Par</td>
+            <td colspan="1" rowspan="1">niitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Ess</td>
+            <td colspan="1" rowspan="1">niinä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Tra</td>
+            <td colspan="1" rowspan="1">niiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Ine</td>
+            <td colspan="1" rowspan="1">niissä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Ela</td>
+            <td colspan="1" rowspan="1">niistä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+All</td>
+            <td colspan="1" rowspan="1">niile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Ade</td>
+            <td colspan="1" rowspan="1">niilä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Abl</td>
+            <td colspan="1" rowspan="1">niiltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Pers+Pl3+Abe</td>
+            <td colspan="1" rowspan="1">niittä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Nom</td>
+            <td colspan="1" rowspan="1">tämä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tämän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Ill</td>
+            <td colspan="1" rowspan="1">tähän</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Par</td>
+            <td colspan="1" rowspan="1">tätä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Ess</td>
+            <td colspan="1" rowspan="1">tänä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Ess</td>
+            <td colspan="1" rowspan="1">tänä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Tra</td>
+            <td colspan="1" rowspan="1">täksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Ine</td>
+            <td colspan="1" rowspan="1">tässä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Ela</td>
+            <td colspan="1" rowspan="1">tästä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+All</td>
+            <td colspan="1" rowspan="1">tälle</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Ade</td>
+            <td colspan="1" rowspan="1">tällä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Abl</td>
+            <td colspan="1" rowspan="1">tältä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Abe</td>
+            <td colspan="1" rowspan="1">tämä+Pron+Dem+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Nom</td>
+            <td colspan="1" rowspan="1">tuo</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Gen</td>
+            <td colspan="1" rowspan="1">tuon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Ill</td>
+            <td colspan="1" rowspan="1">tuohon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Par</td>
+            <td colspan="1" rowspan="1">tuota</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Ess</td>
+            <td colspan="1" rowspan="1">tuona</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Tra</td>
+            <td colspan="1" rowspan="1">tuoksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Ine</td>
+            <td colspan="1" rowspan="1">tuossa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Ela</td>
+            <td colspan="1" rowspan="1">tuosta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+All</td>
+            <td colspan="1" rowspan="1">tuole</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Ade</td>
+            <td colspan="1" rowspan="1">tuola</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Abl</td>
+            <td colspan="1" rowspan="1">tuolta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Abe</td>
+            <td colspan="1" rowspan="1">tuo+Pron+Dem+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Nom</td>
+            <td colspan="1" rowspan="1">se</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Gen</td>
+            <td colspan="1" rowspan="1">sen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Ill</td>
+            <td colspan="1" rowspan="1">siiheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Par</td>
+            <td colspan="1" rowspan="1">sitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Ess</td>
+            <td colspan="1" rowspan="1">sinä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Tra</td>
+            <td colspan="1" rowspan="1">siksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Ine</td>
+            <td colspan="1" rowspan="1">siinä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Ela</td>
+            <td colspan="1" rowspan="1">siitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+All</td>
+            <td colspan="1" rowspan="1">sille</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Ade</td>
+            <td colspan="1" rowspan="1">sillä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Abl</td>
+            <td colspan="1" rowspan="1">siltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Abe</td>
+            <td colspan="1" rowspan="1">se+Pron+Dem+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Nom</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Gen</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Ill</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Par</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Ess</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Tra</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Ine</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Ela</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+All</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Ade</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Abl</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Abe</td>
+            <td colspan="1" rowspan="1">nämät+Pron+Dem+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Nom</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Gen</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Ill</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Par</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Ess</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Tra</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Ine</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Ela</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+All</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Ade</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Abl</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Abe</td>
+            <td colspan="1" rowspan="1">nuot+Pron+Dem+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Nom</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Gen</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Ill</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Par</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Ess</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Tra</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Ine</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Ela</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+All</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Ade</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Abl</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Abe</td>
+            <td colspan="1" rowspan="1">net+Pron+Dem+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Nom</td>
+            <td colspan="1" rowspan="1">kuka</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kenen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kenenkä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Ill</td>
+            <td colspan="1" rowspan="1">kenheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Par</td>
+            <td colspan="1" rowspan="1">ketä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Ess</td>
+            <td colspan="1" rowspan="1">kenenä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Tra</td>
+            <td colspan="1" rowspan="1">keneksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Ine</td>
+            <td colspan="1" rowspan="1">kenessä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Ela</td>
+            <td colspan="1" rowspan="1">kenestä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+All</td>
+            <td colspan="1" rowspan="1">kelle</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+All</td>
+            <td colspan="1" rowspan="1">kenele</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Ade</td>
+            <td colspan="1" rowspan="1">kellä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Ade</td>
+            <td colspan="1" rowspan="1">kenelä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Abl</td>
+            <td colspan="1" rowspan="1">keltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Abl</td>
+            <td colspan="1" rowspan="1">keneltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Abe</td>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Nom</td>
+            <td colspan="1" rowspan="1">kukka</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Nom</td>
+            <td colspan="1" rowspan="1">kekkä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Gen</td>
+            <td colspan="1" rowspan="1">kenen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Gen</td>
+            <td colspan="1" rowspan="1">kenenkä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Ill</td>
+            <td colspan="1" rowspan="1">kenheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Par</td>
+            <td colspan="1" rowspan="1">ketä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Par</td>
+            <td colspan="1" rowspan="1">keitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Ess</td>
+            <td colspan="1" rowspan="1">kenenä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Tra</td>
+            <td colspan="1" rowspan="1">keneksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Ine</td>
+            <td colspan="1" rowspan="1">kenessä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Ela</td>
+            <td colspan="1" rowspan="1">kenestä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+All</td>
+            <td colspan="1" rowspan="1">kelle</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+All</td>
+            <td colspan="1" rowspan="1">kenele</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Ade</td>
+            <td colspan="1" rowspan="1">kellä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Ade</td>
+            <td colspan="1" rowspan="1">kenelä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Abl</td>
+            <td colspan="1" rowspan="1">keltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Abl</td>
+            <td colspan="1" rowspan="1">keneltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Abe</td>
+            <td colspan="1" rowspan="1">kuka+Pron+Interr+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Nom</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Gen</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Ill</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Par</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Ess</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Tra</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Ine</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Ela</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+All</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Ade</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Abl</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Abe</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Interr+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Nom</td>
+            <td colspan="1" rowspan="1">joka</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jonka</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Ill</td>
+            <td colspan="1" rowspan="1">johon</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Ill</td>
+            <td colspan="1" rowspan="1">johonka</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Par</td>
+            <td colspan="1" rowspan="1">jota</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Ess</td>
+            <td colspan="1" rowspan="1">jona</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Tra</td>
+            <td colspan="1" rowspan="1">joksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Ine</td>
+            <td colspan="1" rowspan="1">jossa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Ela</td>
+            <td colspan="1" rowspan="1">josta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+All</td>
+            <td colspan="1" rowspan="1">jolle</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Ade</td>
+            <td colspan="1" rowspan="1">jolla</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Abl</td>
+            <td colspan="1" rowspan="1">jolta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Abe</td>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Nom</td>
+            <td colspan="1" rowspan="1">jokka</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Gen</td>
+            <td colspan="1" rowspan="1">joitten</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Ill</td>
+            <td colspan="1" rowspan="1">joihin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Par</td>
+            <td colspan="1" rowspan="1">joita</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Ess</td>
+            <td colspan="1" rowspan="1">joina</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Tra</td>
+            <td colspan="1" rowspan="1">joiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Ine</td>
+            <td colspan="1" rowspan="1">joissa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Ela</td>
+            <td colspan="1" rowspan="1">joista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+All</td>
+            <td colspan="1" rowspan="1">joile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Ade</td>
+            <td colspan="1" rowspan="1">joila</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Abl</td>
+            <td colspan="1" rowspan="1">joilta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Abe</td>
+            <td colspan="1" rowspan="1">joka+Pron+Rel+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Nom</td>
+            <td colspan="1" rowspan="1">mikä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Gen</td>
+            <td colspan="1" rowspan="1">minkä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Ill</td>
+            <td colspan="1" rowspan="1">mihin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Ill</td>
+            <td colspan="1" rowspan="1">mihinkä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Par</td>
+            <td colspan="1" rowspan="1">mitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Ess</td>
+            <td colspan="1" rowspan="1">minä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Tra</td>
+            <td colspan="1" rowspan="1">miksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Ine</td>
+            <td colspan="1" rowspan="1">missä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Ela</td>
+            <td colspan="1" rowspan="1">mistä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+All</td>
+            <td colspan="1" rowspan="1">mille</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Ade</td>
+            <td colspan="1" rowspan="1">millä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Abl</td>
+            <td colspan="1" rowspan="1">miltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Abe</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Nom</td>
+            <td colspan="1" rowspan="1">mitkä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Nom</td>
+            <td colspan="1" rowspan="1">mikkä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Gen</td>
+            <td colspan="1" rowspan="1">minkä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Ill</td>
+            <td colspan="1" rowspan="1">mihin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Ill</td>
+            <td colspan="1" rowspan="1">mihinkä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Par</td>
+            <td colspan="1" rowspan="1">mitä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Ess</td>
+            <td colspan="1" rowspan="1">minä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Tra</td>
+            <td colspan="1" rowspan="1">miksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Ine</td>
+            <td colspan="1" rowspan="1">missä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Ela</td>
+            <td colspan="1" rowspan="1">mistä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+All</td>
+            <td colspan="1" rowspan="1">mille</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Ade</td>
+            <td colspan="1" rowspan="1">millä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Abl</td>
+            <td colspan="1" rowspan="1">miltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Abe</td>
+            <td colspan="1" rowspan="1">mikä+Pron+Rel+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Nom</td>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Gen</td>
+            <td colspan="1" rowspan="1">itteni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Ill</td>
+            <td colspan="1" rowspan="1">ittheeni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Par</td>
+            <td colspan="1" rowspan="1">ittiäni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Par</td>
+            <td colspan="1" rowspan="1">itteeni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Par</td>
+            <td colspan="1" rowspan="1">itteäni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Ess</td>
+            <td colspan="1" rowspan="1">ittenäni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Tra</td>
+            <td colspan="1" rowspan="1">ittekseni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Ine</td>
+            <td colspan="1" rowspan="1">ittessäni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Ela</td>
+            <td colspan="1" rowspan="1">ittestäni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+All</td>
+            <td colspan="1" rowspan="1">itteleni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Ade</td>
+            <td colspan="1" rowspan="1">itteläni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Abl</td>
+            <td colspan="1" rowspan="1">itteltäni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Abe</td>
+            <td colspan="1" rowspan="1">itteni+Pron+Refl+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Nom</td>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Gen</td>
+            <td colspan="1" rowspan="1">ittsti</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Ill</td>
+            <td colspan="1" rowspan="1">ittheesti</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Par</td>
+            <td colspan="1" rowspan="1">ittiästi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Par</td>
+            <td colspan="1" rowspan="1">itteesti</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Par</td>
+            <td colspan="1" rowspan="1">itteästi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Ess</td>
+            <td colspan="1" rowspan="1">ittenästi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Tra</td>
+            <td colspan="1" rowspan="1">itteksesti</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Ine</td>
+            <td colspan="1" rowspan="1">ittessästi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Ela</td>
+            <td colspan="1" rowspan="1">ittestästi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+All</td>
+            <td colspan="1" rowspan="1">ittelesti</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Ade</td>
+            <td colspan="1" rowspan="1">ittelästi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Abl</td>
+            <td colspan="1" rowspan="1">itteltästi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Abe</td>
+            <td colspan="1" rowspan="1">ittesti+Pron+Refl+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Nom</td>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Gen</td>
+            <td colspan="1" rowspan="1">ittmä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Ill</td>
+            <td colspan="1" rowspan="1">ittheemä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Par</td>
+            <td colspan="1" rowspan="1">ittiämä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Par</td>
+            <td colspan="1" rowspan="1">itteemä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Par</td>
+            <td colspan="1" rowspan="1">itteämä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Ess</td>
+            <td colspan="1" rowspan="1">ittenämmä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Tra</td>
+            <td colspan="1" rowspan="1">itteksemmä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Ine</td>
+            <td colspan="1" rowspan="1">ittessämmä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Ela</td>
+            <td colspan="1" rowspan="1">ittestämmä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+All</td>
+            <td colspan="1" rowspan="1">ittelemmä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Ade</td>
+            <td colspan="1" rowspan="1">ittelämmä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Abl</td>
+            <td colspan="1" rowspan="1">itteltämmä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Abe</td>
+            <td colspan="1" rowspan="1">ittemä+Pron+Refl+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Nom</td>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Gen</td>
+            <td colspan="1" rowspan="1">ittnä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Ill</td>
+            <td colspan="1" rowspan="1">ittheenä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Par</td>
+            <td colspan="1" rowspan="1">ittiännä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Par</td>
+            <td colspan="1" rowspan="1">itteenä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Par</td>
+            <td colspan="1" rowspan="1">itteännä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Ess</td>
+            <td colspan="1" rowspan="1">ittenännä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Tra</td>
+            <td colspan="1" rowspan="1">itteksennä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Ine</td>
+            <td colspan="1" rowspan="1">ittessännä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Ela</td>
+            <td colspan="1" rowspan="1">ittestännä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+All</td>
+            <td colspan="1" rowspan="1">ittelennä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Ade</td>
+            <td colspan="1" rowspan="1">ittelännä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Abl</td>
+            <td colspan="1" rowspan="1">ittetännä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Abe</td>
+            <td colspan="1" rowspan="1">ittenä+Pron+Refl+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Nom</td>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Gen</td>
+            <td colspan="1" rowspan="1">ittnä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Ill</td>
+            <td colspan="1" rowspan="1">ittheensä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Par</td>
+            <td colspan="1" rowspan="1">ittiänsä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Par</td>
+            <td colspan="1" rowspan="1">itteensä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Par</td>
+            <td colspan="1" rowspan="1">itteänsä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Ess</td>
+            <td colspan="1" rowspan="1">ittenänsä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Tra</td>
+            <td colspan="1" rowspan="1">itteksensä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Ine</td>
+            <td colspan="1" rowspan="1">ittessänsä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Ela</td>
+            <td colspan="1" rowspan="1">ittestänsä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+All</td>
+            <td colspan="1" rowspan="1">ittelensä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Ade</td>
+            <td colspan="1" rowspan="1">ittelänsä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Abl</td>
+            <td colspan="1" rowspan="1">ittltänsä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Abe</td>
+            <td colspan="1" rowspan="1">ittensä+Pron+Refl+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Nom</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Gen</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Ill</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Par</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Ess</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Tra</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Ine</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Ela</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+All</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Ade</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Abl</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Abe</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Attr+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Nom</td>
+            <td colspan="1" rowspan="1">toinen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Gen</td>
+            <td colspan="1" rowspan="1">toisen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Ill</td>
+            <td colspan="1" rowspan="1">toisheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Par</td>
+            <td colspan="1" rowspan="1">toista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Ess</td>
+            <td colspan="1" rowspan="1">toisena</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Tra</td>
+            <td colspan="1" rowspan="1">toiseksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Ine</td>
+            <td colspan="1" rowspan="1">toisessa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Ela</td>
+            <td colspan="1" rowspan="1">toisesta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+All</td>
+            <td colspan="1" rowspan="1">toisele</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Ade</td>
+            <td colspan="1" rowspan="1">toisela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Abl</td>
+            <td colspan="1" rowspan="1">toiselta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Abe</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Nom</td>
+            <td colspan="1" rowspan="1">toiset</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Gen</td>
+            <td colspan="1" rowspan="1">toisten</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Ill</td>
+            <td colspan="1" rowspan="1">toishiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Par</td>
+            <td colspan="1" rowspan="1">toisia</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Ess</td>
+            <td colspan="1" rowspan="1">toisina</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Tra</td>
+            <td colspan="1" rowspan="1">toisiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Ine</td>
+            <td colspan="1" rowspan="1">toisissa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Ela</td>
+            <td colspan="1" rowspan="1">toisista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+All</td>
+            <td colspan="1" rowspan="1">toisile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Ade</td>
+            <td colspan="1" rowspan="1">toisila</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Abl</td>
+            <td colspan="1" rowspan="1">toisilta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Abe</td>
+            <td colspan="1" rowspan="1">toinen+Pron+Recipr+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Nom</td>
+            <td colspan="1" rowspan="1">joku</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jonku</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Ill</td>
+            <td colspan="1" rowspan="1">johonki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Par</td>
+            <td colspan="1" rowspan="1">jotaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Ess</td>
+            <td colspan="1" rowspan="1">jonaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Tra</td>
+            <td colspan="1" rowspan="1">joksiki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Ine</td>
+            <td colspan="1" rowspan="1">jossaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Ela</td>
+            <td colspan="1" rowspan="1">jostaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+All</td>
+            <td colspan="1" rowspan="1">jolleki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Ade</td>
+            <td colspan="1" rowspan="1">jollaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Abl</td>
+            <td colspan="1" rowspan="1">jolleki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Abe</td>
+            <td colspan="1" rowspan="1">joku+Pron+Indef+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Nom</td>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Gen</td>
+            <td colspan="1" rowspan="1">joittenki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Ill</td>
+            <td colspan="1" rowspan="1">joihinki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Par</td>
+            <td colspan="1" rowspan="1">joitaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Ess</td>
+            <td colspan="1" rowspan="1">joinaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Tra</td>
+            <td colspan="1" rowspan="1">joiksiki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Ine</td>
+            <td colspan="1" rowspan="1">joissaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Ela</td>
+            <td colspan="1" rowspan="1">joistaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+All</td>
+            <td colspan="1" rowspan="1">joilleki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Ade</td>
+            <td colspan="1" rowspan="1">joillaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Abl</td>
+            <td colspan="1" rowspan="1">joilleki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Abe</td>
+            <td colspan="1" rowspan="1">jokku+Pron+Indef+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Nom</td>
+            <td colspan="1" rowspan="1">muutampi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Gen</td>
+            <td colspan="1" rowspan="1">muutaman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Ill</td>
+            <td colspan="1" rowspan="1">muutamphaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Par</td>
+            <td colspan="1" rowspan="1">muutammaa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Par</td>
+            <td colspan="1" rowspan="1">muutamppaa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Ess</td>
+            <td colspan="1" rowspan="1">muutaminna</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Ess</td>
+            <td colspan="1" rowspan="1">muutampanna</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Tra</td>
+            <td colspan="1" rowspan="1">muutamaksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Ine</td>
+            <td colspan="1" rowspan="1">muutamassa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Ela</td>
+            <td colspan="1" rowspan="1">muutamasta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+All</td>
+            <td colspan="1" rowspan="1">muutamalle</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Ade</td>
+            <td colspan="1" rowspan="1">muutamalla</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Abl</td>
+            <td colspan="1" rowspan="1">muutamalta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Abe</td>
+            <td colspan="1" rowspan="1">muutampi+Pron+Indef+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Nom</td>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Gen</td>
+            <td colspan="1" rowspan="1">muutamitten</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Ill</td>
+            <td colspan="1" rowspan="1">muutamphiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Par</td>
+            <td colspan="1" rowspan="1">muutamppiita</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Par</td>
+            <td colspan="1" rowspan="1">muutammia</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Ess</td>
+            <td colspan="1" rowspan="1">muutaminna</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Ess</td>
+            <td colspan="1" rowspan="1">muutampinna</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Tra</td>
+            <td colspan="1" rowspan="1">muutamiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Ine</td>
+            <td colspan="1" rowspan="1">muutamissa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Ela</td>
+            <td colspan="1" rowspan="1">muutamista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+All</td>
+            <td colspan="1" rowspan="1">muutamille</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Ade</td>
+            <td colspan="1" rowspan="1">muutamilla</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Abl</td>
+            <td colspan="1" rowspan="1">muutamilta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Abe</td>
+            <td colspan="1" rowspan="1">muutamat+Pron+Indef+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Nom</td>
+            <td colspan="1" rowspan="1">sama</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Gen</td>
+            <td colspan="1" rowspan="1">saman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Ill</td>
+            <td colspan="1" rowspan="1">samhaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Par</td>
+            <td colspan="1" rowspan="1">sammaa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Ess</td>
+            <td colspan="1" rowspan="1">samana</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Tra</td>
+            <td colspan="1" rowspan="1">samaksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Ine</td>
+            <td colspan="1" rowspan="1">samassa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Ela</td>
+            <td colspan="1" rowspan="1">samasta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+All</td>
+            <td colspan="1" rowspan="1">samale</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Ade</td>
+            <td colspan="1" rowspan="1">samala</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Abl</td>
+            <td colspan="1" rowspan="1">samalta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Sg+Abe</td>
+            <td colspan="1" rowspan="1">samatta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Nom</td>
+            <td colspan="1" rowspan="1">samat</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Gen</td>
+            <td colspan="1" rowspan="1">samain</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Ill</td>
+            <td colspan="1" rowspan="1">samahoin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Par</td>
+            <td colspan="1" rowspan="1">samai</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Ess</td>
+            <td colspan="1" rowspan="1">samaina</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Tra</td>
+            <td colspan="1" rowspan="1">samaiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Ine</td>
+            <td colspan="1" rowspan="1">samaissa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Ela</td>
+            <td colspan="1" rowspan="1">samaista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+All</td>
+            <td colspan="1" rowspan="1">samaile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Ade</td>
+            <td colspan="1" rowspan="1">samaila</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Abl</td>
+            <td colspan="1" rowspan="1">samailta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">sama+Pron+Indef+Pl+Abe</td>
+            <td colspan="1" rowspan="1">samaitta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Nom</td>
+            <td colspan="1" rowspan="1">muu</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Gen</td>
+            <td colspan="1" rowspan="1">muun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Ill</td>
+            <td colspan="1" rowspan="1">muuhun</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Par</td>
+            <td colspan="1" rowspan="1">muuta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Ess</td>
+            <td colspan="1" rowspan="1">muuna</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Tra</td>
+            <td colspan="1" rowspan="1">muuksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Ine</td>
+            <td colspan="1" rowspan="1">muussa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Ela</td>
+            <td colspan="1" rowspan="1">muusta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+All</td>
+            <td colspan="1" rowspan="1">muule</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Ade</td>
+            <td colspan="1" rowspan="1">muula</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Abl</td>
+            <td colspan="1" rowspan="1">muulta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Sg+Abe</td>
+            <td colspan="1" rowspan="1">muutta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Nom</td>
+            <td colspan="1" rowspan="1">muut</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Gen</td>
+            <td colspan="1" rowspan="1">muitten</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Gen</td>
+            <td colspan="1" rowspan="1">muinen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Ill</td>
+            <td colspan="1" rowspan="1">muihin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Par</td>
+            <td colspan="1" rowspan="1">muita</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Ess</td>
+            <td colspan="1" rowspan="1">muina</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Tra</td>
+            <td colspan="1" rowspan="1">muiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Ine</td>
+            <td colspan="1" rowspan="1">muissa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Ela</td>
+            <td colspan="1" rowspan="1">muista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+All</td>
+            <td colspan="1" rowspan="1">muile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Ade</td>
+            <td colspan="1" rowspan="1">muila</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Abl</td>
+            <td colspan="1" rowspan="1">muilta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">muu+Pron+Indef+Pl+Abe</td>
+            <td colspan="1" rowspan="1">muitta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Nom</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Gen</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Ill</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Par</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Ess</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Tra</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Ine</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Ela</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+All</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Ade</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Abl</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Abe</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Nom</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Gen</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Ill</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Par</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Ess</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Tra</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Ine</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Ela</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+All</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Ade</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Abl</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Abe</td>
+            <td colspan="1" rowspan="1">yksi+Pron+Indef+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Nom</td>
+            <td colspan="1" rowspan="1">kaikki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kaiken</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Ill</td>
+            <td colspan="1" rowspan="1">kaikkheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Par</td>
+            <td colspan="1" rowspan="1">kaikkee</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Ess</td>
+            <td colspan="1" rowspan="1">kaikkena</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Tra</td>
+            <td colspan="1" rowspan="1">kaikeksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Ine</td>
+            <td colspan="1" rowspan="1">kaikessa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Ela</td>
+            <td colspan="1" rowspan="1">kaikesta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+All</td>
+            <td colspan="1" rowspan="1">kaikele</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Ade</td>
+            <td colspan="1" rowspan="1">kaikela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Abl</td>
+            <td colspan="1" rowspan="1">kaikelta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Abe</td>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Nom</td>
+            <td colspan="1" rowspan="1">kaiket</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Gen</td>
+            <td colspan="1" rowspan="1">kaikkiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Ill</td>
+            <td colspan="1" rowspan="1">kaikkhiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Par</td>
+            <td colspan="1" rowspan="1">kaikkii</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Ess</td>
+            <td colspan="1" rowspan="1">kaikkina</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Tra</td>
+            <td colspan="1" rowspan="1">kaikiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Ine</td>
+            <td colspan="1" rowspan="1">kaikissa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Ela</td>
+            <td colspan="1" rowspan="1">kaikista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+All</td>
+            <td colspan="1" rowspan="1">kaikile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Ade</td>
+            <td colspan="1" rowspan="1">kaikila</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Abl</td>
+            <td colspan="1" rowspan="1">kaikilta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Abe</td>
+            <td colspan="1" rowspan="1">kaikki+Pron+Qu+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Nom</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Gen</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Ill</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Par</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Ess</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Tra</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Ine</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Ela</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+All</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Ade</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Abl</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Abe</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Nom</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Gen</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Ill</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Par</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Ess</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Tra</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Ine</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Ela</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+All</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Ade</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Abl</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Abe</td>
+            <td colspan="1" rowspan="1">jokhainen+Pron+Qu+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Nom</td>
+            <td colspan="1" rowspan="1">itte</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Gen</td>
+            <td colspan="1" rowspan="1">itten</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Ill</td>
+            <td colspan="1" rowspan="1">ittheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Par</td>
+            <td colspan="1" rowspan="1">ittiä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Par</td>
+            <td colspan="1" rowspan="1">ittee</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Par</td>
+            <td colspan="1" rowspan="1">itteä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Ess</td>
+            <td colspan="1" rowspan="1">ittenä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Tra</td>
+            <td colspan="1" rowspan="1">itteksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Ine</td>
+            <td colspan="1" rowspan="1">ittessä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Ela</td>
+            <td colspan="1" rowspan="1">ittestä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+All</td>
+            <td colspan="1" rowspan="1">ittele</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Ade</td>
+            <td colspan="1" rowspan="1">ittelä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Abl</td>
+            <td colspan="1" rowspan="1">itteltä</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Abe</td>
+            <td colspan="1" rowspan="1">itte+Pron+Qu+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Nom</td>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Gen</td>
+            <td colspan="1" rowspan="1">kenenki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Ill</td>
+            <td colspan="1" rowspan="1">kehenki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Par</td>
+            <td colspan="1" rowspan="1">ketaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Ess</td>
+            <td colspan="1" rowspan="1">kenäki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Tra</td>
+            <td colspan="1" rowspan="1">keksiki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Ine</td>
+            <td colspan="1" rowspan="1">kessäki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Ela</td>
+            <td colspan="1" rowspan="1">kestäki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+All</td>
+            <td colspan="1" rowspan="1">kelleki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Ade</td>
+            <td colspan="1" rowspan="1">kelläki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Abl</td>
+            <td colspan="1" rowspan="1">keltäki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Abe</td>
+            <td colspan="1" rowspan="1">kekin+Pron+Qu+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Nom</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Gen</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Ill</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Par</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Ess</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Tra</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Ine</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Ela</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+All</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Ade</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Abl</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Abe</td>
+            <td colspan="1" rowspan="1">kukanen+Pron+Qu+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Nom</td>
+            <td colspan="1" rowspan="1">kumpiki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Gen</td>
+            <td colspan="1" rowspan="1">kummanki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Ill</td>
+            <td colspan="1" rowspan="1">kumphaanki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Par</td>
+            <td colspan="1" rowspan="1">kumpaaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Par</td>
+            <td colspan="1" rowspan="1">kumppaaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Ess</td>
+            <td colspan="1" rowspan="1">kumpanaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Tra</td>
+            <td colspan="1" rowspan="1">kummaksiki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Ine</td>
+            <td colspan="1" rowspan="1">kummassaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Ela</td>
+            <td colspan="1" rowspan="1">kummastaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+All</td>
+            <td colspan="1" rowspan="1">kummalleki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Ade</td>
+            <td colspan="1" rowspan="1">kummallaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Abl</td>
+            <td colspan="1" rowspan="1">kummaltaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Abe</td>
+            <td colspan="1" rowspan="1">kumpiki+Pron+Qu+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Nom</td>
+            <td colspan="1" rowspan="1">kummatki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Gen</td>
+            <td colspan="1" rowspan="1">kumppinki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Gen</td>
+            <td colspan="1" rowspan="1">kummittenki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Ill</td>
+            <td colspan="1" rowspan="1">kumphiinki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Par</td>
+            <td colspan="1" rowspan="1">kumpiaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Par</td>
+            <td colspan="1" rowspan="1">kumppiiki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Ess</td>
+            <td colspan="1" rowspan="1">kumpinaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Tra</td>
+            <td colspan="1" rowspan="1">kummiksiki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Ine</td>
+            <td colspan="1" rowspan="1">kummissaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Ela</td>
+            <td colspan="1" rowspan="1">kummistaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+All</td>
+            <td colspan="1" rowspan="1">kummileki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Ade</td>
+            <td colspan="1" rowspan="1">kummilaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Abl</td>
+            <td colspan="1" rowspan="1">kummiltaki</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Abe</td>
+            <td colspan="1" rowspan="1">kummatki+Pron+Qu+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Nom</td>
+            <td colspan="1" rowspan="1">molemat</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Gen</td>
+            <td colspan="1" rowspan="1">molemman</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Ill</td>
+            <td colspan="1" rowspan="1">molemphaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Par</td>
+            <td colspan="1" rowspan="1">molemppaa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Ess</td>
+            <td colspan="1" rowspan="1">molempanna</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Tra</td>
+            <td colspan="1" rowspan="1">molemaksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Ine</td>
+            <td colspan="1" rowspan="1">molemassa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Ela</td>
+            <td colspan="1" rowspan="1">molemasta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+All</td>
+            <td colspan="1" rowspan="1">molemale</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Ade</td>
+            <td colspan="1" rowspan="1">molemila</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Abl</td>
+            <td colspan="1" rowspan="1">molemalta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Abe</td>
+            <td colspan="1" rowspan="1">molemat+Pron+Qu+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Nom</td>
+            <td colspan="1" rowspan="1">moni</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Gen</td>
+            <td colspan="1" rowspan="1">monen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Ill</td>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Par</td>
+            <td colspan="1" rowspan="1">monta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Ess</td>
+            <td colspan="1" rowspan="1">monena</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Tra</td>
+            <td colspan="1" rowspan="1">moneksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Ine</td>
+            <td colspan="1" rowspan="1">monessa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Ela</td>
+            <td colspan="1" rowspan="1">monesta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+All</td>
+            <td colspan="1" rowspan="1">monele</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Ade</td>
+            <td colspan="1" rowspan="1">monela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Abl</td>
+            <td colspan="1" rowspan="1">monelta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Abe</td>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Nom</td>
+            <td colspan="1" rowspan="1">monet</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Gen</td>
+            <td colspan="1" rowspan="1">mon3en</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Ill</td>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Par</td>
+            <td colspan="1" rowspan="1">moniq</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Ess</td>
+            <td colspan="1" rowspan="1">monina</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Tra</td>
+            <td colspan="1" rowspan="1">moniksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Ine</td>
+            <td colspan="1" rowspan="1">monissa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Ela</td>
+            <td colspan="1" rowspan="1">monista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+All</td>
+            <td colspan="1" rowspan="1">monile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Ade</td>
+            <td colspan="1" rowspan="1">monila</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Abl</td>
+            <td colspan="1" rowspan="1">monilta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Abe</td>
+            <td colspan="1" rowspan="1">moni+Pron+Qu+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Nom</td>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Gen</td>
+            <td colspan="1" rowspan="1">kenenkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Ill</td>
+            <td colspan="1" rowspan="1">kenheenkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Par</td>
+            <td colspan="1" rowspan="1">kethään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Ess</td>
+            <td colspan="1" rowspan="1">kenenäkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Tra</td>
+            <td colspan="1" rowspan="1">keneksikhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Ine</td>
+            <td colspan="1" rowspan="1">kenessäkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Ela</td>
+            <td colspan="1" rowspan="1">kenestäkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+All</td>
+            <td colspan="1" rowspan="1">kelheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+All</td>
+            <td colspan="1" rowspan="1">kenelekhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Ade</td>
+            <td colspan="1" rowspan="1">kethään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Ade</td>
+            <td colspan="1" rowspan="1">kekeläkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Abl</td>
+            <td colspan="1" rowspan="1">kelthään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Abl</td>
+            <td colspan="1" rowspan="1">keneltäkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Abe</td>
+            <td colspan="1" rowspan="1">kukhaan+Pron+Qu+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Nom</td>
+            <td colspan="1" rowspan="1">mi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Gen</td>
+            <td colspan="1" rowspan="1">minkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Ill</td>
+            <td colspan="1" rowspan="1">mihinkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Par</td>
+            <td colspan="1" rowspan="1">mithään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Ess</td>
+            <td colspan="1" rowspan="1">minhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Tra</td>
+            <td colspan="1" rowspan="1">miksikhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Ine</td>
+            <td colspan="1" rowspan="1">mishään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Ela</td>
+            <td colspan="1" rowspan="1">misthään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+All</td>
+            <td colspan="1" rowspan="1">millekhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Ade</td>
+            <td colspan="1" rowspan="1">milhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Abl</td>
+            <td colspan="1" rowspan="1">milthään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Abe</td>
+            <td colspan="1" rowspan="1">mikhään+Pron+Qu+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Nom</td>
+            <td colspan="1" rowspan="1">yht</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Gen</td>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Ill</td>
+            <td colspan="1" rowspan="1">yhtheenkään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Par</td>
+            <td colspan="1" rowspan="1">yhtäkhään</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Ess</td>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Tra</td>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Ine</td>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Ela</td>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+All</td>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Ade</td>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Abl</td>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Abe</td>
+            <td colspan="1" rowspan="1">yksikhään+Pron+Qu+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Nom</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Gen</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Ill</td>
+            <td colspan="1" rowspan="1">kumphaankaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Par</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Ess</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Tra</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Ine</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Ela</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Ela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+All</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+All</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Ade</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Abl</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Abe</td>
+            <td colspan="1" rowspan="1">kumpikhaan+Pron+Qu+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Nom</td>
+            <td colspan="1" rowspan="1">ussie</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Nom</td>
+            <td colspan="1" rowspan="1">ussea</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Nom</td>
+            <td colspan="1" rowspan="1">ussee</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Gen</td>
+            <td colspan="1" rowspan="1">usian</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Gen</td>
+            <td colspan="1" rowspan="1">usean</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Gen</td>
+            <td colspan="1" rowspan="1">usheen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ill</td>
+            <td colspan="1" rowspan="1">usheesseen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ill</td>
+            <td colspan="1" rowspan="1">usihan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ill</td>
+            <td colspan="1" rowspan="1">usehan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Par</td>
+            <td colspan="1" rowspan="1">usiaa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Par</td>
+            <td colspan="1" rowspan="1">useaa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Par</td>
+            <td colspan="1" rowspan="1">usheeta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ess</td>
+            <td colspan="1" rowspan="1">usiana</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ess</td>
+            <td colspan="1" rowspan="1">useana</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ess</td>
+            <td colspan="1" rowspan="1">usheena</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Tra</td>
+            <td colspan="1" rowspan="1">usiaksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Tra</td>
+            <td colspan="1" rowspan="1">useaksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Tra</td>
+            <td colspan="1" rowspan="1">usheeksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ine</td>
+            <td colspan="1" rowspan="1">usheessa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ela</td>
+            <td colspan="1" rowspan="1">usiasta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ela</td>
+            <td colspan="1" rowspan="1">useasta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ela</td>
+            <td colspan="1" rowspan="1">usheesta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+All</td>
+            <td colspan="1" rowspan="1">usialle</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+All</td>
+            <td colspan="1" rowspan="1">usealle</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+All</td>
+            <td colspan="1" rowspan="1">usheele</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ade</td>
+            <td colspan="1" rowspan="1">usialla</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ade</td>
+            <td colspan="1" rowspan="1">usealla</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Ade</td>
+            <td colspan="1" rowspan="1">usheela</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Abl</td>
+            <td colspan="1" rowspan="1">usialta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Abl</td>
+            <td colspan="1" rowspan="1">usealta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Abl</td>
+            <td colspan="1" rowspan="1">usheelta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Abe</td>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Nom</td>
+            <td colspan="1" rowspan="1">useat</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Nom</td>
+            <td colspan="1" rowspan="1">usiat</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Nom</td>
+            <td colspan="1" rowspan="1">usheeet</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Gen</td>
+            <td colspan="1" rowspan="1">usheitten</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Ill</td>
+            <td colspan="1" rowspan="1">usheissiin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Par</td>
+            <td colspan="1" rowspan="1">usheita</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Ess</td>
+            <td colspan="1" rowspan="1">usheina</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Tra</td>
+            <td colspan="1" rowspan="1">usheiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Ine</td>
+            <td colspan="1" rowspan="1">usheissa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Ela</td>
+            <td colspan="1" rowspan="1">usheista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+All</td>
+            <td colspan="1" rowspan="1">usheile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Ade</td>
+            <td colspan="1" rowspan="1">usheila</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Abl</td>
+            <td colspan="1" rowspan="1">usheilta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Abe</td>
+            <td colspan="1" rowspan="1">ussee+Pron+Qu+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Nom</td>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Nom</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Gen</td>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Gen</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Ill</td>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Ill</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Par</td>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Par</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Ess</td>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Ess</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Tra</td>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Tra</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Ine</td>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Ine</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Ela</td>
+            <td colspan="1" rowspan="1">paljosta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+All</td>
+            <td colspan="1" rowspan="1">paljoile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Ade</td>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Ade</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Abl</td>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Abl</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Abe</td>
+            <td colspan="1" rowspan="1">paljo+Pron+Qu+Pl+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Nom</td>
+            <td colspan="1" rowspan="1">harva</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Gen</td>
+            <td colspan="1" rowspan="1">harvan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Ill</td>
+            <td colspan="1" rowspan="1">harvaan</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Par</td>
+            <td colspan="1" rowspan="1">harvasta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Ess</td>
+            <td colspan="1" rowspan="1">harvana</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Tra</td>
+            <td colspan="1" rowspan="1">harvaksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Ine</td>
+            <td colspan="1" rowspan="1">harvassa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Ela</td>
+            <td colspan="1" rowspan="1">harvasta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+All</td>
+            <td colspan="1" rowspan="1">harvale</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Ade</td>
+            <td colspan="1" rowspan="1">harvala</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Abl</td>
+            <td colspan="1" rowspan="1">harvalta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Abe</td>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Sg+Abe</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Nom</td>
+            <td colspan="1" rowspan="1">harvat</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Gen</td>
+            <td colspan="1" rowspan="1">harvoin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Ill</td>
+            <td colspan="1" rowspan="1">harvoihin</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Par</td>
+            <td colspan="1" rowspan="1">harvoista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Ess</td>
+            <td colspan="1" rowspan="1">harvaina</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Tra</td>
+            <td colspan="1" rowspan="1">harvaiksi</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Ine</td>
+            <td colspan="1" rowspan="1">harvoissa</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Ela</td>
+            <td colspan="1" rowspan="1">harvoista</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+All</td>
+            <td colspan="1" rowspan="1">harvoile</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Ade</td>
+            <td colspan="1" rowspan="1">harvoila</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Abl</td>
+            <td colspan="1" rowspan="1">harvoilta</td>
+         </tr>
+         <tr>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Abe</td>
+            <td colspan="1" rowspan="1">harva+Pron+Qu+Pl+Abe</td>
+         </tr>
+      </table>
+   </body>
+</html>
