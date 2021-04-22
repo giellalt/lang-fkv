@@ -57,6 +57,7 @@ and in a Kven spellchecker.
   [29.9.15](meetings/150929_ja_16XXXX.html)
 
 ## Suunnitelmat
+
 (tänne!)
 
 ## Muut kveenin kielen projektit
@@ -94,7 +95,7 @@ and in a Kven spellchecker.
 
 ##  Older meeting minutes
 
-  * 2014:  
+* 2014:  
   [17.1.14](meetings/140117.html) //
   [30.1.14](meetings/140130.html) //
   [7.2.14](meetings/140207.html)  //
@@ -104,13 +105,12 @@ and in a Kven spellchecker.
   [1.4.14](meetings/140401.html)  //
   [24.4.14](meetings/140424.html) //
   [15.5.14](meetings/140515.html)
-
 * 2013:  
-   [6.3.13](meetings/130306.html)  //
+  [6.3.13](meetings/130306.html)  //
   [15.3.13](meetings/130315.html)  //
   [22.3.13](meetings/130322.html)  //
-   [5.4.13](meetings/130405.html)  //
-   [3.5.13](meetings/130503.html)  //
+  [5.4.13](meetings/130405.html)  //
+  [3.5.13](meetings/130503.html)  //
   [12.6.13](meetings/130612.html)  //
   [20.9.13](meetings/130920.html)  //
 
