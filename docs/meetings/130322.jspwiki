@@ -1,43 +1,50 @@
  
-!!Viikkokokous
+## Viikkokokous
+
  
 * Aika: 22.3. klo 14
 * Paikka: iChat ja SEE tai Skype ja Collabedit
 * Paikalla: Kaisa, Leena, Mervi, Pirjo, Trond.
+
  
-!!Agenda
+## Agenda
 * Tekniset ongelmat (siis listataan niitä kaikkien tiedoksi)
 * Tilannepäivitykset
 * Työtehtävät
 * Muut asiat
+
  
+
  
-!!Tekniset ongelmat
+## Tekniset ongelmat
 
 * Leena, Merville tekniikka sujuu.
 * Pirjon sai eilen nettiyhteyden (puuttuva kaapeli)
-** xcode ok. Forrest: ongelmia.
-** which make -- pitää asentaa.
+    - xcode ok. Forrest: ongelmia.
+    - which make -- pitää asentaa.
 * Mervin mäkki tulee maanantaina 
 
 Kannattaa ajoittain tehdä svn up main-kansiossa (tai svnup).
 
-__TEHTÄVÄT__
-* Pirjon ohjelmat (__Mervi, Trond + Pirjo__)
+**TEHTÄVÄT**
+* Pirjon ohjelmat (**Mervi, Trond + Pirjo**)
 
  
-!!Tilannepäivitykset
+## Tilannepäivitykset
+
  
-!Tilannepäivitys Trondilta
+### Tilannepäivitys Trondilta
+
  
 Substantiivileksikot ovat nyt luokiteltu aiempaa yksityiskohtaisemmin Eira 
 2007:n mukaan. Trond on lisännyt Terjen sanakirjan loput substantiivit. 
 Twolc-tiedostoa on korjattu, esim. enää ei voi geminoida linna:linnnaa. 
 Sijapäätteitä lisätty ja konsonanttivartaloiset sanat (kieli, vuosi) 
 omaan luokkaan.
+
  
 
-!Tilannepäivitys Leena, Kaisa
+### Tilannepäivitys Leena, Kaisa
 Verbit: 
 * Aika paljon oikein
 * Konditionaali korjattu
@@ -54,68 +61,74 @@ Ongelmia:
 [[FAIL] kađota+V+Act+Ind+Prs+Sg1 => Missing results: kattoon
 [[FAIL] kađota+V+Act+Ind+Prs+Sg1 => Unexpected results: katoan
 
-Geminaatio ei toimi kađota:kattoon ( {{kato>^Vn}}
+Geminaatio ei toimi kađota:kattoon ( `kato>^Vn`
 
 Kysymys: milloin ennen diftongi tulee geminaatio.
 
-
-!Mervi
+### Mervi
 
 Pronominit, pääsemässä kärrylle.
 Suunnitelma edellisen kokouksen perusteella.
 
-
-!yaml-tiedostojen oikoluku
+### yaml-tiedostojen oikoluku
 
 yaml-tiedostoissa on kaikki "oikeat vaastaukset".
 
-[yaml-tiedostot|https://gtsvn.uit.no/langtech/trunk/langs/fkv/test/src/morphology/]
+[yaml-tiedostot](https://gtsvn.uit.no/langtech/trunk/langs/fkv/test/src/morphology/)
 
-
-__TEHTÄVÄT__
+**TEHTÄVÄT**
 * Pirjo oikolukee yaml-tiedostot, ja korjaa
 * ... ja täydentää
 * Trond tarkistaa tiedostojen konfiguraatiota
 
+ 
+## Työtehtäviä
 
  
-!!Työtehtäviä
- 
-!!Morfofonologia
+## Morfofonologia
+
  
 Miten -i-:llä menee? Pääasiallisesti oikein.
 Suurin ongelma preterit, mutta ei i:n takia.
 
-''Arvioidan tilannetta uudestaan Pirjon korjausten jälkeen.''
+*Arvioidan tilannetta uudestaan Pirjon korjausten jälkeen.*
+
  
-!!Verbit
+## Verbit
+
  
-!v-2-verbit
+### v-2-verbit
 
 Geminaatio myös ennen diftongia (näkyi)? EI.
 Katsotaan uudestan yaml-korjausten jälkeen. 
 
-!v_4-verbit (v_43...)
+### v_4-verbit (v_43...)
 
 Testauskomento: (v43:n tilalle myös muita luokkia)
 
 cat src/morphology/stems/verbs.lexc |grep 'v43' |cut -d":" -f1|sed 's/$/+V+Act+Ind+Prs+Sg3/g;'|dfkv|l
+
  
-!Puuttuvat muodot
+### Puuttuvat muodot
 
 Monet muodot puuttuvat, sekä yamlista että lexc:stä:
 * partisiippien sijamuodot
 * passiivipartisiipit
 * muut infinitiivit
 * muita? Katsotaan.
+
  
+
     
-!!Pronominit
+## Pronominit
+
  
 Yhdyspronominit ja uusimaalaiset vielä tekemättä.
 Ei ole enää monta :-)
+
  
-!!Substantiivit
+## Substantiivit
+
  
 Uudet sanat on merkitty, riviltä 2497 eteenpäin. Ne pitää kuitenkin käydä läpi.
 Huom. erityisesti leksikko "x", joka tarkoittaa "lajittelematon", 
@@ -129,14 +142,13 @@ Tehtäviä:
 * Vartalot oikein (erityisesti konsonanttiloppuiset) 
 * Morfofonologia oikein
 
+## Muut asiat
 
-!!Muut asiat
-
-!!Eiran sanakirja
+## Eiran sanakirja
 
 Tulossa.
 
-!!Lainasanat
+## Lainasanat
 
 Kääntävätkö ne itse? Pitääkö ne ottaa kantaa periaatekysymyksiin?
 
@@ -154,11 +166,11 @@ assisteerata, assorteerata, assosieerata, assureerata, atomiseerata, attesteerat
 
 Työryhmä pohtii, Trond ei vielä lisää mitään
 
-!!Ruijan Kaiku-sanat.
+## Ruijan Kaiku-sanat.
 
 Halutaan mukaan.
 
-!!Korpus-asia
+## Korpus-asia
 
 Tekstikokoelma:
 
@@ -169,7 +181,8 @@ Tekstikokoelma:
 
 Halutaan se Giellateknon korpus-järjestelmään.
 
-!!Seuraava kokous
+## Seuraava kokous
+
  
 * 9.4.-10.4. Pirjo, Mervi eivät lähde silloin Tromssaan.
 * Johtokunnan kokous edelleen auki :-(

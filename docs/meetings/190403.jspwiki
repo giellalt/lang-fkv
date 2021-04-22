@@ -2,67 +2,61 @@ Kokkous 3.4.2019 klo 9.00
 
 Läsnäolevat: Trond, Thomas, Mervi, Mari, Aili ja Anna-Kaisa
 
-
-!!!Asialista
+# Asialista
 
 * kvensk.no
 * Online-spellerin päivittäminen
 * Sanakirja
 * Analysaattori
-** Saman sanan variantit
+    - Saman sanan variantit
 * Korpus
 * Seuraava kokkous
 
-
-
-
-!!!kvensk.no
+# kvensk.no
 
 [http://kvensk.no] ei toimi onko sivut kaatuneet? sivut eivät avaudu ollenkaan
 
-
-
-!!!Online-spellerin päivittäminen
+# Online-spellerin päivittäminen
 
 Fkv Online speller: [http://divvun.org/proofing/online-speller.html]
 
-{{{
+```
 cd $GTHOME/langs/fkv/    
 ./configure --with-hfst --enable-spellers
 make -j
 scp tools/spellcheckers/fstbased/desktop/hfst/fkv.zhfst jonnekin.uit.no:.
 ssh jonnekin.uit.no
 cp fkv.zhfst oikeiseen/paikkaan/
-}}}
+```
 
 (Børre, Chiara, Lene, Sjur, Trond)
 
-!!Sanakirja
+## Sanakirja
 
 Paradigmat eivät näy: [https://sanat.oahpa.no/fkv/nob/]
 
 Chiara katselee asiaa.
 
-!!!Analysaattori
+# Analysaattori
 
-!!Saman sanan variantit
+## Saman sanan variantit
 
 Periaatekysymykset
 
 Yhteinen lemma vai ei? (asia, assii)
 
-__Ei yhteinen, vaan lemmat erikseen.__
+**Ei yhteinen, vaan lemmat erikseen.**
 
 Periaatteessa 3 mahdollisuutta (Porsangin murteelle)
-# lainamuoto: meedia, *meedia
-# oma muoto: *asia, assii
-# vaihtelu: kunnia, kunnii
+1. lainamuoto: meedia, *meedia
+1. oma muoto: *asia, assii
+1. vaihtelu: kunnia, kunnii
 
 Uudet luokitukset: n_31_asia  , n_31_io   (pluraali ei toimi ko sana oon luokiteltu niin ko se olis por dialekti) 
 
 Esim sg ill: asiasseen 
 
-{{{
+```
 ^AO ei toimi, esimerkiksi pl par "asiaita" 
 stems/nouns.lexc
 assii+Dial/Por:assii n_31_ii ; !(tässä ei ole -ia)
@@ -73,19 +67,19 @@ asia+N+Sg+Ill        asihaan
 
 e asia+N+Pl+Ill|lookup -q src/generator-gt-norm-dial_Por.xfst 
 asia+N+Pl+Ill        asihoin
-}}}
+```
 
 Leksikot:
 
-{{{
+```
 LEXICON n_31_io
 +N+Dial/Por:i           x_31_ii             ; !rauttii
 +N+Dial/Jok:o          x_21_oi             ; ! rautio
-}}}
+```
 
 Työperiaatteet:
 
-{{{
+```
 lexc
 asia+N+Sg+Ill
 asia^HMETA>h^V^Vn
@@ -93,26 +87,23 @@ asia^HMETA>h^V^Vn
 twolc
 asia^HMETA>h^V^Vn
 asi00>haan
-}}}
+```
 
-
-
-{{{
+```
 Se saapi:   +Pl      :            ill_ssiin           ;
-}}}
+```
 
 Mistä se tullee? Miksi se mennee x_31_ii kautta ko se oon luokiteltu tähän: n_31_asia? 
 
-{{{
+```
 +N+Dial/Por:           x_21_oi             ; ! astii on se oikea, mutta meidän täytyy sitten keksiä muun tavan kirjoittaa vartalot
 +N+Dial/Jok:          x_21_oi             ; ! astia 
 +N+Dial/Var:          x_21_oi             ; ! astia 
-}}}
+```
 
 erilliset lemmat
 
-
-{{{
+```
 meedia+Dial/-Por:meedia n_21_oi  ; ! ei Por, oma lemma
 meedii+Dial/+Por:meedi n_31_ii ; ! vain Por, oma lema
 itaalia+Dial/-Por:itaalia n_21_oi ;  !Sekaparadigmoinen? 
@@ -137,21 +128,19 @@ histoorii:histoorii n_31_ii ;
 
 psykiatria:psykiatria n_21_oi ;
 psykiatrii:psykiatrii n_31_ii ;
-!assii+Dial/-Por:asia n_21_oi ; ! TODO TODO TODO This is old! We prob don't need to distgsh in stems
+### assii+Dial/-Por:asia n_21_oi ; ! TODO TODO TODO This is old! We prob don't need to distgsh in stems
 asia:asia n_31_asia ; 
 talvihaasia:talvi#haasia n_21_oi ;
 talvihaassii:talvi#haassii n_31_ii ;
 haasia:haasia n_21_oi ;
 haassii:haassi n_21_oi ;
-}}}
+```
 
 Itaalia/Itaalii (?) 
 
-
 Nominatiivi oon Itaalia (?) 
 
-
-!!!Korpus
+# Korpus
 
 Tekstit ovat KI:ssa
 
@@ -159,10 +148,6 @@ Ks. [https://giellalt.uit.no/ling/corpus_conversion.html] (Adding content to the
 
 Teemana tulevalle workshopille: Lajittelyn periaatteet, työtapoja, metadata, jna.
 
-!!!Seuraava kokkous 
+# Seuraava kokkous 
 
-__2.5. klo 9__
-
-
-
-
+**2.5. klo 9**

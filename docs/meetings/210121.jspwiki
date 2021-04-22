@@ -1,4 +1,3 @@
-
 fkv-kokous 21.01.2021
 Paikalla: Aili, Thomas, Trond
 
@@ -10,43 +9,41 @@ Asialista
 * Sanakirjatyö
 * Seuraava kokous
 
-
-
-!!! Dokumentointi
+#  Dokumentointi
 
 Olemme siirtämässä doku forrestista githubiin. palataan asiaan.
 
-!!! Korpuksen uusiminen
+#  Korpuksen uusiminen
 
-!! Uudet tekstit
+##  Uudet tekstit
 
 Tulossa olevat tekstit on lisätty ja rinnakkaistekstit merkitty.
 
-!! Aikataulu
+##  Aikataulu
 
-Kuten ennen: ''Pian''.
+Kuten ennen: *Pian*.
 
-!!! Analyysi
+#  Analyysi
 
-!! fst
+##  fst
 
 Jos halutaan voidaan tehdä työtä puuttuvien sanojen listojen kanssa.
 
-!! cg
+##  cg
 
 Tässä on aukkoja. Trond katsoo.
 
-!!! Sanakirjatyö
+#  Sanakirjatyö
 
-!! Sanakirja-artikkelit
+##  Sanakirja-artikkelit
 
-! Murteiden merkintä
+###  Murteiden merkintä
 
 Voidaan merkitä murremuotoja.
 
 Ne voi merkitä attribuuttina tai elementti:
 
-{{{
+```
 <e src="grom">
    <lg>
       <l pos="N">tieđonankaruus</l>
@@ -57,27 +54,27 @@ Ne voi merkitä attribuuttina tai elementti:
       </tg>
    </mg>
 </e>
-}}}
+```
 
 Tässä: 
-* elementit ovat ''e, lg, l, mg, tg, t''
-* attribuutit ovat: ''src, pos, xml:lang, pos''
+* elementit ovat *e, lg, l, mg, tg, t*
+* attribuutit ovat: *src, pos, xml:lang, pos*
 
 Milloin käytetään attribuuttia, ja milloin elementti:
 * Elementit ovat avoimia
 * Attribuutit ovat (yleensä) suljettuja listoja
 
-__Attribuuttina:__
+**Attribuuttina:**
 
 (p, r, v = Porsanki, Varanki, Raisi):
 
-{{{
+```
 <!ATTLIST l dial (j|p|v|pv|jv|jp|jpv) #IMPLIED >
-}}}
+```
 
 (taikka: puuttuva merkki = jpv)
 
-__Noodina:__
+**Noodina:**
 
 tai ne voi merkitä <re>-attribuuttina, ja sen takia vapaana tekstinä
 
@@ -85,21 +82,19 @@ Saatamako pittäät tätä <re> siihen ette merkata dialektialuheet silloin ko m
 
 "Mistä sanat oon"
 
-# missä murteessa näin sanotaan / ei sanota
-# mistä murteesta tämä tieto on kotoisin
+1. missä murteessa näin sanotaan / ei sanota
+1. mistä murteesta tämä tieto on kotoisin
 
-
-__Vastaus: ongelma oon ette murrejuttu muistuttaa enämen sanaluokkaa ko sanan merkitystä.__
+**Vastaus: ongelma oon ette murrejuttu muistuttaa enämen sanaluokkaa ko sanan merkitystä.**
 
 Kommentti: Hilde ei halluu ette laitama lähtheet näkkyyviksi nettisanakirjhaan. 
 
-!! Käyttöohje
+##  Käyttöohje
 
 Ainoa selitys on tämä: [https://sanat.oahpa.no/read/]
 
 Ehdotus: Aili ja Trond katsovat mahdollista tekstiä.
 
-!!! Seuraava kokous
+#  Seuraava kokous
 
 11.02. 13:00
-

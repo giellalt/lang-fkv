@@ -1,18 +1,16 @@
-
 fkv-kokous 11.3. 2021
 
 Paikalla: Aili, Thomas, Trond
 
-
-!!!Asialista
+# Asialista
 * Viime kokouksen asiat
 * Korpus
 * Sanakirja
 * Muut asiat
 * Ensi kokous
 
-!!! Viime kokouksen asiat
-!!!  Korpus
+#  Viime kokouksen asiat
+#   Korpus
 Chiara tekee sen ensi viikolla.
 
 Onko kaikki nyt kunnossa ennen korpusajoa?
@@ -21,7 +19,7 @@ Onko kaikki nyt kunnossa ennen korpusajoa?
 * Uusia tekstejä
 * Rinnastut
 
-!!!  Sanakirja
+#   Sanakirja
 Aili on tehnyt paljon viime aikoina. Trond uusi sanakirjan kokouksen aikana.
 Pitikö Chiara näyttäät meile scriptin jonka avula oon noppeemin laittaat sanat sanakirjhaan? 
 
@@ -29,25 +27,21 @@ Dublettien löytäminen:
 
 fkvnob-sanakirjan t-elementtejä ilman käännöstä nobfkv:ssa
 
+1. Korjata t-elementit fkvnobissa.
+1. Ajaa c2x.pl-komento
 
-# Korjata t-elementit fkvnobissa.
-# Ajaa c2x.pl-komento
-
-
-{{{
+```
 cat fkvnob/src/*.xml | grep '<t '| cut -d"<" -f2|cut -d">" -f2 | preprocess | nobfkv | grep '?'|cut -f1 | sort | uniq -c | sort -nr | cut -c6- | hunob | cut -f2 | cut -d"+" -f1 | uniq | grep "[a-z]" | nobfkv | grep "?" | cut -f1 | lookup Thomaksenomanobfkv.fst | grep -v ? | uniq | wc -l
-}}}
+```
 
-{{{
+```
 cat fkvnob/src/N_fkvnob.xml | grep '<t '| cut -d"<" -f2|cut -d">" -f2 | sort | uniq | tr "\n" " " | mate
-}}}
+```
 
 Hyvä idea: Tehdä se molempiin suuntiin, sanaluokka kerrallaan.
 
-
-!!!  Muut asiat
+#   Muut asiat
 Ei ole.
 
-
-!!! Ensi kokous
+#  Ensi kokous
 24.3.2021

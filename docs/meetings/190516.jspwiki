@@ -2,29 +2,27 @@ Kokkous 16.5.2019 klo 9.00
 
 Läsnäolevat: Aili, Mervi, Thomas ja Trond
 
-
-!!!Asialista
+# Asialista
 
 * Analysaattori
 * Korpus
-** Aloitus
-** Fiilit
+    - Aloitus
+    - Fiilit
 **Workshop
 *Sanakirja
 
+# Analysaattori
 
-!!!Analysaattori
+## yaml
 
-!!yaml
-
-!Rapporti
+### Rapporti
 * generating gt-norm-dial_Por fst(s): PASSES: 2432 / FAILS: 0 / TOTAL: 2432
 * generating gt-norm-dial_Var fst(s): PASSES: 5875 / FAILS: 23 / TOTAL: 5898
 * generating gt-norm-dial_Jok fst(s): PASSES: 2866 / FAILS: 0 / TOTAL: 2866
 
-!Var-virheet
+### Var-virheet
 
-{{{
+```
  20/25  FAIL  linna+N+Pl+Ill => Missing results: linnhoin
  20/25  FAIL  linna+N+Pl+Ill => Unexpected results: linna+N+Pl+Ill+?
 
@@ -41,48 +39,42 @@ Läsnäolevat: Aili, Mervi, Thomas ja Trond
 
  20/25  FAIL  sivakka+N+Pl+Ill => Missing results: sivakkhoin
  20/25  FAIL  sivakka+N+Pl+Ill => Unexpected results: sivakka+N+Pl+Ill+?
-}}}
+```
 
+## Numeraalit
 
-
-
-!!Numeraalit
-
-{{{
+```
 test/data/testnumeralpradigm.txt 
 sh devtools/numerals_minip.sh '^kolme'
-
 
 ("neljäs"cp  oon ominaisuus, se kuvvailee "kala" toisessa esimerkissä,
 "neljä" taas on määrä, eikä ominaisuus) 
 
 sh devtools/numerals_minip.sh '^kolmas'
-}}}
+```
 
-__Trond__ katselee minip-testiä ordinaaleille.
+**Trond** katselee minip-testiä ordinaaleille.
 
+## Kysymykset/asiat
 
-!!Kysymykset/asiat
-
-! Sivu on saanut uuden osoitteen: 
+###  Sivu on saanut uuden osoitteen: 
 
 [http://giellalt.uit.no/doc/lang/fkv/KaikkiGeneroidutParadigmat.html]
 
 Voitte itse generoida uudet paradigmat:
 
-{{{
+```
 sh src/scripts/all_fst_output_as_table.sh
  lt doc/testit/
-}}}
+```
 
-! 12pronsg
+###  12pronsg
 
 Kysymys 12 pronsg-kummituksista?
 
 keskustelu asiasta:
 
-
-{{{
+```
 tämä+Pron+Pers+Sg1:tä       12pronsg  ;  ==> tä + 12pronsg =  täie
 
  ufkv
@@ -112,51 +104,48 @@ tämä+Pron+Pers+Sg1:tä       12pronsg  ;
 +Nom:ie     K ; 
 
 YAML test 36: analyser-gt-norm-dial_Por.xfst + gt-norm-yamls/P-12pronsg_mie_gt-norm-dial_Por.yaml - 212/0/212 PASS
-}}}
+```
 
-
-!!Genetiivi
+## Genetiivi
 (Kvääniksi oon kans "Mie syön äpylin") 
 
-{{{
+```
 nyt:
 hänet        hänet        +?
 parempi:
 hänet        hänet+Err/Orth+Pron+Pers+Sg3+Gen
-}}}
+```
 
-
-!sh devtools ordinaali-numeroille
+### sh devtools ordinaali-numeroille
 
 Voisiko Trond tehdä *sh devtools* ordinaali-numeroille? (kolmas+Num+Ord+Sg+Nom)
-** Tulossa
+    - Tulossa
 * Mitä voisi olla syy siihen, että “yksi suunta” toimii mutta toinen ei?
 
-{{{
+```
  1/11 *PASS* kahđekses => kahđekses+Num+Ord+Sg+Nom
  1/11 *FAIL* kahđekses+Num+Ord+Sg+Nom => Missing results: kahđekses (edited)
-}}}
+```
 
-!Grammatiikkikysymykset Anna-Kaisale:
+### Grammatiikkikysymykset Anna-Kaisale:
 
 * akt. ind. imperf., yks. 3.    *souti, sousi*       Kumppaa piethään meilä? Oonko molemat oikhein kvääniksi? (edited) 
 * mA -infinitiivi (miksi se ei aina ota vahviinta graadii?)
 * Onko Anna-Kaisa kuulu, ette kielimestarit käyttävät muotoa neljenssiin? vai onko meillä vain neljenssiitten?
 
-!!!Korpus
+# Korpus
 
-!!Aloitus
+## Aloitus
 
-[Dokumentaatio|https://giellalt.uit.no/ling/corpus_intro.html]
+[Dokumentaatio](https://giellalt.uit.no/ling/corpus_intro.html)
 
 Korpus on työpajan teema.
 
-
-!!Fiilit
+## Fiilit
 
 [https://www.dropbox.com/sh/fvmrz9nqp9w83d7/AADF2KyMYSa_vz4a7y3BHw8na?dl=0]
 
-!!Workshop
+## Workshop
 
 * Mahdollisesti Porsangissa ma-ti 27.-28.5. välisenä aikana
 * Koneet ja ohjelmat kondikseen
@@ -164,8 +153,6 @@ Korpus on työpajan teema.
 * 18.05 ti lento
 * Paikka: Kielisentteri klo 14
 
-!!!Sanakirja
+# Sanakirja
 
 excel-dokumentti, main/words/dicts/fkvnob/inc/tiedostonnimi.xlsx
-
-

@@ -1,25 +1,20 @@
-
 fkv-kokous 15.10.2019
 
 Paikalla Aili, Thomas, Trond
 
-!!!Asialista
+# Asialista
 * Korpusasiat
-** Tilannekatsaus
-** Tyø
+    - Tilannekatsaus
+    - Tyø
 * Testaaminen
-** yaml
-** muut make check-testit
+    - yaml
+    - muut make check-testit
 * Priorisointi
 * Kveeniseminaari Tromssassa
 
+#  Korpusasiat
 
-
-!!! Korpusasiat
-
-
-!! Tilannekatsaus
-
+##  Tilannekatsaus
 
 Sekæ KMD että Norjan Kielineuvosto haluavat priroisoida kveenin rinnakkaiskorpusta.
 
@@ -32,12 +27,11 @@ Esimerkki
 * Personer som behersker både norsk og et annet	hjemmespråk	eller morsmål i tillegg vil ha tilgang til et rikere og mer utvidet sosialt miljø .
 * Ko ossaa sekä ruijaa ette jotaki muuta kieltä saattaa liikkuut monessa joukossa .			
 
-{{{
+```
 add_files_to_corpus -p orig/sme/admin/sd/other_files/dokumentti.pdf -l nob
-}}}
+```
 
-
-!!Terminologia
+## Terminologia
 
 [http://www.termwiki.sprakradet.no/wiki/Hovedside]
 [https://satni.uit.no/termwiki/index.php?title=Váldosiidu]
@@ -48,10 +42,9 @@ add_files_to_corpus -p orig/sme/admin/sd/other_files/dokumentti.pdf -l nob
 
 Kysymys: Voiko saada järkevä alusta terminologiatyölle? Voiko Wiktionary olla semmoinen?
 
-__Trond__ voi katsoa tätä
+**Trond** voi katsoa tätä
 
-
-!! Työ
+##  Työ
 
 Nämä KI:n tekstit ovat korpuksessa:
 
@@ -89,8 +82,7 @@ Paljon siis puuttuu.
 
 Katsaus:
 
-
-{{{
+```
 cd freecorpus/orig/fkv
 ls admin/*/*.xsl admin/*/*/*.xsl
 ls */*/*.xsl */*/*/*.xsl |wc -l # tämä on sama kuin seuraava
@@ -98,19 +90,15 @@ ls -R . |grep xsl|wc -l # montaako tiedostoa (ks edellinen)
 ls -R .
 ccat -l fkv ../../converted/fkv/|wc -w # montaako sanaa? 18546
 
-
 drwxr-xr-x  18 trond  staff   576 Jun 17 17:30 other_files
 drwxr-xr-x  44 trond  staff  1408 Jun 17 17:30 regjeringen.no
-}}}
+```
 
+#  Testaaminen
 
-!!! Testaaminen
+##  yaml 
 
-
-!! yaml 
-
-{{ sh test/yaml-check.sh }}
-
+` sh test/yaml-check.sh `
 
 perintö: perinttöi tahi perinöitä? Aili kuuntele vanhoi nauhoi ja etti Perungan (Beronkan) töistä. Toinen ehotus oon lisätä molemat ja tehhä kommentin siitä ette yhen poistethaan ko tiämä mikä oon oikhein. 
 
@@ -118,11 +106,9 @@ feeriä oon kans jäljelä; emmä tiä sen pl vartalo, esimerkiksi oonko feeriö
 
 yamlit oon muutoin kunnossa, ei ole isomppii assiita. Thomas oon korjanu pl ess ja kom. Aili oon tehny feililistan. 
 
+##  muut make check-testit
 
-
-!! muut make check-testit
-
-!lemmatestit:
+### lemmatestit:
 4 verbiä kuten aikaiseemmin:
 
 * liuota+V+Inf	liuvota
@@ -130,25 +116,25 @@ yamlit oon muutoin kunnossa, ei ole isomppii assiita. Thomas oon korjanu pl ess 
 * noveta+V+Inf	nojeta
 * silmästä+V+Inf	silmäistä
 
-!twolc-testi:
+### twolc-testi:
 
 * hfst: 5 sääntöä eivät mene läpi 
-** test/src/phonology/pair-test-out.hfst.txt
+    - test/src/phonology/pair-test-out.hfst.txt
 * twolc: 8 sääntöä eivät mene läpi 
-** test/src/phonology/positive-pairs-out.txt
+    - test/src/phonology/positive-pairs-out.txt
 
-{{{
+```
 src/morphology/affixes/numerals.lexc
 -LEXICON ARABICCASEORD-ERR
 -ARABICCASEORD ; ! XXX look at this
 +!LEXICON ARABICCASEORD-ERR
 +!ARABICCASEORD ; ! XXX look at this
 
-*** Warning:  Sublexicons defined but not used:
+        - Warning:  Sublexicons defined but not used:
       ARABICCASEORD-ERR
-}}}
+```
 
-{{{
+```
 LEXC test 3: analyser-gt-norm.hfstol + morphology/lexicon.tmp.lexc - 574/0/574 PASS
 LEXC test 3: analyser-gt-norm.xfst + morphology/lexicon.tmp.lexc - 574/0/574 PASS
 XPASS: run-lexc-testcases.sh
@@ -161,32 +147,32 @@ Please report to feedback@divvun.no
 
 Sjur: Du må greppa etter !!€ og !!$ i lexc-filene
 Sjur: Men testen burde ikkje bli køyrd på lexicon.tmp.lexc, eg skal sjå på det når eg er tilbake på kontoret. 
-}}}
+```
 
-!!Kattavuus
+## Kattavuus
 
 kattavuus mittattu 1800on nyt 90,23% (siis 1 - 2226/22794)
 
 48367/376486, siis 87,15%
 
-{{{
+```
 ccat -l fkv ~/freecorpus/converted/fkv/|preprocess|wc -l
    22794 <===
 ccat -l fkv ~/freecorpus/converted/fkv/|preprocess|ufkv|grep '+?'|wc -l
     2226
-}}}
+```
 
-{{{
+```
 Tuomas:fkv thomas$ ccat -l fkv ~/freecorpus/converted/fkv/|preprocess|wc -l
   291552
+
   
  Ailis-MacBook-Pro:fkv aili$ ccat -l fkv ~/freecorpus/converted/fkv/|preprocess|wc -l
    22794
   387979
-}}}
+```
 
-
-{{{
+```
 Vanha preprosessointi
 ccat -l fkv converted/fkv/|preprocess|ufkv|grep '+?'|cut -f1|sort|uniq -c | sort -nr > fkv.missing.191021
 
@@ -196,15 +182,15 @@ ccat -l fkv converted/fkv/|hfst-tokenize -cg $GTHOME/langs/fkv/tools/tokenisers/
 fkv:ssa:
 ./configure --with-hfst --enable-tokenisers --enable-reversed-intersect --enable-dialects
 make -j
-}}}
+```
 
 Edelleen ongelmia näiden kanssa:
 
-{{{
+```
 /usr/local/bin/hfst-lexc: The file lexicon.tmp.lexc did not compile cleanly.
 
-!LEXICON ARABICCASEORD-ERR
-!ARABICCASEORD ; ! XXX look at this
+### LEXICON ARABICCASEORD-ERR
+### ARABICCASEORD ; ! XXX look at this
 
 libc++abi.dylib: terminating with uncaught exception of type TransducerTypeMismatchException
 /bin/sh: line 1: 60661 Done                    /usr/bin/printf "read regex 			@\"filters/reorder-subpos-tags.hfst\"             		.o. @\"filters/reorder-semantic-tags.hfst\"           		.o. @\"generator-raw-gt-desc.tmp1.hfst\" 		;\n	 save stack generator-raw-gt-desc.tmp.hfst\n	 quit\n"
@@ -217,12 +203,11 @@ make: *** [all-recursive] Error 1
 
 make clean
 make -j
-}}}
-
+```
 
 Yli viis kertaa:
 
-{{{
+```
   19 yeah
   18 Taavetin
   16 ijänkaikkisesti
@@ -238,11 +223,11 @@ Yli viis kertaa:
   10 armatta
   10 Pyhitetty
   10 Peetleheemhiin
-}}}
+```
 
 Suuren korpuksen tavallisimmat tuntemattomat
 
-{{{
+```
  263 kirj
  261 Muist
  189 sg
@@ -293,27 +278,19 @@ Suuren korpuksen tavallisimmat tuntemattomat
   33 ettei
   33 Omasvuonon
   32 is
-}}}
+```
 
-!!!Priorisointi
+# Priorisointi
 
-# Korpuskeräys
-# Meidän pitää saada testit toimimaan
-# Sen jälkeen voidaan arvioida ja priorisoida virheitä
-# Generoidut paradigmat -- Aili lukee ja analysoi, sitten korjata
+1. Korpuskeräys
+1. Meidän pitää saada testit toimimaan
+1. Sen jälkeen voidaan arvioida ja priorisoida virheitä
+1. Generoidut paradigmat -- Aili lukee ja analysoi, sitten korjata
 
-# Kattavuus
+1. Kattavuus
 
-!!!Kveeniseminaari Tromssassa
+# Kveeniseminaari Tromssassa
 
-!!!Ensi kokous 
+# Ensi kokous 
 
-Kokousreferaatin kirjoittaminen, ks. [jspwiki-syntaksi|https://giellalt.uit.no/infra/jspwiki-howto.html]
-
-
-
-
-
-
-
-
+Kokousreferaatin kirjoittaminen, ks. [jspwiki-syntaksi](https://giellalt.uit.no/infra/jspwiki-howto.html)

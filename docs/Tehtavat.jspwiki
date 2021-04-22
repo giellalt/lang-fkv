@@ -1,28 +1,27 @@
-
 Dokumentti [Arbeidsplan.html] antaa yleiskuvan.
 
 Tässä mennään yksityiskohtiin
 
+# Lista mahdollisista tehtävistä:
 
-!!!Lista mahdollisista tehtävistä:
-
-# lisätä nämä sanat sanakirjaan: main/words/dicts/fkvnob/inc/dagensord_missing.txt 
-# lisätä sanakirjasanat fst:hen:
-## käydä läpi fkv/src/fst/stems/ ja siinä
+1. lisätä nämä sanat sanakirjaan: main/words/dicts/fkvnob/inc/dagensord_missing.txt 
+1. lisätä sanakirjasanat fst:hen:
+    1. käydä läpi fkv/src/fst/stems/ ja siinä
    adverbs.lexc, adjectives.lexc, nouns.lexc, verbs.lexc
    Tiedostojen lopussa on adv_x, a_x, n_x, v_x.
    Ne pitää luokitella oikein.
-# testata lemmat ''make check'' avulla ja korjaa
-# lisätä sanat fkv/test/data/inc_aikamatka2.txt fst:hen
-# lisätä sanat fkv/test/data/inc_missing_interj
-# käydä tekstejä läpi ja lisätä puuttuvia sanoja fst:hen
-# miettiä, oliko fkv/morphology/stems/numerals.lexc hyvä idea
+1. testata lemmat *make check* avulla ja korjaa
+1. lisätä sanat fkv/test/data/inc_aikamatka2.txt fst:hen
+1. lisätä sanat fkv/test/data/inc_missing_interj
+1. käydä tekstejä läpi ja lisätä puuttuvia sanoja fst:hen
+1. miettiä, oliko fkv/morphology/stems/numerals.lexc hyvä idea
+
  
 Lisätä fst-hen:
 
-{{{
+```
 cat teksti | preprocess | ufkv | grep '?' | cut -f1
-}}}
+```
 
 Sen jälkeen katsella, ja lisätä miihin sopi 
 * main/langs/fkv/src/fst/stems
@@ -31,46 +30,42 @@ Lisätä sanakirjaan:
 
 Tee sanakirja-automaatti:
 
-{{{
+```
 cd 
 cd main/words/dicts/fkvnob
 sh fkvnob.sh
 
 lookup bin/fkvnob.fst
-}}}
+```
 
 Sitten katsot, onko sanasi jo sanakirjassa:
 
-{{{
+```
 cat sanakirjaehdokaslista.txt | lookup bin/fkvnob.fst | grep '?' | cut -f1
-}}}
+```
 
 Sen jälkeen katsella, ja lisätä miihin sopi 
 * main/words/dicts/fkvnob/src/
 
-!!!Ihmiset, työt
+# Ihmiset, työt
 
-# twolc, lexc-morfologia: __Leena, Anna-Kaisa, Mari__ 
-# lexc-leksikko (n_x, jne.): __Mervi n_x__ __Anna-Kaisa muut leksikot__
-# fkvnob-sanakirja, esimerkit: __Pirjo__
-# fkvnob-sanakirja, fkv-oikoluku: __Pirjo__ (tehty?)
-# fkvnob-sanakirja, nob-oikoluku: __Tove__
-# sanakirjan kääntäminen: __Ciprian__
-# nobfkv-työ: __Tove, muut__
-## nob-artikkelien siivoaminen: __Tove, muut__
-## puuttuvien nob-sanojen 
-### lisääminen: __Trond, Tove, pedagogit__
-### kääntäminen: __Pirjo, muut__
-# Tekstit
-## T-tekstien kerääminen: __KI__
-## T, P-tekstien lisääminen korpukseen: __Sindre, ...__
-## Aikamatka-tekstien lisääminen korpukseen: __Sindre, ...__
-# Uusien teksteistä tulevien sanojen lisääminen sanakirjaan ja fst:hen: 
+1. twolc, lexc-morfologia: **Leena, Anna-Kaisa, Mari** 
+1. lexc-leksikko (n_x, jne.): __Mervi n_x__ **Anna-Kaisa muut leksikot**
+1. fkvnob-sanakirja, esimerkit: **Pirjo**
+1. fkvnob-sanakirja, fkv-oikoluku: **Pirjo** (tehty?)
+1. fkvnob-sanakirja, nob-oikoluku: **Tove**
+1. sanakirjan kääntäminen: **Ciprian**
+1. nobfkv-työ: **Tove, muut**
+    1. nob-artikkelien siivoaminen: **Tove, muut**
+    1. puuttuvien nob-sanojen 
+        1. lisääminen: **Trond, Tove, pedagogit**
+        1. kääntäminen: **Pirjo, muut**
+1. Tekstit
+    1. T-tekstien kerääminen: **KI**
+    1. T, P-tekstien lisääminen korpukseen: **Sindre, ...**
+    1. Aikamatka-tekstien lisääminen korpukseen: **Sindre, ...**
+1. Uusien teksteistä tulevien sanojen lisääminen sanakirjaan ja fst:hen: 
 
-
-
-
-!!!Lista morfofonologisista pulmista
+# Lista morfofonologisista pulmista
 
 Pitää tehdä uusi lista.
-

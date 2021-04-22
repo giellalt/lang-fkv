@@ -1,53 +1,58 @@
-
 Viikkokokous 15.3. 2013 klo 13
+
  
 * Paikka: internet
 * Välineet: iChat ja SubEthaEdit
 * Paikalla: Kaisa, Leena, Mervi, Pirjo, Trond.
+
  
-!!!Agenda
+# Agenda
 * Teknisiä ongelmia
 * Uudet koneet
 * Työsuunnittelu
+
  
-!!!Teknisiä ongelmia (ohjelmat)
+# Teknisiä ongelmia (ohjelmat)
 
-!!see
+## see
 * Kaikkien pitää maksaa, 29€.
-* eikä SEE toimi ryhmätyössä (__Trond, Mervi__ katsovat)
+* eikä SEE toimi ryhmätyössä (**Trond, Mervi** katsovat)
 
-!!installointi
+## installointi
 * Pirjolla on uus kone.
 * Leenalla ja Mervillä ei.
 
-!!Kompilointi
+## Kompilointi
 * Pirjolle svn jne. viikonlopun jälkeen.
 * Mervin analysaattorit rikki, katsotaan uudestaan.
 * Kaisa: Analysaattori ok mutta testaus ei.
 * Leenalla ollut opetusta, katsotaan.
+
  
-!!!Uudet koneet
+# Uudet koneet
 Teknisiä ongelmia? Taivas tietää.
+
  
 Tarkkaile Retinan tyyppivikoja. Niitä on kuulemma ollut. Seurataan.
+
  
-!!!Sanakirja
+# Sanakirja
 
 Teknisiä ongelmia? Tunnettuja: Windows ja Internet Explorer 8.
 Kaikki muut ongelmat tervetulleita (raportin muodossa).
 
 Esimerkkejä kirjoitustavasta
 
-{{{
+```
 sanna => sannaa (jos a = a, aa)
 callit => čállit (jos c = c, č, a = a, á)
 tuli = "ild", "kom", "vind" (jos u = u, uu)
-}}}
+```
 
-!!!Työsuunnittelu
+# Työsuunnittelu
 
-!!Morfofonologia
-! -i-
+## Morfofonologia
+###  -i-
 Päivän tilanne ja eteenpäin
 
 Meidän i-valikoima:
@@ -57,48 +62,49 @@ Meidän i-valikoima:
 * i5 superlatiivi
 * i6 poika
 
-{{{
+```
 [FAIL] meininki+N+Pl+Tra => Missing results: meiningiiksi
 [FAIL] meininki+N+Pl+Tra => Unexpected results: meininkeiksi, meininkejksi
-}}}
+```
 
-i-vartalojen i + i = ''meiningiiksi'' mutta ''posteiksi''. 
+i-vartalojen i + i = *meiningiiksi* mutta *posteiksi*. 
 
-__Leena ja Kaisa__ katsovat i-asioita tiistaina.
-__Pirjo__ tarkistaa tiettyjä tapauksia.
+**Leena ja Kaisa** katsovat i-asioita tiistaina.
+**Pirjo** tarkistaa tiettyjä tapauksia.
 
-! Astevaihtelu
+###  Astevaihtelu
 Päivän tilanne ja eteenpäin
 * Puuttuvia tapauksia (nk : ng)
 * Erikoistapauksia: k:0 mutta k:j ja k:v, ... jne.
 
-__Leena ja Kaisa__ katsovat puuttuvia.
+**Leena ja Kaisa** katsovat puuttuvia.
 
-! Geminaatio
+###  Geminaatio
 (Toimii, ehkä?)
 
-!!Verbit:
+## Verbit:
 * Hyvin menee:
-** anttaat, aukaista, aukaista, haravoita, haravoita, jatkata, jatkata, juosta, juosta, kattela, kattela, kattoot, kavela, kavela, kyytita, kyytita, luottaat, piikaroita, piikaroita, saada, saada, tarista, tarista, tehda, tehda, tuoda, tuoda, vanheta, vanheta,
+    - anttaat, aukaista, aukaista, haravoita, haravoita, jatkata, jatkata, juosta, juosta, kattela, kattela, kattoot, kavela, kavela, kyytita, kyytita, luottaat, piikaroita, piikaroita, saada, saada, tarista, tarista, tehda, tehda, tuoda, tuoda, vanheta, vanheta,
 * Huonosti menee:
-** aikkoot, ajatella, anttaat, havittaat, kadota, kattoot, kirjoittaat, kulkkeet, lahteet, lenttaat, lukkeet, luottaat, nahda, nakkyyt, pajeta, polata, soppiit, tohtiit 
+    - aikkoot, ajatella, anttaat, havittaat, kadota, kattoot, kirjoittaat, kulkkeet, lahteet, lenttaat, lukkeet, luottaat, nahda, nakkyyt, pajeta, polata, soppiit, tohtiit 
 
 Huonosti:
 * Astevaihtelu
-** sopin < sovin
-** paketa < pajeta
+    - sopin < sovin
+    - paketa < pajeta
 * i-asioita (?)
-** ä:n poisto ennen i (hävitäin < hävitin)
-** e ennen i:tä lähđein < lähđin
+    - ä:n poisto ennen i (hävitäin < hävitin)
+    - e ennen i:tä lähđein < lähđin
 * Konditionaali puuttuu monessa paikassa
 * 2/3 tavu: hävitämä < hävitämmä, koko ajatella-paradigma (ajatela)
 * Vokaalipidennys: Sg3: hävittä^V < hävittää, katto < kattoo
+
  
-!!Pronominit: Ilmeisesti kaikki pronominit eivät ole tässä. Kvanttori lisätty.
+## Pronominit: Ilmeisesti kaikki pronominit eivät ole tässä. Kvanttori lisätty.
 
 "Det enkleste er ofte det beste":
 
-{{{
+```
 LEXICON se_pron
 +Nom:se K ;
 +Gen:sen K ;
@@ -111,43 +117,41 @@ LEXICON se_pron
 +All:sille K ;
 +Ade:sillä    K ;
 +Abl:siltä     K ;
-}}}
-
+```
 
 Ratkaisematta:
 
-!Yhdyspronominit
+### Yhdyspronominit
 
 itte kukin, itte kullekin. Mutta eipäs!!
-Se onkin ''ittelle kullekin'', ja siis erikseen.
+Se onkin *ittelle kullekin*, ja siis erikseen.
 
-{{{
+```
 Trond+N+Prop+Attr
 Trosterudille+N+Prop+Sg+All
-}}}
+```
 
-# Pitää ne erikseen kahtena sanana
-# Laatia itte% kukin:itte% ku preprocess-tiedostoon
+1. Pitää ne erikseen kahtena sanana
+1. Laatia itte% kukin:itte% ku preprocess-tiedostoon
 
 Nyt:
 
-{{{
+```
 joka% ainua+Pron+Qu:joka% ainu          joka_ainu_kvant ; 
 itte% kukin+Pron+Qu:itte% ku            itte_ku_kvant ; 
 itte% kukanen+Pron+Qu:itte% kuka        itte_kuka_kvant ;
-}}}
+```
 
 Parempi siis (leksikkonimet tässä vaan koristeena):
 
-{{{
+```
 joka:jo JOKALEX ;
 itte ITTELEX ;
 ainua:ainu LEX1 ;
 kukin:ku LEX2 ;
-}}}
+```
 
-
-!Uudenmaan pronominit 
+### Uudenmaan pronominit 
 (kaksi sijapäätettä per vartalo)
 
 Vastaus on Flag Diacritics.
@@ -156,14 +160,15 @@ Vastaus on Flag Diacritics.
 * Jos CASE1 ≠ CASE2, niin poista muoto (*jommallekummalta)
 * Jos CASE1 = CASE2, niin hyväksy muoto (*jommallekummalle)
 
-Mervi laatii datat ja __Mervi ja Trond__ katsovat ratkaisua.
+Mervi laatii datat ja **Mervi ja Trond** katsovat ratkaisua.
+
  
-!!Substantiivit:
+## Substantiivit:
 
 Huonosti kaikki:
 * huonet, huonet, kainulainen, kainulainen, linna, linna, maa, maa, meininki, meininki, rakas, rakas, ruvis, ruvis, suomi, suomi, venet, venet, veres, veres,
 
-{{{
+```
 [PASS] meininki+N+Sg+Nom => meininki
 [FAIL] meininki+N+Sg+Gen => Missing results: meiningin
 [FAIL] meininki+N+Sg+Gen => Unexpected results: meininkin
@@ -172,13 +177,13 @@ Huonosti kaikki:
 
 [FAIL] meininki+N+Pl+Gen => Missing results: meiningiitten
 [FAIL] meininki+N+Pl+Gen => Unexpected results: meininkeien, meininkejen, meininkkiien
-}}}
+```
 
-!Vartalotyypit
+### Vartalotyypit
 
-Vasen ryhmä dokumentista [Nominien jaottelusta|../nominien_jaottelusta.html].
+Vasen ryhmä dokumentista [Nominien jaottelusta](../nominien_jaottelusta.html).
 
-__Mervi ja Pirjo__ muuttavat morphology/stems/nouns.lexc ja morphology/affixes/nouns.lexc
+**Mervi ja Pirjo** muuttavat morphology/stems/nouns.lexc ja morphology/affixes/nouns.lexc
 sen mukaan.
 
 Status quo:
@@ -193,19 +198,18 @@ Status quo:
 * veres n41 ;
 * sininen: sini nen ;
 
-Ehkä jotain näin: ''n11 > va21, n21 > va22, va21 > n21, va22 > n32''
+Ehkä jotain näin: *n11 > va21, n21 > va22, va21 > n21, va22 > n32*
 
 Tärkeä: Sama numerointi stems ja affixes-tiedostoissa.
 
 Strategia: Numerointi vuodesta 2007 ("Kainun kielen krammatiikki"), muut datat myös 2013:stä.
 
-!i-vartalot:
+### i-vartalot:
 
 * joki:joke       n11ie ;
 * pappi:pappi     n11 ;
 
-
-{{{
+```
 LEXICON n11 !!= @CODE@  "poika", lyhyt vokali, yks vartalo
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
@@ -217,11 +221,11 @@ LEXICON n11ie   !!= @CODE@ on ove, ovi, nom
 +N: obl-strong ;   
 
 +N:%^WG weak-v-stem ;
-}}}
+```
 
 Huom: Puuttuu LNR-sääntö kieli : kielten.
 
-{{{
+```
 kielen
 kielen  kieli+N+Sg+Gen
 
@@ -231,41 +235,34 @@ kieltä  kieltä  +?
 hum-tf4-ans154:fkv ttr000$ dfkv
 kieli+N+Sg+Par
 kieli+N+Sg+Par  kiele^V
-}}}
+```
 
-
-!Puuttuvat päätteet
+### Puuttuvat päätteet
 
 * Komitatiivi puuttu. => Ota pois yaml-tiedostista.
 * Mutta onko näin, että monikon genetiivi puuttuu yamlista ??? 
-** (ks. suomi)
+    - (ks. suomi)
 
-__Mervi ja Pirjo__ puhdistavat substantiivi-yamlit.
+**Mervi ja Pirjo** puhdistavat substantiivi-yamlit.
 
-{{{
+```
 [FAIL] suomi+N+Sg+Ill => Missing results: suomheen
 [FAIL] suomi+N+Sg+Ill => Unexpected results: suomi+N+Sg+Ill+?
-}}}
+```
 
 Näyttää siltä, että yksikön illatiivi puuttuu kokonaan.
 
-{{{
+```
 [FAIL] linna+N+Pl+Gen => Missing results: linnojen
 [FAIL] linna+N+Pl+Gen => Unexpected results: linna+N+Pl+Gen+? <== pääte!
 [FAIL] linna+N+Pl+Par => Missing results: linnaita
 [FAIL] linna+N+Pl+Par => Unexpected results: linna+N+Pl+Par+? <== pääte!
-}}}
+```
 
-* __Mervi, Pirjo__: ''Puuttuvat päätteet morphology/affixes/nouns.lexc-tiedostoon!''
+* **Mervi, Pirjo**: *Puuttuvat päätteet morphology/affixes/nouns.lexc-tiedostoon!*
 
-
-
-!!Ajankohta styyrin kokoukselle? – workshop
+## Ajankohta styyrin kokoukselle? – workshop
 
 Alustavasti 8-9.4. Tromssassa. Katsotaan sitten.
-
-
-
-
 
  

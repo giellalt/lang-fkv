@@ -1,26 +1,23 @@
-
 Kokous 18.8. 2017
 
 Läsnä: Aili, Anna-Kaisa, , Mari, Sindre, Trond
 
-
-
-!!!Asialista
+# Asialista
 
 * Uutisia?
 * Tilannekatsaus
 * Raportti
 * Hakemuksia
 
-!!!Uutisia
+# Uutisia
 
 Luvattu on, mutta pitää hakea. Poliitikot ovat positiivisia.
 
-!!!Tilannekatsaus
+# Tilannekatsaus
 
-!!Sanakirja
+## Sanakirja
 
-!Kahvilasanoja
+### Kahvilasanoja
 
  (googledocs) on lisätty sekä sanakirjaan että fst-hen.
 
@@ -28,7 +25,7 @@ Suuri osa on ollut yhdyssanoja.
 
 Tarvitaan lisää työtä googledociin
 
-!Miten tarkistetaan kaikki sanat kerralla
+### Miten tarkistetaan kaikki sanat kerralla
 
 rakenna fkvnob ja nobfkv:
 
@@ -36,29 +33,28 @@ make -f make-bildict SLANG=nob TLANG=fkv TNUM=all
 
 aja lista sen läpi:
 
-{{{
+```
 cat SANALISTA.txt | preprocess | nobfkv | grep '?' 
 cat SANALISTA.txt | preprocess | fkvnob | grep '?' 
-}}}
+```
 
-!NDS-sanakirjan päivittäminen
+### NDS-sanakirjan päivittäminen
 
 (NDS = Nettidigisanat)
 
 Viimeksi 1.4.17, nyt 18.8.17.
 
-!Uusi ohjelmoija
+### Uusi ohjelmoija
 
 Giellateknolla on uusi ohjelmoija (Chiara Argese), joka tulee hoitamaan NDS:ää
 
-
-!!Murre-asia
+## Murre-asia
 
 Miten hoidetaan murteet:
 
-!Lexc:ssä
+### Lexc:ssä
 
-{{{
+```
 valkkee+Dial/Por:valkke n_23   ;
 valkkee+Dial/Var:valkia  n_23ia ;
 
@@ -68,26 +64,23 @@ pimmee+Dial/Var:pime^V jne ;
 
 "VH" ^A:a <=> [auo] _ ; ! = ^A
 "pidenn" ^V:Vx <=> Vx _ ; where Vx in (aeiouyäö} ! ^V
-}}}
+```
 
+### Twolc:ssa
 
-!Twolc:ssa
-
-{{{
+```
 [ 1/75][PASS] uusi+A+Sg+Nom => uusi
 
 [ 2/75][FAIL] uusi+A+Sg+Gen => Missing results: uuen
 [ 2/75][FAIL] uusi+A+Sg+Gen => Unexpected results: uuđen
 [ 4/75][FAIL] uusi+A+Sg+Tra => Missing results: uueksi
 [ 4/75][FAIL] uusi+A+Sg+Tra => Unexpected results: uuđeksi
-}}}
+```
 
+1. 1 twolc-tiedosto x 3 (a. yhteiset x 3, b. erilliset omissa tiedostoissa)
+1. 2 tiedostoa: a. yhteinen b. murrekohtaiset tiedostot 
 
-
-# 1 twolc-tiedosto x 3 (a. yhteiset x 3, b. erilliset omissa tiedostoissa)
-# 2 tiedostoa: a. yhteinen b. murrekohtaiset tiedostot 
-
-Ks. [Sjurin ja Trondin keskustelu tästä|https://giellalt.uit.no/admin/weekly/2017/Meeting_2017-08-15.html].
+Ks. [Sjurin ja Trondin keskustelu tästä](https://giellalt.uit.no/admin/weekly/2017/Meeting_2017-08-15.html).
 
 * 1 pro: ymmärrämme kaiken, se on tehty aikaisemmin
 * 1 con: kaksi versiota samasta säännöstä, pitää ylläpitää samanlaisena (diff)
@@ -96,8 +89,7 @@ Ks. [Sjurin ja Trondin keskustelu tästä|https://giellalt.uit.no/admin/weekly/2
 
 Sjur, Sindre, Trond pitävät kokouksen lähitulevaisuudessa.
 
-
-!!yamlit
+## yamlit
 
 A-K + A ovat katselleet, Aili on tehnyt työtä.
 
@@ -107,37 +99,34 @@ Me tarvitaan:
 * N Jok
 * V Var & Jok
 
-!!!Rapportti
+# Rapportti
 
 * Mitä on tehty
 * Kirjoitetaan samaan dokumenttipohjaan (lokakuun puolella)
 
-!!!Hakemuksia
+# Hakemuksia
 
 * Suunnitelmat eteenpäin 2-3 vuotta
 * Mitä tehdään twolcille
 
-
-
 Tilanne: Missä kveenin kieli tänään:
 
-# Käännöstyö
-# Opetus (UiT ja muualla)
-# Kielipesät + peruskoulu
-# Kveeninuoret (eli revitalisoijat)
+1. Käännöstyö
+1. Opetus (UiT ja muualla)
+1. Kielipesät + peruskoulu
+1. Kveeninuoret (eli revitalisoijat)
 
 Mahdollisia ohjelmia, tarpeen mukaan (?):
 
-# Sanakirjat (fkvnob, nobfkv)
-# Korjausohjelma
-# Tekstikokoelma
-# Tekstikokoelman syntaktinen analyysi
-# Kielioppikorjausohjelma
-# Konekäännös
-# E-opetusohjelma (?)
+1. Sanakirjat (fkvnob, nobfkv)
+1. Korjausohjelma
+1. Tekstikokoelma
+1. Tekstikokoelman syntaktinen analyysi
+1. Kielioppikorjausohjelma
+1. Konekäännös
+1. E-opetusohjelma (?)
 
-
-!!!Suunnitelmat
+# Suunnitelmat
 
 * Sanakirjat (Mari)
 * Lexc (Mari, Sindre)
@@ -148,4 +137,4 @@ Perjantaikokoukset joka toinen viikko (parittomat viikot), seuraava kokous 1.9.
 
 Ensi kokous
 
-__1.9. klo 1400 Norjan aika__
+**1.9. klo 1400 Norjan aika**

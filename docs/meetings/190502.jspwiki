@@ -2,42 +2,41 @@ Kokkous 2.5.2019 klo 9.00
 
 Läsnäolevat: Mervi, Trond, Thomas ja Aili 
 
-
-!!!Asialista
+# Asialista
 
 * Online-speller
 * Sanakirja
-** Norjan tavallisimmat sanat
-** Facebook-sanat
+    - Norjan tavallisimmat sanat
+    - Facebook-sanat
 * Analysaattori
 * Korpus
-** Aloitus
+    - Aloitus
 * Projektin- ja työtehtävien hallinta
-** Trello: [https://trello.com/b/dEsXsuNk/kieliteknologia-2019]
-** Työtehtävien pilkkominen pienempiin osiin
+    - Trello: [https://trello.com/b/dEsXsuNk/kieliteknologia-2019]
+    - Työtehtävien pilkkominen pienempiin osiin
 * Seuraava kokkous
 
 Grammatiikkikysymykset:
 
 * Oonko Pl+Gen -haamut ko "neljein" ja "miljoonain" olemassa? Eira oon vastanu ette net oon teorettisesti olemassa, mutta ette ei tiä. 
-** Jos net oon teoreettisesti olemassa, oon net hyvä olla kans analysaattorissa... Joskus se saattaa tulla semmoinen tilane ette tarvittee pittäät net muođot vaikka net tavalisessa puhheessa olis harvinaiset
+    - Jos net oon teoreettisesti olemassa, oon net hyvä olla kans analysaattorissa... Joskus se saattaa tulla semmoinen tilane ette tarvittee pittäät net muođot vaikka net tavalisessa puhheessa olis harvinaiset
 * Käytämäkö konsonanttirankkaa, esim. "kuutten", "viitten", "ensimäisten" jne. Grammatiikissa mainithaan ette -nen loppuiset nominit saavat ylheensä konsonanttirangan. Eira sanoi ette net oon vähän harvemin ko esim. -VVn ja -iitten.
-** Kuusi-viisi ja ensimäinen kuuluthaan kahteen eri nomenityypphiin. Mie hääyn freistaat löyttäät meän käänösmateriaalista kunka olema pitänheet nämät sanat (freistaan löyttäät esimerkit Terjen ja Pirjon käänöksistä).
+    - Kuusi-viisi ja ensimäinen kuuluthaan kahteen eri nomenityypphiin. Mie hääyn freistaat löyttäät meän käänösmateriaalista kunka olema pitänheet nämät sanat (freistaan löyttäät esimerkit Terjen ja Pirjon käänöksistä).
 * Taphaus "ensimäinen" oon joukon selvä ko se sanaryhmä oon mainittu grammatiikissa. Muissa ryhmissä se ei ole niin selvä. Grammatiikissa sanothaan ette nomini ei aina piä konsonanttirankkaa (vaikka sillä oon konsonanttirankka olemassa). Se oon sivula 181 norjankielisessä grammatiikissa: 
 * "Det finnes mange tostamma nomen som aldri danner flertall genitiv ved hjelp av konsonantstammen, for eksempel (sg. nom. :sg. gen. : sg. part. : pl. gen.) vuosi > vuossiin-vuositten ... 
 * Missä määrin sallima puhekieliset haamut ko "yks" ja "kaks"? "Kaks" oon jo sielä; poistamako sen?
-** Sallima
+    - Sallima
 * "Puolikymmentä" ei ole sanakirjassa, mutta oli numerals-tiedostossa. Käytetäkö kvääniksi?
-** Mie olen kuulu numeraali-ilmauksen puolenkymmentä... tsekkaan vielä.
+    - Mie olen kuulu numeraali-ilmauksen puolenkymmentä... tsekkaan vielä.
 
 * Oonko "miljoona" tahi "miljuuna"? "Miljardi" tahi "miljartti"? 
-** Miljoona ja miljuuna variasjuuni oon hyvä olla olemassa. Kans molemat sanat miljardi ja miljartti oon teksteissä...
+    - Miljoona ja miljuuna variasjuuni oon hyvä olla olemassa. Kans molemat sanat miljardi ja miljartti oon teksteissä...
 
 Muut kysymykset
 
 * Miksi on olemassa yksi jono, missä *tämä* saa *+Pers*-tagin? Outoa on, että persoona-pronominit ei toimi jos se poistetaan tahi kommentoidhaan pois.
 
-{{{
+```
 tämä+Pron+Dem:tä            tama_pron ;
 
 tämä+Pron+Pers+Sg1:tä       12pronsg  ;
@@ -51,7 +50,6 @@ täie        tämä+Pron+Pers+Sg1+Nom
 
 tämä+Pron+Pers+Sg1:tä       12pronsg  ; (mie lakka toimimasta jos kommentoima tämän rivin pois) 
 
-
 YAML test 73: analyser-gt-norm-dial_Por.hfstol + gt-norm-yamls/P-12pronsg_mie_gt-norm-dial_Por.yaml - 212/0/212 PASS
 YAML test 73: analyser-gt-norm-dial_Por.xfst + gt-norm-yamls/P-12pronsg_mie_gt-norm-dial_Por.yaml - 212/0/212 PASS
 YAML test 74: analyser-gt-norm-dial
@@ -59,28 +57,27 @@ YAML test 74: analyser-gt-norm-dial
 LEXICON 12pronsg !!= @CODE@ on 1., 2. p. yksikkö                                                                                             
 +Nom:ie     K ;
 +Gen:inun   K ;
-}}}
+```
 
 * Annamako Googol olla? [1/1][PASS] Googol+Num+Sg+Nom => Googol.
 
 * Vastaus: annama. 
 
-!!!Online-speller
+# Online-speller
 
-!!Miten toimii?
+## Miten toimii?
 
 Fkv Online speller: [http://divvun.org/proofing/online-speller.html]
 
-
 Versio on valitettavasti  edelleen fkv version 0.1, 05.12.2017, rev160819 .
 
-__Trond__ hoitaa sen.
+**Trond** hoitaa sen.
 
-!!!Sanakirja
+# Sanakirja
 
-!! Norjan tavallisimmat sanat
+##  Norjan tavallisimmat sanat
 
-{{{{
+```{
 cd main/words/dicts
 
 make -f make-bildict SLANG=nob TLANG=fkv TNUM=all
@@ -88,8 +85,9 @@ make -f make-bildict SLANG=nob TLANG=fkv TNUM=all
 alias nobfkv
 alias nobfkv='$LOOKUP $GTHOME/words/dicts/nobfkv/bin/nobfkv-all.fst'
 
- cat ../lists/nob/nowac-1.1.lemmas.freq|cut -f1|cut -d" " -f2|tr '[A-ZÆØÅ]' '[a-zæøå]'|nobfkv|grep "?"|cut -f1|grep '[a-z]'|head -200|tr '\n' ','|see    
- }}}   
+ cat ../lists/nob/nowac-1.1.lemmas.freq|cut -f1|cut -d" " -f2|tr '[A-ZÆØÅ]' '[a-zæøå]'|nobfkv|grep "?"|cut -f1](grep '[a-z)'|head -200|tr '\n' ','|see    
+ ```   
+
  
  cat ../lists/nob/nowac-1.1.lemmas.freq | less
 
@@ -102,34 +100,31 @@ undersøkelse, was, free, lars, tross, sjekke, masse, registrere, pr., har, ein,
  uttalelse, produsent, slikt, jan, reply, harald, thi, grunnleggende, sjekk, posted, artist, johansen, frankrike, psykisk, oppdrag, mar, element, drammen, gøy, permalenke, drift, avgjørende, seriøs, peter, new, c, apr., design, microsoft, automatisk, omtale, sektor, varsle, umiddelbar, utarbeide, larsen, advokat, befinne, individuell, forresten, album, soldat, l, xf, johan, relevant, gunnar, kommunal, strategi, gir, sannsynligvis, oppmerksomhet, utnytte, jensen, a., allikevel, oppgi, lenke, fordele, ii, stil, fall, statlig, ho, norway, forutsetning, festival, bodø, hold, handel, nov, nyte, dato, øvrig, j,
  koble, tittel, sony, demokrati, ok, perspektiv, k, hagen, innsende, porn, herlig, h., f., opplæring, halvpart, foreligge, site, kjønn, md., definere, vil, k, vant, overgang, samarbeide, mar, dialog, forventning, international, faktor, kontakte, unik, nødvendigvis, forholde, elektronisk, jf., em, slags, sp., google, signal, låt, intern, børs, hjemmeside, forutsette, tyde, møtes, engasjere, velger, r, børs, nærme, diverse, lokale, quote, mail, kose, 
 
-{{{
+```
 sin (pron.)
 (pron. refleksiv) iežas
 Lasse leker med vennen sin.Lásse stoahká iežas ustibiin.
-}}}
+```
 
 - Kuka lissää nämä norjankieliset sanat sanakirjhaan nyt ko Mari oon saanu työn muvalta? Mervi, Aili? 
 
-
-!! Facebook-sanat  (Kveenin sanat-ryhmästä) 
+##  Facebook-sanat  (Kveenin sanat-ryhmästä) 
 
 Uusi työtapa: Pitää lista kysytyistä sanoista, esim.
 
 main/words/dicts/nobfkv/inc/facebook.txt (tai macin Muistiinpanot)
 
-
 Pittääkö kielitinka kans kattoot niitä? 
 
-!! Nobfkv - Tarvittavat sanat
+##  Nobfkv - Tarvittavat sanat
 
 Instituutin käännösten sanat eivät ole lisätty sanakirjaan eivätkä analysaattoriin.
-
 
 Ratkaisu: 
 * Ottaa esille kaikki käännösten alkuperäiset norjankieliset dokumentit, ja ajaa ne sanakirjan läpi. Lisätä sanakirjaan.
 * Ottaa esille kaikki käännökset, ajaa analysaattorin läpi, lisätä.
 
-{{{
+```
 antiword *.doc |
 cat mandat | 
 
@@ -152,20 +147,17 @@ grep '[a-z]'|
 tr '\n' ','|
 sed 's/,/, /g;'|
 see
-}}}
-
-
+```
 
 kommisjon, sin, fornorskingspolitikk, fornorsking, én, ene, konsekvens, myndig, majoritetsbefolkning, virkning, gruppere, frem, denne, vurdere, utføre, samfunn, formål, etablere, enkeltperson, både, videre, sameting, offentlig, nasjonal, kartlegge, innad, hoved, granskning, forsone, formidle, ettervirkninger, deres, Sametinget, virkemiddel, utsette, utsatt, utgang, tradisjonell, tilsvarende, tilsvare, tilsvar, tillegge, tilgang, skriftlig, sammenheng, samfunnsliv, samarbeidspartner, samarbeide, s, rettslig, ratifisere, perspektiv, personlig, overlevere, nordisk, miljøer, midlere, middel, mandat, lignende, ligne, la, inkludere, informere, informant, ideologisk, hovedmålsetting, hovedmål, hensyn, hensiktsmessig, hele, granske, får, enkeltindivider, eksisterende, egnet, dokumentere, diskriminering, diskriminere, bøte, burde, 
 bidra, besk, benytte, arkiv, Stortinget, Staten, våre, videopptak, verken, vegne, vedta, utvikling, uttrykksform, uttrykk, utmarksbruk, utbredelse, utarbeide, urfolk, undersøkelse, ulikhet, tyde, tredelt, tilslutning, tilfredsstille, tilfreds, systematisk, statsbudsjett, sikkerhetspolitisk, sekretariat, seg, samtale, samelov, samarbeidsforum, rådighet, rettsforhold, retningslinje, representant, referansegruppe, referanse, rammekonvensjon, rammebetingelse, pågående, pågå, pådriver, privatliv, prioritere, presidentskap, praktisering, praktisere, planlegging, personsensitive, opprettelse, oppnå, opphaver, oppfatte, nødvendigvis, nærstående, næringsvei, næringsutøvelse, nær, nr, navne, naturressurs, muntlig, motvirke, motivere, motiv, minoritetsspråk, minoritetsbefolkning, metode, medium, materiell, material, massemedium, masse, mangfold, mane, majoritets-, ly, lovere, lokalmiljø, livssituasjon, likeverd, levekår, lengre, kvalifisere, krav, kontakte, konsultere, konkret, kon, kollega, kol, klausulere, kjønn, kildemateriale, kartlegging, jf, iverksette, ivareta, involvere, intervjue, intervju, innsamlede, individers, individer, ideolo
 gi, identitetsmessige, herunder, helsemessige, grunnlov, gjennomføring, gjennomføre, gire, gir, geografisk, generell, funn, fremtidsrettet, fremtidig, fremstå, fremstilling, fremstille, fremskaffe, fremgå, forvalte, forskningsinstitusjon, formatere, format, folke, finnmarkslov, finland, ferdigstille, europaråd, ettervirkningene, etisk, etablering, enten, ensartet, egne, drivkraft, digital, delrapport, delere, definere, danne, bl, bistand, bevilge, betryggende, betrygge, betegne, beskyttelse, behandling, begå, begrunnelse, befolkning, avsluttende, avlegge, avgi, avdekke, arte, art, arrangere, arkivverk, arkivere, anerkjennelse, anerkjenne, akademisk, a, Tema, Norske, Innst, ILO-konvensjon, Grunnloven, Finnmarksloven, Arkivverket, 1900-tall, 
 
+# Analysaattori
 
-!!!Analysaattori
+## Verbit
 
-!!Verbit
-
-{{{
+```
 frahtata+V+Inf        frahđata
 liuota+V+Inf        liuvota
 livota+V+Inf        lijota
@@ -173,27 +165,25 @@ noveta+V+Inf        nojeta
 puhjeta+V+Inf        puhjeta+V+Inf        +?
 silmästä+V+Inf        silmäistä
 vaitela+V+Inf        vaiđela
-}}}
+```
 
-# Onko lemma todellakin oikein?
-# Onko olemassa muita ht:hđ tapauksia?
+1. Onko lemma todellakin oikein?
+1. Onko olemassa muita ht:hđ tapauksia?
 
-!!!Korpus
+# Korpus
 
 * Mervi saa jonkun etsimään tiedostoja KI:ssa
 * Trond päivittää ohjeet Trellossa
 * Kaikki ennen 2014 on korpuksessa (?), sen jälkeen tehdyt tekstit eivät ole
 
-!! Testaa: convert2xml --version
+##  Testaa: convert2xml --version
 
+##  Aloitus
 
-!! Aloitus
+#  Projektin- ja työtehtävien hallinta
+##  Trello: [https://trello.com/b/dEsXsuNk/kieliteknologia-2019]
+##  Työtehtävien pilkkominen pienempiin osiin
 
-!!! Projektin- ja työtehtävien hallinta
-!! Trello: [https://trello.com/b/dEsXsuNk/kieliteknologia-2019]
-!! Työtehtävien pilkkominen pienempiin osiin
+# Seuraava kokkous 
 
-!!!Seuraava kokkous 
-
-__16.5. klo 9__
-
+**16.5. klo 9**

@@ -1,26 +1,25 @@
-!!!Viikkokokous 3.5.2013
+# Viikkokokous 3.5.2013
 
 *Aika: klo 13
 *Paikka: internet
 *Välineet: iChat ja SEE
 *Osallistujat: Kaisa, Mervi, Pirjo, Trond
 
-!!!Agenda
+# Agenda
 *Työsuunnitelu 
 *Työlista
 *Sanakirja
 *Muut asiat
 
-!!!Työsuunnittelu
+# Työsuunnittelu
 
-
-!!Pronominit
-* __Flag Diacritics__ pl ''Jommatkummat'' ei toimi
+## Pronominit
+* **Flag Diacritics** pl *Jommatkummat* ei toimi
 * Muutokset ei näy po. +Indef +Sg
 
 Eli: Tarkempi virheilmoitus, jos haluat apua...
 
-{{{
+```
 hum-tf4-ans163:fkv ttr000$ ufkv
 0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
 jommatkummat
@@ -34,15 +33,16 @@ hum-tf4-ans163:fkv ttr000$ ufkv
 ei
 ei	ei+V+Neg+Act+Ind+Sg3
 ei	ei+V+Neg+Act+Ind+Pl3
-}}}
+```
 
 Työtapa: 
 
 Mennä takaisin svn-historiassa kunnes se toimii, ja sitten nähdä mitä on
 lisätty katastroofin aiheuttamiseksi.
 
-{{{
+```
 svn log src/morphology/affixes/pronouns.lexc|less
+
  
 r75711 | mervi | 2013-05-03 08:17:42 +0200 (Fri, 03 May 2013)  <== nyt ei
 
@@ -56,44 +56,44 @@ r75444 | mervi | 2013-04-26 16:27:29 +0200 (Fri, 26 Apr 2013)  <== silloin toimi
 
 Jompikumpi tehty.                             
 ---------------------------------------------------------------
-}}}
+```
 
 Debuggaaminen (fkv-hakemistossa):
 
-{{{
+```
 svn up -r75656 src/morphology/affixes/pronouns.lexc
 make
-}}}
+```
 
 (jos tässäkin on vika, niin -r75444)
 
 toinen mahis:
 
-{{svn diff -r75656:75444 src/morphology/affixes/pronouns.lexc}}
+`svn diff -r75656:75444 src/morphology/affixes/pronouns.lexc`
 
 ... ja näet eron.
 
-__TEHTÄVÄ__
+**TEHTÄVÄ**
 
-* Katsoa pron-tiedosto (__Mervi, Trond__)
+* Katsoa pron-tiedosto (**Mervi, Trond**)
 
-!!Nominit
+## Nominit
 
-! Vokaalivartaloiset nominit
+###  Vokaalivartaloiset nominit
 Sanoja väärissä luokissa
 
-!Konsonanttivartaloiset nominit
+### Konsonanttivartaloiset nominit
 
-# Luokka __41, 33, 32s__ ollaan käyty läpi
-# Luokka __32__ ei käyty läpi: ongelmia ''tytär:tyttär'' vai ''tytär:tyttä''
-# Luokka __31__ ei käyty läpi
-# Sanoja väärissä luokissa
-## ''kuningas:kuninkhaa'' (vai kuninkha), ''rakas:rakkhaa (vai rakkha)''
+1. Luokka **41, 33, 32s** ollaan käyty läpi
+1. Luokka **32** ei käyty läpi: ongelmia *tytär:tyttär* vai *tytär:tyttä*
+1. Luokka **31** ei käyty läpi
+1. Sanoja väärissä luokissa
+    1. *kuningas:kuninkhaa* (vai kuninkha), *rakas:rakkhaa (vai rakkha)*
 
-!Yaml-testit
+### Yaml-testit
 Paljon lukematta läpi. Substantiivien yaml-tiedostojen Ok-merkintä
 
-{{{
+```
 hum-tf4-ans163:morphology ttr000$ grep tseka *
 N-huonet_gt-norm.yaml:  Noun - huonet: # Noun 'borg' - ei tsekattu
 N-kainulainen_gt-norm.yaml:  Noun - linna: # Noun 'borg' - ei tsekattu
@@ -145,50 +145,50 @@ N-venet_gt-norm.yaml:  Noun - venet: # Noun 'borg' - ok
 V-kattoot_gt-norm.yaml:  Verb - kattoot: # Verb 'to bring' - ok
 V-kirjoittaat_gt-norm.yaml:  Verb - kirjoittaat: # Verb 'to bring' - ok
 V-tulla_gt-norm.yaml:  Verb - tulla: # Verb 'to bring' - ok
-}}}
+```
 
 Historia opettaa meitä (seisot fkv:ssä):
 
-{{{
+```
 svn log test/src/morphology/V-aikkoot_gt-norm.yaml
-}}}
+```
 
 Miten testata:
 
-# make check
-# poimia pitkät komennot, esim:
+1. make check
+1. poimia pitkät komennot, esim:
 
-{{{
+```
 hum-tf4-ans163:fkv ttr000$ pushd /Users/ttr000/main/langs/fkv/test/src/morphology; /opt/local/bin/python3.2 /Users/ttr000/main/giella-core/scripts/morph-test.py -c -i -S hfst --app /usr/local/bin/hfst-lookup --gen ./../../../src/generator-gt-norm.hfst --morph ./../../../src/analyser-gt-norm.hfst ./N-linna_gt-norm.yaml; popd
-}}}
+```
 
 Tulos: 6 virhettä
 
-{{{
+```
 [FAIL] linna+N+Pl+Gen => Missing results: linnoin
 [FAIL] linna+N+Pl+Gen => Unexpected results: linnoiin
 [FAIL] linna+N+Pl+Par => Missing results: linnoi
 [FAIL] linna+N+Pl+Par => Unexpected results: linnoii
 [FAIL] linna+N+Pl+Ill => Missing results: linnhoin
 [FAIL] linna+N+Pl+Ill => Unexpected results: linnoihin
-}}}
+```
 
 Virheet ovat kahdentyyppisiä:
 
-# ii, eikä i, partitiivissä ja genitiivissä
-# h-sääntö
+1. ii, eikä i, partitiivissä ja genitiivissä
+1. h-sääntö
 
 Sitten katsoa muita sanoja: Ovatko niissä sama virhemalli, vai ei?
 
 Menetelmä olisi:
 
-# Mihin luokkan ''linna'' kuuluu?
-# Missä on ''linna''-sanan partitiivn ja genetiivin monikon leksikot?
-# Näkyykö siinä ylimääräisiä i:tä?
+1. Mihin luokkan *linna* kuuluu?
+1. Missä on *linna*-sanan partitiivn ja genetiivin monikon leksikot?
+1. Näkyykö siinä ylimääräisiä i:tä?
 
 Vartalo lexc:ssä:
 
-{{{
+```
 kissa n_21 ; ! kissa on hakumuoto ja vartalo
 kssa: n_21 ; ! kissa on hakumuoto, vartaloa ei ole
 käsi jokuleks ; ! käsi on hakumuoto ja vartalo
@@ -201,11 +201,11 @@ ovi:ovve jokuleks ; ! huono idea: koska meillä on geminaatiosääntö
 
 Nyt on:
 lovi:love n_21ie ; 
-}}}
+```
 
 Astevaihtelu ja geminaatio:
 
-{{{
+```
    III     II        I
 tekkee - tekevät - tehen
 
@@ -213,45 +213,44 @@ Astevaihtelu: II - I k:h, III-II takki - takin
 Geminaatio: II > III
 III - I ei ole (pp:v, kk:h, tt:đ ei ole)
 ==> vahva, ei-geminoitu aste on vartalomuoto.
-}}}
+```
 
-
-Miten lexc ja twolc toimivat yhdessä: ''lexc:n output on twolc:n input''. 
-Tässä esimerkissä identtinen jono on ''hattu^WG>n'':
+Miten lexc ja twolc toimivat yhdessä: *lexc:n output on twolc:n input*. 
+Tässä esimerkissä identtinen jono on *hattu^WG>n*:
 
 * lexc: 
-** hattu+N+Sg+Gen
-** hattu^WG>n
+    - hattu+N+Sg+Gen
+    - hattu^WG>n
 * twolc: 
-** hattu^WG>n
-** ha0tu00n
+    - hattu^WG>n
+    - ha0tu00n
 
 Twolc-sääntö on:
 
-{{{
+```
 "Gradation ppttkk : ptk" !!= * @CODE@  
-Cx:0 <=> [Vowel:|l|m|n|r] _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l) %^WG:0 ;  
+Cx:0 <=> [Vowel:|l|m|n](r) _ Cx (:h) (Dummy:) Vowel: (Vowel:0) (Dummy:) (:i) (l) %^WG:0 ;  
             where Cx in ( k p t ) ;
-}}}
+```
 
-__TEHTÄVÄ__
-# Nominit:
-## Pirjo tsekkaa: suomi, tooli, vuosi. (Merville)
-## Pirjo tsekkaa: konsonanttivartalot. (Leenalle ja Kaisalle)
-# Verbit:
-## kai ''aikkoot'' ensin...
-## Verbien kanssa odotetaan kunnes Kaisa on laittanut lisää muotoja
+**TEHTÄVÄ**
+1. Nominit:
+    1. Pirjo tsekkaa: suomi, tooli, vuosi. (Merville)
+    1. Pirjo tsekkaa: konsonanttivartalot. (Leenalle ja Kaisalle)
+1. Verbit:
+    1. kai *aikkoot* ensin...
+    1. Verbien kanssa odotetaan kunnes Kaisa on laittanut lisää muotoja
 
-!!!Työlista
+# Työlista
 
 Toukokuu:
 
 * Kaisa takaisin toukokuun lopussa
 * Leenalla on kiire
 * Pirjo ja Mervi ottavat etumatkan kiini
-** Trond Pyssyjoessa ilman muita Tromssalaisia johtokunnan kokouksen yhteydessä?
+    - Trond Pyssyjoessa ilman muita Tromssalaisia johtokunnan kokouksen yhteydessä?
 
-!!Nominit
+## Nominit
 
 * yaml (Pirjo)
 * pronominit: mervi, trond
@@ -259,20 +258,20 @@ Toukokuu:
 * k-vartaloiset: leena, kaisa
 * sanakirja (kaikki, ks alhaalla)
 
-!! Verbit
+##  Verbit
 
 * Kaisa lisää muotoja yamliin
 * Sen jälkeen Pirjo korjailee
 
-!!!Sanakirja
+# Sanakirja
 
-[Eiran sanakirja on tässä|https://gtsvn.uit.no/langtech/trunk/words/dicts/fkvnob/inc/]
+[Eiran sanakirja on tässä](https://gtsvn.uit.no/langtech/trunk/words/dicts/fkvnob/inc/)
 
 Sanakirjan päivitys ja Eiran sanakirja tilalle?
 
-# Yhdistää aikamatka ja fkvnob
-# manuaalisesti käydä läpi ja tehdä sanakirjatyö
-# lisätä sanat lexc-tiedostoihin
+1. Yhdistää aikamatka ja fkvnob
+1. manuaalisesti käydä läpi ja tehdä sanakirjatyö
+1. lisätä sanat lexc-tiedostoihin
 
 Kysymys normatiivisuudesta tule esiin.
 
@@ -291,9 +290,8 @@ Ehkä emme lyö niitä yhten ennen tutustumista?
 
 Toukokuussa: Trond, ehkä myös Mervi ja Pirjo.
 
-!!!Seuraava kokous
+# Seuraava kokous
 * Viikkokokous: Kesäkuun ensimmäisenä viikkona.
 * Muita tapaamisia: 
-** Pyssyjoki: johtokunnan kokouksen yhteydessä??
-** Tromssassa?? Katsotaan.
-
+    - Pyssyjoki: johtokunnan kokouksen yhteydessä??
+    - Tromssassa?? Katsotaan.

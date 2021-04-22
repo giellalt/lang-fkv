@@ -1,47 +1,44 @@
-
-
-
 fkv-kokous
 Aili, Anna-Kaisa, Thomas, Trond
 
-!!!Asialista
+# Asialista
 * Uusi työntekijä
 * Työ
 * Työnjako
 * Seuraava kokous
 
-!!Uusi työntekijä
+## Uusi työntekijä
 Sindre on lopettanut, Thomas on saanut työtä. Tervetuloa Thomakselle!
 
-!!Työ
+## Työ
 
-Käytiin lexc ja fkv läpi, paranneltiin {{n_11}} -leksikon illatiiveja (ks. svn-log).
+Käytiin lexc ja fkv läpi, paranneltiin `n_11` -leksikon illatiiveja (ks. svn-log).
 
-!Tilannekatsaus:
+### Tilannekatsaus:
 
 SUMMARY for the generating gt-norm-dial_Por fst(s): PASSES: 230 / FAILS: 0 / TOTAL: 230
 
-!Tavoitteena eteenpäin:
+### Tavoitteena eteenpäin:
 
-# Korjaa monikon genetiivin ja partitiivin geminaativirheet
-# Nollavirheet yamlissa
-# Kokemuksen kautta testata ja parantaa.
+1. Korjaa monikon genetiivin ja partitiivin geminaativirheet
+1. Nollavirheet yamlissa
+1. Kokemuksen kautta testata ja parantaa.
 
 yaml-komento:
 
-{{{
+```
 sh test/yaml-check.sh
-}}}
+```
 
 Kaikki testit:
 
-{{{
+```
 make check
-}}}
+```
 
 Thomas keskustelee huomenna Sindren kanssa.
 
-!!!Työjako:
+# Työjako:
 
 Näin seuraavaan kokoukseen asti:
 
@@ -50,7 +47,7 @@ Anna-Kaisa ja Pirjo varmistavat yaml-taulukoitten oikeat muodot.
 
 Trond generoi uudet paradigmat kun Aili ja Thomas sitä haluavat.
 
-!!!Seuraava kokous
+# Seuraava kokous
 
 5.12. klo. 10.30 Skypessä
 
@@ -58,7 +55,3 @@ Seuravaan asialistaan:
 * yaml-tilanne
 * Sanakirja
 * Korp
-
-
-
-

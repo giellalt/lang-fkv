@@ -1,49 +1,47 @@
-!!!Viikkokokous 30012014
+# Viikkokokous 30012014
 
 * Aika: klo 13
 * Paikka: internet
 * Välineet: iChat ja SEE
 * Osallistujat: Kaisa, Leena, Mervi ja Trond
 
-!!!Agenda
+# Agenda
 
 * Työsuunnitelu 
 * Tänä vuonna
 * Työlista
 
+# Työsuunnittelu
 
-!!!Työsuunnittelu
-
-!!Tavoitteet
+## Tavoitteet
 
 * Perusteet
-** Analysaattori
-** Korpus
+    - Analysaattori
+    - Korpus
 * Sovellukset
-** Korjausohjelma
-** Oahpa
-** Sanakirjat
-*** fkvnob
-*** nobfkv
-*** finfkv???
+    - Korjausohjelma
+    - Oahpa
+    - Sanakirjat
+        - fkvnob
+        - nobfkv
+        - finfkv???
 * Muualla
-** Oppimateriaalia
-** Kielioppi
+    - Oppimateriaalia
+    - Kielioppi
 
-!Analysaattori
+### Analysaattori
 
 * Verbit melkein hyviä
 * Substantiivit jokseenkin kangartelevat
 * Adjektiivit odottavat hmm
-** adj-leks: 
-*** positiivi substantiiveille 
-*** komparatiivi, superlatiivi erikseen + sijamuodot jonnekin
+    - adj-leks: 
+        - positiivi substantiiveille 
+        - komparatiivi, superlatiivi erikseen + sijamuodot jonnekin
 * Twolc on itse asiassa hankala
-
 
 Nyt:
 
-{{{
+```
 LEXICON a_22
 (ei ole)
 
@@ -51,11 +49,11 @@ LEXICON n_22
 +N+Sg+Nom
 +N+Sg: WEAK
 +N+Pl: blabla
-}}}
+```
 
 Miellummin:
 
-{{{
+```
 LEXICON a_22
 +A+Pos: x_22 ; ! tai ilman +Pos-tagia?
 +A+Comp: jonnekin_komp22 ;
@@ -69,9 +67,9 @@ LEXICON x_22
 +Sg+Nom
 +Sg: WEAK
 +Pl: blabla
-}}}
+```
 
-!Suljetut luokat
+### Suljetut luokat
 
 Pronominien lisäksi subjunktiot, konjunktiot, jne.
 Ne poimitaan nyt sanakirjasta ja kieliopista.
@@ -79,56 +77,52 @@ Adverbien komparatiivi myös.
 
 Tja:
 
-{{{
+```
 esim	esim	+?
 lissää	lissää	+?
 mm	mm	+?
 perrää	perrää	+?
-}}}
+```
 
-!Lukusanat
+### Lukusanat
 
 Laurilla on oma tarina niille.
 kahdellakymmennelläviidellä.
 
+**Mervi** katsoo suljettuja.
 
-__Mervi__ katsoo suljettuja.
-
-
-!Korpus
+### Korpus
 * Korpuksen luominen
-** Tyhjentää kovalevyjä (näiden projektien ulkopuolella)
-*** KI (KI)
-*** RK (Mervi)
-** Systematisoida (kielitaidoton systemaatikko)
-** Arvioida (kielitaitoinen)
+    - Tyhjentää kovalevyjä (näiden projektien ulkopuolella)
+        - KI (KI)
+        - RK (Mervi)
+    - Systematisoida (kielitaidoton systemaatikko)
+    - Arvioida (kielitaitoinen)
 * Korpuksen käyttäminen eri tarkoituksiin
-** Lisätä sanoja analysaattoriin
-** Antaa raaka-aineita kielitingalle
-** Tarjota sanakirjan tukimateriaalina esim. [näin|http://sanit.oahpa.no]
-** ...
+    - Lisätä sanoja analysaattoriin
+    - Antaa raaka-aineita kielitingalle
+    - Tarjota sanakirjan tukimateriaalina esim. [näin](http://sanit.oahpa.no)
+    - ...
 
+## fkvnob-sanakirja
 
-!!fkvnob-sanakirja
+1. 7500, fst:hen. verbit lisätty, sitten loput
+1. Oikoluku?
 
-# 7500, fst:hen. verbit lisätty, sitten loput
-# Oikoluku?
+## nobfkv-sanakirja
 
-!!nobfkv-sanakirja
+1. Laaditaan puuttuvien norjankielisten sanojen lista
+1. Lisätään
 
-# Laaditaan puuttuvien norjankielisten sanojen lista
-# Lisätään
+# Tänä vuonna
 
-!!!Tänä vuonna
-
-!!Rahankäyttö
+## Rahankäyttö
 
 Kieliteknologia ja sanasto KMD:n tuki:
 * Språkprosjekt 400 000 ordforråd (Kielitinka++)
 * Språkteknologiprosjekt 100 000
 
-
-!!Workshopit
+## Workshopit
 
 Matkarahat , Honorar
 
@@ -139,20 +133,16 @@ Sisältö
 * vasta-aloittelijoille
 * virheanalyysit (?)
 
-
-!!Inarin matka
+## Inarin matka
 
 Aihe huomiseksi. \|/
 
-
-!!!Työlista
+# Työlista
 
 fst Oahpa-kuntoon tämän kevaan aikana. Sivu tässä:
 
 [http://giellatekno.uit.no/ped/fleksi/FleksibelUtdanning.html]
 
-
-!!!Seuraava kokous
+# Seuraava kokous
 
 7.2. 14.00
-

@@ -1,20 +1,10 @@
+# Start making a syntactic disambiguator
 
-!!!Start making a syntactic disambiguator
-
-!!Sets
-
-
+## Sets
 
 Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 
-
-
-
-
-
-
-
-!Part-of-Speech
+### Part-of-Speech
 * N = noun
 * A = adjective
 * Num = numeral
@@ -27,9 +17,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pron = pronoun
 * Interj = interjection
 
-
-
-!Numerus
+### Numerus
 * Sg = Singular
 * Pl = Plural
 * Sg1 = Singular 1.p.
@@ -38,7 +26,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pl1 = Plural 1.p.
 * Pl2 = Plural 2.p.
 * Pl3 = Plural 3.p.
-!Cases
+### Cases
 * Nom
 * Gen
 * Acc
@@ -56,7 +44,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Com
 * SUBJ-CASE = Nom Par
 
-!Types
+### Types
 * Prop = Proper noun
 * Interr = Interrogative
 * Dem = demonstrative pron
@@ -80,9 +68,7 @@ Interrpronpl "kuka" ja "mikä"
 * @CVP = Conjunction or subjunction that conjoins finite verb phrases.
 * @CNP = Local conjunction or subjunction.
 
-
-
-!!Sets with more members
+## Sets with more members
 
 * WORD = all PoS
 
@@ -95,7 +81,6 @@ Interrpronpl "kuka" ja "mikä"
 
 * QVANT-ADV = e.g. paljon, vähän
 * KUNKA = e.g. kunka missä (adverbs that start a sentence)
-
 
 * S-BOUNDARY = words that start a sentence
 
@@ -111,155 +96,99 @@ Interrpronpl "kuka" ja "mikä"
 
 * SV-BOUNDARY = words that start a sentence and finite verb
 
+## Disambiguation rules
 
-
-
-
-
-!!Disambiguation rules
-
-!Early rules
+### Early rules
 
 * __person_test__ selects finite verb if there is a Pron Pers to the left
 
 * __adv_after_V__ selects adverb if there is a verb to the right
 
-
 * __prop_infrontof_kieli__ removes propernoun in fron of kieli, if it kan be something else, e.g. Kainun kieli
 
-* __PropInit__ removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
+* **PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
 
-* __PropNotInit__ selects  propernoun if it is not in the beginning of a sentence
+* **PropNotInit** selects  propernoun if it is not in the beginning of a sentence
 
+### Preposition/postposition/adverb rules
 
+* **Prifgenpar** selects  preposition to the left of Gen or Par
 
-!Preposition/postposition/adverb rules
+* **Poifgenpar** selects  postposition to the right of Gen or Par
 
+* **vasthaan**
 
+## Rules for mapping @CVP and @CNP on the CC and CS
 
+* **CVP** maps @CVP to CS and mutta
 
-* __Prifgenpar__ selects  preposition to the left of Gen or Par
+* **CNPifN** maps @CNP to CC between two N
 
-* __Poifgenpar__ selects  postposition to the right of Gen or Par
+* **CNPifInf** maps @CNP to CC between two Inf
 
-* __vasthaan__
+## Case rules
 
-
-!!Rules for mapping @CVP and @CNP on the CC and CS
-
-* __CVP__ maps @CVP to CS and mutta
-
-* __CNPifN__ maps @CNP to CC between two N
-
-* __CNPifInf__ maps @CNP to CC between two Inf
-
-
-!!Case rules
-
-!Partitive
-
-
-
+### Partitive
 
 Genitive
 
+### Illative
 
-!Illative
+## Number rules
 
+## More disambiguation rules
+* **SgNotPl**
 
-!!Number rules
+### Elative
 
-
-
-!!More disambiguation rules
-* __SgNotPl__
-
-
-!Elative
-
-
-
-!!Adverbs
-
-
-
+## Adverbs
 
 Conjunctions
 
+## Subjunctions
 
-!!Subjunctions
+## Pronouns
 
+## Verb rules
 
+### Infinitive
 
+## Present Sg3
 
-!!Pronouns
+## Present Pl3
 
+* **Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
 
+* **Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
 
+* **Sg3ollainpretandperf** selects Sg3 if COPULAS
 
+* **Sg3ollainpretandperf** selects Sg3 if COPULAS
 
+* **Relpronandnotintterpron** selects Rel Sg if Interr
 
-!!Verb rules
+* **Relpronandnotintterpron** selects Rel Sg if Interr
 
-!Infinitive
+* **interrpron** selects Interr if ? in the end
 
+* **DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
 
-!!Present Sg3
+* **paljonadvandnotpaljonoun** selects Adv if paljon
 
+* **Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
 
+* **annaimperativeandnotannaname** removes Prop if Anna se
 
-!!Present Pl3
+* **tulinounfromtuliprtsg3** selects V Sg
 
+* **dempronandnotpronpers** selects Den if A of N to the right
 
+* **Imperativefromconneg** selects and removes ConNeg
 
-* __Pl3ollaifplrelpronandplinterrpron__ selects Pl3 if olla
+* **ImperativeafterNeg** removes Imprt if pronoun
 
-* __Sg3ollaifplrelpronandplinterrpron__ selects Sg3 if olla
-
-* __Sg3ollainpretandperf__ selects Sg3 if COPULAS
-
-* __Sg3ollainpretandperf__ selects Sg3 if COPULAS
-
-
-
-* __Relpronandnotintterpron__ selects Rel Sg if Interr
-
-* __Relpronandnotintterpron__ selects Rel Sg if Interr
-
-* __interrpron__ selects Interr if ? in the end
-
-* __DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj__ selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
-
-
-* __paljonadvandnotpaljonoun__ selects Adv if paljon
-
-* __Relpronifitsanounoracommabeforeit__ selects Rel Pl if N to the left
-
-
-* __annaimperativeandnotannaname__ removes Prop if Anna se
-
-* __tulinounfromtuliprtsg3__ selects V Sg
-
-
-
-* __dempronandnotpronpers__ selects Den if A of N to the right
-
-* __Imperativefromconneg__ selects and removes ConNeg
-
-* __ImperativeafterNeg__ removes Imprt if pronoun
-
-
-
-
-
-* __interrel__ selects Interr of Rel if CS to the right
-
+* **interrel** selects Interr of Rel if CS to the right
 
 * WORDLEMMA = regex giving the lemma in question
 
-* __errorth__ removes Err/Orth if there is an analysis without Err/Orth with the same lemma
-
-
-
-
-
+* **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma

@@ -1,12 +1,8 @@
-
-
-
 Yaml-testit , kaikki nominien FAIL-tapaukset:
 
-!!!Tilanne svn-versiossa r87388
+# Tilanne svn-versiossa r87388
 
-
-!!Pass: 21 tests:
+## Pass: 21 tests:
 
 * YAML test 2: ./N-assii_gt-norm.yaml + analyser-gt-norm - PASS
 * YAML test 3: ./N-ellain_gt-norm.yaml + analyser-gt-norm - PASS
@@ -30,7 +26,7 @@ Yaml-testit , kaikki nominien FAIL-tapaukset:
 * YAML test 28: ./N-venet_gt-norm.yaml + analyser-gt-norm - PASS
 * YAML test 29: ./N-veres_gt-norm.yaml + analyser-gt-norm - PASS
 
-!!Fail: 12 tests:
+## Fail: 12 tests:
 
 * YAML test 1: ./N-aika_gt-norm.yaml + analyser-gt-norm - FAIL
 * YAML test 8: ./N-joki_gt-norm.yaml + analyser-gt-norm - FAIL
@@ -42,10 +38,9 @@ Yaml-testit , kaikki nominien FAIL-tapaukset:
 * YAML test 26: ./N-tytar_gt-norm.yaml + analyser-gt-norm - FAIL
 * YAML test 30: ./N-vuosi_gt-norm.yaml + analyser-gt-norm - FAIL
 
+##  Fails:
 
-!! Fails:
-
-{{{
+```
 [FAIL] aika+N+Pl+Ill => Missing results: aikhoin
 [FAIL] aika+N+Pl+Ill => Unexpected results: aikhaan
 [PASS] aika+N+Pl+Ade => aijoila
@@ -79,7 +74,4 @@ Tööllä 3-tavuinen este ei toimi.
 [FAIL] tytär+N+Pl+Par => Missing results: tyttäriitä
 [FAIL] tytär+N+Pl+Par => Unexpected results: tyttärriitä, tytäritä
 rr
-}}}
-
-
-
+```

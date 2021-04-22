@@ -1,57 +1,59 @@
-!!!Viikkokokous
+# Viikkokokous
+
  
 * Aika: 15.5.2014 klo 13
 * Paikka: internet
 * Välineet: Skype ja Collabedit
 * Paikalla: Kaisa, Mervi, Pirjo ja Trond
+
  
-!!!Agenda
+# Agenda
 * Tilannepäivitykset
 * Työtehtävät
 * Muut asiat
 
  
-!!!Tilannepäivitykset
+# Tilannepäivitykset
 
-!!Analysaattori
+## Analysaattori
 
-!Kaksi n-ää
+### Kaksi n-ää
 
 *N+N+
 
 eli ei näin:
+
  
-{{{
+```
 LEXICON n_22odd !!= * @CODE@  meininki
 +N: x_22odd ;
 
 LEXICON x_22odd !!= * @CODE@  meininki
 +N: strong-v-stem ;
 +N:%^WG weak-v-stem ;
-}}}
+```
 
 Ne ovat luultavasti nyt poissa. Pidetään mielessä.
 
 Projekti X (N ja A X-ään) on edelleen työn alla.
 
-
-!!Fkvnob 
+## Fkvnob 
 *Mikä on lemma-gen-diff.xfst.txt?
 *Villahousut lyhenivät
 *Mikä dokumentaatiokieli sanakirjassa?
 
 fkvnob fst:ssä? Siinä on ollut edistys:
 
-{{{
+```
  cat  ~/main/words/dicts/fkvnob/src/*l|grep '<l '|tr '<' '>'  | cut -d">" -f3|ufkv|grep '?'|wc -l
      248
-}}}
+```
 
-!!Nobfkv
+## Nobfkv
 
-!!Testaus
+## Testaus
 
-yaml-tiedostot ovat saaneet uuden kodin: {{test/src/gt-norm-yamls/}}
+yaml-tiedostot ovat saaneet uuden kodin: `test/src/gt-norm-yamls/`
 Villahousut ovat poissa:
 
 Generoivatko substantiivit itsensä?
@@ -64,7 +66,7 @@ asentohuonet,asumahuonet,auvain,elläin,filee,hirsihuonet,hohtimet,hohđin,hođi
 
 Esimerkki virheistä:
 
-{{{
+```
 noviisihuonet+N+Sg+Nom  noviisihuoneđet
 oopperahuonet+N+Sg+Nom  oopperahuoneđet
 porstuu+N+Sg+Nom    porstuue
@@ -72,20 +74,19 @@ rassuu+N+Sg+Nom rassuue
 noviisihuonet+N+Pl+Nom  noviisihuonetheet
 oopperahuonet+N+Pl+Nom  oopperahuonetheet
 hohtimet+N+Pl+Nom   hohtimet+N+Pl+Nom   +?
-}}}
-
+```
 
 Verbeistä tämmöinen raportti:
 
-{{{
+```
 kuumeta+V+Inf   kuumeta+V+Inf   +?
 nakata+V+Inf    nakata+V+Inf    +?
 nuoreta+V+Inf   nuoreta+V+Inf   +?
-}}}
+```
 
 Ymmärrämme miksi:
 
-{{{
+```
 kuumeta
 kuumeta kuumeta+V
 
@@ -94,34 +95,32 @@ nakata  nakata+V
 
 nuoreta
 nuoreta nuoreta+V
-}}}
-
+```
 
 Yamlit:
 
 * Substantiivit M-all_gt-norm.yaml: 
-** Total passes: 1956, Total fails: 478, Total: 2434
+    - Total passes: 1956, Total fails: 478, Total: 2434
 * Verbit U-all_gt-norm.yaml: 
-** Total passes: 2448, Total fails: 169, Total: 2617
-
+    - Total passes: 2448, Total fails: 169, Total: 2617
 
 M-all (substantiivit) ja U-all (verbit) tehtiin näin:
 
-{{{
+```
 cat test/src/gt-norm-yamls/N-*|head -11 > test/src/gt-norm-yamls/M-all_gt-norm.yaml
 tail +11 test/src/gt-norm-yamls/N-*|grep -v '=='  >> test/src/gt-norm-yamls/M-all_gt-norm.yaml
 
 cat test/src/gt-norm-yamls/V-*|head -11 > test/src/gt-norm-yamls/U-all_gt-norm.yaml
 tail +11 test/src/gt-norm-yamls/V-*|grep -v '=='  >> test/src/gt-norm-yamls/U-all_gt-norm.yaml
-}}}
+```
 
-!!Tekniset jutut
+## Tekniset jutut
 
-!Meili
+### Meili
 
 Meilit Kaisalle (svn + Sjur). Trond katsoo.
 
-!SVN-konfliktit
+### SVN-konfliktit
 
 svn st
 
@@ -138,17 +137,16 @@ Yleisneuvot:
 * Tarkistaa: toimiiko make? Entäs gtcore?
 
  
-!!!Työtehtävät
+# Työtehtävät
 
 Dokumentaatio:
 
 * Työtehtävien uusjako på norsk: [/lang/fkv/Arbeidsplan.html]
 * Yksityiskohtaiset työtehtävät: [/lang/fkv/Tehtavat.html]
 
-!!Analysaattori:
+## Analysaattori:
 
-
-! Lista
+###  Lista
 * twolc, lexc-morfologia: Leena, Kaisa
 * lexc-leksikko (n_x-iä on 552): Mervi, Pirjo
 * 248 (sanakirjan sanat): lisätä n_x-iin?
@@ -156,7 +154,7 @@ Dokumentaatio:
 * Projekti X
 * Uudet missing-sanat korpuksesta
 
-!Partisiipit
+### Partisiipit
 
 ovat verbejä:
 
@@ -165,16 +163,16 @@ ja substantiiveihin (sijamuodot) x_21-menetelmän avulla
 
 a_21, n_21 -> x_21
 
-Leksikalisoidut partisiipit (esim ''mahtava'') ovat (sanakirjan takia) adjektiiveja.
+Leksikalisoidut partisiipit (esim *mahtava*) ovat (sanakirjan takia) adjektiiveja.
 
 Katsotaan partisiippeja (kesäkuussa)
 
-!!Sanakirja
+## Sanakirja
 
 Onko sana sanakirjassa? siis katso dokumentaatiosta:
 * [/lang/fkv/Tehtavat.html]
 
-!Työn kulku
+### Työn kulku
 
 *fkvnob-sanakirja, esimerkit: Pirjo
 *fkvnob-sanakirja, fkv-oikoluku: Pirjo (tehty?)
@@ -185,14 +183,13 @@ Onko sana sanakirjassa? siis katso dokumentaatiosta:
 *puuttuvien nob-sanojen lisääminen: Trond, Tove, pedagogit
 *kääntäminen: Pirjo, muut
 
-!!Tekstit
+## Tekstit
 *T-tekstien kerääminen: KI
 *P-tekstien lisääminen korpukseen: Mervi, Børre, ...
 *Aikamatka-tekstien lisääminen korpukseen: Mervi, Børre, ...
 *Uusien teksteistä tulevien sanojen lisääminen sanakirjaan ja fst: hen:
 
-
-!!Korpus
+## Korpus
 
 Hae freecorpus:
 
@@ -219,13 +216,12 @@ news: rk
 sme:
 facta:
 
-{{{
+```
 L97S            klemetti.blogspot.com   other_files     skuvlahistorja2     skuvlahistorja4     skuvlahistorja6
 finnmarksloven      nav.no          skuvlahistorja1     skuvlahistorja3     skuvlahistorja5
-}}}
+```
 
-
-!Tehtävä:
+### Tehtävä:
 
 Siirtää inc-tiedostot kuusikkoon (admin, facta, news, ...)
 
@@ -247,17 +243,15 @@ svn ci -m "moved orig nob file" inc/pirjo/kainun_institutti/kainun_institutti_aa
 
 Jokaiseen doc-tiedostoon file.doc pitää olla rinnakkais-tiedosto file.doc.xsl. Siinä pitää lukea kaikki meta-tiedot.
 
-Prosessi on selitetty [korpusmanuaalissa|/ling/corpus_conversion.html].
+Prosessi on selitetty [korpusmanuaalissa](/ling/corpus_conversion.html).
 
-
-!Käyttöliittymä:
+### Käyttöliittymä:
 
 [http://gtweb.uit.no/f_korp/]
+
  
 
-
-!!!Muut asiat
+# Muut asiat
 
 *Seuraava kokous elokuussa
 *Tarvittaessa adhoc-kokous
-

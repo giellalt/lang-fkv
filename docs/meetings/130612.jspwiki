@@ -1,11 +1,6 @@
-
-
-
-
-!!!Viikkokokous 7.6.2013
+# Viikkokokous 7.6.2013
 
 Läsnä: Kaisa, Leena,  Pirjo, Trond
-
 
 Asialista
 
@@ -16,26 +11,21 @@ Asialista
 * lexc-kurssi
 * Lingvistiikka
 
-
-
-!!!Paaski
+# Paaski
 
 Trond piti esitelmän.
 
-
-!!!Halti mukaan
+# Halti mukaan
 
 Halti tulee mukaan projektiin.
 
+#  Tilannekatsaus
 
-
-!!! Tilannekatsaus
-
-!!make check
+## make check
 
 Virheellisiä:
 
-{{{
+```
 YAML test 1: ./N-aika_gt-norm.yaml 
 YAML test 2: ./N-assii_gt-norm.yaml 
 YAML test 3: ./N-ellain_gt-norm.yaml 
@@ -53,7 +43,7 @@ YAML test 18: ./N-tytar_gt-norm.yaml
 YAML test 19: ./N-venet_gt-norm.yaml 
 YAML test 20: ./N-veres_gt-norm.yaml 
 YAML test 43: ./V-pajeta_gt-norm.yaml 
-}}}
+```
 
 Päivän luku on siis 17.
 
@@ -68,24 +58,20 @@ maa -> maissa
 
 vene ... eikä vene
 
-!!!Poster
+# Poster
 
 21.6. tehdään posteri.
 
 Esitelmä on 13.8. Leena voi mennä Osloon.
 
-!!!lexc-kurssi
+# lexc-kurssi
 
 19.-20.6. 
 
-
-
-!!!Lingvistiikka
+# Lingvistiikka
 
 Vartaloita.
 
-!!!Seuraava kokous
+# Seuraava kokous
 
 Nähdään ensi viikolla, Tromssassa.
-
-

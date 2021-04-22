@@ -2,23 +2,23 @@ fkv-kokous 24.04.2020
 
 Paikalla: Aili, Thomas, Trond
 
-!!!Asialista
+# Asialista
 * Aili ja Thomaksen kysymykset
 * Kielitingan möötti
 * Priorisointi
 * Seuraava kokous
 
-!!! Kysymykset ja vastaukset
+#  Kysymykset ja vastaukset
 
 - Mie muistan ette häymä selvittäät kuinka lisätä sujutetut partisiipit lexc:heen
 (kielttäävän, lujettaavaksi jne)
-{{{
+```
 affixes/verbs.lexc
 Esee 
-}}}
+```
 
 - sitte se ette kuinka merkata viiva sannoin/nimmiin välissä
-{{{
+```
 %-
 LEXICON RHyph
  +Cmp/Hyph#:0#- NounRoot ;
@@ -30,13 +30,11 @@ Yli-Tornio
 Yli-Tornio	Ylinen+N+Prop+Cmp/Hyph#Tornio+N+Prop+Sg+Nom
 src/fst/stems/propernouns.lexc:Mallu-Pekkajärvi:Mallu-Pekkajärvi vanha_prop_x ;
 
-
 Mallu-Pekkajärvi
 Mallu-Pekkajärvi	Mallu-Pekkajärvi+N+Prop
 
-
 1920-luvulla
-}}}
+```
 
 - Lisäksi possisiivisuffiksit ei mene läpi (kultani, faarini) 
 
@@ -45,7 +43,6 @@ Mallu-Pekkajärvi	Mallu-Pekkajärvi+N+Prop
 (langs-hakemisto + giella-hakemistot siirtyvät githubiin) 
 
 - Kiinnostus puhelin-oikeinkirjoitusohjelmasta (?) 
-
 
 Piian toinen assii oli se ette mistä löyämä sanat mikkä saatama lisätä sanakirjhaan
 9:52
@@ -59,7 +56,7 @@ Lisäksi se jakkaa sanat ja nimet välilä ouosti: institutti-Kvensk
 9:59
 Systeemi ei ymmärä ette Kyrie eleison kuluthaan yhtheen
 
-{{{
+```
 head config.log
 ⇒ vastauksessa pitää olla
 ./configure --with-hfst --enable-tokenisers
@@ -102,26 +99,21 @@ Oikein (ne pitää lisätä src/fst/root.lexc-tiedostoon Multichar_Symbolsina:
 
 +Sg/Err/Orth ⇒ +Sg+Err/Orth
 
-
 FAIL: tag_test.sh
 xfst - FAIL
 XFAIL: generate-verb-lemmas.sh
 
-
 10:00
 Kyrie ja eleison oon vieläki missinglistissä, mutta erillään
-
-
 
 <e src="mj">   
 Kuka tahi mikä oon mj? 
 Vastaus:
  -Kattoa kaikki sanat ja sen perusteella päättäät
 
-
 -kattoot loggii
 -kyssyyt heiltä kekkä olthiin myötä, Pirjo, Mervi, Trond
-}}}
+```
 
 5207 ai
 4668 ta
@@ -150,15 +142,13 @@ ia irene ?
 es eira
 ki kvensk inst
 
-
 rk = ruijan kaiku
 
 fb = facebook
 
 aili
 
-
-{{{
+```
 2298 ta;ai
  397 yr
  332 mk
@@ -189,9 +179,9 @@ aili
    1 ta;ai;yr:ia
    1 ta;ai:mj
    1 ta;ai:ia
-}}}
+```
 
-!!! Priorisointi
+#  Priorisointi
 
 Sanakirja
 Lisää sanoja (fkv->nob + nob->fkv
@@ -201,7 +191,6 @@ Naamakirjan ja kielikahviloiden sanat
 Paulaharju
 Kainun instituutin tekstien sanat
 Norjan (eri tekstialueiden) taajuussanalistat
-
 
 Parempia (sana)artikkeleita
 Käyttöesimerkkejä
@@ -222,9 +211,10 @@ Erot kolmen(?)laisia
 	Sana löytyy vain murteesta a
 	Merktyksellä m on sana s1, s2, .. murteisa mu1, mu2, …
 	Samalla sanalla on eri merkitys / laajempi merkitys toisessa murteessa
+
 	
 
-{{{
+```
 LEXICON v1 !!= @CODE@ saađa:saa                                                 
 +V+Inf:%>đ^A K ; ! đ                                                            
 +V+Inf+Err/Orth:%>d^A K ; ! d                                                   
@@ -245,7 +235,7 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Pass+PrfPrc+Der/A+A:%>t^U x_21_odd ; ! ⇐=
 +V+Pass+PrfPrc+Pl+Nom:%>đ^U%>t K ; ! delete XXX ?                               
-!+V+Act+PrfPrc:n%>hee PRFPRC_OBL  ;                                             
+### +V+Act+PrfPrc:n%>hee PRFPRC_OBL  ;                                             
 +V+Act+PrfPrc:n%> PRFPRC_OBL  ;
 
 saa-nU
@@ -258,18 +248,15 @@ saan
 
 +V+Act+PrfPrc+Der/A:%>ne x_31_ee_oblique ;
 
-
 Löyttää vartalon
 (mitä halluuma)
 Astevaihtelu substantiiviitten kautta
 Oikkee taggi (?) 
 
-
 olleevan
 olleevan	olla+V+Act+PrsPrc+Der/A+A+Sg+Gen
-}}}
+```
 
-!!! Seuraava kokous
+#  Seuraava kokous
 
 Möötti kahen viikon päästä
-

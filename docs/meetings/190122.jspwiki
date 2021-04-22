@@ -1,47 +1,41 @@
-
 Projektikokous 22.1.19
 
 Paikalla Aili, Anna-Kaisa, Thomas, Trond
 
-
-!!!Asialista
+# Asialista
 
 * Työryhmän kokoonpano
 * Lingvistinen tilanne (rapportti)
 * Työsuunnitelma
 * Yhteistyö
 
-
-
-!!!Työryhmän kokoonpano
+# Työryhmän kokoonpano
 
 Anna-Kaisa: Mervi oon tulemassa takaisin työhön 1.2.19 ja koordinoi enämen sitte sen jälkheen, Anna-Kaisala oon kuitenkin vielä vastuu lingivistisestä sisälöstä ja prosjekti- hakemuksista.
 
 Aili ja Thomas oon 50 % toistaiseksi, ainakin ilmeisesti junikuuhun...
 
-
-
-!!!Lingvistinen tilanne (rapportti)
+# Lingvistinen tilanne (rapportti)
 
 make check
 
-{{{
+```
 head config.log    
 ./configure --with-hfst --enable-dialects --enable-reversed-intersect
-}}}
+```
 
-!!twolc
+## twolc
 
 2 twolc-virhettä
 
-{{{
+```
   REJECTED: "Gemination 0:k" fails in state 212.
   REJECTED: "Gemination 0:l" in nonfinal state 19.
-}}}
+```
 
-!!yaml-status
+## yaml-status
 
-{{{
+```
 dial_Por fst(s): PASSES: 21224 / FAILS: 316 / TOTAL: 21540
 dial_Var fst(s): PASSES: 5875 / FAILS: 23 / TOTAL: 5898
 dial_Jok fst(s): PASSES: 2866 / FAILS: 0 / TOTAL: 2866
@@ -49,9 +43,7 @@ dial_Jok fst(s): PASSES: 2866 / FAILS: 0 / TOTAL: 2866
 dial_Var fst(s): PASSES: 2949 / FAILS: 0 / TOTAL: 2949
 
 ./configure --with-hfst --enable-alignment --enable-dialects --enable-reversed-intersect --with-backend-format=foma 
-}}}
-
-
+```
 
 3 virhetyyppiä
 
@@ -64,10 +56,10 @@ dial_Var fst(s): PASSES: 2949 / FAILS: 0 / TOTAL: 2949
 * vartalossa (stems/*.lexc)
 * päätteissä (affixes/*.lexc
 * fonologiassa (fkv-phon.twolc)
-** lahtarin => Missing results: lahtari+N+Sg+Gen
-** lahtari+N+Sg+Gen => Unexpected results: lahđarin
+    - lahtarin => Missing results: lahtari+N+Sg+Gen
+    - lahtari+N+Sg+Gen => Unexpected results: lahđarin
 
-{{{
+```
  728/1099FAIL miljarti+N+Sg+Gen => Missing results: miljartin
  728/1099FAIL miljarti+N+Sg+Gen => Unexpected results: miljarin
 
@@ -78,9 +70,9 @@ grep laađinki src/morphology/stems/nouns.lexc
 laađinki:laađinki n_21_odd_i ;
 
 test/src/gt-norm-yamls/X-misc_gt-norm-dial_Por.yaml
-}}}
+```
 
-{{{
+```
 Sanakirja: 
 88 tuntematonta fkvnob:issa
 119 tuntematonta nobfkv:ssa
@@ -88,11 +80,11 @@ Sanakirja:
 cat main/words/dicts/fkvnob/bin/fkvnob-all.lexc |grep "#"|cut -d":" -f1|cut -d"_" -f1|ufkv|grep "?"|sort|uniq|wc -l
 
 cat main/words/dicts/nobfkv/bin/nobfkv-all.lexc |grep "#"|cut -d":" -f2|cut -d" " -f1 |cut -d"_" -f1|ufkv|grep "?"|sort|uniq|wc -l
-}}}
+```
 
 Kiusalliset infinitiivit:
 
-{{{
+```
 liuota+V+Inf        liuvota
 livota+V+Inf        lijota
 noveta+V+Inf        noketa
@@ -103,39 +95,37 @@ noveta:noke v43_odd ;
 
 puhjeta+V+Inf        puhjeta+V+Inf        +?
 silmästä+V+Inf        silmäistä
-}}}
+```
 
 Palaute sanakirjasta: "... kaipaa kovasti sitä, että sanakirjassa olisi kaikki kolme varieteettiä."
 
-!!Vartaloluokat
+## Vartaloluokat
 
-!jyrinä, käpälä
+### jyrinä, käpälä
 
 jyriniitä, jyrinöitä ??
 
-__Vastaus:__ -nä oma luokka
+**Vastaus:** -nä oma luokka
 
-!saipua, fierua
+### saipua, fierua
 
 Ongelma on illatiivin monikossa.
 
+# Työsuunnitelma
 
-!!!Työsuunnitelma
-
-!!Lingvistisia aiheita
-# Tarkistaa kaikki yamlin FAIL-tapaukset (yleensä yaml on oikeassa)
-## X-misc-tiedostossa (Por)
-## muissa Por-tiedostoissa, jos tarpeen
-# Por-analysaattorin helpot virheet (lexc)
-# Kaikki Por-virheet
-# Uudenlaiset testit
-# Sanakirjan 88 + 119 sanaa analysaattoriin
-# Muuntyyppistä testausta
+## Lingvistisia aiheita
+1. Tarkistaa kaikki yamlin FAIL-tapaukset (yleensä yaml on oikeassa)
+    1. X-misc-tiedostossa (Por)
+    1. muissa Por-tiedostoissa, jos tarpeen
+1. Por-analysaattorin helpot virheet (lexc)
+1. Kaikki Por-virheet
+1. Uudenlaiset testit
+1. Sanakirjan 88 + 119 sanaa analysaattoriin
+1. Muuntyyppistä testausta
 
 Muita aiheita:
 Parantaa korjausohjelman ehdotuksia
 Laajentaa analysaattoria
-
 
 hauta+N+Pl+Par        hautoi - pitäisi olla hauttoi
 
@@ -146,7 +136,7 @@ hauta+N+Pl+Par        hautoi - pitäisi olla hauttoi
 
 *?
 
-{{{
+```
 .#.|#: Cns:* :Vow :t (= yleisgeminaation konteksti)
      :Vow (l|n|r) :t (= erikoisgeminaation konteksti)
 
@@ -159,13 +149,13 @@ Ll    vesi#keli^WG>ss^A
 
    Tu kel0i^Por>i2   .#. k e l
    Tl kelli00i
-}}}
+```
 
 VISK2008 Yleisgeminaatio on nimitys monissa murteissa esiintyvälle ilmiölle, jossa yleiskielen painollisen lyhyen tavun jälkeistä yksinäiskonsonanttia vastaa geminaattakonsonantti, kun seuraavana on pitkä vokaali tai diftongi, esim. tullee, puttoo ‘putoaa’, pimmeisiin (» § 29). Vrt. erikoisgeminaatio.
 
 VISK2008 Erikoisgeminaatio on nimitys murteissa esiintyvälle konsonanttien kahdentumiselle eli geminaatiolle, joka eroaa yleisgeminaatiosta. Itämurteiden erikoisgeminaatiossa kahdentunut konsonantti esiintyy pitkän vokaaliaineksen edellä kaikissa painoasemissa, esim. rupesi kasvammaan, pitkkee ahoheinnee (Nurmes). Lounaismurteiden erikoisgeminaatio koskee konsonantteja p, t, k ja s jälkitavun alussa, kun edellä on soinnillinen äänne ja seuraava vokaaliaines on tai on ollut pitkä, esim. aikka piissa (’aikaa piisaa’), tyytyväissi oltti. (» § 29.)
 
-{{{
+```
 hauta^Por^AO>i2>n
 hauta^Por^AO>i2
 
@@ -175,29 +165,22 @@ flaku+N+Pl+Par        flakkui
 
 sanakirja:
 gen flakuin par flakkuii
-}}}
+```
 
-!!Teknisiä aiheita
+## Teknisiä aiheita
 
-!Kolme paradigmageneraattoria
-# Muualle? http://giellatekno.uit.no/cgi/p-fkv.sme.html
-# NDS:ään?
+### Kolme paradigmageneraattoria
+1. Muualle? http://giellatekno.uit.no/cgi/p-fkv.sme.html
+1. NDS:ään?
 Keskustelu Chiaran kanssa
 
-!Kolme korjausohjelmaa
+### Kolme korjausohjelmaa
 Keskustelu Sjurin kanssa
 
-!Tehdä uuden sukupolven korjausohjelma
+### Tehdä uuden sukupolven korjausohjelma
 Laittaa ehdotuksia sanaluokan mukaan
 Edellyttää syntaktista ohjelmaa
 
-
-
-!!!Yhteistyö
+# Yhteistyö
 
 Yhteistyö kielikeskusten kanssa: Priorisoidaan sitä.
-
-
-
-
-

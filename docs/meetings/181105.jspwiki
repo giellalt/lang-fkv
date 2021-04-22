@@ -2,30 +2,27 @@ fkv-kokous 5.11.2018
 
 Paikalla: Anna-Kaisa, Aili, Mari, Thomas, Trond
 
-!!!Asialista
+# Asialista
 
 * Status
 * Virhe-etsintä
 * Tulossa: Korp-päivitys
 * Yhteistyö Vesisaaren kielikeskuksen kanssa
 
-!!!Status
+# Status
 käynyt verbeja läpi, enimmäkseen preteriti
 
 Nyt menee paremmin
 
+# Virhe-etsintä
 
-
-!!!Virhe-etsintä
-
-{{{
-#  grep leikkiit src/morphology/stems/verbs.lexc
+```
+1.  grep leikkiit src/morphology/stems/verbs.lexc
 leikkiit:leikki v2 ;
 +V+Act+Ind+Prt:^WG^AO%>i3 v12pers_short ;
-}}}
+```
 
-
-{{{
+```
 lakkiit+V+Act+Ind+Prt+Sg1       lakiin
 leikkiit+V+Act+Ind+Prt+Sg1      leikiin    <== pahin (ei sanota miten pitää olla)
 palkkiit+V+Act+Ind+Prt+Sg1      palkiin
@@ -34,11 +31,11 @@ kuokkiit+V+Act+Ind+Prt+Sg1      kuokiin
 ...
 
 leikkiit+V+Act+Ind+Prt+Sg1      leikiin    # oik: leikin <=== parempi
-}}}
+```
 
 Vielå parempi: annetaan lexc:n molemmat jonot
 
-{{{
+```
 lexc:
 
 n_11_ae
@@ -50,7 +47,7 @@ b. leikki^WG^AO>i3>n
 twolc
 c. leikki^WG^AO>i3>n
 d. leikk000>i>n
-}}}
+```
 
 * a. = lemm + tagit
 * b = c = lexc:n alapuoli ja twolc:n yläpuoli
@@ -58,38 +55,38 @@ d. leikk000>i>n
 
 Paras: löydetään twolc-sääntö joka menee pieleen
 
-{{{
- i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:) (%^AO:)    %>  :i %> [ %^V: n | %^V: | t t e ] ; ! 1. ! ristien, kväänitten, papiiksi                     
-}}}
+```
+ i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:) (%^AO:)    %>  :i %> [ %^V: n | %^V: ]( t t e ) ; ! 1. ! ristien, kväänitten, papiiksi                     
+```
 
 [https://gtsvn.uit.no/langtech/trunk/langs/fkv/src/phonology/fkv-phon.twolc]
 
-{{{
+```
 "i:0"
-!! __@RULENAME@__                                                                                                                                                              
-! 1. "i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense"                                                                
-! 2. "Stem shortening for consonant initial suffixes"                                                                                                                          
-! 3. i:0 in vanha_n_21 -Por with I0 tag"                                                                                                                                       
-! 4. "Stem deletion in h-illative"                                                                                                                                             
-! 5. "Shortening of long vowel in front of i"                                                                                                                                  
- i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:) (%^AO:)    %>  :i %> [ %^V: n | %^V: | t t e ] ; ! 1. ! ristien, kväänitten, papiiksi                     
-                                     :Cns                  _ Dummy:*            %> [ i3: | i4: ] ; ! 1. ! leikin, tohtisin          
+##  **@RULENAME@**                                                                                                                                                              
+###  1. "i:0 in par and gen pl of i-stems in plural of i-final diphtong stems in past tense and conditional tense"                                                                
+###  2. "Stem shortening for consonant initial suffixes"                                                                                                                          
+###  3. i:0 in vanha_n_21 -Por with I0 tag"                                                                                                                                       
+###  4. "Stem deletion in h-illative"                                                                                                                                             
+###  5. "Shortening of long vowel in front of i"                                                                                                                                  
+ i:0 <=> [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:) (%^AO:)    %>  :i %> [ %^V: n | %^V: ]( t t e ) ; ! 1. ! ristien, kväänitten, papiiksi                     
+                                     :Cns                  _ Dummy:*            %> [ i3: ]( i4: ) ; ! 1. ! leikin, tohtisin          
                                      :k                      i:0  ^WG ^AO       >  i3:i                                         
-                                     :Cns [a|e|o|u|y|ö]    _                    %> [ i2:i | i ]    ; ! 1.   ! tuoresta0>i2ksi                                                  
-         [#:|.#.] Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:)            %> i2:i            ; ! 1. ! Note: This shall not work for Ci forms skaramelli                  
-                                                         i _ %^VDEL:0  (Dummy:) %> [s|t]           ; ! 2.                                                                      
+                                     :Cns [a|e|o|u|y|ö]    _                    %> [ i2:i ]( i )    ; ! 1.   ! tuoresta0>i2ksi                                                  
+         [#:](.#.) Cns:* Vow:+ Cns:* (:Cns)                 _ (%^WG:)            %> i2:i            ; ! 1. ! Note: This shall not work for Ci forms skaramelli                  
+                                                         i _ %^VDEL:0  (Dummy:) %> [s](t)           ; ! 2.                                                                      
                                                       Cns: _ (%^WG:0) %^AO:0    %> %^I0:0 i2:i %>  ; ! 3. ! TODO Add dialect tags here ! tooline in Var ja Jok. Not tooliine, \
 which is in Por                                                                                                                                                                
-                                               :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:i|i:]                    ; ! 4.                                                         
-                                               :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:i|i:]                    ; ! 4.                                                         
+                                               :SurfaceCns _ (%^E2I:) %^HMETA:  %> h [:i](i:)                    ; ! 4.                                                         
+                                               :SurfaceCns _ (%^AO:)  %^HMETA:  %> h [:i](i:)                    ; ! 4.                                                         
                                                :SurfaceCns _  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2:         ; ! 4.                                                         
                                                :i          _ (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! 4.                                                         
-                                                           _ e %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:]     ; ! 5.                                                         
-}}}
+                                                           _ e %> ([Dummy: - %^AE:]) [ i | i2: | i3: ]( i4:)     ; ! 5.                                                         
+```
 
 ==> vartalo-i pois ennen preteriti-i3
 
-{{{
+```
 jauhaat:jauha v2 ;
 ajjaat:aja v2 ;
 jakkaat:jaka v2 ;
@@ -99,39 +96,35 @@ alkkaat:alka v2 ;
 purkkaat:purka v2 ;
 jatkaat:jatka v2 ;
 ...
-}}}
+```
 
-
-!!Nominit
+## Nominit
 
 .......
 
 Tässä oon kaikki feilit, jokka olen löytäny:
 
-!Feilit, jokka oon jokhaisessa paradigmassa:
+### Feilit, jokka oon jokhaisessa paradigmassa:
 
 Pl partitiivisuffiksi puuttuu ryhmän jokhaisessa nominista, esimerkiksi saan "köhi", "päivi", "kelhi", "nälki". Se pittää olla "köhhii", "päivii", "kelhii" ja "nälkkii". 
 Ä ei muutu i:ksi pl illatiivissa, esimerkiksi "selkhäin", "jänkkhäin", 
 
-{{{
+```
 köhä:köhä n_11_ae ;
-}}}
+```
 
 Voi siis olla, että meidän erittäin voimakas i:0-sääntö toimii tässä, missä se ei saisi toimia, mutta ei leikkiit-tapauksessa
 
-
-{{{
+```
   +Pl+Dial/Por:%>i2             par_end         ;  
 N x_11_ae  köhä
-}}}
+```
 
-
-!Feilit usseissa paradigmoissa:
+### Feilit usseissa paradigmoissa:
 
 Geminasuuni puuttuu pl partitiivista, esimerkiksi "pyhi", ko pittää olla "pyhhii". Ainoa poikkeus oon kenttä-nomini, missä geminasuuni toimii. 
 
 Geminasuuni puuttuu pl genitiivista, esimerkiksi "ikiin", "köhiin", "selkiin". Se pittää olla "ikkiin", "köhhiin" ja "selkkiin". Jostain syystä pl genitiivin geminasuuni toimii näissä:  hirsikämppä, kämppä, penkkä, jänkkä, leppä, seppä, kärppä, ristirääppä, kenttä, hyttä. prättä, syöttä, levä, hietäjyvä, jyvä. 
-
 
 3. Graadivaihtelu 0:k ei toimi ollenkhaan seuraavissa: ikä, reikä, nälkä, selkä, yrkä, räkä,  
 
@@ -139,8 +132,7 @@ Sölkä-nominissa graadivaihtelu toimii vain singulaarissa.
 
 Kenkä-nomini oon ainoa esimerkki missä graadivaihtelu toimii niin singulaarissa ko pluraalissa. 
 
-!Feilit muutamissa nominiissa:
-
+### Feilit muutamissa nominiissa:
 
 Nominit, joissa viimi tavussa oon -t saapi jostain syystä -si pluraalissa, esimerkiksi syltä, häntä ja mäntä- nominit, esimerkiski "sylsilä", "hänsilä", "mänsilä" ko pittää olla "syllilä" ja "hännilä" ja "männilä". 
 
@@ -148,8 +140,6 @@ Essiivi ja komitatiivi geminoituu muutamiitten nominiitten paradimoissa, esimerk
 hyttäala+N+Pl+Ess hyttäalloina
 
 hyttäala+N+Pl+Com hyttäalloine
-
-
 
 Minun viiminen kommentti n_11_ae-ryhmästä: 
 
@@ -159,7 +149,7 @@ köhä
 
 Affixes-tiedosto:
 
-{{{
+```
 LEXICON x_11_ae
 +Pl+Dial/Por:%>i2 gen_in ; ! päiviin                                                                                
              x_11_rest ;
@@ -174,104 +164,99 @@ LEXICON x_11_rest
   +Sg+Dial/Por:^WG              sgpl_cases_even ;
 
   +Pl+Dial/Por:^WG              nom_t           ;
-! +Pl+Dial/Por:%>i2             gen_n           ;
+###  +Pl+Dial/Por:%>i2             gen_n           ;
   +Pl+Dial/Por:%>i2             par_end         ; ! <==
   +Pl+Dial/Por:%>i2             par_V           ; ! <==
   +Pl+Dial/Por:^HMETA           ill_hVin        ;
   +Pl+Dial/Por:%>i2             ess_nA          ;
   +Pl+Dial/Por:%>i2             com_ne          ;
   +Pl+Dial/Por:^WG%>i2          sgpl_cases_even ;
-}}}
+```
 
 Tänään:
 
-{{{
+```
 köhä>i2 
 köh0>i
-}}}
+```
 
 Halutaan ehkä miellummin:
 
-{{{
+```
 köh0ä>i2>^V 
 köh00>i>i
-}}}
+```
 
 par_end-ratkaisun tausta on luultavasti:
 
-{{{
+```
 leikki>i2
 leikki>i <== toimii, mutta ei lingvistisesti "oikein"
 
 leikk0>i2>i
 leikk0>i>i <== toimii, ja edustaa lingvistinen tapahtumasarja
-}}}
+```
 
 Viite: Leksikot:
 
-{{{
+```
 LEXICON par_end
  +Par: PxxK ;
 
 LEXICON par_V
  +Par         :%>^V PxxK ;
  +Par+Err/Orth:%>^A PxxK ;
+
  
+
  
 LEXICON PxxK  !!= @CODE@ has also -Vn, thus both .. llensa and ..lleen.                                             
      K  ;
+
      
 K = kaikki ko, han, pas, ...     
-}}}
+```
 
-
-!!!Tulossa: Korp-päivitys
+# Tulossa: Korp-päivitys
 
 Nämä sanat 10 kertaa tai enemmän korpuksessa, ilman analyysia:
 
 LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens                                                                                                   
 
-{{{
+```
 grep kiini src/morphology/stems/adverbs.lexc 
 kiini adv ;
 kiini+Err/Orth:kiinni adv ; ! <== ratkaisu
-}}}
+```
 
 Anna-Kaisa katselee tätä listaa:
 
 Anna-Leena saatto Kert alko pauvali Nilla miitä prees Jounin institutti-Kvensk Oulan Jouni maahaan mihiin av kiinni det veli ettei pl3 MIES man alkaa vaihettelluu Mooni antaa ruvan Oi nähhä muutammat fra y taivuthaan nu yks VANHAA på niinkun luonnon kokonhaansa kategoorii Facebook vanhaat taippuu er VAIMO saannu sa piuvali Piuvali iness >>pitää<< mitään Laathaan le Lalla den antakhoon än >>löytää<< ijänkaikkisesti Hansi đä auka at ten PREDVI näh kertaa kah vii velimatti Tornionlaaksosta thään NUUTTI Mooseksen menee Matseeni Luonnon kahðeksen jne vanhaasta pöl nä nhee men Leena kaukaa Juhanneksen i:n hä enää yeah tul tieten tartte RAGNHILD ol nelje minua löytyy käythöön kolma Kippaisen kategooriin b aa Yks vanhemmat tietää soon Soon pitke pantiin oi moottorivenheet Lampaita koothiin ENSIMÄINEN de >>vaatheet<< VIERAS TOINEN T skulle pyytää p ny nosti na Mooses lyhykäisvokaaliset li Kv JA ha elikkä ö va Taavetin ris piikaroi Muutammat kä kväänejä kuolee Joh ette-syntakti VIRTANEN VILLE TYTÄR tuoi tuhane tehhä tA sseen Silhvarin salt piiain piettiin pass ottavat muihiin meillä me lähtiä lain Keisin eller defineerauksena brensel AU --- Aamen vä vanhaan Ulkokenttäresursit tultiin taivhaasheen Ruvan Paavalin oikein maapruukia Muutamina Mihiin luonnosta for ää vuonna võron ttakhoon tta tiiä Tekemyksii teh tapattunu sin Sammeli RUKKOUS rakentaa olevan nauro märiköt Lillebo Lemmijovessa kuulee kunne ku Kristiina kielttäävän kantaa issoin ikke ijänkaikkisheen heen HANSEN hakemahaan etter eleison eivät aasin voisin Ville vi ut tähään tehnyt siheen siat Pyhitetty Porsangen pl1 pien noussu maapruukimaata maapruukhiin Kyrie Kristohvi kokoamhaan karhu Jäämeren hunteerasi Hestaniemen bioloogisen Attila annettiin Allapahta vuen verbaalinna tyttäre ty tieny tarttema Tapattukhoon sy si r akennettu r pl.nom PETTERIN oo olleevan neljekymmentä Muutamila muuassa mone MIKKO Lemmijoven kiussauksheen Karittan Jovensuuhuun hänelle heijän graadivaihettelluu Enimät armatta ajatel aikaan ymmärrä 
 viis täähään tää tulevat tua Tornionlaaksossa tehtiin tarvi rakentanu pi peekkasi paikkhoin paikhoin også nähjä Nye måtte maapruuki muistuu mithän meät Mennesker luonnossa käskettiin klossi kirjoittanu kategoorit johðata hVn hus Hmm hee du đa asukhaista äänethään VP vaphaat työhöön tuonnu tuohoon Treetin teät terveeksi telt tarttethiin Talmulahðen synttiin Snakkebobler smør sg2 sei sanovat sanotaan Raudna pölk paremmin panneet panee palaa Oula-faari oltiin olla-verbin Ođđa näkyy Nylund niillä Niiles niijen navethaan morsian morsiamen melkheen lämpimänä lä lokaalisessa loisti lihaa Leirpollissa leipää lávlagat lampaan laks käsittelemä kurattaa Kuosuvaaran kulkee ksi Kristohver kreikkalaiset kohðatela klo kjernemelk kiulu kihlat kahtheen juos itkelele haa heät Heikki faarini Freistaakkaa fjellet Eliisa eistys Det bunntorv ainoa ät ymmärrethiin yh Vrt vA tyystin tartti tapahtu tajusi Stiinan ssiin Siel sanger reijästä rakhaat päässy Presten osti ollee olivat näihiin N pl.nom nouti noussee nnu Neittyt muutamman museum minulle lu liikheele lauantai kväänin- kuninkas koota koonnu kirjaa ki kauas kategooriista Kalenterin kahđela ijänkaikkisesta ihmis häävymä hänet huonheesheen evankeeliumi etnisyys Amen är vaatheita Vuoreassa Võron varjelkhoon vaphaana täynnä tuulee tulleet tt tatt tarttee så seisoo ruvat Rekved reen rakkhaa rakkha Peetleheemhiin palvelija ot omissa olhaan nousee nord muualta miten Miks lähellä läh luonnu Liisäksi LIISAN leimaa leiman lapse Käännykkää käsityöntekijät kyyti kuollut ko-syntakti kl kirjanoppinheet keri kategooriistä kasuvet kainuulaiset KAIKKI järjestythään Juliette jokapäiväsen jajethaan inen ihan hävittäminen hin heijossa he halluisin halk eläimiä Dette
 
-
-
-!!yaml-tilanne
+## yaml-tilanne
 
 yaml SUMMARY for the gt-norm-dial_Por fst(s): PASSES: 10008 / FAILS: 2080 / TOTAL: 12088
 
 Mahdollinen pulma:
 
-{{{
+```
 LEXICON n_32_is !!= @CODE@ ruvis,uumis           
 +N+Dial/Por:^Por x_32_is ;
 +N+Dial/Var:^Var x_32_is ;
 +N+Dial/Jok:^Jok x_32_is ;
-}}}
+```
 
 Vanhoja vanha-nimisiä leksikkoja
 
-{{{
+```
 tf4-hsl-m0024:fkv trond$ cat src/morphology/*/nouns.lexc|tr '[!]' '£'|cut -d"£" -f1|grep 'vanha_'
 LEXICON vanha_n_21C 
 ranch:ranch vanha_n_21C ;
-}}}
+```
 
 Katsotaan tätä, mutta ei nyt.
 
-!!! Yhteistyö Vesisaaren kielikeskuksen kanssa
+#  Yhteistyö Vesisaaren kielikeskuksen kanssa
 
 Kielikeskus on positiivinen. Sanakirja, e-opetus?
-
-
-
-
-

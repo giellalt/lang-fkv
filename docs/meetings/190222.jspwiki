@@ -2,7 +2,7 @@ fkv-kokous 22.2.2019
 
 Läsnä: Trond, Thomas, Mervi, Mari, Anna-Kaisa ja Aili
 
-!!!Asialista: 
+# Asialista: 
 
 * Status
 * Analyssaattori
@@ -10,31 +10,28 @@ Läsnä: Trond, Thomas, Mervi, Mari, Anna-Kaisa ja Aili
 * Korpus
 * Seuraava möötti
 
-!!Status
-!Ihmiset
+## Status
+### Ihmiset
 * Mervi takaisin (Hienoa, tervetuloa!)
 * Anna-Kaisa mukana, mutta vain 3 puolipäivänä kuukaudessa
 * Aili 50% ja Thomas 50% projektissa
 * Mari yhtheistyöpartnerinna
 
-!Sanakirja
+### Sanakirja
 
 Lemmatilanne
 * fkvnob 9104
 * nobfkv 8599
 
+# Analysaattori
 
-
-!!!Analysaattori
-
-!!yaml
+## yaml
 * gt-norm-dial_Por fst(s): PASSES: 10694 / FAILS: 76 / TOTAL: 10770
 * gt-norm-dial_Por fst(s): PASSES: 1178 / FAILS: 37 / TOTAL: 1215
 
 Lainasanat: Geminaatio toimii, mutta AV ei.
 
-
-!!Kysymykset
+## Kysymykset
 
 Ailin ja Thomaksen kysymykset:
 
@@ -45,22 +42,21 @@ Ailin ja Thomaksen kysymykset:
 * Miten t:Nx toimii? "Gradation Nt:NN. Where Nx in ( l n r ). t:Nx vs t:0. (meneekö sekaisin pituusreekelin kans?)
 * Onko perinttöi vai perintöitä oikein? Yamlissa lukee perintöitä.
 
-{{{
+```
 15/25 FAIL perintö+N+Pl+Par => Missing results: perintöitä
 15/25 FAIL perintö+N+Pl+Par => Unexpected results: perinttöi
-}}}
+```
 
  Torko-nominin graadivaihtelu, oonko k:0 tahi k:v? 
+
  
 Jos on # seurtaavan säännön lopussa, niin essiivi ei geminoidu, mutta partitiivi ja genitiivi geminoi. Kysymys on miten ratkaista.
 
-{{{
-[.#.|#:] Cns:* Vow:+ [k|k2:] _ a: %^Por:0 [%> :a | %^AO: %> i2: (%> n) #]
-}}} 
-
+```
+[.#.|#:] Cns:* Vow:+ [k|k2:] _ a: %^Por:0 [%> :a ]( %^AO: %> i2: (%> n) #)
+``` 
 
 Toinen asia on, että meilylal stlä on k ja k2, jonka seurauksena myös lainasana-k:t geminoituvat. Loistavaa.
-
 
 Astevaihtelu, erityisesti k:0 vs. k:j vs. k:v
 
@@ -72,31 +68,27 @@ Asialista tulevalle twolc-kokoukselle:
 * twolc-testit ja risuaita
 * tietyt säännöt (ks. ylhäällä)
 
-
 Kaksi selkeä tavoitetta:
 * meidän pitää voida luottaa yamleihin (AK, Pirjo)
 * meidän pitää voida käyttää twolc-testejä (Aili, Thomas, Trond + Sjur)
-** Kokous ensi viikolla
+    - Kokous ensi viikolla
 
-!!!Sanakirja
+# Sanakirja
 
 * Tavoite: Saada 10000 fkvnob-lemma.
 * nobfkv: Tästä keskustellaan toukokuussa
 * fkvnob: Kainun institutin käänökset korpukseen ja korpuksen kautta puuttuvat sanat sanakirjaan
 
+# Korpus
 
-!!!Korpus
-
-Nyt 330000 sanaa [Korpissa|http://gtweb.uit.no/f_korp]
+Nyt 330000 sanaa [Korpissa](http://gtweb.uit.no/f_korp)
 * Tavoite: korpukseen KI:n käännökset vuosilta 2015, 2016, 2017, 2018
-** [Adding text to the corpus|https://giellalt.uit.no/ling/CorpusTools.html]
+    - [Adding text to the corpus](https://giellalt.uit.no/ling/CorpusTools.html)
 
-!!!Varangin kielikeskus
+# Varangin kielikeskus
 
 Ei ihan heti.
 
-!!!Seuraava yhtheinen möötti
+# Seuraava yhtheinen möötti
 
-__ 19.3. kl 8.30 __
-
-
+**19.3. kl 8.30**

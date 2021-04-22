@@ -2,14 +2,14 @@ fkv-kokous 06.10.2020
 
 Paikalla: Aili, Thomas, Trond
 
-!!!Asialista
+# Asialista
 
 * Kielitingan ja kääntäjien kokous
 * Rinnakkaiskorpus
 * nds
 * fst
 
-!!!Kielitingan kokous
+# Kielitingan kokous
 
 Aili otti esille lainasanojen (epä)johdonmukainen kirjoitusasu, ja periaatteita sen suhteen
 
@@ -20,45 +20,42 @@ fontteeni
 * Tähän asti: perintö -> perinttöi
 
 Huom!
-{{{
+```
 +Pl+Par:^WG%it^A # ;
 +Pl+Par+Err/Orth:%i # ;  ! Ei saa poistaa, vaan err/orthata
 
 +Pl+Par+Use/NG:%i # ; ! myös oikein
-}}}
+```
 
+1. Kirjoittaa kuten äännetään
+1. Kirjoittaa niin, että nähdään, onko lainasana vai ei
 
-# Kirjoittaa kuten äännetään
-# Kirjoittaa niin, että nähdään, onko lainasana vai ei
-
-!!!Kääntäjien kokous
+# Kääntäjien kokous
 
 Ne pitää lähettää Kainun instituuttiin (osoitteena vai
 
-
-!!!Rinnakkaiskorpus
+# Rinnakkaiskorpus
 
 Piian Børre saattaa auttaat? Pittäät uuen möötin Tromssassa. 
 
 Tehtävänä:
 
-{{{
+```
 * Trond puhuu Börren kanssa + katso korpusta
 * Järjestetään opetus jossakin, jollain tavalla
 * Aili ja Thomas lukevat dokumentaatiota ennen opetusta ([https://giellalt.uit.no/ling/corpusindex.html], erityisesti [https://giellalt.uit.no/ling/CorpusTools.html])
 * Institutti järjestää dropboksin tai s-osoitteen, johon kääntäjät voivat lähettää tiedostoja
-}}}
+```
 
-
-!!!nds
+# nds
 
 Voiko nähhä lähtheet?
 Vastaus on "kyllä".
 
-{{{
-# lähde on xml-tiedostossa (mutta kaipaa hioamista
-# kuinka pittäät näyttäät lähet mailmale (ta = ?, ...)
-# miten näyttää se (esim oikella: "Lähde" -- ja lähde on klikkauksen takana)
+```
+1. lähde on xml-tiedostossa (mutta kaipaa hioamista
+1. kuinka pittäät näyttäät lähet mailmale (ta = ?, ...)
+1. miten näyttää se (esim oikella: "Lähde" -- ja lähde on klikkauksen takana)
 
 tf4-hsl-m0024:dicts trond$ cat fkvnob/src/*.xml|grep '<e'|wc -l
     9585
@@ -88,32 +85,31 @@ cat fkvnob/src/*.xml|grep '<e'|cut -d'"' -f2|tr ';' '\n'|sort|uniq -c|sort -nr
    1 pp =Pirjo Paavalniemi 
    1 fb = Facebook
    1 anb: Alf Nilsen Børsskog 
-}}}
+```
 
 Deskriptiivinen ja normatiivinen sanakirjan erotus 
 
 Yksi maholisuus oon ette nobfkv oon normatiivinen, ja fkvnob deskriptiivinen
 
-# Sanat lentohamina ja flyikenttä. Oon merkitysero ammattilaisile. Terminologiatyö
-# Vinkki esimerkilausheista: jos Turidila ei ole niin piian ei tarvitte
-# Ko sanakirjassa oon monta vaihtoehtoo: 
+1. Sanat lentohamina ja flyikenttä. Oon merkitysero ammattilaisile. Terminologiatyö
+1. Vinkki esimerkilausheista: jos Turidila ei ole niin piian ei tarvitte
+1. Ko sanakirjassa oon monta vaihtoehtoo: 
 
-{{{
+```
 pii     pigg
 pii     tind
 pii     tann
 pii     tagg
 pii     flint
 pii     rivetind
-}}}
+```
 
-# Oonko haitalista ette siinä lukkee "tann"? Saattaako joku luula ette saattaa sannoot: hammaspii, tahi "sattuu piissä"? 
-# Tarvithaan "re" tahi selitys:
+1. Oonko haitalista ette siinä lukkee "tann"? Saattaako joku luula ette saattaa sannoot: hammaspii, tahi "sattuu piissä"? 
+1. Tarvithaan "re" tahi selitys:
 
-{{{
+```
          <tg xml:lang="nob">
 <re>på rive eller sagblad</re>
-
 
 <stem>piđoi</stem>
          <stem>pitto</stem>
@@ -123,12 +119,12 @@ pii     rivetind
             <t pos="N">nattverd</t>
             <t pos="N">feiring</t>
             <t pos="N">gjestebud</t>
-}}}
+```
 
-# Tarkistaa merkitykset ja muuta järjestyksen sen jälkhiin 
-# sanat pittää olla samala tarkkuuela: 
+1. Tarkistaa merkitykset ja muuta järjestyksen sen jälkhiin 
+1. sanat pittää olla samala tarkkuuela: 
 
-{{{
+```
          <l pos="N">plaana</l>
       </lg>
       <mg>
@@ -137,11 +133,11 @@ pii     rivetind
             <t pos="N">område</t>
             <t pos="N">eng</t>
             <t pos="N">åpen plass</t>    
-}}}
+```
 
 Tarkista mitä sana tarkoittaa norjaksi: 
 
-{{{
+```
    <e src="ai">
       <lg>
          <l pos="N">pikaflyyi</l>
@@ -152,16 +148,12 @@ Tarkista mitä sana tarkoittaa norjaksi:
          </tg>
       </mg>
    </e>
-}}}
+```
 
-
-
-
-!!!fst
+# fst
 
 Joskus toiste.
 
-!!!Ensi kokous: 
+# Ensi kokous: 
 
-__13.10 kl0 13 zoomissa__
-
+**13.10 kl0 13 zoomissa**

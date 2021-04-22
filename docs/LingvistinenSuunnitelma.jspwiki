@@ -1,31 +1,25 @@
-
-
-!!! Morfofonologia 
-* Tehdä [lista prosesseista|Morfofonologia.html]
+#  Morfofonologia 
+* Tehdä [lista prosesseista](Morfofonologia.html)
 * Valmistaa twol-säännöt
 
-!!!Morfologia
+# Morfologia
 
-!!Sanakirja
+## Sanakirja
 
 * Adjektiivit pitää lisätä
 * Olemme siirtäneet ubstantiivit ja verbit stems-hakemistoon, lajittelu puuttu
 * Pronominit on vielä tekemättä
 * Muut sanaluokat on kaikki siirretty sanakirjasta stems-hakemistoon
 
+## Tehtäviä
 
+# Testaaminen 
 
-!!Tehtäviä
-
-
-!!!Testaaminen 
-
-!!yaml
+## yaml
 
 Tässä testitiedostot:
 
 Katso, puuttuuko tyyppeja.
-
 
 * A-muuttumaton_gt-norm.yaml
 * A-onneton_gt-norm.yaml
@@ -121,19 +115,12 @@ Katso, puuttuuko tyyppeja.
 * V-tuoda_gt-norm.yaml
 * V-vanheta_gt-norm.yaml
 
-
-!!Testikorpus
+## Testikorpus
 
 * Pieni korpus: biggies/langs/fkv/corp
 * Isompi korpus: freecorpus/orig/fkv/ (tulossa)
 * Ruijan Kaiku, rinnakkaiskorpus: freecorpus/manual_compilation/rk_fkvnob/
 
-{{{
+```
 cat manual_compilation/rk_fkvnob/ruijan_kaiku_article_201*|grep '<f>'|tr '<' '>' | cut -d">" -f3|wc -w
-}}}
-
-
-
-
-
-
+```

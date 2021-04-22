@@ -1,9 +1,8 @@
-
 fkv-kokous 17.12.2019
 
 Paikalla: Aili, Thomas, Trond
 
-!!!Asialista
+# Asialista
 
 * Syksyn seminaari Tromssan museossa
 * Priorisointi: Analysaattori, sanakirja, ...
@@ -11,25 +10,24 @@ Paikalla: Aili, Thomas, Trond
 * Korpustyö
 * Seuraava kokous
 
-
-!!! Syksyn seminaari Tromssan museossa
+#  Syksyn seminaari Tromssan museossa
 
 Hyvin meni. Hyvä että painostettiin se, kuinka tärkeä on tehdä kielen revitalisaatiota nyt kun meillä on vielä vanhimmat kväänin kielen puhujat elossa.
 
-!!! Priorisointi: Analysaattori, sanakirja, ...
+#  Priorisointi: Analysaattori, sanakirja, ...
 
 Työtehtävät: sanakirja, korpus, por-analysaattori, muut analysaattorit
 
 Esim. niin:
 
-# sanakirja (+ uudet sanat analysaattoriin)
-## lisätä nob-sanoja
-## lisätä fkv-sanoja
-## parantaa keskeisten nob-sanojen artikkeleitä (esim. på, i, ville, like, ...)
-# korpus
-## kerätä tekstejä
-## rinnastaa tekstejä
-# por-analysaattori
+1. sanakirja (+ uudet sanat analysaattoriin)
+    1. lisätä nob-sanoja
+    1. lisätä fkv-sanoja
+    1. parantaa keskeisten nob-sanojen artikkeleitä (esim. på, i, ville, like, ...)
+1. korpus
+    1. kerätä tekstejä
+    1. rinnastaa tekstejä
+1. por-analysaattori
 
 Kenen tarpeiden mukaan mennään? Ketkä käyttävät ressursseja?
 
@@ -39,20 +37,20 @@ OmegaT-ohjelman käyttö:
 
 [https://omegat.org] ja painaa "Get started". Näin voidaan tehdä fkv:lle.
 
-Jos sanakirjatyö tarkoittaa {{ "lisätä nob -> fkv-termipareja" }}
-niin järkevää olisi __aloittaa korpus-työllä__.
+Jos sanakirjatyö tarkoittaa ` "lisätä nob -> fkv-termipareja" `
+niin järkevää olisi **aloittaa korpus-työllä**.
 
-{{{
+```
 Käännösmuisteista: rinnakkaistekstit OmegaT (.tmx):
-}}}
+```
 
 [https://giellalt.uit.no/tm/TranslationMemory.html]
 
-!!! Käytännön kysymykset
+#  Käytännön kysymykset
 
-!! että ja mutta
+##  että ja mutta
 
-{{{
+```
 etten, ettet
 mutta, muttei 
 Tuomas:fkv thomas$ ufkv
@@ -62,7 +60,7 @@ ette	ette+CS
 closed.lexc:
 
 LEXICON Subjunction
-!! @LEXNAME@ -leksikossa on tärkeimmät sanat (koska, että, jos, ..)
+##  @LEXNAME@ -leksikossa on tärkeimmät sanat (koska, että, jos, ..)
 
 koska subj ;
 ette+Dial/Jok:että subj ;
@@ -71,7 +69,7 @@ ette+Dial/Por:ette subj ;
 siksi subj ;
 
 LEXICON Conjunction
-!! @LEXNAME@ -leksikossa on vain pari sanaa. joko - tai
+##  @LEXNAME@ -leksikossa on vain pari sanaa. joko - tai
 mutta cctag ;
 mut cctag ;
 
@@ -96,16 +94,16 @@ LEXICON CSpers ! uus
  +Pl2:%>tt^A K ;
  +Pl3:%>i K ;
 
-! kuten nyt:
+###  kuten nyt:
 LEXICON cctag 
  +CC: # ;
 LEXICON subj
  +CS: # ;
-}}}
+```
 
 Toinen mahdollisuus olisi:
 
-{{{
+```
 ette+CS+Sg1:etten K ;
 ette+CS+Sg2:ettet K ;
 ette+CS+Sg3:ettei K ;
@@ -119,11 +117,12 @@ mutte+CC+Sg3:muttei K ;
 mutte+CC+Pl1:muttema K ;
 mutte+CC+Pl2:muttett^A K ;
 mutte+CC+Pl3:muttei K ;
-}}}
+```
+
  
 Suomen analysaattori:
 
-{{{
+```
 että	ette+CS
 
 etten	ettei+CS+Neg+Act+Sg1
@@ -134,39 +133,34 @@ ettet	ettet+Pcle+CS
 
 etteivät	ettei+CS+Neg+Act+Pl3
 etteivät	etteivät+Pcle+CS
-}}}
+```
 
-
-!!!Korpustyö
+# Korpustyö
 
 Selitys tässä
 
 [https://giellalt.uit.no/ling/corpus_conversion.html]
 
+## Työsuunnitelma:
 
-!!Työsuunnitelma:
+1. Järjestää **kaikki** rinnakkaistekstit
+1. Lisätä ne freecorpus-kansioon ja tehdä metadatoja
+1. rinnastaa ne
+1. Sen jälkeen päivitetään Korp-ia.
 
-# Järjestää __kaikki__ rinnakkaistekstit
-# Lisätä ne freecorpus-kansioon ja tehdä metadatoja
-# rinnastaa ne
-# Sen jälkeen päivitetään Korp-ia.
+## Miten lisätä tekstit
 
-
-!!Miten lisätä tekstit
-
-# lisäys:
-## laitaa alkuperäinen fkv {{ freecorups/orig/fkv (esim fkvfiili.doc) }}
-## laitaa alkuperäinen nob {{ freecorups/orig/nob (esim nobfiili.doc) }}
-# Kummassakin ajaa kommenot {{ convert2xml }}
-# editoida {{ fkvfiili.doc.xsl }} ja {{ nob.fiili.doc.xsl }}
-# ajaa {{ convert2xml }} uudestaan
+1. lisäys:
+    1. laitaa alkuperäinen fkv ` freecorups/orig/fkv (esim fkvfiili.doc) `
+    1. laitaa alkuperäinen nob ` freecorups/orig/nob (esim nobfiili.doc) `
+1. Kummassakin ajaa kommenot ` convert2xml `
+1. editoida ` fkvfiili.doc.xsl ` ja ` nob.fiili.doc.xsl `
+1. ajaa ` convert2xml ` uudestaan
 
 Tulos näkyy sen jälkeen tässä:
 
 [http://gtweb.uit.no/f_korp/?mode=parallel#parallel_corpora=fkv]
 
-!!!Seuraava kokous
+# Seuraava kokous
 
 Joulun jälkeen.
-
-

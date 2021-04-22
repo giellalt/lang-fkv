@@ -1,13 +1,14 @@
-!!!Kokous
+# Kokous
 
 * Aika: 1.4. klo 13
 * Paikka: internet
 * Välineet: Skype ja Collabedit
 
-!!!Paikalla
+# Paikalla
 *  Anna-Kaisa, Eira, Leena, Pirjo, Trond, Mervi ja Kaisa.
+
  
-!!!Agenda
+# Agenda
 * Tilannepäivitykset
 **Oahpa
 **Sanakirjat
@@ -18,30 +19,28 @@
 **Fst
 * Muut asiat
 
-
-!!!Tilannepäivitykset
-!!Oahpa
+# Tilannepäivitykset
+## Oahpa
 
 Neljä ohjelmaa netissä:
 
 * url: [http://testing.oahpa.no/fkv_oahpa/]
-* Lähdetiedostot: ''main/ped/fkv/''
+* Lähdetiedostot: *main/ped/fkv/*
 * Dokumentaatio: [http://giellatekno.uit.no/ped/fkv-oahpa.html]
 
-!!Sanakirjat
+## Sanakirjat
 
-__Anna-Kaisa__ on katsonut sanakirjaperiaatteita, Excel:
+**Anna-Kaisa** on katsonut sanakirjaperiaatteita, Excel:
 Lista puuttuvista sanoista (Dagens kvenske ord), nämä
 sanat ovat nyt Excelissä.
 
 Hilde: Kielitingalla on kokous 5. tai 6. toukokuuta Pyssyjovessa. Ehdotus: A-K 
 keskustelee heidän kanssaan sanakirjasta.
 
-
 Priorisointi
 
-# Dagens kvenske ord
-# ...
+1. Dagens kvenske ord
+1. ...
 
 Sanakirjat:
 
@@ -52,11 +51,10 @@ Eira: ai on aika epämääräinen seurakunta.
 Sanakirjassa on epätasaisuuksia.
 Sanakirjaan pitää suhtautua kriittisesti.
 
-
-!!Fst
+## Fst
 Finite-state-transducer = äärellinen tila-automaatti
 
-!yaml
+### yaml
 
 yaml-testit, 93 testiä. (oikea luku = puolet tästä):
 
@@ -65,13 +63,13 @@ yaml-testit, 93 testiä. (oikea luku = puolet tästä):
 
 Verbit: Kaikki menevät läpi, paitsi liuota, laueta.
 
-!Sanakirja fst:ssa
+### Sanakirja fst:ssa
 
 71% sanakirjan lemmoista löytyy fst:stä: Ei: 2139, Joo: 7572
 
-!Adjektiivit
+### Adjektiivit
 
-{{{
+```
 LEXICON a_23    !!= * @CODE@  pimmee                                                                                              
 +A+Sg+Nom:e K ;
 +A+Sg:e a_sgpl-cases-short ;
@@ -99,11 +97,11 @@ LEXICON n_23    !!= * @CODE@  valkkee
 +N+Pl:e%>i2 sgpl-cases-short ;
 +N+Pl+Ess:e%>i2n%^A PxxK ;
 +N+Pl+Com:e%>i2ne K ;
-}}}
+```
 
 Mielummin näin:
 
-{{{
+```
 adjectives.lexc
 ---------------
 LEXICON a_23   
@@ -128,37 +126,33 @@ LEXICON x_23    !!= * @CODE@  valkkee
 +Pl:e%>i2 sgpl-cases-short ;
 +Pl+Ess:e%>i2n%^A PxxK ;
 +Pl+Com:e%>i2ne K ;
-}}}
+```
 
-!Possessiivisuffiksit
+### Possessiivisuffiksit
 
 Eira: Ota pois possessiivisuffiksit. Tehdään se.
 
+# Työtehtävät
 
-!!!Työtehtävät
-
-!!Oahpa
+## Oahpa
 UiT.
 
-!!Sanakirjat
+## Sanakirjat
 
-# Korjaus
-# kääntäminen fkvnob -> nobfkv
-# nobfkv
+1. Korjaus
+1. kääntäminen fkvnob -> nobfkv
+1. nobfkv
 
 sanakirjaa jatketaan 
 Anna-Kaisa jatkaa pääsiäisviikolla, valmiina pääsiäisen jälkeen.
 
-!!Fst
+## Fst
 Pääsiäisen jälkeen jatketaan, katsotaan ongelmakimppuja.
 
-
-
-!!!Muut asiat
+# Muut asiat
 
 Ei ollut.
 
-!!!Ensi kokous
+# Ensi kokous
 
-Seuraava kokous pidetään __24.4. klo 13.00__
-
+Seuraava kokous pidetään **24.4. klo 13.00**

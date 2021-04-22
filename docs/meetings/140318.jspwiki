@@ -1,18 +1,17 @@
-!!!Kokous 18032014
+# Kokous 18032014
 
 *Aika: klo 13
 *Paikka: internet
 *Välineet: iChat ja Collabedit
 *Osallistujat: Anna-Kaisa, Kaisa, Leena, Pirjo, Trond ja Mervi
 
-!!!Agenda
+# Agenda
 *Sanakirja
 *fst
 *Tuleva Oahpa
 *Muut asiat
 
-
-!!!Sanakirja
+# Sanakirja
 
 ai + ta yhdistetty + julkaistu nds:nä ja webdict:nä
 http://gtweb.uit.no/webdict/index_fkv-nob.html
@@ -22,7 +21,6 @@ nobfkv ei ole uudistettu
 
 * [/dicts/dicts.html]
 * [/dicts/checklist.html]
-
 
 fkvnob: l, t. 
 nobfkv: t -> l
@@ -35,17 +33,15 @@ Olisiko pitänyt tehdä esimerkki käännökseen? (<x>)
 
 StarDict ja MacDict:
 
-{{{
+```
 tuli
 
 subst.
 Stamme: tule-; tul-; <====
 ild, glød
-}}}
+```
 
 Sisäinen lähdekoodi:
-
-
 
 Vartalo:
 
@@ -55,33 +51,30 @@ Vartalo:
 * Oahpan vartalo = vartaloluokka: vok v (hätä), kons v (kieli, nainen), käänteinen v (peret)
 * Oahpan selitysluokat = ehkä sama kuin fst:n vartaloluokka ("muista nen ~ se")
 
-
-
-!!Työtehtäviä
+## Työtehtäviä
 
 * fkvnobin siivoaminen
-** ... (html)
+    - ... (html)
 * sanojen lisääminen
-** Dagens ord
-** Ruijan Kaiku
+    - Dagens ord
+    - Ruijan Kaiku
 * kääntää nobfkv
-** itse kääntäminen
-** editointi sen jälkeen
+    - itse kääntäminen
+    - editointi sen jälkeen
 * uusia nob-sanoja
-** nob-taajuuslista...
+    - nob-taajuuslista...
 
-Tekijöitä: ''Anna-Kaisa, Mervi, Pirjo, Tove, Trond''.
+Tekijöitä: *Anna-Kaisa, Mervi, Pirjo, Tove, Trond*.
 
-
-!!!fst
+# fst
 
 Äärellinen tilaautomaatti.
 
-!!twolc
+## twolc
 
 Parantaa sääntöjä: Kaisa, Leena, Trond
 
-!!adjektiivit
+## adjektiivit
 
 Lisätä
 
@@ -96,31 +89,29 @@ komparaatio
 affixes/nouns.lexc: erottaa (1) +N  ja sitten (2) +Sg jne.
 niin, että adjektiivit menevät suoraan (2):een
 
-!!Partisiipit
+## Partisiipit
 * vartalo on stems/verbs.lexc -> affixes/verbs.lexc
 * partisiippi: linkki -> affixes/adjectives.lexc -> nouns.lexc
 
 Voidaan katsoa: fao/src/morphology/affixes/verbs.lexc
 
-!!yaml-testit
+## yaml-testit
 
 * Oikoluku (Pirjo)
 * Uusien testien tekeminen (Leena, Kaisa)
 
-!!Missing
+## Missing
 
 * Teksteistä puuttuvat sanat 
-** (RK, KI, Ruija-korpus, yr.no)
+    - (RK, KI, Ruija-korpus, yr.no)
 
-
-!!Muut reiät
+## Muut reiät
 
 Suljetut sanaluokat (Mervi, Trond)
 
+# Tuleva Oahpa
 
-!!!Tuleva Oahpa
-
-!! Itse oahpa
+##  Itse oahpa
 Oahpa on online ensi viikon tiistaina, ehkä tässä
 
 [http://oahpa.no/fkvoahpa/]
@@ -129,23 +120,22 @@ Dokumentaatio on tässä:
 
 [http://giellatekno.uit.no/ped/fkv-oahpa.html]
 
-!! Lukusanat
+##  Lukusanat
 
 [https://gtsvn.uit.no/langtech/trunk/langs/fkv/src/transcriptions/]
 
 * Etsi-korvaa: Leena.
 * Tekniset seikat: Sjur, Trond.
 
+# Muut asiat
 
-!!!Muut asiat
-
-!!Oahpa-kurssi
+## Oahpa-kurssi
 
 Katsotaan.
 
-!!Tekstit
+## Tekstit
 
-!Ruijan Kaiku
+### Ruijan Kaiku
 
 [/lang/fkv/corpus/RuijanKaikuYliot.html]
 
@@ -161,20 +151,17 @@ Saadan esim:
 
 Muut RK-tekstit.
 
-!KI-tekstit
+### KI-tekstit
 
 * Sekä t- että p-tekstejä.
 * Sekä isoja että mahdollisesti pieniäkin
 
 Pirjo + Anna-Kaisa katsovat.
 
-
-!!Inari
+## Inari
 
 Ei mitään uutta.
 
-!!!Seuraava kokous
+# Seuraava kokous
 
 * Seuraava kokous 1.4. klo 13 (jos sopii).
-
-
