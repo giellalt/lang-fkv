@@ -22,5 +22,41 @@ Katsaus:
 * v4_oitte haravoita
 * kontraktiverbit jatkata:jatka v43_odd ;
 
+# Lexicon VerbRoot 
+
+v_v2
+Now v3_ise all end on s. In order to have aukasevat, as an possible
+Unexpected results: aukasseeva, aukaisseevat
+Missing results: aukasevat, Unexpected results: aukasseevat
+
+ * olla: OLLA ; 
+ * ei+V+Neg: neg ; 
+ * saađa:saa v1 ; 
+ * vieđä:vie v1 ; 
+ * naiđa:nai v1iđa ; 
+ * voiđa:voi v1iđa ; 
+ * uiđa:ui v1iđa ; 
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 huokata:huokka v43_odd ;
 puheta:puhke v43_odd ;
+
+
+
+
+
+

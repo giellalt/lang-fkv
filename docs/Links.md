@@ -1,20 +1,18 @@
-Here's a list of links to the page for each file of source code. All pages are concatenated and can be found as [fkv.html].
-
-*[root-morphology.html]
-*[abbreviations-stems.html]
-*[adjectives-affixes.html]
-*[adjectives-stems.html]
-*[adverbs-stems.html]
-*[closed-stems.html]
-*[nouns-affixes.html]
-*[nouns-stems.html]
-*[postpositions-stems.html]
-*[prepositions-stems.html]
-*[pronouns-affixes.html]
-*[pronouns-stems.html]
-*[propernouns-stems.html]
-*[punctuation-stems.html]
-*[verbs-affixes.html]
-*[verbs-stems.html]
-*[fkv-phon-phonology.html]
-*[disambiguator-syntax.html]
+* [root-morphology.md](root-morphology.md)
+* [abbreviations-stems.md](abbreviations-stems.md)
+* [adjectives-affixes.md](adjectives-affixes.md)
+* [adjectives-stems.md](adjectives-stems.md)
+* [adverbs-stems.md](adverbs-stems.md)
+* [closed-stems.md](closed-stems.md)
+* [nouns-affixes.md](nouns-affixes.md)
+* [nouns-stems.md](nouns-stems.md)
+* [postpositions-stems.md](postpositions-stems.md)
+* [prepositions-stems.md](prepositions-stems.md)
+* [pronouns-affixes.md](pronouns-affixes.md)
+* [pronouns-stems.md](pronouns-stems.md)
+* [propernouns-stems.md](propernouns-stems.md)
+* [punctuation-stems.md](punctuation-stems.md)
+* [verbs-affixes.md](verbs-affixes.md)
+* [verbs-stems.md](verbs-stems.md)
+* [phonology-morphology.md](phonology-morphology.md)
+* [disambiguator-syntax.md](disambiguator-syntax.md)
