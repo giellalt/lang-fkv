@@ -198,41 +198,41 @@ Multichar_Symbols
 +Sem/Org  !!≈ * **@CODE@** = Names of organisations
 +Sem/Plc  !!≈ * **@CODE@** = Place names
 +Sem/Sur  !!≈ * **@CODE@** = Surnames
-+Sem/ID  !!≈ * **@CODE@** = ID
-+Sem/Build             !!≈ * **@CODE@** = 
-+Sem/Build-room          !!≈ * **@CODE@** = 
-+Sem/Cat             !!≈ * **@CODE@** = 
++Sem/ID   !!≈ * **@CODE@** = ID
++Sem/Build            !!≈ * **@CODE@** = 
++Sem/Build-room       !!≈ * **@CODE@** = 
++Sem/Cat              !!≈ * **@CODE@** = 
 +Sem/Curr             !!≈ * **@CODE@** = 
 +Sem/Date             !!≈ * **@CODE@** = 
-+Sem/Domain             !!≈ * **@CODE@** = 
-+Sem/Domain_Hum          !!≈ * **@CODE@** = 
-+Sem/Dummytag          !!≈ * **@CODE@** = 
++Sem/Domain           !!≈ * **@CODE@** = 
++Sem/Domain_Hum       !!≈ * **@CODE@** = 
++Sem/Dummytag         !!≈ * **@CODE@** = 
 +Sem/Edu_Hum          !!≈ * **@CODE@** = 
-+Sem/Event             !!≈ * **@CODE@** = 
-+Sem/Food-med          !!≈ * **@CODE@** = 
-+Sem/Group_Hum          !!≈ * **@CODE@** = 
-+Sem/Hum             !!≈ * **@CODE@** = 
++Sem/Event            !!≈ * **@CODE@** = 
++Sem/Food-med         !!≈ * **@CODE@** = 
++Sem/Group_Hum        !!≈ * **@CODE@** = 
++Sem/Hum              !!≈ * **@CODE@** = 
 +Sem/Lang             !!≈ * **@CODE@** = 
-+Sem/Mat             !!≈ * **@CODE@** = 
-+Sem/Measr             !!≈ * **@CODE@** = 
-+Sem/Money             !!≈ * **@CODE@** = 
-+Sem/Obj-el             !!≈ * **@CODE@** = 
-+Sem/Obj-ling          !!≈ * **@CODE@** = 
-+Sem/Org_Prod-audio    !!≈ * **@CODE@** = 
-+Sem/Org_Prod-vis      !!≈ * **@CODE@** = 
++Sem/Mat              !!≈ * **@CODE@** = 
++Sem/Measr            !!≈ * **@CODE@** = 
++Sem/Money            !!≈ * **@CODE@** = 
++Sem/Obj-el           !!≈ * **@CODE@** = 
++Sem/Obj-ling         !!≈ * **@CODE@** = 
++Sem/Org_Prod-audio   !!≈ * **@CODE@** = 
++Sem/Org_Prod-vis     !!≈ * **@CODE@** = 
 +Sem/Part             !!≈ * **@CODE@** = 
-+Sem/Prod-vis          !!≈ * **@CODE@** = 
-+Sem/Route             !!≈ * **@CODE@** = 
++Sem/Prod-vis         !!≈ * **@CODE@** = 
++Sem/Route            !!≈ * **@CODE@** = 
 +Sem/Rule             !!≈ * **@CODE@** = 
 +Sem/Sign             !!≈ * **@CODE@** = 
-+Sem/State             !!≈ * **@CODE@** = 
-+Sem/State-sick          !!≈ * **@CODE@** = 
++Sem/State            !!≈ * **@CODE@** = 
++Sem/State-sick       !!≈ * **@CODE@** = 
 +Sem/Substnc          !!≈ * **@CODE@** = 
 +Sem/Time             !!≈ * **@CODE@** = 
-+Sem/Time-clock          !!≈ * **@CODE@** = 
++Sem/Time-clock       !!≈ * **@CODE@** = 
 +Sem/Tool-it          !!≈ * **@CODE@** = 
-+Sem/Txt             !!≈ * **@CODE@** = 
-+Sem/Veh             !!≈ * **@CODE@** = 
++Sem/Txt              !!≈ * **@CODE@** = 
++Sem/Veh              !!≈ * **@CODE@** = 
 +Sem/Year             !!≈ * **@CODE@** = 
 
 
@@ -307,20 +307,21 @@ i7     !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
 
-!! |                        Flag | Explanation
-!! |                        ---- | ----
+!! | Flag | Explanation
+!! | --- | --- 
  @P.NeedNoun.ON@    !!≈ |  **@CODE@** | (Dis)allow compounds with verbs unless nominalised
  @D.NeedNoun.ON@    !!≈ |  **@CODE@** | (Dis)allow compounds with verbs unless nominalised
  @C.NeedNoun@       !!≈ |  **@CODE@** | (Dis)allow compounds with verbs unless nominalised
 
-!!
+
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
 
-!! |                        Flag | Explanation
-!! |                        ---- | ----
+
+!! | Flag | Explanation
+!! | --- | --- 
  @P.CmpFrst.FALSE@ !!≈ |  **@CODE@** | Require that words tagged as such only appear first
  @D.CmpPref.TRUE@  !!≈ |  **@CODE@** | Block such words from entering ENDLEX
  @P.CmpPref.FALSE@ !!≈ |  **@CODE@** | Block these words from making further compounds
@@ -331,33 +332,34 @@ i7     !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
  @U.CmpNone.FALSE@ !!≈ |  **@CODE@** | Combines with the prev tag to prohibit compounding
  @P.CmpOnly.TRUE@  !!≈ |  **@CODE@** | Sets a flag to indicate that the word has passed R
  @D.CmpOnly.FALSE@ !!≈ |  **@CODE@** | Disallow words coming directly from root.
-!!
+
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
 
-!! |                        Flag | Explanation
-!! |                        ---- | ----
+!! | Flag | Explanation
+!! | --- | --- 
  @U.Cap.Obl@        !!≈ |  **@CODE@** | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  **@CODE@** | Allowing downcasing of derived names: deatnulasj.
- @C.ErrOrth@        !!≈ |  @CODE@
- @D.ErrOrth.ON@    !!≈ |  @CODE@
- @P.ErrOrth.ON@     !!≈ |  @CODE@
- @R.ErrOrth.ON@     !!≈ |  @CODE@
+ @C.ErrOrth@        !!≈ |  @CODE@    | tbw
+ @D.ErrOrth.ON@     !!≈ |  @CODE@     | tbw
+ @P.ErrOrth.ON@     !!≈ |  @CODE@    | tbw
+ @R.ErrOrth.ON@     !!≈ |  @CODE@    | tbw
  @P.Pmatch.Loc@     !!≈ |  **@CODE@** | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
  @P.Pmatch.Backtrack@ !!≈ |  **@CODE@** | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
 
+!! Pronoun flags
 
-!! |                        Flag | Explanation
-!! |                        ---- | ----
+!! | Flag | Explanation
+!! | --- | --- 
 @U.pron.nom@       !!≈ |  **@CODE@** | tbw
 @U.pron.gen@       !!≈ |  **@CODE@** | tbw
 @U.pron.gen2@      !!≈ |  **@CODE@** | tbw
 @U.pron.ill@       !!≈ |  **@CODE@** | tbw
 @U.pron.par@       !!≈ |  **@CODE@** | tbw
-@U.pron.par2@       !!≈ |  **@CODE@** | tbw
-@U.pron.par3@       !!≈ |  **@CODE@** | tbw
+@U.pron.par2@      !!≈ |  **@CODE@** | tbw
+@U.pron.par3@      !!≈ |  **@CODE@** | tbw
 @U.pron.ess@       !!≈ |  **@CODE@** | tbw
 @U.pron.tra@       !!≈ |  **@CODE@** | tbw
 @U.pron.ine@       !!≈ |  **@CODE@** | tbw
