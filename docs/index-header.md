@@ -12,77 +12,35 @@ and in a Kven spellchecker.
 
 # Project documentation
 
-* Generation of: [paradigms](https://giellatekno.uit.no/cgi/index.fkv.sme.html)
-
-##  Työtavat
-
-* [Missing-listojen luominen](MissingLists.html)
-
-## Suunnitelmat
-
-(tänne!)
-
-
-##  Tag documentation
-
-* [The tags that are in use](https://gtsvn.uit.no/langtech/trunk/langs/fkv/src/fst/root.lexc)
-* [A list of morphological tags](/lang/common/MorphologicalTags.html)
+## Recent meetings
+* 2021: 
+  [06.01.21](meetings/210106.html) ◊
+  [21.01.21](meetings/210121.html) ◊
+  [11.02.21](meetings/210211.html) ◊
+  [11.03.21](meetings/210311.html)
 
 ## Using the analysers
 
-* In the terminal: analyse words by writing *hufkv*, generate with *hdfkv*
+* [Kveenin kielen työkalut](https://giellatekno.uit.no/cgi/index.fkv.fin.html)
 * For more info, see [How to use the morphological parsers](/tools/docu-sme-manual.html)
 
 ## Documentation for linguists
 
+* [The tags that are in use](https://gtsvn.uit.no/langtech/trunk/langs/fkv/src/fst/root.lexc)
+* [A list of morphological tags](/lang/common/MorphologicalTags.html)
 * [Puuttuvien sanojen nouto](PuuttuvienSanojenNouto.html)
+* [Missing-listojen luominen](MissingLists.html)
 * [Eirasta kommentit (2013): Adposiittit](adposiittit.txt)
 * [Eirasta (2019): kurkkio-kurkkii](kurkkio-kurkkii.txt) 
+* [Sanakirjat](/dicts/fkvdict/KvenDictionaries.html)  ◊
+ [e-opetusohjelma oahpa.no/kveeni](/ped/fkv-oahpa.html)  ◊
+ [Korp online](http://gtweb.uit.no/f_korp/)
 
 ## Testing
 
 * [Yamltestit maaliskuu 2019](YamltestitMaaliskuu2019.html)
 * [n_11-feilit](n_11-feilit.html)
 * [Kaikki generoidut paradigmat](KaikkiGeneroidutParadigmat.html)
-
-## Muut kveenin kielen projektit
-* [Sanakirjat](/dicts/fkvdict/KvenDictionaries.html)  ◊
- [e-opetusohjelma oahpa.no/kveeni](/ped/fkv-oahpa.html)  ◊
- [Korp online](http://gtweb.uit.no/f_korp/)
-
-
-#  Meetings
-
-* 2021: 
-  [06.01.21](meetings/210106.html) ◊
-  [21.01.21](meetings/210121.html) ◊
-  [11.02.21](meetings/210211.html) ◊
-  [11.03.21](meetings/210311.html)
-* 2020: 
-  [24.04.20](meetings/200424.html) ◊
-  [29.04.20](meetings/200429.html) ◊
-  [06.10.20](meetings/201006.html)
-* 2019: 
-  [22.01.19](meetings/190122.html) ◊ 
-  [22.02.19](meetings/190222.html) ◊  
-  [28.03.19](meetings/190328.html) ◊
-  [03.04.19](meetings/190403.html) ◊
-  [02.05.19](meetings/190502.html) ◊
-  [16.05.19](meetings/190516.html) ◊
-  [28.05.19](meetings/190528.html) ◊
-  [23.09.19](meetings/190923.html) ◊
-  [15.10.19](meetings/191015.html) ◊
-  [21.10.19](meetings/191021.html) ◊
-  [17.12.19](meetings/191217.html)
-* 2018: 
-  [05.11.18](meetings/181105.html) ◊ 
-  [19.11.18](meetings/181119.html)
-* 2017:  
-  [18.8.17](meetings/170818.html) 
-* 2015:  
-  [24.1.15](meetings/150124.html) ◊
-  [24.8.15](meetings/150824.html) ◊
-  [29.9.15](meetings/150929_ja_16XXXX.html)
 
 
 
@@ -108,7 +66,31 @@ and in a Kven spellchecker.
 * [Työtehtävät](Tehtavat.html)
 
 ##  Older meeting minutes
-
+* 2020: 
+  [24.04.20](meetings/200424.html) ◊
+  [29.04.20](meetings/200429.html) ◊
+  [06.10.20](meetings/201006.html)
+* 2019: 
+  [22.01.19](meetings/190122.html) ◊ 
+  [22.02.19](meetings/190222.html) ◊  
+  [28.03.19](meetings/190328.html) ◊
+  [03.04.19](meetings/190403.html) ◊
+  [02.05.19](meetings/190502.html) ◊
+  [16.05.19](meetings/190516.html) ◊
+  [28.05.19](meetings/190528.html) ◊
+  [23.09.19](meetings/190923.html) ◊
+  [15.10.19](meetings/191015.html) ◊
+  [21.10.19](meetings/191021.html) ◊
+  [17.12.19](meetings/191217.html)
+* 2018: 
+  [05.11.18](meetings/181105.html) ◊ 
+  [19.11.18](meetings/181119.html)
+* 2017:  
+  [18.8.17](meetings/170818.html) 
+* 2015:  
+  [24.1.15](meetings/150124.html) ◊
+  [24.8.15](meetings/150824.html) ◊
+  [29.9.15](meetings/150929_ja_16XXXX.html)
 * 2014:  
   [17.1.14](meetings/140117.html) ◊
   [30.1.14](meetings/140130.html) ◊
