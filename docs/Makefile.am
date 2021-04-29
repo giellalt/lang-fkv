@@ -15,9 +15,7 @@ MD_PAGES=root-morphology.md       \
 		  closed-stems.md         \
 		  nouns-affixes.md        \
 		  nouns-stems.md          \
-		  nouns-stems.md          \
 		  postpositions-stems.md  \
-		  prepositions-stems.md   \
 		  prepositions-stems.md   \
 		  pronouns-affixes.md     \
 		  pronouns-stems.md       \
