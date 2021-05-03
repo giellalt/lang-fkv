@@ -597,40 +597,6 @@ LEXICON x_21_even_u
 !+Ill:h%>i2%>i2     n_PxK ; ! on Sg:ssä hVVn
 
 
-LEXICON n_21_odd_ua
-
-+N         :  x_21_odd_ua ;
-
-LEXICON x_21_odd_ua !saipua, fierua ja luusua
-
-  +Sg          :             nom_end              ;
-  +Sg          :^WG          sgpl_cases_odd ;
-  +Sg          :^WG          gen_n_sg       ;
-  +Sg+Dial/Por :             par_V          ;
-  +Sg+Dial/Jok:             par_A          ;
-  +Sg+Dial/Var:             par_A          ;
-  +Sg          :^HMETA       ill_hVVn       ;
-  +Sg          :             ess_nnA        ;
-
-  +Pl          :^WG          nom_t          ;
-  +Pl+Dial/Por :^WG^A0%>i2     gen_tten       ; ! kajaviitten ! TODO Why WG here and not it par?
-  +Pl+Dial/Jok:^WG^A0%>i2      gen_tten       ; ! kajavitten
-  +Pl+Dial/Var:^WG^A0%>i2      gen_tten       ; ! kajavitten
-  +Pl+Dial/Por :^Por^A0%>i2        par_tA         ; ! kajaviita
-  +Pl+Dial/Por :^Por^A0%>i2      par_end        ; ! %> i necessary, otherwise a:o NOTwork, kajavii
-  !+Pl+Dial/Jok:^A0%>i2%>       par_A          ; ! kajavia
-  !+Pl+Dial/Var:^A0%>i2%>       par_A          ; ! kajavia
-!      +Pl+Ill:%^HMETA%>hii n_PxK          ;
-  +Pl      :^HMETA      ill_hVin       ;
-  +Pl+Dial/Por:^A0%>i2         ess_nnA        ;
-  +Pl+Dial/Jok:^A0%>i2         ess_nnA        ;
-  +Pl+Dial/Var:^A0%>i2         ess_nnA        ;
-  +Pl+Dial/Por:^A0%>i2         com_nne        ;
-  +Pl+Dial/Var:^A0%>i2         com_nne        ;
-  +Pl+Dial/Jok:%>i2         com_nne        ; !Jok loistaava
-  +Pl      :^WG^A0%>i2      sgpl_cases_odd ; ! TODO any cases here that should have ^AO?
-! +Pl+Tra:%>i2%>ksi    PxxK           ;
-
 LEXICON n_21_odd_AO !valinta> valinttoi. For the nouns that ends in -a and where the stem change to -o in plural, and also that have special gemination in pl par. We might have to change pl par for the same reason as in "perintö". 
 
 +N         :  x_21_odd_AO ;
