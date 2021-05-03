@@ -177,11 +177,6 @@ the same affix in sg and pl
 
 
 
-
-
-
-
-
  * LEXICON n_21_odd_C  lainasanat, fiction
 
  * LEXICON n_21_odd_i   meininki, tunturi TODO
