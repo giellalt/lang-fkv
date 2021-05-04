@@ -1,3 +1,4 @@
+
 # Substantiivit
 
  LEXICON NounRoot 
@@ -19,14 +20,15 @@ TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 * 3.1.3  ( lapsi )                                        = `n_12_lapsi`
 * 3.1.4  ( mies )                                         = `n_12_mies`
 
-TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat		
+TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
 
 * 2.2  Usseempitav. ( opettaaja )                         = `n_21`
-    - 2.2.2  U.tav. monikko oi (kulkkiija,sivakka,paijukko ) = `n_21_oi`
+    - 2.2.2  U.tav. monikko oi (perintö,kurkkio,paijukko )   = `n_21_oi`
+    - 2.2.2  U.tav. monikko oi (kulkkiija, asia) a -> o:ksi  = `n_21_oi_AO`
     - 2.2.1  Usseempitav. odd ( kajava )                     = `n_21_odd`
     - 2.2.1  Usseempitav. odd ( meininki, tunturi )          = `n_21_odd_i`
 
-* 3.2 Usseempitavuiset ( tytär )							 
+* 3.2 Usseempitavuiset ( tytär )
     - 3.2.1 ( tytär, taival, paimen )                        = `n_22`
     - 3.2.2 ( elläin: elläimen)                              = `n_22_m`
     -       ( vanhimet:vanhi )                               = `n_22_m_pl`
@@ -39,7 +41,7 @@ TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
 * 4.2 –inen-nominit ( kainulainen)                        = `n_22_inen`
     - 4.2.1 -inen-nominit Pl (tervheiset)                    = `n_22_inen_pl`
 
-TYYPPI 3: Pitkävokaaliset rangat							 
+TYYPPI 3: Pitkävokaaliset rangat
 
 * 1. Yksitavuiset / Vi ( maa, yö )                        = ` n_31`
 * 1.2  Yksitavuiset monikko/ Vi ( häät )                  = ` n_31_pl`
@@ -52,14 +54,20 @@ TYYPPI 3: Pitkävokaaliset rangat
     - 3.3.4 (huonet, hyljet, perkele)                         = ` n_32_et`
     - 3.3.5 (kirves)                                          = ` n_32_ts`
 
+
+
+
+
+
  * valkkee:valkke n_31_ee ;  Is noun, bål
  * veres:vere n_22_excns ; 
  * käsi:käte n_12_si ; 
- * assii+Dial/Por:assii n_31_ii ; 
+ * assii+Dial/Por:assi n_31_ii ; 
  * meininki:meininki n_21_odd_i ; 
  * tytär:tyttär n_22 ; 
  * lumi:lu n_12_mi ; 
  * yö:yö n_31 ; 
+
 
 Leksikkonimet Eiran mukaan
 * n1 Eira 1

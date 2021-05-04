@@ -7,3 +7,8 @@ Tässä sekä postpositiot ja niiden tagi.
  Postpositiot itse sijaitsevat leksikossa LEXICON Postposition 
 
 Sannoi ja haamui vesta/Varenki 2012 mukkaan.
+
+
+
+
+

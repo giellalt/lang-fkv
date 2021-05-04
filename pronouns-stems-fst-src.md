@@ -1,6 +1,10 @@
+
+
 # Pronominien vartalot
 
 Itse taivutus jatkuu
+
+
 
 Persoonapronominit
 
@@ -9,7 +13,10 @@ Persoonapronominit
  * ...
  * sie+Pron+Pers+Sg2+Use/NG:s 12pronsg_short ; 
 
+
+
 Demonstratiivipronominit
+
 
 Kysymäpronominit
  * kuka+Pron+Interr+Sg+Nom:kuka   K  ;  nom
@@ -21,6 +28,30 @@ Kysymäpronominit
 
 Relatiivipronominit
 
+
+
 Refleksiivi- ja resiprookipronominit
 
+
+
+
 Indefiniittipronominit/Kvanttoripronominit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
