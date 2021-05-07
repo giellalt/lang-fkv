@@ -1,4 +1,0 @@
-# Prepositiot
-
-Adposittiit eli postposittiit ja preposittiit – esimerkkii
-Aikamatka-sanalista

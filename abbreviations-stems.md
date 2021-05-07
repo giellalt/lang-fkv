@@ -1,3 +1,0 @@
-File containing abbreviations 
-
-Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
