@@ -5,96 +5,113 @@ We first define alphabets and sets. Thereafter come the rules.
 ## Alphabets and sets
 
 ### Alphabet
- * a b c d đ ð e f g h i j k l m n o p q         
- * r s t u ü v w x y z å ä ö æ ø š             
- * A B C D Đ Ð E F G H I J K L M N O P           
- * R S T U V W X Y Z Å Ä Ö Æ Ø Š               
- * **%^A:ä %^O:ö %^U:y                ** archi vowels for harmony
- * **%^V %^N:n                        ** vowel copy sanoo, LNR copy purra
+
+#### The letters
+ * a b c d đ ð e f g h i j k l m n o p q
+ * r s t u ü v w x y z å ä ö æ ø š
+ * A B C D Đ Ð E F G H I J K L M N O P
+ * R S T U V W X Y Z Å Ä Ö Æ Ø Š
+
+#### The archiphonemes
+ * **%^A:ä %^O:ö %^U:y** archi vowels for harmony
+ * **%^V %^N:n** vowel copy sanoo, LNR copy purra
+
+#### Letters with deviant behaviour
  * **i2:i** = plural i of nouns
  * **i3:i** = past tense i of verbs
  * **i4:i** = i in conditional isi of most verbs (without gemination)
  * **i5:i** = superlative i of adjectives
  * **i6:i** = i:j in poika:pojan
  * **i7:i** = i in conditional of contract verbs (with gemination)
- * **p2:p t2:t k2:k            ** p2, k2, t2 = always p, t, k ; eli ei tule astevaihtelua
- * **t3:t                      ** t3 = gradation but not t:s (implemented?)
- * **t4:t                      ** t4 = always p, t, k ; eli ei tule astevaihtelua eikä geminaatio (täytyy)
- * **k3:k                      ** k3 never k:v, contrary to k
- * **%^HMETA:0                 ** h metateesi sykshyyn
- * **%^WG:0                    ** weak grade hatun
+ * **p2:p t2:t k2:k** p2, k2, t2 = always p, t, k ; eli ei tule astevaihtelua
+ * **t3:t** t3 = gradation but not t:s (implemented?)
+ * **t4:t** t4 = always p, t, k ; eli ei tule astevaihtelua eikä geminaatio (täytyy)
+ * **k3:k** k3 never k:v, contrary to k
+
+#### Triggers
+ * **%^HMETA:0** h metateesi sykshyyn
+ * **%^WG:0** weak grade hatun
  * **%^TJ:0** vuote vuoje
  * **%^T0:0** tytär tyär tytärtä tyärtä in Var
  * **%^UU:0** vuote vuue
- * **%^E2I:0                   ** e to i in nom ove : ovi
- * **%^A2I:0                   ** a to i in opettajine (Var)
- * **%^VDEL:0 %^EDEL:0         ** -- DEL = deletion
- * **%^AE:0                    ** -- a to e lauletaan, soma somempi
- * **%^AO:0                    ** -- a to o sanoissa
- * **%^A0:0                    ** -- a to 0
- * **%^I0:0                    ** -- i to 0 in vanha_x_21 -Por with i endings: tooline
+ * **%^E2I:0** e to i in nom ove : ovi
+ * **%^A2I:0** a to i in opettajine (Var)
+ * **%^VDEL:0 %^EDEL:0** -- DEL = deletion
+ * **%^AE:0** -- a to e lauletaan, soma somempi
+ * **%^AO:0** -- a to o sanoissa
+ * **%^A0:0** -- a to 0
+ * **%^I0:0** -- i to 0 in vanha_x_21 -Por with i endings: tooline
  * **%^E0:0** e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
- * **%^Por:0                   ** -f- Porsanger  dialekti
- * **%^Var:0                   ** -- Varanger   dialekti
- * **%^Jok:0                   ** -- Jokivarret dialekti
- * **%^End:0                   ** -- End of word, since the # tags don't work properly
- * **%^¤:0               ** -
+ * **%^End:0** -- End of word, since the # tags don't work properly
+ * **%^¤:0** -
+
+#### Dialect tags
+ * **%^Por:0** -f- Porsanger  dialekti
+ * **%^Var:0** -- Varanger   dialekti
+ * **%^Jok:0** -- Jokivarret dialekti
 
 
-Literal quotes and angles must be escaped (cf morpheme boundaries further down):
-
- * ** »  ** = Derivational suffix
- * **%>  ** = border before inflection suffix
-The hash mark = Word boundary for both lexicalised and dynamic compounds
- * ** %^ ** = (exceptional) soft hyphenation point 
+### Literal quotes and angles 
+Thesemust be escaped (cf morpheme boundaries further down):
+* »7 represents the quotation mark »
+* «7 represents the quotation mark «
+* %[%>%] >
+* %[%<%] <
+ * **»** = Derivational suffix
+ * **%>** = border before inflection suffix
+* The hash mark = Word boundary for both lexicalised and dynamic compounds
+ * **%^** = (exceptional) soft hyphenation point 
 
 
 
 ### Sets
- * FrontVow = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            
- * BackVow = a o u å ;                                       
- * ArchiVow =  %^A %^O %^U ;                                 
- * UnroundedVow = e ä a i i2 i3 i4 i5 i6 i7 ;                
- * RoundedVow = y ö u o ;                                    
- * SomeVow = %^V ;                                           
- * NeutralVow = e i i2 i3 i4 i5 i6 i7 ;                      
- * Vow   = FrontVow BackVow ArchiVow SomeVow ;       
- * NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;       
- * NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;       
- * NotEYU  =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o   å ;       
- * NotOU   = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;             
- * NotOUI  = e                     y ä ö ü æ ø a ;             
- * NotOUIY = e                       ä ö   æ ø a ;             
- * NotAEI  =                       y ä ö ü æ ø   o u å ;       
- * NotOUIF =                      y ä ö ü æ ø   ;               and e? (removed 29.1.)
- * NotOUIB =                                  a ;               and e? (removed 29.1.)
- * NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;       
- * NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;       
- * ArchiCns = %^N ;                                            
- * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  
- * Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        
- * Segment = Vow Cns ;                                       
- * Dummy = %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  
- * DummyBorder = Dummy %> ;          
- * Dial =  %^Por %^Var %^Jok ;  
- * NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;  
- * NE = %> n e ;  
- * EÄA = e %^A ;  
+ * FrontVow = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;
+ * BackVow = a o u å ;
+ * ArchiVow = %^A %^O %^U ;
+ * UnroundedVow = e ä a i i2 i3 i4 i5 i6 i7 ;
+ * RoundedVow = y ö u o ;
+ * SomeVow = %^V ;
+ * NeutralVow = e i i2 i3 i4 i5 i6 i7 ;
+ * Vow = FrontVow BackVow ArchiVow SomeVow ;
+ * NotE = i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;
+ * NotEY = i i2 i3 i4 i5 i6 i7 ä ö æ ø a o u å ;
+ * NotEYU = i i2 i3 i4 i5 i6 i7 ä ö æ ø a o å ;
+ * NotOU = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;
+ * NotOUI = e y ä ö ü æ ø a ;
+ * NotOUIY = e ä ö æ ø a ;
+ * NotAEI = y ä ö ü æ ø o u å ;
+ * NotOUIF = y ä ö ü æ ø ; and e? (removed 29.1.)
+ * NotOUIB = a ; and e? (removed 29.1.)
+ * NotEYUF = i i2 i3 i4 i5 i6 i7 ä ö æ ø ;
+ * NotEYUB = i i2 i3 i4 i5 i6 i7 a o å ;
+ * LNRM = l n r m ;
+ * ArchiCns = %^N ;
+ * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;
+ * Cns = SurfaceCns ArchiCns p2 t2 k2 ;
+ * Segment = Vow Cns ;
+ * Dummy = %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;
+ * DummyBorder = Dummy %> ;
+ * Dial = %^Por %^Var %^Jok ;
+ * NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;
+ * NE = %> n e ;
+ * EÄA = e %^A ;
 
 Development principles:
 --- NO UNCLEAR SEQUENCES WITHOUT AN EXPLANATION (and TESTS): (Cns:*) :Cns+ Cns:* (:Cns)
 --- One TRIGGER, one change! No ^AO that means a:o and a:0 and a:i, then 3 DIFFERENT triggers
 
-Trigger order (to be completed)
-stem  Dial:  WG  {T0,TJ}  {E0,I0,E2I,A2I,AO,AE,VDEL,UU}  HMETA  >  {i2:,i3:,i4:](i5:}  >  suffixes
+### Trigger order 
+(to be completed). The triggers should be in this order both in lexc and here in twolc.
+
+`stem  Dial:  WG  {T0,TJ}  {E0,I0,E2I,A2I,AO,AE,VDEL,UU}  HMETA  >  {i2:,i3:,i4:](i5:}  >  suffixes`
 
 # Rules 
 (Divided into consonant and vowel rules)
 
-# Consonant rules
+## Consonant rules
 
 
-## Gemination rules
+### Gemination rules
 
 Pitkän vokaalin jälkeen ja kans painottoman tavun jälkeen k, t, p ja s geminoituvat
 ko perässä on pitkä vokaali (= lounaismurteitten erikoisgeminaatio),
@@ -164,24 +181,19 @@ Rule: **Gradation p:v**
 
 Rule: **Gradation mp:mm**
 
+**Tests:**
 * *kilpe^WG>n*
 * *kilve0>n*
-
 * *ranka^WG>n*
 * *ranga0>n*
-
 * *napa^WG>n*
 * *nava0>n*
-
 * *taipal^WG*
 * *taival0*
-
 * *varpa^WG*
 * *varva0*
-
 * *halpa^WG*
 * *halva0*
-
 * *turpe^WGt*
 * *turve0t*
 
@@ -189,9 +201,9 @@ Rule: **Gradation mp:mm**
 
 Rule: **Gradation i6:0, in word poika: pojan**
 
+**Tests:**
 * *poi6ka^WG>n*
 * *po0ja0>n*
-
 * *poi6ka^WG^A0>i2>le*
 * *po0j000>i>le*
 
@@ -201,11 +213,12 @@ Rule: **Gradation k:j**
 
 Rule: **Gradation k:0**
 
+**Tests:**
 * *halke^WG%>t^A*
 * *halje0>ta*
 
 
-#### Tests:
+**Tests:**
 * *mäke^WG>n*
 * *mäje0>n*
 * *aika^Por^WG>n*
@@ -214,9 +227,6 @@ Rule: **Gradation k:0**
 * *jälje0>n*
 * *luke^WG>n*
 * *luje0>n*
-
-
-#### Tests:
 * *pölkä^WG>t^A*
 * *pöl0ä0>tä*
 * *tuhka^WG>t*
@@ -234,17 +244,17 @@ Rule: **Gradation k:0**
 Rule: **Gradation k3:0**
 
 
+**Tests:**
 * *huok3a^WG>t^A*
 * *huo0a0>ta*
 
 Rule: **Gradation k:v**
 
+**Tests:**
 * *ruoka^WG>n*
 * *ruova0>n*
-
 * *puku^WG>n*
 * *puvu0>n*
-
 * *koko^WG>t^A*
 * *kovo0>ta*
 
@@ -253,7 +263,7 @@ Rule: **Gradation k:v**
 Rule: **Gradation nk:ng**
 
 
-
+**Tests:**
 * *sivakka^AO>i2>ne*
 * *sivak0o0>i>ne*
 
@@ -270,6 +280,7 @@ Rule: **Gradation Nt:NN in first syllable after short vowel**
 Rule: **Gradation t:0 for tt:t, Nt:N and vuote:vuoeksi**
 
 
+**Tests:**
 * *katto^WG>n*
 * *kat0o0>n*
 * *katt2o^WG>n*
@@ -278,10 +289,9 @@ Rule: **Gradation t:0 for tt:t, Nt:N and vuote:vuoeksi**
 Rule: **ti:si**
 
 
+**Tests:**
 * *vete^E2I*
 * *vesi0*
-
-
 * *hirte^HMETA>hii*
 * *hirs00>hii*
 
@@ -291,20 +301,16 @@ Rule: **t:j in Var variant vuojeksi**
 
 Rule: **o:u in vuosi vuote vuoet -> vuuet optional variant**
 
-```
+
+**Tests:**
 * *pe#rintö^WG>n*
 * *pe#rinnö0>n*
-```
-
 * *lentä^WG>n*
 * *lennä0>n*
-
 * *kiertä^WG>n*
 * *kier0ä0>n*
-
 * *ymmärtä^WG>n*
 * *ymmär0ä0>n*
-
 * *alta^WG>s*
 * *alla0>s*
 
@@ -313,9 +319,9 @@ Rule: **o:u in vuosi vuote vuoet -> vuuet optional variant**
 Rule: **Gradation t:đ**
 
 
+**Tests:**
 * *pitä^WG^AO>i3>n*
 * *piđ000>i>n*
-
 * *lahta^WG>i3>n*
 * *lahđ00>i>n*
 * *lahte^WG>n*
@@ -380,6 +386,8 @@ too often, by having more user feedback, especially from the paradigms in the di
 
 Rule: **^V:e**
 
+
+**Tests:**
 * *lapse^HMETA>h^V^Vn*
 * *laps00>heen*
 * *lume^HMETA>h^V^Vn*
@@ -390,6 +398,7 @@ Rule: **^V:e**
 
 Rule: **^V:a**
 
+**Tests:**
 
 * *maa>h^Vn*
 * *maa>han*
@@ -397,6 +406,7 @@ Rule: **^V:a**
 
 Rule: **^V:i**
 
+**Tests:**
 * *poi6ka^AO^HMETA>h^V>i2*
 * *poik000>hi>i*
 * *kuva^AO^HMETA>h^V>i2*
@@ -415,6 +425,8 @@ with variables (Vx/Vy) instead of each vowel separately
 
 Rule: **Back harmony for %^A: %^O: %^U:**
 
+**Tests:**
+
 * *kulke>^A*
 * *kulke>a*
 
@@ -422,6 +434,8 @@ Rule: **Back harmony for %^A: %^O: %^U:**
 ### Vow copying and metathesis
 
 Rule: **Vow copying in short h-illative and short partitive sg**
+
+**Tests:**
 
 * *heinä>^V*
 * *heinä>ä*
@@ -455,6 +469,8 @@ Rule: **a to o and metathesis in h forms in pl of a-stems**
 
 
 Rule: **Stem deletion in h-illative**
+
+**Tests:**
 
 * *syksy^HMETA>h^V^Vn*
 * *syks00>hyyn*
@@ -492,18 +508,17 @@ Rule: **e:0 in consonant stems and illative plural**
 * *tyvene^Por^WG>n*
 * *tyvene00>n*
 
+
+**Tests:**
+
 * *kiele>ten*
 * *kiel0>ten*
-
 * *ytime^HMETA>h^V^V>*
 * *ytim00>hee>*
-
 * *elläime^HMETA>h^V^V>*
 * *elläim00>hee>*
-
 * *aukaise>i3*
 * *aukais0>i*
-
 * *vuote^HMETA>hii*
 * *vuos00>hii*
 
@@ -525,9 +540,10 @@ Rule: **i:0**
 Rule: **a:0 before Pret and Pl i when rounded root vowel**
 
 
+**Tests:**
+
 * *varma^HMETA>h^V^Vn*
 * *varm00>haan*
-
 * *rakkaa^VDEL^WG>s*
 * *rak0a000>s*
 
@@ -562,10 +578,10 @@ Rule: **ä:ö before Pl i**
 * *kaulo00>i>tten*
 
 
+**Tests:**
+
 * *sivakka^WG^AO>i2>tten*
 * *sivak0o00>i>tten*
-
-
 * *kulkkiija^AO>i2>tten*
 * *kulkkiijo0>i>tten*
 
@@ -581,6 +597,7 @@ Rule: **a:i in 3-syll stems with long a and i**
 
 
 
+**Tests:**
 * ★*kuva^A2I>i2* (is not standard language)
 * ★*kuva0>i* (is not standard language)
 * *kuv0a^A2I>i2*
@@ -654,15 +671,14 @@ Rule: **Shortening of long vowel in front of i**
 
 Rule: **a:e in comparative**
 
+**Tests:**
+
 * ★*loistaava>mpi* (is not standard language)
 * ★*loistaave>mpi* (is not standard language)
-
 * *loistaava>mpi*
 * *loistaava>mpi*
-
 * ★*vahva>mpi* (is not standard language)
 * ★*vahva>mpi* (is not standard language)
-
 * *vahva>mpi*
 * *vahve>mpi*
 
@@ -671,18 +687,16 @@ Rule: **a:e in passives**
 
 Rule: **ä:0**
 
+**Tests:**
+
 * *kehä>i2>ss^A*
 * *keh0>i>ssä*
-
 * *päivä>i2>in*
 * *päiv0>i>in*
-
 * *jyv0ä>i2>in*
 * *jyvv0>i>in*
-
 * ★*kehä>i2>ss^A* (is not standard language)
 * ★*kehä>i>ssä* (is not standard language)
-
 * *pää>i2>ss^A*
 * *p0ä>i>ssä*
 
@@ -774,93 +788,64 @@ Rule: **ö:0**
 * *kivv0>i>i*
 
 
-
+**Tests:**
 * *kal0a>^V*
 * *kalla>a*
 * *kuv0a>^V*
 * *kuvva>a*
-
 * *suome>^V*
 * *suome>e*
-
 * *lauk0e>^V*
 * *laukke>e*
-
 * *tek0e>^V*
 * *tekke>e*
-
 * *kat0o>^V>t*
 * *katto>o>t*
-
 * *kal0a^Por^AO>i2*
 * *kallo00>i*
-
 * *kir0o>^V>t*
 * *kirro>o>t*
-
 * *san0a^AO>i2*
 * *sanno0>i*
-
 * *jout0u>^V*
 * *jouttu>u*
-
 * *puh0u>^V*
 * *puhhu>u*
-
 * *näk0y>^V*
 * *näkky>y*
-
 * *lev0y>^V*
 * *levvy>y*
-
 * *näk0ö>^V*
 * *näkkö>ö*
-
 * *pör0ö>^V*
 * *pörrö>ö*
-
 * ★*perin0ö^WG>n* (is not standard language)
 * ★*perinnö0>n* (is not standard language)
-
 * *tiet0ä>^Vt*
 * *tiettä>ät*
-
 * *as0u>^Vt*
 * *assu>ut*
-
 * *el0ä>^V*
 * *ellä>ä*
-
 * *jalk0a>^V*
 * *jalkka>a*
-
 * *järk0e>^V*
 * *järkke>e*
-
 * *murt0o>^V*
 * *murtto>o*
-
 * *polk0u>^V*
 * *polkku>u*
-
 * *särk0y>^V*
 * *särkky>y*
-
 * *lämp0ö>^V*
 * *lämppö>ö*
-
 * *pölk0ä>^V*
-* *pölkkä>ä*
-
 * *härk0ä>^V*
 * *härkkä>ä*
-
 * *kerk0i>^Vn*
 * *kerkki>in*
-
 * *lauk0e>i7s*
 * *laukke>is*
-
 * *särk0y>i7s*
 * *särkky>is*
 
