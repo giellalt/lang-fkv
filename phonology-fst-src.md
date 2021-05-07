@@ -1,49 +1,56 @@
 # Phonological rules for Kven
-## Alphabet
 
+We first define alphabets and sets. Thereafter come the rules.
+
+## Alphabets and sets
+
+### Alphabet
  * a b c d đ ð e f g h i j k l m n o p q         
  * r s t u ü v w x y z å ä ö æ ø š             
  * A B C D Đ Ð E F G H I J K L M N O P           
  * R S T U V W X Y Z Å Ä Ö Æ Ø Š               
- * %^A:ä %^O:ö %^U:y                 archi vowels for harmony
- * %^V %^N:n                         vowel copy sanoo, LNR copy purra
+ * **%^A:ä %^O:ö %^U:y                ** archi vowels for harmony
+ * **%^V %^N:n                        ** vowel copy sanoo, LNR copy purra
  * **i2:i** = plural i of nouns
  * **i3:i** = past tense i of verbs
  * **i4:i** = i in conditional isi of most verbs (without gemination)
  * **i5:i** = superlative i of adjectives
  * **i6:i** = i:j in poika:pojan
  * **i7:i** = i in conditional of contract verbs (with gemination)
- * p2:p t2:t k2:k             p2, k2, t2 = always p, t, k ; eli ei tule astevaihtelua
- * t3:t                       t3 = gradation but not t:s (implemented?)
- * t4:t                       t4 = always p, t, k ; eli ei tule astevaihtelua eikä geminaatio (täytyy)
- * k3:k                       k3 never k:v, contrary to k
- * %^HMETA:0                  h metateesi sykshyyn
- * %^WG:0                     weak grade hatun
- * %^TJ:0 vuote vuoje
- * %^T0:0 tytär tyär tytärtä tyärtä in Var
- * %^UU:0 vuote vuue
- * %^E2I:0                    e to i in nom ove : ovi
- * %^A2I:0                    a to i in opettajine (Var)
- * %^VDEL:0 %^EDEL:0          -- DEL = deletion
- * %^AE:0                     -- a to e lauletaan, soma somempi
- * %^AO:0                     -- a to o sanoissa
- * %^A0:0                     -- a to 0
- * %^I0:0                     -- i to 0 in vanha_x_21 -Por with i endings: tooline
- * %^E0:0 e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
- * %^Por:0                    -f- Porsanger  dialekti
- * %^Var:0                    -- Varanger   dialekti
- * %^Jok:0                    -- Jokivarret dialekti
- * %^End:0                    -- End of word, since the # tags don't work properly
+ * **p2:p t2:t k2:k            ** p2, k2, t2 = always p, t, k ; eli ei tule astevaihtelua
+ * **t3:t                      ** t3 = gradation but not t:s (implemented?)
+ * **t4:t                      ** t4 = always p, t, k ; eli ei tule astevaihtelua eikä geminaatio (täytyy)
+ * **k3:k                      ** k3 never k:v, contrary to k
+ * **%^HMETA:0                 ** h metateesi sykshyyn
+ * **%^WG:0                    ** weak grade hatun
+ * **%^TJ:0** vuote vuoje
+ * **%^T0:0** tytär tyär tytärtä tyärtä in Var
+ * **%^UU:0** vuote vuue
+ * **%^E2I:0                   ** e to i in nom ove : ovi
+ * **%^A2I:0                   ** a to i in opettajine (Var)
+ * **%^VDEL:0 %^EDEL:0         ** -- DEL = deletion
+ * **%^AE:0                    ** -- a to e lauletaan, soma somempi
+ * **%^AO:0                    ** -- a to o sanoissa
+ * **%^A0:0                    ** -- a to 0
+ * **%^I0:0                    ** -- i to 0 in vanha_x_21 -Por with i endings: tooline
+ * **%^E0:0** e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
+ * **%^Por:0                   ** -f- Porsanger  dialekti
+ * **%^Var:0                   ** -- Varanger   dialekti
+ * **%^Jok:0                   ** -- Jokivarret dialekti
+ * **%^End:0                   ** -- End of word, since the # tags don't work properly
+ * **%^¤:0               ** -
 
 
- *  »   = Derivational suffix
- * %>   = border before inflection suffix
+Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+
+ * ** »  ** = Derivational suffix
+ * **%>  ** = border before inflection suffix
 The hash mark = Word boundary for both lexicalised and dynamic compounds
- *  %^  = (exceptional) soft hyphenation point 
+ * ** %^ ** = (exceptional) soft hyphenation point 
 
 
 
-## Sets
+### Sets
  * FrontVow = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            
  * BackVow = a o u å ;                                       
  * ArchiVow =  %^A %^O %^U ;                                 
@@ -71,33 +78,37 @@ The hash mark = Word boundary for both lexicalised and dynamic compounds
  * DummyBorder = Dummy %> ;          
  * Dial =  %^Por %^Var %^Jok ;  
  * NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;  
+ * NE = %> n e ;  
+ * EÄA = e %^A ;  
 
+Development principles:
+--- NO UNCLEAR SEQUENCES WITHOUT AN EXPLANATION (and TESTS): (Cns:*) :Cns+ Cns:* (:Cns)
+--- One TRIGGER, one change! No ^AO that means a:o and a:0 and a:i, then 3 DIFFERENT triggers
 
 Trigger order (to be completed)
-```
-stem  Dial:  WG  [T0|TJ]  [E0|I0|E2I|A2I|AO|AE|VDEL|UU]  HMETA  >  [i2:|i3:|i4:](i5:)  >  suffixes
-```
+stem  Dial:  WG  {T0,TJ}  {E0,I0,E2I,A2I,AO,AE,VDEL,UU}  HMETA  >  {i2:,i3:,i4:](i5:}  >  suffixes
 
-# Rules (Divided into consonant and vowel rules)
+# Rules 
+(Divided into consonant and vowel rules)
 
 # Consonant rules
 
 
-## Gemination
+## Gemination rules
 
 Pitkän vokaalin jälkeen ja kans painottoman tavun jälkeen k, t, p ja s geminoituvat
 ko perässä on pitkä vokaali (= lounaismurteitten erikoisgeminaatio),
 mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen
 (= yleisgeminaatio). (ES).
 
-**Gemination 0:h**
+Rule: **Gemination 0:h**
 
-**Gemination 0:j**
+Rule: **Gemination 0:j**
 
-**Gemination 0:k**
+Rule: **Gemination 0:k**
 
 
-
+#### Tests:
 * *flak0u>i2>n*
 * *flakku>i>n*
 * *flaku>i2>n^A*
@@ -106,27 +117,25 @@ mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen
 * *urkku>i*
 
 
-**Gemination 0:l**
+Rule: **Gemination 0:l**
 
-**Gemination 0:m**
+Rule: **Gemination 0:m**
 
-**Gemination 0:n**
+Rule: **Gemination 0:n**
 
-**Gemination 0:p**
-
-
-
-**Gemination 0:r**
-
-**Gemination 0:s**
+Rule: **Gemination 0:p**
 
 
 
-**Gemination 0:t**
+Rule: **Gemination 0:r**
 
-**Gemination 0:v**
+Rule: **Gemination 0:s**
 
 
+
+Rule: **Gemination 0:t**
+
+Rule: **Gemination 0:v**
 
 
 
@@ -141,17 +150,19 @@ mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen
 
 
 
-## Gradation
+
+
+## Gradation rules
 
 
 
-### Gradation p
+### Rules for *p* gradation 
 
-**Gradation p:0 (pp:p)**
+Rule: **Gradation p:0 (pp:p)**
 
-**Gradation p:v**
+Rule: **Gradation p:v**
 
-**Gradation mp:mm**
+Rule: **Gradation mp:mm**
 
 * *kilpe^WG>n*
 * *kilve0>n*
@@ -174,9 +185,9 @@ mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen
 * *turpe^WGt*
 * *turve0t*
 
-### Gradation k
+### Rules for *k* gradation 
 
-**Gradation i6:0, in word poika: pojan**
+Rule: **Gradation i6:0, in word poika: pojan**
 
 * *poi6ka^WG>n*
 * *po0ja0>n*
@@ -186,14 +197,15 @@ mutta muut konsonantit geminoituvat vaan lyhyen painollisen tavun jälkeen
 
 TODO: When k:j and when k:0 between e and i.
 
-**Gradation k:j**
+Rule: **Gradation k:j**
 
-**Gradation k:0**
+Rule: **Gradation k:0**
 
 * *halke^WG%>t^A*
 * *halje0>ta*
 
 
+#### Tests:
 * *mäke^WG>n*
 * *mäje0>n*
 * *aika^Por^WG>n*
@@ -204,6 +216,7 @@ TODO: When k:j and when k:0 between e and i.
 * *luje0>n*
 
 
+#### Tests:
 * *pölkä^WG>t^A*
 * *pöl0ä0>tä*
 * *tuhka^WG>t*
@@ -218,13 +231,13 @@ TODO: When k:j and when k:0 between e and i.
 * *par0u0>n*
 
 
-**Gradation k3:0**
+Rule: **Gradation k3:0**
 
 
 * *huok3a^WG>t^A*
 * *huo0a0>ta*
 
-**Gradation k:v**
+Rule: **Gradation k:v**
 
 * *ruoka^WG>n*
 * *ruova0>n*
@@ -237,7 +250,7 @@ TODO: When k:j and when k:0 between e and i.
 
 
 
-**Gradation nk:ng**
+Rule: **Gradation nk:ng**
 
 
 
@@ -250,11 +263,11 @@ TODO: When k:j and when k:0 between e and i.
 
 
 
-**Gradation Nt:NN in first syllable after short vowel**
+Rule: **Gradation Nt:NN in first syllable after short vowel**
 
 
 
-**Gradation t:0 for tt:t, Nt:N and vuote:vuoeksi**
+Rule: **Gradation t:0 for tt:t, Nt:N and vuote:vuoeksi**
 
 
 * *katto^WG>n*
@@ -262,7 +275,7 @@ TODO: When k:j and when k:0 between e and i.
 * *katt2o^WG>n*
 * *katto0>n*
 
-**ti:si**
+Rule: **ti:si**
 
 
 * *vete^E2I*
@@ -274,9 +287,9 @@ TODO: When k:j and when k:0 between e and i.
 
 
 
-**t:j in Var variant vuojeksi**
+Rule: **t:j in Var variant vuojeksi**
 
-**o:u in vuosi vuote vuoet -> vuuet optional variant**
+Rule: **o:u in vuosi vuote vuoet -> vuuet optional variant**
 
 ```
 * *pe#rintö^WG>n*
@@ -297,7 +310,7 @@ TODO: When k:j and when k:0 between e and i.
 
 
 
-**Gradation t:đ**
+Rule: **Gradation t:đ**
 
 
 * *pitä^WG^AO>i3>n*
@@ -322,19 +335,17 @@ TODO: When k:j and when k:0 between e and i.
 
 
 
-## Assimilation
+### Assimilation rules
 
-**Alveolar assimilation for consonant stem l**
+Rule: **Alveolar assimilation for consonant stem l**
 * *tul>^N^U*
 * *tul>lu*
 
-**Alveolar assimilation for consonant stem r**
+Rule: **Alveolar assimilation for consonant stem r**
 
-**Alveolar assimilation for consonant stem s**
+Rule: **Alveolar assimilation for consonant stem s**
 
-**j:0 in front of i**
-
-
+Rule: **j:0 in front of i**
 
 
 
@@ -350,9 +361,11 @@ TODO: When k:j and when k:0 between e and i.
 
 
 
-# Vow rules
 
-## Vow harmony
+
+## Vowel rules
+
+### Vowel harmony rules
 
 Thefa idea of having f.ex V:e, always to a specific vowel, is to not have conflicts in
 twolc compilation. This improves compilation time (we assume) and it make Twolc
@@ -363,9 +376,9 @@ vowel separately one by one. Hopefully, we can make sure we don't forget to do i
 too often, by having more user feedback, especially from the paradigms in the dictionary.
 
 
-###  For each Vowel separately
+####  For each Vowel separately
 
-**^V:e**
+Rule: **^V:e**
 
 * *lapse^HMETA>h^V^Vn*
 * *laps00>heen*
@@ -375,21 +388,21 @@ too often, by having more user feedback, especially from the paradigms in the di
 * *mieh0>heen*
 
 
-**^V:a**
+Rule: **^V:a**
 
 
 * *maa>h^Vn*
 * *maa>han*
 
 
-**^V:i**
+Rule: **^V:i**
 
 * *poi6ka^AO^HMETA>h^V>i2*
 * *poik000>hi>i*
 * *kuva^AO^HMETA>h^V>i2*
 * *kuv000>hi>i*
 
-**^V:o**
+Rule: **^V:o**
 
 
 
@@ -397,17 +410,18 @@ too often, by having more user feedback, especially from the paradigms in the di
 
 
 
-###  (the old system) with variables (Vx/Vy) instead of each vowel separately
+####  (the old system) 
+with variables (Vx/Vy) instead of each vowel separately
 
-**Back harmony for %^A: %^O: %^U:**
+Rule: **Back harmony for %^A: %^O: %^U:**
 
 * *kulke>^A*
 * *kulke>a*
 
 
-## Vow copying and metathesis
+### Vow copying and metathesis
 
-**Vow copying in short h-illative and short partitive sg**
+Rule: **Vow copying in short h-illative and short partitive sg**
 
 * *heinä>^V*
 * *heinä>ä*
@@ -416,19 +430,19 @@ too often, by having more user feedback, especially from the paradigms in the di
 
 
 
-**Vow copying in partitive of words ending in io, ia**
+Rule: **Vow copying in partitive of words ending in io, ia**
 
 
-**Vow copying in long h sg forms both part one and part two**
+Rule: **Vow copying in long h sg forms both part one and part two**
 
 
-**Vow copying in long h pl forms**
+Rule: **Vow copying in long h pl forms**
 
 * *sivakka^AO^HMETA>h^V>i2n*
 * *sivakk000>ho>in*
 
 
-**a to o and metathesis in h forms in pl of a-stems**
+Rule: **a to o and metathesis in h forms in pl of a-stems**
 
 
 
@@ -440,7 +454,7 @@ too often, by having more user feedback, especially from the paradigms in the di
 
 
 
-**Stem deletion in h-illative**
+Rule: **Stem deletion in h-illative**
 
 * *syksy^HMETA>h^V^Vn*
 * *syks00>hyyn*
@@ -456,15 +470,15 @@ too often, by having more user feedback, especially from the paradigms in the di
 
 
 
-## Stem alternation rules
+### Stem alternation rules
 
 
 
 
 
-## e rules
+### e rules
 
-**e:i in nom.sg. of e-stems and in n_23ia kauhia hopia in Var**
+Rule: **e:i in nom.sg. of e-stems and in n_23ia kauhia hopia in Var**
 
 * *ove^E2I*
 * *ovi0*
@@ -472,7 +486,7 @@ too often, by having more user feedback, especially from the paradigms in the di
 * *kauhe^E2I^¤>^A*
 * *kauhi00>a*
 
-**e:0 in consonant stems and illative plural**
+Rule: **e:0 in consonant stems and illative plural**
 
 
 * *tyvene^Por^WG>n*
@@ -497,18 +511,18 @@ Cns:0 in hoppe- hope-a in Var @RULENAME@ Jok
 
 
 
-## i rules
+### i rules
 The -i- rules require different i-s for different POS.
 
-**i:0**
+Rule: **i:0**
 
 
 
 
 
-## a rules
+### a rules
 
-**a:0 before Pret and Pl i when rounded root vowel**
+Rule: **a:0 before Pret and Pl i when rounded root vowel**
 
 
 * *varma^HMETA>h^V^Vn*
@@ -531,12 +545,12 @@ The -i- rules require different i-s for different POS.
 * *loistaav00>i>ssa*
 
 
-**a:o before Pl i and Pret i **
+Rule: **a:o before Pl i and Pret i **
 
 * *matka^Por^AO>i2*
 * *matko00>i*
 
-**ä:ö before Pl i**
+Rule: **ä:ö before Pl i**
 
 
 
@@ -560,7 +574,7 @@ The -i- rules require different i-s for different POS.
 
 
 
-**a:i in 3-syll stems with long a and i**
+Rule: **a:i in 3-syll stems with long a and i**
 
 
 
@@ -624,20 +638,21 @@ The -i- rules require different i-s for different POS.
 
 
 
-**a:i in 3-syll stems with long a and i**
+Rule: **a:i in 3-syll stems with long a and i**
 
 
-### Shortening
+#### Shortening
 
-**Shortening of long vowel in front of i**
-
-
+Rule: **Shortening of long vowel in front of i**
 
 
 
-# Other Vowel rules (two A:e rules and one ä:0)
 
-**a:e in comparative**
+
+## Other Vowel rules 
+(two A:e rules and one ä:0)
+
+Rule: **a:e in comparative**
 
 * ★*loistaava>mpi* (is not standard language)
 * ★*loistaave>mpi* (is not standard language)
@@ -651,10 +666,10 @@ The -i- rules require different i-s for different POS.
 * *vahva>mpi*
 * *vahve>mpi*
 
-**a:e in passives**
+Rule: **a:e in passives**
 
 
-**ä:0**
+Rule: **ä:0**
 
 * *kehä>i2>ss^A*
 * *keh0>i>ssä*
@@ -672,7 +687,7 @@ The -i- rules require different i-s for different POS.
 * *p0ä>i>ssä*
 
 
-**ö:0**
+Rule: **ö:0**
 
 
 
@@ -868,16 +883,16 @@ The -i- rules require different i-s for different POS.
 
 
 
-**ö:0**
+Rule: **ö:0**
 
 
 
 
 
-**ö:0**
+Rule: **ö:0**
 
 
 
-**ö:0**
+Rule: **ö:0**
 
 
