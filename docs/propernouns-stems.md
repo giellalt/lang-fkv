@@ -1,1 +1,0 @@
-  LEXICON ProperNoun  on kokeellinen leksikko
