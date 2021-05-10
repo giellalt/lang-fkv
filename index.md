@@ -19,7 +19,8 @@ and in a Kven spellchecker.
   [21.01.21](meetings/210121.html) ◊
   [11.02.21](meetings/210211.html) ◊
   [11.03.21](meetings/210311.html) ◊
-  [28.04.21](meetings/210428.html)
+  [28.04.21](meetings/210428.html) ◊
+  [10.05.21](meetings/210510.html)
 
 ## Using the analysers
 
