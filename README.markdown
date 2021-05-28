@@ -3,13 +3,13 @@ The Kven Finnish morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-fkv)](https://github.com/giellalt/lang-fkv/issues)
 [![Build Status](https://github.com/giellalt/lang-fkv/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-fkv/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-fkv)](https://raw.githubusercontent.com/giellalt/lang-fkv/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-fkv)](https://raw.githubusercontent.com/giellalt/lang-fkv/main/LICENSE)
 
 This repository contains finite state source files for the Kven Finnish language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
 licence, also detailed in the
-[LICENCE](https://github.com/giellalt/lang-fkv/blob/develop/LICENCE). The
+[LICENSE](https://github.com/giellalt/lang-fkv/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
@@ -77,7 +77,7 @@ svn checkout https://github.com/giellalt/lang-fkv.git/trunk lang-fkv
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/lang-fkv/blob/develop/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-fkv/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
