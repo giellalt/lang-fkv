@@ -35,8 +35,8 @@ Take nothing at face value!
  * **+IV** = Intansitive verb
  * **+Arab** = Arabic
  * **+Coll** = Collective numeral
- * **+Rom**
- * **+Dyn**
+ * **+Rom** = Roman numerals I, II, ...
+ * **+Dyn** = Dynamically created acronym
 
 ## Tags for grammar
 
@@ -338,10 +338,10 @@ given the proper use of these flags.
 | --- | --- 
  |  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
  |  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
- |  @C.ErrOrth@    | tbw
- |  @D.ErrOrth.ON@     | tbw
- |  @P.ErrOrth.ON@    | tbw
- |  @R.ErrOrth.ON@    | tbw
+ |  **@C.ErrOrth@**    | tbw
+ |  **@D.ErrOrth.ON@**     | tbw
+ |  **@P.ErrOrth.ON@**    | tbw
+ |  **@R.ErrOrth.ON@**    | tbw
  |  **@P.Pmatch.Loc@** | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
  |  **@P.Pmatch.Backtrack@** | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
 
@@ -393,7 +393,11 @@ Here is the Root lexicon, pointing to all the parts of speech:
  * Abbreviation ;
  * Acronym ;
 
-Acronym
+**LEXICON Acronym** pointing to:
+ * Acronym-fkv ;
+ * Acronym-smi ;
 
-Abbreviation
+**LEXICON Abbreviation** pointing to:
+ * Abbreviation-fkv ;
+ * Abbreviation-smi ;
 
