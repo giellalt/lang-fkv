@@ -19,6 +19,8 @@ do
  for form in $(cat $P_FILE);
  do
      echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.hfstol
+#    echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm.xfst
+    echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.hfstol
 #   #echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm.xfst
 #   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fkv/src/generator-gt-norm-dial_Por.xfst
  done
