@@ -38,8 +38,8 @@ Multichar_Symbols
 +IV   !!≈ * **@CODE@** = Intansitive verb
 +Arab !!≈ * **@CODE@** = Arabic
 +Coll !!≈ * **@CODE@** = Collective numeral
-+Rom !!≈ * **@CODE@**
-+Dyn !!≈ * **@CODE@**
++Rom !!≈ * **@CODE@** = Roman numerals I, II, ...
++Dyn !!≈ * **@CODE@** = Dynamically created acronym
 
 !! ## Tags for grammar
 
@@ -342,10 +342,10 @@ i7     !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
 !! | --- | --- 
  @U.Cap.Obl@        !!≈ |  **@CODE@** | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  **@CODE@** | Allowing downcasing of derived names: deatnulasj.
- @C.ErrOrth@        !!≈ |  @CODE@    | tbw
- @D.ErrOrth.ON@     !!≈ |  @CODE@     | tbw
- @P.ErrOrth.ON@     !!≈ |  @CODE@    | tbw
- @R.ErrOrth.ON@     !!≈ |  @CODE@    | tbw
+ @C.ErrOrth@        !!≈ |  **@CODE@**    | tbw
+ @D.ErrOrth.ON@     !!≈ |  **@CODE@**     | tbw
+ @P.ErrOrth.ON@     !!≈ |  **@CODE@**    | tbw
+ @R.ErrOrth.ON@     !!≈ |  **@CODE@**    | tbw
  @P.Pmatch.Loc@     !!≈ |  **@CODE@** | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
  @P.Pmatch.Backtrack@ !!≈ |  **@CODE@** | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
 
@@ -409,12 +409,12 @@ LEXICON Root    !!≈  **@CODE@**
  Acronym      ; !!≈ * @CODE@
 
 LEXICON Acronym
-!! @LEXNAME@
-Acronym-fkv ;
-Acronym-smi ;
+!! **LEXICON @LEXNAME@** pointing to:
+Acronym-fkv ;  !!≈ * @CODE@
+Acronym-smi ;  !!≈ * @CODE@
 
 LEXICON Abbreviation
-!! @LEXNAME@
-Abbreviation-fkv ;
-Abbreviation-smi ;
+!! **LEXICON @LEXNAME@** pointing to:
+Abbreviation-fkv ;  !!≈ * @CODE@
+Abbreviation-smi ;  !!≈ * @CODE@
 
