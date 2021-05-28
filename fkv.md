@@ -3177,6 +3177,8 @@ Basic paradigms
 
 # Phonological rules for Kven
 
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-fkv/blob/main/src/fst/phonology.twolc) 
+
 We first define alphabets and sets. Thereafter come the rules.
 
 ## Alphabets and sets
