@@ -23,6 +23,9 @@ morf_codes="+V+Inf \
             +V+Act+Ind+Prs+Sg1 \
             +V+Act+Ind+Prs+Sg3 \
             +V+Act+Ind+Prt+Pl1 \
+            +V+Act+Cond+Sg1 \
+            +V+Act+Cond+Sg3 \
+            +V+Act+Cond+Pl1 \
             +V+Act+Ind+Prs+ConNeg \
             +V+Act+PrfPrc+Sg+Nom"
 
