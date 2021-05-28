@@ -2,17 +2,17 @@
 !! # LEXICA FOR KVEN VERB INFLECTION
 ! ===================================
 
-!! This file 
+!! This file documents [affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/verbs.lexc)
 
-!! # Auxiliaries
+!! ## Auxiliaries
 
 
-LEXICON neg !!= @CODE@ jakaantuu kolmeen
+LEXICON neg !!≈ **@CODE@** jakaantuu kolmeen
  +Act: indneg ; ! no +Ind
  +Act+Imprt: imprtneg ;
 
 
-LEXICON indneg !!= @CODE@ negaation indikatiivipäätteet
+LEXICON indneg !!≈ **@CODE@** negaation indikatiivipäätteet
 
 !! Note that lexicon @LEXNAME@ directs to K_NEG and not to K,
 !! this is since we have enkä but not enkin
@@ -25,11 +25,11 @@ LEXICON indneg !!= @CODE@ negaation indikatiivipäätteet
  +Pl3:ei K_NEG ;
  +Pl3+Err/Orth:eivät K_NEG ; 
 
-LEXICON imprtneg !!= @CODE@ negaation imperatiivipäätteet
+LEXICON imprtneg !!≈ **@CODE@** negaation imperatiivipäätteet
  +Sg2:älä # ;
  +Pl2:älkkää # ;
 
-LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
+LEXICON OLLA !!≈ **@CODE@** on oma leksikko, vielä vain preesens
 +V+Inf:olla K ;
 +V+Act+Ind+Prs+Sg1:olen K ;
 +V+Act+Ind+Prs+Sg2:olet K ;
@@ -88,14 +88,15 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 +V+Act+Inf3+Abe:olematta K ;
 +V+Der+Der/minen:olemi n_22_inen ;
 
+!! ## Regular verbs
 
-!! # INCOMING
+! Incoming lexicon v_x
 
 !LEXICON v_x
 !+V: # ; ! Just to make it compile
 
 
-!! # Verbiluokat v1...
+!! ### Verbiluokat v1...
 
 !! Luokkien v1, v2... Eiran kieliopin mukaan.
 !! Tarvitaan luultavasti alaluokkia.
@@ -104,7 +105,7 @@ LEXICON OLLA !!= @CODE@ on oma leksikko, vielä vain preesens
 !! persoonan pääteet, ja viittaus preesensin ja preteritin
 !! kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
-LEXICON v1 !!= @CODE@ saađa:saa
+LEXICON v1 !!≈ **@CODE@** saađa:saa
 +V+Inf:%>đ^A K ; ! đ
 +V+Inf+Err/Orth:%>d^A K ; ! d
 +V+Inf+Err/Orth:%>h^A K ; ! h
@@ -152,7 +153,7 @@ LEXICON v1 !!= @CODE@ saađa:saa
 +V+Act+Inf3:%>m^A MATONodd ;
 +V+Der+Der/minen:mi n_22_inen ;
 
-LEXICON v1iđa !!= @CODE@ Cond uiđa:uisin
+LEXICON v1iđa !!≈ **@CODE@** Cond uiđa:uisin
 +V+Inf:%>đ^A K ;
 +V+Inf+Err/Orth:%>d^A K ;
 +V+Inf+Err/Orth:%>h^A K ;
@@ -199,7 +200,7 @@ LEXICON v1iđa !!= @CODE@ Cond uiđa:uisin
 +V+Act+Inf3:%>m^A MATONodd ;
 +V+Der+Der/minen:mi n_22_inen ;
 
-LEXICON v1kayda  !!= @CODE@ käyđä:kä
+LEXICON v1kayda  !!≈ **@CODE@** käyđä:kä
 +V+Inf:y%>đ^A K ; ! đ
 +V+Inf+Err/Orth:y%>d^A K ; ! d
 +V+Act+Ind+Prs:y^WG v12pers_short ;
@@ -244,7 +245,7 @@ LEXICON v1kayda  !!= @CODE@ käyđä:kä
 +V+Der+Der/minen:ymi n_22_inen ;
 
 
-LEXICON v1nahda !!= @CODE@ nähđä:nä
+LEXICON v1nahda !!≈ **@CODE@** nähđä:nä
 +V+Inf:h%>đ^A K ; ! đ
 +V+Inf+Err/Orth:h%>d^A K ; ! d
 +V+Act+Ind+Prs:je^WG v12pers_short ;
@@ -286,7 +287,7 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä
 +V+Act+Inf3:ke%>m^A MATONodd ;
 +V+Der+Der/minen:kemi n_22_inen ;
 
-LEXICON v1tehda !!= @CODE@ tehđä:te
+LEXICON v1tehda !!≈ **@CODE@** tehđä:te
 +V+Inf:h%>đ^A K ; ! đ
 +V+Inf+Err/Orth:h%>d^A K ; ! d
 +V+Act+Ind+Prs:he v12pers_short ;
@@ -328,8 +329,11 @@ LEXICON v1tehda !!= @CODE@ tehđä:te
 +V+Act+Inf3:ke%>m^A MATONodd ;
 +V+Der+Der/minen:kemi n_22_inen ;
 
-LEXICON v2 !!= @CODE@ ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
-+V+Inf:%>^Vt K ;
+
+!! ### Verbiluokat v2...
+
+LEXICON v2 !!≈ **@CODE@** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
++V+Inf:%>^Vt K ; 
 +V+Inf+Err/Orth:^A K ;  ! suomalainen ja jok murteen inf
 +V+Inf+Err/Orth:^E2I%>^A K ; ! var inf
 
@@ -376,7 +380,7 @@ LEXICON v2 !!= @CODE@ ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, 
 +V+Act+Inf3:%>m^A MATON ;
 +V+Der+Der/minen:mi n_22_inen ;
 
-LEXICON v2_si !!= @CODE@ ! pyyttäät:pyysi
+LEXICON v2_si !!≈ **@CODE@** ! pyyttäät:pyysi
 +V+Inf:%>^Vt K ;
 +V+Inf+Err/Orth:^A K ;  ! suomalainen ja jok murteen inf
 +V+Inf+Err/Orth:^E2I%>^A K ; ! var inf
@@ -425,7 +429,7 @@ LEXICON v2_si !!= @CODE@ ! pyyttäät:pyysi
 +V+Der+Der/minen:mi n_22_inen ;
 
 
-LEXICON v2_tiettäät !!= @CODE@ tiettäät
+LEXICON v2_tiettäät !!≈ **@CODE@** tiettäät
 +V+Inf:tä%>^Vt K ;
 +V+Inf+Err/Orth:tä%>^A K ;  !
 +V+Act+Ind+Prs:tä^WG v12pers_short ;
@@ -470,7 +474,7 @@ LEXICON v2_tiettäät !!= @CODE@ tiettäät
 +V+Der+Der/minen:tämi n_22_inen ;
 
 
-LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
+LEXICON v2_odd !!≈ **@CODE@** kirjoittaat:kirjoitta
 +V+Inf:%>^Vt K ;        ! kveenin inf valmistuut
 +V+Inf+Err/Orth:%>^A K ; ! suomalainen inf valmistua
 
@@ -517,7 +521,7 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 +V+Act+Inf3:%>m^A MATONodd ;
 +V+Der+Der/minen:mi n_22_inen ;
 
-!v2_ta LEXICON v2_ta_odd !!= @CODE@ kumarttaat
+!v2_ta LEXICON v2_ta_odd !!≈ **@CODE@** kumarttaat
 !v2_ta +V+Inf:t^A%>^Vt K ;        ! kveenin inf valmistuut
 !v2_ta +V+Inf+Err/Orth:t^A%>^A K ; ! suomalainen inf valmistua
 !v2_ta +V+Act+Ind+Prs:t^A^WG v12pers_long ;
@@ -559,13 +563,15 @@ LEXICON v2_odd !!= @CODE@ kirjoittaat:kirjoitta
 !v2_ta +V+Act+Inf3:t^A%>m^A MATONodd ;
 
 
+!! ### Verbiluokat v3...
 
-LEXICON v3_ele_short ! nielä:niel
+LEXICON v3_ele_short
+!! **LEXICON @LEXNAME@** = nielä:niel
 +V+Inf:^WG%>^A K ; ! short infinitive
 +V+Act+Ind+Prs+Sg3:%>ee K ;
 v3_ele_notinf ;      ! the rest is identical
 
-LEXICON v3_ele !!= @CODE@ ajatella:ajattel
+LEXICON v3_ele !!≈ **@CODE@** ajatella:ajattel
 +V+Inf:^WG%>l^A K ; ! long infinitive
 +V+Act+Ind+Prs+Sg3:%>lee K ;
 v3_ele_notinf ;       ! the rest is identical
@@ -614,7 +620,7 @@ LEXICON v3_ele_notinf
 +V+Act+Inf3:e%>m^A MATON ;
 +V+Der+Der/minen:emi n_22_inen ;
 
-LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
+LEXICON v3_ele_odd !!≈ **@CODE@** kävelä:kävel
 +V+Inf:^WG%>^A K ;
 +V+Act+Ind+Prs+Sg3:%>ee K ;
 +V+Act+Ind+Prs+Pl3:^WG%>h^A^An K ;
@@ -661,10 +667,10 @@ LEXICON v3_ele_odd !!= @CODE@ kävelä:kävel
 +V+Act+Inf3:e%>m^A MATONodd ;
 +V+Der+Der/minen:emi n_22_inen_odd ;
 
-LEXICON v3_ise !!= @CODE@ aukaista:aukaise
+LEXICON v3_ise !!≈ **@CODE@** aukaista:aukaise
 +v1:is v3_ise_inflection ; ! täristä
 
-LEXICON v3_aise !!= @CODE@ aukaista:aukaise
+LEXICON v3_aise !!≈ **@CODE@** aukaista:aukaise
 +v1+Dial/Por:is v3_ise_inflection ; ! aukaista, aukaisen, ...
 +v1+Dial/Por:s v3_ise_inflection ; ! aukasta, aukasen, ...
 +v2+Dial/Var:s v3_ise_inflection ; ! aukasta, aukasen, ...
@@ -718,7 +724,7 @@ LEXICON v3_ise_inflection
 +V+Act+Inf3:e%>m^A MATONodd ;
 +V+Der+Der/minen:emi n_22_inen_odd ;
 
-LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
+LEXICON v3_lnr !!≈ **@CODE@** ja vartalo on pan-
 +V+Inf:%>^N^A K ; !! * pitää tehdä ^D
 +V+Act+Ind+Prs+Sg3:%>^N%>ee K ;         ! tullee
 +V+Act+Ind+Prs+Sg3+Err/Orth:%>e%>e K ;  ! tulee
@@ -762,8 +768,8 @@ LEXICON v3_lnr !!= @CODE@ ja vartalo on pan-
 +V+Act+Inf3:e%>m^A MATON ;
 +V+Der+Der/minen:emi n_22_inen ;
 
-LEXICON v3_s !!= @CODE@ ja vartalo on pan-
-+V+Inf:%>t^A K ; !! * pitää tehdä ^D
+LEXICON v3_s !!≈ **@CODE@** kusta, nousta, pestä, päästä ja vartalo on kus-
++V+Inf:%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>ee K ;
 +V+Act+Ind+Prs+Pl3:%>h^A^An K ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
@@ -804,7 +810,7 @@ LEXICON v3_s !!= @CODE@ ja vartalo on pan-
 +V+Act+Inf3:e%>m^A MATON ;
 +V+Der+Der/minen:emi n_22_inen ;
 
-LEXICON v3piera !!= @CODE@ pierä:pie
+LEXICON v3piera !!≈ **@CODE@** pierä:pie
 +V+Inf:r^A K ; !! * pitää tehdä ^D
 +V+Act+Ind+Prs+Sg3:%>ree K ;
 +V+Act+Ind+Prs+Pl3:%>rh^A^An K ;
@@ -844,7 +850,7 @@ LEXICON v3piera !!= @CODE@ pierä:pie
 +V+Act+Inf3:e%>m^A MATON ;
 +V+Der+Der/minen:emi n_22_inen ;
 
-LEXICON v3juosta !!= @CODE@ juosta:juo
+LEXICON v3juosta !!≈ **@CODE@** juosta:juo
 +V+Inf:s%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>ksee K ;
 +V+Act+Ind+Prs+Pl3:%>sth^A^An K ;
@@ -885,7 +891,9 @@ LEXICON v3juosta !!= @CODE@ juosta:juo
 +V+Act+Inf3:%>kse%>m^A MATON ;
 +V+Der+Der/minen:ksemi n_22_inen ;
 
-LEXICON v4 !!= @CODE@ vanheta:vanhe, pajeta:pake
+!! ### Verbiluokat v4...
+
+LEXICON v4 !!≈ **@CODE@** vanheta:vanhe, pajeta:pake
 +V+Inf:^WG%>t^A K ;
 +V+Act+Ind+Prs+Sg3:nee K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
@@ -926,7 +934,7 @@ LEXICON v4 !!= @CODE@ vanheta:vanhe, pajeta:pake
 +V+Act+Inf3:%>ne%>m^A MATONodd ;
 +V+Der+Der/minen:nemi n_22_inen ;
 
-LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
+LEXICON v4_itte !!≈ **@CODE@** ja vartalo on - kyyti
 +V+Inf:%>t^A K ;
 +V+Act+Ind+Prs+Sg3:ttee K ;
 +V+Act+Ind+Prs+Pl3:%>th^A^An K ;
@@ -970,7 +978,7 @@ LEXICON v4_itte !!= @CODE@ ja vartalo on - kyyti
 +V+Der+Der/minen:ttemi n_22_inen ;
 
 
-LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
+LEXICON v4_oitte !!≈ **@CODE@** ja vartalo on haravoi-
 +V+Inf:%>t^A K ;
 +V+Inf+Err/Orth:%>đ^A K ;
 +V+Act+Ind+Prs+Sg3:ttee K ;
@@ -1012,7 +1020,7 @@ LEXICON v4_oitte !!= @CODE@ ja vartalo on haravoi-
 +V+Act+Inf3:%>tte%>m^A MATON ;
 +V+Der+Der/minen:ttemi n_22_inen ;
 
-LEXICON v43 !!= @CODE@ hantteerata:hantteera
+LEXICON v43 !!≈ **@CODE@** hantteerata:hantteera
 +V+Inf:^WG%>t^A K ; !
 +V+Act+Ind+Prs+Sg3:%>^V K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
@@ -1054,7 +1062,7 @@ LEXICON v43 !!= @CODE@ hantteerata:hantteera
 +V+Act+Inf3:%>^V%>m^A MATONodd ;
 +V+Der+Der/minen:%>^V%>mi n_22_inen ;
 
-LEXICON v43_odd !!= @CODE@ jatkata:jatka
+LEXICON v43_odd !!≈ **@CODE@** jatkata:jatka
 +V+Inf:^WG%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>^V K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
@@ -1097,7 +1105,7 @@ LEXICON v43_odd !!= @CODE@ jatkata:jatka
 +V+Der+Der/minen:%>^V%>mi n_22_inen ;
 
 
-LEXICON v43_odd_II !!= @CODE@ jatkata:jatka
+LEXICON v43_odd_II !!≈ **@CODE@** jatkata:jatka
 +V+Inf:^WG%>i%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>^V K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>i%>th^A^An K ;
@@ -1155,13 +1163,13 @@ LEXICON v12pers_short
  +Pl1:%>m^A K ;
  v12pers ;
 
-LEXICON v12pers !!= @CODE@ Only sg12, pl12 so far
+LEXICON v12pers !!≈ **@CODE@** Only sg12, pl12 so far
  +Sg1:%>n K ;
  +Sg2:%>t K ;
  +Pl2:%>tt^A K ;
 
 
-LEXICON PRFPRC_OBL !!= @CODE@ is without nom sg
+LEXICON PRFPRC_OBL !!≈ **@CODE@** is without nom sg
 ! obl_strong_odd ;
 ! +Sg:%>i2 com ;
 ! +Pl:%>i2 com ;
