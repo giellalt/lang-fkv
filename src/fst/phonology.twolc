@@ -1171,7 +1171,7 @@ a:o <=> [#:|.#.] Cns:* UnroundedVow ([u|i|e|a]) (Cns:*) (Vow:*) Cns:+ (:Cns) _ (
 
 "ä:ö before Pl i"
 !! Rule: **@RULENAME@**
-ä:ö <=>  Cns: FrontVow+ Cns:+ Vow:+ ([j|l|n]) _ (Dial:) (%^WG:0) %^AO: %> i2: ; ! kynttilöitä, tekkiijöitä
+ä:ö <=>  Cns: FrontVow+ Cns:+ Vow:+ ([j|k :0|l|n]) _ (Dial:) (%^WG:0) %^AO: %> i2: ; ! kynttilöitä, tekkiijöitä, peniköitä
 
 ! Sitte vartalon loppuvokaali muuttu o:ksi, kun vartalon alussa on a-, e- tai i- (ei pyöreä vokaali)
 ! , esimerkiksi reuna: reunhoin, aika:aikhoin
@@ -1384,7 +1384,7 @@ Vx:e <=>  [.#.|#:] Cns:* Vow: (Vow:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
 ! 1. "Shortening of long vowel in front of i"
 ! 2. "Stem deletion in h-illative"
  ä:0 <=>       Cns:+ _ (%^WG:) (%^AO:) %> i3: ; ! lenttäät:lensin
-        Cns:+ (:Cns) _ (Dial:) (%^WG:) %> i2: ; ! häntä:hänttiin
+        Cns:+ (:Cns) _ (Dial:) (%^WG:) (%^A0:) %> i2: ; ! häntä:hänttiin, pykälä:pykälissä
                      _ ä %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; ! 1.
             ä _ %^VDEL:0  (Dummy:) %> [s|t] ;
   :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:ä|i:] ; 
