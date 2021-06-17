@@ -1,5 +1,758 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **X** maps X everywhere
+
+
+* **REMOVE X** removes X whenever there is any other tag.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Disambiguator for Kven
 
 ## Sets
@@ -772,759 +1525,6 @@ Imperative
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **X** maps X everywhere
-
-
-* **REMOVE X** removes X whenever there is any other tag.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
  Sámi language technology project 2003-2014, University of Tromsø # 
@@ -1542,408 +1542,6 @@ Here we remove special tags for MT
 
 Here we remove semantic tags for all other words than
 proper nouns.  
-
-
-
-
-
-
-# LEXICA FOR KVEN VERB INFLECTION
-
-This file documents [affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/verbs.lexc)
-
-## Auxiliaries
-
-
- **LEXICON neg** jakaantuu kolmeen
-
-
- **LEXICON indneg** negaation indikatiivipäätteet
-
-Note that lexicon indneg directs to K_NEG and not to K,
-this is since we have enkä but not enkin
-
- **LEXICON imprtneg** negaation imperatiivipäätteet
-
- **LEXICON OLLA** on oma leksikko, vielä vain preesens
-
-
-
-
-
-## Regular verbs
-
-
-
-
-### Verbiluokat v1...
-
-Luokkien v1, v2... Eiran kieliopin mukaan.
-Tarvitaan luultavasti alaluokkia.
-
-Jokaisessa leksikossa on infinitiivi, kolmannen
-persoonan pääteet, ja viittaus preesensin ja preteritin
-kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
-
- **LEXICON v1** saađa:saa
-
-
-
-
- **LEXICON v1iđa** Cond uiđa:uisin
-
-
-
-
- **LEXICON v1kayda** käyđä:kä
-
-
-
-
-
- **LEXICON v1nahda** nähđä:nä
-
-
-
-
- **LEXICON v1tehda** tehđä:te
-
-
-
-
-
-### Verbiluokat v2...
-
- **LEXICON v2** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
-
-
-
-
-
-
-
-
- **LEXICON v2_si** ! pyyttäät:pyysi
-
-
-
-
-
-
-
-
-
- **LEXICON v2_tiettäät** tiettäät
-
-
-
-
-
- **LEXICON v2_odd** kirjoittaat:kirjoitta
-
-
-
-
-
-
-
-
-
-### Verbiluokat v3...
-
-**LEXICON v3_ele_short** = nielä:niel
-
- **LEXICON v3_ele** ajatella:ajattel
-
-
-
-
-
- **LEXICON v3_ele_odd** kävelä:kävel
-
-* aukaista > aukaisemma
-* täristä > tärisemä
-
-
-
-
- **LEXICON v3_ise** aukaista:aukaise
-
- **LEXICON v3_aise** aukaista:aukaise
-
-
-
-
-
-
- **LEXICON v3_lnr** ja vartalo on pan-
-* pitää tehdä ^D
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-
-
-
-
- **LEXICON v3_s** kusta, nousta, pestä, päästä ja vartalo on kus-
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-
-
-
-
- **LEXICON v3piera** pierä:pie
-* pitää tehdä ^D
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-
-
-
-
- **LEXICON v3juosta** juosta:juo
-
-
-
-
-### Verbiluokat v4...
-
- **LEXICON v4** vanheta:vanhe, pajeta:pake
-
-
-
-
- **LEXICON v4_itte** ja vartalo on - kyyti
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-+V+Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
-
-
-
-
-
- **LEXICON v4_oitte** ja vartalo on haravoi-
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-+V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
-
-
-
-
- **LEXICON v43** hantteerata:hantteera
-
-
-
-
- **LEXICON v43_odd** jatkata:jatka
-
-
-
-
-
- **LEXICON v43_odd_II** jatkata:jatka
-
-
-
-
-## Verbien persoonapäätteet
-
-Tämä osa antaa personapäätteet.
-1. ja 2. persoona erikseen, koska ne ovat samoja
-preesensissä ja preterissä.
-3. persoona annettiin jo vartaloleksikoissa.
-
-
-
-
- **LEXICON v12pers** Only sg12, pl12 so far
-
-
- **LEXICON PRFPRC_OBL** is without nom sg
-
-
-
- * **LEXICON ab-noun   **
-
-
- * **LEXICON ab-adj   **
-
-
- * **LEXICON ab-adv   **
-
-
- * **LEXICON ab-num   **
-
-### Lexicons without final period
-
-
- * **LEXICON ab-nodot-noun   **  The bulk
-
-
- * **LEXICON ab-nodot-adj   **
-
-
- * **LEXICON ab-nodot-adv   **
-
- * **LEXICON ab-nodot-num   **
-
-### Lexicons with final period
-
-
- * **LEXICON ab-dot-noun   **  This is the lexicon for abbrs that must have a period.
-
-
- * **LEXICON ab-dot-adj   **  This is the lexicon for abbrs that must have a period.
-
- * **LEXICON ab-dot-adv   **  This is the lexicon for abbrs that must have a period.
-
- * **LEXICON ab-dot-num   **  This is the lexicon for abbrs that must have a period.
-
- * **LEXICON ab-dot-cc   **
-
-
-
- * **LEXICON ab-dot-verb   **
-
-
-
-
-
-
- * **LEXICON nodot-attrnomaccgen-infl   **
-
- * **LEXICON nodot-attr-infl   **
-
- * **LEXICON nodot-nomaccgen-infl   **
-
-
- * **LEXICON dot-attrnomaccgen-infl   **
-
- * **LEXICON dot-attr   **
-
- * **LEXICON dot-nomaccgen-infl   **
-
-
- * **LEXICON DOT   ** - Adds the dot to dotted abbreviations.
-
-
-
-
-
-
-
- 2007 s.87
-* 1. Yksitav. / Vi ( maa, tuorestai)	 = vanha_n_1
-* 1.1. Yksitav. monikko/ Vi ( häät)	 = vanha_n_1pl
-* 2. Vokaalirankaiset
-    - 2.1 Kaksitav. ( aika, pappi)	 = vanha_n_21
-        - 2.1.1. Kaksitav. monikko (housut)  = vanha_n_21pl
-        - 2.1.2. Kaksitav. (joki: joke)      = vanha_n_21ie
-    - 2.2. Usseempitav. (opettaaja)	 = vanha_n_22
-        - 2.2.1. Usseempitav. odd (meininki, tunturi)= vanha_n_22odd
-        - 2.2.2. Usseempitav. mon. oi (kulkkiija) = vanha_n_22oi
-    - 2.3 Kokkoontumanom. ( valkkee,)	= vanha_n_23
-    - 2.3.1 Kokkoontumanom. ( assii)     = vanha_n_23ii
-* 3. Konsonanttirankaiset
-    - 3.1 Kaksitav. ( pieni, kieli)  = vanha_n_31
-    - 3.1.1. lumi:lumen:lunta      = vanha_n_31m
-    - 3.1.2. (käsi, vuosi)   = vanha_n_31si
-    - 3.1.3. (lapsi)	     = vanha_n_31lapsi
-    - 3.1.4. (mies)		= vanha_n_31mies
-    - 3.2 Usseempitav. ( tytär)
-        - 3.2.1 (tytär)            = vanha_n_32
-        - 3.2.2. (elläin: elläimen  = vanha_n_32m
-        - 3.2.3. (rakkhaus)	  = vanha_n_32s
-    - 3.3 Kokkoontumanom. ( opas, huonet)
-    - 3.3.1 (opas)               = vanha_n_33s
-    - 3.3.2 (asukas)             = vanha_n_33s
-    - 3.3.3. (ruvis)             = vanha_n_33is
-    - 3.3.4 (huonet)             = vanha_n_33t
-    - 3.3.5 (kirves)		   = vanha_n_33ts
-* 4. Ekstrakonsonanttirankaiset
-    - 4.1 veres-nominit ( veres, kokkous)		= vanha_n_41
-    - 4.1.1. veres-nominit monikko ( veljekset)	= vanha_n_41pl
-    - 4.2 –inen-nominit ( kainulainen)		  	= vanha_n_42 = nen
-        - 4.2.1 -inen-nominit Pl (tervheiset)	  	= vanha_n_42pl = nen
-        - 4.2.2 -inen-nominit odd (vihrinen)	  	= vanha_n_42odd = nen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2080,6 +1678,85 @@ tuotä
 
 
 
+
+
+
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+
+
+
+ * **LEXICON ab-noun   **
+
+
+ * **LEXICON ab-adj   **
+
+
+ * **LEXICON ab-adv   **
+
+
+ * **LEXICON ab-num   **
+
+### Lexicons without final period
+
+
+ * **LEXICON ab-nodot-noun   **  The bulk
+
+
+ * **LEXICON ab-nodot-adj   **
+
+
+ * **LEXICON ab-nodot-adv   **
+
+ * **LEXICON ab-nodot-num   **
+
+### Lexicons with final period
+
+
+ * **LEXICON ab-dot-noun   **  This is the lexicon for abbrs that must have a period.
+
+
+ * **LEXICON ab-dot-adj   **  This is the lexicon for abbrs that must have a period.
+
+ * **LEXICON ab-dot-adv   **  This is the lexicon for abbrs that must have a period.
+
+ * **LEXICON ab-dot-num   **  This is the lexicon for abbrs that must have a period.
+
+ * **LEXICON ab-dot-cc   **
+
+
+
+ * **LEXICON ab-dot-verb   **
+
+
+
+
+
+
+ * **LEXICON nodot-attrnomaccgen-infl   **
+
+ * **LEXICON nodot-attr-infl   **
+
+ * **LEXICON nodot-nomaccgen-infl   **
+
+
+ * **LEXICON dot-attrnomaccgen-infl   **
+
+ * **LEXICON dot-attr   **
+
+ * **LEXICON dot-nomaccgen-infl   **
+
+
+ * **LEXICON DOT   ** - Adds the dot to dotted abbreviations.
 
 
 
@@ -2378,63 +2055,73 @@ forms which requires great amount of care in the inflection patterns.
 
 
 
-Affix file for Kven adjectives
+# LEXICA FOR KVEN VERB INFLECTION
 
-# The base lexica
+This file documents [affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/verbs.lexc)
 
-Each a_ lexicon gets the +A tag and is then redirected to
-a common x_ lexicon in the noun file, while compar and superl are here.
+## Auxiliaries
 
 
+ **LEXICON neg** jakaantuu kolmeen
 
 
+ **LEXICON indneg** negaation indikatiivipäätteet
 
+Note that lexicon indneg directs to K_NEG and not to K,
+this is since we have enkä but not enkin
 
+ **LEXICON imprtneg** negaation imperatiivipäätteet
 
+ **LEXICON OLLA** on oma leksikko, vielä vain preesens
 
 
 
 
 
-                            long_par        ;
+## Regular verbs
 
 
 
 
+### Verbiluokat v1...
 
+Luokkien v1, v2... Eiran kieliopin mukaan.
+Tarvitaan luultavasti alaluokkia.
 
+Jokaisessa leksikossa on infinitiivi, kolmannen
+persoonan pääteet, ja viittaus preesensin ja preteritin
+kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
+ **LEXICON v1** saađa:saa
 
 
 
 
- * LEXICON vanha_nocomp_a_21  
+ **LEXICON v1iđa** Cond uiđa:uisin
 
- * LEXICON a_11_i   siisti
 
 
 
+ **LEXICON v1kayda** käyđä:kä
 
 
- * LEXICON a_11   hieno, tuttu, syyry
 
- * LEXICON a_11_E2I  moni, umpi, pälvi 
 
 
- * LEXICON a_11_ae   väärä, nöyrä
+ **LEXICON v1nahda** nähđä:nä
 
 
- * LEXICON a_21	  liberaali !TODO: selvittää kannattaako siirtää osa sanoista toiseen ryhmään vai muuttaa tämän ryhmän nimen 
 
 
- * LEXICON a_21_odd	 loistaava 
+ **LEXICON v1tehda** tehđä:te
 
 
 
 
 
+### Verbiluokat v2...
 
- * LEXICON a_31_ee	  pimmee, valkkee, kauhhee, hoppee ! TODO sort out nouns and adjectives
+ **LEXICON v2** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
 
 
 
@@ -2443,155 +2130,145 @@ a common x_ lexicon in the noun file, while compar and superl are here.
 
 
 
+ **LEXICON v2_si** ! pyyttäät:pyysi
 
 
 
- * LEXICON a_31_ii   auttii
 
- * LEXICON a_31_uu   liehmuu
 
- * LEXICON vanha_a_23ea	 pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
 
 
- * LEXICON a_12	  pieni
 
- * LEXICON a_12_si	 uusi. uussiin only por, always one s in Var
 
+ **LEXICON v2_tiettäät** tiettäät
 
 
 
- * LEXICON a_22  tyven
 
- * LEXICON vanha_a_32m  irtain
 
- * LEXICON a_22_ma  vasen sg taipuu kuitenki -ma, lämmin:lämpi
+ **LEXICON v2_odd** kirjoittaat:kirjoitta
 
 
 
 
 
- * LEXICON a_32_as  raskas
 
- * LEXICON vanha_a_33aes  sinnikäs
 
 
- * LEXICON a_32_is  valmis, kaunis
 
+### Verbiluokat v3...
 
- * LEXICON a_32_kärys  kärys, so far this is the only word
+**LEXICON v3_ele_short** = nielä:niel
 
+ **LEXICON v3_ele** ajatella:ajattel
 
 
 
 
- * LEXICON a_32_et  tuoret
 
- * LEXICON a_32_u  vaipunu:vaipun ! perfect participle
+ **LEXICON v3_ele_odd** kävelä:kävel
 
- * LEXICON a_32_väsynyt  väsyny:väsyn, so far this is the only word ! perfect participle
+* aukaista > aukaisemma
+* täristä > tärisemä
 
- * LEXICON a_32_nny  hengistynny:hengistynn
 
- * LEXICON a_22_excns  = veres
 
 
+ **LEXICON v3_ise** aukaista:aukaise
 
+ **LEXICON v3_aise** aukaista:aukaise
 
 
- * LEXICON a_22_inen  varovainen
 
 
- * LEXICON a_22_inen_odd  sininen
 
 
+ **LEXICON v3_lnr** ja vartalo on pan-
+* pitää tehdä ^D
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+* Lyhyt partisiippi
 
 
- LEXICON MATON  ! TODO TODO TODO ajattelemattomalle lle lla nna
 
 
- * LEXICON a_22_ton_even  muuttumaton
+ **LEXICON v3_s** kusta, nousta, pestä, päästä ja vartalo on kus-
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+* Lyhyt partisiippi
 
 
 
 
+ **LEXICON v3piera** pierä:pie
+* pitää tehdä ^D
+* Lyhyt partisiippi
+* Lyhyt partisiippi
 
 
- * LEXICON a_22_ton_odd  onneton
 
 
- LEXICON MATONodd  ! käymättömäle le la na ! TODO Probably not in use atm
+ **LEXICON v3juosta** juosta:juo
 
- * LEXICON x_22_ton  onneton
 
 
 
+### Verbiluokat v4...
 
- * LEXICON x_22_ton_yksi_t  alaston yhelä -t:läm alastoman
+ **LEXICON v4** vanheta:vanhe, pajeta:pake
 
 
 
 
+ **LEXICON v4_itte** ja vartalo on - kyyti
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+* Lyhyt partisiippi
++V+Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
 
-# Basic paradigms
 
-Most cases are directed to affixes/nouns.lexc
 
 
+ **LEXICON v4_oitte** ja vartalo on haravoi-
+* Lyhyt partisiippi
+* Lyhyt partisiippi
++V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
-## Lexica for the non-uniform cases
 
 
 
+ **LEXICON v43** hantteerata:hantteera
 
 
 
 
+ **LEXICON v43_odd** jatkata:jatka
 
 
 
 
 
+ **LEXICON v43_odd_II** jatkata:jatka
 
 
 
 
+## Verbien persoonapäätteet
 
+Tämä osa antaa personapäätteet.
+1. ja 2. persoona erikseen, koska ne ovat samoja
+preesensissä ja preterissä.
+3. persoona annettiin jo vartaloleksikoissa.
 
 
 
 
+ **LEXICON v12pers** Only sg12, pl12 so far
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ **LEXICON PRFPRC_OBL** is without nom sg
 # Sublexica for NounRoot
 
 Aloitin sovittaa analyysin Eiran kieliopin mukaan (Porsanki).
@@ -3168,8 +2845,331 @@ Basic paradigms
 
 
 
+Affix file for Kven adjectives
 
-# Symbol affixes
+# The base lexica
+
+Each a_ lexicon gets the +A tag and is then redirected to
+a common x_ lexicon in the noun file, while compar and superl are here.
+
+
+
+
+
+
+
+
+
+
+
+
+                            long_par        ;
+
+
+
+
+
+
+
+
+
+
+
+ * LEXICON vanha_nocomp_a_21  
+
+ * LEXICON a_11_i   siisti
+
+
+
+
+
+ * LEXICON a_11   hieno, tuttu, syyry
+
+ * LEXICON a_11_E2I  moni, umpi, pälvi 
+
+
+ * LEXICON a_11_ae   väärä, nöyrä
+
+
+ * LEXICON a_21	  liberaali !TODO: selvittää kannattaako siirtää osa sanoista toiseen ryhmään vai muuttaa tämän ryhmän nimen 
+
+
+ * LEXICON a_21_odd	 loistaava 
+
+
+
+
+
+
+ * LEXICON a_31_ee	  pimmee, valkkee, kauhhee, hoppee ! TODO sort out nouns and adjectives
+
+
+
+
+
+
+
+
+
+
+
+ * LEXICON a_31_ii   auttii
+
+ * LEXICON a_31_uu   liehmuu
+
+ * LEXICON vanha_a_23ea	 pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
+
+
+ * LEXICON a_12	  pieni
+
+ * LEXICON a_12_si	 uusi. uussiin only por, always one s in Var
+
+
+
+
+ * LEXICON a_22  tyven
+
+ * LEXICON vanha_a_32m  irtain
+
+ * LEXICON a_22_ma  vasen sg taipuu kuitenki -ma, lämmin:lämpi
+
+
+
+
+
+ * LEXICON a_32_as  raskas
+
+ * LEXICON vanha_a_33aes  sinnikäs
+
+
+ * LEXICON a_32_is  valmis, kaunis
+
+
+ * LEXICON a_32_kärys  kärys, so far this is the only word
+
+
+
+
+
+ * LEXICON a_32_et  tuoret
+
+ * LEXICON a_32_u  vaipunu:vaipun ! perfect participle
+
+ * LEXICON a_32_väsynyt  väsyny:väsyn, so far this is the only word ! perfect participle
+
+ * LEXICON a_32_nny  hengistynny:hengistynn
+
+ * LEXICON a_22_excns  = veres
+
+
+
+
+
+ * LEXICON a_22_inen  varovainen
+
+
+ * LEXICON a_22_inen_odd  sininen
+
+
+
+
+ LEXICON MATON  ! TODO TODO TODO ajattelemattomalle lle lla nna
+
+
+ * LEXICON a_22_ton_even  muuttumaton
+
+
+
+
+
+
+ * LEXICON a_22_ton_odd  onneton
+
+
+ LEXICON MATONodd  ! käymättömäle le la na ! TODO Probably not in use atm
+
+ * LEXICON x_22_ton  onneton
+
+
+
+
+ * LEXICON x_22_ton_yksi_t  alaston yhelä -t:läm alastoman
+
+
+
+
+
+
+# Basic paradigms
+
+Most cases are directed to affixes/nouns.lexc
+
+
+
+## Lexica for the non-uniform cases
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2007 s.87
+* 1. Yksitav. / Vi ( maa, tuorestai)	 = vanha_n_1
+* 1.1. Yksitav. monikko/ Vi ( häät)	 = vanha_n_1pl
+* 2. Vokaalirankaiset
+    - 2.1 Kaksitav. ( aika, pappi)	 = vanha_n_21
+        - 2.1.1. Kaksitav. monikko (housut)  = vanha_n_21pl
+        - 2.1.2. Kaksitav. (joki: joke)      = vanha_n_21ie
+    - 2.2. Usseempitav. (opettaaja)	 = vanha_n_22
+        - 2.2.1. Usseempitav. odd (meininki, tunturi)= vanha_n_22odd
+        - 2.2.2. Usseempitav. mon. oi (kulkkiija) = vanha_n_22oi
+    - 2.3 Kokkoontumanom. ( valkkee,)	= vanha_n_23
+    - 2.3.1 Kokkoontumanom. ( assii)     = vanha_n_23ii
+* 3. Konsonanttirankaiset
+    - 3.1 Kaksitav. ( pieni, kieli)  = vanha_n_31
+    - 3.1.1. lumi:lumen:lunta      = vanha_n_31m
+    - 3.1.2. (käsi, vuosi)   = vanha_n_31si
+    - 3.1.3. (lapsi)	     = vanha_n_31lapsi
+    - 3.1.4. (mies)		= vanha_n_31mies
+    - 3.2 Usseempitav. ( tytär)
+        - 3.2.1 (tytär)            = vanha_n_32
+        - 3.2.2. (elläin: elläimen  = vanha_n_32m
+        - 3.2.3. (rakkhaus)	  = vanha_n_32s
+    - 3.3 Kokkoontumanom. ( opas, huonet)
+    - 3.3.1 (opas)               = vanha_n_33s
+    - 3.3.2 (asukas)             = vanha_n_33s
+    - 3.3.3. (ruvis)             = vanha_n_33is
+    - 3.3.4 (huonet)             = vanha_n_33t
+    - 3.3.5 (kirves)		   = vanha_n_33ts
+* 4. Ekstrakonsonanttirankaiset
+    - 4.1 veres-nominit ( veres, kokkous)		= vanha_n_41
+    - 4.1.1. veres-nominit monikko ( veljekset)	= vanha_n_41pl
+    - 4.2 –inen-nominit ( kainulainen)		  	= vanha_n_42 = nen
+        - 4.2.1 -inen-nominit Pl (tervheiset)	  	= vanha_n_42pl = nen
+        - 4.2.2 -inen-nominit odd (vihrinen)	  	= vanha_n_42odd = nen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4060,45 +4060,9 @@ Rule: **ö:0**
 Rule: **ö:0**
 
 
-# Verbivartalot
+File containing abbreviations 
 
-Katsaus:
-* Epäsäännölliset ei+V+Neg: neg ; olla: OLLA ;
-* YKSITAVUISET v1 saađa, vieđä...
-* Erikoinen yksitavuinen V1nahda, V1tehda V1kayda
-* YKSIVARTALOISET v2 lähteet, lukkeet...
-* v2_odd kirjoittaat
-* KONSONANTTIVARTALOISET v3-tyyppit:
-* v3_ele
-* v3_ele_short kuula
-* v3_ise aukaista :aukais
-* v3_lnr tulla, mennä...
-* v3piera pierä
-* v3_ele_odd kävelä:kävel  ;
-* v3juosta juostajuo v3juosta ;
-* VOKAALIVARTALOISET v4-tyyppiset
-* v4 lämmetä
-* v43 evakueerata
-* v43_odd_II karhiita
-* v4_itte kyytitä: kyyti  ;
-* v4_oitte haravoita
-* kontraktiverbit jatkata:jatka v43_odd ;
-
-# Lexicon VerbRoot 
-
-v_v2
-Now v3_ise all end on s. In order to have aukasevat, as an possible
-Unexpected results: aukasseeva, aukaisseevat
-Missing results: aukasevat, Unexpected results: aukasseevat
-
- * olla: OLLA ; 
- * ei+V+Neg: neg ; 
- * saađa:saa v1 ; 
- * vieđä:vie v1 ; 
- * naiđa:nai v1iđa ; 
- * voiđa:voi v1iđa ; 
- * uiđa:ui v1iđa ; 
-...
+Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
 
 
 
@@ -4113,37 +4077,6 @@ Missing results: aukasevat, Unexpected results: aukasseevat
 
 
 
-
-huokata:huokka v43_odd ;
-puheta:puhke v43_odd ;
-
-
-
-
-
-
-# Propernoun lexicon for Kven
-
-
- LEXICON ProperNoun  on kokeellinen leksikko
-
- * Ap:Ap2 vanha_nocmp_prop_org_21C ; 
- * Kap:Kap2 vanha_prop_sur_21C ; 
- * Tonle-Sap:Tonle-Sap2 vanha_prop_plc_21C ; 
- * Ginungagap:Ginungagap2 vanha_prop_plc_21C ; 
-...
-
-
-
-
-# Prepositiot
-
-Adposittiit eli postposittiit ja preposittiit – esimerkkii
-Aikamatka-sanalista
-
-pr for +Pr tag
-
-Preposition for +Pr tag
 
 
 
@@ -4201,6 +4134,67 @@ Indefiniittipronominit/Kvanttoripronominit
 
 
 
+
+
+
+
+# Closed parts of speech
+
+Tästä tiedostosta löytyvät suljetut sanaluokat.
+
+Particle leksikossa on vain kuusi sanaa
+
+
+
+Subjunction -leksikossa on tärkeimmät sanat (koska, että, jos, ..)
+
+
+
+
+Conjunction -leksikossa on vain pari sanaa. joko - tai
+
+
+
+
+
+Interjection -leksikossa on vain pari sanaa.  yäk, kääk, nono
+
+
+# Postpositioiden vartalot
+
+Tässä sekä postpositiot ja niiden tagi.
+
+ LEXICON post   on itse +Po -tagi
+
+ Postpositiot itse sijaitsevat leksikossa LEXICON Postposition 
+
+Sannoi ja haamui vesta/Varenki 2012 mukkaan.
+
+
+
+
+
+
+
+
+Sannoi ja haamui listan mukkaan
+
+Adverbiaaleja myötä?
+
+TT: Ei. Tässä pitää olla adverbeja vaan.
+Adverbiaali on syntaktinen kategoria ja saa
+analyysinsa eri ohjelmassa (src/syntax/disambiguation.cg3)
+
+
+ * paikala adv ;  ... on esim. substantiivi
+# Prepositiot
+
+Adposittiit eli postposittiit ja preposittiit – esimerkkii
+Aikamatka-sanalista
+
+pr for +Pr tag
+
+Preposition for +Pr tag
 
 
 
@@ -4531,129 +4525,68 @@ being very rare to extinct for nouns.
 
 
 
-# Postpositioiden vartalot
+# Verbivartalot
 
-Tässä sekä postpositiot ja niiden tagi.
+Katsaus:
+* Epäsäännölliset ei+V+Neg: neg ; olla: OLLA ;
+* YKSITAVUISET v1 saađa, vieđä...
+* Erikoinen yksitavuinen V1nahda, V1tehda V1kayda
+* YKSIVARTALOISET v2 lähteet, lukkeet...
+* v2_odd kirjoittaat
+* KONSONANTTIVARTALOISET v3-tyyppit:
+* v3_ele
+* v3_ele_short kuula
+* v3_ise aukaista :aukais
+* v3_lnr tulla, mennä...
+* v3piera pierä
+* v3_ele_odd kävelä:kävel  ;
+* v3juosta juostajuo v3juosta ;
+* VOKAALIVARTALOISET v4-tyyppiset
+* v4 lämmetä
+* v43 evakueerata
+* v43_odd_II karhiita
+* v4_itte kyytitä: kyyti  ;
+* v4_oitte haravoita
+* kontraktiverbit jatkata:jatka v43_odd ;
 
- LEXICON post   on itse +Po -tagi
+# Lexicon VerbRoot 
 
- Postpositiot itse sijaitsevat leksikossa LEXICON Postposition 
+v_v2
+Now v3_ise all end on s. In order to have aukasevat, as an possible
+Unexpected results: aukasseeva, aukaisseevat
+Missing results: aukasevat, Unexpected results: aukasseevat
 
-Sannoi ja haamui vesta/Varenki 2012 mukkaan.
+ * olla: OLLA ; 
+ * ei+V+Neg: neg ; 
+ * saađa:saa v1 ; 
+ * vieđä:vie v1 ; 
+ * naiđa:nai v1iđa ; 
+ * voiđa:voi v1iđa ; 
+ * uiđa:ui v1iđa ; 
+...
 
 
 
 
 
-# Kven language adjectives
 
 
-AdjectiveRoot on alkuvaiheessa vielä.
 
 
 
-TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 
-Kaksitavuiset lyhykäisvokaaliset rangat
- * laiha a_11_AO ; 
- * hieno a_11 ;  needs own adj lex tag
 
- * uusi:uute a_12_si ; 
 
 
 
-TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
+huokata:huokka v43_odd ;
+puheta:puhke v43_odd ;
 
-Usheempitavuiset lyhykäisvokaaliset rangat
 
-Usheempitavuiset (Konsonanttirankaiset?)
- * tyven:tyven a_22 ; 
- * vasen:vase a_22_ma ; 
 
-Usheempitavuiset (Ekstrakonsonanttirankaiset?)
- * veres:vere a_22_excns ; 
 
-Usheempitavuiset -nen-adjektiivit
- * sininen:sini a_22_inen_odd ; 
- * vestainen:vestai a_22_inen_odd ; 
- * konkreettinen:konkreetti a_22_inen_odd ; 
 
-(Usheempitavuiset) -ton-adjektiivit, Pariton määrä tavuja
 
-(Usheempitavuiset) -ton-adjektiivit, Parillinen määrä tavuja
-
-
-
-TYYPPI 3: Pitkävokaaliset rangat
-
-Pitkävokaaliset rangat: (Yksirankaiset kaksitavuiset (Kokoontumanom.?) ?)
- * valkkee:valkke a_31_ee ; 
- * auttii:autt2ii a_31_ii ; 
-
-Pitkävokaaliset Konsonanttirankaiset (Kokoontuma?)
-
-
-
-
-
-
-
-
-
-## 2. Vokaalirankaiset
-
-## 2.1 Kaksitavvuiset lyhykäisvokaaliset rangat
-
-
-## 2.2. Usseempitavvuiset lyhykäisvokaaliset rangat
-
-
-
-## 2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
-
-
-
-## 3. Konsonanttirankaiset
-
-## 3.1. Kaksitavuiset
-
-
-
-## 3.2 Usseaempitavuiset
-
-
-
-## 3.3 Kokoontuma
-
-
-
-
-
-4. Ekstrakonsonanttirankaiset
-
-## 4.1 ekstrakonsonanttirankaiset
-
-
-
-4.2 -nen-adjektiivit
-
-
-
-4.3 -ton-adjektiivit
-
-
-
-
-Sannoi ja haamui listan mukkaan
-
-Adverbiaaleja myötä?
-
-TT: Ei. Tässä pitää olla adverbeja vaan.
-Adverbiaali on syntaktinen kategoria ja saa
-analyysinsa eri ohjelmassa (src/syntax/disambiguation.cg3)
-
-
- * paikala adv ;  ... on esim. substantiivi
 
 # Substantiivit
 
@@ -4766,34 +4699,52 @@ Luokat vanha_n_21  n12 vanha_n_22 vanha_n_22odd vanha_n_32 vanha_n_32s vanha_n_3
     - 4.2 –inen-nominit ( kainulainen)		   		= vanha_n_42 = nen
         - 4.2.1 -inen-nominit Pl (tervheiset)	   		= vanha_n_42pl = nen
         - 4.2.2 -inen-nominit odd (vihrinen)	   		= vanha_n_42odd = nen
-# Closed parts of speech
-
-Tästä tiedostosta löytyvät suljetut sanaluokat.
-
-Particle leksikossa on vain kuusi sanaa
+# Kven language adjectives
 
 
-
-Subjunction -leksikossa on tärkeimmät sanat (koska, että, jos, ..)
+AdjectiveRoot on alkuvaiheessa vielä.
 
 
 
+TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 
-Conjunction -leksikossa on vain pari sanaa. joko - tai
+Kaksitavuiset lyhykäisvokaaliset rangat
+ * laiha a_11_AO ; 
+ * hieno a_11 ;  needs own adj lex tag
 
-
-
-
-
-Interjection -leksikossa on vain pari sanaa.  yäk, kääk, nono
-
-
-File containing abbreviations 
-
-Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
+ * uusi:uute a_12_si ; 
 
 
 
+TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
+
+Usheempitavuiset lyhykäisvokaaliset rangat
+
+Usheempitavuiset (Konsonanttirankaiset?)
+ * tyven:tyven a_22 ; 
+ * vasen:vase a_22_ma ; 
+
+Usheempitavuiset (Ekstrakonsonanttirankaiset?)
+ * veres:vere a_22_excns ; 
+
+Usheempitavuiset -nen-adjektiivit
+ * sininen:sini a_22_inen_odd ; 
+ * vestainen:vestai a_22_inen_odd ; 
+ * konkreettinen:konkreetti a_22_inen_odd ; 
+
+(Usheempitavuiset) -ton-adjektiivit, Pariton määrä tavuja
+
+(Usheempitavuiset) -ton-adjektiivit, Parillinen määrä tavuja
+
+
+
+TYYPPI 3: Pitkävokaaliset rangat
+
+Pitkävokaaliset rangat: (Yksirankaiset kaksitavuiset (Kokoontumanom.?) ?)
+ * valkkee:valkke a_31_ee ; 
+ * auttii:autt2ii a_31_ii ; 
+
+Pitkävokaaliset Konsonanttirankaiset (Kokoontuma?)
 
 
 
@@ -4803,8 +4754,57 @@ Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
 
 
 
+## 2. Vokaalirankaiset
+
+## 2.1 Kaksitavvuiset lyhykäisvokaaliset rangat
 
 
+## 2.2. Usseempitavvuiset lyhykäisvokaaliset rangat
+
+
+
+## 2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
+
+
+
+## 3. Konsonanttirankaiset
+
+## 3.1. Kaksitavuiset
+
+
+
+## 3.2 Usseaempitavuiset
+
+
+
+## 3.3 Kokoontuma
+
+
+
+
+
+4. Ekstrakonsonanttirankaiset
+
+## 4.1 ekstrakonsonanttirankaiset
+
+
+
+4.2 -nen-adjektiivit
+
+
+
+4.3 -ton-adjektiivit
+
+# Propernoun lexicon for Kven
+
+
+ LEXICON ProperNoun  on kokeellinen leksikko
+
+ * Ap:Ap2 vanha_nocmp_prop_org_21C ; 
+ * Kap:Kap2 vanha_prop_sur_21C ; 
+ * Tonle-Sap:Tonle-Sap2 vanha_prop_plc_21C ; 
+ * Ginungagap:Ginungagap2 vanha_prop_plc_21C ; 
+...
 
 
 
