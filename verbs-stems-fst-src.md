@@ -60,3 +60,5 @@ puheta:puhke v43_odd ;
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/verbs.lexc)</small>

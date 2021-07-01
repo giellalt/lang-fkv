@@ -751,3 +751,5 @@
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/old_disambiguation.cg3](http://github.com/giellalt/lang-fkv/blob/main/../src/cg3/old_disambiguation.cg3)</small>

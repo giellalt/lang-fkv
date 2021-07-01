@@ -70,3 +70,5 @@
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/abbreviations.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/abbreviations.lexc)</small>

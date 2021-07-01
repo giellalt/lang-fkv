@@ -20,3 +20,5 @@ Conjunction -leksikossa on vain pari sanaa. joko - tai
 Interjection -leksikossa on vain pari sanaa.  yäk, kääk, nono
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/closed.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/closed.lexc)</small>

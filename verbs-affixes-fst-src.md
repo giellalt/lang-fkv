@@ -212,3 +212,5 @@ preesensissä ja preterissä.
 
 
  **LEXICON PRFPRC_OBL** is without nom sg
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/verbs.lexc)</small>

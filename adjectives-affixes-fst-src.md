@@ -16,7 +16,7 @@ a common x_ lexicon in the noun file, while compar and superl are here.
 
 
 
-                            long_par        ;
+long_par        ;
 
 
 
@@ -212,3 +212,5 @@ Most cases are directed to affixes/nouns.lexc
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/adjectives.lexc)</small>

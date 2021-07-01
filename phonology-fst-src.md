@@ -883,3 +883,5 @@ Rule: **ö:0**
 Rule: **ö:0**
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/phonology.twolc)</small>

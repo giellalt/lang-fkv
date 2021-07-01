@@ -10,7 +10,7 @@ Persoonapronominit
 
  * mie+Pron+Pers+Sg1:m        12pronsg       ; 
  * mie+Pron+Pers+Sg1+Use/NG:m 12pronsg_short ; 
- * ...
+* ...
  * sie+Pron+Pers+Sg2+Use/NG:s 12pronsg_short ; 
 
 
@@ -55,3 +55,5 @@ Indefiniittipronominit/Kvanttoripronominit
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/pronouns.lexc)</small>
