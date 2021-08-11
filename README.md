@@ -3,7 +3,7 @@ The Kven Finnish morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-fkv)](https://github.com/giellalt/lang-fkv/issues)
 [![Build Status](https://github.com/giellalt/lang-fkv/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-fkv/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-fkv)](https://raw.githubusercontent.com/giellalt/lang-fkv/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-fkv)](https://github.com/giellalt/lang-fkv/blob/main/LICENSE)
 
 This repository contains finite state source files for the Kven Finnish language,
 for building morphological analysers, proofing tools
