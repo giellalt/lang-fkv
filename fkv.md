@@ -2516,6 +2516,7 @@ Number-person
  * **+Sem/Domain** = 
  * **+Sem/Domain_Hum** = 
  * **+Sem/Dummytag** = 
+ * **+Sem/Edu** = 
  * **+Sem/Edu_Hum** = 
  * **+Sem/Event** = 
  * **+Sem/Food-med** = 
