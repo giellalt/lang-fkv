@@ -3626,6 +3626,13 @@ Basic paradigms
 
 
 
+
+
+
+
+
+
+
 ### Sublexica for Gen, Par, Ill, Ess and Com.
 
 
