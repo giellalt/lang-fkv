@@ -569,11 +569,13 @@ LEXICON v3_ele_short
 !! **LEXICON @LEXNAME@** = nielä:niel
 +V+Inf:^WG%>^A K ; ! short infinitive
 +V+Act+Ind+Prs+Sg3:%>ee K ;
++V+Act+PrfPrc+Sg+Nom:^WG%>^U K ;
 v3_ele_notinf ;      ! the rest is identical
 
 LEXICON v3_ele !!≈ **@CODE@** ajatella:ajattel
 +V+Inf:^WG%>l^A K ; ! long infinitive
 +V+Act+Ind+Prs+Sg3:%>lee K ;
++V+Act+PrfPrc+Sg+Nom:^WG%>l^U K ;
 v3_ele_notinf ;       ! the rest is identical
 
 LEXICON v3_ele_notinf
@@ -583,7 +585,6 @@ LEXICON v3_ele_notinf
 +V+Act+Ind+Prs:%>e v12pers_short ;
 +V+Act+Ind+Prt:%>i3 v12pers_short ;
 !+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc+Sg+Nom:^WG%>^U K ;
 +V+Act+PrfPrc+Der/A+A:^WG%>le x_31_ee_oblique ;
 +V+Act+Ind+Prt+ConNeg+Sg:^WG%>l^U K ;
 +V+Pass+Ind+Prs:^WG%>h^A^An K ;
