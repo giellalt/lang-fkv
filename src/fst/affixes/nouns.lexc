@@ -1754,20 +1754,20 @@ LEXICON n_22_inen_pl ! !!= @CODE@ tervheiset tervhei
 LEXICON sgpl_cases_even !
            +Ade:%>l^A  PxxK              ; ! Lyhyt perusmuoto vuođela
            +All:%>le   PxxK              ; ! Lyhyt perusmuoto
-  +Dial/Jok+All:%>let  PxxK              ; ! pienelet
+  +Dial/Jok+All:%>let  K                 ; ! pienelet
            +Ade+Err/Orth:%>ll^A  PxxK    ; ! Pitkä perusmuoto väärin
            +All+Err/Orth:%>lle   PxxK    ; ! Pitkä perusmuoto väärin
-  +Dial/Jok+All+Err/Orth:%>llet  PxxK    ; ! Pitkä perusmuoto väärin
+  +Dial/Jok+All+Err/Orth:%>llet  K       ; ! Pitkä perusmuoto väärin
 
                        sgpl_cases_common ;
 
 LEXICON sgpl_cases_odd !
            +Ade:%>ll^A PxxK              ; ! Pitkä perusmuoto
            +All:%>lle  PxxK              ; ! Pitkä perusmuoto
-  +Dial/Jok+All:%>llet PxxK              ; ! pieniimillet
+  +Dial/Jok+All:%>llet K                 ; ! pieniimillet
            +Ade+Err/Orth:%>l^A  PxxK     ; ! Lyhyt perusmuoto väärin
            +All+Err/Orth:%>le   PxxK     ; ! Lyhyt perusmuoto väärin
-  +Dial/Jok+All+Err/Orth:%>let  PxxK     ; ! Lyhyt perusmuoto väärin
+  +Dial/Jok+All+Err/Orth:%>let  K        ; ! Lyhyt perusmuoto väärin
                        sgpl_cases_common ;
 
 LEXICON sgpl_cases_even_Por !
@@ -1788,20 +1788,20 @@ LEXICON sgpl_cases_even_Por !
 LEXICON sgpl_cases_even_JokVar !
            +Ade:%>l^A  PxxK              ; 
            +All:%>le   PxxK              ; 
-  +Dial/Jok+All:%>let  PxxK              ; 
+  +Dial/Jok+All:%>let     K              ; 
            +Ade+Err/Orth:%>ll^A  PxxK    ; 
            +All+Err/Orth:%>lle   PxxK    ; 
-  +Dial/Jok+All+Err/Orth:%>llet  PxxK    ; 
+  +Dial/Jok+All+Err/Orth:%>llet     K    ; 
 
                        sgpl_cases_common ;
 
 !LEXICON sgpl_cases_odd_JokVar !
 !           +Ade:%>ll^A PxxK              ; 
 !           +All:%>lle  PxxK              ; 
-!  +Dial/Jok+All:%>llet PxxK              ; 
+!  +Dial/Jok+All:%>llet    K              ; 
 !           +Ade+Err/Orth:%>l^A  PxxK     ; 
 !           +All+Err/Orth:%>le   PxxK     ; 
-!  +Dial/Jok+All+Err/Orth:%>let  PxxK     ; 
+!  +Dial/Jok+All+Err/Orth:%>let     K     ; 
 !                       sgpl_cases_common ;
 
 
