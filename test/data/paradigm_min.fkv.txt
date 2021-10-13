@@ -20,9 +20,9 @@ A+Ord+Number+Gen
 A+Ord+Number+Ill
 V+Inf
 V+PrfPrc
-V+Ind+Prs+Sg1
-V+Ind+Prs+Sg3
-V+Ind+Prt+3
+V+Act+Ind+Prs+Sg1
+V+Act+Ind+Prs+Sg3
+V+Act+Ind+Prt+3
 Num+Number+Case+Nom
 Pron+Subclass?+Sg+Nom
 Pron+Subclass?+Sg+Gen
@@ -54,7 +54,7 @@ A+ABBR+Attr
 Adv+ABBR
 Num+ABBR+Case?
 V+ABBR+IV+PrfPrc
-V+ABBR+TV+Imprt
+V+ABBR+TV+Act+Imprt
 #ABBR+Wordclass?+Case?+Mood?
 #ABBR+N+Attr
 
