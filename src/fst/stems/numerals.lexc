@@ -5,10 +5,6 @@ LEXICON NUM
 !! Numerals have been split in three sections, the compounding parts
 !! of cardinals and ordinals, and the non-compounding ones:
 !!€gt-norm: Numeral
-!!€ kaksikymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par ! 23,000
-!!€ kakskymmentäkolmetuhatta: kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par
-!!€ kahđessađasneljes: kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom  ! 204rd
-!!€ viitisenkymmentä: viitisen+Num#kymmentä  ! 50-ish
 
 0    NUM_CARD_ALL    ;
 0    NUM_ORD_ALL ;
@@ -22,8 +18,6 @@ LEXICON NUM
 LEXICON NUM_CARD_ALL
 !! The compounding parts of cardinals are the number multiplier words.
 !!€gt-norm: cardinal
-!!€ yksi: yksi+Num+Sg+Nom !one
-!!€ yks: yksi+Num+Sg+Nom
 !!€ viiđele: viisi+Num+Sg+All !five
 !!€ tuhatta: tuhat+Num+Sg+Par !thousand
 yksi+Num:y             NUM_YKSI  ;
@@ -99,9 +93,6 @@ seitsämän+Err/Orth+Num:seitsäm  NUM_YHDEKSÄN    ;
 LEXICON NUM_CARD_SUFFIX
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Cardinal multiplicants
-!!€ viisikymmentä: viisi+Num+Sg+Nom#kymmentä
-!!€ viiskymmentä: viisi+Num+Sg+Nom#kymmentä
-!!€ neljesattaatuhatta: nelje+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta
 kymmentä    NUM_CARD_SUFFIX_TAG   ;
 sataa       NUM_CARD_SUFFIX_TAG   ;
 tuhatta     NUM_CARD_SUFFIX_TAG   ;
@@ -233,8 +224,6 @@ piljardis+A+Ord:piljardi  NUM_KOLMAS   ;
 LEXICON NUM_ORD_SUFFIX
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Ordinal multiplicants
-!!€ viiđeskymmenes: viiđes+A+Ord+Sg+Nom#kymmenes
-!!€ neljessađastuhanes: neljes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#tuhanes
 kymmenes # ;
 sađas # ;
 tuhanes # ;
@@ -305,7 +294,7 @@ LEXICON NUM_OTHERS
 !! There is a set of numbers or corresponding expressions that work like them,
 !! but are not basic cardinals or ordinals:
 !!€gt-norm: Numeral others
-!!€ viitisenkymmentä: viitisen+Num#kymmentä
+!!€ viitisenkymmentä: viitisenkymmentä+Num
 yksisen:yksisen#  NUM_CARD_SUFFIX   ;
 kaksisen:kaksisen#    NUM_CARD_SUFFIX   ;
 yhtisen:yhtisen#  NUM_CARD_SUFFIX   ;
@@ -324,8 +313,6 @@ pari+Num:par           NUM_PARI ;
 !! being very rare to extinct for nouns. 
 LEXICON NUM_YKSI
 !!€gt-norm: Numerals 31
-!!€ yksi: yksi+Num+Sg+Nom
-!!€ yks: yksi+Num+Sg+Nom !sallima puhekieliset haamut ko "yks" ja "kaks"
 !!€ yhtheen: yksi+Num+Sg+Ill
 !!€ yhtenä: yksi+Num+Sg+Ess
 !!€ yhđessä: yksi+Num+Sg+Ine
@@ -353,8 +340,6 @@ LEXICON NUM_YKSI
 
 LEXICON NUM_KAKSI
 !!€gt-norm: Numerals 31 back§
-!!€ kaksi: kaksi+Num+Sg+Nom
-!!€ kaks: kaksi+Num+Sg+Nom !sallima puhekieliset haamut ko "yks" ja "kaks"
 !!€ kahtheen: kaksi+Num+Sg+Ill
 !!€ kahtena: kaksi+Num+Sg+Ess
 !!€ kahđessa: kaksi+Num+Sg+Ine
@@ -437,8 +422,6 @@ LEXICON NUM_NELJÄ
 
 LEXICON NUM_VIISI
 !!€gt-norm: Numerals 27 front
-!!€ viisi: viisi+Num+Sg+Nom
-!!€ viis: viisi+Num+Sg+Nom
 !!€ viitheen: viisi+Num+Sg+Ill
 !!€ viittä: viisi+Num+Sg+Par
 !!€ viiđessä: viisi+Num+Sg+Ine
@@ -468,8 +451,6 @@ LEXICON NUM_VIISI
 
 LEXICON NUM_KUUSI
 !!€gt-norm: Numerals 27 back
-!!€ kuusi: kuusi+Num+Sg+Nom
-!!€ kuus: kuusi+Num+Sg+Nom
 !!€ kuutta: kuusi+Num+Sg+Par
 !!€ kuutena: kuusi+Num+Sg+Ess
 !!€ kuuđessa: kuusi+Num+Sg+Ine
