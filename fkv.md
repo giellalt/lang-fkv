@@ -3840,13 +3840,9 @@ forms which requires great amount of care in the inflection patterns.
 
 
 *Numeral nominative back examples:*
-* *kaksi:* `kaksi+Num+Sg+Nom` (Eng. # two)
-* *kaks:* `kaksi+Num+Sg+Nom`
 
 
 *Numeral nominative front examples:*
-* *yksi:* `yksi+Num+Sg+Nom` (Eng. # one)
-* *yks:* `yksi+Num+Sg+Nom` (Eng. # one)
 
 
 *Numeral nominative plural back examples:*
@@ -4059,13 +4055,9 @@ forms which requires great amount of care in the inflection patterns.
 
 
 *Numeral clitic back examples:*
-* *kaksihan:* `kaksi+Num+Sg+Nom+Foc/han`
-* *kakshan:* `kaksi+Num+Sg+Nom+Foc/han`
 
 
 *Numeral clitic front examples:*
-* *yksihän:* `yksi+Num+Sg+Nom+Foc/han`
-* *ykshän:* `yksi+Num+Sg+Nom+Foc/han`
 
 
 
@@ -4769,27 +4761,18 @@ Numerals have been split in three sections, the compounding parts
 of cardinals and ordinals, and the non-compounding ones:
 
 *Numeral examples:*
-* *kaksikymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par` (Eng. ! 23,000)
-* *kakskymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par`
-* *kahđessađasneljes:* `kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom` (Eng. ! 204rd)
-* *viitisenkymmentä:* `viitisen+Num#kymmentä` (Eng. ! 50-ish)
 
 
 
 The compounding parts of cardinals are the number multiplier words.
 
 *cardinal examples:*
-* *yksi:* `yksi+Num+Sg+Nom` (Eng. !one)
-* *yks:* `yksi+Num+Sg+Nom`
 * *viiđele:* `viisi+Num+Sg+All` (Eng. !five)
 * *tuhatta:* `tuhat+Num+Sg+Par` (Eng. !thousand)
 
 The suffixes only appear after cardinal multipliers
 
 *Cardinal multiplicants examples:*
-* *viisikymmentä:* `viisi+Num+Sg+Nom#kymmentä`
-* *viiskymmentä:* `viisi+Num+Sg+Nom#kymmentä`
-* *neljesattaatuhatta:* `nelje+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta`
 
 
 
@@ -4803,22 +4786,18 @@ The compounding parts of ordinals are the number multiplier words.
 The suffixes only appear after cardinal multipliers
 
 *Ordinal multiplicants examples:*
-* *viiđeskymmenes:* `viiđes+A+Ord+Sg+Nom#kymmenes`
-* *neljessađastuhanes:* `neljes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#tuhanes`
 
 There is a set of numbers or corresponding expressions that work like them,
 but are not basic cardinals or ordinals:
 
 *Numeral others examples:*
-* *viitisenkymmentä:* `viitisen+Num#kymmentä`
+* *viitisenkymmentä:* `viitisenkymmentä+Num`
 
 ## Numeral stem variation
 Numerals follow the same stem variation patterns as nouns, some of these
 being very rare to extinct for nouns. 
 
 *Numerals 31 examples:*
-* *yksi:* `yksi+Num+Sg+Nom`
-* *yks:* `yksi+Num+Sg+Nom` (Eng. !sallima puhekieliset haamut ko "yks" ja "kaks")
 * *yhtheen:* `yksi+Num+Sg+Ill`
 * *yhtenä:* `yksi+Num+Sg+Ess`
 * *yhđessä:* `yksi+Num+Sg+Ine`
@@ -4832,8 +4811,6 @@ being very rare to extinct for nouns.
 
 
 *Numerals 31 back§ examples:*
-* *kaksi:* `kaksi+Num+Sg+Nom`
-* *kaks:* `kaksi+Num+Sg+Nom` (Eng. !sallima puhekieliset haamut ko "yks" ja "kaks")
 * *kahtheen:* `kaksi+Num+Sg+Ill`
 * *kahtena:* `kaksi+Num+Sg+Ess`
 * *kahđessa:* `kaksi+Num+Sg+Ine`
@@ -4876,8 +4853,6 @@ being very rare to extinct for nouns.
 
 
 *Numerals 27 front examples:*
-* *viisi:* `viisi+Num+Sg+Nom`
-* *viis:* `viisi+Num+Sg+Nom`
 * *viitheen:* `viisi+Num+Sg+Ill`
 * *viittä:* `viisi+Num+Sg+Par`
 * *viiđessä:* `viisi+Num+Sg+Ine`
@@ -4892,8 +4867,6 @@ being very rare to extinct for nouns.
 
 
 *Numerals 27 back examples:*
-* *kuusi:* `kuusi+Num+Sg+Nom`
-* *kuus:* `kuusi+Num+Sg+Nom`
 * *kuutta:* `kuusi+Num+Sg+Par`
 * *kuutena:* `kuusi+Num+Sg+Ess`
 * *kuuđessa:* `kuusi+Num+Sg+Ine`

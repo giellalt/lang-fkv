@@ -7,13 +7,9 @@ forms which requires great amount of care in the inflection patterns.
 
 
 *Numeral nominative back examples:*
-* *kaksi:* `kaksi+Num+Sg+Nom` (Eng. # two)
-* *kaks:* `kaksi+Num+Sg+Nom`
 
 
 *Numeral nominative front examples:*
-* *yksi:* `yksi+Num+Sg+Nom` (Eng. # one)
-* *yks:* `yksi+Num+Sg+Nom` (Eng. # one)
 
 
 *Numeral nominative plural back examples:*
@@ -226,13 +222,9 @@ forms which requires great amount of care in the inflection patterns.
 
 
 *Numeral clitic back examples:*
-* *kaksihan:* `kaksi+Num+Sg+Nom+Foc/han`
-* *kakshan:* `kaksi+Num+Sg+Nom+Foc/han`
 
 
 *Numeral clitic front examples:*
-* *yksihän:* `yksi+Num+Sg+Nom+Foc/han`
-* *ykshän:* `yksi+Num+Sg+Nom+Foc/han`
 
 
 
