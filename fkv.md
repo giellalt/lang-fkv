@@ -3153,7 +3153,6 @@ the same affix in sg and pl
  LEXICON n_22_m_pl 
 
 
-
  LEXICON n_22_s   sairhaus
 
 * Konsonanttivartalo: poista -e ja heikko aste
