@@ -272,7 +272,6 @@ kaikkuut:kaiku v2 ;
 keijuut:keiju v2 ;
 sujjuut:suju v2 ;
 suijuut:suiju v2 ;
-paisuut:paisu v2 ;
 johtuut:johtu v2 ;
 tottuut:tottu v2 ;
 kiljuut:kilju v2 ; ! -j ei geminoidu tässä, koska ennen -j oon pitkä tavu. 
@@ -317,7 +316,6 @@ torruut:toru v2 ;
 juoruut:juoru v2 ;
 hauruut:hauru v2 ;
 assuut:asu v2 ;
-!paisuut:paisu v2 ;
 paissuut:paisu v2 ;
 riissuut:riisu v2 ;
 purssuut:pursu v2 ;
@@ -1032,6 +1030,7 @@ laiskutella:laiskuttel v3_ele ;
 viskutella:viskuttel v3_ele ;
 herskutella:herskuttel v3_ele ;
 hullutella:hulluttel v3_ele ;
+ammutella:ammuttel v3_ele ;
 tiputella:tiputtel v3_ele ;
 hoputella:hoputtel v3_ele ;
 juoputella:juoputtel v3_ele ;
@@ -2174,6 +2173,7 @@ employeerata:employeera v43 ; ! nowac
 juryeerata:juryeera v43 ; ! nowac
 verrata:verta v43 ;
 ruveta:rupe v43 ;
+noveta:nope v43 ;
 myöđätä:myötä v43 ;
 
 !! huokata:huokka v43_odd ;
