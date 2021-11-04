@@ -22,8 +22,8 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/fkv/KvenDocumentation.html>
--   <https://giellalt.uit.no/index.html>
+-   <https://giellalt.github.io/lang-fkv/>
+-   <https://giellalt.github.io>
 
 Core dependencies
 -----------------
