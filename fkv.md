@@ -4197,7 +4197,6 @@ the same affix in sg and pl -- tsekkaa long
  * LEXICON n_22_excns  = veres (keskus)
 
 
-
  *  LEXICON n_22_excns_even  = (kuttumus)
 
 
