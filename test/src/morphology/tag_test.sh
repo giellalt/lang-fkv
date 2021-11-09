@@ -30,7 +30,7 @@ sed -e '1,/LEXICON Root/ d' < ../../../src/fst/lexicon.tmp.lexc \
     | tr '¢' '\n'      \
     | tr '#"%' '\n'    \
     | grep -E '(\+|@)' \
-    | sort -u          \
+    | LC_ALL=no_NO.UTF8 sort -u          \
     | grep -E -v '^(\+|\+%|\+\/\-|\+Cmp\-|\+Cmp%\-|\@0|\@%)$' \
     > "${lexctags}"
 
@@ -42,9 +42,9 @@ cut -d '!' -f1 $srcdir/../../../src/fst/root.lexc \
     | grep -E '(\+|@)'                  \
     | tr -d ' '                         \
     | tr -d '\t'                        \
-    | sort -u > "${roottags}"
+    | LC_ALL=no_NO.UTF8 sort -u > "${roottags}"
 
-check=$(comm -23 "${lexctags}" "${roottags}")
+check=$(LC_ALL=no_NO.UTF8 comm -23 "${lexctags}" "${roottags}")
 if [[ -n "${check}" ]]; then
     echo "$0: Have a look at these:"
     echo "${check}"
