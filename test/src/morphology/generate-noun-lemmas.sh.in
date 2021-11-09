@@ -93,7 +93,7 @@ for f in $fsttype; do
     if [ -f "$generator_file.$suffix" ]; then
         let "transducer_found += 1"
 
-###### Test non-comopunds: #######
+###### Test non-compounds: #######
         # generate nouns in Singular, extract the resulting generated lemma,
         # store it:
         sed 's/$/+N+Sg+Nom/' $lemmas | $lookup_tool $generator_file.$suffix \
@@ -130,7 +130,7 @@ for f in $fsttype; do
                 $EXTEDITOR $gen_result_file.$f.txt
                 $EXTEDITOR $ana_result_file.$f.txt
             else
-                echo "There where problem lemmas. Details in:"
+                echo "There were problem lemmas. Details in:"
                 echo "* $result_file.$f.txt    "
                 echo "* $gen_result_file.$f.txt"
                 echo "* $ana_result_file.$f.txt"
