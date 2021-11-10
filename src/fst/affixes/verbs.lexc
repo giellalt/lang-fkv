@@ -569,12 +569,14 @@ LEXICON v3_ele_short
 !! **LEXICON @LEXNAME@** = nielä:niel
 +V+Inf:^WG%>^A K ; ! short infinitive
 +V+Act+Ind+Prs+Sg3:%>ee K ;
++V+Act+Ind+Prt+ConNeg+Sg:^WG%>^U K ;
 +V+Act+PrfPrc+Sg+Nom:^WG%>^U K ;
 v3_ele_notinf ;      ! the rest is identical
 
 LEXICON v3_ele !!≈ **@CODE@** ajatella:ajattel
 +V+Inf:^WG%>l^A K ; ! long infinitive
 +V+Act+Ind+Prs+Sg3:%>lee K ;
++V+Act+Ind+Prt+ConNeg+Sg:^WG%>l^U K ;
 +V+Act+PrfPrc+Sg+Nom:^WG%>l^U K ;
 v3_ele_notinf ;       ! the rest is identical
 
@@ -586,7 +588,6 @@ LEXICON v3_ele_notinf
 +V+Act+Ind+Prt:%>i3 v12pers_short ;
 !+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc+Der/A+A:^WG%>le x_31_ee_oblique ;
-+V+Act+Ind+Prt+ConNeg+Sg:^WG%>l^U K ;
 +V+Pass+Ind+Prs:^WG%>h^A^An K ;
 +V+Pass+Ind+Prt:^WG%>thiin K ; 
 +V+Pass+PrfPrc+Der/A+A:%>e x_31_ee_oblique ;
@@ -778,8 +779,8 @@ LEXICON v3_s !!≈ **@CODE@** kusta, nousta, pestä, päästä ja vartalo on kus
 +V+Act+Ind+Prs:%>e^WG v12pers_short ;
 +V+Act+Ind+Prt:%>i3^WG v12pers_short ;
 +V+Act+PrfPrc+Sg+Nom:%>s^U K ; !! * Lyhyt partisiippi
-+V+Act+Ind+Prt+ConNeg+Sg:%>t^U K ; !! * Lyhyt partisiippi
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !! * Lyhyt partisiippi
++V+Act+Ind+Prt+ConNeg+Sg:%>s^U K ; !! * Lyhyt partisiippi
++V+Pass+PrfPrc+Sg+Nom:%>s^U K ; !! * Lyhyt partisiippi
 !+V+Act+PrfPrc:%>hee PRFPRC_OBL ;
 +V+Act+PrfPrc:%> PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>t%>ee%>v^A K ;
@@ -788,7 +789,6 @@ LEXICON v3_s !!≈ **@CODE@** kusta, nousta, pestä, päästä ja vartalo on kus
 +V+Pass+Ind+Prt:%>thiin K ;
 +V+Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
 +V+Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ;
 +V+Act+Ind+Prs+ConNeg:%>e K ;
 
