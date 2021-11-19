@@ -357,6 +357,47 @@ LEXICON a_22_ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 +A+Pl+Compar+Dial/Por:m^A%>mpp%>i2%>i gen_n ;
 +A+Pl+Superl+Dial/Var:mi5i%>mpp%>i2%>i gen_n ;
 
+LEXICON a_parempi
+
++A+Sg       :%>mp^A    ess_nnA         ;
++A+Sg       :%>m^A     sgpl_cases_odd  ;
+
++A+Pl       :%>mp%>i2  ess_nnA         ;
++A+Pl       :%>mp%>i2  com_nne         ;
++A+Pl       :%>m%>i2   sgpl_cases_odd  ;
+                   a_parempi_common   ;
+
+LEXICON a_parempi_common
++A+Sg       :          nom_mpi        ;
++A+Sg       :%>m^A     gen_n          ;
++A+Sg       :%>mp      par_pA/A_group ; 
++A+Sg       :%>mp      ill_hAAn       ;
+
++A+Pl       :%>m^A     nom_t          ;
++A+Pl       :%>m       gen_mii/mitten ;
++A+Pl       :%>m       par_ppii_group ;
++A+Pl       :%>mp      ill_hiin       ;
+
+LEXICON a_parhain
++A+Sg        :%>mp^A   ess_nnA        ;
++A+Sg        :%>m^A    sgpl_cases_odd ;
+
++A+Pl        :%>mp%>i2 ess_nnA        ;
++A+Pl        :%>mp%>i2 com_nne        ;
++A+Pl        :%>m%>i2  sgpl_cases_odd ;
+                 : a_parhain_common ;
+
+LEXICON a_parhain_common
++A+Sg        :             nom_n          ;
++A+Sg        :%>m^A        gen_n          ;
++A+Sg        :%>n          par_tA         ;
++A+Sg        :%>mp         ill_hAAn       ;
+
++A+Pl        :%>m^A        nom_t          ;
++A+Pl        :%>m          gen_mii/mitten ;
++A+Pl        :%>m          par_ppii_group ;
++A+Pl        :%>mp         ill_hiin       ; 
+
 LEXICON a_32_as !!= * @CODE@ raskas
 +A:    x_32_as ;
 +A:haa comp_m_odd   ;
