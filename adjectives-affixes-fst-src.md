@@ -90,6 +90,15 @@ long_par        ;
 
 
 
+
+
+
+
+
+
+
+
+
  * LEXICON a_32_as  raskas
 
  * LEXICON vanha_a_33aes  sinnikäs
