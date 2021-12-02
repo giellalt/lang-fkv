@@ -82,8 +82,8 @@ kaarttaat:kaarta v2 ;
 haastaat:haasta v2 ;
 kastaat:kasta v2 ;
 haistaat:haista v2 ;
-norjalaistaat:norjalaista v2_odd ;
-ruiđalaistaat:ruiđalaista v2_odd ;
+norjalaistaat:norjalaista v2 ;
+ruiđalaistaat:ruiđalaista v2 ;
 maistaat:maista v2 ;
 paistaat:paista v2 ;
 loistaat:loista v2 ;
@@ -100,8 +100,8 @@ saattaat:saatta v2 ;
 sattaat:satta v2 ;
 laittaat:laitta v2 ;
 taittaat:taitta v2 ;
-vahingoittaat:vahingoitta v2_odd ;
-kunnioittaat:kunnioitta v2_odd ;
+vahingoittaat:vahingoitta v2 ;
+kunnioittaat:kunnioitta v2 ;
 koittaat:koitta v2 ;
 soittaat:soitta v2 ;
 voittaat:voitta v2 ;
@@ -119,8 +119,9 @@ flavuttaat:flavutta v2_odd ;
 eđesauttaat:eđes#autta v2 ;
 sauttaat:sautta v2 ;
 riuttaat:riutta v2 ;
-oksenuttaat:oksenutta v2_odd ;
-muretuttaat:muretutta v2_odd ;
+paranuttaat:paranutta v2 ;
+oksenuttaat:oksenutta v2 ;
+muretuttaat:muretutta v2 ;
 muuttaat:muutta v2 ;
 juttaat:juta v2 ;
 nouttaat:nouta v2 ;
@@ -262,7 +263,7 @@ valvoot:valvo v2 ; ! -v ei geminoidu tässä koska ennen sitä oon pitkä tavu.
 ulvoot:ulvo v2 ; !  -v ei geminoidu tässä koska ennen sitä oon pitkä tavu.
 sauvoot:sauvo v2 ;
 neuvoot:neuvo v2 ;
-happanuttaat:happanutta v2_odd ;
+happanuttaat:happanutta v2 ;
 kuttuut:kutt2u v2 ;
 kiehuut:kiehu v2 ;
 kuohuut:kuohu v2 ;
@@ -408,7 +409,9 @@ ittäät:itä v2 ;
 pittäät:pitä v2 ;
 kielttäät:kieltä v2 ;
 kiilttäät:kiiltä v2 ;
+viilttäät:viiltä v2 ;
 lenttäät:lentä v2 ;
+äänttäät:ääntä v2 ; 
 käänttäät:kääntä v2 ;
 väänttäät:vääntä v2 ;
 kierttäät:kiertä v2 ;
@@ -441,7 +444,7 @@ päättäät:päättä v2 ;
 syöttäät:syöttä v2 ;
 pyyttäät:pyytä v2_si ;
 löyttäät:löytä v2_si ;
-aivastuttaat:aivastutta v2_odd ;
+aivastuttaat:aivastutta v2 ;
 siittäät:siittä v2 ;
 hirttäät:hirttä v2 ;
 kestäät:kestä v2 ;
@@ -678,7 +681,6 @@ heiluttaat:heilutta v2_odd ; ! v2_ta_odd
 kuluttaat:kulutta v2_odd ; ! v2_ta_odd 
 kouluttaat:koulutta v2_odd ; ! v2_ta_odd 
 sammuttaat:sammutta v2_odd ; ! v2_ta_odd 
-paranuttaat:paranutta v2_odd ; ! v2_ta_odd 
 vanuttaat:vanutta v2_odd ; ! v2_ta_odd 
 taputtaat:taputta v2_odd ; ! v2_ta_odd 
 tiputtaat:tiputta v2_odd ; ! v2_ta_odd 
@@ -821,9 +823,7 @@ näyttäyttyyt:näyttäytty v2_odd ;
 räjähtäät:räjähtä v2_odd ;
 säikähtäät:säikähtä v2_odd ;
 vihelttäät:viheltä v2_odd ;
-viilttäät:viiltä v2_odd ;
 sisälttäät:sisältä v2_odd ;
-äänttäät:ääntä v2_odd ; 
 lyhenttäät:lyhentä v2_odd ;
 tyyhenttäät:tyyhentä v2_odd ;
 vähenttäät:vähentä v2_odd ;
