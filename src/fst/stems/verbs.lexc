@@ -1051,10 +1051,10 @@ lähätellä:lähättel v3_ele ;
 leppäätellä:leppäättel v3_ele ;
 piđätellä:piđättel v3_ele ;
 syöksätellä:syöksättel v3_ele ;
-kiiluilla:kiiluil v3_ele ;
-kylväillä:kylväil v3_ele ;
 kuulla:kuul v3_ele ;
 
+kiiluilla:kiiluil v3_ele_odd ;
+kylväillä:kylväil v3_ele_odd ;
 kattela:katt2el v3_ele_odd ;
 vaitela:vait2el v3_ele_odd ;
 työtelä:työt2el v3_ele_odd ; ! XXX vai työđelä?
@@ -1218,7 +1218,7 @@ muijeta:muike v4 ;
 valjeta:valke v4 ;
 seljetä:selke v4 ;
 tarjeta:tarke v4 ;
-liueta:liuke v43_odd ;
+liueta:liuke v4 ;
 kyetä:kyke v4 ;
 pehmetä:pehme v4 ;
 kuumeta:kuume v4 ;
@@ -2171,10 +2171,6 @@ konserveerata:konserveera v43 ; ! nowac
 evakyeerata:evakyeera v43 ;
 employeerata:employeera v43 ; ! nowac
 juryeerata:juryeera v43 ; ! nowac
-verrata:verta v43 ;
-ruveta:rupe v43 ;
-noveta:nope v43 ;
-myöđätä:myötä v43 ;
 
 !! huokata:huokka v43_odd ;
 !! puheta:puhke v43_odd ;
@@ -2371,6 +2367,7 @@ aiđata:aita v43_odd ;
 lannata:lanta v43_odd ;
 hätälannata:hätä#lanta v43_odd ;
 luođata:luota v43_odd ;
+verrata:verta v43_odd ;
 virrata:virta v43_odd ;
 
 huokata:huokka v43_odd ;
@@ -2428,7 +2425,9 @@ poiketa:poikke v43_odd ;
 haljeta:halke v43_odd ;
 iljetä:ilke v43_odd ;
 langeta:lanke v43_odd ;
-noveta:noke v43_odd ;
+nojeta:noke v43_odd ;
+noveta:nope v43_odd ;
+ruveta:rupe v43_odd ;
 katketa:katke v43_odd ;
 ratketa:ratke v43_odd ;
 aueta:auke v43_odd ;
@@ -2526,6 +2525,7 @@ hyyrätä:hyyrä v43_odd ;
 tyyrätä:tyyrä v43_odd ;
 häärätä:häärä v43_odd ;
 määrätä:määrä v43_odd ;
+myöđätä:myötä v43_odd ;
 häklätä:häklä v43_odd ;
 silmätä:silmä v43_odd ;
 räpätä:räpä v43_odd ;
