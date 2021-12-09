@@ -380,6 +380,54 @@ LEXICON v2 !!≈ **@CODE@** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:ka
 +V+Act+Inf3:%>m^A MATON ;
 +V+Der+Der/minen:mi n_22_inen ;
 
+
+LEXICON v2_long ! norjalaistaat:norjalaistin, vahingoittaat:vahingoitin (no AO-tag in Prt)
++V+Inf:%>^Vt K ; 
++V+Inf+Err/Orth:^A K ;  
++V+Inf+Err/Orth:^E2I%>^A K ;
+
++V+Act+Ind+Prs:^WG v12pers_short ;
++V+Act+Ind+Prs+Sg3:%>^V K ;
++V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
+
++V+Act+Ind+Prt:^WG%>i3 v12pers_short ;
++V+Act+Ind+Prt+Sg3:%>i3 K ;
++V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
+
++V+Pass+Ind+Prs:^WG^AE%>th^A^An K ;
++V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
+
++V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
++V+Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
++V+Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ;
++V+Act+PrfPrc:%>^N PRFPRC_OBL ;
++V+Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
++V+Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
++V+Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
++V+Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
++V+Act+Ind+Prs+ConNeg:^WG K ;
+
++V+Act+Cond+Sg1:^VDEL%>i4sin K ;
++V+Act+Cond+Sg2:^VDEL%>i4sit K ;
++V+Act+Cond+Sg3:^VDEL%>i4s K ;
++V+Act+Cond+Pl1:^VDEL%>i4simm^A K ;
++V+Act+Cond+Pl2:^VDEL%>i4sitt^A K ;
++V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
++V+Pass+Cond:^WG^AE%>tt^A%>i4s K ;
+
++V+Act+Imprt+Sg2:^WG K   ;
++V+Act+Imprt+Pl2:%>kk^A^A K ;
+
++V+Act+Inf3+Ine:%>m^Ass^A K ;
++V+Act+Inf3+Ela:%>m^Ast^A K ;
++V+Act+Inf3+Ill:%>mh^A^An K ;
++V+Act+Inf3+Ade:%>m^All^A K ;
++V+Act+Inf3+Abe:%>m^Att^A K ;
++V+Act+Inf3:%>m^A MATON ;
++V+Der+Der/minen:mi n_22_inen ;
+
+
 LEXICON v2_si !!≈ **@CODE@** ! pyyttäät:pyysi
 +V+Inf:%>^Vt K ;
 +V+Inf+Err/Orth:^A K ;  ! suomalainen ja jok murteen inf
