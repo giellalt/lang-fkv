@@ -73,6 +73,16 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 
 
+
+
+
+
+
+
+
+
+
+
  **LEXICON v2_si** ! pyyttäät:pyysi
 
 
