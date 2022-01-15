@@ -2131,6 +2131,10 @@ the same affix in sg and pl
 
 
 
+
+
+
+
  * LEXICON n_11_AO  sana - sanoissa. Linna? Linnoissa? aika
 
  * LEXICON x_11_AO  sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
