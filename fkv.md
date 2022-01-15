@@ -2135,6 +2135,9 @@ the same affix in sg and pl
 
 
 
+
+
+
  * LEXICON n_11_AO  sana - sanoissa. Linna? Linnoissa? aika
 
  * LEXICON x_11_AO  sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
@@ -2461,9 +2464,6 @@ Basic paradigms
 
 
 ### Sublexica for the basic unified cases, with even and odd variations
-
-
-
 
 
 
