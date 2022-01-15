@@ -227,23 +227,35 @@ LEXICON x_11_rest
   +Pl+Dial/Var:^WG%>i2          sgpl_cases_even ;
 
 
-LEXICON n_11_Jok 
-+N:             x_11_Jok     ;
+LEXICON n_11_dial
 
-LEXICON x_11_Jok
-  +Sg+Dial/Jok:                 nom_end         ;
++N   :ku               x_11_dial ;
++N   :k2u              x_11_dial_JokVar ;
+
+LEXICON x_11_dial 
+  +Sg+Dial/Por:                 nom_end         ;
+  +Sg+Dial/Por:^WG              gen_n_sg        ;
+  +Sg+Dial/Por:                 par_V           ;
+  +Sg+Dial/Por:^HMETA           ill_hVVn        ;
+  +Sg+Dial/Por:                 ess_nA          ;
+  +Sg+Dial/Por:^WG              sgpl_cases_even_Por ;
+
+  +Pl+Dial/Por:^WG              nom_t           ;
+  +Pl+Dial/Por:%>i2             gen_n           ;
+  +Pl+Dial/Por:%>i2             par_end         ;
+  +Pl+Dial/Por:^HMETA           ill_hVin        ;
+  +Pl+Dial/Por:%>i2             ess_nA          ;
+  +Pl+Dial/Por:%>i2             com_ne          ;
+  +Pl+Dial/Por:^Por^WG%>i2      sgpl_cases_even_Por ;
+
+LEXICON x_11_dial_JokVar
   +Sg+Dial/Jok:^WG              gen_n_sg        ;
   +Sg+Dial/Jok:                 par_A           ;
-  +Sg+Dial/Jok:^HMETA           ill_hVVn        ;
-  +Sg+Dial/Jok:                 ess_nA          ;
   +Sg+Dial/Jok:^WG              sgpl_cases_even ;
 
-  +Pl+Dial/Jok:^WG              nom_t           ;
   +Pl+Dial/Jok:^WG%>i2          gen_tten        ;
   +Pl+Dial/Jok:%>j              par_A           ;
   +Pl+Dial/Jok:^HMETA           ill_hVin        ;
-  +Pl+Dial/Jok:%>i2             ess_nA          ;
-  +Pl+Dial/Jok:%>i2             com_ne          ;
   +Pl+Dial/Jok:^WG%>i2          sgpl_cases_even ;
 
 
@@ -337,8 +349,8 @@ LEXICON x_11_i_oblique ! rest of i, also propernouns
   +Sg          :^HMETA       ill_hVVn        ;
   +Sg          :             ess_nA          ;
   +Sg+Dial/Por:^Por^WG      sgpl_cases_even_Por ;
-  +Sg+Dial/Jok:^Jok^WG      sgpl_cases_even_JokVar ;
-  +Sg+Dial/Var:^Var^WG      sgpl_cases_even_JokVar ;
+  +Sg+Dial/Jok:^Jok^WG      sgpl_cases_even ;
+  +Sg+Dial/Var:^Var^WG      sgpl_cases_even ;
   
   +Pl+Dial/Por:^Por^WG      nom_t           ;
   +Pl+Dial/Jok:^Jok^WG      nom_t           ;
@@ -358,8 +370,8 @@ LEXICON x_11_i_oblique ! rest of i, also propernouns
   +Pl+Dial/Jok:^AO          com_ne          ;
   +Pl+Dial/Var:^AO          com_ne          ;
   +Pl+Dial/Por:^Por^WG^AO%>i2   sgpl_cases_even_Por ; !the same affix in sg and pl
-  +Pl+Dial/Jok:^Jok^WG^AO       sgpl_cases_even_JokVar ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
-  +Pl+Dial/Var:^Var^WG^AO       sgpl_cases_even_JokVar ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
+  +Pl+Dial/Jok:^Jok^WG^AO       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
+  +Pl+Dial/Var:^Var^WG^AO       sgpl_cases_even ; ! TODO should be i in other, but not in pappi, tooli, i-ending, also for adjectives in Var, siisti.
 
 LEXICON n_11_E2I        !!= @CODE@ on ovi:ove, joki:joke, hyksi, suomi ! Ei lainasanat
 +N+Dial/Por    :^Por         x_11_E2I  ;
@@ -1800,25 +1812,6 @@ LEXICON sgpl_cases_even_Por !
 !           +All:%>lle  PxxK              ; 
 !           +Ade+Err/Orth:%>l^A  PxxK     ; 
 !           +All+Err/Orth:%>le   PxxK     ; 
-!                       sgpl_cases_common ;
-
-LEXICON sgpl_cases_even_JokVar !
-           +Ade:%>l^A  PxxK              ; 
-           +All:%>le   PxxK              ; 
-  +Dial/Jok+All:%>let     K              ; 
-           +Ade+Err/Orth:%>ll^A  PxxK    ; 
-           +All+Err/Orth:%>lle   PxxK    ; 
-  +Dial/Jok+All+Err/Orth:%>llet     K    ; 
-
-                       sgpl_cases_common ;
-
-!LEXICON sgpl_cases_odd_JokVar !
-!           +Ade:%>ll^A PxxK              ; 
-!           +All:%>lle  PxxK              ; 
-!  +Dial/Jok+All:%>llet    K              ; 
-!           +Ade+Err/Orth:%>l^A  PxxK     ; 
-!           +All+Err/Orth:%>le   PxxK     ; 
-!  +Dial/Jok+All+Err/Orth:%>let     K     ; 
 !                       sgpl_cases_common ;
 
 
