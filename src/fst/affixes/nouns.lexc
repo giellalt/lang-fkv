@@ -227,6 +227,26 @@ LEXICON x_11_rest
   +Pl+Dial/Var:^WG%>i2          sgpl_cases_even ;
 
 
+LEXICON n_11_Jok 
++N:             x_11_Jok     ;
+
+LEXICON x_11_Jok
+  +Sg+Dial/Jok:                 nom_end         ;
+  +Sg+Dial/Jok:^WG              gen_n_sg        ;
+  +Sg+Dial/Jok:                 par_A           ;
+  +Sg+Dial/Jok:^HMETA           ill_hVVn        ;
+  +Sg+Dial/Jok:                 ess_nA          ;
+  +Sg+Dial/Jok:^WG              sgpl_cases_even ;
+
+  +Pl+Dial/Jok:^WG              nom_t           ;
+  +Pl+Dial/Jok:^WG%>i2          gen_tten        ;
+  +Pl+Dial/Jok:%>j              par_A           ;
+  +Pl+Dial/Jok:^HMETA           ill_hVin        ;
+  +Pl+Dial/Jok:%>i2             ess_nA          ;
+  +Pl+Dial/Jok:%>i2             com_ne          ;
+  +Pl+Dial/Jok:^WG%>i2          sgpl_cases_even ;
+
+
 LEXICON n_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
 +N:         x_11_AO ;
 !+N:         x_11_AO ;
