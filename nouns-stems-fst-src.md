@@ -1,7 +1,7 @@
 
 # Substantiivit
 
- LEXICON NounRoot 
+LEXICON NounRoot 
 
 Nomenityyppit s.147 (Eira published book 2014) (Niitähän oon 3)
 
@@ -59,14 +59,14 @@ TYYPPI 3: Pitkävokaaliset rangat
 
 
 
- * valkkee:valkke n_31_ee ;  Is noun, bål
- * veres:vere n_22_excns ; 
- * käsi:käte n_12_si ; 
- * assii+Dial/Por:assi n_31_ii ; 
- * meininki:meininki n_21_odd_i ; 
- * tytär:tyttär n_22 ; 
- * lumi:lu n_12_mi ; 
- * yö:yö n_31 ; 
+* valkkee:valkke n_31_ee ;  Is noun, bål
+* veres:vere n_22_excns ; 
+* käsi:käte n_12_si ; 
+* assii+Dial/Por:assi n_31_ii ; 
+* meininki:meininki n_21_odd_i ; 
+* tytär:tyttär n_22 ; 
+* lumi:lu n_12_mi ; 
+* yö:yö n_31 ; 
 
 
 Leksikkonimet Eiran mukaan

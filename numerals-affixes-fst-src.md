@@ -259,11 +259,11 @@ forms which requires great amount of care in the inflection patterns.
 
 
 
- * **LEXICON ARABICCASES**  adds +Arab
+* **LEXICON ARABICCASES**  adds +Arab
 
- * **LEXICON ARABICCASE**  adds +Arab
+* **LEXICON ARABICCASE**  adds +Arab
 
- * **LEXICON ARABICCASE0**  adds +Arab
+* **LEXICON ARABICCASE0**  adds +Arab
 
 
 

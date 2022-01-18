@@ -2,9 +2,9 @@
 
 Tässä sekä postpositiot ja niiden tagi.
 
- LEXICON post   on itse +Po -tagi
+LEXICON post   on itse +Po -tagi
 
- Postpositiot itse sijaitsevat leksikossa LEXICON Postposition 
+Postpositiot itse sijaitsevat leksikossa LEXICON Postposition 
 
 Sannoi ja haamui vesta/Varenki 2012 mukkaan.
 

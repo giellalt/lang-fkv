@@ -9,48 +9,48 @@ We first define alphabets and sets. Thereafter come the rules.
 ### Alphabet
 
 #### The letters
- * a b c d đ ð e f g h i j k l m n o p q
- * r s t u ü v w x y z å ä ö æ ø š
- * A B C D Đ Ð E F G H I J K L M N O P
- * R S T U V W X Y Z Å Ä Ö Æ Ø Š
+* a b c d đ ð e f g h i j k l m n o p q
+* r s t u ü v w x y z å ä ö æ ø š
+* A B C D Đ Ð E F G H I J K L M N O P
+* R S T U V W X Y Z Å Ä Ö Æ Ø Š
 
 #### The archiphonemes
- * **%^A:ä %^O:ö %^U:y** archi vowels for harmony
- * **%^V %^N:n** vowel copy sanoo, LNR copy purra
+* **%^A:ä %^O:ö %^U:y** archi vowels for harmony
+* **%^V %^N:n** vowel copy sanoo, LNR copy purra
 
 #### Letters with deviant behaviour
- * **i2:i** = plural i of nouns
- * **i3:i** = past tense i of verbs
- * **i4:i** = i in conditional isi of most verbs (without gemination)
- * **i5:i** = superlative i of adjectives
- * **i6:i** = i:j in poika:pojan
- * **i7:i** = i in conditional of contract verbs (with gemination)
- * **p2:p t2:t k2:k** p2, k2, t2 = always p, t, k ; eli ei tule astevaihtelua
- * **t3:t** t3 = gradation but not t:s (implemented?)
- * **t4:t** t4 = always p, t, k ; eli ei tule astevaihtelua eikä geminaatio (täytyy)
- * **k3:k** k3 never k:v, contrary to k
+* **i2:i** = plural i of nouns
+* **i3:i** = past tense i of verbs
+* **i4:i** = i in conditional isi of most verbs (without gemination)
+* **i5:i** = superlative i of adjectives
+* **i6:i** = i:j in poika:pojan
+* **i7:i** = i in conditional of contract verbs (with gemination)
+* **p2:p t2:t k2:k** p2, k2, t2 = always p, t, k ; eli ei tule astevaihtelua
+* **t3:t** t3 = gradation but not t:s (implemented?)
+* **t4:t** t4 = always p, t, k ; eli ei tule astevaihtelua eikä geminaatio (täytyy)
+* **k3:k** k3 never k:v, contrary to k
 
 #### Triggers
- * **%^HMETA:0** h metateesi sykshyyn
- * **%^WG:0** weak grade hatun
- * **%^TJ:0** vuote vuoje
- * **%^T0:0** tytär tyär tytärtä tyärtä in Var
- * **%^UU:0** vuote vuue
- * **%^E2I:0** e to i in nom ove : ovi
- * **%^A2I:0** a to i in opettajine (Var)
- * **%^VDEL:0 %^EDEL:0** -- DEL = deletion
- * **%^AE:0** -- a to e lauletaan, soma somempi
- * **%^AO:0** -- a to o sanoissa
- * **%^A0:0** -- a to 0
- * **%^I0:0** -- i to 0 in vanha_x_21 -Por with i endings: tooline
- * **%^E0:0** e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
- * **%^End:0** -- End of word, since the # tags don't work properly
- * **%^¤:0** -
+* **%^HMETA:0** h metateesi sykshyyn
+* **%^WG:0** weak grade hatun
+* **%^TJ:0** vuote vuoje
+* **%^T0:0** tytär tyär tytärtä tyärtä in Var
+* **%^UU:0** vuote vuue
+* **%^E2I:0** e to i in nom ove : ovi
+* **%^A2I:0** a to i in opettajine (Var)
+* **%^VDEL:0 %^EDEL:0** -- DEL = deletion
+* **%^AE:0** -- a to e lauletaan, soma somempi
+* **%^AO:0** -- a to o sanoissa
+* **%^A0:0** -- a to 0
+* **%^I0:0** -- i to 0 in vanha_x_21 -Por with i endings: tooline
+* **%^E0:0** e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
+* **%^End:0** -- End of word, since the # tags don't work properly
+* **%^¤:0** -
 
 #### Dialect tags
- * **%^Por:0** -f- Porsanger  dialekti
- * **%^Var:0** -- Varanger   dialekti
- * **%^Jok:0** -- Jokivarret dialekti
+* **%^Por:0** -f- Porsanger  dialekti
+* **%^Var:0** -- Varanger   dialekti
+* **%^Jok:0** -- Jokivarret dialekti
 
 
 ### Literal quotes and angles 
@@ -59,44 +59,44 @@ Thesemust be escaped (cf morpheme boundaries further down):
 * «7 represents the quotation mark «
 * %[%>%] >
 * %[%<%] <
- * **»** = Derivational suffix
- * **%>** = border before inflection suffix
+* **»** = Derivational suffix
+* **%>** = border before inflection suffix
 * The hash mark = Word boundary for both lexicalised and dynamic compounds
- * **%^** = (exceptional) soft hyphenation point 
+* **%^** = (exceptional) soft hyphenation point 
 
 
 
 ### Sets
- * FrontVow = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;
- * BackVow = a o u å ;
- * ArchiVow = %^A %^O %^U ;
- * UnroundedVow = e ä a i i2 i3 i4 i5 i6 i7 ;
- * RoundedVow = y ö u o ;
- * SomeVow = %^V ;
- * NeutralVow = e i i2 i3 i4 i5 i6 i7 ;
- * Vow = FrontVow BackVow ArchiVow SomeVow ;
- * NotE = i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;
- * NotEY = i i2 i3 i4 i5 i6 i7 ä ö æ ø a o u å ;
- * NotEYU = i i2 i3 i4 i5 i6 i7 ä ö æ ø a o å ;
- * NotOU = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;
- * NotOUI = e y ä ö ü æ ø a ;
- * NotOUIY = e ä ö æ ø a ;
- * NotAEI = y ä ö ü æ ø o u å ;
- * NotOUIF = y ä ö ü æ ø ; and e? (removed 29.1.)
- * NotOUIB = a ; and e? (removed 29.1.)
- * NotEYUF = i i2 i3 i4 i5 i6 i7 ä ö æ ø ;
- * NotEYUB = i i2 i3 i4 i5 i6 i7 a o å ;
- * LNRM = l n r m ;
- * ArchiCns = %^N ;
- * SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;
- * Cns = SurfaceCns ArchiCns p2 t2 k2 ;
- * Segment = Vow Cns ;
- * Dummy = %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;
- * DummyBorder = Dummy %> ;
- * Dial = %^Por %^Var %^Jok ;
- * NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;
- * NE = %> n e ;
- * EÄA = e %^A ;
+* FrontVow = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;
+* BackVow = a o u å ;
+* ArchiVow = %^A %^O %^U ;
+* UnroundedVow = e ä a i i2 i3 i4 i5 i6 i7 ;
+* RoundedVow = y ö u o ;
+* SomeVow = %^V ;
+* NeutralVow = e i i2 i3 i4 i5 i6 i7 ;
+* Vow = FrontVow BackVow ArchiVow SomeVow ;
+* NotE = i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;
+* NotEY = i i2 i3 i4 i5 i6 i7 ä ö æ ø a o u å ;
+* NotEYU = i i2 i3 i4 i5 i6 i7 ä ö æ ø a o å ;
+* NotOU = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a ;
+* NotOUI = e y ä ö ü æ ø a ;
+* NotOUIY = e ä ö æ ø a ;
+* NotAEI = y ä ö ü æ ø o u å ;
+* NotOUIF = y ä ö ü æ ø ; and e? (removed 29.1.)
+* NotOUIB = a ; and e? (removed 29.1.)
+* NotEYUF = i i2 i3 i4 i5 i6 i7 ä ö æ ø ;
+* NotEYUB = i i2 i3 i4 i5 i6 i7 a o å ;
+* LNRM = l n r m ;
+* ArchiCns = %^N ;
+* SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;
+* Cns = SurfaceCns ArchiCns p2 t2 k2 ;
+* Segment = Vow Cns ;
+* Dummy = %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;
+* DummyBorder = Dummy %> ;
+* Dial = %^Por %^Var %^Jok ;
+* NonFront = BackVow ArchiVow ArchiCns SomeVow Cns NeutralVow Dummy %> ;
+* NE = %> n e ;
+* EÄA = e %^A ;
 
 Development principles:
 --- NO UNCLEAR SEQUENCES WITHOUT AN EXPLANATION (and TESTS): (Cns:*) :Cns+ Cns:* (:Cns)
