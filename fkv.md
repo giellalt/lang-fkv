@@ -1551,2068 +1551,7 @@ proper nouns.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/korp.cg3](http://github.com/giellalt/lang-fkv/blob/main/../src/cg3/korp.cg3)</small>
-# Kven morphological transducer
-
-
-Beware of remnants from the Finnish file.
-Take nothing at face value!
-
-
-
-* **+Ex/N** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
-* **+Ex/A** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
-* **+Ex/V** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
-
-## Tags for POS
-* **+A** = Adjective
-* **+Adv** = Adverb
-* **+CC** = Conjunction
-* **+CS** = Subjunction
-* **+Interj** = Interjection
-* **+N** = Noun
-* **+Num** = Numerals
-* **+Pcle** = Participle?
-* **+Po** = Postposition
-* **+Pr** = Preposition
-* **+Pron** = Pronomen
-* **+V** = Verb
-* **+Neg** = Negation verb ei
-* **+ConNeg** = Negation form of verb
-* **+Prop** = Propernoun
-* **+Ord** = Ordinal
-* **+ABBR** = Abbreviation
-* **+Symbol** = independent symbols in the text stream, like £, €, ©
-* **+ACR** = Acronym
-* **+TV** = Transitive verb
-* **+IV** = Intansitive verb
-* **+Arab** = Arabic
-* **+Coll** = Collective numeral
-* **+Rom** = Roman numerals I, II, ...
-* **+Dyn** = Dynamically created acronym
-
-## Tags for grammar
-
-### Pronoun types
-* **+Pers** = Personal
-* **+Dem** = Demonstrative
-* **+Interr** = Interrogative
-* **+Refl** = Reflexive
-* **+Recipr** = Reciprocal
-* **+Rel** = Relative
-* **+Indef** = Indefinitue
-* **+Qu** = Quantity
-
-### Number
-* **+Sg** = Singular
-* **+Pl** = Plural
-
-Number-person
-
-* **+Sg1** = Singular 1
-* **+Sg2** = Singular 2
-* **+Sg3** = Singular 3
-* **+Pl1** = Plural 1
-* **+Pl2** = Plural 2
-* **+Pl3** = Plural 3
-* **+PxSg1** = Poss suff: the owner is Singular 1
-* **+PxSg2** = Poss suff: the owner is Singular 2
-* **+PxSg3** = Poss suff: the owner is Singular 3
-* **+PxPl1** = Poss suff: the owner is Plural 1
-* **+PxPl2** = Poss suff: the owner is Plural 2
-* **+PxPl3** = Poss suff: the owner is Plural 3
-
-### Case
-
-* **+Nom** = Nominative
-* **+Gen** = Genitive
-* **+Acc** = Accusative, for pronouns, but is it correct?
-* **+Ine** = Inessive
-* **+Ill** = Illative
-* **+Ela** = Elative
-* **+Ade** = Adessive
-* **+Abe** = Abessive
-* **+All** = Allative
-* **+Abl** = Ablative
-* **+Ess** = Essive
-* **+Tra** = Translaive
-* **+Ins** = Instructive
-* **+Com** = Comitative
-* **+Par** = Partitive
-
-
-### Comparatives
-* **+Compar** = Comparative
-* **+Superl** = Superlative
-
-### Finite verbs
-* **+Pass** = Passive
-* **+Ind** = Indicative
-* **+Act** = Active
-* **+Prs** = Presens
-* **+Prt** = Preteritum
-* **+Imprt** = Imperative
-* **+Cond** = Conditional
-* **+Pot** = Potential
-
-### Infinite verbs
-* **+Inf** = Infinitive
-* **+Lat** = lative (the infinitive, used in Apertium)
-* **+PrsPrc** = Presence Particip
-* **+PrfPrc** = Preteritum Particip
-* **+Inf3** = Infinite 3
-
-### Punctuation
-* **+CLB** = Clause boundary
-* **+PUNCT** = Punctuation mark
-* **+HYPH** = Hyphenation mark
-* **+Attr** = Attributive form, hmm, check, for names?
-* **+LEFT** = left parenth
-* **+RIGHT** = right parenth
-* **+CLBfinal**  Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
-
-### Speller tags
-* **+Err/Orth**  misspelling or nor normative form. It will be included only in desc, not in norm.
-* **+Err/Hyph** =
-* **+Err/Lex** =
-* **+Err/SpaceCmp** =
-* **+Use/-PMatch** =
-* **+Use/PMatch** =
-* **+Use/-Spell** = Excluded in speller
-* **+Use/SpellNoSugg** = recognized but not suggested in speller
-* **+Use/NG** only accept, not generate (for MT and Oahpa use)
-* **+Use/GC** only retained in the HFST Grammar Checker disambiguation analyser
-* **+Use/-GC** never retained in the HFST Grammar Checker disambiguation analyser
-* **+Use/Circ** for numerals, copied from sme
-### Compounds
-* **+Cmp** =
-* **+Cmp/SplitR** =
-* **+Cmp/Hyph** - on dynamic compounds that have a hyphen (in use?)
-* **+CmpNP/First** - ... only be first part in a compound or alone
-* **+CmpNP/None** =
-* **+OLang/ENG** = Language of common names
-* **+OLang/FIN** = Language of common names
-* **+OLang/NNO** = Language of common names
-* **+OLang/NOB** = Language of common names
-* **+OLang/RUS** = Language of common names
-* **+OLang/SMA** = Language of common names
-* **+OLang/SME** = Language of common names
-* **+OLang/SWE** = Language of common names
-* **+OLang/UND** = Language of common names
-
-
-
-
-### Derivation
-* **+Der** =
-* **+Der1** =
-* **+Der2** =
-* **+Der3** =
-* **+Der4** =
-* **+Der5** =
-* **+Der/A** = deriving adjectives from verbs
-* **+Der/minen** =
-* **+Der/s** = deriving numerals
-
-## Clitic tags
-* **+Clt** =
-* **+Qst** = Focusclitic question -ko
-* **+Foc/han** = Focusclitic -han
-* **+Foc/kaan** = Focusclitic -kaan
-* **+Foc/kin** = Focusclitic -kin
-* **+Foc/pa** = Focusclitic -pa
-* **+Foc/s** = Focusclitic -s
-* **+Foc/pas** = Focusclitic -pas
-
-## Tokeniser tags
-* **+MWE** = multiword expression, for tokenisation
-* **+v1** =
-* **+v2** =
-* **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
-* **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous with more frequent words. They should only be considered abbreviations in the middle of a sentence.
-* **+Gram/TNumAbbr**:  Transitive abbreviation if the following constituent is numeric
-* **+Gram/NumNoAbbr**:  Transitive abbreviations for which numerals are complements and normal words. The abbreviation usage is less common and thus only the occurences in the middle of the sentence can be considered as true cases.
-* **+Gram/TIAbbr**:  Both transitive and intransitive abbreviation
-* **+Gram/IAbbr**:  Intransitive abbreviation (it takes no argument)
-* **+Gram/3syll**: trisyllabic verbs
-
-
-
-## Semantic tags
-
-* **+Sem/Ani** = Animal names
-* **+Sem/Fem** = Female names
-* **+Sem/Mal** = Male names
-* **+Sem/Obj** = Names of objects
-* **+Sem/Org** = Names of organisations
-* **+Sem/Plc** = Place names
-* **+Sem/Sur** = Surnames
-* **+Sem/ID** = ID
-* **+Sem/Build** = 
-* **+Sem/Build-room** = 
-* **+Sem/Cat** = 
-* **+Sem/Curr** = 
-* **+Sem/Date** = 
-* **+Sem/Domain** = 
-* **+Sem/Domain_Hum** = 
-* **+Sem/Dummytag** = 
-* **+Sem/Edu** = 
-* **+Sem/Edu_Hum** = 
-* **+Sem/Event** = 
-* **+Sem/Food-med** = 
-* **+Sem/Group_Hum** = 
-* **+Sem/Hum** = 
-* **+Sem/Lang** = 
-* **+Sem/Mat** = 
-* **+Sem/Measr** = 
-* **+Sem/Money** = 
-* **+Sem/Obj-el** = 
-* **+Sem/Obj-ling** = 
-* **+Sem/Org_Prod-audio** = 
-* **+Sem/Org_Prod-vis** = 
-* **+Sem/Part** = 
-* **+Sem/Prod-vis** = 
-* **+Sem/Route** = 
-* **+Sem/Rule** = 
-* **+Sem/Sign** = 
-* **+Sem/State** = 
-* **+Sem/State-sick** = 
-* **+Sem/Substnc** = 
-* **+Sem/Time** = 
-* **+Sem/Time-clock** = 
-* **+Sem/Tool-it** = 
-* **+Sem/Txt** = 
-* **+Sem/Veh** = 
-* **+Sem/Year** = 
-
-
-## Dialect tags
-* **+Dial/-Var** = Not Varanger
-* **+Dial/-Por** = Not Porsanger
-* **+Dial/-Jok** = Not Jokivarret
-* **+Dial/Var** Varanger, short for +Dial/-Jok+Dial/-Por
-* **+Dial/Por** Porsanger, short for +Dial/-Jok+Dial/-Var
-* **+Dial/Jok** Jokivarret, short for +Dial/-Por+Dial/-V
-
-## Stem variant tags
-* **+v1**:  variant 1
-* **+v2**:  variant 2
-* **+v3**:  variant 3
-* **+v4**:  variant 4
-* **+v5**:  variant 5
-* **+v6**:  variant 6
-* **+v7**:  variant 7
-
-
-
-## Phonological symbols
-
-* **i2** = plural i of nouns
-* **i3** = past tense i of verbs
-* **i4** = i in conditional isi of most verbs (without gemination)
-* **i5** = superlative i of adjectives
-* **i6** = i:j in poika:pojan
-* **i7** = i in conditional of contract verbs (with gemination)
-* **p2** = always p
-* **t2** = always t, cf. katt2oma always tt, underlying -ts-
-* **t3** = t participating in gradation, but not in t:s
-* **t4** = t for Finnish täytyy (no gemination, no nothing)
-* **k2** = always k
-* **k3** = k3 never k:v, contrary to k
-* **^A** = Vowel harmony a/ä
-* **^O** = Vowel harmony o/ö
-* **^U** = Vowel harmony u/y
-* **^V** = Vowel copying
-* **^N** = tulˆNut, kävel^N^Ut
-* **^E2I** = for e to i change
-* **^A2I** = for a to i change
-* **^I0** = i to 0 in vanha_a_21 -Por with i endings: tooline
-* **^E0** = e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
-* **^HMETA** = for h metathesis syksy - sykshyyn
-* **^AO** = a:0
-* **^A0** = a:o rannoissa
-* **^WG** = Weak grade matto - maton
-* **^TJ** = vuote vuoje
-* **^T0** = tytär tyär tytärtä tyärtä in Var
-* **^UU** = vuote vuue
-* **^TES** =  in use?
-* **^VDEL** = Deleting long vowel in rakkaa- > rakas
-* **^EDEL** = Deleting e in front of consonant
-* **^AE** = for a to e change
-* **^M2N** = for m to n in lumi lunta
-* **^¤** = potecting against e:i word-finally (nalle, liike)
-* **^Por** -- Porsanger  dialect
-* **^Var** -- Varanger   dialect
-* **^Jok** -- Jokivarret dialect
-* **^End** -- End of word, since the # tags don't work properly
-* »
-* «
-* > (written with square brackets, see the root.lexc file)
-* < (written with square brackets, see the root.lexc file)
-
-
-
-## Flag diacritics
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
-
-| Flag | Explanation
-| --- | --- 
-|  **@P.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
-|  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
-|  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
-
-
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
-
-
-| Flag | Explanation
-| --- | --- 
-|  **@P.CmpFrst.FALSE@** | Require that words tagged as such only appear first
-|  **@D.CmpPref.TRUE@** | Block such words from entering ENDLEX
-|  **@P.CmpPref.FALSE@** | Block these words from making further compounds
-|  **@D.CmpLast.TRUE@** | Block such words from entering R
-|  **@D.CmpSuff.TRUE@** | Block such words from entering R
-|  **@P.CmpSuff.TRUE@** | Mark that we have passed R
-|  **@D.CmpNone.TRUE@** | Combines with the next tag to prohibit compounding
-|  **@U.CmpNone.FALSE@** | Combines with the prev tag to prohibit compounding
-|  **@P.CmpOnly.TRUE@** | Sets a flag to indicate that the word has passed R
-|  **@D.CmpOnly.FALSE@** | Disallow words coming directly from root.
-
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
-
-| Flag | Explanation
-| --- | --- 
-|  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
-|  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
-|  **@C.ErrOrth@**    | tbw
-|  **@D.ErrOrth.ON@**     | tbw
-|  **@P.ErrOrth.ON@**    | tbw
-|  **@R.ErrOrth.ON@**    | tbw
-|  **@P.Pmatch.Loc@** | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
-|  **@P.Pmatch.Backtrack@** | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
-
-Pronoun flags
-
-| Flag | Explanation
-| --- | --- 
-|  **@U.pron.nom@** | tbw
-|  **@U.pron.gen@** | tbw
-|  **@U.pron.gen2@** | tbw
-|  **@U.pron.ill@** | tbw
-|  **@U.pron.par@** | tbw
-|  **@U.pron.par2@** | tbw
-|  **@U.pron.par3@** | tbw
-|  **@U.pron.ess@** | tbw
-|  **@U.pron.tra@** | tbw
-|  **@U.pron.ine@** | tbw
-|  **@U.pron.ela@** | tbw
-|  **@U.pron.all@** | tbw
-|  **@U.pron.ade@** | tbw
-|  **@U.pron.abl@** | tbw
-|  **@P.compound.block@** | tbw
-|  **@D.compound.block@** | tbw
-
-
-
-## Basic lexica, pointing to the other lexicon files
-
-Here is the Root lexicon, pointing to all the parts of speech:
-
- **LEXICON Root**
-
-
-* AdjectiveRoot ;
-* Adverb ;
-* Conjunction ;
-* Interjection ;
-* NUM ;
-* NounRoot ;
-* Particle ;
-* Postposition ;
-* Preposition ;
-* Pronoun ;
-* ProperNoun ;
-* Punctuation ;
-* Symbols ;
-* VerbRoot ;
-* Subjunction ;
-* Abbreviation ;
-* Acronym ;
-
-**LEXICON Acronym** pointing to:
-* Acronym-fkv ;
-* Acronym-smi ;
-
-**LEXICON Abbreviation** pointing to:
-* Abbreviation-fkv ;
-* Abbreviation-smi ;
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/root.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/symbols.lexc)</small>
-
-
-* **LEXICON ab-noun   **
-
-
-* **LEXICON ab-adj   **
-
-
-* **LEXICON ab-adv   **
-
-
-* **LEXICON ab-num   **
-
-### Lexicons without final period
-
-
-* **LEXICON ab-nodot-noun   **  The bulk
-
-
-* **LEXICON ab-nodot-adj   **
-
-
-* **LEXICON ab-nodot-adv   **
-
-* **LEXICON ab-nodot-num   **
-
-### Lexicons with final period
-
-
-* **LEXICON ab-dot-noun   **  This is the lexicon for abbrs that must have a period.
-
-
-* **LEXICON ab-dot-adj   **  This is the lexicon for abbrs that must have a period.
-
-* **LEXICON ab-dot-adv   **  This is the lexicon for abbrs that must have a period.
-
-* **LEXICON ab-dot-num   **  This is the lexicon for abbrs that must have a period.
-
-* **LEXICON ab-dot-cc   **
-
-
-
-* **LEXICON ab-dot-verb   **
-
-
-
-
-
-
-* **LEXICON nodot-attrnomaccgen-infl   **
-
-* **LEXICON nodot-attr-infl   **
-
-* **LEXICON nodot-nomaccgen-infl   **
-
-
-* **LEXICON dot-attrnomaccgen-infl   **
-
-* **LEXICON dot-attr   **
-
-* **LEXICON dot-nomaccgen-infl   **
-
-
-* **LEXICON DOT   ** - Adds the dot to dotted abbreviations.
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/abbreviations.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/abbreviations.lexc)</small># Sublexica for NounRoot
-
-Aloitin sovittaa analyysin Eiran kieliopin mukaan (Porsanki).
-Leksikot ovat nyt (tai pitää olla) n11, n12, jne., eli siis
-Eiran nominit tyyppi 1.1., 1.2., jne.
-
-2007 s.87
-* 1. Yksitavuiset / Vi ( maa, tuorestai)        = vanha_n_1
-* 1.1. Yksitavuiset monikko/ Vi ( häät)         = vanha_n_1pl
-* 2. Vokaalirankaiset
-- 2.1 Kaksitavuiset ( pappi)                   = vanha_n_21
-- 2.1.1. Kaksitavuiset monikko (housut)       = vanha_n_21pl
-- 2.1.2. Kaksitavuiset (joki: joke)           = vanha_n_21ie
-- 2.2. Usseempitav. (opettaaja)                = vanha_n_22
-- 2.2.1. Usseempitav. odd (kajava)            = vanha_n_22odd
-- 2.2.2. Usseempitav. odd (meininki, tunturi) = vanha_n_22oddi
-- 2.2.3. Usseempitav. monikko oi (kulkkiija)  = vanha_n_22oi
-- 2.3 Kokkoontumanom. ( valkkee)               = vanha_n_23
-- 2.3.1 Kokkoontumanom. (assii)                = vanha_n_23ii
-* 3. Konsonanttirankaiset
-- 3.1 Kaksitavuiset ( pieni, kieli)            = vanha_n_31
-- 3.1.1. Kaksitavuiset lumi)                   = vanha_n_31lumi
-- 3.1.2. (käsi, vuosi)                         = vanha_n_31si
-- 3.1.3. (lapsi)                               = vanha_n_31lapsi
-- 3.1.4. (mies)                                = vanha_n_31mies
-- 3.2 Usseempitavuiset
-- 3.2.1 (tytär)                                = vanha_n_32
-- 3.2.2. (elläin)                              = vanha_n_32m
-- 3.2.3 (rakkhaus)                             = vanha_n_32s
-- 3.3 Kokkoontumanom. ( opas, huonet)
-- 3.3.1 (opas)                                 = vanha_n_33s
-- 3.3.2 (asukas)                               = vanha_n_33sodd
-- 3.3.3. (ruvis)                               = vanha_n_33is
-- 3.3.4 (huonet)                               = vanha_n_33t
-- 3.3.5 (kirves)                               = vanha_n_33ts
-* 4. Ekstrakonsonanttirankaiset
-- 4.1 veres-nominit ( veres, kokkous)          = vanha_n_41
-- 4.1.1. veres-nominit monikko ( veljekset)    = vanha_n_41pl
-- 4.2 –inen-nominit ( kainulainen)             = vanha_n_42 = nen
-- 4.2.1 -inen-nominit Pl (tervheiset)         = vanha_n_42pl = nen
-- 4.2.2 -inen-nominit odd (vihrinen)          = vanha_n_42odd = nen
-
-## Noun types
-
-### Incomong
-
-
-
-
-
-* LEXICON n_31  = maa, tie
-
-* LEXICON n_31_ai  = tuorestai ja muut päivät
-
-
-
-
-
-* LEXICON n_31_pl  = häät
-
-* LEXICON x_31_pl  = häät
-
-the same affix in sg and pl
-
-
-
-### Eira's classification
-
-
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON n_11   lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON n_11_AO  sana - sanoissa. Linna? Linnoissa? aika
-
-* LEXICON x_11_AO  sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
-
-
-
-* LEXICON n_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
-
-* LEXICON x_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
-
-
-
-
-
-
-
-LEXICON n_11_E2I         on ovi:ove, joki:joke, hyksi, suomi ! Ei lainasanat
-
-these two lexica for cases with
-
-the same affix in sg and pl
-
-
-
-
-
-* LEXICON n_11_pl          "villahousut", lyhyt vokali, yks vartalo, kasvot
-
-* LEXICON x_11_pl         ! Seems like no adjectives call this?
-
-
-the same affix in sg and pl
-
-
-
-* LEXICON n_21          opettaaja, karamelli
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON n_21_odd   kajava
-
-* LEXICON x_21_odd   kajava
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON n_21_odd_C  lainasanat, fiction
-
-* LEXICON n_21_odd_i   meininki, tunturi TODO
-
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON n_21_oi          Paivukko, perintö, kurkkio
-
-
-
-
-
-* LEXICON n_21_oi_AO          Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
-
-* LEXICON n_21_oi_ÄÖ          Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
-
-
-
-* LEXICON n_31_ee          hoppee:hoppe
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON n_31_ii          assii (in Por) kurkkii (in Por)
-
-* LEXICON n_31_ii          for same affix in sg and pl
-
-* LEXICON n_31_ii          for same affix in sg and pl
-
-
-
-
-
-
-* LEXICON n_31_uu          karhuu (in Por) 
-
-* LEXICON n_31_uu          for same affix in sg and pl
-
-* LEXICON n_31_uu          for same affix in sg and pl
-
-LEXICON n_12          kieli
-
-* LEXICON n_12          for same affix in sg and pl
-
-* LEXICON n_12          for same affix in sg and pl
-
-LEXICON n_12_mi        lumi lu
-
-
-
-
-LEXICON n_12_si         vuosi, käsi, hirsi
-
-
-
-
-
-
-LEXICON n_12_vuosi       vuosi, vuona 
-
-
-LEXICON x_12_vuosi      
-
-
-
-LEXICON n_12_kusi         kusi kuusi
-
-LEXICON x_12_kusi         kusi kuusi
-these two lexica for cases with
-
-the same affix in sg and pl
-
-
-
-LEXICON n_12_lapsi         lapsi la
-
-LEXICON x_12_lapsi         lapsi la
-these two lexica for cases with
-
-the same affix in sg and pl
-
-
-LEXICON n_12_mies         mies mie
-
-LEXICON x_12_mies         mies mie
-these two lexica for cases with
-
-the same affix in sg and pl
-
-
-LEXICON n_22  tytär:tyttär, taival:taipal
-
-
-
-
-
-
-
-
-LEXICON n_22_m  elläin elläi yđin ydin
-
-LEXICON x_22_m 
-
-
-LEXICON n_22_m_pl 
-
-
-LEXICON n_22_s   sairhaus
-
-* Konsonanttivartalo: poista -e ja heikko aste
-* Konsonanttivartalo: poista -e ja heikko aste
-
-
-
-* Konsonanttivartalo: poista -e ja heikko aste
-* Konsonanttivartalo: poista -e ja heikko aste
-
-
-
-
-
-
-
-LEXICON n_32_as  rakas, asukas
-
-
-
-
-
-
-
-
-
-
-
-
-LEXICON n_32_is  ruvis, ruumis
-
-
-
-
-LEXICON n_32_et  venet, hyljet, huonet
-
-
-
-
-LEXICON n_32_et_2  askel, kyynel, kannel
-
-
-
-
-LEXICON n_32_ut  vantut:vantutta:vantthuut
-
-
-
-
-LEXICON n_32_ts  kirves
-
-LEXICON x_32_ts  kirves
-
-
-these two lexica for cases with
-
-the same affix in sg and pl -- tsekkaa long
-
-
-* LEXICON n_22_excns  = veres (keskus)
-
-
-*  LEXICON n_22_excns_even  = (kuttumus)
-
-
-
-* LEXICON n_22_excns_pl  = veljekset
-
-* LEXICON x_22_excns_pl  = veljekset
-
-these two lexica for cases with
-
-the same affix in sg and pl -- tsekkaa long
-
-
-
-
-
-
-these two lexica for cases with
-
-the same affix in sg and pl
-
-LEXICON n_22_inen_odd  ihminen
-
-these two lexica for cases with
-
-the same affix in sg and pl
-
-LEXICON n_22_inen_pl !  tervheiset tervhei
-the same affix in sg and pl
-
-
-+N:se   nomgen_px      ;
-
-make+N+Pl+kom:sine K              ;
-
-
-
-
-
-
-
-Basic paradigms
-
-
-
-
-### Sublexica for the basic unified cases, with even and odd variations
-
-
-
-
-
-
-
-
-
-
-
-### Sublexica for Gen, Par, Ill, Ess and Com.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Sublexica for possessive suffixes
-
-Px is now not in use, with one exception, comitative.
-
-LEXICON n_PxK   has either -n or goes to Px
-
-LEXICON i_PxK   Tra: -i or -e and goes to Px
-
-LEXICON PxK  has only -nsA, and is currently not in use. Check
-
-LEXICON PxxK   has also -Vn, thus both .. llensa and ..lleen.
-
-
-
-
-Tästä tiedostosta löytyvät suljetut sanaluokat.                                                                                                                       
-
-Px-Vn leksikossa on vain kuusi sanaa                                                                                                                              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Basic paradigms
-
-## Basic vowel stems
-
-
- !LEXICON strong_v_stem_even   ''Kaikki vahvan asteen sijamuodot tähän''
-
- !LEXICON strong_v_stem_odd   ''Kaikki vahvan asteen sijamuodot tähän''
-
-
-
-
-### Sublexica for the vowel stems
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/nouns.lexc)</small>Affix file for Kven adjectives
-
-# The base lexica
-
-Each a_ lexicon gets the +A tag and is then redirected to
-a common x_ lexicon in the noun file, while compar and superl are here.
-
-
-
-
-
-
-
-
-
-
-
-
-long_par        ;
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON vanha_nocomp_a_21  
-
-* LEXICON a_11_i   siisti
-
-
-
-
-
-* LEXICON a_11   hieno, tuttu, syyry
-
-* LEXICON a_11_E2I  moni, umpi, pälvi 
-
-
-* LEXICON a_11_ae   väärä, nöyrä
-
-
-* LEXICON a_21	  liberaali !TODO: selvittää kannattaako siirtää osa sanoista toiseen ryhmään vai muuttaa tämän ryhmän nimen 
-
-
-* LEXICON a_21_odd	 loistaava 
-
-
-
-
-
-
-* LEXICON a_31_ee	  pimmee, valkkee, kauhhee, hoppee ! TODO sort out nouns and adjectives
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON a_31_ii   auttii
-
-* LEXICON a_31_uu   liehmuu
-
-* LEXICON vanha_a_23ea	 pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
-
-
-* LEXICON a_12	  pieni
-
-* LEXICON a_12_si	 uusi. uussiin only por, always one s in Var
-
-
-
-
-* LEXICON a_22  tyven
-
-* LEXICON vanha_a_32m  irtain
-
-* LEXICON a_22_ma  vasen sg taipuu kuitenki -ma, lämmin:lämpi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON a_32_as  raskas
-
-* LEXICON vanha_a_33aes  sinnikäs
-
-
-* LEXICON a_32_is  valmis, kaunis
-
-
-* LEXICON a_32_kärys  kärys, so far this is the only word
-
-
-
-
-
-* LEXICON a_32_et  tuoret
-
-* LEXICON a_32_u  vaipunu:vaipun ! perfect participle
-
-* LEXICON a_32_väsynyt  väsyny:väsyn, so far this is the only word ! perfect participle
-
-* LEXICON a_32_nny  hengistynny:hengistynn
-
-* LEXICON a_22_excns  = veres
-
-
-
-
-
-* LEXICON a_22_inen  varovainen
-
-
-* LEXICON a_22_inen_odd  sininen
-
-
-
-
-LEXICON MATON  ! TODO TODO TODO ajattelemattomalle lle lla nna
-
-
-* LEXICON a_22_ton_even  muuttumaton
-
-
-
-
-
-
-* LEXICON a_22_ton_odd  onneton
-
-
-LEXICON MATONodd  ! käymättömäle le la na ! TODO Probably not in use atm
-
-* LEXICON x_22_ton  onneton
-
-
-
-
-* LEXICON x_22_ton_yksi_t  alaston yhelä -t:läm alastoman
-
-
-
-
-
-
-# Basic paradigms
-
-Most cases are directed to affixes/nouns.lexc
-
-
-
-## Lexica for the non-uniform cases
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/adjectives.lexc)</small>
-
-# Pronominien morfologia
-
-Pronominit ovat edelleen vaan kokeiluvaiheessa.
-
-LEXICON 12pronsg  on 1., 2. p. yksikkö
-
-
-LEXICON 12pronsg_short  on 1., 2. p. yksikkö
-
-
-
-
-LEXICON 123pronpl  
-
-
-
-
-
-
-
-
-
-
-nuoitä
-
-
-tuotä
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/pronouns.lexc)</small># LEXICA FOR KVEN VERB INFLECTION
-
-This file documents [affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/verbs.lexc)
-
-## Auxiliaries
-
-
-**LEXICON neg** jakaantuu kolmeen
-
-
-**LEXICON indneg** negaation indikatiivipäätteet
-
-Note that lexicon indneg directs to K_NEG and not to K,
-this is since we have enkä but not enkin
-
-**LEXICON imprtneg** negaation imperatiivipäätteet
-
-**LEXICON OLLA** on oma leksikko, vielä vain preesens
-
-
-
-
-
-## Regular verbs
-
-
-
-
-### Verbiluokat v1...
-
-Luokkien v1, v2... Eiran kieliopin mukaan.
-Tarvitaan luultavasti alaluokkia.
-
-Jokaisessa leksikossa on infinitiivi, kolmannen
-persoonan pääteet, ja viittaus preesensin ja preteritin
-kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
-
-**LEXICON v1** saađa:saa
-
-
-
-
-**LEXICON v1iđa** Cond uiđa:uisin
-
-
-
-
-**LEXICON v1kayda** käyđä:kä
-
-
-
-
-
-**LEXICON v1nahda** nähđä:nä
-
-
-
-
-**LEXICON v1tehda** tehđä:te
-
-
-
-
-
-### Verbiluokat v2...
-
-**LEXICON v2** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**LEXICON v2_si** ! pyyttäät:pyysi
-
-
-
-
-
-
-
-
-
-**LEXICON v2_tiettäät** tiettäät
-
-
-
-
-
-**LEXICON v2_odd** kirjoittaat:kirjoitta
-
-
-
-
-
-
-
-
-
-### Verbiluokat v3...
-
-**LEXICON v3_ele_short** = nielä:niel
-
-**LEXICON v3_ele** ajatella:ajattel
-
-
-
-
-
-**LEXICON v3_ele_odd** kävelä:kävel
-
-* aukaista > aukaisemma
-* täristä > tärisemä
-
-
-
-
-**LEXICON v3_ise** aukaista:aukaise
-
-**LEXICON v3_aise** aukaista:aukaise
-
-
-
-
-
-
-**LEXICON v3_lnr** ja vartalo on pan-
-* pitää tehdä ^D
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-
-
-
-
-**LEXICON v3_s** kusta, nousta, pestä, päästä ja vartalo on kus-
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-
-
-
-
-**LEXICON v3piera** pierä:pie
-* pitää tehdä ^D
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-
-
-
-
-**LEXICON v3juosta** juosta:juo
-
-
-
-
-### Verbiluokat v4...
-
-**LEXICON v4** vanheta:vanhe, pajeta:pake
-
-
-
-
-**LEXICON v4_itte** ja vartalo on - kyyti
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-+V+Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
-
-
-
-
-
-**LEXICON v4_oitte** ja vartalo on haravoi-
-* Lyhyt partisiippi
-* Lyhyt partisiippi
-+V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
-
-
-
-
-**LEXICON v43** hantteerata:hantteera
-
-
-
-
-**LEXICON v43_odd** jatkata:jatka
-
-
-
-
-
-**LEXICON v43_odd_II** jatkata:jatka
-
-
-
-
-## Verbien persoonapäätteet
-
-Tämä osa antaa personapäätteet.
-1. ja 2. persoona erikseen, koska ne ovat samoja
-preesensissä ja preterissä.
-3. persoona annettiin jo vartaloleksikoissa.
-
-
-
-
-**LEXICON v12pers** Only sg12, pl12 so far
-
-
-**LEXICON PRFPRC_OBL** is without nom sg
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/verbs.lexc)</small>
-# Kven numerals 
-
-# Numeral inflection
-Numeral inflection is like nominal, except that numerals compound in all
-forms which requires great amount of care in the inflection patterns.
-
-
-*Numeral nominative back examples:*
-
-
-*Numeral nominative front examples:*
-
-
-*Numeral nominative plural back examples:*
-* *kahđet:* `kaksi+Num+Pl+Nom`
-
-
-*Numeral nominative plural front examples:*
-* *yhđet:* `yksi+Num+Pl+Nom`
-
-
-*Numeral weak singular back examples:*
-* *kahđen:* `kaksi+Num+Sg+Gen`
-* *kahđela:* `kaksi+Num+Sg+Ade`
-* *kahđelta:* `kaksi+Num+Sg+Abl`
-* *kahđele:* `kaksi+Num+Sg+All`
-* *kahđessa:* `kaksi+Num+Sg+Ine`
-* *kahđesta:* `kaksi+Num+Sg+Ela`
-* *kahđeksi:* `kaksi+Num+Sg+Tra`
-* *kahđetta:* `kaksi+Num+Sg+Abe`
-
-
-
-
-*Numeral weak singular front examples:*
-* *yhđen:* `yksi+Num+Sg+Gen`
-* *yhđelä:* `yksi+Num+Sg+Ade`
-* *yhđeltä:* `yksi+Num+Sg+Abl`
-* *yhđele:* `yksi+Num+Sg+All`
-* *yhđessä:* `yksi+Num+Sg+Ine`
-* *yhđestä:* `yksi+Num+Sg+Ela`
-* *yhđeksi:* `yksi+Num+Sg+Tra`
-* *yhđettä:* `yksi+Num+Sg+Abe`
-
-
-
-
-*Numeral strong singular back examples:*
-* *kahtena:* `kaksi+Num+Sg+Ess`
-
-
-
-
-*Numeral strong singular front examples:*
-* *yhtenä:* `yksi+Num+Sg+Ess`
-
-
-
-
-*Numeral weak plural back examples:*
-* *kaksila:* `kaksi+Num+Pl+Ade`
-* *kaksilta:* `kaksi+Num+Pl+Abl`
-* *kaksile:* `kaksi+Num+Pl+All`
-* *kaksissa:* `kaksi+Num+Pl+Ine`
-* *kaksista:* `kaksi+Num+Pl+Ela`
-* *kaksiksi:* `kaksi+Num+Pl+Tra`
-* *kaksitta:* `kaksi+Num+Pl+Abe`
-
-
-
-
-*Numeral weak plural front examples:*
-* *yksilä:* `yksi+Num+Pl+Ade`
-* *yksiltä:* `yksi+Num+Pl+Abl`
-* *yksile:* `yksi+Num+Pl+All`
-* *yksissä:* `yksi+Num+Pl+Ine`
-* *yksistä:* `yksi+Num+Pl+Ela`
-* *yksiksi:* `yksi+Num+Pl+Tra`
-* *yksittä:* `yksi+Num+Pl+Abe`
-
-
-
-
-*Numeral weak plural back strong examples:*
-* *kaksina:* `kaksi+Num+Pl+Ess`
-* *kaksine:* `kaksi+Num+Pl+Com`
-
-
-*Numeral weak plural back strong examples:*
-* *kaksina:* `kaksi+Num+Pl+Ess`
-* *kaksine:* `kaksi+Num+Pl+Com`
-
-
-*Numeral weak plural front strong examples:*
-* *yksinä:* `yksi+Num+Pl+Ess`
-* *yksine:* `yksi+Num+Pl+Com`
-
-
-*Numeral weak plural front strong examples:*
-* *yksinä:* `yksi+Num+Pl+Ess`
-* *yksine:* `yksi+Num+Pl+Com`
-
-
-
-
-*Numeral singular partitive a examples:*
-* *kahđeksee:* `kahđeksen+Num+Sg+Par` (Eng. !eight)
-
-
-
-*Numeral singular partitive a poss aan examples:*
-* *kolmee:* `kolme+Num+Sg+Par` (Eng. !three)
-
-
-*Numeral singular partitive ta examples:*
-* *kuutta:* `kuusi+Num+Sg+Par` (Eng. !six)
-
-
-*Numeral singular partitive tä examples:*
-* *viittä:* `viisi+Num+Sg+Par` (Eng. !five)
-
-
-
-
-*Numeral singular illative an examples:*
-* *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
-
-
-*Numeral singular illative en back examples:*
-* *kolmheen:* `kolme+Num+Sg+Ill`
-
-
-*Numeral singular illative en front examples:*
-* *viitheen:* `viisi+Num+Sg+Ill`
-
-
-*Numeral singular illative in back examples:*
-* *miljardhiin:* `miljardi+Num+Sg+Ill` (Eng. !billion)
-
-
-
-
-*Numeral plural partitive ia examples:*
-* *kaksii:* `kaksi+Num+Pl+Par`
-
-
-
-
-
-
-
-
-
-*Numeral plural partitive ja examples:*
-* *miljardii:* `miljardi+Num+Pl+Par`
-
-
-*Numeral plural genitive ien back examples:*
-* *kaksiin:* `kaksi+Num+Pl+Gen`
-
-
-
-
-
-
-
-
-
-*Numeral plural genitive ten back examples:*
-* *kuussiin:* `kuusi+Num+Pl+Gen`
-* *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !kuussiin on tärkeämpi)
-
-
-*Numeral plural genitive ten front examples:*
-* *viissiin:* `viisi+Num+Pl+Gen`
-* *viitten:* `viisi+Num+Pl+Gen` (Eng. !viissiin on tärkeämpi)
-
-
-*Numeral plural genitive in back examples:*
-
-
-*Numeral plural genitive in front examples:*
-
-
-*Numeral plural illaive ihin bavk examples:*
-* *miljardhiin:* `miljardi+Num+Pl+Ill`
-
-
-*Numeral plural illaive iin back examples:*
-* *kakshiin:* `kaksi+Num+Pl+Ill`
-
-
-
-
-
-*Numeral possessive back examples:*
-* *kahteni:* `kaksi+Num+Sg+Nom+PxSg1` (Eng. !Kainun kielessä possessiivisuffiksiita käytethään aika vähän. Annamme niiden olla täällä toistaiseksi.)
-
-
-*Numeral possessive front examples:*
-* *yhteni:* `yksi+Num+Sg+Nom+PxSg1`
-
-
-*Numeral possessive back aan examples:*
-* *kolmeensa:* `kolme+Num+Sg+Par+PxSg3`
-
-
-*Numeral possessive back eenback examples:*
-* *kahđeksensa:* `kaksi+Num+Sg+Tra+PxSg3`
-* *kahđekseen:* `kaksi+Num+Sg+Tra+PxSg3`
-
-
-*Numeral possessive back een front examples:*
-* *neljeksensä:* `nelje+Num+Sg+Tra+PxSg3`
-* *neljekseen:* `nelje+Num+Sg+Tra+PxSg3`
-
-
-*Numeral possessive back ään examples:*
-* *viittänsä:* `viisi+Num+Sg+Par+PxSg3`
-* *viittään:* `viisi+Num+Sg+Par+PxSg3`
-
-
-*Numeral clitic back examples:*
-
-
-*Numeral clitic front examples:*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **LEXICON ARABICCASES**  adds +Arab
-
-* **LEXICON ARABICCASE**  adds +Arab
-
-* **LEXICON ARABICCASE0**  adds +Arab
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/numerals.lexc)</small>2007 s.87
-* 1. Yksitav. / Vi ( maa, tuorestai)	 = vanha_n_1
-* 1.1. Yksitav. monikko/ Vi ( häät)	 = vanha_n_1pl
-* 2. Vokaalirankaiset
-- 2.1 Kaksitav. ( aika, pappi)	 = vanha_n_21
-- 2.1.1. Kaksitav. monikko (housut)  = vanha_n_21pl
-- 2.1.2. Kaksitav. (joki: joke)      = vanha_n_21ie
-- 2.2. Usseempitav. (opettaaja)	 = vanha_n_22
-- 2.2.1. Usseempitav. odd (meininki, tunturi)= vanha_n_22odd
-- 2.2.2. Usseempitav. mon. oi (kulkkiija) = vanha_n_22oi
-- 2.3 Kokkoontumanom. ( valkkee,)	= vanha_n_23
-- 2.3.1 Kokkoontumanom. ( assii)     = vanha_n_23ii
-* 3. Konsonanttirankaiset
-- 3.1 Kaksitav. ( pieni, kieli)  = vanha_n_31
-- 3.1.1. lumi:lumen:lunta      = vanha_n_31m
-- 3.1.2. (käsi, vuosi)   = vanha_n_31si
-- 3.1.3. (lapsi)	     = vanha_n_31lapsi
-- 3.1.4. (mies)		= vanha_n_31mies
-- 3.2 Usseempitav. ( tytär)
-- 3.2.1 (tytär)            = vanha_n_32
-- 3.2.2. (elläin: elläimen  = vanha_n_32m
-- 3.2.3. (rakkhaus)	  = vanha_n_32s
-- 3.3 Kokkoontumanom. ( opas, huonet)
-- 3.3.1 (opas)               = vanha_n_33s
-- 3.3.2 (asukas)             = vanha_n_33s
-- 3.3.3. (ruvis)             = vanha_n_33is
-- 3.3.4 (huonet)             = vanha_n_33t
-- 3.3.5 (kirves)		   = vanha_n_33ts
-* 4. Ekstrakonsonanttirankaiset
-- 4.1 veres-nominit ( veres, kokkous)		= vanha_n_41
-- 4.1.1. veres-nominit monikko ( veljekset)	= vanha_n_41pl
-- 4.2 –inen-nominit ( kainulainen)		  	= vanha_n_42 = nen
-- 4.2.1 -inen-nominit Pl (tervheiset)	  	= vanha_n_42pl = nen
-- 4.2.2 -inen-nominit odd (vihrinen)	  	= vanha_n_42odd = nen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/propernouns.lexc)</small># Phonological rules for Kven
+<small>This (part of) documentation was generated from [../src/cg3/korp.cg3](http://github.com/giellalt/lang-fkv/blob/main/../src/cg3/korp.cg3)</small># Phonological rules for Kven
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-fkv/blob/main/src/fst/phonology.twolc) 
 
@@ -4498,22 +2437,2081 @@ Rule: **ö:0**
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/phonology.twolc)</small># Postpositioiden vartalot
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/phonology.twolc)</small>
+# Kven morphological transducer
 
-Tässä sekä postpositiot ja niiden tagi.
 
-LEXICON post   on itse +Po -tagi
+Beware of remnants from the Finnish file.
+Take nothing at face value!
 
-Postpositiot itse sijaitsevat leksikossa LEXICON Postposition 
 
-Sannoi ja haamui vesta/Varenki 2012 mukkaan.
+
+* **+Ex/N** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+* **+Ex/A** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+* **+Ex/V** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+
+## Tags for POS
+* **+A** = Adjective
+* **+Adv** = Adverb
+* **+CC** = Conjunction
+* **+CS** = Subjunction
+* **+Interj** = Interjection
+* **+N** = Noun
+* **+Num** = Numerals
+* **+Pcle** = Participle?
+* **+Po** = Postposition
+* **+Pr** = Preposition
+* **+Pron** = Pronomen
+* **+V** = Verb
+* **+Neg** = Negation verb ei
+* **+ConNeg** = Negation form of verb
+* **+Prop** = Propernoun
+* **+Ord** = Ordinal
+* **+ABBR** = Abbreviation
+* **+Symbol** = independent symbols in the text stream, like £, €, ©
+* **+ACR** = Acronym
+* **+TV** = Transitive verb
+* **+IV** = Intansitive verb
+* **+Arab** = Arabic
+* **+Coll** = Collective numeral
+* **+Rom** = Roman numerals I, II, ...
+* **+Dyn** = Dynamically created acronym
+
+## Tags for grammar
+
+### Pronoun types
+* **+Pers** = Personal
+* **+Dem** = Demonstrative
+* **+Interr** = Interrogative
+* **+Refl** = Reflexive
+* **+Recipr** = Reciprocal
+* **+Rel** = Relative
+* **+Indef** = Indefinitue
+* **+Qu** = Quantity
+
+### Number
+* **+Sg** = Singular
+* **+Pl** = Plural
+
+Number-person
+
+* **+Sg1** = Singular 1
+* **+Sg2** = Singular 2
+* **+Sg3** = Singular 3
+* **+Pl1** = Plural 1
+* **+Pl2** = Plural 2
+* **+Pl3** = Plural 3
+* **+PxSg1** = Poss suff: the owner is Singular 1
+* **+PxSg2** = Poss suff: the owner is Singular 2
+* **+PxSg3** = Poss suff: the owner is Singular 3
+* **+PxPl1** = Poss suff: the owner is Plural 1
+* **+PxPl2** = Poss suff: the owner is Plural 2
+* **+PxPl3** = Poss suff: the owner is Plural 3
+
+### Case
+
+* **+Nom** = Nominative
+* **+Gen** = Genitive
+* **+Acc** = Accusative, for pronouns, but is it correct?
+* **+Ine** = Inessive
+* **+Ill** = Illative
+* **+Ela** = Elative
+* **+Ade** = Adessive
+* **+Abe** = Abessive
+* **+All** = Allative
+* **+Abl** = Ablative
+* **+Ess** = Essive
+* **+Tra** = Translaive
+* **+Ins** = Instructive
+* **+Com** = Comitative
+* **+Par** = Partitive
+
+
+### Comparatives
+* **+Compar** = Comparative
+* **+Superl** = Superlative
+
+### Finite verbs
+* **+Pass** = Passive
+* **+Ind** = Indicative
+* **+Act** = Active
+* **+Prs** = Presens
+* **+Prt** = Preteritum
+* **+Imprt** = Imperative
+* **+Cond** = Conditional
+* **+Pot** = Potential
+
+### Infinite verbs
+* **+Inf** = Infinitive
+* **+Lat** = lative (the infinitive, used in Apertium)
+* **+PrsPrc** = Presence Particip
+* **+PrfPrc** = Preteritum Particip
+* **+Inf3** = Infinite 3
+
+### Punctuation
+* **+CLB** = Clause boundary
+* **+PUNCT** = Punctuation mark
+* **+HYPH** = Hyphenation mark
+* **+Attr** = Attributive form, hmm, check, for names?
+* **+LEFT** = left parenth
+* **+RIGHT** = right parenth
+* **+CLBfinal**  Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
+
+### Speller tags
+* **+Err/Orth**  misspelling or nor normative form. It will be included only in desc, not in norm.
+* **+Err/Hyph** =
+* **+Err/Lex** =
+* **+Err/SpaceCmp** =
+* **+Use/-PMatch** =
+* **+Use/PMatch** =
+* **+Use/-Spell** = Excluded in speller
+* **+Use/SpellNoSugg** = recognized but not suggested in speller
+* **+Use/NG** only accept, not generate (for MT and Oahpa use)
+* **+Use/GC** only retained in the HFST Grammar Checker disambiguation analyser
+* **+Use/-GC** never retained in the HFST Grammar Checker disambiguation analyser
+* **+Use/Circ** for numerals, copied from sme
+### Compounds
+* **+Cmp** =
+* **+Cmp/SplitR** =
+* **+Cmp/Hyph** - on dynamic compounds that have a hyphen (in use?)
+* **+CmpNP/First** - ... only be first part in a compound or alone
+* **+CmpNP/None** =
+* **+OLang/ENG** = Language of common names
+* **+OLang/FIN** = Language of common names
+* **+OLang/NNO** = Language of common names
+* **+OLang/NOB** = Language of common names
+* **+OLang/RUS** = Language of common names
+* **+OLang/SMA** = Language of common names
+* **+OLang/SME** = Language of common names
+* **+OLang/SWE** = Language of common names
+* **+OLang/UND** = Language of common names
+
+
+
+
+### Derivation
+* **+Der** =
+* **+Der1** =
+* **+Der2** =
+* **+Der3** =
+* **+Der4** =
+* **+Der5** =
+* **+Der/A** = deriving adjectives from verbs
+* **+Der/minen** =
+* **+Der/s** = deriving numerals
+
+## Clitic tags
+* **+Clt** =
+* **+Qst** = Focusclitic question -ko
+* **+Foc/han** = Focusclitic -han
+* **+Foc/kaan** = Focusclitic -kaan
+* **+Foc/kin** = Focusclitic -kin
+* **+Foc/pa** = Focusclitic -pa
+* **+Foc/s** = Focusclitic -s
+* **+Foc/pas** = Focusclitic -pas
+
+## Tokeniser tags
+* **+MWE** = multiword expression, for tokenisation
+* **+v1** =
+* **+v2** =
+* **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
+* **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous with more frequent words. They should only be considered abbreviations in the middle of a sentence.
+* **+Gram/TNumAbbr**:  Transitive abbreviation if the following constituent is numeric
+* **+Gram/NumNoAbbr**:  Transitive abbreviations for which numerals are complements and normal words. The abbreviation usage is less common and thus only the occurences in the middle of the sentence can be considered as true cases.
+* **+Gram/TIAbbr**:  Both transitive and intransitive abbreviation
+* **+Gram/IAbbr**:  Intransitive abbreviation (it takes no argument)
+* **+Gram/3syll**: trisyllabic verbs
+
+
+
+## Semantic tags
+
+* **+Sem/Ani** = Animal names
+* **+Sem/Fem** = Female names
+* **+Sem/Mal** = Male names
+* **+Sem/Obj** = Names of objects
+* **+Sem/Org** = Names of organisations
+* **+Sem/Plc** = Place names
+* **+Sem/Sur** = Surnames
+* **+Sem/ID** = ID
+* **+Sem/Build** = 
+* **+Sem/Build-room** = 
+* **+Sem/Cat** = 
+* **+Sem/Curr** = 
+* **+Sem/Date** = 
+* **+Sem/Domain** = 
+* **+Sem/Domain_Hum** = 
+* **+Sem/Dummytag** = 
+* **+Sem/Edu** = 
+* **+Sem/Edu_Hum** = 
+* **+Sem/Event** = 
+* **+Sem/Food-med** = 
+* **+Sem/Group_Hum** = 
+* **+Sem/Hum** = 
+* **+Sem/Lang** = 
+* **+Sem/Mat** = 
+* **+Sem/Measr** = 
+* **+Sem/Money** = 
+* **+Sem/Obj-el** = 
+* **+Sem/Obj-ling** = 
+* **+Sem/Org_Prod-audio** = 
+* **+Sem/Org_Prod-vis** = 
+* **+Sem/Part** = 
+* **+Sem/Prod-vis** = 
+* **+Sem/Route** = 
+* **+Sem/Rule** = 
+* **+Sem/Sign** = 
+* **+Sem/State** = 
+* **+Sem/State-sick** = 
+* **+Sem/Substnc** = 
+* **+Sem/Time** = 
+* **+Sem/Time-clock** = 
+* **+Sem/Tool-it** = 
+* **+Sem/Txt** = 
+* **+Sem/Veh** = 
+* **+Sem/Year** = 
+
+
+## Dialect tags
+* **+Dial/-Var** = Not Varanger
+* **+Dial/-Por** = Not Porsanger
+* **+Dial/-Jok** = Not Jokivarret
+* **+Dial/Var** Varanger, short for +Dial/-Jok+Dial/-Por
+* **+Dial/Por** Porsanger, short for +Dial/-Jok+Dial/-Var
+* **+Dial/Jok** Jokivarret, short for +Dial/-Por+Dial/-V
+
+## Stem variant tags
+* **+v1**:  variant 1
+* **+v2**:  variant 2
+* **+v3**:  variant 3
+* **+v4**:  variant 4
+* **+v5**:  variant 5
+* **+v6**:  variant 6
+* **+v7**:  variant 7
+
+
+
+## Phonological symbols
+
+* **i2** = plural i of nouns
+* **i3** = past tense i of verbs
+* **i4** = i in conditional isi of most verbs (without gemination)
+* **i5** = superlative i of adjectives
+* **i6** = i:j in poika:pojan
+* **i7** = i in conditional of contract verbs (with gemination)
+* **p2** = always p
+* **t2** = always t, cf. katt2oma always tt, underlying -ts-
+* **t3** = t participating in gradation, but not in t:s
+* **t4** = t for Finnish täytyy (no gemination, no nothing)
+* **k2** = always k
+* **k3** = k3 never k:v, contrary to k
+* **^A** = Vowel harmony a/ä
+* **^O** = Vowel harmony o/ö
+* **^U** = Vowel harmony u/y
+* **^V** = Vowel copying
+* **^N** = tulˆNut, kävel^N^Ut
+* **^E2I** = for e to i change
+* **^A2I** = for a to i change
+* **^I0** = i to 0 in vanha_a_21 -Por with i endings: tooline
+* **^E0** = e to 0 in vanha_a_32 and vanha_n_32 bc we add b4 dial trigger, for twolc struc.
+* **^HMETA** = for h metathesis syksy - sykshyyn
+* **^AO** = a:0
+* **^A0** = a:o rannoissa
+* **^WG** = Weak grade matto - maton
+* **^TJ** = vuote vuoje
+* **^T0** = tytär tyär tytärtä tyärtä in Var
+* **^UU** = vuote vuue
+* **^TES** =  in use?
+* **^VDEL** = Deleting long vowel in rakkaa- > rakas
+* **^EDEL** = Deleting e in front of consonant
+* **^AE** = for a to e change
+* **^M2N** = for m to n in lumi lunta
+* **^¤** = potecting against e:i word-finally (nalle, liike)
+* **^Por** -- Porsanger  dialect
+* **^Var** -- Varanger   dialect
+* **^Jok** -- Jokivarret dialect
+* **^End** -- End of word, since the # tags don't work properly
+* »
+* «
+* > (written with square brackets, see the root.lexc file)
+* < (written with square brackets, see the root.lexc file)
+
+
+
+## Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+
+| Flag | Explanation
+| --- | --- 
+|  **@P.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+|  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+|  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
+
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+
+
+| Flag | Explanation
+| --- | --- 
+|  **@P.CmpFrst.FALSE@** | Require that words tagged as such only appear first
+|  **@D.CmpPref.TRUE@** | Block such words from entering ENDLEX
+|  **@P.CmpPref.FALSE@** | Block these words from making further compounds
+|  **@D.CmpLast.TRUE@** | Block such words from entering R
+|  **@D.CmpSuff.TRUE@** | Block such words from entering R
+|  **@P.CmpSuff.TRUE@** | Mark that we have passed R
+|  **@D.CmpNone.TRUE@** | Combines with the next tag to prohibit compounding
+|  **@U.CmpNone.FALSE@** | Combines with the prev tag to prohibit compounding
+|  **@P.CmpOnly.TRUE@** | Sets a flag to indicate that the word has passed R
+|  **@D.CmpOnly.FALSE@** | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+
+| Flag | Explanation
+| --- | --- 
+|  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
+|  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
+|  **@C.ErrOrth@**    | tbw
+|  **@D.ErrOrth.ON@**     | tbw
+|  **@P.ErrOrth.ON@**    | tbw
+|  **@R.ErrOrth.ON@**    | tbw
+|  **@P.Pmatch.Loc@** | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+|  **@P.Pmatch.Backtrack@** | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this poin in the form (to find combinations of shorter analyses that would otherwise be missed)
+
+Pronoun flags
+
+| Flag | Explanation
+| --- | --- 
+|  **@U.pron.nom@** | tbw
+|  **@U.pron.gen@** | tbw
+|  **@U.pron.gen2@** | tbw
+|  **@U.pron.ill@** | tbw
+|  **@U.pron.par@** | tbw
+|  **@U.pron.par2@** | tbw
+|  **@U.pron.par3@** | tbw
+|  **@U.pron.ess@** | tbw
+|  **@U.pron.tra@** | tbw
+|  **@U.pron.ine@** | tbw
+|  **@U.pron.ela@** | tbw
+|  **@U.pron.all@** | tbw
+|  **@U.pron.ade@** | tbw
+|  **@U.pron.abl@** | tbw
+|  **@P.compound.block@** | tbw
+|  **@D.compound.block@** | tbw
+
+
+
+## Basic lexica, pointing to the other lexicon files
+
+Here is the Root lexicon, pointing to all the parts of speech:
+
+ **LEXICON Root**
+
+
+* AdjectiveRoot ;
+* Adverb ;
+* Conjunction ;
+* Interjection ;
+* NUM ;
+* NounRoot ;
+* Particle ;
+* Postposition ;
+* Preposition ;
+* Pronoun ;
+* ProperNoun ;
+* Punctuation ;
+* Symbols ;
+* VerbRoot ;
+* Subjunction ;
+* Abbreviation ;
+* Acronym ;
+
+**LEXICON Acronym** pointing to:
+* Acronym-fkv ;
+* Acronym-smi ;
+
+**LEXICON Abbreviation** pointing to:
+* Abbreviation-fkv ;
+* Abbreviation-smi ;
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/root.lexc)</small>
+# Symbol affixes
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/postpositions.lexc)</small># Closed parts of speech
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/symbols.lexc)</small>2007 s.87
+* 1. Yksitav. / Vi ( maa, tuorestai)	 = vanha_n_1
+* 1.1. Yksitav. monikko/ Vi ( häät)	 = vanha_n_1pl
+* 2. Vokaalirankaiset
+- 2.1 Kaksitav. ( aika, pappi)	 = vanha_n_21
+- 2.1.1. Kaksitav. monikko (housut)  = vanha_n_21pl
+- 2.1.2. Kaksitav. (joki: joke)      = vanha_n_21ie
+- 2.2. Usseempitav. (opettaaja)	 = vanha_n_22
+- 2.2.1. Usseempitav. odd (meininki, tunturi)= vanha_n_22odd
+- 2.2.2. Usseempitav. mon. oi (kulkkiija) = vanha_n_22oi
+- 2.3 Kokkoontumanom. ( valkkee,)	= vanha_n_23
+- 2.3.1 Kokkoontumanom. ( assii)     = vanha_n_23ii
+* 3. Konsonanttirankaiset
+- 3.1 Kaksitav. ( pieni, kieli)  = vanha_n_31
+- 3.1.1. lumi:lumen:lunta      = vanha_n_31m
+- 3.1.2. (käsi, vuosi)   = vanha_n_31si
+- 3.1.3. (lapsi)	     = vanha_n_31lapsi
+- 3.1.4. (mies)		= vanha_n_31mies
+- 3.2 Usseempitav. ( tytär)
+- 3.2.1 (tytär)            = vanha_n_32
+- 3.2.2. (elläin: elläimen  = vanha_n_32m
+- 3.2.3. (rakkhaus)	  = vanha_n_32s
+- 3.3 Kokkoontumanom. ( opas, huonet)
+- 3.3.1 (opas)               = vanha_n_33s
+- 3.3.2 (asukas)             = vanha_n_33s
+- 3.3.3. (ruvis)             = vanha_n_33is
+- 3.3.4 (huonet)             = vanha_n_33t
+- 3.3.5 (kirves)		   = vanha_n_33ts
+* 4. Ekstrakonsonanttirankaiset
+- 4.1 veres-nominit ( veres, kokkous)		= vanha_n_41
+- 4.1.1. veres-nominit monikko ( veljekset)	= vanha_n_41pl
+- 4.2 –inen-nominit ( kainulainen)		  	= vanha_n_42 = nen
+- 4.2.1 -inen-nominit Pl (tervheiset)	  	= vanha_n_42pl = nen
+- 4.2.2 -inen-nominit odd (vihrinen)	  	= vanha_n_42odd = nen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/propernouns.lexc)</small># LEXICA FOR KVEN VERB INFLECTION
+
+This file documents [affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/verbs.lexc)
+
+## Auxiliaries
+
+
+**LEXICON neg** jakaantuu kolmeen
+
+
+**LEXICON indneg** negaation indikatiivipäätteet
+
+Note that lexicon indneg directs to K_NEG and not to K,
+this is since we have enkä but not enkin
+
+**LEXICON imprtneg** negaation imperatiivipäätteet
+
+**LEXICON OLLA** on oma leksikko, vielä vain preesens
+
+
+
+
+
+## Regular verbs
+
+
+
+
+### Verbiluokat v1...
+
+Luokkien v1, v2... Eiran kieliopin mukaan.
+Tarvitaan luultavasti alaluokkia.
+
+Jokaisessa leksikossa on infinitiivi, kolmannen
+persoonan pääteet, ja viittaus preesensin ja preteritin
+kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
+
+**LEXICON v1** saađa:saa
+
+
+
+
+**LEXICON v1iđa** Cond uiđa:uisin
+
+
+
+
+**LEXICON v1kayda** käyđä:kä
+
+
+
+
+
+**LEXICON v1nahda** nähđä:nä
+
+
+
+
+**LEXICON v1tehda** tehđä:te
+
+
+
+
+
+### Verbiluokat v2...
+
+**LEXICON v2** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**LEXICON v2_si** ! pyyttäät:pyysi
+
+
+
+
+
+
+
+
+
+**LEXICON v2_tiettäät** tiettäät
+
+
+
+
+
+**LEXICON v2_odd** kirjoittaat:kirjoitta
+
+
+
+
+
+
+
+
+
+### Verbiluokat v3...
+
+**LEXICON v3_ele_short** = nielä:niel
+
+**LEXICON v3_ele** ajatella:ajattel
+
+
+
+
+
+**LEXICON v3_ele_odd** kävelä:kävel
+
+* aukaista > aukaisemma
+* täristä > tärisemä
+
+
+
+
+**LEXICON v3_ise** aukaista:aukaise
+
+**LEXICON v3_aise** aukaista:aukaise
+
+
+
+
+
+
+**LEXICON v3_lnr** ja vartalo on pan-
+* pitää tehdä ^D
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+
+
+
+
+**LEXICON v3_s** kusta, nousta, pestä, päästä ja vartalo on kus-
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+
+
+
+
+**LEXICON v3piera** pierä:pie
+* pitää tehdä ^D
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+
+
+
+
+**LEXICON v3juosta** juosta:juo
+
+
+
+
+### Verbiluokat v4...
+
+**LEXICON v4** vanheta:vanhe, pajeta:pake
+
+
+
+
+**LEXICON v4_itte** ja vartalo on - kyyti
+* Lyhyt partisiippi
+* Lyhyt partisiippi
+* Lyhyt partisiippi
++V+Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
+
+
+
+
+
+**LEXICON v4_oitte** ja vartalo on haravoi-
+* Lyhyt partisiippi
+* Lyhyt partisiippi
++V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
+
+
+
+
+**LEXICON v43** hantteerata:hantteera
+
+
+
+
+**LEXICON v43_odd** jatkata:jatka
+
+
+
+
+
+**LEXICON v43_odd_II** jatkata:jatka
+
+
+
+
+## Verbien persoonapäätteet
+
+Tämä osa antaa personapäätteet.
+1. ja 2. persoona erikseen, koska ne ovat samoja
+preesensissä ja preterissä.
+3. persoona annettiin jo vartaloleksikoissa.
+
+
+
+
+**LEXICON v12pers** Only sg12, pl12 so far
+
+
+**LEXICON PRFPRC_OBL** is without nom sg
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/verbs.lexc)</small>Affix file for Kven adjectives
+
+# The base lexica
+
+Each a_ lexicon gets the +A tag and is then redirected to
+a common x_ lexicon in the noun file, while compar and superl are here.
+
+
+
+
+
+
+
+
+
+
+
+
+long_par        ;
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON vanha_nocomp_a_21  
+
+* LEXICON a_11_i   siisti
+
+
+
+
+
+* LEXICON a_11   hieno, tuttu, syyry
+
+* LEXICON a_11_E2I  moni, umpi, pälvi 
+
+
+* LEXICON a_11_ae   väärä, nöyrä
+
+
+* LEXICON a_21	  liberaali !TODO: selvittää kannattaako siirtää osa sanoista toiseen ryhmään vai muuttaa tämän ryhmän nimen 
+
+
+* LEXICON a_21_odd	 loistaava 
+
+
+
+
+
+
+* LEXICON a_31_ee	  pimmee, valkkee, kauhhee, hoppee ! TODO sort out nouns and adjectives
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON a_31_ii   auttii
+
+* LEXICON a_31_uu   liehmuu
+
+* LEXICON vanha_a_23ea	 pimeä. Is Jok verson of vanha_a_23, never called from stems/adjectives.lexc
+
+
+* LEXICON a_12	  pieni
+
+* LEXICON a_12_si	 uusi. uussiin only por, always one s in Var
+
+
+
+
+* LEXICON a_22  tyven
+
+* LEXICON vanha_a_32m  irtain
+
+* LEXICON a_22_ma  vasen sg taipuu kuitenki -ma, lämmin:lämpi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON a_32_as  raskas
+
+* LEXICON vanha_a_33aes  sinnikäs
+
+
+* LEXICON a_32_is  valmis, kaunis
+
+
+* LEXICON a_32_kärys  kärys, so far this is the only word
+
+
+
+
+
+* LEXICON a_32_et  tuoret
+
+* LEXICON a_32_u  vaipunu:vaipun ! perfect participle
+
+* LEXICON a_32_väsynyt  väsyny:väsyn, so far this is the only word ! perfect participle
+
+* LEXICON a_32_nny  hengistynny:hengistynn
+
+* LEXICON a_22_excns  = veres
+
+
+
+
+
+* LEXICON a_22_inen  varovainen
+
+
+* LEXICON a_22_inen_odd  sininen
+
+
+
+
+LEXICON MATON  ! TODO TODO TODO ajattelemattomalle lle lla nna
+
+
+* LEXICON a_22_ton_even  muuttumaton
+
+
+
+
+
+
+* LEXICON a_22_ton_odd  onneton
+
+
+LEXICON MATONodd  ! käymättömäle le la na ! TODO Probably not in use atm
+
+* LEXICON x_22_ton  onneton
+
+
+
+
+* LEXICON x_22_ton_yksi_t  alaston yhelä -t:läm alastoman
+
+
+
+
+
+
+# Basic paradigms
+
+Most cases are directed to affixes/nouns.lexc
+
+
+
+## Lexica for the non-uniform cases
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+# Kven numerals 
+
+# Numeral inflection
+Numeral inflection is like nominal, except that numerals compound in all
+forms which requires great amount of care in the inflection patterns.
+
+
+*Numeral nominative back examples:*
+
+
+*Numeral nominative front examples:*
+
+
+*Numeral nominative plural back examples:*
+* *kahđet:* `kaksi+Num+Pl+Nom`
+
+
+*Numeral nominative plural front examples:*
+* *yhđet:* `yksi+Num+Pl+Nom`
+
+
+*Numeral weak singular back examples:*
+* *kahđen:* `kaksi+Num+Sg+Gen`
+* *kahđela:* `kaksi+Num+Sg+Ade`
+* *kahđelta:* `kaksi+Num+Sg+Abl`
+* *kahđele:* `kaksi+Num+Sg+All`
+* *kahđessa:* `kaksi+Num+Sg+Ine`
+* *kahđesta:* `kaksi+Num+Sg+Ela`
+* *kahđeksi:* `kaksi+Num+Sg+Tra`
+* *kahđetta:* `kaksi+Num+Sg+Abe`
+
+
+
+
+*Numeral weak singular front examples:*
+* *yhđen:* `yksi+Num+Sg+Gen`
+* *yhđelä:* `yksi+Num+Sg+Ade`
+* *yhđeltä:* `yksi+Num+Sg+Abl`
+* *yhđele:* `yksi+Num+Sg+All`
+* *yhđessä:* `yksi+Num+Sg+Ine`
+* *yhđestä:* `yksi+Num+Sg+Ela`
+* *yhđeksi:* `yksi+Num+Sg+Tra`
+* *yhđettä:* `yksi+Num+Sg+Abe`
+
+
+
+
+*Numeral strong singular back examples:*
+* *kahtena:* `kaksi+Num+Sg+Ess`
+
+
+
+
+*Numeral strong singular front examples:*
+* *yhtenä:* `yksi+Num+Sg+Ess`
+
+
+
+
+*Numeral weak plural back examples:*
+* *kaksila:* `kaksi+Num+Pl+Ade`
+* *kaksilta:* `kaksi+Num+Pl+Abl`
+* *kaksile:* `kaksi+Num+Pl+All`
+* *kaksissa:* `kaksi+Num+Pl+Ine`
+* *kaksista:* `kaksi+Num+Pl+Ela`
+* *kaksiksi:* `kaksi+Num+Pl+Tra`
+* *kaksitta:* `kaksi+Num+Pl+Abe`
+
+
+
+
+*Numeral weak plural front examples:*
+* *yksilä:* `yksi+Num+Pl+Ade`
+* *yksiltä:* `yksi+Num+Pl+Abl`
+* *yksile:* `yksi+Num+Pl+All`
+* *yksissä:* `yksi+Num+Pl+Ine`
+* *yksistä:* `yksi+Num+Pl+Ela`
+* *yksiksi:* `yksi+Num+Pl+Tra`
+* *yksittä:* `yksi+Num+Pl+Abe`
+
+
+
+
+*Numeral weak plural back strong examples:*
+* *kaksina:* `kaksi+Num+Pl+Ess`
+* *kaksine:* `kaksi+Num+Pl+Com`
+
+
+*Numeral weak plural back strong examples:*
+* *kaksina:* `kaksi+Num+Pl+Ess`
+* *kaksine:* `kaksi+Num+Pl+Com`
+
+
+*Numeral weak plural front strong examples:*
+* *yksinä:* `yksi+Num+Pl+Ess`
+* *yksine:* `yksi+Num+Pl+Com`
+
+
+*Numeral weak plural front strong examples:*
+* *yksinä:* `yksi+Num+Pl+Ess`
+* *yksine:* `yksi+Num+Pl+Com`
+
+
+
+
+*Numeral singular partitive a examples:*
+* *kahđeksee:* `kahđeksen+Num+Sg+Par` (Eng. !eight)
+
+
+
+*Numeral singular partitive a poss aan examples:*
+* *kolmee:* `kolme+Num+Sg+Par` (Eng. !three)
+
+
+*Numeral singular partitive ta examples:*
+* *kuutta:* `kuusi+Num+Sg+Par` (Eng. !six)
+
+
+*Numeral singular partitive tä examples:*
+* *viittä:* `viisi+Num+Sg+Par` (Eng. !five)
+
+
+
+
+*Numeral singular illative an examples:*
+* *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
+
+
+*Numeral singular illative en back examples:*
+* *kolmheen:* `kolme+Num+Sg+Ill`
+
+
+*Numeral singular illative en front examples:*
+* *viitheen:* `viisi+Num+Sg+Ill`
+
+
+*Numeral singular illative in back examples:*
+* *miljardhiin:* `miljardi+Num+Sg+Ill` (Eng. !billion)
+
+
+
+
+*Numeral plural partitive ia examples:*
+* *kaksii:* `kaksi+Num+Pl+Par`
+
+
+
+
+
+
+
+
+
+*Numeral plural partitive ja examples:*
+* *miljardii:* `miljardi+Num+Pl+Par`
+
+
+*Numeral plural genitive ien back examples:*
+* *kaksiin:* `kaksi+Num+Pl+Gen`
+
+
+
+
+
+
+
+
+
+*Numeral plural genitive ten back examples:*
+* *kuussiin:* `kuusi+Num+Pl+Gen`
+* *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !kuussiin on tärkeämpi)
+
+
+*Numeral plural genitive ten front examples:*
+* *viissiin:* `viisi+Num+Pl+Gen`
+* *viitten:* `viisi+Num+Pl+Gen` (Eng. !viissiin on tärkeämpi)
+
+
+*Numeral plural genitive in back examples:*
+
+
+*Numeral plural genitive in front examples:*
+
+
+*Numeral plural illaive ihin bavk examples:*
+* *miljardhiin:* `miljardi+Num+Pl+Ill`
+
+
+*Numeral plural illaive iin back examples:*
+* *kakshiin:* `kaksi+Num+Pl+Ill`
+
+
+
+
+
+*Numeral possessive back examples:*
+* *kahteni:* `kaksi+Num+Sg+Nom+PxSg1` (Eng. !Kainun kielessä possessiivisuffiksiita käytethään aika vähän. Annamme niiden olla täällä toistaiseksi.)
+
+
+*Numeral possessive front examples:*
+* *yhteni:* `yksi+Num+Sg+Nom+PxSg1`
+
+
+*Numeral possessive back aan examples:*
+* *kolmeensa:* `kolme+Num+Sg+Par+PxSg3`
+
+
+*Numeral possessive back eenback examples:*
+* *kahđeksensa:* `kaksi+Num+Sg+Tra+PxSg3`
+* *kahđekseen:* `kaksi+Num+Sg+Tra+PxSg3`
+
+
+*Numeral possessive back een front examples:*
+* *neljeksensä:* `nelje+Num+Sg+Tra+PxSg3`
+* *neljekseen:* `nelje+Num+Sg+Tra+PxSg3`
+
+
+*Numeral possessive back ään examples:*
+* *viittänsä:* `viisi+Num+Sg+Par+PxSg3`
+* *viittään:* `viisi+Num+Sg+Par+PxSg3`
+
+
+*Numeral clitic back examples:*
+
+
+*Numeral clitic front examples:*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **LEXICON ARABICCASES**  adds +Arab
+
+* **LEXICON ARABICCASE**  adds +Arab
+
+* **LEXICON ARABICCASE0**  adds +Arab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/numerals.lexc)</small># Sublexica for NounRoot
+
+Aloitin sovittaa analyysin Eiran kieliopin mukaan (Porsanki).
+Leksikot ovat nyt (tai pitää olla) n11, n12, jne., eli siis
+Eiran nominit tyyppi 1.1., 1.2., jne.
+
+2007 s.87
+* 1. Yksitavuiset / Vi ( maa, tuorestai)        = vanha_n_1
+* 1.1. Yksitavuiset monikko/ Vi ( häät)         = vanha_n_1pl
+* 2. Vokaalirankaiset
+- 2.1 Kaksitavuiset ( pappi)                   = vanha_n_21
+- 2.1.1. Kaksitavuiset monikko (housut)       = vanha_n_21pl
+- 2.1.2. Kaksitavuiset (joki: joke)           = vanha_n_21ie
+- 2.2. Usseempitav. (opettaaja)                = vanha_n_22
+- 2.2.1. Usseempitav. odd (kajava)            = vanha_n_22odd
+- 2.2.2. Usseempitav. odd (meininki, tunturi) = vanha_n_22oddi
+- 2.2.3. Usseempitav. monikko oi (kulkkiija)  = vanha_n_22oi
+- 2.3 Kokkoontumanom. ( valkkee)               = vanha_n_23
+- 2.3.1 Kokkoontumanom. (assii)                = vanha_n_23ii
+* 3. Konsonanttirankaiset
+- 3.1 Kaksitavuiset ( pieni, kieli)            = vanha_n_31
+- 3.1.1. Kaksitavuiset lumi)                   = vanha_n_31lumi
+- 3.1.2. (käsi, vuosi)                         = vanha_n_31si
+- 3.1.3. (lapsi)                               = vanha_n_31lapsi
+- 3.1.4. (mies)                                = vanha_n_31mies
+- 3.2 Usseempitavuiset
+- 3.2.1 (tytär)                                = vanha_n_32
+- 3.2.2. (elläin)                              = vanha_n_32m
+- 3.2.3 (rakkhaus)                             = vanha_n_32s
+- 3.3 Kokkoontumanom. ( opas, huonet)
+- 3.3.1 (opas)                                 = vanha_n_33s
+- 3.3.2 (asukas)                               = vanha_n_33sodd
+- 3.3.3. (ruvis)                               = vanha_n_33is
+- 3.3.4 (huonet)                               = vanha_n_33t
+- 3.3.5 (kirves)                               = vanha_n_33ts
+* 4. Ekstrakonsonanttirankaiset
+- 4.1 veres-nominit ( veres, kokkous)          = vanha_n_41
+- 4.1.1. veres-nominit monikko ( veljekset)    = vanha_n_41pl
+- 4.2 –inen-nominit ( kainulainen)             = vanha_n_42 = nen
+- 4.2.1 -inen-nominit Pl (tervheiset)         = vanha_n_42pl = nen
+- 4.2.2 -inen-nominit odd (vihrinen)          = vanha_n_42odd = nen
+
+## Noun types
+
+### Incomong
+
+
+
+
+
+* LEXICON n_31  = maa, tie
+
+* LEXICON n_31_ai  = tuorestai ja muut päivät
+
+
+
+
+
+* LEXICON n_31_pl  = häät
+
+* LEXICON x_31_pl  = häät
+
+the same affix in sg and pl
+
+
+
+### Eira's classification
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON n_11   lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON n_11_AO  sana - sanoissa. Linna? Linnoissa? aika
+
+* LEXICON x_11_AO  sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
+
+
+
+* LEXICON n_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
+
+* LEXICON x_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
+
+
+
+
+
+
+
+LEXICON n_11_E2I         on ovi:ove, joki:joke, hyksi, suomi ! Ei lainasanat
+
+these two lexica for cases with
+
+the same affix in sg and pl
+
+
+
+
+
+* LEXICON n_11_pl          "villahousut", lyhyt vokali, yks vartalo, kasvot
+
+* LEXICON x_11_pl         ! Seems like no adjectives call this?
+
+
+the same affix in sg and pl
+
+
+
+* LEXICON n_21          opettaaja, karamelli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON n_21_odd   kajava
+
+* LEXICON x_21_odd   kajava
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON n_21_odd_C  lainasanat, fiction
+
+* LEXICON n_21_odd_i   meininki, tunturi TODO
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON n_21_oi          Paivukko, perintö, kurkkio
+
+
+
+
+
+* LEXICON n_21_oi_AO          Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
+
+* LEXICON n_21_oi_ÄÖ          Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
+
+
+
+* LEXICON n_31_ee          hoppee:hoppe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON n_31_ii          assii (in Por) kurkkii (in Por)
+
+* LEXICON n_31_ii          for same affix in sg and pl
+
+* LEXICON n_31_ii          for same affix in sg and pl
+
+
+
+
+
+
+* LEXICON n_31_uu          karhuu (in Por) 
+
+* LEXICON n_31_uu          for same affix in sg and pl
+
+* LEXICON n_31_uu          for same affix in sg and pl
+
+LEXICON n_12          kieli
+
+* LEXICON n_12          for same affix in sg and pl
+
+* LEXICON n_12          for same affix in sg and pl
+
+LEXICON n_12_mi        lumi lu
+
+
+
+
+LEXICON n_12_si         vuosi, käsi, hirsi
+
+
+
+
+
+
+LEXICON n_12_vuosi       vuosi, vuona 
+
+
+LEXICON x_12_vuosi      
+
+
+
+LEXICON n_12_kusi         kusi kuusi
+
+LEXICON x_12_kusi         kusi kuusi
+these two lexica for cases with
+
+the same affix in sg and pl
+
+
+
+LEXICON n_12_lapsi         lapsi la
+
+LEXICON x_12_lapsi         lapsi la
+these two lexica for cases with
+
+the same affix in sg and pl
+
+
+LEXICON n_12_mies         mies mie
+
+LEXICON x_12_mies         mies mie
+these two lexica for cases with
+
+the same affix in sg and pl
+
+
+LEXICON n_22  tytär:tyttär, taival:taipal
+
+
+
+
+
+
+
+
+LEXICON n_22_m  elläin elläi yđin ydin
+
+LEXICON x_22_m 
+
+
+LEXICON n_22_m_pl 
+
+
+LEXICON n_22_s   sairhaus
+
+* Konsonanttivartalo: poista -e ja heikko aste
+* Konsonanttivartalo: poista -e ja heikko aste
+
+
+
+* Konsonanttivartalo: poista -e ja heikko aste
+* Konsonanttivartalo: poista -e ja heikko aste
+
+
+
+
+
+
+
+LEXICON n_32_as  rakas, asukas
+
+
+
+
+
+
+
+
+
+
+
+
+LEXICON n_32_is  ruvis, ruumis
+
+
+
+
+LEXICON n_32_et  venet, hyljet, huonet
+
+
+
+
+LEXICON n_32_et_2  askel, kyynel, kannel
+
+
+
+
+LEXICON n_32_ut  vantut:vantutta:vantthuut
+
+
+
+
+LEXICON n_32_ts  kirves
+
+LEXICON x_32_ts  kirves
+
+
+these two lexica for cases with
+
+the same affix in sg and pl -- tsekkaa long
+
+
+* LEXICON n_22_excns  = veres (keskus)
+
+
+*  LEXICON n_22_excns_even  = (kuttumus)
+
+
+
+* LEXICON n_22_excns_pl  = veljekset
+
+* LEXICON x_22_excns_pl  = veljekset
+
+these two lexica for cases with
+
+the same affix in sg and pl -- tsekkaa long
+
+
+
+
+
+
+these two lexica for cases with
+
+the same affix in sg and pl
+
+LEXICON n_22_inen_odd  ihminen
+
+these two lexica for cases with
+
+the same affix in sg and pl
+
+LEXICON n_22_inen_pl !  tervheiset tervhei
+the same affix in sg and pl
+
+
++N:se   nomgen_px      ;
+
+make+N+Pl+kom:sine K              ;
+
+
+
+
+
+
+
+Basic paradigms
+
+
+
+
+### Sublexica for the basic unified cases, with even and odd variations
+
+
+
+
+
+
+
+
+
+
+
+### Sublexica for Gen, Par, Ill, Ess and Com.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Sublexica for possessive suffixes
+
+Px is now not in use, with one exception, comitative.
+
+LEXICON n_PxK   has either -n or goes to Px
+
+LEXICON i_PxK   Tra: -i or -e and goes to Px
+
+LEXICON PxK  has only -nsA, and is currently not in use. Check
+
+LEXICON PxxK   has also -Vn, thus both .. llensa and ..lleen.
+
+
+
+
+Tästä tiedostosta löytyvät suljetut sanaluokat.                                                                                                                       
+
+Px-Vn leksikossa on vain kuusi sanaa                                                                                                                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic paradigms
+
+## Basic vowel stems
+
+
+ !LEXICON strong_v_stem_even   ''Kaikki vahvan asteen sijamuodot tähän''
+
+ !LEXICON strong_v_stem_odd   ''Kaikki vahvan asteen sijamuodot tähän''
+
+
+
+
+### Sublexica for the vowel stems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+
+* **LEXICON ab-noun   **
+
+
+* **LEXICON ab-adj   **
+
+
+* **LEXICON ab-adv   **
+
+
+* **LEXICON ab-num   **
+
+### Lexicons without final period
+
+
+* **LEXICON ab-nodot-noun   **  The bulk
+
+
+* **LEXICON ab-nodot-adj   **
+
+
+* **LEXICON ab-nodot-adv   **
+
+* **LEXICON ab-nodot-num   **
+
+### Lexicons with final period
+
+
+* **LEXICON ab-dot-noun   **  This is the lexicon for abbrs that must have a period.
+
+
+* **LEXICON ab-dot-adj   **  This is the lexicon for abbrs that must have a period.
+
+* **LEXICON ab-dot-adv   **  This is the lexicon for abbrs that must have a period.
+
+* **LEXICON ab-dot-num   **  This is the lexicon for abbrs that must have a period.
+
+* **LEXICON ab-dot-cc   **
+
+
+
+* **LEXICON ab-dot-verb   **
+
+
+
+
+
+
+* **LEXICON nodot-attrnomaccgen-infl   **
+
+* **LEXICON nodot-attr-infl   **
+
+* **LEXICON nodot-nomaccgen-infl   **
+
+
+* **LEXICON dot-attrnomaccgen-infl   **
+
+* **LEXICON dot-attr   **
+
+* **LEXICON dot-nomaccgen-infl   **
+
+
+* **LEXICON DOT   ** - Adds the dot to dotted abbreviations.
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/abbreviations.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/abbreviations.lexc)</small>
+
+# Pronominien morfologia
+
+Pronominit ovat edelleen vaan kokeiluvaiheessa.
+
+LEXICON 12pronsg  on 1., 2. p. yksikkö
+
+
+LEXICON 12pronsg_short  on 1., 2. p. yksikkö
+
+
+
+
+LEXICON 123pronpl  
+
+
+
+
+
+
+
+
+
+
+nuoitä
+
+
+tuotä
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/pronouns.lexc)</small># Prepositiot
+
+Adposittiit eli postposittiit ja preposittiit – esimerkkii
+Aikamatka-sanalista
+
+pr for +Pr tag
+
+Preposition for +Pr tag
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prepositions.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/prepositions.lexc)</small># Closed parts of speech
 
 Tästä tiedostosta löytyvät suljetut sanaluokat.
 
@@ -4536,155 +4534,85 @@ Interjection -leksikossa on vain pari sanaa.  yäk, kääk, nono
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/closed.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/closed.lexc)</small># Prepositiot
-
-Adposittiit eli postposittiit ja preposittiit – esimerkkii
-Aikamatka-sanalista
-
-pr for +Pr tag
-
-Preposition for +Pr tag
+<small>This (part of) documentation was generated from [../src/fst/stems/closed.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/closed.lexc)</small># Propernoun lexicon for Kven
 
 
+LEXICON ProperNoun  on kokeellinen leksikko
 
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prepositions.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/prepositions.lexc)</small>File containing abbreviations 
-
-Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Ap:Ap2 vanha_nocmp_prop_org_21C ; 
+* Kap:Kap2 vanha_prop_sur_21C ; 
+* Tonle-Sap:Tonle-Sap2 vanha_prop_plc_21C ; 
+* Ginungagap:Ginungagap2 vanha_prop_plc_21C ; 
+...
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/fkv-abbreviations.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/fkv-abbreviations.lexc)</small>
-# Substantiivit
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/propernouns.lexc)</small># Verbivartalot
 
-LEXICON NounRoot 
+Katsaus:
+* Epäsäännölliset ei+V+Neg: neg ; olla: OLLA ;
+* YKSITAVUISET  saađa, vieđä...
+* Erikoinen yksitavuinen V1nahda, V1tehda V1kayda
+* YKSIVARTALOISET v2 lähteet, lukkeet...
+* v2_odd kirjoittaat
+* KONSONANTTIVARTALOISET v3-tyyppit:
+* v3_ele
+* v3_ele_short kuula
+* v3_ise aukaista :aukais
+* v3_lnr tulla, mennä...
+* v3piera pierä
+* v3_ele_odd kävelä:kävel  ;
+* v3juosta juostajuo v3juosta ;
+* VOKAALIVARTALOISET v4-tyyppiset
+* v4 lämmetä
+* v43 evakueerata
+* v43_odd_II karhiita
+* v4_itte kyytitä: kyyti  ;
+* v4_oitte haravoita
+* kontraktiverbit jatkata:jatka v43_odd ;
 
-Nomenityyppit s.147 (Eira published book 2014) (Niitähän oon 3)
+# Lexicon VerbRoot 
 
-TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
+v_v2
+Now v3_ise all end on s. In order to have aukasevat, as an possible
+Unexpected results: aukasseeva, aukaisseevat
+Missing results: aukasevat, Unexpected results: aukasseevat
 
-* 2.1 Kaksitavuiset ( juoppo, syksy, puku )               = `n_11`
-* X.X Kaksitavuiset ( sana : sanoissa, aika )  a -> o:ksi = `n_11_AO`
-* X.X Kaksitavuiset ( kuva : kuvissa )         a -> i:ksi = `n_11_A0_A2I`
-* X.X Kaksitavuiset lånord ( färi : färi, pappi, tooli )  = `n_11_i`
-- 2.1.1  Kaksitavuiset monikko (housut )                 = `n_11_pl`
-- 2.1.2  Kaksitavuiset ( joki:joke, ovi:ove ) e -> i:ksi = `n_11_E2I`
-* 3.1 Kaksitavuiset (CNS-rankaiset?) ( pieni, kieli )     = `n_12`
-* 3.1.1  ( lumi:lunta, toimi, liemi )                     = `n_12_mi`
-* 3.1.2  ( käsi, vuosi )                                  = `n_12_si`
-* X.X.X  (kusi, kuusi) toistaiseksi vain nämä 2 sanaa     = `n_12_kusi`
-* 3.1.3  ( lapsi )                                        = `n_12_lapsi`
-* 3.1.4  ( mies )                                         = `n_12_mies`
-
-TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
-
-* 2.2  Usseempitav. ( opettaaja )                         = `n_21`
-- 2.2.2  U.tav. monikko oi (perintö,kurkkio,paijukko )   = `n_21_oi`
-- 2.2.2  U.tav. monikko oi (kulkkiija, asia) a -> o:ksi  = `n_21_oi_AO`
-- 2.2.1  Usseempitav. odd ( kajava )                     = `n_21_odd`
-- 2.2.1  Usseempitav. odd ( meininki, tunturi )          = `n_21_odd_i`
-
-* 3.2 Usseempitavuiset ( tytär )
-- 3.2.1 ( tytär, taival, paimen )                        = `n_22`
-- 3.2.2 ( elläin: elläimen)                              = `n_22_m`
--       ( vanhimet:vanhi )                               = `n_22_m_pl`
-
-* 4.3  ton-adjektiivit (onneton:onne) (vain Adj)          = `a_22_ton`
-- 3.2.3 (rakkhaus)                                       = `n_22_s`
-* 4.1 veres-nominit ( veres, kokkous) ekstraCNSranka      = `n_22_excns`
-* 4.1.1 veres-nominit monikko ( veljekset) ekstraCNSranka = `n_22_excns_pl`
-- 4.2.2 -inen-nominit odd (vihrinen / ihminen)           = `n_22_inen_odd`
-* 4.2 –inen-nominit ( kainulainen)                        = `n_22_inen`
-- 4.2.1 -inen-nominit Pl (tervheiset)                    = `n_22_inen_pl`
-
-TYYPPI 3: Pitkävokaaliset rangat
-
-* 1. Yksitavuiset / Vi ( maa, yö )                        = ` n_31`
-* 1.2  Yksitavuiset monikko/ Vi ( häät )                  = ` n_31_pl`
-* 1.1 Yksitavuiset / ai ( tuorestai )                     = ` n_31_ai`
-- 2.3 Kokkoontumanom. ( valkkee)                         = ` n_31_ee`
-- 2.3 Kokkoontumanom. ( filee, teevee) Lainasanat!     = `n_31_lainasana_ee`
-- 2.3.1 Kokkoontumanom. ( assii, laattii )                = ` n_31_ii`
-- 3.3.1 (opas) & 3.3.2 (asukas) & rakas                   = ` n_32_as`
-- 3.3.3 (ruvis, kaunis)                                   = ` n_32_is`
-- 3.3.4 (huonet, hyljet, perkele)                         = ` n_32_et`
-- 3.3.5 (kirves)                                          = ` n_32_ts`
+* olla: OLLA ; 
+* ei+V+Neg: neg ; 
+* saađa:saa v1 ; 
+* vieđä:vie v1 ; 
+* naiđa:nai v1iđa ; 
+* voiđa:voi v1iđa ; 
+* uiđa:ui v1iđa ; 
+...
 
 
 
 
 
 
-* valkkee:valkke n_31_ee ;  Is noun, bål
-* veres:vere n_22_excns ; 
-* käsi:käte n_12_si ; 
-* assii+Dial/Por:assi n_31_ii ; 
-* meininki:meininki n_21_odd_i ; 
-* tytär:tyttär n_22 ; 
-* lumi:lu n_12_mi ; 
-* yö:yö n_31 ; 
 
 
-Leksikkonimet Eiran mukaan
-* n1 Eira 1
-* n12 Eira 1.1 etc
-Luokat vanha_n_21  n12 vanha_n_22 vanha_n_22odd vanha_n_32 vanha_n_32s vanha_n_32m vanha_n_1 vanha_n_23 vanha_n_33as n-33is vanha_n_33t vanha_n_41 vanha_n_42 vanha_n_42odd Eiran v. 2009 mukaan
 
-2007 s.87
-* 1. Yksitavuiset / Vi ( maa )		 	            = vanha_n_1
-* 1.1 Yksitavuiset / ai ( tuorestai )		 	    = vanha_n_1ai
-* 1.2. Yksitavuiset monikko/ Vi ( häät )		  	= vanha_n_1pl
-* 2. Vokaalirankaiset						 	            =
-- 2.1 Kaksitavuiset ( aika, pappi )			 	    = vanha_n_21
-- 2.1.1. Kaksitavuiset monikko (housut )   	= vanha_n_21pl
-- 2.1.2. Kaksitavuiset (joki: joke )         = vanha_n_21ie
-- 2.2. Usseempitav. ( opettaaja )		     	 	  = vanha_n_22
-- 2.2.1. Usseempitav. odd ( kajava )	       	= vanha_n_22odd
-- 2.2.1. Usseempitav. odd ( meininki, tunturi )	= vanha_n_22oddi
-- 2.2.2. Usseempitav. monikko oi ( kulkkiija )	= vanha_n_22oi
-- 2.3 Kokkoontumanom. ( valkkee,)	      	 	= vanha_n_23
-- 2.3.1 Kokkoontumanom. ( assii )    		 	= vanha_n_23ii
-* 3. Konsonanttirankaiset
-- 3.1 Kaksitavuiset ( pieni, kieli )		   		= vanha_n_31
-- 3.1.1. lumi:lumen:lunta                  		= vanha_n_31m
-- 3.1.2. ( käsi, vuosi )					   		= vanha_n_31si
-- 3.1.3. ( lapsi )		 	         	   		= vanha_n_31lapsi
-- 3.1.4. ( mies )			         		   		= vanha_n_31mies
-- 3.2 Usseempitavuiset ( tytär )
-- 3.2.1 ( tytär )                           		= vanha_n_32
-- 3.2.2. ( elläin: elläimen                		= vanha_n_32m
-- 3.2.3. (rakkhaus)					   		= vanha_n_32s
-- 3.3 Kokkoontumanom. ( opas, huonet)
-- 3.3.1 (opas)                             		= vanha_n_33as
-- 3.3.2 (asukas)                           		= vanha_n_33as
-- 3.3.3. (ruvis)                           		= vanha_n_33is
-- 3.3.4 (huonet)                           		= vanha_n_33t
-- 3.3.5 (kirves)						   		= vanha_n_33ts
-* 4. Ekstrakonsonanttirankaiset
-- 4.1 veres-nominit ( veres, kokkous)	   		= vanha_n_41
-- 4.1.1. veres-nominit monikko ( veljekset)		= vanha_n_41pl
-- 4.2 –inen-nominit ( kainulainen)		   		= vanha_n_42 = nen
-- 4.2.1 -inen-nominit Pl (tervheiset)	   		= vanha_n_42pl = nen
-- 4.2.2 -inen-nominit odd (vihrinen)	   		= vanha_n_42odd = nen
+
+
+
+
+
+
+huokata:huokka v43_odd ;
+puheta:puhke v43_odd ;
+
+
+
+
+
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/nouns.lexc)</small># Kven language adjectives
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/verbs.lexc)</small># Kven language adjectives
 
 
 AdjectiveRoot on alkuvaiheessa vielä.
@@ -4781,128 +4709,7 @@ Pitkävokaaliset Konsonanttirankaiset (Kokoontuma?)
 4.3 -ton-adjektiivit
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/adjectives.lexc)</small>
-
-# Pronominien vartalot
-
-Itse taivutus jatkuu
-
-
-
-Persoonapronominit
-
-* mie+Pron+Pers+Sg1:m        12pronsg       ; 
-* mie+Pron+Pers+Sg1+Use/NG:m 12pronsg_short ; 
-* ...
-* sie+Pron+Pers+Sg2+Use/NG:s 12pronsg_short ; 
-
-
-
-Demonstratiivipronominit
-
-
-Kysymäpronominit
-* kuka+Pron+Interr+Sg+Nom:kuka   K  ;  nom
-* kuka+Pron+Interr+Pl+Nom+Dial/Por:kukka  K  ;  
-
-* kuka+Pron+Interr:ke             kuka_relkys_obl  ;  
-
-* mikä+Pron+Interr:mi             mi_rel  ;  
-
-Relatiivipronominit
-
-
-
-Refleksiivi- ja resiprookipronominit
-
-
-
-
-Indefiniittipronominit/Kvanttoripronominit
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/pronouns.lexc)</small># Verbivartalot
-
-Katsaus:
-* Epäsäännölliset ei+V+Neg: neg ; olla: OLLA ;
-* YKSITAVUISET  saađa, vieđä...
-* Erikoinen yksitavuinen V1nahda, V1tehda V1kayda
-* YKSIVARTALOISET v2 lähteet, lukkeet...
-* v2_odd kirjoittaat
-* KONSONANTTIVARTALOISET v3-tyyppit:
-* v3_ele
-* v3_ele_short kuula
-* v3_ise aukaista :aukais
-* v3_lnr tulla, mennä...
-* v3piera pierä
-* v3_ele_odd kävelä:kävel  ;
-* v3juosta juostajuo v3juosta ;
-* VOKAALIVARTALOISET v4-tyyppiset
-* v4 lämmetä
-* v43 evakueerata
-* v43_odd_II karhiita
-* v4_itte kyytitä: kyyti  ;
-* v4_oitte haravoita
-* kontraktiverbit jatkata:jatka v43_odd ;
-
-# Lexicon VerbRoot 
-
-v_v2
-Now v3_ise all end on s. In order to have aukasevat, as an possible
-Unexpected results: aukasseeva, aukaisseevat
-Missing results: aukasevat, Unexpected results: aukasseevat
-
-* olla: OLLA ; 
-* ei+V+Neg: neg ; 
-* saađa:saa v1 ; 
-* vieđä:vie v1 ; 
-* naiđa:nai v1iđa ; 
-* voiđa:voi v1iđa ; 
-* uiđa:ui v1iđa ; 
-...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-huokata:huokka v43_odd ;
-puheta:puhke v43_odd ;
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/verbs.lexc)</small># Kven numerals
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/adjectives.lexc)</small># Kven numerals
 
 
 Numerals have been split in three sections, the compounding parts
@@ -5211,6 +5018,192 @@ being very rare to extinct for nouns.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/numerals.lexc)</small>
+# Substantiivit
+
+LEXICON NounRoot 
+
+Nomenityyppit s.147 (Eira published book 2014) (Niitähän oon 3)
+
+TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
+
+* 2.1 Kaksitavuiset ( juoppo, syksy, puku )               = `n_11`
+* X.X Kaksitavuiset ( sana : sanoissa, aika )  a -> o:ksi = `n_11_AO`
+* X.X Kaksitavuiset ( kuva : kuvissa )         a -> i:ksi = `n_11_A0_A2I`
+* X.X Kaksitavuiset lånord ( färi : färi, pappi, tooli )  = `n_11_i`
+- 2.1.1  Kaksitavuiset monikko (housut )                 = `n_11_pl`
+- 2.1.2  Kaksitavuiset ( joki:joke, ovi:ove ) e -> i:ksi = `n_11_E2I`
+* 3.1 Kaksitavuiset (CNS-rankaiset?) ( pieni, kieli )     = `n_12`
+* 3.1.1  ( lumi:lunta, toimi, liemi )                     = `n_12_mi`
+* 3.1.2  ( käsi, vuosi )                                  = `n_12_si`
+* X.X.X  (kusi, kuusi) toistaiseksi vain nämä 2 sanaa     = `n_12_kusi`
+* 3.1.3  ( lapsi )                                        = `n_12_lapsi`
+* 3.1.4  ( mies )                                         = `n_12_mies`
+
+TYYPPI 2: Usheempitavuiset lyhykäisvokaaliset rangat
+
+* 2.2  Usseempitav. ( opettaaja )                         = `n_21`
+- 2.2.2  U.tav. monikko oi (perintö,kurkkio,paijukko )   = `n_21_oi`
+- 2.2.2  U.tav. monikko oi (kulkkiija, asia) a -> o:ksi  = `n_21_oi_AO`
+- 2.2.1  Usseempitav. odd ( kajava )                     = `n_21_odd`
+- 2.2.1  Usseempitav. odd ( meininki, tunturi )          = `n_21_odd_i`
+
+* 3.2 Usseempitavuiset ( tytär )
+- 3.2.1 ( tytär, taival, paimen )                        = `n_22`
+- 3.2.2 ( elläin: elläimen)                              = `n_22_m`
+-       ( vanhimet:vanhi )                               = `n_22_m_pl`
+
+* 4.3  ton-adjektiivit (onneton:onne) (vain Adj)          = `a_22_ton`
+- 3.2.3 (rakkhaus)                                       = `n_22_s`
+* 4.1 veres-nominit ( veres, kokkous) ekstraCNSranka      = `n_22_excns`
+* 4.1.1 veres-nominit monikko ( veljekset) ekstraCNSranka = `n_22_excns_pl`
+- 4.2.2 -inen-nominit odd (vihrinen / ihminen)           = `n_22_inen_odd`
+* 4.2 –inen-nominit ( kainulainen)                        = `n_22_inen`
+- 4.2.1 -inen-nominit Pl (tervheiset)                    = `n_22_inen_pl`
+
+TYYPPI 3: Pitkävokaaliset rangat
+
+* 1. Yksitavuiset / Vi ( maa, yö )                        = ` n_31`
+* 1.2  Yksitavuiset monikko/ Vi ( häät )                  = ` n_31_pl`
+* 1.1 Yksitavuiset / ai ( tuorestai )                     = ` n_31_ai`
+- 2.3 Kokkoontumanom. ( valkkee)                         = ` n_31_ee`
+- 2.3 Kokkoontumanom. ( filee, teevee) Lainasanat!     = `n_31_lainasana_ee`
+- 2.3.1 Kokkoontumanom. ( assii, laattii )                = ` n_31_ii`
+- 3.3.1 (opas) & 3.3.2 (asukas) & rakas                   = ` n_32_as`
+- 3.3.3 (ruvis, kaunis)                                   = ` n_32_is`
+- 3.3.4 (huonet, hyljet, perkele)                         = ` n_32_et`
+- 3.3.5 (kirves)                                          = ` n_32_ts`
+
+
+
+
+
+
+* valkkee:valkke n_31_ee ;  Is noun, bål
+* veres:vere n_22_excns ; 
+* käsi:käte n_12_si ; 
+* assii+Dial/Por:assi n_31_ii ; 
+* meininki:meininki n_21_odd_i ; 
+* tytär:tyttär n_22 ; 
+* lumi:lu n_12_mi ; 
+* yö:yö n_31 ; 
+
+
+Leksikkonimet Eiran mukaan
+* n1 Eira 1
+* n12 Eira 1.1 etc
+Luokat vanha_n_21  n12 vanha_n_22 vanha_n_22odd vanha_n_32 vanha_n_32s vanha_n_32m vanha_n_1 vanha_n_23 vanha_n_33as n-33is vanha_n_33t vanha_n_41 vanha_n_42 vanha_n_42odd Eiran v. 2009 mukaan
+
+2007 s.87
+* 1. Yksitavuiset / Vi ( maa )		 	            = vanha_n_1
+* 1.1 Yksitavuiset / ai ( tuorestai )		 	    = vanha_n_1ai
+* 1.2. Yksitavuiset monikko/ Vi ( häät )		  	= vanha_n_1pl
+* 2. Vokaalirankaiset						 	            =
+- 2.1 Kaksitavuiset ( aika, pappi )			 	    = vanha_n_21
+- 2.1.1. Kaksitavuiset monikko (housut )   	= vanha_n_21pl
+- 2.1.2. Kaksitavuiset (joki: joke )         = vanha_n_21ie
+- 2.2. Usseempitav. ( opettaaja )		     	 	  = vanha_n_22
+- 2.2.1. Usseempitav. odd ( kajava )	       	= vanha_n_22odd
+- 2.2.1. Usseempitav. odd ( meininki, tunturi )	= vanha_n_22oddi
+- 2.2.2. Usseempitav. monikko oi ( kulkkiija )	= vanha_n_22oi
+- 2.3 Kokkoontumanom. ( valkkee,)	      	 	= vanha_n_23
+- 2.3.1 Kokkoontumanom. ( assii )    		 	= vanha_n_23ii
+* 3. Konsonanttirankaiset
+- 3.1 Kaksitavuiset ( pieni, kieli )		   		= vanha_n_31
+- 3.1.1. lumi:lumen:lunta                  		= vanha_n_31m
+- 3.1.2. ( käsi, vuosi )					   		= vanha_n_31si
+- 3.1.3. ( lapsi )		 	         	   		= vanha_n_31lapsi
+- 3.1.4. ( mies )			         		   		= vanha_n_31mies
+- 3.2 Usseempitavuiset ( tytär )
+- 3.2.1 ( tytär )                           		= vanha_n_32
+- 3.2.2. ( elläin: elläimen                		= vanha_n_32m
+- 3.2.3. (rakkhaus)					   		= vanha_n_32s
+- 3.3 Kokkoontumanom. ( opas, huonet)
+- 3.3.1 (opas)                             		= vanha_n_33as
+- 3.3.2 (asukas)                           		= vanha_n_33as
+- 3.3.3. (ruvis)                           		= vanha_n_33is
+- 3.3.4 (huonet)                           		= vanha_n_33t
+- 3.3.5 (kirves)						   		= vanha_n_33ts
+* 4. Ekstrakonsonanttirankaiset
+- 4.1 veres-nominit ( veres, kokkous)	   		= vanha_n_41
+- 4.1.1. veres-nominit monikko ( veljekset)		= vanha_n_41pl
+- 4.2 –inen-nominit ( kainulainen)		   		= vanha_n_42 = nen
+- 4.2.1 -inen-nominit Pl (tervheiset)	   		= vanha_n_42pl = nen
+- 4.2.2 -inen-nominit odd (vihrinen)	   		= vanha_n_42odd = nen
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/nouns.lexc)</small>
+
+# Pronominien vartalot
+
+Itse taivutus jatkuu
+
+
+
+Persoonapronominit
+
+* mie+Pron+Pers+Sg1:m        12pronsg       ; 
+* mie+Pron+Pers+Sg1+Use/NG:m 12pronsg_short ; 
+* ...
+* sie+Pron+Pers+Sg2+Use/NG:s 12pronsg_short ; 
+
+
+
+Demonstratiivipronominit
+
+
+Kysymäpronominit
+* kuka+Pron+Interr+Sg+Nom:kuka   K  ;  nom
+* kuka+Pron+Interr+Pl+Nom+Dial/Por:kukka  K  ;  
+
+* kuka+Pron+Interr:ke             kuka_relkys_obl  ;  
+
+* mikä+Pron+Interr:mi             mi_rel  ;  
+
+Relatiivipronominit
+
+
+
+Refleksiivi- ja resiprookipronominit
+
+
+
+
+Indefiniittipronominit/Kvanttoripronominit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/pronouns.lexc)</small># Postpositioiden vartalot
+
+Tässä sekä postpositiot ja niiden tagi.
+
+LEXICON post   on itse +Po -tagi
+
+Postpositiot itse sijaitsevat leksikossa LEXICON Postposition 
+
+Sannoi ja haamui vesta/Varenki 2012 mukkaan.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/postpositions.lexc)</small>
 
 
 Sannoi ja haamui listan mukkaan
@@ -5224,22 +5217,29 @@ analyysinsa eri ohjelmassa (src/syntax/disambiguation.cg3)
 
 * paikala adv ;  ... on esim. substantiivi
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/adverbs.lexc)</small># Propernoun lexicon for Kven
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/adverbs.lexc)</small>File containing abbreviations 
+
+Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
 
 
-LEXICON ProperNoun  on kokeellinen leksikko
 
-* Ap:Ap2 vanha_nocmp_prop_org_21C ; 
-* Kap:Kap2 vanha_prop_sur_21C ; 
-* Tonle-Sap:Tonle-Sap2 vanha_prop_plc_21C ; 
-* Ginungagap:Ginungagap2 vanha_prop_plc_21C ; 
-...
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/fkv-abbreviations.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/fkv-abbreviations.lexc)</small>
 
 
 We describe here how abbreviations are in Kven Finnish are read out, e.g.
