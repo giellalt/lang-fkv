@@ -1,6 +1,5 @@
 # Propernoun lexicon for Kven
 
-
 LEXICON ProperNoun  on kokeellinen leksikko
 
 * Ap:Ap2 vanha_nocmp_prop_org_21C ; 
@@ -9,8 +8,9 @@ LEXICON ProperNoun  on kokeellinen leksikko
 * Ginungagap:Ginungagap2 vanha_prop_plc_21C ; 
 ...
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/propernouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/propernouns.lexc)</small>
+
+---
+

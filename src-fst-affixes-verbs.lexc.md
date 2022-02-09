@@ -4,9 +4,7 @@ This file documents [affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/bl
 
 ## Auxiliaries
 
-
 **LEXICON neg** jakaantuu kolmeen
-
 
 **LEXICON indneg** negaation indikatiivipäätteet
 
@@ -17,14 +15,7 @@ this is since we have enkä but not enkin
 
 **LEXICON OLLA** on oma leksikko, vielä vain preesens
 
-
-
-
-
 ## Regular verbs
-
-
-
 
 ### Verbiluokat v1...
 
@@ -37,77 +28,23 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 **LEXICON v1** saađa:saa
 
-
-
-
 **LEXICON v1iđa** Cond uiđa:uisin
-
-
-
 
 **LEXICON v1kayda** käyđä:kä
 
-
-
-
-
 **LEXICON v1nahda** nähđä:nä
 
-
-
-
 **LEXICON v1tehda** tehđä:te
-
-
-
-
 
 ### Verbiluokat v2...
 
 **LEXICON v2** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **LEXICON v2_si** ! pyyttäät:pyysi
-
-
-
-
-
-
-
-
 
 **LEXICON v2_tiettäät** tiettäät
 
-
-
-
-
 **LEXICON v2_odd** kirjoittaat:kirjoitta
-
-
-
-
-
-
-
-
 
 ### Verbiluokat v3...
 
@@ -115,26 +52,14 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 **LEXICON v3_ele** ajatella:ajattel
 
-
-
-
-
 **LEXICON v3_ele_odd** kävelä:kävel
 
 * aukaista > aukaisemma
 * täristä > tärisemä
 
-
-
-
 **LEXICON v3_ise** aukaista:aukaise
 
 **LEXICON v3_aise** aukaista:aukaise
-
-
-
-
-
 
 **LEXICON v3_lnr** ja vartalo on pan-
 * pitää tehdä ^D
@@ -143,36 +68,21 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 * Lyhyt partisiippi
 * Lyhyt partisiippi
 
-
-
-
 **LEXICON v3_s** kusta, nousta, pestä, päästä ja vartalo on kus-
 * Lyhyt partisiippi
 * Lyhyt partisiippi
 * Lyhyt partisiippi
-
-
-
 
 **LEXICON v3piera** pierä:pie
 * pitää tehdä ^D
 * Lyhyt partisiippi
 * Lyhyt partisiippi
 
-
-
-
 **LEXICON v3juosta** juosta:juo
-
-
-
 
 ### Verbiluokat v4...
 
 **LEXICON v4** vanheta:vanhe, pajeta:pake
-
-
-
 
 **LEXICON v4_itte** ja vartalo on - kyyti
 * Lyhyt partisiippi
@@ -180,33 +90,16 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 * Lyhyt partisiippi
 +V+Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
-
-
-
-
 **LEXICON v4_oitte** ja vartalo on haravoi-
 * Lyhyt partisiippi
 * Lyhyt partisiippi
 +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
-
-
-
 **LEXICON v43** hantteerata:hantteera
-
-
-
 
 **LEXICON v43_odd** jatkata:jatka
 
-
-
-
-
 **LEXICON v43_odd_II** jatkata:jatka
-
-
-
 
 ## Verbien persoonapäätteet
 
@@ -215,12 +108,13 @@ Tämä osa antaa personapäätteet.
 preesensissä ja preterissä.
 3. persoona annettiin jo vartaloleksikoissa.
 
-
-
-
 **LEXICON v12pers** Only sg12, pl12 so far
 
-
 **LEXICON PRFPRC_OBL** is without nom sg
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+

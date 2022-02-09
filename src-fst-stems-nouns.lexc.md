@@ -54,11 +54,6 @@ TYYPPI 3: Pitkävokaaliset rangat
 - 3.3.4 (huonet, hyljet, perkele)                         = ` n_32_et`
 - 3.3.5 (kirves)                                          = ` n_32_ts`
 
-
-
-
-
-
 * valkkee:valkke n_31_ee ;  Is noun, bål
 * veres:vere n_22_excns ; 
 * käsi:käte n_12_si ; 
@@ -67,7 +62,6 @@ TYYPPI 3: Pitkävokaaliset rangat
 * tytär:tyttär n_22 ; 
 * lumi:lu n_12_mi ; 
 * yö:yö n_31 ; 
-
 
 Leksikkonimet Eiran mukaan
 * n1 Eira 1
@@ -110,5 +104,10 @@ Luokat vanha_n_21  n12 vanha_n_22 vanha_n_22odd vanha_n_32 vanha_n_32s vanha_n_3
 - 4.2 –inen-nominit ( kainulainen)		   		= vanha_n_42 = nen
 - 4.2.1 -inen-nominit Pl (tervheiset)	   		= vanha_n_42pl = nen
 - 4.2.2 -inen-nominit odd (vihrinen)	   		= vanha_n_42odd = nen
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+

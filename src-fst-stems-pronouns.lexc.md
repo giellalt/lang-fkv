@@ -4,8 +4,6 @@
 
 Itse taivutus jatkuu
 
-
-
 Persoonapronominit
 
 * mie+Pron+Pers+Sg1:m        12pronsg       ; 
@@ -13,10 +11,7 @@ Persoonapronominit
 * ...
 * sie+Pron+Pers+Sg2+Use/NG:s 12pronsg_short ; 
 
-
-
 Demonstratiivipronominit
-
 
 Kysymäpronominit
 * kuka+Pron+Interr+Sg+Nom:kuka   K  ;  nom
@@ -28,32 +23,13 @@ Kysymäpronominit
 
 Relatiivipronominit
 
-
-
 Refleksiivi- ja resiprookipronominit
-
-
-
 
 Indefiniittipronominit/Kvanttoripronominit
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/stems/pronouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+

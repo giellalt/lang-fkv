@@ -52,7 +52,6 @@ We first define alphabets and sets. Thereafter come the rules.
 * **%^Var:0** -- Varanger   dialekti
 * **%^Jok:0** -- Jokivarret dialekti
 
-
 ### Literal quotes and angles 
 Thesemust be escaped (cf morpheme boundaries further down):
 * »7 represents the quotation mark »
@@ -63,8 +62,6 @@ Thesemust be escaped (cf morpheme boundaries further down):
 * **%>** = border before inflection suffix
 * The hash mark = Word boundary for both lexicalised and dynamic compounds
 * **%^** = (exceptional) soft hyphenation point 
-
-
 
 ### Sets
 * FrontVow = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;
@@ -112,7 +109,6 @@ Development principles:
 
 ## Consonant rules
 
-
 ### Gemination rules
 
 Pitkän vokaalin jälkeen ja kans painottoman tavun jälkeen k, t, p ja s geminoituvat
@@ -126,7 +122,6 @@ Rule: **Gemination 0:j**
 
 Rule: **Gemination 0:k**
 
-
 #### Tests:
 * *flak0u>i2>n*
 * *flakku>i>n*
@@ -134,7 +129,6 @@ Rule: **Gemination 0:k**
 * *flaku>i>na*
 * *urk0u>i2*
 * *urkku>i*
-
 
 Rule: **Gemination 0:l**
 
@@ -144,36 +138,15 @@ Rule: **Gemination 0:n**
 
 Rule: **Gemination 0:p**
 
-
-
 Rule: **Gemination 0:r**
 
 Rule: **Gemination 0:s**
-
-
 
 Rule: **Gemination 0:t**
 
 Rule: **Gemination 0:v**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Gradation rules
-
-
 
 ### Rules for *p* gradation 
 
@@ -219,7 +192,6 @@ Rule: **Gradation k:0**
 * *halke^WG%>t^A*
 * *halje0>ta*
 
-
 **Tests:**
 * *mäke^WG>n*
 * *mäje0>n*
@@ -242,9 +214,7 @@ Rule: **Gradation k:0**
 * *parku^WG>n*
 * *par0u0>n*
 
-
 Rule: **Gradation k3:0**
-
 
 **Tests:**
 * *huok3a^WG>t^A*
@@ -260,27 +230,17 @@ Rule: **Gradation k:v**
 * *koko^WG>t^A*
 * *kovo0>ta*
 
-
-
 Rule: **Gradation nk:ng**
-
 
 **Tests:**
 * *sivakka^AO>i2>ne*
 * *sivak0o0>i>ne*
 
-
-
 ### Gradation t
-
-
 
 Rule: **Gradation Nt:NN in first syllable after short vowel**
 
-
-
 Rule: **Gradation t:0 for tt:t, Nt:N and vuote:vuoeksi**
-
 
 **Tests:**
 * *katto^WG>n*
@@ -290,19 +250,15 @@ Rule: **Gradation t:0 for tt:t, Nt:N and vuote:vuoeksi**
 
 Rule: **ti:si**
 
-
 **Tests:**
 * *vete^E2I*
 * *vesi0*
 * *hirte^HMETA>hii*
 * *hirs00>hii*
 
-
-
 Rule: **t:j in Var variant vuojeksi**
 
 Rule: **o:u in vuosi vuote vuoet -> vuuet optional variant**
-
 
 **Tests:**
 * *pe#rintö^WG>n*
@@ -316,10 +272,7 @@ Rule: **o:u in vuosi vuote vuoet -> vuuet optional variant**
 * *alta^WG>s*
 * *alla0>s*
 
-
-
 Rule: **Gradation t:đ**
-
 
 **Tests:**
 * *pitä^WG^AO>i3>n*
@@ -330,18 +283,6 @@ Rule: **Gradation t:đ**
 * *lahđe0>n*
 * *huutel^WG>^A*
 * *huuđel0>a*
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Assimilation rules
 
@@ -355,22 +296,6 @@ Rule: **Alveolar assimilation for consonant stem s**
 
 Rule: **j:0 in front of i**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Vowel rules
 
 ### Vowel harmony rules
@@ -383,11 +308,9 @@ for a group of vowels! This is most of case. And now you have to edit it for all
 vowel separately one by one. Hopefully, we can make sure we don't forget to do it
 too often, by having more user feedback, especially from the paradigms in the dictionary.
 
-
 ####  For each Vowel separately
 
 Rule: **^V:e**
-
 
 **Tests:**
 * *lapse^HMETA>h^V^Vn*
@@ -397,14 +320,12 @@ Rule: **^V:e**
 * *mieh^HMETA>h^V^Vn*
 * *mieh0>heen*
 
-
 Rule: **^V:a**
 
 **Tests:**
 
 * *maa>h^Vn*
 * *maa>han*
-
 
 Rule: **^V:i**
 
@@ -416,12 +337,6 @@ Rule: **^V:i**
 
 Rule: **^V:o**
 
-
-
-
-
-
-
 ####  (the old system) 
 with variables (Vx/Vy) instead of each vowel separately
 
@@ -431,7 +346,6 @@ Rule: **Back harmony for %^A: %^O: %^U:**
 
 * *kulke>^A*
 * *kulke>a*
-
 
 ### Vow copying and metathesis
 
@@ -444,31 +358,19 @@ Rule: **Vow copying in short h-illative and short partitive sg**
 * *syksy>^V*
 * *syksy>y*
 
-
-
 Rule: **Vow copying in partitive of words ending in io, ia**
 
-
 Rule: **Vow copying in long h sg forms both part one and part two**
-
 
 Rule: **Vow copying in long h pl forms**
 
 * *sivakka^AO^HMETA>h^V>i2n*
 * *sivakk000>ho>in*
 
-
 Rule: **a to o and metathesis in h forms in pl of a-stems**
-
-
 
 * *paivukko>^V*
 * *paivukko>o*
-
-
-
-
-
 
 Rule: **Stem deletion in h-illative**
 
@@ -477,22 +379,7 @@ Rule: **Stem deletion in h-illative**
 * *syksy^HMETA>h^V^Vn*
 * *syks00>hyyn*
 
-
-
-
-
-
-
-
-
-
-
-
 ### Stem alternation rules
-
-
-
-
 
 ### e rules
 
@@ -506,10 +393,8 @@ Rule: **e:i in nom.sg. of e-stems and in n_23ia kauhia hopia in Var**
 
 Rule: **e:0 in consonant stems and illative plural**
 
-
 * *tyvene^Por^WG>n*
 * *tyvene00>n*
-
 
 **Tests:**
 
@@ -526,21 +411,14 @@ Rule: **e:0 in consonant stems and illative plural**
 
 Cns:0 in hoppe- hope-a in Var @RULENAME@ Jok
 
-
-
 ### i rules
 The -i- rules require different i-s for different POS.
 
 Rule: **i:0**
 
-
-
-
-
 ### a rules
 
 Rule: **a:0 before Pret and Pl i when rounded root vowel**
-
 
 **Tests:**
 
@@ -549,19 +427,11 @@ Rule: **a:0 before Pret and Pl i when rounded root vowel**
 * *rakkaa^VDEL^WG>s*
 * *rak0a000>s*
 
-
-
-
-
-
-
 * *otta^WG>i3n*
 * *ot000>in*
 
-
 * *loistaava^WG>i2>ss^A*
 * *loistaav00>i>ssa*
-
 
 Rule: **a:o before Pl i and Pret i **
 
@@ -570,15 +440,11 @@ Rule: **a:o before Pl i and Pret i **
 
 Rule: **ä:ö before Pl i**
 
-
-
-
 * *kala^WG^AO>i2>tten*
 * *kalo00>i>tten*
 
 * *kaula^WG^AO>i2>tten*
 * *kaulo00>i>tten*
-
 
 **Tests:**
 
@@ -587,17 +453,7 @@ Rule: **ä:ö before Pl i**
 * *kulkkiija^AO>i2>tten*
 * *kulkkiijo0>i>tten*
 
-
-
-
-
-
 Rule: **a:i in 3-syll stems with long a and i**
-
-
-
-
-
 
 **Tests:**
 * ★*kuva^A2I>i2* (is not standard language)
@@ -605,18 +461,11 @@ Rule: **a:i in 3-syll stems with long a and i**
 * *kuv0a^A2I>i2*
 * *kuvvi0>i*
 
-
-
-
-
-
-
 * *opettaaja^WG>i2>ss^A*
 * *opettaaji0>i>ssa*
 
 * *opettaja^WG^A2I>ss^A*
 * *opettaji00>ssa*
-
 
 * *opettaaja^WG>i2>tten*
 * *opettaaji0>i>tten*
@@ -652,21 +501,11 @@ Rule: **a:i in 3-syll stems with long a and i**
 * ★*opettaja^A2I>n^A* (is not standard language)
 * ★*opettaja0>na* (is not standard language)
 
-
-
-
-
-
 Rule: **a:i in 3-syll stems with long a and i**
-
 
 #### Shortening
 
 Rule: **Shortening of long vowel in front of i**
-
-
-
-
 
 ## Other Vowel rules 
 (two A:e rules and one ä:0)
@@ -686,7 +525,6 @@ Rule: **a:e in comparative**
 
 Rule: **a:e in passives**
 
-
 Rule: **ä:0**
 
 **Tests:**
@@ -702,15 +540,9 @@ Rule: **ä:0**
 * *pää>i2>ss^A*
 * *p0ä>i>ssä*
 
-
 Rule: **ö:0**
 
-
-
 ## Gemination tests
-
-
-
 
 * ★*kuv0a^A0>i2>n^A* (is not standard language)
 * ★*kuvvi0>i>na* (is not standard language)
@@ -721,9 +553,6 @@ Rule: **ö:0**
 * ★*poika0>i>n* (is not standard language)
 * ★*poi6ka^A2I>i2* (is not standard language)
 * ★*poika0>i* (is not standard language)
-
-
-
 
 * *aika^Por^AO>i2>n^A*
 * *aiko00>i>na*
@@ -776,7 +605,6 @@ Rule: **ö:0**
 * *ant0a>^V*
 * *antta>a*
 
-
 * *ant0a>^V>v^A*
 * *antta>a>va*
 
@@ -788,7 +616,6 @@ Rule: **ö:0**
 
 * *kiv0e>i2>^V*
 * *kivv0>i>i*
-
 
 **Tests:**
 * *kal0a>^V*
@@ -851,37 +678,15 @@ Rule: **ö:0**
 * *särk0y>i7s*
 * *särkky>is*
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Rule: **ö:0**
 
 Rule: **ö:0**
 
-
-
-
-
 Rule: **ö:0**
-
-
-
-Rule: **ö:0**
-
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

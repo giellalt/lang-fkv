@@ -1,11 +1,8 @@
 
 # Kven morphological transducer
 
-
 Beware of remnants from the Finnish file.
 Take nothing at face value!
-
-
 
 * **+Ex/N** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 * **+Ex/A** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
@@ -87,7 +84,6 @@ Number-person
 * **+Com** = Comitative
 * **+Par** = Partitive
 
-
 ### Comparatives
 * **+Compar** = Comparative
 * **+Superl** = Superlative
@@ -147,9 +143,6 @@ Number-person
 * **+OLang/SWE** = Language of common names
 * **+OLang/UND** = Language of common names
 
-
-
-
 ### Derivation
 * **+Der** =
 * **+Der1** =
@@ -182,8 +175,6 @@ Number-person
 * **+Gram/TIAbbr**:  Both transitive and intransitive abbreviation
 * **+Gram/IAbbr**:  Intransitive abbreviation (it takes no argument)
 * **+Gram/3syll**: trisyllabic verbs
-
-
 
 ## Semantic tags
 
@@ -232,7 +223,6 @@ Number-person
 * **+Sem/Veh** = 
 * **+Sem/Year** = 
 
-
 ## Dialect tags
 * **+Dial/-Var** = Not Varanger
 * **+Dial/-Por** = Not Porsanger
@@ -249,8 +239,6 @@ Number-person
 * **+v5**:  variant 5
 * **+v6**:  variant 6
 * **+v7**:  variant 7
-
-
 
 ## Phonological symbols
 
@@ -297,8 +285,6 @@ Number-person
 * > (written with square brackets, see the root.lexc file)
 * < (written with square brackets, see the root.lexc file)
 
-
-
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -310,12 +296,10 @@ with verbs if the verb is further derived into a noun again:
 |  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
 |  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
 
-
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
-
 
 | Flag | Explanation
 | --- | --- 
@@ -367,14 +351,11 @@ Pronoun flags
 |  **@P.compound.block@** | tbw
 |  **@D.compound.block@** | tbw
 
-
-
 ## Basic lexica, pointing to the other lexicon files
 
 Here is the Root lexicon, pointing to all the parts of speech:
 
  **LEXICON Root**
-
 
 * AdjectiveRoot ;
 * Adverb ;
@@ -403,4 +384,8 @@ Here is the Root lexicon, pointing to all the parts of speech:
 * Abbreviation-smi ;
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/root.lexc)</small>
+
+---
+

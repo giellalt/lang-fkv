@@ -44,17 +44,9 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 
 ### Incomong
 
-
-
-
-
 * LEXICON n_31  = maa, tie
 
 * LEXICON n_31_ai  = tuorestai ja muut päivät
-
-
-
-
 
 * LEXICON n_31_pl  = häät
 
@@ -62,58 +54,17 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 
 the same affix in sg and pl
 
-
-
 ### Eira's classification
 
-
-
-
-
-
-
-
-
-
-
-
-
 * LEXICON n_11   lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * LEXICON n_11_AO  sana - sanoissa. Linna? Linnoissa? aika
 
 * LEXICON x_11_AO  sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
 
-
-
 * LEXICON n_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
 
 * LEXICON x_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
-
-
-
-
-
-
 
 LEXICON n_11_E2I         on ovi:ove, joki:joke, hyksi, suomi ! Ei lainasanat
 
@@ -121,127 +72,35 @@ these two lexica for cases with
 
 the same affix in sg and pl
 
-
-
-
-
 * LEXICON n_11_pl          "villahousut", lyhyt vokali, yks vartalo, kasvot
 
 * LEXICON x_11_pl         ! Seems like no adjectives call this?
 
-
 the same affix in sg and pl
 
-
-
 * LEXICON n_21          opettaaja, karamelli
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * LEXICON n_21_odd   kajava
 
 * LEXICON x_21_odd   kajava
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * LEXICON n_21_odd_C  lainasanat, fiction
 
 * LEXICON n_21_odd_i   meininki, tunturi TODO
 
-
-
-
-
-
-
-
-
-
-
-
 * LEXICON n_21_oi          Paivukko, perintö, kurkkio
-
-
-
-
 
 * LEXICON n_21_oi_AO          Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
 
 * LEXICON n_21_oi_ÄÖ          Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
 
-
-
 * LEXICON n_31_ee          hoppee:hoppe
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * LEXICON n_31_ii          assii (in Por) kurkkii (in Por)
 
 * LEXICON n_31_ii          for same affix in sg and pl
 
 * LEXICON n_31_ii          for same affix in sg and pl
-
-
-
-
-
 
 * LEXICON n_31_uu          karhuu (in Por) 
 
@@ -257,22 +116,11 @@ LEXICON n_12          kieli
 
 LEXICON n_12_mi        lumi lu
 
-
-
-
 LEXICON n_12_si         vuosi, käsi, hirsi
-
-
-
-
-
 
 LEXICON n_12_vuosi       vuosi, vuona 
 
-
 LEXICON x_12_vuosi      
-
-
 
 LEXICON n_12_kusi         kusi kuusi
 
@@ -281,15 +129,12 @@ these two lexica for cases with
 
 the same affix in sg and pl
 
-
-
 LEXICON n_12_lapsi         lapsi la
 
 LEXICON x_12_lapsi         lapsi la
 these two lexica for cases with
 
 the same affix in sg and pl
-
 
 LEXICON n_12_mies         mies mie
 
@@ -298,89 +143,43 @@ these two lexica for cases with
 
 the same affix in sg and pl
 
-
 LEXICON n_22  tytär:tyttär, taival:taipal
-
-
-
-
-
-
-
 
 LEXICON n_22_m  elläin elläi yđin ydin
 
 LEXICON x_22_m 
 
-
 LEXICON n_22_m_pl 
-
 
 LEXICON n_22_s   sairhaus
 
 * Konsonanttivartalo: poista -e ja heikko aste
 * Konsonanttivartalo: poista -e ja heikko aste
 
-
-
 * Konsonanttivartalo: poista -e ja heikko aste
 * Konsonanttivartalo: poista -e ja heikko aste
-
-
-
-
-
-
 
 LEXICON n_32_as  rakas, asukas
 
-
-
-
-
-
-
-
-
-
-
-
 LEXICON n_32_is  ruvis, ruumis
-
-
-
 
 LEXICON n_32_et  venet, hyljet, huonet
 
-
-
-
 LEXICON n_32_et_2  askel, kyynel, kannel
 
-
-
-
 LEXICON n_32_ut  vantut:vantutta:vantthuut
-
-
-
 
 LEXICON n_32_ts  kirves
 
 LEXICON x_32_ts  kirves
 
-
 these two lexica for cases with
 
 the same affix in sg and pl -- tsekkaa long
 
-
 * LEXICON n_22_excns  = veres (keskus)
 
-
 *  LEXICON n_22_excns_even  = (kuttumus)
-
-
 
 * LEXICON n_22_excns_pl  = veljekset
 
@@ -389,11 +188,6 @@ the same affix in sg and pl -- tsekkaa long
 these two lexica for cases with
 
 the same affix in sg and pl -- tsekkaa long
-
-
-
-
-
 
 these two lexica for cases with
 
@@ -408,97 +202,15 @@ the same affix in sg and pl
 LEXICON n_22_inen_pl !  tervheiset tervhei
 the same affix in sg and pl
 
-
 +N:se   nomgen_px      ;
 
 make+N+Pl+kom:sine K              ;
 
-
-
-
-
-
-
 Basic paradigms
-
-
-
 
 ### Sublexica for the basic unified cases, with even and odd variations
 
-
-
-
-
-
-
-
-
-
-
 ### Sublexica for Gen, Par, Ill, Ess and Com.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Sublexica for possessive suffixes
 
@@ -512,76 +224,23 @@ LEXICON PxK  has only -nsA, and is currently not in use. Check
 
 LEXICON PxxK   has also -Vn, thus both .. llensa and ..lleen.
 
-
-
-
 Tästä tiedostosta löytyvät suljetut sanaluokat.                                                                                                                       
 
 Px-Vn leksikossa on vain kuusi sanaa                                                                                                                              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Basic paradigms
 
 ## Basic vowel stems
 
-
  !LEXICON strong_v_stem_even   ''Kaikki vahvan asteen sijamuodot tähän''
 
  !LEXICON strong_v_stem_odd   ''Kaikki vahvan asteen sijamuodot tähän''
 
-
-
-
 ### Sublexica for the vowel stems
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-fkv/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
