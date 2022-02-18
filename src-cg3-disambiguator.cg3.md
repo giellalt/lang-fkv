@@ -71,9 +71,6 @@ Interrpronpl "kuka" ja "mikä"
 
 * Sem/Fem = feminin propernoun
 
-* @CVP = Conjunction or subjunction that conjoins finite verb phrases.
-* @CNP = Local conjunction or subjunction.
-
 ## Sets with more members
 
 * WORD = all PoS
@@ -93,8 +90,6 @@ Boundaries
 * S-BOUNDARY = words that start a sentence
 
 Verbs
-
-* MOD-ASP = auxilaries
 
 * SV-BOUNDARY = words that start a sentence and finite verb
 
@@ -240,8 +235,4 @@ Imperative
 * **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 
 * * *
-
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-fkv/blob/main/src/cg3/disambiguator.cg3)</small>
-
----
-
