@@ -161,6 +161,8 @@ LEXICON n_22_s   sairhaus
 
 LEXICON n_32_as  rakas, asukas
 
+LEXICON n_32_ae  kevät
+
 LEXICON n_32_is  ruvis, ruumis
 
 LEXICON n_32_et  venet, hyljet, huonet
