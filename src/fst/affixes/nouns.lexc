@@ -1457,7 +1457,25 @@ LEXICON x_32_aes
   +Pl      :h%>ä%>i2     com_ne            ;
   +Pl      :h%>ä%>i2     sgpl_cases_even   ;
 
+LEXICON n_32_ae !!= @CODE@ kevät
++N         : x_32_ae ;
 
+LEXICON x_32_ae
+  +Sg+Nom  :ä^WG%>t      K                 ;
+  +Sg+Nom  :ä^WG         K                 ;
+  +Sg      :ä^WG%>t      par_tA            ;
+  +Sg      :h%>ää        gen_n_sg          ;
+  +Sg      :hää          ill_sseen         ;
+  +Sg      :h%>ää        ess_nA            ;
+  +Sg      :h%>ää        sgpl_cases_even   ;
+
+  +Pl      :h%>ää        nom_t             ;
+  +Pl      :h%>ä%>i2     gen_tten          ;
+  +Pl      :h%>ä%>i2     par_tA            ;
+  +Pl      :h%>äi        ill_ssiin         ;
+  +Pl      :h%>ä%>i2     ess_nA            ;
+  +Pl      :h%>ä%>i2     com_ne            ;
+  +Pl      :h%>ä%>i2     sgpl_cases_even   ;
 
 !LEXICON vanha_n_33ys !!= @CODE@ rakas
 !        +N:        vanha_x_33ys ;
