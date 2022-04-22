@@ -3,40 +3,40 @@
 Numerals have been split in three sections, the compounding parts
 of cardinals and ordinals, and the non-compounding ones:
 
-*Numeral examples:*
+* Numeral examples:*
 
 The compounding parts of cardinals are the number multiplier words.
 
-*cardinal examples:*
+* cardinal examples:*
 * *viiđele:* `viisi+Num+Sg+All` (Eng. !five)
 * *tuhatta:* `tuhat+Num+Sg+Par` (Eng. !thousand)
 
 The suffixes only appear after cardinal multipliers
 
-*Cardinal multiplicants examples:*
+* Cardinal multiplicants examples:*
 
 The compounding parts of ordinals are the number multiplier words.
 
-*Ordinal numerals examples:*
+* Ordinal numerals examples:*
 * *neljes:* `neljes+A+Ord+Sg+Nom`
 * *viiđenelle:* `viiđes+A+Ord+Sg+All`
 * *tuhanetta:* `tuhanes+A+Ord+Sg+Par`
 
 The suffixes only appear after cardinal multipliers
 
-*Ordinal multiplicants examples:*
+* Ordinal multiplicants examples:*
 
 There is a set of numbers or corresponding expressions that work like them,
 but are not basic cardinals or ordinals:
 
-*Numeral others examples:*
+* Numeral others examples:*
 * *viitisenkymmentä:* `viitisenkymmentä+Num`
 
 ## Numeral stem variation
 Numerals follow the same stem variation patterns as nouns, some of these
 being very rare to extinct for nouns. 
 
-*Numerals 31 examples:*
+* Numerals 31 examples:*
 * *yhtheen:* `yksi+Num+Sg+Ill`
 * *yhtenä:* `yksi+Num+Sg+Ess`
 * *yhđessä:* `yksi+Num+Sg+Ine`
@@ -48,7 +48,7 @@ being very rare to extinct for nouns.
 * *yksinä:* `yksi+Num+Pl+Ess`
 * *yksissä:* `yksi+Num+Pl+Ine`
 
-*Numerals 31 back§ examples:*
+* Numerals 31 back§ examples:*
 * *kahtheen:* `kaksi+Num+Sg+Ill`
 * *kahtena:* `kaksi+Num+Sg+Ess`
 * *kahđessa:* `kaksi+Num+Sg+Ine`
@@ -60,7 +60,7 @@ being very rare to extinct for nouns.
 * *kaksina:* `kaksi+Num+Pl+Ess`
 * *kaksissa:* `kaksi+Num+Pl+Ine`
 
-*Numerals 8~5 examples:*
+* Numerals 8~5 examples:*
 * *kolme:* `kolme+Num+Sg+Nom`
 * *kolmheen:* `kolme+Num+Sg+Ill`
 * *kolmena:* `kolme+Num+Sg+Ess`
@@ -73,7 +73,7 @@ being very rare to extinct for nouns.
 * *kolmina:* `kolme+Num+Pl+Ess`
 * *kolmissa:* `kolme+Num+Pl+Ine`
 
-*Numerals 10 examples:*
+* Numerals 10 examples:*
 * *nelje:* `nelje+Num+Sg+Nom`
 * *neljee:* `nelje+Num+Sg+Par`
 * *neljheen:* `nelje+Num+Sg+Ill`
@@ -87,7 +87,7 @@ being very rare to extinct for nouns.
 * *neljinä:* `nelje+Num+Pl+Ess`
 * *neljissä:* `nelje+Num+Pl+Ine`
 
-*Numerals 27 front examples:*
+* Numerals 27 front examples:*
 * *viitheen:* `viisi+Num+Sg+Ill`
 * *viittä:* `viisi+Num+Sg+Par`
 * *viiđessä:* `viisi+Num+Sg+Ine`
@@ -100,7 +100,7 @@ being very rare to extinct for nouns.
 * *viishiin:* `viisi+Num+Pl+Ill`
 * *viisinä:* `viisi+Num+Pl+Ess`
 
-*Numerals 27 back examples:*
+* Numerals 27 back examples:*
 * *kuutta:* `kuusi+Num+Sg+Par`
 * *kuutena:* `kuusi+Num+Sg+Ess`
 * *kuuđessa:* `kuusi+Num+Sg+Ine`
@@ -112,7 +112,7 @@ being very rare to extinct for nouns.
 * *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !harvinainen muoto)
 * *kuushiin:* `kuusi+Num+Pl+Ill`
 
-*Numerals 10n examples:*
+* Numerals 10n examples:*
 * *kahđeksen:* `kahđeksen+Num+Sg+Nom`
 * *kahđeksee:* `kahđeksen+Num+Sg+Par`
 * *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
@@ -126,7 +126,7 @@ being very rare to extinct for nouns.
 * *kahđeksissa:* `kahđeksen+Num+Pl+Ine`
 * *kahđeksinna:* `kahđeksen+Num+Pl+Ess`
 
-*Numerals 10n front examples:*
+* Numerals 10n front examples:*
 * *yhđeksen:* `yhđeksen+Num+Sg+Nom`
 * *yhđeksee:* `yhđeksen+Num+Sg+Par`
 * *yhđeksheen:* `yhđeksen+Num+Sg+Ill`
@@ -140,7 +140,7 @@ being very rare to extinct for nouns.
 * *yhđeksissä:* `yhđeksen+Num+Pl+Ine`
 * *yhđeksinnä:* `yhđeksen+Num+Pl+Ess`
 
-*Numerals 32 examples:*
+* Numerals 32 examples:*
 * *kymmenen:* `kymmenen+Num+Sg+Nom`
 * *kymmenheen:* `kymmenen+Num+Sg+Ill`
 * *kymmenennä:* `kymmenen+Num+Sg+Ess`
@@ -153,7 +153,7 @@ being very rare to extinct for nouns.
 * *kymmenissä:* `kymmenen+Num+Pl+Ine`
 * *kymmeninnä:* `kymmenen+Num+Pl+Ess`
 
-*Numerals 9 examples:*
+* Numerals 9 examples:*
 * *sata:* `sata+Num+Sg+Nom`
 * *satana:* `sata+Num+Sg+Ess`
 * *sađassa:* `sata+Num+Sg+Ine`
@@ -164,7 +164,7 @@ being very rare to extinct for nouns.
 * *sađoissa:* `sata+Num+Pl+Ine`
 * *satoina:* `sata+Num+Pl+Ess`
 
-*Numerals 46 examples:*
+* Numerals 46 examples:*
 * *tuhat:* `tuhat+Num+Sg+Nom`
 * *tuhantheen:* `tuhat+Num+Sg+Ill`
 * *tuhantenna:* `tuhat+Num+Sg+Ess`
@@ -177,7 +177,7 @@ being very rare to extinct for nouns.
 * *tuhansinna:* `tuhat+Num+Pl+Ess`
 * *tuhansissa:* `tuhat+Num+Pl+Ine`
 
-*Numerals 10 miljoona examples:*
+* Numerals 10 miljoona examples:*
 * *miljoona:* `miljoona+Num+Sg+Nom`
 * *miljoonanna:* `miljoona+Num+Sg+Ess`
 * *miljoonassa:* `miljoona+Num+Sg+Ine`
@@ -189,7 +189,7 @@ being very rare to extinct for nouns.
 * *miljoonissa:* `miljoona+Num+Pl+Ine`
 * *miljooninna:* `miljoona+Num+Pl+Ess`
 
-*Numerals 5 examples:*
+* Numerals 5 examples:*
 * *miljardi:* `miljardi+Num+Sg+Nom`
 * *miljardhiin:* `miljardi+Num+Sg+Ill`
 * *miljardii:* `miljardi+Num+Sg+Par`
@@ -201,10 +201,10 @@ being very rare to extinct for nouns.
 * *miljardiitten:* `miljardi+Num+Pl+Gen`
 * *miljardiina:* `miljardi+Num+Pl+Ess`
 
-*Numerals 5 more examples:*
+* Numerals 5 more examples:*
 * *Googol:* `Googol+Num+Sg+Nom`
 
-*Numerals 5 moremore examples:*
+* Numerals 5 moremore examples:*
 * *pari:* `pari+Num+Sg+Nom`
 * *parhiin:* `pari+Num+Sg+Ill`
 * *parrii:* `pari+Num+Sg+Par`
@@ -216,7 +216,7 @@ being very rare to extinct for nouns.
 * *parriin:* `pari+Num+Pl+Gen`
 * *parhiin:* `pari+Num+Pl+Ill`
 
-*Numerals 38 examples:*
+* Numerals 38 examples:*
 * *ensimäinen:* `ensimäinen+A+Ord+Sg+Nom`
 * *ensimäisenä:* `ensimäinen+A+Ord+Sg+Ess`
 * *ensimäisessä:* `ensimäinen+A+Ord+Sg+Ine`
@@ -228,7 +228,7 @@ being very rare to extinct for nouns.
 * *ensimäisinä:* `ensimäinen+A+Ord+Pl+Ess`
 * *ensimäisissä:* `ensimäinen+A+Ord+Pl+Ine`
 
-*Numerals 38 back examples:*
+* Numerals 38 back examples:*
 * *toinen:* `toinen+A+Ord+Sg+Nom`
 * *toisheen:* `toinen+A+Ord+Sg+Ill`
 * *toista:* `toinen+A+Ord+Sg+Par`
@@ -242,7 +242,7 @@ being very rare to extinct for nouns.
 * *toisissa:* `toinen+A+Ord+Pl+Ine`
 * *toisina:* `toinen+A+Ord+Pl+Ess`
 
-*Numerals 45 examples:*
+* Numerals 45 examples:*
 * *kolmas:* `kolmas+A+Ord+Sg+Nom`
 * *kolmantenna:* `kolmas+A+Ord+Sg+Ess`
 * *kolmanessa:* `kolmas+A+Ord+Sg+Ine`
@@ -254,7 +254,7 @@ being very rare to extinct for nouns.
 * *kolmansissa:* `kolmas+A+Ord+Pl+Ine`
 * *kolmansinna:* `kolmas+A+Ord+Pl+Ess`
 
-*Numerals 45 fron examples:*
+* Numerals 45 fron examples:*
 * *neljes:* `neljes+A+Ord+Sg+Nom`
 * *neljentheen:* `neljes+A+Ord+Sg+Ill`
 * *neljentennä:* `neljes+A+Ord+Sg+Ess`

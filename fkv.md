@@ -657,17 +657,17 @@ Basic paradigms
 Numeral inflection is like nominal, except that numerals compound in all
 forms which requires great amount of care in the inflection patterns.
 
-*Numeral nominative back examples:*
+* Numeral nominative back examples:*
 
-*Numeral nominative front examples:*
+* Numeral nominative front examples:*
 
-*Numeral nominative plural back examples:*
+* Numeral nominative plural back examples:*
 * *kahđet:* `kaksi+Num+Pl+Nom`
 
-*Numeral nominative plural front examples:*
+* Numeral nominative plural front examples:*
 * *yhđet:* `yksi+Num+Pl+Nom`
 
-*Numeral weak singular back examples:*
+* Numeral weak singular back examples:*
 * *kahđen:* `kaksi+Num+Sg+Gen`
 * *kahđela:* `kaksi+Num+Sg+Ade`
 * *kahđelta:* `kaksi+Num+Sg+Abl`
@@ -677,7 +677,7 @@ forms which requires great amount of care in the inflection patterns.
 * *kahđeksi:* `kaksi+Num+Sg+Tra`
 * *kahđetta:* `kaksi+Num+Sg+Abe`
 
-*Numeral weak singular front examples:*
+* Numeral weak singular front examples:*
 * *yhđen:* `yksi+Num+Sg+Gen`
 * *yhđelä:* `yksi+Num+Sg+Ade`
 * *yhđeltä:* `yksi+Num+Sg+Abl`
@@ -687,13 +687,13 @@ forms which requires great amount of care in the inflection patterns.
 * *yhđeksi:* `yksi+Num+Sg+Tra`
 * *yhđettä:* `yksi+Num+Sg+Abe`
 
-*Numeral strong singular back examples:*
+* Numeral strong singular back examples:*
 * *kahtena:* `kaksi+Num+Sg+Ess`
 
-*Numeral strong singular front examples:*
+* Numeral strong singular front examples:*
 * *yhtenä:* `yksi+Num+Sg+Ess`
 
-*Numeral weak plural back examples:*
+* Numeral weak plural back examples:*
 * *kaksila:* `kaksi+Num+Pl+Ade`
 * *kaksilta:* `kaksi+Num+Pl+Abl`
 * *kaksile:* `kaksi+Num+Pl+All`
@@ -702,7 +702,7 @@ forms which requires great amount of care in the inflection patterns.
 * *kaksiksi:* `kaksi+Num+Pl+Tra`
 * *kaksitta:* `kaksi+Num+Pl+Abe`
 
-*Numeral weak plural front examples:*
+* Numeral weak plural front examples:*
 * *yksilä:* `yksi+Num+Pl+Ade`
 * *yksiltä:* `yksi+Num+Pl+Abl`
 * *yksile:* `yksi+Num+Pl+All`
@@ -711,97 +711,97 @@ forms which requires great amount of care in the inflection patterns.
 * *yksiksi:* `yksi+Num+Pl+Tra`
 * *yksittä:* `yksi+Num+Pl+Abe`
 
-*Numeral weak plural back strong examples:*
+* Numeral weak plural back strong examples:*
 * *kaksina:* `kaksi+Num+Pl+Ess`
 * *kaksine:* `kaksi+Num+Pl+Com`
 
-*Numeral weak plural back strong examples:*
+* Numeral weak plural back strong examples:*
 * *kaksina:* `kaksi+Num+Pl+Ess`
 * *kaksine:* `kaksi+Num+Pl+Com`
 
-*Numeral weak plural front strong examples:*
+* Numeral weak plural front strong examples:*
 * *yksinä:* `yksi+Num+Pl+Ess`
 * *yksine:* `yksi+Num+Pl+Com`
 
-*Numeral weak plural front strong examples:*
+* Numeral weak plural front strong examples:*
 * *yksinä:* `yksi+Num+Pl+Ess`
 * *yksine:* `yksi+Num+Pl+Com`
 
-*Numeral singular partitive a examples:*
+* Numeral singular partitive a examples:*
 * *kahđeksee:* `kahđeksen+Num+Sg+Par` (Eng. !eight)
 
-*Numeral singular partitive a poss aan examples:*
+* Numeral singular partitive a poss aan examples:*
 * *kolmee:* `kolme+Num+Sg+Par` (Eng. !three)
 
-*Numeral singular partitive ta examples:*
+* Numeral singular partitive ta examples:*
 * *kuutta:* `kuusi+Num+Sg+Par` (Eng. !six)
 
-*Numeral singular partitive tä examples:*
+* Numeral singular partitive tä examples:*
 * *viittä:* `viisi+Num+Sg+Par` (Eng. !five)
 
-*Numeral singular illative an examples:*
+* Numeral singular illative an examples:*
 * *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
 
-*Numeral singular illative en back examples:*
+* Numeral singular illative en back examples:*
 * *kolmheen:* `kolme+Num+Sg+Ill`
 
-*Numeral singular illative en front examples:*
+* Numeral singular illative en front examples:*
 * *viitheen:* `viisi+Num+Sg+Ill`
 
-*Numeral singular illative in back examples:*
+* Numeral singular illative in back examples:*
 * *miljardhiin:* `miljardi+Num+Sg+Ill` (Eng. !billion)
 
-*Numeral plural partitive ia examples:*
+* Numeral plural partitive ia examples:*
 * *kaksii:* `kaksi+Num+Pl+Par`
 
-*Numeral plural partitive ja examples:*
+* Numeral plural partitive ja examples:*
 * *miljardii:* `miljardi+Num+Pl+Par`
 
-*Numeral plural genitive ien back examples:*
+* Numeral plural genitive ien back examples:*
 * *kaksiin:* `kaksi+Num+Pl+Gen`
 
-*Numeral plural genitive ten back examples:*
+* Numeral plural genitive ten back examples:*
 * *kuussiin:* `kuusi+Num+Pl+Gen`
 * *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !kuussiin on tärkeämpi)
 
-*Numeral plural genitive ten front examples:*
+* Numeral plural genitive ten front examples:*
 * *viissiin:* `viisi+Num+Pl+Gen`
 * *viitten:* `viisi+Num+Pl+Gen` (Eng. !viissiin on tärkeämpi)
 
-*Numeral plural genitive in back examples:*
+* Numeral plural genitive in back examples:*
 
-*Numeral plural genitive in front examples:*
+* Numeral plural genitive in front examples:*
 
-*Numeral plural illaive ihin bavk examples:*
+* Numeral plural illaive ihin bavk examples:*
 * *miljardhiin:* `miljardi+Num+Pl+Ill`
 
-*Numeral plural illaive iin back examples:*
+* Numeral plural illaive iin back examples:*
 * *kakshiin:* `kaksi+Num+Pl+Ill`
 
-*Numeral possessive back examples:*
+* Numeral possessive back examples:*
 * *kahteni:* `kaksi+Num+Sg+Nom+PxSg1` (Eng. !Kainun kielessä possessiivisuffiksiita käytethään aika vähän. Annamme niiden olla täällä toistaiseksi.)
 
-*Numeral possessive front examples:*
+* Numeral possessive front examples:*
 * *yhteni:* `yksi+Num+Sg+Nom+PxSg1`
 
-*Numeral possessive back aan examples:*
+* Numeral possessive back aan examples:*
 * *kolmeensa:* `kolme+Num+Sg+Par+PxSg3`
 
-*Numeral possessive back eenback examples:*
+* Numeral possessive back eenback examples:*
 * *kahđeksensa:* `kaksi+Num+Sg+Tra+PxSg3`
 * *kahđekseen:* `kaksi+Num+Sg+Tra+PxSg3`
 
-*Numeral possessive back een front examples:*
+* Numeral possessive back een front examples:*
 * *neljeksensä:* `nelje+Num+Sg+Tra+PxSg3`
 * *neljekseen:* `nelje+Num+Sg+Tra+PxSg3`
 
-*Numeral possessive back ään examples:*
+* Numeral possessive back ään examples:*
 * *viittänsä:* `viisi+Num+Sg+Par+PxSg3`
 * *viittään:* `viisi+Num+Sg+Par+PxSg3`
 
-*Numeral clitic back examples:*
+* Numeral clitic back examples:*
 
-*Numeral clitic front examples:*
+* Numeral clitic front examples:*
 
 * **LEXICON ARABICCASES**  adds +Arab
 
@@ -2324,40 +2324,40 @@ Luokat vanha_n_21  n12 vanha_n_22 vanha_n_22odd vanha_n_32 vanha_n_32s vanha_n_3
 Numerals have been split in three sections, the compounding parts
 of cardinals and ordinals, and the non-compounding ones:
 
-*Numeral examples:*
+* Numeral examples:*
 
 The compounding parts of cardinals are the number multiplier words.
 
-*cardinal examples:*
+* cardinal examples:*
 * *viiđele:* `viisi+Num+Sg+All` (Eng. !five)
 * *tuhatta:* `tuhat+Num+Sg+Par` (Eng. !thousand)
 
 The suffixes only appear after cardinal multipliers
 
-*Cardinal multiplicants examples:*
+* Cardinal multiplicants examples:*
 
 The compounding parts of ordinals are the number multiplier words.
 
-*Ordinal numerals examples:*
+* Ordinal numerals examples:*
 * *neljes:* `neljes+A+Ord+Sg+Nom`
 * *viiđenelle:* `viiđes+A+Ord+Sg+All`
 * *tuhanetta:* `tuhanes+A+Ord+Sg+Par`
 
 The suffixes only appear after cardinal multipliers
 
-*Ordinal multiplicants examples:*
+* Ordinal multiplicants examples:*
 
 There is a set of numbers or corresponding expressions that work like them,
 but are not basic cardinals or ordinals:
 
-*Numeral others examples:*
+* Numeral others examples:*
 * *viitisenkymmentä:* `viitisenkymmentä+Num`
 
 ## Numeral stem variation
 Numerals follow the same stem variation patterns as nouns, some of these
 being very rare to extinct for nouns. 
 
-*Numerals 31 examples:*
+* Numerals 31 examples:*
 * *yhtheen:* `yksi+Num+Sg+Ill`
 * *yhtenä:* `yksi+Num+Sg+Ess`
 * *yhđessä:* `yksi+Num+Sg+Ine`
@@ -2369,7 +2369,7 @@ being very rare to extinct for nouns.
 * *yksinä:* `yksi+Num+Pl+Ess`
 * *yksissä:* `yksi+Num+Pl+Ine`
 
-*Numerals 31 back§ examples:*
+* Numerals 31 back§ examples:*
 * *kahtheen:* `kaksi+Num+Sg+Ill`
 * *kahtena:* `kaksi+Num+Sg+Ess`
 * *kahđessa:* `kaksi+Num+Sg+Ine`
@@ -2381,7 +2381,7 @@ being very rare to extinct for nouns.
 * *kaksina:* `kaksi+Num+Pl+Ess`
 * *kaksissa:* `kaksi+Num+Pl+Ine`
 
-*Numerals 8~5 examples:*
+* Numerals 8~5 examples:*
 * *kolme:* `kolme+Num+Sg+Nom`
 * *kolmheen:* `kolme+Num+Sg+Ill`
 * *kolmena:* `kolme+Num+Sg+Ess`
@@ -2394,7 +2394,7 @@ being very rare to extinct for nouns.
 * *kolmina:* `kolme+Num+Pl+Ess`
 * *kolmissa:* `kolme+Num+Pl+Ine`
 
-*Numerals 10 examples:*
+* Numerals 10 examples:*
 * *nelje:* `nelje+Num+Sg+Nom`
 * *neljee:* `nelje+Num+Sg+Par`
 * *neljheen:* `nelje+Num+Sg+Ill`
@@ -2408,7 +2408,7 @@ being very rare to extinct for nouns.
 * *neljinä:* `nelje+Num+Pl+Ess`
 * *neljissä:* `nelje+Num+Pl+Ine`
 
-*Numerals 27 front examples:*
+* Numerals 27 front examples:*
 * *viitheen:* `viisi+Num+Sg+Ill`
 * *viittä:* `viisi+Num+Sg+Par`
 * *viiđessä:* `viisi+Num+Sg+Ine`
@@ -2421,7 +2421,7 @@ being very rare to extinct for nouns.
 * *viishiin:* `viisi+Num+Pl+Ill`
 * *viisinä:* `viisi+Num+Pl+Ess`
 
-*Numerals 27 back examples:*
+* Numerals 27 back examples:*
 * *kuutta:* `kuusi+Num+Sg+Par`
 * *kuutena:* `kuusi+Num+Sg+Ess`
 * *kuuđessa:* `kuusi+Num+Sg+Ine`
@@ -2433,7 +2433,7 @@ being very rare to extinct for nouns.
 * *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !harvinainen muoto)
 * *kuushiin:* `kuusi+Num+Pl+Ill`
 
-*Numerals 10n examples:*
+* Numerals 10n examples:*
 * *kahđeksen:* `kahđeksen+Num+Sg+Nom`
 * *kahđeksee:* `kahđeksen+Num+Sg+Par`
 * *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
@@ -2447,7 +2447,7 @@ being very rare to extinct for nouns.
 * *kahđeksissa:* `kahđeksen+Num+Pl+Ine`
 * *kahđeksinna:* `kahđeksen+Num+Pl+Ess`
 
-*Numerals 10n front examples:*
+* Numerals 10n front examples:*
 * *yhđeksen:* `yhđeksen+Num+Sg+Nom`
 * *yhđeksee:* `yhđeksen+Num+Sg+Par`
 * *yhđeksheen:* `yhđeksen+Num+Sg+Ill`
@@ -2461,7 +2461,7 @@ being very rare to extinct for nouns.
 * *yhđeksissä:* `yhđeksen+Num+Pl+Ine`
 * *yhđeksinnä:* `yhđeksen+Num+Pl+Ess`
 
-*Numerals 32 examples:*
+* Numerals 32 examples:*
 * *kymmenen:* `kymmenen+Num+Sg+Nom`
 * *kymmenheen:* `kymmenen+Num+Sg+Ill`
 * *kymmenennä:* `kymmenen+Num+Sg+Ess`
@@ -2474,7 +2474,7 @@ being very rare to extinct for nouns.
 * *kymmenissä:* `kymmenen+Num+Pl+Ine`
 * *kymmeninnä:* `kymmenen+Num+Pl+Ess`
 
-*Numerals 9 examples:*
+* Numerals 9 examples:*
 * *sata:* `sata+Num+Sg+Nom`
 * *satana:* `sata+Num+Sg+Ess`
 * *sađassa:* `sata+Num+Sg+Ine`
@@ -2485,7 +2485,7 @@ being very rare to extinct for nouns.
 * *sađoissa:* `sata+Num+Pl+Ine`
 * *satoina:* `sata+Num+Pl+Ess`
 
-*Numerals 46 examples:*
+* Numerals 46 examples:*
 * *tuhat:* `tuhat+Num+Sg+Nom`
 * *tuhantheen:* `tuhat+Num+Sg+Ill`
 * *tuhantenna:* `tuhat+Num+Sg+Ess`
@@ -2498,7 +2498,7 @@ being very rare to extinct for nouns.
 * *tuhansinna:* `tuhat+Num+Pl+Ess`
 * *tuhansissa:* `tuhat+Num+Pl+Ine`
 
-*Numerals 10 miljoona examples:*
+* Numerals 10 miljoona examples:*
 * *miljoona:* `miljoona+Num+Sg+Nom`
 * *miljoonanna:* `miljoona+Num+Sg+Ess`
 * *miljoonassa:* `miljoona+Num+Sg+Ine`
@@ -2510,7 +2510,7 @@ being very rare to extinct for nouns.
 * *miljoonissa:* `miljoona+Num+Pl+Ine`
 * *miljooninna:* `miljoona+Num+Pl+Ess`
 
-*Numerals 5 examples:*
+* Numerals 5 examples:*
 * *miljardi:* `miljardi+Num+Sg+Nom`
 * *miljardhiin:* `miljardi+Num+Sg+Ill`
 * *miljardii:* `miljardi+Num+Sg+Par`
@@ -2522,10 +2522,10 @@ being very rare to extinct for nouns.
 * *miljardiitten:* `miljardi+Num+Pl+Gen`
 * *miljardiina:* `miljardi+Num+Pl+Ess`
 
-*Numerals 5 more examples:*
+* Numerals 5 more examples:*
 * *Googol:* `Googol+Num+Sg+Nom`
 
-*Numerals 5 moremore examples:*
+* Numerals 5 moremore examples:*
 * *pari:* `pari+Num+Sg+Nom`
 * *parhiin:* `pari+Num+Sg+Ill`
 * *parrii:* `pari+Num+Sg+Par`
@@ -2537,7 +2537,7 @@ being very rare to extinct for nouns.
 * *parriin:* `pari+Num+Pl+Gen`
 * *parhiin:* `pari+Num+Pl+Ill`
 
-*Numerals 38 examples:*
+* Numerals 38 examples:*
 * *ensimäinen:* `ensimäinen+A+Ord+Sg+Nom`
 * *ensimäisenä:* `ensimäinen+A+Ord+Sg+Ess`
 * *ensimäisessä:* `ensimäinen+A+Ord+Sg+Ine`
@@ -2549,7 +2549,7 @@ being very rare to extinct for nouns.
 * *ensimäisinä:* `ensimäinen+A+Ord+Pl+Ess`
 * *ensimäisissä:* `ensimäinen+A+Ord+Pl+Ine`
 
-*Numerals 38 back examples:*
+* Numerals 38 back examples:*
 * *toinen:* `toinen+A+Ord+Sg+Nom`
 * *toisheen:* `toinen+A+Ord+Sg+Ill`
 * *toista:* `toinen+A+Ord+Sg+Par`
@@ -2563,7 +2563,7 @@ being very rare to extinct for nouns.
 * *toisissa:* `toinen+A+Ord+Pl+Ine`
 * *toisina:* `toinen+A+Ord+Pl+Ess`
 
-*Numerals 45 examples:*
+* Numerals 45 examples:*
 * *kolmas:* `kolmas+A+Ord+Sg+Nom`
 * *kolmantenna:* `kolmas+A+Ord+Sg+Ess`
 * *kolmanessa:* `kolmas+A+Ord+Sg+Ine`
@@ -2575,7 +2575,7 @@ being very rare to extinct for nouns.
 * *kolmansissa:* `kolmas+A+Ord+Pl+Ine`
 * *kolmansinna:* `kolmas+A+Ord+Pl+Ess`
 
-*Numerals 45 fron examples:*
+* Numerals 45 fron examples:*
 * *neljes:* `neljes+A+Ord+Sg+Nom`
 * *neljentheen:* `neljes+A+Ord+Sg+Ill`
 * *neljentennä:* `neljes+A+Ord+Sg+Ess`
