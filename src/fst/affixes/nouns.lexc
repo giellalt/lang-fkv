@@ -822,15 +822,15 @@ LEXICON x_21_oi ! Kommentaari: var ja jok dialektissa oon sg gen "aurinkon" ja s
 ! n_31_lainasana_ee ! vanha_n_23
 ! n_31_ii ! vanha_n_23ii
 
-LEXICON n_21_oi_AO        !!= * @CODE@  Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
+LEXICON n_21_oi_AO_odd        !!= * @CODE@  Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
 +N         : x_21_oi_AO ;
 +N+Pl      :^AO^HMETA          ill_hVin        ;
 
-LEXICON n_21_oi_ÄÖ        !!= * @CODE@  Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
+LEXICON n_21_oi_ÄÖ_odd        !!= * @CODE@  Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
 +N         : x_21_oi_AO ;
 +N+Pl      :^AO^HMETA          ill_höin        ;
 
-LEXICON x_21_oi_AO
+LEXICON x_21_oi_AO            ! odd
   +Sg      :                   nom_end         ;
   +Pl      :^WG                nom_t           ;
   +Sg      :^WG                gen_n_sg        ;
