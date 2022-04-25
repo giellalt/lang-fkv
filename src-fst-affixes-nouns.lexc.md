@@ -94,6 +94,10 @@ the same affix in sg and pl
 
 * LEXICON n_21_oi_ÄÖ          Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
 
+* LEXICON n_21_oi_AO_even          kuunteliija
+
+* LEXICON n_21_oi_ÄÖ_even          käveliijä
+
 * LEXICON n_31_ee          hoppee:hoppe
 
 * LEXICON n_31_ii          assii (in Por) kurkkii (in Por)
