@@ -847,6 +847,31 @@ LEXICON x_21_oi_AO
   +Pl      :^WG^AO%>i2         com_ne          ; 
   +Pl      :^WG^AO%>i2         sgpl_cases_even ;
 
+LEXICON n_21_oi_AO_even        !!= * @CODE@  kuunteliija
++N         : x_21_oi_AO_even ;
++N+Pl      :^AO^HMETA          ill_hVin        ;
+
+LEXICON n_21_oi_ÄÖ_even        !!= * @CODE@  käveliijä
++N         : x_21_oi_AO_even ;
++N+Pl      :^AO^HMETA          ill_höin        ;
+
+LEXICON x_21_oi_AO_even
+  +Sg      :                   nom_end         ;
+  +Pl      :^WG                nom_t           ;
+  +Sg      :^WG                gen_n_sg        ;
+  +Sg+Dial/Por:                   par_V        ;
+  +Sg+Dial/Jok:                   par_A        ;
+  +Sg+Dial/Var:                   par_A        ;
+  +Sg      :^HMETA             ill_hVVn        ;
+  +Sg      :                   ess_nA          ; 
+  +Sg      :^WG                sgpl_cases_even ; 
+
+  +Pl      :^WG^AO%>i2         gen_tten        ;
+  +Pl      :^WG^AO%>i2         par_tA          ; 
+  +Pl      :^WG^AO%>i2         ess_nA          ; 
+  +Pl      :^WG^AO%>i2         com_ne          ; 
+  +Pl      :^WG^AO%>i2         sgpl_cases_even ;
+
 LEXICON n_31_ee        !!= * @CODE@  hoppee:hoppe
 +N+Dial/Por:        x_31_ee            ;
 +N+Dial/Var:^E2I^¤  x_31_ia          ;
