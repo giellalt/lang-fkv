@@ -190,7 +190,7 @@ Rules
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ a: (Dial:)        [%> :a | %^AO: %> i2: (%> n) #] ; ! virka:virkkoi
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ a: (Dial:)         %^AO: %> i5: %> [m|n] ; ! superlatiivi, pimmeenarkkoiman
                         [l|r|n|m]  k _ :Vow (Dial:)       %>  i7:           ;
-                        [l|r|n|m]  k _ :i (Dial:)         %>          %^V:i ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                        [l|r|n|m]  k _ :i (Dial:) (%^AO:) %>    [%^V:i|i2: (%> n) #] ; ! trenki:trenkkii Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                         [l|r|n|m] :k _ e: (Dial:) %^E2I:0 %> i2: %>   %^V:  ;
                         [l|r|n|m]  k _  i (Dial:)         %> i2: %> t %^A:  ; ! meininkkiitä in Por
                         [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i]          ;
@@ -198,7 +198,7 @@ Rules
                         [l|r|n|m]  k _ :u (Dial:) %> [:u|:i (%> n) #] ; ! urkkui mutta urkuina
                         [l|r|n|m]  k _ :o (Dial:) %> [:o|:i (%> n) #] ; 
                         [l|r|n|m]  k _ :o (Dial:) %> i5: %> [m|n]     ; ! superl.
-                        [l|r|n|m]  k _ :e (Dial:) %> [:e|:i]          ;
+                        [l|r|n|m]  k _ [:e|e:] (Dial:) %> [:e|:i %> %^V:] ; ! jälki:jälkkee,jälkkii
 
 
 !! #### Tests:

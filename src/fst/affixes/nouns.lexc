@@ -343,7 +343,7 @@ LEXICON x_11_i_oblique ! rest of i, also propernouns
   +Sg+Dial/Por:^Por^WG      gen_n_sg         ;
   +Sg+Dial/Jok:^Jok^WG      gen_n_sg         ;
   +Sg+Dial/Var:^Var^WG      gen_n_sg         ;
-  +Sg+Dial/Por :             par_V           ;
+  +Sg+Dial/Por:             par_V           ;
   +Sg+Dial/Jok:             par_A           ;
   +Sg+Dial/Var:             par_A           ;
   +Sg          :^HMETA       ill_hVVn        ;
@@ -383,7 +383,7 @@ LEXICON n_11_E2I        !!= @CODE@ on ovi:ove, joki:joke, hyksi, suomi ! Ei lain
 LEXICON x_11_E2I
   +Sg+Nom      :^E2I         K               ; ! ^EI e to i
   +Sg          :^WG          gen_n_sg        ;
-  +Sg+Dial/Por :             par_V           ; ! suomee
+  +Sg+Dial/Por:             par_V           ; ! suomee
   +Sg+Dial/Jok:^E2I         par_A           ; ! suomea
   +Sg+Dial/Var:^E2I         par_A           ; ! suomea
   +Sg          :^HMETA       ill_hVVn        ; ! tyvheen
