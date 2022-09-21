@@ -30,7 +30,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.github.io/lang-fkv/>
+- [Language specific documentation](https://giellalt.github.io/lang-fkv/)
 -   <https://giellalt.github.io>
 
 Core dependencies
