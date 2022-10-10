@@ -231,6 +231,10 @@ Number-person
 * **+Dial/Por** Porsanger, short for +Dial/-Jok+Dial/-Var
 * **+Dial/Jok** Jokivarret, short for +Dial/-Por+Dial/-V
 
+## Lexeme disambiguation tags
+* **+Hom1**:  Homonymy
+* **+Hom2**:  Homonymy
+
 ## Stem variant tags
 * **+v1**:  variant 1
 * **+v2**:  variant 2
