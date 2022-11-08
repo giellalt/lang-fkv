@@ -17,6 +17,7 @@
 #!!       K V E N   G R A M M A R   C H E C K E R
 # ==================================================================== #
 # ====================================================================
+# Copied from fin grc 7.11.22.
 
 #  Sámi language technology 2000-2017, UiT The arctic University of Norway #
 
@@ -36,8 +37,11 @@
 # ---------------------- #
 #
 # emacs grammarchecker.cg3  # and C-c C-i / C-c C-c if you have cg-mode installed
-# echo "Hän ei tullee." | sh modes/fkvgram.mode  # from the terminal
+# echo "Hän ei tulee." | sh modes/fkvgram.mode  # from the terminal
 #
+# The basic pipeline, in case modes (above) does not work
+#  echo "Hän ei tulee." | hfst-tokenise -g ../tokenisers/tokeniser-gramcheck-gt-desc.pmhfst | vislcg3 -g disambiguator.cg3  | vislcg3 -g grammarchecker.cg3 -t
+
 # ---------------------- #
 #   Other debug-pipes:   #
 # ---------------------- #
@@ -46,9 +50,6 @@
 #
 # ---------------------- #
 
-
-# The pipeline (but use modes, above)
-# echo "Hei." | hfst-tokenise -g ../tokenisers/tokeniser-gramcheck-gt-desc.pmhfst | vislcg3 -g disambiguator.cg3 -t | vislcg3 -g grammarchecker.cg3 -t  
 
 
 
@@ -147,13 +148,21 @@ LIST Nom = Nom ; #!! Nom
 LIST Acc = Acc ; #!! Acc
 LIST Gen = Gen ; #!! Gen
 LIST Ill = Ill ; #!! Ill
-LIST Loc = Loc ; #!! Loc
+LIST Ine = Ine ; #!! Ine
+LIST Ela = Ela ;
+LIST All = All ;
+LIST Ade = Ade ;
+LIST Abl = Abl ;
 LIST Com = Com ; #!! Com
 LIST Ess = Ess ; #!! Ess
 LIST Par = Par ; #!! Ess
+LIST Tra = Tra ; #!! Tra
+LIST Abe = Adb ;
 LIST Sg = Sg ;   #!! Sg
-LIST Du = Du ;   #!! Du
 LIST Pl = Pl ;   #!! Pl
+
+
+
 LIST Cmp/SplitR = Cmp/SplitR ;	   #!! Cmp/SplitR
 LIST Cmp/SgNom = Cmp/SgNom ; #!! Cmp/SgNom Cmp/SgGen
 LIST Cmp/SgGen = Cmp/SgGen ; #!! Cmp/SgGen
@@ -182,18 +191,14 @@ LIST Pot = Pot ;			   #!! Pot
 LIST Cond = Cond ;			   #!! Cond
 LIST Imprt = Imprt ;		   #!! Imprt
 LIST ImprtII = ImprtII ;	   #!! ImprtII
-
 LIST Sg1 = Sg1 (p1 sg) ;			   #!! Sg1
 LIST Sg2 = Sg2 (p2 sg) ;			   #!! Sg2
 LIST Sg3 = Sg3 (p3 sg) ;			   #!! Sg3
-LIST Du1 = Du1 (p1 du) ;			   #!! Du1
-LIST Du2 = Du2 (p2 du) ;			   #!! Du2
-LIST Du3 = Du3 (p3 du) ;			   #!! Du3
 LIST Pl1 = Pl1 (p1 pl) ;			   #!! Pl1
 LIST Pl2 = Pl2 (p2 pl);			   #!! Pl2
 LIST Pl3 = Pl3 (p3 pl);			   #!! Pl3
-
 LIST Inf = Inf ;			   #!! Inf
+LIST Pss = Pss ;
 LIST ConNeg = ConNeg ;		   #!! ConNeg
 LIST Neg = Neg ;			   #!! Neg
 LIST PrfPrc = PrfPrc ;		   #!! PrfPrc
@@ -204,11 +209,18 @@ LIST Sup = Sup ;			   #!! Sup
 LIST Actio = Actio ;		   #!! Actio
 LIST VAbess = VAbess ;		   #!! VAbess
 
+LIST Foc/ka = Foc/ka ;
 
+SET VFIN = Ind OR Cond OR Pot ;
 
 LIST Err/Orth = Err/Orth Err/Orth-a/á Err/Orth-nom/gen Err/Orth-nom/acc Err/DerSub Err/CmpSub Err/UnspaceCmp Err/HyphSub Err/SpaceCmp Err/Spellrelax err_orth_mt ; #!! Err/Orth
 
+LIST POGEN = "luona" "luota" "takia" "vuoksi"  ; # Only as POGEN
+LIST POGEN/ADV = "takana" ;
+LIST POELA = "huolimatta" ;
 
+# ISO: Sekä adverbina että adpositiona käytettäviä sanoja:
+# edellä, edelle, edeltä; edessä, eteen, edestä | sisällä, sisälle, sisältä; sisässä, sisään, sisästä | lähellä, lähelle, läheltä | keskellä, keskelle, keskeltä | ympärillä, ympärille, ympäriltä | ohessa, oheen, ohesta | takana, taakse, takaa | alla, alle, alta | yllä, ylle, yltä | vailla, vaille | vastassa, vastaan | mukana, mukaan | alitse, ylitse, ohitse | ali, yli, läpi, ohi, ympäri, kohti, vastapäätä | lisäksi, ilman, kesken, ennen
 
 #!! ### Semantic tags
 
@@ -412,15 +424,6 @@ SET DU-PL-V = DU1-V OR DU2-V OR DU3-V OR PL1-V OR PL2-V OR PL3-V ;
 
 SET 1-2-V = SG1-V OR SG2-V OR DU1-V OR DU2-V OR PL1-V OR PL2-V ;
 
-
-SET NOT-SG1 = Sg2 OR Sg3 OR Pl1 OR Pl2 OR Pl3 ;
-SET NOT-SG2 = Sg1 OR Sg3 OR Pl1 OR Pl2 OR Pl3 ;
-SET NOT-SG3 = Sg1 OR Sg2 OR Pl1 OR Pl2 OR Pl3 ;
-SET NOT-PL1 = Sg1 OR Sg2 OR Sg3 OR Pl2 OR Pl3 ;
-SET NOT-PL2 = Sg1 OR Sg2 OR Sg3 OR Pl1 OR Pl3 ;
-SET NOT-PL3 = Sg1 OR Sg2 OR Sg3 OR Pl1 OR Pl2 ;
-
-
 #!! ### Pronoun sets
 # ------------
 
@@ -492,13 +495,12 @@ SET NOT-A-CC = WORD - A-CC ;
 # ------------------------------------
 SET LEX-ADV = Adv - (AA) ;
 
-SET NOT-ADV-DE            = WORD - Adv ;
+SET NOT-ADV-DE         = (*) - Adv ;
 SET NOT-ADV            = NOT-ADV-DE OR CLB ;
 SET NOT-ADV-N          = NOT-ADV - N;
 SET NOT-ADV-PCLE       = NOT-ADV - Pcle ;
 SET NOT-ADV-INDEF      = NOT-ADV - Indef ;
-SET NOT-ADV-PCLE-ILL-LOC-COM = WORD - Adv - Pcle - Ill - Loc - Com;
-SET NOT-A-ADV-PCLE = WORD - Pcle - A - Adv ; #
+SET NOT-A-ADV-PCLE 	   = (*) - Pcle - A - Adv ; #
 
 
 
@@ -562,6 +564,7 @@ SET NOT-NPMOD-ACC     = NOT-NPMOD - Acc OR ABBR ;
 SET NOT-NPMOD-ACC-ADV     = NOT-NPMOD - Acc - Adv OR ABBR ;
 
 SET NOT-NPMODADV    = WORD - PRE-NP-HEAD - Adv ;
+SET NOT-NPMODADVPCLE    = WORD - PRE-NP-HEAD - Adv - Pcle;
 SET NOT-NPMODADV-INDEF   = WORD - PRE-NP-HEAD - Adv - Indef ;
 
 
@@ -580,6 +583,10 @@ SET NOT-CC = WORD - CC ;
 SET NOT-PCLE = WORD - Pcle ;
 
 SET REAL-CLB = CLB - COMMA ;
+
+
+#!! ### Postposition sets
+
 
 
 #!! ### Border sets and their complements
@@ -605,23 +612,55 @@ SET CCCOMMA = CC OR COMMA ;
 
 
 
-#!! ### Grammarchecker sets
 
-LIST &err-agr-sg1 = &err-agr-sg1 ;
-LIST &err-agr-sg2 = &err-agr-sg2 ;
-LIST &err-agr-sg3 = &err-agr-sg3 ;
-LIST &err-agr-pl1 = &err-agr-pl1 ;
-LIST &err-agr-pl2 = &err-agr-pl2 ;
-LIST &err-agr-pl3 = &err-agr-pl3 ;
-LIST &err-gen-po = &err-gen-po ;
-LIST &err-no-conneg = &err-no-conneg ;
-LIST &err-orrood-inf = &err-orrood-inf ;
-LIST &err-ext-agr = &err-ext-agr ;
-LIST &err-ext-vagr = &err-ext-vagr ;
 
+
+# ===================================== #
+#!! Grammarchecker rules begin here 
+# ===================================== #
+
+
+
+#!! ## Grammarchecker sets
+
+LIST &syn-number-congruence-subj-verb = &syn-number-congruence-subj-verb ;
+
+LIST &msyn-agr = &msyn-agr ;
+LIST &msyn-agr-sg1 = &msyn-agr-sg1 ;
+LIST &msyn-agr-sg2 = &msyn-agr-sg2 ;
+LIST &msyn-agr-sg3 = &msyn-agr-sg3 ;
+LIST &msyn-agr-pl1 = &msyn-agr-pl1 ;
+LIST &msyn-agr-pl2 = &msyn-agr-pl2 ;
+LIST &msyn-agr-pl3 = &msyn-agr-pl3 ;
+LIST &msyn-gen-po = &msyn-gen-po ;
+LIST &msyn-po-notgen = &msyn-po-notgen ;
+LIST &msyn-po-nogela = &msyn-po-notela ;
+LIST &msyn-no-conneg = &msyn-no-conneg ;
+LIST &msyn-orrood-inf = &msyn-orrood-inf ;
+LIST &msyn-ext-agr = &msyn-ext-agr ;
+LIST &msyn-ext-vagr = &msyn-ext-vagr ;
+LIST &msyn-acc-pss = &msyn-acc-pss ;
+LIST &msyn-neg-posv = &msyn-neg-posv ;
+LIST &msyn-po-asti = &msyn-po-asti ;
+
+LIST &double-space-before = &double-space-before ;
+LIST &space-after-paren-beg = &space-after-paren-beg ;
+LIST &space-before-paren-end = &space-before-paren-end ;
+LIST &space-before-punct-mark = &space-before-punct-mark ;
+
+LIST &typo = &typo ;
+
+	
 MAPPING-PREFIX = & ;
 
+
+
+#!! ## Grammarchecker rules
+
+
 SECTION
+
+#!! ### Speller rules
 
 # Speller suggestions rule – add &SUGGESTWF to any spelling suggestion
 # that we actually want to suggest to the user.
@@ -630,41 +669,160 @@ ADD:spell-it-all (&typo &SUGGESTWF) (<spelled>) ;
 # But perhaps you want to only suggest spellings of words that are not inside "quotes":
 ADD:spell-conservatively (&typo &SUGGESTWF) (<spelled>) IF (NEGATE -1 QMARK LINK 2 QMARK);
 
+
+
+#!! ### Agreement rules
+
 # A simple grammar checker rule without suggestions: Ensure preceding nominal agrees with the verb
-ADD:err-agr-sg1 (&err-agr-sg1) TARGET V IF (-1C Pron + Sg1 + Nom) (0 V) (NOT 0 Sg1);
-COPY:err-agr-sg1 (Sg1 &SUGGEST) EXCEPT NOT-SG1 TARGET (V Ind Prs &err-agr-sg1) ;
+ADD:msyn-agr-sg1 (&msyn-agr-sg1) TARGET V IF (NOT -1 Sg1 OR Interr)(-1 Pron + Sg1 + Nom) (0 V + Ind) (NOT 0 Sg1);
+ADD:msyn-agr-sg2 (&msyn-agr-sg2) TARGET V IF (NOT -1 Sg2 OR Interr)(-1 Pron + Sg2 + Nom) (0 V + Ind) (NOT 0 Sg2);
+ADD:msyn-agr-sg3 (&msyn-agr-sg3) TARGET V IF (-1C Sg + Nom)(NOT -1 Interr)(NOT *-1 CC BARRIER NOT-NPMOD LINK -1 Sg + Nom)(NOT -2 ("/")) (0 V + Ind ) (NOT 0 Sg3 OR Pss);
+ADD:msyn-agr-pl1 (&msyn-agr-pl1) TARGET V IF (NOT -1 Pl2 OR Interr)(-1 Pron + Pl1 + Nom) (0 V + Ind) (NOT 0 Pl1);
+ADD:msyn-agr-pl2 (&msyn-agr-pl2) TARGET V IF (NOT -1 Pl2 OR Interr)(-1 Pron + Pl2 + Nom) (0 V + Ind) (NOT 0 Pl2);
+ADD:msyn-agr-pl3 (&msyn-agr-pl3) TARGET V IF (NOT -1 Pl3)(-1 Pron + Pl3 + Nom) (0 V + Ind) (NOT 0 Pl3);
 
-ADD:err-agr-sg2 (&err-agr-sg2) TARGET V IF (-1C Pron + Sg2 + Nom) (0 V) (NOT 0 Sg2);
-COPY:err-agr-sg2 (Sg1 &SUGGEST) EXCEPT NOT-SG2 TARGET (V Ind Prs &err-agr-sg2) ;
 
-ADD:err-agr-sg3 (&err-agr-sg3) TARGET V IF (-1C Sg + Nom) (0 (V Ind Prs)) (NOT 0 Sg3) ;
-COPY:err-agr-sg3 (Sg3 &SUGGEST) EXCEPT NOT-SG3 TARGET (V Ind Prs &err-agr-sg3) ;
+#   vahvistanut
+#vahvistanut        vahvistaa+V+Act+Ind+Prt+ConNeg+Sg        0,000000
+#vahvistanut        vahvistaa+V+Act+PrfPrc+Sg+Nom        0,000000
+#
+#vahvistaneet
+#vahvistaneet        vahvistaa+V+Act+Ind+Prt+ConNeg+Pl        0,000000
+#vahvistaneet        vahvistaa+V+Act+PrfPrc+Pl+Nom        0,000000
+#
+#me
+#me        me+Pron+Pers+Pl1+Nom        0,000000
+#
+#olemme
+#olemme        olla+V+Act+Ind+Prs+Pl1        0,000000
+#
+#
+#Pron Pl1/Pl2/Pl3 + COPULAS Pl1/Pl2/Pl3 + ADV/PCLE + PrfPrc/ConNeg Sg>Pl
+
+#!! PrfPrc Sg > PrfPrc Pl
+
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act ConNeg Sg) OR (V Act PrfPrc Sg Nom) IF (*-1 ("olla" V Act Ind Prs) BARRIER S-BOUNDARY LINK 0 Pl1 OR Pl2 OR Pl3)(NEGATE 0 (PrfPrc Pl) OR (ConNeg Pl));
+	## Pofeetta, Me olemme totisesti {vahvistanut} sinun laillisiksi vaimoiksesi kaikki ne, joille olet myöntänyt lesken osuudet, sekä ne, jotka omistat Jumalan antamina orjattarina sotasaaliista, sekä setäsi     tyttäret ja isäsi sisaren tyttäret, myöskin enosi tyttäret ja äitisi sisarten tyttäret, jotka kanssani pakenivat vainottuina uskonnon vuoksi; samoin on laillinen vaimosi sellainen uskovainen nainen, joka pyrkii avioliittoon kanssasi, mikäli suostut naimaan hänet. # vahvistanut> vahvistaneet (ConNeg Sg>ConNeg Pl)
+
+COPY:syn-number-congruence-subj-verb (Pl &SUGGEST) EXCEPT Sg AFTER PrfPrc OR ConNeg TARGET (V Act ConNeg Sg &syn-number-congruence-subj-verb) OR (V Act PrfPrc Sg Nom &syn-number-congruence-subj-verb);
+
+#!! PrfPrc Pl > PrfPrc Sg 
+
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act ConNeg Pl) OR (V Act PrfPrc Pl Nom) IF (*-1 ("olla" V Act Ind Prs) BARRIER S-BOUNDARY LINK 0 Sg1 OR Sg2 OR Sg3)(NEGATE 0 (PrfPrc Sg) OR (ConNeg Sg));
+	## 
+
+COPY:syn-number-congruence-subj-verb (Sg &SUGGEST) EXCEPT Sg AFTER PrfPrc OR ConNeg TARGET (V Act ConNeg Pl &syn-number-congruence-subj-verb) OR (V Act PrfPrc Pl Nom &syn-number-congruence-subj-verb);
+
+
+#!! relative sentences between the noun and the finite verb
 	
-ADD:err-agr-pl1 (&err-agr-pl1) TARGET V IF (-1C Pron + Pl1 + Nom) (0 V) (NOT 0 Pl1);
-COPY:err-agr-pl1 (Pl1 &SUGGEST) EXCEPT NOT-PL1 TARGET (V Ind Prs &err-agr-pl1) ;
+LIST REL-ADV = ("mikä") ("joka") ("missä") ("mistä") ("mihin") ("jossa") ("josta") ("johon") ; #homonymous with relative pronouns
+	
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (Act Ind Prt Pl3) IF (*-1 Rel OR REL-ADV LINK *-1 (N Sg Nom) OR (Pron Nom Sg3) BARRIER NOT-COMMA)(NEGATE 0 (PrfPrc Sg) OR (ConNeg Sg));
+	## Koira, josta hän välitti paljon, juoksivat pakoon.
 
-ADD:err-agr (&err-agr-pl2) TARGET V IF (-1C Pron + Pl2 + Nom) (0 V) (NOT 0 Pl2);
-COPY:err-agr-sg2 (Pl2 &SUGGEST) EXCEPT NOT-PL2 TARGET (V Ind Prs &err-agr-pl2) ;
+COPY:syn-number-congruence-subj-verb (Sg3 &SUGGEST) EXCEPT Pl3 TARGET (V Ind Pl3 &syn-number-congruence-subj-verb);
 
-ADD:err-no-conneg (&err-no-conneg) TARGET Prs IF (-1 Neg)(0 V + Sg3);
-COPY:err-no-conneg (ConNeg &SUGGEST) EXCEPT Sg3 TARGET (V Ind Prs &err-no-conneg) ;
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (Act Ind Prt Sg3) IF (*-1 Rel OR REL-ADV LINK *-1 (N Pl Nom) OR (Pron Nom Pl3) BARRIER NOT-COMMA)(NEGATE 0 (PrfPrc Sg) OR (ConNeg Sg));
+	## 
 
-ADD:err-no-conneg (&err-no-conneg) TARGET Prs IF (-1 Neg)(0 V + Sg1);
-COPY:err-no-conneg (ConNeg &SUGGEST) EXCEPT Sg1 TARGET (V Act Ind Prs &err-no-conneg) ;
+COPY:syn-number-congruence-subj-verb (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Ind Sg3 &syn-number-congruence-subj-verb);
 
-ADD:err-no-conneg (&err-no-conneg) TARGET Prs IF (-1 Neg)(0 V + Sg2);
-COPY:err-no-conneg (ConNeg &SUGGEST) EXCEPT Sg2 TARGET (V Act Ind Prs &err-no-conneg) ;
+#!! Prs Sg3 > Prs Pl3
+	
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (Act Ind Sg3) IF (*-1 (Pers Pl3 Nom) OR (N Pl Nom) OR (Dem Pl Nom) BARRIER S-BOUNDARY LINK NEGATE -1 CC LINK -1 (N Nom))(NEGATE 0 (Act Ind Pl3));
+	## He tulee.
+	## Koirat tulee.
+	## Ne tulee.
 
-ADD:err-no-conneg (&err-no-conneg) TARGET Prs IF (-1 Neg)(0 V + Sg3);
-COPY:err-no-conneg (ConNeg &SUGGEST) EXCEPT Sg3 TARGET (V Act Ind Prs &err-no-conneg) ;
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (Act Ind Sg3) IF (*-1 (N Nom) BARRIER S-BOUNDARY LINK -1 CC OR COMMA LINK -1 (N Nom))(NEGATE 0 (Act Ind Pl3));
+	## Koira ja kissa tulee.
+
+
+COPY:syn-number-congruence-subj-verb (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Act Sg3 &syn-number-congruence-subj-verb);
+
+
+#!!  #### regular congruence rules
+
+	 # Sg1 SUBJ
+    
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Sg1 Nom) OR ("mikä" Pron Sg Ess) BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com)(NEGATE 0 Sg1 OR Adv);
+	## Minä viime aikoina näimme koiran.
+	## Näimme viime aikoina minä koiran.
+
+	 # Sg2 SUBJ
+    
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Sg2 Nom) OR ("se" Pron Sg Ess) BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com)(NEGATE 0 Sg2 OR Adv);
+	## Sinä viime aikoina näimme koiran.
+
+	 # Sg3 SUBJ
+    
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Sg3 Nom) OR (N Sg Nom) BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com LINK NEGATE -1 CC LINK *-1 (N Nom) BARRIER NOT-NPMOD)(NEGATE 0 Sg3 OR Adv);
+	## Hän viime aikoina näimme koiran.
+	
+	 # Pl1 SUBJ
+    
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Pl1 Nom) BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com)(NEGATE 0 Pl1 OR Adv);
+	#$ Me viime aikoina näimme koiran.
+	## Me viime aikoina näitte koiran.
+
+	 # Pl2 SUBJ
+    
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Pl2 Nom) BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com)(NEGATE 0 Pl2 OR Adv);
+	## Te viime aikoina näimme koiran.
+
+	 # Pl3 SUBJ
+    
+ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Pl3 Nom) OR (N Pl Nom) OR ("he") BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com)(NEGATE 0 Pl3 OR Adv);
+	## He viime aikoina näimme koiran.
+
+
+
+#!! ### Negation verb rules
+
+ADD:msyn-neg-posv (&msyn-neg-posv) TARGET V IF (-1 Neg)(NOT -1 Foc/ka)(0 VFIN)(NOT 0 ConNeg);
+## Mies ei tullee.
+
+#!! ### Postposition rules
+
+#3ADD:msyn-po-notgen (&msyn-po-notgen) TARGET N IF (NOT 0 Gen OR Par)(1C Po);
+ADD:msyn-po-notgen (&msyn-po-notgen) TARGET N IF (NOT 0 Gen)(1 POGEN);
+ADD:msyn-po-notela (&msyn-po-notgen) TARGET N IF (NOT 0 Ela)(1 POELA);
+ADD:msyn-po-notela (&msyn-po-notela) TARGET N IF (NOT 0 Ela)(1 ("<*.matta>"r) + Po);
+
+ADD:msyn-po-asti (&msyn-po-asti) TARGET N OR Pron IF (NOT 0 Ill OR All OR Tra OR Ela OR Abl) (1 ("asti"));
+# Hän viipyy täällä iltaan asti
+# Hän viipyy täällä ilta asti 
+
+
+# Huom: minusta huolimatta+Po
+# Huom: Ill + asti, saakka
+# Abl + katsoen
+# TODO: List of gen-Po, par-Po, Ill-Po, Ela-Po
+
+
+#!! ### L2 rules
+
+# A tentative L2 error
+#ADD:msyn-acc-pss (&msyn-acc-pss) TARGET N IF (-1 V + Pss + Ind)(0 Gen)(NOT *1 N OR A BARRIER NOT-NPMOD)(Not 1 Po);
+ADD:msyn-acc-pss (&msyn-acc-pss) TARGET Pron + Pers + Nom IF (-1 V + Pss + Ind)(NOT *1 N OR A BARRIER NOT-NPMOD)(Not 1 Po);
+## Nähtiin hän.
+
+
+#!! ###  NP internal rules
 
 # And one with a suggestion where we simply change the tag Sg into Attr:
+# TODO: Give example on this:
 ADD:attr-not-pred (&attr-not-pred) TARGET (A Sg) IF (NOT 0 Attr OR Gen) (1 CC LINK *1 COMMON-N) ;
 COPY:attr-not-pred (Attr &SUGGEST) EXCEPT (Sg) TARGET (&attr-not-pred) ;
 # The method is: Add &SUGGEST to a copied reading to *generate* a
 # suggestion form from that reading. The copy should contain the error
 # tag too – &-prefixed error tags are ignored when generating, but
 # used to create human-readable messages.
+
+
+
+#!! ###  Punctuation rules
 
 # Simple punctuation rules showing how to change the lemma in the suggestions:
 ADD:use-guillemets (&guillemets) TARGET (""");
@@ -673,3 +831,12 @@ COPY:right-guillemet ("»" &SUGGEST) EXCEPT (""") TARGET (&guillemets) ;
 
 ADD:use-ellipsis (&ellipsis) TARGET ("...");
 COPY:use-ellipsis ("…" &SUGGEST) EXCEPT ("...") TARGET (&ellipsis) ;
+
+
+#!! ###  Spacing errors
+# ------------------
+
+ADD (&double-space-before)     (<doubleSpaceBefore>);
+ADD (&space-after-paren-beg)   (<spaceAfterParenBeg>);
+ADD (&space-before-paren-end)  (<spaceBeforeParenEnd>);
+ADD (&space-before-punct-mark) (<SpaceBeforePunctMark>);
