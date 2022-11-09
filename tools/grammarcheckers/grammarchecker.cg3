@@ -780,7 +780,8 @@ ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V
 
 #!! ### Negation verb rules
 
-ADD:msyn-neg-posv (&msyn-neg-posv) TARGET V IF (-1 Neg)(NOT -1 Foc/ka)(0 VFIN)(NOT 0 ConNeg);
+ADD:msyn-neg-posv (&msyn-neg-posv) TARGET V IF (*-1 Neg BARRIER NOT-ADV LINK NOT 0 Foc/ka)(0 VFIN)(NOT 0 ConNeg);
+COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Sg3 &msyn-neg-posv) TARGET &msyn-neg-posv ;
 ## Mies ei tullee.
 
 #!! ### Postposition rules
