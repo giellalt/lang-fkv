@@ -2988,13 +2988,14 @@ Nom
 Acc
 Gen
 Ill
-Loc
+Ine
 Com
 Ess
 Ess
+Tra
 Sg
-Du
 Pl
+
 Cmp/SplitR
 Cmp/SgNom Cmp/SgGen
 Cmp/SgGen
@@ -3023,17 +3024,12 @@ Pot
 Cond
 Imprt
 ImprtII
-
 Sg1
 Sg2
 Sg3
-Du1
-Du2
-Du3
 Pl1
 Pl2
 Pl3
-
 Inf
 ConNeg
 Neg
@@ -3216,9 +3212,41 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
+### Postposition sets
+
 ### Border sets and their complements
 
-### Grammarchecker sets
+Grammarchecker rules begin here 
+
+## Grammarchecker sets
+
+## Grammarchecker rules
+
+### Speller rules
+
+### Agreement rules
+
+PrfPrc Sg > PrfPrc Pl
+
+PrfPrc Pl > PrfPrc Sg 
+
+relative sentences between the noun and the finite verb
+
+Prs Sg3 > Prs Pl3
+
+#### regular congruence rules
+
+### Negation verb rules
+
+### Postposition rules
+
+### L2 rules
+
+###  NP internal rules
+
+###  Punctuation rules
+
+###  Spacing errors
 
 * * *
 <small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-fkv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for fkv
