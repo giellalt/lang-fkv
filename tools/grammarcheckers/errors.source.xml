@@ -25,11 +25,11 @@
       </ids>
       <header>
         <title xml:lang="en">Grammar error</title>
-        <title xml:lang="fkv">Čállinmeattáhus</title>
+        <title xml:lang="fkv">Kielioppivirhe</title>
       </header>
       <body>
         <description xml:lang="en">The word "$1" exists in the dictionary, but means something different in this context.</description>
-        <description xml:lang="fkv">"$1" maŋis galggašii leat blah</description>
+        <description xml:lang="fkv">Sana "$1" on olemassa, mutta tässä kontekstissa se ei sovi.</description>
       </body>
     </default>
 
@@ -44,12 +44,57 @@
       </header>
       <body>
         <description xml:lang="en">There should be no space between "$1" and the punctuation mark.</description>
-        <description xml:lang="fkv">"$1" ja Xmerkin välilla ei saa välimerkki</description>
+        <description xml:lang="fkv">"$1" ja välimerkin välilla ei saa tyhjä merkki.</description>
       </body>
     </default>
   </defaults>
 
   
+
+  <error id="msyn-agr-sg2-sg1">
+    <header>
+      <title xml:lang="en">First person singular after 'mun'.</title>
+      <title xml:lang="fkv">Verbi ensimmäisessä persoonassa.</title>
+    </header>
+    <body>
+      <description xml:lang="en">The verb-form "$1" follows 'mun', and should probably be first person singular.</description>
+      <description xml:lang="fkv">Verbimuotoa "$1" käytetään 'mie'-sanan jälkeen. Olisiko ensimmäinen persoona parempi?</description>
+    </body>
+  </error>
+
+  <error id="msyn-agr-sg3-pl3">
+    <header>
+      <title xml:lang="en">Singular verb should be plural</title>
+      <title xml:lang="fkv">Yksikön verbi pitäisi olla monikossa</title>
+    </header>
+    <body>
+      <description xml:lang="en">The verb-form "$1" should probably be in the plural.</description>
+      <description xml:lang="fkv">Verbimuotoa "$1" -- olisiko monikko parempi?</description>
+    </body>
+  </error>
+
+  <error id="msyn-agr-pl3-sg3">
+    <header>
+      <title xml:lang="en">Plural verb should be singular</title>
+      <title xml:lang="fkv">Monikon verbi pitäisi olla yksikössä</title>
+    </header>
+    <body>
+      <description xml:lang="en">The verb-form "$1" should probably be in the singular.</description>
+      <description xml:lang="fkv">Verbimuotoa "$1" -- olisiko yksikkö parempi?</description>
+    </body>
+  </error>
+
+  <error id="msyn-agr-prfprcsg-prfprcpl">
+    <header>
+      <title xml:lang="en">'Plural participle after verb in plural</title>
+      <title xml:lang="fkv">Monikon partisiippi monikkoverbin jälkeen</title>
+    </header>
+    <body>
+      <description xml:lang="en">The participle "$1" follows a plural verb "$2", and should probably be in the plural.</description>
+      <description xml:lang="fkv">Partisiippi "$1" tullee monikkoverbin "$2" jälkeen. Olisiko monikko parempi?</description>
+    </body>
+  </error>
+
 
   <error id="msyn-neg-posv">
     <header>
@@ -69,94 +114,168 @@
     </header>
     <body>
       <description xml:lang="en">The word "$1" should probably be in the first person singular</description>
-      <description xml:lang="fkv"></description>
+      <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
     </body>
   </error>
 
-  <error id="msyn-valency-ill">
+  <error id="syn-number-congruence-subj-verb">
     <header>
-      <title xml:lang="en">illative instead of accusative</title>
-      <title xml:lang="fkv">illatiiva iige akkusatiiva</title>
-      <references> <ref n=""/></references>
+      <title xml:lang="en">Verb form number error</title>
+      <title xml:lang="fkv">Verbivirhe</title>
     </header>
     <body>
-      <description xml:lang="en">illative instead of accusative</description>
-      <description xml:lang="fkv">illatiiva iige akkusatiiva</description>
-    <examples>
-      <ex xml:lang="fkv">Hui ollu liikon {bohccobierggu} ja {goikebierggu}.</ex>
-    </examples>
+      <description xml:lang="en">The word "$1" should probably be in another number</description>
+      <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
     </body>
   </error>
 
-
-  <error id="msyn-valency-acc">
+  <error id="msyn-agr-other-pl3">
     <header>
-      <title xml:lang="en">accusative instead of nominative</title>
-      <title xml:lang="fkv">akkusatiiva iige nominatiiva</title>
-      <references> <ref n=""/></references>
+      <title xml:lang="en">Verb form number error</title>
+      <title xml:lang="fkv">Verbivirhe</title>
     </header>
     <body>
-      <description xml:lang="en">accusative instead of nominative</description>
-      <description xml:lang="fkv">illatiiva iige nominatiiva</description>
-    <examples>
-      <ex xml:lang="fkv">Mun čálán {reive}.</ex>
-    </examples>
+      <description xml:lang="en">The word "$1" should probably be in plural</description>
+      <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
     </body>
   </error>
 
-  <error id="msyn-valency-loc-com">
+  <error id="msyn-agr-prsptc-pl3">
     <header>
-      <title xml:lang="en">msyn thing</title>
-      <title xml:lang="fkv">msyn thingy</title>
-      <references><ref n=""/></references>
+      <title xml:lang="en">Verb form in third person plural</title>
+      <title xml:lang="fkv">Verbi monikon kolmannessa persoonassa</title>
     </header>
     <body>
-      <description xml:lang="en">wrong word</description>
-      <description xml:lang="fkv">boasttut sátni</description>
-    <examples>
-      <ex xml:lang="fkv">Ovdalgihtiigeassima sierra máksingoartta ferte álohii atnit go máksá boastagiro dahje báŋku {badjel}.</ex>
-    </examples>
+      <description xml:lang="en">The word "$1" seems to be used as a verb in third person plural, and should not have the form "-vat".</description>
+      <description xml:lang="fkv">Sana "$1" piian oon monikon kolmannessa persoonnassa. Muoto "-vat" ei passaa tässä kontekstissa.</description>
     </body>
   </error>
 
-  <error id="lex-bokte-not-badjel">
-    <header>
-      <title xml:lang="en">"bokte" not "badjel"</title>
-      <title xml:lang="fkv">"bokte" iige "badjel"</title>
-      <references><ref n=""/></references>
-    </header>
-    <body>
-      <description xml:lang="en">wrong word</description>
-      <description xml:lang="fkv">boasttut sátni</description>
-    <examples>
-      <ex xml:lang="fkv">Ovdalgihtiigeassima sierra máksingoartta ferte álohii atnit go máksá boastagiro dahje báŋku {badjel}.</ex>
-    </examples>
-    </body>
-  </error>
+    <error id="err-agr-sg2">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
 
-  <error id="syn-pred-not-attr-msg">
-    <header>
-      <title xml:lang="fkv">«$1» ja «$2» leaba blah</title>
-    </header>
-    <body>
-      <description xml:lang="fkv">Predicative, iige attributive – «$1» ja «$2» leaba blah</description>
-    </body>
-  </error>
+    <error id="err-agr-sg3">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
 
-  <error id="msyn-valency-go-inf">
-    <header>
-      <title xml:lang="en">Try a subclause with <em>go</em> instead of illative</title>
-      <title xml:lang="fkv">Iskka<em>go</em>-oalgecealkaga iige infinitiiva</title>
-      <references> <ref n=""/></references>
-    </header>
-    <body>
-      <description xml:lang="en"><em>go</em> instead of illative</description>
-      <description xml:lang="fkv"><em>go</em> iige infinitiiva</description>
-    <examples>
-      <ex xml:lang="fkv">Soai leaigga sihke dolkan ja suhttan gullat olbmuid šláddariid sudno birra, ja bovdiiga.</ex>
-    </examples>
-    </body>
-  </error>
+    <error id="err-agr-pl1">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
+
+    <error id="err-agr-pl2">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
+
+    <error id="err-agr-pl3">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
+
+    <error id="attr-not-pred">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
+
+    <error id="err-gen-po">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
+
+    <error id="err-no-conneg">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
+
+    <error id="err-orrood-inf">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
+
+    <error id="err-ext-agr">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
+
+    <error id="err-ext-vagr">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
+
+
+
+
+
 
   <error id="double-space-before">
     <header>
@@ -165,7 +284,7 @@
     </header>
     <body>
       <description xml:lang="en">There should be no space between "$1" and the punctuation mark.</description>
-      <description xml:lang="fkv">"$1" ja Xmerkin välilla ei saa välimerkki</description>
+      <description xml:lang="fkv">"$1" ja välimerkin välilla ei saa olla tyhjä väli</description>
     </body>
   </error>
 
