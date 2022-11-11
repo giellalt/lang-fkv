@@ -126,14 +126,20 @@ Multichar_Symbols
  +Err/Hyph !!≈ * **@CODE@** =
  +Err/Lex !!≈ * **@CODE@** =
  +Err/SpaceCmp !!≈ * **@CODE@** =
- +Use/-PMatch !!≈ * **@CODE@** =
- +Use/PMatch !!≈ * **@CODE@** =
+ +Err/MissingSpace !!≈ * **@CODE@** =
+
+!! ### Usage tags
+
+ +Use/-PMatch !!≈ * **@CODE@** = for tokenisation
+ +Use/PMatch !!≈ * **@CODE@** = for tokenisation
  +Use/-Spell   !!≈ * **@CODE@** = Excluded in speller
  +Use/SpellNoSugg   !!≈ * **@CODE@** = recognized but not suggested in speller
+ +Use/-PLX !!≈ * **@CODE@** =
  +Use/NG   !!≈ * **@CODE@** only accept, not generate (for MT and Oahpa use)
  +Use/GC           !!≈ * **@CODE@** only retained in the HFST Grammar Checker disambiguation analyser
  +Use/-GC          !!≈ * **@CODE@** never retained in the HFST Grammar Checker disambiguation analyser
  +Use/Circ  !!≈ * **@CODE@** for numerals, copied from sme
+
 !! ### Compounds
  +Cmp  !!≈ * **@CODE@** =
  +Cmp/SplitR !!≈ * **@CODE@** =
