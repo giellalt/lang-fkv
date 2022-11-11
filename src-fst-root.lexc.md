@@ -119,14 +119,20 @@ Number-person
 * **+Err/Hyph** =
 * **+Err/Lex** =
 * **+Err/SpaceCmp** =
-* **+Use/-PMatch** =
-* **+Use/PMatch** =
+* **+Err/MissingSpace** =
+
+### Usage tags
+
+* **+Use/-PMatch** = for tokenisation
+* **+Use/PMatch** = for tokenisation
 * **+Use/-Spell** = Excluded in speller
 * **+Use/SpellNoSugg** = recognized but not suggested in speller
+* **+Use/-PLX** =
 * **+Use/NG** only accept, not generate (for MT and Oahpa use)
 * **+Use/GC** only retained in the HFST Grammar Checker disambiguation analyser
 * **+Use/-GC** never retained in the HFST Grammar Checker disambiguation analyser
 * **+Use/Circ** for numerals, copied from sme
+
 ### Compounds
 * **+Cmp** =
 * **+Cmp/SplitR** =

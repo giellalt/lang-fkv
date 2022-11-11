@@ -302,7 +302,23 @@ Grammarchecker rules begin here
 
 ### Agreement rules
 
-PrfPrc Sg > PrfPrc Pl
+#### Sg1
+
+**Agreement rule:** msyn-agr-other-sg1, *Mun puátá/puáđám*
+
+**Agreement rule:** msyn-agr-other-sg1
+
+#### Pl3
+
+**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+
+**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+
+**Agreement rule:** msyn-agr-other-pl3
+
+**Agreement rule:** msyn-agr-other-pl3
+
+### Agreement rules
 
 PrfPrc Pl > PrfPrc Sg 
 

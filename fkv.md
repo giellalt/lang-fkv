@@ -1824,14 +1824,20 @@ Number-person
 * **+Err/Hyph** =
 * **+Err/Lex** =
 * **+Err/SpaceCmp** =
-* **+Use/-PMatch** =
-* **+Use/PMatch** =
+* **+Err/MissingSpace** =
+
+### Usage tags
+
+* **+Use/-PMatch** = for tokenisation
+* **+Use/PMatch** = for tokenisation
 * **+Use/-Spell** = Excluded in speller
 * **+Use/SpellNoSugg** = recognized but not suggested in speller
+* **+Use/-PLX** =
 * **+Use/NG** only accept, not generate (for MT and Oahpa use)
 * **+Use/GC** only retained in the HFST Grammar Checker disambiguation analyser
 * **+Use/-GC** never retained in the HFST Grammar Checker disambiguation analyser
 * **+Use/Circ** for numerals, copied from sme
+
 ### Compounds
 * **+Cmp** =
 * **+Cmp/SplitR** =
@@ -3226,7 +3232,23 @@ Grammarchecker rules begin here
 
 ### Agreement rules
 
-PrfPrc Sg > PrfPrc Pl
+#### Sg1
+
+**Agreement rule:** msyn-agr-other-sg1, *Mun puátá/puáđám*
+
+**Agreement rule:** msyn-agr-other-sg1
+
+#### Pl3
+
+**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+
+**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+
+**Agreement rule:** msyn-agr-other-pl3
+
+**Agreement rule:** msyn-agr-other-pl3
+
+### Agreement rules
 
 PrfPrc Pl > PrfPrc Sg 
 
