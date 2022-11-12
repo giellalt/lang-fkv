@@ -73,7 +73,7 @@ z
 o	u	4
 u	o	4
 ð	đ	1
-d	đ	4
+d	đ	2
 đ	d	4
 p	b	4
 b	p	4
@@ -99,4 +99,7 @@ j	v	4
 ## enabling swaps is computationally expensive. See note in
 ## Makefile.am.
 ## Change dh into hd with the weight 5:
-##d,h	h,d	5
+#d,h	h,d	5
+s,k	k,s	5
+o,u	u,o	2
+ö,y	y,ö	2
