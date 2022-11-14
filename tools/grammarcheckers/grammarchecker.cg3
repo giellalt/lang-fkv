@@ -890,7 +890,10 @@ ADD:msyn-po-notgen (&msyn-po-notgen) TARGET N IF (NOT 0 Gen)(1 POGEN);
 ADD:msyn-po-notela (&msyn-po-notgen) TARGET N IF (NOT 0 Ela)(1 POELA);
 ADD:msyn-po-notela (&msyn-po-notela) TARGET N IF (NOT 0 Ela)(1 ("<*.matta>"r) + Po);
 
-ADD:msyn-po-asti (&msyn-po-asti) TARGET N OR Pron IF (NOT 0 Ill OR All OR Tra OR Ela OR Abl) (1 ("asti"));
+ADD:msyn-po-asti (&msyn-po-asti) TARGET N OR Pron IF
+	(0 Nom OR Gen)
+	(NOT 0 Ill)
+	(1 ("asti"));
 # Hän viipyy täällä iltaan asti
 # Hän viipyy täällä ilta asti 
 
