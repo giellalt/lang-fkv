@@ -272,6 +272,17 @@
       </body>
     </error>
 
+    <error id="msyn-po-asti">
+      <header>
+        <title xml:lang="en">Explanation forthcoming.</title>
+        <title xml:lang="fkv">Selitys tullee.</title>
+      </header>
+      <body>
+        <description xml:lang="en">The word "$1" can probably not be used here.</description>
+        <description xml:lang="fkv">Sana "$1" piian ei passaa tässä kontekstissa.</description>
+      </body>
+    </error>
+
 
 
 
@@ -298,5 +309,16 @@
       <description xml:lang="fkv">"$1" voi olla oikolukuvirhe</description>
     </body>
   </error>
+  <error id="ellipsis">
+    <header>
+      <title xml:lang="en">Ellipsis</title>
+      <title xml:lang="fkv">Ellipse</title>
+    </header>
+    <body>
+      <description xml:lang="en">You have used three periods, "$1". Here an ellipsis would have been a better choice.</description>
+      <description xml:lang="fkv">Tun lah kiävttám 3 čuággá. Toos heivee kevttiđ ellipsa, "…".</description>
+    </body>
+  </error>
+  
 
 </errors>
