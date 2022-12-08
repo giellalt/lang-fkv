@@ -217,6 +217,12 @@ LEXICON a_21_odd_ae !näpperä
 +A:%>i5i superl_m_even ;
 +A+Dial/Var :%>i5  superl_mm     ; !Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall.
 
+LEXICON a_21_even_ae !jännittäävä 
++A:      x_21_even    ;
++A:      comp_mm_odd  ;
++A:%>i5i superl_m_odd ;
++A+Dial/Var :%>i5  superl_mm_odd  ;
+
 LEXICON a_31_ee	!!= * @CODE@  pimmee, valkkee, kauhhee, hoppee ! TODO sort out nouns and adjectives
 +A+Dial/Por:      x_31_ee         ;
 +A+Dial/Var:^E2I^¤    x_31_ia       ;
