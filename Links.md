@@ -33,7 +33,9 @@
         * [transcriptor-abbrevs2text.lexc](src-transcriptions-transcriptor-abbrevs2text.lexc.html) ([src](https://github.com/giellalt/lang-fkv/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc))
 * `tools/`
     * `grammarcheckers/`
+        * [after-speller-disambiguator.cg3](tools-grammarcheckers-after-speller-disambiguator.cg3.html) ([src](https://github.com/giellalt/lang-fkv/blob/main/tools/grammarcheckers/after-speller-disambiguator.cg3))
         * [grammarchecker.cg3](tools-grammarcheckers-grammarchecker.cg3.html) ([src](https://github.com/giellalt/lang-fkv/blob/main/tools/grammarcheckers/grammarchecker.cg3))
+        * [grc-disambiguator.cg3](tools-grammarcheckers-grc-disambiguator.cg3.html) ([src](https://github.com/giellalt/lang-fkv/blob/main/tools/grammarcheckers/grc-disambiguator.cg3))
     * `tokenisers/`
         * [tokeniser-disamb-gt-desc.pmscript](tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.html) ([src](https://github.com/giellalt/lang-fkv/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript))
         * [tokeniser-gramcheck-gt-desc.pmscript](tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.html) ([src](https://github.com/giellalt/lang-fkv/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript))
