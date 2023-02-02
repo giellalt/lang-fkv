@@ -214,7 +214,7 @@ Rules
 !! Rule: **@RULENAME@**
 0:l <=> [.#.|#:] Cns:* Vow l _ ä %> :ä ;
         [.#.|#:] Cns:* Vow l _ ö %> :ö ;
-        [.#.|#:] Cns:* Vow l _ i (Dial:) %> :i  ;
+        [.#.|#:] Cns:* Vow l _ i (Dial:) (%^AO:0) %> :i (%> n) # ; 
         [.#.|#:] Cns:* Vow l _ y %> [:y|i2: (%> n) #] ;
         [.#.|#:] Cns:* Vow l _ u %> [:u|i2: (%> n) #] ;
                  Cns   Vow l _ u [%> %^V: | %> i2: (%> t %^A:) #] ; ! vaihettelluu, vaihettellui
