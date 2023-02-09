@@ -1446,16 +1446,16 @@ LEXICON x_22_s_even_Por
   +Sg      :đe             gen_n_sg          ;
   +Sg      :%>t            par_tA            ;
   +Sg      :te^HMETA       ill_hVVn          ;
-  +Sg      :te             ess_nnA           ;
-  +Sg      :đe             sgpl_cases_odd    ;
+  +Sg      :te             ess_nA           ;
+  +Sg      :đe             sgpl_cases_even    ;
 
   +Pl      :ksi%>i2        gen_tten          ;
   +Pl      :ksi%>i2        par_end           ;
   +Pl      :ksi%>i2        par_tA            ;
   +Pl      :ks^HMETA       ill_hiin          ;
-  +Pl      :ks%>i2         ess_nnA           ;
-  +Pl+Dial/Por:ks%>i2         com_nne           ;
-  +Pl      :ks%>i2         sgpl_cases_odd    ; 
+  +Pl      :ks%>i2         ess_nA           ;
+  +Pl+Dial/Por:ks%>i2         com_ne           ;
+  +Pl      :ks%>i2         sgpl_cases_even    ; 
 
   LEXICON x_22_s_even_NOT_Por
     +Sg      :^WGs           nom_end           ; !! * Konsonanttivartalo: poista -e ja heikko aste
@@ -1465,16 +1465,16 @@ LEXICON x_22_s_even_Por
     +Sg      :e              gen_n_sg          ;
     +Sg      :%>t            par_tA            ;
     +Sg      :te^HMETA       ill_hVVn          ;
-    +Sg      :te             ess_nnA           ;
-    +Sg      :e              sgpl_cases_odd    ;
+    +Sg      :te             ess_nA           ;
+    +Sg      :e              sgpl_cases_even    ;
 
     +Pl      :ks%>i2         gen_tten          ;
     +Pl      :ks%>i2         par_A             ;
     +Pl      :ks^HMETA       ill_hiin          ;
-    +Pl      :ks%>i2         ess_nnA           ;
-    +Pl+Dial/Var:ks%>i2         com_nne           ;
+    +Pl      :ks%>i2         ess_nA           ;
+    +Pl+Dial/Var:ks%>i2         com_ne           ;
     +Pl+Dial/Jok:ks%>i2         com_ne            ;
-    +Pl      :ks%>i2         sgpl_cases_odd    ; 
+    +Pl      :ks%>i2         sgpl_cases_even    ; 
 
 LEXICON n_32_as !!= @CODE@ rakas, asukas
 +N         : x_32_as ;
