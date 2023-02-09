@@ -163,6 +163,14 @@ LEXICON n_22_s   sairhaus
 * Konsonanttivartalo: poista -e ja heikko aste
 * Konsonanttivartalo: poista -e ja heikko aste
 
+LEXICON n_22_s_even   avaruus
+
+* Konsonanttivartalo: poista -e ja heikko aste
+* Konsonanttivartalo: poista -e ja heikko aste
+
+* Konsonanttivartalo: poista -e ja heikko aste
+* Konsonanttivartalo: poista -e ja heikko aste
+
 LEXICON n_32_as  rakas, asukas
 
 LEXICON n_32_ae  kevät
