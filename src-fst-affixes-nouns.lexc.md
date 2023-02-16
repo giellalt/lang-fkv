@@ -72,6 +72,8 @@ these two lexica for cases with
 
 the same affix in sg and pl
 
+LEXICON n_11_E2I_pl         sakset, hykset
+
 * LEXICON n_11_pl          "villahousut", lyhyt vokali, yks vartalo, kasvot
 
 * LEXICON x_11_pl         ! Seems like no adjectives call this?
