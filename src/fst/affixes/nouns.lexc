@@ -434,6 +434,23 @@ LEXICON x_11_E2I_prop !propernouns
   +Pl+Dial/Var:^Var^WG%>i2   sgpl_cases_even ;
   +Pl+Dial/Jok:^Jok^WG%>i2   sgpl_cases_even ;
 
+LEXICON n_11_E2I_pl        !!= @CODE@ sakset, hykset
++N+Dial/Por    :^Por         x_11_E2I_pl  ;
++N+Dial/Var    :^Var         x_11_E2I_pl  ;
++N+Dial/Jok    :^Jok         x_11_E2I_pl  ;
+
+LEXICON x_11_E2I_pl
+  +Pl          :^WG          nom_t           ;
+  +Pl+Dial/Por :%>i2         gen_Vn          ; ! hyksiin
+  +Pl+Dial/Jok:^WG%>i2      gen_tten        ; ! hyksitten
+  +Pl+Dial/Var:^WG%>i2      gen_tten        ; ! hyksitten
+  +Pl+Dial/Por :%>i2         par_V           ; ! hyksii
+  +Pl+Dial/Jok:%>i2         par_A           ; ! hyksiä
+  +Pl+Dial/Var:%>i2         par_A           ; ! hyksiä
+  +Pl          :^EDEL        ill_hiin        ;
+  +Pl          :%>i2         ess_nA          ;
+  +Pl          :%>i2         com_ne          ;
+  +Pl          :^WG%>i2      sgpl_cases_even ;
 
 LEXICON n_11_pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo, kasvot
 +N             :       x_11_pl    ;
