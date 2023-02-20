@@ -301,7 +301,7 @@ Rules
           Cns:* Vow  [n|l|r] t:s _   :i                   %> [:i - i3:] (i2:i) ;  ! to be fixed. Seems to not do anything?
                              t:s _  e:0  %^Por:0  %^E2I:0 %> i2: %> %^V: ; ! ! hirssii(n), uussiin uussii in Por
                              t:s _  e:i (%^Por:0) %^E2I:0 %> i5: ; ! ONLY SUPERL, i5 IS SUPERLATIVE i
-          [.#.|#:] Cns:* Vow:+ s _ a: (%^Por:0) [%> :a|(%^A2I:0) %> i2: (%> n) #] ; ! Only in Por, 0:k kk
+          [.#.|#:] Cns:* Vow:+ s _ a: (%^Por:0) [%> :a|(%^A2I:0) (%^AO:0) %> i2: (%> n) #] ; ! Only in Por, 0:k kk
           [.#.|#:] Cns:* Vow:+ s _ ä: (Dial:) [%> :ä|%> i2: %> :i (%> n) ] ; !nysä>nyssii ja nyssiin 
           [.#.|#:] Cns:* Vow:+ s _ ö %> :ö ;
           [.#.|#:] Cns:* Vow:+ s _ y: [%> :y|%> i2: (%> n) # ]    ;
@@ -319,6 +319,8 @@ Rules
                      [l|r|n|m] s _ :o %> :o ;
                      [l|r|n|m] s _ :e %> :e ;
 [.#.|#:] Cns:+ Vow:+ [l|r|n|m] s _ :a %> :a ;
+[.#.|#:] Cns:* Vow:+   [r|n]   s _ a: %^Por:0 %> :a                              ; ! kanssaa, suorssaa
+[.#.|#:] Cns:* Vow:+   [r|n]   s _ a: %^Por:0 [%^AO:0 | %^A2I:0] %> i2: (%> n) # ; ! kanssoi, suorssii
 [.#.|#:] Cns:+ Vow:+ [l|r|n|m] s _ ä: [%> :ä| %> [i2:|i5:] (%>) :i (%> [m|n]) ] ; ! superlatiivi tylsä/tylssiin, sg.par, pl.par/gen
                          i t: k: _ ä: %> i5:i :i                                ; ! superlatiivi pitkä/pissiin
 
