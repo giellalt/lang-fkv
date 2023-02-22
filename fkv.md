@@ -2244,7 +2244,9 @@ TYYPPI 1: Kaksitavuiset lyhykäisvokaaliset rangat
 * X.X Kaksitavuiset ( kuva : kuvissa )         a -> i:ksi = `n_11_A0_A2I`
 * X.X Kaksitavuiset lånord ( färi : färi, pappi, tooli )  = `n_11_i`
 - 2.1.1  Kaksitavuiset monikko (housut )                 = `n_11_pl`
+Kaksitavuiset monikko -i (sortsit)              = `n_11_i_pl`
 - 2.1.2  Kaksitavuiset ( joki:joke, ovi:ove ) e -> i:ksi = `n_11_E2I`
+Kaksitavuiset monikko (hykset) e -> i:ksi       = `n_11_E2I_pl`
 * 3.1 Kaksitavuiset (CNS-rankaiset?) ( pieni, kieli )     = `n_12`
 * 3.1.1  ( lumi:lunta, toimi, liemi )                     = `n_12_mi`
 * 3.1.2  ( käsi, vuosi )                                  = `n_12_si`
