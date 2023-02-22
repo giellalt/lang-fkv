@@ -459,10 +459,10 @@ LEXICON n_11_pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo, k
 LEXICON x_11_pl        !!= * @CODE@ ! Seems like no adjectives call this?
 
 
-  +Pl+Dial/Por :%>i2               gen_n           ; ! kasvoin
+  +Pl+Dial/Por:%>i2               gen_n           ; ! kasvoin
   +Pl+Dial/Jok:%>i2               gen_tten        ; ! kasvoitten, housuitten
   +Pl+Dial/Var:%>i2               gen_tten        ; ! kasvoitten, housuitten
-  +Pl+Dial/Por :%>i2               par_end         ; ! kasvoi
+  +Pl+Dial/Por:%>i2               par_end         ; ! kasvoi
   +Pl+Dial/Jok:%>j                par_A           ; ! kasvoja
   +Pl+Dial/Var:%>j                par_A           ; ! kasvoja
   +Pl          :^HMETA             ill_hVin        ;
@@ -475,6 +475,67 @@ LEXICON x_11_pl        !!= * @CODE@ ! Seems like no adjectives call this?
 
   !LEXICON vanha_kk-longgparpl
   ! +Par:%>kk%>i2 # ; ! kk ?? Tsekkaa..
+
+
+LEXICON n_11_i_pl  ! sortsit
++N             :             x_11_i_pl     ;
+
+LEXICON x_11_i_pl
+  x_11_i_oblique_pl ;
+
+LEXICON x_11_i_oblique_pl
+  +Pl+Dial/Por:^Por^WG      nom_t           ;
+  +Pl+Dial/Jok:^Jok^WG      nom_t           ;
+  +Pl+Dial/Var:^Var^WG      nom_t           ;
+  +Pl+Dial/Por:^AO%>i2      gen_n           ;
+  +Pl+Dial/Jok:^WG^AO       gen_tten        ;
+  +Pl+Dial/Var:^WG^AO       gen_tten        ;
+  +Pl+Dial/Por:^AO%>i2      par_end         ;
+  +Pl+Dial/Jok:^AO          par_A           ;
+  +Pl+Dial/Var:^AO          par_A           ;
+  +Pl         :^AO^HMETA    ill_hVin        ;
+  +Pl+Dial/Por:^AO%>i2      ess_nA          ;
+  +Pl+Dial/Jok:^AO          ess_nA          ;
+  +Pl+Dial/Var:^AO          ess_nA          ;
+  +Pl+Dial/Por:^AO%>i2      com_ne          ;
+  +Pl+Dial/Jok:^AO          com_ne          ;
+  +Pl+Dial/Var:^AO          com_ne          ;
+  +Pl+Dial/Por:^Por^WG^AO%>i2   sgpl_cases_even_Por ;
+  +Pl+Dial/Jok:^Jok^WG^AO       sgpl_cases_even ;
+  +Pl+Dial/Var:^Var^WG^AO       sgpl_cases_even ;
+
+
+LEXICON n_11_ae_pl ! päivät
++N:             x_11_ae_pl     ;
+
+LEXICON x_11_ae_pl
++Pl+Dial/Por:%>i2      gen_in          ; ! päiviin
++Pl+Dial/Por:          ill_hiin        ; ! päivhiin
++Pl+Dial/Var:          ill_hiin        ; ! päivhiin
++Pl+Dial/Jok:          ill_hiin        ; ! päivhiin
+  
+!Por
+  +Pl+Dial/Por:^Por^WG          nom_t           ;
+  +Pl+Dial/Por:%>i2             par_V           ;
+  +Pl+Dial/Por:%>i2             ess_nA          ;
+  +Pl+Dial/Por:%>i2             com_ne          ;
+  +Pl+Dial/Por:^Por^WG%>i2      sgpl_cases_even ;
+
+!Jok
+  +Pl+Dial/Jok:^WG              nom_t           ;
+  +Pl+Dial/Jok:^WG%>i2          gen_tten        ;
+  +Pl+Dial/Jok:%>i2             par_A           ;
+  +Pl+Dial/Jok:%>i2             ess_nA          ;
+  +Pl+Dial/Jok:%>i2             com_ne          ;
+  +Pl+Dial/Jok:^WG%>i2          sgpl_cases_even ;
+
+!Var
+  +Pl+Dial/Var:^WG              nom_t           ;
+  +Pl+Dial/Var:^WG%>i2          gen_tten        ;
+  +Pl+Dial/Var:%>i2             par_A           ;
+  +Pl+Dial/Var:%>i2             ess_nA          ;
+  +Pl+Dial/Var:%>i2             com_ne          ;
+  +Pl+Dial/Var:^WG%>i2          sgpl_cases_even ; 
 
 LEXICON n_21        !!= * @CODE@  opettaaja, karamelli
 n_21_sg ;
