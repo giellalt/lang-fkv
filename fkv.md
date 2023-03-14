@@ -524,6 +524,10 @@ LEXICON n_12          kieli
 
 * LEXICON n_12          for same affix in sg and pl
 
+LEXICON n_12_pl          nuoret
+
+* LEXICON n_12_pl          for same affix in sg and pl
+
 LEXICON n_12_mi        lumi lu
 
 LEXICON n_12_si         vuosi, käsi, hirsi
