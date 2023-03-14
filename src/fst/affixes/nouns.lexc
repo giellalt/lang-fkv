@@ -441,7 +441,7 @@ LEXICON n_11_E2I_pl        !!= @CODE@ sakset, hykset
 
 LEXICON x_11_E2I_pl
   +Pl          :^WG          nom_t           ;
-  +Pl+Dial/Por :%>i2         gen_Vn          ; ! hyksiin
+  +Pl+Dial/Por:%>i2         gen_Vn          ; ! hyksiin
   +Pl+Dial/Jok:^WG%>i2      gen_tten        ; ! hyksitten
   +Pl+Dial/Var:^WG%>i2      gen_tten        ; ! hyksitten
   +Pl+Dial/Por :%>i2         par_V           ; ! hyksii
@@ -1161,6 +1161,24 @@ LEXICON x_12 ! pieni
   +Pl      :%>i2        sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
   !     +Pl:%>i2        gen_Vn          ;
   !    !+Pl:^EDEL       gen_ten         ;
+
+LEXICON n_12_pl        !!= @CODE@  nuoret
++N         :     x_12_pl ;
++N+Sg      :^E2I nom_R   ; ! ^E2I e to i
+
+LEXICON x_12_pl ! nuoret
+  +Pl      :^WG         nom_t           ;
+  +Pl+Dial/Por:%>i2i    gen_n           ;
+  +Pl:                  gen_ten         ; ! kielten, both Por and Var
+  +Pl+Dial/Jok:%>i2    gen_tten        ; ! kielitten, sienitten
+  +Pl+Dial/Var:%>i2    gen_tten        ; ! kielitten, sienitten
+  +Pl+Dial/Por:%>i2     par_V           ; ! kielii, pienii
+  +Pl+Dial/Jok:%>i2    par_A           ; ! kieliä, pieniä
+  +Pl+Dial/Var:%>i2    par_A           ; ! kieliä, pieniä
+  +Pl      :^HMETA      ill_hiin        ;
+  +Pl      :%>i2        ess_nA          ;
+  +Pl      :%>i2        com_ne          ;
+  +Pl      :%>i2        sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
 
 LEXICON n_12_mi       !!= @CODE@ lumi lu
 +N         :   x_12_mi ;
