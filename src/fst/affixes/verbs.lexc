@@ -683,16 +683,16 @@ LEXICON v3_ele_odd !!≈ **@CODE@** kävelä:kävel
 !+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc+Sg+Nom:^WG%>^U K ;
 +V+Act+Ind+Prt+ConNeg+Sg:^WG%>^U K ;
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ; 
++V+Pass+PrfPrc+Sg+Nom:^WG%>t^U K ;
++V+Pass+PrfPrc+Pl+Nom:^WG%>^U%>t K ;
 !+V+Act+PrfPrc:^WG%>^hee PRFPRC_OBL ;
 +V+Act+PrfPrc:^WG%> PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>ee%>v^A K ;
 +V+Act+PrsPrc+Pl+Nom:%>ee%>v^At K ;
 !+V+Act+PrsPrc+Sg+Nom:%>e%>^V%>v^A K ;
 !+V+Act+PrsPrc+Pl+Nom:%>e%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
++V+Pass+PrsPrc+Sg+Nom:^WG%>t^A%>v^A K ;
++V+Pass+PrsPrc+Pl+Nom:^WG%>t^A%>v^At K ;
 +V+Act+Ind+Prs+ConNeg:%>e K ;
 
 !! * aukaista > aukaisemma
@@ -703,11 +703,11 @@ LEXICON v3_ele_odd !!≈ **@CODE@** kävelä:kävel
 +V+Act+Cond+Sg3:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4sim^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
-+V+Act+Cond+Pl3:%>t^WG^A%>i4s K ;
-+V+Pass+Cond:%>t^WG^A%>i4s K ;
++V+Act+Cond+Pl3:^WG%>t^A%>i4s K ;
++V+Pass+Cond:^WG%>t^A%>i4s K ;
 
 +V+Act+Imprt+Sg2:%>e K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++V+Act+Imprt+Pl2:^WG%>kk^A^A K ;
 
 +V+Act+Inf3+Ine:e%>m^Ass^A K ;
 +V+Act+Inf3+Ela:e%>m^Ast^A K ;
