@@ -542,6 +542,8 @@ Rule: **ä:0**
 
 Rule: **ö:0**
 
+Rule: **o:0**
+
 ## Gemination tests
 
 * ★*kuv0a^A0>i2>n^A* (is not standard language)
@@ -678,11 +680,11 @@ Rule: **ö:0**
 * *särk0y>i7s*
 * *särkky>is*
 
-Rule: **ö:0**
+Rule: **o:0**
 
-Rule: **ö:0**
+Rule: **o:0**
 
-Rule: **ö:0**
+Rule: **o:0**
 
 * * *
 
