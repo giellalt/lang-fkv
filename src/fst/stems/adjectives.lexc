@@ -146,6 +146,7 @@ kiva a_11_AO ;
 loiva a_11_A0_A2I ;
 kuiva a_11_A0_A2I ;
 kova a_11_A0_A2I ;
+ehta:ehta a_11_A0_A2I ;
 harva a_11_AO ;
 fakki a_11_i;
 plankki a_11_i ;
@@ -153,6 +154,7 @@ flinkki a_11_i ;
 villi a_11_i ;
 käsipuoli:käsi#puole a_12 ;
 silmäpuoli:silmä#puole a_12 ;
+epähööli:epä#hööli a_11_i ;
 hööli a_11_i ;
 viimi IRTI ;
 himmi a_11 ;
@@ -276,9 +278,6 @@ ultrafioletti a_21 ;
 nekatiivi a_21 ;
 primitiivi a_21 ;
 merkittävä a_21_ae_even ;
-alhainen:alhai a_22_inen ;
-varhainen:varhai a_22_inen ;
-neljenjalkainen:neljenjalkai a_22_inen ;
 latuskainen:latuskai a_22_inen ;
 ohukainen:ohukai a_22_inen ;
 korkukainen:korkukai a_22_inen ;
@@ -340,6 +339,7 @@ pikkurainen:pikkurai a_22_inen ;
 luottavainen:luottavai a_22_inen ;
 uskovainen:uskovai a_22_inen ;
 tradittiinaalinen:tradittiinaali a_22_inen ;
+äkilinen:äkili a_22_inen ;
 rauhalinen:rauhali a_22_inen ;
 histoorialinen:histooriali a_22_inen ;
 historialinen:historiali a_22_inen ;
@@ -716,6 +716,7 @@ oikkeuđenmukainen:oikkeuđenmukai a_22_inen_odd ;
 epäoikheuđenmukainen:epäoikheuđenmukai a_22_inen_odd ;
 reekelinmukainen:reekelinmukai a_22_inen_odd ;
 epäreekelinmukainen:epäreekelinmukai a_22_inen_odd ;
+erinomhainen:erinomhai a_22_inen_odd ;
 maalainen:maalai a_22_inen_odd ;
 ulkomaalainen:ulkomaalai a_22_inen_odd ;
 salainen:salai a_22_inen_odd ;
@@ -775,6 +776,11 @@ nokinen:noki a_22_inen_odd ;
 psykolooginen+Err/Orth:psykolooki a_22_inen_odd ;
 sosiaalinen:sosiaali a_22_inen_odd ;
 maalinen:maali a_22_inen_odd ;
+eriliikainen:eri#liikai a_22_inen_odd ;
+eriseurainen:eri#seurai a_22_inen_odd ;
+alhainen:alhai a_22_inen_odd ;
+varhainen:varhai a_22_inen_odd ;
+neljenjalkainen:neljenjalkai a_22_inen_odd ;
 digitaalinen:digitaali a_22_inen_odd ;
 kolmikielinen:kolmikieli a_22_inen_odd ;
 kaksikielinen:kaksikieli a_22_inen_odd ;
@@ -876,6 +882,7 @@ primitiivinen:primitiivi a_22_inen_odd ;
 positiivinen:positiivi a_22_inen_odd ;
 negatiivinen:negatiivi a_22_inen_odd ;
 pusitiivinen:pusitiivi a_22_inen_odd ;
+epäeffektiivinen:epä#effektiivi a_22_inen_odd ;
 effektiivinen:effektiivi a_22_inen_odd ;
 kivinen:kivi a_22_inen_odd ;
 pilvinen:pilvi a_22_inen_odd ;
@@ -1056,6 +1063,8 @@ biseksuaalinen:biseksuaali a_22_inen_odd ;
 polyseksuaalinen:polyseksuaali a_22_inen_odd ;
 kirjalinen:kirjali a_22_inen ;
 kielelinen:kieleli a_22_inen ;
+eksoottinen:eksootti a_22_inen ;
+eksplisittinen:eksplisitti a_22_inen_odd ;
 arvoinen:arvoi a_22_inen_odd ;
 arktinen:arkti a_22_inen_odd ;
 aromaattinen:aromaatti a_22_inen_odd ;
@@ -1079,7 +1088,6 @@ lyhyt a_x ; ! :lyh
 !vappaa:vapp VANHAA ; ! TODO: vappaa ja vapaa pitää lyödä yhteen. Aili: mitä teemme tämän kans? Grammatiikissa sanotaan ette vapaa oon I-graadi. Silloin "vappaa" ei olisi mahdollista.
 vapaa:vap2 VAPAA ; !
 fantastinen:fantasti a_22_inen_odd ;
-
 
 !----------------------------------------------------------------------------------------------------------------------
 ! Old classification, eira 2007 I think
