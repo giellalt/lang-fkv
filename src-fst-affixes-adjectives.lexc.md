@@ -53,7 +53,7 @@ long_par        ;
 
 * LEXICON a_32_väsynyt  väsyny:väsyn, so far this is the only word ! perfect participle
 
-* LEXICON a_32_nny  hengistynny:hengistynn
+* LEXICON a_32_nny  hengistynny:hengistyn
 
 * LEXICON a_22_excns  = veres
 
