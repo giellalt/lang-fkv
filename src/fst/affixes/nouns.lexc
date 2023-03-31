@@ -659,6 +659,30 @@ LEXICON x_21_odd_oblique
   +Pl      :^WG^A0%>i2      sgpl_cases_odd ; ! TODO any cases here that should have ^AO?
 ! +Pl+Tra:%>i2%>ksi    PxxK           ;
 
+LEXICON n_21_odd_pl !!= * @CODE@  kattoojat
++N         :  x_21_odd_pl ;
+
+
+LEXICON x_21_odd_pl 
+  +Pl          :^WG          nom_t          ;
+  +Pl+Dial/Por:^WG^A0%>i2i     gen_tten       ; ! kajaviitten ! TODO Why WG here and not it par?
+  +Pl+Dial/Jok:^WG^A0%>i2      gen_tten       ; ! kajavitten
+  +Pl+Dial/Var:^WG^A0%>i2      gen_tten       ; ! kajavitten
+  +Pl+Dial/Por:^WG^A0%>i2i        par_tA         ; ! kajaviita
+  +Pl+Dial/Por:^A0%>i2%>i      par_end        ; ! %> i necessary, otherwise a:o NOTwork, kajavii
+  +Pl+Dial/Jok:^A0%>i2%>       par_A          ; ! kajavia
+  +Pl+Dial/Var:^A0%>i2%>       par_A          ; ! kajavia
+!      +Pl+Ill:%^HMETA%>hii n_PxK          ;
+  +Pl      :%^HMETA      ill_hiin       ;
+  +Pl+Dial/Por:^A0%>i2         ess_nnA        ;
+  +Pl+Dial/Jok:^A0%>i2         ess_nnA        ;
+  +Pl+Dial/Var:^A0%>i2         ess_nnA        ;
+  +Pl+Dial/Por:^A0%>i2         com_nne        ;
+  +Pl+Dial/Var:^A0%>i2         com_nne        ;
+  +Pl+Dial/Jok:^A0%>i2         com_nne        ; !Jok loistaava
+  +Pl      :^WG^A0%>i2      sgpl_cases_odd ; ! TODO any cases here that should have ^AO?
+! +Pl+Tra:%>i2%>ksi    PxxK           ;
+
 LEXICON n_21_odd_u
 
 +N         :  x_21_odd_u ;
