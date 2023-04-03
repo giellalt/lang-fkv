@@ -470,6 +470,10 @@ the same affix in sg and pl
 
 * LEXICON x_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
 
+* LEXICON n_11_A0_A2I_pl  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
+
+* LEXICON x_11_A0_A2I_pl  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
+
 LEXICON n_11_E2I         on ovi:ove, joki:joke, hyksi, suomi ! Ei lainasanat
 
 these two lexica for cases with
@@ -584,6 +588,8 @@ LEXICON n_22_s_even   avaruus
 * Konsonanttivartalo: poista -e ja heikko aste
 
 LEXICON n_32_as  rakas, asukas
+
+LEXICON n_32_as_pl  rakas, asukas
 
 LEXICON n_32_ae  kevät
 
