@@ -329,6 +329,30 @@ LEXICON x_11_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which ad
 +Pl+Dial/Jok:^WG^A0^I0%>i2    sgpl_cases_even ; !TODO ^A0 so that i2 (plural) is consistent (not a:i here)
 +Pl+Dial/Var:^WG^A0^I0%>i2    sgpl_cases_even ; !TODO ^A0 so that i2 (plural) is consistent (not a:i here)
 
+LEXICON n_11_A0_A2I_pl !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which adjectives?
++N+Dial/Por :^Por             x_11_A0_A2I_pl ;
++N+Dial/Var :^Var             x_11_A0_A2I_pl ;
++N+Dial/Jok :^Jok             x_11_A0_A2I_pl ;
+
+LEXICON x_11_A0_A2I_pl !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which adjectives?
++Pl         :^WG              nom_t           ;
++Pl+Dial/Por:^A2I%>i2         gen_n           ; ! gen_n         since we have the i
++Pl+Dial/Jok:^WG^A0^I0%>i2    gen_tten        ; ! toolitten. Dialect ! longgenpl, eira 5322, korpus.
++Pl+Dial/Var:^WG^A0^I0%>i2    gen_tten        ; ! toolitten. Dialect ! longgenpl, eira 5322, korpus.
++Pl+Dial/Por:^A2I%>i2         par_end         ; ! for this and gen, add A2I to 0:v context
++Pl+Dial/Jok:^A0^I0%>i2       par_A           ;
++Pl+Dial/Var:^A0^I0%>i2       par_A           ;
++Pl         :^A0^HMETA        ill_hiin        ; ! kuvhiin
++Pl+Dial/Por:^A0%>i2          ess_nA          ;
++Pl+Dial/Jok:^A0^I0%>i2       ess_nA          ; ! no a:o
++Pl+Dial/Var:^A0^I0%>i2       ess_nA          ; ! no a:o
++Pl+Dial/Por:^A0%>i2          com_ne          ;
++Pl+Dial/Jok:^A0^I0%>i2       com_ne          ;
++Pl+Dial/Var:^A0^I0%>i2       com_ne          ;
++Pl+Dial/Por:^WG^A0%>i2       sgpl_cases_even ; !the same affix in sg and pl
++Pl+Dial/Jok:^WG^A0^I0%>i2    sgpl_cases_even ; !TODO ^A0 so that i2 (plural) is consistent (not a:i here)
++Pl+Dial/Var:^WG^A0^I0%>i2    sgpl_cases_even ; !TODO ^A0 so that i2 (plural) is consistent (not a:i here)
+
 
 LEXICON n_11_i ! pappi, tooli, lyhyt vokali, loppuu i:llä
 +N             :             x_11_i     ;
@@ -1608,6 +1632,21 @@ LEXICON x_32_as
   +Sg      :h%>aa        ess_nA             ;
   +Sg      :h%>aa        sgpl_cases_even   ;
 
+  +Pl      :h%>aa        nom_t             ;
+  +Pl      :h%>a%>i2     gen_tten          ; ! asukkhaitten
+  +Pl+Dial/Var:h%>a%>je     gen_n             ; ! rakkhajen
+  +Pl      :h%>a%>i2     par_tA            ; ! asukkhaita
+  +Pl+Dial/Var:h%>a%>j      par_A             ; ! rakkhaja
+  ! +N+Pl+Ess:h%>a%>i2%>na PxxK              ;
+  +Pl      :h%>ai        ill_ssiin         ;
+  +Pl      :h%>aa%>i2    ess_nA             ;
+  +Pl      :h%>a%>i2     com_ne            ;
+  +Pl      :h%>a%>i2     sgpl_cases_even   ;
+
+LEXICON n_32_as_pl !!= @CODE@ rakas, asukas
++N         : x_32_as_pl ;
+
+LEXICON x_32_as_pl
   +Pl      :h%>aa        nom_t             ;
   +Pl      :h%>a%>i2     gen_tten          ; ! asukkhaitten
   +Pl+Dial/Var:h%>a%>je     gen_n             ; ! rakkhajen
