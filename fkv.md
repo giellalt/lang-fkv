@@ -494,6 +494,10 @@ the same affix in sg and pl
 
 * LEXICON x_21_odd   kajava
 
+* LEXICON n_21_A0   opettaaja, tapattuma
+
+* LEXICON x_21_A0   
+
 * LEXICON n_21_odd_pl   kattoojat
 
 * LEXICON n_21_odd_C  lainasanat, fiction
