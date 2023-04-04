@@ -24,7 +24,7 @@ Usheempitavuiset (Ekstrakonsonanttirankaiset?)
 Usheempitavuiset -nen-adjektiivit
 * sininen:sini a_22_inen_odd ; 
 * vestainen:vestai a_22_inen_odd ; 
-* konkreettinen:konkreetti a_22_inen_odd ; 
+* konkreettinen:konkreetti a_22_inen ; 
 
 (Usheempitavuiset) -ton-adjektiivit, Pariton määrä tavuja
 
