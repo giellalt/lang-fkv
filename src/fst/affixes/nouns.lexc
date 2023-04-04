@@ -1518,6 +1518,51 @@ LEXICON x_22 ! tyven
     +Pl      :%>i2         com_nne        ;
     +Pl      :%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
 
+LEXICON n_22_pl !!= @CODE@ tytär:tyttär, taival:taipal
+! Encountered a problem for the dialect trigger order!
+! "e:0 in consonant stems and illative plural"
+! and other all rules want the order to be stem ^Var therest,
+! but in _n_32 (and some other sublexica) we add an e in all
+! conjjugations except in a few (sgnom, and sgpl gen, par).
+
+! Added an e before the dialect triggers, which need to be added to the e:0 rule in twolc,
+! but I think that in the longer run having a uniform structure for this will be better.
+
++N+Dial/Por:e^Por x_22_pl ;
++N+Dial/Var:e^Var x_22_Var_pl ;
++N+Dial/Jok:e^Jok x_22_pl ;
++N+Sg      :^WG  nom_R      ;
+
+
+! tyvenen (ja muut sg) toimii Twolc:ssä mutta ei yamleilla kun kompiloi, miks? katso e:0 twolc:ssä, lisää notes
+LEXICON x_22_pl ! tyven
+  +Pl      :             nom_t          ;
+  +Pl      :^WG          nom_t          ;
+  +Pl+Dial/Por:%>i2%>i      gen_tten       ; ! tyttäriitten
+  +Pl+Dial/Jok:%>i2         gen_tten       ; ! tyttäritten, mutta tyveniitten? TODO checking with Aili
+  +Pl+Dial/Var:%>i2         gen_tten       ; ! tyttäritten, mutta tyveniitten? TODO checking with Aili
+  +Pl+Dial/Por:%>i2         par_V          ; ! tyttärii
+  +Pl+Dial/Por:%>i2%>i      par_tA         ; ! tyttäriitä
+  +Pl+Dial/Jok:%>i2         par_A          ; ! tyttäriä
+  +Pl+Dial/Var:%>i2         par_A          ; ! tyttäriä
+  +Pl      :^HMETA       ill_hiin       ;
+  +Pl      :%>i2         ess_nnA        ;
+  +Pl+Dial/Por:%>i2         com_nne        ;
+  +Pl+Dial/Var:%>i2         com_nne        ;
+  +Pl+Dial/Jok:%>i2         com_nne        ; ! jok: tyveninne
+  +Pl      :%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
+
+  LEXICON x_22_Var_pl ! tyven
+    +Pl      :             nom_t          ;
+    +Pl      :^WG          nom_t          ;
+    +Pl      :%>i2         gen_tten       ; ! tyttäritten, mutta tyveniitten? TODO checking with Aili
+    +Pl      :%>i2         par_A          ; ! tyttäriä
+    +Pl      :^HMETA       ill_hiin       ;
+    +Pl      :%>i2         ess_nnA        ;
+    +Pl      :%>i2         com_nne        ;
+    +Pl      :%>i2         com_nne        ;
+    +Pl      :%>i2         sgpl_cases_odd ; ! hmm, tämä menee pieleen, sg ≠ pl
+
 LEXICON n_22_m !!= @CODE@ elläin elläi yđin ydin
 +N+Dial/Por:^Por x_22_m ;
 +N+Dial/Var:^Var x_22_m ;
@@ -2011,6 +2056,19 @@ LEXICON n_22_inen_pl ! !!= @CODE@ tervheiset tervhei
 +N+Pl      :se%>i2     ess_nnA        ;
 +N+Pl      :s%>i2      com_nne        ; ! TODO onko tässä kaksi nn:ää?
 +N+Pl      :s%>i2      sgpl_cases_odd ; !! the same affix in sg and pl
+
+LEXICON n_22_inen_pl_even ! !!= @CODE@ olympialaiset
++N+Pl      :%>se       nom_t          ;
++N+Pl      :s          gen_ten        ;
++N+Pl+Dial/Por:ss%>i2     par_V          ; ! tervhehissii
++N+Pl+Dial/Por:ss%>i2i    par_tA         ; ! tervhehissiitä
++N+Pl+Dial/Jok:s%>i2      par_A          ; ! tervhehisiä
++N+Pl+Dial/Var:s%>i2      par_A          ; ! tervhehisiä
+!      +N+Pl+Ill:sh%>i2in   K              ;
++N+Pl      :s          ill_hiin       ;
++N+Pl      :se%>i2     ess_nA        ;
++N+Pl      :s%>i2      com_ne        ; ! TODO onko tässä kaksi nn:ää?
++N+Pl      :s%>i2      sgpl_cases_even ; !! the same affix in sg and pl
 
 !LEXICON vanha_nen  !!= @CODE@ on nainen-sanoille
 !  nen_sg ;
