@@ -691,35 +691,35 @@ x_21_A0_nomsg ;
 x_21_A0_oblique ;
 
 LEXICON x_21_A0_nomsg
-  +Sg          :             nom_end              ;
+  +Sg          :             nom_end          ;
 
 LEXICON x_21_A0_oblique 
-  +Sg          :^WG          sgpl_cases_even ;
-  +Sg          :^WG          gen_n_sg       ;
-  +Sg+Dial/Por :             par_V          ;
-  +Sg+Dial/Jok:             par_A          ;
-  +Sg+Dial/Var:             par_A          ;
-  +Sg          :^HMETA       ill_hVVn       ;
-  +Sg          :             ess_nA        ;
+  +Sg          :^WG          sgpl_cases_even  ;
+  +Sg          :^WG          gen_n_sg         ;
+  +Sg+Dial/Por :             par_V            ;
+  +Sg+Dial/Jok:             par_A             ;
+  +Sg+Dial/Var:             par_A             ;
+  +Sg          :^HMETA       ill_hVVn         ;
+  +Sg          :             ess_nA           ;
 
-  +Pl          :^WG          nom_t          ;
+  +Pl          :^WG          nom_t            ;
   +Pl+Dial/Por:^WG^A0%>i2i     gen_tten       ; 
   +Pl+Dial/Jok:^WG^A0%>i2      gen_tten       ; 
   +Pl+Dial/Var:^WG^A0%>i2      gen_tten       ; 
-  +Pl+Dial/Por:^WG^A0%>i2i        par_tA         ; 
+  +Pl+Dial/Por:^WG^A0%>i2i        par_tA      ; 
   +Pl+Dial/Por:^A0%>i2%>i      par_end        ; 
   +Pl+Dial/Jok:^A0%>i2%>       par_A          ; 
   +Pl+Dial/Var:^A0%>i2%>       par_A          ; 
-!      +Pl+Ill:%^HMETA%>hii n_PxK          ;
-  +Pl      :%^HMETA      ill_hiin       ;
-  +Pl+Dial/Por:^A0%>i2         ess_nA        ;
-  +Pl+Dial/Jok:^A0%>i2         ess_nA        ;
-  +Pl+Dial/Var:^A0%>i2         ess_nA        ;
-  +Pl+Dial/Por:^A0%>i2         com_ne        ;
-  +Pl+Dial/Var:^A0%>i2         com_ne        ;
-  +Pl+Dial/Jok:^A0%>i2         com_ne        ; 
-  +Pl      :^WG^A0%>i2      sgpl_cases_even ; 
-! +Pl+Tra:%>i2%>ksi    PxxK           ;
+!      +Pl+Ill:%^HMETA%>hii n_PxK             ;
+  +Pl      :%^HMETA      ill_hiin             ;
+  +Pl+Dial/Por:^A0%>i2         ess_nA         ;
+  +Pl+Dial/Jok:^A0%>i2         ess_nA         ;
+  +Pl+Dial/Var:^A0%>i2         ess_nA         ;
+  +Pl+Dial/Por:^A0%>i2         com_ne         ;
+  +Pl+Dial/Var:^A0%>i2         com_ne         ;
+  +Pl+Dial/Jok:^A0%>i2         com_ne         ; 
+  +Pl      :^WG^A0%>i2      sgpl_cases_even   ; 
+! +Pl+Tra:%>i2%>ksi    PxxK                   ;
 
 LEXICON n_21_odd_pl !!= * @CODE@  kattoojat
 +N         :  x_21_odd_pl ;
