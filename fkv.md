@@ -569,6 +569,8 @@ the same affix in sg and pl
 
 LEXICON n_22  tytär:tyttär, taival:taipal
 
+LEXICON n_22_pl  tytär:tyttär, taival:taipal
+
 LEXICON n_22_m  elläin elläi yđin ydin
 
 LEXICON x_22_m 
@@ -636,6 +638,9 @@ these two lexica for cases with
 the same affix in sg and pl
 
 LEXICON n_22_inen_pl !  tervheiset tervhei
+the same affix in sg and pl
+
+LEXICON n_22_inen_pl_even !  olympialaiset
 the same affix in sg and pl
 
 +N:se   nomgen_px      ;
