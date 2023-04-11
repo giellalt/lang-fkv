@@ -149,6 +149,7 @@ potkeet:potke v2 ;
 sotkeet:sotke v2 ;
 kätkeet:kätke v2 ;
 lukkeet:luke v2 ;
+tukkeet:tuke v2 ;
 immeet:ime v2 ;
 kylppeet:kylpe v2 ;
 lähteet:lähte v2 ; ! TODO tarkista lähti
@@ -422,13 +423,13 @@ vennyyt:veny v2 ;
 viippyyt:viipy v2 ;
 höyryyt:höyry v2 ;
 syöksyyt:syöksy v2 ;
-öksyyt:öksy v2 ;
 kypsyyt:kypsy v2 ;
 kyssyyt:kysy v2 ;
 pyssyyt:pysy v2 ;
 vässyyt:väsy v2 ;
 ehtyyt:ehty v2 ;
 eksyyt:eksy v2 ;
+eksyyt+Err/Orth:öksy v2 ;
 jähtyyt:jähty v2 ;
 synttyyt:synty v2 ;
 kielttyyt:kielty v2 ;
@@ -1081,7 +1082,7 @@ säilyttäät:säilyttä v2_odd ;
 venyttäät:venyttä v2_odd ;
 synnyttäät:synnyttä v2_odd ;
 ärryttäät:ärryttä v2_odd ;
-äärryttäät:äärryttä v2_odd ;
+ärryttäät+Err/Orth:äärryttä v2_odd ;
 pyöryttäät:pyöryttä v2_odd ;
 väsyttäät:väsyttä v2_odd ;
 kypsyttäät:kypsyttä v2_odd ;
@@ -2294,8 +2295,8 @@ demonteerata:demonteera v43 ; ! nowac
 !innmonteerata:innmonteera v43 ; ! nowac
 !påmonteerata:påmonteera v43 ; ! nowac
 konfronteerata:konfronteera v43 ; ! nowac
-funteerata:funteera v43 ;
 hunteerata:hunteera v43 ;
+hunteerata+Err/Orth:funteera v43 ;
 planteerata:planteera v43 ;
 saboteerata:saboteera v43 ; ! nowac
 promoteerata:promoteera v43 ; ! nowac
