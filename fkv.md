@@ -516,6 +516,8 @@ the same affix in sg and pl
 
 * LEXICON n_31_ee          hoppee:hoppe
 
+* LEXICON n_31_yy          revyy
+
 * LEXICON n_31_ii          assii (in Por) kurkkii (in Por)
 
 * LEXICON n_31_ii          for same affix in sg and pl
