@@ -57,6 +57,10 @@ long_par        ;
 
 * LEXICON a_22_excns  = veres
 
+* LEXICON a_22_excns_even  = veres
+
+* LEXICON a_22_excns_mus  = isomus
+
 * LEXICON a_22_inen  varovainen
 
 * LEXICON a_22_inen_odd  sininen
