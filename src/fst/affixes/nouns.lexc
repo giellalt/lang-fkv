@@ -1068,6 +1068,32 @@ LEXICON x_31_ee_oblique
   +Pl      :e%>i2   com_ne          ;
   +Pl      :e%>i2   sgpl_cases_even ;
 
+LEXICON n_31_yy        !!= * @CODE@  revyy
++N+Dial/Por:        x_31_yy            ;
+
+LEXICON x_31_yy ! for Por
+x_31_yy_nomsg ;
+x_31_yy_oblique ;
+
+LEXICON x_31_yy_nomsg 
+  +Sg+Nom:y       K               ;
+!  +Sg+Nom+Err/Orth:%>^WG^A   K    ;
+
+LEXICON x_31_yy_oblique 
+  +Sg      :y       gen_n_sg        ;
+  +Sg+Dial/-Var:y   par_tA          ;
+  +Sg      :y       ill_sseen       ;
+  +Sg      :y       ess_nA          ;
+  +Sg      :y       sgpl_cases_even ;
+
+  +Pl      :y       nom_t           ;
+  +Pl      :y%>i2   gen_tten        ;
+  +Pl      :y%>i2   par_tA          ;
+  +Pl      :y%>i2   ill_ssiin       ;
+  +Pl      :y%>i2   ess_nA          ;
+  +Pl      :y%>i2   com_ne          ;
+  +Pl      :y%>i2   sgpl_cases_even ;
+
 
 LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   +Sg+Nom  :%>^A         K               ; ! valkia
@@ -1128,6 +1154,7 @@ LEXICON n_31_io
 
 !+N+Dial/Por:i           x_31_ii             ; !rauttii, kommentoitu pois koska muitten varianttien nominit saavat por päätteitä 
 +N  :          x_31_io                     ; ! var ja jok rautio
+
   
 LEXICON n_31_asia
 
@@ -1191,6 +1218,7 @@ LEXICON x_31_io ! kurkkiota
   +Pl      :^WG^AO%>i2         ess_nA          ; 
   +Pl      :^WG^AO%>i2         com_ne          ; 
   +Pl      :^WG^AO%>i2         sgpl_cases_even ; 
+
 
   
 LEXICON n_31_uu        !!= * @CODE@  karhuu (in Por) 
