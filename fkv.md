@@ -2768,7 +2768,7 @@ Missing results: aukasevat, Unexpected results: aukasseevat
 * ei+V+Neg: neg ; 
 * saađa:saa v1 ; 
 * vieđä:vie v1 ; 
-* naiđa:nai v1iđa ; 
+* naiđa:nai v1iđa ;
 * voiđa:voi v1iđa ; 
 * uiđa:ui v1iđa ; 
 ...
