@@ -34,7 +34,8 @@ olla: OLLA ;  !!≈ * @CODE@
 ei+V+Neg: neg ;  !!≈ * @CODE@ 
 saađa:saa v1 ;  !!≈ * @CODE@ 
 vieđä:vie v1 ;  !!≈ * @CODE@ 
-naiđa:nai v1iđa ;  !!≈ * @CODE@ 
+naiđa:nai v1iđa ;  !!≈ * @CODE@
+naiđa+V+Inf+Err/Orth:naija v1 ;
 voiđa:voi v1iđa ;  !!≈ * @CODE@ 
 uiđa:ui v1iđa ;  !!≈ * @CODE@ 
 puiđa:pui v1iđa ; !! ...
@@ -528,6 +529,7 @@ oksenuttaat:oksenutta v2_long ;
 muretuttaat:muretutta v2_long ;
 aivastuttaat:aivastutta v2_long ;
 huolestuttaat:huolestutta v2_long ;
+kauhistuttaat:kauhistutta v2_long ;
 
 levventtyyt:levventy v2_odd ;
 ärryynttyyt:ärryynty v2_odd ;
@@ -731,7 +733,8 @@ rauhoittaat:rauhoitta v2_odd ; ! v2_ta_odd
 hajoittaat:hajoitta v2_odd ; ! v2_ta_odd 
 rajoittaat:rajoitta v2_odd ; ! v2_ta_odd 
 rasittaat:rasitta v2_odd ;
-harjoittaat:harjoitta v2_odd ; ! v2_ta_odd 
+harjoittaat:harjoitta v2_odd ; ! v2_ta_odd
+harjoittaat+V+Act+Inf3+Ade+Err/Orth:harjoittamalla K ; 
 kirjoittaat+v1:kirjoitta v2_odd ; ! v2_ta_odd 
 kirjoittaat+v2:kirjotta v2_odd ; ! v2_ta_odd 
 allekirjoittaat:alle#kirjoitta v2_odd ; ! v2_ta_odd 
@@ -889,6 +892,7 @@ pahenttuut:pahentu v2_odd ;
 koventtuut:koventu v2_odd ;
 harjainttuut:harjaintu v2_odd ;
 sekkainttuut:sekkaintu v2_odd ;
+sekkainttuut+V+Pass+Ind+Pre+Err/Orth:sekkainthaan K ;
 likkainttuut:likkaintu v2_odd ;
 erkkainttuut:erkkaintu v2_odd ;
 pillainttuut:pillaintu v2_odd ;
@@ -1352,6 +1356,7 @@ sätheilä:sätheil v3_ele_odd ;
 ylpeilä:ylpeil v3_ele_odd ;
 makkoila:makk2oil v3_ele_odd ;
 rukkoila:rukk2oil v3_ele_odd ;
+rukkoila+V+Act+Inf3+Ade+Err/Orth:rukkoilemalla K ;
 luppoila:lupp2oil v3_ele_odd ;
 muijoila:muijoil v3_ele_odd ;
 pirruila:pirruil v3_ele_odd ;
@@ -1429,6 +1434,7 @@ potkaista:potka v3_aise ;
 puhkaista:puhka v3_aise ;
 päästä:pääs v3_s ;
 rangaista:ranga v3_aise ; ! XXX rangaista ??
+rangaista+V+Pass+PrsPrc+Sg+Nom+Err/Orth:rangaistettaava K ;
 rankaista:ranka v3_aise ; ! XXX rankaista ??
 ratkaista:ratka v3_aise ;
 repäistä:repä v3_ise ;
@@ -2444,6 +2450,8 @@ fasineerata:fasineera v43_odd ;
 kommenteerata:kommenteera v43_odd ;
 kopieerata:kopieera v43_odd ;
 huoata:huok3a v43_odd ;
+suojata:suoja v43_odd ;
+styyrätä:styyrä v43_odd ;
 bloggata:blogga v43_odd ;
 laahata:laaha v43_odd ;
 raahata:raaha v43_odd ;
