@@ -70,6 +70,8 @@ the same affix in sg and pl
 
 * LEXICON x_11_A0_A2I_pl  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
 
+the same affix in sg and pl
+
 LEXICON n_11_E2I         on ovi:ove, joki:joke, hyksi, suomi ! Ei lainasanat
 
 these two lexica for cases with
@@ -83,6 +85,8 @@ LEXICON n_11_E2I_pl         sakset, hykset
 * LEXICON x_11_pl         ! Seems like no adjectives call this?
 
 the same affix in sg and pl
+
+* LEXICON n_21_C  lainasanat, badminton
 
 * LEXICON n_21          opettaaja, karamelli
 
