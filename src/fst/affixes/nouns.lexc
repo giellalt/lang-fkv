@@ -353,6 +353,40 @@ LEXICON x_11_A0_A2I_pl !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which
 +Pl+Dial/Jok:^WG^A0^I0%>i2    sgpl_cases_even ; !TODO ^A0 so that i2 (plural) is consistent (not a:i here)
 +Pl+Dial/Var:^WG^A0^I0%>i2    sgpl_cases_even ; !TODO ^A0 so that i2 (plural) is consistent (not a:i here)
 
+LEXICON n_11_saame
++N             :             x_11_saame     ;
++N+Sg          :             nom_R           ;
++N+Sg          :             nom_end         ;
+
+LEXICON x_11_saame 
+  +Sg: nom_end ;  
+  x_11_saame_i_oblique ; 
+
+LEXICON x_11_saame_i_oblique
+  +Sg+Dial/Por:^Por^WG      gen_n_sg         ;
+  +Sg+Dial/Jok:^Jok^WG      gen_n_sg         ;
+  +Sg+Dial/Var:^Var^WG      gen_n_sg         ;
+  +Sg+Dial/Por:             par_V           ;
+  +Sg+Dial/Jok:             par_A           ;
+  +Sg+Dial/Var:             par_A           ;
+  +Sg          :^HMETA       ill_hVVn        ;
+  +Sg          :             ess_nA          ;
+  +Sg+Dial/Por:^Por^WG      sgpl_cases_even_Por ;
+  +Sg+Dial/Jok:^Jok^WG      sgpl_cases_even ;
+  +Sg+Dial/Var:^Var^WG      sgpl_cases_even ;
+
+  +Pl          :^WG          nom_t           ;
+  +Pl+Dial/Por :%>i2         gen_Vn          ; ! hyksiin
+  +Pl+Dial/Jok:^WG%>i2      gen_tten        ; ! hyksitten
+  +Pl+Dial/Var:^WG%>i2      gen_tten        ; ! hyksitten
+  +Pl+Dial/Por :%>i2         par_V           ; ! hyksii
+  +Pl+Dial/Jok:%>i2         par_A           ; ! hyksiä
+  +Pl+Dial/Var:%>i2         par_A           ; ! hyksiä
+  +Pl          :^EDEL        ill_hiin        ; ! TODO add Twolc description about EDEL ! suomhiin
+  +Pl          :%>i2         ess_nA          ;
+  +Pl          :%>i2         com_ne          ;
+  +Pl          :^WG%>i2      sgpl_cases_even ; !! the same affix in sg and pl
+  !      +Pl+Ill:^EDEL%>hii n_PxK         ; ! TODO add Twolc description about EDEL ! suomhiin
 
 LEXICON n_11_i ! pappi, tooli, lyhyt vokali, loppuu i:llä
 +N             :             x_11_i     ;
@@ -560,6 +594,10 @@ LEXICON x_11_ae_pl
   +Pl+Dial/Var:%>i2             ess_nA          ;
   +Pl+Dial/Var:%>i2             com_ne          ;
   +Pl+Dial/Var:^WG%>i2          sgpl_cases_even ; 
+
+LEXICON n_21_C !!= * @CODE@ lainasanat, badminton
++N+Sg: nom_end ;
++N:i x_21 ;
 
 LEXICON n_21        !!= * @CODE@  opettaaja, karamelli
 n_21_sg ;
