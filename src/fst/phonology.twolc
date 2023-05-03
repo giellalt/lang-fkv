@@ -332,6 +332,7 @@ Rules
                            :Vow :t _ [Vow: - e:] %> i2:i %> :i ; ! värriin, vattiin mut EI vuottiin!!
                            :Vow :t _ e:            %> i7:i Cns ; ! contr verbs
                            :Vow :t _ ä: %> i5: :i %> [m|n]     ; ! superl. mättiin
+                           :Vow :t _ :i  %^AO:0 %>  i2: (%> n) # ; ! mon. äittii, äittiin
  [.#.|#:] Cns:* Vow:+           :t _ a: (%^Por:0) [%> :a| %^AO: %> i2: (%> n) # ] ; ! Only in Por, 0:k kk
  [.#.|#:] Cns:* Vow:+           [t|t2:] _ a: %^Por:0 [%> :a | %^A2I: %> i2: (%> n) #] ;
  [.#.|#:] Cns:+ Vow:+           :t _ i %^AO:0 %> i2: (%> n) # ; ! fati - fattii (monikko)
