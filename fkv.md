@@ -338,6 +338,8 @@ long_par        ;
 
 * LEXICON a_21_odd	 loistaava 
 
+* LEXICON a_31  = pää
+
 * LEXICON a_31_ee	  pimmee, valkkee, kauhhee, hoppee ! TODO sort out nouns and adjectives
 
 * LEXICON a_31_ii   auttii
