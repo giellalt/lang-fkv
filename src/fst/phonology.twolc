@@ -93,7 +93,8 @@ NotEYUF =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø         ;       !!≈ * @CODE@
 NotEYUB =   i i2 i3 i4 i5 i6 i7             a o   å ;       !!≈ * @CODE@
 LNRM     = l n r m ;                                        !!≈ * @CODE@
 ArchiCns = %^N ;                                            !!≈ * @CODE@
-SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!≈ * @CODE@
+SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z 
+             B C D Đ F G H J K L M N P Q R S Š T V W X Z ;  !!≈ * @CODE@
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!≈ * @CODE@
 Segment = Vow Cns ;                                       !!≈ * @CODE@
 Dummy = %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;  !!≈ * @CODE@
