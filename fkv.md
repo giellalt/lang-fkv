@@ -1141,7 +1141,7 @@ Thesemust be escaped (cf morpheme boundaries further down):
 * NotEYUB = i i2 i3 i4 i5 i6 i7 a o å ;
 * LNRM = l n r m ;
 * ArchiCns = %^N ;
-* SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;
+* B C D Đ F G H J K L M N P Q R S Š T V W X Z ;
 * Cns = SurfaceCns ArchiCns p2 t2 k2 ;
 * Segment = Vow Cns ;
 * Dummy = %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;
