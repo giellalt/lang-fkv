@@ -14,6 +14,8 @@ and in a Kven spellchecker.
 [See also older documentation documents](old_documentation.html)
 
 ## Recent meetings
+* 2023:
+  [10.05.23](meetings/230510.html)
 * 2022:
   [11.11.22](meetings/221111.html)
 * 2021: 
