@@ -97,7 +97,7 @@ irtain:irt2ai vanha_a_32m ;
 
 
 hyvä: HYVA ; ! paras on täällä
-paras+A+Sg:paras nom_end ; ! taivutus on hyvä: HYVA ; subleksikosta
+paras:par a_32_paras ; ! taivutus on hyvä: HYVA ; subleksikosta
 ikivanhaa:iki#vanh VANHAA ;
 vanhaa:vanh VANHAA ; ! formerly vanha_a_23, wrong
 turhaa:turh VANHAA ;
