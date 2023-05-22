@@ -523,6 +523,7 @@ pettäät:pettä v2 ;
 syyttäät:syyttä v2 ;
 pyyttäät:pyytä v2_si ;
 löyttäät:löytä v2_si ;
+erkkainuttaat:erkkainutta v2_long ;
 norjalaistaat:norjalaista v2_long ;
 ruiđalaistaat:ruiđalaista v2_long ;
 vahingoittaat:vahingoitta v2_long ;
@@ -2039,7 +2040,6 @@ normaliseerata:normaliseera v43 ; ! nowac
 banaliseerata:banaliseera v43 ; ! nowac
 kanaliseerata:kanaliseera v43 ; ! nowac
 signaliseerata:signaliseera v43 ; ! nowac
-marginaliseerata:marginaliseera v43 ; ! nowac
 kriminaliseerata:kriminaliseera v43 ; ! nowac
 nasjonaliseerata:nasjonaliseera v43 ; ! nowac
 internasjonaliseerata:internasjonaliseera v43 ; ! nowac
@@ -2460,6 +2460,7 @@ juryeerata:juryeera v43 ; ! nowac
 !! puheta:puhke v43_odd ;
 
 arransseerata:arransseera v43_odd ;
+marginaliseerata:marginaliseera v43_odd ;
 reklameerata:reklameera v43_odd ;
 rekryteerata:rekryteera v43_odd ;
 rekistreerata:rekistreera v43_odd ;
@@ -2605,6 +2606,7 @@ kruunata:kruuna v43_odd ;
 pruunata:pruuna v43_odd ;
 suunata:suunta v43_odd ;
 tavata:tapa v43_odd ;
+avata:ava v43_odd ;
 kaivata:kaipa v43_odd ;
 kelvata:kelpa v43_odd ;
 kasvata:kasva v43_odd ;
