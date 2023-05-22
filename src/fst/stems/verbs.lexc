@@ -728,7 +728,8 @@ oksettaat:oksetta v2_odd ; ! v2_ta_odd
 asettaat:asetta v2_odd ; ! v2_ta_odd
 ojittaat:ojitta v2_odd ; ! v2_ta_odd 
 risthiinnaulittaat:risthiin#naulitta v2_odd ;
-valittaat:valitta v2_odd ; ! v2_ta_odd 
+valittaat:valitta v2_odd ; ! v2_ta_odd
+lujittaat:lujitta v2_odd ;
 toimittaat:toimitta v2_odd ; ! v2_ta_odd 
 lumittaat:lumitta v2_odd ; ! v2_ta_odd 
 painittaat:painitta v2_odd ; ! v2_ta_odd 
@@ -2923,6 +2924,7 @@ kyytitä:kyyti v4_itte ;
 kevitä:kevi v4_itte ;
 siivitä:siivi v4_itte ;
 tarvita:tarvi v4_itte ;
+riemuita:riemui v4_itte ;
 tarvita+Err/Orth:tartt2e v2 ; 
 tarvita+Err/Orth:tarvi v2 ; 
 iloita:iloi v4_itte ;
