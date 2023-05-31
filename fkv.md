@@ -376,6 +376,8 @@ long_par        ;
 
 * LEXICON a_32_nny  hengistynny:hengistyn
 
+* LEXICON a_32_nnu  hengistynny:hengistyn
+
 * LEXICON a_22_excns  = veres
 
 * LEXICON a_22_excns_even  = veres
@@ -1051,6 +1053,10 @@ preesensissä ja preterissä.
 **LEXICON v12pers** Only sg12, pl12 so far
 
 **LEXICON PRFPRC_OBL** is without nom sg
+
+**LEXICON PRFPRC_OBL_nny** is without nom sg
+
+**LEXICON PRFPRC_OBL_nnu** is without nom sg
 
 * * *
 
