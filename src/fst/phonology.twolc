@@ -194,7 +194,7 @@ Rules
                         [l|r|n|m]  k _ :i (Dial:) (%^AO:) %>    [%^V:i|i2: (%> n) #] ; ! trenki:trenkkii Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                         [l|r|n|m] :k _ e: (Dial:) %^E2I:0 %> i2: %>   %^V:  ;
                         [l|r|n|m]  k _  i (Dial:)         %> i2: %> t %^A:  ; ! meininkkiitä in Por
-                        [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i]          ;
+                        [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i (%> n) #] ;
                         [l|r|n|m]  k _ :y (Dial:) %> [:y|:i (%> n) #] ;
                         [l|r|n|m]  k _ :u (Dial:) %> [:u|:i (%> n) #] ; ! urkkui mutta urkuina
                         [l|r|n|m]  k _ :o (Dial:) %> [:o|:i (%> n) #] ; 
@@ -476,7 +476,7 @@ k:0 <=>               h _ [Vow: - e:]   (Dummy:) (:i) (Dummy:) %^WG:0      ; !tu
             [i u|a u|y] _ e             (Dummy:) (:i) (Dummy:) %^WG:0      ; !kykenee - kyetä, laukkee - laueta,liuota-liukkee
         [a|e|i|o|y|ä|ö] _  e  n  e:0    [%^Jok:0|%^Var:0]      %^WG:0 (%^T0:0) %^E0:0 ; !ikene- - ien
                ö: [l|r] _ [ö|ä]         (Dummy:) (:i) (Dummy:) %^WG:0      ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
-    [e|i|o|u|y|ä] [l|r] _ [a:|ä:|y|u|o] (Dummy:) (:i) (Dummy:) %^WG:0      ; ! selkä:selän, nälkä:nälän, härkä:härän, yrkä:yrän
+  [e|i|o|u|y|ä|ö] [l|r] _ [a:|ä:|y|u|o] (Dummy:) (:i) (Dummy:) %^WG:0      ; ! selkä:selän, nälkä:nälän, härkä:härän, yrkä:yrän
                a: [l|r] _ [NotEYUB:|u]  (Dummy:) (:i) (Dummy:) %^WG:0      ; ! varas - varkaan, NOT: sylki:syljin
                e  [l|r] _ i (%>)                               %^WG:0 (%>) ; !keritä - kerkkii
               [y|ä]   r _ i:                                   %^WG:0      ; !pyrkkiit - pyrin
