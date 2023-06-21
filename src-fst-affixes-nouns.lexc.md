@@ -106,7 +106,9 @@ the same affix in sg and pl
 
 * LEXICON n_21_oi          Paivukko, perintö, kurkkio
 
-* LEXICON n_21_oi_AO_odd          Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
+* LEXICON n_21_oi_pl          Pahkilot
+
+* LEXICON n_21_oi_AO_odd         Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
 
 * LEXICON n_21_oi_ÄÖ_odd          Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
 
