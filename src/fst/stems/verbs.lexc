@@ -245,6 +245,7 @@ praattiit:praatti v2 ;
 nauttiit:nautti v2 ;
 moittiit:moitti v2 ;
 hättiit:hätti v2 ;
+ylönkattoot:ylön#katt2o v2 ;
 kattoot:katt2o v2 ;
 kerttoot:kerto v2 ;
 lihhoot:liho v2 ;
@@ -296,7 +297,6 @@ vihtoot:vihto v2 ;
 sittoot:sito v2 ;
 vaistoot:vaisto v2 ;
 ylikattoot:ylikatto v2 ;
-ylönkattoot:ylönkatto v2 ;
 viittoot:viitto v2 ;
 hauttoot:hauto v2 ;
 rauttoot:rauto v2 ;
@@ -488,6 +488,7 @@ käänttäät:kääntä v2 ;
 väänttäät:vääntä v2 ;
 kierttäät:kiertä v2 ;
 piirttäät:piirtä v2 ;
+pakkosiirttäät:pakko#siirtä v2 ;
 siirttäät:siirtä v2 ;
 pyörttäät:pyörtä v2 ;
 estäät:estä v2 ;
@@ -574,9 +575,11 @@ langettaat:langetta v2_odd ;
 kartoittaat:kartoitta v2_odd ;
 lahjoittaat:lahjoitta v2_odd ;
 rahoittaat:rahoitta v2_odd ;
+sovittaat:sovitta v2_odd ;
 ulettaat:uletta v2_odd ;
 ulostaat:ulosta v2_odd ;
 osoittaat:osoitta v2_odd ;
+oikkeuttaat:oikkeutta v2_odd ;
 laikottaat:laikotta v2_odd ;
 laikuttaat:laikutta v2_odd ;
 vilkuttaat:vilkutta v2_odd ;
@@ -898,6 +901,7 @@ talmaanttuut:talmaantu v2_odd ;
 laajenttuut:laajentu v2_odd ;
 lujenttuut:lujentu v2_odd ;
 liikuttuut:liikuttu v2_odd ;
+lujittuut:lujittu v2_odd ;
 sekkaanttuut:sekkaantu v2_odd ;
 likkaanttuut:likkaantu v2_odd ;
 erkkaanttuut:erkkaantu v2_odd ;
@@ -932,6 +936,7 @@ hauttoonttuut:hauttoontu v2_odd ;
 kessuunttuut:kessuuntu v2_odd ;
 perruunttuut:perruuntu v2_odd ;
 kumarttuut:kumartu v2_odd ;
+kiinostuut:kiinostu v2_odd ;
 hiljastuut:hiljastu v2_odd ;
 vihastuut:vihastu v2_odd ;
 vilustuut:vilustu v2_odd ;
@@ -993,6 +998,7 @@ hyväksyyt:hyväksy v2_odd ;
 vähäksyyt:vähäksy v2_odd ;
 hivelttyyt:hivelty v2_odd ;
 kätkeenttyyt:kätkeenty v2_odd ;
+vähenttyyt:vähenty v2_odd ;
 essiinttyyt:essiinty v2_odd ;
 likenttyyt:likenty v2_odd ;
 villiinttyyt:villiinty v2_odd ;
@@ -1368,6 +1374,7 @@ näytelä:näyttel v3_ele_odd ;
 röhtelä:röht2el v3_ele_odd ;
 huuđela:huutel v3_ele_odd ;
 palvela:palvel v3_ele_odd ;
+aliarvela:ali#arvel v3_ele_odd ;
 arvela:arvel v3_ele_odd ;
 kirvelä:kirvel v3_ele_odd ;
 kävelä:kävel v3_ele_odd ;
@@ -1537,6 +1544,7 @@ isota:iso v4 ;
 mäđätä:mätä v4 ;
 korjeta:korke v4 ;
 
+inkorporeerata:inkorporeera v43 ;
 fortjeenata:fortjeena v43 ;
 inhibeerata:inhibeera v43 ; ! nowac
 transkribeerata:transkribeera v43 ; ! nowac
@@ -1699,7 +1707,9 @@ flankeerata:flankeera v43 ; ! nowac
 frankeerata:frankeera v43 ; ! nowac
 allokeerata:allokeera v43 ; ! nowac
 rokeerata:rokeera v43 ; ! nowac
-markeerata:markeera v43 ; ! nowac
+demoniseerata:demoniseera v43 ;
+markkeerata:markkeera v43 ;
+markeerata:markeera v43 ;
 parkeerata:parkeera v43 ;
 parkkeerata:parkkeera v43 ;
 maskeerata:maskeera v43 ; ! nowac
@@ -1962,7 +1972,6 @@ marmoreerata:marmoreera v43 ; ! nowac
 panoreerata:panoreera v43 ; ! nowac
 ignoreerata:ignoreera v43 ; ! nowac
 honoreerata:honoreera v43 ; ! nowac
-inkorporeerata:inkorporeera v43 ; ! nowac
 monitoreerata:monitoreera v43 ; ! nowac
 konkurreerata:konkurreera v43 ; ! nowac
 !utkonkurreerata:utkonkurreera v43 ; ! nowac
@@ -1974,6 +1983,7 @@ sentreerata:sentreera v43 ; ! nowac
 kastreerata:kastreera v43 ; ! nowac
 orkestreerata:orkestreera v43 ; ! nowac
 registreerata:registreera v43_odd ; ! nowac
+rekyleerata:rekyleera v43_odd ;
 registreerata:registreera v43_odd ;
 administreerata:administreera v43 ; ! nowac
 demonstreerata:demonstreera v43 ; ! nowac
@@ -2112,7 +2122,6 @@ islamiseerata:islamiseera v43 ; ! nowac
 polemiseerata:polemiseera v43 ; ! nowac
 randomiseerata:randomiseera v43 ; ! nowac
 økonomiseerata:økonomiseera v43 ; ! nowac
-anonymiseerata:anonymiseera v43 ; ! nowac
 urbaniseerata:urbaniseera v43 ; ! nowac
 organiseerata:organiseera v43 ; ! nowac
 reorganiseerata:reorganiseera v43 ; ! nowac
@@ -2126,7 +2135,6 @@ feminiseerata:feminiseera v43 ; ! nowac
 tyranniseerata:tyranniseera v43 ; ! nowac
 ioniseerata:ioniseera v43 ; ! nowac
 koloniseerata:koloniseera v43 ; ! nowac
-demoniseerata:demoniseera v43 ; ! nowac
 harmoniseerata:harmoniseera v43 ; ! nowac
 kanoniseerata:kanoniseera v43 ; ! nowac
 ironiseerata:ironiseera v43 ; ! nowac
@@ -2372,7 +2380,6 @@ kontrasteerata:kontrasteera v43 ; ! nowac
 manifesteerata:manifesteera v43 ; ! nowac
 presteerata:presteera v43 ; ! nowac
 arresteerata:arresteera v43 ; ! nowac
-protesteerata:protesteera v43 ; ! nowac
 attesteerata:attesteera v43 ; ! nowac
 investeerata:investeera v43 ; ! nowac
 reinvesteerata:reinvesteera v43 ; ! nowac
@@ -2476,6 +2483,7 @@ juryeerata:juryeera v43 ; ! nowac
 !! huokata:huokka v43_odd ;
 !! puheta:puhke v43_odd ;
 
+anonymiseerata:anonymiseera v43_odd ;
 arransseerata:arransseera v43_odd ;
 marginaliseerata:marginaliseera v43_odd ;
 reklameerata:reklameera v43_odd ;
@@ -2487,8 +2495,10 @@ fasineerata:fasineera v43_odd ;
 kommenteerata:kommenteera v43_odd ;
 kopieerata:kopieera v43_odd ;
 huoata:huok3a v43_odd ;
+protesteerata:protesteera v43_odd ;
 suojata:suoja v43_odd ;
 styyrätä:styyrä v43_odd ;
+stereotypifiseerata:stereotypifiseera v43_odd ;
 bloggata:blogga v43_odd ;
 laahata:laaha v43_odd ;
 raahata:raaha v43_odd ;
@@ -2520,6 +2530,7 @@ lakata:lakka v43_odd ;
 nakata:nakka v43_odd ;
 pakata:pakka v43_odd ;
 leekata:leekka v43_odd ;
+peekata:peeka v43_odd ;
 pleekata:pleekka v43_odd ;
 haikata:haikka v43_odd ;
 hurrata:hurra v43_odd ;
