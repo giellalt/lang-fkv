@@ -457,7 +457,7 @@ i6:0 <=> _ k: Vow: (Dial:0) %^WG:0 (%^AO:0) ;
 "Gradation k:j"
 !! Rule: **@RULENAME@**
 k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i:]     (Dummy:) (:i) (Dummy:) %^WG:0    ; ! mäki  - mäjen
- [.#.|#:]     Cns     u _ [e:|i:]     (Dummy:) (:i) (Dummy:) %^WG:0    ; ! tuki - tujen
+ [.#.|#:]     Cns     u _ e:          (Dummy:) (:i) (Dummy:) %^WG:0    ; ! tuki - tujen
                       i _ [ö:|o:]     (Dummy:) (:i) (Dummy:) %^WG:0    ; !
                     i6: _ [e:|i|ä|a:] (Dummy:) (:i) (Dummy:) %^WG:0    ; ! poika poha, pojitte
                   [e|i] _ [e:|i|ä:|a:|u]  %^Por:             %^WG:0 (%> i2:i) ; ! aika-aijan (Dummy: before ^WG? !TODO DONE move to k:0 in Var
