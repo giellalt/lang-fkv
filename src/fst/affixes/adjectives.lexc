@@ -543,6 +543,16 @@ LEXICON a_32_nnu !!= * @CODE@ hengistynny:hengistyn
 +A:hee comp_m_odd   ;
 +A:hei superl_m_odd ;
 
+LEXICON a_32_lly !!= * @CODE@ hengistynny:hengistyn
++A: PRFPRC_OBL_lly ;
++A:hee comp_m_odd   ;
++A:hei superl_m_odd ;
+
+LEXICON a_32_llu !!= * @CODE@ hengistynny:hengistyn
++A: PRFPRC_OBL_llu ;
++A:hee comp_m_odd   ;
++A:hei superl_m_odd ;
+
 LEXICON a_22_excns !!= * @CODE@ = veres
 +A:    x_22_excns   ;
 +A:kse comp_m_odd   ;

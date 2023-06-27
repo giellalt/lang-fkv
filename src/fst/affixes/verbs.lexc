@@ -1301,3 +1301,33 @@ LEXICON PRFPRC_OBL_nnu !!≈ **@CODE@** is without nom sg
 +Sg+Ill+Err/Orth:ee ill_sseen    ;
 +Pl+Gen+Err/Orth:ee%>i2 gen_tten ;
 +Pl+Com+Err/Orth:ee%>i2ne K ;
+
+LEXICON PRFPRC_OBL_lly !!≈ **@CODE@** is without nom sg
+! obl_strong_odd ;
+! +Sg:%>i2 com ;
+! +Pl:%>i2 com ;
+!weak_v_stem ;
++Sg+Nom:^ly K ;
++Sg+Par:^ly%>tt^A K ;
+:hee x_32_et_ts_common ;
++Sg+Ill:hee ill_sseen    ;
++Pl+Gen:hee%>i2 gen_tten ;
++Err/Orth:ee x_32_et_ts_common ;
++Sg+Ill+Err/Orth:ee ill_sseen    ;
++Pl+Gen+Err/Orth:ee%>i2 gen_tten ;
++Pl+Com+Err/Orth:ee%>i2ne K ;
+
+LEXICON PRFPRC_OBL_llu !!≈ **@CODE@** is without nom sg
+! obl_strong_odd ;
+! +Sg:%>i2 com ;
+! +Pl:%>i2 com ;
+!weak_v_stem ;
++Sg+Nom:^lu K ;
++Sg+Par:^lu%>tt^A K ;
+:hee x_32_et_ts_common ;
++Sg+Ill:hee ill_sseen    ;
++Pl+Gen:hee%>i2 gen_tten ;
++Err/Orth:ee x_32_et_ts_common ;
++Sg+Ill+Err/Orth:ee ill_sseen    ;
++Pl+Gen+Err/Orth:ee%>i2 gen_tten ;
++Pl+Com+Err/Orth:ee%>i2ne K ;
