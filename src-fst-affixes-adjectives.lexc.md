@@ -61,6 +61,10 @@ long_par        ;
 
 * LEXICON a_32_nnu  hengistynny:hengistyn
 
+* LEXICON a_32_lly  hengistynny:hengistyn
+
+* LEXICON a_32_llu  hengistynny:hengistyn
+
 * LEXICON a_22_excns  = veres
 
 * LEXICON a_22_excns_even  = veres
