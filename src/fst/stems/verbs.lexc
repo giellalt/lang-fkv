@@ -40,6 +40,7 @@ voiđa:voi v1iđa ;  !!≈ * @CODE@
 uiđa:ui v1iđa ;  !!≈ * @CODE@ 
 puiđa:pui v1iđa ; !! ...
 juođa:juo v1 ;
+juođa+V+Inf+Err/Orth:juua K ;
 luođa:luo v1 ;
 suođa:suo v1 ;
 tuođa:tuo v1 ;
@@ -53,6 +54,7 @@ tehđä+Err/Orth:tehhä K ;
 käyđä:kä v1kayda ;
 käyđä+V+Pass+Ind+Prs+Err/Orth:käyään K ;
 nähđä:nä v1nahda ;
+nähđä+V+Act+Ind+Prs+Pl2+Err/Orth:näemä K ;
 nähđä+Err/Orth:nähhä K ; 
 nähđä+Err/Orth:nähjä K ; 
 
@@ -359,6 +361,7 @@ heiluut:heilu v2 ;
 kiiluut:kiilu v2 ;
 huiluut:huilu v2 ;
 kulluut:kulu v2 ;
+valluut:valu v2 ;
 kuuluut:kuulu v2 ;
 sammuut:sammu v2 ;
 painuut:painu v2 ;
@@ -378,7 +381,7 @@ virruut:viru v2 ;
 juoruut:juoru v2 ;
 hauruut:hauru v2 ;
 assuut:asu v2 ;
-assuut+V+Act+Ind+Pl3+Err/Orth:asuva K ;
+assuut+V+Act+Ind+Prs+Pl3+Err/Orth:asuva K ;
 paissuut:paisu v2 ;
 paissuut+V+Inf+Err/Orth:paisuut K ;
 riissuut:riisu v2 ;
@@ -473,6 +476,7 @@ hyyttyyt:hyyty v2 ;
 häyttyyt:häyty v2 ;
 räyttyyt:räyty v2 ;
 täyttyyt+Err/Orth:täyt4y v2 ; ! täytyy
+täyttyyt+V+Inf+Err/Orth:täyttyä v2 ;
 täyttyyt:täyty v2 ;
 löyttyyt:löyty v2 ;
 löyttyyt+V+Act+Ind+Prs+Sg3+Err/Orth:löytyy K ;
@@ -524,9 +528,9 @@ kirisyttäät:kirisyttä v2 ;
 kylläänyttäät:kylläänyttä v2 ;
 tyrmistyttäät:tyrmistyttä v2 ;
 käyttäät:käyttä v2 ;
-käyttäät+V+Act+Ind+Pl3+Err/Orth:käyttävä K ;
+käyttäät+V+Act+Ind+Prs+Pl3+Err/Orth:käyttävä K ;
 näyttäät:näyttä v2 ;
-näyttäät+V+Act+Ind+Pl3+Err/Orth:näyttävä K ;
+näyttäät+V+Act+Ind+Prs+Pl3+Err/Orth:näyttävä K ;
 täyttäät:täyttä v2 ;
 jättäät:jättä v2 ;
 jäättäät:jäättä v2 ;
@@ -591,7 +595,7 @@ sovittaat:sovitta v2_odd ;
 ulettaat:uletta v2_odd ;
 ulostaat:ulosta v2_odd ;
 osoittaat:osoitta v2_odd ;
-osoittaat+V+Act+Ind+Pl3+Err/Orth:osoittava K ;
+osoittaat+V+Act+Ind+Prs+Pl3+Err/Orth:osoittava K ;
 oikkeuttaat:oikkeutta v2_odd ;
 houkuttaat:houkutta v2_odd ;
 laikottaat:laikotta v2_odd ;
@@ -614,6 +618,7 @@ uskalttaat:uskalta v2_odd ; ! v2_ta_odd
 vajelttaat:vajelta v2_odd ; ! v2_ta_odd 
 paskanttaat:paskanta v2_odd ; ! v2_ta_odd 
 paranttaat:paranta v2_odd ; ! v2_ta_odd 
+paranttaat+Err/Orth:parantaa v2_odd ;
 kustanttaat:kustanta v2_odd ; ! v2_ta_odd 
 kostanttaat:kostanta v2_odd ;
 alenttaat:alenta v2_odd ; ! v2_ta_odd
@@ -709,6 +714,7 @@ piirustaat:piirusta v2_odd ; ! v2_ta_odd
 kuorustaat:kuorusta v2_odd ; ! v2_ta_odd 
 vastustaat:vastusta v2_odd ; ! v2_ta_odd 
 mavustaat:mavusta v2_odd ; ! v2_ta_odd 
+avustaat:avusta v2_odd ;
 savvustaat:savvusta v2_odd ; ! v2_ta_odd 
 tarkistaat:tarkista v2_odd ;
 huuđattaat:huuđatt2a v2_odd ;
@@ -965,6 +971,7 @@ opastuut:opastu v2_odd ;
 viisastuut:viisastu v2_odd ;
 raavastuut:raavastu v2_odd ;
 triivastuut:triivastu v2_odd ;
+triivastuut+V+Act+Ind+Prs+Pl3+Err/Orth:triivastuva K ;
 kangistuut:kangistu v2_odd ;
 kauhistuut:kauhistu v2_odd ;
 kankistuut:kankistu v2_odd ;
@@ -1003,6 +1010,10 @@ kovettuut:kovettu v2_odd ;
 rauhoittuut:rauhoittu v2_odd ;
 haavoittuut:haavoittu v2_odd ;
 vieroittuut:vieroittu v2_odd ;
+vatkauttuut:vatkauttu v2_odd ;
+rajoittuut:rajoittu v2_odd ;
+rajoittuut+Err/Orth:rajottuut v2_odd ;
+passauttuut:passauttu v2_odd ;
 ulelttuut:uleltu v2_odd ;
 ulottuut:ulottu v2_odd ;
 lihottuut:lihottu v2_odd ;
@@ -1160,6 +1171,7 @@ yllättäät:yllättä v2_odd ;
 pelättäät:pelättä v2_odd ;
 pölättäät:pölättä v2_odd ;
 herättäät:herättä v2_odd ;
+höyryttäät:höyryttä v2_odd ;
 säpsättäät:säpsättä v2_odd ;
 pysättäät:pysätt2ä v2_odd ;
 viivättäät:viivättä v2_odd ;
@@ -2489,6 +2501,7 @@ promoveerata:promoveera v43 ; ! nowac
 renoveerata:renoveera v43 ; ! nowac
 !totalrenoveerata:totalrenoveera v43 ; ! nowac
 innoveerata:innoveera v43 ; ! nowac
+motooriseerata:motooriseera v43 ;
 tatoveerata:tatoveera v43 ; ! nowac
 serveerata:serveera v43 ;
 observeerata:observeera v43 ; ! nowac
@@ -2581,6 +2594,7 @@ mukata:mukka v43_odd ;
 loukata:loukka v43_odd ;
 pluukata:pluukka v43_odd ;
 pruukata:pruukka v43_odd ;
+pruukata+V+Act+Ind+Prs+Pl3+Err/Orth:pruukaava K ;
 söökata:söökka v43_odd ;
 hengata:henka v43_odd ;
 henkata:henkka v43_odd ;
@@ -2781,6 +2795,7 @@ raivata:raiva v43_odd ;
 vaivata:vaiva v43_odd ;
 veivata:veiva v43_odd ;
 triivata:triiva v43_odd ;
+kirjata:kirja v43_odd ;
 kuivata:kuiva v43_odd ;
 tolvata:tolva v43_odd ;
 luovata:luova v43_odd ;
@@ -2846,6 +2861,7 @@ jällätä:jällä v43_odd ;
 kovota:koko v43_odd ;
 kovota+V+Inf+Err/Orth:koota K ; 
 kovota+V+Pass+Ind+Prt+Err/Orth:koothiin K ; !Oikhein: kovothiin 
+kovota+V+Act+Ind+Prs+Sg3+Err/Orth:kokoaa K ;
 pirskota:pirsko v43_odd ;
 valota:valo v43_odd ;
 nilota:nilo v43_odd ;
@@ -2866,6 +2882,7 @@ truiskuta:truisku v43_odd ;
 tajuta:taju v43_odd ;
 touhuta:touhu v43_odd ;
 haluta:halu v43_odd ;
+haluta+V+Act+Ind+Prs+Pl3+Err/Orth:haluava K ;
 kaluta:kalu v43_odd ;
 hämytä:hämy v43_odd ;
 remuta:remu v43_odd ;
