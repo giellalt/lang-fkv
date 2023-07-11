@@ -110,7 +110,11 @@ the same affix in sg and pl
 
 * LEXICON n_21_oi_AO_odd         Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
 
+* LEXICON n_21_oi_AO_odd_pl         Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
+
 * LEXICON n_21_oi_ÄÖ_odd          Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
+
+* LEXICON n_21_oi_ÄÖ_odd_pl          Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
 
 * LEXICON n_21_oi_AO_even          kuunteliija
 
@@ -207,6 +211,8 @@ LEXICON n_32_is  ruvis, ruumis
 
 LEXICON n_32_et  venet, hyljet, huonet
 
+LEXICON n_32_et_pl  venet, hyljet, huonet
+
 LEXICON n_32_et_2  askel, kyynel, kannel
 
 LEXICON n_32_ut  vantut:vantutta:vantthuut
@@ -216,6 +222,8 @@ LEXICON n_32_ts  kirves
 LEXICON x_32_ts  kirves
 
 these two lexica for cases with
+
+the same affix in sg and pl -- tsekkaa long
 
 the same affix in sg and pl -- tsekkaa long
 
