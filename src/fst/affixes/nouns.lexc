@@ -1052,10 +1052,26 @@ LEXICON n_21_oi_AO_odd       !!= * @CODE@  Mustikka, kulkkiija, sivakka, asia (i
 +N         : x_21_oi_AO ;
 +N+Pl      :^AO^HMETA          ill_hVin        ;
 
+LEXICON n_21_oi_AO_odd_pl       !!= * @CODE@  Mustikka, kulkkiija, sivakka, asia (in Var) ! Loppuu a:han!!!!
++N         : x_21_oi_AO_pl ;
++N+Pl      :^AO^HMETA          ill_hVin        ;
+
 LEXICON n_21_oi_ÄÖ_odd        !!= * @CODE@  Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
 +N         : x_21_oi_AO ;
 +N+Pl      :^AO^HMETA          ill_höin        ;
 
+LEXICON n_21_oi_ÄÖ_odd_pl        !!= * @CODE@  Kynttilä, tekkiijä, jyrinä - Loppuu ä:hän!!!!
++N         : x_21_oi_AO_pl ;
++N+Pl      :^AO^HMETA          ill_höin        ;
+
+LEXICON x_21_oi_AO_pl            ! odd
+  +Pl      :^WG                nom_t           ;
+  +Pl      :^WG^AO%>i2         gen_tten        ;
+  +Pl      :^WG^AO%>i2         par_tA          ; 
+  +Pl      :^WG^AO%>i2         ess_nA          ; 
+  +Pl      :^WG^AO%>i2         com_ne          ; 
+  +Pl      :^WG^AO%>i2         sgpl_cases_even ;
+  
 LEXICON x_21_oi_AO            ! odd
   +Sg      :                   nom_end         ;
   +Pl      :^WG                nom_t           ;
@@ -1923,6 +1939,16 @@ LEXICON x_32_et
 
            :hee         x_32_et_ts_common ;
 
+LEXICON n_32_et_pl !!= @CODE@ venet, hyljet, huonet
++N         :   x_32_et_pl ;
+
+LEXICON x_32_et_pl
+  +Pl+Dial/Var:he%>je      gen_n          ; ! venhejen
+  +Pl+Dial/Var:he%>j       par_A          ; ! venhejä
+  +Pl      :hee%>i2     com_ne         ;
+
+           :hee         x_32_et_ts_common_pl ;
+
 LEXICON n_32_et_2 !!= @CODE@ askel, kyynel, kannel
 +N         :   x_32_et2 ;
 
@@ -1974,6 +2000,16 @@ LEXICON x_32_et_ts_common
   +Sg      :         ess_nA          ;
   +Sg      :         sgpl_cases_even ; !! these two lexica for cases with
 
+  +Pl      :         nom_t           ;
+  +Pl      :%>i2     gen_tten        ;
+  +Pl      :%>i2     par_tA          ;
+  +Pl      :%>i2     ill_ssiin       ;
+  +Pl      :%>i2     ess_nA          ;
+  +Pl      :%>i2     com_ne          ;
+  +Pl      :%>i2     sgpl_cases_even ; !! the same affix in sg and pl -- tsekkaa long
+      ! +Pl+Ill:heissiin K               ;
+
+LEXICON x_32_et_ts_common_pl
   +Pl      :         nom_t           ;
   +Pl      :%>i2     gen_tten        ;
   +Pl      :%>i2     par_tA          ;
