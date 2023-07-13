@@ -494,6 +494,7 @@ vettäät:vetä v2 ;
 ittäät:itä v2 ;
 uuđestipittäät:uuđesti#pitä v2 ;
 uuđestipittäät+V+Act+Ind+Prt+Pl3+Err/Orth:uuestipiethiin K ;
+ylläpittäät:yllä#pitä v2 ;
 pittäät:pitä v2 ;
 kielttäät:kieltä v2 ;
 kiilttäät:kiiltä v2 ;
@@ -842,6 +843,8 @@ helpottaat:helpotta v2_odd ; ! v2_ta_odd
 upottaat:upotta v2_odd ; ! v2_ta_odd 
 varottaat:varotta v2_odd ; ! v2_ta_odd 
 varoittaat:varoitta v2_odd ;
+sijoittaat:sijoitta v2_odd ;
+sijoittaat+V+Inf+Err/Orth:sijottaa K ;
 eroittaat:eroitta v2_odd ; ! v2_ta_odd 
 erottaat:erotta v2_odd ; ! v2_ta_odd 
 terottaat:terotta v2_odd ; ! v2_ta_odd 
@@ -1064,6 +1067,7 @@ elästyyt:elästy v2_odd ;
 kyllästyyt:kyllästy v2_odd ;
 pelästyyt:pelästy v2_odd ;
 pölästyyt:pölästy v2_odd ;
+heikenttäät:heikentä v2_odd ;
 hämmästyyt:hämmästy v2_odd ;
 teknilistyyt:teknilisty v2 ;
 kylmettyyt:kylmetty v2_odd ;
@@ -1092,6 +1096,7 @@ tyhventtäät:tyhventä v2_odd ;
 piđenttäät:piđentä v2_odd ;
 pimmeinttäät:pimmeintä v2_odd ;
 ymmärttäät:ymmärtä v2_odd ;
+ymmärttäät+V+Inf+Err/Orth:ymmärtää K ;
 järjestäät:järjestä v2_odd ;
 virkistäät:virkistä v2_odd ;
 virnistäät:virnistä v2_odd ;
@@ -2256,7 +2261,6 @@ balanseerata:balanseera v43 ; ! nowac
 relanseerata:relanseera v43 ; ! nowac
 distanseerata:distanseera v43 ; ! nowac
 avanseerata:avanseera v43 ; ! nowac
-nyanseerata:nyanseera v43 ; ! nowac
 kondenseerata:kondenseera v43 ; ! nowac
 kompenseerata:kompenseera v43 ; ! nowac
 dispenseerata:dispenseera v43 ; ! nowac
@@ -2642,6 +2646,7 @@ syklata:sykla v43_odd ;
 killata:killa v43_odd ;
 grillata:grilla v43_odd ;
 krillata:krilla v43_odd ;
+nyanseerata:nyanseera v43_odd ;
 trillata:trilla v43_odd ;
 rullata:rulla v43_odd ;
 troolata:troola v43_odd ;
@@ -2884,6 +2889,7 @@ upota:uppo v43_odd ;
 kirota:kiro v43_odd ;
 kuurota:kuurto v43_odd ;
 kađota:kato v43_odd ;
+kađota+V+Act+Inf3+Ine+Err/Orth:katoamassa K ;
 pađota:pato v43_odd ;
 paastota:paasto v43_odd ;
 vaistota:vaisto v43_odd ;
