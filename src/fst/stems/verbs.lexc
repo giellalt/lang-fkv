@@ -311,8 +311,9 @@ viittoot:viitto v2 ;
 hauttoot:hauto v2 ;
 rauttoot:rauto v2 ;
 kuttoot:kuto v2 ;
-kuttoot+V+Act+Ind+Prs+Pl3+Err/Orth:kuothiin K ;
+kuttoot+V+Act+Ind+Prt+Pl3+Err/Orth:kuothiin K ;
 toivoot:toivo v2 ;
+toivoot+V+Act+Ind+Prs+Pl3+Err/Orth:toivova K ;
 valvoot:valvo v2 ; ! -v ei geminoidu tässä koska ennen sitä oon pitkä tavu. 
 ulvoot:ulvo v2 ; !  -v ei geminoidu tässä koska ennen sitä oon pitkä tavu.
 salvoot:salvo v2 ;
@@ -557,6 +558,8 @@ erkkainuttaat:erkkainutta v2_long ;
 norjalaistaat:norjalaista v2_long ;
 ruiđalaistaat:ruiđalaista v2_long ;
 vahingoittaat:vahingoitta v2_long ;
+vahingoittaat+V+Inf+Err/Orth:vahingottaa K ;
+vahingoittaat+V+Inf+Err/Orth:vahinkoittaat K ;
 kunnioittaat:kunnioitta v2_long ;
 happanuttaat:happanutta v2_long ;
 paranuttaat:paranutta v2_long ;
@@ -1401,6 +1404,7 @@ kastela:kastel v3_ele_odd ;
 haistela:haistel v3_ele_odd ;
 maistela:maistel v3_ele_odd ;
 taistela:taistel v3_ele_odd ;
+taistela+V+Act+Ind+Prs+Pl3+Err/Orth:taisteleva K ;
 kiistelä:kiistel v3_ele_odd ;
 pistelä:pistel v3_ele_odd ;
 luistela:luistel v3_ele_odd ;
@@ -1926,7 +1930,6 @@ vaksineerata:vaksineera v43 ; ! nowac
 hallusineerata:hallusineera v43 ; ! nowac
 gratineerata:gratineera v43 ; ! nowac
 ruineerata:ruineera v43 ; ! nowac
-kondemneerata:kondemneera v43 ; ! nowac
 abonneerata:abonneera v43 ; ! nowac
 resonneerata:resonneera v43 ; ! nowac
 doneerata:doneera v43 ; ! nowac
@@ -2009,7 +2012,6 @@ immigreerata:immigreera v43 ; ! nowac
 aspireerata:aspireera v43 ; ! nowac
 inspireerata:inspireera v43 ; ! nowac
 konspireerata:konspireera v43 ; ! nowac
-rekvireerata:rekvireera v43 ; ! nowac
 massakreerata:massakreera v43 ; ! nowac
 perforeerata:perforeera v43 ; ! nowac
 dekoreerata:dekoreera v43 ; ! nowac
@@ -2973,6 +2975,7 @@ lisätä:lisä v43_odd ;
 kryssätä:kryssä v43_odd ;
 prässätä:prässä v43_odd ;
 löysätä:löysä v43_odd ;
+ryötätä:ryöttä v43_odd ;
 pyntätä:pynttä v43_odd ;
 präntätä:pränttä v43_odd ;
 päntätä:pänttä v43_odd ;
@@ -2985,7 +2988,10 @@ väävätä:väävä v43_odd ;
 ryövätä:ryövä v43_odd ;
 pröövätä:pröövä v43_odd ;
 aalota:aalto v43_odd ;
+kondemneerata:kondemneera v43_odd ;
 liuota:liuko v43_odd ;
+plaanata:plaana v43_odd ;
+rekvireerata:rekvireera v43_odd ;
 
 ansaita:ansai v4_itte ;
 havaita:havai v4_itte ;
