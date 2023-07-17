@@ -587,6 +587,7 @@ liikahtaat:liikahta v2_odd ;
 joukahtaat:joukahta v2_odd ;
 sukalttaat:sukalta v2_odd ;
 ammelttaat:ammelta v2_odd ;
+keventtäät:keventä v2_odd ;
 pelastaat:pelasta v2_odd ;
 sairastaat:sairasta v2_odd ;
 tallustaat:tallusta v2_odd ;
@@ -972,6 +973,7 @@ perruunttuut:perruuntu v2_odd ;
 kumarttuut:kumartu v2_odd ;
 kiinostuut:kiinostu v2_odd ;
 hiljastuut:hiljastu v2_odd ;
+puristuut:puristu v2_odd ;
 vihastuut:vihastu v2_odd ;
 vilustuut:vilustu v2_odd ;
 lakastuut:lakastu v2_odd ;
@@ -1139,6 +1141,7 @@ lämmittäät:lämmittä v2_odd ;
 kiinittäät:kiinittä v2_odd ;
 kärjittäät:kärjittä v2_odd ;
 jännittäät:jännittä v2_odd ;
+jäljittäät:jäljittä v2_odd ;
 liepittäät:liepittä v2_odd ;
 piipittäät:piipittä v2_odd ;
 vierittäät:vierittä v2_odd ;
@@ -1577,6 +1580,7 @@ valjeta:valke v4 ;
 seljetä:selke v4 ;
 souketa:soukke v4 ;
 tarjeta:tarke v4 ;
+aueta:auke v4 ;
 kyetä:kyke v4 ;
 pehmetä:pehme v4 ;
 kuumeta:kuume v4 ;
@@ -2284,7 +2288,6 @@ trakasseerata:trakasseera v43 ; ! nowac
 !innkasseerata:innkasseera v43 ; ! nowac
 plasseerata:plasseera v43 ; ! nowac
 !innplasseerata:innplasseera v43 ; ! nowac
-masseerata:masseera v43 ; ! nowac
 passeerata:passeera v43 ; ! nowac
 dresseerata:dresseera v43 ; ! nowac
 adresseerata:adresseera v43_odd ; ! nowac
@@ -2700,6 +2703,7 @@ tapata:tappa v43_odd ;
 sliipata:sliippa v43_odd ;
 tipata:tippa v43_odd ;
 krampata:kramppa v43_odd ;
+masseerata:masseera v43 ;
 pumpata:pumppa v43_odd ;
 kopata:koppa v43_odd ;
 topata:toppa v43_odd ;
@@ -2852,7 +2856,6 @@ noveta:nope v43_odd ;
 ruveta:rupe v43_odd ;
 katketa:katke v43_odd ;
 ratketa:ratke v43_odd ;
-aueta:auke v43_odd ;
 laueta:lauke v43_odd ;
 liueta:liuke v43_odd ;
 revetä:repe v43_odd ;
