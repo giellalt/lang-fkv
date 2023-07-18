@@ -480,6 +480,8 @@ the same affix in sg and pl
 
 * LEXICON x_11_AO  sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
 
+* LEXICON x_11_AO_pl  sanat
+
 * LEXICON n_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
 
 * LEXICON x_11_A0_A2I  kuva - kuvissa, poika - pojissa ! TODO which adjectives?
