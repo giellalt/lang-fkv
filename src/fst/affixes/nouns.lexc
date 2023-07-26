@@ -2214,6 +2214,10 @@ LEXICON n_22_inen_pl_even ! !!= @CODE@ olympialaiset
 +N+Pl      :s%>i2      com_ne        ; ! TODO onko tässä kaksi nn:ää?
 +N+Pl      :s%>i2      sgpl_cases_even ; !! the same affix in sg and pl
 
+LEXICON n_32_nu !  !!= @CODE@ oppinu
++N+Sg       : nom_u ;
++N: PRFPRC_OBL ;
+
 !LEXICON vanha_nen  !!= @CODE@ on nainen-sanoille
 !  nen_sg ;
 !  nen_pl ;

@@ -534,21 +534,25 @@ LEXICON a_32_väsynyt !!= * @CODE@ väsyny:väsyn, so far this is the only word 
 +A:hei superl_m_even ;
 
 LEXICON a_32_nny !!= * @CODE@ hengistynny:hengistyn
++A+Sg       : nom_ny ;
 +A: PRFPRC_OBL_nny ;
 +A:hee comp_m_odd   ;
 +A:hei superl_m_odd ;
 
-LEXICON a_32_nnu !!= * @CODE@ hengistynny:hengistyn
+LEXICON a_32_nnu !!= * @CODE@ ravistunnu:ravistun
++A+Sg       : nom_nu ;
 +A: PRFPRC_OBL_nnu ;
 +A:hee comp_m_odd   ;
 +A:hei superl_m_odd ;
 
-LEXICON a_32_lly !!= * @CODE@ hengistynny:hengistyn
+LEXICON a_32_lly !!= * @CODE@ käsitelly:käsitel
++A+Sg       : nom_ly ;
 +A: PRFPRC_OBL_lly ;
 +A:hee comp_m_odd   ;
 +A:hei superl_m_odd ;
 
-LEXICON a_32_llu !!= * @CODE@ hengistynny:hengistyn
+LEXICON a_32_llu !!= * @CODE@ tervettullu:tervet#tul
++A+Sg       : nom_lu ;
 +A: PRFPRC_OBL_llu ;
 +A:hee comp_m_odd   ;
 +A:hei superl_m_odd ;
