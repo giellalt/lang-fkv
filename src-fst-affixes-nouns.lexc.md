@@ -257,6 +257,8 @@ the same affix in sg and pl
 LEXICON n_22_inen_pl_even !  olympialaiset
 the same affix in sg and pl
 
+LEXICON n_32_nu !   oppinu
+
 +N:se   nomgen_px      ;
 
 make+N+Pl+kom:sine K              ;

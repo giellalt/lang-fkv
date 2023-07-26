@@ -59,11 +59,11 @@ long_par        ;
 
 * LEXICON a_32_nny  hengistynny:hengistyn
 
-* LEXICON a_32_nnu  hengistynny:hengistyn
+* LEXICON a_32_nnu  ravistunnu:ravistun
 
-* LEXICON a_32_lly  hengistynny:hengistyn
+* LEXICON a_32_lly  käsitelly:käsitel
 
-* LEXICON a_32_llu  hengistynny:hengistyn
+* LEXICON a_32_llu  tervettullu:tervet#tul
 
 * LEXICON a_22_excns  = veres
 
