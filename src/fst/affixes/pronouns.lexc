@@ -61,7 +61,7 @@ LEXICON 123pronpl  !!= @CODE@
 +Gen:iđän K ; !!đ
 +Gen+Err/Orth:än K ; ! ?? meän, heän, ...
 +Gen+Err/Orth:ijän K ; ! meijän, heijän ... 
-+Ill:ihiin K ;
++Ill:ihin K ;
 +Par:itä K ;
 +Ess:inä    K ;
 +Tra:iksi   K ;
@@ -92,7 +92,7 @@ LEXICON se_pron
 LEXICON netpronpl
 +Nom:et K ;
 +Gen:iitten K ;
-+Ill:iihiin K ;
++Ill:iihin K ;
 +Ela:iistä   K ;
 +Ine:iissä	K ;
 +Par:iitä	K ;
@@ -511,8 +511,21 @@ LEXICON kummoi_kvant
 +Tra:seksi   K ;
 +Ine:sessa   K ;
 +Ela:sesta   K ;
-+All:sele    K ;
-+Ade:sela    K ;
++All:selle    K ;
++Ade:sella    K ;
++Abl:selta   K ;
+
+LEXICON kumpai_kvant
++Nom:nen       K ;
++Gen:sen    K ;
++Ill:sheen  K ;
++Par:sta   K ;
++Ess:sena    K ;
++Tra:seksi   K ;
++Ine:sessa   K ;
++Ela:sesta   K ;
++All:selle    K ;
++Ade:sella    K ;
 +Abl:selta   K ;
 
 LEXICON minkalai_kvant 

@@ -927,6 +927,40 @@ LEXICON x_21_odd_oi
 +Pl+Dial/Var:^Var^WG^AO%>i2          sgpl_cases_even ; !the same affix in sg and pl
 
 
+LEXICON n_21_par_oi  ! For nouns that ends in -o and get special gemination in pl partitive and where only -i is added to the plural stem. We might have to change pl par when we find out is it "perinttöi, perintöitä or perinöitä". 
+
++N         :  x_21_par_oi ;
+
+LEXICON x_21_par_oi
+
++Sg:                    nom_R           ;
++Sg:                    nom_end         ;
++Sg+Dial/Por:^Por^WG    gen_n_sg        ;
++Sg+Dial/Var:^Var^WG    gen_n_sg        ;
++Sg+Dial/Por:           par_V           ;
++Sg+Dial/Var:^Var       par_A           ;
+!+Sg+Dial/Jok:^Jok       par_A           ;
++Sg:^HMETA              ill_hVVn        ;
++Sg:                    ess_nnA          ;
++Sg+Dial/Por:^Por^WG    sgpl_cases_even ; !to sgpl_cases_even for cases with
++Sg+Dial/Var:^Var^WG    sgpl_cases_even ; !to sgpl_cases_even for cases with
+
++Pl+Dial/Por:^Por^WG              nom_t           ;
++Pl+Dial/Var:^Var^WG              nom_t           ;
+!+Pl+Dial/Jok:^Jok^WG^AO%>i2      gen_tten        ;
++Pl+Dial/Var:^Var^WG^AO%>i2       gen_tten        ;
++Pl+Dial/Por:^Por^WG^AO%>i2       gen_tten        ;
++Pl+Dial/Por:^Por^WG^A0%>i2       par_tA         ;
++Pl+Dial/Por:%>i2                 par_end         ;
+!+Pl+Dial/Jok:^Jok^AO%>j          par_A           ; ! Use i:j in twolc j, see below
++Pl+Dial/Var:^Var^AO%>i2          par_tA           ;
++Pl:^HMETA                     ill_hVin        ; ! sykshyin
++Pl:%>i2                          ess_nA          ;
++Pl:%>i2                          com_ne          ;
++Pl+Dial/Por:^Por^WG%>i2          sgpl_cases_even ; !the same affix in sg and pl
++Pl+Dial/Var:^Var^WG^AO%>i2          sgpl_cases_even ; !the same affix in sg and pl
+
+
 
 LEXICON n_21_odd_C !!= * @CODE@ lainasanat, fiction
 +N+Sg: nom_end ;
