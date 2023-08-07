@@ -548,7 +548,8 @@ löyttyyt+V+Act+Ind+Prs+Sg3+Err/Orth:löytyy K ;
 häättyyt:hääty v2 ;
 häättyyt+V+Act+Ind+Prs+Sg3+Err/Orth:häätyy K ;
 jäättyyt:jääty v2 ;
-päättyyt:pääty v2 ;
+päättyyt+Hom1:pääty v2 ;
+päättyyt+Hom2:päätty v2 ;
 hyöttyyt:hyöty v2 ;
 elläät:elä v2 ;
 pieksäät:pieksä v2 ;
@@ -666,12 +667,14 @@ aivastaat:aivasta v2_odd ;
 kolistaat:kolista v2_odd ;
 tođistaat:tođista v2_odd ;
 rukattaat:rukatta v2_odd ;
+vuođattaat:vuođatta v2_odd ;
 kasvattaat:kasvatta v2_odd ;
 juovattaat:juovatta v2_odd ;
 langettaat:langetta v2_odd ;
 kartoittaat:kartoitta v2_odd ;
 lahjoittaat:lahjoitta v2_odd ;
 rahoittaat:rahoitta v2_odd ;
+avittaat:avitta v2_odd ;
 sovittaat:sovitta v2_odd ;
 ulettaat:uletta v2_odd ;
 ulostaat:ulosta v2_odd ;
@@ -888,12 +891,14 @@ koroittaat:koroitta v2_odd ; ! v2_ta_odd
 mullittaat:mullitta v2_odd ;
 haavoittaat:haavoitta v2_odd ; ! v2_ta_odd 
 virvoittaat:virvoitta v2_odd ;
+virvoittaat+V+Inf+Err/Orth:virvottaa K ;
 ehđoittaat:ehđoitta v2_odd ;
 rauđoittaat:rauđoitta v2_odd ;
 kaupittaat:kaupitta v2_odd ; ! v2_ta_odd 
 kuorittaat:kuoritta v2_odd ; ! v2_ta_odd 
 kurittaat:kuritta v2_odd ; ! v2_ta_odd 
 esittäät:esittä v2_odd ;
+esittäät+V+Act+Ind+Prs+Pl3+Err/Orth:esittävä K ;
 hypittäät:hypittä v2_odd ;
 vesittäät:vesittä v2_odd ;
 huvittaat:huvitta v2_odd ; ! v2_ta_odd 
@@ -1164,6 +1169,7 @@ pölästyyt:pölästy v2_odd ;
 heikenttäät:heikentä v2_odd ;
 hämmästyyt:hämmästy v2_odd ;
 teknilistyyt:teknilisty v2 ;
+yhtäläistyyt:yhtäläisty v2 ;
 kylmettyyt:kylmetty v2_odd ;
 menettyyt:menett2y v2_odd ;
 erettyyt:erett2y v2_odd ;
@@ -2862,6 +2868,7 @@ komenteerata:komenteera v43_odd ;
 averteerata:averteera v43_odd ;
 aresteerata:aresteera v43_odd ;
 kongrueerata:kongrueera v43_odd ;
+följätä:följä v43_odd ;
 tierata:tiera v43_odd ;
 uhrata:uhra v43_odd ;
 laakrata:laakra v43_odd ;
