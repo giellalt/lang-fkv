@@ -2366,9 +2366,20 @@ LEXICON nom_n
 LEXICON nom_u
  +Nom:u K ;
 
+LEXICON nom_nu ! LEXICON a_32_nnu ravistunnu:ravistun
+ +Nom:nu K ;
+
+LEXICON nom_lu
+ +Nom:lu K ;
+
 LEXICON nom_y
  +Nom:y K ;
 
+LEXICON nom_ny
+ +Nom:ny K ;
+
+LEXICON nom_ly
+ +Nom:ly K ;
 
 LEXICON gen_n_sg ! Only with sg and general separate, because of R! This is exception!
   gen_n         ; ! why not go from R -> K, then we don't have to write twice
