@@ -217,6 +217,7 @@ Rules
         [.#.|#:] Cns:* Vow l _ ö %> :ö ;
         [.#.|#:] Cns:* Vow l _ i (Dial:) (%^AO:0) %> :i (%> n) # ; 
         [.#.|#:] Cns:* Vow l _ y %> [:y|i2: (%> n) #] ;
+                 Cns   Vow l _ y [%> %^V: | %> i2: (%> t %^A:) #] ; ! tervettellyy, tervettellyi
         [.#.|#:] Cns:* Vow l _ u %> [:u|i2: (%> n) #] ;
                  Cns   Vow l _ u [%> %^V: | %> i2: (%> t %^A:) #] ; ! vaihettelluu, vaihettellui
         [.#.|#:] Cns:* Vow l _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ; ! ala alloi, alloin (mutta ei alloina)
@@ -225,6 +226,7 @@ Rules
         [.#.|#:] Cns:* Vow l _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow l _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:* Vow l _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
+
 
 "Gemination 0:m"
 !! Rule: **@RULENAME@**
@@ -467,6 +469,7 @@ k:j <=> [a|ä|æ|e|i|i6:] _ [e:|i:]     (Dummy:) (:i) (Dummy:) %^WG:0    ; ! mä
  [.#.|#:]   Cns [o|u] l _  i   %^Por: %^WG:0                           ; ! polki-poljin
  [.#.|#:]     Cns [o|u] _  e:         %^WG:0                           ; ! lukkeet  - lujen
  [.#.|#:]         j a   _  a:     %^WG:0 ([%^AO:|%^AE:]) (%>) (i3:) (%>)  ; ! jakkaat:jajan
+ [.#.|#:]       k i i   _  a:     %^WG:0 ([%^AO:|%^AE:]) (%>) (i3:) (%>)  ; ! kiikkaat:kiijan
  [.#.|#:]     Cns Vow i _  u      %^WG:0 ([%^AO:|%^AE:]) (%>) (i3:) (%>)  ; ! kaikkuut:kaijun
                       h _  e:         (Dummy:) (:i) (Dummy:) %^WG:0       ; ! vehke- - vehjet, lohke- lohjeta, puhke- puhjeta
 
@@ -1178,7 +1181,7 @@ a:o <=> [#:|.#.] Cns:* UnroundedVow ([u|i|e|a]) (Cns:*) (Vow:*) Cns:+ (:Cns) _ (
 
 "ä:ö before Pl i"
 !! Rule: **@RULENAME@**
-ä:ö <=>  Cns: FrontVow+ Cns:+ Vow:+ ([j|k :0|l|n]) _ (Dial:) (%^WG:0) %^AO: %> i2: ; ! kynttilöitä, tekkiijöitä, peniköitä
+ä:ö <=>  Cns: FrontVow+ Cns:+ Vow:+ ([j|k :0|l|n]) (t:0) _ (Dial:) (%^WG:0) %^AO: %> i2: ; ! kynttilöitä, tekkiijöitä, peniköitä
 
 ! Sitte vartalon loppuvokaali muuttu o:ksi, kun vartalon alussa on a-, e- tai i- (ei pyöreä vokaali)
 ! , esimerkiksi reuna: reunhoin, aika:aikhoin
