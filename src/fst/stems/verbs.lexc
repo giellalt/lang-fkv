@@ -628,6 +628,7 @@ löyttäät+V+Inf+Err/Orth:löytäät K ;
 erkkainuttaat:erkkainutta v2_long ;
 norjalaistaat:norjalaista v2_long ;
 ruiđalaistaat:ruiđalaista v2_long ;
+sekhaanuttaat:sekhaanutta v2_long ;
 vahingoittaat:vahingoitta v2_long ;
 vahingoittaat+V+Inf+Err/Orth:vahingottaa K ;
 vahingoittaat+V+Inf+Err/Orth:vahinkoittaat K ;
@@ -717,6 +718,7 @@ kostanttaat:kostanta v2_odd ;
 alenttaat:alenta v2_odd ; ! v2_ta_odd
 asenttaat:asenta v2_odd ;
 pahenttaat:pahenta v2_odd ; ! v2_ta_odd 
+ryötyttäät:ryötyttä v2_odd ;
 ohenttaat:ohenta v2_odd ; ! v2_ta_odd 
 laajenttaat:laajenta v2_odd ; ! v2_ta_odd 
 lujenttaat:lujenta v2_odd ;
@@ -2577,7 +2579,6 @@ assisteerata:assisteera v43 ; ! nowac
 romsteerata:romsteera v43 ; ! nowac
 posteerata:posteera v43 ; ! nowac
 komposteerata:komposteera v43 ; ! nowac
-justeerata:justeera v43 ; ! nowac
 !finjusteerata:finjusteera v43 ; ! nowac
 prisjusteerata:prisjusteera v43 ; ! nowac
 batteerata:batteera v43 ; ! nowac
@@ -2669,6 +2670,7 @@ konserveerata:konserveera v43 ; ! nowac
 evakyeerata:evakyeera v43 ;
 employeerata:employeera v43 ; ! nowac
 juryeerata:juryeera v43 ; ! nowac
+justeerata:justeera v43 ;
 
 !! huokata:huokka v43_odd ;
 !! puheta:puhke v43_odd ;
@@ -2685,6 +2687,7 @@ fasineerata:fasineera v43_odd ;
 kommenteerata:kommenteera v43_odd ;
 kopieerata:kopieera v43_odd ;
 huoata:huok3a v43_odd ;
+opereerata:opereera v43_odd ;
 protesteerata:protesteera v43_odd ;
 suojata:suoja v43_odd ;
 styyrätä:styyrä v43_odd ;
@@ -2965,6 +2968,7 @@ kartata:kartta v43_odd ;
 hauđata:hauta v43_odd ;
 havata:hava v43_odd ;
 kravata:krapa v43_odd ;
+krapata:krappa v43_odd ;
 travata:trava v43_odd ;
 raivata:raiva v43_odd ;
 vaivata:vaiva v43_odd ;
