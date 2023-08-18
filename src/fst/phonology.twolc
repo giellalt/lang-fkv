@@ -225,8 +225,8 @@ Rules
         [.#.|#:] Cns:* Vow l _ e %> :e ;
         [.#.|#:] Cns:* Vow l _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow l _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
-        [.#.|#:] Cns:* Vow l _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
-
+        [.#.|#:] Cns:* Vow l _ a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
+        [.#.|#:] Cns:* Vow l _ ä: (Dial:)         %> [ :ä | i2:i %> :i ]         ; ! kylä kyllii
 
 "Gemination 0:m"
 !! Rule: **@RULENAME@**
