@@ -437,6 +437,7 @@ virruut:viru v2 ;
 juoruut:juoru v2 ;
 hauruut:hauru v2 ;
 assuut:asu v2 ;
+assuut+V+Inf+Err/Orth:asuat K ;
 assuut+V+Act+Ind+Prs+Pl3+Err/Orth:asuva K ;
 assuut+V+Act+Cond+Sg1+Err/Orth:asusin K ;
 ossuut:osu v2 ;
@@ -2184,7 +2185,6 @@ administreerata:administreera v43 ; ! nowac
 demonstreerata:demonstreera v43 ; ! nowac
 illustreerata:illustreera v43 ; ! nowac
 frustreerata:frustreera v43 ; ! nowac
-restaureerata:restaureera v43 ; ! nowac
 figureerata:figureera v43 ; ! nowac
 konfigureerata:konfigureera v43 ; ! nowac
 kureerata:kureera v43 ; ! nowac
@@ -2615,6 +2615,7 @@ muteerata:muteera v43 ; ! nowac
 amputeerata:amputeera v43 ; ! nowac
 disputeerata:disputeera v43 ; ! nowac
 distribueerata:distribueera v43 ; ! nowac
+pakkoevakueerata:pakko#evakueera v43 ;
 evakueerata:evakueera v43 ;
 evalueerata:evalueera v43 ; ! nowac
 devalueerata:devalueera v43 ; ! nowac
@@ -2802,6 +2803,7 @@ trillata:trilla v43_odd ;
 rullata:rulla v43_odd ;
 troolata:troola v43_odd ;
 puolata:puola v43_odd ;
+restaureerata:restaureera v43_odd ;
 suolata:suola v43_odd ;
 vekslata:veksla v43_odd ;
 naulata:naula v43_odd ;
