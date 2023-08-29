@@ -231,15 +231,15 @@ the same affix in sg and pl -- tsekkaa long
 
 * LEXICON n_22_excns  = veres (keskus)
 
-*  LEXICON n_22_excns_even  = (kuttumus)
-
 * LEXICON n_22_excns_pl  = veljekset
 
 * LEXICON x_22_excns_pl  = veljekset
 
-these two lexica for cases with
-
 the same affix in sg and pl -- tsekkaa long
+
+*  LEXICON n_22_excns_even  = (kuttumus)
+
+*  LEXICON n_22_excns_even_pl  = (ystävykset)
 
 these two lexica for cases with
 
