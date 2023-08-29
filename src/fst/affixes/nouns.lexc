@@ -2106,6 +2106,29 @@ LEXICON x_22_excns
   +Pl      :kse%>i2    sgpl_cases_odd ; ! the same affix in sg and pl -- tsekkaa long
  ! +Pl+Par:%>ksii     K              ;
  
+ !LEXICON vanha_s_kse
+! +N:^WG # ;
+LEXICON n_22_excns_pl !!= * @CODE@ = veljekset
++N         :           x_22_excns_pl          ;
+
+LEXICON x_22_excns_pl !!= * @CODE@ = veljekset
+
+  +Pl      :kse        nom_t           ;
+  +Pl      :%>s        gen_ten         ; ! veljesten
+  +Pl+Dial/Jok:ks%>i2     gen_tten        ; ! veljeksitten
+  +Pl+Dial/Var:ks%>i2     gen_tten        ; ! veljeksitten
+  +Pl+Dial/Por:ks%>i2     par_V           ; ! veljeksii
+  +Pl+Dial/Por:ks%>i2i    par_tA          ; ! veljeksiitä
+  +Pl+Dial/Jok:ks%>i2     par_A           ; ! veljeksiä
+  +Pl+Dial/Var:ks%>i2     par_A           ; ! veljeksiä
+!      +Pl+Ill:ksh%>i2in  K               ;
+  +Pl      :ks         ill_hiin        ;
+  +Pl      :kse%>i2    ess_nnA         ; ! veljeksinnä
+  +Pl      :ks%>i2     com_nne         ; ! veljeksine
+  +Pl      :kse%>i2    sgpl_cases_odd  ; !! the same affix in sg and pl -- tsekkaa long
+  !    +Pl+Par:%>ksii     K               ;
+
+ 
  LEXICON n_22_excns_even !!= * @CODE@ = (kuttumus)
 +N         :           x_22_excns_even     ;
 +N+Sg      :s          nom_R          ;
@@ -2122,13 +2145,13 @@ LEXICON x_22_excns_even
   +Sg      :kse        sgpl_cases_even ; ! these two lexica for cases with
 
   +Pl      :kse        nom_t          ;
-  +Pl      :%>s        gen_ten        ; ! veresten
-  +Pl+Dial/Jok:ks%>i2     gen_tten       ; ! vereksitten
-  +Pl+Dial/Var:ks%>i2     gen_tten       ; ! vereksitten
-  +Pl+Dial/Por:ks%>i2     par_V          ; ! vereksii
-  +Pl+Dial/Por:ks%>i2i    par_tA         ; ! vereksiitä
-  +Pl+Dial/Jok:ks%>i2     par_A          ; ! vereksiä
-  +Pl+Dial/Var:ks%>i2     par_A          ; ! vereksiä
+  +Pl      :%>s        gen_ten        ; ! kuttumusten
+  +Pl+Dial/Jok:ks%>i2     gen_tten       ; ! kuttumuksitten
+  +Pl+Dial/Var:ks%>i2     gen_tten       ; ! kuttumuksitten
+  +Pl+Dial/Por:ks%>i2     par_V          ; ! kuttumuksii
+  +Pl+Dial/Por:ks%>i2i    par_tA         ; ! kuttumuksiita
+  +Pl+Dial/Jok:ks%>i2     par_A          ; ! kuttumuksia
+  +Pl+Dial/Var:ks%>i2     par_A          ; ! kuttumuksia
   +Pl      :ks         ill_hiin       ; ! ei ^HMETA? tai edel tai mitään?
   +Pl      :kse%>i2    ess_nA        ;
   +Pl+Dial/Por:kse%>i2    com_ne        ;
@@ -2137,34 +2160,28 @@ LEXICON x_22_excns_even
   +Pl      :kse%>i2    sgpl_cases_even ; ! the same affix in sg and pl -- tsekkaa long
  ! +Pl+Par:%>ksii     K              ;
 
-!LEXICON vanha_s_kse
-! +N:^WG # ;
-LEXICON n_22_excns_pl !!= * @CODE@ = veljekset
-+N         :           x_22_excns_pl          ;
-+N+Pl      :%>kse      nom_t               ;
 
-LEXICON x_22_excns_pl !!= * @CODE@ = veljekset
-  
-  +Sg      :kse        gen_n_sg        ;
-  +Sg      :kse        ess_nA          ;
-  +Sg      :%>s         par_tA         ; 
-  +Sg      :ks         ill_heen        ; 
-  +Sg      :kse        sgpl_cases_odd  ; !! these two lexica for cases with
+ LEXICON n_22_excns_even_pl !!= * @CODE@ = (ystävykset)
++N         :           x_22_excns_even_pl     ;
 
-  +Pl      :kse        nom_t           ;
-  +Pl      :%>s        gen_ten         ; ! veljesten
-  +Pl+Dial/Jok:ks%>i2     gen_tten        ; ! veljeksitten
-  +Pl+Dial/Var:ks%>i2     gen_tten        ; ! veljeksitten
-  +Pl+Dial/Por:ks%>i2     par_V           ; ! veljeksii
-  +Pl+Dial/Por:ks%>i2i    par_tA          ; ! veljeksiitä
-  +Pl+Dial/Jok:ks%>i2     par_A           ; ! veljeksiä
-  +Pl+Dial/Var:ks%>i2     par_A           ; ! veljeksiä
-!      +Pl+Ill:ksh%>i2in  K               ;
-  +Pl      :ks         ill_hiin        ;
-  +Pl      :kse%>i2    ess_nnA         ; ! veljeksinnä
-  +Pl      :ks%>i2     com_nne         ; ! veljeksine
-  +Pl      :kse%>i2    sgpl_cases_odd  ; !! the same affix in sg and pl -- tsekkaa long
-  !    +Pl+Par:%>ksii     K               ;
+LEXICON x_22_excns_even_pl
+
+  +Pl      :kse        nom_t          ;
+  +Pl      :%>s        gen_ten        ; ! ystävysten
+  +Pl+Dial/Jok:ks%>i2     gen_tten       ; ! ystävyksitten
+  +Pl+Dial/Var:ks%>i2     gen_tten       ; ! ystävyksitten
+  +Pl+Dial/Por:ks%>i2     par_V          ; ! ystävyksii
+  +Pl+Dial/Por:ks%>i2i    par_tA         ; ! ystävyksiita
+  +Pl+Dial/Jok:ks%>i2     par_A          ; ! ystävyksiä
+  +Pl+Dial/Var:ks%>i2     par_A          ; ! ystävyksiä
+  +Pl      :ks         ill_hiin       ; ! ei ^HMETA? tai edel tai mitään?
+  +Pl      :kse%>i2    ess_nA        ;
+  +Pl+Dial/Por:kse%>i2    com_ne        ;
+  +Pl+Dial/Var:kse%>i2    com_ne        ;
+  +Pl+Dial/Jok:kse%>i2    com_ne         ;
+  +Pl      :kse%>i2    sgpl_cases_even ; ! the same affix in sg and pl -- tsekkaa long
+ ! +Pl+Par:%>ksii     K              ;
+
 
 
 !LEXICON vanha_et_he
