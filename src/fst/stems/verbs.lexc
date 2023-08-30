@@ -187,11 +187,13 @@ potkeet:potke v2 ;
 sotkeet:sotke v2 ;
 kätkeet:kätke v2 ;
 lukkeet:luke v2 ;
+lukkeet+V+Inf+Err/Orth:lukeat K ;
 lukkeet+V+Act+Ind+Prt+Pl3+Err/Orth:lukivat K ;
 tukkeet:tuke v2 ;
 immeet:ime v2 ;
 kylppeet:kylpe v2 ;
 lähteet:lähte v2 ; ! TODO tarkista lähti
+lähteet+V+Inf+Err/Orth:lähteät K ;
 lähteet+V+Act+Ind+Prt+Pl3+Err/Orth:lähtivät K ;
 soppeet:sope v2 ;
 tuntteet:tunte v2 ;
@@ -488,9 +490,11 @@ lauttuut:lauttu v2 ;
 riuttuut:riuttu v2 ;
 juuttuut:juuttu v2 ;
 muuttuut:muuttu v2 ;
+muuttuut+V+Inf+Err/Orth:muuttuat K ;
 puuttuut:puuttu v2 ;
 suuttuut:suuttu v2 ;
 jouttuut:joutu v2 ;
+jouttuut+V+Act+Ind+Prt+Sg1+Err/Orth:jouvuin K ;
 jouttuut+V+Act+Ind+Prs+Sg3+Err/Orth:joutuu K ;
 kouttuut:koutu v2 ;
 nälkkyyt:nälky v2 ; ! antaa: nälkyn    pitäis antaa nälyn. 050916
@@ -524,6 +528,7 @@ käänttyyt+V+Act+Ind+Prs+Sg3+Err/Orth:kääntyy K ;
 myönttyyt:myönty v2 ;
 hiirttyyt:hiirty v2 ;
 siirttyyt:siirty v2 ;
+siirttyyt+V+Inf+Err/Orth:siirtyät K ;
 siirttyy+V+Act+Ind+Prs+Sg3+Err/Orth:siirtyy K ;
 nöyrttyyt:nöyrty v2 ;
 ärttyyt:ärty v2 ;
@@ -624,6 +629,7 @@ viettäät:viettä v2 ;
 pettäät:pettä v2 ;
 syyttäät:syyttä v2 ;
 pyyttäät:pyytä v2_si ;
+pyyttäät+V+Pass+Ind+Prs+Err/Orth:pyyvethään K ;
 löyttäät:löytä v2_si ;
 löyttäät+V+Inf+Err/Orth:löytäät K ;
 erkkainuttaat:erkkainutta v2_long ;
@@ -910,7 +916,8 @@ esittäät+V+Act+Ind+Prs+Pl3+Err/Orth:esittävä K ;
 hypittäät:hypittä v2_odd ;
 vesittäät:vesittä v2_odd ;
 huvittaat:huvitta v2_odd ; ! v2_ta_odd 
-mistanttaat:mistanta v2_odd ; ! v2_ta_odd 
+mistanttaat:mistanta v2_odd ; ! v2_ta_odd
+mistanttaat+V+Act+Ind+Prs+Sg3+Err/Orth:mistantaa K ;
 raottaat:raotta v2_odd ; ! v2_ta_odd 
 lihottaat:lihotta v2_odd ; ! v2_ta_odd 
 kohottaat:kohotta v2_odd ; ! v2_ta_odd 
@@ -1184,6 +1191,8 @@ kylmettyyt:kylmetty v2_odd ;
 menettyyt:menett2y v2_odd ;
 erettyyt:erett2y v2_odd ;
 kehittyyt:kehitty v2_odd ;
+keskittyyt:keskitty v2_odd ;
+keskittyyt+V+Inf+Err/Orth:keskittyät K ;
 lämmittyyt:lämmitty v2_odd ;
 kiinittyyt:kiinitty v2_odd ;
 jännittyyt:jännitty v2_odd ;
@@ -2804,6 +2813,7 @@ rullata:rulla v43_odd ;
 troolata:troola v43_odd ;
 puolata:puola v43_odd ;
 restaureerata:restaureera v43_odd ;
+skriinata:skriina v43_odd ;
 suolata:suola v43_odd ;
 vekslata:veksla v43_odd ;
 naulata:naula v43_odd ;
