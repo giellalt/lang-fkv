@@ -649,7 +649,7 @@ aivastuttaat:aivastutta v2_long ;
 huolestuttaat:huolestutta v2_long ;
 kauhistuttaat:kauhistutta v2_long ;
 
-näyttäyttyyt:näyttäytty v2_odd ;
+näyttäyttyyt:näyttäyty v2_odd ;
 levventtyyt:levventy v2_odd ;
 ärryynttyyt:ärryynty v2_odd ;
 hapanttuut:hapantu v2_odd ;
@@ -664,6 +664,7 @@ oornaanttuut:oornaantu v2_odd ;
 potkaanttuut:potkaantu v2_odd ;
 rohkenttuut:rohkentu v2_odd ;
 soppeuttuut:soppeutu v2_odd ;
+sulauttuut:sulauttu v2_odd ;
 totteinttuut:totteintu v2_odd ;
 liikahtaat:liikahta v2_odd ;
 joukahtaat:joukahta v2_odd ;
@@ -913,6 +914,7 @@ kuorittaat:kuoritta v2_odd ; ! v2_ta_odd
 kurittaat:kuritta v2_odd ; ! v2_ta_odd 
 esittäät:esittä v2_odd ;
 esittäät+V+Act+Ind+Prs+Pl3+Err/Orth:esittävä K ;
+fangittaat:fangitta v2_odd ;
 hypittäät:hypittä v2_odd ;
 vesittäät:vesittä v2_odd ;
 huvittaat:huvitta v2_odd ; ! v2_ta_odd 
@@ -1590,6 +1592,8 @@ pirruila:pirruil v3_ele_odd ;
 hengaila:hengail v3_ele_odd ;
 snappaila:snapp2ail v3_ele_odd ;
 hymmyilä:hymmyil v3_ele_odd ;
+kamppaila:kampp2ail v3_ele_odd ;
+kyläilä:kyläil v3_ele_odd ;
 lymmyilä:lymmyil v3_ele_odd ;
 lykkäilä:lykk2äil v3_ele_odd ;
 eppäilä:epp2äil v3_ele_odd ;
@@ -2946,6 +2950,7 @@ sihđata+V+Pass+Ind+Prt+Err/Orth:sihtathiin K ;
 kohđata:kohta v43_odd ;
 aiđata:aita v43_odd ;
 plaađata:plaađa v43_odd ;
+plaarata:plaara v43_odd ;
 lannata:lanta v43_odd ;
 hätälannata:hätä#lanta v43_odd ;
 luođata:luota v43_odd ;
