@@ -182,17 +182,17 @@ Rules
  [.#.|#:] Cns:* Vow:+       k _ a  %> :a                ; ! jakkaat:jakkaa
  [.#.|#:] Cns:* Vow:+       k _ ä  %> :ä                ;
  [.#.|#:] Cns:* Vow:+       k _ ö  %> [:ö|i2: (%> n) #] ;
- [.#.|#:] Cns:* Vow:+       k _ y  %> [:y|i2: (%> n) #] ;
+ [.#.|#:] Cns:* Vow:+   [k|k2:] _ y  %> [:y|i2: (%> n) #] ;
  [.#.|#:] Cns:* Vow:+       k _ u  %> [:u|:i  (%> n) #] ; ! flaku flakkui, flakkuin
  [.#.|#:] Cns:* Vow:+       k _ o  %> [:o|:i  (%> n) #] ; ! koko kokkoi
  [.#.|#:] Cns:* Vow:+       k _ e (Dial:) %> :e         ;
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ ä: (Dial:)         %> [ :ä | i2:i %> :i ]         ; ! selkä selkkii, selkkiin
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ ä: (Dial:)         %>  i5:  :i  %>  [m|n]         ; ! superlatiivi 
- [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ a: (Dial:)        [%> :a | %^AO: %> i2: (%> n) #] ; ! virka:virkkoi
+ [.#.|#:] Cns:* Vow:+   [l|r|n|m]  [k|k2:] _ a: (Dial:)        [%> :a | %^AO: %> i2: (%> n) #] ; ! virka:virkkoi
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ a: (Dial:)         %^AO: %> i5: %> [m|n] ; ! superlatiivi, pimmeenarkkoiman
                         [l|r|n|m]  k _ :Vow (Dial:)       %>  i7:           ;
                         [l|r|n|m]  k _ :i (Dial:) (%^AO:) %>    [%^V:i|i2: (%> n) #] ; ! trenki:trenkkii Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
-                        [l|r|n|m] :k _ e: (Dial:) %^E2I:0 %> i2: %>   %^V:  ;
+                        [l|r|n|m] [:k|k2:] _ e: (Dial:) %^E2I:0 %> i2: %>   %^V:  ;
                         [l|r|n|m]  k _  i (Dial:)         %> i2: %> t %^A:  ; ! meininkkiitä in Por
                         [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i (%> n) #]          ;
                         [l|r|n|m]  k _ :y (Dial:) %> [:y|:i (%> n) #] ;
