@@ -1914,6 +1914,8 @@ Number-person
 * **+Use/GC** only retained in the HFST Grammar Checker disambiguation analyser
 * **+Use/-GC** never retained in the HFST Grammar Checker disambiguation analyser
 * **+Use/Circ** for numerals, copied from sme
+* **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
 ### Compounds
 * **+Cmp** =
