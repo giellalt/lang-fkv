@@ -139,6 +139,8 @@ Multichar_Symbols
  +Use/GC           !!≈ * **@CODE@** only retained in the HFST Grammar Checker disambiguation analyser
  +Use/-GC          !!≈ * **@CODE@** never retained in the HFST Grammar Checker disambiguation analyser
  +Use/Circ  !!≈ * **@CODE@** for numerals, copied from sme
+ +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+ +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
 !! ### Compounds
  +Cmp  !!≈ * **@CODE@** =
