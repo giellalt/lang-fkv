@@ -2034,6 +2034,19 @@ LEXICON x_32_ut
 
            :thuu         x_32_et_ts_common ;
 
+LEXICON n_32_ut_pl !!= @CODE@ vantthuut
++N         :   x_32_ut_pl ;
+
+LEXICON x_32_ut_pl
+  +Sg+Dial/Var+Nom:u^WG     K              ;
+  +Sg+Dial/-Var:u^WG        nom_t          ;
+  +Sg      :u^WG%>t     par_tA         ;
+
+  +Pl+Dial/Var:hu%>je      gen_n          ; 
+  +Pl+Dial/Var:hu%>j       par_A          ;
+
+           :thuu         x_32_et_ts_common_pl ;
+
 LEXICON n_32_ts !!= @CODE@ kirves
 +N         :   x_32_ts ;
 +N+Sg      :es nom_R      ;
