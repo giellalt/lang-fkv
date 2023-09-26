@@ -637,6 +637,8 @@ LEXICON n_32_et_2  askel, kyynel, kannel
 
 LEXICON n_32_ut  vantut:vantutta:vantthuut
 
+LEXICON n_32_ut_pl  vantthuut
+
 LEXICON n_32_ts  kirves
 
 LEXICON x_32_ts  kirves
