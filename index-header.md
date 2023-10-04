@@ -17,7 +17,8 @@ and in a Kven spellchecker.
 ## Recent meetings
 * 2023:
   [10.05.23](meetings/230510.html) ◊
-  [15.05.23](meetings/230515.html)
+  [15.05.23](meetings/230515.html) ◊
+  [04.10.23](meetings/231004.html)
 * 2022:
   [11.11.22](meetings/221111.html)
 * 2021: 
