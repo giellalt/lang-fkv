@@ -148,6 +148,12 @@ LEXICON n_12_pl          nuoret
 
 * LEXICON n_12_pl          for same affix in sg and pl
 
+LEXICON n_12_hi          lohi, tuohi, riihi
+
+* LEXICON n_12_hi          for same affix in sg and pl
+
+* LEXICON n_12_hi          for same affix in sg and pl
+
 LEXICON n_12_mi        lumi lu
 
 LEXICON n_12_si         vuosi, käsi, hirsi
