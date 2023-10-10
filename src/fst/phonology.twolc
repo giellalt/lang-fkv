@@ -72,13 +72,18 @@ k3:k                      !!≈ * **@CODE@** k3 never k:v, contrary to k
 
 !! ### Sets
 Sets
-FrontVow = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;            !!≈ * @CODE@
-BackVow = a o u å ;                                       !!≈ * @CODE@
+FrontVow = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø 
+           E I                   Y Ä Ö Ü Æ Ø ;            !!≈ * @CODE@
+BackVow = a o u å 
+          A O U Å ;                                       !!≈ * @CODE@
 ArchiVow =  %^A %^O %^U ;                                 !!≈ * @CODE@
-UnroundedVow = e ä a i i2 i3 i4 i5 i6 i7 ;                !!≈ * @CODE@
-RoundedVow = y ö u o ;                                    !!≈ * @CODE@
+UnroundedVow = e ä a i i2 i3 i4 i5 i6 i7 
+               E Ä A I ;                                  !!≈ * @CODE@
+RoundedVow = y ö u o 
+             Y Ö U O ;                                    !!≈ * @CODE@
 SomeVow = %^V ;                                           !!≈ * @CODE@
-NeutralVow = e i i2 i3 i4 i5 i6 i7 ;                      !!≈ * @CODE@
+NeutralVow = e i i2 i3 i4 i5 i6 i7 
+             E I ;                                        !!≈ * @CODE@
 Vow   = FrontVow BackVow ArchiVow SomeVow ;               !!≈ * @CODE@
 NotE    =   i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;       !!≈ * @CODE@
 NotEY   =   i i2 i3 i4 i5 i6 i7   ä ö   æ ø a o u å ;       !!≈ * @CODE@
