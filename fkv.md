@@ -1162,13 +1162,13 @@ Thesemust be escaped (cf morpheme boundaries further down):
 * **%^** = (exceptional) soft hyphenation point 
 
 ### Sets
-* FrontVow = e i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø ;
-* BackVow = a o u å ;
+* E I Y Ä Ö Ü Æ Ø ;
+* A O U Å ;
 * ArchiVow = %^A %^O %^U ;
-* UnroundedVow = e ä a i i2 i3 i4 i5 i6 i7 ;
-* RoundedVow = y ö u o ;
+* E Ä A I ;
+* Y Ö U O ;
 * SomeVow = %^V ;
-* NeutralVow = e i i2 i3 i4 i5 i6 i7 ;
+* E I ;
 * Vow = FrontVow BackVow ArchiVow SomeVow ;
 * NotE = i i2 i3 i4 i5 i6 i7 y ä ö ü æ ø a o u å ;
 * NotEY = i i2 i3 i4 i5 i6 i7 ä ö æ ø a o u å ;
