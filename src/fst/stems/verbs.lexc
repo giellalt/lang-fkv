@@ -2230,7 +2230,6 @@ konfigureerata:konfigureera v43 ; ! nowac
 kureerata:kureera v43 ; ! nowac
 sensureerata:sensureera v43 ; ! nowac
 faktureerata:faktureera v43 ; ! nowac
-struktureerata:struktureera v43 ; ! nowac
 restruktureerata:restruktureera v43 ; ! nowac
 !omstruktureerata:omstruktureera v43 ; ! nowac
 tortureerata:tortureera v43 ; ! nowac
@@ -2685,7 +2684,6 @@ bokstaveerata:bokstaveera v43 ; ! nowac
 leveerata:leveera v43 ;
 orgaaniseerata:orgaaniseera v43 ;
 eleveerata:eleveera v43 ; ! nowac
-arkiveerata:arkiveera v43 ; ! nowac
 deriveerata:deriveera v43 ; ! nowac
 intensiveerata:intensiveera v43 ; ! nowac
 aktiveerata:aktiveera v43 ; ! nowac
@@ -2717,6 +2715,7 @@ justeerata:justeera v43 ;
 !! huokata:huokka v43_odd ;
 !! puheta:puhke v43_odd ;
 
+arkiveerata:arkiveera v43_odd ; 
 anonymiseerata:anonymiseera v43_odd ;
 arransseerata:arransseera v43_odd ;
 marginaliseerata:marginaliseera v43_odd ;
@@ -2934,6 +2933,7 @@ följätä:följä v43_odd ;
 tierata:tiera v43_odd ;
 uhrata:uhra v43_odd ;
 laakrata:laakra v43_odd ;
+laakrata+V+Inf+Err/Orth:laakraata K ;
 porata:pora v43_odd ;
 torata:tora v43_odd ;
 huorata:huora v43_odd ;
@@ -2976,6 +2976,7 @@ kehđata:kehta v43_odd ;
 hihđata:hihta v43_odd ;
 sihđata:sihta v43_odd ;
 sihđata+V+Pass+Ind+Prt+Err/Orth:sihtathiin K ;
+struktureerata:struktureera v43_odd ;
 kohđata:kohta v43_odd ;
 aiđata:aita v43_odd ;
 fellata:fella v43_odd ;
