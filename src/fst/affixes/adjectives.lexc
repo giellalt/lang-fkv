@@ -196,6 +196,13 @@ LEXICON a_21_odd	!!= * @CODE@ loistaava
 +A+Dial/Var :^A2I  superl_mm     ;!Var:issa lyhyt -i myös mahd. superl, vaikkei kovin tavall. Eira(2014)s183 ! TODO: jos tulee ongelmia var murteen lyhyt i:llisen superlatiivin kanssa meidän täytyy siirtää kaikki -o ja -y loppuiset adjektiivit.  
  !+A+Dial/Por+Pl+Compar+Gen:%>mm%>ii2tten K ;
  
+LEXICON a_21_odd_AO  !!= * @CODE@ latuska 
++A:      x_21_odd_AO       ;
++A:^WG      comp_mm       ;
++A:%>i5 superl_m_even ;
+
+
+ 
 LEXICON a_21_odd_u !vasittu, maalattu, kristitty, mainio  
 +A:   x_21_odd_u ; 
 +A:^WG      comp_mm       ;
