@@ -19,7 +19,8 @@ and in a Kven spellchecker.
   [10.05.23](meetings/230510.html) ◊
   [15.05.23](meetings/230515.html) ◊
   [04.10.23](meetings/231004.html) ◊
-  [06.10.23](meetings/231006.html)
+  [06.10.23](meetings/231006.html) ◊
+  [29.11.23](meetings/231129.html)
 * 2022:
   [11.11.22](meetings/221111.html)
 * 2021: 
