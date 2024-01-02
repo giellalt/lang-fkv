@@ -250,7 +250,7 @@ Rules
 !! Rule: **@RULENAME@**
 0:n <=> [.#.|#:] Cns:* Vow n _ ä %> :ä ;
         [.#.|#:] Cns:* Vow n _ ö %> :ö ;
-        [.#.|#:] Cns:* Vow n _ i (Dial:) %> :i  ;
+        [.#.|#:] Cns:* Vow n _ i (Dial:) (%^AO:0) %> :i (%> n) # ; 
         [.#.|#:] Cns:* Vow n _ y %> :y ;
         [.#.|#:] Cns:* Vow n _ u %> :u ;
         [.#.|#:] Cns:* Vow n _ :o (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) # ] ;
