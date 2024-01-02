@@ -487,6 +487,7 @@ istuut+V+Act+Ind+Prs+Pl3+Err/Orth:istuvat K ;
 osalistuut:osalistu v2 ;
 norjalaistuut:norjalaistu v2 ;
 ruiđalaistuut:ruiđalaistu v2 ;
+ruijalaistuut:ruijalaistu v2 ;
 maistuut:maistu v2 ;
 muistuut:muistu v2 ;
 paistuut:paistu v2 ;
@@ -679,6 +680,7 @@ kielttäyttyyt:kielttäyty v2_odd ;
 levventtyyt:levventy v2_odd ;
 ärryynttyyt:ärryynty v2_odd ;
 formaanttuut:formaantu v2_odd ;
+integreeraanttuut:integreeraantu v2_odd ;
 hapanttuut:hapantu v2_odd ;
 häirättyyt:häirätt2y v2_odd ;
 jähmettyyt:jähmetty v2_odd ;
@@ -918,6 +920,7 @@ kehoittaat:kehoitta v2_odd ; ! v2_ta_odd
 nauhoittaat:nauhoitta v2_odd ;
 rauhoittaat:rauhoitta v2_odd ; ! v2_ta_odd 
 hajoittaat:hajoitta v2_odd ; ! v2_ta_odd 
+osittaat:ositta v2_odd ;
 rajoittaat:rajoitta v2_odd ; ! v2_ta_odd 
 rasittaat:rasitta v2_odd ;
 harjoittaat:harjoitta v2_odd ; ! v2_ta_odd
@@ -1078,11 +1081,13 @@ halveksuut:halveksu v2_odd ;
 tapahtuut:tapahtu v2_odd ;
 palelttuut:paleltu v2_odd ;
 raskheenttuut:raskheentu v2_odd ;
+sotkeenttuut:sotkeentu v2_odd ;
 hajjaanttuut:hajjaantu v2_odd ;
 harjaanttuut:harjaantu v2_odd ;
 kuoleenttuut:kuoleentu v2_odd ;
 surmaanttuut:surmaantu v2_odd ;
 talmaanttuut:talmaantu v2_odd ;
+kuoriinttuut:kuoriintu v2_odd ;
 laajenttuut:laajentu v2_odd ;
 lujenttuut:lujentu v2_odd ;
 liikuttuut:liikuttu v2_odd ;
@@ -1594,6 +1599,7 @@ souđela:soutel v3_ele_odd ;
 työtelä:työt2el v3_ele_odd ; ! XXX vai työđelä?
 puhela:puhel v3_ele_odd ;
 ajela:ajel v3_ele_odd ;
+jajela:jajel v3_ele_odd ;
 keijuila:keijuil v3_ele_odd ;
 viljelä:viljel v3_ele_odd ;
 vittuila:vitt2uil v3_ele_odd ;
@@ -1800,6 +1806,7 @@ parata:para v4 ;
 hapata:happa v4 ;
 vanheta:vanhe v4 ;
 vanheta+V+Act+Ind+Prs+Pl3+Err/Orth:vanhenevat K ;
+köyhetä:köyhe v4 ;
 laajeta:laaje v4 ;
 lapota:lappo v4 ;
 lyhetä:lyhe v4 ;
@@ -2978,6 +2985,7 @@ kontroleerata:kontroleera v43_odd ;
 spekuleerata:spekuleera v43_odd ;
 mediteerata:mediteera v43_odd ;
 mosuneerata:mosuneera v43_odd ;
+ilmineerata:ilmineera v43_odd ;
 nomineerata:nomineera v43_odd ;
 okkupeerata:okkupeera v43_odd ;
 seppareerata:seppareera v43_odd ;
