@@ -322,7 +322,7 @@ Rules
                      [l|r|n|m] :s _ e: %^E2I:0 %> i2: %>   %^V: ;
                      [l|r|n|m] s _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
                      [l|r|n|m] s _ :ö %> :ö ;
-                     [l|r|n|m] s _ :y %> :y ;
+                     [l|r|n|m] s _ :y [%> :y| %> i2: (%> n) #] ;
                      [l|r|n|m] s _ :u [%> :u| %> i2: (%> n) #] ;
                      [l|r|n|m] s _ :o %> :o ;
                      [l|r|n|m] s _ :e %> :e ;
