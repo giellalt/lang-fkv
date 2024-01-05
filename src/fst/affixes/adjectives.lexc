@@ -15,6 +15,7 @@ LEXICON a_x  != * @CODE@ contains unclassified adjectives.
 !LEXICON ax  !!= * @CODE@ contains unclassified adjectives.
 !+A: K ;
 
+
 LEXICON HYVA
 +A:hyvä x_11_ae ; ! hyvvää, hyvät
 +A:pare comp_m_odd ;
@@ -121,6 +122,30 @@ LEXICON VAITI
 
 LEXICON vanha_nocomp_a_21  !!= * @CODE@
 +A:           x_11_A0_A2I         ;
+
+LEXICON a_31_aa ! turhaa, pitkhään vokaalhiin päättyyvät sanat (ei vapaa, vanhaa)
+
++A:      x_31_aa       ;
++Sg+Nom:         K               ;
++Sg      :       gen_n_sg        ;
++Sg+Dial/-Var:   par_tA          ;
++Sg      :       ill_sseen         ; 
++Sg      :       ess_nA          ;
++Sg      :       sgpl_cases_even  ;
+
++Pl      :       nom_t           ;
++Pl      :%>i2   gen_tten        ;
++Pl      :%>i2   par_tA          ;
++Pl      :%>i2   ill_ssiin       ;
++Pl      :%>i2   ess_nA          ;
++Pl      :%>i2   com_ne          ;
++Pl      :%>i2   sgpl_cases_even ;
+
++A: comp_m_odd ;
++A+Dial/Por:%>i2 superl_m_odd ;
+
+
+
 
 LEXICON a_11_i  !!= * @CODE@ siisti
 +A:           x_11_i  ;

@@ -1284,6 +1284,25 @@ LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   +Pl      :%>i2   com_ne          ;
   +Pl      :%>i2   sgpl_cases_even ;
   
+  LEXICON n_31_aa ! filee
+  +N:      x_31_aa      ;
+
+   LEXICON x_31_aa
+  +Sg+Nom:         K               ;
+  +Sg      :       gen_n_sg        ;
+  +Sg+Dial/-Var:   par_tA          ;
+  +Sg      :       ill_sseen         ; ! fileehen? Mistä fileehen on otettu?
+  +Sg      :       ess_nA          ;
+  +Sg      :       sgpl_cases_even  ;
+
+  +Pl      :       nom_t           ;
+  +Pl      :%>i2   gen_tten        ;
+  +Pl      :%>i2   par_tA          ;
+  +Pl      :%>i2   ill_ssiin       ;
+  +Pl      :%>i2   ess_nA          ;
+  +Pl      :%>i2   com_ne          ;
+  +Pl      :%>i2   sgpl_cases_even ;
+  
 LEXICON n_31_io
 
 !+N+Dial/Por:i           x_31_ii             ; !rauttii, kommentoitu pois koska muitten varianttien nominit saavat por päätteitä 
