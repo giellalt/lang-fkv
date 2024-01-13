@@ -2173,7 +2173,8 @@ Here is the Root lexicon, pointing to all the parts of speech:
 * Postposition ;
 * Preposition ;
 * Pronoun ;
-* ProperNoun ;
+* @U.Cap.Obl@ ProperNoun ;
+* @U.Cap.Opt@ ProperNoun ;
 * Punctuation ;
 * Symbols ;
 * VerbRoot ;
