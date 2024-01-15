@@ -327,6 +327,13 @@ Rule: **^V:a**
 * *maa>h^Vn*
 * *maa>han*
 
+Rule: **^V:ä**
+
+**Tests:**
+
+* *jää>h^Vn*
+* *jää>hän*
+
 Rule: **^V:i**
 
 **Tests:**
