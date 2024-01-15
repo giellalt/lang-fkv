@@ -826,6 +826,25 @@ j:0 <=> l _ e: (Dial:0) %^E2I:0 ;
 !!€ maa>h^Vn
 !!€ maa>han
 
+"^V:ä"
+!! Rule: **@RULENAME@**
+! Old names:
+! 1. "Vow copying in short h-illative and short partitive sg"
+! 2. "Vow copying in partitive of words ending in io, ia, ua"
+! 3. "Vow copying in long h sg forms 1"
+! 4. "Vow copying in long h sg forms 2"
+! 5. "Vow copying of ä in partitive after vowel sequences"
+%^V:ä <=>    Vow ä: (Dial:)           %> h  _ [ n: | m: ] ; ! 1. !jäähän
+           :Cns  ä  (Dial:)           %>    _ ; ! 1. ! [ .#. | #: | %> ] ; !heinää
+      :Cns [i|u] ä (Dial:)           %>    _ ; ! 2.
+                 ä: (Dial:) (%^AO:) %^HMETA: %> h  _   %^V:  ; ! 3.
+                 ä: (Dial:) (%^AO:) %^HMETA: %> h %^V:  _  ; ! 4.
+                                [e|i|:Cns] ä %> _ ; ! 5.
+
+!! **Tests:**
+
+!!€ jää>h^Vn
+!!€ jää>hän
 
 "^V:i"
 !! Rule: **@RULENAME@**
@@ -1410,6 +1429,10 @@ Vx:e <=>  [.#.|#:] Cns:* Vow: (Vow:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
   :SurfaceCns _                   %> h i i %> n  ; ! päivä>hiin : päiv0hiin
   :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) ([:o|:ö]) %> i2: ; ! 2.
   :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ; ! 2.
+
+  :SurfaceCns (Vow:*) _ (Dial:) ([%^E2I:|%^AO:]) %^HMETA:  %> h [:ä|i:] ;
+  :SurfaceCns (Vow:*) _ (Dial:)  %^AO:   %^HMETA:  %> h (%^V:) (:o) %> i2: ;
+  :i          _ (Dial:) (%^AO:)  %^HMETA:  %> h (%^V:) (%>) (:o)(:o) (i2:) ;
 
 !! **Tests:**
 
