@@ -232,6 +232,7 @@ Rules
         [.#.|#:] Cns:* Vow l _ (e:) (Dial:) (%^E2I:0) %> :i (%>) :i ; ! kivvii
         [.#.|#:] Cns:* Vow l _ a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
         [.#.|#:] Cns:* Vow l _ ä: (Dial:)         %> [ :ä | i2:i %> :i ]         ; ! kylä kyllii
+        [.#.|#:] Cns:* Vow l _ :Vow (Dial:)       %>  i7: ; ! cond. halluis
 
 "Gemination 0:m"
 !! Rule: **@RULENAME@**
@@ -245,6 +246,8 @@ Rules
         [.#.|#:] Cns:* Vow m _ :a   (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow m _ (e:) (Dial:) (%^E2I:0) %> :i %> :i ; ! kivvii
         [.#.|#:] Cns:* Vow m _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
+        [.#.|#:] Cns:* Vow m _ :Vow (Dial:)       %>  i7: ; ! cond. kummois
+
 
 "Gemination 0:n"
 !! Rule: **@RULENAME@**
@@ -258,6 +261,8 @@ Rules
         [.#.|#:] Cns:* Vow n _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow n _ (e:) (Dial:) (%^E2I:0) %> :i (%>) :i ; ! kivvii
         [.#.|#:] Cns:* Vow n _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
+        [.#.|#:] Cns:* Vow n _ :Vow (Dial:)       %>  i7: ; ! cond. tinnais
+
 
 "Gemination 0:p"
 !! Rule: **@RULENAME@**
@@ -301,6 +306,8 @@ Rules
         [.#.|#:] Cns:* Vow r _ :a (Dial:0) %> :a ; ! for kuvvaa Dialects could be just %^Por:0
         [.#.|#:] Cns:* Vow r _ (e:) (Dial:) (%^E2I:0) %> :i (%>) :i ; ! kivvii
         [.#.|#:] Cns:* Vow r _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
+        [.#.|#:] Cns:* Vow r _ :Vow (Dial:)       %>  i7: ; ! cond. herräis
+
 
 "Gemination 0:s"
 !! Rule: **@RULENAME@**
