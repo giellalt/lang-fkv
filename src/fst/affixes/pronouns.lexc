@@ -349,7 +349,10 @@ LEXICON toisen
 +Pl+Abl:silta   PxK ;
 
 
-
+LEXICON joku_indef
++Sg:          sgjoku_indef ;
++Pl:i         pljoku_indef ;
++Pl+Nom:kku              K ;
 
 LEXICON sgjoku_indef
 +Nom:ku K ;
@@ -357,12 +360,10 @@ LEXICON sgjoku_indef
 +Ill:honki K ;
 jokuinf ;
 
-
 LEXICON pljoku_indef
 +Gen:ttenki K ;
 +Ill:hinki K ;
 jokuinf ;
-
 
 LEXICON jokuinf
 +Par:taki K ;
@@ -372,7 +373,7 @@ LEXICON jokuinf
 +Ela:staki   K ;
 +All:lleki   K ;
 +Ade:llaki    K ;
-+Abl:lleki   K ;
++Abl:ltaki   K ;
 
 
 LEXICON sgmuut_indef
