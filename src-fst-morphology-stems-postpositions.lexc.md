@@ -10,7 +10,7 @@ Sannoi ja haamui vesta/Varenki 2012 mukkaan.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/postpositions.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/postpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/postpositions.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/postpositions.lexc)</small>
 
 ---
 

@@ -12,7 +12,7 @@ analyysinsa eri ohjelmassa (src/syntax/disambiguation.cg3)
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
 

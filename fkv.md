@@ -311,7 +311,7 @@ proper nouns.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/abbreviations.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/abbreviations.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/abbreviations.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/abbreviations.lexc)</small>
 
 ---
 
@@ -414,7 +414,7 @@ Most cases are directed to affixes/nouns.lexc
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -725,7 +725,7 @@ Basic paradigms
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -890,7 +890,7 @@ forms which requires great amount of care in the inflection patterns.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/numerals.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/numerals.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/numerals.lexc)</small>
 
 ---
 
@@ -912,7 +912,7 @@ tuotä
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -953,7 +953,7 @@ tuotä
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -962,7 +962,7 @@ tuotä
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -1094,7 +1094,7 @@ preesensissä ja preterissä.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -1795,7 +1795,7 @@ Rule: **o:0**
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -2199,7 +2199,7 @@ Here is the Root lexicon, pointing to all the parts of speech:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -2269,7 +2269,7 @@ Pitkävokaaliset Konsonanttirankaiset (Kokoontuma?)
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
 
@@ -2287,7 +2287,7 @@ analyysinsa eri ohjelmassa (src/syntax/disambiguation.cg3)
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
 
@@ -2305,7 +2305,7 @@ Interjection -leksikossa on vain pari sanaa.  yäk, kääk, nono
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/closed.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/closed.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/closed.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/closed.lexc)</small>
 
 ---
 
@@ -2315,7 +2315,7 @@ Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/fkv-abbreviations.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/fkv-abbreviations.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/fkv-abbreviations.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/fkv-abbreviations.lexc)</small>
 
 ---
 
@@ -2430,7 +2430,7 @@ Luokat vanha_n_21  n12 vanha_n_22 vanha_n_22odd vanha_n_32 vanha_n_32s vanha_n_3
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -2707,7 +2707,7 @@ being very rare to extinct for nouns.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
@@ -2723,7 +2723,7 @@ Sannoi ja haamui vesta/Varenki 2012 mukkaan.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/postpositions.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/postpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/postpositions.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/postpositions.lexc)</small>
 
 ---
 
@@ -2738,7 +2738,7 @@ Preposition for +Pr tag
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/prepositions.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/prepositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/prepositions.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/prepositions.lexc)</small>
 
 ---
 
@@ -2773,7 +2773,7 @@ Indefiniittipronominit/Kvanttoripronominit
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
 
 ---
 
@@ -2789,7 +2789,7 @@ LEXICON ProperNoun  on kokeellinen leksikko
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/propernouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
 
 ---
 
@@ -2838,7 +2838,7 @@ puheta:puhke v43_odd ;
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
@@ -3005,7 +3005,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-fkv/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-fkv/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -3025,7 +3025,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
