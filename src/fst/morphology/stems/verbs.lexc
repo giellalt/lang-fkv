@@ -151,6 +151,7 @@ flavuttaat:flavutta v2_odd ;
 saavuttaat:saavutta v2_odd ;
 eđesauttaat:eđes#autta v2 ;
 höystäät:höystä v2 ;
+viestäät:viestä v2 ;
 sauttaat+Hom1: v2_sauttaat ;
 riuttaat:riutta v2 ;
 muuttaat:muutta v2 ;
@@ -674,10 +675,12 @@ aivastuttaat:aivastutta v2_long ;
 huolestuttaat:huolestutta v2_long ;
 kauhistuttaat:kauhistutta v2_long ;
 rikastuttaat:rikastutta v2_long ;
+tukahđuttaat:tukahđutta v2_long ;
 
 näyttäyttyyt:näyttäyty v2_odd ;
 kielttäyttyyt:kielttäyty v2_odd ;
 levventtyyt:levventy v2_odd ;
+tyventtyyt:tyventy v2_odd ;
 ärryynttyyt:ärryynty v2_odd ;
 formaanttuut:formaantu v2_odd ;
 integreeraanttuut:integreeraantu v2_odd ;
@@ -825,6 +828,7 @@ aavistaat:aavista v2_odd ; ! v2_ta_odd
 ravistaat:ravista v2_odd ; ! v2_ta_odd 
 vahvistaat:vahvista v2_odd ; ! v2_ta_odd 
 vahvistuut:vahvistu v2_odd ;
+vaurastuut:vaurastu v2_odd ;
 polvistaat:polvista v2_odd ; ! v2_ta_odd 
 ahđistaat:ahđista v2_odd ; ! v2_ta_odd 
 puhđistaat:puhđista v2_odd ; ! v2_ta_odd 
@@ -1020,6 +1024,7 @@ laihuttaat:laihutta v2_odd ; ! v2_ta_odd
 suijuttaat:suijutta v2_odd ;
 sujuttaat:sujutta v2_odd ; ! v2_ta_odd 
 vaikuttaat:vaikutta v2_odd ; ! v2_ta_odd 
+virhäättäät:virhäättä v2_odd ;
 keikuttaat:keikutta v2_odd ; ! v2_ta_odd 
 keikattaat:keikatta v2_odd ;
 kiekattaat:kiekatta v2_odd ;
@@ -1409,11 +1414,17 @@ pullistella:pullistel v3_ele ;
 pureskella:pureskel v3_ele ;
 peseskellä:peseskel v3_ele ;
 sipsutella:sipsuttel v3_ele ;
+sullaatella:sullaattel v3_ele ;
+suljeskella:suljeskel v3_ele ;
 tallustella:tallustel v3_ele ;
+talutella:taluttel v3_ele ;
 tossutella:tossuttel v3_ele ;
 reviskellä:reviskel v3_ele ;
+synnytellä:synnyttel v3_ele ;
 vastustella:vastustel v3_ele ;
 vilkattella:vilkatt2el v3_ele ;
+viritellä:virittel v3_ele ;
+välitellä:välittel v3_ele ;
 haiseskella:haiseskel v3_ele ;
 haavoitella:haavoittel v3_ele ;
 kannatella:kannattel v3_ele ;
@@ -1599,11 +1610,13 @@ souđela:soutel v3_ele_odd ;
 työtelä:työt2el v3_ele_odd ; ! XXX vai työđelä?
 puhela:puhel v3_ele_odd ;
 ajela:ajel v3_ele_odd ;
+elelä:elel v3_ele_odd ;
 jajela:jakel v3_ele_odd ;
 keijuila:keijuil v3_ele_odd ;
 viljelä:viljel v3_ele_odd ;
 vittuila:vitt2uil v3_ele_odd ;
 suojela:suojel v3_ele_odd ;
+turmela:turmel v3_ele_odd ;
 varjela:varjel v3_ele_odd ;
 palela:palel v3_ele_odd ;
 laulela:laulel v3_ele_odd ;
@@ -1657,6 +1670,11 @@ ruokkaila:ruokk2ail v3_ele_odd ;
 kilppaila:kilpp2ail v3_ele_odd ;
 shoppaila:shopp2ail v3_ele_odd ;
 ihhaila:ihhail v3_ele_odd ;
+tuhlaila:tuhlai v3_ele_odd ;
+tikkaila:tikkail v3_ele_odd ;
+tieraila:tierail v3_ele_odd ;
+vihhaila:vihhail v3_ele_odd ;
+urhaila:urhail v3_ele_odd ;
 puuhaila:puuhail v3_ele_odd ;
 praamaila:praamail v3_ele_odd ;
 hommaila:hommail v3_ele_odd ;
@@ -1689,6 +1707,8 @@ tsättäilä:tsätt2äil v3_ele_odd ;
 tarjoila:tarjoil v3_ele_odd ;
 hyvväilä:hyvväil v3_ele_odd ;
 chattaila:chatt2ail v3_ele_odd ;
+virttaila:virttai v3_ele_odd ;
+veissaila:veissail v3_ele_odd ;
 
 nielä:niel v3_ele_short ;
 kuola:kuol v3_ele_short ;
