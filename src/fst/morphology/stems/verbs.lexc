@@ -310,6 +310,7 @@ ylönkattoot:ylön#katt2o v2 ;
 kattoot:katt2o v2 ;
 kattoot+V+Act+Ind+Prs+Pl3+Err/Orth:kattovat K ;
 kerttoot:kerto v2 ;
+kiettoot:kieto v2 ;
 lihhoot:liho v2 ;
 taajoot:taajo v2 ;
 hijjoot:hijo v2 ;
@@ -712,6 +713,9 @@ ammelttaat:ammelta v2_odd ;
 innostaat:innosta v2_odd ;
 keventtäät:keventä v2_odd ;
 keventtäät+V+Act+Ind+Prs+Sg3+Err/Orth:keventää K ;
+kuiskhaattaat:kuiskhaatta v2_odd ;
+käänhäättäät:käänhäättä v2_odd ;
+laskettaat:lasketta v2_odd ;
 musthaattaat:musthaatta v2_odd ;
 muutustaat:muutusta v2_odd ;
 pelastaat:pelasta v2_odd ;
@@ -812,6 +816,7 @@ ikuistaat:ikuista v2_odd ;
 inhoittaat:inhoitta v2_odd ;
 julistaat:julista v2_odd ;
 kallistaat:kallista v2_odd ; ! v2_ta_odd 
+kuulestaat:kuulesta v2_odd ;
 valmistaat:valmista v2_odd ; ! v2_ta_odd 
 lommistaat:lommista v2_odd ; ! v2_ta_odd 
 omistaat:omista v2_odd ; ! v2_ta_odd 
@@ -971,11 +976,13 @@ esittäät:esittä v2_odd ;
 esittäät+V+Act+Ind+Prs+Pl3+Err/Orth:esittävä K ;
 fangittaat:fangitta v2_odd ;
 hypittäät:hypittä v2_odd ;
+otastaat:otasta v2_odd ;
 vesittäät:vesittä v2_odd ;
 huvittaat:huvitta v2_odd ; ! v2_ta_odd 
 mistanttaat:mistanta v2_odd ; ! v2_ta_odd
 mistanttaat+V+Act+Ind+Prs+Sg3+Err/Orth:mistantaa K ;
-raottaat:raotta v2_odd ; ! v2_ta_odd 
+raottaat:raotta v2_odd ; ! v2_ta_odd
+jätästäät:jätästä v2_odd ;
 lihottaat:lihotta v2_odd ; ! v2_ta_odd 
 litistäät:litistä v2_odd ;
 kohottaat:kohotta v2_odd ; ! v2_ta_odd 
@@ -1407,7 +1414,12 @@ tiettäät+V+Act+Ind+Prs+Pl2+Err/Orth:tiämä K ;
 tiettäät+V+Pass+Ind+Prs+Err/Orth:tiethään K ;
 !tiettäät+Err/Orth:tiä v2 ; työn alla, piän, piät, pittää, piämä jne
 
+asuskella:asuskel v3_ele ;
+itkeskellä:itkeskel v3_ele ;
+jätäskellä:jätäskel v3_ele ;
 kaalaskella:kaalaskel v3_ele ;
+kehitellä:kehittel v3_ele ;
+kerroskella:kerroskel v3_ele ;
 nimitellä:nimittel v3_ele ;
 poljeskella:poljeskel v3_ele ;
 pölhäätellä:pölhäättel v3_ele ;
@@ -1416,8 +1428,11 @@ teheskellä:teheskel v3_ele ;
 hajeskella:hajeskel v3_ele ;
 heilutella:heiluttel v3_ele ;
 huojuskella:huojuskel v3_ele ;
+klaputella:klaputtel v3_ele ;
+kirjoitella:kirjoittel v3_ele ;
 kojetella:kojettel v3_ele ;
 kuljeskella:kuljeskel v3_ele ;
+laputella:laputtel v3_ele ;
 lujeskella:lujeskel v3_ele ;
 mainitella:mainittel v3_ele ;
 nieleskellä:nieleskel v3_ele ;
@@ -1445,6 +1460,7 @@ vilkattella:vilkatt2el v3_ele ;
 viritellä:virittel v3_ele ;
 välitellä:välittel v3_ele ;
 haiseskella:haiseskel v3_ele ;
+hyljäskellä:hyljäskel v3_ele ;
 haavoitella:haavoittel v3_ele ;
 kannatella:kannattel v3_ele ;
 koputella:koputtel v3_ele ;
@@ -1613,14 +1629,24 @@ friiastella:friiastel v3_ele ;
 haaristella:haaristel v3_ele ;
 
 
-kuuneleskela:kuuneleskel v3_ele_odd ;
-kiiluila:kiiluil v3_ele_odd ;
-kylväilä:kylväil v3_ele_odd ;
+astela:astel v3_ele_odd ;
+annela:antel v3_ele_odd ;
+harhaila:harhail v3_ele_odd ;
+kaippaila:kaipp2ail v3_ele_odd ;
 kattela:katt2el v3_ele_odd ;
+kiiluila:kiiluil v3_ele_odd ;
+kuuneleskela:kuuneleskel v3_ele_odd ;
+kylväilä:kylväil v3_ele_odd ;
+käytelä:käyttel v3_ele_odd ;
+käänelä:kääntel v3_ele_odd ;
+kalvaila:kalvail v3_ele_odd ;
+kiussaila:kiussail v3_ele_odd ;
+korjaila:korjail v3_ele_odd ;
+kruisaila:kruisail v3_ele_odd ;
+lainaila:lainail v3_ele_odd ;
+laitela:laittel v3_ele_odd ;
 leppäilä:lepp2äil v3_ele_odd ;
 sanela:sanel v3_ele_odd ;
-kiussaila:kiussail v3_ele_odd ;
-kruisaila:kruisail v3_ele_odd ;
 praattaila:praatt2ail v3_ele_odd ;
 vaitela:vait2el v3_ele_odd ;
 ommela:ompel v3_ele_odd ;
@@ -1769,6 +1795,7 @@ pyhkäistä:pyhkä v3_ise ;
 julkaista:julka v3_ise ;
 juoksaista:juoksa v3_ise ;
 silmäistä:silmä v3_ise ;
+jymistä:jym v3_ise ;
 jyristä:jyr v3_ise ;
 karjaista:karja v3_ise ;
 katkaista:katka v3_ise ;
@@ -1868,6 +1895,7 @@ liijetä:liike v4 ;
 lijetä:like v4 ;
 oijeta:oike v4 ;
 muijeta:muike v4 ;
+rauheta:rauhe v4 ;
 valjeta:valke v4 ;
 seljetä:selke v4 ;
 souketa:soukke v4 ;
