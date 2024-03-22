@@ -68,32 +68,32 @@ z
 @@
 
 ## Transition pair specifications + weight:
+a	ä	4
+b	p	4
+d	t	4
+d	đ	1
+e	i	3
+e	ä	2
+j	k	4
+j	v	4
+k	j	4
+k	v	4
+o	u	4
+o	ö	4
+p	b	4
+t	d	4
+u	o	4
+v	j	4
+v	k	4
+ä	a	4
+ä	e	3
 ä	æ	4
 æ	ä	4
-o	u	4
-u	o	4
 ð	đ	0
-d	đ	1
-đ	d	2
-p	b	4
-b	p	4
-t	d	4
-d	t	4
-ä	e	3
-e	ä	2
-e	i	3
-a	ä	4
-ä	a	4
-ø	ö	4
-ö	ø	4
-o	ö	4
 ö	o	4
-k	j	4
-j	k	4
-k	v	4
-v	k	4
-v	j	4
-j	v	4
+ö	ø	4
+ø	ö	4
+đ	d	2
 
 ## Swaps. NB! Please note that these depend on the variable
 ## USE_SWAPS in Makefile.am in this directory. Also note that
