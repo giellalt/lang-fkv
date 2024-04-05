@@ -57,6 +57,7 @@ and in a Kven spellchecker.
 * [Yamltestit maaliskuu 2019](YamltestitMaaliskuu2019.html)
 * [n_11-feilit](n_11-feilit.html)
 * [Kaikki generoidut paradigmat](KaikkiGeneroidutParadigmat.html)
+* [Test diary](test-diary.md)
 
 # In-source documentation
 
