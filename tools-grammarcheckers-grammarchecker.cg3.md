@@ -341,4 +341,5 @@ Prs Sg3 > Prs Pl3
 ###  Spacing errors
 
 * * *
+
 <small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-fkv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>

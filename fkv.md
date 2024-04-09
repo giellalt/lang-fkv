@@ -1,6 +1,10 @@
-# Kven Finnish description 
+# Kven Finnish language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-disambiguator.cg3.md 
 
 
 
@@ -239,7 +243,14 @@ Imperative
 * **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-fkv/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
+# src-cg3-korp.cg3.md 
+
+
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
 Sámi language technology project 2003-2014, University of Tromsø # 
@@ -254,14 +265,28 @@ Here we remove semantic tags for all other words than
 proper nouns.  
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/korp.cg3](https://github.com/giellalt/lang-fkv/blob/main/src/cg3/korp.cg3)</small>
+
+---
+
+# src-cg3-old_disambiguation.cg3.md 
+
+
 
 * **X** maps X everywhere
 
 * **REMOVE X** removes X whenever there is any other tag.
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/old_disambiguation.cg3](https://github.com/giellalt/lang-fkv/blob/main/src/cg3/old_disambiguation.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-abbreviations.lexc.md 
+
+
 
 * **LEXICON ab-noun   **
 
@@ -314,6 +339,8 @@ proper nouns.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/abbreviations.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/abbreviations.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
 
 Affix file for Kven adjectives
 
@@ -417,6 +444,8 @@ Most cases are directed to affixes/nouns.lexc
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Sublexica for NounRoot
 
@@ -729,6 +758,8 @@ Basic paradigms
 
 ---
 
+# src-fst-morphology-affixes-numerals.lexc.md 
+
 
 # Kven numerals 
 
@@ -894,6 +925,8 @@ forms which requires great amount of care in the inflection patterns.
 
 ---
 
+# src-fst-morphology-affixes-pronouns.lexc.md 
+
 
 
 # Pronominien morfologia
@@ -915,6 +948,8 @@ tuotä
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
 
 2007 s.87
 * 1. Yksitav. / Vi ( maa, tuorestai)	 = vanha_n_1
@@ -957,6 +992,8 @@ tuotä
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -965,6 +1002,8 @@ tuotä
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 # LEXICA FOR KVEN VERB INFLECTION
 
@@ -1097,6 +1136,8 @@ preesensissä ja preterissä.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 # Phonological rules for Kven
 
@@ -1799,6 +1840,8 @@ Rule: **o:0**
 
 ---
 
+# src-fst-morphology-root.lexc.md 
+
 
 # Kven morphological transducer
 
@@ -2203,6 +2246,8 @@ Here is the Root lexicon, pointing to all the parts of speech:
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 # Kven language adjectives
 
 AdjectiveRoot on alkuvaiheessa vielä.
@@ -2273,6 +2318,8 @@ Pitkävokaaliset Konsonanttirankaiset (Kokoontuma?)
 
 ---
 
+# src-fst-morphology-stems-adverbs.lexc.md 
+
 
 
 Sannoi ja haamui listan mukkaan
@@ -2290,6 +2337,8 @@ analyysinsa eri ohjelmassa (src/syntax/disambiguation.cg3)
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-closed.lexc.md 
 
 # Closed parts of speech
 
@@ -2309,6 +2358,8 @@ Interjection -leksikossa on vain pari sanaa.  yäk, kääk, nono
 
 ---
 
+# src-fst-morphology-stems-fkv-abbreviations.lexc.md 
+
 File containing abbreviations 
 
 Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
@@ -2318,6 +2369,8 @@ Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/fkv-abbreviations.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/fkv-abbreviations.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 
 # Substantiivit
@@ -2433,6 +2486,8 @@ Luokat vanha_n_21  n12 vanha_n_22 vanha_n_22odd vanha_n_32 vanha_n_32s vanha_n_3
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-numerals.lexc.md 
 
 # Kven numerals
 
@@ -2711,6 +2766,8 @@ being very rare to extinct for nouns.
 
 ---
 
+# src-fst-morphology-stems-postpositions.lexc.md 
+
 # Postpositioiden vartalot
 
 Tässä sekä postpositiot ja niiden tagi.
@@ -2727,6 +2784,8 @@ Sannoi ja haamui vesta/Varenki 2012 mukkaan.
 
 ---
 
+# src-fst-morphology-stems-prepositions.lexc.md 
+
 # Prepositiot
 
 Adposittiit eli postposittiit ja preposittiit – esimerkkii
@@ -2741,6 +2800,8 @@ Preposition for +Pr tag
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/prepositions.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/prepositions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-pronouns.lexc.md 
 
 
 
@@ -2777,6 +2838,8 @@ Indefiniittipronominit/Kvanttoripronominit
 
 ---
 
+# src-fst-morphology-stems-propernouns.lexc.md 
+
 # Propernoun lexicon for Kven
 
 LEXICON ProperNoun  on kokeellinen leksikko
@@ -2792,6 +2855,8 @@ LEXICON ProperNoun  on kokeellinen leksikko
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs.lexc.md 
 
 # Verbivartalot
 
@@ -2841,6 +2906,8 @@ puheta:puhke v43_odd ;
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -3009,6 +3076,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Kven Finnish are read out, e.g.
@@ -3028,6 +3097,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 K V E N   G R A M M A R   C H E C K E R
@@ -3372,7 +3443,14 @@ Prs Sg3 > Prs Pl3
 ###  Spacing errors
 
 * * *
+
 <small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-fkv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-grammarcheckers-grc-disambiguator.cg3.md 
+
+
 
 # Disambiguator for Kven
 
@@ -3609,7 +3687,14 @@ Imperative
 * **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grc-disambiguator.cg3](https://github.com/giellalt/lang-fkv/blob/main/tools/grammarcheckers/grc-disambiguator.cg3)</small># Tokeniser for fkv
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grc-disambiguator.cg3](https://github.com/giellalt/lang-fkv/blob/main/tools/grammarcheckers/grc-disambiguator.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for fkv
 
 Usage:
 ```
@@ -3671,6 +3756,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-fkv/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for fkv
 
@@ -3735,6 +3822,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -3796,6 +3885,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-fkv/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

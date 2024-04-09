@@ -98,6 +98,3 @@ Most cases are directed to affixes/nouns.lexc
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
-
----
-
