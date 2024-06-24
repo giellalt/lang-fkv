@@ -1204,7 +1204,8 @@ a:0 <=> [#:|.#.] (Cns:*) (RoundedVow) [u|o] ([i6:|i:]) (:i) :Cns+ Cns:* (:Cns) _
 !! Rule: **@RULENAME@**
 a:o <=> [#:|.#.] Cns:* UnroundedVow ([u|i|e|a]) (Cns:*) (Vow:*) Cns:+ (:Cns) _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> [j|i2:|i3:|i5:] ; ! sannoi
         [#:|.#.] Cns:* UnroundedVow (o|u) (Cns:+) (Vow:+) (Cns:+) (Vow:+)    _ (Dial:) (%^WG:0) (%^I0:0) %^AO: %> i2: ;
-        [#:|.#.] Cns:* RoundedVow (Cns:+) (Vow:*) (Cns:*) (Vow:*) (Cns:+) (:Cns) _ (Dial:) (%^WG:0)      %^AO: %> i2: ; !mustikoissa
+        [#:|.#.] Cns:* UnroundedVow (Cns:+) (Vow:*) (Cns:*) (Vow:*) (Cns:+) (Vow:*) (:Cns) Vow: _ (Dial:) (%^WG:0) %^AO: %> i2: ; !demokratioissa
+        [#:|.#.] Cns:* RoundedVow (Cns:+) (Vow:*) (Cns:+) (Vow:*) (Cns:+) (:Cns) (Vow:) _ (Dial:) (%^WG:0)      %^AO: %> i2: ; !mustikoissa
                 [:k|:l|:t]  (:i) :i             :j                                _ (Dial:) (%^WG:0)          %^AO: %> i2: ; !kulkiijoissa
                   :s       :i :i             :j                                _ (Dial:) (%^WG:0)          %^AO: %> i2: ; !katkasiijoissa
            [#:|.#.] Cns  Vow                      Cns   Cns                    _ (Dial:)                   %^AO: %> j %> %^A: ; !linnoja Var
