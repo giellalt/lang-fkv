@@ -1170,6 +1170,7 @@ We first define alphabets and sets. Thereafter come the rules.
 * **t3:t** t3 = gradation but not t:s (implemented?)
 * **t4:t** t4 = always p, t, k ; eli ei tule astevaihtelua eikä geminaatio (täytyy)
 * **k3:k** k3 never k:v, contrary to k
+* **n2:n** n2 to prevent gemination in essive (porroikin mutta poroina)
 
 #### Triggers
 * **%^HMETA:0** h metateesi sykshyyn
@@ -1228,6 +1229,7 @@ Thesemust be escaped (cf morpheme boundaries further down):
 * ArchiCns = %^N ;
 * B C D Đ F G H J K L M N P Q R S Š T V W X Z ;
 * Cns = SurfaceCns ArchiCns p2 t2 k2 ;
+* Clt = k i %^O s p h %^A n2 ;
 * Segment = Vow Cns ;
 * Dummy = %^WG %^T0 %^TJ %^UU %^E2I %^A2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^I0 %^E0 %^A0 %^Por %^Var %^Jok ;
 * DummyBorder = Dummy %> ;
@@ -2110,6 +2112,7 @@ Number-person
 * **t4** = t for Finnish täytyy (no gemination, no nothing)
 * **k2** = always k
 * **k3** = k3 never k:v, contrary to k
+* **n2** = n2 to prevent gemination in essive
 * **^A** = Vowel harmony a/ä
 * **^O** = Vowel harmony o/ö
 * **^U** = Vowel harmony u/y

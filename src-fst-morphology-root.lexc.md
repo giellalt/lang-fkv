@@ -266,6 +266,7 @@ Number-person
 * **t4** = t for Finnish täytyy (no gemination, no nothing)
 * **k2** = always k
 * **k3** = k3 never k:v, contrary to k
+* **n2** = n2 to prevent gemination in essive
 * **^A** = Vowel harmony a/ä
 * **^O** = Vowel harmony o/ö
 * **^U** = Vowel harmony u/y
