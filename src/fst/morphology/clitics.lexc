@@ -19,7 +19,7 @@
 
 LEXICON K !!= @CODE@ is for all clitica except the ones following negative ei
  ENDLEX ;
- +Clt:%>kin ENDLEX "weight: 3" ;
+ +Clt:%>kin2 ENDLEX "weight: 3" ;
  +Clt:%>ki ENDLEX "weight: 3" ;
  K_NEUTRAL ;
 
@@ -33,11 +33,11 @@ LEXICON K_NEG !!= @CODE@ is for eikä
 LEXICON K_NEUTRAL  !!= @CODE@  is the clitic lexicon common to ei and the rest
  +Clt+Qst:%>k^O ENDLEX "weight: 3" ;
  +Clt+Qst:%>k^Os ENDLEX "weight: 3" ;
- +Foc/han:%>h^An ENDLEX "weight: 3" ;
+ +Foc/han:%>h^An2 ENDLEX "weight: 3" ;
  +Foc/pa:%>p^A ENDLEX "weight: 3" ;
  +Foc/pas:%>p^As ENDLEX "weight: 3" ;
- +Foc/kaan:%>kh^A^An ENDLEX "weight: 3" ;
- +Foc/han:%>h^An ENDLEX "weight: 3" ;
+ +Foc/kaan:%>kh^A^An2 ENDLEX "weight: 3" ;
+ +Foc/han:%>h^An2 ENDLEX "weight: 3" ;
 ! @D.compound.block@+Foc/han:@D.compound.block@%>h^A^An ENDLEX ; ! this long a probably just wrong
 
 LEXICON ENDLEX  !!= @CODE@ gives #
