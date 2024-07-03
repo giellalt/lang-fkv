@@ -909,7 +909,7 @@ LEXICON v3_s !!≈ **@CODE@** kusta, nousta, pestä, päästä ja vartalo on kus
 +V+Act+Ind+Prt:%>i3^WG v12pers_short ;
 +V+Act+PrfPrc+Sg+Nom:%>s^U K ; !! * Lyhyt partisiippi
 +V+Act+Ind+Prt+ConNeg+Sg:%>s^U K ; !! * Lyhyt partisiippi
-+V+Pass+PrfPrc+Sg+Nom:%>s^U K ; !! * Lyhyt partisiippi
++V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !! * Lyhyt partisiippi
 !+V+Act+PrfPrc:%>hee PRFPRC_OBL ;
 +V+Act+PrfPrc:%> PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:%>t%>ee%>v^A K ;
@@ -993,7 +993,7 @@ LEXICON v3juosta !!≈ **@CODE@** juosta:juo
 +V+Act+PrfPrc+Sg+Nom:s%>^N^U K ;
 +V+Act+Ind+Prt+ConNeg+Sg:s%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>st^U K ;
-+V+Pass+PrfPrc+Pl+Nom:%>st^U K ; !Täytyy löytää oikean muodon
++V+Pass+PrfPrc+Pl+Nom:%>st^U%>t K ; !Täytyy löytää oikean muodon
 !+V+Act+PrfPrc:s%>hee PRFPRC_OBL ;
 +V+Act+PrfPrc:s%> PRFPRC_OBL ;
 +V+Act+PrsPrc+Sg+Nom:ksee%>v^A K ;
