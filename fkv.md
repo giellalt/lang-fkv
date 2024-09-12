@@ -1994,6 +1994,7 @@ Number-person
 * **+OLang/RUS** = Language of common names
 * **+OLang/SMA** = Language of common names
 * **+OLang/SME** = Language of common names
+* **+OLang/SMJ** = Language of common names
 * **+OLang/SWE** = Language of common names
 * **+OLang/UND** = Language of common names
 
