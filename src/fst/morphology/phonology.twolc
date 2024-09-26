@@ -501,7 +501,7 @@ k:0 <=>               h _ [Vow: - e:]   (Dummy:) (:i) (Dummy:) %^WG:0      ; !tu
         [a|e|i|o|y|ä|ö] _  e  n  e:0    [%^Jok:0|%^Var:0]      %^WG:0 (%^T0:0) %^E0:0 ; !ikene- - ien
                ö: [l|r] _ [ö|ä]         (Dummy:) (:i) (Dummy:) %^WG:0      ; ! mörkö:mörö, pölkää:pölätä (check) but NOT: sylki - syljin
     [e|i|o|u|ö|ä] [l|r] _ [a:|ä:|y|u|o] (Dummy:) (:i) (Dummy:) %^WG:0      ; ! selkä:selän, nälkä:nälän, härkä:härän
-               a: [l|r] _ [NotEYUB:|u]  (Dummy:) (:i) (Dummy:) %^WG:0      ; ! varas - varkaan, NOT: sylki:syljin
+               a: [l|r] _ [NotEYUB:]    (Dummy:) (:i) (Dummy:) %^WG:0      ; ! varas - varkaan, NOT: sylki:syljin, NOT u: parkkuut:parvun
                e  [l|r] _ i (%>)                               %^WG:0 (%>) ; !keritä - kerkkii
               [y|ä]   r _ i:                                   %^WG:0      ; !pyrkkiit - pyrin
                   [o|ö] _ e:  [%^Var:0|%^Jok:0] (Dummy:) (:i) (Dummy:) %^WG:0 ; !joki (stem joke) joen
@@ -568,6 +568,7 @@ k:v <=> [Vow - [e|i]] _ [o|ö|u|y]       (Dummy:) (:i) (Dummy:) %^WG:0 ;
      \i [o|ö|u|y] _ (%^Por:) [Vow - e:] (Dummy:) (:i) (Dummy:) %^WG:0 ; !ruoka (^Por) is for ruvis
               u o _ (%^Por:) [Vow: - e:] (Dummy:) %^WG:0 (%^A0: %> i2:) ; !ruoka:ruovile (monikko)
 [.#.|#]  Cns+  y  _  i:                       %^WG:0  %^AO:  %>  i3:  ; !nykkiit:nyvin (preteriti)
+[.#.|#]  Cns a r  _  u                        %^WG:0                  ; !parkkuut:parvun
             [o|ö] _  e: %^Por:          (Dummy:) (:i) (Dummy:) %^WG:0 ; !Por: joke:joven. Var: joke:joen
              i u  _  a                  (Dummy:) (:i) (Dummy:) %^WG:0 ; !kiukhaan:kiuvas
 
