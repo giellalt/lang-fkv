@@ -2330,6 +2330,34 @@ LEXICON n_32_nu !  !!= @CODE@ oppinu
 +N+Sg       : nom_u ;
 +N: PRFPRC_OBL ;
 
+
+LEXICON n_11_laissa !  !!= @CODE@ laki-laissa
++N+Sg+Nom:laki K ;
++N+Sg+Gen:lain K ;
++N+Sg+Par:lakkii K ;
++N+Sg+Tra:laiksi K ;
++N+Sg+Abe:laitta K ;
++N+Sg+Ine:laissa K ;
++N+Sg+Ela:laista K ;
++N+Sg+Ill:lakhiin K ;
++N+Sg+Ade:laila K ;
++N+Sg+Abl:lailta K ;
++N+Sg+All:laile K ;
++N+Sg+Ess:lakina K ;
++N+Pl+Nom:lait K ;
++N+Pl+Gen:lakkiin K ;
++N+Pl+Par:lakkii K ;
++N+Pl+Tra:laiiksi K ;
++N+Pl+Abe:laiitta K ;
++N+Pl+Ine:laiissa K ;
++N+Pl+Ela:laiista K ;
++N+Pl+Ill:lakhiin K ;
++N+Pl+Ade:laiila K ;
++N+Pl+Abl:laiilta K ;
++N+Pl+All:laiile K ;
++N+Pl+Ess:lakiina K ;
++N+Pl+Com:lakiine K ;
+
 !LEXICON vanha_nen  !!= @CODE@ on nainen-sanoille
 !  nen_sg ;
 !  nen_pl ;
