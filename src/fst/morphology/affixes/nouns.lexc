@@ -312,7 +312,6 @@ LEXICON x_11_AO_pl !!= * @CODE@ sanat
 +Pl+Dial/Por:^Por^WG^AO%>i2          sgpl_cases_even ; !the same affix in sg and pl
 +Pl+Dial/Var:^Var^WG^AO%>i2          sgpl_cases_even ; ! TO DO: meidän täytyy tehdä lopullisen päätöksen aika- ja aita- paradigmoista var ja jok murteissa
 
-
 LEXICON n_11_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which adjectives?
 +N+Dial/Por :^Por             x_11_A0_A2I ;
 +N+Dial/Var :^Var             x_11_A0_A2I ;
@@ -2330,8 +2329,51 @@ LEXICON n_32_nu !  !!= @CODE@ oppinu
 +N+Sg       : nom_u ;
 +N: PRFPRC_OBL ;
 
+LEXICON n_11_ruoka ! !!= @CODE@ ruoka-ruovan-ruvan
++N+Sg+Nom:ruoka K ;
++N+Sg+Gen:ruovan K ;
++N+Sg+Gen:ruvan K ;
++N+Sg+Par:ruokkaa K ;
++N+Sg+Tra:ruvaksi K ;
++N+Sg+Tra:ruovaksi K ;
++N+Sg+Abe:ruvatta K ;
++N+Sg+Abe:ruovatta K ;
++N+Sg+Ine:ruvassa K ;
++N+Sg+Ine:ruovassa K ;
++N+Sg+Ela:ruvasta K ;
++N+Sg+Ela:ruovasta K ;
++N+Sg+Ill:ruokhaan K ;
++N+Sg+Ade:ruvala K ;
++N+Sg+Ade:ruovala K ;
++N+Sg+Abl:ruvalta K ;
++N+Sg+Abl:ruovalta K ;
++N+Sg+All:ruvale K ;
++N+Sg+All:ruovale K ;
++N+Sg+Ess:ruokana K ;
++N+Pl+Nom:ruvat K ;
++N+Pl+Nom:ruovat K ;
++N+Pl+Gen:ruokkiin K ;
++N+Pl+Par:ruokkii K ;
++N+Pl+Tra:ruviksi K ;
++N+Pl+Tra:ruoviksi K ;
++N+Pl+Abe:ruvitta K ;
++N+Pl+Abe:ruovitta K ;
++N+Pl+Ine:ruvissa K ;
++N+Pl+Ine:ruovissa K ;
++N+Pl+Ela:ruvista K ;
++N+Pl+Ela:ruovista K ;
++N+Pl+Ill:ruokhiin K ;
++N+Pl+Ade:ruvila K ;
++N+Pl+Ade:ruovila K ;
++N+Pl+Abl:ruvilta K ;
++N+Pl+Abl:ruovilta K ;
++N+Pl+All:ruvile K ;
++N+Pl+All:ruovile K ;
++N+Pl+Ess:ruokina K ;
++N+Pl+Com:ruokine K ;
 
-LEXICON n_11_laissa !  !!= @CODE@ laki-laissa
+
+LEXICON n_11_laissa ! !!= @CODE@ laki-laissa-lajissa
 +N+Sg+Nom:laki K ;
 +N+Sg+Gen:lajin K ;
 +N+Sg+Gen:lain K ;
