@@ -326,7 +326,9 @@ Rules
           [.#.|#:] Cns:* Vow:+ s _ :o [ %> :o | %> i2: (%> n) (%> Clt:+) # ] ;
           [.#.|#:] Cns:* Vow:+ s _ [:o|u|ä:]       %> i5: (:i)  %> [m|n]  ; ! superlatiivi 
           [.#.|#:] Cns:* Vow:+ s _ %> :e (Dial:) :e ; ! pestä:pessee
-                     [l|r|n|m] s _ :Vow %>  i7: ;
+          [.#.|#:] Cns:* Vow:+ s _ :Vow (Dial:)       %>  i7: ; ! cond. kasuta-kassuis
+          [.#.|#:] Vow:* Vow:+ s _ :Vow (Dial:)       %>  i7: ; ! cond. kiusata-kiussais
+                     [l|r|n|m] s _ :Vow %>  i7: ; ! cond. kuorsata-kuorssais
                      [l|r|n|m] s _ :i         [ %> %^V:i| (%^AO:0) %> i2: (%> n) (%> Clt:+) # ] ; ! Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                      [l|r|n|m] :s _ e: %^E2I:0 %> i2: %>   %^V: ;
                      [l|r|n|m] s _  i         %> i2: %> t %^A: ; ! meininkkiitä in Por
