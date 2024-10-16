@@ -460,6 +460,7 @@ assuut:asu v2 ;
 assuut+V+Inf+Err/Orth:asuat K ;
 assuut+V+Act+Ind+Prs+Pl3+Err/Orth:asuva K ;
 assuut+V+Act+Cond+Sg1+Err/Orth:asusin K ;
+laussuut:lausu v2 ;
 ossuut:osu v2 ;
 ossuut+V+Act+Ind+Prt+Sg3+Err/Orth:osu K ;
 paissuut:paisu v2 ;
@@ -681,6 +682,7 @@ huolestuttaat:huolestutta v2_long ;
 kauhistuttaat:kauhistutta v2_long ;
 rikastuttaat:rikastutta v2_long ;
 tukahđuttaat:tukahđutta v2_long ;
+sylkäisestäät:sylkäisestä v2_long ;
 
 näyttäyttyyt:näyttäyty v2_odd ;
 kielttäyttyyt:kielttäyty v2_odd ;
@@ -782,6 +784,7 @@ laajenttaat:laajenta v2_odd ; ! v2_ta_odd
 lujenttaat:lujenta v2_odd ;
 vaijenttaat:vaijenta v2_odd ; ! v2_ta_odd 
 ojenttaat:ojenta v2_odd ; ! v2_ta_odd 
+oijenttaat:oijenta v2_odd ; ! v2_ta_odd 
 rakenttaat:rakenta v2_odd ; ! v2_ta_odd 
 rakenttaat+Err/Orth:rakentaa v2_odd  ; 
 paimenttaat:paimenta v2_odd ; ! v2_ta_odd 
@@ -854,6 +857,7 @@ ukkostaat:ukkosta v2_odd ; ! v2_ta_odd
 hiilostaat:hiilosta v2_odd ; ! v2_ta_odd 
 kuulostaat:kuulosta v2_odd ; ! v2_ta_odd 
 kuulustaat:kuulusta v2_odd ;
+lannistaat:lannista v2_odd ;
 tulostaat:tulosta v2_odd ; ! v2_ta_odd
 arvostaat:arvosta v2_odd ; 
 sanostaat:sanosta v2_odd ; ! v2_ta_odd 
@@ -906,6 +910,7 @@ ailattaat:ailatta v2_odd ; ! v2_ta_odd
 rallattaat:rallatta v2_odd ; ! v2_ta_odd 
 sullattaat:sullatta v2_odd ; ! v2_ta_odd 
 sulattaat:sulatta v2_odd ; ! v2_ta_odd 
+toivottaat:toivotta v2_odd ;
 armattaat:armatt2a v2_odd ; ! v2_ta_odd
 armattaat+Err/Orth:armatta v2_odd ; 
 kajattaat:kajatt2a v2_odd ;
@@ -1344,6 +1349,7 @@ lämmittäät:lämmittä v2_odd ;
 kiinittäät:kiinittä v2_odd ;
 kivittäät:kivittä v2_odd ;
 kärjittäät:kärjittä v2_odd ;
+kärjistäät:kärjistä v2_odd ;
 jännittäät:jännittä v2_odd ;
 jäljittäät:jäljittä v2_odd ;
 liepittäät:liepittä v2_odd ;
@@ -1788,6 +1794,7 @@ hitistä:hit v3_ise ;
 hytistä:hyt v3_ise ;
 kiristä:kir v3_ise ;
 kratista:krat v3_ise ;
+kohista:koh v3_ise ;
 kuhista:kuh v3_ise ;
 nurista:nur v3_ise ;
 huokaista:huoka v3_ise ;
