@@ -179,7 +179,7 @@ Rules
 "Gemination 0:k"
 !! Rule: **@RULENAME@**
 0:k <=> ([a|o]) [Vow|i6:] (Vow:) k _  :o (Dial:)  %^AO: %> [:i - i3:] (%> [n|t])     #  ; ! aikkoi  ! never a:0
-        ([a|o]) [Vow|i6:] (Vow:) (l) k _  :i (Dial:) %^A2I: %> [:i - i3:] (%> [n|t])     #  ; ! poikkii, sulkkii ! never a:0
+        ([a|o]) [Vow|i6:] (Vow:) (l) [k|k2:] _  :i (Dial:) %^A2I: %> [:i - i3:] (%> [n|t])     #  ; ! poikkii, sulkkii ! never a:0
         ([a|o]) Vow       (Vow:) k _ e:0 (Dial:)        %>   i2:i      %> %^V:i  (n) #  ; ! jokkii
                 Vow:+       k _ Vow:           %> i2:i  %>  :i                      ; ! pena-penniin,huppiin,eilaki-lakkiin? was: %^V:i
                 Vow:+       k _ e:             %> i7:i  Cns                         ; ! contr verbs
@@ -198,7 +198,7 @@ Rules
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  [k|k2:] _ a: (Dial:)        [%> :a | %^AO: %> i2: (%> n) (%> Clt:+) #] ; ! virka:virkkoi
  [.#.|#:] Cns:* Vow:+   [l|r|n|m]  k _ a: (Dial:)         %^AO: %> i5: %> [m|n] ; ! superlatiivi, pimmeenarkkoiman
                         [l|r|n|m]  k _ :Vow (Dial:)       %>  i7:           ;
-                        [l|r|n|m]  k _ :i (Dial:) (%^AO:) %>    [%^V:i|i2: (%> n) (%> Clt:+) #] ; ! trenki:trenkkii Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
+                        [l|r|n|m]  [k|k2:] _ :i (Dial:) (%^AO:) %>    [%^V:i|i2: (%> n) (%> Clt:+) #] ; ! trenki:trenkkii Added ^V:i instead of just :i. Used2Be [ %^V:i - i7: ]
                         [l|r|n|m]  [k|k2:] _ e: (Dial:) %^E2I:0 %> i2: %>   %^V:  ;
                         [l|r|n|m]  k _  i (Dial:)         %> i2: %> t %^A:  ; ! meininkkiitä in Por
                         [l|r|n|m]  k _ :ö (Dial:) %> [:ö|:i (%> n) (%> Clt:+) #]          ;
