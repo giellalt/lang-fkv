@@ -149,6 +149,7 @@ Rules
         [.#.|#:] Cns:* Vow h _ [ä:|(e:)] (Dial:) (%^E2I:0) %> :i (%>) :i ; ! pyhä:pyhhii
         [.#.|#:] Cns:* Vow h _ ä: %> i5: i %> [n|m] ; ! superl. pyhhiimässä
         [.#.|#:] Cns:* Vow h _  a:i (Dial:) (%^A2I:0) %> :i ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
+        [.#.|#:] Cns:* Vow h _ :Vow (Dial:)       %>  i7: ; ! cond. vihata-vihhais
 
 "Gemination 0:j"
 !! Rule: **@RULENAME@**
@@ -161,7 +162,8 @@ Rules
         [.#.|#:] Cns:* Vow j _ u  %>     i5:  %> [m|n]               ; ! superlatiivi 
         [.#.|#:] Cns:* Vow j _ :a   (Dial:0)  %> :a                  ; ! for kuvvaa d. could be just %^Por:0
         [.#.|#:] Cns:* Vow j _ :o   (Dial:) [ %> :o | (%^AO:0) %> i2: (%> n) (%> Clt:+) # ] ;
-        [.#.|#:] Cns:* Vow j _ :o   (Dial:)           (%^AO:0) %> i5: %> [m|n]   ; ! superlatiivi 
+        [.#.|#:] Cns:* Vow j _ :o   (Dial:)           (%^AO:0) %> i5: %> [m|n]   ; ! superlatiivi
+        [.#.|#:] Cns:* Vow j _ :Vow (Dial:)       %>  i7: ; ! cond. vajota-vajjois
         [.#.|#:] Cns:* Vow j _ (e:) (Dial:) (%^E2I:0) %> :i %> :i    ; ! kivvii
         [.#.|#:] Cns:* Vow j _  a:i (Dial:) (%^A2I:0) %> :i         ; ! kuva kuvvii !
       !  [.#.|#:] Cns:* Vow:+ [l|r|n|m] j _ :ä (Dial:) %> :ä  ; !Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
@@ -397,6 +399,7 @@ Rules
         [.#.|#:] Cns:*  Vow v _  a:i (Dial:) (%^A2I:0) %> :i       ; ! kuva kuvvii ! used2be just (Dummy:0) after a:i
         [.#.|#:] Cns:*  Vow v _  ä:  (Dial:) %> :i %> :i           ; ! jyvä jyvviin, jyvvii
         [.#.|#:] Cns:*  Vow v _  ä:  (Dial:) %>  i5:  :i %> [m|n]  ; ! superlatiivi 
+        [.#.|#:] Cns:*  Vow v _ :Vow (Dial:)       %>  i7: ; ! cond. kuvata-kuvvais
        ! [.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :ä %> :ä  ; ! kanskje enta et par Cns Vow. Må ikke gi lämpim^A>mp^A>^A -> lämpimä>mpä>ä
         ![.#.|#:] Cns:*  Vow:+ [l|r|n|m] v _ :a %> :a ;
                              ! [l|r|n|m] v _ :Vow %>  i7: ;
