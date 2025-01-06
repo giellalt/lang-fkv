@@ -555,6 +555,44 @@ LEXICON v2_sauttaat !!≈ **@CODE@** ! sauttaat-sautti
 +V+Act+Inf3+Ade:sauttamalla K ;
 +V+Act+Inf3+Abe:sauttamalta K ;
 
+LEXICON v2_särkkyyt !!≈ **@CODE@** ! särkkyyt-särjyn
++V+Inf:särkkyyt K ;
++V+Act+Ind+Prs+Sg1:särjyn K ;
++V+Act+Ind+Prs+Sg2:särjyt K ;
++V+Act+Ind+Prs+Sg3:särkkyy K ;
++V+Act+Ind+Prs+Pl1:särjymä K ;
++V+Act+Ind+Prs+Pl2:särjyttä K ;
++V+Act+Ind+Prs+Pl3:särjythään K ;
++V+Act+Ind+Prt+Sg1:särjyin K ;
++V+Act+Ind+Prt+Sg2:särjyit K ;
++V+Act+Ind+Prt+Sg3:särkyi K ;
++V+Act+Ind+Prt+Pl1:särjyimä K ;
++V+Act+Ind+Prt+Pl2:särjyittä K ;
++V+Act+Ind+Prt+Pl3:särjythiin K ;
++V+Pass+Ind+Prs:särjythään K ;
++V+Pass+Ind+Prt:särjythiin K ;  
++V+Act+PrfPrc+Sg+Nom:särkyny K ;
++V+Act+PrfPrc+Pl+Nom:särkynheet K ;
++V+Act+Ind+Prt+ConNeg+Sg:särkyny K ;
++V+Act+Ind+Prt+ConNeg+Pl:särkynheet K ;
++V+Pass+PrfPrc+Sg+Nom:särjytty K ;
++V+Pass+PrfPrc+Pl+Nom:särjytyt K ;
++V+Pass+PrsPrc+Sg+Nom:särjyttävä K ;
++V+Pass+PrsPrc+Pl+Nom:särjyttävät K ;
++V+Act+Ind+Prs+ConNeg:särjy K ;
++V+Act+Cond+Sg1:särkyisin K ;
++V+Act+Cond+Sg2:särkyisit K ;
++V+Act+Cond+Sg3:särkyis K ;
++V+Act+Cond+Pl1:särkyisimmä K ;
++V+Act+Cond+Pl2:särkyisittä K ;
++V+Act+Cond+Pl3:särjyttäis K ;
++V+Pass+Cond:särjyttäis K ;
++V+Act+Inf3+Ine:särkymässä K ;
++V+Act+Inf3+Ela:särkymästä K ;
++V+Act+Inf3+Ill:särkymhään K ;
++V+Act+Inf3+Ade:särkymällä K ;
++V+Act+Inf3+Abe:särkymältä K ;
+
 LEXICON v2_tiettäät !!≈ **@CODE@** tiettäät
 +V+Inf:tä%>^Vt K ;
 +V+Inf+Err/Orth:tä%>^A K ;  !
