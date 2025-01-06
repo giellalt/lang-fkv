@@ -46,6 +46,8 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 **LEXICON v2_sauttaat** ! sauttaat-sautti
 
+**LEXICON v2_särkkyyt** ! särkkyyt-särjyn
+
 **LEXICON v2_tiettäät** tiettäät
 
 **LEXICON v2_odd** kirjoittaat:kirjoitta
