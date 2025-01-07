@@ -997,6 +997,7 @@ Vx:0 <=> :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:Vx|i:] ;
          :SurfaceCns _ (%^AO:)  %^HMETA: %> h [:Vx|i:] ;
          :SurfaceCns _  %^AO:   %^HMETA: %> h (%^V:) (:o) %> i2: ;
          :i          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ;
+         :e          _ (%^AO:)  %^HMETA: %> h (%^V:) (%>) (:o)(:o) (i2:) ;
    where Vx in ( o u y ö ) ; ! removing a, e, ä, i
 
 !! **Tests:**
