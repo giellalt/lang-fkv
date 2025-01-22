@@ -413,8 +413,6 @@ long_par        ;
 
 * LEXICON a_22_excns  = veres
 
-* LEXICON a_22_excns_even  = veres
-
 * LEXICON a_22_excns_mus  = isomus
 
 * LEXICON a_22_inen  varovainen
@@ -715,10 +713,6 @@ LEXICON n_22_inen_pl_even !  olympialaiset
 the same affix in sg and pl
 
 LEXICON n_32_nu !   oppinu
-
-LEXICON n_11_ruoka !  ruoka-ruovan-ruvan
-
-LEXICON n_11_laissa !  laki-laissa-lajissa
 
 +N:se   nomgen_px      ;
 

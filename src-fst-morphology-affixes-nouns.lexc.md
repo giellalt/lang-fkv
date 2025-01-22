@@ -267,10 +267,6 @@ the same affix in sg and pl
 
 LEXICON n_32_nu !   oppinu
 
-LEXICON n_11_ruoka !  ruoka-ruovan-ruvan
-
-LEXICON n_11_laissa !  laki-laissa-lajissa
-
 +N:se   nomgen_px      ;
 
 make+N+Pl+kom:sine K              ;
