@@ -1283,8 +1283,8 @@ LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   +Pl      :%>i2   com_ne          ;
   +Pl      :%>i2   sgpl_cases_even ;
   
-  LEXICON n_31_aa ! filee
-  +N:      x_31_aa      ;
+!  LEXICON n_31_aa ! filee
+!  +N:      x_31_aa      ;
 
    LEXICON x_31_aa
   +Sg+Nom:         K               ;
@@ -2329,92 +2329,92 @@ LEXICON n_32_nu !  !!= @CODE@ oppinu
 +N+Sg       : nom_u ;
 +N: PRFPRC_OBL ;
 
-LEXICON n_11_ruoka ! !!= @CODE@ ruoka-ruovan-ruvan
-+N+Sg+Nom:ruoka K ;
-+N+Sg+Gen:ruovan K ;
-+N+Sg+Gen:ruvan K ;
-+N+Sg+Par:ruokkaa K ;
-+N+Sg+Tra:ruvaksi K ;
-+N+Sg+Tra:ruovaksi K ;
-+N+Sg+Abe:ruvatta K ;
-+N+Sg+Abe:ruovatta K ;
-+N+Sg+Ine:ruvassa K ;
-+N+Sg+Ine:ruovassa K ;
-+N+Sg+Ela:ruvasta K ;
-+N+Sg+Ela:ruovasta K ;
-+N+Sg+Ill:ruokhaan K ;
-+N+Sg+Ade:ruvala K ;
-+N+Sg+Ade:ruovala K ;
-+N+Sg+Abl:ruvalta K ;
-+N+Sg+Abl:ruovalta K ;
-+N+Sg+All:ruvale K ;
-+N+Sg+All:ruovale K ;
-+N+Sg+Ess:ruokana K ;
-+N+Pl+Nom:ruvat K ;
-+N+Pl+Nom:ruovat K ;
-+N+Pl+Gen:ruokkiin K ;
-+N+Pl+Par:ruokkii K ;
-+N+Pl+Tra:ruviksi K ;
-+N+Pl+Tra:ruoviksi K ;
-+N+Pl+Abe:ruvitta K ;
-+N+Pl+Abe:ruovitta K ;
-+N+Pl+Ine:ruvissa K ;
-+N+Pl+Ine:ruovissa K ;
-+N+Pl+Ela:ruvista K ;
-+N+Pl+Ela:ruovista K ;
-+N+Pl+Ill:ruokhiin K ;
-+N+Pl+Ade:ruvila K ;
-+N+Pl+Ade:ruovila K ;
-+N+Pl+Abl:ruvilta K ;
-+N+Pl+Abl:ruovilta K ;
-+N+Pl+All:ruvile K ;
-+N+Pl+All:ruovile K ;
-+N+Pl+Ess:ruokina K ;
-+N+Pl+Com:ruokine K ;
+!LEXICON n_11_ruoka ! !!= @CODE@ ruoka-ruovan-ruvan
+!+N+Sg+Nom:ruoka K ;
+!+N+Sg+Gen:ruovan K ;
+!+N+Sg+Gen:ruvan K ;
+!+N+Sg+Par:ruokkaa K ;
+!+N+Sg+Tra:ruvaksi K ;
+!+N+Sg+Tra:ruovaksi K ;
+!+N+Sg+Abe:ruvatta K ;
+!+N+Sg+Abe:ruovatta K ;
+!+N+Sg+Ine:ruvassa K ;
+!+N+Sg+Ine:ruovassa K ;
+!+N+Sg+Ela:ruvasta K ;
+!+N+Sg+Ela:ruovasta K ;
+!+N+Sg+Ill:ruokhaan K ;
+!+N+Sg+Ade:ruvala K ;
+!+N+Sg+Ade:ruovala K ;
+!+N+Sg+Abl:ruvalta K ;
+!+N+Sg+Abl:ruovalta K ;
+!+N+Sg+All:ruvale K ;
+!+N+Sg+All:ruovale K ;
+!+N+Sg+Ess:ruokana K ;
+!+N+Pl+Nom:ruvat K ;
+!+N+Pl+Nom:ruovat K ;
+!+N+Pl+Gen:ruokkiin K ;
+!+N+Pl+Par:ruokkii K ;
+!+N+Pl+Tra:ruviksi K ;
+!+N+Pl+Tra:ruoviksi K ;
+!+N+Pl+Abe:ruvitta K ;
+!+N+Pl+Abe:ruovitta K ;
+!+N+Pl+Ine:ruvissa K ;
+!+N+Pl+Ine:ruovissa K ;
+!+N+Pl+Ela:ruvista K ;
+!+N+Pl+Ela:ruovista K ;
+!+N+Pl+Ill:ruokhiin K ;
+!+N+Pl+Ade:ruvila K ;
+!+N+Pl+Ade:ruovila K ;
+!+N+Pl+Abl:ruvilta K ;
+!+N+Pl+Abl:ruovilta K ;
+!+N+Pl+All:ruvile K ;
+!+N+Pl+All:ruovile K ;
+!+N+Pl+Ess:ruokina K ;
+!+N+Pl+Com:ruokine K ;
 
 
-LEXICON n_11_laissa ! !!= @CODE@ laki-laissa-lajissa
-+N+Sg+Nom:laki K ;
-+N+Sg+Gen:lajin K ;
-+N+Sg+Gen:lain K ;
-+N+Sg+Par:lakkii K ;
-+N+Sg+Tra:lajiksi K ;
-+N+Sg+Tra:laiksi K ;
-+N+Sg+Abe:lajitta K ;
-+N+Sg+Abe:laitta K ;
-+N+Sg+Ine:lajissa K ;
-+N+Sg+Ine:laissa K ;
-+N+Sg+Ela:lajista K ;
-+N+Sg+Ela:laista K ;
-+N+Sg+Ill:lakhiin K ;
-+N+Sg+Ade:lajila K ;
-+N+Sg+Ade:laila K ;
-+N+Sg+Abl:lajilta K ;
-+N+Sg+Abl:lailta K ;
-+N+Sg+All:lajile K ;
-+N+Sg+All:laile K ;
-+N+Sg+Ess:lakina K ;
-+N+Pl+Nom:lajit K ;
-+N+Pl+Nom:lait K ;
-+N+Pl+Gen:lakkiin K ;
-+N+Pl+Par:lakkii K ;
-+N+Pl+Tra:lajiiksi K ;
-+N+Pl+Tra:laiiksi K ;
-+N+Pl+Abe:lajiitta K ;
-+N+Pl+Abe:laiitta K ;
-+N+Pl+Ine:lajiissa K ;
-+N+Pl+Ine:laiissa K ;
-+N+Pl+Ela:lajiista K ;
-+N+Pl+Ela:laiista K ;
-+N+Pl+Ill:lakhiin K ;
-+N+Pl+Ade:lajiila K ;
-+N+Pl+Ade:laiila K ;
-+N+Pl+Abl:lajiilta K ;
-+N+Pl+Abl:laiilta K ;
-+N+Pl+All:lajiile K ;
-+N+Pl+All:laiile K ;
-+N+Pl+Ess:lakiina K ;
-+N+Pl+Com:lakiine K ;
+!LEXICON n_11_laissa ! !!= @CODE@ laki-laissa-lajissa
+!+N+Sg+Nom:laki K ;
+!+N+Sg+Gen:lajin K ;
+!+N+Sg+Gen:lain K ;
+!+N+Sg+Par:lakkii K ;
+!+N+Sg+Tra:lajiksi K ;
+!+N+Sg+Tra:laiksi K ;
+!+N+Sg+Abe:lajitta K ;
+!+N+Sg+Abe:laitta K ;
+!+N+Sg+Ine:lajissa K ;
+!+N+Sg+Ine:laissa K ;
+!+N+Sg+Ela:lajista K ;
+!+N+Sg+Ela:laista K ;
+!+N+Sg+Ill:lakhiin K ;
+!+N+Sg+Ade:lajila K ;
+!+N+Sg+Ade:laila K ;
+!+N+Sg+Abl:lajilta K ;
+!+N+Sg+Abl:lailta K ;
+!+N+Sg+All:lajile K ;
+!+N+Sg+All:laile K ;
+!+N+Sg+Ess:lakina K ;
+!+N+Pl+Nom:lajit K ;
+!+N+Pl+Nom:lait K ;
+!+N+Pl+Gen:lakkiin K ;
+!+N+Pl+Par:lakkii K ;
+!+N+Pl+Tra:lajiiksi K ;
+!+N+Pl+Tra:laiiksi K ;
+!+N+Pl+Abe:lajiitta K ;
+!+N+Pl+Abe:laiitta K ;
+!+N+Pl+Ine:lajiissa K ;
+!+N+Pl+Ine:laiissa K ;
+!+N+Pl+Ela:lajiista K ;
+!+N+Pl+Ela:laiista K ;
+!+N+Pl+Ill:lakhiin K ;
+!+N+Pl+Ade:lajiila K ;
+!+N+Pl+Ade:laiila K ;
+!+N+Pl+Abl:lajiilta K ;
+!+N+Pl+Abl:laiilta K ;
+!+N+Pl+All:lajiile K ;
+!+N+Pl+All:laiile K ;
+!+N+Pl+Ess:lakiina K ;
+!+N+Pl+Com:lakiine K ;
 
 !LEXICON vanha_nen  !!= @CODE@ on nainen-sanoille
 !  nen_sg ;
@@ -2839,7 +2839,7 @@ LEXICON Px-Vn
 
 !  +Pl+Dial/-Por:^WG              nom_t           ;
 !  +Pl+Dial/-Por:^WG^AO^I0%>i2    gen_tten        ;! toolitten. Dialect ! longgenpl, eira 5322, korpus.
-!   +Pl+Dial/Var:^AO%>j           par_A           ; ! Use i:j in twolc j, see below
+!  +Pl+Dial/Var:^AO%>j           par_A           ; ! Use i:j in twolc j, see below
 !  +Pl+Dial/-Por:^AO^I0%>i2       par_A           ;
 !  +Pl+Dial/-Por:^AO^HMETA        ill_hVin        ; ! toolhiin
 !  +Pl+Dial/-Por:^AO^I0%>i2       ess_nA          ;

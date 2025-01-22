@@ -594,10 +594,10 @@ LEXICON a_22_excns !!= * @CODE@ = veres
 +A:kse comp_m_odd   ;
 +A:ksi5i superl_m_odd ; ! Do they have superl? TODO
 
-LEXICON a_22_excns_even !!= * @CODE@ = veres
-+A:    x_22_excns_even   ;
-+A:kse comp_m_even   ;
-+A:ksi5i superl_m_even ; ! Do they have superl? TODO
+!LEXICON a_22_excns_even !!= * @CODE@ = veres
+!+A:    x_22_excns_even   ;
+!+A:kse comp_m_even   ;
+!+A:ksi5i superl_m_even ; ! Do they have superl? TODO
 
 LEXICON a_22_excns_mus !!= * @CODE@ = isomus
 +A:    x_22_excns_even   ;
