@@ -670,15 +670,15 @@ LEXICON ARABICCASEORD
        +Pl+Ela:%>nsista  # ;
        +Pl+Com:%>nnine # ;
 
-!LEXICON ARABICCASECOLL
-!  +Pl+Nom:%>t       # ;
-! +Arab+Pl+Acc:%>sidie    # ;
-! +Arab+Pl+Gen:%>si       # ;
-! +Arab+Pl+Ill:%>sidie    # ;
-! +Arab+Pl+Ine:%>sinie    # ;
-! +Arab+Pl+Ela:%>sijstie  # ;
-! +Arab+Pl+Com:%>sigujmie # ;
-!    +Arab+Ess:%>sinie    # ;
+LEXICON ARABICCASECOLL
+  +Pl+Nom:%>t       # ;
+ +Arab+Pl+Acc:%>sidie    # ;
+ +Arab+Pl+Gen:%>si       # ;
+ +Arab+Pl+Ill:%>sidie    # ;
+ +Arab+Pl+Ine:%>sinie    # ;
+ +Arab+Pl+Ela:%>sijstie  # ;
+ +Arab+Pl+Com:%>sigujmie # ;
+    +Arab+Ess:%>sinie    # ;
 
 LEXICON ARABICCASEORD-ERR
 ARABICCASEORD ; ! XXX look at this
