@@ -1,7 +1,6 @@
 * `src/`
     * `cg3/`
         * [disambiguator.cg3](src-cg3-disambiguator.cg3.html) ([src](https://github.com/giellalt/lang-fkv/blob/main/src/cg3/disambiguator.cg3))
-        * [korp.cg3](src-cg3-korp.cg3.html) ([src](https://github.com/giellalt/lang-fkv/blob/main/src/cg3/korp.cg3))
         * [old_disambiguation.cg3](src-cg3-old_disambiguation.cg3.html) ([src](https://github.com/giellalt/lang-fkv/blob/main/src/cg3/old_disambiguation.cg3))
     * `fst/`
         * `morphology/`
