@@ -25,8 +25,8 @@ morf_codes="+A+Sg+Nom \
             +A+Sg+Ess \
             +A+Pl+Nom \
             +A+Pl+Gen \
-            +A+Sg+Comp+Nom \
-            +A+Sg+Comp+Gen \
+            +A+Sg+Compar+Nom \
+            +A+Sg+Compar+Gen \
             +A+Sg+Superl+Nom \
             +A+Sg+Superl+Gen"
 
