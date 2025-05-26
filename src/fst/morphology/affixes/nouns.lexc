@@ -1931,6 +1931,26 @@ LEXICON x_32_as
   +Pl      :h%>a%>i2     com_ne            ;
   +Pl      :h%>a%>i2     sgpl_cases_even   ;
 
+LEXICON x_32_vaka
+  +Sg+Nom:a^WG%>         K                 ;
+  +Sg+Par:kaa K ;
+  +Sg      :haa          ill_sseen         ;
+!      +Pl+Ill:h%>aissiin   K                 ;
+  +Sg      :h%>aa        gen_n_sg          ;
+  +Sg      :h%>aa        ess_nA             ;
+  +Sg      :h%>aa        sgpl_cases_even   ;
+
+  +Pl      :h%>aa        nom_t             ;
+  +Pl      :h%>a%>i2     gen_tten          ; ! asukkhaitten
+  +Pl+Dial/Var:h%>a%>je     gen_n             ; ! rakkhajen
+  +Pl      :h%>a%>i2     par_tA            ; ! asukkhaita
+  +Pl+Dial/Var:h%>a%>j      par_A             ; ! rakkhaja
+  ! +N+Pl+Ess:h%>a%>i2%>na PxxK              ;
+  +Pl      :h%>ai        ill_ssiin         ;
+  +Pl      :h%>aa%>i2    ess_nA             ;
+  +Pl      :h%>a%>i2     com_ne            ;
+  +Pl      :h%>a%>i2     sgpl_cases_even   ;
+
 LEXICON n_32_as_pl !!= @CODE@ rakas, asukas
 +N         : x_32_as_pl ;
 
