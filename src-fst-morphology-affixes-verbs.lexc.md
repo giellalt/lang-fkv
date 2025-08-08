@@ -52,6 +52,8 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 **LEXICON v2_odd** kirjoittaat:kirjoitta
 
+**LEXICON v2_odd_UUt** hyväksyyt:hyväksy
+
 ### Verbiluokat v3...
 
 **LEXICON v3_ele_short** = nielä:niel
