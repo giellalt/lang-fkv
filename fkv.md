@@ -1941,7 +1941,7 @@ Number-person
 * **+HYPH** = Hyphenation mark
 * **+Attr** = Attributive form, hmm, check, for names?
 * **+LEFT** = left parenth
-* **+RIGHT** = right parenth
+* **+RIGHT +MIDDLE** = right parenth
 * **+CLBfinal**  Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
 
 ### Speller tags
