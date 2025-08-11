@@ -118,7 +118,7 @@ Multichar_Symbols
 +HYPH   !!≈ * **@CODE@** = Hyphenation mark
 +Attr   !!≈ * **@CODE@** = Attributive form, hmm, check, for names?
 +LEFT  !!≈ * **@CODE@** = left parenth
-+RIGHT  !!≈ * **@CODE@** = right parenth
++RIGHT +MIDDLE !!≈ * **@CODE@** = right parenth
 +CLBfinal       !!≈ * **@CODE@**  Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
 
 !! ### Speller tags
