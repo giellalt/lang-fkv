@@ -380,10 +380,11 @@ LEXICON sgmuut_indef
 +Nom:pi K ;
 +Gen:an K ;
 +Ill:phaan K ;
++Ill:haan K ;
 +Par:ppaa K ;
-+Par:maa K ;
++Par:aa K ;
 +Ess:panna    K ;
-+Ess:inna    K ;
++Ess:anna    K ;
 +Tra:aksi   K ;
 +Ine:assa    K ;
 +Ela:asta    K ;
@@ -393,7 +394,38 @@ LEXICON sgmuut_indef
 
 
 LEXICON plmuut_indef
-+Gen:itten K ;
++Nom:at K ;
++Gen:iitten K ;
++Ill:phiin K ;
++Ill:hiin K ;
++Par:ppii K ;
++Par:ppiita K ;
++Par:mia K ;
++Ess:pinna    K ;
++Ess:inna    K ;
++Tra:iksi  K ;
++Ine:issa  K ;
++Ela:ista  K ;
++All:ille  K ;
++Ade:illa  K ;
++Abl:ilta  K ;
+
+LEXICON usheempi_kvant_sg
++Nom:pi K ;
++Gen:an K ;
++Ill:phaan K ;
++Par:ppaa K ;
++Ess:panna    K ;
++Tra:aksi   K ;
++Ine:assa    K ;
++Ela:asta    K ;
++All:alle    K ;
++Ade:alla    K ;
++Abl:alta    K ;
+
+LEXICON usheempi_kvant_pl
++Nom:at K ;
++Gen:iitten K ;
 +Ill:phiin K ;
 +Par:ppii K ;
 +Par:ppiita K ;
@@ -406,6 +438,7 @@ LEXICON plmuut_indef
 +All:ille  K ;
 +Ade:illa  K ;
 +Abl:ilta  K ;
+
 
 
 
@@ -504,30 +537,56 @@ LEXICON jokhai_kvant
 
 
 LEXICON kummoi_kvant
-+Nom:nen       K ;
-+Gen:sen    K ;
-+Ill:sheen  K ;
-+Par:sta   K ;
-+Ess:sena    K ;
-+Tra:seksi   K ;
-+Ine:sessa   K ;
-+Ela:sesta   K ;
-+All:selle    K ;
-+Ade:sella    K ;
-+Abl:selta   K ;
++Sg+Nom:nen     K ;
++Sg+Gen:sen     K ;
++Sg+Ill:sheen   K ;
++Sg+Par:sta     K ;
++Sg+Ess:senna   K ;
++Sg+Tra:seksi   K ;
++Sg+Ine:sessa   K ;
++Sg+Ela:sesta   K ;
++Sg+All:selle   K ;
++Sg+Ade:sella   K ;
++Sg+Abl:selta   K ;
+			    
++Pl+Nom:set      K ;
++Pl+Gen:sten     K ;
++Pl+Ill:shiin    K ;
++Pl+Par:ssii     K ;
++Pl+Par:ssiita   K ;
++Pl+Ess:sinna    K ;
++Pl+Tra:siksi    K ;
++Pl+Ine:sissa    K ;
++Pl+Ela:sista    K ;
++Pl+All:sille    K ;
++Pl+Ade:silla    K ;
++Pl+Abl:silta    K ;
 
 LEXICON kumpai_kvant
-+Nom:nen       K ;
-+Gen:sen    K ;
-+Ill:sheen  K ;
-+Par:sta   K ;
-+Ess:sena    K ;
-+Tra:seksi   K ;
-+Ine:sessa   K ;
-+Ela:sesta   K ;
-+All:selle    K ;
-+Ade:sella    K ;
-+Abl:selta   K ;
++Sg+Nom:nen     K ;
++Sg+Gen:sen     K ;
++Sg+Ill:sheen   K ;
++Sg+Par:sta     K ;
++Sg+Ess:senna   K ;
++Sg+Tra:seksi   K ;
++Sg+Ine:sessa   K ;
++Sg+Ela:sesta   K ;
++Sg+All:selle   K ;
++Sg+Ade:sella   K ;
++Sg+Abl:selta   K ;
+			    
++Pl+Nom:set      K ;
++Pl+Gen:sten     K ;
++Pl+Ill:shiin    K ;
++Pl+Par:ssii     K ;
++Pl+Par:ssiita   K ;
++Pl+Ess:sinna    K ;
++Pl+Tra:siksi    K ;
++Pl+Ine:sissa    K ;
++Pl+Ela:sista    K ;
++Pl+All:sille    K ;
++Pl+Ade:silla    K ;
++Pl+Abl:silta    K ;
 
 LEXICON minkalai_kvant 
 +Nom:nen       K ;
@@ -548,8 +607,8 @@ LEXICON minkalai_kvant
 LEXICON ainut_kvant
  +Nom:a       K ;
  +Gen:an     K ;
- +Ill:aan    K ;
- +Par:asta   K ;
+ +Ill:haan    K ;
+ +Par:aa     K ;
  +Ess:ana    K ;
  +Tra:aksi   K ;
  +Ine:assa   K ;
@@ -559,10 +618,10 @@ LEXICON ainut_kvant
  +Abl:alta   K ;
 
 LEXICON plainut_kvant
- +Nom:at       K ;
+ +Nom:at      K ;
  +Gen:oin     K ;
- +Ill:oihin    K ;
- +Par:oista   K ;
+ +Ill:hoin    K ;
+ +Par:oi      K ;
  +Ess:aina    K ;
  +Tra:aiksi   K ;
  +Ine:oissa   K ;
