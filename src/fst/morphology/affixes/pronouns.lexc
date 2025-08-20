@@ -757,16 +757,27 @@ LEXICON moni_kvant
 
 LEXICON mones_kvant
 +Sg+Nom:es K ;
++Sg+Par:etta K ;
 +Sg+Par:esta K ;
++Sg+Gen:enen K ;
 +Sg+Gen:esen K ;
++Sg+Ill:entheen   K ;
 +Sg+Ill:esheen   K ;
++Sg+Ess:entenna    K ;
 +Sg+Ess:esenna    K ;
++Sg+Tra:eneksi   K ;
 +Sg+Tra:eseksi   K ;
++Sg+Ine:enessa   K ;
 +Sg+Ine:esessa   K ;
++Sg+Ela:enesta   K ;
 +Sg+Ela:esesta   K ;
++Sg+All:enelle   K ;
 +Sg+All:eselle   K ;
++Sg+Ade:enella    K ;
 +Sg+Ade:esella    K ;
++Sg+Abl:enelta   K ;
 +Sg+Abl:eselta   K ;
++Pl+Nom:enet K ;
 +Pl+Nom:eset K ;
 +Pl+Par:enssii K ;
 +Pl+Par:enssiita K ;
@@ -780,30 +791,30 @@ LEXICON mones_kvant
 +Pl+Ade:ensilla    K ;
 +Pl+Abl:ensilta   K ;
 
-LEXICON monen_kvant
-+Sg+Nom:es K ;
-+Sg+Par:etta K ;
-+Sg+Gen:enen K ;
-+Sg+Ill:entheen   K ;
-+Sg+Ess:entenna    K ;
-+Sg+Tra:eneksi   K ;
-+Sg+Ine:enessa   K ;
-+Sg+Ela:enesta   K ;
-+Sg+All:enelle   K ;
-+Sg+Ade:enella    K ;
-+Sg+Abl:enelta   K ;
-+Pl+Nom:enet K ;
-+Pl+Par:enssii K ;
-+Pl+Par:enssiita K ;
-+Pl+Gen:enssiitten K ;
-+Pl+Ill:enshiin   K ;
-+Pl+Ess:ensinna    K ;
-+Pl+Tra:ensiksi   K ;
-+Pl+Ine:ensissa   K ;
-+Pl+Ela:ensista   K ;
-+Pl+All:ensille   K ;
-+Pl+Ade:ensilla    K ;
-+Pl+Abl:ensilta   K ;
+!LEXICON monen_kvant
+!+Sg+Nom:es K ;
+!+Sg+Par:etta K ;
+!+Sg+Gen:enen K ;
+!+Sg+Ill:entheen   K ;
+!+Sg+Ess:entenna    K ;
+!+Sg+Tra:eneksi   K ;
+!+Sg+Ine:enessa   K ;
+!+Sg+Ela:enesta   K ;
+!+Sg+All:enelle   K ;
+!+Sg+Ade:enella    K ;
+!+Sg+Abl:enelta   K ;
+!+Pl+Nom:enet K ;
+!+Pl+Par:enssii K ;
+!+Pl+Par:enssiita K ;
+!+Pl+Gen:enssiitten K ;
+!+Pl+Ill:enshiin   K ;
+!+Pl+Ess:ensinna    K ;
+!+Pl+Tra:ensiksi   K ;
+!+Pl+Ine:ensissa   K ;
+!+Pl+Ela:ensista   K ;
+!+Pl+All:ensille   K ;
+!+Pl+Ade:ensilla    K ;
+!+Pl+Abl:ensilta   K ;
 
 
 
