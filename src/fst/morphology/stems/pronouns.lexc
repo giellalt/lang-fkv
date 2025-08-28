@@ -92,11 +92,11 @@ toinen+Pron+Recipr:toi                  toisen ;
 
 joku+Pron+Indef:jo                      joku_indef ;
 muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
-muutampi+Pron+Indef+pl:muutam           plmuut_indef ;
+muutampi+Pron+Indef+Pl:muutam           plmuut_indef ;
 !!!muutama+Pron+Indef+Pl:muutam			TODO
-muutamat+Pron+Indef+Pl:muutamat         K   ;
-!muutamat+Err/Orth:muutammat             K   ; 
-muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
+!muutamat+Pron+Indef+Pl:muutamat         K   ;
+muutamat+Err/Orth:muutammat             K   ; 
+!muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
 muutamat+Err/Orth:muutamm               plmuut_indef ; 
 
 sama+Pron+Indef:sama                    x_11_AO ;
