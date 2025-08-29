@@ -376,39 +376,37 @@ LEXICON jokuinf
 +Abl:ltaki   K ;
 
 
-LEXICON sgmuut_indef
-+Nom:pi K ;
-+Gen:an K ;
-+Ill:phaan K ;
-+Ill:haan K ;
-+Par:ppaa K ;
-+Par:aa K ;
-+Ess:panna    K ;
-+Ess:anna    K ;
-+Tra:aksi   K ;
-+Ine:assa    K ;
-+Ela:asta    K ;
-+All:alle    K ;
-+Ade:alla    K ;
-+Abl:alta    K ;
-
-
-LEXICON plmuut_indef
-+Nom:at K ;
-+Gen:iitten K ;
-+Ill:phiin K ;
-+Ill:hiin K ;
-+Par:ppii K ;
-+Par:ppiita K ;
-+Par:mia K ;
-+Ess:pinna    K ;
-+Ess:inna    K ;
-+Tra:iksi  K ;
-+Ine:issa  K ;
-+Ela:ista  K ;
-+All:ille  K ;
-+Ade:illa  K ;
-+Abl:ilta  K ;
+LEXICON muutampi_indef
++Sg+Nom:pi K ;
++Sg+Gen:an K ;
++Sg+Ill:phaan K ;
++Sg+Ill:haan K ;
++Sg+Par:ppaa K ;
++Sg+Par:aa K ;
++Sg+Ess:panna    K ;
++Sg+Ess:anna    K ;
++Sg+Tra:aksi   K ;
++Sg+Ine:assa    K ;
++Sg+Ela:asta    K ;
++Sg+All:alle    K ;
++Sg+Ade:alla    K ;
++Sg+Abl:alta    K ;
++Pl+Nom:at K ;
++Pl+Gen:iitten K ;
++Pl+Ill:phiin K ;
++Pl+Ill:hiin K ;
++Pl+Par:ppii K ;
++Pl+Par:ppiita K ;
++Pl+Par:mia K ;
++Pl+Ess:pinna    K ;
++Pl+Ess:inna    K ;
++Pl+Tra:iksi  K ;
++Pl+Ine:issa  K ;
++Pl+Ela:ista  K ;
++Pl+All:ille  K ;
++Pl+Ade:illa  K ;
++Pl+Abl:ilta  K ;
++Pl+Com:pinne K ;
 
 LEXICON usheempi_kvant_sg
 +Nom:pi K ;
@@ -436,6 +434,8 @@ LEXICON usheempi_kvant_pl
 +All:ille  K ;
 +Ade:illa  K ;
 +Abl:ilta  K ;
++Com:pinne K ;
+
 
 
 LEXICON enniin_kvant_sg
@@ -464,6 +464,34 @@ LEXICON enniin_kvant_pl
 +All:mille  K ;
 +Ade:millä  K ;
 +Abl:miltä  K ;
++Com:mpinne K ;
+
+
+LEXICON puolitoista_kvant
++Sg+Nom:itoista K ;
++Sg+Gen:entoista K ;
++Sg+Ill:heentoista K ;
++Sg+Par:tatoista K ;
++Sg+Ess:enatoista    K ;
++Sg+Tra:eksitoista  K ;
++Sg+Ine:essatoista  K ;
++Sg+Ela:estatoista  K ;
++Sg+All:eletoista  K ;
++Sg+Ade:elatoista  K ;
++Sg+Abl:eltatoista  K ;
++Pl+Nom:ettoista K ;
++Pl+Gen:iintoista K ;
++Pl+Gen:tentoista K ;
++Pl+Ill:hiintoista K ;
++Pl+Par:iitoista K ;
++Pl+Ess:inatoista    K ;
++Pl+Tra:iksitoista  K ;
++Pl+Ine:issatoista  K ;
++Pl+Ela:istatoista  K ;
++Pl+All:iletoista  K ;
++Pl+Ade:ilatoista  K ;
++Pl+Abl:iltatoista  K ;
++Pl+Com:inetoista K ;
 
 
 

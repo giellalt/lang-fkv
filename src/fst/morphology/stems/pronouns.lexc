@@ -91,13 +91,12 @@ toinen+Pron+Recipr:toi                  toisen ;
 
 
 joku+Pron+Indef:jo                      joku_indef ;
-muutampi+Pron+Indef+Sg:muutam           sgmuut_indef ;
-muutampi+Pron+Indef+Pl:muutam           plmuut_indef ;
+muutampi+Pron+Indef:muutam           muutampi_indef ;
 !!!muutama+Pron+Indef+Pl:muutam			TODO
 !muutamat+Pron+Indef+Pl:muutamat         K   ;
 muutamat+Err/Orth:muutammat             K   ; 
 !muutamat+Pron+Indef+Pl:muutam           plmuut_indef ;
-muutamat+Err/Orth:muutamm               plmuut_indef ; 
+muutamat+Err/Orth:muutamm               K ; 
 
 sama+Pron+Indef:sama                    x_11_AO ;
 
@@ -146,6 +145,7 @@ kumpikhaan+Pron+Qu:kump         kump_kielto;
 
 !!Lukumäärän pronomenit
 
+puolitoista+Pron+Qu:puol           puolitoista_kvant ;
 ussee+Pron+Qu+Sg:us                   sgus_kvant ;
 ussee+Pron+Qu+Pl:ushe                 plushe_kvant ;
 ussee+Pron+Qu+Pl:us                   plus_kvant ;
