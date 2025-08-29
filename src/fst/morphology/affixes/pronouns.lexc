@@ -408,6 +408,33 @@ LEXICON muutampi_indef
 +Pl+Abl:ilta  K ;
 +Pl+Com:pinne K ;
 
+LEXICON muutama_indef
++Sg+Nom:a K ;
++Sg+Gen:an K ;
++Sg+Ill:haan K ;
++Sg+Par:aa K ;
++Sg+Ess:anna    K ;
++Sg+Tra:aksi   K ;
++Sg+Ine:assa    K ;
++Sg+Ela:asta    K ;
++Sg+All:alle    K ;
++Sg+Ade:alla    K ;
++Sg+Abl:alta    K ;
++Pl+Nom:at K ;
++Pl+Gen:iitten K ;
++Pl+Ill:hiin K ;
++Pl+Par:ii K ;
++Pl+Par:iita K ;
++Pl+Ess:inna    K ;
++Pl+Tra:iksi  K ;
++Pl+Ine:issa  K ;
++Pl+Ela:ista  K ;
++Pl+All:ille  K ;
++Pl+Ade:illa  K ;
++Pl+Abl:ilta  K ;
++Pl+Com:inne K ;
+
+
 LEXICON usheempi_kvant_sg
 +Nom:pi K ;
 +Gen:an K ;
@@ -497,18 +524,30 @@ LEXICON puolitoista_kvant
 
 
 LEXICON yh_indef
-+Nom:yksi       K ;
-+Gen:yhđen     K ;
-+Gen:yhen     K ; !đ
-+Ill:yhtheen   K ;
-+Par:yhtä    K ;
-+Ess:yhtenä    K ;
-+Tra:yhđeksi   K ;
-+Ine:yhđessä   K ;
-+Ela:yhđestä   K ;
-+All:yhđele    K ;
-+Ade:yhđelä    K ;
-+Abl:yhđeltä   K ;
++Sg+Nom:yksi       K ;
++Sg+Gen:yhđen     K ;
+!+Sg+Gen:yhen     K ; !đ
++Sg+Ill:yhtheen   K ;
++Sg+Par:yhtä    K ;
++Sg+Ess:yhtenä    K ;
++Sg+Tra:yhđeksi   K ;
++Sg+Ine:yhđessä   K ;
++Sg+Ela:yhđestä   K ;
++Sg+All:yhđele    K ;
++Sg+Ade:yhđelä    K ;
++Sg+Abl:yhđeltä   K ;
++Pl+Nom:yhđet       K ;
++Pl+Gen:yksiin     K ;
++Pl+Ill:ykshiin   K ;
++Pl+Par:yksii    K ;
++Pl+Ess:yksinä    K ;
++Pl+Tra:yksiksi   K ;
++Pl+Ine:yksissä   K ;
++Pl+Ela:yksistä   K ;
++Pl+All:yksile    K ;
++Pl+Ade:yksilä    K ;
++Pl+Abl:yksilä   K ;
++Pl+Com:yksine   K ;
 
 
 LEXICON kaik_kvant
@@ -539,6 +578,7 @@ LEXICON kaik_kvant
 +Pl+All:kaikile    K ;
 +Pl+Ade:kaikila    K ;
 +Pl+Abl:kaikilta   K ;
++Pl+Com:kaikine    K ;
 
 
 LEXICON koko_kvant
@@ -615,6 +655,8 @@ LEXICON kummoi_kvant
 +Pl+All:sille    K ;
 +Pl+Ade:silla    K ;
 +Pl+Abl:silta    K ;
++Pl+Com:sinne   K ;
+
 
 LEXICON kumpai_kvant
 +Sg+Nom:nen     K ;
@@ -641,6 +683,7 @@ LEXICON kumpai_kvant
 +Pl+All:sille    K ;
 +Pl+Ade:silla    K ;
 +Pl+Abl:silta    K ;
++Pl+Com:sinne   K ;
 
 LEXICON minkalai_kvant 
 +Nom:nen       K ;
@@ -760,17 +803,17 @@ LEXICON plkum_kvant
 
 
 LEXICON molem_kvant
-+Sg+Nom:pi     K ;
-+Sg+Gen:an     K ;
-+Sg+Ill:phaan   K ;
-+Sg+Par:ppaa     K ;
-+Sg+Ess:panna   K ;
-+Sg+Tra:aksi   K ;
-+Sg+Ine:assa   K ;
-+Sg+Ela:asta   K ;
-+Sg+All:alle   K ;
-+Sg+Ade:alla   K ;
-+Sg+Abl:alta   K ;
+!+Sg+Nom:pi     K ;
+!+Sg+Gen:an     K ;
+!+Sg+Ill:phaan   K ;
+!+Sg+Par:ppaa     K ;
+!+Sg+Ess:panna   K ;
+!+Sg+Tra:aksi   K ;
+!+Sg+Ine:assa   K ;
+!+Sg+Ela:asta   K ;
+!+Sg+All:alle   K ;
+!+Sg+Ade:alla   K ;
+!+Sg+Abl:alta   K ;
 			    
 +Pl+Nom:at      K ;
 +Pl+Gen:iitten     K ;
@@ -784,6 +827,7 @@ LEXICON molem_kvant
 +Pl+All:ille    K ;
 +Pl+Ade:illa    K ;
 +Pl+Abl:ilta    K ;
++Pl+Com:pinne K ;
 
 LEXICON moni_kvant
 +Sg+Nom:i K ;
