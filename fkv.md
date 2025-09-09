@@ -4,17 +4,17 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-disambiguator.cg3.md 
+## src-cg3-disambiguator.cg3.md 
 
 
 
-# Disambiguator for Kven
+## Disambiguator for Kven
 
-## Sets
+### Sets
 
 Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 
-### Part-of-Speech
+#### Part-of-Speech
 * N = noun
 * A = adjective
 * Num = numeral
@@ -26,7 +26,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pron = pronoun
 * Interj = interjection
 
-### Numerus
+#### Numerus
 
 * Sg = Singular
 * Pl = Plural
@@ -37,7 +37,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pl2 = Plural 2.p.
 * Pl3 = Plural 3.p.
 
-### Cases
+#### Cases
 * Nom
 * Gen
 * Acc
@@ -55,7 +55,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Com
 * SUBJ-CASE = Nom Par
 
-### Types
+#### Types
 * Prop = Proper noun
 * Interr = Interrogative
 * Dem = demonstrative pron
@@ -79,7 +79,7 @@ Interrpronpl "kuka" ja "mikä"
 
 * Sem/Fem = feminin propernoun
 
-## Sets with more members
+### Sets with more members
 
 * WORD = all PoS
 
@@ -101,11 +101,11 @@ Verbs
 
 * SV-BOUNDARY = words that start a sentence and finite verb
 
-## Disambiguation rules
+### Disambiguation rules
 
-### Dialects
+#### Dialects
 
-### Early rules
+#### Early rules
 
 * __person_test__ selects finite verb if there is a Pron Pers to the left
 
@@ -121,7 +121,7 @@ Possessive suffixes
 
 Numeral phrases
 
-### Preposition/postposition/adverb rules
+#### Preposition/postposition/adverb rules
 
 * **Prifgenpar** selects  preposition to the left of Gen or Par
 
@@ -129,7 +129,7 @@ Numeral phrases
 
 * **vasthaan**
 
-## Rules for mapping @CVP and @CNP on the CC and CS
+### Rules for mapping @CVP and @CNP on the CC and CS
 
 * **CVP** maps @CVP to CS and mutta
 
@@ -137,44 +137,44 @@ Numeral phrases
 
 * **CNPifInf** maps @CNP to CC between two Inf
 
-## Case rules
+### Case rules
 
-### Partitive
+#### Partitive
 
 Genitive
 
-### Illative
+#### Illative
 
-## Number rules
+### Number rules
 
-## More disambiguation rules
+### More disambiguation rules
 * **SgNotPl**
 
-### Elative
+#### Elative
 
-## Propernouns
+### Propernouns
 
-## Verbs
+### Verbs
 
-### Specific verbs	
+#### Specific verbs	
 
 ei negation verb
 
 eli
 
-## Adverbs
+### Adverbs
 
-### paljon
+#### paljon
 
-### kerran
+#### kerran
 
-### jälkhiin
+#### jälkhiin
 
-## Adjectives
+### Adjectives
 
 Conjunctions
 
-## Subjunctions
+### Subjunctions
 
 että
 
@@ -184,15 +184,15 @@ ko
 
 sillä	
 
-## Pronouns
+### Pronouns
 
-## Verb rules, Verbs
+### Verb rules, Verbs
 
-### Infinitive
+#### Infinitive
 
-## Present Sg3
+### Present Sg3
 
-## Present Pl3 or Passive
+### Present Pl3 or Passive
 
 Imperative
 
@@ -230,7 +230,7 @@ Imperative
 
 * **+FMAINV**  to the remaining finite verbs which are not AUX    
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
 
@@ -248,7 +248,7 @@ Imperative
 
 ---
 
-# src-cg3-old_disambiguation.cg3.md 
+## src-cg3-old_disambiguation.cg3.md 
 
 
 
@@ -262,7 +262,7 @@ Imperative
 
 ---
 
-# src-fst-morphology-affixes-abbreviations.lexc.md 
+## src-fst-morphology-affixes-abbreviations.lexc.md 
 
 
 
@@ -274,7 +274,7 @@ Imperative
 
 * **LEXICON ab-num   **
 
-### Lexicons without final period
+#### Lexicons without final period
 
 * **LEXICON ab-nodot-noun   **  The bulk
 
@@ -284,7 +284,7 @@ Imperative
 
 * **LEXICON ab-nodot-num   **
 
-### Lexicons with final period
+#### Lexicons with final period
 
 * **LEXICON ab-dot-noun   **  This is the lexicon for abbrs that must have a period.
 
@@ -318,11 +318,11 @@ Imperative
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
 Affix file for Kven adjectives
 
-# The base lexica
+## The base lexica
 
 Each a_ lexicon gets the +A tag and is then redirected to
 a common x_ lexicon in the noun file, while compar and superl are here.
@@ -411,11 +411,11 @@ LEXICON MATONodd  ! käymättömäle le la na ! TODO Probably not in use atm
 
 * LEXICON x_22_ton_yksi_t  alaston yhelä -t:läm alastoman
 
-# Basic paradigms
+## Basic paradigms
 
 Most cases are directed to affixes/nouns.lexc
 
-## Lexica for the non-uniform cases
+### Lexica for the non-uniform cases
 
 * * *
 
@@ -423,9 +423,9 @@ Most cases are directed to affixes/nouns.lexc
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
-# Sublexica for NounRoot
+## Sublexica for NounRoot
 
 Aloitin sovittaa analyysin Eiran kieliopin mukaan (Porsanki).
 Leksikot ovat nyt (tai pitää olla) n11, n12, jne., eli siis
@@ -467,9 +467,9 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 - 4.2.1 -inen-nominit Pl (tervheiset)         = vanha_n_42pl = nen
 - 4.2.2 -inen-nominit odd (vihrinen)          = vanha_n_42odd = nen
 
-## Noun types
+### Noun types
 
-### Incomong
+#### Incomong
 
 * LEXICON n_31  = maa, tie
 
@@ -481,7 +481,7 @@ Eiran nominit tyyppi 1.1., 1.2., jne.
 
 the same affix in sg and pl
 
-### Eira's classification
+#### Eira's classification
 
 * LEXICON n_11   lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
 
@@ -696,17 +696,19 @@ LEXICON n_32_nu !   oppinu
 
 LEXICON n_21_odd_i_poengi !  poengi-poengissa-poengiissa
 
+LEXICON n_tuhat !  poengi-poengissa-poengiissa
+
 +N:se   nomgen_px      ;
 
 make+N+Pl+kom:sine K              ;
 
 Basic paradigms
 
-### Sublexica for the basic unified cases, with even and odd variations
+#### Sublexica for the basic unified cases, with even and odd variations
 
-### Sublexica for Gen, Par, Ill, Ess and Com.
+#### Sublexica for Gen, Par, Ill, Ess and Com.
 
-### Sublexica for possessive suffixes
+#### Sublexica for possessive suffixes
 
 Px is now not in use, with one exception, comitative.
 
@@ -724,13 +726,13 @@ Px-Vn leksikossa on vain kuusi sanaa
 
 Basic paradigms
 
-## Basic vowel stems
+### Basic vowel stems
 
  !LEXICON strong_v_stem_even   ''Kaikki vahvan asteen sijamuodot tähän''
 
  !LEXICON strong_v_stem_odd   ''Kaikki vahvan asteen sijamuodot tähän''
 
-### Sublexica for the vowel stems
+#### Sublexica for the vowel stems
 
 * * *
 
@@ -738,12 +740,12 @@ Basic paradigms
 
 ---
 
-# src-fst-morphology-affixes-numerals.lexc.md 
+## src-fst-morphology-affixes-numerals.lexc.md 
 
 
-# Kven numerals 
+## Kven numerals 
 
-# Numeral inflection
+## Numeral inflection
 Numeral inflection is like nominal, except that numerals compound in all
 forms which requires great amount of care in the inflection patterns.
 
@@ -905,11 +907,11 @@ forms which requires great amount of care in the inflection patterns.
 
 ---
 
-# src-fst-morphology-affixes-pronouns.lexc.md 
+## src-fst-morphology-affixes-pronouns.lexc.md 
 
 
 
-# Pronominien morfologia
+## Pronominien morfologia
 
 Pronominit ovat edelleen vaan kokeiluvaiheessa.
 
@@ -929,7 +931,7 @@ tuotä
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
 2007 s.87
 * 1. Yksitav. / Vi ( maa, tuorestai)	 = vanha_n_1
@@ -972,10 +974,10 @@ tuotä
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 * * *
 
@@ -983,13 +985,13 @@ tuotä
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
-# LEXICA FOR KVEN VERB INFLECTION
+## LEXICA FOR KVEN VERB INFLECTION
 
 This file documents [affixes/verbs.lexc](https://github.com/giellalt/lang-fkv/blob/main/src/fst/affixes/verbs.lexc)
 
-## Auxiliaries
+### Auxiliaries
 
 **LEXICON neg** jakaantuu kolmeen
 
@@ -1002,9 +1004,9 @@ this is since we have enkä but not enkin
 
 **LEXICON OLLA** on oma leksikko, vielä vain preesens
 
-## Regular verbs
+### Regular verbs
 
-### Verbiluokat v1...
+#### Verbiluokat v1...
 
 Luokkien v1, v2... Eiran kieliopin mukaan.
 Tarvitaan luultavasti alaluokkia.
@@ -1023,7 +1025,7 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 **LEXICON v1tehda** tehđä:te
 
-### Verbiluokat v2...
+#### Verbiluokat v2...
 
 **LEXICON v2** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
 
@@ -1041,7 +1043,7 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 **LEXICON v2_odd_UUt** hyväksyyt:hyväksy
 
-### Verbiluokat v3...
+#### Verbiluokat v3...
 
 **LEXICON v3_ele_short** = nielä:niel
 
@@ -1075,7 +1077,7 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 **LEXICON v3juosta** juosta:juo
 
-### Verbiluokat v4...
+#### Verbiluokat v4...
 
 **LEXICON v4** vanheta:vanhe, pajeta:pake
 
@@ -1096,7 +1098,7 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 **LEXICON v43_odd_II** jatkata:jatka
 
-## Verbien persoonapäätteet
+### Verbien persoonapäätteet
 
 Tämä osa antaa personapäätteet.
 1. ja 2. persoona erikseen, koska ne ovat samoja
@@ -1121,29 +1123,29 @@ preesensissä ja preterissä.
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
-# Phonological rules for Kven
+## Phonological rules for Kven
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-fkv/blob/main/src/fst/phonology.twolc) 
 
 We first define alphabets and sets. Thereafter come the rules.
 
-## Alphabets and sets
+### Alphabets and sets
 
-### Alphabet
+#### Alphabet
 
-#### The letters
+##### The letters
 * a b c d đ ð e f g h i j k l m n o p q
 * r s t u ü v w x y z å ä ö æ ø š
 * A B C D Đ Ð E F G H I J K L M N O P
 * R S T U V W X Y Z Å Ä Ö Æ Ø Š
 
-#### The archiphonemes
+##### The archiphonemes
 * **%^A:ä %^O:ö %^U:y** archi vowels for harmony
 * **%^V %^N:n** vowel copy sanoo, LNR copy purra
 
-#### Letters with deviant behaviour
+##### Letters with deviant behaviour
 * **i2:i** = plural i of nouns
 * **i3:i** = past tense i of verbs
 * **i4:i** = i in conditional isi of most verbs (without gemination)
@@ -1156,7 +1158,7 @@ We first define alphabets and sets. Thereafter come the rules.
 * **k3:k** k3 never k:v, contrary to k
 * **n2:n** n2 to prevent gemination in essive (porroikin mutta poroina)
 
-#### Triggers
+##### Triggers
 * **%^HMETA:0** h metateesi sykshyyn
 * **%^WG:0** weak grade hatun
 * **%^TJ:0** vuote vuoje
@@ -1173,12 +1175,12 @@ We first define alphabets and sets. Thereafter come the rules.
 * **%^End:0** -- End of word, since the # tags don't work properly
 * **%^¤:0** -
 
-#### Dialect tags
+##### Dialect tags
 * **%^Por:0** -f- Porsanger  dialekti
 * **%^Var:0** -- Varanger   dialekti
 * **%^Jok:0** -- Jokivarret dialekti
 
-### Literal quotes and angles 
+#### Literal quotes and angles 
 Thesemust be escaped (cf morpheme boundaries further down):
 * »7 represents the quotation mark »
 * «7 represents the quotation mark «
@@ -1189,7 +1191,7 @@ Thesemust be escaped (cf morpheme boundaries further down):
 * The hash mark = Word boundary for both lexicalised and dynamic compounds
 * **%^** = (exceptional) soft hyphenation point 
 
-### Sets
+#### Sets
 * E I Y Ä Ö Ü Æ Ø ;
 * A O U Å ;
 * ArchiVow = %^A %^O %^U ;
@@ -1226,17 +1228,17 @@ Development principles:
 --- NO UNCLEAR SEQUENCES WITHOUT AN EXPLANATION (and TESTS): (Cns:*) :Cns+ Cns:* (:Cns)
 --- One TRIGGER, one change! No ^AO that means a:o and a:0 and a:i, then 3 DIFFERENT triggers
 
-### Trigger order 
+#### Trigger order 
 (to be completed). The triggers should be in this order both in lexc and here in twolc.
 
 `stem  Dial:  WG  {T0,TJ}  {E0,I0,E2I,A2I,AO,AE,VDEL,UU}  HMETA  >  {i2:,i3:,i4:](i5:}  >  suffixes`
 
-# Rules 
+## Rules 
 (Divided into consonant and vowel rules)
 
-## Consonant rules
+### Consonant rules
 
-### Gemination rules
+#### Gemination rules
 
 Pitkän vokaalin jälkeen ja kans painottoman tavun jälkeen k, t, p ja s geminoituvat
 ko perässä on pitkä vokaali (= lounaismurteitten erikoisgeminaatio),
@@ -1249,7 +1251,7 @@ Rule: **Gemination 0:j**
 
 Rule: **Gemination 0:k**
 
-#### Tests:
+##### Tests:
 * *flak0u>i2>n*
 * *flakku>i>n*
 * *flaku>i2>n^A*
@@ -1273,9 +1275,9 @@ Rule: **Gemination 0:t**
 
 Rule: **Gemination 0:v**
 
-## Gradation rules
+### Gradation rules
 
-### Rules for *p* gradation 
+#### Rules for *p* gradation 
 
 Rule: **Gradation p:0 (pp:p)**
 
@@ -1299,7 +1301,7 @@ Rule: **Gradation mp:mm**
 * *turpe^WGt*
 * *turve0t*
 
-### Rules for *k* gradation 
+#### Rules for *k* gradation 
 
 Rule: **Gradation i6:0, in word poika: pojan**
 
@@ -1363,7 +1365,7 @@ Rule: **Gradation nk:ng**
 * *sivakka^AO>i2>ne*
 * *sivak0o0>i>ne*
 
-### Gradation t
+#### Gradation t
 
 Rule: **Gradation Nt:NN in first syllable after short vowel**
 
@@ -1411,7 +1413,7 @@ Rule: **Gradation t:đ**
 * *huutel^WG>^A*
 * *huuđel0>a*
 
-### Assimilation rules
+#### Assimilation rules
 
 Rule: **Alveolar assimilation for consonant stem l**
 * *tul>^N^U*
@@ -1423,9 +1425,9 @@ Rule: **Alveolar assimilation for consonant stem s**
 
 Rule: **j:0 in front of i**
 
-## Vowel rules
+### Vowel rules
 
-### Vowel harmony rules
+#### Vowel harmony rules
 
 Thefa idea of having f.ex V:e, always to a specific vowel, is to not have conflicts in
 twolc compilation. This improves compilation time (we assume) and it make Twolc
@@ -1435,7 +1437,7 @@ for a group of vowels! This is most of case. And now you have to edit it for all
 vowel separately one by one. Hopefully, we can make sure we don't forget to do it
 too often, by having more user feedback, especially from the paradigms in the dictionary.
 
-####  For each Vowel separately
+#####  For each Vowel separately
 
 Rule: **^V:e**
 
@@ -1471,7 +1473,7 @@ Rule: **^V:i**
 
 Rule: **^V:o**
 
-####  (the old system) 
+#####  (the old system) 
 with variables (Vx/Vy) instead of each vowel separately
 
 Rule: **Back harmony for %^A: %^O: %^U:**
@@ -1481,7 +1483,7 @@ Rule: **Back harmony for %^A: %^O: %^U:**
 * *kulke>^A*
 * *kulke>a*
 
-### Vow copying and metathesis
+#### Vow copying and metathesis
 
 Rule: **Vow copying in short h-illative and short partitive sg**
 
@@ -1513,9 +1515,9 @@ Rule: **Stem deletion in h-illative**
 * *syksy^HMETA>h^V^Vn*
 * *syks00>hyyn*
 
-### Stem alternation rules
+#### Stem alternation rules
 
-### e rules
+#### e rules
 
 Rule: **e:i in nom.sg. of e-stems and in n_23ia kauhia hopia in Var**
 
@@ -1545,12 +1547,12 @@ Rule: **e:0 in consonant stems and illative plural**
 
 Cns:0 in hoppe- hope-a in Var @RULENAME@ Jok
 
-### i rules
+#### i rules
 The -i- rules require different i-s for different POS.
 
 Rule: **i:0**
 
-### a rules
+#### a rules
 
 Rule: **a:0 before Pret and Pl i when rounded root vowel**
 
@@ -1637,11 +1639,11 @@ Rule: **a:i in 3-syll stems with long a and i**
 
 Rule: **a:i in 3-syll stems with long a and i**
 
-#### Shortening
+##### Shortening
 
 Rule: **Shortening of long vowel in front of i**
 
-## Other Vowel rules 
+### Other Vowel rules 
 (two A:e rules and one ä:0)
 
 Rule: **a:e in comparative**
@@ -1678,7 +1680,7 @@ Rule: **ö:0**
 
 Rule: **o:0**
 
-## Gemination tests
+### Gemination tests
 
 * ★*kuv0a^A0>i2>n^A* (is not standard language)
 * ★*kuvvi0>i>na* (is not standard language)
@@ -1826,10 +1828,10 @@ Rule: **o:0**
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# Kven morphological transducer
+## Kven morphological transducer
 
 Beware of remnants from the Finnish file.
 Take nothing at face value!
@@ -1838,7 +1840,7 @@ Take nothing at face value!
 * **+Ex/A** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 * **+Ex/V** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
-## Tags for POS
+### Tags for POS
 * **+A** = Adjective
 * **+Adv** = Adverb
 * **+CC** = Conjunction
@@ -1865,9 +1867,9 @@ Take nothing at face value!
 * **+Rom** = Roman numerals I, II, ...
 * **+Dyn** = Dynamically created acronym
 
-## Tags for grammar
+### Tags for grammar
 
-### Pronoun types
+#### Pronoun types
 * **+Pers** = Personal
 * **+Dem** = Demonstrative
 * **+Interr** = Interrogative
@@ -1877,7 +1879,7 @@ Take nothing at face value!
 * **+Indef** = Indefinitue
 * **+Qu** = Quantity
 
-### Number
+#### Number
 * **+Sg** = Singular
 * **+Pl** = Plural
 
@@ -1896,7 +1898,7 @@ Number-person
 * **+PxPl2** = Poss suff: the owner is Plural 2
 * **+PxPl3** = Poss suff: the owner is Plural 3
 
-### Case
+#### Case
 
 * **+Nom** = Nominative
 * **+Gen** = Genitive
@@ -1914,11 +1916,11 @@ Number-person
 * **+Com** = Comitative
 * **+Par** = Partitive
 
-### Comparatives
+#### Comparatives
 * **+Compar** = Comparative
 * **+Superl** = Superlative
 
-### Finite verbs
+#### Finite verbs
 * **+Pass** = Passive
 * **+Ind** = Indicative
 * **+Act** = Active
@@ -1928,14 +1930,14 @@ Number-person
 * **+Cond** = Conditional
 * **+Pot** = Potential
 
-### Infinite verbs
+#### Infinite verbs
 * **+Inf** = Infinitive
 * **+Lat** = lative (the infinitive, used in Apertium)
 * **+PrsPrc** = Presence Particip
 * **+PrfPrc** = Preteritum Particip
 * **+Inf3** = Infinite 3
 
-### Punctuation
+#### Punctuation
 * **+CLB** = Clause boundary
 * **+PUNCT** = Punctuation mark
 * **+HYPH** = Hyphenation mark
@@ -1944,14 +1946,14 @@ Number-person
 * **+RIGHT +MIDDLE** = right parenth
 * **+CLBfinal**  Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
 
-### Speller tags
+#### Speller tags
 * **+Err/Orth**  misspelling or nor normative form. It will be included only in desc, not in norm.
 * **+Err/Hyph** =
 * **+Err/Lex** =
 * **+Err/SpaceCmp** =
 * **+Err/MissingSpace** =
 
-### Usage tags
+#### Usage tags
 
 * **+Use/-PMatch** = for tokenisation
 * **+Use/PMatch** = for tokenisation
@@ -1965,7 +1967,7 @@ Number-person
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
 * **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
-### Compounds
+#### Compounds
 * **+Cmp** =
 * **+Cmp/SplitR** =
 * **+Cmp/Hyph** - on dynamic compounds that have a hyphen (in use?)
@@ -1982,7 +1984,7 @@ Number-person
 * **+OLang/SWE** = Language of common names
 * **+OLang/UND** = Language of common names
 
-### Derivation
+#### Derivation
 * **+Der** =
 * **+Der1** =
 * **+Der2** =
@@ -1993,7 +1995,7 @@ Number-person
 * **+Der/minen** =
 * **+Der/s** = deriving numerals
 
-## Clitic tags
+### Clitic tags
 * **+Clt** =
 * **+Qst** = Focusclitic question -ko
 * **+Foc/han** = Focusclitic -han
@@ -2003,7 +2005,7 @@ Number-person
 * **+Foc/s** = Focusclitic -s
 * **+Foc/pas** = Focusclitic -pas
 
-## Tokeniser tags
+### Tokeniser tags
 * **+MWE** = multiword expression, for tokenisation
 * **+v1** =
 * **+v2** =
@@ -2015,7 +2017,7 @@ Number-person
 * **+Gram/IAbbr**:  Intransitive abbreviation (it takes no argument)
 * **+Gram/3syll**: trisyllabic verbs
 
-## Semantic tags
+### Semantic tags
 
 * **+Sem/Ani** = Animal names
 * **+Sem/Fem** = Female names
@@ -2062,7 +2064,7 @@ Number-person
 * **+Sem/Veh** = 
 * **+Sem/Year** = 
 
-## Dialect tags
+### Dialect tags
 * **+Dial/-Var** = Not Varanger
 * **+Dial/-Por** = Not Porsanger
 * **+Dial/-Jok** = Not Jokivarret
@@ -2070,11 +2072,11 @@ Number-person
 * **+Dial/Por** Porsanger, short for +Dial/-Jok+Dial/-Var
 * **+Dial/Jok** Jokivarret, short for +Dial/-Por+Dial/-V
 
-## Lexeme disambiguation tags
+### Lexeme disambiguation tags
 * **+Hom1**:  Homonymy
 * **+Hom2**:  Homonymy
 
-## Stem variant tags
+### Stem variant tags
 * **+v1**:  variant 1
 * **+v2**:  variant 2
 * **+v3**:  variant 3
@@ -2083,7 +2085,7 @@ Number-person
 * **+v6**:  variant 6
 * **+v7**:  variant 7
 
-## Phonological symbols
+### Phonological symbols
 
 * **i2** = plural i of nouns
 * **i3** = past tense i of verbs
@@ -2129,7 +2131,7 @@ Number-person
 * > (written with square brackets, see the root.lexc file)
 * < (written with square brackets, see the root.lexc file)
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -2208,7 +2210,7 @@ Pronoun flags
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 
-## Basic lexica, pointing to the other lexicon files
+### Basic lexica, pointing to the other lexicon files
 
 Here is the Root lexicon, pointing to all the parts of speech:
 
@@ -2247,9 +2249,9 @@ Here is the Root lexicon, pointing to all the parts of speech:
 
 ---
 
-# src-fst-morphology-stems-adjectives.lexc.md 
+## src-fst-morphology-stems-adjectives.lexc.md 
 
-# Kven language adjectives
+## Kven language adjectives
 
 AdjectiveRoot on alkuvaiheessa vielä.
 
@@ -2289,25 +2291,25 @@ Pitkävokaaliset rangat: (Yksirankaiset kaksitavuiset (Kokoontumanom.?) ?)
 
 Pitkävokaaliset Konsonanttirankaiset (Kokoontuma?)
 
-## 2. Vokaalirankaiset
+### 2. Vokaalirankaiset
 
-## 2.1 Kaksitavvuiset lyhykäisvokaaliset rangat
+### 2.1 Kaksitavvuiset lyhykäisvokaaliset rangat
 
-## 2.2. Usseempitavvuiset lyhykäisvokaaliset rangat
+### 2.2. Usseempitavvuiset lyhykäisvokaaliset rangat
 
-## 2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
+### 2.3 Yksirankaiset kaksitavuiset (Kokoontumanom.?)
 
-## 3. Konsonanttirankaiset
+### 3. Konsonanttirankaiset
 
-## 3.1. Kaksitavuiset
+### 3.1. Kaksitavuiset
 
-## 3.2 Usseaempitavuiset
+### 3.2 Usseaempitavuiset
 
-## 3.3 Kokoontuma
+### 3.3 Kokoontuma
 
 4. Ekstrakonsonanttirankaiset
 
-## 4.1 ekstrakonsonanttirankaiset
+### 4.1 ekstrakonsonanttirankaiset
 
 4.2 -nen-adjektiivit
 
@@ -2319,7 +2321,7 @@ Pitkävokaaliset Konsonanttirankaiset (Kokoontuma?)
 
 ---
 
-# src-fst-morphology-stems-adverbs.lexc.md 
+## src-fst-morphology-stems-adverbs.lexc.md 
 
 
 
@@ -2339,9 +2341,9 @@ analyysinsa eri ohjelmassa (src/syntax/disambiguation.cg3)
 
 ---
 
-# src-fst-morphology-stems-closed.lexc.md 
+## src-fst-morphology-stems-closed.lexc.md 
 
-# Closed parts of speech
+## Closed parts of speech
 
 Tästä tiedostosta löytyvät suljetut sanaluokat.
 
@@ -2359,7 +2361,7 @@ Interjection -leksikossa on vain pari sanaa.  yäk, kääk, nono
 
 ---
 
-# src-fst-morphology-stems-fkv-abbreviations.lexc.md 
+## src-fst-morphology-stems-fkv-abbreviations.lexc.md 
 
 File containing abbreviations 
 
@@ -2371,10 +2373,10 @@ Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
 
-# Substantiivit
+## Substantiivit
 
 LEXICON NounRoot 
 
@@ -2488,9 +2490,9 @@ Luokat vanha_n_21  n12 vanha_n_22 vanha_n_22odd vanha_n_32 vanha_n_32s vanha_n_3
 
 ---
 
-# src-fst-morphology-stems-numerals.lexc.md 
+## src-fst-morphology-stems-numerals.lexc.md 
 
-# Kven numerals
+## Kven numerals
 
 Numerals have been split in three sections, the compounding parts
 of cardinals and ordinals, and the non-compounding ones:
@@ -2524,7 +2526,7 @@ but are not basic cardinals or ordinals:
 * Numeral others examples:*
 * *viitisenkymmentä:* `viitisenkymmentä+Num`
 
-## Numeral stem variation
+### Numeral stem variation
 Numerals follow the same stem variation patterns as nouns, some of these
 being very rare to extinct for nouns. 
 
@@ -2767,9 +2769,9 @@ being very rare to extinct for nouns.
 
 ---
 
-# src-fst-morphology-stems-postpositions.lexc.md 
+## src-fst-morphology-stems-postpositions.lexc.md 
 
-# Postpositioiden vartalot
+## Postpositioiden vartalot
 
 Tässä sekä postpositiot ja niiden tagi.
 
@@ -2785,9 +2787,9 @@ Sannoi ja haamui vesta/Varenki 2012 mukkaan.
 
 ---
 
-# src-fst-morphology-stems-prepositions.lexc.md 
+## src-fst-morphology-stems-prepositions.lexc.md 
 
-# Prepositiot
+## Prepositiot
 
 Adposittiit eli postposittiit ja preposittiit – esimerkkii
 Aikamatka-sanalista
@@ -2802,11 +2804,11 @@ Preposition for +Pr tag
 
 ---
 
-# src-fst-morphology-stems-pronouns.lexc.md 
+## src-fst-morphology-stems-pronouns.lexc.md 
 
 
 
-# Pronominien vartalot
+## Pronominien vartalot
 
 Itse taivutus jatkuu
 
@@ -2839,9 +2841,9 @@ Indefiniittipronominit/Kvanttoripronominit
 
 ---
 
-# src-fst-morphology-stems-propernouns.lexc.md 
+## src-fst-morphology-stems-propernouns.lexc.md 
 
-# Propernoun lexicon for Kven
+## Propernoun lexicon for Kven
 
 LEXICON ProperNoun  on kokeellinen leksikko
 
@@ -2857,9 +2859,9 @@ LEXICON ProperNoun  on kokeellinen leksikko
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
-# Verbivartalot
+## Verbivartalot
 
 Katsaus:
 * Epäsäännölliset ei+V+Neg: neg ; olla: OLLA ;
@@ -2883,7 +2885,7 @@ Katsaus:
 * v4_oitte haravoita
 * kontraktiverbit jatkata:jatka v43_odd ;
 
-# Lexicon VerbRoot 
+## Lexicon VerbRoot 
 
 v_v2
 Now v3_ise all end on s. In order to have aukasevat, as an possible
@@ -2908,7 +2910,7 @@ puheta:puhke v43_odd ;
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -3077,7 +3079,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -3099,26 +3101,26 @@ For example:
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 K V E N   G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -3145,7 +3147,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -3161,7 +3163,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -3222,7 +3224,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -3255,7 +3257,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -3325,22 +3327,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -3351,11 +3353,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -3363,7 +3365,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -3375,43 +3377,43 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Postposition sets
+#### Postposition sets
 
-### Border sets and their complements
+#### Border sets and their complements
 
 Grammarchecker rules begin here 
 
-## Grammarchecker sets
+### Grammarchecker sets
 
-## Grammarchecker rules
+### Grammarchecker rules
 
-### Speller rules
+#### Speller rules
 
-### Agreement rules
+#### Agreement rules
 
-#### Sg1
+##### Sg1
 
 **Agreement rule:** msyn-agr-other-sg1, *Mun puátá/puáđám*
 
 **Agreement rule:** msyn-agr-other-sg1
 
-#### Pl3
+##### Pl3
 
 **Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
 
@@ -3421,7 +3423,7 @@ Grammarchecker rules begin here
 
 **Agreement rule:** msyn-agr-other-pl3
 
-### Agreement rules
+#### Agreement rules
 
 PrfPrc Pl > PrfPrc Sg 
 
@@ -3429,19 +3431,19 @@ relative sentences between the noun and the finite verb
 
 Prs Sg3 > Prs Pl3
 
-#### regular congruence rules
+##### regular congruence rules
 
-### Negation verb rules
+#### Negation verb rules
 
-### Postposition rules
+#### Postposition rules
 
-### L2 rules
+#### L2 rules
 
-###  NP internal rules
+####  NP internal rules
 
-###  Punctuation rules
+####  Punctuation rules
 
-###  Spacing errors
+####  Spacing errors
 
 * * *
 
@@ -3449,17 +3451,17 @@ Prs Sg3 > Prs Pl3
 
 ---
 
-# tools-grammarcheckers-grc-disambiguator.cg3.md 
+## tools-grammarcheckers-grc-disambiguator.cg3.md 
 
 
 
-# Disambiguator for Kven
+## Disambiguator for Kven
 
-## Sets
+### Sets
 
 Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 
-### Part-of-Speech
+#### Part-of-Speech
 * N = noun
 * A = adjective
 * Num = numeral
@@ -3471,7 +3473,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pron = pronoun
 * Interj = interjection
 
-### Numerus
+#### Numerus
 
 * Sg = Singular
 * Pl = Plural
@@ -3482,7 +3484,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pl2 = Plural 2.p.
 * Pl3 = Plural 3.p.
 
-### Cases
+#### Cases
 * Nom
 * Gen
 * Acc
@@ -3500,7 +3502,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Com
 * SUBJ-CASE = Nom Par
 
-### Types
+#### Types
 * Prop = Proper noun
 * Interr = Interrogative
 * Dem = demonstrative pron
@@ -3524,7 +3526,7 @@ Interrpronpl "kuka" ja "mikä"
 
 * Sem/Fem = feminin propernoun
 
-## Sets with more members
+### Sets with more members
 
 * WORD = all PoS
 
@@ -3546,11 +3548,11 @@ Verbs
 
 * SV-BOUNDARY = words that start a sentence and finite verb
 
-## Disambiguation rules
+### Disambiguation rules
 
-### Dialects
+#### Dialects
 
-### Early rules
+#### Early rules
 
 * __person_test__ selects finite verb if there is a Pron Pers to the left
 
@@ -3566,7 +3568,7 @@ Possessive suffixes
 
 Numeral phrases
 
-### Preposition/postposition/adverb rules
+#### Preposition/postposition/adverb rules
 
 * **Prifgenpar** selects  preposition to the left of Gen or Par
 
@@ -3574,7 +3576,7 @@ Numeral phrases
 
 * **vasthaan**
 
-## Rules for mapping @CVP and @CNP on the CC and CS
+### Rules for mapping @CVP and @CNP on the CC and CS
 
 * **CVP** maps @CVP to CS and mutta
 
@@ -3582,44 +3584,44 @@ Numeral phrases
 
 * **CNPifInf** maps @CNP to CC between two Inf
 
-## Case rules
+### Case rules
 
-### Partitive
+#### Partitive
 
 Genitive
 
-### Illative
+#### Illative
 
-## Number rules
+### Number rules
 
-## More disambiguation rules
+### More disambiguation rules
 * **SgNotPl**
 
-### Elative
+#### Elative
 
-## Propernouns
+### Propernouns
 
-## Verbs
+### Verbs
 
-### Specific verbs	
+#### Specific verbs	
 
 ei negation verb
 
 eli
 
-## Adverbs
+### Adverbs
 
-### paljon
+#### paljon
 
-### kerran
+#### kerran
 
-### jälkhiin
+#### jälkhiin
 
-## Adjectives
+### Adjectives
 
 Conjunctions
 
-## Subjunctions
+### Subjunctions
 
 että
 
@@ -3629,15 +3631,15 @@ ko
 
 sillä	
 
-## Pronouns
+### Pronouns
 
-## Verb rules, Verbs
+### Verb rules, Verbs
 
-### Infinitive
+#### Infinitive
 
-## Present Sg3
+### Present Sg3
 
-## Present Pl3 or Passive
+### Present Pl3 or Passive
 
 Imperative
 
@@ -3675,7 +3677,7 @@ Imperative
 
 * **+FMAINV**  to the remaining finite verbs which are not AUX    
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
 
@@ -3693,9 +3695,9 @@ Imperative
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for fkv
+## Tokeniser for fkv
 
 Usage:
 ```
@@ -3739,7 +3741,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -3758,9 +3760,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for fkv
+## Grammar checker tokenisation for fkv
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -3823,9 +3825,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
