@@ -269,6 +269,8 @@ LEXICON n_32_nu !   oppinu
 
 LEXICON n_21_odd_i_poengi !  poengi-poengissa-poengiissa
 
+LEXICON n_21_odd_i_nyansi !  nyansi-nyansissa-nyansiissa
+
 LEXICON n_tuhat !  poengi-poengissa-poengiissa
 
 +N:se   nomgen_px      ;
