@@ -207,13 +207,13 @@ LEXICON vanha_prop_plc_21C
 
 LEXICON vanha_prop_plc_21Cv         !vierassanat 
 +N+Prop+Sem/Plc+Sg+Nom: K ;
-+N+Prop+Sg+Nom :  nom_end ;
-+N+Prop        :i x_11    ;
++N+Prop+Sg+Nom:  nom_end ;
++N+Prop:i x_11    ;
 
 LEXICON vanha_prop_sur_21Cv         !vierassanat 
 +N+Prop+Sem/Sur+Sg+Nom: K ;
-+N+Prop+Sg+Nom :  nom_end ; ! Hans
-+N+Prop        :i x_11    ; ! Hansi
++N+Prop+Sg+Nom:  nom_end ; ! Hans
++N+Prop:i x_11    ; ! Hansi
 
 LEXICON vanha_prop_plc_21ii
 +N+Prop+Sem/Plc+Sg+Nom: K ; 
