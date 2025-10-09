@@ -114,8 +114,10 @@ LEXICON v1 !!≈ **@CODE@** saađa:saa
 +V+Act+Ind+Prs+Sg3:%>pi K ;
 +V+Act+Ind+Prs+Pl3:%>đh^A^An K ; ! đ
 +V+Act+Ind+Prs+Pl3+Err/Orth:%>dh^A^An K ; ! d
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ; ! VAT
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ; ! VAT
 +V+Pass+Ind+Prs:%>đh^A^An K ; ! đ
 +V+Pass+Ind+Prt:%>thiin K ; 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
@@ -162,8 +164,10 @@ LEXICON v1iđa !!≈ **@CODE@** Cond uiđa:uisin
 +V+Act+Ind+Prs+Sg3:%>pi K ;
 +V+Act+Ind+Prs+Pl3:%>đh^A^An K ; 
 +V+Act+Ind+Prs+Pl3+Err/Orth:%>dh^A^An K ; 
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ; 
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
 +V+Pass+Ind+Prs:%>đh^A^An K ; 
 +V+Pass+Ind+Prt:%>thiin K ; 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
@@ -208,8 +212,10 @@ LEXICON v1kayda  !!≈ **@CODE@** käyđä:kä
 +V+Act+Ind+Prs+Sg3:y%>pi K ;
 +V+Act+Ind+Prs+Pl3:y%>đhään K ; ! đ
 +V+Act+Ind+Prs+Pl3+Err/Orth:y%>hään K ; ! d
++V+Act+Ind+Prs+Pl3+Err/Orth:y%>v^At K ; ! d
 +V+Act+Ind+Prt+Sg3:v%>i3 K ;
 +V+Act+Ind+Prt+Pl3:y%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:v%>i3v^At K ;
 +V+Pass+Ind+Prs:y%>đhään K ; ! đ
 +V+Pass+Ind+Prt:y%>thiin K ; 
 +V+Act+PrfPrc+Der/A:y%>n^U K ;
@@ -252,9 +258,11 @@ LEXICON v1nahda !!≈ **@CODE@** nähđä:nä
 +V+Act+Ind+Prt:%>ji^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:kke%>e K ;
 +V+Act+Ind+Prs+Pl3:h%>đh^A^An K ; ! đ
++V+Act+Ind+Prs+Pl3+Err/Orth:ke%>v^At K ; ! đ
 +V+Pass+Ind+Prs:h%>đh^A^An K ; ! đ
 +V+Act+Ind+Prt+Sg3:k%>i K ;
 +V+Act+Ind+Prt+Pl3:h%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:k%>iv^At K ;
 +V+Pass+Ind+Prt:h%>thiin K ;
 +V+Act+PrfPrc+Sg+Nom:h%>^N^U K ;
 +V+Act+Ind+Prt+ConNeg+Sg:h%>^N^U K ;
@@ -294,9 +302,11 @@ LEXICON v1tehda !!≈ **@CODE@** tehđä:te
 +V+Act+Ind+Prt:%>hi v12pers_short ;
 +V+Act+Ind+Prs+Sg3:kke%>e K ;
 +V+Act+Ind+Prs+Pl3:h%>đh^A^An K ; ! đ
++V+Act+Ind+Prs+Pl3+Err/Orth:ke%>v^At K ; ! đ
 +V+Pass+Ind+Prs:h%>đh^A^An K ; ! đ
 +V+Act+Ind+Prt+Sg3:k%>i K ;
 +V+Act+Ind+Prt+Pl3:h%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:k%>iv^At K ;
 +V+Pass+Ind+Prt:h%>thiin K ;
 +V+Act+PrfPrc+Sg+Nom:h%>^n^U K ;
 +V+Act+Ind+Prt+ConNeg+Sg:h%>^n^U K ;
@@ -340,11 +350,13 @@ LEXICON v2 !!≈ **@CODE@** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:ka
 +V+Act+Ind+Prs:^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:%>^V K ;
 +V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 
 +V+Act+Ind+Prt:^WG^AO%>i3 v12pers_short ;
 +V+Act+Ind+Prt+Sg3:^AO%>i3 K ;      ! se alkoi
 +V+Act+Ind+Prt+Sg3+Err/Orth:^AO K ; ! se alko
 +V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:^AO%>i3v^At K ;      ! se alkoi
 
 +V+Pass+Ind+Prs:^WG^AE%>th^A^An K ;
 +V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
@@ -389,10 +401,12 @@ LEXICON v2_long ! norjalaistaat:norjalaistin, vahingoittaat:vahingoitin (no AO-t
 +V+Act+Ind+Prs:^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:%>^V K ;
 +V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 
 +V+Act+Ind+Prt:^WG%>i3 v12pers_short ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
 
 +V+Pass+Ind+Prs:^WG^AE%>th^A^An K ;
 +V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
@@ -436,11 +450,13 @@ LEXICON v2_si !!≈ **@CODE@** ! pyyttäät:pyysi
 +V+Act+Ind+Prs:^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:%>^V K ;
 +V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 
 +V+Act+Ind+Prt:^AO%>i3 v12pers_short ; ! pyysin
 +V+Act+Ind+Prt+Sg3:^AO%>i3 K ;      
 +V+Act+Ind+Prt+Sg3+Err/Orth:^AO K ;
 +V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:^AO%>i3v^At K ;
 
 +V+Pass+Ind+Prs:^WG^AE%>th^A^An K ;
 +V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
@@ -485,12 +501,14 @@ LEXICON v2_taittaat !!≈ **@CODE@** ! taisi, tainu / taitanu
 +V+Act+Ind+Prs+Pl1:taiđama K ;
 +V+Act+Ind+Prs+Pl2:taiđatta K ;
 +V+Act+Ind+Prs+Pl3:taiđethaan K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:taitavat K ;
 +V+Act+Ind+Prt+Sg1:taisin K ;
 +V+Act+Ind+Prt+Sg2:taisit K ;
 +V+Act+Ind+Prt+Sg3:taisi K ;
 +V+Act+Ind+Prt+Pl1:taisima K ;
 +V+Act+Ind+Prt+Pl2:taisitta K ;
 +V+Act+Ind+Prt+Pl3:taiđethiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:taisivat K ;
 +V+Pass+Ind+Prs:taiđethaan K ;
 +V+Pass+Ind+Prt:taiđethiin K ;  
 +V+Act+PrfPrc+Sg+Nom:tainu K ;
@@ -525,12 +543,14 @@ LEXICON v2_sauttaat !!≈ **@CODE@** ! sauttaat-sautti
 +V+Act+Ind+Prs+Pl1:sautamma K ;
 +V+Act+Ind+Prs+Pl2:sautatta K ;
 +V+Act+Ind+Prs+Pl3:sautethaan K ;
++V+Act+Ind+Prs+Pl3:sautavat K ;
 +V+Act+Ind+Prt+Sg1:sautin K ;
 +V+Act+Ind+Prt+Sg2:sautit K ;
 +V+Act+Ind+Prt+Sg3:sautti K ;
 +V+Act+Ind+Prt+Pl1:sautimma K ;
 +V+Act+Ind+Prt+Pl2:sautitta K ;
 +V+Act+Ind+Prt+Pl3:sautethiin K ;
++V+Act+Ind+Prt+Pl3:sautivat K ;
 +V+Pass+Ind+Prs:sautethaan K ;
 +V+Pass+Ind+Prt:sautethiin K ;  
 +V+Act+PrfPrc+Sg+Nom:sauttannu K ;
@@ -563,12 +583,14 @@ LEXICON v2_särkkyyt !!≈ **@CODE@** ! särkkyyt-särjyn
 +V+Act+Ind+Prs+Pl1:särjymä K ;
 +V+Act+Ind+Prs+Pl2:särjyttä K ;
 +V+Act+Ind+Prs+Pl3:särjythään K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:särkyvät K ;
 +V+Act+Ind+Prt+Sg1:särjyin K ;
 +V+Act+Ind+Prt+Sg2:särjyit K ;
 +V+Act+Ind+Prt+Sg3:särkyi K ;
 +V+Act+Ind+Prt+Pl1:särjyimä K ;
 +V+Act+Ind+Prt+Pl2:särjyittä K ;
 +V+Act+Ind+Prt+Pl3:särjythiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:särkyivät K ;
 +V+Pass+Ind+Prs:särjythään K ;
 +V+Pass+Ind+Prt:särjythiin K ;  
 +V+Act+PrfPrc+Sg+Nom:särkyny K ;
@@ -601,7 +623,7 @@ LEXICON v2_tiettäät !!≈ **@CODE@** tiettäät
 +V+Act+Ind+Prs+Sg3:tä%>^V K ;
 +V+Act+Ind+Prs+Pl3:tä^WG^AE%>th^A^An K ;
 +V+Act+Ind+Prt+Sg3:tä^AO%>i3 K ;
-+V+Act+Ind+Prt+Pl3+Dial/Por:tä^WG^AE%>thiin K ;
++V+Act+Ind+Prt+Pl3+Dial/Por:tä^WG^AE%>thiin K ; ! TODO! murre vai Err/Orth
 +V+Act+Ind+Prt+Pl3+Dial/Jok:si^WG^AE%>vät K ;
 +V+Act+Ind+Prt+Pl3+Dial/Var:si^WG^AE%>vät K ;
 +V+Pass+Ind+Prs:tä^WG^AE%>th^A^An K ;
@@ -648,13 +670,15 @@ LEXICON v2_odd !!≈ **@CODE@** kirjoittaat:kirjoitta
 +V+Act+Ind+Prs:^WG v12pers_long ;
 +V+Act+Ind+Prs+Sg3:%>^V K ;
 +V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
++V+Act+Ind+Prs+Pl3:%>v^At K ;
 +V+Pass+Ind+Prs:^WG^AE%>th^A^An K ; 
 
 +V+Act+Ind+Prt:^WG%>i3 v12pers_long ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
 +V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
-+V+Act+Ind+Prt+Pl3+Err/Orth:^WG%>sivat K ; !TEST
++V+Act+Ind+Prt+Pl3+Err/Orth:^WG%>siv^At K ; !TEST
 
 !+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc+Sg+Nom:%>nn^U K ;
@@ -695,11 +719,13 @@ LEXICON v2_odd_UUt !!≈ **@CODE@** hyväksyyt:hyväksy
 +V+Act+Ind+Prs:^WG v12pers_long ;
 +V+Act+Ind+Prs+Sg3:%>^V K ;
 +V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 +V+Pass+Ind+Prs:^WG^AE%>th^A^An K ; 
 
 +V+Act+Ind+Prt:^WG%>i3 v12pers_short ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
 +V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
 +V+Act+Ind+Prt+Pl3+Err/Orth:^WG%>sivat K ; !TEST
 
@@ -799,6 +825,7 @@ LEXICON v3_ele_notinf
 +V+Act+Ind+Prs+Pl3:^WG%>h^A^An K ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
 +V+Act+Ind+Prs:%>e v12pers_short ;
 +V+Act+Ind+Prt:%>i3 v12pers_short ;
 !+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
@@ -841,8 +868,10 @@ LEXICON v3_ele_odd !!≈ **@CODE@** kävelä:kävel
 +V+Inf:^WG%>^A K ;
 +V+Act+Ind+Prs+Sg3:%>ee K ;
 +V+Act+Ind+Prs+Pl3:^WG%>h^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>ev^At K ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
++V+Act+Ind+Prt+Pl3:%>i3v^At K ;
 +V+Pass+Ind+Prs:^WG%>h^A^An K ;
 +V+Pass+Ind+Prt:^WG%>thiin K ;  
 +V+Act+Ind+Prs:%>e v12pers_long ;
@@ -898,11 +927,12 @@ LEXICON v3_ise_inflection
 +V+Act+Ind+Prs+Sg3:%>see K ;
 +V+Act+Ind+Prs+Pl3:%>th^A^An K ;
 +V+Act+Ind+Prs+Pl3:%>se%>^V%>v^A K ;
-!+V+Act+Ind+Prs+Pl3:%>e%>v^A K ;
-+V+Act+Ind+Prs+Pl3:%>se%>^V%>v^At K ;
-!+V+Act+Ind+Prs+Pl3:%>e%>v^At K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>e%>v^A K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>se%>^V%>v^At K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>e%>v^At K ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
 +V+Pass+Ind+Prs:%>th^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;  
 +V+Act+Ind+Prs:%>e v12pers_long ; ! aukaisemma
@@ -946,8 +976,10 @@ LEXICON v3_lnr !!≈ **@CODE@** ja vartalo on pan-
 +V+Act+Ind+Prs+Sg3:%>^N%>ee K ;         ! tullee
 +V+Act+Ind+Prs+Sg3+Err/Orth:%>e%>e K ;  ! tulee
 +V+Act+Ind+Prs+Pl3:%>h^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>ev^At K ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
 +V+Act+Ind+Prs:%>e^WG v12pers_short ;
 +V+Act+Ind+Prt:%>i3^WG v12pers_short ;
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ; !! * Lyhyt partisiippi
@@ -989,8 +1021,10 @@ LEXICON v3_s !!≈ **@CODE@** kusta, nousta, pestä, päästä ja vartalo on kus
 +V+Inf:%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>ee K ;
 +V+Act+Ind+Prs+Pl3:%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>ev^At K ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
 +V+Act+Ind+Prt+Pl3:%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
 +V+Act+Ind+Prs:%>e^WG v12pers_short ;
 +V+Act+Ind+Prt:%>i3^WG v12pers_short ;
 +V+Act+PrfPrc+Sg+Nom:%>s^U K ; !! * Lyhyt partisiippi
@@ -1030,8 +1064,10 @@ LEXICON v3piera !!≈ **@CODE@** pierä:pie
 +V+Inf:r^A K ; !! * pitää tehdä ^D
 +V+Act+Ind+Prs+Sg3:%>ree K ;
 +V+Act+Ind+Prs+Pl3:%>rh^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>rev^At K ;
 +V+Act+Ind+Prt+Sg3:%>r%>i3 K ;
 +V+Act+Ind+Prt+Pl3:%>rthiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>riv^At K ;
 +V+Pass+Ind+Prs:%>rh^A^An K ;
 +V+Pass+Ind+Prt:%>rthiin K ;
 +V+Act+Ind+Prs:%>re^WG v12pers_short ;
@@ -1070,8 +1106,10 @@ LEXICON v3juosta !!≈ **@CODE@** juosta:juo
 +V+Inf:s%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>ksee K ;
 +V+Act+Ind+Prs+Pl3:%>sth^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>ksev^At K ;
 +V+Act+Ind+Prt+Sg3:%>ksi K ;
 +V+Act+Ind+Prt+Pl3:%>sthiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>ksiv^At K ;
 +V+Pass+Ind+Prs:%>sth^A^An K ;
 +V+Pass+Ind+Prt:%>sthiin K ; 
 +V+Act+Ind+Prs:%>kse v12pers_short ;
@@ -1113,8 +1151,10 @@ LEXICON v4 !!≈ **@CODE@** vanheta:vanhe, pajeta:pake
 +V+Inf:^WG%>t^A K ;
 +V+Act+Ind+Prs+Sg3:nee K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:ne%>v^At K ;
 +V+Act+Ind+Prt+Sg3:ni K ;
 +V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>niv^At K ;
 +V+Pass+Ind+Prs:^WG%>th^A^An K ;
 +V+Pass+Ind+Prt:^WG%>thiin K ; 
 +V+Act+Ind+Prs:%>ne v12pers_long ;
@@ -1154,8 +1194,10 @@ LEXICON v4_itte !!≈ **@CODE@** ja vartalo on - kyyti
 +V+Inf:%>t^A K ;
 +V+Act+Ind+Prs+Sg3:ttee K ;
 +V+Act+Ind+Prs+Pl3:%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>ttev^At K ;
 +V+Act+Ind+Prt+Sg3:%>tti K ;
 +V+Act+Ind+Prt+Pl3:%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>ttiv^At K ;
 +V+Pass+Ind+Prs:%>th^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;
 +V+Act+Ind+Prs:%>tte v12pers_long ;
@@ -1199,8 +1241,10 @@ LEXICON v4_oitte !!≈ **@CODE@** ja vartalo on haravoi-
 +V+Inf+Err/Orth:%>đ^A K ;
 +V+Act+Ind+Prs+Sg3:ttee K ;
 +V+Act+Ind+Prs+Pl3:%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>tt^Av^At K ;
 +V+Act+Ind+Prt+Sg3:%>tti K ;
 +V+Act+Ind+Prt+Pl3:%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>ttiv^At K ;
 +V+Pass+Ind+Prs:%>th^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;
 +V+Act+Ind+Prs:%>tte v12pers_short ;
@@ -1240,9 +1284,11 @@ LEXICON v43 !!≈ **@CODE@** hantteerata:hantteera
 +V+Inf:^WG%>t^A K ; !
 +V+Act+Ind+Prs+Sg3:%>^V K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>i3v^At K ;
 +V+Act+Ind+Prt+Sg3:%>s K ;
 +V+Act+Ind+Prt+Sg3:%>si K ;
 +V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>siv^At K ;
 +V+Pass+Ind+Prs:^WG%>th^A^An K ;
 +V+Pass+Ind+Prt:^WG%>thiin K ; 
 +V+Act+Ind+Prs:%>^V v12pers_short ;
@@ -1282,9 +1328,11 @@ LEXICON v43_odd !!≈ **@CODE@** jatkata:jatka
 +V+Inf:^WG%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>^V K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 +V+Act+Ind+Prt+Sg3:%>s K ;
 +V+Act+Ind+Prt+Sg3:%>si K ; ! XXX not-norm?
 +V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:%>siv^At K ;
 +V+Pass+Ind+Prs:^WG%>th^A^An K ;
 +V+Pass+Ind+Prt:^WG%>thiin K ;  
 +V+Act+Ind+Prs:%>^V v12pers_short ;
@@ -1325,9 +1373,11 @@ LEXICON v43_odd_II !!≈ **@CODE@** jatkata:jatka
 +V+Inf:^WG%>i%>t^A K ;
 +V+Act+Ind+Prs+Sg3:%>^V K ; !
 +V+Act+Ind+Prs+Pl3:^WG%>i%>th^A^An K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 +V+Act+Ind+Prt+Sg3:%>i%>s K ;
 +V+Act+Ind+Prt+Sg3:%>i%>si K ; ! XXX not-norm?
 +V+Act+Ind+Prt+Pl3:^WG%>i%>thiin K ;
++V+Act+Ind+Prt+Pl3:s%>i3v^At K ;
 +V+Act+Ind+Prs:%>^V v12pers_short ;
 +V+Act+Ind+Prt:%>i%>si v12pers_long ;
 +V+Pass+Ind+Prs:^WG%>i%>th^A^An K ;
