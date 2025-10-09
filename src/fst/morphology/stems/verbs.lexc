@@ -414,6 +414,7 @@ kraakkuut:kraakku v2 ;
 kiikkuut:kiikku v2 ;
 liikkuut:liikku v2 ;
 sokkuut:sokku v2 ;
+vaihtuut:vaihtu v2 ;
 haukkuut:haukku v2 ;
 jaukkuut:jaukku v2 ;
 paukkuut:paukku v2 ;
@@ -510,6 +511,7 @@ erottuut:erottu v2 ;
 eroittuut:eroittu v2 ;
 karttuut:karttu v2 ;
 tarttuut:tarttu v2 ;
+hauttuut:hautu v2 ;
 lauttuut:lauttu v2 ;
 riuttuut:riutu v2 ;
 juuttuut:juuttu v2 ;
@@ -662,6 +664,8 @@ pyyttäät:pyytä v2_si ;
 pyyttäät+V+Pass+Ind+Prs+Err/Orth:pyyvethään K ;
 löyttäät:löytä v2_si ;
 löyttäät+V+Inf+Err/Orth:löytäät K ;
+realiseeraanttuut:realiseeraantu v2_long ;
+assimileeraanttuut:assimileeraantu v2_long ;
 erkkainuttaat:erkkainutta v2_long ;
 norjalaistaat:norjalaista v2_long ;
 ojenastaat:ojenasta v2_long ;
@@ -685,6 +689,7 @@ rikastuttaat:rikastutta v2_long ;
 tukahđuttaat:tukahđutta v2_long ;
 sylkäisestäät:sylkäisestä v2_long ;
 
+aktualiseeraanttuut:aktualiseeraantu v2_odd_UUt ;
 näyttäyttyyt:näyttäyty v2_odd_UUt ;
 kielttäyttyyt:kielttäyty v2_odd_UUt ;
 levventtyyt:levventy v2_odd_UUt ;
@@ -851,6 +856,7 @@ vahvistaat:vahvista v2_odd ; ! v2_ta_odd
 vahvistuut:vahvistu v2_odd_UUt ;
 vaurastuut:vaurastu v2_odd_UUt ;
 polvistaat:polvista v2_odd ; ! v2_ta_odd 
+suoristuut:suoristu v2_odd_UUt ;
 ahđistaat:ahđista v2_odd ; ! v2_ta_odd 
 puhđistaat:puhđista v2_odd ; ! v2_ta_odd 
 puđistaat:puđista v2_odd ; ! v2_ta_odd 
@@ -988,6 +994,7 @@ vesittäät:vesittä v2_odd ;
 huvittaat:huvitta v2_odd ; ! v2_ta_odd 
 mistanttaat:mistanta v2_odd ; ! v2_ta_odd
 mistanttaat+V+Act+Ind+Prs+Sg3+Err/Orth:mistantaa K ;
+tarkenttaat:tarkenta v2_odd ;
 raottaat:raotta v2_odd ; ! v2_ta_odd
 jätästäät:jätästä v2_odd ;
 lihottaat:lihotta v2_odd ; ! v2_ta_odd 
@@ -1122,6 +1129,7 @@ laajenttuut:laajentu v2_odd_UUt ;
 lujenttuut:lujentu v2_odd_UUt ;
 liikuttuut:liikuttu v2_odd_UUt ;
 lujittuut:lujittu v2_odd_UUt ;
+rakenttuut:rakentu v2_odd_UUt ;
 sekkaanttuut:sekkaantu v2_odd_UUt ;
 likkaanttuut:likkaantu v2_odd_UUt ;
 erkkaanttuut:erkkaantu v2_odd_UUt ;
@@ -1131,6 +1139,8 @@ riittaanttuut:riittaantu v2_odd_UUt ;
 harjanttuut:harjantu v2_odd_UUt ;
 sekkanttuut:sekkantu v2_odd_UUt ;
 erkkanttuut:erkkantu v2_odd_UUt ;
+leksikaalistuut:leksikaalistu v2_odd_UUt ;
+manifestaanttuut:manifestaantu v2_odd_UUt ;
 loukkanttuut:loukkantu v2_odd_UUt ;
 pillanttuut:pillantu v2_odd_UUt ;
 paranttuut:parantu v2_odd_UUt ;
@@ -1213,6 +1223,7 @@ punettuut:punett2u v2_odd_UUt ;
 asettuut:asettu v2_odd_UUt ;
 kuivettuut:kuivettu v2_odd_UUt ;
 kovettuut:kovettu v2_odd_UUt ;
+kivettyyt:kivetty v2_odd_UUt ;
 rauhoittuut:rauhoittu v2_odd_UUt ;
 haavoittuut:haavoittu v2_odd_UUt ;
 laittauttuut:laittautu v2_odd_UUt ;
@@ -1331,6 +1342,8 @@ tehettäät:tehettä v2_odd ;
 iljettäät:iljettä v2_odd ;
 menettäät:menettä v2_odd ;
 menettäät+V+Inf+Err/Orth:menetettäät K ;
+itkettäät:itkettä v2_odd ;
+naurattaat:nauratta v2_odd ;
 hävettäät:hävettä v2_odd ;
 hengittäät:hengittä v2_odd ;
 kengittäät:kengittä v2_odd ;
@@ -1567,6 +1580,7 @@ otatella:otattel v3_ele ;
 kohđatella:kohđattel v3_ele ;
 kohđatella+Err/Orth:kohđatela K ; 
 juđatella:juđattel v3_ele ;
+graadivaihetella:graadi#vaihettel v3_ele ;
 vaihetella:vaihettel v3_ele ;
 vaihetella+V+Act+Ind+Prs+Pl3+Err/Orth:vaihetteleva K ;
 lujetella:lujettel v3_ele ;
@@ -1646,6 +1660,7 @@ annela:antel v3_ele_odd ;
 harhaila:harhail v3_ele_odd ;
 kaippaila:kaipp2ail v3_ele_odd ;
 kattela:katt2el v3_ele_odd ;
+hyrräilä:hyrräil v3_ele_odd ;
 kiiluila:kiiluil v3_ele_odd ;
 kuuneleskela:kuuneleskel v3_ele_odd ;
 kylväilä:kylväil v3_ele_odd ;
@@ -1702,6 +1717,7 @@ taistela:taistel v3_ele_odd ;
 taistela+V+Act+Ind+Prs+Pl3+Err/Orth:taisteleva K ;
 kiistelä:kiistel v3_ele_odd ;
 pistelä:pistel v3_ele_odd ;
+säästelä:säästel v3_ele_odd ;
 luistela:luistel v3_ele_odd ;
 muistela:muistel v3_ele_odd ;
 muistela+V+Act+Ind+Prs+Pl3+Err/Orth:muisteleva K ;
@@ -1802,6 +1818,7 @@ kratista:krat v3_ise ;
 kohista:koh v3_ise ;
 kuhista:kuh v3_ise ;
 nurista:nur v3_ise ;
+suhista:suh v3_ise ;
 huokaista:huoka v3_ise ;
 häikäistä:häikä v3_ise ;
 pyhkäistä:pyhkä v3_ise ;
@@ -1888,6 +1905,7 @@ juosta:juo v3juosta ;
 pierä:pie v3piera ;
 
 parata:para v4 ;
+koveta:kove v4 ;
 hapata:happa v4 ;
 vanheta:vanhe v4 ;
 vanheta+V+Act+Ind+Prs+Pl3+Err/Orth:vanhenevat K ;
@@ -2216,7 +2234,6 @@ formeerata:formeera v43 ; ! nowac
 deformeerata:deformeera v43 ; ! nowac
 reformeerata:reformeera v43 ; ! nowac
 uniformeerata:uniformeera v43 ; ! nowac
-informeerata:informeera v43_odd ; ! nowac
 feilinformeerata:feilinformeera v43 ; ! nowac
 desinformeerata:desinformeera v43 ; ! nowac
 transformeerata:transformeera v43 ; ! nowac
@@ -2371,6 +2388,12 @@ sentreerata:sentreera v43 ; ! nowac
 kastreerata:kastreera v43 ; ! nowac
 orkestreerata:orkestreera v43 ; ! nowac
 registreerata:registreera v43_odd ; ! nowac
+deriveerata:deriveera v43_odd ;
+kursiveerata:kursiveera v43_odd ;
+gemineerata:gemineera v43_odd ;
+implikeerata:implikeera v43_odd ;
+digitaliseerata:digitaliseera v43_odd ;
+informeerata:informeera v43_odd ; ! nowac
 rekyleerata:rekyleera v43_odd ;
 registreerata:registreera v43_odd ;
 administreerata:administreera v43 ; ! nowac
@@ -2467,7 +2490,6 @@ demoraliseerata:demoraliseera v43 ; ! nowac
 sentraliseerata:sentraliseera v43 ; ! nowac
 nøytraliseerata:nøytraliseera v43 ; ! nowac
 naturaliseerata:naturaliseera v43 ; ! nowac
-digitaliseerata:digitaliseera v43 ; ! nowac
 kapitaliseerata:kapitaliseera v43 ; ! nowac
 vitaliseerata:vitaliseera v43 ; ! nowac
 revitaliseerata:revitaliseera v43 ; ! nowac
@@ -2863,6 +2885,7 @@ evakyeerata:evakyeera v43 ;
 employeerata:employeera v43 ; ! nowac
 juryeerata:juryeera v43 ; ! nowac
 justeerata:justeera v43 ;
+modifiseerata:modifiseera v43 ;
 
 !! huokata:huokka v43_odd ;
 !! puheta:puhke v43_odd ;
@@ -3145,6 +3168,7 @@ plaarata:plaara v43_odd ;
 lannata:lanta v43_odd ;
 hätälannata:hätä#lanta v43_odd ;
 luođata:luota v43_odd ;
+kerrata:kerta v43_odd ;
 verrata:verta v43_odd ;
 verrata+V+Act+Ind+Prs+Sg3+Err/Orth:vertaa K ;
 virrata:virta v43_odd ;
@@ -3166,6 +3190,7 @@ kustata:kusta v43_odd ;
 rustata:rusta v43_odd ;
 praatata:praatta v43_odd ;
 haitata:haitta v43_odd ;
+viisata:viisa v43_odd ;
 viitata:viitta v43_odd ;
 mitata:mitta v43_odd ;
 veltata:veltta v43_odd ;
@@ -3411,6 +3436,7 @@ iloita:iloi v4_itte ;
 
 ahkeroita:ahkeroi v4_oitte ;
 auskaroita:auskaroi v4_oitte ;
+evakoita:evakoi v4_oitte ;
 sivakoita:sivakoi v4_oitte ;
 palmikoita:palmikoi v4_oitte ;
 joutiloita:joutiloi v4_oitte ;
