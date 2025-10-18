@@ -120,6 +120,7 @@ Multichar_Symbols
 +LEFT  !!≈ * **@CODE@** = left parenth
 +RIGHT +MIDDLE !!≈ * **@CODE@** = right parenth
 +CLBfinal       !!≈ * **@CODE@**  Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
++Span  !!≈ * **@CODE@** =
 
 !! ### Speller tags
  +Err/Orth   !!≈ * **@CODE@**  misspelling or nor normative form. It will be included only in desc, not in norm.
@@ -396,7 +397,20 @@ i7     !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
 @U.number.seven@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.eight@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.nine@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@U.number.ten@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.zero@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+
+@P.number.one@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.two@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.three@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.four@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.five@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.six@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.seven@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.eight@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.nine@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.ten@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.zero@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 
 ! For Finnish, not in use. Keep in mind:
 ! Y2 a:0 koira - koiria

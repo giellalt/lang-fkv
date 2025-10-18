@@ -2045,28 +2045,33 @@ LEXICON x_32_is ! kaunis
 !  n_33t ;
 
 LEXICON n_32_et !!= @CODE@ venet, hyljet, huonet
-+N:   x_32_et ;
+n_32_et_sg ; !!= * @CODE@ = split in sg
+n_32_et_pl ;!!= * @CODE@    ... and pl
 
-LEXICON x_32_et
+LEXICON n_32_et_sg  !!= @CODE@ give +N and send to x
++N: x_32_et_sg ;
+
+LEXICON n_32_et_pl  !!= @CODE@ give +N and send to x
++N: x_32_et_pl ;
+
+LEXICON x_32_et    !!= @CODE@ come from A and split sg, pl
+x_32_et_sg ;
+x_32_et_pl ;
+
+LEXICON x_32_et_sg   !!= @CODE@ sg forms for A, N, Prop
   +Sg+Dial/Var+Nom:e^WG     K              ;
-  +Sg+Dial/-Var:e^WG        nom_t          ;
-  +Sg:e^WG%>t     par_tA         ;
+     +Sg+Dial/-Var:e^WG     nom_t          ;
+               +Sg:e^WG%>t  par_tA         ;
+  +Pl+Dial/Var:he%>je       gen_n          ; ! venhejen
+  +Pl+Dial/Var:he%>j        par_A          ; ! venhejä
+           +Pl:hee%>i2      com_ne         ;
+              :hee          x_32_et_ts_common ;
 
+LEXICON x_32_et_pl   !!= @CODE@ sg forms for A, N, Prop
   +Pl+Dial/Var:he%>je      gen_n          ; ! venhejen
   +Pl+Dial/Var:he%>j       par_A          ; ! venhejä
-  +Pl:hee%>i2     com_ne         ;
-
-:hee         x_32_et_ts_common ;
-
-LEXICON n_32_et_pl !!= @CODE@ venet, hyljet, huonet
-+N:   x_32_et_pl ;
-
-LEXICON x_32_et_pl
-  +Pl+Dial/Var:he%>je      gen_n          ; ! venhejen
-  +Pl+Dial/Var:he%>j       par_A          ; ! venhejä
-  +Pl:hee%>i2     com_ne         ;
-
-:hee         x_32_et_ts_common_pl ;
+           +Pl:hee%>i2     com_ne         ;
+              :hee         x_32_et_ts_common_pl ;
 
 LEXICON n_32_et_2 !!= @CODE@ askel, kyynel, kannel
 +N:   x_32_et2 ;
