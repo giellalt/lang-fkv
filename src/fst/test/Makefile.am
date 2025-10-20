@@ -75,10 +75,7 @@ XFAIL_TESTS=run-dict-gt-desc-anayaml-testcases.sh \
             run-gt-norm-genyaml-testcases.sh \
             run-gt-norm-por-anayaml-testcases.sh \
             run-gt-norm-var-anayaml-testcases.sh \
-            run-gt-norm-jok-anayaml-testcases.sh \
-            run-lexc-testcases.sh
-
-
+            run-gt-norm-jok-anayaml-testcases.sh
 
 
 ####### Other targets: ###########
