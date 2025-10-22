@@ -7,7 +7,7 @@ PARADIGM=testadjparadigm.txt
 LEXC=$srcdir/../stems/adjectives.lexc
 THRESHOLD=99
 #EXCLUDETAGS=-X Ord
-#EXCLUDEFORMS=-Z adjectives-whitelist.txt
+EXCLUDEFORMS=-Z adjectives-whitelist.txt
 
 # avoid changing the common script stuffs here:
 
