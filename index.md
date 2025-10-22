@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-fkv%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-fkv)](https://github.com/giellalt/lang-fkv/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-fkv)](https://github.com/giellalt/lang-fkv/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-fkv/main/badge.svg)](https://github.com/giellalt/lang-fkv/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-fkv?label=CI)](https://builds.giellalt.org/pipelines/lang-fkv/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/kven1236)
 
 This page documents the work on the [Kven Finnish language model](http://github.com/giellalt/lang-fkv). 
 It contains some 46350 stems, and is in use, in the Kven e-dictionary, 

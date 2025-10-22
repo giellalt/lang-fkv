@@ -218,8 +218,18 @@ LEXICON n_32_ae  kevät
 LEXICON n_32_is  ruvis, ruumis
 
 LEXICON n_32_et  venet, hyljet, huonet
+* n_32_et_sg ;  = split in sg
+* n_32_et_pl ;    ... and pl
 
-LEXICON n_32_et_pl  venet, hyljet, huonet
+LEXICON n_32_et_sg   give +N and send to x
+
+LEXICON n_32_et_pl   give +N and send to x
+
+LEXICON x_32_et     come from A and split sg, pl
+
+LEXICON x_32_et_sg    sg forms for A, N, Prop
+
+LEXICON x_32_et_pl    sg forms for A, N, Prop
 
 LEXICON n_32_et_2  askel, kyynel, kannel
 

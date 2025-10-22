@@ -113,6 +113,7 @@ Number-person
 * **+LEFT** = left parenth
 * **+RIGHT +MIDDLE** = right parenth
 * **+CLBfinal**  Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
+* **+Span** =
 
 ### Speller tags
 * **+Err/Orth**  misspelling or nor normative form. It will be included only in desc, not in norm.
@@ -376,7 +377,20 @@ Pronoun flags
 | @U.number.seven@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.ten@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+
+| @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 
 ## Basic lexica, pointing to the other lexicon files
 

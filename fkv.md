@@ -645,8 +645,18 @@ LEXICON n_32_ae  kevät
 LEXICON n_32_is  ruvis, ruumis
 
 LEXICON n_32_et  venet, hyljet, huonet
+* n_32_et_sg ;  = split in sg
+* n_32_et_pl ;    ... and pl
 
-LEXICON n_32_et_pl  venet, hyljet, huonet
+LEXICON n_32_et_sg   give +N and send to x
+
+LEXICON n_32_et_pl   give +N and send to x
+
+LEXICON x_32_et     come from A and split sg, pl
+
+LEXICON x_32_et_sg    sg forms for A, N, Prop
+
+LEXICON x_32_et_pl    sg forms for A, N, Prop
 
 LEXICON n_32_et_2  askel, kyynel, kannel
 
@@ -1947,6 +1957,7 @@ Number-person
 * **+LEFT** = left parenth
 * **+RIGHT +MIDDLE** = right parenth
 * **+CLBfinal**  Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
+* **+Span** =
 
 #### Speller tags
 * **+Err/Orth**  misspelling or nor normative form. It will be included only in desc, not in norm.
@@ -2210,7 +2221,20 @@ Pronoun flags
 | @U.number.seven@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.ten@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+
+| @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 
 ### Basic lexica, pointing to the other lexicon files
 
