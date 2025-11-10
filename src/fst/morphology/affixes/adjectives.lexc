@@ -538,15 +538,37 @@ LEXICON x_32_kärys
   +Sg:%>y^WG%>s    par_tA            ;
   +Sg:h%>yy        ill_sseen         ;
   +Sg:h%>yy        sgpl_cases_even   ;
+  +Sg+Ess:h%>y%>y%>nä PxxK              ; ! not to ess n pecause of the y??
 
   +Pl:h%>yy        nom_t             ;
   +Pl:h%>y%>i2     gen_tten          ;
   +Pl:h%>y%>i2     par_tA            ;
   +Pl:h%>yi        ill_ssiin         ;
-  +Pl+Ess:h%>y%>i2%>ny PxxK              ; ! not to ess n pecause of the y??
+  +Pl+Ess:h%>y%>i2%>nä PxxK              ; ! not to ess n pecause of the y??
   +Pl:h%>y%>i2     com_ne            ;
   +Pl:h%>y%>i2     sgpl_cases_even   ;
+  
+LEXICON a_32_sees !!= * @CODE@ sees, so far this is the only word
++A:    x_32_sees ;
++A:khee comp_m_odd   ;
++A:khei superl_m_odd ;
 
+
+LEXICON x_32_sees
++N+Sg+Nom:sees K ;
+  +Sg:h%>ee        gen_n_sg          ;
++N+Sg+Par:seestä K ;
+  +Sg:h%>ee        ill_sseen         ;
+  +Sg:h%>ee        sgpl_cases_even   ;
+  +Sg+Ess:h%>e%>e%>nä PxxK              ; ! not to ess n pecause of the y??
+
+  +Pl:h%>ee        nom_t             ;
+  +Pl:h%>e%>i2     gen_tten          ;
+  +Pl:h%>e%>i2     par_tA            ;
+  +Pl:h%>ei        ill_ssiin         ;
+  +Pl+Ess:h%>e%>i2%>nä PxxK              ; ! not to ess n pecause of the y??
+  +Pl:h%>e%>i2     com_ne            ;
+  +Pl:h%>e%>i2     sgpl_cases_even   ;
 
 LEXICON a_32_et !!= * @CODE@ tuoret
 +A:    x_32_et  ;
@@ -600,10 +622,10 @@ LEXICON a_22_excns !!= * @CODE@ = veres
 +A:kse comp_m_odd   ;
 +A:ksi5i superl_m_odd ; ! Do they have superl? TODO
 
-!LEXICON a_22_excns_even !!= * @CODE@ = veres
-!+A:    x_22_excns_even   ;
-!+A:kse comp_m_even   ;
-!+A:ksi5i superl_m_even ; ! Do they have superl? TODO
+LEXICON a_22_excns_even !!= * @CODE@ = sees
++A:    x_22_excns_even   ;
++A:kse comp_m_even   ;
++A:ksi5i superl_m_even ; ! Do they have superl? TODO
 
 LEXICON a_22_excns_mus !!= * @CODE@ = isomus
 +A:    x_22_excns_even   ;
