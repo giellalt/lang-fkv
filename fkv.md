@@ -377,6 +377,8 @@ long_par        ;
 
 * LEXICON a_32_kärys  kärys, so far this is the only word
 
+* LEXICON a_32_sees  sees, so far this is the only word
+
 * LEXICON a_32_et  tuoret
 
 * LEXICON a_32_u  vaipunu:vaipun ! perfect participle
@@ -392,6 +394,8 @@ long_par        ;
 * LEXICON a_32_llu  tervettullu:tervet#tul
 
 * LEXICON a_22_excns  = veres
+
+* LEXICON a_22_excns_even  = sees
 
 * LEXICON a_22_excns_mus  = isomus
 
