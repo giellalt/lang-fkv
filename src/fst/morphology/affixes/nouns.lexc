@@ -529,21 +529,17 @@ LEXICON x_11_E2I_pl
 
 LEXICON n_11_pl        !!= * @CODE@  "villahousut", lyhyt vokali, yks vartalo, kasvot
 +N:       x_11_pl    ;
-+N+Pl:       nom_t      ; ! housut, kasvot
++N+Pl:^WG       nom_t      ; ! housut, kasvot
 
 LEXICON x_11_pl        !!= * @CODE@ ! Seems like no adjectives call this?
 
 
-  +Pl+Dial/Por:%>i2               gen_n           ; ! kasvoin
-  +Pl+Dial/Jok:%>i2               gen_tten        ; ! kasvoitten, housuitten
-  +Pl+Dial/Var:%>i2               gen_tten        ; ! kasvoitten, housuitten
-  +Pl+Dial/Por:%>i2               par_end         ; ! kasvoi
-  +Pl+Dial/Jok:%>j                par_A           ; ! kasvoja
-  +Pl+Dial/Var:%>j                par_A           ; ! kasvoja
+  +Pl+Dial/Por:%>i2             gen_n           ; ! this in x_11
+  +Pl+Dial/Por:%>i2             par_end         ;
+  +Pl+Dial/Por:%>i2             ess_nA          ;
   +Pl:^HMETA             ill_hVin        ;
-  +Pl:%>i2               ess_nA          ;
-  +Pl:%>i2               com_ne          ;
-  +Pl:%>i2               sgpl_cases_even ; !! the same affix in sg and pl
+  +Pl+Dial/Por:%>i2             com_ne          ;
+  +Pl+Dial/Por:^Por^WG%>i2      sgpl_cases_even ; !the same affix in sg and pl
 
   ! LEXICON vanha_kk-longgenpl
   !      +Gen:%>kk%>i2           #               ; ! kk ?? Tsekkaa..
