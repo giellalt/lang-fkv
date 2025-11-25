@@ -517,8 +517,6 @@ LEXICON n_11_E2I_pl         sakset, hykset
 
 * LEXICON x_11_pl         ! Seems like no adjectives call this?
 
-the same affix in sg and pl
-
 * LEXICON n_21_C  lainasanat, badminton
 
 * LEXICON n_21          opettaaja, karamelli
