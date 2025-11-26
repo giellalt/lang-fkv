@@ -213,8 +213,6 @@ Rule: **Gradation k:0**
 * *ky0e0>tä*
 * *sarka^WG>n*
 * *sar0a0>n*
-* *parku^WG>n*
-* *par0u0>n*
 
 Rule: **Gradation k3:0**
 
@@ -680,6 +678,7 @@ Rule: **o:0**
 * *lämp0ö>^V*
 * *lämppö>ö*
 * *pölk0ä>^V*
+* *pölkkä>ä*
 * *härk0ä>^V*
 * *härkkä>ä*
 * *kerk0i>^Vn*
