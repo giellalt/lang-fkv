@@ -1009,8 +1009,8 @@ REMOVE N IF (-1 Sg + Nom)(0 ("vastata") + Sg3) ;
 REMOVE:Pl3NotPass Pass IF (0  Pl3)(*0 Pl3 + Nom OR Pl + Nom);
 
 REMOVE:SgJaSgNotPass Pass IF (-1 Sg + Nom LINK *-1 CC BARRIER NOT-NPMODADV LINK -1 Sg + Nom) ;
-REMOVE:Pl3 Sg3 IF (-1C Pl + Nom) ;
-REMOVE:Pl3 Sg3 IF (-1C Pl3 + Nom) ;
+#REMOVE:Pl3 Sg3 IF (-1C Pl + Nom) ;
+#REMOVE:Pl3 Sg3 IF (-1C Pl3 + Nom) ;
 
 REMOVE:PassNotPl3 Pl3 IF (NOT *0 Pl + Nom OR CC)(-1 Pl1 OR Pl2 OR Gen OR Par);
 

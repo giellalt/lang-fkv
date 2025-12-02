@@ -624,35 +624,36 @@ SET CCCOMMA = CC OR COMMA ;
 
 #!! ## Grammarchecker sets
 
-LIST &syn-number-congruence-subj-verb = &syn-number-congruence-subj-verb ;
-LIST &msyn-agr-sg3-pl3 = &msyn-agr-sg3-pl3 ;
+
+
+#LIST &msyn-agr = &msyn-agr ;
+#LIST &msyn-agr-pl1 = &msyn-agr-pl1 ;
+#LIST &msyn-agr-pl2 = &msyn-agr-pl2 ;
+#LIST &msyn-agr-pl3 = &msyn-agr-pl3 ;
+#LIST &msyn-agr-sg1 = &msyn-agr-sg1 ;
+#LIST &msyn-agr-sg2 = &msyn-agr-sg2 ;
+#LIST &msyn-agr-sg3 = &msyn-agr-sg3 ;
+#LIST &msyn-ext-agr = &msyn-ext-agr ;
+#LIST &msyn-ext-vagr = &msyn-ext-vagr ;
+#LIST &msyn-gen-po = &msyn-gen-po ;
+#LIST &msyn-no-conneg = &msyn-no-conneg ;
+#LIST &msyn-orrood-inf = &msyn-orrood-inf ;
+LIST &double-space-before = &double-space-before ;
+LIST &msyn-acc-pss = &msyn-acc-pss ;
+LIST &msyn-agr-other-pl3 = &msyn-agr-other-pl3 ;
+LIST &msyn-agr-other-sg1 = &msyn-agr-other-sg1 ;
 LIST &msyn-agr-pl3-sg3 = &msyn-agr-pl3-sg3 ;
 LIST &msyn-agr-prfprcsg-prfprcpl = &msyn-agr-prfprcsg-prfprcpl ;
-LIST &msyn-agr-other-pl3 = &msyn-agr-other-pl3 ;
 LIST &msyn-agr-sg2-sg1 = &msyn-agr-sg2-sg1 ;
-LIST &msyn-agr = &msyn-agr ;
-LIST &msyn-agr-sg1 = &msyn-agr-sg1 ;
-LIST &msyn-agr-sg2 = &msyn-agr-sg2 ;
-LIST &msyn-agr-sg3 = &msyn-agr-sg3 ;
-LIST &msyn-agr-pl1 = &msyn-agr-pl1 ;
-LIST &msyn-agr-pl2 = &msyn-agr-pl2 ;
-LIST &msyn-agr-pl3 = &msyn-agr-pl3 ;
-LIST &msyn-gen-po = &msyn-gen-po ;
-LIST &msyn-po-notgen = &msyn-po-notgen ;
-LIST &msyn-po-nogela = &msyn-po-notela ;
-LIST &msyn-no-conneg = &msyn-no-conneg ;
-LIST &msyn-orrood-inf = &msyn-orrood-inf ;
-LIST &msyn-ext-agr = &msyn-ext-agr ;
-LIST &msyn-ext-vagr = &msyn-ext-vagr ;
-LIST &msyn-acc-pss = &msyn-acc-pss ;
+LIST &msyn-agr-sg3-pl3 = &msyn-agr-sg3-pl3 ;
 LIST &msyn-neg-posv = &msyn-neg-posv ;
 LIST &msyn-po-asti = &msyn-po-asti ;
-
-LIST &double-space-before = &double-space-before ;
+LIST &msyn-po-nogela = &msyn-po-notela ;
+LIST &msyn-po-notgen = &msyn-po-notgen ;
 LIST &space-after-paren-beg = &space-after-paren-beg ;
 LIST &space-before-paren-end = &space-before-paren-end ;
 LIST &space-before-punct-mark = &space-before-punct-mark ;
-
+LIST &syn-number-congruence-subj-verb = &syn-number-congruence-subj-verb ;
 LIST &typo = &typo ;
 
 	
@@ -839,7 +840,7 @@ ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF (*-1 (N Nom) BA
 
 
 COPY:msyn-agr-sg3-pl3 (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Act Sg3 &msyn-agr-sg3-pl3);
-
+ADDRELATION:msyn-agr-sg3-pl3 ($2) (Pl3) FROM (*1 V LINK 0 &msyn-agr-sg3-pl3);
 
 #!!  #### regular congruence rules
 
