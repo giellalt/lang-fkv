@@ -34,13 +34,13 @@ LEXICON Root
 !! The file contains:
 
 !! - miscellaneous symbols
-  §:paragráfa  # ;
- §§:paragráfat # ;
+  §:paragraafi  # ;
+ §§:paragraafit # ;
   ¥:yen        # ;
   $:dollar     # ; ! _$	dOllA:R
   €:euro       # ;
   £:pund       # ;
- %%:proseanta  # ; ! %	pR'u:s'Ent	$max3
+ %%:prosentti  # ; ! %	pR'u:s'Ent	$max3
 ! ®:dollar     # ;
 ! ©:dollar     # ;
 ! √:dollar     # ;
@@ -58,24 +58,24 @@ LEXICON Root
 ! %@:sejbak-a  # ; ! @	sejbak-A: //
 
 !! - smileys
- %:-):smil # ;
-  %:):smil # ;
+ %:-):hymy # ;
+  %:):hymy # ;
 !%:-|:smil # ;
 ! %:|:smil # ;
 !%:-(:smil # ;
 ! %:(:smil # ;
 
 !! - Clause boundary symbols
-   ,:rihkku          # ;
-   .:čuokkis         # ;
-  ..:guokte% čuoggá  # ;
- ...:golbma% čuoggá  # ;
-   …:golbma% čuoggá  # ;
-  %::duppalčuokkis   # ;
-  %;:beallečuokkis   # ;
-  %!:čuorvvasmearka  # ;
-!  |:sárggissáhtso   # ;
-   ?:gažaldatmearka  # ;
+   ,:pilkka          # ;
+   .:prikku          # ;
+  ..:kaksi% prikkuu  # ;
+ ...:kolme% prikkuu  # ;
+   …:kolme% prikkuu  # ;
+  %::kaksoisprikku   # ;
+  %;:semiprikku      # ;
+  %!:huutomerkki     # ;
+!  |:pystöpriimu   # ;
+   ?:kysymysmerkki  # ;
 
 !  ¿:¿               # ;
 !  ¬:¬               # ;
@@ -87,47 +87,47 @@ LEXICON Root
 !  ●:●      # ;
 !  ·:·      # ;
 !  ·:·      # ;
-   -:goallossáhcu # ; ! vanleg bindestrek
-   –:jurddasáhcu  # ; ! endash
-! --:ájádussáhtso # ; ! double hyphen
-!  —:ájádussáhtso # ; ! emdash
-!  ―:ájádussáhtso # ; ! horizontal bar (U+2015)
-   −:minus        # ; ! minus sign (U+2212)
-!  _:vuollesáhtso # ;
-!  =:jæbddásasjmærkka # ;
+   -:tavupriimu   # ; ! vanleg bindestrek
+   –:ajatuspriimu  # ; ! endash
+! --:ajatuspriimu # ; ! double hyphen
+!  —:ajatuspriimu # ; ! emdash
+!  ―:ajatuspriimu # ; ! horizontal bar (U+2015)
+   −:miinus        # ; ! minus sign (U+2212)
+!  _:alapriimu # ;
+!  =:samanlaisuusmerkki # ;
 !  ≈:≈       # ;
    &:ja      # ;
-  %":sitáhtamearka  # ;
-   ':apostrofa      # ; ! Reset syntax colouring
-!  *:násste      # ; ! nA:sste // not sure
+  %":sitaattimerkki # ;
+   ':apostooffi      # ; ! Reset syntax colouring
+  *:tähti      # ; 
    +:plussa      # ;
 !  ±:±           # ;
 !+/-:+/-         # ;
-   `:gravismearka # ;
-   ´:akseantamearka # ;
-   /:finju-% dahjege% njagusáhcu # ;
-!  \:snjaktjesáhtso # ;
-!  ~:bárrosáhtso # ;
+   `:gravismerkki # ;
+   ´:aksenttimerkki # ;
+   /:viintopriimu # ;
+!  \:viintopriimu% tostepäin # ;
+!  ~:aaltopriimu # ;
 !  ‐:sáhtso # ;
-   °:gráda  # ;
+   °:graadi  # ;
 !  ^:cirkumflæksa # ; ! ^	sIRku-mflEks
 
 !! - Paired punctuation marks
 
-  «:aisttonmearka # ;
-  »:aisttonmearka # ;
-  “:aisttonmearka # ;
-  ”:aisttonmearka # ;
-  ‘:aisttonmearka # ;
-  ’:aisttonmearka # ;
-  „:aisttonmearka # ;
-  ‹:aisttonmearka # ;
-  ›:aisttonmearka # ;
-  (:dávgeruohtu   # ;
-  ):dávgeruohtu   # ;
-  [:roahkkeruohtu # ;
-  ]:roahkkeruohtu # ;
-  {:bárroruohtu   # ;
-  }:bárroruohtu   # ;
- %<:čiehkaruohtu  # ;
- %>:čiehkaruohtu  # ;
+  «:sitaattimerkki # ;
+  »:sitaattimerkki # ;
+  “:sitaattimerkki # ;
+  ”:sitaattimerkki # ;
+  ‘:sitaattimerkki # ;
+  ’:sitaattimerkki # ;
+  „:sitaattimerkki # ;
+  ‹:sitaattimerkki # ;
+  ›:sitaattimerkki # ;
+  (:parenteesi   # ;
+  ):parenteesi   # ;
+  [:hakaparenteesi # ;
+  ]:hakaparenteesi # ;
+  {:kiharaparenteesi   # ;
+  }:kiharaparenteesi   # ;
+ %<:vinkkeliparenteesi  # ;
+ %>:vinkkeliparenteesi  # ;
