@@ -5,11 +5,9 @@ for text-to-speech systems.
 
 For example:
 
-* s.:syntynyt # ;  
-* os.:omaa% sukua # ;  
-* v.:vuosi # ;  
-* v.:vuonna # ;  
-* esim.:esimerkki # ; 
+* s.:syntyny # ;  
+* os.:ommaa% sukkuu # ;  
+* v.:vuona # ;  
 * esim.:esimerkiksi # ; 
 
 * * *
