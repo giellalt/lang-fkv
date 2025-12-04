@@ -370,6 +370,7 @@ SET NOT-GEN = CASE - Gen ; #!! NOT-GEN
 # - - - - - - - - - - - - - -
 
 SET NOT-V = WORD - V ; #!! NOT-V
+LIST modalverb = "häyttyyt" "pittäät" ;
 
 #!! ### Sets for finiteness and mood
 # - - - - - - - - - -
@@ -780,7 +781,8 @@ COPY:msyn-agr-sg3-pl3 (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Ind Sg3 &msyn-agr-sg3-
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
 	(*-1 (Pers Pl3 Nom) OR (N Pl Nom) OR (Dem Pl Nom) BARRIER (Sg Nom) OR S-BOUNDARY LINK NEGATE -1 CC LINK -1 (N Nom))
 	(NEGATE 0 (Act Ind Pl3))
-	(NEGATE *1 (Pass PrfPrc) BARRIER NOT-ADV);
+	(NEGATE *1 (Pass PrfPrc) BARRIER NOT-ADV)
+	(NEGATE 0 modalverb LINK 1 Inf);
 	## He tulee.
 	## Koirat tulee.
 	## Ne tulee.
