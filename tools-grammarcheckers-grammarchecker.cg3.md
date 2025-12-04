@@ -1,5 +1,5 @@
 
-K V E N   G R A M M A R   C H E C K E R
+#      K V E N   G R A M M A R   C H E C K E R
 
 # DELIMITERS
 
@@ -61,30 +61,24 @@ Romertall
 ### Tags for morphosyntactic properties
 
 Nom
-Acc
 Gen
 Ill
 Ine
+Ela
+All
+Ade
+Abl
 Com
 Ess
 Ess
 Tra
+Abe
 Sg
 Pl
 
 Cmp/SplitR
 Cmp/SgNom Cmp/SgGen
 Cmp/SgGen
-PxSg1
-PxSg2
-PxSg3
-PxDu1
-PxDu2
-PxDu3
-PxPl1
-PxPl2
-PxPl3
-Px
 
 Comp
 Superl
@@ -118,6 +112,9 @@ Actio
 VAbess
 
 Err/Orth
+
+ISO: Sekä adverbina että adpositiona käytettäviä sanoja:
+edellä, edelle, edeltä; edessä, eteen, edestä ; sisällä, sisälle, sisältä; sisässä, sisään, sisästä ; lähellä, lähelle, läheltä ; keskellä, keskelle, keskeltä ; ympärillä, ympärille, ympäriltä ; ohessa, oheen, ohesta ; takana, taakse, takaa ; alla, alle, alta ; yllä, ylle, yltä ; vailla, vaille ; vastassa, vastaan ; mukana, mukaan ; alitse, ylitse, ohitse ; ali, yli, läpi, ohi, ympäri, kohti, vastapäätä ; lisäksi, ilman, kesken, ennen
 
 ### Semantic tags
 
@@ -168,6 +165,9 @@ TIME-N-SET
 @-F<OPRED
 @-FSPRED>
 @-FOPRED>
+@NO CODE@
+@NO CODE@
+@NO CODE@
 @>ADVL
 @ADVL<
 @<ADVL
@@ -175,6 +175,7 @@ TIME-N-SET
 @ADVL
 @HAB>
 @<HAB
+@NO CODE@
 @>N
 @Interj
 @N<
@@ -246,7 +247,6 @@ CASE
 
 NOT-NOM
 NOT-GEN
-NOT-ACC
 
 ### Verb sets
 
@@ -255,9 +255,7 @@ NOT-V
 ### Sets for finiteness and mood
 
 REAL-NEG
-
 MOOD-V
-
 NOT-PRFPRC
 
 ### Sets for person
@@ -265,9 +263,6 @@ NOT-PRFPRC
 SG1-V
 SG2-V
 SG3-V
-DU1-V
-DU2-V
-DU3-V
 PL1-V
 PL2-V
 PL3-V
@@ -292,53 +287,69 @@ expression **WORD - premodifiers**.
 
 ### Border sets and their complements
 
-Grammarchecker rules begin here 
-
 ## Grammarchecker sets
 
-## Grammarchecker rules
+# Grammarchecker rules 
 
-### Speller rules
+## Speller rules
 
-### Agreement rules
+## Agreement rules
 
-#### Sg1
+### Should be Sg1
 
-**Agreement rule:** msyn-agr-other-sg1, *Mun puátá/puáđám*
+**Agreement rule:** msyn-agr-other-sg1, *Mun puátá/puáđám* ("other" is dangerous. Check!)
 
 **Agreement rule:** msyn-agr-other-sg1
 
-#### Pl3
+### Should be Sg2
 
-**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+**Agreement rule:** msyn-agr-sg3-sg2
 
-**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
-
-**Agreement rule:** msyn-agr-other-pl3
-
-**Agreement rule:** msyn-agr-other-pl3
-
-### Agreement rules
-
-PrfPrc Pl > PrfPrc Sg 
+### Should be Sg3
 
 relative sentences between the noun and the finite verb
 
-Prs Sg3 > Prs Pl3
+### Should be Pl1
 
-#### regular congruence rules
+**Agreement rule:** msyn-agr-sg3-pl3)
+
+### Should be Pl2
+Not written, perhaps irrelevant.
+
+### Should be Pl3
+
+**Agreement rule:** msyn-agr-sg3-pl3)
+
+**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+
+**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+
+**Agreement rule:** msyn-agr-other-pl3
+
+**Agreement rule:** msyn-agr-other-pl3
+
+### Agreement sg -> pl
+
+Prs Sg3 > Prs Pl3
 
 ### Negation verb rules
 
-### Postposition rules
+## Postposition rules
 
-### L2 rules
+##  NP internal rules
 
-###  NP internal rules
+The method is: Add &SUGGEST to a copied reading to *generate* a
+suggestion form from that reading. The copy should contain the error
+tag too – &-prefixed error tags are ignored when generating, but
+used to create human-readable messages.
 
-###  Punctuation rules
+##  Punctuation rules
+
+### Punctuation marks
 
 ###  Spacing errors
+
+Here we find spacing rules.
 
 * * *
 
