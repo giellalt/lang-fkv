@@ -4,6 +4,9 @@ double-space-before =
 grammar-error = Väärä muoto
     .desc = Sana {$1} ei ehkä ole oikein tässä.
 
+guillemets = Valg av anførselstegn
+    .desc = Du har brukt anførselstegnet "$1". I norsk typografi bruker vi « og » som anførselstegn.
+
 msyn-acc-pss = 
     .desc =
 

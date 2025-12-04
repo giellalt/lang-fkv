@@ -1012,7 +1012,7 @@ REMOVE:SgJaSgNotPass Pass IF (-1 Sg + Nom LINK *-1 CC BARRIER NOT-NPMODADV LINK 
 #REMOVE:Pl3 Sg3 IF (-1C Pl + Nom) ;
 #REMOVE:Pl3 Sg3 IF (-1C Pl3 + Nom) ;
 
-REMOVE:PassNotPl3 Pl3 IF (NOT *0 Pl + Nom OR CC)(-1 Pl1 OR Pl2 OR Gen OR Par);
+#REMOVE:PassNotPl3 Pl3 IF (NOT *0 Pl + Nom OR CC)(-1 Pl1 OR Pl2 OR Gen OR Par);
 
 REMOVE:CoordPl3a Pass IF (-1 Sg + Nom LINK -1 CC LINK -1 Sg + Nom)(0 Prs + Pl3);
 REMOVE:CoordPl3b Pass IF (-1 CC LINK *-1 Sg + Nom LINK -1 CC LINK -1 Sg + Nom)(0 Prs + Pl3);
@@ -1038,7 +1038,11 @@ SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR 
   #% Kansa sillon ko olen tehny jotaki mistä toiset ei tykätäl.
 
 #!! * **Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
-SELECT:Sg3ollaifplrelpronandplinterrpron Sg3 IF (0 ("olla")) (*-1 (N Sg Nom) OR  Relpronsg + Nom BARRIER WORD - Adv) ;
+SELECT:Sg3ollaifplrelpron Sg3 IF
+	(0 ("olla"))
+	(*-1 (N Sg Nom) BARRIER WORD - Adv)
+	(NEGATE *-1 (N Sg Nom) LINK -1 CC LINK -1 (N Sg Nom)) ;
+SELECT:Sg3ollaifplinterrpron Sg3 IF (0 ("olla")) (*-1 Relpronsg + Nom BARRIER WORD - Adv) ;
   #$ ... Jumala hänen armossa oon suonut sinun palvelijale.
   #$ Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa ...
   #$  ... sillä Herra oon se joka tuomittee minun.
