@@ -14,20 +14,20 @@
 # giellatekno@uit.no or feedback@divvun.no
 
 # ==================================================================== #
-#!!       K V E N   G R A M M A R   C H E C K E R
+#!! #      K V E N   G R A M M A R   C H E C K E R
 # ==================================================================== #
 # ====================================================================
-# Copied from fin grc 7.11.22.
+# Copied from fin grc 7.11.22 but later throughly revised
 
-#  Sámi language technology 2000-2017, UiT The arctic University of Norway #
+#  Sámi language technology 2000-2026, UiT The arctic University of Norway #
 
 # ---------------------- #
 #   Development setup:   #
 # ---------------------- #
 #
-# cd $GTHOME/langs/fkv
+# cd $GTHOME/lang-fkv
 # ./autogen.sh
-# ./configure --enable-apertium --with-hfst --enable-syntax --enable-grammarchecker --enable-tokenisers --enable-alignment --enable-reversed-intersect
+# ./configure --enable-grammarchecker
 # make
 # cd tools/grammarcheckers
 # make dev
@@ -45,9 +45,7 @@
 # ---------------------- #
 #   Other debug-pipes:   #
 # ---------------------- #
-#
 # ls modes/
-#
 # ---------------------- #
 
 
@@ -145,40 +143,28 @@ LIST Rom = Rom ; #!! Romertall
 #!! ### Tags for morphosyntactic properties
 
 LIST Nom = Nom ; #!! Nom
-LIST Acc = Acc ; #!! Acc
 LIST Gen = Gen ; #!! Gen
 LIST Ill = Ill ; #!! Ill
 LIST Ine = Ine ; #!! Ine
-LIST Ela = Ela ;
-LIST All = All ;
-LIST Ade = Ade ;
-LIST Abl = Abl ;
+LIST Ela = Ela ; #!! Ela
+LIST All = All ; #!! All
+LIST Ade = Ade ; #!! Ade
+LIST Abl = Abl ; #!! Abl
 LIST Com = Com ; #!! Com
 LIST Ess = Ess ; #!! Ess
 LIST Par = Par ; #!! Ess
 LIST Tra = Tra ; #!! Tra
-LIST Abe = Adb ;
+LIST Abe = Abe ; #!! Abe
 LIST Sg = Sg ;   #!! Sg
 LIST Pl = Pl ;   #!! Pl
-
 
 
 LIST Cmp/SplitR = Cmp/SplitR ;	   #!! Cmp/SplitR
 LIST Cmp/SgNom = Cmp/SgNom ; #!! Cmp/SgNom Cmp/SgGen
 LIST Cmp/SgGen = Cmp/SgGen ; #!! Cmp/SgGen
-LIST PxSg1 = PxSg1 ;	   #!! PxSg1
-LIST PxSg2 = PxSg2 ;	   #!! PxSg2
-LIST PxSg3 = PxSg3 ;	   #!! PxSg3
-LIST PxDu1 = PxDu1 ;	   #!! PxDu1
-LIST PxDu2 = PxDu2 ;	   #!! PxDu2
-LIST PxDu3 = PxDu3 ;	   #!! PxDu3
-LIST PxPl1 = PxPl1 ;	   #!! PxPl1
-LIST PxPl2 = PxPl2 ;	   #!! PxPl2
-LIST PxPl3 = PxPl3 ;	   #!! PxPl3
-LIST Px = PxSg1 PxSg2 PxSg3 PxDu1 PxDu2 PxDu3 PxPl1 PxPl2 PxPl3 ; #!! Px
 
 LIST Comp = Comp ;		   #!! Comp
-LIST Superl = Superl ;	   #!! Superl
+LIST Superl = Superl ;	           #!! Superl
 LIST Attr = Attr ;		   #!! Attr
 LIST Ord = Ord ;		   #!! Ord
 LIST Qst = Qst ;		   #!! Qst
@@ -220,45 +206,42 @@ LIST POGEN = "luona" "luota" "takia" "vuoksi"  ; # Only as POGEN
 LIST POGEN/ADV = "takana" ;
 LIST POELA = "huolimatta" ;
 
-# ISO: Sekä adverbina että adpositiona käytettäviä sanoja:
-# edellä, edelle, edeltä; edessä, eteen, edestä | sisällä, sisälle, sisältä; sisässä, sisään, sisästä | lähellä, lähelle, läheltä | keskellä, keskelle, keskeltä | ympärillä, ympärille, ympäriltä | ohessa, oheen, ohesta | takana, taakse, takaa | alla, alle, alta | yllä, ylle, yltä | vailla, vaille | vastassa, vastaan | mukana, mukaan | alitse, ylitse, ohitse | ali, yli, läpi, ohi, ympäri, kohti, vastapäätä | lisäksi, ilman, kesken, ennen
+#!! ISO: Sekä adverbina että adpositiona käytettäviä sanoja:
+#!! edellä, edelle, edeltä; edessä, eteen, edestä ; sisällä, sisälle, sisältä; sisässä, sisään, sisästä ; lähellä, lähelle, läheltä ; keskellä, keskelle, keskeltä ; ympärillä, ympärille, ympäriltä ; ohessa, oheen, ohesta ; takana, taakse, takaa ; alla, alle, alta ; yllä, ylle, yltä ; vailla, vaille ; vastassa, vastaan ; mukana, mukaan ; alitse, ylitse, ohitse ; ali, yli, läpi, ohi, ympäri, kohti, vastapäätä ; lisäksi, ilman, kesken, ennen
 
 #!! ### Semantic tags
 
-LIST Sem/Act = Sem/Act ;				    #!! Sem/Act
-LIST Sem/Ani = Sem/Ani ;				    #!! Sem/Ani
-LIST Sem/Atr = Sem/Atr ;				    #!! Sem/Atr
-LIST Sem/Body = Sem/Body ;				    #!! Sem/Body
-LIST Sem/Clth = Sem/Clth ;				    #!! Sem/Clth
+LIST Sem/Act = Sem/Act ;			    #!! Sem/Act
+LIST Sem/Ani = Sem/Ani ;			    #!! Sem/Ani
+LIST Sem/Atr = Sem/Atr ;			    #!! Sem/Atr
+LIST Sem/Body = Sem/Body ;			    #!! Sem/Body
+LIST Sem/Clth = Sem/Clth ;			    #!! Sem/Clth
 LIST Sem/Domain = Sem/Domain ;			    #!! Sem/Domain
 LIST Sem/Feat-phys = Sem/Feat-phys ;	    #!! Sem/Feat-phys
-LIST Sem/Fem = Sem/Fem ;				    #!! Sem/Fem
+LIST Sem/Fem = Sem/Fem ;			    #!! Sem/Fem
 LIST Sem/Group = Sem/Group ;			    #!! Sem/Group
-LIST Sem/Lang = Sem/Lang ;				    #!! Sem/Lang
-LIST Sem/Mal = Sem/Mal ;				    #!! Sem/Mal
+LIST Sem/Lang = Sem/Lang ;			    #!! Sem/Lang
+LIST Sem/Mal = Sem/Mal ;			    #!! Sem/Mal
 LIST Sem/Measr = Sem/Measr ;			    #!! Sem/Measr
 LIST Sem/Money = Sem/Money ;			    #!! Sem/Money
-LIST Sem/Obj = Sem/Obj ;				    #!! Sem/Obj
+LIST Sem/Obj = Sem/Obj ;			    #!! Sem/Obj
 LIST Sem/Obj-el = Sem/Obj-el ;			    #!! Sem/Obj-el
-LIST Sem/Org = Sem/Org ;				    #!! Sem/Org
+LIST Sem/Org = Sem/Org ;			    #!! Sem/Org
 LIST Sem/Perc-emo = Sem/Perc-emo ;		    #!! Sem/Perc-emo
-LIST Sem/Plc = Sem/Plc ;				    #!! Sem/Plc
-LIST Sem/Sign = Sem/Sign ;				    #!! Sem/Sign
+LIST Sem/Plc = Sem/Plc ;			    #!! Sem/Plc
+LIST Sem/Sign = Sem/Sign ;			    #!! Sem/Sign
 LIST Sem/State-sick = Sem/State-lang-sick ; #!! Sem/State-sick
-LIST Sem/Sur = Sem/Sur ;				    #!! Sem/Sur
-LIST Sem/Time = Sem/Time ;				    #!! Sem/Time
-LIST Sem/Txt = Sem/Txt ;				    #!! Sem/Txt
+LIST Sem/Sur = Sem/Sur ;			    #!! Sem/Sur
+LIST Sem/Time = Sem/Time ;			    #!! Sem/Time
+LIST Sem/Txt = Sem/Txt ;			    #!! Sem/Txt
 
 LIST HUMAN = Sem/Fem Sem/Mal Sem/Sur ;	    #!! HUMAN
 
 SET HAB-ACTOR = HUMAN ; # Goal: make this like the sme one. #!! HAB-ACTOR
 SET HAB-ACTOR-NOT-HUMAN = Sem/Org ; # make this like the sme one #!! HAB-ACTOR-NOT-HUMAN
 
-
 LIST PROP-ATTR = Sem/Mal Sem/Sur Sem/Fem ; #!! PROP-ATTR
 LIST PROP-SUR = Sem/Sur Sem/Mal Sem/Fem ; #!! PROP-SUR
-
-
 
 SET TIME-N-SET = N + Sem/Time ;  #!! TIME-N-SET
 
@@ -279,9 +262,9 @@ LIST @-F<SPRED = @-F<SPRED ;         #!! @-F<SPRED
 LIST @-F<OPRED = @-F<OPRED ;         #!! @-F<OPRED
 LIST @-FSPRED> = @-FSPRED> ;         #!! @-FSPRED>
 LIST @-FOPRED> = @-FOPRED> ;         #!! @-FOPRED>
-SET FOBJ = @-F<OBJ OR @-FOBJ> ;
-SET FMAINV = @-FMAINV OR @+FMAINV ;
-SET FAUXV = @-FAUXV OR @+FAUXV ;
+SET FOBJ = @-F<OBJ OR @-FOBJ> ;      #!! @CODE@
+SET FMAINV = @-FMAINV OR @+FMAINV ;  #!! @CODE@
+SET FAUXV = @-FAUXV OR @+FAUXV ;     #!! @CODE@
 LIST @>ADVL = @>ADVL ;               #!! @>ADVL
 LIST @ADVL< = @ADVL< ;               #!! @ADVL<
 LIST @<ADVL = @<ADVL ;               #!! @<ADVL
@@ -289,7 +272,7 @@ LIST @ADVL> = @ADVL> ;               #!! @ADVL>
 LIST ADVL = @ADVL @ADVL> @ADVL< @<ADVL @>ADVL @-F<ADVL @-FADVL> ;  #!! @ADVL
 LIST @HAB> = @HAB> ;                    #!! @HAB>
 LIST @<HAB = @<HAB ;                    #!! @<HAB
-SET @HAB = @<HAB OR @HAB> ;
+SET @HAB = @<HAB OR @HAB> ;    #!! @CODE@
 LIST @>N = @>N ;		      #!! @>N
 LIST @Interj = @Interj ;    #!! @Interj
 LIST @N< = @N< ;		      #!! @N<
@@ -353,13 +336,11 @@ LIST @X = @X ;    #!! @X
 #!! See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
 
-
 #!! ### Sets for Single-word sets
 
 LIST INITIAL = "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m"
         "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z"
         "á" "æ" "ø" "å" "ö" "ä" ; #!! INITIAL
-
 
 #!! ### Sets for word or not
 
@@ -380,7 +361,7 @@ LIST CASE = Nom Acc Gen Ill Loc Com Ess ; #!! CASE
 
 SET NOT-NOM = CASE - Nom ; #!! NOT-NOM
 SET NOT-GEN = CASE - Gen ; #!! NOT-GEN
-SET NOT-ACC = CASE - Acc ; #!! NOT-ACC
+
 
 #!! ### Verb sets
 # ---------
@@ -394,9 +375,7 @@ SET NOT-V = WORD - V ; #!! NOT-V
 # - - - - - - - - - -
 
 SET REAL-NEG = Neg - Sup ; #!! REAL-NEG
-
 SET MOOD-V = Ind OR Pot OR Imprt OR ImprtII OR Cond OR (Neg Sup) ; #!! MOOD-V
-
 SET NOT-PRFPRC = WORD - PrfPrc ; #!! NOT-PRFPRC
 
 
@@ -406,9 +385,6 @@ SET NOT-PRFPRC = WORD - PrfPrc ; #!! NOT-PRFPRC
 LIST SG1-V = (V Sg1)  ; #!! SG1-V
 LIST SG2-V = (V Sg2)  ;  #!! SG2-V
 LIST SG3-V = (V Sg3)  ;  #!! SG3-V
-LIST DU1-V = (V Du1)  ;  #!! DU1-V
-LIST DU2-V = (V Du2)  ;  #!! DU2-V
-LIST DU3-V = (V Du3)  ;  #!! DU3-V
 LIST PL1-V = (V Pl1) ;   #!! PL1-V
 LIST PL2-V = (V Pl2) ;   #!! PL2-V
 LIST PL3-V = (V Pl3)  ;  #!! PL3-V
@@ -418,12 +394,8 @@ LIST PL3-V = (V Pl3)  ;  #!! PL3-V
 # Some subsets of the VFIN sets
 # - - - - - - - - - - - - - - -
 SET SG-V = SG1-V OR SG2-V OR SG3-V ;
-SET DU-V = DU1-V OR DU2-V OR DU3-V ;
 SET PL-V = PL1-V OR PL2-V OR PL3-V ;
 
-SET DU-PL-V = DU1-V OR DU2-V OR DU3-V OR PL1-V OR PL2-V OR PL3-V ;
-
-SET 1-2-V = SG1-V OR SG2-V OR DU1-V OR DU2-V OR PL1-V OR PL2-V ;
 
 #!! ### Pronoun sets
 # ------------
@@ -431,51 +403,19 @@ SET 1-2-V = SG1-V OR SG2-V OR DU1-V OR DU2-V OR PL1-V OR PL2-V ;
 LIST MUN = (Pron Pers Sg1 Nom) (pers p1 sg nom) ;
 LIST DON = (Pron Pers Sg2 Nom) (pers p2 sg nom) ;
 LIST SON = (Pron Pers Sg3 Nom) (pers p3 sg nom) ;
-LIST MOAI = (Pron Pers Du1 Nom) (pers p1 du nom) ;
-LIST DOAI = (Pron Pers Du2 Nom) (pers p2 du nom) ;
-LIST SOAI = (Pron Pers Du3 Nom) (pers p3 du nom) ;
 LIST MII-PERS = (Pron Pers Pl1 Nom) (pers p1 pl nom) ;
 LIST DII = (Pron Pers Pl2 Nom) (pers p2 pl nom) ;
 LIST SII = (Pron Pers Pl3 Nom) (pers p3 pl nom) ;
 
-SET PPRON-NOM-NOT-DAT = MUN OR DON OR SON OR MOAI OR DOAI OR SOAI OR MII-PERS OR DII OR SII ;
-
-SET PPRON-DU-PL = MOAI OR DOAI OR SOAI OR MII-PERS OR DII OR SII ;
-SET PPRON-PL = MII-PERS OR DII OR SII ;
-
-SET PRON-DU = MOAI OR DOAI OR SOAI ;
-
-SET PPRON-NOT-SII = MUN OR DON OR SON OR MOAI OR DOAI OR SOAI OR MII-PERS OR DII ;
-
-LIST PPRON-GEN = (Sg1 Gen) (Sg2 Gen) (Sg3 Gen) (Du1 Gen) (Du2 Gen) (Du3 Gen)
-	(Pl1 Gen) (Pl2 Gen) (Pl3 Gen) (p1 sg gen) (p2 sg gen) (p3 sg gen) (p1 du gen) (p2 du gen) (p3 du gen)
-	(p1 pl gen) (p2 pl gen) (p3 pl gen) ;
-
-SET PPRON-NOT-GEN = (Pron Pers) - PPRON-GEN ;
 
 LIST SG-DEM = (Pron Dem Sg Nom);
 LIST PL-DEM = (Pron Dem Pl Nom);
 SET NOT-DEM = WORD - Dem ;
 
-LIST SG-PRON = (Pron Sg1) (Pron Sg2) (Pron Sg3) (Pron Sg) (Pron PxSg1) (Pron PxSg2) (Pron PxSg3) (pron p1 sg) (pron p2 sg) (pron p3 sg);
-LIST DU-PRON = (Pron Du1) (Pron Du2) (Pron Du3)  (Pron PxDu1) (Pron PxDu2) (Pron PxDu3) (pron p1 du) (pron p2 du) (pron p3 du);
-LIST PL-PRON = (Pron Pl1) (Pron Pl2) (Pron Pl3) (Pron Pl) (Pron PxPl1) (Pron PxPl2) (Pron PxPl3) (pron p1 pl) (pron p2 pl) (pron p3 pl);
-LIST DU-PRON-NOTPX = (Pron Du1) (Pron Du2) (Pron Du3) (pron p1 du) (pron p2 du) (pron p3 du) ;
+LIST SG-PRON = (Pron Sg1) (Pron Sg2) (Pron Sg3) (Pron Sg) (pron p1 sg) (pron p2 sg) (pron p3 sg);
+LIST PL-PRON = (Pron Pl1) (Pron Pl2) (Pron Pl3) (Pron Pl) (pron p1 pl) (pron p2 pl) (pron p3 pl);
 
 
-LIST FIRST-PX = PxSg1 PxDu1 PxPl1 ;
-LIST SECOND-PX = PxSg2 PxDu2 PxPl2 ;
-LIST THIRD-PX = PxSg3 PxDu3 PxPl3 ;
-
-LIST SG-PX = PxSg1 PxSg2 PxSg3 ;
-LIST DU-PX = PxDu1 PxDu2 PxDu3 ;
-LIST PL-PX = PxPl1 PxPl2 PxPl3 ;
-
-LIST PX = PxSg1 PxDu1 PxPl1 PxSg2 PxDu2 PxPl2 PxSg3 PxDu3 PxPl3 ;
-
-LIST DU-NR = Du1 Du2 Du3 ;
-
-SET NOT-SG-PRON = DU-PRON OR PL-PRON ;
 
 
 #!! ### Adjectival sets and their complements
@@ -501,7 +441,7 @@ SET NOT-ADV            = NOT-ADV-DE OR CLB ;
 SET NOT-ADV-N          = NOT-ADV - N;
 SET NOT-ADV-PCLE       = NOT-ADV - Pcle ;
 SET NOT-ADV-INDEF      = NOT-ADV - Indef ;
-SET NOT-A-ADV-PCLE 	   = (*) - Pcle - A - Adv ; #
+SET NOT-A-ADV-PCLE     = (*) - Pcle - A - Adv ; #
 
 
 
@@ -514,13 +454,9 @@ SETS
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 LIST N-SG-NOM = (N Sg Nom);
-
 LIST PROP = (N Prop);
-
 SET COMMON-N = N - Prop;
-
 SET HEAD-N = N - Cmp/SplitR ;
-
 SET HEAD-N-NOM = (N Nom) - Cmp/SplitR ;
 
 # SET SUBJECTHEAD = N OR A OR Pron - Refl ; # These, can be subject heads
@@ -561,34 +497,22 @@ SET NOT-NPMOD     = WORD - PRE-NP-HEAD OR ABBR OR @CVP ;
 # This is the previous NPNH (npnh) set.
 # NOT-NPMOD  = "NOT-PRE-NP-HEAD"
 
-SET NOT-NPMOD-ACC     = NOT-NPMOD - Acc OR ABBR ;
-SET NOT-NPMOD-ACC-ADV     = NOT-NPMOD - Acc - Adv OR ABBR ;
-
 SET NOT-NPMODADV    = WORD - PRE-NP-HEAD - Adv ;
 SET NOT-NPMODADVPCLE    = WORD - PRE-NP-HEAD - Adv - Pcle;
 SET NOT-NPMODADV-INDEF   = WORD - PRE-NP-HEAD - Adv - Indef ;
 
 
 SET NOT-N = WORD - N ;
-
 SET NOT-N-A = WORD - N - A ;
-
 SET NOT-NP = Inf OR Pcle OR Interj OR CS ;
-
 SET NUM = Num ;
-
 SET NOT-NUM = WORD - Num ;
-
 SET NOT-CC = WORD - CC ;
-
 SET NOT-PCLE = WORD - Pcle ;
-
 SET REAL-CLB = CLB - COMMA ;
 
 
 #!! ### Postposition sets
-
-
 
 #!! ### Border sets and their complements
 # ---------------------------------
@@ -603,8 +527,7 @@ SET BOC = S-BOUNDARY OR BOS ;
 SET BOC-PUNCT = BOC - ("-") - ("–") ;
 SET EOC = S-BOUNDARY OR EOS ;
 
-SET NP-BOUNDARY = BOS OR EOS OR REAL-CLB OR Inf OR VGen OR Sup OR PPRON-NOT-GEN OR Recipr OR Po OR Pr OR Pcle OR Interj OR CS OR CP OR @CVP ;
-
+SET NP-BOUNDARY = BOS OR EOS OR REAL-CLB OR Inf OR VGen OR Sup OR Recipr OR Po OR Pr OR Pcle OR Interj OR CS OR CP OR @CVP ;
 SET SV-BOUNDARY = S-BOUNDARY OR Inf OR Sup OR FMAINV ;
 
 SET CCCOMMA = CC OR COMMA ;
@@ -616,36 +539,21 @@ SET CCCOMMA = CC OR COMMA ;
 
 
 
-# ===================================== #
-#!! Grammarchecker rules begin here 
-# ===================================== #
-
 
 
 #!! ## Grammarchecker sets
 
-
-
-#LIST &msyn-agr = &msyn-agr ;
-#LIST &msyn-agr-pl1 = &msyn-agr-pl1 ;
-#LIST &msyn-agr-pl2 = &msyn-agr-pl2 ;
-#LIST &msyn-agr-pl3 = &msyn-agr-pl3 ;
-#LIST &msyn-agr-sg1 = &msyn-agr-sg1 ;
-#LIST &msyn-agr-sg2 = &msyn-agr-sg2 ;
-#LIST &msyn-agr-sg3 = &msyn-agr-sg3 ;
-#LIST &msyn-ext-agr = &msyn-ext-agr ;
-#LIST &msyn-ext-vagr = &msyn-ext-vagr ;
-#LIST &msyn-gen-po = &msyn-gen-po ;
-#LIST &msyn-no-conneg = &msyn-no-conneg ;
-#LIST &msyn-orrood-inf = &msyn-orrood-inf ;
 LIST &double-space-before = &double-space-before ;
-LIST &msyn-acc-pss = &msyn-acc-pss ;
+LIST &guillemets = &guillemets ;
 LIST &msyn-agr-other-pl3 = &msyn-agr-other-pl3 ;
 LIST &msyn-agr-other-sg1 = &msyn-agr-other-sg1 ;
 LIST &msyn-agr-pl3-sg3 = &msyn-agr-pl3-sg3 ;
+LIST &msyn-agr-pl3-pl1 = &msyn-agr-pl3-pl1 ;
 LIST &msyn-agr-prfprcsg-prfprcpl = &msyn-agr-prfprcsg-prfprcpl ;
 LIST &msyn-agr-sg2-sg1 = &msyn-agr-sg2-sg1 ;
 LIST &msyn-agr-sg3-pl3 = &msyn-agr-sg3-pl3 ;
+LIST &msyn-agr-sg3-sg1 = &msyn-agr-sg3-sg1 ;
+LIST &msyn-agr-sg3-sg2 = &msyn-agr-sg3-sg2 ;
 LIST &msyn-neg-posv = &msyn-neg-posv ;
 LIST &msyn-po-asti = &msyn-po-asti ;
 LIST &msyn-po-nogela = &msyn-po-notela ;
@@ -653,20 +561,19 @@ LIST &msyn-po-notgen = &msyn-po-notgen ;
 LIST &space-after-paren-beg = &space-after-paren-beg ;
 LIST &space-before-paren-end = &space-before-paren-end ;
 LIST &space-before-punct-mark = &space-before-punct-mark ;
-LIST &syn-number-congruence-subj-verb = &syn-number-congruence-subj-verb ;
 LIST &typo = &typo ;
 
 	
 MAPPING-PREFIX = & ;
 
 
-
-#!! ## Grammarchecker rules
-
+# ======================== #
+#!! # Grammarchecker rules 
+# ======================== #
 
 SECTION
 
-#!! ### Speller rules
+#!! ## Speller rules
 
 # Speller suggestions rule – add &SUGGESTWF to any spelling suggestion
 # that we actually want to suggest to the user.
@@ -676,22 +583,32 @@ ADD:spell-it-all (&typo &SUGGESTWF) (<spelled>) ;
 ADD:spell-conservatively (&typo &SUGGESTWF) (<spelled>) IF (NEGATE -1 QMARK LINK 2 QMARK);
 
 
+#!! ## Agreement rules
 
-#!! ### Agreement rules
 
-#!! #### Sg1
+#!! ### Should be Sg1
 
+	 # Sg1 SUBJ
+
+ADD:msyn-agr-sg3-sg1 &msyn-agr-sg3-sg1 TARGET (V Act Sg3) IF
+	(*-1 ("mie" Pron Pers Sg1 Nom) BARRIER (V Sg1));
+COPY:msyn-agr-sg3-sg1 (Sg1 SUGGEST) EXCEPT (Sg3) TARGET &msyn-agr-sg3-sg1;
+ADDRELATION:msyn-agr-sg3-sg1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg3-sg1));
+
+#$ Mie tullee
+#% Mie tulen
 
 ADD:xmsyn-agr-sg2-sg1 (&msyn-agr-sg2-sg1) TARGET V IF
 	(-1C Pron + Sg1 + Nom)
 	(0 V + Act + Ind + Sg2)
 	;
 COPY:msyn-agr-sg2-sg1 (Sg1 &SUGGEST) EXCEPT (Sg2 &msyn-agr-sg2-sg1) TARGET (V Ind &msyn-agr-sg2-sg1);
+ADDRELATION:msyn-agr-sg2-sg1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg2-sg1));
 
 #% Mie tulet.
 ## Mie tulen.
 
-#!! **Agreement rule:** msyn-agr-other-sg1, *Mun puátá/puáđám*
+#!! **Agreement rule:** msyn-agr-other-sg1, *Mun puátá/puáđám* ("other" is dangerous. Check!)
 ADD:xmsyn-agr-other-sg1 (&msyn-agr-other-sg1) TARGET V IF
 	(NOT -2 Sg1)
 	(NOT -2 CC LINK -1 Sg + Nom)
@@ -703,10 +620,7 @@ ADD:xmsyn-agr-other-sg1 (&msyn-agr-other-sg1) TARGET V IF
 COPY:msyn-agr-other-sg1 (Sg1 &SUGGEST) EXCEPT (VNOTSG1 &msyn-agr-other-sg1) TARGET (V Ind Prt &msyn-agr-other-sg1);
 COPY:msyn-agr-other-sg1 (Sg1 &SUGGEST) EXCEPT (VNOTSG1 &msyn-agr-other-sg1) TARGET (V Ind Prs &msyn-agr-other-sg1);
 COPY:msyn-agr-other-sg1 (Ind Prt Sg1 &SUGGEST) EXCEPT (Actio Num &msyn-agr-other-sg1) TARGET (V  &msyn-agr-other-sg1);
-#% Mun puátá.
-#$ Mun puáđám.
-#$ Uážum-uv mun-uv elâččiđ váhá kiirdâšmin?
-#$ Tomhân mun tiäđust-uv paaččim.
+
 
 #!!  **Agreement rule:** msyn-agr-other-sg1
 ADD:xmsyn-agr-other-sg1 (&msyn-agr-other-sg1) TARGET V IF
@@ -718,10 +632,64 @@ ADD:xmsyn-agr-other-sg1 (&msyn-agr-other-sg1) TARGET V IF
 COPY:msyn-agr-other-sg1 (Sg1 &SUGGEST) EXCEPT (VNOTSG1 &msyn-agr-other-sg1) TARGET (V Ind Prs &msyn-agr-other-sg1);
 
 
+#!! ### Should be Sg2
+
+#!!  **Agreement rule:** msyn-agr-sg3-sg2
+ADD:msyn-agr-sg3-sg2 &msyn-agr-sg3-sg2 TARGET (V Act Sg3) IF
+	(*-1 ("sie" Pron Pers Sg2 Nom) BARRIER (V Sg2));
+COPY:msyn-agr-sg3-sg2 (Sg2 SUGGEST) EXCEPT (Sg3) TARGET &msyn-agr-sg3-sg2;
+ADDRELATION:msyn-agr-sg3-sg2 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg3-sg2));
+
+#$ Sie tullee
+#% Sie tulet
+
+#!! ### Should be Sg3
+
+#!! relative sentences between the noun and the finite verb
+	
+LIST REL-ADV = ("mikä") ("joka") ("missä") ("mistä") ("mihin") ("jossa") ("josta") ("johon") ; #homonymous with relative pronouns
+	
+ADD:msyn-agr-pl3-sg3 (&msyn-agr-pl3-sg3) TARGET (Act Ind Prt Pl3) IF
+	(*-1 Rel OR REL-ADV LINK *-1 (N Sg Nom) OR (Pron Nom Sg3) BARRIER NOT-COMMA)
+	(NEGATE 0 (PrfPrc Sg) OR (ConNeg Sg));
+	## Koira, josta hän välitti paljon, juoksivat pakoon.
+
+COPY:msyn-agr-pl3-sg3 (Sg3 &SUGGEST) EXCEPT Pl3 TARGET (V Ind Pl3 &msyn-agr-pl3-sg3);
+
+	
+#!! ### Should be Pl1
+
+#!!  **Agreement rule:** msyn-agr-sg3-pl3)
+ADD:msyn-agr-pl3-pl1 (&msyn-agr-pl3-pl1) TARGET (V Act Pl3) IF
+	(*-1 ("sie" Pron Pers Sg2 Nom) BARRIER (V Sg2));
+COPY:msyn-agr-pl3-pl1 (Pl1 SUGGEST) EXCEPT (Pl3) TARGET &msyn-agr-pl3-pl1;
+ADDRELATION:msyn-agr-pl3-pl1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-pl3-pl1));
+
+#$ Met tulhaan
+#% Met tulema
 
 
 
-#!! #### Pl3
+#!! ### Should be Pl2
+#!! Not written, perhaps irrelevant.
+
+
+#!! ### Should be Pl3
+    
+#!!  **Agreement rule:** msyn-agr-sg3-pl3)
+ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
+	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3))
+	(NOT 0 ("olla"));
+ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
+	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3))
+	(0 ("olla"))
+	(NOT 1 (Pass PrfPrc));
+COPY:msyn-agr-sg3-pl3 (Pl3 SUGGEST) EXCEPT (Sg3) TARGET &msyn-agr-sg3-pl3;
+ADDRELATION:msyn-agr-sg3-pl3 ($2) (Pron Sg3) TO (*1 V LINK 0 (&msyn-agr-sg3-pl3));
+
+#$ Net tullee
+#% Net tulhaan
+
 
 #!!  **Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
 ADD:xmsyn-agr-prsptc-pl3 (&msyn-agr-prsptc-pl3) TARGET V IF
@@ -731,7 +699,6 @@ ADD:xmsyn-agr-prsptc-pl3 (&msyn-agr-prsptc-pl3) TARGET V IF
 COPY:msyn-agr-other-pl3 (Ind Prs Pl3 &SUGGEST) EXCEPT (PrsPrc Pl Nom  &msyn-agr-prsptc-pl3) TARGET (V &msyn-agr-prsptc-pl3);
 #% Ne saavat
 #$ Ne saađhaan
-
 
 
 #!!  **Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
@@ -746,7 +713,6 @@ COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (VNOTPL3 &msyn-agr-other-pl3) TARG
 #fi Ne tulee.
 #% Toh puátá.
 #$ Toh puátih.
-
 
 
 #!!  **Agreement rule:** msyn-agr-other-pl3
@@ -780,7 +746,12 @@ ADDRELATION:msyn-agr-other-pl3 ($2) (N Pl Nom) FROM (-2 V LINK 0 (&msyn-agr-othe
 
 
 
-#!! ### Agreement rules
+
+
+
+
+
+#!! ### Agreement sg -> pl
 
 
 ADD:msyn-agr-prfprcsg-prfprcpl (&msyn-agr-prfprcsg-prfprcpl) TARGET (V Act PrfPrc Sg Nom) IF
@@ -794,32 +765,8 @@ ADDRELATION:msyn-agr-prfprcsg-prfprcpl ($2) V + Act + Ind FROM (*1 V  LINK 0 (&m
 #% Met olisimma lähättäny kuninkhaale preivin.
 ## Met olisimma lähättänheet kuninkhaale preivin.
 
-	## Pofeetta, Me olemme totisesti {vahvistanut} sinun laillisiksi vaimoiksesi kaikki ne, joille olet myöntänyt lesken osuudet, sekä ne, jotka omistat Jumalan antamina orjattarina sotasaaliista, sekä setäsi     tyttäret ja isäsi sisaren tyttäret, myöskin enosi tyttäret ja äitisi sisarten tyttäret, jotka kanssani pakenivat vainottuina uskonnon vuoksi; samoin on laillinen vaimosi sellainen uskovainen nainen, joka pyrkii avioliittoon kanssasi, mikäli suostut naimaan hänet. # vahvistanut> vahvistaneet (ConNeg Sg>ConNeg Pl)
-
-#ADD:syn-number-congruence-subj-verb (&msyn-agr-prfprcsg-prfprcpl) TARGET (V Act ConNeg Sg) IF
-#	(*-1 ("olla" V Act Ind Prs) BARRIER S-BOUNDARY LINK 0 Pl1 OR Pl2 OR Pl3)
-#	(NEGATE 0 (PrfPrc Pl) OR (ConNeg Pl));
 
 
-
-#!! PrfPrc Pl > PrfPrc Sg 
-
-#ADD:msyn-agr-prfprcsg-prfprcpl (&msyn-agr-prfprcsg-prfprcpl) TARGET (V Act ConNeg Pl) OR (V Act PrfPrc Pl Nom) IF (*-1 ("olla" V Act Ind Prs) BARRIER S-BOUNDARY LINK 0 Sg1 OR Sg2 OR Sg3)(NEGATE 0 (PrfPrc Sg) OR (ConNeg Sg));
-	## 
-
-#COPY:msyn-agr-prfprcsg-prfprcpl (Sg &SUGGEST) EXCEPT Sg AFTER PrfPrc OR ConNeg TARGET (V Act ConNeg Pl &msyn-agr-prfprcsg-prfprcpl) OR (V Act PrfPrc Pl Nom &msyn-agr-prfprcsg-prfprcpl);
-
-
-#!! relative sentences between the noun and the finite verb
-	
-LIST REL-ADV = ("mikä") ("joka") ("missä") ("mistä") ("mihin") ("jossa") ("josta") ("johon") ; #homonymous with relative pronouns
-	
-ADD:msyn-agr-pl3-sg3 (&msyn-agr-pl3-sg3) TARGET (Act Ind Prt Pl3) IF
-	(*-1 Rel OR REL-ADV LINK *-1 (N Sg Nom) OR (Pron Nom Sg3) BARRIER NOT-COMMA)
-	(NEGATE 0 (PrfPrc Sg) OR (ConNeg Sg));
-	## Koira, josta hän välitti paljon, juoksivat pakoon.
-
-COPY:msyn-agr-pl3-sg3 (Sg3 &SUGGEST) EXCEPT Pl3 TARGET (V Ind Pl3 &msyn-agr-pl3-sg3);
 
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Prt Sg3) IF
 	(*-1 Rel OR REL-ADV LINK *-1 (N Pl Nom) OR (Pron Nom Pl3) BARRIER NOT-COMMA)
@@ -830,51 +777,23 @@ COPY:msyn-agr-sg3-pl3 (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Ind Sg3 &msyn-agr-sg3-
 
 #!! Prs Sg3 > Prs Pl3
 	
-ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF (*-1 (Pers Pl3 Nom) OR (N Pl Nom) OR (Dem Pl Nom) BARRIER S-BOUNDARY LINK NEGATE -1 CC LINK -1 (N Nom))(NEGATE 0 (Act Ind Pl3));
+ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
+	(*-1 (Pers Pl3 Nom) OR (N Pl Nom) OR (Dem Pl Nom) BARRIER (Sg Nom) OR S-BOUNDARY LINK NEGATE -1 CC LINK -1 (N Nom))
+	(NEGATE 0 (Act Ind Pl3))
+	(NEGATE *1 (Pass PrfPrc) BARRIER NOT-ADV);
 	## He tulee.
 	## Koirat tulee.
 	## Ne tulee.
 
-ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF (*-1 (N Nom) BARRIER S-BOUNDARY LINK -1 CC OR COMMA LINK -1 (N Nom))(NEGATE 0 (Act Ind Pl3));
+ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
+	(*-1 (N Pl Nom) BARRIER (N Sg Nom) OR S-BOUNDARY LINK -1 CC OR COMMA LINK -1 (N Nom))
+	(NEGATE 0 (Act Ind Pl3))
+	(0C V);
 	## Koira ja kissa tulee.
 
 
 COPY:msyn-agr-sg3-pl3 (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Act Sg3 &msyn-agr-sg3-pl3);
 ADDRELATION:msyn-agr-sg3-pl3 ($2) (Pl3) FROM (*1 V LINK 0 &msyn-agr-sg3-pl3);
-
-#!!  #### regular congruence rules
-
-	 # Sg1 SUBJ
-    
-ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Sg1 Nom) OR ("mikä" Pron Sg Ess) BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com)(NEGATE 0 Sg1 OR Adv);
-	## Minä viime aikoina näimme koiran.
-	## Näimme viime aikoina minä koiran.
-
-	 # Sg2 SUBJ
-    
-ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Sg2 Nom) OR ("se" Pron Sg Ess) BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com)(NEGATE 0 Sg2 OR Adv);
-	## Sinä viime aikoina näimme koiran.
-
-	 # Sg3 SUBJ
-    
-ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Sg3 Nom) OR (N Sg Nom) BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com LINK NEGATE -1 CC LINK *-1 (N Nom) BARRIER NOT-NPMOD)(NEGATE 0 Sg3 OR Adv);
-	## Hän viime aikoina näimme koiran.
-	
-	 # Pl1 SUBJ
-    
-ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Pl1 Nom) BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com)(NEGATE 0 Pl1 OR Adv);
-	#$ Me viime aikoina näimme koiran.
-	## Me viime aikoina näitte koiran.
-
-	 # Pl2 SUBJ
-    
-ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Pl2 Nom) BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com)(NEGATE 0 Pl2 OR Adv);
-	## Te viime aikoina näimme koiran.
-
-	 # Pl3 SUBJ
-    
-ADD:syn-number-congruence-subj-verb (&syn-number-congruence-subj-verb) TARGET (V Act) IF (*0 (Pron Pers Pl3 Nom) OR (N Pl Nom) OR ("he") BARRIER NOT-NPMODADVPCLE - Ess - Ine - Ela - All - Abl - Ade - Ill - Com)(NEGATE 0 Pl3 OR Adv);
-	## He viime aikoina näimme koiran.
 
 
 
@@ -884,7 +803,10 @@ ADD:msyn-neg-posv (&msyn-neg-posv) TARGET V IF (*-1 Neg BARRIER NOT-ADV LINK NOT
 COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Sg3 &msyn-neg-posv) TARGET &msyn-neg-posv ;
 ## Mies ei tullee.
 
-#!! ### Postposition rules
+
+
+
+#!! ## Postposition rules
 
 #3ADD:msyn-po-notgen (&msyn-po-notgen) TARGET N IF (NOT 0 Gen OR Par)(1C Po);
 ADD:msyn-po-notgen (&msyn-po-notgen) TARGET N IF (NOT 0 Gen)(1 POGEN);
@@ -895,8 +817,8 @@ ADD:msyn-po-asti (&msyn-po-asti) TARGET N OR Pron IF
 	(0 Nom OR Gen)
 	(NOT 0 Ill)
 	(1 ("asti"));
-# Hän viipyy täällä iltaan asti
-# Hän viipyy täällä ilta asti 
+#$ Hän viipyy täällä iltaan asti
+#% Hän viipyy täällä ilta asti 
 
 
 # Huom: minusta huolimatta+Po
@@ -905,28 +827,27 @@ ADD:msyn-po-asti (&msyn-po-asti) TARGET N OR Pron IF
 # TODO: List of gen-Po, par-Po, Ill-Po, Ela-Po
 
 
-#!! ### L2 rules
-
-# A tentative L2 error
-#ADD:msyn-acc-pss (&msyn-acc-pss) TARGET N IF (-1 V + Pss + Ind)(0 Gen)(NOT *1 N OR A BARRIER NOT-NPMOD)(Not 1 Po);
-ADD:msyn-acc-pss (&msyn-acc-pss) TARGET Pron + Pers + Nom IF (-1 V + Pss + Ind)(NOT *1 N OR A BARRIER NOT-NPMOD)(Not 1 Po);
-## Nähtiin hän.
 
 
-#!! ###  NP internal rules
+
+
+#!! ##  NP internal rules
 
 # And one with a suggestion where we simply change the tag Sg into Attr:
 # TODO: Give example on this:
 ADD:attr-not-pred (&attr-not-pred) TARGET (A Sg) IF (NOT 0 Attr OR Gen) (1 CC LINK *1 COMMON-N) ;
 COPY:attr-not-pred (Attr &SUGGEST) EXCEPT (Sg) TARGET (&attr-not-pred) ;
-# The method is: Add &SUGGEST to a copied reading to *generate* a
-# suggestion form from that reading. The copy should contain the error
-# tag too – &-prefixed error tags are ignored when generating, but
-# used to create human-readable messages.
+
+#!! The method is: Add &SUGGEST to a copied reading to *generate* a
+#!! suggestion form from that reading. The copy should contain the error
+#!! tag too – &-prefixed error tags are ignored when generating, but
+#!! used to create human-readable messages.
 
 
 
-#!! ###  Punctuation rules
+#!! ##  Punctuation rules
+
+#!! ### Punctuation marks
 
 # Simple punctuation rules showing how to change the lemma in the suggestions:
 ADD:use-guillemets (&guillemets) TARGET (""");
@@ -938,9 +859,12 @@ COPY:use-ellipsis ("…" &SUGGEST) EXCEPT ("...") TARGET (&ellipsis) ;
 
 
 #!! ###  Spacing errors
-# ------------------
+
+#!! Here we find spacing rules.
 
 ADD (&double-space-before)     (<doubleSpaceBefore>);
 ADD (&space-after-paren-beg)   (<spaceAfterParenBeg>);
 ADD (&space-before-paren-end)  (<spaceBeforeParenEnd>);
 ADD (&space-before-punct-mark) (<SpaceBeforePunctMark>);
+
+
