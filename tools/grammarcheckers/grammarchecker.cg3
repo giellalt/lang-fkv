@@ -37,10 +37,10 @@
 # ---------------------- #
 #
 # emacs grammarchecker.cg3  # and C-c C-i / C-c C-c if you have cg-mode installed
-# echo "Hän ei tulee." | sh modes/fkvgram.mode  # from the terminal
+# echo "Hän ei tule." | sh modes/fkvgram.mode  # from the terminal
 #
 # The basic pipeline, in case modes (above) does not work
-#  echo "Hän ei tulee." | hfst-tokenise -g ../tokenisers/tokeniser-gramcheck-gt-desc.pmhfst | vislcg3 -g disambiguator.cg3  | vislcg3 -g grammarchecker.cg3 -t
+#  echo "Hän ei tule." | hfst-tokenise -g ../tokenisers/tokeniser-gramcheck-gt-desc.pmhfst | vislcg3 -g disambiguator.cg3  | vislcg3 -g grammarchecker.cg3 -t
 
 # ---------------------- #
 #   Other debug-pipes:   #
@@ -680,7 +680,7 @@ ADDRELATION:msyn-agr-pl3-pl1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-pl3-pl1)
 #!!  **Agreement rule:** msyn-agr-sg3-pl3)
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
 	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3))
-	(NOT 0 ("olla"));
+	(NOT 0 ("olla") OR Pl3);
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
 	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3))
 	(0 ("olla"))
@@ -711,7 +711,7 @@ ADD:xmsyn-agr-other-pl3 (&msyn-agr-other-pl3) TARGET V IF
 	(NOT 1 Sg + Nom OR Pron + Sg3 + Nom);
 COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (VNOTPL3 &msyn-agr-other-pl3) TARGET (V Ind Prs &msyn-agr-other-pl3);
 COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (VNOTPL3 &msyn-agr-other-pl3) TARGET (V Ind Prt &msyn-agr-other-pl3);
-#fi Ne tulee.
+#fi Ne tullee.
 #% Toh puátá.
 #$ Toh puátih.
 
@@ -768,30 +768,34 @@ ADDRELATION:msyn-agr-prfprcsg-prfprcpl ($2) V + Act + Ind FROM (*1 V  LINK 0 (&m
 
 
 
-
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Prt Sg3) IF
-	(*-1 Rel OR REL-ADV LINK *-1 (N Pl Nom) OR (Pron Nom Pl3) BARRIER NOT-COMMA)
+	(*-1 Rel OR REL-ADV BARRIER (N Sg Nom) LINK *-1 (N Pl Nom) OR (Pron Nom Pl3) BARRIER NOT-COMMA)
 	(NEGATE 0 (PrfPrc Sg) OR (ConNeg Sg));
 	## 
 
 COPY:msyn-agr-sg3-pl3 (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Ind Sg3 &msyn-agr-sg3-pl3);
 
 #!! Prs Sg3 > Prs Pl3
-	
-ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
-	(*-1 (Pers Pl3 Nom) OR (N Pl Nom) OR (Dem Pl Nom) BARRIER (Sg Nom) OR S-BOUNDARY LINK NEGATE -1 CC LINK -1 (N Nom))
-	(NEGATE 0 (Act Ind Pl3))
-	(NEGATE *1 (Pass PrfPrc) BARRIER NOT-ADV)
-	(NEGATE 0 modalverb LINK 1 Inf);
-	## He tulee.
-	## Koirat tulee.
-	## Ne tulee.
+
+LIST speechverb = "bkuulattaat" "puhela" "sannoot" "vastata" "mutista" "sanostaat" "ajatella" "hunteerata" "luula" "huuttaat" "huuđastaat" "huuđela" "karjuut" "kiljaista" "kuiskata" "viskutella" "viskuttaat" "muistela" "muistutella" "luvata" ;
 
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
-	(*-1 (N Pl Nom) BARRIER (N Sg Nom) OR S-BOUNDARY LINK -1 CC OR COMMA LINK -1 (N Nom))
+	(*-1 (Pers Pl3 Nom) OR (N Pl Nom) OR (Dem Pl Nom) BARRIER (Sg Nom) OR (Sg3 Nom)  OR S-BOUNDARY LINK NEGATE -1 CC LINK -1 (N Nom))
+	(NEGATE 0 (Act Ind Pl3))
+	(NEGATE -1 Ade LINK 2 Nom)
+	(NEGATE *1 (Pass PrfPrc) BARRIER NOT-ADV)
+	(NEGATE 0 modalverb LINK 1 Inf)
+	(NEGATE 0 speechverb LINK -1 ("”" PUNCT RIGHT) OR ("»" PUNCT RIGHT) LINK 2 (N Sg Nom));
+
+	## He tullee.
+	## Koirat tullee.
+	## Ne tullee.
+
+ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
+	(*-1 (N Pl Nom) BARRIER (V Pl3) OR (N Sg Nom) OR S-BOUNDARY LINK -1 CC OR COMMA LINK -1 (N Nom))
 	(NEGATE 0 (Act Ind Pl3))
 	(0C V);
-	## Koira ja kissa tulee.
+	## Koira ja kissa tullee.
 
 
 COPY:msyn-agr-sg3-pl3 (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Act Sg3 &msyn-agr-sg3-pl3);
