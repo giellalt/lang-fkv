@@ -1918,6 +1918,8 @@ SECTION
 # Commented out, may be useful at a later stage, but at the moment may hide ambiguities - 20.01.2015 -FMT+KM
 #SELECT @<SPRED ;
 
+REMOVE:Oli Prop IF (0 ("olla")); 
+REMOVE:Het Prop IF (0 ("het")); 
 
 
 #!! * **X** maps X everywhere

@@ -769,8 +769,10 @@ ADDRELATION:msyn-agr-prfprcsg-prfprcpl ($2) V + Act + Ind FROM (*1 V  LINK 0 (&m
 
 
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Prt Sg3) IF
-	(*-1 Rel OR REL-ADV BARRIER (N Sg Nom) LINK *-1 (N Pl Nom) OR (Pron Nom Pl3) BARRIER NOT-COMMA)
-	(NEGATE 0 (PrfPrc Sg) OR (ConNeg Sg));
+	(*-1 Rel OR REL-ADV BARRIER (N Sg Nom) OR (Pton Sg3 Nom) OR (Dem Sg Nom) LINK *-1 (N Pl Nom) OR (Pron Nom Pl3) BARRIER NOT-COMMA)
+	(NEGATE 0 (PrfPrc Sg) OR (ConNeg Sg))
+	(NOT 0 CC) # eli
+	;
 	## 
 
 COPY:msyn-agr-sg3-pl3 (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Ind Sg3 &msyn-agr-sg3-pl3);
@@ -779,14 +781,17 @@ COPY:msyn-agr-sg3-pl3 (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Ind Sg3 &msyn-agr-sg3-
 
 LIST speechverb = "bkuulattaat" "puhela" "sannoot" "vastata" "mutista" "sanostaat" "ajatella" "hunteerata" "luula" "huuttaat" "huuđastaat" "huuđela" "karjuut" "kiljaista" "kuiskata" "viskutella" "viskuttaat" "muistela" "muistutella" "luvata" ;
 
+
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
 	(*-1 (Pers Pl3 Nom) OR (N Pl Nom) OR (Dem Pl Nom) BARRIER (Sg Nom) OR (Sg3 Nom)  OR S-BOUNDARY LINK NEGATE -1 CC LINK -1 (N Nom))
 	(NEGATE 0 (Act Ind Pl3))
 	(NEGATE -1 Ade LINK 2 Nom)
 	(NEGATE *1 (Pass PrfPrc) BARRIER NOT-ADV)
 	(NEGATE 0 modalverb LINK 1 Inf)
-	(NEGATE 0 speechverb LINK -1 ("”" PUNCT RIGHT) OR ("»" PUNCT RIGHT) LINK 2 (N Sg Nom));
-
+	(NEGATE 0 speechverb LINK -1 ("”" PUNCT RIGHT) OR ("»" PUNCT RIGHT) LINK 2 (N Sg Nom))
+	(NEGATE -1 (N Pl Nom) LINK 2 (N Sg Nom))
+	(NOT 0 CC) # eli
+	;
 	## He tullee.
 	## Koirat tullee.
 	## Ne tullee.
@@ -794,7 +799,9 @@ ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
 	(*-1 (N Pl Nom) BARRIER (V Pl3) OR (N Sg Nom) OR S-BOUNDARY LINK -1 CC OR COMMA LINK -1 (N Nom))
 	(NEGATE 0 (Act Ind Pl3))
-	(0C V);
+	(0C V)
+	(NOT 0 CC) # eli
+	;
 	## Koira ja kissa tullee.
 
 
