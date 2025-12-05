@@ -760,6 +760,9 @@ REMOVE:NotJok (Dial/Jok);
 #!! ### Early rules
 # SELECT:Dummyrule WORD IF (0 WORD) ;
 
+REMOVE:Oli Prop IF (0 ("olla")); 
+REMOVE:Het Prop IF (0 ("het")); 
+
 #!! 
 REMOVE:on ("o") IF (0 ("olla"));
 
