@@ -1,4 +1,7 @@
 # -*- cg-pre-pipe: "hfst-tokenise -g ../../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmhfst" -*-
+
+#%# # = merke for testing, kommentert ut parantesar og stavekontroll
+
 # Divvun & Giellatekno - open source grammars for Sámi and other languages
 # Copyright © 2000-2017 UiT The arctic University of Norway
 # http://giellatekno.uit.no & http://divvun.no
@@ -383,6 +386,8 @@ SET NOT-PRFPRC = WORD - PrfPrc ; #!! NOT-PRFPRC
 #!! ### Sets for person
 # - - - -
 
+#LIST VPERSON = Sg1 Sg2 Sg3 Pl1 Pl2 Pl3 ;
+
 LIST SG1-V = (V Sg1)  ; #!! SG1-V
 LIST SG2-V = (V Sg2)  ;  #!! SG2-V
 LIST SG3-V = (V Sg3)  ;  #!! SG3-V
@@ -544,7 +549,7 @@ SET CCCOMMA = CC OR COMMA ;
 
 #!! ## Grammarchecker sets
 
-LIST &double-space-before = &double-space-before ;
+#%#LIST &double-space-before = &double-space-before ;
 LIST &guillemets = &guillemets ;
 LIST &msyn-agr-other-pl3 = &msyn-agr-other-pl3 ;
 LIST &msyn-agr-other-sg1 = &msyn-agr-other-sg1 ;
@@ -559,10 +564,10 @@ LIST &msyn-neg-posv = &msyn-neg-posv ;
 LIST &msyn-po-asti = &msyn-po-asti ;
 LIST &msyn-po-nogela = &msyn-po-notela ;
 LIST &msyn-po-notgen = &msyn-po-notgen ;
-LIST &space-after-paren-beg = &space-after-paren-beg ;
-LIST &space-before-paren-end = &space-before-paren-end ;
-LIST &space-before-punct-mark = &space-before-punct-mark ;
-LIST &typo = &typo ;
+#%#LIST &space-after-paren-beg = &space-after-paren-beg ;
+#%#LIST &space-before-paren-end = &space-before-paren-end ;
+#%#LIST &space-before-punct-mark = &space-before-punct-mark ;
+#%#LIST &typo = &typo ;
 
 	
 MAPPING-PREFIX = & ;
@@ -579,9 +584,9 @@ SECTION
 # Speller suggestions rule – add &SUGGESTWF to any spelling suggestion
 # that we actually want to suggest to the user.
 # The simplest is to just add it to all spelled words:
-ADD:spell-it-all (&typo &SUGGESTWF) (<spelled>) ;
+#%#ADD:spell-it-all (&typo &SUGGESTWF) (<spelled>) ;
 # But perhaps you want to only suggest spellings of words that are not inside "quotes":
-ADD:spell-conservatively (&typo &SUGGESTWF) (<spelled>) IF (NEGATE -1 QMARK LINK 2 QMARK);
+#%#ADD:spell-conservatively (&typo &SUGGESTWF) (<spelled>) IF (NEGATE -1 QMARK LINK 2 QMARK);
 
 
 #!! ## Agreement rules
@@ -674,12 +679,14 @@ ADDRELATION:msyn-agr-pl3-pl1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-pl3-pl1)
 #!! ### Should be Pl2
 #!! Not written, perhaps irrelevant.
 
+SET SGNOM = (N Sg Nom) OR (Pron Sg3 Nom) OR (Dem Sg Nom);
+SET PLNOM = (N Pl Nom) OR (Pron Pl3 Nom) OR (Dem Pl Nom);
 
 #!! ### Should be Pl3
     
 #!!  **Agreement rule:** msyn-agr-sg3-pl3)
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
-	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3))
+	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3) OR SGNOM)
 	(NOT 0 ("olla") OR Pl3);
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
 	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3))
@@ -694,9 +701,9 @@ ADDRELATION:msyn-agr-sg3-pl3 ($2) (Pron Sg3) TO (*1 V LINK 0 (&msyn-agr-sg3-pl3)
 
 #!!  **Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
 ADD:xmsyn-agr-prsptc-pl3 (&msyn-agr-prsptc-pl3) TARGET V IF
-	(*-1C Pron + Pl3 + Nom OR Dem + Pl + Nom OR N + Pl + Nom  BARRIER NOT-ADV-PCLE OR VFIN OR CC OR CLB OR PUNCT)
+	(*-1C PLNOM  BARRIER NOT-ADV-PCLE OR VFIN OR CC OR CLB OR PUNCT)
 	(0C V + Act + PrsPrc + Pl + Nom)
-	(NOT 1 Sg + Nom OR Pron + Sg3 + Nom);
+	(NOT 1 SGNOM);
 COPY:msyn-agr-other-pl3 (Ind Prs Pl3 &SUGGEST) EXCEPT (PrsPrc Pl Nom  &msyn-agr-prsptc-pl3) TARGET (V &msyn-agr-prsptc-pl3);
 #% Ne saavat
 #$ Ne saađhaan
@@ -705,10 +712,10 @@ COPY:msyn-agr-other-pl3 (Ind Prs Pl3 &SUGGEST) EXCEPT (PrsPrc Pl Nom  &msyn-agr-
 #!!  **Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
 ADD:xmsyn-agr-other-pl3 (&msyn-agr-other-pl3) TARGET V IF
 	(NOT -2 Sup OR Sg3)
-	(*-1C Pron + Pl3 + Nom OR Dem + Pl + Nom OR N + Pl + Nom  BARRIER NOT-ADV-PCLE OR VFIN OR CC OR CLB OR PUNCT)
+	(*-1C PLNOM BARRIER NOT-ADV-PCLE OR VFIN OR CC OR CLB OR PUNCT)
 	(0C V + Ind + Sg3)
 	(NOT 0 Pl3)
-	(NOT 1 Sg + Nom OR Pron + Sg3 + Nom);
+	(NOT 1 SGNOM);
 COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (VNOTPL3 &msyn-agr-other-pl3) TARGET (V Ind Prs &msyn-agr-other-pl3);
 COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (VNOTPL3 &msyn-agr-other-pl3) TARGET (V Ind Prt &msyn-agr-other-pl3);
 #fi Ne tullee.
@@ -756,7 +763,7 @@ ADDRELATION:msyn-agr-other-pl3 ($2) (N Pl Nom) FROM (-2 V LINK 0 (&msyn-agr-othe
 
 
 ADD:msyn-agr-prfprcsg-prfprcpl (&msyn-agr-prfprcsg-prfprcpl) TARGET (V Act PrfPrc Sg Nom) IF
-	(*-1 ("olla" V Act Ind Prs) BARRIER S-BOUNDARY LINK 0 Pl1 OR Pl2 OR Pl3)
+	(*-1 ("olla" V Act Ind Prs) BARRIER S-BOUNDARY LINK 0 Pl1 OR Pl2 OR Pl3 LINK NOT 0 Sg3)
 	(NEGATE 0 (PrfPrc Pl) OR (ConNeg Pl));
 COPY:msyn-agr-prfprcsg-prfprcpl (Pl Nom &SUGGEST) EXCEPT (Sg Nom &msyn-agr-prfprcsg-prfprcpl) TARGET (V Act PrfPrc Sg Nom &msyn-agr-prfprcsg-prfprcpl);
 ADDRELATION:msyn-agr-prfprcsg-prfprcpl ($2) V + Act + Ind FROM (*1 V  LINK 0 (&msyn-agr-prfprcsg-prfprcpl));
@@ -783,7 +790,8 @@ LIST speechverb = "bkuulattaat" "puhela" "sannoot" "vastata" "mutista" "sanostaa
 
 
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
-	(*-1 (Pers Pl3 Nom) OR (N Pl Nom) OR (Dem Pl Nom) BARRIER (Sg Nom) OR (Sg3 Nom)  OR S-BOUNDARY LINK NEGATE -1 CC LINK -1 (N Nom))
+	(*-1 (Pers Pl3 Nom) OR (N Pl Nom) OR (Dem Pl Nom)
+	    BARRIER (V Pl3) OR (Sg Nom) OR (Sg3 Nom) OR S-BOUNDARY LINK NEGATE -1 CC LINK -1 (N Nom))
 	(NEGATE 0 (Act Ind Pl3))
 	(NEGATE -1 Ade LINK 2 Nom)
 	(NEGATE *1 (Pass PrfPrc) BARRIER NOT-ADV)
@@ -812,7 +820,15 @@ ADDRELATION:msyn-agr-sg3-pl3 ($2) (Pl3) FROM (*1 V LINK 0 &msyn-agr-sg3-pl3);
 
 #!! ### Negation verb rules
 
-ADD:msyn-neg-posv (&msyn-neg-posv) TARGET V IF (*-1 Neg BARRIER NOT-ADV LINK NOT 0 Foc/ka)(0 VFIN)(NOT 0 ConNeg);
+# Todo: Separate rules for Prt, Cond, ...
+ADD:msyn-neg-posv (&msyn-neg-posv) TARGET V IF
+	(*-1 Neg BARRIER NOT-ADV LINK NOT 0 Foc/ka OR ("että" CC))
+	(0 Prs)
+	(NEGATE -1 Adv LINK -1 ("ei") LINK -1 ("<voi>"))
+	(NOT 0 ConNeg)
+	(NEGATE 0 N LINK *1 ConNeg BARRIER V)
+	;
+COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Pl2 &msyn-neg-posv) TARGET &msyn-neg-posv ;
 COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Sg3 &msyn-neg-posv) TARGET &msyn-neg-posv ;
 ## Mies ei tullee.
 
@@ -822,14 +838,18 @@ COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Sg3 &msyn-neg-posv) TARGET &msyn-ne
 #!! ## Postposition rules
 
 #3ADD:msyn-po-notgen (&msyn-po-notgen) TARGET N IF (NOT 0 Gen OR Par)(1C Po);
-ADD:msyn-po-notgen (&msyn-po-notgen) TARGET N IF (NOT 0 Gen)(1 POGEN);
-ADD:msyn-po-notela (&msyn-po-notgen) TARGET N IF (NOT 0 Ela)(1 POELA);
+ADD:msyn-po-notgen (&msyn-po-notgen) TARGET N IF (0 Nom)(NOT 0 Gen)(1 POGEN);
+COPY:msyn-po-notgen (Gen SUGGEST) EXCEPT Nom TARGET (&msyn-po-notgen);
+
+ADD:msyn-po-notela (&msyn-po-notela) TARGET N IF (0 Nom)(NOT 0 Ela)(1 POELA);
 ADD:msyn-po-notela (&msyn-po-notela) TARGET N IF (NOT 0 Ela)(1 ("<*.matta>"r) + Po);
+COPY:msyn-po-notgen (Ela SUGGEST) EXCEPT Nom TARGET (&msyn-po-notgen);
 
 ADD:msyn-po-asti (&msyn-po-asti) TARGET N OR Pron IF
 	(0 Nom OR Gen)
 	(NOT 0 Ill)
 	(1 ("asti"));
+COPY:msyn-po-asti (Ill SUGGEST) EXCEPT Nom TARGET (&msyn-po-asti);
 #$ Hän viipyy täällä iltaan asti
 #% Hän viipyy täällä ilta asti 
 
@@ -875,9 +895,9 @@ COPY:use-ellipsis ("…" &SUGGEST) EXCEPT ("...") TARGET (&ellipsis) ;
 
 #!! Here we find spacing rules.
 
-ADD (&double-space-before)     (<doubleSpaceBefore>);
-ADD (&space-after-paren-beg)   (<spaceAfterParenBeg>);
-ADD (&space-before-paren-end)  (<spaceBeforeParenEnd>);
-ADD (&space-before-punct-mark) (<SpaceBeforePunctMark>);
+#%#ADD (&double-space-before)     (<doubleSpaceBefore>);
+#%#ADD (&space-after-paren-beg)   (<spaceAfterParenBeg>);
+#%#ADD (&space-before-paren-end)  (<spaceBeforeParenEnd>);
+#%#ADD (&space-before-punct-mark) (<SpaceBeforePunctMark>);
 
 
