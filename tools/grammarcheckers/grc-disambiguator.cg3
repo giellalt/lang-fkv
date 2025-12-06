@@ -779,6 +779,10 @@ SELECT:adv_after_V Adv IF (-1 V)
 	#$ Konferansiprogramin saatat lukea tästä: www.fad.dep.no.
 	#% on+V       tänä+Dem  A    vuona+N
 
+REMOVE:Oli Prop IF (0 ("olla")); 
+REMOVE:Het Prop IF (0 ("het")); 
+REMOVE:name_sg Prop IF (0 Sem/Mal + Pl OR Sem/Fem + Pl);
+
 #!! * __prop_infrontof_kieli__ removes propernoun in fron of kieli, if it kan be something else, e.g. Kainun kieli
 REMOVE:prop_infrontof_kieli Prop (0 Gen OR Pron OR A LINK 1 ("kieli")) ;
 	#$ Kainun kieli oon osa Ruijan kulttuuriperinnöstä.
@@ -1140,7 +1144,9 @@ SELECT:dempronandnotpronpers Dem IF (1 A OR N) (NEGATE -1 Dem LINK -1 V) (NEGATE
 #% ... niin ota vasthaan tämän lahjan minun käðestä, sillä tarkoitus oli nähðä sinun silmät ...
 
 #!! * **Imperativefromconneg** selects and removes ConNeg
-IFF:Imperativefromconneg ConNeg IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - Adv)(NEGATE -1 Foc/kaan LINK 2 S-BOUNDARY) ;
+# XXX Korfor virker denne på Cond når det står IFF (0 Imprt)?
+	# Ja mitäpä se itteensärakastaja ei pitäiskhään väärin jos siitä tulis hänele vähänkhään hyöttyy
+#IFF:Imperativefromconneg ConNeg IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - Adv)(NEGATE -1 Foc/kaan LINK 2 S-BOUNDARY) ;
 #% Anna se mikä oon sinun, olla sinun.
 #% Ei yksikhään niistä jokka mie olin kuttunu.
 # Jos mie nyt olen saannu hyväntahtoisuutta sinulta, niin ota vasthaan tämän lahjan minun käðestä
@@ -1918,8 +1924,7 @@ SECTION
 # Commented out, may be useful at a later stage, but at the moment may hide ambiguities - 20.01.2015 -FMT+KM
 #SELECT @<SPRED ;
 
-REMOVE:Oli Prop IF (0 ("olla")); 
-REMOVE:Het Prop IF (0 ("het")); 
+
 
 
 #!! * **X** maps X everywhere
