@@ -1,5 +1,5 @@
-double-space-before = 
-    .desc =
+double-space-before = bla
+    .desc = bla
 
 grammar-error = Väärä muoto
     .desc = Sana {$1} ei ehkä ole oikein tässä.
@@ -22,8 +22,11 @@ msyn-agr-prsptc-pl3 = Kolmannen persoonan muoto
 msyn-agr-sg2-sg1 = Virheellinen verbimuoto
     .desc = Kun verbi tulee pronomini "mie" jälkeen, sen on oltava ensimmäisessä persoonassa.
 
-msyn-agr-sg3-pl3 = Verbi yksikössä, ei monikossa
+msyn-agr-sg3-pl3 = Verbi on yksikössä, ei monikossa
     .desc = Monikkosubjektin, kuten {$2}, jälkeen verbin pitäisi luultavasti olla monikossa.
+
+msyn-agr-sg3-sg2 = Verbi on väärässä persoonassa
+    .desc = Kun verbi tulee pronomini "sie" jälkeen, sen on oltava ensimmäisessä persoonassa.
 
 msyn-agr-pl3-sg3 = Verbi yksikössä, ei monikossa
     .desc = Yksikön subjektin, kuten {$2}, jälkeen verbin pitäisi luultavasti olla yksikössä.
@@ -31,20 +34,26 @@ msyn-agr-pl3-sg3 = Verbi yksikössä, ei monikossa
 msyn-agr-prfprcsg-prfprcpl = Partisiipin monikkomuoto
     .desc = Jos partisiippi, kuten tässä {$1}, esiintyy monikossa, niin itse partisiipin on oltava monikossa.
 
-msyn-agr-sg2-sg1 = 
-    .desc =
+msyn-agr-pl3-pl1 = bla
+    .desc = bla
 
-msyn-po-notgen = 
-    .desc =
+msyn-agr-sg3-sg1 = bla
+    .desc = bla
 
-msyn-po-nogela = 
-    .desc =
+msyn-agr-sg2-sg1 = bla
+    .desc = bla
 
-msyn-neg-posv = 
-    .desc =
+msyn-po-notgen = bla
+    .desc = bla
 
-msyn-po-asti = 
-    .desc =
+msyn-po-nogela = bla 
+    .desc = bla
+
+msyn-neg-posv = bla
+    .desc = bla
+
+msyn-po-asti = bla
+    .desc = bla
 
 msyn-valency-ill-acc = Väärä sijamuoto
     .desc = Tässä akkusatiivi sopii paremmin 
