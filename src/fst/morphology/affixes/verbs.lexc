@@ -76,6 +76,7 @@ LEXICON OLLA !!≈ **@CODE@** on oma leksikko, vielä vain preesens
 +V+Act+Cond+Pl2:olisitta K ; ! olisitta
 +V+Act+Cond+Pl3:oltais K ; ! oltais
 +V+Pass+Cond:oltais	K ; ! oltais
++V+Act+Cond+ConNeg:olis K ;	! olisi
 
 +V+Act+Imprt+Sg2:ole K ;
 +V+Act+Imprt+Sg3:olkhoon K ;
@@ -139,6 +140,7 @@ LEXICON v1 !!≈ **@CODE@** saađa:saa
 +V+Act+Cond+Sg1:%>i4sin K ; ! saisin
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
++V+Act+Cond+ConNeg:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4sim^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
 +V+Act+Cond+Pl3:%>t^A%>i4s K ;
@@ -188,6 +190,7 @@ LEXICON v1iđa !!≈ **@CODE@** Cond uiđa:uisin
 +V+Act+Cond+Sg1:%>sin K ; ! uisin
 +V+Act+Cond+Sg2:%>sit K ;
 +V+Act+Cond+Sg3:%>s K ;   ! uis
++V+Act+Cond+ConNeg:%>s K ;   ! uis
 +V+Act+Cond+Pl1:%>sim^A K ;
 +V+Act+Cond+Pl2:%>sitt^A K ;
 +V+Act+Cond+Pl3:%>t^A%>i4s K ;
@@ -234,6 +237,7 @@ LEXICON v1kayda  !!≈ **@CODE@** käyđä:kä
 +V+Act+Cond+Sg1:v%>i4sin K ; ! kävisin
 +V+Act+Cond+Sg2:v%>i4sit K ;
 +V+Act+Cond+Sg3:v%>i4s K ;
++V+Act+Cond+ConNeg:v%>i4s K ;
 +V+Act+Cond+Pl1:v%>i4simm^A K ;
 +V+Act+Cond+Pl2:v%>i4sitt^A K ;
 +V+Act+Cond+Pl3:y%>t^A%>i4s K ;
@@ -279,6 +283,7 @@ LEXICON v1nahda !!≈ **@CODE@** nähđä:nä
 +V+Act+Cond+Sg1:%>kisin K ; ! näkisin
 +V+Act+Cond+Sg2:%>kisit K ;
 +V+Act+Cond+Sg3:%>kis K ;
++V+Act+Cond+ConNeg:%>kis K ;
 +V+Act+Cond+Pl1:%>kisimm^A K ;
 +V+Act+Cond+Pl2:%>kisitt^A K ;
 +V+Act+Cond+Pl3:%>htäis K ;
@@ -323,6 +328,7 @@ LEXICON v1tehda !!≈ **@CODE@** tehđä:te
 +V+Act+Cond+Sg1:k%>i4sin K ; ! tekisin
 +V+Act+Cond+Sg2:k%>i4sit K ;
 +V+Act+Cond+Sg3:k%>i4s K ;
++V+Act+Cond+ConNeg:k%>i4s K ;
 +V+Act+Cond+Pl1:k%>i4simm^A K ;
 +V+Act+Cond+Pl2:k%>i4sitt^A K ;
 +V+Act+Cond+Pl3:htä%>i4s K ;
@@ -376,6 +382,7 @@ LEXICON v2 !!≈ **@CODE@** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:ka
 +V+Act+Cond+Sg1:^VDEL%>i4sin K ; ! antaisin
 +V+Act+Cond+Sg2:^VDEL%>i4sit K ;
 +V+Act+Cond+Sg3:^VDEL%>i4s K ;
++V+Act+Cond+ConNeg:^VDEL%>i4s K ;
 +V+Act+Cond+Pl1:^VDEL%>i4simm^A K ;
 +V+Act+Cond+Pl2:^VDEL%>i4sitt^A K ;
 +V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
@@ -425,6 +432,7 @@ LEXICON v2_long ! norjalaistaat:norjalaistin, vahingoittaat:vahingoitin (no AO-t
 +V+Act+Cond+Sg1:^VDEL%>i4sin K ;
 +V+Act+Cond+Sg2:^VDEL%>i4sit K ;
 +V+Act+Cond+Sg3:^VDEL%>i4s K ;
++V+Act+Cond+ConNeg:^VDEL%>i4s K ;
 +V+Act+Cond+Pl1:^VDEL%>i4simm^A K ;
 +V+Act+Cond+Pl2:^VDEL%>i4sitt^A K ;
 +V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
@@ -476,6 +484,7 @@ LEXICON v2_si !!≈ **@CODE@** ! pyyttäät:pyysi
 +V+Act+Cond+Sg1:^VDEL%>i4sin K ;
 +V+Act+Cond+Sg2:^VDEL%>i4sit K ;
 +V+Act+Cond+Sg3:^VDEL%>i4s K ;
++V+Act+Cond+ConNeg:^VDEL%>i4s K ;
 +V+Act+Cond+Pl1:^VDEL%>i4simm^A K ;
 +V+Act+Cond+Pl2:^VDEL%>i4sitt^A K ;
 +V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
@@ -523,6 +532,7 @@ LEXICON v2_taittaat !!≈ **@CODE@** ! taisi, tainu / taitanu
 +V+Act+Cond+Sg1:taisin K ;
 +V+Act+Cond+Sg2:taisit K ;
 +V+Act+Cond+Sg3:taisi K ;
++V+Act+Cond+ConNeg:taisi K ;
 +V+Act+Cond+Pl1:taisima K ;
 +V+Act+Cond+Pl2:taisitta K ;
 +V+Act+Cond+Pl3:taittais K ;
@@ -565,6 +575,7 @@ LEXICON v2_sauttaat !!≈ **@CODE@** ! sauttaat-sautti
 +V+Act+Cond+Sg1:sauttaisin K ;
 +V+Act+Cond+Sg2:sauttaisit K ;
 +V+Act+Cond+Sg3:sauttais K ;
++V+Act+Cond+ConNeg:sauttais K ;
 +V+Act+Cond+Pl1:sauttaisima K ;
 +V+Act+Cond+Pl2:sauttaisitta K ;
 +V+Act+Cond+Pl3:sautettais K ;
@@ -605,6 +616,7 @@ LEXICON v2_särkkyyt !!≈ **@CODE@** ! särkkyyt-särjyn
 +V+Act+Cond+Sg1:särkyisin K ;
 +V+Act+Cond+Sg2:särkyisit K ;
 +V+Act+Cond+Sg3:särkyis K ;
++V+Act+Cond+ConNeg:särkyis K ;
 +V+Act+Cond+Pl1:särkyisimmä K ;
 +V+Act+Cond+Pl2:särkyisittä K ;
 +V+Act+Cond+Pl3:särjyttäis K ;
@@ -646,6 +658,7 @@ LEXICON v2_tiettäät !!≈ **@CODE@** tiettäät
 +V+Act+Cond+Sg1:tä^VDEL%>i4sin K ; ! antaisin
 +V+Act+Cond+Sg2:tä^VDEL%>i4sit K ;
 +V+Act+Cond+Sg3:tä^VDEL%>i4s K ;
++V+Act+Cond+ConNeg:tä^VDEL%>i4s K ;
 +V+Act+Cond+Pl1:tä^VDEL%>i4simm^A K ;
 +V+Act+Cond+Pl2:tä^VDEL%>i4sitt^A K ;
 +V+Act+Cond+Pl3:tä^WG^AE%>tt^A%>i4s K ;
@@ -696,6 +709,7 @@ LEXICON v2_odd !!≈ **@CODE@** kirjoittaat:kirjoitta
 +V+Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
++V+Act+Cond+ConNeg:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4sim^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
 +V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
@@ -745,6 +759,7 @@ LEXICON v2_odd_UUt !!≈ **@CODE@** hyväksyyt:hyväksy
 +V+Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
++V+Act+Cond+ConNeg:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4sim^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
 +V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
@@ -848,6 +863,7 @@ LEXICON v3_ele_notinf
 +V+Act+Cond+Sg1:%>i4sin K ; ! ajattelisin
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
++V+Act+Cond+ConNeg:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4simm^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
 +V+Act+Cond+Pl3:^WG%>t^A%>i4s K ;
@@ -897,6 +913,7 @@ LEXICON v3_ele_odd !!≈ **@CODE@** kävelä:kävel
 +V+Act+Cond+Sg1:%>i4sin K ; ! kävelisin
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
++V+Act+Cond+ConNeg:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4sim^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
 +V+Act+Cond+Pl3:^WG%>t^A%>i4s K ;
@@ -955,6 +972,7 @@ LEXICON v3_ise_inflection
 +V+Act+Cond+Sg1:%>i4sin K ; ! aukaisisin
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
++V+Act+Cond+ConNeg:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4sim^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
 +V+Act+Cond+Pl3:%>t^A%>i4s K ;
@@ -1001,6 +1019,7 @@ LEXICON v3_lnr !!≈ **@CODE@** ja vartalo on pan-
 +V+Act+Cond+Sg1:%>i4sin K ;
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
++V+Act+Cond+ConNeg:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4simm^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
 +V+Act+Cond+Pl3:%>t^A%>i4s K ;
@@ -1044,6 +1063,7 @@ LEXICON v3_s !!≈ **@CODE@** kusta, nousta, pestä, päästä ja vartalo on kus
 +V+Act+Cond+Sg1:%>i4sin K ;
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
++V+Act+Cond+ConNeg:%>i4s K ;
 +V+Act+Cond+Pl1:%>i4simm^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
 +V+Act+Cond+Pl3:%>t^A%>i4s K ;
@@ -1086,6 +1106,7 @@ LEXICON v3piera !!≈ **@CODE@** pierä:pie
 +V+Act+Cond+Sg1:%>r%>i4sin K ;
 +V+Act+Cond+Sg2:%>r%>i4sit K ;
 +V+Act+Cond+Sg3:%>r%>i4s K ;
++V+Act+Cond+ConNeg:%>r%>i4s K ;
 +V+Act+Cond+Pl1:%>r%>i4simm^A K ;
 +V+Act+Cond+Pl2:%>r%>i4sitt^A K ;
 +V+Act+Cond+Pl3:%>r%>t^A%>i4s K ;
@@ -1129,6 +1150,7 @@ LEXICON v3juosta !!≈ **@CODE@** juosta:juo
 +V+Act+Cond+Sg1:%>ksisin K ; ! juoksisin
 +V+Act+Cond+Sg2:%>ksisit K ;
 +V+Act+Cond+Sg3:%>ksis K ;
++V+Act+Cond+ConNeg:%>ksis K ;
 +V+Act+Cond+Pl1:%>ksisimm^A K ;
 +V+Act+Cond+Pl2:%>ksisitt^A K ;
 +V+Act+Cond+Pl3:%>stais K ;
@@ -1174,6 +1196,7 @@ LEXICON v4 !!≈ **@CODE@** vanheta:vanhe, pajeta:pake
 +V+Act+Cond+Sg1:%>nisin K ; ! vanhenisin
 +V+Act+Cond+Sg2:%>nisit K ;
 +V+Act+Cond+Sg3:%>nis K ;
++V+Act+Cond+ConNeg:%>nis K ;
 +V+Act+Cond+Pl1:%>nisim^A K ;
 +V+Act+Cond+Pl2:%>nisitt^A K ;
 +V+Act+Cond+Pl3:^WG%>tt^Ais K ;
@@ -1219,6 +1242,7 @@ LEXICON v4_itte !!≈ **@CODE@** ja vartalo on - kyyti
 +V+Act+Cond+Sg1:%>ttisin K ; ! kyytittisin
 +V+Act+Cond+Sg2:%>ttisit K ;
 +V+Act+Cond+Sg3:%>ttis K ;
++V+Act+Cond+ConNeg:%>ttis K ;
 +V+Act+Cond+Pl1:%>ttisim^A K ;
 +V+Act+Cond+Pl2:%>ttisitt^A K ;
 +V+Act+Cond+Pl3:%>tt^Ais K ;
@@ -1264,6 +1288,7 @@ LEXICON v4_oitte !!≈ **@CODE@** ja vartalo on haravoi-
 +V+Act+Cond+Sg1:%>ttisin K ; ! haravoittisin
 +V+Act+Cond+Sg2:%>ttisit K ;
 +V+Act+Cond+Sg3:%>ttis K ;
++V+Act+Cond+ConNeg:%>ttis K ;
 +V+Act+Cond+Pl1:%>ttisimm^A K ;
 +V+Act+Cond+Pl2:%>ttisitt^A K ;
 +V+Act+Cond+Pl3:%>tt%>^Ais K ;
@@ -1308,6 +1333,7 @@ LEXICON v43 !!≈ **@CODE@** hantteerata:hantteera
 +V+Act+Cond+Sg1:%>i7sin K ; ! hantteeraisin
 +V+Act+Cond+Sg2:%>i7sit K ;
 +V+Act+Cond+Sg3:%>i7s K ;
++V+Act+Cond+ConNeg:%>i7s K ;
 +V+Act+Cond+Pl1:%>i7sim^A K ;
 +V+Act+Cond+Pl2:%>i7sitt^A K ;
 +V+Act+Cond+Pl3:^WG%>tt^A%>i7s K ;
@@ -1352,6 +1378,7 @@ LEXICON v43_odd !!≈ **@CODE@** jatkata:jatka
 +V+Act+Cond+Sg1:%>i7sin K ; ! jatkaisin, pölkkäisin
 +V+Act+Cond+Sg2:%>i7sit K ;
 +V+Act+Cond+Sg3:%>i7s K ;
++V+Act+Cond+ConNeg:%>i7s K ;
 +V+Act+Cond+Pl1:%>i7simm^A K ;
 +V+Act+Cond+Pl2:%>i7sitt^A K ;
 +V+Act+Cond+Pl3:^WG%>tt^A%>i7s K ;
@@ -1397,6 +1424,7 @@ LEXICON v43_odd_II !!≈ **@CODE@** jatkata:jatka
 +V+Act+Cond+Sg1:%>i%>i7sin K ; ! jatkaisin, pölkkäisin
 +V+Act+Cond+Sg2:%>i7sit K ;
 +V+Act+Cond+Sg3:%>i7s K ;
++V+Act+Cond+ConNeg:%>i7s K ;
 +V+Act+Cond+Pl1:%>i7simm^A K ;
 +V+Act+Cond+Pl2:%>i7sitt^A K ;
 +V+Act+Cond+Pl3:^WG%>tt^A%>i7s K ;
