@@ -14,7 +14,7 @@ export default function fkvGramRelease(entry: StringEntry): Command {
   });
   x = cg3.vislcg3("disamb", x, { model_path: "disambiguator.bin" });
   x = cg3.vislcg3("spell-sugg-filtering", x, { model_path: "spellchecker.bin" });
-  x = cg3.vislcg3("gramcheck", x, { model_path: "grammarchecker.bin" });
+  x = cg3.vislcg3("gramcheck", x, { model_path: "grammarchecker-release.bin" });
   return divvun.suggest("suggestions", x, { model_path: "generator-gramcheck-gt-norm.hfstol" });
 }
 
