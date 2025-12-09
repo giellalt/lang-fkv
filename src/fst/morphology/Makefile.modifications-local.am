@@ -24,7 +24,7 @@ generated_files/smi-$(GTLANG)-abbreviations.lexc: \
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $(srcdir)/stems/$(GTLANG)-abbreviations.lexc $@
 	$(AM_V_at)echo "! <--- Dump from SMI starting here: -->" >> $@ 
-	$(AM_V_GEN)$(top_srcdir)/src/scripts/smi-$(GTLANG)-conversion.pl $< >> $@
+	$(AM_V_GEN)$(top_srcdir)/src/fst/scripts/smi-$(GTLANG)-conversion.pl $< >> $@
 
 generated_files/smi-$(GTLANG)-acronyms.lexc: \
 		$(gt_SHARED_smi)/src/fst/stems/smi-acronyms.lexc \
@@ -32,7 +32,7 @@ generated_files/smi-$(GTLANG)-acronyms.lexc: \
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $(srcdir)/stems/$(GTLANG)-acronyms.lexc $@
 	$(AM_V_at)echo "! <--- Dump from SMI starting here: -->" >> $@ 
-	$(AM_V_GEN)$(top_srcdir)/src/scripts/smi-$(GTLANG)-conversion.pl $< >> $@
+	$(AM_V_GEN)$(top_srcdir)/src/fst/scripts/smi-$(GTLANG)-conversion.pl $< >> $@
 
 generated_files/smi-$(GTLANG)-%.lexc: \
 			$(gt_SHARED_smi)/src/fst/stems/%.lexc
