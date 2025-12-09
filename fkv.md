@@ -553,6 +553,8 @@ LEXICON n_11_E2I_pl         sakset, hykset
 
 * LEXICON n_31_ee          hoppee:hoppe
 
+* LEXICON n_31_ee_pl          taivhaanvalkkeet:taivhaan#valkke
+
 * LEXICON n_31_yy          revyy
 
 * LEXICON n_31_ii          assii (in Por) kurkkii (in Por)
