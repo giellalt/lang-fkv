@@ -1164,6 +1164,8 @@ LEXICON x_21_oi_AO_even
   +Pl:^WG^AO%>i2         ess_nA          ; 
   +Pl:^WG^AO%>i2         com_ne          ; 
   +Pl:^WG^AO%>i2         sgpl_cases_even ;
+  
+
 
 LEXICON n_31_ee        !!= * @CODE@  hoppee:hoppe
 +N+Dial/Por:        x_31_ee            ;
@@ -1197,6 +1199,81 @@ LEXICON x_31_ee_oblique
   +Pl:e%>i2   com_ne          ;
   +Pl:e%>i2   sgpl_cases_even ;
 
+
+LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
+  +Sg+Nom:%>^A         K               ; ! valkia
+  +Sg:%>^A         gen_n_sg        ; ! valkian
+  +Sg:%>^A         par_A           ; ! valkiaa
+  +Sg+Dial/Jok:%>^At        par_A           ; ! valkiata
+  +Sg:             ill_hAAn        ; ! valkihaan
+  +Sg:%>^A         ess_nnA         ; ! valkianna pime^A>nn^A
+  +Sg:%>^A         sgpl_cases_odd  ;
+
+  +Pl:%>^A         nom_t           ; ! valkiat
+  +Pl:%>i2         gen_tten        ; ! valkeitten
+  +Pl:%>i2         par_tA          ; ! valkeita
+  +Pl:%>i2         ill_ssiin       ; ! valkeissiin
+  +Pl:%>i2         ess_nA          ; ! valkeina
+  +Pl:%>i2         com_ne          ; ! valkeine
+  +Pl:%>i2         sgpl_cases_even ; ! valkei-
+ 
+ 
+LEXICON x_31_ea ! Jok dialekti 
+  
+  +Sg:         nom_end                  ;
+  +Sg:^WG      gen_n_sg           ;
+  +Sg:         par_A              ; ! karamellia
+  +Sg:^HMETA   ill_sseen           ;
+  +Sg:         ess_nA              ; ! karamellina
+  +Sg:^WG      sgpl_cases_even    ; ! the same affix in sg and pl
+
+  +Pl:^WG      nom_t              ; ! liberaalit
+  
+ +Pl:^A2I   gen_tten    ;
+  +Pl:      par_A       ;
+  +Pl:^A2I    ill_ssiin    ;
+  +Pl:^A2I      ess_nA      ; ! karamelline
+  +Pl:^A2I      com_ne      ; ! karamellina
+  +Pl:^A2I    sgpl_cases_even ;
+  
+LEXICON n_31_ee_pl        !!= * @CODE@  taivhaanvalkkeet:taivhaan#valkke
++N+Dial/Por:        x_31_ee_pl            ;
++N+Dial/Var:^E2I^¤  x_31_ia_pl          ;
++N+Dial/Jok:^¤      x_31_ea_pl          ; ! hopea, not hopia
+
+LEXICON x_31_ee_pl ! for Por
+x_31_ee_oblique_pl ;
+
+
+LEXICON x_31_ee_oblique_pl
+  +Pl:e       nom_t           ;
+  +Pl:e%>i2   gen_tten        ;
+  +Pl:e%>i2   par_tA          ;
+  +Pl:e%>i2   ill_ssiin       ;
+  +Pl:e%>i2   ess_nA          ;
+  +Pl:e%>i2   com_ne          ;
+  +Pl:e%>i2   sgpl_cases_even ;
+
+LEXICON x_31_ia_pl ! taivhaanvalkiat:taivhaan#valkia
+  +Pl:%>^A         nom_t           ; ! valkiat
+  +Pl:%>i2         gen_tten        ; ! valkeitten
+  +Pl:%>i2         par_tA          ; ! valkeita
+  +Pl:%>i2         ill_ssiin       ; ! valkeissiin
+  +Pl:%>i2         ess_nA          ; ! valkeina
+  +Pl:%>i2         com_ne          ; ! valkeine
+  +Pl:%>i2         sgpl_cases_even ; ! valkei-
+ 
+ 
+  LEXICON x_31_ea_pl ! taivhaanvalkeat:taivhaan#valkea 
+  +Pl:^WG      nom_t              ; ! liberaalit
+  +Pl:^A2I   gen_tten    ;
+  +Pl:      par_A       ;
+  +Pl:^A2I    ill_ssiin    ;
+  +Pl:^A2I      ess_nA      ; ! karamelline
+  +Pl:^A2I      com_ne      ; ! karamellina
+  +Pl:^A2I    sgpl_cases_even ;
+  
+  
 LEXICON n_31_yy        !!= * @CODE@  revyy
 +N+Dial/Por:        x_31_yy            ;
 
@@ -1224,41 +1301,6 @@ LEXICON x_31_yy_oblique
   +Pl:y%>i2   sgpl_cases_even ;
 
 
-LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
-  +Sg+Nom:%>^A         K               ; ! valkia
-  +Sg:%>^A         gen_n_sg        ; ! valkian
-  +Sg:%>^A         par_A           ; ! valkiaa
-  +Sg+Dial/Jok:%>^At        par_A           ; ! valkiata
-  +Sg:             ill_hAAn        ; ! valkihaan
-  +Sg:%>^A         ess_nnA         ; ! valkianna pime^A>nn^A
-  +Sg:%>^A         sgpl_cases_odd  ;
-
-  +Pl:%>^A         nom_t           ; ! valkiat
-  +Pl:%>i2         gen_tten        ; ! valkeitten
-  +Pl:%>i2         par_tA          ; ! valkeita
-  +Pl:%>i2         ill_ssiin       ; ! valkeissiin
-  +Pl:%>i2         ess_nA          ; ! valkeina
-  +Pl:%>i2         com_ne          ; ! valkeine
-  +Pl:%>i2         sgpl_cases_even ; ! valkei-
- 
- 
-  LEXICON x_31_ea ! Jok dialekti 
-  
-  +Sg:         nom_end                  ;
-  +Sg:^WG      gen_n_sg           ;
-  +Sg:         par_A              ; ! karamellia
-  +Sg:^HMETA   ill_sseen           ;
-  +Sg:         ess_nA              ; ! karamellina
-  +Sg:^WG      sgpl_cases_even    ; ! the same affix in sg and pl
-
-  +Pl:^WG      nom_t              ; ! liberaalit
-  
- +Pl:^A2I   gen_tten    ;
-  +Pl:      par_A       ;
-  +Pl:^A2I    ill_ssiin    ;
-  +Pl:^A2I      ess_nA      ; ! karamelline
-  +Pl:^A2I      com_ne      ; ! karamellina
-  +Pl:^A2I    sgpl_cases_even ;
 
   LEXICON n_31_lainasana_ee ! filee
   +N:      x_31_lainasana_ee       ;
