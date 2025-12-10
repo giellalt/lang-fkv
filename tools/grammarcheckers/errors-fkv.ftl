@@ -7,6 +7,12 @@ grammar-error = Väärä muoto
 guillemets = Valg av anførselstegn
     .desc = Du har brukt anførselstegnet "$1". I norsk typografi bruker vi « og » som anførselstegn.
 
+left-guillemet = Venstre anførselstegn
+    .desc = Du har brukt anførselstegnet "$1". I norsk typografi bruker vi « som venstre anførselstegn.
+
+right-guillemet = Høyre anførselstegn
+    .desc = Du har brukt anførselstegnet "$1". I norsk typografi bruker vi  » som høyre anførselstegn.
+
 msyn-acc-pss = 
     .desc =
 
