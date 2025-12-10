@@ -1101,12 +1101,12 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 * Lyhyt partisiippi
 * Lyhyt partisiippi
 * Lyhyt partisiippi
-+V+Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
++Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
 **LEXICON v4_oitte** ja vartalo on haravoi-
 * Lyhyt partisiippi
 * Lyhyt partisiippi
-+V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
++PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
 **LEXICON v43** hantteerata:hantteera
 
@@ -2921,17 +2921,17 @@ Now v3_ise all end on s. In order to have aukasevat, as an possible
 Unexpected results: aukasseeva, aukaisseevat
 Missing results: aukasevat, Unexpected results: aukasseevat
 
-* olla: OLLA ; 
+* olla+V: OLLA ; 
 * ei+V+Neg: neg ; 
-* saađa:saa v1 ; 
-* vieđä:vie v1 ; 
-* naiđa:nai v1iđa ;
-* voiđa:voi v1iđa ; 
-* uiđa:ui v1iđa ; 
+* saađa+V:saa v1 ; 
+* vieđä+V:vie v1 ; 
+* naiđa+V:nai v1iđa ;
+* voiđa+V:voi v1iđa ; 
+* uiđa+V:ui v1iđa ; 
 ...
 
-huokata:huokka v43_odd ;
-puheta:puhke v43_odd ;
+huokata+V:huokka v43_odd ;
+puheta+V:puhke v43_odd ;
 
 * * *
 
@@ -3461,10 +3461,6 @@ expression **WORD - premodifiers**.
 
 #### Should be Sg1
 
-**Agreement rule:** msyn-agr-other-sg1, *Mun puátá/puáđám* ("other" is dangerous. Check!)
-
-**Agreement rule:** msyn-agr-other-sg1
-
 #### Should be Sg2
 
 **Agreement rule:** msyn-agr-sg3-sg2
@@ -3483,14 +3479,6 @@ Not written, perhaps irrelevant.
 #### Should be Pl3
 
 **Agreement rule:** msyn-agr-sg3-pl3)
-
-**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
-
-**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
-
-**Agreement rule:** msyn-agr-other-pl3
-
-**Agreement rule:** msyn-agr-other-pl3
 
 #### Agreement sg -> pl
 
@@ -3514,6 +3502,12 @@ used to create human-readable messages.
 ####  Spacing errors
 
 Here we find spacing rules.
+
+**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+
+**Agreement rule:** msyn-agr-other-pl3
+
+**Agreement rule:** msyn-agr-other-pl3
 
 * * *
 

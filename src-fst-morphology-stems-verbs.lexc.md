@@ -29,17 +29,17 @@ Now v3_ise all end on s. In order to have aukasevat, as an possible
 Unexpected results: aukasseeva, aukaisseevat
 Missing results: aukasevat, Unexpected results: aukasseevat
 
-* olla: OLLA ; 
+* olla+V: OLLA ; 
 * ei+V+Neg: neg ; 
-* saađa:saa v1 ; 
-* vieđä:vie v1 ; 
-* naiđa:nai v1iđa ;
-* voiđa:voi v1iđa ; 
-* uiđa:ui v1iđa ; 
+* saađa+V:saa v1 ; 
+* vieđä+V:vie v1 ; 
+* naiđa+V:nai v1iđa ;
+* voiđa+V:voi v1iđa ; 
+* uiđa+V:ui v1iđa ; 
 ...
 
-huokata:huokka v43_odd ;
-puheta:puhke v43_odd ;
+huokata+V:huokka v43_odd ;
+puheta+V:puhke v43_odd ;
 
 * * *
 

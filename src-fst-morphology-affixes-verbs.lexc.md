@@ -96,12 +96,12 @@ kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 * Lyhyt partisiippi
 * Lyhyt partisiippi
 * Lyhyt partisiippi
-+V+Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
++Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
 **LEXICON v4_oitte** ja vartalo on haravoi-
 * Lyhyt partisiippi
 * Lyhyt partisiippi
-+V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
++PrfPrc:tte%>nnhee PRFPRC_OBL ;
 
 **LEXICON v43** hantteerata:hantteera
 

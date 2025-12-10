@@ -298,10 +298,6 @@ expression **WORD - premodifiers**.
 
 ### Should be Sg1
 
-**Agreement rule:** msyn-agr-other-sg1, *Mun puátá/puáđám* ("other" is dangerous. Check!)
-
-**Agreement rule:** msyn-agr-other-sg1
-
 ### Should be Sg2
 
 **Agreement rule:** msyn-agr-sg3-sg2
@@ -320,14 +316,6 @@ Not written, perhaps irrelevant.
 ### Should be Pl3
 
 **Agreement rule:** msyn-agr-sg3-pl3)
-
-**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
-
-**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
-
-**Agreement rule:** msyn-agr-other-pl3
-
-**Agreement rule:** msyn-agr-other-pl3
 
 ### Agreement sg -> pl
 
@@ -351,6 +339,12 @@ used to create human-readable messages.
 ###  Spacing errors
 
 Here we find spacing rules.
+
+**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+
+**Agreement rule:** msyn-agr-other-pl3
+
+**Agreement rule:** msyn-agr-other-pl3
 
 * * *
 
