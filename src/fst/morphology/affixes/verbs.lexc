@@ -30,64 +30,65 @@ LEXICON imprtneg !!≈ **@CODE@** negaation imperatiivipäätteet
  +Pl2:älkkää # ;
 
 LEXICON OLLA !!≈ **@CODE@** on oma leksikko, vielä vain preesens
-+V+Inf:olla K ;
-+V+Act+Ind+Prs+Sg1:olen K ;
-+V+Act+Ind+Prs+Sg2:olet K ;
-+V+Act+Ind+Prs+Sg3:oon K ;
-+V+Act+Ind+Prs+Pl1:olema K ;
-+V+Act+Ind+Prs+Pl2:oletta K ;
-+V+Act+Ind+Prs+Pl3:oon K ;
-+V+Act+Ind+Prs+Pl3:on K_NEUTRAL ;
-+V+Act+Ind+Prt+Sg1:olin K ;
-+V+Act+Ind+Prt+Sg2:olit K ;
-+V+Act+Ind+Prt+Sg3:oli K ;
-+V+Act+Ind+Prt+Pl1:olima K ;
-+V+Act+Ind+Prt+Pl2:olitta K ;
-+V+Act+Ind+Prt+Pl3:olthiin K ;
-+V+Act+Ind+Prt+Pl3:olit K ; ! oikein ??
-+V+Pass+Ind+Prs:olhaan K ;
-+V+Pass+Ind+Prt:olthiin K ;  
-+V+Act+PrfPrc+Sg+Nom:ollu K ;
-+V+Act+Ind+Prt+ConNeg+Sg:ollu K ;
-+V+Pass+PrfPrc+Sg+Nom:oltu K ;
-+V+Pass+PrfPrc+Pl+Nom:oltut K ; 
-+V+Act+PrfPrc+Pl+Nom:olheet K ;
-+V+Act+Ind+Prt+ConNeg+Pl:olheet K ;
-+V+Act+PrsPrc+Der/A+A:olleeva x_21_odd ;
-!+V+Act+PrsPrc+Pl+Nom:olleevat K ;
-+V+Pass+PrsPrc+Der/A+A:oltava x_21_odd ;
-!+V+Pass+PrsPrc+Pl+Nom:oltavat K ;
-+V+Act+Ind+Prs+ConNeg:ole K ;
++Inf:olla K ;
++Act+Ind+Prs+Sg1:olen K ;
++Act+Ind+Prs+Sg2:olet K ;
++Act+Ind+Prs+Sg3:oon K ;
++Act+Ind+Prs+Pl1:olema K ;
++Act+Ind+Prs+Pl2:oletta K ;
++Act+Ind+Prs+Pl3:oon K ;
++Act+Ind+Prs+Pl3+Err/Orth:on K ; ! onki
++Act+Ind+Prs+Pl3:on K_NEUTRAL ;
++Act+Ind+Prt+Sg1:olin K ;
++Act+Ind+Prt+Sg2:olit K ;
++Act+Ind+Prt+Sg3:oli K ;
++Act+Ind+Prt+Pl1:olima K ;
++Act+Ind+Prt+Pl2:olitta K ;
++Act+Ind+Prt+Pl3:olthiin K ;
++Act+Ind+Prt+Pl3:olit K ; ! oikein ??
++Pass+Ind+Prs:olhaan K ;
++Pass+Ind+Prt:olthiin K ;  
++Act+PrfPrc+Sg+Nom:ollu K ;
++Act+Ind+Prt+ConNeg+Sg:ollu K ;
++Pass+PrfPrc+Sg+Nom:oltu K ;
++Pass+PrfPrc+Pl+Nom:oltut K ; 
++Act+PrfPrc+Pl+Nom:olheet K ;
++Act+Ind+Prt+ConNeg+Pl:olheet K ;
++Act+PrsPrc+Der/A+A:olleeva x_21_odd ;
+!+Act+PrsPrc+Pl+Nom:olleevat K ;
++Pass+PrsPrc+Der/A+A:oltava x_21_odd ;
+!+Pass+PrsPrc+Pl+Nom:oltavat K ;
++Act+Ind+Prs+ConNeg:ole K ;
 
 ! These are standard Finnish forms marked as Err/Orth.
-+V+Act+Ind+Prs+Sg3+Err/Orth:on K ;
-+V+Act+Ind+Prs+Pl1+Err/Orth:olemme K ;
-+V+Act+Ind+Prs+Pl2+Err/Orth:olette K ;
-+V+Act+PrfPrc+Sg+Nom+Err/Orth:ollut K ;
-+V+Act+Ind+Prt+ConNeg+Sg+Err/Orth:ollut K ;
-+V+Act+PrfPrc+Pl+Nom+Err/Orth:olleet K ;
-+V+Act+Ind+Prt+ConNeg+Pl+Err/Orth:olleet K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
++Act+Ind+Prs+Sg3+Err/Orth:on K ;
++Act+Ind+Prs+Pl1+Err/Orth:olemme K ;
++Act+Ind+Prs+Pl2+Err/Orth:olette K ;
++Act+PrfPrc+Sg+Nom+Err/Orth:ollut K ;
++Act+Ind+Prt+ConNeg+Sg+Err/Orth:ollut K ;
++Act+PrfPrc+Pl+Nom+Err/Orth:olleet K ;
++Act+Ind+Prt+ConNeg+Pl+Err/Orth:olleet K ;
++Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
 
-+V+Act+Cond+Sg1:olisin K ; ! olisin
-+V+Act+Cond+Sg2:olisit K ; ! olisit
-+V+Act+Cond+Sg3:olis K ;	! olisi
-+V+Act+Cond+Pl1:olisimma K ; ! olisimma
-+V+Act+Cond+Pl2:olisitta K ; ! olisitta
-+V+Act+Cond+Pl3:oltais K ; ! oltais
-+V+Pass+Cond:oltais	K ; ! oltais
-+V+Act+Cond+ConNeg:olis K ;	! olisi
++Act+Cond+Sg1:olisin K ; ! olisin
++Act+Cond+Sg2:olisit K ; ! olisit
++Act+Cond+Sg3:olis K ;	! olisi
++Act+Cond+Pl1:olisimma K ; ! olisimma
++Act+Cond+Pl2:olisitta K ; ! olisitta
++Act+Cond+Pl3:oltais K ; ! oltais
++Pass+Cond:oltais	K ; ! oltais
++Act+Cond+ConNeg:olis K ;	! olisi
 
-+V+Act+Imprt+Sg2:ole K ;
-+V+Act+Imprt+Sg3:olkhoon K ;
-+V+Act+Imprt+Pl2:olkkaa K ;
++Act+Imprt+Sg2:ole K ;
++Act+Imprt+Sg3:olkhoon K ;
++Act+Imprt+Pl2:olkkaa K ;
 
-+V+Act+Inf3+Ine:olemassa K ;
-+V+Act+Inf3+Ela:olemasta K ;
-+V+Act+Inf3+Ill:olemhaan K ;
-+V+Act+Inf3+Ade:olemalla K ;
-+V+Act+Inf3+Abe:olematta K ;
-+V+Der+Der/minen:olemi n_22_inen ;
++Act+Inf3+Ine:olemassa K ;
++Act+Inf3+Ela:olemasta K ;
++Act+Inf3+Ill:olemhaan K ;
++Act+Inf3+Ade:olemalla K ;
++Act+Inf3+Abe:olematta K ;
++Der+Der/minen:olemi n_22_inen ;
 
 !! ## Regular verbs
 
@@ -107,828 +108,828 @@ LEXICON OLLA !!≈ **@CODE@** on oma leksikko, vielä vain preesens
 !! kautta leksikkoon **v12pers**, missä *-n, -t, -mA, -ttA*
 
 LEXICON v1 !!≈ **@CODE@** saađa:saa
-+V+Inf:%>đ^A K ; ! đ
-+V+Inf+Err/Orth:%>d^A K ; ! d
-+V+Inf+Err/Orth:%>h^A K ; ! h
-+V+Act+Ind+Prs: v12pers_short ;
-+V+Act+Ind+Prt:%>i3 v12pers_short ;
-+V+Act+Ind+Prs+Sg3:%>pi K ;
-+V+Act+Ind+Prs+Pl3:%>đh^A^An K ; ! đ
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>dh^A^An K ; ! d
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ; ! VAT
-+V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl3:%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ; ! VAT
-+V+Pass+Ind+Prs:%>đh^A^An K ; ! đ
-+V+Pass+Ind+Prt:%>thiin K ; 
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc+Der/A+A+Sg+Nom:%>n^U K ;
-+V+Act+PrfPrc+Der/A:%>ne x_31_ee_oblique ;
-+V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Pass+PrfPrc+Der/A+A:%>t^U x_21_odd ;
-+V+Pass+PrfPrc+Pl+Nom:%>đ^U%>t K ; ! delete XXX ?
-!+V+Act+PrfPrc:n%>hee PRFPRC_OBL  ;
-+V+Act+PrfPrc:n%> PRFPRC_OBL  ;
-+V+Act+PrsPrc+Der/A+A:%>v^A x_21_odd ;
-+V+Act+PrsPrc+Sg+Nom:%>p^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg: K ;
++Inf:%>đ^A K ; ! đ
++Inf+Err/Orth:%>d^A K ; ! d
++Inf+Err/Orth:%>h^A K ; ! h
++Act+Ind+Prs: v12pers_short ;
++Act+Ind+Prt:%>i3 v12pers_short ;
++Act+Ind+Prs+Sg3:%>pi K ;
++Act+Ind+Prs+Pl3:%>đh^A^An K ; ! đ
++Act+Ind+Prs+Pl3+Err/Orth:%>dh^A^An K ; ! d
++Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ; ! VAT
++Act+Ind+Prt+Sg3:%>i3 K ;
++Act+Ind+Prt+Pl3:%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ; ! VAT
++Pass+Ind+Prs:%>đh^A^An K ; ! đ
++Pass+Ind+Prt:%>thiin K ; 
++Act+PrfPrc+Sg+Nom:%>^N^U K ;
++Act+PrfPrc+Der/A+A+Sg+Nom:%>n^U K ;
++Act+PrfPrc+Der/A:%>ne x_31_ee_oblique ;
++Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:%>t^U K ;
++Pass+PrfPrc+Der/A+A:%>t^U x_21_odd ;
++Pass+PrfPrc+Pl+Nom:%>đ^U%>t K ; ! delete XXX ?
+!+Act+PrfPrc:n%>hee PRFPRC_OBL  ;
++Act+PrfPrc:n%> PRFPRC_OBL  ;
++Act+PrsPrc+Der/A+A:%>v^A x_21_odd ;
++Act+PrsPrc+Sg+Nom:%>p^A K ;
++Act+PrsPrc+Pl+Nom:%>v^At K ;
++Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
++Act+Ind+Prs+ConNeg: K ;
 
-+V+Act+Cond+Sg1:%>i4sin K ; ! saisin
-+V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+ConNeg:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4sim^A K ;
-+V+Act+Cond+Pl2:%>i4sitt^A K ;
-+V+Act+Cond+Pl3:%>t^A%>i4s K ;
-+V+Pass+Cond:%>t^A%>i4s K ;
++Act+Cond+Sg1:%>i4sin K ; ! saisin
++Act+Cond+Sg2:%>i4sit K ;
++Act+Cond+Sg3:%>i4s K ;
++Act+Cond+ConNeg:%>i4s K ;
++Act+Cond+Pl1:%>i4sim^A K ;
++Act+Cond+Pl2:%>i4sitt^A K ;
++Act+Cond+Pl3:%>t^A%>i4s K ;
++Pass+Cond:%>t^A%>i4s K ;
 
-+V+Act+Imprt+Sg2: K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++Act+Imprt+Sg2: K   ;
++Act+Imprt+Pl2:%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>m^Al^A K ;
-+V+Act+Inf3+Abe:%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATONodd ;
-+V+Der+Der/minen:mi n_22_inen ;
++Act+Inf3+Ine:%>m^Ass^A K ;
++Act+Inf3+Ela:%>m^Ast^A K ;
++Act+Inf3+Ill:%>mh^A^An K ;
++Act+Inf3+Ade:%>m^Al^A K ;
++Act+Inf3+Abe:%>m^Att^A K ;
++Act+Inf3:%>m^A MATONodd ;
++Der+Der/minen:mi n_22_inen ;
 
 LEXICON v1iđa !!≈ **@CODE@** Cond uiđa:uisin
-+V+Inf:%>đ^A K ;
-+V+Inf+Err/Orth:%>d^A K ;
-+V+Inf+Err/Orth:%>h^A K ;
-+V+Act+Ind+Prs: v12pers_short ;
-+V+Act+Ind+Prt:%>i3 v12pers_short ;
-+V+Act+Ind+Prs+Sg3:%>pi K ;
-+V+Act+Ind+Prs+Pl3:%>đh^A^An K ; 
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>dh^A^An K ; 
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ; 
-+V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl3:%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
-+V+Pass+Ind+Prs:%>đh^A^An K ; 
-+V+Pass+Ind+Prt:%>thiin K ; 
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc+Der/A+A+Sg+Nom:%>n^U K ;
-+V+Act+PrfPrc+Der/A:%>ne x_31_ee_oblique ;
-+V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Pass+PrfPrc+Der/A+A:%>t^U x_21_odd ;
-+V+Pass+PrfPrc+Pl+Nom:%>đ^U%>t K ; 
-+V+Act+PrfPrc:n%> PRFPRC_OBL  ;
-+V+Act+PrsPrc+Der/A+A:%>v^A x_21_odd ;
-+V+Act+PrsPrc+Sg+Nom:%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg: K ;
++Inf:%>đ^A K ;
++Inf+Err/Orth:%>d^A K ;
++Inf+Err/Orth:%>h^A K ;
++Act+Ind+Prs: v12pers_short ;
++Act+Ind+Prt:%>i3 v12pers_short ;
++Act+Ind+Prs+Sg3:%>pi K ;
++Act+Ind+Prs+Pl3:%>đh^A^An K ; 
++Act+Ind+Prs+Pl3+Err/Orth:%>dh^A^An K ; 
++Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ; 
++Act+Ind+Prt+Sg3:%>i3 K ;
++Act+Ind+Prt+Pl3:%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
++Pass+Ind+Prs:%>đh^A^An K ; 
++Pass+Ind+Prt:%>thiin K ; 
++Act+PrfPrc+Sg+Nom:%>^N^U K ;
++Act+PrfPrc+Der/A+A+Sg+Nom:%>n^U K ;
++Act+PrfPrc+Der/A:%>ne x_31_ee_oblique ;
++Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:%>t^U K ;
++Pass+PrfPrc+Der/A+A:%>t^U x_21_odd ;
++Pass+PrfPrc+Pl+Nom:%>đ^U%>t K ; 
++Act+PrfPrc:n%> PRFPRC_OBL  ;
++Act+PrsPrc+Der/A+A:%>v^A x_21_odd ;
++Act+PrsPrc+Sg+Nom:%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>v^At K ;
++Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
++Act+Ind+Prs+ConNeg: K ;
 
-+V+Act+Cond+Sg1:%>sin K ; ! uisin
-+V+Act+Cond+Sg2:%>sit K ;
-+V+Act+Cond+Sg3:%>s K ;   ! uis
-+V+Act+Cond+ConNeg:%>s K ;   ! uis
-+V+Act+Cond+Pl1:%>sim^A K ;
-+V+Act+Cond+Pl2:%>sitt^A K ;
-+V+Act+Cond+Pl3:%>t^A%>i4s K ;
-+V+Pass+Cond:%>t^A%>i4s K ;
++Act+Cond+Sg1:%>sin K ; ! uisin
++Act+Cond+Sg2:%>sit K ;
++Act+Cond+Sg3:%>s K ;   ! uis
++Act+Cond+ConNeg:%>s K ;   ! uis
++Act+Cond+Pl1:%>sim^A K ;
++Act+Cond+Pl2:%>sitt^A K ;
++Act+Cond+Pl3:%>t^A%>i4s K ;
++Pass+Cond:%>t^A%>i4s K ;
 
-+V+Act+Imprt+Sg2: K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++Act+Imprt+Sg2: K   ;
++Act+Imprt+Pl2:%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>m^Al^A K ;
-+V+Act+Inf3+Abe:%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATONodd ;
-+V+Der+Der/minen:mi n_22_inen ;
++Act+Inf3+Ine:%>m^Ass^A K ;
++Act+Inf3+Ela:%>m^Ast^A K ;
++Act+Inf3+Ill:%>mh^A^An K ;
++Act+Inf3+Ade:%>m^Al^A K ;
++Act+Inf3+Abe:%>m^Att^A K ;
++Act+Inf3:%>m^A MATONodd ;
++Der+Der/minen:mi n_22_inen ;
 
 LEXICON v1kayda  !!≈ **@CODE@** käyđä:kä
-+V+Inf:y%>đ^A K ; ! đ
-+V+Inf+Err/Orth:y%>d^A K ; ! d
-+V+Act+Ind+Prs:y^WG v12pers_short ;
-+V+Act+Ind+Prt:v%>i3^WG v12pers_short ;
-+V+Act+Ind+Prs+Sg3:y%>pi K ;
-+V+Act+Ind+Prs+Pl3:y%>đhään K ; ! đ
-+V+Act+Ind+Prs+Pl3+Err/Orth:y%>hään K ; ! d
-+V+Act+Ind+Prs+Pl3+Err/Orth:y%>v^At K ; ! d
-+V+Act+Ind+Prt+Sg3:v%>i3 K ;
-+V+Act+Ind+Prt+Pl3:y%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:v%>i3v^At K ;
-+V+Pass+Ind+Prs:y%>đhään K ; ! đ
-+V+Pass+Ind+Prt:y%>thiin K ; 
-+V+Act+PrfPrc+Der/A:y%>n^U K ;
-+V+Act+PrfPrc+Sg+Nom:y%>^N^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:y%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:y%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:y%>đ^U%>t K ; 
-!+V+Act+PrfPrc:yn%>hee PRFPRC_OBL  ;
-+V+Act+PrfPrc:yn%> PRFPRC_OBL  ;
-+V+Act+PrsPrc+Sg+Nom:yp%>^A K ;
-+V+Act+PrsPrc+Pl+Nom:yv%>^At K ;
-+V+Pass+PrsPrc+Sg+Nom:y%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:y%>t^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:y K ;
++Inf:y%>đ^A K ; ! đ
++Inf+Err/Orth:y%>d^A K ; ! d
++Act+Ind+Prs:y^WG v12pers_short ;
++Act+Ind+Prt:v%>i3^WG v12pers_short ;
++Act+Ind+Prs+Sg3:y%>pi K ;
++Act+Ind+Prs+Pl3:y%>đhään K ; ! đ
++Act+Ind+Prs+Pl3+Err/Orth:y%>hään K ; ! d
++Act+Ind+Prs+Pl3+Err/Orth:y%>v^At K ; ! d
++Act+Ind+Prt+Sg3:v%>i3 K ;
++Act+Ind+Prt+Pl3:y%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:v%>i3v^At K ;
++Pass+Ind+Prs:y%>đhään K ; ! đ
++Pass+Ind+Prt:y%>thiin K ; 
++Act+PrfPrc+Der/A:y%>n^U K ;
++Act+PrfPrc+Sg+Nom:y%>^N^U K ;
++Act+Ind+Prt+ConNeg+Sg:y%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:y%>t^U K ;
++Pass+PrfPrc+Pl+Nom:y%>đ^U%>t K ; 
+!+Act+PrfPrc:yn%>hee PRFPRC_OBL  ;
++Act+PrfPrc:yn%> PRFPRC_OBL  ;
++Act+PrsPrc+Sg+Nom:yp%>^A K ;
++Act+PrsPrc+Pl+Nom:yv%>^At K ;
++Pass+PrsPrc+Sg+Nom:y%>t^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:y%>t^A%>v^At K ;
++Act+Ind+Prs+ConNeg:y K ;
 
-+V+Act+Cond+Sg1:v%>i4sin K ; ! kävisin
-+V+Act+Cond+Sg2:v%>i4sit K ;
-+V+Act+Cond+Sg3:v%>i4s K ;
-+V+Act+Cond+ConNeg:v%>i4s K ;
-+V+Act+Cond+Pl1:v%>i4simm^A K ;
-+V+Act+Cond+Pl2:v%>i4sitt^A K ;
-+V+Act+Cond+Pl3:y%>t^A%>i4s K ;
-+V+Pass+Cond:y%>t^A%>i4s K ;
++Act+Cond+Sg1:v%>i4sin K ; ! kävisin
++Act+Cond+Sg2:v%>i4sit K ;
++Act+Cond+Sg3:v%>i4s K ;
++Act+Cond+ConNeg:v%>i4s K ;
++Act+Cond+Pl1:v%>i4simm^A K ;
++Act+Cond+Pl2:v%>i4sitt^A K ;
++Act+Cond+Pl3:y%>t^A%>i4s K ;
++Pass+Cond:y%>t^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:y K   ;
-+V+Act+Imprt+Pl2:y%>kk^A^A K ;
++Act+Imprt+Sg2:y K   ;
++Act+Imprt+Pl2:y%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:y%>m^Ass^A K ;
-+V+Act+Inf3+Ela:y%>m^Ast^A K ;
-+V+Act+Inf3+Ill:y%>mh^A^An K ;
-+V+Act+Inf3+Ade:y%>m^Al^A K ;
-+V+Act+Inf3+Abe:y%>m^Att^A K ;
-+V+Act+Inf3:y%>m^A MATONodd ;
-+V+Der+Der/minen:ymi n_22_inen ;
++Act+Inf3+Ine:y%>m^Ass^A K ;
++Act+Inf3+Ela:y%>m^Ast^A K ;
++Act+Inf3+Ill:y%>mh^A^An K ;
++Act+Inf3+Ade:y%>m^Al^A K ;
++Act+Inf3+Abe:y%>m^Att^A K ;
++Act+Inf3:y%>m^A MATONodd ;
++Der+Der/minen:ymi n_22_inen ;
 
 
 LEXICON v1nahda !!≈ **@CODE@** nähđä:nä
-+V+Inf:h%>đ^A K ; ! đ
-+V+Inf+Err/Orth:h%>d^A K ; ! d
-+V+Act+Ind+Prs:je^WG v12pers_short ;
-+V+Act+Ind+Prt:%>ji^WG v12pers_short ;
-+V+Act+Ind+Prs+Sg3:kke%>e K ;
-+V+Act+Ind+Prs+Pl3:h%>đh^A^An K ; ! đ
-+V+Act+Ind+Prs+Pl3+Err/Orth:ke%>v^At K ; ! đ
-+V+Pass+Ind+Prs:h%>đh^A^An K ; ! đ
-+V+Act+Ind+Prt+Sg3:k%>i K ;
-+V+Act+Ind+Prt+Pl3:h%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:k%>iv^At K ;
-+V+Pass+Ind+Prt:h%>thiin K ;
-+V+Act+PrfPrc+Sg+Nom:h%>^N^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:h%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:h%>đ^U%>t K ;
-!+V+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:h%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:kkee%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:kkee%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:%>ht^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>ht^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:je K ;
++Inf:h%>đ^A K ; ! đ
++Inf+Err/Orth:h%>d^A K ; ! d
++Act+Ind+Prs:je^WG v12pers_short ;
++Act+Ind+Prt:%>ji^WG v12pers_short ;
++Act+Ind+Prs+Sg3:kke%>e K ;
++Act+Ind+Prs+Pl3:h%>đh^A^An K ; ! đ
++Act+Ind+Prs+Pl3+Err/Orth:ke%>v^At K ; ! đ
++Pass+Ind+Prs:h%>đh^A^An K ; ! đ
++Act+Ind+Prt+Sg3:k%>i K ;
++Act+Ind+Prt+Pl3:h%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:k%>iv^At K ;
++Pass+Ind+Prt:h%>thiin K ;
++Act+PrfPrc+Sg+Nom:h%>^N^U K ;
++Act+Ind+Prt+ConNeg+Sg:h%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:h%>t^U K ;
++Pass+PrfPrc+Pl+Nom:h%>đ^U%>t K ;
+!+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:h%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:kkee%>v^A K ;
++Act+PrsPrc+Pl+Nom:kkee%>v^At K ;
++Pass+PrsPrc+Sg+Nom:%>ht^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:%>ht^A%>v^At K ;
++Act+Ind+Prs+ConNeg:je K ;
 
-+V+Act+Cond+Sg1:%>kisin K ; ! näkisin
-+V+Act+Cond+Sg2:%>kisit K ;
-+V+Act+Cond+Sg3:%>kis K ;
-+V+Act+Cond+ConNeg:%>kis K ;
-+V+Act+Cond+Pl1:%>kisimm^A K ;
-+V+Act+Cond+Pl2:%>kisitt^A K ;
-+V+Act+Cond+Pl3:%>htäis K ;
-+V+Pass+Cond:%>htäis K ;
++Act+Cond+Sg1:%>kisin K ; ! näkisin
++Act+Cond+Sg2:%>kisit K ;
++Act+Cond+Sg3:%>kis K ;
++Act+Cond+ConNeg:%>kis K ;
++Act+Cond+Pl1:%>kisimm^A K ;
++Act+Cond+Pl2:%>kisitt^A K ;
++Act+Cond+Pl3:%>htäis K ;
++Pass+Cond:%>htäis K ;
 
-+V+Act+Imprt+Sg2:je K   ;
-+V+Act+Imprt+Pl2:h%>k^A^A K ;
++Act+Imprt+Sg2:je K   ;
++Act+Imprt+Pl2:h%>k^A^A K ;
 
-+V+Act+Inf3+Ine:ke%>m^Ass^A K ;
-+V+Act+Inf3+Ela:ke%>m^Ast^A K ;
-+V+Act+Inf3+Ill:ke%>mh^A^An K ;
-+V+Act+Inf3+Ade:ke%>m^All^A K ;
-+V+Act+Inf3+Abe:ke%>m^Att^A K ;
-+V+Act+Inf3:ke%>m^A MATONodd ;
-+V+Der+Der/minen:kemi n_22_inen ;
++Act+Inf3+Ine:ke%>m^Ass^A K ;
++Act+Inf3+Ela:ke%>m^Ast^A K ;
++Act+Inf3+Ill:ke%>mh^A^An K ;
++Act+Inf3+Ade:ke%>m^All^A K ;
++Act+Inf3+Abe:ke%>m^Att^A K ;
++Act+Inf3:ke%>m^A MATONodd ;
++Der+Der/minen:kemi n_22_inen ;
 
 LEXICON v1tehda !!≈ **@CODE@** tehđä:te
-+V+Inf:h%>đ^A K ; ! đ
-+V+Inf+Err/Orth:h%>d^A K ; ! d
-+V+Act+Ind+Prs:he v12pers_short ;
-+V+Act+Ind+Prt:%>hi v12pers_short ;
-+V+Act+Ind+Prs+Sg3:kke%>e K ;
-+V+Act+Ind+Prs+Pl3:h%>đh^A^An K ; ! đ
-+V+Act+Ind+Prs+Pl3+Err/Orth:ke%>v^At K ; ! đ
-+V+Pass+Ind+Prs:h%>đh^A^An K ; ! đ
-+V+Act+Ind+Prt+Sg3:k%>i K ;
-+V+Act+Ind+Prt+Pl3:h%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:k%>iv^At K ;
-+V+Pass+Ind+Prt:h%>thiin K ;
-+V+Act+PrfPrc+Sg+Nom:h%>^n^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:h%>^n^U K ;
-+V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:h%>đ^U%>t K ; 
-!+V+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:h%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:kkee%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:kkee%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:h%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:h%>t^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:he K ;
++Inf:h%>đ^A K ; ! đ
++Inf+Err/Orth:h%>d^A K ; ! d
++Act+Ind+Prs:he v12pers_short ;
++Act+Ind+Prt:%>hi v12pers_short ;
++Act+Ind+Prs+Sg3:kke%>e K ;
++Act+Ind+Prs+Pl3:h%>đh^A^An K ; ! đ
++Act+Ind+Prs+Pl3+Err/Orth:ke%>v^At K ; ! đ
++Pass+Ind+Prs:h%>đh^A^An K ; ! đ
++Act+Ind+Prt+Sg3:k%>i K ;
++Act+Ind+Prt+Pl3:h%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:k%>iv^At K ;
++Pass+Ind+Prt:h%>thiin K ;
++Act+PrfPrc+Sg+Nom:h%>^n^U K ;
++Act+Ind+Prt+ConNeg+Sg:h%>^n^U K ;
++Pass+PrfPrc+Sg+Nom:h%>t^U K ;
++Pass+PrfPrc+Pl+Nom:h%>đ^U%>t K ; 
+!+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:h%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:kkee%>v^A K ;
++Act+PrsPrc+Pl+Nom:kkee%>v^At K ;
++Pass+PrsPrc+Sg+Nom:h%>t^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:h%>t^A%>v^At K ;
++Act+Ind+Prs+ConNeg:he K ;
 
-+V+Act+Cond+Sg1:k%>i4sin K ; ! tekisin
-+V+Act+Cond+Sg2:k%>i4sit K ;
-+V+Act+Cond+Sg3:k%>i4s K ;
-+V+Act+Cond+ConNeg:k%>i4s K ;
-+V+Act+Cond+Pl1:k%>i4simm^A K ;
-+V+Act+Cond+Pl2:k%>i4sitt^A K ;
-+V+Act+Cond+Pl3:htä%>i4s K ;
-+V+Pass+Cond:htä%>i4s K ;
++Act+Cond+Sg1:k%>i4sin K ; ! tekisin
++Act+Cond+Sg2:k%>i4sit K ;
++Act+Cond+Sg3:k%>i4s K ;
++Act+Cond+ConNeg:k%>i4s K ;
++Act+Cond+Pl1:k%>i4simm^A K ;
++Act+Cond+Pl2:k%>i4sitt^A K ;
++Act+Cond+Pl3:htä%>i4s K ;
++Pass+Cond:htä%>i4s K ;
 
-+V+Act+Imprt+Sg2:he K   ;
-+V+Act+Imprt+Pl2:h%>k^A^A K ;
++Act+Imprt+Sg2:he K   ;
++Act+Imprt+Pl2:h%>k^A^A K ;
 
-+V+Act+Inf3+Ine:ke%>m^Ass^A K ;
-+V+Act+Inf3+Ela:ke%>m^Ast^A K ;
-+V+Act+Inf3+Ill:ke%>mh^A^An K ;
-+V+Act+Inf3+Ade:ke%>m^All^A K ;
-+V+Act+Inf3+Abe:ke%>m^Att^A K ;
-+V+Act+Inf3:ke%>m^A MATONodd ;
-+V+Der+Der/minen:kemi n_22_inen ;
++Act+Inf3+Ine:ke%>m^Ass^A K ;
++Act+Inf3+Ela:ke%>m^Ast^A K ;
++Act+Inf3+Ill:ke%>mh^A^An K ;
++Act+Inf3+Ade:ke%>m^All^A K ;
++Act+Inf3+Abe:ke%>m^Att^A K ;
++Act+Inf3:ke%>m^A MATONodd ;
++Der+Der/minen:kemi n_22_inen ;
 
 
 !! ### Verbiluokat v2...
 
 LEXICON v2 !!≈ **@CODE@** ! aikkoot:aiko, anttaat:anta, assuut:asu, kattoot:katt2o, kulkkeet:kulke, lähteet:lähte, lenttäät:lentä, lukkeet:luke, luottaat:luotta, näkkyyt:näky, pittäät:pitä, soppiit:sopi (tämä ei ole yaml)
-+V+Inf:%>^Vt K ; 
-+V+Inf+Err/Orth:^A K ;  ! suomalainen ja jok murteen inf
-+V+Inf+Err/Orth:^E2I%>^A K ; ! var inf
++Inf:%>^Vt K ; 
++Inf+Err/Orth:^A K ;  ! suomalainen ja jok murteen inf
++Inf+Err/Orth:^E2I%>^A K ; ! var inf
 
-+V+Act+Ind+Prs:^WG v12pers_short ;
-+V+Act+Ind+Prs+Sg3:%>^V K ;
-+V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
++Act+Ind+Prs:^WG v12pers_short ;
++Act+Ind+Prs+Sg3:%>^V K ;
++Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 
-+V+Act+Ind+Prt:^WG^AO%>i3 v12pers_short ;
-+V+Act+Ind+Prt+Sg3:^AO%>i3 K ;      ! se alkoi
-+V+Act+Ind+Prt+Sg3+Err/Orth:^AO K ; ! se alko
-+V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:^AO%>i3v^At K ;      ! se alkoi
++Act+Ind+Prt:^WG^AO%>i3 v12pers_short ;
++Act+Ind+Prt+Sg3:^AO%>i3 K ;      ! se alkoi
++Act+Ind+Prt+Sg3+Err/Orth:^AO K ; ! se alko
++Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:^AO%>i3v^At K ;      ! se alkoi
 
-+V+Pass+Ind+Prs:^WG^AE%>th^A^An K ;
-+V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
++Pass+Ind+Prs:^WG^AE%>th^A^An K ;
++Pass+Ind+Prt:^WG^AE%>thiin K ; 
 
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ;
-!+V+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:^WG K ;
++Act+PrfPrc+Sg+Nom:%>^N^U K ;
++Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
++Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ;
+!+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:^WG K ;
 
-+V+Act+Cond+Sg1:^VDEL%>i4sin K ; ! antaisin
-+V+Act+Cond+Sg2:^VDEL%>i4sit K ;
-+V+Act+Cond+Sg3:^VDEL%>i4s K ;
-+V+Act+Cond+ConNeg:^VDEL%>i4s K ;
-+V+Act+Cond+Pl1:^VDEL%>i4simm^A K ;
-+V+Act+Cond+Pl2:^VDEL%>i4sitt^A K ;
-+V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
-+V+Pass+Cond:^WG^AE%>tt^A%>i4s K ;
++Act+Cond+Sg1:^VDEL%>i4sin K ; ! antaisin
++Act+Cond+Sg2:^VDEL%>i4sit K ;
++Act+Cond+Sg3:^VDEL%>i4s K ;
++Act+Cond+ConNeg:^VDEL%>i4s K ;
++Act+Cond+Pl1:^VDEL%>i4simm^A K ;
++Act+Cond+Pl2:^VDEL%>i4sitt^A K ;
++Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
++Pass+Cond:^WG^AE%>tt^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:^WG K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++Act+Imprt+Sg2:^WG K   ;
++Act+Imprt+Pl2:%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>m^All^A K ;
-+V+Act+Inf3+Abe:%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATON ;
-+V+Der+Der/minen:mi n_22_inen ;
++Act+Inf3+Ine:%>m^Ass^A K ;
++Act+Inf3+Ela:%>m^Ast^A K ;
++Act+Inf3+Ill:%>mh^A^An K ;
++Act+Inf3+Ade:%>m^All^A K ;
++Act+Inf3+Abe:%>m^Att^A K ;
++Act+Inf3:%>m^A MATON ;
++Der+Der/minen:mi n_22_inen ;
 
 
 LEXICON v2_long ! norjalaistaat:norjalaistin, vahingoittaat:vahingoitin (no AO-tag in Prt)
-+V+Inf:%>^Vt K ; 
-+V+Inf+Err/Orth:^A K ;  
-+V+Inf+Err/Orth:^E2I%>^A K ;
++Inf:%>^Vt K ; 
++Inf+Err/Orth:^A K ;  
++Inf+Err/Orth:^E2I%>^A K ;
 
-+V+Act+Ind+Prs:^WG v12pers_short ;
-+V+Act+Ind+Prs+Sg3:%>^V K ;
-+V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
++Act+Ind+Prs:^WG v12pers_short ;
++Act+Ind+Prs+Sg3:%>^V K ;
++Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 
-+V+Act+Ind+Prt:^WG%>i3 v12pers_short ;
-+V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
++Act+Ind+Prt:^WG%>i3 v12pers_short ;
++Act+Ind+Prt+Sg3:%>i3 K ;
++Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
 
-+V+Pass+Ind+Prs:^WG^AE%>th^A^An K ;
-+V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
++Pass+Ind+Prs:^WG^AE%>th^A^An K ;
++Pass+Ind+Prt:^WG^AE%>thiin K ; 
 
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ;
-+V+Act+PrfPrc:%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:^WG K ;
++Act+PrfPrc+Sg+Nom:%>^N^U K ;
++Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
++Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ;
++Act+PrfPrc:%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:^WG K ;
 
-+V+Act+Cond+Sg1:^VDEL%>i4sin K ;
-+V+Act+Cond+Sg2:^VDEL%>i4sit K ;
-+V+Act+Cond+Sg3:^VDEL%>i4s K ;
-+V+Act+Cond+ConNeg:^VDEL%>i4s K ;
-+V+Act+Cond+Pl1:^VDEL%>i4simm^A K ;
-+V+Act+Cond+Pl2:^VDEL%>i4sitt^A K ;
-+V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
-+V+Pass+Cond:^WG^AE%>tt^A%>i4s K ;
++Act+Cond+Sg1:^VDEL%>i4sin K ;
++Act+Cond+Sg2:^VDEL%>i4sit K ;
++Act+Cond+Sg3:^VDEL%>i4s K ;
++Act+Cond+ConNeg:^VDEL%>i4s K ;
++Act+Cond+Pl1:^VDEL%>i4simm^A K ;
++Act+Cond+Pl2:^VDEL%>i4sitt^A K ;
++Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
++Pass+Cond:^WG^AE%>tt^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:^WG K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++Act+Imprt+Sg2:^WG K   ;
++Act+Imprt+Pl2:%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>m^All^A K ;
-+V+Act+Inf3+Abe:%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATON ;
-+V+Der+Der/minen:mi n_22_inen ;
++Act+Inf3+Ine:%>m^Ass^A K ;
++Act+Inf3+Ela:%>m^Ast^A K ;
++Act+Inf3+Ill:%>mh^A^An K ;
++Act+Inf3+Ade:%>m^All^A K ;
++Act+Inf3+Abe:%>m^Att^A K ;
++Act+Inf3:%>m^A MATON ;
++Der+Der/minen:mi n_22_inen ;
 
 
 LEXICON v2_si !!≈ **@CODE@** ! pyyttäät:pyysi
-+V+Inf:%>^Vt K ;
-+V+Inf+Err/Orth:^A K ;  ! suomalainen ja jok murteen inf
-+V+Inf+Err/Orth:^E2I%>^A K ; ! var inf
++Inf:%>^Vt K ;
++Inf+Err/Orth:^A K ;  ! suomalainen ja jok murteen inf
++Inf+Err/Orth:^E2I%>^A K ; ! var inf
 
-+V+Act+Ind+Prs:^WG v12pers_short ;
-+V+Act+Ind+Prs+Sg3:%>^V K ;
-+V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
++Act+Ind+Prs:^WG v12pers_short ;
++Act+Ind+Prs+Sg3:%>^V K ;
++Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 
-+V+Act+Ind+Prt:^AO%>i3 v12pers_short ; ! pyysin
-+V+Act+Ind+Prt+Sg3:^AO%>i3 K ;      
-+V+Act+Ind+Prt+Sg3+Err/Orth:^AO K ;
-+V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:^AO%>i3v^At K ;
++Act+Ind+Prt:^AO%>i3 v12pers_short ; ! pyysin
++Act+Ind+Prt+Sg3:^AO%>i3 K ;      
++Act+Ind+Prt+Sg3+Err/Orth:^AO K ;
++Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:^AO%>i3v^At K ;
 
-+V+Pass+Ind+Prs:^WG^AE%>th^A^An K ;
-+V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
++Pass+Ind+Prs:^WG^AE%>th^A^An K ;
++Pass+Ind+Prt:^WG^AE%>thiin K ; 
 
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ;
-!+V+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:^WG K ;
++Act+PrfPrc+Sg+Nom:%>^N^U K ;
++Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
++Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ;
+!+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:^WG K ;
 
-+V+Act+Cond+Sg1:^VDEL%>i4sin K ;
-+V+Act+Cond+Sg2:^VDEL%>i4sit K ;
-+V+Act+Cond+Sg3:^VDEL%>i4s K ;
-+V+Act+Cond+ConNeg:^VDEL%>i4s K ;
-+V+Act+Cond+Pl1:^VDEL%>i4simm^A K ;
-+V+Act+Cond+Pl2:^VDEL%>i4sitt^A K ;
-+V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
-+V+Pass+Cond:^WG^AE%>tt^A%>i4s K ;
++Act+Cond+Sg1:^VDEL%>i4sin K ;
++Act+Cond+Sg2:^VDEL%>i4sit K ;
++Act+Cond+Sg3:^VDEL%>i4s K ;
++Act+Cond+ConNeg:^VDEL%>i4s K ;
++Act+Cond+Pl1:^VDEL%>i4simm^A K ;
++Act+Cond+Pl2:^VDEL%>i4sitt^A K ;
++Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
++Pass+Cond:^WG^AE%>tt^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:^WG K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++Act+Imprt+Sg2:^WG K   ;
++Act+Imprt+Pl2:%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>m^All^A K ;
-+V+Act+Inf3+Abe:%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATON ;
-+V+Der+Der/minen:mi n_22_inen ;
++Act+Inf3+Ine:%>m^Ass^A K ;
++Act+Inf3+Ela:%>m^Ast^A K ;
++Act+Inf3+Ill:%>mh^A^An K ;
++Act+Inf3+Ade:%>m^All^A K ;
++Act+Inf3+Abe:%>m^Att^A K ;
++Act+Inf3:%>m^A MATON ;
++Der+Der/minen:mi n_22_inen ;
 
 
 LEXICON v2_taittaat !!≈ **@CODE@** ! taisi, tainu / taitanu
-+V+Inf:taittaat K ;
-+V+Act+Ind+Prs+Sg1:taiđan K ;
-+V+Act+Ind+Prs+Sg2:taiđat K ;
-+V+Act+Ind+Prs+Sg3:taittaa K ;
-+V+Act+Ind+Prs+Pl1:taiđama K ;
-+V+Act+Ind+Prs+Pl2:taiđatta K ;
-+V+Act+Ind+Prs+Pl3:taiđethaan K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:taitavat K ;
-+V+Act+Ind+Prt+Sg1:taisin K ;
-+V+Act+Ind+Prt+Sg2:taisit K ;
-+V+Act+Ind+Prt+Sg3:taisi K ;
-+V+Act+Ind+Prt+Pl1:taisima K ;
-+V+Act+Ind+Prt+Pl2:taisitta K ;
-+V+Act+Ind+Prt+Pl3:taiđethiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:taisivat K ;
-+V+Pass+Ind+Prs:taiđethaan K ;
-+V+Pass+Ind+Prt:taiđethiin K ;  
-+V+Act+PrfPrc+Sg+Nom:tainu K ;
-+V+Act+PrfPrc+Sg+Nom:taitanu K ;
-+V+Act+PrfPrc+Sg+Nom:tainheet K ;
-+V+Act+PrfPrc+Sg+Nom:taitanheet K ;
-+V+Act+Ind+Prt+ConNeg+Sg:tainu K ;
-+V+Act+Ind+Prt+ConNeg+Sg:taitanu K ;
-+V+Pass+PrfPrc+Sg+Nom:taitu K ;
-+V+Pass+PrfPrc+Sg+Nom:taiđettu K ;
-+V+Act+Ind+Prs+ConNeg:taiđa K ;
-+V+Act+Cond+Sg1:taisin K ;
-+V+Act+Cond+Sg2:taisit K ;
-+V+Act+Cond+Sg3:taisi K ;
-+V+Act+Cond+ConNeg:taisi K ;
-+V+Act+Cond+Pl1:taisima K ;
-+V+Act+Cond+Pl2:taisitta K ;
-+V+Act+Cond+Pl3:taittais K ;
-+V+Act+Cond+Pl3:taiđettais K ;
-+V+Pass+Cond:taittais K ;
-+V+Pass+Cond:taiđettais K ;
-+V+Act+Inf3+Ine:taitamassa K ;
-+V+Act+Inf3+Ela:taitamasta K ;
-+V+Act+Inf3+Ill:taitamhaan K ;
-+V+Act+Inf3+Ade:taitamalla K ;
-+V+Act+Inf3+Abe:taitamatta K ;
++Inf:taittaat K ;
++Act+Ind+Prs+Sg1:taiđan K ;
++Act+Ind+Prs+Sg2:taiđat K ;
++Act+Ind+Prs+Sg3:taittaa K ;
++Act+Ind+Prs+Pl1:taiđama K ;
++Act+Ind+Prs+Pl2:taiđatta K ;
++Act+Ind+Prs+Pl3:taiđethaan K ;
++Act+Ind+Prs+Pl3+Err/Orth:taitavat K ;
++Act+Ind+Prt+Sg1:taisin K ;
++Act+Ind+Prt+Sg2:taisit K ;
++Act+Ind+Prt+Sg3:taisi K ;
++Act+Ind+Prt+Pl1:taisima K ;
++Act+Ind+Prt+Pl2:taisitta K ;
++Act+Ind+Prt+Pl3:taiđethiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:taisivat K ;
++Pass+Ind+Prs:taiđethaan K ;
++Pass+Ind+Prt:taiđethiin K ;  
++Act+PrfPrc+Sg+Nom:tainu K ;
++Act+PrfPrc+Sg+Nom:taitanu K ;
++Act+PrfPrc+Sg+Nom:tainheet K ;
++Act+PrfPrc+Sg+Nom:taitanheet K ;
++Act+Ind+Prt+ConNeg+Sg:tainu K ;
++Act+Ind+Prt+ConNeg+Sg:taitanu K ;
++Pass+PrfPrc+Sg+Nom:taitu K ;
++Pass+PrfPrc+Sg+Nom:taiđettu K ;
++Act+Ind+Prs+ConNeg:taiđa K ;
++Act+Cond+Sg1:taisin K ;
++Act+Cond+Sg2:taisit K ;
++Act+Cond+Sg3:taisi K ;
++Act+Cond+ConNeg:taisi K ;
++Act+Cond+Pl1:taisima K ;
++Act+Cond+Pl2:taisitta K ;
++Act+Cond+Pl3:taittais K ;
++Act+Cond+Pl3:taiđettais K ;
++Pass+Cond:taittais K ;
++Pass+Cond:taiđettais K ;
++Act+Inf3+Ine:taitamassa K ;
++Act+Inf3+Ela:taitamasta K ;
++Act+Inf3+Ill:taitamhaan K ;
++Act+Inf3+Ade:taitamalla K ;
++Act+Inf3+Abe:taitamatta K ;
 
 LEXICON v2_sauttaat !!≈ **@CODE@** ! sauttaat-sautti
-+V+Inf:sauttaat K ;
-+V+Act+Ind+Prs+Sg1:sautan K ;
-+V+Act+Ind+Prs+Sg2:sautat K ;
-+V+Act+Ind+Prs+Sg3:sauttaa K ;
-+V+Act+Ind+Prs+Pl1:sautamma K ;
-+V+Act+Ind+Prs+Pl2:sautatta K ;
-+V+Act+Ind+Prs+Pl3:sautethaan K ;
-+V+Act+Ind+Prs+Pl3:sautavat K ;
-+V+Act+Ind+Prt+Sg1:sautin K ;
-+V+Act+Ind+Prt+Sg2:sautit K ;
-+V+Act+Ind+Prt+Sg3:sautti K ;
-+V+Act+Ind+Prt+Pl1:sautimma K ;
-+V+Act+Ind+Prt+Pl2:sautitta K ;
-+V+Act+Ind+Prt+Pl3:sautethiin K ;
-+V+Act+Ind+Prt+Pl3:sautivat K ;
-+V+Pass+Ind+Prs:sautethaan K ;
-+V+Pass+Ind+Prt:sautethiin K ;  
-+V+Act+PrfPrc+Sg+Nom:sauttannu K ;
-+V+Act+PrfPrc+Pl+Nom:sauttanheet K ;
-+V+Act+Ind+Prt+ConNeg+Sg:sauttannu K ;
-+V+Act+Ind+Prt+ConNeg+Pl:sauttanheet K ;
-+V+Pass+PrfPrc+Sg+Nom:sautettu K ;
-+V+Pass+PrfPrc+Pl+Nom:sautetut K ;
-+V+Pass+PrsPrc+Sg+Nom:sautettava K ;
-+V+Pass+PrsPrc+Pl+Nom:sautettavat K ;
-+V+Act+Ind+Prs+ConNeg:sauta K ;
-+V+Act+Cond+Sg1:sauttaisin K ;
-+V+Act+Cond+Sg2:sauttaisit K ;
-+V+Act+Cond+Sg3:sauttais K ;
-+V+Act+Cond+ConNeg:sauttais K ;
-+V+Act+Cond+Pl1:sauttaisima K ;
-+V+Act+Cond+Pl2:sauttaisitta K ;
-+V+Act+Cond+Pl3:sautettais K ;
-+V+Pass+Cond:sautettais K ;
-+V+Act+Inf3+Ine:sauttamassa K ;
-+V+Act+Inf3+Ela:sauttamasta K ;
-+V+Act+Inf3+Ill:sauttamhaan K ;
-+V+Act+Inf3+Ade:sauttamala K ;
-+V+Act+Inf3+Abe:sauttamalta K ;
++Inf:sauttaat K ;
++Act+Ind+Prs+Sg1:sautan K ;
++Act+Ind+Prs+Sg2:sautat K ;
++Act+Ind+Prs+Sg3:sauttaa K ;
++Act+Ind+Prs+Pl1:sautamma K ;
++Act+Ind+Prs+Pl2:sautatta K ;
++Act+Ind+Prs+Pl3:sautethaan K ;
++Act+Ind+Prs+Pl3:sautavat K ;
++Act+Ind+Prt+Sg1:sautin K ;
++Act+Ind+Prt+Sg2:sautit K ;
++Act+Ind+Prt+Sg3:sautti K ;
++Act+Ind+Prt+Pl1:sautimma K ;
++Act+Ind+Prt+Pl2:sautitta K ;
++Act+Ind+Prt+Pl3:sautethiin K ;
++Act+Ind+Prt+Pl3:sautivat K ;
++Pass+Ind+Prs:sautethaan K ;
++Pass+Ind+Prt:sautethiin K ;  
++Act+PrfPrc+Sg+Nom:sauttannu K ;
++Act+PrfPrc+Pl+Nom:sauttanheet K ;
++Act+Ind+Prt+ConNeg+Sg:sauttannu K ;
++Act+Ind+Prt+ConNeg+Pl:sauttanheet K ;
++Pass+PrfPrc+Sg+Nom:sautettu K ;
++Pass+PrfPrc+Pl+Nom:sautetut K ;
++Pass+PrsPrc+Sg+Nom:sautettava K ;
++Pass+PrsPrc+Pl+Nom:sautettavat K ;
++Act+Ind+Prs+ConNeg:sauta K ;
++Act+Cond+Sg1:sauttaisin K ;
++Act+Cond+Sg2:sauttaisit K ;
++Act+Cond+Sg3:sauttais K ;
++Act+Cond+ConNeg:sauttais K ;
++Act+Cond+Pl1:sauttaisima K ;
++Act+Cond+Pl2:sauttaisitta K ;
++Act+Cond+Pl3:sautettais K ;
++Pass+Cond:sautettais K ;
++Act+Inf3+Ine:sauttamassa K ;
++Act+Inf3+Ela:sauttamasta K ;
++Act+Inf3+Ill:sauttamhaan K ;
++Act+Inf3+Ade:sauttamala K ;
++Act+Inf3+Abe:sauttamalta K ;
 
 LEXICON v2_särkkyyt !!≈ **@CODE@** ! särkkyyt-särjyn
-+V+Inf:särkkyyt K ;
-+V+Act+Ind+Prs+Sg1:särjyn K ;
-+V+Act+Ind+Prs+Sg2:särjyt K ;
-+V+Act+Ind+Prs+Sg3:särkkyy K ;
-+V+Act+Ind+Prs+Pl1:särjymä K ;
-+V+Act+Ind+Prs+Pl2:särjyttä K ;
-+V+Act+Ind+Prs+Pl3:särjythään K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:särkyvät K ;
-+V+Act+Ind+Prt+Sg1:särjyin K ;
-+V+Act+Ind+Prt+Sg2:särjyit K ;
-+V+Act+Ind+Prt+Sg3:särkyi K ;
-+V+Act+Ind+Prt+Pl1:särjyimä K ;
-+V+Act+Ind+Prt+Pl2:särjyittä K ;
-+V+Act+Ind+Prt+Pl3:särjythiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:särkyivät K ;
-+V+Pass+Ind+Prs:särjythään K ;
-+V+Pass+Ind+Prt:särjythiin K ;  
-+V+Act+PrfPrc+Sg+Nom:särkyny K ;
-+V+Act+PrfPrc+Pl+Nom:särkynheet K ;
-+V+Act+Ind+Prt+ConNeg+Sg:särkyny K ;
-+V+Act+Ind+Prt+ConNeg+Pl:särkynheet K ;
-+V+Pass+PrfPrc+Sg+Nom:särjytty K ;
-+V+Pass+PrfPrc+Pl+Nom:särjytyt K ;
-+V+Pass+PrsPrc+Sg+Nom:särjyttävä K ;
-+V+Pass+PrsPrc+Pl+Nom:särjyttävät K ;
-+V+Act+Ind+Prs+ConNeg:särjy K ;
-+V+Act+Cond+Sg1:särkyisin K ;
-+V+Act+Cond+Sg2:särkyisit K ;
-+V+Act+Cond+Sg3:särkyis K ;
-+V+Act+Cond+ConNeg:särkyis K ;
-+V+Act+Cond+Pl1:särkyisimmä K ;
-+V+Act+Cond+Pl2:särkyisittä K ;
-+V+Act+Cond+Pl3:särjyttäis K ;
-+V+Pass+Cond:särjyttäis K ;
-+V+Act+Inf3+Ine:särkymässä K ;
-+V+Act+Inf3+Ela:särkymästä K ;
-+V+Act+Inf3+Ill:särkymhään K ;
-+V+Act+Inf3+Ade:särkymällä K ;
-+V+Act+Inf3+Abe:särkymältä K ;
++Inf:särkkyyt K ;
++Act+Ind+Prs+Sg1:särjyn K ;
++Act+Ind+Prs+Sg2:särjyt K ;
++Act+Ind+Prs+Sg3:särkkyy K ;
++Act+Ind+Prs+Pl1:särjymä K ;
++Act+Ind+Prs+Pl2:särjyttä K ;
++Act+Ind+Prs+Pl3:särjythään K ;
++Act+Ind+Prs+Pl3+Err/Orth:särkyvät K ;
++Act+Ind+Prt+Sg1:särjyin K ;
++Act+Ind+Prt+Sg2:särjyit K ;
++Act+Ind+Prt+Sg3:särkyi K ;
++Act+Ind+Prt+Pl1:särjyimä K ;
++Act+Ind+Prt+Pl2:särjyittä K ;
++Act+Ind+Prt+Pl3:särjythiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:särkyivät K ;
++Pass+Ind+Prs:särjythään K ;
++Pass+Ind+Prt:särjythiin K ;  
++Act+PrfPrc+Sg+Nom:särkyny K ;
++Act+PrfPrc+Pl+Nom:särkynheet K ;
++Act+Ind+Prt+ConNeg+Sg:särkyny K ;
++Act+Ind+Prt+ConNeg+Pl:särkynheet K ;
++Pass+PrfPrc+Sg+Nom:särjytty K ;
++Pass+PrfPrc+Pl+Nom:särjytyt K ;
++Pass+PrsPrc+Sg+Nom:särjyttävä K ;
++Pass+PrsPrc+Pl+Nom:särjyttävät K ;
++Act+Ind+Prs+ConNeg:särjy K ;
++Act+Cond+Sg1:särkyisin K ;
++Act+Cond+Sg2:särkyisit K ;
++Act+Cond+Sg3:särkyis K ;
++Act+Cond+ConNeg:särkyis K ;
++Act+Cond+Pl1:särkyisimmä K ;
++Act+Cond+Pl2:särkyisittä K ;
++Act+Cond+Pl3:särjyttäis K ;
++Pass+Cond:särjyttäis K ;
++Act+Inf3+Ine:särkymässä K ;
++Act+Inf3+Ela:särkymästä K ;
++Act+Inf3+Ill:särkymhään K ;
++Act+Inf3+Ade:särkymällä K ;
++Act+Inf3+Abe:särkymältä K ;
 
 LEXICON v2_tiettäät !!≈ **@CODE@** tiettäät
-+V+Inf:tä%>^Vt K ;
-+V+Inf+Err/Orth:tä%>^A K ;  !
-+V+Act+Ind+Prs:tä^WG v12pers_short ;
-+V+Act+Ind+Prt:tä^AO%>i3 v12pers_short ;
-+V+Act+Ind+Prs+Sg3:tä%>^V K ;
-+V+Act+Ind+Prs+Pl3:tä^WG^AE%>th^A^An K ;
-+V+Act+Ind+Prt+Sg3:tä^AO%>i3 K ;
-+V+Act+Ind+Prt+Pl3+Dial/Por:tä^WG^AE%>thiin K ; ! TODO! murre vai Err/Orth
-+V+Act+Ind+Prt+Pl3+Dial/Jok:si^WG^AE%>vät K ;
-+V+Act+Ind+Prt+Pl3+Dial/Var:si^WG^AE%>vät K ;
-+V+Pass+Ind+Prs:tä^WG^AE%>th^A^An K ;
-+V+Pass+Ind+Prt:tä^WG^AE%>thiin K ;
-+V+Act+PrfPrc+Sg+Nom:tä%>^N^U K ;
-+V+Act+PrfPrc+Sg+Nom:ny K ;
-+V+Act+Ind+Prt+ConNeg+Sg:tä%>^N^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:ny K ;
-+V+Pass+PrfPrc+Sg+Nom:tä^WG^AE%>tt^U K ;
-+V+Pass+PrfPrc+Pl+Nom:tä^WG^AE%>t^U%>t K ;
-!+V+Act+PrfPrc:tä%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:tä%>^N PRFPRC_OBL ;
-+V+Act+PrfPrc:^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:tä%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:tä%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:tä^WG^AE%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:tä^WG^AE%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:tä^WG K ;
++Inf:tä%>^Vt K ;
++Inf+Err/Orth:tä%>^A K ;  !
++Act+Ind+Prs:tä^WG v12pers_short ;
++Act+Ind+Prt:tä^AO%>i3 v12pers_short ;
++Act+Ind+Prs+Sg3:tä%>^V K ;
++Act+Ind+Prs+Pl3:tä^WG^AE%>th^A^An K ;
++Act+Ind+Prt+Sg3:tä^AO%>i3 K ;
++Act+Ind+Prt+Pl3+Dial/Por:tä^WG^AE%>thiin K ; ! TODO! murre vai Err/Orth
++Act+Ind+Prt+Pl3+Dial/Jok:si^WG^AE%>vät K ;
++Act+Ind+Prt+Pl3+Dial/Var:si^WG^AE%>vät K ;
++Pass+Ind+Prs:tä^WG^AE%>th^A^An K ;
++Pass+Ind+Prt:tä^WG^AE%>thiin K ;
++Act+PrfPrc+Sg+Nom:tä%>^N^U K ;
++Act+PrfPrc+Sg+Nom:ny K ;
++Act+Ind+Prt+ConNeg+Sg:tä%>^N^U K ;
++Act+Ind+Prt+ConNeg+Sg:ny K ;
++Pass+PrfPrc+Sg+Nom:tä^WG^AE%>tt^U K ;
++Pass+PrfPrc+Pl+Nom:tä^WG^AE%>t^U%>t K ;
+!+Act+PrfPrc:tä%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:tä%>^N PRFPRC_OBL ;
++Act+PrfPrc:^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:tä%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:tä%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:tä^WG^AE%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:tä^WG^AE%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:tä^WG K ;
 
-+V+Act+Cond+Sg1:tä^VDEL%>i4sin K ; ! antaisin
-+V+Act+Cond+Sg2:tä^VDEL%>i4sit K ;
-+V+Act+Cond+Sg3:tä^VDEL%>i4s K ;
-+V+Act+Cond+ConNeg:tä^VDEL%>i4s K ;
-+V+Act+Cond+Pl1:tä^VDEL%>i4simm^A K ;
-+V+Act+Cond+Pl2:tä^VDEL%>i4sitt^A K ;
-+V+Act+Cond+Pl3:tä^WG^AE%>tt^A%>i4s K ;
-+V+Pass+Cond:tä^WG^AE%>tt^A%>i4s K ;
++Act+Cond+Sg1:tä^VDEL%>i4sin K ; ! antaisin
++Act+Cond+Sg2:tä^VDEL%>i4sit K ;
++Act+Cond+Sg3:tä^VDEL%>i4s K ;
++Act+Cond+ConNeg:tä^VDEL%>i4s K ;
++Act+Cond+Pl1:tä^VDEL%>i4simm^A K ;
++Act+Cond+Pl2:tä^VDEL%>i4sitt^A K ;
++Act+Cond+Pl3:tä^WG^AE%>tt^A%>i4s K ;
++Pass+Cond:tä^WG^AE%>tt^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:tä^WG K   ;
-+V+Act+Imprt+Pl2:tä%>kk^A^A K ;
++Act+Imprt+Sg2:tä^WG K   ;
++Act+Imprt+Pl2:tä%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:tä%>m^Ass^A K ;
-+V+Act+Inf3+Ela:tä%>m^Ast^A K ;
-+V+Act+Inf3+Ill:tä%>mh^A^An K ;
-+V+Act+Inf3+Ade:tä%>m^All^A K ;
-+V+Act+Inf3+Abe:tä%>m^Att^A K ;
-+V+Act+Inf3:tä%>m^A MATON ;
-+V+Der+Der/minen:tämi n_22_inen ;
++Act+Inf3+Ine:tä%>m^Ass^A K ;
++Act+Inf3+Ela:tä%>m^Ast^A K ;
++Act+Inf3+Ill:tä%>mh^A^An K ;
++Act+Inf3+Ade:tä%>m^All^A K ;
++Act+Inf3+Abe:tä%>m^Att^A K ;
++Act+Inf3:tä%>m^A MATON ;
++Der+Der/minen:tämi n_22_inen ;
 
 
 LEXICON v2_odd !!≈ **@CODE@** kirjoittaat:kirjoitta
-+V+Inf:%>^Vt K ;        ! kveenin inf valmistuut
-+V+Inf+Err/Orth:%>^A K ; ! suomalainen inf valmistua
++Inf:%>^Vt K ;        ! kveenin inf valmistuut
++Inf+Err/Orth:%>^A K ; ! suomalainen inf valmistua
 
-+V+Act+Ind+Prs:^WG v12pers_long ;
-+V+Act+Ind+Prs+Sg3:%>^V K ;
-+V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3:%>v^At K ;
-+V+Pass+Ind+Prs:^WG^AE%>th^A^An K ; 
++Act+Ind+Prs:^WG v12pers_long ;
++Act+Ind+Prs+Sg3:%>^V K ;
++Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
++Act+Ind+Prs+Pl3:%>v^At K ;
++Pass+Ind+Prs:^WG^AE%>th^A^An K ; 
 
-+V+Act+Ind+Prt:^WG%>i3 v12pers_long ;
-+V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
-+V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
-+V+Act+Ind+Prt+Pl3+Err/Orth:^WG%>siv^At K ; !TEST
++Act+Ind+Prt:^WG%>i3 v12pers_long ;
++Act+Ind+Prt+Sg3:%>i3 K ;
++Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
++Pass+Ind+Prt:^WG^AE%>thiin K ; 
++Act+Ind+Prt+Pl3+Err/Orth:^WG%>siv^At K ; !TEST
 
-!+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc+Sg+Nom:%>nn^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:%>nn^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ; 
-!+V+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:^WG K ;
+!+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++Act+PrfPrc+Sg+Nom:%>nn^U K ;
++Act+Ind+Prt+ConNeg+Sg:%>nn^U K ;
++Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
++Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ; 
+!+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:^WG K ;
 
-+V+Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
-+V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+ConNeg:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4sim^A K ;
-+V+Act+Cond+Pl2:%>i4sitt^A K ;
-+V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
-+V+Pass+Cond:^WG^AE%>tt^A%>i4s K ;
++Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
++Act+Cond+Sg2:%>i4sit K ;
++Act+Cond+Sg3:%>i4s K ;
++Act+Cond+ConNeg:%>i4s K ;
++Act+Cond+Pl1:%>i4sim^A K ;
++Act+Cond+Pl2:%>i4sitt^A K ;
++Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
++Pass+Cond:^WG^AE%>tt^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:^WG K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++Act+Imprt+Sg2:^WG K   ;
++Act+Imprt+Pl2:%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>m^Al^A K ;
-+V+Act+Inf3+Abe:%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATONodd ;
-+V+Der+Der/minen:mi n_22_inen ;
++Act+Inf3+Ine:%>m^Ass^A K ;
++Act+Inf3+Ela:%>m^Ast^A K ;
++Act+Inf3+Ill:%>mh^A^An K ;
++Act+Inf3+Ade:%>m^Al^A K ;
++Act+Inf3+Abe:%>m^Att^A K ;
++Act+Inf3:%>m^A MATONodd ;
++Der+Der/minen:mi n_22_inen ;
 
 LEXICON v2_odd_UUt !!≈ **@CODE@** hyväksyyt:hyväksy
-+V+Inf:%>^Vt K ;        ! kveenin inf valmistuut
-+V+Inf+Err/Orth:%>^A K ; ! suomalainen inf valmistua
++Inf:%>^Vt K ;        ! kveenin inf valmistuut
++Inf+Err/Orth:%>^A K ; ! suomalainen inf valmistua
 
-+V+Act+Ind+Prs:^WG v12pers_long ;
-+V+Act+Ind+Prs+Sg3:%>^V K ;
-+V+Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
-+V+Pass+Ind+Prs:^WG^AE%>th^A^An K ; 
++Act+Ind+Prs:^WG v12pers_long ;
++Act+Ind+Prs+Sg3:%>^V K ;
++Act+Ind+Prs+Pl3:^WG^AE%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
++Pass+Ind+Prs:^WG^AE%>th^A^An K ; 
 
-+V+Act+Ind+Prt:^WG%>i3 v12pers_short ;
-+V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
-+V+Pass+Ind+Prt:^WG^AE%>thiin K ; 
-+V+Act+Ind+Prt+Pl3+Err/Orth:^WG%>sivat K ; !TEST
++Act+Ind+Prt:^WG%>i3 v12pers_short ;
++Act+Ind+Prt+Sg3:%>i3 K ;
++Act+Ind+Prt+Pl3:^WG^AE%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
++Pass+Ind+Prt:^WG^AE%>thiin K ; 
++Act+Ind+Prt+Pl3+Err/Orth:^WG%>sivat K ; !TEST
 
-!+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc+Sg+Nom:%>nn^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:%>nn^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ; 
-!+V+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:^WG K ;
+!+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++Act+PrfPrc+Sg+Nom:%>nn^U K ;
++Act+Ind+Prt+ConNeg+Sg:%>nn^U K ;
++Pass+PrfPrc+Sg+Nom:^WG^AE%>tt^U K ;
++Pass+PrfPrc+Pl+Nom:^WG^AE%>t^U%>t K ; 
+!+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:^WG^AE%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG^AE%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:^WG K ;
 
-+V+Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
-+V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+ConNeg:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4sim^A K ;
-+V+Act+Cond+Pl2:%>i4sitt^A K ;
-+V+Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
-+V+Pass+Cond:^WG^AE%>tt^A%>i4s K ;
++Act+Cond+Sg1:%>i4sin K ; ! kirjoittaisin
++Act+Cond+Sg2:%>i4sit K ;
++Act+Cond+Sg3:%>i4s K ;
++Act+Cond+ConNeg:%>i4s K ;
++Act+Cond+Pl1:%>i4sim^A K ;
++Act+Cond+Pl2:%>i4sitt^A K ;
++Act+Cond+Pl3:^WG^AE%>tt^A%>i4s K ;
++Pass+Cond:^WG^AE%>tt^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:^WG K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++Act+Imprt+Sg2:^WG K   ;
++Act+Imprt+Pl2:%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>m^Al^A K ;
-+V+Act+Inf3+Abe:%>m^Att^A K ;
-+V+Act+Inf3:%>m^A MATONodd ;
-+V+Der+Der/minen:mi n_22_inen ;
++Act+Inf3+Ine:%>m^Ass^A K ;
++Act+Inf3+Ela:%>m^Ast^A K ;
++Act+Inf3+Ill:%>mh^A^An K ;
++Act+Inf3+Ade:%>m^Al^A K ;
++Act+Inf3+Abe:%>m^Att^A K ;
++Act+Inf3:%>m^A MATONodd ;
++Der+Der/minen:mi n_22_inen ;
 
 
 !v2_ta LEXICON v2_ta_odd !!≈ **@CODE@** kumarttaat
-!v2_ta +V+Inf:t^A%>^Vt K ;        ! kveenin inf valmistuut
-!v2_ta +V+Inf+Err/Orth:t^A%>^A K ; ! suomalainen inf valmistua
-!v2_ta +V+Act+Ind+Prs:t^A^WG v12pers_long ;
-!v2_ta +V+Act+Ind+Prt:t^A^WG%>i3 v12pers_long ;
-!v2_ta +V+Act+Ind+Prs+Sg3:t^A%>^V K ;
-!v2_ta +V+Act+Ind+Prs+Pl3:t^A^WG^AE%>th^A^An K ;
-!v2_ta +V+Act+Ind+Prt+Sg3:t^A%>i3 K ;
-!v2_ta +V+Act+Ind+Prt+Pl3+Dial/Por:t^A^WG^AE%>thiin K ;
-!v2_ta +V+Act+Ind+Prt+Pl3+Dial/Jok:si^WG%>vat K ; !Aili: new form
-!v2_ta +V+Act+Ind+Prt+Pl3+Dial/Var:si^WG%>vat K ; !Aili: new form
-!v2_ta !+V+Act+PrfPrc+Sg+Nom:t^A%>^N^U K ;
-!v2_ta +V+Act+PrfPrc+Sg+Nom:t^A%>nn^U K ;
-!v2_ta +V+Act+Ind+Prt+ConNeg+Sg:t^A%>nn^U K ;
-!v2_ta +V+Pass+PrfPrc+Sg+Nom:t^A^WG^AE%>tt^U K ;
-!v2_ta !+V+Act+PrfPrc:t^A%>^Nhee PRFPRC_OBL ;
-!v2_ta +V+Act+PrfPrc:t^A%>^N PRFPRC_OBL ;
-!v2_ta +V+Act+PrsPrc+Sg+Nom:t^A%>^V%>v^A K ;
-!v2_ta +V+Act+PrsPrc+Pl+Nom:t^A%>^V%>v^At K ;
-!v2_ta +V+Pass+PrsPrc+Sg+Nom:t^A^WG^AE%>tt^A%>v^A K ;
-!v2_ta +V+Pass+PrsPrc+Pl+Nom:t^A^WG^AE%>tt^A%>v^At K ;
-!v2_ta +V+Act+Ind+Prs+ConNeg:t^A^WG K ;
+!v2_ta +Inf:t^A%>^Vt K ;        ! kveenin inf valmistuut
+!v2_ta +Inf+Err/Orth:t^A%>^A K ; ! suomalainen inf valmistua
+!v2_ta +Act+Ind+Prs:t^A^WG v12pers_long ;
+!v2_ta +Act+Ind+Prt:t^A^WG%>i3 v12pers_long ;
+!v2_ta +Act+Ind+Prs+Sg3:t^A%>^V K ;
+!v2_ta +Act+Ind+Prs+Pl3:t^A^WG^AE%>th^A^An K ;
+!v2_ta +Act+Ind+Prt+Sg3:t^A%>i3 K ;
+!v2_ta +Act+Ind+Prt+Pl3+Dial/Por:t^A^WG^AE%>thiin K ;
+!v2_ta +Act+Ind+Prt+Pl3+Dial/Jok:si^WG%>vat K ; !Aili: new form
+!v2_ta +Act+Ind+Prt+Pl3+Dial/Var:si^WG%>vat K ; !Aili: new form
+!v2_ta !+Act+PrfPrc+Sg+Nom:t^A%>^N^U K ;
+!v2_ta +Act+PrfPrc+Sg+Nom:t^A%>nn^U K ;
+!v2_ta +Act+Ind+Prt+ConNeg+Sg:t^A%>nn^U K ;
+!v2_ta +Pass+PrfPrc+Sg+Nom:t^A^WG^AE%>tt^U K ;
+!v2_ta !+Act+PrfPrc:t^A%>^Nhee PRFPRC_OBL ;
+!v2_ta +Act+PrfPrc:t^A%>^N PRFPRC_OBL ;
+!v2_ta +Act+PrsPrc+Sg+Nom:t^A%>^V%>v^A K ;
+!v2_ta +Act+PrsPrc+Pl+Nom:t^A%>^V%>v^At K ;
+!v2_ta +Pass+PrsPrc+Sg+Nom:t^A^WG^AE%>tt^A%>v^A K ;
+!v2_ta +Pass+PrsPrc+Pl+Nom:t^A^WG^AE%>tt^A%>v^At K ;
+!v2_ta +Act+Ind+Prs+ConNeg:t^A^WG K ;
 !v2_ta 
-!v2_ta +V+Act+Cond+Sg1:t^A%>i4sin K ; ! kirjoittaisin
-!v2_ta +V+Act+Cond+Sg2:t^A%>i4sit K ;
-!v2_ta +V+Act+Cond+Sg3:t^A%>i4s K ;
-!v2_ta +V+Act+Cond+Pl1:t^A%>i4sim^A K ;
-!v2_ta +V+Act+Cond+Pl2:t^A%>i4sitt^A K ;
-!v2_ta +V+Act+Cond+Pl3:t^A^WG^AE%>tt^A%>i4s K ;
-!v2_ta +V+Pass+Cond:t^A^WG^AE%>tt^A%>i4s K ;
+!v2_ta +Act+Cond+Sg1:t^A%>i4sin K ; ! kirjoittaisin
+!v2_ta +Act+Cond+Sg2:t^A%>i4sit K ;
+!v2_ta +Act+Cond+Sg3:t^A%>i4s K ;
+!v2_ta +Act+Cond+Pl1:t^A%>i4sim^A K ;
+!v2_ta +Act+Cond+Pl2:t^A%>i4sitt^A K ;
+!v2_ta +Act+Cond+Pl3:t^A^WG^AE%>tt^A%>i4s K ;
+!v2_ta +Pass+Cond:t^A^WG^AE%>tt^A%>i4s K ;
 !v2_ta 
-!v2_ta +V+Act+Imprt+Sg2:t^A^WG K   ;
-!v2_ta +V+Act+Imprt+Pl2:t^A%>kk^A^A K ;
+!v2_ta +Act+Imprt+Sg2:t^A^WG K   ;
+!v2_ta +Act+Imprt+Pl2:t^A%>kk^A^A K ;
 !v2_ta 
-!v2_ta +V+Act+Inf3+Ine:t^A%>m^Ass^A K ;
-!v2_ta +V+Act+Inf3+Ela:t^A%>m^Ast^A K ;
-!v2_ta +V+Act+Inf3+Ill:t^A%>mh^A^An K ;
-!v2_ta +V+Act+Inf3+Ade:t^A%>m^Al^A K ;
-!v2_ta +V+Act+Inf3+Abe:t^A%>m^Att^A K ;
-!v2_ta +V+Act+Inf3:t^A%>m^A MATONodd ;
+!v2_ta +Act+Inf3+Ine:t^A%>m^Ass^A K ;
+!v2_ta +Act+Inf3+Ela:t^A%>m^Ast^A K ;
+!v2_ta +Act+Inf3+Ill:t^A%>mh^A^An K ;
+!v2_ta +Act+Inf3+Ade:t^A%>m^Al^A K ;
+!v2_ta +Act+Inf3+Abe:t^A%>m^Att^A K ;
+!v2_ta +Act+Inf3:t^A%>m^A MATONodd ;
 
 
 !! ### Verbiluokat v3...
 
 LEXICON v3_ele_short
 !! **LEXICON @LEXNAME@** = nielä:niel
-+V+Inf:^WG%>^A K ; ! short infinitive
-+V+Act+Ind+Prs+Sg3:%>ee K ;
-+V+Act+Ind+Prt+ConNeg+Sg:^WG%>^U K ;
-+V+Act+PrfPrc+Sg+Nom:^WG%>^U K ;
++Inf:^WG%>^A K ; ! short infinitive
++Act+Ind+Prs+Sg3:%>ee K ;
++Act+Ind+Prt+ConNeg+Sg:^WG%>^U K ;
++Act+PrfPrc+Sg+Nom:^WG%>^U K ;
 v3_ele_notinf ;      ! the rest is identical
 
 LEXICON v3_ele !!≈ **@CODE@** ajatella:ajattel
-+V+Inf:^WG%>l^A K ; ! long infinitive
-+V+Act+Ind+Prs+Sg3:%>lee K ;
-+V+Act+Ind+Prt+ConNeg+Sg:^WG%>l^U K ;
-+V+Act+PrfPrc+Sg+Nom:^WG%>l^U K ;
++Inf:^WG%>l^A K ; ! long infinitive
++Act+Ind+Prs+Sg3:%>lee K ;
++Act+Ind+Prt+ConNeg+Sg:^WG%>l^U K ;
++Act+PrfPrc+Sg+Nom:^WG%>l^U K ;
 v3_ele_notinf ;       ! the rest is identical
 
 LEXICON v3_ele_notinf
-+V+Act+Ind+Prs+Pl3:^WG%>h^A^An K ;
-+V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
-+V+Act+Ind+Prs:%>e v12pers_short ;
-+V+Act+Ind+Prt:%>i3 v12pers_short ;
-!+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc+Der/A+A:^WG%>le x_31_ee_oblique ;
-+V+Pass+Ind+Prs:^WG%>h^A^An K ;
-+V+Pass+Ind+Prt:^WG%>thiin K ; 
-+V+Pass+PrfPrc+Der/A+A:%>e x_31_ee_oblique ;
-+V+Pass+PrfPrc+Der/A+A+Sg+Nom:%>t^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG%>^U%>t K ;
-!+V+Act+PrfPrc:^WG^hee PRFPRC_OBL ;
-+V+Act+PrfPrc:^WG%> PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>le%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>le%>^V%>v^At K ;
-+V+Act+PrsPrc+Der/A+A:%>le%>^V%>v^A x_21_odd ;
-+V+Pass+PrsPrc+Sg+Nom:^WG%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG%>t^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>e K ;
++Act+Ind+Prs+Pl3:^WG%>h^A^An K ;
++Act+Ind+Prt+Sg3:%>i3 K ;
++Act+Ind+Prt+Pl3:^WG%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
++Act+Ind+Prs:%>e v12pers_short ;
++Act+Ind+Prt:%>i3 v12pers_short ;
+!+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++Act+PrfPrc+Der/A+A:^WG%>le x_31_ee_oblique ;
++Pass+Ind+Prs:^WG%>h^A^An K ;
++Pass+Ind+Prt:^WG%>thiin K ; 
++Pass+PrfPrc+Der/A+A:%>e x_31_ee_oblique ;
++Pass+PrfPrc+Der/A+A+Sg+Nom:%>t^U K ;
++Pass+PrfPrc+Sg+Nom:^WG%>t^U K ;
++Pass+PrfPrc+Pl+Nom:^WG%>^U%>t K ;
+!+Act+PrfPrc:^WG^hee PRFPRC_OBL ;
++Act+PrfPrc:^WG%> PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>le%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>le%>^V%>v^At K ;
++Act+PrsPrc+Der/A+A:%>le%>^V%>v^A x_21_odd ;
++Pass+PrsPrc+Sg+Nom:^WG%>t^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG%>t^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>e K ;
 
-+V+Act+Cond+Sg1:%>i4sin K ; ! ajattelisin
-+V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+ConNeg:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4simm^A K ;
-+V+Act+Cond+Pl2:%>i4sitt^A K ;
-+V+Act+Cond+Pl3:^WG%>t^A%>i4s K ;
-+V+Pass+Cond:^WG%>t^A%>i4s K ;
++Act+Cond+Sg1:%>i4sin K ; ! ajattelisin
++Act+Cond+Sg2:%>i4sit K ;
++Act+Cond+Sg3:%>i4s K ;
++Act+Cond+ConNeg:%>i4s K ;
++Act+Cond+Pl1:%>i4simm^A K ;
++Act+Cond+Pl2:%>i4sitt^A K ;
++Act+Cond+Pl3:^WG%>t^A%>i4s K ;
++Pass+Cond:^WG%>t^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:%>e K   ;
-+V+Act+Imprt+Pl2:^WG%>kk^A^A K ;
++Act+Imprt+Sg2:%>e K   ;
++Act+Imprt+Pl2:^WG%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:e%>m^Ass^A K ;
-+V+Act+Inf3+Ela:e%>m^Ast^A K ;
-+V+Act+Inf3+Ill:e%>mh^A^An K ;
-+V+Act+Inf3+Ade:e%>m^All^A K ;
-+V+Act+Inf3+Abe:e%>m^Att^A K ;
-+V+Act+Inf3:e%>m^A MATON ;
-+V+Der+Der/minen:emi n_22_inen ;
++Act+Inf3+Ine:e%>m^Ass^A K ;
++Act+Inf3+Ela:e%>m^Ast^A K ;
++Act+Inf3+Ill:e%>mh^A^An K ;
++Act+Inf3+Ade:e%>m^All^A K ;
++Act+Inf3+Abe:e%>m^Att^A K ;
++Act+Inf3:e%>m^A MATON ;
++Der+Der/minen:emi n_22_inen ;
 
 LEXICON v3_ele_odd !!≈ **@CODE@** kävelä:kävel
-+V+Inf:^WG%>^A K ;
-+V+Act+Ind+Prs+Sg3:%>ee K ;
-+V+Act+Ind+Prs+Pl3:^WG%>h^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>ev^At K ;
-+V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
-+V+Act+Ind+Prt+Pl3:%>i3v^At K ;
-+V+Pass+Ind+Prs:^WG%>h^A^An K ;
-+V+Pass+Ind+Prt:^WG%>thiin K ;  
-+V+Act+Ind+Prs:%>e v12pers_long ;
-+V+Act+Ind+Prt:%>i3 v12pers_long ;
-!+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc+Sg+Nom:^WG%>^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:^WG%>^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG%>^U%>t K ;
-!+V+Act+PrfPrc:^WG%>^hee PRFPRC_OBL ;
-+V+Act+PrfPrc:^WG%> PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>ee%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>ee%>v^At K ;
-!+V+Act+PrsPrc+Sg+Nom:%>e%>^V%>v^A K ;
-!+V+Act+PrsPrc+Pl+Nom:%>e%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:^WG%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG%>t^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>e K ;
++Inf:^WG%>^A K ;
++Act+Ind+Prs+Sg3:%>ee K ;
++Act+Ind+Prs+Pl3:^WG%>h^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>ev^At K ;
++Act+Ind+Prt+Sg3:%>i3 K ;
++Act+Ind+Prt+Pl3:^WG%>thiin K ;
++Act+Ind+Prt+Pl3:%>i3v^At K ;
++Pass+Ind+Prs:^WG%>h^A^An K ;
++Pass+Ind+Prt:^WG%>thiin K ;  
++Act+Ind+Prs:%>e v12pers_long ;
++Act+Ind+Prt:%>i3 v12pers_long ;
+!+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++Act+PrfPrc+Sg+Nom:^WG%>^U K ;
++Act+Ind+Prt+ConNeg+Sg:^WG%>^U K ;
++Pass+PrfPrc+Sg+Nom:^WG%>t^U K ;
++Pass+PrfPrc+Pl+Nom:^WG%>^U%>t K ;
+!+Act+PrfPrc:^WG%>^hee PRFPRC_OBL ;
++Act+PrfPrc:^WG%> PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>ee%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>ee%>v^At K ;
+!+Act+PrsPrc+Sg+Nom:%>e%>^V%>v^A K ;
+!+Act+PrsPrc+Pl+Nom:%>e%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:^WG%>t^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG%>t^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>e K ;
 
 !! * aukaista > aukaisemma
 !! * täristä > tärisemä
 
-+V+Act+Cond+Sg1:%>i4sin K ; ! kävelisin
-+V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+ConNeg:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4sim^A K ;
-+V+Act+Cond+Pl2:%>i4sitt^A K ;
-+V+Act+Cond+Pl3:^WG%>t^A%>i4s K ;
-+V+Pass+Cond:^WG%>t^A%>i4s K ;
++Act+Cond+Sg1:%>i4sin K ; ! kävelisin
++Act+Cond+Sg2:%>i4sit K ;
++Act+Cond+Sg3:%>i4s K ;
++Act+Cond+ConNeg:%>i4s K ;
++Act+Cond+Pl1:%>i4sim^A K ;
++Act+Cond+Pl2:%>i4sitt^A K ;
++Act+Cond+Pl3:^WG%>t^A%>i4s K ;
++Pass+Cond:^WG%>t^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:%>e K   ;
-+V+Act+Imprt+Pl2:^WG%>kk^A^A K ;
++Act+Imprt+Sg2:%>e K   ;
++Act+Imprt+Pl2:^WG%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:e%>m^Ass^A K ;
-+V+Act+Inf3+Ela:e%>m^Ast^A K ;
-+V+Act+Inf3+Ill:e%>mh^A^An K ;
-+V+Act+Inf3+Ade:e%>m^Al^A K ;
-+V+Act+Inf3+Abe:e%>m^Att^A K ;
-+V+Act+Inf3:e%>m^A MATONodd ;
-+V+Der+Der/minen:emi n_22_inen_odd ;
++Act+Inf3+Ine:e%>m^Ass^A K ;
++Act+Inf3+Ela:e%>m^Ast^A K ;
++Act+Inf3+Ill:e%>mh^A^An K ;
++Act+Inf3+Ade:e%>m^Al^A K ;
++Act+Inf3+Abe:e%>m^Att^A K ;
++Act+Inf3:e%>m^A MATONodd ;
++Der+Der/minen:emi n_22_inen_odd ;
 
 LEXICON v3_ise !!≈ **@CODE@** aukaista:aukaise
 +v1:is v3_ise_inflection ; ! täristä
@@ -940,506 +941,506 @@ LEXICON v3_aise !!≈ **@CODE@** aukaista:aukaise
 +v2+Dial/Jok:s v3_ise_inflection ; ! aukasta, aukasen, ...
 
 LEXICON v3_ise_inflection
-+V+Inf:%>t^A K ;
-+V+Act+Ind+Prs+Sg3:%>see K ;
-+V+Act+Ind+Prs+Pl3:%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3:%>se%>^V%>v^A K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>e%>v^A K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>se%>^V%>v^At K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>e%>v^At K ;
-+V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl3:%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
-+V+Pass+Ind+Prs:%>th^A^An K ;
-+V+Pass+Ind+Prt:%>thiin K ;  
-+V+Act+Ind+Prs:%>e v12pers_long ; ! aukaisemma
-+V+Act+Ind+Prt:%>i3 v12pers_long ; ! aukaisimma
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ; 
-!+V+Act+PrfPrc:^WG%>^hee PRFPRC_OBL ;
-+V+Act+PrfPrc:^WG%> PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>se%>^V%>v^A K ;
-!+V+Act+PrsPrc+Sg+Nom:%>e%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>se%>^V%>v^At K ;
-!+V+Act+PrsPrc+Pl+Nom:%>e%>v^At K ; ! Not sure about the suffix mark placements here. TODO Goes through: aukaisseevat; Missing results: aukasevat, Unexpected results: aukasseevat. This should only be on aukas (s) and not aukais (ss). Also TODO TODO TODO generalize to all v3_ise. In general look at aukas vs aukais generalizing
++Inf:%>t^A K ;
++Act+Ind+Prs+Sg3:%>see K ;
++Act+Ind+Prs+Pl3:%>th^A^An K ;
++Act+Ind+Prs+Pl3:%>se%>^V%>v^A K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>e%>v^A K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>se%>^V%>v^At K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>e%>v^At K ;
++Act+Ind+Prt+Sg3:%>i3 K ;
++Act+Ind+Prt+Pl3:%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
++Pass+Ind+Prs:%>th^A^An K ;
++Pass+Ind+Prt:%>thiin K ;  
++Act+Ind+Prs:%>e v12pers_long ; ! aukaisemma
++Act+Ind+Prt:%>i3 v12pers_long ; ! aukaisimma
++Act+PrfPrc+Sg+Nom:%>^N^U K ;
++Act+Ind+Prt+ConNeg+Sg:%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:%>t^U K ;
++Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ; 
+!+Act+PrfPrc:^WG%>^hee PRFPRC_OBL ;
++Act+PrfPrc:^WG%> PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>se%>^V%>v^A K ;
+!+Act+PrsPrc+Sg+Nom:%>e%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>se%>^V%>v^At K ;
+!+Act+PrsPrc+Pl+Nom:%>e%>v^At K ; ! Not sure about the suffix mark placements here. TODO Goes through: aukaisseevat; Missing results: aukasevat, Unexpected results: aukasseevat. This should only be on aukas (s) and not aukais (ss). Also TODO TODO TODO generalize to all v3_ise. In general look at aukas vs aukais generalizing
 
-+V+Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>e K ;
++Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>e K ;
 
-+V+Act+Cond+Sg1:%>i4sin K ; ! aukaisisin
-+V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+ConNeg:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4sim^A K ;
-+V+Act+Cond+Pl2:%>i4sitt^A K ;
-+V+Act+Cond+Pl3:%>t^A%>i4s K ;
-+V+Pass+Cond:%>t^A%>i4s K ;
++Act+Cond+Sg1:%>i4sin K ; ! aukaisisin
++Act+Cond+Sg2:%>i4sit K ;
++Act+Cond+Sg3:%>i4s K ;
++Act+Cond+ConNeg:%>i4s K ;
++Act+Cond+Pl1:%>i4sim^A K ;
++Act+Cond+Pl2:%>i4sitt^A K ;
++Act+Cond+Pl3:%>t^A%>i4s K ;
++Pass+Cond:%>t^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:%>e K   ;
-+V+Act+Imprt+Pl2:%>k^A^A K ;
++Act+Imprt+Sg2:%>e K   ;
++Act+Imprt+Pl2:%>k^A^A K ;
 
-+V+Act+Inf3+Ine:e%>m^Ass^A K ;
-+V+Act+Inf3+Ela:e%>m^Ast^A K ;
-+V+Act+Inf3+Ill:e%>mh^A^An K ;
-+V+Act+Inf3+Ade:e%>m^Al^A K ;
-+V+Act+Inf3+Abe:e%>m^Att^A K ;
-+V+Act+Inf3:e%>m^A MATONodd ;
-+V+Der+Der/minen:emi n_22_inen_odd ;
++Act+Inf3+Ine:e%>m^Ass^A K ;
++Act+Inf3+Ela:e%>m^Ast^A K ;
++Act+Inf3+Ill:e%>mh^A^An K ;
++Act+Inf3+Ade:e%>m^Al^A K ;
++Act+Inf3+Abe:e%>m^Att^A K ;
++Act+Inf3:e%>m^A MATONodd ;
++Der+Der/minen:emi n_22_inen_odd ;
 
 LEXICON v3_lnr !!≈ **@CODE@** ja vartalo on pan-
-+V+Inf:%>^N^A K ; !! * pitää tehdä ^D
-+V+Act+Ind+Prs+Sg3:%>^N%>ee K ;         ! tullee
-+V+Act+Ind+Prs+Sg3+Err/Orth:%>e%>e K ;  ! tulee
-+V+Act+Ind+Prs+Pl3:%>h^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>ev^At K ;
-+V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl3:%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
-+V+Act+Ind+Prs:%>e^WG v12pers_short ;
-+V+Act+Ind+Prt:%>i3^WG v12pers_short ;
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ; !! * Lyhyt partisiippi
-+V+Act+PrfPrc+Der/A+A:%>nee x_21_odd_oblique ; !! * Lyhyt partisiippi
-+V+Act+Ind+Prt+ConNeg+Sg:%>^N^U K ; !! * Lyhyt partisiippi
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !! * Lyhyt partisiippi
-!+V+Act+PrfPrc:%>hee PRFPRC_OBL ;
-+V+Act+PrfPrc:%> PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>^N%>ee%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^N%>ee%>v^At K ;
-+V+Pass+Ind+Prs:%>h^A^An K ;
-+V+Pass+Ind+Prt:%>thiin K ;
-+V+Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ;
-+V+Act+Ind+Prs+ConNeg:%>e K ;
++Inf:%>^N^A K ; !! * pitää tehdä ^D
++Act+Ind+Prs+Sg3:%>^N%>ee K ;         ! tullee
++Act+Ind+Prs+Sg3+Err/Orth:%>e%>e K ;  ! tulee
++Act+Ind+Prs+Pl3:%>h^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>ev^At K ;
++Act+Ind+Prt+Sg3:%>i3 K ;
++Act+Ind+Prt+Pl3:%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
++Act+Ind+Prs:%>e^WG v12pers_short ;
++Act+Ind+Prt:%>i3^WG v12pers_short ;
++Act+PrfPrc+Sg+Nom:%>^N^U K ; !! * Lyhyt partisiippi
++Act+PrfPrc+Der/A+A:%>nee x_21_odd_oblique ; !! * Lyhyt partisiippi
++Act+Ind+Prt+ConNeg+Sg:%>^N^U K ; !! * Lyhyt partisiippi
++Pass+PrfPrc+Sg+Nom:%>t^U K ; !! * Lyhyt partisiippi
+!+Act+PrfPrc:%>hee PRFPRC_OBL ;
++Act+PrfPrc:%> PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>^N%>ee%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>^N%>ee%>v^At K ;
++Pass+Ind+Prs:%>h^A^An K ;
++Pass+Ind+Prt:%>thiin K ;
++Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
++Pass+PrfPrc+Sg+Nom:%>t^U K ;
++Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ;
++Act+Ind+Prs+ConNeg:%>e K ;
 
-+V+Act+Cond+Sg1:%>i4sin K ;
-+V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+ConNeg:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4simm^A K ;
-+V+Act+Cond+Pl2:%>i4sitt^A K ;
-+V+Act+Cond+Pl3:%>t^A%>i4s K ;
-+V+Pass+Cond:%>t^A%>i4s K ;
++Act+Cond+Sg1:%>i4sin K ;
++Act+Cond+Sg2:%>i4sit K ;
++Act+Cond+Sg3:%>i4s K ;
++Act+Cond+ConNeg:%>i4s K ;
++Act+Cond+Pl1:%>i4simm^A K ;
++Act+Cond+Pl2:%>i4sitt^A K ;
++Act+Cond+Pl3:%>t^A%>i4s K ;
++Pass+Cond:%>t^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:%>e K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++Act+Imprt+Sg2:%>e K   ;
++Act+Imprt+Pl2:%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>e^WG%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>e^WG%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>e^WG%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>e^WG%>m^All^A K ;
-+V+Act+Inf3+Abe:%>e^WG%>m^Att^A K ;
-+V+Act+Inf3:e%>m^A MATON ;
-+V+Der+Der/minen:emi n_22_inen ;
++Act+Inf3+Ine:%>e^WG%>m^Ass^A K ;
++Act+Inf3+Ela:%>e^WG%>m^Ast^A K ;
++Act+Inf3+Ill:%>e^WG%>mh^A^An K ;
++Act+Inf3+Ade:%>e^WG%>m^All^A K ;
++Act+Inf3+Abe:%>e^WG%>m^Att^A K ;
++Act+Inf3:e%>m^A MATON ;
++Der+Der/minen:emi n_22_inen ;
 
 LEXICON v3_s !!≈ **@CODE@** kusta, nousta, pestä, päästä ja vartalo on kus-
-+V+Inf:%>t^A K ;
-+V+Act+Ind+Prs+Sg3:%>ee K ;
-+V+Act+Ind+Prs+Pl3:%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>ev^At K ;
-+V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl3:%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
-+V+Act+Ind+Prs:%>e^WG v12pers_short ;
-+V+Act+Ind+Prt:%>i3^WG v12pers_short ;
-+V+Act+PrfPrc+Sg+Nom:%>s^U K ; !! * Lyhyt partisiippi
-+V+Act+Ind+Prt+ConNeg+Sg:%>s^U K ; !! * Lyhyt partisiippi
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !! * Lyhyt partisiippi
-!+V+Act+PrfPrc:%>hee PRFPRC_OBL ;
-+V+Act+PrfPrc:%> PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>t%>ee%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^N%>ee%>v^At K ;
-+V+Pass+Ind+Prs:%>th^A^An K ;
-+V+Pass+Ind+Prt:%>thiin K ;
-+V+Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
-+V+Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ;
-+V+Act+Ind+Prs+ConNeg:%>e K ;
++Inf:%>t^A K ;
++Act+Ind+Prs+Sg3:%>ee K ;
++Act+Ind+Prs+Pl3:%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>ev^At K ;
++Act+Ind+Prt+Sg3:%>i3 K ;
++Act+Ind+Prt+Pl3:%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
++Act+Ind+Prs:%>e^WG v12pers_short ;
++Act+Ind+Prt:%>i3^WG v12pers_short ;
++Act+PrfPrc+Sg+Nom:%>s^U K ; !! * Lyhyt partisiippi
++Act+Ind+Prt+ConNeg+Sg:%>s^U K ; !! * Lyhyt partisiippi
++Pass+PrfPrc+Sg+Nom:%>t^U K ; !! * Lyhyt partisiippi
+!+Act+PrfPrc:%>hee PRFPRC_OBL ;
++Act+PrfPrc:%> PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>t%>ee%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>^N%>ee%>v^At K ;
++Pass+Ind+Prs:%>th^A^An K ;
++Pass+Ind+Prt:%>thiin K ;
++Pass+PrsPrc+Sg+Nom:%>t^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:%>t^A%>v^At K ;
++Pass+PrfPrc+Pl+Nom:t^U^WG%>t K ;
++Act+Ind+Prs+ConNeg:%>e K ;
 
-+V+Act+Cond+Sg1:%>i4sin K ;
-+V+Act+Cond+Sg2:%>i4sit K ;
-+V+Act+Cond+Sg3:%>i4s K ;
-+V+Act+Cond+ConNeg:%>i4s K ;
-+V+Act+Cond+Pl1:%>i4simm^A K ;
-+V+Act+Cond+Pl2:%>i4sitt^A K ;
-+V+Act+Cond+Pl3:%>t^A%>i4s K ;
-+V+Pass+Cond:%>t^A%>i4s K ;
++Act+Cond+Sg1:%>i4sin K ;
++Act+Cond+Sg2:%>i4sit K ;
++Act+Cond+Sg3:%>i4s K ;
++Act+Cond+ConNeg:%>i4s K ;
++Act+Cond+Pl1:%>i4simm^A K ;
++Act+Cond+Pl2:%>i4sitt^A K ;
++Act+Cond+Pl3:%>t^A%>i4s K ;
++Pass+Cond:%>t^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:%>e K   ;
-+V+Act+Imprt+Pl2:%>k^A^A K ;
++Act+Imprt+Sg2:%>e K   ;
++Act+Imprt+Pl2:%>k^A^A K ;
 
-+V+Act+Inf3+Ine:%>e^WG%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>e^WG%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>e^WG%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>e^WG%>m^All^A K ;
-+V+Act+Inf3+Abe:%>e^WG%>m^Att^A K ;
-+V+Act+Inf3:e%>m^A MATON ;
-+V+Der+Der/minen:emi n_22_inen ;
++Act+Inf3+Ine:%>e^WG%>m^Ass^A K ;
++Act+Inf3+Ela:%>e^WG%>m^Ast^A K ;
++Act+Inf3+Ill:%>e^WG%>mh^A^An K ;
++Act+Inf3+Ade:%>e^WG%>m^All^A K ;
++Act+Inf3+Abe:%>e^WG%>m^Att^A K ;
++Act+Inf3:e%>m^A MATON ;
++Der+Der/minen:emi n_22_inen ;
 
 LEXICON v3piera !!≈ **@CODE@** pierä:pie
-+V+Inf:r^A K ; !! * pitää tehdä ^D
-+V+Act+Ind+Prs+Sg3:%>ree K ;
-+V+Act+Ind+Prs+Pl3:%>rh^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>rev^At K ;
-+V+Act+Ind+Prt+Sg3:%>r%>i3 K ;
-+V+Act+Ind+Prt+Pl3:%>rthiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>riv^At K ;
-+V+Pass+Ind+Prs:%>rh^A^An K ;
-+V+Pass+Ind+Prt:%>rthiin K ;
-+V+Act+Ind+Prs:%>re^WG v12pers_short ;
-+V+Act+Ind+Prt:%>r%>i3^WG v12pers_short ;
-+V+Act+PrfPrc+Sg+Nom:%>r%>^N^U K ; !! * Lyhyt partisiippi
-+V+Pass+PrfPrc+Sg+Nom:%>r%>t^U K ; !! * Lyhyt partisiippi
-+V+Pass+PrfPrc+Pl+Nom:%>rr%>^U%>t K ; 
-!+V+Act+PrfPrc:%>rhee PRFPRC_OBL ;
-+V+Act+PrfPrc:%>r PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>r%>^N%>ee%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>r%>^N%>ee%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:%>r%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>r%>t^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>r%>e K ;
++Inf:r^A K ; !! * pitää tehdä ^D
++Act+Ind+Prs+Sg3:%>ree K ;
++Act+Ind+Prs+Pl3:%>rh^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>rev^At K ;
++Act+Ind+Prt+Sg3:%>r%>i3 K ;
++Act+Ind+Prt+Pl3:%>rthiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>riv^At K ;
++Pass+Ind+Prs:%>rh^A^An K ;
++Pass+Ind+Prt:%>rthiin K ;
++Act+Ind+Prs:%>re^WG v12pers_short ;
++Act+Ind+Prt:%>r%>i3^WG v12pers_short ;
++Act+PrfPrc+Sg+Nom:%>r%>^N^U K ; !! * Lyhyt partisiippi
++Pass+PrfPrc+Sg+Nom:%>r%>t^U K ; !! * Lyhyt partisiippi
++Pass+PrfPrc+Pl+Nom:%>rr%>^U%>t K ; 
+!+Act+PrfPrc:%>rhee PRFPRC_OBL ;
++Act+PrfPrc:%>r PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>r%>^N%>ee%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>r%>^N%>ee%>v^At K ;
++Pass+PrsPrc+Sg+Nom:%>r%>t^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:%>r%>t^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>r%>e K ;
 
-+V+Act+Cond+Sg1:%>r%>i4sin K ;
-+V+Act+Cond+Sg2:%>r%>i4sit K ;
-+V+Act+Cond+Sg3:%>r%>i4s K ;
-+V+Act+Cond+ConNeg:%>r%>i4s K ;
-+V+Act+Cond+Pl1:%>r%>i4simm^A K ;
-+V+Act+Cond+Pl2:%>r%>i4sitt^A K ;
-+V+Act+Cond+Pl3:%>r%>t^A%>i4s K ;
-+V+Pass+Cond:%>r%>t^A%>i4s K ;
++Act+Cond+Sg1:%>r%>i4sin K ;
++Act+Cond+Sg2:%>r%>i4sit K ;
++Act+Cond+Sg3:%>r%>i4s K ;
++Act+Cond+ConNeg:%>r%>i4s K ;
++Act+Cond+Pl1:%>r%>i4simm^A K ;
++Act+Cond+Pl2:%>r%>i4sitt^A K ;
++Act+Cond+Pl3:%>r%>t^A%>i4s K ;
++Pass+Cond:%>r%>t^A%>i4s K ;
 
-+V+Act+Imprt+Sg2:%>r%>e K   ;
-+V+Act+Imprt+Pl2:%>r%>kk^A^A K ;
++Act+Imprt+Sg2:%>r%>e K   ;
++Act+Imprt+Pl2:%>r%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>r%>e^WG%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>r%>e^WG%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>r%>e^WG%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>r%>e^WG%>m^All^A K ;
-+V+Act+Inf3+Abe:%>r%>e^WG%>m^Att^A K ;
-+V+Act+Inf3:e%>m^A MATON ;
-+V+Der+Der/minen:emi n_22_inen ;
++Act+Inf3+Ine:%>r%>e^WG%>m^Ass^A K ;
++Act+Inf3+Ela:%>r%>e^WG%>m^Ast^A K ;
++Act+Inf3+Ill:%>r%>e^WG%>mh^A^An K ;
++Act+Inf3+Ade:%>r%>e^WG%>m^All^A K ;
++Act+Inf3+Abe:%>r%>e^WG%>m^Att^A K ;
++Act+Inf3:e%>m^A MATON ;
++Der+Der/minen:emi n_22_inen ;
 
 LEXICON v3juosta !!≈ **@CODE@** juosta:juo
-+V+Inf:s%>t^A K ;
-+V+Act+Ind+Prs+Sg3:%>ksee K ;
-+V+Act+Ind+Prs+Pl3:%>sth^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>ksev^At K ;
-+V+Act+Ind+Prt+Sg3:%>ksi K ;
-+V+Act+Ind+Prt+Pl3:%>sthiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>ksiv^At K ;
-+V+Pass+Ind+Prs:%>sth^A^An K ;
-+V+Pass+Ind+Prt:%>sthiin K ; 
-+V+Act+Ind+Prs:%>kse v12pers_short ;
-+V+Act+Ind+Prt:%>ksi v12pers_short ;
-+V+Act+PrfPrc+Sg+Nom:s%>^N^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:s%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:%>st^U K ;
-+V+Pass+PrfPrc+Pl+Nom:%>st^U%>t K ; !Täytyy löytää oikean muodon
-!+V+Act+PrfPrc:s%>hee PRFPRC_OBL ;
-+V+Act+PrfPrc:s%> PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:ksee%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:ksee%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:%>st^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>st^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>kse K ;
++Inf:s%>t^A K ;
++Act+Ind+Prs+Sg3:%>ksee K ;
++Act+Ind+Prs+Pl3:%>sth^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>ksev^At K ;
++Act+Ind+Prt+Sg3:%>ksi K ;
++Act+Ind+Prt+Pl3:%>sthiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>ksiv^At K ;
++Pass+Ind+Prs:%>sth^A^An K ;
++Pass+Ind+Prt:%>sthiin K ; 
++Act+Ind+Prs:%>kse v12pers_short ;
++Act+Ind+Prt:%>ksi v12pers_short ;
++Act+PrfPrc+Sg+Nom:s%>^N^U K ;
++Act+Ind+Prt+ConNeg+Sg:s%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:%>st^U K ;
++Pass+PrfPrc+Pl+Nom:%>st^U%>t K ; !Täytyy löytää oikean muodon
+!+Act+PrfPrc:s%>hee PRFPRC_OBL ;
++Act+PrfPrc:s%> PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:ksee%>v^A K ;
++Act+PrsPrc+Pl+Nom:ksee%>v^At K ;
++Pass+PrsPrc+Sg+Nom:%>st^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:%>st^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>kse K ;
 
-+V+Act+Cond+Sg1:%>ksisin K ; ! juoksisin
-+V+Act+Cond+Sg2:%>ksisit K ;
-+V+Act+Cond+Sg3:%>ksis K ;
-+V+Act+Cond+ConNeg:%>ksis K ;
-+V+Act+Cond+Pl1:%>ksisimm^A K ;
-+V+Act+Cond+Pl2:%>ksisitt^A K ;
-+V+Act+Cond+Pl3:%>stais K ;
-+V+Pass+Cond:%>stais K ;
++Act+Cond+Sg1:%>ksisin K ; ! juoksisin
++Act+Cond+Sg2:%>ksisit K ;
++Act+Cond+Sg3:%>ksis K ;
++Act+Cond+ConNeg:%>ksis K ;
++Act+Cond+Pl1:%>ksisimm^A K ;
++Act+Cond+Pl2:%>ksisitt^A K ;
++Act+Cond+Pl3:%>stais K ;
++Pass+Cond:%>stais K ;
 
-+V+Act+Imprt+Sg2:%>kse K   ;
-+V+Act+Imprt+Pl2:%>sk^A^A K ;
++Act+Imprt+Sg2:%>kse K   ;
++Act+Imprt+Pl2:%>sk^A^A K ;
 
-+V+Act+Inf3+Ine:%>kse%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>kse%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>kse%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>kse%>m^All^A K ;
-+V+Act+Inf3+Abe:%>kse%>m^Att^A K ;
-+V+Act+Inf3:%>kse%>m^A MATON ;
-+V+Der+Der/minen:ksemi n_22_inen ;
++Act+Inf3+Ine:%>kse%>m^Ass^A K ;
++Act+Inf3+Ela:%>kse%>m^Ast^A K ;
++Act+Inf3+Ill:%>kse%>mh^A^An K ;
++Act+Inf3+Ade:%>kse%>m^All^A K ;
++Act+Inf3+Abe:%>kse%>m^Att^A K ;
++Act+Inf3:%>kse%>m^A MATON ;
++Der+Der/minen:ksemi n_22_inen ;
 
 !! ### Verbiluokat v4...
 
 LEXICON v4 !!≈ **@CODE@** vanheta:vanhe, pajeta:pake
-+V+Inf:^WG%>t^A K ;
-+V+Act+Ind+Prs+Sg3:nee K ; !
-+V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:ne%>v^At K ;
-+V+Act+Ind+Prt+Sg3:ni K ;
-+V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>niv^At K ;
-+V+Pass+Ind+Prs:^WG%>th^A^An K ;
-+V+Pass+Ind+Prt:^WG%>thiin K ; 
-+V+Act+Ind+Prs:%>ne v12pers_long ;
-+V+Act+Ind+Prt:%>ni v12pers_long ;
-+V+Act+PrfPrc+Sg+Nom:^WGn%>^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:^WGn%>^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG%>tt%>^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG%>t%>^U%>t K ;
-!+V+Act+PrfPrc:^WG%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:^WG%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>ne%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>ne%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:^WG%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>ne K ;
++Inf:^WG%>t^A K ;
++Act+Ind+Prs+Sg3:nee K ; !
++Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:ne%>v^At K ;
++Act+Ind+Prt+Sg3:ni K ;
++Act+Ind+Prt+Pl3:^WG%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>niv^At K ;
++Pass+Ind+Prs:^WG%>th^A^An K ;
++Pass+Ind+Prt:^WG%>thiin K ; 
++Act+Ind+Prs:%>ne v12pers_long ;
++Act+Ind+Prt:%>ni v12pers_long ;
++Act+PrfPrc+Sg+Nom:^WGn%>^U K ;
++Act+Ind+Prt+ConNeg+Sg:^WGn%>^U K ;
++Pass+PrfPrc+Sg+Nom:^WG%>tt%>^U K ;
++Pass+PrfPrc+Pl+Nom:^WG%>t%>^U%>t K ;
+!+Act+PrfPrc:^WG%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:^WG%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>ne%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>ne%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:^WG%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>ne K ;
 
-+V+Act+Cond+Sg1:%>nisin K ; ! vanhenisin
-+V+Act+Cond+Sg2:%>nisit K ;
-+V+Act+Cond+Sg3:%>nis K ;
-+V+Act+Cond+ConNeg:%>nis K ;
-+V+Act+Cond+Pl1:%>nisim^A K ;
-+V+Act+Cond+Pl2:%>nisitt^A K ;
-+V+Act+Cond+Pl3:^WG%>tt^Ais K ;
-+V+Pass+Cond:^WG%>tt^Ais K ;
++Act+Cond+Sg1:%>nisin K ; ! vanhenisin
++Act+Cond+Sg2:%>nisit K ;
++Act+Cond+Sg3:%>nis K ;
++Act+Cond+ConNeg:%>nis K ;
++Act+Cond+Pl1:%>nisim^A K ;
++Act+Cond+Pl2:%>nisitt^A K ;
++Act+Cond+Pl3:^WG%>tt^Ais K ;
++Pass+Cond:^WG%>tt^Ais K ;
 
-+V+Act+Imprt+Sg2:%>ne K   ;
-+V+Act+Imprt+Pl2:^WG%>kk^A^A K ;
++Act+Imprt+Sg2:%>ne K   ;
++Act+Imprt+Pl2:^WG%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>ne%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>ne%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>ne%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>ne%>m^Al^A K ;
-+V+Act+Inf3+Abe:%>ne%>m^Att^A K ;
-+V+Act+Inf3:%>ne%>m^A MATONodd ;
-+V+Der+Der/minen:nemi n_22_inen ;
++Act+Inf3+Ine:%>ne%>m^Ass^A K ;
++Act+Inf3+Ela:%>ne%>m^Ast^A K ;
++Act+Inf3+Ill:%>ne%>mh^A^An K ;
++Act+Inf3+Ade:%>ne%>m^Al^A K ;
++Act+Inf3+Abe:%>ne%>m^Att^A K ;
++Act+Inf3:%>ne%>m^A MATONodd ;
++Der+Der/minen:nemi n_22_inen ;
 
 LEXICON v4_itte !!≈ **@CODE@** ja vartalo on - kyyti
-+V+Inf:%>t^A K ;
-+V+Act+Ind+Prs+Sg3:ttee K ;
-+V+Act+Ind+Prs+Pl3:%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>ttev^At K ;
-+V+Act+Ind+Prt+Sg3:%>tti K ;
-+V+Act+Ind+Prt+Pl3:%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>ttiv^At K ;
-+V+Pass+Ind+Prs:%>th^A^An K ;
-+V+Pass+Ind+Prt:%>thiin K ;
-+V+Act+Ind+Prs:%>tte v12pers_long ;
-+V+Act+Ind+Prt:%>tti v12pers_long ;
-!!+V+Act+PrfPrc+Sg+Nom:%>ttenn^U K ; !! * Pitkä partisiippi
-+V+Act+PrfPrc+Sg+Nom:%>n^U K ; !! * Lyhyt partisiippi
-+V+Act+Ind+Prt+ConNeg+Sg:%>n^U K ; !! * Lyhyt partisiippi
-+V+Pass+PrfPrc+Sg+Nom:%>tt^U K ; !! * Lyhyt partisiippi
-+V+Pass+PrfPrc+Pl+Nom:%>t^U%>t K ;
-!+V+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:%>^N PRFPRC_OBL ;
-!! +V+Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>tte%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>tte%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>tte K ;
++Inf:%>t^A K ;
++Act+Ind+Prs+Sg3:ttee K ;
++Act+Ind+Prs+Pl3:%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>ttev^At K ;
++Act+Ind+Prt+Sg3:%>tti K ;
++Act+Ind+Prt+Pl3:%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>ttiv^At K ;
++Pass+Ind+Prs:%>th^A^An K ;
++Pass+Ind+Prt:%>thiin K ;
++Act+Ind+Prs:%>tte v12pers_long ;
++Act+Ind+Prt:%>tti v12pers_long ;
+!!+Act+PrfPrc+Sg+Nom:%>ttenn^U K ; !! * Pitkä partisiippi
++Act+PrfPrc+Sg+Nom:%>n^U K ; !! * Lyhyt partisiippi
++Act+Ind+Prt+ConNeg+Sg:%>n^U K ; !! * Lyhyt partisiippi
++Pass+PrfPrc+Sg+Nom:%>tt^U K ; !! * Lyhyt partisiippi
++Pass+PrfPrc+Pl+Nom:%>t^U%>t K ;
+!+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:%>^N PRFPRC_OBL ;
+!! +Act+PrfPrc:tte%>nnhee PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>tte%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>tte%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>tte K ;
 
-+V+Act+Cond+Sg1:%>ttisin K ; ! kyytittisin
-+V+Act+Cond+Sg2:%>ttisit K ;
-+V+Act+Cond+Sg3:%>ttis K ;
-+V+Act+Cond+ConNeg:%>ttis K ;
-+V+Act+Cond+Pl1:%>ttisim^A K ;
-+V+Act+Cond+Pl2:%>ttisitt^A K ;
-+V+Act+Cond+Pl3:%>tt^Ais K ;
-+V+Pass+Cond:%>tt^Ais K ;
++Act+Cond+Sg1:%>ttisin K ; ! kyytittisin
++Act+Cond+Sg2:%>ttisit K ;
++Act+Cond+Sg3:%>ttis K ;
++Act+Cond+ConNeg:%>ttis K ;
++Act+Cond+Pl1:%>ttisim^A K ;
++Act+Cond+Pl2:%>ttisitt^A K ;
++Act+Cond+Pl3:%>tt^Ais K ;
++Pass+Cond:%>tt^Ais K ;
 
-+V+Act+Imprt+Sg2:%>tte K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++Act+Imprt+Sg2:%>tte K   ;
++Act+Imprt+Pl2:%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>tte%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>tte%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>tte%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>tte%>m^Al^A K ;
-+V+Act+Inf3+Abe:%>tte%>m^Att^A K ;
-+V+Act+Inf3:%>tte%>m^A MATONodd ;
-+V+Der+Der/minen:ttemi n_22_inen ;
++Act+Inf3+Ine:%>tte%>m^Ass^A K ;
++Act+Inf3+Ela:%>tte%>m^Ast^A K ;
++Act+Inf3+Ill:%>tte%>mh^A^An K ;
++Act+Inf3+Ade:%>tte%>m^Al^A K ;
++Act+Inf3+Abe:%>tte%>m^Att^A K ;
++Act+Inf3:%>tte%>m^A MATONodd ;
++Der+Der/minen:ttemi n_22_inen ;
 
 
 LEXICON v4_oitte !!≈ **@CODE@** ja vartalo on haravoi-
-+V+Inf:%>t^A K ;
-+V+Inf+Err/Orth:%>đ^A K ;
-+V+Act+Ind+Prs+Sg3:ttee K ;
-+V+Act+Ind+Prs+Pl3:%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>tt^Av^At K ;
-+V+Act+Ind+Prt+Sg3:%>tti K ;
-+V+Act+Ind+Prt+Pl3:%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>ttiv^At K ;
-+V+Pass+Ind+Prs:%>th^A^An K ;
-+V+Pass+Ind+Prt:%>thiin K ;
-+V+Act+Ind+Prs:%>tte v12pers_short ;
-+V+Act+Ind+Prt:%>tti v12pers_short ;
-+V+Act+PrfPrc+Sg+Nom:%>n^U K ; !! * Lyhyt partisiippi
-+V+Pass+PrfPrc+Sg+Nom:%>tt^U K ; !! * Lyhyt partisiippi
-+V+Pass+PrfPrc+Pl+Nom:%>t^U%>t K ; 
-!+V+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:%>^N PRFPRC_OBL ;
-!! +V+PrfPrc:tte%>nnhee PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>tte K ;
++Inf:%>t^A K ;
++Inf+Err/Orth:%>đ^A K ;
++Act+Ind+Prs+Sg3:ttee K ;
++Act+Ind+Prs+Pl3:%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>tt^Av^At K ;
++Act+Ind+Prt+Sg3:%>tti K ;
++Act+Ind+Prt+Pl3:%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>ttiv^At K ;
++Pass+Ind+Prs:%>th^A^An K ;
++Pass+Ind+Prt:%>thiin K ;
++Act+Ind+Prs:%>tte v12pers_short ;
++Act+Ind+Prt:%>tti v12pers_short ;
++Act+PrfPrc+Sg+Nom:%>n^U K ; !! * Lyhyt partisiippi
++Pass+PrfPrc+Sg+Nom:%>tt^U K ; !! * Lyhyt partisiippi
++Pass+PrfPrc+Pl+Nom:%>t^U%>t K ; 
+!+Act+PrfPrc:%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:%>^N PRFPRC_OBL ;
+!! +PrfPrc:tte%>nnhee PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>v^At K ;
++Pass+PrsPrc+Sg+Nom:%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>tte K ;
 
-+V+Act+Cond+Sg1:%>ttisin K ; ! haravoittisin
-+V+Act+Cond+Sg2:%>ttisit K ;
-+V+Act+Cond+Sg3:%>ttis K ;
-+V+Act+Cond+ConNeg:%>ttis K ;
-+V+Act+Cond+Pl1:%>ttisimm^A K ;
-+V+Act+Cond+Pl2:%>ttisitt^A K ;
-+V+Act+Cond+Pl3:%>tt%>^Ais K ;
-+V+Pass+Cond:%>tt%>^Ais K ;
++Act+Cond+Sg1:%>ttisin K ; ! haravoittisin
++Act+Cond+Sg2:%>ttisit K ;
++Act+Cond+Sg3:%>ttis K ;
++Act+Cond+ConNeg:%>ttis K ;
++Act+Cond+Pl1:%>ttisimm^A K ;
++Act+Cond+Pl2:%>ttisitt^A K ;
++Act+Cond+Pl3:%>tt%>^Ais K ;
++Pass+Cond:%>tt%>^Ais K ;
 
-+V+Act+Imprt+Sg2:%>tte K   ;
-+V+Act+Imprt+Pl2:%>kk^A^A K ;
++Act+Imprt+Sg2:%>tte K   ;
++Act+Imprt+Pl2:%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>tte%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>tte%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>tte%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>tte%>m^All^A K ;
-+V+Act+Inf3+Abe:%>tte%>m^Att^A K ;
-+V+Act+Inf3:%>tte%>m^A MATON ;
-+V+Der+Der/minen:ttemi n_22_inen ;
++Act+Inf3+Ine:%>tte%>m^Ass^A K ;
++Act+Inf3+Ela:%>tte%>m^Ast^A K ;
++Act+Inf3+Ill:%>tte%>mh^A^An K ;
++Act+Inf3+Ade:%>tte%>m^All^A K ;
++Act+Inf3+Abe:%>tte%>m^Att^A K ;
++Act+Inf3:%>tte%>m^A MATON ;
++Der+Der/minen:ttemi n_22_inen ;
 
 LEXICON v43 !!≈ **@CODE@** hantteerata:hantteera
-+V+Inf:^WG%>t^A K ; !
-+V+Act+Ind+Prs+Sg3:%>^V K ; !
-+V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>i3v^At K ;
-+V+Act+Ind+Prt+Sg3:%>s K ;
-+V+Act+Ind+Prt+Sg3:%>si K ;
-+V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>siv^At K ;
-+V+Pass+Ind+Prs:^WG%>th^A^An K ;
-+V+Pass+Ind+Prt:^WG%>thiin K ; 
-+V+Act+Ind+Prs:%>^V v12pers_short ;
-+V+Act+Ind+Prt:%>si v12pers_short ;
-+V+Act+PrfPrc+Sg+Nom:^WG%>nn^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:^WG%>nn^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG%>tt^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG%>t^U%>t K ; 
-!+V+Act+PrfPrc:^WG%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:^WG%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:^WG%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>^V K ;
++Inf:^WG%>t^A K ; !
++Act+Ind+Prs+Sg3:%>^V K ; !
++Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>i3v^At K ;
++Act+Ind+Prt+Sg3:%>s K ;
++Act+Ind+Prt+Sg3:%>si K ;
++Act+Ind+Prt+Pl3:^WG%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>siv^At K ;
++Pass+Ind+Prs:^WG%>th^A^An K ;
++Pass+Ind+Prt:^WG%>thiin K ; 
++Act+Ind+Prs:%>^V v12pers_short ;
++Act+Ind+Prt:%>si v12pers_short ;
++Act+PrfPrc+Sg+Nom:^WG%>nn^U K ;
++Act+Ind+Prt+ConNeg+Sg:^WG%>nn^U K ;
++Pass+PrfPrc+Sg+Nom:^WG%>tt^U K ;
++Pass+PrfPrc+Pl+Nom:^WG%>t^U%>t K ; 
+!+Act+PrfPrc:^WG%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:^WG%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:^WG%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>^V K ;
 
-+V+Act+Cond+Sg1:%>i7sin K ; ! hantteeraisin
-+V+Act+Cond+Sg2:%>i7sit K ;
-+V+Act+Cond+Sg3:%>i7s K ;
-+V+Act+Cond+ConNeg:%>i7s K ;
-+V+Act+Cond+Pl1:%>i7sim^A K ;
-+V+Act+Cond+Pl2:%>i7sitt^A K ;
-+V+Act+Cond+Pl3:^WG%>tt^A%>i7s K ;
-+V+Pass+Cond:^WG%>tt^A%>i7s K ;
++Act+Cond+Sg1:%>i7sin K ; ! hantteeraisin
++Act+Cond+Sg2:%>i7sit K ;
++Act+Cond+Sg3:%>i7s K ;
++Act+Cond+ConNeg:%>i7s K ;
++Act+Cond+Pl1:%>i7sim^A K ;
++Act+Cond+Pl2:%>i7sitt^A K ;
++Act+Cond+Pl3:^WG%>tt^A%>i7s K ;
++Pass+Cond:^WG%>tt^A%>i7s K ;
 
-+V+Act+Imprt+Sg2:%>^V K   ;
-+V+Act+Imprt+Pl2:%>^V^WG%>kk^A^A K ;
++Act+Imprt+Sg2:%>^V K   ;
++Act+Imprt+Pl2:%>^V^WG%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>^V%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>^V%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>^V%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>^V%>m^Al^A K ;
-+V+Act+Inf3+Abe:%>^V%>m^Att^A K ;
-+V+Act+Inf3:%>^V%>m^A MATONodd ;
-+V+Der+Der/minen:%>^V%>mi n_22_inen ;
++Act+Inf3+Ine:%>^V%>m^Ass^A K ;
++Act+Inf3+Ela:%>^V%>m^Ast^A K ;
++Act+Inf3+Ill:%>^V%>mh^A^An K ;
++Act+Inf3+Ade:%>^V%>m^Al^A K ;
++Act+Inf3+Abe:%>^V%>m^Att^A K ;
++Act+Inf3:%>^V%>m^A MATONodd ;
++Der+Der/minen:%>^V%>mi n_22_inen ;
 
 LEXICON v43_odd !!≈ **@CODE@** jatkata:jatka
-+V+Inf:^WG%>t^A K ;
-+V+Act+Ind+Prs+Sg3:%>^V K ; !
-+V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
-+V+Act+Ind+Prt+Sg3:%>s K ;
-+V+Act+Ind+Prt+Sg3:%>si K ; ! XXX not-norm?
-+V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:%>siv^At K ;
-+V+Pass+Ind+Prs:^WG%>th^A^An K ;
-+V+Pass+Ind+Prt:^WG%>thiin K ;  
-+V+Act+Ind+Prs:%>^V v12pers_short ;
-+V+Act+Ind+Prt:%>si v12pers_long ;
-+V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:^WG%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG%>tt^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG%>t^U%>t K ;
-!+V+Act+PrfPrc:^WG%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:^WG%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:^WG%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>^V K ;
++Inf:^WG%>t^A K ;
++Act+Ind+Prs+Sg3:%>^V K ; !
++Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
++Act+Ind+Prt+Sg3:%>s K ;
++Act+Ind+Prt+Sg3:%>si K ; ! XXX not-norm?
++Act+Ind+Prt+Pl3:^WG%>thiin K ;
++Act+Ind+Prt+Pl3+Err/Orth:%>siv^At K ;
++Pass+Ind+Prs:^WG%>th^A^An K ;
++Pass+Ind+Prt:^WG%>thiin K ;  
++Act+Ind+Prs:%>^V v12pers_short ;
++Act+Ind+Prt:%>si v12pers_long ;
++Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
++Act+Ind+Prt+ConNeg+Sg:^WG%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:^WG%>tt^U K ;
++Pass+PrfPrc+Pl+Nom:^WG%>t^U%>t K ;
+!+Act+PrfPrc:^WG%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:^WG%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>^V%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>^V%>v^At K ;
++Pass+PrsPrc+Sg+Nom:^WG%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>^V K ;
 
-+V+Act+Cond+Sg1:%>i7sin K ; ! jatkaisin, pölkkäisin
-+V+Act+Cond+Sg2:%>i7sit K ;
-+V+Act+Cond+Sg3:%>i7s K ;
-+V+Act+Cond+ConNeg:%>i7s K ;
-+V+Act+Cond+Pl1:%>i7simm^A K ;
-+V+Act+Cond+Pl2:%>i7sitt^A K ;
-+V+Act+Cond+Pl3:^WG%>tt^A%>i7s K ;
-+V+Pass+Cond:^WG%>tt^A%>i7s K ;
++Act+Cond+Sg1:%>i7sin K ; ! jatkaisin, pölkkäisin
++Act+Cond+Sg2:%>i7sit K ;
++Act+Cond+Sg3:%>i7s K ;
++Act+Cond+ConNeg:%>i7s K ;
++Act+Cond+Pl1:%>i7simm^A K ;
++Act+Cond+Pl2:%>i7sitt^A K ;
++Act+Cond+Pl3:^WG%>tt^A%>i7s K ;
++Pass+Cond:^WG%>tt^A%>i7s K ;
 
-+V+Act+Imprt+Sg2:%>^V K   ;
-+V+Act+Imprt+Pl2:^WG%>kk^A^A K ;
++Act+Imprt+Sg2:%>^V K   ;
++Act+Imprt+Pl2:^WG%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>^V%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>^V%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>^V%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>^V%>m^All^A K ;
-+V+Act+Inf3+Abe:%>^V%>m^Att^A K ;
-+V+Act+Inf3:%>^V%>m^A MATON ;
-+V+Der+Der/minen:%>^V%>mi n_22_inen ;
++Act+Inf3+Ine:%>^V%>m^Ass^A K ;
++Act+Inf3+Ela:%>^V%>m^Ast^A K ;
++Act+Inf3+Ill:%>^V%>mh^A^An K ;
++Act+Inf3+Ade:%>^V%>m^All^A K ;
++Act+Inf3+Abe:%>^V%>m^Att^A K ;
++Act+Inf3:%>^V%>m^A MATON ;
++Der+Der/minen:%>^V%>mi n_22_inen ;
 
 
 LEXICON v43_odd_II !!≈ **@CODE@** jatkata:jatka
-+V+Inf:^WG%>i%>t^A K ;
-+V+Act+Ind+Prs+Sg3:%>^V K ; !
-+V+Act+Ind+Prs+Pl3:^WG%>i%>th^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
-+V+Act+Ind+Prt+Sg3:%>i%>s K ;
-+V+Act+Ind+Prt+Sg3:%>i%>si K ; ! XXX not-norm?
-+V+Act+Ind+Prt+Pl3:^WG%>i%>thiin K ;
-+V+Act+Ind+Prt+Pl3:s%>i3v^At K ;
-+V+Act+Ind+Prs:%>^V v12pers_short ;
-+V+Act+Ind+Prt:%>i%>si v12pers_long ;
-+V+Pass+Ind+Prs:^WG%>i%>th^A^An K ;
-+V+Pass+Ind+Prt:^WG%>i%>thiin K ;
-+V+Act+PrfPrc+Sg+Nom:^WG%>i%>^N^U K ;
-+V+Act+Ind+Prt+ConNeg+Sg:^WG%>i%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WG%>i%>tt^U K ;
-+V+Pass+PrfPrc+Pl+Nom:^WG%>i%>t^U%>t K ;
-!+V+Act+PrfPrc:^WG%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:^WG%>i%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:%>^V%>i%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^V%>i%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:^WG%>i%>tt^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:^WG%>i%>tt^A%>v^At K ;
-+V+Act+Ind+Prs+ConNeg:%>^V K ;
++Inf:^WG%>i%>t^A K ;
++Act+Ind+Prs+Sg3:%>^V K ; !
++Act+Ind+Prs+Pl3:^WG%>i%>th^A^An K ;
++Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
++Act+Ind+Prt+Sg3:%>i%>s K ;
++Act+Ind+Prt+Sg3:%>i%>si K ; ! XXX not-norm?
++Act+Ind+Prt+Pl3:^WG%>i%>thiin K ;
++Act+Ind+Prt+Pl3:s%>i3v^At K ;
++Act+Ind+Prs:%>^V v12pers_short ;
++Act+Ind+Prt:%>i%>si v12pers_long ;
++Pass+Ind+Prs:^WG%>i%>th^A^An K ;
++Pass+Ind+Prt:^WG%>i%>thiin K ;
++Act+PrfPrc+Sg+Nom:^WG%>i%>^N^U K ;
++Act+Ind+Prt+ConNeg+Sg:^WG%>i%>^N^U K ;
++Pass+PrfPrc+Sg+Nom:^WG%>i%>tt^U K ;
++Pass+PrfPrc+Pl+Nom:^WG%>i%>t^U%>t K ;
+!+Act+PrfPrc:^WG%>^Nhee PRFPRC_OBL ;
++Act+PrfPrc:^WG%>i%>^N PRFPRC_OBL ;
++Act+PrsPrc+Sg+Nom:%>^V%>i%>v^A K ;
++Act+PrsPrc+Pl+Nom:%>^V%>i%>v^At K ;
++Pass+PrsPrc+Sg+Nom:^WG%>i%>tt^A%>v^A K ;
++Pass+PrsPrc+Pl+Nom:^WG%>i%>tt^A%>v^At K ;
++Act+Ind+Prs+ConNeg:%>^V K ;
 
-+V+Act+Cond+Sg1:%>i%>i7sin K ; ! jatkaisin, pölkkäisin
-+V+Act+Cond+Sg2:%>i7sit K ;
-+V+Act+Cond+Sg3:%>i7s K ;
-+V+Act+Cond+ConNeg:%>i7s K ;
-+V+Act+Cond+Pl1:%>i7simm^A K ;
-+V+Act+Cond+Pl2:%>i7sitt^A K ;
-+V+Act+Cond+Pl3:^WG%>tt^A%>i7s K ;
-+V+Pass+Cond:^WG%>i%>tt^A%>i7s K ;
++Act+Cond+Sg1:%>i%>i7sin K ; ! jatkaisin, pölkkäisin
++Act+Cond+Sg2:%>i7sit K ;
++Act+Cond+Sg3:%>i7s K ;
++Act+Cond+ConNeg:%>i7s K ;
++Act+Cond+Pl1:%>i7simm^A K ;
++Act+Cond+Pl2:%>i7sitt^A K ;
++Act+Cond+Pl3:^WG%>tt^A%>i7s K ;
++Pass+Cond:^WG%>i%>tt^A%>i7s K ;
 
-+V+Act+Imprt+Sg2:%>^V K   ;
-+V+Act+Imprt+Pl2:^WG%>kk^A^A K ;
++Act+Imprt+Sg2:%>^V K   ;
++Act+Imprt+Pl2:^WG%>kk^A^A K ;
 
-+V+Act+Inf3+Ine:%>^V%>m^Ass^A K ;
-+V+Act+Inf3+Ela:%>^V%>m^Ast^A K ;
-+V+Act+Inf3+Ill:%>^V%>mh^A^An K ;
-+V+Act+Inf3+Ade:%>^V%>m^All^A K ;
-+V+Act+Inf3+Abe:%>^V%>m^Att^A K ;
-+V+Act+Inf3:%>^V%>m^A MATON ;
-+V+Der+Der/minen:%>^V%>mi n_22_inen ;
++Act+Inf3+Ine:%>^V%>m^Ass^A K ;
++Act+Inf3+Ela:%>^V%>m^Ast^A K ;
++Act+Inf3+Ill:%>^V%>mh^A^An K ;
++Act+Inf3+Ade:%>^V%>m^All^A K ;
++Act+Inf3+Abe:%>^V%>m^Att^A K ;
++Act+Inf3:%>^V%>m^A MATON ;
++Der+Der/minen:%>^V%>mi n_22_inen ;
 
 !! ## Verbien persoonapäätteet
 
