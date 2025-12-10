@@ -118,8 +118,8 @@ LIST LEFT = LEFT ;	    #!! LEFT
 LIST RIGHT = RIGHT ;    #!! RIGHT
 LIST WEB = WEB ;	    #!! WEB
 LIST QMARK = """ ; # "  #!! QMARK
-LIST PPUNCT = PUNCT ;   #!! PPUNCT
-SET PUNCT = PPUNCT - QMARK ;  #!! PUNCT
+LIST PUNCT = PUNCT ;   #!! PPUNCT
+SET PUNCTSET = PUNCT - QMARK ;  #!! PUNCT
 
 LIST COMMA = "," ;  #!! COMMA
 LIST ¶ = ¶;   #!! ¶
@@ -359,11 +359,16 @@ SET NOT-COMMA = WORD - COMMA ;  #!! NOT-COMMA
 
 LIST ADVLCASE = Ill Loc Com Ess ; #!! ADLVCASE
 
-LIST CASE-AGREEMENT = Nom Acc Gen (Pl Ill) Loc Com Ess ; #!! CASE-AGREEMENT
-LIST CASE = Nom Acc Gen Ill Loc Com Ess ; #!! CASE
+LIST CASE-AGREEMENT = Nom Acc Gen Com Ess ; #!! CASE-AGREEMENT
+LIST CASE = Nom Acc Gen Ill Ine Ela All Ade Abl Com Ess ; #!! CASE
 
 SET NOT-NOM = CASE - Nom ; #!! NOT-NOM
 SET NOT-GEN = CASE - Gen ; #!! NOT-GEN
+
+SET SGNOM = (N Sg Nom) OR (Pron Sg3 Nom) OR (Dem Sg Nom);
+SET PLNOM = (N Pl Nom) OR (Pron Pl3 Nom) OR (Dem Pl Nom);
+
+LIST REL-ADV = ("mikä") ("joka") ("missä") ("mistä") ("mihin") ("jossa") ("josta") ("johon") ; #homonymous with relative pronouns
 
 
 #!! ### Verb sets
@@ -373,7 +378,7 @@ SET NOT-GEN = CASE - Gen ; #!! NOT-GEN
 # - - - - - - - - - - - - - -
 
 SET NOT-V = WORD - V ; #!! NOT-V
-LIST modalverb = "häyttyyt" "pittäät" ;
+LIST modalverb = "häyttyyt" "pittäät" "saattaat" ;
 
 #!! ### Sets for finiteness and mood
 # - - - - - - - - - -
@@ -484,10 +489,10 @@ SET NP-HEAD-GEN    = (Pron Gen) OR (N Gen) OR (A Gen) - Cmp/SplitR - (Dem Attr) 
 #!! expression **WORD - premodifiers**.
 
 
-SET PRE-NP-HEAD = (Prop Attr) OR (Prop @>N) OR (A Attr) OR (ABBR Attr)
+SET PRE-NP-HEAD = (Prop Attr) OR (Prop @>N) OR A OR ABBR
          OR (Pron Pers Gen) OR (N Gen) OR
-         Num OR Cmp/SplitR OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Indef Attr) OR
-         (PrfPrc @>N) OR PrsPrc OR (A Ord) ;
+         Num OR Cmp/SplitR OR CC OR (Pron Dem) OR (Pron Refl Gen) OR Indef OR
+         (PrfPrc @>N) OR PrsPrc ;
          # The strict version of items that can only be premodifiers, not parts of the predicate
 
 SET PRE-A-N     = (Pron Pers Gen) OR (Pron Pers Acc) OR (Pron Indef) OR Num OR (A Ord) OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Refl Acc) ;
@@ -551,8 +556,8 @@ SET CCCOMMA = CC OR COMMA ;
 
 #%#LIST &double-space-before = &double-space-before ;
 LIST &guillemets = &guillemets ;
-LIST &msyn-agr-other-pl3 = &msyn-agr-other-pl3 ;
-LIST &msyn-agr-other-sg1 = &msyn-agr-other-sg1 ;
+LIST &left-guillemet = &left-guillemet ;
+LIST &right-guillemet = &right-guillemet ;
 LIST &msyn-agr-pl3-sg3 = &msyn-agr-pl3-sg3 ;
 LIST &msyn-agr-pl3-pl1 = &msyn-agr-pl3-pl1 ;
 LIST &msyn-agr-prfprcsg-prfprcpl = &msyn-agr-prfprcsg-prfprcpl ;
@@ -597,7 +602,7 @@ SECTION
 	 # Sg1 SUBJ
 
 ADD:msyn-agr-sg3-sg1 &msyn-agr-sg3-sg1 TARGET (V Act Sg3) IF
-	(*-1 ("mie" Pron Pers Sg1 Nom) BARRIER (V Sg1));
+	(*-1 ("mie" Pron Pers Sg1 Nom) BARRIER (V Sg1) OR SGNOM);
 COPY:msyn-agr-sg3-sg1 (Sg1 SUGGEST) EXCEPT (Sg3) TARGET &msyn-agr-sg3-sg1;
 ADDRELATION:msyn-agr-sg3-sg1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg3-sg1));
 
@@ -607,6 +612,7 @@ ADDRELATION:msyn-agr-sg3-sg1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg3-sg1)
 ADD:xmsyn-agr-sg2-sg1 (&msyn-agr-sg2-sg1) TARGET V IF
 	(-1C Pron + Sg1 + Nom)
 	(0 V + Act + Ind + Sg2)
+	(NEGATE 0 ("nähđä") LINK *1 Sg1 BARRIER NOT-V)
 	;
 COPY:msyn-agr-sg2-sg1 (Sg1 &SUGGEST) EXCEPT (Sg2 &msyn-agr-sg2-sg1) TARGET (V Ind &msyn-agr-sg2-sg1);
 ADDRELATION:msyn-agr-sg2-sg1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg2-sg1));
@@ -614,35 +620,12 @@ ADDRELATION:msyn-agr-sg2-sg1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg2-sg1)
 #% Mie tulet.
 ## Mie tulen.
 
-#!! **Agreement rule:** msyn-agr-other-sg1, *Mun puátá/puáđám* ("other" is dangerous. Check!)
-ADD:xmsyn-agr-other-sg1 (&msyn-agr-other-sg1) TARGET V IF
-	(NOT -2 Sg1)
-	(NOT -2 CC LINK -1 Sg + Nom)
-	(-1C Pron + Sg1 + Nom)
-	(0 V + Act + Ind)
-	(NOT 0 Sg1)
-	(NOT 1 ("-") LINK 1 ("uv") LINK 1 V + Sg1)
-	(NOT 1 Adv LINK 1 V + Sg1);
-COPY:msyn-agr-other-sg1 (Sg1 &SUGGEST) EXCEPT (VNOTSG1 &msyn-agr-other-sg1) TARGET (V Ind Prt &msyn-agr-other-sg1);
-COPY:msyn-agr-other-sg1 (Sg1 &SUGGEST) EXCEPT (VNOTSG1 &msyn-agr-other-sg1) TARGET (V Ind Prs &msyn-agr-other-sg1);
-COPY:msyn-agr-other-sg1 (Ind Prt Sg1 &SUGGEST) EXCEPT (Actio Num &msyn-agr-other-sg1) TARGET (V  &msyn-agr-other-sg1);
-
-
-#!!  **Agreement rule:** msyn-agr-other-sg1
-ADD:xmsyn-agr-other-sg1 (&msyn-agr-other-sg1) TARGET V IF
-	(NOT -2 Sup OR Sg1)
-	(-1C Pron + Sg1 + Nom)
-	(-1 BOS OR PUNCT)
-	(0 V + Act + Ind)
-	(NOT 0 Sg1);
-COPY:msyn-agr-other-sg1 (Sg1 &SUGGEST) EXCEPT (VNOTSG1 &msyn-agr-other-sg1) TARGET (V Ind Prs &msyn-agr-other-sg1);
-
 
 #!! ### Should be Sg2
 
 #!!  **Agreement rule:** msyn-agr-sg3-sg2
 ADD:msyn-agr-sg3-sg2 &msyn-agr-sg3-sg2 TARGET (V Act Sg3) IF
-	(*-1 ("sie" Pron Pers Sg2 Nom) BARRIER (V Sg2));
+	(*-1 ("sie" Pron Pers Sg2 Nom) BARRIER (V Sg2) OR SGNOM);
 COPY:msyn-agr-sg3-sg2 (Sg2 SUGGEST) EXCEPT (Sg3) TARGET &msyn-agr-sg3-sg2;
 ADDRELATION:msyn-agr-sg3-sg2 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg3-sg2));
 
@@ -653,7 +636,6 @@ ADDRELATION:msyn-agr-sg3-sg2 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg3-sg2)
 
 #!! relative sentences between the noun and the finite verb
 	
-LIST REL-ADV = ("mikä") ("joka") ("missä") ("mistä") ("mihin") ("jossa") ("josta") ("johon") ; #homonymous with relative pronouns
 	
 ADD:msyn-agr-pl3-sg3 (&msyn-agr-pl3-sg3) TARGET (Act Ind Prt Pl3) IF
 	(*-1 Rel OR REL-ADV LINK *-1 (N Sg Nom) OR (Pron Nom Sg3) BARRIER NOT-COMMA)
@@ -679,82 +661,30 @@ ADDRELATION:msyn-agr-pl3-pl1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-pl3-pl1)
 #!! ### Should be Pl2
 #!! Not written, perhaps irrelevant.
 
-SET SGNOM = (N Sg Nom) OR (Pron Sg3 Nom) OR (Dem Sg Nom);
-SET PLNOM = (N Pl Nom) OR (Pron Pl3 Nom) OR (Dem Pl Nom);
 
 #!! ### Should be Pl3
     
 #!!  **Agreement rule:** msyn-agr-sg3-pl3)
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
 	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3) OR SGNOM)
-	(NOT 0 ("olla") OR Pl3);
+	(NEGATE *-1 Ine OR Ade BARRIER PLNOM LINK *1 SGNOM)
+	(NOT 0 ("olla") OR Pl3)
+	(NEGATE 0 TV LINK -1 PLNOM LINK -1 Adv OR ADVLCASE)
+	(NEGATE -1 CS OR ("ko") LINK 2 PLNOM)
+	(NOT *1 SGNOM BARRIER NOT-ADV)
+	(NEGATE -1 PLNOM LINK *1 Inf BARRIER N OR Pron);
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
-	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3))
+	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3) OR SGNOM)
 	(0 ("olla"))
+	(NEGATE *-1 Ine OR Ade BARRIER PLNOM LINK *1 SGNOM)
+	(NEGATE *1 SGNOM BARRIER NOT-ADV)
+	(NEGATE -1 CS OR ("ko") LINK 2 PLNOM)
 	(NOT 1 (Pass PrfPrc));
 COPY:msyn-agr-sg3-pl3 (Pl3 SUGGEST) EXCEPT (Sg3) TARGET &msyn-agr-sg3-pl3;
 ADDRELATION:msyn-agr-sg3-pl3 ($2) (Pron Sg3) TO (*1 V LINK 0 (&msyn-agr-sg3-pl3));
 
 #$ Net tullee
 #% Net tulhaan
-
-
-#!!  **Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
-ADD:xmsyn-agr-prsptc-pl3 (&msyn-agr-prsptc-pl3) TARGET V IF
-	(*-1C PLNOM  BARRIER NOT-ADV-PCLE OR VFIN OR CC OR CLB OR PUNCT)
-	(0C V + Act + PrsPrc + Pl + Nom)
-	(NOT 1 SGNOM);
-COPY:msyn-agr-other-pl3 (Ind Prs Pl3 &SUGGEST) EXCEPT (PrsPrc Pl Nom  &msyn-agr-prsptc-pl3) TARGET (V &msyn-agr-prsptc-pl3);
-#% Ne saavat
-#$ Ne saađhaan
-
-
-#!!  **Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
-ADD:xmsyn-agr-other-pl3 (&msyn-agr-other-pl3) TARGET V IF
-	(NOT -2 Sup OR Sg3)
-	(*-1C PLNOM BARRIER NOT-ADV-PCLE OR VFIN OR CC OR CLB OR PUNCT)
-	(0C V + Ind + Sg3)
-	(NOT 0 Pl3)
-	(NOT 1 SGNOM);
-COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (VNOTPL3 &msyn-agr-other-pl3) TARGET (V Ind Prs &msyn-agr-other-pl3);
-COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (VNOTPL3 &msyn-agr-other-pl3) TARGET (V Ind Prt &msyn-agr-other-pl3);
-#fi Ne tullee.
-#% Toh puátá.
-#$ Toh puátih.
-
-
-#!!  **Agreement rule:** msyn-agr-other-pl3
-ADD:xmsyn-agr-other-pl3 (&msyn-agr-other-pl3) TARGET V IF 
-	(*-1 N + Pl + Nom BARRIER NOT-NPMODADV OR CC OR CLB OR PUNCT LINK NOT 0 ABBR)
-	(NEGATE *-1 ("čuovâ" N Pl Nom) LINK 1 ("alne"))
-	(0C V + Ind + Sg3 OR V + Cond + Sg3)
-	(NOT 0 Pl3)
-	(NOT 1 Sg + Nom OR Pron + Sg3 + Nom);
-
-#!!  **Agreement rule:** msyn-agr-other-pl3
-ADD:xmsyn-agr-other-pl3 (&msyn-agr-other-pl3) TARGET V IF 
- (NOT -2 Sup OR Sg3)
- (NOT *-1C Pron + Nom OR Dem + Nom OR N + Nom BARRIER NOT-ADV-PCLE)
- (0C V + Ind + Sg3 OR V + Cond + Sg3)
- (NOT 0 Pl3)
- (*1 N + Pl + Nom BARRIER NOT-NPMODADV - (A Pl Nom) - Ill  LINK NOT 0 ABBR LINK NOT 1 Pl3);
-
-COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (Sg3 &msyn-agr-other-pl3) TARGET (V Prs &msyn-agr-other-pl3);
-COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (Sg3 &msyn-agr-other-pl3) TARGET (V Prt &msyn-agr-other-pl3);
-COPY:msyn-agr-other-pl3 (Pl3 Foc/ge &SUGGEST) EXCEPT (Sg3 Foc/ge &msyn-agr-other-pl3) TARGET (V Neg Ind &msyn-agr-other-pl3); # Neg
-COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (Sg3 &msyn-agr-other-pl3) TARGET (V Ind &msyn-agr-other-pl3); # Neg
-ADDRELATION:msyn-agr-other-pl3 ($2) (N Pl Nom) FROM (-1 V LINK 0 (&msyn-agr-other-pl3));
-ADDRELATION:msyn-agr-other-pl3 ($2) (N Pl Nom) FROM (-2 V LINK 0 (&msyn-agr-other-pl3));
-	
-#% Viäsust juáhhoo juávhoid tagareh almoneh, moh kovvejeh ääši.
-#$ Viäsust juáhhojeh juávhoid tagareh almoneh, moh kovvejeh ääši.
-
-#% Viäsust juáhhoo tagareh almoneh, moh kovvejeh ääši.
-#$ Viäsust juáhhojeh tagareh almoneh, moh kovvejeh ääši.
-
-
-
-
 
 
 
@@ -776,11 +706,14 @@ ADDRELATION:msyn-agr-prfprcsg-prfprcpl ($2) V + Act + Ind FROM (*1 V  LINK 0 (&m
 
 
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Prt Sg3) IF
-	(*-1 Rel OR REL-ADV BARRIER (N Sg Nom) OR (Pton Sg3 Nom) OR (Dem Sg Nom) LINK *-1 (N Pl Nom) OR (Pron Nom Pl3) BARRIER NOT-COMMA)
+	(*-1 Rel OR REL-ADV BARRIER SGNOM OR Ade LINK *-1 PLNOM BARRIER NOT-COMMA)
+	(NEGATE *1 SGNOM BARRIER NOT-NPMOD)
 	(NEGATE 0 (PrfPrc Sg) OR (ConNeg Sg))
 	(NOT 0 CC) # eli
 	;
-	## 
+## Vaivat mitä heilä ittelä oli ollu
+
+
 
 COPY:msyn-agr-sg3-pl3 (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Ind Sg3 &msyn-agr-sg3-pl3);
 
@@ -788,14 +721,20 @@ COPY:msyn-agr-sg3-pl3 (Pl3 &SUGGEST) EXCEPT Sg3 TARGET (V Ind Sg3 &msyn-agr-sg3-
 
 LIST speechverb = "bkuulattaat" "puhela" "sannoot" "vastata" "mutista" "sanostaat" "ajatella" "hunteerata" "luula" "huuttaat" "huuđastaat" "huuđela" "karjuut" "kiljaista" "kuiskata" "viskutella" "viskuttaat" "muistela" "muistutella" "luvata" ;
 
+LIST @X = @X ;
 
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
-	(*-1 (Pers Pl3 Nom) OR (N Pl Nom) OR (Dem Pl Nom)
-	    BARRIER (V Pl3) OR (Sg Nom) OR (Sg3 Nom) OR S-BOUNDARY LINK NEGATE -1 CC LINK -1 (N Nom))
-	(NEGATE 0 (Act Ind Pl3))
+	(*-1 PLNOM
+	    BARRIER (V Pl3) OR (Sg Nom) OR (Sg3 Nom) OR ("mikä") OR S-BOUNDARY LINK NEGATE -1 V OR @X)
+	(NEGATE *-1 Ine OR Ade BARRIER PLNOM LINK *1 SGNOM)
+	(NEGATE 0 (Act Ind Pl3) OR N)
+	(NEGATE *-1 PLNOM LINK *-1 V BARRIER NOT-NPMOD)
+	(NEGATE -1 CC LINK *-1 SGNOM BARRIER S-BOUNDARY)
+	(NEGATE *1 SGNOM BARRIER NOT-ADV)
 	(NEGATE -1 Ade LINK 2 Nom)
+	(NEGATE -1 CS OR ("ko") LINK 2 PLNOM)
 	(NEGATE *1 (Pass PrfPrc) BARRIER NOT-ADV)
-	(NEGATE 0 modalverb LINK 1 Inf)
+	(NEGATE 0 modalverb LINK *1 Inf BARRIER NOT-ADV)
 	(NEGATE 0 speechverb LINK -1 ("”" PUNCT RIGHT) OR ("»" PUNCT RIGHT) LINK 2 (N Sg Nom))
 	(NEGATE -1 (N Pl Nom) LINK 2 (N Sg Nom))
 	(NOT 0 CC) # eli
@@ -807,6 +746,7 @@ ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (Act Ind Sg3) IF
 	(*-1 (N Pl Nom) BARRIER (V Pl3) OR (N Sg Nom) OR S-BOUNDARY LINK -1 CC OR COMMA LINK -1 (N Nom))
 	(NEGATE 0 (Act Ind Pl3))
+	(NEGATE *1 SGNOM BARRIER V OR CS)
 	(0C V)
 	(NOT 0 CC) # eli
 	;
@@ -882,10 +822,15 @@ COPY:attr-not-pred (Attr &SUGGEST) EXCEPT (Sg) TARGET (&attr-not-pred) ;
 
 #!! ### Punctuation marks
 
+
+ADD:left-guillemet (&left-guillemet) TARGET (""") IF (*1 ("""));
+COPY:left-guillemet ("«" PUNCT LEFT &SUGGEST) EXCEPT  (""" PUNCT)  TARGET (&left-guillemet) ;
+
+ADD:right-guillemet (&right-guillemet) TARGET (""") IF (*-1 (""") OR (PUNCT LEFT));
+COPY:right-guillemet ("»" PUNCT RIGHT &SUGGEST) EXCEPT (""" PUNCT) TARGET (&right-guillemet) ;
+
 # Simple punctuation rules showing how to change the lemma in the suggestions:
 ADD:use-guillemets (&guillemets) TARGET (""");
-COPY:left-guillemet ("«" &SUGGEST) EXCEPT (""") TARGET (&guillemets) ;
-COPY:right-guillemet ("»" &SUGGEST) EXCEPT (""") TARGET (&guillemets) ;
 
 ADD:use-ellipsis (&ellipsis) TARGET ("...");
 COPY:use-ellipsis ("…" &SUGGEST) EXCEPT ("...") TARGET (&ellipsis) ;
@@ -899,5 +844,58 @@ COPY:use-ellipsis ("…" &SUGGEST) EXCEPT ("...") TARGET (&ellipsis) ;
 #%#ADD (&space-after-paren-beg)   (<spaceAfterParenBeg>);
 #%#ADD (&space-before-paren-end)  (<spaceBeforeParenEnd>);
 #%#ADD (&space-before-punct-mark) (<SpaceBeforePunctMark>);
+
+
+
+
+
+# Old rules to be looked at:
+
+
+
+#!!  **Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+#ADD:xmsyn-agr-prsptc-pl3 (&msyn-agr-prsptc-pl3) TARGET V IF
+#	(*-1C PLNOM  BARRIER NOT-ADV-PCLE OR VFIN OR CC OR CLB OR PUNCT)
+#	(0C V + Act + PrsPrc + Pl + Nom)
+#	(NOT 1 SGNOM);
+#COPY:msyn-agr-other-pl3 (Ind Prs Pl3 &SUGGEST) EXCEPT (PrsPrc Pl Nom  &msyn-agr-prsptc-pl3) TARGET (V &msyn-agr-prsptc-pl3);
+#% Ne saavat
+#$ Ne saađhaan
+
+
+
+
+#!!  **Agreement rule:** msyn-agr-other-pl3
+#ADD:xmsyn-agr-other-pl3 (&msyn-agr-other-pl3) TARGET V IF 
+#	(*-1 N + Pl + Nom BARRIER NOT-NPMODADV OR CC OR CLB OR PUNCT LINK NOT 0 ABBR)
+#	(NEGATE *-1 ("čuovâ" N Pl Nom) LINK 1 ("alne"))
+#	(0C V + Ind + Sg3 OR V + Cond + Sg3)
+#	(NOT 0 Pl3)
+#	(NOT 1 Sg + Nom OR Pron + Sg3 + Nom);
+
+#!!  **Agreement rule:** msyn-agr-other-pl3
+#ADD:xmsyn-agr-other-pl3 (&msyn-agr-other-pl3) TARGET V IF 
+# (NOT -2 Sup OR Sg3)
+# (NOT *-1C Pron + Nom OR Dem + Nom OR N + Nom BARRIER NOT-ADV-PCLE)
+# (0C V + Ind + Sg3 OR V + Cond + Sg3)
+# (NOT 0 Pl3)
+# (*1 N + Pl + Nom BARRIER NOT-NPMODADV - (A Pl Nom) - Ill  LINK NOT 0 ABBR LINK NOT 1 Pl3);
+
+#COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (Sg3 &msyn-agr-other-pl3) TARGET (V Prs &msyn-agr-other-pl3);
+#COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (Sg3 &msyn-agr-other-pl3) TARGET (V Prt &msyn-agr-other-pl3);
+#COPY:msyn-agr-other-pl3 (Pl3 Foc/ge &SUGGEST) EXCEPT (Sg3 Foc/ge &msyn-agr-other-pl3) TARGET (V Neg Ind &msyn-agr-other-pl3); # Neg
+#COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (Sg3 &msyn-agr-other-pl3) TARGET (V Ind &msyn-agr-other-pl3); # Neg
+#ADDRELATION:msyn-agr-other-pl3 ($2) (N Pl Nom) FROM (-1 V LINK 0 (&msyn-agr-other-pl3));
+#ADDRELATION:msyn-agr-other-pl3 ($2) (N Pl Nom) FROM (-2 V LINK 0 (&msyn-agr-other-pl3));
+	
+#% Viäsust juáhhoo juávhoid tagareh almoneh, moh kovvejeh ääši.
+#$ Viäsust juáhhojeh juávhoid tagareh almoneh, moh kovvejeh ääši.
+
+#% Viäsust juáhhoo tagareh almoneh, moh kovvejeh ääši.
+#$ Viäsust juáhhojeh tagareh almoneh, moh kovvejeh ääši.
+
+
+
+
 
 
