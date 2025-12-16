@@ -1449,8 +1449,10 @@ Vx:e <=>  [.#.|#:] Cns:* Vow: (Vow:) Cns:* _ (%^WG:0) %> m m %^A: (%>) ;
 !! Rule: **@RULENAME@**
 ! 1. "Shortening of long vowel in front of i"
 ! 2. "Stem deletion in h-illative"
+! 3. superlative
  ä:0 <=>       Cns:+ _ (%^WG:) (%^AO:) %> i3: ; ! lenttäät:lensin
         Cns:+ (:Cns) _ (Dial:) (%^WG:) (%^A0:) %> i2: ; ! häntä:hänttiin, pykälä:pykälissä
+                     _ %> ([Dummy: - %^AE:]) i5: ; ! 3.
                      _ ä %> ([Dummy: - %^AE:]) [ i | i2: | i3: | i4:] ; ! 1.
             ä _ %^VDEL:0  (Dummy:) %> [s|t] ;
   :SurfaceCns _ (%^E2I:) %^HMETA: %> h [:ä|i:] ; 
