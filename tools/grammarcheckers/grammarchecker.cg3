@@ -625,7 +625,10 @@ ADDRELATION:msyn-agr-sg2-sg1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg2-sg1)
 
 #!!  **Agreement rule:** msyn-agr-sg3-sg2
 ADD:msyn-agr-sg3-sg2 &msyn-agr-sg3-sg2 TARGET (V Act Sg3) IF
-	(*-1 ("sie" Pron Pers Sg2 Nom) BARRIER (V Sg2) OR SGNOM);
+	(*-1 ("sie" Pron Pers Sg2 Nom) BARRIER (V Sg2) OR SGNOM)
+	(NEGATE *-1 COMMA BARRIER (V Act Sg2) LINK *-1 ("joka"))
+	(NEGATE 1 SGNOM LINK *-1 Ade BARRIER ("sie" Pron Pers Sg2 Nom))
+	;
 COPY:msyn-agr-sg3-sg2 (Sg2 SUGGEST) EXCEPT (Sg3) TARGET &msyn-agr-sg3-sg2;
 ADDRELATION:msyn-agr-sg3-sg2 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg3-sg2));
 
@@ -649,9 +652,9 @@ COPY:msyn-agr-pl3-sg3 (Sg3 &SUGGEST) EXCEPT Pl3 TARGET (V Ind Pl3 &msyn-agr-pl3-
 
 #!!  **Agreement rule:** msyn-agr-sg3-pl3)
 ADD:msyn-agr-pl3-pl1 (&msyn-agr-pl3-pl1) TARGET (V Act Pl3) IF
-	(*-1 ("sie" Pron Pers Sg2 Nom) BARRIER (V Sg2));
+	(*-1 ("met" Pron Pers Pl1 Nom) BARRIER (V Pl1));
 COPY:msyn-agr-pl3-pl1 (Pl1 SUGGEST) EXCEPT (Pl3) TARGET &msyn-agr-pl3-pl1;
-ADDRELATION:msyn-agr-pl3-pl1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-pl3-pl1));
+ADDRELATION:msyn-agr-pl3-pl1 ($2) (Pron Pl1) TO (*1 V LINK 0 (&msyn-agr-pl3-pl1));
 
 #$ Met tulhaan
 #% Met tulema
@@ -693,7 +696,7 @@ ADDRELATION:msyn-agr-sg3-pl3 ($2) (Pron Sg3) TO (*1 V LINK 0 (&msyn-agr-sg3-pl3)
 
 
 ADD:msyn-agr-prfprcsg-prfprcpl (&msyn-agr-prfprcsg-prfprcpl) TARGET (V Act PrfPrc Sg Nom) IF
-	(*-1 ("olla" V Act Ind Prs) BARRIER S-BOUNDARY LINK 0 Pl1 OR Pl2 OR Pl3 LINK NOT 0 Sg3)
+	(*-1 ("olla" V Act Ind Prs) BARRIER (V Sg3) OR S-BOUNDARY LINK 0 Pl1 OR Pl2 OR Pl3 LINK NOT 0 Sg3)
 	(NEGATE 0 (PrfPrc Pl) OR (ConNeg Pl));
 COPY:msyn-agr-prfprcsg-prfprcpl (Pl Nom &SUGGEST) EXCEPT (Sg Nom &msyn-agr-prfprcsg-prfprcpl) TARGET (V Act PrfPrc Sg Nom &msyn-agr-prfprcsg-prfprcpl);
 ADDRELATION:msyn-agr-prfprcsg-prfprcpl ($2) V + Act + Ind FROM (*1 V  LINK 0 (&msyn-agr-prfprcsg-prfprcpl));
