@@ -1030,7 +1030,9 @@ REMOVE:PassNotPl3Rel Pl3 IF (-1 Rel + Gen);
 REMOVE:NotImprtIfLeft Imprt IF (-1 Rel OR Interr OR A OR N OR Ind);
 	
 #!! * **Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
-SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ;
+SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF
+	(0 ("olla"))
+	((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE) LINK NOT 0 PxPl3 OR PxSg3) ;
   #$ Nämät käskyt mikkä mie tääpänä annan sinule
   #$ Kekkä oon nämät jokka oon sinun myötä?
   #$ Kaikki muut jokka oon tulheet ennen minuu
