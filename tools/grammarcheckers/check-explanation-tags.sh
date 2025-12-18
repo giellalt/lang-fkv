@@ -15,7 +15,7 @@ echo "List grammarchecker tags from json file and save xxj\n"
  cat errors.json |grep '"id"'|cut -d'"' -f4|sort > xxj
 
 echo "List grammarchecker tags from xml file and save xxx\n"
-cat errors.xml | grep "error id"|cut -d'"' -f2|sort > xxx
+cat errors.source.xml | grep "error id"|cut -d'"' -f2|sort > xxx
 
 echo "Grammarchecker tags missing in native ftl file (empty line if all tags are declared):\n"
  comm -23 xxg xxn
@@ -29,7 +29,7 @@ echo "Grammarchecker tags missing in the file errors.json (empty line if all tag
  comm -23 xxg xxj
 echo "\n"
 
-echo "Grammarchecker tags missing in the file errors.xml (empty line if all tags are declared):\n"
+echo "Grammarchecker tags missing in the file errors.source.xml (empty line if all tags are declared):\n"
  comm -23 xxg xxx
 echo "\n"
 
