@@ -708,6 +708,8 @@ the same affix in sg and pl
 
 LEXICON n_32_nu !   oppinu
 
+LEXICON n_11_urku !  urku:urvun
+
 LEXICON n_21_odd_i_poengi !  poengi-poengissa-poengiissa
 
 LEXICON n_21_odd_i_nyansi !  nyansi-nyansissa-nyansiissa
