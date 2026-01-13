@@ -1749,6 +1749,7 @@ kilppaila+V:kilpp2ail v3_ele_odd ;
 shoppaila+V:shopp2ail v3_ele_odd ;
 ihhaila+V:ihhail v3_ele_odd ;
 seilaila+V:seilail v3_ele_odd ;
+temppuila+V:temppuil v3_ele_odd ;
 tuhlaila+V:tuhlail v3_ele_odd ;
 tikkaila+V:tikk2ail v3_ele_odd ;
 tieraila+V:tierail v3_ele_odd ;
@@ -2886,7 +2887,6 @@ employeerata+V:employeera v43 ; ! nowac
 juryeerata+V:juryeera v43 ; ! nowac
 justeerata+V:justeera v43 ;
 modifiseerata+V:modifiseera v43 ;
-siitä+V:siki v43 ;
 
 !! huokata+V:huokka v43_odd ;
 !! puheta+V:puhke v43_odd ;
@@ -2929,6 +2929,9 @@ puijata+V:puija v43_odd ;
 nojata+V:noja v43_odd ;
 korjata+V:korja v43_odd ;
 maata+V:maka v43_odd ;
+siitä+V:siki v43_odd ;
+tempata:temppa v43_odd ;
+triksata+V:triksa v43_odd ;
 uhata+V:uhka v43_odd ;
 kaakata+V:kaakka v43_odd ;
 prosmata+V:prosma v43_odd ;
