@@ -156,6 +156,8 @@ LEXICON n_12_hi          lohi, tuohi, riihi
 
 LEXICON n_12_mi        lumi lu
 
+LEXICON n_12_niemi        niemi nie
+
 LEXICON n_12_si         käsi, hirsi
 
 LEXICON n_12_vuosi       vuosi, vuona 
