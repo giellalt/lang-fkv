@@ -1532,6 +1532,31 @@ LEXICON x_12_mi
   +Pl:me%>i2       ess_nA          ;
   +Pl:m%>i2        com_ne          ; ! kanskje me
   +Pl:m^WG%>i2     sgpl_cases_even ; ! the same affix in sg and pl
+  
+LEXICON n_12_niemi       !!= @CODE@ niemi nie
++N:   x_12_niemi ;
++N+Sg:mi nom_R       ; ! ^EI e to i
+
+LEXICON x_12_niemi
+  +Sg:mi           nom_end         ; ! ^EI e to i
+  +Sg:me^WG        gen_n_sg        ;
+  +Sg:n            par_tA          ;
+  +Sg:me           par_V          ;
+  +Sg:me^HMETA     ill_hVVn        ; ! e is for vowel copying, then e:0
+  +Sg:me           ess_nA          ;
+  +Sg:me^WG        sgpl_cases_even ; ! these two lexica for cases with
+
+  +Pl:me^WG        nom_t           ;
+  +Pl+Dial/Por:me%>i2       gen_Vn          ; ! lumiin
+  +Pl+Dial/Jok:m%>i2        gen_tten        ; ! lumitten
+  +Pl+Dial/Var:m%>i2        gen_tten        ; ! lumitten
+  +Pl+Dial/Por:me%>i2       par_V           ; ! lumii
+  +Pl+Dial/Jok:me%>i2       par_A           ; ! lumia
+  +Pl+Dial/Var:me%>i2       par_A           ; ! lumia
+  +Pl:m^EDEL       ill_hiin        ;
+  +Pl:me%>i2       ess_nA          ;
+  +Pl:m%>i2        com_ne          ; ! kanskje me
+  +Pl:m^WG%>i2     sgpl_cases_even ; ! the same affix in sg and pl
 
 
 LEXICON n_12_si        !!= @CODE@ käsi, hirsi
