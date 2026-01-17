@@ -1,12 +1,12 @@
 build:
   analysers: true
   spellers: true
-  grammar-checkers: false
+  grammar-checkers: true
   tts-textproc: false
   hyphenators: false
 check:
   analysers: true
   spellers: true
-  grammar-checkers: false
+  grammar-checkers: true
   tts-textproc: false
   hyphenators: false
