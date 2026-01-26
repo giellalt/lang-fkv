@@ -57,6 +57,7 @@ and in a Kven spellchecker.
 * [A list of morphological tags](/lang/common/MorphologicalTags.html)
 * [Puuttuvien sanojen nouto](PuuttuvienSanojenNouto.html)
 * [Missing-listojen luominen](MissingLists.html)
+* [Thomaan muistiinpanot](Thomaan_muistiinpanot-1.pdf)
 * [Eirasta kommentit (2013): Adposiittit](adposiittit.txt)
 * [Eirasta (2019): kurkkio-kurkkii](kurkkio-kurkkii.txt) 
 * [Sanakirjat](/dicts/fkvdict/KvenDictionaries.html)  ◊
