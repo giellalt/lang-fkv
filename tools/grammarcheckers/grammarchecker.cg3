@@ -671,7 +671,7 @@ ADDRELATION:msyn-agr-pl3-pl1 ($2) (Pron Pl1) TO (*1 V LINK 0 (&msyn-agr-pl3-pl1)
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
 	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3) OR SGNOM)
 	(NEGATE *-1 Ine OR Ade BARRIER PLNOM LINK *1 SGNOM)
-	(NOT 0 ("olla") OR Pl3)
+	(NOT 0 ("olla") OR Pl3 OR ConNeg)
 	(NEGATE 0 TV LINK -1 PLNOM LINK -1 Adv OR ADVLCASE)
 	(NEGATE -1 CS OR ("ko") LINK 2 PLNOM)
 	(NOT *1 SGNOM BARRIER NOT-ADV)
@@ -679,6 +679,7 @@ ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
 	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3) OR SGNOM)
 	(0 ("olla"))
+	(NOT 0 ConNeg)
 	(NEGATE *-1 Ine OR Ade BARRIER PLNOM LINK *1 SGNOM)
 	(NEGATE *1 SGNOM BARRIER NOT-ADV)
 	(NEGATE -1 CS OR ("ko") LINK 2 PLNOM)
