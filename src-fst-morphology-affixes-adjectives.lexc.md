@@ -45,6 +45,8 @@ long_par        ;
 
 * LEXICON a_32_as  raskas
 
+* LEXICON a_32_aes  raskas
+
 * LEXICON a_32_vaka  raskas
 
 * LEXICON a_32_paras  vain sannaa paras varten
