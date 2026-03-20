@@ -132,6 +132,10 @@ LEXICON n_11_E2I_pl         sakset, hykset
 
 * LEXICON n_31_ii          for same affix in sg and pl
 
+* LEXICON n_31_ii_pl          assiit (in Por) kurkkiit (in Por)
+
+* LEXICON n_31_ii_pl          for same affix in sg and pl
+
 * LEXICON n_31_uu          karhuu (in Por) 
 
 * LEXICON n_31_uu          for same affix in sg and pl
