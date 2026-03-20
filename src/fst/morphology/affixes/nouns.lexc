@@ -1410,6 +1410,31 @@ LEXICON x_31_io ! kurkkiota
   +Pl:^WG^AO%>i2         sgpl_cases_even ; 
 
 
+
+LEXICON n_31_ii_pl        !!= * @CODE@  assiit (in Por) kurkkiit (in Por)
++N+Dial/Por:i          x_31_ii_pl             ;
++N+Dial/Jok:           x_31_oi_pl             ; ! TODO skriv dyp kommentar her
++N+Dial/Var:           x_31_oi_pl             ; ! TODO skriv dyp kommentar her
+
+LEXICON x_31_ii_pl
+  +Pl:            nom_t               ;
+  +Pl:            gen_tten            ;
+  +Pl:            par_tA              ;
+  +Pl:            ill_ssiin           ;
+  +Pl:            ess_nA              ;
+  +Pl:            com_ne              ;
+  +Pl:            sgpl_cases_even     ; !! * @CODE@  for same affix in sg and pl
+  
+LEXICON x_31_oi_pl 
+  +Pl:^WG                nom_t           ;
+  +Pl:^WG^AO             gen_tten        ;
+  +Pl:^WG^AO             par_tA          ;
+  +Pl:^HMETA             ill_hVin        ;
+  +Pl:^WG^AO%>i2         ess_nA          ; 
+  +Pl:^WG^AO%>i2         com_ne          ; 
+  +Pl:^WG^AO%>i2         sgpl_cases_even ; 
+
+
   
 LEXICON n_31_uu        !!= * @CODE@  karhuu (in Por) 
 +N+Dial/Por:           x_31_uu             ;
