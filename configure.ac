@@ -130,7 +130,7 @@ AM_CONDITIONAL([HAVE_DIALECTS], [test "x$DIALECTS" != "x"])
 # Specify whether spellers and other proofing tools for dialects should be built,
 # the default is NOT to build them. Change the value below from 'false' to 'true'
 # if such spellers ARE wanted.
-AM_CONDITIONAL([WANT_DIALECT_PROOFTOOLS], [ false ])
+AM_CONDITIONAL([WANT_DIALECT_PROOFTOOLS], [ true ])
 
 ########## LANGUAGE SPECIFIC _BUILD_ SETTINGS ##########
 
