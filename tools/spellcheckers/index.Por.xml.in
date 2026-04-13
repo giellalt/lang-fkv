@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
-    <locale>@GLANG2@</locale>
-    <title>@SPELLER_NAME_ENG@</title>
-    <description>@SPELLER_DESC_ENG@.</description>
+    <locale>@GLANG2@-x-Por</locale>
+    <title>@SPELLER_NAME_ENG@, Porsanger (Børselv)</title>
+    <description>@SPELLER_DESC_ENG@. This variant covers only the Porsanger (Børselv) dialect.</description>
     <version>@SPELLERVERSION@</version>
     <date>DATE</date>
     <producer>Giellatekno/Divvun/UiT contributors</producer>
     <contact email="feedback@divvun.no" website="http://divvun.no"/>
   </info>
-  <acceptor type="general" id="acceptor.default.hfst">
+  <acceptor type="general" id="acceptor.Por.hfst">
     <title>@GLANGUAGE@ speller lexicon</title>
     <description>@GLANGUAGE@ speller lexicon compiled with HFST.</description>
   </acceptor>
-  <errmodel id="errmodel.default.hfst">
+  <errmodel id="errmodel.Por.hfst">
     <title>@GLANGUAGE@ error model</title>
     <description>Error model for @GLANGUAGE@.</description>
         <type type="default"/>
-        <model>errormodel.default.hfst</model>
+        <model>errormodel.Por.hfst</model>
     </errmodel>
 </hfstspeller>
