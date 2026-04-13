@@ -67,4 +67,10 @@ FINAL_STRING_EDITS=txt
 # - no
 WORD_REPLACEMENTS=yes
 
+.generated/errmodel.Jok.hfst  \
+.generated/errmodel.Por.hfst  \
+.generated/errmodel.Var.hfst: \
+.generated/errmodel.%.hfst: .generated/errmodel.default.hfst
+	$(AM_V_CP)cp $< $@
+
 # vim: set ft=automake:
