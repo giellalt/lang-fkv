@@ -215,6 +215,10 @@ gt_CONFIG_FILES
 ##### BEGIN: Add language-specific list of files to ######
 ########## be processed by autoconf below here: ##########
 
+AC_CONFIG_FILES([tools/spellcheckers/index.Jok.xml \
+                 tools/spellcheckers/index.Por.xml \
+                 tools/spellcheckers/index.Var.xml])
+
 ############ END: Language-specific scripts. #############
 
 # This must be near the end of all configure.ac files:
