@@ -9,14 +9,14 @@
     <producer>Giellatekno/Divvun/UiT contributors</producer>
     <contact email="feedback@divvun.no" website="http://divvun.no"/>
   </info>
-  <acceptor type="general" id="acceptor.Por.hfst">
+  <acceptor type="general" id="acceptor.default.hfst">
     <title>@GLANGUAGE@ speller lexicon</title>
     <description>@GLANGUAGE@ speller lexicon compiled with HFST.</description>
   </acceptor>
-  <errmodel id="errmodel.Por.hfst">
+  <errmodel id="errmodel.default.hfst">
     <title>@GLANGUAGE@ error model</title>
     <description>Error model for @GLANGUAGE@.</description>
         <type type="default"/>
-        <model>errormodel.Por.hfst</model>
+        <model>errormodel.default.hfst</model>
     </errmodel>
 </hfstspeller>
