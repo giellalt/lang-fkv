@@ -71,7 +71,7 @@ muuttumaton:muuttuma a_22_ton_even ; ! TODO Double check the 2.2 chapter number 
 ! vanha_a_23 -> a_31_ee
 valkkee:valkke a_31_ee ; !!= * @CODE@
 selkkee:selkke a_31_ee ;
-kauhhee:kauhe a_31_ee ;
+kauhee:kauhe a_31_ee ;
 karkkee:karkke a_31_ee ; ! TODO TODO TODO check these, valkkee etc. confusion
 makkee:makke a_31_ee ; ! TODO TODO TODO check these, valkkee etc. confusion
 auttii:autt2ii a_31_ii ; !!= * @CODE@
@@ -99,8 +99,8 @@ kärys:kär a_32_kärys ;
 
 irtain:irt2ai vanha_a_32m ;
 avvoin:avvoi vanha_a_32m ;
-auttiin:auttii vanha_a_32m ;
-likkiin:likkii vanha_a_32m ;
+auttiin:autt2ii vanha_a_32m ;
+likkiin:likk2ii vanha_a_32m ;
 likkiin+Err/Orth:likhii vanha_a_32m ;
 
 
@@ -290,8 +290,8 @@ märkä a_11_ae ;
 höllä:höllä a_11_ae ;
 pitkä a_11_ae ;
 tyhmä a_11_ae ;
+jääkylmä:jää#kylmä a_11_ae ;
 kylmä a_11_ae ;
-jää#kylmä a_11_ae ;
 sanaseppä:sana#seppä a_11_ae ;
 seppä a_11_ae ;
 näpperä a_21_odd_ae ;
@@ -1372,7 +1372,7 @@ kattottu a_21_odd_u ;
 vasittu a_21_odd_u ;
 voitettu:voitettu a_21_odd_u ;
 kotonakuđottu:kotona#kuđottu a_21_odd_u ;
-kotonakuottu+Err/Orth:kotona#kuottu a_21_odd_u ;
+kotonakuđottu+Err/Orth:kotona#kuottu a_21_odd_u ;
 mettäpeitetty:mettä#peitetty a_21_odd_u ;
 niinkäsketty:niin#käsketty a_21_odd_u ;
 kylmetty a_21_odd_u ;
@@ -1523,7 +1523,7 @@ etnomatemaattinen:etnomatemaatti a_22_inen_odd ;
 problemaattinen:problemaatti a_22_inen_odd ;
 meteorolooginen:meteoroloogi a_22_inen_odd ;
 mallinen:malli a_22_inen_odd ;
-myrskyinen:myrkyi a_22_inen_odd ;
+myrskyinen:myrskyi a_22_inen_odd ;
 myyttinen:myytti a_22_inen_odd ;
 viimainen:viimai a_22_inen_odd ;
 erityyppinen:eri#tyyppi a_22_inen_odd ;
@@ -1555,7 +1555,7 @@ vihelijäinen:vihelijäi a_22_inen_odd ;
 vastakohtainen:vastakohtai a_22_inen_odd ;
 nälkhäinen:nälkhäi a_22_inen_odd ;
 nälkäinen:nälkäi a_22_inen_odd ;
-ylhäinen:ylähi a_22_inen_odd ;
+ylhäinen:ylhäi a_22_inen_odd ;
 samanaikhanen:samanaikha a_22_inen_odd ;
 uuđenaikhanen:uuđenaikha a_22_inen_odd ;
 nykyaikhanen:nykyaikha a_22_inen_odd ;
@@ -2254,7 +2254,7 @@ tivis:tiv a_32_is ;
 ahnet:ahn a_32_et ;
 kađet:kat a_32_et ;
 tiinet:tiin a_32_et ;
-pysthöökuolu:pysthöön#kuol a_32_u ;
+pysthöönkuolu:pysthöön#kuol a_32_u ;
 kuolu:kuol a_32_u ;
 kuolu+Err/Orth:kuollut K ;
 tervettullu:tervet#tul a_32_llu ;
