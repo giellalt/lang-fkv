@@ -133,6 +133,7 @@ Refl	Reflexive
 Recipr	Reciprocal
 Rel	Relative
 Indef	Indefinite
+Qu	Quantifier
 Card	Cardinal
 Ord	Ordinal
 #Subclass
@@ -158,8 +159,7 @@ Tra	Translative
 Ins	Instructive
 #Case
 
-
-Comp	Comparative
+Compar	Comparative
 Superl	Superlative
 #Grade
 
@@ -184,8 +184,6 @@ Prt	Preterite Tense
 Cond	Conditional
 Imprt	Imperative
 Ind	Indicative
-Pot	Potential
-Cond	Conditional
 #Mood
 
 Sg1	1. Person Singular
@@ -204,9 +202,8 @@ Act	Active
 Neg	Negative verb
 #Polarity
 
-InfA	First Infinitive
-InfE	Second Infinitive
-InfMa	Third Infinitive
+Inf	First Infinitive
+Inf3	Third Infinitive
 PrfPrc	Perfect Participle
 PrsPrc	Present Participle
 #Infinite
