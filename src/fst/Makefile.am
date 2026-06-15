@@ -81,8 +81,10 @@ endif
 # We need to add processing of language-specific tags in the analyser:
 .generated/analyser-gt-desc.%: .generated/analyser-gt-desc.tmp.% \
 					filters/remove-derivation-position-tags.% \
-					filters/remove-norm-comp-tags.%
+					filters/remove-norm-comp-tags.% \
+					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			    @\"filters/remove-usage-tags.$*\" \
 			    @\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
 			.o. @\"$<\"                                         \
@@ -94,8 +96,10 @@ endif
 # We need to add processing of language-specific tags in the analyser:
 .generated/analyser-dict-gt-desc.%: .generated/analyser-dict-gt-desc.tmp.% \
 					filters/remove-derivation-position-tags.% \
-					filters/remove-norm-comp-tags.%
+					filters/remove-norm-comp-tags.% \
+					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			    @\"filters/remove-usage-tags.$*\" \
 			    @\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
 			.o. @\"$<\"                                         \
@@ -107,8 +111,10 @@ endif
 # We need to add processing of language-specific tags in the analyser:
 .generated/analyser-dict-gt-desc-mobile.%: .generated/analyser-dict-gt-desc-mobile.tmp.% \
 					filters/remove-derivation-position-tags.% \
-					filters/remove-norm-comp-tags.%
+					filters/remove-norm-comp-tags.% \
+					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			    @\"filters/remove-usage-tags.$*\" \
 			    @\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
 			.o. @\"$<\"                                         \
@@ -124,8 +130,10 @@ endif
 					filters/insert-default_left_compounding-tags.% \
 					filters/split-CmpN-tags.% \
 					filters/convert_to_flags-CmpNP-tags.% \
-					filters/split-CmpNP-tags.%
+					filters/split-CmpNP-tags.% \
+					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			    @\"filters/remove-usage-tags.$*\" \
 			    @\"filters/remove-derivation-position-tags.$*\"        \
 			.o. @\"filters/split-CmpN-tags.$*\"                      \
 			.o. @\"filters/insert-default_left_compounding-tags.$*\" \
@@ -161,8 +169,10 @@ endif
 				filters/remove-derivation-position-tags.hfst   \
 				filters/remove-norm-comp-tags.hfst \
 				filters/remove-orig_lang-tags.hfst             \
-				filters/rename-POS_before_Der-tags.hfst        
+				filters/rename-POS_before_Der-tags.hfst        \
+					filters/remove-usage-tags.hfst
 	$(AM_V_HXFST)$(PRINTF) "read regex \
+			    @\"filters/remove-usage-tags.hfst\" \
 		    @\"filters/remove-derivation-position-tags.hfst\" \
 		.o. @\"filters/remove-norm-comp-tags.hfst\" \
 		.o. @\"filters/remove-orig_lang-tags.hfst\"           \
@@ -183,8 +193,10 @@ endif
 					filters/remove-norm-comp-tags.% \
 					filters/remove-dialect-tags.%             \
 					filters/remove-homonymy-tags.%            \
-					filters/rename-POS_before_Der-tags.%
+					filters/rename-POS_before_Der-tags.% \
+					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			    @\"filters/remove-usage-tags.$*\" \
 			    @\"filters/remove-dialect-tags.$*\"            \
 			.o. @\"filters/remove-homonymy-tags.$*\"           \
 			.o. @\"filters/remove-orig_lang-tags.$*\"          \
@@ -205,8 +217,10 @@ define giella_generators
 					 filters/remove-norm-comp-tags.$(1) \
 					 filters/make-optional-coll-tags.$(1)             \
 					 filters/make-optional-lang_hom-tags.$(1)         \
-					 filters/rename_optional-POS_before_Der-tags.$(1) 
+					 filters/rename_optional-POS_before_Der-tags.$(1) \
+					 filters/remove-usage-tags.$(1) 
 	$$(AM_V_XFST_TOOL)$$(PRINTF) "read regex \
+			    @\"filters/remove-usage-tags.$(1)\" \
 			    @\"filters/make-optional-coll-tags.$(1)\"             \
 			.o. @\"filters/make-optional-lang_hom-tags.$(1)\"         \
 			.o. @\"filters/rename_optional-POS_before_Der-tags.$(1)\" \
@@ -225,8 +239,10 @@ $(foreach fst,hfst xfst foma,$(eval $(call giella_generators,$(fst))))
 .generated/generator-dict-gt-norm.%: .generated/generator-dict-gt-norm.tmp.%             \
 					 filters/remove-derivation-position-tags.%      \
 					 filters/remove-norm-comp-tags.% \
-					 filters/rename_optional-POS_before_Der-tags.% 
+					 filters/rename_optional-POS_before_Der-tags.% \
+					 filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			    @\"filters/remove-usage-tags.$*\" \
 			    @\"filters/rename_optional-POS_before_Der-tags.$*\" \
 			.o. @\"filters/remove-derivation-position-tags.$*\"  \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
