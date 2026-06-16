@@ -85,7 +85,7 @@ endif
 					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 			    @\"filters/remove-usage-tags.$*\" \
-			    @\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
 			.o. @\"$<\"                                         \
 			;\n\
@@ -100,7 +100,7 @@ endif
 					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 			    @\"filters/remove-usage-tags.$*\" \
-			    @\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
 			.o. @\"$<\"                                         \
 			;\n\
@@ -115,7 +115,7 @@ endif
 					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 			    @\"filters/remove-usage-tags.$*\" \
-			    @\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
 			.o. @\"$<\"                                         \
 			;\n\
@@ -134,7 +134,7 @@ endif
 					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 			    @\"filters/remove-usage-tags.$*\" \
-			    @\"filters/remove-derivation-position-tags.$*\"        \
+			.o. @\"filters/remove-derivation-position-tags.$*\"        \
 			.o. @\"filters/split-CmpN-tags.$*\"                      \
 			.o. @\"filters/insert-default_left_compounding-tags.$*\" \
 			.o. @\"filters/insert-default-compounding-tags.$*\"      \
@@ -173,7 +173,7 @@ endif
 					filters/remove-usage-tags.hfst
 	$(AM_V_HXFST)$(PRINTF) "read regex \
 			    @\"filters/remove-usage-tags.hfst\" \
-		    @\"filters/remove-derivation-position-tags.hfst\" \
+		.o. @\"filters/remove-derivation-position-tags.hfst\" \
 		.o. @\"filters/remove-norm-comp-tags.hfst\" \
 		.o. @\"filters/remove-orig_lang-tags.hfst\"           \
 		.o. @\"filters/rename-POS_before_Der-tags.hfst\"      \
@@ -197,7 +197,7 @@ endif
 					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 			    @\"filters/remove-usage-tags.$*\" \
-			    @\"filters/remove-dialect-tags.$*\"            \
+			.o. @\"filters/remove-dialect-tags.$*\"            \
 			.o. @\"filters/remove-homonymy-tags.$*\"           \
 			.o. @\"filters/remove-orig_lang-tags.$*\"          \
 			.o. @\"filters/remove-derivation-position-tags.$*\" \
@@ -221,7 +221,7 @@ define giella_generators
 					 filters/remove-usage-tags.$(1) 
 	$$(AM_V_XFST_TOOL)$$(PRINTF) "read regex \
 			    @\"filters/remove-usage-tags.$(1)\" \
-			    @\"filters/make-optional-coll-tags.$(1)\"             \
+			.o. @\"filters/make-optional-coll-tags.$(1)\"             \
 			.o. @\"filters/make-optional-lang_hom-tags.$(1)\"         \
 			.o. @\"filters/rename_optional-POS_before_Der-tags.$(1)\" \
 			.o. @\"filters/remove-derivation-position-tags.$(1)\"     \
@@ -243,7 +243,7 @@ $(foreach fst,hfst xfst foma,$(eval $(call giella_generators,$(fst))))
 					 filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 			    @\"filters/remove-usage-tags.$*\" \
-			    @\"filters/rename_optional-POS_before_Der-tags.$*\" \
+			.o. @\"filters/rename_optional-POS_before_Der-tags.$*\" \
 			.o. @\"filters/remove-derivation-position-tags.$*\"  \
 			.o. @\"filters/remove-norm-comp-tags.$*\" \
 			.o. @\"$<\"                                          \
