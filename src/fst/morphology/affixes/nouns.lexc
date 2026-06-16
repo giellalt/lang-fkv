@@ -62,7 +62,7 @@ LEXICON n_31 !!= * @CODE@ = maa, tie
 LEXICON n_31_ai !!= * @CODE@ = tuorestai ja muut päivät
    +N: x_31_sg ; ! like the others
    +N: x_31_pl_common ; ! avoiding genpl *tuorestainen
-+N+Sg: nom_R     ;
+   +N: nom_R     ;
 
 LEXICON x_31
 x_31_sg ;
@@ -70,7 +70,7 @@ x_31_pl ;
 
 LEXICON x_31_sg
  +Sg: nom_end         ;
- +Sg: gen_n_sg        ;
+     gen_n_sg        ;
  +Sg: ill_hVn         ; ! maahan
  +Sg: par_tA          ;
  +Sg: sgpl_cases_even ; ! sgpl = cases with same suff in sg and pl
@@ -82,7 +82,7 @@ LEXICON n_31_pl !!= * @CODE@ = häät
 +N: x_31_pl ;
 
 LEXICON x_31_pl !!= * @CODE@ = häät
-!  +Sg: gen_n_sg ; gen_n_sg in x_31
+!       gen_n_sg ; gen_n_sg in x_31
   +Pl+Dial/Por:%>i2%>ne gen_n ; ! häinen, mainen (1syll only)
   x_31_pl_common ;
 
@@ -108,7 +108,7 @@ LEXICON x_31_pl_common ! (both 1syll and tuorestai)
 
 LEXICON n_11_ae ! päivä, genpl päiviin
 +N:             x_11_ae     ;
-+N+Sg:          nom_R           ;
++N:          nom_R           ;
 
 LEXICON x_11_ae
 +Pl+Dial/Por:%>i2 gen_in ; ! päiviin
@@ -119,7 +119,7 @@ LEXICON x_11_ae
    +Sg:    nom_end                 ;
 
 !Por
-  +Sg+Dial/Por:^Por^WG          gen_n_sg        ;
+     +Dial/Por:^Por^WG          gen_n_sg        ;
   +Sg+Dial/Por:^HMETA           ill_hVVn        ; ! päivhään
   +Sg+Dial/Por:                 par_V           ;
   +Sg+Dial/Por:                 ess_nA          ;
@@ -133,7 +133,7 @@ LEXICON x_11_ae
   +Pl+Dial/Por:^Por^WG%>i2      sgpl_cases_even ; !the same affix in sg and pl
 
 !Jok
-  +Sg+Dial/Jok:^WG              gen_n_sg        ;
+     +Dial/Jok:^WG              gen_n_sg        ;
   +Sg+Dial/Jok:^HMETA           ill_hVVn        ; ! päivhään
   +Sg+Dial/Jok:                 par_A           ;
   +Sg+Dial/Jok:                 ess_nA          ;
@@ -147,7 +147,7 @@ LEXICON x_11_ae
   +Pl+Dial/Jok:^WG%>i2          sgpl_cases_even ;
 
 !Var
-  +Sg+Dial/Var:^WG              gen_n_sg        ;
+     +Dial/Var:^WG              gen_n_sg        ;
   +Sg+Dial/Var:^HMETA            ill_hVVn        ; ! päivhään
   +Sg+Dial/Var:                  par_A           ;
   +Sg+Dial/Var:                 ess_nA          ;
@@ -164,7 +164,7 @@ LEXICON x_11_ae
 
 LEXICON n_11 !!= * @CODE@  lyhyt vokali, yks vartalo, syksy ! jos loppuu i:hin ne ovat lainasanoja
 +N:             x_11     ;
-+N+Sg:             nom_R           ;
++N:             nom_R           ;
 
 LEXICON x_11
 +Pl+Dial/Por:%>i2 gen_n ; ! syksyin
@@ -177,14 +177,14 @@ LEXICON x_11
 LEXICON vanha_n_21C ! vierassanat: ranch/ranchi
 +N+Sg:  nom_end    ; ! Hans
 :i n_11_i ; ! Hansi
-+N+Sg:i nom_R      ;
++N:i nom_R      ;
 
 LEXICON x_11_rest
   +Sg:                nom_end         ;
   +Sg:^HMETA          ill_hVVn        ;
 
 !Por
-  +Sg+Dial/Por:^Por^WG          gen_n_sg        ;
+     +Dial/Por:^Por^WG          gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
   +Sg+Dial/Por:^HMETA           ill_hVVn        ;
   +Sg+Dial/Por:                 ess_nA          ;
@@ -198,7 +198,7 @@ LEXICON x_11_rest
   +Pl+Dial/Por:^Por^WG%>i2      sgpl_cases_even ; !the same affix in sg and pl
 
 !Jok
-  +Sg+Dial/Jok:^WG              gen_n_sg        ;
+     +Dial/Jok:^WG              gen_n_sg        ;
   +Sg+Dial/Jok:                 par_A           ;
   +Sg+Dial/Jok:^HMETA           ill_hVVn        ;
   +Sg+Dial/Jok:                 ess_nA          ;
@@ -212,7 +212,7 @@ LEXICON x_11_rest
   +Pl+Dial/Jok:^WG%>i2          sgpl_cases_even ;
 
 !Var
-  +Sg+Dial/Var:^WG              gen_n_sg        ;
+     +Dial/Var:^WG              gen_n_sg        ;
   +Sg+Dial/Var:                  par_A          ;
   +Sg+Dial/Var:^HMETA           ill_hVVn        ;
   +Sg+Dial/Var:                 ess_nA          ;
@@ -234,7 +234,7 @@ LEXICON n_11_dial
 
 LEXICON x_11_dial 
   +Sg+Dial/Por:                 nom_end         ;
-  +Sg+Dial/Por:^WG              gen_n_sg        ;
+     +Dial/Por:^WG              gen_n_sg        ;
   +Sg+Dial/Por:                 par_V           ;
   +Sg+Dial/Por:^HMETA           ill_hVVn        ;
   +Sg+Dial/Por:                 ess_nA          ;
@@ -249,7 +249,7 @@ LEXICON x_11_dial
   +Pl+Dial/Por:^Por^WG%>i2      sgpl_cases_even_Por ;
 
 LEXICON x_11_dial_JokVar
-  +Sg+Dial/Jok:^WG              gen_n_sg        ;
+     +Dial/Jok:^WG              gen_n_sg        ;
   +Sg+Dial/Jok:                 par_A           ;
   +Sg+Dial/Jok:^WG              sgpl_cases_even ;
 
@@ -266,10 +266,10 @@ LEXICON n_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika
 
 
 LEXICON x_11_AO !!= * @CODE@ sana - sanoissa. Linna? Linnoissa? aika ! TODO which adjectives?
-+Sg:                    nom_R           ;
++Cmp/SgNom:             nom_R           ;
 +Sg:                    nom_end         ;
-+Sg+Dial/Por:^Por^WG    gen_n_sg        ;
-+Sg+Dial/Var:^Var^WG    gen_n_sg        ;
+   +Dial/Por:^Por^WG    gen_n_sg        ;
+   +Dial/Var:^Var^WG    gen_n_sg        ;
 +Sg+Dial/Por:^Por       par_V           ;
 +Sg+Dial/Var:^Var       par_A           ;
 +Sg+Dial/Jok:^Jok       par_A           ;
@@ -318,9 +318,9 @@ LEXICON n_11_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which ad
 +N+Dial/Jok:^Jok             x_11_A0_A2I ;
 
 LEXICON x_11_A0_A2I !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which adjectives?
-+Sg:                 nom_R   ; ! miksi tämä? TODO
+++Cmp/SgNom:                 nom_R   ; ! miksi tämä? TODO
 +Sg:                 nom_end   ;
-+Sg:^WG              gen_n_sg        ;
+   :^WG              gen_n_sg        ;
 +Sg+Dial/Por:                 par_V           ;
 +Sg+Dial/Jok:                 par_A           ;
 +Sg+Dial/Var:                 par_A           ;
@@ -372,7 +372,7 @@ LEXICON x_11_A0_A2I_pl !!= * @CODE@ kuva - kuvissa, poika - pojissa ! TODO which
 
 LEXICON n_11_saame
 +N:             x_11_saame     ;
-+N+Sg:             nom_R           ;
++N:             nom_R           ;
 +N+Sg:             nom_end         ;
 
 LEXICON x_11_saame 
@@ -380,9 +380,9 @@ LEXICON x_11_saame
   x_11_saame_i_oblique ; 
 
 LEXICON x_11_saame_i_oblique
-  +Sg+Dial/Por:^Por^WG      gen_n_sg         ;
-  +Sg+Dial/Jok:^Jok^WG      gen_n_sg         ;
-  +Sg+Dial/Var:^Var^WG      gen_n_sg         ;
+     +Dial/Por:^Por^WG      gen_n_sg         ;
+     +Dial/Jok:^Jok^WG      gen_n_sg         ;
+     +Dial/Var:^Var^WG      gen_n_sg         ;
   +Sg+Dial/Por:             par_V           ;
   +Sg+Dial/Jok:             par_A           ;
   +Sg+Dial/Var:             par_A           ;
@@ -407,7 +407,7 @@ LEXICON x_11_saame_i_oblique
 
 LEXICON n_11_i ! pappi, tooli, lyhyt vokali, loppuu i:llä
 +N:             x_11_i     ;
-+N+Sg:             nom_R           ;
++N:             nom_R           ;
 +N+Sg:             nom_end         ;
 
 LEXICON x_11_i ! pappi, tooli, lyhyt vokali, loppuu i:llä
@@ -415,9 +415,9 @@ LEXICON x_11_i ! pappi, tooli, lyhyt vokali, loppuu i:llä
   x_11_i_oblique ; ! (also for propernouns)
 
 LEXICON x_11_i_oblique ! rest of i, also propernouns
-  +Sg+Dial/Por:^Por^WG      gen_n_sg         ;
-  +Sg+Dial/Jok:^Jok^WG      gen_n_sg         ;
-  +Sg+Dial/Var:^Var^WG      gen_n_sg         ;
+     +Dial/Por:^Por^WG      gen_n_sg         ;
+     +Dial/Jok:^Jok^WG      gen_n_sg         ;
+     +Dial/Var:^Var^WG      gen_n_sg         ;
   +Sg+Dial/Por:             par_V           ;
   +Sg+Dial/Jok:             par_A           ;
   +Sg+Dial/Var:             par_A           ;
@@ -452,12 +452,12 @@ LEXICON n_11_E2I        !!= @CODE@ on ovi:ove, joki:joke, hyksi, suomi ! Ei lain
 +N+Dial/Por:^Por         x_11_E2I  ;
 +N+Dial/Var:^Var         x_11_E2I  ;
 +N+Dial/Jok:^Jok         x_11_E2I  ;
-+N+Sg:^E2I         nom_R           ; ! ^EI e to i
++N:^E2I         nom_R           ; ! ^EI e to i
 !+N+Dial/Var:^¤   x_11_E2I ; TODO for joen VAR, needs to not break other stuff
 
 LEXICON x_11_E2I
   +Sg+Nom:^E2I         K               ; ! ^EI e to i
-  +Sg:^WG          gen_n_sg        ;
+              :^WG          gen_n_sg        ;
   +Sg+Dial/Por:             par_V           ; ! suomee
   +Sg+Dial/Jok:^E2I         par_A           ; ! suomea
   +Sg+Dial/Var:^E2I         par_A           ; ! suomea
@@ -481,9 +481,9 @@ LEXICON x_11_E2I
 LEXICON x_11_E2I_prop !propernouns
 
   +Sg+Nom:^E2I         K               ; 
-  +Sg+Dial/Por:^Por^WG       gen_n_sg        ; !Lemmijoven
-  +Sg+Dial/Var:^Var^WG       gen_n_sg        ; !Lemmijoen
-  +Sg+Dial/Jok:^Jok^WG       gen_n_sg        ;
+     +Dial/Por:^Por^WG       gen_n_sg        ; !Lemmijoven
+     +Dial/Var:^Var^WG       gen_n_sg        ; !Lemmijoen
+     +Dial/Jok:^Jok^WG       gen_n_sg        ;
   +Sg+Dial/Por:              par_V           ; 
   +Sg+Dial/Var:^E2I          par_A           ; 
   +Sg+Dial/Jok:^E2I          par_A           ; 
@@ -618,7 +618,7 @@ n_21_pl ;
 
 LEXICON n_21_sg
 +N:    x_21  ;
-+N+Sg:    nom_R    ;
++N:    nom_R    ;
 
 LEXICON n_21_pl
 +N: x_21_pl ;
@@ -629,7 +629,7 @@ x_21_pl ;
 
 LEXICON x_21_sg
   +Sg:         nom_end                  ;
-  +Sg:^WG      gen_n_sg           ;
+     :^WG      gen_n_sg           ;
   +Sg+Dial/Por:         par_V              ;
   +Sg+Dial/Jok:         par_A              ; ! karamellia
   +Sg+Dial/Var:         par_A              ; ! karamellia
@@ -680,7 +680,7 @@ LEXICON n_21_ae_even
 
 LEXICON x_21_ae_even 
   +Sg:         nom_end                  ;
-  +Sg:^WG      gen_n_sg           ;
+     :^WG      gen_n_sg           ;
   +Sg+Dial/Por:         par_V              ;
   +Sg+Dial/Jok:         par_A              ; ! karamellia
   +Sg+Dial/Var:         par_A              ; ! karamellia
@@ -708,7 +708,7 @@ LEXICON x_21_odd_nomsg
 
 LEXICON x_21_odd_oblique 
   +Sg:^WG          sgpl_cases_odd ;
-  +Sg:^WG          gen_n_sg       ;
+     :^WG          gen_n_sg       ;
   +Sg+Dial/Por:             par_V          ;
   +Sg+Dial/Jok:             par_A          ;
   +Sg+Dial/Var:             par_A          ;
@@ -746,7 +746,7 @@ LEXICON x_21_A0_nomsg
 
 LEXICON x_21_A0_oblique 
   +Sg:^WG          sgpl_cases_even  ;
-  +Sg:^WG          gen_n_sg         ;
+     :^WG          gen_n_sg         ;
   +Sg+Dial/Por:             par_V            ;
   +Sg+Dial/Jok:             par_A             ;
   +Sg+Dial/Var:             par_A             ;
@@ -804,7 +804,7 @@ LEXICON x_21_odd_u
 
   +Sg:                   nom_end         ;
   +Pl:^WG                nom_t           ;
-  +Sg:^WG                gen_n_sg        ;
+     :^WG                gen_n_sg        ;
   +Sg+Dial/Por:                   par_V           ;
   +Sg+Dial/Jok:                   par_A           ;
   +Sg+Dial/Var:                   par_A           ;
@@ -833,7 +833,7 @@ LEXICON x_21_even_u
 
   +Sg:                   nom_end         ;
   +Pl:^WG                nom_t           ;
-  +Sg:^WG                gen_n_sg        ;
+     :^WG                gen_n_sg        ;
   +Sg+Dial/Por:                   par_V           ;
   +Sg+Dial/Jok:                   par_A           ;
   +Sg+Dial/Var:                   par_A           ;
@@ -860,10 +860,10 @@ LEXICON n_21_odd_AO !valinta> valinttoi. For the nouns that ends in -a and where
 
 LEXICON x_21_odd_AO
 
-+Sg:                    nom_R           ;
++Cmp/SgNom:                    nom_R           ;
 +Sg:                    nom_end         ;
-+Sg+Dial/Por:^Por^WG    gen_n_sg        ;
-!+Sg+Dial/Var:^Var^WG    gen_n_sg        ;
+    +Dial/Por:^Por^WG    gen_n_sg        ;
+!   +Dial/Var:^Var^WG    gen_n_sg        ;
 +Sg+Dial/Por:       par_V           ;
 !+Sg+Dial/Var:^Var       par_A           ;
 !+Sg+Dial/Jok:^Jok       par_A           ;
@@ -898,10 +898,10 @@ LEXICON n_21_odd_oi  ! For nouns that ends in -o and get special gemination in p
 
 LEXICON x_21_odd_oi
 
-+Sg:                    nom_R           ;
++Cmp/SgNom:                    nom_R           ;
 +Sg:                    nom_end         ;
-+Sg+Dial/Por:^Por^WG    gen_n_sg        ;
-+Sg+Dial/Var:^Var^WG    gen_n_sg        ;
+   +Dial/Por:^Por^WG    gen_n_sg        ;
+   +Dial/Var:^Var^WG    gen_n_sg        ;
 +Sg+Dial/Por:           par_V           ;
 +Sg+Dial/Var:^Var       par_A           ;
 !+Sg+Dial/Jok:^Jok       par_A           ;
@@ -932,10 +932,10 @@ LEXICON n_21_par_oi  ! For nouns that ends in -o and get special gemination in p
 
 LEXICON x_21_par_oi
 
-+Sg:                    nom_R           ;
++Cmp/SgNom:                    nom_R           ;
 +Sg:                    nom_end         ;
-+Sg+Dial/Por:^Por^WG    gen_n_sg        ;
-+Sg+Dial/Var:^Var^WG    gen_n_sg        ;
+   +Dial/Por:^Por^WG    gen_n_sg        ;
+   +Dial/Var:^Var^WG    gen_n_sg        ;
 +Sg+Dial/Por:           par_V           ;
 +Sg+Dial/Var:^Var       par_A           ;
 !+Sg+Dial/Jok:^Jok       par_A           ;
@@ -967,7 +967,7 @@ LEXICON n_21_odd_C !!= * @CODE@ lainasanat, fiction
 
 LEXICON n_21_odd_i !!= * @CODE@  meininki, tunturi TODO
 +N:     x_21_odd_i ;
-+N+Sg:     nom_R       ;
++N:     nom_R       ;
 +N+Sg:^WG  gen_n    ;
 
 LEXICON x_21_odd_i
@@ -975,7 +975,7 @@ LEXICON x_21_odd_i
   x_21_odd_i_oblique ;
 
 LEXICON x_21_odd_i_oblique
-  +Sg:^WG     gen_n_sg        ;
+              :^WG     gen_n_sg        ;
   +Sg+Dial/Por:        par_V           ;
   +Sg+Dial/Jok:        par_A           ;
   +Sg+Dial/Var:        par_A           ;
@@ -1013,7 +1013,7 @@ LEXICON n_21_even_i !kommentaari, even tavut
 +N: x_21_even_i ;
 
 LEXICON x_21_even_i 
-  +Sg:^WG     gen_n_sg        ;
+              :^WG     gen_n_sg        ;
   +Sg+Dial/Por:        par_V           ;
   +Sg+Dial/Jok:        par_A           ;
   +Sg+Dial/Var:        par_A           ;
@@ -1049,7 +1049,7 @@ LEXICON n_21_oi        !!= * @CODE@  Paivukko, perintö, kurkkio
 LEXICON x_21_oi ! Kommentaari: var ja jok dialektissa oon sg gen "aurinkon" ja sg nom "kuninkas" s.72 norjankielisessä grammatiikissa. 
   +Sg:                   nom_end         ;
   +Pl:^WG                nom_t           ;
-  +Sg:^WG                gen_n_sg        ;
+     :^WG                gen_n_sg        ;
   +Sg+Dial/Por:                   par_V           ;
   +Sg+Dial/Jok:                   par_A           ;
   +Sg+Dial/Var:                   par_A           ;
@@ -1126,7 +1126,7 @@ LEXICON x_21_oi_AO_pl            ! odd
 LEXICON x_21_oi_AO            ! odd
   +Sg:                   nom_end         ;
   +Pl:^WG                nom_t           ;
-  +Sg:^WG                gen_n_sg        ;
+     :^WG                gen_n_sg        ;
   +Sg+Dial/Por:                   par_V        ;
   +Sg+Dial/Jok:                   par_A        ;
   +Sg+Dial/Var:                   par_A        ;
@@ -1151,7 +1151,7 @@ LEXICON n_21_oi_ÄÖ_even        !!= * @CODE@  käveliijä
 LEXICON x_21_oi_AO_even
   +Sg:                   nom_end         ;
   +Pl:^WG                nom_t           ;
-  +Sg:^WG                gen_n_sg        ;
+     :^WG                gen_n_sg        ;
   +Sg+Dial/Por:                   par_V        ;
   +Sg+Dial/Jok:                   par_A        ;
   +Sg+Dial/Var:                   par_A        ;
@@ -1185,7 +1185,7 @@ LEXICON x_31_ee_nomsg
 !  +Sg+Nom+Err/Orth:%>^WG^A   K    ;
 
 LEXICON x_31_ee_oblique 
-  +Sg:e       gen_n_sg        ;
+     :e       gen_n_sg        ;
   +Sg+Dial/-Var:e   par_tA          ;
   +Sg:e       ill_sseen       ;
   +Sg:e       ess_nA          ;
@@ -1202,7 +1202,7 @@ LEXICON x_31_ee_oblique
 
 LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
   +Sg+Nom:%>^A         K               ; ! valkia
-  +Sg:%>^A         gen_n_sg        ; ! valkian
+     :%>^A         gen_n_sg        ; ! valkian
   +Sg:%>^A         par_A           ; ! valkiaa
   +Sg+Dial/Jok:%>^At        par_A           ; ! valkiata
   +Sg:             ill_hAAn        ; ! valkihaan
@@ -1221,7 +1221,7 @@ LEXICON x_31_ia ! For -Por only valkia, hopia, kauhia
 LEXICON x_31_ea ! Jok dialekti 
   
   +Sg:         nom_end                  ;
-  +Sg:^WG      gen_n_sg           ;
+     :^WG      gen_n_sg           ;
   +Sg:         par_A              ; ! karamellia
   +Sg:^HMETA   ill_sseen           ;
   +Sg:         ess_nA              ; ! karamellina
@@ -1286,7 +1286,7 @@ LEXICON x_31_yy_nomsg
 !  +Sg+Nom+Err/Orth:%>^WG^A   K    ;
 
 LEXICON x_31_yy_oblique 
-  +Sg:y       gen_n_sg        ;
+     :y       gen_n_sg        ;
   +Sg+Dial/-Var:y   par_tA          ;
   +Sg:y       ill_sseen       ;
   +Sg:y       ess_nA          ;
@@ -1307,7 +1307,7 @@ LEXICON x_31_yy_oblique
 
    LEXICON x_31_lainasana_ee
   +Sg+Nom:         K               ;
-  +Sg:       gen_n_sg        ;
+             gen_n_sg        ;
   +Sg+Dial/-Var:   par_tA          ;
   +Sg:       ill_sseen         ; ! fileehen? Mistä fileehen on otettu?
   +Sg:       ess_nA          ;
@@ -1326,7 +1326,7 @@ LEXICON x_31_yy_oblique
 
    LEXICON x_31_aa
   +Sg+Nom:         K               ;
-  +Sg:       gen_n_sg        ;
+             gen_n_sg        ;
   +Sg+Dial/-Var:   par_tA          ;
   +Sg:       ill_sseen         ; ! fileehen? Mistä fileehen on otettu?
   +Sg:       ess_nA          ;
@@ -1355,11 +1355,11 @@ LEXICON n_31_ii        !!= * @CODE@  assii (in Por) kurkkii (in Por)
 +N+Dial/Por:i          x_31_ii             ;
 +N+Dial/Jok:           x_31_oi             ; ! TODO skriv dyp kommentar her
 +N+Dial/Var:           x_31_oi             ; ! TODO skriv dyp kommentar her
-+N+Sg:           nom_R               ;
++N:           nom_R               ;
 
 LEXICON x_31_ii
   +Sg:            nom_end             ;
-  +Sg:            gen_n_sg            ;
+                  gen_n_sg            ;
   +Sg:            par_tA              ;
   +Sg:            ill_sseen           ;
   +Sg:            ess_nA              ;
@@ -1375,7 +1375,7 @@ LEXICON x_31_ii
   
 LEXICON x_31_oi 
   +Sg:                   nom_end         ;
-  +Sg:^WG                gen_n_sg        ;
+     :^WG                gen_n_sg        ;
   +Sg:                   par_A           ;
   +Sg:^HMETA             ill_hVVn        ;
   +Sg:                   ess_nnA         ; 
@@ -1392,7 +1392,7 @@ LEXICON x_31_oi
 LEXICON x_31_io ! kurkkiota 
   +Sg:                   nom_end         ;
   +Pl:^WG                nom_t           ;
-  +Sg:^WG                gen_n_sg        ;
+     :^WG                gen_n_sg        ;
   +Sg+Dial/Por:                par_tA          ;
   +Sg+Dial/Jok:                par_tA          ;
   +Sg+Dial/Var:                par_A           ;
@@ -1440,11 +1440,11 @@ LEXICON n_31_uu        !!= * @CODE@  karhuu (in Por)
 +N+Dial/Por:           x_31_uu             ;
 !+N+Dial/Jok:          x_21_oi             ; ! TODO skriv dyp kommentar her
 !+N+Dial/Var:          x_21_oi             ; ! TODO skriv dyp kommentar her
-+N+Sg:           nom_R  ; 
++N:           nom_R  ; 
 
 LEXICON x_31_uu
   +Sg:            nom_end             ;
-  +Sg:            gen_n_sg            ;
+                 gen_n_sg            ;
   +Sg:            par_tA              ;
   +Sg:            ill_sseen           ;
   +Sg:            ess_nA              ;
@@ -1466,12 +1466,12 @@ LEXICON x_31_uu
 
 LEXICON n_12        !!= @CODE@  kieli
 +N:     x_12 ;
-+N+Sg:^E2I nom_R   ; ! ^E2I e to i
++N:^E2I nom_R   ; ! ^E2I e to i
 
 LEXICON x_12 ! pieni
   +Sg:^E2I        nom_end         ; ! ^E2I e to i
   +Sg:^EDEL       par_tA          ;
-  +Sg:^WG         gen_n_sg        ;
+     :^WG         gen_n_sg        ;
   +Sg:^WG         sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
   +Sg:            ess_nA          ;
   +Sg:^HMETA      ill_hVVn        ;
@@ -1493,7 +1493,7 @@ LEXICON x_12 ! pieni
 
 LEXICON n_12_pl        !!= @CODE@  nuoret
 +N:     x_12_pl ;
-+N+Sg:^E2I nom_R   ; ! ^E2I e to i
++N:^E2I nom_R   ; ! ^E2I e to i
 
 LEXICON x_12_pl ! nuoret
   +Pl:^WG         nom_t           ;
@@ -1511,12 +1511,12 @@ LEXICON x_12_pl ! nuoret
 
 LEXICON n_12_hi        !!= @CODE@  lohi, tuohi, riihi
 +N:     x_12_hi ;
-+N+Sg:^E2I nom_R   ; ! ^E2I e to i
++N:^E2I nom_R   ; ! ^E2I e to i
 
 LEXICON x_12_hi 
   +Sg:^E2I        nom_end         ; ! ^E2I e to i
   +Sg:^EDEL       par_tA          ;
-  +Sg:^WG         gen_n_sg        ;
+     :^WG         gen_n_sg        ;
   +Sg:^WG         sgpl_cases_even ; !! * @CODE@  for same affix in sg and pl
   +Sg:            ess_nA          ;
   +Sg:^HMETA      ill_hVVn        ;
@@ -1536,11 +1536,11 @@ LEXICON x_12_hi
 
 LEXICON n_12_mi       !!= @CODE@ lumi lu
 +N:   x_12_mi ;
-+N+Sg:mi nom_R       ; ! ^EI e to i
++N:mi nom_R       ; ! ^EI e to i
 
 LEXICON x_12_mi
   +Sg:mi           nom_end         ; ! ^EI e to i
-  +Sg:me^WG        gen_n_sg        ;
+     :me^WG        gen_n_sg        ;
   +Sg:n            par_tA          ;
   +Sg:me^HMETA     ill_hVVn        ; ! e is for vowel copying, then e:0
   +Sg:me           ess_nA          ;
@@ -1560,11 +1560,11 @@ LEXICON x_12_mi
   
 LEXICON n_12_niemi       !!= @CODE@ niemi nie
 +N:   x_12_niemi ;
-+N+Sg:mi nom_R       ; ! ^EI e to i
++N:mi nom_R       ; ! ^EI e to i
 
 LEXICON x_12_niemi
   +Sg:mi           nom_end         ; ! ^EI e to i
-  +Sg:me^WG        gen_n_sg        ;
+     :me^WG        gen_n_sg        ;
   +Sg:n            par_tA          ;
   +Sg:me           par_V          ;
   +Sg:me^HMETA     ill_hVVn        ; ! e is for vowel copying, then e:0
@@ -1588,12 +1588,12 @@ LEXICON n_12_si        !!= @CODE@ käsi, hirsi
 +N+Dial/Por:^Por     x_12_si ;
 +N+Dial/Var:^Var     x_12_si_var ;
 +N+Dial/Jok:^Jok     x_12_si ;
-+N+Sg: nom_R     ;
++N: nom_R     ;
 
 LEXICON x_12_si ! uusi
   +Sg:^E2I     nom_end         ;
 !                       nomgen_px       ; ! sg nom/gen px
-  +Sg:^WG      gen_n_sg        ;
+     :^WG      gen_n_sg        ;
   +Sg:^EDEL    par_tA          ; ! parsg
   +Sg:^HMETA   ill_hVVn        ;
   +Sg:         ess_nA          ;
@@ -1615,9 +1615,9 @@ LEXICON x_12_si ! uusi
   LEXICON x_12_si_var ! uusi
     +Sg:^E2I     nom_end         ;
   !                       nomgen_px       ; ! sg nom/gen px
-    +Sg:^WG      gen_n_sg        ;
-    +Sg:^WG^UU   gen_n_sg        ;
-    +Sg:^WG^TJ   gen_n_sg        ;
+       :^WG      gen_n_sg        ;
+       :^WG^UU   gen_n_sg        ;
+       :^WG^TJ   gen_n_sg        ;
     +Sg:^EDEL    par_tA          ; ! parsg
     +Sg:^HMETA   ill_hVVn        ;
     +Sg:         ess_nA          ;
@@ -1648,7 +1648,7 @@ LEXICON n_12_vuosi      !!= @CODE@ vuosi, vuona
 
 LEXICON x_12_vuosi      !!= @CODE@
   +Sg:si         nom_end         ;
-  +Sg:đe         gen_n_sg        ;
+     :đe         gen_n_sg        ;
   +Sg:t          par_tA          ; ! parsg
   +Sg:te^HMETA   ill_hVVn        ;
   +Sg:           ess_nA          ;
@@ -1670,9 +1670,9 @@ LEXICON n_12_kusi        !!= @CODE@ kusi kuusi
 
 LEXICON x_12_kusi        !!= @CODE@ kusi kuusi
   +Sg:e^E2I       nom_end         ; ! ^EI e to i
-  +Sg:e^E2I       nom_R           ; ! ^EI e to i
-  +Sg:e^WG        gen_n_sg        ;
-  +Sg:e           gen_n_sg        ; ! should be ^WG?
+  +Cmp/SgNom:e^E2I       nom_R           ; ! ^EI e to i
+     :e^WG        gen_n_sg        ;
+     :e           gen_n_sg        ; ! should be ^WG?
   +Sg:            par_tA          ; ! kuusta kusta
   +Sg:e^HMETA     ill_hVVn        ; ! e is for vowel copying, then e:0
   +Sg:e           ess_nA          ;
@@ -1698,9 +1698,9 @@ LEXICON n_12_lapsi        !!= @CODE@ lapsi la
 
 LEXICON x_12_lapsi        !!= @CODE@ lapsi la
   +Sg:psi           nom_end         ; ! ^EI e to i
-  +Sg:psi           nom_R           ; ! ^EI e to i
-  +Sg:pse^WG        gen_n_sg        ;
-  +Sg:pse           gen_n_sg        ; ! should be ^WG?
+  +Cmp/SgNom:psi           nom_R           ; ! ^EI e to i
+     :pse^WG        gen_n_sg        ;
+     :pse           gen_n_sg        ; ! should be ^WG?
   +Sg:s             par_tA          ;
   +Sg:pse^HMETA     ill_hVVn        ; ! e is for vowel copying, then e:0
   +Sg:pse           ess_nA          ;
@@ -1725,9 +1725,9 @@ LEXICON n_12_mies        !!= @CODE@ mies mie
 
 LEXICON x_12_mies        !!= @CODE@ mies mie
   +Sg:s            nom_end         ; ! ^EI e to i
-  +Sg:s            nom_R           ; ! ^EI e to i
+  +Cmp/SgNom:s            nom_R           ; ! ^EI e to i
 !          +Sg:he           gen_n           ; ! TODO, remove?
-  +Sg:he^WG        gen_n_sg        ;
+     :he^WG        gen_n_sg        ;
   +Sg:s            par_tA          ;
   +Sg:h^HMETA      ill_hVVn        ;
   +Sg:he           ess_nA          ;
@@ -1761,14 +1761,14 @@ LEXICON n_22 !!= @CODE@ tytär:tyttär, taival:taipal
 +N+Dial/Por:e^Por x_22 ;
 +N+Dial/Var:e^Var x_22_Var ;
 +N+Dial/Jok:e^Jok x_22 ;
-+N+Sg:^WG  nom_R      ;
++N:^WG  nom_R      ;
 
 
 ! tyvenen (ja muut sg) toimii Twolc:ssä mutta ei yamleilla kun kompiloi, miks? katso e:0 twolc:ssä, lisää notes
 LEXICON x_22 ! tyven
   +Sg:^WG^E0       nom_end        ;
-!  +Sg:             gen_n_sg       ;
-  +Sg:^WG          gen_n_sg       ;
+!                gen_n_sg       ;
+     :^WG          gen_n_sg       ;
   +Sg:^WG^E0       par_tA         ;
   +Sg:^HMETA       ill_hVVn       ;
   +Sg:             ess_nnA        ;
@@ -1794,7 +1794,7 @@ LEXICON x_22 ! tyven
     +Sg:^WG^E0       nom_end        ; ! tytär
     +Sg:^WG^T0^E0    nom_end        ; ! tyär
   !  +Sg:             gen_n_sg       ;
-    +Sg:^WG          gen_n_sg       ;
+       :^WG          gen_n_sg       ;
     +Sg:^WG^E0       par_tA         ; ! tytärtä
    +Sg:^WG^T0^E0    par_tA         ; ! tyärtä
     +Sg:^HMETA       ill_hVVn       ;
@@ -1824,7 +1824,7 @@ LEXICON n_22_pl !!= @CODE@ tytär:tyttär, taival:taipal
 +N+Dial/Por:e^Por x_22_pl ;
 +N+Dial/Var:e^Var x_22_Var_pl ;
 +N+Dial/Jok:e^Jok x_22_pl ;
-+N+Sg:^WG  nom_R      ;
++N:^WG  nom_R      ;
 
 
 ! tyvenen (ja muut sg) toimii Twolc:ssä mutta ei yamleilla kun kompiloi, miks? katso e:0 twolc:ssä, lisää notes
@@ -1860,7 +1860,7 @@ LEXICON n_22_m !!= @CODE@ elläin elläi yđin ydin
 +N+Dial/Por:^Por x_22_m ;
 +N+Dial/Var:^Var x_22_m ;
 +N+Dial/Jok:^Jok x_22_m ;
-+N+Sg:^WGn nom_R    ;
++N:^WGn nom_R    ;
 
 LEXICON x_22_m !!= @CODE@
   x_22_m_sg ;
@@ -1868,7 +1868,7 @@ LEXICON x_22_m !!= @CODE@
 
 LEXICON x_22_m_sg
   +Sg:^WGn      nom_end        ;
-  +Sg:me        gen_n_sg       ;
+     :me        gen_n_sg       ;
   +Sg:^WG%>n    par_tA         ;
   +Sg:me^HMETA  ill_hVVn       ;
   +Sg:me        ess_nnA        ;
@@ -1900,10 +1900,10 @@ LEXICON n_22_s !!= @CODE@  sairhaus
 
 LEXICON x_22_s_Por
   +Sg:^WGs           nom_end           ; !! * Konsonanttivartalo: poista -e ja heikko aste
-  +Sg:^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
+  +Cmp/SgNom:^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
 
   +Pl:đe             nom_t             ;
-  +Sg:đe             gen_n_sg          ;
+     :đe             gen_n_sg          ;
   +Sg:%>t            par_tA            ;
   +Sg:te^HMETA       ill_hVVn          ;
   +Sg:te             ess_nnA           ;
@@ -1919,10 +1919,10 @@ LEXICON x_22_s_Por
 
   LEXICON x_22_s_NOT_Por
     +Sg:^WGs           nom_end           ; !! * Konsonanttivartalo: poista -e ja heikko aste
-    +Sg:^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
+    +Cmp/SgNom:^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
 
     +Pl:e              nom_t             ;
-    +Sg:e              gen_n_sg          ;
+       :e              gen_n_sg          ;
     +Sg:%>t            par_tA            ;
     +Sg:te^HMETA       ill_hVVn          ;
     +Sg:te             ess_nnA           ;
@@ -1960,10 +1960,10 @@ LEXICON n_22_s_even !!= @CODE@  avaruus
 
 LEXICON x_22_s_even_Por
   +Sg:^WGs           nom_end           ; !! * Konsonanttivartalo: poista -e ja heikko aste
-  +Sg:^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
+  +Cmp/SgNom:^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
 
   +Pl:đe             nom_t             ;
-  +Sg:đe             gen_n_sg          ;
+     :đe             gen_n_sg          ;
   +Sg:%>t            par_tA            ;
   +Sg:te^HMETA       ill_hVVn          ;
   +Sg:te             ess_nA           ;
@@ -1979,10 +1979,10 @@ LEXICON x_22_s_even_Por
 
   LEXICON x_22_s_even_NOT_Por
     +Sg:^WGs           nom_end           ; !! * Konsonanttivartalo: poista -e ja heikko aste
-    +Sg:^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
+    +Cmp/SgNom:^WGs           nom_R             ; !! * Konsonanttivartalo: poista -e ja heikko aste
 
     +Pl:e              nom_t             ;
-    +Sg:e              gen_n_sg          ;
+       :e              gen_n_sg          ;
     +Sg:%>t            par_tA            ;
     +Sg:te^HMETA       ill_hVVn          ;
     +Sg:te             ess_nA           ;
@@ -2004,7 +2004,7 @@ LEXICON x_32_as
   +Sg:a^WG%>s      par_tA            ;
   +Sg:haa          ill_sseen         ;
 !      +Pl+Ill:h%>aissiin   K                 ;
-  +Sg:h%>aa        gen_n_sg          ;
+     :h%>aa        gen_n_sg          ;
   +Sg:h%>aa        ess_nA             ;
   +Sg:h%>aa        sgpl_cases_even   ;
 
@@ -2024,7 +2024,7 @@ LEXICON x_32_vaka
   +Sg+Par:kaa K ;
   +Sg:haa          ill_sseen         ;
 !      +Pl+Ill:h%>aissiin   K                 ;
-  +Sg:h%>aa        gen_n_sg          ;
+     :h%>aa        gen_n_sg          ;
   +Sg:h%>aa        ess_nA             ;
   +Sg:h%>aa        sgpl_cases_even   ;
 
@@ -2063,7 +2063,7 @@ LEXICON n_32_aes
 LEXICON x_32_aes
   +Sg+Nom:ä^WG%>s      K                 ;
   +Sg:ä^WG%>s      par_tA            ;
-  +Sg:h%>ää        gen_n_sg          ;
+     :h%>ää        gen_n_sg          ;
   +Sg:hää          ill_sseen         ;
   +Sg:h%>ää        ess_nA            ;
   +Sg:h%>ää        sgpl_cases_even   ;
@@ -2087,7 +2087,7 @@ LEXICON x_32_ae
   +Sg+Nom:ä^WG%>t      K                 ;
   +Sg+Nom:ä^WG         K                 ;
   +Sg:ä^WG%>t      par_tA            ;
-  +Sg:h%>ää        gen_n_sg          ;
+     :h%>ää        gen_n_sg          ;
   +Sg:hää          ill_sseen         ;
   +Sg:h%>ää        ess_nA            ;
   +Sg:h%>ää        sgpl_cases_even   ;
@@ -2113,7 +2113,7 @@ LEXICON n_32_is !!= @CODE@ ruvis, ruumis
 
 LEXICON x_32_is ! kaunis
   +Sg:i^WG%>s   nom_end         ;
-  +Sg:hii       gen_n_sg        ;
+     :hii       gen_n_sg        ;
   +Sg:i^WG%>s   par_tA          ;
   +Sg:%>hii     ill_sseen       ;
   +Sg:hii       ess_nA          ;
@@ -2205,7 +2205,7 @@ LEXICON x_32_ut_pl
 
 LEXICON n_32_ts !!= @CODE@ kirves
 +N:   x_32_ts ;
-+N+Sg:es nom_R      ;
++N:es nom_R      ;
 
 LEXICON x_32_ts !!= @CODE@ kirves
   +Sg:es          nom_end              ;
@@ -2220,7 +2220,7 @@ LEXICON x_32_ts !!= @CODE@ kirves
              !      +Pl+Gen:hee%>i2     gen_tten       ; ! Can this be commented out? yes, is in the common
 
 LEXICON x_32_et_ts_common
-  +Sg:         gen_n_sg        ;
+               gen_n_sg        ;
   +Sg:         ill_sseen       ;
   +Sg:         ess_nA          ;
   +Sg:         sgpl_cases_even ; !! these two lexica for cases with
@@ -2247,12 +2247,12 @@ LEXICON x_32_et_ts_common_pl
 
 LEXICON n_22_excns !!= * @CODE@ = veres (keskus)
 +N:           x_22_excns     ;
-+N+Sg:s          nom_R          ;
++N:s          nom_R          ;
 !+N+Sg:kse        gen_n_sg       ;
 
 LEXICON x_22_excns
   +Sg:^WG%>s     nom_end        ;
-  +Sg:kse        gen_n_sg       ;
+     :kse        gen_n_sg       ;
   +Sg:%>s        par_tA         ;
   +Sg:ks         ill_heen       ;
 !  +Sg:ks         ill_hVVn       ;
@@ -2300,12 +2300,12 @@ LEXICON x_22_excns_pl !!= * @CODE@ = veljekset
  
  LEXICON n_22_excns_even !!= * @CODE@ = (kuttumus)
 +N:           x_22_excns_even     ;
-+N+Sg:s          nom_R          ;
-!+N+Sg:kse        gen_n_sg       ;
++N:s          nom_R          ;
+!+N:kse        gen_n_sg       ;
 
 LEXICON x_22_excns_even
   +Sg:^WG%>s     nom_end        ;
-  +Sg:kse        gen_n_sg       ;
+     :kse        gen_n_sg       ;
   +Sg:%>s        par_tA         ;
   +Sg:ks         ill_heen       ;
 !  +Sg:ks         ill_hVVn       ;
@@ -2364,12 +2364,12 @@ LEXICON x_22_excns_even_pl
 
 LEXICON n_22_inen ! nainen, kainulainen
 +N:  x_22_inen ;
-+N+Sg:s nom_R      ;
++N:s nom_R      ;
 
 
 LEXICON x_22_inen ! varovainen
   +Sg:ne        nom_n           ;
-  +Sg:se        gen_n_sg        ;
+     :se        gen_n_sg        ;
   +Sg:s         par_tA          ;
   +Sg:se^HMETA  ill_hVVn        ;
   +Sg:se        ess_nA          ;
@@ -2389,11 +2389,11 @@ LEXICON x_22_inen ! varovainen
 
 LEXICON n_22_inen_odd !!= @CODE@ ihminen
 +N:  x_22_inen_odd ;
-+N+Sg:s nom_R         ; ! ihmiskala
++N:s nom_R         ; ! ihmiskala
 
 LEXICON x_22_inen_odd
   +Sg:nen       nom_end        ;
-  +Sg:se        gen_n_sg       ;
+     :se        gen_n_sg       ;
   +Sg:s         par_tA         ;
   +Sg:se^HMETA  ill_hVVn       ;
   +Sg:se        ess_nnA        ;
@@ -2700,7 +2700,7 @@ LEXICON n_tuhat ! !!= @CODE@ poengi-poengissa-poengiissa
 
 
 !LEXICON weak_v_stem !!= @CODE@ This bs is gonna get deleted. Replase the genetives with gen_n and just add the nom,
-! +Sg: gen_n_sg ;
+!    : gen_n_sg ;
 ! +Pl: nom_t    ;
 
 
@@ -2759,7 +2759,7 @@ LEXICON nom_end
  +Nom: K ; ! Why not PxxK ?
 
 LEXICON nom_R
- +Nom: R ;
+ +Cmp/SgNom: R ;
 
 LEXICON nom_t
  +Nom:%>t K ; ! Why not PxxK ?
@@ -2786,8 +2786,8 @@ LEXICON nom_ly
  +Nom:ly K ;
 
 LEXICON gen_n_sg ! Only with sg and general separate, because of R! This is exception!
-  gen_n         ; ! why not go from R -> K, then we don't have to write twice
- +Gen:%>n R     ; ! This (R) is for compound words, that's why sg is by itself
+        +Sg: gen_n         ; ! why not go from R -> K, then we don't have to write twice
+ +Cmp/SgGen:%>n R     ; ! This (R) is for compound words, that's why sg is by itself
 
 LEXICON gen_n
  +Gen:%> n_PxK ;
