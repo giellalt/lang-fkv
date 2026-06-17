@@ -667,7 +667,7 @@ LEXICON MATON !!= @CODE@ ! TODO TODO TODO ajattelemattomalle lle lla nna
 
 LEXICON a_22_ton_even !!= * @CODE@ muuttumaton
 +A+Sg:%>t^O          nom_n          ; ! used2be without > before n
-+A+Sg:%>tt^Om^A      gen_n_sg       ;
++A+Sg:%>tt^Om^A      gen_n       ;
 +A+Sg:%>t^On         par_tA         ;
 +A+Sg:%>tt^Om        ill_hAAn       ; ! used2be +Ill:%>tt^Omh^A^A n_PxK
 +A+Sg:%>tt^Om^A      ess_nnA         ;
@@ -713,7 +713,7 @@ LEXICON MATONodd !!= @CODE@ ! käymättömäle le la na ! TODO Probably not in u
 
 LEXICON x_22_ton !!= * @CODE@ onneton
   +Sg:%>t^O          nom_n             ;
-  +Sg:%>tt^Om^A      gen_n_sg          ;
+  +Sg:%>tt^Om^A      gen_n          ;
   +Sg:%>t^On         par_tA            ;
   +Sg:%>tt^Om        ill_hAAn          ; ! used2be +Ill:%>tt^Omh^A^A
   +Sg:%>tt^Om^A      ess_nA            ;
@@ -736,7 +736,7 @@ LEXICON a_22_ton_yksi_t
 
 LEXICON x_22_ton_yksi_t !!= * @CODE@ alaston yhelä -t:läm alastoman
   +Sg:%>t^O          nom_n             ;
-  +Sg:%>t^Om^A      gen_n_sg          ;
+  +Sg:%>t^Om^A      gen_n          ;
   +Sg:%>t^On         par_tA            ;
   +Sg:%>t^Om        ill_hAAn          ; ! used2be +Ill:%>tt^Omh^A^A
   +Sg:%>t^Om^A      ess_nA            ;
