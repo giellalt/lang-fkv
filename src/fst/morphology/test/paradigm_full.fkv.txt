@@ -14,8 +14,13 @@ N+Prop+Number+Case
 A+Number+Grade?+Case
 A+Ord+Number+Case
 V+Inf
-V+Polarity?+Diathesis?+Mood?+Tense?+Person-Number?+Number?
-V+Polarity?+Diathesis?+Infinite?+Number?+Case?
+V+Diathesis?+Ind+Tense+Person-Number?+Number?
+V+Diathesis?+Cond+Person-Number?+Number?
+V+Diathesis?+Imprt+Person-Number?
+V+Neg+Act+Mood?+Tense?+Person-Number?+Number?
+V+Diathesis?+Inf3+Case?
+V+Diathesis?+PrfPrc+Number+Case
+V+Diathesis?+PrsPrc+Number+Case
 Num+Attribute?+Number?+Case?
 Pron+Indef+Attr?
 Pron+Dem+Attr?
