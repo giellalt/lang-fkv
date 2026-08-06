@@ -26,8 +26,8 @@ LEXICON VANHAA ! still TODO fix vanha yaml
 +A+Sg+Err/Orth:a  nom_end ;
 +A+Sg:aa    par_tA         ; ! vanhaata
 +A+Sg:aa    ill_sseen      ;
-+A+Sg:aa    gen_n_sg       ;
-+A+Sg+Err/Orth:a  gen_n_sg       ;
++A:aa    gen_n_sg       ;
++A+Err/Orth:a  gen_n_sg       ;
 +A+Sg:aa    ess_nA         ;
 +A+Sg+Dial/Por:aa       sgpl_cases_even ;
 +A+Sg+Dial/Jok:aa       sgpl_cases_even ;
@@ -95,7 +95,7 @@ LEXICON VAPAA !Poikkeuksellinen. Katso s.172-173 norjankielisessä grammatiikiss
 +A+Sg:haa       par_tA          ; ! vanhaata
   +A+Sg:haa          ill_sseen         ;
 !      +Pl+Ill:h%>aissiin   K                 ;
-  +A+Sg:h%>aa        gen_n_sg          ;
+  +A:h%>aa        gen_n_sg          ;
   +A+Sg:h%>aa        ess_nA             ;
   +A+Sg:h%>aa        sgpl_cases_even   ;
 
@@ -127,7 +127,7 @@ LEXICON a_31_aa ! turhaa, pitkhään vokaalhiin päättyyvät sanat (ei vapaa, v
 
 +A:      x_31_aa       ;
 +Sg+Nom:         K               ;
-+Sg:       gen_n_sg        ;
+:       gen_n_sg        ;
 +Sg+Dial/-Var:   par_tA          ;
 +Sg:       ill_sseen         ; 
 +Sg:       ess_nA          ;
@@ -289,7 +289,7 @@ LEXICON a_31_ea
 
 LEXICON a_31_ussee
 +A+Sg+Nom:see       K               ;
-+A+Sg:hee       gen_n_sg        ;
++A:hee       gen_n_sg        ;
 +A+Sg:hee       par_tA          ;
 +A+Sg:hee       ill_sseen       ;
 +A+Sg:hee       ess_nA          ;
@@ -381,7 +381,7 @@ LEXICON a_22_ma !!= * @CODE@ vasen sg taipuu kuitenki -ma, lämmin:lämpi
 
 +A+Sg:^WG        nom_n              ; ! +Nom:^WGn
 +A+Sg:m^A        gen_n          ;
-+A+Sg:m^A        gen_n_sg       ;
++A:m^A        gen_n_sg       ;
 +A+Sg:^WG%>n     par_tA         ; ! +Par:^WG%>nt^A PxxK
 +A+Sg:m          ill_hAAn       ; ! used2be +Ill:mh^A^A n_PxK
 +A+Sg:m^A        ess_nnA        ;
@@ -540,7 +540,7 @@ LEXICON a_32_kärys !!= * @CODE@ kärys, so far this is the only word
 
 LEXICON x_32_kärys
   +Sg+Nom:%>y^WG%>s    K                 ;
-  +Sg:h%>yy        gen_n_sg          ;
+  :h%>yy        gen_n_sg          ;
   +Sg:%>y^WG%>s    par_tA            ;
   +Sg:h%>yy        ill_sseen         ;
   +Sg:h%>yy        sgpl_cases_even   ;
@@ -562,7 +562,7 @@ LEXICON a_32_sees !!= * @CODE@ sees, so far this is the only word
 
 LEXICON x_32_sees
 +N+Sg+Nom:sees K ;
-  +Sg:h%>ee        gen_n_sg          ;
+  :h%>ee        gen_n_sg          ;
 +N+Sg+Par:seestä K ;
   +Sg:h%>ee        ill_sseen         ;
   +Sg:h%>ee        sgpl_cases_even   ;
