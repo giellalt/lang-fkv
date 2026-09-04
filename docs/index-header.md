@@ -19,7 +19,7 @@ Center location data taken from [Glottolog](https://glottolog.org/). Area extent
 </div>
 
 This page documents the work on the [Kven Finnish language model](http://github.com/giellalt/lang-fkv). 
-It contains some 46350 stems, and is in use, in the Kven e-dictionary, 
+It contains some 46400 stems, and is in use, in the Kven e-dictionary, 
 and in a Kven spellchecker.
 
 
