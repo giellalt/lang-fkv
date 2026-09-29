@@ -15,9 +15,9 @@
 set -eu
 
 # Directory variables, filled in by autoconf/configure:
-top_srcdir=/Users/tobiaskvalness/langs/lang-fkv
-top_builddir=/Users/tobiaskvalness/langs/lang-fkv
-giella_core=/Users/tobiaskvalness/langs/lang-fkv/./../giella-core
+top_srcdir=/home/flammie/github/giellalt/lang-fkv
+top_builddir=/home/flammie/github/giellalt/lang-fkv
+giella_core=/home/flammie/github/giellalt/lang-fkv/./../giella-core
 
 ######### USER Variables - change these to your liking: #########
 
